@@ -2131,6 +2131,300 @@
           "q": "Which languages are they available in?",
           "a": "All 11 languages we publish in."
         }
+      ],
+      "tree": [
+        {
+          "q": "What is on the trees worksheets page?",
+          "a": "Tree-themed worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — one nature picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "dinosaurs": [
+        {
+          "q": "What is on the dinosaurs worksheets page?",
+          "a": "Dinosaur-themed worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — one prehistoric picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "birds_2": [
+        {
+          "q": "What is on this bird worksheets page?",
+          "a": "A further set of bird-themed worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — more variety for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "miscellaneous": [
+        {
+          "q": "What is on the miscellaneous worksheets page?",
+          "a": "An assorted mix of worksheets across counting, addition, sorting, matching, odd-one-out, and early spelling — a varied picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "colors": [
+        {
+          "q": "What is on the colors worksheets page?",
+          "a": "Color-themed worksheets across sorting, matching, patterns, odd-one-out, and early color-words — one foundational picture set for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "valentine_bw": [
+        {
+          "q": "What is on the Valentine black and white worksheets page?",
+          "a": "Black-and-white Valentine worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "faces_bw": [
+        {
+          "q": "What is on the faces black and white worksheets page?",
+          "a": "Black-and-white faces worksheets across matching, sorting, odd-one-out, counting, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "household_bw": [
+        {
+          "q": "What is on the household black and white worksheets page?",
+          "a": "Black-and-white household worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "nature_bw": [
+        {
+          "q": "What is on the nature black and white worksheets page?",
+          "a": "Black-and-white nature worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "objects_bw": [
+        {
+          "q": "What is on the objects black and white worksheets page?",
+          "a": "Black-and-white object worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "home_bw": [
+        {
+          "q": "What is on the home black and white worksheets page?",
+          "a": "Black-and-white home worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "sea_life_bw": [
+        {
+          "q": "What is on the sea life black and white worksheets page?",
+          "a": "Black-and-white sea life worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "sports_bw": [
+        {
+          "q": "What is on the sports black and white worksheets page?",
+          "a": "Black-and-white sports worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "apparel_bw": [
+        {
+          "q": "What is on the apparel black and white worksheets page?",
+          "a": "Black-and-white clothing worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "education_bw": [
+        {
+          "q": "What is on the education black and white worksheets page?",
+          "a": "Black-and-white school-supplies worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "farm_bw": [
+        {
+          "q": "What is on the farm black and white worksheets page?",
+          "a": "Black-and-white farm worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "kitchen_bw": [
+        {
+          "q": "What is on the kitchen black and white worksheets page?",
+          "a": "Black-and-white kitchen worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "easter_bw": [
+        {
+          "q": "What is on the Easter black and white worksheets page?",
+          "a": "Black-and-white Easter worksheets across counting, addition, sorting, patterns, matching, and word work — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "food_bw": [
+        {
+          "q": "What is on the food black and white worksheets page?",
+          "a": "Black-and-white food worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "food_bw_2": [
+        {
+          "q": "What is on this food black and white worksheets page?",
+          "a": "A further set of black-and-white food worksheets across counting, addition, sorting, matching, and early vocabulary — more printer-friendly line art for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "travel_and_holiday_bw": [
+        {
+          "q": "What is on the travel and holiday black and white worksheets page?",
+          "a": "Black-and-white travel and holiday worksheets across counting, addition, sorting, matching, and early vocabulary — printer-friendly line art for K-3, ready to color in."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
       ]
     },
     "fallback": {
@@ -2428,7 +2722,28 @@
     "flowers": "Flower worksheets bring a bright, familiar picture set — roses, tulips, daisies, sunflowers, and lilies — into practice across the curriculum. The same blooms carry a child through counting and early addition, sorting and patterning, matching, and first-letter spelling, with colour and shape giving plenty to talk about. Flower vocabulary connects naturally to spring and nature themes, and the clear pictures welcome learners still building the classroom language. This page gathers every flower-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "emotions": "Emotion worksheets give children the words and faces for how they feel — happy, sad, angry, scared, and surprised — while building early skills. The picture set runs through matching, sorting, odd-one-out, counting, and first feeling-words, so social-emotional talk doubles as real practice. Naming feelings is a cornerstone of early-years learning, and the clear faces welcome children still building the classroom language. This page gathers every emotions worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "shapes": "Shape worksheets give children the building blocks of early geometry — circles, squares, triangles, rectangles, and stars — and put them to work across the curriculum. The same shapes run through matching, sorting, patterning, counting, and odd-one-out, so a child names and compares shapes while practising other skills. Shape vocabulary is foundational maths talk, and the clear pictures welcome learners still building the classroom language. This page gathers every shape-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
-    "things_that_fly": "Things-that-fly worksheets gather everything that takes to the sky — planes, birds, butterflies, kites, and helicopters — into one picture set children love. The same images run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, with a built-in sorting question: what really flies? This theme pairs naturally with outdoor and science talk, and the clear pictures welcome learners still building the classroom language. This page gathers every things-that-fly worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in."
+    "things_that_fly": "Things-that-fly worksheets gather everything that takes to the sky — planes, birds, butterflies, kites, and helicopters — into one picture set children love. The same images run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, with a built-in sorting question: what really flies? This theme pairs naturally with outdoor and science talk, and the clear pictures welcome learners still building the classroom language. This page gathers every things-that-fly worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "tree": "Tree worksheets bring the outdoors into the classroom with a familiar picture set — oak, pine, palm, and apple trees, leaves, and branches — and put it to work across the curriculum. The same images carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so nature walks and seasons talk turn into practice. Tree vocabulary connects neatly to weather, seasons, and early science, and the clear pictures welcome learners still building the classroom language. This page gathers every tree-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "dinosaurs": "Dinosaur worksheets harness one of childhood's biggest obsessions — T. rex, triceratops, stegosaurus, and friends — to make practice irresistible. The same prehistoric picture set runs through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so enthusiasm does the motivating while the thinking stays on the skill. Dinosaur names are wonderfully memorable and pair naturally with early science and story time, and the clear pictures welcome learners still building the classroom language. This page gathers every dinosaur-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "birds_2": "This page gathers a further collection of bird worksheets — a second set of feathered friends to keep practice fresh once a class has worked through the first. The same kinds of activities run throughout: counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, all on clear bird pictures children recognise from the garden and the park. Having extra bird-themed sheets makes it easy to revisit a favourite topic without repeating the exact same worksheets. Each is a free printable PDF with a matching play-online version and an answer key, and the whole set is available in all 11 languages we publish in.",
+    "miscellaneous": "This page gathers an assorted mix of worksheets — everyday objects and odds and ends that do not belong to one single theme but are useful all the same. The variety is the point: a grab-bag picture set keeps counting and early addition, sorting and matching, odd-one-out, and first-letter spelling feeling fresh, and it is handy when you want practice that is not tied to a particular topic. The clear pictures welcome learners still building the classroom language. Every worksheet here works across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "colors": "Color worksheets give children the words for the rainbow they see everywhere — red, blue, yellow, green — and put them to work across the curriculum. The same color picture set runs through sorting and matching, patterning, odd-one-out, and first color-words, so naming and grouping by color doubles as real skill practice. Color vocabulary is foundational early-years talk and high-frequency in every language we publish. This page gathers every color-themed worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "valentine_bw": "Valentine black-and-white worksheets are the printer-friendly version of the holiday set — hearts, cards, and sweet messages in clean line art that prints crisply without color ink and is ready for children to color in themselves. The same pictures carry a child through counting and addition, sorting and matching, odd-one-out, and first words, so the activity does double duty as seasonal practice and a coloring page. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white Valentine worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "faces_bw": "Faces black-and-white worksheets present clear line drawings of faces and features — eyes, noses, smiles, and expressions — in a printer-friendly form that needs no color ink and is ready for children to color in. The same pictures run through matching, sorting, odd-one-out, counting, and first feeling-and-feature words, so the sheets double as practice and as a coloring page. Black-and-white line art is a classroom staple when color printing isn't available, and the simple outlines welcome learners still building the classroom language. This page collects every black-and-white faces worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "household_bw": "Household black-and-white worksheets show the everyday objects of home — cups, brooms, lamps, clocks — in clean line art that prints crisply without color ink and is ready for children to color in. The same pictures carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so familiar home vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white household worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "nature_bw": "Nature black-and-white worksheets bring the outdoors indoors in clean line art — trees, leaves, sun, clouds, and flowers — that prints crisply without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so seasons and nature talk turn into practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white nature worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "objects_bw": "Objects black-and-white worksheets feature a wide mix of everyday things in clean line art — printer-friendly, no color ink needed, and ready for children to color in. The varied picture set runs through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, making it a flexible go-to for general practice. Black-and-white line art is a classroom staple when color printing isn't available, and the simple outlines welcome learners still building the classroom language. This page collects every black-and-white objects worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "home_bw": "Home black-and-white worksheets picture the rooms and things of a house — beds, tables, doors, windows — in clean line art that prints without color ink and is ready for children to color in. The same images carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so home vocabulary doubles as real practice and pairs naturally with dramatic play. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white home worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "sea_life_bw": "Sea life black-and-white worksheets bring fish, crabs, octopuses, and other ocean creatures to the page in clean line art — printer-friendly, no color ink needed, and ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so ocean wonder turns into practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white sea life worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "sports_bw": "Sports black-and-white worksheets show balls, bats, goals, and gear in clean line art that prints crisply without color ink and is ready for children to color in. The same pictures carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so active-play vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white sports worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "apparel_bw": "Apparel black-and-white worksheets feature clothing and accessories — shirts, shoes, hats, coats — in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so getting-dressed vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white apparel worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "education_bw": "Education black-and-white worksheets picture the tools of school — pencils, books, rulers, scissors, backpacks — in clean line art that prints crisply without color ink and is ready for children to color in. The same images carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so classroom vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white education worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "farm_bw": "Farm black-and-white worksheets bring the barnyard to the page — cows, pigs, hens, tractors, and barns — in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so farm vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white farm worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "kitchen_bw": "Kitchen black-and-white worksheets show pots, pans, spoons, cups, and other utensils in clean line art that prints crisply without color ink and is ready for children to color in. The same pictures carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so kitchen vocabulary doubles as real practice and pairs naturally with cooking play. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white kitchen worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "easter_bw": "Easter black-and-white worksheets are the printer-friendly version of the spring-holiday set — eggs, bunnies, chicks, and baskets in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and addition, sorting and patterning, matching, and festive word work, so the activity doubles as seasonal practice and a coloring page. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white Easter worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "food_bw": "Food black-and-white worksheets picture meals and snacks — fruit, bread, drinks, and treats — in clean line art that prints crisply without color ink and is ready for children to color in. The same images carry a child through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so mealtime vocabulary doubles as real practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white food worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "food_bw_2": "This page gathers a further set of black-and-white food worksheets — more meals, snacks, and ingredients in clean line art for when a class has worked through the first collection. Like the rest, they print crisply without color ink and are ready for children to color in, and they run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling. Extra black-and-white food sheets make it easy to revisit a favourite topic without repeating the same worksheets, and the clear outlines welcome learners still building the classroom language. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "travel_and_holiday_bw": "Travel and holiday black-and-white worksheets capture suitcases, planes, beaches, and landmarks in clean line art that prints without color ink and is ready for children to color in. The same pictures run through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so holiday talk turns into practice. Black-and-white sheets are a staple when color printing isn't available, and the clear outlines welcome learners still building the classroom language. This page collects every black-and-white travel and holiday worksheet across the exercise types. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in."
   },
   "workspace": {
     "metadata": {

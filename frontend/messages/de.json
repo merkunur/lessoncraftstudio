@@ -2909,6 +2909,202 @@
           "q": "In welchen Sprachen gibt es sie?",
           "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
         }
+      ],
+      "addition__animals": [
+        {
+          "q": "Was üben Arbeitsblätter zum Addieren mit Tieren?",
+          "a": "Das erste Zusammenzählen: Tiergruppen zählen und zusammenfassen, hin zu einfachen Rechensätzen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__subtraction": [
+        {
+          "q": "Was üben Arbeitsblätter zur Subtraktion mit Tieren?",
+          "a": "Das erste Wegnehmen: Tiere durchstreichen, die weggehen, und zählen, was übrig bleibt, hin zu einfachen Rechensätzen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "alphabet-train__animals": [
+        {
+          "q": "Was üben diese Buchstabenzug-Arbeitsblätter mit Tieren?",
+          "a": "Das Erkennen der Buchstaben und die A-Z-Reihenfolge auf einem freundlichen Tierzug, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__wordsearch": [
+        {
+          "q": "Was üben Arbeitsblätter zur Wortsuche mit Tieren?",
+          "a": "Buchstaben erkennen, absuchen und Tierwortschatz: versteckte Tiernamen im Buchstabengitter finden."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__matching": [
+        {
+          "q": "Was schulen Arbeitsblätter zur Zuordnung mit Tieren?",
+          "a": "Eins-zu-eins-Zuordnung, visuelle Aufmerksamkeit und Tierwortschatz: Tiere mit ihren Partnern verbinden."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__sudoku": [
+        {
+          "q": "Was vermitteln Arbeitsblätter zum Bilder-Sudoku mit Tieren?",
+          "a": "Echtes Schlussfolgern auf einem 4x4-Tiergitter: Logik durch Ausschluss, ganz ohne Lesen oder Zahlen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__find-and-count": [
+        {
+          "q": "Was üben Arbeitsblätter zum Suchen und Zählen mit Tieren?",
+          "a": "Visuelles Absuchen und Zählen: gesuchte Tiere in einer Szene finden und abzählen, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__prepositions": [
+        {
+          "q": "Was vermitteln Arbeitsblätter zu Präpositionen mit Tieren?",
+          "a": "Lagewörter (in, auf, unter, neben), mit Tieren gezeigt: räumlicher Wortschatz für die ersten Jahre."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__big-small": [
+        {
+          "q": "Was üben Arbeitsblätter zu Groß oder klein mit Tieren?",
+          "a": "Größen vergleichen und ordnen mit Tieren: erstes Denken zum Messen für 3- bis 6-Jährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__more-less": [
+        {
+          "q": "Was üben Arbeitsblätter zu Mehr oder weniger mit Tieren?",
+          "a": "Zwei Tiergruppen vergleichen: welche hat mehr oder weniger, ohne Lesen oder Schreiben."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__shadow-match": [
+        {
+          "q": "Was üben Arbeitsblätter zum Schatten zuordnen mit Tieren?",
+          "a": "Tiere ihren Schatten zuordnen: Form und Umriss erkennen, ganz bildbasiert."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__preschool": [
+        {
+          "q": "Was findet man auf der Seite mit Tier-Arbeitsblättern für die Vorschule?",
+          "a": "Arbeitsblätter rund um Tiere zum Zählen, Zuordnen, Sortieren, Außenseiter-Finden und zu ersten Anfangsbuchstaben, für 3- bis 5-Jährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "animals__grade-1": [
+        {
+          "q": "Was findet man auf der Seite mit Tier-Arbeitsblättern für die 1. Klasse?",
+          "a": "Arbeitsblätter rund um Tiere zu Addition und Subtraktion bis 20, Sortieren, Logik und Zusammenlauten, für 6- bis 8-Jährige."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
+      ],
+      "alphabet-train__preschool": [
+        {
+          "q": "Sind Buchstabenzug-Arbeitsblätter für die Vorschule geeignet?",
+          "a": "Ja, Buchstaben auf einem freundlichen Zug in die Reihe ziehen: Buchstaben erkennen und A-Z-Reihenfolge für 3- bis 5-Jährige, ohne Lesen."
+        },
+        {
+          "q": "Sind diese Arbeitsblätter kostenlos?",
+          "a": "Ja, jedes Arbeitsblatt ist kostenlos zum Ausdrucken und online spielbar, mit Lösungsbogen und ohne Anmeldung."
+        },
+        {
+          "q": "In welchen Sprachen sind sie verfügbar?",
+          "a": "In allen 11 Sprachen, in denen wir veröffentlichen."
+        }
       ]
     },
     "fallback": {
@@ -3117,24 +3313,23 @@
     "kindergarten": "Die Arbeitsblätter für Kindergarten bündeln erste Aufgaben für Kinder von ungefähr 5 bis 7 Jahren. Kinder zählen kleine Mengen, üben das erste Plus- und Minusrechnen, ordnen Menge und Zahl einander zu, sortieren Bilder und setzen einfache Muster fort. Dazu kommen das Erkennen von Buchstaben, das Hören erster Laute und das spielerische Erlesen erster Wörter. Alles bleibt vorbereitend und altersgerecht, ohne schulischen Druck. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Setzen Sie die Blätter als ruhigen Einstieg, an der Lernstation oder als Hausaufgabe ein. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "grade-1": "Die Arbeitsblätter für 1. Klasse begleiten Kinder von ungefähr 6 bis 8 Jahren beim Schritt vom spielerischen Üben zum sicheren Rechnen und Lesen. Kinder addieren und subtrahieren im Zahlenraum bis 20, lernen Zehner und Einer zu unterscheiden und verbinden Buchstaben zu ersten Wörtern. Logikaufgaben fördern dabei genaues Hinsehen und planvolles Denken. Die Aufgaben bauen aufeinander auf und geben klare, überschaubare Schritte vor. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Kombinieren Sie Rechen- und Leseblätter, um beide Bereiche gleichmäßig zu festigen. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
     "grade-2": "Die Arbeitsblätter für 2. Klasse richten sich an Kinder von ungefähr 7 bis 9 Jahren und vertiefen das Gelernte. Kinder addieren und subtrahieren zweistellig, machen erste Schritte beim Malnehmen und arbeiten mit Zehnern und Hundertern. Im sprachlichen Bereich lesen sie längere Texte, üben Wortarbeit und lösen Kreuzwort- und Wortsucherätsel. Logikaufgaben fordern dabei Ausdauer und genaues Denken. Die Aufgaben sind anspruchsvoller, bleiben aber klar strukturiert. Jede Vorlage gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. Nutzen Sie die Blätter zum Wiederholen, als Hausaufgabe oder für die Freiarbeit. Die Sammlung steht in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",
-    "addition__animals": "Tier-Additions-Arbeitsblätter paaren die Operation, die Kinder üben, mit Vokabular, das Kinder bereits gut kennen. Das Format reduziert die kognitive Last auf dem Bild und hält sie auf der Arithmetik — nützlich für Kinder, die noch ihre Additions-Faktenbasis aufbauen.",
-    "animals__subtraction": "Tier-Subtraktions-Arbeitsblätter zeigen Wegnahme mit Lebewesen, die Kinder sofort erkennen, was die Operation einfacher zu lesen macht. Die Bilder halten den Fokus auf der Subtraktion selbst.",
-    "alphabet-train__animals": "Tier-Alphabet-Zug-Arbeitsblätter verwenden Tiernamen als Alphabet-Anker — jeder Wagen steht für ein Tier, dessen Name mit einem anderen Buchstaben beginnt. Die Paarung verstärkt die Buchstabe-Laut-Zuordnung, während Kinder die Alphabet-Sequenz üben.",
-    "animals__wordsearch": "Tier-Buchstabensalate geben Kindern ein Buchstabengitter, in dem die Zielwörter vertraute Tiernamen sind. Nützlich sowohl zur Vokabelfestigung als auch zur Übung des ausdauernden Lesens.",
-    "animals__matching": "Tier-Zuordnungs-Arbeitsblätter paaren jedes Lebewesen mit seiner Nahrung, seinem Lebensraum oder seinem Anfangsbuchstaben. Die Bilder halten die kognitive Last auf der Beziehung.",
-    "animals__sudoku": "Tier-Bilder-Sudoku setzt vier vertraute Lebewesen in ein 4×4-Gitter und bittet Kinder, die fehlenden Positionen abzuleiten. Die Bilder sind leichter zu merken als Ziffern, was Sudoku auf K-3-Niveau zugänglich macht.",
-    "animals__find-and-count": "Tier-Suchen-und-Zählen-Arbeitsblätter setzen Kinder in eine vielseitige Bauernhof- oder Zoo-Szene und bitten sie, bestimmte Lebewesen zu zählen. Die Aktivität übt visuelles Absuchen, Eins-zu-eins-Zuordnung und Ziffernschreiben in einem Kontext, den Kinder bereits gerne haben.",
-    "animals__prepositions": "Tier-Präpositions-Arbeitsblätter zeigen Lebewesen in räumlichen Beziehungen — die Katze unter dem Tisch, der Vogel auf dem Ast, der Hund neben der Hütte. Der vertraute Kontext macht das räumliche Vokabular leichter zu verinnerlichen.",
-    "animals__picture-sort": "Tier-Bild-Sortier-Arbeitsblätter bitten Kinder, Lebewesen nach ihrer Nahrung, ihrem Lebensraum oder ihrem Aussehen zu gruppieren. Sortieren ist eine der grundlegenden Klassifikationsbewegungen, und Tiere sind eine zugängliche Domäne dafür.",
-    "animals__big-small": "Tier-Groß-Klein-Arbeitsblätter nutzen die natürliche Größenvariation zwischen Lebewesen — Elefant bis Maus — um den relativen Größenvergleich konkret zu machen. Kinder lesen den Größen-Hinweis sicher, und die zugrunde liegende Fertigkeit überträgt sich.",
-    "animals__more-less": "Tier-Mehr-Weniger-Arbeitsblätter bitten Kinder, Mengen vertrauter Lebewesen zu vergleichen — drei Schafe oder fünf Schafe — und zu entscheiden, welche Gruppe mehr enthält. Die visuelle Unterstützung hält den Fokus auf dem Mengenvergleich selbst.",
-    "animals__shadow-match": "Tier-Schatten-Zuordnungs-Arbeitsblätter paaren jedes Lebewesen-Bild mit seiner Silhouette. Die Aktivität ist besonders zugänglich, da Kinder die Tierformen sicher erkennen, bevor sie die Umriss-Version bewältigen müssen.",
+    "addition__animals": "Diese Arbeitsblätter zum Addieren mit Tieren machen aus dem ersten Zusammenzählen ein Vergnügen: Kinder zählen zwei Gruppen vertrauter Tiere und fassen sie zusammen, anfangs ganz bildgestützt, später als einfache Rechensätze, sobald die Sicherheit wächst. Weil die Mengen aus Tieren bestehen, die sie ohnehin benennen, bleibt die Aufmerksamkeit beim Rechnen. So gelingt ein warmer, motivierender Einstieg in die Addition. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jede Antwort sofort prüft, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__subtraction": "Mit diesen Arbeitsblättern zur Subtraktion mit Tieren wird das Wegnehmen freundlich: Kinder sehen eine Gruppe Tiere, streichen die durch, die weggehen, und zählen, was übrig bleibt, bevor sie zu einfachen Rechensätzen übergehen. Die vertrauten Tiere halten den Blick auf der Frage, wie viele noch da sind, statt auf neuen Anweisungen. Das ist ein sanfter, motivierender Weg in die Subtraktion. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die Antworten sofort markiert, und einen Lösungsbogen. Setzen Sie sie an der Rechenstation oder als kurze Aufgabe zu zweit ein. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "alphabet-train__animals": "Bei diesen Buchstabenzug-Arbeitsblättern mit Tieren reisen Tierbilder auf dem Buchstabenzug mit: Kinder setzen jede Buchstabenkarte in den richtigen Waggon, damit das Alphabet der Reihe nach fährt, und die Tiere machen die Reihe fröhlich. Die Aufgabe schult das Erkennen der Buchstaben und die A-Z-Reihenfolge, und die freundlichen Tiere halten schon die Jüngsten bei der Sache. Es funktioniert, bevor ein Kind flüssig liest, und in jeder Familiensprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die Karten einrasten lässt und eine fertige Reihe bejubelt, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__wordsearch": "Arbeitsblätter zur Wortsuche mit Tieren machen aus dem ersten Lesen eine Suche, die Kinder zu Ende bringen wollen: Ein kleiner Satz Tiernamen versteckt sich in einem Buchstabengitter, und das Kind sucht, findet und markiert jeden, passend zu den Tierbildern neben dem Gitter. Dieses Absuchen ist echte Übung: Buchstaben erkennen, von links nach rechts verfolgen und Tierwortschatz aufbauen, verpackt als Spiel. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der Wörter am Bildschirm ausgewählt und geprüft werden, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__matching": "Arbeitsblätter zur Zuordnung mit Tieren geben Kindern eine klare, befriedigende Aufgabe: eine Linie ziehen, um jedes Tier mit seinem Partner zu verbinden. Die Entscheidung, was zusammengehört, schult die Eins-zu-eins-Zuordnung und die visuelle Aufmerksamkeit, und die beliebten Tierbilder bringen den Wortschatz mit, der beim Benennen jedes Paares entsteht. Es funktioniert für jedes Kind, unabhängig von Lesestand oder Familiensprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der Kinder jede Linie antippen, ziehen und prüfen, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__sudoku": "Arbeitsblätter zum Bilder-Sudoku mit Tieren bringen schon kleinen Kindern echte Logik mit den freundlichsten Spielsteinen. Auf einem Vier-mal-vier-Gitter setzen Kinder Tierbilder so, dass jede Zeile, jede Spalte und jedes kleine Feld eines von jedem Tier enthält, dieselbe Schlussfolgerung wie beim Sudoku der Großen, herunterskaliert und aus Tieren statt Zahlen gebaut. Es ist geduldiges, befriedigendes Denken, das kein Lesen braucht. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der Kinder Tiere an ihren Platz ziehen und das Gitter geprüft wird, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__find-and-count": "Diese Arbeitsblätter zum Suchen und Zählen mit Tieren schicken Kinder auf Tiersuche: Eine freundliche Szene ist voller Tiere, und die Aufgabe ist, jedes gesuchte Tier zu finden und abzuzählen, wie viele es sind. Suchen und Abzählen schult die visuelle Aufmerksamkeit und das Eins-zu-eins-Zählen, und die geliebten Tierbilder halten Kinder froh am Schauen. Weil die Aufgabe auf Bildern beruht, funktioniert sie unabhängig von Lesestand oder Familiensprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die Funde markiert und abzählt, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__prepositions": "Arbeitsblätter zu Präpositionen mit Tieren vermitteln die kleinen Wörter dafür, wo etwas ist, in, auf, unter, neben, und das mit Tieren, die Kinder lieben. Das Kind schaut sich die Tiere an und wählt das Bild, das die Lage zeigt, und baut so den räumlichen Wortschatz auf, der den ganzen Tag im Rechnen wie in Geschichten gebraucht wird. Die bildgeführte Aufgabe funktioniert für jedes Kind, unabhängig von Lesestand oder Familiensprache, und regt nützliches Beschreiben an. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jede Wahl prüft, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__big-small": "Arbeitsblätter zu Groß oder klein mit Tieren geben den Jüngsten Übung zur Größe mit den freundlichsten Motiven: das größte Tier erkennen, das kleinste finden und ein paar Tiere von groß nach klein ordnen. Die Aufgabe nutzt klare Bilder und ein einziges Antippen oder Markieren, sodass ein Kind gelingt, ohne ein Wort zu lesen, und das Vergleichen von Tieren nach Größe nährt den ersten Wortschatz zum Messen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die warm und sofort reagiert, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__more-less": "Arbeitsblätter zu Mehr oder weniger mit Tieren bauen eine erste Zahlvorstellung mit den freundlichsten Bildern auf: zwei Gruppen Tiere ansehen und entscheiden, welche mehr hat, welche weniger und wann beide gleich sind. Die vertrauten Tiere machen den Vergleich einladend, und die Aufgabe braucht weder Lesen noch Schreiben, nur einen Blick und eine Wahl. Das ist Grundlage für ein Zählen mit Bedeutung in den ersten Jahren. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die sanft und sofort Rückmeldung gibt, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__shadow-match": "Arbeitsblätter zum Schatten zuordnen mit Tieren bitten Kinder, jedes Tier mit seinem Schatten zu verbinden, eine klare visuelle Aufgabe, die den Blick für Form und Umriss schärft. Ein vertrautes Tier an seiner Silhouette zu erkennen, ist echte Übung im Beobachten, und die geliebten Tierbilder lassen es wie ein Spiel wirken. Es funktioniert für jedes Kind, unabhängig von Lesestand oder Familiensprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die jede Zuordnung zeichnet und prüft, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
     "animals__kindergarten": "Tiere-Arbeitsblätter für den Kindergarten setzen das beliebteste Bilderset der frühen Kindheit für Fünf- bis Siebenjährige ein. Die vertrauten Motive — Katze, Kuh, Vogel, Fisch — tragen die Kinder durch Zählen und erstes Zusammenzählen, Sortieren und Zuordnen, Was passt nicht und erste Laute und Anfangsbuchstaben, sodass jede Fertigkeit an Bildern geübt wird, die sie schon kennen — spielerisch und vorbereitend. Tiernamen sind außerdem häufig in jeder Sprache, in der wir veröffentlichen, eine echte Hilfe in einer mehrsprachigen Gruppe. Diese Seite bündelt die Tier-Arbeitsblätter, die zum Kindergartenalter passen. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen — verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
-    "animals__preschool": "Tier-Vorschul-Arbeitsblätter geben den jüngsten Lernenden gut erkennbare Bilder, gepaart mit einfachen vor-akademischen Aufgaben — den Vogel ausmalen, die Enten zählen, den Hund finden, der sich unterscheidet. Die vertrauten Bilder halten die kognitive Last gering, während die Aktivitäten die Fertigkeiten üben, die die Vorschule entwickeln soll.",
-    "animals__grade-1": "Tier-Arbeitsblätter für die 1. Klasse verwenden vertraute Lebewesen als Vehikel für die anspruchsvollere Arbeit, die das Jahr bringt — längere Buchstabensalate, mehrstufiges Zählen, beginnende Addition mit Bildunterstützung. Kinder bleiben am Thema interessiert, während die kognitive Anforderung steigt.",
+    "animals__preschool": "Arbeitsblätter mit Tieren für die Vorschule setzen den beliebtesten Bildersatz der frühen Kindheit für Drei- bis Fünfjährige in Bewegung. Die freundliche Schar, Katzen, Kühe, Vögel, Fische, trägt die Jüngsten durch das Zählen kleiner Gruppen, das Zuordnen und Sortieren, das Finden des Außenseiters und das Nachspuren erster Anfangsbuchstaben, alles auf Bildern, die sie schon lieben. Weil die Aufgaben auf Bildern beruhen, kann ein Kind, das die Unterrichtssprache noch lernt, sofort mitmachen. Diese Seite sammelt die Arbeitsblätter rund um Tiere, zugeschnitten auf die Vorschule. Jedes gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen, verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
+    "animals__grade-1": "Arbeitsblätter mit Tieren für die 1. Klasse nehmen den Bildersatz, den Kinder lieben, und richten ihn auf den Schritt vom Zählen zum Rechnen aus. Sechs- bis Achtjährige nutzen vertraute Tiere für Addition und Subtraktion im Zahlenraum bis 20, für Sortieren und Logik und für das Zusammenlauten von Buchstaben zu Tiernamen, sodass eine neue Fähigkeit auf bekannten Bildern geübt wird statt in jedem neuen Zusammenhang. Diese Seite sammelt die Arbeitsblätter rund um Tiere, die zur 1. Klasse passen. Jedes gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version und einen Lösungsbogen, verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
     "addition__kindergarten": "Arbeitsblätter zum Addieren für den Kindergarten setzen genau dort an, wo Fünf- bis Siebenjährige stehen: Aus dem Zählen wird gerade erstes Zusammenzählen. In dieser Phase bleiben die Aufgaben klein und bildgestützt — ein Kind zählt zwei Gruppen und fasst sie dann zusammen, noch ganz ohne formales Plusrechnen, bevor mit wachsender Sicherheit erste einfache Rechenaufgaben dazukommen. Kleine Zahlen und klare Bilder halten das Denken beim Zusammenfügen statt beim Lesen von Anweisungen. Die Blätter eignen sich als Einstieg in den Tag, für die Rechenstation oder eine kurze Partnerübung. Jedes gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Lösungen sofort überprüft, sowie einen Lösungsbogen. Der gesamte Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen — ohne Anmeldung.",
     "kindergarten__subtraction": "Subtraktions-Arbeitsblätter für den Kindergarten führen das Wegnehmen auf die behutsamste Weise ein: Fünf- bis Siebenjährige beginnen mit Bildaufgaben — sie streichen weg, was geht, und zählen, was bleibt — noch ganz ohne formales Rechnen. In dieser Phase geht es um erstes, spielerisches Wegnehmen bis 10 über Bilder; kleine Mengen und klare Bilder lassen die Idee von wie viele bleiben übrig ankommen, ohne dass jedes Mal neue Anweisungen ablenken. Die Blätter eignen sich als Einstieg in den Tag, für die Rechenstation oder eine kurze Partnerübung. Jedes gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, die die Lösungen sofort überprüft, sowie einen Lösungsbogen. Der gesamte Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen — ohne Anmeldung.",
-    "alphabet-train__preschool": "Vorschul-Alphabet-Zug-Arbeitsblätter führen die Alphabet-Sequenz im Entwicklungsmoment ein, in dem Kinder zu erkennen beginnen, dass Buchstaben eine Reihenfolge haben. Das Format ist nachsichtig — ein Kind, das seinen ersten Buchstaben und einige weitere kennt, kann eine Reihe dennoch ausfüllen.",
+    "alphabet-train__preschool": "Buchstabenzug-Arbeitsblätter sind ein sanfter erster Kontakt mit Buchstaben für die Vorschule: Ein freundlicher Zug trägt Buchstabenkarten, und das Kind zieht oder setzt jede in den richtigen Waggon, damit das Alphabet der Reihe nach fährt. Für Drei- bis Fünfjährige schult das das Erkennen der Buchstaben und die Gestalt der A-Z-Reihenfolge, ohne dass zu Beginn gelesen werden muss. Die großen, klaren Karten machen es für jedes Kind einladend, gleich welcher Familiensprache. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, die Karten einrasten lässt und eine fertige Reihe bejubelt, und einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ohne Anmeldung.",
     "grade-1__wordsearch": "Wortsuche-Arbeitsblätter machen aus erstem Lesen eine Suche, die Kinder der 1. Klasse gern zu Ende bringen. In jedem Rätsel verstecken sich ein paar thematische Wörter in einem Buchstabengitter; die Kinder suchen, finden und markieren jedes Wort und ordnen das Gesehene den Bildhinweisen neben dem Gitter zu. Für Sechs- bis Achtjährige ist dieses Absuchen echte Übung — Buchstabenerkennung, das Verfolgen von links nach rechts und das Festigen neuen Wortschatzes, verpackt in ein Spiel. Jedes Blatt gibt es kostenlos zum Ausdrucken, dazu eine interaktive Version, in der die Wörter am Bildschirm ausgewählt und überprüft werden, und einen Lösungsbogen. Das ganze Set ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen, ganz ohne Anmeldung.",
     "kindergarten__matching": "Zuordnung-Arbeitsblätter geben Kindergartenkindern eine klare, befriedigende Aufgabe: eine Linie ziehen, die jedes Ding mit seinem Partner verbindet. Für Fünf- bis Siebenjährige baut zu entscheiden, was zu was gehört, die Eins-zu-eins-Zuordnung, die visuelle Aufmerksamkeit und den Wortschatz auf, der vom Benennen jedes Paares kommt. Die bildgestützte Aufgabe eignet sich für jedes Kind, unabhängig von Lesestand oder Sprache zu Hause, und sie passt gut zur Lernstation, zur Partnerarbeit oder zu einem kurzen Einstieg in den Tag. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, in der Kinder durch Tippen jede Linie ziehen und prüfen, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",
     "kindergarten__sudoku": "Bilder-Sudoku-Arbeitsblätter bringen echtes logisches Denken in den Kindergarten, lange bevor Kinder ein Regelheft lesen können. Auf einem Vier-mal-vier-Gitter legt ein Kind freundliche Bilder so, dass jede Zeile, jede Spalte und jedes kleine Feld jedes Bild genau einmal enthält — dieselbe Schlussfolgerung wie beim Erwachsenen-Sudoku, auf Fünf- bis Siebenjährige zugeschnitten und aus Bildern statt aus Zahlen aufgebaut. Das ist geduldiges, befriedigendes Überlegen, das Aufmerksamkeit und das Denken im Ausschlussverfahren aufbaut. Jedes Blatt gibt es als kostenloses Arbeitsblatt zum Ausdrucken, dazu eine online spielbare Version, in der Kinder Bilder an ihren Platz ziehen und das Gitter geprüft wird, sowie einen Lösungsbogen. Der ganze Satz ist verfügbar in allen 11 Sprachen, in denen wir veröffentlichen.",

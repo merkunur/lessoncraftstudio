@@ -16,6 +16,7 @@ import {
   relatedCodesInDomain,
 } from '@/lib/standards';
 import { ActivityRow } from '@/lib/activities';
+import TopicFaq from '@/components/catalog/TopicFaq';
 
 /**
  * Curriculum-standards landing page — one URL per (CC code × locale).
@@ -320,6 +321,15 @@ export default async function StandardsPage({
             </ul>
           </section>
         )}
+
+        <TopicFaq
+          locale={params.locale}
+          variant="standards"
+          code={meta.code}
+          strand={meta.strand}
+          grade={localizedGrade}
+          pageUrl={canonicalUrl(localePath(params.locale, 'standards', codeUrlSegment(meta.code)))}
+        />
 
         <Script
           type="application/ld+json"

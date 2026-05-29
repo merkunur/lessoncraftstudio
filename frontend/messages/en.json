@@ -939,9 +939,9 @@
       "educationalLevel": "Worksheets for {topic}"
     },
     "intro": {
-      "exerciseType": "Interactive worksheets and printable PDFs to practice {topic}.",
-      "theme": "Worksheets featuring {topic}.",
-      "educationalLevel": "Activities for {topic}."
+      "exerciseType": "{count, plural, =0 {Browse {topic} worksheets here as we add them} =1 {Here is 1 {topic} worksheet} other {Here are # {topic} worksheets}}, each free to print as a PDF and to play online in the browser. They give K-3 teachers a quick, no-prep way to practise {topic} in class or at home, every sheet comes with an answer key, and the whole set is available across the 11 languages we publish in.",
+      "theme": "{count, plural, =0 {{topic}-themed worksheets will appear here as we publish them} =1 {This page has 1 {topic}-themed worksheet} other {This page collects # {topic}-themed worksheets}} for K-3 classrooms — counting, sorting, matching, and early-reading tasks that all share the same friendly {topic} pictures. Each one is free to print and to play online, comes with an answer key, and is ready in all 11 languages we support.",
+      "educationalLevel": "{count, plural, =0 {Worksheets for {topic} will appear here as we publish them} =1 {This page has 1 worksheet for {topic}} other {This page gathers # worksheets for {topic}}}, spanning early math, phonics, and vocabulary at the right level of challenge. Each is a free printable PDF with a matching play-online activity and an answer key, and every one is available in the 11 languages we publish in."
     },
     "decksCount": "{count, plural, =0 {No worksheets yet} =1 {1 worksheet} other {# worksheets}}",
     "deckCard": {
@@ -960,7 +960,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Worksheets at the intersection of {primary} and {secondary}.",
+      "intro": "{count, plural, =0 {{primary} worksheets for {secondary} will appear here as we publish them} =1 {This page has 1 {primary} worksheet for {secondary}} other {This page brings together # {primary} worksheets for {secondary}}}. Each is a free printable PDF with a matching play-online activity and an answer key, built for K-3 classrooms and available across all 11 languages LessonCraftStudio publishes in.",
       "meta": {
         "themeLevel": "Free printable and interactive {theme} worksheets for {level}: PDFs to print plus play-online activities for the multilingual K-3 classroom.",
         "themeType": "Free printable and interactive {type} worksheets with a {theme} theme: PDFs to print plus play-online activities for multilingual K-3 learners.",
@@ -1021,6 +1021,53 @@
     "mobileDrawer": {
       "openTrigger": "Filters",
       "close": "Close"
+    }
+  },
+  "topicFaq": {
+    "heading": "Frequently asked questions",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "What worksheets are on this {topic} page?",
+        "a1": "{count, plural, =0 {This page collects every {topic} worksheet as we publish it} =1 {This page has 1 {topic} worksheet — a printable PDF plus a play-online version} other {This page has # {topic} worksheets, each with a printable PDF, an answer key, and a play-online version}}.",
+        "q2": "Are these {topic} worksheets free?",
+        "a2": "Yes. Every {topic} worksheet here is free to print and to play online — no signup and no paywall.",
+        "q3": "What ages and languages are they for?",
+        "a3": "They are built for K-3 learners (about ages 4-8) and available in all 11 languages LessonCraftStudio publishes in, which makes them handy for dual-language and international classrooms."
+      },
+      "intersection": {
+        "q1": "What is on this {primary} and {secondary} page?",
+        "a1": "{count, plural, =0 {This page gathers {primary} worksheets for {secondary} as we publish them} =1 {This page has 1 {primary} worksheet for {secondary}, with a printable PDF and a play-online version} other {This page has # {primary} worksheets for {secondary}, each with a printable PDF, an answer key, and a play-online version}}.",
+        "q2": "Are these {primary} worksheets for {secondary} free?",
+        "a2": "Yes. Every worksheet here is free to print and to play online — no signup and no paywall.",
+        "q3": "Which ages and languages are they for?",
+        "a3": "They suit K-3 learners (about ages 4-8) and are available in all 11 languages we publish in."
+      },
+      "activity": {
+        "q1": "What does the {title} activity teach?",
+        "a1": "{title} is a free interactive activity for {grade}, focused on {strand}. Children play it right in the browser — no printing, login, or setup required.",
+        "q2": "Is {title} free to use?",
+        "a2": "Yes. {title} is completely free, with no signup and no paywall, on any tablet, laptop, or classroom whiteboard.",
+        "q3": "Which ages is this activity for?",
+        "a3": "It is designed for {grade} ({strand}) and works well for whole-class, small-group, or independent practice."
+      },
+      "standards": {
+        "q1": "What is covered under {code}?",
+        "a1": "{code} sits in the {strand} strand for {grade}. This page gathers the free interactive activities and worksheets aligned to it.",
+        "q2": "Are these {code} resources free?",
+        "a2": "Yes. Every activity and worksheet aligned to {code} is free to use online and to print — no signup and no paywall.",
+        "q3": "Who are these {code} activities for?",
+        "a3": "They are built for {grade} teachers and learners following the Common Core {strand} progression, and work for class, small-group, or home practice."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "How to use these worksheets",
+    "overrides": {},
+    "fallback": {
+      "topic": "Print the PDF for a no-prep classroom or homework task, or open the play-online version on a tablet or whiteboard for instant feedback. Every worksheet includes an answer key, so children can self-check or work independently. Mix sheets across themes and grade levels to build a short {topic} lesson, or send one home for extra practice.",
+      "intersection": "Print the PDF for an instant {primary} task focused on {secondary}, or launch the play-online version on a tablet or board. Every worksheet ships with an answer key for quick self-checking, and you can pair it with related themes and grade levels to extend the lesson.",
+      "hub": "Pick a subject, theme, or grade level to open a page of matching worksheets. Each one is free to print and to play online, comes with an answer key, and is available in all 11 languages we publish in — handy for dual-language and international classrooms."
     }
   },
   "topicMeta": {

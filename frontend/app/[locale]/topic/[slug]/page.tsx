@@ -29,6 +29,8 @@ import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import SiblingAxisStrip from '@/components/catalog/SiblingAxisStrip';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
+import PageUsageBlock from '@/components/catalog/PageUsageBlock';
+import TopicFaq from '@/components/catalog/TopicFaq';
 import ResultCount from '@/components/catalog/ResultCount';
 import FilterSidebar, { FacetGroup } from '@/components/catalog/FilterSidebar';
 import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
@@ -645,6 +647,14 @@ export default async function TopicPage({
           axisKey1={axisKey}
           intent1={intentForAxis(axis)}
           topicName1={topicName}
+          count={totalCount}
+        />
+
+        <PageUsageBlock
+          locale={locale}
+          variant="topic"
+          overrideKey={axisKey}
+          topicName={topicName}
         />
 
         {/* Arc 6b — Filter sidebar (left rail desktop) + main content
@@ -716,6 +726,15 @@ export default async function TopicPage({
         <CrossAxisPivots
           locale={locale}
           currentAxes={[{ axis, axisKey }]}
+        />
+
+        <TopicFaq
+          locale={locale}
+          variant="single"
+          axisKey1={axisKey}
+          topicName1={topicName}
+          count={totalCount}
+          pageUrl={canonical}
         />
 
         {/* Catalog variety Arc 1 — below-the-fold variety strips per

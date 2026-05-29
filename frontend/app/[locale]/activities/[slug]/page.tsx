@@ -21,6 +21,7 @@ import {
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
+import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 
 // "Activities" section label per locale — used for the middle breadcrumb
@@ -269,6 +270,26 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             />
           </svg>
         </section>
+
+        {/* Thin-page structural floor (Part 2): an always-rendered intro
+            paragraph (the header intro is hidden on mobile) + a 3-item FAQ
+            with FAQPage JSON-LD. Adds crawlable editorial text + rich-result
+            eligibility below the play surface. */}
+        <section className="activity-detail mx-auto max-w-2xl mt-8 px-1">
+          <p className="text-base text-ink-700 leading-relaxed">
+            {row.page_intro[params.locale]}
+          </p>
+        </section>
+        <div className="mx-auto max-w-2xl px-1">
+          <TopicFaq
+            locale={params.locale}
+            variant="activity"
+            title={row.page_title[params.locale]}
+            grade={localizedGrade}
+            strand={row.alignment.strand}
+            pageUrl={canonicalUrl(localePath(params.locale, 'activities', params.slug))}
+          />
+        </div>
 
         <Script
           type="application/ld+json"

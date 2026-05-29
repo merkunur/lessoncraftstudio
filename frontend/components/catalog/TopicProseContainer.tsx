@@ -22,6 +22,9 @@ interface TopicProseContainerProps {
   // Intersection case: two axis-keys
   axisKey2?: string;
   topicName2?: string;
+  // Live deck count — feeds the count-aware fallback intro (Part 2 structural
+  // floor). Ignored when authored topicProse is present.
+  count?: number;
 }
 
 function intentForAxis(axis: Axis): 'exerciseType' | 'theme' | 'educationalLevel' {
@@ -61,6 +64,7 @@ export default async function TopicProseContainer({
   topicName1,
   axisKey2,
   topicName2,
+  count,
 }: TopicProseContainerProps) {
   const t = await getTranslations({ locale, namespace: 'topicPage' });
   const messages = (await getMessages({ locale })) as Record<string, unknown> | null;
@@ -68,10 +72,11 @@ export default async function TopicProseContainer({
   let prose: string | null = lookupTopicProse(messages, axisKey1, axisKey2);
 
   if (!prose) {
+    const n = count ?? 0;
     if (axisKey2 && topicName2 && topicName1) {
-      prose = t('intersection.intro', { primary: topicName1, secondary: topicName2 });
+      prose = t('intersection.intro', { primary: topicName1, secondary: topicName2, count: n });
     } else if (intent1 && topicName1) {
-      prose = t(`intro.${intent1}`, { topic: topicName1 });
+      prose = t(`intro.${intent1}`, { topic: topicName1, count: n });
     } else {
       return null;
     }

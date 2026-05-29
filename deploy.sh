@@ -255,7 +255,32 @@ if [ "$SERVER_UP" = false ]; then
     pm2 status lessoncraftstudio
 fi
 
-# 8. Cleanup old release
+# 8. Static chunk retention: keep recent builds' chunks live so pre-deploy HTML
+#    (held by clients/Cloudflare) can still fetch old hashed chunks → no 404.
+#    The atomic swap above deletes the previous .next/static wholesale; without
+#    this, any client holding pre-deploy HTML 404s on now-missing chunk hashes,
+#    which (before the nginx no-store fix) Cloudflare cached and served stale,
+#    breaking page JS (e.g. the sign-in page → "cannot log in"). KEEP=5.
+ARCHIVE=".next/static-archive"   # inside .next/ → already gitignored, never served by nginx
+KEEP=5
+LIVE_STATIC=".next/standalone/.next/static"
+NEW_BUILD_ID="$(cat .next/standalone/.next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"
+echo "🧩 Static chunk retention (build ${NEW_BUILD_ID}, keep ${KEEP})..."
+mkdir -p "$ARCHIVE"
+rm -rf "${ARCHIVE:?}/${NEW_BUILD_ID}"
+cp -r "$LIVE_STATIC" "$ARCHIVE/$NEW_BUILD_ID"          # snapshot THIS build PRISTINE, before any merge
+RETAINED=0
+for prev in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null); do
+  prev="${prev%/}"
+  [ "$(basename "$prev")" = "$NEW_BUILD_ID" ] && continue   # never merge self (mtime-tie safe)
+  [ "$RETAINED" -ge "$((KEEP-1))" ] && break
+  cp -rn "$prev/." "$LIVE_STATIC/" 2>/dev/null || true       # -n: current build wins
+  RETAINED=$((RETAINED+1)); echo "   ↩︎ merged previous build $(basename "$prev")"
+done
+for old in $(ls -1dt "$ARCHIVE"/*/ 2>/dev/null | tail -n +$((KEEP+1))); do rm -rf "${old%/}"; done
+echo "   ✅ live = current + ${RETAINED} previous build(s)"
+
+# 8b. Cleanup old release
 rm -rf .next-old
 
 # 9. Verify application is running
@@ -465,6 +490,25 @@ if [ -n "$BLOG_SLUGS" ]; then
 else
   echo "  No published blog posts found - skipping post cache warming"
 fi
+
+# Verify every static chunk referenced by live HTML actually resolves (retention/sync sanity).
+# WARN-only: runs AFTER the live swap; failing cannot un-deploy and must NOT abort the
+# remaining steps (set -e is active). Surfaces loudly in the deploy output.
+echo ""
+echo "🧪 Verifying referenced static chunks resolve..."
+CHUNK_FAIL=0; CHUNK_TOTAL=0
+for route in /en/auth/signin /en; do
+  HTML="$(curl -sf "http://localhost:3000${route}" 2>/dev/null || true)"
+  [ -z "$HTML" ] && { echo "   ⚠️  could not fetch ${route} (skipping)"; continue; }
+  for asset in $(printf '%s' "$HTML" | grep -oE '/_next/static/[^"'"'"' ]+\.(js|css)' | sort -u); do
+    CHUNK_TOTAL=$((CHUNK_TOTAL+1))
+    code="$(curl -s -o /dev/null -w '%{http_code}' "http://localhost:3000${asset}")"
+    [ "$code" != "200" ] && { echo "   ❌ ${code} ${asset}"; CHUNK_FAIL=$((CHUNK_FAIL+1)); }
+  done
+done
+[ "$CHUNK_FAIL" -gt 0 ] && echo "   ⚠️  WARN: ${CHUNK_FAIL}/${CHUNK_TOTAL} chunk(s) != 200 — investigate retention/nginx" \
+                        || echo "   ✅ all ${CHUNK_TOTAL} referenced chunks return 200"
+# do NOT exit non-zero here
 
 echo ""
 echo "📡 Pinging Google with updated sitemap..."

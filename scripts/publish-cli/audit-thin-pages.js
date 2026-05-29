@@ -70,6 +70,10 @@ var INTERSECTION_PAIRS = [
 var LOCALE_WEIGHT = { en: 4, es: 3, pt: 3, de: 2, nl: 2, fr: 1, it: 1, sv: 1, da: 1, no: 1, fi: 1 };
 var AXIS_TIER = { 'topic-single': 3, hub: 3, 'topic-intersection': 2, activity: 1 };
 
+// Per-locale RICH floor (morphological calibration) lives in page-content.js
+// as the shared SoT so the audit and the Phase-5 gate band identically.
+var richFloorFor = pageContent.richFloorFor;
+
 // ---------------------------------------------------------------------------
 // args
 // ---------------------------------------------------------------------------
@@ -375,7 +379,12 @@ function runChecks(rec, ctx, opts) {
   }
 
   var wc = pageContent.countRenderedWords(rec.body || '', rec.pageType);
-  var band = pageContent.bandWordCount(wc.words, opts);
+  var localeFloor = richFloorFor(rec.locale);
+  var band = pageContent.bandWordCount(wc.words, {
+    criticalFloor: opts.criticalFloor,
+    thinFloor: localeFloor,
+    overCeiling: opts.overCeiling,
+  });
   var meta = topicAudit.extractMetaDescription(rec.body || '');
   var title = extractTitle(rec.body || '');
 
@@ -407,6 +416,7 @@ function runChecks(rec, ctx, opts) {
   base.region = wc.region;
   base.preview = wc.preview;
   base.band = band;
+  base.richFloor = localeFloor;
   base.title = title;
   base.metaDescription = meta;
   base.metaDescriptionLength = meta ? meta.length : 0;

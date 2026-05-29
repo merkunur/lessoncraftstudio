@@ -261,7 +261,7 @@ fi
 #    this, any client holding pre-deploy HTML 404s on now-missing chunk hashes,
 #    which (before the nginx no-store fix) Cloudflare cached and served stale,
 #    breaking page JS (e.g. the sign-in page → "cannot log in"). KEEP=5.
-ARCHIVE=".next/static-archive"   # inside .next/ → already gitignored, never served by nginx
+ARCHIVE=".next-static-archive"   # SIBLING of .next/ — survives next build's cleanDistDir wipe (default true); gitignored; never served
 KEEP=5
 LIVE_STATIC=".next/standalone/.next/static"
 NEW_BUILD_ID="$(cat .next/standalone/.next/BUILD_ID 2>/dev/null || echo "unknown-$(date +%s)")"

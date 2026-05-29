@@ -171,11 +171,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/yhteenlasku/",
       "primaryKeyword": "Yhteenlaskutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Yhteenlaskutehtävät",
-        "tulostettavat Yhteenlaskutehtävät",
-        "Yhteenlasku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "yhteenlaskutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -331,11 +331,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/kuvasudoku/",
       "primaryKeyword": "Kuvasudokutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kuvasudokutehtävät",
-        "tulostettavat Kuvasudokutehtävät",
-        "Kuvasudoku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kuvasudokutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -491,11 +491,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/kryptogrammi/",
       "primaryKeyword": "Kryptogrammitehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kryptogrammitehtävät",
-        "tulostettavat Kryptogrammitehtävät",
-        "Kryptogrammi lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kryptogrammitehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -635,11 +635,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/kuvapolku/",
       "primaryKeyword": "Kuvapolkutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kuvapolkutehtävät",
-        "tulostettavat Kuvapolkutehtävät",
-        "Kuvapolku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kuvapolkutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -811,11 +811,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/vahennyslasku/",
       "primaryKeyword": "Vähennyslaskutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Vähennyslaskutehtävät",
-        "tulostettavat Vähennyslaskutehtävät",
-        "Vähennyslasku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "vähennyslaskutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -969,13 +969,13 @@
       "axis": "exercise-type",
       "axisKey": "code-addition",
       "url": "https://www.lessoncraftstudio.com/fi/topic/koodattu-yhteenlasku/",
-      "primaryKeyword": "Koodattu Yhteenlaskutehtävät",
+      "primaryKeyword": "Koodatut yhteenlaskutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Koodattu Yhteenlaskutehtävät",
-        "tulostettavat Koodattu Yhteenlaskutehtävät",
-        "Koodattu Yhteenlasku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "koodatut yhteenlaskutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1129,13 +1129,13 @@
       "axis": "exercise-type",
       "axisKey": "more-less",
       "url": "https://www.lessoncraftstudio.com/fi/topic/enemman-vahemman/",
-      "primaryKeyword": "Enemmän Vai Vähemmäntehtävät",
+      "primaryKeyword": "Vertailutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Enemmän Vai Vähemmäntehtävät",
-        "tulostettavat Enemmän Vai Vähemmäntehtävät",
-        "Enemmän Vai Vähemmän lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "vertailutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1291,11 +1291,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/matematiikkapulma/",
       "primaryKeyword": "Matematiikkapulmatehtävät",
       "secondaryKeywords": [
-        "ilmaiset Matematiikkapulmatehtävät",
-        "tulostettavat Matematiikkapulmatehtävät",
-        "Matematiikkapulma lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "matematiikkapulmatehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1449,13 +1449,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/fi/topic/matematiikkatehtava/",
-      "primaryKeyword": "Matematiikkatehtävätehtävät",
+      "primaryKeyword": "Matematiikkatehtävät",
       "secondaryKeywords": [
-        "ilmaiset Matematiikkatehtävätehtävät",
-        "tulostettavat Matematiikkatehtävätehtävät",
-        "Matematiikkatehtävä lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "matematiikkatehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1609,13 +1609,13 @@
       "axis": "exercise-type",
       "axisKey": "big-small",
       "url": "https://www.lessoncraftstudio.com/fi/topic/iso-pieni/",
-      "primaryKeyword": "Iso Vai Pienitehtävät",
+      "primaryKeyword": "Kokojen vertailutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Iso Vai Pienitehtävät",
-        "tulostettavat Iso Vai Pienitehtävät",
-        "Iso Vai Pieni lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kokojen vertailutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1769,13 +1769,13 @@
       "axis": "exercise-type",
       "axisKey": "chart-count",
       "url": "https://www.lessoncraftstudio.com/fi/topic/laske-kaaviossa/",
-      "primaryKeyword": "Laske Kaaviossatehtävät",
+      "primaryKeyword": "Diagrammin lukutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Laske Kaaviossatehtävät",
-        "tulostettavat Laske Kaaviossatehtävät",
-        "Laske Kaaviossa lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "diagrammin lukutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1931,11 +1931,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/kuviojuna/",
       "primaryKeyword": "Kuviojunatehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kuviojunatehtävät",
-        "tulostettavat Kuviojunatehtävät",
-        "Kuviojuna lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kuviojunatehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2105,13 +2105,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/fi/topic/kuviotehtava/",
-      "primaryKeyword": "Kuviotehtävätehtävät",
+      "primaryKeyword": "Kuviotehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kuviotehtävätehtävät",
-        "tulostettavat Kuviotehtävätehtävät",
-        "Kuviotehtävä lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kuviotehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2267,11 +2267,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/bingo/",
       "primaryKeyword": "Bingotehtävät",
       "secondaryKeywords": [
-        "ilmaiset Bingotehtävät",
-        "tulostettavat Bingotehtävät",
-        "Bingo lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "bingotehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2427,11 +2427,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/ruudukkoyhdistys/",
       "primaryKeyword": "Ruudukkoyhdistystehtävät",
       "secondaryKeywords": [
-        "ilmaiset Ruudukkoyhdistystehtävät",
-        "tulostettavat Ruudukkoyhdistystehtävät",
-        "Ruudukkoyhdistys lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "ruudukkoyhdistystehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2585,13 +2585,13 @@
       "axis": "exercise-type",
       "axisKey": "matching",
       "url": "https://www.lessoncraftstudio.com/fi/topic/yhdistaminen/",
-      "primaryKeyword": "Yhdistäminentehtävät",
+      "primaryKeyword": "Yhdistämistehtävät",
       "secondaryKeywords": [
-        "ilmaiset Yhdistäminentehtävät",
-        "tulostettavat Yhdistäminentehtävät",
-        "Yhdistäminen lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "yhdistämistehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2745,13 +2745,13 @@
       "axis": "exercise-type",
       "axisKey": "picture-sort",
       "url": "https://www.lessoncraftstudio.com/fi/topic/lajittele-kuvat/",
-      "primaryKeyword": "Lajittele Kuvattehtävät",
+      "primaryKeyword": "Kuvien lajittelutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Lajittele Kuvattehtävät",
-        "tulostettavat Lajittele Kuvattehtävät",
-        "Lajittele Kuvat lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kuvien lajittelutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2905,13 +2905,13 @@
       "axis": "exercise-type",
       "axisKey": "shadow-match",
       "url": "https://www.lessoncraftstudio.com/fi/topic/yhdista-varjot/",
-      "primaryKeyword": "Yhdistä Varjottehtävät",
+      "primaryKeyword": "Varjojen yhdistämistehtävät",
       "secondaryKeywords": [
-        "ilmaiset Yhdistä Varjottehtävät",
-        "tulostettavat Yhdistä Varjottehtävät",
-        "Yhdistä Varjot lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "varjojen yhdistämistehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3067,11 +3067,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/aakkosjuna/",
       "primaryKeyword": "Aakkosjunatehtävät",
       "secondaryKeywords": [
-        "ilmaiset Aakkosjunatehtävät",
-        "tulostettavat Aakkosjunatehtävät",
-        "Aakkosjuna lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "aakkosjunatehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3225,13 +3225,13 @@
       "axis": "exercise-type",
       "axisKey": "prepositions",
       "url": "https://www.lessoncraftstudio.com/fi/topic/prepositiot/",
-      "primaryKeyword": "Prepositiottehtävät",
+      "primaryKeyword": "Prepositiotehtävät",
       "secondaryKeywords": [
-        "ilmaiset Prepositiottehtävät",
-        "tulostettavat Prepositiottehtävät",
-        "Prepositiot lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "prepositiotehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3385,13 +3385,13 @@
       "axis": "exercise-type",
       "axisKey": "word-guess",
       "url": "https://www.lessoncraftstudio.com/fi/topic/arvaa-sana/",
-      "primaryKeyword": "Arvaa Sanatehtävät",
+      "primaryKeyword": "Sanan arvaustehtävät",
       "secondaryKeywords": [
-        "ilmaiset Arvaa Sanatehtävät",
-        "tulostettavat Arvaa Sanatehtävät",
-        "Arvaa Sana lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "sanan arvaustehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3547,11 +3547,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/kirjainsekoitus/",
       "primaryKeyword": "Kirjainsekoitustehtävät",
       "secondaryKeywords": [
-        "ilmaiset Kirjainsekoitustehtävät",
-        "tulostettavat Kirjainsekoitustehtävät",
-        "Kirjainsekoitus lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "kirjainsekoitustehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3707,11 +3707,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/sanahaku/",
       "primaryKeyword": "Sanahakutehtävät",
       "secondaryKeywords": [
-        "ilmaiset Sanahakutehtävät",
-        "tulostettavat Sanahakutehtävät",
-        "Sanahaku lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "sanahakutehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -3867,11 +3867,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/ristikko/",
       "primaryKeyword": "Ristikkotehtävät",
       "secondaryKeywords": [
-        "ilmaiset Ristikkotehtävät",
-        "tulostettavat Ristikkotehtävät",
-        "Ristikko lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "ristikkotehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -4025,13 +4025,13 @@
       "axis": "exercise-type",
       "axisKey": "find-and-count",
       "url": "https://www.lessoncraftstudio.com/fi/topic/etsi-ja-laske/",
-      "primaryKeyword": "Etsi Ja Lasketehtävät",
+      "primaryKeyword": "Etsi ja laske -tehtävät",
       "secondaryKeywords": [
-        "ilmaiset Etsi Ja Lasketehtävät",
-        "tulostettavat Etsi Ja Lasketehtävät",
-        "Etsi Ja Laske lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "etsi ja laske -tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -4185,13 +4185,13 @@
       "axis": "exercise-type",
       "axisKey": "find-objects",
       "url": "https://www.lessoncraftstudio.com/fi/topic/etsi-esineet/",
-      "primaryKeyword": "Etsi Esineettehtävät",
+      "primaryKeyword": "Piilokuvatehtävät",
       "secondaryKeywords": [
-        "ilmaiset Etsi Esineettehtävät",
-        "tulostettavat Etsi Esineettehtävät",
-        "Etsi Esineet lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "piilokuvatehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -4347,11 +4347,11 @@
       "url": "https://www.lessoncraftstudio.com/fi/topic/aarteenetsinta/",
       "primaryKeyword": "Aarteenetsintätehtävät",
       "secondaryKeywords": [
-        "ilmaiset Aarteenetsintätehtävät",
-        "tulostettavat Aarteenetsintätehtävät",
-        "Aarteenetsintä lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "aarteenetsintätehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -4505,13 +4505,13 @@
       "axis": "exercise-type",
       "axisKey": "missing-pieces",
       "url": "https://www.lessoncraftstudio.com/fi/topic/puuttuvat-palat/",
-      "primaryKeyword": "Puuttuvat Palattehtävät",
+      "primaryKeyword": "Palapelitehtävät",
       "secondaryKeywords": [
-        "ilmaiset Puuttuvat Palattehtävät",
-        "tulostettavat Puuttuvat Palattehtävät",
-        "Puuttuvat Palat lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "palapelitehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -4665,13 +4665,13 @@
       "axis": "exercise-type",
       "axisKey": "odd-one-out",
       "url": "https://www.lessoncraftstudio.com/fi/topic/mika-ei-kuulu/",
-      "primaryKeyword": "Mikä Ei Kuulu Joukkoontehtävät",
+      "primaryKeyword": "Mikä ei kuulu joukkoon -tehtävät",
       "secondaryKeywords": [
-        "ilmaiset Mikä Ei Kuulu Joukkoontehtävät",
-        "tulostettavat Mikä Ei Kuulu Joukkoontehtävät",
-        "Mikä Ei Kuulu Joukkoon lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "mikä ei kuulu joukkoon -tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -5065,13 +5065,13 @@
       "axis": "theme",
       "axisKey": "animals",
       "url": "https://www.lessoncraftstudio.com/fi/topic/elaimet/",
-      "primaryKeyword": "Eläimetaiheiset tehtävät",
+      "primaryKeyword": "Eläinaiheiset tehtävät",
       "secondaryKeywords": [
-        "ilmaiset Eläimettehtävät",
-        "tulostettavat Eläimettehtävät",
-        "Eläimet lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "eläinaiheiset tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -9161,13 +9161,13 @@
       "axis": "educational-level",
       "axisKey": "preschool",
       "url": "https://www.lessoncraftstudio.com/fi/topic/varhaiskasvatus/",
-      "primaryKeyword": "Varhaiskasvatusn tehtävät",
+      "primaryKeyword": "Varhaiskasvatuksen tehtävät",
       "secondaryKeywords": [
-        "ilmaiset Varhaiskasvatustehtävät",
-        "tulostettavat Varhaiskasvatustehtävät",
-        "Varhaiskasvatus lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "varhaiskasvatuksen tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -9321,13 +9321,13 @@
       "axis": "educational-level",
       "axisKey": "kindergarten",
       "url": "https://www.lessoncraftstudio.com/fi/topic/esiopetus/",
-      "primaryKeyword": "Esiopetusn tehtävät",
+      "primaryKeyword": "Esiopetuksen tehtävät",
       "secondaryKeywords": [
-        "ilmaiset Esiopetustehtävät",
-        "tulostettavat Esiopetustehtävät",
-        "Esiopetus lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "esiopetuksen tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -9497,13 +9497,13 @@
       "axis": "educational-level",
       "axisKey": "grade-1",
       "url": "https://www.lessoncraftstudio.com/fi/topic/1-luokka/",
-      "primaryKeyword": "1. luokkan tehtävät",
+      "primaryKeyword": "1. luokan tehtävät",
       "secondaryKeywords": [
-        "ilmaiset 1. luokkatehtävät",
-        "tulostettavat 1. luokkatehtävät",
-        "1. luokka lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "1. luokan tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -9657,13 +9657,13 @@
       "axis": "educational-level",
       "axisKey": "grade-2",
       "url": "https://www.lessoncraftstudio.com/fi/topic/2-luokka/",
-      "primaryKeyword": "2. luokkan tehtävät",
+      "primaryKeyword": "2. luokan tehtävät",
       "secondaryKeywords": [
-        "ilmaiset 2. luokkatehtävät",
-        "tulostettavat 2. luokkatehtävät",
-        "2. luokka lapsille"
+        "ilmaiset tehtävät",
+        "tulostettavat tehtävät",
+        "2. luokan tehtävät"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

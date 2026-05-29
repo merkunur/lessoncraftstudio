@@ -1229,7 +1229,484 @@
   },
   "topicFaq": {
     "heading": "Usein kysytyt kysymykset",
-    "overrides": {},
+    "overrides": {
+      "cryptogram": [
+        {
+          "q": "Mitä kryptogrammitehtävät opettavat?",
+          "a": "Symbolien purkamista kirjaimiksi, oikeinkirjoitusta ja kärsivällistä päättelyä — lyhyitä, kuvatuettuja pulmia alkuopetukseen."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Mitä diagrammin lukutehtävät opettavat?",
+          "a": "Laskemista sekä yksinkertaisen pylväsdiagrammin lukemista ja täyttämistä — varhaista tietojen käsittelyä alkuopetukseen."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Mitä kuviotehtävät opettavat?",
+          "a": "AB- ja ABC-kuvioiden tunnistamista ja jatkamista — pohja hyppylaskennalle ja kertolaskulle; varhaiskasvatuksesta alkuopetukseen, kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Mihin bingotehtäviä voi käyttää?",
+          "a": "Koko ryhmän kertaukseen kuvista, kirjaimista tai numeroista — tunnistamista, kuuntelua ja vuoron odottamista alkuopetukseen."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Mitä ruudukkoyhdistystehtävät opettavat?",
+          "a": "Yhdistämistä, näkömuistia ja järjestelmällistä ruudukkotyöskentelyä — vedä palat oikeaan ruutuun; alkuopetukseen, kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Mitä varjojen yhdistämistehtävät harjoittavat?",
+          "a": "Näönvaraista erottelua ja muodon havaitsemista — yhdistä esine omaan varjoonsa; sopii erityisesti pienimmille."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Mitä sanan arvaustehtävät opettavat?",
+          "a": "Äänteiden yhdistämistä ja oikeinkirjoitusta — täytä puuttuvat kirjaimet kuvan osoittamaan sanaan äännellen; alkuopetuksen lukijoille."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Mitä kirjainsekoitustehtävät harjoittavat?",
+          "a": "Oikeinkirjoitusta ja kirjainten tunnistamista — järjestä sekoitetut kirjaimet kuvan osoittamaksi sanaksi; alkuopetuksen lukijoille."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Miten ristikkotehtävät toimivat pienille lapsille?",
+          "a": "Ne käyttävät tekstin sijaan kuvavihjeitä: lapsi nimeää kuvan ja kirjoittaa sen kirjaimet ruudukkoon, risteävien kirjainten auttaessa — sopii alkuopetuksen oikeinkirjoitukseen ja sanastoon."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, vastaukset mukana ja ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Minkä ikäisille piilokuvatehtävät ovat?",
+          "a": "Varhaiskasvatuksesta alkuopetukseen (3-8-vuotiaille): näönvaraisen erottelun jahti piilotetuille esineille, kuvapohjainen, ei vaadi lukutaitoa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Mitä palapelitehtävät opettavat?",
+          "a": "Näönvaraista täydentämistä sekä muodon ja asennon havaitsemista — valitse ja aseta aukkoon sopiva pala; alkuopetukseen, kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Mille tasolle yhteenlaskutehtävät on tarkoitettu?",
+          "a": "Varhaiskasvatuksesta alkuopetukseen (noin 4-8-vuotiaille): kuvatuetut tehtävät pienimmille ja yksi- sekä pienet kaksinumeroiset laskut varmemmille."
+        },
+        {
+          "q": "Ovatko yhteenlaskutehtävät ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Voivatko lapset harjoitella yhteenlaskua verkossa?",
+          "a": "Kyllä; jokaisella tehtävällä on interaktiivinen versio välittömällä palautteella sekä tulostettava PDF — kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Minkä ikäisille kuvasudoku on?",
+          "a": "Varhaiskasvatuksesta alkuopetukseen (noin 4-8-vuotiaille): nelja kertaa neljä -kuvaruudukko, joka opettaa samaa logiikkaa kuin numerosudoku ilman lukutaitovaatimusta."
+        },
+        {
+          "q": "Ovatko kuvasudokutehtävät ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivinen versio, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Tarvitseeko niiden ratkaisemiseen lukutaitoa?",
+          "a": "Ei — ne käyttävät kuvia, joten ne toimivat kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Mitä kuvapolkutehtävät opettavat?",
+          "a": "Hahmottamista ja suunnan tajua — polun jäljittämistä ruudukon halki maaliin; varhaiskasvatuksesta alkuopetukseen, täysin kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko nämä tehtävät ilmaisia?",
+          "a": "Kyllä — jokainen tehtävä on ilmainen tulostaa ja pelata verkossa, vastaukset mukana ja ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Mitä vähennyslaskutehtävät kattavat?",
+          "a": "Kuvatuettua poisottamista pienimmille sekä yksinumeroisia ja pieniä kaksinumeroisia vähennyslaskuja, varhaiskasvatuksesta alkuopetukseen (4-8-vuotiaille)."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivisia versioita, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme, kuvatuella siellä, missä monikielinen oppija hyötyy siitä."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Mitä koodattu yhteenlasku harjoittaa?",
+          "a": "Yksinumeroista yhteenlaskua sekä kirjainkoodin paljastusta — laskut vastaavat kirjaimia, jotka muodostavat sanan; esiopetuksesta 2. luokkaan."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Minkä ikäisille vertailutehtävät ovat?",
+          "a": "Varhaiskasvatukseen ja esiopetukseen (noin 3-6-vuotiaille): kuvapohjaista määrien vertailua, ei vaadi lukutaitoa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivisia versioita, vastaukset mukana, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Mitä matematiikkapulmatehtävät rakentavat?",
+          "a": "Lukukäsitystä ja kokeile-tarkista-korjaa-ajattelua — vedä palat täydentämään lukupulma; alkuopetukseen, kuvasta pelkkiin lukuihin skaalautuen."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Millaista matematiikkaa nämä tehtävät kattavat?",
+          "a": "Laskuja, puuttuvan luvun yhtälöitä sekä sekoitettuja yhteen- ja vähennyslaskuja alkuopetukseen (4-8-vuotiaille), kuvatuki helpottaa siirtymää pelkkiin lukuihin."
+        },
+        {
+          "q": "Ovatko nämä matematiikkatehtävät ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Ovatko ne saatavilla muilla kielillä?",
+          "a": "Kyllä, kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Keille kokojen vertailutehtävät ovat?",
+          "a": "Varhaiskasvatukseen ja esiopetukseen (3-6-vuotiaille): kuvapohjaista koon vertailua ja järjestämistä, ei vaadi lukutaitoa."
+        },
+        {
+          "q": "Ovatko nämä tehtävät ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, vastaukset mukana ja ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Mitä kuviojunatehtävät opettavat?",
+          "a": "Toistuvien kuvioiden tunnistamista ja jatkamista — täytä vaunut jatkaaksesi sarjaa; varhaisen matematiikan perustaa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Mitä yhdistämistehtävät harjoittavat?",
+          "a": "Yhteyksien hahmottamista ja yksi yhteen -vastaavuutta — yhdistä kukin kohde pariinsa viivalla; alkuopetukseen, kuvatuettuna."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Mitä kuvien lajittelutehtävät opettavat?",
+          "a": "Luokittelua — lajittele kuvat nimettyihin ryhmiin ja perustele valinta; alkuopetukseen, kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Minkä ikäisille aakkosjuna on?",
+          "a": "Varhaiskasvatukseen ja esiopetukseen (3-6-vuotiaille), kirjainten nimien ja A-Ö-järjestyksen oppimiseen — ei vaadi lukutaitoa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Mitä prepositiotehtävät opettavat?",
+          "a": "Sijaintia ilmaisevaa sanastoa — sisällä, päällä, alla, vieressä — sopivan kuvan valitsemalla; erinomainen kielenoppijoille, alkuopetukseen."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Mitä sanahakutehtävät opettavat?",
+          "a": "Kirjainten tunnistamista, vasemmalta oikealle silmäilyä ja aiheittaista sanastoa alkuopetuksen lukijoille — lyhyitä, kuvatuettuja sanalistoja."
+        },
+        {
+          "q": "Ovatko ne ilmaisia tulostaa ja pelata?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivinen versio, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Mitä etsi ja laske -tehtävät rakentavat?",
+          "a": "Näönvaraista silmäilyä sekä lukumäärän hahmottamista — etsi kohde-esineet kuvasta ja laske ne; alkuopetukseen, ei vaadi lukutaitoa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Mitä aarteenetsintä opettaa?",
+          "a": "Ohjeiden seuraamista ja hahmottamista — jäljitä polku suuntavihjeiden mukaan ruudukon halki; varhaiskasvatuksesta alkuopetukseen (4-8-vuotiaille)."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Mitä mikä ei kuulu joukkoon -tehtävät harjoittavat?",
+          "a": "Luokittelua ja päättelyä — havaitse kuva, joka ei kuulu joukkoon, ja kerro miksi; alkuopetukseen, kuvapohjaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Minkä ikäisille nämä varhaiskasvatuksen tehtävät ovat?",
+          "a": "Ne on suunniteltu 3-5-vuotiaille, kuvapohjaisilla tehtävillä, jotka eivät vaadi lukutaitoa aloittamiseen."
+        },
+        {
+          "q": "Ovatko varhaiskasvatuksen tehtävät ilmaisia?",
+          "a": "Kyllä — jokainen tehtävä on ilmainen tulostaa ja pelata verkossa, vastaukset mukana ja ilman rekisteröitymistä."
+        },
+        {
+          "q": "Voinko käyttää niitä monikielisessä ryhmässä?",
+          "a": "Kyllä. Samat kuvajohtoiset tehtävät ovat saatavilla kaikilla 11 kielellä, joilla julkaisemme, joten jokainen lapsi voi työskennellä tarvitsemallaan kielellä."
+        }
+      ],
+      "kindergarten": [
+        {
+          "q": "Mitä nämä esiopetuksen tehtävät kattavat?",
+          "a": "Lukujonoa ja yhteen- ja vähennyslaskun ideaa, lukumäärän ja numeron yhdistämistä, lajittelua ja kuvioita sekä alkuäänteitä — kaikki kuvatuettuna ja leikinomaisesti."
+        },
+        {
+          "q": "Ovatko ne ilmaisia tulostaa ja pelata?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivisia versioita, jokaisessa vastaukset, ilman rekisteröitymistä tai maksumuuria."
+        },
+        {
+          "q": "Millä kielillä ne ovat?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme, joten monikieliset ryhmät voivat tarjota saman tehtävän kunkin lapsen kielellä."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Mitä 1. luokka kattaa täällä?",
+          "a": "Yhteen- ja vähennyslaskua lukualueella 0-20, kymmenjärjestelmää ja kuvioita, äänteiden yhdistämistä ja yksinkertaista lukemista sekä varhaista logiikkaa — kuvatuki keventyy kohti pelkkiä lukuja ja sanoja."
+        },
+        {
+          "q": "Ovatko nämä 1. luokan tehtävät ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostaa ja pelata verkossa, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme, joten kansainväliset ja kielikylpyryhmät jakavat yhden yhtenäisen kirjaston."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Mitä taitoja nämä 2. luokan tehtävät rakentavat?",
+          "a": "Kaksinumeroista yhteen- ja vähennyslaskua, kertolaskun alkua, kymmenjärjestelmää satoihin, pidempää lukemista ja sanatyöskentelyä, ristikoita ja ennakointiin perustuvaa logiikkaa."
+        },
+        {
+          "q": "Ovatko ne ilmaisia?",
+          "a": "Kyllä — ilmaisia tulostettavia PDF-tiedostoja ja interaktiivisia versioita, jokaisessa vastaukset, ilman rekisteröitymistä."
+        },
+        {
+          "q": "Sopivatko ne monikielisiin ryhmiin?",
+          "a": "Kyllä; samat tehtävät ovat saatavilla kaikilla 11 kielellä, joilla julkaisemme, kuvavihjeineen siellä, missä ne auttavat."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Mitä eläinaiheisten tehtävien sivulla on?",
+          "a": "Eläinaiheisia tehtäviä laskemisesta, yhteenlaskusta, lajittelusta, yhdistämisestä, mikä ei kuulu joukkoon -tehtävistä ja varhaisesta oikeinkirjoituksesta — yksi tuttu kuvasarja, monta taitoa, alkuopetukseen."
+        },
+        {
+          "q": "Ovatko nämä tehtävät ilmaisia?",
+          "a": "Kyllä — jokainen tehtävä on ilmainen tulostaa ja pelata verkossa, vastaukset mukana ja ilman rekisteröitymistä."
+        },
+        {
+          "q": "Millä kielillä ne ovat saatavilla?",
+          "a": "Kaikilla 11 kielellä, joilla julkaisemme."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Mitä tehtäviä tällä {topic}-sivulla on?",
@@ -1411,31 +1888,31 @@
     "grade-3": "3. luokan oppimateriaalia 8-10-vuotiaille: kertotaulua, murtolukuja ja monivaiheisia tehtäviä OPS 2014:n tavoitteiden mukaisesti."
   },
   "topicProse": {
-    "animals": "Eläinaiheiset tehtäväarkit antavat varhaiskasvatuksen opettajille sanasto-perustan, joka kantaa läpi koko K-3-opetussuunnitelman. Lehmien laskeminen, lintujen luokittelu sen mukaan mitä ne syövät, jokaisen maatilan eläimen nimen alkukirjaimen tunnistaminen — sama kuvasto tukee lukukäsitteen kehitystä, luokittelua ja varhaista lukutaitoa ilman että lapsia tarvitsee pyytää vaihtamaan asiayhteyttä. Itse sanasto on korkeataajuista jokaisessa yhdestätoista kielestämme, mikä tekee näistä tehtäväarkeista erityisen hyödyllisiä silloin kun luokassa on lapsia eri kielitasolla.",
-    "addition": "Yhteenlaskun tehtäväarkit kohtaavat lapset siinä hetkessä, kun yhteenlasku lakkaa olemasta laskemistemppu ja muuttuu tosiasiaksi, jonka he voivat palauttaa mieleen. Tämän kokoelman tehtäväarkit antavat tämän mieleenpalauttamisen harjoituksen yksinumeroisten ja pienten kaksinumeroisten summien yli, kuvilla tuettujen tehtävien kanssa nuoremmille oppijoille ja pelkän numeromuodon kanssa kun operaatio on vakiintunut. Yhdistä interaktiiviset ja tulostettavat muodot: interaktiiviset versiot antavat välittömän palautteen, tulostettavat PDF-tiedostot toimivat hyvin parityöskentelyssä, jossa toinen lapsi kirjoittaa ja toinen tarkistaa.",
-    "subtraction": "Vähennyslasku on operaatio, joka tuo pintaan lasten intuitiot siitä, mikä jää ja mikä lähtee. Nämä tehtäväarkit rakentavat tätä intuitiota kuvapohjaisilla pois-ottamisen tehtävillä nuorimmille oppijoille, ja etenevät sitten abstraktiin vähennyslaskuun kun pois-ottamisen ele ei enää ole tarpeen. Muoto sopii hyvin yhteen luokkahuoneen havaintovälineiden kanssa — lapset voivat näytellä ensimmäisen rivin laskukiekoilla ja täydentää loput sivulla.",
-    "alphabet-train": "Aakkosjuna-tehtäväarkit rakentavat kirjaintunnistusta sijaintiin perustuvan järjestyksen kautta. Jokainen junan vaunu kantaa yhtä kirjainta, ja lapset joko täyttävät puuttuvat vaunut tai järjestävät vaunut aakkosjärjestykseen. Muoto on suvaitsevainen — lapsi joka tuntee puolet aakkosista voi silti täydentää rivit tutuilla kirjaimilla ja poimia tuntemattomat asiayhteydestä. Hyödyllinen kirjain-äänne-työskentelyyn, aakkoslaulun vahvistamiseen ja varhaiseen lukutaidon arviointiin.",
-    "wordsearch": "Sanaetsintä-tehtäväarkit rakentavat kestävää tarkkaavaisuus-lukemista: silmä silmäilee kirjainruudukkoa ja aivot vertailevat kutakin työmuistissa pidettyyn kohdesanaan. K-3-lukijoille kohteet ovat lyhyitä ja ryhmittyneitä teeman ympärille, mikä tarkoittaa että toiminta vahvistaa sanastoa samaan aikaan kuin koodausta. Nämä tehtäväarkit toimivat hyvin hiljaisina tehtävinä, siirtymähetkinä tai parityöskentelynä jossa toinen lapsi lukee kohteen ääneen toisen etsiessä.",
-    "matching": "Yhdistämis-tehtäväarkit antavat lapsille harjoitusta siitä kognitiivisesta liikkeestä, joka on suurimman osan varhaislapsuuden päättelyn perustana: huomata että kaksi asiaa kuuluvat yhteen koska niillä on jaettu ominaisuus. Nämä sivut yhdistävät kuvia niiden alkukirjaimiin, sanoja niiden merkityksiin tai määriä niiden numeroihin. Visuaalinen asettelu — kohteet kahdessa sarakkeessa yhdistettyinä suoraan tehtäväarkille piirrettyjen viivojen kautta — pitää kognitiivisen kuorman suhteella eikä menettelyllä.",
-    "sudoku": "Kuvasudoku-tehtäväarkit antavat pienille lapsille täyden sudokun loogisen kokemuksen 4×4-ruudukolla tuttujen kuvien kanssa numeroiden sijaan. Jokaisen rivin, sarakkeen ja neljänneksen on sisällettävä kukin neljästä kuvasta kerran, ja lapset päättelevät puuttuvat poissulkemalla. Pulma on aidosti haastava K-3-ikäryhmälle vaatimatta numeroiden lukemista, mikä tekee siitä saavutettavan lapsille millä tahansa lukutasolla.",
-    "find-and-count": "Etsi-ja-laske-tehtäväarkit pyytävät lapsia silmäilemään vilkasta näkymää, paikallistamaan jokaisen kohdeobjektin esiintymän ja kirjoittamaan lukumäärän. Toiminta harjoittaa kolmea taitoa samanaikaisesti: visuaalista erottelua, yksi-yhteen-vastaavuutta ja numeroiden kirjoittamista. Varhaiskasvatuksen opettajille etsi-ja-laske on hyödyllinen diagnostiikkaväline — lapsi joka laskee kuusi mutta kirjoittaa neljä näyttää teille jotain konkreettista siitä, missä aukko on.",
-    "prepositions": "Prepositio-tehtäväarkit kytkevät tilaan liittyvän sanaston konkreettisiin kuviin: kissa on tuolin alla, pallo on laatikoiden välissä, lintu on oksalla. Kuvat antavat lapsille viittauspisteen sanoille jotka muutoin olisivat abstrakteja, ja monivalintamuoto pitää kognitiivisen kuorman suhteella eikä kirjoittamisella. Hyödyllistä suomea toisena kielenä opiskeleville oppijoille, kaksikielisille luokkahuoneille ja kaikille konteksteille joissa tilasanasto vaatii eksplisiittistä opetusta.",
-    "picture-sort": "Kuvalajittelun tehtäväarkit harjoittavat luokitteluliikettä joka on varhaisten luonnontieteiden ja varhaisen lukemisen perustana. Lapset katsovat kuvajoukkoa ja ryhmittelevät ne luokittain — alkukirjaimen, ravinnon, elinpaikan tai värin mukaan. Kahden korin muoto pitää valinnan binäärisenä, mikä on oikea kognitiivinen lähtökohta lajitteluun K-3:ssa.",
-    "big-small": "Iso-pieni-tehtäväarkit harjoittavat suhteellista kokovertailua, mittaamisen ja järjestämisen alla olevaa perustaitoa. Lapset tunnistavat suurimman tai pienimmän joukosta, tai järjestävät esinesarjan koon mukaan. Kuvat ovat tarkoituksellisesti liioiteltuja jotta vertailu on yksiselitteinen — kun lapset osaavat lukea kuvavihjeen varmasti, sama taito siirtyy vähemmän ilmeisiin vertailuihin elämässä ja numerotyössä.",
-    "more-less": "Enemmän-vähemmän-tehtäväarkit ovat formaalin yhteen- ja vähennyslaskun edeltäjiä: lapset vertaavat kahta määrää ja päättävät kummalla on enemmän. Toiminta on vahvasti kuvalla tuettu koska monet K-3-lapset osaavat ratkaista sen ennen kuin he osaavat luotettavasti lukea sanoja ”enemmän” ja ”vähemmän”. Hyödyllistä lukukäsitteen tarkistuksena ja varhaisen aritmetiikan tukirakenteena.",
-    "math-puzzle": "Matemaattisen pulman tehtäväarkit pakkaavat aritmeettisen harjoituksen joksikin selvitettäväksi pikemminkin kuin joksikin harjoiteltavaksi. Jokainen pulma vaatii lasta yhdistämään lukutosiasioita loogiseen päättelyyn — mitkä kaksi lukua muodostavat tämän summan, mikä jonossa täydentää tämän kuvion, mikä operaatio tekee tästä yhtälöstä toden. Muoto pitää matematiikan kiinnostavana kun perustosiat ovat vakiintuneet.",
-    "math-worksheet": "Matemaattisen tehtäväarkin sivut antavat lapsille harjoitusta operaatioiden parissa joiden kanssa he työskentelevät juuri nyt, siinä muodossa jonka opettajat tietävät toimivan taidon vakiinnuttamiseen. Jokainen sivu kohdistaa yhteen tai kahteen operaatioon ja tarjoaa riittävästi tehtäviä kestävään harjoitukseen tulematta ylivoimaiseksi. Käyttäkää niitä kotitehtävinä, aamutyönä tai itsenäisenä harjoituksena pienryhmäopetuksen aikana.",
-    "missing-pieces": "Puuttuvien palasten tehtäväarkit harjoittavat visuaalista täydentämistä: lapset katsovat kuvaa josta osa on poistettu ja valitsevat täydentävän palan pieneltä paletilta. Toiminta harjoittaa samanaikaisesti tilallista päättelyä, yksityiskohtien tarkkaavaisuutta ja muotojen tunnistusta. Erityisen hyödyllinen hiljaisena itsenäisenä tehtävänä esiopetuksen ja 1. luokan alueella.",
-    "odd-one-out": "Mikä-ei-kuulu-tehtäväarkit harjoittavat luokittelun alla olevaa erottelutaitoa: lapset katsovat pientä kuvajoukkoa ja tunnistavat sen, joka ei kuulu joukkoon. Kriteeri vaihtelee — luokittain, väreittäin, alkukirjaimittain — ja kuvat on valittu niin että vastaus on yksiselitteinen kun kriteeri on nimetty. Hyödyllinen diagnostiikkaväline varhaislapsuuden päättelylle.",
-    "shadow-match": "Varjon yhdistämisen tehtäväarkit yhdistävät kunkin kuvan sen siluettiin. Toiminta harjoittaa muotojen tunnistusta ja visuaalista erottelua sillä tasolla jossa ääriviiva ja yksityiskohta on käsiteltävä erikseen, mikä on yksi varhaisen lukemisen perustaidoista. Lapset jotka yhdistävät varjoja varmasti hallitsevat usein myös kirjainmuotojen tunnistuksen pienemmällä ponnistelulla.",
-    "code-addition": "Koodin yhteenlaskun tehtäväarkit yhdistävät yhteenlaskutehtävän kirjaimeen, jolloin summan vastaus dekoodaa sanan tai viestin. Muoto antaa aritmeettiselle harjoitukselle lukutaitokehyksen: lapset ratkaisevat yhteenlaskua ei itsetarkoituksena vaan keinona päästä viestiin. Hyödyllinen esiopetuksen puolivälissä ja 1. luokassa oleville lapsille joilla on perustosiat hallussa mutta jotka tarvitsevat että harjoitus tuntuu motivoivalta.",
-    "pattern-train": "Kuviojuna-tehtäväarkit antavat lapsille harjoitusta visuaalisten kuvioiden laajentamisessa ja täydentämisessä. Jokainen juna kantaa jonon ja lapsi täyttää puuttuvat vaunut seuraamalla kuvion logiikkaa — vaihtuvat värit, toistuvat muodot, kasvavat koot. Kuvioiden tunnistus on perustaito joka on sekä varhaisen matematiikan että varhaisen lukemisen alla, ja junamuoto pitää visuaalisen asettelun yksinkertaisena.",
-    "picture-path": "Kuvapolku-tehtäväarkit harjoittavat tilallista päättelyä ja reitin etsintää: lapset piirtävät polun ruudukon läpi alkukuvasta loppukuvaan, joskus seinien ympäri tai häiriötekijöiden ohi. Toiminta rakentaa samat kognitiiviset liikkeet jotka ovat labyrintin ratkaisun, suunnittelun ja varhaisen geometrian alla. Lapset kehittävät kärsivällisyyttä harkita reittejä ennen kuin asettavat kynän paperille.",
-    "treasure-hunt": "Aarrekartta-tehtäväarkit antavat lapsille suuntavihjeiden jonon — kaksi ruutua pohjoiseen, yksi itään, kolme etelään — ja pyytävät heitä jäljittämään reitin jonka vihjeet kuvaavat. Toiminta rakentaa tilallista päättelyä, työmuistia ja suuntasanaston sujuvuutta samanaikaisesti. Muoto toimii erityisen hyvin 1. ja 2. luokan lapsille jotka ovat valmiita monivaiheisiin ohjeisiin.",
-    "preschool": "Varhaiskasvatuksen tehtäväarkit kohtaavat lapset siinä kehitysvaiheessa jossa kynäote tulee luotettavaksi ja aivot ovat valmiit tarkoituksenmukaiseen pre-akateemiseen työhön. Tämän kokoelman toiminnot pitävät kognitiivisen kuorman matalana ja visuaalisen tuen korkeana — jokainen kehotus on kuvitettu, jokainen vastaus on yksiselitteinen, jokainen sivu voidaan suorittaa muutamassa keskittyneessä minuutissa. Käyttäkää niitä niihin aamuhetkiin jolloin lapset ovat valmiita istumaan ja työskentelemään, tai lempeinä kotitehtävinä joita perheet voivat tukea ilman akateemista taustaa.",
-    "kindergarten": "Esiopetuksen tehtäväarkit on viritetty siihen vuoteen jona pre-akateeminen uteliaisuus kiteytyy akateemiseksi valmiudeksi. Lapset tällä tasolla osaavat pitää kynää luotettavasti, tunnistaa nimensä ensimmäiset kirjaimet, laskea yli kymmenen ja seurata kaksiportaisia ohjeita sivulla. Tämän kokoelman toiminnot harjoittavat näitä taitoja matematiikassa, lukutaidossa, logiikassa ja tilallisessa päättelyssä, muodoissa jotka ovat tarpeeksi lyhyitä esiopetus-ikäisen tarkkaavaisuusajalle ja tarpeeksi olennaisia tuntuakseen oikealta työltä.",
-    "grade-1": "1. luokan tehtäväarkit kohtaavat sen hetken jolloin lapset vakiinnuttavat esiopetuksessa lasketut perustat sujuvaksi itsenäiseksi harjoitukseksi. He osaavat lukea lyhyitä ohjeita, kirjoittaa vastauksensa ja korjata yksinkertaisia virheitä itse ilman aikuisen kehotusta. Tämän kokoelman toiminnot kattavat 1. luokan vakio-opetussuunnitelman — yhteen- ja vähennyslasku kahdenkymmenen sisällä, näkösanojen tunnistus, yksinkertainen sekvensointi, perustilallisen logiikan — ja jokainen sivu on suunniteltu tuntumaan suoritettavalta keskittyneessä viidentoista minuutin lohkossa.",
-    "grade-2": "2. luokan tehtäväarkit kohtaavat lapset jotka nyt lukevat itsenäisesti, kirjoittavat lauseissa ja ovat valmiita monivaiheiseen ongelmanratkaisuun. Tämän kokoelman toiminnot esittelevät pidempiä kognitiivisia jonoja — moninumeroinen yhteenlasku, pidemmät sanaetsinnät, monimutkaisemmat pulmat — joita 2. luokan lapset jaksavat kannatella. Yhdistäkää ne luokkakeskusteluun strategiasta, sillä kognitiivinen arvo tällä tasolla on yhä enemmän lähestymistavassa siinä missä vastauksessakin.",
+    "animals": "Eläinaiheiset tehtävät ovat varhaiskasvatuksen hyödyllisin teema, sillä sama sanasto kulkee mukana kaikkialla. Tutut hahmot — kissat, lehmät, linnut, kalat — toistuvat laskemisessa ja yhteenlaskussa, lajittelussa ja yhdistämisessä, mikä ei kuulu joukkoon -tehtävissä sekä alkukirjaimen tunnistamisessa, joten lapset harjoittelevat uutta taitoa tutuilla ja rakkailla kuvilla sen sijaan, että purkaisivat joka kerta uutta yhteyttä. Eläinten nimet ovat myös yleisiä jokaisessa julkaisemassamme kielessä, mikä tekee näistä tehtävistä erityisen käteviä, kun ryhmässä on lapsia eri kielitaitotasoilla. Tälle sivulle on koottu kaikki eläinaiheiset tehtävät eri tehtävätyypeistä. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio sekä vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "addition": "Yhteenlaskutehtävät auttavat lasta ymmärtämään, mitä tapahtuu, kun kaksi ryhmää yhdistetään yhdeksi. Tämän sivun tehtävät kulkevat tuota polkua: pienimmille kuvatuetut tehtävät, joissa lapsi laskee kaksi ryhmää ja yhdistää ne, edeten yksinumeroisiin laskuihin ja pieniin kaksinumeroisiin tehtäviin niille, jotka ovat valmiita. Varhaiskasvatuksessa ja esiopetuksessa määriä tutkitaan leikinomaisesti konkreettisten esineiden avulla ilman muodollista laskemista, ja koulun alkaessa 1. luokalla harjoitellaan laskuja lukualueella 0-20. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen vastaus tarkistetaan ja puhdas ensiyritys palkitaan, tulostettava sopii aamutyöhön, oppimispisteelle tai kotitehtäväksi, ja jokaisessa on vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "subtraction": "Vähennyslaskutehtävät auttavat lasta hahmottamaan poisottamista konkreettisesti ennen kuin siitä tulee asia, jonka hän vain tietää. Tehtävät alkavat kuvatuetuilla tehtävillä — yliviivaa se, mikä lähtee, ja laske jäljelle jäävä — ja etenevät yksinumeroisiin laskuihin ja pieniin kaksinumeroisiin erotuksiin lapsen varmuuden kasvaessa. Varhaiskasvatuksessa ja esiopetuksessa määriä tutkitaan leikinomaisesti konkreettisten esineiden avulla, ja koulun alkaessa 1. luokalla harjoitellaan vähennyslaskuja lukualueella 0-20. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa vastaukset merkitään heti ja puhdas ensiyritys palkitaan, kun taas tulostettava sopii ohjattuun harjoitteluun, parityöhön tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "alphabet-train": "Aakkosjunatehtävät muuttavat aakkosten oppimisen joksikin, jonka lapsi voi tehdä käsillään. Kirjainkortit kulkevat junassa, ja tehtävänä on vetää tai kirjoittaa kukin oikeaan vaunuun niin, että aakkoset menevät järjestyksessä — mikä rakentaa kirjainten tunnistamista, sarjan hahmoa ja vasemmalta oikealle etenevää tapaa, johon lukeminen nojaa. Koska kortit ovat isoja ja kuvaltaan selkeitä, näitä kirjaimia juuri tapaava lapsi tai niitä uudella kielellä kohtaava voi osallistua heti. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa kortit napsahtavat paikoilleen ja valmis rivi palkitaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "wordsearch": "Sanahakutehtävät muuttavat varhaisen lukemisen jahdiksi, jonka lapset todella haluavat saada loppuun. Jokainen pulma piilottaa pienen joukon aiheen sanoja kirjainruudukkoon; lapsi silmäilee, löytää ja vetää kunkin sanan päältä, yhdistäen näkemänsä ruudukon viereisiin kuvavihjeisiin. Tuo silmäily on aitoa harjoitusta — kirjainten tunnistamista, vasemmalta oikealle seuraamista ja uuden sanaston kiinnittämistä — pelin muotoon kiedottuna. Sanat ovat lyhyitä ja aiheittain ryhmiteltyjä, joten haaste pysyy sopivana alkuopetukseen, ja kuvat tukevat ryhmän kieltä vielä opettelevia lukijoita. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset valitsevat sanat suoraan näytöltä, tulostettava sopii nopeasti valmistuneille, oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "matching": "Yhdistämistehtävät rakentavat yhtä hyödyllisimmistä varhaisista taidoista — sen näkemistä, miten kaksi asiaa kuuluvat yhteen. Lapsi vetää viivan toisen puolen kustakin kohteesta sen parille toisella puolella: kuvasta sanaan, luvusta lukumäärään, esineestä paikkaan, johon se kuuluu. Se on selkeää, keskittynyttä harjoitusta yhdistämisessä ja yksi yhteen -vastaavuudessa, ja se toimii varhaiskasvatuksesta alkuopetukseen kuvatuettuna koko ajan. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa viiva piirtyy napauttamalla ensin toista ja sitten toista, ja kukin pari merkitään, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "sudoku": "Kuvasudokutehtävät tuovat aitoa logiikkaa lapsille jo kauan ennen kuin he osaavat lukea sääntökirjaa. Nelja kertaa neljä -ruudukossa lapsi sijoittaa tutut kuvat niin, että jokaisella rivillä, sarakkeessa ja pienessä lohkossa on kukin kuva tasan kerran — sama päättely, jota aikuisten sudoku vaatii, sovitettuna pieniin käsiin ja rakennettuna kuvista numeroiden sijaan. Se on kärsivällistä ja tyydyttävää päättelyharjoitusta, joka vahvistaa keskittymistä ja poissulkemiseen perustuvaa ajattelua, ja koska se nojaa kuviin, se toimii jokaiselle lapselle lukutaidosta tai kotikielestä riippumatta. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset vetävät kuvat paikoilleen ja valmis ruudukko tarkistetaan, kun taas tulostettava sopii rauhalliseen työhön, oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "find-and-count": "Etsi ja laske -tehtävät yhdistävät tarkan katsomisen ja huolellisen laskemisen. Lapsi etsii ruuhkaisesta kuvasta tiettyä esinettä, löytää jokaisen ja merkitsee, montako niitä on — harjoitellen näönvaraista silmäilyä, lukumäärän hahmottamista ja kärsivällisyyttä tarkistaa koko kuva. Kuvat ovat ystävällisiä ja kohteet selkeitä, joten tämä toimii varhaiskasvatuksesta alkuopetukseen eikä vaadi lukutaitoa aloittamiseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen löytö merkitään ja lukumäärä kertyy edetessä, tulostettava sopii rauhalliseen työpisteeseen tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "prepositions": "Prepositiotehtävät opettavat pieniä mutta tärkeitä sanoja, jotka kuvaavat, missä asiat ovat — sisällä, päällä, alla, vieressä, takana. Lapsi katsoo kuvia ja valitsee sen, joka vastaa sijaintia ilmaisevaa sanaa, rakentaen avaruudellista sanastoa, johon arjen ohjeet ja varhainen lukeminen nojaavat. Koska vastaus on kuvavalinta, tämä toimii erityisen hyvin lapsille, jotka opettelevat ryhmän kieltä. Sopii varhaiskasvatuksesta alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa valittu kuva merkitään ja vastaus vahvistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "picture-sort": "Kuvien lajittelutehtävät antavat lapsille harjoitusta luokittelussa — siinä ajattelussa, joka on niin monen varhaisen luonnontiedon ja matematiikan taustalla. Lapsi lajittelee kuvajoukon nimettyihin ryhmiin: elävät ja elottomat, keittiöön kuuluvat asiat, lentävät eläimet. Sen ratkaiseminen, mihin kukin kuva kuuluu, rakentaa luokkia, ominaisuuksia ja sanastoa valinnan perustelemiseen. Kuvapohjainen ja sopii varhaiskasvatuksesta alkuopetukseen, ja opettajalle on oma sanavalintamahdollisuus. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa kuvat hyväksytään laatikoihin ja lajittelu tarkistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "big-small": "Kokojen vertailutehtävät antavat pienimmille oppijoille harjoitusta koosta — suurimman havaitsemista, pienimmän löytämistä ja muutaman kuvan järjestämistä isoimmasta pienimpään. Tehtävissä on selkeitä, tuttuja kuvia ja yksi napautus tai merkki, joten kolme- tai neljävuotias voi onnistua lukematta sanaakaan. Koon mukaan vertailu on varhaista mittaamisen ajattelua ja ruokkii sanastoa, jota lapset tarvitsevat kuvaillakseen ja lajitellakseen ympäröivää maailmaa. Tämä sopii erityisen hyvin varhaiskasvatukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkkoversio vastaa heti ja lämpimästi, kun taas tulostettava sopii rauhalliseen työpisteeseen, piirituokioon tai kotiin vietäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "more-less": "Vertailutehtävät rakentavat yhtä varhaisimmista lukukäsityksistä: kummassa ryhmässä on enemmän, kummassa vähemmän ja milloin kaksi ryhmää ovat yhtä suuria. Tehtävissä lapsi katsoo kahta tuttua kuvajoukkoa ja valitsee vastauksen — aloittamiseen ei tarvita lukemista eikä kirjoittamista — jolloin itse vertailu on koko tehtävä. Se on pohjaa merkitykselliselle laskemiselle, myöhemmälle suurempi kuin -ajatukselle ja vertailun kielelle, jota lapset käyttävät pitkin koulupäivää. Tämä sopii hyvin varhaiskasvatukseen ja esiopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa palaute on välitöntä ja lempeää, tulostettava sopii piirituokioon, oppimispisteelle tai kotitehtäväksi, ja jokaisessa on vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "math-puzzle": "Matematiikkapulmatehtävät tekevät lukuharjoittelusta ratkaistavan. Lapsi vetää tai kirjoittaa palat paikoilleen täydentääkseen lukupulman — täyttäen aukot niin, että matematiikka menee tasan — mikä rakentaa lukukäsitystä ja halua kokeilla, tarkistaa ja korjata. Pulmat skaalautuvat yksinkertaisista kuvatuetuista tehtävistä pelkkiin lukuihin perustuviin haasteisiin, joten ne sopivat varhaiskasvatuksesta alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa palat napsahtavat paikoilleen ja oikea ratkaisu vahvistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "math-worksheet": "Nämä matematiikkatehtävät kokoavat yhteen sen lukuharjoittelun, johon alkuopetuksen luokka tarttuu useimmin: laskujen muodostamisen, yhtälön puuttuvien osien täyttämisen sekä sekoitettujen yhteen- ja vähennyslaskujen ratkaisemisen lapselle sopivalla tasolla. Nuoremmat oppijat nojaavat kuvatukeen ankkuroidakseen määrät; vanhemmat työskentelevät pelkillä luvuilla sujuvuuden kasvaessa. Sivu kokoaa kaikki yleiset matematiikkatehtävät, joten voit koota nopean, kohdennetun setin ilman aiheiden välillä etsimistä. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkkoversio antaa välittömän palautteen itsenäiseen työhön, tulostettava sopii matematiikan oppimispisteelle, aamutyöhön tai kotitehtäväksi, ja jokaisessa on vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "missing-pieces": "Palapelitehtävät ovat muoto- ja katselemispulma: osa kuvasta on leikattu pois, ja lapsi valitsee aukkoon sopivan palan ja vetää sen paikoilleen. Tehtävä rakentaa näönvaraista täydentämistä, muodon ja asennon havaitsemista sekä huolellista vertailua — oikean palan valitsemista samankaltaisten joukosta. Tehtävät ovat kuvapohjaisia ja sopivat varhaiskasvatuksesta alkuopetukseen ilman lukutaitovaatimusta. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa oikea pala hyväksytään kuhunkin aukkoon ja väärä merkitään, tulostettava sopii rauhalliseen työpisteeseen tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "odd-one-out": "Mikä ei kuulu joukkoon -tehtävät pyytävät lasta katsomaan pientä kuvajoukkoa ja valitsemaan sen, joka ei kuulu joukkoon — eläimen ajoneuvojen joukosta, ympyrän neliöiden joukosta. Se on varhaista luokittelua ja päättelyä: sen huomaamista, mikä joukolla on yhteistä ja mikä rikkoo säännön, sekä kykyä perustella valinta. Tehtävät ovat kuvapohjaisia ja sopivat varhaiskasvatuksesta alkuopetukseen ilman lukutaitovaatimusta. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa valittu kuva merkitään ja vastaus paljastetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "shadow-match": "Varjojen yhdistämistehtävät ovat selkeä näönvarainen tehtävä: jokainen esine yhdistetään omaan varjoonsa tai ääriviivaansa. Lapsi vertailee muotoja — ääriviivaa, kokoa, asentoa — löytääkseen parin, mikä terävöittää näönvaraista erottelua ja muodon tarkkaa havainnointia. Tehtävä on kuvapohjainen, ei vaadi lukutaitoa ja sopii varhaiskasvatuksesta alkuopetukseen, etenkin pienimmille. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa yhteys piirtyy napauttamalla ensin toista ja sitten toista, ja kukin oikea pari merkitään, tulostettava sopii rauhalliseen työpisteeseen tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "code-addition": "Koodatut yhteenlaskutehtävät antavat yhteenlaskun harjoittelulle tyydyttävän kierteen: jokaisella laskulla on vastaus, ja jokainen vastaus vastaa yhtä kirjainta, joten laskurivin ratkaiseminen paljastaa piilotetun sanan. Lapset saavat aitoa yhteenlaskun toistoa ja syyn jatkaa — lopussa odottavan paljastuksen. Tehtävät sopivat lapsille, jotka osaavat laskut riittävän varmasti nauttiakseen pulmasta, yleensä esiopetuksesta 2. luokkaan. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen lasku tarkistetaan ja koodi täyttyy, tulostettava sopii nopeasti valmistuneille tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "pattern-train": "Kuviojunatehtävät vievät kuvioiden harjoittelun raiteille: toistuva kuvasarja kulkee junassa, ja lapsi päättelee, mikä tulee seuraavaksi, täyttäen tyhjät vaunut pitääkseen kuvion käynnissä. Kuvioiden tunnistaminen ja jatkaminen on keskeistä varhaista matemaattista ajattelua — pohja hyppylaskennalle, kertolaskulle ja myöhemmälle algebralle — ja juna tekee vasemmalta oikealle etenevästä sarjasta konkreettisen. Kuvapohjainen ja sopii varhaiskasvatuksesta alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa seuraava kuva asettuu paikoilleen ja sarja tarkistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "picture-path": "Kuvapolkutehtävät antavat lapselle polun jäljitettäväksi ruudukon halki: yhdestä ruudusta lähtien lapsi etenee askel kerrallaan maaliin, valiten oikean suunnan matkalla. Se on hahmottamisen ja suunnan harjoittelua (mihin seuraavaksi?), joka rakentaa vasemmalta oikealle ja ylhäältä alas eteneviä tapoja, joihin lukeminen ja kirjoittaminen nojaavat, ja koska se tukeutuu kuviin ja nuoliin, se toimii jo ennen sujuvaa lukutaitoa. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio, jossa lapsi jäljittää polun näytöllä ja reitti tarkistetaan, sekä vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "treasure-hunt": "Aarteenetsintätehtävät antavat lapsille varhaisen maistiaisen ohjeiden seuraamisesta ja tilan lukemisesta. Merkitystä ruudusta lähtien lapsi seuraa yksinkertaisia askel askeleelta -vihjeitä — niin monta ruutua tähän suuntaan, sitten tuohon — jäljittäen polun ruudukon halki, kunnes saavuttaa piilotetun aarteen. Se on aitoa hahmottamisen ja suuntasanojen harjoittelua (ylös, alas, vasemmalle, oikealle, vieressä) seikkailuksi puettuna, ja koska vihjeet nojaavat kuviin ja nuoliin, se toimii jo ennen sujuvaa lukutaitoa. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapsi jäljittää reitin näytöllä ja polku tarkistetaan, kun taas tulostettava sopii parityöhön tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "preschool": "Varhaiskasvatuksen tehtävät toimivat parhaiten, kun ne tuntuvat leikiltä, ja tämän sivun tehtävät on rakennettu juuri niin: isoja ystävällisiä kuvia, yksi selkeä tehtävä sivua kohti eikä lukutaitoa aloittamiseen. Kolme- ja viisivuotiaat harjoittelevat täällä varhaisimpia taitoja leikin kautta — pienten esineryhmien lukumäärän hahmottamista, värin tai lajin mukaan yhdistämistä ja lajittelua, sen huomaamista, mikä kuva on isompi tai mikä ei kuulu joukkoon, sekä ensimmäisten kirjainten ja muotojen jäljentämistä, ja mukana kulkee kielellinen tietoisuus loruineen, riimeineen ja tavutuksineen. Koska jokainen tehtävä nojaa jaetun sanastomme kuviin, ryhmän kieltä vielä opetteleva lapsi voi liittyä heti mukaan. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio lempeällä palautteella, ja vastaukset aikuiselle. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "kindergarten": "Esiopetuksen tehtävät rakentavat kouluvalmiutta antamatta tehtävien tuntua oppikirjamuotoiselta harjoittelulta. Kuusivuotiaat harjoittelevat lukujonoa, lukumäärän ja numeron yhdistämistä, yhteen- ja vähennyslaskun ideaa konkreettisilla esineillä, lajittelua ja kuvioita sekä fonologista tietoisuutta alkuäänteineen — kaikki kuvatuettuna, jotta ajattelu pysyy taidossa eikä ohjeiden tulkinnassa. Sivu kokoaa kaikki esiopetuksen tehtävät matematiikasta, kirjaimista, logiikasta ja hahmottamisesta, joten voit rakentaa lyhyen tuokion yhdestä paikasta. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkkoversio merkitsee vastaukset heti ja palkitsee puhtaan ensiyrityksen, kun taas tulostettava sopii parityöhön, aamutuokioon tai kotitehtäväksi, ja jokaisessa on vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "grade-1": "1. luokan tehtävät kohtaavat lapsen siinä vaiheessa, kun siirrytään laskemisesta laskutoimituksiin ja kirjaimista lukemiseen. Seitsemänvuotiaat harjoittelevat yhteen- ja vähennyslaskua lukualueella 0-20, lukujen kymmenjärjestelmää ja lukukuvioita, kirjain-äänne-vastaavuutta ja äänteiden yhdistämistä sanoiksi, yksinkertaisten lauseiden lukemista sekä lajittelu- ja logiikkatehtäviä, jotka rakentavat päättelyä. Tehtävissä on kuvatukea siellä, missä se auttaa, ja ne keventyvät kohti pelkkiä lukuja ja sanoja varmuuden kasvaessa, jotta lapsi työskentelee aina hieman mukavuusalueensa ulkopuolella. Sivu kokoaa kaikki 1. luokan tehtävät, joten saat kohdennetun setin sekunneissa. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkkoversio antaa välittömän palautteen itsenäiseen työhön, tulostettava sopii ohjattuun harjoitteluun tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "grade-2": "2. luokalla lapset ovat valmiita useampiin vaiheisiin ja suurempaan itsenäisyyteen, ja nämä tehtävät antavat molempia. Kahdeksanvuotiaat harjoittelevat kaksinumeroista yhteen- ja vähennyslaskua lukualueella 0-100, kertolaskun ajattelun alkua, lukujen kymmenjärjestelmää satoihin asti, pidempää sujuvaa lukemista ja sanatyöskentelyä, ristikoita ja sanahakuja, jotka venyttävät sanastoa, sekä logiikkapulmia, jotka palkitsevat ennakointia. Tehtävät on suunniteltu tehtäviksi vähemmällä avustuksella — riittävän selkeitä aloittaa itse, riittävän rikkaita pitämään nopeasti valmistuneen kiireisenä — ja tarjoavat silti kuvavihjeitä siellä, missä monikielinen oppija hyötyy. Sivu kokoaa kaikki 2. luokan tehtävät, joten voit koota eriytetyn setin ilman etsimistä. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkkoversio tarkistaa työn heti, tulostettava sopii oppimispisteille, parityöhön tai kotitehtäväksi, ja jokaisessa on vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
     "addition__animals": "Eläinaiheiset yhteenlasku-tehtäväarkit yhdistävät operaation jota lapset harjoittavat sanastoon jonka lapset jo tuntevat hyvin. Muoto vähentää kognitiivista kuormaa kuvalla ja pitää sen aritmetiikalla — hyödyllinen lapsille jotka vielä rakentavat yhteenlaskun tosiasiapohjaa.",
     "animals__subtraction": "Eläinaiheiset vähennyslasku-tehtäväarkit näyttävät pois-ottamista olennoilla jotka lapset tunnistavat välittömästi, mikä tekee operaatiosta helpomman lukea. Kuvat pitävät huomion itse vähennyslaskussa.",
     "alphabet-train__animals": "Eläinaiheiset aakkosjuna-tehtäväarkit käyttävät eläinten nimiä aakkosankkureina — jokainen vaunu edustaa eläintä jonka nimi alkaa eri kirjaimella. Yhdistäminen vahvistaa kirjain-äänne-vastaavuutta lasten harjoittaessa aakkosjonoa.",
@@ -1470,7 +1947,16 @@
     "code-addition__kindergarten": "Esiopetuksen koodin yhteenlaskun tehtäväarkit antavat aritmeettiselle harjoitukselle lukutaitokehyksen: jokainen summa dekoodaa kirjaimen tai sanan, mikä saa harjoituksen tuntumaan tarkoituksenmukaiselta lapsille joilla on perustosiat mutta jotka tarvitsevat motivaatiota.",
     "kindergarten__pattern-train": "Esiopetuksen kuviojuna-tehtäväarkit harjoittavat kuvioiden tunnistusta — vaihtuva, toistuva, kasvava — junamuodossa joka on visuaalisesti helppo lukea. Kuvioiden tunnistus on perustavaa matematiikassa ja lukemisessa.",
     "kindergarten__picture-path": "Esiopetuksen kuvapolku-tehtäväarkit harjoittavat reitin etsintää ruudukon läpi, mikä harjoittaa tilallista päättelyä ja kärsivällisyyttä. Lapset tällä kehitystasolla ovat valmiita harkitsemaan reittejä ennen kuin asettavat kynän paperille.",
-    "grade-1__treasure-hunt": "1. luokan aarrekartat antavat lapsille monivaiheisen suunta-jonon seurattavaksi ruudukolla. Toiminta rakentaa tilallista päättelyä, työmuistia ja suuntasanaston sujuvuutta tasolla jolla 1. luokan lapset jaksavat kannatella."
+    "grade-1__treasure-hunt": "1. luokan aarrekartat antavat lapsille monivaiheisen suunta-jonon seurattavaksi ruudukolla. Toiminta rakentaa tilallista päättelyä, työmuistia ja suuntasanaston sujuvuutta tasolla jolla 1. luokan lapset jaksavat kannatella.",
+    "cryptogram": "Kryptogrammitehtävät antavat lapselle pienen koodin murrettavaksi, jonka takaa paljastuu sana. Jokainen kuva tai symboli vastaa yhtä kirjainta, ja kun lapsi päättelee avaimen ja täyttää sen, viesti aukeaa pala palalta. Samalla harjoitellaan kirjainten tunnistamista, oikeinkirjoitusta ja kärsivällistä päättelyä. Pulmat pysyvät lyhyinä ja kuvatuettuina, joten ne sopivat varhaiskasvatuksesta alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa pelattaessa symbolin kirjain täyttyy joka kohtaan kerralla ja ratkaisu vahvistetaan, kun taas tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "chart-count": "Diagrammin lukutehtävät yhdistävät kaksi varhaista taitoa: laskemisen ja yksinkertaisen kaavion lukemisen. Lapsi laskee, montako kutakin esinettä kuvassa on, ja täyttää sitten pylväsdiagrammin oikean sarakkeen, jolloin kasasta kuvia syntyy siisti kuva siitä, kuinka monta. Se on ensimmäinen askel kohti tietojen käsittelyä ja kuvaajia, ja samalla vahvistuu lukumäärän hahmottaminen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa sarakkeet täyttyvät lapsen napauttaessa ja yhteismäärät tarkistetaan, kun taas tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Tehtävät sopivat varhaiskasvatuksesta alkuopetukseen, kuvatuettuina koko ajan. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "pattern-worksheet": "Kuviotehtävät rakentavat yhtä varhaisimmista matemaattisista taidoista: säännön huomaamista ja sen jatkamista. Lapsi tarkastelee toistuvaa sarjaa (AB, ABC ja niin edelleen) ja päättelee, mikä tulee seuraavaksi, täydentäen kuvion oikealla kuvalla. Kuvioiden tunnistaminen ja jatkaminen on pohjana hyppylaskennalle, kertolaskulle ja myöhemmälle matemaattiselle päättelylle, ja kuvamuoto antaa lapsen onnistua jo ennen lukutaitoa. Tehtävät sopivat varhaiskasvatuksesta alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa seuraava kuva asettuu paikoilleen ja sääntö tarkistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "bingo": "Bingotehtävät kokoavat koko ryhmän kuuntelun ja nopean tunnistamisen äärelle. Jokainen lapsi saa kortin, jossa on kuvia, kirjaimia tai numeroita, ja kun kohteita kuulutetaan, lapsi etsii ja merkitsee osuman kortistaan. Se on leikinomaista harjoitusta kohteen nopeassa tunnistamisessa, vuoron odottamisessa ja yhteisessä tehtävässä pysymisessä, ja koska kortti voidaan rakentaa kuvista, kirjaimista tai numeroista, sama peli kasvaa ryhmän mukana laskemisesta aakkosiin ja varhaiseen sanastoon. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa kohteet kuulutetaan ja napautukset merkitään, tulostettava on valmis jaettavaksi ryhmälle, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "grid-match": "Ruudukkoyhdistystehtävissä lapsi sijoittaa palat ruudukkoon niin, että kukin osuu omaan paikkaansa — yhdistäen kuvia pareiksi tai liittäen esineen oikeaan kohtaan ja pitäen samalla asettelun mielessä. Se on käytännönläheistä harjoitusta yhdistämisessä, näkömuistissa ja järjestelmällisessä työskentelyssä ruudukon halki. Tehtävät sopivat varhaiskasvatuksesta alkuopetukseen ja nojaavat selkeisiin kuviin, joten lukutaitoa ei tarvita aloittamiseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset vetävät palat ruutuihin ja valmis ruudukko tarkistetaan, kun taas tulostettava sopii parityöhön tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "word-guess": "Sanan arvaustehtävät tarjoavat aloitteleville oikeinkirjoittajille mukavan tavan rakentaa sanoja. Kuvavihje näyttää sanan, ja lapsi täyttää puuttuvat kirjaimet kirjoittaakseen sen — äännellen, liittäen kirjaimet äänteisiin ja vahvistaen ratkaisun kuvan avulla. Se on äänteiden yhdistämisen ja oikeinkirjoituksen harjoittelua, joka tuntuu pieneltä pulmalta, ja sanan pituus sekä tuki on mitoitettu alkuopetukseen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa kirjoitetaan kirjaimet ja oikeinkirjoitus tarkistetaan, tulostettava sopii oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "word-scramble": "Kirjainsekoitustehtävät muuttavat oikeinkirjoituksen tyydyttäväksi järjestelypulmaksi. Sanan kirjaimet on sekoitettu kuvan viereen, ja lapsi järjestää ne oikeaan järjestykseen — harjoitellen kirjainten tunnistamista, oikeinkirjoituksen säännönmukaisuuksia ja sanaa koossa pitäviä äänteitä, kuva vihjeenä. Tehtävä tuntuu pieneltä pulmalta eikä koeti, mikä auttaa lasta kokeilemaan rohkeasti eri järjestyksiä, kunnes sana löytää muotonsa. Sanan pituus on mitoitettu alkuopetuksen lukijoille. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset järjestävät kirjaimet ja sana tarkistetaan heti, kun taas tulostettava sopii oppimispisteelle, parityöhön tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "crossword": "Ristikkotehtävät tarjoavat aloitteleville lukijoille lempeän ja palkitsevan tavan yhdistää kuvia, äänteitä ja oikeinkirjoitusta. Tekstivihjeiden sijaan jokainen pulma käyttää kuvavihjeitä: lapsi näkee kuvan, sanoo sanan ja kirjoittaa sen kirjaimet risteävään ruudukkoon, jossa risteävät kirjaimet antavat avuliaan tarkistuksen matkan varrella. Se on oikeinkirjoituksen ja sanaston harjoittelua, joka tuntuu ratkaisemiselta eikä testaamiselta, ja se sopii alkuopetukseen, koska sanat pysyvät lyhyinä ja tuttuina. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa lapset kirjoittavat ruudukkoon ja jokainen sana vahvistetaan, kun taas tulostettava sopii oppimispisteelle, parityöhön tai kotitehtäväksi, ja vastaukset ovat aina mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",
+    "find-objects": "Piilokuvatehtävät ovat etsi-ja-löydä-jahti: lapsi etsii yksityiskohtaisesta kuvasta luetellut esineet ja merkitsee jokaisen löytäessään. Se on keskittynyttä harjoitusta näönvaraisessa erottelussa, yksityiskohtien huomaamisessa ja kohteen yhdistämisessä siihen, mitä sivulla on, ja koska kohteet ovat kuvia, jokainen lapsi voi osallistua lukutaidosta riippumatta. Kuvat sopivat varhaiskasvatuksesta alkuopetukseen ja palkitsevat huolellisen, kiireettömän katsomisen. Jokainen tehtävä on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio: verkossa jokainen napautus löydettyyn esineeseen rekisteröidään, tulostettava on valmis oppimispisteelle tai kotitehtäväksi, ja vastaukset ovat mukana. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme."
   },
   "bulk": {
     "toggleSelect": "Select",

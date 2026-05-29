@@ -3069,6 +3069,202 @@
           "q": "Which languages are they available in?",
           "a": "All 11 languages we publish in."
         }
+      ],
+      "alphabet-train__preschool": [
+        {
+          "q": "Are alphabet-train worksheets right for preschool?",
+          "a": "Yes — drag letters into order on a friendly train; letter recognition and A-Z sequence for ages 3-5, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__preschool": [
+        {
+          "q": "What is on the animal worksheets for preschool page?",
+          "a": "Animal-themed worksheets across counting, matching, sorting, odd-one-out, and first letters — pitched for ages 3-5, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__find-and-count": [
+        {
+          "q": "What do these animal find-and-count worksheets practise?",
+          "a": "Visual scanning and counting — find target animals in a scene and count them, for K-3, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__grade-1": [
+        {
+          "q": "What is on the animal worksheets for grade 1 page?",
+          "a": "Animal-themed worksheets across addition and subtraction within 20, sorting, logic, and blending — pitched for ages 6-8."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "addition__animals": [
+        {
+          "q": "What do animal addition worksheets practise?",
+          "a": "Early adding — counting and combining groups of animals, moving toward simple number sentences, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__subtraction": [
+        {
+          "q": "What do animal subtraction worksheets practise?",
+          "a": "Early take-away — cross out animals that leave and count what remains, toward simple number sentences, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__shadow-match": [
+        {
+          "q": "What do animal shadow-match worksheets practise?",
+          "a": "Matching animals to their shadows — shape and outline recognition for K-3, fully picture-based."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__more-less": [
+        {
+          "q": "What do animal more-or-less worksheets practise?",
+          "a": "Comparing two groups of animals — which has more or fewer, for K-3, no reading or writing needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "alphabet-train__animals": [
+        {
+          "q": "What do these animal alphabet-train worksheets practise?",
+          "a": "Letter recognition and A-Z order on a friendly animal-themed train, for early learners, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__matching": [
+        {
+          "q": "What do animal matching worksheets build?",
+          "a": "One-to-one association, visual attention, and animal vocabulary — connecting creatures to their pairs, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__sudoku": [
+        {
+          "q": "What do animal picture-sudoku worksheets teach?",
+          "a": "Real deduction on a 4x4 animal grid — process-of-elimination logic for K-3, no reading or numbers needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__prepositions": [
+        {
+          "q": "What do animal prepositions worksheets teach?",
+          "a": "Positional words (in, on, under, next to) shown with animals — spatial vocabulary for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__big-small": [
+        {
+          "q": "What do animal big-or-small worksheets practise?",
+          "a": "Size comparison and ordering with animals — early measurement thinking for ages 3-6, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "animals__wordsearch": [
+        {
+          "q": "What do animal word-search worksheets practise?",
+          "a": "Letter recognition, scanning, and animal vocabulary — hunting hidden animal words in a grid, for K-3."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — every worksheet here is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are they available in?",
+          "a": "All 11 languages we publish in."
+        }
       ]
     },
     "fallback": {
@@ -3278,24 +3474,23 @@
     "kindergarten": "Kindergarten is the year skills start to click, and these worksheets give children the repetition that makes them stick — without ever feeling like drill. Five- to seven-year-olds practise counting and early addition and subtraction, matching numbers to quantities, sorting and patterning, recognising letters and their sounds, and the first sight words, all with picture support so the thinking stays on the skill rather than on decoding instructions. The page pulls together every kindergarten worksheet we publish across math, letters, logic, and spatial reasoning, so you can build a short lesson from one place. Each one is a free printable PDF with a matching play-online activity: the interactive version marks answers instantly and celebrates a clean first pass, while the printable works for partner work, morning tubs, or homework, and every sheet has an answer key. Mix themes and bump the challenge up or down as a child is ready. Everything is available in all 11 languages we publish in — a real help for immersion and international K-classrooms where children arrive with different home languages.",
     "grade-1": "Grade 1 is where children move from counting to calculating and from letters to reading, and these worksheets meet them right at that step. Six- to eight-year-olds practise addition and subtraction within twenty, place value and number patterns, blending letters into words, simple sentence reading, and sorting and logic tasks that build reasoning. The problems still carry picture support where it helps, then ease toward number- and word-only formats as confidence grows, so a child is always working just past comfortable. This page gathers every grade 1 worksheet we publish so you can pull a focused set in seconds. Each comes as a free printable PDF and a play-online activity — the interactive version gives immediate feedback for independent work, the printable is ready for guided practice or homework, and an answer key is always included. Combine sheets across math and literacy to fill a block, or send one home for extra practice. The full grade 1 set is available in all 11 languages we publish in, which keeps multilingual and international classrooms working from one consistent, high-quality library.",
     "grade-2": "By grade 2, children are ready for more steps and more independence, and these worksheets give them both. Seven- to nine-year-olds work on two-digit addition and subtraction, the start of multiplication thinking, place value to the hundreds, longer reading and word work, crosswords and word searches that stretch vocabulary, and logic puzzles that reward planning ahead. The tasks are designed to be done with less hand-holding — clear enough to start alone, rich enough to keep a fast finisher busy — while still offering picture cues where a multilingual learner benefits. This page collects every grade 2 worksheet we publish, so you can assemble a differentiated set without hunting. Each is a free printable PDF with a matching play-online activity: the online version checks work instantly, the printable suits centres, partner work, or homework, and an answer key comes with every sheet. The complete grade 2 set is available in all 11 languages we publish in, so dual-language and international classrooms can keep pace together regardless of each child's home language.",
-    "addition__animals": "Animal-themed addition worksheets pair the operation children are practising with vocabulary children already know well. The format reduces the cognitive load on the picture and keeps it on the arithmetic — useful for children who are still building the addition fact base.",
-    "animals__subtraction": "Animal-themed subtraction worksheets show take-away with creatures children recognise immediately, which makes the operation easier to read. The pictures keep the focus on the subtraction itself.",
-    "alphabet-train__animals": "Animal-themed alphabet-train worksheets use creature names as the alphabet anchors — each car represents one animal whose name starts with a different letter. The pairing reinforces letter-sound mapping while children practise the alphabet sequence.",
-    "animals__wordsearch": "Animal-themed wordsearches give children a grid of letters where the targets are familiar creature names. Useful both for vocabulary reinforcement and for sustained-attention reading practice.",
-    "animals__matching": "Animal-themed matching worksheets pair each creature with what it eats, where it lives, or what its initial letter is. The pictures keep the cognitive load on the relationship.",
-    "animals__sudoku": "Animal-themed picture sudoku puts four familiar creatures in a 4×4 grid and asks children to deduce the missing positions. The pictures are easier to remember than digits, which makes sudoku accessible at the K-3 level.",
-    "animals__find-and-count": "Animal-themed find-and-count worksheets put children in a busy farm or zoo scene and ask them to count specific creatures. The activity exercises visual scanning, one-to-one correspondence, and numeral writing in a context children already enjoy.",
-    "animals__prepositions": "Animal-themed preposition worksheets show creatures in spatial relationships — the cat under the table, the bird on the branch, the dog beside the kennel. The familiar context makes the spatial vocabulary easier to internalise.",
-    "animals__picture-sort": "Animal-themed picture-sort worksheets ask children to group creatures by what they eat, where they live, or what they look like. Sorting is one of the foundational classification moves, and animals are an accessible domain for it.",
-    "animals__big-small": "Animal-themed big-small worksheets use the natural size variation across creatures — elephant to mouse — to make relative-size comparison concrete. Children read the size cue confidently and the underlying skill transfers.",
-    "animals__more-less": "Animal-themed more-less worksheets ask children to compare quantities of familiar creatures — three sheep or five sheep — and decide which group has more. The visual support keeps the focus on the quantity comparison itself.",
-    "animals__shadow-match": "Animal-themed shadow-match worksheets pair each creature picture with its silhouette. The activity is particularly accessible because children recognise the animal shapes confidently before they have to manage the outline-only version.",
+    "addition__animals": "Animal addition worksheets bring the friendly animal picture set to early adding. A child counts two groups of creatures and combines them, then moves to simple number sentences as confidence grows — and because the quantities are animals they already name, the thinking stays on the maths. It is a warm, motivating way into addition for K-3. Each sheet is a free printable PDF with a matching play-online version that checks each answer, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__subtraction": "Animal subtraction worksheets make taking-away friendly: a child sees a group of creatures, crosses out the ones that leave, and counts what remains, before moving to simple number sentences. The familiar animals keep the focus on the idea of how many are left rather than on new instructions. It is a gentle, motivating route into subtraction for K-3. Each sheet is a free printable PDF with a matching play-online version that marks answers instantly, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "alphabet-train__animals": "These alphabet-train worksheets put animal pictures aboard the letter train: a child places each letter card into the right wagon to run the alphabet in order, with animals making the line cheerful. The task builds letter recognition and the A-Z sequence, and the friendly creatures keep the youngest learners engaged. It works before a child reads fluently and in any home language. Each sheet is a free printable PDF with a matching play-online version that snaps cards into place and cheers a finished line, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__wordsearch": "Animal word-search worksheets turn early reading into a hunt children want to finish: a small set of animal words hides in a grid of letters, and the child scans, spots, and marks each one, matching it to the animal picture clues beside the grid. That scanning is real practice — letter recognition, left-to-right tracking, and animal vocabulary — wrapped in a game. Each sheet is a free printable PDF with a matching play-online version where words are selected on screen and checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__matching": "Animal matching worksheets give children a clear, satisfying task: draw a line to connect each creature to its pair. Deciding what goes with what builds one-to-one association and visual attention, and the loved animal pictures add the vocabulary that comes from naming each pair. It works for every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version where children tap to draw each line and check it, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__sudoku": "Animal picture-sudoku worksheets bring real logic to young children with the friendliest pieces. On a four-by-four grid, a child places animal pictures so that each row, column, and small box holds one of every creature — the same deduction grown-up sudoku asks for, scaled to K-3 and built from animals instead of numbers. It is patient, satisfying reasoning that needs no reading. Each sheet is a free printable PDF with a matching play-online version where children drag animals into place and the grid is checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__find-and-count": "These find-and-count worksheets send children on an animal hunt: a friendly scene is full of creatures, and the task is to find each target animal and count how many. Searching and tallying builds visual attention and one-to-one counting, and the beloved animal pictures keep children looking happily. Because it leans on images, the activity works whatever a child's reading level or home language. Each sheet is a free printable PDF with a matching play-online version that marks finds and tallies them, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__prepositions": "Animal prepositions worksheets teach the little words for where things are — in, on, under, next to — using creatures children love. The child looks at the animals and chooses the picture that shows the position, building the spatial vocabulary used all day in maths and stories alike. The picture-led task works for every child whatever their reading level or home language and sparks useful describing talk. Each sheet is a free printable PDF with a matching play-online version that checks each choice, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__big-small": "Animal big-or-small worksheets give the youngest learners size practice with the friendliest subjects: spotting the biggest creature, finding the smallest, and putting a few animals in order from large to little. The task uses clear pictures and a single tap or mark, so a child can succeed without reading a word, and comparing animals by size feeds early measurement vocabulary. Each sheet is a free printable PDF with a matching play-online version that responds warmly and instantly, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__more-less": "Animal more-or-less worksheets build an early number idea with the friendliest pictures: looking at two groups of creatures and deciding which has more, which has fewer, and when they are the same. The familiar animals make the comparison inviting, and the task needs no reading or writing — just a look and a choice. It is groundwork for counting with meaning across K-3. Each sheet is a free printable PDF with a matching play-online version that gives gentle, instant feedback, plus an answer key. The whole set is available in all 11 languages we publish in.",
+    "animals__shadow-match": "Animal shadow-match worksheets ask children to pair each creature with its shadow — a clean visual task that sharpens attention to shape and outline. Recognising a familiar animal by its silhouette is genuinely good observation practice, and the loved animal pictures make it feel like a game. It works for every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version that draws and checks each match, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "animals__kindergarten": "Animal worksheets for kindergarten put the most loved picture set in early childhood to work for five- to seven-year-olds. The familiar cast — cats, cows, birds, fish — carries children through counting and early addition, sorting and matching, odd-one-out, and first-letter spelling, so a new skill is practised on pictures children already know rather than a fresh context each time. Animal names are also high-frequency in every language we publish, a real help in a dual-language kindergarten. This page gathers the animal-themed worksheets that suit the kindergarten stage. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
-    "animals__preschool": "Animal-themed preschool worksheets give the youngest learners high-recognition pictures paired with simple pre-academic tasks — colour the bird, count the ducks, find the dog that's different. The familiar pictures keep cognitive load low while the activities exercise the skills preschool is meant to develop.",
-    "animals__grade-1": "Animal-themed grade-1 worksheets use familiar creatures as the vehicle for the more demanding work the year brings — longer wordsearches, multi-step counting, beginning addition with picture support. Children stay engaged with the topic while the cognitive demand steps up.",
+    "animals__preschool": "Animal worksheets for preschool put the most loved picture set in early childhood to work for three- to five-year-olds. The friendly cast — cats, cows, birds, fish — carries the youngest learners through counting small groups, matching and sorting, spotting the odd one out, and tracing first letters, all on pictures they already adore. Because the activities lean on images, a child still learning the classroom language can join in straight away. This page gathers the animal-themed worksheets pitched at the preschool stage. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
+    "animals__grade-1": "Animal worksheets for grade 1 take the picture set children love and pitch it at the step from counting to calculating. Six- to eight-year-olds use familiar animals for addition and subtraction within twenty, sorting and logic, and blending letters into animal names, so a new skill is practised on pictures they already know rather than a fresh context each time. This page gathers the animal-themed worksheets that suit the grade 1 stage. Each is a free printable PDF with a matching play-online version and an answer key, available in all 11 languages we publish in.",
     "addition__kindergarten": "Addition worksheets for kindergarten meet five- to seven-year-olds at the moment counting starts to become adding. At this stage the sums stay small and picture-supported: a child counts two groups, then combines them, before moving to simple number sentences as confidence grows. Keeping the numbers low and the pictures clear lets the thinking stay on the idea of putting together rather than on reading instructions. These sheets suit morning work, a maths centre, or a quick partner task, and each comes as a free printable PDF with a matching play-online version that checks answers instantly, plus an answer key. The whole set is available in all 11 languages we publish in, so a dual-language kindergarten can give every child the same step in the language they need.",
     "kindergarten__subtraction": "Subtraction worksheets for kindergarten introduce taking-away in the gentlest way: five- to seven-year-olds start with picture problems — cross out what leaves, count what remains — before moving to simple number sentences as they grow surer. Keeping the numbers small and the pictures clear lets the idea of how many are left land without the distraction of new instructions each time. The sheets suit morning work, a maths centre, or a quick partner task. Each is a free printable PDF with a matching play-online version that marks answers instantly, plus an answer key. The whole set is available in all 11 languages we publish in, so a dual-language kindergarten can give every child the same step.",
-    "alphabet-train__preschool": "Preschool alphabet-train worksheets introduce the alphabet sequence at the developmental moment when children are starting to recognise that letters have an order. The format is forgiving — a child who knows their first letter and a few more can still complete a row.",
+    "alphabet-train__preschool": "Alphabet-train worksheets are a gentle first taste of letters for preschool: a friendly train carries letter cards, and the child drags or places each one into the right wagon so the alphabet runs in order. For three- to five-year-olds it builds letter recognition and the shape of the A-Z sequence with no reading required to begin. The big, clear cards make it welcoming for every child, whatever their home language. Each sheet is a free printable PDF with a matching play-online version that snaps cards into place and cheers a finished line, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "grade-1__wordsearch": "Word-search worksheets turn early reading into a hunt grade 1 children actually want to finish. Each puzzle hides a small set of themed words in a grid of letters; a child scans, spots, and marks each word, matching what they see to the picture clues beside the grid. For six- to eight-year-olds that scanning is real practice — letter recognition, left-to-right tracking, and locking in new vocabulary — wrapped in a game. Each sheet is a free printable PDF with a matching play-online version where words are selected on screen and checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "kindergarten__matching": "Matching worksheets give kindergartners a clear, satisfying task: draw a line to connect each item to its pair. For five- to seven-year-olds, deciding what goes with what builds one-to-one association, visual attention, and the vocabulary that comes from naming each pair. The picture-based task suits every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version where children tap to draw each line and check it, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can practise in the language its children need.",
     "kindergarten__sudoku": "Picture-sudoku worksheets bring real logic to kindergarten long before children can read a rulebook. On a four-by-four grid, a child places friendly pictures so that each row, column, and small box holds one of every image — the same deduction grown-up sudoku asks for, scaled to five- to seven-year-olds and built from pictures instead of numbers. It is patient, satisfying reasoning that builds attention and process-of-elimination thinking. Each sheet is a free printable PDF with a matching play-online version where children drag pictures into place and the grid is checked, plus an answer key. The whole set is available in all 11 languages we publish in.",
@@ -3311,7 +3506,6 @@
     "kindergarten__shadow-match": "Shadow-match worksheets ask kindergartners to pair each object with its shadow — a clean visual-matching task that sharpens attention to shape and outline. For five- to seven-year-olds, looking past colour and detail to recognise a form by its silhouette is genuinely good observation practice, and it feels like a game. The picture-based task works for every child whatever their reading level or home language. Each sheet is a free printable PDF with a matching play-online version that draws the match and checks it, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "code-addition__kindergarten": "Code-addition worksheets add a dash of mystery to early maths: a kindergartner solves small sums, and each answer maps to a letter that reveals a hidden word. For five- to seven-year-olds it pairs simple addition with the thrill of cracking a code, so number practice and letter recognition happen together. The sums stay small and picture-friendly so the puzzle is the reward, not a barrier. Each sheet is a free printable PDF with a matching play-online version that checks the sums and the revealed word, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "kindergarten__pattern-train": "Pattern-train worksheets turn early patterning into a game kindergartners want to finish: a train runs along the page and the child continues the picture pattern wagon by wagon. Spotting what repeats and predicting what comes next is foundational maths thinking for five- to seven-year-olds, and the friendly train keeps it playful. The pictures carry the task, so a child still learning the classroom language can join in fully. Each sheet is a free printable PDF with a matching play-online version that confirms each placement, plus an answer key. The whole set is available in all 11 languages we publish in, so every kindergarten can practise patterns in the language its children need.",
-    "kindergarten__picture-path": "Kindergarten picture-path worksheets practise route-finding through a grid, which exercises spatial reasoning and patience. Children at this developmental level are ready to consider routes before committing pen to paper.",
     "grade-1__treasure-hunt": "Treasure-hunt worksheets give grade 1 a taste of following directions and reading space. Starting from a marked square, a child follows step-by-step clues — so many squares this way, then that way — tracing a path across the grid until they reach the treasure. For six- to eight-year-olds it is real spatial-reasoning and direction-word practice (up, down, left, right, next to) wrapped in an adventure, and it rewards careful, step-by-step thinking. Each sheet is a free printable PDF with a matching play-online version that traces the route and checks the path, plus an answer key. The whole set is available in all 11 languages we publish in.",
     "grade-3": "Grade 3 worksheets ask children to reason, not just recall, and the activities on this page are built for that shift. Eight- to ten-year-olds practise multi-digit addition and subtraction, multiplication and the first division, place value into the thousands, fluent reading with richer vocabulary, and multi-step logic and spatial puzzles that reward careful thinking. The formats lean on numbers and words now, with picture support kept where it still earns its place for a child learning the language of instruction. This page brings together every grade 3 worksheet we publish so a teacher can build a focused, appropriately stretching set quickly. Each is a free printable PDF with a matching play-online activity — instant feedback for independent practice, a clean printable for class or homework, and an answer key every time. Pair sheets across math and literacy to fill a lesson, or hand one to an early finisher who needs a challenge. The full grade 3 set is available in all 11 languages we publish in, helping international and immersion classrooms hold a consistent standard across every home language in the room.",
     "crossword": "Crossword worksheets give early readers a gentle, rewarding way to connect pictures, sounds, and spelling. Instead of text clues, each puzzle uses picture clues: a child sees an image, says the word, and types or writes its letters into the intersecting grid, with the crossing letters giving a helpful check along the way. It is spelling and vocabulary practice that feels like solving, not testing, and it suits the K-3 years because the words stay short and familiar. Each crossword worksheet is a free printable PDF with a matching play-online version — the interactive one lets children type into the grid and confirms each entry, while the printable works for a literacy centre, partner work, or homework, and an answer key is always included. The full set is available in all 11 languages we publish in, so children can build spelling and vocabulary in the language they are learning to read.",

@@ -901,9 +901,9 @@
       "educationalLevel": "Hojas de trabajo para {topic}"
     },
     "intro": {
-      "exerciseType": "Hojas de trabajo interactivas y PDFs imprimibles para practicar {topic}.",
-      "theme": "Hojas de trabajo con {topic}.",
-      "educationalLevel": "Actividades para {topic}."
+      "exerciseType": "{count, plural, =0 {Aquí encontrarás las hojas de trabajo de {topic} a medida que las añadamos} =1 {Aquí tienes 1 hoja de trabajo de {topic}} other {Aquí tienes # hojas de trabajo de {topic}}}, todas gratis para imprimir en PDF y para jugar en línea en el navegador. Dan a los docentes de infantil y primaria una forma rápida y sin preparación de practicar {topic} en clase o en casa, cada hoja incluye su hoja de respuestas y todo el conjunto está disponible en los 11 idiomas en los que publicamos. Úsalas para calentamientos con todo el grupo, rotaciones en grupos pequeños o práctica para llevar a casa que afianza las destrezas de {topic} al ritmo de cada niño, y combina la versión interactiva con la imprimible para que los niños reciban primero respuesta inmediata y consoliden después con calma.",
+      "theme": "{count, plural, =0 {Aquí aparecerán las hojas de trabajo con tema de {topic} a medida que las publiquemos} =1 {Esta página tiene 1 hoja de trabajo con tema de {topic}} other {Esta página reúne # hojas de trabajo con tema de {topic}}} para aulas de infantil y primaria: tareas de contar, clasificar, emparejar y lectura inicial que comparten los mismos dibujos amables de {topic}. Cada una es gratis para imprimir y para jugar en línea, incluye su hoja de respuestas y está lista en los 11 idiomas que admitimos. Como los dibujos de {topic} se mantienen iguales en todas las actividades, los niños se centran en la destreza en lugar de descifrar un contexto nuevo cada vez, lo que hace que el conjunto resulte práctico para grupos de distintos niveles y para quienes aún están aprendiendo la lengua del aula.",
+      "educationalLevel": "{count, plural, =0 {Aquí aparecerán las hojas de trabajo para {topic} a medida que las publiquemos} =1 {Esta página tiene 1 hoja de trabajo para {topic}} other {Esta página reúne # hojas de trabajo para {topic}}}, que abarcan matemáticas iniciales, fonética y vocabulario con el nivel de reto adecuado. Cada una es un PDF imprimible gratis con su actividad correspondiente para jugar en línea y su hoja de respuestas, y todas están disponibles en los 11 idiomas en los que publicamos. Todo lo de aquí está pensado para {topic}, así que puedes repartirlo sabiendo que el nivel de dificultad ya encaja, y recurrir a un tema más fácil o más difícil cuando un niño necesite otro paso."
     },
     "decksCount": "{count, plural, =0 {Aún no hay hojas de trabajo} =1 {1 hoja de trabajo} other {# hojas de trabajo}}",
     "deckCard": {
@@ -922,7 +922,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Hojas de trabajo en la intersección de {primary} y {secondary}.",
+      "intro": "{count, plural, =0 {Aquí aparecerán las hojas de trabajo de {primary} para {secondary} a medida que las publiquemos} =1 {Esta página tiene 1 hoja de trabajo de {primary} para {secondary}} other {Esta página reúne # hojas de trabajo de {primary} para {secondary}}}. Cada una es un PDF imprimible gratis con su actividad correspondiente para jugar en línea y su hoja de respuestas, creada para aulas de infantil y primaria y disponible en los 11 idiomas en los que publica LessonCraftStudio. Combinar {primary} con {secondary} reduce todo el catálogo a las hojas de trabajo que encajan con ambos a la vez, así que puedes ajustar la tarea al nivel de tu clase y a sus intereses en un solo paso: práctico para planear una sesión concreta, diferenciar dentro de un grupo de distintos niveles o dar a quienes terminan pronto algo que sigue formando parte de la lección.",
       "meta": {
         "themeLevel": "Fichas gratis e interactivas de {theme} para {level}: PDF imprimibles y actividades para jugar en línea en el aula de infantil y primaria.",
         "themeType": "Fichas gratis e interactivas de {type} con tema de {theme}: PDF imprimibles y actividades para jugar en línea en infantil y primaria.",
@@ -983,6 +983,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtros",
       "close": "Cerrar"
+    }
+  },
+  "topicFaq": {
+    "heading": "Preguntas frecuentes",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "¿Qué hojas de trabajo hay en esta página de {topic}?",
+        "a1": "{count, plural, =0 {Esta página reúne todas las hojas de trabajo de {topic} a medida que las publicamos} =1 {Esta página tiene 1 hoja de trabajo de {topic}: un PDF imprimible y una versión para jugar en línea} other {Esta página tiene # hojas de trabajo de {topic}, cada una con un PDF imprimible, una hoja de respuestas y una versión para jugar en línea}}.",
+        "q2": "¿Son gratis estas hojas de trabajo de {topic}?",
+        "a2": "Sí. Todas las hojas de trabajo de {topic} de aquí son gratis para imprimir y para jugar en línea, sin registro y sin muro de pago.",
+        "q3": "¿Para qué edades e idiomas son?",
+        "a3": "Están pensadas para niños de infantil y primaria (de unos 4 a 8 años) y disponibles en los 11 idiomas en los que publica LessonCraftStudio, lo que las hace prácticas para aulas bilingües e internacionales."
+      },
+      "intersection": {
+        "q1": "¿Qué hay en esta página de {primary} y {secondary}?",
+        "a1": "{count, plural, =0 {Esta página reúne las hojas de trabajo de {primary} para {secondary} a medida que las publicamos} =1 {Esta página tiene 1 hoja de trabajo de {primary} para {secondary}, con un PDF imprimible y una versión para jugar en línea} other {Esta página tiene # hojas de trabajo de {primary} para {secondary}, cada una con un PDF imprimible, una hoja de respuestas y una versión para jugar en línea}}.",
+        "q2": "¿Son gratis estas hojas de trabajo de {primary} para {secondary}?",
+        "a2": "Sí. Todas las hojas de trabajo de aquí son gratis para imprimir y para jugar en línea, sin registro y sin muro de pago.",
+        "q3": "¿Para qué edades e idiomas son?",
+        "a3": "Sirven para niños de infantil y primaria (de unos 4 a 8 años) y están disponibles en los 11 idiomas en los que publicamos."
+      },
+      "activity": {
+        "q1": "¿Qué enseña la actividad {title}?",
+        "a1": "{title} es una actividad interactiva gratis para {grade}, centrada en {strand}. Los niños la juegan directamente en el navegador, sin imprimir, sin iniciar sesión y sin configurar nada.",
+        "q2": "¿Es gratis usar {title}?",
+        "a2": "Sí. {title} es totalmente gratis, sin registro y sin muro de pago, en cualquier tableta, portátil o pizarra digital del aula.",
+        "q3": "¿Para qué edades es esta actividad?",
+        "a3": "Está diseñada para {grade} ({strand}) y funciona bien para práctica con todo el grupo, en grupos pequeños o de forma independiente."
+      },
+      "standards": {
+        "q1": "¿Qué se cubre en {code}?",
+        "a1": "{code} pertenece al bloque de {strand} para {grade}. Esta página reúne las actividades interactivas y las hojas de trabajo gratis alineadas con él.",
+        "q2": "¿Son gratis estos recursos de {code}?",
+        "a2": "Sí. Todas las actividades y hojas de trabajo alineadas con {code} son gratis para usar en línea y para imprimir, sin registro y sin muro de pago.",
+        "q3": "¿Para quién son estas actividades de {code}?",
+        "a3": "Están creadas para docentes y niños de {grade} que siguen la progresión de {strand} de Common Core, y sirven para práctica en clase, en grupos pequeños o en casa."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Cómo usar estas hojas de trabajo",
+    "overrides": {},
+    "fallback": {
+      "topic": "Imprime el PDF para una tarea de clase o de casa sin preparación, o abre la versión para jugar en línea en una tableta o pizarra para recibir respuesta inmediata. Cada hoja de trabajo incluye su hoja de respuestas, así que los niños pueden autocorregirse o trabajar de forma independiente. Combina hojas de distintos temas y niveles para armar una breve lección de {topic}, o envía una a casa como práctica extra.",
+      "intersection": "Imprime el PDF para una tarea inmediata de {primary} centrada en {secondary}, o abre la versión para jugar en línea en una tableta o pizarra. Cada hoja de trabajo viene con su hoja de respuestas para una autocorrección rápida, y puedes combinarla con temas y niveles relacionados para ampliar la lección.",
+      "hub": "Elige una asignatura, un tema o un nivel para abrir una página de hojas de trabajo que encajen. Cada una es gratis para imprimir y para jugar en línea, incluye su hoja de respuestas y está disponible en los 11 idiomas en los que publicamos, prácticas para aulas bilingües e internacionales."
     }
   },
   "topicMeta": {

@@ -1154,9 +1154,9 @@
       "educationalLevel": "Arbetsblad för {topic}"
     },
     "intro": {
-      "exerciseType": "Interaktiva arbetsblad och utskrivbara PDF-filer för att öva {topic}.",
-      "theme": "Arbetsblad med tema {topic}.",
-      "educationalLevel": "Aktiviteter för {topic}."
+      "exerciseType": "{count, plural, =0 {Bläddra bland {topic}-arbetsblad här efterhand som vi lägger till dem} =1 {Här är 1 {topic}-arbetsblad} other {Här är # {topic}-arbetsblad}}, alla gratis att skriva ut som PDF och att spela online i webbläsaren. De ger lärare i förskoleklass till årskurs 3 ett snabbt sätt utan förberedelser att öva {topic} i klassen eller hemma, varje blad kommer med facit, och hela samlingen finns på de 11 språk vi publicerar på. Använd dem som uppvärmning för hela klassen, för rotationer i smågrupper eller som hemövning som bygger {topic}-färdigheter i varje barns egen takt, och kombinera den interaktiva versionen med den utskrivbara så att barnen först får direkt återkoppling och sedan lugn befästning.",
+      "theme": "{count, plural, =0 {Arbetsblad med tema {topic} dyker upp här efterhand som vi publicerar dem} =1 {Den här sidan har 1 arbetsblad med tema {topic}} other {Den här sidan samlar # arbetsblad med tema {topic}}} för förskoleklass till årskurs 3 — räkning, sortering, matchning och tidiga läsuppgifter som alla delar samma vänliga {topic}-bilder. Var och en är gratis att skriva ut och att spela online, kommer med facit och finns på alla 11 språk vi stödjer. Eftersom {topic}-bilderna är desamma i alla aktiviteter fokuserar barnen på färdigheten i stället för att avkoda ett nytt sammanhang varje gång, vilket gör samlingen praktisk för grupper med olika nivåer och för elever som fortfarande bygger upp klassrumsspråket.",
+      "educationalLevel": "{count, plural, =0 {Arbetsblad för {topic} dyker upp här efterhand som vi publicerar dem} =1 {Den här sidan har 1 arbetsblad för {topic}} other {Den här sidan samlar # arbetsblad för {topic}}}, som spänner över tidig matematik, fonik och ordförråd på rätt svårighetsnivå. Var och en är en gratis utskrivbar PDF med en matchande aktivitet att spela online och ett facit, och alla finns på de 11 språk vi publicerar på. Allt här är anpassat för {topic}, så du kan dela ut det med vetskap om att svårighetsnivån redan passar, och sedan välja ett lättare eller svårare tema när ett barn behöver ett annat steg."
     },
     "decksCount": "{count, plural, =0 {Inga arbetsblad ännu} =1 {1 arbetsblad} other {# arbetsblad}}",
     "deckCard": {
@@ -1175,7 +1175,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbetsblad i skärningen mellan {primary} och {secondary}.",
+      "intro": "{count, plural, =0 {{primary}-arbetsblad för {secondary} dyker upp här efterhand som vi publicerar dem} =1 {Den här sidan har 1 {primary}-arbetsblad för {secondary}} other {Den här sidan samlar # {primary}-arbetsblad för {secondary}}}. Var och en är en gratis utskrivbar PDF med en matchande aktivitet att spela online och ett facit, byggd för förskoleklass till årskurs 3 och tillgänglig på alla 11 språk som LessonCraftStudio publicerar på. Att kombinera {primary} med {secondary} avgränsar hela katalogen till de arbetsblad som passar båda samtidigt, så att du kan matcha uppgiften till klassens nivå och intressen i ett enda steg — praktiskt för att planera en fokuserad lektion, differentiera inom en blandad grupp eller ge dem som blir klara tidigt något som ändå hör till lektionen.",
       "meta": {
         "themeLevel": "Gratis utskrivbara och interaktiva arbetsblad om {theme} för {level}: PDF-filer att skriva ut plus aktiviteter att spela online för förskola och lågstadium.",
         "themeType": "Gratis utskrivbara och interaktiva {type}-arbetsblad med {theme} som tema: PDF-filer att skriva ut plus aktiviteter att spela online för lågstadiet.",
@@ -1236,6 +1236,53 @@
     "mobileDrawer": {
       "openTrigger": "Filter",
       "close": "Stäng"
+    }
+  },
+  "topicFaq": {
+    "heading": "Vanliga frågor",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Vilka arbetsblad finns på den här {topic}-sidan?",
+        "a1": "{count, plural, =0 {Den här sidan samlar alla {topic}-arbetsblad efterhand som vi publicerar dem} =1 {Den här sidan har 1 {topic}-arbetsblad — en utskrivbar PDF plus en version att spela online} other {Den här sidan har # {topic}-arbetsblad, var och en med en utskrivbar PDF, ett facit och en version att spela online}}.",
+        "q2": "Är de här {topic}-arbetsbladen gratis?",
+        "a2": "Ja. Varje {topic}-arbetsblad här är gratis att skriva ut och att spela online — ingen registrering och ingen betalvägg.",
+        "q3": "Vilka åldrar och språk är de för?",
+        "a3": "De är byggda för elever i förskoleklass till årskurs 3 (ungefär 4–8 år) och finns på alla 11 språk som LessonCraftStudio publicerar på, vilket gör dem praktiska för tvåspråkiga och internationella klassrum."
+      },
+      "intersection": {
+        "q1": "Vad finns på den här sidan för {primary} och {secondary}?",
+        "a1": "{count, plural, =0 {Den här sidan samlar {primary}-arbetsblad för {secondary} efterhand som vi publicerar dem} =1 {Den här sidan har 1 {primary}-arbetsblad för {secondary}, med en utskrivbar PDF och en version att spela online} other {Den här sidan har # {primary}-arbetsblad för {secondary}, var och en med en utskrivbar PDF, ett facit och en version att spela online}}.",
+        "q2": "Är de här {primary}-arbetsbladen för {secondary} gratis?",
+        "a2": "Ja. Varje arbetsblad här är gratis att skriva ut och att spela online — ingen registrering och ingen betalvägg.",
+        "q3": "Vilka åldrar och språk är de för?",
+        "a3": "De passar elever i förskoleklass till årskurs 3 (ungefär 4–8 år) och finns på alla 11 språk vi publicerar på."
+      },
+      "activity": {
+        "q1": "Vad lär aktiviteten {title} ut?",
+        "a1": "{title} är en gratis interaktiv aktivitet för {grade}, med fokus på {strand}. Barnen spelar den direkt i webbläsaren — ingen utskrift, inloggning eller installation krävs.",
+        "q2": "Är {title} gratis att använda?",
+        "a2": "Ja. {title} är helt gratis, utan registrering och utan betalvägg, på vilken surfplatta, bärbar dator eller interaktiv tavla som helst.",
+        "q3": "Vilka åldrar är den här aktiviteten för?",
+        "a3": "Den är gjord för {grade} ({strand}) och fungerar bra för helklass, smågrupp eller självständig övning."
+      },
+      "standards": {
+        "q1": "Vad ingår under {code}?",
+        "a1": "{code} hör till området {strand} för {grade}. Den här sidan samlar de gratis interaktiva aktiviteterna och arbetsbladen som är anpassade till det.",
+        "q2": "Är de här {code}-resurserna gratis?",
+        "a2": "Ja. Varje aktivitet och arbetsblad som är anpassat till {code} är gratis att använda online och att skriva ut — ingen registrering och ingen betalvägg.",
+        "q3": "Vilka är de här {code}-aktiviteterna för?",
+        "a3": "De är byggda för lärare och elever i {grade} som följer Common Core-progressionen för {strand}, och fungerar för helklass, smågrupp eller hemövning."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Så använder du arbetsbladen",
+    "overrides": {},
+    "fallback": {
+      "topic": "Skriv ut PDF:en för en klassrums- eller läxuppgift utan förberedelser, eller öppna versionen att spela online på en surfplatta eller tavla för direkt återkoppling. Varje arbetsblad innehåller ett facit, så barnen kan själva kontrollera eller arbeta självständigt. Blanda blad från olika teman och årskurser för att bygga en kort {topic}-lektion, eller skicka med ett hem för extra övning.",
+      "intersection": "Skriv ut PDF:en för en direkt {primary}-uppgift med fokus på {secondary}, eller starta versionen att spela online på en surfplatta eller tavla. Varje arbetsblad levereras med ett facit för snabb självkontroll, och du kan kombinera det med relaterade teman och årskurser för att utvidga lektionen.",
+      "hub": "Välj ett ämne, ett tema eller en årskurs för att öppna en sida med matchande arbetsblad. Var och en är gratis att skriva ut och att spela online, kommer med facit och finns på alla 11 språk vi publicerar på — praktiskt för tvåspråkiga och internationella klassrum."
     }
   },
   "topicMeta": {

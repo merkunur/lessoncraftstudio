@@ -1174,9 +1174,9 @@
       "educationalLevel": "Fiches pour {topic}"
     },
     "intro": {
-      "exerciseType": "Fiches interactives et PDF imprimables pour s'entraîner avec {topic}.",
-      "theme": "Fiches sur le thème {topic}.",
-      "educationalLevel": "Activités pour {topic}."
+      "exerciseType": "{count, plural, =0 {Parcourez ici les fiches de {topic} au fur et à mesure que nous les ajoutons} =1 {Voici 1 fiche de {topic}} other {Voici # fiches de {topic}}}, toutes gratuites à imprimer en PDF et à jouer en ligne dans le navigateur. Elles offrent aux enseignants de maternelle et d'élémentaire un moyen rapide et sans préparation de s'entraîner avec {topic} en classe ou à la maison, chaque fiche est accompagnée d'un corrigé, et l'ensemble est disponible dans les 11 langues que nous publions. Utilisez-les pour des échauffements en classe entière, des ateliers en petits groupes ou de l'entraînement à la maison qui développe les compétences en {topic} au rythme de chaque enfant, et associez la version interactive à la version imprimable pour que les enfants reçoivent d'abord un retour immédiat puis consolident tranquillement ensuite.",
+      "theme": "{count, plural, =0 {Les fiches sur le thème {topic} apparaîtront ici à mesure que nous les publions} =1 {Cette page contient 1 fiche sur le thème {topic}} other {Cette page rassemble # fiches sur le thème {topic}}} pour la maternelle et l'élémentaire — des activités de comptage, de tri, d'association et de lecture débutante qui partagent toutes les mêmes images sympathiques de {topic}. Chacune est gratuite à imprimer et à jouer en ligne, accompagnée d'un corrigé, et prête dans les 11 langues que nous proposons. Comme les images de {topic} restent les mêmes d'une activité à l'autre, les enfants se concentrent sur la compétence plutôt que de décoder un nouveau contexte à chaque fois, ce qui rend l'ensemble pratique pour les groupes de niveaux mixtes et pour les élèves qui apprennent encore la langue de la classe.",
+      "educationalLevel": "{count, plural, =0 {Les fiches pour {topic} apparaîtront ici à mesure que nous les publions} =1 {Cette page contient 1 fiche pour {topic}} other {Cette page regroupe # fiches pour {topic}}}, couvrant les premières mathématiques, la phonétique et le vocabulaire au bon niveau de difficulté. Chacune est un PDF imprimable gratuit avec une activité à jouer en ligne et un corrigé, et toutes sont disponibles dans les 11 langues que nous publions. Tout ici est adapté à {topic}, vous pouvez donc les distribuer en sachant que le niveau de difficulté convient déjà, puis choisir un thème plus facile ou plus difficile lorsqu'un enfant a besoin d'une autre étape."
     },
     "decksCount": "{count, plural, =0 {Aucune fiche pour le moment} =1 {1 fiche} other {# fiches}}",
     "deckCard": {
@@ -1195,7 +1195,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Fiches à l’intersection de {primary} et {secondary}.",
+      "intro": "{count, plural, =0 {Les fiches de {primary} pour {secondary} apparaîtront ici à mesure que nous les publions} =1 {Cette page contient 1 fiche de {primary} pour {secondary}} other {Cette page réunit # fiches de {primary} pour {secondary}}}. Chacune est un PDF imprimable gratuit avec une activité à jouer en ligne et un corrigé, conçue pour la maternelle et l'élémentaire et disponible dans les 11 langues que publie LessonCraftStudio. Associer {primary} à {secondary} réduit tout le catalogue aux fiches qui conviennent aux deux à la fois, vous pouvez ainsi adapter la tâche au niveau de votre classe et à ses centres d'intérêt en une seule étape — pratique pour préparer une séance ciblée, différencier au sein d'un groupe mixte ou proposer aux élèves rapides quelque chose qui appartient encore à la leçon.",
       "meta": {
         "themeLevel": "Fiches gratuites et interactives de {theme} pour {level} : PDF à imprimer et activités à jouer en ligne pour la maternelle et l'élémentaire.",
         "themeType": "Fiches gratuites et interactives de {type} sur le thème {theme} : PDF à imprimer et activités à jouer en ligne pour la maternelle et l'élémentaire.",
@@ -1256,6 +1256,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtres",
       "close": "Fermer"
+    }
+  },
+  "topicFaq": {
+    "heading": "Questions fréquentes",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Quelles fiches trouve-t-on sur cette page {topic} ?",
+        "a1": "{count, plural, =0 {Cette page rassemble toutes les fiches de {topic} au fur et à mesure que nous les publions} =1 {Cette page contient 1 fiche de {topic} — un PDF imprimable et une version à jouer en ligne} other {Cette page contient # fiches de {topic}, chacune avec un PDF imprimable, un corrigé et une version à jouer en ligne}}.",
+        "q2": "Ces fiches de {topic} sont-elles gratuites ?",
+        "a2": "Oui. Toutes les fiches de {topic} ici sont gratuites à imprimer et à jouer en ligne — sans inscription ni péage.",
+        "q3": "Pour quels âges et quelles langues sont-elles prévues ?",
+        "a3": "Elles sont conçues pour les élèves de maternelle et d'élémentaire (environ 4 à 8 ans) et disponibles dans les 11 langues que publie LessonCraftStudio, ce qui les rend pratiques pour les classes bilingues et internationales."
+      },
+      "intersection": {
+        "q1": "Que contient cette page {primary} et {secondary} ?",
+        "a1": "{count, plural, =0 {Cette page rassemble les fiches de {primary} pour {secondary} au fur et à mesure que nous les publions} =1 {Cette page contient 1 fiche de {primary} pour {secondary}, avec un PDF imprimable et une version à jouer en ligne} other {Cette page contient # fiches de {primary} pour {secondary}, chacune avec un PDF imprimable, un corrigé et une version à jouer en ligne}}.",
+        "q2": "Ces fiches de {primary} pour {secondary} sont-elles gratuites ?",
+        "a2": "Oui. Toutes les fiches ici sont gratuites à imprimer et à jouer en ligne — sans inscription ni péage.",
+        "q3": "Pour quels âges et quelles langues sont-elles prévues ?",
+        "a3": "Elles conviennent aux élèves de maternelle et d'élémentaire (environ 4 à 8 ans) et sont disponibles dans les 11 langues que nous publions."
+      },
+      "activity": {
+        "q1": "Qu'enseigne l'activité {title} ?",
+        "a1": "{title} est une activité interactive gratuite pour {grade}, centrée sur {strand}. Les enfants y jouent directement dans le navigateur — sans impression, ni connexion, ni installation.",
+        "q2": "L'activité {title} est-elle gratuite ?",
+        "a2": "Oui. {title} est entièrement gratuite, sans inscription ni péage, sur n'importe quelle tablette, ordinateur portable ou tableau interactif de classe.",
+        "q3": "Pour quels âges cette activité est-elle prévue ?",
+        "a3": "Elle est conçue pour {grade} ({strand}) et convient bien à un entraînement en classe entière, en petits groupes ou en autonomie."
+      },
+      "standards": {
+        "q1": "Que couvre {code} ?",
+        "a1": "{code} relève du domaine {strand} pour {grade}. Cette page rassemble les activités interactives et les fiches gratuites alignées sur ce repère.",
+        "q2": "Ces ressources {code} sont-elles gratuites ?",
+        "a2": "Oui. Chaque activité et fiche alignée sur {code} est gratuite à utiliser en ligne et à imprimer — sans inscription ni péage.",
+        "q3": "À qui s'adressent ces activités {code} ?",
+        "a3": "Elles sont conçues pour les enseignants et les élèves de {grade} qui suivent la progression {strand} du Common Core, et conviennent à un travail en classe, en petits groupes ou à la maison."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Comment utiliser ces fiches",
+    "overrides": {},
+    "fallback": {
+      "topic": "Imprimez le PDF pour une activité sans préparation en classe ou à la maison, ou ouvrez la version à jouer en ligne sur une tablette ou un tableau interactif pour un retour immédiat. Chaque fiche comprend un corrigé, les enfants peuvent donc s'autocorriger ou travailler en autonomie. Combinez des fiches de différents thèmes et niveaux pour construire une courte leçon de {topic}, ou envoyez-en une à la maison pour un entraînement supplémentaire.",
+      "intersection": "Imprimez le PDF pour une activité de {primary} immédiate centrée sur {secondary}, ou lancez la version à jouer en ligne sur une tablette ou un tableau. Chaque fiche est livrée avec un corrigé pour une autocorrection rapide, et vous pouvez l'associer à des thèmes et niveaux voisins pour prolonger la leçon.",
+      "hub": "Choisissez une matière, un thème ou un niveau pour ouvrir une page de fiches correspondantes. Chacune est gratuite à imprimer et à jouer en ligne, accompagnée d'un corrigé, et disponible dans les 11 langues que nous publions — pratique pour les classes bilingues et internationales."
     }
   },
   "topicMeta": {

@@ -888,9 +888,9 @@
       "educationalLevel": "Werkbladen voor {topic}"
     },
     "intro": {
-      "exerciseType": "Interactieve werkbladen en afdrukbare PDFs om {topic} te oefenen.",
-      "theme": "Werkbladen met {topic}.",
-      "educationalLevel": "Activiteiten voor {topic}."
+      "exerciseType": "{count, plural, =0 {Bekijk hier de {topic}-werkbladen zodra we ze toevoegen} =1 {Hier is 1 {topic}-werkblad} other {Hier zijn # {topic}-werkbladen}}, allemaal gratis af te drukken als PDF en online te spelen in de browser. Ze geven K-3-leerkrachten een snelle manier zonder voorbereiding om {topic} te oefenen in de klas of thuis, bij elk werkblad zit een antwoordblad, en de hele set is beschikbaar in de 11 talen waarin we publiceren. Gebruik ze als klassikale opwarmer, voor rotaties in kleine groepjes of als oefening voor thuis die {topic}-vaardigheden in het eigen tempo van elk kind opbouwt, en combineer de interactieve versie met de afdrukbare zodat kinderen eerst meteen feedback krijgen en daarna rustig kunnen inoefenen.",
+      "theme": "{count, plural, =0 {Werkbladen met het thema {topic} verschijnen hier zodra we ze publiceren} =1 {Op deze pagina staat 1 werkblad met het thema {topic}} other {Deze pagina verzamelt # werkbladen met het thema {topic}}} voor K-3-klassen — tellen, sorteren, koppelen en eerste leesoefeningen die allemaal dezelfde vriendelijke {topic}-plaatjes delen. Elk werkblad is gratis af te drukken en online te spelen, komt met een antwoordblad en is klaar in alle 11 talen die we ondersteunen. Doordat de {topic}-plaatjes in alle oefeningen gelijk blijven, richten kinderen zich op de vaardigheid in plaats van telkens een nieuwe context te ontcijferen, wat de set handig maakt voor groepen met verschillende niveaus en voor leerlingen die de klastaal nog aan het opbouwen zijn.",
+      "educationalLevel": "{count, plural, =0 {Werkbladen voor {topic} verschijnen hier zodra we ze publiceren} =1 {Op deze pagina staat 1 werkblad voor {topic}} other {Deze pagina bundelt # werkbladen voor {topic}}}, met beginnend rekenen, klankoefeningen en woordenschat op het juiste uitdagingsniveau. Elk werkblad is een gratis afdrukbare PDF met een bijpassende online activiteit en een antwoordblad, en is beschikbaar in de 11 talen waarin we publiceren. Alles hier is afgestemd op {topic}, dus u kunt het uitdelen in de wetenschap dat het niveau al past, en grijp daarna naar een makkelijker of moeilijker thema wanneer een kind een andere stap nodig heeft."
     },
     "decksCount": "{count, plural, =0 {Nog geen werkbladen} =1 {1 werkblad} other {# werkbladen}}",
     "deckCard": {
@@ -909,7 +909,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Werkbladen op het snijvlak van {primary} en {secondary}.",
+      "intro": "{count, plural, =0 {{primary}-werkbladen voor {secondary} verschijnen hier zodra we ze publiceren} =1 {Op deze pagina staat 1 {primary}-werkblad voor {secondary}} other {Deze pagina brengt # {primary}-werkbladen voor {secondary} samen}}. Elk werkblad is een gratis afdrukbare PDF met een bijpassende online activiteit en een antwoordblad, gemaakt voor K-3-klassen en beschikbaar in alle 11 talen waarin LessonCraftStudio publiceert. Door {primary} met {secondary} te combineren wordt de hele catalogus teruggebracht tot de werkbladen die bij allebei tegelijk passen, zodat u de oefening in één stap kunt afstemmen op het niveau én de interesses van uw klas — handig om een gerichte les te plannen, te differentiëren binnen een gemengde groep of snelle werkers iets te geven dat nog bij de les hoort.",
       "meta": {
         "themeLevel": "Gratis printbare en interactieve werkbladen over {theme} voor {level}: PDF-bestanden om te printen plus online oefeningen voor de basisschool.",
         "themeType": "Gratis printbare en interactieve {type}-werkbladen met {theme} als thema: PDF-bestanden om te printen plus online oefeningen voor de basisschool.",
@@ -970,6 +970,53 @@
     "mobileDrawer": {
       "openTrigger": "Filters",
       "close": "Sluiten"
+    }
+  },
+  "topicFaq": {
+    "heading": "Veelgestelde vragen",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Welke werkbladen staan er op deze {topic}-pagina?",
+        "a1": "{count, plural, =0 {Deze pagina verzamelt elk {topic}-werkblad zodra we het publiceren} =1 {Op deze pagina staat 1 {topic}-werkblad — een afdrukbare PDF plus een online versie} other {Op deze pagina staan # {topic}-werkbladen, elk met een afdrukbare PDF, een antwoordblad en een online versie}}.",
+        "q2": "Zijn deze {topic}-werkbladen gratis?",
+        "a2": "Ja. Elk {topic}-werkblad hier is gratis af te drukken en online te spelen — zonder aanmelding en zonder betaalmuur.",
+        "q3": "Voor welke leeftijden en talen zijn ze?",
+        "a3": "Ze zijn gemaakt voor K-3-leerlingen (ongeveer 4-8 jaar) en beschikbaar in alle 11 talen waarin LessonCraftStudio publiceert, wat ze handig maakt voor tweetalige en internationale klassen."
+      },
+      "intersection": {
+        "q1": "Wat staat er op deze pagina over {primary} en {secondary}?",
+        "a1": "{count, plural, =0 {Deze pagina verzamelt {primary}-werkbladen voor {secondary} zodra we ze publiceren} =1 {Op deze pagina staat 1 {primary}-werkblad voor {secondary}, met een afdrukbare PDF en een online versie} other {Op deze pagina staan # {primary}-werkbladen voor {secondary}, elk met een afdrukbare PDF, een antwoordblad en een online versie}}.",
+        "q2": "Zijn deze {primary}-werkbladen voor {secondary} gratis?",
+        "a2": "Ja. Elk werkblad hier is gratis af te drukken en online te spelen — zonder aanmelding en zonder betaalmuur.",
+        "q3": "Voor welke leeftijden en talen zijn ze?",
+        "a3": "Ze passen bij K-3-leerlingen (ongeveer 4-8 jaar) en zijn beschikbaar in alle 11 talen waarin we publiceren."
+      },
+      "activity": {
+        "q1": "Wat leert de activiteit {title}?",
+        "a1": "{title} is een gratis interactieve activiteit voor {grade}, gericht op {strand}. Kinderen spelen het direct in de browser — geen afdrukken, inloggen of installeren nodig.",
+        "q2": "Is {title} gratis te gebruiken?",
+        "a2": "Ja. {title} is volledig gratis, zonder aanmelding en zonder betaalmuur, op elke tablet, laptop of digibord in de klas.",
+        "q3": "Voor welke leeftijden is deze activiteit?",
+        "a3": "Hij is bedoeld voor {grade} ({strand}) en werkt goed voor klassikaal, in kleine groepjes of zelfstandig oefenen."
+      },
+      "standards": {
+        "q1": "Wat valt er onder {code}?",
+        "a1": "{code} hoort bij het domein {strand} voor {grade}. Deze pagina verzamelt de gratis interactieve activiteiten en werkbladen die erop aansluiten.",
+        "q2": "Zijn deze {code}-bronnen gratis?",
+        "a2": "Ja. Elke activiteit en elk werkblad dat aansluit op {code} is gratis online te gebruiken en af te drukken — zonder aanmelding en zonder betaalmuur.",
+        "q3": "Voor wie zijn deze {code}-activiteiten?",
+        "a3": "Ze zijn gemaakt voor leerkrachten en leerlingen van {grade} die de Common Core-opbouw van {strand} volgen, en werken voor klassikaal, in kleine groepjes of thuis oefenen."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Zo gebruikt u deze werkbladen",
+    "overrides": {},
+    "fallback": {
+      "topic": "Print de PDF voor een klas- of huiswerkopdracht zonder voorbereiding, of open de online versie op een tablet of digibord voor meteen feedback. Bij elk werkblad zit een antwoordblad, zodat kinderen zelf kunnen nakijken of zelfstandig kunnen werken. Combineer werkbladen over verschillende thema's en niveaus tot een korte {topic}-les, of stuur er een mee naar huis voor extra oefening.",
+      "intersection": "Print de PDF voor een directe {primary}-opdracht gericht op {secondary}, of start de online versie op een tablet of bord. Bij elk werkblad zit een antwoordblad om snel zelf na te kijken, en u kunt het combineren met verwante thema's en niveaus om de les uit te breiden.",
+      "hub": "Kies een vak, thema of niveau om een pagina met passende werkbladen te openen. Elk werkblad is gratis af te drukken en online te spelen, komt met een antwoordblad en is beschikbaar in alle 11 talen waarin we publiceren — handig voor tweetalige en internationale klassen."
     }
   },
   "topicMeta": {

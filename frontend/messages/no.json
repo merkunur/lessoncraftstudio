@@ -1158,9 +1158,9 @@
       "educationalLevel": "Arbeidsark for {topic}"
     },
     "intro": {
-      "exerciseType": "Interaktive arbeidsark og utskrivbare PDF-filer for å øve {topic}.",
-      "theme": "Arbeidsark med tema {topic}.",
-      "educationalLevel": "Aktiviteter for {topic}."
+      "exerciseType": "{count, plural, =0 {Bla i {topic}-arbeidsark her etter hvert som vi legger dem til} =1 {Her er 1 {topic}-arbeidsark} other {Her er # {topic}-arbeidsark}}, alle gratis å skrive ut som PDF og å spille online i nettleseren. De gir K-3-lærere en rask måte uten forberedelser til å øve {topic} i klassen eller hjemme, hvert ark har en fasit, og hele settet finnes på de 11 språkene vi publiserer på. Bruk dem til oppvarming i full klasse, stasjonsarbeid i smågrupper eller hjemmeøving som bygger {topic}-ferdigheter i hvert barns eget tempo, og kombiner den interaktive versjonen med den utskrivbare så barna først får umiddelbar tilbakemelding og deretter rolig festning av kunnskapen.",
+      "theme": "{count, plural, =0 {Arbeidsark med tema {topic} dukker opp her etter hvert som vi publiserer dem} =1 {Denne siden har 1 arbeidsark med tema {topic}} other {Denne siden samler # arbeidsark med tema {topic}}} for K-3-klasserom — telling, sortering, parkobling og tidlig lesing som alle deler de samme vennlige {topic}-bildene. Hvert ark er gratis å skrive ut og å spille online, har en fasit, og er klart på alle de 11 språkene vi støtter. Fordi {topic}-bildene er de samme på tvers av aktivitetene, kan barna konsentrere seg om ferdigheten i stedet for å tyde en ny sammenheng hver gang, noe som gjør settet praktisk for grupper med blandet nivå og for elever som fortsatt bygger opp klasseromsspråket.",
+      "educationalLevel": "{count, plural, =0 {Arbeidsark for {topic} dukker opp her etter hvert som vi publiserer dem} =1 {Denne siden har 1 arbeidsark for {topic}} other {Denne siden samler # arbeidsark for {topic}}}, som spenner over tidlig matematikk, fonologi og ordforråd på riktig vanskelighetsnivå. Hvert ark er en gratis utskrivbar PDF med en tilhørende spill-online-aktivitet og en fasit, og alle finnes på de 11 språkene vi publiserer på. Alt her er tilpasset {topic}, så du kan dele det ut og vite at vanskelighetsgraden allerede passer, og så heller hente et lettere eller vanskeligere tema når et barn trenger et annet steg."
     },
     "decksCount": "{count, plural, =0 {Ingen arbeidsark ennå} =1 {1 arbeidsark} other {# arbeidsark}}",
     "deckCard": {
@@ -1179,7 +1179,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbeidsark i skjæringspunktet mellom {primary} og {secondary}.",
+      "intro": "{count, plural, =0 {{primary}-arbeidsark for {secondary} dukker opp her etter hvert som vi publiserer dem} =1 {Denne siden har 1 {primary}-arbeidsark for {secondary}} other {Denne siden samler # {primary}-arbeidsark for {secondary}}}. Hvert ark er en gratis utskrivbar PDF med en tilhørende spill-online-aktivitet og en fasit, laget for K-3-klasserom og tilgjengelig på alle de 11 språkene LessonCraftStudio publiserer på. Å kombinere {primary} med {secondary} snevrer hele katalogen inn til de arbeidsarkene som passer begge deler på én gang, så du kan tilpasse oppgaven til klassens nivå og interesser i ett steg — praktisk når du planlegger en fokusert økt, differensierer i en blandet gruppe eller gir dem som er tidlig ferdige noe som fortsatt hører til timen.",
       "meta": {
         "themeLevel": "Gratis utskrivbare og interaktive oppgaveark om {theme} for {level}: PDF-filer til utskrift pluss aktiviteter du spiller online for barnehage og småtrinn.",
         "themeType": "Gratis utskrivbare og interaktive {type}-oppgaveark med {theme} som tema: PDF-filer til utskrift pluss aktiviteter du spiller online for småtrinnet.",
@@ -1240,6 +1240,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtre",
       "close": "Lukk"
+    }
+  },
+  "topicFaq": {
+    "heading": "Ofte stilte spørsmål",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Hvilke arbeidsark finnes på denne {topic}-siden?",
+        "a1": "{count, plural, =0 {Denne siden samler alle {topic}-arbeidsark etter hvert som vi publiserer dem} =1 {Denne siden har 1 {topic}-arbeidsark — en utskrivbar PDF pluss en spill-online-versjon} other {Denne siden har # {topic}-arbeidsark, hvert med en utskrivbar PDF, en fasit og en spill-online-versjon}}.",
+        "q2": "Er disse {topic}-arbeidsarkene gratis?",
+        "a2": "Ja. Hvert {topic}-arbeidsark her er gratis å skrive ut og å spille online — ingen registrering og ingen betalingsmur.",
+        "q3": "Hvilke aldre og språk er de for?",
+        "a3": "De er laget for K-3-elever (omtrent 4-8 år) og finnes på alle de 11 språkene LessonCraftStudio publiserer på, noe som gjør dem praktiske for tospråklige og internasjonale klasserom."
+      },
+      "intersection": {
+        "q1": "Hva finnes på denne siden om {primary} og {secondary}?",
+        "a1": "{count, plural, =0 {Denne siden samler {primary}-arbeidsark for {secondary} etter hvert som vi publiserer dem} =1 {Denne siden har 1 {primary}-arbeidsark for {secondary}, med en utskrivbar PDF og en spill-online-versjon} other {Denne siden har # {primary}-arbeidsark for {secondary}, hvert med en utskrivbar PDF, en fasit og en spill-online-versjon}}.",
+        "q2": "Er disse {primary}-arbeidsarkene for {secondary} gratis?",
+        "a2": "Ja. Hvert arbeidsark her er gratis å skrive ut og å spille online — ingen registrering og ingen betalingsmur.",
+        "q3": "Hvilke aldre og språk er de for?",
+        "a3": "De passer for K-3-elever (omtrent 4-8 år) og finnes på alle de 11 språkene vi publiserer på."
+      },
+      "activity": {
+        "q1": "Hva lærer {title}-aktiviteten?",
+        "a1": "{title} er en gratis interaktiv aktivitet for {grade}, med fokus på {strand}. Barna spiller den rett i nettleseren — ingen utskrift, innlogging eller oppsett kreves.",
+        "q2": "Er {title} gratis å bruke?",
+        "a2": "Ja. {title} er helt gratis, uten registrering og uten betalingsmur, på et hvilket som helst nettbrett, en laptop eller en klasseromstavle.",
+        "q3": "Hvilke aldre er denne aktiviteten for?",
+        "a3": "Den er laget for {grade} ({strand}) og fungerer godt til arbeid i full klasse, i smågrupper eller individuelt."
+      },
+      "standards": {
+        "q1": "Hva dekkes under {code}?",
+        "a1": "{code} hører til i {strand}-området for {grade}. Denne siden samler de gratis interaktive aktivitetene og arbeidsarkene som er tilpasset det.",
+        "q2": "Er disse {code}-ressursene gratis?",
+        "a2": "Ja. Hver aktivitet og hvert arbeidsark tilpasset {code} er gratis å bruke online og å skrive ut — ingen registrering og ingen betalingsmur.",
+        "q3": "Hvem er disse {code}-aktivitetene for?",
+        "a3": "De er laget for lærere og elever på {grade} som følger Common Core-progresjonen for {strand}, og fungerer til arbeid i klassen, i smågrupper eller hjemme."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Slik bruker du disse arbeidsarkene",
+    "overrides": {},
+    "fallback": {
+      "topic": "Skriv ut PDF-en til en oppgave uten forberedelser i klassen eller som hjemmelekse, eller åpne spill-online-versjonen på et nettbrett eller en tavle for umiddelbar tilbakemelding. Hvert arbeidsark har en fasit, så barna kan rette seg selv eller jobbe på egen hånd. Bland ark på tvers av temaer og klassetrinn til en kort {topic}-time, eller send ett med hjem til ekstra øving.",
+      "intersection": "Skriv ut PDF-en til en oppgave i {primary} med fokus på {secondary}, eller start spill-online-versjonen på et nettbrett eller en tavle. Hvert arbeidsark leveres med en fasit for rask egenretting, og du kan kombinere det med beslektede temaer og klassetrinn for å utvide timen.",
+      "hub": "Velg et fag, et tema eller et klassetrinn for å åpne en side med passende arbeidsark. Hvert ark er gratis å skrive ut og å spille online, har en fasit, og finnes på alle de 11 språkene vi publiserer på — praktisk for tospråklige og internasjonale klasserom."
     }
   },
   "topicMeta": {

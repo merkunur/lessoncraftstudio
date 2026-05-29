@@ -1167,9 +1167,9 @@
       "educationalLevel": "Schede per {topic}"
     },
     "intro": {
-      "exerciseType": "Schede interattive e PDF stampabili per esercitarsi con {topic}.",
-      "theme": "Schede a tema {topic}.",
-      "educationalLevel": "Attività per {topic}."
+      "exerciseType": "{count, plural, =0 {Qui troverai le schede di {topic} man mano che le aggiungiamo} =1 {Ecco 1 scheda di {topic}} other {Ecco # schede di {topic}}}, tutte gratuite da stampare in PDF e da giocare online nel browser. Offrono agli insegnanti K-3 un modo rapido e senza preparazione per esercitarsi con {topic} in classe o a casa, ogni scheda è accompagnata dalle soluzioni e l'intera raccolta è disponibile in tutte le 11 lingue in cui pubblichiamo. Usale per il riscaldamento con tutta la classe, per i turni in piccoli gruppi o come esercizio da portare a casa, così ogni bambino sviluppa le competenze su {topic} al proprio ritmo: abbina la versione interattiva a quella stampabile, perché i bambini ricevano prima un riscontro immediato e poi consolidino in tranquillità.",
+      "theme": "{count, plural, =0 {Le schede a tema {topic} compariranno qui man mano che le pubblichiamo} =1 {Questa pagina contiene 1 scheda a tema {topic}} other {Questa pagina raccoglie # schede a tema {topic}}} per le classi K-3 — contare, classificare, abbinare e attività di prima lettura, tutte con le stesse simpatiche immagini a tema {topic}. Ognuna è gratuita da stampare e da giocare online, è accompagnata dalle soluzioni ed è pronta in tutte le 11 lingue che supportiamo. Poiché le immagini di {topic} restano le stesse in ogni attività, i bambini si concentrano sulla competenza invece di decifrare ogni volta un contesto nuovo, il che rende la raccolta comoda per i gruppi a livelli misti e per chi sta ancora imparando la lingua della classe.",
+      "educationalLevel": "{count, plural, =0 {Le schede per {topic} compariranno qui man mano che le pubblichiamo} =1 {Questa pagina contiene 1 scheda per {topic}} other {Questa pagina raccoglie # schede per {topic}}}, che spaziano dalla prima matematica alla fonetica e al vocabolario, con il giusto livello di difficoltà. Ognuna è un PDF stampabile gratuito con una corrispondente attività da giocare online e le soluzioni, ed è disponibile in tutte le 11 lingue in cui pubblichiamo. Tutto ciò che trovi qui è pensato per {topic}, così puoi distribuirlo sapendo che il livello di difficoltà è già adatto, per poi passare a un tema più facile o più impegnativo quando un bambino ha bisogno di un altro passo."
     },
     "decksCount": "{count, plural, =0 {Ancora nessuna scheda} =1 {1 scheda} other {# schede}}",
     "deckCard": {
@@ -1188,7 +1188,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Schede all’intersezione di {primary} e {secondary}.",
+      "intro": "{count, plural, =0 {Le schede di {primary} per {secondary} compariranno qui man mano che le pubblichiamo} =1 {Questa pagina contiene 1 scheda di {primary} per {secondary}} other {Questa pagina riunisce # schede di {primary} per {secondary}}}. Ognuna è un PDF stampabile gratuito con una corrispondente attività da giocare online e le soluzioni, pensata per le classi K-3 e disponibile in tutte le 11 lingue in cui pubblica LessonCraftStudio. Abbinare {primary} a {secondary} restringe l'intero catalogo alle schede che si adattano a entrambi insieme, così puoi calibrare l'attività sul livello della tua classe e sui suoi interessi in un solo passaggio — utile per pianificare una sessione mirata, differenziare all'interno di un gruppo misto o dare a chi finisce prima qualcosa che fa ancora parte della lezione.",
       "meta": {
         "themeLevel": "Schede gratuite e interattive di {theme} per {level}: PDF da stampare e attività da giocare online per la scuola dell'infanzia e primaria.",
         "themeType": "Schede gratuite e interattive di {type} sul tema {theme}: PDF da stampare e attività da giocare online per la scuola dell'infanzia e primaria.",
@@ -1249,6 +1249,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtri",
       "close": "Chiudi"
+    }
+  },
+  "topicFaq": {
+    "heading": "Domande frequenti",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Quali schede ci sono in questa pagina di {topic}?",
+        "a1": "{count, plural, =0 {Questa pagina raccoglie tutte le schede di {topic} man mano che le pubblichiamo} =1 {Questa pagina contiene 1 scheda di {topic} — un PDF stampabile più una versione da giocare online} other {Questa pagina contiene # schede di {topic}, ognuna con un PDF stampabile, le soluzioni e una versione da giocare online}}.",
+        "q2": "Queste schede di {topic} sono gratuite?",
+        "a2": "Sì. Ogni scheda di {topic} qui presente è gratuita da stampare e da giocare online — senza registrazione e senza barriere a pagamento.",
+        "q3": "Per quali età e lingue sono pensate?",
+        "a3": "Sono pensate per gli alunni K-3 (circa 4-8 anni) e disponibili in tutte le 11 lingue in cui pubblica LessonCraftStudio, il che le rende comode per le classi bilingui e internazionali."
+      },
+      "intersection": {
+        "q1": "Cosa c'è in questa pagina di {primary} e {secondary}?",
+        "a1": "{count, plural, =0 {Questa pagina raccoglie le schede di {primary} per {secondary} man mano che le pubblichiamo} =1 {Questa pagina contiene 1 scheda di {primary} per {secondary}, con un PDF stampabile e una versione da giocare online} other {Questa pagina contiene # schede di {primary} per {secondary}, ognuna con un PDF stampabile, le soluzioni e una versione da giocare online}}.",
+        "q2": "Queste schede di {primary} per {secondary} sono gratuite?",
+        "a2": "Sì. Ogni scheda qui presente è gratuita da stampare e da giocare online — senza registrazione e senza barriere a pagamento.",
+        "q3": "Per quali età e lingue sono pensate?",
+        "a3": "Sono adatte agli alunni K-3 (circa 4-8 anni) e disponibili in tutte le 11 lingue in cui pubblichiamo."
+      },
+      "activity": {
+        "q1": "Cosa insegna l'attività {title}?",
+        "a1": "{title} è un'attività interattiva gratuita per {grade}, incentrata su {strand}. I bambini la usano direttamente nel browser — senza stampare, accedere o configurare nulla.",
+        "q2": "{title} è gratuita?",
+        "a2": "Sì. {title} è completamente gratuita, senza registrazione e senza barriere a pagamento, su qualsiasi tablet, computer portatile o lavagna interattiva della classe.",
+        "q3": "Per quali età è questa attività?",
+        "a3": "È pensata per {grade} ({strand}) e funziona bene per l'esercizio con tutta la classe, in piccoli gruppi o in autonomia."
+      },
+      "standards": {
+        "q1": "Cosa rientra in {code}?",
+        "a1": "{code} fa parte dell'ambito {strand} per {grade}. Questa pagina raccoglie le attività interattive e le schede gratuite allineate a questo obiettivo.",
+        "q2": "Queste risorse di {code} sono gratuite?",
+        "a2": "Sì. Ogni attività e scheda allineata a {code} è gratuita da usare online e da stampare — senza registrazione e senza barriere a pagamento.",
+        "q3": "A chi sono rivolte queste attività di {code}?",
+        "a3": "Sono pensate per insegnanti e alunni di {grade} che seguono la progressione {strand} dei Common Core, e funzionano per l'esercizio in classe, in piccoli gruppi o a casa."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Come usare queste schede",
+    "overrides": {},
+    "fallback": {
+      "topic": "Stampa il PDF per un'attività in classe o per i compiti senza preparazione, oppure apri la versione da giocare online su tablet o lavagna per un riscontro immediato. Ogni scheda include le soluzioni, così i bambini possono auto-correggersi o lavorare in autonomia. Combina schede di temi e livelli diversi per costruire una breve lezione su {topic}, oppure mandane una a casa per esercitarsi ancora.",
+      "intersection": "Stampa il PDF per un'attività immediata di {primary} incentrata su {secondary}, oppure avvia la versione da giocare online su tablet o lavagna. Ogni scheda è accompagnata dalle soluzioni per un'auto-correzione rapida, e puoi abbinarla a temi e livelli affini per ampliare la lezione.",
+      "hub": "Scegli una materia, un tema o un livello scolastico per aprire una pagina di schede corrispondenti. Ognuna è gratuita da stampare e da giocare online, è accompagnata dalle soluzioni ed è disponibile in tutte le 11 lingue in cui pubblichiamo — comoda per le classi bilingui e internazionali."
     }
   },
   "topicMeta": {

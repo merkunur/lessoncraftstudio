@@ -1253,7 +1253,1170 @@
   },
   "topicFaq": {
     "heading": "Domande frequenti",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "A che età sono adatte queste schede?",
+          "a": "Sono pensate per i 5-7 anni, i più grandi della scuola dell'infanzia, che si esercitano con il conteggio, le prime addizioni e sottrazioni, l'associazione numero-quantità e le prime parole."
+        },
+        {
+          "q": "Le schede per scuola dell'infanzia 5-7 anni sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Cosa esercitano le schede di classe prima?",
+          "a": "Sono adatte ai 6-8 anni: addizioni e sottrazioni entro il 20, decine e unità, unire le lettere nelle prime parole e prima lettura, oltre a semplici attività di logica."
+        },
+        {
+          "q": "Le schede per Scuola primaria classe prima sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "A che età sono adatte queste schede?",
+          "a": "Sono pensate per i 3-5 anni, i più piccoli della scuola dell'infanzia, che contano piccole quantità, abbinano, classificano e tracciano le prime lettere senza dover ancora leggere."
+        },
+        {
+          "q": "Le schede per scuola dell'infanzia 3-5 anni sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Cosa esercitano le schede di classe seconda?",
+          "a": "Sono adatte ai 7-9 anni: addizioni e sottrazioni a due cifre, prime moltiplicazioni, decine e centinaia, letture più lunghe, lavoro sulle parole e logica."
+        },
+        {
+          "q": "Le schede per Scuola primaria classe seconda sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Cosa si esercita con il Treno Dei Modelli?",
+          "a": "I bambini continuano un modello di immagini lungo i vagoni del treno, allenando sequenze e ritmi, osservazione e ragionamento, adatti già dalla scuola dell'infanzia."
+        },
+        {
+          "q": "Le schede di Treno Dei Modelli sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Cosa esercitano le schede di Sottrazione?",
+          "a": "I bambini barrano ciò che va via e contano ciò che resta, capendo il senso della sottrazione dalle prime quantità verso operazioni a una e due cifre piccole."
+        },
+        {
+          "q": "Le schede di Sottrazione sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Cosa si esercita con l'Addizione Codificata?",
+          "a": "I bambini risolvono piccole somme i cui risultati corrispondono a lettere per scoprire una parola, allenando le prime addizioni e il riconoscimento delle lettere."
+        },
+        {
+          "q": "Le schede di Addizione Codificata sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Cosa esercitano le schede di Addizione?",
+          "a": "I bambini contano due gruppi e li uniscono, allenando il conteggio e l'associazione numero-quantità verso le prime operazioni a una e due cifre piccole."
+        },
+        {
+          "q": "Le schede di Addizione sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Cosa si esercita con Più O Meno?",
+          "a": "I bambini confrontano due gruppi di immagini per capire quale ha più, meno o uguale, allenando il confronto e l'associazione numero-quantità senza dover leggere."
+        },
+        {
+          "q": "Le schede di Più O Meno sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Cosa esercitano le schede di Matematica?",
+          "a": "I bambini fanno pratica generale sui numeri: operazioni, parti mancanti, somme e sottrazioni miste, per consolidare il calcolo e il senso del numero."
+        },
+        {
+          "q": "Le schede di Matematica sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Cosa si esercita con Abbina Le Ombre?",
+          "a": "I bambini collegano ogni oggetto alla sua ombra riconoscendo forma e contorno, allenando la discriminazione visiva e l'abbinamento senza dover leggere."
+        },
+        {
+          "q": "Le schede di Abbina Le Ombre sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Cosa si esercita con il Puzzle Matematico?",
+          "a": "I bambini trascinano i pezzi per completare un puzzle numerico, allenando il senso del numero e la capacità di pianificare e ragionare."
+        },
+        {
+          "q": "Le schede di Puzzle Matematico sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Cosa si esercita con le Preposizioni?",
+          "a": "I bambini scelgono l'immagine che mostra una posizione come in, su, sotto o accanto, allenando l'orientamento spaziale e il vocabolario con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Preposizioni sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Cosa si esercita con il Crittogramma?",
+          "a": "I bambini decifrano un codice di immagini e simboli per scrivere una parola, allenando il riconoscimento delle lettere, l'osservazione e il ragionamento."
+        },
+        {
+          "q": "Le schede di Crittogramma sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Cosa si esercita con il Sudoku Illustrato?",
+          "a": "I bambini collocano le immagini in una griglia 4x4 perché ogni riga, colonna e blocco ne abbia una di ciascuna, allenando logica e ragionamento senza numeri né lettura."
+        },
+        {
+          "q": "Le schede di Sudoku Illustrato sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Cosa si esercita con la Caccia Al Tesoro?",
+          "a": "I bambini seguono indizi di direzione su una griglia fino al tesoro, allenando il ragionamento spaziale e la capacità di orientarsi seguendo le direzioni."
+        },
+        {
+          "q": "Le schede di Caccia Al Tesoro sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Cosa si esercita con gli Anagrammi?",
+          "a": "I bambini rimettono in ordine le lettere mescolate per scrivere la parola di un'immagine, allenando l'ortografia iniziale e il riconoscimento delle lettere."
+        },
+        {
+          "q": "Le schede di Anagrammi sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Cosa si esercita con Grande O Piccolo?",
+          "a": "I bambini trovano il più grande o il più piccolo e ordinano per dimensione, allenando il confronto e le prime nozioni di grandezza senza dover leggere."
+        },
+        {
+          "q": "Le schede di Grande O Piccolo sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Cosa si esercita con l'Abbinamento?",
+          "a": "I bambini tracciano una linea per collegare ogni elemento alla sua coppia, allenando la corrispondenza uno a uno, l'osservazione e l'attenzione senza dover leggere."
+        },
+        {
+          "q": "Le schede di Abbinamento sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Cosa si esercita con i Pezzi Mancanti?",
+          "a": "I bambini trascinano il pezzo ritagliato giusto in ogni buco per completare l'immagine, allenando la discriminazione visiva e il ragionamento."
+        },
+        {
+          "q": "Le schede di Pezzi Mancanti sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Cosa si esercita con Trova Gli Oggetti?",
+          "a": "I bambini cercano oggetti nascosti in una scena e li segnano, allenando la discriminazione visiva e l'attenzione con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Trova Gli Oggetti sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Cosa si esercita con Indovina La Parola?",
+          "a": "I bambini riempiono gli spazi per scrivere la parola di un'immagine, allenando la scrittura iniziale e il riconoscimento delle lettere con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Indovina La Parola sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Cosa si esercita con L'intruso?",
+          "a": "I bambini devono trova l'intruso, l'immagine che non appartiene, e spiegare il perché, allenando la classificazione e il ragionamento senza dover leggere."
+        },
+        {
+          "q": "Le schede di L'intruso sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Cosa si esercita con Trova E Conta?",
+          "a": "I bambini trovano gli oggetti in una scena e contano quanti sono, allenando la ricerca visiva, il conteggio e l'associazione numero-quantità."
+        },
+        {
+          "q": "Le schede di Trova E Conta sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Cosa si esercita con il Percorso Illustrato?",
+          "a": "I bambini tracciano un percorso su una griglia fino alla meta, allenando il ragionamento spaziale e la direzione con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Percorso Illustrato sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Cosa si esercita con Ordina Le Immagini?",
+          "a": "I bambini classificano le immagini in gruppi o categorie, allenando la classificazione e il ragionamento senza dover leggere."
+        },
+        {
+          "q": "Le schede di Ordina Le Immagini sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Cosa si esercita con il Bingo?",
+          "a": "I bambini segnano sulla cartella l'immagine, la lettera o il numero chiamato, allenando l'ascolto e il ripasso, ideale per tutta la classe."
+        },
+        {
+          "q": "Le schede di Bingo sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Cosa si esercita con il Conteggio Grafico?",
+          "a": "I bambini contano gli oggetti e riempiono la colonna di un grafico a barre, allenando il conteggio e i primi dati con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Conteggio Grafico sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Cosa si esercita con i Modelli?",
+          "a": "I bambini leggono e continuano un modello che si ripete, AB o ABC, allenando le sequenze e i ritmi, l'osservazione e il ragionamento."
+        },
+        {
+          "q": "Le schede di Modelli sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Cosa si esercita con l'Abbinamento A Griglia?",
+          "a": "I bambini trascinano le tessere al loro posto in una griglia, allenando l'abbinamento e la memoria visiva senza dover leggere."
+        },
+        {
+          "q": "Le schede di Abbinamento A Griglia sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Cosa si esercita con Cerca Parole?",
+          "a": "I bambini trovano parole nascoste di un tema in una griglia di lettere, allenando il riconoscimento delle lettere e la ricerca visiva."
+        },
+        {
+          "q": "Le schede di Cerca Parole sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Cosa si esercita con il Cruciverba?",
+          "a": "I bambini guardano gli indizi illustrati e scrivono le lettere nella griglia che si incrocia, allenando l'ortografia e il vocabolario con il supporto delle immagini."
+        },
+        {
+          "q": "Le schede di Cruciverba sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Cosa si esercita con il Treno Dell'alfabeto?",
+          "a": "I bambini mettono le lettere in ordine dalla A alla Z nei vagoni di un treno, allenando il riconoscimento delle lettere e l'ordine alfabetico."
+        },
+        {
+          "q": "Le schede di Treno Dell'alfabeto sono gratuite?",
+          "a": "Sì. Sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Animali?",
+          "a": "Trovi attività adatte al percorso K-3: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, tutte con il supporto delle immagini degli animali."
+        },
+        {
+          "q": "Le schede a tema Animali sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Animali sono gratuite e si possono stampare in PDF o giocare online nella versione interattiva, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo, così puoi usarle anche nelle classi bilingui."
+        }
+      ],
+      "accessories": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Accessori?",
+          "a": "Trovi attività K-3 con lo stesso insieme di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, sempre con il supporto delle figure."
+        },
+        {
+          "q": "Le schede a tema Accessori sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Accessori sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo, una risorsa pratica anche nelle classi plurilingue."
+        }
+      ],
+      "beach": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Spiaggia?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Spiaggia sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Spiaggia sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "breakfast": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Colazione?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Colazione sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Colazione sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "christmas": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Natale?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini natalizie: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Natale sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Natale sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "classroom": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Aula?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Aula sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Aula sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "clothing": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Abbigliamento?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Abbigliamento sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Abbigliamento sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "ocean_life": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Vita oceanica?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini marine: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Vita oceanica sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Vita oceanica sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "space": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Spazio?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Spazio sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Spazio sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "summer": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Estate?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini estive: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Estate sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Estate sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "toys": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Giocattoli?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Giocattoli sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Giocattoli sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "weather": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Meteo?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Meteo sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Meteo sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "winter": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Inverno?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini invernali: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Inverno sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Inverno sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "around_the_house": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema In giro per casa?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema In giro per casa sono gratuite?",
+          "a": "Sì. Tutte le schede a tema In giro per casa sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "at_the_supermarket": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Al supermercato?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Al supermercato sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Al supermercato sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "bakery": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Panetteria?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Panetteria sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Panetteria sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "body_parts": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Parti del corpo?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Parti del corpo sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Parti del corpo sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "camping": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Campeggio?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Campeggio sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Campeggio sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "flowers": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Fiori?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Fiori sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Fiori sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "forest_creatures": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Creature della foresta?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Creature della foresta sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Creature della foresta sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "furniture": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Mobili?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Mobili sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Mobili sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "spring": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Primavera?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini primaverili: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Primavera sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Primavera sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "things_that_fly": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Cose che volano?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Cose che volano sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Cose che volano sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "vegetables": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Verdure?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Verdure sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Verdure sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "zoo_animals": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Animali dello zoo?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Animali dello zoo sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Animali dello zoo sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "activities": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Attività?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Attività sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Attività sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "birds_2": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Uccelli 2?",
+          "a": "Trovi una seconda raccolta di immagini di uccelli con attività K-3: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Uccelli 2 sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Uccelli 2 sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "desserts_and_sweets": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Dolci e dolciumi?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Dolci e dolciumi sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Dolci e dolciumi sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "easter": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Pasqua?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini pasquali: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Pasqua sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Pasqua sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "farm_animals": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Animali della fattoria?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Animali della fattoria sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Animali della fattoria sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "fruits": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Frutta?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Frutta sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Frutta sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "hospital": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Ospedale?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Ospedale sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Ospedale sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kitchen_tools": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Utensili da cucina?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Utensili da cucina sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Utensili da cucina sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "vehicles": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Veicoli?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Veicoli sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Veicoli sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "4th_of_july": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema 4 luglio?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema 4 luglio sono gratuite?",
+          "a": "Sì. Tutte le schede a tema 4 luglio sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "music": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Musica?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Musica sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Musica sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "occupations": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Professioni?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Professioni sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Professioni sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "pets": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Animali domestici?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Animali domestici sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Animali domestici sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "insects_and_bugs": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Insetti e scarafaggi?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Insetti e scarafaggi sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Insetti e scarafaggi sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "thanksgivinng": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Giorno del Ringraziamento?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Giorno del Ringraziamento sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Giorno del Ringraziamento sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "tree": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Alberi?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Alberi sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Alberi sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "emotions": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Emozioni?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Emozioni sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Emozioni sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "shapes": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Forme?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Forme sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Forme sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "tools": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Attrezzi?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Attrezzi sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Attrezzi sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "birds": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Uccelli?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Uccelli sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Uccelli sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "post_office": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Ufficio postale?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Ufficio postale sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Ufficio postale sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "dinosaurs": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Dinosauri?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Dinosauri sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Dinosauri sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "reptiles_and_amphibians": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Rettili e anfibi?",
+          "a": "Trovi attività K-3 con un'unica raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Rettili e anfibi sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Rettili e anfibi sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "colors": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Colori?",
+          "a": "Trovi attività K-3 con la stessa raccolta di immagini: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Colori sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Colori sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "miscellaneous": [
+        {
+          "q": "Cosa trovi nella pagina di schede a tema Varie?",
+          "a": "Trovi un insieme variato di immagini con attività K-3: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere."
+        },
+        {
+          "q": "Le schede a tema Varie sono gratuite?",
+          "a": "Sì. Tutte le schede a tema Varie sono gratuite e si possono stampare in PDF o giocare online, con le soluzioni, senza registrazione."
+        },
+        {
+          "q": "In quante lingue sono disponibili?",
+          "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Quali schede ci sono in questa pagina di {topic}?",
@@ -1435,31 +2598,31 @@
     "zoo_animals_bw": "Animali dello zoo in bianco e nero da colorare: leoni, elefanti e giraffe al tratto. Disegni stampabili per attività tranquille."
   },
   "topicProse": {
-    "animals": "Le schede a tema animali offrono al personale insegnante della prima infanzia una base di vocabolario che attraversa l'intero curriculum K-3. Contare mucche, classificare uccelli per ciò che mangiano, riconoscere la lettera iniziale del nome di ogni animale della fattoria: lo stesso insieme di immagini sostiene il senso del numero, la classificazione e la lettoscrittura iniziale senza chiedere ai bambini di cambiare contesto. Il vocabolario stesso è ad alta frequenza in ciascuna delle undici lingue in cui pubblichiamo, il che rende queste schede particolarmente utili quando una classe ha bambini con livelli linguistici diversi.",
-    "addition": "Le schede di addizione raggiungono i bambini nel momento in cui addizionare smette di essere un trucco di conteggio e inizia a essere un fatto che possono richiamare. Le schede qui proposte offrono questa pratica di richiamo su somme a una cifra e a due cifre piccole, con problemi supportati da immagini per i più piccoli e formati di soli numeri una volta consolidata l'operazione. Combini formati interattivi e stampabili: le versioni interattive forniscono un riscontro immediato, i PDF stampabili funzionano bene per il lavoro a coppie in cui un bambino scrive e l'altro verifica.",
-    "subtraction": "La sottrazione è l'operazione che porta in superficie le intuizioni dei bambini su ciò che resta e ciò che se ne va. Queste schede costruiscono questa intuizione con problemi di sottrazione basati su immagini per i più piccoli, e poi progrediscono verso la sottrazione astratta una volta che il gesto del togliere non è più necessario. Il formato si sposa bene con i manipolativi in classe: i bambini possono ricreare la prima riga con gettoni e poi completare il resto sulla pagina.",
-    "alphabet-train": "Le schede del treno dell'alfabeto costruiscono il riconoscimento delle lettere attraverso l'ordinamento posizionale. Ogni vagone del treno porta una lettera, e i bambini riempiono i vagoni mancanti oppure dispongono i vagoni in sequenza alfabetica. Il formato è indulgente: un bambino che conosce metà dell'alfabeto può comunque completare le righe con le lettere familiari e cogliere quelle sconosciute dal contesto. Utile per il lavoro lettera-suono, il rinforzo della canzone dell'alfabeto e la valutazione iniziale della lettoscrittura.",
-    "wordsearch": "Le schede del cruciverba di parole costruiscono una lettura ad attenzione sostenuta: l'occhio scorre una griglia di lettere e il cervello confronta ciascuna con una parola obiettivo trattenuta in memoria di lavoro. Per i lettori K-3 gli obiettivi sono brevi e raggruppati attorno a un tema, il che significa che l'attività rinforza il vocabolario insieme alla decodifica. Queste schede funzionano bene come compiti silenziosi, momenti di transizione o lavoro a coppie in cui un bambino legge l'obiettivo ad alta voce mentre l'altro cerca.",
-    "matching": "Le schede di abbinamento danno ai bambini pratica con il movimento cognitivo che sta alla base della maggior parte del ragionamento nella prima infanzia: notare che due cose vanno insieme perché condividono una proprietà. Queste pagine abbinano immagini con le loro lettere iniziali, parole con i loro significati o quantità con le loro cifre. La disposizione visiva — elementi su due colonne collegati da linee tracciate direttamente sulla scheda — mantiene il carico cognitivo sulla relazione anziché sulla procedura.",
-    "sudoku": "Le schede di sudoku illustrato offrono ai bambini piccoli l'esperienza logica del sudoku completo su una griglia 4×4 con immagini familiari al posto delle cifre. Ogni riga, colonna e quadrante deve contenere ciascuna delle quattro immagini una volta, e i bambini deducono le mancanti per esclusione. Il rompicapo è genuinamente impegnativo per la fascia K-3 senza richiedere la lettura dei numeri, il che lo rende accessibile a bambini di qualsiasi livello di lettura.",
-    "find-and-count": "Le schede «cerca e conta» chiedono ai bambini di scorrere una scena densa, individuare ogni occorrenza di un oggetto obiettivo e scrivere il conteggio. L'attività esercita tre abilità contemporaneamente: discriminazione visiva, corrispondenza biunivoca e scrittura delle cifre. Per il personale insegnante della prima infanzia, cerca-e-conta è una diagnosi utile: un bambino che conta sei ma scrive quattro Le mostra qualcosa di concreto su dove si trova il divario.",
-    "prepositions": "Le schede di preposizioni collegano il vocabolario spaziale a immagini concrete: il gatto è sotto la sedia, la palla è tra le scatole, l'uccello è sul ramo. Le immagini danno ai bambini un riferimento per parole che altrimenti sarebbero astratte, e il formato a scelta multipla mantiene il carico cognitivo sulla relazione anziché sulla scrittura. Utile per chi apprende l'italiano come seconda lingua, per le classi bilingui e per ogni contesto in cui il vocabolario spaziale richieda un insegnamento esplicito.",
-    "picture-sort": "Le schede di smistamento di immagini esercitano il movimento di classificazione che sta alla base delle scienze iniziali e della lettura iniziale. I bambini guardano un insieme di immagini e le raggruppano per categoria — per lettera iniziale, per ciò che mangiano, per dove vivono, per colore. Il formato a due cestini mantiene la scelta binaria, che è il giusto punto di partenza cognitivo per smistare in K-3.",
-    "big-small": "Le schede grande-piccolo esercitano il confronto di taglie relative, l'abilità fondante che sta alla base della misurazione e dell'ordinamento. I bambini identificano il più grande o il più piccolo in un insieme, oppure dispongono una serie di oggetti per dimensione. Le immagini sono deliberatamente esagerate perché il confronto sia inequivocabile: una volta che i bambini sanno leggere l'indizio visivo con sicurezza, la stessa abilità si trasferisce a confronti meno ovvi nella vita e nel lavoro numerico.",
-    "more-less": "Le schede più-meno sono i precursori dell'addizione e della sottrazione formali: i bambini confrontano due quantità e decidono quale ne ha di più. L'attività si appoggia fortemente alle immagini perché molti bambini K-3 possono risolverla prima di poter leggere le parole «più» e «meno» in modo affidabile. Utile come verifica del senso del numero e come ponteggio per l'aritmetica iniziale.",
-    "math-puzzle": "Le schede di rompicapo matematico confezionano la pratica aritmetica come qualcosa da risolvere anziché qualcosa da esercitare. Ogni rompicapo richiede al bambino di combinare fatti numerici con inferenza logica: quali due numeri formano questa somma, quale sequenza completa questo schema, quale operazione rende vera questa equazione. Il formato mantiene la matematica interessante una volta consolidati i fatti di base.",
-    "math-worksheet": "Le pagine di schede matematiche danno ai bambini pratica con le operazioni su cui stanno lavorando, nel formato che il personale insegnante sa essere efficace per consolidare l'abilità. Ogni pagina mira a una o due operazioni e fornisce abbastanza problemi per una pratica sostenuta senza diventare opprimente. Le usi come compiti per casa, lavoro del mattino o pratica autonoma durante l'insegnamento in piccoli gruppi.",
-    "missing-pieces": "Le schede di pezzi mancanti esercitano il completamento visivo: i bambini guardano un'immagine a cui è stata tolta una sezione e scelgono il pezzo che la completa da una piccola tavolozza. L'attività esercita simultaneamente il ragionamento spaziale, l'attenzione al dettaglio e il riconoscimento delle forme. Particolarmente utile come compito silenzioso e autonomo nella fascia tra scuola dell'infanzia e classe prima.",
-    "odd-one-out": "Le schede dell'intruso esercitano l'abilità di discriminazione che sta alla base della classificazione: i bambini guardano un piccolo gruppo di immagini e identificano quella che non vi appartiene. Il criterio varia — per categoria, per colore, per lettera iniziale — e le immagini sono scelte perché la risposta sia inequivocabile una volta nominato il criterio. Una diagnosi utile per il ragionamento nella prima infanzia.",
-    "shadow-match": "Le schede di abbinamento d'ombre abbinano ciascuna immagine alla sua sagoma. L'attività esercita il riconoscimento delle forme e la discriminazione visiva al livello in cui contorno e dettaglio devono essere elaborati separatamente, una delle abilità fondanti per la lettura iniziale. I bambini che abbinano le ombre con sicurezza tendono anche a gestire il riconoscimento della forma delle lettere con minore sforzo.",
-    "code-addition": "Le schede di addizione codificata abbinano un problema di addizione a una lettera, di modo che la risposta della somma decodifichi una parola o un messaggio. Il formato dà alla pratica aritmetica una cornice di lettoscrittura: i bambini risolvono l'addizione non come fine in sé ma come mezzo per arrivare al messaggio. Utile per i bambini di metà scuola dell'infanzia e classe prima che hanno i fatti di base ma necessitano che la pratica risulti motivante.",
-    "pattern-train": "Le schede del treno di schemi danno ai bambini pratica nell'estendere e completare schemi visivi. Ogni treno porta una sequenza e il bambino riempie i vagoni mancanti seguendo la logica dello schema — colori alternati, forme che si ripetono, dimensioni crescenti. Il riconoscimento di schemi è un'abilità fondante che sta alla base sia della matematica iniziale sia della lettura iniziale, e il formato del treno mantiene la disposizione visiva semplice.",
-    "picture-path": "Le schede di percorso illustrato esercitano il ragionamento spaziale e la ricerca di itinerari: i bambini tracciano un percorso attraverso una griglia da un'immagine di partenza a un'immagine di arrivo, a volte aggirando muri o passando accanto a distrattori. L'attività costruisce gli stessi movimenti cognitivi che stanno alla base della risoluzione di labirinti, della pianificazione e della geometria iniziale. I bambini sviluppano la pazienza di considerare gli itinerari prima di posare la matita sulla carta.",
-    "treasure-hunt": "Le schede di caccia al tesoro danno ai bambini una sequenza di indicazioni direzionali — due caselle a nord, una a est, tre a sud — e chiedono loro di tracciare il percorso che le indicazioni descrivono. L'attività costruisce ragionamento spaziale, memoria di lavoro e fluidità del vocabolario direzionale insieme. Il formato funziona particolarmente bene per i bambini di classe prima e seconda pronti per istruzioni a più passi.",
-    "preschool": "Le schede di scuola dell'infanzia (3-5 anni) raggiungono i bambini nel momento di sviluppo in cui la presa della matita diventa affidabile e il cervello è pronto per un lavoro pre-accademico intenzionale. Le attività qui mantengono il carico cognitivo basso e l'appoggio visivo alto: ogni richiesta è illustrata, ogni risposta è inequivocabile, ogni pagina può essere completata in pochi minuti concentrati. Le usi per i momenti del mattino in cui i bambini sono pronti a sedersi e a lavorare, oppure come compito a casa leggero che le famiglie possono accompagnare anche senza una formazione accademica.",
-    "kindergarten": "Le schede di scuola dell'infanzia (5-7 anni) sono accordate sull'anno in cui la curiosità pre-accademica si cristallizza in disposizione accademica. I bambini a questo livello sanno tenere una matita in modo affidabile, riconoscere le prime lettere del proprio nome, contare oltre il dieci e seguire istruzioni in due passi su una pagina. Le attività qui esercitano queste abilità in matematica, lettoscrittura, logica e ragionamento spaziale, in formati abbastanza brevi per la durata di attenzione di un bambino di quest'età e abbastanza sostanziali da sembrare lavoro vero.",
-    "grade-1": "Le schede di scuola primaria classe prima raggiungono il momento in cui i bambini consolidano le fondamenta poste alla scuola dell'infanzia in una pratica autonoma fluida. Sanno leggere brevi istruzioni, scrivere le proprie risposte e correggere da soli errori semplici senza sollecitazione adulta. Le attività qui spaziano sul curriculum standard di classe prima — addizione e sottrazione entro il venti, riconoscimento di parole a vista, sequenziamento semplice, logica spaziale di base — e ogni pagina è progettata per sembrare completabile in un blocco concentrato di un quarto d'ora.",
-    "grade-2": "Le schede di scuola primaria classe seconda raggiungono i bambini che ora leggono in autonomia, scrivono per frasi e sono pronti per la risoluzione di problemi a più passi. Le attività qui introducono le sequenze cognitive più lunghe — addizione a più cifre, cruciverba di parole più estesi, rompicapi più complessi — che i bambini di seconda possono sostenere. Le abbini a una discussione di classe sulla strategia, poiché il valore cognitivo a questo livello risiede sempre più nell'approccio quanto nella risposta.",
+    "animals": "L'insieme di immagini familiari degli Animali accompagna i bambini attraverso tante abilità diverse: contare e prime addizioni, classificare e abbinare le figure, trova l'intruso e riconoscere le prime lettere, sempre con il supporto delle immagini. Gli animali sono un vocabolario amato e ad alta frequenza in ogni lingua, e nelle classi bilingui questo aiuta i piccoli a fissare le parole nuove con facilità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Animali sostiene il percorso K-3 in ogni classe.",
+    "addition": "Nelle schede di Addizione i bambini contano due gruppi di immagini e li uniscono per trovare quanti sono in tutto. È un percorso che parte dal conteggio e dall'associazione numero-quantità e arriva verso operazioni a una e due cifre piccole, sempre con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di Addizione rende il calcolo concreto e accessibile.",
+    "subtraction": "Nelle schede di Sottrazione i bambini tolgono: barrano ciò che va via e contano ciò che resta, con il supporto delle immagini. È un modo concreto per capire il senso della sottrazione, dalle prime quantità verso operazioni a una e due cifre piccole. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per un ripasso negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di Sottrazione rende visibile e chiara ogni operazione.",
+    "alphabet-train": "Nelle schede di Treno Dell'alfabeto i bambini mettono le lettere in ordine dalla A alla Z nei vagoni di un treno. È un'attività di riconoscimento delle lettere e dell'ordine alfabetico che si svolge con il supporto delle immagini, ideale per i primi passi con l'alfabeto. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività linguistica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Treno Dell'alfabeto accompagna i più piccoli alla scoperta delle lettere in modo divertente.",
+    "wordsearch": "Nelle schede di Cerca Parole i bambini trovano parole nascoste di un tema in una griglia di lettere. È un'attività che unisce il riconoscimento delle lettere alla ricerca visiva e all'attenzione, con il supporto delle immagini che guidano la ricerca. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare lettere e parole in modo divertente. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Cerca Parole allena lo sguardo attento e il vocabolario.",
+    "matching": "Nelle schede di Abbinamento i bambini tracciano una linea per collegare ogni elemento alla sua coppia. È un'attività di corrispondenza uno a uno che esercita l'osservazione e l'attenzione, tutta con il supporto delle immagini e senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di abbinamento negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, l'Abbinamento allena la corrispondenza uno a uno già dalla scuola dell'infanzia.",
+    "sudoku": "Nelle schede di Sudoku Illustrato i bambini lavorano su una griglia 4x4 e collocano le immagini perché ogni riga, ogni colonna e ogni blocco ne abbia una di ciascuna. È un'attività di logica e ragionamento che si svolge tutta con il supporto delle immagini, senza numeri né bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come sfida di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Sudoku Illustrato avvicina i più piccoli al pensiero logico in modo accessibile.",
+    "find-and-count": "Nelle schede di Trova E Conta i bambini trovano gli oggetti in una scena e contano quanti ce ne sono. È un'attività che unisce la ricerca visiva al conteggio e all'associazione numero-quantità, tutta con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Trova E Conta allena lo sguardo attento e il conteggio in modo divertente.",
+    "prepositions": "Nelle schede di Preposizioni i bambini scelgono l'immagine che mostra una posizione: in, su, sotto, accanto. È un'attività di orientamento spaziale e di vocabolario che si svolge con il supporto delle immagini, adatta anche a chi non sa ancora leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività linguistica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, le Preposizioni aiutano i più piccoli a descrivere dove si trovano le cose.",
+    "picture-sort": "Nelle schede di Ordina Le Immagini i bambini classificano le immagini in gruppi o categorie, mettendo insieme ciò che si assomiglia. È un'attività di classificazione e ragionamento che si svolge con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Ordina Le Immagini allena la capacità di raggruppare già dai più piccoli.",
+    "big-small": "Nelle schede di Grande O Piccolo i bambini trovano l'elemento più grande o più piccolo e ordinano le immagini per dimensione. È un'attività di confronto che introduce le prime nozioni di grandezza, tutta con il supporto delle immagini e senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione nell'angolo dedicato. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Grande O Piccolo avvicina i più piccoli al concetto di dimensione in modo intuitivo.",
+    "more-less": "Nelle schede di Più O Meno i bambini confrontano due gruppi di immagini e scelgono quale ha più, quale ha meno o se sono uguali. È un'attività di confronto e di associazione numero-quantità che si svolge tutta con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Più O Meno avvicina i più piccoli al senso del numero in modo intuitivo.",
+    "math-puzzle": "Nelle schede di Puzzle Matematico i bambini trascinano i pezzi per completare un puzzle numerico, ricostruendo l'immagine giusta pezzo dopo pezzo. È un'attività che unisce il senso del numero alla capacità di pianificare e ragionare, con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare i numeri in modo giocoso. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Puzzle Matematico rende il calcolo un piccolo gioco di costruzione.",
+    "math-worksheet": "Nelle schede di Matematica i bambini fanno pratica generale sui numeri: completano operazioni, riempiono le parti mancanti e svolgono somme e sottrazioni miste. È una raccolta versatile, con il supporto delle immagini, per consolidare il calcolo e il senso del numero. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per il ripasso negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di Matematica offre esercizi sempre nuovi per ogni livello.",
+    "missing-pieces": "Nelle schede di Pezzi Mancanti i bambini trascinano il pezzo ritagliato giusto in ogni buco per completare l'immagine. È un'attività di discriminazione visiva e di ragionamento che si svolge con il supporto delle immagini, ideale per allenare l'occhio attento. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, i Pezzi Mancanti aiutano i più piccoli a completare ogni figura passo dopo passo.",
+    "odd-one-out": "Nelle schede di L'intruso i bambini devono trova l'intruso, cioè l'immagine che non appartiene al gruppo, e pensare al perché. È un'attività di classificazione e ragionamento che si svolge con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, L'intruso allena il pensiero logico e la capacità di confrontare già dai più piccoli.",
+    "shadow-match": "Nelle schede di Abbina Le Ombre i bambini collegano ogni oggetto alla sua ombra, riconoscendo la forma e il contorno corretti. È un'attività di discriminazione visiva e di abbinamento che si svolge con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione nell'angolo dedicato. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Abbina Le Ombre allena l'occhio attento già dalla scuola dell'infanzia.",
+    "code-addition": "Nelle schede di Addizione Codificata i bambini risolvono piccole somme i cui risultati corrispondono a lettere e, mettendole insieme, scoprono una parola nascosta. È un'attività che unisce le prime addizioni al riconoscimento delle lettere, con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare numeri e parole insieme. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, l'Addizione Codificata trasforma il calcolo in un piccolo gioco di scoperta.",
+    "pattern-train": "Nelle schede di Treno Dei Modelli i bambini continuano il modello di immagini lungo i vagoni di un treno, scegliendo l'elemento che viene dopo. È un'attività che esercita le sequenze e i ritmi, l'osservazione e il ragionamento, con il supporto delle immagini e senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di logica nell'angolo dedicato. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Treno Dei Modelli aiuta i più piccoli a scoprire le regolarità in modo divertente.",
+    "picture-path": "Nelle schede di Percorso Illustrato i bambini tracciano un percorso su una griglia fino alla meta, scegliendo la strada giusta cella dopo cella. È un'attività di ragionamento spaziale e di direzione che si svolge con il supporto delle immagini, perfetta per imparare a orientarsi. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come sfida di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Percorso Illustrato allena l'orientamento spaziale in modo coinvolgente.",
+    "treasure-hunt": "Nelle schede di Caccia Al Tesoro i bambini seguono indizi di direzione su una griglia fino a raggiungere il tesoro. È un'attività di ragionamento spaziale e di direzioni che si svolge con il supporto delle immagini, perfetta per imparare a orientarsi passo dopo passo. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come avventura di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, la Caccia Al Tesoro allena l'orientamento spaziale in modo coinvolgente.",
+    "preschool": "In queste schede per scuola dell'infanzia 3-5 anni i più piccoli contano piccole quantità, abbinano e classificano le immagini, confrontano grande e piccolo e imparano a trovare l'intruso. Ci sono anche attività per tracciare le prime lettere, tutte con il supporto delle immagini e senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco condiviso o per i primi momenti di attività in piccolo gruppo. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta offre ai bambini più piccoli un primo approccio sereno all'apprendimento.",
+    "kindergarten": "In queste schede per scuola dell'infanzia 5-7 anni i più grandi della scuola dell'infanzia contano, provano le prime addizioni e sottrazioni e collegano il numero alla quantità con il supporto delle immagini. Trovi anche attività per classificare, continuare sequenze e ritmi, riconoscere le lettere e i loro suoni e leggere le prime parole. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come dolce preparazione alla scuola primaria. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta accompagna i bambini di ogni classe verso le competenze di base.",
+    "grade-1": "In queste schede per Scuola primaria classe prima i bambini di 6-8 anni lavorano sulle addizioni e sottrazioni entro il 20, scoprono decine e unità e iniziano a unire le lettere nelle prime parole per la prima lettura. Trovi anche attività di logica e di ragionamento con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per il ripasso negli angoli e nelle stazioni di apprendimento. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta sostiene i primi passi nella matematica e nella lettura della scuola primaria.",
+    "grade-2": "In queste schede per Scuola primaria classe seconda i bambini di 7-9 anni si esercitano con addizioni e sottrazioni a due cifre, scoprono le prime moltiplicazioni e lavorano con decine e centinaia. Trovi anche letture più lunghe, attività sulle parole, cruciverba e cerca parole e tante proposte di logica. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per un ripasso autonomo. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta accompagna i bambini di seconda verso una maggiore sicurezza nei numeri e nella lettura.",
     "addition__animals": "Le schede di addizione a tema animali abbinano l'operazione che i bambini stanno praticando a un vocabolario che già conoscono bene. Il formato riduce il carico cognitivo sull'immagine e lo mantiene sull'aritmetica: utile per i bambini che stanno ancora costruendo la propria base di fatti di addizione.",
     "animals__subtraction": "Le schede di sottrazione a tema animali mostrano il togliere con creature che i bambini riconoscono immediatamente, il che rende l'operazione più facile da leggere. Le immagini mantengono il fuoco sulla sottrazione stessa.",
     "alphabet-train__animals": "Le schede del treno dell'alfabeto a tema animali usano i nomi degli animali come ancore alfabetiche: ogni vagone rappresenta un animale il cui nome inizia con una lettera diversa. L'abbinamento rinforza la corrispondenza lettera-suono mentre i bambini praticano la sequenza alfabetica.",
@@ -1494,7 +2657,65 @@
     "code-addition__kindergarten": "Le schede di addizione codificata di scuola dell'infanzia (5-7 anni) danno alla pratica aritmetica una cornice di lettoscrittura: ogni somma decodifica una lettera o una parola, il che rende la pratica intenzionale per i bambini che hanno i fatti di base ma necessitano motivazione.",
     "kindergarten__pattern-train": "Le schede del treno di schemi di scuola dell'infanzia (5-7 anni) praticano il riconoscimento di schemi — alternato, ripetuto, crescente — in un formato treno visivamente facile da leggere. Il riconoscimento di schemi è fondante in matematica e in lettura.",
     "kindergarten__picture-path": "Le schede di percorso illustrato di scuola dell'infanzia (5-7 anni) praticano la ricerca di itinerari attraverso una griglia, esercitando ragionamento spaziale e pazienza. I bambini a questo livello di sviluppo sono pronti a considerare gli itinerari prima di posare la matita sulla carta.",
-    "grade-1__treasure-hunt": "Le cacce al tesoro di scuola primaria classe prima danno ai bambini una sequenza di indicazioni direzionali a più passi da seguire su una griglia. L'attività costruisce ragionamento spaziale, memoria di lavoro e fluidità del vocabolario direzionale a un livello che i bambini di classe prima possono sostenere."
+    "grade-1__treasure-hunt": "Le cacce al tesoro di scuola primaria classe prima danno ai bambini una sequenza di indicazioni direzionali a più passi da seguire su una griglia. L'attività costruisce ragionamento spaziale, memoria di lavoro e fluidità del vocabolario direzionale a un livello che i bambini di classe prima possono sostenere.",
+    "cryptogram": "Nelle schede di Crittogramma i bambini decifrano un codice di immagini e simboli per scrivere una parola nascosta. È un'attività che unisce il riconoscimento delle lettere all'osservazione attenta e al ragionamento, con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare lettere e parole in modo divertente. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Crittogramma trasforma la scrittura in un piccolo gioco di decifrazione.",
+    "word-scramble": "Nelle schede di Anagrammi i bambini rimettono in ordine le lettere mescolate per scrivere la parola di un'immagine. È un'attività di ortografia iniziale e di riconoscimento delle lettere che si svolge con il supporto delle immagini, ideale per i primi passi nella scrittura. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare le prime parole. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, gli Anagrammi rendono l'ortografia un piccolo gioco di ricostruzione.",
+    "find-objects": "Nelle schede di Trova Gli Oggetti i bambini cercano oggetti nascosti in una scena e li segnano man mano che li scoprono. È un'attività di discriminazione visiva e di attenzione che si svolge con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Trova Gli Oggetti allena lo sguardo attento in modo divertente.",
+    "word-guess": "Nelle schede di Indovina La Parola i bambini riempiono gli spazi per scrivere la parola di un'immagine, una lettera alla volta. È un'attività di scrittura iniziale e di riconoscimento delle lettere che si svolge con il supporto delle immagini, ideale per i primi passi con le parole. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare le prime parole. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Indovina La Parola accompagna i bambini verso la scrittura in modo giocoso.",
+    "bingo": "Nelle schede di Bingo i bambini segnano sulla cartella l'immagine, la lettera o il numero che viene chiamato. È un'attività di ascolto e di ripasso pensata per tutta la classe, che si svolge con il supporto delle immagini e coinvolge tutti insieme. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco di gruppo o come ripasso divertente negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Bingo trasforma il ripasso in un gioco condiviso e coinvolgente.",
+    "chart-count": "Nelle schede di Conteggio Grafico i bambini contano gli oggetti e riempiono la colonna di un grafico a barre. È un'attività che unisce il conteggio ai primi dati, tutta con il supporto delle immagini, per scoprire come si rappresentano le quantità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività negli angoli di matematica. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Conteggio Grafico avvicina i bambini ai primi dati in modo concreto.",
+    "pattern-worksheet": "Nelle schede di Modelli i bambini leggono e continuano un modello che si ripete, come AB o ABC, scegliendo l'elemento che viene dopo. È un'attività di sequenze e ritmi che esercita l'osservazione e il ragionamento, tutta con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di logica negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, i Modelli aiutano i più piccoli a scoprire le regolarità in modo divertente.",
+    "grid-match": "Nelle schede di Abbinamento A Griglia i bambini trascinano le tessere al loro posto in una griglia, ricostruendo gli abbinamenti corretti. È un'attività che unisce l'abbinamento alla memoria visiva, tutta con il supporto delle immagini e senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, l'Abbinamento A Griglia allena l'occhio attento e la memoria già dai più piccoli.",
+    "crossword": "Nelle schede di Cruciverba i bambini guardano gli indizi illustrati e scrivono le lettere nella griglia che si incrocia. È un'attività di ortografia e di vocabolario che unisce il riconoscimento delle parole al ragionamento, con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare parole e scrittura in modo divertente. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Cruciverba allena l'ortografia e il vocabolario passo dopo passo.",
+    "accessories": "L'insieme di immagini familiari degli Accessori porta nella vita quotidiana parole utili come borse, occhiali, cappelli e cinture, e le ritrova in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a collegare l'oggetto alla parola. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Accessori si adatta a ogni classe del percorso K-3.",
+    "beach": "L'insieme di immagini familiari della Spiaggia accompagna i bambini con secchielli, conchiglie, ombrelloni e onde, e le stesse figure tornano in ogni esercitazione: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. È un vocabolario concreto e ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare le parole legate all'osservazione del mondo. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Spiaggia sostiene il percorso K-3 in ogni momento dell'anno.",
+    "breakfast": "L'insieme di immagini familiari della Colazione mette in scena pane, latte, frutta e uova, parole reali della vita quotidiana che tornano in ogni esercitazione: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a nominare ciò che mangiano ogni mattina. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Colazione accompagna il percorso K-3 in modo naturale.",
+    "christmas": "Il Natale è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con alberi, regali, fiocchi e luci, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a vivere insieme le parole della festa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Natale sostiene il percorso K-3 durante le vacanze.",
+    "classroom": "L'insieme di immagini familiari dell'Aula raccoglie matite, libri, zaini e lavagne, oggetti che i bambini conoscono ogni giorno e che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare gli strumenti del lavoro scolastico. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Aula accompagna il percorso K-3 in classe.",
+    "clothing": "L'insieme di immagini familiari dell'Abbigliamento mostra maglie, scarpe, cappotti e calze, parole della vita quotidiana che tornano in ogni esercitazione: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a descrivere ciò che indossano. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Abbigliamento sostiene il percorso K-3 in ogni classe.",
+    "ocean_life": "L'insieme di immagini familiari della Vita oceanica porta pesci, granchi, stelle marine e balene nell'osservazione del mondo, e le stesse figure tornano in ogni esercitazione: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare le parole della natura marina. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Vita oceanica accompagna il percorso K-3.",
+    "space": "Lo Spazio invita all'osservazione del mondo con razzi, pianeti, stelle e astronauti, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a immaginare e nominare ciò che sta lassù. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Spazio sostiene il percorso K-3 con curiosità.",
+    "summer": "L'Estate è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con sole, gelati, sandali e palloni, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a parlare delle giornate calde. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Estate accompagna il percorso K-3 nei mesi caldi.",
+    "toys": "L'insieme di immagini familiari dei Giocattoli raccoglie palle, bambole, macchinine e cubi, oggetti amati dai bambini che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare le cose con cui si gioca ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Giocattoli sostiene il percorso K-3 con allegria.",
+    "weather": "Il Meteo nasce dall'osservazione della vita quotidiana, con sole, nuvole, pioggia e neve, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a descrivere il tempo di ogni giornata. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Meteo accompagna il percorso K-3 tutto l'anno.",
+    "winter": "L'Inverno è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con neve, sciarpe, guanti e pupazzi, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a parlare delle giornate fredde. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Inverno sostiene il percorso K-3 nei mesi freddi.",
+    "around_the_house": "L'insieme di immagini familiari In giro per casa raccoglie porte, sedie, lampade e finestre, parole della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a nominare gli oggetti della casa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema In giro per casa accompagna il percorso K-3.",
+    "at_the_supermarket": "Al supermercato porta vocabolario reale e gioco di ruolo, con carrelli, scaffali, frutta e casse, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a simulare la spesa e nominare i prodotti. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Al supermercato sostiene il percorso K-3.",
+    "bakery": "La Panetteria porta vocabolario reale e gioco di ruolo, con pane, dolci, fette e farina, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a simulare l'acquisto e nominare i prodotti da forno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Panetteria accompagna il percorso K-3.",
+    "body_parts": "L'insieme di immagini familiari delle Parti del corpo mostra mani, piedi, occhi e orecchie, parole vicine alla vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a nominare se stessi e gli altri. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Parti del corpo sostiene il percorso K-3.",
+    "camping": "L'insieme di immagini familiari del Campeggio raccoglie tende, falò, zaini e torce, parole legate all'osservazione del mondo che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a parlare delle avventure all'aria aperta. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Campeggio accompagna il percorso K-3.",
+    "flowers": "L'insieme di immagini familiari dei Fiori porta rose, margherite, tulipani e girasoli nell'osservazione della natura, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare le piante che si vedono ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Fiori sostiene il percorso K-3.",
+    "forest_creatures": "L'insieme di immagini familiari delle Creature della foresta raccoglie volpi, scoiattoli, cervi e ricci, parole della natura che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare i nomi degli animali del bosco. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Creature della foresta accompagna il percorso K-3.",
+    "furniture": "L'insieme di immagini familiari dei Mobili mostra tavoli, letti, armadi e divani, oggetti della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a descrivere gli ambienti della casa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Mobili sostiene il percorso K-3.",
+    "spring": "La Primavera è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con gemme, farfalle, pioggia e fiori, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a osservare il risveglio della natura. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Primavera accompagna il percorso K-3.",
+    "things_that_fly": "L'insieme di immagini familiari delle Cose che volano raccoglie aerei, uccelli, aquiloni e api, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a osservare e nominare ciò che si muove nel cielo. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Cose che volano sostiene il percorso K-3.",
+    "vegetables": "L'insieme di immagini familiari delle Verdure mostra carote, pomodori, zucchine e patate, parole della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare ciò che si mangia ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Verdure accompagna il percorso K-3.",
+    "zoo_animals": "L'insieme di immagini familiari degli Animali dello zoo raccoglie leoni, elefanti, giraffe e scimmie, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare i nomi degli animali con facilità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Animali dello zoo sostiene il percorso K-3.",
+    "activities": "L'insieme di immagini familiari delle Attività mostra azioni quotidiane come correre, leggere, dipingere e saltare, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare ciò che i bambini fanno ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Attività accompagna il percorso K-3.",
+    "birds_2": "Le schede a tema Uccelli 2 sono una seconda raccolta di schede sugli uccelli, con altre figure di passeri, rondini, civette e pettirossi, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a ampliare i nomi degli uccelli. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Uccelli 2 sostiene il percorso K-3.",
+    "desserts_and_sweets": "L'insieme di immagini familiari dei Dolci e dolciumi raccoglie torte, biscotti, caramelle e gelati, parole della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare i dolci che i bambini amano. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Dolci e dolciumi accompagna il percorso K-3.",
+    "easter": "La Pasqua è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con uova, coniglietti, cestini e pulcini, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a vivere insieme le parole della festa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Pasqua sostiene il percorso K-3 in primavera.",
+    "farm_animals": "L'insieme di immagini familiari degli Animali della fattoria raccoglie mucche, galline, pecore e maiali, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare i nomi degli animali con facilità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Animali della fattoria sostiene il percorso K-3.",
+    "fruits": "L'insieme di immagini familiari della Frutta mostra mele, banane, fragole e arance, parole della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare ciò che si mangia ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Frutta accompagna il percorso K-3.",
+    "hospital": "L'Ospedale porta vocabolario reale e gioco di ruolo, con dottori, infermieri, letti e medicine, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a simulare la cura e nominare gli oggetti del luogo. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Ospedale sostiene il percorso K-3.",
+    "kitchen_tools": "L'insieme di immagini familiari degli Utensili da cucina raccoglie cucchiai, pentole, coltelli e tazze, oggetti della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare gli strumenti che si usano in cucina. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Utensili da cucina accompagna il percorso K-3.",
+    "vehicles": "L'insieme di immagini familiari dei Veicoli raccoglie auto, autobus, treni e biciclette, parole della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare i mezzi che si vedono ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Veicoli sostiene il percorso K-3.",
+    "4th_of_july": "Il 4 luglio è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con bandiere, fuochi d'artificio, stelle e palloncini, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a vivere insieme le parole della festa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema 4 luglio sostiene il percorso K-3.",
+    "music": "L'insieme di immagini familiari della Musica raccoglie tamburi, chitarre, note e flauti, parole vicine alla vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare gli strumenti e i suoni. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Musica accompagna il percorso K-3.",
+    "occupations": "Le Professioni portano vocabolario reale e gioco di ruolo, con medici, pompieri, cuochi e maestri, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a immaginare e nominare i mestieri. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Professioni sostiene il percorso K-3.",
+    "pets": "L'insieme di immagini familiari degli Animali domestici raccoglie cani, gatti, conigli e pesci, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare i nomi degli animali che vivono in casa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Animali domestici accompagna il percorso K-3.",
+    "insects_and_bugs": "L'insieme di immagini familiari degli Insetti e scarafaggi raccoglie api, formiche, coccinelle e farfalle, parole della natura che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a osservare e nominare i piccoli animali. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Insetti e scarafaggi sostiene il percorso K-3.",
+    "thanksgivinng": "Il Giorno del Ringraziamento è un'ottima occasione per esercitarsi nella stagione, e lo stesso insieme di immagini familiari, con tacchini, zucche, foglie e cesti, ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a vivere insieme le parole della festa. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Giorno del Ringraziamento sostiene il percorso K-3.",
+    "tree": "L'insieme di immagini familiari degli Alberi porta querce, pini, foglie e rami nell'osservazione della natura, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare le piante che si vedono ogni giorno. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Alberi accompagna il percorso K-3.",
+    "emotions": "Le Emozioni nascono dall'osservazione della vita quotidiana, con volti felici, tristi, arrabbiati e sorpresi, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta i bambini a nominare ciò che sentono. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Emozioni sostiene il percorso K-3.",
+    "shapes": "Le Forme nascono dall'osservazione della vita quotidiana, con cerchi, quadrati, triangoli e stelle, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a riconoscere e nominare le forme intorno a sé. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Forme accompagna il percorso K-3.",
+    "tools": "L'insieme di immagini familiari degli Attrezzi raccoglie martelli, chiavi, seghe e cacciaviti, oggetti della vita quotidiana che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a nominare gli strumenti del lavoro. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Attrezzi sostiene il percorso K-3.",
+    "birds": "L'insieme di immagini familiari degli Uccelli raccoglie passeri, civette, anatre e pappagalli, parole della natura che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a fissare i nomi degli uccelli con facilità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Uccelli accompagna il percorso K-3.",
+    "post_office": "L'Ufficio postale porta vocabolario reale e gioco di ruolo, con lettere, francobolli, pacchi e cassette, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a simulare la spedizione e nominare gli oggetti del luogo. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Ufficio postale sostiene il percorso K-3.",
+    "dinosaurs": "L'insieme di immagini familiari dei Dinosauri raccoglie tirannosauri, triceratopi, uova e impronte, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a immaginare e nominare gli animali del passato. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Dinosauri accompagna il percorso K-3.",
+    "reptiles_and_amphibians": "L'insieme di immagini familiari dei Rettili e anfibi raccoglie serpenti, rane, lucertole e tartarughe, parole della natura che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a osservare e nominare questi animali. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Rettili e anfibi sostiene il percorso K-3.",
+    "colors": "I Colori nascono dall'osservazione della vita quotidiana, con rosso, blu, giallo e verde, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a riconoscere e nominare i colori intorno a sé. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Colori accompagna il percorso K-3.",
+    "miscellaneous": "Le schede a tema Varie raccolgono un insieme variato di immagini di oggetti diversi, e queste figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a ampliare le parole su più campi. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Varie sostiene il percorso K-3 con grande flessibilità."
   },
   "bulk": {
     "toggleSelect": "Select",

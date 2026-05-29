@@ -1025,7 +1025,78 @@
   },
   "topicFaq": {
     "heading": "Frequently asked questions",
-    "overrides": {},
+    "overrides": {
+      "preschool": [
+        {
+          "q": "What age are these preschool worksheets for?",
+          "a": "They are designed for 3- to 5-year-olds (pre-K), with picture-based tasks that need no reading to begin."
+        },
+        {
+          "q": "Are the preschool worksheets free?",
+          "a": "Yes — every preschool worksheet is free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Can I use them in a dual-language classroom?",
+          "a": "Yes. The same picture-led activities are available in all 11 languages we publish in, so every child can work in the language they need."
+        }
+      ],
+      "kindergarten": [
+        {
+          "q": "What do these kindergarten worksheets cover?",
+          "a": "Counting and early addition and subtraction, number-to-quantity matching, sorting and patterns, letter sounds, and first sight words — all picture-supported."
+        },
+        {
+          "q": "Are they free to print and play?",
+          "a": "Yes — free printable PDFs and play-online versions, each with an answer key, no signup or paywall."
+        },
+        {
+          "q": "What languages are they in?",
+          "a": "All 11 languages we publish in, so dual-language and international kindergartens can give the same activity in each child's language."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "What does grade 1 cover here?",
+          "a": "Addition and subtraction within 20, place value and patterns, blending and simple reading, and early logic — with picture support easing into number- and word-only formats."
+        },
+        {
+          "q": "Are these grade 1 worksheets free?",
+          "a": "Yes — free to print and play online, every sheet with an answer key, no signup."
+        },
+        {
+          "q": "Which languages are available?",
+          "a": "All 11 we publish in, so international and immersion grade 1 classrooms share one consistent library."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "What skills do these grade 2 worksheets build?",
+          "a": "Two-digit addition and subtraction, early multiplication, place value to the hundreds, longer reading and word work, crosswords, and planning-based logic."
+        },
+        {
+          "q": "Are they free?",
+          "a": "Yes — free printable PDFs and play-online versions, each with an answer key and no signup."
+        },
+        {
+          "q": "Are they good for mixed-language classes?",
+          "a": "Yes; the same tasks are available in all 11 languages we publish in, with picture cues where they help."
+        }
+      ],
+      "grade-3": [
+        {
+          "q": "What do grade 3 worksheets cover?",
+          "a": "Multi-digit addition and subtraction, multiplication and early division, place value to the thousands, fluent reading, and multi-step logic and spatial puzzles."
+        },
+        {
+          "q": "Are these grade 3 worksheets free to use?",
+          "a": "Yes — free to print and to play online, with an answer key and no signup or paywall."
+        },
+        {
+          "q": "What languages can I get them in?",
+          "a": "All 11 languages we publish in, so international and immersion grade 3 classrooms work from one consistent library."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "What worksheets are on this {topic} page?",
@@ -1229,10 +1300,10 @@
     "pattern-train": "Pattern-train worksheets give children practice extending and completing visual patterns. Each train carries a sequence and the child fills in the missing cars by following the pattern logic — alternating colours, repeating shapes, increasing sizes. Pattern recognition is a foundational skill underlying both early math and early reading, and the train format keeps the visual layout simple.",
     "picture-path": "Picture-path worksheets exercise spatial reasoning and route-finding: children trace a path through a grid from a start picture to an end picture, sometimes around walls or past distractors. The activity builds the same cognitive moves underlying maze-solving, planning, and early geometry. Children develop the patience to consider routes before committing pen to paper.",
     "treasure-hunt": "Treasure-hunt worksheets give children a sequence of directional clues — two cells north, one east, three south — and ask them to trace the route that the clues describe. The activity builds spatial reasoning, working memory, and direction-vocabulary fluency all at once. The format works particularly well for grade-1 and grade-2 children who are ready for multi-step instructions.",
-    "preschool": "Preschool worksheets meet children at the developmental moment when pencil grip is becoming reliable and the brain is ready for purposeful pre-academic work. The activities here keep cognitive load low and visual support high — every prompt is illustrated, every answer is unambiguous, every page can be completed in a few focused minutes. Use them for the moments in the morning when children are ready to sit and work, or as gentle homework that families can support without academic background.",
-    "kindergarten": "Kindergarten worksheets are tuned to the year when pre-academic curiosity hardens into academic readiness. Children at this level can hold a pencil reliably, recognise the first letters of their name, count beyond ten, and follow two-step instructions on a page. The activities here exercise those skills across math, literacy, logic, and spatial reasoning, in formats short enough to suit a kindergartener's attention span and substantive enough to feel like real work.",
-    "grade-1": "Grade-1 worksheets meet the moment when children consolidate the foundations laid in kindergarten into fluent independent practice. They can read short instructions, write their answers, and self-correct simple mistakes without adult prompting. The activities here range across the standard grade-1 curriculum — addition and subtraction within twenty, sight-word recognition, simple sequencing, basic spatial logic — and each page is designed to feel completable in a focused fifteen-minute block.",
-    "grade-2": "Grade-2 worksheets meet children who are now reading independently, writing in sentences, and ready for multi-step problem-solving. The activities here introduce the longer cognitive sequences — multi-digit addition, longer wordsearches, more complex puzzles — that grade-2 children can sustain through. Pair them with class discussion of strategy, since the cognitive value at this level is increasingly in the approach as much as the answer.",
+    "preschool": "Preschool worksheets work best when they feel like play, and the ones on this page are built that way: big friendly pictures, one clear task per sheet, and no reading required to get started. Three- to five-year-olds practise the earliest skills here — counting small groups of objects, matching and sorting by colour or kind, noticing which picture is bigger or the odd one out, and tracing the very first letters and shapes. Because every activity leans on pictures from our shared vocabulary, a child who is still learning the classroom language can join in straight away. Each worksheet comes as a free printable PDF and as a play-online version that gives instant, gentle feedback, with an answer key for the grown-up. Print a stack for a quiet table, open one on the whiteboard for circle time, or send a sheet home for five minutes of practice. The whole preschool set is available in all 11 languages we publish in, so dual-language and international early-years classrooms can give every child the same activity in the language they need.",
+    "kindergarten": "Kindergarten is the year skills start to click, and these worksheets give children the repetition that makes them stick — without ever feeling like drill. Five- to seven-year-olds practise counting and early addition and subtraction, matching numbers to quantities, sorting and patterning, recognising letters and their sounds, and the first sight words, all with picture support so the thinking stays on the skill rather than on decoding instructions. The page pulls together every kindergarten worksheet we publish across math, letters, logic, and spatial reasoning, so you can build a short lesson from one place. Each one is a free printable PDF with a matching play-online activity: the interactive version marks answers instantly and celebrates a clean first pass, while the printable works for partner work, morning tubs, or homework, and every sheet has an answer key. Mix themes and bump the challenge up or down as a child is ready. Everything is available in all 11 languages we publish in — a real help for immersion and international K-classrooms where children arrive with different home languages.",
+    "grade-1": "Grade 1 is where children move from counting to calculating and from letters to reading, and these worksheets meet them right at that step. Six- to eight-year-olds practise addition and subtraction within twenty, place value and number patterns, blending letters into words, simple sentence reading, and sorting and logic tasks that build reasoning. The problems still carry picture support where it helps, then ease toward number- and word-only formats as confidence grows, so a child is always working just past comfortable. This page gathers every grade 1 worksheet we publish so you can pull a focused set in seconds. Each comes as a free printable PDF and a play-online activity — the interactive version gives immediate feedback for independent work, the printable is ready for guided practice or homework, and an answer key is always included. Combine sheets across math and literacy to fill a block, or send one home for extra practice. The full grade 1 set is available in all 11 languages we publish in, which keeps multilingual and international classrooms working from one consistent, high-quality library.",
+    "grade-2": "By grade 2, children are ready for more steps and more independence, and these worksheets give them both. Seven- to nine-year-olds work on two-digit addition and subtraction, the start of multiplication thinking, place value to the hundreds, longer reading and word work, crosswords and word searches that stretch vocabulary, and logic puzzles that reward planning ahead. The tasks are designed to be done with less hand-holding — clear enough to start alone, rich enough to keep a fast finisher busy — while still offering picture cues where a multilingual learner benefits. This page collects every grade 2 worksheet we publish, so you can assemble a differentiated set without hunting. Each is a free printable PDF with a matching play-online activity: the online version checks work instantly, the printable suits centres, partner work, or homework, and an answer key comes with every sheet. The complete grade 2 set is available in all 11 languages we publish in, so dual-language and international classrooms can keep pace together regardless of each child's home language.",
     "addition__animals": "Animal-themed addition worksheets pair the operation children are practising with vocabulary children already know well. The format reduces the cognitive load on the picture and keeps it on the arithmetic — useful for children who are still building the addition fact base.",
     "animals__subtraction": "Animal-themed subtraction worksheets show take-away with creatures children recognise immediately, which makes the operation easier to read. The pictures keep the focus on the subtraction itself.",
     "alphabet-train__animals": "Animal-themed alphabet-train worksheets use creature names as the alphabet anchors — each car represents one animal whose name starts with a different letter. The pairing reinforces letter-sound mapping while children practise the alphabet sequence.",
@@ -1267,7 +1338,8 @@
     "code-addition__kindergarten": "Kindergarten code-addition worksheets give arithmetic practice a literacy framing: each sum decodes a letter or word, which makes the practice feel purposeful for children who have basic facts but need the motivation.",
     "kindergarten__pattern-train": "Kindergarten pattern-train worksheets practise pattern recognition — alternating, repeating, increasing — using a train format that's easy to read visually. Pattern recognition is foundational across math and reading.",
     "kindergarten__picture-path": "Kindergarten picture-path worksheets practise route-finding through a grid, which exercises spatial reasoning and patience. Children at this developmental level are ready to consider routes before committing pen to paper.",
-    "grade-1__treasure-hunt": "Grade-1 treasure hunts give children a multi-step direction sequence to follow on a grid. The activity builds spatial reasoning, working memory, and direction-vocabulary fluency at a level grade-1 children can sustain."
+    "grade-1__treasure-hunt": "Grade-1 treasure hunts give children a multi-step direction sequence to follow on a grid. The activity builds spatial reasoning, working memory, and direction-vocabulary fluency at a level grade-1 children can sustain.",
+    "grade-3": "Grade 3 worksheets ask children to reason, not just recall, and the activities on this page are built for that shift. Eight- to ten-year-olds practise multi-digit addition and subtraction, multiplication and the first division, place value into the thousands, fluent reading with richer vocabulary, and multi-step logic and spatial puzzles that reward careful thinking. The formats lean on numbers and words now, with picture support kept where it still earns its place for a child learning the language of instruction. This page brings together every grade 3 worksheet we publish so a teacher can build a focused, appropriately stretching set quickly. Each is a free printable PDF with a matching play-online activity — instant feedback for independent practice, a clean printable for class or homework, and an answer key every time. Pair sheets across math and literacy to fill a lesson, or hand one to an early finisher who needs a challenge. The full grade 3 set is available in all 11 languages we publish in, helping international and immersion classrooms hold a consistent standard across every home language in the room."
   },
   "workspace": {
     "metadata": {

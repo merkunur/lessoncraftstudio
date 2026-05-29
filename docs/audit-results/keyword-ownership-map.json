@@ -1401,13 +1401,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/nl/topic/rekenwerkblad/",
-      "primaryKeyword": "Rekenwerkblad werkbladen",
+      "primaryKeyword": "Rekenwerkbladen",
       "secondaryKeywords": [
-        "gratis Rekenwerkblad werkbladen",
-        "Rekenwerkblad werkbladen pdf",
-        "Rekenwerkblad voor kinderen"
+        "rekenwerkbladen om af te drukken",
+        "rekenwerkbladen pdf",
+        "rekenen groep 3"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2041,13 +2041,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/nl/topic/patroon-werkblad/",
-      "primaryKeyword": "Patroonwerkblad werkbladen",
+      "primaryKeyword": "Patroonwerkbladen",
       "secondaryKeywords": [
-        "gratis Patroonwerkblad werkbladen",
-        "Patroonwerkblad werkbladen pdf",
-        "Patroonwerkblad voor kinderen"
+        "patroonwerkbladen om af te drukken",
+        "patronen werkbladen pdf",
+        "patronen kleuters"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

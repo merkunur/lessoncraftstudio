@@ -123913,13 +123913,13 @@
       "axis": "intersection",
       "axisKey": "kindergarten__math-worksheet",
       "url": "https://www.lessoncraftstudio.com/en/topic/kindergarten/math-worksheet/",
-      "primaryKeyword": "Math Worksheet worksheets for kindergarten",
+      "primaryKeyword": "Math worksheets for kindergarten",
       "secondaryKeywords": [
         "kindergarten worksheets",
-        "Math Worksheet worksheets",
-        "free Math Worksheet worksheets"
+        "Math worksheets",
+        "free math worksheets for kindergarten"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

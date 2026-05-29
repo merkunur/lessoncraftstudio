@@ -19,6 +19,7 @@ import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
+import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 
 const BASE_URL = CANONICAL_HOST;
 
@@ -207,6 +208,8 @@ export default async function AllWorksheetsPage({
           </div>
         </section>
       )}
+
+      <PageUsageBlock locale={locale} variant="hub" />
     </main>
   );
 }

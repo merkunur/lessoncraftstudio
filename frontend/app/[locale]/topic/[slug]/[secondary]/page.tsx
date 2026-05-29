@@ -26,6 +26,8 @@ import {
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer from '@/components/catalog/TopicProseContainer';
+import PageUsageBlock from '@/components/catalog/PageUsageBlock';
+import TopicFaq from '@/components/catalog/TopicFaq';
 import ResultCount from '@/components/catalog/ResultCount';
 import FilterSidebar, { FacetGroup } from '@/components/catalog/FilterSidebar';
 import MobileFilterDrawer from '@/components/catalog/MobileFilterDrawer';
@@ -755,6 +757,15 @@ export default async function IntersectionPage({
           axisKey2={axisKey2}
           topicName1={name1}
           topicName2={name2}
+          count={totalCount}
+        />
+
+        <PageUsageBlock
+          locale={locale}
+          variant="intersection"
+          overrideKey={[axisKey1, axisKey2].sort().join('__')}
+          primary={name1}
+          secondary={name2}
         />
 
         {/* Arc 6b — Filter sidebar (only the third unanchored axis renders
@@ -824,6 +835,17 @@ export default async function IntersectionPage({
             { axis: axis1, axisKey: axisKey1 },
             { axis: axis2, axisKey: axisKey2 },
           ]}
+        />
+
+        <TopicFaq
+          locale={locale}
+          variant="intersection"
+          axisKey1={axisKey1}
+          axisKey2={axisKey2}
+          topicName1={name1}
+          topicName2={name2}
+          count={totalCount}
+          pageUrl={canonical}
         />
       </main>
     </>

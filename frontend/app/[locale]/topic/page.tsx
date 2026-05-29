@@ -9,6 +9,7 @@ import { listNonEmptyAxisKeys } from "@/lib/topic-decks";
 import { getAxisSlug } from "@/lib/taxonomy";
 import topicsTaxonomy from "@/config/topics-taxonomy.json";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
+import PageUsageBlock from "@/components/catalog/PageUsageBlock";
 import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
 
 /**
@@ -359,6 +360,10 @@ export default async function TopicsIndexPage({
             )}
           </div>
         )}
+
+        <div className="mt-10">
+          <PageUsageBlock locale={locale} variant="hub" />
+        </div>
       </article>
     </main>
   );

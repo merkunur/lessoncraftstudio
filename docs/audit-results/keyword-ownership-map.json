@@ -1337,13 +1337,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/fr/topic/fiche-de-mathematiques/",
-      "primaryKeyword": "Fiches de Fiche De Mathématiques",
+      "primaryKeyword": "Fiches de Mathématiques",
       "secondaryKeywords": [
-        "fiches de Fiche De Mathématiques à imprimer",
-        "Fiche De Mathématiques en PDF gratuit",
-        "Fiche De Mathématiques pour enfants"
+        "fiches de mathématiques à imprimer",
+        "mathématiques en PDF gratuit",
+        "mathématiques maternelle"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -1977,13 +1977,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/fr/topic/fiche-de-modeles/",
-      "primaryKeyword": "Fiches de Fiche De Modèles",
+      "primaryKeyword": "Fiches de Modèles",
       "secondaryKeywords": [
-        "fiches de Fiche De Modèles à imprimer",
-        "Fiche De Modèles en PDF gratuit",
-        "Fiche De Modèles pour enfants"
+        "fiches de modèles à imprimer",
+        "modèles en PDF gratuit",
+        "algorithmes maternelle"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

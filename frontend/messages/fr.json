@@ -1260,7 +1260,484 @@
   },
   "topicFaq": {
     "heading": "Questions fréquentes",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "A quel age ces fiches conviennent-elles ?",
+          "a": "Elles s'adressent a la grande section de maternelle, soit aux enfants de 5 a 7 ans, et travaillent le denombrement, les premieres operations et la reconnaissance des lettres et des sons."
+        },
+        {
+          "q": "Les fiches pour maternelle grande section sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne dans le navigateur, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "A quel age ces fiches conviennent-elles ?",
+          "a": "Elles correspondent au CP, soit aux enfants de 6 a 8 ans, et couvrent les additions et soustractions jusqu'a 20, les dizaines et unites, le dechiffrage et la logique."
+        },
+        {
+          "q": "Les fiches pour CP sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "A quel age ces fiches conviennent-elles ?",
+          "a": "Elles s'adressent a la petite et moyenne section de maternelle, soit aux enfants de 3 a 5 ans, et travaillent compter, associer, trier et tracer, sans lecture."
+        },
+        {
+          "q": "Les fiches pour maternelle petite section sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "A quel age ces fiches conviennent-elles ?",
+          "a": "Elles correspondent au CE1, soit aux enfants de 7 a 9 ans, et couvrent le calcul a deux chiffres, le debut de la multiplication, la lecture et le travail sur les mots."
+        },
+        {
+          "q": "Les fiches pour CE1 sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Que travaillent les enfants avec un cryptogramme ?",
+          "a": "Ils dechiffrent un code d'images pour ecrire un mot, ce qui exerce la reconnaissance des lettres, le dechiffrage et la concentration."
+        },
+        {
+          "q": "Les fiches de cryptogramme sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Que travaillent les enfants avec le comptage graphique ?",
+          "a": "Ils comptent des objets et remplissent un graphique en barres, ce qui relie le denombrement aux premieres donnees et a la comparaison."
+        },
+        {
+          "q": "Les fiches de comptage graphique sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Que travaillent les enfants avec les modeles ?",
+          "a": "Ils lisent et continuent un algorithme qui se repete, de type AB ou ABC, ce qui developpe l'observation et la logique."
+        },
+        {
+          "q": "Les fiches de modeles sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Que travaillent les enfants avec le loto ?",
+          "a": "Ils ecoutent une annonce et marquent l'image, la lettre ou le nombre correspondant, ce qui exerce l'ecoute et la revision en classe entiere."
+        },
+        {
+          "q": "Les fiches de loto sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Que travaillent les enfants avec l'appariement en grille ?",
+          "a": "Ils font glisser les jetons a leur place pour relier des paires, ce qui developpe la memoire visuelle et le reperage."
+        },
+        {
+          "q": "Les fiches d'appariement en grille sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Que travaillent les enfants avec devine le mot ?",
+          "a": "Ils completent les lettres manquantes du mot d'une image, ce qui exerce la reconnaissance des lettres et l'ecriture emergente."
+        },
+        {
+          "q": "Les fiches de devine le mot sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Que travaillent les enfants avec les lettres melangees ?",
+          "a": "Ils remettent les lettres dans l'ordre pour ecrire le mot d'une image, ce qui exerce l'orthographe emergente et le dechiffrage."
+        },
+        {
+          "q": "Les fiches de lettres melangees sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Que travaillent les enfants avec les mots croises ?",
+          "a": "Ils ecrivent des mots dans une grille qui se croise a partir d'indices illustres, ce qui exerce l'orthographe et le vocabulaire."
+        },
+        {
+          "q": "Les fiches de mots croises sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Que travaillent les enfants avec trouve les objets ?",
+          "a": "Ils cherchent des objets caches dans une scene et les marquent, ce qui developpe la discrimination visuelle et l'attention."
+        },
+        {
+          "q": "Les fiches de trouve les objets sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Que travaillent les enfants avec l'addition ?",
+          "a": "Ils reunissent deux collections et additionnent, ce qui construit le sens du nombre et les premieres ecritures additives."
+        },
+        {
+          "q": "Les fiches d'addition sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Que travaillent les enfants avec le sudoku illustre ?",
+          "a": "Ils placent des images pour que chaque ligne, colonne et bloc en contienne une de chaque, ce qui developpe la logique sans nombres ni lecture."
+        },
+        {
+          "q": "Les fiches de sudoku illustre sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Que travaillent les enfants avec le parcours illustre ?",
+          "a": "Ils tracent un chemin dans une grille jusqu'au but, ce qui developpe le raisonnement spatial et le sens de la direction."
+        },
+        {
+          "q": "Les fiches de parcours illustre sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Que travaillent les enfants avec la soustraction ?",
+          "a": "Ils barrent ce qui part et comptent ce qui reste, ce qui construit le sens du nombre et les premieres ecritures soustractives."
+        },
+        {
+          "q": "Les fiches de soustraction sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Que travaillent les enfants avec l'addition codee ?",
+          "a": "Ils resolvent de petites sommes dont les resultats correspondent a des lettres pour reveler un mot, ce qui mele calcul et dechiffrage."
+        },
+        {
+          "q": "Les fiches d'addition codee sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Que travaillent les enfants avec plus ou moins ?",
+          "a": "Ils comparent deux groupes d'images pour dire lequel a plus, moins ou autant, ce qui developpe le sens du nombre sans lecture."
+        },
+        {
+          "q": "Les fiches de plus ou moins sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Que travaillent les enfants avec le puzzle mathematique ?",
+          "a": "Ils font glisser les pieces pour completer un puzzle de nombres, ce qui developpe le sens du nombre et la planification."
+        },
+        {
+          "q": "Les fiches de puzzle mathematique sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Que travaillent les enfants avec ces fiches de mathematiques ?",
+          "a": "Ils s'entrainent aux operations, completent les parties manquantes et calculent des sommes et differences variees, ce qui consolide le sens du nombre."
+        },
+        {
+          "q": "Les fiches de mathematiques sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Que travaillent les enfants avec grand ou petit ?",
+          "a": "Ils trouvent le plus grand et le plus petit et rangent par taille, ce qui developpe les premieres notions de grandeur et le vocabulaire."
+        },
+        {
+          "q": "Les fiches de grand ou petit sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Que travaillent les enfants avec le train de modeles ?",
+          "a": "Ils continuent un algorithme d'images le long des wagons, ce qui developpe l'observation, la logique et l'anticipation."
+        },
+        {
+          "q": "Les fiches de train de modeles sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Que travaillent les enfants avec l'appariement ?",
+          "a": "Ils tracent une ligne pour relier chaque element a sa paire, ce qui developpe la correspondance terme a terme et l'observation."
+        },
+        {
+          "q": "Les fiches d'appariement sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Que travaillent les enfants avec trier les images ?",
+          "a": "Ils trient et classent les images en groupes ou categories, ce qui developpe le raisonnement et le vocabulaire des categories."
+        },
+        {
+          "q": "Les fiches de trier les images sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Que travaillent les enfants avec apparier les ombres ?",
+          "a": "Ils relient chaque objet a son ombre, ce qui developpe la discrimination visuelle et le sens de la forme."
+        },
+        {
+          "q": "Les fiches d'apparier les ombres sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Que travaillent les enfants avec le train de l'alphabet ?",
+          "a": "Ils placent les lettres dans l'ordre de A a Z dans les wagons, ce qui developpe la reconnaissance des lettres et le sens de l'ordre."
+        },
+        {
+          "q": "Les fiches de train de l'alphabet sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Que travaillent les enfants avec les prepositions ?",
+          "a": "Ils choisissent l'image qui montre une position comme dans, sur, sous ou a cote, ce qui developpe le vocabulaire spatial."
+        },
+        {
+          "q": "Les fiches de prepositions sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Que travaillent les enfants avec les mots meles ?",
+          "a": "Ils trouvent des mots caches d'un theme dans une grille de lettres, ce qui developpe la reconnaissance des lettres et la recherche visuelle."
+        },
+        {
+          "q": "Les fiches de mots meles sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Que travaillent les enfants avec trouve et compte ?",
+          "a": "Ils trouvent des objets dans une scene et comptent combien il y en a, ce qui mele recherche visuelle et denombrement."
+        },
+        {
+          "q": "Les fiches de trouve et compte sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Que travaillent les enfants avec la chasse au tresor ?",
+          "a": "Ils suivent des indices de direction sur une grille jusqu'au tresor, ce qui developpe le raisonnement spatial et la lecture de directions."
+        },
+        {
+          "q": "Les fiches de chasse au tresor sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Que travaillent les enfants avec les pieces manquantes ?",
+          "a": "Ils font glisser la bonne piece decoupee dans chaque trou pour completer l'image, ce qui developpe la discrimination visuelle et l'attention."
+        },
+        {
+          "q": "Les fiches de pieces manquantes sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Que travaillent les enfants avec l'intrus ?",
+          "a": "Ils choisissent l'image qui n'appartient pas au groupe et expliquent pourquoi, ce qui developpe le tri et le raisonnement."
+        },
+        {
+          "q": "Les fiches de l'intrus sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Que travaillent les enfants avec le theme des animaux ?",
+          "a": "Ils comptent, trient, associent, trouvent l'intrus et tracent des lettres autour d'un jeu d'images d'animaux, un theme pour de nombreuses competences."
+        },
+        {
+          "q": "Les fiches sur le theme des animaux sont-elles gratuites ?",
+          "a": "Oui. Toutes les fiches sont gratuites a imprimer en PDF ou a jouer en ligne, avec un corrige, sans inscription."
+        },
+        {
+          "q": "Dans quelles langues sont-elles proposees ?",
+          "a": "Chaque activite est disponible dans les 11 langues que nous publions, pour suivre la langue que vos enfants apprennent."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Quelles fiches trouve-t-on sur cette page {topic} ?",
@@ -1442,31 +1919,31 @@
     "grade-3": "Fiches et jeux pour le CE2 (cours élémentaire 2) : multiplication, lecture et écriture, conformes aux programmes officiels. PDF imprimables et activités interactives."
   },
   "topicProse": {
-    "animals": "Les fiches sur le thème des animaux offrent aux enseignants de la petite enfance un socle de vocabulaire qui traverse l'ensemble du programme K-3. Compter des vaches, classer des oiseaux selon leur alimentation, reconnaître la première lettre du nom de chaque animal de la ferme — le même ensemble d'images soutient le sens du nombre, la classification et la lecture émergente sans demander aux enfants de changer de contexte. Le vocabulaire lui-même est de haute fréquence dans chacune des onze langues que nous publions, ce qui rend ces fiches particulièrement utiles lorsqu'une classe accueille des enfants de niveaux de langue différents.",
-    "addition": "Les fiches d'addition rejoignent les enfants au moment où additionner cesse d'être une astuce de comptage pour devenir un fait qu'ils peuvent rappeler. Les fiches proposées ici offrent cette pratique de rappel sur des sommes à un chiffre et à deux chiffres modestes, avec des problèmes appuyés par des images pour les plus jeunes et des formats uniquement numériques une fois l'opération bien en place. Combinez les formats interactifs et imprimables : les versions interactives donnent un retour immédiat, les PDF imprimables fonctionnent bien pour le travail en binôme où un enfant écrit et l'autre vérifie.",
-    "subtraction": "La soustraction est l'opération qui fait remonter à la surface les intuitions des enfants sur ce qui reste et ce qui part. Ces fiches construisent cette intuition avec des problèmes de retrait appuyés par des images pour les plus jeunes, puis progressent vers la soustraction abstraite lorsque le geste de retrait n'est plus nécessaire. Le format se marie bien avec des manipulables en classe — les enfants peuvent rejouer la première ligne avec des jetons, puis remplir le reste sur la page.",
-    "alphabet-train": "Les fiches du train de l'alphabet construisent la reconnaissance des lettres par l'ordre positionnel. Chaque wagon du train porte une lettre, et les enfants complètent soit les wagons manquants, soit ils ordonnent les wagons en séquence alphabétique. Le format est indulgent — un enfant qui connaît la moitié de l'alphabet peut tout de même compléter les rangées avec les lettres familières et capter les inconnues par le contexte. Utile pour le travail lettre-son, le renforcement de la chanson de l'alphabet et l'évaluation de la lecture émergente.",
-    "wordsearch": "Les fiches de mots mêlés construisent une lecture en attention soutenue : l'œil parcourt une grille de lettres et le cerveau rapproche chacune d'un mot cible maintenu en mémoire de travail. Pour les lecteurs K-3, les cibles sont courtes et regroupées autour d'un thème, ce qui signifie que l'activité renforce le vocabulaire en même temps que le décodage. Ces fiches fonctionnent bien comme tâches calmes, transitions ou travail en binôme où un enfant lit la cible à voix haute pendant que l'autre cherche.",
-    "matching": "Les fiches d'association donnent aux enfants une pratique du mouvement cognitif qui sous-tend la majeure partie du raisonnement à la maternelle : remarquer que deux choses vont ensemble parce qu'elles partagent une propriété. Ces pages associent des images à leur lettre initiale, des mots à leur sens, ou des quantités à leur chiffre. La mise en page visuelle — éléments en deux colonnes reliés par des lignes tracées directement sur la fiche — maintient la charge cognitive sur la relation plutôt que sur la procédure.",
-    "sudoku": "Les fiches de sudoku illustré donnent aux jeunes enfants l'expérience logique du sudoku complet sur une grille 4×4 avec des images familières au lieu de chiffres. Chaque ligne, colonne et quadrant doit contenir chacune des quatre images une fois, et les enfants déduisent celles qui manquent par élimination. Le casse-tête est véritablement stimulant pour la tranche K-3 sans exiger la lecture des nombres, ce qui le rend accessible à des enfants de tout niveau de lecture.",
-    "find-and-count": "Les fiches « cherche et compte » demandent aux enfants de balayer une scène chargée, de localiser chaque occurrence d'un objet cible et d'écrire le compte. L'activité exerce trois compétences à la fois : la discrimination visuelle, la correspondance terme à terme et l'écriture des chiffres. Pour les enseignants de la petite enfance, cherche-et-compte est un diagnostic utile — un enfant qui compte six mais écrit quatre vous montre quelque chose de précis sur l'endroit où se trouve l'écart.",
-    "prepositions": "Les fiches de prépositions associent le vocabulaire spatial à des images concrètes : le chat est sous la chaise, la balle est entre les boîtes, l'oiseau est sur la branche. Les images donnent aux enfants un référent pour des mots qui sont autrement abstraits, et le format à choix multiples maintient la charge cognitive sur la relation plutôt que sur l'écriture. Utile pour les apprenants du français langue seconde, les classes bilingues et tout contexte où le vocabulaire spatial doit être enseigné explicitement.",
-    "picture-sort": "Les fiches de tri d'images exercent le mouvement de classification qui sous-tend les sciences précoces et la lecture émergente. Les enfants regardent un ensemble d'images et les regroupent par catégorie — par lettre initiale, par alimentation, par habitat, par couleur. Le format à deux corbeilles maintient le choix binaire, qui est le bon point de départ cognitif pour le tri en K-3.",
-    "big-small": "Les fiches grand-petit exercent la comparaison de tailles relatives, la compétence fondatrice qui sous-tend la mesure et l'ordre. Les enfants identifient le plus grand ou le plus petit d'un ensemble, ou rangent une série d'objets par taille. Les images sont délibérément exagérées pour que la comparaison soit non ambiguë — une fois que les enfants peuvent lire l'indice visuel avec confiance, la même compétence se transfère vers des comparaisons moins évidentes dans la vie et dans le travail numérique.",
-    "more-less": "Les fiches plus-moins sont les précurseurs de l'addition et de la soustraction formelles : les enfants comparent deux quantités et décident laquelle est la plus grande. L'activité s'appuie fortement sur l'image car beaucoup d'enfants K-3 peuvent la résoudre avant de pouvoir lire les mots « plus » et « moins » de façon fiable. Utile comme vérification du sens du nombre et comme étayage pour l'arithmétique précoce.",
-    "math-puzzle": "Les fiches de casse-tête mathématique emballent la pratique arithmétique comme quelque chose à élucider plutôt qu'à entraîner. Chaque casse-tête demande à l'enfant de combiner des faits numériques avec une inférence logique — quels deux nombres font cette somme, quelle séquence complète ce motif, quelle opération rend cette équation vraie. Le format maintient les mathématiques intéressantes une fois les faits de base bien établis.",
-    "math-worksheet": "Les pages de fiches mathématiques donnent aux enfants une pratique des opérations sur lesquelles ils travaillent actuellement, dans le format que les enseignants savent fonctionnel pour la consolidation de la compétence. Chaque page cible une ou deux opérations et fournit assez de problèmes pour une pratique soutenue sans devenir écrasante. Utilisez-les en devoirs, en travail du matin ou en pratique autonome durant l'enseignement en petits groupes.",
-    "missing-pieces": "Les fiches de pièces manquantes exercent la complétion visuelle : les enfants regardent une image dont une section a été retirée et choisissent la pièce qui la complète parmi une petite palette. L'activité travaille simultanément le raisonnement spatial, l'attention au détail et la reconnaissance des formes. Particulièrement utile comme tâche calme et autonome dans la tranche école maternelle et CP.",
-    "odd-one-out": "Les fiches « l'intrus » exercent la compétence de discrimination qui sous-tend la classification : les enfants regardent un petit groupe d'images et identifient celle qui n'a pas sa place. Le critère varie — par catégorie, par couleur, par lettre initiale — et les images sont choisies pour que la réponse soit non ambiguë une fois le critère nommé. Un diagnostic utile pour le raisonnement à la maternelle.",
-    "shadow-match": "Les fiches d'association d'ombres associent chaque image à sa silhouette. L'activité exerce la reconnaissance des formes et la discrimination visuelle au niveau où le contour et le détail doivent être traités séparément, ce qui est l'une des compétences fondatrices pour la lecture émergente. Les enfants qui associent les ombres avec confiance gèrent aussi en général la reconnaissance de la forme des lettres avec moins d'effort.",
-    "code-addition": "Les fiches d'addition codée associent un problème d'addition à une lettre, de sorte que la réponse de la somme décode un mot ou un message. Le format donne à la pratique arithmétique un cadre de littéracie : les enfants résolvent l'addition non comme une fin en soi mais comme un moyen d'accéder au message. Utile pour les enfants de moyenne section et de CP qui maîtrisent les faits de base mais qui ont besoin que la pratique paraisse motivante.",
-    "pattern-train": "Les fiches du train de motifs donnent aux enfants une pratique de l'extension et de la complétion de motifs visuels. Chaque train porte une séquence et l'enfant remplit les wagons manquants en suivant la logique du motif — couleurs alternées, formes répétées, tailles croissantes. La reconnaissance de motifs est une compétence fondatrice qui sous-tend à la fois les mathématiques précoces et la lecture émergente, et le format du train garde la mise en page visuelle simple.",
-    "picture-path": "Les fiches de chemin imagé exercent le raisonnement spatial et la recherche de trajet : les enfants tracent un chemin à travers une grille depuis une image de départ jusqu'à une image d'arrivée, parfois en contournant des murs ou en évitant des distracteurs. L'activité construit les mêmes mouvements cognitifs qui sous-tendent la résolution de labyrinthes, la planification et la géométrie précoce. Les enfants développent la patience de considérer les itinéraires avant de poser le crayon sur le papier.",
-    "treasure-hunt": "Les fiches de chasse au trésor donnent aux enfants une suite d'indications directionnelles — deux cases au nord, une à l'est, trois au sud — et leur demandent de tracer le trajet que les indications décrivent. L'activité construit le raisonnement spatial, la mémoire de travail et la fluidité du vocabulaire directionnel en même temps. Le format fonctionne particulièrement bien pour les enfants de CP et de CE1 prêts pour des consignes en plusieurs étapes.",
-    "preschool": "Les fiches d'école maternelle (petite et moyenne section) rejoignent les enfants au moment du développement où la prise du crayon devient fiable et où le cerveau est prêt pour un travail pré-académique intentionnel. Les activités proposées ici maintiennent la charge cognitive faible et l'appui visuel élevé — chaque consigne est illustrée, chaque réponse est non ambiguë, chaque page peut être terminée en quelques minutes concentrées. Utilisez-les pour les moments du matin où les enfants sont prêts à s'asseoir et à travailler, ou comme devoirs doux que les familles peuvent accompagner sans formation académique.",
-    "kindergarten": "Les fiches d'école maternelle (grande section) sont accordées à l'année où la curiosité pré-académique se cristallise en disposition académique. Les enfants à ce niveau peuvent tenir un crayon de façon fiable, reconnaître les premières lettres de leur prénom, compter au-delà de dix et suivre des consignes en deux étapes sur une page. Les activités proposées ici exercent ces compétences en mathématiques, en littéracie, en logique et en raisonnement spatial, dans des formats assez courts pour la durée d'attention d'un grand de maternelle et assez consistants pour ressembler à un vrai travail.",
-    "grade-1": "Les fiches de CP rejoignent le moment où les enfants consolident les fondations posées en maternelle en une pratique autonome fluide. Ils peuvent lire de courtes consignes, écrire leurs réponses et corriger eux-mêmes les erreurs simples sans qu'un adulte les sollicite. Les activités proposées ici couvrent le programme standard du CP — addition et soustraction dans la limite de vingt, reconnaissance de mots-outils, séquençage simple, logique spatiale de base — et chaque page est conçue pour paraître réalisable dans un quart d'heure concentré.",
-    "grade-2": "Les fiches de CE1 rejoignent les enfants qui lisent à présent de façon autonome, qui écrivent par phrases et qui sont prêts pour la résolution de problèmes en plusieurs étapes. Les activités proposées ici introduisent les séquences cognitives plus longues — addition à plusieurs chiffres, mots mêlés plus étendus, casse-têtes plus complexes — que les enfants de CE1 peuvent soutenir. Associez-les à une discussion en classe sur la stratégie, car la valeur cognitive à ce niveau réside de plus en plus dans l'approche autant que dans la réponse.",
+    "animals": "Parcourez ici les fiches sur le theme des animaux, un univers familier que les enfants adorent. Le meme jeu d'images d'animaux revient au fil des activites : les enfants comptent, trient, associent, trouvent l'intrus et tracent leurs premieres lettres autour de ces personnages attachants. Un seul theme, de nombreuses competences travaillees, avec un support visuel rassurant qui motive les plus jeunes. Les activites conviennent de la maternelle aux debuts d'elementaire. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour un parcours complet sur les animaux. Disponible dans les 11 langues que nous publions, cette serie reunit math et lecture autour d'un theme aime.",
+    "addition": "Parcourez ici les fiches d'addition, ou les enfants reunissent deux collections et additionnent. En comptant chaque groupe d'images puis le total, ils construisent peu a peu des ecritures additives a un chiffre, puis a deux chiffres modestes. L'activite developpe le sens du nombre et le calcul, avec un support visuel rassurant quand il aide. Elle convient des la maternelle grande section et accompagne le CP. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour varier les sommes en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette serie rend l'addition concrete.",
+    "subtraction": "Parcourez ici les fiches de soustraction, ou les enfants enlevent ce qui part et comptent ce qui reste. En barrant les images a retirer, ils visualisent l'operation et trouvent le resultat avec assurance. L'activite construit les premieres ecritures soustractives et le sens du nombre, avec un support visuel rassurant. Elle convient des la maternelle grande section et accompagne le CP. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour varier les retraits en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette serie rend la soustraction concrete.",
+    "alphabet-train": "Parcourez ici les fiches de train de l'alphabet, ou les enfants placent les lettres dans l'ordre de A a Z le long des wagons d'un train. En suivant la suite alphabetique, ils completent chaque wagon avec la bonne lettre. L'activite developpe la reconnaissance des lettres et le sens de l'ordre, avec un support visuel ludique et colore. Elle convient des la maternelle grande section et accompagne le CP. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs trains pour reviser l'alphabet en s'amusant. Disponible dans les 11 langues que nous publions, cette serie ancre l'ordre des lettres.",
+    "wordsearch": "Parcourez ici les fiches de mots meles, ou les enfants trouvent des mots caches d'un theme dans une grille de lettres. En parcourant les lignes et les colonnes, ils reperent chaque mot et l'entourent. L'activite developpe la reconnaissance des lettres, la recherche visuelle et la concentration, avec un support visuel motivant. Elle convient aux jeunes lecteurs qui consolident le lien entre lettres et mots. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs grilles autour d'un meme theme pour enrichir le vocabulaire. Disponible dans les 11 langues que nous publions, cette serie rend la lecture des lettres ludique.",
+    "matching": "Parcourez ici les fiches d'appariement, ou les enfants tracent une ligne pour relier chaque element a sa paire. En observant les deux colonnes, ils reperent les correspondances et les relient une a une. L'activite developpe la correspondance terme a terme, l'observation et la concentration, avec un support visuel clair. Elle convient des la maternelle et accompagne les premiers apprentissages. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs fiches pour varier les themes a relier. Disponible dans les 11 langues que nous publions, cette serie exerce le sens des associations.",
+    "sudoku": "Parcourez ici les fiches de sudoku illustre, ou les enfants placent des images dans une grille 4x4. La regle est simple : chaque ligne, chaque colonne et chaque bloc doit contenir une image de chaque, sans aucun nombre ni lecture. L'activite developpe la logique, le raisonnement et la deduction, avec un support visuel accessible aux plus jeunes. Elle convient des la maternelle et ravit aussi les debuts d'elementaire. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour un defi calme et reflechi. Disponible dans les 11 langues que nous publions, cette serie initie au plaisir de la logique.",
+    "find-and-count": "Parcourez ici les fiches de trouve et compte, ou les enfants trouvent des objets dans une scene et comptent combien il y en a. En explorant l'image, ils reperent chaque element demande puis denombrent le total. L'activite mele recherche visuelle et denombrement, avec un support visuel riche et amusant. Elle convient des la maternelle et accompagne les debuts du calcul. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour faire verbaliser les quantites. Disponible dans les 11 langues que nous publions, cette serie unit l'observation et le comptage.",
+    "prepositions": "Parcourez ici les fiches de prepositions, ou les enfants choisissent l'image qui montre une position : dans, sur, sous, a cote. En observant chaque scene, ils reperent ou se trouve l'objet et selectionnent la bonne reponse. L'activite developpe le vocabulaire spatial, l'observation et la comprehension, avec un support visuel clair, sans lecture necessaire. Elle convient des la maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour faire verbaliser les positions. Disponible dans les 11 langues que nous publions, cette serie pose les bases du langage spatial.",
+    "picture-sort": "Parcourez ici les fiches de trier les images, ou les enfants trient et classent les images en groupes ou en categories. En observant chaque element, ils decident a quel ensemble il appartient et l'y rangent. L'activite developpe le tri, le raisonnement et le vocabulaire des categories, avec un support visuel clair, sans lecture. Elle convient des la petite section de maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour faire justifier chaque choix. Disponible dans les 11 langues que nous publions, cette serie pose les bases de la classification.",
+    "big-small": "Parcourez ici les fiches de grand ou petit, ou les enfants trouvent le plus grand ou le plus petit et rangent par taille. En comparant les images, ils ordonnent les elements et nomment les differences de grandeur. L'activite developpe les premieres notions de mesure, la comparaison et le vocabulaire, avec un support visuel clair, sans lecture. Elle convient des la petite section de maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour faire verbaliser grand, petit et moyen. Disponible dans les 11 langues que nous publions, cette serie pose les bases des grandeurs.",
+    "more-less": "Parcourez ici les fiches de plus ou moins, ou les enfants comparent deux groupes d'images. En regardant chaque collection, ils determinent laquelle a plus, moins ou autant, sans aucune lecture requise. L'activite developpe le sens du nombre, la comparaison et l'observation, avec un support visuel clair et concret. Elle convient des la petite section de maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour faire verbaliser les comparaisons. Disponible dans les 11 langues que nous publions, cette serie pose les premieres bases des quantites.",
+    "math-puzzle": "Parcourez ici les fiches de puzzle mathematique, ou les enfants font glisser les pieces pour completer un puzzle de nombres. En reflechissant a l'emplacement de chaque piece, ils reconstituent l'ensemble et renforcent leur sens du nombre. L'activite developpe la logique, la planification et l'organisation, avec un support visuel engageant. Elle convient aux enfants qui aiment manipuler et resoudre. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs puzzles pour varier les defis en classe ou a la maison. Disponible dans les 11 langues que nous publions, cette serie unit le jeu et le calcul.",
+    "math-worksheet": "Parcourez ici les fiches de mathematiques, pour un entrainement general sur les nombres. Les enfants effectuent des operations, completent les parties manquantes et travaillent des sommes et des differences variees, au fil d'exercices progressifs. L'activite consolide le calcul, le sens du nombre et l'autonomie, avec un support visuel quand il aide. Elle convient du CP au CE1 selon les contenus choisis. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour varier l'entrainement en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette serie offre une revision complete des nombres.",
+    "missing-pieces": "Parcourez ici les fiches de pieces manquantes, ou les enfants font glisser la bonne piece decoupee dans chaque trou pour completer l'image. En observant la forme et le contenu de chaque emplacement, ils choisissent la piece qui convient parmi plusieurs propositions. L'activite developpe la discrimination visuelle, le raisonnement et l'attention aux details, avec un support visuel engageant. Elle convient des la maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs fiches pour varier les images a reconstituer. Disponible dans les 11 langues que nous publions, cette serie aiguise l'oeil des plus jeunes.",
+    "odd-one-out": "Parcourez ici les fiches de l'intrus, ou les enfants choisissent l'image qui n'appartient pas au groupe et expliquent pourquoi. En observant chaque ensemble, ils cherchent ce qui distingue un element des autres et justifient leur choix. L'activite developpe le tri, le raisonnement et le vocabulaire, avec un support visuel clair, sans lecture necessaire. Elle convient des la maternelle et fait verbaliser les enfants. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour encourager l'explication de chaque trouver l'intrus. Disponible dans les 11 langues que nous publions, cette serie exerce le raisonnement par categories.",
+    "shadow-match": "Parcourez ici les fiches d'apparier les ombres, ou les enfants relient chaque objet a son ombre. En comparant les contours et les formes, ils retrouvent la silhouette qui correspond a chaque image. L'activite developpe la discrimination visuelle, le sens de la forme et l'observation, avec un support visuel clair, sans lecture. Elle convient des la maternelle. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs fiches pour varier les objets et les themes. Disponible dans les 11 langues que nous publions, cette serie affine le regard des plus jeunes.",
+    "code-addition": "Parcourez ici les fiches d'addition codee, ou les enfants resolvent de petites sommes pour reveler un mot. Chaque resultat correspond a une lettre : en calculant, les enfants decouvrent peu a peu le mot cache. L'activite mele calcul et dechiffrage de maniere ludique, avec un support visuel motivant. Elle convient aux jeunes calculateurs qui consolident leurs additions. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs fiches pour varier les sommes et les mots a trouver. Disponible dans les 11 langues que nous publions, cette serie unit les nombres et les lettres dans un meme jeu.",
+    "pattern-train": "Parcourez ici les fiches de train de modeles, ou les enfants continuent un algorithme d'images le long des wagons d'un train. En observant la suite qui se repete, ils devinent quel element vient ensuite et completent chaque wagon. L'activite developpe l'observation, la logique et l'anticipation, avec un support visuel ludique et colore. Elle convient aux jeunes enfants comme aux debuts d'elementaire. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs trains pour passer d'algorithmes simples a plus longs. Disponible dans les 11 langues que nous publions, cette serie exerce le sens des regularites en s'amusant.",
+    "picture-path": "Parcourez ici les fiches de parcours illustre, ou les enfants tracent un chemin dans une grille jusqu'au but. En choisissant la bonne direction case apres case, ils relient le depart a l'arrivee en evitant les obstacles. L'activite developpe le raisonnement spatial, le sens de la direction et la planification, avec un support visuel clair. Elle convient aux jeunes enfants comme aux premiers lecteurs. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs parcours pour augmenter peu a peu la difficulte. Disponible dans les 11 langues que nous publions, cette serie exerce le reperage dans l'espace.",
+    "treasure-hunt": "Parcourez ici les fiches de chasse au tresor, ou les enfants suivent des indices de direction sur une grille jusqu'au tresor. En lisant chaque consigne, ils avancent case apres case et tracent le bon chemin vers la recompense. L'activite developpe le raisonnement spatial, la lecture de directions et la planification, avec un support visuel motivant. Elle convient aux jeunes enfants comme aux premiers lecteurs. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs chasses pour augmenter peu a peu la difficulte. Disponible dans les 11 langues que nous publions, cette serie transforme le reperage en aventure.",
+    "preschool": "Parcourez ici les fiches pour maternelle petite section, concues pour les enfants de 3 a 5 ans. Les enfants comptent de petites quantites, associent et trient des images, comparent grand et petit, trouvent l'intrus et tracent leurs premieres lettres. Tout passe par un support visuel clair, sans aucune lecture requise, pour des moments simples et joyeux. Chaque activite developpe la main, l'oeil et le langage en douceur. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en classe, en coins ou a la maison. Disponible dans les 11 langues que nous publions, cette selection accompagne les tout-petits a leur rythme.",
+    "kindergarten": "Parcourez ici les fiches pour maternelle grande section, pensees pour les enfants de 5 a 7 ans. Les enfants comptent de petites quantites, associent un nombre a une quantite, abordent leurs premieres additions et soustractions, trient et continuent des algorithmes, et travaillent la reconnaissance des lettres et des sons ainsi que leurs premiers mots. Chaque activite prepare en douceur l'entree au CP, avec un support visuel rassurant. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en classe, en ateliers ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette selection accompagne chaque enfant a son rythme.",
+    "grade-1": "Parcourez ici les fiches pour CP, le cours preparatoire, adaptees aux enfants de 6 a 8 ans. Les enfants travaillent les additions et soustractions jusqu'a 20, decouvrent les dizaines et les unites, s'entrainent au dechiffrage et aux premiers mots, et exercent leur logique. Les activites consolident les apprentissages de la maternelle tout en ouvrant sur la lecture et le calcul, avec un support visuel quand il aide. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour varier les exercices en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette selection grandit avec chaque enfant.",
+    "grade-2": "Parcourez ici les fiches pour CE1, le cours elementaire 1, adaptees aux enfants de 7 a 9 ans. Les enfants travaillent les additions et soustractions a deux chiffres, abordent le debut de la multiplication, manipulent les dizaines et les centaines, lisent des textes plus longs et explorent les mots avec des mots croises et des mots meles, sans oublier la logique. Les activites prolongent les bases du CP vers plus d'autonomie. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez-les pour les devoirs ou les ateliers en classe. Disponible dans les 11 langues que nous publions, cette selection suit chaque enfant qui progresse.",
     "addition__animals": "Les fiches d'addition sur le thème des animaux associent l'opération que les enfants travaillent à un vocabulaire qu'ils connaissent déjà bien. Le format réduit la charge cognitive sur l'image et la maintient sur l'arithmétique — utile pour les enfants qui construisent encore leur base de faits d'addition.",
     "animals__subtraction": "Les fiches de soustraction sur le thème des animaux montrent le retrait avec des créatures que les enfants reconnaissent immédiatement, ce qui rend l'opération plus facile à lire. Les images maintiennent l'attention sur la soustraction elle-même.",
     "alphabet-train__animals": "Les fiches du train de l'alphabet sur le thème des animaux utilisent les noms d'animaux comme ancrages alphabétiques — chaque wagon représente un animal dont le nom commence par une lettre différente. L'appariement renforce la correspondance lettre-son tandis que les enfants pratiquent la séquence alphabétique.",
@@ -1501,7 +1978,16 @@
     "code-addition__kindergarten": "Les fiches d'addition codée de grande section donnent à la pratique arithmétique un cadre de littéracie : chaque somme décode une lettre ou un mot, ce qui rend la pratique intentionnelle pour les enfants qui maîtrisent les faits de base mais qui ont besoin de motivation.",
     "kindergarten__pattern-train": "Les fiches du train de motifs de grande section pratiquent la reconnaissance de motifs — alterné, répété, croissant — dans un format de train visuellement facile à lire. La reconnaissance de motifs est fondatrice en mathématiques et en lecture.",
     "kindergarten__picture-path": "Les fiches de chemin imagé de grande section pratiquent la recherche d'itinéraire à travers une grille, ce qui exerce le raisonnement spatial et la patience. Les enfants à ce niveau de développement sont prêts à considérer les itinéraires avant de poser le crayon sur le papier.",
-    "grade-1__treasure-hunt": "Les chasses au trésor de CP donnent aux enfants une séquence d'indications directionnelles en plusieurs étapes à suivre sur une grille. L'activité construit le raisonnement spatial, la mémoire de travail et la fluidité du vocabulaire directionnel à un niveau que les enfants de CP peuvent soutenir."
+    "grade-1__treasure-hunt": "Les chasses au trésor de CP donnent aux enfants une séquence d'indications directionnelles en plusieurs étapes à suivre sur une grille. L'activité construit le raisonnement spatial, la mémoire de travail et la fluidité du vocabulaire directionnel à un niveau que les enfants de CP peuvent soutenir.",
+    "cryptogram": "Parcourez ici les fiches de cryptogramme, ou les enfants dechiffrent un code d'images et de symboles pour ecrire un mot. Chaque symbole correspond a une lettre : en suivant la legende, les enfants reconstituent le mot cache, lettre apres lettre. C'est une facon ludique de travailler la reconnaissance des lettres, le dechiffrage et l'attention, tout en gardant un support visuel motivant. L'activite convient aux jeunes lecteurs qui consolident le lien entre lettres et sons. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs cryptogrammes pour varier les mots a decouvrir. Disponible dans les 11 langues que nous publions, cette serie ravit les curieux du code.",
+    "chart-count": "Parcourez ici les fiches de comptage graphique, ou les enfants comptent des objets puis remplissent la colonne d'un graphique en barres. En denombrant chaque categorie d'images, ils reportent le bon nombre de cases et comparent les quantites d'un coup d'oeil. L'activite relie le denombrement aux premieres donnees, avec un support visuel clair et concret. Elle convient aux enfants qui consolident le comptage et decouvrent la lecture de graphiques. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers pour des echanges sur le plus et le moins. Disponible dans les 11 langues que nous publions, cette serie rend les chiffres visuels.",
+    "pattern-worksheet": "Parcourez ici les fiches de modeles, ou les enfants lisent un algorithme qui se repete puis le continuent. En observant une suite simple, de type AB ou ABC, ils reperent la regle et completent la partie manquante. L'activite developpe l'observation, la logique et l'anticipation, avec un support visuel attrayant. Elle convient aux jeunes enfants comme aux debuts d'elementaire qui consolident le raisonnement. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs fiches pour passer d'algorithmes simples a plus complexes. Disponible dans les 11 langues que nous publions, cette serie exerce le sens des regularites pas a pas.",
+    "bingo": "Parcourez ici les fiches de loto, ou les enfants marquent sur leur carte l'image, la lettre ou le nombre annonce. A chaque tirage, ils ecoutent, cherchent la case correspondante et la couvrent, jusqu'a remplir une ligne. L'activite mele ecoute attentive et revision, et fonctionne tres bien en classe entiere, avec un support visuel clair. Elle convient a tous les debuts d'apprentissage des lettres et des nombres. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les pour animer un moment collectif joyeux et motivant. Disponible dans les 11 langues que nous publions, cette serie reunit tout le groupe autour du jeu.",
+    "grid-match": "Parcourez ici les fiches d'appariement en grille, ou les enfants font glisser les jetons jusqu'a leur place dans une grille. En reperant ou chaque element doit aller, ils relient les paires et completent le quadrillage. L'activite developpe la memoire visuelle, le reperage spatial et la concentration, avec un support visuel engageant. Elle convient aux enfants qui aiment manipuler et organiser. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs grilles pour varier les themes et les niveaux de difficulte. Disponible dans les 11 langues que nous publions, cette serie exerce le sens de l'ordre et de l'association.",
+    "word-guess": "Parcourez ici les fiches de devine le mot, ou les enfants completent les lettres manquantes pour ecrire le mot d'une image. En observant le dessin, ils retrouvent les sons et placent les bonnes lettres, une a une. L'activite travaille la reconnaissance des lettres, le dechiffrage et l'ecriture emergente, avec un support visuel rassurant. Elle convient aux jeunes lecteurs qui consolident le lien entre lettres et sons. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs mots pour enrichir le vocabulaire. Disponible dans les 11 langues que nous publions, cette serie accompagne les premiers pas vers l'ecriture.",
+    "word-scramble": "Parcourez ici les fiches de lettres melangees, ou les enfants remettent dans l'ordre les lettres d'un mot illustre. En s'appuyant sur l'image, ils reconstituent le mot en plaçant chaque lettre a sa place. L'activite developpe l'orthographe emergente, le dechiffrage et l'attention aux sons, avec un support visuel motivant. Elle convient aux jeunes lecteurs qui s'entrainent a ecrire des mots simples. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Associez plusieurs mots autour d'un meme theme pour varier l'entrainement. Disponible dans les 11 langues que nous publions, cette serie rend l'orthographe ludique.",
+    "crossword": "Parcourez ici les fiches de mots croises, ou les enfants ecrivent les lettres dans une grille qui se croise a partir d'indices illustres. Chaque image guide vers un mot a placer horizontalement ou verticalement, en partageant des lettres communes. L'activite travaille l'orthographe, le vocabulaire et le raisonnement, avec un support visuel clair. Elle convient aux jeunes lecteurs qui consolident la lecture et l'ecriture des mots. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs grilles pour enrichir le lexique en classe ou pour les devoirs. Disponible dans les 11 langues que nous publions, cette serie exerce l'esprit des mots croises.",
+    "find-objects": "Parcourez ici les fiches de trouve les objets, ou les enfants cherchent des objets caches dans une scene et les marquent. En explorant l'image du regard, ils reperent chaque element de la liste et le pointent. L'activite developpe la discrimination visuelle, l'attention et la patience, avec un support visuel riche et amusant. Elle convient aux jeunes enfants comme aux premiers lecteurs. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Utilisez-les en ateliers calmes ou en autonomie. Disponible dans les 11 langues que nous publions, cette serie transforme l'observation en jeu."
   },
   "bulk": {
     "toggleSelect": "Select",

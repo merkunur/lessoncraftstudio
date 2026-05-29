@@ -1031,9 +1031,9 @@
       "educationalLevel": "Arbeitsblätter für {topic}"
     },
     "intro": {
-      "exerciseType": "Interaktive Arbeitsblätter und druckbare PDFs zum Üben von {topic}.",
-      "theme": "Arbeitsblätter mit {topic}.",
-      "educationalLevel": "Aktivitäten für {topic}."
+      "exerciseType": "{count, plural, =0 {Hier finden Sie {topic}-Arbeitsblätter, sobald wir sie hinzufügen} =1 {Hier ist 1 {topic}-Arbeitsblatt} other {Hier sind # {topic}-Arbeitsblätter}}, jedes kostenlos als PDF zum Ausdrucken und online im Browser spielbar. Sie bieten K-3-Lehrkräften eine schnelle Möglichkeit ohne Vorbereitung, {topic} im Unterricht oder zu Hause zu üben, jedes Blatt kommt mit einem Lösungsbogen, und der ganze Satz ist in allen 11 Sprachen verfügbar, in denen wir veröffentlichen. Nutzen Sie sie als Aufwärmübung für die ganze Klasse, in Kleingruppen-Rotationen oder als Übung für zu Hause, die {topic}-Fertigkeiten im eigenen Tempo jedes Kindes aufbaut, und kombinieren Sie die interaktive Version mit dem Ausdruck, damit Kinder erst sofortige Rückmeldung und danach ruhige Festigung bekommen.",
+      "theme": "{count, plural, =0 {Arbeitsblätter mit {topic}-Motiven erscheinen hier, sobald wir sie veröffentlichen} =1 {Auf dieser Seite gibt es 1 Arbeitsblatt mit {topic}-Motiven} other {Diese Seite sammelt # Arbeitsblätter mit {topic}-Motiven}} für K-3-Klassen — Zähl-, Sortier-, Zuordnungs- und Erstlese-Aufgaben, die alle dieselben freundlichen {topic}-Bilder teilen. Jedes ist kostenlos zum Ausdrucken und online spielbar, kommt mit einem Lösungsbogen und ist in allen 11 Sprachen verfügbar, die wir unterstützen. Weil die {topic}-Bilder über die Aktivitäten hinweg gleich bleiben, konzentrieren sich Kinder auf die Fertigkeit, statt jedes Mal einen neuen Kontext zu entschlüsseln, was den Satz praktisch für leistungsgemischte Gruppen und für Lernende macht, die noch die Unterrichtssprache aufbauen.",
+      "educationalLevel": "{count, plural, =0 {Arbeitsblätter für {topic} erscheinen hier, sobald wir sie veröffentlichen} =1 {Auf dieser Seite gibt es 1 Arbeitsblatt für {topic}} other {Diese Seite versammelt # Arbeitsblätter für {topic}}}, von erster Mathematik über Phonik bis Wortschatz auf dem passenden Anspruchsniveau. Jedes ist ein kostenloses druckbares PDF mit passender Online-Aktivität und einem Lösungsbogen, und alle sind in den 11 Sprachen verfügbar, in denen wir veröffentlichen. Alles hier ist auf {topic} abgestimmt, sodass Sie es austeilen können in dem Wissen, dass der Anspruch bereits passt, und zu einem leichteren oder schwereren Thema greifen, wenn ein Kind einen anderen Schritt braucht."
     },
     "decksCount": "{count, plural, =0 {Noch keine Arbeitsblätter} =1 {1 Arbeitsblatt} other {# Arbeitsblätter}}",
     "deckCard": {
@@ -1052,7 +1052,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbeitsblätter an der Schnittstelle von {primary} und {secondary}.",
+      "intro": "{count, plural, =0 {{primary}-Arbeitsblätter für {secondary} erscheinen hier, sobald wir sie veröffentlichen} =1 {Auf dieser Seite gibt es 1 {primary}-Arbeitsblatt für {secondary}} other {Diese Seite vereint # {primary}-Arbeitsblätter für {secondary}}}. Jedes ist ein kostenloses druckbares PDF mit passender Online-Aktivität und einem Lösungsbogen, gemacht für K-3-Klassen und verfügbar in allen 11 Sprachen, in denen LessonCraftStudio veröffentlicht. {primary} mit {secondary} zu kombinieren grenzt den ganzen Katalog auf die Arbeitsblätter ein, die zu beidem zugleich passen, sodass Sie die Aufgabe in einem Schritt auf das Niveau und die Interessen Ihrer Klasse abstimmen können — praktisch, um eine fokussierte Stunde zu planen, innerhalb einer gemischten Gruppe zu differenzieren oder schnellen Kindern etwas zu geben, das noch zur Stunde gehört.",
       "meta": {
         "themeLevel": "Kostenlose druckbare und interaktive Arbeitsblätter zu {theme} für {level}: PDFs zum Ausdrucken plus Online-Übungen für Kita und Grundschule.",
         "themeType": "Kostenlose druckbare und interaktive {type}-Arbeitsblätter mit {theme}-Motiven: PDFs zum Ausdrucken plus Online-Übungen für Kita und Grundschule.",
@@ -1113,6 +1113,53 @@
     "mobileDrawer": {
       "openTrigger": "Filter",
       "close": "Schließen"
+    }
+  },
+  "topicFaq": {
+    "heading": "Häufig gestellte Fragen",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Welche Arbeitsblätter sind auf dieser {topic}-Seite?",
+        "a1": "{count, plural, =0 {Diese Seite sammelt jedes {topic}-Arbeitsblatt, sobald wir es veröffentlichen} =1 {Auf dieser Seite gibt es 1 {topic}-Arbeitsblatt — ein druckbares PDF plus eine Online-Version} other {Auf dieser Seite gibt es # {topic}-Arbeitsblätter, jedes mit einem druckbaren PDF, einem Lösungsbogen und einer Online-Version}}.",
+        "q2": "Sind diese {topic}-Arbeitsblätter kostenlos?",
+        "a2": "Ja. Jedes {topic}-Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar — ohne Anmeldung und ohne Bezahlschranke.",
+        "q3": "Für welche Altersgruppen und Sprachen sind sie gedacht?",
+        "a3": "Sie sind für K-3-Lernende (etwa 4 bis 8 Jahre) gemacht und in allen 11 Sprachen verfügbar, in denen LessonCraftStudio veröffentlicht, was sie praktisch für zweisprachige und internationale Klassen macht."
+      },
+      "intersection": {
+        "q1": "Was ist auf dieser Seite zu {primary} und {secondary}?",
+        "a1": "{count, plural, =0 {Diese Seite versammelt {primary}-Arbeitsblätter für {secondary}, sobald wir sie veröffentlichen} =1 {Auf dieser Seite gibt es 1 {primary}-Arbeitsblatt für {secondary}, mit einem druckbaren PDF und einer Online-Version} other {Auf dieser Seite gibt es # {primary}-Arbeitsblätter für {secondary}, jedes mit einem druckbaren PDF, einem Lösungsbogen und einer Online-Version}}.",
+        "q2": "Sind diese {primary}-Arbeitsblätter für {secondary} kostenlos?",
+        "a2": "Ja. Jedes Arbeitsblatt hier ist kostenlos zum Ausdrucken und online spielbar — ohne Anmeldung und ohne Bezahlschranke.",
+        "q3": "Für welche Altersgruppen und Sprachen sind sie gedacht?",
+        "a3": "Sie passen zu K-3-Lernenden (etwa 4 bis 8 Jahre) und sind in allen 11 Sprachen verfügbar, in denen wir veröffentlichen."
+      },
+      "activity": {
+        "q1": "Was vermittelt die Aktivität {title}?",
+        "a1": "{title} ist eine kostenlose interaktive Aktivität für {grade}, mit Schwerpunkt auf {strand}. Kinder spielen sie direkt im Browser — kein Drucken, kein Login, keine Einrichtung nötig.",
+        "q2": "Ist {title} kostenlos nutzbar?",
+        "a2": "Ja. {title} ist vollständig kostenlos, ohne Anmeldung und ohne Bezahlschranke, auf jedem Tablet, Laptop oder Klassen-Whiteboard.",
+        "q3": "Für welche Altersgruppen ist diese Aktivität gedacht?",
+        "a3": "Sie ist für {grade} ({strand}) konzipiert und eignet sich gut für die ganze Klasse, Kleingruppen oder selbstständiges Üben."
+      },
+      "standards": {
+        "q1": "Was wird unter {code} abgedeckt?",
+        "a1": "{code} gehört zum Bereich {strand} für {grade}. Diese Seite versammelt die kostenlosen interaktiven Aktivitäten und Arbeitsblätter, die darauf abgestimmt sind.",
+        "q2": "Sind diese {code}-Ressourcen kostenlos?",
+        "a2": "Ja. Jede Aktivität und jedes Arbeitsblatt, das auf {code} abgestimmt ist, ist kostenlos online nutzbar und ausdruckbar — ohne Anmeldung und ohne Bezahlschranke.",
+        "q3": "Für wen sind diese {code}-Aktivitäten gedacht?",
+        "a3": "Sie sind für {grade}-Lehrkräfte und -Lernende gemacht, die der Common Core {strand}-Progression folgen, und eignen sich für die Klasse, Kleingruppen oder das Üben zu Hause."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "So nutzen Sie diese Arbeitsblätter",
+    "overrides": {},
+    "fallback": {
+      "topic": "Drucken Sie das PDF für eine Aufgabe im Unterricht oder als Hausaufgabe ohne Vorbereitung, oder öffnen Sie die Online-Version auf einem Tablet oder Whiteboard für sofortige Rückmeldung. Jedes Arbeitsblatt enthält einen Lösungsbogen, sodass Kinder sich selbst kontrollieren oder eigenständig arbeiten können. Mischen Sie Blätter über Themen und Klassenstufen hinweg zu einer kurzen {topic}-Stunde, oder geben Sie eines für zusätzliches Üben mit nach Hause.",
+      "intersection": "Drucken Sie das PDF für eine sofortige {primary}-Aufgabe mit Schwerpunkt auf {secondary}, oder starten Sie die Online-Version auf einem Tablet oder Board. Jedes Arbeitsblatt kommt mit einem Lösungsbogen zur schnellen Selbstkontrolle, und Sie können es mit verwandten Themen und Klassenstufen kombinieren, um die Stunde zu erweitern.",
+      "hub": "Wählen Sie ein Fach, ein Thema oder eine Klassenstufe, um eine Seite mit passenden Arbeitsblättern zu öffnen. Jedes ist kostenlos zum Ausdrucken und online spielbar, kommt mit einem Lösungsbogen und ist in allen 11 Sprachen verfügbar, in denen wir veröffentlichen — praktisch für zweisprachige und internationale Klassen."
     }
   },
   "topicMeta": {

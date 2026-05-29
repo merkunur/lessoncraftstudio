@@ -1167,9 +1167,9 @@
       "educationalLevel": "Atividades para {topic}"
     },
     "intro": {
-      "exerciseType": "Atividades interativas e PDFs imprimíveis para praticar {topic}.",
-      "theme": "Atividades com tema {topic}.",
-      "educationalLevel": "Atividades para {topic}."
+      "exerciseType": "{count, plural, =0 {Explore as fichas de {topic} aqui à medida que as adicionamos} =1 {Aqui está 1 ficha de {topic}} other {Aqui estão # fichas de {topic}}}, todas grátis para imprimir em PDF e jogar online no navegador. Elas dão a professores da educação infantil e anos iniciais um jeito rápido e sem preparo de praticar {topic} na sala ou em casa, cada ficha vem com gabarito, e o conjunto inteiro está disponível nos 11 idiomas em que publicamos. Use-as em aquecimentos com a turma toda, rodízios em pequenos grupos ou tarefas para levar para casa que desenvolvem as habilidades de {topic} no ritmo de cada criança, e combine a versão interativa com a imprimível para que as crianças tenham feedback na hora primeiro e uma consolidação tranquila depois.",
+      "theme": "{count, plural, =0 {As fichas com o tema {topic} aparecerão aqui à medida que as publicamos} =1 {Esta página tem 1 ficha com o tema {topic}} other {Esta página reúne # fichas com o tema {topic}}} para salas da educação infantil e anos iniciais — tarefas de contagem, classificação, pareamento e leitura inicial que compartilham as mesmas figuras simpáticas de {topic}. Cada uma é grátis para imprimir e jogar online, vem com gabarito e está pronta em todos os 11 idiomas que oferecemos. Como as figuras de {topic} se mantêm iguais entre as atividades, as crianças focam na habilidade em vez de decifrar um contexto novo a cada vez, o que torna o conjunto prático para grupos de níveis variados e para quem ainda está construindo a língua da sala.",
+      "educationalLevel": "{count, plural, =0 {As fichas para {topic} aparecerão aqui à medida que as publicamos} =1 {Esta página tem 1 ficha para {topic}} other {Esta página reúne # fichas para {topic}}}, abrangendo matemática inicial, fonética e vocabulário no nível certo de desafio. Cada uma é um PDF grátis para imprimir, com uma atividade para jogar online correspondente e um gabarito, e todas estão disponíveis nos 11 idiomas em que publicamos. Tudo aqui é pensado para {topic}, então você pode distribuir sabendo que o nível de desafio já encaixa, e depois buscar um tema mais fácil ou mais difícil quando uma criança precisar de um passo diferente."
     },
     "decksCount": "{count, plural, =0 {Nenhuma atividade ainda} =1 {1 atividade} other {# atividades}}",
     "deckCard": {
@@ -1188,7 +1188,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Atividades na interseção de {primary} e {secondary}.",
+      "intro": "{count, plural, =0 {As fichas de {primary} para {secondary} aparecerão aqui à medida que as publicamos} =1 {Esta página tem 1 ficha de {primary} para {secondary}} other {Esta página reúne # fichas de {primary} para {secondary}}}. Cada uma é um PDF grátis para imprimir, com uma atividade para jogar online correspondente e um gabarito, feita para salas da educação infantil e anos iniciais e disponível em todos os 11 idiomas em que a LessonCraftStudio publica. Combinar {primary} com {secondary} reduz o catálogo inteiro às fichas que encaixam nos dois ao mesmo tempo, então você acerta o nível da turma e os interesses dela num passo só — prático para planejar uma aula focada, diferenciar dentro de um grupo variado ou dar a quem termina antes algo que ainda faz parte da lição.",
       "meta": {
         "themeLevel": "Atividades gratuitas e interativas de {theme} para {level}: PDFs para imprimir e jogos online para a educação infantil e anos iniciais.",
         "themeType": "Atividades gratuitas e interativas de {type} com o tema {theme}: PDFs para imprimir e jogos online para a educação infantil e anos iniciais.",
@@ -1249,6 +1249,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtros",
       "close": "Fechar"
+    }
+  },
+  "topicFaq": {
+    "heading": "Perguntas frequentes",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Quais fichas estão nesta página de {topic}?",
+        "a1": "{count, plural, =0 {Esta página reúne todas as fichas de {topic} à medida que as publicamos} =1 {Esta página tem 1 ficha de {topic} — um PDF imprimível mais uma versão para jogar online} other {Esta página tem # fichas de {topic}, cada uma com PDF imprimível, gabarito e versão para jogar online}}.",
+        "q2": "Estas fichas de {topic} são grátis?",
+        "a2": "Sim. Todas as fichas de {topic} aqui são grátis para imprimir e para jogar online — sem cadastro e sem paywall.",
+        "q3": "Para quais idades e idiomas elas servem?",
+        "a3": "Elas são feitas para crianças da educação infantil e anos iniciais (cerca de 4 a 8 anos) e estão disponíveis em todos os 11 idiomas em que a LessonCraftStudio publica, o que as torna práticas para salas bilíngues e escolas internacionais."
+      },
+      "intersection": {
+        "q1": "O que tem nesta página de {primary} e {secondary}?",
+        "a1": "{count, plural, =0 {Esta página reúne fichas de {primary} para {secondary} à medida que as publicamos} =1 {Esta página tem 1 ficha de {primary} para {secondary}, com PDF imprimível e versão para jogar online} other {Esta página tem # fichas de {primary} para {secondary}, cada uma com PDF imprimível, gabarito e versão para jogar online}}.",
+        "q2": "Estas fichas de {primary} para {secondary} são grátis?",
+        "a2": "Sim. Todas as fichas aqui são grátis para imprimir e para jogar online — sem cadastro e sem paywall.",
+        "q3": "Para quais idades e idiomas elas servem?",
+        "a3": "Elas servem para crianças da educação infantil e anos iniciais (cerca de 4 a 8 anos) e estão disponíveis em todos os 11 idiomas em que publicamos."
+      },
+      "activity": {
+        "q1": "O que a atividade {title} ensina?",
+        "a1": "{title} é uma atividade interativa grátis para {grade}, focada em {strand}. As crianças jogam direto no navegador — sem precisar imprimir, fazer login ou configurar nada.",
+        "q2": "{title} é grátis para usar?",
+        "a2": "Sim. {title} é totalmente grátis, sem cadastro e sem paywall, em qualquer tablet, notebook ou lousa digital da sala.",
+        "q3": "Para quais idades é esta atividade?",
+        "a3": "Ela foi pensada para {grade} ({strand}) e funciona bem para a turma toda, pequenos grupos ou prática individual."
+      },
+      "standards": {
+        "q1": "O que está incluído em {code}?",
+        "a1": "{code} faz parte do eixo {strand} para {grade}. Esta página reúne as atividades interativas e fichas grátis alinhadas a ele.",
+        "q2": "Estes recursos de {code} são grátis?",
+        "a2": "Sim. Toda atividade e ficha alinhada a {code} é grátis para usar online e para imprimir — sem cadastro e sem paywall.",
+        "q3": "Para quem são estas atividades de {code}?",
+        "a3": "Elas são feitas para professores e crianças de {grade} que seguem a progressão {strand} do Common Core, e funcionam para a sala, pequenos grupos ou prática em casa."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Como usar estas fichas",
+    "overrides": {},
+    "fallback": {
+      "topic": "Imprima o PDF para uma tarefa de sala ou lição de casa sem preparo, ou abra a versão para jogar online no tablet ou na lousa para ter feedback na hora. Toda ficha inclui gabarito, então as crianças podem se autocorrigir ou trabalhar de forma independente. Misture fichas de temas e níveis diferentes para montar uma aula curta de {topic}, ou mande uma para casa como prática extra.",
+      "intersection": "Imprima o PDF para uma tarefa de {primary} focada em {secondary} na hora, ou abra a versão para jogar online no tablet ou na lousa. Toda ficha vem com gabarito para uma autocorreção rápida, e você pode combiná-la com temas e níveis relacionados para ampliar a lição.",
+      "hub": "Escolha uma matéria, um tema ou um nível para abrir uma página de fichas correspondentes. Cada uma é grátis para imprimir e para jogar online, vem com gabarito e está disponível em todos os 11 idiomas em que publicamos — prático para salas bilíngues e escolas internacionais."
     }
   },
   "topicMeta": {

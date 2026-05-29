@@ -1143,9 +1143,9 @@
       "educationalLevel": "Tehtäviä luokalle {topic}"
     },
     "intro": {
-      "exerciseType": "Interaktiivisia ja tulostettavia {topic}-tehtäviä.",
-      "theme": "{topic}-aiheisia tehtäviä.",
-      "educationalLevel": "Tehtäviä luokalle {topic}."
+      "exerciseType": "{count, plural, =0 {Selaa {topic}-tehtäviä täältä sitä mukaa kun lisäämme niitä} =1 {Tässä on 1 {topic}-tehtävä} other {Tässä on # {topic}-tehtävää}}, jokainen ilmainen tulostettavaksi PDF:nä ja pelattavaksi verkossa selaimessa. Ne antavat K-3-opettajille nopean, valmistelua vaatimattoman tavan harjoitella {topic} luokassa tai kotona, jokaiseen tehtävään kuuluu vastaukset, ja koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme. Käytä niitä koko luokan alkulämmittelyihin, pienryhmäkiertoihin tai kotiin annettavaan harjoitteluun, joka kehittää {topic}-taitoja jokaisen lapsen omaan tahtiin, ja yhdistä interaktiivinen versio tulostettavaan, niin lapset saavat ensin välittömän palautteen ja sitten rauhallista kertaamista.",
+      "theme": "{count, plural, =0 {{topic}-aiheisia tehtäviä ilmestyy tänne sitä mukaa kun julkaisemme niitä} =1 {Tällä sivulla on 1 {topic}-aiheinen tehtävä} other {Tämä sivu kokoaa # {topic}-aiheista tehtävää}} K-3-luokille — laskemista, lajittelua, yhdistämistä ja varhaisen lukemisen tehtäviä, joissa kaikissa on samat ystävälliset {topic}-kuvat. Jokainen on ilmainen tulostettavaksi ja pelattavaksi verkossa, sisältää vastaukset ja on valmiina kaikilla 11 tukemallamme kielellä. Koska {topic}-kuvat pysyvät samoina tehtävästä toiseen, lapset keskittyvät taitoon eivätkä uuden asiayhteyden tulkitsemiseen joka kerta, mikä tekee valikoimasta kätevän tasoltaan eri ryhmille ja oppijoille, jotka vielä opettelevat luokan kieltä.",
+      "educationalLevel": "{count, plural, =0 {Tehtäviä tasolle {topic} ilmestyy tänne sitä mukaa kun julkaisemme niitä} =1 {Tällä sivulla on 1 tehtävä tasolle {topic}} other {Tämä sivu kokoaa # tehtävää tasolle {topic}}}, kattaen varhaista matematiikkaa, foniikkaa ja sanastoa sopivalla haastetasolla. Jokainen on ilmainen tulostettava PDF, johon kuuluu verkossa pelattava harjoitus ja vastaukset, ja jokainen on saatavilla kaikilla 11 kielellä, joilla julkaisemme. Kaikki täällä on mitoitettu tasolle {topic}, joten voit jakaa tehtävät tietäen, että haastetaso sopii jo valmiiksi, ja valita helpomman tai vaikeamman teeman, kun lapsi tarvitsee toisenlaisen askeleen."
     },
     "decksCount": "{count, plural, =0 {Ei vielä tehtäviä} =1 {1 tehtävä} other {# tehtävää}}",
     "deckCard": {
@@ -1164,7 +1164,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Tehtäväarkit aiheiden {primary} ja {secondary} risteyksessä.",
+      "intro": "{count, plural, =0 {{primary}-tehtäviä aiheelle {secondary} ilmestyy tänne sitä mukaa kun julkaisemme niitä} =1 {Tällä sivulla on 1 {primary}-tehtävä aiheelle {secondary}} other {Tämä sivu kokoaa yhteen # {primary}-tehtävää aiheelle {secondary}}}. Jokainen on ilmainen tulostettava PDF, johon kuuluu verkossa pelattava harjoitus ja vastaukset, rakennettu K-3-luokille ja saatavilla kaikilla 11 kielellä, joilla LessonCraftStudio julkaisee. Kun yhdistät {primary} ja {secondary}, koko katalogi kapenee niihin tehtäviin, jotka sopivat molempiin kerralla, joten voit sovittaa tehtävän luokkasi tasoon ja kiinnostuksen kohteisiin yhdellä askeleella — kätevää keskittyneen tuokion suunnitteluun, eriyttämiseen sekaryhmässä tai siihen, että nopeasti valmistuville annetaan jotain, mikä kuuluu silti samaan oppituntiin.",
       "meta": {
         "themeLevel": "Ilmaisia tulostettavia ja interaktiivisia {theme}-tehtäviä tasolle {level}: PDF-tiedostoja tulostettavaksi ja verkossa pelattavia harjoituksia K-3-luokille.",
         "themeType": "Ilmaisia tulostettavia ja interaktiivisia {type}-tehtäviä teemalla {theme}: PDF-tiedostoja tulostettavaksi ja verkossa pelattavia harjoituksia K-3-luokille.",
@@ -1225,6 +1225,53 @@
     "mobileDrawer": {
       "openTrigger": "Suodattimet",
       "close": "Sulje"
+    }
+  },
+  "topicFaq": {
+    "heading": "Usein kysytyt kysymykset",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Mitä tehtäviä tällä {topic}-sivulla on?",
+        "a1": "{count, plural, =0 {Tämä sivu kokoaa kaikki {topic}-tehtävät sitä mukaa kun julkaisemme niitä} =1 {Tällä sivulla on 1 {topic}-tehtävä — tulostettava PDF sekä verkossa pelattava versio} other {Tällä sivulla on # {topic}-tehtävää, joista jokaisessa on tulostettava PDF, vastaukset ja verkossa pelattava versio}}.",
+        "q2": "Ovatko nämä {topic}-tehtävät ilmaisia?",
+        "a2": "Kyllä. Jokainen {topic}-tehtävä täällä on ilmainen tulostettavaksi ja pelattavaksi verkossa — ei rekisteröitymistä eikä maksumuuria.",
+        "q3": "Mille ikäryhmille ja kielille ne ovat?",
+        "a3": "Ne on rakennettu K-3-oppijoille (noin 4-8-vuotiaille) ja saatavilla kaikilla 11 kielellä, joilla LessonCraftStudio julkaisee, mikä tekee niistä käteviä kaksikielisiin ja kansainvälisiin luokkiin."
+      },
+      "intersection": {
+        "q1": "Mitä tällä {primary}- ja {secondary}-sivulla on?",
+        "a1": "{count, plural, =0 {Tämä sivu kokoaa {primary}-tehtäviä aiheelle {secondary} sitä mukaa kun julkaisemme niitä} =1 {Tällä sivulla on 1 {primary}-tehtävä aiheelle {secondary}, tulostettavana PDF:nä ja verkossa pelattavana versiona} other {Tällä sivulla on # {primary}-tehtävää aiheelle {secondary}, joista jokaisessa on tulostettava PDF, vastaukset ja verkossa pelattava versio}}.",
+        "q2": "Ovatko nämä {primary}-tehtävät aiheelle {secondary} ilmaisia?",
+        "a2": "Kyllä. Jokainen tehtävä täällä on ilmainen tulostettavaksi ja pelattavaksi verkossa — ei rekisteröitymistä eikä maksumuuria.",
+        "q3": "Mille ikäryhmille ja kielille ne ovat?",
+        "a3": "Ne sopivat K-3-oppijoille (noin 4-8-vuotiaille) ja ovat saatavilla kaikilla 11 kielellä, joilla julkaisemme."
+      },
+      "activity": {
+        "q1": "Mitä {title}-aktiviteetti opettaa?",
+        "a1": "{title} on ilmainen interaktiivinen aktiviteetti tasolle {grade}, joka keskittyy aiheeseen {strand}. Lapset pelaavat sitä suoraan selaimessa — ei tulostamista, kirjautumista eikä asennusta.",
+        "q2": "Onko {title} ilmainen käyttää?",
+        "a2": "Kyllä. {title} on täysin ilmainen, ilman rekisteröitymistä ja maksumuuria, millä tahansa tabletilla, kannettavalla tai luokan älytaululla.",
+        "q3": "Mille ikäryhmille tämä aktiviteetti on?",
+        "a3": "Se on suunniteltu tasolle {grade} ({strand}) ja toimii hyvin koko luokan, pienryhmän tai itsenäiseen harjoitteluun."
+      },
+      "standards": {
+        "q1": "Mitä {code} kattaa?",
+        "a1": "{code} kuuluu osa-alueeseen {strand} tasolla {grade}. Tämä sivu kokoaa siihen sopivat ilmaiset interaktiiviset aktiviteetit ja tehtävät.",
+        "q2": "Ovatko nämä {code}-resurssit ilmaisia?",
+        "a2": "Kyllä. Jokainen aktiviteetti ja tehtävä, joka on sovitettu kohtaan {code}, on ilmainen käyttää verkossa ja tulostaa — ei rekisteröitymistä eikä maksumuuria.",
+        "q3": "Keille nämä {code}-aktiviteetit on tarkoitettu?",
+        "a3": "Ne on rakennettu opettajille ja oppijoille tasolla {grade}, jotka seuraavat Common Core {strand} -etenemistä, ja ne toimivat luokan, pienryhmän tai kotiharjoittelussa."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Näin käytät näitä tehtäviä",
+    "overrides": {},
+    "fallback": {
+      "topic": "Tulosta PDF valmistelua vaatimattomaksi luokka- tai kotitehtäväksi, tai avaa verkossa pelattava versio tabletilla tai älytaululla välitöntä palautetta varten. Jokaiseen tehtävään kuuluu vastaukset, joten lapset voivat tarkistaa itse tai työskennellä itsenäisesti. Yhdistele tehtäviä eri teemoista ja luokka-asteilta lyhyeksi {topic}-tuokioksi, tai lähetä yksi kotiin lisäharjoitteluun.",
+      "intersection": "Tulosta PDF valmiiksi {primary}-tehtäväksi, joka keskittyy aiheeseen {secondary}, tai avaa verkossa pelattava versio tabletilla tai taululla. Jokaiseen tehtävään kuuluu vastaukset nopeaa itsetarkistusta varten, ja voit yhdistää sen läheisiin teemoihin ja luokka-asteisiin oppitunnin laajentamiseksi.",
+      "hub": "Valitse aine, teema tai luokka-aste avataksesi sivun, jolla on niihin sopivia tehtäviä. Jokainen on ilmainen tulostettavaksi ja pelattavaksi verkossa, sisältää vastaukset ja on saatavilla kaikilla 11 kielellä, joilla julkaisemme — kätevää kaksikielisiin ja kansainvälisiin luokkiin."
     }
   },
   "topicMeta": {

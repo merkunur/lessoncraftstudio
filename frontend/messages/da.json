@@ -1151,9 +1151,9 @@
       "educationalLevel": "Arbejdsark til {topic}"
     },
     "intro": {
-      "exerciseType": "Interaktive arbejdsark og udskrivbare PDF-filer til at øve {topic}.",
-      "theme": "Arbejdsark med tema {topic}.",
-      "educationalLevel": "Aktiviteter til {topic}."
+      "exerciseType": "{count, plural, =0 {Gennemse {topic}-arbejdsark her, efterhånden som vi lægger dem op} =1 {Her er 1 {topic}-arbejdsark} other {Her er # {topic}-arbejdsark}}, alle gratis at printe som PDF og at spille online i browseren. De giver lærere i børnehaveklasse til 3. klasse en hurtig måde uden forberedelse at øve {topic} i klassen eller hjemme, hvert ark kommer med facitliste, og hele sættet findes på de 11 sprog vi udgiver på. Brug dem til fælles opvarmning, rotation i små grupper eller øvelse derhjemme der bygger {topic}-færdigheder i hvert barns eget tempo, og kombinér den interaktive version med den printbare, så børnene først får øjeblikkelig feedback og bagefter rolig fastholdelse.",
+      "theme": "{count, plural, =0 {Arbejdsark med tema {topic} dukker op her, efterhånden som vi udgiver dem} =1 {Denne side har 1 arbejdsark med tema {topic}} other {Denne side samler # arbejdsark med tema {topic}}} til klasser fra børnehaveklasse til 3. klasse — opgaver i tælling, sortering, parring og begyndende læsning, der alle deler de samme venlige {topic}-billeder. Hvert ark er gratis at printe og at spille online, kommer med facitliste og er klar på alle 11 sprog vi understøtter. Fordi {topic}-billederne er de samme på tværs af aktiviteterne, fokuserer børnene på færdigheden i stedet for at skulle afkode en ny sammenhæng hver gang, hvilket gør sættet praktisk til grupper med blandede niveauer og til elever der stadig er ved at lære klassesproget.",
+      "educationalLevel": "{count, plural, =0 {Arbejdsark til {topic} dukker op her, efterhånden som vi udgiver dem} =1 {Denne side har 1 arbejdsark til {topic}} other {Denne side samler # arbejdsark til {topic}}}, der spænder over tidlig matematik, fonologi og ordforråd på det rette udfordringsniveau. Hvert ark er en gratis printbar PDF med en tilhørende spil-online-aktivitet og en facitliste, og alle findes på de 11 sprog vi udgiver på. Alt her er afstemt til {topic}, så du kan dele det ud velvidende at udfordringsniveauet allerede passer, og så gribe efter et lettere eller sværere tema når et barn har brug for et andet trin."
     },
     "decksCount": "{count, plural, =0 {Ingen arbejdsark endnu} =1 {1 arbejdsark} other {# arbejdsark}}",
     "deckCard": {
@@ -1172,7 +1172,7 @@
     },
     "intersection": {
       "heading": "{primary} · {secondary}",
-      "intro": "Arbejdsark i krydsfeltet mellem {primary} og {secondary}.",
+      "intro": "{count, plural, =0 {{primary}-arbejdsark til {secondary} dukker op her, efterhånden som vi udgiver dem} =1 {Denne side har 1 {primary}-arbejdsark til {secondary}} other {Denne side samler # {primary}-arbejdsark til {secondary}}}. Hvert ark er en gratis printbar PDF med en tilhørende spil-online-aktivitet og en facitliste, lavet til klasser fra børnehaveklasse til 3. klasse og tilgængelig på alle 11 sprog LessonCraftStudio udgiver på. At kombinere {primary} med {secondary} snævrer hele kataloget ind til de arbejdsark der passer til begge på én gang, så du kan matche opgaven til din klasses niveau og deres interesser i ét trin — praktisk når du planlægger en fokuseret time, differentierer inden for en blandet gruppe eller giver dem der bliver hurtigt færdige noget der stadig hører til timen.",
       "meta": {
         "themeLevel": "Gratis printbare og interaktive opgaveark om {theme} til {level}: PDF-filer til at printe plus aktiviteter til at spille online for børnehave og indskoling.",
         "themeType": "Gratis printbare og interaktive {type}-opgaveark med {theme} som tema: PDF-filer til at printe plus aktiviteter til at spille online for indskolingen.",
@@ -1233,6 +1233,53 @@
     "mobileDrawer": {
       "openTrigger": "Filtre",
       "close": "Luk"
+    }
+  },
+  "topicFaq": {
+    "heading": "Ofte stillede spørgsmål",
+    "overrides": {},
+    "fallback": {
+      "single": {
+        "q1": "Hvilke arbejdsark er på denne {topic}-side?",
+        "a1": "{count, plural, =0 {Denne side samler hvert {topic}-arbejdsark, efterhånden som vi udgiver det} =1 {Denne side har 1 {topic}-arbejdsark — en printbar PDF plus en spil-online-version} other {Denne side har # {topic}-arbejdsark, hvert med en printbar PDF, en facitliste og en spil-online-version}}.",
+        "q2": "Er disse {topic}-arbejdsark gratis?",
+        "a2": "Ja. Hvert {topic}-arbejdsark her er gratis at printe og at spille online — ingen tilmelding og ingen betalingsmur.",
+        "q3": "Hvilke aldre og sprog er de til?",
+        "a3": "De er lavet til elever fra børnehaveklasse til 3. klasse (cirka 4-8 år) og findes på alle 11 sprog LessonCraftStudio udgiver på, hvilket gør dem praktiske til tosprogede og internationale klasseværelser."
+      },
+      "intersection": {
+        "q1": "Hvad er der på denne side med {primary} og {secondary}?",
+        "a1": "{count, plural, =0 {Denne side samler {primary}-arbejdsark til {secondary}, efterhånden som vi udgiver dem} =1 {Denne side har 1 {primary}-arbejdsark til {secondary}, med en printbar PDF og en spil-online-version} other {Denne side har # {primary}-arbejdsark til {secondary}, hvert med en printbar PDF, en facitliste og en spil-online-version}}.",
+        "q2": "Er disse {primary}-arbejdsark til {secondary} gratis?",
+        "a2": "Ja. Hvert arbejdsark her er gratis at printe og at spille online — ingen tilmelding og ingen betalingsmur.",
+        "q3": "Hvilke aldre og sprog er de til?",
+        "a3": "De passer til elever fra børnehaveklasse til 3. klasse (cirka 4-8 år) og findes på alle 11 sprog vi udgiver på."
+      },
+      "activity": {
+        "q1": "Hvad lærer {title}-aktiviteten?",
+        "a1": "{title} er en gratis interaktiv aktivitet til {grade} med fokus på {strand}. Børnene spiller den direkte i browseren — ingen print, login eller opsætning nødvendig.",
+        "q2": "Er {title} gratis at bruge?",
+        "a2": "Ja. {title} er helt gratis, uden tilmelding og uden betalingsmur, på enhver tablet, bærbar eller interaktiv tavle i klassen.",
+        "q3": "Hvilke aldre er denne aktivitet til?",
+        "a3": "Den er lavet til {grade} ({strand}) og fungerer godt til fælles, små grupper eller selvstændig øvelse."
+      },
+      "standards": {
+        "q1": "Hvad er dækket under {code}?",
+        "a1": "{code} hører til {strand}-området for {grade}. Denne side samler de gratis interaktive aktiviteter og arbejdsark der er tilpasset det.",
+        "q2": "Er disse {code}-ressourcer gratis?",
+        "a2": "Ja. Hver aktivitet og hvert arbejdsark der er tilpasset {code} er gratis at bruge online og at printe — ingen tilmelding og ingen betalingsmur.",
+        "q3": "Hvem er disse {code}-aktiviteter til?",
+        "a3": "De er lavet til lærere og elever i {grade} der følger Common Core {strand}-forløbet, og fungerer til fælles, små grupper eller øvelse derhjemme."
+      }
+    }
+  },
+  "pageUsage": {
+    "heading": "Sådan bruger du disse arbejdsark",
+    "overrides": {},
+    "fallback": {
+      "topic": "Print PDF'en til en klasseopgave eller lektie uden forberedelse, eller åbn spil-online-versionen på en tablet eller tavle for øjeblikkelig feedback. Hvert arbejdsark har en facitliste, så børnene kan tjekke sig selv eller arbejde selvstændigt. Bland ark på tværs af temaer og klassetrin til en kort {topic}-time, eller send et med hjem til ekstra øvelse.",
+      "intersection": "Print PDF'en til en hurtig {primary}-opgave med fokus på {secondary}, eller start spil-online-versionen på en tablet eller tavle. Hvert arbejdsark kommer med en facitliste til hurtig selvkontrol, og du kan kombinere det med beslægtede temaer og klassetrin for at udvide timen.",
+      "hub": "Vælg et emne, et tema eller et klassetrin for at åbne en side med matchende arbejdsark. Hvert ark er gratis at printe og at spille online, kommer med facitliste og findes på alle 11 sprog vi udgiver på — praktisk til tosprogede og internationale klasseværelser."
     }
   },
   "topicMeta": {

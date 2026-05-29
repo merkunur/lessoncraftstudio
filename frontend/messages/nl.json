@@ -974,7 +974,484 @@
   },
   "topicFaq": {
     "heading": "Veelgestelde vragen",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "Voor welke leeftijd zijn de werkbladen voor de kleuterklas?",
+          "a": "Voor kinderen van ongeveer 5 tot 7 jaar. Je oefent tellen, beginnend optellen en aftrekken, sorteren en patronen, en eerste letters en woordjes met plaatjes ondersteund."
+        },
+        {
+          "q": "Zijn de werkbladen voor de kleuterklas gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn deze werkbladen beschikbaar?",
+          "a": "De werkbladen zijn beschikbaar in de 11 talen waarin we publiceren, zodat je in de klas dezelfde oefening in meerdere talen kunt gebruiken."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Wat oefenen kinderen met de werkbladen voor groep 3?",
+          "a": "Optellen en aftrekken tot 20, tientallen en eenheden, hakken en plakken voor het eerste lezen en eenvoudige logica, voor kinderen van ongeveer 6 tot 8 jaar."
+        },
+        {
+          "q": "Zijn de werkbladen voor groep 3 gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn deze werkbladen beschikbaar?",
+          "a": "De werkbladen zijn beschikbaar in de 11 talen waarin we publiceren, handig voor een meertalige klas of voor huiswerk thuis."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Voor welke leeftijd zijn de werkbladen voor de peuterklas?",
+          "a": "Voor kinderen van ongeveer 3 tot 5 jaar. Je oefent kleine hoeveelheden tellen, sorteren, groot en klein en eerste letters natrekken, zonder dat lezen nodig is."
+        },
+        {
+          "q": "Zijn de werkbladen voor de peuterklas gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn deze werkbladen beschikbaar?",
+          "a": "De werkbladen zijn beschikbaar in de 11 talen waarin we publiceren, zodat het thuis en in de klas in de eigen taal kan."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Wat oefenen kinderen met de werkbladen voor groep 4?",
+          "a": "Optellen en aftrekken met twee cijfers, begin van vermenigvuldigen, langer lezen en woordwerk, kruiswoordraadsels en logica, voor kinderen van ongeveer 7 tot 9 jaar."
+        },
+        {
+          "q": "Zijn de werkbladen voor groep 4 gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn deze werkbladen beschikbaar?",
+          "a": "De werkbladen zijn beschikbaar in de 11 talen waarin we publiceren, ideaal voor een meertalige klas."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Wat oefenen kinderen met een cryptogram?",
+          "a": "Kinderen ontcijferen een beeld- of symboolcode en schrijven het woord, en oefenen zo letters, klanken en spelling met logisch redeneren."
+        },
+        {
+          "q": "Zijn de cryptogram werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de cryptogram werkbladen beschikbaar?",
+          "a": "De cryptogram werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Wat oefenen kinderen met grafiek tellen?",
+          "a": "Kinderen tellen voorwerpen en kleuren de kolom van een staafgrafiek in, en oefenen zo tellen en een eerste begrip van data."
+        },
+        {
+          "q": "Zijn de grafiek tellen werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de grafiek tellen werkbladen beschikbaar?",
+          "a": "De grafiek tellen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Wat oefenen kinderen met de patroonwerkbladen?",
+          "a": "Kinderen lezen een herhalend patroon zoals AB of ABC en zetten het voort, en oefenen zo patronen voortzetten en patronen maken."
+        },
+        {
+          "q": "Zijn de patroonwerkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de patroonwerkbladen beschikbaar?",
+          "a": "De patroonwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Hoe werkt een bingo werkblad?",
+          "a": "Je noemt een plaatje, letter of getal en kinderen markeren het op hun bingokaart, een opdracht voor de hele klas die luisteren en herkennen oefent."
+        },
+        {
+          "q": "Zijn de bingo werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de bingo werkbladen beschikbaar?",
+          "a": "De bingo werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Wat oefenen kinderen met rooster koppelen?",
+          "a": "Kinderen slepen kaartjes naar de juiste plek in een rooster en oefenen zo koppelen en visueel geheugen."
+        },
+        {
+          "q": "Zijn de rooster koppelen werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de rooster koppelen werkbladen beschikbaar?",
+          "a": "De rooster koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Wat oefenen kinderen met woord raden?",
+          "a": "Kinderen vullen de ontbrekende letters in om het woord bij een plaatje te schrijven, en oefenen zo eerste letters, klanken en beginnend schrijven."
+        },
+        {
+          "q": "Zijn de woord raden werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de woord raden werkbladen beschikbaar?",
+          "a": "De woord raden werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Wat oefenen kinderen met een woordpuzzel?",
+          "a": "Kinderen zetten door elkaar gegooide letters in de goede volgorde om het woord bij een plaatje te schrijven, en oefenen zo spelling."
+        },
+        {
+          "q": "Zijn de woordpuzzel werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de woordpuzzel werkbladen beschikbaar?",
+          "a": "De woordpuzzel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Wat oefenen kinderen met een kruiswoordraadsel?",
+          "a": "Kinderen schrijven met plaatjesaanwijzingen letters in een kruisend rooster en oefenen zo spelling en woordenschat."
+        },
+        {
+          "q": "Zijn de kruiswoordraadsel werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de kruiswoordraadsel werkbladen beschikbaar?",
+          "a": "De kruiswoordraadsel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Wat oefenen kinderen met objecten zoeken?",
+          "a": "Kinderen zoeken verstopte voorwerpen in een drukke scene en markeren ze, en oefenen zo visuele discriminatie en goed kijken."
+        },
+        {
+          "q": "Zijn de objecten zoeken werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de objecten zoeken werkbladen beschikbaar?",
+          "a": "De objecten zoeken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Wat oefenen kinderen met de optelwerkbladen?",
+          "a": "Kinderen tellen twee groepen samen en maken sommen, van beginnend optellen naar rekenopgaven met een en kleine twee cijfers."
+        },
+        {
+          "q": "Zijn de optelwerkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de optelwerkbladen beschikbaar?",
+          "a": "De optelwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Hoe werkt een foto-sudoku?",
+          "a": "Kinderen plaatsen plaatjes in een 4 bij 4-rooster zodat elke rij, kolom en blok er een van elk heeft, en oefenen zo logica zonder getallen of lezen."
+        },
+        {
+          "q": "Zijn de foto-sudoku werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de foto-sudoku werkbladen beschikbaar?",
+          "a": "De foto-sudoku werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Wat oefenen kinderen met beeldpad?",
+          "a": "Kinderen tekenen een pad door een rooster naar het doel en oefenen zo ruimtelijk redeneren en richting."
+        },
+        {
+          "q": "Zijn de beeldpad werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de beeldpad werkbladen beschikbaar?",
+          "a": "De beeldpad werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Wat oefenen kinderen met de aftrekwerkbladen?",
+          "a": "Kinderen strepen door wat weggaat en tellen wat overblijft, en oefenen zo beginnend aftrekken met plaatjes ondersteund."
+        },
+        {
+          "q": "Zijn de aftrekwerkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de aftrekwerkbladen beschikbaar?",
+          "a": "De aftrekwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Wat oefenen kinderen met code-optellen?",
+          "a": "Kinderen lossen kleine sommen op waarvan de uitkomsten bij letters horen, onthullen een woord en oefenen zo optellen en spelling samen."
+        },
+        {
+          "q": "Zijn de code-optellen werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de code-optellen werkbladen beschikbaar?",
+          "a": "De code-optellen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Wat oefenen kinderen met meer of minder?",
+          "a": "Kinderen vergelijken twee groepen plaatjes en kiezen welke meer, minder of evenveel heeft, een eerste begrip van aantal zonder lezen."
+        },
+        {
+          "q": "Zijn de meer of minder werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de meer of minder werkbladen beschikbaar?",
+          "a": "De meer of minder werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Wat oefenen kinderen met een rekenpuzzel?",
+          "a": "Kinderen slepen stukjes om de puzzel te voltooien en oefenen zo getalbegrip en plannen."
+        },
+        {
+          "q": "Zijn de rekenpuzzel werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de rekenpuzzel werkbladen beschikbaar?",
+          "a": "De rekenpuzzel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Wat oefenen kinderen met de rekenwerkbladen?",
+          "a": "Kinderen maken sommen, vullen ontbrekende delen aan en oefenen gemengde optel- en aftreksommen, een brede rekenoefening."
+        },
+        {
+          "q": "Zijn de rekenwerkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de rekenwerkbladen beschikbaar?",
+          "a": "De rekenwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Wat oefenen kinderen met groot of klein?",
+          "a": "Kinderen vinden het grootste of kleinste en ordenen plaatjes op grootte, een eerste begrip van grootte zonder lezen."
+        },
+        {
+          "q": "Zijn de groot of klein werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de groot of klein werkbladen beschikbaar?",
+          "a": "De groot of klein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Wat oefenen kinderen met de patroontrein?",
+          "a": "Kinderen zetten het patroon van plaatjes voort langs de wagons van een trein en oefenen zo patronen voortzetten en patronen maken."
+        },
+        {
+          "q": "Zijn de patroontrein werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de patroontrein werkbladen beschikbaar?",
+          "a": "De patroontrein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Wat oefenen kinderen met koppelen?",
+          "a": "Kinderen trekken een lijn om elk item aan zijn paar te koppelen en oefenen zo een-op-een koppelen."
+        },
+        {
+          "q": "Zijn de koppelen werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de koppelen werkbladen beschikbaar?",
+          "a": "De koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Wat oefenen kinderen met beelden sorteren?",
+          "a": "Kinderen sorteren plaatjes in groepen of categorieën en oefenen zo sorteren en classificeren."
+        },
+        {
+          "q": "Zijn de beelden sorteren werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de beelden sorteren werkbladen beschikbaar?",
+          "a": "De beelden sorteren werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Wat oefenen kinderen met schaduw koppelen?",
+          "a": "Kinderen koppelen elk voorwerp aan zijn schaduw en oefenen zo het herkennen van vorm en omtrek."
+        },
+        {
+          "q": "Zijn de schaduw koppelen werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de schaduw koppelen werkbladen beschikbaar?",
+          "a": "De schaduw koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Wat oefenen kinderen met de alfabettrein?",
+          "a": "Kinderen zetten de letters in de goede volgorde van A tot Z in de wagons van een trein en oefenen zo letters herkennen en de volgorde van het alfabet."
+        },
+        {
+          "q": "Zijn de alfabettrein werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de alfabettrein werkbladen beschikbaar?",
+          "a": "De alfabettrein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Wat oefenen kinderen met de voorzetsels werkbladen?",
+          "a": "Kinderen kiezen het plaatje dat een positie toont, zoals in, op, onder of naast, en oefenen zo voorzetsels en ruimtelijk redeneren."
+        },
+        {
+          "q": "Zijn de voorzetsels werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de voorzetsels werkbladen beschikbaar?",
+          "a": "De voorzetsels werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Wat oefenen kinderen met een woordzoeker?",
+          "a": "Kinderen vinden verstopte woorden van een thema in een letterrooster en oefenen zo letters herkennen en gericht zoeken."
+        },
+        {
+          "q": "Zijn de woordzoeker werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de woordzoeker werkbladen beschikbaar?",
+          "a": "De woordzoeker werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Wat oefenen kinderen met zoek en tel?",
+          "a": "Kinderen vinden voorwerpen in een scene en tellen hoeveel er zijn, en combineren zo zoeken en tellen."
+        },
+        {
+          "q": "Zijn de zoek en tel werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de zoek en tel werkbladen beschikbaar?",
+          "a": "De zoek en tel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Wat oefenen kinderen met een schatzoektocht?",
+          "a": "Kinderen volgen richtingaanwijzingen over een rooster tot de schat en oefenen zo ruimtelijk redeneren en richtingen."
+        },
+        {
+          "q": "Zijn de schatzoektocht werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de schatzoektocht werkbladen beschikbaar?",
+          "a": "De schatzoektocht werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Wat oefenen kinderen met ontbrekende stukken?",
+          "a": "Kinderen slepen het juiste uitgeknipte stuk in elk gat om het plaatje te voltooien, en oefenen zo goed kijken en vorm herkennen."
+        },
+        {
+          "q": "Zijn de ontbrekende stukken werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de ontbrekende stukken werkbladen beschikbaar?",
+          "a": "De ontbrekende stukken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Wat oefenen kinderen met welke hoort er niet thuis?",
+          "a": "Kinderen kiezen het plaatje dat er niet bij hoort en bedenken waarom, en oefenen zo classificeren en redeneren."
+        },
+        {
+          "q": "Zijn de welke hoort er niet thuis werkbladen gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de welke hoort er niet thuis werkbladen beschikbaar?",
+          "a": "De welke hoort er niet thuis werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Wat oefenen kinderen met de werkbladen met dieren?",
+          "a": "Met een vertrouwde set dierenplaatjes oefenen kinderen tellen, sorteren, koppelen, welke hoort er niet bij en eerste letters, een herkenbaar thema voor vele vaardigheden."
+        },
+        {
+          "q": "Zijn de werkbladen met dieren gratis?",
+          "a": "Ja. Je kunt elk werkblad gratis afdrukken als PDF of online spelen in de interactieve versie, met een antwoordblad, zonder registratie."
+        },
+        {
+          "q": "In welke talen zijn de werkbladen met dieren beschikbaar?",
+          "a": "De werkbladen met dieren zijn beschikbaar in de 11 talen waarin we publiceren."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Welke werkbladen staan er op deze {topic}-pagina?",
@@ -1156,31 +1633,31 @@
     "grade-3": "Werkbladen voor groep 5 (8-10 jaar): rekenen, taal en logisch denken aansluitend bij de SLO kerndoelen van het derde leerjaar."
   },
   "topicProse": {
-    "animals": "Werkbladen met dierenthema geven leerkrachten in het jonge kind een woordenschatfundament dat door het hele K-3-curriculum reist. Koeien tellen, vogels sorteren naar wat ze eten, de eerste letter van elke boerderijnaam herkennen — dezelfde set afbeeldingen ondersteunt getalbegrip, classificatie en vroege geletterdheid zonder dat kinderen van context moeten wisselen. De woordenschat zelf is hoogfrequent in elk van onze elf talen, wat deze werkbladen bijzonder bruikbaar maakt wanneer een klas kinderen op verschillende taalniveaus heeft.",
-    "addition": "Werkbladen voor optellen ontmoeten kinderen op het moment waarop optellen ophoudt een teltrucje te zijn en een feit wordt dat ze kunnen oproepen. De werkbladen hier geven die ophalingsoefening over enkelvoudige cijfers en kleine tweecijferige sommen heen, met afbeeldingsondersteunde opgaven voor jongere lerenden en cijferalleen-formaten zodra de bewerking gevestigd is. Combineer interactieve en afdrukbare formaten: de interactieve versies geven directe feedback, de afdrukbare PDF's werken goed voor partnerwerk waarbij het ene kind schrijft en het andere controleert.",
-    "subtraction": "Aftrekken is de bewerking die naar boven brengt wat kinderen intuïtief weten over wat blijft en wat weggaat. Deze werkbladen bouwen die intuïtie op met afbeeldingsgebaseerde wegneem-opgaven voor de jongste lerenden, en lopen door naar abstract aftrekken zodra het wegneem-gebaar niet meer nodig is. Het formaat past goed bij manipulatieven in de klas — kinderen kunnen de eerste rij naspelen met telstaafjes en vervolgens de rest op de pagina invullen.",
-    "alphabet-train": "De alfabettrein-werkbladen bouwen lettererkenning op door positionele ordening. Elke wagon van de trein draagt één letter, en kinderen vullen óf de ontbrekende wagons in óf rangschikken de wagons in alfabetische volgorde. Het formaat is vergevingsgezind — een kind dat de helft van het alfabet kent, kan de rijen toch invullen met bekende letters en de onbekende uit de context oppikken. Bruikbaar voor letter-klank-werk, versterking van het alfabetlied, en vroege geletterdheidsdiagnose.",
-    "wordsearch": "Woordzoeker-werkbladen bouwen aanhoudend lezen op: het oog scant een rooster van letters en het brein vergelijkt elke letter met een doelwoord dat in het werkgeheugen wordt vastgehouden. Voor lezers in K-3 zijn de doelwoorden kort en thematisch gegroepeerd, wat betekent dat de activiteit woordenschat versterkt tegelijk met decoderen. Deze werkbladen werken goed als stille taken, overgangsmomenten of partnerwerk waarbij het ene kind het doelwoord hardop voorleest terwijl het andere zoekt.",
-    "matching": "Koppelwerkbladen geven kinderen oefening met de cognitieve beweging die aan het meeste denken in de jonge kindfase ten grondslag ligt: opmerken dat twee dingen bij elkaar horen omdat ze een eigenschap delen. Deze pagina's koppelen afbeeldingen aan hun eerste letters, woorden aan hun betekenissen, of hoeveelheden aan hun cijfers. De visuele indeling — items in twee kolommen, verbonden door lijnen die direct op het werkblad worden getrokken — houdt de cognitieve last op de relatie in plaats van op de procedure.",
-    "sudoku": "Beeldsudoku-werkbladen geven jonge kinderen de logische ervaring van volle sudoku in een 4×4-rooster met vertrouwde afbeeldingen in plaats van cijfers. Elke rij, kolom en kwadrant moet elk van de vier afbeeldingen één keer bevatten, en kinderen leiden de ontbrekende af door uitsluiting. De puzzel is werkelijk uitdagend voor de K-3-leeftijdsgroep zonder cijferlezen te vereisen, wat hem toegankelijk maakt voor kinderen op elk leesniveau.",
-    "find-and-count": "Zoek-en-tel-werkbladen vragen kinderen een drukke scène af te zoeken, elk voorkomen van een doelvoorwerp te lokaliseren en het aantal op te schrijven. De activiteit oefent drie vaardigheden tegelijk: visuele discriminatie, één-op-één-correspondentie en cijferschrijven. Voor leerkrachten in het jonge kind is zoek-en-tel een nuttig diagnostisch instrument — een kind dat zes telt maar vier opschrijft, laat u iets concreets zien over waar de kloof zit.",
-    "prepositions": "Voorzetsel-werkbladen koppelen ruimtelijke woordenschat aan concrete afbeeldingen: de kat zit onder de stoel, de bal ligt tussen de dozen, de vogel zit op de tak. De afbeeldingen geven kinderen een referent voor woorden die anders abstract zijn, en het meerkeuzeformaat houdt de cognitieve last op de relatie in plaats van op het schrijven. Bruikbaar voor leerlingen die Nederlands als tweede taal leren, voor tweetalige klassen en voor elke context waarin ruimtelijke woordenschat expliciet onderwezen moet worden.",
-    "picture-sort": "Beeldsorteer-werkbladen oefenen de classificatiebeweging die ten grondslag ligt aan vroege wetenschap en vroeg lezen. Kinderen bekijken een set afbeeldingen en groeperen ze per categorie — naar eerste letter, naar wat ze eten, naar waar ze leven, naar welke kleur ze hebben. Het twee-bak-formaat houdt de keuze binair, wat het juiste cognitieve startpunt is voor sorteren in K-3.",
-    "big-small": "Groot-klein-werkbladen oefenen relatieve grootte-vergelijking, de basisvaardigheid die ten grondslag ligt aan meten en ordenen. Kinderen identificeren het grootste of kleinste in een set, of rangschikken een reeks objecten op grootte. De afbeeldingen zijn opzettelijk overdreven zodat de vergelijking ondubbelzinnig is — zodra kinderen het beeldsignaal zelfverzekerd kunnen lezen, draagt dezelfde vaardigheid over op minder voor de hand liggende vergelijkingen in het leven en in het cijferwerk.",
-    "more-less": "Meer-minder-werkbladen zijn de voorlopers van formele optelling en aftrekking: kinderen vergelijken twee hoeveelheden en beslissen welke meer heeft. De activiteit is sterk afbeeldingsondersteund omdat veel K-3-kinderen het kunnen oplossen voordat ze de woorden „meer“ en „minder“ betrouwbaar kunnen lezen. Bruikbaar als controle op getalbegrip en als steiger voor vroege rekenkunde.",
-    "math-puzzle": "Wiskundepuzzel-werkbladen verpakken rekenoefening als iets om uit te puzzelen in plaats van iets om te drillen. Elke puzzel vraagt het kind getalfeiten te combineren met logische gevolgtrekking — welke twee getallen vormen samen deze som, welke reeks completeert dit patroon, welke bewerking maakt deze vergelijking waar. Het formaat houdt wiskunde interessant zodra de basisfeiten gevestigd zijn.",
-    "math-worksheet": "Wiskundewerkblad-pagina's geven kinderen oefening met de bewerkingen waar ze nu aan werken, in het formaat waarvan leerkrachten weten dat het werkt voor vaardigheidsverankering. Elke pagina richt zich op één of twee bewerkingen en biedt genoeg opgaven voor aanhoudende oefening zonder overweldigend te worden. Gebruik ze als huiswerk, ochtendwerk of zelfstandige oefening tijdens kleinegroepsinstructie.",
-    "missing-pieces": "Ontbrekende-stukken-werkbladen oefenen visuele aanvulling: kinderen kijken naar een afbeelding waarvan een deel verwijderd is en kiezen het stuk dat het completeert uit een klein palet. De activiteit oefent ruimtelijk redeneren, oog voor detail en vormherkenning tegelijkertijd. Bijzonder bruikbaar als stille zelfstandige taak in het kleuter- en groep-3-bereik.",
-    "odd-one-out": "Welke-hoort-er-niet-bij-werkbladen oefenen de discriminatievaardigheid die ten grondslag ligt aan classificatie: kinderen kijken naar een kleine groep afbeeldingen en identificeren degene die er niet bij hoort. Het criterium varieert — naar categorie, naar kleur, naar eerste letter — en de afbeeldingen zijn zo gekozen dat het antwoord ondubbelzinnig is zodra het criterium genoemd is. Een nuttig diagnostisch instrument voor denken in het jonge kind.",
-    "shadow-match": "Schaduw-koppel-werkbladen koppelen elke afbeelding aan haar silhouet. De activiteit oefent vormherkenning en visuele discriminatie op het niveau waar contour en detail apart verwerkt moeten worden, wat een van de basisvaardigheden voor vroeg lezen is. Kinderen die schaduwen zelfverzekerd koppelen, hanteren ook de letterherkenning doorgaans met minder moeite.",
-    "code-addition": "Code-optel-werkbladen koppelen een opteloefening aan een letter, zodat het antwoord van de som een woord of boodschap decodeert. Het formaat geeft rekenoefening een geletterdheidskader: kinderen lossen optelling op niet als doel op zich, maar als middel tot de boodschap. Bruikbaar voor kinderen in midden-kleuter en groep 3 die de basisfeiten hebben maar oefening nodig hebben die motiverend voelt.",
-    "pattern-train": "Patroontrein-werkbladen geven kinderen oefening in het uitbreiden en aanvullen van visuele patronen. Elke trein draagt een reeks en het kind vult de ontbrekende wagons in door de patroonlogica te volgen — afwisselende kleuren, herhalende vormen, toenemende groottes. Patroonherkenning is een basisvaardigheid die zowel aan vroege wiskunde als aan vroeg lezen ten grondslag ligt, en het treinformaat houdt de visuele indeling eenvoudig.",
-    "picture-path": "Beeldpad-werkbladen oefenen ruimtelijk redeneren en route-vinden: kinderen trekken een pad door een rooster van een startafbeelding naar een eindafbeelding, soms om muren heen of langs afleiders. De activiteit bouwt dezelfde cognitieve bewegingen op die ten grondslag liggen aan doolhof-oplossen, plannen en vroege meetkunde. Kinderen ontwikkelen het geduld om routes te overwegen voordat ze pen op papier zetten.",
-    "treasure-hunt": "Schatzoek-werkbladen geven kinderen een opeenvolging van richtingaanwijzingen — twee vakjes naar het noorden, één naar het oosten, drie naar het zuiden — en vragen hen de route te traceren die de aanwijzingen beschrijven. De activiteit bouwt ruimtelijk redeneren, werkgeheugen en richting-woordenschat tegelijk op. Het formaat werkt bijzonder goed voor kinderen in groep 3 en groep 4 die klaar zijn voor meerstapsinstructies.",
-    "preschool": "Peuterklas-werkbladen ontmoeten kinderen op het ontwikkelmoment waarop de pengreep betrouwbaar wordt en het brein klaar is voor doelgericht voor-academisch werk. De activiteiten hier houden de cognitieve last laag en de visuele ondersteuning hoog — elke vraag is geïllustreerd, elk antwoord ondubbelzinnig, elke pagina kan in een paar geconcentreerde minuten worden voltooid. Gebruik ze voor de momenten in de ochtend waarop kinderen klaar zijn om te zitten en te werken, of als zacht huiswerk dat gezinnen zonder academische achtergrond kunnen ondersteunen.",
-    "kindergarten": "Kleuterklas-werkbladen zijn afgestemd op het jaar waarin voor-academische nieuwsgierigheid uitkristalliseert in academische gereedheid. Kinderen op dit niveau kunnen betrouwbaar een pen vasthouden, de eerste letters van hun naam herkennen, voorbij tien tellen en tweetrapsinstructies op een pagina volgen. De activiteiten hier oefenen die vaardigheden in wiskunde, geletterdheid, logica en ruimtelijk redeneren, in formaten die kort genoeg zijn voor de aandachtsspanne van een kleuter en substantieel genoeg om als echt werk te voelen.",
-    "grade-1": "Werkbladen voor groep 3 ontmoeten het moment waarop kinderen de in de kleuterklas gelegde basis verankeren in vlotte zelfstandige oefening. Ze kunnen korte instructies lezen, hun antwoorden opschrijven en eenvoudige fouten zelf corrigeren zonder volwassen aansporing. De activiteiten hier strekken zich uit over het standaard groep-3-curriculum — optellen en aftrekken binnen twintig, kijkwoord-herkenning, eenvoudige sequentiëring, basisruimtelijke logica — en elke pagina is ontworpen om voltooibaar te voelen in een geconcentreerd kwartiersblok.",
-    "grade-2": "Werkbladen voor groep 4 ontmoeten kinderen die nu zelfstandig lezen, in zinnen schrijven en klaar zijn voor meerstaps-probleemoplossing. De activiteiten hier introduceren de langere cognitieve sequenties — meerdere-cijfers-optelling, langere woordzoekers, complexere puzzels — die kinderen in groep 4 kunnen volhouden. Combineer ze met klassengesprek over strategie, aangezien de cognitieve waarde op dit niveau steeds meer in de aanpak ligt als in het antwoord zelf.",
+    "animals": "Bekijk hier de werkbladen met dieren, waarin kinderen met een vertrouwde set dierenplaatjes tellen, sorteren, koppelen en kiezen welke hoort er niet bij. Voor jonge kinderen keert hetzelfde dierenthema terug bij eerste letters en klanken en vele andere vaardigheden, zodat een herkenbare set veel oefeningen draagt. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Combineer een paar bladen tot een setje rond dieren. De werkbladen met dieren zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "addition": "Bekijk hier de optelwerkbladen, waarin kinderen twee groepen samen tellen en optellen. Voor jonge kinderen oefen je beginnend optellen en de stap naar sommen met een en kleine twee cijfers, met plaatjes ondersteund zodat elke som te overzien is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte rekenoefening of als huiswerk. De optelwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "subtraction": "Bekijk hier de aftrekwerkbladen, waarin kinderen wegstrepen wat weggaat en tellen wat overblijft. Voor jonge kinderen oefen je beginnend aftrekken op een aanschouwelijke manier, met plaatjes ondersteund zodat elke som te overzien is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte rekenoefening of als huiswerk. De aftrekwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "alphabet-train": "Bekijk hier de alfabettrein werkbladen, waarin kinderen de letters in de goede volgorde van A tot Z in de wagons van een trein zetten. Voor jonge kinderen oefen je letters herkennen en de volgorde van het alfabet op een speelse manier, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht of als huiswerk. De alfabettrein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "wordsearch": "Bekijk hier de woordzoeker werkbladen, waarin kinderen verstopte woorden van een thema in een letterrooster vinden. Voor jonge kinderen oefen je letters herkennen en gericht zoeken, met plaatjes ondersteund die het thema aangeven. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse opdracht of in een rustige hoek. De woordzoeker werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "matching": "Bekijk hier de koppelen werkbladen, waarin kinderen een lijn trekken om elk item aan zijn paar te koppelen. Voor jonge kinderen oefen je een-op-een koppelen en goed kijken, met plaatjes ondersteund zodat elk paar herkenbaar is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht voor zelfstandig werken. De koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "sudoku": "Bekijk hier de foto-sudoku werkbladen, waarin kinderen plaatjes in een 4 bij 4-rooster plaatsen zodat elke rij, kolom en blok er een van elk heeft. Voor jonge kinderen oefen je logica en ruimtelijk redeneren, helemaal zonder getallen of lezen en met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als rustige denkpuzzel voor zelfstandig werken. De foto-sudoku werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "find-and-count": "Bekijk hier de zoek en tel werkbladen, waarin kinderen voorwerpen in een scene vinden en tellen hoeveel er zijn. Voor jonge kinderen combineer je zoeken en tellen, met plaatjes ondersteund die de scene rijk maken. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse telopdracht voor de jongsten. De zoek en tel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "prepositions": "Bekijk hier de voorzetsels werkbladen, waarin kinderen het plaatje kiezen dat een positie toont: in, op, onder of naast. Voor jonge kinderen oefen je voorzetsels en ruimtelijk redeneren, met plaatjes ondersteund zodat elke positie duidelijk is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte taalopdracht voor de jongsten. De voorzetsels werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "picture-sort": "Bekijk hier de beelden sorteren werkbladen, waarin kinderen plaatjes in groepen of categorieën sorteren. Voor jonge kinderen oefen je sorteren en classificeren, met plaatjes ondersteund zodat de categorieën duidelijk zijn. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht of in een rustige hoek. De beelden sorteren werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "big-small": "Bekijk hier de groot of klein werkbladen, waarin kinderen het grootste of kleinste vinden en plaatjes op grootte ordenen. Voor jonge kinderen oefen je een eerste begrip van grootte en vergelijken, helemaal zonder lezen en met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht voor de jongsten. De groot of klein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "more-less": "Bekijk hier de meer of minder werkbladen, waarin kinderen twee groepen plaatjes vergelijken: welke heeft meer, minder of evenveel. Voor jonge kinderen oefen je een eerste begrip van aantal en vergelijken, helemaal zonder lezen en met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht voor de jongsten. De meer of minder werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "math-puzzle": "Bekijk hier de rekenpuzzel werkbladen, waarin kinderen stukjes slepen om een rekenpuzzel te voltooien. Voor jonge kinderen oefen je getalbegrip en plannen op een speelse manier, met plaatjes ondersteund zodat elke stap te volgen is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als denkopdracht voor zelfstandig werken. De rekenpuzzel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "math-worksheet": "Bekijk hier de rekenwerkbladen, waarin kinderen sommen maken, ontbrekende delen aanvullen en gemengde optel- en aftreksommen oefenen. Voor jonge kinderen biedt het een brede rekenoefening, met plaatjes ondersteund waar dat helpt. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als algemene oefening in de klas of als huiswerk. De rekenwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "missing-pieces": "Bekijk hier de ontbrekende stukken werkbladen, waarin kinderen het juiste uitgeknipte stuk in elk gat slepen om het plaatje te voltooien. Voor jonge kinderen oefen je goed kijken, vorm herkennen en visueel redeneren, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht voor zelfstandig werken. De ontbrekende stukken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "odd-one-out": "Bekijk hier de welke hoort er niet thuis werkbladen, waarin kinderen het plaatje kiezen dat er niet bij hoort en bedenken waarom. Voor jonge kinderen oefen je classificeren en redeneren, met plaatjes ondersteund zodat de groepen herkenbaar zijn. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte denkopdracht voor de jongsten. De welke hoort er niet thuis werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "shadow-match": "Bekijk hier de schaduw koppelen werkbladen, waarin kinderen elk voorwerp aan zijn schaduw koppelen. Voor jonge kinderen oefen je het herkennen van vorm en omtrek en goed kijken, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht voor zelfstandig werken. De schaduw koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "code-addition": "Bekijk hier de code-optellen werkbladen, waarin kinderen kleine sommen oplossen waarvan de uitkomsten bij letters horen om een woord te onthullen. Voor jonge kinderen combineer je beginnend optellen met eerste letters en spelling, met plaatjes ondersteund zodat de code begrijpelijk blijft. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als leuke opdracht die rekenen en woorden samenbrengt. De code-optellen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "pattern-train": "Bekijk hier de patroontrein werkbladen, waarin kinderen het patroon van plaatjes voortzetten langs de wagons van een trein. Voor jonge kinderen oefen je patronen voortzetten en patronen maken op een speelse manier, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht of als huiswerk. De patroontrein werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "picture-path": "Bekijk hier de beeldpad werkbladen, waarin kinderen een pad door een rooster naar het doel tekenen. Voor jonge kinderen oefen je ruimtelijk redeneren en richting, met plaatjes ondersteund zodat het pad duidelijk te volgen is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse denkopdracht of in een rustige hoek. De beeldpad werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "treasure-hunt": "Bekijk hier de schatzoektocht werkbladen, waarin kinderen richtingaanwijzingen over een rooster volgen tot de schat. Voor jonge kinderen oefen je ruimtelijk redeneren en het begrijpen van richtingen, met plaatjes ondersteund zodat de route te volgen is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse denkopdracht voor zelfstandig werken. De schatzoektocht werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "preschool": "Bekijk hier de werkbladen voor de peuterklas, waarin kinderen kleine hoeveelheden tellen, plaatjes combineren en sorteren en kiezen welke hoort er niet bij. Voor kinderen van ongeveer 3 tot 5 jaar oefen je groot en klein, eerste letters natrekken en bij elkaar zoeken, helemaal zonder lezen en met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik korte, rustige opdrachten die bij jonge kinderen passen. De werkbladen voor de peuterklas zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "kindergarten": "Bekijk hier de werkbladen voor de kleuterklas, waarin kinderen plaatjes tellen, kleine sommen maken en bij elkaar zoeken wat hoort. Voor kinderen van ongeveer 5 tot 7 jaar oefen je tellen, beginnend optellen en aftrekken, getal en hoeveelheid koppelen, sorteren en patronen voortzetten, eerste letters en klanken en eerste woordjes, als voorbereiding op groep 3. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Combineer een paar bladen tot een setje voor in de klas. Het materiaal voor de kleuterklas is beschikbaar in de 11 talen waarin we publiceren.",
+    "grade-1": "Bekijk hier de werkbladen voor groep 3, waarin kinderen optellen en aftrekken tot 20, met tientallen en eenheden werken en beginnen met lezen. Voor kinderen van ongeveer 6 tot 8 jaar oefen je rekenopgaven, hakken en plakken voor het eerste lezen en eenvoudige logica, stap voor stap met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte oefening of als huiswerk. De werkbladen voor groep 3 zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "grade-2": "Bekijk hier de werkbladen voor groep 4, waarin kinderen optellen en aftrekken met twee cijfers, beginnen met vermenigvuldigen en langer lezen. Voor kinderen van ongeveer 7 tot 9 jaar oefen je tientallen en honderdtallen, woordwerk, kruiswoordraadsels en woordzoekers en stevigere logica, met plaatjes ondersteund waar dat helpt. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad voor zelfstandig werken in de klas of als huiswerk. De werkbladen voor groep 4 zijn beschikbaar in de 11 talen waarin we publiceren.",
     "addition__animals": "Werkbladen voor optellen met dierenthema koppelen de bewerking die kinderen oefenen aan woordenschat die kinderen al goed kennen. Het formaat vermindert de cognitieve last op de afbeelding en houdt deze op de rekenkunde — bruikbaar voor kinderen die nog hun feitenbasis voor optellen opbouwen.",
     "animals__subtraction": "Werkbladen voor aftrekken met dierenthema laten wegnemen zien met wezens die kinderen onmiddellijk herkennen, wat de bewerking gemakkelijker leesbaar maakt. De afbeeldingen houden de focus op het aftrekken zelf.",
     "alphabet-train__animals": "Alfabettrein-werkbladen met dierenthema gebruiken dierennamen als alfabet-ankers — elke wagon staat voor een dier waarvan de naam met een andere letter begint. De koppeling versterkt letter-klank-toewijzing terwijl kinderen de alfabet-volgorde oefenen.",
@@ -1215,7 +1692,16 @@
     "code-addition__kindergarten": "Kleuterklas-code-optel-werkbladen geven rekenoefening een geletterdheidskader: elke som decodeert een letter of woord, wat de oefening doelgericht laat voelen voor kinderen die de basisfeiten hebben maar motivatie nodig hebben.",
     "kindergarten__pattern-train": "Kleuterklas-patroontrein-werkbladen oefenen patroonherkenning — afwisselend, herhalend, toenemend — in een treinformaat dat visueel gemakkelijk te lezen is. Patroonherkenning is fundamenteel in wiskunde en lezen.",
     "kindergarten__picture-path": "Kleuterklas-beeldpad-werkbladen oefenen route-vinden door een rooster, wat ruimtelijk redeneren en geduld traint. Kinderen op dit ontwikkelingsniveau zijn klaar om routes te overwegen voordat ze pen op papier zetten.",
-    "grade-1__treasure-hunt": "Schatzoektochten voor groep 3 geven kinderen een meerstaps-richtingsequentie om op een rooster te volgen. De activiteit bouwt ruimtelijk redeneren, werkgeheugen en richting-woordenschat op een niveau op dat groep-3-kinderen kunnen volhouden."
+    "grade-1__treasure-hunt": "Schatzoektochten voor groep 3 geven kinderen een meerstaps-richtingsequentie om op een rooster te volgen. De activiteit bouwt ruimtelijk redeneren, werkgeheugen en richting-woordenschat op een niveau op dat groep-3-kinderen kunnen volhouden.",
+    "cryptogram": "Bekijk hier de cryptogram werkbladen, waarin kinderen een beeld- of symboolcode ontcijferen om letter voor letter een woord te schrijven. Voor jonge kinderen oefen je eerste letters en klanken, spelling en logisch redeneren, met plaatjes ondersteund zodat de code begrijpelijk blijft. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een cryptogram als rustige opdracht voor zelfstandig werken. De cryptogram werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "chart-count": "Bekijk hier de grafiek tellen werkbladen, waarin kinderen voorwerpen tellen en de kolom van een staafgrafiek invullen. Voor jonge kinderen oefen je tellen en een eerste begrip van data, met plaatjes ondersteund zodat de stap van tellen naar grafiek duidelijk is. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad om samen in de klas een grafiek te lezen. De grafiek tellen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "pattern-worksheet": "Bekijk hier de patroonwerkbladen, waarin kinderen een herhalend patroon lezen en voortzetten, zoals AB of ABC. Voor jonge kinderen oefen je patronen voortzetten en patronen maken, een belangrijke basis voor rekenen en logica, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte opdracht of als huiswerk. De patroonwerkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "bingo": "Bekijk hier de bingo werkbladen, waarin kinderen het genoemde plaatje, de letter of het getal op de bingokaart markeren. Voor de hele klas oefen je luisteren, herkennen en herhalen op een speelse manier, met plaatjes ondersteund. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik bingo als gezamenlijke opdracht waarbij iedereen meedoet. De bingo werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "grid-match": "Bekijk hier de rooster koppelen werkbladen, waarin kinderen kaartjes naar hun plek in een rooster slepen. Voor jonge kinderen oefen je koppelen en visueel geheugen, met plaatjes ondersteund zodat elk kaartje een duidelijke plek heeft. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad voor zelfstandig werken of in een rustige hoek. De rooster koppelen werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "word-guess": "Bekijk hier de woord raden werkbladen, waarin kinderen de ontbrekende letters invullen om het woord bij een plaatje te schrijven. Voor jonge kinderen oefen je eerste letters en klanken en beginnend schrijven, met plaatjes ondersteund die het woord helpen raden. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als korte schrijfoefening of als huiswerk. De woord raden werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "word-scramble": "Bekijk hier de woordpuzzel werkbladen, waarin kinderen door elkaar gegooide letters in de goede volgorde zetten om het woord bij een plaatje te schrijven. Voor jonge kinderen oefen je spelling en het herkennen van letters, met plaatjes ondersteund die het woord aangeven. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als spelletje of als huiswerk. De woordpuzzel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "crossword": "Bekijk hier de kruiswoordraadsel werkbladen, waarin kinderen met plaatjesaanwijzingen letters in het kruisende rooster schrijven. Voor kinderen die al wat lezen oefen je spelling en woordenschat, met plaatjes ondersteund zodat elk woord herkenbaar blijft. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als rustige opdracht voor zelfstandig werken. De kruiswoordraadsel werkbladen zijn beschikbaar in de 11 talen waarin we publiceren.",
+    "find-objects": "Bekijk hier de objecten zoeken werkbladen, waarin kinderen verstopte voorwerpen in een drukke scene zoeken en markeren. Voor jonge kinderen oefen je visuele discriminatie en goed kijken, met plaatjes ondersteund die de scene rijk maken. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Gebruik een blad als speelse opdracht of in een rustige hoek. De objecten zoeken werkbladen zijn beschikbaar in de 11 talen waarin we publiceren."
   },
   "workspace": {
     "metadata": {

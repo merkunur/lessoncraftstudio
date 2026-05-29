@@ -1369,13 +1369,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/pt/topic/atividade-de-matematica/",
-      "primaryKeyword": "Atividades de Atividade De Matemática",
+      "primaryKeyword": "Atividades de Matemática",
       "secondaryKeywords": [
-        "atividades de Atividade De Matemática para imprimir",
-        "Atividade De Matemática em PDF grátis",
-        "Atividade De Matemática educação infantil"
+        "atividades de matemática para imprimir",
+        "matemática em PDF grátis",
+        "matemática educação infantil"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2009,13 +2009,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/pt/topic/atividade-de-padroes/",
-      "primaryKeyword": "Atividades de Atividade De Padrões",
+      "primaryKeyword": "Atividades de Padrões",
       "secondaryKeywords": [
-        "atividades de Atividade De Padrões para imprimir",
-        "Atividade De Padrões em PDF grátis",
-        "Atividade De Padrões educação infantil"
+        "atividades de padrões para imprimir",
+        "padrões em PDF grátis",
+        "padrões educação infantil"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

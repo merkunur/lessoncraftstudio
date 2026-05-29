@@ -1305,13 +1305,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/en/topic/math-worksheet/",
-      "primaryKeyword": "Math Worksheet worksheets",
+      "primaryKeyword": "Math worksheets",
       "secondaryKeywords": [
-        "free Math Worksheet worksheets",
-        "printable Math Worksheet worksheets pdf",
-        "Math Worksheet worksheets for kids"
+        "free math worksheets",
+        "printable math worksheets pdf",
+        "math worksheets for kids"
       ],
-      "source": "grammar",
+      "source": "grammar+bespoke",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

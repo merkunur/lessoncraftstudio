@@ -1095,6 +1095,118 @@
           "q": "What languages can I get them in?",
           "a": "All 11 languages we publish in, so international and immersion grade 3 classrooms work from one consistent library."
         }
+      ],
+      "addition": [
+        {
+          "q": "What level are these addition worksheets for?",
+          "a": "K-3 (about ages 4-8): picture-supported sums for beginners through single- and small two-digit addition for confident counters."
+        },
+        {
+          "q": "Are the addition worksheets free?",
+          "a": "Yes — free to print and to play online, each with an answer key, no signup."
+        },
+        {
+          "q": "Can children practise addition online?",
+          "a": "Yes; every sheet has a play-online version with instant feedback, plus the printable PDF — in all 11 languages we publish in."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "What do these subtraction worksheets cover?",
+          "a": "Picture-supported take-away for beginners through single-digit and small two-digit subtraction, K-3 (ages 4-8)."
+        },
+        {
+          "q": "Are they free to use?",
+          "a": "Yes — free printable PDFs and play-online versions, each with an answer key, no signup or paywall."
+        },
+        {
+          "q": "Which languages are they in?",
+          "a": "All 11 languages we publish in, with picture support where a multilingual learner benefits."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "What kind of math do these worksheets cover?",
+          "a": "Number sentences, missing-number equations, and mixed sums and differences for K-3 (ages 4-8), with picture support easing into number-only work."
+        },
+        {
+          "q": "Are these math worksheets free?",
+          "a": "Yes — free to print and to play online, each with an answer key, no signup."
+        },
+        {
+          "q": "Are they available in other languages?",
+          "a": "Yes, in all 11 languages we publish in."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "What age are more-or-less worksheets for?",
+          "a": "Preschool and kindergarten (about ages 3-6): picture-based comparison of quantities, no reading required."
+        },
+        {
+          "q": "Are they free?",
+          "a": "Yes — free printable PDFs and play-online versions with an answer key, no signup."
+        },
+        {
+          "q": "What languages are available?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Who are big-or-small worksheets for?",
+          "a": "Preschool and kindergarten (ages 3-6): picture-based size comparison and ordering, no reading needed."
+        },
+        {
+          "q": "Are these worksheets free?",
+          "a": "Yes — free to print and play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages?",
+          "a": "All 11 we publish in."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "What do word search worksheets teach?",
+          "a": "Letter recognition, left-to-right scanning, and themed vocabulary for K-3 readers — short, picture-supported word lists."
+        },
+        {
+          "q": "Are they free to print and play?",
+          "a": "Yes — free printable PDFs and a play-online version, each with an answer key, no signup."
+        },
+        {
+          "q": "What languages are they in?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "How do these crossword worksheets work for young children?",
+          "a": "They use picture clues instead of text: the child names the image and fills its letters into the grid, with crossing letters helping — ideal for K-3 spelling and vocabulary."
+        },
+        {
+          "q": "Are they free?",
+          "a": "Yes — free to print and to play online, with an answer key and no signup."
+        },
+        {
+          "q": "Which languages are available?",
+          "a": "All 11 languages we publish in."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "What age is picture sudoku for?",
+          "a": "K-3 (about ages 4-8): a 4x4 picture grid that teaches the same logic as number sudoku, with no reading required."
+        },
+        {
+          "q": "Are these picture sudoku worksheets free?",
+          "a": "Yes — free printable PDFs and a play-online version, each with an answer key, no signup."
+        },
+        {
+          "q": "Do I need to read to solve them?",
+          "a": "No — they use pictures, so they work in any of the 11 languages we publish in."
+        }
       ]
     },
     "fallback": {
@@ -1280,19 +1392,19 @@
   },
   "topicProse": {
     "animals": "Animal-themed worksheets give early-childhood teachers a vocabulary foundation that travels across the K-3 curriculum. Counting cows, sorting birds by what they eat, recognising the first letter of every farm name — the same set of pictures supports number sense, classification, and early literacy without asking children to switch contexts. The vocabulary itself is high-frequency in every language we publish in, which makes these worksheets particularly useful when a class has children at different language levels.",
-    "addition": "Addition worksheets meet children at the moment when adding stops being a counting trick and starts being a fact they can recall. The worksheets here give that recall practice across single-digit and small two-digit sums, with picture-supported problems for younger learners and number-only formats once the operation is secure. Mix interactive and printable formats: the interactive versions give immediate feedback, the printable PDFs work well for partner work where one child writes and the other checks.",
-    "subtraction": "Subtraction is the operation that surfaces children's intuitions about what stays and what leaves. These worksheets build that intuition with picture-based take-away problems for the youngest learners, then progress to abstract number subtraction once the take-away gesture is no longer needed. The format pairs well with manipulatives in the classroom — children can act out the first row with counters, then complete the rest on the page.",
+    "addition": "Addition worksheets meet children at the moment adding stops being a counting trick and becomes a fact they can recall. The sheets on this page move along that path: picture-supported sums for the youngest, where a child counts two groups and combines them, through single-digit number sentences, to small two-digit problems for those who are ready. Keeping the format steady lets the thinking stay on the math rather than on figuring out what to do. Each addition worksheet is a free printable PDF with a matching play-online version — the interactive one checks each answer and cheers a clean first pass, the printable is ready for morning work, a maths centre, or homework, and every sheet has an answer key. Pair a picture set with a number-only set to scaffold a lesson, or send one home for five minutes of practice. The whole collection is available in all 11 languages we publish in, so dual-language and international classrooms can give every child addition practice in the language they understand best.",
+    "subtraction": "Subtraction worksheets help children see taking-away as something they can picture before it becomes something they just know. The sheets here start with picture problems — cross out what leaves, count what remains — then move to single-digit number sentences and small two-digit differences as a child grows surer. Because the layout stays consistent, attention goes to the operation rather than to new instructions each time. Each subtraction worksheet is a free printable PDF with a matching play-online activity: the interactive version marks answers immediately and celebrates a clean first pass, while the printable suits guided practice, partner work, or homework, and an answer key is always included. Mix a picture-supported sheet with a number-only one to meet different readiness levels in the same room, or send a sheet home for extra practice. The full set is available in all 11 languages we publish in, so immersion and international classrooms can give every learner subtraction practice in the language they need.",
     "alphabet-train": "The alphabet-train worksheets build letter recognition through positional ordering. Each car of the train carries one letter, and children either fill in the missing cars or arrange the cars in alphabetic sequence. The format is forgiving — a child who knows half the alphabet can still complete the rows with familiar letters and pick up the unfamiliar ones from context. Useful for letter-sound work, alphabet song reinforcement, and early literacy assessment.",
-    "wordsearch": "Wordsearch worksheets build sustained-attention reading: the eye scans a grid of letters and the brain matches each one against a target word held in working memory. For K-3 readers, the targets are short and grouped around a theme, which means the activity reinforces vocabulary at the same time as decoding. These worksheets work well as quiet-time tasks, transition fillers, or partner work where one child reads the target aloud while the other searches.",
+    "wordsearch": "Word search worksheets turn early reading into a hunt children actually want to finish. Each puzzle hides a small set of themed words in a grid of letters; a child scans, spots, and drags across each word, matching what they see to the picture clues beside the grid. That scanning is real practice — letter recognition, left-to-right tracking, and locking in new vocabulary — wrapped in a game. The words are short and theme-grouped so the challenge stays right for K-3, and pictures support readers still learning the classroom language. Each word search worksheet is a free printable PDF with a matching play-online version: the interactive one lets children select words right on screen, the printable is ready for early finishers, a literacy centre, or homework, and an answer key is included. The whole set is available in all 11 languages we publish in, so every classroom can build vocabulary in the language its children are learning.",
     "matching": "Matching worksheets give children practice with the cognitive move that underlies most early-childhood reasoning: noticing that two things go together because they share a property. These pages pair pictures with their initial letters, words with their meanings, or quantities with their numerals. The visual layout — items in two columns connected by lines drawn directly on the worksheet — keeps the cognitive load on the relationship rather than on procedure.",
-    "sudoku": "Picture sudoku worksheets give young children the logic experience of full sudoku in a 4×4 grid using familiar pictures instead of digits. Each row, column, and quadrant must contain each of the four pictures once, and children deduce the missing ones by elimination. The puzzle is genuinely challenging for the K-3 age range without requiring number reading, which makes it accessible to children at any literacy level.",
+    "sudoku": "Picture sudoku worksheets bring real logic to children long before they can read a rulebook. On a four-by-four grid, a child places friendly pictures so that each row, each column, and each small box holds one of every image — the same deduction grown-up sudoku asks for, scaled to little hands and built from pictures instead of numbers. It is patient, satisfying reasoning practice that builds attention and process-of-elimination thinking, and because it leans on images it works for every child regardless of reading level or home language. Each picture sudoku worksheet is a free printable PDF with a matching play-online version: the interactive one lets children drag pictures into place and checks the finished grid, while the printable suits quiet work, a logic centre, or homework, and an answer key is included. The whole set is available in all 11 languages we publish in.",
     "find-and-count": "Find-and-count worksheets ask children to scan a busy scene, locate every instance of a target object, and write the count. The activity exercises three skills at once: visual discrimination, one-to-one correspondence, and numeral writing. For early-childhood teachers, find-and-count is a useful diagnostic — a child who counts six but writes four is showing you something specific about where the gap is.",
     "prepositions": "Preposition worksheets attach spatial vocabulary to concrete pictures: the cat is under the chair, the ball is between the boxes, the bird is on the branch. The pictures give children a referent for words that are otherwise abstract, and the multiple-choice format keeps the cognitive load on the relationship rather than on writing. Useful for English language learners, dual-language classrooms, and any context where spatial vocabulary needs explicit teaching.",
     "picture-sort": "Picture-sort worksheets practise the classification move that underlies early science and early reading. Children look at a set of pictures and group them by category — by initial letter, by what they eat, by where they live, by what colour they are. The two-bin format keeps the choice binary, which is the right cognitive starting point for K-3 sorting.",
-    "big-small": "Big-small worksheets practise relative-size comparison, the foundation skill underlying measurement and ordering. Children identify the largest or smallest in a set, or arrange a series of objects by size. The pictures are deliberately exaggerated so the comparison is unambiguous — once children can read the picture cue confidently, the same skill transfers to less obvious comparisons in life and in number work.",
-    "more-less": "More-less worksheets are the precursor to formal addition and subtraction: children compare two quantities and decide which has more. The activity is heavily picture-supported because many K-3 children can solve it before they can read the words \"more\" and \"less\" reliably. Useful as a check on number sense and as a scaffold for early arithmetic.",
+    "big-small": "Big-or-small worksheets give the youngest learners practice with size — spotting the biggest, finding the smallest, and putting a few pictures in order from large to little. The tasks use clear, friendly images and a single tap or mark, so a three- or four-year-old can succeed without reading a word. Comparing by size is early measurement thinking and feeds the vocabulary children need to describe and sort the world around them. Each big-or-small worksheet is a free printable PDF with a matching play-online activity: the interactive version responds instantly and warmly, while the printable is ready for a quiet table, circle time, or a sheet to take home, and an answer key is included. Hand them out for a warm-up or use them to see who is ready to order more items. The complete set is available in all 11 languages we publish in, so dual-language and early-years classrooms can give every child the same picture task in their own language.",
+    "more-less": "More-or-less worksheets build one of the earliest number ideas: which group has more, which has fewer, and when two groups are the same. On these sheets a child looks at two sets of friendly pictures and chooses the answer — no reading or writing needed to begin — which makes the comparison itself the whole task. It is the groundwork for counting with meaning, for the greater-than idea later, and for the language of comparison children use across the school day. Each more-or-less worksheet is a free printable PDF with a matching play-online version: the interactive one gives instant, gentle feedback, the printable works for circle time, a maths tub, or homework, and every sheet has an answer key. Use a stack to warm up a lesson or to check who is ready for the next step. The whole set is available in all 11 languages we publish in, so every child can compare and decide in the language they understand best.",
     "math-puzzle": "Math-puzzle worksheets package arithmetic practice as something to figure out rather than something to drill. Each puzzle requires the child to combine number facts with logical inference — which two numbers add to this sum, which sequence completes this pattern, which operation makes this equation true. The format keeps math interesting once basic facts are secure.",
-    "math-worksheet": "Math-worksheet pages give children practice with the operations they're currently working on, in the format teachers know works for skill consolidation. Each page targets one or two operations and provides enough problems for sustained practice without becoming overwhelming. Use them as homework, morning-work, or independent practice during small-group instruction.",
+    "math-worksheet": "These math worksheets pull together the number practice a K-3 classroom reaches for most: building number sentences, filling in missing parts of an equation, and working through mixed sums and differences at a level that fits the child. Younger learners lean on picture support to anchor the quantities; older ones work with numbers alone as fluency grows. The page gathers every general math worksheet we publish so you can assemble a quick, focused set without hunting across topics. Each is a free printable PDF with a matching play-online activity — the interactive version gives immediate feedback for independent work, the printable is ready for a maths station, morning work, or homework, and an answer key comes with every sheet. Combine a few to fill a block, or pick one for a fast finisher. Everything is available in all 11 languages we publish in, so dual-language and international classrooms can keep one consistent maths library across every home language in the room.",
     "missing-pieces": "Missing-pieces worksheets exercise visual completion: children look at a picture with a section removed and select the piece that completes it from a small palette. The activity practises spatial reasoning, attention to detail, and shape recognition simultaneously. Particularly useful as a quiet independent task in the kindergarten and grade-1 range.",
     "odd-one-out": "Odd-one-out worksheets practise the discrimination skill underlying classification: children look at a small group of pictures and identify the one that doesn't belong. The criterion varies — by category, by colour, by initial letter — and the pictures are chosen so the answer is unambiguous once the criterion is named. A useful diagnostic for early-childhood reasoning.",
     "shadow-match": "Shadow-match worksheets pair each picture with its silhouette. The activity practises shape recognition and visual discrimination at the level where outline and detail need to be processed separately, which is one of the foundational skills for early reading. Children who match shadows confidently also tend to manage letter-shape recognition with less effort.",
@@ -1339,7 +1451,8 @@
     "kindergarten__pattern-train": "Kindergarten pattern-train worksheets practise pattern recognition — alternating, repeating, increasing — using a train format that's easy to read visually. Pattern recognition is foundational across math and reading.",
     "kindergarten__picture-path": "Kindergarten picture-path worksheets practise route-finding through a grid, which exercises spatial reasoning and patience. Children at this developmental level are ready to consider routes before committing pen to paper.",
     "grade-1__treasure-hunt": "Grade-1 treasure hunts give children a multi-step direction sequence to follow on a grid. The activity builds spatial reasoning, working memory, and direction-vocabulary fluency at a level grade-1 children can sustain.",
-    "grade-3": "Grade 3 worksheets ask children to reason, not just recall, and the activities on this page are built for that shift. Eight- to ten-year-olds practise multi-digit addition and subtraction, multiplication and the first division, place value into the thousands, fluent reading with richer vocabulary, and multi-step logic and spatial puzzles that reward careful thinking. The formats lean on numbers and words now, with picture support kept where it still earns its place for a child learning the language of instruction. This page brings together every grade 3 worksheet we publish so a teacher can build a focused, appropriately stretching set quickly. Each is a free printable PDF with a matching play-online activity — instant feedback for independent practice, a clean printable for class or homework, and an answer key every time. Pair sheets across math and literacy to fill a lesson, or hand one to an early finisher who needs a challenge. The full grade 3 set is available in all 11 languages we publish in, helping international and immersion classrooms hold a consistent standard across every home language in the room."
+    "grade-3": "Grade 3 worksheets ask children to reason, not just recall, and the activities on this page are built for that shift. Eight- to ten-year-olds practise multi-digit addition and subtraction, multiplication and the first division, place value into the thousands, fluent reading with richer vocabulary, and multi-step logic and spatial puzzles that reward careful thinking. The formats lean on numbers and words now, with picture support kept where it still earns its place for a child learning the language of instruction. This page brings together every grade 3 worksheet we publish so a teacher can build a focused, appropriately stretching set quickly. Each is a free printable PDF with a matching play-online activity — instant feedback for independent practice, a clean printable for class or homework, and an answer key every time. Pair sheets across math and literacy to fill a lesson, or hand one to an early finisher who needs a challenge. The full grade 3 set is available in all 11 languages we publish in, helping international and immersion classrooms hold a consistent standard across every home language in the room.",
+    "crossword": "Crossword worksheets give early readers a gentle, rewarding way to connect pictures, sounds, and spelling. Instead of text clues, each puzzle uses picture clues: a child sees an image, says the word, and types or writes its letters into the intersecting grid, with the crossing letters giving a helpful check along the way. It is spelling and vocabulary practice that feels like solving, not testing, and it suits the K-3 years because the words stay short and familiar. Each crossword worksheet is a free printable PDF with a matching play-online version — the interactive one lets children type into the grid and confirms each entry, while the printable works for a literacy centre, partner work, or homework, and an answer key is always included. The full set is available in all 11 languages we publish in, so children can build spelling and vocabulary in the language they are learning to read."
   },
   "workspace": {
     "metadata": {

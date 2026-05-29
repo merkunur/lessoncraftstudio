@@ -132,6 +132,27 @@ function bandWordCount(words, opts) {
   return 'OVER';
 }
 
+// Per-locale RICH word-count floor (morphological calibration). The same
+// structural floor (FAQ + usage + intro) renders far fewer word-TOKENS in
+// agglutinative / compound-heavy languages than in English for equivalent
+// content — e.g. fi single-axis median 173w vs en 235w (~0.74). A raw 200-word
+// bar under-measures those locales. CRITICAL stays absolute (a sub-50-word page
+// is thin in ANY language); only the RICH bar is calibrated:
+//   Romance + English (analytic; token counts ≈ or > en): 200
+//   Germanic compounding (de/nl/sv/da/no): 175
+//   Finnic agglutinative (fi): 150
+// Empirically grounded in the 2026-05-29 11-locale single-axis medians. Shared
+// SoT so both audit-thin-pages.js and the Phase-5 reconcileThinPage gate band
+// pages identically.
+var LOCALE_RICH_FLOOR = {
+  en: 200, fr: 200, es: 200, pt: 200, it: 200,
+  de: 175, nl: 175, sv: 175, da: 175, no: 175,
+  fi: 150,
+};
+function richFloorFor(locale) {
+  return LOCALE_RICH_FLOOR[locale] != null ? LOCALE_RICH_FLOOR[locale] : 200;
+}
+
 module.exports = {
   stripNonContent: stripNonContent,
   decodeEntities: decodeEntities,
@@ -139,4 +160,6 @@ module.exports = {
   countWords: countWords,
   countRenderedWords: countRenderedWords,
   bandWordCount: bandWordCount,
+  LOCALE_RICH_FLOOR: LOCALE_RICH_FLOOR,
+  richFloorFor: richFloorFor,
 };

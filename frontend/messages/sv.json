@@ -1240,7 +1240,484 @@
   },
   "topicFaq": {
     "heading": "Vanliga frågor",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "Vilken ålder passar arbetsblad för Förskoleklass?",
+          "a": "De är gjorda för barn 5-7 år. Barnen räknar, gör enkla additioner och subtraktioner, sorterar, fortsätter mönster och övar bokstäver, ljud och sina första ord."
+        },
+        {
+          "q": "Är arbetsbladen för Förskoleklass gratis?",
+          "a": "Ja. Alla arbetsblad för Förskoleklass är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Arbetsbladen finns på de 11 språk vi publicerar på, så du kan välja det språk barnen lär sig på."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "Vad övar barnen i arbetsblad för Årskurs 1?",
+          "a": "Barnen 6-8 år tränar addition och subtraktion upp till 20, tiotal och ental samt ljudning för att läsa och skriva sina första ord, plus enkla logikuppgifter."
+        },
+        {
+          "q": "Är arbetsbladen för Årskurs 1 gratis?",
+          "a": "Ja. Alla arbetsblad för Årskurs 1 är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Arbetsbladen finns på de 11 språk vi publicerar på, så barnen kan arbeta på det språk de lär sig."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Vilken ålder passar arbetsblad för Förskola?",
+          "a": "De är gjorda för barn 3-5 år. Barnen räknar små antal, sorterar, jämför storlek, funderar på vilken bild som inte passar och spårar sina första bokstäver, utan läsning."
+        },
+        {
+          "q": "Är arbetsbladen för Förskola gratis?",
+          "a": "Ja. Alla arbetsblad för Förskola är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Arbetsbladen finns på de 11 språk vi publicerar på, så du kan möta barnen på deras språk."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "Vad övar barnen i arbetsblad för Årskurs 2?",
+          "a": "Barnen 7-9 år tränar addition och subtraktion med tvåsiffriga tal, börjar med multiplikation, arbetar med tiotal och hundratal samt läser längre texter och löser korsord, ordleta och logik."
+        },
+        {
+          "q": "Är arbetsbladen för Årskurs 2 gratis?",
+          "a": "Ja. Alla arbetsblad för Årskurs 2 är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Arbetsbladen finns på de 11 språk vi publicerar på, så barnen kan arbeta på sitt språk."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "Vad övar barnen med Kryptogram arbetsblad?",
+          "a": "Barnen tyder en kod av bilder och symboler för att skriva ett dolt ord, vilket tränar bokstavskännedom, tidig stavning och tålamod."
+        },
+        {
+          "q": "Är Kryptogram arbetsbladen gratis?",
+          "a": "Ja. Alla kryptogram arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Kryptogram arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "Vad övar barnen med Räkna I Diagram arbetsblad?",
+          "a": "Barnen räknar föremål i varje grupp och färgar in stapeln i ett stapeldiagram, vilket tränar räkning och första data."
+        },
+        {
+          "q": "Är Räkna I Diagram arbetsbladen gratis?",
+          "a": "Ja. Alla räkna i diagram arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Räkna I Diagram arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "Vad övar barnen med Mönsterarbetsblad?",
+          "a": "Barnen läser ett upprepande mönster, AB eller ABC, och fortsätter det med rätt bild eller form, vilket tränar logik och ordning."
+        },
+        {
+          "q": "Är Mönsterarbetsbladen gratis?",
+          "a": "Ja. Alla mönsterarbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Mönsterarbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "Vad övar barnen med Bingo arbetsblad?",
+          "a": "Barnen lyssnar på det som ropas upp och markerar rätt bild, bokstav eller tal på sin bricka, vilket tränar lyssnande och igenkänning."
+        },
+        {
+          "q": "Är Bingo arbetsbladen gratis?",
+          "a": "Ja. Alla bingo arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Bingo arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "Vad övar barnen med Rutmatchning arbetsblad?",
+          "a": "Barnen drar brickor till rätt plats i ett rutnät, vilket tränar matchning, visuellt minne och koncentration."
+        },
+        {
+          "q": "Är Rutmatchning arbetsbladen gratis?",
+          "a": "Ja. Alla rutmatchning arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Rutmatchning arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "Vad övar barnen med Matcha Skuggor arbetsblad?",
+          "a": "Barnen kopplar varje föremål till sin skugga genom att jämföra form och kontur, vilket tränar visuell diskriminering."
+        },
+        {
+          "q": "Är Matcha Skuggor arbetsbladen gratis?",
+          "a": "Ja. Alla matcha skuggor arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Matcha Skuggor arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "Vad övar barnen med Gissa Ordet arbetsblad?",
+          "a": "Barnen fyller i de saknade bokstäverna för att skriva ordet till en bild, vilket tränar bokstäver, ljudning och tidig skrivning."
+        },
+        {
+          "q": "Är Gissa Ordet arbetsbladen gratis?",
+          "a": "Ja. Alla gissa ordet arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Gissa Ordet arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "Vad övar barnen med Bokstavspussel arbetsblad?",
+          "a": "Barnen lägger blandade bokstäver i rätt ordning för att skriva ordet till en bild, vilket tränar stavning och bokstavskännedom."
+        },
+        {
+          "q": "Är Bokstavspussel arbetsbladen gratis?",
+          "a": "Ja. Alla bokstavspussel arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Bokstavspussel arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "Vad övar barnen med Korsord arbetsblad?",
+          "a": "Barnen tittar på bildledtrådar och skriver bokstäverna i det korsande rutnätet, vilket tränar stavning och ordförråd."
+        },
+        {
+          "q": "Är Korsord arbetsbladen gratis?",
+          "a": "Ja. Alla korsord arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Korsord arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "Vad övar barnen med Hitta Föremålen arbetsblad?",
+          "a": "Barnen letar gömda föremål i en scen och markerar dem, vilket tränar visuell diskriminering och uppmärksamhet."
+        },
+        {
+          "q": "Är Hitta Föremålen arbetsbladen gratis?",
+          "a": "Ja. Alla hitta föremålen arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Hitta Föremålen arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "addition": [
+        {
+          "q": "Vad övar barnen med Addition arbetsblad?",
+          "a": "Barnen räknar två grupper och lägger ihop dem, från ensiffriga till små tvåsiffriga uppgifter, vilket tränar talförståelse och första additioner."
+        },
+        {
+          "q": "Är Addition arbetsbladen gratis?",
+          "a": "Ja. Alla addition arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Addition arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "Vad övar barnen med Bildsudoku arbetsblad?",
+          "a": "Barnen placerar bilder i ett 4x4-rutnät så att varje rad, kolumn och block har en av varje, vilket tränar logik utan siffror eller läsning."
+        },
+        {
+          "q": "Är Bildsudoku arbetsbladen gratis?",
+          "a": "Ja. Alla bildsudoku arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Bildsudoku arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "Vad övar barnen med Bildväg arbetsblad?",
+          "a": "Barnen ritar en väg genom ett rutnät till målet, vilket tränar rumsligt tänkande, riktning och att planera flera steg."
+        },
+        {
+          "q": "Är Bildväg arbetsbladen gratis?",
+          "a": "Ja. Alla bildväg arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Bildväg arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "Vad övar barnen med Subtraktion arbetsblad?",
+          "a": "Barnen stryker det som försvinner och räknar det som blir kvar, vilket tränar talförståelse och första subtraktioner."
+        },
+        {
+          "q": "Är Subtraktion arbetsbladen gratis?",
+          "a": "Ja. Alla subtraktion arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Subtraktion arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "Vad övar barnen med Kodaddition arbetsblad?",
+          "a": "Barnen löser små summor vars svar motsvarar bokstäver för att avslöja ett ord, vilket tränar addition tillsammans med bokstäver."
+        },
+        {
+          "q": "Är Kodaddition arbetsbladen gratis?",
+          "a": "Ja. Alla kodaddition arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Kodaddition arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "Vad övar barnen med Mer Eller Mindre arbetsblad?",
+          "a": "Barnen jämför två grupper bilder och avgör vilken som har fler, färre eller lika många, vilket tränar talförståelse utan läsning."
+        },
+        {
+          "q": "Är Mer Eller Mindre arbetsbladen gratis?",
+          "a": "Ja. Alla mer eller mindre arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Mer Eller Mindre arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "Vad övar barnen med Mattepussel arbetsblad?",
+          "a": "Barnen drar bitar på plats för att lägga ett talpussel, vilket tränar talförståelse och att planera."
+        },
+        {
+          "q": "Är Mattepussel arbetsbladen gratis?",
+          "a": "Ja. Alla mattepussel arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Mattepussel arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "Vad övar barnen med Mattearbetsblad?",
+          "a": "Barnen gör uträkningar, fyller i delar som saknas och löser blandade summor och differenser, vilket ger bred träning i talförståelse."
+        },
+        {
+          "q": "Är Mattearbetsbladen gratis?",
+          "a": "Ja. Alla mattearbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Mattearbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "Vad övar barnen med Stor Eller Liten arbetsblad?",
+          "a": "Barnen hittar den största eller minsta bilden och ordnar efter storlek, vilket tränar de första storleksbegreppen utan läsning."
+        },
+        {
+          "q": "Är Stor Eller Liten arbetsbladen gratis?",
+          "a": "Ja. Alla stor eller liten arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Stor Eller Liten arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "Vad övar barnen med Mönstertåget arbetsblad?",
+          "a": "Barnen fortsätter ett bildmönster längs tågets vagnar, vilket tränar logik och ordning utan läsning."
+        },
+        {
+          "q": "Är Mönstertåget arbetsbladen gratis?",
+          "a": "Ja. Alla mönstertåget arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Mönstertåget arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "matching": [
+        {
+          "q": "Vad övar barnen med Matchning arbetsblad?",
+          "a": "Barnen drar en linje för att para ihop varje sak med sin partner, vilket tränar ett-till-ett-tänkande."
+        },
+        {
+          "q": "Är Matchning arbetsbladen gratis?",
+          "a": "Ja. Alla matchning arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Matchning arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "Vad övar barnen med Sortera Bilder arbetsblad?",
+          "a": "Barnen sorterar bilder i grupper eller kategorier, vilket tränar att klassificera och se vad bilder har gemensamt."
+        },
+        {
+          "q": "Är Sortera Bilder arbetsbladen gratis?",
+          "a": "Ja. Alla sortera bilder arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Sortera Bilder arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "Vad övar barnen med Alfabetståget arbetsblad?",
+          "a": "Barnen placerar bokstäverna i ordning från A till Ö i tågets vagnar, vilket tränar att känna igen bokstäver och alfabetets ordning."
+        },
+        {
+          "q": "Är Alfabetståget arbetsbladen gratis?",
+          "a": "Ja. Alla alfabetståget arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Alfabetståget arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "Vad övar barnen med Prepositioner arbetsblad?",
+          "a": "Barnen väljer bilden som visar en position som i, på, under eller bredvid, vilket tränar rumsliga ord och ordförråd."
+        },
+        {
+          "q": "Är Prepositioner arbetsbladen gratis?",
+          "a": "Ja. Alla prepositioner arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Prepositioner arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "Vad övar barnen med Ordleta arbetsblad?",
+          "a": "Barnen hittar gömda ord på ett tema i ett bokstavsrutnät, vilket tränar att känna igen bokstäver och leta noggrant."
+        },
+        {
+          "q": "Är Ordleta arbetsbladen gratis?",
+          "a": "Ja. Alla ordleta arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Ordleta arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "Vad övar barnen med Hitta Och Räkna arbetsblad?",
+          "a": "Barnen hittar föremål i en scen och räknar hur många det finns, vilket tränar att leta och räkna."
+        },
+        {
+          "q": "Är Hitta Och Räkna arbetsbladen gratis?",
+          "a": "Ja. Alla hitta och räkna arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Hitta Och Räkna arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "Vad övar barnen med Skattjakt arbetsblad?",
+          "a": "Barnen följer riktningsledtrådar över ett rutnät till skatten, vilket tränar rumsligt tänkande och riktningar."
+        },
+        {
+          "q": "Är Skattjakt arbetsbladen gratis?",
+          "a": "Ja. Alla skattjakt arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Skattjakt arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "Vad övar barnen med Saknade Bitar arbetsblad?",
+          "a": "Barnen drar rätt utklippt bit till varje hål för att göra bilden komplett, vilket tränar visuellt tänkande och att se vad som passar."
+        },
+        {
+          "q": "Är Saknade Bitar arbetsbladen gratis?",
+          "a": "Ja. Alla saknade bitar arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Saknade Bitar arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "Vad övar barnen med Vilken Passar Inte arbetsblad?",
+          "a": "Barnen väljer bilden som inte hör hemma och funderar på varför, vilket tränar att klassificera och resonera."
+        },
+        {
+          "q": "Är Vilken Passar Inte arbetsbladen gratis?",
+          "a": "Ja. Alla vilken passar inte arbetsblad är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Vilken Passar Inte arbetsblad finns på de 11 språk vi publicerar på."
+        }
+      ],
+      "animals": [
+        {
+          "q": "Vad övar barnen med arbetsblad med Djur?",
+          "a": "Barnen möter samma djurbilder i räkning, sortering, matchning, vilken passar inte och första bokstäver, så ett bekant tema tränar många färdigheter."
+        },
+        {
+          "q": "Är arbetsbladen med Djur gratis?",
+          "a": "Ja. Alla arbetsblad med djur är gratis att skriva ut som PDF eller spela online i en interaktiv version, med facit, utan registrering."
+        },
+        {
+          "q": "Vilka språk finns arbetsbladen på?",
+          "a": "Arbetsblad med Djur finns på de 11 språk vi publicerar på."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Vilka arbetsblad finns på den här {topic}-sidan?",
@@ -1422,31 +1899,31 @@
     "zoo_animals_bw": "Djurparksdjur i svartvitt bygger artkännedom och visuell diskriminering hos förskolebarn genom konturer av exotiska djur för utskriftsövningar i klassen."
   },
   "topicProse": {
-    "animals": "Arbetsblad med djurtema ger lärare i tidig barndom en ordförrådsgrund som bär genom hela K-3-läroplanen. Räkna kor, sortera fåglar efter vad de äter, känna igen begynnelsebokstaven i varje gårdsdjurs namn — samma uppsättning bilder stödjer talförståelse, klassificering och tidig läs- och skrivkunnighet utan att be barnen byta sammanhang. Själva ordförrådet är högfrekvent på vart och ett av de elva språk vi publicerar, vilket gör dessa arbetsblad särskilt användbara när en klass har barn med olika språknivåer.",
-    "addition": "Arbetsblad för addition möter barnen i det ögonblick då addera slutar vara ett räkneknep och börjar vara ett faktum de kan komma ihåg. Arbetsbladen här ger den minneshämtningsövningen över ensiffriga och små tvåsiffriga summor, med bildstödda uppgifter för yngre elever och rena sifferformat när operationen är befäst. Kombinera interaktiva och utskrivbara format: de interaktiva versionerna ger omedelbar återkoppling, de utskrivbara PDF-filerna fungerar bra för pararbete där ett barn skriver och det andra kontrollerar.",
-    "subtraction": "Subtraktion är operationen som lyfter fram barnens intuitioner om vad som blir kvar och vad som går bort. Dessa arbetsblad bygger den intuitionen med bildbaserade ta-bort-uppgifter för de yngsta eleverna, och går sedan vidare till abstrakt subtraktion när ta-bort-gesten inte längre behövs. Formatet passar väl med manipulativa material i klassrummet — barnen kan agera ut den första raden med marker och sedan slutföra resten på sidan.",
-    "alphabet-train": "Alfabetståget-arbetsbladen bygger bokstavsigenkänning genom positionsordning. Varje vagn på tåget bär en bokstav, och barnen fyller antingen i de saknade vagnarna eller ordnar vagnarna i alfabetisk följd. Formatet är förlåtande — ett barn som kan halva alfabetet kan ändå fylla i raderna med de bekanta bokstäverna och plocka upp de obekanta från sammanhanget. Användbart för bokstav-ljud-arbete, för att förstärka alfabetssången och för tidig läs- och skrivdiagnostik.",
-    "wordsearch": "Ordlek-arbetsbladen bygger uthållig läsuppmärksamhet: ögat söker av ett rutnät av bokstäver och hjärnan jämför var och en mot ett målord som hålls i arbetsminnet. För K-3-läsare är målorden korta och grupperade kring ett tema, vilket innebär att aktiviteten förstärker ordförrådet samtidigt med avkodning. Dessa arbetsblad fungerar bra som lugna uppgifter, övergångar eller pararbete där ett barn läser målet högt medan det andra söker.",
-    "matching": "Para-ihop-arbetsblad ger barn övning med den kognitiva rörelse som ligger till grund för det mesta tänkandet i tidig barndom: att märka att två saker hör ihop därför att de delar en egenskap. Dessa sidor parar bilder med deras begynnelsebokstäver, ord med deras betydelser, eller mängder med deras siffror. Den visuella layouten — föremål i två kolumner förbundna med linjer dragna direkt på arbetsbladet — håller den kognitiva belastningen på relationen i stället för på proceduren.",
-    "sudoku": "Bildsudoku-arbetsbladen ger små barn den logiska erfarenheten av fullt sudoku på ett 4×4-rutnät med bekanta bilder i stället för siffror. Varje rad, kolumn och kvadrant måste innehålla var och en av de fyra bilderna en gång, och barnen härleder de saknade genom uteslutning. Pusslet är genuint utmanande för K-3-åldersspannet utan att kräva sifferläsning, vilket gör det tillgängligt för barn på vilken läsnivå som helst.",
-    "find-and-count": "Sök-och-räkna-arbetsblad ber barnen söka av en livlig scen, lokalisera varje förekomst av ett målföremål och skriva antalet. Aktiviteten övar tre färdigheter samtidigt: visuell diskriminering, ett-till-ett-motsvarighet och sifferskrivning. För lärare i tidig barndom är sök-och-räkna ett användbart diagnostiskt verktyg — ett barn som räknar sex men skriver fyra visar dig något konkret om var luckan ligger.",
-    "prepositions": "Preposition-arbetsblad knyter rumsligt ordförråd till konkreta bilder: katten ligger under stolen, bollen ligger mellan lådorna, fågeln sitter på grenen. Bilderna ger barnen en referens för ord som annars vore abstrakta, och flervalsformatet håller den kognitiva belastningen på relationen i stället för på skrivandet. Användbart för elever som lär sig svenska som andraspråk, för tvåspråkiga klassrum och för varje sammanhang där rumsligt ordförråd behöver explicit undervisning.",
-    "picture-sort": "Bildsorterings-arbetsblad övar den klassificeringsrörelse som ligger till grund för tidig naturvetenskap och tidig läsning. Barnen tittar på en uppsättning bilder och grupperar dem efter kategori — efter begynnelsebokstav, efter vad de äter, efter var de bor, efter färg. Tvåkorgsformatet håller valet binärt, vilket är den rätta kognitiva startpunkten för att sortera i K-3.",
-    "big-small": "Stor-liten-arbetsblad övar relativ storleksjämförelse, den grundläggande färdigheten som ligger under mätning och ordning. Barnen identifierar det största eller minsta i en uppsättning, eller ordnar en serie föremål efter storlek. Bilderna är medvetet överdrivna så att jämförelsen är otvetydig — när barnen kan läsa bildsignalen säkert, överförs samma färdighet till mindre uppenbara jämförelser i livet och i talarbetet.",
-    "more-less": "Mer-mindre-arbetsblad är föregångarna till formell addition och subtraktion: barnen jämför två kvantiteter och bestämmer vilken som har mer. Aktiviteten är starkt bildstödd eftersom många K-3-barn kan lösa den innan de kan läsa orden ”mer” och ”mindre” tillförlitligt. Användbart som kontroll av talförståelse och som stöd för tidig aritmetik.",
-    "math-puzzle": "Mattepussel-arbetsblad paketerar aritmetisk övning som något att lista ut i stället för något att drilla. Varje pussel kräver att barnet kombinerar talfakta med logisk slutledning — vilka två tal blir denna summa, vilken sekvens fullbordar detta mönster, vilken operation gör denna ekvation sann. Formatet håller matematiken intressant när grundfakta är befästa.",
-    "math-worksheet": "Matteblad-sidor ger barnen övning med de operationer de arbetar med just nu, i det format som lärare vet fungerar för att befästa färdigheter. Varje sida riktar sig mot en eller två operationer och tillhandahåller tillräckligt många uppgifter för uthållig övning utan att bli överväldigande. Använd dem som hemläxor, morgonarbete eller som självständig övning under småhjälpsundervisning.",
-    "missing-pieces": "Saknade-bitar-arbetsblad övar visuell komplettering: barnen tittar på en bild där en del har tagits bort och väljer den bit som fullbordar den från en liten palett. Aktiviteten övar samtidigt rumsligt tänkande, uppmärksamhet på detaljer och formigenkänning. Särskilt användbart som lugn självständig uppgift i förskoleklassens och årskurs 1:s område.",
-    "odd-one-out": "Vilken-passar-inte-arbetsblad övar den diskrimineringsfärdighet som ligger under klassificering: barnen tittar på en liten grupp bilder och identifierar den som inte hör hemma. Kriteriet varierar — efter kategori, efter färg, efter begynnelsebokstav — och bilderna är valda så att svaret är otvetydigt när kriteriet väl är namngivet. Ett användbart diagnostiskt verktyg för tänkande i tidig barndom.",
-    "shadow-match": "Skuggpara-arbetsblad parar varje bild med dess silhuett. Aktiviteten övar formigenkänning och visuell diskriminering på den nivå där kontur och detalj behöver bearbetas separat, vilket är en av grundfärdigheterna för tidig läsning. Barn som parar skuggor med säkerhet hanterar ofta också bokstavsformsigenkänning med mindre ansträngning.",
-    "code-addition": "Kod-addition-arbetsblad parar en additionsuppgift med en bokstav, så att svaret på summan avkodar ett ord eller meddelande. Formatet ger den aritmetiska övningen en läs- och skrivinramning: barnen löser addition inte som ett mål i sig utan som ett medel till meddelandet. Användbart för barn i mitten av förskoleklass och årskurs 1 som har grundfakta men behöver att övningen känns motiverande.",
-    "pattern-train": "Mönstertåget-arbetsbladen ger barnen övning i att utvidga och fullborda visuella mönster. Varje tåg bär en sekvens och barnet fyller i de saknade vagnarna genom att följa mönsterlogiken — alternerande färger, upprepande former, växande storlekar. Mönsterigenkänning är en grundfärdighet som ligger under både tidig matematik och tidig läsning, och tågformatet håller den visuella layouten enkel.",
-    "picture-path": "Bildväg-arbetsblad övar rumsligt tänkande och vägfinnande: barnen drar en väg genom ett rutnät från en startbild till en slutbild, ibland runt väggar eller förbi distraktorer. Aktiviteten bygger samma kognitiva rörelser som ligger under labyrintlösning, planering och tidig geometri. Barnen utvecklar tålamodet att överväga vägar innan de sätter pennan på pappret.",
-    "treasure-hunt": "Skattjakt-arbetsblad ger barnen en följd av riktningsledtrådar — två rutor norrut, en österut, tre söderut — och ber dem spåra rutten som ledtrådarna beskriver. Aktiviteten bygger rumsligt tänkande, arbetsminne och flyt i riktningsordförråd samtidigt. Formatet fungerar särskilt bra för barn i årskurs 1 och 2 som är redo för instruktioner i flera steg.",
-    "preschool": "Förskole-arbetsblad möter barnen i det utvecklingsögonblick då penngreppet blir tillförlitligt och hjärnan är redo för målmedvetet förskole-akademiskt arbete. Aktiviteterna här håller den kognitiva belastningen låg och det visuella stödet högt — varje uppmaning är illustrerad, varje svar är otvetydigt, varje sida kan slutföras på några koncentrerade minuter. Använd dem för de stunder på morgonen då barnen är redo att sitta och arbeta, eller som mjuka hemläxor som familjer kan stödja även utan akademisk bakgrund.",
-    "kindergarten": "Förskoleklass-arbetsblad är avstämda mot året då förskole-akademisk nyfikenhet stelnar till akademisk beredskap. Barn på den här nivån kan hålla en penna tillförlitligt, känna igen de första bokstäverna i sitt namn, räkna förbi tio och följa tvåstegs-instruktioner på en sida. Aktiviteterna här övar dessa färdigheter inom matematik, läs- och skrivkunnighet, logik och rumsligt tänkande, i format som är tillräckligt korta för en förskoleklass-elevs uppmärksamhetsspann och tillräckligt innehållsrika för att kännas som riktigt arbete.",
-    "grade-1": "Arbetsblad för årskurs 1 möter ögonblicket då barnen befäster grunderna lagda i förskoleklassen till flytande självständig övning. De kan läsa korta instruktioner, skriva sina svar och självkorrigera enkla misstag utan vuxenstöd. Aktiviteterna här spänner över årskurs 1:s standardläroplan — addition och subtraktion inom tjugo, igenkänning av siktord, enkel sekvensering, grundläggande rumslig logik — och varje sida är utformad att kännas avslutbar i ett koncentrerat femtonminutersblock.",
-    "grade-2": "Arbetsblad för årskurs 2 möter barn som nu läser självständigt, skriver i meningar och är redo för flerstegsproblemslösning. Aktiviteterna här introducerar de längre kognitiva sekvenserna — flersiffrig addition, längre ordlekar, mer komplexa pussel — som barn i årskurs 2 kan hålla ut med. Para dem med klassdiskussion om strategi, eftersom det kognitiva värdet på den här nivån i ökande grad ligger i tillvägagångssättet lika mycket som i svaret.",
+    "animals": "Bläddra bland arbetsblad med Djur här, där en och samma bekanta djurbild dyker upp i många olika övningar. Barnen räknar djuren, sorterar dem, parar ihop dem, funderar på vilken som inte passar och övar sina första bokstäver med djuren som stöd. Med tydligt bildstöd passar arbetsblad med Djur barn i förskolan och tidiga skolår, eftersom ett välkänt tema gör många olika färdigheter lättare att möta. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Kombinera ett räkneblad med ett bokstavsblad på samma tema. Allt finns på de 11 språk vi publicerar på.",
+    "addition": "Bläddra bland Addition arbetsblad här, där barnen räknar två grupper bilder och lägger ihop dem till en summa. Övningarna går från ensiffriga uppgifter mot små tvåsiffriga tal, så barnen bygger talförståelse steg för steg. Med tydligt bildstöd passar Addition arbetsblad barn som gör sina första additioner och vill se vad plus betyder konkret. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen räkna högt medan de lägger ihop grupperna. Allt finns på de 11 språk vi publicerar på.",
+    "subtraction": "Bläddra bland Subtraktion arbetsblad här, där barnen tar bort genom att stryka det som försvinner och räknar det som blir kvar. Det gör subtraktion konkret, eftersom barnen ser med egna ögon vad minus betyder. Med tydligt bildstöd passar Subtraktion arbetsblad barn som gör sina första subtraktioner och bygger talförståelse. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen säga hur många som är kvar när de strukit över. Allt finns på de 11 språk vi publicerar på.",
+    "alphabet-train": "Bläddra bland Alfabetståget arbetsblad här, där barnen placerar bokstäverna i ordning från A till Ö i tågets vagnar. Det tränar att känna igen bokstäver och att kunna alfabetets ordning på ett lekfullt sätt. Med tydligt bildstöd passar Alfabetståget arbetsblad barn som börjat lära sig bokstäverna. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen säga varje bokstav högt när de lägger den i rätt vagn. Allt finns på de 11 språk vi publicerar på.",
+    "wordsearch": "Bläddra bland Ordleta arbetsblad här, där barnen hittar gömda ord på ett tema i ett bokstavsrutnät. Det tränar att känna igen bokstäver och att leta noggrant, samtidigt som barnen möter ord de känner. Med tydligt bildstöd passar Ordleta arbetsblad barn som börjat läsa och vill öva på ett lekfullt sätt. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra över orden de hittar. Allt finns på de 11 språk vi publicerar på.",
+    "matching": "Bläddra bland Matchning arbetsblad här, där barnen drar en linje för att para ihop varje sak med sin partner. Det tränar ett-till-ett-tänkande och förmågan att se vad som hör ihop. Med tydligt bildstöd passar Matchning arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen drar linjen åt barnen när de pekar på rätt par. Allt finns på de 11 språk vi publicerar på.",
+    "sudoku": "Bläddra bland Bildsudoku arbetsblad här, där barnen placerar bilder i ett 4x4-rutnät så att varje rad, kolumn och block har en av varje. Det tränar logik och resonemang helt utan siffror eller läsning, vilket gör sudoku tillgängligt redan för de yngsta. Med tydligt bildstöd passar Bildsudoku arbetsblad barn som vill öva tålamod och tänka ett steg i taget. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra bilder och pröva sig fram. Allt finns på de 11 språk vi publicerar på.",
+    "find-and-count": "Bläddra bland Hitta Och Räkna arbetsblad här, där barnen hittar föremål i en scen och räknar hur många det finns av varje sort. Det kopplar ihop att leta med att räkna, vilket tränar både uppmärksamhet och talförståelse. Med tydligt bildstöd passar Hitta Och Räkna arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen säga antalet högt när de räknat klart. Allt finns på de 11 språk vi publicerar på.",
+    "prepositions": "Bläddra bland Prepositioner arbetsblad här, där barnen väljer bilden som visar en viss position: i, på, under eller bredvid. Det tränar rumsliga ord och förmågan att beskriva var saker befinner sig. Med tydligt bildstöd passar Prepositioner arbetsblad barn i förskolan och tidiga skolår som bygger ordförråd. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen säga ordet högt medan de pekar på rätt bild. Allt finns på de 11 språk vi publicerar på.",
+    "picture-sort": "Bläddra bland Sortera Bilder arbetsblad här, där barnen sorterar bilder i grupper eller kategorier som hör ihop. Det tränar att klassificera och att se vad bilder har gemensamt, vilket bygger tidigt logiskt tänkande. Med tydligt bildstöd passar Sortera Bilder arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra varje bild till rätt grupp. Allt finns på de 11 språk vi publicerar på.",
+    "big-small": "Bläddra bland Stor Eller Liten arbetsblad här, där barnen hittar den största eller minsta bilden och ordnar saker efter storlek. Det tränar de första storleksbegreppen och förmågan att jämföra, helt utan läsning. Med tydligt bildstöd passar Stor Eller Liten arbetsblad barn i förskolan och tidiga skolår. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen peka och säga vilken som är störst och minst. Allt finns på de 11 språk vi publicerar på.",
+    "more-less": "Bläddra bland Mer Eller Mindre arbetsblad här, där barnen jämför två grupper bilder och avgör vilken som har fler, färre eller lika många. Det tränar talförståelse och jämförelse helt utan läsning, eftersom barnen kan räkna och titta. Med tydligt bildstöd passar Mer Eller Mindre arbetsblad barn i förskolan och tidiga skolår. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen förklara hur de vet vilken grupp som har fler. Allt finns på de 11 språk vi publicerar på.",
+    "math-puzzle": "Bläddra bland Mattepussel arbetsblad här, där barnen drar bitar på plats för att lägga ett talpussel. Det tränar talförståelse och förmågan att planera, eftersom barnen måste tänka efter var varje bit hör hemma. Med tydligt bildstöd passar Mattepussel arbetsblad barn som vill öva matematik på ett lekfullt och konkret sätt. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra bitarna och pröva igen tills pusslet stämmer. Allt finns på de 11 språk vi publicerar på.",
+    "math-worksheet": "Bläddra bland Mattearbetsblad här, där barnen övar taluppgifter brett: uträkningar, fylla i delar som saknas och blandade summor och differenser. Det ger varierad träning som bygger talförståelse och vana vid att lösa en räkneuppgift steg för steg. Med tydligt bildstöd passar Mattearbetsblad barn som vill befästa addition och subtraktion på olika sätt. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem i klassen eller som en kort hemövning. Allt finns på de 11 språk vi publicerar på.",
+    "missing-pieces": "Bläddra bland Saknade Bitar arbetsblad här, där barnen drar rätt utklippt bit till varje hål för att göra bilden komplett. Det tränar visuellt tänkande och förmågan att se vilken form och vilket mönster som passar. Med tydligt bildstöd passar Saknade Bitar arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra bitarna och pröva igen tills bilden är hel. Allt finns på de 11 språk vi publicerar på.",
+    "odd-one-out": "Bläddra bland Vilken Passar Inte arbetsblad här, där barnen väljer bilden som inte hör hemma och funderar på varför. Det tränar att klassificera och att resonera, eftersom barnen måste se vad de andra bilderna har gemensamt. Med tydligt bildstöd passar Vilken Passar Inte arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen förklara sitt val med egna ord. Allt finns på de 11 språk vi publicerar på.",
+    "shadow-match": "Bläddra bland Matcha Skuggor arbetsblad här, där barnen kopplar varje föremål till sin rätta skugga genom att titta på form och kontur. Det tränar visuell diskriminering och hjälper barnen att se detaljer som gör en form unik. Med tydligt bildstöd passar Matcha Skuggor arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en lugn uppgift vid bordet eller i hörn och stationer. Allt finns på de 11 språk vi publicerar på.",
+    "code-addition": "Bläddra bland Kodaddition arbetsblad här, där barnen löser små summor vars svar motsvarar bokstäver och avslöjar ett dolt ord. Det blandar räkning med ljudning, så barnen övar både addition och bokstäver i samma uppgift. Med tydligt bildstöd passar Kodaddition arbetsblad barn som börjat räkna och vill ha en klurig utmaning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen läsa det dolda ordet högt när koden är knäckt. Allt finns på de 11 språk vi publicerar på.",
+    "pattern-train": "Bläddra bland Mönstertåget arbetsblad här, där barnen fortsätter ett bildmönster längs tågets vagnar. Det tränar logik och ordning på ett glatt sätt, eftersom barnen ser vad som ska komma härnäst i raden. Med tydligt bildstöd passar Mönstertåget arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra rätt bild till nästa vagn. Allt finns på de 11 språk vi publicerar på.",
+    "picture-path": "Bläddra bland Bildväg arbetsblad här, där barnen ritar en väg genom ett rutnät tills de når målet. Det tränar rumsligt tänkande, riktning och förmågan att planera flera steg framåt. Med tydligt bildstöd passar Bildväg arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra fingret längs vägen och pröva igen om de kör fast. Allt finns på de 11 språk vi publicerar på.",
+    "treasure-hunt": "Bläddra bland Skattjakt arbetsblad här, där barnen följer riktningsledtrådar över ett rutnät tills de når skatten. Det tränar rumsligt tänkande och förmågan att tolka riktningar som upp, ner, höger och vänster. Med tydligt bildstöd passar Skattjakt arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen låter barnen dra sig fram steg för steg mot skatten. Allt finns på de 11 språk vi publicerar på.",
+    "preschool": "Bläddra bland arbetsblad för Förskola här, där barnen räknar små antal, parar ihop och sorterar bilder och jämför stor och liten. De funderar på vilken bild som inte passar in och spårar sina första bokstäver, allt med tydligt bildstöd och utan att behöva läsa. Övningarna är gjorda för barn i Förskola, 3-5 år, och tränar uppmärksamhet, finmotorik och tidig talförståelse i lugnt tempo. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som korta stunder vid bordet eller i hörn och stationer. Eftersom det finns på de 11 språk vi publicerar på, kan du välja barnens språk.",
+    "kindergarten": "Bläddra bland arbetsblad för Förskoleklass här, där barnen räknar små antal, gör sina första additioner och subtraktioner och kopplar ihop antal med tal. De sorterar och fortsätter mönster, känner igen bokstäver och ljud och möter sina första ord med tydligt bildstöd. Övningarna är gjorda för barn i Förskoleklass, 5-7 år, och förbereder lugnt steget mot årskurs 1. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem i klassen eller som en kort hemövning. Allt går snabbt att hitta utan registrering, och finns på de 11 språk vi publicerar på.",
+    "grade-1": "Bläddra bland arbetsblad för Årskurs 1 här, där barnen räknar med addition och subtraktion upp till 20, arbetar med tiotal och ental och ljudar ihop bokstäver till sina första ord och sin första läsning. Det finns också logikuppgifter som tränar resonemang steg för steg. Övningarna är gjorda för barn i Årskurs 1, 6-8 år, och bygger vidare på talförståelse och tidig läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Kombinera ett räkneblad med ett läsblad för en varierad pass i klassen eller som läxa. Allt finns på de 11 språk vi publicerar på.",
+    "grade-2": "Bläddra bland arbetsblad för Årskurs 2 här, där barnen räknar med addition och subtraktion med tvåsiffriga tal, möter början på multiplikation och arbetar med tiotal och hundratal. De läser längre texter, övar ord på djupet och löser korsord, ordleta och logikuppgifter. Övningarna är gjorda för barn i Årskurs 2, 7-9 år, och bygger ut både talförståelse och läsförmåga. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Kombinera ett par räkneblad med ett ordblad för en bra blandning i klassen eller som hemövning. Allt finns på de 11 språk vi publicerar på.",
     "addition__animals": "Additions-arbetsblad med djurtema parar operationen som barnen övar med ordförråd som barnen redan känner väl. Formatet minskar den kognitiva belastningen på bilden och håller den på aritmetiken — användbart för barn som fortfarande bygger sin faktagrund för addition.",
     "animals__subtraction": "Subtraktions-arbetsblad med djurtema visar ta-bort med varelser som barnen känner igen omedelbart, vilket gör operationen lättare att läsa. Bilderna håller fokus på själva subtraktionen.",
     "alphabet-train__animals": "Alfabetståget-arbetsblad med djurtema använder djurnamn som alfabet-ankare — varje vagn representerar ett djur vars namn börjar på en annan bokstav. Parningen förstärker bokstav-ljud-kopplingen medan barnen övar alfabetssekvensen.",
@@ -1481,7 +1958,16 @@
     "code-addition__kindergarten": "Förskoleklass-kod-additions-arbetsblad ger den aritmetiska övningen en läs- och skrivinramning: varje summa avkodar en bokstav eller ett ord, vilket gör att övningen känns målmedveten för barn som har grundfakta men behöver motivation.",
     "kindergarten__pattern-train": "Förskoleklass-mönstertågs-arbetsblad övar mönsterigenkänning — alternerande, upprepande, växande — i ett tågformat som är visuellt lätt att läsa. Mönsterigenkänning är grundläggande inom matematik och läsning.",
     "kindergarten__picture-path": "Förskoleklass-bildväg-arbetsblad övar vägfinnande genom ett rutnät, vilket övar rumsligt tänkande och tålamod. Barn på den här utvecklingsnivån är redo att överväga vägar innan de sätter pennan på pappret.",
-    "grade-1__treasure-hunt": "Skattjakter för årskurs 1 ger barnen en flerstegs-riktningssekvens att följa på ett rutnät. Aktiviteten bygger rumsligt tänkande, arbetsminne och flyt i riktningsordförråd på en nivå som barn i årskurs 1 kan hålla ut med."
+    "grade-1__treasure-hunt": "Skattjakter för årskurs 1 ger barnen en flerstegs-riktningssekvens att följa på ett rutnät. Aktiviteten bygger rumsligt tänkande, arbetsminne och flyt i riktningsordförråd på en nivå som barn i årskurs 1 kan hålla ut med.",
+    "cryptogram": "Bläddra bland Kryptogram arbetsblad här, där barnen tyder en bild- och symbolkod och skriver bokstav för bokstav tills ett ord träder fram. Det är en rolig pusselform som tränar bokstavskännedom, tålamod och tidig stavning samtidigt som barnen löser en gåta. Med tydligt bildstöd passar Kryptogram arbetsblad bra för barn som börjat känna igen bokstäver och vill öva på egen hand. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd ett kryptogram som lugn startuppgift på morgonen eller som en klurig hemövning. Allt finns på de 11 språk vi publicerar på.",
+    "chart-count": "Bläddra bland Räkna I Diagram arbetsblad här, där barnen räknar föremål och fyller i en stapel i ett stapeldiagram för varje grupp. Det kopplar ihop räkning med första data och lär barnen att en längre stapel betyder fler föremål. Med tydligt bildstöd passar Räkna I Diagram arbetsblad barn som övar talförståelse och vill börja läsa enkla diagram. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem för att prata om vilken grupp som har flest och färst tillsammans i klassen. Allt finns på de 11 språk vi publicerar på.",
+    "pattern-worksheet": "Bläddra bland Mönsterarbetsblad här, där barnen läser ett upprepande mönster och fortsätter det med rätt bild eller form. Mönstren går från enkla AB-mönster till lite längre ABC-mönster, så barnen lär sig att se vad som kommer härnäst. Med tydligt bildstöd passar Mönsterarbetsblad barn som tränar logik, ordning och tidig matematik utan att behöva läsa. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en lugn uppgift vid bordet eller i hörn och stationer. Allt finns på de 11 språk vi publicerar på.",
+    "bingo": "Bläddra bland Bingo arbetsblad här, där barnen lyssnar på vilken bild, bokstav eller vilket tal som ropas upp och markerar rätt ruta på sin bingobricka. Det är en lek för hela klassen som tränar lyssnande, igenkänning och repetition på ett glatt sätt. Med tydligt bildstöd passar Bingo arbetsblad barn i alla tidiga åldrar och blir lika roliga varje gång. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Skriv ut en bricka per barn och led leken själv i klassen. Allt finns på de 11 språk vi publicerar på.",
+    "grid-match": "Bläddra bland Rutmatchning arbetsblad här, där barnen drar brickor till rätt plats i ett rutnät tills allt stämmer. Det tränar visuellt minne, matchning och förmågan att hålla koll på var sakerna hör hemma. Med tydligt bildstöd passar Rutmatchning arbetsblad barn som övar koncentration och tidig logik utan att behöva läsa. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen gör det lätt att dra och pröva igen tills rutnätet är klart. Allt finns på de 11 språk vi publicerar på.",
+    "word-guess": "Bläddra bland Gissa Ordet arbetsblad här, där barnen fyller i de saknade bokstäverna för att skriva ordet till en bild. Det tränar bokstäver, ljudning och tidig skrivning på ett konkret sätt, eftersom bilden ger stöd för vilket ord som menas. Med tydligt bildstöd passar Gissa Ordet arbetsblad barn som börjat känna igen bokstäver och vill skriva sina första ord. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Be barnen läsa ordet högt när det är klart. Allt finns på de 11 språk vi publicerar på.",
+    "word-scramble": "Bläddra bland Bokstavspussel arbetsblad här, där barnen lägger blandade bokstäver i rätt ordning för att skriva ordet till en bild. Det tränar stavning och bokstavskännedom, och bilden ger stöd så barnen vet vilket ord de bygger. Med tydligt bildstöd passar Bokstavspussel arbetsblad barn som börjat läsa och vill öva på att stava sina första ord. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en klurig uppgift i klassen eller som hemövning. Allt finns på de 11 språk vi publicerar på.",
+    "crossword": "Bläddra bland Korsord arbetsblad här, där barnen löser ett korsord med bildledtrådar och skriver in bokstäverna i det korsande rutnätet. Det tränar stavning, ordförråd och förmågan att se hur ord delar bokstäver med varandra. Med tydligt bildstöd passar Korsord arbetsblad barn som börjat läsa och vill öva ord på ett lekfullt sätt. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Den interaktiva versionen visar tydligt vilket ord du arbetar med just nu. Allt finns på de 11 språk vi publicerar på.",
+    "find-objects": "Bläddra bland Hitta Föremålen arbetsblad här, där barnen letar gömda föremål i en scen och markerar dem ett efter ett. Det tränar visuell diskriminering, uppmärksamhet och tålamod när barnen söker igenom hela bilden. Med tydligt bildstöd passar Hitta Föremålen arbetsblad barn i förskolan och tidiga skolår, helt utan läsning. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Använd dem som en rolig stund vid bordet eller i hörn och stationer. Allt finns på de 11 språk vi publicerar på."
   },
   "bulk": {
     "toggleSelect": "Select",

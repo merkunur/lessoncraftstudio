@@ -1417,13 +1417,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/sv/topic/matteblad/",
-      "primaryKeyword": "Matteblad arbetsblad",
+      "primaryKeyword": "Mattearbetsblad",
       "secondaryKeywords": [
-        "gratis Matteblad arbetsblad",
-        "Matteblad arbetsblad att skriva ut",
-        "Matteblad för barn"
+        "mattearbetsblad att skriva ut",
+        "matte arbetsblad pdf",
+        "matte förskoleklass"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2057,13 +2057,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/sv/topic/monsterblad/",
-      "primaryKeyword": "Mönsterblad arbetsblad",
+      "primaryKeyword": "Mönsterarbetsblad",
       "secondaryKeywords": [
-        "gratis Mönsterblad arbetsblad",
-        "Mönsterblad arbetsblad att skriva ut",
-        "Mönsterblad för barn"
+        "mönsterarbetsblad att skriva ut",
+        "mönster arbetsblad pdf",
+        "mönster förskola"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

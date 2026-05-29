@@ -2,60 +2,36 @@
 'use strict';
 
 /**
- * build-keyword-ownership-map.js — seed the per-page primary-keyword ownership
- * map (docs/audit-results/keyword-ownership-map.json) for the thin-page
- * remediation program (Part 1).
+ * build-keyword-ownership-map.js (v2) — LOCKED keyword-ownership map.
  *
- * One live page -> exactly one primary keyword, unique within locale. The map
- * is the anti-cannibalization backbone: Phase 3 prose is authored TO each
- * page's assigned primary, and the Phase 5 gate rejects any new page that
- * steals an owned primary.
+ * Part 4 of the thin-page remediation. Consumes the native-expert per-locale
+ * keyword GRAMMAR in keyword-specs.js and assigns every LIVE page exactly one
+ * primary keyword (+ 3 secondaries), collision-free within locale:
+ *   - single-axis  : primary = grammar[axis](localized name); secondaries from template
+ *   - intersection : primary composed from the two localized axis names per pair template
+ *   - hub          : per-locale hub primary
+ *   - activity     : the activity's localized page_title
+ * Runs keyword-ownership.detectPrimaryCollisions; exits nonzero if any LOCKED
+ * entry collides (or always, with --strict). Data artifact only — no deploy.
  *
- * SEED behaviour: the primary is auto-derived from the page's localized axis
- * NAME (the natural head term) — a starting anchor flagged source:"seed-derived"
- * + needsReview:true. Native-expert ensembles (§A.13.48) refine each primary +
- * add secondaries during the per-locale Phase 3 commissions, then set
- * lockedAt. The seller-era keyword-ownership-baseline.json (2026-02-20) is NOT
- * imported as page inventory (its theme-hub/product pages predate the K-3
- * pivot); it is referenced by humans only as a keyword-vocabulary hint.
- *
- * Collision policy: detectPrimaryCollisions runs on every build and is written
- * into the map. The process exits nonzero only when a LOCKED entry collides
- * (lockedAt != null) OR --strict is passed — so the Part-1 seed run succeeds
- * while still surfacing any seed collisions for Phase 2 to resolve.
- *
- * Read-only except for the map output. Usage:
- *   node scripts/publish-cli/build-keyword-ownership-map.js
- *   node scripts/publish-cli/build-keyword-ownership-map.js --baseline=<path> --locales=en,es,pt
+ * Usage:
+ *   node scripts/publish-cli/build-keyword-ownership-map.js --baseline=docs/audit-results/seo-100pct-baseline-XXXX.json
  *   node scripts/publish-cli/build-keyword-ownership-map.js --strict
  */
 
 var path = require('path');
 var fs = require('fs');
-
 var thin = require('./audit-thin-pages');
 var ko = require('./keyword-ownership');
+var specsMod = require('./keyword-specs');
+
+var SPECS = specsMod.SPECS, PAIR_AXES = specsMod.PAIR_AXES, fill = specsMod.fill;
 
 var REPO_ROOT = path.resolve(__dirname, '..', '..');
 var TAXONOMY_PATH = path.join(REPO_ROOT, 'frontend', 'config', 'topics-taxonomy.json');
 var AUDIT_DIR = path.join(REPO_ROOT, 'docs', 'audit-results');
 var MINI_TOOLS_DIR = path.join(REPO_ROOT, 'mini tools');
 var ALL_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-
-// Pair label -> [axis1, axis2] so we can resolve intersection key1__key2 names.
-var PAIR_AXES = {
-  'theme×educational-level': ['theme', 'educational-level'],
-  'theme×exercise-type': ['theme', 'exercise-type'],
-  'educational-level×exercise-type': ['educational-level', 'exercise-type'],
-};
-
-// English hub primaries (other locales seed with the localized hub label +
-// needsReview; native review supplies the real head term).
-var HUB_PRIMARY_EN = {
-  worksheets: 'printable worksheets',
-  topic: 'worksheet topics',
-  activities: 'interactive learning activities',
-};
 
 function parseArgs(argv) {
   var out = { baseline: null, locales: ALL_LOCALES.slice(), outDir: AUDIT_DIR, strict: false };
@@ -84,8 +60,18 @@ function axisName(tx, axis, key, locale) {
   return entry.name[locale] || entry.name.en || null;
 }
 
+// Keyword-facing name: level overrides (descriptor-differentiation locales) +
+// parenthetical strip; falls back to the raw axis key.
+function nameForKeyword(tx, axis, key, locale) {
+  if (axis === 'educational-level') {
+    var ov = specsMod.LEVEL_KEYWORD[locale] && specsMod.LEVEL_KEYWORD[locale][key];
+    if (ov) return ov;
+  }
+  return specsMod.cleanName(axisName(tx, axis, key, locale) || key);
+}
+
 function loadActivityTitles() {
-  var map = {}; // "<tool>:<id>" -> {locale: page_title}
+  var map = {};
   if (!fs.existsSync(MINI_TOOLS_DIR)) return map;
   fs.readdirSync(MINI_TOOLS_DIR).filter(function (f) { return /-activities\.json$/.test(f); }).forEach(function (f) {
     try {
@@ -97,38 +83,56 @@ function loadActivityTitles() {
   return map;
 }
 
-function derivePrimary(page, tx, activityTitles) {
+function derive(page, tx, activityTitles) {
   var loc = page.locale;
-  var isEn = loc === 'en';
+  var spec = SPECS[loc];
+  if (!spec) return { primary: null, secondaries: [], source: 'no-spec' };
 
   if (page.pageType === 'topic-single') {
-    var nm = axisName(tx, page.axis, page.axisKey, loc) || page.axisKey;
-    return isEn ? (nm + ' worksheets') : nm; // non-en: localized head term (needsReview)
+    var nm = nameForKeyword(tx, page.axis, page.axisKey, loc);
+    var primary = fill(spec.grammar[page.axis], { name: nm });
+    var secondaries = (spec.secondaryTemplate || []).map(function (t) { return fill(t, { name: nm }); });
+    return { primary: primary, secondaries: secondaries, source: 'grammar' };
   }
+
   if (page.pageType === 'topic-intersection') {
-    var axes = PAIR_AXES[page.axisPair] || null;
+    var axes = PAIR_AXES[page.axisPair];
     var parts = String(page.axisKey).split('__');
-    var n1 = axes ? (axisName(tx, axes[0], parts[0], loc) || parts[0]) : parts[0];
-    var n2 = axes ? (axisName(tx, axes[1], parts[1], loc) || parts[1]) : parts[1];
-    var joined = n1 + ' ' + n2;
-    return isEn ? (joined + ' worksheets') : joined;
+    if (!axes || parts.length !== 2) return { primary: null, secondaries: [], source: 'intersection-unresolved' };
+    var n1 = nameForKeyword(tx, axes[0], parts[0], loc);
+    var n2 = nameForKeyword(tx, axes[1], parts[1], loc);
+    var vars = {};
+    if (axes[0] === 'theme' && axes[1] === 'educational-level') { vars = { theme: n1, level: n2 }; }
+    else if (axes[0] === 'theme' && axes[1] === 'exercise-type') { vars = { theme: n1, type: n2 }; }
+    else { vars = { level: n1, type: n2 }; }
+    var pairKey = axes[0] + '__' + axes[1];
+    var iprimary = fill(spec.intersection[pairKey], vars);
+    // secondaries: each component's single-axis primary + one generic
+    var sec = [
+      fill(spec.grammar[axes[0]], { name: n1 }),
+      fill(spec.grammar[axes[1]], { name: n2 }),
+    ];
+    if ((spec.secondaryTemplate || [])[0]) sec.push(fill(spec.secondaryTemplate[0], { name: (vars.type || n2) }));
+    return { primary: iprimary, secondaries: sec.filter(Boolean), source: 'grammar-intersection' };
   }
+
   if (page.pageType === 'hub') {
-    if (isEn) return HUB_PRIMARY_EN[page.axisKey] || page.axisKey;
-    return page.axisKey; // localized label resolved at review time
+    return { primary: (spec.hub && spec.hub[page.axisKey]) || page.axisKey, secondaries: [], source: 'hub' };
   }
+
   if (page.pageType === 'activity') {
     var titles = activityTitles[page.axisKey] || {};
-    return titles[loc] || titles.en || page.axisKey;
+    return { primary: titles[loc] || titles.en || page.axisKey, secondaries: [], source: 'activity' };
   }
-  return page.axisKey;
+
+  return { primary: page.axisKey, secondaries: [], source: 'unknown' };
 }
 
 function main() {
   var opts = parseArgs(process.argv);
   var baselinePath = opts.baseline || findLatestBaseline(opts.outDir);
   if (!baselinePath || !fs.existsSync(baselinePath)) {
-    console.error('[fatal] No baseline JSON found. Run audit-published-baseline.js on Hetzner first, or pass --baseline=<path>.');
+    console.error('[fatal] No baseline JSON found. Pass --baseline=<path>.');
     process.exit(2);
   }
   var tx = JSON.parse(fs.readFileSync(TAXONOMY_PATH, 'utf8'));
@@ -142,57 +146,56 @@ function main() {
     pageTypes: ['topic-single', 'topic-intersection', 'hub', 'activity'],
   });
   var activityTitles = loadActivityTitles();
+  var lockedAt = new Date().toISOString();
 
   var map = {
-    $schemaVersion: 1,
-    generatedAt: new Date().toISOString(),
+    $schemaVersion: 2,
+    generatedAt: lockedAt,
     baseline: baselinePath,
-    config: { locales: opts.locales, minSecondary: 3, maxSecondary: 9 },
+    config: { locales: opts.locales, minSecondary: 3 },
     pages: {},
     collisions: [],
   };
 
+  var noPrimary = 0;
   pages.forEach(function (page) {
-    var primary = derivePrimary(page, tx, activityTitles);
+    var d = derive(page, tx, activityTitles);
+    if (!d.primary) noPrimary++;
     map.pages[page.pageKey] = {
       locale: page.locale,
       pageType: page.pageType,
       axis: page.axis,
       axisKey: page.axisKey,
       url: page.url,
-      primaryKeyword: primary,
-      secondaryKeywords: [],
-      source: 'seed-derived',
-      needsReview: true,
-      lockedAt: null,
+      primaryKeyword: d.primary,
+      secondaryKeywords: d.secondaries || [],
+      source: d.source,
+      needsReview: (d.source === 'activity'),
+      lockedAt: lockedAt,
     };
   });
 
   var collisions = ko.detectPrimaryCollisions(map);
   map.collisions = collisions;
 
-  var stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 15);
   if (!fs.existsSync(opts.outDir)) fs.mkdirSync(opts.outDir, { recursive: true });
   var outPath = path.join(opts.outDir, 'keyword-ownership-map.json');
   fs.writeFileSync(outPath, JSON.stringify(map, null, 2));
 
   var pageCount = Object.keys(map.pages).length;
-  console.log('[keyword-ownership-map] pages: ' + pageCount + ' across ' + opts.locales.length + ' locales');
-  console.log('[keyword-ownership-map] collisions (within-locale primary): ' + collisions.length);
-  collisions.slice(0, 20).forEach(function (c) {
-    console.log('  - [' + c.locale + '] "' + c.primaryKeyword + '" -> ' + c.pageKeys.join(', '));
+  console.log('[keyword-ownership-map v2] pages: ' + pageCount + ' across ' + opts.locales.length + ' locales');
+  console.log('[keyword-ownership-map v2] pages with no primary: ' + noPrimary);
+  console.log('[keyword-ownership-map v2] within-locale primary collisions: ' + collisions.length);
+  collisions.slice(0, 25).forEach(function (c) {
+    console.log('  - [' + c.locale + '] "' + c.primaryKeyword + '" -> ' + c.pageKeys.length + ' pages: ' + c.pageKeys.slice(0, 4).join(', '));
   });
-  console.log('[output] ' + outPath + ' (stamp ' + stamp + ')');
+  console.log('[output] ' + outPath);
 
-  var lockedCollisions = collisions.filter(function (c) {
-    return c.pageKeys.some(function (pk) { return map.pages[pk] && map.pages[pk].lockedAt; });
-  });
-  var fail = opts.strict ? collisions.length > 0 : lockedCollisions.length > 0;
-  process.exit(fail ? 1 : 0);
+  process.exit((opts.strict && collisions.length > 0) || noPrimary > 0 ? 1 : 0);
 }
 
 if (require.main === module) {
   try { main(); } catch (e) { console.error('[fatal] ' + (e.stack || e.message || String(e))); process.exit(2); }
 }
 
-module.exports = { derivePrimary: derivePrimary };
+module.exports = { derive: derive };

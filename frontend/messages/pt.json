@@ -1253,7 +1253,1170 @@
   },
   "topicFaq": {
     "heading": "Perguntas frequentes",
-    "overrides": {},
+    "overrides": {
+      "kindergarten": [
+        {
+          "q": "Para que idade servem estas fichas?",
+          "a": "Para a educação infantil pré-escola, 5 a 7 anos. Trabalham contagem, primeiras somas e subtrações, associação número-quantidade, classificar e padrões, reconhecer letras e sons e primeiras palavras."
+        },
+        {
+          "q": "As fichas para educação infantil pré-escola são grátis?",
+          "a": "Sim. Todas as fichas são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As fichas estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "grade-1": [
+        {
+          "q": "O que estas fichas trabalham?",
+          "a": "São para o 1º ano do ensino fundamental, 6 a 8 anos: somar e subtrair até 20, dezenas e unidades, juntar letras em primeiras palavras, leitura inicial e lógica."
+        },
+        {
+          "q": "As fichas para 1º ano do ensino fundamental são grátis?",
+          "a": "Sim. Todas as fichas são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As fichas estão disponíveis nos 11 idiomas em que publicamos, o que facilita o uso em salas de aula bilíngues."
+        }
+      ],
+      "preschool": [
+        {
+          "q": "Para que idade servem estas fichas?",
+          "a": "Para a educação infantil creche, 3 a 5 anos. Trabalham contar pequenas quantidades, associar e classificar, grande e pequeno, qual não pertence e traçar primeiras letras, sem leitura."
+        },
+        {
+          "q": "As fichas para educação infantil creche são grátis?",
+          "a": "Sim. Todas as fichas são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As fichas estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "grade-2": [
+        {
+          "q": "O que estas fichas trabalham?",
+          "a": "São para o 2º ano do ensino fundamental, 7 a 9 anos: somar e subtrair com dois dígitos, início da multiplicação, dezenas e centenas, leitura mais longa, trabalho com palavras e lógica."
+        },
+        {
+          "q": "As fichas para 2º ano do ensino fundamental são grátis?",
+          "a": "Sim. Todas as fichas são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As fichas estão disponíveis nos 11 idiomas em que publicamos, o que facilita o uso em salas de aula bilíngues."
+        }
+      ],
+      "pattern-train": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha sequências e padrões: a criança observa o padrão de imagens e continua a sequência nos vagões do trem, com apoio de imagens, sem exigir leitura."
+        },
+        {
+          "q": "As atividades de Trem de Padrões são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Trem de Padrões estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "addition": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha as primeiras somas: a criança junta dois grupos de imagens e soma, com apoio de imagens, rumo a somas de um e dois dígitos pequenos."
+        },
+        {
+          "q": "As atividades de Adição são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Adição estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "subtraction": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha as primeiras subtrações: a criança risca o que sai e conta o que resta, com apoio de imagens, para entender a ideia de retirar."
+        },
+        {
+          "q": "As atividades de Subtração são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Subtração estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "math-worksheet": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha prática geral de números: operações variadas, completar partes que faltam e somas e subtrações em diferentes formatos, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Matemática são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Matemática estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "sudoku": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha raciocínio lógico: a criança completa uma grade 4x4 com imagens para que cada linha, coluna e bloco tenha uma de cada, sem números nem leitura."
+        },
+        {
+          "q": "As atividades de Sudoku Ilustrado são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Sudoku Ilustrado estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "more-less": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha comparação de quantidades: a criança compara dois grupos de imagens e decide qual tem mais, menos ou se são iguais, sem leitura."
+        },
+        {
+          "q": "As atividades de Mais ou Menos são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Mais ou Menos estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "math-puzzle": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha senso numérico e planejamento: a criança arrasta peças para completar um quebra-cabeça numérico, encaixando cada parte no lugar certo."
+        },
+        {
+          "q": "As atividades de Quebra-cabeça Matemático são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Quebra-cabeça Matemático estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "code-addition": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Une primeiras somas e leitura inicial: a criança resolve somas pequenas cujos resultados correspondem a letras e, ao reuni-las, revela uma palavra."
+        },
+        {
+          "q": "As atividades de Adição com Código são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Adição com Código estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "big-small": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha primeiras noções de tamanho: a criança acha o maior ou o menor e ordena por tamanho, com apoio de imagens, sem leitura."
+        },
+        {
+          "q": "As atividades de Grande ou Pequeno são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Grande ou Pequeno estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "shadow-match": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha discriminação visual: a criança liga cada objeto à sua sombra, comparando forma e contorno, sem exigir leitura."
+        },
+        {
+          "q": "As atividades de Pareamento de Sombras são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Pareamento de Sombras estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "odd-one-out": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha classificar e raciocinar: a criança escolhe a imagem que não pertence ao grupo e explica por quê, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Qual é Diferente são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Qual é Diferente estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "picture-sort": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha classificar e agrupar: a criança separa imagens em grupos ou categorias, com apoio de imagens, sem exigir leitura."
+        },
+        {
+          "q": "As atividades de Ordenar Imagens são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Ordenar Imagens estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "prepositions": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha raciocínio espacial e linguagem: a criança escolhe a imagem que mostra uma posição como em, sobre, embaixo ou ao lado, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Preposições são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Preposições estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "cryptogram": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha reconhecimento das letras e escrita inicial: a criança decifra um código de imagens e símbolos, usando a legenda, para escrever uma palavra."
+        },
+        {
+          "q": "As atividades de Criptograma são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Criptograma estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "treasure-hunt": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha raciocínio espacial e direções: a criança segue pistas de direção por uma grade, casa a casa, até chegar ao tesouro."
+        },
+        {
+          "q": "As atividades de Caça ao Tesouro são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Caça ao Tesouro estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "find-objects": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha discriminação visual: a criança procura objetos escondidos numa cena e marca cada um que encontra, com apoio de imagens, sem leitura."
+        },
+        {
+          "q": "As atividades de Encontre os Objetos são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Encontre os Objetos estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "missing-pieces": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha discriminação visual e raciocínio espacial: a criança arrasta a peça recortada certa para cada buraco e completa a imagem, sem leitura."
+        },
+        {
+          "q": "As atividades de Peças Faltantes são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Peças Faltantes estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "word-guess": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha reconhecimento das letras e escrita inicial: a criança preenche as lacunas para escrever a palavra de uma imagem, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Adivinhe a Palavra são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Adivinhe a Palavra estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "word-scramble": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha ortografia inicial: a criança ordena letras embaralhadas para escrever a palavra de uma imagem, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Letras Embaralhadas são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Letras Embaralhadas estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "matching": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha correspondência um a um: a criança traça uma linha para ligar cada item ao seu par, com apoio de imagens, sem leitura."
+        },
+        {
+          "q": "As atividades de Pareamento são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Pareamento estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "picture-path": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha raciocínio espacial e direção: a criança traça um caminho por uma grade até o objetivo, casa a casa, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Caminho Ilustrado são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Caminho Ilustrado estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "find-and-count": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Une procurar e contar: a criança encontra objetos numa cena, conta quantos há e registra o total, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Encontre e Conte são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Encontre e Conte estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "bingo": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha escutar e revisar com a turma toda: a criança marca na cartela a imagem, letra ou número que é cantado, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Bingo são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Bingo estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "wordsearch": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Une reconhecimento das letras e busca: a criança encontra palavras escondidas de um tema numa grade de letras, percorrendo linhas e colunas."
+        },
+        {
+          "q": "As atividades de Caça-palavras são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Caça-palavras estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "pattern-worksheet": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha sequências e padrões: a criança lê e continua um padrão que se repete, do tipo AB ou ABC, com apoio de imagens, sem leitura."
+        },
+        {
+          "q": "As atividades de Padrões são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Padrões estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "grid-match": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Une parear e memória visual: a criança arrasta peças para o lugar certo numa grade, observando o modelo, com apoio de imagens, sem leitura."
+        },
+        {
+          "q": "As atividades de Pareamento em Grade são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Pareamento em Grade estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "chart-count": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Une contar e primeiros dados: a criança conta objetos e preenche a coluna de um gráfico de barras, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Contagem em Gráfico são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Contagem em Gráfico estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "crossword": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha ortografia e vocabulário: a criança usa pistas de imagem e escreve letras na grade que se cruza, encaixando cada palavra."
+        },
+        {
+          "q": "As atividades de Palavras Cruzadas são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Palavras Cruzadas estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "alphabet-train": [
+        {
+          "q": "O que esta atividade trabalha?",
+          "a": "Trabalha reconhecimento das letras e ordem alfabética: a criança coloca as letras de A a Z nos vagões do trem, com apoio de imagens."
+        },
+        {
+          "q": "As atividades de Trem do Alfabeto são grátis?",
+          "a": "Sim. Todas as atividades são grátis para imprimir em PDF ou jogar online na versão interativa, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "As atividades de Trem do Alfabeto estão disponíveis nos 11 idiomas em que publicamos, o que ajuda no trabalho com turmas bilíngues."
+        }
+      ],
+      "4th_of_july": [
+        {
+          "q": "O que há na página de atividades com tema 4 de Julho?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema 4 de Julho são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "animals": [
+        {
+          "q": "O que há na página de atividades com tema Animais?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Animais são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "flowers": [
+        {
+          "q": "O que há na página de atividades com tema Flores?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Flores são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "dinosaurs": [
+        {
+          "q": "O que há na página de atividades com tema Dinossauros?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Dinossauros são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "activities": [
+        {
+          "q": "O que há na página de atividades com tema Atividades?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Atividades são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "toys": [
+        {
+          "q": "O que há na página de atividades com tema Brinquedos?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Brinquedos são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "accessories": [
+        {
+          "q": "O que há na página de atividades com tema Acessórios?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Acessórios são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "at_the_supermarket": [
+        {
+          "q": "O que há na página de atividades com tema No supermercado?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema No supermercado são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "camping": [
+        {
+          "q": "O que há na página de atividades com tema Acampamento?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Acampamento são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "easter": [
+        {
+          "q": "O que há na página de atividades com tema Páscoa?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Páscoa são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "fruits": [
+        {
+          "q": "O que há na página de atividades com tema Frutas?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Frutas são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "occupations": [
+        {
+          "q": "O que há na página de atividades com tema Profissões?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Profissões são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "ocean_life": [
+        {
+          "q": "O que há na página de atividades com tema Vida marinha?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Vida marinha são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "space": [
+        {
+          "q": "O que há na página de atividades com tema Espaço?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Espaço são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "things_that_fly": [
+        {
+          "q": "O que há na página de atividades com tema Coisas que voam?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Coisas que voam são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "vehicles": [
+        {
+          "q": "O que há na página de atividades com tema Veículos?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Veículos são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "winter": [
+        {
+          "q": "O que há na página de atividades com tema Inverno?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Inverno são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "around_the_house": [
+        {
+          "q": "O que há na página de atividades com tema Pela casa?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Pela casa são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "bakery": [
+        {
+          "q": "O que há na página de atividades com tema Padaria?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Padaria são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "beach": [
+        {
+          "q": "O que há na página de atividades com tema Praia?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Praia são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "body_parts": [
+        {
+          "q": "O que há na página de atividades com tema Partes do corpo?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Partes do corpo são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "christmas": [
+        {
+          "q": "O que há na página de atividades com tema Natal?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Natal são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "classroom": [
+        {
+          "q": "O que há na página de atividades com tema Sala de aula?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Sala de aula são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "clothing": [
+        {
+          "q": "O que há na página de atividades com tema Roupas?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Roupas são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "forest_creatures": [
+        {
+          "q": "O que há na página de atividades com tema Criaturas da floresta?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Criaturas da floresta são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "hospital": [
+        {
+          "q": "O que há na página de atividades com tema Hospital?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Hospital são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "kitchen_tools": [
+        {
+          "q": "O que há na página de atividades com tema Utensílios de cozinha?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Utensílios de cozinha são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "spring": [
+        {
+          "q": "O que há na página de atividades com tema Primavera?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Primavera são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "summer": [
+        {
+          "q": "O que há na página de atividades com tema Verão?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Verão são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "tree": [
+        {
+          "q": "O que há na página de atividades com tema Árvores?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Árvores são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "weather": [
+        {
+          "q": "O que há na página de atividades com tema Clima?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Clima são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "zoo_animals": [
+        {
+          "q": "O que há na página de atividades com tema Animais do zoológico?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Animais do zoológico são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "breakfast": [
+        {
+          "q": "O que há na página de atividades com tema Café da manhã?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Café da manhã são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "desserts_and_sweets": [
+        {
+          "q": "O que há na página de atividades com tema Sobremesas e doces?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Sobremesas e doces são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "furniture": [
+        {
+          "q": "O que há na página de atividades com tema Móveis?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Móveis são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "pets": [
+        {
+          "q": "O que há na página de atividades com tema Animais de estimação?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Animais de estimação são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "tools": [
+        {
+          "q": "O que há na página de atividades com tema Ferramentas?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Ferramentas são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "vegetables": [
+        {
+          "q": "O que há na página de atividades com tema Vegetais?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Vegetais são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "birds_2": [
+        {
+          "q": "O que há na página de atividades com tema Pássaros 2?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Pássaros 2 são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "farm_animals": [
+        {
+          "q": "O que há na página de atividades com tema Animais da fazenda?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Animais da fazenda são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "music": [
+        {
+          "q": "O que há na página de atividades com tema Música?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Música são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "reptiles_and_amphibians": [
+        {
+          "q": "O que há na página de atividades com tema Répteis e anfíbios?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Répteis e anfíbios são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "emotions": [
+        {
+          "q": "O que há na página de atividades com tema Emoções?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Emoções são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "thanksgivinng": [
+        {
+          "q": "O que há na página de atividades com tema Dia de Ação de Graças?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Dia de Ação de Graças são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "insects_and_bugs": [
+        {
+          "q": "O que há na página de atividades com tema Insetos e bichos?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Insetos e bichos são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "post_office": [
+        {
+          "q": "O que há na página de atividades com tema Correios?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Correios são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "shapes": [
+        {
+          "q": "O que há na página de atividades com tema Formas?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Formas são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "birds": [
+        {
+          "q": "O que há na página de atividades com tema Pássaros?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Pássaros são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "colors": [
+        {
+          "q": "O que há na página de atividades com tema Cores?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Cores são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ],
+      "miscellaneous": [
+        {
+          "q": "O que há na página de atividades com tema Diversos?",
+          "a": "Você encontra contagem e primeiras somas, classificar e associar, qual é o diferente e reconhecer letras, tudo com apoio de imagens e pensado para crianças de K-3."
+        },
+        {
+          "q": "As atividades com tema Diversos são grátis?",
+          "a": "Sim. Cada atividade é grátis para imprimir em PDF ou jogar online, com gabarito, sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
+        }
+      ]
+    },
     "fallback": {
       "single": {
         "q1": "Quais fichas estão nesta página de {topic}?",
@@ -1435,31 +2598,31 @@
     "grade-3": "Atividades para o 3º ano do ensino fundamental: jogos interativos e versões imprimíveis gratuitas, de acordo com a BNCC."
   },
   "topicProse": {
-    "animals": "As atividades com tema de animais oferecem ao corpo docente da educação infantil uma base de vocabulário que percorre todo o currículo K-3. Contar vacas, classificar pássaros pelo que comem, reconhecer a primeira letra de cada animal da fazenda: o mesmo conjunto de imagens sustenta o senso numérico, a classificação e a alfabetização inicial sem pedir às crianças que mudem de contexto. O próprio vocabulário é de alta frequência em cada um dos onze idiomas em que publicamos, o que torna estas atividades especialmente úteis quando uma turma reúne crianças com níveis diferentes de língua.",
-    "addition": "As atividades de adição alcançam as crianças no momento em que somar deixa de ser um truque de contagem e passa a ser um fato que elas conseguem evocar. As atividades aqui oferecidas dão essa prática de evocação em somas de um dígito e de dois dígitos pequenos, com problemas apoiados por imagens para os menores e formatos somente numéricos quando a operação já está consolidada. Combine formatos interativos e imprimíveis: as versões interativas dão retorno imediato, e os PDFs imprimíveis funcionam bem para o trabalho em duplas em que uma criança escreve e a outra confere.",
-    "subtraction": "A subtração é a operação que traz à tona as intuições das crianças sobre o que fica e o que vai embora. Estas atividades constroem essa intuição com problemas de tirar baseados em imagens para os menores, e progridem para a subtração abstrata uma vez que o gesto de tirar já não é necessário. O formato combina bem com manipulativos em sala — as crianças podem encenar a primeira linha com fichas e depois completar o resto na página.",
-    "alphabet-train": "As atividades do trem do alfabeto constroem o reconhecimento das letras pela ordenação posicional. Cada vagão do trem leva uma letra, e as crianças preenchem os vagões que faltam ou organizam os vagões em sequência alfabética. O formato é tolerante: uma criança que conhece metade do alfabeto ainda consegue completar as fileiras com as letras familiares e captar as desconhecidas pelo contexto. Útil para o trabalho letra-som, para reforçar a canção do alfabeto e para a avaliação inicial da alfabetização.",
-    "wordsearch": "As atividades de caça-palavras constroem uma leitura de atenção sustentada: o olho percorre uma grade de letras e o cérebro confronta cada uma com uma palavra-alvo mantida na memória de trabalho. Para leitores K-3 os alvos são curtos e agrupados em torno de um tema, o que significa que a atividade reforça o vocabulário ao mesmo tempo que a decodificação. Estas atividades funcionam bem como tarefas silenciosas, momentos de transição ou trabalho em duplas em que uma criança lê o alvo em voz alta enquanto a outra procura.",
-    "matching": "As atividades de associar dão às crianças prática com o movimento cognitivo que sustenta a maior parte do raciocínio na primeira infância: notar que duas coisas vão juntas porque compartilham uma propriedade. Estas páginas associam imagens às suas letras iniciais, palavras a seus significados, ou quantidades a suas cifras. A disposição visual — itens em duas colunas conectados por linhas traçadas diretamente na atividade — mantém a carga cognitiva sobre a relação em vez de sobre o procedimento.",
-    "sudoku": "As atividades de sudoku ilustrado oferecem às crianças pequenas a experiência lógica do sudoku completo numa grade 4×4 com imagens familiares no lugar de cifras. Cada linha, coluna e quadrante deve conter cada uma das quatro imagens uma vez, e as crianças deduzem as que faltam por eliminação. O quebra-cabeça é genuinamente desafiador para a faixa K-3 sem exigir leitura de números, o que o torna acessível a crianças de qualquer nível de leitura.",
-    "find-and-count": "As atividades de procurar e contar pedem às crianças que percorram uma cena cheia de detalhes, localizem cada ocorrência de um objeto-alvo e escrevam a contagem. A atividade exercita três habilidades ao mesmo tempo: discriminação visual, correspondência um a um e escrita de cifras. Para o corpo docente da educação infantil, procurar-e-contar é um diagnóstico útil — uma criança que conta seis mas escreve quatro está mostrando algo concreto sobre onde está a lacuna.",
-    "prepositions": "As atividades de preposições associam o vocabulário espacial a imagens concretas: o gato está embaixo da cadeira, a bola está entre as caixas, o pássaro está sobre o galho. As imagens dão às crianças um referente para palavras que de outro modo seriam abstratas, e o formato de múltipla escolha mantém a carga cognitiva sobre a relação em vez de sobre a escrita. Útil para quem aprende português como segunda língua, para turmas bilíngues e para qualquer contexto em que o vocabulário espacial precise de ensino explícito.",
-    "picture-sort": "As atividades de classificar imagens praticam o movimento de classificação que sustenta as ciências iniciais e a leitura inicial. As crianças olham um conjunto de imagens e as agrupam por categoria — pela letra inicial, pelo que comem, por onde vivem, pela cor. O formato de duas cestas mantém a escolha binária, que é o ponto de partida cognitivo correto para classificar em K-3.",
-    "big-small": "As atividades de grande-pequeno praticam a comparação de tamanhos relativos, a habilidade fundadora que sustenta a medida e a ordenação. As crianças identificam o maior ou o menor de um conjunto, ou organizam uma série de objetos por tamanho. As imagens são propositalmente exageradas para que a comparação seja inequívoca: assim que as crianças leem a pista visual com segurança, a mesma habilidade se transfere para comparações menos óbvias na vida e no trabalho numérico.",
-    "more-less": "As atividades de mais-menos são as precursoras da adição e da subtração formais: as crianças comparam duas quantidades e decidem qual tem mais. A atividade se apoia fortemente em imagens porque muitas crianças K-3 conseguem resolvê-la antes de conseguir ler com segurança as palavras «mais» e «menos». Útil como verificação do senso numérico e como andaime para a aritmética inicial.",
-    "math-puzzle": "As atividades de quebra-cabeça matemático embalam a prática aritmética como algo a desvendar e não algo a treinar. Cada quebra-cabeça pede à criança que combine fatos numéricos com inferência lógica — quais dois números formam esta soma, qual sequência completa este padrão, qual operação torna esta equação verdadeira. O formato mantém a matemática interessante uma vez que os fatos básicos estejam consolidados.",
-    "math-worksheet": "As páginas de atividades matemáticas dão às crianças prática com as operações em que estão trabalhando, no formato que o corpo docente sabe que funciona para consolidar a habilidade. Cada página foca em uma ou duas operações e fornece problemas suficientes para uma prática sustentada sem se tornar excessiva. Use-as como tarefa de casa, trabalho da manhã ou prática autônoma durante o ensino em pequenos grupos.",
-    "missing-pieces": "As atividades de peças que faltam exercitam a complementação visual: as crianças olham uma imagem da qual uma seção foi removida e escolhem a peça que a completa numa pequena paleta. A atividade trabalha simultaneamente o raciocínio espacial, a atenção ao detalhe e o reconhecimento de formas. Particularmente útil como tarefa silenciosa e autônoma na faixa entre pré-escola e 1º ano.",
-    "odd-one-out": "As atividades do que sobra praticam a habilidade de discriminação que sustenta a classificação: as crianças olham um pequeno grupo de imagens e identificam aquela que não pertence. O critério varia — por categoria, por cor, por letra inicial — e as imagens são escolhidas para que a resposta seja inequívoca uma vez nomeado o critério. Um diagnóstico útil para o raciocínio na primeira infância.",
-    "shadow-match": "As atividades de associar sombras associam cada imagem a sua silhueta. A atividade exercita o reconhecimento de formas e a discriminação visual no nível em que contorno e detalhe precisam ser processados separadamente, uma das habilidades fundadoras para a leitura inicial. As crianças que associam sombras com segurança também tendem a manejar o reconhecimento de formas de letras com menos esforço.",
-    "code-addition": "As atividades de adição codificada associam um problema de adição a uma letra, de modo que a resposta da soma decodifica uma palavra ou mensagem. O formato dá à prática aritmética uma moldura de alfabetização: as crianças resolvem a adição não como fim em si, mas como meio para chegar à mensagem. Útil para crianças do meio da pré-escola e do 1º ano que já têm os fatos básicos mas precisam que a prática pareça motivadora.",
-    "pattern-train": "As atividades do trem de padrões dão às crianças prática em estender e completar padrões visuais. Cada trem leva uma sequência e a criança preenche os vagões que faltam seguindo a lógica do padrão — cores alternadas, formas que se repetem, tamanhos crescentes. O reconhecimento de padrões é uma habilidade fundadora que sustenta tanto a matemática inicial quanto a leitura inicial, e o formato do trem mantém a disposição visual simples.",
-    "picture-path": "As atividades de caminho ilustrado exercitam o raciocínio espacial e a busca de rotas: as crianças traçam um caminho por uma grade de uma imagem inicial até uma imagem final, às vezes contornando paredes ou passando por distratores. A atividade constrói os mesmos movimentos cognitivos que sustentam a resolução de labirintos, o planejamento e a geometria inicial. As crianças desenvolvem a paciência de considerar rotas antes de pôr o lápis no papel.",
-    "treasure-hunt": "As atividades de caça ao tesouro dão às crianças uma sequência de pistas direcionais — duas casas ao norte, uma a leste, três ao sul — e pedem que tracem a rota que as pistas descrevem. A atividade constrói raciocínio espacial, memória de trabalho e fluência de vocabulário direcional ao mesmo tempo. O formato funciona particularmente bem para crianças do 1º e 2º ano prontas para instruções de vários passos.",
-    "preschool": "As atividades de educação infantil (creche, 3-5 anos) alcançam as crianças no momento de desenvolvimento em que a pega do lápis se torna confiável e o cérebro está pronto para um trabalho pré-acadêmico intencional. As atividades aqui mantêm a carga cognitiva baixa e o apoio visual alto: cada comando é ilustrado, cada resposta é inequívoca, cada página pode ser concluída em alguns minutos concentrados. Use-as nos momentos da manhã em que as crianças estão prontas para sentar e trabalhar, ou como tarefa de casa leve que as famílias podem acompanhar mesmo sem formação acadêmica.",
-    "kindergarten": "As atividades de educação infantil (pré-escola, 5-7 anos) estão afinadas com o ano em que a curiosidade pré-acadêmica se cristaliza em prontidão acadêmica. As crianças neste nível conseguem segurar um lápis com firmeza, reconhecer as primeiras letras do próprio nome, contar além de dez e seguir instruções de duas etapas em uma página. As atividades aqui exercitam essas habilidades em matemática, alfabetização, lógica e raciocínio espacial, em formatos curtos o suficiente para a duração da atenção desta faixa e substanciais o suficiente para parecerem trabalho de verdade.",
-    "grade-1": "As atividades de 1º ano do ensino fundamental alcançam o momento em que as crianças consolidam os fundamentos lançados na pré-escola numa prática autônoma fluente. Elas conseguem ler instruções curtas, escrever suas respostas e autocorrigir erros simples sem que um adulto peça. As atividades aqui percorrem o currículo padrão do 1º ano — adição e subtração no campo de vinte, reconhecimento de palavras à vista, sequenciamento simples, lógica espacial básica — e cada página é projetada para parecer concluível num bloco concentrado de quinze minutos.",
-    "grade-2": "As atividades de 2º ano do ensino fundamental alcançam crianças que agora leem de forma autônoma, escrevem em frases e estão prontas para a resolução de problemas em vários passos. As atividades aqui introduzem as sequências cognitivas mais longas — adição com vários dígitos, caça-palavras mais extensos, quebra-cabeças mais complexos — que crianças do 2º ano conseguem sustentar. Combine-as com discussão em sala sobre estratégia, já que o valor cognitivo neste nível está cada vez mais na abordagem tanto quanto na resposta.",
+    "animals": "O conjunto de imagens conhecidas de Animais acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Animais, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "addition": "Nas atividades de Adição as crianças juntam dois grupos de imagens e somam, avançando aos poucos rumo a somas de um e dois dígitos pequenos. Cada exercício traz apoio de imagens para que a criança conte os elementos e escreva o resultado, construindo a ideia de sentença matemática. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "subtraction": "Nas atividades de Subtração as crianças tiram elementos de um grupo: riscam o que sai e contam o que resta. Com esse gesto simples e o apoio de imagens, a criança entende a ideia de retirar e registra o resultado, dando os primeiros passos na sentença matemática. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "alphabet-train": "Nas atividades de Trem do Alfabeto as crianças colocam as letras em ordem de A a Z nos vagões de um trem. É um exercício de reconhecimento das letras e da ordem alfabética, feito com apoio de imagens e de forma lúdica. A criança observa a sequência, percebe o que falta e completa cada vagão na posição certa. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use o trem em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "wordsearch": "Nas atividades de Caça-palavras as crianças encontram palavras escondidas de um tema numa grade de letras. É um exercício que une reconhecimento das letras e busca atenta, em que a criança percorre as linhas e colunas até achar cada palavra. Os temas com apoio de imagens ajudam a relacionar a palavra ao que ela representa. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "matching": "Nas atividades de Pareamento as crianças traçam uma linha para ligar cada item ao seu par. É um exercício de correspondência um a um que trabalha a atenção e a associação, feito com apoio de imagens e sem exigir leitura. A criança observa os dois lados, encontra o par certo e desenha a ligação. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "sudoku": "Nas atividades de Sudoku Ilustrado as crianças preenchem uma grade 4x4 colocando imagens para que cada linha, cada coluna e cada bloco tenha uma de cada. É um desafio de lógica sem números nem leitura, em que a criança observa o que já está na grade e deduz o que falta. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use o sudoku em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "find-and-count": "Nas atividades de Encontre e Conte as crianças encontram objetos numa cena e contam quantos há. É um exercício que une procurar e contar, trabalhando a contagem e a atenção visual com apoio de imagens. A criança percorre a cena, localiza cada item e registra o total, fazendo a associação número-quantidade. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "prepositions": "Nas atividades de Preposições as crianças escolhem a imagem que mostra uma posição: em, sobre, embaixo, ao lado. É um exercício de raciocínio espacial e linguagem que liga a palavra ao que se vê, feito com apoio de imagens. A criança observa a cena, compara as opções e marca a que combina com a posição pedida. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "picture-sort": "Nas atividades de Ordenar Imagens as crianças classificam imagens em grupos ou categorias, separando cada figura no lugar certo. É um exercício de classificar que fortalece a atenção e a linguagem das categorias, feito com apoio de imagens e sem exigir leitura. A criança observa, decide e agrupa, explicando o critério usado. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "big-small": "Nas atividades de Grande ou Pequeno as crianças encontram o maior ou o menor e ordenam objetos por tamanho. São as primeiras noções de tamanho, trabalhadas com apoio de imagens e sem exigir leitura. A criança compara, escolhe e organiza, desenvolvendo a percepção visual e a linguagem de comparação. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "more-less": "Nas atividades de Mais ou Menos as crianças comparam dois grupos de imagens e decidem qual tem mais, qual tem menos ou se os grupos são iguais. É um exercício de associação número-quantidade que dispensa leitura, ideal para os primeiros passos com comparação. A criança observa, conta com apoio de imagens e marca a resposta. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "math-puzzle": "Nas atividades de Quebra-cabeça Matemático as crianças arrastam peças para completar um quebra-cabeça numérico, encaixando cada parte no lugar certo. O exercício desenvolve o senso numérico e a capacidade de planejar, porque a criança precisa observar o todo antes de mover cada peça. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use o quebra-cabeça em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "math-worksheet": "As atividades de Matemática trazem prática geral de números: operações variadas, partes que faltam para completar, somas e subtrações em diferentes formatos. A criança lê cada situação, conta com apoio de imagens quando preciso e escreve a sentença matemática, ganhando segurança no cálculo. É um material flexível para a educação infantil e o início do ensino fundamental, fácil de adaptar ao ritmo da turma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "missing-pieces": "Nas atividades de Peças Faltantes as crianças arrastam a peça recortada certa para cada buraco e completam a imagem. É um exercício de discriminação visual e raciocínio espacial em que a criança compara as formas, observa as cores e encaixa cada parte no lugar correto. Funciona com apoio de imagens e sem exigir leitura. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "odd-one-out": "Nas atividades de Qual é Diferente as crianças escolhem a imagem que não pertence ao grupo e pensam por quê. É um exercício de classificar e raciocinar, em que a criança compara os elementos, percebe a característica comum e identifica o intruso. Funciona com apoio de imagens e sem exigir leitura. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para conversar sobre as escolhas. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "shadow-match": "Nas atividades de Pareamento de Sombras as crianças ligam cada objeto à sua sombra, observando forma e contorno. É um exercício de discriminação visual em que a criança compara o desenho colorido com a silhueta correta e traça a ligação. Funciona bem sem leitura e ajuda a apurar o olhar para detalhes. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "code-addition": "Nas atividades de Adição com Código as crianças resolvem somas pequenas cujos resultados correspondem a letras e, ao reunir as letras, revelam uma palavra. O exercício une cálculo e leitura inicial de forma curiosa: cada conta certa traz uma pista. A criança soma com apoio de imagens quando preciso e descobre a palavra escondida. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "pattern-train": "Nas atividades de Trem de Padrões as crianças continuam o padrão de imagens ao longo dos vagões de um trem, escolhendo o que vem a seguir. É uma forma divertida de trabalhar sequências e padrões com apoio de imagens, ideal para a educação infantil e o início do ensino fundamental. A criança observa o ritmo das figuras e completa cada vagão na ordem certa. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use o trem em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "picture-path": "Nas atividades de Caminho Ilustrado as crianças traçam um caminho por uma grade até o objetivo. É um exercício de raciocínio espacial e direção em que a criança escolhe os passos, casa a casa, sem se perder. Funciona com apoio de imagens e desafia o olhar a planejar a rota antes de seguir. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "treasure-hunt": "Nas atividades de Caça ao Tesouro as crianças seguem pistas de direção por uma grade até chegar ao tesouro. É um exercício de raciocínio espacial e direções em que a criança lê ou ouve cada passo e move-se casa a casa no caminho certo. Funciona com apoio de imagens e desperta a curiosidade de descobrir o final. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "preschool": "As fichas para educação infantil creche são pensadas para as crianças de 3 a 5 anos, antes da leitura. Em cada ficha as crianças contam pequenas quantidades, fazem a associação e a classificação de imagens, comparam grande e pequeno, escolhem qual não pertence e traçam as primeiras letras. Tudo acontece com apoio de imagens e gestos simples, sem exigir leitura. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
+    "kindergarten": "As fichas para educação infantil pré-escola reúnem o que as crianças de 5 a 7 anos trabalham de forma lúdica e preparatória. Em cada ficha as crianças contam pequenas quantidades, fazem primeiras somas e primeiras subtrações, fazem a associação número-quantidade, aprendem a classificar e a continuar sequências e padrões, reconhecem letras e seus sons e montam primeiras palavras com apoio de imagens. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Combine algumas fichas em cantinhos ou estações na sala de aula. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
+    "grade-1": "As fichas para 1º ano do ensino fundamental acompanham as crianças de 6 a 8 anos no início da escrita e do cálculo. Em cada ficha as crianças somam e subtraem até 20, organizam dezenas e unidades, juntam letras para formar primeiras palavras e praticam a leitura inicial, além de atividades de lógica com apoio de imagens. O material parte do concreto e avança aos poucos para a sentença matemática e para textos mais longos. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
+    "grade-2": "As fichas para 2º ano do ensino fundamental acompanham as crianças de 7 a 9 anos em desafios maiores. Em cada ficha as crianças somam e subtraem com dois dígitos, começam a multiplicação, organizam dezenas e centenas, leem textos mais longos e trabalham com palavras, incluindo palavras cruzadas e caça-palavras, além de atividades de lógica. O material reforça a sentença matemática e amplia o vocabulário. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
     "addition__animals": "As atividades de adição com tema de animais associam a operação que as crianças estão praticando a um vocabulário que já conhecem bem. O formato reduz a carga cognitiva sobre a imagem e a mantém sobre a aritmética: útil para crianças que ainda estão construindo sua base de fatos de adição.",
     "animals__subtraction": "As atividades de subtração com tema de animais mostram o tirar com criaturas que as crianças reconhecem de imediato, o que torna a operação mais fácil de ler. As imagens mantêm o foco na própria subtração.",
     "alphabet-train__animals": "As atividades do trem do alfabeto com tema de animais usam nomes de animais como âncoras alfabéticas: cada vagão representa um animal cujo nome começa com uma letra diferente. O pareamento reforça a correspondência letra-som enquanto as crianças praticam a sequência alfabética.",
@@ -1494,7 +2657,65 @@
     "code-addition__kindergarten": "As atividades de adição codificada de educação infantil (pré-escola, 5-7 anos) dão à prática aritmética uma moldura de alfabetização: cada soma decodifica uma letra ou palavra, o que faz a prática parecer intencional para crianças que têm os fatos básicos mas precisam de motivação.",
     "kindergarten__pattern-train": "As atividades do trem de padrões de educação infantil (pré-escola, 5-7 anos) praticam o reconhecimento de padrões — alternado, repetido, crescente — em um formato de trem visualmente fácil de ler. O reconhecimento de padrões é fundador em matemática e em leitura.",
     "kindergarten__picture-path": "As atividades de caminho ilustrado de educação infantil (pré-escola, 5-7 anos) praticam a busca de rotas por uma grade, exercitando raciocínio espacial e paciência. Crianças neste nível de desenvolvimento estão prontas para considerar rotas antes de pôr o lápis no papel.",
-    "grade-1__treasure-hunt": "As caças ao tesouro de 1º ano dão às crianças uma sequência de instruções direcionais de vários passos a seguir numa grade. A atividade constrói raciocínio espacial, memória de trabalho e fluência de vocabulário direcional num nível que crianças do 1º ano conseguem sustentar."
+    "grade-1__treasure-hunt": "As caças ao tesouro de 1º ano dão às crianças uma sequência de instruções direcionais de vários passos a seguir numa grade. A atividade constrói raciocínio espacial, memória de trabalho e fluência de vocabulário direcional num nível que crianças do 1º ano conseguem sustentar.",
+    "cryptogram": "Nas atividades de Criptograma as crianças decifram um código de imagens e símbolos para escrever uma palavra. Cada figura corresponde a uma letra, e a criança usa a legenda para descobrir, uma a uma, as letras escondidas. O exercício une reconhecimento das letras e escrita inicial de um jeito curioso. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "find-objects": "Nas atividades de Encontre os Objetos as crianças procuram objetos escondidos numa cena e marcam cada um que acham. É um exercício de discriminação visual que apura a atenção aos detalhes, feito com apoio de imagens e sem exigir leitura. A criança percorre a cena com os olhos, localiza cada item da lista e o assinala. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "word-guess": "Nas atividades de Adivinhe a Palavra as crianças preenchem as lacunas para escrever a palavra de uma imagem, letra a letra. É um exercício de reconhecimento das letras e escrita inicial em que a figura serve de pista e a criança completa o que falta. Funciona com apoio de imagens e trabalha as primeiras palavras pela silabação e pelos sons das letras. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "word-scramble": "Nas atividades de Letras Embaralhadas as crianças ordenam letras embaralhadas para escrever a palavra de uma imagem. É um exercício de ortografia inicial em que a figura indica a palavra e a criança reorganiza as letras na ordem certa. Funciona com apoio de imagens e reforça as primeiras palavras pela silabação e pelos sons das letras. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "bingo": "Nas atividades de Bingo as crianças marcam na cartela a imagem, a letra ou o número que é cantado. É uma brincadeira de turma toda que combina escutar e revisar, com apoio de imagens e participação de todos. A criança ouve com atenção, procura o item na cartela e o assinala, treinando o reconhecimento de forma divertida. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use o bingo com a turma toda ou em cantinhos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "pattern-worksheet": "Nas atividades de Padrões as crianças leem e continuam um padrão que se repete, do tipo AB ou ABC. É um exercício de sequências e padrões que desenvolve o raciocínio, feito com apoio de imagens e sem exigir leitura. A criança percebe o ritmo das figuras e completa o que vem a seguir, mantendo a regra. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "grid-match": "Nas atividades de Pareamento em Grade as crianças arrastam peças para o lugar certo numa grade. É um exercício que une parear e memória visual, em que a criança observa o modelo, localiza a posição correta e encaixa cada peça. Funciona com apoio de imagens e sem exigir leitura, apurando a atenção aos detalhes. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "chart-count": "Nas atividades de Contagem em Gráfico as crianças contam objetos e preenchem a coluna de um gráfico de barras. É um exercício que une contar e os primeiros dados, em que a criança conta com apoio de imagens e marca a altura certa da barra. Assim ela faz a associação número-quantidade e começa a ler informações de forma simples. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "crossword": "Nas atividades de Palavras Cruzadas as crianças usam pistas de imagem e escrevem letras na grade que se cruza. É um exercício de ortografia e vocabulário em que cada figura indica uma palavra e a criança a encaixa na grade, letra a letra. As palavras que se cruzam reforçam o reconhecimento das letras e a escrita. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
+    "4th_of_july": "O 4 de Julho é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras festivas reaparecem nas atividades com tema 4 de Julho, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você pode usar o mesmo tema na língua da sua turma.",
+    "flowers": "O conjunto de imagens conhecidas de Flores observa a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Flores, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "dinosaurs": "O conjunto de imagens conhecidas de Dinossauros desperta a curiosidade e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Dinossauros, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "activities": "O conjunto de imagens conhecidas de Atividades mostra cenas do dia a dia e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Atividades, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "toys": "O conjunto de imagens conhecidas de Brinquedos é familiar para as crianças e acompanha muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Brinquedos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "accessories": "O conjunto de imagens conhecidas de Acessórios traz objetos do dia a dia e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Acessórios, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "at_the_supermarket": "No supermercado é um cenário cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema No supermercado, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "camping": "O conjunto de imagens conhecidas de Acampamento traz a vida ao ar livre e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Acampamento, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "easter": "A Páscoa é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras reaparecem nas atividades com tema Páscoa, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "fruits": "O conjunto de imagens conhecidas de Frutas faz parte da vida cotidiana e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Frutas, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "occupations": "Profissões é um tema cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Profissões, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "ocean_life": "O conjunto de imagens conhecidas de Vida marinha leva o olhar para baixo do mar e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Vida marinha, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "space": "Espaço é um tema de observação e descoberta, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Espaço, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "things_that_fly": "O conjunto de imagens conhecidas de Coisas que voam convida a olhar para o céu e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Coisas que voam, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "vehicles": "O conjunto de imagens conhecidas de Veículos traz caminhão, ônibus e trem e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Veículos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "winter": "O Inverno é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras reaparecem nas atividades com tema Inverno, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "around_the_house": "Pela casa é um tema cheio de vocabulário real do dia a dia, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Pela casa, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "bakery": "A Padaria é um cenário cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Padaria, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "beach": "O conjunto de imagens conhecidas de Praia traz a vida ao ar livre e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Praia, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "body_parts": "Partes do corpo é um tema próximo da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Partes do corpo, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "christmas": "O Natal é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras festivas reaparecem nas atividades com tema Natal, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "classroom": "A Sala de aula é um cenário cheio de vocabulário real do dia a dia, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Sala de aula, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "clothing": "O conjunto de imagens conhecidas de Roupas faz parte da vida cotidiana e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Roupas, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "forest_creatures": "O conjunto de imagens conhecidas de Criaturas da floresta convida a observar a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Criaturas da floresta, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "hospital": "O Hospital é um cenário cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Hospital, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "kitchen_tools": "Utensílios de cozinha é um tema cheio de vocabulário real do dia a dia, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Utensílios de cozinha, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "spring": "A Primavera é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras reaparecem nas atividades com tema Primavera, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "summer": "O Verão é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras reaparecem nas atividades com tema Verão, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "tree": "O conjunto de imagens conhecidas de Árvores convida a observar a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Árvores, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "weather": "Clima é um tema de observação da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Clima, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "zoo_animals": "O conjunto de imagens conhecidas de Animais do zoológico desperta a curiosidade e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Animais do zoológico, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "breakfast": "O conjunto de imagens conhecidas de Café da manhã faz parte da vida cotidiana e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Café da manhã, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "desserts_and_sweets": "O conjunto de imagens conhecidas de Sobremesas e doces faz parte da vida cotidiana e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Sobremesas e doces, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "furniture": "Móveis é um tema cheio de vocabulário real do dia a dia, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Móveis, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "pets": "O conjunto de imagens conhecidas de Animais de estimação é familiar para as crianças e acompanha muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Animais de estimação, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "tools": "Ferramentas é um tema cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Ferramentas, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "vegetables": "O conjunto de imagens conhecidas de Vegetais faz parte da vida cotidiana e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Vegetais, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil na rotina e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "birds_2": "Pássaros 2 traz uma segunda coleção de atividades de pássaros com mais figuras conhecidas para acompanhar as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Pássaros 2, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "farm_animals": "O conjunto de imagens conhecidas de Animais da fazenda é familiar para as crianças e acompanha muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Animais da fazenda, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",
+    "music": "Música é um tema cheio de vocabulário real e faz de conta, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Música, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "reptiles_and_amphibians": "O conjunto de imagens conhecidas de Répteis e anfíbios desperta a curiosidade e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Répteis e anfíbios, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "emotions": "Emoções é um tema de observação da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Emoções, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "thanksgivinng": "O Dia de Ação de Graças é uma boa ocasião para praticar na época do ano com um conjunto de imagens conhecidas. As mesmas figuras reaparecem nas atividades com tema Dia de Ação de Graças, levando as crianças pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "insects_and_bugs": "O conjunto de imagens conhecidas de Insetos e bichos convida a observar a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Insetos e bichos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "post_office": "Os Correios são um cenário cheio de vocabulário real e faz de conta, e suas figuras acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Correios, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "shapes": "Formas é um tema de observação que faz parte da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Formas, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "birds": "O conjunto de imagens conhecidas de Pássaros convida a observar a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Pássaros, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "colors": "Cores é um tema de observação que faz parte da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Cores, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "miscellaneous": "Diversos reúne um conjunto variado de imagens conhecidas que acompanha as crianças por muitas habilidades. As figuras reaparecem nas atividades com tema Diversos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma."
   },
   "bulk": {
     "toggleSelect": "Select",

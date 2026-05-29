@@ -1385,13 +1385,13 @@
       "axis": "exercise-type",
       "axisKey": "math-worksheet",
       "url": "https://www.lessoncraftstudio.com/it/topic/scheda-di-matematica/",
-      "primaryKeyword": "Schede di Scheda Di Matematica",
+      "primaryKeyword": "Schede di Matematica",
       "secondaryKeywords": [
-        "schede di Scheda Di Matematica da stampare",
-        "Scheda Di Matematica in PDF",
-        "Scheda Di Matematica scuola primaria"
+        "schede di matematica da stampare",
+        "matematica in PDF",
+        "matematica scuola primaria"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -2025,13 +2025,13 @@
       "axis": "exercise-type",
       "axisKey": "pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/it/topic/scheda-di-modelli/",
-      "primaryKeyword": "Schede di Scheda Di Modelli",
+      "primaryKeyword": "Schede di Modelli",
       "secondaryKeywords": [
-        "schede di Scheda Di Modelli da stampare",
-        "Scheda Di Modelli in PDF",
-        "Scheda Di Modelli scuola primaria"
+        "schede di modelli da stampare",
+        "modelli in PDF",
+        "modelli scuola primaria"
       ],
-      "source": "grammar",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

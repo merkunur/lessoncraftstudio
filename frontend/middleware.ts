@@ -91,6 +91,24 @@ function return410(): NextResponse {
 const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery|teaching-packages|lesson-plans|flashcards|themed-bundles)(?:\/.*)?$/;
 
 /**
+ * Native-language URL slugs of the 3 LIVE manipulative landing pages
+ * (ten-frame, number-line, ruler) across all 11 locales. Mirrors
+ * frontend/messages/tool-content/<locale>.json (SoT). `/<locale>/tools/<slug>`
+ * for any slug in this set is carved out of the 410 teardown in
+ * isRemovedRoute(); every other /tools/<slug> stays 410.
+ */
+const LIVE_TOOL_SLUGS = new Set([
+  // ten-frame
+  'ten-frame', 'zehnerfeld', 'marco-de-diez', 'cadre-de-dix', 'tabella-del-dieci',
+  'quadro-de-dez', 'tienraam', 'tioram', 'tierramme', 'kymmenruudukko',
+  // number-line
+  'number-line', 'zahlenstrahl', 'recta-numerica', 'ligne-numerique', 'linea-dei-numeri',
+  'reta-numerica', 'getallenlijn', 'tallinje', 'lukusuora',
+  // ruler
+  'ruler', 'lineal', 'regla', 'regle', 'righello', 'regua', 'liniaal', 'linjal', 'viivain',
+]);
+
+/**
  * Standalone removed paths (sitemap-related + pre-pivot relics).
  * Note: /image-sitemap-index.xml and /video-sitemap-index.xml are normally
  * suppressed by the matcher's directory exclusion — included here for
@@ -102,6 +120,15 @@ function isRemovedRoute(pathname: string): boolean {
   // Seller-era sub-paths like /<locale>/tools/kdp-royalty-calculator are
   // still caught by REMOVED_PREFIXES below since they include a sub-path.
   if (/^\/[a-z]{2}\/tools\/?$/.test(pathname)) return false;
+
+  // CARVE-OUT: /<locale>/tools/<native-slug>/ for the 3 live manipulatives
+  // (ten-frame, number-line, ruler) are LIVE per-tool SSR landing pages
+  // (frontend/app/[locale]/tools/[tool]/page.tsx, 2026-05-30). Only these
+  // exact native-language slugs are carved out; every other /tools/<slug>
+  // stays 410. SoT: frontend/messages/tool-content/<locale>.json — keep
+  // LIVE_TOOL_SLUGS in sync when a tool/locale slug is added or changed.
+  const toolMatch = pathname.match(/^\/[a-z]{2}\/tools\/([^/]+)\/?$/);
+  if (toolMatch && LIVE_TOOL_SLUGS.has(toolMatch[1])) return false;
 
   if (REMOVED_PREFIXES.test(pathname)) return true;
 

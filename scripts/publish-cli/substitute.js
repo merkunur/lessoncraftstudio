@@ -69,6 +69,7 @@ var i18n = require('./i18n');
 var taxonomy = require('./taxonomy');
 var slugMod = require('./slug');
 var deckRichAlt = require('./deck-rich-alt');
+var hreflangCodes = require('./hreflang-codes');
 
 /**
  * Escape a string for use inside an HTML attribute (alt="…" / aria-label="…" /
@@ -265,9 +266,12 @@ function apply(opts) {
     var hlLines = ['<!-- HREFLANG_BLOCK_START -->'];
     sortedSibs.forEach(function (s) {
       var sUrl = CANONICAL_URL_BASE + '/' + s.language + '/decks/' + s.slug + '/';
-      hlLines.push('<link rel="alternate" hreflang="' + s.language + '" href="' + sUrl + '"/>');
+      // R5: emit BCP-47 hreflang code (pt→pt-BR) per hreflang.ts SoT, not the
+      // bare locale. URL path stays the bare locale (/pt/decks/…).
+      hlLines.push('<link rel="alternate" hreflang="' + hreflangCodes.getHreflangCode(s.language) + '" href="' + sUrl + '"/>');
     });
-    var xDef = sortedSibs.find(function (s) { return s.language === 'en'; }) || sortedSibs[0];
+    // R5: x-default prefers en → else oldest by publishedAt (not alpha-first → da).
+    var xDef = hreflangCodes.pickXDefault(opts.siblings);
     if (xDef) {
       var xUrl = CANONICAL_URL_BASE + '/' + xDef.language + '/decks/' + xDef.slug + '/';
       hlLines.push('<link rel="alternate" hreflang="x-default" href="' + xUrl + '"/>');
@@ -359,7 +363,12 @@ function apply(opts) {
     .replace(/__LINK_BROWSE_ALL__/g, linkBrowseAll)
     .replace(/__LINK_TEXT_BROWSE_ALL__/g, rBrowse.value)
     .replace(/<!-- HREFLANG_INSERTION_POINT -->/g, hreflangBlock)
-    .replace(/__DECK_END_SUGGESTIONS_HEADER__/g, rDeckEndHeader.value);
+    .replace(/__DECK_END_SUGGESTIONS_HEADER__/g, rDeckEndHeader.value)
+    // R5: normalize the app-baked bare <html lang="xx"> to the BCP-47 code
+    // (pt→pt-BR) per hreflang.ts SoT. publish-cli is the single choke point;
+    // idempotent (passthrough/same-string for non-pt locales).
+    .replace(/(<html\b[^>]*\blang=")([a-z-]+)(")/i,
+      function (_m, pre, _code, post) { return pre + hreflangCodes.getHreflangCode(locale) + post; });
 
   // Apply per-suggestion-slot substitutions (placeholders 15-32 per Commission B).
   // Each substitution is a literal-string replace (placeholder is a unique token

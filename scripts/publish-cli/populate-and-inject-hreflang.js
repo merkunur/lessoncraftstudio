@@ -32,6 +32,7 @@ var fs = require('fs');
 var path = require('path');
 var crypto = require('crypto');
 var db = require('./db');
+var hreflangCodes = require('./hreflang-codes');
 
 var DEFAULT_DECKS_DIR = '/var/www/lcs-media/decks';
 var CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com';
@@ -76,10 +77,11 @@ function buildHreflangBlock(siblings) {
   var lines = [HREFLANG_MARKER_START];
   sorted.forEach(function (s) {
     var url = CANONICAL_URL_BASE + '/' + s.language + '/decks/' + s.slug + '/';
-    lines.push('<link rel="alternate" hreflang="' + s.language + '" href="' + url + '"/>');
+    // R5: BCP-47 hreflang code (pt→pt-BR) per hreflang.ts SoT; URL path stays bare locale.
+    lines.push('<link rel="alternate" hreflang="' + hreflangCodes.getHreflangCode(s.language) + '" href="' + url + '"/>');
   });
-  // x-default → English if present, else first
-  var xDefault = sorted.find(function (s) { return s.language === 'en'; }) || sorted[0];
+  // R5: x-default prefers en → else oldest by publishedAt (not alpha-first → da).
+  var xDefault = hreflangCodes.pickXDefault(siblings);
   if (xDefault) {
     var xUrl = CANONICAL_URL_BASE + '/' + xDefault.language + '/decks/' + xDefault.slug + '/';
     lines.push('<link rel="alternate" hreflang="x-default" href="' + xUrl + '"/>');
@@ -133,7 +135,7 @@ async function main() {
     select: {
       id: true, slug: true, language: true,
       exerciseType: true, exerciseMode: true,
-      ageRange: true, contentFamilyId: true
+      ageRange: true, contentFamilyId: true, publishedAt: true
     }
   });
   console.log('[hreflang-v2] ' + rows.length + ' rows');
@@ -217,7 +219,7 @@ async function main() {
 
     // Build hreflang block (member list).
     var siblings = group.members.map(function (m) {
-      return { language: m.row.language, slug: m.row.slug };
+      return { language: m.row.language, slug: m.row.slug, publishedAt: m.row.publishedAt };
     });
     var block = buildHreflangBlock(siblings);
 

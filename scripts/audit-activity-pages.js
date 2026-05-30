@@ -76,7 +76,7 @@ function uniqueWordCount(text) {
   return new Set(words).size;
 }
 
-function checkPage(html, { locale, code }) {
+function checkPage(html, { locale, code, siblingLocaleCount = 0 }) {
   const text = stripToText(html);
   const uniqWords = uniqueWordCount(text);
   const totalWords = (text.match(/\S+/g) || []).length;
@@ -103,7 +103,9 @@ function checkPage(html, { locale, code }) {
     singleH1: h1Count === 1,
     standardsHubLink: standardsAnchor,
     relatedLink: relatedAnchor >= 1,
-    otherLanguageLink: otherLangAnchor >= 1,
+    // Only required when the activity actually has sibling locales. Single-
+    // locale activities (phonics) correctly have no translations to link.
+    otherLanguageLink: siblingLocaleCount === 0 ? true : otherLangAnchor >= 1,
     noLocaleLeak: leak.length === 0,
   };
   const failed = Object.entries(checks).filter(([, v]) => !v).map(([k]) => k);
@@ -135,7 +137,14 @@ async function main() {
   for (const row of rows) {
     for (const locale of args.locales) {
       const slug = row.slug && row.slug[locale];
-      if (slug) targets.push({ id: row.id, locale, slug, code: row.alignment.code, url: `${args.base}/${locale}/activities/${slug}/` });
+      if (slug) {
+        // How many OTHER locales this same activity exists in (sibling count).
+        // Single-locale activities (e.g. phonics: CVC builder is EN-only,
+        // syllable builders are one-locale-each per §20.2) legitimately have
+        // no translations, so the other-language-link check must not fail them.
+        const siblingLocaleCount = ALL_LOCALES.filter((l) => l !== locale && row.slug && row.slug[l]).length;
+        targets.push({ id: row.id, locale, slug, code: row.alignment.code, siblingLocaleCount, url: `${args.base}/${locale}/activities/${slug}/` });
+      }
     }
   }
   if (!targets.length) {

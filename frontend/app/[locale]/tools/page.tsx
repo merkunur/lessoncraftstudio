@@ -12,6 +12,7 @@ import {
 } from "@/config/topic-locales";
 import BreadcrumbTrail from "@/components/breadcrumbs/BreadcrumbTrail";
 import { CANONICAL_HOST, canonicalUrl, localePath } from "@/lib/seo/url";
+import { getToolContent, ToolKey } from "@/lib/seo/tool-content";
 
 /**
  * Manipulatives landing page — /<locale>/tools/
@@ -93,33 +94,44 @@ export default async function ManipulativesLandingPage({
         </header>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          {MANIPULATIVES.map((m) => {
-            const title = m.title[locale] ?? m.title.en;
-            const tagline = m.tagline[locale] ?? m.tagline.en;
-            const description = m.description[locale] ?? m.description.en;
-            return (
-              <div
-                key={m.id}
-                className="bg-cream-50 rounded-3xl shadow-md hover:shadow-lg transition-shadow p-5 md:p-6 flex flex-col"
-              >
-                <h2 className="font-display font-bold text-xl md:text-2xl text-teal-800 mb-1">
-                  {title}
-                </h2>
-                <p className="text-sm font-medium text-stone-600 italic mb-3">
-                  {tagline}
-                </p>
-                <p className="text-sm text-stone-700 leading-relaxed mb-5 flex-grow">
-                  {description}
-                </p>
-                <a
-                  href={`${m.mini_tool_url}?lang=${encodeURIComponent(locale)}`}
-                  className="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm transition-colors self-start"
+          {(await Promise.all(
+            MANIPULATIVES.map(async (m) => {
+              // Prefer the per-locale tool-content (real native copy + native
+              // slug for the dedicated SSR landing page). Fall back to the
+              // MANIPULATIVES table only if a locale's tool-content is absent.
+              const tc = await getToolContent(locale, m.id as ToolKey);
+              const title = tc?.name ?? m.title[locale] ?? m.title.en;
+              const tagline = tc?.tagline ?? m.tagline[locale] ?? m.tagline.en;
+              const description = tc?.about?.[0] ?? m.description[locale] ?? m.description.en;
+              // Card links to the SSR landing page (the indexable hop) when we
+              // have a native slug; else straight to the mini-tool.
+              const href = tc?.slug
+                ? localePath(locale, "tools", tc.slug)
+                : `${m.mini_tool_url}?lang=${encodeURIComponent(locale)}`;
+              return (
+                <div
+                  key={m.id}
+                  className="bg-cream-50 rounded-3xl shadow-md hover:shadow-lg transition-shadow p-5 md:p-6 flex flex-col"
                 >
-                  {strings.tryItLink} <span aria-hidden="true" className="ml-1">→</span>
-                </a>
-              </div>
-            );
-          })}
+                  <h2 className="font-display font-bold text-xl md:text-2xl text-teal-800 mb-1">
+                    {title}
+                  </h2>
+                  <p className="text-sm font-medium text-stone-600 italic mb-3">
+                    {tagline}
+                  </p>
+                  <p className="text-sm text-stone-700 leading-relaxed mb-5 flex-grow">
+                    {description}
+                  </p>
+                  <Link
+                    href={href}
+                    className="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-teal-700 hover:bg-teal-800 text-white font-semibold text-sm transition-colors self-start"
+                  >
+                    {strings.tryItLink} <span aria-hidden="true" className="ml-1">→</span>
+                  </Link>
+                </div>
+              );
+            }),
+          ))}
         </div>
       </article>
     </main>

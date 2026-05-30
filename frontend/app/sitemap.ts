@@ -329,6 +329,29 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] tools URLs failed; skipping:', (err as Error).message);
     }
 
+    // Per-tool landing pages — /<locale>/tools/<native-slug> (3 tools × 11
+    // locales = 33). Native-language slugs + hreflang per tool from the
+    // tool-content files. No DB IO.
+    try {
+      const { listToolSitemapEntries, hreflangAlternatesForTool } = await import('@/lib/seo/tool-content');
+      const toolEntries = await listToolSitemapEntries();
+      const hreflangByTool: Record<string, Record<string, string>> = {};
+      for (const { locale, slug, toolKey } of toolEntries) {
+        if (!hreflangByTool[toolKey]) {
+          hreflangByTool[toolKey] = await hreflangAlternatesForTool(toolKey, baseUrl);
+        }
+        routes.push({
+          url: `${baseUrl}/${locale}/tools/${slug}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: hreflangByTool[toolKey] },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] per-tool URLs failed; skipping:', (err as Error).message);
+    }
+
     // Activities + Topics index landings — one URL per locale (11 + 11 = 22).
     // Same hreflang shape: all 11 sibling locales + x-default.
     // Next.js-route paths are no-trailing-slash per `next.config.js:

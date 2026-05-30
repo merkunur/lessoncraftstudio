@@ -1,10 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import Script from 'next/script';
 import { getTranslations } from 'next-intl/server';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { ogLocaleMap } from '@/lib/schema-generator';
+import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import {
   StandardMetadata,
@@ -116,7 +117,10 @@ export async function generateMetadata({
       }),
       url: canonical,
       siteName: 'LessonCraftStudio',
-      locale: params.locale,
+      locale: ogLocaleMap[params.locale] || params.locale,
+      alternateLocale: TOPIC_ENABLED_LOCALES
+        .filter((l) => l !== params.locale)
+        .map((l) => ogLocaleMap[l] || l),
       type: 'article',
       images: [
         {
@@ -135,7 +139,7 @@ export async function generateMetadata({
         code: meta.code,
         strand: meta.strand,
       }),
-      images: [`${CANONICAL_HOST}/og-homepage.png`],
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
     robots: { index: true, follow: true },
   };
@@ -203,6 +207,16 @@ export default async function StandardsPage({
     strand: meta.strand,
     grade: localizedGrade,
   });
+
+  // BreadcrumbList JSON-LD (R12) — mirrors the visible BreadcrumbTrail below
+  // (Home › Standards[→/activities/] › code). buildBreadcrumbSchema does not
+  // auto-prepend Home, so it's listed explicitly to match the visible trail.
+  const tBreadcrumb = await getTranslations({ locale: params.locale, namespace: 'topicPage.breadcrumb' });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: tBreadcrumb('home'), path: localePath(params.locale) },
+    { name: t('standardsBreadcrumb'), path: localePath(params.locale, 'activities') },
+    { name: meta.code, path: localePath(params.locale, 'standards', codeUrlSegment(meta.code)) },
+  ] as BreadcrumbCrumb[]);
 
   return (
     <main className="bg-cream-100 min-h-[calc(100vh-200px)] py-6 px-3 md:py-10 md:px-6">
@@ -331,10 +345,11 @@ export default async function StandardsPage({
           pageUrl={canonicalUrl(localePath(params.locale, 'standards', codeUrlSegment(meta.code)))}
         />
 
-        <Script
+        {/* LearningResource + AlignmentObject — plain SSR <script> so the
+            curriculum-alignment markup ships in the initial HTML (R8; was
+            next/script afterInteractive → invisible to the initial fetch). */}
+        <script
           type="application/ld+json"
-          id={`standards-jsonld-${meta.code}`}
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: jsonLdFor(
               meta,
@@ -344,6 +359,10 @@ export default async function StandardsPage({
               intro,
             ),
           }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </article>
     </main>

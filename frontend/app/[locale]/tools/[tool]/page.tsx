@@ -2,7 +2,9 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+import { getTranslations } from 'next-intl/server';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
@@ -65,7 +67,9 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
   const canonical = canonicalUrl(localePath(params.locale, 'tools', params.tool));
   const otherLocales = (await existingToolLocales(toolKey)).filter((l) => l !== params.locale);
   return {
-    title: content.metaTitle,
+    // metaTitle already carries "| LessonCraftStudio"; use absolute to bypass
+    // the root layout's `%s · LessonCraftStudio` template (no double-brand). R11a.
+    title: { absolute: content.metaTitle },
     description: content.metaDescription,
     alternates: {
       canonical,
@@ -96,7 +100,7 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
       card: 'summary_large_image',
       title: content.metaTitle,
       description: content.metaDescription,
-      images: [`${CANONICAL_HOST}/og-homepage.png`],
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
     robots: { index: true, follow: true },
   };
@@ -151,6 +155,15 @@ export default async function ToolPage({ params }: { params: PageParams }) {
     const c = await getToolContent(loc, toolKey);
     if (c && c.slug) otherLangs.push({ locale: loc, href: `/${loc}/tools/${c.slug}` });
   }
+
+  // BreadcrumbList JSON-LD (R12) — mirrors the visible BreadcrumbTrail
+  // (Home › Tools › name).
+  const tBreadcrumb = await getTranslations({ locale: params.locale, namespace: 'topicPage.breadcrumb' });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: tBreadcrumb('home'), path: localePath(params.locale) },
+    { name: content.labels.toolsBreadcrumb, path: localePath(params.locale, 'tools') },
+    { name: content.name, path: localePath(params.locale, 'tools', params.tool) },
+  ] as BreadcrumbCrumb[]);
 
   return (
     <main className="bg-cream-50 pt-4 pb-4 px-4 md:pt-6 md:pb-6 md:px-8 lg:pt-8">
@@ -259,6 +272,10 @@ export default async function ToolPage({ params }: { params: PageParams }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLdFor({ name: content.name, metaDescription: content.metaDescription, toolKey }, params.locale, params.tool) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </article>
     </main>

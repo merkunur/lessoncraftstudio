@@ -17,6 +17,7 @@ import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
 import { getAxisSlug, getAxisName } from '@/lib/taxonomy';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { SUPPORTED_LOCALES } from '@/config/locales';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
@@ -99,7 +100,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       card: 'summary_large_image',
       title,
       description,
-      images: [`${CANONICAL_HOST}${OG_IMAGE_PATH}`],
+      images: [{ url: `${CANONICAL_HOST}${OG_IMAGE_PATH}`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
     robots: { index: true, follow: true },
   };
@@ -154,8 +155,44 @@ export default async function AllWorksheetsPage({
   const h1 = useHundreds ? t('h1.hundreds') : t('h1.safer');
   const intro = useHundreds ? t('intro.hundreds') : t('intro.safer');
 
+  // R13 — structured data for the worksheets hub (was zero JSON-LD).
+  // CollectionPage + ItemList (wraps the exercise-type tiles) + BreadcrumbList.
+  const canonical = canonicalUrl(localePath(locale, 'worksheets'));
+  const collectionSchema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: h1,
+    description: intro,
+    inLanguage: locale,
+    isAccessibleForFree: true,
+    url: canonical,
+  };
+  if (tiles.length > 0) {
+    collectionSchema.mainEntity = {
+      '@type': 'ItemList',
+      numberOfItems: tiles.length,
+      itemListElement: tiles.map((tile, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: tile.typeName,
+        url: canonicalUrl(localePath(locale, 'topic', tile.typeSlug)),
+      })),
+    };
+  }
+  const [tBreadcrumb, tNav] = await Promise.all([
+    getTranslations({ locale, namespace: 'topicPage.breadcrumb' }),
+    getTranslations({ locale, namespace: 'nav.categories' }),
+  ]);
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: tBreadcrumb('home'), path: localePath(locale) },
+    { name: tNav('worksheets'), path: localePath(locale, 'worksheets') },
+  ]);
+
   return (
-    <main className="container mx-auto px-4 max-w-6xl py-16 md:py-24">
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <main className="container mx-auto px-4 max-w-6xl py-16 md:py-24">
       <h1 className="font-display font-semibold text-3xl md:text-5xl text-ink-900 leading-tight tracking-tight mb-6">
         {h1}
       </h1>
@@ -210,6 +247,7 @@ export default async function AllWorksheetsPage({
       )}
 
       <PageUsageBlock locale={locale} variant="hub" />
-    </main>
+      </main>
+    </>
   );
 }

@@ -14,9 +14,11 @@ import {
   resolveToolSlug,
   listToolSitemapEntries,
   hreflangAlternatesForTool,
+  existingToolLocales,
   ToolKey,
 } from '@/lib/seo/tool-content';
 import { listAllActivities } from '@/lib/activities';
+import { ogLocaleMap } from '@/lib/schema-generator';
 
 /**
  * Per-tool landing page — /<locale>/tools/<native-slug>/
@@ -61,6 +63,7 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
   const content = await getToolContent(params.locale, toolKey);
   if (!content) return {};
   const canonical = canonicalUrl(localePath(params.locale, 'tools', params.tool));
+  const otherLocales = (await existingToolLocales(toolKey)).filter((l) => l !== params.locale);
   return {
     title: content.metaTitle,
     description: content.metaDescription,
@@ -73,7 +76,11 @@ export async function generateMetadata({ params }: { params: PageParams }): Prom
       description: content.metaDescription,
       url: canonical,
       siteName: 'LessonCraftStudio',
-      locale: params.locale,
+      // og:locale / og:locale:alternate kept consistent with the hreflang set:
+      // existingToolLocales is the same honest-filtered slug-presence set that
+      // hreflangAlternatesForTool emits, mapped to OG locale codes.
+      locale: ogLocaleMap[params.locale] || params.locale,
+      alternateLocale: otherLocales.map((l) => ogLocaleMap[l] || l),
       type: 'article',
       images: [
         {

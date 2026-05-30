@@ -229,6 +229,13 @@ function deriveSeedFromManifest(manifest) {
   var parts = [];
   if (manifest.exercise_type) parts.push(localizeAxisKey('exercise-type', manifest.exercise_type, locale));
   if (manifest.exercise_mode) parts.push(localizeAxisKey('exercise-mode', manifest.exercise_mode, locale));
+  // NOTE: compound cross-theme keys (X-vs-Y, e.g. odd-one-out / picture-sort
+  // cross-theme decks) have no single taxonomy entry, so they fall back to the
+  // bare English key here (pre-existing behaviour; not localized). Localizing
+  // the sides would break the EN-invariant because single-theme slug.en is
+  // plural (tree → trees) while compound side-keys are singular. Compound-theme
+  // localization is a separate commission (needs singular/plural side-key
+  // resolution + EN-consistency handling); deferred deliberately.
   if (manifest.theme) parts.push(localizeAxisKey('theme', manifest.theme, locale));
   // Optional disambiguator per §11 future-arc-candidate "Manifest-disambiguator-field
   // for fresh-roll-variation slug shape" — promoted to active doctrine on the 345-en-wave

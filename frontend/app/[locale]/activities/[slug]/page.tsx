@@ -16,6 +16,8 @@ import {
   resolveActivitySlug,
   listActivitySitemapEntries,
   hreflangAlternatesForRow,
+  listRelatedActivities,
+  otherLocalesForRow,
   ActivityRow,
 } from '@/lib/activities';
 import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
@@ -23,6 +25,66 @@ import { ActivityIframe } from '@/components/activities/ActivityIframe';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
+import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
+
+// Internal-link-mesh strip headings (Part 2). Per-locale nav labels, inlined
+// here following the ACTIVITIES_SECTION_LABEL precedent (single-consumer
+// chrome). `{code}` in PRACTICE_HEADING is interpolated with the CC code.
+const RELATED_HEADING: Record<string, string> = {
+  en: 'More activities to try',
+  de: 'Weitere Aufgaben zum Ausprobieren',
+  es: 'Más actividades para probar',
+  fr: 'Plus d\'activités à essayer',
+  it: 'Altre attività da provare',
+  pt: 'Mais atividades para experimentar',
+  nl: 'Meer activiteiten om te proberen',
+  sv: 'Fler aktiviteter att prova',
+  da: 'Flere aktiviteter at prøve',
+  no: 'Flere aktiviteter å prøve',
+  fi: 'Lisää tehtäviä kokeiltavaksi',
+};
+
+const PRACTICE_HEADING: Record<string, string> = {
+  en: 'Practice this standard',
+  de: 'Diesen Standard üben',
+  es: 'Practica este estándar',
+  fr: 'Travailler ce standard',
+  it: 'Esercita questo standard',
+  pt: 'Pratique este padrão',
+  nl: 'Oefen deze standaard',
+  sv: 'Öva på denna standard',
+  da: 'Øv denne standard',
+  no: 'Øv på denne standarden',
+  fi: 'Harjoittele tätä standardia',
+};
+
+const PRACTICE_LINK: Record<string, string> = {
+  en: 'See all {code} activities',
+  de: 'Alle {code}-Aufgaben ansehen',
+  es: 'Ver todas las actividades de {code}',
+  fr: 'Voir toutes les activités {code}',
+  it: 'Vedi tutte le attività {code}',
+  pt: 'Ver todas as atividades de {code}',
+  nl: 'Bekijk alle {code}-activiteiten',
+  sv: 'Se alla {code}-aktiviteter',
+  da: 'Se alle {code}-aktiviteter',
+  no: 'Se alle {code}-aktiviteter',
+  fi: 'Katso kaikki {code}-tehtävät',
+};
+
+const OTHER_LANGS_HEADING: Record<string, string> = {
+  en: 'Available in other languages',
+  de: 'In anderen Sprachen verfügbar',
+  es: 'Disponible en otros idiomas',
+  fr: 'Disponible dans d\'autres langues',
+  it: 'Disponibile in altre lingue',
+  pt: 'Disponível em outros idiomas',
+  nl: 'Beschikbaar in andere talen',
+  sv: 'Tillgängligt på andra språk',
+  da: 'Tilgængelig på andre sprog',
+  no: 'Tilgjengelig på andre språk',
+  fi: 'Saatavilla muilla kielillä',
+};
 
 // "Activities" section label per locale — used for the middle breadcrumb
 // crumb on individual activity landing pages. Same string as the title of
@@ -205,6 +267,19 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // in which case the page keeps its intro-only shape — never English prose
   // on a non-EN page.
   const content = await getActivityContent(params.locale, row);
+
+  // Internal-link mesh (Part 2) — ships for all 11 locales (navigation).
+  const related = await listRelatedActivities(row, params.locale);
+  const otherLangs = otherLocalesForRow(row, params.locale);
+  const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
+  const relatedHeading = RELATED_HEADING[params.locale] ?? RELATED_HEADING.en;
+  const practiceHeading = PRACTICE_HEADING[params.locale] ?? PRACTICE_HEADING.en;
+  const practiceLink = (PRACTICE_LINK[params.locale] ?? PRACTICE_LINK.en).replace(
+    '{code}',
+    row.alignment.code,
+  );
+  const otherLangsHeading =
+    OTHER_LANGS_HEADING[params.locale] ?? OTHER_LANGS_HEADING.en;
 
   // v7 cascade (post-K.NBT.A.1 prototype approval): all activities render
   // the operator-locked sage-field layout. The v6.x prototype gate
@@ -400,6 +475,86 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             strand={row.alignment.strand}
             pageUrl={canonicalUrl(localePath(params.locale, 'activities', params.slug))}
           />
+        </div>
+
+        {/* Internal-link mesh (Part 2) — crawlable <a> lists tying every
+            activity to its siblings, its Common Core standard hub, and its
+            own translations. Real anchors (not JS buttons) so they feed the
+            internal link graph. Ships for all 11 locales. */}
+        <div className="mx-auto max-w-2xl px-1 mt-10 space-y-10">
+          {/* Practice this standard — explicit crawl-bait anchor to the hub. */}
+          <section aria-labelledby="activity-practice-heading">
+            <h2
+              id="activity-practice-heading"
+              className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3"
+            >
+              {practiceHeading}
+            </h2>
+            <Link
+              href={standardsHref}
+              className="inline-flex items-center gap-1 text-teal-700 hover:text-teal-800 font-semibold underline decoration-2 underline-offset-2"
+            >
+              {practiceLink}
+              <span aria-hidden="true">→</span>
+            </Link>
+          </section>
+
+          {/* Related activities — same strand, then same grade. */}
+          {related.length > 0 && (
+            <section aria-labelledby="activity-related-heading">
+              <h2
+                id="activity-related-heading"
+                className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-4"
+              >
+                {relatedHeading}
+              </h2>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {related.map((r) => {
+                  const rTitle = r.page_title[params.locale];
+                  const rSlug = r.slug[params.locale];
+                  if (!rTitle || !rSlug) return null;
+                  return (
+                    <li key={r.id}>
+                      <Link
+                        href={localePath(params.locale, 'activities', rSlug)}
+                        className="flex items-center gap-2 rounded-2xl bg-cream-50 hover:bg-teal-50 px-4 py-3 text-teal-800 font-medium shadow-sm transition-colors"
+                      >
+                        <span className="font-mono text-xs text-teal-500">
+                          {r.alignment.code}
+                        </span>
+                        <span>{rTitle}</span>
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          )}
+
+          {/* Available in other languages — visible hreflang siblings. */}
+          {otherLangs.length > 0 && (
+            <section aria-labelledby="activity-langs-heading">
+              <h2
+                id="activity-langs-heading"
+                className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3"
+              >
+                {otherLangsHeading}
+              </h2>
+              <ul className="flex flex-wrap gap-2">
+                {otherLangs.map(({ locale, href }) => (
+                  <li key={locale}>
+                    <a
+                      href={href}
+                      hrefLang={locale}
+                      className="inline-flex items-center px-3 py-1.5 rounded-full bg-cream-50 hover:bg-teal-50 text-teal-800 text-sm transition-colors"
+                    >
+                      {LOCALE_NAMES[locale as SupportedLocale] ?? locale}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
         </div>
 
         {/* LearningResource structured data — plain <script> so it is present

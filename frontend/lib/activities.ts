@@ -156,3 +156,52 @@ export function hreflangAlternatesForRow(
 export function isTopicEnabledLocale(l: string): l is TopicEnabledLocale {
   return (TOPIC_ENABLED_LOCALES as readonly string[]).includes(l);
 }
+
+/**
+ * Related activities for the internal-link mesh on an activity page.
+ *
+ * From all activities (excluding the given row), keep only those that have a
+ * slug + title in `locale`, then rank: same strand first, then same grade,
+ * then the rest. Within each tier, manifest order is preserved — fully
+ * deterministic (no Date/random) so the result is ISR-cache-stable.
+ */
+export async function listRelatedActivities(
+  row: ActivityRow,
+  locale: string,
+  limit = 6,
+): Promise<ActivityRow[]> {
+  const all = await loadActivities();
+  const candidates = all.filter(
+    (a) => a.id !== row.id && a.slug[locale] && a.page_title[locale],
+  );
+  const sameStrand: ActivityRow[] = [];
+  const sameGrade: ActivityRow[] = [];
+  const rest: ActivityRow[] = [];
+  for (const a of candidates) {
+    if (a.alignment.strand === row.alignment.strand) sameStrand.push(a);
+    else if (a.alignment.grade === row.alignment.grade) sameGrade.push(a);
+    else rest.push(a);
+  }
+  return [...sameStrand, ...sameGrade, ...rest].slice(0, limit);
+}
+
+/**
+ * The same activity in its other available languages — for the visible
+ * "available in other languages" strip (makes the hreflang siblings
+ * on-page, not just in <head>). Returns Next.js route paths (locale-prefixed,
+ * trailing slash) for every locale ≠ current where the row has a slug.
+ */
+export function otherLocalesForRow(
+  row: ActivityRow,
+  currentLocale: string,
+): Array<{ locale: string; href: string }> {
+  const out: Array<{ locale: string; href: string }> = [];
+  for (const loc of TOPIC_ENABLED_LOCALES) {
+    if (loc === currentLocale) continue;
+    const slug = row.slug[loc];
+    // No trailing slash — Next.js routes per next.config.js trailingSlash:false
+    // (mirrors hreflangAlternatesForRow above; a trailing slash would 308).
+    if (slug) out.push({ locale: loc, href: `/${loc}/activities/${slug}` });
+  }
+  return out;
+}

@@ -100,7 +100,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       card: 'summary_large_image',
       title: t('ogTitle'),
       description: t('ogDescription'),
-      images: [`${BASE_URL}${OG_IMAGE_PATH}`],
+      images: [{ url: `${BASE_URL}${OG_IMAGE_PATH}`, alt: t('ogAlt') }],
     },
   };
 }

@@ -24,6 +24,7 @@ import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 import { ogLocaleMap } from '@/lib/schema-generator';
@@ -190,7 +191,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: row.page_title[params.locale],
       description: row.page_intro[params.locale],
-      images: [`${CANONICAL_HOST}/og-homepage.png`],
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
     robots: { index: true, follow: true },
   };
@@ -280,6 +281,15 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const otherLangs = otherLocalesForRow(row, params.locale);
   const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
   const relatedHeading = RELATED_HEADING[params.locale] ?? RELATED_HEADING.en;
+
+  // BreadcrumbList JSON-LD (R12) — mirrors the visible BreadcrumbTrail
+  // (Home › Activities › title).
+  const tBreadcrumb = await getTranslations({ locale: params.locale, namespace: 'topicPage.breadcrumb' });
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: tBreadcrumb('home'), path: localePath(params.locale) },
+    { name: sectionLabel, path: localePath(params.locale, 'activities') },
+    { name: row.page_title[params.locale], path: localePath(params.locale, 'activities', params.slug) },
+  ] as BreadcrumbCrumb[]);
   const practiceHeading = PRACTICE_HEADING[params.locale] ?? PRACTICE_HEADING.en;
   const practiceLink = (PRACTICE_LINK[params.locale] ?? PRACTICE_LINK.en).replace(
     '{code}',
@@ -570,6 +580,10 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLdFor(row, params.locale) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
         />
       </article>
     </main>

@@ -284,7 +284,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title', { topic: titleTopic }),
       description,
-      images: [`${CANONICAL_HOST}/og-homepage.png`],
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
   };
 }

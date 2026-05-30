@@ -3923,16 +3923,16 @@
       "find-addend": {
         "slug": {
           "en": "find-addend",
-          "de": null,
+          "de": "summand-finden",
           "es": "buscar-sumando",
-          "nl": null,
+          "nl": "zoek-de-optelterm",
           "it": "trova-l-addendo",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "trouve-le-terme",
+          "pt": "encontre-o-termo",
+          "sv": "hitta-termen",
+          "da": "find-addend",
+          "no": "finn-ledd",
+          "fi": "etsi-yhteenlaskettava"
         },
         "name": {
           "en": "Find Addend",
@@ -3951,16 +3951,16 @@
       "image-image": {
         "slug": {
           "en": "image-image",
-          "de": null,
+          "de": "bild-bild",
           "es": "imagen-imagen",
-          "nl": null,
+          "nl": "beeld-beeld",
           "it": "immagine-immagine",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "image-image",
+          "pt": "imagem-imagem",
+          "sv": "bild-bild",
+          "da": "billede-billede",
+          "no": "bilde-bilde",
+          "fi": "kuva-kuva"
         },
         "name": {
           "en": "Image-Image",
@@ -3979,16 +3979,16 @@
       "image-number": {
         "slug": {
           "en": "image-number",
-          "de": null,
+          "de": "bild-zahl",
           "es": "imagen-numero",
-          "nl": null,
+          "nl": "beeld-getal",
           "it": "immagine-numero",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "image-nombre",
+          "pt": "imagem-numero",
+          "sv": "bild-nummer",
+          "da": "billede-tal",
+          "no": "bilde-tall",
+          "fi": "kuva-numero"
         },
         "name": {
           "en": "Image-Number",
@@ -4007,16 +4007,16 @@
       "mixed": {
         "slug": {
           "en": "mixed",
-          "de": null,
+          "de": "gemischt",
           "es": "mixto",
-          "nl": null,
+          "nl": "gemengd",
           "it": "misto",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "mixte",
+          "pt": "misto",
+          "sv": "blandat",
+          "da": "blandet",
+          "no": "blandet",
+          "fi": "sekoitettu"
         },
         "name": {
           "en": "Mixed",
@@ -4035,16 +4035,16 @@
       "cross-out": {
         "slug": {
           "en": "cross-out",
-          "de": null,
+          "de": "durchstreichen",
           "es": "tachar",
-          "nl": null,
+          "nl": "doorstrepen",
           "it": "barrare",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "barrer",
+          "pt": "riscar",
+          "sv": "stryk-over",
+          "da": "streg-over",
+          "no": "strek-over",
+          "fi": "yliviivaa"
         },
         "name": {
           "en": "Cross Out",
@@ -4063,16 +4063,16 @@
       "find-subtrahend": {
         "slug": {
           "en": "find-subtrahend",
-          "de": null,
+          "de": "subtrahend-finden",
           "es": "buscar-sustraendo",
-          "nl": null,
+          "nl": "zoek-de-aftrekker",
           "it": "trova-il-sottraendo",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "trouve-le-soustracteur",
+          "pt": "encontre-o-subtraendo",
+          "sv": "hitta-subtrahenden",
+          "da": "find-subtrahend",
+          "no": "finn-subtrahend",
+          "fi": "etsi-vahentaja"
         },
         "name": {
           "en": "Find Subtrahend",
@@ -4091,16 +4091,16 @@
       "secret-word": {
         "slug": {
           "en": "secret-word",
-          "de": null,
+          "de": "geheimwort",
           "es": "palabra-secreta",
-          "nl": null,
+          "nl": "geheim-woord",
           "it": "parola-segreta",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "mot-secret",
+          "pt": "palavra-secreta",
+          "sv": "hemligt-ord",
+          "da": "hemmeligt-ord",
+          "no": "hemmelig-ord",
+          "fi": "salasana"
         },
         "name": {
           "en": "Secret Word",
@@ -4118,17 +4118,17 @@
       },
       "easy": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "easy",
+          "de": "leicht",
+          "es": "facil",
+          "nl": "makkelijk",
+          "it": "facile",
+          "fr": "facile",
+          "pt": "facil",
+          "sv": "latt",
+          "da": "let",
+          "no": "lett",
+          "fi": "helppo"
         },
         "name": {
           "en": "Easy",
@@ -4146,17 +4146,17 @@
       },
       "normal": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "normal",
+          "de": "normal",
+          "es": "normal",
+          "nl": "normaal",
+          "it": "normale",
+          "fr": "normal",
+          "pt": "normal",
+          "sv": "normal",
+          "da": "normal",
+          "no": "normal",
+          "fi": "normaali"
         },
         "name": {
           "en": "Normal",
@@ -4174,17 +4174,17 @@
       },
       "fillin": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "fillin",
+          "de": "luckentext",
+          "es": "completar",
+          "nl": "invullen",
+          "it": "riempi",
+          "fr": "a-completer",
+          "pt": "complete",
+          "sv": "fyll-i",
+          "da": "udfyld",
+          "no": "fyll-inn",
+          "fi": "tayta"
         },
         "name": {
           "en": "Fill-In",
@@ -4202,17 +4202,17 @@
       },
       "multiplechoice": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "multiplechoice",
+          "de": "multiple-choice",
+          "es": "opcion-multiple",
+          "nl": "meerkeuze",
+          "it": "scelta-multipla",
+          "fr": "choix-multiple",
+          "pt": "multipla-escolha",
+          "sv": "flerval",
+          "da": "flervalg",
+          "no": "flervalg",
+          "fi": "monivalinta"
         },
         "name": {
           "en": "Multiple Choice",
@@ -4230,17 +4230,17 @@
       },
       "findbig": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "findbig",
+          "de": "grosses-finden",
+          "es": "encontrar-el-grande",
+          "nl": "vind-de-grote",
+          "it": "trova-il-grande",
+          "fr": "trouve-le-grand",
+          "pt": "encontre-o-grande",
+          "sv": "hitta-den-stora",
+          "da": "find-den-store",
+          "no": "finn-den-store",
+          "fi": "etsi-iso"
         },
         "name": {
           "en": "Find Big",
@@ -4258,17 +4258,17 @@
       },
       "orderasc": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "orderasc",
+          "de": "aufsteigend-ordnen",
+          "es": "orden-ascendente",
+          "nl": "oplopende-volgorde",
+          "it": "ordine-crescente",
+          "fr": "ordre-croissant",
+          "pt": "ordem-crescente",
+          "sv": "stigande-ordning",
+          "da": "stigende-raekkefolge",
+          "no": "stigende-rekkefolge",
+          "fi": "nouseva-jarjestys"
         },
         "name": {
           "en": "Order Ascending",
@@ -4286,17 +4286,17 @@
       },
       "aab": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "aab",
+          "de": "aab",
+          "es": "aab",
+          "nl": "aab",
+          "it": "aab",
+          "fr": "aab",
+          "pt": "aab",
+          "sv": "aab",
+          "da": "aab",
+          "no": "aab",
+          "fi": "aab"
         },
         "name": {
           "en": "AAB",
@@ -4314,17 +4314,17 @@
       },
       "aabb": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "aabb",
+          "de": "aabb",
+          "es": "aabb",
+          "nl": "aabb",
+          "it": "aabb",
+          "fr": "aabb",
+          "pt": "aabb",
+          "sv": "aabb",
+          "da": "aabb",
+          "no": "aabb",
+          "fi": "aabb"
         },
         "name": {
           "en": "AABB",
@@ -4342,17 +4342,17 @@
       },
       "abb": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "abb",
+          "de": "abb",
+          "es": "abb",
+          "nl": "abb",
+          "it": "abb",
+          "fr": "abb",
+          "pt": "abb",
+          "sv": "abb",
+          "da": "abb",
+          "no": "abb",
+          "fi": "abb"
         },
         "name": {
           "en": "ABB",
@@ -4370,17 +4370,17 @@
       },
       "abc": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "abc",
+          "de": "abc",
+          "es": "abc",
+          "nl": "abc",
+          "it": "abc",
+          "fr": "abc",
+          "pt": "abc",
+          "sv": "abc",
+          "da": "abc",
+          "no": "abc",
+          "fi": "abc"
         },
         "name": {
           "en": "ABC",
@@ -4398,17 +4398,17 @@
       },
       "letter": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "letter",
+          "de": "buchstaben",
+          "es": "letras",
+          "nl": "letter",
+          "it": "lettera",
+          "fr": "lettre",
+          "pt": "letra",
+          "sv": "bokstav",
+          "da": "bogstav",
+          "no": "bokstav",
+          "fi": "kirjain"
         },
         "name": {
           "en": "Letter",
@@ -4426,17 +4426,17 @@
       },
       "name": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "name",
+          "de": "namen",
+          "es": "nombres",
+          "nl": "namen",
+          "it": "nomi",
+          "fr": "noms",
+          "pt": "nomes",
+          "sv": "namn",
+          "da": "navne",
+          "no": "navn",
+          "fi": "nimet"
         },
         "name": {
           "en": "Name",
@@ -4454,17 +4454,17 @@
       },
       "medium": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "medium",
+          "de": "mittel",
+          "es": "medio",
+          "nl": "gemiddeld",
+          "it": "medio",
+          "fr": "moyen",
+          "pt": "medio",
+          "sv": "medel",
+          "da": "mellem",
+          "no": "middels",
+          "fi": "keskitaso"
         },
         "name": {
           "en": "Medium",
@@ -4482,17 +4482,17 @@
       },
       "hard": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "hard",
+          "de": "schwer",
+          "es": "dificil",
+          "nl": "moeilijk",
+          "it": "difficile",
+          "fr": "difficile",
+          "pt": "dificil",
+          "sv": "svar",
+          "da": "svaer",
+          "no": "vanskelig",
+          "fi": "vaikea"
         },
         "name": {
           "en": "Hard",
@@ -4510,17 +4510,17 @@
       },
       "standard": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "standard",
+          "de": "standard",
+          "es": "estandar",
+          "nl": "standaard",
+          "it": "standard",
+          "fr": "standard",
+          "pt": "padrao",
+          "sv": "standard",
+          "da": "standard",
+          "no": "standard",
+          "fi": "vakio"
         },
         "name": {
           "en": "Standard",
@@ -4538,17 +4538,17 @@
       },
       "letter-spotting": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "letter-spotting",
+          "de": "buchstaben-suchen",
+          "es": "busqueda-de-letras",
+          "nl": "letters-zoeken",
+          "it": "trova-lettere",
+          "fr": "cherche-les-lettres",
+          "pt": "procurar-letras",
+          "sv": "hitta-bokstaver",
+          "da": "find-bogstaver",
+          "no": "finn-bokstaver",
+          "fi": "etsi-kirjaimia"
         },
         "name": {
           "en": "Letter Spotting",
@@ -4566,17 +4566,17 @@
       },
       "hidden-object": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "hidden-object",
+          "de": "versteckte-objekte",
+          "es": "objetos-escondidos",
+          "nl": "verborgen-objecten",
+          "it": "oggetti-nascosti",
+          "fr": "objets-caches",
+          "pt": "objetos-escondidos",
+          "sv": "gomda-foremal",
+          "da": "skjulte-genstande",
+          "no": "skjulte-gjenstander",
+          "fi": "piilotetut-esineet"
         },
         "name": {
           "en": "Hidden Object",
@@ -4594,17 +4594,17 @@
       },
       "i-spy": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "i-spy",
+          "de": "ich-sehe-was",
+          "es": "veo-veo",
+          "nl": "ik-zie-ik-zie",
+          "it": "vedo-vedo",
+          "fr": "je-vois-je-vois",
+          "pt": "vejo-vejo",
+          "sv": "jag-ser-jag-ser",
+          "da": "jeg-ser-jeg-ser",
+          "no": "jeg-ser-jeg-ser",
+          "fi": "naen-naen"
         },
         "name": {
           "en": "I Spy",
@@ -4622,17 +4622,17 @@
       },
       "find-odd": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "find-odd",
+          "de": "anders-finden",
+          "es": "encontrar-el-diferente",
+          "nl": "vind-de-andere",
+          "it": "trova-il-diverso",
+          "fr": "trouve-l-intrus",
+          "pt": "encontre-o-diferente",
+          "sv": "hitta-den-udda",
+          "da": "find-den-anderledes",
+          "no": "finn-den-som-er-ulik",
+          "fi": "etsi-erilainen"
         },
         "name": {
           "en": "Find the Odd One",
@@ -4650,17 +4650,17 @@
       },
       "addition": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
+          "en": "addition",
+          "de": "addition",
+          "es": "suma",
+          "nl": "optellen",
           "it": "addizione",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "addition",
+          "pt": "soma",
+          "sv": "addition",
+          "da": "addition",
+          "no": "addisjon",
+          "fi": "yhteenlasku"
         },
         "name": {
           "en": "Addition",
@@ -4678,17 +4678,17 @@
       },
       "subtraction": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
+          "en": "subtraction",
+          "de": "subtraktion",
+          "es": "resta",
+          "nl": "aftrekken",
           "it": "sottrazione",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "soustraction",
+          "pt": "subtracao",
+          "sv": "subtraktion",
+          "da": "subtraktion",
+          "no": "subtraksjon",
+          "fi": "vahennyslasku"
         },
         "name": {
           "en": "Subtraction",
@@ -4706,17 +4706,17 @@
       },
       "two-symbols-add": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "two-symbols-add",
+          "de": "2-symbole-addition",
+          "es": "2-simbolos-suma",
+          "nl": "2-symbolen-optellen",
+          "it": "2-simboli-addizione",
+          "fr": "2-symboles-addition",
+          "pt": "2-simbolos-soma",
+          "sv": "2-symboler-addition",
+          "da": "2-symboler-addition",
+          "no": "2-symboler-addisjon",
+          "fi": "2-symbolia-yhteenlasku"
         },
         "name": {
           "en": "2 Symbols, Addition",
@@ -4734,17 +4734,17 @@
       },
       "two-symbols-add-sub": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
+          "en": "two-symbols-add-sub",
+          "de": "2-symbole-add-sub",
+          "es": "2-simbolos-suma-resta",
+          "nl": "2-symbolen-optellen-aftrekken",
           "it": "2-simboli-add-sott",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "2-symboles-add-sous",
+          "pt": "2-simbolos-soma-sub",
+          "sv": "2-symboler-add-sub",
+          "da": "2-symboler-add-sub",
+          "no": "2-symboler-add-sub",
+          "fi": "2-symbolia-yht-vahen"
         },
         "name": {
           "en": "2 Symbols, Add+Sub",
@@ -4762,17 +4762,17 @@
       },
       "three-symbols-add": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "three-symbols-add",
+          "de": "3-symbole-addition",
+          "es": "3-simbolos-suma",
+          "nl": "3-symbolen-optellen",
+          "it": "3-simboli-addizione",
+          "fr": "3-symboles-addition",
+          "pt": "3-simbolos-soma",
+          "sv": "3-symboler-addition",
+          "da": "3-symboler-addition",
+          "no": "3-symboler-addisjon",
+          "fi": "3-symbolia-yhteenlasku"
         },
         "name": {
           "en": "3 Symbols, Addition",
@@ -4790,17 +4790,17 @@
       },
       "three-symbols-add-sub": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
+          "en": "three-symbols-add-sub",
+          "de": "3-symbole-add-sub",
+          "es": "3-simbolos-suma-resta",
+          "nl": "3-symbolen-optellen-aftrekken",
           "it": "3-simboli-add-sott",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "3-symboles-add-sous",
+          "pt": "3-simbolos-soma-sub",
+          "sv": "3-symboler-add-sub",
+          "da": "3-symboler-add-sub",
+          "no": "3-symboler-add-sub",
+          "fi": "3-symbolia-yht-vahen"
         },
         "name": {
           "en": "3 Symbols, Add+Sub",
@@ -4818,17 +4818,17 @@
       },
       "four-symbols-add": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "four-symbols-add",
+          "de": "4-symbole-addition",
+          "es": "4-simbolos-suma",
+          "nl": "4-symbolen-optellen",
+          "it": "4-simboli-addizione",
+          "fr": "4-symboles-addition",
+          "pt": "4-simbolos-soma",
+          "sv": "4-symboler-addition",
+          "da": "4-symboler-addition",
+          "no": "4-symboler-addisjon",
+          "fi": "4-symbolia-yhteenlasku"
         },
         "name": {
           "en": "4 Symbols, Addition",
@@ -4846,17 +4846,17 @@
       },
       "four-symbols-add-sub": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "four-symbols-add-sub",
+          "de": "4-symbole-add-sub",
+          "es": "4-simbolos-suma-resta",
+          "nl": "4-symbolen-optellen-aftrekken",
+          "it": "4-simboli-add-sott",
+          "fr": "4-symboles-add-sous",
+          "pt": "4-simbolos-soma-sub",
+          "sv": "4-symboler-add-sub",
+          "da": "4-symboler-add-sub",
+          "no": "4-symboler-add-sub",
+          "fi": "4-symbolia-yht-vahen"
         },
         "name": {
           "en": "4 Symbols, Add+Sub",
@@ -4874,17 +4874,17 @@
       },
       "one-missing": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "one-missing",
+          "de": "1-fehlendes-teil",
+          "es": "1-pieza-faltante",
+          "nl": "1-ontbrekend-stukje",
+          "it": "1-pezzo-mancante",
+          "fr": "1-piece-manquante",
+          "pt": "1-peca-faltando",
+          "sv": "1-saknad-bit",
+          "da": "1-manglende-brik",
+          "no": "1-manglende-brikke",
+          "fi": "1-puuttuva-pala"
         },
         "name": {
           "en": "1 Missing Piece",
@@ -4902,17 +4902,17 @@
       },
       "two-missing": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "two-missing",
+          "de": "2-fehlende-teile",
+          "es": "2-piezas-faltantes",
+          "nl": "2-ontbrekende-stukjes",
+          "it": "2-pezzi-mancanti",
+          "fr": "2-pieces-manquantes",
+          "pt": "2-pecas-faltando",
+          "sv": "2-saknade-bitar",
+          "da": "2-manglende-brikker",
+          "no": "2-manglende-brikker",
+          "fi": "2-puuttuvaa-palaa"
         },
         "name": {
           "en": "2 Missing Pieces",
@@ -4930,17 +4930,17 @@
       },
       "three-missing": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "three-missing",
+          "de": "3-fehlende-teile",
+          "es": "3-piezas-faltantes",
+          "nl": "3-ontbrekende-stukjes",
+          "it": "3-pezzi-mancanti",
+          "fr": "3-pieces-manquantes",
+          "pt": "3-pecas-faltando",
+          "sv": "3-saknade-bitar",
+          "da": "3-manglende-brikker",
+          "no": "3-manglende-brikker",
+          "fi": "3-puuttuvaa-palaa"
         },
         "name": {
           "en": "3 Missing Pieces",
@@ -4958,17 +4958,17 @@
       },
       "four-missing": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "four-missing",
+          "de": "4-fehlende-teile",
+          "es": "4-piezas-faltantes",
+          "nl": "4-ontbrekende-stukjes",
+          "it": "4-pezzi-mancanti",
+          "fr": "4-pieces-manquantes",
+          "pt": "4-pecas-faltando",
+          "sv": "4-saknade-bitar",
+          "da": "4-manglende-brikker",
+          "no": "4-manglende-brikker",
+          "fi": "4-puuttuvaa-palaa"
         },
         "name": {
           "en": "4 Missing Pieces",
@@ -4986,17 +4986,17 @@
       },
       "five-missing": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "five-missing",
+          "de": "5-fehlende-teile",
+          "es": "5-piezas-faltantes",
+          "nl": "5-ontbrekende-stukjes",
+          "it": "5-pezzi-mancanti",
+          "fr": "5-pieces-manquantes",
+          "pt": "5-pecas-faltando",
+          "sv": "5-saknade-bitar",
+          "da": "5-manglende-brikker",
+          "no": "5-manglende-brikker",
+          "fi": "5-puuttuvaa-palaa"
         },
         "name": {
           "en": "5 Missing Pieces",
@@ -5014,17 +5014,17 @@
       },
       "check-cross": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
+          "en": "check-cross",
+          "de": "ankreuzen-und-durchstreichen",
+          "es": "marcar-y-tachar-grupos",
+          "nl": "aankruisen-en-doorstrepen",
           "it": "spunta-e-barra-gruppi",
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "fr": "coche-et-barre-les-groupes",
+          "pt": "marque-e-risque-grupos",
+          "sv": "bocka-och-stryk-grupper",
+          "da": "saet-kryds-og-streg-over-grupper",
+          "no": "kryss-av-og-strek-over-grupper",
+          "fi": "merkitse-ja-yliviivaa-ryhmat"
         },
         "name": {
           "en": "Check & Cross Groups",
@@ -5042,17 +5042,17 @@
       },
       "same-theme": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "same-theme",
+          "de": "gleiches-thema",
+          "es": "mismo-tema",
+          "nl": "zelfde-thema",
+          "it": "stesso-tema",
+          "fr": "meme-theme",
+          "pt": "mesmo-tema",
+          "sv": "samma-tema",
+          "da": "samme-tema",
+          "no": "samme-tema",
+          "fi": "sama-aihe"
         },
         "name": {
           "en": "Same Theme",
@@ -5070,17 +5070,17 @@
       },
       "cross-theme": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "cross-theme",
+          "de": "themenubergreifend",
+          "es": "tema-cruzado",
+          "nl": "themaoverstijgend",
+          "it": "multi-tema",
+          "fr": "multi-themes",
+          "pt": "multi-tema",
+          "sv": "tvartema",
+          "da": "pa-tvaers-af-temaer",
+          "no": "pa-tvers-av-temaer",
+          "fi": "aiheiden-valilla"
         },
         "name": {
           "en": "Cross-Theme",
@@ -5098,17 +5098,17 @@
       },
       "find-shadow": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "find-shadow",
+          "de": "schatten-zuordnen",
+          "es": "emparejar-la-sombra",
+          "nl": "koppel-de-schaduw",
+          "it": "abbina-l-ombra",
+          "fr": "associe-l-ombre",
+          "pt": "combine-a-sombra",
+          "sv": "para-skuggan",
+          "da": "match-skyggen",
+          "no": "match-skyggen",
+          "fi": "yhdista-varjo"
         },
         "name": {
           "en": "Match the Shadow",
@@ -5126,17 +5126,17 @@
       },
       "make-whole": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "make-whole",
+          "de": "ganz-machen",
+          "es": "completarla",
+          "nl": "maak-het-heel",
+          "it": "completa",
+          "fr": "complete",
+          "pt": "complete",
+          "sv": "gor-hel",
+          "da": "gor-hel",
+          "no": "gjor-hel",
+          "fi": "tee-kokonaiseksi"
         },
         "name": {
           "en": "Make It Whole",
@@ -5154,17 +5154,17 @@
       },
       "cardinal-arrows": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "cardinal-arrows",
+          "de": "hoch-runter-links-rechts",
+          "es": "arriba-abajo-izq-der",
+          "nl": "op-neer-links-rechts",
+          "it": "su-giu-sinistra-destra",
+          "fr": "haut-bas-gauche-droite",
+          "pt": "cima-baixo-esq-dir",
+          "sv": "upp-ner-vanster-hoger",
+          "da": "op-ned-venstre-hojre",
+          "no": "opp-ned-venstre-hoyre",
+          "fi": "ylos-alas-vasen-oikea"
         },
         "name": {
           "en": "Up/Down/Left/Right",
@@ -5182,17 +5182,17 @@
       },
       "compass": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "compass",
+          "de": "himmelsrichtungen",
+          "es": "puntos-cardinales",
+          "nl": "windrichtingen",
+          "it": "punti-cardinali",
+          "fr": "points-cardinaux",
+          "pt": "pontos-cardeais",
+          "sv": "vaderstreck",
+          "da": "verdenshjorner",
+          "no": "himmelretninger",
+          "fi": "ilmansuunnat"
         },
         "name": {
           "en": "Compass Directions",
@@ -5210,17 +5210,17 @@
       },
       "pathway": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "pathway",
+          "de": "bilderpfad",
+          "es": "camino-con-imagenes",
+          "nl": "beeldroute",
+          "it": "sentiero-illustrato",
+          "fr": "chemin-image",
+          "pt": "caminho-com-imagens",
+          "sv": "bildstig",
+          "da": "billedsti",
+          "no": "bildesti",
+          "fi": "kuvapolku"
         },
         "name": {
           "en": "Picture Pathway",
@@ -5238,17 +5238,17 @@
       },
       "classic-maze": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "classic-maze",
+          "de": "klassisches-labyrinth",
+          "es": "laberinto-clasico",
+          "nl": "klassiek-doolhof",
+          "it": "labirinto-classico",
+          "fr": "labyrinthe-classique",
+          "pt": "labirinto-classico",
+          "sv": "klassisk-labyrint",
+          "da": "klassisk-labyrint",
+          "no": "klassisk-labyrint",
+          "fi": "perinteinen-sokkelo"
         },
         "name": {
           "en": "Classic Maze",
@@ -5266,17 +5266,17 @@
       },
       "choose-path": {
         "slug": {
-          "en": null,
-          "de": null,
-          "es": null,
-          "nl": null,
-          "it": null,
-          "fr": null,
-          "pt": null,
-          "sv": null,
-          "da": null,
-          "no": null,
-          "fi": null
+          "en": "choose-path",
+          "de": "den-richtigen-weg-wahlen",
+          "es": "elegir-el-camino-correcto",
+          "nl": "kies-het-juiste-pad",
+          "it": "scegli-il-percorso-giusto",
+          "fr": "choisis-le-bon-chemin",
+          "pt": "escolha-o-caminho-certo",
+          "sv": "valj-ratt-vag",
+          "da": "vaelg-den-rigtige-vej",
+          "no": "velg-riktig-vei",
+          "fi": "valitse-oikea-polku"
         },
         "name": {
           "en": "Choose the Right Path",

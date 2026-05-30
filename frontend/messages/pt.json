@@ -3045,6 +3045,188 @@
           "q": "Em quais idiomas estão disponíveis?",
           "a": "Em todos os 11 idiomas em que publicamos."
         }
+      ],
+      "addition__animals": [
+        {
+          "q": "O que as atividades de adição com tema Animais praticam?",
+          "a": "As primeiras somas — contar e juntar grupos de animais, avançando para pequenas frases numéricas, na educação infantil e no início do fundamental."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__subtraction": [
+        {
+          "q": "O que as atividades de subtração com tema Animais praticam?",
+          "a": "As primeiras subtrações — riscar os animais que saem e contar os que sobram, rumo a pequenas frases numéricas, na educação infantil e no início do fundamental."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "alphabet-train__animals": [
+        {
+          "q": "O que essas atividades de trem do alfabeto com tema Animais praticam?",
+          "a": "Reconhecimento das letras e a ordem de A a Z em um trem com tema de animais, para os pequenos, sem precisar ler."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__wordsearch": [
+        {
+          "q": "O que as atividades de caça-palavras com tema Animais praticam?",
+          "a": "Reconhecimento das letras, busca visual e vocabulário de animais — procurar nomes de animais escondidos na grade, na educação infantil e no início do fundamental."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__matching": [
+        {
+          "q": "O que as atividades de pareamento com tema Animais desenvolvem?",
+          "a": "Associação um a um, atenção visual e vocabulário de animais — ligar os bichos aos seus pares, na educação infantil e no início do fundamental."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__find-and-count": [
+        {
+          "q": "O que essas atividades de encontre e conte com tema Animais praticam?",
+          "a": "Busca visual e contagem — encontrar animais-alvo numa cena e contá-los, na educação infantil e no início do fundamental, sem precisar ler."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__prepositions": [
+        {
+          "q": "O que as atividades de preposições com tema Animais ensinam?",
+          "a": "Palavras de posição (em cima, embaixo, dentro, ao lado) mostradas com animais — vocabulário espacial para a educação infantil e o início do fundamental."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__big-small": [
+        {
+          "q": "O que as atividades de grande ou pequeno com tema Animais praticam?",
+          "a": "Comparação de tamanho e ordenação com animais — pensamento inicial de medida para crianças de 3 a 6 anos, sem precisar ler."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__more-less": [
+        {
+          "q": "O que as atividades de mais ou menos com tema Animais praticam?",
+          "a": "Comparar dois grupos de animais — qual tem mais ou menos, na educação infantil e no início do fundamental, sem precisar ler nem escrever."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__shadow-match": [
+        {
+          "q": "O que as atividades de pareamento de sombras com tema Animais praticam?",
+          "a": "Ligar os animais às suas sombras — reconhecimento de forma e contorno para a educação infantil e o início do fundamental, tudo por imagens."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim — toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__preschool": [
+        {
+          "q": "O que tem na página de fichas de Animais para educação infantil creche?",
+          "a": "Fichas com tema de animais para contar, parear, classificar, achar o diferente e reconhecer de forma lúdica a letra inicial — pensadas para 3 a 5 anos, sem precisar ler."
+        },
+        {
+          "q": "Essas fichas são grátis?",
+          "a": "Sim — toda ficha aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__grade-1": [
+        {
+          "q": "O que tem na página de fichas de Animais para o 1º ano?",
+          "a": "Fichas com tema de animais para somas e subtrações até 20, classificação, lógica e juntar letras — pensadas para 6 a 8 anos."
+        },
+        {
+          "q": "Essas fichas são grátis?",
+          "a": "Sim — toda ficha aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
+      ],
+      "alphabet-train__preschool": [
+        {
+          "q": "As fichas de trem do alfabeto servem para a educação infantil creche?",
+          "a": "Sim — arrastar as letras em ordem num trem amigo; reconhecimento das letras e sequência de A a Z para 3 a 5 anos, de forma lúdica e sem precisar ler."
+        },
+        {
+          "q": "Essas fichas são grátis?",
+          "a": "Sim — toda ficha aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Nos 11 idiomas em que publicamos."
+        }
       ]
     },
     "fallback": {
@@ -3253,24 +3435,22 @@
     "kindergarten": "As fichas para educação infantil pré-escola reúnem o que as crianças de 5 a 7 anos trabalham de forma lúdica e preparatória. Em cada ficha as crianças contam pequenas quantidades, fazem primeiras somas e primeiras subtrações, fazem a associação número-quantidade, aprendem a classificar e a continuar sequências e padrões, reconhecem letras e seus sons e montam primeiras palavras com apoio de imagens. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Combine algumas fichas em cantinhos ou estações na sala de aula. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
     "grade-1": "As fichas para 1º ano do ensino fundamental acompanham as crianças de 6 a 8 anos no início da escrita e do cálculo. Em cada ficha as crianças somam e subtraem até 20, organizam dezenas e unidades, juntam letras para formar primeiras palavras e praticam a leitura inicial, além de atividades de lógica com apoio de imagens. O material parte do concreto e avança aos poucos para a sentença matemática e para textos mais longos. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
     "grade-2": "As fichas para 2º ano do ensino fundamental acompanham as crianças de 7 a 9 anos em desafios maiores. Em cada ficha as crianças somam e subtraem com dois dígitos, começam a multiplicação, organizam dezenas e centenas, leem textos mais longos e trabalham com palavras, incluindo palavras cruzadas e caça-palavras, além de atividades de lógica. O material reforça a sentença matemática e amplia o vocabulário. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo material com turmas bilíngues.",
-    "addition__animals": "As atividades de adição com tema de animais associam a operação que as crianças estão praticando a um vocabulário que já conhecem bem. O formato reduz a carga cognitiva sobre a imagem e a mantém sobre a aritmética: útil para crianças que ainda estão construindo sua base de fatos de adição.",
-    "animals__subtraction": "As atividades de subtração com tema de animais mostram o tirar com criaturas que as crianças reconhecem de imediato, o que torna a operação mais fácil de ler. As imagens mantêm o foco na própria subtração.",
-    "alphabet-train__animals": "As atividades do trem do alfabeto com tema de animais usam nomes de animais como âncoras alfabéticas: cada vagão representa um animal cujo nome começa com uma letra diferente. O pareamento reforça a correspondência letra-som enquanto as crianças praticam a sequência alfabética.",
-    "animals__wordsearch": "Os caça-palavras com tema de animais oferecem às crianças uma grade de letras em que os alvos são nomes de criaturas familiares. Útil tanto para reforçar o vocabulário quanto para praticar a leitura de atenção sustentada.",
-    "animals__matching": "As atividades de associar com tema de animais associam cada criatura ao que come, onde vive ou qual letra inicial tem. As imagens mantêm a carga cognitiva sobre a relação.",
-    "animals__sudoku": "O sudoku ilustrado com tema de animais coloca quatro criaturas familiares numa grade 4×4 e pede às crianças que deduzam as posições que faltam. As imagens são mais fáceis de lembrar que as cifras, o que torna o sudoku acessível no nível K-3.",
-    "animals__find-and-count": "As atividades de procurar e contar com tema de animais colocam as crianças numa cena cheia de fazenda ou zoológico e pedem que contem criaturas específicas. A atividade exercita a varredura visual, a correspondência um a um e a escrita de cifras num contexto que as crianças já apreciam.",
-    "animals__prepositions": "As atividades de preposições com tema de animais mostram criaturas em relações espaciais: o gato embaixo da mesa, o pássaro sobre o galho, o cachorro ao lado da casinha. O contexto familiar facilita a internalização do vocabulário espacial.",
-    "animals__picture-sort": "As atividades de classificar imagens com tema de animais pedem às crianças que agrupem criaturas pelo que comem, onde vivem ou como aparecem. Classificar é um dos movimentos fundamentais de classificação, e os animais são um domínio acessível para isso.",
-    "animals__big-small": "As atividades grande-pequeno com tema de animais aproveitam a variação natural de tamanho entre criaturas — do elefante ao rato — para tornar concreta a comparação de tamanhos relativos. As crianças leem a pista de tamanho com segurança e a habilidade subjacente se transfere.",
-    "animals__more-less": "As atividades mais-menos com tema de animais pedem às crianças que comparem quantidades de criaturas familiares — três ovelhas ou cinco ovelhas — e decidam qual grupo tem mais. O apoio visual mantém o foco na própria comparação de quantidades.",
-    "animals__shadow-match": "As atividades de associar sombras com tema de animais associam cada imagem de criatura a sua silhueta. A atividade é particularmente acessível porque as crianças reconhecem as formas dos animais com segurança antes de precisarem manejar a versão só de contorno.",
+    "addition__animals": "As atividades de adição com tema Animais transformam as primeiras somas em brincadeira: as crianças contam dois grupos de animais conhecidos — gatos, vacas, passarinhos — e juntam os dois, depois avançam para pequenas frases numéricas conforme ganham confiança. Como as figuras já são familiares, a atenção fica na matemática e não em decifrar um contexto novo. É um caminho acolhedor para a adição na educação infantil e no início do fundamental. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que corrige cada resposta na hora, além do gabarito. Use-as em um cantinho de matemática ou como lição de casa rápida. Como está disponível nos 11 idiomas em que publicamos, dá para usar com qualquer turma, sem cadastro.",
+    "animals__subtraction": "As atividades de subtração com tema Animais deixam o tirar mais amigável: a criança vê um grupo de animais, risca os que vão embora e conta quantos sobraram, antes de passar para pequenas frases numéricas. Como os bichos são conhecidos, a atenção fica na ideia de quantos restam e não em instruções novas. É um caminho suave e motivador para a subtração na educação infantil e no início do fundamental. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que corrige na hora, além do gabarito. Combine-as em duplas ou use-as como lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "alphabet-train__animals": "As atividades de trem do alfabeto com tema Animais colocam os bichos a bordo do trem das letras: a criança encaixa cada cartão na ordem certa para o alfabeto correr de A a Z, com os animais deixando a fila alegre. A tarefa trabalha o reconhecimento das letras e a sequência do alfabeto, e os bichinhos mantêm os pequenos envolvidos. Funciona antes da leitura fluente e em qualquer língua de casa. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que encaixa os cartões no lugar e comemora a fila pronta, além do gabarito. Explore-as na rodinha ou em um cantinho de letras. Como está disponível nos 11 idiomas em que publicamos, dá para usar com qualquer turma, sem cadastro.",
+    "animals__wordsearch": "As atividades de caça-palavras com tema Animais transformam a leitura inicial em uma caçada que as crianças querem terminar: um pequeno conjunto de nomes de animais se esconde numa grade de letras, e a criança procura, encontra e marca cada um, ligando-o às figuras de animais ao lado. Essa procura é prática de verdade — reconhecimento das letras, leitura da esquerda para a direita e vocabulário de animais — embrulhada num jogo. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online em que as palavras são selecionadas na tela e conferidas, além do gabarito. Use-as como tarefa rápida ou lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "animals__matching": "As atividades de pareamento com tema Animais dão às crianças uma tarefa clara e gostosa: traçar uma linha para ligar cada bicho ao seu par. Decidir o que combina com o quê trabalha a associação um a um e a atenção visual, e as figuras de animais queridos trazem o vocabulário que vem de nomear cada par. Funciona para toda criança, qualquer que seja seu nível de leitura ou língua de casa. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online em que as crianças tocam para traçar e conferir cada linha, além do gabarito. Combine-as em duplas ou use-as como lição de casa. Como está disponível nos 11 idiomas em que publicamos, dá para usar com qualquer turma, sem cadastro.",
+    "animals__find-and-count": "As atividades de encontre e conte com tema Animais levam as crianças a uma caçada: uma cena cheia de bichos, e a tarefa é encontrar cada animal-alvo e contar quantos são. Procurar e contar trabalha a atenção visual e a contagem um a um, e as figuras de animais queridos mantêm as crianças olhando com prazer. Como se apoia nas imagens, a atividade funciona qualquer que seja o nível de leitura ou a língua de casa da criança. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que marca os achados e faz a contagem, além do gabarito. Explore-as em um cantinho de matemática ou como lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "animals__prepositions": "As atividades de preposições com tema Animais ensinam as palavrinhas de onde as coisas estão — em cima, embaixo, dentro, ao lado — usando bichos que as crianças adoram. A criança olha os animais e escolhe a figura que mostra a posição, construindo o vocabulário espacial usado o dia todo, tanto na matemática quanto nas histórias. A tarefa guiada por imagens funciona para toda criança, qualquer que seja seu nível de leitura ou língua de casa, e puxa boas conversas para descrever. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que confere cada escolha, além do gabarito. Use-as na rodinha ou como lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "animals__big-small": "As atividades de grande ou pequeno com tema Animais dão aos pequenos prática de tamanho com os personagens mais queridos: achar o maior bicho, encontrar o menor e colocar alguns animais em ordem do maior para o menor. A tarefa usa figuras claras e um único toque ou marca, então a criança consegue acertar sem ler uma palavra, e comparar animais por tamanho alimenta o vocabulário inicial de medida. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que responde de forma calorosa e na hora, além do gabarito. Explore-as na rodinha ou em um cantinho. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "animals__more-less": "As atividades de mais ou menos com tema Animais constroem uma ideia inicial de número com as figuras mais queridas: olhar dois grupos de bichos e decidir qual tem mais, qual tem menos e quando estão iguais. Os animais conhecidos deixam a comparação convidativa, e a tarefa não exige ler nem escrever — só olhar e escolher. É a base para contar com sentido na educação infantil e no início do fundamental. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que dá um retorno suave e na hora, além do gabarito. Use-as em um cantinho de matemática ou como lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
+    "animals__shadow-match": "As atividades de pareamento de sombras com tema Animais pedem que as crianças liguem cada bicho à sua sombra — uma tarefa visual limpa que apura a atenção à forma e ao contorno. Reconhecer um animal conhecido pela silhueta é uma boa prática de observação, e as figuras de animais queridos fazem tudo parecer um jogo. Funciona para toda criança, qualquer que seja seu nível de leitura ou língua de casa. Cada atividade é um PDF grátis para imprimir, com versão interativa para jogar online que traça e confere cada ligação, além do gabarito. Combine-as em duplas ou use-as como lição de casa. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
     "animals__kindergarten": "Poucos temas encantam tanto quanto este: as atividades com o tema animais para educação infantil pré-escola (5-7 anos) colocam o conjunto de figuras mais querido da infância para trabalhar. O elenco familiar — gato, vaca, passarinho, peixe — leva as crianças por contar, classificar, parear, encontrar qual é diferente e reconhecer de forma lúdica a letra inicial, sempre brincante e sem leitura formal. Assim, cada destreza é praticada sobre figuras que as crianças já conhecem. Os nomes de animais são de uso frequente em todos os idiomas, o que ajuda na sala de aula bilíngue. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
-    "animals__preschool": "As atividades de educação infantil (creche, 3-5 anos) com tema de animais oferecem aos menores imagens de alta familiaridade pareadas com tarefas pré-acadêmicas simples: pinte o pássaro, conte os patos, encontre o cachorro que é diferente. As imagens familiares mantêm a carga cognitiva baixa enquanto as atividades exercitam as habilidades que esta faixa tem por vocação desenvolver.",
-    "animals__grade-1": "As atividades de 1º ano com tema de animais usam criaturas familiares como veículo do trabalho mais exigente que o ano traz — caça-palavras mais longos, contagem em vários passos, adição inicial com apoio de imagem. As crianças permanecem engajadas no tema enquanto a exigência cognitiva sobe.",
+    "animals__preschool": "As fichas de Animais para educação infantil creche colocam o conjunto de figuras mais querido para trabalhar com crianças de 3 a 5 anos. Os bichos amigos — gatos, vacas, passarinhos, peixes — levam os pequenos por contar grupinhos, parear e classificar, achar o diferente e reconhecer de forma lúdica a letra inicial, tudo em imagens que já adoram, brincando e sem cálculo nem leitura formal. Como as atividades se apoiam nas figuras, uma criança ainda aprendendo a língua da turma entra na hora. Esta página reúne as fichas com tema Animais pensadas para a fase da creche. Cada uma é um PDF grátis para imprimir, com versão interativa para jogar online e gabarito, disponível nos 11 idiomas em que publicamos, sem cadastro.",
+    "animals__grade-1": "As fichas de Animais para o 1º ano do ensino fundamental pegam o conjunto de figuras que as crianças amam e o levam ao passo de contar para calcular. Crianças de 6 a 8 anos usam os bichos conhecidos para somas e subtrações até vinte, classificação e lógica, e juntar letras em nomes de animais, então uma habilidade nova é praticada em figuras que já conhecem, e não num contexto novo a cada vez. Esta página reúne as fichas com tema Animais que combinam com a fase do 1º ano. Cada uma é um PDF grátis para imprimir, com versão interativa para jogar online e gabarito, disponível nos 11 idiomas em que publicamos, sem cadastro.",
     "addition__kindergarten": "As atividades de Adição para educação infantil pré-escola (5-7 anos) acompanham as crianças no momento em que contar começa a virar somar. Nessa fase, as somas continuam pequenas e com apoio de imagens: a criança conta dois grupos e depois junta os dois, ainda de forma lúdica e sem cálculo formal. Use estas atividades para começar o dia, em um cantinho de matemática ou como uma tarefa rápida em dupla. Manter os números baixos e as figuras claras deixa o pensamento na ideia de juntar, e não na leitura de instruções. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que corrige as respostas na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para dar a cada criança o mesmo passo na língua que ela está aprendendo.",
     "kindergarten__subtraction": "As atividades de Subtração para educação infantil pré-escola (5-7 anos) apresentam a ideia de tirar do jeito mais suave: a criança começa com problemas em figuras, riscando o que sai e contando o que sobra, sempre de forma lúdica e sem cálculo formal. Manter os números pequenos e as imagens claras deixa a ideia de quantos sobraram aparecer sem o peso de uma instrução nova a cada vez. Use estas atividades para começar o dia, em um cantinho de matemática ou como tarefa rápida em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que corrige na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para dar a cada criança o mesmo passo na língua que ela está aprendendo.",
-    "alphabet-train__preschool": "As atividades do trem do alfabeto de educação infantil (creche, 3-5 anos) introduzem a sequência alfabética no momento de desenvolvimento em que as crianças começam a reconhecer que as letras têm uma ordem. O formato é tolerante: uma criança que conhece sua primeira letra e mais algumas ainda consegue completar uma fileira.",
+    "alphabet-train__preschool": "As fichas de trem do alfabeto para educação infantil creche são um primeiro gostinho das letras: um trem amigo carrega os cartões, e a criança arrasta ou encaixa cada um no vagão certo para o alfabeto correr em ordem. Para crianças de 3 a 5 anos, trabalha o reconhecimento das letras e a forma da sequência de A a Z, sem precisar ler para começar, de modo lúdico. Os cartões grandes e claros deixam tudo acolhedor para toda criança, qualquer que seja sua língua de casa. Cada ficha é um PDF grátis para imprimir, com versão interativa para jogar online que encaixa os cartões no lugar e comemora a fila pronta, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, serve para qualquer turma, sem cadastro.",
     "grade-1__wordsearch": "As atividades de caça-palavras para o 1º ano do ensino fundamental transformam a leitura inicial em uma caçada que as crianças querem terminar. Cada desafio esconde um pequeno conjunto de palavras temáticas em uma grade de letras; a criança percorre, localiza e marca cada palavra, ligando o que vê às imagens de apoio ao lado da grade. Para os 6 aos 8 anos, essa varredura é treino de verdade — reconhecimento de letras, leitura da esquerda para a direita e fixação de novo vocabulário — com cara de brincadeira. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online em que as palavras são selecionadas na tela e conferidas, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
     "kindergarten__matching": "As atividades de Pareamento para educação infantil pré-escola (5-7 anos) trazem uma tarefa clara e gostosa: traçar uma linha para ligar cada item ao seu par. Nessa idade, decidir o que vai com o quê constrói a associação um a um, a atenção visual e o vocabulário que vem de nomear cada par. A tarefa em imagens combina com cada criança, qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança toca para traçar cada linha e conferir, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
     "kindergarten__sudoku": "As atividades de Sudoku Ilustrado para educação infantil pré-escola (5-7 anos) trazem lógica de verdade muito antes de as crianças lerem regras. Em uma grade de quatro por quatro, a criança coloca figuras de modo que cada linha, cada coluna e cada quadradinho tenha uma de cada imagem, a mesma dedução do sudoku dos adultos, na medida certa para essa idade e feita com imagens em vez de números. É um raciocínio paciente, que constrói atenção e o pensamento de ir eliminando opções. Use uma folha em um cantinho calmo. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança arrasta as figuras e a grade é conferida, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",

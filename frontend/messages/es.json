@@ -2779,6 +2779,202 @@
           "q": "¿En qué idiomas están disponibles?",
           "a": "En los 11 idiomas en los que publicamos."
         }
+      ],
+      "addition__animals": [
+        {
+          "q": "¿Qué practican estas fichas de sumas con animales?",
+          "a": "Las primeras sumas: contar y juntar grupos de animales, avanzando hacia operaciones sencillas, para jardín infantil y los primeros grados."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__subtraction": [
+        {
+          "q": "¿Qué practican estas fichas de restas con animales?",
+          "a": "Quitar de forma temprana: tachar los animales que se van y contar los que quedan, hacia operaciones sencillas, para jardín infantil y los primeros grados."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "alphabet-train__animals": [
+        {
+          "q": "¿Qué practican estas fichas del tren del abecedario con animales?",
+          "a": "El reconocimiento de letras y el orden A-Z en un tren con tema de animales, para los más pequeños, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__wordsearch": [
+        {
+          "q": "¿Qué practican estas fichas de sopa de letras con animales?",
+          "a": "Reconocimiento de letras, exploración visual y vocabulario de animales: buscar nombres de animales escondidos en una cuadrícula, para jardín infantil y los primeros grados."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__matching": [
+        {
+          "q": "¿Qué desarrollan estas fichas de emparejar con animales?",
+          "a": "La asociación uno a uno, la atención visual y el vocabulario de animales: unir cada animal con su pareja, para jardín infantil y los primeros grados."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__sudoku": [
+        {
+          "q": "¿Qué enseñan estas fichas de sudoku de imágenes con animales?",
+          "a": "Deducción real en una cuadrícula de animales 4x4: lógica por descarte para jardín infantil y los primeros grados, sin leer ni usar números."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__find-and-count": [
+        {
+          "q": "¿Qué practican estas fichas de busca y cuenta con animales?",
+          "a": "Exploración visual y conteo: encontrar animales en una escena y contarlos, para jardín infantil y los primeros grados, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__prepositions": [
+        {
+          "q": "¿Qué enseñan estas fichas de preposiciones con animales?",
+          "a": "Palabras de posición (encima, debajo, dentro, al lado) mostradas con animales: vocabulario espacial para jardín infantil y los primeros grados."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__big-small": [
+        {
+          "q": "¿Qué practican estas fichas de grande o pequeño con animales?",
+          "a": "Comparar tamaños y ordenar con animales: pensamiento inicial de medición para edades de 3 a 6 años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__more-less": [
+        {
+          "q": "¿Qué practican estas fichas de más o menos con animales?",
+          "a": "Comparar dos grupos de animales: cuál tiene más o menos, para jardín infantil y los primeros grados, sin necesidad de leer ni escribir."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__shadow-match": [
+        {
+          "q": "¿Qué practican estas fichas de emparejar sombras con animales?",
+          "a": "Unir cada animal con su sombra: reconocimiento de forma y contorno para jardín infantil y los primeros grados, totalmente con imágenes."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__preschool": [
+        {
+          "q": "¿Qué hay en la página de fichas de Animales para preescolar?",
+          "a": "Fichas con tema de animales para contar, emparejar, clasificar, buscar el intruso y reconocer la letra inicial, pensadas para edades de 3 a 5 años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__grade-1": [
+        {
+          "q": "¿Qué hay en la página de fichas de Animales para grado 1?",
+          "a": "Fichas con tema de animales para sumar y restar hasta 20, clasificar, razonar y unir letras, pensadas para edades de 6 a 8 años."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "alphabet-train__preschool": [
+        {
+          "q": "¿Son adecuadas las fichas del tren del abecedario para preescolar?",
+          "a": "Sí. Arrastrar letras en orden sobre un tren amable: reconocimiento de letras y secuencia A-Z para edades de 3 a 5 años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Son gratis estas fichas?",
+          "a": "Sí. Cada ficha es gratis para imprimir y para jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
       ]
     },
     "fallback": {
@@ -2987,24 +3183,23 @@
     "kindergarten": "Las fichas para jardín infantil reúnen todo lo que los niños de unos 5 a 7 años practican en esta etapa: cuentan cantidades, hacen sus primeras sumas y restas y trabajan la asociación número-cantidad con apoyo visual. También clasifican imágenes, continúan patrones, reconocen letras y sonidos iniciales y descubren sus primeras palabras frecuentes con un enfoque lúdico y preparatorio. Cada actividad cuida el ritmo de quienes empiezan a leer. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige el tema que mejor encaje con tu aula o rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven igual de bien en clases monolingües y bilingües.",
     "grade-1": "Las fichas para grado 1 acompañan a los niños de unos 6 a 8 años cuando dan el salto a operaciones más completas. Suman y restan hasta 20, empiezan a trabajar decenas y unidades y consolidan el sentido numérico con apoyo visual. En el área de letras, unen letras para formar sus primeras palabras y avanzan en la lectura inicial, además de resolver actividades de lógica que afianzan el razonamiento. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias en una misma sesión o en los rincones de aprendizaje. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en aulas monolingües y bilingües por igual.",
     "grade-2": "Las fichas para grado 2 plantean retos para niños de unos 7 a 9 años que ya manejan lo básico. Suman y restan números de dos cifras, dan los primeros pasos en la multiplicación y trabajan decenas y centenas con apoyo visual cuando hace falta. En el área de letras avanzan con lecturas más largas, trabajo con palabras, crucigramas y sopas de letras, junto a actividades de lógica que afianzan el razonamiento. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Descarga las que encajen con lo que estás repasando esta semana. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven tanto para tarea como para el aula bilingüe.",
-    "addition__animals": "Las fichas de suma con tema de animales emparejan la operación que los niños están practicando con vocabulario que ya conocen bien. El formato reduce la carga cognitiva de la imagen y la mantiene en la aritmética: útil para niños que aún están construyendo su base de hechos de suma.",
-    "animals__subtraction": "Las fichas de resta con tema de animales muestran el quitar con criaturas que los niños reconocen al instante, lo que hace la operación más fácil de leer. Las imágenes mantienen el foco en la propia resta.",
-    "alphabet-train__animals": "Las fichas del tren del abecedario con tema de animales usan los nombres de los animales como anclajes del abecedario: cada vagón representa un animal cuyo nombre empieza con una letra distinta. El emparejamiento refuerza el mapeo letra-sonido mientras los niños practican la secuencia del abecedario.",
-    "animals__wordsearch": "Las sopas de letras con tema de animales dan a los niños una cuadrícula de letras donde los objetivos son nombres de criaturas familiares. Útil tanto para reforzar el vocabulario como para practicar la lectura de atención sostenida.",
-    "animals__matching": "Las fichas de emparejar con tema de animales emparejan cada criatura con lo que come, dónde vive o cuál es su letra inicial. Las imágenes mantienen la carga cognitiva en la relación.",
-    "animals__sudoku": "El sudoku de imágenes con tema de animales coloca cuatro criaturas familiares en una cuadrícula de 4×4 y pide a los niños que deduzcan las posiciones que faltan. Las imágenes son más fáciles de recordar que las cifras, lo que hace el sudoku accesible al nivel de K-3.",
-    "animals__find-and-count": "Las fichas de buscar y contar con tema de animales colocan a los niños en una escena llena de granja o zoológico y les piden que cuenten criaturas concretas. La actividad ejercita el escaneo visual, la correspondencia uno a uno y la escritura de cifras en un contexto que los niños ya disfrutan.",
-    "animals__prepositions": "Las fichas de preposiciones con tema de animales muestran criaturas en relaciones espaciales: el gato debajo de la mesa, el pájaro sobre la rama, el perro junto a la caseta. El contexto familiar facilita interiorizar el vocabulario espacial.",
-    "animals__picture-sort": "Las fichas de clasificar imágenes con tema de animales piden a los niños que agrupen criaturas por lo que comen, dónde viven o cómo se ven. Clasificar es uno de los movimientos fundamentales de clasificación, y los animales son un dominio accesible para ello.",
-    "animals__big-small": "Las fichas de grande-pequeño con tema de animales aprovechan la variación natural de tamaño entre criaturas —elefante a ratón— para hacer concreta la comparación de tamaño relativo. Los niños leen la pista de tamaño con seguridad y la destreza subyacente se transfiere.",
-    "animals__more-less": "Las fichas de más-menos con tema de animales piden a los niños comparar cantidades de criaturas familiares —tres ovejas o cinco ovejas— y decidir qué grupo tiene más. La apoyatura visual mantiene el foco en la propia comparación de cantidades.",
-    "animals__shadow-match": "Las fichas de emparejar sombras con tema de animales emparejan cada imagen de criatura con su silueta. La actividad es particularmente accesible porque los niños reconocen las formas de los animales con seguridad antes de tener que manejar la versión solo de contorno.",
+    "addition__animals": "Estas fichas de sumas con tema de Animales convierten las primeras sumas en un juego: los niños cuentan dos grupos de animales conocidos —gatos, vacas, pájaros— y los juntan, al principio con todo el apoyo visual y luego con sencillas operaciones a medida que crecen en confianza. Como las imágenes ya les resultan familiares, la atención se queda en las matemáticas y no en descifrar un contexto nuevo. Es una entrada cálida y motivadora a la suma para jardín infantil y los primeros grados. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que corrige cada respuesta, y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, las puedes usar con cualquier grupo, sin registro.",
+    "animals__subtraction": "Estas fichas de restas con tema de Animales hacen amable el quitar: el niño ve un grupo de animales, tacha los que se van y cuenta los que quedan, antes de pasar a sencillas operaciones. Los animales conocidos mantienen el foco en la idea de cuántos quedan y no en instrucciones nuevas. Es un camino suave y motivador hacia la resta para jardín infantil y los primeros grados. Descarga cada ficha como PDF imprimible gratis, con su versión interactiva para jugar en línea, que corrige al instante, y su hoja de respuestas. Combínalas en un rincón de matemáticas o como tarea rápida. Están disponibles en los 11 idiomas en los que publicamos, así que sirven para cualquier grupo, sin registro.",
+    "alphabet-train__animals": "Estas fichas del tren del abecedario con tema de Animales suben tarjetas de animales al tren de las letras: el niño coloca cada tarjeta en el vagón correcto para ordenar el alfabeto de la A a la Z, con animales que alegran la fila. La tarea desarrolla el reconocimiento de letras y la secuencia A-Z, y los animales conocidos enganchan a los más pequeños. Funciona antes de que el niño lea con fluidez y en cualquier lengua materna. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que encaja las tarjetas en su sitio y celebra la fila terminada, y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven para cualquier grupo, sin registro.",
+    "animals__wordsearch": "Estas fichas de sopa de letras con tema de Animales convierten la lectura inicial en una búsqueda que los niños quieren terminar: un pequeño conjunto de nombres de animales se esconde en una cuadrícula de letras, y el niño explora, los encuentra y marca cada uno, asociándolo con las imágenes de animales que acompañan la cuadrícula. Esa exploración es práctica de verdad —reconocimiento de letras, seguimiento de izquierda a derecha y vocabulario de animales— envuelta en un juego. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, donde las palabras se seleccionan en pantalla y se corrigen, y su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que las puedes usar con cualquier grupo, sin registro.",
+    "animals__matching": "Estas fichas de emparejar con tema de Animales ofrecen una tarea clara y satisfactoria: traza una línea para unir cada animal con su pareja. Decidir qué va con qué desarrolla la asociación uno a uno y la atención visual, y las imágenes de animales tan queridas suman el vocabulario que surge al nombrar cada pareja. Funciona para todos los niños, sea cual sea su nivel de lectura o su lengua materna. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, donde los niños tocan para trazar cada línea y la corrigen, y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven para cualquier grupo, sin registro.",
+    "animals__sudoku": "Estas fichas de sudoku de imágenes con tema de Animales acercan la lógica de verdad a los más pequeños con las piezas más amables. En una cuadrícula de cuatro por cuatro, el niño coloca imágenes de animales para que cada fila, columna y caja contenga uno de cada animal: la misma deducción del sudoku de adultos, adaptada a los primeros grados y construida con animales en vez de números. Es un razonamiento paciente y satisfactorio que no exige leer. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, donde los niños arrastran los animales a su sitio y se corrige la cuadrícula, y su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que sirven para cualquier grupo, sin registro.",
+    "animals__find-and-count": "Estas fichas de busca y cuenta con tema de Animales envían a los niños a una cacería: una escena llena de animales, y la tarea es encontrar cada animal buscado y contar cuántos hay. Buscar y contar desarrolla la atención visual y el conteo uno a uno, y las imágenes de animales tan queridas mantienen a los niños mirando con gusto. Como se apoya en imágenes, la actividad funciona sea cual sea el nivel de lectura o la lengua materna del niño. Elige una escena, imprímela como PDF gratis o usa la versión interactiva para jugar en línea, que marca los hallazgos y los cuenta, con su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que sirven para cualquier grupo, sin registro.",
+    "animals__prepositions": "Estas fichas de preposiciones con tema de Animales enseñan las palabras de lugar —encima, debajo, dentro, al lado— con los animales que los niños adoran. El niño observa a los animales y elige la imagen que muestra la posición, desarrollando el vocabulario espacial que se usa todo el día, tanto en matemáticas como en los cuentos. La tarea guiada por imágenes funciona para todos los niños, sea cual sea su nivel de lectura o su lengua materna, y provoca conversación útil para describir. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que corrige cada elección, y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven para cualquier grupo, sin registro.",
+    "animals__big-small": "Estas fichas de grande o pequeño con tema de Animales dan a los más pequeños práctica de tamaño con los protagonistas más amables: señalar el animal más grande, encontrar el más pequeño y ordenar unos cuantos de mayor a menor. La tarea usa imágenes claras y un solo toque o marca, así que el niño puede lograrlo sin leer ni una palabra, y comparar animales por su tamaño alimenta el vocabulario inicial de medición. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que responde de forma cálida e instantánea, y su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que las puedes usar con cualquier grupo, sin registro.",
+    "animals__more-less": "Estas fichas de más o menos con tema de Animales construyen una idea numérica temprana con las imágenes más amables: mirar dos grupos de animales y decidir cuál tiene más, cuál tiene menos y cuándo son iguales. Los animales conocidos hacen atractiva la comparación, y la tarea no exige leer ni escribir, solo mirar y elegir. Es la base para contar con sentido a lo largo de jardín infantil y los primeros grados. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que da una respuesta suave e instantánea, y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, sirven para cualquier grupo, sin registro.",
+    "animals__shadow-match": "Estas fichas de emparejar sombras con tema de Animales piden a los niños unir cada animal con su sombra: una tarea visual limpia que afina la atención a la forma y el contorno. Reconocer un animal conocido por su silueta es una práctica de observación de verdad, y las imágenes de animales tan queridas hacen que parezca un juego. Funciona para todos los niños, sea cual sea su nivel de lectura o su lengua materna. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que traza y corrige cada pareja, y su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que las puedes usar con cualquier grupo, sin registro.",
     "animals__kindergarten": "Las fichas con tema de animales para jardín infantil ponen a trabajar el set de imágenes más querido de la infancia para niños de cinco a siete años. El reparto familiar (gatos, vacas, pájaros, peces) los lleva por el conteo y las primeras sumas, la clasificación y el emparejado, el intruso y las primeras letras, así que cada destreza se practica sobre imágenes que ya conocen y no sobre un contexto nuevo cada vez. Los nombres de animales también son muy frecuentes en cada idioma, una gran ayuda en un aula bilingüe. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
-    "animals__preschool": "Las fichas de preescolar con tema de animales dan a los más jóvenes imágenes de alta familiaridad emparejadas con tareas preacadémicas sencillas: colorea el pájaro, cuenta los patos, encuentra el perro que es distinto. Las imágenes familiares mantienen baja la carga cognitiva mientras las actividades ejercitan las destrezas que el preescolar ha de desarrollar.",
-    "animals__grade-1": "Las fichas de grado 1 con tema de animales usan criaturas familiares como vehículo del trabajo más exigente que trae el año: sopas de letras más largas, conteo de varios pasos, suma inicial con apoyo de imagen. Los niños permanecen interesados en el tema mientras la exigencia cognitiva sube.",
+    "animals__preschool": "Estas fichas de Animales para preescolar ponen a trabajar el conjunto de imágenes más querido de la infancia para niños de tres a cinco años. El elenco conocido —gatos, vacas, pájaros, peces— acompaña a los más pequeños mientras cuentan grupos pequeños, emparejan y clasifican, buscan el intruso y reconocen la letra inicial, todo sobre imágenes que ya adoran. Como las actividades se apoyan en imágenes, un niño que aún aprende la lengua del aula puede participar enseguida. Aquí se reúnen las fichas con tema de Animales pensadas para la etapa de preescolar. Cada una es un PDF imprimible gratis, con su versión interactiva para jugar en línea y su hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
+    "animals__grade-1": "Estas fichas de Animales para grado 1 toman el conjunto de imágenes que los niños adoran y lo orientan al paso de contar a calcular. Los niños de seis a ocho años usan animales conocidos para sumar y restar hasta veinte, clasificar y razonar, y unir letras para formar nombres de animales, de modo que cada destreza nueva se practica sobre imágenes que ya conocen y no sobre un contexto distinto cada vez. Aquí se reúnen las fichas con tema de Animales que encajan en la etapa de grado 1. Cada una es un PDF imprimible gratis, con su versión interactiva para jugar en línea y su hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
     "addition__kindergarten": "Las fichas de sumas para jardín infantil acompañan a los niños de cinco a siete años justo cuando contar empieza a convertirse en sumar. En esta etapa las sumas se mantienen pequeñas y con apoyo de imágenes: el niño cuenta dos grupos y luego los combina, hasta diez y sin cálculo formal todavía. Mantener los números bajos y las imágenes claras deja que el pensamiento se quede en la idea de juntar. Estas fichas funcionan bien para la rutina de la mañana, un rincón de matemáticas o una actividad rápida en parejas, y cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que corrige al instante, además de la hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, un grupo bilingüe puede dar a cada niño el mismo paso en el idioma que necesita.",
     "kindergarten__subtraction": "Las fichas de restas para jardín infantil presentan el quitar de la forma más suave: los niños de cinco a siete años empiezan con problemas de imágenes, tachan lo que se va y cuentan lo que queda, hasta diez y de manera lúdica, sin cálculo formal todavía. Mantener los números pequeños y las imágenes claras deja que la idea de cuántos quedan llegue sin la distracción de instrucciones nuevas. Estas fichas funcionan bien para la rutina de la mañana, un rincón de matemáticas o una actividad rápida en parejas. Cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que corrige al instante, además de la hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, un grupo bilingüe puede dar a cada niño el mismo paso en el idioma que necesita.",
-    "alphabet-train__preschool": "Las fichas del tren del abecedario para preescolar introducen la secuencia del abecedario en el momento del desarrollo en que los niños empiezan a reconocer que las letras tienen un orden. El formato es indulgente: un niño que conoce su primera letra y unas cuantas más aún puede completar una fila.",
+    "alphabet-train__preschool": "Estas fichas del tren del abecedario para preescolar son una primera y suave toma de contacto con las letras: un tren amable lleva tarjetas de letras, y el niño arrastra o coloca cada una en el vagón correcto para que el alfabeto vaya en orden. Para niños de tres a cinco años desarrolla el reconocimiento de letras y la forma de la secuencia A-Z, sin necesidad de leer para empezar. Las tarjetas grandes y claras lo hacen acogedor para todos los niños, sea cual sea su lengua materna. Cada ficha es un PDF imprimible gratis, con su versión interactiva para jugar en línea, que encaja las tarjetas en su sitio y celebra la fila terminada, y su hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que sirven para cualquier grupo, sin registro.",
     "grade-1__wordsearch": "Las fichas de sopa de letras convierten la lectura temprana en una caza que los niños de grado 1 sí quieren terminar. Cada puzle esconde un pequeño grupo de palabras con tema en una cuadrícula de letras; el niño rastrea, localiza y marca cada palabra, relacionando lo que ve con las pistas en imagen junto a la cuadrícula. A los seis a ocho años ese rastreo es práctica de verdad (reconocer letras, seguir de izquierda a derecha y afianzar vocabulario nuevo) envuelta en un juego. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador donde las palabras se seleccionan en pantalla y se comprueban, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
     "kindergarten__matching": "Las fichas de emparejar para jardín infantil ofrecen una tarea clara y satisfactoria: trazar una línea para unir cada elemento con su pareja. Para los niños de cinco a siete años, decidir qué va con qué construye la asociación uno a uno, la atención visual y el vocabulario que surge al nombrar cada pareja. La tarea basada en imágenes le sienta bien a cada niño, sea cual sea su nivel de lectura o su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, donde los niños tocan para trazar cada línea y la revisan, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
     "kindergarten__sudoku": "Las fichas de sudoku de imágenes para jardín infantil traen lógica de verdad mucho antes de que los niños puedan leer un reglamento. En una cuadrícula de cuatro por cuatro, el niño coloca imágenes simpáticas de modo que cada fila, cada columna y cada caja pequeña tenga una de cada imagen: la misma deducción del sudoku de los grandes, ajustada a los cinco a siete años y hecha con imágenes en lugar de números. Es un razonamiento paciente y satisfactorio que construye atención y pensamiento por descarte. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, donde los niños arrastran cada imagen a su lugar y la cuadrícula se revisa, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",

@@ -55,6 +55,7 @@ export function LocaleLayoutClient({
       <Navigation
         availableExerciseTypes={footerAvailableExerciseTypes}
         availableActivities={availableActivities}
+        availableThemes={footerAvailableThemes}
       />
       <main className="flex-1">
         {children}

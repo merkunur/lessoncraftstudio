@@ -3045,6 +3045,202 @@
           "q": "In quali lingue sono disponibili?",
           "a": "In tutte le 11 lingue in cui pubblichiamo."
         }
+      ],
+      "addition__animals": [
+        {
+          "q": "Cosa si esercita con le schede di addizione a tema Animali?",
+          "a": "Le prime addizioni: contare e unire gruppi di animali, fino a semplici operazioni, per i bambini più piccoli."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__subtraction": [
+        {
+          "q": "Cosa si esercita con le schede di sottrazione a tema Animali?",
+          "a": "Le prime sottrazioni: cancellare gli animali che vanno via e contare quanti restano, fino a semplici operazioni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "alphabet-train__animals": [
+        {
+          "q": "Cosa si esercita con queste schede del Treno Dell'alfabeto a tema Animali?",
+          "a": "Il riconoscimento delle lettere e l'ordine A-Z su un treno a tema Animali, per i più piccoli, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__wordsearch": [
+        {
+          "q": "Cosa si esercita con le schede di Cerca Parole a tema Animali?",
+          "a": "Riconoscimento delle lettere, osservazione e vocabolario degli animali: cercare nomi di animali nascosti in una griglia."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__matching": [
+        {
+          "q": "Cosa sviluppano le schede di abbinamento a tema Animali?",
+          "a": "L'associazione uno-a-uno, l'attenzione visiva e il vocabolario degli animali: unire ogni animale alla sua coppia."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__sudoku": [
+        {
+          "q": "Cosa insegnano le schede di Sudoku Illustrato a tema Animali?",
+          "a": "La deduzione vera su una griglia 4x4 di animali: logica per esclusione per i più piccoli, senza numeri né lettura."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__find-and-count": [
+        {
+          "q": "Cosa si esercita con queste schede di Trova E Conta a tema Animali?",
+          "a": "Osservazione visiva e conteggio: trovare gli animali richiesti in una scena e contarli, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__prepositions": [
+        {
+          "q": "Cosa insegnano le schede di preposizioni a tema Animali?",
+          "a": "Le parole di posizione (dentro, sopra, sotto, vicino) mostrate con gli animali: il vocabolario spaziale per i più piccoli."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__big-small": [
+        {
+          "q": "Cosa si esercita con le schede di Grande O Piccolo a tema Animali?",
+          "a": "Il confronto di dimensioni e l'ordinamento con gli animali: il primo pensiero sulla misura per i 3-6 anni, senza leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__more-less": [
+        {
+          "q": "Cosa si esercita con le schede di Più O Meno a tema Animali?",
+          "a": "Confrontare due gruppi di animali: quale ne ha di più o di meno, senza bisogno di leggere né scrivere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__shadow-match": [
+        {
+          "q": "Cosa si esercita con le schede di Abbina Le Ombre a tema Animali?",
+          "a": "Abbinare gli animali alla loro ombra: riconoscimento di forma e contorno per i più piccoli, tutto basato sulle immagini."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__preschool": [
+        {
+          "q": "Cosa trovo nella pagina delle schede di Animali per la scuola dell'infanzia?",
+          "a": "Schede a tema Animali per contare, abbinare, ordinare, trova l'intruso e il suono iniziale, pensate per i 3-5 anni, senza leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__grade-1": [
+        {
+          "q": "Cosa trovo nella pagina delle schede di Animali per la Scuola primaria classe prima?",
+          "a": "Schede a tema Animali per addizione e sottrazione entro il 20, ordinare, ragionare e fondere le lettere, pensate per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "alphabet-train__preschool": [
+        {
+          "q": "Le schede del Treno Dell'alfabeto vanno bene per la scuola dell'infanzia?",
+          "a": "Sì: si trascinano le lettere in ordine su un treno allegro; riconoscimento delle lettere e sequenza A-Z per i 3-5 anni, senza leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
       ]
     },
     "fallback": {
@@ -3253,24 +3449,23 @@
     "kindergarten": "In queste schede per scuola dell'infanzia 5-7 anni i più grandi della scuola dell'infanzia contano, provano le prime addizioni e sottrazioni e collegano il numero alla quantità con il supporto delle immagini. Trovi anche attività per classificare, continuare sequenze e ritmi, riconoscere le lettere e i loro suoni e leggere le prime parole. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come dolce preparazione alla scuola primaria. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta accompagna i bambini di ogni classe verso le competenze di base.",
     "grade-1": "In queste schede per Scuola primaria classe prima i bambini di 6-8 anni lavorano sulle addizioni e sottrazioni entro il 20, scoprono decine e unità e iniziano a unire le lettere nelle prime parole per la prima lettura. Trovi anche attività di logica e di ragionamento con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per il ripasso negli angoli e nelle stazioni di apprendimento. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta sostiene i primi passi nella matematica e nella lettura della scuola primaria.",
     "grade-2": "In queste schede per Scuola primaria classe seconda i bambini di 7-9 anni si esercitano con addizioni e sottrazioni a due cifre, scoprono le prime moltiplicazioni e lavorano con decine e centinaia. Trovi anche letture più lunghe, attività sulle parole, cruciverba e cerca parole e tante proposte di logica. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Puoi usarle in classe, come compiti a casa o per un ripasso autonomo. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta accompagna i bambini di seconda verso una maggiore sicurezza nei numeri e nella lettura.",
-    "addition__animals": "Le schede di addizione a tema animali abbinano l'operazione che i bambini stanno praticando a un vocabolario che già conoscono bene. Il formato riduce il carico cognitivo sull'immagine e lo mantiene sull'aritmetica: utile per i bambini che stanno ancora costruendo la propria base di fatti di addizione.",
-    "animals__subtraction": "Le schede di sottrazione a tema animali mostrano il togliere con creature che i bambini riconoscono immediatamente, il che rende l'operazione più facile da leggere. Le immagini mantengono il fuoco sulla sottrazione stessa.",
-    "alphabet-train__animals": "Le schede del treno dell'alfabeto a tema animali usano i nomi degli animali come ancore alfabetiche: ogni vagone rappresenta un animale il cui nome inizia con una lettera diversa. L'abbinamento rinforza la corrispondenza lettera-suono mentre i bambini praticano la sequenza alfabetica.",
-    "animals__wordsearch": "Il cruciverba di parole a tema animali offre ai bambini una griglia di lettere in cui gli obiettivi sono nomi di creature familiari. Utile sia per il rinforzo del vocabolario sia per la pratica della lettura ad attenzione sostenuta.",
-    "animals__matching": "Le schede di abbinamento a tema animali abbinano ciascuna creatura a ciò che mangia, dove vive o quale lettera iniziale ha. Le immagini mantengono il carico cognitivo sulla relazione.",
-    "animals__sudoku": "Il sudoku illustrato a tema animali colloca quattro creature familiari in una griglia 4×4 e chiede ai bambini di dedurre le posizioni mancanti. Le immagini sono più facili da ricordare delle cifre, il che rende il sudoku accessibile al livello K-3.",
-    "animals__find-and-count": "Le schede cerca-e-conta a tema animali collocano i bambini in una scena densa di fattoria o di zoo e chiedono loro di contare creature specifiche. L'attività esercita lo scorrimento visivo, la corrispondenza biunivoca e la scrittura delle cifre in un contesto che i bambini già amano.",
-    "animals__prepositions": "Le schede di preposizioni a tema animali mostrano creature in relazioni spaziali: il gatto sotto il tavolo, l'uccello sul ramo, il cane accanto alla cuccia. Il contesto familiare rende il vocabolario spaziale più facile da interiorizzare.",
-    "animals__picture-sort": "Le schede di smistamento di immagini a tema animali chiedono ai bambini di raggruppare le creature per ciò che mangiano, dove vivono o come appaiono. Smistare è uno dei movimenti fondamentali di classificazione, e gli animali ne sono un dominio accessibile.",
-    "animals__big-small": "Le schede grande-piccolo a tema animali sfruttano la variazione naturale di taglia tra creature — dall'elefante al topo — per rendere concreto il confronto di taglie relative. I bambini leggono l'indizio di taglia con sicurezza e l'abilità sottostante si trasferisce.",
-    "animals__more-less": "Le schede più-meno a tema animali chiedono ai bambini di confrontare quantità di creature familiari — tre pecore o cinque pecore — e di decidere quale gruppo ne ha di più. L'appoggio visivo mantiene il fuoco sul confronto di quantità stesso.",
-    "animals__shadow-match": "Le schede di abbinamento d'ombre a tema animali abbinano ogni immagine di creatura alla sua sagoma. L'attività è particolarmente accessibile perché i bambini riconoscono le forme animali con sicurezza prima di dover gestire la versione di solo contorno.",
+    "addition__animals": "Le schede di addizione a tema Animali trasformano le prime addizioni in un gioco: i bambini contano due gruppi di animali familiari — gatti, mucche, uccellini — e li mettono insieme, poi passano a semplici operazioni man mano che cresce la sicurezza. Poiché le quantità sono animali che già sanno nominare, l'attenzione resta sul contare e non su un contesto nuovo. È un avvio caldo e motivante all'addizione per i più piccoli, con tutto il supporto delle immagini. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che corregge ogni risposta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla con qualsiasi gruppo, senza registrazione.",
+    "animals__subtraction": "Con le schede di sottrazione a tema Animali il togliere diventa amichevole: i bambini guardano un gruppo di animali, cancellano quelli che vanno via e contano quanti ne restano, prima di passare a semplici operazioni. Gli animali familiari mantengono il pensiero sull'idea di quanti rimangono, e non su istruzioni nuove. È un percorso dolce e motivante verso la sottrazione per i più piccoli. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che corregge subito, oltre alle soluzioni. Usale in un angolo della matematica o come rapida attività a coppie. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi proporla a qualsiasi gruppo, senza registrazione.",
+    "alphabet-train__animals": "Queste schede del Treno Dell'alfabeto mettono le carte degli animali a bordo del treno delle lettere: i bambini collocano ogni carta nel vagone giusto per far correre l'alfabeto in ordine, con gli animali a rendere il convoglio allegro. Il compito costruisce il riconoscimento delle lettere e la sequenza A-Z, e gli animali familiari tengono vivo l'interesse dei più piccoli. Funziona prima ancora di saper leggere e in qualunque lingua di casa. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che incastra le carte al posto giusto e festeggia il treno completo, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
+    "animals__wordsearch": "Le schede di Cerca Parole a tema Animali trasformano le prime letture in una caccia che i bambini vogliono portare a termine: un piccolo gruppo di nomi di animali si nasconde in una griglia di lettere, e il bambino osserva, individua e segna ogni parola, abbinandola alle figure degli animali accanto alla griglia. Quella ricerca è vero esercizio — riconoscimento delle lettere, lettura da sinistra a destra e vocabolario degli animali — dentro un gioco. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online dove le parole si selezionano sullo schermo e si correggono, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla con qualsiasi gruppo, senza registrazione.",
+    "animals__matching": "Le schede di abbinamento a tema Animali offrono ai bambini un compito chiaro e appagante: unire con una linea ogni animale alla sua coppia. Decidere cosa va con cosa costruisce l'associazione uno-a-uno e l'attenzione visiva, e le figure amate degli animali aggiungono il vocabolario che nasce dal nominare ogni coppia. Funziona per ogni bambino, qualunque sia il suo livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online dove i bambini toccano per tracciare ogni linea e la correggono, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi proporla a qualsiasi gruppo, senza registrazione.",
+    "animals__sudoku": "Le schede di Sudoku Illustrato a tema Animali portano la logica vera ai più piccoli con le tessere più amichevoli. Su una griglia quattro per quattro, i bambini collocano le figure degli animali in modo che ogni riga, colonna e riquadro contenga un esemplare di ciascuno — la stessa deduzione del sudoku per grandi, calibrata sui più piccoli e costruita con animali al posto dei numeri. È un ragionamento paziente e appagante che non richiede di leggere. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online dove i bambini trascinano gli animali al posto giusto e la griglia viene corretta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
+    "animals__find-and-count": "Queste schede di Trova E Conta mandano i bambini a caccia tra gli animali: una scena allegra è piena di animali, e il compito è trovare ogni animale richiesto e contare quanti ce ne sono. Cercare e contare costruisce l'attenzione visiva e il conteggio uno-a-uno, e le figure amate degli animali tengono i bambini a osservare con piacere. Poiché si appoggia alle immagini, l'attività funziona qualunque sia il livello di lettura o la lingua di casa del bambino. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che segna le scoperte e le conta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
+    "animals__prepositions": "Le schede di preposizioni a tema Animali insegnano le piccole parole che dicono dove si trovano le cose — dentro, sopra, sotto, vicino — usando gli animali che i bambini adorano. Il bambino guarda gli animali e sceglie la figura che mostra la posizione, costruendo il vocabolario spaziale che serve ogni giorno tanto in matematica quanto nelle storie. Il compito guidato dalle immagini funziona per ogni bambino, qualunque sia il suo livello di lettura o la lingua di casa, e fa nascere conversazioni utili per descrivere. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che corregge ogni scelta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
+    "animals__big-small": "Le schede di Grande O Piccolo a tema Animali offrono ai più piccoli un esercizio sulle dimensioni con i soggetti più amichevoli: individuare l'animale più grande, trovare il più piccolo e mettere in ordine alcuni animali dal grande al piccolo. Il compito usa figure chiare e un solo tocco o segno, così il bambino riesce senza leggere nemmeno una parola, e confrontare gli animali per dimensione alimenta il primo vocabolario della misura. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che risponde con calore e all'istante, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla con qualsiasi gruppo, senza registrazione.",
+    "animals__more-less": "Le schede di Più O Meno a tema Animali costruiscono una prima idea di numero con le figure più amichevoli: guardare due gruppi di animali e decidere quale ne ha di più, quale di meno e quando sono uguali. Gli animali familiari rendono il confronto invitante, e il compito non richiede né leggere né scrivere — solo uno sguardo e una scelta. È la base per contare con significato lungo tutta la scuola dell'infanzia e i primi anni. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che dà un riscontro gentile e immediato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
+    "animals__shadow-match": "Le schede di Abbina Le Ombre a tema Animali chiedono ai bambini di abbinare ogni animale alla sua ombra — un compito visivo pulito che affina l'attenzione alla forma e al contorno. Riconoscere un animale familiare dalla sua sagoma è davvero un buon esercizio di osservazione, e le figure amate degli animali lo fanno sembrare un gioco. Funziona per ogni bambino, qualunque sia il suo livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che traccia e corregge ogni abbinamento, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla con qualsiasi gruppo, senza registrazione.",
     "animals__kindergarten": "Le schede a tema animali per la scuola dell'infanzia 5-7 anni mettono al lavoro il set di immagini più amato dell'infanzia. I personaggi familiari, gatto, mucca, uccellino e pesce, accompagnano i bambini nel contare e nelle prime addizioni, nell'ordinare e nell'abbinare, nel trova l'intruso e nel riconoscere le prime lettere, così una nuova abilità si esercita su immagini già note invece che su un contesto nuovo ogni volta. I nomi degli animali sono tra le parole più frequenti in ogni lingua, un vero aiuto in una sezione bilingue. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
-    "animals__preschool": "Le schede di scuola dell'infanzia (3-5 anni) a tema animali offrono ai più piccoli immagini ad alto riconoscimento abbinate a compiti pre-accademici semplici: colora l'uccello, conta le anatre, trova il cane diverso. Le immagini familiari mantengono basso il carico cognitivo mentre le attività esercitano le abilità che la scuola dell'infanzia ha la vocazione di sviluppare.",
-    "animals__grade-1": "Le schede di scuola primaria classe prima a tema animali usano creature familiari come veicolo del lavoro più impegnativo che l'anno porta — cruciverba di parole più lunghi, conteggio a più passi, addizione iniziale con appoggio d'immagine. I bambini restano coinvolti dal tema mentre la richiesta cognitiva sale.",
+    "animals__preschool": "Le schede di Animali per la scuola dell'infanzia 3-5 anni mettono al lavoro il set di figure più amato per i bambini dai tre ai cinque anni. Il cast familiare — gatti, mucche, uccellini, pesci — accompagna i più piccoli a contare piccoli gruppi, abbinare e ordinare, trova l'intruso e riconoscere il suono e la lettera iniziale, tutto su immagini che già adorano e in modo ludico, senza calcolo né lettura formale. Poiché le attività si appoggiano alle figure, anche un bambino che sta ancora imparando la lingua della classe può partecipare subito. Questa pagina raccoglie le schede a tema Animali pensate per la scuola dell'infanzia. Ognuna è gratuita da stampare in PDF, con una versione interattiva e le soluzioni, disponibile in tutte le 11 lingue in cui pubblichiamo, senza registrazione.",
+    "animals__grade-1": "Le schede di Animali per la Scuola primaria classe prima prendono il set di figure che i bambini amano e lo calibrano sul passaggio dal contare al calcolare. I bambini dai sei agli otto anni usano gli animali familiari per addizione e sottrazione entro il venti, per ordinare e ragionare, e per fondere le lettere nei nomi degli animali, così una nuova abilità si esercita su immagini che già conoscono e non su un contesto sempre diverso. A questo stadio la lettura e il calcolo formale vanno bene. Questa pagina raccoglie le schede a tema Animali adatte alla Scuola primaria classe prima. Ognuna è gratuita da stampare in PDF, con una versione interattiva e le soluzioni, disponibile in tutte le 11 lingue in cui pubblichiamo, senza registrazione.",
     "addition__kindergarten": "Le schede di Addizione per scuola dell'infanzia 5-7 anni accompagnano i più grandi della scuola dell'infanzia proprio quando il contare comincia a diventare addizione. A questo stadio le somme restano piccole e illustrate: i bambini contano due gruppi di oggetti, poi li mettono insieme, in modo giocoso e senza ancora alcun calcolo formale. Tenere i numeri bassi, entro circa dieci, e le immagini chiare lascia il pensiero sull'idea di unire. Usa queste schede per il lavoro del mattino, in un angolo della matematica o per una rapida attività a coppie; ognuna arriva gratuita da stampare in PDF con una versione interattiva da giocare online che corregge subito le risposte, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, una sezione bilingue può offrire a ogni bambino lo stesso passo nella lingua che gli serve.",
     "kindergarten__subtraction": "Le schede di Sottrazione per scuola dell'infanzia 5-7 anni introducono il togliere nel modo più dolce: i più grandi della scuola dell'infanzia partono da problemi illustrati, in modo giocoso e senza alcun calcolo formale. I bambini contano un gruppo di oggetti, ne tolgono alcuni e contano quanti ne restano, sempre con il supporto delle immagini. Tenere i numeri piccoli, entro circa dieci, lascia emergere l'idea di quanti ne rimangono. Le schede si prestano al lavoro del mattino, a un angolo della matematica o a una rapida attività a coppie. Ognuna è gratuita da stampare in PDF con una versione interattiva da giocare online che corregge subito le risposte, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, una sezione bilingue può offrire a ogni bambino lo stesso passo.",
-    "alphabet-train__preschool": "Le schede del treno dell'alfabeto di scuola dell'infanzia (3-5 anni) introducono la sequenza alfabetica nel momento di sviluppo in cui i bambini iniziano a riconoscere che le lettere hanno un ordine. Il formato è indulgente: un bambino che conosce la propria prima lettera e qualcuna in più può comunque completare una riga.",
+    "alphabet-train__preschool": "Le schede del Treno Dell'alfabeto sono un primo assaggio dolce delle lettere per la scuola dell'infanzia: un treno allegro trasporta le carte delle lettere, e il bambino trascina o colloca ciascuna nel vagone giusto perché l'alfabeto corra in ordine. Per i bambini dai tre ai cinque anni costruisce il riconoscimento delle lettere e la forma della sequenza A-Z in modo giocoso, senza lettura formale per iniziare. Le carte grandi e chiare lo rendono accogliente per ogni bambino, qualunque sia la lingua di casa. Ogni scheda è gratuita da stampare in PDF, con una versione interattiva da giocare online che incastra le carte al posto giusto e festeggia il treno completo, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi usarla senza registrazione.",
     "grade-1__wordsearch": "Le schede di cerca parole trasformano la lettura iniziale in una caccia che i bambini di classe prima vogliono davvero portare a termine. Ogni gioco nasconde un piccolo gruppo di parole a tema in una griglia di lettere; il bambino osserva, individua e segna ogni parola, collegando ciò che vede agli indizi illustrati accanto alla griglia. Per i sei-otto anni quella ricerca è esercizio vero: riconoscimento delle lettere, lettura da sinistra a destra e nuovo lessico che si fissa, il tutto dentro un gioco. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online dove le parole si selezionano sullo schermo e si controllano, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare nella lingua che i bambini stanno imparando.",
     "kindergarten__matching": "Le schede di Abbinamento per scuola dell'infanzia 5-7 anni offrono un compito chiaro e appagante: tracciare una linea per collegare ogni elemento alla sua coppia. Per i più grandi della scuola dell'infanzia, decidere che cosa va con che cosa costruisce l'associazione uno-a-uno, l'attenzione visiva e il vocabolario che nasce dal nominare ogni coppia. Il compito basato sulle immagini si adatta a ogni bambino, qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online in cui i bambini toccano per tracciare ogni linea e controllarla, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può esercitarsi nella lingua che i bambini stanno imparando.",
     "kindergarten__sudoku": "Le schede di Sudoku Illustrato per scuola dell'infanzia 5-7 anni portano una logica vera molto prima che i bambini sappiano leggere un regolamento. Su una griglia quattro per quattro, il bambino colloca immagini amichevoli in modo che ogni riga, colonna e riquadro contenga una sola volta ciascuna figura: lo stesso ragionamento del sudoku dei grandi, su misura per i cinque-sette anni e costruito con le immagini al posto dei numeri. È un ragionamento paziente e appagante che costruisce attenzione e pensiero per esclusione. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online in cui i bambini trascinano le immagini al loro posto e la griglia viene controllata, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può giocare nella lingua che i bambini stanno imparando.",

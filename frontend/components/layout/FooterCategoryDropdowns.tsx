@@ -150,6 +150,25 @@ export function FooterCategoryDropdowns({
               />
             </button>
 
+            {/* SSR-crawlable link list — always in the DOM so the §16.6 footer
+                topic mesh exists in raw HTML on every page (the visual popover
+                below is gated on `isOpen` and renders nothing server-side, the
+                §A.13.50 client-dropdown SSR gotcha). sr-only keeps the visual
+                design unchanged; the interactive popover is the enhanced layer.
+                Do NOT remove — these are the crawlable internal links. */}
+            <ul className="sr-only">
+              {d.items.map(item => (
+                <li key={item.href}>
+                  <Link href={item.href}>{item.label}</Link>
+                </li>
+              ))}
+              {d.browseAllHref && d.browseAllLabel && (
+                <li>
+                  <Link href={d.browseAllHref}>{d.browseAllLabel}</Link>
+                </li>
+              )}
+            </ul>
+
             {isOpen && (
               <div
                 id={panelId}

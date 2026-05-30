@@ -11,6 +11,7 @@ import PillarPrintables from '@/components/homepage-v3/PillarPrintables';
 import TierTransition from '@/components/homepage-v3/TierTransition';
 import PillarMakers from '@/components/homepage-v3/PillarMakers';
 import PillarTools from '@/components/homepage-v3/PillarTools';
+import BrowseByTopicSSR from '@/components/homepage-v3/BrowseByTopicSSR';
 import EmbedShareV3 from '@/components/homepage-v3/EmbedShareV3';
 import SignupV3 from '@/components/homepage-v3/SignupV3';
 import './preview/homepage-v3/homepage-v3.css';
@@ -157,6 +158,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
         <TierTransition locale={locale} />
         <PillarMakers locale={locale} />
         <PillarTools locale={locale} />
+        <BrowseByTopicSSR locale={locale} />
         <EmbedShareV3 locale={locale} />
         <SignupV3 locale={locale} />
       </main>

@@ -111,6 +111,21 @@ export function CategoryNav({
                   />
                 </button>
 
+                {/* SSR-crawlable list — always in the DOM so the header-nav
+                    topic mesh ships in raw HTML (the popover below is gated on
+                    `isOpen`, renders nothing server-side — §A.13.50). sr-only
+                    keeps the visual design unchanged. Do NOT remove. */}
+                <ul className="sr-only">
+                  {d.items.map(item => (
+                    <li key={item.href}>
+                      <Link href={item.href}>{item.label}</Link>
+                    </li>
+                  ))}
+                  <li>
+                    <Link href={d.browseAllHref}>{d.browseAllLabel}</Link>
+                  </li>
+                </ul>
+
                 {isOpen && (
                   <div
                     role="menu"

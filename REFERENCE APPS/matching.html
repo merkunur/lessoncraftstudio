@@ -3801,16 +3801,28 @@
             var exerciseModeName = (window.LCSCatalogExport && LCSCatalogExport.deriveExerciseModeName)
                 ? LCSCatalogExport.deriveExerciseModeName(rawExerciseMode)
                 : null;
+            // §A.13.46 content-locale-direct SEO-chrome lookup (NOT per-app _t(),
+            // which returns the key on miss + binds to UI locale). Returns null on
+            // miss so _seoT('x') || 'Fallback' short-circuits correctly.
+            var _seoT = function(key) {
+                var loc = (window.currentLocale ||
+                    (typeof DECK_BUNDLE !== 'undefined' && DECK_BUNDLE && DECK_BUNDLE.contentLanguage) ||
+                    'en');
+                var s = (window.translations) || {};
+                return (s[loc] && s[loc][key]) ||
+                    (s.en && s.en[key]) ||
+                    null;
+            };
             var seoMeta = {
                 exerciseTypeSlug: 'matching',
                 exerciseTypeName: canvas.lcsLocalizedTitle || 'Match Up',
                 exerciseModeName: exerciseModeName,
                 themeName: null,  // matching has no theme system; intentionally null
                 instruction: canvas.lcsLocalizedInstruction || '',
-                worksheetWord: _t('worksheet') || 'Worksheet',
-                freeInteractive: _t('seoFreeInteractive') || 'Free interactive',
-                forWord: _t('seoFor') || 'for',
-                printOrPlay: _t('seoPrintOrPlayOnline') || 'Print or play online'
+                worksheetWord: _seoT('worksheet') || 'Worksheet',
+                freeInteractive: _seoT('seoFreeInteractive') || 'Free interactive',
+                forWord: _seoT('seoFor') || 'for',
+                printOrPlay: _seoT('seoPrintOrPlayOnline') || 'Print or play online'
             };
 
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2 — path-(b) origin trace

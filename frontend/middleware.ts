@@ -242,19 +242,11 @@ export default function middleware(request: NextRequest) {
     return resp;
   }
 
-  // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
-  if (pathname.startsWith('/admin') ||
-      pathname.startsWith('/member') ||
-      pathname.startsWith('/settings') ||
-      pathname.startsWith('/notifications') ||
-      pathname.startsWith('/collaboration') ||
-      pathname.startsWith('/testing') ||
-      pathname.startsWith('/search')) {
-    const response = NextResponse.next({ request: { headers: requestHeaders } });
-    response.headers.set('X-Robots-Tag', 'noindex, nofollow');
-    response.headers.set('Content-Language', detectedLocale);
-    return response;
-  }
+  // NOTE: admin/member/settings/notifications/collaboration/testing/search are
+  // EXCLUDED by the matcher below, so this middleware never runs for them. The
+  // old X-Robots-Tag noindex block here was dead code (it never executed). Their
+  // noindex protection is now enforced at the page level via per-tree server
+  // `layout.tsx` files (SEO remediation 2026-05-30). Do not re-add a header here.
 
   // Static-page handling with language persistence
   if (pathname.startsWith('/static')) {

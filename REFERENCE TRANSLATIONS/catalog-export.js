@@ -1946,6 +1946,27 @@
     return { deckHtml: deckHtml, variantId: variantId };
   }
 
+  // SEO Remediation Part 2B (deck→topic end-links, audit P5-01): inject the
+  // end-deck topic-links section into PUBLISH-bound deck.html only. exportCatalog()
+  // is the ZIP/publish path; the operator's direct-download (downloadInteractiveHtml)
+  // returns its HTML WITHOUT reaching here, so direct downloads stay placeholder-
+  // free — preserving the buildEndDeckLinks({includePlaceholders}) contract above.
+  // publish-cli's substitute.js then fills the __LINK_*__ placeholders at upload.
+  // Idempotent (skip if already present); inserts before the deck-end suggestion
+  // strip, matching the app's own render order (endDeckLinks then suggestions).
+  function autoInjectEndDeckLinks(deckHtml) {
+    if (typeof deckHtml !== 'string') return deckHtml;
+    if (deckHtml.indexOf('class="lcs-end-deck"') !== -1) return deckHtml; // idempotent
+    var section = '<aside class="lcs-end-deck">\n' +
+      buildEndDeckLinks({ includePlaceholders: true }) + '\n</aside>\n';
+    var anchor = '<section class="lcs-deckend-suggestions"';
+    var idx = deckHtml.indexOf(anchor);
+    if (idx !== -1) return deckHtml.slice(0, idx) + section + deckHtml.slice(idx);
+    var celIdx = deckHtml.indexOf('<div class="lcs-celebration"');
+    if (celIdx !== -1) return deckHtml.slice(0, celIdx) + section + deckHtml.slice(celIdx);
+    return deckHtml; // no anchor — leave unchanged (defensive)
+  }
+
   function exportCatalog(opts) {
     return Promise.resolve().then(function () {
       if (typeof global.JSZip !== 'function') {
@@ -1989,6 +2010,9 @@
         if (injection.variantId) {
           manifest.variant_id = injection.variantId;
         }
+
+        // Part 2B: emit end-deck topic-links placeholders (publish path only).
+        deckHtml = autoInjectEndDeckLinks(deckHtml);
 
         var zip = new global.JSZip();
         zip.file('manifest.json', JSON.stringify(manifest, null, 2));

@@ -26,6 +26,7 @@ import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
+import { ogLocaleMap } from '@/lib/schema-generator';
 
 // Internal-link-mesh strip headings (Part 2). Per-locale nav labels, inlined
 // here following the ACTIVITIES_SECTION_LABEL precedent (single-consumer
@@ -167,7 +168,13 @@ export async function generateMetadata({
       description: row.page_intro[params.locale],
       url: canonical,
       siteName: 'LessonCraftStudio',
-      locale: params.locale,
+      // og:locale / og:locale:alternate kept consistent with the hreflang set:
+      // the alternates mirror otherLocalesForRow (the same honest-filtered sibling
+      // locales emitted by hreflangAlternatesForRow), mapped to OG locale codes.
+      locale: ogLocaleMap[params.locale] || params.locale,
+      alternateLocale: otherLocalesForRow(row, params.locale).map(
+        ({ locale }) => ogLocaleMap[locale] || locale,
+      ),
       type: 'article',
       images: [
         {

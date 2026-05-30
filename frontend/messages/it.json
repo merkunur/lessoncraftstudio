@@ -2415,6 +2415,636 @@
           "q": "In quante lingue sono disponibili?",
           "a": "Le schede sono disponibili in tutte le 11 lingue in cui pubblichiamo."
         }
+      ],
+      "kindergarten__pattern-train": [
+        {
+          "q": "Cosa si esercita con le schede di Treno Dei Modelli alla scuola dell'infanzia?",
+          "a": "Riconoscere ed estendere modelli illustrati che si ripetono, un pensiero matematico di base per i 5-7 anni, interamente basato sulle immagini."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__subtraction": [
+        {
+          "q": "Le schede di sottrazione sono adatte alla scuola dell'infanzia?",
+          "a": "Sì, il togliere con supporto visivo per i 5-7 anni, in modo giocoso e senza calcolo formale; le immagini tengono il bambino sull'idea di quanti ne restano."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "code-addition__kindergarten": [
+        {
+          "q": "Cosa si esercita con le schede di Addizione Codificata alla scuola dell'infanzia?",
+          "a": "Associare simboli a piccole quantità e riconoscere le lettere: i bambini abbinano e contano per svelare una parola nascosta, per i 5-7 anni e in modo giocoso."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "addition__kindergarten": [
+        {
+          "q": "Queste schede di addizione sono giuste per la scuola dell'infanzia?",
+          "a": "Sì, somme piccole e illustrate per i 5-7 anni, in modo giocoso e senza calcolo formale: contare e unire due gruppi."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "more-less__preschool": [
+        {
+          "q": "Le schede di più o meno sono giuste per i più piccoli della scuola dell'infanzia?",
+          "a": "Sì, il confronto chi-ne-ha-di-più basato sulle immagini per i 3-5 anni, senza bisogno di leggere o scrivere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__math-worksheet": [
+        {
+          "q": "Quale matematica coprono queste schede per la scuola dell'infanzia?",
+          "a": "Prime operazioni, problemi con un numero mancante e piccole somme e differenze per i 5-7 anni, con il supporto delle immagini e senza calcolo formale."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__shadow-match": [
+        {
+          "q": "Cosa si esercita con le schede di Abbina Le Ombre alla scuola dell'infanzia?",
+          "a": "Unire gli oggetti alle loro ombre, riconoscendo forma e contorno, per i 5-7 anni e interamente basato sulle immagini."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1__math-puzzle": [
+        {
+          "q": "Le schede di Puzzle Matematico sono giuste per la classe prima?",
+          "a": "Sì, puzzle numerici da completare trascinando i pezzi, che costruiscono il senso del numero e la pianificazione per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__prepositions": [
+        {
+          "q": "Cosa insegnano le schede di Preposizioni alla scuola dell'infanzia?",
+          "a": "Le parole di posizione (dentro, sopra, sotto, accanto) tramite scelte illustrate, costruendo il vocabolario spaziale per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "cryptogram__kindergarten": [
+        {
+          "q": "Cosa si esercita con le schede di Crittogramma alla scuola dell'infanzia?",
+          "a": "Abbinare immagini e simboli a poche lettere note per comporre una parola da scoprire, per i 5-7 anni; la lettura vera arriva in classe prima."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__sudoku": [
+        {
+          "q": "Il sudoku illustrato è adatto alla scuola dell'infanzia?",
+          "a": "Sì, una griglia 4x4 di immagini che insegna un vero ragionamento per esclusione ai 5-7 anni, senza bisogno di leggere o usare numeri."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1__treasure-hunt": [
+        {
+          "q": "Cosa si esercita con le schede di Caccia Al Tesoro in classe prima?",
+          "a": "Seguire indicazioni a più passi e il ragionamento spaziale su una griglia, per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "big-small__preschool": [
+        {
+          "q": "Le schede di grande o piccolo sono giuste per i più piccoli della scuola dell'infanzia?",
+          "a": "Sì, il confronto per dimensione e la messa in ordine basati sulle immagini per i 3-5 anni, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1__word-scramble": [
+        {
+          "q": "Cosa si esercita con le schede di Anagrammi in classe prima?",
+          "a": "Rimettere in ordine le lettere mescolate per ricostruire una parola illustrata, fissando ortografia e vocabolario per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__matching": [
+        {
+          "q": "Cosa costruiscono le schede di Abbinamento alla scuola dell'infanzia?",
+          "a": "L'associazione uno-a-uno, l'attenzione visiva e il vocabolario, collegando le immagini alle loro coppie, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__missing-pieces": [
+        {
+          "q": "Cosa costruiscono le schede di Pezzi Mancanti alla scuola dell'infanzia?",
+          "a": "La consapevolezza della forma, la discriminazione visiva e il ragionamento confronta-prima-di-scegliere per i 5-7 anni; un enigma illustrato, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "find-objects__kindergarten": [
+        {
+          "q": "Cosa si esercita con le schede di Trova Gli Oggetti alla scuola dell'infanzia?",
+          "a": "La discriminazione visiva, l'attenzione ai dettagli e il vocabolario: una caccia agli oggetti per i 5-7 anni, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__word-guess": [
+        {
+          "q": "Cosa si esercita con le schede di Indovina La Parola alla scuola dell'infanzia?",
+          "a": "Il riconoscimento delle lettere e la fonetica iniziale: i bambini riempiono gli spazi per comporre una parola illustrata, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__odd-one-out": [
+        {
+          "q": "Cosa costruiscono le schede di L'intruso alla scuola dell'infanzia?",
+          "a": "La classificazione e il ragionamento: trovare (e spiegare) l'immagine che non c'entra, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "find-and-count__preschool": [
+        {
+          "q": "Le schede di trova e conta sono giuste per i più piccoli della scuola dell'infanzia?",
+          "a": "Sì, i bambini osservano una piccola scena, trovano le immagini da cercare e le contano entro circa cinque; senza bisogno di leggere, ideale per i 3-5 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__picture-path": [
+        {
+          "q": "Cosa si esercita con le schede di Percorso Illustrato alla scuola dell'infanzia?",
+          "a": "L'orientamento, l'attenzione alla sequenza e un primo ragionamento spaziale su una griglia, per i 5-7 anni e senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__picture-sort": [
+        {
+          "q": "Cosa insegnano le schede di Ordina Le Immagini alla scuola dell'infanzia?",
+          "a": "Ordinare e classificare le immagini per categoria: un primo esercizio di logica e vocabolario per i 5-7 anni, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "bingo__kindergarten": [
+        {
+          "q": "Cosa si esercita con le schede di Bingo alla scuola dell'infanzia?",
+          "a": "L'ascolto attento, il riconoscimento delle immagini e il vocabolario: un gioco di gruppo per i 5-7 anni, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì, ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "chart-count__kindergarten": [
+        {
+          "q": "Cosa si esercita con le schede di conteggio grafico alla scuola dell'infanzia?",
+          "a": "Il conteggio e la prima idea di grafico a barre: i bambini contano gli oggetti e colorano una colonna per mostrare quanti sono, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grid-match__kindergarten": [
+        {
+          "q": "Cosa sviluppano le schede di abbinamento a griglia alla scuola dell'infanzia?",
+          "a": "L'abbinamento visivo, il senso della posizione e la memoria di lavoro per i 5-7 anni: un puzzle a immagini, senza bisogno di leggere."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1__pattern-worksheet": [
+        {
+          "q": "Cosa si esercita con le schede di modelli in classe prima?",
+          "a": "Leggere e proseguire i modelli ripetuti AB e ABC: il pensiero che prevede e generalizza, per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "grade-1__wordsearch": [
+        {
+          "q": "Le schede di cerca parole vanno bene per la classe prima?",
+          "a": "Sì: brevi cacce alle parole con il supporto delle immagini che sviluppano il riconoscimento delle lettere, l'osservazione e il lessico per i 6-8 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "animals__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema animali per la scuola dell'infanzia?",
+          "a": "Schede a tema animali per contare, addizionare, ordinare, abbinare, trova l'intruso e prime lettere, pensate per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "crossword__grade-2": [
+        {
+          "q": "Cosa si esercita con le schede di cruciverba in classe seconda?",
+          "a": "Leggere l'indizio o l'immagine e scrivere la parola: consolidamento di lettura, ortografia e lessico per i 7-9 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "accessories__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema accessori per la scuola dell'infanzia?",
+          "a": "Schede con immagini di accessori per contare, ordinare, abbinare e riconoscere le prime lettere, in modo giocoso per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "bakery__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema panetteria per la scuola dell'infanzia?",
+          "a": "Schede con immagini di pane, pretzel e dolci per contare, ordinare, abbinare e riconoscere le prime lettere, in modo giocoso per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "beach__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema spiaggia per la scuola dell'infanzia?",
+          "a": "Schede con immagini di secchiello, conchiglia e ombrellone per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "breakfast__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema colazione per la scuola dell'infanzia?",
+          "a": "Schede con immagini di latte, pane e frutta per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "christmas__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema Natale per la scuola dell'infanzia?",
+          "a": "Schede a tema Natale per contare, addizionare, ordinare, modelli, abbinare e prime parole, pensate per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "classroom__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema aula per la scuola dell'infanzia?",
+          "a": "Schede con immagini di matita, libro e zaino per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "clothing__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema abbigliamento per la scuola dell'infanzia?",
+          "a": "Schede con immagini di maglietta, scarpe e cappello per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "flowers__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema fiori per la scuola dell'infanzia?",
+          "a": "Schede con immagini di tulipano, rosa e girasole per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "fruits__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema frutta per la scuola dell'infanzia?",
+          "a": "Schede con immagini di frutta per contare, addizionare, ordinare, abbinare, trova l'intruso e prime lettere, pensate per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "furniture__kindergarten": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema mobili per la scuola dell'infanzia?",
+          "a": "Schede con immagini di sedia, tavolo e letto per contare, ordinare, abbinare, trova l'intruso e prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__ocean_life": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema vita oceanica per la scuola dell'infanzia?",
+          "a": "Schede con immagini di pesce, polpo e delfino per contare, ordinare, abbinare, trova l'intruso e prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__space": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema spazio per la scuola dell'infanzia?",
+          "a": "Schede con immagini di razzo, stella e pianeta per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__summer": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema estate per la scuola dell'infanzia?",
+          "a": "Schede a tema estate per contare, ordinare, modelli, abbinare e prime parole, pensate per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__toys": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema giocattoli per la scuola dell'infanzia?",
+          "a": "Schede con immagini di palla, bambola e cubi per contare, addizionare, ordinare, abbinare, trova l'intruso e prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__vegetables": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema verdure per la scuola dell'infanzia?",
+          "a": "Schede con immagini di carota, pomodoro e mais per contare, ordinare, abbinare, trova l'intruso e prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
+      ],
+      "kindergarten__weather": [
+        {
+          "q": "Cosa trovo nella pagina delle schede a tema meteo per la scuola dell'infanzia?",
+          "a": "Schede con immagini di sole, nuvola e pioggia per contare, ordinare, abbinare e riconoscere le prime lettere, per i 5-7 anni."
+        },
+        {
+          "q": "Queste schede sono gratuite?",
+          "a": "Sì: ogni scheda qui è gratuita da stampare e da giocare online, con le soluzioni e senza registrazione."
+        },
+        {
+          "q": "In quali lingue sono disponibili?",
+          "a": "In tutte le 11 lingue in cui pubblichiamo."
+        }
       ]
     },
     "fallback": {
@@ -2635,29 +3265,29 @@
     "animals__big-small": "Le schede grande-piccolo a tema animali sfruttano la variazione naturale di taglia tra creature — dall'elefante al topo — per rendere concreto il confronto di taglie relative. I bambini leggono l'indizio di taglia con sicurezza e l'abilità sottostante si trasferisce.",
     "animals__more-less": "Le schede più-meno a tema animali chiedono ai bambini di confrontare quantità di creature familiari — tre pecore o cinque pecore — e di decidere quale gruppo ne ha di più. L'appoggio visivo mantiene il fuoco sul confronto di quantità stesso.",
     "animals__shadow-match": "Le schede di abbinamento d'ombre a tema animali abbinano ogni immagine di creatura alla sua sagoma. L'attività è particolarmente accessibile perché i bambini riconoscono le forme animali con sicurezza prima di dover gestire la versione di solo contorno.",
-    "animals__kindergarten": "Le schede di scuola dell'infanzia (5-7 anni) a tema animali abbinano un vocabolario di creature familiari alle attività per cui un bambino di quest'età è pronto: abbinare, smistare, contare in modo semplice, lavorare la lettera iniziale. Il contesto animale rende il lavoro accessibile; le attività in sé estendono le abilità in sviluppo del bambino.",
+    "animals__kindergarten": "Le schede a tema animali per la scuola dell'infanzia 5-7 anni mettono al lavoro il set di immagini più amato dell'infanzia. I personaggi familiari, gatto, mucca, uccellino e pesce, accompagnano i bambini nel contare e nelle prime addizioni, nell'ordinare e nell'abbinare, nel trova l'intruso e nel riconoscere le prime lettere, così una nuova abilità si esercita su immagini già note invece che su un contesto nuovo ogni volta. I nomi degli animali sono tra le parole più frequenti in ogni lingua, un vero aiuto in una sezione bilingue. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
     "animals__preschool": "Le schede di scuola dell'infanzia (3-5 anni) a tema animali offrono ai più piccoli immagini ad alto riconoscimento abbinate a compiti pre-accademici semplici: colora l'uccello, conta le anatre, trova il cane diverso. Le immagini familiari mantengono basso il carico cognitivo mentre le attività esercitano le abilità che la scuola dell'infanzia ha la vocazione di sviluppare.",
     "animals__grade-1": "Le schede di scuola primaria classe prima a tema animali usano creature familiari come veicolo del lavoro più impegnativo che l'anno porta — cruciverba di parole più lunghi, conteggio a più passi, addizione iniziale con appoggio d'immagine. I bambini restano coinvolti dal tema mentre la richiesta cognitiva sale.",
-    "addition__kindergarten": "Le schede di addizione di scuola dell'infanzia (5-7 anni) danno ai bambini pratica con le piccole somme che il loro senso del numero in sviluppo riesce a gestire — addizione a una cifra, problemi con appoggio d'immagine, somme entro il dieci. Il formato indirizza al richiamo dei fatti senza saltare la fase del contare per immagini su cui i bambini di quest'età ancora spesso si appoggiano.",
-    "kindergarten__subtraction": "Le schede di sottrazione di scuola dell'infanzia (5-7 anni) praticano il togliere con quantità che i bambini possono tenere a mente — di solito entro il dieci, spesso con appoggio d'immagine che permette loro di barrare fisicamente gli elementi che se ne vanno. L'attività costruisce l'intuizione del togliere prima che i bambini debbano gestire la sottrazione astratta.",
+    "addition__kindergarten": "Le schede di Addizione per scuola dell'infanzia 5-7 anni accompagnano i più grandi della scuola dell'infanzia proprio quando il contare comincia a diventare addizione. A questo stadio le somme restano piccole e illustrate: i bambini contano due gruppi di oggetti, poi li mettono insieme, in modo giocoso e senza ancora alcun calcolo formale. Tenere i numeri bassi, entro circa dieci, e le immagini chiare lascia il pensiero sull'idea di unire. Usa queste schede per il lavoro del mattino, in un angolo della matematica o per una rapida attività a coppie; ognuna arriva gratuita da stampare in PDF con una versione interattiva da giocare online che corregge subito le risposte, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, una sezione bilingue può offrire a ogni bambino lo stesso passo nella lingua che gli serve.",
+    "kindergarten__subtraction": "Le schede di Sottrazione per scuola dell'infanzia 5-7 anni introducono il togliere nel modo più dolce: i più grandi della scuola dell'infanzia partono da problemi illustrati, in modo giocoso e senza alcun calcolo formale. I bambini contano un gruppo di oggetti, ne tolgono alcuni e contano quanti ne restano, sempre con il supporto delle immagini. Tenere i numeri piccoli, entro circa dieci, lascia emergere l'idea di quanti ne rimangono. Le schede si prestano al lavoro del mattino, a un angolo della matematica o a una rapida attività a coppie. Ognuna è gratuita da stampare in PDF con una versione interattiva da giocare online che corregge subito le risposte, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, una sezione bilingue può offrire a ogni bambino lo stesso passo.",
     "alphabet-train__preschool": "Le schede del treno dell'alfabeto di scuola dell'infanzia (3-5 anni) introducono la sequenza alfabetica nel momento di sviluppo in cui i bambini iniziano a riconoscere che le lettere hanno un ordine. Il formato è indulgente: un bambino che conosce la propria prima lettera e qualcuna in più può comunque completare una riga.",
-    "grade-1__wordsearch": "I cruciverba di parole di scuola primaria classe prima offrono pratica di lettura autonoma una volta che i bambini sono passati dal riconoscimento di parole a vista allo scorrimento sostenuto lettera per lettera. Gli obiettivi sono brevi e tematici, il che mantiene la richiesta cognitiva sullo scorrimento anziché sul ricordare cosa cercare.",
-    "kindergarten__matching": "Le schede di abbinamento di scuola dell'infanzia (5-7 anni) praticano il movimento di ricerca di relazioni che sta alla base di gran parte della lettura precoce e della matematica precoce: questa immagine va con quella lettera, questa quantità va con quella cifra. Il formato dà ai bambini una pratica autonoma di un'operazione cognitiva che stanno sviluppando rapidamente.",
-    "kindergarten__sudoku": "Il sudoku illustrato di scuola dell'infanzia (5-7 anni) dà esperienza di rompicapo logico a un livello di sviluppo che un bambino di quest'età può gestire: quattro immagini, una griglia 4×4, deduzione per esclusione. Utile come compito di arricchimento per bambini pronti a un maggiore impegno cognitivo.",
-    "find-and-count__preschool": "Le schede cerca-e-conta di scuola dell'infanzia (3-5 anni) chiedono ai più piccoli di scorrere una piccola scena, individuare oggetti obiettivo e contarli. L'attività è breve e visiva, il che si adatta all'attenzione di questa fascia; le abilità sottostanti — discriminazione visiva e corrispondenza biunivoca — sono fondanti.",
-    "kindergarten__prepositions": "Le schede di preposizioni di scuola dell'infanzia (5-7 anni) collegano il vocabolario spaziale a immagini concrete nel momento di sviluppo in cui i bambini sono pronti a rendere esplicito questo linguaggio. Il formato sostenuto da immagini mantiene il carico cognitivo sulla relazione.",
-    "kindergarten__picture-sort": "Le schede di smistamento di immagini di scuola dell'infanzia (5-7 anni) praticano la classificazione binaria con le categorie che i bambini di quest'età possono gestire — colore, lettera iniziale, alimentazione, habitat. Ogni pagina dà pratica autonoma con un'abilità di classificazione sottostante.",
-    "big-small__preschool": "Le schede grande-piccolo di scuola dell'infanzia (3-5 anni) danno ai più piccoli pratica con il confronto di taglie relative, l'abilità precorritrice della misurazione e dell'ordinamento. Le immagini sono esagerate perché il confronto sia inequivocabile.",
-    "more-less__preschool": "Le schede più-meno di scuola dell'infanzia (3-5 anni) praticano il confronto di quantità al livello di sviluppo in cui i bambini sanno contare due piccoli gruppi ma non gestiscono ancora le cifre astratte con sicurezza. Utile come precursore dell'addizione formale.",
-    "grade-1__math-puzzle": "I rompicapi matematici di scuola primaria classe prima danno ai fatti numerici dell'anno una cornice logica — i bambini risolvono aritmetica per scoprire qualcosa anziché per esercitarla. Si addice alla disposizione di classe prima a un lavoro cognitivo un po' più sostenuto.",
-    "kindergarten__math-worksheet": "Le schede matematiche di scuola dell'infanzia (5-7 anni) danno pratica mirata sulle operazioni che un bambino di quest'età sta consolidando, in formati abbastanza brevi per l'attenzione di questa fascia. Le abbini a manipolativi durante l'insegnamento in piccoli gruppi.",
-    "kindergarten__missing-pieces": "Le schede di pezzi mancanti di scuola dell'infanzia (5-7 anni) esercitano il completamento visivo al livello che i bambini di quest'età possono gestire — forme nette, obiettivi inequivocabili, piccole tavolozze di opzioni. L'attività costruisce il ragionamento spaziale in una finestra di sviluppo in cui è fortemente disponibile.",
-    "kindergarten__odd-one-out": "Le schede dell'intruso di scuola dell'infanzia (5-7 anni) danno la pratica di discriminazione che sta alla base della classificazione: un piccolo gruppo di immagini in cui una non si adatta. Il criterio varia, il che mantiene i bambini attenti a ciò che viene effettivamente chiesto.",
-    "kindergarten__shadow-match": "Le schede di abbinamento d'ombre di scuola dell'infanzia (5-7 anni) abbinano immagini alle loro sagome. Il movimento di riconoscimento di forme coinvolto è fondante per il riconoscimento delle lettere; il contesto d'immagine lo rende accessibile a questo livello.",
-    "code-addition__kindergarten": "Le schede di addizione codificata di scuola dell'infanzia (5-7 anni) danno alla pratica aritmetica una cornice di lettoscrittura: ogni somma decodifica una lettera o una parola, il che rende la pratica intenzionale per i bambini che hanno i fatti di base ma necessitano motivazione.",
-    "kindergarten__pattern-train": "Le schede del treno di schemi di scuola dell'infanzia (5-7 anni) praticano il riconoscimento di schemi — alternato, ripetuto, crescente — in un formato treno visivamente facile da leggere. Il riconoscimento di schemi è fondante in matematica e in lettura.",
-    "kindergarten__picture-path": "Le schede di percorso illustrato di scuola dell'infanzia (5-7 anni) praticano la ricerca di itinerari attraverso una griglia, esercitando ragionamento spaziale e pazienza. I bambini a questo livello di sviluppo sono pronti a considerare gli itinerari prima di posare la matita sulla carta.",
-    "grade-1__treasure-hunt": "Le cacce al tesoro di scuola primaria classe prima danno ai bambini una sequenza di indicazioni direzionali a più passi da seguire su una griglia. L'attività costruisce ragionamento spaziale, memoria di lavoro e fluidità del vocabolario direzionale a un livello che i bambini di classe prima possono sostenere.",
+    "grade-1__wordsearch": "Le schede di cerca parole trasformano la lettura iniziale in una caccia che i bambini di classe prima vogliono davvero portare a termine. Ogni gioco nasconde un piccolo gruppo di parole a tema in una griglia di lettere; il bambino osserva, individua e segna ogni parola, collegando ciò che vede agli indizi illustrati accanto alla griglia. Per i sei-otto anni quella ricerca è esercizio vero: riconoscimento delle lettere, lettura da sinistra a destra e nuovo lessico che si fissa, il tutto dentro un gioco. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online dove le parole si selezionano sullo schermo e si controllano, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare nella lingua che i bambini stanno imparando.",
+    "kindergarten__matching": "Le schede di Abbinamento per scuola dell'infanzia 5-7 anni offrono un compito chiaro e appagante: tracciare una linea per collegare ogni elemento alla sua coppia. Per i più grandi della scuola dell'infanzia, decidere che cosa va con che cosa costruisce l'associazione uno-a-uno, l'attenzione visiva e il vocabolario che nasce dal nominare ogni coppia. Il compito basato sulle immagini si adatta a ogni bambino, qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online in cui i bambini toccano per tracciare ogni linea e controllarla, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può esercitarsi nella lingua che i bambini stanno imparando.",
+    "kindergarten__sudoku": "Le schede di Sudoku Illustrato per scuola dell'infanzia 5-7 anni portano una logica vera molto prima che i bambini sappiano leggere un regolamento. Su una griglia quattro per quattro, il bambino colloca immagini amichevoli in modo che ogni riga, colonna e riquadro contenga una sola volta ciascuna figura: lo stesso ragionamento del sudoku dei grandi, su misura per i cinque-sette anni e costruito con le immagini al posto dei numeri. È un ragionamento paziente e appagante che costruisce attenzione e pensiero per esclusione. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online in cui i bambini trascinano le immagini al loro posto e la griglia viene controllata, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può giocare nella lingua che i bambini stanno imparando.",
+    "find-and-count__preschool": "Le schede di Trova E Conta per scuola dell'infanzia 3-5 anni sono un meraviglioso primo compito di conteggio, perché chiedono ai più piccoli due cose che amano: cercare le immagini e contare ciò che trovano. Il bambino osserva una piccola scena amichevole, individua gli oggetti da cercare entro circa cinque e conta quanti sono, senza bisogno di leggere per cominciare, solo guardando con cura e tenendo il conto. Quella ricerca delicata costruisce l'attenzione visiva e il contare uno-a-uno proprio al livello giusto per i più giovani, in modo esplorativo e ludico. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che dà un riscontro immediato e incoraggiante, oltre alle soluzioni per l'adulto. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni piccolo può partecipare subito nella lingua che sta imparando.",
+    "kindergarten__prepositions": "Le schede di Preposizioni per scuola dell'infanzia 5-7 anni aiutano i bambini a padroneggiare le piccole parole che dicono dove si trovano le cose: dentro, sopra, sotto, accanto. Il bambino guarda le immagini e sceglie quella che mostra la posizione, costruendo il vocabolario spaziale che i più grandi della scuola dell'infanzia usano tutto il giorno, in matematica come nelle storie. Poiché il compito è guidato dalle immagini, funziona per ogni bambino a prescindere dal livello di lettura o dalla lingua di casa, e fa nascere utili conversazioni descrittive. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla ogni scelta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, accompagni i bambini nella lingua che stanno imparando.",
+    "kindergarten__picture-sort": "Le schede di Ordina Le Immagini per scuola dell'infanzia 5-7 anni chiedono ai bambini di mettere le figure dove vanno, ordinandole in gruppi etichettati per tipo, colore o categoria. Per i più grandi della scuola dell'infanzia, decidere che cosa sta insieme e perché è un primo esercizio di logica e vocabolario al tempo stesso, e fa nascere tante utili conversazioni. Poiché l'ordinamento si fa con le immagini, ogni bambino può partecipare a prescindere dal livello di lettura o dalla lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online in cui i bambini trascinano le figure nei contenitori e controllano il lavoro, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può lavorare nella lingua che i bambini stanno imparando.",
+    "big-small__preschool": "Le schede di Grande O Piccolo per scuola dell'infanzia 3-5 anni offrono ai più piccoli il primo assaggio del pensiero sulla misura: individuare il più grande, trovare il più piccolo e mettere in ordine qualche immagine secondo la dimensione. Per i tre-cinque anni il compito usa figure chiare e un solo tocco o segno, così un bambino può riuscirci senza leggere una parola. Confrontare per dimensione nutre anche il vocabolario che serve a descrivere e ordinare il mondo intorno. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che risponde in modo caloroso e immediato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni piccolo può partecipare nella lingua che sta imparando.",
+    "more-less__preschool": "Le schede di Più O Meno per scuola dell'infanzia 3-5 anni propongono una delle primissime idee sui numeri che incontrano i più piccoli: guardare due gruppi di immagini e decidere quale ne ha di più, quale di meno e quando sono uguali. Per i tre-cinque anni questa è la base del contare con significato, e il compito non richiede né lettura né scrittura, solo uno sguardo e una scelta. Le immagini amichevoli rendono tutto accogliente per ogni bambino, qualunque sia la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che dà un riscontro delicato e immediato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni piccolo può partecipare nella lingua che sta imparando.",
+    "grade-1__math-puzzle": "Le schede di Puzzle Matematico per Scuola primaria classe prima offrono un modo pratico per costruire il senso del numero: i bambini trascinano i pezzi per completare un puzzle numerico, capendo dove va ciascuno. Per i sei-otto anni questo premia un po' di pianificazione e un pensiero per prova-e-aggiusta sopra l'aritmetica, e si adatta bene al passaggio dal contare al calcolare entro venti. Il formato è abbastanza chiaro da iniziare in autonomia e abbastanza ricco da tenere occupato chi finisce in fretta. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla il puzzle completato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni classe può lavorare nella lingua che i bambini stanno imparando.",
+    "kindergarten__math-worksheet": "Queste schede di matematica raccolgono il lavoro coi numeri che una sezione della scuola dell'infanzia usa più spesso: costruire prime operazioni, completare una parte mancante e affrontare piccole somme e differenze a un livello adatto ai cinque-sette anni. Il supporto delle immagini àncora le quantità, così il pensiero resta sulla matematica anziché sulla decifrazione delle istruzioni, sempre in modo giocoso e senza calcolo formale. Mettere il lavoro generale coi numeri in un unico posto rende rapido costruire una breve attività o un compito per l'angolo della matematica. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che dà un riscontro immediato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può lavorare nella lingua che i bambini stanno imparando.",
+    "kindergarten__missing-pieces": "Le schede di Pezzi Mancanti per scuola dell'infanzia 5-7 anni propongono un appagante enigma visivo: ogni immagine ha un vuoto, e il bambino trascina il pezzo ritagliato giusto nel buco per completarla. Per i più grandi della scuola dell'infanzia questo costruisce la consapevolezza della forma, la discriminazione visiva e la pazienza di confrontare le opzioni prima di scegliere, un primo ragionamento travestito da gioco. Poiché il compito è basato sulle immagini, funziona qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che incastra i pezzi al loro posto e controlla l'immagine finita, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può lavorare nella lingua che i bambini stanno imparando.",
+    "kindergarten__odd-one-out": "Le schede di L'intruso per scuola dell'infanzia 5-7 anni chiedono ai bambini di trovare l'immagine che non c'entra e, cosa altrettanto importante, di pensare al perché. Per i più grandi della scuola dell'infanzia questo è un primo esercizio di classificazione e ragionamento: notare ciò che un gruppo ha in comune e cogliere l'eccezione. Il compito di trovare l'intruso basato sulle immagini si adatta a ogni bambino, qualunque sia il livello di lettura o la lingua di casa, e stimola tante utili spiegazioni a voce. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che svela la risposta dopo la scelta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può lavorare nella lingua che i bambini stanno imparando.",
+    "kindergarten__shadow-match": "Le schede di Abbina Le Ombre per scuola dell'infanzia 5-7 anni chiedono ai bambini di unire ogni oggetto alla propria ombra, un compito di abbinamento visivo pulito che affina l'attenzione alla forma e al contorno. Per i più grandi della scuola dell'infanzia, andare oltre il colore e i dettagli per riconoscere una sagoma è un ottimo esercizio di osservazione, e sembra un gioco. Il compito basato sulle immagini funziona per ogni bambino, qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che traccia l'abbinamento e lo controlla, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può esercitarsi nella lingua che i bambini stanno imparando.",
+    "code-addition__kindergarten": "Le schede di Addizione Codificata per scuola dell'infanzia 5-7 anni aggiungono un pizzico di mistero ai primi giochi con i numeri: il bambino associa simboli o colori a piccole quantità e conta le immagini, e ogni risposta indica una lettera che svela una parola nascosta. Per i più grandi della scuola dell'infanzia è un gioco di abbinamento che unisce numeri piccoli al gusto di decifrare un codice, così contare e riconoscere le lettere procedono insieme, in modo ludico e senza calcolo formale. Le quantità restano piccole e illustrate, perché l'enigma sia la ricompensa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla gli abbinamenti e la parola svelata, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, accompagni i bambini nella lingua che stanno imparando.",
+    "kindergarten__pattern-train": "Le schede di Treno Dei Modelli per scuola dell'infanzia 5-7 anni trasformano i primi modelli in un gioco che i più grandi della scuola dell'infanzia vogliono portare a termine: un trenino corre lungo la pagina e il bambino prosegue il modello illustrato vagone dopo vagone. Riconoscere ciò che si ripete e prevedere ciò che viene dopo è un pensiero matematico di base per i cinque-sette anni, e il trenino tiene tutto leggero e giocoso. Sono le immagini a portare il compito, così anche chi sta ancora imparando la lingua della classe partecipa appieno. Ogni scheda arriva gratuita da stampare in PDF con una versione interattiva da giocare online che conferma ogni collocazione, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può esercitare i modelli nella lingua che i bambini stanno imparando.",
+    "kindergarten__picture-path": "Le schede di Percorso Illustrato per scuola dell'infanzia 5-7 anni trasformano il muoversi nello spazio in un gioco tranquillo: il bambino traccia un cammino cella dopo cella attraverso una griglia illustrata, scegliendo la direzione passo dopo passo finché non raggiunge la meta. Per i più grandi della scuola dell'infanzia questo costruisce l'orientamento, l'attenzione alla sequenza e un primo ragionamento spaziale, in modo giocoso e senza bisogno di leggere. Le immagini chiare tengono il pensiero sul percorso e accolgono chi sta ancora imparando la lingua della classe. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che traccia il cammino e ne controlla il tracciato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può giocare nella lingua che i bambini stanno imparando.",
+    "grade-1__treasure-hunt": "Le schede di Caccia Al Tesoro per Scuola primaria classe prima offrono un assaggio del seguire indicazioni e leggere lo spazio. Partendo da una casella segnata, il bambino segue indizi passo dopo passo, tante caselle da una parte e poi dall'altra, tracciando un percorso sulla griglia fino a raggiungere il tesoro. Per i sei-otto anni è un vero esercizio di ragionamento spaziale e di parole di direzione (su, giù, sinistra, destra, accanto) avvolto in un'avventura, e premia un pensiero attento e ordinato. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che traccia il percorso e ne controlla il tracciato, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni classe può lavorare nella lingua che i bambini stanno imparando.",
     "cryptogram": "Nelle schede di Crittogramma i bambini decifrano un codice di immagini e simboli per scrivere una parola nascosta. È un'attività che unisce il riconoscimento delle lettere all'osservazione attenta e al ragionamento, con il supporto delle immagini. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare lettere e parole in modo divertente. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, il Crittogramma trasforma la scrittura in un piccolo gioco di decifrazione.",
     "word-scramble": "Nelle schede di Anagrammi i bambini rimettono in ordine le lettere mescolate per scrivere la parola di un'immagine. È un'attività di ortografia iniziale e di riconoscimento delle lettere che si svolge con il supporto delle immagini, ideale per i primi passi nella scrittura. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede in classe o come compiti a casa per esercitare le prime parole. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, gli Anagrammi rendono l'ortografia un piccolo gioco di ricostruzione.",
     "find-objects": "Nelle schede di Trova Gli Oggetti i bambini cercano oggetti nascosti in una scena e li segnano man mano che li scoprono. È un'attività di discriminazione visiva e di attenzione che si svolge con il supporto delle immagini, senza bisogno di saper leggere. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Usa le schede per il gioco guidato o come breve attività di osservazione negli angoli dedicati. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, Trova Gli Oggetti allena lo sguardo attento in modo divertente.",
@@ -2715,7 +3345,32 @@
     "dinosaurs": "L'insieme di immagini familiari dei Dinosauri raccoglie tirannosauri, triceratopi, uova e impronte, e le stesse figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a immaginare e nominare gli animali del passato. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Dinosauri accompagna il percorso K-3.",
     "reptiles_and_amphibians": "L'insieme di immagini familiari dei Rettili e anfibi raccoglie serpenti, rane, lucertole e tartarughe, parole della natura che ritornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a osservare e nominare questi animali. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Rettili e anfibi sostiene il percorso K-3.",
     "colors": "I Colori nascono dall'osservazione della vita quotidiana, con rosso, blu, giallo e verde, e lo stesso insieme di immagini ritorna in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a riconoscere e nominare i colori intorno a sé. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Colori accompagna il percorso K-3.",
-    "miscellaneous": "Le schede a tema Varie raccolgono un insieme variato di immagini di oggetti diversi, e queste figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a ampliare le parole su più campi. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Varie sostiene il percorso K-3 con grande flessibilità."
+    "miscellaneous": "Le schede a tema Varie raccolgono un insieme variato di immagini di oggetti diversi, e queste figure tornano in tutte le esercitazioni: contare e prime addizioni, classificare e abbinare, trova l'intruso e riconoscere le prime lettere, con il supporto delle immagini. Il vocabolario del tema è ad alta frequenza in ogni lingua, e nelle classi bilingui aiuta a ampliare le parole su più campi. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Varie sostiene il percorso K-3 con grande flessibilità.",
+    "cryptogram__kindergarten": "Le schede di Crittogramma per scuola dell'infanzia 5-7 anni propongono un codice gentile da decifrare: ogni immagine o simbolo corrisponde a una lettera già nota, e il bambino abbina i simboli per comporre una parola. Per i più grandi della scuola dell'infanzia è un gioco di abbinamento immagine-simbolo con poche lettere conosciute, con una scoperta soddisfacente alla fine, mentre la lettura vera e propria arriverà in classe prima. Gli indizi illustrati lo tengono accessibile a chi sta ancora imparando la lingua della classe. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla la parola composta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può avviare i primi passi con le lettere nella lingua che i bambini stanno imparando.",
+    "grade-1__word-scramble": "Le schede di Anagrammi per Scuola primaria classe prima trasformano l'ortografia in un piccolo enigma: le lettere di una parola sono mescolate accanto a un indizio illustrato, e il bambino le rimette in ordine per ricostruire la parola. Per i sei-otto anni unisce il riconoscimento delle lettere alla fonetica iniziale, mentre l'immagine tiene chiaro il significato, ed è un ottimo modo per fissare le nuove parole proprio quando la lettura e la scrittura prendono forma. Il formato si presta a un angolo della lingua, al lavoro a coppie o a un rapido riscaldamento. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla ogni lettera, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni classe può esercitarsi nella lingua che i bambini stanno imparando.",
+    "find-objects__kindergarten": "Le schede di Trova Gli Oggetti per scuola dell'infanzia 5-7 anni trasformano il guardare con attenzione in un gioco che i bambini adorano: una scena animata e amichevole nasconde gli oggetti da cercare, e il bambino li scova e segna uno per uno. Per i più grandi della scuola dell'infanzia questo costruisce la discriminazione visiva, l'attenzione ai dettagli e il vocabolario, mentre nominano ciò che trovano. Il compito alla caccia agli oggetti basato sulle immagini accoglie ogni bambino, qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che segna le scoperte e le conta, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può giocare nella lingua che i bambini stanno imparando.",
+    "kindergarten__word-guess": "Le schede di Indovina La Parola per scuola dell'infanzia 5-7 anni offrono un primo compito di ortografia delicato: un indizio illustrato mostra la parola, e il bambino riempie gli spazi lettera dopo lettera per comporla. Per i più grandi della scuola dell'infanzia questo unisce il riconoscimento delle lettere alla fonetica iniziale in modo soddisfacente e senza pressioni, mentre l'immagine tiene chiaro il significato. Si presta a un angolo della lingua, al lavoro a coppie o a un rapido riscaldamento. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che controlla ogni lettera, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può avviare i primi passi con l'ortografia nella lingua che i bambini stanno imparando.",
+    "bingo__kindergarten": "Le schede di Bingo per scuola dell'infanzia 5-7 anni portano un gioco di gruppo amato in un compito di riconoscimento appagante: si annuncia una figura alla volta e il bambino cerca la casella corrispondente sulla propria cartella, segnandola quando la trova. Per i più grandi della scuola dell'infanzia questo costruisce l'ascolto attento, il riconoscimento delle immagini e il vocabolario, mentre nominano ciò che individuano, in modo giocoso. Il compito basato sulle immagini accoglie ogni bambino, qualunque sia il livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF con una versione interattiva da giocare online che segna le caselle e controlla la cartella, oltre alle soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può giocare nella lingua che i bambini stanno imparando.",
+    "chart-count__kindergarten": "Le schede di conteggio grafico offrono ai bambini della scuola dell'infanzia 5-7 anni il primo assaggio dei dati: prima si contano gli oggetti, poi si colora una colonna del grafico a barre per mostrare quanti sono. Per i cinque-sette anni questo unisce il conteggio attento alla primissima idea di grafico, dove più alto significa di più, un bel ponte tra il contare e il rappresentare. Essendo un compito basato sulle immagini, resta accessibile a ogni bambino qualunque sia il suo livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online che riempie le colonne e le confronta con i conteggi, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare nella lingua che i bambini stanno imparando.",
+    "grid-match__kindergarten": "Le schede di abbinamento a griglia propongono ai bambini della scuola dell'infanzia 5-7 anni un ordinato gioco di abbinamento: si trascina ogni tessera nella casella giusta della griglia. Per i cinque-sette anni questo sviluppa l'abbinamento visivo, il senso della posizione e un po' di memoria di lavoro, perché bisogna tenere a mente un'immagine mentre se ne cerca il posto. È un compito tutto basato sulle immagini, adatto a ogni bambino qualunque sia il suo livello di lettura o la lingua di casa. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online dove le tessere si incastrano al loro posto e la griglia completata viene controllata, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, ogni sezione può esercitarsi nella lingua che serve ai bambini.",
+    "grade-1__pattern-worksheet": "Le schede di modelli per la Scuola primaria classe prima costruiscono il ragionamento dietro le sequenze: i bambini leggono un modello ripetuto AB o ABC, capiscono cosa viene dopo e poi lo proseguono. Per i sei-otto anni questo rafforza il pensiero che prevede e generalizza, alla base dell'algebra iniziale, con il supporto delle immagini dove aiuta. Il formato è abbastanza chiaro da iniziare in autonomia e abbastanza ricco da impegnare chi finisce in fretta. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online che controlla ogni passaggio, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi proporre lo stesso lavoro nella lingua che i bambini stanno imparando.",
+    "crossword__grade-2": "Le schede di cruciverba per la Scuola primaria classe seconda offrono ai bambini di sette-nove anni un consolidamento della lettura e della scrittura davvero coinvolgente. Per ogni casella il bambino legge un indizio o guarda un'immagine, poi scrive la parola lettera per lettera, incrociandola con le altre già inserite. Per i sette-nove anni questo intreccia riconoscimento delle parole, ortografia e attenzione a come le lettere si combinano, in un compito che si autocorregge quando le parole si incontrano. Va bene per il lavoro autonomo, a coppie o come compiti a casa. Ogni scheda è gratuita da stampare in PDF e ha una versione interattiva da giocare online che controlla ogni casella, con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare nella lingua che i bambini stanno imparando.",
+    "accessories__kindergarten": "Con le schede a tema accessori i bambini della scuola dell'infanzia 5-7 anni incontrano oggetti che vedono ogni giorno: occhiali, cappello, borsa, sciarpa e orologio diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quanti cappelli ci sono, ordinano gli oggetti per dimensione, abbinano ogni accessorio alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "bakery__kindergarten": "Le schede a tema panetteria per la scuola dell'infanzia 5-7 anni portano i più grandi della scuola dell'infanzia in un mondo familiare: pane, pretzel, torta e altri dolci diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante torte ci sono, ordinano i pani dal più piccolo al più grande, abbinano ogni dolce alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "beach__kindergarten": "Un giro al mare con le schede a tema spiaggia per la scuola dell'infanzia 5-7 anni: secchiello, conchiglia, ombrellone e altri oggetti dell'estate diventano gli strumenti con cui imparare. Con le stesse immagini i bambini contano quante conchiglie ci sono, ordinano gli ombrelloni dal più piccolo al più grande, abbinano ogni oggetto alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "breakfast__kindergarten": "Le schede a tema colazione per la scuola dell'infanzia 5-7 anni partono da un momento che i bambini conoscono bene: latte, pane, uovo e frutta diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante uova ci sono, ordinano gli oggetti per dimensione, abbinano ogni alimento alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "christmas__kindergarten": "Le schede a tema Natale per la scuola dell'infanzia 5-7 anni portano il calore di dicembre nell'apprendimento dei cinque-sette anni. Il set di immagini delle feste, albero, regali, decorazioni e amici dell'inverno, accompagna i bambini nel contare e nelle prime addizioni, nell'ordinare e nei modelli, nell'abbinare e nelle prime parole festive, così la stagione diventa un motivo per esercitarsi. Le immagini chiare accolgono i bambini che festeggiano in modo diverso o stanno ancora imparando la lingua della sezione. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "classroom__kindergarten": "Le schede a tema aula per la scuola dell'infanzia 5-7 anni partono dagli oggetti che i bambini hanno intorno ogni giorno: matita, forbici, libro, zaino e colla diventano gli strumenti con cui imparare. Con le stesse immagini i bambini contano quante matite ci sono, ordinano gli oggetti per dimensione, abbinano ogni oggetto alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "clothing__kindergarten": "Con le schede a tema abbigliamento i bambini della scuola dell'infanzia 5-7 anni lavorano su capi che indossano ogni giorno: maglietta, pantaloni, scarpe, cappello e calze diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante scarpe ci sono, ordinano i capi per dimensione, abbinano ogni indumento alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "flowers__kindergarten": "Un tocco di primavera con le schede a tema fiori per la scuola dell'infanzia 5-7 anni: tulipano, rosa, girasole e margherita diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quanti tulipani ci sono, ordinano i fiori dal più piccolo al più grande, abbinano ogni fiore alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "fruits__kindergarten": "Le schede a tema frutta per la scuola dell'infanzia 5-7 anni mettono al lavoro un set di immagini sano e familiare: mela, banana, arancia e uva diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante mele ci sono, ordinano i frutti dal più piccolo al più grande, abbinano ogni frutto alla sua coppia, cercano l'intruso e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. I nomi della frutta si legano naturalmente al discorso sull'alimentazione sana, comodi in una sezione bilingue. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "furniture__kindergarten": "Le schede a tema mobili per la scuola dell'infanzia 5-7 anni raffigurano le cose di casa: sedia, tavolo, letto, divano e lampada diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante sedie ci sono, ordinano gli oggetti per dimensione, abbinano ogni mobile alla sua coppia, cercano l'intruso e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Il lessico della casa si lega naturalmente al gioco simbolico e accoglie chi sta ancora costruendo la lingua della sezione. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__ocean_life": "Le schede a tema vita oceanica per la scuola dell'infanzia 5-7 anni si tuffano in un set di immagini che entusiasma i cinque-sette anni: pesce, polpo, granchio, delfino e stella marina diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quanti pesci ci sono, ordinano gli animali per dimensione, abbinano ogni creatura alla sua coppia, cercano l'intruso e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Il lessico del mare si lega naturalmente alle scienze e al racconto. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__space": "Le schede a tema spazio per la scuola dell'infanzia 5-7 anni accendono la curiosità dei cinque-sette anni: razzo, stella, pianeta, luna e astronauta diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante stelle ci sono, ordinano gli oggetti per dimensione, abbinano ogni elemento alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Usa le schede in un angolo o come attività a coppie. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__summer": "Le schede a tema estate per la scuola dell'infanzia 5-7 anni portano il sole nell'apprendimento con un set di immagini che i cinque-sette anni adorano: sole, spiaggia, gelato, nuoto e sandali diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quanti gelati ci sono, ordinano e seguono i modelli, abbinano ogni elemento alla sua coppia e riconoscono le prime parole dell'estate, sempre in modo giocoso, fino alle vacanze. Le schede stagionali tengono viva l'attenzione della sezione e accolgono chi sta ancora costruendo la lingua della sezione. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__toys": "Le schede a tema giocattoli per la scuola dell'infanzia 5-7 anni si appoggiano agli oggetti che i cinque-sette anni cercano ogni giorno: palla, cubi, bambola, macchinina e orsacchiotto, così il set di immagini sembra il momento del gioco. I giocattoli familiari accompagnano i bambini nel contare e nelle prime addizioni, nell'ordinare e nell'abbinare, nel trova l'intruso e nel riconoscere le prime lettere, mantenendo il pensiero sull'abilità. I nomi dei giocattoli sono tra le parole più frequenti in ogni lingua, comodi in una sezione bilingue. Questa pagina raccoglie le schede a tema giocattoli adatte alla scuola dell'infanzia. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__vegetables": "Le schede a tema verdure per la scuola dell'infanzia 5-7 anni partono da un set di immagini sano e familiare: carota, pomodoro, patata, mais e broccolo diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante carote ci sono, ordinano le verdure dal più piccolo al più grande, abbinano ogni ortaggio alla sua coppia, cercano l'intruso e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Il lessico delle verdure si lega naturalmente al discorso sull'alimentazione sana, comodo in una sezione bilingue. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando.",
+    "kindergarten__weather": "Le schede a tema meteo per la scuola dell'infanzia 5-7 anni partono da ciò che i bambini osservano dalla finestra: sole, nuvola, pioggia, neve e arcobaleno diventano gli oggetti con cui imparare. Con le stesse immagini i bambini contano quante nuvole ci sono, ordinano gli elementi per dimensione, abbinano ogni simbolo alla sua coppia e riconoscono le prime lettere dei loro nomi, sempre in modo giocoso. Il tema del tempo si lega bene al calendario del mattino e alle prime osservazioni, e le immagini chiare accolgono i bambini che stanno ancora costruendo la lingua della sezione. Ogni scheda è gratuita da stampare in PDF, ha una versione interattiva da giocare online con le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, puoi lavorare lo stesso tema nella lingua che i bambini stanno imparando."
   },
   "bulk": {
     "toggleSelect": "Select",

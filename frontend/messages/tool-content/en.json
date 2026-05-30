@@ -1,0 +1,83 @@
+{
+  "ten-frame": {
+    "slug": "ten-frame",
+    "name": "Ten Frame",
+    "tagline": "Build numbers to 10 and 20",
+    "metaTitle": "Free Interactive Ten Frame Tool | LessonCraftStudio",
+    "metaDescription": "A free online ten-frame for the classroom. Drag counters to build numbers, count, and explore early addition — no login, no install, works on any device.",
+    "about": [
+      "A ten-frame is one of the most powerful pictures in early mathematics: ten boxes in two rows of five that let children see a number instead of only saying it. This free interactive ten-frame lets a child drag counters into the frame and watch each number take shape, one box at a time.",
+      "Because the frame always holds ten, children quickly begin to see numbers in relation to ten — that seven is \"three away from full,\" or that five fills exactly one row. That sense of quantity is the foundation that counting, addition, subtraction, and place value all grow from.",
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm, hands-on space to explore numbers."
+    ],
+    "howToUse": [
+      "Display the ten-frame on a whiteboard or hand it to children on tablets, and ask them to show a number by dragging counters into the boxes.",
+      "Fill the top row first, then the bottom, so children build the habit of seeing ten as two fives.",
+      "Ask \"how many more to make ten?\" and let children add counters until the frame is full.",
+      "Use a double ten-frame to stretch the same thinking from ten up to twenty."
+    ],
+    "classroomIdeas": [
+      "Flash a quantity for a few seconds, hide it, and ask children how many they saw — a quick way to build instant number recognition.",
+      "Show a number on the frame and ask children to say its partner to ten (a 4 needs 6 more).",
+      "Build two small numbers on a double frame and count the total together to introduce addition.",
+      "Let a child build any number they like and explain to a partner how they see it."
+    ]
+  },
+  "number-line": {
+    "slug": "number-line",
+    "name": "Number Line",
+    "tagline": "Jump along to add and subtract",
+    "metaTitle": "Free Interactive Number Line Tool | LessonCraftStudio",
+    "metaDescription": "A free online number line for the classroom. Count, skip-count, and see addition and subtraction as jumps — no login, no install, works on any device.",
+    "about": [
+      "A number line turns numbers into a journey: a straight path where every step has its place and bigger numbers live further along. This free interactive number line lets children count forward and back, take jumps, and see how numbers are spaced in order.",
+      "Seeing addition as jumps to the right and subtraction as jumps to the left gives children a mental model they can carry for years. It connects the act of counting to the size and order of numbers in a way that loose counters cannot.",
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm space to explore how numbers move."
+    ],
+    "howToUse": [
+      "Show the number line on a whiteboard and count along it together, pointing to each number as you say it.",
+      "Model addition by starting on a number and jumping forward, and subtraction by jumping back.",
+      "Practise skip-counting by twos, fives, and tens by taking equal jumps along the line.",
+      "Ask children to predict where a jump will land before they take it."
+    ],
+    "classroomIdeas": [
+      "Give a start number and a number of jumps, and ask children where they will land.",
+      "Show a finished jump and ask children to describe the addition or subtraction it shows.",
+      "Use the line to compare two numbers — which is further along, and how far apart are they?",
+      "Let children invent their own jump story and act it out on the line."
+    ]
+  },
+  "ruler": {
+    "slug": "ruler",
+    "name": "Ruler",
+    "tagline": "Measure length in cm and inches",
+    "metaTitle": "Free Interactive Ruler Tool | LessonCraftStudio",
+    "metaDescription": "A free online ruler for the classroom. Measure length in centimetres and inches and explore early measurement — no login, no install, works on any device.",
+    "about": [
+      "Measuring is one of the first ways children connect numbers to the real world, and a ruler is where it begins. This free interactive ruler lets children measure length in centimetres and inches and see how a number describes how long something is.",
+      "Working with a ruler builds the careful habits early measurement depends on: lining up the start at zero, reading the marks in order, and naming the unit. These are the same habits children will later bring to rulers, tapes, and scales of every kind.",
+      "It runs right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to create. There is no timer and no score — just a calm space to explore length and measurement."
+    ],
+    "howToUse": [
+      "Show the ruler on a whiteboard and point out where measuring starts — at the zero mark, not the edge.",
+      "Measure a line together, reading the centimetres in order as you go.",
+      "Switch between centimetres and inches to show that the same length can be named in different units.",
+      "Compare two lengths and talk about which is longer and by how much."
+    ],
+    "classroomIdeas": [
+      "Show a measured line and ask children to read its length before you reveal the answer.",
+      "Ask children to find something that is about a given length, then check it against the ruler.",
+      "Measure the same object in centimetres and inches and talk about why the numbers differ.",
+      "Order several lengths from shortest to longest and measure to check the order."
+    ]
+  },
+  "labels": {
+    "about": "About this tool",
+    "howToUse": "How to use it in class",
+    "classroomIdeas": "Classroom ideas",
+    "relatedActivities": "Activities that use this tool",
+    "otherLanguages": "Available in other languages",
+    "openFullScreen": "Open full screen",
+    "toolsBreadcrumb": "Tools"
+  }
+}

@@ -55,6 +55,21 @@ var topicsTaxonomy = require(path.resolve(__dirname, '..', '..', 'frontend', 'co
 // confirms image content is truth + manifest emit was buggy. Set by CLI arg.
 var FORCE_DIVERGENT = false;
 
+// --themeless-ok flag: reclassify the legitimately-themeless subset of
+// halt-unparseable (zero image-bearing objects + no fallback signal, e.g.
+// cryptogram text-decode puzzles) into the non-fatal `skip-themeless` class so
+// it does not block an automated wave. Does NOT relax halt-ambiguous (images
+// present but un-themed) or the corruption sub-cases. publish-bulk's §15.16
+// legitimate-null path independently re-validates theme, so this only relaxes
+// the over-conservative pre-flight. Set by CLI arg.
+var THEMELESS_OK = false;
+
+// --fail-on-rewrite flag: in dry-run, exit 1 when any `rewrite`-class
+// (recoverable theme-emit defect) is present, so an orchestrator pre-flight
+// halts and the operator salvages BEFORE the SEO re-band step (which rebuilds
+// SEO from manifest.theme and would otherwise bake themeless SEO). Set by CLI arg.
+var FAIL_ON_REWRITE = false;
+
 // -------------------------------------------------------------------------
 // Topics-taxonomy lookup tables — built once at module load
 // -------------------------------------------------------------------------
@@ -241,8 +256,16 @@ function classifyZip(zipPath) {
     //   imageBearingObjects.length === 0 → halt-unparseable (no recognized shape)
     //   imageBearingObjects.length > 0   → halt-ambiguous (CUID-shaped paths)
     if (imageBearingObjects.length === 0) {
-      result.action = 'halt-unparseable';
-      result.note = 'no image-bearing objects across exercises[] AND no settings-field/seoMeta fallback signal';
+      if (THEMELESS_OK) {
+        // Legitimately-themeless deck (no images at all, e.g. cryptogram text
+        // puzzle). Non-fatal: publish-bulk's §15.16 legitimate-null path passes
+        // these. Only reachable under --themeless-ok.
+        result.action = 'skip-themeless';
+        result.note = 'legitimately themeless (no image-bearing objects); waved through per --themeless-ok';
+      } else {
+        result.action = 'halt-unparseable';
+        result.note = 'no image-bearing objects across exercises[] AND no settings-field/seoMeta fallback signal';
+      }
     } else {
       result.action = 'halt-ambiguous';
       result.note = 'no recoverable theme across ' + imageBearingObjects.length + ' images (all CUID-shaped or .theme missing) AND no settings-field/seoMeta fallback signal';
@@ -474,7 +497,7 @@ function printDiffTable(classifications, opts) {
 }
 
 function printSummary(classifications, mode) {
-  var counts = { rewrite: 0, 'skip-clean': 0, 'skip-multi-theme': 0, 'skip-compound': 0, 'skip-divergent': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0, 'halt-seometa-unmatched': 0 };
+  var counts = { rewrite: 0, 'skip-clean': 0, 'skip-multi-theme': 0, 'skip-compound': 0, 'skip-divergent': 0, 'skip-themeless': 0, 'halt-unparseable': 0, 'halt-ambiguous': 0, 'halt-seometa-unmatched': 0 };
   classifications.forEach(function (c) { counts[c.action] = (counts[c.action] || 0) + 1; });
   var themeDist = {};
   classifications.forEach(function (c) {
@@ -494,6 +517,7 @@ function printSummary(classifications, mode) {
   console.log('  skip-multi-theme:        ' + counts['skip-multi-theme']);
   console.log('  skip-compound:           ' + counts['skip-compound']);
   console.log('  skip-divergent:          ' + counts['skip-divergent']);
+  console.log('  skip-themeless:          ' + counts['skip-themeless']);
   console.log('  halt-unparseable:        ' + counts['halt-unparseable']);
   console.log('  halt-ambiguous:          ' + counts['halt-ambiguous']);
   console.log('  halt-seometa-unmatched:  ' + counts['halt-seometa-unmatched']);
@@ -517,6 +541,8 @@ function main() {
   for (var i = 0; i < args.length; i++) {
     if (args[i] === '--dry-run') { dryRun = true; continue; }
     if (args[i] === '--force-divergent') { FORCE_DIVERGENT = true; continue; }
+    if (args[i] === '--themeless-ok') { THEMELESS_OK = true; continue; }
+    if (args[i] === '--fail-on-rewrite') { FAIL_ON_REWRITE = true; continue; }
     if (args[i].startsWith('--')) {
       console.error('ERROR: unknown flag "' + args[i] + '"');
       process.exit(2);
@@ -526,7 +552,7 @@ function main() {
     process.exit(2);
   }
   if (!workingDir) {
-    console.error('USAGE: node scripts/publish-cli/rewrite-manifest-theme.js <directory> [--dry-run] [--force-divergent]');
+    console.error('USAGE: node scripts/publish-cli/rewrite-manifest-theme.js <directory> [--dry-run] [--force-divergent] [--themeless-ok] [--fail-on-rewrite]');
     process.exit(2);
   }
   workingDir = path.resolve(workingDir);
@@ -573,6 +599,15 @@ function main() {
     console.log('');
     console.log('HALT — ' + halts.length + ' ZIP(s) failed classification. No rewrite performed.');
     console.log('Surface offending ZIPs to operator; investigate before proceeding.');
+    process.exit(1);
+  }
+
+  if (dryRun && FAIL_ON_REWRITE && counts.rewrite > 0) {
+    console.log('');
+    console.log('HALT (--fail-on-rewrite) — ' + counts.rewrite + ' ZIP(s) carry a recoverable theme-emit defect (manifest.theme null/wrong).');
+    console.log('Salvage before publishing:');
+    console.log('  node scripts/publish-cli/rewrite-manifest-theme.js "' + workingDir + '" --themeless-ok');
+    console.log('then re-run the wave. Theme defects MUST be fixed before the SEO re-band step (it rebuilds SEO from manifest.theme).');
     process.exit(1);
   }
 

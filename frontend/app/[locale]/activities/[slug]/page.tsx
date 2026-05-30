@@ -1,7 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import Script from 'next/script';
 import { getTranslations } from 'next-intl/server';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
 
@@ -23,6 +22,7 @@ import BreadcrumbTrail from '@/components/breadcrumbs/BreadcrumbTrail';
 import { ActivityIframe } from '@/components/activities/ActivityIframe';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 
 // "Activities" section label per locale — used for the middle breadcrumb
 // crumb on individual activity landing pages. Same string as the title of
@@ -129,15 +129,19 @@ export async function generateMetadata({
 
 function jsonLdFor(row: ActivityRow, locale: string): string {
   const canonical = canonicalUrl(localePath(locale, 'activities', row.slug[locale]));
-  const data = {
+  const ageRange = gradeToAgeRange(row.alignment.grade);
+  const data: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',
     name: row.page_title[locale],
     description: row.page_intro[locale],
     inLanguage: locale,
-    learningResourceType: 'Interactive Activity',
+    learningResourceType: 'Interactive activity',
+    educationalUse: 'interactive activity',
     educationalLevel: row.alignment.grade,
+    teaches: row.alignment.strand,
     isAccessibleForFree: true,
+    image: `${CANONICAL_HOST}/og-homepage.png`,
     educationalAlignment: {
       '@type': 'AlignmentObject',
       alignmentType: 'educationalSubject',
@@ -145,8 +149,18 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
       targetDescription: row.alignment.strand,
       educationalFramework: 'Common Core State Standards',
     },
+    audience: {
+      '@type': 'EducationalAudience',
+      educationalRole: 'student',
+    },
+    creator: {
+      '@type': 'Organization',
+      name: 'LessonCraftStudio',
+      url: CANONICAL_HOST,
+    },
     url: canonical,
   };
+  if (ageRange) data.typicalAgeRange = ageRange;
   return JSON.stringify(data);
 }
 
@@ -185,6 +199,12 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
 
   const sectionLabel =
     ACTIVITIES_SECTION_LABEL[params.locale] ?? ACTIVITIES_SECTION_LABEL.en;
+
+  // Crawlable editorial body (3-tier resolve, mirrors topic-prose). Returns
+  // null for locales without an activity-content file (non-EN until Part 3),
+  // in which case the page keeps its intro-only shape — never English prose
+  // on a non-EN page.
+  const content = await getActivityContent(params.locale, row);
 
   // v7 cascade (post-K.NBT.A.1 prototype approval): all activities render
   // the operator-locked sage-field layout. The v6.x prototype gate
@@ -271,14 +291,105 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           </svg>
         </section>
 
-        {/* Thin-page structural floor (Part 2): an always-rendered intro
-            paragraph (the header intro is hidden on mobile) + a 3-item FAQ
-            with FAQPage JSON-LD. Adds crawlable editorial text + rich-result
-            eligibility below the play surface. */}
+        {/* Crawlable editorial body below the play surface. The interactive
+            engine lives in an iframe (invisible to crawlers), so this SSR'd
+            prose is the activity's SEO surface: an always-rendered intro
+            paragraph, then the 3-tier content sections (when available for
+            the locale), then a 3-item FAQ with FAQPage JSON-LD. */}
         <section className="activity-detail mx-auto max-w-2xl mt-8 px-1">
           <p className="text-base text-ink-700 leading-relaxed">
             {row.page_intro[params.locale]}
           </p>
+
+          {content && (
+            <div className="mt-8 space-y-8">
+              {content.proseParagraphs.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">
+                    {content.labels.about}
+                  </h2>
+                  {content.proseParagraphs.map((para, i) => (
+                    <p
+                      key={i}
+                      className={
+                        i === 0
+                          ? 'text-base text-ink-700 leading-relaxed'
+                          : 'text-base text-ink-700 leading-relaxed mt-3'
+                      }
+                    >
+                      {para}
+                    </p>
+                  ))}
+                </div>
+              )}
+
+              {content.whatsInside.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">
+                    {content.labels.whatsInside}
+                  </h2>
+                  <ul className="list-disc pl-5 space-y-1 text-base text-ink-700 leading-relaxed">
+                    {content.whatsInside.map((it, i) => (
+                      <li key={i}>{it}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {content.howToPlay.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">
+                    {content.labels.howToPlay}
+                  </h2>
+                  {content.howToPlay.map((para, i) => (
+                    <p
+                      key={i}
+                      className={
+                        i === 0
+                          ? 'text-base text-ink-700 leading-relaxed'
+                          : 'text-base text-ink-700 leading-relaxed mt-2'
+                      }
+                    >
+                      {para}
+                    </p>
+                  ))}
+                </div>
+              )}
+
+              {content.practices.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">
+                    {content.labels.practices}
+                  </h2>
+                  <ul className="list-disc pl-5 space-y-1 text-base text-ink-700 leading-relaxed">
+                    {content.practices.map((it, i) => (
+                      <li key={i}>{it}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {content.learningGoals.length > 0 && (
+                <div>
+                  <h2 className="font-display text-xl md:text-2xl font-semibold text-ink-900 mb-3">
+                    {content.labels.learningGoals}
+                  </h2>
+                  {content.learningGoals.map((para, i) => (
+                    <p
+                      key={i}
+                      className={
+                        i === 0
+                          ? 'text-base text-ink-700 leading-relaxed'
+                          : 'text-base text-ink-700 leading-relaxed mt-2'
+                      }
+                    >
+                      {para}
+                    </p>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
         </section>
         <div className="mx-auto max-w-2xl px-1">
           <TopicFaq
@@ -291,10 +402,11 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
           />
         </div>
 
-        <Script
+        {/* LearningResource structured data — plain <script> so it is present
+            in the server-rendered HTML (crawlable without JS execution),
+            unlike next/script's afterInteractive injection. */}
+        <script
           type="application/ld+json"
-          id={`activity-jsonld-${row.id}`}
-          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: jsonLdFor(row, params.locale) }}
         />
       </article>

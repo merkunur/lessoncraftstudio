@@ -1,0 +1,67 @@
+{
+  "labels": {
+    "about": "Om denne aktiviteten",
+    "practices": "Hva barnet ditt øver på",
+    "howToPlay": "Slik gjør du det",
+    "learningGoals": "Læringsmål",
+    "whatsInside": "Hva aktiviteten inneholder"
+  },
+  "templates": {
+    "byStrand": {
+      "Counting & Cardinality": {
+        "about": ["Dette er en gratis, interaktiv telleaktivitet for de yngste, med tall opp til {max}. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet – det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.", "Aktiviteten følger Common Core {code} innenfor området Counting & Cardinality. Barna får mild og umiddelbar tilbakemelding underveis, slik at de kan fortsette å prøve til svaret føles riktig. Det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."],
+        "practices": ["Telle en gruppe gjenstander én for én og si hvor mange det er til sammen", "Koble et muntlig eller skriftlig tall til riktig mengde", "Kjenne igjen små mengder med et blikk, uten å telle hver gang", "Arbeide nøye og trygt med tall opp til {max}"],
+        "howToPlay": ["Barna ser på bildene på skjermen og leser eller lytter til oppgaven.", "De teller gjenstandene og trykker så for å plassere brikker eller velger tallet som passer.", "En vennlig kontroll viser når svaret er riktig, med en enkel måte å prøve igjen på – feil er en del av læringen her og blir aldri straffet."],
+        "learningGoals": ["Telle en mengde gjenstander nøyaktig og si hvor mange det er.", "Forstå at det siste tallet man teller, forteller hvor stor hele gruppen er – kjernen i Common Core {code}.", "Bygge den tidlige tallforståelsen som addisjon, subtraksjon og posisjonssystemet alle vokser ut av."]
+      },
+      "Number & Operations in Base Ten": {
+        "about": ["Denne gratis, interaktive aktiviteten om posisjonssystemet hjelper barna med å se hvordan tallsystemet vårt er bygget opp rundt grupper av ti, med tall opp til {max}. Den fungerer i alle moderne nettlesere – på et nettbrett, en telefon eller den interaktive tavla i klasserommet – uten at noe må lastes ned.", "Den følger Common Core {code} innenfor området Number & Operations in Base Ten. Barna arbeider i sitt eget tempo med varm og umiddelbar tilbakemelding, og det er ingen tidtaker eller poeng som stresser dem."],
+        "practices": ["Se et tosifret tall som en gruppe tiere pluss noen enere", "Bygge tall opp til {max} av tiere og enere", "Lese og skrive tall og koble dem til et bilde av mengden", "Legge merke til mønstrene som gjør større tall lettere å forstå"],
+        "howToPlay": ["Barna leser oppgaven og ser på tierrammene eller klossene på skjermen.", "De fyller, bygger eller velger for å passe med tallet det spørres om.", "En mild kontroll bekrefter et riktig svar og inviterer til et nytt forsøk ved behov – rolig øving uten press hele veien."],
+        "learningGoals": ["Forstå et tall mellom ti og tjue eller et tosifret tall som noen tiere og noen enere.", "Sette sammen og lese tall opp til {max} med trygghet – hjertet i Common Core {code}.", "Legge grunnlaget i posisjonssystemet som addisjon og subtraksjon med flere sifre bygger på."]
+      },
+      "Operations & Algebraic Thinking": {
+        "about": ["Denne gratis, interaktive aktiviteten gir barna konkret øving med de første idéene om addisjon og subtraksjon, med mengder opp til {max}. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten innlogging.", "Den følger Common Core {code} innenfor området Operations & Algebraic Thinking. Tilbakemeldingen er umiddelbar og oppmuntrende, og det er ingen tidtaker eller poeng – barna kan tenke gjennom ting i sitt eget tempo."],
+        "practices": ["Sette grupper sammen og dele dem opp for å finne ut hvor mange det er", "Se ulike måter å lage det samme tallet på", "Løse enkle tekstoppgavesituasjoner med bilder og brikker", "Resonnere om mengder opp til {max}"],
+        "howToPlay": ["Barna leser oppgaven og ser på gruppene av gjenstander på skjermen.", "De setter sammen, deler opp eller velger for å svare på spørsmålet.", "En vennlig kontroll viser når de har rett, med en avslappet mulighet til å prøve igjen."],
+        "learningGoals": ["Addere og subtrahere innenfor små tall ved hjelp av gjenstander og bilder.", "Forstå addisjon som å sette sammen og subtraksjon som å dele opp – idéen bak Common Core {code}.", "Utvikle den fleksible tallforståelsen som flytende hoderegning bygger på."]
+      },
+      "Geometry": {
+        "about": ["Denne gratis, interaktive aktiviteten med former hjelper små barn med å legge merke til, navngi og sammenligne formene rundt seg. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.", "Den følger Common Core {code} innenfor området Geometry. Barna utforsker i sitt eget tempo med mild og umiddelbar tilbakemelding – ingen tidtaker, ingen poeng, bare lekende øving."],
+        "practices": ["Kjenne igjen og navngi todimensjonale og tredimensjonale former fra hverdagen", "Legge merke til hvor mange sider og hjørner en form har", "Skille flate former fra romlige figurer", "Beskrive og sammenligne former med egne ord"],
+        "howToPlay": ["Barna ser på formene på skjermen og leser eller lytter til oppgaven.", "De trykker på formen som passer, eller sorterer formene i riktig gruppe.", "En varm kontroll bekrefter et riktig valg og tilbyr et enkelt nytt forsøk ved behov."],
+        "learningGoals": ["Navngi og beskrive vanlige former med voksende trygghet.", "Skille todimensjonale (flate) former fra tredimensjonale (romlige) figurer – fokuset i Common Core {code}.", "Bygge det romlige ordforrådet som senere geometri og måling bygger på."]
+      },
+      "Reading: Foundational Skills": {
+        "about": ["Denne gratis, interaktive leseaktiviteten gir barna konkret øving i å lydere og bygge ord. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto å opprette.", "Den følger Common Core {code} innenfor området Reading: Foundational Skills. Hvert ord kontrolleres for en riktig, barnevennlig oppdeling, og tilbakemeldingen er mild og umiddelbar – det er ingen tidtaker og ingen poeng."],
+        "practices": ["Dele ord opp i lyder eller stavelser og sette dem sammen igjen", "Koble bokstaver og bokstavgrupper til lydene de lager", "Bygge korte, lydrette ord steg for steg", "Høre og si hver del av et ord i rekkefølge"],
+        "howToPlay": ["Barna ser på bildet eller hører ordet og leser deretter oppgaven.", "De trykker på lydene eller stavelsene i rekkefølge for å bygge ordet.", "En vennlig kontroll leser det ferdige ordet høyt og inviterer til et nytt forsøk ved behov."],
+        "learningGoals": ["Smelte sammen lyder og stavelser for å lese og bygge enkle ord.", "Koble talte lyder til skrevne bokstaver – kjernen i Common Core {code}.", "Utvikle avkodingsferdighetene som trygg, selvstendig lesing bygger på."]
+      },
+      "Phonological Awareness": {
+        "about": ["Denne gratis, interaktive lytteaktiviteten hjelper barna med å høre og leke med lydene inni talte ord. Den kjører rett i nettleseren på hvilken som helst enhet, uten noe å installere og uten krav om innlogging.", "Den følger Common Core {code} innenfor området Phonological Awareness. Tilbakemeldingen er varm og umiddelbar, og det er ingen tidtaker eller poeng som stresser et lite barn."],
+        "practices": ["Høre de enkelte lydene og stavelsene i talte ord", "Smelte lyder sammen til et ord", "Dele et ord opp i lydene sine", "Lytte etter rim og begynnelseslyder"],
+        "howToPlay": ["Barna lytter til eller ser på ordet og leser deretter oppgaven.", "De trykker for å velge, smelte sammen eller dele opp lydene det spørres om.", "En mild kontroll bekrefter et riktig svar med en enkel mulighet til å prøve igjen."],
+        "learningGoals": ["Høre, smelte sammen og skille lydene i talte ord.", "Utvikle lytteferdighetene som beskrives i Common Core {code}.", "Bygge den lydbevisstheten som vellykket lesing og staving bygger på."]
+      }
+    },
+    "generic": {
+      "about": ["Dette er en gratis, interaktiv læringsaktivitet for små barn som kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet. Det er ingenting å installere, ingen konto å opprette og ingen forberedelser for læreren.", "Den følger Common Core {code} innenfor området {strand}. Barna arbeider i sitt eget tempo med mild og umiddelbar tilbakemelding, og det er ingen tidtaker og ingen poeng – bare rolig og konkret øving."],
+      "practices": ["Øve på ferdigheten {strand} som står i sentrum for denne aktiviteten", "Koble bilder, tall eller ord til idéen som øves", "Prøve, kontrollere og prøve igjen uten noe press", "Bygge selvtillit ett lite steg om gangen"],
+      "howToPlay": ["Barna leser eller lytter til oppgaven og ser på det som vises på skjermen.", "De trykker for å svare eller bygge svaret sitt.", "En vennlig kontroll viser når de har rett, med en enkel måte å prøve igjen på."],
+      "learningGoals": ["Øve på og styrke ferdigheten {strand} bak Common Core {code}.", "Bli trygg på å bruke idéen på en lekende og avslappet måte.", "Bygge et grunnlag som senere læring kan vokse ut av."]
+    },
+    "whatsInsideRange": "Tall fra {min} til {max}",
+    "whatsInsideTheme": "Bildebrikker med {theme} som barna kan kjenne igjen",
+    "whatsInsideGrade": "Laget for elever på trinn {grade} (omtrent 5 til 9 år)",
+    "whatsInsideStrand": "Common Core-område: {strand}",
+    "whatsInsideCode": "Følger Common Core-standarden {code}"
+  },
+  "prose": {
+    "ten-frame.count-to-10.make-n.animals": ["I denne aktiviteten bygger barnet ditt tallene fra 0 til 10 på en tierramme, og legger ett dyr om gangen i rutene. Slik blir hvert tall noe barnet selv lager og ser, steg for steg.", "Tierrammen viser tydelig hvor langt det er igjen til ti. Når en rute står tom, ser barnet for eksempel at 7 bare mangler tre på å bli en full tier, og det knytter tellingen sammen med forståelsen av hvor mange det faktisk er (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan telle i sitt eget rolige tempo. Roen gir rom for å undre seg, prøve på nytt og kjenne mestring."],
+    "ten-frame.count-to-20.make-n.fruits": ["Her teller barnet ditt fra 0 til 20 på en dobbel tierramme, og fyller rutene med frukt ett stykke om gangen. Den doble rammen gjør det lett å se tjue som én full tier og litt til.", "Når den første tierrammen er full, begynner barnet på den neste. På den måten vokser forståelsen av at tjue er ti og ti, en tidlig og viktig smakebit på posisjonssystemet (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske de større tallene uten stress. I rolig tempo blir også tallene opp til 20 trygge og forståelige."],
+    "ten-frame.how-many.0-10.animals": ["I denne aktiviteten ser barnet ditt på en tierramme med dyr og svarer på hvor mange det er, med tall fra 0 til 10. Den faste strukturen i rammen hjelper barnet å få oversikt raskt.", "Fordi rutene alltid er ordnet likt, lærer barnet å oppfatte antallet med en gang, uten å telle hvert dyr for seg. Denne evnen til å se antall i et øyeblikk er en viktig grunnstein, og den øves her gjennom K.CC.B.5.", "Det er ingen tidtaker og ingen poeng, så barnet kan se og tenke i fred og ro. Da blir det lettere å stole på sitt eget blikk og svare med trygghet."],
+    "ten-frame.write-numeral.0-20.fruits": ["Her teller barnet ditt frukten på en dobbel tierramme og skriver deretter tallet som passer, fra 0 til 20. Slik kobles mengden barnet ser, sammen med det skrevne tallet.", "Tierrammen gjør mengden tydelig og oversiktlig, og når barnet skriver tallet, knyttes antallet til selve tallsymbolet. Nettopp denne koblingen er kjernen i K.CC.A.3.", "Det er ingen tidtaker og ingen poeng, så barnet kan telle og skrive i sitt eget tempo. Roen gir rom for virkelig å forstå hva hvert tall betyr."],
+    "ten-frame.teen-numbers.make-n": ["Her bygger barnet ditt tallene fra 11 til 19 på en dobbel tierramme, som én full tier og noen enere til. Ved å sette sammen tallet selv ser barnet tydelig hvordan det er bygd opp.", "Når den første tierrammen er full, blir det klart at for eksempel 14 er ti og fire. Denne forståelsen er et sterkt grunnlag for posisjonssystemet og følger Common Core K.NBT.A.1.", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske tallene mellom 10 og 20 i ro og mak. Det gir tid til å oppdage at hvert av disse tallene er en tier og litt mer."]
+  }
+}

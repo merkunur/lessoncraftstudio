@@ -2149,6 +2149,636 @@
           "q": "¿En qué idiomas están?",
           "a": "Están disponibles en los 11 idiomas en los que publicamos."
         }
+      ],
+      "kindergarten__pattern-train": [
+        {
+          "q": "¿Qué practican las fichas de Tren De Patrones en jardín infantil?",
+          "a": "Reconocer y continuar patrones de imágenes que se repiten, una de las primeras formas del pensamiento matemático para niños de cinco a siete años, todo con apoyo de imágenes."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "addition__kindergarten": [
+        {
+          "q": "¿Estas fichas de sumas son adecuadas para jardín infantil?",
+          "a": "Sí. Son primeras sumas pequeñas y con apoyo de imágenes, hasta diez y de forma lúdica, para niños de cinco a siete años; el cálculo formal llega más adelante."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__math-worksheet": [
+        {
+          "q": "¿Qué matemáticas cubren estas fichas de jardín infantil?",
+          "a": "Primeras operaciones, problemas con un número faltante y sumas y restas pequeñas hasta diez para niños de cinco a siete años, siempre con apoyo de imágenes."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__subtraction": [
+        {
+          "q": "¿Las fichas de restas son adecuadas para jardín infantil?",
+          "a": "Sí. Son primeras restas con apoyo de imágenes, hasta diez y de forma lúdica, para niños de cinco a siete años; las imágenes mantienen el foco en la idea."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__picture-sort": [
+        {
+          "q": "¿Qué enseñan las fichas de clasificar imágenes en jardín infantil?",
+          "a": "Agrupar y clasificar imágenes por categoría, lógica temprana y vocabulario para niños de cinco a siete años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "code-addition__kindergarten": [
+        {
+          "q": "¿Qué practican las fichas de suma codificada en jardín infantil?",
+          "a": "Conteo muy temprano con una clave visual sencilla, hasta diez y de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__sudoku": [
+        {
+          "q": "¿El sudoku de imágenes es adecuado para jardín infantil?",
+          "a": "Sí. Es una cuadrícula de cuatro por cuatro con imágenes que enseña deducción real a niños de cinco a siete años, sin lectura ni números."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "more-less__preschool": [
+        {
+          "q": "¿Las fichas de más o menos son adecuadas para preescolar?",
+          "a": "Sí. Es una comparación con imágenes de cuál tiene más para niños de tres a cinco años, sin necesidad de leer ni escribir."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "big-small__preschool": [
+        {
+          "q": "¿Las fichas de grande o pequeño son adecuadas para preescolar?",
+          "a": "Sí. Es comparar y ordenar por tamaño con imágenes para niños de tres a cinco años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grade-1__math-puzzle": [
+        {
+          "q": "¿Las fichas de rompecabezas matemático son adecuadas para grado 1?",
+          "a": "Sí. Son rompecabezas de números que se completan arrastrando piezas y que construyen sentido numérico y planificación, para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "accessories__grade-1": [
+        {
+          "q": "¿Qué hay en la página de fichas con tema de accesorios para grado 1?",
+          "a": "Fichas con tema de accesorios para sumas y restas pequeñas, sopa de letras, emparejar y formar palabras, pensadas para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "cryptogram__kindergarten": [
+        {
+          "q": "¿Qué practican las fichas de criptograma en jardín infantil?",
+          "a": "Reconocer letras y dar los primeros pasos para escribir con una clave corta de imágenes y símbolos, con una palabra que revelar, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__prepositions": [
+        {
+          "q": "¿Qué enseñan las fichas de preposiciones en jardín infantil?",
+          "a": "Palabras de posición, como en, sobre, debajo y al lado, a través de elegir imágenes; vocabulario espacial para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "find-objects__kindergarten": [
+        {
+          "q": "¿Qué practican las fichas de encuentra los objetos en jardín infantil?",
+          "a": "Discriminación visual, atención al detalle y vocabulario, una búsqueda tipo veo veo para niños de cinco a siete años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grade-1__word-scramble": [
+        {
+          "q": "¿Qué practican las fichas de letras revueltas en grado 1?",
+          "a": "Reconocer letras, ordenar sonidos y escritura temprana, ordenando letras desordenadas para formar una palabra con pista de imagen, para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grade-1__treasure-hunt": [
+        {
+          "q": "¿Qué practican las fichas de búsqueda del tesoro en grado 1?",
+          "a": "Seguir indicaciones de varios pasos y razonamiento espacial en una cuadrícula, para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "accessories__treasure-hunt": [
+        {
+          "q": "¿Qué practican estas fichas de búsqueda del tesoro con tema de accesorios?",
+          "a": "Seguir indicaciones de varios pasos y razonamiento espacial en una cuadrícula, con un conjunto de imágenes de accesorios que mantiene el recorrido cercano."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__missing-pieces": [
+        {
+          "q": "¿Qué construyen las fichas de piezas faltantes en jardín infantil?",
+          "a": "Conciencia de las formas, discriminación visual y el razonamiento de comparar antes de elegir, para niños de cinco a siete años; un rompecabezas de imágenes, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__matching": [
+        {
+          "q": "¿Qué construyen las fichas de emparejar en jardín infantil?",
+          "a": "Asociación uno a uno, atención visual y vocabulario, uniendo imágenes con su pareja, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__picture-path": [
+        {
+          "q": "¿Qué practican las fichas de sendero de imágenes en jardín infantil?",
+          "a": "Razonamiento espacial y seguir un orden, trazando un camino casilla por casilla por la cuadrícula, para niños de cinco a siete años, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__shadow-match": [
+        {
+          "q": "¿Qué practican las fichas de emparejar sombras en jardín infantil?",
+          "a": "Unir objetos con su sombra, reconocer forma y contorno, para niños de cinco a siete años, todo con apoyo de imágenes."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__word-guess": [
+        {
+          "q": "¿Qué practican las fichas de adivina la palabra en jardín infantil?",
+          "a": "Reconocer letras y los primeros sonidos, rellenando espacios para formar una palabra con pista de imagen, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "find-and-count__preschool": [
+        {
+          "q": "¿Las fichas de busca y cuenta son adecuadas para preescolar?",
+          "a": "Sí. Los niños recorren una escena pequeña, encuentran las imágenes y cuentan cantidades pequeñas hasta cinco o diez, sin necesidad de leer, ideal para niños de tres a cinco años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí. Cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "bingo__kindergarten": [
+        {
+          "q": "¿Qué practica el bingo en jardín infantil?",
+          "a": "Reconocer imágenes, escuchar con atención y ampliar vocabulario de forma lúdica, para niños de cinco a siete años; no hace falta saber leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__odd-one-out": [
+        {
+          "q": "¿Qué desarrolla el intruso en jardín infantil?",
+          "a": "Clasificación y razonamiento: encontrar (y explicar) la imagen que no encaja, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "accessories__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de accesorios para jardín infantil?",
+          "a": "El set de imágenes de accesorios recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "animals__kindergarten": [
+        {
+          "q": "¿Qué hay en la página de fichas de animales para jardín infantil?",
+          "a": "Fichas con tema de animales para conteo, suma, clasificación, emparejado, el intruso y primeras letras, pensadas para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "ocean_life__preschool": [
+        {
+          "q": "¿Qué traen las fichas de vida marina para preescolar?",
+          "a": "El set de imágenes del mar para contar cantidades pequeñas, clasificar y emparejar, de forma lúdica y sin leer, para niños de tres a cinco años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__post_office": [
+        {
+          "q": "¿Qué traen las fichas de oficina de correos para jardín infantil?",
+          "a": "El set de imágenes del correo recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "chart-count__kindergarten": [
+        {
+          "q": "¿Qué practican las fichas de contar en gráfico en jardín infantil?",
+          "a": "El conteo y la primera idea de un gráfico de barras: los niños cuentan objetos y rellenan una columna para mostrar cuántos, para cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grade-1__pattern-worksheet": [
+        {
+          "q": "¿Qué practican las fichas de patrones en grado 1?",
+          "a": "Leer y extender patrones que se repiten del tipo AB/ABC: pensamiento de predecir y generalizar, para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "more-less__ocean_life": [
+        {
+          "q": "¿Qué practican las fichas de más o menos con tema de vida marina?",
+          "a": "Comparar cantidades (más, menos, igual) con imágenes del mar, sin leer ni escribir, una primera idea numérica para los más pequeños."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grid-match__kindergarten": [
+        {
+          "q": "¿Qué desarrollan las fichas de emparejar en cuadrícula en jardín infantil?",
+          "a": "Emparejado visual, sentido de la posición y memoria de trabajo, para cinco a siete años; un puzle de imágenes, sin necesidad de leer."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "grade-1__wordsearch": [
+        {
+          "q": "¿La sopa de letras es adecuada para grado 1?",
+          "a": "Sí: cazas de palabras cortas y con apoyo en imágenes que desarrollan el reconocimiento de letras, el rastreo y el vocabulario, para niños de seis a ocho años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "crossword__grade-2": [
+        {
+          "q": "¿Qué practican las fichas de crucigrama en grado 2?",
+          "a": "Leer la pista o la imagen y escribir la palabra: une comprensión, ortografía y escritura, una consolidación lectora para niños de siete a nueve años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "activities__kindergarten": [
+        {
+          "q": "¿Qué hay en la página de fichas de actividades para jardín infantil?",
+          "a": "Fichas con tema de actividades para conteo, suma, clasificación, emparejado y vocabulario inicial de acciones, pensadas para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__things_that_fly": [
+        {
+          "q": "¿Qué traen las fichas de cosas que vuelan para jardín infantil?",
+          "a": "El set de imágenes de lo que vuela recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "4th_of_july__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de 4 de julio para jardín infantil?",
+          "a": "El set de imágenes festivo recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "beach__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de playa para jardín infantil?",
+          "a": "El set de imágenes de la playa recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "flowers__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de flores para jardín infantil?",
+          "a": "El set de imágenes de flores recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__occupations": [
+        {
+          "q": "¿Qué traen las fichas de ocupaciones para jardín infantil?",
+          "a": "El set de imágenes de oficios recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__ocean_life": [
+        {
+          "q": "¿Qué hay en la página de fichas de vida marina para jardín infantil?",
+          "a": "Fichas con tema de vida marina para conteo, suma, clasificación, emparejado, el intruso y primeras letras, pensadas para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "kindergarten__summer": [
+        {
+          "q": "¿Qué hay en la página de fichas de verano para jardín infantil?",
+          "a": "Fichas con tema de verano para conteo, suma, clasificación, patrones, emparejado y trabajo de palabras, pensadas para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "breakfast__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de desayuno para jardín infantil?",
+          "a": "El set de imágenes del desayuno recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
+      ],
+      "camping__kindergarten": [
+        {
+          "q": "¿Qué traen las fichas de campamento para jardín infantil?",
+          "a": "El set de imágenes de acampada recorre conteo, clasificación, emparejado y primeras letras (reconocer la letra inicial), de forma lúdica, para niños de cinco a siete años."
+        },
+        {
+          "q": "¿Estas fichas son gratis?",
+          "a": "Sí: cada ficha se puede imprimir gratis y jugar en línea, con hoja de respuestas y sin registro."
+        },
+        {
+          "q": "¿En qué idiomas están disponibles?",
+          "a": "En los 11 idiomas en los que publicamos."
+        }
       ]
     },
     "fallback": {
@@ -2369,29 +2999,29 @@
     "animals__big-small": "Las fichas de grande-pequeño con tema de animales aprovechan la variación natural de tamaño entre criaturas —elefante a ratón— para hacer concreta la comparación de tamaño relativo. Los niños leen la pista de tamaño con seguridad y la destreza subyacente se transfiere.",
     "animals__more-less": "Las fichas de más-menos con tema de animales piden a los niños comparar cantidades de criaturas familiares —tres ovejas o cinco ovejas— y decidir qué grupo tiene más. La apoyatura visual mantiene el foco en la propia comparación de cantidades.",
     "animals__shadow-match": "Las fichas de emparejar sombras con tema de animales emparejan cada imagen de criatura con su silueta. La actividad es particularmente accesible porque los niños reconocen las formas de los animales con seguridad antes de tener que manejar la versión solo de contorno.",
-    "animals__kindergarten": "Las fichas de jardín infantil con tema de animales emparejan vocabulario de criaturas familiares con las actividades para las que un niño de jardín infantil está preparado: emparejar, clasificar, contar de forma sencilla, trabajar la letra inicial. El contexto animal hace que el trabajo se sienta accesible; las actividades en sí mismas estiran las destrezas en desarrollo del niño.",
+    "animals__kindergarten": "Las fichas con tema de animales para jardín infantil ponen a trabajar el set de imágenes más querido de la infancia para niños de cinco a siete años. El reparto familiar (gatos, vacas, pájaros, peces) los lleva por el conteo y las primeras sumas, la clasificación y el emparejado, el intruso y las primeras letras, así que cada destreza se practica sobre imágenes que ya conocen y no sobre un contexto nuevo cada vez. Los nombres de animales también son muy frecuentes en cada idioma, una gran ayuda en un aula bilingüe. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
     "animals__preschool": "Las fichas de preescolar con tema de animales dan a los más jóvenes imágenes de alta familiaridad emparejadas con tareas preacadémicas sencillas: colorea el pájaro, cuenta los patos, encuentra el perro que es distinto. Las imágenes familiares mantienen baja la carga cognitiva mientras las actividades ejercitan las destrezas que el preescolar ha de desarrollar.",
     "animals__grade-1": "Las fichas de grado 1 con tema de animales usan criaturas familiares como vehículo del trabajo más exigente que trae el año: sopas de letras más largas, conteo de varios pasos, suma inicial con apoyo de imagen. Los niños permanecen interesados en el tema mientras la exigencia cognitiva sube.",
-    "addition__kindergarten": "Las fichas de suma para jardín infantil dan a los niños práctica con las sumas pequeñas que su sentido numérico en desarrollo puede manejar: suma de un dígito, problemas con apoyo de imagen, sumas dentro de diez. El formato encamina hacia el recuerdo de hechos sin saltar la fase de contar imágenes en la que los niños de jardín infantil aún se apoyan a menudo.",
-    "kindergarten__subtraction": "Las fichas de resta para jardín infantil practican el quitar con cantidades que los niños pueden mantener en mente —normalmente dentro de diez, a menudo con apoyo de imagen que les permite tachar físicamente los elementos que se van. La actividad construye la intuición de quitar antes de que los niños tengan que manejar la resta abstracta.",
+    "addition__kindergarten": "Las fichas de sumas para jardín infantil acompañan a los niños de cinco a siete años justo cuando contar empieza a convertirse en sumar. En esta etapa las sumas se mantienen pequeñas y con apoyo de imágenes: el niño cuenta dos grupos y luego los combina, hasta diez y sin cálculo formal todavía. Mantener los números bajos y las imágenes claras deja que el pensamiento se quede en la idea de juntar. Estas fichas funcionan bien para la rutina de la mañana, un rincón de matemáticas o una actividad rápida en parejas, y cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que corrige al instante, además de la hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, un grupo bilingüe puede dar a cada niño el mismo paso en el idioma que necesita.",
+    "kindergarten__subtraction": "Las fichas de restas para jardín infantil presentan el quitar de la forma más suave: los niños de cinco a siete años empiezan con problemas de imágenes, tachan lo que se va y cuentan lo que queda, hasta diez y de manera lúdica, sin cálculo formal todavía. Mantener los números pequeños y las imágenes claras deja que la idea de cuántos quedan llegue sin la distracción de instrucciones nuevas. Estas fichas funcionan bien para la rutina de la mañana, un rincón de matemáticas o una actividad rápida en parejas. Cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que corrige al instante, además de la hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, un grupo bilingüe puede dar a cada niño el mismo paso en el idioma que necesita.",
     "alphabet-train__preschool": "Las fichas del tren del abecedario para preescolar introducen la secuencia del abecedario en el momento del desarrollo en que los niños empiezan a reconocer que las letras tienen un orden. El formato es indulgente: un niño que conoce su primera letra y unas cuantas más aún puede completar una fila.",
-    "grade-1__wordsearch": "Las sopas de letras de grado 1 dan práctica de lectura independiente una vez que los niños han pasado del reconocimiento de palabras a la vista al escaneo sostenido letra por letra. Los objetivos son cortos y temáticos, lo que mantiene la exigencia cognitiva en el escaneo en lugar de en recordar qué buscar.",
-    "kindergarten__matching": "Las fichas de emparejar para jardín infantil practican el movimiento de encontrar relaciones que subyace a la mayor parte de la lectura inicial y de las matemáticas iniciales: esta imagen va con esa letra, esta cantidad va con esa cifra. El formato da a los niños de jardín infantil práctica independiente con una operación cognitiva que están desarrollando rápidamente.",
-    "kindergarten__sudoku": "El sudoku de imágenes para jardín infantil da experiencia de rompecabezas lógico a un nivel de desarrollo que un niño de jardín infantil puede manejar: cuatro imágenes, una cuadrícula de 4×4, deducción por eliminación. Útil como tarea de enriquecimiento para niños de jardín infantil preparados para más desafío cognitivo.",
-    "find-and-count__preschool": "Las fichas de buscar y contar para preescolar piden a los más jóvenes que escaneen una escena pequeña, localicen objetos objetivo y los cuenten. La actividad es corta y visual, lo que encaja con la atención de preescolar; las destrezas subyacentes —discriminación visual y correspondencia uno a uno— son fundamentales.",
-    "kindergarten__prepositions": "Las fichas de preposiciones para jardín infantil vinculan el vocabulario espacial a imágenes concretas en el momento del desarrollo en que los niños están preparados para hacer este lenguaje explícito. El formato apoyado en imagen mantiene la carga cognitiva en la relación.",
-    "kindergarten__picture-sort": "Las fichas de clasificar imágenes para jardín infantil practican la clasificación binaria con las categorías que los niños de jardín infantil pueden manejar: color, letra inicial, qué come algo, dónde vive. Cada página da práctica independiente con una destreza de clasificación subyacente.",
-    "big-small__preschool": "Las fichas de grande-pequeño para preescolar dan a los más jóvenes práctica con la comparación de tamaño relativo, la destreza precursora de la medición y la ordenación. Las imágenes están exageradas para que la comparación sea inequívoca.",
-    "more-less__preschool": "Las fichas de más-menos para preescolar practican la comparación de cantidades en el nivel de desarrollo en que los niños pueden contar dos grupos pequeños pero aún no manejan cifras abstractas con seguridad. Útil como precursor de la suma formal.",
-    "grade-1__math-puzzle": "Los rompecabezas matemáticos de grado 1 dan a los hechos numéricos del año un marco lógico: los niños resuelven aritmética para descubrir algo en lugar de para ejercitarla. Encaja con la disposición de grado 1 a un trabajo cognitivo algo más sostenido.",
-    "kindergarten__math-worksheet": "Las fichas matemáticas de jardín infantil dan práctica dirigida con las operaciones que un niño de jardín infantil está consolidando, en formatos lo bastante cortos para la atención del jardín infantil. Combínelas con manipulativos durante la instrucción en grupos pequeños.",
-    "kindergarten__missing-pieces": "Las fichas de piezas que faltan para jardín infantil ejercitan la completación visual al nivel que los niños de jardín infantil pueden manejar: formas claras, objetivos inequívocos, paletas pequeñas de opciones. La actividad construye razonamiento espacial en una ventana de desarrollo en la que está fuertemente disponible.",
-    "kindergarten__odd-one-out": "Las fichas del que sobra para jardín infantil dan la práctica de discriminación que subyace a la clasificación: un grupo pequeño de imágenes, una de las cuales no encaja. El criterio varía, lo que mantiene a los niños atentos a lo que en realidad se está preguntando.",
-    "kindergarten__shadow-match": "Las fichas de emparejar sombras para jardín infantil emparejan imágenes con sus siluetas. El movimiento de reconocimiento de formas implicado es fundamental para el reconocimiento de letras; el contexto de imagen lo hace accesible al nivel de jardín infantil.",
-    "code-addition__kindergarten": "Las fichas de suma codificada para jardín infantil dan a la práctica aritmética un marco de lectoescritura: cada suma decodifica una letra o palabra, lo que hace que la práctica se sienta con propósito para niños que tienen los hechos básicos pero necesitan motivación.",
-    "kindergarten__pattern-train": "Las fichas del tren de patrones para jardín infantil practican el reconocimiento de patrones —alterno, repetitivo, creciente— en un formato de tren visualmente fácil de leer. El reconocimiento de patrones es fundamental en matemáticas y lectura.",
-    "kindergarten__picture-path": "Las fichas de camino de imágenes para jardín infantil practican la búsqueda de rutas a través de una cuadrícula, lo que ejercita razonamiento espacial y paciencia. Los niños en este nivel de desarrollo están preparados para considerar rutas antes de poner el lápiz en el papel.",
-    "grade-1__treasure-hunt": "Las búsquedas del tesoro de grado 1 dan a los niños una secuencia de instrucciones direccionales de varios pasos para seguir en una cuadrícula. La actividad construye razonamiento espacial, memoria de trabajo y fluidez de vocabulario direccional a un nivel que los niños de grado 1 pueden sostener.",
+    "grade-1__wordsearch": "Las fichas de sopa de letras convierten la lectura temprana en una caza que los niños de grado 1 sí quieren terminar. Cada puzle esconde un pequeño grupo de palabras con tema en una cuadrícula de letras; el niño rastrea, localiza y marca cada palabra, relacionando lo que ve con las pistas en imagen junto a la cuadrícula. A los seis a ocho años ese rastreo es práctica de verdad (reconocer letras, seguir de izquierda a derecha y afianzar vocabulario nuevo) envuelta en un juego. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador donde las palabras se seleccionan en pantalla y se comprueban, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "kindergarten__matching": "Las fichas de emparejar para jardín infantil ofrecen una tarea clara y satisfactoria: trazar una línea para unir cada elemento con su pareja. Para los niños de cinco a siete años, decidir qué va con qué construye la asociación uno a uno, la atención visual y el vocabulario que surge al nombrar cada pareja. La tarea basada en imágenes le sienta bien a cada niño, sea cual sea su nivel de lectura o su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, donde los niños tocan para trazar cada línea y la revisan, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "kindergarten__sudoku": "Las fichas de sudoku de imágenes para jardín infantil traen lógica de verdad mucho antes de que los niños puedan leer un reglamento. En una cuadrícula de cuatro por cuatro, el niño coloca imágenes simpáticas de modo que cada fila, cada columna y cada caja pequeña tenga una de cada imagen: la misma deducción del sudoku de los grandes, ajustada a los cinco a siete años y hecha con imágenes en lugar de números. Es un razonamiento paciente y satisfactorio que construye atención y pensamiento por descarte. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, donde los niños arrastran cada imagen a su lugar y la cuadrícula se revisa, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "find-and-count__preschool": "Las fichas de busca y cuenta para preescolar son una primera tarea de conteo preciosa, porque piden a los niños de tres a cinco años dos cosas que les encantan: buscar imágenes y contar lo que encuentran. El niño recorre una escena pequeña y simpática, descubre los objetos y cuenta cuántos hay, cantidades pequeñas hasta cinco o diez, sin necesidad de leer para empezar, solo mirando con atención y llevando la cuenta. Esa búsqueda suave construye atención visual y conteo uno a uno justo al nivel de los más pequeños. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que da una respuesta animadora al instante, además de la hoja de respuestas para el adulto. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier niño puede participar enseguida.",
+    "kindergarten__prepositions": "Las fichas de preposiciones para jardín infantil ayudan a los niños a dominar las palabritas que describen dónde están las cosas, como en, sobre, debajo y al lado. El niño mira las imágenes y elige la que muestra la posición, construyendo el vocabulario espacial que los niños de cinco a siete años usan todo el día, tanto en matemáticas como en los cuentos. Como la tarea se guía por imágenes, funciona para cada niño sin importar su nivel de lectura ni su idioma en casa, y despierta conversación útil para describir. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa cada elección, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "kindergarten__picture-sort": "Las fichas de clasificar imágenes para jardín infantil piden a los niños poner cada imagen donde corresponde, agrupándolas por tipo, color o categoría. Para los niños de cinco a siete años, decidir qué va junto y por qué es a la vez lógica temprana y vocabulario, y despierta mucha conversación útil. Como la clasificación se hace con imágenes, cada niño puede participar sin importar su nivel de lectura ni su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, donde los niños arrastran las imágenes a sus grupos y revisan su trabajo, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "big-small__preschool": "Las fichas de grande o pequeño para preescolar dan a los niños de tres a cinco años su primer acercamiento a la idea de medir: descubrir el más grande, encontrar el más pequeño y ordenar unas pocas imágenes por tamaño. En esta etapa la tarea usa imágenes claras y un solo toque o marca, así que el niño puede lograrlo sin leer una palabra. Comparar por tamaño también alimenta el vocabulario que los niños necesitan para describir y ordenar el mundo que los rodea. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que responde con calidez al instante, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "more-less__preschool": "Las fichas de más o menos para preescolar son una de las primeras ideas con números que conocen los niños de tres a cinco años: miran dos grupos de imágenes y deciden cuál tiene más, cuál tiene menos y cuándo son iguales. En esta etapa es la base para contar con sentido, y la tarea no necesita leer ni escribir, solo mirar y elegir. Las imágenes simpáticas la hacen acogedora para cada niño, sea cual sea su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que da una respuesta suave al instante, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "grade-1__math-puzzle": "Las fichas de rompecabezas matemático para grado 1 dan una forma práctica de construir sentido numérico: los niños arrastran las piezas para completar un rompecabezas de números y averiguan dónde encaja cada una. Para los niños de seis a ocho años esto premia un poco de planificación y de pensar probando y ajustando además de la operación, lo que encaja con el paso de contar a calcular. El formato es bastante claro para empezar solos y bastante rico para mantener ocupado a quien termina rápido. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa el rompecabezas terminado, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "kindergarten__math-worksheet": "Las fichas de matemáticas para jardín infantil reúnen la práctica con números que más se busca en esta etapa: armar primeras operaciones, completar la parte que falta y resolver sumas y restas pequeñas a la medida de los niños de cinco a siete años. El apoyo de imágenes ancla las cantidades para que el pensamiento se quede en la idea, de forma lúdica y hasta diez, sin cálculo formal todavía. Tener el trabajo con números en un solo lugar hace fácil montar una clase corta o una tarea para el rincón de matemáticas. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que da respuesta al instante, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "kindergarten__missing-pieces": "Las fichas de piezas faltantes para jardín infantil ofrecen un rompecabezas visual muy satisfactorio: cada imagen tiene un hueco y el niño arrastra la pieza recortada correcta hasta su lugar para completarla. Para los niños de cinco a siete años esto construye conciencia de las formas, discriminación visual y la paciencia de comparar opciones antes de elegir, un razonamiento temprano disfrazado de juego. Como la tarea se basa en imágenes, funciona sea cual sea el nivel de lectura o el idioma en casa, y las formas claras mantienen el foco en el pensamiento. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que encaja las piezas y revisa la imagen terminada, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "kindergarten__odd-one-out": "Las fichas de el intruso piden a los niños de jardín infantil que encuentren la imagen que no encaja y, lo más importante, que piensen por qué. A los cinco a siete años esto es clasificación y razonamiento tempranos: notar qué tienen en común los elementos de un grupo y detectar la excepción. Al ser una tarea pictórica funciona para cualquier niño, sea cual sea su nivel de lectura o su lengua materna, y provoca muchas conversaciones útiles en las que el niño explica su elección. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador que revela la respuesta tras la elección, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "kindergarten__shadow-match": "Las fichas de emparejar sombras para jardín infantil piden unir cada objeto con su sombra, una tarea de emparejamiento visual muy limpia que afina la atención a la forma y al contorno. Para los niños de cinco a siete años, mirar más allá del color y el detalle para reconocer una forma por su silueta es práctica de observación de verdad, y se siente como un juego. La tarea basada en imágenes funciona para cada niño, sea cual sea su nivel de lectura o su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que traza la pareja y la revisa, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "code-addition__kindergarten": "Las fichas de suma codificada para jardín infantil añaden un toque de misterio al inicio de los números: el niño resuelve cuentas muy pequeñas con una clave visual y cada resultado revela parte de una imagen escondida. Para los niños de cinco a siete años es una iniciación lúdica al conteo, hasta diez y sin cálculo formal, con la emoción de descifrar una clave. Las cantidades se mantienen pequeñas y amables con las imágenes, para que el reto sea la recompensa y no una barrera. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa la clave al instante, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "kindergarten__pattern-train": "Las fichas de Tren De Patrones para jardín infantil convierten el inicio de los patrones en un juego que los niños de cinco a siete años quieren terminar: un tren recorre la página y el niño continúa el patrón de imágenes vagón a vagón. Descubrir qué se repite y predecir qué viene después es una de las primeras formas del pensamiento matemático en esta etapa, y el tren simpático lo mantiene todo lúdico. Las imágenes llevan la tarea, así que un niño que todavía aprende el idioma del aula puede participar por completo. Cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que confirma cada colocación, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "kindergarten__picture-path": "Las fichas de sendero de imágenes para jardín infantil ofrecen un recorrido tranquilo por la cuadrícula: el niño traza un camino casilla por casilla, avanzando hacia los lados, para llevar a un personaje hasta su meta. Para los niños de cinco a siete años es una práctica lúdica de razonamiento espacial y de seguir un orden, donde algunas casillas se pueden cruzar y otras no, así que hay que mirar con cuidado antes de avanzar. Como la tarea se basa en imágenes, funciona sea cual sea el nivel de lectura o el idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que traza el sendero y revisa el camino, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "grade-1__treasure-hunt": "Las fichas de búsqueda del tesoro para grado 1 dan a los niños una primera experiencia de seguir indicaciones y leer el espacio. Desde una casilla marcada, el niño sigue pistas paso a paso, tantas casillas hacia un lado y luego hacia otro, trazando un camino por la cuadrícula hasta llegar al tesoro. Para los niños de seis a ocho años es práctica real de razonamiento espacial y de palabras de dirección, como arriba, abajo, izquierda, derecha y al lado, envuelta en una aventura, y premia pensar con cuidado y por orden. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que traza la ruta y revisa el camino, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
     "cryptogram": "En las fichas de Criptograma los niños descifran un código de imágenes y símbolos para escribir una palabra escondida. Cada símbolo corresponde a una letra, así que tienen que mirar con atención, buscar la pista correcta y completar la palabra letra a letra. Combinan el reconocimiento de letras con la discriminación visual, ideales para jardín infantil y grado 1. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Usa una como reto divertido para terminar la sesión de letras. Y al estar disponibles en los 11 idiomas en los que publicamos, la palabra secreta aparece en la lengua que elijas.",
     "word-scramble": "En las fichas de Letras Revueltas los niños ordenan unas letras desordenadas para escribir la palabra que muestra cada imagen. La imagen sirve de pista, así que combinan el reconocimiento de letras con la escritura y la ortografía inicial mientras buscan el orden correcto. Resultan ideales para jardín infantil y grado 1, cuando empiezan a formar sus primeras palabras. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Combina varias del mismo tema para repasar un grupo de palabras frecuentes. Y al estar disponibles en los 11 idiomas en los que publicamos, las palabras encajan con la lengua de tu aula.",
     "find-objects": "En las fichas de Encuentra Los Objetos los niños buscan objetos escondidos en una escena y los marcan cuando los localizan. Tienen que explorar la imagen con la mirada, comparar lo que ven con la lista de búsqueda y prestar atención a los detalles. Es una actividad excelente para la discriminación visual y la concentración, perfecta para preescolar y jardín infantil porque se apoya en imágenes. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Elige las escenas con los temas que más les diviertan. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier clase.",
@@ -2449,7 +3079,32 @@
     "spring": "El tema de Primavera es una buena ocasión para practicar en cada temporada y acompaña a los niños por todos los tipos de ejercicio. Con flores, mariposas, lluvia y brotes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se refuerzan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Primavera sirve a niños que aprenden en lenguas diferentes.",
     "dinosaurs": "El conjunto de imágenes conocidas de Dinosaurios acompaña a los niños por todos los tipos de ejercicio. Con tiranosaurios, estegosaurios, triceratops y huevos se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Dinosaurios sirve a niños que aprenden en lenguas diferentes.",
     "around_the_house": "Alrededor de la casa ofrece vocabulario cotidiano que acompaña a los niños por todos los tipos de ejercicio. Con puertas, ventanas, lámparas y relojes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, siempre con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, por lo que en clases bilingües las palabras se afianzan en contexto. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, la misma actividad de Alrededor de la casa funciona para grupos que aprenden en distintas lenguas.",
-    "reptiles_and_amphibians": "El conjunto de imágenes conocidas de Reptiles y anfibios acompaña a los niños por todos los tipos de ejercicio. Con tortugas, ranas, lagartos y serpientes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Reptiles y anfibios sirve a niños que aprenden en lenguas diferentes."
+    "reptiles_and_amphibians": "El conjunto de imágenes conocidas de Reptiles y anfibios acompaña a los niños por todos los tipos de ejercicio. Con tortugas, ranas, lagartos y serpientes se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras se trabaja. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Reptiles y anfibios sirve a niños que aprenden en lenguas diferentes.",
+    "accessories__grade-1": "Las fichas con tema de accesorios para grado 1 toman objetos que los niños de seis a ocho años ven a diario, como gorros, bufandas, gafas, relojes y cinturones, y los ponen a trabajar en la práctica. Este conjunto de imágenes recorre sumas y restas pequeñas, sopa de letras, emparejar y formar palabras, así que cada destreza nueva se practica sobre objetos que el niño ya conoce, en lugar de un contexto distinto cada vez. Combina muy bien con una clase corta, un rincón de aprendizaje o la tarea para casa. Esta página reúne las fichas con tema de accesorios pensadas para grado 1. Cada una llega como PDF imprimible gratis con su versión interactiva para jugar en línea y su hoja de respuestas, disponibles en los 11 idiomas en los que publicamos.",
+    "cryptogram__kindergarten": "Las fichas de criptograma para jardín infantil ofrecen una clave suave para descifrar: cada imagen o símbolo representa una letra y el niño descifra las pistas para formar una palabra corta. Para los niños de cinco a siete años convierte el reconocimiento de letras y los primeros pasos para escribir en un juego con una revelación satisfactoria al final. Como las pistas se basan en imágenes y símbolos, y no en texto, la tarea se mantiene accesible para niños que todavía aprenden el idioma del aula. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa la palabra descifrada, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede empezar la lectoescritura en el idioma que sus niños aprenden.",
+    "find-objects__kindergarten": "Las fichas de encuentra los objetos para jardín infantil convierten el mirar con atención en un juego que a los niños les encanta: una escena animada y simpática esconde objetos y el niño los busca y marca cada uno. Para los niños de cinco a siete años esto construye discriminación visual, atención al detalle y vocabulario a medida que nombran lo que encuentran. La tarea de buscar con imágenes recibe a cada niño, sea cual sea su nivel de lectura o su idioma en casa. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que marca los hallazgos y los cuenta, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos.",
+    "grade-1__word-scramble": "Las fichas de letras revueltas para grado 1 dan un reto de lectura y escritura con un giro lúdico: una pista de imagen muestra la palabra y, justo al lado, sus letras aparecen desordenadas para que el niño las ordene y forme la palabra correcta. Para los niños de seis a ocho años esto refuerza el reconocimiento de letras, la conciencia de los sonidos y la escritura temprana, con la imagen manteniendo el significado siempre claro. Funciona bien para un rincón de lectoescritura, el trabajo en parejas o un calentamiento rápido. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa la palabra formada, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que sus niños aprenden.",
+    "accessories__treasure-hunt": "Combina la búsqueda del tesoro con tema de accesorios y tendrás una aventura por la cuadrícula con un toque familiar. Desde una casilla marcada, el niño sigue pistas paso a paso, tantas casillas hacia un lado y luego hacia otro, trazando un camino hasta el tesoro, mientras gorros, bufandas, gafas y relojes decoran el recorrido. La mecánica es práctica real de razonamiento espacial y de palabras de dirección, como arriba, abajo, izquierda y derecha, y las imágenes del tema mantienen todo cercano y motivador. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que traza la ruta y revisa el camino, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede practicar en el idioma que necesita.",
+    "kindergarten__word-guess": "Las fichas de adivina la palabra para jardín infantil ofrecen una primera tarea suave para escribir: una pista de imagen muestra la palabra y el niño rellena los espacios letra a letra para formarla. Para los niños de cinco a siete años esto une el reconocimiento de letras con los primeros sonidos de forma tranquila y satisfactoria, y la imagen mantiene el significado siempre claro. Le sienta bien a un rincón de lectoescritura, al trabajo en parejas o a un calentamiento rápido. Cada ficha llega como PDF imprimible gratis con su versión interactiva para jugar en línea, que revisa cada letra, además de la hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que cualquier grupo puede empezar a escribir en el idioma que sus niños aprenden.",
+    "bingo__kindergarten": "El bingo para jardín infantil convierte el reconocimiento de imágenes en un juego de grupo lleno de energía. Se anuncia una imagen, el niño la busca en su cartón y coloca una ficha encima; la primera línea completa gana. A los cinco a siete años esto entrena la atención, la escucha y el vocabulario, porque cada imagen tiene un nombre que se dice en voz alta. Al ser todo pictórico, cualquier niño participa sin importar su nivel de lectura ni su lengua materna, y la emoción de completar la línea mantiene la motivación. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "accessories__kindergarten": "Las fichas con tema de accesorios para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al mundo de los sombreros, las gafas, los bolsos y las bufandas. A los cinco a siete años los niños reconocen estos objetos al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántos sombreros hay, agrupan por tipo o color, emparejan cada accesorio con su pareja o reconocen la letra inicial de cada palabra. El tema cercano y cotidiano mantiene la atención. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "ocean_life__preschool": "¿Buscas algo que enamore a los más pequeños? Las fichas con tema de vida marina para preescolar llevan las primeras destrezas al fondo del mar, con peces, pulpos y cangrejos que a los tres a cinco años fascinan al instante. La imagen sostiene la tarea: los niños cuentan cuántos peces hay en grupos pequeños, agrupan por tipo o color y emparejan cada criatura con su pareja, todo de forma lúdica y sin necesidad de leer. El asombro por el mar hace de motor y mantiene la atención de los más chiquitos. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "kindergarten__post_office": "Las fichas con tema de oficina de correos para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al mundo de las cartas, los sobres, los sellos y los buzones. A los cinco a siete años los niños reconocen estos objetos al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas cartas hay, agrupan los sobres y los paquetes, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema del oficio mantiene la curiosidad y abre conversación sobre cómo viaja una carta. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "chart-count__kindergarten": "Las fichas de contar en gráfico dan a los niños de jardín infantil su primer contacto con los datos: cuentan los objetos y luego rellenan una columna de un gráfico de barras para mostrar cuántos hay. A los cinco a siete años esto une el conteo cuidadoso con la idea más temprana de un gráfico (más alto significa más), un puente precioso entre contar y representar. Al ser una tarea pictórica resulta accesible para cualquier niño, sea cual sea su nivel de lectura o su lengua materna. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador que rellena las columnas y las corrige frente al conteo, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "grade-1__pattern-worksheet": "Las fichas de patrones para grado 1 construyen el razonamiento que hay detrás de los patrones: el niño lee una secuencia que se repite, del tipo AB o ABC, descubre qué viene después y luego la extiende. A los seis a ocho años esto refuerza el pensamiento de predecir y generalizar que sostiene el álgebra temprana, con apoyo visual donde ayuda. El formato es claro para empezar de forma autónoma y a la vez rico para estirar a quien termina rápido. Encaja bien en el rincón de matemáticas o como tarea breve. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador que comprueba cada paso, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "more-less__ocean_life": "Las fichas de más o menos con tema de vida marina llevan una de las primeras ideas numéricas al fondo del mar. El niño mira dos grupos de criaturas (peces, pulpos, cangrejos) y decide cuál tiene más, cuál tiene menos y cuándo son iguales. Es la base para contar con sentido, y la tarea no exige leer ni escribir: basta mirar y elegir. El tema marino, lleno de imágenes que los pequeños adoran, mantiene la atención mientras se compara cantidad. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador que da una respuesta amable e inmediata, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "grid-match__kindergarten": "Las fichas de emparejar en cuadrícula dan a los niños de jardín infantil un puzle de emparejado bien ordenado: arrastran cada pieza a su lugar correspondiente en la cuadrícula. A los cinco a siete años esto desarrolla el emparejado visual, el sentido de la posición y un poco de memoria de trabajo, porque deben sostener una imagen en la mente mientras buscan su sitio. Al ser una tarea pictórica funciona para cualquier niño, sea cual sea su nivel de lectura o su lengua materna. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador donde las piezas encajan en su lugar y la cuadrícula terminada se corrige, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "crossword__grade-2": "Las fichas de crucigrama para grado 2 consolidan la lectura: el niño lee una pista o mira una imagen y escribe la palabra letra a letra en la cuadrícula, encajando las casillas que comparten dos palabras. A los siete a nueve años esto une la comprensión de la pista con la ortografía y la escritura cuidadosa, una consolidación lectora ideal para esta etapa. Las pistas en imagen sostienen el significado y abren camino a quien aún afianza su vocabulario. El formato exige pensar, comprobar y ajustar, y recompensa el trabajo paso a paso. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador que comprueba cada casilla, además de hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, encajan en cualquier aula.",
+    "activities__kindergarten": "Las fichas con tema de actividades para jardín infantil nombran lo que los niños de cinco a siete años hacen todo el día (correr, saltar, leer, pintar) en un set de imágenes que convierte las palabras de acción en práctica. Las imágenes los llevan por el conteo y las primeras sumas, la clasificación y el emparejado, el intruso y las primeras letras, así que el vocabulario de las acciones cotidianas se vuelve trabajo real y abre mucha conversación. Las imágenes claras dan la bienvenida a quien aún construye la lengua del aula. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
+    "kindergarten__things_that_fly": "Las fichas con tema de cosas que vuelan para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al cielo, con pájaros, mariposas, aviones y cometas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas mariposas hay, agrupan lo que vuela por su tipo, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema lleno de movimiento mantiene viva la curiosidad. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "4th_of_july__kindergarten": "Las fichas con tema de 4 de julio para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras a la fiesta, con banderas, fuegos artificiales, globos y estrellas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas banderas hay, agrupan por color o por tipo, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema festivo mantiene el entusiasmo y aporta variedad estacional al aula. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "beach__kindergarten": "Las fichas con tema de playa para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras a la orilla del mar, con arena, cubos, conchas y sombrillas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas conchas hay, agrupan por tipo o color, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema veraniego mantiene la atención y aporta frescura al aula. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "flowers__kindergarten": "Las fichas con tema de flores para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al jardín, con tulipanes, rosas, girasoles y margaritas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas flores hay, agrupan por color o por tipo, emparejan cada flor con su pareja o reconocen la letra inicial de cada palabra. El tema lleno de color mantiene la atención y abre conversación sobre la naturaleza. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "kindergarten__occupations": "Las fichas con tema de ocupaciones para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al mundo de los oficios, con el médico, el bombero, el chef y el cartero. A los cinco a siete años los niños reconocen estas figuras al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántos bomberos hay, agrupan a quienes trabajan juntos, emparejan cada oficio con su herramienta o reconocen la letra inicial de cada palabra. El tema de las profesiones despierta curiosidad y mucha conversación sobre el mundo. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "kindergarten__ocean_life": "Las fichas con tema de vida marina para jardín infantil se sumergen en un set de imágenes que a los cinco a siete años les resulta apasionante, con peces, pulpos, cangrejos, delfines y estrellas de mar. Las criaturas del mar los llevan por el conteo y las primeras sumas, la clasificación y el emparejado, el intruso y las primeras letras, así que el asombro hace de motor. El vocabulario marino encaja con la hora de ciencias y de cuentos, y las imágenes claras dan la bienvenida a quien aún construye la lengua del aula. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
+    "kindergarten__summer": "Las fichas con tema de verano para jardín infantil traen sol a la práctica con un set de imágenes que a los cinco a siete años encanta, con el sol, la playa, los helados y las sandalias. Las imágenes los llevan por el conteo y las primeras sumas, la clasificación y los patrones, el emparejado y las primeras palabras del verano, así que la estación se vuelve un motivo para practicar hasta las vacaciones. Las fichas estacionales mantienen viva la atención, y las imágenes claras dan la bienvenida a quien aún construye la lengua del aula. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas, disponible en los 11 idiomas en los que publicamos.",
+    "breakfast__kindergarten": "Las fichas con tema de desayuno para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras a la mesa de la mañana, con tostadas, huevos, leche y fruta. A los cinco a siete años los niños reconocen estos alimentos al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántos huevos hay, agrupan lo dulce y lo salado, emparejan cada alimento con su pareja o reconocen la letra inicial de cada palabra. El tema cotidiano y cercano mantiene la atención. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula.",
+    "camping__kindergarten": "Las fichas con tema de campamento para jardín infantil llevan el conteo, la clasificación, el emparejado y las primeras letras al aire libre, con tiendas de campaña, mochilas, fogatas y linternas. A los cinco a siete años los niños reconocen estas imágenes al instante, así que la imagen sostiene la tarea mientras la mente trabaja: cuentan cuántas tiendas hay, agrupan lo que se lleva de acampada, emparejan cada objeto con su pareja o reconocen la letra inicial de cada palabra. El tema de la aventura mantiene la atención y abre conversación sobre la naturaleza. Cada una es un PDF imprimible gratis, sin registro, con versión interactiva en el navegador y hoja de respuestas. Están disponibles en los 11 idiomas en los que publicamos, así que encajan en cualquier aula."
   },
   "workspace": {
     "metadata": {

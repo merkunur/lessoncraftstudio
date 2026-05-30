@@ -1,10 +1,16 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateRobotsTxt } from '@/lib/seo-utils';
+import { requireAdmin } from '@/lib/admin-auth';
 
 export const dynamic = 'force-dynamic';
 
 // POST /api/admin/seo/robots - Generate robots.txt
 export async function POST(request: NextRequest) {
+  const adminCheck = await requireAdmin(request);
+  if (adminCheck instanceof NextResponse) {
+    return adminCheck;
+  }
+
   try {
     const config = {
       allowAll: false,
@@ -21,7 +27,7 @@ export async function POST(request: NextRequest) {
         '/images',
         '/worksheets'
       ],
-      sitemap: 'https://www.lessoncraftstudio.com/sitemap_index.xml',
+      sitemap: 'https://www.lessoncraftstudio.com/sitemap.xml',
       crawlDelay: 1
     };
 
@@ -44,6 +50,11 @@ export async function POST(request: NextRequest) {
 
 // GET /api/admin/seo/robots - Get current robots configuration
 export async function GET(request: NextRequest) {
+  const adminCheck = await requireAdmin(request);
+  if (adminCheck instanceof NextResponse) {
+    return adminCheck;
+  }
+
   try {
     // Return current robots.txt configuration
     return NextResponse.json({
@@ -51,7 +62,7 @@ export async function GET(request: NextRequest) {
       disallowed: ['/admin', '/api', '/private'],
       allowed: ['/api/public', '/images', '/worksheets'],
       crawlDelay: 1,
-      sitemap: 'https://www.lessoncraftstudio.com/sitemap_index.xml',
+      sitemap: 'https://www.lessoncraftstudio.com/sitemap.xml',
       lastUpdated: new Date().toISOString()
     });
   } catch (error) {

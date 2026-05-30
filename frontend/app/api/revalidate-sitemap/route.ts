@@ -25,31 +25,16 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
       // Empty body is fine - will revalidate default paths
     }
 
-    // Default paths to revalidate (all split sitemaps 0-7 + image + video sitemaps)
+    // Default paths to revalidate: the sitemap index + the 4 real shards.
+    // (Shards 4-7 and the image/video sitemaps were retired in the pivot; only
+    // 0-3 exist today per §17.10.1. SEO remediation 2026-05-30 pruned the
+    // phantom paths — revalidatePath on a non-existent path was a silent no-op.)
     const defaultPaths = [
       '/sitemap.xml',
       '/sitemap/0.xml',
       '/sitemap/1.xml',
       '/sitemap/2.xml',
       '/sitemap/3.xml',
-      '/sitemap/4.xml',
-      '/sitemap/5.xml',
-      '/sitemap/6.xml',
-      '/sitemap/7.xml',
-      '/image-sitemap-index.xml',
-      '/image-sitemap/1',
-      '/image-sitemap/3',
-      '/image-sitemap/4',
-      '/image-sitemap/5',
-      '/image-sitemap/6',
-      '/image-sitemap/7',
-      '/video-sitemap-index.xml',
-      '/video-sitemap/1',
-      '/video-sitemap/3',
-      '/video-sitemap/4',
-      '/video-sitemap/5',
-      '/video-sitemap/6',
-      '/video-sitemap/7',
     ];
 
     // Combine with any custom paths
@@ -91,26 +76,17 @@ export async function POST(request: NextRequest): Promise<NextResponse> {
 export async function GET(): Promise<NextResponse> {
   try {
     revalidatePath('/sitemap.xml');
-    // Revalidate all split sitemaps (0-7)
-    for (let i = 0; i <= 7; i++) {
+    // Revalidate the 4 real shards (0-3). Shards 4-7 + image/video sitemaps
+    // were retired in the pivot (§17.10.1).
+    for (let i = 0; i <= 3; i++) {
       revalidatePath(`/sitemap/${i}.xml`);
-    }
-    // Revalidate image sitemaps
-    revalidatePath('/image-sitemap-index.xml');
-    for (const id of [1, 3, 4, 5, 6, 7]) {
-      revalidatePath(`/image-sitemap/${id}`);
-    }
-    // Revalidate video sitemaps
-    revalidatePath('/video-sitemap-index.xml');
-    for (const id of [1, 3, 4, 5, 6, 7]) {
-      revalidatePath(`/video-sitemap/${id}`);
     }
 
     return NextResponse.json({
       success: true,
       revalidated: true,
       timestamp: Date.now(),
-      message: 'Sitemap cache cleared via GET request (all split + image + video sitemaps).'
+      message: 'Sitemap cache cleared via GET request (index + shards 0-3).'
     });
   } catch (error) {
     return NextResponse.json(

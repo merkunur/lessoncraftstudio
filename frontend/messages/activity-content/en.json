@@ -1,0 +1,199 @@
+{
+  "labels": {
+    "about": "About this activity",
+    "practices": "What your child practices",
+    "howToPlay": "How to play",
+    "learningGoals": "Learning goals",
+    "whatsInside": "What's inside this activity"
+  },
+  "templates": {
+    "byStrand": {
+      "Counting & Cardinality": {
+        "about": [
+          "This is a free, interactive counting activity for young learners, working with numbers up to {max}. It plays right in the browser on tablets, phones, and classroom computers — there is nothing to install, no account to create, and no setup for the teacher.",
+          "The activity is aligned to Common Core {code} in the Counting & Cardinality strand. Children get gentle, immediate feedback as they go, so they can keep trying until the answer feels right. There is no timer and no score — just calm, hands-on practice."
+        ],
+        "practices": [
+          "Counting a group of objects one by one and saying how many there are altogether",
+          "Matching a spoken or written number to the right quantity",
+          "Recognising small amounts at a glance, without counting every single time",
+          "Working carefully and confidently with numbers up to {max}"
+        ],
+        "howToPlay": [
+          "Children look at the pictures on the screen and read or listen to the prompt.",
+          "They count the items, then tap to place counters or choose the number that matches.",
+          "A friendly check shows when the answer is right, with an easy way to try again — mistakes are part of learning here, never punished."
+        ],
+        "learningGoals": [
+          "Count a set of objects accurately and tell how many there are.",
+          "Understand that the last number counted names the size of the whole group — the core idea behind Common Core {code}.",
+          "Build the early number sense that addition, subtraction, and place value all grow from."
+        ]
+      },
+      "Number & Operations in Base Ten": {
+        "about": [
+          "This free, interactive place-value activity helps children see how our number system is built around groups of ten, using numbers up to {max}. It runs in any modern browser — on a tablet, a phone, or the classroom whiteboard — with nothing to download.",
+          "It is aligned to Common Core {code} in the Number & Operations in Base Ten strand. Children work at their own pace with warm, instant feedback, and there is no timer or score to rush them."
+        ],
+        "practices": [
+          "Seeing a two-digit number as a group of tens plus some extra ones",
+          "Building numbers up to {max} from tens and ones",
+          "Reading and writing numbers and connecting them to a picture of the quantity",
+          "Noticing the patterns that make bigger numbers easier to understand"
+        ],
+        "howToPlay": [
+          "Children read the prompt and look at the ten-frames or blocks on the screen.",
+          "They fill, build, or choose to match the number being asked for.",
+          "A gentle check confirms a correct answer and invites another try when needed — calm, low-pressure practice throughout."
+        ],
+        "learningGoals": [
+          "Understand a teen or two-digit number as some tens and some ones.",
+          "Compose and read numbers up to {max} with confidence — the heart of Common Core {code}.",
+          "Lay the base-ten foundation that multi-digit addition and subtraction depend on."
+        ]
+      },
+      "Operations & Algebraic Thinking": {
+        "about": [
+          "This free, interactive activity gives children hands-on practice with early addition and subtraction ideas, working with quantities up to {max}. It plays straight in the browser on any device, with nothing to install and no login.",
+          "It is aligned to Common Core {code} in the Operations & Algebraic Thinking strand. Feedback is immediate and encouraging, and there is no timer or score — children can think things through at their own pace."
+        ],
+        "practices": [
+          "Putting groups together and taking them apart to find how many",
+          "Seeing different ways to make the same number",
+          "Solving simple word-problem situations with pictures and counters",
+          "Reasoning about quantities up to {max}"
+        ],
+        "howToPlay": [
+          "Children read the prompt and look at the groups of objects on the screen.",
+          "They combine, separate, or choose to answer the question.",
+          "A friendly check shows when they are right, with a relaxed chance to try again."
+        ],
+        "learningGoals": [
+          "Add and subtract within small numbers using objects and pictures.",
+          "Understand addition as putting together and subtraction as taking apart — the idea behind Common Core {code}.",
+          "Develop the flexible number sense that fluent mental math is built on."
+        ]
+      },
+      "Geometry": {
+        "about": [
+          "This free, interactive shape activity helps young children notice, name, and compare the shapes around them. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account needed.",
+          "It is aligned to Common Core {code} in the Geometry strand. Children explore at their own pace with gentle, immediate feedback — no timer, no score, just playful practice."
+        ],
+        "practices": [
+          "Recognising and naming everyday two- and three-dimensional shapes",
+          "Noticing how many sides and corners a shape has",
+          "Telling flat shapes apart from solid ones",
+          "Describing and comparing shapes in their own words"
+        ],
+        "howToPlay": [
+          "Children look at the shapes on the screen and read or listen to the prompt.",
+          "They tap the shape that matches, or sort shapes into the right group.",
+          "A warm check confirms a correct choice and offers an easy retry when needed."
+        ],
+        "learningGoals": [
+          "Name and describe common shapes with growing confidence.",
+          "Tell two-dimensional (flat) shapes apart from three-dimensional (solid) ones — the focus of Common Core {code}.",
+          "Build the spatial vocabulary that later geometry and measurement work rely on."
+        ]
+      },
+      "Reading: Foundational Skills": {
+        "about": [
+          "This free, interactive reading activity gives children hands-on practice sounding out and building words. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to set up.",
+          "It is aligned to Common Core {code} in the Reading: Foundational Skills strand. Each word is checked for an accurate, child-safe break, and feedback is gentle and immediate — there is no timer and no score."
+        ],
+        "practices": [
+          "Breaking words into sounds or syllables and blending them back together",
+          "Matching letters and letter groups to the sounds they make",
+          "Building short, decodable words step by step",
+          "Hearing and saying each part of a word in order"
+        ],
+        "howToPlay": [
+          "Children look at the picture or hear the word, then read the prompt.",
+          "They tap the sounds or syllables in order to build the word.",
+          "A friendly check reads the finished word aloud and invites another try when needed."
+        ],
+        "learningGoals": [
+          "Blend sounds and syllables to read and build simple words.",
+          "Connect spoken sounds to written letters — the core of Common Core {code}.",
+          "Grow the decoding skills that confident, independent reading is built on."
+        ]
+      },
+      "Phonological Awareness": {
+        "about": [
+          "This free, interactive listening activity helps children hear and play with the sounds inside spoken words. It plays right in the browser on any device, with nothing to install and no login required.",
+          "It is aligned to Common Core {code} in the Phonological Awareness strand. Feedback is warm and immediate, and there is no timer or score to rush a young learner."
+        ],
+        "practices": [
+          "Hearing the separate sounds and syllables in spoken words",
+          "Blending sounds together to make a word",
+          "Pulling a word apart into its sounds",
+          "Listening for rhymes and beginning sounds"
+        ],
+        "howToPlay": [
+          "Children listen to or look at the word, then read the prompt.",
+          "They tap to choose, blend, or break the sounds being asked about.",
+          "A gentle check confirms a correct answer with an easy chance to try again."
+        ],
+        "learningGoals": [
+          "Hear, blend, and separate the sounds in spoken words.",
+          "Develop the listening skills described in Common Core {code}.",
+          "Build the sound awareness that successful reading and spelling depend on."
+        ]
+      }
+    },
+    "generic": {
+      "about": [
+        "This is a free, interactive learning activity for young children that plays right in the browser on tablets, phones, and classroom computers. There is nothing to install, no account to create, and no setup for the teacher.",
+        "It is aligned to Common Core {code} in the {strand} strand. Children work at their own pace with gentle, immediate feedback, and there is no timer and no score — just calm, hands-on practice."
+      ],
+      "practices": [
+        "Working through the {strand} skill at the heart of this activity",
+        "Connecting pictures, numbers, or words to the idea being practised",
+        "Trying, checking, and trying again without any pressure",
+        "Building confidence one small step at a time"
+      ],
+      "howToPlay": [
+        "Children read or listen to the prompt and look at what is shown on the screen.",
+        "They tap to answer or build their response.",
+        "A friendly check shows when they are right, with an easy way to try again."
+      ],
+      "learningGoals": [
+        "Practise and strengthen the {strand} skill behind Common Core {code}.",
+        "Grow comfortable applying the idea in a playful, low-pressure way.",
+        "Build a foundation that later learning can grow from."
+      ]
+    },
+    "whatsInsideRange": "Numbers from {min} to {max}",
+    "whatsInsideTheme": "{theme} picture counters children can recognise",
+    "whatsInsideGrade": "Designed for Grade {grade} learners (ages about 5 to 9)",
+    "whatsInsideStrand": "Common Core strand: {strand}",
+    "whatsInsideCode": "Aligned to Common Core standard {code}"
+  },
+  "prose": {
+    "ten-frame.count-to-10.make-n.animals": [
+      "Counting to ten is one of the very first big milestones in a child's math journey, and a ten-frame makes it wonderfully clear. In this free activity, children place friendly animal counters into a ten-frame and count from 0 to 10, building each number one square at a time.",
+      "Because the ten-frame always has ten spaces, children quickly start to see numbers in relation to ten — they notice that seven is \"three away from full,\" or that five fills exactly half the frame. This visual sense of quantity is far more powerful than memorising a counting song, and it sets the stage for adding and subtracting later.",
+      "The activity is aligned to Common Core K.CC.B.4, which connects counting to cardinality — understanding that the last number you count tells you how many there are in all. There is no timer and no score; children simply count, check, and try again as often as they like."
+    ],
+    "ten-frame.count-to-20.make-n.fruits": [
+      "Once children are comfortable counting to ten, the next step is to stretch their thinking to twenty. This free activity uses a double ten-frame and cheerful fruit counters so children can count from 0 to 20 while still seeing the all-important group of ten.",
+      "Seeing twenty as \"one full ten and some more\" is a quiet but crucial idea. It helps children count larger amounts without losing track, and it plants the seed for place value — the understanding that our whole number system is built around tens.",
+      "Aligned to Common Core K.CC.B.4, this activity extends cardinality past ten in a calm, hands-on way. Children place fruit into the frames, count the total, and get gentle feedback with no timer and no score."
+    ],
+    "ten-frame.how-many.0-10.animals": [
+      "\"How many do you see?\" is a question young children answer dozens of times a day, and this free activity turns it into playful practice. Children look at animal counters arranged on a ten-frame and decide how many are there, for amounts from 0 to 10.",
+      "Because the ten-frame organises the counters neatly, many children begin to recognise quantities at a glance — a skill called subitising — instead of counting each one. That instant recognition is a sign that real number sense is taking hold.",
+      "The activity is aligned to Common Core K.CC.B.5: counting to answer \"how many?\" There is no timer and no score, so children can take all the time they need to look, count, and feel sure of their answer."
+    ],
+    "ten-frame.write-numeral.0-20.fruits": [
+      "Connecting a quantity to the written numeral is a key early-writing-in-math skill, and this free activity makes the link clear. Children count fruit on a double ten-frame and then write the matching number from 0 to 20.",
+      "Moving from \"I can see fifteen pieces of fruit\" to \"I can write the numeral 15\" ties together two ways of representing the same idea. The ten-frame keeps the quantity visible and organised, so the number a child writes always has a concrete picture behind it.",
+      "Aligned to Common Core K.CC.A.3 — representing a number of objects with a written numeral — the activity gives gentle, immediate feedback with no timer and no score, so writing numbers stays a relaxed, confidence-building experience."
+    ],
+    "ten-frame.teen-numbers.make-n": [
+      "The teen numbers, eleven through nineteen, trip up a lot of young learners, because their names do not always match how they are written. This free activity uses a double ten-frame to show every teen number as exactly what it is: one full ten and some extra ones.",
+      "When a child builds fourteen as a complete ten plus four more, the structure of the number becomes obvious. This \"ten and some ones\" view is the single most important idea for understanding place value, and it makes later addition and subtraction far easier.",
+      "Aligned to Common Core K.NBT.A.1, the activity lets children build each teen number at their own pace, with warm feedback and no timer or score. It is a small activity that quietly unlocks a very big idea."
+    ]
+  }
+}

@@ -54,7 +54,17 @@ var TAXONOMY = require(path.join(__dirname, '..', '..', 'frontend', 'config', 't
  */
 function localizeAxisKey(axis, key, locale) {
   if (!key) return null;
-  var entry = TAXONOMY.axes[axis] && TAXONOMY.axes[axis][key];
+  var axisEntries = TAXONOMY.axes[axis];
+  var entry = axisEntries && axisEntries[key];
+  // Case-insensitive fallback: a few apps emit camelCase exercise_mode
+  // tokens (big-small → findBig / orderAsc) while taxonomy keys are
+  // lowercase (findbig / orderasc). Only triggers when exact-match fails,
+  // so the live publish path is unaffected; EN result is unchanged because
+  // slug.en === axis-key verbatim (taxonomy invariant).
+  if ((!entry || !entry.slug) && axisEntries && typeof key === 'string') {
+    var lowerKey = key.toLowerCase();
+    if (axisEntries[lowerKey] && axisEntries[lowerKey].slug) entry = axisEntries[lowerKey];
+  }
   if (!entry || !entry.slug) {
     console.warn('[slug] WARN: no taxonomy entry for axis=' + axis + ' key=' + key + '; falling back to bare key');
     return key;

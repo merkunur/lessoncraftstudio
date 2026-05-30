@@ -24,6 +24,7 @@
  */
 
 import { listAllActivities, ActivityRow } from './activities';
+import { buildHreflangAlternates } from './seo/hreflang';
 
 export interface StandardMetadata {
   /** The full CC code, e.g. "K.CC.B.4" — case-sensitive identifier. */
@@ -143,29 +144,13 @@ export function hreflangAlternatesForCode(
   locales: readonly string[],
   baseUrl: string,
 ): Record<string, string> {
-  // Mirror activities.ts:hreflangAlternatesForRow — `pt` → `pt-BR` per
-  // CLAUDE.md §6 hreflang convention.
-  const HREFLANG_MAP: Record<string, string> = {
-    en: 'en',
-    de: 'de',
-    fr: 'fr',
-    es: 'es',
-    pt: 'pt-BR',
-    it: 'it',
-    nl: 'nl',
-    sv: 'sv',
-    da: 'da',
-    no: 'no',
-    fi: 'fi',
-  };
-  const out: Record<string, string> = {};
-  for (const loc of locales) {
-    out[HREFLANG_MAP[loc] || loc] =
-      `${baseUrl}/${loc}/standards/${codeUrlSegment(code)}`;
-  }
-  out['x-default'] =
-    out['en'] || out['en-US'] || Object.values(out)[0] || baseUrl;
-  return out;
+  // hreflang map is the single SoT at @/lib/seo/hreflang. CC codes are
+  // universal identifiers (not translated), so every locale gets a URL.
+  return buildHreflangAlternates(
+    locales,
+    (loc) => `${baseUrl}/${loc}/standards/${codeUrlSegment(code)}`,
+    baseUrl,
+  );
 }
 
 /**

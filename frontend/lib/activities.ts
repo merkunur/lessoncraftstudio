@@ -16,6 +16,7 @@
 import fs from 'fs/promises';
 import path from 'path';
 import { TOPIC_ENABLED_LOCALES, TopicEnabledLocale } from '@/config/topic-locales';
+import { buildHreflangAlternates } from './seo/hreflang';
 
 export interface ActivityAlignment {
   framework: string;
@@ -135,22 +136,13 @@ export function hreflangAlternatesForRow(
   row: ActivityRow,
   baseUrl: string
 ): Record<string, string> {
-  // hreflang KEY must be the hreflang code (pt → pt-BR per CLAUDE.md §6),
-  // not the bare locale code. Mirrors `frontend/lib/schema-generator.ts:
-  // hreflangMap` inline (avoiding cross-lib import).
-  const HREFLANG_MAP: Record<string, string> = {
-    en: 'en', de: 'de', fr: 'fr', es: 'es',
-    pt: 'pt-BR',
-    it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi',
-  };
-  const out: Record<string, string> = {};
-  for (const loc of TOPIC_ENABLED_LOCALES) {
-    const s = row.slug[loc];
-    // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
-    if (s) out[HREFLANG_MAP[loc] || loc] = `${baseUrl}/${loc}/activities/${s}`;
-  }
-  out['x-default'] = out['en'] || out['en-US'] || Object.values(out)[0] || baseUrl;
-  return out;
+  // hreflang map is the single SoT at @/lib/seo/hreflang (pt → pt-BR per §6).
+  // No trailing slash — Next.js routes per next.config.js trailingSlash:false.
+  return buildHreflangAlternates(
+    TOPIC_ENABLED_LOCALES,
+    (loc) => (row.slug[loc] ? `${baseUrl}/${loc}/activities/${row.slug[loc]}` : null),
+    baseUrl,
+  );
 }
 
 export function isTopicEnabledLocale(l: string): l is TopicEnabledLocale {

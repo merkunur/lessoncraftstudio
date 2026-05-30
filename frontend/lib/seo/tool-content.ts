@@ -161,3 +161,18 @@ export async function hreflangAlternatesForTool(toolKey: ToolKey, baseUrl: strin
     baseUrl,
   );
 }
+
+/**
+ * Locales where this tool has a slug declared — the honest-filter set that
+ * mirrors `hreflangAlternatesForTool`. Consumed by the tool page to build
+ * `og:locale:alternate` so the OG locale set matches the hreflang set.
+ */
+export async function existingToolLocales(toolKey: ToolKey): Promise<string[]> {
+  const out: string[] = [];
+  for (const locale of TOPIC_ENABLED_LOCALES) {
+    const file = await loadLocale(locale);
+    const entry = file && file[toolKey];
+    if (entry && entry.slug) out.push(locale);
+  }
+  return out;
+}

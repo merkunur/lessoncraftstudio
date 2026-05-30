@@ -408,6 +408,7 @@ v1 launch is **not** trying to achieve substantial organic search traffic (comes
 - Small commits with clear messages
 - Test in existing dev environment before saying done
 - Document new components/modules with brief JSDoc/TS comments
+- **SEO is implied on every publish.** When the operator says publish/add new decks, interactive worksheets, activities, or tools, the FULL SEO treatment per **§21** is automatic and non-negotiable — NEVER ask whether to make it indexable, write alt-text, emit JSON-LD/hreflang, or author per-locale metadescriptions. Run the §21 per-type standard without being asked.
 
 **Commit hygiene.** In-session-commit rule applies to git-tracked files. `MEMORY.md` index + `memory/` directory at `C:\Users\rkgen\.claude\projects\C--Users-rkgen-lessoncraftstudio\memory\`, `CONVERSATION-HANDOFF.md`, `CLAUDE-MD-UPDATES.md` are out-of-tree handoff artifacts; persist at filesystem level without commits; don't `git add` them.
 
@@ -1630,6 +1631,80 @@ After E8 reaches ≥4 locales (ES+FI+PT+FR) + operator approval, next is **E9 So
 **Backlog (deferred, operator-strategic):** `[FIX][DATA]` vocab-phonics count drift on río + iã+o classes (~13 ES + PT words; safety floor catches them; proof sets shipped without these words; clean correction would re-enable them).
 
 **Do not jump ahead. Await the next prompt from PM Claude.**
+
+---
+
+## 21. Content Publishing SEO Standard (standing doctrine)
+
+**The platform's content is published in waves of the SAME few types** — decks, interactive worksheets, activities, tools. The full SEO treatment for each type is **already automatic by construction** (template-derived, not per-item authored). This section is the standing contract so that "publish these X" implies the entire treatment **without the operator ever re-stating it**.
+
+### 21.0 The standing trigger (also in §10.4)
+
+> When the operator says **publish / add new decks, interactive worksheets, activities, or tools**, the FULL SEO treatment is implied and non-negotiable. **NEVER ask** whether to make it indexable, write alt-text, emit JSON-LD, declare hreflang, author per-locale titles/metadescriptions, or add it to the sitemap. Execute the per-type standard below automatically, then run the per-type verification.
+
+Corollary: the heavy SEO work needs **no per-item authoring**. Per-locale titles, descriptions, and alt-text are **derived** from manifests + shared i18n tables + `image-vocabulary.js`. Employing native-expert linguists per item is **wrong** — it's needed only for a new TYPE or new LOCALE (§21.3).
+
+### 21.1 What is automatic per type (do NOT rebuild — just run it)
+
+| Surface | Indexable mechanism | Title / description / alt-text | JSON-LD | hreflang | Sitemap |
+|---|---|---|---|---|---|
+| **Deck / interactive worksheet** | self-contained `deck.html` at `/<locale>/decks/<native-slug>/` (nginx) | template-built ×locale from manifest; **alt-text from `image-vocabulary.js`**; sr-only from `exercises[]` | `LearningResource` + `ImageObject` (§17.8.1) | cross-locale sibling block via content_family_id (§17.8.7) | shards 0/1 auto (ID-parity, DB-driven) |
+| **Activity** | SSR page `/<locale>/activities/<slug>/` (ISR 3600) | from `*-activities.json` row + 3-tier prose fallback | `LearningResource` + `FAQPage` + `educationalAlignment` | `buildHreflangAlternates` over row slugs | shard 3 (manifest enum) |
+| **Tool (manipulative)** | SSR page `/<locale>/tools/<slug>/` (ISR), iframe child is the tool | from `messages/tool-content/<locale>.json` | `LearningResource` w/ `learningResourceType: Manipulative` | `hreflangAlternatesForTool` | shard 3 (content enum) |
+
+All three: one global `robots` indexes everything; private surfaces (`/admin`, `/member`, dashboards) carry `noindex`. The hreflang map is a **single SoT** at `frontend/lib/seo/hreflang.ts` (`HREFLANG_MAP`, `getHreflangCode`, `buildHreflangAlternates`; `pt→pt-BR`, `es` stays `es`, x-default→en). Never re-inline it.
+
+### 21.2 What I run automatically on "publish decks" (the formerly-manual steps)
+
+Decks are the one type with post-publish finalization steps. **`scripts/publish-cli/publish-wave.js` is THE entry point** — it runs all of them so none is ever forgotten:
+
+1. **Pre-flight** — §A.14.8 manifest checklist (`rewrite-manifest-theme.js --dry-run`); HALT on theme-emit defect (operator salvages, then re-run). Never auto-mutates ZIPs.
+2. **Publish** — `index.js publish-bulk --confirm` (its own dry-run + §15.16 + §17.8.17 HALT gates; native slug, canonical, OG, JSON-LD, alt-text, title/desc hashes all emitted here).
+3. **OG images** — `regenerate-og-images.js --locales=<wave>` (two-column composite + XMP, §17.8.19).
+4. **Hreflang** — `populate-and-inject-hreflang.js --confirm --locales=<wave>` (cross-locale siblings).
+5. **Audit** — `audit-deck-html.js --locales=<wave>` (10 invariants, §A.14.9).
+
+Invocation (Hetzner, env loaded):
+```
+node scripts/publish-cli/publish-wave.js <staging-folder> --locales=<csv> --confirm
+```
+Without `--confirm` it previews the whole wave (dry-run) and publishes nothing.
+
+Activities + tools have **no** post-publish finalization — adding a manifest row / content-file entry is the whole publish. After deploy, run the verifier (§21.4).
+
+### 21.3 Native-expert-linguist trigger (when per-locale authoring IS needed)
+
+Per-locale **content/i18n authoring** (not per-item — the items are template-derived) is required ONLY when introducing:
+- a **new content TYPE** (its one-time i18n tables, prose templates, JSON-LD shape, route, sitemap shard wiring), or
+- a **new LOCALE** (its slot in every shared table + `tool-content`/`*-activities.json`/taxonomy maps).
+
+In those cases, automatically employ the **§A.13.48 native-expert-ensemble-per-locale discipline** (3-agent native ensemble: linguist + marketing + K-3 educator, plan-mode per locale) and the §A.13.49 curriculum-framework squiggle table. Do **not** invoke this for ordinary content waves of an existing type in existing locales.
+
+### 21.4 Verification standard (run after every publish/deploy)
+
+| Type | Verifier |
+|---|---|
+| Deck | `audit-deck-html.js` (auto via publish-wave step 5) + live curl spot-check (200 + grep `<title>` / `og:image`) |
+| Activity | `node scripts/audit-activity-pages.js --out=docs/audit-results` (≥200 words, LearningResource JSON-LD, single h1, mesh links, no locale-leak) |
+| Tool | `node scripts/audit-tool-pages.js --out=docs/audit-results` (same floor + Manipulative type; 33/33 must pass) |
+
+Remember Cloudflare 5-min TTL (§15.8) before edge reflects new bytes.
+
+### 21.5 Hand-maintained sync points (the only places adding content touches code)
+
+After the standardization arc, the hreflang map and `LIVE_TOOL_SLUGS` are **auto-derived** (no longer hand-edited). The remaining hand-maintained points:
+
+- **New theme** → `frontend/config/topics-taxonomy.json` (`axes.theme.<key>.slug.<locale>` + name) per §16.5.1.
+- **New noun in art** → `REFERENCE TRANSLATIONS/image-vocabulary.js` (11 locales × sing/plural/gender) — operator-approved only (§10.3); this is what makes deck alt-text automatic.
+- **New tool** → add its key to `TOOL_KEYS` (in `live-tool-slugs.ts` + `audit-tool-pages.js` + `tool-content.ts`) and a `messages/tool-content/<locale>.json` entry per locale; `LIVE_TOOL_SLUGS` + sitemap + middleware carve-out then flow automatically.
+- **New activity** → add a row to the relevant `frontend/public/mini-tools/*-activities.json` (per-locale slug/title); route + sitemap + JSON-LD + mesh flow automatically.
+- **New locale** → §21.3 native-ensemble; add its slot to every shared table + `LOADERS`.
+
+### 21.6 Worksheet-app SEO chrome
+
+The 29 worksheet generators emit deck.html SEO chrome via the content-locale-direct `_seoT` helper (§A.13.46), never per-app `_t`, so generated decks carry correct per-locale SEO regardless of operator UI language. Any new app port or SEO-emission refactor uses the `_seoT` shape verbatim.
+
+Origin: Content Publishing SEO Standardization arc 2026-05-30 (hreflang SoT + auto-derived LIVE_TOOL_SLUGS + tool-page guardrail + publish-wave orchestrator + this doctrine).
 
 ---
 

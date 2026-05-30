@@ -21,6 +21,8 @@
  *   - Tier 4 Nordic (da) NSR-flag
  */
 
+import { buildHreflangAlternates } from './seo/hreflang';
+
 export interface Manipulative {
   id: string;
   mini_tool_url: string;
@@ -255,20 +257,12 @@ export const LANDING_STRINGS: Record<string, {
  * topic-enabled locale (all 11). Used by generateMetadata in the route.
  */
 export function landingHreflangAlternates(baseUrl: string): Record<string, string> {
-  // Inline pt → pt-BR mapping mirrors `frontend/lib/schema-generator.ts:
-  // hreflangMap` (kept here to avoid a heavier dependency on that module
-  // from a lib that's imported by activity tooling). Update both maps
-  // together if mapping changes.
-  const HREFLANG_MAP: Record<string, string> = {
-    en: 'en', de: 'de', fr: 'fr', es: 'es',
-    pt: 'pt-BR',
-    it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi',
-  };
-  const out: Record<string, string> = {};
-  // No trailing slash — Next.js routes per `next.config.js: trailingSlash: false`.
-  for (const loc of ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"]) {
-    out[HREFLANG_MAP[loc] || loc] = `${baseUrl}/${loc}/tools`;
-  }
-  out["x-default"] = `${baseUrl}/en/tools`;
-  return out;
+  // hreflang map is the single SoT at @/lib/seo/hreflang (pt → pt-BR per §6).
+  // The /tools landing exists in all 11 locales. No trailing slash — Next.js
+  // routes per next.config.js trailingSlash:false.
+  return buildHreflangAlternates(
+    ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"],
+    (loc) => `${baseUrl}/${loc}/tools`,
+    `${baseUrl}/en/tools`,
+  );
 }

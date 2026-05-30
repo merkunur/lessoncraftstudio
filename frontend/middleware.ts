@@ -91,22 +91,14 @@ function return410(): NextResponse {
 const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|start|blog|compare|gallery|teaching-packages|lesson-plans|flashcards|themed-bundles)(?:\/.*)?$/;
 
 /**
- * Native-language URL slugs of the 3 LIVE manipulative landing pages
- * (ten-frame, number-line, ruler) across all 11 locales. Mirrors
- * frontend/messages/tool-content/<locale>.json (SoT). `/<locale>/tools/<slug>`
- * for any slug in this set is carved out of the 410 teardown in
- * isRemovedRoute(); every other /tools/<slug> stays 410.
+ * Native-language URL slugs of the live per-tool landing pages, AUTO-DERIVED
+ * from the tool-content files (SoT) by @/config/live-tool-slugs — no longer a
+ * hand-maintained set. `/<locale>/tools/<slug>` for any slug in this set is
+ * carved out of the 410 teardown in isRemovedRoute(); every other
+ * /tools/<slug> stays 410. Adding a tool or locale slug to tool-content now
+ * flows here automatically (kills the historical drift bug).
  */
-const LIVE_TOOL_SLUGS = new Set([
-  // ten-frame
-  'ten-frame', 'zehnerfeld', 'marco-de-diez', 'cadre-de-dix', 'tabella-del-dieci',
-  'quadro-de-dez', 'tienraam', 'tioram', 'tierramme', 'kymmenruudukko',
-  // number-line
-  'number-line', 'zahlenstrahl', 'recta-numerica', 'ligne-numerique', 'linea-dei-numeri',
-  'reta-numerica', 'getallenlijn', 'tallinje', 'lukusuora',
-  // ruler
-  'ruler', 'lineal', 'regla', 'regle', 'righello', 'regua', 'liniaal', 'linjal', 'viivain',
-]);
+import { LIVE_TOOL_SLUGS } from '@/config/live-tool-slugs';
 
 /**
  * Standalone removed paths (sitemap-related + pre-pivot relics).

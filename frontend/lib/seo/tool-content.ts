@@ -14,6 +14,7 @@
  * "zehnerfeld", fi number-line → "lukusuora".
  */
 import { TOPIC_ENABLED_LOCALES } from '@/config/topic-locales';
+import { buildHreflangAlternates } from './hreflang';
 
 /** Canonical tool keys — match the mini-tool file basenames + MANIPULATIVES ids. */
 export const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler'] as const;
@@ -142,19 +143,21 @@ export async function listToolSitemapEntries(): Promise<Array<{ locale: string; 
   return out;
 }
 
-/** hreflang code per locale (pt → pt-BR per §6); mirrors activities/manipulatives. */
-const HREFLANG_MAP: Record<string, string> = {
-  en: 'en', de: 'de', fr: 'fr', es: 'es', pt: 'pt-BR', it: 'it', nl: 'nl', sv: 'sv', da: 'da', no: 'no', fi: 'fi',
-};
-
-/** hreflang alternates for a tool across every locale where it has a slug. */
+/**
+ * hreflang alternates for a tool across every locale where it has a slug.
+ * hreflang map is the single SoT at @/lib/seo/hreflang (pt → pt-BR per §6).
+ * Async because slug presence per locale comes from the loaded content files.
+ */
 export async function hreflangAlternatesForTool(toolKey: ToolKey, baseUrl: string): Promise<Record<string, string>> {
-  const out: Record<string, string> = {};
+  const slugByLocale: Record<string, string | null> = {};
   for (const locale of TOPIC_ENABLED_LOCALES) {
     const file = await loadLocale(locale);
     const entry = file && file[toolKey];
-    if (entry && entry.slug) out[HREFLANG_MAP[locale] || locale] = `${baseUrl}/${locale}/tools/${entry.slug}`;
+    slugByLocale[locale] = entry && entry.slug ? entry.slug : null;
   }
-  out['x-default'] = out['en'] || Object.values(out)[0] || baseUrl;
-  return out;
+  return buildHreflangAlternates(
+    TOPIC_ENABLED_LOCALES,
+    (loc) => (slugByLocale[loc] ? `${baseUrl}/${loc}/tools/${slugByLocale[loc]}` : null),
+    baseUrl,
+  );
 }

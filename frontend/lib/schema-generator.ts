@@ -98,31 +98,15 @@ export const ogLocaleMap: Record<string, string> = {
 };
 
 /**
- * Hreflang mapping for language alternates
- * Uses regional code for Portuguese (Brazil) only
- * Spanish uses plain 'es' to serve ALL Spanish-speaking markets (not just Mexico)
+ * Hreflang mapping for language alternates.
+ * SINGLE SOURCE OF TRUTH now lives at `@/lib/seo/hreflang`; imported into scope
+ * here (this module uses getHreflangCode internally) AND re-exported for
+ * backwards-compat with existing importers (homepage, sitemap shards, static
+ * pages). Do NOT re-inline the map — edit hreflang.ts.
  */
-export const hreflangMap: Record<string, string> = {
-  en: 'en',
-  de: 'de',
-  fr: 'fr',
-  es: 'es',       // All Spanish-speaking markets (Spain, Mexico, Latin America)
-  pt: 'pt-BR',    // Brazilian Portuguese (97% of Portuguese speakers)
-  it: 'it',
-  nl: 'nl',
-  sv: 'sv',
-  da: 'da',
-  no: 'no',
-  fi: 'fi',
-};
-
-/**
- * Get the proper hreflang code for a locale
- * Converts internal locale codes to proper hreflang format
- */
-export function getHreflangCode(locale: string): string {
-  return hreflangMap[locale] || locale;
-}
+import { HREFLANG_MAP as _HREFLANG_MAP, getHreflangCode } from '@/lib/seo/hreflang';
+export { getHreflangCode };
+export const hreflangMap = _HREFLANG_MAP;
 
 // ── Static Page Schema Generator ─────────────────────────────────
 

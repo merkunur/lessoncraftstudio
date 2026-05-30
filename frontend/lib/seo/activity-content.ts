@@ -79,6 +79,46 @@ const LOADERS: Record<string, () => Promise<{ default: ActivityContentFile }>> =
     import('@/messages/activity-content/en.json') as unknown as Promise<{
       default: ActivityContentFile;
     }>,
+  de: () =>
+    import('@/messages/activity-content/de.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  es: () =>
+    import('@/messages/activity-content/es.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  fr: () =>
+    import('@/messages/activity-content/fr.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  it: () =>
+    import('@/messages/activity-content/it.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  pt: () =>
+    import('@/messages/activity-content/pt.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  nl: () =>
+    import('@/messages/activity-content/nl.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  sv: () =>
+    import('@/messages/activity-content/sv.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  da: () =>
+    import('@/messages/activity-content/da.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  no: () =>
+    import('@/messages/activity-content/no.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
+  fi: () =>
+    import('@/messages/activity-content/fi.json') as unknown as Promise<{
+      default: ActivityContentFile;
+    }>,
 };
 
 const _cache: Record<string, ActivityContentFile | null> = {};

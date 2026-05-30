@@ -36,6 +36,18 @@ const EN_LEAK_MARKERS = [
   'About this activity',
 ];
 
+// English CCSS strand/domain names that must NOT appear on a non-EN page
+// (visible chip/prose OR JSON-LD teaches/targetDescription). Keep in sync with
+// the keys in frontend/lib/seo/strand-names.ts. Audit P2-01 guardrail.
+const EN_STRAND_NAMES = [
+  'Counting & Cardinality',
+  'Operations & Algebraic Thinking',
+  'Geometry',
+  'Number & Operations in Base Ten',
+  'Number and Operations in Base Ten',
+  'Reading: Foundational Skills',
+];
+
 function parseArgs(argv) {
   const args = { locales: ALL_LOCALES, base: 'https://www.lessoncraftstudio.com', concurrency: 8, out: null };
   for (const a of argv.slice(2)) {
@@ -95,6 +107,10 @@ function checkPage(html, { locale, code, siblingLocaleCount = 0 }) {
     .filter((m) => !m.includes(`/${locale}/activities/`)).length;
 
   const leak = locale === 'en' ? [] : EN_LEAK_MARKERS.filter((m) => text.includes(m));
+  // Strand-leak guard (P2-01): check the FULL html (entity-decoded) so JSON-LD
+  // teaches/targetDescription is covered too — stripToText() removes <script>.
+  const htmlDecoded = html.replace(/&amp;/g, '&');
+  const strandLeak = locale === 'en' ? [] : EN_STRAND_NAMES.filter((s) => htmlDecoded.includes(s));
 
   const checks = {
     wordFloor: uniqWords >= WORD_FLOOR,
@@ -107,9 +123,10 @@ function checkPage(html, { locale, code, siblingLocaleCount = 0 }) {
     // locale activities (phonics) correctly have no translations to link.
     otherLanguageLink: siblingLocaleCount === 0 ? true : otherLangAnchor >= 1,
     noLocaleLeak: leak.length === 0,
+    noStrandLeak: strandLeak.length === 0,
   };
   const failed = Object.entries(checks).filter(([, v]) => !v).map(([k]) => k);
-  return { uniqWords, totalWords, h1Count, leak, checks, failed, pass: failed.length === 0 };
+  return { uniqWords, totalWords, h1Count, leak, strandLeak, checks, failed, pass: failed.length === 0 };
 }
 
 async function fetchText(url) {

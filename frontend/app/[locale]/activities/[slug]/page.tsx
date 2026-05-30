@@ -25,6 +25,7 @@ import { ActivityIframe } from '@/components/activities/ActivityIframe';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
+import { localizeStrand } from '@/lib/seo/strand-names';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 import { ogLocaleMap } from '@/lib/schema-generator';
@@ -209,14 +210,14 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
     learningResourceType: 'Interactive activity',
     educationalUse: 'interactive activity',
     educationalLevel: row.alignment.grade,
-    teaches: row.alignment.strand,
+    teaches: localizeStrand(row.alignment.strand, locale),
     isAccessibleForFree: true,
     image: `${CANONICAL_HOST}/og-homepage.png`,
     educationalAlignment: {
       '@type': 'AlignmentObject',
       alignmentType: 'educationalSubject',
       targetName: row.alignment.code,
-      targetDescription: row.alignment.strand,
+      targetDescription: localizeStrand(row.alignment.strand, locale),
       educationalFramework: 'Common Core State Standards',
     },
     audience: {
@@ -281,6 +282,10 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   const otherLangs = otherLocalesForRow(row, params.locale);
   const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
   const relatedHeading = RELATED_HEADING[params.locale] ?? RELATED_HEADING.en;
+  // Localized CCSS strand name (R4 / §20.8) — the raw English domain name
+  // (e.g. "Counting & Cardinality") was leaking into the chip + FAQ on non-EN
+  // pages. Feeds the visible chip + TopicFaq (FAQPage JSON-LD) below.
+  const localizedStrand = localizeStrand(row.alignment.strand, params.locale);
 
   // BreadcrumbList JSON-LD (R12) — mirrors the visible BreadcrumbTrail
   // (Home › Activities › title).
@@ -331,7 +336,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             <div className="inline-flex items-center gap-2 px-3 py-0.5 rounded-full bg-cream-100/80 text-teal-800 text-xs font-medium backdrop-blur-sm">
               <span>{localizedGrade}</span>
               <span className="text-teal-800/40">·</span>
-              <span className="hidden sm:inline">{row.alignment.strand}</span>
+              <span className="hidden sm:inline">{localizedStrand}</span>
               <span className="hidden sm:inline text-teal-800/40">·</span>
               {/* Code is clickable: navigates to the per-standard landing
                   page (/[locale]/standards/<code>) which aggregates every
@@ -489,7 +494,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             variant="activity"
             title={row.page_title[params.locale]}
             grade={localizedGrade}
-            strand={row.alignment.strand}
+            strand={localizedStrand}
             pageUrl={canonicalUrl(localePath(params.locale, 'activities', params.slug))}
           />
         </div>

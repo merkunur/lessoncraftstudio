@@ -25,6 +25,7 @@
  * 1000+ activities from collapsing into boilerplate duplicate content.
  */
 import type { ActivityRow } from '@/lib/activities';
+import { localizeStrand } from './strand-names';
 
 export interface ActivityContent {
   /** Lead editorial paragraphs (Tier 1 authored, else the by-strand "about"). */
@@ -189,7 +190,10 @@ export async function getActivityContent(
 
   const vars: Record<string, string> = {
     grade,
-    strand,
+    // Localized strand NAME for prose interpolation (R4 / §20.8). The raw
+    // English `strand` is still the byStrand template KEY below (must match the
+    // English keys in the content files); only the displayed value localizes.
+    strand: localizeStrand(strand, locale),
     code,
     theme,
     min: range ? String(range.min) : '',

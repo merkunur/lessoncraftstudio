@@ -5,31 +5,46 @@
  * Per CLAUDE.md §21 (Content Publishing SEO Standard): when the operator says
  * "publish these decks", the FULL SEO treatment is implied and automatic. This
  * orchestrator runs every step end-to-end so no step is ever forgotten or has to
- * be asked for:
+ * be asked for. The flow is one-command even for wordy non-EN waves:
  *
- *   0. PRE-FLIGHT  — §A.14.8 manifest checklist on the staged ZIPs (theme-emit
- *                    detection). Detection-only; HALTS on defect so the operator
- *                    can salvage (rewrite-manifest-theme.js) before anything is
- *                    published. Never auto-mutates ZIPs.
- *   1. PUBLISH     — index.js publish-bulk (its own dry-run pre-flight + the
+ *   0. PRE-FLIGHT  — §A.14.8 manifest theme reconciliation on the staged ZIPs
+ *                    (rewrite-manifest-theme.js --dry-run --themeless-ok
+ *                    --fail-on-rewrite). Detection-only; never auto-mutates.
+ *                    Legitimately-themeless decks (cryptogram) pass via
+ *                    --themeless-ok; recoverable theme-emit defects HALT (operator
+ *                    salvages, then re-runs) since PREBAND rebuilds SEO from the
+ *                    manifest theme.
+ *   1. PREBAND     — preband-staged-descriptions.js. Pre-publish re-band of the
+ *                    SEO <head>: descriptions to the 120-170 band (wordy locales
+ *                    overflow publish-bulk's 170-char HALT) + variant_id title
+ *                    disambiguation. Mutates the staged ZIPs (makes a backup);
+ *                    runs --dry-run in preview mode.
+ *   2. PUBLISH     — index.js publish-bulk (its own dry-run pre-flight + the
  *                    §15.16 + §17.8.17 HALT gates run inside; native slug ×11,
- *                    canonical, OG, JSON-LD, alt-text, hashes all emitted here).
- *   2. OG IMAGES   — regenerate-og-images.js (two-column composite + XMP).
- *   3. HREFLANG    — populate-and-inject-hreflang.js (cross-locale sibling block).
- *   4. AUDIT       — audit-deck-html.js (10 invariants) over the wave's locales.
+ *                    canonical, OG, JSON-LD, hashes all emitted here).
+ *   3. OG IMAGES   — regenerate-og-images.js (two-column composite + XMP).
+ *   4. ALT-TEXT    — rewrite-deck-html-alt-text.js (worksheet alt + app aria-label
+ *                    + deckend-thumb alts; the apps emit empty alt). Idempotent.
+ *   5. HREFLANG    — populate-and-inject-hreflang.js across the FULL 11-locale set
+ *                    (cross-locale sibling blocks need every locale, not just the
+ *                    wave's).
+ *   6. AUDIT       — audit-deck-html.js (invariants) over the wave's locales.
  *
- * RUNS ON HETZNER. Steps 1-4 read DATABASE_URL + /var/www/lcs-media/decks. Invoke
- * with the env loaded, e.g.:
+ * RUNS ON HETZNER. Steps 2-6 read DATABASE_URL + /var/www/lcs-media/decks; STEP 1
+ * reads DATABASE_URL too (existing-title collision check; skip with --no-db-check).
+ * Invoke with the env loaded, e.g.:
  *   cd /opt/lessoncraftstudio/frontend && set -a && source .env.production && set +a \
- *     && node ../scripts/publish-cli/publish-wave.js <staging-folder> --locales=en,de --confirm
+ *     && node ../scripts/publish-cli/publish-wave.js <staging-folder> --locales=fr --confirm
  *
- * Without --confirm every step runs in dry-run/report mode (publishes NOTHING) so
- * you can preview the whole wave. With --confirm it publishes for real.
+ * Without --confirm every step runs in dry-run/report mode (publishes NOTHING and
+ * mutates NOTHING — PREBAND previews) so you can preview the whole wave. With
+ * --confirm it publishes for real.
  *
  * Usage:
  *   node scripts/publish-cli/publish-wave.js <staging-folder> --locales=<csv> [--confirm]
  *        [--decks-root=<path>] [--updates-manifest=<path>] [--batch-id=<id>]
- *        [--skip-preflight] [--skip-audit]
+ *        [--skip-preflight] [--skip-preband] [--skip-alt-text] [--skip-audit]
+ *        [--no-db-check]
  *
  * Exit 0 only if every executed step succeeds; non-zero (and STOPS) at the first
  * failing step, naming it.
@@ -42,6 +57,11 @@ const { execFileSync } = require('child_process');
 const HERE = __dirname;
 const NODE = process.execPath;
 
+// Cross-locale hreflang siblings need the FULL published-locale set, not just
+// the wave's locales — passing only the wave locale makes STEP 5 a no-op for
+// cross-locale linking. The canonical 11 per §6.
+const HREFLANG_LOCALES = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+
 function parseArgs(argv) {
   const args = {
     folder: null,
@@ -51,12 +71,18 @@ function parseArgs(argv) {
     updatesManifest: null,
     batchId: null,
     skipPreflight: false,
+    skipPreband: false,
+    skipAltText: false,
     skipAudit: false,
+    noDbCheck: false,
   };
   for (const a of argv.slice(2)) {
     if (a === '--confirm') args.confirm = true;
     else if (a === '--skip-preflight') args.skipPreflight = true;
+    else if (a === '--skip-preband') args.skipPreband = true;
+    else if (a === '--skip-alt-text') args.skipAltText = true;
     else if (a === '--skip-audit') args.skipAudit = true;
+    else if (a === '--no-db-check') args.noDbCheck = true;
     else if (a === '--help' || a === '-h') args.help = true;
     else if (a.startsWith('--locales=')) args.locales = a.slice('--locales='.length).split(',').map((s) => s.trim()).filter(Boolean);
     else if (a.startsWith('--decks-root=')) args.decksRoot = a.slice('--decks-root='.length);
@@ -86,9 +112,13 @@ Options:
   --updates-manifest=<p>  UPDATE-mode manifest passed through to publish-bulk
   --batch-id=<id>         batch id passed through to publish-bulk
   --skip-preflight        skip the §A.14.8 manifest pre-flight (NOT recommended)
+  --skip-preband          skip the pre-publish SEO re-band (NOT recommended for non-EN)
+  --skip-alt-text         skip the post-publish alt-text retrofit (NOT recommended)
   --skip-audit            skip the post-publish deck.html audit
+  --no-db-check           pass through to PREBAND (skip existing-title collision check)
 
-Runs on Hetzner with DATABASE_URL + .env.production loaded.`);
+Runs on Hetzner with DATABASE_URL + .env.production loaded.
+hreflang (STEP 5) always uses the full 11-locale set regardless of --locales.`);
 }
 
 let STEP = 0;
@@ -133,20 +163,34 @@ function main() {
 
   if (!zipCount) { console.error('ERROR: no .zip files in staging folder.'); process.exit(2); }
 
-  // STEP 0 — PRE-FLIGHT: §A.14.8 manifest checklist (detection only; halt on defect).
-  // rewrite-manifest-theme.js --dry-run classifies every ZIP and exits non-zero on
-  // any halt-class (theme-emit defect). We deliberately do NOT auto-rewrite — the
-  // operator salvages, then re-runs the wave.
+  // STEP 0 — PRE-FLIGHT: §A.14.8 manifest theme reconciliation (detection only;
+  // never auto-mutates). --themeless-ok waves legitimately-themeless decks
+  // (cryptogram) through; --fail-on-rewrite halts on recoverable theme-emit
+  // defects so the operator salvages BEFORE PREBAND (which rebuilds SEO from the
+  // manifest theme). halt-ambiguous / halt-seometa / corruption still halt.
   if (!args.skipPreflight) {
-    runStep('PRE-FLIGHT — manifest theme reconciliation (§A.14.8)', 'rewrite-manifest-theme.js', [args.folder, '--dry-run']);
+    runStep('PRE-FLIGHT — manifest theme reconciliation (§A.14.8)', 'rewrite-manifest-theme.js', [args.folder, '--dry-run', '--themeless-ok', '--fail-on-rewrite']);
   } else {
     console.log('\n(skipping pre-flight per --skip-preflight)');
   }
 
-  // STEP 1 — PUBLISH. publish-bulk runs its own dry-run pre-flight + reconciliation
+  // STEP 1 — PREBAND: pre-publish SEO <head> re-band on the staged ZIPs. Bands
+  // descriptions into 120-170 (wordy locales overflow publish-bulk's 170-char
+  // HALT) + disambiguates colliding titles via variant_id, preserving the
+  // __CANONICAL_URL__ placeholder. In --confirm it MUTATES the ZIPs (makes a
+  // .preband-backup, idempotent); in dry-run it previews only (no mutation).
+  if (!args.skipPreband) {
+    const prebandArgs = [args.folder];
+    if (!args.confirm) prebandArgs.push('--dry-run');
+    if (args.noDbCheck) prebandArgs.push('--no-db-check');
+    runStep(`PREBAND — preband-staged-descriptions (${args.confirm ? 'apply' : 'dry-run'})`, 'preband-staged-descriptions.js', prebandArgs);
+  } else {
+    console.log('\n(skipping pre-publish SEO re-band per --skip-preband)');
+  }
+
+  // STEP 2 — PUBLISH. publish-bulk runs its own dry-run pre-flight + reconciliation
   // HALT gates internally (§15.13, §15.16, §17.8.17). --confirm publishes; otherwise
-  // --dry-run previews. Native slug / canonical / OG / JSON-LD / alt-text / hashes
-  // are all emitted in this step.
+  // --dry-run previews. Native slug / canonical / OG / JSON-LD / hashes emitted here.
   const publishArgs = [
     'publish-bulk',
     args.folder,
@@ -159,20 +203,32 @@ function main() {
   // The post-publish steps only make sense once decks actually exist on disk/DB.
   if (!args.confirm) {
     console.log(`\n${'─'.repeat(64)}`);
-    console.log('DRY-RUN complete. publish-bulk previewed above. Post-publish steps');
-    console.log('(og-images, hreflang, audit) are skipped in dry-run because they');
-    console.log('operate on already-published decks. Re-run with --confirm to publish');
-    console.log('the wave and run the full SEO finalization automatically.');
+    console.log('DRY-RUN complete. NOTE: STEP 1 PREBAND ran in preview mode (it did NOT');
+    console.log('mutate the staged ZIPs), so publish-bulk above operated on UN-prebanded');
+    console.log('ZIPs — any DESCRIPTION_LENGTH_TOO_LONG / TITLE_NON_UNIQUE errors it');
+    console.log('reported are EXPECTED and are auto-fixed by PREBAND under --confirm.');
+    console.log('Post-publish steps (og-images, alt-text, hreflang, audit) are skipped in');
+    console.log('dry-run. Re-run with --confirm to publish + run the full SEO finalization.');
     process.exit(0);
   }
 
-  // STEP 2 — OG IMAGES (two-column composite + XMP) for the wave's locales.
+  // STEP 3 — OG IMAGES (two-column composite + XMP) for the wave's locales.
   runStep('OG IMAGES — regenerate-og-images', 'regenerate-og-images.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
 
-  // STEP 3 — HREFLANG cross-locale sibling injection.
-  runStep('HREFLANG — populate-and-inject-hreflang', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  // STEP 4 — ALT-TEXT retrofit (worksheet alt + app aria-label + deckend-thumb
+  // alts). The apps emit empty body alt; this fills it. Idempotent; preserves an
+  // already-injected hreflang block (STEP 5 runs after, so no conflict).
+  if (!args.skipAltText) {
+    runStep('ALT-TEXT — rewrite-deck-html-alt-text', 'rewrite-deck-html-alt-text.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  } else {
+    console.log('\n(skipping alt-text retrofit per --skip-alt-text)');
+  }
 
-  // STEP 4 — POST-PUBLISH AUDIT (10 invariants) over the wave's locales.
+  // STEP 5 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
+  // set (siblings span every locale; passing only the wave locale is a no-op).
+  runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`]);
+
+  // STEP 6 — POST-PUBLISH AUDIT over the wave's locales.
   if (!args.skipAudit) {
     runStep('AUDIT — audit-deck-html', 'audit-deck-html.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {
@@ -181,9 +237,10 @@ function main() {
 
   console.log(`\n${'═'.repeat(64)}`);
   console.log('✓ WAVE COMPLETE — decks published with full SEO treatment:');
-  console.log('  native slug ×locale · canonical · OG (14 tags + composite image)');
-  console.log('  · LearningResource+ImageObject JSON-LD · alt-text · cross-locale');
-  console.log('  hreflang · sitemap (auto via ID-parity shard) · audited.');
+  console.log('  native slug ×locale · canonical · banded description · disambiguated');
+  console.log('  title · OG (14 tags + composite image) · LearningResource+ImageObject');
+  console.log('  JSON-LD · rich alt-text · cross-locale hreflang · sitemap (auto via');
+  console.log('  ID-parity shard) · audited.');
   console.log(`${'═'.repeat(64)}\n`);
   console.log('Next: spot-check a few live deck URLs (curl 200 + grep <title>/og:image),');
   console.log('and remember Cloudflare 5-min TTL before edge reflects new bytes.');

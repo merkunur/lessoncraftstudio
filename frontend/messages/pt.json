@@ -2415,6 +2415,636 @@
           "q": "Em quais idiomas estão disponíveis?",
           "a": "Estão disponíveis nos 11 idiomas em que publicamos, então você usa o tema na língua da sua turma."
         }
+      ],
+      "kindergarten__pattern-train": [
+        {
+          "q": "O que as atividades de trem de padrões trabalham na pré-escola?",
+          "a": "Reconhecer e continuar padrões de figuras que se repetem, uma base do pensamento matemático para 5-7 anos, totalmente com imagens e sem leitura."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "addition__kindergarten": [
+        {
+          "q": "Estas atividades de adição servem para a pré-escola?",
+          "a": "Sim, são somas pequenas e com apoio de imagens para 5-7 anos, de forma lúdica e sem cálculo formal; a ideia é juntar e contar."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__subtraction": [
+        {
+          "q": "As atividades de subtração servem para a pré-escola?",
+          "a": "Sim, é a ideia de tirar com apoio de imagens para 5-7 anos, de forma lúdica e sem cálculo formal, com as figuras mantendo o foco na ideia de quantos sobram."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__math-worksheet": [
+        {
+          "q": "Que matemática estas atividades de pré-escola cobrem?",
+          "a": "Sentenças matemáticas simples, problemas com número que falta e pequenas somas e diferenças para 5-7 anos, com apoio de imagens."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "more-less__preschool": [
+        {
+          "q": "As atividades de mais ou menos servem para a creche?",
+          "a": "Sim, é a comparação de qual tem mais com imagens, para 3-5 anos, sem precisar ler nem escrever."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__sudoku": [
+        {
+          "q": "O sudoku ilustrado serve para a pré-escola?",
+          "a": "Sim, é uma grade 4x4 de figuras que ensina dedução de verdade para 5-7 anos, sem precisar ler nem usar números."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grade-1__math-puzzle": [
+        {
+          "q": "As atividades de quebra-cabeça matemático servem para o 1º ano?",
+          "a": "Sim, são quebra-cabeças de números do tipo arrastar-e-completar, que constroem senso numérico e planejamento para 6-8 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "code-addition__kindergarten": [
+        {
+          "q": "O que as atividades de adição com código trabalham na pré-escola?",
+          "a": "Associar símbolos a quantidades bem pequenas e juntar, de forma lúdica, descobrindo uma palavra escondida; para 5-7 anos, sem cálculo formal."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "big-small__preschool": [
+        {
+          "q": "As atividades de grande ou pequeno servem para a creche?",
+          "a": "Sim, é a comparação e a ordenação por tamanho com imagens, para 3-5 anos, sem precisar ler."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__shadow-match": [
+        {
+          "q": "O que as atividades de pareamento de sombras trabalham na pré-escola?",
+          "a": "Ligar objetos às suas sombras, reconhecendo forma e contorno, para 5-7 anos, totalmente com imagens."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__odd-one-out": [
+        {
+          "q": "O que as atividades de qual é diferente constroem na pré-escola?",
+          "a": "Classificação e raciocínio, achando (e explicando) a figura que não combina, para 5-7 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__picture-sort": [
+        {
+          "q": "O que as atividades de ordenar imagens ensinam na pré-escola?",
+          "a": "Separar e classificar figuras por categoria, lógica e vocabulário iniciais para 5-7 anos, sem precisar ler."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "4th_of_july__grade-1": [
+        {
+          "q": "O que estas atividades de 4 de Julho cobrem no 1º ano?",
+          "a": "Adição e subtração até 20, leitura e trabalho com palavras, classificação e lógica, sobre um conjunto de figuras comemorativas, para 6-8 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__prepositions": [
+        {
+          "q": "O que as atividades de preposições ensinam na pré-escola?",
+          "a": "Palavras de posição (em, sobre, embaixo, ao lado) por meio de escolhas em figuras, vocabulário espacial para 5-7 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "cryptogram__kindergarten": [
+        {
+          "q": "O que as atividades de criptograma trabalham na pré-escola?",
+          "a": "Reconhecer a letra e as primeiras ideias de escrita por um código de figura e símbolo, com uma palavra para descobrir; para 5-7 anos, de forma lúdica."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grade-1__treasure-hunt": [
+        {
+          "q": "O que as atividades de caça ao tesouro trabalham no 1º ano?",
+          "a": "Seguir instruções em vários passos e raciocínio espacial em uma grade, para 6-8 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "4th_of_july__treasure-hunt": [
+        {
+          "q": "O que estas atividades trabalham?",
+          "a": "Seguir instruções e raciocínio espacial em uma grade, com o tema de 4 de Julho, para a faixa de educação infantil ao 2º ano."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "find-objects__kindergarten": [
+        {
+          "q": "O que as atividades de encontre os objetos trabalham na pré-escola?",
+          "a": "Discriminação visual, atenção aos detalhes e vocabulário, uma caça em uma cena, para 5-7 anos, sem precisar ler."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__missing-pieces": [
+        {
+          "q": "O que as atividades de peças faltantes constroem na pré-escola?",
+          "a": "Percepção de forma, discriminação visual e o raciocínio de comparar antes de escolher, para 5-7 anos, um quebra-cabeça em imagens, sem precisar ler."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__word-guess": [
+        {
+          "q": "O que as atividades de adivinhe a palavra trabalham na pré-escola?",
+          "a": "Reconhecimento da letra e primeiras ideias de sons; a criança preenche os espaços para formar uma palavra ilustrada, para 5-7 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grade-1__word-scramble": [
+        {
+          "q": "O que as atividades de letras embaralhadas trabalham no 1º ano?",
+          "a": "Reordenar letras para formar palavras conhecidas, fortalecendo a consciência de sons, a memória das letras e a escrita correta, para 6-8 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__matching": [
+        {
+          "q": "O que as atividades de pareamento constroem na pré-escola?",
+          "a": "Associação um a um, atenção visual e vocabulário, ligando figuras aos seus pares, para 5-7 anos."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__picture-path": [
+        {
+          "q": "O que as atividades de caminho ilustrado trabalham na pré-escola?",
+          "a": "Traçar um caminho pela grade, raciocínio espacial e o pensamento passo a passo, para 5-7 anos, totalmente com imagens."
+        },
+        {
+          "q": "Estas atividades são grátis?",
+          "a": "Sim, todas são grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas elas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "find-and-count__preschool": [
+        {
+          "q": "As atividades de encontre e conte servem para a creche?",
+          "a": "Sim. A criança observa uma cena pequena, encontra as figuras pedidas e conta quantas há, até cerca de cinco; sem precisar ler, ideal para 3-5 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "4th_of_july__kindergarten": [
+        {
+          "q": "O que as atividades de 4 de Julho trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecer de forma lúdica a letra inicial, sobre figuras comemorativas como bandeiras e fogos; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "bingo__kindergarten": [
+        {
+          "q": "O que o bingo trabalha na pré-escola?",
+          "a": "Reconhecimento de figuras, atenção visual e vocabulário; a criança ouve a figura chamada e marca no cartão, de forma lúdica, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "animals__kindergarten": [
+        {
+          "q": "O que tem na página de atividades de animais para a pré-escola?",
+          "a": "Atividades com o tema animais para contar, classificar, parear, qual é diferente e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "flowers__kindergarten": [
+        {
+          "q": "O que as atividades de flores trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como tulipa, rosa e girassol; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grade-1__wordsearch": [
+        {
+          "q": "As atividades de caça-palavras servem para o 1º ano?",
+          "a": "Sim. São caçadas de palavras curtas, com apoio de imagens, que desenvolvem o reconhecimento de letras, a varredura e o vocabulário, para 6-8 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grid-match__kindergarten": [
+        {
+          "q": "O que o pareamento em grade desenvolve na pré-escola?",
+          "a": "Pareamento visual, noção de posição e memória de trabalho, para 5-7 anos; é um quebra-cabeça de figuras, sem precisar ler."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "grade-1__pattern-worksheet": [
+        {
+          "q": "O que as atividades de padrões trabalham no 1º ano?",
+          "a": "Ler e continuar padrões que se repetem (AB e ABC), desenvolvendo o pensamento de prever e generalizar, para 6-8 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "chart-count__kindergarten": [
+        {
+          "q": "O que a contagem em gráfico trabalha na pré-escola?",
+          "a": "Contar e a primeira ideia de um gráfico de barras; a criança conta os objetos e preenche uma coluna para mostrar quantos são, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "dinosaurs__kindergarten": [
+        {
+          "q": "O que as atividades de dinossauros trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como T-rex e estegossauro; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "4th_of_july__chart-count": [
+        {
+          "q": "O que essas atividades trabalham?",
+          "a": "Contar e a primeira ideia de um gráfico de barras, sobre figuras com o tema 4 de Julho; a criança conta e preenche uma coluna para mostrar quantos são."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "crossword__grade-2": [
+        {
+          "q": "O que as palavras cruzadas trabalham no 2º ano?",
+          "a": "Leitura, ortografia e vocabulário; a criança lê a pista e a imagem e escreve a palavra certa nas casas que se cruzam, para 7-9 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__tree": [
+        {
+          "q": "O que as atividades de árvores trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como pinheiro e palmeira; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "activities__kindergarten": [
+        {
+          "q": "O que tem na página de atividades com o tema atividades para a pré-escola?",
+          "a": "Atividades com figuras de ações do dia a dia para contar, classificar, parear e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "kindergarten__toys": [
+        {
+          "q": "O que tem na página de atividades de brinquedos para a pré-escola?",
+          "a": "Atividades com o tema brinquedos para contar, classificar, parear, qual é diferente e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "accessories__kindergarten": [
+        {
+          "q": "O que as atividades de acessórios trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como óculos, chapéu e bolsa; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "at_the_supermarket__kindergarten": [
+        {
+          "q": "O que tem na página de atividades de supermercado para a pré-escola?",
+          "a": "Atividades com o tema mercado para contar, classificar, parear e reconhecimento lúdico da letra inicial, ótimas para o faz de conta, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "bakery__kindergarten": [
+        {
+          "q": "O que as atividades de padaria trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como pão, pretzel e bolo; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "camping__kindergarten": [
+        {
+          "q": "O que as atividades de acampamento trabalham na pré-escola?",
+          "a": "Contar, classificar, parear e reconhecimento lúdico da letra inicial, sobre figuras como barraca, fogueira e mochila; tudo brincante, para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "christmas__kindergarten": [
+        {
+          "q": "O que tem na página de atividades de Natal para a pré-escola?",
+          "a": "Atividades com o tema Natal para contar, classificar, fazer padrões, parear e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "easter__kindergarten": [
+        {
+          "q": "O que tem na página de atividades de Páscoa para a pré-escola?",
+          "a": "Atividades com o tema Páscoa para contar, classificar, fazer padrões, parear e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
+      ],
+      "fruits__kindergarten": [
+        {
+          "q": "O que tem na página de atividades de frutas para a pré-escola?",
+          "a": "Atividades com o tema frutas para contar, classificar, parear, qual é diferente e reconhecimento lúdico da letra inicial; pensadas para 5-7 anos."
+        },
+        {
+          "q": "Essas atividades são grátis?",
+          "a": "Sim. Toda atividade aqui é grátis para imprimir em PDF e para jogar online, com gabarito e sem cadastro."
+        },
+        {
+          "q": "Em quais idiomas estão disponíveis?",
+          "a": "Em todos os 11 idiomas em que publicamos."
+        }
       ]
     },
     "fallback": {
@@ -2635,29 +3265,29 @@
     "animals__big-small": "As atividades grande-pequeno com tema de animais aproveitam a variação natural de tamanho entre criaturas — do elefante ao rato — para tornar concreta a comparação de tamanhos relativos. As crianças leem a pista de tamanho com segurança e a habilidade subjacente se transfere.",
     "animals__more-less": "As atividades mais-menos com tema de animais pedem às crianças que comparem quantidades de criaturas familiares — três ovelhas ou cinco ovelhas — e decidam qual grupo tem mais. O apoio visual mantém o foco na própria comparação de quantidades.",
     "animals__shadow-match": "As atividades de associar sombras com tema de animais associam cada imagem de criatura a sua silhueta. A atividade é particularmente acessível porque as crianças reconhecem as formas dos animais com segurança antes de precisarem manejar a versão só de contorno.",
-    "animals__kindergarten": "As atividades de educação infantil (pré-escola, 5-7 anos) com tema de animais associam um vocabulário de criaturas familiares às atividades para as quais uma criança desta faixa está pronta: associar, classificar, contar simplesmente, trabalhar a letra inicial. O contexto animal torna o trabalho acessível; as próprias atividades estendem as habilidades em desenvolvimento da criança.",
+    "animals__kindergarten": "Poucos temas encantam tanto quanto este: as atividades com o tema animais para educação infantil pré-escola (5-7 anos) colocam o conjunto de figuras mais querido da infância para trabalhar. O elenco familiar — gato, vaca, passarinho, peixe — leva as crianças por contar, classificar, parear, encontrar qual é diferente e reconhecer de forma lúdica a letra inicial, sempre brincante e sem leitura formal. Assim, cada destreza é praticada sobre figuras que as crianças já conhecem. Os nomes de animais são de uso frequente em todos os idiomas, o que ajuda na sala de aula bilíngue. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
     "animals__preschool": "As atividades de educação infantil (creche, 3-5 anos) com tema de animais oferecem aos menores imagens de alta familiaridade pareadas com tarefas pré-acadêmicas simples: pinte o pássaro, conte os patos, encontre o cachorro que é diferente. As imagens familiares mantêm a carga cognitiva baixa enquanto as atividades exercitam as habilidades que esta faixa tem por vocação desenvolver.",
     "animals__grade-1": "As atividades de 1º ano com tema de animais usam criaturas familiares como veículo do trabalho mais exigente que o ano traz — caça-palavras mais longos, contagem em vários passos, adição inicial com apoio de imagem. As crianças permanecem engajadas no tema enquanto a exigência cognitiva sobe.",
-    "addition__kindergarten": "As atividades de adição de educação infantil (pré-escola, 5-7 anos) dão às crianças prática com as pequenas somas que seu senso numérico em desenvolvimento consegue manejar — adição de um dígito, problemas com apoio de imagem, somas dentro de dez. O formato encaminha para a evocação dos fatos sem pular a fase de contar por imagem em que crianças desta faixa ainda costumam se apoiar.",
-    "kindergarten__subtraction": "As atividades de subtração de educação infantil (pré-escola, 5-7 anos) praticam o tirar com quantidades que as crianças conseguem manter em mente — geralmente dentro de dez, frequentemente com apoio de imagem que lhes permite riscar fisicamente os elementos que vão saindo. A atividade constrói a intuição de tirar antes de as crianças precisarem manejar a subtração abstrata.",
+    "addition__kindergarten": "As atividades de Adição para educação infantil pré-escola (5-7 anos) acompanham as crianças no momento em que contar começa a virar somar. Nessa fase, as somas continuam pequenas e com apoio de imagens: a criança conta dois grupos e depois junta os dois, ainda de forma lúdica e sem cálculo formal. Use estas atividades para começar o dia, em um cantinho de matemática ou como uma tarefa rápida em dupla. Manter os números baixos e as figuras claras deixa o pensamento na ideia de juntar, e não na leitura de instruções. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que corrige as respostas na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para dar a cada criança o mesmo passo na língua que ela está aprendendo.",
+    "kindergarten__subtraction": "As atividades de Subtração para educação infantil pré-escola (5-7 anos) apresentam a ideia de tirar do jeito mais suave: a criança começa com problemas em figuras, riscando o que sai e contando o que sobra, sempre de forma lúdica e sem cálculo formal. Manter os números pequenos e as imagens claras deixa a ideia de quantos sobraram aparecer sem o peso de uma instrução nova a cada vez. Use estas atividades para começar o dia, em um cantinho de matemática ou como tarefa rápida em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que corrige na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para dar a cada criança o mesmo passo na língua que ela está aprendendo.",
     "alphabet-train__preschool": "As atividades do trem do alfabeto de educação infantil (creche, 3-5 anos) introduzem a sequência alfabética no momento de desenvolvimento em que as crianças começam a reconhecer que as letras têm uma ordem. O formato é tolerante: uma criança que conhece sua primeira letra e mais algumas ainda consegue completar uma fileira.",
-    "grade-1__wordsearch": "Os caça-palavras de 1º ano dão prática de leitura autônoma uma vez que as crianças passaram do reconhecimento de palavras à vista para a varredura sustentada letra por letra. Os alvos são curtos e temáticos, o que mantém a exigência cognitiva sobre a varredura em vez de sobre lembrar o que procurar.",
-    "kindergarten__matching": "As atividades de associar de educação infantil (pré-escola, 5-7 anos) praticam o movimento de busca de relações que sustenta a maior parte da leitura precoce e da matemática precoce: esta imagem combina com aquela letra, esta quantidade combina com aquela cifra. O formato dá às crianças desta faixa prática autônoma com uma operação cognitiva que estão desenvolvendo rapidamente.",
-    "kindergarten__sudoku": "O sudoku ilustrado de educação infantil (pré-escola, 5-7 anos) dá experiência de quebra-cabeça lógico em um nível de desenvolvimento que uma criança desta faixa consegue manejar: quatro imagens, uma grade 4×4, dedução por eliminação. Útil como tarefa de enriquecimento para crianças prontas para mais desafio cognitivo.",
-    "find-and-count__preschool": "As atividades de procurar e contar de educação infantil (creche, 3-5 anos) pedem aos menores que percorram uma pequena cena, localizem objetos-alvo e os contem. A atividade é curta e visual, o que se ajusta à atenção desta faixa; as habilidades subjacentes — discriminação visual e correspondência um a um — são fundadoras.",
-    "kindergarten__prepositions": "As atividades de preposições de educação infantil (pré-escola, 5-7 anos) associam o vocabulário espacial a imagens concretas no momento de desenvolvimento em que as crianças estão prontas para tornar essa linguagem explícita. O formato apoiado por imagem mantém a carga cognitiva sobre a relação.",
-    "kindergarten__picture-sort": "As atividades de classificar imagens de educação infantil (pré-escola, 5-7 anos) praticam a classificação binária com as categorias que crianças desta faixa conseguem manejar — cor, letra inicial, alimentação, habitat. Cada página dá prática autônoma com uma habilidade de classificação subjacente.",
-    "big-small__preschool": "As atividades grande-pequeno de educação infantil (creche, 3-5 anos) dão aos menores prática com a comparação de tamanhos relativos, a habilidade precursora da medida e da ordenação. As imagens são exageradas para que a comparação seja inequívoca.",
-    "more-less__preschool": "As atividades mais-menos de educação infantil (creche, 3-5 anos) praticam a comparação de quantidades no nível de desenvolvimento em que as crianças conseguem contar dois pequenos grupos mas ainda não manejam cifras abstratas com segurança. Útil como precursor da adição formal.",
-    "grade-1__math-puzzle": "Os quebra-cabeças matemáticos de 1º ano dão aos fatos numéricos do ano uma moldura lógica — as crianças resolvem aritmética para descobrir algo em vez de treiná-la. Combina com a prontidão do 1º ano para um trabalho cognitivo um pouco mais sustentado.",
-    "kindergarten__math-worksheet": "As atividades matemáticas de educação infantil (pré-escola, 5-7 anos) dão prática direcionada com as operações que uma criança desta faixa está consolidando, em formatos curtos o suficiente para a atenção desta faixa. Combine-as com manipulativos durante o ensino em pequenos grupos.",
-    "kindergarten__missing-pieces": "As atividades de peças que faltam de educação infantil (pré-escola, 5-7 anos) exercitam a complementação visual no nível que crianças desta faixa conseguem manejar — formas claras, alvos inequívocos, pequenas paletas de opções. A atividade constrói o raciocínio espacial numa janela de desenvolvimento em que ele está fortemente disponível.",
-    "kindergarten__odd-one-out": "As atividades do que sobra de educação infantil (pré-escola, 5-7 anos) dão a prática de discriminação que sustenta a classificação: um pequeno grupo de imagens, uma das quais não combina. O critério varia, o que mantém as crianças atentas ao que está realmente sendo perguntado.",
-    "kindergarten__shadow-match": "As atividades de associar sombras de educação infantil (pré-escola, 5-7 anos) associam imagens a suas silhuetas. O movimento de reconhecimento de formas envolvido é fundador para o reconhecimento de letras; o contexto de imagem o torna acessível neste nível.",
-    "code-addition__kindergarten": "As atividades de adição codificada de educação infantil (pré-escola, 5-7 anos) dão à prática aritmética uma moldura de alfabetização: cada soma decodifica uma letra ou palavra, o que faz a prática parecer intencional para crianças que têm os fatos básicos mas precisam de motivação.",
-    "kindergarten__pattern-train": "As atividades do trem de padrões de educação infantil (pré-escola, 5-7 anos) praticam o reconhecimento de padrões — alternado, repetido, crescente — em um formato de trem visualmente fácil de ler. O reconhecimento de padrões é fundador em matemática e em leitura.",
-    "kindergarten__picture-path": "As atividades de caminho ilustrado de educação infantil (pré-escola, 5-7 anos) praticam a busca de rotas por uma grade, exercitando raciocínio espacial e paciência. Crianças neste nível de desenvolvimento estão prontas para considerar rotas antes de pôr o lápis no papel.",
-    "grade-1__treasure-hunt": "As caças ao tesouro de 1º ano dão às crianças uma sequência de instruções direcionais de vários passos a seguir numa grade. A atividade constrói raciocínio espacial, memória de trabalho e fluência de vocabulário direcional num nível que crianças do 1º ano conseguem sustentar.",
+    "grade-1__wordsearch": "As atividades de caça-palavras para o 1º ano do ensino fundamental transformam a leitura inicial em uma caçada que as crianças querem terminar. Cada desafio esconde um pequeno conjunto de palavras temáticas em uma grade de letras; a criança percorre, localiza e marca cada palavra, ligando o que vê às imagens de apoio ao lado da grade. Para os 6 aos 8 anos, essa varredura é treino de verdade — reconhecimento de letras, leitura da esquerda para a direita e fixação de novo vocabulário — com cara de brincadeira. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online em que as palavras são selecionadas na tela e conferidas, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "kindergarten__matching": "As atividades de Pareamento para educação infantil pré-escola (5-7 anos) trazem uma tarefa clara e gostosa: traçar uma linha para ligar cada item ao seu par. Nessa idade, decidir o que vai com o quê constrói a associação um a um, a atenção visual e o vocabulário que vem de nomear cada par. A tarefa em imagens combina com cada criança, qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança toca para traçar cada linha e conferir, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "kindergarten__sudoku": "As atividades de Sudoku Ilustrado para educação infantil pré-escola (5-7 anos) trazem lógica de verdade muito antes de as crianças lerem regras. Em uma grade de quatro por quatro, a criança coloca figuras de modo que cada linha, cada coluna e cada quadradinho tenha uma de cada imagem, a mesma dedução do sudoku dos adultos, na medida certa para essa idade e feita com imagens em vez de números. É um raciocínio paciente, que constrói atenção e o pensamento de ir eliminando opções. Use uma folha em um cantinho calmo. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança arrasta as figuras e a grade é conferida, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "find-and-count__preschool": "As atividades de encontre e conte para educação infantil creche (3-5 anos) juntam duas coisas que os pequenos adoram: procurar figuras e contar o que acharam. A criança observa uma cena pequena e simpática, localiza os objetos pedidos e diz quantos encontrou, contando até cerca de cinco de forma oral e brincante, sem precisar ler nada para começar. Essa procura tranquila desenvolve a atenção visual e a contagem um a um no ritmo certo para os menores. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que dá um retorno na hora e bem acolhedor, além do gabarito para o adulto. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "kindergarten__prepositions": "As atividades de Preposições para educação infantil pré-escola (5-7 anos) ajudam a turma a dominar as palavrinhas que dizem onde as coisas estão: em, sobre, embaixo, ao lado. A criança olha as figuras e escolhe a que mostra a posição, construindo o vocabulário espacial que ela usa o dia todo, na matemática e nas histórias. Como a tarefa é guiada por imagens, funciona para cada criança, qualquer que seja o nível de leitura ou a língua de casa, e provoca conversa útil para descrever. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere cada escolha, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__picture-sort": "As atividades de Ordenar Imagens para educação infantil pré-escola (5-7 anos) pedem que a criança coloque cada figura onde ela pertence, separando as imagens em grupos por tipo, cor ou categoria. Nessa idade, decidir o que vai junto e por quê é prática de lógica e de vocabulário ao mesmo tempo, e desperta bastante conversa útil. Como a separação é feita com imagens, cada criança participa, qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança arrasta as figuras para os grupos e confere o trabalho, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "big-small__preschool": "As atividades de Grande Ou Pequeno para educação infantil creche (3-5 anos) dão o primeiro gostinho de pensar em medida: achar o maior, encontrar o menor e colocar algumas figuras em ordem por tamanho. Nessa idade, a tarefa usa imagens claras e um único toque ou marca, então a criança consegue acertar sem ler uma palavra. Comparar por tamanho também alimenta o vocabulário que as crianças usam para descrever e organizar o mundo ao redor. Use estas atividades em uma roda ou em um cantinho, brincando. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que responde de forma calorosa e na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar as crianças na língua delas.",
+    "more-less__preschool": "As atividades de Mais Ou Menos para educação infantil creche (3-5 anos) trazem uma das primeiríssimas ideias de número que as crianças encontram: olhar dois grupos de figuras e decidir qual tem mais, qual tem menos e quando são iguais. Nessa idade, isso é o terreno para contar com sentido, explorando e comparando, e a tarefa não exige ler nem escrever, só olhar e escolher. As figuras amigáveis deixam tudo acolhedor para cada criança, qualquer que seja a língua de casa. Use estas atividades em uma roda ou em um cantinho, com a turma toda junta. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que dá um retorno gentil na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar as crianças na língua delas.",
+    "grade-1__math-puzzle": "As atividades de Quebra-cabeça Matemático para o 1º ano do ensino fundamental (6-8 anos) dão um jeito prático de construir o senso numérico: a criança arrasta as peças para completar um quebra-cabeça de números, descobrindo onde cada uma se encaixa. Nessa idade, isso recompensa um pouco de planejamento e o pensamento de tentar e ajustar por cima da conta em si, o que combina com a passagem de contar para calcular. O formato é claro o bastante para começar sozinho e rico o bastante para manter ocupado quem termina rápido. Use estas atividades de forma independente ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere o quebra-cabeça pronto, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__math-worksheet": "Estas atividades de Matemática para educação infantil pré-escola (5-7 anos) reúnem a prática de números que a turma mais procura: montar sentenças matemáticas simples, completar uma parte que falta e trabalhar pequenas somas e diferenças num nível que cabe nessa idade. O apoio das imagens ancora as quantidades, então o pensamento fica na matemática, e não em decodificar instruções. Juntar esse trabalho geral de números em um só lugar deixa rápido montar uma aula curta ou uma tarefa de cantinho de matemática. Use uma folha para começar o dia ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que dá retorno na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "kindergarten__missing-pieces": "As atividades de Peças Faltantes para educação infantil pré-escola (5-7 anos) dão um quebra-cabeça visual gostoso: cada figura tem uma falha, e a criança arrasta a peça recortada certa para o buraco e completa. Nessa idade, isso constrói percepção de forma, discriminação visual e a paciência de comparar opções antes de escolher, raciocínio inicial vestido de brincadeira. Como a tarefa é em imagens, funciona qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que encaixa as peças no lugar e confere a figura pronta, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__odd-one-out": "As atividades de Qual É Diferente para educação infantil pré-escola (5-7 anos) pedem que a criança ache a figura que não combina e, tão importante quanto, pense no porquê. Nessa idade, isso é classificação e raciocínio iniciais: perceber o que um grupo tem em comum e descobrir a exceção. A tarefa em imagens combina com cada criança, qualquer que seja o nível de leitura ou a língua de casa, e provoca bastante conversa útil para explicar a escolha. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que revela a resposta depois da escolha, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__shadow-match": "As atividades de Pareamento De Sombras para educação infantil pré-escola (5-7 anos) pedem que a criança ligue cada objeto à sua sombra, uma tarefa limpa de pareamento visual que aguça a atenção à forma e ao contorno. Nessa idade, olhar além da cor e dos detalhes para reconhecer uma forma pelo seu contorno é uma ótima prática de observação, e parece uma brincadeira. A tarefa em imagens funciona para cada criança, qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou como aquecimento rápido. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que traça o par e confere, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "code-addition__kindergarten": "As atividades de Adição Com Código para educação infantil pré-escola (5-7 anos) trazem um quê de mistério à matemática inicial: a criança associa símbolos a quantidades bem pequenas e junta, e cada resultado aponta para uma letra que revela uma palavra escondida. Nessa fase é uma iniciação lúdica, que junta a ideia de somar com a emoção de descobrir um código, sem cálculo formal. Os números ficam bem pequenos e as figuras bem amigáveis, então o jogo é a recompensa, e não uma barreira. Use estas atividades em um cantinho ou como tarefa rápida em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere os passos e a palavra revelada, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__pattern-train": "As atividades de Trem De Padrões para educação infantil pré-escola (5-7 anos) transformam os primeiros padrões em uma brincadeira: um trem percorre a página e a criança continua o padrão de figuras, vagão por vagão. Perceber o que se repete e prever o que vem depois é uma base do pensamento matemático nessa idade, e o trem amigável deixa tudo leve. As imagens carregam a tarefa, então uma criança que ainda está aprendendo a língua da turma participa por completo. Use estas atividades em um cantinho de matemática ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confirma cada peça, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para praticar padrões na língua que as crianças estão aprendendo.",
+    "kindergarten__picture-path": "As atividades de Caminho Ilustrado para educação infantil pré-escola (5-7 anos) pedem que a criança trace um caminho de um ponto a outro pela grade, passando célula por célula até chegar ao fim. Nessa idade, seguir uma rota com cuidado constrói raciocínio espacial, coordenação do olhar com a mão e o pensamento de um passo de cada vez. As figuras amigáveis carregam a tarefa, então cada criança participa, qualquer que seja a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online em que a criança traça o caminho e o trajeto é conferido, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "grade-1__treasure-hunt": "As atividades de Caça Ao Tesouro para o 1º ano do ensino fundamental (6-8 anos) dão um gostinho de seguir instruções e ler o espaço. Partindo de um quadradinho marcado, a criança segue pistas passo a passo, tantos quadradinhos para um lado e depois para outro, traçando um caminho pela grade até chegar ao tesouro. Nessa idade, é prática de verdade de raciocínio espacial e de palavras de direção (para cima, para baixo, esquerda, direita) dentro de uma aventura, e recompensa o pensamento cuidadoso, um passo de cada vez. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que traça a rota e confere o caminho, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
     "cryptogram": "Nas atividades de Criptograma as crianças decifram um código de imagens e símbolos para escrever uma palavra. Cada figura corresponde a uma letra, e a criança usa a legenda para descobrir, uma a uma, as letras escondidas. O exercício une reconhecimento das letras e escrita inicial de um jeito curioso. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
     "find-objects": "Nas atividades de Encontre os Objetos as crianças procuram objetos escondidos numa cena e marcam cada um que acham. É um exercício de discriminação visual que apura a atenção aos detalhes, feito com apoio de imagens e sem exigir leitura. A criança percorre a cena com os olhos, localiza cada item da lista e o assinala. É um material adequado para a educação infantil e o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Use as fichas em cantinhos ou estações para grupos pequenos. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
     "word-guess": "Nas atividades de Adivinhe a Palavra as crianças preenchem as lacunas para escrever a palavra de uma imagem, letra a letra. É um exercício de reconhecimento das letras e escrita inicial em que a figura serve de pista e a criança completa o que falta. Funciona com apoio de imagens e trabalha as primeiras palavras pela silabação e pelos sons das letras. É um material adequado para o início do ensino fundamental. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Imprima algumas fichas para a lição de casa. Como está disponível nos 11 idiomas em que publicamos, você usa as mesmas atividades com turmas bilíngues.",
@@ -2715,7 +3345,32 @@
     "shapes": "Formas é um tema de observação que faz parte da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Formas, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
     "birds": "O conjunto de imagens conhecidas de Pássaros convida a observar a natureza e acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Pássaros, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
     "colors": "Cores é um tema de observação que faz parte da vida cotidiana, e suas figuras conhecidas acompanham as crianças por muitas habilidades. As mesmas imagens reaparecem nas atividades com tema Cores, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
-    "miscellaneous": "Diversos reúne um conjunto variado de imagens conhecidas que acompanha as crianças por muitas habilidades. As figuras reaparecem nas atividades com tema Diversos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma."
+    "miscellaneous": "Diversos reúne um conjunto variado de imagens conhecidas que acompanha as crianças por muitas habilidades. As figuras reaparecem nas atividades com tema Diversos, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você usa o mesmo tema na língua da sua turma.",
+    "4th_of_july__grade-1": "As atividades de 4 de Julho para o 1º ano do ensino fundamental (6-8 anos) trazem um clima de festa à prática. O conjunto de figuras comemorativas, com bandeiras, fogos, estrelas e desfiles, conduz as crianças por adição e subtração até vinte, leitura e trabalho com palavras, classificação e lógica, então a celebração vira um motivo para praticar, e não uma pausa. As imagens da data mantêm a turma envolvida e acolhem quem ainda está construindo a língua da turma. Use estas atividades na semana ao redor da data. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que dá retorno na hora, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "cryptogram__kindergarten": "As atividades de Criptograma para educação infantil pré-escola (5-7 anos) trazem um código suave para descobrir: cada figura ou símbolo representa uma letra, e a criança descobre as pistas para formar uma palavra, sempre com poucas letras já conhecidas. Nessa fase é uma brincadeira de descobrir, que transforma o reconhecimento da letra e as primeiras ideias de escrita em um quebra-cabeça com uma revelação gostosa no fim, sem decodificação formal. As pistas em figuras mantêm tudo acessível para quem ainda está aprendendo a língua da turma. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere a palavra descoberta, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "4th_of_july__treasure-hunt": "As atividades de Caça Ao Tesouro com o tema 4 de Julho trazem o clima da data para uma aventura de seguir instruções. Partindo de um quadradinho marcado, a criança segue pistas simples, passo a passo, pela grade, até chegar ao tesouro da festa, praticando raciocínio espacial e palavras de direção (para cima, para baixo, esquerda, direita) pelo caminho. As figuras comemorativas combinam com a semana ao redor da data, e como as pistas se apoiam em setas e imagens, funcionam antes de a criança ler com fluência. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere o caminho, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "find-objects__kindergarten": "As atividades de Encontre Os Objetos para educação infantil pré-escola (5-7 anos) transformam o olhar atento em uma brincadeira que as crianças adoram: uma cena cheia e amigável esconde objetos-alvo, e a criança vai caçando cada um e marcando. Nessa idade, isso constrói discriminação visual, atenção aos detalhes e vocabulário, conforme ela nomeia o que encontra. A tarefa de caça em imagens acolhe cada criança, qualquer que seja o nível de leitura ou a língua de casa. Use estas atividades em um cantinho ou em dupla. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que marca os achados e conta quantos são, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua das crianças.",
+    "kindergarten__word-guess": "As atividades de Adivinhe A Palavra para educação infantil pré-escola (5-7 anos) trazem uma primeira tarefa de escrita bem suave: uma figura mostra a palavra, e a criança preenche os espaços letra por letra para formá-la. Nessa idade, isso junta o reconhecimento da letra com as primeiras ideias de sons de um jeito leve e gostoso, e a figura mantém o sentido claro. Use estas atividades em um cantinho de leitura, em dupla ou como aquecimento rápido. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere cada letra, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "grade-1__word-scramble": "As atividades de Letras Embaralhadas para o 1º ano do ensino fundamental (6-8 anos) deixam a leitura e a escrita iniciais com cara de jogo: as letras de uma palavra aparecem fora de ordem, e a criança as reorganiza para formar a palavra certa, com uma figura ao lado como pista. Nessa idade, reordenar letras é prática de verdade: fortalece a consciência de sons, a memória das letras e a escrita correta de palavras conhecidas. O formato é claro o bastante para começar sozinho ou para um aquecimento rápido. Cada uma vem como PDF grátis para imprimir, com uma versão interativa para jogar online que confere a palavra montada, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para acompanhar a turma na língua que as crianças estão aprendendo.",
+    "4th_of_july__kindergarten": "Quer um tema festivo para a turma? As atividades com o tema 4 de Julho para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras comemorativas — bandeiras, fogos, estrelas e desfiles — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os fogos, separa as figuras por tipo, liga cada imagem ao seu par igual e identifica de forma brincante a letra inicial de cada palavra, sem leitura formal e com apoio de imagens. Use em um cantinho ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "bingo__kindergarten": "O bingo para educação infantil pré-escola (5-7 anos) transforma o reconhecimento de figuras em uma brincadeira que a turma toda acompanha. Uma figura é chamada de cada vez e a criança procura no seu cartão, marcando a casa correspondente até completar uma linha. Para os 5 aos 7 anos, isso fortalece a atenção visual, o pareamento de imagens e o vocabulário, conforme as crianças vão nomeando o que aparece, sempre de forma lúdica e com muito apoio de imagens. As atividades funcionam bem em roda ou em grupos pequenos na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que confere as marcações, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para jogar no idioma que as crianças estão aprendendo.",
+    "flowers__kindergarten": "Que tal um tema delicado e cheio de cor? As atividades com o tema flores para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras — tulipa, rosa, girassol — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta as flores do canteiro, separa as figuras por cor, liga cada flor ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. Use em um cantinho ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "grid-match__kindergarten": "As atividades de pareamento em grade para educação infantil pré-escola (5-7 anos) oferecem um quebra-cabeça bem organizado: arraste cada peça até o lugar certo na grade. Para os 5 aos 7 anos, isso desenvolve o pareamento visual, a noção de posição e um pouco de memória de trabalho, já que a criança guarda uma figura em mente enquanto procura o seu lugar. A tarefa é toda baseada em imagens, então funciona para qualquer criança, seja qual for o nível de leitura ou o idioma de casa. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que confere a grade pronta, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "grade-1__pattern-worksheet": "As atividades de padrões para o 1º ano do ensino fundamental constroem o raciocínio por trás dos padrões: a criança lê uma sequência que se repete, do tipo AB ou ABC, descobre o que vem a seguir e a continua. Para os 6 aos 8 anos, isso fortalece o pensamento de prever e generalizar que sustenta o início da álgebra, com apoio de imagens onde ajuda. O formato é claro para começar com autonomia e rico para desafiar quem termina rápido. Use em um cantinho de matemática ou como lição de casa. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que confere cada passo, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "chart-count__kindergarten": "As atividades de contagem em gráfico para educação infantil pré-escola (5-7 anos) dão às crianças o primeiro contato com dados: conte os objetos e preencha uma coluna do gráfico de barras para mostrar quantos são. Para os 5 aos 7 anos, isso une a contagem à ideia mais inicial de um gráfico — mais alto quer dizer mais — uma bela ponte entre contar e representar. A tarefa é toda baseada em imagens, o que a mantém acessível seja qual for o idioma de casa. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que corrige conforme a contagem, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "dinosaurs__kindergarten": "Tem tema que prende a atenção na hora, e dinossauro é um deles: as atividades com o tema dinossauros para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras — T-rex, estegossauro, tricerátops — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os dinossauros, separa as figuras por tamanho, liga cada um ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. Use em um cantinho ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "4th_of_july__chart-count": "As atividades de contagem em gráfico com o tema 4 de Julho unem a primeira ideia de dados a um cenário comemorativo que a turma adora. A criança conta os objetos da festa — bandeiras, fogos, estrelas — e preenche uma coluna do gráfico de barras para mostrar quantos são, percebendo que a coluna mais alta quer dizer mais. É uma bela ponte entre contar e representar, com apoio das imagens festivas e sem depender de leitura. Use em um cantinho de matemática ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que corrige conforme a contagem, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "crossword__grade-2": "As atividades de palavras cruzadas para o 2º ano do ensino fundamental são consolidação da escrita: a criança lê a pista e a imagem e escreve a palavra certa, letra por letra, nas casas que se cruzam. Para os 7 aos 9 anos, isso reúne leitura, ortografia e vocabulário em um só desafio, já que palavras que se cruzam dividem letras e cada acerto ajuda a confirmar o seguinte. O formato é claro para começar com autonomia e satisfatório quando a grade fica completa. Use em um cantinho de leitura ou como lição de casa. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online que confere cada palavra, além do gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar no idioma que as crianças estão aprendendo.",
+    "kindergarten__tree": "Para trabalhar a natureza de perto, as atividades com o tema árvores para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras — pinheiro, macieira, palmeira — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta as árvores da paisagem, separa as figuras por tamanho, liga cada árvore ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. Use em um cantinho ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "activities__kindergarten": "Que tal partir do que as crianças fazem o dia inteiro? As atividades com o tema atividades para educação infantil pré-escola (5-7 anos) nomeiam ações conhecidas — correr, pular, ler, pintar — em um conjunto de figuras que transforma os verbos do dia a dia em prática. As imagens levam as crianças por contar, classificar, parear, encontrar qual é diferente e reconhecer de forma lúdica a letra inicial, de modo que o vocabulário de ação vira destreza de verdade, sem leitura formal. As figuras claras acolhem quem ainda está aprendendo o idioma da sala de aula. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "kindergarten__toys": "Nada como começar pela brincadeira: as atividades com o tema brinquedos para educação infantil pré-escola (5-7 anos) se apoiam nos objetos que as crianças pegam todo dia — bola, blocos, boneca, carrinho, ursinho — para que o conjunto de figuras tenha cara de recreio. Os brinquedos familiares levam as crianças por contar, classificar, parear, encontrar qual é diferente e reconhecer de forma lúdica a letra inicial, mantendo o foco na destreza, sem leitura formal. Os nomes de brinquedos são de uso frequente em todos os idiomas, o que ajuda na sala de aula bilíngue. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "accessories__kindergarten": "Para falar do que se veste e se carrega, as atividades com o tema acessórios para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras — óculos, chapéu, bolsa, relógio — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os acessórios, separa as figuras por tipo, liga cada item ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. Use em um cantinho ou em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "at_the_supermarket__kindergarten": "Uma ida ao mercado vira aprendizado rico: as atividades com o tema no supermercado para educação infantil pré-escola (5-7 anos) levam o conjunto de figuras — carrinho, prateleiras, alimentos, caixa — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os itens da sacola, separa as figuras por tipo, liga cada produto ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. O cantinho do mercadinho é um clássico da pré-escola, e estas atividades alimentam essa brincadeira. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "bakery__kindergarten": "As atividades com o tema padaria para educação infantil pré-escola (5-7 anos) levam contar, classificar, parear e reconhecer as primeiras letras para um cenário que as crianças adoram: pão, pretzel, bolo e outras delícias da vitrine. A criança conta quantos pãezinhos há na bandeja, separa os doces dos salgados, liga cada item ao seu par igual e identifica de forma brincante a letra com que cada palavra começa, sempre com bastante apoio de imagens e sem leitura formal. Use as atividades em um cantinho ou como tarefa em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "camping__kindergarten": "Vamos acampar? As atividades com o tema acampamento para educação infantil pré-escola (5-7 anos) levam o mesmo conjunto de figuras — barraca, fogueira, lanterna, mochila e outros — por contar, classificar, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta quantos itens há no acampamento, separa as figuras por tipo, liga cada objeto ao seu par igual e identifica de forma brincante a letra com que cada nome começa, sem leitura formal e com bastante apoio de imagens. Use as atividades em um cantinho ou como tarefa em dupla na sala de aula. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "christmas__kindergarten": "Para aquecer o fim do ano, as atividades com o tema Natal para educação infantil pré-escola (5-7 anos) levam o conjunto de figuras festivas — árvore, presentes, enfeites, amigos do inverno — por contar, classificar, fazer padrões, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os enfeites da árvore, continua um padrão simples, liga cada item ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. As atividades temáticas mantêm a turma engajada em um mês corrido. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "easter__kindergarten": "Com um toque de primavera, as atividades com o tema Páscoa para educação infantil pré-escola (5-7 anos) levam o conjunto de figuras — ovos, coelhinhos, pintinhos, cestas — por contar, classificar, fazer padrões, parear e reconhecer as primeiras letras, sempre de forma lúdica. A criança conta os ovos da cesta, separa as figuras por cor, continua um padrão simples, liga cada item ao seu par igual e identifica de forma brincante a letra inicial de cada nome, sem leitura formal e com apoio de imagens. As atividades de época mantêm a turma engajada. Cada uma vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo.",
+    "fruits__kindergarten": "Saudável e cheio de cor, este tema cai bem em qualquer dia: as atividades com o tema frutas para educação infantil pré-escola (5-7 anos) colocam um conjunto de figuras familiar — maçã, banana, laranja, uva — para trabalhar. As frutas levam as crianças por contar, classificar, parear, encontrar qual é diferente e reconhecer de forma lúdica a letra inicial, de modo que o vocabulário do lanche vira prática de verdade, sem leitura formal. Os nomes de frutas são de uso frequente em todos os idiomas e combinam com a conversa sobre alimentação saudável. Cada atividade vem como PDF grátis para imprimir em PDF, sem cadastro, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, dá para trabalhar o mesmo tema no idioma que as crianças estão aprendendo."
   },
   "bulk": {
     "toggleSelect": "Select",

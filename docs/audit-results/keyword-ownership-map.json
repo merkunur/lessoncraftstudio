@@ -10377,13 +10377,13 @@
       "axis": "intersection",
       "axisKey": "activities__kindergarten",
       "url": "https://www.lessoncraftstudio.com/pt/topic/atividades/educacao-infantil-pre-escola-5-7-anos/",
-      "primaryKeyword": "Atividades de Atividades para educação infantil pré-escola",
+      "primaryKeyword": "Atividades com tema Atividades para educação infantil pré-escola",
       "secondaryKeywords": [
-        "Atividades com tema Atividades",
-        "Fichas para educação infantil pré-escola",
-        "atividades de educação infantil pré-escola para imprimir"
+        "atividades educação infantil grátis",
+        "atividades para imprimir educação infantil",
+        "atividades pré-escola com figuras"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -123977,13 +123977,13 @@
       "axis": "intersection",
       "axisKey": "kindergarten__math-worksheet",
       "url": "https://www.lessoncraftstudio.com/pt/topic/educacao-infantil-pre-escola-5-7-anos/atividade-de-matematica/",
-      "primaryKeyword": "Atividades de Atividade De Matemática para educação infantil pré-escola",
+      "primaryKeyword": "Atividades de Matemática para educação infantil pré-escola",
       "secondaryKeywords": [
-        "Fichas para educação infantil pré-escola",
-        "Atividades de Atividade De Matemática",
-        "atividades de Atividade De Matemática para imprimir"
+        "atividades de matemática educação infantil grátis",
+        "atividades de matemática para imprimir educação infantil",
+        "matemática pré-escola com figuras"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },
@@ -126233,13 +126233,13 @@
       "axis": "intersection",
       "axisKey": "grade-1__pattern-worksheet",
       "url": "https://www.lessoncraftstudio.com/pt/topic/1-ano-fundamental/atividade-de-padroes/",
-      "primaryKeyword": "Atividades de Atividade De Padrões para 1º ano do ensino fundamental",
+      "primaryKeyword": "Atividades de Padrões para 1º ano do ensino fundamental",
       "secondaryKeywords": [
-        "Fichas para 1º ano do ensino fundamental",
-        "Atividades de Atividade De Padrões",
-        "atividades de Atividade De Padrões para imprimir"
+        "atividades de padrões 1º ano grátis",
+        "atividades de padrões para imprimir 1º ano",
+        "padrões 1º ano com imagens"
       ],
-      "source": "grammar-intersection",
+      "source": "authored",
       "needsReview": false,
       "lockedAt": "2026-05-29T08:42:59.468Z"
     },

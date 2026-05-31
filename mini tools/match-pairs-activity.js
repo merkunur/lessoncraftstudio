@@ -102,24 +102,28 @@ var ACTIVITY_STRINGS_MP = {
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
                         fr: 'Relie les cartes qui montrent le même nombre',
                         da: 'Forbind kortene, der viser det samme tal',
-                        no: 'Koble sammen kortene som viser det samme tallet' },
+                        no: 'Koble sammen kortene som viser det samme tallet',
+                        sv: 'Koppla ihop korten som visar samma tal' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
                         da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
-                        no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet' },
+                        no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet',
+                        sv: 'Tryck på ett kort, sedan på ett annat kort som visar samma tal' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
                         da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
-                        no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen' },
+                        no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen',
+                        sv: 'Några kort visar inte samma tal än — tryck på ett par för att lösa upp det och försök igen' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
                         de: 'Du hast alle Zahlen verbunden!',
                         fr: 'Tu as relié tous les nombres !',
                         da: 'Du har forbundet alle tal!',
-                        no: 'Du har koblet sammen alle tallene!' }
+                        no: 'Du har koblet sammen alle tallene!',
+                        sv: 'Du har kopplat ihop alla tal!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -291,6 +295,18 @@ var THREE_FORM_WORDS = {
     615: 'sekshundreogfemten',     700: 'sjuhundre',               208: 'tohundreogåtte',
     353: 'trehundreogfemtitre',    940: 'nihundreogførti',         190: 'hundreognitti',
     560: 'femhundreogseksti',      274: 'tohundreogsyttifire',     409: 'firehundreogni'
+  },
+  /* SV: compound with NO joiner word (tvåhundrafyrtiosju — third Nordic
+     pattern, distinct from DA spaced "og" + NO compound "og"); decimal -o
+     tens (fyrtio/sextio/sjuttio/åttio/nittio); hundra (not hundrede/hundre);
+     bare "hundra" for h=1; "ett" (neuter) for 1 in tails. Value-verified vs
+     _NUMBER_WORD_HELPERS.sv 2026-05-31 (15/15). [NSR-FLAG][sv] */
+  sv: {
+    247: 'tvåhundrafyrtiosju',    562: 'femhundrasextiotvå',    305: 'trehundrafem',
+    836: 'åttahundratrettiosex',  481: 'fyrahundraåttioett',    420: 'fyrahundratjugo',
+    615: 'sexhundrafemton',       700: 'sjuhundra',             208: 'tvåhundraåtta',
+    353: 'trehundrafemtiotre',    940: 'niohundrafyrtio',       190: 'hundranittio',
+    560: 'femhundrasextio',       274: 'tvåhundrasjuttiofyra',  409: 'fyrahundranio'
   }
 };
 

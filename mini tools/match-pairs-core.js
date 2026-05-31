@@ -51,6 +51,12 @@ window.MatchPairsCore = {
        share `Mål` (Nordic-trio cognate). FI `Tavoite` Uralic-distinct
        from all. */
     targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo',                                                                                            it: 'Obiettivo',                                                                                                            fr: 'Objectif',                                                                                                                                                          pt: 'Objetivo',                                                                                                                                                                                                                             nl: 'Doel',                                                                                                    sv: 'Mål',                                                                                                     da: 'Mål',                                                                                                     no: 'Mål',                                                                                                     fi: 'Tavoite' },
+    /* Banner label for the unknown-addend template ("Whole: 7"). EN-only
+       this commission; the 10-locale fan-out adds entries per §A.13.48.
+       Read by render() ONLY when the board holds expression-object cards,
+       so it never touches the numeric K.OA.A.3 path (which keeps the
+       existing targetLabel). */
+    wholeLabel:     { en: 'Whole' },
     /* Screen-reader prefix for the card aria-label ("Card 5"). Per-locale;
        previously hard-coded EN in render(); hoisted at DE fan-out.
        SV+DA+NO share `Kort ` (Nordic-trio cognate). FI `Kortti ` is
@@ -333,9 +339,15 @@ window.MatchPairsCore = {
 
     /* Target banner — shown above the board; matches the prompt strip
        above the activity surface. Big coral number; readable at 375px. */
+    /* Expression mode = the board carries {display,...} object cards
+       (unknown-addend template). The banner relabels to "Whole"; numeric
+       tasks (K.OA.A.3) keep the unchanged "Target" label + path. */
+    var exprMode = this.cards.some(function (c) { return c && typeof c === 'object'; });
+
     var targetEl = this.api.el('div', 'mp-target');
     var targetLabel = this.api.el('span', 'mp-target-label');
-    targetLabel.textContent = this.api.t('targetLabel') || 'Target';
+    targetLabel.textContent = (exprMode ? this.api.t('wholeLabel') : this.api.t('targetLabel'))
+                              || (exprMode ? 'Whole' : 'Target');
     var targetNum = this.api.el('span', 'mp-target-num');
     targetNum.textContent = String(this.target);
     targetEl.append(targetLabel, targetNum);
@@ -352,12 +364,19 @@ window.MatchPairsCore = {
     /* Build card DOM. Each card is a button (semantic + keyboard-tappable). */
     this._cardEls = [];
     this.cards.forEach(function (val, idx) {
+      /* val is either a plain number (numeric tasks, e.g. K.OA.A.3) or an
+         expression-object {display, kind, pairKey} (unknown-addend tasks).
+         Object branch is purely additive — numeric cards render exactly as
+         before via String(val). */
+      var isExpr = (val && typeof val === 'object');
+      var face = isExpr ? (val.display != null ? String(val.display) : '') : String(val);
       var card = self.api.el('button', 'mp-card');
       card.type = 'button';
+      if (isExpr) card.classList.add('mp-expr');
       card.setAttribute('data-idx', String(idx));
-      card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + String(val));
+      card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + face);
       var num = self.api.el('span', 'mp-card-num');
-      num.textContent = String(val);
+      num.textContent = face;
       card.appendChild(num);
       card.addEventListener('click', function () { self.onCardTap(idx); });
       board.appendChild(card);
@@ -462,6 +481,10 @@ window.MatchPairsCore = {
       '.mp-card:hover:not(.paired){transform:scale(1.03);box-shadow:0 4px 12px rgba(20,107,94,0.15);}',
       '.mp-card:focus-visible{box-shadow:0 0 0 3px rgba(242,120,75,0.5);}',
       '.mp-card-num{font-size:clamp(2rem,7vw,3.6rem);line-height:1;}',
+      /* Expression-card faces ("7 − 2") are multi-glyph; shrink + keep on
+         one line. Additive only — Direction-A palette + numeric rule above
+         untouched. */
+      '.mp-card.mp-expr .mp-card-num{font-size:clamp(1.4rem,5.5vw,2.4rem);letter-spacing:.02em;white-space:nowrap;}',
       '.mp-card.selected{border-color:#F2784B;border-width:5px;transform:scale(1.06);box-shadow:0 0 0 4px rgba(242,120,75,0.25);}',
       '.mp-card.paired{background:#E8F3E5;border-color:#5BAE5E;color:#2E6B33;cursor:pointer;}',
       '.mp-card.paired:hover{transform:scale(1.02);}',

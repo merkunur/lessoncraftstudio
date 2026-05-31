@@ -35,7 +35,16 @@ var ACTIVITY_STRINGS_MP = {
                      sv: 'Vissa par når inte målet — tryck på ett par för att lösa upp det och försök igen',
                      da: 'Nogle par når ikke målet — tryk på et par for at løse det op og prøv igen',
                      no: 'Noen par når ikke målet — trykk på et par for å løse det opp og prøv igjen',
-                     fi: 'Jotkin parit eivät yllä tavoitteeseen — paina paria avataksesi sen ja yritä uudelleen' }
+                     fi: 'Jotkin parit eivät yllä tavoitteeseen — paina paria avataksesi sen ja yritä uudelleen' },
+
+  /* ---- unknown-addend template (1.OA.B.4) chrome. EN base-locale only
+     this commission; the 10-locale fan-out adds entries per §A.13.48. The
+     unknown-addend activity ships slug.en only, so it loads at lang='en'
+     exclusively until fan-out — these EN-only keys are never read at any
+     other lang (no key-leak). ---- */
+  taskUnknownAddend:  { en: 'Match each subtraction with the addition that completes it' },
+  hintPairSubAdd:     { en: 'Tap a subtraction, then tap the addition that completes it' },
+  hintTryDifferentUA: { en: 'Some pairs don\'t match yet — tap a pair to break it and try again' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -80,6 +89,65 @@ function makeMatchTasks(tasksRaw, idPrefix) {
       hintKey: function (tool) {
         if (!tool.allPaired()) return 'hintFormPairs';
         return 'hintTryDifferent';
+      }
+    };
+  });
+}
+
+/* task_template 'unknown-addend' (1.OA.B.4) — pair each subtraction card
+   with the addition that completes it as an unknown-addend problem
+   (to do W−b, find what adds to b to make W). Each task is anchored on a
+   single whole W (stored in t.target, the same field setupTask + the core
+   speakAllPairs() already read — so "All pairs make {W}!" is spoken with
+   the value-verified cardSpoken word table, no core rename, no new audio
+   string). Cards are {display, kind, pairKey} objects; validity is an
+   authored pairKey shared by exactly one subtraction + its one completing
+   addition. The manifest guarantees no two subtrahends in a task sum to W,
+   so each subtraction has exactly ONE valid completing addition on the
+   board (no commutative ambiguity). The numeric make-n path is unaffected. */
+function makeUnknownAddendTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var whole = t.target;            /* the whole W; drives speakAllPairs */
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.whole-' + whole + '-' + i,
+      promptKey: 'taskUnknownAddend',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ target: whole, cards: cards });
+        tool.render();   /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair is a
+           valid subtraction↔completing-addition pair (shared pairKey). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && a.pairKey != null && a.pairKey === b.pairKey;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          /* Mark mismatched pairs visually + speak the gentle nudge. The
+             new template sets wrongIdxSet directly (core markWrongPairs is
+             sum-based and unused here). */
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board + speak "All pairs make {W}!". */
+        tool.readOnly = true;
+        tool.paint();
+        tool.speakAllPairs();
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintPairSubAdd';
+        return 'hintTryDifferentUA';
       }
     };
   });
@@ -138,6 +206,17 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       var row = rows.find(function (r) { return r.id === self._activityId; });
       if (!row) return;
       self._activityRow = row;
+      /* Sync the in-iframe shell title to this row's page_title. The shell
+         rendered the generic facade title at mount (before this async fetch
+         resolved); with two+ activities on one facade the specific title
+         must come from the loaded row. Guarded to write ONLY when the text
+         differs, so K.OA.A.3 (whose facade title == page_title in every
+         locale) gets ZERO DOM mutation and stays byte-identical. */
+      var titleEl = document.querySelector('.lcs-title');
+      var wantTitle = row.page_title && row.page_title[self.language];
+      if (titleEl && wantTitle && titleEl.textContent !== wantTitle) {
+        titleEl.textContent = wantTitle;
+      }
       self.tasks = self._buildTasksFromRow(row);
       if (typeof window.LCS_reloadFirstTask === 'function') {
         window.LCS_reloadFirstTask();
@@ -151,6 +230,10 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
     if (row.task_template === 'make-n') {
       var tasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeMatchTasks(tasks, row.id);
+    }
+    if (row.task_template === 'unknown-addend') {
+      var uaTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      return makeUnknownAddendTasks(uaTasks, row.id);
     }
     return STATIC_DEMO_TASKS_MP;
   }

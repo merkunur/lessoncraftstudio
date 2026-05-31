@@ -99,15 +99,19 @@ var ACTIVITY_STRINGS_MP = {
      Per-locale fan-out adds entries per §A.13.48; register matched to each
      locale's live E4 (K.OA.A.3 + 1.OA.D.7). ---- */
   taskThreeForm:      { en: 'Match the cards that show the same number',
-                        de: 'Finde die Karten, die dieselbe Zahl zeigen' },
+                        de: 'Finde die Karten, die dieselbe Zahl zeigen',
+                        fr: 'Relie les cartes qui montrent le même nombre' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
-                        de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl' },
+                        de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
+                        fr: 'Touche une carte, puis une autre carte qui montre le même nombre' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
-                        de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal' },
+                        de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
+                        fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
-                        de: 'Du hast alle Zahlen verbunden!' }
+                        de: 'Du hast alle Zahlen verbunden!',
+                        fr: 'Tu as relié tous les nombres !' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -245,6 +249,17 @@ var THREE_FORM_WORDS = {
     615: 'sechshundertfünfzehn',        700: 'siebenhundert',              208: 'zweihundertacht',
     353: 'dreihundertdreiundfünfzig',   940: 'neunhundertvierzig',         190: 'einhundertneunzig',
     560: 'fünfhundertsechzig',          274: 'zweihundertvierundsiebzig',  409: 'vierhundertneun'
+  },
+  /* FR: classic convention — space at the hundred boundary, hyphens within the
+     sub-99 tail (deux cent quarante-sept); cent→cents only on round ×100 (sept
+     cents); vigesimal 70s/90s; bare "cent" for h=1. Value-verified vs
+     _NUMBER_WORD_HELPERS.fr 2026-05-31 (15/15). */
+  fr: {
+    247: 'deux cent quarante-sept',  562: 'cinq cent soixante-deux',      305: 'trois cent cinq',
+    836: 'huit cent trente-six',     481: 'quatre cent quatre-vingt-un',  420: 'quatre cent vingt',
+    615: 'six cent quinze',          700: 'sept cents',                   208: 'deux cent huit',
+    353: 'trois cent cinquante-trois',940: 'neuf cent quarante',          190: 'cent quatre-vingt-dix',
+    560: 'cinq cent soixante',       274: 'deux cent soixante-quatorze',  409: 'quatre cent neuf'
   }
 };
 

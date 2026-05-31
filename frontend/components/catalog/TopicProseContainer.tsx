@@ -21,6 +21,7 @@ interface TopicProseContainerProps {
   topicName1?: string;
   // Intersection case: two axis-keys
   axisKey2?: string;
+  intent2?: 'exerciseType' | 'theme' | 'educationalLevel';
   topicName2?: string;
   // Live deck count — feeds the count-aware fallback intro (Part 2 structural
   // floor). Ignored when authored topicProse is present.
@@ -34,6 +35,34 @@ function intentForAxis(axis: Axis): 'exerciseType' | 'theme' | 'educationalLevel
 }
 
 export { intentForAxis };
+
+// R15.1 — axis-aware intersection fallback. Map the two axis intents (order-
+// independent) to one of three bounded variant templates. The call site passes
+// axes in canonical order (theme < educational-level < exercise-type), so each
+// variant's {primary}/{secondary} positions are fixed and the EN copy is
+// written accordingly.
+function intentPairVariant(
+  i1: string | undefined,
+  i2: string | undefined,
+): 'typeTheme' | 'typeLevel' | 'themeLevel' | null {
+  if (!i1 || !i2) return null;
+  const [a, b] = [i1, i2].sort(); // educationalLevel < exerciseType < theme
+  if (a === 'educationalLevel' && b === 'exerciseType') return 'typeLevel';
+  if (a === 'educationalLevel' && b === 'theme') return 'themeLevel';
+  if (a === 'exerciseType' && b === 'theme') return 'typeTheme';
+  return null;
+}
+
+// Presence check against the loaded messages object (no t() throw on a missing
+// key) so the code is safe to ship before the 10 non-EN variants are authored —
+// those locales fall back to the existing generic intersection.intro.
+function hasIntroByPair(messages: Record<string, unknown> | null, variant: string): boolean {
+  if (!messages) return false;
+  const tp = (messages as Record<string, unknown>).topicPage as Record<string, unknown> | undefined;
+  const intersection = tp?.intersection as Record<string, unknown> | undefined;
+  const ip = intersection?.introByPair as Record<string, unknown> | undefined;
+  return !!(ip && typeof ip[variant] === 'string' && (ip[variant] as string).length > 0);
+}
 
 function lookupTopicProse(
   messages: Record<string, unknown> | null,
@@ -63,6 +92,7 @@ export default async function TopicProseContainer({
   intent1,
   topicName1,
   axisKey2,
+  intent2,
   topicName2,
   count,
 }: TopicProseContainerProps) {
@@ -74,7 +104,11 @@ export default async function TopicProseContainer({
   if (!prose) {
     const n = count ?? 0;
     if (axisKey2 && topicName2 && topicName1) {
-      prose = t('intersection.intro', { primary: topicName1, secondary: topicName2, count: n });
+      const variant = intentPairVariant(intent1, intent2);
+      const params = { primary: topicName1, secondary: topicName2, count: n };
+      prose = variant && hasIntroByPair(messages, variant)
+        ? t(`intersection.introByPair.${variant}`, params)
+        : t('intersection.intro', params);
     } else if (intent1 && topicName1) {
       prose = t(`intro.${intent1}`, { topic: topicName1, count: n });
     } else {

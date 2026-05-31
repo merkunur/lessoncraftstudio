@@ -1,10 +1,22 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
+import type { Metadata } from 'next';
+import { headers } from 'next/headers';
 
-const SUPPORTED_LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+// R11b (SEO Part 6): server component — resolve the locale from the request
+// path header on the SERVER so the 404 SSR HTML carries the correct-locale
+// strings. The prior 'use client' version resolved the locale only after
+// hydration, so the server-rendered 404 streamed English strings into every
+// locale's flight payload. Mirrors app/[locale]/not-found.tsx:112-125.
+
 const DEFAULT_LOCALE = 'en';
+
+export const metadata: Metadata = {
+  title: '404 - Page Not Found',
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 const translations: Record<string, {
   title: string;
@@ -18,7 +30,7 @@ const translations: Record<string, {
     title: '404 - Page Not Found',
     description: "Sorry, we couldn't find the page you're looking for.",
     goToHomepage: 'Go to Homepage',
-    browseAllApps: 'Browse All Apps',
+    browseAllApps: 'Browse Worksheets',
     needHelp: 'Need help?',
     contactUs: 'Contact us',
   },
@@ -26,31 +38,31 @@ const translations: Record<string, {
     title: '404 - Seite nicht gefunden',
     description: 'Die gesuchte Seite konnte leider nicht gefunden werden.',
     goToHomepage: 'Zur Startseite',
-    browseAllApps: 'Alle Generatoren ansehen',
+    browseAllApps: 'Arbeitsblätter durchsuchen',
     needHelp: 'Brauchen Sie Hilfe?',
     contactUs: 'Kontaktieren Sie uns',
   },
   fr: {
-    title: '404 - Page non trouvee',
-    description: "Desole, la page que vous recherchez est introuvable.",
-    goToHomepage: "Aller a l'accueil",
-    browseAllApps: 'Parcourir toutes les applis',
+    title: '404 - Page non trouvée',
+    description: "Désolé, la page que vous recherchez est introuvable.",
+    goToHomepage: "Aller à l'accueil",
+    browseAllApps: 'Parcourir les fiches',
     needHelp: "Besoin d'aide ?",
     contactUs: 'Contactez-nous',
   },
   es: {
-    title: '404 - Pagina no encontrada',
-    description: 'Lo sentimos, no pudimos encontrar la pagina que buscas.',
-    goToHomepage: 'Ir a la pagina principal',
-    browseAllApps: 'Ver todas las aplicaciones',
-    needHelp: 'Necesitas ayuda?',
-    contactUs: 'Contactanos',
+    title: '404 - Página no encontrada',
+    description: 'Lo sentimos, no pudimos encontrar la página que buscas.',
+    goToHomepage: 'Ir a la página principal',
+    browseAllApps: 'Ver las hojas de trabajo',
+    needHelp: '¿Necesitas ayuda?',
+    contactUs: 'Contáctanos',
   },
   pt: {
-    title: '404 - Pagina nao encontrada',
-    description: 'Desculpe, nao conseguimos encontrar a pagina que procura.',
-    goToHomepage: 'Ir para a pagina inicial',
-    browseAllApps: 'Ver todas as aplicacoes',
+    title: '404 - Página não encontrada',
+    description: 'Desculpe, não conseguimos encontrar a página que procura.',
+    goToHomepage: 'Ir para a página inicial',
+    browseAllApps: 'Ver as atividades',
     needHelp: 'Precisa de ajuda?',
     contactUs: 'Contacte-nos',
   },
@@ -58,7 +70,7 @@ const translations: Record<string, {
     title: '404 - Pagina non trovata',
     description: 'Ci dispiace, non siamo riusciti a trovare la pagina.',
     goToHomepage: 'Vai alla home page',
-    browseAllApps: 'Sfoglia tutte le app',
+    browseAllApps: 'Sfoglia le schede',
     needHelp: 'Hai bisogno di aiuto?',
     contactUs: 'Contattaci',
   },
@@ -66,81 +78,59 @@ const translations: Record<string, {
     title: '404 - Pagina niet gevonden',
     description: 'Sorry, we konden de pagina die je zoekt niet vinden.',
     goToHomepage: 'Ga naar startpagina',
-    browseAllApps: 'Bekijk alle apps',
+    browseAllApps: 'Bekijk werkbladen',
     needHelp: 'Hulp nodig?',
     contactUs: 'Neem contact op',
   },
   sv: {
     title: '404 - Sidan hittades inte',
-    description: 'Tyvarr kunde vi inte hitta sidan du letar efter.',
-    goToHomepage: 'Ga till startsidan',
-    browseAllApps: 'Blaeddra bland alla appar',
-    needHelp: 'Behover du hjaelp?',
+    description: 'Tyvärr kunde vi inte hitta sidan du letar efter.',
+    goToHomepage: 'Gå till startsidan',
+    browseAllApps: 'Bläddra bland arbetsblad',
+    needHelp: 'Behöver du hjälp?',
     contactUs: 'Kontakta oss',
   },
   da: {
     title: '404 - Siden blev ikke fundet',
     description: 'Beklager, vi kunne ikke finde den side, du leder efter.',
-    goToHomepage: 'Ga til forsiden',
-    browseAllApps: 'Se alle apps',
-    needHelp: 'Brug for hjaelp?',
+    goToHomepage: 'Gå til forsiden',
+    browseAllApps: 'Se arbejdsark',
+    needHelp: 'Brug for hjælp?',
     contactUs: 'Kontakt os',
   },
   no: {
     title: '404 - Siden ble ikke funnet',
     description: 'Beklager, vi kunne ikke finne siden du leter etter.',
-    goToHomepage: 'Ga til forsiden',
-    browseAllApps: 'Se alle apper',
+    goToHomepage: 'Gå til forsiden',
+    browseAllApps: 'Se arbeidsark',
     needHelp: 'Trenger du hjelp?',
     contactUs: 'Kontakt oss',
   },
   fi: {
-    title: '404 - Sivua ei loytynyt',
-    description: 'Valitettavasti emme loytaneet etsimaasi sivua.',
+    title: '404 - Sivua ei löytynyt',
+    description: 'Valitettavasti emme löytäneet etsimääsi sivua.',
     goToHomepage: 'Siirry etusivulle',
-    browseAllApps: 'Selaa kaikkia sovelluksia',
+    browseAllApps: 'Selaa tehtäväsivuja',
     needHelp: 'Tarvitsetko apua?',
-    contactUs: 'Ota yhteytta',
+    contactUs: 'Ota yhteyttä',
   },
 };
 
-function detectLocale(): string {
-  if (typeof window === 'undefined') return DEFAULT_LOCALE;
-
-  // Try URL pathname first
-  const pathSegments = window.location.pathname.split('/').filter(Boolean);
-  if (pathSegments.length > 0 && SUPPORTED_LOCALES.includes(pathSegments[0])) {
-    return pathSegments[0];
-  }
-
-  // Try cookies
-  const cookies = document.cookie.split(';').reduce((acc, cookie) => {
-    const [key, value] = cookie.trim().split('=');
-    acc[key] = value;
-    return acc;
-  }, {} as Record<string, string>);
-
-  if (cookies['NEXT_LOCALE'] && SUPPORTED_LOCALES.includes(cookies['NEXT_LOCALE'])) {
-    return cookies['NEXT_LOCALE'];
-  }
-
-  return DEFAULT_LOCALE;
-}
-
 export default function NotFound() {
-  const [locale, setLocale] = useState(DEFAULT_LOCALE);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setLocale(detectLocale());
-    setMounted(true);
-  }, []);
-
-  const t = translations[locale] || translations[DEFAULT_LOCALE];
-
-  if (!mounted) {
-    return <div className="min-h-screen flex items-center justify-center bg-gray-50" />;
+  // Resolve locale server-side from the request path header (mirrors
+  // app/[locale]/not-found.tsx) so SSR renders the correct-locale 404.
+  let locale = DEFAULT_LOCALE;
+  try {
+    const headersList = headers();
+    const pathname = headersList.get('x-next-url') || headersList.get('x-invoke-path') || '';
+    const match = pathname.match(/^\/([a-z]{2})\//);
+    if (match && match[1] in translations) {
+      locale = match[1];
+    }
+  } catch {
+    // Fallback to English
   }
+  const t = translations[locale] || translations[DEFAULT_LOCALE];
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -160,7 +150,7 @@ export default function NotFound() {
             {t.goToHomepage}
           </Link>
           <Link
-            href={`/${locale}/apps`}
+            href={`/${locale}/worksheets`}
             className="block w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-md hover:bg-gray-200 transition-colors"
           >
             {t.browseAllApps}

@@ -480,6 +480,17 @@ function buildSeoOpts(c) {
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }
   );
   seoOpts.differentiator = diffResult;
+  // R15.2: per-locale "Features {phrase}." sentence for the description middle
+  // pool. Source-gated: use the value ONLY when it resolves from the locale's
+  // OWN seo.featuresSentence (res.source === 'locale'), NEVER the en-fallback —
+  // a lagging locale silently emits no diff sentence instead of leaking English.
+  seoOpts.diffSentenceTemplate = '';
+  try {
+    var featRes = i18n.resolve(c.manifest.language, 'seo.featuresSentence', '');
+    if (featRes && featRes.source === 'locale' && featRes.value) {
+      seoOpts.diffSentenceTemplate = String(featRes.value);
+    }
+  } catch (e) { /* key absent in locale + en → leave feature off */ }
   // Disambiguator: ONLY decks that genuinely collide on their composed title get a
   // short code, per the pre-flight-built map (locale -> slug -> code). Decks made
   // unique by their own content differentiator (e.g. find-and-count sets that each

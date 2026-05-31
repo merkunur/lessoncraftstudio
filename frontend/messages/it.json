@@ -1109,6 +1109,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Con {phrase}.",
     "educational_level": {
       "preschool": "Scuola dell'infanzia",
       "kindergarten": "Prescolare",

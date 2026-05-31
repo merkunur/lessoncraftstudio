@@ -1093,6 +1093,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Med {phrase}.",
     "educational_level": {
       "preschool": "Børnehave",
       "kindergarten": "Børnehaveklasse",

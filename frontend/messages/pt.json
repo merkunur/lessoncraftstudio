@@ -1109,6 +1109,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Com {phrase}.",
     "educational_level": {
       "preschool": "Educação infantil",
       "kindergarten": "Pré-escola",

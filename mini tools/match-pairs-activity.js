@@ -101,21 +101,25 @@ var ACTIVITY_STRINGS_MP = {
   taskThreeForm:      { en: 'Match the cards that show the same number',
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
                         fr: 'Relie les cartes qui montrent le même nombre',
-                        da: 'Forbind kortene, der viser det samme tal' },
+                        da: 'Forbind kortene, der viser det samme tal',
+                        no: 'Koble sammen kortene som viser det samme tallet' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
-                        da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal' },
+                        da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
+                        no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
-                        da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen' },
+                        da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
+                        no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
                         de: 'Du hast alle Zahlen verbunden!',
                         fr: 'Tu as relié tous les nombres !',
-                        da: 'Du har forbundet alle tal!' }
+                        da: 'Du har forbundet alle tal!',
+                        no: 'Du har koblet sammen alle tallene!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -276,6 +280,17 @@ var THREE_FORM_WORDS = {
     615: 'sekshundrede og femten',      700: 'syvhundrede',                    208: 'tohundrede og otte',
     353: 'trehundrede og treoghalvtreds',940: 'nihundrede og fyrre',            190: 'hundrede og halvfems',
     560: 'femhundrede og tres',         274: 'tohundrede og fireoghalvfjerds',  409: 'firehundrede og ni'
+  },
+  /* NO (Bokmål): FULLY-COMPOUND, no spaces (tohundreogførtisju); decimal
+     tens-first (førtisju = 40+7); hundre (not hundrede); bare "hundre" for
+     h=1; sju (7); "én" (acute) for 1 in tails. Value-verified vs
+     _NUMBER_WORD_HELPERS.no 2026-05-31 (15/15). [NSR-FLAG][no] */
+  no: {
+    247: 'tohundreogførtisju',     562: 'femhundreogsekstito',     305: 'trehundreogfem',
+    836: 'åttehundreogtrettiseks', 481: 'firehundreogåttién',      420: 'firehundreogtjue',
+    615: 'sekshundreogfemten',     700: 'sjuhundre',               208: 'tohundreogåtte',
+    353: 'trehundreogfemtitre',    940: 'nihundreogførti',         190: 'hundreognitti',
+    560: 'femhundreogseksti',      274: 'tohundreogsyttifire',     409: 'firehundreogni'
   }
 };
 

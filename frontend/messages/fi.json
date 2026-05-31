@@ -1744,7 +1744,7 @@
         "q2": "Ovatko nämä {code}-resurssit ilmaisia?",
         "a2": "Kyllä. Jokainen aktiviteetti ja tehtävä, joka on sovitettu kohtaan {code}, on ilmainen käyttää verkossa ja tulostaa — ei rekisteröitymistä eikä maksumuuria.",
         "q3": "Keille nämä {code}-aktiviteetit on tarkoitettu?",
-        "a3": "Ne on rakennettu opettajille ja oppijoille tasolla {grade}, jotka seuraavat Common Core {strand} -etenemistä, ja ne toimivat luokan, pienryhmän tai kotiharjoittelussa."
+        "a3": "Ne on rakennettu opettajille ja oppijoille tasolla {grade}, jotka seuraavat OPS 2014 {strand} -etenemistä, ja ne toimivat luokan, pienryhmän tai kotiharjoittelussa."
       }
     }
   },
@@ -2314,10 +2314,10 @@
   "standardsPage": {
     "meta": {
       "title": "Ilmaisia {code}-tehtäviä ja työarkkeja 11 kielellä",
-      "description": "Ilmaisia interaktiivisia K-3-tehtäviä ja tulostettavia työarkkeja Common Core State Standard {code} ({strand}) -mukaisesti. Saatavilla 11 kielellä."
+      "description": "Ilmaisia interaktiivisia K-3-tehtäviä ja tulostettavia työarkkeja OPS 2014 {code} ({strand}) -mukaisesti. Saatavilla 11 kielellä."
     },
     "pageTitle": "{code} — Ilmaisia tehtäviä ja työarkkeja",
-    "intro": "Ilmaisia Common Core {code} -tehtäviä ja työarkkeja {grade}-tasolle, {strand} -osa-alueeseen sidottuna. Selaimessa pelattavia interaktiivisia harjoituksia sekä tulostettavia PDF-tiedostoja, saatavilla kaikilla 11 tuetulla kielellä — ei rekisteröitymistä, ei maksumuuria.",
+    "intro": "Ilmaisia OPS 2014 {code} -tehtäviä ja työarkkeja {grade}-tasolle, {strand} -osa-alueeseen sidottuna. Selaimessa pelattavia interaktiivisia harjoituksia sekä tulostettavia PDF-tiedostoja, saatavilla kaikilla 11 tuetulla kielellä — ei rekisteröitymistä, ei maksumuuria.",
     "activitiesHeading": "Interaktiiviset tehtävät",
     "noActivitiesYet": "Tähän standardiin sidottuja tehtäviä ei ole vielä julkaistu. Käy pian uudelleen.",
     "relatedStandardsHeading": "Aiheeseen liittyvät standardit kohdassa {domain}",

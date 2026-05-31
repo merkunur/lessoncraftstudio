@@ -1489,7 +1489,7 @@
         "q2": "Zijn deze {code}-bronnen gratis?",
         "a2": "Ja. Elke activiteit en elk werkblad dat aansluit op {code} is gratis online te gebruiken en af te drukken — zonder aanmelding en zonder betaalmuur.",
         "q3": "Voor wie zijn deze {code}-activiteiten?",
-        "a3": "Ze zijn gemaakt voor leerkrachten en leerlingen van {grade} die de Common Core-opbouw van {strand} volgen, en werken voor klassikaal, in kleine groepjes of thuis oefenen."
+        "a3": "Ze zijn gemaakt voor leerkrachten en leerlingen van {grade} die de SLO-kerndoelen-opbouw van {strand} volgen, en werken voor klassikaal, in kleine groepjes of thuis oefenen."
       }
     }
   },
@@ -2325,10 +2325,10 @@
   "standardsPage": {
     "meta": {
       "title": "Gratis {code} activiteiten & werkbladen in 11 talen",
-      "description": "Gratis K-3 interactieve activiteiten en printbare werkbladen aansluitend op Common Core State Standard {code} ({strand}). Beschikbaar in 11 talen."
+      "description": "Gratis K-3 interactieve activiteiten en printbare werkbladen aansluitend op SLO-kerndoelen {code} ({strand}). Beschikbaar in 11 talen."
     },
     "pageTitle": "{code} — Gratis activiteiten & werkbladen",
-    "intro": "Gratis Common Core {code} activiteiten en werkbladen voor {grade}, aansluitend op de leerlijn {strand}. In de browser speelbare interactieve oefeningen plus printbare PDF's, beschikbaar in alle 11 ondersteunde talen — geen registratie, geen betaalmuur.",
+    "intro": "Gratis SLO-kerndoelen {code} activiteiten en werkbladen voor {grade}, aansluitend op de leerlijn {strand}. In de browser speelbare interactieve oefeningen plus printbare PDF's, beschikbaar in alle 11 ondersteunde talen — geen registratie, geen betaalmuur.",
     "activitiesHeading": "Interactieve activiteiten",
     "noActivitiesYet": "Er zijn nog geen activiteiten aansluitend op deze standaard gepubliceerd. Kom snel terug.",
     "relatedStandardsHeading": "Gerelateerde standaarden in {domain}",

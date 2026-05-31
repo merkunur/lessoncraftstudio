@@ -50,6 +50,15 @@ const GRADE_KEY_MAP: Record<string, string> = {
   '3': 'grade_3',
 };
 
+// Per-locale curriculum-framework NAME (matches the activity route). EN = Common
+// Core; non-EN cite the national framework (§A.13.49). The CCSS code stays the
+// anchor (targetName + the /standards/<code> URL). Operator decision 2026-05-31.
+const FRAMEWORK_BY_LOCALE: Record<string, string> = {
+  en: 'Common Core State Standards', de: 'Lehrplan', fr: 'Programmes officiels',
+  es: 'Currículo LOMLOE', pt: 'BNCC', it: 'Indicazioni nazionali', nl: 'SLO-kerndoelen',
+  sv: 'Lgr22', da: 'Fælles Mål', no: 'LK20', fi: 'OPS 2014',
+};
+
 interface PageParams {
   locale: string;
   code: string;
@@ -171,9 +180,8 @@ function jsonLdFor(
       targetName: meta.code,
       targetDescription: localizeStrand(meta.strand, locale),
       educationalFramework:
-        meta.framework === 'CCSS'
-          ? 'Common Core State Standards'
-          : meta.framework,
+        FRAMEWORK_BY_LOCALE[locale] ||
+        (meta.framework === 'CCSS' ? 'Common Core State Standards' : meta.framework),
     },
     numberOfItems: activities.length,
     url: canonical,

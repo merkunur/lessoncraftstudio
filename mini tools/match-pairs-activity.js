@@ -90,7 +90,21 @@ var ACTIVITY_STRINGS_MP = {
                         no: 'Du har koblet sammen alle par!',
                         sv: 'Du har kopplat ihop alla par!',
                         fi: 'Yhdistit kaikki parit!',
-                        nl: 'Je hebt alle paren verbonden!' }
+                        nl: 'Je hebt alle paren verbonden!' },
+
+  /* ---- three-form template (2.NBT.A.3) chrome. The kid matches cards that
+     show the SAME number across numeral / expanded-form / number-word
+     representations. Each task has 3 pairs with 3 DIFFERENT numbers, so each
+     value maps to exactly two cards → every match is unique, no false-correct.
+     EN base-locale only this commission; the 10-locale fan-out adds entries
+     per §A.13.48. slug.en only → loads at lang='en' exclusively (no key-leak). ---- */
+  taskThreeForm:      { en: 'Match the cards that show the same number' },
+  hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number' },
+  hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again' },
+  /* Check-correct celebration, spoken AFTER the three matched number-words are
+     read aloud. Number-free + truthful (a task has three different numbers).
+     EN-only. */
+  speakThreeFormDone: { en: 'You matched every number!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -203,6 +217,104 @@ function makeEqualValueTasks(tasksRaw, idPrefix) {
   });
 }
 
+/* Value-verified EN number-words (100-999) for the three-form activity's
+   spoken layer. Each entry EQUALS PlaceValueCore._NUMBER_WORD_HELPERS.en(n)
+   (US Common Core convention — no "and"; hyphenated 21-99), copied here as a
+   flat lookup per the locked engine-decoupling doctrine — NO PlaceValueCore
+   import (§0.4 / feedback_cognate_aware_verify_discipline.md). Covers exactly
+   the 15 values used by match-pairs.three-ways-to-show-a-number. */
+var THREE_FORM_WORDS_EN = {
+  247: 'two hundred forty-seven',
+  562: 'five hundred sixty-two',
+  305: 'three hundred five',
+  836: 'eight hundred thirty-six',
+  481: 'four hundred eighty-one',
+  420: 'four hundred twenty',
+  615: 'six hundred fifteen',
+  700: 'seven hundred',
+  208: 'two hundred eight',
+  353: 'three hundred fifty-three',
+  940: 'nine hundred forty',
+  190: 'one hundred ninety',
+  560: 'five hundred sixty',
+  274: 'two hundred seventy-four',
+  409: 'four hundred nine'
+};
+
+/* task_template 'three-form' (2.NBT.A.3) — "Read and write numbers to 1000
+   using base-ten numerals, number names, and expanded form." Each task shows
+   6 cards = 3 pairs; each number's value appears on exactly TWO cards, bridging
+   two of its three representations (numeral / expanded "200 + 40 + 7" /
+   number-word "two hundred forty-seven"). Across the task all three forms
+   appear; across the activity every bridge type (numeral↔expanded,
+   numeral↔word, word↔expanded) is exercised. Validity is the same value-
+   equality as equal-value (a.value === b.value), so the engine state machine +
+   connector renderer are UNCHANGED. On correct Check the three matched number-
+   words are spoken in ascending order (reading 3-digit numbers aloud is the
+   2.NBT.A.3 teaching point), then a number-free celebration. The only engine
+   additions are the .mp-word wrapping face + the _speakWordTable tap-audio
+   branch in match-pairs-core.js. */
+function makeThreeFormTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskThreeForm',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ cards: cards });           /* no single target → no banner */
+        tool._speakWordTable = THREE_FORM_WORDS_EN; /* enables number-word tap-audio for object cards */
+        tool.render();                              /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair has two
+           cards of EQUAL value (two representations of the same number). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && typeof a.value === 'number' && a.value === b.value;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          /* Mark mismatched pairs visually + speak the gentle nudge (sets
+             wrongIdxSet directly; core markWrongPairs is sum-based, unused here). */
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board, then speak each matched number-word in
+           ascending order followed by a truthful number-free celebration. */
+        tool.readOnly = true;
+        tool.paint();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var vals = [];
+          tool.cards.forEach(function (c) {
+            if (c && typeof c === 'object' && typeof c.value === 'number' && vals.indexOf(c.value) < 0) {
+              vals.push(c.value);
+            }
+          });
+          vals.sort(function (x, y) { return x - y; });
+          var words = vals.map(function (v) { return THREE_FORM_WORDS_EN[v] || String(v); });
+          var done = (tool.strings.speakThreeFormDone && tool.strings.speakThreeFormDone[tool.language])
+                     || tool.strings.speakThreeFormDone.en;
+          var text = words.join('. ') + '. ' + done;
+          window.LCSAudio.speak({ type: 'ui', text: text, lang: tool.language, rate: 0.95 });
+        }
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintThreeForm';
+        return 'hintTryThreeForm';
+      }
+    };
+  });
+}
+
 window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   id: 'match-pairs-activity',
   strings: Object.assign({}, MatchPairsCore.strings, ACTIVITY_STRINGS_MP, {
@@ -284,6 +396,10 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
     if (row.task_template === 'equal-value') {
       var evTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeEqualValueTasks(evTasks, row.id);
+    }
+    if (row.task_template === 'three-form') {
+      var tfTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      return makeThreeFormTasks(tfTasks, row.id);
     }
     return STATIC_DEMO_TASKS_MP;
   }

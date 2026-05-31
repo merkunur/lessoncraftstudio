@@ -37,15 +37,17 @@ slug audit found **0 structural defects** across 19,537 decks.
 - **2b: old-slug 301 consolidation — already live** (no-op; verified at Phase 0).
 - **2c: structural drift — none found**, nothing to fix.
 
-## Surfaced for operator decision (not auto-executed)
-**73 decks carry a `thanksgivinng` (double-n) typo** in slug + meta description
-(en 63, es 4, pt 3, de 2, fr 1), from an old theme-source typo (current
-derivation spells it correctly). Titles are unaffected; the typo is visible in
-the URL and the search-snippet description. The URLs resolve and are
-self-canonical. Options: (A) re-slug to the correct spelling (301 old→new via the
-live redirect map) + republish-seo the descriptions; (B) fix only the
-descriptions, leave the indexed URLs stable; (C) leave as-is. Re-slugging indexed
-URLs is outward-facing, hence surfaced rather than auto-applied.
+## `thanksgivinng` typo — FIXED (operator authorized, option A)
+**73 decks carried a `thanksgivinng` (double-n) typo** (en 63, es 4, pt 3, de 2,
+fr 1) in slug + on-disk PDF filenames + manifest theme + DB title/description
+JSON, from an old theme-source typo. `fix-thanksgivinng-typo.js` applied a uniform
+`thanksgivinng`→`thanksgiving` token correction across all surfaces (dir + PDF-file
+renames, deck.html, manifest, DB slug + 5 URL columns + title + description,
+symlink repoint), and the old-slug 301 map was regenerated so each old typo URL
+redirects to its corrected slug. **Verified:** corrected pages `200` +
+self-canonical, old URLs `301` → corrected, corrected PDFs `200` + noindex,
+**0 hard defects on 5-locale re-audit**, 0 residual typo in any published deck.
+7 **archived** (non-served, non-indexed) es rows retain the typo by design.
 
 ## What this means in Search Console
 The PDF URLs will drop out of Google's index over the next few weeks as Googlebot

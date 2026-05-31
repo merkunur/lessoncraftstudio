@@ -49,19 +49,22 @@ var ACTIVITY_STRINGS_MP = {
                         fr: 'Relie chaque addition à la soustraction qui a le même résultat',
                         da: 'Forbind hvert plusstykke med det minusstykke, der har samme resultat',
                         no: 'Koble hver plussoppgave til minusoppgaven som har samme resultat',
-                        sv: 'Koppla ihop varje plusuppgift med minusuppgiften som har samma resultat' },
+                        sv: 'Koppla ihop varje plusuppgift med minusuppgiften som har samma resultat',
+                        fi: 'Yhdistä jokainen yhteenlasku vähennyslaskuun, jolla on sama tulos' },
   hintEqualValue:     { en: 'Work out each card, then match the ones with the same answer',
                         de: 'Rechne jede Karte aus und verbinde die mit demselben Ergebnis',
                         fr: 'Calcule chaque carte, puis relie celles qui ont le même résultat',
                         da: 'Regn hvert kort ud, og forbind dem, der har samme resultat',
                         no: 'Regn ut hvert kort, og koble dem som har samme resultat',
-                        sv: 'Räkna ut varje kort och koppla ihop dem som har samma resultat' },
+                        sv: 'Räkna ut varje kort och koppla ihop dem som har samma resultat',
+                        fi: 'Laske kortit ja yhdistä ne, joilla on sama tulos' },
   hintTryEqualValue:  { en: 'Those answers aren\'t equal yet — tap a pair to break it and try again',
                         de: 'Die Ergebnisse passen noch nicht — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         fr: 'Ces résultats ne sont pas encore égaux — touche une paire pour la défaire et réessaie',
                         da: 'Resultaterne er ikke ens endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Resultatene er ikke like ennå — trykk på et par for å løse det opp og prøv igjen',
-                        sv: 'Resultaten är inte lika än — tryck på ett par för att lösa upp det och försök igen' },
+                        sv: 'Resultaten är inte lika än — tryck på ett par för att lösa upp det och försök igen',
+                        fi: 'Tulokset eivät ole vielä samat — paina paria avataksesi sen ja yritä uudelleen' },
   /* Truthful Check-correct celebration. Does NOT claim a number total — a
      task has TWO different answers, so "All pairs make 5!" would be false.
      The shell shows its visual "Great!"; this is the spoken line. EN-only. */
@@ -70,7 +73,8 @@ var ACTIVITY_STRINGS_MP = {
                         fr: 'Tu as relié toutes les paires !',
                         da: 'Du har forbundet alle par!',
                         no: 'Du har koblet sammen alle par!',
-                        sv: 'Du har kopplat ihop alla par!' }
+                        sv: 'Du har kopplat ihop alla par!',
+                        fi: 'Yhdistit kaikki parit!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

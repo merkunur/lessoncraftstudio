@@ -18,7 +18,7 @@
  * and are wired into LOADERS below. Only locales present in LOADERS resolve;
  * any other locale returns null and the page renders no extra sections (it
  * keeps its current intro-only shape — never English prose on a non-EN page).
- * Part 3 adds the other ten locale files + their LOADERS entries together.
+ * All 11 locales are present in LOADERS (activity-page SEO arc 2026-05-30).
  *
  * `whatsInside` is always derived from the row's own structured data so even
  * a fully-templated page carries unique nouns + numbers — this is what keeps

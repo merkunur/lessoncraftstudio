@@ -24,10 +24,15 @@
  *   4. siblingAxisStrip           — present when neighboring exercise-type axes have decks
  *   5. varietyStripRotation       — always present (rotational §16.2)
  *   6. crossAxisPivots            — always present (§16.2)
- *   7. deckEndSuggestionStrip     — present when locale catalog has ≥7 decks
- *                                   (Commission B 6-slot fan-out structurally needs ≥7 sources)
- *   8. breadthGridFeatured        — Phase 3a conservative `false`; Phase 3b imports
- *                                   featured-deck-by-locale.ts membership check
+ *   7. deckEndSuggestionStrip     — R17a: when opts.deckHtml is given, derived
+ *                                   from the ACTUALLY-rendered strip (≥3 lcs-
+ *                                   deckend-suggestions markers + ≥1 lcs-deckend-
+ *                                   tile, same regexes audit-deck-html.js uses);
+ *                                   else falls back to the ≥7-locale-decks DB proxy
+ *   8. endDeckTopicLinks          — R17a: when opts.deckHtml is given, true iff the
+ *                                   lcs-end-deck aside (Parts 2B/5) renders with a
+ *                                   /topic/ link; else false (was the dead
+ *                                   breadthGridFeatured `false` placeholder)
  *
  * Per-locale-bounded query convention: all DB queries hit (language, status, *)
  * compound indexes per topic-decks.ts: fetchDecksForAxis precedent.
@@ -52,7 +57,8 @@ var db = require('./db');
  * Returns {count: 0, perSurface: {}} for non-existent or non-published decks
  * (gate-side caller treats as INBOUND_LINK_COUNT_BELOW_TARGET if predicate fires).
  */
-async function countInboundSurfacesForDeck(deckId, language) {
+async function countInboundSurfacesForDeck(deckId, language, opts) {
+  var deckHtml = (opts && typeof opts.deckHtml === 'string') ? opts.deckHtml : null;
   // Step 1: fetch the deck row (single indexed lookup)
   var deck = await db.client().deck.findUnique({
     where: { id: deckId },
@@ -112,22 +118,29 @@ async function countInboundSurfacesForDeck(deckId, language) {
   // surface as cross-axis-pivot targets via their axis-key membership).
   perSurface.crossAxisPivots = true;
 
-  // Surface 7: Deck-end suggestion strip presence
-  // Per Commission B Phase 2: 6-slot strip per deck.html, fan-out across
-  // locale catalog. Strip structurally requires ≥7 decks in locale (6 slots
-  // + 1 self). At locale catalog count <7, strip falls below cardinality.
-  var localeDeckCount = await db.client().deck.count({
-    where: { language: language, status: 'published' }
-  });
-  perSurface.deckEndSuggestionStrip = localeDeckCount >= 7;
+  // Surface 7: Deck-end suggestion strip — R17a aligns with rendered reality.
+  // When the caller passes the published deck.html, derive presence from the
+  // SAME markers audit-deck-html.js checks (≥3 lcs-deckend-suggestions + ≥1
+  // lcs-deckend-tile). Otherwise fall back to the ≥7-locale-decks DB proxy
+  // (a strip structurally needs 6 sibling slots + self).
+  if (deckHtml) {
+    var suggMarkers = (deckHtml.match(/lcs-deckend-suggestions/g) || []).length;
+    var tileMarkers = (deckHtml.match(/lcs-deckend-tile/g) || []).length;
+    perSurface.deckEndSuggestionStrip = suggMarkers >= 3 && tileMarkers > 0;
+  } else {
+    var localeDeckCount = await db.client().deck.count({
+      where: { language: language, status: 'published' }
+    });
+    perSurface.deckEndSuggestionStrip = localeDeckCount >= 7;
+  }
 
-  // Surface 8: BreadthGrid + featured + EmbedViralityCTA — Phase 3a conservative
-  // Per Phase 1 §3 rationale: counting only structurally-derived surfaces (1-7)
-  // keeps the N≥3 floor calibration honest. BreadthGrid membership (§18.4
-  // 9-cell composition) is operator-curated per locale; not all decks reach
-  // this surface. If a deck IS a featured pick, it's a bonus over the floor.
-  // Phase 3b refinement: import featured-deck-by-locale.ts + check membership.
-  perSurface.breadthGridFeatured = false; // conservative; refine in Phase 3b
+  // Surface 8: end-of-deck topic-link aside — R17a. The lcs-end-deck aside
+  // (Parts 2B/5) carries real <a> links to this deck's topic-destination pages.
+  // True only when it actually renders with at least one /topic/ link; absent
+  // deck.html → false (replaces the dead breadthGridFeatured placeholder).
+  perSurface.endDeckTopicLinks = !!(deckHtml &&
+    /class="lcs-end-deck"/.test(deckHtml) &&
+    /\/topic\//.test(deckHtml));
 
   // Aggregate count across the 8 surfaces
   var count = Object.values(perSurface).filter(function (v) { return v === true; }).length;
@@ -140,8 +153,8 @@ async function countInboundSurfacesForDeck(deckId, language) {
  * that don't need per-surface breakdown). Equivalent to
  * `countInboundSurfacesForDeck(deckId, language).then(r => r.count)`.
  */
-async function countInboundSurfaces(deckId, language) {
-  var result = await countInboundSurfacesForDeck(deckId, language);
+async function countInboundSurfaces(deckId, language, opts) {
+  var result = await countInboundSurfacesForDeck(deckId, language, opts);
   return result.count;
 }
 

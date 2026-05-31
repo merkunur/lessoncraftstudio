@@ -610,6 +610,11 @@ function reconcileLocaleResidueViaTrace(manifest) {
   var trace = manifest.seo_trace;
   var issues = [];
 
+  // R17d: reuse the lexicon path's loanword carve-outs so the trace-side
+  // English-equality check applies the SAME exceptions (e.g. DE "Kindergarten").
+  var traceExceptions = loadLexiconExceptions();
+  var traceLocaleExceptions = new Set(((traceExceptions[locale]) || []).map(function (w) { return w.toLowerCase(); }));
+
   ['title', 'description'].forEach(function (section) {
     var fields = (trace && trace[section]) || {};
     Object.keys(fields).forEach(function (field) {
@@ -647,6 +652,34 @@ function reconcileLocaleResidueViaTrace(manifest) {
           value: info.value,
           reason: 'raw_snake_case_axis_key_in_themeName'
         });
+      }
+
+      // R17d hardening: a non-en field that CLAIMS isLocalized=true but whose
+      // value is byte-identical to an English-source word (the translation was
+      // skipped but the flag was set). Single-token only (the lexicon holds
+      // single words; multi-word phrases never match, avoiding over-halting).
+      // Cross-locale words like "addition" are already excluded from
+      // ENGLISH_LEXICON, so they don't false-positive.
+      if (
+        locale !== 'en' &&
+        info.isLocalized !== false &&
+        typeof info.value === 'string'
+      ) {
+        var vLc = info.value.trim().toLowerCase();
+        if (
+          vLc &&
+          ENGLISH_LEXICON.has(vLc) &&
+          !BRAND_WHITELIST.has(vLc) &&
+          !traceLocaleExceptions.has(vLc)
+        ) {
+          issues.push({
+            section: section,
+            field: field,
+            source: info.source,
+            value: info.value,
+            reason: 'value_equals_english_source_despite_isLocalized_true'
+          });
+        }
       }
     });
   });

@@ -116,19 +116,22 @@
       "en": "addition-and-subtraction-pairs",
       "de": "plus-und-minus-paare",
       "fr": "paires-additions-soustractions",
-      "da": "plus-og-minus-par"
+      "da": "plus-og-minus-par",
+      "no": "pluss-og-minus-par"
     },
     "page_title": {
       "en": "Addition & Subtraction Pairs",
       "de": "Plus- und Minus-Paare",
       "fr": "Paires d'additions et de soustractions",
-      "da": "Plus- og minus-par"
+      "da": "Plus- og minus-par",
+      "no": "Pluss- og minus-par"
     },
     "page_intro": {
       "en": "Work out each card, then match the addition to the subtraction that has the same answer — tap one card, then its match, and watch the pair link. Every round has two answers to find. Aligned to Common Core 1.OA.D.7 — understanding that addition and subtraction expressions can be equal.",
       "de": "Rechne jede Karte aus und finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis — tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es zwei Ergebnisse zu finden. Angepasst an Common Core 1.OA.D.7 — verstehen, dass Additions- und Subtraktionsaufgaben gleich sein können.",
       "fr": "Calcule chaque carte, puis relie chaque addition à la soustraction qui a le même résultat — touche une carte, puis sa partenaire, et regarde la paire se relier. Chaque tour a deux résultats à trouver. Aligné à Common Core 1.OA.D.7 — comprendre que les additions et les soustractions peuvent être égales.",
-      "da": "Regn hvert kort ud, og forbind hvert plusstykke med det minusstykke, der har samme resultat — tryk på et kort, derefter på dets makker, og se hvordan parret forbindes. Hver runde har to resultater at finde. Tilpasset Common Core 1.OA.D.7 — forstå, at plus- og minusstykker kan have samme værdi."
+      "da": "Regn hvert kort ud, og forbind hvert plusstykke med det minusstykke, der har samme resultat — tryk på et kort, derefter på dets makker, og se hvordan parret forbindes. Hver runde har to resultater at finde. Tilpasset Common Core 1.OA.D.7 — forstå, at plus- og minusstykker kan have samme værdi.",
+      "no": "Regn ut hvert kort, og koble hver plussoppgave til minusoppgaven som har samme resultat — trykk på et kort, deretter på makkeren, og se hvordan paret kobles. Hver runde har to resultater å finne. Tilpasset Common Core 1.OA.D.7 — forstå at plussoppgaver og minusoppgaver kan ha samme verdi."
     },
     "kid_prompt_template": "taskEqualValue"
   }

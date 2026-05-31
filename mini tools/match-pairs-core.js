@@ -51,12 +51,6 @@ window.MatchPairsCore = {
        share `Mål` (Nordic-trio cognate). FI `Tavoite` Uralic-distinct
        from all. */
     targetLabel:    { en: 'Target',                                                                de: 'Ziel',                                                                                  es: 'Objetivo',                                                                                            it: 'Obiettivo',                                                                                                            fr: 'Objectif',                                                                                                                                                          pt: 'Objetivo',                                                                                                                                                                                                                             nl: 'Doel',                                                                                                    sv: 'Mål',                                                                                                     da: 'Mål',                                                                                                     no: 'Mål',                                                                                                     fi: 'Tavoite' },
-    /* Banner label for the unknown-addend template ("Whole: 7"). EN-only
-       this commission; the 10-locale fan-out adds entries per §A.13.48.
-       Read by render() ONLY when the board holds expression-object cards,
-       so it never touches the numeric K.OA.A.3 path (which keeps the
-       existing targetLabel). */
-    wholeLabel:     { en: 'Whole' },
     /* Screen-reader prefix for the card aria-label ("Card 5"). Per-locale;
        previously hard-coded EN in render(); hoisted at DE fan-out.
        SV+DA+NO share `Kort ` (Nordic-trio cognate). FI `Kortti ` is
@@ -340,17 +334,22 @@ window.MatchPairsCore = {
     /* Target banner — shown above the board; matches the prompt strip
        above the activity surface. Big coral number; readable at 375px. */
     /* Expression mode = the board carries {display,...} object cards
-       (unknown-addend template). The banner relabels to "Whole"; numeric
-       tasks (K.OA.A.3) keep the unchanged "Target" label + path. */
+       (unknown-addend template). Those boards contain subtraction cards
+       that do NOT equal the whole (5 − 1 = 4, not 5), so a "Target/Whole = N"
+       banner would be mathematically false — omit the banner entirely for
+       expression mode. Numeric tasks (K.OA.A.3) keep the correct "Target N"
+       banner because their pairs genuinely sum to the target. */
     var exprMode = this.cards.some(function (c) { return c && typeof c === 'object'; });
 
-    var targetEl = this.api.el('div', 'mp-target');
-    var targetLabel = this.api.el('span', 'mp-target-label');
-    targetLabel.textContent = (exprMode ? this.api.t('wholeLabel') : this.api.t('targetLabel'))
-                              || (exprMode ? 'Whole' : 'Target');
-    var targetNum = this.api.el('span', 'mp-target-num');
-    targetNum.textContent = String(this.target);
-    targetEl.append(targetLabel, targetNum);
+    var targetEl = null;
+    if (!exprMode) {
+      targetEl = this.api.el('div', 'mp-target');
+      var targetLabel = this.api.el('span', 'mp-target-label');
+      targetLabel.textContent = this.api.t('targetLabel') || 'Target';
+      var targetNum = this.api.el('span', 'mp-target-num');
+      targetNum.textContent = String(this.target);
+      targetEl.append(targetLabel, targetNum);
+    }
 
     /* SVG layer for connection lines. Positioned absolutely behind cards. */
     var linesSvg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -383,7 +382,8 @@ window.MatchPairsCore = {
       self._cardEls.push(card);
     });
 
-    wrap.append(targetEl, linesSvg, board);
+    if (targetEl) wrap.append(targetEl);
+    wrap.append(linesSvg, board);
     stage.appendChild(wrap);
 
     this._wrapEl = wrap;

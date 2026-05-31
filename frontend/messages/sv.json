@@ -1755,7 +1755,7 @@
         "q2": "Är de här {code}-resurserna gratis?",
         "a2": "Ja. Varje aktivitet och arbetsblad som är anpassat till {code} är gratis att använda online och att skriva ut — ingen registrering och ingen betalvägg.",
         "q3": "Vilka är de här {code}-aktiviteterna för?",
-        "a3": "De är byggda för lärare och elever i {grade} som följer Common Core-progressionen för {strand}, och fungerar för helklass, smågrupp eller hemövning."
+        "a3": "De är byggda för lärare och elever i {grade} som följer Lgr22-progressionen för {strand}, och fungerar för helklass, smågrupp eller hemövning."
       }
     }
   },
@@ -2325,10 +2325,10 @@
   "standardsPage": {
     "meta": {
       "title": "Gratis {code}-aktiviteter & arbetsblad på 11 språk",
-      "description": "Gratis interaktiva F-3-aktiviteter och utskrivbara arbetsblad anpassade till Common Core State Standard {code} ({strand}). Tillgängliga på 11 språk."
+      "description": "Gratis interaktiva F-3-aktiviteter och utskrivbara arbetsblad anpassade till Lgr22 {code} ({strand}). Tillgängliga på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbetsblad",
-    "intro": "Gratis Common Core {code}-aktiviteter och arbetsblad för {grade}, anpassade till området {strand}. Interaktiva övningar som kan spelas i webbläsaren plus utskrivbara PDF:er, tillgängliga på alla 11 språk som stöds — ingen registrering, ingen betalspärr.",
+    "intro": "Gratis Lgr22 {code}-aktiviteter och arbetsblad för {grade}, anpassade till området {strand}. Interaktiva övningar som kan spelas i webbläsaren plus utskrivbara PDF:er, tillgängliga på alla 11 språk som stöds — ingen registrering, ingen betalspärr.",
     "activitiesHeading": "Interaktiva aktiviteter",
     "noActivitiesYet": "Inga aktiviteter anpassade till denna standard har publicerats ännu. Kom tillbaka snart.",
     "relatedStandardsHeading": "Relaterade standarder i {domain}",

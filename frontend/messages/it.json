@@ -3280,7 +3280,7 @@
         "q2": "Queste risorse di {code} sono gratuite?",
         "a2": "Sì. Ogni attività e scheda allineata a {code} è gratuita da usare online e da stampare — senza registrazione e senza barriere a pagamento.",
         "q3": "A chi sono rivolte queste attività di {code}?",
-        "a3": "Sono pensate per insegnanti e alunni di {grade} che seguono la progressione {strand} dei Common Core, e funzionano per l'esercizio in classe, in piccoli gruppi o a casa."
+        "a3": "Sono pensate per insegnanti e alunni di {grade} che seguono la progressione {strand} dei Indicazioni nazionali, e funzionano per l'esercizio in classe, in piccoli gruppi o a casa."
       }
     }
   },
@@ -3923,10 +3923,10 @@
   "standardsPage": {
     "meta": {
       "title": "Attività e schede {code} gratuite in 11 lingue",
-      "description": "Attività K-3 interattive e schede stampabili gratuite allineate al Common Core State Standard {code} ({strand}). Disponibili in 11 lingue."
+      "description": "Attività K-3 interattive e schede stampabili gratuite allineate al Indicazioni nazionali {code} ({strand}). Disponibili in 11 lingue."
     },
     "pageTitle": "{code} — Attività e schede gratuite",
-    "intro": "Attività e schede Common Core {code} gratuite per {grade}, allineate al filone {strand}. Esercizi interattivi giocabili nel browser più PDF stampabili, disponibili in tutte le 11 lingue supportate — senza registrazione, senza paywall.",
+    "intro": "Attività e schede Indicazioni nazionali {code} gratuite per {grade}, allineate al filone {strand}. Esercizi interattivi giocabili nel browser più PDF stampabili, disponibili in tutte le 11 lingue supportate — senza registrazione, senza paywall.",
     "activitiesHeading": "Attività interattive",
     "noActivitiesYet": "Nessuna attività allineata a questo standard è stata ancora pubblicata. Torna presto.",
     "relatedStandardsHeading": "Standard correlati in {domain}",

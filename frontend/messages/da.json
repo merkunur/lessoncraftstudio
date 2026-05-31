@@ -1752,7 +1752,7 @@
         "q2": "Er disse {code}-ressourcer gratis?",
         "a2": "Ja. Hver aktivitet og hvert arbejdsark der er tilpasset {code} er gratis at bruge online og at printe — ingen tilmelding og ingen betalingsmur.",
         "q3": "Hvem er disse {code}-aktiviteter til?",
-        "a3": "De er lavet til lærere og elever i {grade} der følger Common Core {strand}-forløbet, og fungerer til fælles, små grupper eller øvelse derhjemme."
+        "a3": "De er lavet til lærere og elever i {grade} der følger Fælles Mål {strand}-forløbet, og fungerer til fælles, små grupper eller øvelse derhjemme."
       }
     }
   },
@@ -2322,10 +2322,10 @@
   "standardsPage": {
     "meta": {
       "title": "Gratis {code}-aktiviteter & arbejdsark på 11 sprog",
-      "description": "Gratis interaktive K-3-aktiviteter og printbare arbejdsark tilpasset Common Core State Standard {code} ({strand}). Tilgængelige på 11 sprog."
+      "description": "Gratis interaktive K-3-aktiviteter og printbare arbejdsark tilpasset Fælles Mål {code} ({strand}). Tilgængelige på 11 sprog."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbejdsark",
-    "intro": "Gratis Common Core {code}-aktiviteter og arbejdsark til {grade}, tilpasset området {strand}. Interaktive øvelser der kan spilles i browseren plus printbare PDF'er, tilgængelige på alle 11 understøttede sprog — ingen tilmelding, ingen betalingsmur.",
+    "intro": "Gratis Fælles Mål {code}-aktiviteter og arbejdsark til {grade}, tilpasset området {strand}. Interaktive øvelser der kan spilles i browseren plus printbare PDF'er, tilgængelige på alle 11 understøttede sprog — ingen tilmelding, ingen betalingsmur.",
     "activitiesHeading": "Interaktive aktiviteter",
     "noActivitiesYet": "Der er endnu ikke udgivet aktiviteter tilpasset denne standard. Kig forbi snart.",
     "relatedStandardsHeading": "Relaterede standarder i {domain}",

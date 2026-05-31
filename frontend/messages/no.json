@@ -1759,7 +1759,7 @@
         "q2": "Er disse {code}-ressursene gratis?",
         "a2": "Ja. Hver aktivitet og hvert arbeidsark tilpasset {code} er gratis å bruke online og å skrive ut — ingen registrering og ingen betalingsmur.",
         "q3": "Hvem er disse {code}-aktivitetene for?",
-        "a3": "De er laget for lærere og elever på {grade} som følger Common Core-progresjonen for {strand}, og fungerer til arbeid i klassen, i smågrupper eller hjemme."
+        "a3": "De er laget for lærere og elever på {grade} som følger LK20-progresjonen for {strand}, og fungerer til arbeid i klassen, i smågrupper eller hjemme."
       }
     }
   },
@@ -2329,10 +2329,10 @@
   "standardsPage": {
     "meta": {
       "title": "Gratis {code}-aktiviteter & arbeidsark på 11 språk",
-      "description": "Gratis interaktive K-3-aktiviteter og utskriftsvennlige arbeidsark tilpasset Common Core State Standard {code} ({strand}). Tilgjengelige på 11 språk."
+      "description": "Gratis interaktive K-3-aktiviteter og utskriftsvennlige arbeidsark tilpasset LK20 {code} ({strand}). Tilgjengelige på 11 språk."
     },
     "pageTitle": "{code} — Gratis aktiviteter & arbeidsark",
-    "intro": "Gratis Common Core {code}-aktiviteter og arbeidsark for {grade}, tilpasset området {strand}. Interaktive øvelser som kan spilles i nettleseren pluss utskriftsvennlige PDF-er, tilgjengelige på alle 11 språk som støttes — ingen registrering, ingen betalingsmur.",
+    "intro": "Gratis LK20 {code}-aktiviteter og arbeidsark for {grade}, tilpasset området {strand}. Interaktive øvelser som kan spilles i nettleseren pluss utskriftsvennlige PDF-er, tilgjengelige på alle 11 språk som støttes — ingen registrering, ingen betalingsmur.",
     "activitiesHeading": "Interaktive aktiviteter",
     "noActivitiesYet": "Det er ennå ikke publisert aktiviteter tilpasset denne standarden. Kom tilbake snart.",
     "relatedStandardsHeading": "Relaterte standarder i {domain}",

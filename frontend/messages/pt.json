@@ -3266,7 +3266,7 @@
         "q2": "Estes recursos de {code} são grátis?",
         "a2": "Sim. Toda atividade e ficha alinhada a {code} é grátis para usar online e para imprimir — sem cadastro e sem paywall.",
         "q3": "Para quem são estas atividades de {code}?",
-        "a3": "Elas são feitas para professores e crianças de {grade} que seguem a progressão {strand} do Common Core, e funcionam para a sala, pequenos grupos ou prática em casa."
+        "a3": "Elas são feitas para professores e crianças de {grade} que seguem a progressão {strand} do BNCC, e funcionam para a sala, pequenos grupos ou prática em casa."
       }
     }
   },
@@ -3908,10 +3908,10 @@
   "standardsPage": {
     "meta": {
       "title": "Atividades e fichas {code} grátis em 11 idiomas",
-      "description": "Atividades K-3 interativas e fichas imprimíveis grátis alinhadas ao Common Core State Standard {code} ({strand}). Disponíveis em 11 idiomas."
+      "description": "Atividades K-3 interativas e fichas imprimíveis grátis alinhadas ao BNCC {code} ({strand}). Disponíveis em 11 idiomas."
     },
     "pageTitle": "{code} — Atividades e fichas grátis",
-    "intro": "Atividades e fichas Common Core {code} grátis para {grade}, alinhadas ao eixo {strand}. Exercícios interativos jogáveis no navegador mais PDFs imprimíveis, disponíveis nos 11 idiomas suportados — sem cadastro, sem pagamento.",
+    "intro": "Atividades e fichas BNCC {code} grátis para {grade}, alinhadas ao eixo {strand}. Exercícios interativos jogáveis no navegador mais PDFs imprimíveis, disponíveis nos 11 idiomas suportados — sem cadastro, sem pagamento.",
     "activitiesHeading": "Atividades interativas",
     "noActivitiesYet": "Ainda não há atividades publicadas alinhadas a este padrão. Volte em breve.",
     "relatedStandardsHeading": "Padrões relacionados em {domain}",

@@ -3144,7 +3144,7 @@
         "q2": "Sind diese {code}-Ressourcen kostenlos?",
         "a2": "Ja. Jede Aktivität und jedes Arbeitsblatt, das auf {code} abgestimmt ist, ist kostenlos online nutzbar und ausdruckbar — ohne Anmeldung und ohne Bezahlschranke.",
         "q3": "Für wen sind diese {code}-Aktivitäten gedacht?",
-        "a3": "Sie sind für {grade}-Lehrkräfte und -Lernende gemacht, die der Common Core {strand}-Progression folgen, und eignen sich für die Klasse, Kleingruppen oder das Üben zu Hause."
+        "a3": "Sie sind für {grade}-Lehrkräfte und -Lernende gemacht, die der Lehrplan {strand}-Progression folgen, und eignen sich für die Klasse, Kleingruppen oder das Üben zu Hause."
       }
     }
   },
@@ -3723,10 +3723,10 @@
   "standardsPage": {
     "meta": {
       "title": "Kostenlose {code} Aktivitäten & Arbeitsblätter in 11 Sprachen",
-      "description": "Kostenlose interaktive K-3 Aktivitäten und druckbare Arbeitsblätter passend zum Common Core Standard {code} ({strand}). Verfügbar in 11 Sprachen."
+      "description": "Kostenlose interaktive K-3 Aktivitäten und druckbare Arbeitsblätter passend zum Lehrplan {code} ({strand}). Verfügbar in 11 Sprachen."
     },
     "pageTitle": "{code} — Kostenlose Aktivitäten & Arbeitsblätter",
-    "intro": "Kostenlose Common Core {code} Aktivitäten und Arbeitsblätter für {grade}, passend zum Strang {strand}. Im Browser spielbare interaktive Aufgaben plus druckbare PDFs, verfügbar in allen 11 unterstützten Sprachen — keine Anmeldung, keine Bezahlschranke.",
+    "intro": "Kostenlose Lehrplan {code} Aktivitäten und Arbeitsblätter für {grade}, passend zum Strang {strand}. Im Browser spielbare interaktive Aufgaben plus druckbare PDFs, verfügbar in allen 11 unterstützten Sprachen — keine Anmeldung, keine Bezahlschranke.",
     "activitiesHeading": "Interaktive Aktivitäten",
     "noActivitiesYet": "Zu diesem Standard sind noch keine Aktivitäten veröffentlicht. Schau bald wieder vorbei.",
     "relatedStandardsHeading": "Verwandte Standards in {domain}",

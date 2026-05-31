@@ -198,6 +198,25 @@ export async function generateMetadata({
   };
 }
 
+// Per-locale curriculum-framework NAME for the human-/crawler-facing
+// `educationalFramework`. The internal CCSS code (row.alignment.code) stays the
+// machine anchor in `targetName` + the /standards/<code> hub. EN keeps Common
+// Core; non-EN cite each country's national framework (§A.13.49). Names only —
+// no national code (operator decision 2026-05-31).
+const EDUCATIONAL_FRAMEWORK_BY_LOCALE: Record<string, string> = {
+  en: 'Common Core State Standards',
+  de: 'Lehrplan',
+  fr: 'Programmes officiels',
+  es: 'Currículo LOMLOE',
+  pt: 'BNCC',
+  it: 'Indicazioni nazionali',
+  nl: 'SLO-kerndoelen',
+  sv: 'Lgr22',
+  da: 'Fælles Mål',
+  no: 'LK20',
+  fi: 'OPS 2014',
+};
+
 function jsonLdFor(row: ActivityRow, locale: string): string {
   const canonical = canonicalUrl(localePath(locale, 'activities', row.slug[locale]));
   const ageRange = gradeToAgeRange(row.alignment.grade);
@@ -218,7 +237,7 @@ function jsonLdFor(row: ActivityRow, locale: string): string {
       alignmentType: 'educationalSubject',
       targetName: row.alignment.code,
       targetDescription: localizeStrand(row.alignment.strand, locale),
-      educationalFramework: 'Common Core State Standards',
+      educationalFramework: EDUCATIONAL_FRAMEWORK_BY_LOCALE[locale] || 'Common Core State Standards',
     },
     audience: {
       '@type': 'EducationalAudience',

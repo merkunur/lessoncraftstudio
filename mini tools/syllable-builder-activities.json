@@ -25,7 +25,7 @@
     "theme": null,
     "slug": { "es": "forma-las-silabas" },
     "page_title": { "es": "Forma las sílabas — Fonética en jardín infantil" },
-    "page_intro": { "es": "Mira la imagen y forma la palabra colocando las sílabas en orden. Alineado con Common Core RF.K.2.B — contar, pronunciar, mezclar y segmentar sílabas en palabras habladas." },
+    "page_intro": { "es": "Mira la imagen y forma la palabra colocando las sílabas en orden. Alineado con el currículo oficial — contar, pronunciar, mezclar y segmentar sílabas en palabras habladas." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -53,7 +53,7 @@
     "theme": null,
     "slug": { "fi": "muodosta-sana-tavuista" },
     "page_title": { "fi": "Muodosta sana tavuista — Esiopetuksen fonologia" },
-    "page_intro": { "fi": "Katso kuvaa ja muodosta sana asettamalla tavut järjestykseen. Vastaa Common Core RF.K.2.B -tavoitetta — tavujen laskeminen, ääntäminen, yhdistäminen ja erottelu puhutuissa sanoissa." },
+    "page_intro": { "fi": "Katso kuvaa ja muodosta sana asettamalla tavut järjestykseen. Yhteensopiva OPS 2014:n kanssa — tavujen laskeminen, ääntäminen, yhdistäminen ja erottelu puhutuissa sanoissa." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -81,7 +81,7 @@
     "theme": null,
     "slug": { "pt": "forme-as-silabas" },
     "page_title": { "pt": "Forme as sílabas — Fonética no jardim de infância" },
-    "page_intro": { "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado com Common Core RF.K.2.B — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas." },
+    "page_intro": { "pt": "Olhe a imagem e forme a palavra colocando as sílabas em ordem. Alinhado à BNCC — contar, pronunciar, mesclar e segmentar sílabas em palavras faladas." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -110,7 +110,7 @@
     "theme": null,
     "slug": { "fr": "forme-le-mot-en-syllabes" },
     "page_title": { "fr": "Forme le mot en syllabes — Phonétique en grande section" },
-    "page_intro": { "fr": "Regarde l'image et forme le mot en plaçant les syllabes dans l'ordre. Aligné sur Common Core RF.K.2.B — compter, prononcer, mélanger et segmenter les syllabes dans les mots parlés." },
+    "page_intro": { "fr": "Regarde l'image et forme le mot en plaçant les syllabes dans l'ordre. Conforme aux programmes officiels — compter, prononcer, mélanger et segmenter les syllabes dans les mots parlés." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -139,7 +139,7 @@
     "theme": null,
     "slug": { "it": "forma-la-parola-con-le-sillabe" },
     "page_title": { "it": "Forma la parola con le sillabe — Fonetica nella scuola dell'infanzia" },
-    "page_intro": { "it": "Guarda l'immagine e forma la parola posizionando le sillabe in ordine. Allineato con Common Core RF.K.2.B — contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate." },
+    "page_intro": { "it": "Guarda l'immagine e forma la parola posizionando le sillabe in ordine. Allineato alle Indicazioni nazionali — contare, pronunciare, fondere e segmentare le sillabe nelle parole parlate." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -170,7 +170,7 @@
     "theme": null,
     "slug": { "de": "bau-das-wort-aus-silben" },
     "page_title": { "de": "Bau das Wort aus Silben — Phonetik im Kindergarten" },
-    "page_intro": { "de": "Schau dir das Bild an und baue das Wort, indem du die Silben in die richtige Reihenfolge legst. Ausgerichtet an Common Core RF.K.2.B — Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und segmentieren." },
+    "page_intro": { "de": "Schau dir das Bild an und baue das Wort, indem du die Silben in die richtige Reihenfolge legst. An den Lehrplänen ausgerichtet — Silben in gesprochenen Wörtern zählen, aussprechen, verbinden und segmentieren." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -201,7 +201,7 @@
     "theme": null,
     "slug": { "nl": "bouw-het-woord-met-klankgroepen" },
     "page_title": { "nl": "Bouw het woord met klankgroepen — Fonetiek in de kleuterklas" },
-    "page_intro": { "nl": "Kijk naar het plaatje en bouw het woord door de klankgroepen in de juiste volgorde te leggen. Afgestemd op Common Core RF.K.2.B — klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen." },
+    "page_intro": { "nl": "Kijk naar het plaatje en bouw het woord door de klankgroepen in de juiste volgorde te leggen. Afgestemd op de kerndoelen — klankgroepen in gesproken woorden tellen, uitspreken, samenvoegen en opdelen." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -232,7 +232,7 @@
     "theme": null,
     "slug": { "sv": "bygg-ordet-av-stavelser" },
     "page_title": { "sv": "Bygg ordet av stavelser — Fonetik i förskoleklass" },
-    "page_intro": { "sv": "Titta på bilden och bygg ordet genom att lägga stavelserna i rätt ordning. Anpassat efter Common Core RF.K.2.B — räkna, uttala, blanda och dela upp stavelser i talade ord." },
+    "page_intro": { "sv": "Titta på bilden och bygg ordet genom att lägga stavelserna i rätt ordning. Anpassat till Lgr22 — räkna, uttala, blanda och dela upp stavelser i talade ord." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -263,7 +263,7 @@
     "theme": null,
     "slug": { "no": "bygg-ordet-av-stavelser" },
     "page_title": { "no": "Bygg ordet av stavelser — Fonetikk i barnehagen" },
-    "page_intro": { "no": "Se på bildet og bygg ordet ved å legge stavelsene i riktig rekkefølge. Tilpasset Common Core RF.K.2.B — telle, uttale, blande og dele stavelser i talte ord." },
+    "page_intro": { "no": "Se på bildet og bygg ordet ved å legge stavelsene i riktig rekkefølge. Tilpasset LK20 — telle, uttale, blande og dele stavelser i talte ord." },
     "kid_prompt_template": "promptBuildSyllables"
   },
   {
@@ -294,7 +294,7 @@
     "theme": null,
     "slug": { "da": "byg-ordet-af-stavelser" },
     "page_title": { "da": "Byg ordet af stavelser — Fonetik i børnehaveklassen" },
-    "page_intro": { "da": "Se på billedet og byg ordet ved at lægge stavelserne i den rigtige rækkefølge. Tilpasset Common Core RF.K.2.B — tælle, udtale, blande og dele stavelser i talte ord." },
+    "page_intro": { "da": "Se på billedet og byg ordet ved at lægge stavelserne i den rigtige rækkefølge. Tilpasset Fælles Mål — tælle, udtale, blande og dele stavelser i talte ord." },
     "kid_prompt_template": "promptBuildSyllables"
   }
 ]

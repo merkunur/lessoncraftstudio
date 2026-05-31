@@ -139,7 +139,7 @@ function resolveDeck(manifest, deckHtml) {
     });
   }
   links.push({
-    href: '/' + locale + '/',
+    href: '/' + locale + '/worksheets',
     text: i18n.resolve(locale, 'endDeck.browseAll', 'Browse all worksheets').value,
   });
 

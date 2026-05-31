@@ -25,10 +25,18 @@
  *   3. OG IMAGES   — regenerate-og-images.js (two-column composite + XMP).
  *   4. ALT-TEXT    — rewrite-deck-html-alt-text.js (worksheet alt + app aria-label
  *                    + deckend-thumb alts; the apps emit empty alt). Idempotent.
- *   5. HREFLANG    — populate-and-inject-hreflang.js across the FULL 11-locale set
+ *   5. END-LINKS   — inject-deck-end-topic-links.js per wave locale. Backfills the
+ *                    localized end-of-deck "Want more?" topic-links aside on any deck
+ *                    missing it (idempotent) so every deck carries per-locale internal
+ *                    links opening that language's pages (§16.5 / §17.8.2).
+ *   6. EMBED-HIDE  — inject-embed-hide-style.js per wave locale. Injects the
+ *                    body.lcs-embedded hide rule so the in-deck internal link sections
+ *                    do NOT render inside an embed iframe (idempotent).
+ *   7. HREFLANG    — populate-and-inject-hreflang.js across the FULL 11-locale set
  *                    (cross-locale sibling blocks need every locale, not just the
- *                    wave's).
- *   6. AUDIT       — audit-deck-html.js (invariants) over the wave's locales.
+ *                    wave's). Runs AFTER embed-hide so the hreflang block stays last
+ *                    in <head> per §17.8.1.5.
+ *   8. AUDIT       — audit-deck-html.js (invariants) over the wave's locales.
  *
  * RUNS ON HETZNER. Steps 2-6 read DATABASE_URL + /var/www/lcs-media/decks; STEP 1
  * reads DATABASE_URL too (existing-title collision check; skip with --no-db-check).
@@ -207,8 +215,9 @@ function main() {
     console.log('mutate the staged ZIPs), so publish-bulk above operated on UN-prebanded');
     console.log('ZIPs — any DESCRIPTION_LENGTH_TOO_LONG / TITLE_NON_UNIQUE errors it');
     console.log('reported are EXPECTED and are auto-fixed by PREBAND under --confirm.');
-    console.log('Post-publish steps (og-images, alt-text, hreflang, audit) are skipped in');
-    console.log('dry-run. Re-run with --confirm to publish + run the full SEO finalization.');
+    console.log('Post-publish steps (og-images, alt-text, end-links, embed-hide, hreflang,');
+    console.log('audit) are skipped in dry-run. Re-run with --confirm to publish + run the');
+    console.log('full SEO finalization.');
     process.exit(0);
   }
 
@@ -224,11 +233,28 @@ function main() {
     console.log('\n(skipping alt-text retrofit per --skip-alt-text)');
   }
 
-  // STEP 5 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
+  // STEP 5 — END-LINKS: backfill the localized end-of-deck "Want more?" topic-links
+  // aside on any deck missing it. Per-locale (the script takes a single --locale);
+  // idempotent — decks that already baked the aside (autoInjectEndDeckLinks +
+  // substitute.js) are skipped fast. Guarantees per-locale internal links on every
+  // deck, every wave (the operator's "always apply it" standing rule). Runs BEFORE
+  // hreflang so the hreflang block stays last in <head>.
+  for (const loc of args.locales) {
+    runStep(`END-LINKS — inject-deck-end-topic-links (${loc})`, 'inject-deck-end-topic-links.js', [`--locale=${loc}`]);
+  }
+
+  // STEP 6 — EMBED-HIDE: hide the in-deck internal link sections (end-deck links +
+  // suggestion reel) when the deck loads inside an embed iframe. Per-locale;
+  // idempotent (marker-guarded); inserts at the top of <head>.
+  for (const loc of args.locales) {
+    runStep(`EMBED-HIDE — inject-embed-hide-style (${loc})`, 'inject-embed-hide-style.js', [`--locale=${loc}`]);
+  }
+
+  // STEP 7 — HREFLANG cross-locale sibling injection. ALWAYS the full 11-locale
   // set (siblings span every locale; passing only the wave locale is a no-op).
   runStep('HREFLANG — populate-and-inject-hreflang (all 11 locales)', 'populate-and-inject-hreflang.js', ['--confirm', `--locales=${HREFLANG_LOCALES.join(',')}`, `--decks-root=${args.decksRoot}`]);
 
-  // STEP 6 — POST-PUBLISH AUDIT over the wave's locales.
+  // STEP 8 — POST-PUBLISH AUDIT over the wave's locales.
   if (!args.skipAudit) {
     runStep('AUDIT — audit-deck-html', 'audit-deck-html.js', [`--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {
@@ -239,8 +265,8 @@ function main() {
   console.log('✓ WAVE COMPLETE — decks published with full SEO treatment:');
   console.log('  native slug ×locale · canonical · banded description · disambiguated');
   console.log('  title · OG (14 tags + composite image) · LearningResource+ImageObject');
-  console.log('  JSON-LD · rich alt-text · cross-locale hreflang · sitemap (auto via');
-  console.log('  ID-parity shard) · audited.');
+  console.log('  JSON-LD · rich alt-text · per-locale end-deck topic links · embed-hide');
+  console.log('  · cross-locale hreflang · sitemap (auto via ID-parity shard) · audited.');
   console.log(`${'═'.repeat(64)}\n`);
   console.log('Next: spot-check a few live deck URLs (curl 200 + grep <title>/og:image),');
   console.log('and remember Cloudflare 5-min TTL before edge reflects new bytes.');

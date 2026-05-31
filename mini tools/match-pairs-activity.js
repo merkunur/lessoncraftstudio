@@ -45,16 +45,20 @@ var ACTIVITY_STRINGS_MP = {
      exclusively until fan-out — these EN-only keys are never read at any
      other lang (no key-leak). ---- */
   taskEqualValue:     { en: 'Match each addition to the subtraction with the same answer',
-                        de: 'Finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis' },
+                        de: 'Finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis',
+                        fr: 'Relie chaque addition à la soustraction qui a le même résultat' },
   hintEqualValue:     { en: 'Work out each card, then match the ones with the same answer',
-                        de: 'Rechne jede Karte aus und verbinde die mit demselben Ergebnis' },
+                        de: 'Rechne jede Karte aus und verbinde die mit demselben Ergebnis',
+                        fr: 'Calcule chaque carte, puis relie celles qui ont le même résultat' },
   hintTryEqualValue:  { en: 'Those answers aren\'t equal yet — tap a pair to break it and try again',
-                        de: 'Die Ergebnisse passen noch nicht — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal' },
+                        de: 'Die Ergebnisse passen noch nicht — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
+                        fr: 'Ces résultats ne sont pas encore égaux — touche une paire pour la défaire et réessaie' },
   /* Truthful Check-correct celebration. Does NOT claim a number total — a
      task has TWO different answers, so "All pairs make 5!" would be false.
      The shell shows its visual "Great!"; this is the spoken line. EN-only. */
   speakMatchedAll:    { en: 'You matched every pair!',
-                        de: 'Du hast alle Paare verbunden!' }
+                        de: 'Du hast alle Paare verbunden!',
+                        fr: 'Tu as relié toutes les paires !' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

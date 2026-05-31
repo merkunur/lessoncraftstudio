@@ -44,13 +44,17 @@ var ACTIVITY_STRINGS_MP = {
      per §A.13.48. The activity ships slug.en only, so it loads at lang='en'
      exclusively until fan-out — these EN-only keys are never read at any
      other lang (no key-leak). ---- */
-  taskEqualValue:     { en: 'Match each addition to the subtraction with the same answer' },
-  hintEqualValue:     { en: 'Work out each card, then match the ones with the same answer' },
-  hintTryEqualValue:  { en: 'Those answers aren\'t equal yet — tap a pair to break it and try again' },
+  taskEqualValue:     { en: 'Match each addition to the subtraction with the same answer',
+                        de: 'Finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis' },
+  hintEqualValue:     { en: 'Work out each card, then match the ones with the same answer',
+                        de: 'Rechne jede Karte aus und verbinde die mit demselben Ergebnis' },
+  hintTryEqualValue:  { en: 'Those answers aren\'t equal yet — tap a pair to break it and try again',
+                        de: 'Die Ergebnisse passen noch nicht — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal' },
   /* Truthful Check-correct celebration. Does NOT claim a number total — a
      task has TWO different answers, so "All pairs make 5!" would be false.
      The shell shows its visual "Great!"; this is the spoken line. EN-only. */
-  speakMatchedAll:    { en: 'You matched every pair!' }
+  speakMatchedAll:    { en: 'You matched every pair!',
+                        de: 'Du hast alle Paare verbunden!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

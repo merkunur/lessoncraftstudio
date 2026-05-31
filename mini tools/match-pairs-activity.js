@@ -100,18 +100,22 @@ var ACTIVITY_STRINGS_MP = {
      locale's live E4 (K.OA.A.3 + 1.OA.D.7). ---- */
   taskThreeForm:      { en: 'Match the cards that show the same number',
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
-                        fr: 'Relie les cartes qui montrent le même nombre' },
+                        fr: 'Relie les cartes qui montrent le même nombre',
+                        da: 'Forbind kortene, der viser det samme tal' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
-                        fr: 'Touche une carte, puis une autre carte qui montre le même nombre' },
+                        fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
+                        da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
-                        fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie' },
+                        fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
+                        da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
                         de: 'Du hast alle Zahlen verbunden!',
-                        fr: 'Tu as relié tous les nombres !' }
+                        fr: 'Tu as relié tous les nombres !',
+                        da: 'Du har forbundet alle tal!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -260,6 +264,18 @@ var THREE_FORM_WORDS = {
     615: 'six cent quinze',          700: 'sept cents',                   208: 'deux cent huit',
     353: 'trois cent cinquante-trois',940: 'neuf cent quarante',          190: 'cent quatre-vingt-dix',
     560: 'cinq cent soixante',       274: 'deux cent soixante-quatorze',  409: 'quatre cent neuf'
+  },
+  /* DA: spaced " og " joiner (tohundrede og syvogfyrre — NOT compound);
+     units-first tens (syvogfyrre = 7+og+40); vigesimal halvtreds/tres/
+     halvfjerds/firs/halvfems (50/60/70/80/90); fyrre=40 (not vigesimal);
+     bare "hundrede" for h=1. Value-verified vs _NUMBER_WORD_HELPERS.da
+     2026-05-31 (15/15). [NSR-FLAG][da] */
+  da: {
+    247: 'tohundrede og syvogfyrre',    562: 'femhundrede og toogtres',        305: 'trehundrede og fem',
+    836: 'ottehundrede og seksogtredive',481: 'firehundrede og enogfirs',       420: 'firehundrede og tyve',
+    615: 'sekshundrede og femten',      700: 'syvhundrede',                    208: 'tohundrede og otte',
+    353: 'trehundrede og treoghalvtreds',940: 'nihundrede og fyrre',            190: 'hundrede og halvfems',
+    560: 'femhundrede og tres',         274: 'tohundrede og fireoghalvfjerds',  409: 'firehundrede og ni'
   }
 };
 

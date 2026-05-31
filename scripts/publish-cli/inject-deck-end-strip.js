@@ -55,6 +55,13 @@ var localeFlag = argv.find(function (a) { return a.indexOf('--locale=') === 0; }
 var TARGET_LOCALE = localeFlag ? localeFlag.split('=')[1] : null;
 var limitFlag = argv.find(function (a) { return a.indexOf('--limit=') === 0; });
 var TARGET_LIMIT = limitFlag ? parseInt(limitFlag.split('=')[1], 10) : Infinity;
+// --by-version-dir: walk <slug>-v<N> version dirs instead of the bare-slug
+// symlinks. Each deck is processed ONCE (the soft-consolidation migration leaves
+// BOTH an old-redirect AND a new-canonical bare symlink per deck — walking
+// symlinks would process the shared deck.html twice and use the wrong/old slug
+// identity). The dir name minus -v<N> is the canonical slug. Use this for any
+// post-slug-migration strip refresh.
+var BY_VERSION_DIR = argv.includes('--by-version-dir');
 
 // Build the strip HTML structure (mirror buildDeckEndSuggestionsPlaceholder
 // from REFERENCE TRANSLATIONS/catalog-export.js, but inline so this script
@@ -153,17 +160,19 @@ function patchCelebrationModalWidth(content) {
 // Strip out a previously-injected strip HTML block + un-hide guard JS.
 // Returns the cleaned content. Used by --rewrite mode for corrective re-inject.
 function removeExistingStripAndGuard(content) {
-  // 1. Remove strip block: from <style> tag preceding lcs-deckend-suggestions
-  //    section through to next <div class="lcs-celebration" anchor.
-  var stripStart = content.indexOf('<style>.lcs-deckend-suggestions{');
-  if (stripStart !== -1) {
-    var celIdx = content.indexOf('<div class="lcs-celebration"', stripStart);
-    if (celIdx !== -1) {
-      content = content.substring(0, stripStart) + content.substring(celIdx);
-    }
-  }
-  // 2. Remove un-hide guard JS fragment.
+  // ROBUST removal — wipes ALL prior strip artifacts so re-inject starts clean.
+  // A prior buggy run (dual-symlink double-processing + non-robust single-strip
+  // removal) could leave partial/duplicate strips, raw __SUGGESTION_ placeholder
+  // leaks, or multiple un-hide guards. Regex-remove every artifact globally.
+  // 1. Every <style>.lcs-deckend-suggestions{...}</style> block (non-greedy to
+  //    first </style>; the style tag carries only strip CSS — no nesting).
+  content = content.replace(/<style>\.lcs-deckend-suggestions\{[\s\S]*?<\/style>/g, '');
+  // 2. Every <section class="lcs-deckend-suggestions" ...>...</section> block
+  //    (non-greedy to its own </section>; strip tiles are anchors, no nested section).
+  content = content.replace(/<section class="lcs-deckend-suggestions"[\s\S]*?<\/section>/g, '');
+  // 3. Every un-hide guard JS fragment (exact-string split + tolerant regex).
   content = content.split(UN_HIDE_GUARD_JS).join('');
+  content = content.replace(/var stripEl=document\.querySelector\("\.lcs-deckend-suggestions"\);if\(stripEl\)\{[\s\S]*?mi\.appendChild\(stripEl\);\}\}\}/g, '');
   return content;
 }
 
@@ -247,23 +256,32 @@ function atomicWrite(filePath, content) {
   fs.renameSync(tmpPath, filePath);
 }
 
-async function processDeck(locale, slug) {
+async function processDeck(locale, slug, deckHtmlPathOverride) {
   var localeDir = path.join(DECKS_ROOT, locale);
-  var symlinkPath = path.join(localeDir, slug);
-  var stat;
-  try {
-    stat = fs.lstatSync(symlinkPath);
-  } catch (e) {
-    return { ok: false, error: 'lstat failed: ' + e.message };
-  }
-  if (!stat.isSymbolicLink()) {
-    return { ok: false, error: 'not a symlink (skipped; expected per §15.7 architecture)' };
-  }
-  var target = fs.readlinkSync(symlinkPath);
-  var targetDir = path.isAbsolute(target) ? target : path.join(localeDir, target);
-  var deckHtmlPath = path.join(targetDir, 'deck.html');
-  if (!fs.existsSync(deckHtmlPath)) {
-    return { ok: false, error: 'deck.html not found at ' + deckHtmlPath };
+  var deckHtmlPath;
+  if (deckHtmlPathOverride) {
+    // Version-dir mode: caller already resolved the canonical deck.html path.
+    deckHtmlPath = deckHtmlPathOverride;
+    if (!fs.existsSync(deckHtmlPath)) {
+      return { ok: false, error: 'deck.html not found at ' + deckHtmlPath };
+    }
+  } else {
+    var symlinkPath = path.join(localeDir, slug);
+    var stat;
+    try {
+      stat = fs.lstatSync(symlinkPath);
+    } catch (e) {
+      return { ok: false, error: 'lstat failed: ' + e.message };
+    }
+    if (!stat.isSymbolicLink()) {
+      return { ok: false, error: 'not a symlink (skipped; expected per §15.7 architecture)' };
+    }
+    var target = fs.readlinkSync(symlinkPath);
+    var targetDir = path.isAbsolute(target) ? target : path.join(localeDir, target);
+    deckHtmlPath = path.join(targetDir, 'deck.html');
+    if (!fs.existsSync(deckHtmlPath)) {
+      return { ok: false, error: 'deck.html not found at ' + deckHtmlPath };
+    }
   }
   var content = fs.readFileSync(deckHtmlPath, 'utf8');
 
@@ -321,21 +339,36 @@ async function main() {
       continue;
     }
     var entries = fs.readdirSync(localeDir);
-    // Filter to symlinks (slug aliases pointing to -v<N> dirs).
-    var slugs = entries.filter(function (name) {
-      if (name.startsWith('.')) return false;
-      // -v<N> suffix means it's the version dir, not the symlink.
-      // We want the bare slug symlinks.
-      return !/-v\d+$/.test(name);
-    });
+    var slugs;
+    if (BY_VERSION_DIR) {
+      // Walk version dirs; derive canonical slug + explicit deck.html path.
+      // One entry per deck (no old/new symlink double-processing).
+      slugs = entries.filter(function (name) {
+        if (name.startsWith('.')) return false;
+        if (!/-v\d+$/.test(name)) return false;
+        var p = path.join(localeDir, name);
+        try { return fs.statSync(p).isDirectory(); } catch (e) { return false; }
+      }).map(function (dirName) {
+        return { slug: dirName.replace(/-v\d+$/, ''), deckHtmlPath: path.join(localeDir, dirName, 'deck.html') };
+      });
+    } else {
+      // Filter to symlinks (slug aliases pointing to -v<N> dirs).
+      slugs = entries.filter(function (name) {
+        if (name.startsWith('.')) return false;
+        // -v<N> suffix means it's the version dir, not the symlink.
+        // We want the bare slug symlinks.
+        return !/-v\d+$/.test(name);
+      }).map(function (name) { return { slug: name, deckHtmlPath: null }; });
+    }
     perLocaleStats[locale] = { total: slugs.length, applied: 0, alreadyApplied: 0, skippedEmpty: 0, failed: 0 };
-    console.log('[' + locale + '] ' + slugs.length + ' deck symlinks');
+    console.log('[' + locale + '] ' + slugs.length + (BY_VERSION_DIR ? ' version dirs' : ' deck symlinks'));
     for (var si = 0; si < slugs.length; si++) {
       if (totalProcessed >= TARGET_LIMIT) break;
-      var slug = slugs[si];
+      var slug = slugs[si].slug;
+      var deckHtmlPathOverride = slugs[si].deckHtmlPath;
       totalProcessed++;
       try {
-        var r = await processDeck(locale, slug);
+        var r = await processDeck(locale, slug, deckHtmlPathOverride);
         if (!r.ok) {
           totalFailed++;
           perLocaleStats[locale].failed++;

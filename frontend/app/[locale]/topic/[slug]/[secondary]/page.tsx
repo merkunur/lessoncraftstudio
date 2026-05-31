@@ -25,7 +25,7 @@ import {
 } from '@/lib/topic-decks';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
-import TopicProseContainer from '@/components/catalog/TopicProseContainer';
+import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
 import PageUsageBlock from '@/components/catalog/PageUsageBlock';
 import TopicFaq from '@/components/catalog/TopicFaq';
 import ResultCount from '@/components/catalog/ResultCount';
@@ -754,7 +754,9 @@ export default async function IntersectionPage({
         <TopicProseContainer
           locale={locale}
           axisKey1={axisKey1}
+          intent1={intentForAxis(axis1)}
           axisKey2={axisKey2}
+          intent2={intentForAxis(axis2)}
           topicName1={name1}
           topicName2={name2}
           count={totalCount}

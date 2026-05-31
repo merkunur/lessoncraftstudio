@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { notFound, redirect } from 'next/navigation';
 import { getHreflangCode, ogLocaleMap } from '@/lib/schema-generator';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { renderTopicTitle } from '@/lib/seo/topic-title-format';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import {
   Axis,
@@ -203,14 +204,8 @@ async function getTopicMeta(locale: string, axisKey: string): Promise<string | n
   }
 }
 
-// Title-segment casing: uppercase only the first char (Unicode-aware), preserving
-// the rest — fixes educational-level axis names that arrive lowercase
-// ("kindergarten" → "Kindergarten") while leaving acronyms/"Groep 3"/"CE1" + already-
-// capitalized exercise-type/theme names untouched. Title scope only (descriptions
-// keep their natural sentence case).
-function capFirst(s: string): string {
-  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s;
-}
+// Title casing + FR elision now live in @/lib/seo/topic-title-format
+// (renderTopicTitle), shared by the <title>, OG title, and <h1>.
 
 export async function generateMetadata({
   params,
@@ -222,7 +217,8 @@ export async function generateMetadata({
 
   const t = await getTranslations({ locale, namespace: 'topicPage.meta' });
   const topicName = getAxisName(axis, axisKey, locale) ?? params.slug;
-  const titleTopic = capFirst(topicName);
+  // R14c: per-locale casing + FR elision (replaces the bare capFirst).
+  const renderedTitle = renderTopicTitle(locale, t, 'title', topicName, intentForAxis(axis));
 
   const siblings = await getTopicSiblings(axis, axisKey);
   const hreflangAlternates: Record<string, string> = {};
@@ -253,14 +249,14 @@ export async function generateMetadata({
   const description = meta ?? prosePreview ?? t('description', { topic: topicName });
 
   return {
-    title: t('title', { topic: titleTopic }),
+    title: renderedTitle,
     description,
     alternates: {
       canonical,
       languages: hreflangAlternates,
     },
     openGraph: {
-      title: t('title', { topic: titleTopic }),
+      title: renderedTitle,
       description,
       type: 'website',
       url: canonical,
@@ -282,7 +278,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: 'summary_large_image',
-      title: t('title', { topic: titleTopic }),
+      title: renderedTitle,
       description,
       images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — K-3 worksheets in 11 languages' }],
     },
@@ -637,7 +633,7 @@ export default async function TopicPage({
 
         <header className="mb-6">
           <h1 className="font-display text-3xl md:text-4xl font-semibold text-ink-900 mb-3">
-            {t(`heading.${intent}`, { topic: topicName })}
+            {renderTopicTitle(locale, t, `heading.${intent}`, topicName, intent)}
           </h1>
           <ResultCount locale={locale} count={totalCount} />
         </header>

@@ -29,8 +29,8 @@
 import { NextResponse } from 'next/server';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
-import { getHreflangCode } from '@/lib/schema-generator';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
+import { buildDeckHreflangLinks, type SitemapSibling } from '@/lib/seo/deck-sitemap-hreflang';
 
 export const revalidate = 1800;
 
@@ -65,9 +65,22 @@ interface DeckRow {
   exerciseType: string;
   ageRange: string;
   subjectTags: string[];
+  contentFamilyId: string | null;
 }
 
 async function buildShard(decks: ReadonlyArray<DeckRow>, partition: number): Promise<string> {
+  // P1-05: group ALL decks (both partitions) by contentFamilyId so a deck in
+  // this shard can emit the full cross-locale sibling set even when a sibling
+  // lives in the other shard. Single-locale decks (null cfId) are skipped here
+  // and fall back to a self-only alternate.
+  const familyMap = new Map<string, SitemapSibling[]>();
+  for (const d of decks) {
+    if (!d.contentFamilyId) continue;
+    const arr = familyMap.get(d.contentFamilyId) ?? [];
+    arr.push({ language: d.language, slug: d.slug });
+    familyMap.set(d.contentFamilyId, arr);
+  }
+
   // Per-locale alt-text translator cache. Each deck's <image:caption> is
   // composed in the deck's own content language (per pickLocale invariant).
   const tAltByLocale = new Map<string, (key: string, params: Record<string, string>) => string>();
@@ -89,7 +102,6 @@ async function buildShard(decks: ReadonlyArray<DeckRow>, partition: number): Pro
     const thumbnailUrl = `${deckUrl}thumbnail.png`;
     const titleLocalized = pickLocale<string>(d.title, d.language) ?? '';
     const descLocalized = pickLocale<string>(d.description, d.language) ?? '';
-    const hreflangCode = getHreflangCode(d.language);
 
     // Compose rich thumbnail caption per alt-text SEO commission 2026-05-27.
     // Per CLAUDE.md §A.13.X Dimension 1: thumbnail.png block must carry
@@ -114,10 +126,18 @@ async function buildShard(decks: ReadonlyArray<DeckRow>, partition: number): Pro
       thumbnailCaption = titleLocalized;
     }
 
+    const siblings = d.contentFamilyId ? familyMap.get(d.contentFamilyId) : undefined;
+    const hreflangLinks = buildDeckHreflangLinks(
+      { language: d.language, slug: d.slug },
+      siblings ?? [{ language: d.language, slug: d.slug }],
+      BASE_URL,
+      xmlEscape,
+    );
+
     urls.push([
       '<url>',
       `  <loc>${xmlEscape(deckUrl)}</loc>`,
-      `  <xhtml:link rel="alternate" hreflang="${xmlEscape(hreflangCode)}" href="${xmlEscape(deckUrl)}" />`,
+      ...hreflangLinks,
       `  <lastmod>${d.updatedAt.toISOString()}</lastmod>`,
       '  <changefreq>weekly</changefreq>',
       '  <priority>0.7</priority>',
@@ -158,6 +178,7 @@ export async function GET() {
         exerciseType: true,
         ageRange: true,
         subjectTags: true,
+        contentFamilyId: true,
       },
     });
     const xml = await buildShard(decks, 0);

@@ -210,15 +210,18 @@
     "theme": null,
     "slug": {
       "en": "three-ways-to-show-a-number",
-      "de": "drei-wege-eine-zahl-zu-zeigen"
+      "de": "drei-wege-eine-zahl-zu-zeigen",
+      "fr": "trois-facons-de-montrer-un-nombre"
     },
     "page_title": {
       "en": "Three Ways to Show a Number",
-      "de": "Drei Wege, eine Zahl zu zeigen"
+      "de": "Drei Wege, eine Zahl zu zeigen",
+      "fr": "Trois façons de montrer un nombre"
     },
     "page_intro": {
       "en": "Match the cards that show the same number — the numeral (like 305), the number in words (three hundred five), and the expanded form (300 + 5). Tap one card, then its match, and watch the pair link. Each round has three numbers to find. Aligned to Common Core 2.NBT.A.3 — reading and writing numbers to 1000 as base-ten numerals, number names, and expanded form.",
-      "de": "Finde die Karten, die dieselbe Zahl zeigen — die Ziffer (wie 305), die Zahl in Worten (dreihundertfünf) und die Stellenwertschreibweise (300 + 5). Tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es drei Zahlen zu finden. An den Lehrplänen ausgerichtet — Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben."
+      "de": "Finde die Karten, die dieselbe Zahl zeigen — die Ziffer (wie 305), die Zahl in Worten (dreihundertfünf) und die Stellenwertschreibweise (300 + 5). Tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es drei Zahlen zu finden. An den Lehrplänen ausgerichtet — Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben.",
+      "fr": "Relie les cartes qui montrent le même nombre — le chiffre (comme 305), le nombre en lettres (trois cent cinq) et la forme décomposée (300 + 5). Touche une carte, puis sa partenaire, et regarde la paire se relier. Chaque tour a trois nombres à trouver. Conforme aux programmes officiels — lire et écrire les nombres jusqu'à 1000 en chiffres, en lettres et en forme décomposée."
     },
     "kid_prompt_template": "taskThreeForm"
   }

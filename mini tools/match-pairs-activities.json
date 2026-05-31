@@ -114,15 +114,18 @@
     "theme": null,
     "slug": {
       "en": "addition-and-subtraction-pairs",
-      "de": "plus-und-minus-paare"
+      "de": "plus-und-minus-paare",
+      "fr": "paires-additions-soustractions"
     },
     "page_title": {
       "en": "Addition & Subtraction Pairs",
-      "de": "Plus- und Minus-Paare"
+      "de": "Plus- und Minus-Paare",
+      "fr": "Paires d'additions et de soustractions"
     },
     "page_intro": {
       "en": "Work out each card, then match the addition to the subtraction that has the same answer — tap one card, then its match, and watch the pair link. Every round has two answers to find. Aligned to Common Core 1.OA.D.7 — understanding that addition and subtraction expressions can be equal.",
-      "de": "Rechne jede Karte aus und finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis — tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es zwei Ergebnisse zu finden. Angepasst an Common Core 1.OA.D.7 — verstehen, dass Additions- und Subtraktionsaufgaben gleich sein können."
+      "de": "Rechne jede Karte aus und finde zu jeder Plusaufgabe die Minusaufgabe mit demselben Ergebnis — tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es zwei Ergebnisse zu finden. Angepasst an Common Core 1.OA.D.7 — verstehen, dass Additions- und Subtraktionsaufgaben gleich sein können.",
+      "fr": "Calcule chaque carte, puis relie chaque addition à la soustraction qui a le même résultat — touche une carte, puis sa partenaire, et regarde la paire se relier. Chaque tour a deux résultats à trouver. Aligné à Common Core 1.OA.D.7 — comprendre que les additions et les soustractions peuvent être égales."
     },
     "kid_prompt_template": "taskEqualValue"
   }

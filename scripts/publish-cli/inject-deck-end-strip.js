@@ -172,7 +172,10 @@ function removeExistingStripAndGuard(content) {
   content = content.replace(/<section class="lcs-deckend-suggestions"[\s\S]*?<\/section>/g, '');
   // 3. Every un-hide guard JS fragment (exact-string split + tolerant regex).
   content = content.split(UN_HIDE_GUARD_JS).join('');
-  content = content.replace(/var stripEl=document\.querySelector\("\.lcs-deckend-suggestions"\);if\(stripEl\)\{[\s\S]*?mi\.appendChild\(stripEl\);\}\}\}/g, '');
+  // Whitespace-tolerant: the ORIGINAL app-emitted guard has `;\n    if(stripEl)`
+  // (newline + indent) while the injected one is compact `;if(stripEl)`. \s* after
+  // each `;`/`{` catches both formats so no stale guard survives.
+  content = content.replace(/var stripEl\s*=\s*document\.querySelector\("\.lcs-deckend-suggestions"\);\s*if\(stripEl\)\{[\s\S]*?mi\.appendChild\(stripEl\);\}\}\}/g, '');
   return content;
 }
 

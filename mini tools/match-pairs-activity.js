@@ -101,6 +101,7 @@ var ACTIVITY_STRINGS_MP = {
   taskThreeForm:      { en: 'Match the cards that show the same number',
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
                         es: 'Relaciona las tarjetas que muestran el mismo número',
+                        it: 'Collega le carte che mostrano lo stesso numero',
                         fr: 'Relie les cartes qui montrent le même nombre',
                         da: 'Forbind kortene, der viser det samme tal',
                         no: 'Koble sammen kortene som viser det samme tallet',
@@ -110,6 +111,7 @@ var ACTIVITY_STRINGS_MP = {
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
                         es: 'Toca una tarjeta, luego toca otra tarjeta que muestra el mismo número',
+                        it: 'Tocca una carta, poi tocca un\'altra carta che mostra lo stesso numero',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
                         da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
                         no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet',
@@ -119,6 +121,7 @@ var ACTIVITY_STRINGS_MP = {
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         es: 'Algunas tarjetas aún no muestran el mismo número — toca una pareja para deshacerla e inténtalo de nuevo',
+                        it: 'Alcune carte non mostrano ancora lo stesso numero — tocca una coppia per scioglierla e riprova',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
                         da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen',
@@ -130,6 +133,7 @@ var ACTIVITY_STRINGS_MP = {
   speakThreeFormDone: { en: 'You matched every number!',
                         de: 'Du hast alle Zahlen verbunden!',
                         es: '¡Has relacionado todos los números!',
+                        it: 'Hai collegato tutti i numeri!',
                         fr: 'Tu as relié tous les nombres !',
                         da: 'Du har forbundet alle tal!',
                         no: 'Du har koblet sammen alle tallene!',
@@ -285,6 +289,19 @@ var THREE_FORM_WORDS = {
     615: 'seiscientos quince',          700: 'setecientos',                 208: 'doscientos ocho',
     353: 'trescientos cincuenta y tres',940: 'novecientos cuarenta',        190: 'ciento noventa',
     560: 'quinientos sesenta',          274: 'doscientos setenta y cuatro', 409: 'cuatrocientos nueve'
+  },
+  /* IT: one-word compound, no joiner (duecentoquarantasette); compound hundreds
+     duecento..novecento (no irregulars); vowel-elision at the cento+vowel boundary
+     (208 duecentotto; 481 quattrocentottantuno — cento+ottanta→centottanta, +uno);
+     bare "cento" for h=1 (190 centonovanta); accent on -tré tails
+     (353 trecentocinquantatré). Value-verified vs _NUMBER_WORD_HELPERS.it
+     2026-06-01 (15/15). */
+  it: {
+    247: 'duecentoquarantasette',  562: 'cinquecentosessantadue',  305: 'trecentocinque',
+    836: 'ottocentotrentasei',     481: 'quattrocentottantuno',    420: 'quattrocentoventi',
+    615: 'seicentoquindici',       700: 'settecento',              208: 'duecentotto',
+    353: 'trecentocinquantatré',   940: 'novecentoquaranta',       190: 'centonovanta',
+    560: 'cinquecentosessanta',    274: 'duecentosettantaquattro', 409: 'quattrocentonove'
   },
   /* FR: classic convention — space at the hundred boundary, hyphens within the
      sub-99 tail (deux cent quarante-sept); cent→cents only on round ×100 (sept

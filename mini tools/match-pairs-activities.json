@@ -62,62 +62,52 @@
     "kid_prompt_template": "taskMakeN"
   },
   {
-    "id": "match-pairs.addition-and-subtraction-pairs.1-oa-b-4",
+    "id": "match-pairs.addition-and-subtraction-pairs.1-oa-d-7",
     "tool": "match-pairs-activity",
-    "task_template": "unknown-addend",
+    "task_template": "equal-value",
     "alignment": {
       "framework": "CCSS",
-      "code": "1.OA.B.4",
+      "code": "1.OA.D.7",
       "grade": "1",
       "strand": "Operations & Algebraic Thinking"
     },
     "params": {
       "tasks": [
-        { "target": 5, "cards": [
-          { "display": "5 − 1", "kind": "sub", "pairKey": "5:1" },
-          { "display": "1 + 4", "kind": "add", "pairKey": "5:1" },
-          { "display": "5 − 2", "kind": "sub", "pairKey": "5:2" },
-          { "display": "2 + 3", "kind": "add", "pairKey": "5:2" }
+        { "cards": [
+          { "display": "2 + 3", "kind": "add", "value": 5 },
+          { "display": "6 − 1", "kind": "sub", "value": 5 },
+          { "display": "3 + 4", "kind": "add", "value": 7 },
+          { "display": "9 − 2", "kind": "sub", "value": 7 }
         ] },
-        { "target": 6, "cards": [
-          { "display": "6 − 1", "kind": "sub", "pairKey": "6:1" },
-          { "display": "1 + 5", "kind": "add", "pairKey": "6:1" },
-          { "display": "6 − 2", "kind": "sub", "pairKey": "6:2" },
-          { "display": "2 + 4", "kind": "add", "pairKey": "6:2" },
-          { "display": "6 − 3", "kind": "sub", "pairKey": "6:3" },
-          { "display": "3 + 3", "kind": "add", "pairKey": "6:3" }
+        { "cards": [
+          { "display": "1 + 3", "kind": "add", "value": 4 },
+          { "display": "5 − 1", "kind": "sub", "value": 4 },
+          { "display": "2 + 6", "kind": "add", "value": 8 },
+          { "display": "10 − 2", "kind": "sub", "value": 8 }
         ] },
-        { "target": 7, "cards": [
-          { "display": "7 − 1", "kind": "sub", "pairKey": "7:1" },
-          { "display": "1 + 6", "kind": "add", "pairKey": "7:1" },
-          { "display": "7 − 2", "kind": "sub", "pairKey": "7:2" },
-          { "display": "2 + 5", "kind": "add", "pairKey": "7:2" },
-          { "display": "7 − 3", "kind": "sub", "pairKey": "7:3" },
-          { "display": "3 + 4", "kind": "add", "pairKey": "7:3" }
+        { "cards": [
+          { "display": "2 + 4", "kind": "add", "value": 6 },
+          { "display": "8 − 2", "kind": "sub", "value": 6 },
+          { "display": "4 + 5", "kind": "add", "value": 9 },
+          { "display": "10 − 1", "kind": "sub", "value": 9 }
         ] },
-        { "target": 8, "cards": [
-          { "display": "8 − 1", "kind": "sub", "pairKey": "8:1" },
-          { "display": "1 + 7", "kind": "add", "pairKey": "8:1" },
-          { "display": "8 − 2", "kind": "sub", "pairKey": "8:2" },
-          { "display": "2 + 6", "kind": "add", "pairKey": "8:2" },
-          { "display": "8 − 3", "kind": "sub", "pairKey": "8:3" },
-          { "display": "3 + 5", "kind": "add", "pairKey": "8:3" }
+        { "cards": [
+          { "display": "1 + 2", "kind": "add", "value": 3 },
+          { "display": "5 − 2", "kind": "sub", "value": 3 },
+          { "display": "1 + 6", "kind": "add", "value": 7 },
+          { "display": "8 − 1", "kind": "sub", "value": 7 }
         ] },
-        { "target": 9, "cards": [
-          { "display": "9 − 2", "kind": "sub", "pairKey": "9:2" },
-          { "display": "2 + 7", "kind": "add", "pairKey": "9:2" },
-          { "display": "9 − 3", "kind": "sub", "pairKey": "9:3" },
-          { "display": "3 + 6", "kind": "add", "pairKey": "9:3" },
-          { "display": "9 − 4", "kind": "sub", "pairKey": "9:4" },
-          { "display": "4 + 5", "kind": "add", "pairKey": "9:4" }
+        { "cards": [
+          { "display": "1 + 4", "kind": "add", "value": 5 },
+          { "display": "7 − 2", "kind": "sub", "value": 5 },
+          { "display": "3 + 5", "kind": "add", "value": 8 },
+          { "display": "9 − 1", "kind": "sub", "value": 8 }
         ] },
-        { "target": 10, "cards": [
-          { "display": "10 − 1", "kind": "sub", "pairKey": "10:1" },
-          { "display": "1 + 9", "kind": "add", "pairKey": "10:1" },
-          { "display": "10 − 2", "kind": "sub", "pairKey": "10:2" },
-          { "display": "2 + 8", "kind": "add", "pairKey": "10:2" },
-          { "display": "10 − 3", "kind": "sub", "pairKey": "10:3" },
-          { "display": "3 + 7", "kind": "add", "pairKey": "10:3" }
+        { "cards": [
+          { "display": "2 + 2", "kind": "add", "value": 4 },
+          { "display": "7 − 3", "kind": "sub", "value": 4 },
+          { "display": "2 + 5", "kind": "add", "value": 7 },
+          { "display": "10 − 3", "kind": "sub", "value": 7 }
         ] }
       ]
     },
@@ -129,8 +119,8 @@
       "en": "Addition & Subtraction Pairs"
     },
     "page_intro": {
-      "en": "Pair each subtraction with the addition that completes it. To work out 7 − 2, find what you add to 2 to make 7 — tap the subtraction, then tap its matching addition, and watch the pair link. Aligned to Common Core 1.OA.B.4 — understand subtraction as an unknown-addend problem."
+      "en": "Work out each card, then match the addition to the subtraction that has the same answer — tap one card, then its match, and watch the pair link. Every round has two answers to find. Aligned to Common Core 1.OA.D.7 — understanding that addition and subtraction expressions can be equal."
     },
-    "kid_prompt_template": "taskUnknownAddend"
+    "kid_prompt_template": "taskEqualValue"
   }
 ]

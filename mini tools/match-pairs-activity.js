@@ -37,18 +37,19 @@ var ACTIVITY_STRINGS_MP = {
                      no: 'Noen par når ikke målet — trykk på et par for å løse det opp og prøv igjen',
                      fi: 'Jotkin parit eivät yllä tavoitteeseen — paina paria avataksesi sen ja yritä uudelleen' },
 
-  /* ---- unknown-addend template (1.OA.B.4) chrome. EN base-locale only
-     this commission; the 10-locale fan-out adds entries per §A.13.48. The
-     unknown-addend activity ships slug.en only, so it loads at lang='en'
+  /* ---- equal-value template (1.OA.D.7) chrome. The kid works out each
+     card (results are HIDDEN) and matches the addition to the subtraction
+     with the SAME answer; each task has two pairs with two DIFFERENT answers.
+     EN base-locale only this commission; the 10-locale fan-out adds entries
+     per §A.13.48. The activity ships slug.en only, so it loads at lang='en'
      exclusively until fan-out — these EN-only keys are never read at any
      other lang (no key-leak). ---- */
-  taskUnknownAddend:  { en: 'Match each subtraction to the addition that helps you solve it' },
-  hintPairSubAdd:     { en: 'Tap a subtraction, then tap the addition that helps you solve it' },
-  hintTryDifferentUA: { en: 'Some pairs don\'t match yet — tap a pair to break it and try again' },
-  /* Truthful Check-correct celebration. Does NOT claim a number total —
-     the board mixes subtractions (5 − 1 = 4) and additions (1 + 4 = 5), so
-     "All pairs make 5!" would be false. The shell shows its visual "Great!";
-     this is the spoken line. EN-only this commission. */
+  taskEqualValue:     { en: 'Match each addition to the subtraction with the same answer' },
+  hintEqualValue:     { en: 'Work out each card, then match the ones with the same answer' },
+  hintTryEqualValue:  { en: 'Those answers aren\'t equal yet — tap a pair to break it and try again' },
+  /* Truthful Check-correct celebration. Does NOT claim a number total — a
+     task has TWO different answers, so "All pairs make 5!" would be false.
+     The shell shows its visual "Great!"; this is the spoken line. EN-only. */
   speakMatchedAll:    { en: 'You matched every pair!' }
 };
 
@@ -99,32 +100,30 @@ function makeMatchTasks(tasksRaw, idPrefix) {
   });
 }
 
-/* task_template 'unknown-addend' (1.OA.B.4) — pair each subtraction card
-   with the addition that completes it as an unknown-addend problem
-   (to do W−b, find what adds to b to make W). Each task is anchored on a
-   single whole W (stored in t.target, the same field setupTask + the core
-   speakAllPairs() already read — so "All pairs make {W}!" is spoken with
-   the value-verified cardSpoken word table, no core rename, no new audio
-   string). Cards are {display, kind, pairKey} objects; validity is an
-   authored pairKey shared by exactly one subtraction + its one completing
-   addition. The manifest guarantees no two subtrahends in a task sum to W,
-   so each subtraction has exactly ONE valid completing addition on the
-   board (no commutative ambiguity). The numeric make-n path is unaffected. */
-function makeUnknownAddendTasks(tasksRaw, idPrefix) {
+/* task_template 'equal-value' (1.OA.D.7) — the kid works out each card
+   (results are HIDDEN in `display`, e.g. "2 + 3" / "6 − 1") and matches the
+   addition to the subtraction with the SAME answer. Each task has two pairs
+   with two DIFFERENT answers, so each value maps to exactly one addition +
+   one subtraction → every match is unique and there is no false-correct
+   configuration. Cards are {display, kind, value} objects; validity is
+   `a.value === b.value`. No single target → no banner (core omits it for
+   object cards) and the celebration is number-free ("You matched every
+   pair!"). The numeric make-n (K.OA.A.3) path is unaffected. */
+function makeEqualValueTasks(tasksRaw, idPrefix) {
   return tasksRaw.map(function (t, i) {
-    var whole = t.target;            /* the whole W; drives speakAllPairs */
     var cards = t.cards.slice();
     return {
-      id: idPrefix + '.whole-' + whole + '-' + i,
-      promptKey: 'taskUnknownAddend',
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskEqualValue',
       answerType: 'state',
       setup: function (tool) {
-        tool.setupTask({ target: whole, cards: cards });
+        tool.setupTask({ cards: cards });   /* no single target */
         tool.render();   /* fresh DOM per task — clears prior board */
       },
       check: function (tool) {
-        /* Pass criteria: every card paired AND every formed pair is a
-           valid subtraction↔completing-addition pair (shared pairKey). */
+        /* Pass criteria: every card paired AND every formed pair has two
+           cards of EQUAL value (the addition and the subtraction that share
+           an answer). */
         if (!tool.allPaired()) return false;
         var wrong = {};
         var ok = true;
@@ -132,22 +131,21 @@ function makeUnknownAddendTasks(tasksRaw, idPrefix) {
           var a = tool.cards[p[0]];
           var b = tool.cards[p[1]];
           var valid = a && b && typeof a === 'object' && typeof b === 'object'
-                      && a.pairKey != null && a.pairKey === b.pairKey;
+                      && typeof a.value === 'number' && a.value === b.value;
           if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
         });
         if (!ok) {
-          /* Mark mismatched pairs visually + speak the gentle nudge. The
-             new template sets wrongIdxSet directly (core markWrongPairs is
+          /* Mark mismatched pairs visually + speak the gentle nudge. This
+             template sets wrongIdxSet directly (core markWrongPairs is
              sum-based and unused here). */
           tool.wrongIdxSet = wrong;
           tool.paint();
           tool.speakTryAgain();
           return false;
         }
-        /* Correct! Lock the board + speak a TRUTHFUL celebration. We do NOT
-           call tool.speakAllPairs() here — that says "All pairs make {W}!",
-           which is false on a board containing subtraction cards (they don't
-           equal W). Speak speakMatchedAll instead. */
+        /* Correct! Lock the board + speak a TRUTHFUL, number-free
+           celebration (a task has two different answers, so "All pairs make
+           {n}!" would be false). */
         tool.readOnly = true;
         tool.paint();
         if (window.LCSAudio && window.LCSAudio.speak) {
@@ -158,8 +156,8 @@ function makeUnknownAddendTasks(tasksRaw, idPrefix) {
         return true;
       },
       hintKey: function (tool) {
-        if (!tool.allPaired()) return 'hintPairSubAdd';
-        return 'hintTryDifferentUA';
+        if (!tool.allPaired()) return 'hintEqualValue';
+        return 'hintTryEqualValue';
       }
     };
   });
@@ -243,9 +241,9 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
       var tasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeMatchTasks(tasks, row.id);
     }
-    if (row.task_template === 'unknown-addend') {
-      var uaTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
-      return makeUnknownAddendTasks(uaTasks, row.id);
+    if (row.task_template === 'equal-value') {
+      var evTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      return makeEqualValueTasks(evTasks, row.id);
     }
     return STATIC_DEMO_TASKS_MP;
   }

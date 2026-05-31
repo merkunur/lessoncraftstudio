@@ -439,58 +439,6 @@ else
     echo "  ✅ All diacritics correct"
 fi
 
-# ============================================
-# BLOG CACHE WARMING
-# ============================================
-# After deploy, in-memory caches (slugCache, blogLinkTargetCache,
-# sampleDiscoveryCache, relatedPostsCache, sampleMetaCache) are cold.
-# Warming the listing page does nothing - caches live in the [slug] page module.
-# We must hit an actual blog post to warm them.
-echo ""
-echo "Warming blog caches..."
-
-# Step 1: Warm listing pages (fast, warms category data)
-for locale in en de fr es pt it nl sv da no fi; do
-  curl -sf "http://localhost:3000/${locale}/blog" > /dev/null 2>&1 &
-done
-wait
-
-# Step 2: Get ALL published blog slugs from the database
-BLOG_SLUGS=$(PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -t -c \
-  "SELECT slug FROM blog_posts WHERE status = 'published' ORDER BY created_at DESC;" 2>/dev/null | sed 's/^[[:space:]]*//;s/[[:space:]]*$//' | grep -v '^$')
-
-if [ -n "$BLOG_SLUGS" ]; then
-  SLUG_COUNT=$(echo "$BLOG_SLUGS" | wc -l | tr -d ' ')
-  FIRST_SLUG=$(echo "$BLOG_SLUGS" | head -1)
-
-  # Step 3: Warm ALL posts for English (primary locale), concurrency limit of 5.
-  # Each request populates slugCache (global), blogLinkTargetCache (en),
-  # relatedPostsCache, sampleDiscoveryCache, sampleMetaCache for that post.
-  echo "  Warming $SLUG_COUNT blog posts for English locale..."
-  BATCH=0
-  for slug in $BLOG_SLUGS; do
-    [ -z "$slug" ] && continue
-    curl -sf "http://localhost:3000/en/blog/${slug}" > /dev/null 2>&1 &
-    BATCH=$((BATCH + 1))
-    if [ $BATCH -ge 5 ]; then
-      wait
-      BATCH=0
-    fi
-  done
-  wait
-  echo "  English blog caches warmed ($SLUG_COUNT posts)"
-
-  # Step 4: Warm first post for remaining 10 locales (populates locale-specific blogLinkTargetCache)
-  echo "  Warming locale caches with slug: $FIRST_SLUG"
-  for locale in de fr es pt it nl sv da no fi; do
-    curl -sf "http://localhost:3000/${locale}/blog/${FIRST_SLUG}" > /dev/null 2>&1 &
-  done
-  wait
-  echo "Blog caches warmed ($SLUG_COUNT English posts + 10 locale entries)"
-else
-  echo "  No published blog posts found - skipping post cache warming"
-fi
-
 # Verify every static chunk referenced by live HTML actually resolves (retention/sync sanity).
 # WARN-only: runs AFTER the live swap; failing cannot un-deploy and must NOT abort the
 # remaining steps (set -e is active). Surfaces loudly in the deploy output.

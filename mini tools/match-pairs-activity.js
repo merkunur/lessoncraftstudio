@@ -241,6 +241,50 @@ var THREE_FORM_WORDS_EN = {
   409: 'four hundred nine'
 };
 
+/* Anti-predictability placement for three-form. The board is 6 cards in a
+   responsive grid (2-col <600px, 3-col ≥600px). A plain shuffle frequently
+   leaves a number's two cards visually stacked in one column ("every column is a
+   pair" → kid matches top↔bottom without reading each card). 6 slots can't make
+   every pair non-adjacent at BOTH breakpoints (min adjacency = 1), so we MINIMIZE
+   a visual-adjacency penalty summed over both geometries: a same-value pair
+   scores when horizontally adjacent (flat-distance 1, same row) or vertically
+   stacked (distance 2 at 2-col / distance 3 at 3-col). Sample shuffles, keep the
+   lowest penalty with a RANDOM tie-break so the layout still varies per load —
+   never the clean all-columns transposition; at most ~1 guessable pair. */
+function scatterThreeForm(cards) {
+  function shuffle(a) {
+    var b = a.slice();
+    for (var i = b.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = b[i]; b[i] = b[j]; b[j] = t;
+    }
+    return b;
+  }
+  function penalty(arr) {
+    var p = 0;
+    for (var i = 0; i < arr.length; i++) {
+      for (var j = i + 1; j < arr.length; j++) {
+        var a = arr[i], b = arr[j];
+        if (!a || !b || typeof a !== 'object' || typeof b !== 'object' || a.value !== b.value) continue;
+        var d = j - i;
+        /* 2-col grid: horiz-adjacent (d=1 same row) OR vert-stacked (d=2). */
+        if (d === 1 && Math.floor(i / 2) === Math.floor(j / 2)) p++;
+        if (d === 2) p++;
+        /* 3-col grid: horiz-adjacent (d=1 same row) OR vert-stacked (d=3). */
+        if (d === 1 && Math.floor(i / 3) === Math.floor(j / 3)) p++;
+        if (d === 3) p++;
+      }
+    }
+    return p;
+  }
+  var best = shuffle(cards), bestP = penalty(best);
+  for (var k = 0; k < 60; k++) {
+    var cand = shuffle(cards), cp = penalty(cand);
+    if (cp < bestP || (cp === bestP && Math.random() < 0.5)) { best = cand; bestP = cp; }
+  }
+  return best;
+}
+
 /* task_template 'three-form' (2.NBT.A.3) — "Read and write numbers to 1000
    using base-ten numerals, number names, and expanded form." Each task shows
    6 cards = 3 pairs; each number's value appears on exactly TWO cards, bridging
@@ -262,7 +306,9 @@ function makeThreeFormTasks(tasksRaw, idPrefix) {
       promptKey: 'taskThreeForm',
       answerType: 'state',
       setup: function (tool) {
-        tool.setupTask({ cards: cards });           /* no single target → no banner */
+        tool.setupTask({ cards: cards });           /* resets state; its shuffle is overridden below */
+        tool.cards = scatterThreeForm(tool.cards);  /* anti-predictable placement (no column-stacking) */
+        tool.cardsState = tool.cards.map(function () { return 'unpaired'; });
         tool._speakWordTable = THREE_FORM_WORDS_EN; /* enables number-word tap-audio for object cards */
         tool.render();                              /* fresh DOM per task — clears prior board */
       },

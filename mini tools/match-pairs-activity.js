@@ -96,15 +96,18 @@ var ACTIVITY_STRINGS_MP = {
      show the SAME number across numeral / expanded-form / number-word
      representations. Each task has 3 pairs with 3 DIFFERENT numbers, so each
      value maps to exactly two cards → every match is unique, no false-correct.
-     EN base-locale only this commission; the 10-locale fan-out adds entries
-     per §A.13.48. slug.en only → loads at lang='en' exclusively (no key-leak). ---- */
-  taskThreeForm:      { en: 'Match the cards that show the same number' },
-  hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number' },
-  hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again' },
+     Per-locale fan-out adds entries per §A.13.48; register matched to each
+     locale's live E4 (K.OA.A.3 + 1.OA.D.7). ---- */
+  taskThreeForm:      { en: 'Match the cards that show the same number',
+                        de: 'Finde die Karten, die dieselbe Zahl zeigen' },
+  hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
+                        de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl' },
+  hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
+                        de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
-     read aloud. Number-free + truthful (a task has three different numbers).
-     EN-only. */
-  speakThreeFormDone: { en: 'You matched every number!' }
+     read aloud. Number-free + truthful (a task has three different numbers). */
+  speakThreeFormDone: { en: 'You matched every number!',
+                        de: 'Du hast alle Zahlen verbunden!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -217,28 +220,32 @@ function makeEqualValueTasks(tasksRaw, idPrefix) {
   });
 }
 
-/* Value-verified EN number-words (100-999) for the three-form activity's
-   spoken layer. Each entry EQUALS PlaceValueCore._NUMBER_WORD_HELPERS.en(n)
-   (US Common Core convention — no "and"; hyphenated 21-99), copied here as a
-   flat lookup per the locked engine-decoupling doctrine — NO PlaceValueCore
-   import (§0.4 / feedback_cognate_aware_verify_discipline.md). Covers exactly
-   the 15 values used by match-pairs.three-ways-to-show-a-number. */
-var THREE_FORM_WORDS_EN = {
-  247: 'two hundred forty-seven',
-  562: 'five hundred sixty-two',
-  305: 'three hundred five',
-  836: 'eight hundred thirty-six',
-  481: 'four hundred eighty-one',
-  420: 'four hundred twenty',
-  615: 'six hundred fifteen',
-  700: 'seven hundred',
-  208: 'two hundred eight',
-  353: 'three hundred fifty-three',
-  940: 'nine hundred forty',
-  190: 'one hundred ninety',
-  560: 'five hundred sixty',
-  274: 'two hundred seventy-four',
-  409: 'four hundred nine'
+/* Value-verified number-words (the 15 values used by
+   match-pairs.three-ways-to-show-a-number), per locale. Each locale's entries
+   EQUAL PlaceValueCore._NUMBER_WORD_HELPERS.<locale>(n, 'cardinal') — copied as
+   a flat lookup per the locked engine-decoupling doctrine — NO PlaceValueCore
+   import (§0.4 / feedback_cognate_aware_verify_discipline.md). The word-card
+   DISPLAY is sourced from this table at render time (the manifest's word-card
+   display is a language-neutral placeholder); numeral + expanded cards stay
+   language-neutral. New locales add one block here, value-verified at build. */
+var THREE_FORM_WORDS = {
+  en: {
+    247: 'two hundred forty-seven',  562: 'five hundred sixty-two',  305: 'three hundred five',
+    836: 'eight hundred thirty-six', 481: 'four hundred eighty-one', 420: 'four hundred twenty',
+    615: 'six hundred fifteen',      700: 'seven hundred',           208: 'two hundred eight',
+    353: 'three hundred fifty-three',940: 'nine hundred forty',      190: 'one hundred ninety',
+    560: 'five hundred sixty',       274: 'two hundred seventy-four', 409: 'four hundred nine'
+  },
+  /* DE: units-first single-word (zweihundertsiebenundvierzig); einhundert
+     convention; ß; sechzig/siebzig. Value-verified vs _NUMBER_WORD_HELPERS.de
+     2026-05-31 (15/15). */
+  de: {
+    247: 'zweihundertsiebenundvierzig', 562: 'fünfhundertzweiundsechzig',  305: 'dreihundertfünf',
+    836: 'achthundertsechsunddreißig',  481: 'vierhunderteinundachtzig',   420: 'vierhundertzwanzig',
+    615: 'sechshundertfünfzehn',        700: 'siebenhundert',              208: 'zweihundertacht',
+    353: 'dreihundertdreiundfünfzig',   940: 'neunhundertvierzig',         190: 'einhundertneunzig',
+    560: 'fünfhundertsechzig',          274: 'zweihundertvierundsiebzig',  409: 'vierhundertneun'
+  }
 };
 
 /* Anti-predictability placement for three-form. The board is 6 cards in a
@@ -306,10 +313,20 @@ function makeThreeFormTasks(tasksRaw, idPrefix) {
       promptKey: 'taskThreeForm',
       answerType: 'state',
       setup: function (tool) {
-        tool.setupTask({ cards: cards });           /* resets state; its shuffle is overridden below */
+        /* Per-locale word-card display + tap-audio table; numeral/expanded
+           cards stay language-neutral. For EN, wt.en[value] === the manifest
+           display, so EN renders byte-identical. */
+        var wt = THREE_FORM_WORDS[tool.language] || THREE_FORM_WORDS.en;
+        var localized = cards.map(function (c) {
+          if (c && c.kind === 'word' && typeof c.value === 'number' && wt[c.value]) {
+            return { display: wt[c.value], kind: 'word', value: c.value };
+          }
+          return c;
+        });
+        tool.setupTask({ cards: localized });       /* resets state; its shuffle is overridden below */
         tool.cards = scatterThreeForm(tool.cards);  /* anti-predictable placement (no column-stacking) */
         tool.cardsState = tool.cards.map(function () { return 'unpaired'; });
-        tool._speakWordTable = THREE_FORM_WORDS_EN; /* enables number-word tap-audio for object cards */
+        tool._speakWordTable = wt;                  /* number-word tap-audio + spoken-summary table */
         tool.render();                              /* fresh DOM per task — clears prior board */
       },
       check: function (tool) {
@@ -345,7 +362,8 @@ function makeThreeFormTasks(tasksRaw, idPrefix) {
             }
           });
           vals.sort(function (x, y) { return x - y; });
-          var words = vals.map(function (v) { return THREE_FORM_WORDS_EN[v] || String(v); });
+          var wt = tool._speakWordTable || THREE_FORM_WORDS.en;
+          var words = vals.map(function (v) { return wt[v] || String(v); });
           var done = (tool.strings.speakThreeFormDone && tool.strings.speakThreeFormDone[tool.language])
                      || tool.strings.speakThreeFormDone.en;
           var text = words.join('. ') + '. ' + done;

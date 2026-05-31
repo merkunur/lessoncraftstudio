@@ -209,13 +209,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "three-ways-to-show-a-number"
+      "en": "three-ways-to-show-a-number",
+      "de": "drei-wege-eine-zahl-zu-zeigen"
     },
     "page_title": {
-      "en": "Three Ways to Show a Number"
+      "en": "Three Ways to Show a Number",
+      "de": "Drei Wege, eine Zahl zu zeigen"
     },
     "page_intro": {
-      "en": "Match the cards that show the same number — the numeral (like 305), the number in words (three hundred five), and the expanded form (300 + 5). Tap one card, then its match, and watch the pair link. Each round has three numbers to find. Aligned to Common Core 2.NBT.A.3 — reading and writing numbers to 1000 as base-ten numerals, number names, and expanded form."
+      "en": "Match the cards that show the same number — the numeral (like 305), the number in words (three hundred five), and the expanded form (300 + 5). Tap one card, then its match, and watch the pair link. Each round has three numbers to find. Aligned to Common Core 2.NBT.A.3 — reading and writing numbers to 1000 as base-ten numerals, number names, and expanded form.",
+      "de": "Finde die Karten, die dieselbe Zahl zeigen — die Ziffer (wie 305), die Zahl in Worten (dreihundertfünf) und die Stellenwertschreibweise (300 + 5). Tippe auf eine Karte, dann auf ihre passende Karte, und sieh zu, wie sich das Paar verbindet. In jeder Runde gibt es drei Zahlen zu finden. An den Lehrplänen ausgerichtet — Zahlen bis 1000 als Ziffern, als Zahlwörter und in Stellenwertschreibweise lesen und schreiben."
     },
     "kid_prompt_template": "taskThreeForm"
   }

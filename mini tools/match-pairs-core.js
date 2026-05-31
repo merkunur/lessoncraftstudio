@@ -399,9 +399,13 @@ window.MatchPairsCore = {
                              add/sub "2 + 3" — short, single-line, UNCHANGED)
          1.OA.D.7 cards are kind:'add'/'sub' → .mp-expr, byte-identical. */
       if (isExpr) {
-        card.classList.add(
-          val.kind === 'word' ? 'mp-word' : (val.kind === 'expanded' ? 'mp-expanded' : 'mp-expr')
-        );
+        var faceClass = val.kind === 'word' ? 'mp-word' : (val.kind === 'expanded' ? 'mp-expanded' : 'mp-expr');
+        card.classList.add(faceClass);
+        /* Word cards carry long number-words; some locales are single
+           spaceless compounds (DE zweihundertsiebenundvierzig; FI even
+           longer). Set lang so the browser hyphenates correctly when the
+           .mp-word break rules wrap them. */
+        if (faceClass === 'mp-word') card.lang = self.language || 'en';
       }
       card.setAttribute('data-idx', String(idx));
       card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + face);
@@ -522,7 +526,7 @@ window.MatchPairsCore = {
          smaller wrapping font. Additive only; numeral/expanded cards keep
          .mp-expr above. */
       '.mp-card.mp-word{aspect-ratio:auto;min-height:84px;padding:0.5rem 0.55rem;}',
-      '.mp-card.mp-word .mp-card-num{font-size:clamp(1rem,3.4vw,1.45rem);line-height:1.15;letter-spacing:0;white-space:normal;text-align:center;}',
+      '.mp-card.mp-word .mp-card-num{font-size:clamp(1rem,3.4vw,1.45rem);line-height:1.15;letter-spacing:0;white-space:normal;text-align:center;overflow-wrap:break-word;word-break:break-word;hyphens:auto;}',
       /* Expanded-form card faces ("200 + 40 + 7", three-form 2.NBT.A.3) are
          multi-term expressions that overflow a square card with nowrap at the
          3-col breakpoint. Drop the square aspect-ratio + allow wrapping (breaks

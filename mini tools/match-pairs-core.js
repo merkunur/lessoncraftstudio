@@ -389,12 +389,20 @@ window.MatchPairsCore = {
       var face = isExpr ? (val.display != null ? String(val.display) : '') : String(val);
       var card = self.api.el('button', 'mp-card');
       card.type = 'button';
-      /* Object cards get a face-sizing class. `kind:'word'` (three-form
-         number-word cards, e.g. "two hundred forty-seven") wrap to multiple
-         lines via .mp-word; all other object cards (equal-value add/sub,
-         three-form numeral/expanded glyph faces) stay single-line .mp-expr.
-         1.OA.D.7 cards are kind:'add'/'sub' → .mp-expr, unchanged. */
-      if (isExpr) card.classList.add(val.kind === 'word' ? 'mp-word' : 'mp-expr');
+      /* Object cards get a face-sizing class:
+           kind:'word'     → .mp-word     (three-form number-words, e.g.
+                             "two hundred forty-seven" — wrap to multiple lines)
+           kind:'expanded' → .mp-expanded (three-form expanded forms, e.g.
+                             "200 + 40 + 7" — wrap so 3-term expressions don't
+                             overflow narrow cards)
+           else            → .mp-expr     (three-form numerals "247"; 1.OA.D.7
+                             add/sub "2 + 3" — short, single-line, UNCHANGED)
+         1.OA.D.7 cards are kind:'add'/'sub' → .mp-expr, byte-identical. */
+      if (isExpr) {
+        card.classList.add(
+          val.kind === 'word' ? 'mp-word' : (val.kind === 'expanded' ? 'mp-expanded' : 'mp-expr')
+        );
+      }
       card.setAttribute('data-idx', String(idx));
       card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + face);
       var num = self.api.el('span', 'mp-card-num');
@@ -515,6 +523,14 @@ window.MatchPairsCore = {
          .mp-expr above. */
       '.mp-card.mp-word{aspect-ratio:auto;min-height:84px;padding:0.5rem 0.55rem;}',
       '.mp-card.mp-word .mp-card-num{font-size:clamp(1rem,3.4vw,1.45rem);line-height:1.15;letter-spacing:0;white-space:normal;text-align:center;}',
+      /* Expanded-form card faces ("200 + 40 + 7", three-form 2.NBT.A.3) are
+         multi-term expressions that overflow a square card with nowrap at the
+         3-col breakpoint. Drop the square aspect-ratio + allow wrapping (breaks
+         at the spaces around "+") with a moderate font. 2-term forms ("300 + 5")
+         stay on one line on the same class. Additive only; numeral cards keep
+         .mp-expr above. */
+      '.mp-card.mp-expanded{aspect-ratio:auto;min-height:84px;padding:0.45rem 0.5rem;}',
+      '.mp-card.mp-expanded .mp-card-num{font-size:clamp(1.1rem,3.8vw,1.8rem);line-height:1.2;letter-spacing:0;white-space:normal;text-align:center;}',
       '.mp-card.selected{border-color:#F2784B;border-width:5px;transform:scale(1.06);box-shadow:0 0 0 4px rgba(242,120,75,0.25);}',
       '.mp-card.paired{background:#E8F3E5;border-color:#5BAE5E;color:#2E6B33;cursor:pointer;}',
       '.mp-card.paired:hover{transform:scale(1.02);}',

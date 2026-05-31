@@ -103,19 +103,22 @@ var ACTIVITY_STRINGS_MP = {
                         fr: 'Relie les cartes qui montrent le même nombre',
                         da: 'Forbind kortene, der viser det samme tal',
                         no: 'Koble sammen kortene som viser det samme tallet',
-                        sv: 'Koppla ihop korten som visar samma tal' },
+                        sv: 'Koppla ihop korten som visar samma tal',
+                        fi: 'Yhdistä kortit, joilla on sama luku' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
                         da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
                         no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet',
-                        sv: 'Tryck på ett kort, sedan på ett annat kort som visar samma tal' },
+                        sv: 'Tryck på ett kort, sedan på ett annat kort som visar samma tal',
+                        fi: 'Paina korttia, sitten toista korttia, jolla on sama luku' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
                         da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen',
-                        sv: 'Några kort visar inte samma tal än — tryck på ett par för att lösa upp det och försök igen' },
+                        sv: 'Några kort visar inte samma tal än — tryck på ett par för att lösa upp det och försök igen',
+                        fi: 'Joillakin korteilla ei ole vielä samaa lukua — paina paria avataksesi sen ja yritä uudelleen' },
   /* Check-correct celebration, spoken AFTER the three matched number-words are
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
@@ -123,7 +126,8 @@ var ACTIVITY_STRINGS_MP = {
                         fr: 'Tu as relié tous les nombres !',
                         da: 'Du har forbundet alle tal!',
                         no: 'Du har koblet sammen alle tallene!',
-                        sv: 'Du har kopplat ihop alla tal!' }
+                        sv: 'Du har kopplat ihop alla tal!',
+                        fi: 'Yhdistit kaikki luvut!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -307,6 +311,18 @@ var THREE_FORM_WORDS = {
     615: 'sexhundrafemton',       700: 'sjuhundra',             208: 'tvåhundraåtta',
     353: 'trehundrafemtiotre',    940: 'niohundrafyrtio',       190: 'hundranittio',
     560: 'femhundrasextio',       274: 'tvåhundrasjuttiofyra',  409: 'fyrahundranio'
+  },
+  /* FI (Finnic): pure agglutination, single word, NO joiner (kaksisataa-
+     neljäkymmentäseitsemän); tens X+kymmentä; hundreds X+sataa; bare "sata"
+     for 100; "yksi" for 1 in tails. Longest word card 481 = 31 chars (the
+     .mp-word break rail's hardest test). Value-verified vs
+     _NUMBER_WORD_HELPERS.fi 2026-05-31 (15/15). [NSR-FLAG][fi] */
+  fi: {
+    247: 'kaksisataaneljäkymmentäseitsemän', 562: 'viisisataakuusikymmentäkaksi',   305: 'kolmesataaviisi',
+    836: 'kahdeksansataakolmekymmentäkuusi', 481: 'neljäsataakahdeksankymmentäyksi',420: 'neljäsataakaksikymmentä',
+    615: 'kuusisataaviisitoista',            700: 'seitsemänsataa',                208: 'kaksisataakahdeksan',
+    353: 'kolmesataaviisikymmentäkolme',     940: 'yhdeksänsataaneljäkymmentä',    190: 'satayhdeksänkymmentä',
+    560: 'viisisataakuusikymmentä',          274: 'kaksisataaseitsemänkymmentäneljä',409: 'neljäsataayhdeksän'
   }
 };
 

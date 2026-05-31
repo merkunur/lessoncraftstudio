@@ -12,7 +12,7 @@
  *   8. __LINK_TEXT_MORE_THEME__           i18n endDeck.moreTheme + {theme} interpolation
  *   9. __LINK_MORE_LEVEL__                taxonomy axis + locale → URL
  *  10. __LINK_TEXT_MORE_LEVEL__           i18n endDeck.moreLevel + {level} interpolation
- *  11. __LINK_BROWSE_ALL__                computed: /<locale>/
+ *  11. __LINK_BROWSE_ALL__                computed: /<locale>/worksheets
  *  12. __LINK_TEXT_BROWSE_ALL__           i18n endDeck.browseAll
  *  13. <!-- HREFLANG_INSERTION_POINT -->  v1: empty string
  *
@@ -244,8 +244,8 @@ function apply(opts) {
   note('__LINK_TEXT_MORE_LEVEL__', rLevelText.source, linkTextMoreLevel, rLevelText.fallbackFired,
     rLevelText.fallbackFired ? 'fell back to ' + rLevelText.source : null);
 
-  // 11. __LINK_BROWSE_ALL__
-  var linkBrowseAll = '/' + locale + '/';
+  // 11. __LINK_BROWSE_ALL__ — points at the /worksheets hub (not the locale root)
+  var linkBrowseAll = '/' + locale + '/worksheets';
   note('__LINK_BROWSE_ALL__', 'computed', linkBrowseAll, false);
 
   // 12. __LINK_TEXT_BROWSE_ALL__

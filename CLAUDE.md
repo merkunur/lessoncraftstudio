@@ -1683,15 +1683,17 @@ All three: one global `robots` indexes everything; private surfaces (`/admin`, `
 
 ### 21.2 What I run automatically on "publish decks" (the formerly-manual steps)
 
-Decks are the one type with post-publish finalization steps. **`scripts/publish-cli/publish-wave.js` is THE entry point** — it runs all 7 so none is ever forgotten. The flow is one-command even for wordy non-EN waves (fr/it/pt/de/nl/sv/da/no/fi):
+Decks are the one type with post-publish finalization steps. **`scripts/publish-cli/publish-wave.js` is THE entry point** — it runs all 9 so none is ever forgotten. The flow is one-command even for wordy non-EN waves (fr/it/pt/de/nl/sv/da/no/fi):
 
 0. **Pre-flight** — §A.14.8 manifest theme reconciliation (`rewrite-manifest-theme.js --dry-run --themeless-ok --fail-on-rewrite`). Never auto-mutates. `--themeless-ok` waves legitimately-themeless decks (cryptogram = text-decode, no images → new `skip-themeless` class) through instead of false-halting; `--fail-on-rewrite` HALTs on recoverable theme-emit defects so the operator salvages BEFORE STEP 1 (which rebuilds SEO from `manifest.theme`). `halt-ambiguous` / `halt-seometa-unmatched` / corruption still halt.
 1. **Preband** — `preband-staged-descriptions.js` (commit `58e4aaca`). Pre-publish re-band of the staged ZIPs' SEO `<head>`: descriptions into the 120-170 band (wordy locales overflow publish-bulk's 170-char `DESCRIPTION_LENGTH_TOO_LONG` HALT — the app-gen path emits the unbanded placeholder description by design per §17.8.5; banding is the retrofit's job) + `variant_id` title disambiguation (the catalog title engine drops `variant_id`, colliding same-(type,theme,level) siblings; `TITLE_NON_UNIQUE` is a HALT). Preserves `__CANONICAL_URL__`. **Runs for ALL waves** (keeps fresh app output consistent with the republish-seo'd catalog); idempotent; makes a `.preband-backup`. Dry-run = preview (no mutation).
 2. **Publish** — `index.js publish-bulk --confirm` (its own dry-run + §15.16 + §17.8.17 HALT gates; native slug, canonical, OG, JSON-LD, title/desc hashes emitted here).
 3. **OG images** — `regenerate-og-images.js --locales=<wave>` (two-column composite + XMP, §17.8.19).
 4. **Alt-text** — `rewrite-deck-html-alt-text.js --confirm --locales=<wave>` (worksheet `alt` + app `aria-label` + deckend-thumb alts; the 29 apps emit empty body alt — this is the "alt-text SEO commission 2026-05-27" retrofit, never folded into the apps). Idempotent; preserves the hreflang block.
-5. **Hreflang** — `populate-and-inject-hreflang.js --confirm --locales=<ALL 11>` (cross-locale siblings span every locale; the orchestrator always passes the full 11-locale set — passing only the wave locale is a no-op).
-6. **Audit** — `audit-deck-html.js --locales=<wave>` (invariants, §A.14.9).
+5. **End-links** — `inject-deck-end-topic-links.js --locale=<each wave locale>` (non-rewrite). Backfills the localized end-of-deck "Want more?" topic-links `<aside class="lcs-end-deck">` on any deck missing it so EVERY deck — not just EN — carries per-locale internal links opening that language's pages (§16.5 / §17.8.2). Idempotent (decks that already baked it are skipped). The "Browse all worksheets" link targets `/<locale>/worksheets` (the hub), not the locale root. Runs BEFORE hreflang so the hreflang block stays last in `<head>`.
+6. **Embed-hide** — `inject-embed-hide-style.js --locale=<each wave locale>`. Injects a marker-guarded `<style id="lcs-embed-hide">` keyed on `body.lcs-embedded` so the in-deck internal link sections (`.lcs-end-deck` + `.lcs-deckend-suggestions`) do NOT render when the deck loads inside an embed iframe (they stay on the standalone page — SEO links preserved). Idempotent; inserts at the top of `<head>`.
+7. **Hreflang** — `populate-and-inject-hreflang.js --confirm --locales=<ALL 11>` (cross-locale siblings span every locale; the orchestrator always passes the full 11-locale set — passing only the wave locale is a no-op).
+8. **Audit** — `audit-deck-html.js --locales=<wave>` (invariants, §A.14.9).
 
 Invocation (Hetzner, env loaded):
 ```

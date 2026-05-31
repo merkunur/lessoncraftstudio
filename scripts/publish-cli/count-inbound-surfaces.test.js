@@ -141,7 +141,40 @@ console.log('\ncount-inbound-surfaces — countInboundSurfacesForDeck:');
     assert.strictEqual(result.perSurface.varietyStripRotation, true);
     assert.strictEqual(result.perSurface.crossAxisPivots, true);
     assert.strictEqual(result.perSurface.deckEndSuggestionStrip, true);
-    assert.strictEqual(result.perSurface.breadthGridFeatured, false);
+    assert.strictEqual(result.perSurface.endDeckTopicLinks, false); // no deckHtml → false
+  });
+
+  await test('R17a: opts.deckHtml with strip + end-deck markers → surfaces 7+8 from HTML (count=8)', async function () {
+    mockPrisma = makeMockPrisma({
+      deckRow: publishedDeck({ subjectTags: ['animals'] }),
+      localeExerciseTypeGroups: [
+        { exerciseType: 'addition', _count: { _all: 5 } },
+        { exerciseType: 'subtraction', _count: { _all: 4 } }
+      ],
+      localeDeckCount: 12
+    });
+    var html = '<style>.lcs-deckend-suggestions{}</style>' +
+      '<section class="lcs-deckend-suggestions"><a class="lcs-deckend-tile" href="/en/decks/x/"></a></section>' +
+      'var s=document.querySelector(".lcs-deckend-suggestions");' +
+      '<aside class="lcs-end-deck"><a href="/en/topic/addition/">more</a></aside>';
+    var result = await helper.countInboundSurfacesForDeck('test-deck-001', 'en', { deckHtml: html });
+    assert.strictEqual(result.perSurface.deckEndSuggestionStrip, true);
+    assert.strictEqual(result.perSurface.endDeckTopicLinks, true);
+    assert.strictEqual(result.count, 8);
+  });
+
+  await test('R17a: opts.deckHtml MISSING markers overrides the ≥7 DB proxy → 7+8 false', async function () {
+    mockPrisma = makeMockPrisma({
+      deckRow: publishedDeck({ subjectTags: ['animals'] }),
+      localeExerciseTypeGroups: [
+        { exerciseType: 'addition', _count: { _all: 5 } },
+        { exerciseType: 'subtraction', _count: { _all: 4 } }
+      ],
+      localeDeckCount: 99 // proxy would say true, but HTML lacks the markers
+    });
+    var result = await helper.countInboundSurfacesForDeck('test-deck-001', 'en', { deckHtml: '<html><body>no strip here</body></html>' });
+    assert.strictEqual(result.perSurface.deckEndSuggestionStrip, false);
+    assert.strictEqual(result.perSurface.endDeckTopicLinks, false);
   });
 
   await test('deck without subjectTags + locale <7 + ≥2 exercise-types → count=5', async function () {

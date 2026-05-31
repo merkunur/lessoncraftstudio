@@ -817,6 +817,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Features {phrase}.",
     "educational_level": {
       "preschool": "Preschool",
       "kindergarten": "Kindergarten",

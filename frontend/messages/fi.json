@@ -1085,6 +1085,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Mukana {phrase}.",
     "educational_level": {
       "preschool": "Varhaiskasvatus",
       "kindergarten": "Esiopetus",

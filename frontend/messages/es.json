@@ -779,6 +779,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Con {phrase}.",
     "educational_level": {
       "preschool": "Preescolar",
       "kindergarten": "Kínder",

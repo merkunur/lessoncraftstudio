@@ -1116,6 +1116,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Avec {phrase}.",
     "educational_level": {
       "preschool": "Maternelle",
       "kindergarten": "Grande section",

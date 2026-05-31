@@ -1096,6 +1096,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Med {phrase}.",
     "educational_level": {
       "preschool": "Förskola",
       "kindergarten": "Förskoleklass",

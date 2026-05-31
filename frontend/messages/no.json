@@ -1100,6 +1100,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Med {phrase}.",
     "educational_level": {
       "preschool": "Barnehage",
       "kindergarten": "Skolestart",

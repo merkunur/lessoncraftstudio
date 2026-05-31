@@ -766,6 +766,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Met {phrase}.",
     "educational_level": {
       "preschool": "Peuters",
       "kindergarten": "Kleuters",

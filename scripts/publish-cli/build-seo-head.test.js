@@ -132,6 +132,65 @@ test('description: instruction with trailing period is preserved as-is', functio
 });
 
 console.log('');
+console.log('R15.2 differentiator description sentence:');
+
+test('R15.2: diff sentence joins the description when a locale template is supplied', function () {
+  var out = buildSeoHead(optsFixture({
+    educationalLevelLocalized: 'Kindergarten',
+    instruction: '',
+    differentiator: { kind: 'vocab', phrase: 'Cat & Dog' },
+    diffSentenceTemplate: 'Features {phrase}.'
+  }));
+  assert.ok(out.indexOf('Features Cat &amp; Dog.') !== -1 || out.indexOf('Features Cat & Dog.') !== -1);
+});
+
+test('R15.2: skipped when the diff phrase equals the theme (no redundancy)', function () {
+  var out = buildSeoHead(optsFixture({
+    educationalLevelLocalized: 'Kindergarten',
+    themeName: 'Cat Dog',
+    differentiator: { kind: 'vocab', phrase: 'Cat Dog' },
+    diffSentenceTemplate: 'Features {phrase}.'
+  }));
+  assert.strictEqual(out.indexOf('Features Cat Dog'), -1);
+});
+
+test('R15.2: empty template (no locale-own key) → legacy byte-identical (no diff sentence)', function () {
+  var base = buildSeoHead(optsFixture({ educationalLevelLocalized: 'Kindergarten' }));
+  var withDiffNoTemplate = buildSeoHead(optsFixture({
+    educationalLevelLocalized: 'Kindergarten',
+    differentiator: { kind: 'vocab', phrase: 'Cat & Dog' }
+    // diffSentenceTemplate intentionally absent → feature off
+  }));
+  assert.strictEqual(withDiffNoTemplate, base);
+  assert.strictEqual(withDiffNoTemplate.indexOf('Features'), -1);
+});
+
+test('R15.2: German preserves noun caps in the diff sentence', function () {
+  var out = buildSeoHead(optsFixture({
+    language: 'de',
+    exerciseTypeName: 'Addition',
+    worksheetWord: 'Arbeitsblatt',
+    themeName: 'Tiere',
+    educationalLevelLocalized: 'Kindergarten',
+    instruction: '',
+    differentiator: { kind: 'vocab', phrase: 'Specht und Rentier' },
+    diffSentenceTemplate: 'Mit {phrase}.'
+  }));
+  assert.ok(out.indexOf('Mit Specht und Rentier.') !== -1);
+});
+
+test('R15.2: an over-ceiling diff sentence is dropped (band preserved), instruction kept', function () {
+  var longPhrase = 'Antelope Dolphin Elephant Giraffe Hippo Iguana Jaguar Kangaroo Leopard Mongoose Narwhal Octopus Penguin Quokka Raccoon Salamander Tiger';
+  var out = buildSeoHead(optsFixture({
+    educationalLevelLocalized: 'Kindergarten',
+    instruction: 'Add the numbers and write your answers',
+    differentiator: { kind: 'vocab', phrase: longPhrase },
+    diffSentenceTemplate: 'Features {phrase}.'
+  }));
+  assert.strictEqual(out.indexOf('Features ' + longPhrase), -1);
+});
+
+console.log('');
 console.log('Canonical link emission:');
 
 test('canonical link emits __CANONICAL_URL__ placeholder', function () {

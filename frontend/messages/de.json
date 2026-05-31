@@ -909,6 +909,7 @@
     }
   },
   "seo": {
+    "featuresSentence": "Mit {phrase}.",
     "educational_level": {
       "preschool": "Vorschule",
       "kindergarten": "Kindergarten",

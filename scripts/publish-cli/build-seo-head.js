@@ -335,6 +335,12 @@ function buildSeoHead(opts) {
   // Defaults to English "Set" for backwards compat with callers that don't
   // pass variantLabel (e.g., legacy republish-seo invocations pre-locale-fix).
   var variantLabel    = String(opts.variantLabel || 'Set');
+  // R15.2: content differentiator phrase (e.g. "Cat & Dog", already locale-cased
+  // upstream by seo-differentiator.js) + the per-locale "Features {phrase}."
+  // sentence template. Both feature-off when absent → legacy byte-identical.
+  var diff            = opts.differentiator || null;
+  var diffPhrase      = (diff && diff.kind && diff.kind !== 'none' && diff.phrase) ? String(diff.phrase) : null;
+  var diffSentenceTemplate = String(opts.diffSentenceTemplate || '');
 
   // Title composition. Two paths:
   //
@@ -388,13 +394,29 @@ function buildSeoHead(opts) {
   var descLead = (themeName ? descLeadBase + ' (' + themeName + ')' : descLeadBase) + ' ' + forWord + ' ' + levelText;
   var descTail = ' ' + printOrPlay + (variantId ? ' (' + variantLabel + ' ' + variantId + ')' : '') + '.';
 
+  // R15.2: a differentiator sentence ("Features {phrase}.") joins the middle pool
+  // so sibling decks (same type/mode/level, different content) get distinct
+  // descriptions instead of an identical instruction sentence. Skipped when the
+  // phrase already appears in the lead (theme overlap) or equals the theme name,
+  // and when no locale-own template was supplied. bandedDescription only picks it
+  // if it keeps the 120-170 band; empty diffMiddle is filtered out (band+empty-safe).
+  var diffMiddle = '';
+  if (diffPhrase && diffSentenceTemplate) {
+    var leadLc = descLead.toLocaleLowerCase();
+    var dLc = diffPhrase.toLocaleLowerCase();
+    var themeLc = themeName ? String(themeName).toLocaleLowerCase() : '';
+    if (leadLc.indexOf(dLc) === -1 && dLc !== themeLc) {
+      diffMiddle = diffSentenceTemplate.replace('{phrase}', diffPhrase);
+    }
+  }
+
   var description;
   if (levelProvided) {
     description = bandedDescription({
       descLead: descLead,
       descLeadNoTheme: themeName ? descLeadNoTheme : null,
       descTail: descTail,
-      middles: [instruction, skillSentence, skillSentenceShort],
+      middles: [diffMiddle, instruction, skillSentence, skillSentenceShort],
       hasVariant: !!variantId
     });
   } else {

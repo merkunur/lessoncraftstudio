@@ -1548,8 +1548,9 @@ See [[project-activities-live-inventory]] for the canonical list. As of 2026-05-
 - **E7 CVC builder** — 1 EN-only activity (RF.K.3 "Build the CVC Word"). Non-EN return 404 by design.
 - **E8 Syllable Builder** — 3 fan-outs LIVE (RF.K.2.B): ES "Forma las sílabas" (`forma-las-silabas`, 8 words, commit `dde3e037`) + FI "Muodosta sana tavuista" (`muodosta-sana-tavuista`, 7 words, commit `92d0a136`) + PT "Forme as sílabas" (`forme-as-silabas`, 7 words, commit `693b3e86`). Engine: `mini tools/word-builder-core.js` + `syllable-builder-activity.js` (sibling to E7's cvc-builder-core; NOT a refactor). Tap-to-place + per-tile TTS + blended-word TTS on correct Check.
 - **E9 Sound-Chunk Builder** — **5 Nordic-cluster Group-C fan-outs LIVE (RF.K.2.B) — Group-C COMPLETE:** DE "Bau das Wort aus Silben" + NL "Bouw het woord met klankgroepen" (both shipped pre-2026-05-23) + SV "Bygg ordet av stavelser" (`c2bc4249`) + NO "Bygg ordet av stavelser" (`f834efd1`) + DA "Byg ordet af stavelser" (`4b014cbc`). Same engine as E8 (`word-builder-core.js` + `syllable-builder-activity.js`); only word-source pool differs. **Manifest-id `.<locale>` suffix convention** (started NO; defensive against `_loadActivity` find() collisions when slug-shapes overlap — SV+NO share slug-shape `bygg-ordet-av-stavelser` differentiated only by `/sv/` vs `/no/` locale + manifest id `.no`). **NO+DA ng-rule**: default 2-chunk walker → boundary BETWEEN n and g (engel → en-gel); DIFFERENT from SV `sv.js` ng-as-coda special case (ängel → äng-el). **DA K-1-safe pool**: per §20.7 phonemic-divergence policy, only 402/794 approved DA words are `policy_managed:false`; first DA activity authored exclusively from this pool. See [[project-phonics-safety-pipeline]] for per-locale gate state.
+- **E4 match-pairs** — tap-to-pair, single-row-multi-locale manifest. Activity 1 "Make the Number" (K.OA.A.3) LIVE 11/11. Activity 2 "Addition & Subtraction Pairs" (1.OA.D.7, equal-value design, number-free celebration) LIVE 8/11 (en/de/fr/da/no/sv/fi/nl); **es/it/pt pending — ship on national frameworks per §20.10**. Cognate-aware sequential fan-out per §A.13.53. See [[project-activities-live-inventory]].
 
-Engines NOT yet built: E8 fan-out to **FR** (next active commission; fr.js confirmed CORRECT) + **IT** (NSR-flagged commission alongside FR; it.js iato/dittongo register-sensitive); E4 match-pairs, E12 place-value, E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. See [[project-activities-master-queue]] for leverage ranking + queue triage.
+Engines NOT yet built: E8 fan-out to **FR** (next active commission; fr.js confirmed CORRECT) + **IT** (NSR-flagged commission alongside FR; it.js iato/dittongo register-sensitive); E5/E6 tracing, E9 sight-word, E14 fraction, E3 sort, E13 array, E10 clock, E18 number-bond. (E4 match-pairs + E12 place-value engines are BUILT + live — see above + [[project-activities-live-inventory]].) See [[project-activities-master-queue]] for leverage ranking + queue triage.
 
 ### 20.3 Architecture summary
 See [[project-activities-architecture]] for full doctrine. Key constraints:
@@ -1631,6 +1632,20 @@ After E8 reaches ≥4 locales (ES+FI+PT+FR) + operator approval, next is **E9 So
 **Backlog (deferred, operator-strategic):** `[FIX][DATA]` vocab-phonics count drift on río + iã+o classes (~13 ES + PT words; safety floor catches them; proof sets shipped without these words; clean correction would re-enable them).
 
 **Do not jump ahead. Await the next prompt from PM Claude.**
+
+### 20.10 National-framework localization of the activity layer (2026-05-31)
+
+The non-EN **activity layer** cites each locale's **national curriculum framework NAME** instead of "Common Core" — **name only, no national code**. EN is unchanged ("Common Core <code>"). **Decks stay on Common Core** (separate future commission; do NOT touch deck SEO for this). Rationale: Common Core is US-specific; DE/FR/Nordic/NL/Romance teachers use their own national curricula.
+
+**The CCSS code is RETAINED as the machine/SEO anchor** — only the human-facing framework *name* is localized. The code lives on at JSON-LD `educationalAlignment.targetName`, the `/standards/<code>` hub (a deliberate CCSS-code search surface), the manifest `alignment.code`, and the teacher chip.
+
+**Framework name SoT = two code maps** (lexicon per §A.13.49): `EDUCATIONAL_FRAMEWORK_BY_LOCALE` in `frontend/app/[locale]/activities/[slug]/page.tsx` + `FRAMEWORK_BY_LOCALE` in `frontend/app/[locale]/standards/[code]/page.tsx`. **Tech-debt:** these duplicate the same lexicon — dedupe to one shared const at next touch (read-from-SoT precedence, §10.4).
+
+**Surfaces localized (5):** (1) activity-route JSON-LD `educationalFramework`; (2) activities-landing `pageIntro`/`metaDescription` (`activities/page.tsx LANDING_STRINGS`); (3) body templates `frontend/messages/activity-content/<10 non-EN>.json` (dropped `{code}`); (4) manifest `page_intro` clauses in `mini tools/*-activities.json`; (5) standards-hub `standardsPage`+FAQ in `frontend/messages/<10 non-EN>.json` + standards JSON-LD.
+
+**Why the standards hub had to change too (flight-data bleed):** `NextIntlClientProvider` serializes the *entire* locale message set into every page's RSC flight-data, so the `standardsPage` "Common Core" strings leaked onto activity pages even though they render only on the hub. Localizing the standards namespace cleared BOTH. Future rule: a "framework name" change in messages must sweep the standards namespace, not just activity-content.
+
+**Verification:** `node scripts/audit-activity-pages.js` + per-locale `curl … | grep -c "Common Core"` (expect 0 for the 10 non-EN, >0 for en). Verified live 2026-05-31. Commits `fe15a60b` (route + landing + manifests + 9 body templates) · `f76588ad` (pt body template) · `adb1a976` (standards hub, `[NSR-FLAG]`). **Pending polish (flagged, not blocking):** fr "au Programmes officiels"→"aux programmes officiels", it "al Indicazioni nazionali"→"alle Indicazioni"; Nordic sv/da/no/fi light native NSR.
 
 ---
 

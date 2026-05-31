@@ -100,6 +100,7 @@ var ACTIVITY_STRINGS_MP = {
      locale's live E4 (K.OA.A.3 + 1.OA.D.7). ---- */
   taskThreeForm:      { en: 'Match the cards that show the same number',
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
+                        es: 'Relaciona las tarjetas que muestran el mismo número',
                         fr: 'Relie les cartes qui montrent le même nombre',
                         da: 'Forbind kortene, der viser det samme tal',
                         no: 'Koble sammen kortene som viser det samme tallet',
@@ -108,6 +109,7 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Verbind de kaarten die hetzelfde getal tonen' },
   hintThreeForm:      { en: 'Tap a card, then tap another card that shows the same number',
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
+                        es: 'Toca una tarjeta, luego toca otra tarjeta que muestra el mismo número',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
                         da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
                         no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet',
@@ -116,6 +118,7 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Tik op een kaart, dan op een andere kaart die hetzelfde getal toont' },
   hintTryThreeForm:   { en: 'Some cards don\'t show the same number yet — tap a pair to break it and try again',
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
+                        es: 'Algunas tarjetas aún no muestran el mismo número — toca una pareja para deshacerla e inténtalo de nuevo',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
                         da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen',
@@ -126,6 +129,7 @@ var ACTIVITY_STRINGS_MP = {
      read aloud. Number-free + truthful (a task has three different numbers). */
   speakThreeFormDone: { en: 'You matched every number!',
                         de: 'Du hast alle Zahlen verbunden!',
+                        es: '¡Has relacionado todos los números!',
                         fr: 'Tu as relié tous les nombres !',
                         da: 'Du har forbundet alle tal!',
                         no: 'Du har koblet sammen alle tallene!',
@@ -269,6 +273,18 @@ var THREE_FORM_WORDS = {
     615: 'sechshundertfünfzehn',        700: 'siebenhundert',              208: 'zweihundertacht',
     353: 'dreihundertdreiundfünfzig',   940: 'neunhundertvierzig',         190: 'einhundertneunzig',
     560: 'fünfhundertsechzig',          274: 'zweihundertvierundsiebzig',  409: 'vierhundertneun'
+  },
+  /* ES: multi-word, space-separated; "y" joiner ONLY in the sub-99 tens-units
+     tail (cuarenta y siete), NEVER between hundreds and tens (trescientos cinco);
+     irregular hundreds quinientos/setecientos/novecientos (500/700/900); "ciento"
+     in compounds (ciento noventa); "uno" (not un) in card tails. Value-verified vs
+     _NUMBER_WORD_HELPERS.es 2026-06-01 (15/15). */
+  es: {
+    247: 'doscientos cuarenta y siete', 562: 'quinientos sesenta y dos',    305: 'trescientos cinco',
+    836: 'ochocientos treinta y seis',  481: 'cuatrocientos ochenta y uno', 420: 'cuatrocientos veinte',
+    615: 'seiscientos quince',          700: 'setecientos',                 208: 'doscientos ocho',
+    353: 'trescientos cincuenta y tres',940: 'novecientos cuarenta',        190: 'ciento noventa',
+    560: 'quinientos sesenta',          274: 'doscientos setenta y cuatro', 409: 'cuatrocientos nueve'
   },
   /* FR: classic convention — space at the hundred boundary, hyphens within the
      sub-99 tail (deux cent quarante-sept); cent→cents only on round ×100 (sept

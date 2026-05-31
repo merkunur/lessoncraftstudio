@@ -152,5 +152,71 @@
       "nl": "Reken elke kaart uit en verbind elke optelsom met de aftreksom die dezelfde uitkomst heeft — tik op een kaart, dan op de bijpassende kaart, en kijk hoe het paar verbindt. Elke ronde heeft twee uitkomsten om te vinden. Afgestemd op de kerndoelen — begrijpen dat optel- en aftreksommen dezelfde uitkomst kunnen hebben."
     },
     "kid_prompt_template": "taskEqualValue"
+  },
+  {
+    "id": "match-pairs.three-ways-to-show-a-number.2-nbt-a-3",
+    "tool": "match-pairs-activity",
+    "task_template": "three-form",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.NBT.A.3",
+      "grade": "2",
+      "strand": "Number & Operations in Base Ten"
+    },
+    "params": {
+      "tasks": [
+        { "cards": [
+          { "display": "247", "kind": "numeral", "value": 247 },
+          { "display": "200 + 40 + 7", "kind": "expanded", "value": 247 },
+          { "display": "562", "kind": "numeral", "value": 562 },
+          { "display": "five hundred sixty-two", "kind": "word", "value": 562 },
+          { "display": "300 + 5", "kind": "expanded", "value": 305 },
+          { "display": "three hundred five", "kind": "word", "value": 305 }
+        ] },
+        { "cards": [
+          { "display": "836", "kind": "numeral", "value": 836 },
+          { "display": "800 + 30 + 6", "kind": "expanded", "value": 836 },
+          { "display": "481", "kind": "numeral", "value": 481 },
+          { "display": "four hundred eighty-one", "kind": "word", "value": 481 },
+          { "display": "400 + 20", "kind": "expanded", "value": 420 },
+          { "display": "four hundred twenty", "kind": "word", "value": 420 }
+        ] },
+        { "cards": [
+          { "display": "615", "kind": "numeral", "value": 615 },
+          { "display": "600 + 10 + 5", "kind": "expanded", "value": 615 },
+          { "display": "700", "kind": "numeral", "value": 700 },
+          { "display": "seven hundred", "kind": "word", "value": 700 },
+          { "display": "200 + 8", "kind": "expanded", "value": 208 },
+          { "display": "two hundred eight", "kind": "word", "value": 208 }
+        ] },
+        { "cards": [
+          { "display": "353", "kind": "numeral", "value": 353 },
+          { "display": "300 + 50 + 3", "kind": "expanded", "value": 353 },
+          { "display": "940", "kind": "numeral", "value": 940 },
+          { "display": "nine hundred forty", "kind": "word", "value": 940 },
+          { "display": "100 + 90", "kind": "expanded", "value": 190 },
+          { "display": "one hundred ninety", "kind": "word", "value": 190 }
+        ] },
+        { "cards": [
+          { "display": "274", "kind": "numeral", "value": 274 },
+          { "display": "200 + 70 + 4", "kind": "expanded", "value": 274 },
+          { "display": "409", "kind": "numeral", "value": 409 },
+          { "display": "four hundred nine", "kind": "word", "value": 409 },
+          { "display": "500 + 60", "kind": "expanded", "value": 560 },
+          { "display": "five hundred sixty", "kind": "word", "value": 560 }
+        ] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "three-ways-to-show-a-number"
+    },
+    "page_title": {
+      "en": "Three Ways to Show a Number"
+    },
+    "page_intro": {
+      "en": "Match the cards that show the same number — the numeral (like 305), the number in words (three hundred five), and the expanded form (300 + 5). Tap one card, then its match, and watch the pair link. Each round has three numbers to find. Aligned to Common Core 2.NBT.A.3 — reading and writing numbers to 1000 as base-ten numerals, number names, and expanded form."
+    },
+    "kid_prompt_template": "taskThreeForm"
   }
 ]

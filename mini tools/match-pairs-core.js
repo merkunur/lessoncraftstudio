@@ -258,6 +258,24 @@ window.MatchPairsCore = {
   _speakCard: function (idx) {
     if (!window.LCSAudio || !window.LCSAudio.speak) return;
     var val = this.cards[idx];
+    /* Object cards (equal-value 1.OA.D.7 add/sub; three-form 2.NBT.A.3
+       numeral/expanded/word) carry no numeric value in `val`. Additive
+       branch: the three-form activity sets `_speakWordTable` (value →
+       number-word) at task setup, so tapping ANY of a number's three
+       representation-cards speaks the SAME number-word — reinforcing that
+       numeral, expanded form, and number-word are one number. Activities
+       that don't set the table (equal-value add/sub) fall through silently
+       exactly as before — behaviour byte-identical for the live 22
+       instances. */
+    if (val && typeof val === 'object') {
+      if (this._speakWordTable && typeof val.value === 'number') {
+        var w = this._speakWordTable[val.value];
+        if (w) {
+          window.LCSAudio.speak({ type: 'number', text: w, lang: this.language, rate: 0.95 });
+        }
+      }
+      return;
+    }
     var table = (this.strings.cardSpoken && this.strings.cardSpoken[this.language])
                 || this.strings.cardSpoken.en;
     if (typeof val !== 'number' || val < 0 || val >= table.length) return;
@@ -371,7 +389,12 @@ window.MatchPairsCore = {
       var face = isExpr ? (val.display != null ? String(val.display) : '') : String(val);
       var card = self.api.el('button', 'mp-card');
       card.type = 'button';
-      if (isExpr) card.classList.add('mp-expr');
+      /* Object cards get a face-sizing class. `kind:'word'` (three-form
+         number-word cards, e.g. "two hundred forty-seven") wrap to multiple
+         lines via .mp-word; all other object cards (equal-value add/sub,
+         three-form numeral/expanded glyph faces) stay single-line .mp-expr.
+         1.OA.D.7 cards are kind:'add'/'sub' → .mp-expr, unchanged. */
+      if (isExpr) card.classList.add(val.kind === 'word' ? 'mp-word' : 'mp-expr');
       card.setAttribute('data-idx', String(idx));
       card.setAttribute('aria-label', (self.api.t('cardAriaPrefix') || 'Card ') + face);
       var num = self.api.el('span', 'mp-card-num');
@@ -485,6 +508,13 @@ window.MatchPairsCore = {
          one line. Additive only — Direction-A palette + numeric rule above
          untouched. */
       '.mp-card.mp-expr .mp-card-num{font-size:clamp(1.4rem,5.5vw,2.4rem);letter-spacing:.02em;white-space:nowrap;}',
+      /* Number-word card faces ("two hundred forty-seven", three-form
+         2.NBT.A.3) are long phrases that must WRAP — drop the square
+         aspect-ratio so the card grows to fit, allow multi-line, and use a
+         smaller wrapping font. Additive only; numeral/expanded cards keep
+         .mp-expr above. */
+      '.mp-card.mp-word{aspect-ratio:auto;min-height:84px;padding:0.5rem 0.55rem;}',
+      '.mp-card.mp-word .mp-card-num{font-size:clamp(1rem,3.4vw,1.45rem);line-height:1.15;letter-spacing:0;white-space:normal;text-align:center;}',
       '.mp-card.selected{border-color:#F2784B;border-width:5px;transform:scale(1.06);box-shadow:0 0 0 4px rgba(242,120,75,0.25);}',
       '.mp-card.paired{background:#E8F3E5;border-color:#5BAE5E;color:#2E6B33;cursor:pointer;}',
       '.mp-card.paired:hover{transform:scale(1.02);}',

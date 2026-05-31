@@ -42,9 +42,14 @@ var ACTIVITY_STRINGS_MP = {
      unknown-addend activity ships slug.en only, so it loads at lang='en'
      exclusively until fan-out — these EN-only keys are never read at any
      other lang (no key-leak). ---- */
-  taskUnknownAddend:  { en: 'Match each subtraction with the addition that completes it' },
-  hintPairSubAdd:     { en: 'Tap a subtraction, then tap the addition that completes it' },
-  hintTryDifferentUA: { en: 'Some pairs don\'t match yet — tap a pair to break it and try again' }
+  taskUnknownAddend:  { en: 'Match each subtraction to the addition that helps you solve it' },
+  hintPairSubAdd:     { en: 'Tap a subtraction, then tap the addition that helps you solve it' },
+  hintTryDifferentUA: { en: 'Some pairs don\'t match yet — tap a pair to break it and try again' },
+  /* Truthful Check-correct celebration. Does NOT claim a number total —
+     the board mixes subtractions (5 − 1 = 4) and additions (1 + 4 = 5), so
+     "All pairs make 5!" would be false. The shell shows its visual "Great!";
+     this is the spoken line. EN-only this commission. */
+  speakMatchedAll:    { en: 'You matched every pair!' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -139,10 +144,17 @@ function makeUnknownAddendTasks(tasksRaw, idPrefix) {
           tool.speakTryAgain();
           return false;
         }
-        /* Correct! Lock the board + speak "All pairs make {W}!". */
+        /* Correct! Lock the board + speak a TRUTHFUL celebration. We do NOT
+           call tool.speakAllPairs() here — that says "All pairs make {W}!",
+           which is false on a board containing subtraction cards (they don't
+           equal W). Speak speakMatchedAll instead. */
         tool.readOnly = true;
         tool.paint();
-        tool.speakAllPairs();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var done = (tool.strings.speakMatchedAll && tool.strings.speakMatchedAll[tool.language])
+                     || tool.strings.speakMatchedAll.en;
+          window.LCSAudio.speak({ type: 'ui', text: done, lang: tool.language, rate: 0.95 });
+        }
         return true;
       },
       hintKey: function (tool) {

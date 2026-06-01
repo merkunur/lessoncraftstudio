@@ -382,15 +382,18 @@
     "theme": null,
     "slug": {
       "en": "compare-three-digit-numbers",
-      "es": "compara-numeros-de-tres-cifras"
+      "es": "compara-numeros-de-tres-cifras",
+      "it": "confronta-i-numeri-a-tre-cifre"
     },
     "page_title": {
       "en": "Compare Three-Digit Numbers",
-      "es": "Compara números de tres cifras"
+      "es": "Compara números de tres cifras",
+      "it": "Confronta i numeri a tre cifre"
     },
     "page_intro": {
       "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones.",
-      "es": "Compara cada pareja de números de tres cifras y relaciónala con el símbolo correcto — menor que (<) o mayor que (>). Mira primero las centenas, luego las decenas y por último las unidades para decidir. Toca una comparación, luego toca < o >, y mira cómo se enlaza la pareja. Alineado con el Currículo LOMLOE — comparar números de tres cifras usando los símbolos >, = y < según el valor de las centenas, las decenas y las unidades."
+      "es": "Compara cada pareja de números de tres cifras y relaciónala con el símbolo correcto — menor que (<) o mayor que (>). Mira primero las centenas, luego las decenas y por último las unidades para decidir. Toca una comparación, luego toca < o >, y mira cómo se enlaza la pareja. Alineado con el Currículo LOMLOE — comparar números de tres cifras usando los símbolos >, = y < según el valor de las centenas, las decenas y las unidades.",
+      "it": "Confronta ogni coppia di numeri a tre cifre e collegala al simbolo giusto — minore di (<) o maggiore di (>). Guarda prima le centinaia, poi le decine e infine le unità per decidere. Tocca un confronto, poi tocca < o >, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — confrontare numeri a tre cifre usando i simboli >, = e < in base al valore delle centinaia, delle decine e delle unità."
     },
     "kid_prompt_template": "taskCompare"
   }

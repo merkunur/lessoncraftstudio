@@ -160,15 +160,18 @@ var ACTIVITY_STRINGS_MP = {
   taskFindMissing:    { en: 'Work out the missing number, then match each equation to its answer',
                         it: 'Trova il numero mancante, poi collega ogni operazione alla sua risposta',
                         es: 'Encuentra el número que falta, luego relaciona cada operación con su respuesta',
-                        pt: 'Encontre o número que falta, depois combine cada operação com a sua resposta' },
+                        pt: 'Encontre o número que falta, depois combine cada operação com a sua resposta',
+                        fr: 'Trouve le nombre manquant, puis relie chaque opération à sa réponse' },
   hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true',
                         it: 'Tocca un\'operazione, poi tocca il numero che la completa',
                         es: 'Toca una operación, luego toca el número que la completa',
-                        pt: 'Toque em uma operação, depois toque no número que a completa' },
+                        pt: 'Toque em uma operação, depois toque no número que a completa',
+                        fr: 'Touche une opération, puis touche le nombre qui la complète' },
   hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again',
                         it: 'Alcune operazioni non sono ancora abbinate al numero giusto — tocca una coppia per scioglierla e riprova',
                         es: 'Algunas operaciones aún no están emparejadas con el número correcto — toca una pareja para deshacerla e inténtalo de nuevo',
-                        pt: 'Algumas operações ainda não estão combinadas com o número certo — toque em um par para desfazê-lo e tente novamente' }
+                        pt: 'Algumas operações ainda não estão combinadas com o número certo — toque em um par para desfazê-lo e tente novamente',
+                        fr: 'Certaines opérations ne sont pas encore reliées au bon nombre — touche une paire pour la défaire et réessaie' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

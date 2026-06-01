@@ -62,7 +62,8 @@ var ACTIVITY_STRINGS = {
                        sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna',
                        pt: 'Mostre a forma expandida de {n} — construa com os blocos',
                        es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques',
-                       it: 'Mostra la forma estesa di {n} — costruiscila con i blocchi' }
+                       it: 'Mostra la forma estesa di {n} — costruiscila con i blocchi',
+                       fr: 'Montre la forme développée de {n} — construis-la avec les blocs' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -231,7 +232,16 @@ var EXPANDED_FORM_L10N = {
      with NO joiner; vowel-elision (duecentotto / cinquecentottanta) occurs ONLY in the blend total,
      never in a summand — speakExpandedForm computes each place via _numberWord() independently,
      so summands stay bare (duecento + otto). [no NSR]. */
-  it: { zeroTens: 'zero decine', zeroOnes: 'zero unità', blend: function (nWord) { return 'fanno ' + nWord; } }
+  it: { zeroTens: 'zero decine', zeroOnes: 'zero unità', blend: function (nWord) { return 'fanno ' + nWord; } },
+  /* fr: connective "font" (PLURAL copula = A1/A2 FR decomposition, place-value-core.js:1121/1358;
+     all targets ≥2 summands → plural always correct, singular "fait" never occurs here);
+     zero-places use SINGULAR after zéro — "zéro dizaine"/"zéro unité" (NO -s) — the FR-specific
+     rule (zéro treated as <1), per the live FR A1 (:1105 "zéro dizaine not zéro dizaines") + A2
+     (:1356). DISTINCT from ES/PT plural. Summands are STANDALONE cardinals so they carry the -s
+     (deux cents / cinq cents / quatre-vingts); the blend uses the CONNECTED form (deux cent… —
+     cent drops -s mid-number; quatre-vingts keeps -s only as terminal). Classic hyphenation
+     (space at the hundred boundary, hyphen in the sub-99 tail). [no NSR]. */
+  fr: { zeroTens: 'zéro dizaine', zeroOnes: 'zéro unité', blend: function (nWord) { return 'font ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

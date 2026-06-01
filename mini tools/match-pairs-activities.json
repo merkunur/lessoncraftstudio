@@ -381,13 +381,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "compare-three-digit-numbers"
+      "en": "compare-three-digit-numbers",
+      "es": "compara-numeros-de-tres-cifras"
     },
     "page_title": {
-      "en": "Compare Three-Digit Numbers"
+      "en": "Compare Three-Digit Numbers",
+      "es": "Compara números de tres cifras"
     },
     "page_intro": {
-      "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones."
+      "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones.",
+      "es": "Compara cada pareja de números de tres cifras y relaciónala con el símbolo correcto — menor que (<) o mayor que (>). Mira primero las centenas, luego las decenas y por último las unidades para decidir. Toca una comparación, luego toca < o >, y mira cómo se enlaza la pareja. Alineado con el Currículo LOMLOE — comparar números de tres cifras usando los símbolos >, = y < según el valor de las centenas, las decenas y las unidades."
     },
     "kid_prompt_template": "taskCompare"
   }

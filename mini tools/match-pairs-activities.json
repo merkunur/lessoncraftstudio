@@ -296,15 +296,18 @@
     "theme": null,
     "slug": {
       "en": "find-the-missing-number",
-      "it": "trova-il-numero-mancante"
+      "it": "trova-il-numero-mancante",
+      "es": "encuentra-el-numero-que-falta"
     },
     "page_title": {
       "en": "Find the Missing Number",
-      "it": "Trova il numero mancante"
+      "it": "Trova il numero mancante",
+      "es": "Encuentra el número que falta"
     },
     "page_intro": {
       "en": "Work out the missing number in each equation, then match it to its answer. The blank moves around — sometimes it's an addend, sometimes the number you take away, sometimes the total — so you get to think it through every way. Tap an equation, then tap the number that makes it true, and watch the pair link. Aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, in any position.",
-      "it": "Trova il numero mancante in ogni operazione, poi collegalo alla sua risposta. Lo spazio vuoto si sposta — a volte è un addendo, a volte il numero da togliere, a volte il totale — così impari a ragionare in tutti i modi. Tocca un'operazione, poi tocca il numero che la completa, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — trovare il numero sconosciuto in un'addizione o sottrazione, in qualsiasi posizione."
+      "it": "Trova il numero mancante in ogni operazione, poi collegalo alla sua risposta. Lo spazio vuoto si sposta — a volte è un addendo, a volte il numero da togliere, a volte il totale — così impari a ragionare in tutti i modi. Tocca un'operazione, poi tocca il numero che la completa, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — trovare il numero sconosciuto in un'addizione o sottrazione, in qualsiasi posizione.",
+      "es": "Encuentra el número que falta en cada operación y relaciónalo con su respuesta. El espacio vacío cambia de lugar — a veces es un sumando, a veces el número que quitas, a veces el total — así aprendes a razonar de todas las formas. Toca una operación, luego toca el número que la completa, y mira cómo se enlaza la pareja. Alineado con el Currículo LOMLOE — encontrar el número desconocido en una suma o resta, en cualquier posición."
     },
     "kid_prompt_template": "taskFindMissing"
   }

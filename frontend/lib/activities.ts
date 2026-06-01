@@ -129,18 +129,57 @@ export async function listAllActivities(): Promise<ActivityRow[]> {
 }
 
 /**
- * Build the hreflang alternates map for an activity row — one entry per
- * locale where the row has a slug declared.
+ * Sibling slug map for a row: the merged `locale → slug` map across every row
+ * sharing the same `(task_template, alignment.code)` key. This cross-links
+ * activities that were fanned out as SEPARATE per-locale rows across engine
+ * families — e.g. the syllable-builder RF.K.2.B set ships 10 single-locale
+ * rows (E8 es/fi/pt/fr/it + E9 de/nl/sv/no/da) that are the same activity in
+ * different languages but were otherwise orphaned single-locale.
+ *
+ * Collision-safe: if two rows in the group claim the SAME locale with a
+ * DIFFERENT slug, they are genuinely distinct activities that merely collide
+ * on (task_template, code) — NOT translations of one activity (e.g. the two
+ * ten-frame make-n|K.CC.B.4 rows: count-to-10/animals vs count-to-20/fruits,
+ * each already 11-locale) — so we DECLINE the merge and the row keeps its own
+ * slug map (current behaviour, byte-stable). Singleton groups also return the
+ * row's own map unchanged. Both hreflangAlternatesForRow and otherLocalesForRow
+ * consume this single helper so the <head> hreflang, the on-page sibling strip,
+ * and OG alternateLocale stay mirror-consistent by construction.
  */
-export function hreflangAlternatesForRow(
+async function siblingSlugMap(row: ActivityRow): Promise<Record<string, string>> {
+  const all = await loadActivities();
+  const key = `${row.task_template}|${row.alignment.code}`;
+  const group = all.filter((r) => `${r.task_template}|${r.alignment.code}` === key);
+  if (group.length <= 1) return row.slug;
+  const merged: Record<string, string> = {};
+  for (const r of group) {
+    for (const [loc, slug] of Object.entries(r.slug)) {
+      if (merged[loc] !== undefined && merged[loc] !== slug) {
+        // Ambiguous group — distinct activities colliding on the key. Do not
+        // merge; fall back to this row's own slug map (no spurious cross-link).
+        return row.slug;
+      }
+      merged[loc] = slug;
+    }
+  }
+  return merged;
+}
+
+/**
+ * Build the hreflang alternates map for an activity row — one entry per locale
+ * in the row's sibling group (see siblingSlugMap). Async because it reads the
+ * (cached) manifest to find cross-family siblings.
+ */
+export async function hreflangAlternatesForRow(
   row: ActivityRow,
   baseUrl: string
-): Record<string, string> {
+): Promise<Record<string, string>> {
   // hreflang map is the single SoT at @/lib/seo/hreflang (pt → pt-BR per §6).
   // No trailing slash — Next.js routes per next.config.js trailingSlash:false.
+  const slugMap = await siblingSlugMap(row);
   return buildHreflangAlternates(
     TOPIC_ENABLED_LOCALES,
-    (loc) => (row.slug[loc] ? `${baseUrl}/${loc}/activities/${row.slug[loc]}` : null),
+    (loc) => (slugMap[loc] ? `${baseUrl}/${loc}/activities/${slugMap[loc]}` : null),
     baseUrl,
   );
 }
@@ -183,14 +222,16 @@ export async function listRelatedActivities(
  * on-page, not just in <head>). Returns Next.js route paths (locale-prefixed,
  * trailing slash) for every locale ≠ current where the row has a slug.
  */
-export function otherLocalesForRow(
+export async function otherLocalesForRow(
   row: ActivityRow,
   currentLocale: string,
-): Array<{ locale: string; href: string }> {
+): Promise<Array<{ locale: string; href: string }>> {
+  // Same sibling group as hreflangAlternatesForRow → strip + OG mirror the head.
+  const slugMap = await siblingSlugMap(row);
   const out: Array<{ locale: string; href: string }> = [];
   for (const loc of TOPIC_ENABLED_LOCALES) {
     if (loc === currentLocale) continue;
-    const slug = row.slug[loc];
+    const slug = slugMap[loc];
     // No trailing slash — Next.js routes per next.config.js trailingSlash:false
     // (mirrors hreflangAlternatesForRow above; a trailing slash would 308).
     if (slug) out.push({ locale: loc, href: `/${loc}/activities/${slug}` });

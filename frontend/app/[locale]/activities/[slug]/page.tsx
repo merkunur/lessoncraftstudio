@@ -163,7 +163,7 @@ export async function generateMetadata({
     description: row.page_intro[params.locale],
     alternates: {
       canonical,
-      languages: hreflangAlternatesForRow(row, BASE_URL),
+      languages: await hreflangAlternatesForRow(row, BASE_URL),
     },
     openGraph: {
       title: row.page_title[params.locale],
@@ -174,7 +174,7 @@ export async function generateMetadata({
       // the alternates mirror otherLocalesForRow (the same honest-filtered sibling
       // locales emitted by hreflangAlternatesForRow), mapped to OG locale codes.
       locale: ogLocaleMap[params.locale] || params.locale,
-      alternateLocale: otherLocalesForRow(row, params.locale).map(
+      alternateLocale: (await otherLocalesForRow(row, params.locale)).map(
         ({ locale }) => ogLocaleMap[locale] || locale,
       ),
       type: 'article',
@@ -298,7 +298,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
 
   // Internal-link mesh (Part 2) — ships for all 11 locales (navigation).
   const related = await listRelatedActivities(row, params.locale);
-  const otherLangs = otherLocalesForRow(row, params.locale);
+  const otherLangs = await otherLocalesForRow(row, params.locale);
   const standardsHref = localePath(params.locale, 'standards', row.alignment.code);
   const relatedHeading = RELATED_HEADING[params.locale] ?? RELATED_HEADING.en;
   // Localized CCSS strand name (R4 / §20.8) — the raw English domain name

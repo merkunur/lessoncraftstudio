@@ -248,5 +248,61 @@
       "nl": "Verbind de kaarten die hetzelfde getal tonen — het getal in cijfers (zoals 305), het getal in woorden (driehonderdvijf) en de uitgebreide vorm (300 + 5). Tik op een kaart, dan op de bijpassende kaart, en kijk hoe het paar verbindt. Elke ronde heeft drie getallen om te vinden. Afgestemd op de kerndoelen — getallen tot 1000 lezen en schrijven in cijfers, in woorden en in uitgebreide vorm."
     },
     "kid_prompt_template": "taskThreeForm"
+  },
+  {
+    "id": "match-pairs.find-the-missing-number.1-oa-d-8",
+    "tool": "match-pairs-activity",
+    "task_template": "find-missing",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.OA.D.8",
+      "grade": "1",
+      "strand": "Operations & Algebraic Thinking"
+    },
+    "params": {
+      "tasks": [
+        { "cards": [
+          { "display": "8 + ? = 11", "kind": "expr", "value": 3 },
+          { "display": "3", "kind": "expr", "value": 3 },
+          { "display": "? + 4 = 9", "kind": "expr", "value": 5 },
+          { "display": "5", "kind": "expr", "value": 5 }
+        ] },
+        { "cards": [
+          { "display": "12 − ? = 5", "kind": "expr", "value": 7 },
+          { "display": "7", "kind": "expr", "value": 7 },
+          { "display": "10 − ? = 6", "kind": "expr", "value": 4 },
+          { "display": "4", "kind": "expr", "value": 4 }
+        ] },
+        { "cards": [
+          { "display": "? − 3 = 4", "kind": "expr", "value": 7 },
+          { "display": "7", "kind": "expr", "value": 7 },
+          { "display": "? + 6 = 8", "kind": "expr", "value": 2 },
+          { "display": "2", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "9 − 4 = ?", "kind": "expr", "value": 5 },
+          { "display": "5", "kind": "expr", "value": 5 },
+          { "display": "5 + ? = 13", "kind": "expr", "value": 8 },
+          { "display": "8", "kind": "expr", "value": 8 }
+        ] },
+        { "cards": [
+          { "display": "? + 7 = 10", "kind": "expr", "value": 3 },
+          { "display": "3", "kind": "expr", "value": 3 },
+          { "display": "14 − ? = 6", "kind": "expr", "value": 8 },
+          { "display": "8", "kind": "expr", "value": 8 }
+        ] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "find-the-missing-number"
+    },
+    "page_title": {
+      "en": "Find the Missing Number"
+    },
+    "page_intro": {
+      "en": "Work out the missing number in each equation, then match it to its answer. The blank moves around — sometimes it's an addend, sometimes the number you take away, sometimes the total — so you get to think it through every way. Tap an equation, then tap the number that makes it true, and watch the pair link. Aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, in any position."
+    },
+    "kid_prompt_template": "taskFindMissing"
   }
 ]

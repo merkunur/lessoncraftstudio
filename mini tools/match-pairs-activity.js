@@ -143,7 +143,22 @@ var ACTIVITY_STRINGS_MP = {
                         no: 'Du har koblet sammen alle tallene!',
                         sv: 'Du har kopplat ihop alla tal!',
                         fi: 'Yhdistit kaikki luvut!',
-                        nl: 'Je hebt alle getallen verbonden!' }
+                        nl: 'Je hebt alle getallen verbonden!' },
+
+  /* ---- find-missing template (1.OA.D.8) chrome. The kid works out the
+     unknown in each equation card (e.g. "8 + ? = 11", blank in any position)
+     and matches it to the solution-number card ("3"). Each task has two pairs
+     with two DIFFERENT answers, so each value maps to exactly one equation +
+     one number → matching is forced equation↔number, no false-correct. Cards
+     are {display, kind, value} objects; validity is the same a.value===b.value
+     as equal-value, so the engine state machine + connector renderer are
+     UNCHANGED. EN base-locale only this commission (slug.en only → loads at
+     lang='en' exclusively, EN-only keys never read at any other lang); the
+     locale fan-out adds entries per §A.13.48. Celebration reuses the truthful
+     number-free speakMatchedAll ("You matched every pair!"). ---- */
+  taskFindMissing:    { en: 'Work out the missing number, then match each equation to its answer' },
+  hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true' },
+  hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -524,6 +539,67 @@ function makeThreeFormTasks(tasksRaw, idPrefix) {
   });
 }
 
+/* task_template 'find-missing' (1.OA.D.8) — "Determine the unknown whole
+   number in an addition or subtraction equation relating three whole numbers."
+   The kid works out the blank in each equation card (the blank sits in any
+   position — "8 + ? = 11", "? + 4 = 9", "12 − ? = 5", "9 − 4 = ?") and matches
+   it to the solution-number card. Each task has two pairs with two DIFFERENT
+   answers, so every value maps to exactly one equation card + one number card →
+   matching is forced equation↔number and there is no false-correct. Cards are
+   {display, kind, value} objects; validity is `a.value === b.value` — IDENTICAL
+   to equal-value, so the engine state machine + connector renderer are
+   UNCHANGED (no core.js touch, no _speakWordTable → taps silent like
+   equal-value, no PlaceValueCore). Number-free celebration ("You matched every
+   pair!"). Only divergence from equal-value is the prompt/hint string keys. */
+function makeFindMissingTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskFindMissing',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ cards: cards });   /* no single target */
+        tool.render();   /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair has two cards
+           of EQUAL value (the equation and the number that solves it). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && typeof a.value === 'number' && a.value === b.value;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board + speak the truthful, number-free
+           celebration (a task has two different answers). */
+        tool.readOnly = true;
+        tool.paint();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var done = (tool.strings.speakMatchedAll && tool.strings.speakMatchedAll[tool.language])
+                     || tool.strings.speakMatchedAll.en;
+          window.LCSAudio.speak({ type: 'ui', text: done, lang: tool.language, rate: 0.95 });
+        }
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintFindMissing';
+        return 'hintTryFindMissing';
+      }
+    };
+  });
+}
+
 window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   id: 'match-pairs-activity',
   strings: Object.assign({}, MatchPairsCore.strings, ACTIVITY_STRINGS_MP, {
@@ -609,6 +685,10 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
     if (row.task_template === 'three-form') {
       var tfTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeThreeFormTasks(tfTasks, row.id);
+    }
+    if (row.task_template === 'find-missing') {
+      var fmTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      return makeFindMissingTasks(fmTasks, row.id);
     }
     return STATIC_DEMO_TASKS_MP;
   }

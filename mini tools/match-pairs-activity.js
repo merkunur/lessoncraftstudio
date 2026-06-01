@@ -166,7 +166,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Vind het ontbrekende getal, verbind dan elke som met het antwoord',
                         sv: 'Hitta det saknade talet, koppla sedan ihop varje uppgift med sitt svar',
                         da: 'Find det manglende tal, og forbind så hvert regnestykke med sit svar',
-                        no: 'Finn det manglende tallet, og koble så hver oppgave til svaret sitt' },
+                        no: 'Finn det manglende tallet, og koble så hver oppgave til svaret sitt',
+                        fi: 'Etsi puuttuva luku ja yhdistä sitten jokainen lasku vastaukseensa' },
   hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true',
                         it: 'Tocca un\'operazione, poi tocca il numero che la completa',
                         es: 'Toca una operación, luego toca el número que la completa',
@@ -176,7 +177,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Tik op een som, dan op het getal dat de som compleet maakt',
                         sv: 'Tryck på en uppgift, sedan på talet som löser den',
                         da: 'Tryk på et regnestykke, derefter på tallet, der løser det',
-                        no: 'Trykk på en oppgave, deretter på tallet som løser den' },
+                        no: 'Trykk på en oppgave, deretter på tallet som løser den',
+                        fi: 'Paina laskua, sitten lukua, joka ratkaisee sen' },
   hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again',
                         it: 'Alcune operazioni non sono ancora abbinate al numero giusto — tocca una coppia per scioglierla e riprova',
                         es: 'Algunas operaciones aún no están emparejadas con el número correcto — toca una pareja para deshacerla e inténtalo de nuevo',
@@ -186,7 +188,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Sommige sommen zijn nog niet aan het juiste getal gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw',
                         sv: 'Vissa uppgifter är inte ihopkopplade med rätt tal än — tryck på ett par för att lösa upp det och försök igen',
                         da: 'Nogle regnestykker er ikke forbundet med det rigtige tal endnu — tryk på et par for at løse det op og prøv igen',
-                        no: 'Noen oppgaver er ikke koblet til riktig tall ennå — trykk på et par for å løse det opp og prøv igjen' }
+                        no: 'Noen oppgaver er ikke koblet til riktig tall ennå — trykk på et par for å løse det opp og prøv igjen',
+                        fi: 'Jotkin laskut eivät ole vielä yhdistetty oikeaan lukuun — paina paria avataksesi sen ja yritä uudelleen' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

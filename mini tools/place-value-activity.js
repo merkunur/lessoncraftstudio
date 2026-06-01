@@ -57,7 +57,8 @@ var ACTIVITY_STRINGS = {
      semantics — nothing expanded-form-specific in the hint path). */
   taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks',
                        de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken',
-                       da: 'Vis den udvidede form af {n} — byg den med klodserne' }
+                       da: 'Vis den udvidede form af {n} — byg den med klodserne',
+                       no: 'Vis den utvidede formen av {n} — bygg den med klossene' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -194,7 +195,13 @@ var EXPANDED_FORM_L10N = {
      NOT E4's "bliver", a different engine); zero-places "nul tiere"/"nul enere" (A2 plural
      place-noun convention). Summands (tohundrede/fyrre/syv) are clean round-value pieces —
      the spaced-"og" joining is only in the full blend total da(N). [NSR-FLAG][da]. */
-  da: { zeroTens: 'nul tiere',   zeroOnes: 'nul enere',  blend: function (nWord) { return 'er ' + nWord; } }
+  da: { zeroTens: 'nul tiere',   zeroOnes: 'nul enere',  blend: function (nWord) { return 'er ' + nWord; } },
+  /* no: connective "blir" (= A1/A2 NO decomposition copula, place-value-core.js:1238/1302,
+     "K-1 Norwegian Bokmål convention" — NO E4 also uses "blir", they agree here); zero-places
+     "null tiere"/"null enere" (A2 plural place-noun; NO "null" double-l vs DA "nul"). Summands
+     (tohundre/førti/sju) are clean bare-value pieces — the compound-"og" joining is only in the
+     full blend total no(N). NO "utvidet"/"tall" ≠ DA "udvidet"/"tal". [NSR-FLAG][no]. */
+  no: { zeroTens: 'null tiere',  zeroOnes: 'null enere', blend: function (nWord) { return 'blir ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

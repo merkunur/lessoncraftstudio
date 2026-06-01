@@ -209,7 +209,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Los elke vergelijking op, verbind hem dan met < of >',
                         sv: 'Lös varje jämförelse, koppla sedan ihop den med < eller >',
                         da: 'Løs hver sammenligning, og forbind den så med < eller >',
-                        no: 'Løs hver sammenligning, og koble den så til < eller >' },
+                        no: 'Løs hver sammenligning, og koble den så til < eller >',
+                        fi: 'Ratkaise jokainen vertailu, yhdistä se sitten symboliin < tai >' },
   hintCompare:        { en: 'Tap a comparison, then tap the symbol that makes it true',
                         es: 'Toca una comparación, luego toca el símbolo que la hace verdadera',
                         it: 'Tocca un confronto, poi tocca il simbolo che lo rende vero',
@@ -219,7 +220,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Tik op een vergelijking, dan op het symbool dat hem waar maakt',
                         sv: 'Tryck på en jämförelse, sedan på symbolen som gör den sann',
                         da: 'Tryk på en sammenligning, derefter på symbolet, der gør den sand',
-                        no: 'Trykk på en sammenligning, deretter på symbolet som gjør den sann' },
+                        no: 'Trykk på en sammenligning, deretter på symbolet som gjør den sann',
+                        fi: 'Paina vertailua, sitten symbolia, joka tekee sen todeksi' },
   hintTryCompare:     { en: 'Some comparisons aren\'t matched to the right symbol yet — tap a pair to break it and try again',
                         es: 'Algunas comparaciones aún no están relacionadas con el símbolo correcto — toca una pareja para deshacerla e inténtalo de nuevo',
                         it: 'Alcuni confronti non sono ancora collegati al simbolo giusto — tocca una coppia per scioglierla e riprova',
@@ -229,7 +231,8 @@ var ACTIVITY_STRINGS_MP = {
                         nl: 'Sommige vergelijkingen zijn nog niet aan het juiste symbool gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw',
                         sv: 'Vissa jämförelser är inte ihopkopplade med rätt symbol än — tryck på ett par för att lösa upp det och försök igen',
                         da: 'Nogle sammenligninger er ikke forbundet med det rigtige symbol endnu — tryk på et par for at løse det op og prøv igen',
-                        no: 'Noen sammenligninger er ikke koblet til riktig symbol ennå — trykk på et par for å løse det opp og prøv igjen' }
+                        no: 'Noen sammenligninger er ikke koblet til riktig symbol ennå — trykk på et par for å løse det opp og prøv igjen',
+                        fi: 'Jotkin vertailut eivät ole vielä yhdistetty oikeaan symboliin — paina paria avataksesi sen ja yritä uudelleen' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

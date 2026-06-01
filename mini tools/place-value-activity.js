@@ -56,7 +56,8 @@ var ACTIVITY_STRINGS = {
      hintTooMany / hintBundle* above (identical "keep going" / "too many"
      semantics — nothing expanded-form-specific in the hint path). */
   taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks',
-                       de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken' }
+                       de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken',
+                       da: 'Vis den udvidede form af {n} — byg den med klodserne' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -188,7 +189,12 @@ function showExpandedCaption(tool, n) {
        core.js decomposition); zero-places "null Zehner" / "null Einer" (A2 convention). */
 var EXPANDED_FORM_L10N = {
   en: { zeroTens: 'zero tens',   zeroOnes: 'zero ones',  blend: function (nWord) { return 'makes ' + nWord; } },
-  de: { zeroTens: 'null Zehner', zeroOnes: 'null Einer', blend: function (nWord) { return 'ergeben ' + nWord; } }
+  de: { zeroTens: 'null Zehner', zeroOnes: 'null Einer', blend: function (nWord) { return 'ergeben ' + nWord; } },
+  /* da: connective "er" (= A1/A2 DA decomposition copula, place-value-core.js:1215/1315 —
+     NOT E4's "bliver", a different engine); zero-places "nul tiere"/"nul enere" (A2 plural
+     place-noun convention). Summands (tohundrede/fyrre/syv) are clean round-value pieces —
+     the spaced-"og" joining is only in the full blend total da(N). [NSR-FLAG][da]. */
+  da: { zeroTens: 'nul tiere',   zeroOnes: 'nul enere',  blend: function (nWord) { return 'er ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

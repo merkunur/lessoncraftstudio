@@ -348,33 +348,33 @@
     "params": {
       "tasks": [
         { "cards": [
-          { "display": "247 ___ 274", "kind": "expr", "value": 1 },
+          { "display": "247 ___ 274", "kind": "expanded", "value": 1 },
           { "display": "<", "kind": "expr", "value": 1 },
-          { "display": "583 ___ 419", "kind": "expr", "value": 2 },
+          { "display": "583 ___ 419", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
         ] },
         { "cards": [
-          { "display": "655 ___ 658", "kind": "expr", "value": 1 },
+          { "display": "655 ___ 658", "kind": "expanded", "value": 1 },
           { "display": "<", "kind": "expr", "value": 1 },
-          { "display": "742 ___ 739", "kind": "expr", "value": 2 },
+          { "display": "742 ___ 739", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
         ] },
         { "cards": [
-          { "display": "406 ___ 460", "kind": "expr", "value": 1 },
+          { "display": "406 ___ 460", "kind": "expanded", "value": 1 },
           { "display": "<", "kind": "expr", "value": 1 },
-          { "display": "927 ___ 924", "kind": "expr", "value": 2 },
+          { "display": "927 ___ 924", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
         ] },
         { "cards": [
-          { "display": "275 ___ 318", "kind": "expr", "value": 1 },
+          { "display": "275 ___ 318", "kind": "expanded", "value": 1 },
           { "display": "<", "kind": "expr", "value": 1 },
-          { "display": "519 ___ 491", "kind": "expr", "value": 2 },
+          { "display": "519 ___ 491", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
         ] },
         { "cards": [
-          { "display": "834 ___ 837", "kind": "expr", "value": 1 },
+          { "display": "834 ___ 837", "kind": "expanded", "value": 1 },
           { "display": "<", "kind": "expr", "value": 1 },
-          { "display": "263 ___ 236", "kind": "expr", "value": 2 },
+          { "display": "263 ___ 236", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
         ] }
       ]

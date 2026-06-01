@@ -118,13 +118,16 @@
     "params": { "targets": [247, 305, 463, 208, 736, 580] },
     "theme": null,
     "slug": {
-      "en": "expanded-form"
+      "en": "expanded-form",
+      "de": "erweiterte-form"
     },
     "page_title": {
-      "en": "Expanded Form"
+      "en": "Expanded Form",
+      "de": "Erweiterte Form"
     },
     "page_intro": {
-      "en": "Build each three-digit number with hundreds, tens, and ones — then see its expanded form. Tap to add a hundreds-flat, a ten-rod, or a unit-cube; when it is right, the blocks reveal the place values that add up to the number (247 = 200 + 40 + 7). Numbers like 305 show that a zero tens place adds nothing — just 300 + 5. Aligned to Common Core 2.NBT.A.3 — reading and writing three-digit numbers in expanded form."
+      "en": "Build each three-digit number with hundreds, tens, and ones — then see its expanded form. Tap to add a hundreds-flat, a ten-rod, or a unit-cube; when it is right, the blocks reveal the place values that add up to the number (247 = 200 + 40 + 7). Numbers like 305 show that a zero tens place adds nothing — just 300 + 5. Aligned to Common Core 2.NBT.A.3 — reading and writing three-digit numbers in expanded form.",
+      "de": "Baue jede dreistellige Zahl mit Hundertern, Zehnern und Einern — und sieh dann ihre erweiterte Form. Tippe, um eine Hunderterplatte, einen Zehnerstab oder einen Einerwürfel hinzuzufügen; wenn sie stimmt, zeigen die Blöcke die Stellenwerte, die die Zahl ergeben (247 = 200 + 40 + 7). Zahlen wie 305 zeigen, dass ein leerer Zehner nichts hinzufügt — nur 300 + 5. An den Lehrplänen ausgerichtet — dreistellige Zahlen in erweiterter Form lesen und schreiben."
     },
     "kid_prompt_template": "taskExpanded"
   }

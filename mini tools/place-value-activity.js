@@ -55,7 +55,8 @@ var ACTIVITY_STRINGS = {
      the other 10 locales. Hints reuse the build-generic hintBuildMore /
      hintTooMany / hintBundle* above (identical "keep going" / "too many"
      semantics — nothing expanded-form-specific in the hint path). */
-  taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks' }
+  taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks',
+                       de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -177,29 +178,41 @@ function showExpandedCaption(tool, n) {
   wrap.appendChild(cap);
 }
 
+/* Per-locale expanded-form chrome for speakExpandedForm: the zero-place phrases
+   (the "0 tens" teaching point) + the "makes N" blend connective. The place-VALUE
+   summands themselves come from tool._numberWord(value, lang) (locale-parameterized
+   already), so only these two pieces are per-locale. EN reproduces the original
+   literals byte-identically. Fan-out adds one entry per locale; each locale's
+   zero-phrase + connective is verified against that locale's live A1/A2 decomposition.
+     • de: connective "ergeben" (plural sum-copula — identical to A1/A2 place-value-
+       core.js decomposition); zero-places "null Zehner" / "null Einer" (A2 convention). */
+var EXPANDED_FORM_L10N = {
+  en: { zeroTens: 'zero tens',   zeroOnes: 'zero ones',  blend: function (nWord) { return 'makes ' + nWord; } },
+  de: { zeroTens: 'null Zehner', zeroOnes: 'null Einer', blend: function (nWord) { return 'ergeben ' + nWord; } }
+};
+
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"
-   unit (record-smaller-and-separate), then a "makes N" blend. Interior/trailing
-   zero places are NAMED ("zero tens" / "zero ones") — the 0-place teaching point.
-   EN only now; the fan-out adds per-locale branches (the summand assembly + "makes"
-   connective bind Nordic/agglutinative grammar). Reuses tool._numberWord (read-only)
-   — NO core edit, NO match-pairs import. */
+   unit (record-smaller-and-separate), then a "{connective} N" blend. Interior/trailing
+   zero places are NAMED (per EXPANDED_FORM_L10N) — the 0-place teaching point.
+   Summands via tool._numberWord (read-only). NO core edit, NO match-pairs import. */
 function speakExpandedForm(tool) {
   if (!window.LCSAudio || !window.LCSAudio.speak) return;
   var lang = tool.language || 'en';
+  var l10n = EXPANDED_FORM_L10N[lang] || EXPANDED_FORM_L10N.en;
   var places = [
-    { v: tool.hundredsCount * 100, noun: 'hundreds' },
-    { v: tool.tensCount * 10,      noun: 'tens' },
-    { v: tool.onesCount,           noun: 'ones' }
+    { v: tool.hundredsCount * 100, zero: null },
+    { v: tool.tensCount * 10,      zero: l10n.zeroTens },
+    { v: tool.onesCount,           zero: l10n.zeroOnes }
   ];
   places.forEach(function (p) {
     if (p.v > 0) {
       window.LCSAudio.speak({ type: 'number', text: tool._numberWord(p.v, lang), lang: lang, rate: 0.9 });
-    } else if (p.noun !== 'hundreds') {
-      /* name the zero place — the 2.NBT.A.3 / engine "0 tens" teaching point (EN) */
-      window.LCSAudio.speak({ type: 'ui', text: 'zero ' + p.noun, lang: lang, rate: 0.9 });
+    } else if (p.zero) {
+      /* name the zero tens/ones place — the 2.NBT.A.3 / engine "0 tens" teaching point */
+      window.LCSAudio.speak({ type: 'ui', text: p.zero, lang: lang, rate: 0.9 });
     }
   });
-  window.LCSAudio.speak({ type: 'ui', text: 'makes ' + tool._numberWord(tool.builtValue(), lang), lang: lang, rate: 0.9 });
+  window.LCSAudio.speak({ type: 'ui', text: l10n.blend(tool._numberWord(tool.builtValue(), lang)), lang: lang, rate: 0.9 });
 }
 
 window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {

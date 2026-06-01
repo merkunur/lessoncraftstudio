@@ -303,7 +303,8 @@
       "de": "finde-die-fehlende-zahl",
       "nl": "vind-het-ontbrekende-getal",
       "sv": "hitta-det-saknade-talet",
-      "da": "find-det-manglende-tal"
+      "da": "find-det-manglende-tal",
+      "no": "finn-det-manglende-tallet"
     },
     "page_title": {
       "en": "Find the Missing Number",
@@ -314,7 +315,8 @@
       "de": "Finde die fehlende Zahl",
       "nl": "Vind het ontbrekende getal",
       "sv": "Hitta det saknade talet",
-      "da": "Find det manglende tal"
+      "da": "Find det manglende tal",
+      "no": "Finn det manglende tallet"
     },
     "page_intro": {
       "en": "Work out the missing number in each equation, then match it to its answer. The blank moves around — sometimes it's an addend, sometimes the number you take away, sometimes the total — so you get to think it through every way. Tap an equation, then tap the number that makes it true, and watch the pair link. Aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, in any position.",
@@ -325,7 +327,8 @@
       "de": "Finde in jeder Aufgabe die fehlende Zahl und verbinde sie mit ihrer Antwort. Die Lücke wandert — mal ist es ein Summand, mal die Zahl, die man wegnimmt, mal das Ganze — so lernst du, auf jede Art zu denken. Tippe auf eine Aufgabe, dann auf die Zahl, die sie löst, und sieh zu, wie sich das Paar verbindet. An den Lehrplänen ausgerichtet — die unbekannte Zahl in einer Plus- oder Minusaufgabe finden, an jeder Stelle.",
       "nl": "Vind in elke som het ontbrekende getal en verbind het met het antwoord. Het lege vakje verspringt — soms is het een term, soms het getal dat je weghaalt, soms het totaal — zo leer je op alle manieren te denken. Tik op een som, dan op het getal dat de som compleet maakt, en kijk hoe het paar verbindt. Afgestemd op de kerndoelen — het onbekende getal in een optel- of aftreksom vinden, op elke plek.",
       "sv": "Hitta det saknade talet i varje uppgift och koppla ihop det med sitt svar. Den tomma rutan flyttar sig — ibland är det en term, ibland talet du tar bort, ibland hela talet — så att du får tänka på alla sätt. Tryck på en uppgift, sedan på talet som löser den, och se hur paret kopplas ihop. Anpassat till Lgr22 — hitta det okända talet i en addition eller subtraktion, var som helst.",
-      "da": "Find det manglende tal i hvert regnestykke, og forbind det med sit svar. Det tomme felt flytter sig — nogle gange et tal, du lægger til, nogle gange tallet, du tager væk, nogle gange hele tallet — så du lærer at tænke på alle måder. Tryk på et regnestykke, derefter på tallet, der løser det, og se hvordan parret forbindes. Tilpasset Fælles Mål — find det ukendte tal i et plus- eller minusstykke, hvor som helst."
+      "da": "Find det manglende tal i hvert regnestykke, og forbind det med sit svar. Det tomme felt flytter sig — nogle gange et tal, du lægger til, nogle gange tallet, du tager væk, nogle gange hele tallet — så du lærer at tænke på alle måder. Tryk på et regnestykke, derefter på tallet, der løser det, og se hvordan parret forbindes. Tilpasset Fælles Mål — find det ukendte tal i et plus- eller minusstykke, hvor som helst.",
+      "no": "Finn det manglende tallet i hver oppgave, og koble det til svaret sitt. Den tomme ruta flytter seg — noen ganger er det et tall du legger til, noen ganger tallet du tar bort, noen ganger hele tallet — så du lærer å tenke på alle måter. Trykk på en oppgave, deretter på tallet som løser den, og se hvordan paret kobles. Tilpasset LK20 — finn det ukjente tallet i en pluss- eller minusoppgave, hvor som helst."
     },
     "kid_prompt_template": "taskFindMissing"
   }

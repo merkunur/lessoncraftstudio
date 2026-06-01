@@ -59,7 +59,8 @@ var ACTIVITY_STRINGS = {
                        de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken',
                        da: 'Vis den udvidede form af {n} — byg den med klodserne',
                        no: 'Vis den utvidede formen av {n} — bygg den med klossene',
-                       sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna' }
+                       sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna',
+                       pt: 'Mostre a forma expandida de {n} — construa com os blocos' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -207,7 +208,13 @@ var EXPANDED_FORM_L10N = {
      "K-1 Swedish convention"); zero-places "noll tiotal"/"noll ental" (INVARIANT neuter
      place-nouns, never suffixed). Summands (tvåhundra/fyrtio/sju) are clean bare-value
      pieces — the no-joiner compound is only in the full blend total sv(N). [NSR-FLAG][sv]. */
-  sv: { zeroTens: 'noll tiotal', zeroOnes: 'noll ental',  blend: function (nWord) { return 'blir ' + nWord; } }
+  sv: { zeroTens: 'noll tiotal', zeroOnes: 'noll ental',  blend: function (nWord) { return 'blir ' + nWord; } },
+  /* pt: connective "são" (plural copula = A1/A2 PT decomposition, place-value-core.js:1100/1348);
+     zero-places "zero dezenas"/"zero unidades" (plural — zero takes plural per PT convention).
+     Summands (duzentos/quarenta/sete) are clean bare pieces — the "e" joiner is only in the full
+     blend total pt(N), never leaked into a summand. "são" is sentence-initial in the blend (no
+     collision with the number's internal "e"s). BR canonical. [no NSR]. */
+  pt: { zeroTens: 'zero dezenas', zeroOnes: 'zero unidades', blend: function (nWord) { return 'são ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

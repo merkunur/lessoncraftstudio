@@ -383,17 +383,20 @@
     "slug": {
       "en": "compare-three-digit-numbers",
       "es": "compara-numeros-de-tres-cifras",
-      "it": "confronta-i-numeri-a-tre-cifre"
+      "it": "confronta-i-numeri-a-tre-cifre",
+      "pt": "compare-os-numeros-de-tres-algarismos"
     },
     "page_title": {
       "en": "Compare Three-Digit Numbers",
       "es": "Compara números de tres cifras",
-      "it": "Confronta i numeri a tre cifre"
+      "it": "Confronta i numeri a tre cifre",
+      "pt": "Compare os números de três algarismos"
     },
     "page_intro": {
       "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones.",
       "es": "Compara cada pareja de números de tres cifras y relaciónala con el símbolo correcto — menor que (<) o mayor que (>). Mira primero las centenas, luego las decenas y por último las unidades para decidir. Toca una comparación, luego toca < o >, y mira cómo se enlaza la pareja. Alineado con el Currículo LOMLOE — comparar números de tres cifras usando los símbolos >, = y < según el valor de las centenas, las decenas y las unidades.",
-      "it": "Confronta ogni coppia di numeri a tre cifre e collegala al simbolo giusto — minore di (<) o maggiore di (>). Guarda prima le centinaia, poi le decine e infine le unità per decidere. Tocca un confronto, poi tocca < o >, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — confrontare numeri a tre cifre usando i simboli >, = e < in base al valore delle centinaia, delle decine e delle unità."
+      "it": "Confronta ogni coppia di numeri a tre cifre e collegala al simbolo giusto — minore di (<) o maggiore di (>). Guarda prima le centinaia, poi le decine e infine le unità per decidere. Tocca un confronto, poi tocca < o >, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — confrontare numeri a tre cifre usando i simboli >, = e < in base al valore delle centinaia, delle decine e delle unità.",
+      "pt": "Compare cada par de números de três algarismos e combine-o com o símbolo certo — menor que (<) ou maior que (>). Olhe primeiro as centenas, depois as dezenas e por último as unidades para decidir. Toque em uma comparação, depois toque em < ou >, e veja o par se ligar. Alinhado à BNCC — comparar dois números de três algarismos usando os símbolos >, = e < com base no valor das centenas, das dezenas e das unidades."
     },
     "kid_prompt_template": "taskCompare"
   }

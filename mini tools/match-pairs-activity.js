@@ -189,7 +189,20 @@ var ACTIVITY_STRINGS_MP = {
                         sv: 'Vissa uppgifter är inte ihopkopplade med rätt tal än — tryck på ett par för att lösa upp det och försök igen',
                         da: 'Nogle regnestykker er ikke forbundet med det rigtige tal endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen oppgaver er ikke koblet til riktig tall ennå — trykk på et par for å løse det opp og prøv igjen',
-                        fi: 'Jotkin laskut eivät ole vielä yhdistetty oikeaan lukuun — paina paria avataksesi sen ja yritä uudelleen' }
+                        fi: 'Jotkin laskut eivät ole vielä yhdistetty oikeaan lukuun — paina paria avataksesi sen ja yritä uudelleen' },
+
+  /* ---- compare-3digit template (2.NBT.A.4) chrome. The kid reads a three-digit
+     comparison (e.g. "247 ___ 274") and matches it to the relation symbol that
+     makes it true (< or >). Each task has two pairs with two DIFFERENT values
+     (value 1 = the < pair, value 2 = the > pair), so the two relation cards are
+     visually distinct (< vs >) and matching is forced expr↔symbol; validity is
+     the same a.value===b.value as equal-value/find-missing → engine state machine
+     + connector renderer UNCHANGED. Cards language-neutral (numerals + </> glyphs),
+     rendered via textContent so raw < / > are safe. EN base-locale only this
+     commission; locale fan-out adds entries per §A.13.48. ---- */
+  taskCompare:        { en: 'Work out each comparison, then match it to < or >' },
+  hintCompare:        { en: 'Tap a comparison, then tap the symbol that makes it true' },
+  hintTryCompare:     { en: 'Some comparisons aren\'t matched to the right symbol yet — tap a pair to break it and try again' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as
@@ -631,6 +644,64 @@ function makeFindMissingTasks(tasksRaw, idPrefix) {
   });
 }
 
+/* task_template 'compare-3digit' (2.NBT.A.4) — "Compare two three-digit numbers
+   using >, =, < symbols." The kid reads each comparison card (e.g. "247 ___ 274")
+   and matches it to the relation symbol that makes it true. Each task has two
+   pairs with two DIFFERENT values (value 1 = the < pair, value 2 = the > pair),
+   so the two relation cards are visually distinct (< vs >) and matching is forced
+   expr↔symbol with no false-correct. Cards are {display, kind, value} objects;
+   validity is `a.value === b.value` — IDENTICAL to equal-value/find-missing, so
+   the engine state machine + connector renderer are UNCHANGED (no core.js touch,
+   no _speakWordTable → taps silent, no PlaceValueCore). Number-free celebration.
+   Only divergence from find-missing is the prompt/hint string keys. */
+function makeCompareTasks(tasksRaw, idPrefix) {
+  return tasksRaw.map(function (t, i) {
+    var cards = t.cards.slice();
+    return {
+      id: idPrefix + '.task-' + i,
+      promptKey: 'taskCompare',
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ cards: cards });   /* no single target */
+        tool.render();   /* fresh DOM per task — clears prior board */
+      },
+      check: function (tool) {
+        /* Pass criteria: every card paired AND every formed pair has two cards
+           of EQUAL value (the comparison and the < / > symbol that makes it true). */
+        if (!tool.allPaired()) return false;
+        var wrong = {};
+        var ok = true;
+        tool.pairsFormed.forEach(function (p) {
+          var a = tool.cards[p[0]];
+          var b = tool.cards[p[1]];
+          var valid = a && b && typeof a === 'object' && typeof b === 'object'
+                      && typeof a.value === 'number' && a.value === b.value;
+          if (!valid) { wrong[p[0]] = true; wrong[p[1]] = true; ok = false; }
+        });
+        if (!ok) {
+          tool.wrongIdxSet = wrong;
+          tool.paint();
+          tool.speakTryAgain();
+          return false;
+        }
+        /* Correct! Lock the board + speak the truthful, number-free celebration. */
+        tool.readOnly = true;
+        tool.paint();
+        if (window.LCSAudio && window.LCSAudio.speak) {
+          var done = (tool.strings.speakMatchedAll && tool.strings.speakMatchedAll[tool.language])
+                     || tool.strings.speakMatchedAll.en;
+          window.LCSAudio.speak({ type: 'ui', text: done, lang: tool.language, rate: 0.95 });
+        }
+        return true;
+      },
+      hintKey: function (tool) {
+        if (!tool.allPaired()) return 'hintCompare';
+        return 'hintTryCompare';
+      }
+    };
+  });
+}
+
 window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
   id: 'match-pairs-activity',
   strings: Object.assign({}, MatchPairsCore.strings, ACTIVITY_STRINGS_MP, {
@@ -720,6 +791,10 @@ window.MatchPairsActivity = Object.assign({}, MatchPairsCore, {
     if (row.task_template === 'find-missing') {
       var fmTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
       return makeFindMissingTasks(fmTasks, row.id);
+    }
+    if (row.task_template === 'compare-3digit') {
+      var cmpTasks = (row.params && Array.isArray(row.params.tasks)) ? row.params.tasks : [];
+      return makeCompareTasks(cmpTasks, row.id);
     }
     return STATIC_DEMO_TASKS_MP;
   }

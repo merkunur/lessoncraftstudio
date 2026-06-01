@@ -50,7 +50,12 @@ var ACTIVITY_STRINGS = {
                     fi: 'Kymmenen ykköstä on yksi kymmen — niputa ne' },
   /* 3-place activity (2.NBT.A.1) defensive hint — EN-only; unreachable
      with maxTens=9 but kept for future extensions that lift the cap. */
-  hintBundleHundred: { en: 'Ten tens make one hundred — bundle them' }
+  hintBundleHundred: { en: 'Ten tens make one hundred — bundle them' },
+  /* E12 Activity 3 (2.NBT.A.3 expanded form) — prompt EN only; fan-out adds
+     the other 10 locales. Hints reuse the build-generic hintBuildMore /
+     hintTooMany / hintBundle* above (identical "keep going" / "too many"
+     semantics — nothing expanded-form-specific in the hint path). */
+  taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -104,6 +109,97 @@ function makeBuildTasks(targets, idPrefix, opts) {
       }
     };
   });
+}
+
+/* E12 Activity 3 (2.NBT.A.3) — EXPANDED FORM. Build the 3-digit number on the
+   columns (reuses the engine build, exactly like A2), then on correct Check the
+   activity SHOWS the expanded-form equation (200 + 40 + 7 = 247) and SPEAKS the
+   place-VALUE summands. Distinct from A2 (which speaks place-UNIT decomposition
+   "2 hundreds, 4 tens, 7 ones") and from E4 A3 (card matching). FULLY ADDITIVE:
+   place-value-core.js is NOT touched; speakExpandedForm reuses tool._numberWord
+   read-only; reachable only via the build-expanded-form dispatch branch, so it
+   cannot perturb A1/A2 (which use makeBuildTasks). */
+function makeExpandedFormTasks(targets, idPrefix) {
+  return targets.map(function (n) {
+    var hundreds = Math.floor(n / 100);
+    var tens = Math.floor((n % 100) / 10);
+    var ones = n % 10;
+    return {
+      id: idPrefix + '.expanded-' + n,
+      promptKey: 'taskExpanded',
+      promptArgs: { n: n },
+      answerType: 'state',
+      setup: function (tool) {
+        tool.setupTask({ target: n, places: ['hundreds', 'tens', 'ones'] });
+        tool.render();
+      },
+      check: function (tool) {
+        var correct = (tool.hundredsCount === hundreds) && (tool.tensCount === tens) && (tool.onesCount === ones);
+        if (correct) {
+          tool.readOnly = true;
+          tool.paint();
+          showExpandedCaption(tool, n);   /* SHOW the expanded-form equation */
+          speakExpandedForm(tool);        /* SPEAK the place-value summands */
+        }
+        return correct;
+      },
+      hintKey: function (tool) {
+        var built = tool.builtValue();
+        if (built === 0) return 'hintBuildMore';
+        if (built > n)   return 'hintTooMany';
+        if (built < n)   return 'hintBuildMore';
+        if (tool.tensCount >= 10) return 'hintBundleHundred';
+        return 'hintBundleTen';
+      }
+    };
+  });
+}
+
+/* Inject the expanded-form equation caption additively below the mat. Reuses the
+   existing .pv-readout Direction-A styling (NO new CSS / no injectCSS edit); the
+   extra .pv-expanded-caption marker class carries no rules (de-dup + verify hook).
+   Zero places are omitted from the + chain per standard expanded-form notation
+   (the spoken "zero tens" carries the teaching point). Cleared on the next task's
+   render() (stage.innerHTML=''). */
+function showExpandedCaption(tool, n) {
+  var stage = tool.api && tool.api.stage;
+  if (!stage) return;
+  var wrap = stage.querySelector('.pv-wrap') || stage;
+  var prior = wrap.querySelector('.pv-expanded-caption');
+  if (prior) prior.parentNode.removeChild(prior);
+  var parts = [];
+  if (tool.hundredsCount > 0) parts.push(String(tool.hundredsCount * 100));
+  if (tool.tensCount > 0)     parts.push(String(tool.tensCount * 10));
+  if (tool.onesCount > 0)     parts.push(String(tool.onesCount));
+  var cap = document.createElement('div');
+  cap.className = 'pv-readout pv-expanded-caption';
+  cap.textContent = parts.join(' + ') + ' = ' + n;
+  wrap.appendChild(cap);
+}
+
+/* Speak the expanded form as place-VALUE summands, each a standalone type:"number"
+   unit (record-smaller-and-separate), then a "makes N" blend. Interior/trailing
+   zero places are NAMED ("zero tens" / "zero ones") — the 0-place teaching point.
+   EN only now; the fan-out adds per-locale branches (the summand assembly + "makes"
+   connective bind Nordic/agglutinative grammar). Reuses tool._numberWord (read-only)
+   — NO core edit, NO match-pairs import. */
+function speakExpandedForm(tool) {
+  if (!window.LCSAudio || !window.LCSAudio.speak) return;
+  var lang = tool.language || 'en';
+  var places = [
+    { v: tool.hundredsCount * 100, noun: 'hundreds' },
+    { v: tool.tensCount * 10,      noun: 'tens' },
+    { v: tool.onesCount,           noun: 'ones' }
+  ];
+  places.forEach(function (p) {
+    if (p.v > 0) {
+      window.LCSAudio.speak({ type: 'number', text: tool._numberWord(p.v, lang), lang: lang, rate: 0.9 });
+    } else if (p.noun !== 'hundreds') {
+      /* name the zero place — the 2.NBT.A.3 / engine "0 tens" teaching point (EN) */
+      window.LCSAudio.speak({ type: 'ui', text: 'zero ' + p.noun, lang: lang, rate: 0.9 });
+    }
+  });
+  window.LCSAudio.speak({ type: 'ui', text: 'makes ' + tool._numberWord(tool.builtValue(), lang), lang: lang, rate: 0.9 });
 }
 
 window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
@@ -176,6 +272,10 @@ window.PlaceValueActivity = Object.assign({}, PlaceValueCore, {
     if (row.task_template === 'build-hundreds-tens-and-ones') {
       var targets3 = (row.params && Array.isArray(row.params.targets)) ? row.params.targets : [];
       return makeBuildTasks(targets3, row.id, { places: ['hundreds', 'tens', 'ones'] });
+    }
+    if (row.task_template === 'build-expanded-form') {
+      var targetsE = (row.params && Array.isArray(row.params.targets)) ? row.params.targets : [];
+      return makeExpandedFormTasks(targetsE, row.id);
     }
     return STATIC_DEMO_TASKS;
   }

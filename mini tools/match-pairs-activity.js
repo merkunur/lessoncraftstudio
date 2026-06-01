@@ -102,6 +102,7 @@ var ACTIVITY_STRINGS_MP = {
                         de: 'Finde die Karten, die dieselbe Zahl zeigen',
                         es: 'Relaciona las tarjetas que muestran el mismo número',
                         it: 'Collega le carte che mostrano lo stesso numero',
+                        pt: 'Combine as cartas que mostram o mesmo número',
                         fr: 'Relie les cartes qui montrent le même nombre',
                         da: 'Forbind kortene, der viser det samme tal',
                         no: 'Koble sammen kortene som viser det samme tallet',
@@ -112,6 +113,7 @@ var ACTIVITY_STRINGS_MP = {
                         de: 'Tippe auf eine Karte, dann auf eine andere Karte mit derselben Zahl',
                         es: 'Toca una tarjeta, luego toca otra tarjeta que muestra el mismo número',
                         it: 'Tocca una carta, poi tocca un\'altra carta che mostra lo stesso numero',
+                        pt: 'Toque em uma carta, depois toque em outra carta que mostra o mesmo número',
                         fr: 'Touche une carte, puis une autre carte qui montre le même nombre',
                         da: 'Tryk på et kort, derefter på et andet kort, der viser det samme tal',
                         no: 'Trykk på et kort, deretter på et annet kort som viser det samme tallet',
@@ -122,6 +124,7 @@ var ACTIVITY_STRINGS_MP = {
                         de: 'Manche Karten zeigen noch nicht dieselbe Zahl — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
                         es: 'Algunas tarjetas aún no muestran el mismo número — toca una pareja para deshacerla e inténtalo de nuevo',
                         it: 'Alcune carte non mostrano ancora lo stesso numero — tocca una coppia per scioglierla e riprova',
+                        pt: 'Algumas cartas ainda não mostram o mesmo número — toque em um par para desfazê-lo e tente novamente',
                         fr: 'Certaines cartes ne montrent pas encore le même nombre — touche une paire pour la défaire et réessaie',
                         da: 'Nogle kort viser ikke det samme tal endnu — tryk på et par for at løse det op og prøv igen',
                         no: 'Noen kort viser ikke det samme tallet ennå — trykk på et par for å løse det opp og prøv igjen',
@@ -134,6 +137,7 @@ var ACTIVITY_STRINGS_MP = {
                         de: 'Du hast alle Zahlen verbunden!',
                         es: '¡Has relacionado todos los números!',
                         it: 'Hai collegato tutti i numeri!',
+                        pt: 'Você combinou todos os números!',
                         fr: 'Tu as relié tous les nombres !',
                         da: 'Du har forbundet alle tal!',
                         no: 'Du har koblet sammen alle tallene!',
@@ -302,6 +306,21 @@ var THREE_FORM_WORDS = {
     615: 'seicentoquindici',       700: 'settecento',              208: 'duecentotto',
     353: 'trecentocinquantatré',   940: 'novecentoquaranta',       190: 'centonovanta',
     560: 'cinquecentosessanta',    274: 'duecentosettantaquattro', 409: 'quattrocentonove'
+  },
+  /* PT (Brazilian canonical): multi-word, " e " joiner at EVERY level
+     (duzentos e quarenta e sete — distinct from ES which joins only within the
+     sub-99 tail); irregular hundred quinhentos (500); compound hundreds
+     duzentos..novecentos; bare "cem" for n=100, "cento" in compounds (190
+     cento e noventa); "um" (masc) in card tails (481 quatrocentos e oitenta e
+     um); BR teens dezesseis/dezessete/dezenove (not EU dezasseis…); accents
+     (353 trezentos e cinquenta e três). Value-verified vs _NUMBER_WORD_HELPERS.pt
+     2026-06-01 (15/15). */
+  pt: {
+    247: 'duzentos e quarenta e sete',  562: 'quinhentos e sessenta e dois',  305: 'trezentos e cinco',
+    836: 'oitocentos e trinta e seis',  481: 'quatrocentos e oitenta e um',   420: 'quatrocentos e vinte',
+    615: 'seiscentos e quinze',         700: 'setecentos',                    208: 'duzentos e oito',
+    353: 'trezentos e cinquenta e três',940: 'novecentos e quarenta',         190: 'cento e noventa',
+    560: 'quinhentos e sessenta',       274: 'duzentos e setenta e quatro',   409: 'quatrocentos e nove'
   },
   /* FR: classic convention — space at the hundred boundary, hyphens within the
      sub-99 tail (deux cent quarante-sept); cent→cents only on round ×100 (sept

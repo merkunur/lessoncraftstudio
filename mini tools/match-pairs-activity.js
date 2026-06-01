@@ -152,13 +152,17 @@ var ACTIVITY_STRINGS_MP = {
      one number → matching is forced equation↔number, no false-correct. Cards
      are {display, kind, value} objects; validity is the same a.value===b.value
      as equal-value, so the engine state machine + connector renderer are
-     UNCHANGED. EN base-locale only this commission (slug.en only → loads at
-     lang='en' exclusively, EN-only keys never read at any other lang); the
-     locale fan-out adds entries per §A.13.48. Celebration reuses the truthful
-     number-free speakMatchedAll ("You matched every pair!"). ---- */
-  taskFindMissing:    { en: 'Work out the missing number, then match each equation to its answer' },
-  hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true' },
-  hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again' }
+     UNCHANGED. Locale fan-out in progress (one locale per cycle per §A.13.48);
+     each locale adds its key to the 3 strings below + its slug/title/intro on
+     the manifest row. A locale's keys are read only when a page loads at that
+     lang (its slug exists), so partially-filled keys never leak. Celebration
+     reuses the truthful number-free speakMatchedAll ("You matched every pair!"). ---- */
+  taskFindMissing:    { en: 'Work out the missing number, then match each equation to its answer',
+                        it: 'Trova il numero mancante, poi collega ogni operazione alla sua risposta' },
+  hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true',
+                        it: 'Tocca un\'operazione, poi tocca il numero che la completa' },
+  hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again',
+                        it: 'Alcune operazioni non sono ancora abbinate al numero giusto — tocca una coppia per scioglierla e riprova' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

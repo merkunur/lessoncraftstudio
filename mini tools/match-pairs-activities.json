@@ -386,7 +386,8 @@
       "it": "confronta-i-numeri-a-tre-cifre",
       "pt": "compare-os-numeros-de-tres-algarismos",
       "fr": "compare-les-nombres-a-trois-chiffres",
-      "de": "vergleiche-dreistellige-zahlen"
+      "de": "vergleiche-dreistellige-zahlen",
+      "nl": "vergelijk-getallen-van-drie-cijfers"
     },
     "page_title": {
       "en": "Compare Three-Digit Numbers",
@@ -394,7 +395,8 @@
       "it": "Confronta i numeri a tre cifre",
       "pt": "Compare os números de três algarismos",
       "fr": "Compare les nombres à trois chiffres",
-      "de": "Vergleiche dreistellige Zahlen"
+      "de": "Vergleiche dreistellige Zahlen",
+      "nl": "Vergelijk getallen van drie cijfers"
     },
     "page_intro": {
       "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones.",
@@ -402,7 +404,8 @@
       "it": "Confronta ogni coppia di numeri a tre cifre e collegala al simbolo giusto — minore di (<) o maggiore di (>). Guarda prima le centinaia, poi le decine e infine le unità per decidere. Tocca un confronto, poi tocca < o >, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — confrontare numeri a tre cifre usando i simboli >, = e < in base al valore delle centinaia, delle decine e delle unità.",
       "pt": "Compare cada par de números de três algarismos e combine-o com o símbolo certo — menor que (<) ou maior que (>). Olhe primeiro as centenas, depois as dezenas e por último as unidades para decidir. Toque em uma comparação, depois toque em < ou >, e veja o par se ligar. Alinhado à BNCC — comparar dois números de três algarismos usando os símbolos >, = e < com base no valor das centenas, das dezenas e das unidades.",
       "fr": "Compare chaque paire de nombres à trois chiffres et relie-la au bon symbole — plus petit que (<) ou plus grand que (>). Regarde d'abord les centaines, puis les dizaines et enfin les unités pour décider. Touche une comparaison, puis touche < ou >, et regarde la paire se relier. Conforme aux programmes officiels — comparer deux nombres à trois chiffres à l'aide des symboles >, = et < selon la valeur des centaines, des dizaines et des unités.",
-      "de": "Vergleiche jedes Paar dreistelliger Zahlen und verbinde es mit dem richtigen Symbol — kleiner als (<) oder größer als (>). Schau zuerst auf die Hunderter, dann die Zehner und zuletzt die Einer, um zu entscheiden. Tippe auf einen Vergleich, dann auf < oder >, und sieh zu, wie sich das Paar verbindet. An den Lehrplänen ausgerichtet — zwei dreistellige Zahlen mit den Symbolen >, = und < vergleichen, basierend auf dem Wert der Hunderter, Zehner und Einer."
+      "de": "Vergleiche jedes Paar dreistelliger Zahlen und verbinde es mit dem richtigen Symbol — kleiner als (<) oder größer als (>). Schau zuerst auf die Hunderter, dann die Zehner und zuletzt die Einer, um zu entscheiden. Tippe auf einen Vergleich, dann auf < oder >, und sieh zu, wie sich das Paar verbindet. An den Lehrplänen ausgerichtet — zwei dreistellige Zahlen mit den Symbolen >, = und < vergleichen, basierend auf dem Wert der Hunderter, Zehner und Einer.",
+      "nl": "Vergelijk elk paar getallen van drie cijfers en verbind het met het juiste symbool — kleiner dan (<) of groter dan (>). Kijk eerst naar de honderdtallen, dan de tientallen en ten slotte de eenheden om te beslissen. Tik op een vergelijking, dan op < of >, en kijk hoe het paar verbindt. Afgestemd op de kerndoelen — twee getallen van drie cijfers vergelijken met de symbolen >, = en < op basis van de waarde van de honderdtallen, tientallen en eenheden."
     },
     "kid_prompt_template": "taskCompare"
   }

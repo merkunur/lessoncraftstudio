@@ -206,21 +206,24 @@ var ACTIVITY_STRINGS_MP = {
                         pt: 'Resolva cada comparação, depois combine-a com < ou >',
                         fr: 'Résous chaque comparaison, puis relie-la à < ou >',
                         de: 'Löse jeden Vergleich, dann verbinde ihn mit < oder >',
-                        nl: 'Los elke vergelijking op, verbind hem dan met < of >' },
+                        nl: 'Los elke vergelijking op, verbind hem dan met < of >',
+                        sv: 'Lös varje jämförelse, koppla sedan ihop den med < eller >' },
   hintCompare:        { en: 'Tap a comparison, then tap the symbol that makes it true',
                         es: 'Toca una comparación, luego toca el símbolo que la hace verdadera',
                         it: 'Tocca un confronto, poi tocca il simbolo che lo rende vero',
                         pt: 'Toque em uma comparação, depois toque no símbolo que a torna verdadeira',
                         fr: 'Touche une comparaison, puis touche le symbole qui la rend vraie',
                         de: 'Tippe auf einen Vergleich, dann auf das Symbol, das ihn wahr macht',
-                        nl: 'Tik op een vergelijking, dan op het symbool dat hem waar maakt' },
+                        nl: 'Tik op een vergelijking, dan op het symbool dat hem waar maakt',
+                        sv: 'Tryck på en jämförelse, sedan på symbolen som gör den sann' },
   hintTryCompare:     { en: 'Some comparisons aren\'t matched to the right symbol yet — tap a pair to break it and try again',
                         es: 'Algunas comparaciones aún no están relacionadas con el símbolo correcto — toca una pareja para deshacerla e inténtalo de nuevo',
                         it: 'Alcuni confronti non sono ancora collegati al simbolo giusto — tocca una coppia per scioglierla e riprova',
                         pt: 'Algumas comparações ainda não estão combinadas com o símbolo certo — toque em um par para desfazê-lo e tente novamente',
                         fr: 'Certaines comparaisons ne sont pas encore reliées au bon symbole — touche une paire pour la défaire et réessaie',
                         de: 'Manche Vergleiche sind noch nicht mit dem richtigen Symbol verbunden — tippe ein Paar an, um es zu trennen, und versuch\'s nochmal',
-                        nl: 'Sommige vergelijkingen zijn nog niet aan het juiste symbool gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw' }
+                        nl: 'Sommige vergelijkingen zijn nog niet aan het juiste symbool gekoppeld — tik op een paar om het te ontkoppelen en probeer opnieuw',
+                        sv: 'Vissa jämförelser är inte ihopkopplade med rätt symbol än — tryck på ett par för att lösa upp det och försök igen' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

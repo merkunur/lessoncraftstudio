@@ -389,7 +389,8 @@
       "de": "vergleiche-dreistellige-zahlen",
       "nl": "vergelijk-getallen-van-drie-cijfers",
       "sv": "jamfor-tresiffriga-tal",
-      "da": "sammenlign-trecifrede-tal"
+      "da": "sammenlign-trecifrede-tal",
+      "no": "sammenlign-tresifrede-tall"
     },
     "page_title": {
       "en": "Compare Three-Digit Numbers",
@@ -400,7 +401,8 @@
       "de": "Vergleiche dreistellige Zahlen",
       "nl": "Vergelijk getallen van drie cijfers",
       "sv": "Jämför tresiffriga tal",
-      "da": "Sammenlign trecifrede tal"
+      "da": "Sammenlign trecifrede tal",
+      "no": "Sammenlign tresifrede tall"
     },
     "page_intro": {
       "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones.",
@@ -411,7 +413,8 @@
       "de": "Vergleiche jedes Paar dreistelliger Zahlen und verbinde es mit dem richtigen Symbol — kleiner als (<) oder größer als (>). Schau zuerst auf die Hunderter, dann die Zehner und zuletzt die Einer, um zu entscheiden. Tippe auf einen Vergleich, dann auf < oder >, und sieh zu, wie sich das Paar verbindet. An den Lehrplänen ausgerichtet — zwei dreistellige Zahlen mit den Symbolen >, = und < vergleichen, basierend auf dem Wert der Hunderter, Zehner und Einer.",
       "nl": "Vergelijk elk paar getallen van drie cijfers en verbind het met het juiste symbool — kleiner dan (<) of groter dan (>). Kijk eerst naar de honderdtallen, dan de tientallen en ten slotte de eenheden om te beslissen. Tik op een vergelijking, dan op < of >, en kijk hoe het paar verbindt. Afgestemd op de kerndoelen — twee getallen van drie cijfers vergelijken met de symbolen >, = en < op basis van de waarde van de honderdtallen, tientallen en eenheden.",
       "sv": "Jämför varje par tresiffriga tal och koppla ihop det med rätt symbol — mindre än (<) eller större än (>). Titta först på hundratalen, sedan tiotalen och sist entalen för att avgöra. Tryck på en jämförelse, sedan på < eller >, och se hur paret kopplas ihop. Anpassat till Lgr22 — jämföra två tresiffriga tal med symbolerna >, = och < utifrån värdet på hundratalen, tiotalen och entalen.",
-      "da": "Sammenlign hvert par trecifrede tal, og forbind det med det rigtige symbol — mindre end (<) eller større end (>). Kig først på hundrederne, derefter tierne og til sidst enerne for at afgøre. Tryk på en sammenligning, derefter på < eller >, og se hvordan parret forbindes. Tilpasset Fælles Mål — sammenlign to trecifrede tal med symbolerne >, = og < ud fra værdien af hundrederne, tierne og enerne."
+      "da": "Sammenlign hvert par trecifrede tal, og forbind det med det rigtige symbol — mindre end (<) eller større end (>). Kig først på hundrederne, derefter tierne og til sidst enerne for at afgøre. Tryk på en sammenligning, derefter på < eller >, og se hvordan parret forbindes. Tilpasset Fælles Mål — sammenlign to trecifrede tal med symbolerne >, = og < ud fra værdien af hundrederne, tierne og enerne.",
+      "no": "Sammenlign hvert par tresifrede tall, og koble det til riktig symbol — mindre enn (<) eller større enn (>). Se først på hundrerne, deretter tierne og til slutt enerne for å avgjøre. Trykk på en sammenligning, deretter på < eller >, og se hvordan paret kobles. Tilpasset LK20 — sammenlign to tresifrede tall med symbolene >, = og < ut fra verdien av hundrerne, tierne og enerne."
     },
     "kid_prompt_template": "taskCompare"
   }

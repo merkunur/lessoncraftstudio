@@ -61,7 +61,8 @@ var ACTIVITY_STRINGS = {
                        no: 'Vis den utvidede formen av {n} — bygg den med klossene',
                        sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna',
                        pt: 'Mostre a forma expandida de {n} — construa com os blocos',
-                       es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques' }
+                       es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques',
+                       it: 'Mostra la forma estesa di {n} — costruiscila con i blocchi' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -222,7 +223,15 @@ var EXPANDED_FORM_L10N = {
      the "y" joiner lives ONLY inside a blend total's sub-99 tail (doscientos cuarenta y siete),
      never at the hundred boundary, never in a summand. "son" is sentence-initial in the blend
      (no collision with the cardinal's internal "y"s). [no NSR]. */
-  es: { zeroTens: 'cero decenas', zeroOnes: 'cero unidades', blend: function (nWord) { return 'son ' + nWord; } }
+  es: { zeroTens: 'cero decenas', zeroOnes: 'cero unidades', blend: function (nWord) { return 'son ' + nWord; } },
+  /* it: connective "fanno" (PLURAL copula = A1/A2 IT decomposition, place-value-core.js:1146/1367;
+     all targets have ≥2 summands so plural is always correct — singular "fa" never occurs here);
+     zero-places "zero decine" (plural -e at count=0) / "zero unità" (INVARIANT) per the live IT
+     A1 convention (:1133 "Zero places SPOKEN"). Italian cardinals are agglutinated single words
+     with NO joiner; vowel-elision (duecentotto / cinquecentottanta) occurs ONLY in the blend total,
+     never in a summand — speakExpandedForm computes each place via _numberWord() independently,
+     so summands stay bare (duecento + otto). [no NSR]. */
+  it: { zeroTens: 'zero decine', zeroOnes: 'zero unità', blend: function (nWord) { return 'fanno ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

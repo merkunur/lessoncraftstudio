@@ -334,5 +334,61 @@
       "fi": "Etsi jokaisesta laskusta puuttuva luku ja yhdistä se vastaukseensa. Tyhjä ruutu vaihtaa paikkaa — joskus se on yhteenlaskettava, joskus luku jonka otat pois, joskus koko luku — niin opit ajattelemaan kaikilla tavoilla. Paina laskua, sitten lukua, joka ratkaisee sen, ja katso, miten pari yhdistyy. Yhteensopiva OPS 2014:n kanssa — etsi tuntematon luku yhteen- tai vähennyslaskusta, missä tahansa."
     },
     "kid_prompt_template": "taskFindMissing"
+  },
+  {
+    "id": "match-pairs.compare-three-digit-numbers.2-nbt-a-4",
+    "tool": "match-pairs-activity",
+    "task_template": "compare-3digit",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.NBT.A.4",
+      "grade": "2",
+      "strand": "Number and Operations in Base Ten"
+    },
+    "params": {
+      "tasks": [
+        { "cards": [
+          { "display": "247 ___ 274", "kind": "expr", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "583 ___ 419", "kind": "expr", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "655 ___ 658", "kind": "expr", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "742 ___ 739", "kind": "expr", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "406 ___ 460", "kind": "expr", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "927 ___ 924", "kind": "expr", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "275 ___ 318", "kind": "expr", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "519 ___ 491", "kind": "expr", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "834 ___ 837", "kind": "expr", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "263 ___ 236", "kind": "expr", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "compare-three-digit-numbers"
+    },
+    "page_title": {
+      "en": "Compare Three-Digit Numbers"
+    },
+    "page_intro": {
+      "en": "Compare each pair of three-digit numbers and match it to the symbol that makes it true — less than (<) or greater than (>). Look at the hundreds first, then the tens, then the ones to decide. Tap a comparison, then tap < or >, and watch the pair link. Aligned to Common Core 2.NBT.A.4 — comparing two three-digit numbers using the >, =, and < symbols, based on the value of the hundreds, tens, and ones."
+    },
+    "kid_prompt_template": "taskCompare"
   }
 ]

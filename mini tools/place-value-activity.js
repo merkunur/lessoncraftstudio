@@ -60,7 +60,8 @@ var ACTIVITY_STRINGS = {
                        da: 'Vis den udvidede form af {n} — byg den med klodserne',
                        no: 'Vis den utvidede formen av {n} — bygg den med klossene',
                        sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna',
-                       pt: 'Mostre a forma expandida de {n} — construa com os blocos' }
+                       pt: 'Mostre a forma expandida de {n} — construa com os blocos',
+                       es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -214,7 +215,14 @@ var EXPANDED_FORM_L10N = {
      Summands (duzentos/quarenta/sete) are clean bare pieces — the "e" joiner is only in the full
      blend total pt(N), never leaked into a summand. "são" is sentence-initial in the blend (no
      collision with the number's internal "e"s). BR canonical. [no NSR]. */
-  pt: { zeroTens: 'zero dezenas', zeroOnes: 'zero unidades', blend: function (nWord) { return 'são ' + nWord; } }
+  pt: { zeroTens: 'zero dezenas', zeroOnes: 'zero unidades', blend: function (nWord) { return 'são ' + nWord; } },
+  /* es: connective "son" (plural copula = A1/A2 ES decomposition, place-value-core.js:1080/1374);
+     zero-places "cero decenas"/"cero unidades" (plural — ES "cero" takes plural, matches A2 ES
+     decena(s)/unidad(es) convention). Summands (doscientos/cuarenta/siete) are clean bare pieces —
+     the "y" joiner lives ONLY inside a blend total's sub-99 tail (doscientos cuarenta y siete),
+     never at the hundred boundary, never in a summand. "son" is sentence-initial in the blend
+     (no collision with the cardinal's internal "y"s). [no NSR]. */
+  es: { zeroTens: 'cero decenas', zeroOnes: 'cero unidades', blend: function (nWord) { return 'son ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

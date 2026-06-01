@@ -158,11 +158,14 @@ var ACTIVITY_STRINGS_MP = {
      lang (its slug exists), so partially-filled keys never leak. Celebration
      reuses the truthful number-free speakMatchedAll ("You matched every pair!"). ---- */
   taskFindMissing:    { en: 'Work out the missing number, then match each equation to its answer',
-                        it: 'Trova il numero mancante, poi collega ogni operazione alla sua risposta' },
+                        it: 'Trova il numero mancante, poi collega ogni operazione alla sua risposta',
+                        es: 'Encuentra el número que falta, luego relaciona cada operación con su respuesta' },
   hintFindMissing:    { en: 'Tap an equation, then tap the number that makes it true',
-                        it: 'Tocca un\'operazione, poi tocca il numero che la completa' },
+                        it: 'Tocca un\'operazione, poi tocca il numero che la completa',
+                        es: 'Toca una operación, luego toca el número que la completa' },
   hintTryFindMissing: { en: 'Some equations aren\'t matched to the right number yet — tap a pair to break it and try again',
-                        it: 'Alcune operazioni non sono ancora abbinate al numero giusto — tocca una coppia per scioglierla e riprova' }
+                        it: 'Alcune operazioni non sono ancora abbinate al numero giusto — tocca una coppia per scioglierla e riprova',
+                        es: 'Algunas operaciones aún no están emparejadas con el número correcto — toca una pareja para deshacerla e inténtalo de nuevo' }
 };
 
 /* Fallback static task set when no ?activity= is given. Same shape as

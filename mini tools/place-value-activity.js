@@ -58,7 +58,8 @@ var ACTIVITY_STRINGS = {
   taskExpanded:      { en: 'Show the expanded form of {n} — build it with the blocks',
                        de: 'Zeige die erweiterte Form von {n} — baue sie mit den Blöcken',
                        da: 'Vis den udvidede form af {n} — byg den med klodserne',
-                       no: 'Vis den utvidede formen av {n} — bygg den med klossene' }
+                       no: 'Vis den utvidede formen av {n} — bygg den med klossene',
+                       sv: 'Visa den utvecklade formen av {n} — bygg den med klossarna' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -201,7 +202,12 @@ var EXPANDED_FORM_L10N = {
      "null tiere"/"null enere" (A2 plural place-noun; NO "null" double-l vs DA "nul"). Summands
      (tohundre/førti/sju) are clean bare-value pieces — the compound-"og" joining is only in the
      full blend total no(N). NO "utvidet"/"tall" ≠ DA "udvidet"/"tal". [NSR-FLAG][no]. */
-  no: { zeroTens: 'null tiere',  zeroOnes: 'null enere', blend: function (nWord) { return 'blir ' + nWord; } }
+  no: { zeroTens: 'null tiere',  zeroOnes: 'null enere', blend: function (nWord) { return 'blir ' + nWord; } },
+  /* sv: connective "blir" (= A1/A2 SV decomposition copula, place-value-core.js:1188/1326,
+     "K-1 Swedish convention"); zero-places "noll tiotal"/"noll ental" (INVARIANT neuter
+     place-nouns, never suffixed). Summands (tvåhundra/fyrtio/sju) are clean bare-value
+     pieces — the no-joiner compound is only in the full blend total sv(N). [NSR-FLAG][sv]. */
+  sv: { zeroTens: 'noll tiotal', zeroOnes: 'noll ental',  blend: function (nWord) { return 'blir ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

@@ -295,13 +295,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "find-the-missing-number"
+      "en": "find-the-missing-number",
+      "it": "trova-il-numero-mancante"
     },
     "page_title": {
-      "en": "Find the Missing Number"
+      "en": "Find the Missing Number",
+      "it": "Trova il numero mancante"
     },
     "page_intro": {
-      "en": "Work out the missing number in each equation, then match it to its answer. The blank moves around — sometimes it's an addend, sometimes the number you take away, sometimes the total — so you get to think it through every way. Tap an equation, then tap the number that makes it true, and watch the pair link. Aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, in any position."
+      "en": "Work out the missing number in each equation, then match it to its answer. The blank moves around — sometimes it's an addend, sometimes the number you take away, sometimes the total — so you get to think it through every way. Tap an equation, then tap the number that makes it true, and watch the pair link. Aligned to Common Core 1.OA.D.8 — finding the unknown whole number in an addition or subtraction equation, in any position.",
+      "it": "Trova il numero mancante in ogni operazione, poi collegalo alla sua risposta. Lo spazio vuoto si sposta — a volte è un addendo, a volte il numero da togliere, a volte il totale — così impari a ragionare in tutti i modi. Tocca un'operazione, poi tocca il numero che la completa, e guarda la coppia collegarsi. Allineato alle Indicazioni nazionali — trovare il numero sconosciuto in un'addizione o sottrazione, in qualsiasi posizione."
     },
     "kid_prompt_template": "taskFindMissing"
   }

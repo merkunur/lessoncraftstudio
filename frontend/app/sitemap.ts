@@ -273,7 +273,7 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
           lastModified: STATIC_CONTENT_DATE,
           changeFrequency: 'monthly',
           priority: 0.6,
-          alternates: { languages: hreflangAlternatesForRow(a.row, baseUrl) },
+          alternates: { languages: await hreflangAlternatesForRow(a.row, baseUrl) },
         });
       }
     } catch (err) {

@@ -513,13 +513,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "comparing-length-taller-shorter-longer"
+      "en": "comparing-length-taller-shorter-longer",
+      "fi": "vertaa-pituutta-pidempi-lyhyempi"
     },
     "page_title": {
-      "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement"
+      "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement",
+      "fi": "Pituuksien vertailu — pidempi, lyhyempi, korkeampi | Esiopetuksen mittaaminen"
     },
     "page_intro": {
-      "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference."
+      "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference.",
+      "fi": "Lapsi vertailee kahta kuvaa ja napauttaa pidemmän, lyhyemmän tai korkeamman — ilman laskemista. Maksuton, OPS 2014:n mukainen mittausharjoitus esiopetukseen."
     },
     "kid_prompt_template": "promptTapTaller"
   }

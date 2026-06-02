@@ -185,7 +185,7 @@ function apply(opts) {
     errors.push('__LINK_MORE_TYPE__: ' + e.message);
     typeAxis = null;
   }
-  var linkMoreType = typeAxis ? '/' + locale + '/topic/' + typeAxis.slug + '/' : null;
+  var linkMoreType = typeAxis ? '/' + locale + '/topic/' + typeAxis.slug : null; // no trailing slash: Next trailingSlash:false → /topic/<slug>/ 308-redirects
   note('__LINK_MORE_TYPE__', typeAxis ? 'taxonomy' : 'skip', linkMoreType || '', !typeAxis,
     typeAxis ? null : 'no taxonomy slug for locale "' + locale + '"; end-of-deck link skipped');
 
@@ -210,7 +210,7 @@ function apply(opts) {
       errors.push('__LINK_MORE_THEME__: ' + e.message);
     }
   }
-  var linkMoreTheme = themeAxis ? '/' + locale + '/topic/' + themeAxis.slug + '/' : null;
+  var linkMoreTheme = themeAxis ? '/' + locale + '/topic/' + themeAxis.slug : null; // no trailing slash (308)
   var themeNoteSource = themeAxis ? 'taxonomy'
     : (themeIsCompound ? 'compound skip (no single-topic page for A-vs-B)'
       : (theme ? 'skip' : 'conditional skip (theme=null)'));
@@ -233,7 +233,7 @@ function apply(opts) {
       errors.push('__LINK_MORE_LEVEL__: ' + e.message);
     }
   }
-  var linkMoreLevel = levelAxis ? '/' + locale + '/topic/' + levelAxis.slug + '/' : null;
+  var linkMoreLevel = levelAxis ? '/' + locale + '/topic/' + levelAxis.slug : null; // no trailing slash (308)
   note('__LINK_MORE_LEVEL__', levelAxis ? 'taxonomy' : 'skip', linkMoreLevel || '', !levelAxis,
     levelAxis ? null : 'no taxonomy slug for locale "' + locale + '"; end-of-deck link skipped');
 

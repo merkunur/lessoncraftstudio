@@ -114,7 +114,7 @@ export default async function CrossAxisPivots({
         {resolved.map(p => (
           <li key={`${p.primarySlug}-${p.secondarySlug}`}>
             <a
-              href={`/${locale}/topic/${p.primarySlug}/${p.secondarySlug}/`}
+              href={`/${locale}/topic/${p.primarySlug}/${p.secondarySlug}`}
               className="block px-4 py-3 rounded-md bg-cream-50 border border-cream-300 hover:border-ink-700 hover:shadow-sm transition-all"
             >
               <span className="block text-sm font-medium text-ink-900">

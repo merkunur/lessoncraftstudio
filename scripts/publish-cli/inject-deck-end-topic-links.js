@@ -121,20 +121,20 @@ function resolveDeck(manifest, deckHtml) {
   var links = [];
   var typeName = typeAxis.name || typeAxis.slug || manifest.exercise_type;
   links.push({
-    href: '/' + locale + '/topic/' + typeAxis.slug + '/',
+    href: '/' + locale + '/topic/' + typeAxis.slug, // no trailing slash: Next trailingSlash:false → /topic/<slug>/ 308-redirects
     text: i18n.interpolate(i18n.resolve(locale, 'endDeck.moreType', 'More {type} worksheets').value, { type: typeName }),
   });
   if (themeAxis && themeAxis.slug) {
     var themeName = themeAxis.name || themeAxis.slug || theme;
     links.push({
-      href: '/' + locale + '/topic/' + themeAxis.slug + '/',
+      href: '/' + locale + '/topic/' + themeAxis.slug, // no trailing slash (308)
       text: i18n.interpolate(i18n.resolve(locale, 'endDeck.moreTheme', 'More {theme}-themed worksheets').value, { theme: themeName }),
     });
   }
   if (levelAxis && levelAxis.slug) {
     var levelName = levelAxis.name || levelAxis.slug;
     links.push({
-      href: '/' + locale + '/topic/' + levelAxis.slug + '/',
+      href: '/' + locale + '/topic/' + levelAxis.slug, // no trailing slash (308)
       text: i18n.interpolate(i18n.resolve(locale, 'endDeck.moreLevel', 'More worksheets for {level}').value, { level: levelName }),
     });
   }
@@ -173,8 +173,8 @@ function buildAside(resolved) {
 function buildBreadcrumbScript(resolved) {
   var homeLabel = i18n.resolve(resolved.locale, 'topicPage.breadcrumb.home', 'Home').value;
   var items = [
-    { '@type': 'ListItem', position: 1, name: homeLabel, item: CANONICAL_BASE + '/' + resolved.locale + '/' },
-    { '@type': 'ListItem', position: 2, name: resolved.typeName, item: CANONICAL_BASE + '/' + resolved.locale + '/topic/' + resolved.typeAxis.slug + '/' },
+    { '@type': 'ListItem', position: 1, name: homeLabel, item: CANONICAL_BASE + '/' + resolved.locale },
+    { '@type': 'ListItem', position: 2, name: resolved.typeName, item: CANONICAL_BASE + '/' + resolved.locale + '/topic/' + resolved.typeAxis.slug },
   ];
   if (resolved.deckTitle) {
     items.push({ '@type': 'ListItem', position: 3, name: resolved.deckTitle });

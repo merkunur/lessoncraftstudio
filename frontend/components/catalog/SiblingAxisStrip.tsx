@@ -79,7 +79,7 @@ export default async function SiblingAxisStrip({
         {capped.map(s => (
           <li key={s.axisKey} className="snap-start">
             <a
-              href={`/${locale}/topic/${s.slug}/`}
+              href={`/${locale}/topic/${s.slug}`}
               className="inline-flex items-center px-3 py-1 rounded-full bg-cream-100 hover:bg-cream-200 text-sm text-ink-800 transition-colors whitespace-nowrap"
             >
               {s.name}

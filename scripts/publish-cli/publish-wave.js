@@ -34,6 +34,10 @@
  *                    takes deck mobile to ≥85 — and keeps the Fredoka font
  *                    render-blocking (reverts an earlier async build that caused
  *                    font-swap CLS). Zero quality loss; idempotent.
+ *   5b. TOPIC-SLASH — rewrite-deck-html-topic-slash.js. Strips trailing slashes off
+ *                    the end-deck topic links + breadcrumb JSON-LD item URLs (Next
+ *                    trailingSlash:false → /topic/<slug>/ 308-redirects). Idempotent;
+ *                    no-op for forward-fixed decks.
  *   5. END-LINKS   — inject-deck-end-topic-links.js per wave locale. Backfills the
  *                    localized end-of-deck "Want more?" topic-links aside on any deck
  *                    missing it (idempotent) so every deck carries per-locale internal
@@ -100,6 +104,7 @@ function parseArgs(argv) {
     else if (a === '--skip-alt-text') args.skipAltText = true;
     else if (a === '--skip-img-dims') args.skipImgDims = true;
     else if (a === '--skip-lazy-deckend') args.skipLazyDeckend = true;
+    else if (a === '--skip-topic-slash') args.skipTopicSlash = true;
     else if (a === '--skip-audit') args.skipAudit = true;
     else if (a === '--no-db-check') args.noDbCheck = true;
     else if (a === '--help' || a === '-h') args.help = true;
@@ -135,6 +140,7 @@ Options:
   --skip-alt-text         skip the post-publish alt-text retrofit (NOT recommended)
   --skip-img-dims         skip the worksheet-img width/height retrofit (NOT recommended; mobile CLS)
   --skip-lazy-deckend     skip the deckend-thumb lazy-load + font-async retrofit (NOT recommended; mobile LCP)
+  --skip-topic-slash      skip the end-deck topic-link trailing-slash strip (NOT recommended; internal redirects)
   --skip-audit            skip the post-publish deck.html audit
   --no-db-check           pass through to PREBAND (skip existing-title collision check)
 
@@ -282,6 +288,18 @@ function main() {
   // hreflang so the hreflang block stays last in <head>.
   for (const loc of args.locales) {
     runStep(`END-LINKS — inject-deck-end-topic-links (${loc})`, 'inject-deck-end-topic-links.js', [`--locale=${loc}`]);
+  }
+
+  // STEP 5b — TOPIC-SLASH: strip trailing slashes off the end-deck topic links +
+  // breadcrumb JSON-LD item URLs (Next is trailingSlash:false → /topic/<slug>/
+  // 308-redirects; internal redirects waste crawl budget). Runs AFTER end-links
+  // (which create those links). Forward-fixed in inject-deck-end-topic-links.js +
+  // substitute.js, so this is a no-op for freshly-built decks; it heals any deck
+  // that still carries the old trailing-slash form. Idempotent. (SEO audit 2026-06.)
+  if (!args.skipTopicSlash) {
+    runStep('TOPIC-SLASH — rewrite-deck-html-topic-slash', 'rewrite-deck-html-topic-slash.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  } else {
+    console.log('\n(skipping topic-slash retrofit per --skip-topic-slash)');
   }
 
   // STEP 6 — EMBED-HIDE: hide the in-deck internal link sections (end-deck links +

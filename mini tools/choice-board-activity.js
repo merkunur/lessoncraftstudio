@@ -150,6 +150,60 @@ var ACTIVITY_STRINGS = {
     en: 'Solid', de: 'Körper', fr: 'Solide', it: 'Solida', es: 'Sólida', pt: 'Sólida',
     nl: 'Lichaam', sv: 'Solid', da: 'Rumlig', no: 'Solid', fi: 'Kappale'
   },
+  /* Batch 4 K.MD.A.2 — Comparing length (taller / longer / shorter).
+     Direct attribute comparison of the SAME object at two sizes; no
+     counting. Nordic (sv/da/no/fi) NSR-flagged per §17.5.1. EN-only
+     ships now; the 11-locale dict keeps the engine fan-out-ready. */
+  promptTapTaller: {
+    en: 'Tap the taller one',
+    de: 'Tippe auf das höhere',
+    fr: 'Touche le plus grand',
+    it: 'Tocca il più alto',
+    es: 'Toca el más alto',
+    pt: 'Toque no mais alto',
+    nl: 'Tik op de hoogste',
+    sv: 'Tryck på den högre',
+    da: 'Tryk på den højeste',
+    no: 'Trykk på den høyeste',
+    fi: 'Napauta korkeampaa'
+  },
+  promptTapLonger: {
+    en: 'Tap the longer one',
+    de: 'Tippe auf das längere',
+    fr: 'Touche le plus long',
+    it: 'Tocca il più lungo',
+    es: 'Toca el más largo',
+    pt: 'Toque no mais comprido',
+    nl: 'Tik op de langste',
+    sv: 'Tryck på den längre',
+    da: 'Tryk på den længste',
+    no: 'Trykk på den lengste',
+    fi: 'Napauta pidempää'
+  },
+  promptTapShorter: {
+    en: 'Tap the shorter one',
+    de: 'Tippe auf das kürzere',
+    fr: 'Touche le plus court',
+    it: 'Tocca il più corto',
+    es: 'Toca el más corto',
+    pt: 'Toque no mais curto',
+    nl: 'Tik op de kortste',
+    sv: 'Tryck på den kortare',
+    da: 'Tryk på den korteste',
+    no: 'Trykk på den korteste',
+    fi: 'Napauta lyhyempää'
+  },
+  /* Size adjectives used only for per-tile aria-labels (bigger/smaller
+     + raw noun key), mirroring which-more's "5 cat" label pattern.
+     Never rendered on screen — the size relationship is the content. */
+  labelBigger: {
+    en: 'bigger', de: 'größer', fr: 'plus grand', it: 'più grande', es: 'más grande', pt: 'maior',
+    nl: 'groter', sv: 'större', da: 'større', no: 'større', fi: 'isompi'
+  },
+  labelSmaller: {
+    en: 'smaller', de: 'kleiner', fr: 'plus petit', it: 'più piccolo', es: 'más pequeño', pt: 'menor',
+    nl: 'kleiner', sv: 'mindre', da: 'mindre', no: 'mindre', fi: 'pienempi'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -262,6 +316,34 @@ function shapeImageUrl(key) {
 
 function buildOption(key) {
   return { key: key, imgUrl: shapeImageUrl(key), label: key };
+}
+
+/* Batch 4 K.MD.A.2 — wrapper-owned size-delta CSS for compare-length.
+   The core renders both tiles' images identically (it stamps
+   tile.dataset.key, but applies no per-option scale); to show the SAME
+   noun at two visibly different sizes we inject our OWN scoped stylesheet
+   keyed on the cl-big / cl-small option keys. This touches NEITHER
+   choice-board-core.js NOR lcs-shell.css — all new visual logic lives
+   here in the activity layer. The selectors are higher-specificity than
+   the core's `.cb-tile-img` (and use !important defensively per §A.13.47
+   rule 6), so they win regardless of inject order. Bottom-anchoring both
+   images within the tile (align-items:end) + transform-origin:bottom
+   seats them on a shared visual floor so "taller / longer" reads
+   honestly. The cl-* keys exist only in this template and one activity
+   loads per iframe, so there is zero cross-activity contamination. */
+var _clCssInjected = false;
+function injectCompareLengthCSS() {
+  if (_clCssInjected) return;
+  _clCssInjected = true;
+  var css = [
+    '.cb-tile[data-key^="cl-"]{align-items:end !important;}',
+    '.cb-tile[data-key="cl-big"] .cb-tile-img{transform:scale(1) !important;transform-origin:bottom center;}',
+    '.cb-tile[data-key="cl-small"] .cb-tile-img{transform:scale(0.5) !important;transform-origin:bottom center;}'
+  ].join('\n');
+  var tag = document.createElement('style');
+  tag.setAttribute('data-cb-compare-length', '');
+  tag.textContent = css;
+  document.head.appendChild(tag);
 }
 
 /* Number-tile builder for count-sides + similar templates. Seeded
@@ -637,6 +719,48 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
               alt: self.api.t('shapeLabel_' + entry.key) || entry.key
             };
             tool.setupTask(options, targetKey, subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
+    /* TEMPLATE: compare-length (K.MD.A.2, Measurement & Data) — show the
+       SAME object at two visibly different sizes (one image instance
+       scaled via the wrapper-injected CSS above, keyed on the option
+       key), kid taps the taller / longer / shorter one. ONE object per
+       tile + NO counting — structurally distinct from which-more
+       (K.CC.C.6, which compares the COUNT of items in group tiles).
+       params.rounds = [{ noun, themeDir, attribute:'taller'|'longer'|'shorter' }, ...].
+       taller/longer → the bigger instance is correct; shorter → smaller. */
+    if (row.task_template === 'compare-length') {
+      injectCompareLengthCSS();
+      var rounds = row.params.rounds;
+      return rounds.map(function (round, idx) {
+        var imgUrl = '/image-library-webp/themes/' + round.themeDir + '/' + round.noun + '@2x.webp';
+        var attr = round.attribute;
+        var targetKey = (attr === 'shorter') ? 'cl-small' : 'cl-big';
+        var promptKey = (attr === 'taller') ? 'promptTapTaller'
+                      : (attr === 'longer') ? 'promptTapLonger'
+                      : 'promptTapShorter';
+        return {
+          id: row.id + '.' + round.noun + '-' + attr,
+          promptKey: promptKey,
+          answerType: 'state',
+          setup: function (tool) {
+            var bigOpt   = { key: 'cl-big',   imgUrl: imgUrl, label: self.api.t('labelBigger')  + ' ' + round.noun };
+            var smallOpt = { key: 'cl-small', imgUrl: imgUrl, label: self.api.t('labelSmaller') + ' ' + round.noun };
+            /* idx-parity left/right placement so the bigger tile isn't
+               always on the same side across the round set. */
+            var options = (idx % 2 === 0) ? [bigOpt, smallOpt] : [smallOpt, bigOpt];
+            tool.setupTask(options, targetKey, null);
           },
           check: function (tool) {
             var correct = tool.answer === targetKey;

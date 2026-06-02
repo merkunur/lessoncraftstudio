@@ -96,6 +96,28 @@
           "Build the spatial vocabulary that later geometry and measurement work rely on."
         ]
       },
+      "Measurement & Data": {
+        "about": [
+          "This free, interactive measurement activity helps young children compare objects by size — taller, shorter, and longer — without any counting. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account needed.",
+          "It is aligned to Common Core {code} in the {strand} strand. Children compare at their own pace with gentle, immediate feedback — no timer, no score, just playful practice looking closely at how things measure up."
+        ],
+        "practices": [
+          "Comparing two objects directly by a measurable attribute like length or height",
+          "Deciding which object is taller, shorter, or longer",
+          "Describing the difference between two sizes in their own words",
+          "Looking closely and reasoning about size instead of counting"
+        ],
+        "howToPlay": [
+          "Children look at two pictures of the same object shown at different sizes and read or listen to the prompt.",
+          "They tap the one that is taller, shorter, or longer, depending on what the prompt asks.",
+          "A warm check confirms a correct choice and offers an easy retry when needed."
+        ],
+        "learningGoals": [
+          "Directly compare two objects by a measurable attribute — the focus of Common Core {code}.",
+          "Use the words taller, shorter, and longer to describe and compare sizes.",
+          "Build the early measurement vocabulary that later length, weight, and data work rely on."
+        ]
+      },
       "Reading: Foundational Skills": {
         "about": [
           "This free, interactive reading activity gives children hands-on practice sounding out and building words. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to set up.",
@@ -170,6 +192,11 @@
     "whatsInsideCode": "Aligned to Common Core standard {code}"
   },
   "prose": {
+    "choice-board.compare-length.k-md-2": [
+      "Before children measure with rulers and numbers, they learn to compare things just by looking. In this free activity, two pictures of the same object appear side by side at clearly different sizes, and children simply tap the taller, the shorter, or the longer one. There is no counting at all — the whole point is to compare a single measurable attribute, like height or length, directly.",
+      "Keeping both pictures to the same object is deliberate. When a child compares a tall pine with a short pine, or a long pencil with a short one, the only thing that changes is the size, so the comparison stays pure and clear. This is exactly the kind of direct, side-by-side comparison that builds a child's sense of measurement long before any tool is involved.",
+      "The activity is aligned to Common Core K.MD.A.2 — directly comparing two objects with a measurable attribute in common and describing which has more or less of it. Children work at their own pace with gentle, immediate feedback, and there is no timer and no score, so comparing sizes stays a calm, confidence-building game."
+    ],
     "ten-frame.count-to-10.make-n.animals": [
       "Counting to ten is one of the very first big milestones in a child's math journey, and a ten-frame makes it wonderfully clear. In this free activity, children place friendly animal counters into a ten-frame and count from 0 to 10, building each number one square at a time.",
       "Because the ten-frame always has ten spaces, children quickly start to see numbers in relation to ten — they notice that seven is \"three away from full,\" or that five fills exactly half the frame. This visual sense of quantity is far more powerful than memorising a counting song, and it sets the stage for adding and subtracting later.",

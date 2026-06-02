@@ -198,3 +198,6 @@ docs/audio/recording-manifest-*/
 # chunk-tables, da-grapheme-phoneme.json, danish-syllable-policy.md) ARE
 # committed — only the raw external corpora live in .cache/.
 scripts/v2-data/verify-syllable-boundaries/.cache/
+
+# page-speed audit scratch (lighthouse per-run JSON + logs)
+.lh-cache/

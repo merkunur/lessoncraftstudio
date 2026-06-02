@@ -1,7 +1,9 @@
 'use client';
 
 import { useState, useCallback } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { wwwImg } from '@/lib/img-host';
 import AddToCollectionButton from '@/components/catalog/AddToCollectionButton';
 import ShareDeckButton from '@/components/catalog/ShareDeckButton';
 import BulkSelectModeToggle from '@/components/catalog/BulkSelectModeToggle';
@@ -173,13 +175,13 @@ export default function DeckGridClient({
                   aria-label={tCard('ariaThumbnail', { title: deck.title })}
                   className="block w-full text-left"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={deck.thumbnailUrl}
+                  <Image
+                    src={wwwImg(deck.thumbnailUrl)}
                     alt={deck.richAlt}
                     width={480}
                     height={620}
                     loading="lazy"
+                    sizes="(max-width:639px) 45vw, (max-width:1023px) 30vw, 240px"
                     className="w-full h-auto bg-cream-50"
                   />
                 </button>
@@ -189,13 +191,13 @@ export default function DeckGridClient({
                   aria-label={tCard('ariaThumbnail', { title: deck.title })}
                   className="block"
                 >
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={deck.thumbnailUrl}
+                  <Image
+                    src={wwwImg(deck.thumbnailUrl)}
                     alt={deck.richAlt}
                     width={480}
                     height={620}
                     loading="lazy"
+                    sizes="(max-width:639px) 45vw, (max-width:1023px) 30vw, 240px"
                     className="w-full h-auto bg-cream-50"
                   />
                 </a>

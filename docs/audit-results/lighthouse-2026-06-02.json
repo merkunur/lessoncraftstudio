@@ -1,0 +1,1233 @@
+[
+  {
+    "label": "home-en",
+    "type": "homepage",
+    "url": "https://www.lessoncraftstudio.com/en",
+    "form": "mobile",
+    "score": 64,
+    "lcp": "7.0 s",
+    "lcpMs": 6983.892749999999,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "400 ms",
+    "tbtMs": 403.55000000000064,
+    "fcp": "1.8 s",
+    "si": "3.9 s",
+    "totalBytes": "Total size was 2,143 KiB",
+    "opportunities": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savingsMs": 110
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 58
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 12 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 2,143 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 0,
+        "display": "2.5 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 160 ms"
+      }
+    }
+  },
+  {
+    "label": "home-en",
+    "type": "homepage",
+    "url": "https://www.lessoncraftstudio.com/en",
+    "form": "desktop",
+    "score": 98,
+    "lcp": "1.2 s",
+    "lcpMs": 1187.116,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.4 s",
+    "si": "0.7 s",
+    "totalBytes": "Total size was 2,145 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 39
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 2,145 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.5 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 140 ms"
+      }
+    }
+  },
+  {
+    "label": "home-de",
+    "type": "homepage",
+    "url": "https://www.lessoncraftstudio.com/de",
+    "form": "mobile",
+    "score": 69,
+    "lcp": "6.8 s",
+    "lcpMs": 6760.41,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "240 ms",
+    "tbtMs": 238.0000000000009,
+    "fcp": "1.8 s",
+    "si": "4.0 s",
+    "totalBytes": "Total size was 2,193 KiB",
+    "opportunities": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savingsMs": 250
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 46
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 12 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 2,193 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 0,
+        "display": "2.6 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 150 ms"
+      }
+    }
+  },
+  {
+    "label": "home-de",
+    "type": "homepage",
+    "url": "https://www.lessoncraftstudio.com/de",
+    "form": "desktop",
+    "score": 94,
+    "lcp": "1.5 s",
+    "lcpMs": 1495.224,
+    "cls": "0.061",
+    "clsNum": 0.061158,
+    "tbt": "0 ms",
+    "tbtMs": 1,
+    "fcp": "0.5 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 2,204 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 43
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 11 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 2,204 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.6 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 140 ms"
+      }
+    }
+  },
+  {
+    "label": "topic-addition",
+    "type": "topic",
+    "url": "https://www.lessoncraftstudio.com/en/topic/addition",
+    "form": "mobile",
+    "score": 82,
+    "lcp": "4.2 s",
+    "lcpMs": 4228.778,
+    "cls": "0",
+    "clsNum": 0.000455,
+    "tbt": "210 ms",
+    "tbtMs": 208,
+    "fcp": "1.3 s",
+    "si": "1.8 s",
+    "totalBytes": "Total size was 1,271 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 145
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 1,271 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "1.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 250 ms"
+      }
+    }
+  },
+  {
+    "label": "topic-addition",
+    "type": "topic",
+    "url": "https://www.lessoncraftstudio.com/en/topic/addition",
+    "form": "desktop",
+    "score": 97,
+    "lcp": "1.3 s",
+    "lcpMs": 1320.7414999999996,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "0 ms",
+    "tbtMs": 1.9999999999997726,
+    "fcp": "0.5 s",
+    "si": "0.7 s",
+    "totalBytes": "Total size was 3,598 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 147
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 0.5,
+        "display": "Total size was 3,598 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 250 ms"
+      }
+    }
+  },
+  {
+    "label": "worksheets-hub",
+    "type": "hub",
+    "url": "https://www.lessoncraftstudio.com/en/worksheets",
+    "form": "mobile",
+    "score": 69,
+    "lcp": "9.0 s",
+    "lcpMs": 9001.848250000001,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "260 ms",
+    "tbtMs": 260,
+    "fcp": "1.7 s",
+    "si": "2.0 s",
+    "totalBytes": "Total size was 3,440 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 59
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 0.5,
+        "display": "Total size was 3,440 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "1.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 160 ms"
+      }
+    }
+  },
+  {
+    "label": "worksheets-hub",
+    "type": "hub",
+    "url": "https://www.lessoncraftstudio.com/en/worksheets",
+    "form": "desktop",
+    "score": 92,
+    "lcp": "1.8 s",
+    "lcpMs": 1780.5742500000001,
+    "cls": "0",
+    "clsNum": 0,
+    "tbt": "0 ms",
+    "tbtMs": 3.5000000000001137,
+    "fcp": "0.5 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 4,304 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 73
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 0.5,
+        "display": "Total size was 4,304 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 170 ms"
+      }
+    }
+  },
+  {
+    "label": "activity",
+    "type": "activity",
+    "url": "https://www.lessoncraftstudio.com/en/activities/count-to-10-with-animals",
+    "form": "mobile",
+    "score": 75,
+    "lcp": "4.9 s",
+    "lcpMs": 4854.798,
+    "cls": "0.003",
+    "clsNum": 0.00263,
+    "tbt": "300 ms",
+    "tbtMs": 299.50000000000045,
+    "fcp": "1.7 s",
+    "si": "2.3 s",
+    "totalBytes": "Total size was 646 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 63
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unminified-css": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 646 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "1.7 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 160 ms"
+      }
+    }
+  },
+  {
+    "label": "activity",
+    "type": "activity",
+    "url": "https://www.lessoncraftstudio.com/en/activities/count-to-10-with-animals",
+    "form": "desktop",
+    "score": 96,
+    "lcp": "1.3 s",
+    "lcpMs": 1285.697,
+    "cls": "0.013",
+    "clsNum": 0.012740999999999999,
+    "tbt": "0 ms",
+    "tbtMs": 2.0000000000001137,
+    "fcp": "0.8 s",
+    "si": "0.8 s",
+    "totalBytes": "Total size was 648 KiB",
+    "opportunities": [
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 54
+      },
+      {
+        "id": "unminified-css",
+        "title": "Minify CSS",
+        "savingsMs": 50
+      },
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savingsMs": 50
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unminified-css": {
+        "score": 0,
+        "display": "Est savings of 6 KiB"
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 13 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 648 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.6 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 150 ms"
+      }
+    }
+  },
+  {
+    "label": "tool",
+    "type": "tool",
+    "url": "https://www.lessoncraftstudio.com/en/tools/ten-frame",
+    "form": "mobile",
+    "score": 78,
+    "lcp": "4.8 s",
+    "lcpMs": 4847.907999999999,
+    "cls": "0",
+    "clsNum": 0.000233,
+    "tbt": "240 ms",
+    "tbtMs": 236,
+    "fcp": "1.7 s",
+    "si": "2.2 s",
+    "totalBytes": "Total size was 632 KiB",
+    "opportunities": [
+      {
+        "id": "unused-css-rules",
+        "title": "Reduce unused CSS",
+        "savingsMs": 90
+      },
+      {
+        "id": "server-response-time",
+        "title": "Initial server response time was short",
+        "savingsMs": 69
+      }
+    ],
+    "diags": {
+      "unminified-javascript": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unminified-css": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 632 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "1.5 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 170 ms"
+      }
+    }
+  },
+  {
+    "label": "tool",
+    "type": "tool",
+    "url": "https://www.lessoncraftstudio.com/en/tools/ten-frame",
+    "form": "desktop",
+    "score": 97,
+    "lcp": "1.2 s",
+    "lcpMs": 1215.195,
+    "cls": "0",
+    "clsNum": 0.000136,
+    "tbt": "0 ms",
+    "tbtMs": 0.4999999999998863,
+    "fcp": "0.6 s",
+    "si": "0.7 s",
+    "totalBytes": "Total size was 634 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unminified-css": {
+        "score": 0.5,
+        "display": "Est savings of 6 KiB"
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 0.5,
+        "display": "Est savings of 14 KiB"
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 634 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 110 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-A-addition",
+    "type": "deck",
+    "family": "A",
+    "url": "https://www.lessoncraftstudio.com/en/decks/addition-find-addend-4th-of-july/",
+    "form": "mobile",
+    "score": 54,
+    "lcp": "7.0 s",
+    "lcpMs": 6950.3369999999995,
+    "cls": "0.313",
+    "clsNum": 0.312767,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.2 s",
+    "si": "3.2 s",
+    "totalBytes": "Total size was 956 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 956 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.8 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-A-addition",
+    "type": "deck",
+    "family": "A",
+    "url": "https://www.lessoncraftstudio.com/en/decks/addition-find-addend-4th-of-july/",
+    "form": "desktop",
+    "score": 95,
+    "lcp": "1.3 s",
+    "lcpMs": 1307.3365,
+    "cls": "0.013",
+    "clsNum": 0.013203,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 956 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 956 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.2 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-B-wordsearch",
+    "type": "deck",
+    "family": "B",
+    "url": "https://www.lessoncraftstudio.com/en/decks/wordsearch/",
+    "form": "mobile",
+    "score": 71,
+    "lcp": "6.7 s",
+    "lcpMs": 6664.0965000000015,
+    "cls": "0.012",
+    "clsNum": 0.01205,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.2 s",
+    "si": "3.2 s",
+    "totalBytes": "Total size was 931 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 931 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-B-wordsearch",
+    "type": "deck",
+    "family": "B",
+    "url": "https://www.lessoncraftstudio.com/en/decks/wordsearch/",
+    "form": "desktop",
+    "score": 96,
+    "lcp": "1.3 s",
+    "lcpMs": 1282.3964999999998,
+    "cls": "0.015",
+    "clsNum": 0.014989,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 931 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 931 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-C-find-count",
+    "type": "deck",
+    "family": "C",
+    "url": "https://www.lessoncraftstudio.com/en/decks/find-and-count/",
+    "form": "mobile",
+    "score": 72,
+    "lcp": "5.5 s",
+    "lcpMs": 5542.969999999999,
+    "cls": "0.001",
+    "clsNum": 0.0006219999999999999,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.3 s",
+    "si": "3.3 s",
+    "totalBytes": "Total size was 1,071 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 1,071 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 50 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-C-find-count",
+    "type": "deck",
+    "family": "C",
+    "url": "https://www.lessoncraftstudio.com/en/decks/find-and-count/",
+    "form": "desktop",
+    "score": 94,
+    "lcp": "1.4 s",
+    "lcpMs": 1441.4569999999999,
+    "cls": "0.013",
+    "clsNum": 0.013203,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 1,071 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 1,071 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-D-chart-count",
+    "type": "deck",
+    "family": "D",
+    "url": "https://www.lessoncraftstudio.com/en/decks/chart-count/",
+    "form": "mobile",
+    "score": 72,
+    "lcp": "6.0 s",
+    "lcpMs": 6039.8408,
+    "cls": "0.001",
+    "clsNum": 0.0013579999999999998,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.1 s",
+    "si": "3.1 s",
+    "totalBytes": "Total size was 993 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 993 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-D-chart-count",
+    "type": "deck",
+    "family": "D",
+    "url": "https://www.lessoncraftstudio.com/en/decks/chart-count/",
+    "form": "desktop",
+    "score": 96,
+    "lcp": "1.2 s",
+    "lcpMs": 1223.059,
+    "cls": "0.013",
+    "clsNum": 0.012833,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 993 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 993 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 50 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-E-matching",
+    "type": "deck",
+    "family": "E",
+    "url": "https://www.lessoncraftstudio.com/en/decks/matching-letter/",
+    "form": "mobile",
+    "score": 72,
+    "lcp": "6.1 s",
+    "lcpMs": 6129.1224999999995,
+    "cls": "0.001",
+    "clsNum": 0.0006219999999999999,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.0 s",
+    "si": "3.0 s",
+    "totalBytes": "Total size was 893 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 893 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.2 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-E-matching",
+    "type": "deck",
+    "family": "E",
+    "url": "https://www.lessoncraftstudio.com/en/decks/matching-letter/",
+    "form": "desktop",
+    "score": 96,
+    "lcp": "1.2 s",
+    "lcpMs": 1207.0605,
+    "cls": "0.013",
+    "clsNum": 0.013203,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 893 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 893 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-F-sudoku",
+    "type": "deck",
+    "family": "F",
+    "url": "https://www.lessoncraftstudio.com/en/decks/sudoku/",
+    "form": "mobile",
+    "score": 70,
+    "lcp": "6.5 s",
+    "lcpMs": 6480.71,
+    "cls": "0.001",
+    "clsNum": 0.0007980000000000001,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "3.3 s",
+    "si": "3.3 s",
+    "totalBytes": "Total size was 1,078 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 1,078 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.3 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  },
+  {
+    "label": "deck-F-sudoku",
+    "type": "deck",
+    "family": "F",
+    "url": "https://www.lessoncraftstudio.com/en/decks/sudoku/",
+    "form": "desktop",
+    "score": 95,
+    "lcp": "1.4 s",
+    "lcpMs": 1359.999,
+    "cls": "0.013",
+    "clsNum": 0.013203,
+    "tbt": "0 ms",
+    "tbtMs": 0,
+    "fcp": "0.9 s",
+    "si": "0.9 s",
+    "totalBytes": "Total size was 1,078 KiB",
+    "opportunities": [],
+    "diags": {
+      "unminified-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unminified-css": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-javascript": {
+        "score": 1,
+        "display": ""
+      },
+      "unused-css-rules": {
+        "score": 1,
+        "display": ""
+      },
+      "total-byte-weight": {
+        "score": 1,
+        "display": "Total size was 1,078 KiB"
+      },
+      "mainthread-work-breakdown": {
+        "score": 1,
+        "display": "0.1 s"
+      },
+      "server-response-time": {
+        "score": 1,
+        "display": "Root document took 60 ms"
+      }
+    }
+  }
+]

@@ -136,6 +136,8 @@ export default function ActivityCardPreview({
             <img
               src={subjectImg}
               alt={subjectAlt}
+              loading="lazy"
+              decoding="async"
               className={`${sizes.subjectImg} h-auto block`}
             />
           ) : (

@@ -741,6 +741,22 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
   }
 }
 
+/* =====================================================================
+   MOBILE FIT + TIGHTEN — mobile-QA standard (CLAUDE.md §A.13.55), 2026-06-02.
+   1) Empty-band kill: drop the card's vh min-height floor on phones so the
+      card hugs its content. Combined with page.tsx lowering the iframe
+      mobile min-height (85vh -> small px floor), the iframe auto-resizes to
+      the card instead of being padded to 85vh. Before: card forced to
+      66.67vh-of-iframe while iframe forced to 85vh-of-device -> up to ~28%
+      blank band below short activities (audit emptyBand 150-264px on phones).
+   2) Control-row wrap: on the narrowest phones (Galaxy Fold cover ~280px)
+      the 4-button chrome row (settings/sound/fullscreen/reset) overflowed
+      the header (audit: lcs-ctrl right>viewport @280). Wrap, don't clip. */
+@media (max-width: 767px) {
+  .lcs-app.activity { min-height: 0; }
+  .lcs-controls { flex-wrap: wrap; justify-content: center; }
+}
+
 /* Prong 4 — true title centering. v7.5 set .lcs-titles { flex:1;
    text-align:center } but title-text was centered within the
    LEFT-FILL space (controls take right via flex) → off-card-center.

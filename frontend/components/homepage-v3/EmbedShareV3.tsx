@@ -122,7 +122,7 @@ function ProductEmbedMockup({ tr }: { tr: MockupTranslations }) {
 
         <div
           className="hv3-embed-popup"
-          style={{ top: '38px', right: '14px', width: '220px' }}
+          style={{ top: '38px', right: '14px', width: 'min(220px, calc(100% - 28px))' }}
           aria-hidden="true"
         >
           <p className="hv3-embed-popup-header">{tr.popupTitle}</p>
@@ -181,7 +181,7 @@ export default async function EmbedShareV3({ locale }: Props) {
   };
 
   return (
-    <section className="hv3-section-coral-soft py-20 md:py-28">
+    <section className="hv3-section-coral-soft py-20 md:py-28 relative overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="relative hv3-card-deep hv3-card-on-color p-6 md:p-8 lg:p-10 overflow-hidden">
           <div
@@ -229,7 +229,7 @@ export default async function EmbedShareV3({ locale }: Props) {
               </ul>
             </div>
 
-            <div className="relative min-w-0 max-w-lg mx-auto lg:max-w-none lg:mx-0">
+            <div className="relative min-w-0 w-full max-w-lg mx-auto lg:max-w-none lg:mx-0 overflow-hidden lg:overflow-visible">
               <div
                 aria-hidden="true"
                 className="hidden lg:flex absolute top-[42%] -left-12 lg:-left-14 z-20 opacity-85 flex-col items-center gap-1"

@@ -72,6 +72,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     pt: 'Grandezas e medidas',
     nl: 'Meten en gegevens',
     sv: 'Mätning och data',
+    da: 'Måling og data',
     fi: 'Mittaaminen ja tieto',
   },
   'Number & Operations in Base Ten': {

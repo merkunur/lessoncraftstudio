@@ -163,7 +163,7 @@ var ACTIVITY_STRINGS = {
     pt: 'Toque na imagem mais alta',
     nl: 'Tik op het hoogste plaatje',
     sv: 'Tryck på den högre bilden',
-    da: 'Tryk på den højeste',
+    da: 'Tryk på det højere billede',
     no: 'Trykk på den høyeste',
     fi: 'Napauta korkeampaa'
   },
@@ -176,7 +176,7 @@ var ACTIVITY_STRINGS = {
     pt: 'Toque na imagem mais comprida',
     nl: 'Tik op het langste plaatje',
     sv: 'Tryck på den längre bilden',
-    da: 'Tryk på den længste',
+    da: 'Tryk på det længere billede',
     no: 'Trykk på den lengste',
     fi: 'Napauta pidempää'
   },
@@ -189,7 +189,7 @@ var ACTIVITY_STRINGS = {
     pt: 'Toque na imagem mais curta',
     nl: 'Tik op het kortste plaatje',
     sv: 'Tryck på den kortare bilden',
-    da: 'Tryk på den korteste',
+    da: 'Tryk på det kortere billede',
     no: 'Trykk på den korteste',
     fi: 'Napauta lyhyempää'
   },

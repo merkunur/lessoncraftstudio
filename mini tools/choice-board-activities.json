@@ -521,7 +521,8 @@
       "it": "confronta-le-lunghezze-piu-alto-piu-corto-piu-lungo",
       "pt": "comparar-comprimentos-mais-alto-mais-curto-mais-comprido",
       "nl": "lengtes-vergelijken-hoger-langer-korter",
-      "sv": "jamfor-langder-hogre-kortare-langre"
+      "sv": "jamfor-langder-hogre-kortare-langre",
+      "da": "sammenlign-laengder-hojere-kortere-laengere"
     },
     "page_title": {
       "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement",
@@ -532,7 +533,8 @@
       "it": "Confronta le lunghezze: più alto, più corto, più lungo | Scuola dell'infanzia",
       "pt": "Comparar comprimentos: mais alto, mais curto | Educação infantil",
       "nl": "Lengtes vergelijken — hoogste, langste, kortste | Kleuterklas meten",
-      "sv": "Jämför längder – högre, kortare, längre | Förskoleklass"
+      "sv": "Jämför längder – högre, kortare, längre | Förskoleklass",
+      "da": "Sammenlign længder – højere, kortere, længere | Børnehaveklasse"
     },
     "page_intro": {
       "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference.",
@@ -543,7 +545,8 @@
       "it": "Attività di misura per la scuola dell'infanzia: il bambino confronta due oggetti e tocca quello più alto, più corto o più lungo, senza contare. In linea con le Indicazioni nazionali.",
       "pt": "Atividade interativa e gratuita: a criança compara dois objetos e toca no mais alto, mais curto ou mais comprido, sem contar. Alinhada à BNCC.",
       "nl": "Vergelijk twee voorwerpen en tik op het hoogste, langste of kortste plaatje — helemaal zonder tellen. Speels meten, afgestemd op de kerndoelen.",
-      "sv": "Jämför två föremål och tryck på det som är högre, kortare eller längre – helt utan att räkna. En lugn, lekfull mätövning för förskoleklass enligt Lgr22."
+      "sv": "Jämför två föremål och tryck på det som är högre, kortare eller längre – helt utan att räkna. En lugn, lekfull mätövning för förskoleklass enligt Lgr22.",
+      "da": "Sammenlign to ting og tryk på det højere, kortere eller længere billede – helt uden at tælle. Gratis aktivitet til børnehaveklassen, tilpasset Fælles Mål."
     },
     "kid_prompt_template": "promptTapTaller"
   }

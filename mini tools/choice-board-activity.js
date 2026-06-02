@@ -164,7 +164,7 @@ var ACTIVITY_STRINGS = {
     nl: 'Tik op het hoogste plaatje',
     sv: 'Tryck på den högre bilden',
     da: 'Tryk på det højere billede',
-    no: 'Trykk på den høyeste',
+    no: 'Trykk på det høyere bildet',
     fi: 'Napauta korkeampaa'
   },
   promptTapLonger: {
@@ -177,7 +177,7 @@ var ACTIVITY_STRINGS = {
     nl: 'Tik op het langste plaatje',
     sv: 'Tryck på den längre bilden',
     da: 'Tryk på det længere billede',
-    no: 'Trykk på den lengste',
+    no: 'Trykk på det lengre bildet',
     fi: 'Napauta pidempää'
   },
   promptTapShorter: {
@@ -190,7 +190,7 @@ var ACTIVITY_STRINGS = {
     nl: 'Tik op het kortste plaatje',
     sv: 'Tryck på den kortare bilden',
     da: 'Tryk på det kortere billede',
-    no: 'Trykk på den korteste',
+    no: 'Trykk på det kortere bildet',
     fi: 'Napauta lyhyempää'
   },
   /* Size adjectives used only for per-tile aria-labels (bigger/smaller

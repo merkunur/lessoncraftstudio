@@ -519,7 +519,8 @@
       "fr": "comparer-les-longueurs-plus-grand-plus-court",
       "es": "comparar-longitudes-mas-alto-mas-largo-mas-corto",
       "it": "confronta-le-lunghezze-piu-alto-piu-corto-piu-lungo",
-      "pt": "comparar-comprimentos-mais-alto-mais-curto-mais-comprido"
+      "pt": "comparar-comprimentos-mais-alto-mais-curto-mais-comprido",
+      "nl": "lengtes-vergelijken-hoger-langer-korter"
     },
     "page_title": {
       "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement",
@@ -528,7 +529,8 @@
       "fr": "Comparer les longueurs — plus grand, plus court | Maternelle",
       "es": "Comparar longitudes: más alto, corto y largo | Jardín infantil",
       "it": "Confronta le lunghezze: più alto, più corto, più lungo | Scuola dell'infanzia",
-      "pt": "Comparar comprimentos: mais alto, mais curto | Educação infantil"
+      "pt": "Comparar comprimentos: mais alto, mais curto | Educação infantil",
+      "nl": "Lengtes vergelijken — hoogste, langste, kortste | Kleuterklas meten"
     },
     "page_intro": {
       "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference.",
@@ -537,7 +539,8 @@
       "fr": "Activité gratuite de maternelle : l'enfant compare deux objets et touche le plus grand, le plus long ou le plus court, sans compter, selon les programmes officiels.",
       "es": "Actividad interactiva gratuita: el niño compara dos objetos y toca el más alto, más largo o más corto, sin contar. Alineada con el currículo LOMLOE.",
       "it": "Attività di misura per la scuola dell'infanzia: il bambino confronta due oggetti e tocca quello più alto, più corto o più lungo, senza contare. In linea con le Indicazioni nazionali.",
-      "pt": "Atividade interativa e gratuita: a criança compara dois objetos e toca no mais alto, mais curto ou mais comprido, sem contar. Alinhada à BNCC."
+      "pt": "Atividade interativa e gratuita: a criança compara dois objetos e toca no mais alto, mais curto ou mais comprido, sem contar. Alinhada à BNCC.",
+      "nl": "Vergelijk twee voorwerpen en tik op het hoogste, langste of kortste plaatje — helemaal zonder tellen. Speels meten, afgestemd op de kerndoelen."
     },
     "kid_prompt_template": "promptTapTaller"
   }

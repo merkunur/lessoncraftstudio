@@ -63,7 +63,8 @@ var ACTIVITY_STRINGS = {
                        pt: 'Mostre a forma expandida de {n} — construa com os blocos',
                        es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques',
                        it: 'Mostra la forma estesa di {n} — costruiscila con i blocchi',
-                       fr: 'Montre la forme développée de {n} — construis-la avec les blocs' }
+                       fr: 'Montre la forme développée de {n} — construis-la avec les blocs',
+                       nl: 'Laat de uitgebreide vorm van {n} zien — bouw hem met de blokken' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -241,7 +242,15 @@ var EXPANDED_FORM_L10N = {
      (deux cents / cinq cents / quatre-vingts); the blend uses the CONNECTED form (deux cent… —
      cent drops -s mid-number; quatre-vingts keeps -s only as terminal). Classic hyphenation
      (space at the hundred boundary, hyphen in the sub-99 tail). [no NSR]. */
-  fr: { zeroTens: 'zéro dizaine', zeroOnes: 'zéro unité', blend: function (nWord) { return 'font ' + nWord; } }
+  fr: { zeroTens: 'zéro dizaine', zeroOnes: 'zéro unité', blend: function (nWord) { return 'font ' + nWord; } },
+  /* nl: connective "maken" (PLURAL copula = A1/A2 NL decomposition, place-value-core.js:1167/1337;
+     all targets ≥2 summands → plural always correct); zero-places use PLURAL — "nul tientallen"
+     (tiental→tientallen) / "nul eenheden" (eenheid→eenheden) — per the live NL A2 (:1332) + A1
+     (:1150 "nul eenheden"); OPPOSITE of FR singular. NL is units-first agglutination with an "en"
+     joiner + diaeresis (zevenenveertig / drieënzestig) — but that lives ONLY in the blend total;
+     speakExpandedForm computes each place via _numberWord() independently, so summands stay bare
+     (veertig / drie, no trema). [no NSR]. */
+  nl: { zeroTens: 'nul tientallen', zeroOnes: 'nul eenheden', blend: function (nWord) { return 'maken ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

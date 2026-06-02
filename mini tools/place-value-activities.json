@@ -127,7 +127,8 @@
       "es": "forma-desarrollada",
       "it": "forma-estesa",
       "fr": "forme-developpee",
-      "nl": "uitgebreide-vorm"
+      "nl": "uitgebreide-vorm",
+      "fi": "hajautettu-muoto"
     },
     "page_title": {
       "en": "Expanded Form",
@@ -139,7 +140,8 @@
       "es": "Forma desarrollada",
       "it": "Forma estesa",
       "fr": "Forme développée",
-      "nl": "Uitgebreide vorm"
+      "nl": "Uitgebreide vorm",
+      "fi": "Hajautettu muoto"
     },
     "page_intro": {
       "en": "Build each three-digit number with hundreds, tens, and ones — then see its expanded form. Tap to add a hundreds-flat, a ten-rod, or a unit-cube; when it is right, the blocks reveal the place values that add up to the number (247 = 200 + 40 + 7). Numbers like 305 show that a zero tens place adds nothing — just 300 + 5. Aligned to Common Core 2.NBT.A.3 — reading and writing three-digit numbers in expanded form.",
@@ -151,7 +153,8 @@
       "es": "Construye cada número de tres dígitos con centenas, decenas y unidades — y luego mira su forma desarrollada. Toca para añadir una placa de cien, una barra de diez o un cubo de uno; cuando esté bien, los bloques muestran los valores posicionales que forman el número (247 = 200 + 40 + 7). Números como 305 muestran que una decena vacía no añade nada — solo 300 + 5. Alineado al Currículo LOMLOE — leer y escribir números de tres dígitos en forma desarrollada.",
       "it": "Costruisci ogni numero di tre cifre con centinaia, decine e unità — poi guarda la sua forma estesa. Tocca per aggiungere una piastra da cento, una barra di dieci o un cubo da uno; quando è giusto, i blocchi mostrano i valori posizionali che formano il numero (247 = 200 + 40 + 7). Numeri come 305 mostrano che una decina vuota non aggiunge nulla — solo 300 + 5. Allineato alle Indicazioni nazionali — leggere e scrivere numeri di tre cifre in forma estesa.",
       "fr": "Construis chaque nombre à trois chiffres avec des centaines, des dizaines et des unités — puis vois sa forme développée. Touche pour ajouter une plaque de cent, une barre de dix ou un cube unité. Quand c'est juste, les blocs montrent les valeurs de position qui composent le nombre (247 = 200 + 40 + 7). Les nombres comme 305 montrent qu'une dizaine vide n'ajoute rien — juste 300 + 5. Conforme aux programmes officiels — lire et écrire les nombres à trois chiffres en forme développée.",
-      "nl": "Bouw elk getal van drie cijfers met honderdtallen, tientallen en eenheden — en zie dan de uitgebreide vorm. Tik om een honderdplaat, een tienstaaf of een blokje toe te voegen. Als het klopt, tonen de blokken de plaatswaarden die samen het getal vormen (247 = 200 + 40 + 7). Getallen zoals 305 laten zien dat een leeg tiental niets toevoegt — gewoon 300 + 5. Afgestemd op de kerndoelen — getallen van drie cijfers lezen en schrijven in uitgebreide vorm."
+      "nl": "Bouw elk getal van drie cijfers met honderdtallen, tientallen en eenheden — en zie dan de uitgebreide vorm. Tik om een honderdplaat, een tienstaaf of een blokje toe te voegen. Als het klopt, tonen de blokken de plaatswaarden die samen het getal vormen (247 = 200 + 40 + 7). Getallen zoals 305 laten zien dat een leeg tiental niets toevoegt — gewoon 300 + 5. Afgestemd op de kerndoelen — getallen van drie cijfers lezen en schrijven in uitgebreide vorm.",
+      "fi": "Rakenna jokainen kolminumeroinen luku sadoilla, kymmenillä ja ykkösillä — ja näe sitten sen hajautettu muoto. Napauta lisätäksesi satalevyn, kymmensauvan tai ykköskuution. Kun se on oikein, palikat näyttävät paikka-arvot, joista luku muodostuu (247 = 200 + 40 + 7). Luvut kuten 305 osoittavat, että tyhjä kymmenten paikka ei lisää mitään — vain 300 + 5. Yhteensopiva OPS 2014:n kanssa — lue ja kirjoita kolminumeroisia lukuja hajautetussa muodossa."
     },
     "kid_prompt_template": "taskExpanded"
   }

@@ -64,7 +64,8 @@ var ACTIVITY_STRINGS = {
                        es: 'Muestra la forma desarrollada de {n} — constrúyela con los bloques',
                        it: 'Mostra la forma estesa di {n} — costruiscila con i blocchi',
                        fr: 'Montre la forme développée de {n} — construis-la avec les blocs',
-                       nl: 'Laat de uitgebreide vorm van {n} zien — bouw hem met de blokken' }
+                       nl: 'Laat de uitgebreide vorm van {n} zien — bouw hem met de blokken',
+                       fi: 'Näytä luvun {n} hajautettu muoto — rakenna se palikoilla' }
 };
 
 /* Fallback static task set when no ?activity= is given. Mirrors the
@@ -250,7 +251,16 @@ var EXPANDED_FORM_L10N = {
      joiner + diaeresis (zevenenveertig / drieënzestig) — but that lives ONLY in the blend total;
      speakExpandedForm computes each place via _numberWord() independently, so summands stay bare
      (veertig / drie, no trema). [no NSR]. */
-  nl: { zeroTens: 'nul tientallen', zeroOnes: 'nul eenheden', blend: function (nWord) { return 'maken ' + nWord; } }
+  nl: { zeroTens: 'nul tientallen', zeroOnes: 'nul eenheden', blend: function (nWord) { return 'maken ' + nWord; } },
+  /* fi: connective "on" (3sg present of olla = is/equals, SINGULAR — the FI K-1 math-decomposition
+     copula = A1/A2 FI decomposition, place-value-core.js:1261/1270; NOT E4 K.OA.A.3's distributive
+     "Jokainen pari on {n}!"). Zero-places use the PARTITIVE SINGULAR case-rule (count=0 → kymmentä/
+     ykköstä, NOT pluralized kymmeniä/ykkösiä) with zero-word "nolla": "nolla kymmentä"/"nolla
+     ykköstä", per the live FI A1/A2 count=0 rule. FI is pure agglutination, NO joiner word — the
+     full single-word compound (kaksisataaneljäkymmentäseitsemän) lives ONLY in the blend total;
+     summands are bare cardinals (neljäkymmentä). Longest blends in the set (≤40 chars) but SPOKEN
+     only — never rendered. [NSR-FLAG][fi]. */
+  fi: { zeroTens: 'nolla kymmentä', zeroOnes: 'nolla ykköstä', blend: function (nWord) { return 'on ' + nWord; } }
 };
 
 /* Speak the expanded form as place-VALUE summands, each a standalone type:"number"

@@ -157,7 +157,7 @@ var ACTIVITY_STRINGS = {
   promptTapTaller: {
     en: 'Tap the taller one',
     de: 'Tippe auf das höhere',
-    fr: 'Touche le plus grand',
+    fr: 'Touche l\'image la plus grande',
     it: 'Tocca il più alto',
     es: 'Toca el más alto',
     pt: 'Toque no mais alto',
@@ -170,7 +170,7 @@ var ACTIVITY_STRINGS = {
   promptTapLonger: {
     en: 'Tap the longer one',
     de: 'Tippe auf das längere',
-    fr: 'Touche le plus long',
+    fr: 'Touche l\'image la plus longue',
     it: 'Tocca il più lungo',
     es: 'Toca el más largo',
     pt: 'Toque no mais comprido',
@@ -183,7 +183,7 @@ var ACTIVITY_STRINGS = {
   promptTapShorter: {
     en: 'Tap the shorter one',
     de: 'Tippe auf das kürzere',
-    fr: 'Touche le plus court',
+    fr: 'Touche l\'image la plus courte',
     it: 'Tocca il più corto',
     es: 'Toca el más corto',
     pt: 'Toque no mais curto',

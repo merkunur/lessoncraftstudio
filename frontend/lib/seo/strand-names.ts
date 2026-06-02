@@ -65,6 +65,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   // per locale (each ship adds its sub-key). Absent locales fall back to en.
   'Measurement & Data': {
     en: 'Measurement & Data',
+    de: 'Größen und Messen',
     fi: 'Mittaaminen ja tieto',
   },
   'Number & Operations in Base Ten': {

@@ -2,8 +2,8 @@
 /**
  * Retrofit: four zero-quality-loss deck.html mobile-perf tweaks (page-speed audit
  * 2026-06, "decks ≥85 mobile" follow-on). R1 lazy-loads the deck-end thumbnails
- * (the LCP win); R2 keeps the font render-blocking (reverts an async build that
- * caused font-swap CLS); R3 un-hides the deck-end suggestions section so its
+ * (the LCP win); R2 makes the font non-render-blocking (safe once R4 pins the bar — the
+ * earlier "font CLS" was the bar-wrap, not font-swap); R3 un-hides the deck-end suggestions section so its
  * hidden→shown load transition stops shifting layout; R4 sets the .lcs-bar to
  * flex-wrap:nowrap so it can't wrap to 2 lines and shove the worksheet down (the
  * intermittent-CLS win). See per-rule notes by each regex below.
@@ -16,15 +16,13 @@
  *        connection that the LCP backdrop needs. Add loading="lazy" decoding="async".
  *        The <a> links stay crawlable (SEO unaffected); only the <img> fetch defers.
  *
- *   R2 — KEEP the Fredoka stylesheet RENDER-BLOCKING (revert any async form).
- *        An earlier build of this script made the font async (media="print" onload=…)
- *        as an FCP optimization. It measurably regressed CLS on text-heavy decks via
- *        font-swap reflow (addition/wordsearch → ~0.31; image-heavy decks stayed
- *        0.001) — net-negative. R2 now reverts any async Fredoka link back to the
- *        plain render-blocking form (the known-good state, CLS ~0). The lazy-load
- *        (R1) is the real mobile win; the font stays blocking + display=swap.
+ *   R2 — Make the Fredoka stylesheet NON-render-blocking (media="print" onload +
+ *        <noscript>). It was the FCP bottleneck (~3.2s → ~1.6s mobile). Safe ONLY
+ *        because R4 pins the bar to one line — an earlier async attempt without R4
+ *        seemed to cause CLS, but that was the bar-wrap, not font-swap. With R4,
+ *        async font is pure win: CLS ~0.001 (sudoku 97, addition 98-100, stable).
  *
- * R1 is additive; R2 is a revert. Both idempotent + visually neutral. No DB/network.
+ * All four idempotent + visually neutral. No DB/network.
  * Atomicity: backup (.bak.lazy-deckend) → temp → rename(2) per §15.5.
  * rewrite-deck-html-*.js family (§A.14.9 / §21.2).
  *
@@ -60,15 +58,15 @@ var SUGGESTIONS_SECTION_HIDDEN = /(<section class="lcs-deckend-suggestions") hid
 // visible). Anchored on `align-items:center;gap:12px` so it ONLY touches .lcs-bar,
 // never the footer/other centered flex rows (which SHOULD wrap on narrow screens).
 var BAR_FLEX_WRAP = /(align-items:center;gap:12px;)flex-wrap:wrap/g;
-// R2: KEEP the Fredoka stylesheet RENDER-BLOCKING. An earlier version of this
-// script made it async (media="print" onload=…). That measurably regressed CLS on
-// text-heavy decks (font-swap reflow: addition/wordsearch jumped to ~0.31 while
-// image-heavy decks stayed 0.001) — net-negative despite the small FCP gain. So R2
-// now REVERTS any async form back to the plain blocking link. Render-blocking +
-// display=swap is the known-good state (CLS ~0); the lazy-load (R1) is the real
-// mobile win. Forward path (apps + catalog-export) emits blocking already, so this
-// is a no-op there; it only heals decks the async build touched.
-var FREDOKA_ASYNC = /<link href="(https:\/\/fonts\.googleapis\.com\/css2\?family=Fredoka[^"]*)" rel="stylesheet" media="print" onload="this\.media='all'"><noscript><link href="[^"]*" rel="stylesheet"><\/noscript>/;
+// R2: make the Fredoka Google-Fonts stylesheet NON-render-blocking. It is the deck's
+// only external render-blocking request and was the FCP bottleneck (mobile FCP ~3.2s
+// → ~1.6s when async). Inline deck styles are separate, so async is safe (text paints
+// immediately via display=swap; Fredoka swaps in when ready; deck.html has no CSP so
+// the inline onload runs). NOTE: an earlier attempt at this seemed to cause CLS, but
+// that was actually the .lcs-bar WRAP (R4) being exposed by the changed paint timing —
+// once R4 pins the bar to one line, async font is pure win with CLS ~0.001 (verified:
+// sudoku 97, addition 98-100, both stable). Standard media="print" onload + <noscript>.
+var FREDOKA_BLOCKING = /<link href="(https:\/\/fonts\.googleapis\.com\/css2\?family=Fredoka[^"]*)" rel="stylesheet">/;
 
 function parseArgs(argv) {
   var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null };
@@ -86,7 +84,7 @@ function parseArgs(argv) {
   return out;
 }
 
-/** Apply R1 + R2. Returns {html, lazyAdded, fontReverted}. */
+/** Apply R1 + R2. Returns {html, lazyAdded, fontAsync}. */
 function rewriteHtml(html) {
   var lazyAdded = 0;
   var out = html.replace(DECKEND_THUMB_TAG, function (tag) {
@@ -95,12 +93,15 @@ function rewriteHtml(html) {
     return tag.replace(/^<img\s/, '<img loading="lazy" decoding="async" ');
   });
 
-  // Revert any async Fredoka link back to the plain render-blocking form (see note
-  // on FREDOKA_ASYNC). Idempotent: once reverted there is no async form to match.
-  var fontReverted = false;
-  if (FREDOKA_ASYNC.test(out)) {
-    out = out.replace(FREDOKA_ASYNC, '<link href="$1" rel="stylesheet">');
-    fontReverted = true;
+  // Make the Fredoka link async (see note on FREDOKA_BLOCKING). Idempotency guard:
+  // skip if already async — otherwise the <noscript> fallback we inject (itself a
+  // rel="stylesheet"> Fredoka link) would re-match and nest on every re-run.
+  var fontAsync = false;
+  if (out.indexOf("onload=\"this.media='all'\"") === -1 && FREDOKA_BLOCKING.test(out)) {
+    out = out.replace(FREDOKA_BLOCKING,
+      '<link href="$1" rel="stylesheet" media="print" onload="this.media=\'all\'">' +
+      '<noscript><link href="$1" rel="stylesheet"></noscript>');
+    fontAsync = true;
   }
 
   // R3: drop the default `hidden` on the suggestions section (see note above).
@@ -116,7 +117,7 @@ function rewriteHtml(html) {
     out = out.replace(BAR_FLEX_WRAP, '$1flex-wrap:nowrap');
     barFixed = true;
   }
-  return { html: out, lazyAdded: lazyAdded, fontReverted: fontReverted, hiddenRemoved: hiddenRemoved, barFixed: barFixed };
+  return { html: out, lazyAdded: lazyAdded, fontAsync: fontAsync, hiddenRemoved: hiddenRemoved, barFixed: barFixed };
 }
 
 function listDeckDirs(decksRoot, locale, sampleN) {
@@ -134,8 +135,8 @@ function processDeck(deckDir, opts) {
   if (!fs.existsSync(htmlPath)) return { status: 'missing' };
   var raw = fs.readFileSync(htmlPath, 'utf8');
   var r = rewriteHtml(raw);
-  if (r.lazyAdded === 0 && !r.fontReverted && !r.hiddenRemoved && !r.barFixed) return { status: 'idempotent' };
-  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted, hiddenRemoved: r.hiddenRemoved, barFixed: r.barFixed };
+  if (r.lazyAdded === 0 && !r.fontAsync && !r.hiddenRemoved && !r.barFixed) return { status: 'idempotent' };
+  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontAsync: r.fontAsync, hiddenRemoved: r.hiddenRemoved, barFixed: r.barFixed };
   var bak = htmlPath + '.bak.lazy-deckend';
   var tmp = htmlPath + '.tmp.lazy-deckend';
   try {
@@ -143,7 +144,7 @@ function processDeck(deckDir, opts) {
     fs.writeFileSync(tmp, r.html, 'utf8');
     fs.renameSync(tmp, htmlPath);
   } catch (e) { return { status: 'fs-error', error: e.message }; }
-  return { status: 'written', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted, hiddenRemoved: r.hiddenRemoved, barFixed: r.barFixed };
+  return { status: 'written', lazyAdded: r.lazyAdded, fontAsync: r.fontAsync, hiddenRemoved: r.hiddenRemoved, barFixed: r.barFixed };
 }
 
 function main() {
@@ -160,20 +161,20 @@ function main() {
     listDeckDirs(opts.decksRoot, locale, opts.sample).forEach(function (deckDir) {
       var res = processDeck(deckDir, opts);
       t.total++;
-      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontReverted) t.fonts++; if (res.hiddenRemoved) t.unhid++; if (res.barFixed) t.bars++; }
+      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontAsync) t.fonts++; if (res.hiddenRemoved) t.unhid++; if (res.barFixed) t.bars++; }
       else if (res.status === 'idempotent') t.idempotent++;
       else if (res.status === 'fs-error') { t.errors++; console.log('  ERROR ' + deckDir + ': ' + res.error); }
     });
     ['total', 'rewrite', 'idempotent', 'errors', 'lazyImgs', 'fonts', 'unhid', 'bars'].forEach(function (k) { grand[k] += t[k]; });
     console.log('[' + locale + '] ' + t.total + ' decks; ' + (opts.dryRun ? t.rewrite + ' would-rewrite' : t.rewrite + ' written') +
-      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts reverted, ' + t.unhid + ' unhidden, ' + t.bars + ' bars nowrap), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
+      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts async, ' + t.unhid + ' unhidden, ' + t.bars + ' bars nowrap), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
   });
 
   console.log('\n=== Summary ===');
   console.log('Total decks:   ' + grand.total);
   console.log((opts.dryRun ? 'Would rewrite: ' : 'Rewritten:     ') + grand.rewrite);
   console.log('Imgs lazied:   ' + grand.lazyImgs);
-  console.log('Fonts reverted:' + grand.fonts);
+  console.log('Fonts async:   ' + grand.fonts);
   console.log('Unhidden strip:' + grand.unhid);
   console.log('Bars nowrapped:' + grand.bars);
   console.log('Idempotent:    ' + grand.idempotent);

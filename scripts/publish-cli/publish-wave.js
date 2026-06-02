@@ -259,15 +259,15 @@ function main() {
   }
 
   // STEP 4c — LAZY-DECKEND: four zero-quality-loss deck mobile-perf tweaks that take
-  // deck mobile from ~70 to ≥85 (page-speed audit 2026-06): R1 lazy-loads the 6
-  // below-fold suggestion thumbnails (~900KB, ~83% of a deck's mobile bytes — the LCP
-  // win); R2 keeps the Fredoka font render-blocking (reverts an async build that
-  // caused font-swap CLS); R3 un-hides the suggestions section (its hidden→shown load
-  // transition shifted layout); R4 sets .lcs-bar to flex-wrap:nowrap (it was wrapping
-  // to 2 lines intermittently and shoving the worksheet down ~52px → CLS 0.37).
-  // Idempotent, visually neutral. Runs after alt-text/img-dims and before hreflang
-  // (hreflang must stay last in <head>; this touches the font <link>/bar CSS mid-head
-  // + the deckend <img>/section in <body>).
+  // deck mobile from ~70 to ~95+ (page-speed audit 2026-06): R1 lazy-loads the 6
+  // below-fold suggestion thumbnails (~900KB, ~83% of a deck's mobile bytes — LCP);
+  // R2 makes the Fredoka font non-render-blocking (FCP ~3.2s→~1.6s); R3 un-hides the
+  // suggestions section (its hidden→shown load transition shifted layout — CLS); R4
+  // sets .lcs-bar to flex-wrap:nowrap (it wrapped to 2 lines and shoved the worksheet
+  // down ~52px — CLS, AND this is what makes R2's async font CLS-safe). Idempotent,
+  // visually neutral. Runs after alt-text/img-dims and before hreflang (hreflang must
+  // stay last in <head>; this touches the font <link>/bar CSS mid-head + the deckend
+  // <img>/section in <body>).
   if (!args.skipLazyDeckend) {
     runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {

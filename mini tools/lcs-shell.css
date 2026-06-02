@@ -569,6 +569,18 @@ button { font: inherit; color: inherit; cursor: pointer; border: 0; background: 
     margin-inline: auto;
     justify-content: center;
   }
+  /* 2026-06-03 — the keys must FILL their flexible cell. v7.10 made the
+     keypad COLUMNS shrink (minmax(0,1fr)) but left the keys at a fixed
+     width:var(--lcs-tap) (44px floor). On a ~360px phone the cells are
+     ~39px, so the 44px keys spilled into their neighbours and overlapped
+     (audit boxOverlap .lcs-activity-key 10px @360). width:100% +
+     aspect-ratio:1 lets each key shrink with its cell so the 6px grid gaps
+     are preserved and keys never overlap. */
+  .lcs-app.activity .lcs-activity-key {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
 }
 
 /* Gentle celebrate-bounce on the success prompt. Lands at scale(1.04)

@@ -132,6 +132,20 @@ All fixes #1–#4 shipped + verified live the same day. (Lighthouse mobile is no
 
 ---
 
+## 9. Internal-link redirect audit + fix (2026-06-02)
+
+Internal links pointed at **redirecting URLs** (crawl-budget waste + link-equity dilution). Root cause: Next.js is `trailingSlash:false` so `/<locale>/topic/<slug>/` **308-redirects** to no-slash, but several emitters added the slash. (Deck pages are opposite — nginx requires the slash; no-slash 404s — so deck-card links correctly keep it.)
+
+**Confirmed live-redirecting sources (fixed):**
+- **deck.html end-deck topic links + breadcrumb JSON-LD `item` URLs** — `/<loc>/topic/<slug>/` (3 links) + breadcrumb home `/<loc>/` + type `/<loc>/topic/<slug>/`, all 308. ~3 links + 2 items per deck. Forward: `substitute.js` + `inject-deck-end-topic-links.js` drop the slash. Retrofit: `scripts/publish-cli/rewrite-deck-html-topic-slash.js` (single-segment topic `<a>` + JSON-LD `item` only — **cannot** touch `/decks/<slug>/` or `/worksheets`; idempotent, atomic). Applied to **22,499 decks: 65,219 topic links + ~45,000 breadcrumb URLs** de-slashed, 0 errors. Wired into `publish-wave.js` STEP 5b.
+- **`SiblingAxisStrip.tsx` + `CrossAxisPivots.tsx`** (plain `<a>` topic/intersection links on every topic + intersection page) — dropped trailing slash; deploys via build.
+
+**Confirmed NOT redirecting (left as-is):** canonical/og:url/hreflang (www + correct slash); XML sitemap (no-slash www); `<Link>`/next-link emitters (Footer, CategoryNav, homepage-v3) — next-link normalizes the slash away at render (homepage shows 0 trailing-slash topic links); deck-card `/decks/<slug>/` (needs slash); intersection axis order already canonical (theme→type, no 307); no apex-host internal links. Intentional site-level 301s kept: `/`→`/en`, apex→www, old-slug→new-slug, `?sort/?page` canonicalization.
+
+**Verification (live):** every internal link target (topic, intersection, worksheets, deck end-links) returns **200 directly**; all Next.js pages show **0** trailing-slash topic links (`grep -o 'href="/[a-z]\{2\}/topic/[^"]*/"' | wc -l` = 0 on topic/intersection/worksheets/home); retrofit idempotent (re-run = 0). Deploy note: deploy.sh's `rm -rf .next/standalone` (line 183) can transiently fail with "Directory not empty" (the running pm2 writes ISR cache during the delete) — recover by manually clearing `.next/standalone` then re-running deploy.sh.
+
+---
+
 ## 8. Follow-on: decks → ≥85 mobile (2026-06-02, quality-neutral)
 
 The §6 lazy-thumbnail work lifted decks but left them ~70–84 mobile. Operator required **≥85 on mobile**, **quality-neutral only**. Four zero-quality-loss deck.html fixes (all in `scripts/publish-cli/rewrite-deck-html-lazy-deckend.js`, wired into `publish-wave.js` STEP 4c for future waves, applied to all 22,612 live decks; forward emission of R1/R3 in `catalog-export.js` + `inject-deck-end-strip.js`):

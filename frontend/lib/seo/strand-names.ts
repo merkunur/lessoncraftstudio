@@ -61,6 +61,12 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Geometri',
     fi: 'Geometria',
   },
+  // Grown incrementally as the K.MD.A.2 "Comparing Length" activity fans out
+  // per locale (each ship adds its sub-key). Absent locales fall back to en.
+  'Measurement & Data': {
+    en: 'Measurement & Data',
+    fi: 'Mittaaminen ja tieto',
+  },
   'Number & Operations in Base Ten': {
     en: 'Number & Operations in Base Ten',
     de: 'Zahlen und Rechnen im Zehnersystem',

@@ -159,6 +159,27 @@ function measureInsideFrame() {
     const r = el.getBoundingClientRect();
     if (r.width > 6 && r.height > 6) minTap = Math.min(minTap, Math.min(r.width, r.height));
   }
+  // Sibling-box overlap: within each box-group, no two visible boxes should
+  // overlap each other (the keypad-key class — total grid fits the iframe so
+  // there's no overflow, but fixed-width keys spill into neighbours). 2px
+  // tolerance so merely-ADJACENT boxes (ten-frame cells, base-ten blocks with
+  // a gap) are not flagged — only genuine overlap (positive on BOTH axes).
+  const OVERLAP_GROUPS = ['.lcs-activity-key', '.cb-tile', '.mp-card', '.cvc-letter', '.cvc-slot', '.wb-tile', '.wb-slot', '.tf-cell', '.pv-add-btn'];
+  const overlaps = [];
+  for (const sel of OVERLAP_GROUPS) {
+    const boxes = [];
+    document.querySelectorAll(sel).forEach((el) => { if (vis(el)) { const r = el.getBoundingClientRect(); if (r.width > 4 && r.height > 4) boxes.push(r); } });
+    let worst = 0;
+    for (let i = 0; i < boxes.length; i++) {
+      for (let j = i + 1; j < boxes.length; j++) {
+        const a = boxes[i], b = boxes[j];
+        const ox = Math.min(a.right, b.right) - Math.max(a.left, b.left);
+        const oy = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top);
+        if (ox > 2 && oy > 2) worst = Math.max(worst, Math.min(ox, oy));
+      }
+    }
+    if (worst > 0) overlaps.push({ sel, px: Math.round(worst) });
+  }
   // Real painted content height = farthest-bottom visible element within the card.
   let contentBottom = 0;
   const app = document.querySelector('.lcs-app') || document.body;
@@ -174,6 +195,7 @@ function measureInsideFrame() {
     verticalClip: de.scrollHeight > de.clientHeight + 4,
     overflowers: overflowers.slice(0, 10),
     offscreen: offscreen.slice(0, 10),
+    overlaps,
     minTap: minTap === Infinity ? null : Math.round(minTap),
   };
 }
@@ -204,6 +226,7 @@ function evalChecks(m) {
   if (m.horizontalOverflow) fails.push('horizontalOverflow(' + (m.overflowers[0] ? '+' + m.overflowers[0].over + 'px ' + m.overflowers[0].cls : 'scrollW>' + m.vw) + ')');
   if (m.offscreen.length) fails.push('offscreenControl(' + m.offscreen[0].cls + ' right=' + m.offscreen[0].right + '>' + m.vw + ')');
   if (m.verticalClip) fails.push('verticalClip(scrollH=' + m.docScrollH + '>clientH=' + m.docClientH + ')');
+  if (m.overlaps && m.overlaps.length) fails.push('boxOverlap(' + m.overlaps.map((o) => o.sel + ' ' + o.px + 'px').join(', ') + ')');
   const warns = [];
   if (m.minTap != null && m.minTap < 36) warns.push('tapTarget=' + m.minTap + 'px');
   // Empty band below the card inside the iframe (the "mostly blank card" look).

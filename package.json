@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "audit:activity-mobile": "node scripts/audit-activity-mobile.js",
+    "audit:activity-pages": "node scripts/audit-activity-pages.js"
+  },
   "dependencies": {
     "adm-zip": "^0.5.17",
     "axios": "^1.12.2",

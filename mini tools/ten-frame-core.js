@@ -191,7 +191,14 @@ window.TenFrameCore = {
     + '.tf-readout-label{font-weight:700;color:var(--lcs-ink-soft);text-transform:uppercase;'
     +   'letter-spacing:.06em;font-size:13px;}'
     + '.tf-readout-num{font-family:var(--lcs-font-display);font-weight:700;font-size:clamp(28px,5vmin,44px);'
-    +   'color:var(--lcs-structure);min-width:1.2em;text-align:center;}';
+    +   'color:var(--lcs-structure);min-width:1.2em;text-align:center;}'
+    /* Narrow phones (<=339px incl. Galaxy Fold cover 280 + iPhone-SE 320):
+       a SINGLE 10-frame is 5 cells x 44px min = 220px + gaps/padding ~248px,
+       wider than the ~216px iframe at 280 -> the frame spilled off both edges
+       (audit: tf-cell offscreen @280). Shrink the single-frame cell so 5 cells
+       fit. Double-frame cells (.tf-double .tf-cell, higher specificity) stay at
+       36px and already fit, so this only narrows the single-frame case. */
+    + '@media (max-width:339px){.tf-cell{width:clamp(34px,9vmin,84px);}}';
     var tag = document.createElement('style'); tag.textContent = css;
     document.head.appendChild(tag);
   }

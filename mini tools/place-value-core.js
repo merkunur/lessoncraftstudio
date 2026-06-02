@@ -1700,6 +1700,7 @@ window.PlaceValueCore = {
       '  box-shadow:0 3px 0 rgba(195,82,40,0.45),0 5px 12px rgba(242,120,75,0.28),inset 0 1px 0 rgba(255,255,255,0.35) !important;',
       '  transition:transform .12s cubic-bezier(.2,.8,.2,1),box-shadow .12s,opacity .15s !important;',
       '  min-width:clamp(72px,16vw,120px) !important;',
+      '  min-height:38px !important;', /* tappable for small hands at every width (vertical only — no horizontal-fit impact) */
       '  line-height:1 !important;',
       '}',
       '.pv-add-btn:hover:not(:disabled){transform:translateY(-1px) !important;box-shadow:0 4px 0 rgba(195,82,40,0.45),0 6px 14px rgba(242,120,75,0.32),inset 0 1px 0 rgba(255,255,255,0.4) !important;}',
@@ -1823,7 +1824,45 @@ window.PlaceValueCore = {
          preserveAspectRatio="none" stretches the 10-stripe SVG to fill. */
       '.pv-mat--3p .pv-rod{width:auto !important;height:auto !important;align-self:stretch !important;}',
       '.pv-mat--3p .pv-cube svg{width:clamp(18px,4.6vw,30px) !important;height:clamp(18px,4.6vw,30px) !important;}',
-      '.pv-mat--3p .pv-flat svg{width:clamp(24px,6.4vw,42px) !important;height:clamp(24px,6.4vw,42px) !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}'
+      '.pv-mat--3p .pv-flat svg{width:clamp(24px,6.4vw,42px) !important;height:clamp(24px,6.4vw,42px) !important;display:block !important;filter:drop-shadow(0 2px 4px rgba(20,30,28,0.18)) !important;}',
+
+      /* === MOBILE-QA TIGHTEN + NARROW-FIT (CLAUDE.md §A.13.55, 2026-06-02) ===
+         (1) Tighten empty-tray HEIGHT on phones so the card isn't mostly
+             blank before blocks are placed (operator: "shrink the empty
+             work-area"). Still fits the max content: 8 ten-rods (they stretch
+             to any height) + 9 unit-cubes (3-wide grid = 3 rows). */
+      '@media (max-width: 599px){',
+      '  .pv-tray--tens{height:clamp(128px,34vw,180px) !important;}',
+      '  .pv-tray--ones{height:clamp(128px,34vw,180px) !important;}',
+      '  .pv-mat--3p .pv-tray--tens,.pv-mat--3p .pv-tray--ones,.pv-mat--3p .pv-tray--hundreds{height:clamp(116px,30vw,160px) !important;}',
+      '}',
+      /* (2) Narrow phones (<=359px incl. iPhone-SE 320 + Galaxy Fold cover
+         280): shrink trays, blocks, gaps + buttons so the 2-column /
+         3-column mat NEVER overflows the iframe. Audit pre-fix: pv-add-btn
+         offscreen @280 + @320 (two/three fixed-width trays exceeded the
+         iframe content width). Blocks get small here — an acceptable
+         trade at Fold-cover widths vs. clipping the controls. */
+      '@media (max-width: 359px){',
+      '  .pv-mat{gap:6px !important;max-width:100% !important;}',
+      '  .pv-col{padding:6px 3px !important;gap:6px !important;}',
+      '  .pv-col-label{font-size:10px !important;letter-spacing:0.04em !important;}',
+      '  .pv-add-btn{font-size:11px !important;padding:6px 8px !important;min-width:0 !important;}',
+      '  .pv-tray--tens{width:clamp(82px,28vw,140px) !important;gap:2px !important;padding:5px 4px !important;}',
+      '  .pv-rod{width:clamp(8px,2.6vw,14px) !important;}',
+      '  .pv-tray--ones{grid-template-columns:repeat(3,clamp(18px,5vw,28px)) !important;grid-auto-rows:clamp(18px,5vw,28px) !important;padding:5px 4px !important;gap:3px !important;}',
+      '  .pv-cube svg{width:clamp(18px,5vw,28px) !important;height:clamp(18px,5vw,28px) !important;}',
+      /* 3-place: three columns must fit ~216px at 280 — smallest cells. */
+      '  .pv-mat--3p{gap:4px !important;}',
+      '  .pv-mat--3p .pv-col{padding:5px 2px !important;}',
+      '  .pv-mat--3p .pv-col-label{font-size:8.5px !important;letter-spacing:0 !important;}',
+      '  .pv-mat--3p .pv-add-btn{font-size:9px !important;padding:5px 4px !important;letter-spacing:-0.02em !important;}',
+      '  .pv-mat--3p .pv-tray--hundreds,.pv-mat--3p .pv-tray--tens{grid-template-columns:repeat(3,clamp(13px,3.8vw,22px)) !important;gap:2px !important;padding:4px 3px !important;}',
+      '  .pv-mat--3p .pv-tray--tens{grid-auto-rows:clamp(24px,7vw,38px) !important;}',
+      '  .pv-mat--3p .pv-tray--hundreds{grid-auto-rows:clamp(13px,3.8vw,22px) !important;}',
+      '  .pv-mat--3p .pv-tray--ones{grid-template-columns:repeat(3,clamp(11px,3.2vw,18px)) !important;grid-auto-rows:clamp(11px,3.2vw,18px) !important;gap:2px !important;padding:4px 3px !important;}',
+      '  .pv-mat--3p .pv-flat svg{width:clamp(13px,3.8vw,22px) !important;height:clamp(13px,3.8vw,22px) !important;}',
+      '  .pv-mat--3p .pv-cube svg{width:clamp(11px,3.2vw,18px) !important;height:clamp(11px,3.2vw,18px) !important;}',
+      '}'
     ].join('\n');
     var tag = document.createElement('style');
     tag.textContent = css;

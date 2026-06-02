@@ -279,7 +279,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   // applied here to the iframe-loaded wrapper URL (the only un-busted
   // link in the activity-page → mini-tool chain). The wrapper reads
   // only `activity` / `lang` / `embed` params; `v` is harmless to it.
-  const ACTIVITY_WRAPPER_VERSION = '7.73';
+  const ACTIVITY_WRAPPER_VERSION = '7.74';
 
   const iframeSrc =
     `/mini-tools/${row.tool}.html?v=${ACTIVITY_WRAPPER_VERSION}` +
@@ -370,15 +370,17 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
             </div>
           </header>
 
-          {/* v7.8 — universal min-height 66.67vh floor; no rigid height
-              lock. ActivityIframe's postMessage auto-resize (§20.3) grows
-              the iframe when card content exceeds 66.67vh (fixes v7.7
-              desktop overlap of engine content into Check button area).
-              Mobile keeps the v7.5 85vh floor for better content
-              breathing room on small phones. */}
+          {/* Desktop keeps the 66.67vh floor (fills the wide card nicely).
+              MOBILE FIT (mobile-QA standard §A.13.55, 2026-06-02): the old
+              85vh mobile floor forced the iframe far taller than short
+              activities, leaving a big blank band below the card (audit
+              emptyBand 150-264px on phones). Lower to a small px floor so
+              ActivityIframe's postMessage auto-resize (§20.3) sizes the
+              iframe to the card's real content height; pairs with
+              lcs-shell.css dropping the card's mobile min-height. */}
           <style dangerouslySetInnerHTML={{ __html:
             '.lcs-prototype-iframe-wrapper iframe { min-height: 66.67vh !important; }' +
-            '@media (max-width: 767px) { .lcs-prototype-iframe-wrapper iframe { min-height: 85vh !important; } }'
+            '@media (max-width: 767px) { .lcs-prototype-iframe-wrapper iframe { min-height: 360px !important; } }'
           }} />
           <div className="lcs-prototype-iframe-wrapper relative z-10">
             <ActivityIframe src={iframeSrc} title={row.page_title[params.locale]} />

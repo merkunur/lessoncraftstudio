@@ -164,15 +164,21 @@ export default async function HeroV3({ locale }: HeroV3Props) {
                 className="hv3-anim-fade-up hv3-anim-d3 relative z-10 rounded-3xl overflow-hidden bg-lcs-cream p-2 md:p-3 hv3-card-on-color hv3-float"
                 style={{ ['--rot' as string]: '-1.5deg' } as React.CSSProperties}
               >
+                {/* poster (cream, matches card) gives an instant LCP paint for
+                    this large element instead of a 7s blank wait for the 877KB
+                    video to buffer on mobile; aspect-[738/940] reserves the box
+                    so the element never shifts when metadata loads (per page-speed
+                    audit 2026-06). */}
                 <video
                   src="/videos/math-puzzle.mp4"
+                  poster="/videos/math-puzzle-poster.webp"
                   autoPlay
                   muted
                   loop
                   playsInline
                   preload="metadata"
                   aria-label={t('videoAria')}
-                  className="w-full h-auto block rounded-2xl"
+                  className="w-full block rounded-2xl aspect-[738/940] object-cover"
                 />
               </div>
 

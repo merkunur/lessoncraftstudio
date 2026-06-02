@@ -5,7 +5,9 @@
    Lock body scroll while modal open; ESC closes. */
 
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { wwwImg } from '@/lib/img-host';
 
 interface Props {
   slug: string;
@@ -54,11 +56,12 @@ export default function FeaturedDeckTileV3({
         aria-label={`${t('badge')}: ${richAlt ?? title}`}
       >
         <div className="relative aspect-[480/620] bg-lcs-cream overflow-hidden rounded-t-[28px]">
-          <img
-            src={thumbnailUrl}
+          <Image
+            src={wwwImg(thumbnailUrl)}
             alt={richAlt ?? title}
-            loading="lazy"
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            fill
+            sizes="(max-width:767px) 90vw, 360px"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
           {/* Featured badge */}
           <span className="absolute top-4 left-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-lcs-teal text-lcs-cream font-lcsBody font-semibold text-xs uppercase tracking-wider">

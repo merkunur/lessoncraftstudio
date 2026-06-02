@@ -2,6 +2,8 @@
    Click → routes to the exercise-type topic page in the visitor's locale. */
 
 import Link from 'next/link';
+import Image from 'next/image';
+import { wwwImg } from '@/lib/img-host';
 
 interface Props {
   title: string;
@@ -30,11 +32,12 @@ export default function BreadthThumbV3({
       aria-label={richAlt ?? title}
     >
       <div className="relative aspect-[480/620] overflow-hidden rounded-t-3xl">
-        <img
-          src={thumbnailUrl}
+        <Image
+          src={wwwImg(thumbnailUrl)}
           alt={richAlt ?? title}
-          loading="lazy"
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          fill
+          sizes="(max-width:639px) 45vw, (max-width:1023px) 25vw, 180px"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
         />
         <span className="absolute top-2 right-2 hv3-locale-chip">{languageLabel}</span>
       </div>

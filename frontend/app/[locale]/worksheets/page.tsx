@@ -12,6 +12,8 @@
 
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
+import { wwwImg } from '@/lib/img-host';
 import { ArrowRight } from 'lucide-react';
 import { getTranslations } from 'next-intl/server';
 import { prisma } from '@/lib/prisma';
@@ -51,6 +53,10 @@ async function countLocaleDecks(locale: string): Promise<number> {
     return 0;
   }
 }
+
+// ISR: pick up newly-published decks without a rebuild; match homepage/topic/activity
+// (previously defaulted to on-demand → a DB hit per request).
+export const revalidate = 3600;
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
@@ -218,17 +224,18 @@ export default async function AllWorksheetsPage({
                 href={`/${locale}/topic/${tile.typeSlug}/`}
                 className="group bg-cream-50 hover:bg-cream-100 border border-cream-300 hover:border-terracotta-400 rounded-lg overflow-hidden transition-colors block"
               >
-                <div className="aspect-[4/5] overflow-hidden bg-cream-100 border-b border-cream-300">
-                  {/* Use plain <img> so we don't have to register the
-                      lessoncraftstudio.com CDN host with next.config Image
-                      remotePatterns. Thumbnails are already optimized at
-                      publish time. */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={tile.thumbnailUrl}
+                <div className="relative aspect-[4/5] overflow-hidden bg-cream-100 border-b border-cream-300">
+                  {/* next/image: the lessoncraftstudio.com CDN host IS registered
+                      in next.config images.domains, so the optimizer serves a
+                      resized WebP/AVIF (~15-25KB) instead of the full 480x620 PNG
+                      (~150KB). The publish-time thumbnail.png is full-size, not
+                      display-sized — this is the per-page-speed-audit fix. */}
+                  <Image
+                    src={wwwImg(tile.thumbnailUrl)}
                     alt={t('tileAlt', { typeName: tile.typeName })}
-                    className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-300"
-                    loading="lazy"
+                    fill
+                    sizes="(max-width:767px) 45vw, (max-width:1023px) 30vw, 240px"
+                    className="object-cover group-hover:scale-[1.02] transition-transform duration-300"
                   />
                 </div>
                 <div className="p-4 md:p-5">

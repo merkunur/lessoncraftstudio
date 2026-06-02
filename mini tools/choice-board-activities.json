@@ -522,7 +522,8 @@
       "pt": "comparar-comprimentos-mais-alto-mais-curto-mais-comprido",
       "nl": "lengtes-vergelijken-hoger-langer-korter",
       "sv": "jamfor-langder-hogre-kortare-langre",
-      "da": "sammenlign-laengder-hojere-kortere-laengere"
+      "da": "sammenlign-laengder-hojere-kortere-laengere",
+      "no": "sammenlign-lengder-hoyere-kortere-lengre"
     },
     "page_title": {
       "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement",
@@ -534,7 +535,8 @@
       "pt": "Comparar comprimentos: mais alto, mais curto | Educação infantil",
       "nl": "Lengtes vergelijken — hoogste, langste, kortste | Kleuterklas meten",
       "sv": "Jämför längder – högre, kortare, längre | Förskoleklass",
-      "da": "Sammenlign længder – højere, kortere, længere | Børnehaveklasse"
+      "da": "Sammenlign længder – højere, kortere, længere | Børnehaveklasse",
+      "no": "Sammenlign lengder – høyere, kortere, lengre | Barnehage"
     },
     "page_intro": {
       "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference.",
@@ -546,7 +548,8 @@
       "pt": "Atividade interativa e gratuita: a criança compara dois objetos e toca no mais alto, mais curto ou mais comprido, sem contar. Alinhada à BNCC.",
       "nl": "Vergelijk twee voorwerpen en tik op het hoogste, langste of kortste plaatje — helemaal zonder tellen. Speels meten, afgestemd op de kerndoelen.",
       "sv": "Jämför två föremål och tryck på det som är högre, kortare eller längre – helt utan att räkna. En lugn, lekfull mätövning för förskoleklass enligt Lgr22.",
-      "da": "Sammenlign to ting og tryk på det højere, kortere eller længere billede – helt uden at tælle. Gratis aktivitet til børnehaveklassen, tilpasset Fælles Mål."
+      "da": "Sammenlign to ting og tryk på det højere, kortere eller længere billede – helt uden at tælle. Gratis aktivitet til børnehaveklassen, tilpasset Fælles Mål.",
+      "no": "Barnet sammenligner to ting og trykker på den som er høyere, kortere eller lengre – helt uten telling. Gratis og lekende, i tråd med LK20 for barnehagen."
     },
     "kid_prompt_template": "promptTapTaller"
   }

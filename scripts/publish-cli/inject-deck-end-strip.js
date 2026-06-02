@@ -106,7 +106,7 @@ function buildStripWithCss(slotCount) {
   ].join('');
   var html = [
     css,
-    '<section class="lcs-deckend-suggestions" hidden aria-label="__DECK_END_SUGGESTIONS_HEADER__">',
+    '<section class="lcs-deckend-suggestions" aria-label="__DECK_END_SUGGESTIONS_HEADER__">',
     '  <h2>__DECK_END_SUGGESTIONS_HEADER__</h2>',
     '  <ul>',
     slots.join('\n'),

@@ -1014,7 +1014,7 @@
       // §15.17 rewrites already-published decks.
       slots.push(
         '    <li><a href="__SUGGESTION_' + i + '_URL__" class="lcs-deckend-tile">' +
-        '<img src="__SUGGESTION_' + i + '_THUMB__" alt="__SUGGESTION_' + i + '_ALT__" class="lcs-deckend-thumb">' +
+        '<img src="__SUGGESTION_' + i + '_THUMB__" alt="__SUGGESTION_' + i + '_ALT__" loading="lazy" decoding="async" class="lcs-deckend-thumb">' +
         '<span class="lcs-deckend-title">__SUGGESTION_' + i + '_TITLE__</span>' +
         '</a></li>'
       );

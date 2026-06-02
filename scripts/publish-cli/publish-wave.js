@@ -258,13 +258,16 @@ function main() {
     console.log('\n(skipping img-dims retrofit per --skip-img-dims)');
   }
 
-  // STEP 4c — LAZY-DECKEND: lazy-load the 6 end-of-deck suggestion thumbnails
-  // (~900KB of below-fold PNGs were eager-loaded — ~83% of a deck's mobile bytes).
-  // The win that takes deck mobile from ~70 to ≥85 (page-speed audit 2026-06). Also
-  // keeps the Fredoka font render-blocking (reverts an async build that caused
-  // font-swap CLS on text-heavy decks). Idempotent, visually neutral. Runs after
-  // alt-text/img-dims and before hreflang (hreflang must stay last in <head>; this
-  // only touches the font <link> mid-head + the deckend <img> tags in <body>).
+  // STEP 4c — LAZY-DECKEND: four zero-quality-loss deck mobile-perf tweaks that take
+  // deck mobile from ~70 to ≥85 (page-speed audit 2026-06): R1 lazy-loads the 6
+  // below-fold suggestion thumbnails (~900KB, ~83% of a deck's mobile bytes — the LCP
+  // win); R2 keeps the Fredoka font render-blocking (reverts an async build that
+  // caused font-swap CLS); R3 un-hides the suggestions section (its hidden→shown load
+  // transition shifted layout); R4 sets .lcs-bar to flex-wrap:nowrap (it was wrapping
+  // to 2 lines intermittently and shoving the worksheet down ~52px → CLS 0.37).
+  // Idempotent, visually neutral. Runs after alt-text/img-dims and before hreflang
+  // (hreflang must stay last in <head>; this touches the font <link>/bar CSS mid-head
+  // + the deckend <img>/section in <body>).
   if (!args.skipLazyDeckend) {
     runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {

@@ -129,3 +129,29 @@ All fixes #1–#4 shipped + verified live the same day. (Lighthouse mobile is no
 | Forward-gen deck encoding: JPEG q0.85→0.80, per-locale `STRINGS_ALL`, minify inline JS/CSS, font `preload` | 29-app fan-out + §14.6 two-step deploy; only helps *future* decks; deck.html FCP is secondary | Med (future decks only) |
 | Immutable long-cache on deck sub-assets (thumbnail/og/PDF in versioned dirs) | server-side nginx (not in git); minor now that thumbnails route through `/_next/image` | Low–Med |
 | Deck backdrop **extraction** to external cached file | breaks §14.1 single-file contract; 19.5k retrofit | OUT OF SCOPE (operator decision) |
+
+---
+
+## 8. Follow-on: decks → ≥85 mobile (2026-06-02, quality-neutral)
+
+The §6 lazy-thumbnail work lifted decks but left them ~70–84 mobile. Operator required **≥85 on mobile**, **quality-neutral only**. Four zero-quality-loss deck.html fixes (all in `scripts/publish-cli/rewrite-deck-html-lazy-deckend.js`, wired into `publish-wave.js` STEP 4c for future waves, applied to all 22,612 live decks; forward emission of R1/R3 in `catalog-export.js` + `inject-deck-end-strip.js`):
+
+- **R1 — lazy-load the 6 end-of-deck suggestion thumbnails.** They were eager (`loading="lazy"` 0× in deck.html) = ~900KB (~83% of a deck's 1,078KB mobile payload) of below-fold PNGs starving the LCP backdrop. → `loading="lazy" decoding="async"`. **The LCP win.**
+- **R2 — make the Fredoka font non-render-blocking** (`media="print" onload` + `<noscript>`). It was the FCP bottleneck (mobile FCP ~3.2s → ~1.6s).
+- **R3 — un-hide the suggestions `<section>`.** It shipped `hidden` (revealed only on the completion celebration); that hidden→shown load transition shifted layout. Now in normal flow (below fold, above-fold unchanged; embeds still hide it via `body.lcs-embedded` CSS; celebration still `appendChild`s it into the modal).
+- **R4 — `.lcs-bar` `flex-wrap:wrap` → `nowrap`.** **Root-cause of the intermittent CLS** (trace-attributed): a bar text element widening at load wrapped a 40×40 button to a 2nd line, growing the sticky bar ~52px and shoving the worksheet down 52px → CLS ~0.37 on ~1/3 of runs (addition/wordsearch). nowrap pins it to one line (title already has `min-width:0`+ellipsis). **R4 is also what makes R2's async font CLS-safe** — the earlier "async font CLS" was this bar-wrap exposed by paint timing, not font-swap.
+
+**Result — all six runtime families reliably ≥85 mobile (two passes):**
+
+| Family | Baseline | Final (p1 / p2) | CLS |
+|---|---:|---:|---:|
+| addition (A) | 54 | 92 / 98 | 0 |
+| wordsearch (B) | 71 | 91 / 98 | 0.045 |
+| find-and-count (C) | 72 | 89 / 97 | 0 |
+| chart-count (D) | 72 | 90 / 98 | 0 |
+| matching (E) | 72 | 99 / 99 | 0.001 |
+| sudoku (F) | 70 | 97 / 97 | 0.001 |
+
+LCP ~1.4–2.4s, FCP ~1.4–1.8s, CLS ≤0.045, TBT 0 — every family **89–99**, consistent across passes (the prior intermittency is gone). All visually neutral (above-fold identical; the only behavior change is the below-fold suggestions strip now in flow during play).
+
+**Debugging note for future CLS work:** when `layout-shift-elements` is empty in the Lighthouse JSON, run `lighthouse --save-assets` and parse the `*-0.trace.json` `LayoutShift` events' `impacted_nodes` (old_rect → new_rect) — that's what attributed R4's bar-wrap. Mobile CLS is bimodal/intermittent; measure 3× before concluding.

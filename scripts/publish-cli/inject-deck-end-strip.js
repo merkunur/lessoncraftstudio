@@ -76,7 +76,7 @@ function buildStripWithCss(slotCount) {
   for (var i = 1; i <= slotCount; i++) {
     slots.push(
       '    <li><a href="__SUGGESTION_' + i + '_URL__" class="lcs-deckend-tile">' +
-      '<img src="__SUGGESTION_' + i + '_THUMB__" alt="" class="lcs-deckend-thumb">' +
+      '<img src="__SUGGESTION_' + i + '_THUMB__" alt="" loading="lazy" decoding="async" class="lcs-deckend-thumb">' +
       '<span class="lcs-deckend-title">__SUGGESTION_' + i + '_TITLE__</span>' +
       '</a></li>'
     );

@@ -29,6 +29,10 @@
  *                    width/height on the worksheet <img> (decoded from the inline
  *                    JPEG) so non-square decks don't shift on load (mobile CLS).
  *                    Idempotent; runs AFTER alt-text (shares the same img tag).
+ *   4c. LAZY-DECKEND — rewrite-deck-html-lazy-deckend.js. Lazy-loads the 6 below-fold
+ *                    suggestion thumbnails (~900KB eager → deferred) + makes the
+ *                    Fredoka font non-render-blocking. Zero quality loss; the fix that
+ *                    takes deck mobile to ≥85. Idempotent.
  *   5. END-LINKS   — inject-deck-end-topic-links.js per wave locale. Backfills the
  *                    localized end-of-deck "Want more?" topic-links aside on any deck
  *                    missing it (idempotent) so every deck carries per-locale internal
@@ -94,6 +98,7 @@ function parseArgs(argv) {
     else if (a === '--skip-preband') args.skipPreband = true;
     else if (a === '--skip-alt-text') args.skipAltText = true;
     else if (a === '--skip-img-dims') args.skipImgDims = true;
+    else if (a === '--skip-lazy-deckend') args.skipLazyDeckend = true;
     else if (a === '--skip-audit') args.skipAudit = true;
     else if (a === '--no-db-check') args.noDbCheck = true;
     else if (a === '--help' || a === '-h') args.help = true;
@@ -128,6 +133,7 @@ Options:
   --skip-preband          skip the pre-publish SEO re-band (NOT recommended for non-EN)
   --skip-alt-text         skip the post-publish alt-text retrofit (NOT recommended)
   --skip-img-dims         skip the worksheet-img width/height retrofit (NOT recommended; mobile CLS)
+  --skip-lazy-deckend     skip the deckend-thumb lazy-load + font-async retrofit (NOT recommended; mobile LCP)
   --skip-audit            skip the post-publish deck.html audit
   --no-db-check           pass through to PREBAND (skip existing-title collision check)
 
@@ -249,6 +255,18 @@ function main() {
     runStep('IMG-DIMS — rewrite-deck-html-img-dimensions', 'rewrite-deck-html-img-dimensions.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {
     console.log('\n(skipping img-dims retrofit per --skip-img-dims)');
+  }
+
+  // STEP 4c — LAZY-DECKEND: lazy-load the 6 end-of-deck suggestion thumbnails
+  // (~900KB of below-fold PNGs were eager-loaded — ~83% of a deck's mobile bytes)
+  // + make the Fredoka font non-render-blocking. Both additive, idempotent, visually
+  // neutral. The win that takes deck mobile from ~70 to ≥85 (page-speed audit 2026-06).
+  // Runs after alt-text/img-dims and before hreflang (hreflang must stay last in <head>;
+  // this only rewrites the font <link> mid-head + the deckend <img> tags in <body>).
+  if (!args.skipLazyDeckend) {
+    runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  } else {
+    console.log('\n(skipping lazy-deckend retrofit per --skip-lazy-deckend)');
   }
 
   // END-LINKS: backfill the localized end-of-deck "Want more?" topic-links

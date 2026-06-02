@@ -1,7 +1,11 @@
 #!/usr/bin/env node
 /**
- * Retrofit: two zero-quality-loss deck.html mobile-perf tweaks (page-speed audit
- * 2026-06, "decks ≥85 mobile" follow-on).
+ * Retrofit: three zero-quality-loss deck.html mobile-perf tweaks (page-speed audit
+ * 2026-06, "decks ≥85 mobile" follow-on). R1 lazy-loads the deck-end thumbnails
+ * (the LCP win); R2 keeps the font render-blocking (reverts an async build that
+ * caused font-swap CLS); R3 un-hides the deck-end suggestions section so its
+ * hidden→shown load transition stops shifting layout (the CLS win). See per-rule
+ * notes by each regex below.
  *
  *   R1 — Lazy-load the end-of-deck suggestion thumbnails.
  *        The "try these next" strip renders 6 <img class="lcs-deckend-thumb">
@@ -38,6 +42,14 @@ var LOCALE_CHUNK_ORDER = ['no', 'da', 'fi', 'sv', 'nl', 'it', 'pt', 'es', 'fr', 
 
 // R1: any <img …class="lcs-deckend-thumb"…> tag (alt may be filled or empty).
 var DECKEND_THUMB_TAG = /<img\s[^>]*class="lcs-deckend-thumb"[^>]*>/g;
+// R3: the suggestions <section> is emitted `hidden` (display:none) and only
+// revealed on the completion celebration. That hidden→shown transition during
+// load caused a large CLS on some decks (wordsearch 0.37, find-and-count) with no
+// final-state difference (the strip is below the fold; screenshots identical). The
+// section now renders in normal flow from the start — CLS ~0.01, above-fold
+// unchanged, embeds still hide it via the body.lcs-embedded CSS, and the
+// celebration's mi.appendChild(stripEl) still pulls it into the modal on finish.
+var SUGGESTIONS_SECTION_HIDDEN = /(<section class="lcs-deckend-suggestions") hidden /g;
 // R2: KEEP the Fredoka stylesheet RENDER-BLOCKING. An earlier version of this
 // script made it async (media="print" onload=…). That measurably regressed CLS on
 // text-heavy decks (font-swap reflow: addition/wordsearch jumped to ~0.31 while
@@ -80,7 +92,14 @@ function rewriteHtml(html) {
     out = out.replace(FREDOKA_ASYNC, '<link href="$1" rel="stylesheet">');
     fontReverted = true;
   }
-  return { html: out, lazyAdded: lazyAdded, fontReverted: fontReverted };
+
+  // R3: drop the default `hidden` on the suggestions section (see note above).
+  var hiddenRemoved = false;
+  if (SUGGESTIONS_SECTION_HIDDEN.test(out)) {
+    out = out.replace(SUGGESTIONS_SECTION_HIDDEN, '$1 ');
+    hiddenRemoved = true;
+  }
+  return { html: out, lazyAdded: lazyAdded, fontReverted: fontReverted, hiddenRemoved: hiddenRemoved };
 }
 
 function listDeckDirs(decksRoot, locale, sampleN) {
@@ -98,8 +117,8 @@ function processDeck(deckDir, opts) {
   if (!fs.existsSync(htmlPath)) return { status: 'missing' };
   var raw = fs.readFileSync(htmlPath, 'utf8');
   var r = rewriteHtml(raw);
-  if (r.lazyAdded === 0 && !r.fontReverted) return { status: 'idempotent' };
-  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted };
+  if (r.lazyAdded === 0 && !r.fontReverted && !r.hiddenRemoved) return { status: 'idempotent' };
+  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted, hiddenRemoved: r.hiddenRemoved };
   var bak = htmlPath + '.bak.lazy-deckend';
   var tmp = htmlPath + '.tmp.lazy-deckend';
   try {
@@ -107,7 +126,7 @@ function processDeck(deckDir, opts) {
     fs.writeFileSync(tmp, r.html, 'utf8');
     fs.renameSync(tmp, htmlPath);
   } catch (e) { return { status: 'fs-error', error: e.message }; }
-  return { status: 'written', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted };
+  return { status: 'written', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted, hiddenRemoved: r.hiddenRemoved };
 }
 
 function main() {
@@ -118,19 +137,19 @@ function main() {
   console.log('locales:    ' + opts.locales.join(', '));
   console.log('sample:     ' + (opts.sample || 'all') + '\n');
 
-  var grand = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0 };
+  var grand = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0, unhid: 0 };
   opts.locales.forEach(function (locale) {
-    var t = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0 };
+    var t = { total: 0, rewrite: 0, idempotent: 0, errors: 0, lazyImgs: 0, fonts: 0, unhid: 0 };
     listDeckDirs(opts.decksRoot, locale, opts.sample).forEach(function (deckDir) {
       var res = processDeck(deckDir, opts);
       t.total++;
-      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontReverted) t.fonts++; }
+      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontReverted) t.fonts++; if (res.hiddenRemoved) t.unhid++; }
       else if (res.status === 'idempotent') t.idempotent++;
       else if (res.status === 'fs-error') { t.errors++; console.log('  ERROR ' + deckDir + ': ' + res.error); }
     });
-    ['total', 'rewrite', 'idempotent', 'errors', 'lazyImgs', 'fonts'].forEach(function (k) { grand[k] += t[k]; });
+    ['total', 'rewrite', 'idempotent', 'errors', 'lazyImgs', 'fonts', 'unhid'].forEach(function (k) { grand[k] += t[k]; });
     console.log('[' + locale + '] ' + t.total + ' decks; ' + (opts.dryRun ? t.rewrite + ' would-rewrite' : t.rewrite + ' written') +
-      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts reverted), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
+      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts reverted, ' + t.unhid + ' unhidden), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
   });
 
   console.log('\n=== Summary ===');
@@ -138,6 +157,7 @@ function main() {
   console.log((opts.dryRun ? 'Would rewrite: ' : 'Rewritten:     ') + grand.rewrite);
   console.log('Imgs lazied:   ' + grand.lazyImgs);
   console.log('Fonts reverted:' + grand.fonts);
+  console.log('Unhidden strip:' + grand.unhid);
   console.log('Idempotent:    ' + grand.idempotent);
   console.log('Errors:        ' + grand.errors);
   process.exit(grand.errors > 0 ? 1 : 0);

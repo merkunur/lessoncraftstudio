@@ -516,19 +516,22 @@
       "en": "comparing-length-taller-shorter-longer",
       "fi": "vertaa-pituutta-pidempi-lyhyempi",
       "de": "laengen-vergleichen-groesser-laenger-kuerzer",
-      "fr": "comparer-les-longueurs-plus-grand-plus-court"
+      "fr": "comparer-les-longueurs-plus-grand-plus-court",
+      "es": "comparar-longitudes-mas-alto-mas-largo-mas-corto"
     },
     "page_title": {
       "en": "Comparing Length — Taller, Shorter, Longer | Kindergarten Measurement",
       "fi": "Pituuksien vertailu — pidempi, lyhyempi, korkeampi | Esiopetuksen mittaaminen",
       "de": "Längen vergleichen — größer, länger, kürzer | Kindergarten",
-      "fr": "Comparer les longueurs — plus grand, plus court | Maternelle"
+      "fr": "Comparer les longueurs — plus grand, plus court | Maternelle",
+      "es": "Comparar longitudes: más alto, corto y largo | Jardín infantil"
     },
     "page_intro": {
       "en": "Compare two objects and tap the taller, shorter, or longer one. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.2 — directly compare two objects by a measurable attribute and describe the difference.",
       "fi": "Lapsi vertailee kahta kuvaa ja napauttaa pidemmän, lyhyemmän tai korkeamman — ilman laskemista. Maksuton, OPS 2014:n mukainen mittausharjoitus esiopetukseen.",
       "de": "Längen vergleichen im Kindergarten: Kinder tippen auf das höhere, längere oder kürzere von zwei Bildern — ganz ohne Zählen, abgestimmt auf den Lehrplan.",
-      "fr": "Activité gratuite de maternelle : l'enfant compare deux objets et touche le plus grand, le plus long ou le plus court, sans compter, selon les programmes officiels."
+      "fr": "Activité gratuite de maternelle : l'enfant compare deux objets et touche le plus grand, le plus long ou le plus court, sans compter, selon les programmes officiels.",
+      "es": "Actividad interactiva gratuita: el niño compara dos objetos y toca el más alto, más largo o más corto, sin contar. Alineada con el currículo LOMLOE."
     },
     "kid_prompt_template": "promptTapTaller"
   }

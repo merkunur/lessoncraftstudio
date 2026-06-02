@@ -25,6 +25,10 @@
  *   3. OG IMAGES   — regenerate-og-images.js (two-column composite + XMP).
  *   4. ALT-TEXT    — rewrite-deck-html-alt-text.js (worksheet alt + app aria-label
  *                    + deckend-thumb alts; the apps emit empty alt). Idempotent.
+ *   4b. IMG-DIMS   — rewrite-deck-html-img-dimensions.js. Injects intrinsic
+ *                    width/height on the worksheet <img> (decoded from the inline
+ *                    JPEG) so non-square decks don't shift on load (mobile CLS).
+ *                    Idempotent; runs AFTER alt-text (shares the same img tag).
  *   5. END-LINKS   — inject-deck-end-topic-links.js per wave locale. Backfills the
  *                    localized end-of-deck "Want more?" topic-links aside on any deck
  *                    missing it (idempotent) so every deck carries per-locale internal
@@ -89,6 +93,7 @@ function parseArgs(argv) {
     else if (a === '--skip-preflight') args.skipPreflight = true;
     else if (a === '--skip-preband') args.skipPreband = true;
     else if (a === '--skip-alt-text') args.skipAltText = true;
+    else if (a === '--skip-img-dims') args.skipImgDims = true;
     else if (a === '--skip-audit') args.skipAudit = true;
     else if (a === '--no-db-check') args.noDbCheck = true;
     else if (a === '--help' || a === '-h') args.help = true;
@@ -122,6 +127,7 @@ Options:
   --skip-preflight        skip the §A.14.8 manifest pre-flight (NOT recommended)
   --skip-preband          skip the pre-publish SEO re-band (NOT recommended for non-EN)
   --skip-alt-text         skip the post-publish alt-text retrofit (NOT recommended)
+  --skip-img-dims         skip the worksheet-img width/height retrofit (NOT recommended; mobile CLS)
   --skip-audit            skip the post-publish deck.html audit
   --no-db-check           pass through to PREBAND (skip existing-title collision check)
 
@@ -233,7 +239,19 @@ function main() {
     console.log('\n(skipping alt-text retrofit per --skip-alt-text)');
   }
 
-  // STEP 5 — END-LINKS: backfill the localized end-of-deck "Want more?" topic-links
+  // STEP 4b — IMG-DIMS: inject intrinsic width/height on the worksheet <img> so
+  // non-square decks don't shift on load (mobile CLS — measured deck-A 0.313→0.008).
+  // Decodes the inline JPEG SOF marker; purely additive; idempotent. MUST run AFTER
+  // alt-text: alt-text's regex matches the same img tag by class+id+alt, and running
+  // img-dims first would insert width/height between id and alt and break that match.
+  // Per page-speed audit 2026-06.
+  if (!args.skipImgDims) {
+    runStep('IMG-DIMS — rewrite-deck-html-img-dimensions', 'rewrite-deck-html-img-dimensions.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
+  } else {
+    console.log('\n(skipping img-dims retrofit per --skip-img-dims)');
+  }
+
+  // END-LINKS: backfill the localized end-of-deck "Want more?" topic-links
   // aside on any deck missing it. Per-locale (the script takes a single --locale);
   // idempotent — decks that already baked the aside (autoInjectEndDeckLinks +
   // substitute.js) are skipped fast. Guarantees per-locale internal links on every

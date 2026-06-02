@@ -99,3 +99,33 @@ The requested reference (siteguru.co "Using PageSpeed Insights suggestions") pri
 
 ## 5. Verification
 Re-run `node scripts/lighthouse-audit.js` after each deploy; compare against this baseline (`lighthouse-2026-06-02.json`). Remember Cloudflare's 5-min TTL (`§15.8`) before the edge reflects new bytes. Deck retrofit: `--dry-run` → sample-verify → `--confirm` → idempotency re-run (second pass = 0 changes).
+
+---
+
+## 6. Results — fixes applied 2026-06-02
+
+All fixes #1–#4 shipped + verified live the same day. (Lighthouse mobile is noisy ±8; the robust evidence is the asset-byte reductions, which are deterministic.)
+
+| Surface | Metric | Before | After | Note |
+|---|---|---|---|---|
+| Deck thumbnail (any) | bytes | 156 KB PNG | **7.3 KB AVIF** (w=256) | live `/_next/image`, ~95% off |
+| Homepage | mobile score / LCP | 64 / 7.0s | **74 / 4.4s** | poster + thumbnails |
+| Worksheets-hub | mobile score / LCP | 69 / 9.0s | **77 / 5.3s** | 319 thumbnails now optimized |
+| Deck-A (addition) | mobile score / **CLS** | 54 / **0.313** | **74 / 0.008** | width/height retrofit |
+| Deck-F (sudoku) | mobile CLS | 0.001 | 0.001 | regression check — unchanged |
+
+**Shipped (commits `b0bb0778`, `516d2561`, + publish-wave wire-in):**
+1. Deck thumbnails → `next/image` (BreadthThumbV3, FeaturedDeckTileV3, DeckGridClient, worksheets hub) + `ActivityCardPreview` lazy/async + `wwwImg` host-normalize helper.
+2. Hero video cream `poster` + reserved `aspect-[738/940]`.
+3. Worksheets-hub `revalidate=3600`.
+4. **`rewrite-deck-html-img-dimensions.js`** retrofit applied to **all 19,533 live decks** (0 errors, idempotent), AND wired into `publish-wave.js` (STEP 4b) so every future wave's decks get width/height automatically — no per-app change, no future regression.
+
+## 7. Remaining follow-ups (documented, not in this commission)
+
+| Item | Why deferred | Value |
+|---|---|---|
+| Hero video: don't autoload the 877 KB on mobile (poster-only / load on interaction / `<source media>`) | changes hero behavior — beyond "safe"; needs design sign-off | High (homepage mobile LCP still ~4.4s; video is the residual) |
+| Scope NextIntl messages per route (drop ~200 KB `topicProse`/`topicFaq`/`topicMeta` from non-topic pages) | medium-risk (a client component missing a namespace breaks) | Med–High (homepage TBT/transfer) |
+| Forward-gen deck encoding: JPEG q0.85→0.80, per-locale `STRINGS_ALL`, minify inline JS/CSS, font `preload` | 29-app fan-out + §14.6 two-step deploy; only helps *future* decks; deck.html FCP is secondary | Med (future decks only) |
+| Immutable long-cache on deck sub-assets (thumbnail/og/PDF in versioned dirs) | server-side nginx (not in git); minor now that thumbnails route through `/_next/image` | Low–Med |
+| Deck backdrop **extraction** to external cached file | breaks §14.1 single-file contract; 19.5k retrofit | OUT OF SCOPE (operator decision) |

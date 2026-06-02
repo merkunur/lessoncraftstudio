@@ -575,6 +575,10 @@
   border-radius: 14px;
   border: 1px solid rgba(20, 107, 94, 0.12);
   overflow: hidden;
+  /* Cap the frame at its container at EVERY breakpoint (not just ≤768px) so
+     the mockup can never be wider than its column — the Galaxy right-shear. */
+  width: 100%;
+  max-width: 100%;
   min-width: 0;
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.7) inset,
@@ -725,16 +729,19 @@
   cursor: default;
 }
 
-/* Mobile viewport clamp for EmbedShareV3 — last-resort defense against
-   any horizontal-overflow source within the section. Belt-and-suspenders
-   alongside the cascade-breakers at .hv3-browser-{frame,chrome,address}. */
+/* Mobile hardening for EmbedShareV3 mockup. The section itself now carries
+   base `overflow-hidden` (matching all sibling hv3 sections) and the frame is
+   capped at 100% width at every breakpoint, so the bolted-on section/frame
+   clamps that used to live here are no longer needed.
+   What remains: drop the decorative float drift + −1.5° tilt on phones. The
+   `transform` on a `border-radius` + `overflow:hidden` ancestor is a known
+   combination where some Android browsers (Samsung Internet) fail to clip
+   descendants — the Galaxy right-shear. Removing it on mobile is purely
+   cosmetic loss (no visible tilt at phone size) and eliminates that risk. */
 @media (max-width: 768px) {
-  .hv3-section-coral-soft {
-    overflow-x: hidden;
-  }
-  .hv3-browser-frame {
-    width: 100%;
-    max-width: 100%;
+  .hv3-browser-frame.hv3-float {
+    animation: none;
+    transform: none;
   }
 }
 

@@ -204,6 +204,34 @@ var ACTIVITY_STRINGS = {
     en: 'smaller', de: 'kleiner', fr: 'plus petit', it: 'più piccolo', es: 'más pequeño', pt: 'menor',
     nl: 'kleiner', sv: 'mindre', da: 'mindre', no: 'mindre', fi: 'pienempi'
   },
+  /* Activity 10 K.MD.B.3 — Sort and Count. The kid sees a MIXED set of
+     objects (≥2 categories, interleaved), the prompt names ONE category,
+     and they tap how many objects belong to it. Classify-then-count —
+     structurally distinct from how-many-group (K.CC.B.5, homogeneous set)
+     and which-more (K.CC.C.6, magnitude compare). {category} is filled
+     from CATEGORY_LABELS below. EN ships + is verified now; the non-EN
+     entries are fan-out-ready (a follow-on commission NSR-reviews them:
+     gender agreement es/it/pt, elision fr "d'animaux", partitive-singular
+     fi "eläintä", Nordic per §17.5.1). */
+  promptHowManyCategory: {
+    en: 'How many {category}?',
+    de: 'Wie viele {category}?',
+    fr: 'Combien de {category} ?',
+    it: 'Quanti {category}?',
+    es: '¿Cuántos {category}?',
+    pt: 'Quantos {category}?',
+    nl: 'Hoeveel {category}?',
+    sv: 'Hur många {category}?',
+    da: 'Hvor mange {category}?',
+    no: 'Hvor mange {category}?',
+    fi: 'Kuinka monta {category}?'
+  },
+  /* Neutral noun for the mixed-set's group aria-label ("6 objects") so the
+     screen-reader summary never leaks per-category counts (the answer). */
+  labelObjects: {
+    en: 'objects', de: 'Objekte', fr: 'objets', it: 'oggetti', es: 'objetos', pt: 'objetos',
+    nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esineet'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -283,6 +311,20 @@ var SHAPE_LABELS = {
 var FLATTENED_SHAPE_LABELS = {};
 Object.keys(SHAPE_LABELS).forEach(function (key) {
   FLATTENED_SHAPE_LABELS['shapeLabel_' + key] = SHAPE_LABELS[key];
+});
+
+/* Category labels (plural) — interpolated into promptHowManyCategory via
+   {category} for the sort-count (K.MD.B.3) template. EN verified; non-EN
+   fan-out-ready (NSR pass refines gender/partitive/elision per the prompt
+   note above). Flattened to catLabel_<key> like the shape labels. */
+var CATEGORY_LABELS = {
+  animals:  {en:'animals', de:'Tiere', fr:'animaux', it:'animali', es:'animales', pt:'animais', nl:'dieren', sv:'djur', da:'dyr', no:'dyr', fi:'eläimet'},
+  fruits:   {en:'fruits', de:'Früchte', fr:'fruits', it:'frutti', es:'frutas', pt:'frutas', nl:'stukken fruit', sv:'frukter', da:'frugter', no:'frukter', fi:'hedelmät'},
+  vehicles: {en:'vehicles', de:'Fahrzeuge', fr:'véhicules', it:'veicoli', es:'vehículos', pt:'veículos', nl:'voertuigen', sv:'fordon', da:'køretøjer', no:'kjøretøy', fi:'ajoneuvot'}
+};
+var FLATTENED_CATEGORY_LABELS = {};
+Object.keys(CATEGORY_LABELS).forEach(function (key) {
+  FLATTENED_CATEGORY_LABELS['catLabel_' + key] = CATEGORY_LABELS[key];
 });
 
 /* Static demo set used when /mini-tools/choice-board-activity.html is
@@ -409,9 +451,56 @@ function pickOptions(pool, targetKey, count) {
   return optionsKeys.map(buildOption);
 }
 
+/* Activity 10 K.MD.B.3 (sort-count) helpers — deterministic per round so
+   every sibling locale URL renders an identical pile order + tile order
+   (only the language changes), matching the determinism discipline used
+   by pickOptions / pickNumberDistractors above. */
+function _scRng(seed) {
+  return function () {
+    seed = (seed + 0x6D2B79F5) | 0;
+    var t = seed;
+    t = Math.imul(t ^ (t >>> 15), t | 1);
+    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+function seededShuffle(arr, seed) {
+  var a = arr.slice(), rand = _scRng(seed);
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(rand() * (i + 1));
+    var t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+/* Build 4 distinct number tiles for a sort-count round: the correct
+   target-count + 3 distractors drawn (in priority order) from the
+   classification traps — TOTAL (counted everything) and the OTHER-category
+   counts (counted the wrong group) — then near-misses, padding from 1..9
+   only if a tiny round left us short. Guarantees the total + at least one
+   other-count surface so skipping classification lands on a wrong tile.
+   All values clamped to 1..9 (K-friendly single-digit numerals). */
+function buildSortCountTiles(correct, total, otherCounts, seed) {
+  var seen = {}, vals = [];
+  function add(v) {
+    if (v == null) return;
+    v = Math.round(v);
+    if (v < 1 || v > 9 || seen[v]) return;
+    seen[v] = 1; vals.push(v);
+  }
+  add(correct);
+  add(total);
+  otherCounts.slice().sort(function (a, b) { return b - a; }).forEach(add);
+  add(correct + 1); add(correct - 1); add(correct + 2); add(correct - 2);
+  for (var n = 1; n <= 9 && vals.length < 4; n++) add(n);
+  vals = vals.slice(0, 4);
+  return seededShuffle(vals, seed).map(function (v) {
+    return { key: String(v), text: String(v) };
+  });
+}
+
 window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
   id: 'choice-board-activity',
-  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, {
+  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, FLATTENED_CATEGORY_LABELS, {
     title: {en:'Choice Activity',de:'Auswahlaufgabe',fr:'Activité de choix',it:'Attività di scelta',es:'Actividad de elección',pt:'Atividade de escolha',nl:'Keuzeactiviteit',sv:'Valövning',da:'Valgøvelse',no:'Valgøvelse',fi:'Valintatehtävä'},
     instruction: {en:'Follow the prompt. Tap Check when you’re ready.',de:'Folge der Aufforderung. Tippe Prüfen, wenn du fertig bist.',fr:'Suis la consigne. Tape Vérifier quand tu es prêt.',it:'Segui l’istruzione. Tocca Verifica quando sei pronto.',es:'Sigue la indicación. Toca Comprobar cuando estés listo.',pt:'Siga a instrução. Toque em Verificar quando estiver pronto.',nl:'Volg de opdracht. Tik op Controleer als je klaar bent.',sv:'Följ uppmaningen. Tryck på Kontrollera när du är klar.',da:'Følg opgaven. Tryk på Tjek, når du er klar.',no:'Følg oppgaven. Trykk på Sjekk når du er klar.',fi:'Seuraa ohjetta. Paina Tarkista, kun olet valmis.'}
   }),
@@ -774,7 +863,95 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       });
     }
 
+    /* TEMPLATE: sort-count (K.MD.B.3, Measurement & Data) — show a MIXED
+       set of objects (≥2 categories, interleaved), name ONE category in
+       the prompt, kid taps how many objects belong to it from 4 number
+       tiles. Classify-THEN-count: the distractors include the TOTAL
+       (counted everything) + the OTHER-category counts (counted the wrong
+       group), so skipping classification lands on a wrong tile. Distinct
+       from how-many-group (K.CC.B.5, homogeneous set → pure count) and
+       which-more (K.CC.C.6, magnitude compare → tap a group).
+
+       The core's subject-group is homogeneous (N copies of one image), so
+       we seat the right COUNT of group items via the engine and swap each
+       item's src to the heterogeneous pile in the wrapper-owned render()
+       override below — 0 lines to choice-board-core.js / lcs-shell.* /
+       Direction A CSS (same activity-layer pattern as compare-length's
+       injected CSS). params.rounds = [
+         { target:'animals', items:[{noun,themeDir,cat}, ...] }, ...
+       ]. Engine subject cap = 8, so keep each round's items ≤ 8. */
+    if (row.task_template === 'sort-count') {
+      var scRounds = row.params.rounds;
+      return scRounds.map(function (round, idx) {
+        var items = round.items || [];
+        var target = round.target;
+        var correct = items.filter(function (it) { return it.cat === target; }).length;
+        var total = items.length;
+        /* counts of every non-target category present (mis-classify traps) */
+        var byCat = {};
+        items.forEach(function (it) { byCat[it.cat] = (byCat[it.cat] || 0) + 1; });
+        var otherCounts = Object.keys(byCat)
+          .filter(function (c) { return c !== target; })
+          .map(function (c) { return byCat[c]; });
+        /* deterministic interleave of the pile so categories aren't shown
+           in contiguous blocks (counting a block would skip classifying). */
+        var pileSeed = 0;
+        for (var s = 0; s < target.length; s++) pileSeed = (pileSeed * 31 + target.charCodeAt(s)) | 0;
+        pileSeed = (pileSeed + total * 101 + idx * 7) | 0;
+        var mixed = seededShuffle(items, pileSeed).map(function (it) {
+          return { imgUrl: '/image-library-webp/themes/' + it.themeDir + '/' + it.noun + '@2x.webp' };
+        });
+        return {
+          id: row.id + '.' + target + '-' + idx,
+          promptKey: 'promptHowManyCategory',
+          promptArgs: { category: self.api.t('catLabel_' + target) },
+          answerType: 'state',
+          setup: function (tool) {
+            var tiles = buildSortCountTiles(correct, total, otherCounts, (pileSeed ^ 0x9E3779B9) | 0);
+            /* stash the heterogeneous pile for the render() override below */
+            tool._mixedItems = mixed;
+            var subject = {
+              type: 'group',
+              imgUrl: mixed.length ? mixed[0].imgUrl : '',
+              count: total,
+              alt: self.api.t('labelObjects')
+            };
+            tool.setupTask(tiles, String(correct), subject);
+          },
+          check: function (tool) {
+            var ok = tool.answer === String(correct);
+            tool.showFeedback(ok);
+            return ok;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
     return STATIC_DEMO_TASKS;
+  },
+
+  /* Activity 10 K.MD.B.3 — heterogeneous-subject augmentation. After the
+     core builds the DOM (the shell calls tool.render() right after
+     task.setup()), swap each subject group-item's src to the per-position
+     image stashed on tool._mixedItems by the sort-count setup(). Runs
+     synchronously after the core render (no rAF/timing fragility per
+     §A.13.47); touches 0 lines of choice-board-core.js / lcs-shell.* /
+     Direction A CSS. No-op for every other template + the static demo
+     (_mixedItems unset), and one activity loads per iframe, so there is
+     zero cross-activity contamination. paint() never rebuilds the subject,
+     so the swap survives selection + Check feedback; Next re-runs
+     setup → render → re-swap. */
+  render: function () {
+    ChoiceBoardCore.render.call(this);
+    var mixed = this._mixedItems;
+    if (!mixed || !mixed.length || !this.api || !this.api.stage) return;
+    var imgs = this.api.stage.querySelectorAll('.cb-subject--group .cb-group-item');
+    for (var i = 0; i < imgs.length && i < mixed.length; i++) {
+      if (mixed[i] && mixed[i].imgUrl) imgs[i].src = mixed[i].imgUrl;
+    }
   }
 });
 

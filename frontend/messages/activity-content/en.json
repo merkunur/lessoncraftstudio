@@ -226,6 +226,29 @@
       "Addition and subtraction are closely linked, and this free activity helps children feel that link by hunting for expressions that land on the same answer. Each card shows a small sum or take-away with its answer hidden — like 2 + 3 or 6 − 1 — and the child works each one out, then pairs the addition with the subtraction that comes to the same number. Tapping one card and then its match draws a line between them, so equal values are connected on the screen.",
       "Because the answers aren't printed on the cards, children have to actually do the arithmetic to find a match — there's no shortcut. Every round has two different answers to find, so each addition has exactly one subtraction partner. Discovering that 2 + 3 and 6 − 1 are both 5, while 3 + 4 and 9 − 2 are both 7, quietly builds the big idea behind the equal sign: two different-looking expressions can be worth the very same amount.",
       "The activity is aligned to Common Core 1.OA.D.7 — understanding the meaning of the equal sign and recognising when addition and subtraction expressions are equal. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account to set up. There is no timer and no score; children work, check, and try again as often as they like, with warm, encouraging feedback every step of the way."
-    ]
+    ],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Long before children make graphs or read charts, they learn to organise the world by sorting things into groups. In this free activity, a mixed pile of friendly pictures appears — some animals, some pieces of fruit, sometimes a couple of vehicles, all jumbled together. The prompt names one group, like animals, and the child decides how many of the pictures belong to that group, then taps the matching number.",
+        "The pictures are mixed on purpose. To answer how many animals there are, a child cannot simply count everything — they have to look at each picture, decide what it is, set aside the things that do not belong, and count only the group that was asked for. That quiet two-step of sorting first and counting second is the whole heart of the activity, and it is a genuinely different skill from just counting a row of identical objects.",
+        "The activity is aligned to Common Core {code} in the {strand} strand — classifying objects into given categories and counting how many are in each. Children work at their own pace with gentle, immediate feedback, and there is no timer and no score, so sorting and counting stays a calm, playful game that builds the foundation for later work with data and graphs."
+      ],
+      "practices": [
+        "Looking at a mixed group of objects and deciding which category each one belongs to",
+        "Counting only the objects in the category the prompt names, and ignoring the rest",
+        "Telling the count of one group apart from the total number of objects",
+        "Building the sorting-then-counting habit that early data and graphing work rely on"
+      ],
+      "howToPlay": [
+        "Children look at a mixed set of pictures and read or listen to the prompt, which names one group to find.",
+        "They decide how many pictures belong to that group and tap the number that matches.",
+        "A warm check confirms a correct count and offers an easy retry when needed."
+      ],
+      "learningGoals": [
+        "Classify objects into given categories and count how many are in each — the focus of Common Core {code}.",
+        "Tell the count of a named group apart from the total, instead of counting everything.",
+        "Build the sorting and organising skills that later measurement, data, and graphing work depend on."
+      ]
+    }
   }
 }

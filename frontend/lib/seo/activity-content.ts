@@ -66,7 +66,18 @@ interface ActivityContentFile {
     whatsInsideStrand: string;
     whatsInsideCode: string;
   };
-  prose?: Record<string, string[]>;
+  /**
+   * Tier-1 authored prose, keyed by activity id. Two shapes:
+   *  - `string[]`     — overrides only the lead "about" paragraphs; the
+   *                     practices/howToPlay/learningGoals still come from the
+   *                     activity's by-strand template (the original behaviour).
+   *  - `StrandTemplate` — full override of all four sections. Needed when two
+   *                     activities share a strand but are pedagogically
+   *                     different (e.g. K.MD.A.2 length-compare vs K.MD.B.3
+   *                     sort-and-count both sit in "Measurement & Data", whose
+   *                     by-strand prose is length-specific).
+   */
+  prose?: Record<string, string[] | StrandTemplate>;
 }
 
 /**
@@ -200,17 +211,26 @@ export async function getActivityContent(
     max: range ? String(range.max) : '',
   };
 
-  const tmpl = file.templates.byStrand[strand] ?? file.templates.generic;
+  const byStrandTmpl = file.templates.byStrand[strand] ?? file.templates.generic;
+
+  // Tier 1 authored prose. A full-object override (with its own
+  // practices/howToPlay/learningGoals) wins for ALL four sections; the legacy
+  // array form overrides only the lead "about" paragraphs.
+  const authored = file.prose?.[row.id];
+  const isFullOverride =
+    !!authored && !Array.isArray(authored) && Array.isArray((authored as StrandTemplate).about);
+  const tmpl: StrandTemplate = isFullOverride ? (authored as StrandTemplate) : byStrandTmpl;
 
   const practices = tmpl.practices.map((s) => interpolate(s, vars));
   const howToPlay = tmpl.howToPlay.map((s) => interpolate(s, vars));
   const learningGoals = tmpl.learningGoals.map((s) => interpolate(s, vars));
 
-  // Tier 1 authored prose wins; otherwise the by-strand "about" lead.
-  const authored = file.prose?.[row.id];
-  const proseParagraphs = (authored && authored.length ? authored : tmpl.about).map((s) =>
-    interpolate(s, vars),
-  );
+  const aboutSource: string[] = isFullOverride
+    ? (authored as StrandTemplate).about
+    : Array.isArray(authored) && authored.length
+      ? authored
+      : byStrandTmpl.about;
+  const proseParagraphs = aboutSource.map((s) => interpolate(s, vars));
 
   // "What's inside" — always derived from the row's own data so every page,
   // even a fully-templated one, carries unique nouns + numbers.

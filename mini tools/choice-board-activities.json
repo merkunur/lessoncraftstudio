@@ -552,5 +552,97 @@
       "no": "Barnet sammenligner to ting og trykker på den som er høyere, kortere eller lengre – helt uten telling. Gratis og lekende, i tråd med LK20 for barnehagen."
     },
     "kid_prompt_template": "promptTapTaller"
+  },
+  {
+    "id": "choice-board.sort-count.k-md-b-3",
+    "tool": "choice-board-activity",
+    "task_template": "sort-count",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.MD.B.3",
+      "grade": "K",
+      "strand": "Measurement & Data"
+    },
+    "params": {
+      "rounds": [
+        {
+          "target": "animals",
+          "items": [
+            { "noun": "cat",        "themeDir": "animals", "cat": "animals" },
+            { "noun": "dog",        "themeDir": "animals", "cat": "animals" },
+            { "noun": "duck",       "themeDir": "animals", "cat": "animals" },
+            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  }
+          ]
+        },
+        {
+          "target": "fruits",
+          "items": [
+            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "orange",     "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "strawberry", "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "dog",        "themeDir": "animals", "cat": "animals" },
+            { "noun": "fish",       "themeDir": "animals", "cat": "animals" }
+          ]
+        },
+        {
+          "target": "animals",
+          "items": [
+            { "noun": "fish",       "themeDir": "animals", "cat": "animals" },
+            { "noun": "duck",       "themeDir": "animals", "cat": "animals" },
+            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" },
+            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
+            { "noun": "pear",       "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "lemon",      "themeDir": "fruits",  "cat": "fruits"  }
+          ]
+        },
+        {
+          "target": "fruits",
+          "items": [
+            { "noun": "cherry",     "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "pear",       "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
+            { "noun": "pig",        "themeDir": "animals", "cat": "animals" },
+            { "noun": "sheep",      "themeDir": "animals", "cat": "animals" },
+            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" }
+          ]
+        },
+        {
+          "target": "vehicles",
+          "items": [
+            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "cat",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "dog",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "fish",       "themeDir": "animals",  "cat": "animals"  }
+          ]
+        },
+        {
+          "target": "animals",
+          "items": [
+            { "noun": "giraffe",    "themeDir": "animals", "cat": "animals" },
+            { "noun": "horse",      "themeDir": "animals", "cat": "animals" },
+            { "noun": "rabbit",     "themeDir": "animals", "cat": "animals" },
+            { "noun": "pig",        "themeDir": "animals", "cat": "animals" },
+            { "noun": "sheep",      "themeDir": "animals", "cat": "animals" },
+            { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  },
+            { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "sort-and-count-by-category"
+    },
+    "page_title": {
+      "en": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data"
+    },
+    "page_intro": {
+      "en": "Look at a mixed set of pictures, decide what each one is, then tap how many belong to the named group. A no-pressure Kindergarten activity aligned to Common Core K.MD.B.3 — classify objects into categories and count how many are in each."
+    },
+    "kid_prompt_template": "promptHowManyCategory"
   }
 ]

@@ -201,3 +201,8 @@ scripts/v2-data/verify-syllable-boundaries/.cache/
 
 # page-speed audit scratch (lighthouse per-run JSON + logs)
 .lh-cache/
+
+# Activity mobile-QA harness output (screenshots are images — never commit; §A.13.55)
+docs/audit-results/mobile*/screens/
+docs/audit-results/mobile-local/
+docs/audit-results/mobile-livecheck/

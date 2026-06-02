@@ -11,14 +11,15 @@
  *        connection that the LCP backdrop needs. Add loading="lazy" decoding="async".
  *        The <a> links stay crawlable (SEO unaffected); only the <img> fetch defers.
  *
- *   R2 — Make the Fredoka Google-Fonts stylesheet non-render-blocking.
- *        It is the deck's only external render-blocking request. Inline deck styles
- *        are separate, so async-loading is safe (text already paints via display=swap;
- *        Fredoka swaps in when ready). Rewrite to the standard
- *        media="print" onload="this.media='all'" pattern + a <noscript> fallback.
- *        (Verified: deck.html has no CSP, so the inline onload runs.)
+ *   R2 — KEEP the Fredoka stylesheet RENDER-BLOCKING (revert any async form).
+ *        An earlier build of this script made the font async (media="print" onload=…)
+ *        as an FCP optimization. It measurably regressed CLS on text-heavy decks via
+ *        font-swap reflow (addition/wordsearch → ~0.31; image-heavy decks stayed
+ *        0.001) — net-negative. R2 now reverts any async Fredoka link back to the
+ *        plain render-blocking form (the known-good state, CLS ~0). The lazy-load
+ *        (R1) is the real mobile win; the font stays blocking + display=swap.
  *
- * Both are purely additive, idempotent, and visually neutral. No DB/network.
+ * R1 is additive; R2 is a revert. Both idempotent + visually neutral. No DB/network.
  * Atomicity: backup (.bak.lazy-deckend) → temp → rename(2) per §15.5.
  * rewrite-deck-html-*.js family (§A.14.9 / §21.2).
  *
@@ -37,10 +38,15 @@ var LOCALE_CHUNK_ORDER = ['no', 'da', 'fi', 'sv', 'nl', 'it', 'pt', 'es', 'fr', 
 
 // R1: any <img …class="lcs-deckend-thumb"…> tag (alt may be filled or empty).
 var DECKEND_THUMB_TAG = /<img\s[^>]*class="lcs-deckend-thumb"[^>]*>/g;
-// R2: the Fredoka stylesheet link in its render-blocking form (closing '>' right
-// after rel="stylesheet"; the rewritten form has media=… after it, so this never
-// re-matches → idempotent by construction).
-var FREDOKA_LINK = /<link href="(https:\/\/fonts\.googleapis\.com\/css2\?family=Fredoka[^"]*)" rel="stylesheet">/;
+// R2: KEEP the Fredoka stylesheet RENDER-BLOCKING. An earlier version of this
+// script made it async (media="print" onload=…). That measurably regressed CLS on
+// text-heavy decks (font-swap reflow: addition/wordsearch jumped to ~0.31 while
+// image-heavy decks stayed 0.001) — net-negative despite the small FCP gain. So R2
+// now REVERTS any async form back to the plain blocking link. Render-blocking +
+// display=swap is the known-good state (CLS ~0); the lazy-load (R1) is the real
+// mobile win. Forward path (apps + catalog-export) emits blocking already, so this
+// is a no-op there; it only heals decks the async build touched.
+var FREDOKA_ASYNC = /<link href="(https:\/\/fonts\.googleapis\.com\/css2\?family=Fredoka[^"]*)" rel="stylesheet" media="print" onload="this\.media='all'"><noscript><link href="[^"]*" rel="stylesheet"><\/noscript>/;
 
 function parseArgs(argv) {
   var out = { dryRun: true, confirm: false, decksRoot: DEFAULT_DECKS_ROOT, locales: LOCALE_CHUNK_ORDER.slice(), sample: null };
@@ -58,7 +64,7 @@ function parseArgs(argv) {
   return out;
 }
 
-/** Apply R1 + R2. Returns {html, lazyAdded, fontAsync}. */
+/** Apply R1 + R2. Returns {html, lazyAdded, fontReverted}. */
 function rewriteHtml(html) {
   var lazyAdded = 0;
   var out = html.replace(DECKEND_THUMB_TAG, function (tag) {
@@ -67,17 +73,14 @@ function rewriteHtml(html) {
     return tag.replace(/^<img\s/, '<img loading="lazy" decoding="async" ');
   });
 
-  // Idempotency guard: if the async form already exists, skip — otherwise the
-  // <noscript> fallback we inject (which itself contains a rel="stylesheet">
-  // Fredoka link) would re-match FREDOKA_LINK and nest on every re-run.
-  var fontAsync = false;
-  if (out.indexOf("onload=\"this.media='all'\"") === -1 && FREDOKA_LINK.test(out)) {
-    out = out.replace(FREDOKA_LINK,
-      '<link href="$1" rel="stylesheet" media="print" onload="this.media=\'all\'">' +
-      '<noscript><link href="$1" rel="stylesheet"></noscript>');
-    fontAsync = true;
+  // Revert any async Fredoka link back to the plain render-blocking form (see note
+  // on FREDOKA_ASYNC). Idempotent: once reverted there is no async form to match.
+  var fontReverted = false;
+  if (FREDOKA_ASYNC.test(out)) {
+    out = out.replace(FREDOKA_ASYNC, '<link href="$1" rel="stylesheet">');
+    fontReverted = true;
   }
-  return { html: out, lazyAdded: lazyAdded, fontAsync: fontAsync };
+  return { html: out, lazyAdded: lazyAdded, fontReverted: fontReverted };
 }
 
 function listDeckDirs(decksRoot, locale, sampleN) {
@@ -95,8 +98,8 @@ function processDeck(deckDir, opts) {
   if (!fs.existsSync(htmlPath)) return { status: 'missing' };
   var raw = fs.readFileSync(htmlPath, 'utf8');
   var r = rewriteHtml(raw);
-  if (r.lazyAdded === 0 && !r.fontAsync) return { status: 'idempotent' };
-  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontAsync: r.fontAsync };
+  if (r.lazyAdded === 0 && !r.fontReverted) return { status: 'idempotent' };
+  if (opts.dryRun) return { status: 'would-rewrite', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted };
   var bak = htmlPath + '.bak.lazy-deckend';
   var tmp = htmlPath + '.tmp.lazy-deckend';
   try {
@@ -104,12 +107,12 @@ function processDeck(deckDir, opts) {
     fs.writeFileSync(tmp, r.html, 'utf8');
     fs.renameSync(tmp, htmlPath);
   } catch (e) { return { status: 'fs-error', error: e.message }; }
-  return { status: 'written', lazyAdded: r.lazyAdded, fontAsync: r.fontAsync };
+  return { status: 'written', lazyAdded: r.lazyAdded, fontReverted: r.fontReverted };
 }
 
 function main() {
   var opts = parseArgs(process.argv);
-  console.log('=== deck-end lazy-load + font-async retrofit ===');
+  console.log('=== deck-end lazy-load + font-revert retrofit ===');
   console.log('mode:       ' + (opts.dryRun ? 'DRY-RUN (no writes)' : 'APPLY (--confirm)'));
   console.log('decks-root: ' + opts.decksRoot);
   console.log('locales:    ' + opts.locales.join(', '));
@@ -121,20 +124,20 @@ function main() {
     listDeckDirs(opts.decksRoot, locale, opts.sample).forEach(function (deckDir) {
       var res = processDeck(deckDir, opts);
       t.total++;
-      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontAsync) t.fonts++; }
+      if (res.status === 'written' || res.status === 'would-rewrite') { t.rewrite++; t.lazyImgs += (res.lazyAdded || 0); if (res.fontReverted) t.fonts++; }
       else if (res.status === 'idempotent') t.idempotent++;
       else if (res.status === 'fs-error') { t.errors++; console.log('  ERROR ' + deckDir + ': ' + res.error); }
     });
     ['total', 'rewrite', 'idempotent', 'errors', 'lazyImgs', 'fonts'].forEach(function (k) { grand[k] += t[k]; });
     console.log('[' + locale + '] ' + t.total + ' decks; ' + (opts.dryRun ? t.rewrite + ' would-rewrite' : t.rewrite + ' written') +
-      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts async), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
+      ' (' + t.lazyImgs + ' imgs lazied, ' + t.fonts + ' fonts reverted), ' + t.idempotent + ' idempotent, ' + t.errors + ' errors');
   });
 
   console.log('\n=== Summary ===');
   console.log('Total decks:   ' + grand.total);
   console.log((opts.dryRun ? 'Would rewrite: ' : 'Rewritten:     ') + grand.rewrite);
   console.log('Imgs lazied:   ' + grand.lazyImgs);
-  console.log('Fonts async:   ' + grand.fonts);
+  console.log('Fonts reverted:' + grand.fonts);
   console.log('Idempotent:    ' + grand.idempotent);
   console.log('Errors:        ' + grand.errors);
   process.exit(grand.errors > 0 ? 1 : 0);

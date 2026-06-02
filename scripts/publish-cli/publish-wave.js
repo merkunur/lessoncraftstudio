@@ -30,9 +30,10 @@
  *                    JPEG) so non-square decks don't shift on load (mobile CLS).
  *                    Idempotent; runs AFTER alt-text (shares the same img tag).
  *   4c. LAZY-DECKEND — rewrite-deck-html-lazy-deckend.js. Lazy-loads the 6 below-fold
- *                    suggestion thumbnails (~900KB eager → deferred) + makes the
- *                    Fredoka font non-render-blocking. Zero quality loss; the fix that
- *                    takes deck mobile to ≥85. Idempotent.
+ *                    suggestion thumbnails (~900KB eager → deferred) — the fix that
+ *                    takes deck mobile to ≥85 — and keeps the Fredoka font
+ *                    render-blocking (reverts an earlier async build that caused
+ *                    font-swap CLS). Zero quality loss; idempotent.
  *   5. END-LINKS   — inject-deck-end-topic-links.js per wave locale. Backfills the
  *                    localized end-of-deck "Want more?" topic-links aside on any deck
  *                    missing it (idempotent) so every deck carries per-locale internal
@@ -258,11 +259,12 @@ function main() {
   }
 
   // STEP 4c — LAZY-DECKEND: lazy-load the 6 end-of-deck suggestion thumbnails
-  // (~900KB of below-fold PNGs were eager-loaded — ~83% of a deck's mobile bytes)
-  // + make the Fredoka font non-render-blocking. Both additive, idempotent, visually
-  // neutral. The win that takes deck mobile from ~70 to ≥85 (page-speed audit 2026-06).
-  // Runs after alt-text/img-dims and before hreflang (hreflang must stay last in <head>;
-  // this only rewrites the font <link> mid-head + the deckend <img> tags in <body>).
+  // (~900KB of below-fold PNGs were eager-loaded — ~83% of a deck's mobile bytes).
+  // The win that takes deck mobile from ~70 to ≥85 (page-speed audit 2026-06). Also
+  // keeps the Fredoka font render-blocking (reverts an async build that caused
+  // font-swap CLS on text-heavy decks). Idempotent, visually neutral. Runs after
+  // alt-text/img-dims and before hreflang (hreflang must stay last in <head>; this
+  // only touches the font <link> mid-head + the deckend <img> tags in <body>).
   if (!args.skipLazyDeckend) {
     runStep('LAZY-DECKEND — rewrite-deck-html-lazy-deckend', 'rewrite-deck-html-lazy-deckend.js', ['--confirm', `--locales=${localesCsv}`, `--decks-root=${args.decksRoot}`]);
   } else {

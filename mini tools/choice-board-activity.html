@@ -39,7 +39,10 @@
          items scale to fit inside fixed tile width. */
       .cb-cols-2 .cb-tile { width: 76px !important; max-width: 76px !important; max-height: 76px !important; }
       .cb-cols-4 .cb-tile { width: clamp(40px, 13vw, 56px) !important; max-width: 56px !important; max-height: 56px !important; }
-      .cb-tile-text { font-size: clamp(14px, 4.5vmin, 22px) !important; }
+      /* Pin phones to the original no-wrap behaviour so the core's
+         overflow-wrap (which covers the 600-767 gap + wide widths) cannot
+         alter phone rendering — phones stay byte-identical. */
+      .cb-tile-text { font-size: clamp(14px, 4.5vmin, 22px) !important; overflow-wrap: normal !important; hyphens: none !important; }
     }
 
     @media (min-width: 768px) {
@@ -77,7 +80,7 @@
 
   <!-- Shell first, then the shared choice-board core, then this activity wrapper. -->
   <script src="/mini-tools/lcs-shell.js?v=3"></script>
-  <script src="/mini-tools/choice-board-core.js?v=7"></script>
+  <script src="/mini-tools/choice-board-core.js?v=8"></script>
   <script src="/mini-tools/choice-board-activity.js?v=26"></script>
   <script>
     LCS.mount(ChoiceBoardActivity, { mount: '#lcs-root' });

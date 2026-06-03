@@ -674,5 +674,39 @@
       "no": "Barnet sorterer bilder i kategorier og teller deretter én gruppe – enkel og lekende mengdetrening for barnehagen. Helt gratis og morsom, i tråd med LK20."
     },
     "kid_prompt_template": "promptCountAnimals"
+  },
+  {
+    "id": "choice-board.describe-attribute.k-md-a-1",
+    "tool": "choice-board-activity",
+    "task_template": "describe-attribute",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "K.MD.A.1",
+      "grade": "K",
+      "strand": "Measurement & Data"
+    },
+    "params": {
+      "rounds": [
+        { "noun": "pencil",     "themeDir": "classroom",  "attribute": "long"  },
+        { "noun": "giraffe",    "themeDir": "animals",    "attribute": "tall"  },
+        { "noun": "rock",       "themeDir": "camping",    "attribute": "heavy" },
+        { "noun": "ruler",      "themeDir": "classroom",  "attribute": "long"  },
+        { "noun": "pine",       "themeDir": "tree",       "attribute": "tall"  },
+        { "noun": "pumpkin",    "themeDir": "vegetables", "attribute": "heavy" },
+        { "noun": "carrot",     "themeDir": "vegetables", "attribute": "long"  },
+        { "noun": "lighthouse", "themeDir": "beach",      "attribute": "tall"  }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "describe-measurable-attributes"
+    },
+    "page_title": {
+      "en": "Describe Measurable Attributes — Long, Tall, Heavy | Kindergarten Measurement"
+    },
+    "page_intro": {
+      "en": "Look at an object and tap the word that describes it — long, tall, or heavy. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.1 — describe measurable attributes of objects like length, height, and weight."
+    },
+    "kid_prompt_template": "promptDescribeAttribute"
   }
 ]

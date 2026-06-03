@@ -73,7 +73,7 @@
       "about": [
         "Kauan ennen kuin lapset tekevät kaavioita, he oppivat jäsentämään maailmaa lajittelemalla asioita ryhmiin. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy sekalainen joukko ystävällisiä kuvia — osa on eläimiä, osa hedelmiä, joskus mukana on kulkuneuvoja, kaikki sekaisin. Ohje nimeää yhden ryhmän, kuten eläimet, ja lapsi päättää, kuinka moni kuvista kuuluu siihen ryhmään, ja napauttaa sitten oikean lukumäärän.",
         "Kuvat ovat tarkoituksella sekaisin. Vastatakseen, kuinka monta eläintä joukossa on, lapsi ei voi vain laskea kaikkea — hänen on katsottava jokaista kuvaa, päätettävä mikä se on, jätettävä syrjään ne jotka eivät kuulu ryhmään ja laskettava vain kysytty ryhmä.",
-        "Harjoitus on OPS 2014:n mukainen osa-alueella {strand}. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä, vain rauhallista lajittelua ja laskemista."
+        "Harjoitus on OPS 2014:n mukainen mittaamisen ja tiedon osa-alueella. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä, vain rauhallista lajittelua ja laskemista."
       ],
       "practices": [
         "Katsoo sekalaista joukkoa ja päättää, mihin ryhmään kukin kuva kuuluu",
@@ -89,7 +89,7 @@
       "learningGoals": [
         "Lajitella kuvat ryhmiin ja laskea kunkin ryhmän määrä",
         "Erottaa nimetyn ryhmän lukumäärä koko joukon määrästä",
-        "Vahvistaa lajittelu- ja jäsentämistaitoja osa-alueen {strand} myöhempää työskentelyä varten"
+        "Vahvistaa lajittelu- ja jäsentämistaitoja mittaamisen ja tiedon myöhempää työskentelyä varten"
       ]
     }
   }

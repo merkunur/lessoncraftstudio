@@ -637,17 +637,20 @@
     "slug": {
       "en": "sort-and-count-by-category",
       "fi": "lajittele-ja-laske",
-      "de": "sortieren-und-zaehlen"
+      "de": "sortieren-und-zaehlen",
+      "fr": "classer-et-compter"
     },
     "page_title": {
       "en": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data",
       "fi": "Lajittele ja laske — ryhmittele ja laske kuvat | Esiopetuksen mittaaminen ja tieto",
-      "de": "Sortieren und Zählen — Tiere, Früchte und Fahrzeuge ordnen | Kindergarten"
+      "de": "Sortieren und Zählen — Tiere, Früchte und Fahrzeuge ordnen | Kindergarten",
+      "fr": "Classer et compter — les animaux, les fruits, les véhicules | Maternelle"
     },
     "page_intro": {
       "en": "Look at a mixed set of pictures, decide what each one is, then tap how many belong to the named group. A no-pressure Kindergarten activity aligned to Common Core K.MD.B.3 — classify objects into categories and count how many are in each.",
       "fi": "Lapsi katsoo sekalaista kuvajoukkoa, päättää mitkä kuuluvat nimettyyn ryhmään — kuten eläimiin — ja napauttaa oikean lukumäärän. Maksuton, OPS 2014:n mukainen lajittelu- ja laskemisharjoitus esiopetukseen.",
-      "de": "Sortieren und Zählen im Kindergarten: Kinder schauen sich einen bunten Bilderhaufen an, erkennen, welche Bilder zu einer Gruppe gehören, und tippen die passende Anzahl an — erst ordnen, dann zählen, abgestimmt auf den Lehrplan."
+      "de": "Sortieren und Zählen im Kindergarten: Kinder schauen sich einen bunten Bilderhaufen an, erkennen, welche Bilder zu einer Gruppe gehören, und tippen die passende Anzahl an — erst ordnen, dann zählen, abgestimmt auf den Lehrplan.",
+      "fr": "Activité gratuite de maternelle : l'enfant observe un tas d'images mélangées, choisit une seule catégorie — les animaux, les fruits ou les véhicules — puis compte uniquement les images de ce groupe et touche le bon nombre, selon les programmes officiels."
     },
     "kid_prompt_template": "promptCountAnimals"
   }

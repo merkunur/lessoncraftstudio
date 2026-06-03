@@ -548,6 +548,84 @@
           { "display": "<", "kind": "expr", "value": 1 },
           { "display": "263 ___ 236", "kind": "expanded", "value": 2 },
           { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "348 ___ 354", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "561 ___ 516", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "729 ___ 731", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "480 ___ 408", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "192 ___ 196", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "875 ___ 857", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "503 ___ 530", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "644 ___ 640", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "318 ___ 381", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "736 ___ 367", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "217 ___ 271", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "909 ___ 905", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "460 ___ 604", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "528 ___ 525", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "683 ___ 689", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "471 ___ 417", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "145 ___ 154", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "390 ___ 309", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "762 ___ 768", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "853 ___ 835", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "209 ___ 290", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "617 ___ 167", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "534 ___ 543", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "728 ___ 725", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
+        ] },
+        { "cards": [
+          { "display": "486 ___ 648", "kind": "expanded", "value": 1 },
+          { "display": "<", "kind": "expr", "value": 1 },
+          { "display": "951 ___ 915", "kind": "expanded", "value": 2 },
+          { "display": ">", "kind": "expr", "value": 2 }
         ] }
       ]
     },

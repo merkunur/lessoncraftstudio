@@ -640,7 +640,8 @@
       "de": "sortieren-und-zaehlen",
       "fr": "classer-et-compter",
       "es": "clasificar-y-contar",
-      "it": "classifica-e-conta"
+      "it": "classifica-e-conta",
+      "pt": "classificar-e-contar"
     },
     "page_title": {
       "en": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data",
@@ -648,7 +649,8 @@
       "de": "Sortieren und Zählen — Tiere, Früchte und Fahrzeuge ordnen | Kindergarten",
       "fr": "Classer et compter — les animaux, les fruits, les véhicules | Maternelle",
       "es": "Clasificar y contar por categorías — actividad interactiva | Jardín infantil",
-      "it": "Classifica e conta le categorie — Attività interattiva di ordinamento | Scuola dell'infanzia"
+      "it": "Classifica e conta le categorie — Attività interattiva di ordinamento | Scuola dell'infanzia",
+      "pt": "Classificar e contar — organize por categorias | Educação infantil"
     },
     "page_intro": {
       "en": "Look at a mixed set of pictures, decide what each one is, then tap how many belong to the named group. A no-pressure Kindergarten activity aligned to Common Core K.MD.B.3 — classify objects into categories and count how many are in each.",
@@ -656,7 +658,8 @@
       "de": "Sortieren und Zählen im Kindergarten: Kinder schauen sich einen bunten Bilderhaufen an, erkennen, welche Bilder zu einer Gruppe gehören, und tippen die passende Anzahl an — erst ordnen, dann zählen, abgestimmt auf den Lehrplan.",
       "fr": "Activité gratuite de maternelle : l'enfant trie une catégorie d'images mélangées, puis compte le groupe choisi, selon les programmes officiels.",
       "es": "Actividad interactiva gratuita: el niño ordena imágenes por categorías y cuenta un grupo. Desarrolla pensamiento lógico, alineada con el currículo oficial.",
-      "it": "Attività gratuita per ordinare e classificare immagini per categoria, poi contare gli elementi. Ideale per la scuola dell'infanzia. Conforme alle Indicazioni nazionali."
+      "it": "Attività gratuita per ordinare e classificare immagini per categoria, poi contare gli elementi. Ideale per la scuola dell'infanzia. Conforme alle Indicazioni nazionali.",
+      "pt": "Atividade interativa e gratuita: a criança classifica imagens por categoria e conta um grupo. Desenvolvimento do pensamento lógico. Alinhada à BNCC."
     },
     "kid_prompt_template": "promptCountAnimals"
   }

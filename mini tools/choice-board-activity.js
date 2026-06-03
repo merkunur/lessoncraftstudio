@@ -223,6 +223,7 @@ var ACTIVITY_STRINGS = {
     fr: 'Combien d\'animaux ?',
     es: '¿Cuántos animales?',
     it: 'Quanti animali?',
+    pt: 'Quantos animais?',
     fi: 'Kuinka monta eläintä?'
   },
   promptCountFruits: {
@@ -231,6 +232,7 @@ var ACTIVITY_STRINGS = {
     fr: 'Combien de fruits ?',
     es: '¿Cuántas frutas?',
     it: 'Quanti frutti?',
+    pt: 'Quantas frutas?',
     fi: 'Kuinka monta hedelmää?'
   },
   promptCountVehicles: {
@@ -239,6 +241,7 @@ var ACTIVITY_STRINGS = {
     fr: 'Combien de véhicules ?',
     es: '¿Cuántos vehículos?',
     it: 'Quanti veicoli?',
+    pt: 'Quantos veículos?',
     fi: 'Kuinka monta kulkuneuvoa?'
   },
   /* Neutral noun for the mixed-set's group aria-label ("6 objects") so the

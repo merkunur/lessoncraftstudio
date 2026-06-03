@@ -358,6 +358,9 @@ var SHAPE_LABELS = {
   },
   cone: {
     en:'cone',de:'Kegel',fr:'cône',it:'cono',es:'cono',pt:'cone',nl:'kegel',sv:'kon',da:'kegle',no:'kjegle',fi:'kartio'
+  },
+  pyramid: {
+    en:'pyramid',de:'Pyramide',fr:'pyramide',it:'piramide',es:'pirámide',pt:'pirâmide',nl:'piramide',sv:'pyramid',da:'pyramide',no:'pyramide',fi:'pyramidi'
   }
 };
 

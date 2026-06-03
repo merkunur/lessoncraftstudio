@@ -331,14 +331,16 @@
     },
     "params": {
       "shapes": [
-        { "key": "circle",   "kind": "2d" },
-        { "key": "cube",     "kind": "3d" },
-        { "key": "triangle", "kind": "2d" },
-        { "key": "sphere",   "kind": "3d" },
-        { "key": "square",   "kind": "2d" },
-        { "key": "cylinder", "kind": "3d" },
-        { "key": "hexagon",  "kind": "2d" },
-        { "key": "cone",     "kind": "3d" }
+        { "key": "circle",    "kind": "2d" },
+        { "key": "cube",      "kind": "3d" },
+        { "key": "triangle",  "kind": "2d" },
+        { "key": "sphere",    "kind": "3d" },
+        { "key": "square",    "kind": "2d" },
+        { "key": "cylinder",  "kind": "3d" },
+        { "key": "hexagon",   "kind": "2d" },
+        { "key": "cone",      "kind": "3d" },
+        { "key": "rectangle", "kind": "2d" },
+        { "key": "pyramid",   "kind": "3d" }
       ]
     },
     "theme": null,

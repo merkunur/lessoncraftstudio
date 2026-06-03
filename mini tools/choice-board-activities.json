@@ -192,14 +192,24 @@
     },
     "params": {
       "pairs": [
-        { "noun": "cat",        "themeDir": "animals", "counts": [3, 5] },
-        { "noun": "dog",        "themeDir": "animals", "counts": [7, 4] },
-        { "noun": "apple",      "themeDir": "fruits",  "counts": [2, 6] },
-        { "noun": "fish",       "themeDir": "animals", "counts": [5, 8] },
-        { "noun": "duck",       "themeDir": "animals", "counts": [6, 3] },
-        { "noun": "strawberry", "themeDir": "fruits",  "counts": [3, 6] },
-        { "noun": "orange",     "themeDir": "fruits",  "counts": [4, 7] },
-        { "noun": "banana",     "themeDir": "fruits",  "counts": [8, 5] }
+        { "noun": "cat",        "themeDir": "animals",    "counts": [5, 4] },
+        { "noun": "dog",        "themeDir": "animals",    "counts": [8, 2] },
+        { "noun": "apple",      "themeDir": "fruits",     "counts": [7, 6] },
+        { "noun": "fish",       "themeDir": "animals",    "counts": [8, 3] },
+        { "noun": "duck",       "themeDir": "animals",    "counts": [6, 5] },
+        { "noun": "banana",     "themeDir": "fruits",     "counts": [7, 1] },
+        { "noun": "orange",     "themeDir": "fruits",     "counts": [4, 3] },
+        { "noun": "strawberry", "themeDir": "fruits",     "counts": [6, 2] },
+        { "noun": "rabbit",     "themeDir": "animals",    "counts": [8, 7] },
+        { "noun": "horse",      "themeDir": "animals",    "counts": [5, 1] },
+        { "noun": "pig",        "themeDir": "animals",    "counts": [7, 5] },
+        { "noun": "sheep",      "themeDir": "animals",    "counts": [3, 2] },
+        { "noun": "giraffe",    "themeDir": "animals",    "counts": [8, 4] },
+        { "noun": "pear",       "themeDir": "fruits",     "counts": [8, 6] },
+        { "noun": "lemon",      "themeDir": "fruits",     "counts": [2, 1] },
+        { "noun": "cherry",     "themeDir": "fruits",     "counts": [7, 3] },
+        { "noun": "carrot",     "themeDir": "vegetables", "counts": [6, 4] },
+        { "noun": "pumpkin",    "themeDir": "vegetables", "counts": [8, 1] }
       ]
     },
     "theme": null,

@@ -545,12 +545,18 @@
     },
     "params": {
       "rounds": [
-        { "noun": "pine",    "themeDir": "tree",       "attribute": "taller"  },
-        { "noun": "pencil",  "themeDir": "classroom",  "attribute": "longer"  },
-        { "noun": "candle",  "themeDir": "christmas",  "attribute": "shorter" },
-        { "noun": "carrot",  "themeDir": "vegetables", "attribute": "longer"  },
-        { "noun": "giraffe", "themeDir": "animals",    "attribute": "taller"  },
-        { "noun": "crayon",  "themeDir": "classroom",  "attribute": "shorter" }
+        { "noun": "pine",      "themeDir": "tree",       "attribute": "taller"  },
+        { "noun": "pencil",    "themeDir": "classroom",  "attribute": "longer"  },
+        { "noun": "candle",    "themeDir": "christmas",  "attribute": "shorter" },
+        { "noun": "carrot",    "themeDir": "vegetables", "attribute": "longer"  },
+        { "noun": "giraffe",   "themeDir": "animals",    "attribute": "taller"  },
+        { "noun": "crayon",    "themeDir": "classroom",  "attribute": "shorter" },
+        { "noun": "palm",      "themeDir": "tree",       "attribute": "taller"  },
+        { "noun": "ruler",     "themeDir": "classroom",  "attribute": "longer"  },
+        { "noun": "marker",    "themeDir": "classroom",  "attribute": "shorter" },
+        { "noun": "sunflower", "themeDir": "flowers",    "attribute": "taller"  },
+        { "noun": "cucumber",  "themeDir": "vegetables", "attribute": "longer"  },
+        { "noun": "corn",      "themeDir": "vegetables", "attribute": "shorter" }
       ]
     },
     "theme": null,

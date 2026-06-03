@@ -355,6 +355,7 @@ function makeEqualValueTasks(tasksRaw, idPrefix) {
    language-neutral. New locales add one block here, value-verified at build. */
 var THREE_FORM_WORDS = {
   en: {
+    605: 'six hundred five', 730: 'seven hundred thirty', 314: 'three hundred fourteen',
     247: 'two hundred forty-seven',  562: 'five hundred sixty-two',  305: 'three hundred five',
     836: 'eight hundred thirty-six', 481: 'four hundred eighty-one', 420: 'four hundred twenty',
     615: 'six hundred fifteen',      700: 'seven hundred',           208: 'two hundred eight',
@@ -365,6 +366,7 @@ var THREE_FORM_WORDS = {
      convention; ß; sechzig/siebzig. Value-verified vs _NUMBER_WORD_HELPERS.de
      2026-05-31 (15/15). */
   de: {
+    605: 'sechshundertfünf', 730: 'siebenhundertdreißig', 314: 'dreihundertvierzehn',
     247: 'zweihundertsiebenundvierzig', 562: 'fünfhundertzweiundsechzig',  305: 'dreihundertfünf',
     836: 'achthundertsechsunddreißig',  481: 'vierhunderteinundachtzig',   420: 'vierhundertzwanzig',
     615: 'sechshundertfünfzehn',        700: 'siebenhundert',              208: 'zweihundertacht',
@@ -377,6 +379,7 @@ var THREE_FORM_WORDS = {
      in compounds (ciento noventa); "uno" (not un) in card tails. Value-verified vs
      _NUMBER_WORD_HELPERS.es 2026-06-01 (15/15). */
   es: {
+    605: 'seiscientos cinco', 730: 'setecientos treinta', 314: 'trescientos catorce',
     247: 'doscientos cuarenta y siete', 562: 'quinientos sesenta y dos',    305: 'trescientos cinco',
     836: 'ochocientos treinta y seis',  481: 'cuatrocientos ochenta y uno', 420: 'cuatrocientos veinte',
     615: 'seiscientos quince',          700: 'setecientos',                 208: 'doscientos ocho',
@@ -390,6 +393,7 @@ var THREE_FORM_WORDS = {
      (353 trecentocinquantatré). Value-verified vs _NUMBER_WORD_HELPERS.it
      2026-06-01 (15/15). */
   it: {
+    605: 'seicentocinque', 730: 'settecentotrenta', 314: 'trecentoquattordici',
     247: 'duecentoquarantasette',  562: 'cinquecentosessantadue',  305: 'trecentocinque',
     836: 'ottocentotrentasei',     481: 'quattrocentottantuno',    420: 'quattrocentoventi',
     615: 'seicentoquindici',       700: 'settecento',              208: 'duecentotto',
@@ -405,6 +409,7 @@ var THREE_FORM_WORDS = {
      (353 trezentos e cinquenta e três). Value-verified vs _NUMBER_WORD_HELPERS.pt
      2026-06-01 (15/15). */
   pt: {
+    605: 'seiscentos e cinco', 730: 'setecentos e trinta', 314: 'trezentos e quatorze',
     247: 'duzentos e quarenta e sete',  562: 'quinhentos e sessenta e dois',  305: 'trezentos e cinco',
     836: 'oitocentos e trinta e seis',  481: 'quatrocentos e oitenta e um',   420: 'quatrocentos e vinte',
     615: 'seiscentos e quinze',         700: 'setecentos',                    208: 'duzentos e oito',
@@ -416,6 +421,7 @@ var THREE_FORM_WORDS = {
      cents); vigesimal 70s/90s; bare "cent" for h=1. Value-verified vs
      _NUMBER_WORD_HELPERS.fr 2026-05-31 (15/15). */
   fr: {
+    605: 'six cent cinq', 730: 'sept cent trente', 314: 'trois cent quatorze',
     247: 'deux cent quarante-sept',  562: 'cinq cent soixante-deux',      305: 'trois cent cinq',
     836: 'huit cent trente-six',     481: 'quatre cent quatre-vingt-un',  420: 'quatre cent vingt',
     615: 'six cent quinze',          700: 'sept cents',                   208: 'deux cent huit',
@@ -428,6 +434,7 @@ var THREE_FORM_WORDS = {
      bare "hundrede" for h=1. Value-verified vs _NUMBER_WORD_HELPERS.da
      2026-05-31 (15/15). [NSR-FLAG][da] */
   da: {
+    605: 'sekshundrede og fem', 730: 'syvhundrede og tredive', 314: 'trehundrede og fjorten',
     247: 'tohundrede og syvogfyrre',    562: 'femhundrede og toogtres',        305: 'trehundrede og fem',
     836: 'ottehundrede og seksogtredive',481: 'firehundrede og enogfirs',       420: 'firehundrede og tyve',
     615: 'sekshundrede og femten',      700: 'syvhundrede',                    208: 'tohundrede og otte',
@@ -439,6 +446,7 @@ var THREE_FORM_WORDS = {
      h=1; sju (7); "én" (acute) for 1 in tails. Value-verified vs
      _NUMBER_WORD_HELPERS.no 2026-05-31 (15/15). [NSR-FLAG][no] */
   no: {
+    605: 'sekshundreogfem', 730: 'sjuhundreogtretti', 314: 'trehundreogfjorten',
     247: 'tohundreogførtisju',     562: 'femhundreogsekstito',     305: 'trehundreogfem',
     836: 'åttehundreogtrettiseks', 481: 'firehundreogåttién',      420: 'firehundreogtjue',
     615: 'sekshundreogfemten',     700: 'sjuhundre',               208: 'tohundreogåtte',
@@ -451,6 +459,7 @@ var THREE_FORM_WORDS = {
      bare "hundra" for h=1; "ett" (neuter) for 1 in tails. Value-verified vs
      _NUMBER_WORD_HELPERS.sv 2026-05-31 (15/15). [NSR-FLAG][sv] */
   sv: {
+    605: 'sexhundrafem', 730: 'sjuhundratrettio', 314: 'trehundrafjorton',
     247: 'tvåhundrafyrtiosju',    562: 'femhundrasextiotvå',    305: 'trehundrafem',
     836: 'åttahundratrettiosex',  481: 'fyrahundraåttioett',    420: 'fyrahundratjugo',
     615: 'sexhundrafemton',       700: 'sjuhundra',             208: 'tvåhundraåtta',
@@ -463,6 +472,7 @@ var THREE_FORM_WORDS = {
      .mp-word break rail's hardest test). Value-verified vs
      _NUMBER_WORD_HELPERS.fi 2026-05-31 (15/15). [NSR-FLAG][fi] */
   fi: {
+    605: 'kuusisataaviisi', 730: 'seitsemänsataakolmekymmentä', 314: 'kolmesataaneljätoista',
     247: 'kaksisataaneljäkymmentäseitsemän', 562: 'viisisataakuusikymmentäkaksi',   305: 'kolmesataaviisi',
     836: 'kahdeksansataakolmekymmentäkuusi', 481: 'neljäsataakahdeksankymmentäyksi',420: 'neljäsataakaksikymmentä',
     615: 'kuusisataaviisitoista',            700: 'seitsemänsataa',                208: 'kaksisataakahdeksan',
@@ -474,6 +484,7 @@ var THREE_FORM_WORDS = {
      tails; honderd; bare "honderd" for h=1. Value-verified vs
      _NUMBER_WORD_HELPERS.nl 2026-05-31 (15/15). NL is NOT NSR (Germanic). */
   nl: {
+    605: 'zeshonderdvijf', 730: 'zevenhonderddertig', 314: 'driehonderdveertien',
     247: 'tweehonderdzevenenveertig', 562: 'vijfhonderdtweeënzestig',  305: 'driehonderdvijf',
     836: 'achthonderdzesendertig',    481: 'vierhonderdeenentachtig',  420: 'vierhonderdtwintig',
     615: 'zeshonderdvijftien',        700: 'zevenhonderd',             208: 'tweehonderdacht',

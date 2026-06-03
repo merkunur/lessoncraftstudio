@@ -339,6 +339,12 @@ var SHAPE_LABELS = {
   diamond: {
     en:'diamond',de:'Raute',fr:'losange',it:'rombo',es:'rombo',pt:'losango',nl:'ruit',sv:'romben',da:'rumben',no:'rombe',fi:'vinoneliötä'
   },
+  heart: {
+    en:'heart',de:'Herz',fr:'cœur',it:'cuore',es:'corazón',pt:'coração',nl:'hart',sv:'hjärtat',da:'hjertet',no:'hjertet',fi:'sydäntä'
+  },
+  pentagon: {
+    en:'pentagon',de:'Fünfeck',fr:'pentagone',it:'pentagono',es:'pentágono',pt:'pentágono',nl:'vijfhoek',sv:'femhörningen',da:'femkanten',no:'femkanten',fi:'viisikulmiota'
+  },
   /* 3D shapes — used as flat-solid subject ARIA labels. Not interpolated
      into promptTapShape (that template is 2D-only). */
   cube: {

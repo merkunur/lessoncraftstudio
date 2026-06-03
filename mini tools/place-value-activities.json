@@ -115,7 +115,7 @@
       "grade": "2",
       "strand": "Number and Operations in Base Ten"
     },
-    "params": { "targets": [247, 305, 463, 208, 736, 580] },
+    "params": { "targets": [108, 160, 200, 247, 305, 408, 420, 463, 500, 583, 604, 670, 702, 730, 836, 850, 906, 974] },
     "theme": null,
     "slug": {
       "en": "expanded-form",

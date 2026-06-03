@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Her teller barnet ditt fra 0 til 20 på en dobbel tierramme, og fyller rutene med frukt ett stykke om gangen. Den doble rammen gjør det lett å se tjue som én full tier og litt til.", "Når den første tierrammen er full, begynner barnet på den neste. På den måten vokser forståelsen av at tjue er ti og ti, en tidlig og viktig smakebit på posisjonssystemet (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske de større tallene uten stress. I rolig tempo blir også tallene opp til 20 trygge og forståelige."],
     "ten-frame.how-many.0-10.animals": ["I denne aktiviteten ser barnet ditt på en tierramme med dyr og svarer på hvor mange det er, med tall fra 0 til 10. Den faste strukturen i rammen hjelper barnet å få oversikt raskt.", "Fordi rutene alltid er ordnet likt, lærer barnet å oppfatte antallet med en gang, uten å telle hvert dyr for seg. Denne evnen til å se antall i et øyeblikk er en viktig grunnstein, og den øves her gjennom K.CC.B.5.", "Det er ingen tidtaker og ingen poeng, så barnet kan se og tenke i fred og ro. Da blir det lettere å stole på sitt eget blikk og svare med trygghet."],
     "ten-frame.write-numeral.0-20.fruits": ["Her teller barnet ditt frukten på en dobbel tierramme og skriver deretter tallet som passer, fra 0 til 20. Slik kobles mengden barnet ser, sammen med det skrevne tallet.", "Tierrammen gjør mengden tydelig og oversiktlig, og når barnet skriver tallet, knyttes antallet til selve tallsymbolet. Nettopp denne koblingen er kjernen i K.CC.A.3.", "Det er ingen tidtaker og ingen poeng, så barnet kan telle og skrive i sitt eget tempo. Roen gir rom for virkelig å forstå hva hvert tall betyr."],
-    "ten-frame.teen-numbers.make-n": ["Her bygger barnet ditt tallene fra 11 til 19 på en dobbel tierramme, som én full tier og noen enere til. Ved å sette sammen tallet selv ser barnet tydelig hvordan det er bygd opp.", "Når den første tierrammen er full, blir det klart at for eksempel 14 er ti og fire. Denne forståelsen er et sterkt grunnlag for posisjonssystemet og følger LK20.", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske tallene mellom 10 og 20 i ro og mak. Det gir tid til å oppdage at hvert av disse tallene er en tier og litt mer."]
+    "ten-frame.teen-numbers.make-n": ["Her bygger barnet ditt tallene fra 11 til 19 på en dobbel tierramme, som én full tier og noen enere til. Ved å sette sammen tallet selv ser barnet tydelig hvordan det er bygd opp.", "Når den første tierrammen er full, blir det klart at for eksempel 14 er ti og fire. Denne forståelsen er et sterkt grunnlag for posisjonssystemet og følger LK20.", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske tallene mellom 10 og 20 i ro og mak. Det gir tid til å oppdage at hvert av disse tallene er en tier og litt mer."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Barn lærer å ordne verden rundt seg ved å samle ting i grupper. På skjermen dukker det opp en blandet haug med vennlige bilder — dyr, frukter, noen ganger kjøretøy, alt sammen blandet. Oppgaven nevner én gruppe, og barnet bestemmer hvor mange som hører med, og trykker så på tallet.",
+        "Haugen er blandet med vilje. For å svare på \"hvor mange dyr?\" kan barnet ikke bare telle alt sammen. Det må se nøye på hvert bilde, bestemme hva det er, legge til side det som ikke hører med, og bare telle den gruppen som ble nevnt.",
+        "Aktiviteten følger LK20 innenfor området {strand}. Barna sorterer og teller i sitt eget tempo med rolige tilbakemeldinger med en gang — ingen tidtaking, ingen poeng, bare stille og rolig sortering og telling."
+      ],
+      "practices": [
+        "Kjenne igjen hvilken gruppe hvert bilde hører til.",
+        "Telle bare den gruppen som blir nevnt, og se bort fra resten.",
+        "Skille tallet for én gruppe fra antallet i hele haugen.",
+        "Øve på vanen med å sortere først og telle etterpå til senere arbeid med data."
+      ],
+      "howToPlay": [
+        "Se på den blandede haugen og hør eller les hvilken gruppe som blir nevnt.",
+        "Bestem hvor mange som hører med, og trykk på tallet.",
+        "En varm sjekk forteller hvordan det gikk, og det er lett å prøve igjen."
+      ],
+      "learningGoals": [
+        "Sortere bilder i grupper og telle hver gruppe for seg.",
+        "Skille tallet for en nevnt gruppe fra antallet i hele haugen.",
+        "Bygge sorteringsferdigheter for senere arbeid innenfor området {strand}."
+      ]
+    }
   }
 }

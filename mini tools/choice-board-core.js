@@ -277,7 +277,7 @@ window.ChoiceBoardCore = {
       '  line-height:1;letter-spacing:-0.02em;',
       '  pointer-events:none;user-select:none;',
       '  text-align:center;',
-      '  overflow-wrap:break-word;hyphens:auto;max-width:100%;',
+      '  overflow-wrap:anywhere;hyphens:auto;max-width:100%;',
       '}',
 
       /* Group tile — used by which-more. Renders N small copies of an

@@ -678,6 +678,74 @@
             { "noun": "banana",     "themeDir": "fruits",  "cat": "fruits"  },
             { "noun": "apple",      "themeDir": "fruits",  "cat": "fruits"  }
           ]
+        },
+        {
+          "target": "vehicles",
+          "items": [
+            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "truck",      "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "train",      "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "apple",      "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "banana",     "themeDir": "fruits",   "cat": "fruits"   }
+          ]
+        },
+        {
+          "target": "animals",
+          "items": [
+            { "noun": "owl",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "fox",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "elephant",   "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "car",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "truck",      "themeDir": "vehicles", "cat": "vehicles" }
+          ]
+        },
+        {
+          "target": "fruits",
+          "items": [
+            { "noun": "peach",      "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "pineapple",  "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "watermelon", "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "cherry",     "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "horse",      "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "pig",        "themeDir": "animals",  "cat": "animals"  }
+          ]
+        },
+        {
+          "target": "vehicles",
+          "items": [
+            { "noun": "airplane",   "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "boat",       "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "helicopter", "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "turtle",     "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "owl",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "fox",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "rabbit",     "themeDir": "animals",  "cat": "animals"  }
+          ]
+        },
+        {
+          "target": "animals",
+          "items": [
+            { "noun": "cat",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "dog",        "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "duck",       "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "fish",       "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "rabbit",     "themeDir": "animals",  "cat": "animals"  },
+            { "noun": "orange",     "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "lemon",      "themeDir": "fruits",   "cat": "fruits"   }
+          ]
+        },
+        {
+          "target": "fruits",
+          "items": [
+            { "noun": "strawberry", "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "pear",       "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "lemon",      "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "cherry",     "themeDir": "fruits",   "cat": "fruits"   },
+            { "noun": "bus",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "van",        "themeDir": "vehicles", "cat": "vehicles" },
+            { "noun": "taxi",       "themeDir": "vehicles", "cat": "vehicles" }
+          ]
         }
       ]
     },

@@ -208,29 +208,33 @@ var ACTIVITY_STRINGS = {
      objects (≥2 categories, interleaved), the prompt names ONE category,
      and they tap how many objects belong to it. Classify-then-count —
      structurally distinct from how-many-group (K.CC.B.5, homogeneous set)
-     and which-more (K.CC.C.6, magnitude compare). {category} is filled
-     from CATEGORY_LABELS below. EN ships + is verified now; the non-EN
-     entries are fan-out-ready (a follow-on commission NSR-reviews them:
-     gender agreement es/it/pt, elision fr "d'animaux", partitive-singular
-     fi "eläintä", Nordic per §17.5.1). */
-  promptHowManyCategory: {
-    en: 'How many {category}?',
-    de: 'Wie viele {category}?',
-    fr: 'Combien de {category} ?',
-    it: 'Quanti {category}?',
-    es: '¿Cuántos {category}?',
-    pt: 'Quantos {category}?',
-    nl: 'Hoeveel {category}?',
-    sv: 'Hur många {category}?',
-    da: 'Hvor mange {category}?',
-    no: 'Hvor mange {category}?',
-    fi: 'Kuinka monta {category}?'
+     and which-more (K.CC.C.6, magnitude compare).
+
+     PER-CATEGORY FULL prompt strings (not a {category} template) so every
+     locale is grammatically perfect — fi partitive-singular, fr elision,
+     es/pt gendered interrogative — per §A.13.54 (author-correct, don't
+     inflect fragilely). The sort-count branch picks promptCount<Category>
+     by the round's target. Locales are added one per fan-out commit; an
+     unpopulated locale has no published slug yet, so the EN fallback never
+     reaches a live non-EN page. */
+  promptCountAnimals: {
+    en: 'How many animals?',
+    fi: 'Kuinka monta eläintä?'
+  },
+  promptCountFruits: {
+    en: 'How many fruits?',
+    fi: 'Kuinka monta hedelmää?'
+  },
+  promptCountVehicles: {
+    en: 'How many vehicles?',
+    fi: 'Kuinka monta kulkuneuvoa?'
   },
   /* Neutral noun for the mixed-set's group aria-label ("6 objects") so the
-     screen-reader summary never leaks per-category counts (the answer). */
+     screen-reader summary never leaks per-category counts (the answer).
+     fi uses partitive-singular "esinettä" (reads correctly after a count). */
   labelObjects: {
     en: 'objects', de: 'Objekte', fr: 'objets', it: 'oggetti', es: 'objetos', pt: 'objetos',
-    nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esineet'
+    nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esinettä'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',
@@ -311,20 +315,6 @@ var SHAPE_LABELS = {
 var FLATTENED_SHAPE_LABELS = {};
 Object.keys(SHAPE_LABELS).forEach(function (key) {
   FLATTENED_SHAPE_LABELS['shapeLabel_' + key] = SHAPE_LABELS[key];
-});
-
-/* Category labels (plural) — interpolated into promptHowManyCategory via
-   {category} for the sort-count (K.MD.B.3) template. EN verified; non-EN
-   fan-out-ready (NSR pass refines gender/partitive/elision per the prompt
-   note above). Flattened to catLabel_<key> like the shape labels. */
-var CATEGORY_LABELS = {
-  animals:  {en:'animals', de:'Tiere', fr:'animaux', it:'animali', es:'animales', pt:'animais', nl:'dieren', sv:'djur', da:'dyr', no:'dyr', fi:'eläimet'},
-  fruits:   {en:'fruits', de:'Früchte', fr:'fruits', it:'frutti', es:'frutas', pt:'frutas', nl:'stukken fruit', sv:'frukter', da:'frugter', no:'frukter', fi:'hedelmät'},
-  vehicles: {en:'vehicles', de:'Fahrzeuge', fr:'véhicules', it:'veicoli', es:'vehículos', pt:'veículos', nl:'voertuigen', sv:'fordon', da:'køretøjer', no:'kjøretøy', fi:'ajoneuvot'}
-};
-var FLATTENED_CATEGORY_LABELS = {};
-Object.keys(CATEGORY_LABELS).forEach(function (key) {
-  FLATTENED_CATEGORY_LABELS['catLabel_' + key] = CATEGORY_LABELS[key];
 });
 
 /* Static demo set used when /mini-tools/choice-board-activity.html is
@@ -500,7 +490,7 @@ function buildSortCountTiles(correct, total, otherCounts, seed) {
 
 window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
   id: 'choice-board-activity',
-  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, FLATTENED_CATEGORY_LABELS, {
+  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, {
     title: {en:'Choice Activity',de:'Auswahlaufgabe',fr:'Activité de choix',it:'Attività di scelta',es:'Actividad de elección',pt:'Atividade de escolha',nl:'Keuzeactiviteit',sv:'Valövning',da:'Valgøvelse',no:'Valgøvelse',fi:'Valintatehtävä'},
     instruction: {en:'Follow the prompt. Tap Check when you’re ready.',de:'Folge der Aufforderung. Tippe Prüfen, wenn du fertig bist.',fr:'Suis la consigne. Tape Vérifier quand tu es prêt.',it:'Segui l’istruzione. Tocca Verifica quando sei pronto.',es:'Sigue la indicación. Toca Comprobar cuando estés listo.',pt:'Siga a instrução. Toque em Verificar quando estiver pronto.',nl:'Volg de opdracht. Tik op Controleer als je klaar bent.',sv:'Följ uppmaningen. Tryck på Kontrollera när du är klar.',da:'Følg opgaven. Tryk på Tjek, når du er klar.',no:'Følg oppgaven. Trykk på Sjekk når du er klar.',fi:'Seuraa ohjetta. Paina Tarkista, kun olet valmis.'}
   }),
@@ -903,8 +893,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         });
         return {
           id: row.id + '.' + target + '-' + idx,
-          promptKey: 'promptHowManyCategory',
-          promptArgs: { category: self.api.t('catLabel_' + target) },
+          promptKey: 'promptCount' + target.charAt(0).toUpperCase() + target.slice(1),
           answerType: 'state',
           setup: function (tool) {
             var tiles = buildSortCountTiles(correct, total, otherCounts, (pileSeed ^ 0x9E3779B9) | 0);

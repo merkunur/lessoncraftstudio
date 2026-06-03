@@ -43,6 +43,7 @@ const EN_STRAND_NAMES = [
   'Counting & Cardinality',
   'Operations & Algebraic Thinking',
   'Geometry',
+  'Measurement & Data',
   'Number & Operations in Base Ten',
   'Number and Operations in Base Ten',
   'Reading: Foundational Skills',

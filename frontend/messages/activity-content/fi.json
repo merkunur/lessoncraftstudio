@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Tässä tehtävässä lapsesi laskee luvut 0–20 kaksoiskymmenruudukolla asettamalla hedelmiä ruutuihin yksi kerrallaan. Kaksi ruudukkoa tekevät näkyväksi, että kaksikymmentä on yksi täysi kymmenen ja vähän lisää.", "Kun ensimmäinen kymmenruudukko täyttyy ja toinen alkaa täyttyä, lapsi alkaa hahmottaa kymmenten merkitystä. Tämä on lempeä ensiaskel paikka-arvon ymmärtämiseen (K.CC.B.4).", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi voi tutkia suurempia lukuja ilman kiirettä. Rauhassa myös luvut kahteenkymmeneen asti muuttuvat selkeiksi ja turvallisiksi."],
     "ten-frame.how-many.0-10.animals": ["Tässä tehtävässä lapsesi katsoo kymmenruudukolla olevia eläimiä ja vastaa, kuinka monta niitä on, lukualueella 0–10. Ruudukon selkeä rakenne auttaa hahmottamaan määrän nopeasti.", "Koska ruudut ovat aina samalla tavalla järjestyksessä, lapsi oppii tunnistamaan lukumäärän yhdellä silmäyksellä laskematta jokaista eläintä erikseen. Tämä nopea hahmottaminen on tärkeä perusta, ja sitä harjoitellaan tässä standardin K.CC.B.5 mukaisesti.", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa katsoa ja ajatella ihan rauhassa. Silloin on helpompi luottaa omaan havaintoon ja vastata levollisin mielin."],
     "ten-frame.write-numeral.0-20.fruits": ["Tässä tehtävässä lapsesi laskee hedelmät kaksoiskymmenruudukolla ja kirjoittaa sitten sopivan numeron, lukualueella 0–20. Näin nähty määrä yhdistyy kirjoitettuun lukuun.", "Kymmenruudukko tekee määrästä selkeän ja helposti hahmotettavan, ja numeron kirjoittaminen liittää lukumäärän sen omaan merkkiin. Juuri tämä yhteys on standardin K.CC.A.3 ydin.", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa laskea ja kirjoittaa omaan tahtiinsa. Rauhassa ehtii oivaltaa, mitä kukin numero todella tarkoittaa."],
-    "ten-frame.teen-numbers.make-n": ["Tässä tehtävässä lapsesi rakentaa luvut 11–19 kaksoiskymmenruudukolla niin, että jokainen luku on yksi täysi kymmenen ja muutama ykkönen lisää. Kun lapsi kokoaa luvun itse, sen rakenne tulee selvästi näkyviin.", "Kun ensimmäinen kymmenruudukko on täynnä, lapsi näkee, että esimerkiksi 14 on kymmenen ja neljä. Tämä ymmärrys on vahva perusta paikka-arvolle ja noudattaa standardia K.NBT.A.1.", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa tutkia lukuja 10 ja 20 väliltä ihan rauhassa. Näin ehtii oivaltaa, että jokainen näistä luvuista on kymmenen ja vähän lisää."]
+    "ten-frame.teen-numbers.make-n": ["Tässä tehtävässä lapsesi rakentaa luvut 11–19 kaksoiskymmenruudukolla niin, että jokainen luku on yksi täysi kymmenen ja muutama ykkönen lisää. Kun lapsi kokoaa luvun itse, sen rakenne tulee selvästi näkyviin.", "Kun ensimmäinen kymmenruudukko on täynnä, lapsi näkee, että esimerkiksi 14 on kymmenen ja neljä. Tämä ymmärrys on vahva perusta paikka-arvolle ja noudattaa standardia K.NBT.A.1.", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa tutkia lukuja 10 ja 20 väliltä ihan rauhassa. Näin ehtii oivaltaa, että jokainen näistä luvuista on kymmenen ja vähän lisää."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Kauan ennen kuin lapset tekevät kaavioita, he oppivat jäsentämään maailmaa lajittelemalla asioita ryhmiin. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy sekalainen joukko ystävällisiä kuvia — osa on eläimiä, osa hedelmiä, joskus mukana on kulkuneuvoja, kaikki sekaisin. Ohje nimeää yhden ryhmän, kuten eläimet, ja lapsi päättää, kuinka moni kuvista kuuluu siihen ryhmään, ja napauttaa sitten oikean lukumäärän.",
+        "Kuvat ovat tarkoituksella sekaisin. Vastatakseen, kuinka monta eläintä joukossa on, lapsi ei voi vain laskea kaikkea — hänen on katsottava jokaista kuvaa, päätettävä mikä se on, jätettävä syrjään ne jotka eivät kuulu ryhmään ja laskettava vain kysytty ryhmä.",
+        "Harjoitus on OPS 2014:n mukainen osa-alueella {strand}. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä, vain rauhallista lajittelua ja laskemista."
+      ],
+      "practices": [
+        "Katsoo sekalaista joukkoa ja päättää, mihin ryhmään kukin kuva kuuluu",
+        "Laskee vain nimetyn ryhmän ja jättää muut huomiotta",
+        "Erottaa yhden ryhmän lukumäärän koko joukon määrästä",
+        "Harjoittelee lajittele ensin, laske sitten -tapaa tulevaa tiedon käsittelyä ja kaavioita varten"
+      ],
+      "howToPlay": [
+        "Katso sekalaista kuvajoukkoa ja kuuntele tai lue ohje, joka nimeää yhden ryhmän",
+        "Päätä kuinka moni kuva kuuluu siihen ryhmään ja napauta oikeaa lukumäärää",
+        "Saat lämpimän tarkistuksen — ja voit yrittää helposti uudelleen"
+      ],
+      "learningGoals": [
+        "Lajitella kuvat ryhmiin ja laskea kunkin ryhmän määrä",
+        "Erottaa nimetyn ryhmän lukumäärä koko joukon määrästä",
+        "Vahvistaa lajittelu- ja jäsentämistaitoja osa-alueen {strand} myöhempää työskentelyä varten"
+      ]
+    }
   }
 }

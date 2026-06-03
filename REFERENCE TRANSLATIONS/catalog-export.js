@@ -1420,13 +1420,25 @@
         .replace(/>/g, '&gt;');
     }
 
-    // HTML-escape the localized attribution strings at generation time so the
-    // snippet output is HTML-safe when pasted into a host page. The textarea
-    // shows the escaped form; copy-paste preserves it; browser renders normally.
-    var attribPrefixHtml = escHtml(attribPrefix);
-    var attribBrandHtml = escHtml(attribBrand);
-    var attribSeparatorHtml = escHtml(attribSeparator);
-    var attribKeywordHtml = escHtml(attribKeyword);
+    // Numeric-entity-encode every non-ASCII char so the snippet's visible
+    // caption + iframe title render correctly when the snippet is pasted onto a
+    // host page of ANY charset. Raw UTF-8 mojibakes on a non-UTF-8 host
+    // (å → Ã¥, — → â€"); numeric entities (&#229; / &#8212;) are charset-
+    // independent. Applied AFTER escHtml/escAttr so the entity ampersands are
+    // not re-escaped; output is pure ASCII.
+    function escEntities(s) {
+      return String(s == null ? '' : s)
+        .replace(/[-￿]/g, function (c) { return '&#' + c.charCodeAt(0) + ';'; });
+    }
+
+    // HTML-escape THEN entity-encode the localized attribution strings at
+    // generation time so the copied snippet is HTML-safe AND charset-independent
+    // on the host page. (The in-deck dialog labels render inside deck.html's own
+    // UTF-8 context and are never copied, so they are left as-is.)
+    var attribPrefixHtml = escEntities(escHtml(attribPrefix));
+    var attribBrandHtml = escEntities(escHtml(attribBrand));
+    var attribSeparatorHtml = escEntities(escHtml(attribSeparator));
+    var attribKeywordHtml = escEntities(escHtml(attribKeyword));
 
     return [
       '<div class="lcs-embed-wrap">',
@@ -1503,7 +1515,7 @@
       'var keywordText=' + JSON.stringify(attribKeywordHtml) + ';',
       // Iframe title for WCAG accessible name; baked at gen time per
       // deck's content locale. escAttr applied at emission below.
-      'var iframeTitle=' + JSON.stringify(escAttr(iframeTitle)) + ';',
+      'var iframeTitle=' + JSON.stringify(escEntities(escAttr(iframeTitle))) + ';',
       // Read deck canvas dimensions from DECK_BUNDLE.page at runtime to
       // compute exact-fit iframe height. Empirical chrome=200 lets the
       // sticky-bottom Check Answers footer pull UP over the lcs-app

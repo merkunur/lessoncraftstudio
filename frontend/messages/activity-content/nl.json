@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Hier telt uw kind van 0 tot 20 op een dubbel tienraam en legt daarbij stukjes fruit in de vakjes. Door telkens een fruitje toe te voegen, krijgt elk getal een duidelijke en zichtbare vorm.", "Het dubbele tienraam maakt iets belangrijks zichtbaar: twintig is eigenlijk \"één volle tien en nog wat erbij\". Deze manier van kijken legt al vroeg de basis voor het tientallig stelsel en het rekenen met grotere getallen.", "Omdat er geen timer en geen score is, kan uw kind in alle rust ontdekken hoe de getallen tot 20 zijn opgebouwd. De activiteit hoort bij de kerndoelen, waarbij de hoeveelheid verder dan tien wordt verkend."],
     "ten-frame.how-many.0-10.animals": ["In deze activiteit kijkt uw kind naar diertjes op een tienraam en zegt hoeveel het er zijn, in het bereik van 0 tot 10. De vaste opbouw van het tienraam helpt om de hoeveelheid snel te overzien.", "Doordat de vakjes altijd hetzelfde geordend zijn, leert uw kind hoeveelheden in één oogopslag herkennen zonder elk diertje opnieuw te tellen. Dit snelle herkennen, ook wel subiteren genoemd, is een belangrijke stap in de rekenontwikkeling.", "Er is geen timer en geen score, dus uw kind mag rustig kijken en nadenken. De activiteit sluit aan bij de kerndoelen, waarbij kinderen leren antwoorden op de vraag \"hoeveel zijn het er?\"."],
     "ten-frame.write-numeral.0-20.fruits": ["Bij deze activiteit telt uw kind het fruit op een dubbel tienraam en schrijft daarna het bijbehorende getal van 0 tot 20. Zo wordt een hoeveelheid die je ziet, omgezet in een getal dat je opschrijft.", "Het tienraam helpt uw kind om de hoeveelheid overzichtelijk te houden en koppelt die daarna aan het juiste cijfer. Hierdoor gaat uw kind voelen dat een geschreven getal echt voor een bepaalde hoeveelheid staat.", "Er is geen timer en geen score, zodat uw kind zorgvuldig kan tellen en schrijven. De activiteit hoort bij de kerndoelen, waarbij een hoeveelheid voorwerpen met een geschreven getal wordt weergegeven."],
-    "ten-frame.teen-numbers.make-n": ["Hier bouwt uw kind de getallen 11 tot 19 op een dubbel tienraam, telkens als \"een volle tien en nog een paar erbij\". Door deze getallen zelf te maken, worden ze veel begrijpelijker.", "Het tienraam laat duidelijk zien dat bijvoorbeeld 14 bestaat uit tien en vier. Juist deze getallen tussen tien en twintig zijn vaak lastig, en deze opbouw legt een stevige basis voor het tientallig stelsel.", "Omdat er geen timer en geen score is, kan uw kind rustig oefenen en ontdekken. De activiteit sluit aan bij de kerndoelen, waarbij de opbouw van de getallen 11 tot 19 centraal staat."]
+    "ten-frame.teen-numbers.make-n": ["Hier bouwt uw kind de getallen 11 tot 19 op een dubbel tienraam, telkens als \"een volle tien en nog een paar erbij\". Door deze getallen zelf te maken, worden ze veel begrijpelijker.", "Het tienraam laat duidelijk zien dat bijvoorbeeld 14 bestaat uit tien en vier. Juist deze getallen tussen tien en twintig zijn vaak lastig, en deze opbouw legt een stevige basis voor het tientallig stelsel.", "Omdat er geen timer en geen score is, kan uw kind rustig oefenen en ontdekken. De activiteit sluit aan bij de kerndoelen, waarbij de opbouw van de getallen 11 tot 19 centraal staat."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Kinderen leren de wereld om zich heen ordenen door dingen in groepen te sorteren. Op het scherm verschijnt een bonte stapel vriendelijke plaatjes — dieren, fruit, soms voertuigen, allemaal lekker door elkaar. De opdracht noemt één groep, en het kind bepaalt zelf hoeveel plaatjes erbij horen en tikt dan het juiste getal aan.",
+        "De plaatjes staan expres door elkaar. Om de vraag \"hoeveel dieren?\" te beantwoorden kan het kind niet zomaar alles tellen. Het moet goed naar elk plaatje kijken, beslissen wat het is, opzij leggen wat er niet bij hoort, en alleen de genoemde groep tellen. Sorteren komt eerst, tellen komt daarna.",
+        "De activiteit sluit aan bij de kerndoelen binnen het domein {strand}. Kinderen sorteren en tellen op hun eigen tempo, met rustige, directe feedback — geen timer, geen score, gewoon rustig sorteren en tellen."
+      ],
+      "practices": [
+        "Herken de categorie van elk plaatje: is dit een dier, een stuk fruit of een voertuig?",
+        "Tel alleen de genoemde groep en negeer rustig de plaatjes die er niet bij horen.",
+        "Onderscheid het aantal van één groep van het totaal aantal plaatjes op het scherm.",
+        "Bouw de gewoonte op om eerst te sorteren en dan pas te tellen — een handige stap voor later werk met gegevens."
+      ],
+      "howToPlay": [
+        "Kijk goed naar de gemengde stapel plaatjes en hoor of lees welke groep wordt genoemd.",
+        "Bepaal hoeveel plaatjes bij die groep horen en tik het juiste getal aan.",
+        "Een warme controle laat zien of het klopt, en opnieuw proberen gaat heel makkelijk."
+      ],
+      "learningGoals": [
+        "Plaatjes indelen in categorieën en elke groep apart tellen.",
+        "Het aantal van een genoemde groep onderscheiden van het totaal.",
+        "Sorteervaardigheden opbouwen voor later werk binnen het domein {strand}."
+      ]
+    }
   }
 }

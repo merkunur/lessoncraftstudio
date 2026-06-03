@@ -268,15 +268,16 @@ window.ChoiceBoardCore = {
       /* Text tile — used by pick-bigger / count-sides. The option's
          text content is rendered as a big display-font glyph. Same
          tile chassis as image tile; just different content. */
-      '.cb-tile--text{}',
+      '.cb-tile--text{min-width:0;}',
       '.cb-tile-text{',
       '  font-family:var(--lcs-font-display);',
       '  font-weight:800;',
-      '  font-size:clamp(40px,11vmin,72px);',
+      '  font-size:clamp(40px,11vmin,54px);',
       '  color:var(--lcs-structure);',
       '  line-height:1;letter-spacing:-0.02em;',
       '  pointer-events:none;user-select:none;',
       '  text-align:center;',
+      '  overflow-wrap:anywhere;hyphens:auto;max-width:100%;',
       '}',
 
       /* Group tile — used by which-more. Renders N small copies of an

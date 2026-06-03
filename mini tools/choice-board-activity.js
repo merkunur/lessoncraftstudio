@@ -263,6 +263,24 @@ var ACTIVITY_STRINGS = {
     en: 'objects', de: 'Dinge', fr: 'images', it: 'oggetti', es: 'objetos', pt: 'objetos',
     nl: 'voorwerpen', sv: 'bilder', da: 'billeder', no: 'bilder', fi: 'esinettä'
   },
+  /* Activity 11 K.MD.A.1 — Describe Measurable Attributes. Show ONE object;
+     the kid taps the measurement-attribute WORD (long / tall / heavy =
+     length / height / weight) that describes it. Curated single-salient
+     objects only (pencil→long, giraffe→tall, rock→heavy) so exactly one
+     tile is defensible — describing a measurable attribute of a SINGLE
+     object, structurally distinct from compare-length (K.MD.A.2, compares
+     two instances) and sort-count (K.MD.B.3, classify-then-count).
+
+     EN-only ships now. i18n.t() resolves entry[locale] || entry.en, so the
+     non-EN locales fall back to the EN string until the native-ensemble
+     fan-out (§A.13.56) authors them; no non-EN slug is published yet, so
+     that EN fallback never reaches a live non-EN page. */
+  promptDescribeAttribute: {
+    en: 'Which word describes the {noun}?'
+  },
+  labelLong:  { en: 'Long'  },
+  labelTall:  { en: 'Tall'  },
+  labelHeavy: { en: 'Heavy' },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -344,6 +362,28 @@ Object.keys(SHAPE_LABELS).forEach(function (key) {
   FLATTENED_SHAPE_LABELS['shapeLabel_' + key] = SHAPE_LABELS[key];
 });
 
+/* Activity 11 K.MD.A.1 — display nouns interpolated into
+   promptDescribeAttribute via {noun}. The image path uses the vocab KEY
+   (round.noun); these are the human display labels, looked up as
+   nounLabel_<key> exactly like FLATTENED_SHAPE_LABELS above. EN authored
+   now; non-EN fall back to EN via i18n.t() until the native-ensemble
+   fan-out localizes them from image-vocabulary.js + the article/plural
+   system. */
+var NOUN_LABELS = {
+  pencil:     { en: 'pencil' },
+  ruler:      { en: 'ruler' },
+  carrot:     { en: 'carrot' },
+  giraffe:    { en: 'giraffe' },
+  pine:       { en: 'pine tree' },
+  lighthouse: { en: 'lighthouse' },
+  rock:       { en: 'rock' },
+  pumpkin:    { en: 'pumpkin' }
+};
+var FLATTENED_NOUN_LABELS = {};
+Object.keys(NOUN_LABELS).forEach(function (key) {
+  FLATTENED_NOUN_LABELS['nounLabel_' + key] = NOUN_LABELS[key];
+});
+
 /* Static demo set used when /mini-tools/choice-board-activity.html is
    loaded directly without ?activity= (testability + sanity check). */
 var STATIC_DEMO_TASKS = [
@@ -401,6 +441,35 @@ function injectCompareLengthCSS() {
   ].join('\n');
   var tag = document.createElement('style');
   tag.setAttribute('data-cb-compare-length', '');
+  tag.textContent = css;
+  document.head.appendChild(tag);
+}
+
+/* Activity 11 K.MD.A.1 — wrapper-owned 3-word-tile layout for
+   describe-attribute. The core sizes any >2-option board as cb-cols-4
+   (small square tiles built for single digits / small images), which
+   clips the word tiles "Long / Tall / Heavy" on narrow phones. We tag the
+   board .cb-attr3 in the render() override below and style it here as a
+   centered 3-up row of auto-height word tiles with a viewport-stable font
+   (vw, NOT vmin, per §A.13.47 rule 1 — iframe-relative vmin would run away
+   as auto-resize grows the iframe) that never overflows 280→768px. The
+   .cb-board.cb-attr3-scoped selectors (specificity 0,3,0) beat the
+   wrapper's .cb-cols-4 rules (0,2,0) regardless of inject order, and carry
+   !important per §A.13.47 rule 6. Touches NEITHER choice-board-core.js NOR
+   lcs-shell.css — all new visual logic lives in the activity layer, and the
+   .cb-attr3 class exists only for this template (one activity per iframe →
+   zero cross-activity contamination). */
+var _daCssInjected = false;
+function injectDescribeAttributeCSS() {
+  if (_daCssInjected) return;
+  _daCssInjected = true;
+  var css = [
+    '.cb-board.cb-attr3{grid-template-columns:repeat(3,1fr)!important;max-width:540px!important;gap:clamp(8px,2.2vw,16px)!important;}',
+    '.cb-board.cb-attr3 .cb-tile{aspect-ratio:auto!important;width:auto!important;max-width:none!important;max-height:none!important;min-height:clamp(64px,16vw,108px)!important;padding:clamp(10px,3vw,22px) clamp(6px,2vw,12px)!important;}',
+    '.cb-board.cb-attr3 .cb-tile-text{font-size:clamp(16px,5.4vw,34px)!important;white-space:nowrap!important;}'
+  ].join('\n');
+  var tag = document.createElement('style');
+  tag.setAttribute('data-cb-describe-attr', '');
   tag.textContent = css;
   document.head.appendChild(tag);
 }
@@ -517,7 +586,7 @@ function buildSortCountTiles(correct, total, otherCounts, seed) {
 
 window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
   id: 'choice-board-activity',
-  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, {
+  strings: Object.assign({}, ChoiceBoardCore.strings, ACTIVITY_STRINGS, FLATTENED_SHAPE_LABELS, FLATTENED_NOUN_LABELS, {
     title: {en:'Choice Activity',de:'Auswahlaufgabe',fr:'Activité de choix',it:'Attività di scelta',es:'Actividad de elección',pt:'Atividade de escolha',nl:'Keuzeactiviteit',sv:'Valövning',da:'Valgøvelse',no:'Valgøvelse',fi:'Valintatehtävä'},
     instruction: {en:'Follow the prompt. Tap Check when you’re ready.',de:'Folge der Aufforderung. Tippe Prüfen, wenn du fertig bist.',fr:'Suis la consigne. Tape Vérifier quand tu es prêt.',it:'Segui l’istruzione. Tocca Verifica quando sei pronto.',es:'Sigue la indicación. Toca Comprobar cuando estés listo.',pt:'Siga a instrução. Toque em Verificar quando estiver pronto.',nl:'Volg de opdracht. Tik op Controleer als je klaar bent.',sv:'Följ uppmaningen. Tryck på Kontrollera när du är klar.',da:'Følg opgaven. Tryk på Tjek, når du er klar.',no:'Følg oppgaven. Trykk på Sjekk når du er klar.',fi:'Seuraa ohjetta. Paina Tarkista, kun olet valmis.'}
   }),
@@ -946,6 +1015,65 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       });
     }
 
+    /* TEMPLATE: describe-attribute (K.MD.A.1, Measurement & Data) — show ONE
+       object as the image subject; the kid taps the measurement-attribute
+       WORD (long / tall / heavy = length / height / weight) that describes
+       it. Describes a measurable attribute of a SINGLE object — structurally
+       distinct from compare-length (K.MD.A.2, compares two instances) and
+       sort-count (K.MD.B.3, classify-then-count). Curated single-salient
+       objects only (pencil→long, giraffe→tall, rock→heavy); exactly one tile
+       is defensible per round and co-salient objects (elephant=tall+heavy,
+       a watermelon-slice that reads light) are excluded at the manifest.
+       Structural twin of flat-solid (image subject + text tiles); the only
+       activity-layer addition is the 3-word-tile layout (injectDescribe-
+       AttributeCSS + the .cb-attr3 board tag in render()) — 0 lines to
+       choice-board-core.js / lcs-shell.* / Direction A CSS. params.rounds = [
+         { noun, themeDir, attribute:'long'|'tall'|'heavy' }, ...
+       ]. */
+    if (row.task_template === 'describe-attribute') {
+      injectDescribeAttributeCSS();
+      var attrRounds = row.params.rounds;
+      var ATTR_ORDER = ['long', 'tall', 'heavy'];
+      var ATTR_TILE = { long: 'labelLong', tall: 'labelTall', heavy: 'labelHeavy' };
+      return attrRounds.map(function (round, idx) {
+        var imgUrl = '/image-library-webp/themes/' + round.themeDir + '/' + round.noun + '@2x.webp';
+        var targetKey = round.attribute;
+        return {
+          id: row.id + '.' + round.noun + '-' + targetKey,
+          promptKey: 'promptDescribeAttribute',
+          promptArgs: { noun: self.api.t('nounLabel_' + round.noun) },
+          answerType: 'state',
+          setup: function (tool) {
+            /* Rotate the fixed long/tall/heavy triad by idx so the correct
+               word isn't always in the same slot; deterministic (depends
+               only on idx) so the 11 sibling locales render identically. */
+            var r = idx % 3;
+            var keys = ATTR_ORDER.slice(r).concat(ATTR_ORDER.slice(0, r));
+            var options = keys.map(function (k) {
+              return { key: k, text: self.api.t(ATTR_TILE[k]) };
+            });
+            var subject = {
+              type: 'image',
+              imgUrl: imgUrl,
+              alt: self.api.t('nounLabel_' + round.noun) || round.noun
+            };
+            /* Flag for the render() override to tag the board .cb-attr3 so
+               the wrapper-owned 3-word-tile CSS applies. */
+            tool._attr3 = true;
+            tool.setupTask(options, targetKey, subject);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
     return STATIC_DEMO_TASKS;
   },
 
@@ -962,6 +1090,14 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
      setup → render → re-swap. */
   render: function () {
     ChoiceBoardCore.render.call(this);
+    /* Activity 11 K.MD.A.1 — tag the board so the wrapper-owned 3-word-tile
+       CSS (injectDescribeAttributeCSS) applies. Guarded on the per-task
+       _attr3 flag set by the describe-attribute setup(); no-op for every
+       other template + the static demo. Idempotent (classList.add). */
+    if (this._attr3 && this.api && this.api.stage) {
+      var attrBoard = this.api.stage.querySelector('.cb-board');
+      if (attrBoard) attrBoard.classList.add('cb-attr3');
+    }
     var mixed = this._mixedItems;
     if (!mixed || !mixed.length || !this.api || !this.api.stage) return;
     var imgs = this.api.stage.querySelectorAll('.cb-subject--group .cb-group-item');

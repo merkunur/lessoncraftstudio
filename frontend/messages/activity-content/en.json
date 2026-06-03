@@ -249,6 +249,29 @@
         "Tell the count of a named group apart from the total, instead of counting everything.",
         "Build the sorting and organising skills that later measurement, data, and graphing work depend on."
       ]
+    },
+    "choice-board.describe-attribute.k-md-a-1": {
+      "about": [
+        "Before children ever pick up a ruler, they learn to describe how things can be measured. In this free activity, one friendly picture appears at a time — a pencil, a giraffe, a rock — and the child taps the word that describes it: long, tall, or heavy. There is no counting and nothing to add up; the whole point is to notice a measurable attribute of a single object and name it.",
+        "Every object is chosen so that one word clearly fits. A pencil is long, a giraffe is tall, a rock is heavy — and the other two words plainly do not describe it. That careful choosing keeps the task honest and clear for the youngest learners: there is always exactly one good answer, so children can focus on what length, height, and weight actually mean rather than puzzling over a tricky case. Along the way they begin to sense that a single object can be measured in more than one way.",
+        "The activity is aligned to Common Core {code} in the {strand} strand — describing measurable attributes of objects, such as length or weight. Children work at their own pace with gentle, immediate feedback, and there is no timer and no score, so describing how things measure up stays a calm, playful first step into measurement."
+      ],
+      "practices": [
+        "Looking closely at a single object and noticing how it can be measured",
+        "Choosing the word — long, tall, or heavy — that describes the object",
+        "Telling length, height, and weight apart as different ways to measure",
+        "Building the measurement vocabulary that later comparing and measuring rely on"
+      ],
+      "howToPlay": [
+        "Children look at a picture of one object and read or listen to the prompt.",
+        "They tap the word — long, tall, or heavy — that best describes it.",
+        "A warm check confirms a correct choice and offers an easy retry when needed."
+      ],
+      "learningGoals": [
+        "Describe a measurable attribute of an object, such as length, height, or weight — the focus of Common Core {code}.",
+        "Use the words long, tall, and heavy to describe how objects can be measured.",
+        "Build the early measurement vocabulary that later comparing, ordering, and measuring all build on."
+      ]
     }
   }
 }

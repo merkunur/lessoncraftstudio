@@ -239,7 +239,7 @@ var ACTIVITY_STRINGS = {
      screen-reader summary never leaks per-category counts (the answer).
      fi uses partitive-singular "esinettä" (reads correctly after a count). */
   labelObjects: {
-    en: 'objects', de: 'Dinge', fr: 'objets', it: 'oggetti', es: 'objetos', pt: 'objetos',
+    en: 'objects', de: 'Dinge', fr: 'images', it: 'oggetti', es: 'objetos', pt: 'objetos',
     nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esinettä'
   },
   hintPickOne: {

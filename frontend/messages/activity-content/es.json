@@ -18,6 +18,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Con un marco de diez doble y frutas para contar, su hijo/a explora los números del 0 al 20 de una forma muy visual. Va colocando cada fruta en su casilla y descubre cómo se forman las cantidades poco a poco.", "Al llenar el primer cuadro de diez completo y empezar el segundo, los niños empiezan a ver el veinte como \"un diez entero y algunos más\". Esta experiencia siembra las primeras ideas del valor posicional y refuerza la norma K.CC.B.4.", "La actividad no tiene cronómetro ni puntaje. Su hijo/a avanza a su propio ritmo, sin presión, concentrándose en comprender cada número en lugar de apurarse."],
     "ten-frame.how-many.0-10.animals": ["En esta actividad su hijo/a observa un marco de diez con animalitos y responde cuántos hay, en el rango del 0 al 10. Es una invitación a mirar con atención y a confiar en lo que ven sus ojos.", "El cuadro de diez favorece el subitizar: con la práctica, los niños reconocen las cantidades de un solo vistazo, sin contar uno por uno. Así se fortalece la norma K.CC.B.5 de manera natural y significativa.", "No hay cronómetro ni puntaje en ningún momento. Su hijo/a puede pensar con tranquilidad, intentarlo de nuevo y celebrar cada descubrimiento a su propio ritmo."],
     "ten-frame.write-numeral.0-20.fruits": ["Aquí su hijo/a cuenta las frutas en un marco de diez doble y luego escribe el número que corresponde, del 0 al 20. Es un puente entre lo que ve y cuenta y el símbolo escrito de esa cantidad.", "El cuadro de diez doble organiza las frutas de forma clara, y escribir el numeral ayuda a unir la cantidad con su representación escrita. Esta conexión es justo lo que busca la norma K.CC.A.3.", "La actividad se vive sin cronómetro y sin puntaje. Los niños tienen libertad para contar, verificar y escribir con calma, disfrutando cada paso del aprendizaje."],
-    "ten-frame.teen-numbers.make-n": ["Los números del 11 al 19 suelen ser un reto, y por eso esta actividad invita a su hijo/a a construirlos en un marco de diez doble. Cada número se arma como \"un diez completo y algunas unidades más\".", "Ver primero el cuadro de diez lleno y luego las unidades sueltas ayuda a los niños a comprender la estructura de estos números. Es una base sólida para el valor posicional y conecta de forma directa con la norma K.NBT.A.1.", "Sin cronómetro y sin puntaje, su hijo/a explora cada número con tranquilidad. Puede construir, observar y volver a intentarlo todas las veces que quiera, a su propio ritmo."]
+    "ten-frame.teen-numbers.make-n": ["Los números del 11 al 19 suelen ser un reto, y por eso esta actividad invita a su hijo/a a construirlos en un marco de diez doble. Cada número se arma como \"un diez completo y algunas unidades más\".", "Ver primero el cuadro de diez lleno y luego las unidades sueltas ayuda a los niños a comprender la estructura de estos números. Es una base sólida para el valor posicional y conecta de forma directa con la norma K.NBT.A.1.", "Sin cronómetro y sin puntaje, su hijo/a explora cada número con tranquilidad. Puede construir, observar y volver a intentarlo todas las veces que quiera, a su propio ritmo."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Los niños y las niñas aprenden a organizar el mundo clasificando cosas en grupos — es una habilidad fundamental del pensamiento matemático. En la pantalla aparece una pila desordenada de imágenes amigables: animales, frutas y a veces vehículos, todos mezclados. El juego nombra UN grupo (\"¿Cuántos animales hay?\") y el niño o la niña decide cuántas imágenes pertenecen a ese grupo, luego toca el número.",
+        "Las imágenes están mezcladas a propósito — para responder \"¿cuántos animales?\", el niño no puede simplemente contar todo lo que ve. Debe mirar cada imagen, decidir qué es, apartar lo que no pertenece al grupo, y contar solo las imágenes nombradas. Así practican la observación cuidadosa y el pensamiento clasificatorio que usarán toda la vida.",
+        "Está alineada con el currículo oficial, en el área {strand}. Los niños y las niñas clasifican y cuentan a su propio ritmo con una retroalimentación amable e inmediata — sin temporizador, sin puntuación, solo clasificación tranquila y conteo sereno."
+      ],
+      "practices": [
+        "Reconocer cada imagen y su categoría — animal, fruta, vehículo, u otra — con atención sostenida.",
+        "Contar solo el grupo nombrado, dejando a un lado lo que no pertenece.",
+        "Separar mentalmente una categoría del total para comunicar su cantidad.",
+        "Practicar el hábito de clasificar primero, contar después — destreza que sostiene todo trabajo con datos."
+      ],
+      "howToPlay": [
+        "Observa la pila mezclada de imágenes, escucha o lee el nombre del grupo que buscas — por ejemplo, frutas, animales, vehículos.",
+        "Decide cuántas imágenes pertenecen a ese grupo, toca el número que representa tu respuesta.",
+        "Recibe una devolución cálida — sin presión, sin puntaje — y prueba otra ronda si deseas."
+      ],
+      "learningGoals": [
+        "Clasificar imágenes en categorías y contar cada grupo con precisión.",
+        "Comunicar la cantidad de un grupo nombrado dentro de una colección mezclada.",
+        "Construir la destreza de ordenar y clasificar que sostiene todo el trabajo del área {strand}."
+      ]
+    }
   }
 }

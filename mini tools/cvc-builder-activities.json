@@ -11,12 +11,26 @@
     },
     "params": {
       "words": [
-        { "noun": "cat", "themeDir": "animals",  "targetWord": "cat", "distractors": ["d", "r", "o", "s"] },
-        { "noun": "dog", "themeDir": "animals",  "targetWord": "dog", "distractors": ["c", "u", "a", "n"] },
-        { "noun": "pig", "themeDir": "animals",  "targetWord": "pig", "distractors": ["b", "e", "t", "r"] },
-        { "noun": "sun", "themeDir": "weather",  "targetWord": "sun", "distractors": ["c", "i", "a", "m"] },
-        { "noun": "bus", "themeDir": "vehicles", "targetWord": "bus", "distractors": ["p", "a", "o", "t"] },
-        { "noun": "hat", "themeDir": "clothing", "targetWord": "hat", "distractors": ["m", "e", "p", "n"] }
+        { "noun": "cat", "themeDir": "animals",            "targetWord": "cat", "distractors": ["d","r","o","s"] },
+        { "noun": "dog", "themeDir": "animals",            "targetWord": "dog", "distractors": ["c","u","a","n"] },
+        { "noun": "pig", "themeDir": "animals",            "targetWord": "pig", "distractors": ["b","e","t","r"] },
+        { "noun": "sun", "themeDir": "weather",            "targetWord": "sun", "distractors": ["c","i","a","m"] },
+        { "noun": "bus", "themeDir": "vehicles",           "targetWord": "bus", "distractors": ["p","a","o","t"] },
+        { "noun": "hat", "themeDir": "clothing",           "targetWord": "hat", "distractors": ["m","e","p","n"] },
+        { "noun": "van", "themeDir": "vehicles",           "targetWord": "van", "distractors": ["m","e","t","s"] },
+        { "noun": "bag", "themeDir": "At the Supermarket", "targetWord": "bag", "distractors": ["t","o","s","n"] },
+        { "noun": "fan", "themeDir": "around the house",   "targetWord": "fan", "distractors": ["m","i","t","d"] },
+        { "noun": "bed", "themeDir": "furniture",          "targetWord": "bed", "distractors": ["m","a","s","t"] },
+        { "noun": "hen", "themeDir": "farm animals",       "targetWord": "hen", "distractors": ["t","o","r","s"] },
+        { "noun": "pen", "themeDir": "classroom",          "targetWord": "pen", "distractors": ["m","a","t","d"] },
+        { "noun": "net", "themeDir": "beach",              "targetWord": "net", "distractors": ["s","o","p","m"] },
+        { "noun": "leg", "themeDir": "body parts",         "targetWord": "leg", "distractors": ["t","a","s","n"] },
+        { "noun": "fig", "themeDir": "fruits",             "targetWord": "fig", "distractors": ["t","o","n","s"] },
+        { "noun": "log", "themeDir": "camping",            "targetWord": "log", "distractors": ["t","a","n","m"] },
+        { "noun": "mop", "themeDir": "around the house",   "targetWord": "mop", "distractors": ["t","a","s","n"] },
+        { "noun": "fox", "themeDir": "animals",            "targetWord": "fox", "distractors": ["t","a","n","s"] },
+        { "noun": "mug", "themeDir": "kitchen tools",      "targetWord": "mug", "distractors": ["t","a","n","s"] },
+        { "noun": "bun", "themeDir": "bakery",             "targetWord": "bun", "distractors": ["t","a","m","s"] }
       ]
     },
     "theme": null,

@@ -18,6 +18,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Avec un double cadre de dix, votre enfant compte de 0 à 20 en disposant des fruits une case à la fois. Les deux cadres permettent de voir vingt comme « un dix complet et encore quelques-uns », une image très parlante pour les jeunes enfants.", "En remplissant d'abord le premier cadre de dix avant de commencer le second, votre enfant pose sans le savoir les bases de la numération et de la valeur de position. La régularité du cadre de dix rend ces grandes quantités plus faciles à organiser.", "Cette activité s'appuie sur l'objectif K.CC.B.4. Comme toujours, il n'y a pas de minuteur ni de score : l'idée est d'explorer les nombres tranquillement, en prenant le temps d'observer et de comprendre."],
     "ten-frame.how-many.0-10.animals": ["Votre enfant observe un cadre de dix rempli d'animaux et répond simplement à la question : combien y en a-t-il ? En s'appuyant sur la disposition régulière du cadre, il apprend peu à peu à reconnaître les quantités d'un seul coup d'œil.", "Cette reconnaissance immédiate des petites quantités, appelée subitisation, est une compétence essentielle. Le cadre de dix structure le regard et aide votre enfant à « voir » le nombre sans avoir à recompter chaque animal.", "L'activité correspond à l'objectif K.CC.B.5, autour du dénombrement et de la quantité, pour des nombres de 0 à 10. Il n'y a pas de minuteur ni de score : votre enfant peut prendre tout le temps dont il a besoin."],
     "ten-frame.write-numeral.0-20.fruits": ["Sur un double cadre de dix, votre enfant compte les fruits puis écrit le nombre correspondant, de 0 à 20. Ce geste relie la quantité observée au chiffre écrit, une étape clé dans la découverte des nombres.", "Le cadre de dix sert de pont entre le concret et le symbole : votre enfant voit les fruits, en saisit la quantité, puis la transforme en numéral. Cette correspondance renforce la confiance et la compréhension du nombre.", "Cette activité vise l'objectif K.CC.A.3, qui porte sur l'écriture des nombres. Sans minuteur ni score, votre enfant écrit à son rythme, dans un cadre rassurant et bienveillant."],
-    "ten-frame.teen-numbers.make-n": ["À l'aide d'un double cadre de dix, votre enfant construit les nombres de 11 à 19 en les voyant comme « un dix complet et quelques unités en plus ». Le premier cadre se remplit entièrement, puis le second accueille le reste.", "Cette manière de représenter les nombres entre dix et vingt est une fondation précieuse pour la valeur de position. Le cadre de dix rend visible la structure cachée de ces nombres, souvent délicats pour les jeunes enfants.", "L'activité s'inscrit dans l'objectif K.NBT.A.1, autour des premières notions de numération. Il n'y a pas de minuteur ni de score : l'important est de manipuler, d'observer et de comprendre en toute sérénité."]
+    "ten-frame.teen-numbers.make-n": ["À l'aide d'un double cadre de dix, votre enfant construit les nombres de 11 à 19 en les voyant comme « un dix complet et quelques unités en plus ». Le premier cadre se remplit entièrement, puis le second accueille le reste.", "Cette manière de représenter les nombres entre dix et vingt est une fondation précieuse pour la valeur de position. Le cadre de dix rend visible la structure cachée de ces nombres, souvent délicats pour les jeunes enfants.", "L'activité s'inscrit dans l'objectif K.NBT.A.1, autour des premières notions de numération. Il n'y a pas de minuteur ni de score : l'important est de manipuler, d'observer et de comprendre en toute sérénité."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Les enfants apprennent à mettre de l'ordre dans le monde qui les entoure en regroupant les choses qui se ressemblent. Sur l'écran, un tas d'images amusantes est tout mélangé : des animaux, des fruits et parfois des véhicules, en désordre.",
+        "La consigne nomme un seul groupe, et l'enfant décide combien d'images en font partie, puis touche le bon nombre. Le tas est mélangé exprès : pour répondre à « Combien d'animaux ? », il ne suffit pas de tout compter — il faut regarder chaque image, décider ce que c'est, mettre de côté ce qui n'appartient pas au groupe, et ne compter que les images demandées.",
+        "Elle est alignée sur les programmes officiels, dans le domaine {strand}. Les enfants classent et comptent à leur rythme, avec un retour doux et immédiat — sans minuteur, sans score, juste le plaisir de bien observer."
+      ],
+      "practices": [
+        "Regarder un ensemble mélangé et reconnaître la catégorie de chaque image.",
+        "Ne compter que la catégorie nommée, sans tenir compte du reste.",
+        "Distinguer le nombre d'un seul groupe du nombre total d'images.",
+        "Prendre l'habitude de classer d'abord, puis de compter — une base pour le travail sur les données plus tard."
+      ],
+      "howToPlay": [
+        "Regarde bien le tas d'images mélangées et écoute la consigne qui nomme un groupe.",
+        "Décide combien d'images font partie de ce groupe, puis touche le bon nombre.",
+        "Un petit retour tout doux confirme — et on peut réessayer tranquillement."
+      ],
+      "learningGoals": [
+        "Classer les images en catégories et compter chaque groupe.",
+        "Distinguer le nombre d'un groupe nommé du nombre total.",
+        "Développer le sens du tri et de l'organisation pour le domaine {strand} plus tard."
+      ]
+    }
   }
 }

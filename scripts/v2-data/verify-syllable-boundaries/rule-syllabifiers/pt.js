@@ -8,7 +8,9 @@
    2. Single consonant between vowels goes to the next syllable.
    3. Inseparable C-clusters (consonante + l/r): bl, br, cl, cr, dl, dr,
       fl, fr, gl, gr, pl, pr, tl, tr, vl, vr stay together.
-   4. Digraphs ch, lh, nh, gu(+e/i), qu(+e/i), rr, ss → single C.
+   4. Digraphs ch, lh, nh, gu(+e/i), qu(+e/i) → single C (stay together).
+      rr and ss are dígrafos que se separam: the boundary falls BETWEEN
+      the letters (car-ro, pas-sa, gi-ras-sol, os-so).
    5. Nasal consonants m, n at end of syllable (before another consonant)
       stay with the previous vowel as the nasal marker: 'irmão' → 'ir-mão',
       'campo' → 'cam-po', 'lente' → 'len-te'.
@@ -29,10 +31,14 @@ const STRONG_VOWELS = new Set(['a','e','o','á','à','â','ã','é','ê','ó','�
 const WEAK_VOWELS = new Set(['i','u','í','ú']);
 const NASAL_VOWELS = new Set(['ã','õ']);
 
-/* Inseparable C-clusters + PT digraphs */
+/* Inseparable C-clusters + PT digraphs.
+   NOTE: rr and ss are NOT here. They are dígrafos que se separam — the
+   syllable boundary falls BETWEEN the two letters (car-ro, pas-sa,
+   gi-ras-sol, os-so), unlike ch/lh/nh which are one sound and stay
+   together. qu/gu are onset + silent-u and stay together. */
 const INSEPARABLE_CLUSTERS = new Set([
   'bl','br','cl','cr','dl','dr','fl','fr','gl','gr','pl','pr','tl','tr','vl','vr',
-  'ch','lh','nh','rr','ss','qu','gu' // PT digraphs as one C
+  'ch','lh','nh','qu','gu' // ch/lh/nh = one sound; qu/gu = onset+silent-u
 ]);
 
 function isVowel(ch) { return VOWELS.has(ch.toLowerCase()); }

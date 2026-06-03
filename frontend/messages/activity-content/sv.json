@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Här arbetar ditt barn med talen från 0 till 20 på en dubbel tioram och fyller rutorna med frukter, en i taget. Den dubbla ramen gör det lätt att se tjugo som en hel tia och några till.", "När den första tioramen blir full börjar barnet på nästa, och då växer förståelsen för hur tiotal byggs upp. Det här är ett första, mjukt steg mot positionssystemet, i linje med Lgr22.", "Det finns ingen timer och inga poäng, så ditt barn kan utforska de större talen utan stress. I lugn takt blir även talen upp till 20 begripliga och trygga att arbeta med."],
     "ten-frame.how-many.0-10.animals": ["I den här aktiviteten tittar ditt barn på en tioram med djur och svarar på hur många de är, med tal mellan 0 och 10. Den tydliga strukturen hjälper barnet att uppfatta antalet i ett ögonkast.", "Eftersom rutorna i tioramen alltid ser likadana ut lär sig barnet känna igen hur många det är utan att räkna varje djur för sig. Den här förmågan att se antal direkt är en viktig grund för all vidare matematik, och den övas här enligt Lgr22.", "Det finns ingen timer och inga poäng, så barnet får titta och tänka i lugn och ro. När pressen är borta blir det lättare att lita på sin egen blick och sitt eget tänkande."],
     "ten-frame.write-numeral.0-20.fruits": ["Här räknar ditt barn frukterna på en dubbel tioram och skriver sedan rätt siffra, med tal mellan 0 och 20. Aktiviteten knyter ihop antalet barnet ser med hur talet skrivs.", "Tioramen gör mängden tydlig och överskådlig, och steget att skriva siffran hjälper barnet att koppla samman antal och symbol. Den kopplingen är själva kärnan i Lgr22.", "Det finns ingen timer och inga poäng, så ditt barn kan räkna och skriva i sin egen takt. Lugnet ger utrymme att verkligen förstå vad varje siffra betyder."],
-    "ten-frame.teen-numbers.make-n": ["I den här aktiviteten bygger ditt barn talen 11 till 19 på en dubbel tioram, som en full tia och några till. Att se talen byggas upp på det sättet gör dem mycket lättare att förstå.", "När den första tioramen är fylld blir det tydligt att till exempel 14 är tio och fyra. Den här förståelsen är en viktig grund för positionssystemet och följer Lgr22.", "Det finns ingen timer och inga poäng, så ditt barn kan utforska tonårstalen helt i lugn och ro. Med tid att pröva och tänka blir de annars kluriga talen mellan 10 och 20 begripliga."]
+    "ten-frame.teen-numbers.make-n": ["I den här aktiviteten bygger ditt barn talen 11 till 19 på en dubbel tioram, som en full tia och några till. Att se talen byggas upp på det sättet gör dem mycket lättare att förstå.", "När den första tioramen är fylld blir det tydligt att till exempel 14 är tio och fyra. Den här förståelsen är en viktig grund för positionssystemet och följer Lgr22.", "Det finns ingen timer och inga poäng, så ditt barn kan utforska tonårstalen helt i lugn och ro. Med tid att pröva och tänka blir de annars kluriga talen mellan 10 och 20 begripliga."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Barn lär sig att ordna världen genom att sortera saker i grupper. På skärmen dyker en blandad hög med vänliga bilder upp — djur, frukter, ibland fordon, allt blandat om vartannat. Uppgiften nämner en grupp, och barnet bestämmer hur många som hör dit och trycker sedan på antalet.",
+        "Bilderna ligger blandade med flit. För att svara på \"hur många djur?\" går det inte att bara räkna allt — barnet måste titta noga på varje bild, bestämma vad det är, lägga undan det som inte hör dit och räkna bara den grupp som nämnts.",
+        "Aktiviteten följer Lgr22 inom området {strand}. Barnen sorterar och räknar i sin egen takt med mjuk och direkt återkoppling — ingen tid, ingen poäng, bara lugnt sorterande och räknande."
+      ],
+      "practices": [
+        "Känna igen vilken grupp varje bild hör till.",
+        "Räkna bara den grupp som nämnts och bortse från resten.",
+        "Skilja en grupps antal från hela högen.",
+        "Bygga vanan att sortera först och räkna sedan inför senare arbete med data."
+      ],
+      "howToPlay": [
+        "Titta på den blandade högen och lyssna på eller läs vilken grupp som ska räknas.",
+        "Bestäm hur många bilder som hör till gruppen och tryck på antalet.",
+        "En varm kontroll visar svaret, och det är lätt att försöka igen."
+      ],
+      "learningGoals": [
+        "Sortera bilder i kategorier och räkna hur många det finns i varje.",
+        "Skilja en namngiven grupps antal från hela högen.",
+        "Bygga sorteringsfärdigheter inom området {strand} inför senare arbete."
+      ]
+    }
   }
 }

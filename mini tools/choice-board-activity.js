@@ -219,21 +219,24 @@ var ACTIVITY_STRINGS = {
      reaches a live non-EN page. */
   promptCountAnimals: {
     en: 'How many animals?',
+    de: 'Wie viele Tiere?',
     fi: 'Kuinka monta eläintä?'
   },
   promptCountFruits: {
     en: 'How many fruits?',
+    de: 'Wie viele Früchte?',
     fi: 'Kuinka monta hedelmää?'
   },
   promptCountVehicles: {
     en: 'How many vehicles?',
+    de: 'Wie viele Fahrzeuge?',
     fi: 'Kuinka monta kulkuneuvoa?'
   },
   /* Neutral noun for the mixed-set's group aria-label ("6 objects") so the
      screen-reader summary never leaks per-category counts (the answer).
      fi uses partitive-singular "esinettä" (reads correctly after a count). */
   labelObjects: {
-    en: 'objects', de: 'Objekte', fr: 'objets', it: 'oggetti', es: 'objetos', pt: 'objetos',
+    en: 'objects', de: 'Dinge', fr: 'objets', it: 'oggetti', es: 'objetos', pt: 'objetos',
     nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esinettä'
   },
   hintPickOne: {

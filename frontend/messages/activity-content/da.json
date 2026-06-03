@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Her tæller dit barn fra 0 til 20 på en dobbelt tierramme ved at lægge frugter i felterne ét ad gangen. Den dobbelte ramme gør det tydeligt, at tyve er det samme som en hel tier og nogle flere.", "Når den første tierramme er fyldt, begynder barnet på den næste, og på den måde opdages tankegangen bag titalssystemet helt naturligt. Det lægger en blid begyndelse til forståelsen af positionssystemet, i tråd med Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan udforske de større tal uden at føle sig forjaget. I ro og mag bliver tallene op til 20 både overskuelige og trygge at arbejde med."],
     "ten-frame.how-many.0-10.animals": ["I denne aktivitet ser dit barn på en tierramme med dyr og svarer på, hvor mange der er — med tal fra 0 til 10. Den faste struktur i rammen hjælper barnet med at danne sig et hurtigt overblik.", "Fordi felterne altid er ordnet på samme måde, lærer barnet at genkende mængden med det samme uden at tælle hvert dyr for sig. Denne evne til at se antal på et øjeblik er en vigtig grundsten, og den øves her efter Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan se og tænke i fred og ro. Det giver plads til at stole på sit eget blik og svare med ro i maven."],
     "ten-frame.write-numeral.0-20.fruits": ["Her tæller dit barn frugterne på en dobbelt tierramme og skriver bagefter det tal, der passer — fra 0 til 20. På den måde bliver mængden, barnet ser, forbundet med det skrevne tal.", "Den dobbelte tierramme gør mængden tydelig og overskuelig, og når barnet skriver tallet, knyttes antallet sammen med selve tegnet. Netop denne forbindelse er kernen i Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan tælle og skrive i sit eget tempo. Roen giver plads til virkelig at forstå, hvad hvert tal betyder."],
-    "ten-frame.teen-numbers.make-n": ["Her bygger dit barn tallene fra 11 til 19 på en dobbelt tierramme som en fuld tier og nogle ekstra enere. Ved at samle tallet selv bliver det tydeligt, hvordan det er sat sammen.", "Når den første tierramme er fyldt, kan barnet se, at fx 14 består af ti og fire. Denne måde at opleve tallene på er et stærkt fundament for positionssystemet og følger Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan udforske tallene mellem 10 og 20 i ro og mag. Det giver tid til at forstå, at hvert af disse tal er en tier og lidt mere."]
+    "ten-frame.teen-numbers.make-n": ["Her bygger dit barn tallene fra 11 til 19 på en dobbelt tierramme som en fuld tier og nogle ekstra enere. Ved at samle tallet selv bliver det tydeligt, hvordan det er sat sammen.", "Når den første tierramme er fyldt, kan barnet se, at fx 14 består af ti og fire. Denne måde at opleve tallene på er et stærkt fundament for positionssystemet og følger Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan udforske tallene mellem 10 og 20 i ro og mag. Det giver tid til at forstå, at hvert af disse tal er en tier og lidt mere."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Børn lærer at få styr på verden ved at sortere ting i grupper, og det øver vi her. På skærmen dukker en blandet bunke venlige billeder op — dyr, frugter, nogle gange køretøjer, alt sammen blandet mellem hinanden. Opgaven nævner én gruppe, og barnet bestemmer, hvor mange der hører til, og trykker så på tallet.",
+        "Bunken er blandet med vilje. For at svare på \"hvor mange dyr?\" kan barnet ikke bare tælle det hele — det skal se godt efter på hvert billede, beslutte hvad det er, lægge det til side der ikke hører til, og kun tælle den gruppe, der blev nævnt.",
+        "Aktiviteten følger Fælles Mål inden for området {strand}. Børnene sorterer og tæller i deres eget tempo med blide tilbagemeldinger med det samme — ingen tid, ingen point, bare rolig sortering og tælling."
+      ],
+      "practices": [
+        "Genkende hvilken gruppe hvert billede hører til.",
+        "Tælle kun den nævnte gruppe og se bort fra resten.",
+        "Kende én gruppes antal fra det samlede antal.",
+        "Få en vane med at sortere først og tælle bagefter til senere arbejde med data."
+      ],
+      "howToPlay": [
+        "Se godt efter på den blandede bunke, og hør eller læs den gruppe, der bliver nævnt.",
+        "Beslut hvor mange der hører til, og tryk på tallet.",
+        "En varm tilbagemelding viser svaret, og det er nemt at prøve igen."
+      ],
+      "learningGoals": [
+        "Sortere billeder i grupper og tælle hver gruppe.",
+        "Kende en nævnt gruppes antal fra det samlede antal.",
+        "Opbygge sorteringsfærdigheder til senere arbejde inden for området {strand}."
+      ]
+    }
   }
 }

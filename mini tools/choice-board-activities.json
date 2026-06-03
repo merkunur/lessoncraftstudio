@@ -643,7 +643,8 @@
       "it": "classifica-e-conta",
       "pt": "classificar-e-contar",
       "nl": "sorteren-en-tellen",
-      "sv": "sortera-och-rakna"
+      "sv": "sortera-och-rakna",
+      "da": "sorter-og-tael"
     },
     "page_title": {
       "en": "Sort and Count — Classify Objects by Category | Kindergarten Measurement & Data",
@@ -654,7 +655,8 @@
       "it": "Classifica e conta le categorie — Attività interattiva di ordinamento | Scuola dell'infanzia",
       "pt": "Classificar e contar — organize por categorias | Educação infantil",
       "nl": "Sorteren en tellen — voorwerpen ordenen in categorieën | Kleuterklas",
-      "sv": "Sortera och räkna – kategorier | Förskoleklass"
+      "sv": "Sortera och räkna – kategorier | Förskoleklass",
+      "da": "Sortér og tæl – sæt billederne i kategorier | Børnehaveklasse"
     },
     "page_intro": {
       "en": "Look at a mixed set of pictures, decide what each one is, then tap how many belong to the named group. A no-pressure Kindergarten activity aligned to Common Core K.MD.B.3 — classify objects into categories and count how many are in each.",
@@ -665,7 +667,8 @@
       "it": "Attività gratuita per ordinare e classificare immagini per categoria, poi contare gli elementi. Ideale per la scuola dell'infanzia. Conforme alle Indicazioni nazionali.",
       "pt": "Atividade interativa e gratuita: a criança classifica imagens por categoria e conta um grupo. Desenvolvimento do pensamento lógico. Alinhada à BNCC.",
       "nl": "Sorteer een set plaatjes in categorieën en tel één groep — een gratis, speelse telactiviteit voor de kleuterklas. Sorteren en tellen, afgestemd op de kerndoelen.",
-      "sv": "Sortera bilder i olika kategorier och räkna en grupp – en lekfull, gratis övning för förskoleklass som tränar sortering och antalsuppfattning enligt Lgr22."
+      "sv": "Sortera bilder i olika kategorier och räkna en grupp – en lekfull, gratis övning för förskoleklass som tränar sortering och antalsuppfattning enligt Lgr22.",
+      "da": "Sortér billeder i kategorier og tæl én gruppe – sjov, gratis aktivitet til børnehaveklassen, hvor børnene øver at sortere og tælle. Tilpasset Fælles Mål."
     },
     "kid_prompt_template": "promptCountAnimals"
   }

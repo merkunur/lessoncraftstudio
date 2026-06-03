@@ -18,6 +18,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Nesta atividade, as crianças contam de 0 a 20 em um quadro de dez duplo, usando fichas de frutinhas. Cada fruta colocada ajuda a construir o número de forma concreta e visível.", "O quadro de dez duplo revela uma ideia importante: vinte é \"um dez cheio e mais um pouco\". Ao enxergar o primeiro dez completo e as frutas que sobram no segundo quadro, seu filho ou sua filha começa a plantar as primeiras sementes do valor posicional (K.CC.B.4).", "Tudo acontece com calma, sem cronômetro e sem pontuação. A criança tem todo o tempo de que precisa para observar, contar e compreender as quantidades no seu próprio ritmo."],
     "ten-frame.how-many.0-10.animals": ["Aqui seu filho ou sua filha olha para um quadro de dez com bichinhos e responde quantos animais estão ali, dentro do intervalo de 0 a 10. É um convite gentil para observar e reconhecer quantidades.", "O quadro de dez organiza os animais de um jeito que favorece o subitismo, ou seja, a capacidade de perceber \"quantos são\" sem contar um por um. Essa habilidade visual é a base para contar com segurança e entender a cardinalidade (K.CC.B.5).", "A experiência é leve e acolhedora, sem cronômetro e sem pontuação. Assim, a criança aprende a confiar no próprio olhar e a explorar os números com tranquilidade."],
     "ten-frame.write-numeral.0-20.fruits": ["Nesta atividade, as crianças contam as frutas em um quadro de dez duplo e depois escrevem o numeral correspondente, de 0 a 20. É um passo bonito que une o que se vê ao que se registra.", "O quadro de dez duplo ajuda seu filho ou sua filha a enxergar a quantidade com clareza, enquanto escrever o número conecta essa quantidade ao seu símbolo escrito. Essa ponte entre o concreto e o numeral fortalece a compreensão dos números (K.CC.A.3).", "Não há pressa nem cobrança: a atividade acontece sem cronômetro e sem pontuação. A criança conta, observa e escreve no seu próprio ritmo, ganhando confiança a cada número."],
-    "ten-frame.teen-numbers.make-n": ["Aqui seu filho ou sua filha constrói os números de 11 a 19 em um quadro de dez duplo, montando cada um como \"um dez cheio e mais algumas unidades\". É uma forma concreta de dar sentido a esses números que muitas vezes confundem as crianças.", "Ao ver claramente o primeiro quadro de dez completo e as unidades que sobram no segundo, a criança percebe a estrutura por trás dos números entre dez e vinte. Essa visão é uma base essencial para o valor posicional (K.NBT.A.1).", "A atividade convida à exploração calma, sem cronômetro e sem pontuação. Assim, seu filho ou sua filha compreende esses números com tranquilidade e constrói uma base sólida para a matemática que virá."]
+    "ten-frame.teen-numbers.make-n": ["Aqui seu filho ou sua filha constrói os números de 11 a 19 em um quadro de dez duplo, montando cada um como \"um dez cheio e mais algumas unidades\". É uma forma concreta de dar sentido a esses números que muitas vezes confundem as crianças.", "Ao ver claramente o primeiro quadro de dez completo e as unidades que sobram no segundo, a criança percebe a estrutura por trás dos números entre dez e vinte. Essa visão é uma base essencial para o valor posicional (K.NBT.A.1).", "A atividade convida à exploração calma, sem cronômetro e sem pontuação. Assim, seu filho ou sua filha compreende esses números com tranquilidade e constrói uma base sólida para a matemática que virá."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Crianças aprendem a organizar o mundo classificando em grupos. Na tela, aparece uma pilha mista de figuras amigáveis — animais, frutas, às vezes veículos — tudo misturado. O comando nomeia UM grupo e a criança decide quantos pertencem, depois toca no número.",
+        "A mistura é de propósito. Para responder 'quantos animais?', a criança não pode apenas contar tudo — precisa olhar cada figura, decidir o que é, separar mentalmente o que não pertence, contar só o grupo nomeado.",
+        "Está alinhada à BNCC, no eixo {strand}. As crianças classificam e contam no próprio ritmo com feedback gentil e imediato — sem cronômetro, sem pontuação, apenas organização calma e contagem atenta."
+      ],
+      "practices": [
+        "Reconhecer a categoria de cada figura — é animal, fruta ou veículo?",
+        "Contar só o grupo nomeado e ignorar o resto com segurança.",
+        "Dizer a quantidade de um grupo separada da pilha total.",
+        "Cultivar o hábito de organizar primeiro e contar depois, para trabalhos futuros com dados."
+      ],
+      "howToPlay": [
+        "Olhe a pilha mista e ouça ou leia o grupo nomeado — 'quantas frutas?'.",
+        "Decida quantas figuras pertencem àquele grupo e toque no número na tela.",
+        "Receba um feedback caloroso e tente de novo sempre que quiser."
+      ],
+      "learningGoals": [
+        "Classificar figuras em categorias e contar cada grupo.",
+        "Dizer a quantidade de um grupo nomeado dentro de uma mistura.",
+        "Construir habilidades de organização e classificação para trabalhos futuros no eixo {strand}."
+      ]
+    }
   }
 }

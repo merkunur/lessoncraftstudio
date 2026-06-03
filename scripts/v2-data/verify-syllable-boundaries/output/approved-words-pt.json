@@ -1,6 +1,6 @@
 {
   "locale": "pt",
-  "generated_at": "2026-05-22T01:00:25.846Z",
+  "generated_at": "2026-06-03T22:38:53.999Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -108,15 +108,15 @@
       "word": "alossauro",
       "split": [
         "a",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "a",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
@@ -277,34 +277,25 @@
       "split": [
         "an",
         "qui",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "count": 5,
       "chunks": [
         "an",
         "qui",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "an",
-          "qui",
-          "los",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "ant",
@@ -358,16 +349,16 @@
       "split": [
         "a",
         "pa",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "count": 5,
       "chunks": [
         "a",
         "pa",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
@@ -492,8 +483,8 @@
         "ar",
         "gen",
         "ti",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "count": 6,
@@ -501,27 +492,17 @@
         "ar",
         "gen",
         "ti",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ar",
-          "gen",
-          "ti",
-          "nos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "arm",
@@ -1094,33 +1075,25 @@
       "key": "baking-sheet",
       "word": "assadeira",
       "split": [
-        "a",
-        "ssa",
+        "as",
+        "sa",
         "dei",
         "ra"
       ],
       "count": 4,
       "chunks": [
-        "a",
-        "ssa",
+        "as",
+        "sa",
         "dei",
         "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "as",
-          "sa",
-          "dei",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "ball",
@@ -1437,27 +1410,21 @@
       "key": "beanie",
       "word": "gorro",
       "split": [
-        "go",
-        "rro"
+        "gor",
+        "ro"
       ],
       "count": 2,
       "chunks": [
-        "go",
-        "rro"
+        "gor",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "gor",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "bear",
@@ -1584,32 +1551,24 @@
       "word": "beterraba",
       "split": [
         "be",
-        "te",
-        "rra",
+        "ter",
+        "ra",
         "ba"
       ],
       "count": 4,
       "chunks": [
         "be",
-        "te",
-        "rra",
+        "ter",
+        "ra",
         "ba"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "be",
-          "ter",
-          "ra",
-          "ba"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "begonia",
@@ -1883,30 +1842,23 @@
       "key": "bird",
       "word": "pássaro",
       "split": [
-        "pá",
-        "ssa",
+        "pás",
+        "sa",
         "ro"
       ],
       "count": 3,
       "chunks": [
-        "pá",
-        "ssa",
+        "pás",
+        "sa",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pás",
-          "sa",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "biscuit",
@@ -2213,13 +2165,13 @@
       "key": "bone",
       "word": "osso",
       "split": [
-        "o",
-        "sso"
+        "os",
+        "so"
       ],
       "count": 2,
       "chunks": [
-        "o",
-        "sso"
+        "os",
+        "so"
       ],
       "sources_agreed": [
         "rule",
@@ -2355,30 +2307,23 @@
       "key": "bottle",
       "word": "garrafa",
       "split": [
-        "ga",
-        "rra",
+        "gar",
+        "ra",
         "fa"
       ],
       "count": 3,
       "chunks": [
-        "ga",
-        "rra",
+        "gar",
+        "ra",
         "fa"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "gar",
-          "ra",
-          "fa"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "bow",
@@ -2645,87 +2590,66 @@
       "word": "brontossauro",
       "split": [
         "bron",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "bron",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bron",
-          "tos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "broom",
       "word": "vassoura",
       "split": [
-        "va",
-        "ssou",
+        "vas",
+        "sou",
         "ra"
       ],
       "count": 3,
       "chunks": [
-        "va",
-        "ssou",
+        "vas",
+        "sou",
         "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "vas",
-          "sou",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "brown",
       "word": "marrom",
       "split": [
-        "ma",
-        "rrom"
+        "mar",
+        "rom"
       ],
       "count": 2,
       "chunks": [
-        "ma",
-        "rrom"
+        "mar",
+        "rom"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "mar",
-          "rom"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "brownie",
@@ -2855,30 +2779,23 @@
       "key": "burrito",
       "word": "burrito",
       "split": [
-        "bu",
-        "rri",
+        "bur",
+        "ri",
         "to"
       ],
       "count": 3,
       "chunks": [
-        "bu",
-        "rri",
+        "bur",
+        "ri",
         "to"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bur",
-          "ri",
-          "to"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "bus",
@@ -3168,29 +3085,22 @@
       "word": "bezerro",
       "split": [
         "be",
-        "ze",
-        "rro"
+        "zer",
+        "ro"
       ],
       "count": 3,
       "chunks": [
         "be",
-        "ze",
-        "rro"
+        "zer",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "be",
-          "zer",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "camel",
@@ -3517,27 +3427,21 @@
       "key": "car",
       "word": "carro",
       "split": [
-        "ca",
-        "rro"
+        "car",
+        "ro"
       ],
       "count": 2,
       "chunks": [
-        "ca",
-        "rro"
+        "car",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "car",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "card",
@@ -3695,14 +3599,14 @@
       "key": "carriage",
       "word": "carruagem",
       "split": [
-        "ca",
-        "rrua",
+        "car",
+        "rua",
         "gem"
       ],
       "count": 3,
       "chunks": [
-        "ca",
-        "rrua",
+        "car",
+        "rua",
         "gem"
       ],
       "sources_agreed": [
@@ -3747,30 +3651,23 @@
       "key": "cart",
       "word": "carrinho",
       "split": [
-        "ca",
-        "rri",
+        "car",
+        "ri",
         "nho"
       ],
       "count": 3,
       "chunks": [
-        "ca",
-        "rri",
+        "car",
+        "ri",
         "nho"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "car",
-          "ri",
-          "nho"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "cashier",
@@ -3796,27 +3693,21 @@
       "key": "cast",
       "word": "gesso",
       "split": [
-        "ge",
-        "sso"
+        "ges",
+        "so"
       ],
       "count": 2,
       "chunks": [
-        "ge",
-        "sso"
+        "ges",
+        "so"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ges",
-          "so"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "cat",
@@ -3939,32 +3830,24 @@
       "word": "motosserra",
       "split": [
         "mo",
-        "to",
-        "sse",
-        "rra"
+        "tos",
+        "ser",
+        "ra"
       ],
       "count": 4,
       "chunks": [
         "mo",
-        "to",
-        "sse",
-        "rra"
+        "tos",
+        "ser",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "mo",
-          "tos",
-          "ser",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "chair",
@@ -4654,32 +4537,24 @@
       "word": "escorredor",
       "split": [
         "es",
-        "co",
-        "rre",
+        "cor",
+        "re",
         "dor"
       ],
       "count": 4,
       "chunks": [
         "es",
-        "co",
-        "rre",
+        "cor",
+        "re",
         "dor"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "es",
-          "cor",
-          "re",
-          "dor"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "cold",
@@ -4776,30 +4651,23 @@
       "key": "compass",
       "word": "bússola",
       "split": [
-        "bú",
-        "sso",
+        "bús",
+        "so",
         "la"
       ],
       "count": 3,
       "chunks": [
-        "bú",
-        "sso",
+        "bús",
+        "so",
         "la"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bús",
-          "so",
-          "la"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "computer",
@@ -5265,27 +5133,21 @@
       "key": "croissant",
       "word": "croissant",
       "split": [
-        "croi",
-        "ssant"
+        "crois",
+        "sant"
       ],
       "count": 2,
       "chunks": [
-        "croi",
-        "ssant"
+        "crois",
+        "sant"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "crois",
-          "sant"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "cross",
@@ -5845,32 +5707,24 @@
       "word": "dinossauro",
       "split": [
         "di",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "di",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "di",
-          "nos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "diplodocus",
@@ -5954,29 +5808,22 @@
       "word": "cachorro",
       "split": [
         "ca",
-        "cho",
-        "rro"
+        "chor",
+        "ro"
       ],
       "count": 3,
       "chunks": [
         "ca",
-        "cho",
-        "rro"
+        "chor",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ca",
-          "chor",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "dogwood-tree",
@@ -6070,27 +5917,21 @@
       "key": "donkey",
       "word": "burro",
       "split": [
-        "bu",
-        "rro"
+        "bur",
+        "ro"
       ],
       "count": 2,
       "chunks": [
-        "bu",
-        "rro"
+        "bur",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bur",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "donut",
@@ -6459,27 +6300,21 @@
       "key": "earth",
       "word": "terra",
       "split": [
-        "te",
-        "rra"
+        "ter",
+        "ra"
       ],
       "count": 2,
       "chunks": [
-        "te",
-        "rra"
+        "ter",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ter",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "earthworm",
@@ -6685,30 +6520,23 @@
       "key": "eraser",
       "word": "borracha",
       "split": [
-        "bo",
-        "rra",
+        "bor",
+        "ra",
         "cha"
       ],
       "count": 3,
       "chunks": [
-        "bo",
-        "rra",
+        "bor",
+        "ra",
         "cha"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bor",
-          "ra",
-          "cha"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "excavator",
@@ -8045,8 +7873,8 @@
         "gi",
         "ga",
         "no",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "count": 6,
@@ -8054,27 +7882,17 @@
         "gi",
         "ga",
         "no",
-        "to",
-        "ssau",
+        "tos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "gi",
-          "ga",
-          "no",
-          "tos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "giraffe",
@@ -8766,30 +8584,23 @@
       "key": "handsaw",
       "word": "serrote",
       "split": [
-        "se",
-        "rro",
+        "ser",
+        "ro",
         "te"
       ],
       "count": 3,
       "chunks": [
-        "se",
-        "rro",
+        "ser",
+        "ro",
         "te"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ser",
-          "ro",
-          "te"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "hanger",
@@ -9548,15 +9359,15 @@
       "word": "ictiossauro",
       "split": [
         "ic",
-        "tio",
-        "ssau",
+        "tios",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "ic",
-        "tio",
-        "ssau",
+        "tios",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
@@ -9918,27 +9729,21 @@
       "key": "jug",
       "word": "jarra",
       "split": [
-        "ja",
-        "rra"
+        "jar",
+        "ra"
       ],
       "count": 2,
       "chunks": [
-        "ja",
-        "rra"
+        "jar",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "jar",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "juice",
@@ -10705,32 +10510,24 @@
       "word": "interruptor",
       "split": [
         "in",
-        "te",
-        "rrup",
+        "ter",
+        "rup",
         "tor"
       ],
       "count": 4,
       "chunks": [
         "in",
-        "te",
-        "rrup",
+        "ter",
+        "rup",
         "tor"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "in",
-          "ter",
-          "rup",
-          "tor"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "lighthouse",
@@ -10927,36 +10724,27 @@
       "key": "loader",
       "word": "carregadeira",
       "split": [
-        "ca",
-        "rre",
+        "car",
+        "re",
         "ga",
         "dei",
         "ra"
       ],
       "count": 5,
       "chunks": [
-        "ca",
-        "rre",
+        "car",
+        "re",
         "ga",
         "dei",
         "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "car",
-          "re",
-          "ga",
-          "dei",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "lobster",
@@ -11888,32 +11676,24 @@
       "word": "mosassauro",
       "split": [
         "mo",
-        "sa",
-        "ssau",
+        "sas",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "mo",
-        "sa",
-        "ssau",
+        "sas",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "mo",
-          "sas",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "mosquito",
@@ -12950,8 +12730,8 @@
         "qui",
         "ce",
         "fa",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "count": 7,
@@ -12960,28 +12740,17 @@
         "qui",
         "ce",
         "fa",
-        "lo",
-        "ssau",
+        "los",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pa",
-          "qui",
-          "ce",
-          "fa",
-          "los",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "package",
@@ -13316,8 +13085,8 @@
       "word": "parassaurolofo",
       "split": [
         "pa",
-        "ra",
-        "ssau",
+        "ras",
+        "sau",
         "ro",
         "lo",
         "fo"
@@ -13325,29 +13094,19 @@
       "count": 6,
       "chunks": [
         "pa",
-        "ra",
-        "ssau",
+        "ras",
+        "sau",
         "ro",
         "lo",
         "fo"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pa",
-          "ras",
-          "sau",
-          "ro",
-          "lo",
-          "fo"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "parsnip",
@@ -13377,62 +13136,47 @@
       "key": "passport",
       "word": "passaporte",
       "split": [
-        "pa",
-        "ssa",
+        "pas",
+        "sa",
         "por",
         "te"
       ],
       "count": 4,
       "chunks": [
-        "pa",
-        "ssa",
+        "pas",
+        "sa",
         "por",
         "te"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pas",
-          "sa",
-          "por",
-          "te"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "pasta",
       "word": "macarrão",
       "split": [
         "ma",
-        "ca",
-        "rrão"
+        "car",
+        "rão"
       ],
       "count": 3,
       "chunks": [
         "ma",
-        "ca",
-        "rrão"
+        "car",
+        "rão"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ma",
-          "car",
-          "rão"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "pea",
@@ -13460,30 +13204,23 @@
       "key": "peach",
       "word": "pêssego",
       "split": [
-        "pê",
-        "sse",
+        "pês",
+        "se",
         "go"
       ],
       "count": 3,
       "chunks": [
-        "pê",
-        "sse",
+        "pês",
+        "se",
         "go"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pês",
-          "se",
-          "go"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "peacock",
@@ -14090,32 +13827,24 @@
       "word": "travesseiro",
       "split": [
         "tra",
-        "ve",
-        "ssei",
+        "ves",
+        "sei",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "tra",
-        "ve",
-        "ssei",
+        "ves",
+        "sei",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "tra",
-          "ves",
-          "sei",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "pilot",
@@ -14265,27 +13994,21 @@
       "key": "pitcher",
       "word": "jarra",
       "split": [
-        "ja",
-        "rra"
+        "jar",
+        "ra"
       ],
       "count": 2,
       "chunks": [
-        "ja",
-        "rra"
+        "jar",
+        "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "jar",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "pizza",
@@ -14396,15 +14119,15 @@
       "word": "plesiossauro",
       "split": [
         "ple",
-        "sio",
-        "ssau",
+        "sios",
+        "sau",
         "ro"
       ],
       "count": 4,
       "chunks": [
         "ple",
-        "sio",
-        "ssau",
+        "sios",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
@@ -15354,27 +15077,21 @@
       "key": "rice",
       "word": "arroz",
       "split": [
-        "a",
-        "rroz"
+        "ar",
+        "roz"
       ],
       "count": 2,
       "chunks": [
-        "a",
-        "rroz"
+        "ar",
+        "roz"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ar",
-          "roz"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "ring",
@@ -15644,27 +15361,21 @@
       "key": "running",
       "word": "correr",
       "split": [
-        "co",
-        "rrer"
+        "cor",
+        "rer"
       ],
       "count": 2,
       "chunks": [
-        "co",
-        "rrer"
+        "cor",
+        "rer"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "cor",
-          "rer"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "sack",
@@ -16058,33 +15769,25 @@
       "key": "scared",
       "word": "assustado",
       "split": [
-        "a",
-        "ssus",
+        "as",
+        "sus",
         "ta",
         "do"
       ],
       "count": 4,
       "chunks": [
-        "a",
-        "ssus",
+        "as",
+        "sus",
         "ta",
         "do"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "as",
-          "sus",
-          "ta",
-          "do"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "scarf",
@@ -16851,35 +16554,26 @@
       "word": "escorregador",
       "split": [
         "es",
-        "co",
-        "rre",
+        "cor",
+        "re",
         "ga",
         "dor"
       ],
       "count": 5,
       "chunks": [
         "es",
-        "co",
-        "rre",
+        "cor",
+        "re",
         "ga",
         "dor"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "es",
-          "cor",
-          "re",
-          "ga",
-          "dor"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "slippers",
@@ -17605,34 +17299,25 @@
       "split": [
         "es",
         "te",
-        "go",
-        "ssau",
+        "gos",
+        "sau",
         "ro"
       ],
       "count": 5,
       "chunks": [
         "es",
         "te",
-        "go",
-        "ssau",
+        "gos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "es",
-          "te",
-          "gos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "stethoscope",
@@ -17859,8 +17544,8 @@
         "es",
         "ti",
         "ra",
-        "co",
-        "ssau",
+        "cos",
+        "sau",
         "ro"
       ],
       "count": 6,
@@ -17868,27 +17553,17 @@
         "es",
         "ti",
         "ra",
-        "co",
-        "ssau",
+        "cos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "es",
-          "ti",
-          "ra",
-          "cos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "submarine",
@@ -17982,29 +17657,22 @@
       "word": "girassol",
       "split": [
         "gi",
-        "ra",
-        "ssol"
+        "ras",
+        "sol"
       ],
       "count": 3,
       "chunks": [
         "gi",
-        "ra",
-        "ssol"
+        "ras",
+        "sol"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "gi",
-          "ras",
-          "sol"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "sunny",
@@ -18294,34 +17962,25 @@
       "split": [
         "ti",
         "ra",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "count": 5,
       "chunks": [
         "ti",
         "ra",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "ti",
-          "ra",
-          "nos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "t-shirt",
@@ -18537,29 +18196,22 @@
       "word": "professor",
       "split": [
         "pro",
-        "fe",
-        "ssor"
+        "fes",
+        "sor"
       ],
       "count": 3,
       "chunks": [
         "pro",
-        "fe",
-        "ssor"
+        "fes",
+        "sor"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pro",
-          "fes",
-          "sor"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "teapot",
@@ -18682,30 +18334,23 @@
       "key": "tent",
       "word": "barraca",
       "split": [
-        "ba",
-        "rra",
+        "bar",
+        "ra",
         "ca"
       ],
       "count": 3,
       "chunks": [
-        "ba",
-        "rra",
+        "bar",
+        "ra",
         "ca"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "bar",
-          "ra",
-          "ca"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "therizinosaurus",
@@ -18714,8 +18359,8 @@
         "te",
         "ri",
         "zi",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "count": 6,
@@ -18723,27 +18368,17 @@
         "te",
         "ri",
         "zi",
-        "no",
-        "ssau",
+        "nos",
+        "sau",
         "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "te",
-          "ri",
-          "zi",
-          "nos",
-          "sau",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "thermometer",
@@ -18846,30 +18481,23 @@
       "key": "ticket",
       "word": "passagem",
       "split": [
-        "pa",
-        "ssa",
+        "pas",
+        "sa",
         "gem"
       ],
       "count": 3,
       "chunks": [
-        "pa",
-        "ssa",
+        "pas",
+        "sa",
         "gem"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "pas",
-          "sa",
-          "gem"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "tie",
@@ -18984,62 +18612,47 @@
       "key": "toast",
       "word": "torrada",
       "split": [
-        "to",
-        "rra",
+        "tor",
+        "ra",
         "da"
       ],
       "count": 3,
       "chunks": [
-        "to",
-        "rra",
+        "tor",
+        "ra",
         "da"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "tor",
-          "ra",
-          "da"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "toaster",
       "word": "torradeira",
       "split": [
-        "to",
-        "rra",
+        "tor",
+        "ra",
         "dei",
         "ra"
       ],
       "count": 4,
       "chunks": [
-        "to",
-        "rra",
+        "tor",
+        "ra",
         "dei",
         "ra"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "tor",
-          "ra",
-          "dei",
-          "ra"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "tomato",
@@ -20432,27 +20045,21 @@
       "key": "winter-hat",
       "word": "gorro",
       "split": [
-        "go",
-        "rro"
+        "gor",
+        "ro"
       ],
       "count": 2,
       "chunks": [
-        "go",
-        "rro"
+        "gor",
+        "ro"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "gor",
-          "ro"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "wisteria",

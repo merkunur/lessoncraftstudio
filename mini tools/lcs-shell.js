@@ -618,6 +618,13 @@
        ===================================================================== */
     var promptEl, progressEl, feedbackEl, answerEl, checkBtnEl, nextBtnEl;
     var currentTaskIndex = 0, tasksCompleted = 0, currentTask = null;
+    /* Per-session round order: a Fisher–Yates permutation of the task
+       indices, built once per mount and rebuilt only when the pool length
+       changes (e.g. the async demo→manifest swap). Same items, whole pool,
+       fresh order each visit — we permute only WHICH round is served Nth,
+       never anything inside a round (tile/distractor/card positions stay
+       deterministic as before). Pool of 1 is a no-op. */
+    var taskOrder = null;
 
     function ensureActivityChrome() {
       if (!tool.tasks && !tool.nextTask) return false;
@@ -680,9 +687,31 @@
       return true;
     }
 
-    /* Resolve the i-th task. Supports either tool.tasks[] or tool.nextTask(). */
+    /* Build/refresh the per-session shuffled index order for the current
+       pool size. Fresh Math.random seed each mount; rebuilt only when the
+       length changes, so steady play keeps ONE stable order (no mid-sequence
+       reshuffle that could re-serve or skip a round). */
+    function ensureTaskOrder(n) {
+      if (taskOrder && taskOrder.length === n) return taskOrder;
+      var idx = [];
+      for (var k = 0; k < n; k++) idx.push(k);
+      for (var i = n - 1; i > 0; i--) {           /* Fisher–Yates (unbiased) */
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = idx[i]; idx[i] = idx[j]; idx[j] = tmp;
+      }
+      taskOrder = idx;
+      return taskOrder;
+    }
+
+    /* Resolve the i-th task. Supports either tool.tasks[] or tool.nextTask().
+       For tool.tasks[] we index through the per-session shuffled order so the
+       round SEQUENCE varies per visit; `i % length` keeps the loop-after-
+       exhaustion behavior (the same shuffled order repeats each cycle). */
     function getTask(i) {
-      if (tool.tasks && tool.tasks.length) return tool.tasks[i % tool.tasks.length];
+      if (tool.tasks && tool.tasks.length) {
+        var order = ensureTaskOrder(tool.tasks.length);
+        return tool.tasks[order[i % order.length]];
+      }
       if (typeof tool.nextTask === 'function') return tool.nextTask({ index: i, completed: tasksCompleted });
       return null;
     }

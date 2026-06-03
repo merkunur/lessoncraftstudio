@@ -225,6 +225,7 @@ var ACTIVITY_STRINGS = {
     it: 'Quanti animali?',
     pt: 'Quantos animais?',
     nl: 'Hoeveel dieren?',
+    sv: 'Hur många djur?',
     fi: 'Kuinka monta eläintä?'
   },
   promptCountFruits: {
@@ -235,6 +236,7 @@ var ACTIVITY_STRINGS = {
     it: 'Quanti frutti?',
     pt: 'Quantas frutas?',
     nl: 'Hoeveel vruchten?',
+    sv: 'Hur många frukter?',
     fi: 'Kuinka monta hedelmää?'
   },
   promptCountVehicles: {
@@ -245,6 +247,7 @@ var ACTIVITY_STRINGS = {
     it: 'Quanti veicoli?',
     pt: 'Quantos veículos?',
     nl: 'Hoeveel voertuigen?',
+    sv: 'Hur många fordon?',
     fi: 'Kuinka monta kulkuneuvoa?'
   },
   /* Neutral noun for the mixed-set's group aria-label ("6 objects") so the
@@ -252,7 +255,7 @@ var ACTIVITY_STRINGS = {
      fi uses partitive-singular "esinettä" (reads correctly after a count). */
   labelObjects: {
     en: 'objects', de: 'Dinge', fr: 'images', it: 'oggetti', es: 'objetos', pt: 'objetos',
-    nl: 'voorwerpen', sv: 'objekt', da: 'objekter', no: 'objekter', fi: 'esinettä'
+    nl: 'voorwerpen', sv: 'bilder', da: 'objekter', no: 'objekter', fi: 'esinettä'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

@@ -386,7 +386,13 @@ var NOUN_LABELS = {
   pine:       { en: 'pine tree' },
   lighthouse: { en: 'lighthouse' },
   rock:       { en: 'rock' },
-  pumpkin:    { en: 'pumpkin' }
+  pumpkin:    { en: 'pumpkin' },
+  crayon:     { en: 'crayon' },
+  marker:     { en: 'marker' },
+  cucumber:   { en: 'cucumber' },
+  palm:       { en: 'palm tree' },
+  oak:        { en: 'oak tree' },
+  sunflower:  { en: 'sunflower' }
 };
 var FLATTENED_NOUN_LABELS = {};
 Object.keys(NOUN_LABELS).forEach(function (key) {

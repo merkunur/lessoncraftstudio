@@ -68,6 +68,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Hier zählt Ihr Kind die Zahlen von 0 bis 20 auf einem doppelten Zehnerfeld und legt dabei Obst-Plättchen an. Jede Zahl entsteht in Ruhe, ein Plättchen nach dem anderen.", "Das doppelte Zehnerfeld macht deutlich, dass die Zwanzig eigentlich eine volle Zehn und noch ein paar mehr ist. Diese Sichtweise legt schon früh den Grundstein für das spätere Stellenwertverständnis.", "Ohne Uhr und ohne Wertung können die Kinder gelassen üben und die Zahlen mit allen Sinnen erfassen. Die Übung entspricht dem Bildungsstandard K.CC.B.4 und erweitert das Mengenverständnis über die Zehn hinaus."],
     "ten-frame.how-many.0-10.animals": ["Bei dieser Aufgabe betrachtet Ihr Kind Tier-Plättchen auf einem Zehnerfeld und beantwortet die Frage, wie viele es sind, im Bereich von 0 bis 10. Das Zehnerfeld gibt der Menge eine klare, vertraute Form.", "Durch die feste Anordnung im Zehnerfeld lernen die Kinder, Mengen auf einen Blick zu erkennen, ohne jedes Einzelne abzählen zu müssen. Dieses sogenannte Simultanerfassen ist eine wichtige Grundlage für sicheres Rechnen.", "Es läuft keine Zeit ab und es werden keine Punkte vergeben, sodass Ihr Kind in aller Ruhe schauen und überlegen kann. Die Übung folgt dem Bildungsstandard K.CC.B.5 und beantwortet die Frage nach der Anzahl."],
     "ten-frame.write-numeral.0-20.fruits": ["In dieser Übung zählt Ihr Kind das Obst auf einem doppelten Zehnerfeld und schreibt anschließend die passende Zahl im Bereich von 0 bis 20 auf. So wird aus einer gesehenen Menge ein geschriebenes Zeichen.", "Das Zehnerfeld hilft dabei, die Menge übersichtlich zu erfassen, und verbindet sie dann mit ihrem Zahlzeichen. Auf diese Weise erkennen die Kinder, dass die Ziffer wirklich für eine bestimmte Anzahl steht.", "Da es weder einen Zeitnehmer noch eine Punktzahl gibt, kann Ihr Kind sorgfältig zählen und schreiben. Die Aufgabe entspricht dem Bildungsstandard K.CC.A.3, bei dem eine Anzahl von Gegenständen durch ein geschriebenes Zahlzeichen dargestellt wird."],
-    "ten-frame.teen-numbers.make-n": ["Hier baut Ihr Kind die Zahlen von 11 bis 19 auf einem doppelten Zehnerfeld auf und erlebt sie als eine volle Zehn und einige zusätzliche Einer. Schritt für Schritt entsteht so ein anschauliches Bild dieser Zahlen.", "Das Zehnerfeld macht den Aufbau der Zahlen im zweiten Zehner sofort sichtbar und zeigt, dass zum Beispiel die 14 aus zehn und vier besteht. Genau dieses Verständnis bildet die Grundlage für das spätere Rechnen mit dem Stellenwert.", "Ohne Zeitdruck und ohne Punkte können die Kinder gelassen ausprobieren und beobachten. Die Übung folgt dem Bildungsstandard K.NBT.A.1 und macht die Struktur der Zahlen von 11 bis 19 verständlich."]
+    "ten-frame.teen-numbers.make-n": ["Hier baut Ihr Kind die Zahlen von 11 bis 19 auf einem doppelten Zehnerfeld auf und erlebt sie als eine volle Zehn und einige zusätzliche Einer. Schritt für Schritt entsteht so ein anschauliches Bild dieser Zahlen.", "Das Zehnerfeld macht den Aufbau der Zahlen im zweiten Zehner sofort sichtbar und zeigt, dass zum Beispiel die 14 aus zehn und vier besteht. Genau dieses Verständnis bildet die Grundlage für das spätere Rechnen mit dem Stellenwert.", "Ohne Zeitdruck und ohne Punkte können die Kinder gelassen ausprobieren und beobachten. Die Übung folgt dem Bildungsstandard K.NBT.A.1 und macht die Struktur der Zahlen von 11 bis 19 verständlich."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "Kinder lernen, die Welt zu ordnen, indem sie Dinge in Gruppen sortieren. Auf dem Bildschirm erscheint ein bunter Haufen freundlicher Bilder — Tiere, Früchte und manchmal Fahrzeuge, alle durcheinander. Der Text nennt eine Gruppe, und das Kind überlegt, wie viele Bilder dazugehören, und tippt dann die Zahl an.",
+        "Die Bilder sind absichtlich gemischt: Um „Wie viele Tiere?“ zu beantworten, kann das Kind nicht einfach alles zählen. Es schaut sich jedes Bild genau an, entscheidet, was es ist, lässt weg, was nicht dazugehört, und zählt nur die gefragte Gruppe.",
+        "Diese Aktivität ist auf den Lehrplan im Bereich {strand} abgestimmt. Die Kinder üben in ihrem eigenen Tempo mit sanfter, sofortiger Rückmeldung — kein Timer, keine Punkte, nur genaues Hinschauen."
+      ],
+      "practices": [
+        "Einen gemischten Haufen anschauen und bei jedem Bild überlegen, zu welcher Gruppe es gehört.",
+        "Nur die genannte Gruppe zählen und den Rest weglassen.",
+        "Die Anzahl einer Gruppe von der Gesamtmenge unterscheiden.",
+        "Die Gewohnheit „erst sortieren, dann zählen“ für späteres Arbeiten mit Daten und Diagrammen aufbauen."
+      ],
+      "howToPlay": [
+        "Schau dir den gemischten Bilderhaufen an und höre oder lies, welche Gruppe gesucht ist.",
+        "Überlege, wie viele Bilder dazugehören, und tippe die passende Zahl an.",
+        "Eine warme Rückmeldung erscheint — und ein neuer Versuch ist jederzeit ganz leicht."
+      ],
+      "learningGoals": [
+        "Bilder in Gruppen einteilen und jede Gruppe zählen.",
+        "Die Anzahl einer genannten Gruppe von der Gesamtmenge unterscheiden.",
+        "Sortier- und Ordnungsfähigkeiten für späteres Arbeiten im Bereich {strand} aufbauen."
+      ]
+    }
   }
 }

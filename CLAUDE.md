@@ -2407,6 +2407,18 @@ Extends §A.13.48 (native-ensemble recreation) and §A.13.54 (activity-layer i18
 
 Cross-refs: §A.13.48, §A.13.54, §A.13.55, §20.10; [[project-activities-live-inventory]].
 
+#### A.13.57 Syllabifier reviewer-dispute triage vs the multi-source gate
+
+When a native reviewer disputes a rule-syllabifier's split (the recurring outcome of any per-locale syllable fan-out), do NOT assume it's an engine bug to fix. Triage it against the gate's OTHER independent sources first — this is a one-read decision, not a per-word stop-and-rule round-trip.
+
+A syllabifier reviewer-dispute is only a **gate-viable rule fix** when **(a)** the gate's other independent sources already agree with the reviewer (e.g. pt `ss`/`rr`: TeX + vocab-phonics already give the correct split), **AND (b)** the change is **count-preserving** (`gi-ra-ssol` and `gi-ras-sol` are both 3 syllables). When both hold, fixing the rule makes it agree with the sources that were already right, and re-gating lands clean (zero new quarantine).
+
+- **If TeX backs the current split**, it's a **convention difference, not a defect** — leave it. The reviewer's preference is a valid alternative the gate doesn't endorse; flipping the rule makes rule≠TeX → `split_source_disagreement` (`gate.js:226-238`) → the gate **quarantines** the words rather than fixing them. (sv `ck`=`kloc-ka`, long-vowel `seb-ra`, seam `hands-ke` — all TeX-backed.)
+- **If the contested split requires a syllable-COUNT change**, the read-only `vocabulary-phonics.json` (§10.3, never edited without approval) carries the **same** count, so a rule-only fix makes rule≠vocab-phonics → the gate **quarantines** the word instead of fixing it. Defer to an explicit, operator-approved vocab-phonics correction. (pt-hiatus `frio→fri-o` / `melancia→me-lan-ci-a`; fi `lumiukko→lu-mi-uk-ko`.)
+- **Never override the multi-source gate for a convention preference** — that breaks the very invariant that caught the real bug. The gate quarantining a "fixed" word is the safety mechanism working, not a failure.
+
+Practical triage: drive `sources/hyphenation.js` (TeX) + check `vocabulary-phonics.json` counts for the disputed words BEFORE touching the rule; the answer tells you fix-now / leave-as-convention / defer-to-protected-edit without any code change. Empirical: PT `ss`/`rr` was the one gate-viable fix of three disputes (`fed6838b`); sv (TeX-backed) + pt-hiatus/fi-seam (vocab-phonics-backed count change) were correctly left/deferred. Cross-refs: §A.13.44 (snapshot before re-gate), §A.13.52 (no.js abstention), §20.7 (gate source stack), `gate.js:226-238` (`split_source_disagreement`).
+
 ### A.14 Scaling Arc audit doctrine
 
 `[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change.

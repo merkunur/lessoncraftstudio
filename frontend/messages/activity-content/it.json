@@ -18,6 +18,29 @@
     "ten-frame.count-to-20.make-n.fruits": ["Con una doppia tabella del dieci, tuo figlio conta da 0 a 20 sistemando un frutto alla volta nelle caselle. Vedere venti come \"un dieci pieno e qualcosa in più\" è il primo passo verso la comprensione del valore posizionale, in linea con lo standard K.CC.B.4.", "Quando la prima tabella si riempie completamente, il bambino capisce che è tempo di passare alla seconda: così l'idea di gruppi di dieci prende forma in modo naturale e visivo. È un'esperienza che dà solide basi alla matematica futura.", "Non ci sono né timer né punteggio. Tuo figlio può esplorare i numeri fino a venti con tutta la tranquillità di cui ha bisogno, ripetendo l'attività ogni volta che lo desidera."],
     "ten-frame.how-many.0-10.animals": ["In questa attività i bambini osservano gli animaletti già disposti sulla tabella del dieci e rispondono alla domanda \"quanti sono?\", con quantità da 0 a 10. È un esercizio che allena lo sguardo a riconoscere i numeri a colpo d'occhio, sostenendo lo standard K.CC.B.5.", "La struttura ordinata delle dieci caselle aiuta tuo figlio a percepire la quantità senza dover contare ogni volta da capo: piano piano impara a \"vedere\" il cinque o l'otto in modo immediato. Questa abilità, chiamata subitizzazione, è preziosa per tutta la matematica.", "Qui non c'è nessun timer e nessun punteggio. Il bambino può guardare con calma, riflettere e dare la sua risposta serenamente, senza alcuna pressione."],
     "ten-frame.write-numeral.0-20.fruits": ["Su una doppia tabella del dieci, tuo figlio conta i frutti e poi scrive il numero corrispondente, da 0 a 20. Questo collega la quantità che vede al simbolo scritto, un passaggio fondamentale descritto dallo standard K.CC.A.3.", "Vedere i frutti ben ordinati nelle caselle e poi tradurli in una cifra aiuta il bambino a dare un significato concreto ai numeri scritti. Le due tabelle rendono chiaro come si forma un numero oltre il dieci.", "Non c'è alcun timer e non c'è alcun punteggio. I bambini possono contare e scrivere con tutta la calma necessaria, ripetendo l'attività finché si sentono sicuri."],
-    "ten-frame.teen-numbers.make-n": ["Con la doppia tabella del dieci, tuo figlio costruisce i numeri da 11 a 19 come \"un dieci pieno e alcune unità in più\". Riempire prima una tabella intera e poi aggiungere i pezzi mancanti rende visibile la struttura di questi numeri, secondo lo standard K.NBT.A.1.", "Questo modo di lavorare aiuta il bambino a non vedere i numeri tra dieci e venti come simboli misteriosi, ma come dieci e qualcos'altro. È una base solida per comprendere in seguito il valore posizionale.", "Qui non ci sono né timer né punteggio. Tuo figlio può sperimentare e ricominciare quante volte vuole, con la serenità di chi impara al proprio ritmo."]
+    "ten-frame.teen-numbers.make-n": ["Con la doppia tabella del dieci, tuo figlio costruisce i numeri da 11 a 19 come \"un dieci pieno e alcune unità in più\". Riempire prima una tabella intera e poi aggiungere i pezzi mancanti rende visibile la struttura di questi numeri, secondo lo standard K.NBT.A.1.", "Questo modo di lavorare aiuta il bambino a non vedere i numeri tra dieci e venti come simboli misteriosi, ma come dieci e qualcos'altro. È una base solida per comprendere in seguito il valore posizionale.", "Qui non ci sono né timer né punteggio. Tuo figlio può sperimentare e ricominciare quante volte vuole, con la serenità di chi impara al proprio ritmo."],
+    "choice-board.sort-count.k-md-b-3": {
+      "about": [
+        "I bambini imparano a organizzare il mondo classificando in gruppi. Sullo schermo appare una pila mista di disegni amichevoli — animali, frutti, a volte veicoli — tutto mescolato insieme. Il prompt nomina UN gruppo e il bambino decide quanti ne appartengono, poi tocca il numero.",
+        "La pila è mista di proposito. Per rispondere «quanti animali?» il bambino non può semplicemente contare tutto; deve guardare ogni disegno, decidere che cosa è, mettere da parte quello che non appartiene, contare solo il gruppo nominato.",
+        "È in linea con le Indicazioni nazionali, nell'ambito {strand}. I bambini classificano e contano al loro ritmo con un feedback gentile e immediato — niente timer, niente punti, solo un ordinamento tranquillo e un conteggio consapevole."
+      ],
+      "practices": [
+        "Riconoscere la categoria di ogni disegno nella pila mista.",
+        "Contare solo il gruppo nominato e ignorare il resto.",
+        "Dire il numero di un gruppo specifico dal totale di tutto.",
+        "Abituarsi a ordinare per primo, poi contare — un'abitudine utile per il lavoro con i dati più avanti."
+      ],
+      "howToPlay": [
+        "Guarda la pila mista di disegni e ascolta (o leggi) il nome del gruppo. Decidi quanti ne appartengono a quel gruppo.",
+        "Tocca il numero che corrisponde al tuo conteggio. Non c'è fretta.",
+        "Ricevi una conferma gentile e puoi riprovare tutte le volte che vuoi — niente sbagliato, solo imparare a guardare con attenzione."
+      ],
+      "learningGoals": [
+        "Classificare i disegni in categorie e contare ogni gruppo.",
+        "Dire il numero di un gruppo nominato partendo dal totale misto.",
+        "Costruire le abilità di ordinamento per lavori con i dati più avanti — nell'ambito {strand}."
+      ]
+    }
   }
 }

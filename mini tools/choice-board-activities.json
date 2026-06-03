@@ -10,7 +10,7 @@
       "strand": "Geometry"
     },
     "params": {
-      "shapes": ["circle", "square", "triangle", "rectangle", "hexagon", "oval", "star", "diamond"],
+      "shapes": ["circle", "square", "triangle", "rectangle", "hexagon", "oval", "star", "diamond", "heart", "pentagon"],
       "choicesPerTask": 4
     },
     "theme": null,

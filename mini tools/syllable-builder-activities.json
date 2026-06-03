@@ -296,5 +296,56 @@
     "page_title": { "da": "Byg ordet af stavelser — Fonetik i børnehaveklassen" },
     "page_intro": { "da": "Se på billedet og byg ordet ved at lægge stavelserne i den rigtige rækkefølge. Tilpasset Fælles Mål — tælle, udtale, blande og dele stavelser i talte ord." },
     "kid_prompt_template": "promptBuildSyllables"
+  },
+  {
+    "id": "syllable-builder.build-words-from-syllables.rf-k-2-b",
+    "tool": "syllable-builder-activity",
+    "task_template": "build-syllables-word",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "RF.K.2.B",
+      "grade": "K",
+      "strand": "Reading: Foundational Skills"
+    },
+    "params": {
+      "language": "en-US",
+      "words": [
+        { "noun": "rabbit",     "themeDir": "animals",    "targetWord": "rabbit",     "syllables": ["rab","bit"],          "label": "rabbit" },
+        { "noun": "ladder",     "themeDir": "tools",      "targetWord": "ladder",     "syllables": ["lad","der"],          "label": "ladder" },
+        { "noun": "muffin",     "themeDir": "breakfast",  "targetWord": "muffin",     "syllables": ["muf","fin"],          "label": "muffin" },
+        { "noun": "carrot",     "themeDir": "vegetables", "targetWord": "carrot",     "syllables": ["car","rot"],          "label": "carrot" },
+        { "noun": "balloon",    "themeDir": "toys",       "targetWord": "balloon",    "syllables": ["bal","loon"],         "label": "balloon" },
+        { "noun": "pencil",     "themeDir": "classroom",  "targetWord": "pencil",     "syllables": ["pen","cil"],          "label": "pencil" },
+        { "noun": "penguin",    "themeDir": "animals",    "targetWord": "penguin",    "syllables": ["pen","guin"],         "label": "penguin" },
+        { "noun": "tractor",    "themeDir": "vehicles",   "targetWord": "tractor",    "syllables": ["trac","tor"],         "label": "tractor" },
+        { "noun": "pumpkin",    "themeDir": "vegetables", "targetWord": "pumpkin",    "syllables": ["pump","kin"],         "label": "pumpkin" },
+        { "noun": "panda",      "themeDir": "animals",    "targetWord": "panda",      "syllables": ["pan","da"],           "label": "panda" },
+        { "noun": "tiger",      "themeDir": "animals",    "targetWord": "tiger",      "syllables": ["ti","ger"],           "label": "tiger" },
+        { "noun": "zebra",      "themeDir": "animals",    "targetWord": "zebra",      "syllables": ["ze","bra"],           "label": "zebra" },
+        { "noun": "apple",      "themeDir": "fruits",     "targetWord": "apple",      "syllables": ["ap","ple"],           "label": "apple" },
+        { "noun": "turtle",     "themeDir": "animals",    "targetWord": "turtle",     "syllables": ["tur","tle"],          "label": "turtle" },
+        { "noun": "candle",     "themeDir": "christmas",  "targetWord": "candle",     "syllables": ["can","dle"],          "label": "candle" },
+        { "noun": "rainbow",    "themeDir": "weather",    "targetWord": "rainbow",    "syllables": ["rain","bow"],         "label": "rainbow" },
+        { "noun": "cupcake",    "themeDir": "bakery",     "targetWord": "cupcake",    "syllables": ["cup","cake"],         "label": "cupcake" },
+        { "noun": "snowman",    "themeDir": "winter",     "targetWord": "snowman",    "syllables": ["snow","man"],         "label": "snowman" },
+        { "noun": "airplane",   "themeDir": "vehicles",   "targetWord": "airplane",   "syllables": ["air","plane"],        "label": "airplane" },
+        { "noun": "starfish",   "themeDir": "beach",      "targetWord": "starfish",   "syllables": ["star","fish"],        "label": "starfish" },
+        { "noun": "backpack",   "themeDir": "classroom",  "targetWord": "backpack",   "syllables": ["back","pack"],        "label": "backpack" },
+        { "noun": "dolphin",    "themeDir": "animals",    "targetWord": "dolphin",    "syllables": ["dol","phin"],         "label": "dolphin" },
+        { "noun": "crayon",     "themeDir": "classroom",  "targetWord": "crayon",     "syllables": ["cray","on"],          "label": "crayon" },
+        { "noun": "mirror",     "themeDir": "furniture",  "targetWord": "mirror",     "syllables": ["mir","ror"],          "label": "mirror" },
+        { "noun": "elephant",   "themeDir": "animals",    "targetWord": "elephant",   "syllables": ["el","e","phant"],     "label": "elephant" },
+        { "noun": "umbrella",   "themeDir": "weather",    "targetWord": "umbrella",   "syllables": ["um","brel","la"],     "label": "umbrella" },
+        { "noun": "bicycle",    "themeDir": "vehicles",   "targetWord": "bicycle",    "syllables": ["bi","cy","cle"],      "label": "bicycle" },
+        { "noun": "helicopter", "themeDir": "vehicles",   "targetWord": "helicopter", "syllables": ["hel","i","cop","ter"],"label": "helicopter" },
+        { "noun": "butterfly",  "themeDir": "easter",     "targetWord": "butterfly",  "syllables": ["but","ter","fly"],    "label": "butterfly" },
+        { "noun": "fish",       "themeDir": "animals",    "targetWord": "fish",       "syllables": ["fish"],               "label": "fish" }
+      ]
+    },
+    "theme": null,
+    "slug": { "en": "build-words-from-syllables" },
+    "page_title": { "en": "Build Words from Syllables — Kindergarten Phonics" },
+    "page_intro": { "en": "Look at the picture and build the word by tapping the syllables in the right order. Aligned to Common Core RF.K.2.B — count, pronounce, blend, and segment syllables in spoken words." },
+    "kid_prompt_template": "promptBuildSyllables"
   }
 ]

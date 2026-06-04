@@ -278,11 +278,12 @@ var ACTIVITY_STRINGS = {
   promptDescribeAttribute: {
     en: 'Which word describes the {noun}?',
     fi: 'Millainen {noun} on?',
-    de: 'Wie ist {noun}?'
+    de: 'Wie ist {noun}?',
+    fr: 'Comment est l\'objet ?'
   },
-  labelLong:  { en: 'Long',  fi: 'Pitkä',   de: 'Lang'   },
-  labelTall:  { en: 'Tall',  fi: 'Korkea',  de: 'Hoch'   },
-  labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer' },
+  labelLong:  { en: 'Long',  fi: 'Pitkä',   de: 'Lang',   fr: 'Long'  },
+  labelTall:  { en: 'Tall',  fi: 'Korkea',  de: 'Hoch',   fr: 'Haut'  },
+  labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer', fr: 'Lourd' },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -381,20 +382,20 @@ Object.keys(SHAPE_LABELS).forEach(function (key) {
    fan-out localizes them from image-vocabulary.js + the article/plural
    system. */
 var NOUN_LABELS = {
-  pencil:     { en: 'pencil',     fi: 'lyijykynä',     de: 'der Bleistift' },
-  ruler:      { en: 'ruler',      fi: 'viivain',       de: 'das Lineal' },
-  carrot:     { en: 'carrot',     fi: 'porkkana',      de: 'die Karotte' },
-  giraffe:    { en: 'giraffe',    fi: 'kirahvi',       de: 'die Giraffe' },
+  pencil:     { en: 'pencil',     fi: 'lyijykynä',     de: 'der Bleistift',     fr: 'le crayon' },
+  ruler:      { en: 'ruler',      fi: 'viivain',       de: 'das Lineal',        fr: 'la règle' },
+  carrot:     { en: 'carrot',     fi: 'porkkana',      de: 'die Karotte',       fr: 'la carotte' },
+  giraffe:    { en: 'giraffe',    fi: 'kirahvi',       de: 'die Giraffe',       fr: 'la girafe' },
   pine:       { en: 'pine tree' },
   lighthouse: { en: 'lighthouse' },
-  rock:       { en: 'rock',       fi: 'kivi',          de: 'der Stein' },
-  pumpkin:    { en: 'pumpkin',    fi: 'kurpitsa',      de: 'der Kürbis' },
-  crayon:     { en: 'crayon',     fi: 'vahaliitu',     de: 'der Wachsmalstift' },
-  marker:     { en: 'marker',     fi: 'tussi',         de: 'der Marker' },
-  cucumber:   { en: 'cucumber',   fi: 'kurkku',        de: 'die Gurke' },
+  rock:       { en: 'rock',       fi: 'kivi',          de: 'der Stein',         fr: 'une pierre' },
+  pumpkin:    { en: 'pumpkin',    fi: 'kurpitsa',      de: 'der Kürbis',        fr: 'la citrouille' },
+  crayon:     { en: 'crayon',     fi: 'vahaliitu',     de: 'der Wachsmalstift', fr: 'le crayon de couleur' },
+  marker:     { en: 'marker',     fi: 'tussi',         de: 'der Marker',        fr: 'le marqueur' },
+  cucumber:   { en: 'cucumber',   fi: 'kurkku',        de: 'die Gurke',         fr: 'le concombre' },
   palm:       { en: 'palm tree' },
   oak:        { en: 'oak tree' },
-  sunflower:  { en: 'sunflower',  fi: 'auringonkukka', de: 'die Sonnenblume' }
+  sunflower:  { en: 'sunflower',  fi: 'auringonkukka', de: 'die Sonnenblume',   fr: 'le tournesol' }
 };
 var FLATTENED_NOUN_LABELS = {};
 Object.keys(NOUN_LABELS).forEach(function (key) {

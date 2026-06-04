@@ -276,11 +276,12 @@ var ACTIVITY_STRINGS = {
      fan-out (§A.13.56) authors them; no non-EN slug is published yet, so
      that EN fallback never reaches a live non-EN page. */
   promptDescribeAttribute: {
-    en: 'Which word describes the {noun}?'
+    en: 'Which word describes the {noun}?',
+    fi: 'Millainen {noun} on?'
   },
-  labelLong:  { en: 'Long'  },
-  labelTall:  { en: 'Tall'  },
-  labelHeavy: { en: 'Heavy' },
+  labelLong:  { en: 'Long',  fi: 'Pitkä'   },
+  labelTall:  { en: 'Tall',  fi: 'Korkea'  },
+  labelHeavy: { en: 'Heavy', fi: 'Painava' },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -379,20 +380,20 @@ Object.keys(SHAPE_LABELS).forEach(function (key) {
    fan-out localizes them from image-vocabulary.js + the article/plural
    system. */
 var NOUN_LABELS = {
-  pencil:     { en: 'pencil' },
-  ruler:      { en: 'ruler' },
-  carrot:     { en: 'carrot' },
-  giraffe:    { en: 'giraffe' },
+  pencil:     { en: 'pencil',     fi: 'lyijykynä' },
+  ruler:      { en: 'ruler',      fi: 'viivain' },
+  carrot:     { en: 'carrot',     fi: 'porkkana' },
+  giraffe:    { en: 'giraffe',    fi: 'kirahvi' },
   pine:       { en: 'pine tree' },
   lighthouse: { en: 'lighthouse' },
-  rock:       { en: 'rock' },
-  pumpkin:    { en: 'pumpkin' },
-  crayon:     { en: 'crayon' },
-  marker:     { en: 'marker' },
-  cucumber:   { en: 'cucumber' },
+  rock:       { en: 'rock',       fi: 'kivi' },
+  pumpkin:    { en: 'pumpkin',    fi: 'kurpitsa' },
+  crayon:     { en: 'crayon',     fi: 'vahaliitu' },
+  marker:     { en: 'marker',     fi: 'tussi' },
+  cucumber:   { en: 'cucumber',   fi: 'kurkku' },
   palm:       { en: 'palm tree' },
   oak:        { en: 'oak tree' },
-  sunflower:  { en: 'sunflower' }
+  sunflower:  { en: 'sunflower',  fi: 'auringonkukka' }
 };
 var FLATTENED_NOUN_LABELS = {};
 Object.keys(NOUN_LABELS).forEach(function (key) {

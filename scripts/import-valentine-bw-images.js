@@ -128,7 +128,7 @@ const IMAGE_TRANSLATIONS = {
     nl: 'Snoephartje',
     sv: 'Sockerhjärta',
     da: 'Slikhjerte',
-    no: 'Samtalehjerte',
+    no: 'Sukkerhjerte',
     fi: 'Karkkisydän'
   },
   'cupcake': {

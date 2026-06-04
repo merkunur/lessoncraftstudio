@@ -129,7 +129,7 @@ const IMAGE_TRANSLATIONS = {
     sv: 'Samtalshjärta',
     da: 'Samtalehjerte',
     no: 'Samtalehjerte',
-    fi: 'Keskustelusydän'
+    fi: 'Karkkisydän'
   },
   'cupcake': {
     en: 'Cupcake',

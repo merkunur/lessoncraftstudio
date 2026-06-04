@@ -1,6 +1,6 @@
 {
   "locale": "fi",
-  "generated_at": "2026-06-04T10:29:59.127Z",
+  "generated_at": "2026-06-04T16:21:47.401Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -5955,40 +5955,27 @@
     },
     {
       "key": "conversation-heart",
-      "word": "keskustelusydän",
+      "word": "karkkisydän",
       "split": [
-        "kes",
-        "kus",
-        "te",
-        "lu",
+        "kark",
+        "ki",
         "sy",
         "dän"
       ],
-      "count": 6,
+      "count": 4,
       "chunks": [
-        "kes",
-        "kus",
-        "te",
-        "lu",
+        "kark",
+        "ki",
         "sy",
         "dän"
       ],
       "sources_agreed": [
+        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "kes",
-          "kus",
-          "te",
-          "lusy",
-          "dän"
-        ]
-      }
+      "total_agreed": 3,
+      "rule_authoritative": true
     },
     {
       "key": "cook",

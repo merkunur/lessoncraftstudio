@@ -51536,7 +51536,7 @@
       "lc": 7
     },
     "pt": {
-      "syl": 3,
+      "syl": 4,
       "pat": "CVCVCVVC",
       "lc": 8
     },
@@ -75734,6 +75734,66 @@
       "syl": 2,
       "pat": "CVCCVV",
       "lc": 6
+    }
+  },
+  "mother": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "father": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "sister": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "brother": {
+    "sv": {
+      "syl": 1
+    }
+  },
+  "grandmother": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "grandfather": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "drink": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "jump": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "sit": {
+    "sv": {
+      "syl": 2
+    }
+  },
+  "stand": {
+    "sv": {
+      "syl": 1
+    }
+  },
+  "walk": {
+    "sv": {
+      "syl": 1
+    }
+  },
+  "family": {
+    "sv": {
+      "syl": 2
     }
   }
 }

@@ -109,7 +109,7 @@ async function evaluateWord(key, word, locale, opts) {
     T: inputs.T, R: inputs.R, N: inputs.N, W: inputs.W, S: inputs.S,
     C: inputs.C
   };
-  const verdict = gate.evaluate(gateInputs, { locale, minSourcesAgreed: MIN_AGREED[locale] || MIN_AGREED.default });
+  const verdict = gate.evaluate(gateInputs, { locale, word, minSourcesAgreed: MIN_AGREED[locale] || MIN_AGREED.default });
 
   // Decorate with NST + Wiktionary IPA + Danish policy flags
   if (inputs.nstSampa) verdict.nst_sampa = inputs.nstSampa;

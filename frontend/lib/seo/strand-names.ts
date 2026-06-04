@@ -13,12 +13,17 @@
  * sync with the `byStrand` template keys in `activity-content.ts`). The two
  * base-ten spellings ("&" vs "and") both alias to the canonical "&" form.
  *
- * Register: a natural pedagogical translation of the domain name — these are
- * CCSS domain labels rendered for international teachers, not a curriculum-
- * framework credibility surface (so NOT the §A.13.49 framework-register).
+ * Register: the locale's own national-curriculum DOMAIN name (the term that
+ * curriculum actually uses), not a literal gloss of the CCSS English — e.g.
+ * fr collapses Counting/Operations/Base-Ten onto "Nombres et calcul", sv onto
+ * "Taluppfattning och tals användning". Rendered for international teachers in
+ * the chip + JSON-LD; the §A.13.49 framework register names the framework, this
+ * names the domain within it.
  *
- * [NSR-FLAG][sv][da][no][fi] — Nordic + Finnic translations authored at
- * best-effort per §17.5.1; flag for native-speaker review.
+ * Native-curriculum review (de/fr/nl/sv/da/no/fi, incl. the prior [NSR-FLAG]
+ * Nordic+Finnic) completed 2026-06-04 via per-locale expert agents — the
+ * best-effort glosses were replaced with the national-curriculum domain names.
+ * es/it/pt retain their original values (not yet curriculum-reviewed).
  */
 
 export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
@@ -26,38 +31,38 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Counting & Cardinality',
     de: 'Zählen und Anzahl',
     es: 'Conteo y cardinalidad',
-    fr: 'Dénombrement et cardinalité',
+    fr: 'Nombres et calcul',
     it: 'Contare e cardinalità',
     pt: 'Contagem e cardinalidade',
-    nl: 'Tellen en aantal',
-    sv: 'Räkning och antal',
-    da: 'Tælling og antal',
-    no: 'Telling og antall',
+    nl: 'Getallen (tellen en getalbegrip)',
+    sv: 'Taluppfattning och tals användning',
+    da: 'Tal og algebra (tælling og antal)',
+    no: 'Telling og tall',
     fi: 'Lukumäärä ja laskeminen',
   },
   'Operations & Algebraic Thinking': {
     en: 'Operations & Algebraic Thinking',
     de: 'Rechnen und algebraisches Denken',
     es: 'Operaciones y pensamiento algebraico',
-    fr: 'Opérations et pensée algébrique',
+    fr: 'Nombres et calcul',
     it: 'Operazioni e pensiero algebrico',
     pt: 'Operações e pensamento algébrico',
-    nl: 'Bewerkingen en algebraïsch denken',
-    sv: 'Räknesätt och algebraiskt tänkande',
-    da: 'Regnearter og algebraisk tænkning',
-    no: 'Regnearter og algebraisk tenkning',
+    nl: 'Bewerkingen',
+    sv: 'Algebra',
+    da: 'Tal og algebra (regnestrategier)',
+    no: 'Regneoperasjoner og algebraisk tenkning',
     fi: 'Laskutoimitukset ja algebrallinen ajattelu',
   },
   'Geometry': {
     en: 'Geometry',
     de: 'Geometrie',
     es: 'Geometría',
-    fr: 'Géométrie',
+    fr: 'Espace et géométrie',
     it: 'Geometria',
     pt: 'Geometria',
     nl: 'Meetkunde',
     sv: 'Geometri',
-    da: 'Geometri',
+    da: 'Geometri og måling',
     no: 'Geometri',
     fi: 'Geometria',
   },
@@ -80,13 +85,13 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Number & Operations in Base Ten',
     de: 'Zahlen und Rechnen im Zehnersystem',
     es: 'Números y operaciones en base diez',
-    fr: 'Nombres et opérations en base dix',
+    fr: 'Nombres et calcul',
     it: 'Numeri e operazioni in base dieci',
     pt: 'Números e operações na base dez',
-    nl: 'Getallen en bewerkingen in het tientallig stelsel',
-    sv: 'Tal och räkning i basen tio',
-    da: 'Tal og regning i titalssystemet',
-    no: 'Tall og regning i titallssystemet',
+    nl: 'Getallen en het tientallig stelsel',
+    sv: 'Taluppfattning och tals användning',
+    da: 'Tal og algebra (positionssystemet)',
+    no: 'Tall og titallssystemet',
     fi: 'Luvut ja kymmenjärjestelmä',
   },
   // Alias: manifest uses the "and" spelling in places — map to the same value.
@@ -94,27 +99,39 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     en: 'Number & Operations in Base Ten',
     de: 'Zahlen und Rechnen im Zehnersystem',
     es: 'Números y operaciones en base diez',
-    fr: 'Nombres et opérations en base dix',
+    fr: 'Nombres et calcul',
     it: 'Numeri e operazioni in base dieci',
     pt: 'Números e operações na base dez',
-    nl: 'Getallen en bewerkingen in het tientallig stelsel',
-    sv: 'Tal och räkning i basen tio',
-    da: 'Tal og regning i titalssystemet',
-    no: 'Tall og regning i titallssystemet',
+    nl: 'Getallen en het tientallig stelsel',
+    sv: 'Taluppfattning och tals användning',
+    da: 'Tal og algebra (positionssystemet)',
+    no: 'Tall og titallssystemet',
     fi: 'Luvut ja kymmenjärjestelmä',
   },
   'Reading: Foundational Skills': {
     en: 'Reading: Foundational Skills',
     de: 'Lesen: Grundfertigkeiten',
     es: 'Lectura: destrezas fundamentales',
-    fr: 'Lecture : compétences fondamentales',
+    fr: 'Lecture et compréhension de l\'écrit',
     it: 'Lettura: competenze di base',
     pt: 'Leitura: habilidades fundamentais',
-    nl: 'Lezen: fundamentele vaardigheden',
-    sv: 'Läsning: grundläggande färdigheter',
-    da: 'Læsning: grundlæggende færdigheder',
+    nl: 'Lezen: technisch lezen (fundamentele leesvaardigheden)',
+    sv: 'Läsa och skriva',
+    da: 'Læsning (afkodning)',
     no: 'Lesing: grunnleggende ferdigheter',
-    fi: 'Lukeminen: perustaidot',
+    fi: 'Lukemisen perustaidot',
+  },
+  // Phonological Awareness (pre-reading sound awareness; literacy). es/it/pt
+  // fall back to en — no deployed activity uses this strand yet (forward-looking).
+  'Phonological Awareness': {
+    en: 'Phonological Awareness',
+    de: 'Phonologische Bewusstheit',
+    fr: 'Conscience phonologique',
+    nl: 'Fonologisch bewustzijn',
+    sv: 'Fonologisk medvetenhet',
+    da: 'Sproglig opmærksomhed (fonologisk opmærksomhed)',
+    no: 'Språklig bevissthet',
+    fi: 'Kielellinen tietoisuus',
   },
 };
 

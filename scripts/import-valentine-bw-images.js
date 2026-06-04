@@ -120,7 +120,7 @@ const IMAGE_TRANSLATIONS = {
   },
   'conversation': {
     en: 'Conversation Heart',
-    de: 'Gesprächsherz',
+    de: 'Zuckerherz',
     fr: 'Cœur de conversation',
     es: 'Corazón de conversación',
     it: 'Cuore con messaggio',

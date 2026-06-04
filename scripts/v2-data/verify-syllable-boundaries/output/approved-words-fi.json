@@ -1,6 +1,6 @@
 {
   "locale": "fi",
-  "generated_at": "2026-05-22T01:00:25.778Z",
+  "generated_at": "2026-06-04T10:29:59.127Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -21352,22 +21352,31 @@
       "word": "lumiukko",
       "split": [
         "lu",
-        "miuk",
+        "mi",
+        "uk",
         "ko"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
         "lu",
-        "miuk",
+        "mi",
+        "uk",
         "ko"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "lu",
+          "miuk",
+          "ko"
+        ]
+      }
     },
     {
       "key": "snowsuit",

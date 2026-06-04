@@ -30,6 +30,15 @@ const VOWELS = new Set(['a','e','i','o','u','á','à','â','ã','é','ê','í','
 const STRONG_VOWELS = new Set(['a','e','o','á','à','â','ã','é','ê','ó','ô','õ']);
 const WEAK_VOWELS = new Set(['i','u','í','ú']);
 const NASAL_VOWELS = new Set(['ã','õ']);
+// Any written stress accent / tilde — when present, default penult stress does
+// NOT apply, so the tonic-i/u-hiatus guard (below) must not fire (Má-rio, á-gua,
+// his-tó-ria keep their atonic diphthong).
+const HAS_ACCENT = /[áàâãéêíóôõú]/;
+// Loanwords / exotics where the native default-penult-stress assumption fails
+// (the tonic-i/u guard would over-fire). English "brownie" = /braʊni/ → brow-nie
+// (atonic ie, NOT hiatus); the durian fruit-name keeps the accepted du-rian.
+// Same surgical-exception shape as no.js WORD_BLACKLIST (§A.13.52).
+const HIATUS_GUARD_SKIP = new Set(['brownie', 'durian']);
 
 /* Inseparable C-clusters + PT digraphs.
    NOTE: rr and ss are NOT here. They are dígrafos que se separam — the
@@ -87,7 +96,25 @@ function syllabify(word) {
         i + 2 < n && isVowel(w[i + 2]) &&
         WEAK_VOWELS.has(w[i])
       );
-      if (!wouldOrphanNasal) nucleusEnd = i + 2;
+      // Tonic-i/u hiatus: an UNACCENTED word whose FINAL vowel pair is an
+      // unaccented weak vowel (i/u) + strong vowel carries its stress on that
+      // weak vowel (default penult/final stress), so it is a HIATUS not a
+      // diphthong — fri-o, ri-o, na-vi-o, pi-a, lu-a, me-lan-ci-a,
+      // fo-to-gra-fi-a (the acento-de-hiato convention: país/saída/baú take the
+      // written accent precisely because the tonic i/u splits). Accented words
+      // (Má-rio, á-gua, his-tó-ria) keep their atonic diphthong — excluded by
+      // HAS_ACCENT. Silent-u after q/g (tanque, piquenique) is excluded — there
+      // the "u" is part of the qu/gu digraph, not a syllabic vowel.
+      let _lastVowelPair = true;
+      for (let t = i + 2; t < n; t++) { if (isVowel(w[t])) { _lastVowelPair = false; break; } }
+      const _silentU = (w[i] === 'u' && i > 0 && (w[i - 1] === 'q' || w[i - 1] === 'g'));
+      const wouldBeTonicHiatus = (
+        !HAS_ACCENT.test(w) && !HIATUS_GUARD_SKIP.has(w) &&
+        WEAK_VOWELS.has(w[i]) && w[i] !== 'í' && w[i] !== 'ú' &&
+        STRONG_VOWELS.has(w[i + 1]) && !NASAL_VOWELS.has(w[i + 1]) &&
+        _lastVowelPair && !_silentU
+      );
+      if (!wouldOrphanNasal && !wouldBeTonicHiatus) nucleusEnd = i + 2;
     }
 
     let cStart = nucleusEnd;

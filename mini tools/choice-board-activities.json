@@ -820,19 +820,22 @@
       "en": "describe-measurable-attributes",
       "fi": "kuvaile-pituutta-korkeutta-painoa",
       "de": "groessen-messen-lang-hoch-schwer",
-      "fr": "decrire-les-grandeurs-long-haut-lourd"
+      "fr": "decrire-les-grandeurs-long-haut-lourd",
+      "es": "describir-medidas-largo-alto-pesado"
     },
     "page_title": {
       "en": "Describe Measurable Attributes — Long, Tall, Heavy | Kindergarten Measurement",
       "fi": "Pitkä, korkea vai painava? — Mittaaminen esiopetuksessa",
       "de": "Lang, hoch oder schwer? — Größen beschreiben im Kindergarten",
-      "fr": "Long, haut ou lourd ? — Grandeurs et mesures en maternelle"
+      "fr": "Long, haut ou lourd ? — Grandeurs et mesures en maternelle",
+      "es": "¿Largo, alto o pesado? — Magnitudes y medida en Infantil"
     },
     "page_intro": {
       "en": "Look at an object and tap the word that describes it — long, tall, or heavy. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.1 — describe measurable attributes of objects like length, height, and weight.",
       "fi": "Lapsi katsoo yhtä kuvaa ja napauttaa sitä kuvaavan sanan — pitkä, korkea vai painava. Maksuton, OPS 2014:n mukainen mittausharjoitus esiopetukseen.",
       "de": "Größen beschreiben im Kindergarten: Kinder sehen ein Bild und tippen, ob es lang, hoch oder schwer ist — ganz ohne Zählen, kostenlos und abgestimmt auf den Lehrplan.",
-      "fr": "Activité gratuite de maternelle : l'enfant regarde un objet et touche le mot qui le décrit — long, haut ou lourd — selon les programmes officiels."
+      "fr": "Activité gratuite de maternelle : l'enfant regarde un objet et touche le mot qui le décrit — long, haut ou lourd — selon les programmes officiels.",
+      "es": "Actividad interactiva gratuita: el niño observa un objeto y toca si es largo, alto o pesado. Describe magnitudes, alineada con el currículo LOMLOE."
     },
     "kid_prompt_template": "promptDescribeAttribute"
   }

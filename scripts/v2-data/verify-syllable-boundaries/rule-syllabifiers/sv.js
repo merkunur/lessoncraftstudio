@@ -169,12 +169,34 @@ const SCHOOL_COMPOUND_SEAMS = {
   // += stop+liquid) would otherwise regress (the 'kl' would grab across the seam
   // → pås-klil-ja). It is NOT a new admission — påsk-lil-ja already agreed with
   // TeX and was approved under the old rule; the override keeps it in the pool.
-  'påsklilja': ['påsk', 'lil', 'ja']
-  // The OTHER compound-seam words the phonotactic layer under-grabs but the OLD
-  // rule never got right either (busschaufför, julstrumpa, blåskrika, höstack,
-  // …) stay quarantined behind the strict gate — the documented "rule
-  // compound-seam under-grab" backlog (CLAUDE.md §A.13.57). Hardening the seam
-  // handling at root is the prerequisite to ever widening sv further.
+  'påsklilja': ['påsk', 'lil', 'ja'],
+
+  // SEAM-RECOVERY additions (CLAUDE.md §A.13.57; native-sv-reviewed, NSR-flagged).
+  // The phonotactic layer is blind to these compound seams (the trailing element
+  // is not in MORPHEME_SUFFIXES), so it leaks a stem-internal rule across the seam
+  // (s-closes-preceding, sch-trigraph, ss-collapse). Clapping the seam first and
+  // sounding out each element gives the correct school split. Each is the SAME
+  // surgical exact-match-keyed override as handske — zero over-match risk (it can
+  // never touch muskler/påsklilja). Recovery is count-guarded: the gate still
+  // checks N/S against the corrected count. The 6 Class-2 words (TeX also wrong)
+  // ALSO have a gate.js SCHOOL_DIVERGENCE.sv.mutaSeamWords entry so the gate
+  // accepts R over a disagreeing TeX (the handske pattern); havssköldpadda
+  // (TeX already correct) and havssnäcka (differs from TeX only by the ck coda,
+  // auto-accepted via codaDigraphs) need this sv.js entry only.
+  'havssköldpadda':    ['havs', 'sköld', 'pad', 'da'],
+  'havssnäcka':        ['havs', 'snäck', 'a'],
+  'julstrumpa':        ['jul', 'strum', 'pa'],
+  'blåskrika':         ['blå', 'skri', 'ka'],
+  'höstack':           ['hö', 'stack'],
+  'ljusslingor':       ['ljus', 'sling', 'or'],
+  'sjukhusarmband':    ['sjuk', 'hus', 'arm', 'band'],
+  'förlängningssladd': ['för', 'läng', 'nings', 'sladd']
+  // DELIBERATELY EXCLUDED (Step-1 / NSR drops, §A.13.57): busschaufför (not a sv
+  // corpus member); skridskoåkning (vocabulary-phonics S=3 backs the wrong count
+  // vs school 4 → would quarantine on count-mismatch; needs a separate §10.3
+  // vocab-phonics correction first); samtalshjärta (split correct but the word is
+  // an English Valentine-candy calque `conversation-heart`, not natural K-3
+  // Swedish — native-sv flagged; filed as a separate §A.7 calque-scan backlog).
 };
 
 /* SHORT_VOWEL_MUTA_EXCEPTIONS — the muta-cum-liquida "stop+liquid stays as the

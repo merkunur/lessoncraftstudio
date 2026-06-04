@@ -1,6 +1,6 @@
 {
   "locale": "sv",
-  "generated_at": "2026-06-04T11:57:33.909Z",
+  "generated_at": "2026-06-04T15:18:08.498Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
@@ -10,8 +10,8 @@
     "vocabulary-phonics-syl-cross-check",
     "curriculum-chunk-table-sv"
   ],
-  "count_approved": 984,
-  "count_quarantined": 279,
+  "count_approved": 993,
+  "count_quarantined": 270,
   "entries": [
     {
       "key": "accordion",
@@ -2652,6 +2652,39 @@
       "total_agreed": 5,
       "nst_sampa": "\"blo:",
       "wiktionary_ipa": "/bloː/"
+    },
+    {
+      "key": "blue-jay",
+      "word": "blåskrika",
+      "split": [
+        "blå",
+        "skri",
+        "ka"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "b",
+          "l",
+          "å"
+        ],
+        [
+          "s",
+          "k",
+          "r",
+          "i"
+        ],
+        [
+          "k",
+          "a"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
     },
     {
       "key": "bluebell",
@@ -5981,6 +6014,40 @@
       "total_agreed": 5,
       "nst_sampa": "\"j}:l",
       "wiktionary_ipa": "/jʉːl/"
+    },
+    {
+      "key": "christmas-stocking",
+      "word": "julstrumpa",
+      "split": [
+        "jul",
+        "strum",
+        "pa"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "j",
+          "u",
+          "l"
+        ],
+        [
+          "s",
+          "t",
+          "r",
+          "u",
+          "m"
+        ],
+        [
+          "p",
+          "a"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
     },
     {
       "key": "christmas-tree",
@@ -9552,6 +9619,50 @@
       "nst_sampa": "\"\"u0p$%rYmd"
     },
     {
+      "key": "extension-cord",
+      "word": "förlängningssladd",
+      "split": [
+        "för",
+        "läng",
+        "nings",
+        "sladd"
+      ],
+      "count": 4,
+      "chunks": [
+        [
+          "f",
+          "ö",
+          "r"
+        ],
+        [
+          "l",
+          "ä",
+          "ng"
+        ],
+        [
+          "n",
+          "i",
+          "ng",
+          "s"
+        ],
+        [
+          "s",
+          "l",
+          "a",
+          "d",
+          "d"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl",
+        "NST-syl-count"
+      ],
+      "total_agreed": 4,
+      "nst_sampa": "f9$\"\"l`EN$nINs$%slad"
+    },
+    {
       "key": "face",
       "word": "ansikte",
       "split": [
@@ -12609,6 +12720,36 @@
       "wiktionary_ipa": "/høː/"
     },
     {
+      "key": "haystack",
+      "word": "höstack",
+      "split": [
+        "hö",
+        "stack"
+      ],
+      "count": 2,
+      "chunks": [
+        [
+          "h",
+          "ö"
+        ],
+        [
+          "s",
+          "t",
+          "a",
+          "c",
+          "k"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl",
+        "NST-syl-count"
+      ],
+      "total_agreed": 4,
+      "nst_sampa": "\"\"h2:$%stak"
+    },
+    {
       "key": "head",
       "word": "huvud",
       "split": [
@@ -13271,6 +13412,46 @@
       ],
       "total_agreed": 4,
       "nst_sampa": "\"\"x\\}:k$h}:s$%sEN"
+    },
+    {
+      "key": "hospital-bracelet",
+      "word": "sjukhusarmband",
+      "split": [
+        "sjuk",
+        "hus",
+        "arm",
+        "band"
+      ],
+      "count": 4,
+      "chunks": [
+        [
+          "sj",
+          "u",
+          "k"
+        ],
+        [
+          "h",
+          "u",
+          "s"
+        ],
+        [
+          "a",
+          "r",
+          "m"
+        ],
+        [
+          "b",
+          "a",
+          "n",
+          "d"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
     },
     {
       "key": "hospital-gown",
@@ -15491,6 +15672,42 @@
       "total_agreed": 5,
       "nst_sampa": "\"blIkst",
       "wiktionary_ipa": "/blɪkːst/"
+    },
+    {
+      "key": "lights",
+      "word": "ljusslingor",
+      "split": [
+        "ljus",
+        "sling",
+        "or"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "l",
+          "j",
+          "u",
+          "s"
+        ],
+        [
+          "s",
+          "l",
+          "i",
+          "ng"
+        ],
+        [
+          "o",
+          "r"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl",
+        "NST-syl-count"
+      ],
+      "total_agreed": 4,
+      "nst_sampa": "\"\"j}:s$%slIN$Ur"
     },
     {
       "key": "lily",
@@ -23617,6 +23834,81 @@
       "nst_sampa": "\"\"x\\2:$%lE$jOn"
     },
     {
+      "key": "sea-snail",
+      "word": "havssnäcka",
+      "split": [
+        "havs",
+        "snäck",
+        "a"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "h",
+          "a",
+          "v",
+          "s"
+        ],
+        [
+          "s",
+          "n",
+          "ä",
+          "c",
+          "k"
+        ],
+        [
+          "a"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
+      "key": "sea-turtle",
+      "word": "havssköldpadda",
+      "split": [
+        "havs",
+        "sköld",
+        "pad",
+        "da"
+      ],
+      "count": 4,
+      "chunks": [
+        [
+          "h",
+          "a",
+          "v",
+          "s"
+        ],
+        [
+          "s",
+          "k",
+          "ö",
+          "l",
+          "d"
+        ],
+        [
+          "p",
+          "a",
+          "d"
+        ],
+        [
+          "d",
+          "a"
+        ]
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
+    },
+    {
       "key": "seagull",
       "word": "fiskmås",
       "split": [
@@ -25942,6 +26234,40 @@
       ],
       "total_agreed": 4,
       "nst_sampa": "ste$tU$\"sko:p"
+    },
+    {
+      "key": "stocking",
+      "word": "julstrumpa",
+      "split": [
+        "jul",
+        "strum",
+        "pa"
+      ],
+      "count": 3,
+      "chunks": [
+        [
+          "j",
+          "u",
+          "l"
+        ],
+        [
+          "s",
+          "t",
+          "r",
+          "u",
+          "m"
+        ],
+        [
+          "p",
+          "a"
+        ]
+      ],
+      "sources_agreed": [
+        "rule (school-split)",
+        "TeX (school-divergence-aligned)",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3
     },
     {
       "key": "stool",

@@ -97,7 +97,22 @@ const SCHOOL_DIVERGENCE = {
       'muskler': ['mus', 'kler'],
       'ostron': ['os', 'tron'],
       // registered compound seam
-      'handske': ['hand', 'ske']
+      'handske': ['hand', 'ske'],
+      // SEAM-RECOVERY (CLAUDE.md §A.13.57; native-sv-reviewed, NSR-flagged).
+      // Class-2 compound seams where TeX is ALSO wrong, so the sv.js
+      // SCHOOL_COMPOUND_SEAMS-corrected R disagrees with TeX. Registering R here
+      // makes the gate accept the school split over the disagreeing TeX (exactly
+      // the handske pattern). Exact-match keyed → zero over-match risk; the count
+      // sources (N/S) still independently verify the count. Class-1
+      // (havssköldpadda, R==TeX) and Class-3 (havssnäcka, differs from TeX only by
+      // the ck coda → codaDigraphs auto-accept) are NOT listed here — they need
+      // only the sv.js override.
+      'julstrumpa':        ['jul', 'strum', 'pa'],
+      'blåskrika':         ['blå', 'skri', 'ka'],
+      'höstack':           ['hö', 'stack'],
+      'ljusslingor':       ['ljus', 'sling', 'or'],
+      'sjukhusarmband':    ['sjuk', 'hus', 'arm', 'band'],
+      'förlängningssladd': ['för', 'läng', 'nings', 'sladd']
       // kägla / bowlingkägla are NOT here: the native reviewer ruled (SETTLED)
       // that the short ä → CLOSED syllable käg-la is correct, NOT the muta-onset
       // kä-gla. sv.js now overrides them to käg-la (SHORT_VOWEL_MUTA_EXCEPTIONS),

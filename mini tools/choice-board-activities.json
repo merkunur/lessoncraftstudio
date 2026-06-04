@@ -822,7 +822,8 @@
       "de": "groessen-messen-lang-hoch-schwer",
       "fr": "decrire-les-grandeurs-long-haut-lourd",
       "es": "describir-medidas-largo-alto-pesado",
-      "it": "descrivi-le-misure-lungo-alto-pesante"
+      "it": "descrivi-le-misure-lungo-alto-pesante",
+      "nl": "meten-lang-hoog-zwaar"
     },
     "page_title": {
       "en": "Describe Measurable Attributes — Long, Tall, Heavy | Kindergarten Measurement",
@@ -830,7 +831,8 @@
       "de": "Lang, hoch oder schwer? — Größen beschreiben im Kindergarten",
       "fr": "Long, haut ou lourd ? — Grandeurs et mesures en maternelle",
       "es": "¿Largo, alto o pesado? — Magnitudes y medida en Infantil",
-      "it": "Lungo, alto o pesante? — Misure e dati per l'infanzia"
+      "it": "Lungo, alto o pesante? — Misure e dati per l'infanzia",
+      "nl": "Lang, hoog of zwaar? — Meten en gegevens voor kleuters"
     },
     "page_intro": {
       "en": "Look at an object and tap the word that describes it — long, tall, or heavy. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.1 — describe measurable attributes of objects like length, height, and weight.",
@@ -838,7 +840,8 @@
       "de": "Größen beschreiben im Kindergarten: Kinder sehen ein Bild und tippen, ob es lang, hoch oder schwer ist — ganz ohne Zählen, kostenlos und abgestimmt auf den Lehrplan.",
       "fr": "Activité gratuite de maternelle : l'enfant regarde un objet et touche le mot qui le décrit — long, haut ou lourd — selon les programmes officiels.",
       "es": "Actividad interactiva gratuita: el niño observa un objeto y toca si es largo, alto o pesado. Describe magnitudes, alineada con el currículo LOMLOE.",
-      "it": "Attività gratuita per l'infanzia: il bambino osserva un oggetto e tocca la parola che lo descrive — lungo, alto o pesante. Indicazioni nazionali."
+      "it": "Attività gratuita per l'infanzia: il bambino osserva un oggetto e tocca la parola che lo descrive — lungo, alto o pesante. Indicazioni nazionali.",
+      "nl": "Bekijk een plaatje en tik op het juiste woord — lang, hoog of zwaar. Gratis, speels meten voor de kleuterklas, afgestemd op de kerndoelen."
     },
     "kid_prompt_template": "promptDescribeAttribute"
   }

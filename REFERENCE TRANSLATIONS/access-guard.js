@@ -194,4 +194,45 @@
       window.__accessVerified = false;
     });
   };
+
+  /* ── Admin-only UI reveal ───────────────────────────────────────────
+     Additive — does NOT touch the watermark / session-limit / tier flow
+     above. The worksheet apps tag #exportToCatalogBtn and
+     #downloadInteractiveHtmlBtn with class="lcs-admin-only" and hide them
+     (plus the adjacent <hr> separators) via a static <style> in the page,
+     so they are hidden by default even if this script never runs
+     (fail-closed). We REVEAL them only when the server confirms the user is
+     an admin, via the same admin-only /api/verify-app-access endpoint the
+     watermark gate uses. Token-only (NOT tier-gated) so an admin sees the
+     controls regardless of how the app was opened. */
+  (function revealAdminControls() {
+    function reveal() {
+      var els = document.querySelectorAll('.lcs-admin-only');
+      for (var i = 0; i < els.length; i++) {
+        els[i].classList.remove('lcs-admin-only');
+      }
+    }
+    var atok = null;
+    try { atok = localStorage.getItem('accessToken'); } catch (e) {}
+    if (!atok) return;                       // no token → stay hidden
+    fetch('/api/verify-app-access', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + atok
+      },
+      body: JSON.stringify({ appId: appId })
+    })
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      if (data && data.hasAccess === true) {
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', reveal);
+        } else {
+          reveal();
+        }
+      }
+    })
+    .catch(function() { /* stay hidden on any error */ });
+  })();
 })();

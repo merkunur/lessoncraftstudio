@@ -1,14 +1,14 @@
 {
   "locale": "pt",
-  "generated_at": "2026-06-04T10:29:59.003Z",
+  "generated_at": "2026-06-04T11:54:09.404Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 890,
-  "count_quarantined": 373,
+  "count_approved": 891,
+  "count_quarantined": 372,
   "entries": [
     {
       "key": "acorn",
@@ -14278,6 +14278,30 @@
         "tu",
         "pi",
         "dor"
+      ],
+      "sources_agreed": [
+        "TeX",
+        "rule",
+        "vocab-phonics-syl"
+      ],
+      "total_agreed": 3,
+      "rule_authoritative": true
+    },
+    {
+      "key": "police-officer",
+      "word": "policial",
+      "split": [
+        "po",
+        "li",
+        "ci",
+        "al"
+      ],
+      "count": 4,
+      "chunks": [
+        "po",
+        "li",
+        "ci",
+        "al"
       ],
       "sources_agreed": [
         "TeX",

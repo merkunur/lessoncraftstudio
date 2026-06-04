@@ -160,7 +160,7 @@ window.SyllableBuilderActivity = Object.assign({}, WordBuilderCore, {
 
   _loadActivity: function () {
     var self = this;
-    fetch('/mini-tools/syllable-builder-activities.json').then(function (r) {
+    fetch('/mini-tools/syllable-builder-activities.json?v=11').then(function (r) {
       if (!r.ok) throw new Error('manifest fetch failed: ' + r.status);
       return r.json();
     }).then(function (rows) {

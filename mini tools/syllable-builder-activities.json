@@ -317,7 +317,7 @@
       "language": "sv-SE",
       "words": [
         { "noun": "bear",        "themeDir": "camping",          "targetWord": "björn",       "syllables": ["björn"],                  "label": "björn" },
-        { "noun": "bell",        "themeDir": "christmas",        "targetWord": "klocka",      "syllables": ["kloc","ka"],              "label": "klocka" },
+        { "noun": "bell",        "themeDir": "christmas",        "targetWord": "klocka",      "syllables": ["klock","a"],              "label": "klocka" },
         { "noun": "angel",       "themeDir": "christmas",        "targetWord": "ängel",       "syllables": ["äng","el"],               "label": "ängel" },
         { "noun": "bull",        "themeDir": "farm animals",     "targetWord": "tjur",        "syllables": ["tjur"],                   "label": "tjur" },
         { "noun": "shirt",       "themeDir": "clothing",         "targetWord": "skjorta",     "syllables": ["skjor","ta"],             "label": "skjorta" },

@@ -50,6 +50,104 @@ function normalizeSplit(split) {
   return out.length > 0 ? out : null;
 }
 
+/* =====================================================================
+   NORDIC SCHOOL-CONVENTION SURGICAL CARVE-OUT (CLAUDE.md §A.13.57)
+   ---------------------------------------------------------------------
+   For the Nordic K-literacy *sound-out* product (klappa stavelser /
+   ljudmetoden) the school syllable split legitimately differs from TeX
+   typographic line-break hyphenation (avstavning) in a few patterns.
+   This is a SURGICAL carve-out WITHIN the strict multi-source gate — it
+   is NOT a GREEN relaxation. Only these REGISTERED divergences are
+   accepted over a disagreeing TeX; every other rule≠TeX disagreement
+   still quarantines (so the ~192 words full-GREEN would admit — incl.
+   ~14 compound-seam rule errors like bus-schauf-för / pås-klil-ja —
+   stay quarantined as the documented "rule compound-seam under-grab"
+   backlog). The count sources (S/N/W) still independently verify the
+   syllable COUNT for every accepted divergence — only the BOUNDARY is
+   taken from the native-reviewer-validated rule.
+
+   Per locale (no/da inherit this structure when their pilots run):
+     codaDigraphs  - digraphs that the school keeps WHOLE as a coda unit
+                     while TeX splits them (sv 'ck': kloc-ka → klock-a).
+                     ALWAYS unambiguous → applied as a PATTERN (any word).
+     mutaSeamWords - the AMBIGUOUS divergences: muta-cum-liquida onset
+                     (stop+liquid kept as the next onset, e.g. mus-kler,
+                     se-bra) and registered compound seams (hand-ske).
+                     A consonant-before-stop muta (mus-kler) is
+                     phonotactically indistinguishable from a compound-seam
+                     rule error (pås-klil-ja), so each is an EXPLICIT,
+                     native-reviewer-validated word → school-split entry
+                     (a pattern alone would admit the errors). The gate
+                     accepts the divergence only when the rule's R equals
+                     the registered split exactly. */
+const SCHOOL_DIVERGENCE = {
+  sv: {
+    codaDigraphs: ['ck'],
+    mutaSeamWords: {
+      // muta-cum-liquida onset re-splits (stop+liquid → next onset)
+      'sebra': ['se', 'bra'],
+      'kobra': ['ko', 'bra'],
+      'cykla': ['cy', 'kla'],
+      'aprikos': ['a', 'pri', 'kos'],
+      'paprika': ['pa', 'pri', 'ka'],
+      'mikrofon': ['mi', 'kro', 'fon'],
+      'mikroskop': ['mi', 'kro', 'skop'],
+      'dimetrodon': ['di', 'me', 'tro', 'don'],
+      'astronaut': ['as', 'tro', 'naut'],
+      'muskler': ['mus', 'kler'],
+      'ostron': ['os', 'tron'],
+      // registered compound seam
+      'handske': ['hand', 'ske']
+      // kägla / bowlingkägla are NOT here: the native reviewer ruled (SETTLED)
+      // that the short ä → CLOSED syllable käg-la is correct, NOT the muta-onset
+      // kä-gla. sv.js now overrides them to käg-la (SHORT_VOWEL_MUTA_EXCEPTIONS),
+      // which equals TeX, so they pass on strict agreement — no divergence to
+      // register here.
+    }
+  }
+};
+
+/* Internal boundary char-offsets of a split (length = split.length - 1). */
+function splitBoundaryOffsets(split) {
+  const o = [];
+  let acc = 0;
+  for (let i = 0; i < split.length - 1; i++) { acc += split[i].length; o.push(acc); }
+  return o;
+}
+
+/* Is the rule split R a REGISTERED school-convention divergence from TeX T
+   for this (word, locale)? Returns true ONLY for:
+     (a) an explicit reviewer-validated muta/seam word whose registered split
+         equals R exactly; or
+     (b) a coda-digraph-only divergence (e.g. ck): same syllable count, and
+         EVERY differing boundary is a registered coda digraph that T split
+         and R keeps whole (T boundary between the two digraph letters, R
+         boundary one char later).
+   Anything else → false → the strict gate quarantines the disagreement. */
+function isRegisteredSchoolDivergence(T, R, word, locale) {
+  const cfg = SCHOOL_DIVERGENCE[locale];
+  if (!cfg || !Array.isArray(T) || !Array.isArray(R) || !word) return false;
+  const lw = String(word).toLowerCase();
+  // (a) explicit reviewer-validated muta/seam word — exact-split match
+  const entry = cfg.mutaSeamWords && cfg.mutaSeamWords[lw];
+  if (entry && splitsEqual(entry, R)) return true;
+  // (b) coda-digraph-only divergence — count-preserving, every diff is a digraph coda
+  if (T.length !== R.length) return false;
+  const bT = splitBoundaryOffsets(T);
+  const bR = splitBoundaryOffsets(R);
+  for (let i = 0; i < bT.length; i++) {
+    if (bT[i] === bR[i]) continue;
+    let matched = false;
+    for (const dg of (cfg.codaDigraphs || [])) {
+      if (dg.length === 2 &&
+          bR[i] === bT[i] + 1 &&
+          lw[bT[i] - 1] === dg[0] && lw[bT[i]] === dg[1]) { matched = true; break; }
+    }
+    if (!matched) return false;
+  }
+  return true;
+}
+
 /* Verify every chunk in the split appears in the curriculum chunk table
    OR is a single letter. Returns { ok: bool, chunks: [...] } where
    chunks decompose each syllable into curriculum-recognized chunks
@@ -134,6 +232,16 @@ function evaluate(inputs, opts) {
   // not vetoing. Safety floor preserved: rule-vs-vocab-phonics count
   // disagreement still quarantines; rule-null falls through to the legacy
   // multi-source gate (which quarantines for insufficient sources).
+  //
+  // NOTE: sv is NOT GREEN. The Nordic school-convention (klappa stavelser)
+  // carve-out is SURGICAL, not a wholesale TeX-advisory switch: sv stays on
+  // the strict multi-source gate below, and only the three REGISTERED
+  // school-divergence patterns (ck-coda, registered muta-cum-liquida onset,
+  // registered seam) are accepted over a disagreeing TeX — see
+  // isRegisteredSchoolDivergence() + SCHOOL_DIVERGENCE config. Full GREEN for
+  // sv would globally relax split_source_disagreement and admit ~192 words
+  // (incl. ~14 compound-seam rule errors) the strict gate correctly
+  // quarantines, breaching the safety invariant. CLAUDE.md §A.13.57.
   const GREEN_LOCALES = new Set(['es', 'it', 'pt', 'fr', 'fi']);
   const isGreen = GREEN_LOCALES.has(opts.locale);
 
@@ -189,9 +297,25 @@ function evaluate(inputs, opts) {
   }
 
   // Collect ORTHOGRAPHIC split sources (T, R) for boundary-position agreement
-  const splitSources = [];
+  let splitSources = [];
   if (T) splitSources.push({ label: 'TeX', split: T });
   if (R) splitSources.push({ label: 'rule', split: R });
+
+  // SURGICAL Nordic school-convention carve-out (sv; §A.13.57): if TeX and the
+  // rule disagree ONLY by a REGISTERED school-divergence (ck-coda pattern, or a
+  // reviewer-validated muta/seam word), accept the rule's school split — treat
+  // TeX as aligned on R so the source count is preserved (T isn't WRONG, just
+  // typographic). The count sources (S/N/W) below still independently verify
+  // the syllable count. Every OTHER rule≠TeX disagreement falls through to the
+  // strict split_source_disagreement quarantine, so the GREEN-would-admit ~192
+  // words (incl. compound-seam rule errors) stay quarantined.
+  if (T && R && !splitsEqual(T, R) &&
+      isRegisteredSchoolDivergence(T, R, opts.word, opts.locale)) {
+    splitSources = [
+      { label: 'rule (school-split)', split: R },
+      { label: 'TeX (school-divergence-aligned)', split: R }
+    ];
+  }
 
   if (splitSources.length === 0) {
     return {

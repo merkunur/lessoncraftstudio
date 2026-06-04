@@ -104,6 +104,16 @@ const SCHOOL_DIVERGENCE = {
       // which equals TeX, so they pass on strict agreement — no divergence to
       // register here.
     }
+    // no (Norwegian Bokmål) — NO ENTRY by native-reviewer determination
+    // (2026-06-04, §A.13.57). no.js was ALREADY school-aligned: it agrees with
+    // TeX on 100% of its pool, splits geminates per Norwegian pedagogy
+    // (klok-ke / som-mer — the OPPOSITE of sv's ck-coda klock-a; do NOT import
+    // it), splits ng (en-gel), keeps muta-cum-liquida onsets (a-pri-kos), and
+    // treats vr as a valid onset (ha-vre — UNLIKE sv where v was excluded).
+    // hanske = hans-ke (not a live seam, unlike sv hand-ske). Zero school
+    // divergences → the carve-out never fires for no; the strict gate governs
+    // it fully. Each locale's divergence set is empirically determined; no's
+    // is EMPTY. (da has no da.js rule at all — a separate build-or-skip decision.)
   }
 };
 

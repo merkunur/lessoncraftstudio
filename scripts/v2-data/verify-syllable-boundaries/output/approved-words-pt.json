@@ -1,14 +1,14 @@
 {
   "locale": "pt",
-  "generated_at": "2026-06-03T22:38:53.999Z",
+  "generated_at": "2026-06-04T10:29:59.003Z",
   "gate_version": "1.1",
   "source_stack": [
     "TeX-hyphenation-via-hyphen-npm",
     "rule-based-phonotactic-syllabifier",
     "vocabulary-phonics-syl-cross-check"
   ],
-  "count_approved": 891,
-  "count_quarantined": 372,
+  "count_approved": 890,
+  "count_quarantined": 373,
   "entries": [
     {
       "key": "acorn",
@@ -4560,19 +4560,26 @@
       "key": "cold",
       "word": "frio",
       "split": [
-        "frio"
+        "fri",
+        "o"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "frio"
+        "fri",
+        "o"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "frio"
+        ]
+      }
     },
     {
       "key": "columbine",
@@ -11590,19 +11597,26 @@
       "key": "moon",
       "word": "lua",
       "split": [
-        "lua"
+        "lu",
+        "a"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "lua"
+        "lu",
+        "a"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "lua"
+        ]
+      }
     },
     {
       "key": "moose",
@@ -13628,22 +13642,32 @@
         "fo",
         "to",
         "gra",
-        "fia"
+        "fi",
+        "a"
       ],
-      "count": 4,
+      "count": 5,
       "chunks": [
         "fo",
         "to",
         "gra",
-        "fia"
+        "fi",
+        "a"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "fo",
+          "to",
+          "gra",
+          "fia"
+        ]
+      }
     },
     {
       "key": "piano",
@@ -14262,36 +14286,6 @@
       ],
       "total_agreed": 3,
       "rule_authoritative": true
-    },
-    {
-      "key": "police-officer",
-      "word": "policial",
-      "split": [
-        "po",
-        "li",
-        "cial"
-      ],
-      "count": 3,
-      "chunks": [
-        "po",
-        "li",
-        "cial"
-      ],
-      "sources_agreed": [
-        "rule",
-        "vocab-phonics-syl"
-      ],
-      "total_agreed": 2,
-      "rule_authoritative": true,
-      "notes": {
-        "tex_disagreed_with_rule": true,
-        "tex_split": [
-          "po",
-          "li",
-          "ci",
-          "al"
-        ]
-      }
     },
     {
       "key": "pomegranate",
@@ -15122,19 +15116,26 @@
       "key": "river",
       "word": "rio",
       "split": [
-        "rio"
+        "ri",
+        "o"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "rio"
+        "ri",
+        "o"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "rio"
+        ]
+      }
     },
     {
       "key": "robot",
@@ -16120,20 +16121,28 @@
       "word": "navio",
       "split": [
         "na",
-        "vio"
+        "vi",
+        "o"
       ],
-      "count": 2,
+      "count": 3,
       "chunks": [
         "na",
-        "vio"
+        "vi",
+        "o"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "na",
+          "vio"
+        ]
+      }
     },
     {
       "key": "shirt",
@@ -16387,19 +16396,26 @@
       "key": "sink",
       "word": "pia",
       "split": [
-        "pia"
+        "pi",
+        "a"
       ],
-      "count": 1,
+      "count": 2,
       "chunks": [
-        "pia"
+        "pi",
+        "a"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "pia"
+        ]
+      }
     },
     {
       "key": "skateboard",
@@ -19886,21 +19902,30 @@
       "split": [
         "me",
         "lan",
-        "cia"
+        "ci",
+        "a"
       ],
-      "count": 3,
+      "count": 4,
       "chunks": [
         "me",
         "lan",
-        "cia"
+        "ci",
+        "a"
       ],
       "sources_agreed": [
-        "TeX",
         "rule",
         "vocab-phonics-syl"
       ],
-      "total_agreed": 3,
-      "rule_authoritative": true
+      "total_agreed": 2,
+      "rule_authoritative": true,
+      "notes": {
+        "tex_disagreed_with_rule": true,
+        "tex_split": [
+          "me",
+          "lan",
+          "cia"
+        ]
+      }
     },
     {
       "key": "wave",

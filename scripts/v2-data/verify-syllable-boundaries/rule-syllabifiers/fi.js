@@ -44,6 +44,15 @@ const DIPHTHONGS = new Set([
   'ie','uo','yö'
 ]);
 
+/* Transparent compounds where a cross-seam vowel pair must NOT diphthongize.
+   Finnish school tavutus splits a compound at its seam FIRST, so vowels that
+   straddle the seam never form a diphthong (lumi+ukko → lu-mi-uk-ko), even
+   though "iu" IS a real diphthong INSIDE a single morpheme (viu-lu). Maps the
+   word → set of seam indices (the index of the part-initial vowel). Surgical
+   per-word shape (no.js WORD_BLACKLIST §A.13.52); transparent compounds only —
+   lexicalized derivations like kirjailija are a gray zone, left untouched. */
+const COMPOUND_VOWEL_SEAMS = { 'lumiukko': new Set([4]) };
+
 function isVowel(ch) { return VOWELS.has(ch.toLowerCase()); }
 
 /**
@@ -73,12 +82,14 @@ function syllabify(word) {
     // Found vowel at position i. Determine nucleus extent.
     // Long vowel (same letter doubled) OR diphthong (rules 4-5).
     let nucleusEnd = i + 1;
-    if (i + 1 < n && isVowel(w[i + 1])) {
+    const _seams = COMPOUND_VOWEL_SEAMS[w];
+    if (i + 1 < n && isVowel(w[i + 1]) && !(_seams && _seams.has(i + 1))) {
       const pair = w[i] + w[i + 1];
       if (w[i] === w[i + 1] || DIPHTHONGS.has(pair)) {
         nucleusEnd = i + 2;
       }
-      // Else: vowel hiatus — rule 6, treat as separate nucleus on next pass
+      // Else: vowel hiatus — rule 6, treat as separate nucleus on next pass.
+      // (A registered compound seam at i+1 also falls through to hiatus.)
     }
 
     // After the nucleus, count consonants up to the next vowel

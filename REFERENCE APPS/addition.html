@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="/worksheet-generators/js/access-guard.js?v=1775341559715"></script>
+    <script src="/worksheet-generators/js/access-guard.js?v=1775341559716"></script>
+    <style id="lcs-admin-gate">.lcs-admin-only,.lcs-admin-only + hr{display:none !important;}</style>
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
@@ -1525,12 +1526,12 @@
           <div class="dropdown-container">
             <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="exportToCatalogBtn" disabled data-translate="exportToCatalog">Export to catalog</button>
+                <button id="exportToCatalogBtn" class="lcs-admin-only" disabled data-translate="exportToCatalog">Export to catalog</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <button id="downloadPdfBtn" disabled data-translate="pdfWorksheet">PDF Worksheet</button>
                 <button id="downloadAnswerKeyPdfBtn" disabled data-translate="pdfAnswerKey">Answer Key (PDF)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
-                <button id="downloadInteractiveHtmlBtn" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
+                <button id="downloadInteractiveHtmlBtn" class="lcs-admin-only" disabled data-translate="interactiveWorksheetHtml">Interactive Worksheet (HTML)</button>
                 <hr style="margin: 6px 0; border-color: #eee;">
                 <label class="checkbox-label">
                     <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>

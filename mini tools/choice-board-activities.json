@@ -825,7 +825,8 @@
       "it": "descrivi-le-misure-lungo-alto-pesante",
       "nl": "meten-lang-hoog-zwaar",
       "pt": "descrever-medidas-comprido-alto-pesado",
-      "sv": "beskriv-lang-hog-tung"
+      "sv": "beskriv-lang-hog-tung",
+      "da": "beskriv-lang-hoj-tung"
     },
     "page_title": {
       "en": "Describe Measurable Attributes — Long, Tall, Heavy | Kindergarten Measurement",
@@ -836,7 +837,8 @@
       "it": "Lungo, alto o pesante? — Misure e dati per l'infanzia",
       "nl": "Lang, hoog of zwaar? — Meten en gegevens voor kleuters",
       "pt": "Comprido, alto ou pesado? — Grandezas e medidas na Educação Infantil",
-      "sv": "Lång, hög eller tung? — Mätning och data i förskoleklass"
+      "sv": "Lång, hög eller tung? — Mätning och data i förskoleklass",
+      "da": "Lang, høj eller tung? — Måling og data i børnehaveklassen"
     },
     "page_intro": {
       "en": "Look at an object and tap the word that describes it — long, tall, or heavy. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.1 — describe measurable attributes of objects like length, height, and weight.",
@@ -847,7 +849,8 @@
       "it": "Attività gratuita per l'infanzia: il bambino osserva un oggetto e tocca la parola che lo descrive — lungo, alto o pesante. Indicazioni nazionali.",
       "nl": "Bekijk een plaatje en tik op het juiste woord — lang, hoog of zwaar. Gratis, speels meten voor de kleuterklas, afgestemd op de kerndoelen.",
       "pt": "Atividade interativa gratuita: a criança observa um objeto e toca na palavra que o descreve — comprido, alto ou pesado. Alinhada à BNCC.",
-      "sv": "Gratis interaktiv aktivitet: barnet tittar på ett föremål och trycker på om det är långt, högt eller tungt. För förskoleklass, i linje med Lgr22."
+      "sv": "Gratis interaktiv aktivitet: barnet tittar på ett föremål och trycker på om det är långt, högt eller tungt. För förskoleklass, i linje med Lgr22.",
+      "da": "Gratis aktivitet til børnehaveklassen: Barnet ser én ting og trykker på, om den er lang, høj eller tung. Tilpasset Fælles Mål."
     },
     "kid_prompt_template": "promptDescribeAttribute"
   }

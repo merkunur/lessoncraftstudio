@@ -20,20 +20,22 @@
  * the chip + JSON-LD; the §A.13.49 framework register names the framework, this
  * names the domain within it.
  *
- * Native-curriculum review (de/fr/nl/sv/da/no/fi, incl. the prior [NSR-FLAG]
- * Nordic+Finnic) completed 2026-06-04 via per-locale expert agents — the
- * best-effort glosses were replaced with the national-curriculum domain names.
- * es/it/pt retain their original values (not yet curriculum-reviewed).
+ * Native-curriculum review of ALL 11 locales completed 2026-06-04 via per-locale
+ * expert agents (de/fr/nl/sv/da/no/fi first; then es=LOMLOE, it=Indicazioni
+ * nazionali, pt=BNCC) — the best-effort CCSS-calque glosses were replaced with
+ * the real national-curriculum domain names. Several CCSS strands legitimately
+ * collapse onto one national domain per locale (e.g. es Counting/Operations/
+ * Base-Ten → "Sentido numérico"; it → "Numeri"; pt → "Números") — §17.4.3.
  */
 
 export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Counting & Cardinality': {
     en: 'Counting & Cardinality',
     de: 'Zählen und Anzahl',
-    es: 'Conteo y cardinalidad',
+    es: 'Sentido numérico',
     fr: 'Nombres et calcul',
-    it: 'Contare e cardinalità',
-    pt: 'Contagem e cardinalidade',
+    it: 'Numeri',
+    pt: 'Números',
     nl: 'Getallen (tellen en getalbegrip)',
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (tælling og antal)',
@@ -43,10 +45,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Operations & Algebraic Thinking': {
     en: 'Operations & Algebraic Thinking',
     de: 'Rechnen und algebraisches Denken',
-    es: 'Operaciones y pensamiento algebraico',
+    es: 'Sentido numérico',
     fr: 'Nombres et calcul',
-    it: 'Operazioni e pensiero algebrico',
-    pt: 'Operações e pensamento algébrico',
+    it: 'Numeri',
+    pt: 'Álgebra',
     nl: 'Bewerkingen',
     sv: 'Algebra',
     da: 'Tal og algebra (regnestrategier)',
@@ -56,9 +58,9 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Geometry': {
     en: 'Geometry',
     de: 'Geometrie',
-    es: 'Geometría',
+    es: 'Sentido espacial',
     fr: 'Espace et géométrie',
-    it: 'Geometria',
+    it: 'Spazio e figure',
     pt: 'Geometria',
     nl: 'Meetkunde',
     sv: 'Geometri',
@@ -84,10 +86,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Number & Operations in Base Ten': {
     en: 'Number & Operations in Base Ten',
     de: 'Zahlen und Rechnen im Zehnersystem',
-    es: 'Números y operaciones en base diez',
+    es: 'Sentido numérico',
     fr: 'Nombres et calcul',
-    it: 'Numeri e operazioni in base dieci',
-    pt: 'Números e operações na base dez',
+    it: 'Numeri',
+    pt: 'Números',
     nl: 'Getallen en het tientallig stelsel',
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (positionssystemet)',
@@ -98,10 +100,10 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Number and Operations in Base Ten': {
     en: 'Number & Operations in Base Ten',
     de: 'Zahlen und Rechnen im Zehnersystem',
-    es: 'Números y operaciones en base diez',
+    es: 'Sentido numérico',
     fr: 'Nombres et calcul',
-    it: 'Numeri e operazioni in base dieci',
-    pt: 'Números e operações na base dez',
+    it: 'Numeri',
+    pt: 'Números',
     nl: 'Getallen en het tientallig stelsel',
     sv: 'Taluppfattning och tals användning',
     da: 'Tal og algebra (positionssystemet)',
@@ -111,22 +113,25 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Reading: Foundational Skills': {
     en: 'Reading: Foundational Skills',
     de: 'Lesen: Grundfertigkeiten',
-    es: 'Lectura: destrezas fundamentales',
+    es: 'Comprensión lectora',
     fr: 'Lecture et compréhension de l\'écrit',
-    it: 'Lettura: competenze di base',
-    pt: 'Leitura: habilidades fundamentais',
+    it: 'Lettura',
+    pt: 'Leitura/escuta',
     nl: 'Lezen: technisch lezen (fundamentele leesvaardigheden)',
     sv: 'Läsa och skriva',
     da: 'Læsning (afkodning)',
     no: 'Lesing: grunnleggende ferdigheter',
     fi: 'Lukemisen perustaidot',
   },
-  // Phonological Awareness (pre-reading sound awareness; literacy). es/it/pt
-  // fall back to en — no deployed activity uses this strand yet (forward-looking).
+  // Phonological Awareness (pre-reading sound awareness; literacy). No deployed
+  // activity uses this strand yet (forward-looking); all 11 locales curriculum-reviewed.
   'Phonological Awareness': {
     en: 'Phonological Awareness',
     de: 'Phonologische Bewusstheit',
+    es: 'Conciencia fonológica',
     fr: 'Conscience phonologique',
+    it: 'Consapevolezza fonologica',
+    pt: 'Análise linguística/semiótica',
     nl: 'Fonologisch bewustzijn',
     sv: 'Fonologisk medvetenhet',
     da: 'Sproglig opmærksomhed (fonologisk opmærksomhed)',

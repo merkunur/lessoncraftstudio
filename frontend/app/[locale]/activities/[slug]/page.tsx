@@ -262,9 +262,9 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
   /* Teacher-chip grade label: reuse the existing seo.educational_level.*
      table (complete in all 11 locales). The manifest's alignment.grade is
      a literal "K"/"1"/"2"/"3"; lookup the localized phrase via the map.
-     Strand + CC code stay English here — strand because CCSS strand names
-     are not yet translated in the repo (separate [FIX][I18N] commission);
-     code because RF.K.2.B and siblings are CCSS identifiers. */
+     The CC code (RF.K.2.B and siblings) stays English — it's a CCSS
+     identifier; the strand NAME is localized via localizeStrand (below,
+     §A.13.56 / curriculum-domain fix). */
   const tSeo = await getTranslations({ locale: params.locale, namespace: 'seo' });
   const gradeKey = GRADE_KEY_MAP[row.alignment.grade];
   const localizedGrade = gradeKey

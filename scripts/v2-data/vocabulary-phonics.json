@@ -16831,9 +16831,9 @@
       "cmp": true
     },
     "nl": {
-      "syl": 5,
-      "pat": "CVCCVCCVCVCVCC",
-      "lc": 15
+      "syl": 3,
+      "pat": "CCVVCCVCCCV",
+      "lc": 11
     },
     "sv": {
       "syl": 4,

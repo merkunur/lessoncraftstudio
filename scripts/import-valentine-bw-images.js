@@ -125,7 +125,7 @@ const IMAGE_TRANSLATIONS = {
     es: 'Corazón de conversación',
     it: 'Cuore con messaggio',
     pt: 'Coração com mensagem',
-    nl: 'Conversatiehart',
+    nl: 'Snoephartje',
     sv: 'Samtalshjärta',
     da: 'Samtalehjerte',
     no: 'Samtalehjerte',

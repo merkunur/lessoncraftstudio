@@ -16851,9 +16851,9 @@
       "lc": 13
     },
     "fi": {
-      "syl": 6,
-      "pat": "CVCCVCCVCVCVCVC",
-      "lc": 15
+      "syl": 4,
+      "pat": "CVCCCVCVCVC",
+      "lc": 11
     }
   },
   "cook": {

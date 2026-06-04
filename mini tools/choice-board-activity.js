@@ -280,11 +280,12 @@ var ACTIVITY_STRINGS = {
     fi: 'Millainen {noun} on?',
     de: 'Wie ist {noun}?',
     fr: 'Comment est l\'objet ?',
-    es: '¿Cómo es esto?'
+    es: '¿Cómo es esto?',
+    it: 'Com\'è questo?'
   },
-  labelLong:  { en: 'Long',  fi: 'Pitkä',   de: 'Lang',   fr: 'Long',  es: 'Largo'  },
-  labelTall:  { en: 'Tall',  fi: 'Korkea',  de: 'Hoch',   fr: 'Haut',  es: 'Alto'   },
-  labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer', fr: 'Lourd', es: 'Pesado' },
+  labelLong:  { en: 'Long',  fi: 'Pitkä',   de: 'Lang',   fr: 'Long',  es: 'Largo',  it: 'Lungo'   },
+  labelTall:  { en: 'Tall',  fi: 'Korkea',  de: 'Hoch',   fr: 'Haut',  es: 'Alto',   it: 'Alto'    },
+  labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer', fr: 'Lourd', es: 'Pesado', it: 'Pesante' },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -383,20 +384,20 @@ Object.keys(SHAPE_LABELS).forEach(function (key) {
    fan-out localizes them from image-vocabulary.js + the article/plural
    system. */
 var NOUN_LABELS = {
-  pencil:     { en: 'pencil',     fi: 'lyijykynä',     de: 'der Bleistift',     fr: 'le crayon',            es: 'el lápiz' },
-  ruler:      { en: 'ruler',      fi: 'viivain',       de: 'das Lineal',        fr: 'la règle',             es: 'la regla' },
-  carrot:     { en: 'carrot',     fi: 'porkkana',      de: 'die Karotte',       fr: 'la carotte',           es: 'la zanahoria' },
-  giraffe:    { en: 'giraffe',    fi: 'kirahvi',       de: 'die Giraffe',       fr: 'la girafe',            es: 'la jirafa' },
+  pencil:     { en: 'pencil',     fi: 'lyijykynä',     de: 'der Bleistift',     fr: 'le crayon',            es: 'el lápiz',     it: 'la matita' },
+  ruler:      { en: 'ruler',      fi: 'viivain',       de: 'das Lineal',        fr: 'la règle',             es: 'la regla',     it: 'il righello' },
+  carrot:     { en: 'carrot',     fi: 'porkkana',      de: 'die Karotte',       fr: 'la carotte',           es: 'la zanahoria', it: 'la carota' },
+  giraffe:    { en: 'giraffe',    fi: 'kirahvi',       de: 'die Giraffe',       fr: 'la girafe',            es: 'la jirafa',    it: 'la giraffa' },
   pine:       { en: 'pine tree' },
   lighthouse: { en: 'lighthouse' },
-  rock:       { en: 'rock',       fi: 'kivi',          de: 'der Stein',         fr: 'une pierre',           es: 'la piedra' },
-  pumpkin:    { en: 'pumpkin',    fi: 'kurpitsa',      de: 'der Kürbis',        fr: 'la citrouille',        es: 'la calabaza' },
-  crayon:     { en: 'crayon',     fi: 'vahaliitu',     de: 'der Wachsmalstift', fr: 'le crayon de couleur', es: 'el crayón' },
-  marker:     { en: 'marker',     fi: 'tussi',         de: 'der Marker',        fr: 'le marqueur',          es: 'el marcador' },
-  cucumber:   { en: 'cucumber',   fi: 'kurkku',        de: 'die Gurke',         fr: 'le concombre',         es: 'el pepino' },
+  rock:       { en: 'rock',       fi: 'kivi',          de: 'der Stein',         fr: 'une pierre',           es: 'la piedra',    it: 'il sasso' },
+  pumpkin:    { en: 'pumpkin',    fi: 'kurpitsa',      de: 'der Kürbis',        fr: 'la citrouille',        es: 'la calabaza',  it: 'la zucca' },
+  crayon:     { en: 'crayon',     fi: 'vahaliitu',     de: 'der Wachsmalstift', fr: 'le crayon de couleur', es: 'el crayón',    it: 'il pastello a cera' },
+  marker:     { en: 'marker',     fi: 'tussi',         de: 'der Marker',        fr: 'le marqueur',          es: 'el marcador',  it: 'il pennarello' },
+  cucumber:   { en: 'cucumber',   fi: 'kurkku',        de: 'die Gurke',         fr: 'le concombre',         es: 'el pepino',    it: 'il cetriolo' },
   palm:       { en: 'palm tree' },
   oak:        { en: 'oak tree' },
-  sunflower:  { en: 'sunflower',  fi: 'auringonkukka', de: 'die Sonnenblume',   fr: 'le tournesol',         es: 'el girasol' }
+  sunflower:  { en: 'sunflower',  fi: 'auringonkukka', de: 'die Sonnenblume',   fr: 'le tournesol',         es: 'el girasol',   it: 'il girasole' }
 };
 var FLATTENED_NOUN_LABELS = {};
 Object.keys(NOUN_LABELS).forEach(function (key) {

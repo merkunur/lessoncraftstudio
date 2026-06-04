@@ -179,6 +179,11 @@ echo "✅ Prisma client regenerated"
 # to cp -r, it would follow symlinks at public/worksheet-generators and public/admin,
 # copying ~25MB of HTML apps into standalone/public/. Cleaning first is a safety net.
 echo ""
+echo "🛑 Stopping live server before destructive clean — eliminates the ISR-writer-vs-rm race"
+echo "   (cluster workers write ISR cache into .next/standalone; rm racing them = 'Directory not empty' + set -e abort)."
+echo "   Site is briefly down during the build window; the post-swap pm2 restart relaunches it."
+pm2 stop lessoncraftstudio || true
+echo ""
 echo "🧹 Cleaning stale build output to force full regeneration..."
 rm -rf .next/server .next/standalone
 echo "🔨 Building Next.js application..."

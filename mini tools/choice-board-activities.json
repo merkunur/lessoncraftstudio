@@ -807,14 +807,11 @@
         { "noun": "giraffe",    "themeDir": "animals",    "attribute": "tall"  },
         { "noun": "rock",       "themeDir": "camping",    "attribute": "heavy" },
         { "noun": "ruler",      "themeDir": "classroom",  "attribute": "long"  },
-        { "noun": "pine",       "themeDir": "tree",       "attribute": "tall"  },
         { "noun": "pumpkin",    "themeDir": "vegetables", "attribute": "heavy" },
         { "noun": "carrot",     "themeDir": "vegetables", "attribute": "long"  },
         { "noun": "crayon",     "themeDir": "classroom",  "attribute": "long"  },
         { "noun": "marker",     "themeDir": "classroom",  "attribute": "long"  },
         { "noun": "cucumber",   "themeDir": "vegetables", "attribute": "long"  },
-        { "noun": "palm",       "themeDir": "tree",       "attribute": "tall"  },
-        { "noun": "oak",        "themeDir": "tree",       "attribute": "tall"  },
         { "noun": "sunflower",  "themeDir": "flowers",    "attribute": "tall"  }
       ]
     },

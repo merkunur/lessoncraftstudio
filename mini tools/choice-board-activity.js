@@ -528,62 +528,67 @@ function injectDescribeAttributeCSS() {
 }
 
 /* E14 1.G.A.3 — code-drawn partition figures (Equal Halves and Fourths).
-   Each tile is an inline SVG (string-concat idiom, same as number-line /
-   ruler / lcs-shell tokens) injected post-render in the render() override
-   below. White shape interior + bold dark outline + bold cut lines; equality
-   reads from the cut GEOMETRY (no per-share shading). Geometry is inset
-   (circle r42; rect 6→94 ×; square 16→84) so nothing clips the tile's 28px
-   border-radius. The wrapper-owned injectFractionCSS forces a 2×2 large-tile
-   board so the shapes stay legible on phones (the core's cb-cols-4 phone
-   tiles are only 40–56px). 0 lines to choice-board-core.js / lcs-shell.* /
-   Direction A CSS — all new visual logic lives here in the activity layer. */
-var _FR_STROKE = '#0E3D37';
+   PROFESSIONAL design system (synthesized from two senior-designer passes):
+   every shape has a soft pale-teal BODY (reads as a solid object, not hollow
+   line-art) + a deep-teal outline + cut lines (3.5px, round caps/joins), and
+   every DIVIDED figure carries exactly ONE coral share (always the first
+   reading-order share) at 0.2 opacity — because every divided tile has one
+   coral share, shading never discriminates equal-vs-unequal (the kid must read
+   the geometry), but it makes the tiles look designed and gives "a share"
+   presence. UNEQUAL figures put the coral on the SMALLEST piece + use a bold
+   ~1/3 offset so they read as deliberately unequal. The WHOLE foil (not split)
+   = body + outline + a soft white inner rim, NO coral, NO cut — a premium
+   finished solid, NOT an empty tile. id-free (no defs/gradients/filters) since
+   4 SVGs share one page. Inset geometry (circle r40@50,50; square 10–90;
+   rect x8–92 y28–72) never clips the tile's 28px radius. Injected post-render
+   in the render() override; 0 lines to choice-board-core.js / lcs-shell.* /
+   Direction A CSS — all visual logic lives here in the activity layer.
+   Draw order per figure: body → coral share → outline → cut lines. */
+var FR_T = '#146B5E', FR_BODY = '#E2F0EC', FR_SH = '#F2784B', FR_RIM = '#FFFFFF';
 function _fsvg(inner) {
   return '<svg class="cb-frac" viewBox="0 0 100 100" aria-hidden="true">' + inner + '</svg>';
 }
-function _ln(x1, y1, x2, y2) {
+function _frLn(x1, y1, x2, y2) {
   return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 +
-    '" stroke="' + _FR_STROKE + '" stroke-width="4" stroke-linecap="round"/>';
+    '" stroke="' + FR_T + '" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>';
 }
-function _circShape() {
-  return '<circle cx="50" cy="50" r="42" fill="#FFFFFF" stroke="' + _FR_STROKE + '" stroke-width="4"/>';
+function _frShareP(d) { return '<path d="' + d + '" fill="' + FR_SH + '" opacity="0.2"/>'; }
+function _frShareR(x, y, w, h) {
+  return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="' + FR_SH + '" opacity="0.2"/>';
 }
-function _boxShape(x, y, w, h) {
-  return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h +
-    '" rx="3" fill="#FFFFFF" stroke="' + _FR_STROKE + '" stroke-width="4"/>';
-}
-/* rect bounds 6..94 (x), 28..72 (y); square bounds 16..84 */
-var _RX = 6, _RY = 28, _RW = 88, _RH = 44, _RR = _RX + _RW, _RB = _RY + _RH;
-var _SX = 16, _SY = 16, _SW = 68, _SH = 68, _SR = _SX + _SW, _SB = _SY + _SH;
+function _circBody() { return '<circle cx="50" cy="50" r="40" fill="' + FR_BODY + '"/>'; }
+function _circEdge() { return '<circle cx="50" cy="50" r="40" fill="none" stroke="' + FR_T + '" stroke-width="3.5"/>'; }
+function _boxBody(x, y, w, h) { return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="' + FR_BODY + '"/>'; }
+function _boxEdge(x, y, w, h) { return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="6" fill="none" stroke="' + FR_T + '" stroke-width="3.5"/>'; }
+/* rect body bounds x8..92 (w84), y28..72 (h44); square 10..90 (w80) */
+var FR_RX = 8, FR_RY = 28, FR_RW = 84, FR_RH = 44, FR_RR = FR_RX + FR_RW, FR_RB = FR_RY + FR_RH;
+var FR_SX = 10, FR_SW = 80, FR_SR = FR_SX + FR_SW;
 var FRACTION_FIGURES = {
-  /* circle (center 50,50 r42; edge points top(50,8) bottom(50,92) left(8,50) right(92,50)) */
-  'circle-halves-v':      function () { return _fsvg(_circShape() + _ln(50, 8, 50, 92)); },
-  'circle-halves-h':      function () { return _fsvg(_circShape() + _ln(8, 50, 92, 50)); },
-  'circle-halves-diag':   function () { return _fsvg(_circShape() + _ln(20.3, 20.3, 79.7, 79.7)); },
-  'circle-halves-uneq':   function () { return _fsvg(_circShape() + _ln(70, 13, 70, 87)); },          /* off-center chord → 2 unequal */
-  'circle-fourths':       function () { return _fsvg(_circShape() + _ln(50, 8, 50, 92) + _ln(8, 50, 92, 50)); },
-  'circle-fourths-uneq':  function () { return _fsvg(_circShape() + _ln(64, 11, 64, 89) + _ln(10, 38, 90, 38)); }, /* 4 unequal */
-  'circle-thirds':        function () { return _fsvg(_circShape() + _ln(50, 50, 50, 8) + _ln(50, 50, 86.4, 71) + _ln(50, 50, 13.6, 71)); },
-  'circle-notsplit':      function () { return _fsvg(_circShape() + _ln(64, 17, 77, 33)); },          /* short mark, not a cut across */
-  /* rectangle 6..94 x, 28..72 y */
-  'rect-halves-v':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(50, _RY, 50, _RB)); },
-  'rect-halves-h':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(_RX, 50, _RR, 50)); },
-  'rect-halves-diag':     function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(_RX, _RY, _RR, _RB)); },
-  'rect-halves-uneq':     function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(66, _RY, 66, _RB)); },
-  'rect-fourths-grid':    function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(50, _RY, 50, _RB) + _ln(_RX, 50, _RR, 50)); },
-  'rect-fourths-strips':  function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(28, _RY, 28, _RB) + _ln(50, _RY, 50, _RB) + _ln(72, _RY, 72, _RB)); },
-  'rect-fourths-uneq':    function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(22, _RY, 22, _RB) + _ln(40, _RY, 40, _RB) + _ln(78, _RY, 78, _RB)); },
-  'rect-thirds':          function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(35.3, _RY, 35.3, _RB) + _ln(64.7, _RY, 64.7, _RB)); },
-  'rect-notsplit':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(40, _RY, 40, 50)); }, /* line stops partway */
-  /* square 16..84 */
-  'sq-halves-v':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, _SB)); },
-  'sq-halves-h':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(_SX, 50, _SR, 50)); },
-  'sq-halves-diag':       function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(_SX, _SY, _SR, _SB)); },
-  'sq-halves-uneq':       function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(64, _SY, 64, _SB)); },
-  'sq-fourths-grid':      function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, _SB) + _ln(_SX, 50, _SR, 50)); },
-  'sq-fourths-uneq':      function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(33, _SY, 33, _SB) + _ln(50, _SY, 50, _SB) + _ln(72, _SY, 72, _SB)); },
-  'sq-thirds':            function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(38.7, _SY, 38.7, _SB) + _ln(61.3, _SY, 61.3, _SB)); },
-  'sq-notsplit':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, 46)); }
+  /* CIRCLE (r40 @ 50,50; edge points top(50,10) bottom(50,90) left(10,50) right(90,50)) */
+  'circle-halves-v':     function () { return _fsvg(_circBody() + _frShareP('M50 10 A40 40 0 0 0 50 90 Z') + _circEdge() + _frLn(50, 10, 50, 90)); },
+  'circle-halves-h':     function () { return _fsvg(_circBody() + _frShareP('M10 50 A40 40 0 0 1 90 50 Z') + _circEdge() + _frLn(10, 50, 90, 50)); },
+  'circle-halves-diag':  function () { return _fsvg(_circBody() + _frShareP('M21.72 78.28 A40 40 0 0 1 78.28 21.72 Z') + _circEdge() + _frLn(21.72, 78.28, 78.28, 21.72)); },
+  'circle-fourths':      function () { return _fsvg(_circBody() + _frShareP('M50 50 L50 10 A40 40 0 0 0 10 50 Z') + _circEdge() + _frLn(50, 10, 50, 90) + _frLn(10, 50, 90, 50)); },
+  'circle-halves-uneq':  function () { return _fsvg(_circBody() + _frShareP('M34 13.34 A40 40 0 0 0 34 86.66 Z') + _circEdge() + _frLn(34, 13.34, 34, 86.66)); }, /* off-center chord → small coral left, big right */
+  'circle-fourths-uneq': function () { return _fsvg(_circBody() + _frShareP('M38 11.84 A40 40 0 0 0 11.84 38 L38 38 Z') + _circEdge() + _frLn(38, 11.84, 38, 88.16) + _frLn(11.84, 38, 88.16, 38)); }, /* off-center cross → 4 unequal */
+  'circle-notsplit':     function () { return _fsvg(_circBody() + _circEdge() + '<circle cx="50" cy="50" r="33" fill="none" stroke="' + FR_RIM + '" stroke-width="3.5" opacity="0.55"/>'); }, /* WHOLE: no cut, no coral, soft inner rim */
+  /* RECTANGLE (x8..92, y28..72) */
+  'rect-halves-v':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 42, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(50, FR_RY, 50, FR_RB)); },
+  'rect-halves-h':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, FR_RW, 22) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(FR_RX, 50, FR_RR, 50)); },
+  'rect-halves-diag':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareP('M8 28 L92 28 L92 72 Z') + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(FR_RX, FR_RY, FR_RR, FR_RB)); },
+  'rect-fourths-grid':   function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 42, 22) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(50, FR_RY, 50, FR_RB) + _frLn(FR_RX, 50, FR_RR, 50)); },
+  'rect-fourths-strips': function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 21, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(29, FR_RY, 29, FR_RB) + _frLn(50, FR_RY, 50, FR_RB) + _frLn(71, FR_RY, 71, FR_RB)); },
+  'rect-halves-uneq':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 26, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(34, FR_RY, 34, FR_RB)); },
+  'rect-fourths-uneq':   function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 26, 16) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(34, FR_RY, 34, FR_RB) + _frLn(FR_RX, 44, FR_RR, 44)); },
+  'rect-notsplit':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + '<rect x="15" y="35" width="70" height="30" rx="4" fill="none" stroke="' + FR_RIM + '" stroke-width="3.5" opacity="0.55"/>'); },
+  /* SQUARE (10..90) */
+  'sq-halves-v':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 40, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(50, FR_SX, 50, FR_SR)); },
+  'sq-halves-h':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, FR_SW, 40) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(FR_SX, 50, FR_SR, 50)); },
+  'sq-halves-diag':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareP('M10 10 L90 10 L90 90 Z') + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(FR_SX, FR_SX, FR_SR, FR_SR)); },
+  'sq-fourths-grid':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 40, 40) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(50, FR_SX, 50, FR_SR) + _frLn(FR_SX, 50, FR_SR, 50)); },
+  'sq-halves-uneq':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 26, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(36, FR_SX, 36, FR_SR)); },
+  'sq-fourths-uneq':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 25, 30) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(35, FR_SX, 35, FR_SR) + _frLn(FR_SX, 40, FR_SR, 40)); },
+  'sq-notsplit':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + '<rect x="17" y="17" width="66" height="66" rx="4" fill="none" stroke="' + FR_RIM + '" stroke-width="3.5" opacity="0.55"/>'); }
 };
 var _frCssInjected = false;
 function injectFractionCSS() {

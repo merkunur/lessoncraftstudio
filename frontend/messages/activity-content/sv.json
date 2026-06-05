@@ -64,6 +64,29 @@
     "whatsInsideCode": "Följer Lgr22"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Den här gratis, interaktiva aktiviteten hjälper små barn att känna igen när en form är delad i lika stora delar. Barnet ser fyra figurer — cirklar, kvadrater eller rektanglar — och trycker på den som är delad rättvist, så att alla delar är lika stora. Allt sker direkt i webbläsaren: ingen installation och inget konto behövs.",
+        "Den stora idén är att delarna måste vara rättvisa och lika stora. Bland de fel alternativen finns en form som är delad i olika stora delar, en form med fel antal lika delar, och en hel form som inte är delad alls. Barnet delar inte själv formen, utan känner igen vilken form som redan är delad i lika stora delar.",
+        "Aktiviteten följer Lgr22 inom området geometri: att känna igen former som är delade i två eller fyra lika stora delar och att kalla dem halvor och fjärdedelar. Ingen timer, inga poäng — bara lugn, lekfull övning."
+      ],
+      "practices": [
+        "Känna igen när en cirkel, kvadrat eller rektangel är delad i lika stora delar",
+        "Skilja lika stora halvor och fjärdedelar från delar som är olika stora",
+        "Lägga märke till hur många lika stora delar formen är delad i — två eller fyra",
+        "Använda orden halvor och fjärdedelar"
+      ],
+      "howToPlay": [
+        "Titta på de fyra formerna och leta efter den som är delad i lika stora delar.",
+        "Tryck på den form där alla delar är lika stora och lika rättvist delade.",
+        "Tryck på Kontrollera för att se om du hittade rätt — vill du försöka igen är det helt okej."
+      ],
+      "learningGoals": [
+        "Känna igen cirklar och rektanglar som är delade i två eller fyra lika stora delar",
+        "Förstå att delarna måste vara lika stora för att delningen ska vara rättvis",
+        "Bygga grunden för rättvis delning som leder vidare till bråk längre fram"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["I den här aktiviteten bygger ditt barn talen från 0 till 10 på en tioram genom att placera ett djur i taget, ruta för ruta. Det blir tydligt och konkret att se hur varje tal växer fram.", "Tioramen visar hela tiden hur långt det är kvar till tio, så att barnet märker att till exempel 7 är tre rutor från full ram. På så sätt kopplas räknandet ihop med förståelsen av hur många det faktiskt är, precis som i Lgr22.", "Det finns ingen timer och inga poäng, utan barnet får räkna lugnt och i sin egen takt. Lugnet gör att fokus stannar på själva talen och på glädjen i att lyckas."],
     "ten-frame.count-to-20.make-n.fruits": ["Här arbetar ditt barn med talen från 0 till 20 på en dubbel tioram och fyller rutorna med frukter, en i taget. Den dubbla ramen gör det lätt att se tjugo som en hel tia och några till.", "När den första tioramen blir full börjar barnet på nästa, och då växer förståelsen för hur tiotal byggs upp. Det här är ett första, mjukt steg mot positionssystemet, i linje med Lgr22.", "Det finns ingen timer och inga poäng, så ditt barn kan utforska de större talen utan stress. I lugn takt blir även talen upp till 20 begripliga och trygga att arbeta med."],
     "ten-frame.how-many.0-10.animals": ["I den här aktiviteten tittar ditt barn på en tioram med djur och svarar på hur många de är, med tal mellan 0 och 10. Den tydliga strukturen hjälper barnet att uppfatta antalet i ett ögonkast.", "Eftersom rutorna i tioramen alltid ser likadana ut lär sig barnet känna igen hur många det är utan att räkna varje djur för sig. Den här förmågan att se antal direkt är en viktig grund för all vidare matematik, och den övas här enligt Lgr22.", "Det finns ingen timer och inga poäng, så barnet får titta och tänka i lugn och ro. När pressen är borta blir det lättare att lita på sin egen blick och sitt eget tänkande."],

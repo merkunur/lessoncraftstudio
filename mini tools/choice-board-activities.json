@@ -988,7 +988,8 @@
       "es": "mitades-y-cuartos-iguales",
       "it": "meta-e-quarti-uguali",
       "pt": "metades-e-quartos-iguais",
-      "nl": "gelijke-helften-en-vierden"
+      "nl": "gelijke-helften-en-vierden",
+      "sv": "lika-delar-halvor-och-fjardedelar"
     },
     "page_title": {
       "en": "Equal Halves and Fourths — Find the Fair Shares | Grade 1 Geometry",
@@ -998,7 +999,8 @@
       "es": "Mitades y cuartos — encuentra las partes justas | Geometría en 1.º de Primaria",
       "it": "Metà e quarti uguali — trova le parti giuste | Geometria in prima",
       "pt": "Metades e quartos — encontre as partes iguais | Geometria no 1º ano",
-      "nl": "Gelijke helften en vierden — tik de eerlijke verdeling aan | Meetkunde in groep 3"
+      "nl": "Gelijke helften en vierden — tik de eerlijke verdeling aan | Meetkunde in groep 3",
+      "sv": "Lika delar — hitta halvor och fjärdedelar | Geometri i årskurs 1"
     },
     "page_intro": {
       "en": "Look at circles, squares, and rectangles and tap the one split into equal halves or fourths. A gentle first step into fractions aligned to Common Core 1.G.A.3 — recognizing when a shape is divided into equal shares, where the big idea is that the parts must be fair and equal.",
@@ -1008,7 +1010,8 @@
       "es": "Mira círculos, cuadrados y rectángulos y toca la forma dividida en partes iguales: mitades o cuartos. Actividad gratuita alineada con el currículo oficial.",
       "it": "Guarda cerchi, quadrati e rettangoli e tocca la forma divisa in parti uguali, metà o quarti. Attività gratuita allineata alle Indicazioni nazionali.",
       "pt": "Veja círculos, quadrados e retângulos e toque na forma dividida em partes iguais — metades ou quartos. Atividade interativa e gratuita, alinhada à BNCC.",
-      "nl": "Gratis, interactieve activiteit: tik de vorm aan die in gelijke helften of vierden verdeeld is. Sluit aan bij de SLO-kerndoelen, domein Meetkunde, groep 3."
+      "nl": "Gratis, interactieve activiteit: tik de vorm aan die in gelijke helften of vierden verdeeld is. Sluit aan bij de SLO-kerndoelen, domein Meetkunde, groep 3.",
+      "sv": "Titta på cirklar, kvadrater och rektanglar och tryck på formen som är delad i lika delar — halvor eller fjärdedelar. Gratis aktivitet som följer Lgr22."
     },
     "kid_prompt_template": "promptTapEqualShares"
   }

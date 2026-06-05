@@ -826,7 +826,8 @@
       "nl": "meten-lang-hoog-zwaar",
       "pt": "descrever-medidas-comprido-alto-pesado",
       "sv": "beskriv-lang-hog-tung",
-      "da": "beskriv-lang-hoj-tung"
+      "da": "beskriv-lang-hoj-tung",
+      "no": "beskriv-lang-hoy-tung"
     },
     "page_title": {
       "en": "Describe Measurable Attributes — Long, Tall, Heavy | Kindergarten Measurement",
@@ -838,7 +839,8 @@
       "nl": "Lang, hoog of zwaar? — Meten en gegevens voor kleuters",
       "pt": "Comprido, alto ou pesado? — Grandezas e medidas na Educação Infantil",
       "sv": "Lång, hög eller tung? — Mätning och data i förskoleklass",
-      "da": "Lang, høj eller tung? — Måling og data i børnehaveklassen"
+      "da": "Lang, høj eller tung? — Måling og data i børnehaveklassen",
+      "no": "Lang, høy eller tung? — Måling og data i barnehagen"
     },
     "page_intro": {
       "en": "Look at an object and tap the word that describes it — long, tall, or heavy. A no-counting Kindergarten measurement activity aligned to Common Core K.MD.A.1 — describe measurable attributes of objects like length, height, and weight.",
@@ -850,7 +852,8 @@
       "nl": "Bekijk een plaatje en tik op het juiste woord — lang, hoog of zwaar. Gratis, speels meten voor de kleuterklas, afgestemd op de kerndoelen.",
       "pt": "Atividade interativa gratuita: a criança observa um objeto e toca na palavra que o descreve — comprido, alto ou pesado. Alinhada à BNCC.",
       "sv": "Gratis interaktiv aktivitet: barnet tittar på ett föremål och trycker på om det är långt, högt eller tungt. För förskoleklass, i linje med Lgr22.",
-      "da": "Gratis aktivitet til børnehaveklassen: Barnet ser én ting og trykker på, om den er lang, høj eller tung. Tilpasset Fælles Mål."
+      "da": "Gratis aktivitet til børnehaveklassen: Barnet ser én ting og trykker på, om den er lang, høj eller tung. Tilpasset Fælles Mål.",
+      "no": "Barnet trykker på ordet som passer: lang, høy eller tung. Gratis aktivitet for barnehage og 1.–2. trinn, i tråd med LK20."
     },
     "kid_prompt_template": "promptDescribeAttribute"
   }

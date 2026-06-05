@@ -192,6 +192,29 @@
     "whatsInsideCode": "Aligned to Common Core standard {code}"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "In this free, interactive activity, children see a shape split into equal parts, then tap another shape that is split into the same number of equal parts. It runs right in the browser — nothing to install and no account.",
+        "The big idea is that equal shares do not have to look the same. A square split down the middle and a square split corner to corner both show two equal halves, even though the pieces are shaped differently. The other choices show a shape split into unequal parts, split into the wrong number of parts, or not split at all. The child recognizes which shape shows equal shares; the child does not split the shapes.",
+        "It is aligned to Common Core 2.G.A.3 — recognizing that equal shares of the same whole need not have the same shape, and naming shares as halves, thirds, and fourths. No timer, no score — just calm, playful practice."
+      ],
+      "practices": [
+        "Recognize that equal shares of one shape can look different and still be equal",
+        "Tell equal parts from unequal parts, and the right number of parts from the wrong number",
+        "Notice how many equal parts a shape is split into — two, three, or four",
+        "Use the words halves, thirds, and fourths for equal shares"
+      ],
+      "howToPlay": [
+        "Look at the example shape and see how it is split into equal parts.",
+        "Tap the other shape that is split into the same number of equal parts, even if the pieces look different, then press Check.",
+        "Not quite? Try again as many times as you like — there is no timer and no score."
+      ],
+      "learningGoals": [
+        "Recognize squares and rectangles split into two, three, or four equal shares",
+        "Understand that equal shares can have different shapes as long as the parts are the same size",
+        "Build the fair-share foundation for naming and working with fractions later"
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Long before children write fractions like a half or a fourth, they learn to spot when a shape has been split into fair, equal shares — and this free activity makes that first idea playful. Children look at four pictures of the same shape — a circle, a square, or a rectangle — and tap the one that is divided into equal halves or equal fourths. It plays right in the browser on tablets, phones, and classroom computers, with nothing to install and no account needed.",

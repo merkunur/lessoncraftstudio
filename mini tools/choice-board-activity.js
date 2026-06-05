@@ -328,6 +328,24 @@ var ACTIVITY_STRINGS = {
     da: 'Tryk på formen, der er delt i fire lige store dele',
     no: 'Trykk på formen som er delt i fire like store deler'
   },
+  /* E14 #2 (2.G.A.3, non-congruence clause) — anchor-and-match prompts. The
+     anchor figure shows "this shape"; the kid taps the tile that is ALSO split
+     into the same number of equal parts (correct = a DIFFERENT-looking equal
+     partition → centers "equal shares need not have the same shape"). Passive
+     "is split" (state of the shape), recognition verb "Tap" — NEVER "partition"
+     by the child (recognition clause only; active-partition is a future #3).
+     Per-count full strings (no {n}-interpolation) per §A.13.56. EN ships now;
+     the other 10 locales authored at the #2 fan-out turn (fall back to EN,
+     unpublished so never rendered). */
+  promptTapMatchHalves: {
+    en: 'This shape is split into 2 equal parts. Tap another shape that is also split into 2 equal parts.'
+  },
+  promptTapMatchThirds: {
+    en: 'This shape is split into 3 equal parts. Tap another shape that is also split into 3 equal parts.'
+  },
+  promptTapMatchFourths: {
+    en: 'This shape is split into 4 equal parts. Tap another shape that is also split into 4 equal parts.'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -597,7 +615,20 @@ var FRACTION_FIGURES = {
   'sq-fourths-grid':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 40, 40) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(50, FR_SX, 50, FR_SR) + _frLn(FR_SX, 50, FR_SR, 50)); },
   'sq-halves-uneq':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 26, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(36, FR_SX, 36, FR_SR)); },
   'sq-fourths-uneq':     function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 25, 30) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(35, FR_SX, 35, FR_SR) + _frLn(FR_SX, 40, FR_SR, 40)); },
-  'sq-notsplit':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + '<rect x="17" y="17" width="66" height="66" rx="4" fill="none" stroke="' + FR_RIM + '" stroke-width="3.5" opacity="0.55"/>'); }
+  'sq-notsplit':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + '<rect x="17" y="17" width="66" height="66" rx="4" fill="none" stroke="' + FR_RIM + '" stroke-width="3.5" opacity="0.55"/>'); },
+  /* E14 #2 (2.G.A.3) additions — THIRDS (excluded from #1) + sq-fourths-strips,
+     for the non-congruence anchor-and-match. Equal thirds drawn as 3 equal
+     strips (v or h) → rect/square strip-thirds v-vs-h are clean equal-but-
+     non-congruent thirds. thirds-uneq foils: one dominant piece reads as
+     "not 3 equal" (coral on a smallest piece per the design doctrine). Same
+     body/edge/share/line helpers; same draw order; 0 lines to the cores. */
+  'rect-thirds-v':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 28, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(36, FR_RY, 36, FR_RB) + _frLn(64, FR_RY, 64, FR_RB)); },
+  'rect-thirds-h':       function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, FR_RW, 14.67) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(FR_RX, 42.67, FR_RR, 42.67) + _frLn(FR_RX, 57.33, FR_RR, 57.33)); },
+  'rect-thirds-uneq':    function () { return _fsvg(_boxBody(FR_RX, FR_RY, FR_RW, FR_RH) + _frShareR(FR_RX, FR_RY, 16, FR_RH) + _boxEdge(FR_RX, FR_RY, FR_RW, FR_RH) + _frLn(24, FR_RY, 24, FR_RB) + _frLn(40, FR_RY, 40, FR_RB)); }, /* 16/16/52 → dominant right piece reads unequal */
+  'sq-thirds-v':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 26.67, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(36.67, FR_SX, 36.67, FR_SR) + _frLn(63.33, FR_SX, 63.33, FR_SR)); },
+  'sq-thirds-h':         function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, FR_SW, 26.67) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(FR_SX, 36.67, FR_SR, 36.67) + _frLn(FR_SX, 63.33, FR_SR, 63.33)); },
+  'sq-thirds-uneq':      function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 16, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(26, FR_SX, 26, FR_SR) + _frLn(42, FR_SX, 42, FR_SR)); }, /* 16/16/48 → dominant right piece reads unequal */
+  'sq-fourths-strips':   function () { return _fsvg(_boxBody(FR_SX, FR_SX, FR_SW, FR_SW) + _frShareR(FR_SX, FR_SX, 20, FR_SW) + _boxEdge(FR_SX, FR_SX, FR_SW, FR_SW) + _frLn(30, FR_SX, 30, FR_SR) + _frLn(50, FR_SX, 50, FR_SR) + _frLn(70, FR_SX, 70, FR_SR)); }
 };
 var _frCssInjected = false;
 function injectFractionCSS() {
@@ -606,7 +637,10 @@ function injectFractionCSS() {
   var css = [
     '.cb-board.cb-frac-board{grid-template-columns:repeat(2,1fr)!important;max-width:min(92vw,440px)!important;gap:clamp(10px,3vw,18px)!important;justify-content:center!important;}',
     '.cb-board.cb-frac-board .cb-tile{width:auto!important;max-width:none!important;max-height:none!important;aspect-ratio:1!important;padding:clamp(10px,3vw,20px)!important;}',
-    '.cb-board.cb-frac-board .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}'
+    '.cb-board.cb-frac-board .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}',
+    /* E14 #2 anchor figure shown above the board (the "this shape" referent). */
+    '.cb-frac-anchor{display:flex;justify-content:center;align-items:center;margin:0 auto clamp(8px,2.5vw,16px);width:clamp(60px,16vw,92px);height:clamp(60px,16vw,92px);}',
+    '.cb-frac-anchor .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}'
   ].join('\n');
   var tag = document.createElement('style');
   tag.setAttribute('data-cb-fraction', '');
@@ -1267,6 +1301,62 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       });
     }
 
+    /* TEMPLATE: fraction-noncongruent (2.G.A.3, Geometry) — anchor-and-match.
+       An ANCHOR figure (a valid equal partition) is shown above the board; the
+       kid taps the tile that is ALSO split into the SAME number of equal parts,
+       where the correct tile is the SAME whole partitioned a DIFFERENT way
+       (non-congruent but equal) — centering 2.G.A.3 clause (3) "equal shares of
+       identical wholes need not have the same shape". Foil triad: equal-count-
+       but-UNEQUAL-AREA (load-bearing), WRONG-COUNT, NOT-SPLIT (whole). Honestly
+       scoped to the RECOGNITION clause (kid recognizes; never partitions — the
+       active-partition verb is a future #3). Reuses _fractionTiles (tile SVG
+       injection) + adds _fractionAnchor (prompt-zone SVG), both injected in the
+       render() override — 0 lines to choice-board-core.js / lcs-shell.* /
+       Direction A CSS. params.rounds = [{ shape, fraction:'halves'|'thirds'|
+       'fourths', anchorFig, tiles:[{ fig, correct?:true, label }, ...4] }]. */
+    if (row.task_template === 'fraction-noncongruent') {
+      injectFractionCSS();
+      var ncRounds = row.params.rounds;
+      return ncRounds.map(function (round, idx) {
+        var ordered = seededShuffle(round.tiles, (idx * 101 + 7) | 0);
+        var targetKey = null, svgByKey = {}, optionSpecs = [];
+        ordered.forEach(function (t, i) {
+          var key = 'nc-' + idx + '-' + i;
+          if (t.correct) targetKey = key;
+          var fig = FRACTION_FIGURES[t.fig];
+          svgByKey[key] = fig ? fig() : '';
+          optionSpecs.push({ key: key, label: t.label || round.shape });
+        });
+        var anchorFn = FRACTION_FIGURES[round.anchorFig];
+        var anchorSvg = anchorFn ? anchorFn() : '';
+        var anchorKey = round.anchorFig + '-' + idx;
+        var pKey = round.fraction === 'halves' ? 'promptTapMatchHalves'
+          : (round.fraction === 'thirds' ? 'promptTapMatchThirds' : 'promptTapMatchFourths');
+        return {
+          id: row.id + '.' + round.shape + '-' + round.fraction + '-' + idx,
+          promptKey: pKey,
+          answerType: 'state',
+          setup: function (tool) {
+            tool._fractionTiles = svgByKey;
+            tool._fractionAnchor = anchorSvg;
+            tool._fractionAnchorKey = anchorKey;
+            var options = optionSpecs.map(function (o) {
+              return { key: o.key, label: o.label };
+            });
+            tool.setupTask(options, targetKey, null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
     return STATIC_DEMO_TASKS;
   },
 
@@ -1306,6 +1396,26 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         var fSvg = this._fractionTiles[fTiles[f].dataset.key];
         if (fSvg && !fTiles[f].querySelector('.cb-frac')) {
           fTiles[f].insertAdjacentHTML('afterbegin', fSvg);
+        }
+      }
+    }
+    /* E14 #2 fraction-noncongruent — inject the ANCHOR figure above the board
+       (the "this shape" referent the prompt names). Guarded on _fractionAnchor:
+       no-op for #1 fraction-equal-shares + every other template + the static
+       demo. The data-fig guard updates the figure on Next without needless
+       re-innerHTML on selection re-renders; survives paint() (selection/Check). */
+    if (this._fractionAnchor && this.api && this.api.stage) {
+      var ncBoard = this.api.stage.querySelector('.cb-board');
+      if (ncBoard) {
+        var aHost = this.api.stage.querySelector('.cb-frac-anchor');
+        if (!aHost) {
+          aHost = document.createElement('div');
+          aHost.className = 'cb-frac-anchor';
+          ncBoard.parentNode.insertBefore(aHost, ncBoard);
+        }
+        if (aHost.getAttribute('data-fig') !== this._fractionAnchorKey) {
+          aHost.innerHTML = this._fractionAnchor;
+          aHost.setAttribute('data-fig', this._fractionAnchorKey);
         }
       }
     }

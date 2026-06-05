@@ -1020,5 +1020,139 @@
       "no": "Gratis, interaktiv aktivitet som følger LK20. Barnet trykker på formen som er delt i like halvdeler eller fjerdedeler — et mykt første møte med like deler."
     },
     "kid_prompt_template": "promptTapEqualShares"
+  },
+  {
+    "id": "choice-board.fraction-noncongruent.2-g-a-3",
+    "tool": "choice-board-activity",
+    "task_template": "fraction-noncongruent",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "2.G.A.3",
+      "grade": "2",
+      "strand": "Geometry"
+    },
+    "params": {
+      "rounds": [
+        {
+          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-diag",
+          "tiles": [
+            { "fig": "sq-halves-v", "correct": true, "label": "square split into two equal halves a different way" },
+            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
+            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "halves", "anchorFig": "rect-halves-v",
+          "tiles": [
+            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves a different way" },
+            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
+            { "fig": "rect-fourths-grid", "label": "rectangle split into four equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-v",
+          "tiles": [
+            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves a different way" },
+            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
+            { "fig": "sq-fourths-strips", "label": "square split into four equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "halves", "anchorFig": "rect-halves-diag",
+          "tiles": [
+            { "fig": "rect-halves-v", "correct": true, "label": "rectangle split into two equal halves a different way" },
+            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
+            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "fourths", "anchorFig": "rect-fourths-grid",
+          "tiles": [
+            { "fig": "rect-fourths-strips", "correct": true, "label": "rectangle split into four equal parts a different way" },
+            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
+            { "fig": "rect-halves-v", "label": "rectangle split into two equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "fourths", "anchorFig": "sq-fourths-grid",
+          "tiles": [
+            { "fig": "sq-fourths-strips", "correct": true, "label": "square split into four equal parts a different way" },
+            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
+            { "fig": "sq-halves-v", "label": "square split into two equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "fourths", "anchorFig": "rect-fourths-strips",
+          "tiles": [
+            { "fig": "rect-fourths-grid", "correct": true, "label": "rectangle split into four equal parts a different way" },
+            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
+            { "fig": "rect-halves-h", "label": "rectangle split into two equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "thirds", "anchorFig": "rect-thirds-v",
+          "tiles": [
+            { "fig": "rect-thirds-h", "correct": true, "label": "rectangle split into three equal parts a different way" },
+            { "fig": "rect-thirds-uneq", "label": "rectangle split into three unequal parts" },
+            { "fig": "rect-halves-v", "label": "rectangle split into two equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "thirds", "anchorFig": "sq-thirds-v",
+          "tiles": [
+            { "fig": "sq-thirds-h", "correct": true, "label": "square split into three equal parts a different way" },
+            { "fig": "sq-thirds-uneq", "label": "square split into three unequal parts" },
+            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "thirds", "anchorFig": "rect-thirds-h",
+          "tiles": [
+            { "fig": "rect-thirds-v", "correct": true, "label": "rectangle split into three equal parts a different way" },
+            { "fig": "rect-thirds-uneq", "label": "rectangle split into three unequal parts" },
+            { "fig": "rect-fourths-grid", "label": "rectangle split into four equal parts" },
+            { "fig": "rect-notsplit", "label": "whole rectangle, not split into parts" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "halves", "anchorFig": "sq-halves-h",
+          "tiles": [
+            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves a different way" },
+            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
+            { "fig": "sq-thirds-v", "label": "square split into three equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "thirds", "anchorFig": "sq-thirds-h",
+          "tiles": [
+            { "fig": "sq-thirds-v", "correct": true, "label": "square split into three equal parts a different way" },
+            { "fig": "sq-thirds-uneq", "label": "square split into three unequal parts" },
+            { "fig": "sq-halves-v", "label": "square split into two equal parts" },
+            { "fig": "sq-notsplit", "label": "whole square, not split into parts" }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "same-size-different-shape"
+    },
+    "page_title": {
+      "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry"
+    },
+    "page_intro": {
+      "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account."
+    },
+    "kid_prompt_template": "promptTapMatchEqualShares"
   }
 ]

@@ -981,13 +981,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "equal-halves-and-fourths"
+      "en": "equal-halves-and-fourths",
+      "fi": "yhta-suuret-puolikkaat-ja-neljasosat"
     },
     "page_title": {
-      "en": "Equal Halves and Fourths — Find the Fair Shares | Grade 1 Geometry"
+      "en": "Equal Halves and Fourths — Find the Fair Shares | Grade 1 Geometry",
+      "fi": "Yhtä suuret puolikkaat ja neljäsosat — tunnista reilut osat | 1. luokka, Geometria"
     },
     "page_intro": {
-      "en": "Look at circles, squares, and rectangles and tap the one split into equal halves or fourths. A gentle first step into fractions aligned to Common Core 1.G.A.3 — recognizing when a shape is divided into equal shares, where the big idea is that the parts must be fair and equal."
+      "en": "Look at circles, squares, and rectangles and tap the one split into equal halves or fourths. A gentle first step into fractions aligned to Common Core 1.G.A.3 — recognizing when a shape is divided into equal shares, where the big idea is that the parts must be fair and equal.",
+      "fi": "Katso ympyröitä, neliöitä ja suorakulmioita ja napauta se, joka on jaettu yhtä suuriin puolikkaisiin tai neljäsosiin. Maksuton, OPS 2014:n mukainen geometriaharjoitus."
     },
     "kid_prompt_template": "promptTapEqualShares"
   }

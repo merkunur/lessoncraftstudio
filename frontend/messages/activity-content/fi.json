@@ -64,6 +64,29 @@
     "whatsInsideCode": "Linjassa OPS 2014:n kanssa"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Ennen kuin lapset laskevat murtolukuja, he oppivat tärkeän idean: osien pitää olla yhtä suuret. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy neljä kuviota — ympyröitä, neliöitä ja suorakulmioita — ja lapsi etsii ja napauttaa sen, joka on jaettu kahteen tai neljään yhtä suureen osaan. Harjoitus toimii suoraan selaimessa: ei asennusta, ei käyttäjätiliä.",
+        "Lapsi ei jaa kuviota itse, vaan huomaa, milloin jako on reilu. Oikeassa vaihtoehdossa palaset ovat yhtä suuret puolikkaat tai yhtä suuret neljäsosat. Muut vaihtoehdot eivät kelpaa: niissä osat ovat erikokoisia, osia on väärä määrä tai kuvio on kokonainen eikä sitä ole jaettu lainkaan.",
+        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tunnistaa kahteen ja neljään yhtä suureen osaan jaetut kuviot ja kutsuu niitä puolikkaiksi ja neljäsosiksi. Lapset työskentelevät omaan tahtiinsa lempeän ja välittömän palautteen kanssa — ei ajastinta, ei pisteitä."
+      ],
+      "practices": [
+        "Tunnistaa, milloin ympyrä, neliö tai suorakulmio on jaettu yhtä suuriin osiin",
+        "Erottaa yhtä suuret puolikkaat ja neljäsosat erikokoisista osista",
+        "Huomaa, montako yhtä suurta osaa kuviossa on — kaksi vai neljä",
+        "Käyttää sanoja puolikkaat ja neljäsosat"
+      ],
+      "howToPlay": [
+        "Katso ruudun neljää kuviota ja mieti, missä osat ovat yhtä suuret",
+        "Napauta sitä kuviota, joka on jaettu kahteen tai neljään yhtä suureen osaan",
+        "Saat heti lempeän palautteen ja voit jatkaa omaan tahtiisi"
+      ],
+      "learningGoals": [
+        "Tunnistaa kahteen tai neljään yhtä suureen osaan jaetut ympyrät ja suorakulmiot",
+        "Ymmärtää, että osien on oltava yhtä suuret",
+        "Rakentaa reilun jaon perusta tulevaa murtolukujen opiskelua varten"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["Tässä tehtävässä lapsesi rakentaa luvut 0–10 yhdellä kymmenruudukolla asettamalla eläinhahmoja ruutu kerrallaan. Näin jokainen luku syntyy konkreettisesti lapsen omin käsin.", "Kymmenruudukko näyttää yhdellä silmäyksellä, kuinka paljon kymmeneen on vielä matkaa. Kun ruudukossa on tyhjiä ruutuja, lapsi huomaa esimerkiksi, että seitsemästä puuttuu kolme täyteen kymmeneen – tämä yhdistää laskemisen ja lukumäärän ymmärtämisen (K.CC.B.4).", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa laskea rauhassa omaan tahtiinsa. Kiireettömyys auttaa keskittymään itse lukuihin ja oivaltamisen iloon."],
     "ten-frame.count-to-20.make-n.fruits": ["Tässä tehtävässä lapsesi laskee luvut 0–20 kaksoiskymmenruudukolla asettamalla hedelmiä ruutuihin yksi kerrallaan. Kaksi ruudukkoa tekevät näkyväksi, että kaksikymmentä on yksi täysi kymmenen ja vähän lisää.", "Kun ensimmäinen kymmenruudukko täyttyy ja toinen alkaa täyttyä, lapsi alkaa hahmottaa kymmenten merkitystä. Tämä on lempeä ensiaskel paikka-arvon ymmärtämiseen (K.CC.B.4).", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi voi tutkia suurempia lukuja ilman kiirettä. Rauhassa myös luvut kahteenkymmeneen asti muuttuvat selkeiksi ja turvallisiksi."],
     "ten-frame.how-many.0-10.animals": ["Tässä tehtävässä lapsesi katsoo kymmenruudukolla olevia eläimiä ja vastaa, kuinka monta niitä on, lukualueella 0–10. Ruudukon selkeä rakenne auttaa hahmottamaan määrän nopeasti.", "Koska ruudut ovat aina samalla tavalla järjestyksessä, lapsi oppii tunnistamaan lukumäärän yhdellä silmäyksellä laskematta jokaista eläintä erikseen. Tämä nopea hahmottaminen on tärkeä perusta, ja sitä harjoitellaan tässä standardin K.CC.B.5 mukaisesti.", "Tehtävässä ei ole ajastinta eikä pisteitä, joten lapsi saa katsoa ja ajatella ihan rauhassa. Silloin on helpompi luottaa omaan havaintoon ja vastata levollisin mielin."],

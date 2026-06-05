@@ -293,31 +293,22 @@ var ACTIVITY_STRINGS = {
   labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer', fr: 'Lourd', es: 'Pesado', it: 'Pesante', nl: 'Zwaar', pt: 'Pesado',   sv: 'Tung', da: 'Tungt', no: 'Tungt' },
   /* E14 Activity 1.G.A.3 — Equal Halves and Fourths (Geometry). Show 4
      same-shape tiles; the kid taps the one split into equal halves/fourths.
-     {fraction} is interpolated from fractionLabel_halves / fractionLabel_fourths.
-     Honestly scoped to the IDENTIFY/recognize-equal-shares facet of 1.G.A.3
-     (the kid recognizes equal shares; they do not yet partition). EN authored;
-     the 11-locale skeleton is best-effort (Nordic NSR per §17.5.1) and never
-     reaches a live page — only the EN slug is published. */
-  promptTapEqualShares: {
-    en: 'Tap the shape split into equal {fraction}',
-    de: 'Tippe auf die Form, die in gleiche {fraction} geteilt ist',
-    fr: 'Touche la forme partagée en {fraction} égales',
-    it: 'Tocca la forma divisa in {fraction} uguali',
-    es: 'Toca la forma dividida en {fraction} iguales',
-    pt: 'Toque na forma dividida em {fraction} iguais',
-    nl: 'Tik op de vorm die in gelijke {fraction} is verdeeld',
-    sv: 'Tryck på formen som är delad i lika {fraction}',
-    da: 'Tryk på formen, der er delt i lige store {fraction}',
-    no: 'Trykk på formen som er delt i like {fraction}',
-    fi: 'Napauta muotoa, joka on jaettu yhtä suuriin {fraction}'
+     TWO FULL prompt strings (promptTapHalves / promptTapFourths) — NOT a
+     {fraction}-interpolation template: the FI native ensemble flushed that the
+     fraction-noun-in-a-case-slot is the §A.13.56 fixed-token trap (FI divides
+     "into N equal PARTS / N yhtä suureen osaan", count differs per fraction).
+     Per-fraction full strings are author-correct for every locale. The task
+     branch selects the key by round.fraction (no promptArgs). Honestly scoped
+     to the IDENTIFY/recognize facet (the kid recognizes; does not partition).
+     EN + FI authoritative; the other 9 locales are authored at their fan-out
+     turn (they fall back to EN, unpublished so never rendered). */
+  promptTapHalves: {
+    en: 'Tap the shape split into equal halves',
+    fi: 'Napauta muotoa, joka on jaettu kahteen yhtä suureen osaan'
   },
-  fractionLabel_halves: {
-    en: 'halves', de: 'Hälften', fr: 'moitiés', it: 'metà', es: 'mitades', pt: 'metades',
-    nl: 'helften', sv: 'halvor', da: 'halvdele', no: 'halvdeler', fi: 'puolikkaisiin'
-  },
-  fractionLabel_fourths: {
-    en: 'fourths', de: 'Viertel', fr: 'quarts', it: 'quarti', es: 'cuartos', pt: 'quartos',
-    nl: 'vierden', sv: 'fjärdedelar', da: 'fjerdedele', no: 'fjerdedeler', fi: 'neljäsosiin'
+  promptTapFourths: {
+    en: 'Tap the shape split into equal fourths',
+    fi: 'Napauta muotoa, joka on jaettu neljään yhtä suureen osaan'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',
@@ -1236,8 +1227,7 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
         });
         return {
           id: row.id + '.' + round.shape + '-' + round.fraction + '-' + idx,
-          promptKey: 'promptTapEqualShares',
-          promptArgs: { fraction: self.api.t('fractionLabel_' + round.fraction) },
+          promptKey: round.fraction === 'halves' ? 'promptTapHalves' : 'promptTapFourths',
           answerType: 'state',
           setup: function (tool) {
             /* stash the per-key SVG payloads for the render() override */

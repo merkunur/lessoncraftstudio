@@ -14,6 +14,29 @@
     "whatsInsideRange":"Números de {min} a {max}","whatsInsideTheme":"Fichas de contagem com figuras de {theme} que as crianças reconhecem","whatsInsideGrade":"Pensada para crianças do {grade}º ano (cerca de 5 a 9 anos)","whatsInsideStrand":"Eixo da BNCC: {strand}","whatsInsideCode":"Alinhada à BNCC"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Esta atividade interativa e gratuita ajuda as crianças pequenas a perceberem quando uma forma está dividida em partes iguais. A criança vê quatro formas desenhadas — círculos, quadrados e retângulos — e toca naquela que foi dividida em partes do mesmo tamanho. Funciona direto no navegador, sem instalar nada e sem precisar criar conta.",
+        "A grande ideia é que as partes precisam ser justas e iguais, ou seja, do mesmo tamanho. Entre as outras opções, uma mostra a mesma forma dividida em partes desiguais, outra tem o número errado de partes iguais e outra é uma forma inteira, sem nenhuma divisão. A criança não divide a forma — ela apenas reconhece qual já está dividida em partes iguais.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, e à habilidade de reconhecer formas divididas em duas e em quatro partes iguais, chamando essas partes de metades e quartos. Sem cronômetro, sem pontuação, apenas uma prática lúdica e tranquila."
+      ],
+      "practices": [
+        "Reconhecer quando um círculo, um quadrado ou um retângulo está dividido em partes iguais",
+        "Distinguir partes iguais — metades e quartos — de partes desiguais",
+        "Perceber quantas partes iguais a forma tem: duas ou quatro",
+        "Usar as palavras metades e quartos para nomear as partes iguais"
+      ],
+      "howToPlay": [
+        "Olhe as quatro formas e veja qual delas está dividida em partes do mesmo tamanho.",
+        "Toque na forma dividida na quantidade de partes iguais que o enunciado pede — duas ou quatro.",
+        "Se quiser, tente de novo com calma: o importante é perceber que as partes têm que ser iguais."
+      ],
+      "learningGoals": [
+        "Reconhecer círculos, quadrados e retângulos divididos em duas ou em quatro partes iguais",
+        "Entender que as partes precisam ser iguais, do mesmo tamanho",
+        "Construir a base da ideia de partes justas para aprender frações mais adiante"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["Aqui seu filho ou sua filha conta de 0 a 10 montando cada número, célula por célula, em um único quadro de dez com fichas de bichinhos. Cada animal que entra no quadro deixa a contagem mais concreta e visível.", "O quadro de dez é uma ferramenta calma e poderosa: ele mostra de um jeito claro \"o quanto falta para chegar ao dez\", ajudando a criança a perceber as quantidades sem precisar recontar tudo a cada vez. Essa percepção visual fortalece a ligação entre contar e saber quantos há (K.CC.B.4).", "A atividade respeita o ritmo de cada criança, sem cronômetro e sem pontuação. Assim, seu filho ou sua filha explora os números com tranquilidade, construindo confiança a cada passo."],
     "ten-frame.count-to-20.make-n.fruits": ["Nesta atividade, as crianças contam de 0 a 20 em um quadro de dez duplo, usando fichas de frutinhas. Cada fruta colocada ajuda a construir o número de forma concreta e visível.", "O quadro de dez duplo revela uma ideia importante: vinte é \"um dez cheio e mais um pouco\". Ao enxergar o primeiro dez completo e as frutas que sobram no segundo quadro, seu filho ou sua filha começa a plantar as primeiras sementes do valor posicional (K.CC.B.4).", "Tudo acontece com calma, sem cronômetro e sem pontuação. A criança tem todo o tempo de que precisa para observar, contar e compreender as quantidades no seu próprio ritmo."],
     "ten-frame.how-many.0-10.animals": ["Aqui seu filho ou sua filha olha para um quadro de dez com bichinhos e responde quantos animais estão ali, dentro do intervalo de 0 a 10. É um convite gentil para observar e reconhecer quantidades.", "O quadro de dez organiza os animais de um jeito que favorece o subitismo, ou seja, a capacidade de perceber \"quantos são\" sem contar um por um. Essa habilidade visual é a base para contar com segurança e entender a cardinalidade (K.CC.B.5).", "A experiência é leve e acolhedora, sem cronômetro e sem pontuação. Assim, a criança aprende a confiar no próprio olhar e a explorar os números com tranquilidade."],

@@ -14,6 +14,29 @@
     "whatsInsideRange":"Numeri da {min} a {max}","whatsInsideTheme":"Gettoni illustrati di {theme} che i bambini sanno riconoscere","whatsInsideGrade":"Pensata per i bambini della classe {grade} (dai 5 ai 9 anni circa)","whatsInsideStrand":"Ambito Indicazioni nazionali: {strand}","whatsInsideCode":"Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Questa attività interattiva e gratuita aiuta i bambini più piccoli a riconoscere quando una forma è divisa in parti uguali. Il bambino guarda quattro forme — cerchi, quadrati e rettangoli disegnati — e tocca quella divisa in parti della stessa grandezza. Funziona direttamente nel browser, senza installare nulla e senza creare un account.",
+        "L'idea importante è che le parti devono essere giuste e uguali: due metà identiche oppure quattro parti della stessa grandezza. Le scelte sbagliate aiutano a capire il concetto: una forma divisa in parti disuguali, una divisa nel numero sbagliato di parti, oppure una forma intera non divisa. Il bambino non divide la forma da solo, ma riconosce quale forma è già divisa in parti uguali.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: riconoscere le forme divise in due o quattro parti uguali e nominarle come metà e quarti. Nessun timer, nessun punteggio, solo esercizio giocoso e tranquillo."
+      ],
+      "practices": [
+        "Riconoscere quando un cerchio, un quadrato o un rettangolo è diviso in parti uguali",
+        "Distinguere le metà e i quarti uguali dalle parti disuguali",
+        "Notare quante sono le parti uguali: due oppure quattro",
+        "Usare le parole metà e quarti per descrivere le parti"
+      ],
+      "howToPlay": [
+        "Guarda le quattro forme e osserva come è divisa ciascuna di esse.",
+        "Tocca la forma divisa in parti della stessa grandezza — due metà uguali oppure quattro parti uguali.",
+        "Se scegli un'altra forma, riprova con calma: cerca quella in cui le parti sono davvero uguali."
+      ],
+      "learningGoals": [
+        "Riconoscere i cerchi, i quadrati e i rettangoli divisi in due o quattro parti uguali",
+        "Capire che le parti devono essere uguali, della stessa grandezza",
+        "Costruire le basi della condivisione equa per affrontare più avanti le frazioni"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["Su una sola tabella del dieci, tuo figlio costruisce ogni numero da 0 a 10 posizionando un animaletto alla volta, casella dopo casella. È un gesto semplice e concreto che aiuta a collegare il contare alla quantità reale, proprio come previsto dallo standard K.CC.B.4.", "Con i dieci spazi sempre davanti agli occhi, il bambino vede subito quanto manca per arrivare a dieci: le caselle vuote raccontano la storia del numero meglio di tante parole. Questa visione d'insieme rende il conteggio piano e sicuro.", "Qui non c'è alcun timer e non c'è alcun punteggio. I bambini possono soffermarsi, ripensare e provare di nuovo con calma, perché ciò che conta è capire i numeri, non andare di fretta."],
     "ten-frame.count-to-20.make-n.fruits": ["Con una doppia tabella del dieci, tuo figlio conta da 0 a 20 sistemando un frutto alla volta nelle caselle. Vedere venti come \"un dieci pieno e qualcosa in più\" è il primo passo verso la comprensione del valore posizionale, in linea con lo standard K.CC.B.4.", "Quando la prima tabella si riempie completamente, il bambino capisce che è tempo di passare alla seconda: così l'idea di gruppi di dieci prende forma in modo naturale e visivo. È un'esperienza che dà solide basi alla matematica futura.", "Non ci sono né timer né punteggio. Tuo figlio può esplorare i numeri fino a venti con tutta la tranquillità di cui ha bisogno, ripetendo l'attività ogni volta che lo desidera."],
     "ten-frame.how-many.0-10.animals": ["In questa attività i bambini osservano gli animaletti già disposti sulla tabella del dieci e rispondono alla domanda \"quanti sono?\", con quantità da 0 a 10. È un esercizio che allena lo sguardo a riconoscere i numeri a colpo d'occhio, sostenendo lo standard K.CC.B.5.", "La struttura ordinata delle dieci caselle aiuta tuo figlio a percepire la quantità senza dover contare ogni volta da capo: piano piano impara a \"vedere\" il cinque o l'otto in modo immediato. Questa abilità, chiamata subitizzazione, è preziosa per tutta la matematica.", "Qui non c'è nessun timer e nessun punteggio. Il bambino può guardare con calma, riflettere e dare la sua risposta serenamente, senza alcuna pressione."],

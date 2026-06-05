@@ -64,6 +64,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "In dieser Aktivität sieht ein Kind zuerst eine Form, die in gleiche Teile geteilt ist, und sucht dann eine zweite Form, die in genauso viele gleiche Teile geteilt ist. Sie läuft direkt im Browser — ohne Installation, ohne Konto, ohne Anmeldung.",
+        "Die neue Idee in dieser Aktivität: Gleiche Teile müssen nicht gleich aussehen. Ein Quadrat, das in der Mitte geteilt ist, und ein Quadrat, das von Ecke zu Ecke geteilt ist, zeigen beide zwei gleiche Hälften — auch wenn die Teile unterschiedlich geformt sind. Das Kind teilt die Form nicht selbst, sondern erkennt, dass gleiche Teile unterschiedlich aussehen können. Die falschen Antworten zeigen ungleiche Teile, die falsche Anzahl von Teilen oder eine Form, die gar nicht geteilt ist.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, drei gleiche Teile als Drittel und vier gleiche Teile als Viertel benennen. Es gibt keinen Timer, keine Punktewertung — nur ruhiges, geduldiges Ausprobieren."
+      ],
+      "practices": [
+        "Erkennen, dass zwei Formen gleich viele gleiche Teile haben können, obwohl die Teile unterschiedlich aussehen.",
+        "Erkennen, wann ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist und wann nicht.",
+        "Die Anzahl gleicher Teile vergleichen und Hälften, Drittel und Viertel auseinanderhalten.",
+        "Genau hinschauen und ungleiche Teile oder eine nicht geteilte Form als falsche Wahl ausschließen."
+      ],
+      "howToPlay": [
+        "Schau dir zuerst die obere Form an und merke dir, in wie viele gleiche Teile sie geteilt ist.",
+        "Tippe dann auf die Form, die in genauso viele gleiche Teile geteilt ist — auch wenn die Teile anders geformt sind als oben.",
+        "Tippe auf Prüfen. Wenn es noch nicht stimmt, schau in Ruhe noch einmal hin und probiere es erneut — so oft du möchtest."
+      ],
+      "learningGoals": [
+        "Verstehen, dass gleiche Teile unterschiedlich aussehen können und trotzdem gleich groß sind.",
+        "Zwei gleiche Teile als Hälften, drei gleiche Teile als Drittel und vier gleiche Teile als Viertel erkennen und benennen.",
+        "Eine geteilte Form mit gleichen Teilen sicher von einer mit ungleichen Teilen, der falschen Anzahl von Teilen oder einer gar nicht geteilten Form unterscheiden."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Diese kostenlose, interaktive Aktivität hilft jungen Kindern zu erkennen, wann eine Form in gleiche Teile geteilt ist. Das Kind sieht vier Formen — Kreise, Quadrate oder Rechtecke — und tippt diejenige an, die in zwei oder vier gleich große Teile geteilt ist. Es läuft direkt im Browser, ganz ohne Installation und ohne Konto.",

@@ -14,6 +14,29 @@
     "whatsInsideRange":"Les nombres de {min} à {max}","whatsInsideTheme":"Des jetons-images sur le thème {theme} que les enfants peuvent reconnaître","whatsInsideGrade":"Conçu pour les élèves de la classe {grade} (de 5 à 9 ans environ)","whatsInsideStrand":"Domaine des programmes officiels : {strand}","whatsInsideCode":"Aligné sur les programmes officiels"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Les enfants apprennent à repérer le partage équitable d'une forme. On leur montre quatre formes dessinées — un cercle, un carré, un rectangle — et ils touchent celle qui est partagée en parts égales. Tout se passe directement dans le navigateur : rien à installer, aucun compte à créer.",
+        "La grande idée, c'est que les parts doivent être justes et égales — de la même taille. L'enfant ne partage pas la forme lui-même : il reconnaît celle dont les parts sont vraiment égales. Les mauvaises réponses montrent des parts inégales, le mauvais nombre de parts égales, ou une forme entière qui n'est pas partagée du tout.",
+        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : reconnaître une forme partagée en deux ou quatre parts égales et nommer le résultat « moitiés » et « quarts ». Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+      ],
+      "practices": [
+        "Reconnaître quand un cercle, un carré ou un rectangle est partagé en parts égales.",
+        "Distinguer des moitiés ou des quarts égaux de parts inégales.",
+        "Remarquer le nombre de parts égales : deux ou quatre.",
+        "Employer les mots « moitiés » et « quarts » pour nommer le résultat."
+      ],
+      "howToPlay": [
+        "Regarde les quatre formes : observe comment chacune est partagée.",
+        "Touche la forme partagée en parts égales — deux parts égales (des moitiés) ou quatre parts égales (des quarts).",
+        "Reçois un retour doux tout de suite, puis passe à la forme suivante à ton rythme."
+      ],
+      "learningGoals": [
+        "Reconnaître les cercles, carrés et rectangles partagés en deux ou quatre parts égales.",
+        "Comprendre que les parts doivent être égales — de la même taille — pour être justes.",
+        "Construire la base du partage équitable qui prépare les fractions plus tard."
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["Sur un seul cadre de dix, votre enfant compte de 0 à 10 en plaçant un petit animal case après case. Chaque jeton ajouté rend la quantité concrète et visible, ce qui aide à relier le geste de compter au nombre obtenu.", "Le cadre de dix offre un repère précieux : en voyant les cases vides, votre enfant comprend tout de suite « combien il manque pour arriver à dix ». Cette structure prépare en douceur le sens du nombre et les premières additions.", "Cette activité suit l'objectif K.CC.B.4, qui consiste à faire le lien entre le comptage et la cardinalité. Il n'y a pas de minuteur ni de score : votre enfant avance à son rythme, dans le calme et sans pression."],
     "ten-frame.count-to-20.make-n.fruits": ["Avec un double cadre de dix, votre enfant compte de 0 à 20 en disposant des fruits une case à la fois. Les deux cadres permettent de voir vingt comme « un dix complet et encore quelques-uns », une image très parlante pour les jeunes enfants.", "En remplissant d'abord le premier cadre de dix avant de commencer le second, votre enfant pose sans le savoir les bases de la numération et de la valeur de position. La régularité du cadre de dix rend ces grandes quantités plus faciles à organiser.", "Cette activité s'appuie sur l'objectif K.CC.B.4. Comme toujours, il n'y a pas de minuteur ni de score : l'idée est d'explorer les nombres tranquillement, en prenant le temps d'observer et de comprendre."],
     "ten-frame.how-many.0-10.animals": ["Votre enfant observe un cadre de dix rempli d'animaux et répond simplement à la question : combien y en a-t-il ? En s'appuyant sur la disposition régulière du cadre, il apprend peu à peu à reconnaître les quantités d'un seul coup d'œil.", "Cette reconnaissance immédiate des petites quantités, appelée subitisation, est une compétence essentielle. Le cadre de dix structure le regard et aide votre enfant à « voir » le nombre sans avoir à recompter chaque animal.", "L'activité correspond à l'objectif K.CC.B.5, autour du dénombrement et de la quantité, pour des nombres de 0 à 10. Il n'y a pas de minuteur ni de score : votre enfant peut prendre tout le temps dont il a besoin."],

@@ -1145,13 +1145,16 @@
     },
     "theme": null,
     "slug": {
-      "en": "same-size-different-shape"
+      "en": "same-size-different-shape",
+      "fi": "yhta-suuret-osat-eri-muotoiset"
     },
     "page_title": {
-      "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry"
+      "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry",
+      "fi": "Saman kokoiset osat voivat näyttää erilaisilta — tunnista yhtä suuret osat | 2. luokka, Geometria"
     },
     "page_intro": {
-      "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account."
+      "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account.",
+      "fi": "Muoto on jaettu yhtä suuriin osiin. Napauta toista, jossa on yhtä suuret osat, vaikka palat näyttävät erilaisilta. Maksuton, OPS 2014:n mukainen geometria."
     },
     "kid_prompt_template": "promptTapMatchEqualShares"
   }

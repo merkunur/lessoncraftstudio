@@ -338,13 +338,16 @@ var ACTIVITY_STRINGS = {
      the other 10 locales authored at the #2 fan-out turn (fall back to EN,
      unpublished so never rendered). */
   promptTapMatchHalves: {
-    en: 'This shape is split into 2 equal parts. Tap another shape that is also split into 2 equal parts.'
+    en: 'This shape is split into 2 equal parts. Tap another shape that is also split into 2 equal parts.',
+    fi: 'Tämä muoto on jaettu kahteen yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu kahteen yhtä suureen osaan.'
   },
   promptTapMatchThirds: {
-    en: 'This shape is split into 3 equal parts. Tap another shape that is also split into 3 equal parts.'
+    en: 'This shape is split into 3 equal parts. Tap another shape that is also split into 3 equal parts.',
+    fi: 'Tämä muoto on jaettu kolmeen yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu kolmeen yhtä suureen osaan.'
   },
   promptTapMatchFourths: {
-    en: 'This shape is split into 4 equal parts. Tap another shape that is also split into 4 equal parts.'
+    en: 'This shape is split into 4 equal parts. Tap another shape that is also split into 4 equal parts.',
+    fi: 'Tämä muoto on jaettu neljään yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu neljään yhtä suureen osaan.'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

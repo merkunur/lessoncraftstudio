@@ -64,6 +64,29 @@
     "whatsInsideCode": "Linjassa OPS 2014:n kanssa"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Tässä harjoituksessa lapsi katselee kuviota, joka on jaettu yhtä suuriin osiin, ja etsii toisen kuvion, joka on jaettu yhtä moneen yhtä suureen osaan. Harjoitus toimii suoraan selaimessa — mitään ei tarvitse asentaa eikä tiliä tarvita.",
+        "Tärkein uusi ajatus on, että yhtä suuret osat eivät aina näytä samanlaisilta. Neliö voidaan jakaa kahteen yhtä suureen osaan keskeltä viivalla tai kulmasta kulmaan, ja molemmissa on kaksi yhtä suurta puolikasta, vaikka palat ovat eri muotoiset. Lapsi valitsee kuvion, jossa on yhtä monta yhtä suurta osaa, ja jättää valitsematta kuviot, joissa osat ovat eri kokoiset, osia on väärä määrä tai kuviota ei ole jaettu lainkaan. Lapsi ei jaa muotoa itse, vaan tunnistaa, mikä muoto on jaettu yhtä suuriin osiin.",
+        "Harjoitus on OPS 2014:n mukainen geometrian osa-alueella — lapsi tunnistaa kahteen, kolmeen ja neljään yhtä suureen osaan jaetut neliöt ja suorakulmiot ja kutsuu niitä puolikkaiksi, kolmasosiksi ja neljäsosiksi. Lapsi saa edetä rauhassa omaan tahtiinsa: ei ajastinta, ei pisteitä."
+      ],
+      "practices": [
+        "Tunnistaa, milloin neliö tai suorakulmio on jaettu yhtä suuriin osiin ja milloin osat ovat eri kokoiset.",
+        "Huomaa, että yhtä suuret osat voivat näyttää erilaisilta — sama kokonaisuus voidaan jakaa monella tavalla yhtä suuriin osiin.",
+        "Laskee, moneenko yhtä suureen osaan kuvio on jaettu, ja vertaa osien määrää toiseen kuvioon.",
+        "Nimeää osat puolikkaiksi, kolmasosiksi ja neljäsosiksi."
+      ],
+      "howToPlay": [
+        "Katso ensin ylhäällä olevaa kuviota ja huomaa, moneenko yhtä suureen osaan se on jaettu.",
+        "Napauta sitä kuviota, joka on jaettu yhtä moneen yhtä suureen osaan — muista, että osat voivat näyttää erilaisilta vaikka ne ovat yhtä suuret.",
+        "Tarkista valintasi painikkeesta. Jos haluat, voit yrittää uudelleen ja kokeilla toista kuviota."
+      ],
+      "learningGoals": [
+        "Lapsi ymmärtää, että yhtä suuret osat eivät aina ole samannäköisiä, vaikka ne ovat saman kokoiset.",
+        "Lapsi tunnistaa kahteen, kolmeen ja neljään yhtä suureen osaan jaetut neliöt ja suorakulmiot.",
+        "Lapsi osaa nimetä osat puolikkaiksi, kolmasosiksi ja neljäsosiksi."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Ennen kuin lapset laskevat murtolukuja, he oppivat tärkeän idean: osien pitää olla yhtä suuret. Tässä maksuttomassa harjoituksessa ruudulle ilmestyy neljä kuviota — ympyröitä, neliöitä ja suorakulmioita — ja lapsi etsii ja napauttaa sen, joka on jaettu kahteen tai neljään yhtä suureen osaan. Harjoitus toimii suoraan selaimessa: ei asennusta, ei käyttäjätiliä.",

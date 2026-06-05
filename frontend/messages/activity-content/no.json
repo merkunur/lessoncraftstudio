@@ -64,6 +64,29 @@
     "whatsInsideCode": "Følger LK20"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Barn legger merke til rettferdighet lenge før de kan tallene som hører til. I denne aktiviteten ser barnet fire former på skjermen — sirkler, kvadrater og rektangler — og skal trykke på den ene som er delt i like store deler. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",
+        "Den store idéen er at delene må være rettferdige: like store. De andre formene er delt i deler som ikke er like store, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen hvilken form som allerede er delt i like store deler.",
+        "Aktiviteten følger LK20 innenfor området geometri — å kjenne igjen former som er delt i to og fire like store deler, og å navngi dem som halvdeler og fjerdedeler. Barna ser og tenker i sitt eget tempo med mild og umiddelbar tilbakemelding — ingen tidtaker, ingen poeng, bare lekende øving."
+      ],
+      "practices": [
+        "Kjenne igjen når en sirkel, et kvadrat eller et rektangel er delt i like store deler.",
+        "Skille like store halvdeler og fjerdedeler fra deler som ikke er like store.",
+        "Legge merke til hvor mange like store deler en form er delt i — to eller fire.",
+        "Bli kjent med ordene halvdeler og fjerdedeler."
+      ],
+      "howToPlay": [
+        "Se på de fire formene på skjermen og hør eller les oppgaven.",
+        "Trykk på formen som er delt i like store deler, og trykk så på Sjekk.",
+        "En varm sjekk forteller når valget er riktig, og det er lett å prøve igjen ved behov."
+      ],
+      "learningGoals": [
+        "Kjenne igjen sirkler og rektangler som er delt i to eller fire like store deler.",
+        "Forstå at delene må være like store for å være rettferdige — fokuset i LK20.",
+        "Bygge det rettferdige grunnlaget med like store deler som senere arbeid med brøk vokser ut av."
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["I denne aktiviteten bygger barnet ditt tallene fra 0 til 10 på en tierramme, og legger ett dyr om gangen i rutene. Slik blir hvert tall noe barnet selv lager og ser, steg for steg.", "Tierrammen viser tydelig hvor langt det er igjen til ti. Når en rute står tom, ser barnet for eksempel at 7 bare mangler tre på å bli en full tier, og det knytter tellingen sammen med forståelsen av hvor mange det faktisk er (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan telle i sitt eget rolige tempo. Roen gir rom for å undre seg, prøve på nytt og kjenne mestring."],
     "ten-frame.count-to-20.make-n.fruits": ["Her teller barnet ditt fra 0 til 20 på en dobbel tierramme, og fyller rutene med frukt ett stykke om gangen. Den doble rammen gjør det lett å se tjue som én full tier og litt til.", "Når den første tierrammen er full, begynner barnet på den neste. På den måten vokser forståelsen av at tjue er ti og ti, en tidlig og viktig smakebit på posisjonssystemet (K.CC.B.4).", "Det er ingen tidtaker og ingen poeng, så barnet kan utforske de større tallene uten stress. I rolig tempo blir også tallene opp til 20 trygge og forståelige."],
     "ten-frame.how-many.0-10.animals": ["I denne aktiviteten ser barnet ditt på en tierramme med dyr og svarer på hvor mange det er, med tall fra 0 til 10. Den faste strukturen i rammen hjelper barnet å få oversikt raskt.", "Fordi rutene alltid er ordnet likt, lærer barnet å oppfatte antallet med en gang, uten å telle hvert dyr for seg. Denne evnen til å se antall i et øyeblikk er en viktig grunnstein, og den øves her gjennom K.CC.B.5.", "Det er ingen tidtaker og ingen poeng, så barnet kan se og tenke i fred og ro. Da blir det lettere å stole på sitt eget blikk og svare med trygghet."],

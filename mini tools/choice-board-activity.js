@@ -291,6 +291,34 @@ var ACTIVITY_STRINGS = {
   labelLong:  { en: 'Long',  fi: 'Pitkä',   de: 'Lang',   fr: 'Long',  es: 'Largo',  it: 'Lungo',   nl: 'Lang',  pt: 'Comprido', sv: 'Lång', da: 'Langt', no: 'Langt' },
   labelTall:  { en: 'Tall',  fi: 'Korkea',  de: 'Hoch',   fr: 'Haut',  es: 'Alto',   it: 'Alto',    nl: 'Hoog',  pt: 'Alto',     sv: 'Hög',  da: 'Højt',  no: 'Høyt'  },
   labelHeavy: { en: 'Heavy', fi: 'Painava', de: 'Schwer', fr: 'Lourd', es: 'Pesado', it: 'Pesante', nl: 'Zwaar', pt: 'Pesado',   sv: 'Tung', da: 'Tungt', no: 'Tungt' },
+  /* E14 Activity 1.G.A.3 — Equal Halves and Fourths (Geometry). Show 4
+     same-shape tiles; the kid taps the one split into equal halves/fourths.
+     {fraction} is interpolated from fractionLabel_halves / fractionLabel_fourths.
+     Honestly scoped to the IDENTIFY/recognize-equal-shares facet of 1.G.A.3
+     (the kid recognizes equal shares; they do not yet partition). EN authored;
+     the 11-locale skeleton is best-effort (Nordic NSR per §17.5.1) and never
+     reaches a live page — only the EN slug is published. */
+  promptTapEqualShares: {
+    en: 'Tap the shape split into equal {fraction}',
+    de: 'Tippe auf die Form, die in gleiche {fraction} geteilt ist',
+    fr: 'Touche la forme partagée en {fraction} égales',
+    it: 'Tocca la forma divisa in {fraction} uguali',
+    es: 'Toca la forma dividida en {fraction} iguales',
+    pt: 'Toque na forma dividida em {fraction} iguais',
+    nl: 'Tik op de vorm die in gelijke {fraction} is verdeeld',
+    sv: 'Tryck på formen som är delad i lika {fraction}',
+    da: 'Tryk på formen, der er delt i lige store {fraction}',
+    no: 'Trykk på formen som er delt i like {fraction}',
+    fi: 'Napauta muotoa, joka on jaettu yhtä suuriin {fraction}'
+  },
+  fractionLabel_halves: {
+    en: 'halves', de: 'Hälften', fr: 'moitiés', it: 'metà', es: 'mitades', pt: 'metades',
+    nl: 'helften', sv: 'halvor', da: 'halvdele', no: 'halvdeler', fi: 'puolikkaisiin'
+  },
+  fractionLabel_fourths: {
+    en: 'fourths', de: 'Viertel', fr: 'quarts', it: 'quarti', es: 'cuartos', pt: 'quartos',
+    nl: 'vierden', sv: 'fjärdedelar', da: 'fjerdedele', no: 'fjerdedeler', fi: 'neljäsosiin'
+  },
   hintPickOne: {
     en: 'Pick one of the shapes first',
     de: 'Wähle zuerst eine Form aus',
@@ -495,6 +523,79 @@ function injectDescribeAttributeCSS() {
   ].join('\n');
   var tag = document.createElement('style');
   tag.setAttribute('data-cb-describe-attr', '');
+  tag.textContent = css;
+  document.head.appendChild(tag);
+}
+
+/* E14 1.G.A.3 — code-drawn partition figures (Equal Halves and Fourths).
+   Each tile is an inline SVG (string-concat idiom, same as number-line /
+   ruler / lcs-shell tokens) injected post-render in the render() override
+   below. White shape interior + bold dark outline + bold cut lines; equality
+   reads from the cut GEOMETRY (no per-share shading). Geometry is inset
+   (circle r42; rect 6→94 ×; square 16→84) so nothing clips the tile's 28px
+   border-radius. The wrapper-owned injectFractionCSS forces a 2×2 large-tile
+   board so the shapes stay legible on phones (the core's cb-cols-4 phone
+   tiles are only 40–56px). 0 lines to choice-board-core.js / lcs-shell.* /
+   Direction A CSS — all new visual logic lives here in the activity layer. */
+var _FR_STROKE = '#0E3D37';
+function _fsvg(inner) {
+  return '<svg class="cb-frac" viewBox="0 0 100 100" aria-hidden="true">' + inner + '</svg>';
+}
+function _ln(x1, y1, x2, y2) {
+  return '<line x1="' + x1 + '" y1="' + y1 + '" x2="' + x2 + '" y2="' + y2 +
+    '" stroke="' + _FR_STROKE + '" stroke-width="4" stroke-linecap="round"/>';
+}
+function _circShape() {
+  return '<circle cx="50" cy="50" r="42" fill="#FFFFFF" stroke="' + _FR_STROKE + '" stroke-width="4"/>';
+}
+function _boxShape(x, y, w, h) {
+  return '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h +
+    '" rx="3" fill="#FFFFFF" stroke="' + _FR_STROKE + '" stroke-width="4"/>';
+}
+/* rect bounds 6..94 (x), 28..72 (y); square bounds 16..84 */
+var _RX = 6, _RY = 28, _RW = 88, _RH = 44, _RR = _RX + _RW, _RB = _RY + _RH;
+var _SX = 16, _SY = 16, _SW = 68, _SH = 68, _SR = _SX + _SW, _SB = _SY + _SH;
+var FRACTION_FIGURES = {
+  /* circle (center 50,50 r42; edge points top(50,8) bottom(50,92) left(8,50) right(92,50)) */
+  'circle-halves-v':      function () { return _fsvg(_circShape() + _ln(50, 8, 50, 92)); },
+  'circle-halves-h':      function () { return _fsvg(_circShape() + _ln(8, 50, 92, 50)); },
+  'circle-halves-diag':   function () { return _fsvg(_circShape() + _ln(20.3, 20.3, 79.7, 79.7)); },
+  'circle-halves-uneq':   function () { return _fsvg(_circShape() + _ln(70, 13, 70, 87)); },          /* off-center chord → 2 unequal */
+  'circle-fourths':       function () { return _fsvg(_circShape() + _ln(50, 8, 50, 92) + _ln(8, 50, 92, 50)); },
+  'circle-fourths-uneq':  function () { return _fsvg(_circShape() + _ln(64, 11, 64, 89) + _ln(10, 38, 90, 38)); }, /* 4 unequal */
+  'circle-thirds':        function () { return _fsvg(_circShape() + _ln(50, 50, 50, 8) + _ln(50, 50, 86.4, 71) + _ln(50, 50, 13.6, 71)); },
+  'circle-notsplit':      function () { return _fsvg(_circShape() + _ln(64, 17, 77, 33)); },          /* short mark, not a cut across */
+  /* rectangle 6..94 x, 28..72 y */
+  'rect-halves-v':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(50, _RY, 50, _RB)); },
+  'rect-halves-h':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(_RX, 50, _RR, 50)); },
+  'rect-halves-diag':     function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(_RX, _RY, _RR, _RB)); },
+  'rect-halves-uneq':     function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(66, _RY, 66, _RB)); },
+  'rect-fourths-grid':    function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(50, _RY, 50, _RB) + _ln(_RX, 50, _RR, 50)); },
+  'rect-fourths-strips':  function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(28, _RY, 28, _RB) + _ln(50, _RY, 50, _RB) + _ln(72, _RY, 72, _RB)); },
+  'rect-fourths-uneq':    function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(22, _RY, 22, _RB) + _ln(40, _RY, 40, _RB) + _ln(78, _RY, 78, _RB)); },
+  'rect-thirds':          function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(35.3, _RY, 35.3, _RB) + _ln(64.7, _RY, 64.7, _RB)); },
+  'rect-notsplit':        function () { return _fsvg(_boxShape(_RX, _RY, _RW, _RH) + _ln(40, _RY, 40, 50)); }, /* line stops partway */
+  /* square 16..84 */
+  'sq-halves-v':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, _SB)); },
+  'sq-halves-h':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(_SX, 50, _SR, 50)); },
+  'sq-halves-diag':       function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(_SX, _SY, _SR, _SB)); },
+  'sq-halves-uneq':       function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(64, _SY, 64, _SB)); },
+  'sq-fourths-grid':      function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, _SB) + _ln(_SX, 50, _SR, 50)); },
+  'sq-fourths-uneq':      function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(33, _SY, 33, _SB) + _ln(50, _SY, 50, _SB) + _ln(72, _SY, 72, _SB)); },
+  'sq-thirds':            function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(38.7, _SY, 38.7, _SB) + _ln(61.3, _SY, 61.3, _SB)); },
+  'sq-notsplit':          function () { return _fsvg(_boxShape(_SX, _SY, _SW, _SH) + _ln(50, _SY, 50, 46)); }
+};
+var _frCssInjected = false;
+function injectFractionCSS() {
+  if (_frCssInjected) return;
+  _frCssInjected = true;
+  var css = [
+    '.cb-board.cb-frac-board{grid-template-columns:repeat(2,1fr)!important;max-width:min(92vw,440px)!important;gap:clamp(10px,3vw,18px)!important;justify-content:center!important;}',
+    '.cb-board.cb-frac-board .cb-tile{width:auto!important;max-width:none!important;max-height:none!important;aspect-ratio:1!important;padding:clamp(10px,3vw,20px)!important;}',
+    '.cb-board.cb-frac-board .cb-frac{width:100%;height:100%;display:block;pointer-events:none;user-select:none;}'
+  ].join('\n');
+  var tag = document.createElement('style');
+  tag.setAttribute('data-cb-fraction', '');
   tag.textContent = css;
   document.head.appendChild(tag);
 }
@@ -1099,6 +1200,60 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       });
     }
 
+    /* TEMPLATE: fraction-equal-shares (1.G.A.3, Geometry) — show 4 same-shape
+       tiles; the kid taps the one split into equal halves/fourths. The 3
+       distractors are the SAME shape split into UNEQUAL parts (the load-bearing
+       foil — separates "two parts" from "two EQUAL parts"), the WRONG NUMBER of
+       equal parts, or marked with a line that does not split it. So the activity
+       demonstrates EQUAL-SHARES recognition, not shape ID. Honestly scoped to the
+       identify/recognize-equal-shares facet of 1.G.A.3 (the kid recognizes; the
+       kid-partitions facet is a future build). Tiles are code-drawn inline SVG
+       (FRACTION_FIGURES) injected post-render in the render() override below —
+       0 lines to choice-board-core.js / lcs-shell.* / Direction A CSS (same
+       activity-layer pattern as sort-count + compare-length). params.rounds = [
+         { shape, fraction:'halves'|'fourths',
+           tiles:[{ fig, correct?:true, label }, ...4] }, ...]. */
+    if (row.task_template === 'fraction-equal-shares') {
+      injectFractionCSS();
+      var frRounds = row.params.rounds;
+      return frRounds.map(function (round, idx) {
+        /* Deterministic per-round tile order (correct isn't always first; the
+           future locale siblings render identically). seededShuffle returns a
+           new array — round.tiles is untouched. */
+        var ordered = seededShuffle(round.tiles, (idx * 101 + 7) | 0);
+        var targetKey = null, svgByKey = {}, optionSpecs = [];
+        ordered.forEach(function (t, i) {
+          var key = 'fr-' + idx + '-' + i;
+          if (t.correct) targetKey = key;
+          var fig = FRACTION_FIGURES[t.fig];
+          svgByKey[key] = fig ? fig() : '';
+          optionSpecs.push({ key: key, label: t.label || round.shape });
+        });
+        return {
+          id: row.id + '.' + round.shape + '-' + round.fraction + '-' + idx,
+          promptKey: 'promptTapEqualShares',
+          promptArgs: { fraction: self.api.t('fractionLabel_' + round.fraction) },
+          answerType: 'state',
+          setup: function (tool) {
+            /* stash the per-key SVG payloads for the render() override */
+            tool._fractionTiles = svgByKey;
+            var options = optionSpecs.map(function (o) {
+              return { key: o.key, label: o.label };  /* empty-tile path: no imgUrl/text/group */
+            });
+            tool.setupTask(options, targetKey, null);
+          },
+          check: function (tool) {
+            var correct = tool.answer === targetKey;
+            tool.showFeedback(correct);
+            return correct;
+          },
+          hintKey: function (tool) {
+            return tool.answer == null ? 'hintPickOne' : 'hintTryAgain';
+          }
+        };
+      });
+    }
+
     return STATIC_DEMO_TASKS;
   },
 
@@ -1123,6 +1278,25 @@ window.ChoiceBoardActivity = Object.assign({}, ChoiceBoardCore, {
       var attrBoard = this.api.stage.querySelector('.cb-board');
       if (attrBoard) attrBoard.classList.add('cb-attr3');
     }
+    /* E14 1.G.A.3 fraction-equal-shares — tag the board for the wrapper-owned
+       2×2 large-tile CSS, then inject each empty tile's code-drawn partition
+       SVG. Guarded on the per-task _fractionTiles flag; no-op for every other
+       template + the static demo. insertAdjacentHTML('afterbegin') keeps the
+       core's .cb-tile-badge (✓/✕) intact; the .cb-frac guard prevents
+       double-inject. paint() never rebuilds tiles, so the SVG survives
+       selection + Check; Next re-runs setup → render → re-inject. */
+    if (this._fractionTiles && this.api && this.api.stage) {
+      var fbBoard = this.api.stage.querySelector('.cb-board');
+      if (fbBoard) fbBoard.classList.add('cb-frac-board');
+      var fTiles = this.api.stage.querySelectorAll('.cb-tile');
+      for (var f = 0; f < fTiles.length; f++) {
+        var fSvg = this._fractionTiles[fTiles[f].dataset.key];
+        if (fSvg && !fTiles[f].querySelector('.cb-frac')) {
+          fTiles[f].insertAdjacentHTML('afterbegin', fSvg);
+        }
+      }
+    }
+
     var mixed = this._mixedItems;
     if (!mixed || !mixed.length || !this.api || !this.api.stage) return;
     var imgs = this.api.stage.querySelectorAll('.cb-subject--group .cb-group-item');

@@ -856,5 +856,139 @@
       "no": "Barnet trykker på ordet som passer: lang, høy eller tung. Gratis aktivitet for barnehage og 1.–2. trinn, i tråd med LK20."
     },
     "kid_prompt_template": "promptDescribeAttribute"
+  },
+  {
+    "id": "choice-board.fraction-equal-shares.1-g-a-3",
+    "tool": "choice-board-activity",
+    "task_template": "fraction-equal-shares",
+    "alignment": {
+      "framework": "CCSS",
+      "code": "1.G.A.3",
+      "grade": "1",
+      "strand": "Geometry"
+    },
+    "params": {
+      "rounds": [
+        {
+          "shape": "circle", "fraction": "halves",
+          "tiles": [
+            { "fig": "circle-halves-v", "correct": true, "label": "circle split into two equal halves" },
+            { "fig": "circle-halves-uneq", "label": "circle split into two unequal parts" },
+            { "fig": "circle-fourths", "label": "circle split into four equal parts" },
+            { "fig": "circle-notsplit", "label": "circle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "halves",
+          "tiles": [
+            { "fig": "sq-halves-v", "correct": true, "label": "square split into two equal halves" },
+            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
+            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
+            { "fig": "sq-notsplit", "label": "square with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "halves",
+          "tiles": [
+            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves" },
+            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
+            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
+            { "fig": "rect-notsplit", "label": "rectangle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "circle", "fraction": "halves",
+          "tiles": [
+            { "fig": "circle-halves-diag", "correct": true, "label": "circle split into two equal halves" },
+            { "fig": "circle-halves-uneq", "label": "circle split into two unequal parts" },
+            { "fig": "circle-thirds", "label": "circle split into three equal parts" },
+            { "fig": "circle-notsplit", "label": "circle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "fourths",
+          "tiles": [
+            { "fig": "sq-fourths-grid", "correct": true, "label": "square split into four equal parts" },
+            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
+            { "fig": "sq-halves-v", "label": "square split into two equal halves" },
+            { "fig": "sq-notsplit", "label": "square with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "fourths",
+          "tiles": [
+            { "fig": "rect-fourths-grid", "correct": true, "label": "rectangle split into four equal parts" },
+            { "fig": "rect-fourths-uneq", "label": "rectangle split into four unequal parts" },
+            { "fig": "rect-halves-v", "label": "rectangle split into two equal halves" },
+            { "fig": "rect-notsplit", "label": "rectangle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "circle", "fraction": "fourths",
+          "tiles": [
+            { "fig": "circle-fourths", "correct": true, "label": "circle split into four equal parts" },
+            { "fig": "circle-fourths-uneq", "label": "circle split into four unequal parts" },
+            { "fig": "circle-thirds", "label": "circle split into three equal parts" },
+            { "fig": "circle-halves-v", "label": "circle split into two equal halves" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "halves",
+          "tiles": [
+            { "fig": "sq-halves-diag", "correct": true, "label": "square split into two equal halves" },
+            { "fig": "sq-halves-uneq", "label": "square split into two unequal parts" },
+            { "fig": "sq-fourths-grid", "label": "square split into four equal parts" },
+            { "fig": "sq-notsplit", "label": "square with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "halves",
+          "tiles": [
+            { "fig": "rect-halves-v", "correct": true, "label": "rectangle split into two equal halves" },
+            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
+            { "fig": "rect-thirds", "label": "rectangle split into three equal parts" },
+            { "fig": "rect-notsplit", "label": "rectangle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "circle", "fraction": "fourths",
+          "tiles": [
+            { "fig": "circle-fourths", "correct": true, "label": "circle split into four equal parts" },
+            { "fig": "circle-fourths-uneq", "label": "circle split into four unequal parts" },
+            { "fig": "circle-halves-h", "label": "circle split into two equal halves" },
+            { "fig": "circle-notsplit", "label": "circle with a line that does not split it" }
+          ]
+        },
+        {
+          "shape": "square", "fraction": "fourths",
+          "tiles": [
+            { "fig": "sq-fourths-grid", "correct": true, "label": "square split into four equal parts" },
+            { "fig": "sq-fourths-uneq", "label": "square split into four unequal parts" },
+            { "fig": "sq-thirds", "label": "square split into three equal parts" },
+            { "fig": "sq-halves-v", "label": "square split into two equal halves" }
+          ]
+        },
+        {
+          "shape": "rectangle", "fraction": "halves",
+          "tiles": [
+            { "fig": "rect-halves-h", "correct": true, "label": "rectangle split into two equal halves" },
+            { "fig": "rect-halves-uneq", "label": "rectangle split into two unequal parts" },
+            { "fig": "rect-fourths-strips", "label": "rectangle split into four equal parts" },
+            { "fig": "rect-notsplit", "label": "rectangle with a line that does not split it" }
+          ]
+        }
+      ]
+    },
+    "theme": null,
+    "slug": {
+      "en": "equal-halves-and-fourths"
+    },
+    "page_title": {
+      "en": "Equal Halves and Fourths — Find the Fair Shares | Grade 1 Geometry"
+    },
+    "page_intro": {
+      "en": "Look at circles, squares, and rectangles and tap the one split into equal halves or fourths. A gentle first step into fractions aligned to Common Core 1.G.A.3 — recognizing when a shape is divided into equal shares, where the big idea is that the parts must be fair and equal."
+    },
+    "kid_prompt_template": "promptTapEqualShares"
   }
 ]

@@ -14,6 +14,29 @@
     "whatsInsideRange":"Números del {min} al {max}","whatsInsideTheme":"Fichas con imágenes de {theme} que los niños pueden reconocer","whatsInsideGrade":"Diseñada para estudiantes de {grade}.º grado (de 5 a 9 años aproximadamente)","whatsInsideStrand":"Eje del currículo: {strand}","whatsInsideCode":"Alineada con el currículo oficial"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "En esta actividad, los niños y las niñas miran cuatro figuras —círculos, cuadrados y rectángulos— y tocan la que está dividida en partes iguales. Funciona en el navegador, sin instalar nada y sin crear ninguna cuenta.",
+        "La idea importante es que las partes sean justas: del mismo tamaño. En las otras figuras, las partes son desiguales, hay un número equivocado de partes, o la figura está entera y sin dividir. El niño o la niña no divide la figura: reconoce cuál ya está dividida en partes iguales.",
+        "Está alineada con el currículo oficial, en el eje {strand}: reconocer figuras divididas en dos y en cuatro partes iguales y nombrarlas como mitades y cuartos. Sin temporizador y sin puntuación, para que cada niño o niña observe con calma."
+      ],
+      "practices": [
+        "Reconocer cuándo un círculo, un cuadrado o un rectángulo está dividido en partes iguales.",
+        "Distinguir las partes iguales —mitades o cuartos— de las partes desiguales.",
+        "Fijarse en cuántas partes iguales hay: dos o cuatro.",
+        "Usar las palabras mitades y cuartos para nombrar las partes."
+      ],
+      "howToPlay": [
+        "Observa las cuatro figuras de la pantalla con atención.",
+        "Busca la figura cuyas partes son todas del mismo tamaño, sin que ninguna sea más grande que otra.",
+        "Toca esa figura. Si quieres, prueba otra vez con calma; aquí no hay prisa."
+      ],
+      "learningGoals": [
+        "Reconocer círculos, cuadrados y rectángulos divididos en dos o cuatro partes iguales.",
+        "Comprender que, para ser justas, todas las partes deben ser iguales, del mismo tamaño.",
+        "Construir la base de las mitades y los cuartos para entender más adelante las fracciones."
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["Contar del 0 al 10 cobra vida cuando su hijo/a coloca animalitos uno a uno en el marco de diez. Cada casilla que llena le ayuda a entender que el número crece de uno en uno, y que cada cantidad tiene su lugar exacto.", "El cuadro de diez muestra de un vistazo \"qué tan lejos estamos del diez\": los espacios vacíos invitan a los niños a preguntarse cuántos faltan. Así, la actividad conecta el conteo con la cardinalidad, tal como propone la norma K.CC.B.4.", "Aquí no hay cronómetro ni puntaje. Su hijo/a puede tomarse el tiempo que necesite, repetir cuando quiera y disfrutar el proceso de construir cada número con calma y confianza."],
     "ten-frame.count-to-20.make-n.fruits": ["Con un marco de diez doble y frutas para contar, su hijo/a explora los números del 0 al 20 de una forma muy visual. Va colocando cada fruta en su casilla y descubre cómo se forman las cantidades poco a poco.", "Al llenar el primer cuadro de diez completo y empezar el segundo, los niños empiezan a ver el veinte como \"un diez entero y algunos más\". Esta experiencia siembra las primeras ideas del valor posicional y refuerza la norma K.CC.B.4.", "La actividad no tiene cronómetro ni puntaje. Su hijo/a avanza a su propio ritmo, sin presión, concentrándose en comprender cada número en lugar de apurarse."],
     "ten-frame.how-many.0-10.animals": ["En esta actividad su hijo/a observa un marco de diez con animalitos y responde cuántos hay, en el rango del 0 al 10. Es una invitación a mirar con atención y a confiar en lo que ven sus ojos.", "El cuadro de diez favorece el subitizar: con la práctica, los niños reconocen las cantidades de un solo vistazo, sin contar uno por uno. Así se fortalece la norma K.CC.B.5 de manera natural y significativa.", "No hay cronómetro ni puntaje en ningún momento. Su hijo/a puede pensar con tranquilidad, intentarlo de nuevo y celebrar cada descubrimiento a su propio ritmo."],

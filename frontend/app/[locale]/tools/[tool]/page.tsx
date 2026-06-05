@@ -20,6 +20,7 @@ import {
   ToolKey,
 } from '@/lib/seo/tool-content';
 import { listAllActivities } from '@/lib/activities';
+import { getHreflangCode } from '@/lib/seo/hreflang';
 import { ogLocaleMap } from '@/lib/schema-generator';
 
 /**
@@ -257,7 +258,7 @@ export default async function ToolPage({ params }: { params: PageParams }) {
                   <li key={locale}>
                     <a
                       href={href}
-                      hrefLang={locale}
+                      hrefLang={getHreflangCode(locale)}
                       className="inline-flex items-center px-3 py-1.5 rounded-full bg-cream-50 hover:bg-teal-50 text-teal-800 text-sm transition-colors"
                     >
                       {LOCALE_NAMES[locale as SupportedLocale] ?? locale}

@@ -26,6 +26,7 @@ import TopicFaq from '@/components/catalog/TopicFaq';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
 import { buildBreadcrumbSchema, BreadcrumbCrumb } from '@/lib/seo/breadcrumb-schema';
 import { localizeStrand } from '@/lib/seo/strand-names';
+import { getHreflangCode } from '@/lib/seo/hreflang';
 import { getActivityContent, gradeToAgeRange } from '@/lib/seo/activity-content';
 import { LOCALE_NAMES, SupportedLocale } from '@/config/locales';
 import { ogLocaleMap } from '@/lib/schema-generator';
@@ -588,7 +589,7 @@ export default async function ActivityPage({ params }: { params: PageParams }) {
                   <li key={locale}>
                     <a
                       href={href}
-                      hrefLang={locale}
+                      hrefLang={getHreflangCode(locale)}
                       className="inline-flex items-center px-3 py-1.5 rounded-full bg-cream-50 hover:bg-teal-50 text-teal-800 text-sm transition-colors"
                     >
                       {LOCALE_NAMES[locale as SupportedLocale] ?? locale}

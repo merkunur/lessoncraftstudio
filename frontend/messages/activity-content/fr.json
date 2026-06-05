@@ -14,6 +14,29 @@
     "whatsInsideRange":"Les nombres de {min} à {max}","whatsInsideTheme":"Des jetons-images sur le thème {theme} que les enfants peuvent reconnaître","whatsInsideGrade":"Conçu pour les élèves de la classe {grade} (de 5 à 9 ans environ)","whatsInsideStrand":"Domaine des programmes officiels : {strand}","whatsInsideCode":"Aligné sur les programmes officiels"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Les enfants apprennent à reconnaître qu'une forme peut être partagée équitablement de plusieurs façons. On leur montre une forme de départ partagée en parts égales, puis quatre autres formes : ils touchent celle qui montre le même partage, en autant de parts égales. Tout se passe directement dans le navigateur : rien à installer, aucun compte à créer.",
+        "La grande idée, nouvelle ici, c'est que des parts égales ne sont pas obligées de se ressembler. Un carré partagé par le milieu et un carré partagé d'un coin à l'autre montrent tous les deux deux moitiés égales, même si les morceaux n'ont pas la même forme. L'enfant ne partage pas la forme lui-même : il reconnaît que des parts égales peuvent avoir des formes différentes. Les mauvaises réponses montrent des parts inégales, le mauvais nombre de parts, ou une forme entière qui n'est pas partagée du tout.",
+        "Cette activité est alignée sur les programmes officiels, dans le domaine Espace et géométrie : reconnaître qu'un carré ou un rectangle peut être partagé en deux, trois ou quatre parts égales de plusieurs manières, et nommer le résultat « moitiés », « tiers » et « quarts ». Les enfants avancent à leur rythme, avec un retour doux et immédiat — ni minuteur, ni score."
+      ],
+      "practices": [
+        "Reconnaître quand un carré ou un rectangle est partagé en parts égales, même si les morceaux ont des formes différentes.",
+        "Comprendre que deux partages égaux d'une même forme peuvent ne pas se ressembler — ce sont quand même des parts égales.",
+        "Remarquer le nombre de parts égales : deux (des moitiés), trois (des tiers) ou quatre (des quarts).",
+        "Distinguer un partage en parts égales d'un partage inégal, du mauvais nombre de parts, ou d'une forme non partagée."
+      ],
+      "howToPlay": [
+        "Regarde la forme de départ : observe comment elle est partagée en parts égales.",
+        "Touche la forme qui montre le même partage en parts égales — même si les morceaux n'ont pas exactement la même forme.",
+        "Reçois un retour doux tout de suite, puis passe à la forme suivante à ton rythme."
+      ],
+      "learningGoals": [
+        "Comprendre que des parts égales peuvent avoir des formes différentes tout en restant égales.",
+        "Reconnaître une même forme partagée en deux, trois ou quatre parts égales de plusieurs manières, et la nommer en moitiés, tiers ou quarts.",
+        "Construire la base du partage équitable qui prépare les fractions plus tard."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Les enfants apprennent à repérer le partage équitable d'une forme. On leur montre quatre formes dessinées — un cercle, un carré, un rectangle — et ils touchent celle qui est partagée en parts égales. Tout se passe directement dans le navigateur : rien à installer, aucun compte à créer.",

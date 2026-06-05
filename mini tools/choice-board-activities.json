@@ -984,19 +984,22 @@
       "en": "equal-halves-and-fourths",
       "fi": "yhta-suuret-puolikkaat-ja-neljasosat",
       "de": "gleiche-haelften-und-viertel",
-      "fr": "moities-et-quarts-egaux"
+      "fr": "moities-et-quarts-egaux",
+      "es": "mitades-y-cuartos-iguales"
     },
     "page_title": {
       "en": "Equal Halves and Fourths — Find the Fair Shares | Grade 1 Geometry",
       "fi": "Yhtä suuret puolikkaat ja neljäsosat — tunnista reilut osat | 1. luokka, Geometria",
       "de": "Gleiche Hälften und Viertel erkennen — faire Teile finden | Geometrie in der 1. Klasse",
-      "fr": "Moitiés et quarts égaux — trouve les parts justes | Géométrie au CP"
+      "fr": "Moitiés et quarts égaux — trouve les parts justes | Géométrie au CP",
+      "es": "Mitades y cuartos — encuentra las partes justas | Geometría en 1.º de Primaria"
     },
     "page_intro": {
       "en": "Look at circles, squares, and rectangles and tap the one split into equal halves or fourths. A gentle first step into fractions aligned to Common Core 1.G.A.3 — recognizing when a shape is divided into equal shares, where the big idea is that the parts must be fair and equal.",
       "fi": "Katso ympyröitä, neliöitä ja suorakulmioita ja napauta se, joka on jaettu yhtä suuriin puolikkaisiin tai neljäsosiin. Maksuton, OPS 2014:n mukainen geometriaharjoitus.",
       "de": "Tippe den Kreis oder das Rechteck an, das in gleich große Hälften oder Viertel geteilt ist. Kostenlos, ohne Konto, am Lehrplan der 1. Klasse ausgerichtet.",
-      "fr": "Regarde des cercles, carrés et rectangles et touche la forme partagée en parts égales : moitiés ou quarts. Activité gratuite alignée sur les programmes officiels."
+      "fr": "Regarde des cercles, carrés et rectangles et touche la forme partagée en parts égales : moitiés ou quarts. Activité gratuite alignée sur les programmes officiels.",
+      "es": "Mira círculos, cuadrados y rectángulos y toca la forma dividida en partes iguales: mitades o cuartos. Actividad gratuita alineada con el currículo oficial."
     },
     "kid_prompt_template": "promptTapEqualShares"
   }

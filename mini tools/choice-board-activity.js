@@ -306,13 +306,15 @@ var ACTIVITY_STRINGS = {
     en: 'Tap the shape split into equal halves',
     fi: 'Napauta muotoa, joka on jaettu kahteen yhtä suureen osaan',
     de: 'Tippe auf die Form, die in zwei gleiche Teile geteilt ist',
-    fr: 'Touche la forme partagée en deux parts égales'
+    fr: 'Touche la forme partagée en deux parts égales',
+    es: 'Toca la forma dividida en dos partes iguales'
   },
   promptTapFourths: {
     en: 'Tap the shape split into equal fourths',
     fi: 'Napauta muotoa, joka on jaettu neljään yhtä suureen osaan',
     de: 'Tippe auf die Form, die in vier gleiche Teile geteilt ist',
-    fr: 'Touche la forme partagée en quatre parts égales'
+    fr: 'Touche la forme partagée en quatre parts égales',
+    es: 'Toca la forma dividida en cuatro partes iguales'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

@@ -312,7 +312,8 @@ var ACTIVITY_STRINGS = {
     pt: 'Toque na forma dividida em duas partes iguais',
     nl: 'Tik op de vorm die in twee gelijke delen verdeeld is',
     sv: 'Tryck på formen som är delad i två lika stora delar',
-    da: 'Tryk på formen, der er delt i to lige store dele'
+    da: 'Tryk på formen, der er delt i to lige store dele',
+    no: 'Trykk på formen som er delt i to like store deler'
   },
   promptTapFourths: {
     en: 'Tap the shape split into equal fourths',
@@ -324,7 +325,8 @@ var ACTIVITY_STRINGS = {
     pt: 'Toque na forma dividida em quatro partes iguais',
     nl: 'Tik op de vorm die in vier gelijke delen verdeeld is',
     sv: 'Tryck på formen som är delad i fyra lika stora delar',
-    da: 'Tryk på formen, der er delt i fire lige store dele'
+    da: 'Tryk på formen, der er delt i fire lige store dele',
+    no: 'Trykk på formen som er delt i fire like store deler'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

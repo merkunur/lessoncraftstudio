@@ -309,7 +309,8 @@ var ACTIVITY_STRINGS = {
     fr: 'Touche la forme partagée en deux parts égales',
     es: 'Toca la forma dividida en dos partes iguales',
     it: 'Tocca la forma divisa in due parti uguali',
-    pt: 'Toque na forma dividida em duas partes iguais'
+    pt: 'Toque na forma dividida em duas partes iguais',
+    nl: 'Tik op de vorm die in twee gelijke delen verdeeld is'
   },
   promptTapFourths: {
     en: 'Tap the shape split into equal fourths',
@@ -318,7 +319,8 @@ var ACTIVITY_STRINGS = {
     fr: 'Touche la forme partagée en quatre parts égales',
     es: 'Toca la forma dividida en cuatro partes iguales',
     it: 'Tocca la forma divisa in quattro parti uguali',
-    pt: 'Toque na forma dividida em quatro partes iguais'
+    pt: 'Toque na forma dividida em quatro partes iguais',
+    nl: 'Tik op de vorm die in vier gelijke delen verdeeld is'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

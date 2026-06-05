@@ -64,6 +64,29 @@
     "whatsInsideCode": "An den Lehrplänen ausgerichtet"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Diese kostenlose, interaktive Aktivität hilft jungen Kindern zu erkennen, wann eine Form in gleiche Teile geteilt ist. Das Kind sieht vier Formen — Kreise, Quadrate oder Rechtecke — und tippt diejenige an, die in zwei oder vier gleich große Teile geteilt ist. Es läuft direkt im Browser, ganz ohne Installation und ohne Konto.",
+        "Der wichtigste Gedanke ist, dass die Teile fair sein müssen — also gleich groß. Bei den anderen Formen sind die Teile unterschiedlich groß, es ist die falsche Anzahl an Teilen, oder die Form ist gar nicht geteilt. Das Kind teilt die Form nicht selbst, sondern erkennt, welche Form bereits in gleiche Teile aufgeteilt ist.",
+        "Die Aktivität ist an den Lehrplänen im Bereich Geometrie ausgerichtet — gleiche Teile erkennen und zwei gleiche Teile als Hälften, vier gleiche Teile als Viertel benennen. Die Kinder arbeiten in ihrem eigenen Tempo mit sanftem, sofortigem Feedback — kein Timer, keine Punktewertung."
+      ],
+      "practices": [
+        "Erkennen, wann ein Kreis, ein Quadrat oder ein Rechteck in gleiche Teile geteilt ist",
+        "Gleich große Teile von unterschiedlich großen Teilen unterscheiden",
+        "Sehen, in wie viele gleiche Teile eine Form geteilt ist — in zwei oder in vier",
+        "Die Wörter Hälften und Viertel mit gleichen Teilen verbinden"
+      ],
+      "howToPlay": [
+        "Schau dir die vier Formen an und überlege, welche in gleich große Teile geteilt ist.",
+        "Tippe die Form an, die in zwei oder vier gleiche Teile geteilt ist.",
+        "Du bekommst sofort eine sanfte Rückmeldung und kannst in deinem eigenen Tempo weitermachen."
+      ],
+      "learningGoals": [
+        "Kreise, Quadrate und Rechtecke erkennen, die in zwei oder vier gleiche Teile geteilt sind",
+        "Verstehen, dass die Teile gleich groß sein müssen, damit sie fair sind",
+        "Die Grundlage des gerechten Teilens für das spätere Rechnen mit Brüchen aufbauen"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["In dieser ruhigen Übung baut Ihr Kind die Zahlen von 0 bis 10 auf einem einzigen Zehnerfeld auf und legt dabei Tier-Plättchen Feld für Feld an seinen Platz. So wird jede Menge sichtbar und begreifbar, ganz im eigenen Tempo.", "Das Zehnerfeld zeigt auf einen Blick, wie weit eine Zahl noch von der Zehn entfernt ist. Wenn die Kinder ein leeres Kästchen sehen, verstehen sie nach und nach, dass zum Beispiel die 7 nur drei Plätze von der vollen Zehn entfernt liegt.", "Es gibt keinen Zeitdruck und keine Punkte, denn ruhiges Zählen festigt das Verständnis am besten. Diese Tätigkeit folgt dem Bildungsstandard K.CC.B.4 und verbindet das Zählen mit der Anzahl, also der Frage, wie viele Dinge wirklich vorhanden sind."],
     "ten-frame.count-to-20.make-n.fruits": ["Hier zählt Ihr Kind die Zahlen von 0 bis 20 auf einem doppelten Zehnerfeld und legt dabei Obst-Plättchen an. Jede Zahl entsteht in Ruhe, ein Plättchen nach dem anderen.", "Das doppelte Zehnerfeld macht deutlich, dass die Zwanzig eigentlich eine volle Zehn und noch ein paar mehr ist. Diese Sichtweise legt schon früh den Grundstein für das spätere Stellenwertverständnis.", "Ohne Uhr und ohne Wertung können die Kinder gelassen üben und die Zahlen mit allen Sinnen erfassen. Die Übung entspricht dem Bildungsstandard K.CC.B.4 und erweitert das Mengenverständnis über die Zehn hinaus."],
     "ten-frame.how-many.0-10.animals": ["Bei dieser Aufgabe betrachtet Ihr Kind Tier-Plättchen auf einem Zehnerfeld und beantwortet die Frage, wie viele es sind, im Bereich von 0 bis 10. Das Zehnerfeld gibt der Menge eine klare, vertraute Form.", "Durch die feste Anordnung im Zehnerfeld lernen die Kinder, Mengen auf einen Blick zu erkennen, ohne jedes Einzelne abzählen zu müssen. Dieses sogenannte Simultanerfassen ist eine wichtige Grundlage für sicheres Rechnen.", "Es läuft keine Zeit ab und es werden keine Punkte vergeben, sodass Ihr Kind in aller Ruhe schauen und überlegen kann. Die Übung folgt dem Bildungsstandard K.CC.B.5 und beantwortet die Frage nach der Anzahl."],

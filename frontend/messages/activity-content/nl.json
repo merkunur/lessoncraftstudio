@@ -64,6 +64,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Deze gratis, interactieve activiteit met vormen helpt jonge kinderen herkennen wanneer een vorm in gelijke delen is verdeeld. Het kind ziet vier vormen — cirkels, vierkanten en rechthoeken — en tikt op de vorm die in even grote, eerlijke delen is verdeeld. Werkt direct in de browser, zonder installeren en zonder account.",
+        "De grote gedachte is dat de delen eerlijk en even groot moeten zijn. De andere vormen zijn juist verdeeld in ongelijke delen, in het verkeerde aantal delen, of helemaal niet verdeeld. Het kind verdeelt de vorm dus niet zelf, maar herkent welke vorm al in gelijke delen is verdeeld.",
+        "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: herkennen dat een vorm in twee of vier gelijke delen is verdeeld en die delen benoemen als helften en vierden. Geen timer, geen score, alleen speels oefenen."
+      ],
+      "practices": [
+        "Herkennen wanneer een cirkel, vierkant of rechthoek in gelijke delen is verdeeld",
+        "Even grote helften en vierden onderscheiden van ongelijke delen",
+        "Opmerken in hoeveel gelijke delen een vorm is verdeeld (twee of vier)",
+        "De woorden helften en vierden gebruiken voor de gelijke delen"
+      ],
+      "howToPlay": [
+        "Bekijk de vier vormen en zoek de vorm die in even grote, eerlijke delen is verdeeld.",
+        "Tik op die vorm en controleer je antwoord.",
+        "Klopt het niet? Probeer het gerust opnieuw — er is geen timer en geen score."
+      ],
+      "learningGoals": [
+        "Cirkels, vierkanten en rechthoeken herkennen die in twee of vier gelijke delen zijn verdeeld",
+        "Begrijpen dat de delen even groot, oftewel eerlijk, moeten zijn",
+        "De basis leggen voor eerlijk verdelen als opstap naar latere breuken"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["In deze activiteit telt uw kind van 0 tot 10 op één tienraam en plaatst daarbij diervriendjes vakje voor vakje. Door elk dier zelf neer te zetten, wordt tellen iets wat je doet en ziet, niet alleen iets wat je opzegt.", "Het tienraam laat in één oogopslag zien hoe ver een getal nog van de tien af is. Zo merkt uw kind bijvoorbeeld dat bij 7 nog drie vakjes leeg zijn, wat helpt om getallen echt te begrijpen in plaats van alleen op te zeggen.", "Er is geen timer en geen score, zodat uw kind rustig en op eigen tempo kan tellen. De activiteit sluit aan bij de kerndoelen, waarbij tellen en het benoemen van de hoeveelheid met elkaar worden verbonden."],
     "ten-frame.count-to-20.make-n.fruits": ["Hier telt uw kind van 0 tot 20 op een dubbel tienraam en legt daarbij stukjes fruit in de vakjes. Door telkens een fruitje toe te voegen, krijgt elk getal een duidelijke en zichtbare vorm.", "Het dubbele tienraam maakt iets belangrijks zichtbaar: twintig is eigenlijk \"één volle tien en nog wat erbij\". Deze manier van kijken legt al vroeg de basis voor het tientallig stelsel en het rekenen met grotere getallen.", "Omdat er geen timer en geen score is, kan uw kind in alle rust ontdekken hoe de getallen tot 20 zijn opgebouwd. De activiteit hoort bij de kerndoelen, waarbij de hoeveelheid verder dan tien wordt verkend."],
     "ten-frame.how-many.0-10.animals": ["In deze activiteit kijkt uw kind naar diertjes op een tienraam en zegt hoeveel het er zijn, in het bereik van 0 tot 10. De vaste opbouw van het tienraam helpt om de hoeveelheid snel te overzien.", "Doordat de vakjes altijd hetzelfde geordend zijn, leert uw kind hoeveelheden in één oogopslag herkennen zonder elk diertje opnieuw te tellen. Dit snelle herkennen, ook wel subiteren genoemd, is een belangrijke stap in de rekenontwikkeling.", "Er is geen timer en geen score, dus uw kind mag rustig kijken en nadenken. De activiteit sluit aan bij de kerndoelen, waarbij kinderen leren antwoorden op de vraag \"hoeveel zijn het er?\"."],

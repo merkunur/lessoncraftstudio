@@ -64,6 +64,29 @@
     "whatsInsideCode": "Følger Fælles Mål"
   },
   "prose": {
+    "choice-board.fraction-equal-shares.1-g-a-3": {
+      "about": [
+        "Denne gratis, interaktive aktivitet hjælper små børn med at genkende, hvornår en form er delt i lige store dele. Barnet ser fire enkle former — cirkler, kvadrater og rektangler — og trykker på den, der er delt retfærdigt i lige store dele. Det hele foregår i browseren: ingen installation, ingen konto og ingen reklamer.",
+        "Den store idé er, at delene skal være lige store — altså helt retfærdige. De forkerte svar viser en form, der er delt i lige store dele men i forkert antal, en form delt i dele, der ikke er lige store, eller en hel form, der slet ikke er delt. Barnet skal lægge mærke til, hvilken form der er delt i lige store dele.",
+        "Aktiviteten følger Fælles Mål inden for området geometri og måling: at genkende former, der er delt i to og fire lige store dele, og at kende dem som halvdele og fjerdedele. Der er ingen timer og ingen point — kun rolig, legende øvelse i barnets eget tempo. Barnet deler ikke selv formen, men genkender, hvornår den allerede er delt i lige store dele."
+      ],
+      "practices": [
+        "Genkende, hvornår en cirkel, et kvadrat eller et rektangel er delt i lige store dele",
+        "Skelne lige store dele fra dele, der ikke er lige store",
+        "Lægge mærke til, hvor mange lige store dele en form er delt i — to eller fire",
+        "Bruge ordene halvdele og fjerdedele om de lige store dele"
+      ],
+      "howToPlay": [
+        "Kig på de fire former, og find den, der er delt i lige store dele.",
+        "Tryk på den form, hvor alle dele er lige store og helt retfærdige.",
+        "Tryk på Tjek for at se, om du valgte rigtigt — og prøv en ny, når du er klar."
+      ],
+      "learningGoals": [
+        "Genkende cirkler, kvadrater og rektangler, der er delt i to eller fire lige store dele",
+        "Forstå, at delene skal være lige store, for at det er retfærdigt",
+        "Bygge det første fundament for halvdele, fjerdedele og senere brøker"
+      ]
+    },
     "ten-frame.count-to-10.make-n.animals": ["I denne aktivitet bygger dit barn tallene fra 0 til 10 på en enkelt tierramme ved at placere et dyr ad gangen, felt for felt. På den måde bliver hvert tal konkret og synligt, og barnet oplever, hvordan mængden vokser lidt efter lidt.", "Tierrammen gør det nemt at se, hvor langt der er igen til ti. Når barnet kan se de tomme felter, opstår forståelsen af, at fx 7 kun mangler tre i at blive en fuld tier — en vigtig del af talforståelsen i Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan tælle i sit eget rolige tempo. Aktiviteten knytter selve tællingen sammen med forståelsen af, hvor mange der er i alt."],
     "ten-frame.count-to-20.make-n.fruits": ["Her tæller dit barn fra 0 til 20 på en dobbelt tierramme ved at lægge frugter i felterne ét ad gangen. Den dobbelte ramme gør det tydeligt, at tyve er det samme som en hel tier og nogle flere.", "Når den første tierramme er fyldt, begynder barnet på den næste, og på den måde opdages tankegangen bag titalssystemet helt naturligt. Det lægger en blid begyndelse til forståelsen af positionssystemet, i tråd med Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan udforske de større tal uden at føle sig forjaget. I ro og mag bliver tallene op til 20 både overskuelige og trygge at arbejde med."],
     "ten-frame.how-many.0-10.animals": ["I denne aktivitet ser dit barn på en tierramme med dyr og svarer på, hvor mange der er — med tal fra 0 til 10. Den faste struktur i rammen hjælper barnet med at danne sig et hurtigt overblik.", "Fordi felterne altid er ordnet på samme måde, lærer barnet at genkende mængden med det samme uden at tælle hvert dyr for sig. Denne evne til at se antal på et øjeblik er en vigtig grundsten, og den øves her efter Fælles Mål.", "Der er ingen timer og ingen point, så barnet kan se og tænke i fred og ro. Det giver plads til at stole på sit eget blik og svare med ro i maven."],

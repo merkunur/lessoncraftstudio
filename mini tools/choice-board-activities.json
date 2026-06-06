@@ -1151,7 +1151,8 @@
       "fr": "parts-egales-formes-differentes",
       "es": "partes-iguales-formas-distintas",
       "it": "parti-uguali-forme-diverse",
-      "pt": "partes-iguais-formatos-diferentes"
+      "pt": "partes-iguais-formatos-diferentes",
+      "nl": "gelijke-delen-andere-vorm"
     },
     "page_title": {
       "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry",
@@ -1160,7 +1161,8 @@
       "fr": "Mêmes parts, formes différentes — reconnais les parts égales | Géométrie au CE1",
       "es": "Partes iguales con formas distintas — mismo tamaño, otra forma | Geometría en 2.º de Primaria",
       "it": "Stessa grandezza, forma diversa — riconosci le parti uguali | Geometria 2ª primaria",
-      "pt": "Mesmo tamanho, formato diferente — reconheça as partes iguais | Geometria no 2º ano"
+      "pt": "Mesmo tamanho, formato diferente — reconheça as partes iguais | Geometria no 2º ano",
+      "nl": "Even groot, andere vorm — gelijke delen kunnen er anders uitzien | Meetkunde in groep 4"
     },
     "page_intro": {
       "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account.",
@@ -1169,7 +1171,8 @@
       "fr": "Une forme est partagée en parts égales : touche une autre forme qui montre les mêmes parts, même si elles ont l'air différentes. Gratuit, rien à installer.",
       "es": "Una forma está dividida en partes iguales; toca otra que muestre las mismas partes aunque tengan otra forma. Geometría gratis, alineada con el currículo oficial.",
       "it": "La forma è divisa in parti uguali: tocca un'altra forma con le stesse parti, anche se sembrano diverse. Geometria gratis, allineata alle Indicazioni nazionali.",
-      "pt": "Veja uma forma já dividida em partes iguais e toque em outra com as mesmas partes, mesmo com formatos diferentes. Geometria do 2º ano, gratuita, alinhada à BNCC."
+      "pt": "Veja uma forma já dividida em partes iguais e toque em outra com as mesmas partes, mesmo com formatos diferentes. Geometria do 2º ano, gratuita, alinhada à BNCC.",
+      "nl": "De vorm is in gelijke delen verdeeld. Herken een andere vorm met dezelfde gelijke delen, ook als de stukken anders zijn. Gratis, sluit aan bij de kerndoelen."
     },
     "kid_prompt_template": "promptTapMatchEqualShares"
   }

@@ -344,7 +344,8 @@ var ACTIVITY_STRINGS = {
     fr: 'Cette forme est partagée en deux parts égales. Touche une autre forme qui est aussi partagée en deux parts égales.',
     es: 'Esta forma está dividida en dos partes iguales. Toca otra forma que también está dividida en dos partes iguales.',
     it: 'Questa forma è divisa in due parti uguali. Tocca un\'altra forma che è anche divisa in due parti uguali.',
-    pt: 'Esta forma está dividida em duas partes iguais. Toque em outra forma que também está dividida em duas partes iguais.'
+    pt: 'Esta forma está dividida em duas partes iguais. Toque em outra forma que também está dividida em duas partes iguais.',
+    nl: 'Deze vorm is in twee gelijke delen verdeeld. Tik op een andere vorm die ook in twee gelijke delen verdeeld is.'
   },
   promptTapMatchThirds: {
     en: 'This shape is split into 3 equal parts. Tap another shape that is also split into 3 equal parts.',
@@ -353,7 +354,8 @@ var ACTIVITY_STRINGS = {
     fr: 'Cette forme est partagée en trois parts égales. Touche une autre forme qui est aussi partagée en trois parts égales.',
     es: 'Esta forma está dividida en tres partes iguales. Toca otra forma que también está dividida en tres partes iguales.',
     it: 'Questa forma è divisa in tre parti uguali. Tocca un\'altra forma che è anche divisa in tre parti uguali.',
-    pt: 'Esta forma está dividida em três partes iguais. Toque em outra forma que também está dividida em três partes iguais.'
+    pt: 'Esta forma está dividida em três partes iguais. Toque em outra forma que também está dividida em três partes iguais.',
+    nl: 'Deze vorm is in drie gelijke delen verdeeld. Tik op een andere vorm die ook in drie gelijke delen verdeeld is.'
   },
   promptTapMatchFourths: {
     en: 'This shape is split into 4 equal parts. Tap another shape that is also split into 4 equal parts.',
@@ -362,7 +364,8 @@ var ACTIVITY_STRINGS = {
     fr: 'Cette forme est partagée en quatre parts égales. Touche une autre forme qui est aussi partagée en quatre parts égales.',
     es: 'Esta forma está dividida en cuatro partes iguales. Toca otra forma que también está dividida en cuatro partes iguales.',
     it: 'Questa forma è divisa in quattro parti uguali. Tocca un\'altra forma che è anche divisa in quattro parti uguali.',
-    pt: 'Esta forma está dividida em quatro partes iguais. Toque em outra forma que também está dividida em quatro partes iguais.'
+    pt: 'Esta forma está dividida em quatro partes iguais. Toque em outra forma que também está dividida em quatro partes iguais.',
+    nl: 'Deze vorm is in vier gelijke delen verdeeld. Tik op een andere vorm die ook in vier gelijke delen verdeeld is.'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

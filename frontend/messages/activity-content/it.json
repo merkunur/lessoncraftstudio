@@ -14,6 +14,29 @@
     "whatsInsideRange":"Numeri da {min} a {max}","whatsInsideTheme":"Gettoni illustrati di {theme} che i bambini sanno riconoscere","whatsInsideGrade":"Pensata per i bambini della classe {grade} (dai 5 ai 9 anni circa)","whatsInsideStrand":"Ambito Indicazioni nazionali: {strand}","whatsInsideCode":"Allineata alle Indicazioni nazionali"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Questa è un'attività di geometria per bambini dai 6 agli 8 anni, da fare direttamente nel browser: non serve installare nulla e non serve alcun account. Il bambino vede una forma divisa in parti uguali e poi tocca un'altra forma che mostra lo stesso numero di parti uguali.",
+        "L'idea nuova è semplice e importante: parti uguali non devono per forza avere la stessa forma. Un quadrato diviso a metà con una linea dritta e un quadrato diviso da un angolo all'angolo opposto mostrano entrambi due metà uguali, anche se i pezzi hanno forme diverse. Le scelte sbagliate sono forme con parti non uguali, con un numero di parti diverso, oppure non divise affatto. Il bambino non divide la forma, ma riconosce che parti uguali possono avere forme diverse.",
+        "L'attività è allineata alle Indicazioni nazionali, nell'ambito dello spazio e delle figure: riconoscere quadrati e rettangoli divisi in due, tre o quattro parti uguali e nominarli come metà, terzi e quarti. Nessun timer, nessun punteggio: il bambino osserva con calma, confronta e sceglie."
+      ],
+      "practices": [
+        "Riconoscere quando un quadrato o un rettangolo è diviso in parti uguali.",
+        "Capire che due forme possono mostrare lo stesso numero di parti uguali pur avendo i pezzi di forma diversa.",
+        "Nominare le parti uguali come metà, terzi e quarti.",
+        "Confrontare con attenzione e scartare le forme con parti non uguali, con un numero di parti sbagliato o non divise."
+      ],
+      "howToPlay": [
+        "Il bambino guarda la forma di partenza e conta in quante parti uguali è divisa.",
+        "Poi osserva le altre forme e tocca quella divisa nello stesso numero di parti uguali, anche se i pezzi hanno una forma diversa.",
+        "Con la conferma, il bambino vede se la scelta mostra davvero parti uguali e può riprovare con calma."
+      ],
+      "learningGoals": [
+        "Riconoscere forme divise in due, tre o quattro parti uguali e nominarle come metà, terzi e quarti.",
+        "Comprendere che parti uguali possono avere forme diverse pur restando uguali tra loro.",
+        "Distinguere le divisioni in parti uguali da quelle in parti non uguali."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Questa attività interattiva e gratuita aiuta i bambini più piccoli a riconoscere quando una forma è divisa in parti uguali. Il bambino guarda quattro forme — cerchi, quadrati e rettangoli disegnati — e tocca quella divisa in parti della stessa grandezza. Funziona direttamente nel browser, senza installare nulla e senza creare un account.",

@@ -1149,21 +1149,24 @@
       "fi": "yhta-suuret-osat-eri-muotoiset",
       "de": "gleiche-teile-andere-form",
       "fr": "parts-egales-formes-differentes",
-      "es": "partes-iguales-formas-distintas"
+      "es": "partes-iguales-formas-distintas",
+      "it": "parti-uguali-forme-diverse"
     },
     "page_title": {
       "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry",
       "fi": "Saman kokoiset osat voivat näyttää erilaisilta — tunnista yhtä suuret osat | 2. luokka, Geometria",
       "de": "Gleich groß, andere Form — faire Teile erkennen | Geometrie in der 2. Klasse",
       "fr": "Mêmes parts, formes différentes — reconnais les parts égales | Géométrie au CE1",
-      "es": "Partes iguales con formas distintas — mismo tamaño, otra forma | Geometría en 2.º de Primaria"
+      "es": "Partes iguales con formas distintas — mismo tamaño, otra forma | Geometría en 2.º de Primaria",
+      "it": "Stessa grandezza, forma diversa — riconosci le parti uguali | Geometria 2ª primaria"
     },
     "page_intro": {
       "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account.",
       "fi": "Muoto on jaettu yhtä suuriin osiin. Napauta toista, jossa on yhtä suuret osat, vaikka palat näyttävät erilaisilta. Maksuton, OPS 2014:n mukainen geometria.",
       "de": "Eine Form ist in gleich große Teile geteilt — erkenne dieselben fairen Teile in einer anderen Form. Kostenlose Geometrie, an den Lehrplänen ausgerichtet.",
       "fr": "Une forme est partagée en parts égales : touche une autre forme qui montre les mêmes parts, même si elles ont l'air différentes. Gratuit, rien à installer.",
-      "es": "Una forma está dividida en partes iguales; toca otra que muestre las mismas partes aunque tengan otra forma. Geometría gratis, alineada con el currículo oficial."
+      "es": "Una forma está dividida en partes iguales; toca otra que muestre las mismas partes aunque tengan otra forma. Geometría gratis, alineada con el currículo oficial.",
+      "it": "La forma è divisa in parti uguali: tocca un'altra forma con le stesse parti, anche se sembrano diverse. Geometria gratis, allineata alle Indicazioni nazionali."
     },
     "kid_prompt_template": "promptTapMatchEqualShares"
   }

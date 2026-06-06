@@ -53,7 +53,8 @@ export async function generateMetadata(
   if (!l) return {};
   const canonical = canonicalUrl(localePath(params.locale, 'worksheets', l.slug));
   const description = metaDescription(l);
-  const title = `${l.h1} | LessonCraftStudio`;
+  // Root layout's title template appends " · LessonCraftStudio" — don't double-brand.
+  const title = l.h1;
 
   // EN-only pilot: the coordinate exists only in en, so honest hreflang = en + x-default.
   const languages: Record<string, string> = {};

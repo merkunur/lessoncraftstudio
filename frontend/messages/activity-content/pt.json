@@ -14,6 +14,29 @@
     "whatsInsideRange":"Números de {min} a {max}","whatsInsideTheme":"Fichas de contagem com figuras de {theme} que as crianças reconhecem","whatsInsideGrade":"Pensada para crianças do {grade}º ano (cerca de 5 a 9 anos)","whatsInsideStrand":"Eixo da BNCC: {strand}","whatsInsideCode":"Alinhada à BNCC"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Esta é uma atividade de geometria para crianças de 6 a 8 anos, feita para brincar direto no navegador — sem instalar nada e sem precisar de conta. A criança vê uma forma dividida em partes iguais e procura outra forma que mostra a mesma quantidade de partes iguais.",
+        "A grande ideia desta atividade é que partes iguais não precisam ter o mesmo formato. Um quadrado dividido bem no meio e um quadrado dividido de canto a canto mostram, os dois, duas metades iguais — mesmo que os pedaços tenham formatos diferentes. A criança não divide a forma, mas reconhece que partes iguais podem ter formatos diferentes. As opções erradas ajudam a perceber a diferença: partes desiguais, número errado de partes, ou uma forma que nem está dividida.",
+        "A atividade está alinhada à BNCC, na unidade temática Geometria, e à habilidade de reconhecer formas divididas em duas, em três e em quatro partes iguais, chamando essas partes de metades, terços e quartos. Sem cronômetro, sem pontuação — só quadrados e retângulos para observar com calma e no tempo de cada criança."
+      ],
+      "practices": [
+        "Reconhecer quando um quadrado ou um retângulo está dividido em partes iguais.",
+        "Perceber que duas formas podem ter partes iguais com formatos diferentes e, ainda assim, mostrar a mesma quantidade de partes.",
+        "Comparar opções e descartar as que têm partes desiguais, número errado de partes ou que não estão divididas.",
+        "Usar com naturalidade as palavras metades, terços e quartos ao falar sobre as partes."
+      ],
+      "howToPlay": [
+        "Olhe primeiro a forma de cima e veja em quantas partes iguais ela está dividida.",
+        "Toque na forma que mostra a mesma quantidade de partes iguais, mesmo que os pedaços tenham um formato diferente.",
+        "Toque em Verificar para confirmar a escolha e, se quiser, observar de novo com calma antes de seguir."
+      ],
+      "learningGoals": [
+        "Reconhecer formas divididas em duas, três ou quatro partes iguais.",
+        "Entender que partes iguais podem ter formatos diferentes e mesmo assim representar a mesma divisão do todo.",
+        "Nomear as partes como metades, terços e quartos ao observar quadrados e retângulos."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Esta atividade interativa e gratuita ajuda as crianças pequenas a perceberem quando uma forma está dividida em partes iguais. A criança vê quatro formas desenhadas — círculos, quadrados e retângulos — e toca naquela que foi dividida em partes do mesmo tamanho. Funciona direto no navegador, sem instalar nada e sem precisar criar conta.",

@@ -184,7 +184,7 @@ export default function WorksheetLandingPage(
                 <span className="w-2.5 h-2.5 rounded-full bg-[#2FA56A]" />Try it — interactive
               </h2>
               <iframe
-                src={a.deckHtml}
+                src={a.deckDir}
                 title={`Play ${l.h1}`}
                 loading="lazy"
                 className="w-full rounded-2xl border border-cream-300 bg-[#FBF6EE]"

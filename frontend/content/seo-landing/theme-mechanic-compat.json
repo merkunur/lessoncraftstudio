@@ -19,7 +19,7 @@
     "desserts_and_sweets":{"discrete_countable": true, "collective_risk": true, "_src": "discrete items; partitive copy risk"},
     "kitchen_tools":      {"discrete_countable": true, "collective_risk": true, "_src": "discrete; partitive copy risk"},
     "at_the_supermarket": {"discrete_countable": true, "collective_risk": true, "_src": "discrete; partitive/scene copy risk"},
-    "miscellaneous":      {"discrete_countable": false, "_src": "mixed/unspecified — exclude from countability mechanics to be safe"}
+    "miscellaneous":      {"discrete_countable": true, "_src": "grab-bag of discrete objects (key/button/umbrella) = countable; VALID but low-SEO-value (no search demand for 'miscellaneous worksheet') — deprioritize, do not block"}
   },
   "mechanicGate": {
     "addition": "countability", "subtraction": "countability", "code-addition": "countability",

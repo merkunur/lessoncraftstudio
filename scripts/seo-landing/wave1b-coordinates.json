@@ -1,0 +1,1008 @@
+{
+  "_note": "DB-derived ground-truth valid coordinates for Wave 1b (addition × {image-number,mixed} × K × EN). canonical = earliest publishedAt; siblings = all published deck slugs for the coordinate (repointed at ship). collective = validity-gate collective_risk WARN (author with discrete counts, never partitives).",
+  "generatedFrom": "scripts/seo-landing/enum-wave1b-coords.js on Hetzner production DB",
+  "count": 100,
+  "coordinates": [
+    {
+      "mode": "image-number",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "addition-image-number-4th-of-july",
+      "siblings": [
+        "addition-image-number-4th-of-july"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "addition-image-number-accessories",
+      "siblings": [
+        "addition-image-number-accessories"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "addition-image-number-animals",
+      "siblings": [
+        "addition-image-number-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "addition-image-number-around-the-house",
+      "siblings": [
+        "addition-image-number-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "addition-image-number-at-the-supermarket",
+      "siblings": [
+        "addition-image-number-at-the-supermarket"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "addition-image-number-bakery",
+      "siblings": [
+        "addition-image-number-bakery"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "addition-image-number-beach",
+      "siblings": [
+        "addition-image-number-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "addition-image-number-birds",
+      "siblings": [
+        "addition-image-number-birds"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "addition-image-number-breakfast",
+      "siblings": [
+        "addition-image-number-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "addition-image-number-camping",
+      "siblings": [
+        "addition-image-number-camping"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "addition-image-number-christmas",
+      "siblings": [
+        "addition-image-number-christmas"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "addition-image-number-classroom",
+      "siblings": [
+        "addition-image-number-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "addition-image-number-clothing",
+      "siblings": [
+        "addition-image-number-clothing"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "addition-image-number-desserts-and-sweets",
+      "siblings": [
+        "addition-image-number-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "addition-image-number-dinosaurs",
+      "siblings": [
+        "addition-image-number-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "addition-image-number-easter",
+      "siblings": [
+        "addition-image-number-easter"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "addition-image-number-faces-bw",
+      "siblings": [
+        "addition-image-number-faces-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "addition-image-number-farm-animals",
+      "siblings": [
+        "addition-image-number-farm-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "addition-image-number-flowers",
+      "siblings": [
+        "addition-image-number-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "addition-image-number-forest-creatures",
+      "siblings": [
+        "addition-image-number-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "addition-image-number-fruits",
+      "siblings": [
+        "addition-image-number-fruits"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "addition-image-number-furniture",
+      "siblings": [
+        "addition-image-number-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "addition-image-number-hospital",
+      "siblings": [
+        "addition-image-number-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "household_bw",
+      "slugTheme": "household-bw",
+      "canonical": "addition-image-number-household-bw",
+      "siblings": [
+        "addition-image-number-household-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "addition-image-number-insects-and-bugs",
+      "siblings": [
+        "addition-image-number-insects-and-bugs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_bw",
+      "slugTheme": "kitchen-bw",
+      "canonical": "addition-image-number-kitchen-bw",
+      "siblings": [
+        "addition-image-number-kitchen-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "addition-image-number-kitchen-tools",
+      "siblings": [
+        "addition-image-number-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "addition-image-number-miscellaneous",
+      "siblings": [
+        "addition-image-number-miscellaneous"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "addition-image-number-music",
+      "siblings": [
+        "addition-image-number-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "nature_bw",
+      "slugTheme": "nature-bw",
+      "canonical": "addition-image-number-nature-bw",
+      "siblings": [
+        "addition-image-number-nature-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "objects_bw",
+      "slugTheme": "objects-bw",
+      "canonical": "addition-image-number-objects-bw",
+      "siblings": [
+        "addition-image-number-objects-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "addition-image-number-occupations",
+      "siblings": [
+        "addition-image-number-occupations"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "addition-image-number-ocean-life",
+      "siblings": [
+        "addition-image-number-ocean-life"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "addition-image-number-pets",
+      "siblings": [
+        "addition-image-number-pets"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "addition-image-number-post-office",
+      "siblings": [
+        "addition-image-number-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "addition-image-number-reptiles-and-amphibians",
+      "siblings": [
+        "addition-image-number-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "sea_life_bw",
+      "slugTheme": "sea-life-bw",
+      "canonical": "addition-image-number-sea-life-bw",
+      "siblings": [
+        "addition-image-number-sea-life-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "addition-image-number-shapes",
+      "siblings": [
+        "addition-image-number-shapes"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "addition-image-number-space",
+      "siblings": [
+        "addition-image-number-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "sports_bw",
+      "slugTheme": "sports-bw",
+      "canonical": "addition-image-number-sports-bw",
+      "siblings": [
+        "addition-image-number-sports-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgiving",
+      "canonical": "addition-image-number-thanksgiving",
+      "siblings": [
+        "addition-image-number-thanksgiving"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "addition-image-number-things-that-fly",
+      "siblings": [
+        "addition-image-number-things-that-fly"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "addition-image-number-tools",
+      "siblings": [
+        "addition-image-number-tools"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "addition-image-number-toys",
+      "siblings": [
+        "addition-image-number-toys"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "travel_and_holiday_bw",
+      "slugTheme": "travel-and-holiday-bw",
+      "canonical": "addition-image-number-travel-and-holiday-bw",
+      "siblings": [
+        "addition-image-number-travel-and-holiday-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "addition-image-number-tree",
+      "siblings": [
+        "addition-image-number-tree"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "addition-image-number-valentine-bw",
+      "siblings": [
+        "addition-image-number-valentine-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "addition-image-number-vegetables",
+      "siblings": [
+        "addition-image-number-vegetables"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "addition-image-number-vehicles",
+      "siblings": [
+        "addition-image-number-vehicles"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "addition-image-number-zoo-animals",
+      "siblings": [
+        "addition-image-number-zoo-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "addition-mixed-4th-of-july",
+      "siblings": [
+        "addition-mixed-4th-of-july"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "addition-mixed-accessories",
+      "siblings": [
+        "addition-mixed-accessories"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "addition-mixed-animals",
+      "siblings": [
+        "addition-mixed-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "apparel_bw",
+      "slugTheme": "apparel-bw",
+      "canonical": "addition-mixed-apparel-bw",
+      "siblings": [
+        "addition-mixed-apparel-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "addition-mixed-around-the-house",
+      "siblings": [
+        "addition-mixed-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "addition-mixed-at-the-supermarket",
+      "siblings": [
+        "addition-mixed-at-the-supermarket"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "addition-mixed-bakery",
+      "siblings": [
+        "addition-mixed-bakery"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "addition-mixed-beach",
+      "siblings": [
+        "addition-mixed-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "addition-mixed-birds",
+      "siblings": [
+        "addition-mixed-birds",
+        "addition-mixed-birds-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "addition-mixed-breakfast",
+      "siblings": [
+        "addition-mixed-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "addition-mixed-christmas",
+      "siblings": [
+        "addition-mixed-christmas"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "addition-mixed-classroom",
+      "siblings": [
+        "addition-mixed-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "addition-mixed-clothing",
+      "siblings": [
+        "addition-mixed-clothing"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "addition-mixed-desserts-and-sweets",
+      "siblings": [
+        "addition-mixed-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "addition-mixed-dinosaurs",
+      "siblings": [
+        "addition-mixed-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "addition-mixed-easter",
+      "siblings": [
+        "addition-mixed-easter"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "education_bw",
+      "slugTheme": "education-bw",
+      "canonical": "addition-mixed-education-bw",
+      "siblings": [
+        "addition-mixed-education-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "addition-mixed-faces-bw",
+      "siblings": [
+        "addition-mixed-faces-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "addition-mixed-farm-animals",
+      "siblings": [
+        "addition-mixed-farm-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_bw",
+      "slugTheme": "farm-bw",
+      "canonical": "addition-mixed-farm-bw",
+      "siblings": [
+        "addition-mixed-farm-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "addition-mixed-flowers",
+      "siblings": [
+        "addition-mixed-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "addition-mixed-forest-creatures",
+      "siblings": [
+        "addition-mixed-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "addition-mixed-fruits",
+      "siblings": [
+        "addition-mixed-fruits"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "addition-mixed-furniture",
+      "siblings": [
+        "addition-mixed-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "home_bw",
+      "slugTheme": "home-bw",
+      "canonical": "addition-mixed-home-bw",
+      "siblings": [
+        "addition-mixed-home-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "addition-mixed-hospital",
+      "siblings": [
+        "addition-mixed-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "household_bw",
+      "slugTheme": "household-bw",
+      "canonical": "addition-mixed-household-bw",
+      "siblings": [
+        "addition-mixed-household-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "addition-mixed-insects-and-bugs",
+      "siblings": [
+        "addition-mixed-insects-and-bugs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "addition-mixed-kitchen-tools",
+      "siblings": [
+        "addition-mixed-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "addition-mixed-miscellaneous",
+      "siblings": [
+        "addition-mixed-miscellaneous"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "addition-mixed-music",
+      "siblings": [
+        "addition-mixed-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "nature_bw",
+      "slugTheme": "nature-bw",
+      "canonical": "addition-mixed-nature-bw",
+      "siblings": [
+        "addition-mixed-nature-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "objects_bw",
+      "slugTheme": "objects-bw",
+      "canonical": "addition-mixed-objects-bw",
+      "siblings": [
+        "addition-mixed-objects-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "addition-mixed-occupations",
+      "siblings": [
+        "addition-mixed-occupations"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "addition-mixed-ocean-life",
+      "siblings": [
+        "addition-mixed-ocean-life"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "addition-mixed-pets",
+      "siblings": [
+        "addition-mixed-pets"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "addition-mixed-post-office",
+      "siblings": [
+        "addition-mixed-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "addition-mixed-reptiles-and-amphibians",
+      "siblings": [
+        "addition-mixed-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "sea_life_bw",
+      "slugTheme": "sea-life-bw",
+      "canonical": "addition-mixed-sea-life-bw",
+      "siblings": [
+        "addition-mixed-sea-life-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "addition-mixed-shapes",
+      "siblings": [
+        "addition-mixed-shapes"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "addition-mixed-space",
+      "siblings": [
+        "addition-mixed-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgiving",
+      "canonical": "addition-mixed-thanksgiving",
+      "siblings": [
+        "addition-mixed-thanksgiving"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "addition-mixed-things-that-fly",
+      "siblings": [
+        "addition-mixed-things-that-fly"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "addition-mixed-tools",
+      "siblings": [
+        "addition-mixed-tools"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "addition-mixed-toys",
+      "siblings": [
+        "addition-mixed-toys"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "addition-mixed-tree",
+      "siblings": [
+        "addition-mixed-tree"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "addition-mixed-valentine-bw",
+      "siblings": [
+        "addition-mixed-valentine-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "addition-mixed-vegetables",
+      "siblings": [
+        "addition-mixed-vegetables"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "addition-mixed-vehicles",
+      "siblings": [
+        "addition-mixed-vehicles"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "addition-mixed-zoo-animals",
+      "siblings": [
+        "addition-mixed-zoo-animals"
+      ],
+      "collective": false
+    }
+  ]
+}

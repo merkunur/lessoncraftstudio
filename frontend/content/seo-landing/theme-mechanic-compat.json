@@ -1,0 +1,54 @@
+{
+  "_note": "Fan-out Planning Part 2 STEP B — theme×mechanic compatibility layer (EN architecture). Property-table model (Part-1 ruling): per-theme booleans + per-mechanic required-properties + override whitelist, NOT a 50x29 matrix. Booleans firmed from the image-library read (2026-06-06) where it settled them (music=instruments=countable; occupations=people=countable; space=discrete objects; bakery/breakfast=discrete images, collective risk is copy-level only) + EN pedagogical judgment for the abstract set. PER-LOCALE booleans (collective_risk/phonetic_variety partly language-dependent) are a WAVE deliverable, not authored here. Gated set = count/sum/size mechanics only; readiness-class + letter/sort/match/path/pattern route around.",
+  "themeProperties": {
+    "_default": {"discrete_countable": true, "collective_risk": false, "physical_size_orderable": true, "phonetic_variety": true, "_src": "default (concrete discrete objects — the catalog norm per image-library pattern)"},
+    "emotions":      {"discrete_countable": false, "physical_size_orderable": false, "_src": "read: angry/bored/capricious = abstract states, not summable"},
+    "colors":        {"discrete_countable": false, "physical_size_orderable": false, "phonetic_variety": false, "_src": "read: color swatches = attributes; chart-count override applies"},
+    "weather":       {"discrete_countable": false, "physical_size_orderable": false, "_src": "read: cloudy/cold = states, not summable"},
+    "spring":        {"discrete_countable": false, "physical_size_orderable": false, "_src": "season = abstract"},
+    "summer":        {"discrete_countable": false, "physical_size_orderable": false, "_src": "season = abstract"},
+    "winter":        {"discrete_countable": false, "physical_size_orderable": false, "_src": "season = abstract"},
+    "activities":    {"discrete_countable": false, "physical_size_orderable": false, "_src": "read: baking/baseball/basketball = activities/verbs, not summable objects"},
+    "body_parts":    {"discrete_countable": false, "physical_size_orderable": true, "_src": "discrete images but summing ears is meaningless (the pilot catch)"},
+    "music":         {"discrete_countable": true,  "_src": "read CORRECTION: accordion/cymbals/drum = discrete instruments = countable (was guessed invalid)"},
+    "occupations":   {"discrete_countable": true,  "_src": "read: actor/architect = discrete people = countable (was guessed risky)"},
+    "space":         {"discrete_countable": true,  "_src": "read: asteroid/astronaut/comet = discrete objects = countable"},
+    "shapes":        {"discrete_countable": true, "phonetic_variety": false, "_src": "countable; chart-count override; weak phonetic onset variety"},
+    "bakery":             {"discrete_countable": true, "collective_risk": true, "_src": "read: bagel/baguette discrete; copy must say 'two bagels' not 'a tray of buns'"},
+    "breakfast":          {"discrete_countable": true, "collective_risk": true, "_src": "read: apple/bacon/bagel discrete; copy collective risk (a stack of pancakes)"},
+    "desserts_and_sweets":{"discrete_countable": true, "collective_risk": true, "_src": "discrete items; partitive copy risk"},
+    "kitchen_tools":      {"discrete_countable": true, "collective_risk": true, "_src": "discrete; partitive copy risk"},
+    "at_the_supermarket": {"discrete_countable": true, "collective_risk": true, "_src": "discrete; partitive/scene copy risk"},
+    "miscellaneous":      {"discrete_countable": false, "_src": "mixed/unspecified — exclude from countability mechanics to be safe"}
+  },
+  "mechanicGate": {
+    "addition": "countability", "subtraction": "countability", "code-addition": "countability",
+    "math-puzzle": "countability", "more-less": "countability", "chart-count": "countability",
+    "big-small": "size",
+    "find-and-count": "phonetic",
+    "grid-match": "readiness", "missing-pieces": "readiness", "bingo": "readiness",
+    "sudoku": "readiness", "picture-path": "readiness", "shadow-match": "readiness", "treasure-hunt": "readiness",
+    "_otherDefault": "none"
+  },
+  "_gateRules": {
+    "countability": "INVALID if theme.discrete_countable === false (unless override-whitelisted for this mechanic). WARN if theme.collective_risk (and enforce the copy partitive-noun check).",
+    "size": "INVALID if theme.physical_size_orderable === false.",
+    "phonetic": "WARN (not block) if theme.phonetic_variety === false (weak onset variety).",
+    "readiness": "no theme gate — all themes valid (matching/assembly/maze/route over a single image). Readiness-class JSON-LD profile (no educationalAlignment; teaches = readiness strand).",
+    "none": "all themes valid (letter/sort/match/pattern mechanics)."
+  },
+  "overrideWhitelist": [
+    {"mechanic": "chart-count", "theme": "colors", "verdict": "VALID", "reason": "classify-and-count colors = K.MD.B.3 canonical"},
+    {"mechanic": "chart-count", "theme": "shapes", "verdict": "VALID", "reason": "classify-and-count shapes = K.MD.B.3 canonical"}
+  ],
+  "copyPartitivePatterns": ["a tray of", "a stack of", "a bunch of", "a heap of", "a glass of", "a loaf of", "a pile of", "a bowl of", "a plate of", "a basket of", "a pack of", "a box of"],
+  "readinessStrands": {
+    "grid-match": "Visual perception (part-to-whole)",
+    "missing-pieces": "Visual perception (part-to-whole)",
+    "bingo": "Visual discrimination (matching)",
+    "sudoku": "Logical reasoning (readiness)",
+    "picture-path": "Spatial reasoning (readiness)",
+    "shadow-match": "Visual discrimination (readiness)",
+    "treasure-hunt": "Spatial reasoning (readiness)"
+  }
+}

@@ -64,6 +64,29 @@
     "whatsInsideCode": "Följer Lgr22"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "I den här aktiviteten ser barnet en form som är delad i lika stora delar — till exempel en kvadrat eller en rektangel som är delad i två, tre eller fyra lika stora delar. Allt sker direkt i webbläsaren. Inget behöver installeras och inget konto behövs.",
+        "Den stora idén är att lika stora delar inte behöver se likadana ut. En kvadrat som delas rakt på mitten och en kvadrat som delas från hörn till hörn visar båda två lika stora delar, även om bitarna har olika form. Barnet ser en form och letar sedan upp en annan form som är delad i lika många, lika stora delar — fast på ett annat sätt. De former som inte stämmer är delade i olika stora delar, delade i fel antal delar, eller inte delade alls. Barnet delar inte själv formen, utan känner igen att lika stora delar kan se olika ut.",
+        "Aktiviteten följer Lgr22 inom området geometri: att känna igen former som är delade i lika stora delar och att kalla dem halvor, tredjedelar och fjärdedelar. Ingen timer, inga poäng — barnet får lugn tid att titta och jämföra i sin egen takt."
+      ],
+      "practices": [
+        "Känna igen när en kvadrat eller rektangel är delad i lika stora delar",
+        "Förstå att lika stora delar kan ha olika form och ändå vara lika stora",
+        "Para ihop former som är delade i lika många, lika stora delar fast på olika sätt",
+        "Använda orden halvor, tredjedelar och fjärdedelar när man talar om delarna"
+      ],
+      "howToPlay": [
+        "Barnet tittar först på formen överst som är delad i lika stora delar.",
+        "Sedan letar barnet bland de andra formerna efter den som är delad i lika många, lika stora delar — även om delarna ser annorlunda ut.",
+        "Tryck på Kontrollera för att se om delarna är lika stora. Det går alltid att titta igen och försöka i lugn takt."
+      ],
+      "learningGoals": [
+        "Barnet kan känna igen lika stora delar i en form",
+        "Barnet förstår att lika stora delar kan se olika ut men ändå vara lika stora",
+        "Barnet kan namnge delarna som halvor, tredjedelar eller fjärdedelar"
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Den här gratis, interaktiva aktiviteten hjälper små barn att känna igen när en form är delad i lika stora delar. Barnet ser fyra figurer — cirklar, kvadrater eller rektanglar — och trycker på den som är delad rättvist, så att alla delar är lika stora. Allt sker direkt i webbläsaren: ingen installation och inget konto behövs.",

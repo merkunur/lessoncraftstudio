@@ -1,310 +1,2033 @@
 {
-  "_note": "PILOT copy — Math×K×EN. Authored against docs/seo-landing/mechanic-ledger-mathK.md (NOT slug names), ensemble-reviewed, lengthened to >=200 words. 12-theme addition/image-image sweep = the within-mechanic cannibalization stress set. slotTokens drive the gate's cross-class slot-normalization. Standard labels are STRAND names (Phase-4 flag-5: strand-only until the aligned-standard map is populated). P1 is a single thin template per class for the pilot; multiple theme-conditioned P1 skeletons are a HARD prerequisite before the 100-theme fan-out (locked 2026-06-06).",
+  "_note": "PILOT copy — Math×K×EN. Authored against docs/seo-landing/mechanic-ledger-mathK.md (NOT slug names), ensemble-reviewed, lengthened to >=200 words. 12-theme addition/image-image sweep = the within-mechanic cannibalization stress set. slotTokens drive the gate's cross-class slot-normalization. Standard labels are STRAND names (Phase-4 flag-5: strand-only until the aligned-standard map is populated). P1 is a single thin template per class for the pilot; multiple theme-conditioned P1 skeletons are a HARD prerequisite before the 100-theme fan-out (locked 2026-06-06). [Wave 1: 43 addition/image-image/K via gen-wave1.js (4 P1 skeletons); body_parts+activities retired as invalid]. [Wave 1: 43 addition/image-image/K via gen-wave1.js (4 P1 skeletons); body_parts+activities retired as invalid]. [Wave 1: 43 addition/image-image/K via gen-wave1.js (4 P1 skeletons); body_parts+activities retired as invalid].",
   "landings": [
-    {
-      "slug": "addition-image-image-animals-kindergarten",
-      "variantShape": "collapsed",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "animals", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Animals — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["cows", "sheep", "hen", "animals", "animal", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of cows, sheep and a hen on each row, with a plus sign between them and an empty box after the equals sign. Children count the animals in the first group, count the second group, and write how many there are altogether. A row might pair three cows with two more, or set a lone hen beside a pair of sheep, so the same skill returns with different pictures each time. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Counting two groups and then saying how many there are in all is the earliest form of addition. Long before the plus sign means anything, a child who can combine a pile of animals with another pile and recount the whole set is already adding. Keeping the totals within ten lets a kindergartner check the answer by counting rather than guessing.",
-      "p3": "On paper it makes a calm morning starter; on the board the whole class can count the herd together before anyone writes a number. When this set feels easy, take some animals away with subtraction, or count a different group in addition with vehicles. You can also browse every addition worksheet or the whole animals collection for kindergarten. This is one of several animal addition sheets that work the same skill, so a class can return to it across the year.",
-      "canonicalDeckSlug": "addition-image-image",
-      "collapseSiblings": ["addition-image-image", "addition-image-image-animals"],
-      "carousel": [
-        {"label": "Subtraction with Animals", "href": "subtraction-cross-out-animals-kindergarten"},
-        {"label": "Addition with Vehicles", "href": "addition-image-image-vehicles"},
-        {"label": "Addition with Fruits", "href": "addition-image-image-fruits"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-vehicles",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "vehicles", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Vehicles — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["buses", "trucks", "digger", "vehicles", "vehicle", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of buses, trucks and a digger on each row, with a plus sign between them and an empty box after the equals sign. Children count the vehicles in the first group, count the second group, and write how many there are altogether. One row might line up two buses beside three trucks, the next a single digger joining a pair of vans, so the counting stays fresh from row to row. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Before written sums make sense, addition has to happen with real things a child can move and count. Joining one group of vehicles to another and finding the total builds the idea that two amounts can become one larger amount — the concrete ground that written symbols are built on later in the year.",
-      "p3": "It suits a child who would rather count trucks than apples, and turns a wiggly afternoon into a focused few minutes. When this set feels easy, count a barnyard in addition with animals, or work out a difference with subtraction with vehicles. You can also browse every addition worksheet or the whole vehicles collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-vehicles",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Fruits", "href": "addition-image-image-fruits"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-fruits",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "fruits", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Fruits — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["apples", "bananas", "pear", "fruits", "fruit", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of apples, bananas and a pear on each row, with a plus sign between them and an empty box after the equals sign. Children count the fruit in the first group, count the second group, and write how many there are altogether. A row might set two apples beside three bananas, or a single pear next to a small bunch, so each problem looks a little different. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Each row ends with a single question — how many altogether — which quietly teaches that the last number you count is the size of the whole set. Linking the count to that total is the cardinality idea kindergartners are working out, and pictured fruit keep it something they can point at.",
-      "p3": "It pairs naturally with snack-time talk about how many pieces are on the plate, then on the page. When this set feels easy, count animals in addition with animals, or compare amounts with more or less. You can also browse every addition worksheet or the whole fruits collection for kindergarten. Every sheet prints cleanly in black and white or plays online for free.",
-      "canonicalDeckSlug": "addition-image-image-fruits",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Bakery Treats", "href": "addition-image-image-bakery"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-bakery",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "bakery", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Bakery Treats — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["loaves", "buns", "cake", "bakery", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of loaves, buns and a cake on each row, with a plus sign between them and an empty box after the equals sign. Children count the bakery items in the first group, count the second group, and write how many there are altogether. A row might stack two loaves with a tray of buns, or a single cake beside a pair of rolls, so the picture changes while the skill stays the same. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Sums are kept small, within ten, so every answer can be reached by counting the pictures rather than recalled from memory. That keeps the focus on understanding what addition does — putting two groups of bakery items together — instead of racing for a fact a five-year-old has not met yet.",
-      "p3": "It makes a cheerful station for a bakery or shop role-play corner, with the counting written down to finish. When this set feels easy, lay the breakfast table in addition with breakfast, or count a barnyard in addition with animals. You can also browse every addition worksheet or the whole bakery collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-bakery",
-      "carousel": [
-        {"label": "Addition with Breakfast", "href": "addition-image-image-breakfast"},
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Fruits", "href": "addition-image-image-fruits"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-beach",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "beach", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Beach Things — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["buckets", "spades", "starfish", "beach", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of buckets, spades and a starfish on each row, with a plus sign between them and an empty box after the equals sign. Children count the beach things in the first group, count the second group, and write how many there are altogether. A row might line up two buckets with a pair of spades, or a lone starfish beside a little heap of shells, so each sum has its own picture. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Counting two groups and then saying how many there are in all is the earliest form of addition. Long before the plus sign means anything, a child who can combine a pile of beach things with another pile and recount the whole set is already adding. Keeping the totals within ten lets a kindergartner check the answer by counting rather than guessing.",
-      "p3": "It is a friendly choice for a summer-theme week or the last sleepy days before a holiday. When this set feels easy, pack up camp in addition with camping, or count a barnyard in addition with animals. You can also browse every addition worksheet or the whole beach collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-beach",
-      "carousel": [
-        {"label": "Addition with Camping", "href": "addition-image-image-camping"},
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-birds",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "birds", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Birds — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["robins", "owls", "duck", "birds", "bird", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of robins, owls and a duck on each row, with a plus sign between them and an empty box after the equals sign. Children count the birds in the first group, count the second group, and write how many there are altogether. A row might gather two robins with a pair of owls, or a single duck beside a little flock, so the picture shifts while the counting stays the same. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Before written sums make sense, addition has to happen with real things a child can move and count. Joining one group of birds to another and finding the total builds the idea that two amounts can become one larger amount — the concrete ground that written symbols are built on later in the year.",
-      "p3": "It slots neatly into a nature-table week or a lesson that started at the classroom window. When this set feels easy, count a barnyard in addition with animals, or pick the fruit bowl in addition with fruits. You can also browse every addition worksheet or the whole birds collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-birds",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Fruits", "href": "addition-image-image-fruits"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-body-parts",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "body_parts", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Body Parts — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["hands", "feet", "ear", "body parts", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of hands, feet and an ear on each row, with a plus sign between them and an empty box after the equals sign. Children count the body parts in the first group, count the second group, and write how many there are altogether. A row might set two hands beside a pair of feet, or a single ear next to a few more, so each problem wears a different picture. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Each row ends with a single question — how many altogether — which quietly teaches that the last number you count is the size of the whole set. Linking the count to that total is the cardinality idea kindergartners are working out, and pictured body parts keep it something they can point at.",
-      "p3": "It ties in well with an all-about-me topic or a song about hands and feet, then settles into quiet counting. When this set feels easy, count a barnyard in addition with animals, or dress up in addition with accessories. You can also browse every addition worksheet or the whole body parts collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-body-parts",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Accessories", "href": "addition-image-image-accessories"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-breakfast",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "breakfast", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Breakfast — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["eggs", "pancakes", "juice", "breakfast", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of eggs, pancakes and a glass of juice on each row, with a plus sign between them and an empty box after the equals sign. Children count the breakfast items in the first group, count the second group, and write how many there are altogether. A row might pair two eggs with a stack of pancakes, or a single glass of juice beside a couple more, so the picture changes each time. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Sums are kept small, within ten, so every answer can be reached by counting the pictures rather than recalled from memory. That keeps the focus on understanding what addition does — putting two groups of breakfast items together — instead of racing for a fact a five-year-old has not met yet.",
-      "p3": "It is an easy fit for a morning-routine topic or a healthy-eating week, and reads clearly first thing in the day. When this set feels easy, fill the bakery basket in addition with bakery treats, or pick the fruit bowl in addition with fruits. You can also browse every addition worksheet or the whole breakfast collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-breakfast",
-      "carousel": [
-        {"label": "Addition with Bakery Treats", "href": "addition-image-image-bakery"},
-        {"label": "Addition with Fruits", "href": "addition-image-image-fruits"},
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-camping",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "camping", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Camping Gear — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["tents", "torches", "campfire", "camping", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of tents, torches and a campfire on each row, with a plus sign between them and an empty box after the equals sign. Children count the camping gear in the first group, count the second group, and write how many there are altogether. A row might pitch two tents beside a pair of torches, or a single campfire next to a few backpacks, so each sum has its own scene. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Counting two groups and then saying how many there are in all is the earliest form of addition. Long before the plus sign means anything, a child who can combine a pile of camping gear with another pile and recount the whole set is already adding. Keeping the totals within ten lets a kindergartner check the answer by counting rather than guessing.",
-      "p3": "It is a good companion for an outdoors or great-explorers theme, indoors on a rainy day. When this set feels easy, head to the shore in addition with beach things, or count a barnyard in addition with animals. You can also browse every addition worksheet or the whole camping collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-camping",
-      "carousel": [
-        {"label": "Addition with Beach Things", "href": "addition-image-image-beach"},
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-accessories",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "accessories", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Accessories — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["hats", "belts", "scarf", "accessories", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of hats, belts and a scarf on each row, with a plus sign between them and an empty box after the equals sign. Children count the accessories in the first group, count the second group, and write how many there are altogether. A row might set two hats beside a pair of belts, or a single scarf next to a few mittens, so the picture is different on every line. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Before written sums make sense, addition has to happen with real things a child can move and count. Joining one group of accessories to another and finding the total builds the idea that two amounts can become one larger amount — the concrete ground that written symbols are built on later in the year.",
-      "p3": "It works nicely alongside a getting-dressed or weather-clothes topic when the seasons turn. When this set feels easy, count yourself in addition with body parts, or count a barnyard in addition with animals. You can also browse every addition worksheet or the whole accessories collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-accessories",
-      "carousel": [
-        {"label": "Addition with Body Parts", "href": "addition-image-image-body-parts"},
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-activities",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "activities", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Play Things — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["balls", "kites", "skipping rope", "activities", "play things", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of balls, kites and a skipping rope on each row, with a plus sign between them and an empty box after the equals sign. Children count the play things in the first group, count the second group, and write how many there are altogether. A row might bounce two balls beside a pair of kites, or a single skipping rope next to a few hoops, so each problem has its own picture. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Each row ends with a single question — how many altogether — which quietly teaches that the last number you count is the size of the whole set. Linking the count to that total is the cardinality idea kindergartners are working out, and pictured play things keep it something they can point at.",
-      "p3": "It is a natural lead-in or wind-down around outdoor-play and sports-day weeks. When this set feels easy, count a barnyard in addition with animals, or roll out in addition with vehicles. You can also browse every addition worksheet or the whole activities collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-activities",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Vehicles", "href": "addition-image-image-vehicles"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
-    {
-      "slug": "addition-image-image-around-the-house",
-      "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "image-image", "theme": "around_the_house", "level": "kindergarten"},
-      "eyebrow": "Addition Worksheet",
-      "h1": "Addition with Household Things — Kindergarten",
-      "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["lamps", "chairs", "clock", "household things", "around the house", "kindergarten"],
-      "p1": "This kindergarten worksheet puts two small groups of lamps, chairs and a clock on each row, with a plus sign between them and an empty box after the equals sign. Children count the household things in the first group, count the second group, and write how many there are altogether. A row might line up two lamps beside a pair of chairs, or a single clock next to a few cups, so the picture changes from line to line. The pictures carry the whole problem, so a child who cannot yet read an equation can still solve every row by touching and counting.",
-      "p2": "Sums are kept small, within ten, so every answer can be reached by counting the pictures rather than recalled from memory. That keeps the focus on understanding what addition does — putting two groups of household things together — instead of racing for a fact a five-year-old has not met yet.",
-      "p3": "It pairs well with a my-home or my-family topic and the everyday objects children already know by name. When this set feels easy, count a barnyard in addition with animals, or dress up in addition with accessories. You can also browse every addition worksheet or the whole household collection for kindergarten.",
-      "canonicalDeckSlug": "addition-image-image-around-the-house",
-      "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Addition with Accessories", "href": "addition-image-image-accessories"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"}
-      ]
-    },
     {
       "slug": "addition-find-addend-animals",
       "variantShape": "singleton",
-      "coordinate": {"type": "addition", "mode": "find-addend", "theme": "animals", "level": "kindergarten"},
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "animals",
+        "level": "kindergarten"
+      },
       "eyebrow": "Addition Worksheet",
       "h1": "Find the Missing Part — Animals — Kindergarten",
       "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["cows", "sheep", "hen", "animals", "animal", "kindergarten"],
+      "slotTokens": [
+        "cows",
+        "sheep",
+        "hen",
+        "animals",
+        "animal",
+        "kindergarten"
+      ],
       "p1": "On each row of this kindergarten worksheet a first group of animals is shown together with the total for the whole row, but the second group is an empty box. Children count the animals they can see, look at the total, and work out how many more belong in the box. Because both the part and the whole are pictured, a child can find the answer by counting up from what is there to the total, rather than by recalling a fact they have not learned yet.",
       "p2": "Finding the part that is missing is how kindergartners first meet decomposition — the idea that a number like seven is made of smaller parts hiding inside it, such as five and two. It is the same thinking behind making ten, and it quietly prepares the ground for seeing how addition and subtraction fit together later on.",
       "p3": "It is a gentle step up from straight counting, good for a small group who are ready for a little more thinking. When this feels easy, combine two full groups in addition with animals, or take some away in subtraction with animals. You can also browse every addition worksheet or the whole animals collection for kindergarten. Each one prints for paper work or plays online with gentle, instant feedback.",
       "canonicalDeckSlug": "addition-find-addend-animals",
       "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Subtraction with Animals", "href": "subtraction-cross-out-animals-kindergarten"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"}
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Subtraction with Animals",
+          "href": "subtraction-cross-out-animals-kindergarten"
+        },
+        {
+          "label": "Picture Graph with Animals",
+          "href": "chart-count-animals"
+        },
+        {
+          "label": "Find and Count with Animals",
+          "href": "find-and-count-animals"
+        }
       ]
     },
     {
       "slug": "subtraction-cross-out-animals-kindergarten",
       "variantShape": "collapsed",
-      "coordinate": {"type": "subtraction", "mode": "cross-out", "theme": "animals", "level": "kindergarten"},
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "animals",
+        "level": "kindergarten"
+      },
       "eyebrow": "Subtraction Worksheet",
       "h1": "Subtraction with Animals — Kindergarten",
       "strand": "Operations & Algebraic Thinking",
-      "slotTokens": ["cows", "sheep", "hen", "animals", "animal", "kindergarten"],
+      "slotTokens": [
+        "cows",
+        "sheep",
+        "hen",
+        "animals",
+        "animal",
+        "kindergarten"
+      ],
       "p1": "Each row of this kindergarten worksheet shows a group of animals and asks the child to cross some of them out, then write how many are left. A row might start with five sheep and cross two away, or begin with a small herd and send one cow home, so the take-away looks different each time. The crossing-out is the heart of it: the child physically removes the animals that go away and counts the ones that remain, so subtraction is something they do with their hands before it becomes a written symbol.",
       "p2": "Taking a few away and counting what is left is the most concrete form of subtraction there is, and it is exactly where five- and six-year-olds begin. Modelling the take-away with pictures they can cross out keeps the meaning — fewer than we started with — front and centre, well within ten so every answer can be checked by counting.",
       "p3": "On the board it is a satisfying whole-class action; on paper it is a calm, hands-on task. When this feels easy, put groups together instead with addition with animals, or work out a missing part in find the missing part with animals. You can also browse every subtraction worksheet or the whole animals collection for kindergarten. This is one of several animal subtraction sheets that practise the same skill.",
       "canonicalDeckSlug": "subtraction-cross-out",
-      "collapseSiblings": ["subtraction-cross-out", "subtraction-cross-out-animals"],
+      "collapseSiblings": [
+        "subtraction-cross-out",
+        "subtraction-cross-out-animals"
+      ],
       "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"}
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Find the Missing Part with Animals",
+          "href": "addition-find-addend-animals"
+        },
+        {
+          "label": "Picture Graph with Animals",
+          "href": "chart-count-animals"
+        },
+        {
+          "label": "Find and Count with Animals",
+          "href": "find-and-count-animals"
+        }
       ]
     },
     {
       "slug": "chart-count-animals",
       "variantShape": "singleton",
-      "coordinate": {"type": "chart-count", "mode": null, "theme": "animals", "level": "kindergarten"},
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "animals",
+        "level": "kindergarten"
+      },
       "eyebrow": "Picture Graph Worksheet",
       "h1": "Picture Graph with Animals — Kindergarten",
       "strand": "Measurement & Data",
-      "slotTokens": ["cows", "sheep", "hen", "animals", "animal", "kindergarten"],
+      "slotTokens": [
+        "cows",
+        "sheep",
+        "hen",
+        "animals",
+        "animal",
+        "kindergarten"
+      ],
       "p1": "This kindergarten worksheet shows a scatter of animal pictures above an empty graph. The child sorts the animals by kind — all the cows together, all the sheep together — counts how many there are of each, and fills a column up to the matching height, building a simple picture graph one square at a time. The graph grows straight out of the child's own counting, so the bars mean something they made themselves rather than something handed to them.",
       "p2": "Sorting things into groups and counting how many are in each is a genuine kindergarten skill, and showing those counts as a graph is the natural next step. The activity keeps both halves together — sort and count, then represent — so children see that a taller bar simply means there were more of that animal, not an abstract idea on a page.",
       "p3": "It makes a strong shared lesson: build one column together on the board, then let children finish their own. When this feels easy, count and combine in addition with animals, or hunt for a letter in find and count with animals. You can also browse every picture graph worksheet or the whole animals collection for kindergarten. Each graph prints on a single page or fills in on screen as children tap.",
       "canonicalDeckSlug": "chart-count-animals",
       "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Find and Count with Animals", "href": "find-and-count-animals"},
-        {"label": "Subtraction with Animals", "href": "subtraction-cross-out-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"}
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Find and Count with Animals",
+          "href": "find-and-count-animals"
+        },
+        {
+          "label": "Subtraction with Animals",
+          "href": "subtraction-cross-out-animals-kindergarten"
+        },
+        {
+          "label": "Find the Missing Part with Animals",
+          "href": "addition-find-addend-animals"
+        }
       ]
     },
     {
       "slug": "find-and-count-animals",
       "variantShape": "singleton",
-      "coordinate": {"type": "find-and-count", "mode": "letter-spotting", "theme": "animals", "level": "kindergarten"},
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "animals",
+        "level": "kindergarten"
+      },
       "eyebrow": "Letter Hunt Worksheet",
       "h1": "Find the Animals That Start with a Letter — Kindergarten",
       "strand": "Reading: Foundational Skills",
-      "slotTokens": ["cat", "cow", "camel", "animals", "animal", "kindergarten"],
+      "slotTokens": [
+        "cat",
+        "cow",
+        "camel",
+        "animals",
+        "animal",
+        "kindergarten"
+      ],
       "p1": "This kindergarten worksheet sets a target letter and fills a friendly scene with animals — some whose names begin with that letter, some that do not. The child finds and marks every animal whose name starts with the chosen letter, such as a cat, a cow and a camel for the letter C, then counts how many they found. Other animals are mixed in on purpose, so the child has to listen for the starting sound of each name rather than simply pointing at any picture.",
       "p2": "Although it lives among the counting worksheets, the real work here is the link between a letter and the sound a word starts with — matching the printed letter to the first sound of each animal's name. That beginning-sound awareness is one of the first reading-readiness skills, and the counting at the end gives it a satisfying, low-pressure finish.",
       "p3": "It works best chosen to match the letter a class is learning that week, so the hunt reinforces the lesson. When the hunt is done, count and combine in addition with animals, or make a graph in picture graph with animals. You can also browse every letter hunt worksheet or the whole animals collection for kindergarten.",
       "canonicalDeckSlug": "find-and-count-animals",
       "carousel": [
-        {"label": "Addition with Animals", "href": "addition-image-image-animals-kindergarten"},
-        {"label": "Picture Graph with Animals", "href": "chart-count-animals"},
-        {"label": "Subtraction with Animals", "href": "subtraction-cross-out-animals-kindergarten"},
-        {"label": "Find the Missing Part with Animals", "href": "addition-find-addend-animals"}
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Picture Graph with Animals",
+          "href": "chart-count-animals"
+        },
+        {
+          "label": "Subtraction with Animals",
+          "href": "subtraction-cross-out-animals-kindergarten"
+        },
+        {
+          "label": "Find the Missing Part with Animals",
+          "href": "addition-find-addend-animals"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-4th-of-july",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "4th_of_july",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Fourth of July Things — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "flags",
+        "stars",
+        "drum",
+        "Fourth of July things",
+        "4th of july",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of flags, stars and a drum on each row, with a plus sign between them and an empty box after the equals sign. Children count the Fourth of July things in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of Fourth of July things with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy fourth of july things take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with accessories, or try addition with birds. You can also browse every addition worksheet or the whole Fourth of July things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-4th-of-july",
+      "carousel": [
+        {
+          "label": "Addition with Accessories",
+          "href": "addition-image-image-accessories"
+        },
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Addition with Bakery Treats",
+          "href": "addition-image-image-bakery"
+        },
+        {
+          "label": "Addition with Christmas",
+          "href": "addition-image-image-christmas"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-accessories",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "accessories",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Accessories — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "hats",
+        "belts",
+        "scarf",
+        "accessories",
+        "accessories",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of hats, belts and a scarf, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many accessories there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of accessories with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy accessories take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with animals, or try addition with more birds. You can also browse every addition worksheet or the whole accessories collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-accessories",
+      "carousel": [
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Addition with Household Things",
+          "href": "addition-image-image-around-the-house"
+        },
+        {
+          "label": "Addition with Beach Things",
+          "href": "addition-image-image-beach"
+        },
+        {
+          "label": "Addition with Classroom Objects",
+          "href": "addition-image-image-classroom"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-animals-kindergarten",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "animals",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Animals — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "cows",
+        "sheep",
+        "hen",
+        "animals",
+        "animals",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of cows, sheep and a hen meets another group across a plus sign, and the child finds the total by counting the animals rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of animals with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy animals take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with household things, or try addition with breakfast. You can also browse every addition worksheet or the whole animals collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image",
+      "carousel": [
+        {
+          "label": "Addition with Household Things",
+          "href": "addition-image-image-around-the-house"
+        },
+        {
+          "label": "Addition with Supermarket Things",
+          "href": "addition-image-image-at-the-supermarket"
+        },
+        {
+          "label": "Addition with Birds",
+          "href": "addition-image-image-birds"
+        },
+        {
+          "label": "Addition with Clothes",
+          "href": "addition-image-image-clothing"
+        }
+      ],
+      "collapseSiblings": [
+        "addition-image-image",
+        "addition-image-image-animals"
+      ]
+    },
+    {
+      "slug": "addition-image-image-around-the-house",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "around_the_house",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Household Things — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "lamps",
+        "chairs",
+        "clock",
+        "household things",
+        "around the house",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows lamps, chairs and a clock to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the household things is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of household things with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy household things take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with supermarket things, or try addition with camping gear. You can also browse every addition worksheet or the whole household things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-around-the-house",
+      "carousel": [
+        {
+          "label": "Addition with Supermarket Things",
+          "href": "addition-image-image-at-the-supermarket"
+        },
+        {
+          "label": "Addition with Bakery Treats",
+          "href": "addition-image-image-bakery"
+        },
+        {
+          "label": "Addition with More Birds",
+          "href": "addition-image-image-birds-2"
+        },
+        {
+          "label": "Addition with Desserts and Sweets",
+          "href": "addition-image-image-desserts-and-sweets"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-at-the-supermarket",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "at_the_supermarket",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Supermarket Things — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "carts",
+        "baskets",
+        "till",
+        "supermarket things",
+        "at the supermarket",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of carts, baskets and a till sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many supermarket things there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of supermarket things with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy supermarket things take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with bakery treats, or try addition with christmas. You can also browse every addition worksheet or the whole supermarket things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-at-the-supermarket",
+      "carousel": [
+        {
+          "label": "Addition with Bakery Treats",
+          "href": "addition-image-image-bakery"
+        },
+        {
+          "label": "Addition with Beach Things",
+          "href": "addition-image-image-beach"
+        },
+        {
+          "label": "Addition with Breakfast",
+          "href": "addition-image-image-breakfast"
+        },
+        {
+          "label": "Addition with Dinosaurs",
+          "href": "addition-image-image-dinosaurs"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-bakery",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "bakery",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Bakery Treats — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "bagels",
+        "buns",
+        "cake",
+        "bakery treats",
+        "bakery",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some bagels, buns and a cake, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the bakery treats shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of bakery treats with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy bakery treats take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with beach things, or try addition with classroom objects. You can also browse every addition worksheet or the whole bakery treats collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-bakery",
+      "carousel": [
+        {
+          "label": "Addition with Beach Things",
+          "href": "addition-image-image-beach"
+        },
+        {
+          "label": "Addition with Birds",
+          "href": "addition-image-image-birds"
+        },
+        {
+          "label": "Addition with Camping Gear",
+          "href": "addition-image-image-camping"
+        },
+        {
+          "label": "Addition with Easter",
+          "href": "addition-image-image-easter"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-beach",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "beach",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Beach Things — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "buckets",
+        "spades",
+        "starfish",
+        "beach things",
+        "beach",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of buckets, spades and a starfish on each row, with a plus sign between them and an empty box after the equals sign. Children count the beach things in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of beach things to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy beach things take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with birds, or try addition with clothes. You can also browse every addition worksheet or the whole beach things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-beach",
+      "carousel": [
+        {
+          "label": "Addition with Birds",
+          "href": "addition-image-image-birds"
+        },
+        {
+          "label": "Addition with More Birds",
+          "href": "addition-image-image-birds-2"
+        },
+        {
+          "label": "Addition with Christmas",
+          "href": "addition-image-image-christmas"
+        },
+        {
+          "label": "Addition with Farm Animals",
+          "href": "addition-image-image-farm-animals"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-birds",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "birds",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Birds — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "robins",
+        "owls",
+        "duck",
+        "birds",
+        "birds",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of robins, owls and a duck, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many birds there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of birds to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy birds take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with more birds, or try addition with desserts and sweets. You can also browse every addition worksheet or the whole birds collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-birds",
+      "carousel": [
+        {
+          "label": "Addition with More Birds",
+          "href": "addition-image-image-birds-2"
+        },
+        {
+          "label": "Addition with Breakfast",
+          "href": "addition-image-image-breakfast"
+        },
+        {
+          "label": "Addition with Classroom Objects",
+          "href": "addition-image-image-classroom"
+        },
+        {
+          "label": "Addition with Flowers",
+          "href": "addition-image-image-flowers"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-birds-2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "birds_2",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with More Birds — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "parrots",
+        "swans",
+        "crow",
+        "birds",
+        "birds 2",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of parrots, swans and a crow meets another group across a plus sign, and the child finds the total by counting the birds rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of birds to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy more birds take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with breakfast, or try addition with dinosaurs. You can also browse every addition worksheet or the whole birds collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-birds-2",
+      "carousel": [
+        {
+          "label": "Addition with Breakfast",
+          "href": "addition-image-image-breakfast"
+        },
+        {
+          "label": "Addition with Camping Gear",
+          "href": "addition-image-image-camping"
+        },
+        {
+          "label": "Addition with Clothes",
+          "href": "addition-image-image-clothing"
+        },
+        {
+          "label": "Addition with Forest Creatures",
+          "href": "addition-image-image-forest-creatures"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-breakfast",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "breakfast",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Breakfast — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "eggs",
+        "pancakes",
+        "banana",
+        "breakfast foods",
+        "breakfast",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows eggs, pancakes and a banana to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the breakfast foods is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of breakfast foods to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy breakfast take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with camping gear, or try addition with easter. You can also browse every addition worksheet or the whole breakfast foods collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-breakfast",
+      "carousel": [
+        {
+          "label": "Addition with Camping Gear",
+          "href": "addition-image-image-camping"
+        },
+        {
+          "label": "Addition with Christmas",
+          "href": "addition-image-image-christmas"
+        },
+        {
+          "label": "Addition with Desserts and Sweets",
+          "href": "addition-image-image-desserts-and-sweets"
+        },
+        {
+          "label": "Addition with Fruits",
+          "href": "addition-image-image-fruits"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-camping",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "camping",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Camping Gear — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "tents",
+        "torches",
+        "backpack",
+        "camping gear",
+        "camping",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of tents, torches and a backpack sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many camping gear there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of camping gear to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy camping gear take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with christmas, or try addition with farm animals. You can also browse every addition worksheet or the whole camping gear collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-camping",
+      "carousel": [
+        {
+          "label": "Addition with Christmas",
+          "href": "addition-image-image-christmas"
+        },
+        {
+          "label": "Addition with Classroom Objects",
+          "href": "addition-image-image-classroom"
+        },
+        {
+          "label": "Addition with Dinosaurs",
+          "href": "addition-image-image-dinosaurs"
+        },
+        {
+          "label": "Addition with Furniture",
+          "href": "addition-image-image-furniture"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-christmas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "christmas",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Christmas — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "trees",
+        "baubles",
+        "stocking",
+        "Christmas things",
+        "christmas",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some trees, baubles and a stocking, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the Christmas things shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of Christmas things to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy christmas take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with classroom objects, or try addition with flowers. You can also browse every addition worksheet or the whole Christmas things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-christmas",
+      "carousel": [
+        {
+          "label": "Addition with Classroom Objects",
+          "href": "addition-image-image-classroom"
+        },
+        {
+          "label": "Addition with Clothes",
+          "href": "addition-image-image-clothing"
+        },
+        {
+          "label": "Addition with Easter",
+          "href": "addition-image-image-easter"
+        },
+        {
+          "label": "Addition with Hospital Things",
+          "href": "addition-image-image-hospital"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-classroom",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "classroom",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Classroom Objects — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "pencils",
+        "books",
+        "globe",
+        "classroom objects",
+        "classroom",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of pencils, books and a globe on each row, with a plus sign between them and an empty box after the equals sign. Children count the classroom objects in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured classroom objects keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy classroom objects take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with clothes, or try addition with forest creatures. You can also browse every addition worksheet or the whole classroom objects collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-classroom",
+      "carousel": [
+        {
+          "label": "Addition with Clothes",
+          "href": "addition-image-image-clothing"
+        },
+        {
+          "label": "Addition with Desserts and Sweets",
+          "href": "addition-image-image-desserts-and-sweets"
+        },
+        {
+          "label": "Addition with Farm Animals",
+          "href": "addition-image-image-farm-animals"
+        },
+        {
+          "label": "Addition with Insects and Bugs",
+          "href": "addition-image-image-insects-and-bugs"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-clothing",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "clothing",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Clothes — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "shirts",
+        "socks",
+        "hat",
+        "clothes",
+        "clothing",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of shirts, socks and a hat, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many clothes there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured clothes keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy clothes take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with desserts and sweets, or try addition with fruits. You can also browse every addition worksheet or the whole clothes collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-clothing",
+      "carousel": [
+        {
+          "label": "Addition with Desserts and Sweets",
+          "href": "addition-image-image-desserts-and-sweets"
+        },
+        {
+          "label": "Addition with Dinosaurs",
+          "href": "addition-image-image-dinosaurs"
+        },
+        {
+          "label": "Addition with Flowers",
+          "href": "addition-image-image-flowers"
+        },
+        {
+          "label": "Addition with Kitchen Tools",
+          "href": "addition-image-image-kitchen-tools"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-desserts-and-sweets",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "desserts_and_sweets",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Desserts and Sweets — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "cupcakes",
+        "lollipops",
+        "pie",
+        "sweet treats",
+        "desserts and sweets",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of cupcakes, lollipops and a pie meets another group across a plus sign, and the child finds the total by counting the sweet treats rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured sweet treats keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy desserts and sweets take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with dinosaurs, or try addition with furniture. You can also browse every addition worksheet or the whole sweet treats collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-desserts-and-sweets",
+      "carousel": [
+        {
+          "label": "Addition with Dinosaurs",
+          "href": "addition-image-image-dinosaurs"
+        },
+        {
+          "label": "Addition with Easter",
+          "href": "addition-image-image-easter"
+        },
+        {
+          "label": "Addition with Forest Creatures",
+          "href": "addition-image-image-forest-creatures"
+        },
+        {
+          "label": "Addition with Everyday Objects",
+          "href": "addition-image-image-miscellaneous"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-dinosaurs",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "dinosaurs",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Dinosaurs — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "T. rex",
+        "stegosaurus",
+        "raptor",
+        "dinosaurs",
+        "dinosaurs",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows a T. rex, a stegosaurus and a raptor to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the dinosaurs is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured dinosaurs keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy dinosaurs take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with easter, or try addition with hospital things. You can also browse every addition worksheet or the whole dinosaurs collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-dinosaurs",
+      "carousel": [
+        {
+          "label": "Addition with Easter",
+          "href": "addition-image-image-easter"
+        },
+        {
+          "label": "Addition with Farm Animals",
+          "href": "addition-image-image-farm-animals"
+        },
+        {
+          "label": "Addition with Fruits",
+          "href": "addition-image-image-fruits"
+        },
+        {
+          "label": "Addition with Musical Instruments",
+          "href": "addition-image-image-music"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-easter",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "easter",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Easter — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "eggs",
+        "bunnies",
+        "basket",
+        "Easter things",
+        "easter",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of eggs, bunnies and a basket sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many Easter things there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured Easter things keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy easter take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with farm animals, or try addition with insects and bugs. You can also browse every addition worksheet or the whole Easter things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-easter",
+      "carousel": [
+        {
+          "label": "Addition with Farm Animals",
+          "href": "addition-image-image-farm-animals"
+        },
+        {
+          "label": "Addition with Flowers",
+          "href": "addition-image-image-flowers"
+        },
+        {
+          "label": "Addition with Furniture",
+          "href": "addition-image-image-furniture"
+        },
+        {
+          "label": "Addition with Community Helpers",
+          "href": "addition-image-image-occupations"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-farm-animals",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "farm_animals",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Farm Animals — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "cows",
+        "pigs",
+        "goat",
+        "farm animals",
+        "farm animals",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some cows, pigs and a goat, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the farm animals shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured farm animals keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy farm animals take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with flowers, or try addition with kitchen tools. You can also browse every addition worksheet or the whole farm animals collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-farm-animals",
+      "carousel": [
+        {
+          "label": "Addition with Flowers",
+          "href": "addition-image-image-flowers"
+        },
+        {
+          "label": "Addition with Forest Creatures",
+          "href": "addition-image-image-forest-creatures"
+        },
+        {
+          "label": "Addition with Hospital Things",
+          "href": "addition-image-image-hospital"
+        },
+        {
+          "label": "Addition with Ocean Life",
+          "href": "addition-image-image-ocean-life"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-flowers",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "flowers",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Flowers — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "tulips",
+        "daisies",
+        "rose",
+        "flowers",
+        "flowers",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of tulips, daisies and a rose on each row, with a plus sign between them and an empty box after the equals sign. Children count the flowers in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of flowers together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy flowers take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with forest creatures, or try addition with everyday objects. You can also browse every addition worksheet or the whole flowers collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-flowers",
+      "carousel": [
+        {
+          "label": "Addition with Forest Creatures",
+          "href": "addition-image-image-forest-creatures"
+        },
+        {
+          "label": "Addition with Fruits",
+          "href": "addition-image-image-fruits"
+        },
+        {
+          "label": "Addition with Insects and Bugs",
+          "href": "addition-image-image-insects-and-bugs"
+        },
+        {
+          "label": "Addition with Pets",
+          "href": "addition-image-image-pets"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-forest-creatures",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "forest_creatures",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Forest Creatures — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "foxes",
+        "deer",
+        "hedgehog",
+        "forest creatures",
+        "forest creatures",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of foxes, deer and a hedgehog, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many forest creatures there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of forest creatures together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy forest creatures take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with fruits, or try addition with musical instruments. You can also browse every addition worksheet or the whole forest creatures collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-forest-creatures",
+      "carousel": [
+        {
+          "label": "Addition with Fruits",
+          "href": "addition-image-image-fruits"
+        },
+        {
+          "label": "Addition with Furniture",
+          "href": "addition-image-image-furniture"
+        },
+        {
+          "label": "Addition with Kitchen Tools",
+          "href": "addition-image-image-kitchen-tools"
+        },
+        {
+          "label": "Addition with Post Office",
+          "href": "addition-image-image-post-office"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-fruits",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "fruits",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Fruits — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "apples",
+        "bananas",
+        "pear",
+        "fruit",
+        "fruits",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of apples, bananas and a pear meets another group across a plus sign, and the child finds the total by counting the fruit rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of fruit together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy fruits take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with furniture, or try addition with community helpers. You can also browse every addition worksheet or the whole fruit collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-fruits",
+      "carousel": [
+        {
+          "label": "Addition with Furniture",
+          "href": "addition-image-image-furniture"
+        },
+        {
+          "label": "Addition with Hospital Things",
+          "href": "addition-image-image-hospital"
+        },
+        {
+          "label": "Addition with Everyday Objects",
+          "href": "addition-image-image-miscellaneous"
+        },
+        {
+          "label": "Addition with Reptiles and Amphibians",
+          "href": "addition-image-image-reptiles-and-amphibians"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-furniture",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "furniture",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Furniture — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "sofas",
+        "tables",
+        "lamp",
+        "furniture",
+        "furniture",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows sofas, tables and a lamp to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the furniture is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of furniture together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy furniture take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with hospital things, or try addition with ocean life. You can also browse every addition worksheet or the whole furniture collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-furniture",
+      "carousel": [
+        {
+          "label": "Addition with Hospital Things",
+          "href": "addition-image-image-hospital"
+        },
+        {
+          "label": "Addition with Insects and Bugs",
+          "href": "addition-image-image-insects-and-bugs"
+        },
+        {
+          "label": "Addition with Musical Instruments",
+          "href": "addition-image-image-music"
+        },
+        {
+          "label": "Addition with Shapes",
+          "href": "addition-image-image-shapes"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-hospital",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "hospital",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Hospital Things — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "beds",
+        "bandages",
+        "stethoscope",
+        "hospital things",
+        "hospital",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of beds, bandages and a stethoscope sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many hospital things there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of hospital things together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy hospital things take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with insects and bugs, or try addition with pets. You can also browse every addition worksheet or the whole hospital things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-hospital",
+      "carousel": [
+        {
+          "label": "Addition with Insects and Bugs",
+          "href": "addition-image-image-insects-and-bugs"
+        },
+        {
+          "label": "Addition with Kitchen Tools",
+          "href": "addition-image-image-kitchen-tools"
+        },
+        {
+          "label": "Addition with Community Helpers",
+          "href": "addition-image-image-occupations"
+        },
+        {
+          "label": "Addition with Space",
+          "href": "addition-image-image-space"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-insects-and-bugs",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "insects_and_bugs",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Insects and Bugs — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "ants",
+        "bees",
+        "ladybug",
+        "bugs",
+        "insects and bugs",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some ants, bees and a ladybug, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the bugs shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of bugs together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy insects and bugs take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with kitchen tools, or try addition with post office. You can also browse every addition worksheet or the whole bugs collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-insects-and-bugs",
+      "carousel": [
+        {
+          "label": "Addition with Kitchen Tools",
+          "href": "addition-image-image-kitchen-tools"
+        },
+        {
+          "label": "Addition with Everyday Objects",
+          "href": "addition-image-image-miscellaneous"
+        },
+        {
+          "label": "Addition with Ocean Life",
+          "href": "addition-image-image-ocean-life"
+        },
+        {
+          "label": "Addition with Thanksgiving",
+          "href": "addition-image-image-thanksgiving"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-kitchen-tools",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "kitchen_tools",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Kitchen Tools — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "spoons",
+        "whisks",
+        "pan",
+        "kitchen tools",
+        "kitchen tools",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of spoons, whisks and a pan on each row, with a plus sign between them and an empty box after the equals sign. Children count the kitchen tools in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of kitchen tools with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy kitchen tools take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with everyday objects, or try addition with reptiles and amphibians. You can also browse every addition worksheet or the whole kitchen tools collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-kitchen-tools",
+      "carousel": [
+        {
+          "label": "Addition with Everyday Objects",
+          "href": "addition-image-image-miscellaneous"
+        },
+        {
+          "label": "Addition with Musical Instruments",
+          "href": "addition-image-image-music"
+        },
+        {
+          "label": "Addition with Pets",
+          "href": "addition-image-image-pets"
+        },
+        {
+          "label": "Addition with Things That Fly",
+          "href": "addition-image-image-things-that-fly"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-miscellaneous",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "miscellaneous",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Everyday Objects — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "key",
+        "button",
+        "umbrella",
+        "everyday objects",
+        "miscellaneous",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of a key, a button and an umbrella, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many everyday objects there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of everyday objects with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy everyday objects take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with musical instruments, or try addition with shapes. You can also browse every addition worksheet or the whole everyday objects collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-miscellaneous",
+      "carousel": [
+        {
+          "label": "Addition with Musical Instruments",
+          "href": "addition-image-image-music"
+        },
+        {
+          "label": "Addition with Community Helpers",
+          "href": "addition-image-image-occupations"
+        },
+        {
+          "label": "Addition with Post Office",
+          "href": "addition-image-image-post-office"
+        },
+        {
+          "label": "Addition with Tools",
+          "href": "addition-image-image-tools"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-music",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "music",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Musical Instruments — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "drums",
+        "bells",
+        "flute",
+        "instruments",
+        "music",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of drums, bells and a flute meets another group across a plus sign, and the child finds the total by counting the instruments rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of instruments with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy musical instruments take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with community helpers, or try addition with space. You can also browse every addition worksheet or the whole instruments collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-music",
+      "carousel": [
+        {
+          "label": "Addition with Community Helpers",
+          "href": "addition-image-image-occupations"
+        },
+        {
+          "label": "Addition with Ocean Life",
+          "href": "addition-image-image-ocean-life"
+        },
+        {
+          "label": "Addition with Reptiles and Amphibians",
+          "href": "addition-image-image-reptiles-and-amphibians"
+        },
+        {
+          "label": "Addition with Toys",
+          "href": "addition-image-image-toys"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-occupations",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "occupations",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Community Helpers — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "chef",
+        "nurse",
+        "pilot",
+        "people",
+        "occupations",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows a chef, a nurse and a pilot to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the people is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of people with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy community helpers take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with ocean life, or try addition with thanksgiving. You can also browse every addition worksheet or the whole people collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-occupations",
+      "carousel": [
+        {
+          "label": "Addition with Ocean Life",
+          "href": "addition-image-image-ocean-life"
+        },
+        {
+          "label": "Addition with Pets",
+          "href": "addition-image-image-pets"
+        },
+        {
+          "label": "Addition with Shapes",
+          "href": "addition-image-image-shapes"
+        },
+        {
+          "label": "Addition with Trees",
+          "href": "addition-image-image-tree"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-ocean-life",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "ocean_life",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Ocean Life — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "fish",
+        "crabs",
+        "octopus",
+        "sea creatures",
+        "ocean life",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of fish, crabs and an octopus sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many sea creatures there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of sea creatures with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy ocean life take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with pets, or try addition with things that fly. You can also browse every addition worksheet or the whole sea creatures collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-ocean-life",
+      "carousel": [
+        {
+          "label": "Addition with Pets",
+          "href": "addition-image-image-pets"
+        },
+        {
+          "label": "Addition with Post Office",
+          "href": "addition-image-image-post-office"
+        },
+        {
+          "label": "Addition with Space",
+          "href": "addition-image-image-space"
+        },
+        {
+          "label": "Addition with Valentine Pictures",
+          "href": "addition-image-image-valentine-bw"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-pets",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "pets",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Pets — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "cats",
+        "dogs",
+        "rabbit",
+        "pets",
+        "pets",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some cats, dogs and a rabbit, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the pets shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Counting two groups and then saying how many there are in all is the first real step into addition. Long before a symbol means anything, a child who combines one pile of pets with another and recounts the whole set is already adding — and keeping totals within ten means every answer can be checked by counting rather than guessed.",
+      "p3": "Children who enjoy pets take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with post office, or try addition with tools. You can also browse every addition worksheet or the whole pets collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-pets",
+      "carousel": [
+        {
+          "label": "Addition with Post Office",
+          "href": "addition-image-image-post-office"
+        },
+        {
+          "label": "Addition with Reptiles and Amphibians",
+          "href": "addition-image-image-reptiles-and-amphibians"
+        },
+        {
+          "label": "Addition with Thanksgiving",
+          "href": "addition-image-image-thanksgiving"
+        },
+        {
+          "label": "Addition with Vegetables",
+          "href": "addition-image-image-vegetables"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-post-office",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "post_office",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Post Office — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "letters",
+        "stamps",
+        "parcel",
+        "post",
+        "post office",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of letters, stamps and a parcel on each row, with a plus sign between them and an empty box after the equals sign. Children count the post in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of post to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy post office take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with reptiles and amphibians, or try addition with toys. You can also browse every addition worksheet or the whole post collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-post-office",
+      "carousel": [
+        {
+          "label": "Addition with Reptiles and Amphibians",
+          "href": "addition-image-image-reptiles-and-amphibians"
+        },
+        {
+          "label": "Addition with Shapes",
+          "href": "addition-image-image-shapes"
+        },
+        {
+          "label": "Addition with Things That Fly",
+          "href": "addition-image-image-things-that-fly"
+        },
+        {
+          "label": "Addition with Vehicles",
+          "href": "addition-image-image-vehicles"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-reptiles-and-amphibians",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "reptiles_and_amphibians",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Reptiles and Amphibians — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "frogs",
+        "snakes",
+        "turtle",
+        "reptiles",
+        "reptiles and amphibians",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of frogs, snakes and a turtle, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many reptiles there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of reptiles to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy reptiles and amphibians take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with shapes, or try addition with trees. You can also browse every addition worksheet or the whole reptiles collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-reptiles-and-amphibians",
+      "carousel": [
+        {
+          "label": "Addition with Shapes",
+          "href": "addition-image-image-shapes"
+        },
+        {
+          "label": "Addition with Space",
+          "href": "addition-image-image-space"
+        },
+        {
+          "label": "Addition with Tools",
+          "href": "addition-image-image-tools"
+        },
+        {
+          "label": "Addition with Zoo Animals",
+          "href": "addition-image-image-zoo-animals"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-shapes",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "shapes",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Shapes — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "circles",
+        "squares",
+        "triangle",
+        "shapes",
+        "shapes",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of circles, squares and a triangle meets another group across a plus sign, and the child finds the total by counting the shapes rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of shapes to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy shapes take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with space, or try addition with valentine pictures. You can also browse every addition worksheet or the whole shapes collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-shapes",
+      "carousel": [
+        {
+          "label": "Addition with Space",
+          "href": "addition-image-image-space"
+        },
+        {
+          "label": "Addition with Thanksgiving",
+          "href": "addition-image-image-thanksgiving"
+        },
+        {
+          "label": "Addition with Toys",
+          "href": "addition-image-image-toys"
+        },
+        {
+          "label": "Addition with Fourth of July Things",
+          "href": "addition-image-image-4th-of-july"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-space",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "space",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Space — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "rockets",
+        "planets",
+        "star",
+        "space things",
+        "space",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows rockets, planets and a star to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the space things is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of space things to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy space take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with thanksgiving, or try addition with vegetables. You can also browse every addition worksheet or the whole space things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-space",
+      "carousel": [
+        {
+          "label": "Addition with Thanksgiving",
+          "href": "addition-image-image-thanksgiving"
+        },
+        {
+          "label": "Addition with Things That Fly",
+          "href": "addition-image-image-things-that-fly"
+        },
+        {
+          "label": "Addition with Trees",
+          "href": "addition-image-image-tree"
+        },
+        {
+          "label": "Addition with Accessories",
+          "href": "addition-image-image-accessories"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-thanksgiving",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "thanksgivinng",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Thanksgiving — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "turkeys",
+        "pumpkins",
+        "pie",
+        "Thanksgiving things",
+        "thanksgivinng",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of turkeys, pumpkins and a pie sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many Thanksgiving things there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of Thanksgiving things to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy thanksgiving take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with things that fly, or try addition with vehicles. You can also browse every addition worksheet or the whole Thanksgiving things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-thanksgiving",
+      "carousel": [
+        {
+          "label": "Addition with Things That Fly",
+          "href": "addition-image-image-things-that-fly"
+        },
+        {
+          "label": "Addition with Tools",
+          "href": "addition-image-image-tools"
+        },
+        {
+          "label": "Addition with Valentine Pictures",
+          "href": "addition-image-image-valentine-bw"
+        },
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-things-that-fly",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "things_that_fly",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Things That Fly — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "kites",
+        "planes",
+        "balloon",
+        "flying things",
+        "things that fly",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some kites, planes and a balloon, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the flying things shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Before written sums make sense, addition has to happen with things a child can see and move. Joining a group of flying things to another group and finding the total builds the part-and-whole idea — that two smaller amounts make one larger one — which is the concrete ground every later written method is built on.",
+      "p3": "Children who enjoy things that fly take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with tools, or try addition with zoo animals. You can also browse every addition worksheet or the whole flying things collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-things-that-fly",
+      "carousel": [
+        {
+          "label": "Addition with Tools",
+          "href": "addition-image-image-tools"
+        },
+        {
+          "label": "Addition with Toys",
+          "href": "addition-image-image-toys"
+        },
+        {
+          "label": "Addition with Vegetables",
+          "href": "addition-image-image-vegetables"
+        },
+        {
+          "label": "Addition with Household Things",
+          "href": "addition-image-image-around-the-house"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-tools",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "tools",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Tools — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "hammers",
+        "saws",
+        "wrench",
+        "tools",
+        "tools",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of hammers, saws and a wrench on each row, with a plus sign between them and an empty box after the equals sign. Children count the tools in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured tools keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy tools take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with toys, or try addition with fourth of july things. You can also browse every addition worksheet or the whole tools collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-tools",
+      "carousel": [
+        {
+          "label": "Addition with Toys",
+          "href": "addition-image-image-toys"
+        },
+        {
+          "label": "Addition with Trees",
+          "href": "addition-image-image-tree"
+        },
+        {
+          "label": "Addition with Vehicles",
+          "href": "addition-image-image-vehicles"
+        },
+        {
+          "label": "Addition with Supermarket Things",
+          "href": "addition-image-image-at-the-supermarket"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-toys",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "toys",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Toys — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "balls",
+        "blocks",
+        "teddy",
+        "toys",
+        "toys",
+        "kindergarten"
+      ],
+      "p1": "Children add here by counting what they can see. Each line lays out a little set of balls, blocks and a teddy, a plus sign, and a second set, with the total left as an empty box. They count the first set, keep counting on into the second, and write how many toys there are altogether. Because both groups are pictured, nothing has to be read first — a child works out the answer from the page itself, which is exactly how addition should begin at five and six years old.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured toys keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy toys take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with trees, or try addition with accessories. You can also browse every addition worksheet or the whole toys collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-toys",
+      "carousel": [
+        {
+          "label": "Addition with Trees",
+          "href": "addition-image-image-tree"
+        },
+        {
+          "label": "Addition with Valentine Pictures",
+          "href": "addition-image-image-valentine-bw"
+        },
+        {
+          "label": "Addition with Zoo Animals",
+          "href": "addition-image-image-zoo-animals"
+        },
+        {
+          "label": "Addition with Bakery Treats",
+          "href": "addition-image-image-bakery"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-tree",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "tree",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Trees — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "oaks",
+        "pines",
+        "palm",
+        "trees",
+        "tree",
+        "kindergarten"
+      ],
+      "p1": "Picture math keeps the numbers small and the meaning clear. On every row a group of oaks, pines and a palm meets another group across a plus sign, and the child finds the total by counting the trees rather than recalling a fact. The empty box waits for the answer. Sums stay within ten, so a kindergartner can always check by counting the pictures instead of guessing, and the idea that two groups join into one larger amount stays front and centre throughout.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured trees keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy trees take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with valentine pictures, or try addition with animals. You can also browse every addition worksheet or the whole trees collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-tree",
+      "carousel": [
+        {
+          "label": "Addition with Valentine Pictures",
+          "href": "addition-image-image-valentine-bw"
+        },
+        {
+          "label": "Addition with Vegetables",
+          "href": "addition-image-image-vegetables"
+        },
+        {
+          "label": "Addition with Fourth of July Things",
+          "href": "addition-image-image-4th-of-july"
+        },
+        {
+          "label": "Addition with Beach Things",
+          "href": "addition-image-image-beach"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-valentine-bw",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "valentine_bw",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Valentine Pictures — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "hearts",
+        "roses",
+        "card",
+        "valentines",
+        "valentine bw",
+        "kindergarten"
+      ],
+      "p1": "Each problem on this sheet shows hearts, roses and a card to gather: one small group, a plus sign, another small group, and a box for how many in all. Because every one of the valentines is right there to be touched and counted, even a child who is not yet reading can finish the whole sheet on their own. Counting two groups and saying how many altogether is the earliest, most concrete form of addition — the groundwork the written plus sign is built on later.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured valentines keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy valentine pictures take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with vegetables, or try addition with household things. You can also browse every addition worksheet or the whole valentines collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-valentine-bw",
+      "carousel": [
+        {
+          "label": "Addition with Vegetables",
+          "href": "addition-image-image-vegetables"
+        },
+        {
+          "label": "Addition with Vehicles",
+          "href": "addition-image-image-vehicles"
+        },
+        {
+          "label": "Addition with Accessories",
+          "href": "addition-image-image-accessories"
+        },
+        {
+          "label": "Addition with Birds",
+          "href": "addition-image-image-birds"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-vegetables",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "vegetables",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Vegetables — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "carrots",
+        "peas",
+        "pumpkin",
+        "vegetables",
+        "vegetables",
+        "kindergarten"
+      ],
+      "p1": "Two little groups of carrots, peas and a pumpkin sit on each row of this kindergarten sheet, joined by a plus sign, with the total left blank. The task is simple and self-checking: count one group, count the other, and write how many vegetables there are together. Five- and six-year-olds can do every line by pointing and counting, which means the sheet works for a whole class at once — nobody is stuck waiting until they can read an equation first.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured vegetables keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy vegetables take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with vehicles, or try addition with supermarket things. You can also browse every addition worksheet or the whole vegetables collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-vegetables",
+      "carousel": [
+        {
+          "label": "Addition with Vehicles",
+          "href": "addition-image-image-vehicles"
+        },
+        {
+          "label": "Addition with Zoo Animals",
+          "href": "addition-image-image-zoo-animals"
+        },
+        {
+          "label": "Addition with Animals",
+          "href": "addition-image-image-animals-kindergarten"
+        },
+        {
+          "label": "Addition with More Birds",
+          "href": "addition-image-image-birds-2"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-vehicles",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "vehicles",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Vehicles — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "buses",
+        "trucks",
+        "digger",
+        "vehicles",
+        "vehicles",
+        "kindergarten"
+      ],
+      "p1": "Addition starts as a counting story, and that is just what each row tells: here are some buses, trucks and a digger, here are some more, how many altogether? The child counts the first group, counts on through the second, and writes the total in the empty box. With the amounts kept small and every one of the vehicles shown as a picture, the meaning of the plus sign — two groups becoming one — is something a kindergartner can see, not only be told.",
+      "p2": "Each row ends with one question: how many altogether. That quietly teaches cardinality — the last number you count names the size of the whole set. Linking the count to the total is exactly the understanding kindergartners are forming, and pictured vehicles keep it something they can point to and check for themselves.",
+      "p3": "Children who enjoy vehicles take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with zoo animals, or try addition with bakery treats. You can also browse every addition worksheet or the whole vehicles collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-vehicles",
+      "carousel": [
+        {
+          "label": "Addition with Zoo Animals",
+          "href": "addition-image-image-zoo-animals"
+        },
+        {
+          "label": "Addition with Fourth of July Things",
+          "href": "addition-image-image-4th-of-july"
+        },
+        {
+          "label": "Addition with Household Things",
+          "href": "addition-image-image-around-the-house"
+        },
+        {
+          "label": "Addition with Breakfast",
+          "href": "addition-image-image-breakfast"
+        }
+      ]
+    },
+    {
+      "slug": "addition-image-image-zoo-animals",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "image-image",
+        "theme": "zoo_animals",
+        "level": "kindergarten"
+      },
+      "eyebrow": "Addition Worksheet",
+      "h1": "Addition with Zoo Animals — Kindergarten",
+      "strand": "Operations & Algebraic Thinking",
+      "slotTokens": [
+        "lions",
+        "zebras",
+        "giraffe",
+        "zoo animals",
+        "zoo animals",
+        "kindergarten"
+      ],
+      "p1": "This kindergarten worksheet sets out two small groups of lions, zebras and a giraffe on each row, with a plus sign between them and an empty box after the equals sign. Children count the zoo animals in the first group, count the second group, and write how many there are in all. A row might pair a few with a couple more, so the same skill comes back with a fresh picture each time. The pictures carry the whole problem, so a child who cannot yet read a written equation can still solve every line by touching and counting what is there.",
+      "p2": "Sums stay small, within ten, so the answer is always reachable by counting the pictures rather than recalling a fact a five-year-old has not met yet. That keeps the focus on what addition means — putting two groups of zoo animals together into one total — instead of racing for speed before the idea is secure.",
+      "p3": "Children who enjoy zoo animals take to this one quickly, and it works just as well as a quiet morning task or a count-along on the board. When the set feels easy, count a different collection in addition with fourth of july things, or try addition with beach things. You can also browse every addition worksheet or the whole zoo animals collection for kindergarten — each sheet prints cleanly in black and white or plays online for free.",
+      "canonicalDeckSlug": "addition-image-image-zoo-animals",
+      "carousel": [
+        {
+          "label": "Addition with Fourth of July Things",
+          "href": "addition-image-image-4th-of-july"
+        },
+        {
+          "label": "Addition with Accessories",
+          "href": "addition-image-image-accessories"
+        },
+        {
+          "label": "Addition with Supermarket Things",
+          "href": "addition-image-image-at-the-supermarket"
+        },
+        {
+          "label": "Addition with Camping Gear",
+          "href": "addition-image-image-camping"
+        }
       ]
     }
   ]

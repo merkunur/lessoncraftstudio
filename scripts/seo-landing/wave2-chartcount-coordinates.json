@@ -1,0 +1,436 @@
+{
+  "_note": "DB-derived ground-truth valid coordinates for Wave 2 lead slice (chart-count x K x EN, null mode). canonical = earliest publishedAt; collective = validity-gate collective_risk WARN. colors rescued via override-whitelist (K.MD.B.3 classify-and-count); 7 retired abstract themes. From enum-wave2-chartcount.js on Hetzner.",
+  "count": 43,
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "chart-count-4th-of-july",
+      "siblings": [
+        "chart-count-4th-of-july"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "chart-count-accessories",
+      "siblings": [
+        "chart-count-accessories"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "chart-count-animals",
+      "siblings": [
+        "chart-count-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "chart-count-around-the-house",
+      "siblings": [
+        "chart-count-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "chart-count-at-the-supermarket",
+      "siblings": [
+        "chart-count-at-the-supermarket"
+      ],
+      "collective": true
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "chart-count-bakery",
+      "siblings": [
+        "chart-count-bakery"
+      ],
+      "collective": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "chart-count-beach",
+      "siblings": [
+        "chart-count-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "chart-count-birds",
+      "siblings": [
+        "chart-count-birds"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds",
+      "canonical": "chart-count-birds-2",
+      "siblings": [
+        "chart-count-birds-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "chart-count-breakfast",
+      "siblings": [
+        "chart-count-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "chart-count-camping",
+      "siblings": [
+        "chart-count-camping"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "chart-count-christmas",
+      "siblings": [
+        "chart-count-christmas"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "chart-count-classroom",
+      "siblings": [
+        "chart-count-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "chart-count-clothing",
+      "siblings": [
+        "chart-count-clothing"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "chart-count-colors",
+      "siblings": [
+        "chart-count-colors"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "chart-count-desserts-and-sweets",
+      "siblings": [
+        "chart-count-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "chart-count-dinosaurs",
+      "siblings": [
+        "chart-count-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "chart-count-easter",
+      "siblings": [
+        "chart-count-easter"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "chart-count-farm-animals",
+      "siblings": [
+        "chart-count-farm-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "chart-count-flowers",
+      "siblings": [
+        "chart-count-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "chart-count-forest-creatures",
+      "siblings": [
+        "chart-count-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "chart-count-fruits",
+      "siblings": [
+        "chart-count-fruits"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "chart-count-furniture",
+      "siblings": [
+        "chart-count-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "chart-count-hospital",
+      "siblings": [
+        "chart-count-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "chart-count-insects-and-bugs",
+      "siblings": [
+        "chart-count-insects-and-bugs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "chart-count-kitchen-tools",
+      "siblings": [
+        "chart-count-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": null,
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "chart-count-miscellaneous",
+      "siblings": [
+        "chart-count-miscellaneous"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "chart-count-music",
+      "siblings": [
+        "chart-count-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "chart-count-occupations",
+      "siblings": [
+        "chart-count-occupations"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "chart-count-ocean-life",
+      "siblings": [
+        "chart-count-ocean-life"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "chart-count-pets",
+      "siblings": [
+        "chart-count-pets"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "chart-count-post-office",
+      "siblings": [
+        "chart-count-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "chart-count-reptiles-and-amphibians",
+      "siblings": [
+        "chart-count-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "chart-count-shapes",
+      "siblings": [
+        "chart-count-shapes"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "chart-count-space",
+      "siblings": [
+        "chart-count-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgiving",
+      "canonical": "chart-count-thanksgiving",
+      "siblings": [
+        "chart-count-thanksgiving"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "chart-count-things-that-fly",
+      "siblings": [
+        "chart-count-things-that-fly"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "chart-count-tools",
+      "siblings": [
+        "chart-count-tools"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "chart-count-toys",
+      "siblings": [
+        "chart-count-toys"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "chart-count-tree",
+      "siblings": [
+        "chart-count-tree"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "chart-count-vegetables",
+      "siblings": [
+        "chart-count-vegetables"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "chart-count-vehicles",
+      "siblings": [
+        "chart-count-vehicles"
+      ],
+      "collective": false
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "chart-count-zoo-animals",
+      "siblings": [
+        "chart-count-zoo-animals"
+      ],
+      "collective": false
+    }
+  ]
+}

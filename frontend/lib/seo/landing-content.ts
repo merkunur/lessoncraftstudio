@@ -23,6 +23,7 @@ export interface Landing {
   eyebrow: string;
   h1: string;
   strand: string;
+  standard?: string; // optional CCSS code (e.g. "K.MD.B.3"); when present the route emits educationalAlignment + a code chip
   p1: string; p2: string; p3: string;
   canonicalDeckSlug: string;
   collapseSiblings?: string[];

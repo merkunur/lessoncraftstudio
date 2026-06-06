@@ -64,6 +64,29 @@
     "whatsInsideCode": "Følger LK20"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Dette er en rolig gjenkjenningsaktivitet om like store deler. Barnet ser en form som allerede er delt i like store deler, og skal kjenne igjen en annen form som er delt i like mange like store deler. Alt skjer i nettleseren — ingen nedlasting, ingen konto, ingen innlogging.",
+        "Den store ideen i denne aktiviteten er at like store deler ikke trenger å se like ut. Et kvadrat som er delt rett over midten, og et kvadrat som er delt fra hjørne til hjørne, viser begge to like store deler — selv om bitene har ulik form. Barnet velger den formen som er delt i like mange like store deler, men på en annen måte. De gale valgene er former som er delt i ulike store deler, delt i feil antall deler, eller ikke delt i det hele tatt. Barnet deler ikke formen selv, men kjenner igjen at like store deler kan se forskjellige ut.",
+        "Aktiviteten følger LK20 innenfor området geometri — å kjenne igjen kvadrater og rektangler som er delt i to, tre og fire like store deler, og å navngi dem som halvdeler, tredjedeler og fjerdedeler. Det er ingen tidtaker, ingen poeng, bare lekende øving."
+      ],
+      "practices": [
+        "Kjenne igjen når et kvadrat eller et rektangel er delt i like store deler.",
+        "Se at like store deler kan ha ulik form og likevel være like store — for eksempel delt over midten eller fra hjørne til hjørne.",
+        "Skille mellom former som er delt i like store deler og former som er delt i ulike store deler eller ikke delt i det hele tatt.",
+        "Bruke ordene halvdeler, tredjedeler og fjerdedeler om to, tre og fire like store deler."
+      ],
+      "howToPlay": [
+        "Barnet ser først en form som er delt i like store deler, og ser hvor mange deler den har.",
+        "Barnet kjenner igjen den andre formen som er delt i like mange like store deler — men på en annen måte enn den første.",
+        "Når barnet har valgt, trykk så på Sjekk for å se om de like store delene stemmer."
+      ],
+      "learningGoals": [
+        "Barnet kan kjenne igjen at en form er delt i like store deler.",
+        "Barnet forstår at like store deler kan se forskjellige ut og likevel være like store.",
+        "Barnet kan navngi to, tre og fire like store deler som halvdeler, tredjedeler og fjerdedeler."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Barn legger merke til rettferdighet lenge før de kan tallene som hører til. I denne aktiviteten ser barnet fire former på skjermen — sirkler, kvadrater og rektangler — og skal trykke på den ene som er delt i like store deler. Den kjører rett i nettleseren på nettbrett, telefoner og datamaskiner i klasserommet, uten noe å installere og uten konto.",

@@ -1154,7 +1154,8 @@
       "pt": "partes-iguais-formatos-diferentes",
       "nl": "gelijke-delen-andere-vorm",
       "sv": "lika-delar-olika-form",
-      "da": "lige-dele-forskellige-former"
+      "da": "lige-dele-forskellige-former",
+      "no": "like-deler-ulik-form"
     },
     "page_title": {
       "en": "Same Size, Different Shape — Equal Shares Can Look Different | Grade 2 Geometry",
@@ -1166,7 +1167,8 @@
       "pt": "Mesmo tamanho, formato diferente — reconheça as partes iguais | Geometria no 2º ano",
       "nl": "Even groot, andere vorm — gelijke delen kunnen er anders uitzien | Meetkunde in groep 4",
       "sv": "Lika delar kan se olika ut — samma storlek, olika form | Geometri i årskurs 2",
-      "da": "Lige dele — samme størrelse, forskellig form | Geometri i 2. klasse"
+      "da": "Lige dele — samme størrelse, forskellig form | Geometri i 2. klasse",
+      "no": "Like deler — samme størrelse, ulik form | Geometri på 2. trinn"
     },
     "page_intro": {
       "en": "See a shape split into equal parts, then tap another that shows the same equal parts even when the pieces look different. Free Grade 2 geometry, no account.",
@@ -1178,7 +1180,8 @@
       "pt": "Veja uma forma já dividida em partes iguais e toque em outra com as mesmas partes, mesmo com formatos diferentes. Geometria do 2º ano, gratuita, alinhada à BNCC.",
       "nl": "De vorm is in gelijke delen verdeeld. Herken een andere vorm met dezelfde gelijke delen, ook als de stukken anders zijn. Gratis, sluit aan bij de kerndoelen.",
       "sv": "Titta på en form som är delad i lika delar och tryck på formen med lika många delar — även när bitarna ser olika ut. Gratis och följer Lgr22.",
-      "da": "Gratis, interaktiv aktivitet, der følger Fælles Mål: formen er delt i lige dele — tryk på den anden, der viser samme dele, selv når brikkerne ser forskellige ud."
+      "da": "Gratis, interaktiv aktivitet, der følger Fælles Mål: formen er delt i lige dele — tryk på den anden, der viser samme dele, selv når brikkerne ser forskellige ud.",
+      "no": "Gratis, interaktiv aktivitet som følger LK20. Barnet kjenner igjen like deler — formen er delt likt, men bitene kan ha samme størrelse og ulik form."
     },
     "kid_prompt_template": "promptTapMatchEqualShares"
   }

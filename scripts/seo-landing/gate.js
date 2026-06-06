@@ -55,38 +55,58 @@ function pairStats(subset, normed, paraKey){
   return {max:max.toFixed(3), mean:(sum/cnt).toFixed(3), pairs:cnt, over80, over65, over85, maxPair};
 }
 
-const cluster = pages.filter(p=> p.coordinate.type==='addition' && p.coordinate.mode==='image-image'); // 12-theme sweep
+function classKey(p){return p.coordinate.type+'/'+p.coordinate.mode;}
 const all = pages;
 
-console.log('\n=== §4.C similarity — 12-theme addition/image-image sweep (the hard within-mechanic case) ===');
-console.log('WHOLE-PAGE (raw, non-normalized):     ', JSON.stringify(pairStats(cluster,false)));
-console.log('WHOLE-PAGE (slot-normalized):         ', JSON.stringify(pairStats(cluster,true)));
-console.log('P1 (raw):                             ', JSON.stringify(pairStats(cluster,false,'p1')));
-console.log('P1 (slot-normalized):                 ', JSON.stringify(pairStats(cluster,true,'p1')));
-console.log('P2 (raw):                             ', JSON.stringify(pairStats(cluster,false,'p2')));
-console.log('P3 (raw):                             ', JSON.stringify(pairStats(cluster,false,'p3')));
+// auto-discover (type,mode) clusters with >=2 pages
+const clusters = {};
+for(const p of all){ (clusters[classKey(p)]=clusters[classKey(p)]||[]).push(p); }
+const clusterKeys = Object.keys(clusters).filter(k=>clusters[k].length>=2).sort();
 
-console.log('\n=== cross-class: all 16 landings, whole-page (raw) ===');
-console.log('ALL-PAIRS (raw):                      ', JSON.stringify(pairStats(all,false)));
+// full top-N pair distribution (raw whole-page, every pair within+cross)
+function topPairs(subset, normed, n){
+  const arr=[];
+  for(let i=0;i<subset.length;i++) for(let j=i+1;j<subset.length;j++){
+    arr.push([jaccard(pageGrams(subset[i],normed),pageGrams(subset[j],normed)), subset[i].slug, subset[j].slug, classKey(subset[i]), classKey(subset[j])]);
+  }
+  arr.sort((a,b)=>b[0]-a[0]);
+  return arr.slice(0,n);
+}
+
+console.log('\n=== §4.C similarity — per-(type,mode) WITHIN-CLASS clusters (whole-page RAW) ===');
+let worstWithinMax=0, worstWithinPair='', anyClusterFail=false, anyDensityAlarm=false, anyP1Warn=false;
+for(const k of clusterKeys){
+  const c=clusters[k];
+  const wp=pairStats(c,false), p1=pairStats(c,false,'p1');
+  if(parseFloat(wp.max)>worstWithinMax){worstWithinMax=parseFloat(wp.max);worstWithinPair=wp.maxPair;}
+  if(wp.over80>0)anyClusterFail=true;
+  if(parseFloat(wp.mean)>0.75)anyDensityAlarm=true;
+  if(parseFloat(p1.mean)>0.70)anyP1Warn=true;
+  console.log('  '+k+' (n='+c.length+'): max '+wp.max+' mean '+wp.mean+' #FAIL>=0.80='+wp.over80+' #WARN>=0.65='+wp.over65+' | P1-raw mean '+p1.mean+(parseFloat(p1.mean)>0.70?' WARN':'')+' | maxPair '+wp.maxPair);
+}
+
+const wpa=pairStats(all,false);
+console.log('\n=== cross-class + within: ALL '+all.length+' landings, whole-page RAW ===');
+console.log('  ALL-PAIRS: '+JSON.stringify(wpa));
+
+console.log('\n=== full distribution: TOP-10 raw whole-page pairs (within+cross) ===');
+topPairs(all,false,10).forEach((r,idx)=> console.log('  '+(idx+1)+'. '+r[0].toFixed(3)+'  '+r[1]+' ~ '+r[2]+'  ('+r[3]+(r[3]===r[4]?'':' vs '+r[4])+')'));
 
 // cross-class slot-normalized: does any DIFFERENT (type,mode) class collide on template?
-console.log('\n=== cross-class template-collision probe (slot-normalized whole-page, only pairs from DIFFERENT (type,mode)) ===');
-function classKey(p){return p.coordinate.type+'/'+p.coordinate.mode;}
 let xmax=0,xpair='';
 for(let i=0;i<all.length;i++) for(let j=i+1;j<all.length;j++){
   if(classKey(all[i])===classKey(all[j])) continue;
   const J=jaccard(pageGrams(all[i],true),pageGrams(all[j],true));
   if(J>xmax){xmax=J;xpair=all[i].slug+' ~ '+all[j].slug+' ('+classKey(all[i])+' vs '+classKey(all[j])+')';}
 }
+console.log('\n=== cross-class template-collision probe (slot-normalized whole-page, DIFFERENT (type,mode) only) ===');
 console.log('  max cross-class slot-normalized Jaccard: '+xmax.toFixed(3)+'  ['+xpair+']');
 
 console.log('\n=== VERDICT vs LOCKED thresholds (2026-06-06 calibration) ===');
 console.log('  [1] cannibalization = WHOLE-PAGE RAW: FAIL>=0.80 / WARN 0.65-0.80 / PASS<0.65 (within+cross)');
-const wpc=pairStats(cluster,false), wpa=pairStats(all,false);
-console.log('      cluster(12): max '+wpc.max+' #FAIL(>=0.80)='+wpc.over80+' #WARN(>=0.65)='+wpc.over65+'  -> '+(wpc.over80? 'FAIL':'PASS'));
-console.log('      all(16):     max '+wpa.max+' #FAIL(>=0.80)='+wpa.over80+'  -> '+(wpa.over80? 'FAIL':'PASS'));
-console.log('  [2] cluster-density (whole-page-raw mean) alarm>0.75:  cluster='+wpc.mean+'  -> '+(wpc.mean>0.75?'ALARM':'OK'));
+console.log('      worst within-class max: '+worstWithinMax.toFixed(3)+'  ['+worstWithinPair+']  -> '+(anyClusterFail?'FAIL':'PASS'));
+console.log('      all-pairs max:          '+wpa.max+' #FAIL(>=0.80)='+wpa.over80+' #WARN(>=0.65)='+wpa.over65+'  -> '+(wpa.over80? 'FAIL':'PASS'));
+console.log('  [2] cluster-density (whole-page-raw mean) alarm>0.75 (per cluster): '+(anyDensityAlarm?'ALARM':'OK'));
 console.log('  [3] cross-class slot-norm template-collision FAIL>=0.90: max='+xmax.toFixed(3)+'  -> '+(xmax>=0.90?'FAIL':'PASS'));
-const p1c=pairStats(cluster,false,'p1');
-console.log('  [4] P1-raw cluster-mean WARN>0.70 (FAN-OUT enrichment trigger): '+p1c.mean+'  -> '+(p1c.mean>0.70?'WARN (single thin P1; enrich before 100-theme fan-out)':'ok'));
+console.log('  [4] P1-raw cluster-mean WARN>0.70 (per cluster): '+(anyP1Warn?'WARN (a cluster P1 is thin; enrich)':'ok'));
 console.log('      (per-paragraph 0.85 FAIL + within-class slot-norm = RETIRED per ruling — they misfire on the intended template/variant design)');

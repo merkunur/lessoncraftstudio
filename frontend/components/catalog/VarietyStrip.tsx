@@ -7,6 +7,7 @@ import {
   fetchDecksCatalogHighlights,
 } from '@/lib/topic-variety';
 import { TopicDeckSummary } from '@/lib/topic-decks';
+import { landingSlugForDeck } from '@/lib/seo/landing-content';
 import { buildDeckRichAlt } from '@/lib/deck-seo';
 import VarietyStripCard from './VarietyStripCard';
 
@@ -49,7 +50,9 @@ function deckTitleFor(deck: TopicDeckSummary, locale: string): string {
 }
 
 function deckLinkFor(deck: TopicDeckSummary): string {
-  return `/${deck.language}/decks/${deck.slug}/`;
+  // Conditional repoint: landing IFF published for this deck's coordinate, else /decks/ asset.
+  const lp = landingSlugForDeck(deck.language, deck.slug);
+  return lp ? `/${deck.language}/worksheets/${lp}` : `/${deck.language}/decks/${deck.slug}/`;
 }
 
 function intentKey(axis: Axis): 'exerciseType' | 'theme' | 'educationalLevel' {

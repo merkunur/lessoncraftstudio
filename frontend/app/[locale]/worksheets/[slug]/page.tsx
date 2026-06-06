@@ -110,7 +110,18 @@ export default function WorksheetLandingPage(
     image: a.thumbnail,
     creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
     audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
-  };
+  } as Record<string, unknown>;
+  // Standard-bearing landings carry an explicit CCSS educationalAlignment; strand-only landings (no l.standard)
+  // are unchanged (Phase-4 flag-5 deferral). targetUrl is the canonical corestandards.org Math content URL.
+  if (l.standard) {
+    learningResource.educationalAlignment = {
+      '@type': 'AlignmentObject',
+      alignmentType: 'teaches',
+      educationalFramework: 'Common Core State Standards',
+      targetName: l.standard,
+      targetUrl: `http://www.corestandards.org/Math/Content/${l.standard.replace(/\./g, '/')}/`,
+    };
+  }
 
   const SHADOW = 'shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_24px_56px_rgba(20,30,28,0.12)]';
 
@@ -152,7 +163,11 @@ export default function WorksheetLandingPage(
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">Kindergarten</span>
                 <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">{l.strand}</span>
-                <span className="inline-flex items-center gap-1.5 border border-dashed border-cream-300 text-ink-500 italic text-sm rounded-full px-3 py-1.5">Aligned standard — coming soon</span>
+                {l.standard ? (
+                  <span className="inline-flex items-center gap-1.5 bg-[#FBEDE6] text-[#9A4521] font-semibold text-sm rounded-full px-3 py-1.5">Common Core</span>
+                ) : (
+                  <span className="inline-flex items-center gap-1.5 border border-dashed border-cream-300 text-ink-500 italic text-sm rounded-full px-3 py-1.5">Aligned standard — coming soon</span>
+                )}
               </div>
               <div className="flex flex-wrap gap-3">
                 <a href={a.deckDir} className="inline-flex items-center gap-2 font-bold text-[15px] rounded-full px-6 py-3 bg-[#146B5E] text-white hover:bg-[#0E544A] transition-colors shadow-[0_4px_0_rgba(15,60,53,0.38),_0_10px_20px_-6px_rgba(20,107,94,0.4)]">

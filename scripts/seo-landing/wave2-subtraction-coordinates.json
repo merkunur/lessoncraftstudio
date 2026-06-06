@@ -1,0 +1,947 @@
+{
+  "_note": "DB-derived ground-truth valid coordinates for Wave 2 coupled slice (subtraction x {cross-out,image-number} x K x EN). canonical = earliest publishedAt; slugTheme = hyphenated theme (collapse canonical may be the bare slug, e.g. animals -> subtraction-cross-out). collective = collective_risk WARN. 8 retired abstract themes per mode. From enum-wave2-subtraction.js on Hetzner.",
+  "count": 94,
+  "coordinates": [
+    {
+      "mode": "cross-out",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "subtraction-cross-out-4th-of-july",
+      "siblings": [
+        "subtraction-cross-out-4th-of-july"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "subtraction-cross-out-accessories",
+      "siblings": [
+        "subtraction-cross-out-accessories"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "subtraction-cross-out",
+      "siblings": [
+        "subtraction-cross-out",
+        "subtraction-cross-out-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "subtraction-cross-out-around-the-house",
+      "siblings": [
+        "subtraction-cross-out-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "subtraction-cross-out-at-the-supermarket",
+      "siblings": [
+        "subtraction-cross-out-at-the-supermarket"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "subtraction-cross-out-bakery",
+      "siblings": [
+        "subtraction-cross-out-bakery"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "subtraction-cross-out-beach",
+      "siblings": [
+        "subtraction-cross-out-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "subtraction-cross-out-birds",
+      "siblings": [
+        "subtraction-cross-out-birds"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "subtraction-cross-out-birds-2",
+      "siblings": [
+        "subtraction-cross-out-birds-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "subtraction-cross-out-breakfast",
+      "siblings": [
+        "subtraction-cross-out-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "subtraction-cross-out-camping",
+      "siblings": [
+        "subtraction-cross-out-camping"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "subtraction-cross-out-christmas",
+      "siblings": [
+        "subtraction-cross-out-christmas"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "subtraction-cross-out-classroom",
+      "siblings": [
+        "subtraction-cross-out-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "subtraction-cross-out-clothing",
+      "siblings": [
+        "subtraction-cross-out-clothing"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "subtraction-cross-out-desserts-and-sweets",
+      "siblings": [
+        "subtraction-cross-out-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "subtraction-cross-out-dinosaurs",
+      "siblings": [
+        "subtraction-cross-out-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "subtraction-cross-out-easter",
+      "siblings": [
+        "subtraction-cross-out-easter"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "subtraction-cross-out-faces-bw",
+      "siblings": [
+        "subtraction-cross-out-faces-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "subtraction-cross-out-farm-animals",
+      "siblings": [
+        "subtraction-cross-out-farm-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "subtraction-cross-out-flowers",
+      "siblings": [
+        "subtraction-cross-out-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "subtraction-cross-out-forest-creatures",
+      "siblings": [
+        "subtraction-cross-out-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "subtraction-cross-out-fruits",
+      "siblings": [
+        "subtraction-cross-out-fruits"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "subtraction-cross-out-furniture",
+      "siblings": [
+        "subtraction-cross-out-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "home_bw",
+      "slugTheme": "home-bw",
+      "canonical": "subtraction-cross-out-home-bw",
+      "siblings": [
+        "subtraction-cross-out-home-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "subtraction-cross-out-hospital",
+      "siblings": [
+        "subtraction-cross-out-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "household_bw",
+      "slugTheme": "household-bw",
+      "canonical": "subtraction-cross-out-household-bw",
+      "siblings": [
+        "subtraction-cross-out-household-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "subtraction-cross-out-insects-and-bugs",
+      "siblings": [
+        "subtraction-cross-out-insects-and-bugs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "subtraction-cross-out-kitchen-tools",
+      "siblings": [
+        "subtraction-cross-out-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "subtraction-cross-out-miscellaneous",
+      "siblings": [
+        "subtraction-cross-out-miscellaneous"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "subtraction-cross-out-music",
+      "siblings": [
+        "subtraction-cross-out-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "nature_bw",
+      "slugTheme": "nature-bw",
+      "canonical": "subtraction-cross-out-nature-bw",
+      "siblings": [
+        "subtraction-cross-out-nature-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "objects_bw",
+      "slugTheme": "objects-bw",
+      "canonical": "subtraction-cross-out-objects-bw",
+      "siblings": [
+        "subtraction-cross-out-objects-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "subtraction-cross-out-occupations",
+      "siblings": [
+        "subtraction-cross-out-occupations"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "subtraction-cross-out-ocean-life",
+      "siblings": [
+        "subtraction-cross-out-ocean-life"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "subtraction-cross-out-pets",
+      "siblings": [
+        "subtraction-cross-out-pets"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "subtraction-cross-out-post-office",
+      "siblings": [
+        "subtraction-cross-out-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "subtraction-cross-out-reptiles-and-amphibians",
+      "siblings": [
+        "subtraction-cross-out-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "subtraction-cross-out-shapes",
+      "siblings": [
+        "subtraction-cross-out-shapes"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "subtraction-cross-out-space",
+      "siblings": [
+        "subtraction-cross-out-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "sports_bw",
+      "slugTheme": "sports-bw",
+      "canonical": "subtraction-cross-out-sports-bw",
+      "siblings": [
+        "subtraction-cross-out-sports-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "subtraction-cross-out-thanksgiving",
+      "siblings": [
+        "subtraction-cross-out-thanksgiving"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "subtraction-cross-out-things-that-fly",
+      "siblings": [
+        "subtraction-cross-out-things-that-fly"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "subtraction-cross-out-tools",
+      "siblings": [
+        "subtraction-cross-out-tools"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "subtraction-cross-out-toys",
+      "siblings": [
+        "subtraction-cross-out-toys"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "subtraction-cross-out-tree",
+      "siblings": [
+        "subtraction-cross-out-tree"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "subtraction-cross-out-valentine-bw",
+      "siblings": [
+        "subtraction-cross-out-valentine-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "subtraction-cross-out-vegetables",
+      "siblings": [
+        "subtraction-cross-out-vegetables"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "subtraction-cross-out-vehicles",
+      "siblings": [
+        "subtraction-cross-out-vehicles"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "cross-out",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "subtraction-cross-out-zoo-animals",
+      "siblings": [
+        "subtraction-cross-out-zoo-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "subtraction-image-number-4th-of-july",
+      "siblings": [
+        "subtraction-image-number-4th-of-july"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "subtraction-image-number-accessories",
+      "siblings": [
+        "subtraction-image-number-accessories"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "subtraction-image-number-animals",
+      "siblings": [
+        "subtraction-image-number-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "subtraction-image-number-around-the-house",
+      "siblings": [
+        "subtraction-image-number-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "subtraction-image-number-at-the-supermarket",
+      "siblings": [
+        "subtraction-image-number-at-the-supermarket"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "subtraction-image-number-bakery",
+      "siblings": [
+        "subtraction-image-number-bakery"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "subtraction-image-number-beach",
+      "siblings": [
+        "subtraction-image-number-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "subtraction-image-number-birds",
+      "siblings": [
+        "subtraction-image-number-birds"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "subtraction-image-number-birds-2",
+      "siblings": [
+        "subtraction-image-number-birds-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "subtraction-image-number-breakfast",
+      "siblings": [
+        "subtraction-image-number-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "subtraction-image-number-camping",
+      "siblings": [
+        "subtraction-image-number-camping"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "subtraction-image-number-christmas",
+      "siblings": [
+        "subtraction-image-number-christmas"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "subtraction-image-number-classroom",
+      "siblings": [
+        "subtraction-image-number-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "subtraction-image-number-clothing",
+      "siblings": [
+        "subtraction-image-number-clothing"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "subtraction-image-number-desserts-and-sweets",
+      "siblings": [
+        "subtraction-image-number-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "subtraction-image-number-dinosaurs",
+      "siblings": [
+        "subtraction-image-number-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "subtraction-image-number-easter",
+      "siblings": [
+        "subtraction-image-number-easter"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter_bw",
+      "slugTheme": "easter-bw",
+      "canonical": "subtraction-image-number-easter-bw",
+      "siblings": [
+        "subtraction-image-number-easter-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "subtraction-image-number-faces-bw",
+      "siblings": [
+        "subtraction-image-number-faces-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "subtraction-image-number-farm-animals",
+      "siblings": [
+        "subtraction-image-number-farm-animals"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "subtraction-image-number-flowers",
+      "siblings": [
+        "subtraction-image-number-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "subtraction-image-number-forest-creatures",
+      "siblings": [
+        "subtraction-image-number-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "subtraction-image-number-fruits",
+      "siblings": [
+        "subtraction-image-number-fruits"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "subtraction-image-number-furniture",
+      "siblings": [
+        "subtraction-image-number-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "subtraction-image-number-hospital",
+      "siblings": [
+        "subtraction-image-number-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "subtraction-image-number-insects-and-bugs",
+      "siblings": [
+        "subtraction-image-number-insects-and-bugs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "subtraction-image-number-kitchen-tools",
+      "siblings": [
+        "subtraction-image-number-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "subtraction-image-number-miscellaneous",
+      "siblings": [
+        "subtraction-image-number-miscellaneous"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "subtraction-image-number-music",
+      "siblings": [
+        "subtraction-image-number-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "subtraction-image-number-occupations",
+      "siblings": [
+        "subtraction-image-number-occupations"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "subtraction-image-number-ocean-life",
+      "siblings": [
+        "subtraction-image-number-ocean-life"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "subtraction-image-number-pets",
+      "siblings": [
+        "subtraction-image-number-pets"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "subtraction-image-number-post-office",
+      "siblings": [
+        "subtraction-image-number-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "subtraction-image-number-reptiles-and-amphibians",
+      "siblings": [
+        "subtraction-image-number-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "subtraction-image-number-shapes",
+      "siblings": [
+        "subtraction-image-number-shapes"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "subtraction-image-number-space",
+      "siblings": [
+        "subtraction-image-number-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "subtraction-image-number-thanksgiving",
+      "siblings": [
+        "subtraction-image-number-thanksgiving"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "subtraction-image-number-things-that-fly",
+      "siblings": [
+        "subtraction-image-number-things-that-fly"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "subtraction-image-number-tools",
+      "siblings": [
+        "subtraction-image-number-tools"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "subtraction-image-number-toys",
+      "siblings": [
+        "subtraction-image-number-toys"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "subtraction-image-number-tree",
+      "siblings": [
+        "subtraction-image-number-tree"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "subtraction-image-number-valentine-bw",
+      "siblings": [
+        "subtraction-image-number-valentine-bw"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "subtraction-image-number-vegetables",
+      "siblings": [
+        "subtraction-image-number-vegetables"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "subtraction-image-number-vehicles",
+      "siblings": [
+        "subtraction-image-number-vehicles"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "subtraction-image-number-zoo-animals",
+      "siblings": [
+        "subtraction-image-number-zoo-animals"
+      ],
+      "collective": false
+    }
+  ]
+}

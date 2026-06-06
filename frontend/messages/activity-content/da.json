@@ -64,6 +64,29 @@
     "whatsInsideCode": "Følger Fælles Mål"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Lige store dele, der ser forskellige ud, er en rolig aktivitet, som barnet kan spille direkte i browseren. Der skal ikke installeres noget, og man behøver ikke en konto. Barnet ser en form, der er delt i et bestemt antal lige store dele, og skal finde en anden form, der er delt i lige så mange lige store dele.",
+        "Den store idé er, at lige store dele ikke behøver at se ens ud. Et kvadrat, der er delt ned gennem midten, og et kvadrat, der er delt fra hjørne til hjørne, viser begge to halvdele — selvom stykkerne har forskellig form. Barnet skal vælge den form, der viser det samme antal lige store dele, og lade de forkerte muligheder ligge: en form med dele, der ikke er lige store, en form med et forkert antal dele, eller en form, der slet ikke er delt. Barnet deler ikke selv formen, men genkender, at lige store dele kan se forskellige ud.",
+        "Aktiviteten følger Fælles Mål inden for området geometri og måling: at genkende former, der er delt i to, tre og fire lige store dele, og at kende dem som halvdele, tredjedele og fjerdedele. Der er ingen timer og ingen point — barnet får ro til at se godt efter og sammenligne i sit eget tempo."
+      ],
+      "practices": [
+        "Genkende, hvornår et kvadrat eller et rektangel er delt i lige store dele",
+        "Se, at lige store dele kan have forskellig form og stadig være lige store",
+        "Sammenligne to former og finde den, der er delt i lige så mange lige store dele",
+        "Tælle, om en form er delt i to, tre eller fire lige store dele"
+      ],
+      "howToPlay": [
+        "Barnet ser øverst en form, der er delt i lige store dele, og kigger godt på, hvor mange dele der er.",
+        "Barnet trykker på den anden form, der er delt i lige så mange lige store dele — også selvom delene ser anderledes ud.",
+        "Tryk på Tjek for at se, om det passer. Er det ikke rigtigt, kan barnet roligt prøve igen."
+      ],
+      "learningGoals": [
+        "Barnet kan genkende lige store dele, også når de har forskellig form",
+        "Barnet kan kende former, der er delt i halvdele, tredjedele og fjerdedele",
+        "Barnet kan sammenligne to former og finde dem, der har lige så mange lige store dele"
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Denne gratis, interaktive aktivitet hjælper små børn med at genkende, hvornår en form er delt i lige store dele. Barnet ser fire enkle former — cirkler, kvadrater og rektangler — og trykker på den, der er delt retfærdigt i lige store dele. Det hele foregår i browseren: ingen installation, ingen konto og ingen reklamer.",

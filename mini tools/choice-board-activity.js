@@ -341,19 +341,22 @@ var ACTIVITY_STRINGS = {
     en: 'This shape is split into 2 equal parts. Tap another shape that is also split into 2 equal parts.',
     fi: 'Tämä muoto on jaettu kahteen yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu kahteen yhtä suureen osaan.',
     de: 'Diese Form ist in zwei gleiche Teile geteilt. Tippe auf eine andere Form, die auch in zwei gleiche Teile geteilt ist.',
-    fr: 'Cette forme est partagée en deux parts égales. Touche une autre forme qui est aussi partagée en deux parts égales.'
+    fr: 'Cette forme est partagée en deux parts égales. Touche une autre forme qui est aussi partagée en deux parts égales.',
+    es: 'Esta forma está dividida en dos partes iguales. Toca otra forma que también está dividida en dos partes iguales.'
   },
   promptTapMatchThirds: {
     en: 'This shape is split into 3 equal parts. Tap another shape that is also split into 3 equal parts.',
     fi: 'Tämä muoto on jaettu kolmeen yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu kolmeen yhtä suureen osaan.',
     de: 'Diese Form ist in drei gleiche Teile geteilt. Tippe auf eine andere Form, die auch in drei gleiche Teile geteilt ist.',
-    fr: 'Cette forme est partagée en trois parts égales. Touche une autre forme qui est aussi partagée en trois parts égales.'
+    fr: 'Cette forme est partagée en trois parts égales. Touche une autre forme qui est aussi partagée en trois parts égales.',
+    es: 'Esta forma está dividida en tres partes iguales. Toca otra forma que también está dividida en tres partes iguales.'
   },
   promptTapMatchFourths: {
     en: 'This shape is split into 4 equal parts. Tap another shape that is also split into 4 equal parts.',
     fi: 'Tämä muoto on jaettu neljään yhtä suureen osaan. Napauta toista muotoa, joka on myös jaettu neljään yhtä suureen osaan.',
     de: 'Diese Form ist in vier gleiche Teile geteilt. Tippe auf eine andere Form, die auch in vier gleiche Teile geteilt ist.',
-    fr: 'Cette forme est partagée en quatre parts égales. Touche une autre forme qui est aussi partagée en quatre parts égales.'
+    fr: 'Cette forme est partagée en quatre parts égales. Touche une autre forme qui est aussi partagée en quatre parts égales.',
+    es: 'Esta forma está dividida en cuatro partes iguales. Toca otra forma que también está dividida en cuatro partes iguales.'
   },
   hintPickOne: {
     en: 'Pick one of the shapes first',

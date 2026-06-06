@@ -14,6 +14,29 @@
     "whatsInsideRange":"Números del {min} al {max}","whatsInsideTheme":"Fichas con imágenes de {theme} que los niños pueden reconocer","whatsInsideGrade":"Diseñada para estudiantes de {grade}.º grado (de 5 a 9 años aproximadamente)","whatsInsideStrand":"Eje del currículo: {strand}","whatsInsideCode":"Alineada con el currículo oficial"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Es una actividad de geometría para que el niño o la niña explore las partes iguales en figuras como cuadrados y rectángulos. Funciona en el navegador, sin instalar nada y sin crear ninguna cuenta.",
+        "La idea nueva es sencilla y poderosa: las partes iguales no tienen por qué verse igual. Un cuadrado dividido por la mitad y un cuadrado dividido de esquina a esquina muestran las dos mitades iguales, aunque los trozos tengan formas distintas. El niño o la niña ve una figura dividida en un número de partes iguales y elige otra figura dividida en ese mismo número de partes iguales, pero de otra manera. Las opciones que no sirven tienen partes desiguales, un número de partes equivocado o no están divididas. El niño o la niña no divide la figura, sino que reconoce que las partes iguales pueden tener formas distintas.",
+        "Está alineada con el currículo oficial, en el eje Sentido espacial: reconocer figuras divididas en dos, en tres y en cuatro partes iguales y nombrarlas como mitades, tercios y cuartos. Sin temporizador y sin puntuación, con un ritmo tranquilo para que cada niño o niña avance con calma."
+      ],
+      "practices": [
+        "Reconocer cuándo un cuadrado o un rectángulo está dividido en partes iguales.",
+        "Descubrir que una misma figura se puede dividir en partes iguales de varias maneras.",
+        "Identificar la figura dividida en el mismo número de partes iguales, aunque los trozos tengan otra forma.",
+        "Nombrar las partes iguales como mitades, tercios y cuartos."
+      ],
+      "howToPlay": [
+        "Mira la primera figura y fíjate en cuántas partes iguales tiene.",
+        "Toca la otra figura que también está dividida en ese mismo número de partes iguales, aunque los trozos se vean diferentes.",
+        "Cuando hayas elegido, pulsa Comprobar para ver tu respuesta, con calma y sin prisa."
+      ],
+      "learningGoals": [
+        "Entender que las partes iguales no tienen por qué verse igual.",
+        "Reconocer figuras divididas en dos, en tres o en cuatro partes iguales.",
+        "Empezar a usar las palabras mitades, tercios y cuartos al hablar de las partes."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "En esta actividad, los niños y las niñas miran cuatro figuras —círculos, cuadrados y rectángulos— y tocan la que está dividida en partes iguales. Funciona en el navegador, sin instalar nada y sin crear ninguna cuenta.",

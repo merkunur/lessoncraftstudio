@@ -197,15 +197,21 @@ export default function WorksheetLandingPage(
           <section className="mb-12">
             <h2 className="font-display font-bold text-xl text-ink-900 mb-5">More worksheets to try</h2>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-              {l.carousel.map((c) => (
+              {l.carousel.map((c) => {
+                const cl = getLandingBySlug(locale, c.href);
+                const cthumb = cl ? deckAssets(locale, cl.canonicalDeckSlug).thumbnail : null;
+                return (
                 <Link key={c.href} href={localePath(locale, 'worksheets', c.href)}
                   className={`block bg-white rounded-2xl overflow-hidden border border-cream-300 hover:-translate-y-0.5 transition-transform ${SHADOW}`}>
-                  <div className="aspect-[4/3] bg-[#FBF6EE] border-b border-cream-300" />
+                  <div className="relative aspect-[4/3] bg-[#FBF6EE] border-b border-cream-300">
+                    {cthumb && <Image src={wwwImg(cthumb)} alt={c.label} fill sizes="(max-width:1023px) 45vw, 240px" className="object-cover" />}
+                  </div>
                   <div className="p-3.5">
                     <p className="font-display font-semibold text-[15px] text-ink-900 leading-snug">{c.label}</p>
                   </div>
                 </Link>
-              ))}
+                );
+              })}
             </div>
           </section>
 

@@ -64,6 +64,29 @@
     "whatsInsideCode": "Afgestemd op de kerndoelen"
   },
   "prose": {
+    "choice-board.fraction-noncongruent.2-g-a-3": {
+      "about": [
+        "Dit is een korte, speelse meetkunde-activiteit voor kinderen van 6 tot 8 jaar. Ze speelt direct in de browser: geen installatie, geen account, gewoon openen en beginnen.",
+        "Het kind ziet een vorm die in gelijke delen is verdeeld en zoekt daarna een andere vorm die in evenveel gelijke delen is verdeeld. Het bijzondere is dit keer: gelijke delen hoeven er niet hetzelfde uit te zien. Een vierkant dat door het midden is verdeeld en een vierkant dat van hoek naar hoek is verdeeld, laten allebei twee gelijke helften zien, ook al hebben de stukken een andere vorm. De andere keuzes kloppen niet: de delen zijn niet even groot, het zijn er te veel of te weinig, of de vorm is helemaal niet verdeeld. Het kind verdeelt de vorm dus niet zelf, maar herkent dat gelijke delen er anders uit kunnen zien.",
+        "De activiteit sluit aan bij de kerndoelen binnen het domein Meetkunde: herkennen dat een vorm in twee, drie of vier gelijke delen is verdeeld en die delen benoemen als helften, derden en vierden. Geen timer, geen score, geen druk; gewoon rustig kijken, vergelijken en ontdekken."
+      ],
+      "practices": [
+        "Herkennen wanneer een vierkant of rechthoek in gelijke delen is verdeeld",
+        "Zien dat twee vormen evenveel gelijke delen kunnen hebben, ook al zien de stukken er anders uit",
+        "Onderscheid maken tussen gelijke en ongelijke delen, en tussen het juiste en het verkeerde aantal delen",
+        "Gelijke delen benoemen als helften, derden en vierden"
+      ],
+      "howToPlay": [
+        "Het kind bekijkt eerst de bovenste vorm en telt in hoeveel gelijke delen die is verdeeld.",
+        "Daarna zoekt het kind tussen de andere vormen die ene vorm die in evenveel gelijke delen is verdeeld, ook al ziet de verdeling er anders uit.",
+        "Tik op die vorm en controleer je antwoord."
+      ],
+      "learningGoals": [
+        "Het kind herkent dat gelijke delen niet altijd dezelfde vorm hebben.",
+        "Het kind koppelt twee vormen die in evenveel gelijke delen zijn verdeeld aan elkaar.",
+        "Het kind benoemt gelijke delen als helften, derden of vierden."
+      ]
+    },
     "choice-board.fraction-equal-shares.1-g-a-3": {
       "about": [
         "Deze gratis, interactieve activiteit met vormen helpt jonge kinderen herkennen wanneer een vorm in gelijke delen is verdeeld. Het kind ziet vier vormen — cirkels, vierkanten en rechthoeken — en tikt op de vorm die in even grote, eerlijke delen is verdeeld. Werkt direct in de browser, zonder installeren en zonder account.",

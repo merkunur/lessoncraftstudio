@@ -112,14 +112,15 @@ export default function WorksheetLandingPage(
     audience: { '@type': 'EducationalAudience', educationalRole: 'student' },
   } as Record<string, unknown>;
   // Standard-bearing landings carry an explicit CCSS educationalAlignment; strand-only landings (no l.standard)
-  // are unchanged (Phase-4 flag-5 deferral). targetUrl is the canonical corestandards.org Math content URL.
+  // are unchanged (Phase-4 flag-5 deferral). Shape matches the established activity-page pattern
+  // (alignmentType 'educationalSubject' + targetName + educationalFramework, NO targetUrl — corestandards.org
+  // standard pages 404, and the code in targetName is the durable machine anchor).
   if (l.standard) {
     learningResource.educationalAlignment = {
       '@type': 'AlignmentObject',
-      alignmentType: 'teaches',
+      alignmentType: 'educationalSubject',
       educationalFramework: 'Common Core State Standards',
       targetName: l.standard,
-      targetUrl: `http://www.corestandards.org/Math/Content/${l.standard.replace(/\./g, '/')}/`,
     };
   }
 

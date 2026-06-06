@@ -23,6 +23,7 @@ import {
   TOPIC_PAGE_SIZE,
   TopicSortKey,
 } from '@/lib/topic-decks';
+import { landingSlugForDeck } from '@/lib/seo/landing-content';
 import Breadcrumbs from '@/components/catalog/Breadcrumbs';
 import CrossAxisPivots from '@/components/catalog/CrossAxisPivots';
 import TopicProseContainer, { intentForAxis } from '@/components/catalog/TopicProseContainer';
@@ -241,7 +242,9 @@ function deckTitleFor(deck: TopicDeckSummary, locale: string): string {
 }
 
 function deckLinkFor(deck: TopicDeckSummary): string {
-  return `/${deck.language}/decks/${deck.slug}/`;
+  // Conditional repoint: landing IFF published for this deck's coordinate, else /decks/ asset.
+  const lp = landingSlugForDeck(deck.language, deck.slug);
+  return lp ? `/${deck.language}/worksheets/${lp}` : `/${deck.language}/decks/${deck.slug}/`;
 }
 
 /**

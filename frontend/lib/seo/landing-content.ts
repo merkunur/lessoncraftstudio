@@ -53,6 +53,32 @@ export function getAllLandings(locale: string): Landing[] {
   return f ? f.landings : [];
 }
 
+/**
+ * Reverse map: deck slug → published landing slug (per locale). Drives the
+ * hub→landing CONDITIONAL REPOINT — a deck card points to its landing IFF a
+ * published landing exists for that deck's coordinate; else it keeps the /decks/
+ * asset URL. This auto-bounds the live /topic/ mutation to exactly the published
+ * landing set (rollback = unpublish a landing → its decks fall back to /decks/).
+ * Built from each landing's canonicalDeckSlug + collapseSiblings.
+ */
+const _deckToLanding: Record<string, Record<string, string>> = {};
+function deckMap(locale: string): Record<string, string> {
+  if (_deckToLanding[locale]) return _deckToLanding[locale];
+  const m: Record<string, string> = {};
+  const f = FILES[locale];
+  if (f) {
+    for (const l of f.landings) {
+      const decks = l.collapseSiblings && l.collapseSiblings.length ? l.collapseSiblings : [l.canonicalDeckSlug];
+      for (const d of decks) m[d] = l.slug;
+    }
+  }
+  _deckToLanding[locale] = m;
+  return m;
+}
+export function landingSlugForDeck(locale: string, deckSlug: string): string | null {
+  return deckMap(locale)[deckSlug] || null;
+}
+
 /** Deck-asset URLs (nginx-served; trailing-slash dir; slug-prefixed PDFs). */
 export interface DeckAssets { deckDir: string; deckHtml: string; thumbnail: string; pdf: string; answerKey: string }
 export function deckAssets(locale: string, deckSlug: string): DeckAssets {

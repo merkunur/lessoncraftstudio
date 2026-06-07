@@ -1,0 +1,578 @@
+{
+  "_note": "Wave 7 FINAL — more-less/image-image x Preschool x EN, readiness (More & fewer (quantity readiness); NO alignment, no CCSS below K). 52 themes, 157 decks (all 3x collapse). Relative-quantity perception (which group has MORE/FEWER), pre-counting - NOT count-to-N (no K.CC), NOT measurement (no K.MD). fewer not less.",
+  "count": 52,
+  "coordinates": [
+    {
+      "mode": "image-image",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "more-less-4th-of-july",
+      "siblings": [
+        "more-less-4th-of-july",
+        "more-less-4th-of-july-2",
+        "more-less-4th-of-july-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "more-less-accessories",
+      "siblings": [
+        "more-less-accessories",
+        "more-less-accessories-2",
+        "more-less-accessories-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "more-less-activities",
+      "siblings": [
+        "more-less-activities",
+        "more-less-activities-2",
+        "more-less-activities-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "more-less-animals",
+      "siblings": [
+        "more-less-animals",
+        "more-less-animals-2",
+        "more-less-animals-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "more-less-around-the-house",
+      "siblings": [
+        "more-less-around-the-house",
+        "more-less-around-the-house-2",
+        "more-less-around-the-house-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "more-less-at-the-supermarket",
+      "siblings": [
+        "more-less-at-the-supermarket",
+        "more-less-at-the-supermarket-2",
+        "more-less-at-the-supermarket-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "more-less-bakery",
+      "siblings": [
+        "more-less-bakery",
+        "more-less-bakery-2",
+        "more-less-bakery-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "more-less-beach",
+      "siblings": [
+        "more-less-beach",
+        "more-less-beach-2",
+        "more-less-beach-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "more-less-birds",
+      "siblings": [
+        "more-less-birds",
+        "more-less-birds-3",
+        "more-less-birds-4"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "more-less-birds-2",
+      "siblings": [
+        "more-less-birds-2",
+        "more-less-birds-2-2",
+        "more-less-birds-2-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "more-less-body-parts",
+      "siblings": [
+        "more-less-body-parts",
+        "more-less-body-parts-2",
+        "more-less-body-parts-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "more-less-breakfast",
+      "siblings": [
+        "more-less-breakfast",
+        "more-less-breakfast-2",
+        "more-less-breakfast-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "more-less-camping",
+      "siblings": [
+        "more-less-camping",
+        "more-less-camping-2",
+        "more-less-camping-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "more-less-christmas",
+      "siblings": [
+        "more-less-christmas",
+        "more-less-christmas-2",
+        "more-less-christmas-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "more-less-classroom",
+      "siblings": [
+        "more-less-classroom",
+        "more-less-classroom-2",
+        "more-less-classroom-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "more-less-clothing",
+      "siblings": [
+        "more-less-clothing",
+        "more-less-clothing-2",
+        "more-less-clothing-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "more-less-colors",
+      "siblings": [
+        "more-less-colors",
+        "more-less-colors-2",
+        "more-less-colors-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "more-less-desserts-and-sweets",
+      "siblings": [
+        "more-less-desserts-and-sweets",
+        "more-less-desserts-and-sweets-2",
+        "more-less-desserts-and-sweets-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "more-less-dinosaurs",
+      "siblings": [
+        "more-less-dinosaurs",
+        "more-less-dinosaurs-2",
+        "more-less-dinosaurs-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "more-less-easter",
+      "siblings": [
+        "more-less-easter",
+        "more-less-easter-2",
+        "more-less-easter-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "more-less-emotions",
+      "siblings": [
+        "more-less-emotions",
+        "more-less-emotions-2",
+        "more-less-emotions-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "more-less-faces-bw",
+      "siblings": [
+        "more-less-faces-bw",
+        "more-less-faces-bw-2",
+        "more-less-faces-bw-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "more-less-farm-animals",
+      "siblings": [
+        "more-less-farm-animals",
+        "more-less-farm-animals-2",
+        "more-less-farm-animals-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "more-less-flowers",
+      "siblings": [
+        "more-less-flowers",
+        "more-less-flowers-2",
+        "more-less-flowers-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "more-less-forest-creatures",
+      "siblings": [
+        "more-less-forest-creatures",
+        "more-less-forest-creatures-2",
+        "more-less-forest-creatures-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "more-less-fruits",
+      "siblings": [
+        "more-less-fruits",
+        "more-less-fruits-2",
+        "more-less-fruits-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "more-less-furniture",
+      "siblings": [
+        "more-less-furniture",
+        "more-less-furniture-2",
+        "more-less-furniture-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "more-less-hospital",
+      "siblings": [
+        "more-less-hospital",
+        "more-less-hospital-2",
+        "more-less-hospital-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "more-less-insects-and-bugs",
+      "siblings": [
+        "more-less-insects-and-bugs",
+        "more-less-insects-and-bugs-2",
+        "more-less-insects-and-bugs-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "more-less-kitchen-tools",
+      "siblings": [
+        "more-less-kitchen-tools",
+        "more-less-kitchen-tools-2",
+        "more-less-kitchen-tools-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "more-less-miscellaneous",
+      "siblings": [
+        "more-less-miscellaneous",
+        "more-less-miscellaneous-2",
+        "more-less-miscellaneous-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "more-less-music",
+      "siblings": [
+        "more-less-music",
+        "more-less-music-2",
+        "more-less-music-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "more-less-occupations",
+      "siblings": [
+        "more-less-occupations",
+        "more-less-occupations-2",
+        "more-less-occupations-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "more-less-ocean-life",
+      "siblings": [
+        "more-less-ocean-life",
+        "more-less-ocean-life-2",
+        "more-less-ocean-life-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "more-less-pets",
+      "siblings": [
+        "more-less-pets",
+        "more-less-pets-2",
+        "more-less-pets-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "more-less-post-office",
+      "siblings": [
+        "more-less-post-office",
+        "more-less-post-office-2",
+        "more-less-post-office-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "more-less-reptiles-and-amphibians",
+      "siblings": [
+        "more-less-reptiles-and-amphibians",
+        "more-less-reptiles-and-amphibians-2",
+        "more-less-reptiles-and-amphibians-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "more-less-shapes",
+      "siblings": [
+        "more-less-shapes",
+        "more-less-shapes-2",
+        "more-less-shapes-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "more-less-space",
+      "siblings": [
+        "more-less-space",
+        "more-less-space-2",
+        "more-less-space-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "more-less-spring",
+      "siblings": [
+        "more-less-spring",
+        "more-less-spring-2",
+        "more-less-spring-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "more-less-summer",
+      "siblings": [
+        "more-less-summer",
+        "more-less-summer-2",
+        "more-less-summer-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "more-less-thanksgiving",
+      "siblings": [
+        "more-less-thanksgiving",
+        "more-less-thanksgiving-2",
+        "more-less-thanksgiving-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "more-less-things-that-fly",
+      "siblings": [
+        "more-less-things-that-fly",
+        "more-less-things-that-fly-2",
+        "more-less-things-that-fly-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "more-less-tools",
+      "siblings": [
+        "more-less-tools",
+        "more-less-tools-2",
+        "more-less-tools-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "more-less-toys",
+      "siblings": [
+        "more-less-toys",
+        "more-less-toys-2",
+        "more-less-toys-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "more-less-tree",
+      "siblings": [
+        "more-less-tree",
+        "more-less-tree-2",
+        "more-less-tree-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "more-less-valentine-bw",
+      "siblings": [
+        "more-less-valentine-bw",
+        "more-less-valentine-bw-2",
+        "more-less-valentine-bw-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "more-less-vegetables",
+      "siblings": [
+        "more-less-vegetables",
+        "more-less-vegetables-2",
+        "more-less-vegetables-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "more-less-vehicles",
+      "siblings": [
+        "more-less-vehicles",
+        "more-less-vehicles-2",
+        "more-less-vehicles-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "more-less-weather",
+      "siblings": [
+        "more-less-weather",
+        "more-less-weather-2",
+        "more-less-weather-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "more-less-winter",
+      "siblings": [
+        "more-less-winter",
+        "more-less-winter-2",
+        "more-less-winter-3"
+      ]
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "more-less-zoo-animals",
+      "siblings": [
+        "more-less-zoo-animals",
+        "more-less-zoo-animals-2",
+        "more-less-zoo-animals-3"
+      ]
+    }
+  ]
+}

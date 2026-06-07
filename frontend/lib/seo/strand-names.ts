@@ -138,6 +138,12 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
     no: 'Språklig bevissthet',
     fi: 'Kielellinen tietoisuus',
   },
+  // Language (CCSS-ELA: vocabulary / grammar / conventions — incl. prepositions L.K.1.e, spell-phonetically L.K.2.d).
+  // EN-only this wave; per-locale names filled at each locale's fan-out (native ensemble, no MT per §A.13.49). The
+  // row.en fallback covers non-EN until then, and no non-EN Language page exists yet.
+  'Language': {
+    en: 'Language',
+  },
 };
 
 /**

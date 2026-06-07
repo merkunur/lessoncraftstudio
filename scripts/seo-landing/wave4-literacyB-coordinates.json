@@ -1,0 +1,704 @@
+{
+  "_note": "Wave 4 standalones — prepositions/multiplechoice (L.K.1.e Language) + bingo/null (readiness, NO alignment, Visual discrimination matching) × K × EN. 50+18=68. bingo heavy collapse via siblings; prepositions 1:1.",
+  "count": 68,
+  "coordinates": [
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "bingo-accessories",
+      "siblings": [
+        "bingo-accessories",
+        "bingo-accessories-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "bingo-activities",
+      "siblings": [
+        "bingo-activities",
+        "bingo-activities-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "bingo",
+      "siblings": [
+        "bingo",
+        "bingo-animals",
+        "bingo-animals-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "bingo-around-the-house",
+      "siblings": [
+        "bingo-around-the-house",
+        "bingo-around-the-house-2",
+        "bingo-around-the-house-3"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "bingo-at-the-supermarket",
+      "siblings": [
+        "bingo-at-the-supermarket"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "bingo-beach",
+      "siblings": [
+        "bingo-beach",
+        "bingo-beach-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "bingo-body-parts",
+      "siblings": [
+        "bingo-body-parts",
+        "bingo-body-parts-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "bingo-camping",
+      "siblings": [
+        "bingo-camping",
+        "bingo-camping-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "bingo-classroom",
+      "siblings": [
+        "bingo-classroom",
+        "bingo-classroom-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "bingo-clothing",
+      "siblings": [
+        "bingo-clothing",
+        "bingo-clothing-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "bingo-forest-creatures",
+      "siblings": [
+        "bingo-forest-creatures",
+        "bingo-forest-creatures-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "bingo-kitchen-tools",
+      "siblings": [
+        "bingo-kitchen-tools",
+        "bingo-kitchen-tools-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "bingo-occupations",
+      "siblings": [
+        "bingo-occupations",
+        "bingo-occupations-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "bingo-spring",
+      "siblings": [
+        "bingo-spring",
+        "bingo-spring-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "bingo-summer",
+      "siblings": [
+        "bingo-summer",
+        "bingo-summer-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "bingo-toys",
+      "siblings": [
+        "bingo-toys",
+        "bingo-toys-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "bingo-vehicles",
+      "siblings": [
+        "bingo-vehicles",
+        "bingo-vehicles-2"
+      ]
+    },
+    {
+      "type": "bingo",
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "bingo-zoo-animals",
+      "siblings": [
+        "bingo-zoo-animals"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "prepositions-multiplechoice-4th-of-july",
+      "siblings": [
+        "prepositions-multiplechoice-4th-of-july"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "prepositions-multiplechoice-accessories",
+      "siblings": [
+        "prepositions-multiplechoice-accessories"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "prepositions-multiplechoice-activities",
+      "siblings": [
+        "prepositions-multiplechoice-activities"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "prepositions-multiplechoice-animals",
+      "siblings": [
+        "prepositions-multiplechoice-animals"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "prepositions-multiplechoice-around-the-house",
+      "siblings": [
+        "prepositions-multiplechoice-around-the-house"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "prepositions-multiplechoice-at-the-supermarket",
+      "siblings": [
+        "prepositions-multiplechoice-at-the-supermarket"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "prepositions-multiplechoice-bakery",
+      "siblings": [
+        "prepositions-multiplechoice-bakery"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "prepositions-multiplechoice-beach",
+      "siblings": [
+        "prepositions-multiplechoice-beach"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "prepositions-multiplechoice-birds",
+      "siblings": [
+        "prepositions-multiplechoice-birds"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "prepositions-multiplechoice-birds-2",
+      "siblings": [
+        "prepositions-multiplechoice-birds-2"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "prepositions-multiplechoice-body-parts",
+      "siblings": [
+        "prepositions-multiplechoice-body-parts"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "prepositions-multiplechoice-breakfast",
+      "siblings": [
+        "prepositions-multiplechoice-breakfast"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "prepositions-multiplechoice-camping",
+      "siblings": [
+        "prepositions-multiplechoice-camping"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "prepositions-multiplechoice-christmas",
+      "siblings": [
+        "prepositions-multiplechoice-christmas"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "prepositions-multiplechoice-classroom",
+      "siblings": [
+        "prepositions-multiplechoice-classroom"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "prepositions-multiplechoice-clothing",
+      "siblings": [
+        "prepositions-multiplechoice-clothing"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "prepositions-multiplechoice-colors",
+      "siblings": [
+        "prepositions-multiplechoice-colors"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "prepositions-multiplechoice-desserts-and-sweets",
+      "siblings": [
+        "prepositions-multiplechoice-desserts-and-sweets"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "prepositions-multiplechoice-dinosaurs",
+      "siblings": [
+        "prepositions-multiplechoice-dinosaurs"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "prepositions-multiplechoice-easter",
+      "siblings": [
+        "prepositions-multiplechoice-easter"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "prepositions-multiplechoice-emotions",
+      "siblings": [
+        "prepositions-multiplechoice-emotions"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "prepositions-multiplechoice-farm-animals",
+      "siblings": [
+        "prepositions-multiplechoice-farm-animals"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "prepositions-multiplechoice-flowers",
+      "siblings": [
+        "prepositions-multiplechoice-flowers"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "prepositions-multiplechoice-forest-creatures",
+      "siblings": [
+        "prepositions-multiplechoice-forest-creatures"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "prepositions-multiplechoice-fruits",
+      "siblings": [
+        "prepositions-multiplechoice-fruits"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "prepositions-multiplechoice-furniture",
+      "siblings": [
+        "prepositions-multiplechoice-furniture"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "prepositions-multiplechoice-hospital",
+      "siblings": [
+        "prepositions-multiplechoice-hospital"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "prepositions-multiplechoice-insects-and-bugs",
+      "siblings": [
+        "prepositions-multiplechoice-insects-and-bugs"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "prepositions-multiplechoice-kitchen-tools",
+      "siblings": [
+        "prepositions-multiplechoice-kitchen-tools"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "prepositions-multiplechoice-miscellaneous",
+      "siblings": [
+        "prepositions-multiplechoice-miscellaneous"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "prepositions-multiplechoice-music",
+      "siblings": [
+        "prepositions-multiplechoice-music"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "prepositions-multiplechoice-occupations",
+      "siblings": [
+        "prepositions-multiplechoice-occupations"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "prepositions-multiplechoice-ocean-life",
+      "siblings": [
+        "prepositions-multiplechoice-ocean-life"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "prepositions-multiplechoice-pets",
+      "siblings": [
+        "prepositions-multiplechoice-pets"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "prepositions-multiplechoice-post-office",
+      "siblings": [
+        "prepositions-multiplechoice-post-office"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "prepositions-multiplechoice-reptiles-and-amphibians",
+      "siblings": [
+        "prepositions-multiplechoice-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "prepositions-multiplechoice-shapes",
+      "siblings": [
+        "prepositions-multiplechoice-shapes"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "prepositions-multiplechoice-space",
+      "siblings": [
+        "prepositions-multiplechoice-space"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "prepositions-multiplechoice-spring",
+      "siblings": [
+        "prepositions-multiplechoice-spring"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "prepositions-multiplechoice-summer",
+      "siblings": [
+        "prepositions-multiplechoice-summer"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "prepositions-multiplechoice-thanksgiving",
+      "siblings": [
+        "prepositions-multiplechoice-thanksgiving"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "prepositions-multiplechoice-things-that-fly",
+      "siblings": [
+        "prepositions-multiplechoice-things-that-fly"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "prepositions-multiplechoice-tools",
+      "siblings": [
+        "prepositions-multiplechoice-tools"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "prepositions-multiplechoice-toys",
+      "siblings": [
+        "prepositions-multiplechoice-toys"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "prepositions-multiplechoice-tree",
+      "siblings": [
+        "prepositions-multiplechoice-tree"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "prepositions-multiplechoice-vegetables",
+      "siblings": [
+        "prepositions-multiplechoice-vegetables"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "prepositions-multiplechoice-vehicles",
+      "siblings": [
+        "prepositions-multiplechoice-vehicles"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "prepositions-multiplechoice-weather",
+      "siblings": [
+        "prepositions-multiplechoice-weather"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "prepositions-multiplechoice-winter",
+      "siblings": [
+        "prepositions-multiplechoice-winter"
+      ]
+    },
+    {
+      "type": "prepositions",
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "prepositions-multiplechoice-zoo-animals",
+      "siblings": [
+        "prepositions-multiplechoice-zoo-animals"
+      ]
+    }
+  ]
+}

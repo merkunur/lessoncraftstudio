@@ -37,6 +37,31 @@ const DECK_SELECT = {
   updatedAt: true,
 } as const;
 
+// De-orphan (Wave 5): picture-sort "-vs-" pairs carry a single combined "X-vs-Y" subjectTag, so a theme hub for X
+// (or Y) must also surface them. getVsKeysForTheme returns the published "-vs-" subjectTags whose split on "-vs-"
+// has axisKey as an EXACT component — exact-equality, not substring, so `animals` matches `animals-vs-vehicles`
+// but never `zoo_animals-vs-...` or `...-vs-zoo_animals` (the anchor-precision guarantee). Cached at module scope
+// (the set is stable; refreshes on instance restart / deploy). Rollback = stop calling themeSubjectTagsWhere.
+let _vsKeysCache: string[] | null = null;
+async function loadAllVsKeys(): Promise<string[]> {
+  if (_vsKeysCache) return _vsKeysCache;
+  const rows = await prisma.$queryRaw<{ t: string }[]>`
+    SELECT DISTINCT t FROM decks, unnest(subject_tags) AS t WHERE status = 'published' AND t LIKE '%-vs-%'`;
+  _vsKeysCache = rows.map((r) => r.t);
+  return _vsKeysCache;
+}
+async function getVsKeysForTheme(axisKey: string): Promise<string[]> {
+  const all = await loadAllVsKeys();
+  return all.filter((k) => { const p = k.split('-vs-'); return p.length === 2 && (p[0] === axisKey || p[1] === axisKey); });
+}
+/** Theme-hub subjectTags WHERE that also matches "-vs-" pairs containing the theme (pure-Prisma, composable). */
+async function themeSubjectTagsWhere(
+  axisKey: string
+): Promise<{ subjectTags: { has: string } } | { subjectTags: { hasSome: string[] } }> {
+  const vs = await getVsKeysForTheme(axisKey);
+  return vs.length ? { subjectTags: { hasSome: [axisKey, ...vs] } } : { subjectTags: { has: axisKey } };
+}
+
 /**
  * Fetch published decks matching the given axis + axis-key + locale.
  *
@@ -60,26 +85,12 @@ export async function fetchDecksForAxis(
     }) as unknown as Promise<TopicDeckSummary[]>;
   }
   if (axis === 'theme') {
-    // De-orphan (Wave 5): surface a deck on this theme hub when the theme matches a subjectTag exactly
-    // (regular decks: subject_tags @> [key]) OR when the theme is a component of a "-vs-" combined tag
-    // (picture-sort pairs carry a single "X-vs-Y" tag → a query for X or Y must surface it on BOTH hubs).
-    // Ids-only raw SQL (snake-case columns) keeps the typed shape from DECK_SELECT; the "-vs-" anchor in the
-    // LIKE patterns prevents the substring trap (a query for `animals` must not match `...-vs-zoo_animals`).
-    const idRows = await prisma.$queryRaw<{ id: string }[]>`
-      SELECT id FROM decks
-      WHERE language = ${locale} AND status = 'published'
-        AND ( subject_tags @> ARRAY[${axisKey}]::text[]
-           OR EXISTS (SELECT 1 FROM unnest(subject_tags) t
-                      WHERE t LIKE ${axisKey + '-vs-%'} OR t LIKE ${'%-vs-' + axisKey}) )
-      ORDER BY published_at DESC NULLS LAST, id ASC`;
-    const ids = idRows.map((r) => r.id);
-    if (ids.length === 0) return [];
-    const decks = (await prisma.deck.findMany({
-      where: { id: { in: ids } },
+    // De-orphan (Wave 5): match the theme exactly OR as a "-vs-" component (see themeSubjectTagsWhere).
+    return prisma.deck.findMany({
+      where: { language: locale, status: 'published', ...(await themeSubjectTagsWhere(axisKey)) },
       select: DECK_SELECT,
-    })) as unknown as TopicDeckSummary[];
-    const order = new Map(ids.map((id, i) => [id, i] as const));
-    return decks.sort((a, b) => (order.get(a.id)! - order.get(b.id)!));
+      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
+    }) as unknown as Promise<TopicDeckSummary[]>;
   }
   if (axis === 'educational-level') {
     const ageRanges = levelKeyToAgeRanges(axisKey);
@@ -607,9 +618,13 @@ export async function fetchDecksForTopicWithFilters(
   // (returns 0 results) — defense-in-depth against malformed param input.
   const whereFragments: Array<Record<string, unknown>> = [];
   for (const a of allAxes) {
-    const w = buildAxisWhere(a.axis, a.axisKey);
+    let w = buildAxisWhere(a.axis, a.axisKey);
     if (!w) {
       return { decks: [], totalCount: 0, pageCount: 0 };
+    }
+    // De-orphan (Wave 5): the theme axis on the rendered grid must also surface "-vs-" pairs containing the theme.
+    if (a.axis === 'theme') {
+      w = await themeSubjectTagsWhere(a.axisKey);
     }
     whereFragments.push(w);
   }

@@ -1,0 +1,475 @@
+{
+  "_note": "Wave 3 slice C — code-addition/{null,secret-word} × Gr1 × EN, the 44 ≤20-running-sum-clean coordinates (deck.html sum-slot expected ≤20). The 41 sum>20 breachers re-levelled to the Gr2 record. 1.OA.A.2. canonical=earliest publishedAt; null heavy collapse resolved via siblings.",
+  "count": 44,
+  "coordinates": [
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "code-addition-accessories",
+      "siblings": [
+        "code-addition-accessories",
+        "code-addition-accessories-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "code-addition-animals",
+      "siblings": [
+        "code-addition-animals",
+        "code-addition-animals-2",
+        "code-addition-animals-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "code-addition-at-the-supermarket",
+      "siblings": [
+        "code-addition-at-the-supermarket",
+        "code-addition-at-the-supermarket-2"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "null",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "code-addition-bakery",
+      "siblings": [
+        "code-addition-bakery",
+        "code-addition-bakery-2"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "code-addition-beach",
+      "siblings": [
+        "code-addition-beach",
+        "code-addition-beach-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "code-addition-birds-2",
+      "siblings": [
+        "code-addition-birds-2",
+        "code-addition-birds-2-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "code-addition-breakfast",
+      "siblings": [
+        "code-addition-breakfast",
+        "code-addition-breakfast-2"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "code-addition-christmas",
+      "siblings": [
+        "code-addition-christmas",
+        "code-addition-christmas-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "code-addition-classroom",
+      "siblings": [
+        "code-addition-classroom",
+        "code-addition-classroom-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "code-addition-clothing",
+      "siblings": [
+        "code-addition-clothing",
+        "code-addition-clothing-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "code-addition-desserts-and-sweets",
+      "siblings": [
+        "code-addition-desserts-and-sweets",
+        "code-addition-desserts-and-sweets-2"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "null",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "code-addition-dinosaurs",
+      "siblings": [
+        "code-addition-dinosaurs",
+        "code-addition-dinosaurs-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "code-addition-faces-bw",
+      "siblings": [
+        "code-addition-faces-bw",
+        "code-addition-faces-bw-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "code-addition-forest-creatures",
+      "siblings": [
+        "code-addition-forest-creatures"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "code-addition-fruits",
+      "siblings": [
+        "code-addition-fruits",
+        "code-addition-fruits-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "code-addition-furniture",
+      "siblings": [
+        "code-addition-furniture",
+        "code-addition-furniture-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "code-addition-insects-and-bugs",
+      "siblings": [
+        "code-addition-insects-and-bugs",
+        "code-addition-insects-and-bugs-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "code-addition-kitchen-tools",
+      "siblings": [
+        "code-addition-kitchen-tools",
+        "code-addition-kitchen-tools-2"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "null",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "code-addition-miscellaneous",
+      "siblings": [
+        "code-addition-miscellaneous",
+        "code-addition-miscellaneous-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "code-addition-ocean-life",
+      "siblings": [
+        "code-addition-ocean-life",
+        "code-addition-ocean-life-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "code-addition-post-office",
+      "siblings": [
+        "code-addition-post-office",
+        "code-addition-post-office-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "code-addition-reptiles-and-amphibians",
+      "siblings": [
+        "code-addition-reptiles-and-amphibians",
+        "code-addition-reptiles-and-amphibians-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "code-addition-shapes",
+      "siblings": [
+        "code-addition-shapes",
+        "code-addition-shapes-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "code-addition-space",
+      "siblings": [
+        "code-addition-space",
+        "code-addition-space-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "code-addition-thanksgiving",
+      "siblings": [
+        "code-addition-thanksgiving",
+        "code-addition-thanksgiving-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "code-addition-toys",
+      "siblings": [
+        "code-addition-toys",
+        "code-addition-toys-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "valentine_bw",
+      "slugTheme": "valentine-bw",
+      "canonical": "code-addition-valentine-bw",
+      "siblings": [
+        "code-addition-valentine-bw",
+        "code-addition-valentine-bw-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "code-addition-vehicles",
+      "siblings": [
+        "code-addition-vehicles",
+        "code-addition-vehicles-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "code-addition-zoo-animals",
+      "siblings": [
+        "code-addition-zoo-animals",
+        "code-addition-zoo-animals-2"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "code-addition-secret-word-around-the-house",
+      "siblings": [
+        "code-addition-secret-word-around-the-house"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "code-addition-secret-word-beach",
+      "siblings": [
+        "code-addition-secret-word-beach"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "code-addition-secret-word-breakfast",
+      "siblings": [
+        "code-addition-secret-word-breakfast"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "code-addition-secret-word-classroom",
+      "siblings": [
+        "code-addition-secret-word-classroom"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "code-addition-secret-word-desserts-and-sweets",
+      "siblings": [
+        "code-addition-secret-word-desserts-and-sweets"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "code-addition-secret-word-dinosaurs",
+      "siblings": [
+        "code-addition-secret-word-dinosaurs"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "code-addition-secret-word-flowers",
+      "siblings": [
+        "code-addition-secret-word-flowers"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "code-addition-secret-word-furniture",
+      "siblings": [
+        "code-addition-secret-word-furniture"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "code-addition-secret-word-hospital",
+      "siblings": [
+        "code-addition-secret-word-hospital"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "code-addition-secret-word-kitchen-tools",
+      "siblings": [
+        "code-addition-secret-word-kitchen-tools"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "code-addition-secret-word-music",
+      "siblings": [
+        "code-addition-secret-word-music"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "code-addition-secret-word-post-office",
+      "siblings": [
+        "code-addition-secret-word-post-office"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "code-addition-secret-word-reptiles-and-amphibians",
+      "siblings": [
+        "code-addition-secret-word-reptiles-and-amphibians"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "code-addition-secret-word-space",
+      "siblings": [
+        "code-addition-secret-word-space"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "secret-word",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "code-addition-secret-word-things-that-fly",
+      "siblings": [
+        "code-addition-secret-word-things-that-fly"
+      ],
+      "collective": false
+    }
+  ]
+}

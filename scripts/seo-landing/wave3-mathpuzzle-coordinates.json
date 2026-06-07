@@ -1,0 +1,150 @@
+{
+  "_note": "Wave 3 math-puzzle/mixed Gr1 lead slice — the 12 strict-≤20-clean coordinates (operands AND results ≤20, 1.OA.C.6). The other 30 re-levelled to a future Gr2 wave (see plans/wave3-mathpuzzle-gr2-breachers.md). canonical = earliest publishedAt; heavy DB collapse resolved via siblings.",
+  "count": 12,
+  "coordinates": [
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "math-puzzle-at-the-supermarket",
+      "siblings": [
+        "math-puzzle-at-the-supermarket",
+        "math-puzzle-at-the-supermarket-2",
+        "math-puzzle-at-the-supermarket-3"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "math-puzzle-camping",
+      "siblings": [
+        "math-puzzle-camping",
+        "math-puzzle-camping-2",
+        "math-puzzle-camping-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "math-puzzle-easter",
+      "siblings": [
+        "math-puzzle-easter",
+        "math-puzzle-easter-2",
+        "math-puzzle-easter-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "math-puzzle-farm-animals",
+      "siblings": [
+        "math-puzzle-farm-animals",
+        "math-puzzle-farm-animals-2",
+        "math-puzzle-farm-animals-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "math-puzzle-flowers",
+      "siblings": [
+        "math-puzzle-flowers",
+        "math-puzzle-flowers-2",
+        "math-puzzle-flowers-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "math-puzzle-furniture",
+      "siblings": [
+        "math-puzzle-furniture",
+        "math-puzzle-furniture-2",
+        "math-puzzle-furniture-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "math-puzzle-kitchen-tools",
+      "siblings": [
+        "math-puzzle-kitchen-tools",
+        "math-puzzle-kitchen-tools-2",
+        "math-puzzle-kitchen-tools-3"
+      ],
+      "collective": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "math-puzzle-miscellaneous",
+      "siblings": [
+        "math-puzzle-miscellaneous",
+        "math-puzzle-miscellaneous-2",
+        "math-puzzle-miscellaneous-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "math-puzzle-reptiles-and-amphibians",
+      "siblings": [
+        "math-puzzle-reptiles-and-amphibians",
+        "math-puzzle-reptiles-and-amphibians-2",
+        "math-puzzle-reptiles-and-amphibians-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "math-puzzle-shapes",
+      "siblings": [
+        "math-puzzle-shapes",
+        "math-puzzle-shapes-2",
+        "math-puzzle-shapes-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "math-puzzle-things-that-fly",
+      "siblings": [
+        "math-puzzle-things-that-fly",
+        "math-puzzle-things-that-fly-2",
+        "math-puzzle-things-that-fly-3"
+      ],
+      "collective": false
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "math-puzzle-vegetables",
+      "siblings": [
+        "math-puzzle-vegetables",
+        "math-puzzle-vegetables-2",
+        "math-puzzle-vegetables-3"
+      ],
+      "collective": false
+    }
+  ]
+}

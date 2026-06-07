@@ -95,6 +95,14 @@ export default function WorksheetLandingPage(
     { name: l.h1, path: localePath(locale, 'worksheets', l.slug) },
   ]);
 
+  // Per-entry educational level (Wave 3 — first non-K wave). Drives JSON-LD level/age + the level chip.
+  // Defaults to kindergarten so existing K landings are unchanged.
+  const LEVELS: Record<string, { chip: string; schema: string; age: string }> = {
+    'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
+    'grade-1': { chip: 'Grade 1', schema: 'Grade 1', age: '6-7' },
+  };
+  const lvl = LEVELS[l.coordinate.level] || LEVELS['kindergarten'];
+
   const learningResource = {
     '@context': 'https://schema.org',
     '@type': 'LearningResource',
@@ -104,8 +112,8 @@ export default function WorksheetLandingPage(
     inLanguage: locale,
     isAccessibleForFree: true,
     learningResourceType: 'Worksheet',
-    educationalLevel: 'Kindergarten',
-    typicalAgeRange: '5-6',
+    educationalLevel: lvl.schema,
+    typicalAgeRange: lvl.age,
     teaches: l.strand,
     image: a.thumbnail,
     creator: { '@type': 'Organization', name: 'LessonCraftStudio', url: CANONICAL_HOST },
@@ -162,7 +170,7 @@ export default function WorksheetLandingPage(
               </p>
               <h1 className="font-display font-bold text-3xl md:text-4xl leading-tight text-ink-900 mb-4">{l.h1}</h1>
               <div className="flex flex-wrap gap-2 mb-6">
-                <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">Kindergarten</span>
+                <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">{lvl.chip}</span>
                 <span className="inline-flex items-center gap-1.5 bg-[#E3EEEB] text-[#0E544A] font-semibold text-sm rounded-full px-3 py-1.5">{l.strand}</span>
                 {l.standard ? (
                   <span className="inline-flex items-center gap-1.5 bg-[#FBEDE6] text-[#9A4521] font-semibold text-sm rounded-full px-3 py-1.5">Common Core</span>

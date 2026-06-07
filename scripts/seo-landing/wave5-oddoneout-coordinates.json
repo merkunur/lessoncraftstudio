@@ -1,0 +1,898 @@
+{
+  "_note": "Wave 5 coupled — odd-one-out/same-theme + cross-theme x K x EN, readiness (Logical reasoning - classification (readiness), NO alignment). 50+49=99. same=within-category outlier, cross=cross-category outlier.",
+  "count": 99,
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "odd-one-out-cross-theme-4th-of-july",
+      "siblings": [
+        "odd-one-out-cross-theme-4th-of-july"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "odd-one-out-cross-theme-accessories",
+      "siblings": [
+        "odd-one-out-cross-theme-accessories"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "odd-one-out-cross-theme-activities",
+      "siblings": [
+        "odd-one-out-cross-theme-activities"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "odd-one-out-cross-theme-animals",
+      "siblings": [
+        "odd-one-out-cross-theme-animals"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "odd-one-out-cross-theme-around-the-house",
+      "siblings": [
+        "odd-one-out-cross-theme-around-the-house"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "odd-one-out-cross-theme-at-the-supermarket",
+      "siblings": [
+        "odd-one-out-cross-theme-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "odd-one-out-cross-theme-bakery",
+      "siblings": [
+        "odd-one-out-cross-theme-bakery"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "odd-one-out-cross-theme-beach",
+      "siblings": [
+        "odd-one-out-cross-theme-beach"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "odd-one-out-cross-theme-birds",
+      "siblings": [
+        "odd-one-out-cross-theme-birds"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "odd-one-out-cross-theme-birds-2",
+      "siblings": [
+        "odd-one-out-cross-theme-birds-2"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "odd-one-out-cross-theme-body-parts",
+      "siblings": [
+        "odd-one-out-cross-theme-body-parts"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "odd-one-out-cross-theme-breakfast",
+      "siblings": [
+        "odd-one-out-cross-theme-breakfast"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "odd-one-out-cross-theme-camping",
+      "siblings": [
+        "odd-one-out-cross-theme-camping"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "odd-one-out-cross-theme-christmas",
+      "siblings": [
+        "odd-one-out-cross-theme-christmas"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "odd-one-out-cross-theme-classroom",
+      "siblings": [
+        "odd-one-out-cross-theme-classroom"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "odd-one-out-cross-theme-clothing",
+      "siblings": [
+        "odd-one-out-cross-theme-clothing"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "odd-one-out-cross-theme-colors",
+      "siblings": [
+        "odd-one-out-cross-theme-colors"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "odd-one-out-cross-theme-desserts-and-sweets",
+      "siblings": [
+        "odd-one-out-cross-theme-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "odd-one-out-cross-theme-dinosaurs",
+      "siblings": [
+        "odd-one-out-cross-theme-dinosaurs"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "odd-one-out-cross-theme-easter",
+      "siblings": [
+        "odd-one-out-cross-theme-easter"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "odd-one-out-cross-theme-emotions",
+      "siblings": [
+        "odd-one-out-cross-theme-emotions"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "odd-one-out-cross-theme-farm-animals",
+      "siblings": [
+        "odd-one-out-cross-theme-farm-animals"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "odd-one-out-cross-theme-flowers",
+      "siblings": [
+        "odd-one-out-cross-theme-flowers"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "odd-one-out-cross-theme-forest-creatures",
+      "siblings": [
+        "odd-one-out-cross-theme-forest-creatures"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "odd-one-out-cross-theme-fruits",
+      "siblings": [
+        "odd-one-out-cross-theme-fruits"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "odd-one-out-cross-theme-furniture",
+      "siblings": [
+        "odd-one-out-cross-theme-furniture"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "odd-one-out-cross-theme-hospital",
+      "siblings": [
+        "odd-one-out-cross-theme-hospital"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "odd-one-out-cross-theme-insects-and-bugs",
+      "siblings": [
+        "odd-one-out-cross-theme-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "odd-one-out-cross-theme-kitchen-tools",
+      "siblings": [
+        "odd-one-out-cross-theme-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "odd-one-out-cross-theme-music",
+      "siblings": [
+        "odd-one-out-cross-theme-music"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "odd-one-out-cross-theme-occupations",
+      "siblings": [
+        "odd-one-out-cross-theme-occupations"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "odd-one-out-cross-theme-ocean-life",
+      "siblings": [
+        "odd-one-out-cross-theme-ocean-life"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "odd-one-out-cross-theme-pets",
+      "siblings": [
+        "odd-one-out-cross-theme-pets"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "odd-one-out-cross-theme-post-office",
+      "siblings": [
+        "odd-one-out-cross-theme-post-office"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "odd-one-out-cross-theme-reptiles-and-amphibians",
+      "siblings": [
+        "odd-one-out-cross-theme-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "odd-one-out-cross-theme-shapes",
+      "siblings": [
+        "odd-one-out-cross-theme-shapes"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "odd-one-out-cross-theme-space",
+      "siblings": [
+        "odd-one-out-cross-theme-space"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "odd-one-out-cross-theme-spring",
+      "siblings": [
+        "odd-one-out-cross-theme-spring"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "odd-one-out-cross-theme-summer",
+      "siblings": [
+        "odd-one-out-cross-theme-summer"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "odd-one-out-cross-theme-thanksgiving",
+      "siblings": [
+        "odd-one-out-cross-theme-thanksgiving"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "odd-one-out-cross-theme-things-that-fly",
+      "siblings": [
+        "odd-one-out-cross-theme-things-that-fly"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "odd-one-out-cross-theme-tools",
+      "siblings": [
+        "odd-one-out-cross-theme-tools"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "odd-one-out-cross-theme-toys",
+      "siblings": [
+        "odd-one-out-cross-theme-toys"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "odd-one-out-cross-theme-tree",
+      "siblings": [
+        "odd-one-out-cross-theme-tree"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "odd-one-out-cross-theme-vegetables",
+      "siblings": [
+        "odd-one-out-cross-theme-vegetables"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "odd-one-out-cross-theme-vehicles",
+      "siblings": [
+        "odd-one-out-cross-theme-vehicles"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "odd-one-out-cross-theme-weather",
+      "siblings": [
+        "odd-one-out-cross-theme-weather"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "odd-one-out-cross-theme-winter",
+      "siblings": [
+        "odd-one-out-cross-theme-winter"
+      ]
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "odd-one-out-cross-theme-zoo-animals",
+      "siblings": [
+        "odd-one-out-cross-theme-zoo-animals"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "odd-one-out-4th-of-july",
+      "siblings": [
+        "odd-one-out-4th-of-july"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "odd-one-out-accessories",
+      "siblings": [
+        "odd-one-out-accessories"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "odd-one-out-activities",
+      "siblings": [
+        "odd-one-out-activities"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "odd-one-out",
+      "siblings": [
+        "odd-one-out",
+        "odd-one-out-animals"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "odd-one-out-around-the-house",
+      "siblings": [
+        "odd-one-out-around-the-house"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "odd-one-out-at-the-supermarket",
+      "siblings": [
+        "odd-one-out-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "odd-one-out-bakery",
+      "siblings": [
+        "odd-one-out-bakery"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "odd-one-out-beach",
+      "siblings": [
+        "odd-one-out-beach"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "odd-one-out-birds",
+      "siblings": [
+        "odd-one-out-birds"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "odd-one-out-birds-2",
+      "siblings": [
+        "odd-one-out-birds-2"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "odd-one-out-body-parts",
+      "siblings": [
+        "odd-one-out-body-parts"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "odd-one-out-breakfast",
+      "siblings": [
+        "odd-one-out-breakfast"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "odd-one-out-camping",
+      "siblings": [
+        "odd-one-out-camping"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "odd-one-out-christmas",
+      "siblings": [
+        "odd-one-out-christmas"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "odd-one-out-classroom",
+      "siblings": [
+        "odd-one-out-classroom"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "odd-one-out-clothing",
+      "siblings": [
+        "odd-one-out-clothing"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "odd-one-out-colors",
+      "siblings": [
+        "odd-one-out-colors"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "odd-one-out-desserts-and-sweets",
+      "siblings": [
+        "odd-one-out-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "odd-one-out-dinosaurs",
+      "siblings": [
+        "odd-one-out-dinosaurs"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "odd-one-out-easter",
+      "siblings": [
+        "odd-one-out-easter"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "odd-one-out-emotions",
+      "siblings": [
+        "odd-one-out-emotions"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "odd-one-out-farm-animals",
+      "siblings": [
+        "odd-one-out-farm-animals"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "odd-one-out-flowers",
+      "siblings": [
+        "odd-one-out-flowers"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "odd-one-out-forest-creatures",
+      "siblings": [
+        "odd-one-out-forest-creatures"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "odd-one-out-fruits",
+      "siblings": [
+        "odd-one-out-fruits"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "odd-one-out-furniture",
+      "siblings": [
+        "odd-one-out-furniture"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "odd-one-out-hospital",
+      "siblings": [
+        "odd-one-out-hospital"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "odd-one-out-insects-and-bugs",
+      "siblings": [
+        "odd-one-out-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "odd-one-out-kitchen-tools",
+      "siblings": [
+        "odd-one-out-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "odd-one-out-miscellaneous",
+      "siblings": [
+        "odd-one-out-miscellaneous"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "odd-one-out-music",
+      "siblings": [
+        "odd-one-out-music"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "odd-one-out-occupations",
+      "siblings": [
+        "odd-one-out-occupations"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "odd-one-out-ocean-life",
+      "siblings": [
+        "odd-one-out-ocean-life"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "odd-one-out-pets",
+      "siblings": [
+        "odd-one-out-pets"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "odd-one-out-post-office",
+      "siblings": [
+        "odd-one-out-post-office"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "odd-one-out-reptiles-and-amphibians",
+      "siblings": [
+        "odd-one-out-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "odd-one-out-shapes",
+      "siblings": [
+        "odd-one-out-shapes"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "odd-one-out-space",
+      "siblings": [
+        "odd-one-out-space"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "odd-one-out-spring",
+      "siblings": [
+        "odd-one-out-spring"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "odd-one-out-summer",
+      "siblings": [
+        "odd-one-out-summer"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "odd-one-out-thanksgiving",
+      "siblings": [
+        "odd-one-out-thanksgiving"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "odd-one-out-things-that-fly",
+      "siblings": [
+        "odd-one-out-things-that-fly"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "odd-one-out-tools",
+      "siblings": [
+        "odd-one-out-tools"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "odd-one-out-toys",
+      "siblings": [
+        "odd-one-out-toys"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "odd-one-out-tree",
+      "siblings": [
+        "odd-one-out-tree"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "odd-one-out-vegetables",
+      "siblings": [
+        "odd-one-out-vegetables"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "odd-one-out-vehicles",
+      "siblings": [
+        "odd-one-out-vehicles"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "odd-one-out-weather",
+      "siblings": [
+        "odd-one-out-weather"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "odd-one-out-winter",
+      "siblings": [
+        "odd-one-out-winter"
+      ]
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "odd-one-out-zoo-animals",
+      "siblings": [
+        "odd-one-out-zoo-animals"
+      ]
+    }
+  ]
+}

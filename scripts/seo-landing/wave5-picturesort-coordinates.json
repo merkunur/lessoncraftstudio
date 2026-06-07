@@ -1,0 +1,446 @@
+{
+  "_note": "Wave 5 picture-sort -vs- (readiness, Sorting & classification (readiness), NO alignment) x K x EN. SEO-capped 40 natural-contrast demand-bearing pairs (animals 19 + bakery 2 + at_the_supermarket 20). 1:1 kept pairs.",
+  "count": 40,
+  "coordinates": [
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "vehicles",
+      "pairKey": "animals-vs-vehicles",
+      "slugTheme": "animals-vs-vehicles",
+      "canonical": "picture-sort-animals-vs-vehicles",
+      "siblings": [
+        "picture-sort-animals-vs-vehicles"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "ocean_life",
+      "pairKey": "animals-vs-ocean_life",
+      "slugTheme": "animals-vs-ocean-life",
+      "canonical": "picture-sort-animals-vs-ocean-life",
+      "siblings": [
+        "picture-sort-animals-vs-ocean-life"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "toys",
+      "pairKey": "animals-vs-toys",
+      "slugTheme": "animals-vs-toys",
+      "canonical": "picture-sort-animals-vs-toys",
+      "siblings": [
+        "picture-sort-animals-vs-toys"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "shapes",
+      "pairKey": "animals-vs-shapes",
+      "slugTheme": "animals-vs-shapes",
+      "canonical": "picture-sort-animals-vs-shapes",
+      "siblings": [
+        "picture-sort-animals-vs-shapes"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "fruits",
+      "pairKey": "animals-vs-fruits",
+      "slugTheme": "animals-vs-fruits",
+      "canonical": "picture-sort-animals-vs-fruits",
+      "siblings": [
+        "picture-sort-animals-vs-fruits"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "vegetables",
+      "pairKey": "animals-vs-vegetables",
+      "slugTheme": "animals-vs-vegetables",
+      "canonical": "picture-sort-animals-vs-vegetables",
+      "siblings": [
+        "picture-sort-animals-vs-vegetables"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "flowers",
+      "pairKey": "animals-vs-flowers",
+      "slugTheme": "animals-vs-flowers",
+      "canonical": "picture-sort-animals-vs-flowers",
+      "siblings": [
+        "picture-sort-animals-vs-flowers"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "tree",
+      "pairKey": "animals-vs-tree",
+      "slugTheme": "animals-vs-tree",
+      "canonical": "picture-sort-animals-vs-tree",
+      "siblings": [
+        "picture-sort-animals-vs-tree"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "birds",
+      "pairKey": "animals-vs-birds",
+      "slugTheme": "animals-vs-birds",
+      "canonical": "picture-sort-animals-vs-birds",
+      "siblings": [
+        "picture-sort-animals-vs-birds"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "dinosaurs",
+      "pairKey": "animals-vs-dinosaurs",
+      "slugTheme": "animals-vs-dinosaurs",
+      "canonical": "picture-sort-animals-vs-dinosaurs",
+      "siblings": [
+        "picture-sort-animals-vs-dinosaurs"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "space",
+      "pairKey": "animals-vs-space",
+      "slugTheme": "animals-vs-space",
+      "canonical": "picture-sort-animals-vs-space",
+      "siblings": [
+        "picture-sort-animals-vs-space"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "tools",
+      "pairKey": "animals-vs-tools",
+      "slugTheme": "animals-vs-tools",
+      "canonical": "picture-sort-animals-vs-tools",
+      "siblings": [
+        "picture-sort-animals-vs-tools"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "furniture",
+      "pairKey": "animals-vs-furniture",
+      "slugTheme": "animals-vs-furniture",
+      "canonical": "picture-sort-animals-vs-furniture",
+      "siblings": [
+        "picture-sort-animals-vs-furniture"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "clothing",
+      "pairKey": "animals-vs-clothing",
+      "slugTheme": "animals-vs-clothing",
+      "canonical": "picture-sort-animals-vs-clothing",
+      "siblings": [
+        "picture-sort-animals-vs-clothing"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "kitchen_tools",
+      "pairKey": "animals-vs-kitchen_tools",
+      "slugTheme": "animals-vs-kitchen-tools",
+      "canonical": "picture-sort-animals-vs-kitchen-tools",
+      "siblings": [
+        "picture-sort-animals-vs-kitchen-tools"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "music",
+      "pairKey": "animals-vs-music",
+      "slugTheme": "animals-vs-music",
+      "canonical": "picture-sort-animals-vs-music",
+      "siblings": [
+        "picture-sort-animals-vs-music"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "desserts_and_sweets",
+      "pairKey": "animals-vs-desserts_and_sweets",
+      "slugTheme": "animals-vs-desserts-and-sweets",
+      "canonical": "picture-sort-animals-vs-desserts-and-sweets",
+      "siblings": [
+        "picture-sort-animals-vs-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "breakfast",
+      "pairKey": "animals-vs-breakfast",
+      "slugTheme": "animals-vs-breakfast",
+      "canonical": "picture-sort-animals-vs-breakfast",
+      "siblings": [
+        "picture-sort-animals-vs-breakfast"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "animals",
+      "right": "body_parts",
+      "pairKey": "animals-vs-body_parts",
+      "slugTheme": "animals-vs-body-parts",
+      "canonical": "picture-sort-animals-vs-body-parts",
+      "siblings": [
+        "picture-sort-animals-vs-body-parts"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "bakery",
+      "right": "birds",
+      "pairKey": "bakery-vs-birds",
+      "slugTheme": "bakery-vs-birds",
+      "canonical": "picture-sort-bakery-vs-birds",
+      "siblings": [
+        "picture-sort-bakery-vs-birds"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "farm_animals",
+      "pairKey": "at_the_supermarket-vs-farm_animals",
+      "slugTheme": "at-the-supermarket-vs-farm-animals",
+      "canonical": "picture-sort-at-the-supermarket-vs-farm-animals",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-farm-animals"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "zoo_animals",
+      "pairKey": "at_the_supermarket-vs-zoo_animals",
+      "slugTheme": "at-the-supermarket-vs-zoo-animals",
+      "canonical": "picture-sort-at-the-supermarket-vs-zoo-animals",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-zoo-animals"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "pets",
+      "pairKey": "at_the_supermarket-vs-pets",
+      "slugTheme": "at-the-supermarket-vs-pets",
+      "canonical": "picture-sort-at-the-supermarket-vs-pets",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-pets"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "ocean_life",
+      "pairKey": "at_the_supermarket-vs-ocean_life",
+      "slugTheme": "at-the-supermarket-vs-ocean-life",
+      "canonical": "picture-sort-at-the-supermarket-vs-ocean-life",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-ocean-life"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "birds",
+      "pairKey": "at_the_supermarket-vs-birds",
+      "slugTheme": "at-the-supermarket-vs-birds",
+      "canonical": "picture-sort-at-the-supermarket-vs-birds",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-birds"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "insects_and_bugs",
+      "pairKey": "at_the_supermarket-vs-insects_and_bugs",
+      "slugTheme": "at-the-supermarket-vs-insects-and-bugs",
+      "canonical": "picture-sort-at-the-supermarket-vs-insects-and-bugs",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "reptiles_and_amphibians",
+      "pairKey": "at_the_supermarket-vs-reptiles_and_amphibians",
+      "slugTheme": "at-the-supermarket-vs-reptiles-and-amphibians",
+      "canonical": "picture-sort-at-the-supermarket-vs-reptiles-and-amphibians",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "forest_creatures",
+      "pairKey": "at_the_supermarket-vs-forest_creatures",
+      "slugTheme": "at-the-supermarket-vs-forest-creatures",
+      "canonical": "picture-sort-at-the-supermarket-vs-forest-creatures",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-forest-creatures"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "things_that_fly",
+      "pairKey": "at_the_supermarket-vs-things_that_fly",
+      "slugTheme": "at-the-supermarket-vs-things-that-fly",
+      "canonical": "picture-sort-at-the-supermarket-vs-things-that-fly",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-things-that-fly"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "dinosaurs",
+      "pairKey": "at_the_supermarket-vs-dinosaurs",
+      "slugTheme": "at-the-supermarket-vs-dinosaurs",
+      "canonical": "picture-sort-at-the-supermarket-vs-dinosaurs",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-dinosaurs"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "vehicles",
+      "pairKey": "at_the_supermarket-vs-vehicles",
+      "slugTheme": "at-the-supermarket-vs-vehicles",
+      "canonical": "picture-sort-at-the-supermarket-vs-vehicles",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-vehicles"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "toys",
+      "pairKey": "at_the_supermarket-vs-toys",
+      "slugTheme": "at-the-supermarket-vs-toys",
+      "canonical": "picture-sort-at-the-supermarket-vs-toys",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-toys"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "tools",
+      "pairKey": "at_the_supermarket-vs-tools",
+      "slugTheme": "at-the-supermarket-vs-tools",
+      "canonical": "picture-sort-at-the-supermarket-vs-tools",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-tools"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "flowers",
+      "pairKey": "at_the_supermarket-vs-flowers",
+      "slugTheme": "at-the-supermarket-vs-flowers",
+      "canonical": "picture-sort-at-the-supermarket-vs-flowers",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-flowers"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "shapes",
+      "pairKey": "at_the_supermarket-vs-shapes",
+      "slugTheme": "at-the-supermarket-vs-shapes",
+      "canonical": "picture-sort-at-the-supermarket-vs-shapes",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-shapes"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "clothing",
+      "pairKey": "at_the_supermarket-vs-clothing",
+      "slugTheme": "at-the-supermarket-vs-clothing",
+      "canonical": "picture-sort-at-the-supermarket-vs-clothing",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-clothing"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "furniture",
+      "pairKey": "at_the_supermarket-vs-furniture",
+      "slugTheme": "at-the-supermarket-vs-furniture",
+      "canonical": "picture-sort-at-the-supermarket-vs-furniture",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-furniture"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "music",
+      "pairKey": "at_the_supermarket-vs-music",
+      "slugTheme": "at-the-supermarket-vs-music",
+      "canonical": "picture-sort-at-the-supermarket-vs-music",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-music"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "tree",
+      "pairKey": "at_the_supermarket-vs-tree",
+      "slugTheme": "at-the-supermarket-vs-tree",
+      "canonical": "picture-sort-at-the-supermarket-vs-tree",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-tree"
+      ]
+    },
+    {
+      "mode": null,
+      "left": "at_the_supermarket",
+      "right": "space",
+      "pairKey": "at_the_supermarket-vs-space",
+      "slugTheme": "at-the-supermarket-vs-space",
+      "canonical": "picture-sort-at-the-supermarket-vs-space",
+      "siblings": [
+        "picture-sort-at-the-supermarket-vs-space"
+      ]
+    }
+  ]
+}

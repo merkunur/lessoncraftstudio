@@ -1,0 +1,906 @@
+{
+  "_note": "Wave 5 lead — sudoku/null + sudoku/medium x K x EN, readiness-class (Logical reasoning (readiness), NO alignment). 50+50=100, all 1:1. picture-sudoku image-index, no numbers.",
+  "count": 100,
+  "coordinates": [
+    {
+      "mode": "medium",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "sudoku-medium-4th-of-july",
+      "siblings": [
+        "sudoku-medium-4th-of-july"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "sudoku-medium-accessories",
+      "siblings": [
+        "sudoku-medium-accessories"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "sudoku-medium-activities",
+      "siblings": [
+        "sudoku-medium-activities"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "sudoku-medium-animals",
+      "siblings": [
+        "sudoku-medium-animals"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "sudoku-medium-around-the-house",
+      "siblings": [
+        "sudoku-medium-around-the-house"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "sudoku-medium-at-the-supermarket",
+      "siblings": [
+        "sudoku-medium-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "sudoku-medium-bakery",
+      "siblings": [
+        "sudoku-medium-bakery"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "sudoku-medium-beach",
+      "siblings": [
+        "sudoku-medium-beach"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "sudoku-medium-birds",
+      "siblings": [
+        "sudoku-medium-birds"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "sudoku-medium-birds-2",
+      "siblings": [
+        "sudoku-medium-birds-2"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "sudoku-medium-body-parts",
+      "siblings": [
+        "sudoku-medium-body-parts"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "sudoku-medium-breakfast",
+      "siblings": [
+        "sudoku-medium-breakfast"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "sudoku-medium-camping",
+      "siblings": [
+        "sudoku-medium-camping"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "sudoku-medium-christmas",
+      "siblings": [
+        "sudoku-medium-christmas"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "sudoku-medium-classroom",
+      "siblings": [
+        "sudoku-medium-classroom"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "sudoku-medium-clothing",
+      "siblings": [
+        "sudoku-medium-clothing"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "sudoku-medium-colors",
+      "siblings": [
+        "sudoku-medium-colors"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "sudoku-medium-desserts-and-sweets",
+      "siblings": [
+        "sudoku-medium-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "sudoku-medium-dinosaurs",
+      "siblings": [
+        "sudoku-medium-dinosaurs"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "sudoku-medium-easter",
+      "siblings": [
+        "sudoku-medium-easter"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "sudoku-medium-emotions",
+      "siblings": [
+        "sudoku-medium-emotions"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "sudoku-medium-farm-animals",
+      "siblings": [
+        "sudoku-medium-farm-animals"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "sudoku-medium-flowers",
+      "siblings": [
+        "sudoku-medium-flowers"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "sudoku-medium-forest-creatures",
+      "siblings": [
+        "sudoku-medium-forest-creatures"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "sudoku-medium-fruits",
+      "siblings": [
+        "sudoku-medium-fruits"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "sudoku-medium-furniture",
+      "siblings": [
+        "sudoku-medium-furniture"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "sudoku-medium-hospital",
+      "siblings": [
+        "sudoku-medium-hospital"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "sudoku-medium-insects-and-bugs",
+      "siblings": [
+        "sudoku-medium-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "sudoku-medium-kitchen-tools",
+      "siblings": [
+        "sudoku-medium-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "sudoku-medium-miscellaneous",
+      "siblings": [
+        "sudoku-medium-miscellaneous"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "sudoku-medium-music",
+      "siblings": [
+        "sudoku-medium-music"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "sudoku-medium-occupations",
+      "siblings": [
+        "sudoku-medium-occupations"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "sudoku-medium-ocean-life",
+      "siblings": [
+        "sudoku-medium-ocean-life"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "sudoku-medium-pets",
+      "siblings": [
+        "sudoku-medium-pets"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "sudoku-medium-post-office",
+      "siblings": [
+        "sudoku-medium-post-office"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "sudoku-medium-reptiles-and-amphibians",
+      "siblings": [
+        "sudoku-medium-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "sudoku-medium-shapes",
+      "siblings": [
+        "sudoku-medium-shapes"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "sudoku-medium-space",
+      "siblings": [
+        "sudoku-medium-space"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "sudoku-medium-spring",
+      "siblings": [
+        "sudoku-medium-spring"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "sudoku-medium-summer",
+      "siblings": [
+        "sudoku-medium-summer"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "sudoku-medium-thanksgiving",
+      "siblings": [
+        "sudoku-medium-thanksgiving"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "sudoku-medium-things-that-fly",
+      "siblings": [
+        "sudoku-medium-things-that-fly"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "sudoku-medium-tools",
+      "siblings": [
+        "sudoku-medium-tools"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "sudoku-medium-toys",
+      "siblings": [
+        "sudoku-medium-toys"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "sudoku-medium-tree",
+      "siblings": [
+        "sudoku-medium-tree"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "sudoku-medium-vegetables",
+      "siblings": [
+        "sudoku-medium-vegetables"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "sudoku-medium-vehicles",
+      "siblings": [
+        "sudoku-medium-vehicles"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "sudoku-medium-weather",
+      "siblings": [
+        "sudoku-medium-weather"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "sudoku-medium-winter",
+      "siblings": [
+        "sudoku-medium-winter"
+      ]
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "sudoku-medium-zoo-animals",
+      "siblings": [
+        "sudoku-medium-zoo-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "sudoku-4th-of-july",
+      "siblings": [
+        "sudoku-4th-of-july"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "sudoku-accessories",
+      "siblings": [
+        "sudoku-accessories"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "sudoku-activities",
+      "siblings": [
+        "sudoku-activities"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "sudoku-animals",
+      "siblings": [
+        "sudoku-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "sudoku-around-the-house",
+      "siblings": [
+        "sudoku-around-the-house"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "sudoku-at-the-supermarket",
+      "siblings": [
+        "sudoku-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "sudoku-bakery",
+      "siblings": [
+        "sudoku-bakery"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "sudoku-beach",
+      "siblings": [
+        "sudoku-beach"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "sudoku-birds",
+      "siblings": [
+        "sudoku-birds"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "sudoku-birds-2",
+      "siblings": [
+        "sudoku-birds-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "sudoku-body-parts",
+      "siblings": [
+        "sudoku-body-parts"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "sudoku-breakfast",
+      "siblings": [
+        "sudoku-breakfast"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "sudoku-camping",
+      "siblings": [
+        "sudoku-camping"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "sudoku-christmas",
+      "siblings": [
+        "sudoku-christmas"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "sudoku-classroom",
+      "siblings": [
+        "sudoku-classroom"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "sudoku-clothing",
+      "siblings": [
+        "sudoku-clothing"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "sudoku-colors",
+      "siblings": [
+        "sudoku-colors"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "sudoku-desserts-and-sweets",
+      "siblings": [
+        "sudoku-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "sudoku-dinosaurs",
+      "siblings": [
+        "sudoku-dinosaurs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "sudoku-easter",
+      "siblings": [
+        "sudoku-easter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "sudoku-emotions",
+      "siblings": [
+        "sudoku-emotions"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "sudoku-farm-animals",
+      "siblings": [
+        "sudoku-farm-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "sudoku-flowers",
+      "siblings": [
+        "sudoku-flowers"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "sudoku-forest-creatures",
+      "siblings": [
+        "sudoku-forest-creatures"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "sudoku-fruits",
+      "siblings": [
+        "sudoku-fruits"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "sudoku-furniture",
+      "siblings": [
+        "sudoku-furniture"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "sudoku-hospital",
+      "siblings": [
+        "sudoku-hospital"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "sudoku-insects-and-bugs",
+      "siblings": [
+        "sudoku-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "sudoku-kitchen-tools",
+      "siblings": [
+        "sudoku-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "sudoku-miscellaneous",
+      "siblings": [
+        "sudoku-miscellaneous"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "sudoku-music",
+      "siblings": [
+        "sudoku-music"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "sudoku-occupations",
+      "siblings": [
+        "sudoku-occupations"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "sudoku-ocean-life",
+      "siblings": [
+        "sudoku-ocean-life"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "sudoku-pets",
+      "siblings": [
+        "sudoku-pets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "sudoku-post-office",
+      "siblings": [
+        "sudoku-post-office"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "sudoku-reptiles-and-amphibians",
+      "siblings": [
+        "sudoku-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "sudoku-shapes",
+      "siblings": [
+        "sudoku-shapes"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "sudoku-space",
+      "siblings": [
+        "sudoku-space"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "sudoku-spring",
+      "siblings": [
+        "sudoku-spring"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "sudoku-summer",
+      "siblings": [
+        "sudoku-summer"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "sudoku-thanksgiving",
+      "siblings": [
+        "sudoku-thanksgiving"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "sudoku-things-that-fly",
+      "siblings": [
+        "sudoku-things-that-fly"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "sudoku-tools",
+      "siblings": [
+        "sudoku-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "sudoku-toys",
+      "siblings": [
+        "sudoku-toys"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "sudoku-tree",
+      "siblings": [
+        "sudoku-tree"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "sudoku-vegetables",
+      "siblings": [
+        "sudoku-vegetables"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "sudoku-vehicles",
+      "siblings": [
+        "sudoku-vehicles"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "sudoku-weather",
+      "siblings": [
+        "sudoku-weather"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "sudoku-winter",
+      "siblings": [
+        "sudoku-winter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "sudoku-zoo-animals",
+      "siblings": [
+        "sudoku-zoo-animals"
+      ]
+    }
+  ]
+}

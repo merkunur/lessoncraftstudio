@@ -1,0 +1,1280 @@
+{
+  "_note": "Wave 4 lead+coupled — word-guess/easy (L.K.2.d Language) + find-and-count/letter-spotting (RF.K.3.a Reading: Foundational Skills) × K × EN. 47+47=94. Literacy ungated/phonetic → no theme retirement. canonical=earliest publishedAt; find-and-count heavy collapse via siblings.",
+  "count": 94,
+  "coordinates": [
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "find-and-count-4th-of-july",
+      "siblings": [
+        "find-and-count-4th-of-july",
+        "find-and-count-letter-spotting-4th-of-july",
+        "find-and-count-letter-spotting-4th-of-july-2",
+        "find-and-count-letter-spotting-4th-of-july-3",
+        "find-and-count-letter-spotting-4th-of-july-4",
+        "find-and-count-letter-spotting-4th-of-july-5",
+        "find-and-count-letter-spotting-4th-of-july-6",
+        "find-and-count-letter-spotting-4th-of-july-7",
+        "find-and-count-letter-spotting-4th-of-july-8",
+        "find-and-count-letter-spotting-4th-of-july-9",
+        "find-and-count-letter-spotting-4th-of-july-10"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "find-and-count-accessories",
+      "siblings": [
+        "find-and-count-accessories",
+        "find-and-count-letter-spotting-accessories",
+        "find-and-count-letter-spotting-accessories-2",
+        "find-and-count-letter-spotting-accessories-3",
+        "find-and-count-letter-spotting-accessories-4",
+        "find-and-count-letter-spotting-accessories-5",
+        "find-and-count-letter-spotting-accessories-6",
+        "find-and-count-letter-spotting-accessories-7",
+        "find-and-count-letter-spotting-accessories-8",
+        "find-and-count-letter-spotting-accessories-9",
+        "find-and-count-letter-spotting-accessories-10",
+        "find-and-count-letter-spotting-accessories-11",
+        "find-and-count-letter-spotting-accessories-12",
+        "find-and-count-letter-spotting-accessories-13",
+        "find-and-count-letter-spotting-accessories-14",
+        "find-and-count-letter-spotting-accessories-15"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "find-and-count-activities",
+      "siblings": [
+        "find-and-count-activities",
+        "find-and-count-letter-spotting-activities",
+        "find-and-count-letter-spotting-activities-2",
+        "find-and-count-letter-spotting-activities-3",
+        "find-and-count-letter-spotting-activities-4",
+        "find-and-count-letter-spotting-activities-5",
+        "find-and-count-letter-spotting-activities-6",
+        "find-and-count-letter-spotting-activities-7",
+        "find-and-count-letter-spotting-activities-8",
+        "find-and-count-letter-spotting-activities-9",
+        "find-and-count-letter-spotting-activities-10",
+        "find-and-count-letter-spotting-activities-11",
+        "find-and-count-letter-spotting-activities-12",
+        "find-and-count-letter-spotting-activities-13",
+        "find-and-count-letter-spotting-activities-14"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "find-and-count",
+      "siblings": [
+        "find-and-count",
+        "find-and-count-animals",
+        "find-and-count-letter-spotting-animals",
+        "find-and-count-letter-spotting-animals-2",
+        "find-and-count-letter-spotting-animals-3",
+        "find-and-count-letter-spotting-animals-4",
+        "find-and-count-letter-spotting-animals-5",
+        "find-and-count-letter-spotting-animals-6",
+        "find-and-count-letter-spotting-animals-7",
+        "find-and-count-letter-spotting-animals-8",
+        "find-and-count-letter-spotting-animals-9",
+        "find-and-count-letter-spotting-animals-10",
+        "find-and-count-letter-spotting-animals-11",
+        "find-and-count-letter-spotting-animals-12",
+        "find-and-count-letter-spotting-animals-13",
+        "find-and-count-letter-spotting-animals-14",
+        "find-and-count-letter-spotting-animals-15",
+        "find-and-count-letter-spotting-animals-16",
+        "find-and-count-letter-spotting-animals-17",
+        "find-and-count-letter-spotting-animals-18",
+        "find-and-count-letter-spotting-animals-19",
+        "find-and-count-letter-spotting-animals-20",
+        "find-and-count-letter-spotting-animals-21"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "find-and-count-around-the-house",
+      "siblings": [
+        "find-and-count-around-the-house",
+        "find-and-count-letter-spotting-around-the-house",
+        "find-and-count-letter-spotting-around-the-house-2",
+        "find-and-count-letter-spotting-around-the-house-3",
+        "find-and-count-letter-spotting-around-the-house-4",
+        "find-and-count-letter-spotting-around-the-house-5",
+        "find-and-count-letter-spotting-around-the-house-6",
+        "find-and-count-letter-spotting-around-the-house-7",
+        "find-and-count-letter-spotting-around-the-house-8",
+        "find-and-count-letter-spotting-around-the-house-9",
+        "find-and-count-letter-spotting-around-the-house-10",
+        "find-and-count-letter-spotting-around-the-house-11",
+        "find-and-count-letter-spotting-around-the-house-12",
+        "find-and-count-letter-spotting-around-the-house-13",
+        "find-and-count-letter-spotting-around-the-house-14",
+        "find-and-count-letter-spotting-around-the-house-15",
+        "find-and-count-letter-spotting-around-the-house-16",
+        "find-and-count-letter-spotting-around-the-house-17",
+        "find-and-count-letter-spotting-around-the-house-18",
+        "find-and-count-letter-spotting-around-the-house-19"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "find-and-count-at-the-supermarket",
+      "siblings": [
+        "find-and-count-at-the-supermarket",
+        "find-and-count-letter-spotting-at-the-supermarket",
+        "find-and-count-letter-spotting-at-the-supermarket-2",
+        "find-and-count-letter-spotting-at-the-supermarket-3",
+        "find-and-count-letter-spotting-at-the-supermarket-4",
+        "find-and-count-letter-spotting-at-the-supermarket-5",
+        "find-and-count-letter-spotting-at-the-supermarket-6",
+        "find-and-count-letter-spotting-at-the-supermarket-7",
+        "find-and-count-letter-spotting-at-the-supermarket-8",
+        "find-and-count-letter-spotting-at-the-supermarket-9",
+        "find-and-count-letter-spotting-at-the-supermarket-10",
+        "find-and-count-letter-spotting-at-the-supermarket-11",
+        "find-and-count-letter-spotting-at-the-supermarket-12",
+        "find-and-count-letter-spotting-at-the-supermarket-13",
+        "find-and-count-letter-spotting-at-the-supermarket-14",
+        "find-and-count-letter-spotting-at-the-supermarket-15",
+        "find-and-count-letter-spotting-at-the-supermarket-16",
+        "find-and-count-letter-spotting-at-the-supermarket-17",
+        "find-and-count-letter-spotting-at-the-supermarket-18",
+        "find-and-count-letter-spotting-at-the-supermarket-19"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "find-and-count-bakery",
+      "siblings": [
+        "find-and-count-bakery",
+        "find-and-count-letter-spotting-bakery",
+        "find-and-count-letter-spotting-bakery-2",
+        "find-and-count-letter-spotting-bakery-3",
+        "find-and-count-letter-spotting-bakery-4",
+        "find-and-count-letter-spotting-bakery-5",
+        "find-and-count-letter-spotting-bakery-6",
+        "find-and-count-letter-spotting-bakery-7",
+        "find-and-count-letter-spotting-bakery-8",
+        "find-and-count-letter-spotting-bakery-9"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "find-and-count-beach",
+      "siblings": [
+        "find-and-count-beach",
+        "find-and-count-letter-spotting-beach",
+        "find-and-count-letter-spotting-beach-2",
+        "find-and-count-letter-spotting-beach-3",
+        "find-and-count-letter-spotting-beach-4",
+        "find-and-count-letter-spotting-beach-5",
+        "find-and-count-letter-spotting-beach-6",
+        "find-and-count-letter-spotting-beach-7",
+        "find-and-count-letter-spotting-beach-8",
+        "find-and-count-letter-spotting-beach-9",
+        "find-and-count-letter-spotting-beach-10",
+        "find-and-count-letter-spotting-beach-11",
+        "find-and-count-letter-spotting-beach-12",
+        "find-and-count-letter-spotting-beach-13",
+        "find-and-count-letter-spotting-beach-14",
+        "find-and-count-letter-spotting-beach-15",
+        "find-and-count-letter-spotting-beach-16"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "find-and-count-birds",
+      "siblings": [
+        "find-and-count-birds"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "find-and-count-birds-2",
+      "siblings": [
+        "find-and-count-birds-2"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "find-and-count-body-parts",
+      "siblings": [
+        "find-and-count-body-parts",
+        "find-and-count-letter-spotting-body-parts",
+        "find-and-count-letter-spotting-body-parts-2",
+        "find-and-count-letter-spotting-body-parts-3",
+        "find-and-count-letter-spotting-body-parts-4",
+        "find-and-count-letter-spotting-body-parts-5",
+        "find-and-count-letter-spotting-body-parts-6",
+        "find-and-count-letter-spotting-body-parts-7",
+        "find-and-count-letter-spotting-body-parts-8",
+        "find-and-count-letter-spotting-body-parts-9",
+        "find-and-count-letter-spotting-body-parts-10",
+        "find-and-count-letter-spotting-body-parts-11",
+        "find-and-count-letter-spotting-body-parts-12",
+        "find-and-count-letter-spotting-body-parts-13"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "find-and-count-breakfast",
+      "siblings": [
+        "find-and-count-breakfast",
+        "find-and-count-letter-spotting-breakfast",
+        "find-and-count-letter-spotting-breakfast-2",
+        "find-and-count-letter-spotting-breakfast-3",
+        "find-and-count-letter-spotting-breakfast-4",
+        "find-and-count-letter-spotting-breakfast-5",
+        "find-and-count-letter-spotting-breakfast-6",
+        "find-and-count-letter-spotting-breakfast-7",
+        "find-and-count-letter-spotting-breakfast-8",
+        "find-and-count-letter-spotting-breakfast-9",
+        "find-and-count-letter-spotting-breakfast-10",
+        "find-and-count-letter-spotting-breakfast-11",
+        "find-and-count-letter-spotting-breakfast-12",
+        "find-and-count-letter-spotting-breakfast-13"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "find-and-count-camping",
+      "siblings": [
+        "find-and-count-camping",
+        "find-and-count-letter-spotting-camping",
+        "find-and-count-letter-spotting-camping-2",
+        "find-and-count-letter-spotting-camping-3",
+        "find-and-count-letter-spotting-camping-4",
+        "find-and-count-letter-spotting-camping-5",
+        "find-and-count-letter-spotting-camping-6",
+        "find-and-count-letter-spotting-camping-7",
+        "find-and-count-letter-spotting-camping-8",
+        "find-and-count-letter-spotting-camping-9",
+        "find-and-count-letter-spotting-camping-10",
+        "find-and-count-letter-spotting-camping-11",
+        "find-and-count-letter-spotting-camping-12",
+        "find-and-count-letter-spotting-camping-13",
+        "find-and-count-letter-spotting-camping-14",
+        "find-and-count-letter-spotting-camping-15",
+        "find-and-count-letter-spotting-camping-16"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "find-and-count-christmas",
+      "siblings": [
+        "find-and-count-christmas",
+        "find-and-count-letter-spotting-christmas",
+        "find-and-count-letter-spotting-christmas-2",
+        "find-and-count-letter-spotting-christmas-3",
+        "find-and-count-letter-spotting-christmas-4",
+        "find-and-count-letter-spotting-christmas-5",
+        "find-and-count-letter-spotting-christmas-6",
+        "find-and-count-letter-spotting-christmas-7",
+        "find-and-count-letter-spotting-christmas-8",
+        "find-and-count-letter-spotting-christmas-9",
+        "find-and-count-letter-spotting-christmas-10",
+        "find-and-count-letter-spotting-christmas-11",
+        "find-and-count-letter-spotting-christmas-12",
+        "find-and-count-letter-spotting-christmas-13"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "find-and-count-classroom",
+      "siblings": [
+        "find-and-count-classroom",
+        "find-and-count-letter-spotting-classroom",
+        "find-and-count-letter-spotting-classroom-2",
+        "find-and-count-letter-spotting-classroom-3",
+        "find-and-count-letter-spotting-classroom-4",
+        "find-and-count-letter-spotting-classroom-5",
+        "find-and-count-letter-spotting-classroom-6",
+        "find-and-count-letter-spotting-classroom-7",
+        "find-and-count-letter-spotting-classroom-8",
+        "find-and-count-letter-spotting-classroom-9",
+        "find-and-count-letter-spotting-classroom-10",
+        "find-and-count-letter-spotting-classroom-11",
+        "find-and-count-letter-spotting-classroom-12",
+        "find-and-count-letter-spotting-classroom-13"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "find-and-count-clothing",
+      "siblings": [
+        "find-and-count-clothing",
+        "find-and-count-letter-spotting-clothing",
+        "find-and-count-letter-spotting-clothing-2",
+        "find-and-count-letter-spotting-clothing-3",
+        "find-and-count-letter-spotting-clothing-4",
+        "find-and-count-letter-spotting-clothing-5",
+        "find-and-count-letter-spotting-clothing-6",
+        "find-and-count-letter-spotting-clothing-7",
+        "find-and-count-letter-spotting-clothing-8",
+        "find-and-count-letter-spotting-clothing-9",
+        "find-and-count-letter-spotting-clothing-10",
+        "find-and-count-letter-spotting-clothing-11",
+        "find-and-count-letter-spotting-clothing-12",
+        "find-and-count-letter-spotting-clothing-13",
+        "find-and-count-letter-spotting-clothing-14",
+        "find-and-count-letter-spotting-clothing-15",
+        "find-and-count-letter-spotting-clothing-16",
+        "find-and-count-letter-spotting-clothing-17"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "find-and-count-desserts-and-sweets",
+      "siblings": [
+        "find-and-count-desserts-and-sweets",
+        "find-and-count-letter-spotting-desserts-and-sweets",
+        "find-and-count-letter-spotting-desserts-and-sweets-2",
+        "find-and-count-letter-spotting-desserts-and-sweets-3",
+        "find-and-count-letter-spotting-desserts-and-sweets-4",
+        "find-and-count-letter-spotting-desserts-and-sweets-5",
+        "find-and-count-letter-spotting-desserts-and-sweets-6",
+        "find-and-count-letter-spotting-desserts-and-sweets-7",
+        "find-and-count-letter-spotting-desserts-and-sweets-8"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "find-and-count-dinosaurs",
+      "siblings": [
+        "find-and-count-dinosaurs"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "find-and-count-easter",
+      "siblings": [
+        "find-and-count-easter",
+        "find-and-count-letter-spotting-easter",
+        "find-and-count-letter-spotting-easter-2",
+        "find-and-count-letter-spotting-easter-3",
+        "find-and-count-letter-spotting-easter-4",
+        "find-and-count-letter-spotting-easter-5",
+        "find-and-count-letter-spotting-easter-6",
+        "find-and-count-letter-spotting-easter-7"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "find-and-count-emotions",
+      "siblings": [
+        "find-and-count-emotions"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "find-and-count-farm-animals",
+      "siblings": [
+        "find-and-count-farm-animals",
+        "find-and-count-letter-spotting-farm-animals",
+        "find-and-count-letter-spotting-farm-animals-2",
+        "find-and-count-letter-spotting-farm-animals-3",
+        "find-and-count-letter-spotting-farm-animals-4",
+        "find-and-count-letter-spotting-farm-animals-5",
+        "find-and-count-letter-spotting-farm-animals-6",
+        "find-and-count-letter-spotting-farm-animals-7",
+        "find-and-count-letter-spotting-farm-animals-8",
+        "find-and-count-letter-spotting-farm-animals-9",
+        "find-and-count-letter-spotting-farm-animals-10",
+        "find-and-count-letter-spotting-farm-animals-11",
+        "find-and-count-letter-spotting-farm-animals-12"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "find-and-count-forest-creatures",
+      "siblings": [
+        "find-and-count-forest-creatures",
+        "find-and-count-letter-spotting-forest-creatures",
+        "find-and-count-letter-spotting-forest-creatures-2",
+        "find-and-count-letter-spotting-forest-creatures-3",
+        "find-and-count-letter-spotting-forest-creatures-4",
+        "find-and-count-letter-spotting-forest-creatures-5",
+        "find-and-count-letter-spotting-forest-creatures-6",
+        "find-and-count-letter-spotting-forest-creatures-7",
+        "find-and-count-letter-spotting-forest-creatures-8",
+        "find-and-count-letter-spotting-forest-creatures-9",
+        "find-and-count-letter-spotting-forest-creatures-10",
+        "find-and-count-letter-spotting-forest-creatures-11",
+        "find-and-count-letter-spotting-forest-creatures-12",
+        "find-and-count-letter-spotting-forest-creatures-13",
+        "find-and-count-letter-spotting-forest-creatures-14",
+        "find-and-count-letter-spotting-forest-creatures-15",
+        "find-and-count-letter-spotting-forest-creatures-16"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "find-and-count-fruits",
+      "siblings": [
+        "find-and-count-fruits",
+        "find-and-count-letter-spotting-fruits",
+        "find-and-count-letter-spotting-fruits-2",
+        "find-and-count-letter-spotting-fruits-3",
+        "find-and-count-letter-spotting-fruits-4",
+        "find-and-count-letter-spotting-fruits-5",
+        "find-and-count-letter-spotting-fruits-6",
+        "find-and-count-letter-spotting-fruits-7",
+        "find-and-count-letter-spotting-fruits-8",
+        "find-and-count-letter-spotting-fruits-9",
+        "find-and-count-letter-spotting-fruits-10"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "find-and-count-furniture",
+      "siblings": [
+        "find-and-count-furniture",
+        "find-and-count-letter-spotting-furniture",
+        "find-and-count-letter-spotting-furniture-2",
+        "find-and-count-letter-spotting-furniture-3",
+        "find-and-count-letter-spotting-furniture-4",
+        "find-and-count-letter-spotting-furniture-5",
+        "find-and-count-letter-spotting-furniture-6",
+        "find-and-count-letter-spotting-furniture-7",
+        "find-and-count-letter-spotting-furniture-8",
+        "find-and-count-letter-spotting-furniture-9",
+        "find-and-count-letter-spotting-furniture-10"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "find-and-count-hospital",
+      "siblings": [
+        "find-and-count-hospital",
+        "find-and-count-letter-spotting-hospital",
+        "find-and-count-letter-spotting-hospital-2",
+        "find-and-count-letter-spotting-hospital-3",
+        "find-and-count-letter-spotting-hospital-4",
+        "find-and-count-letter-spotting-hospital-5",
+        "find-and-count-letter-spotting-hospital-6",
+        "find-and-count-letter-spotting-hospital-7",
+        "find-and-count-letter-spotting-hospital-8",
+        "find-and-count-letter-spotting-hospital-9"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "find-and-count-insects-and-bugs",
+      "siblings": [
+        "find-and-count-insects-and-bugs",
+        "find-and-count-letter-spotting-insects-and-bugs",
+        "find-and-count-letter-spotting-insects-and-bugs-2",
+        "find-and-count-letter-spotting-insects-and-bugs-3",
+        "find-and-count-letter-spotting-insects-and-bugs-4",
+        "find-and-count-letter-spotting-insects-and-bugs-5",
+        "find-and-count-letter-spotting-insects-and-bugs-6",
+        "find-and-count-letter-spotting-insects-and-bugs-7",
+        "find-and-count-letter-spotting-insects-and-bugs-8"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "find-and-count-kitchen-tools",
+      "siblings": [
+        "find-and-count-kitchen-tools",
+        "find-and-count-letter-spotting-kitchen-tools",
+        "find-and-count-letter-spotting-kitchen-tools-2",
+        "find-and-count-letter-spotting-kitchen-tools-3",
+        "find-and-count-letter-spotting-kitchen-tools-4",
+        "find-and-count-letter-spotting-kitchen-tools-5",
+        "find-and-count-letter-spotting-kitchen-tools-6",
+        "find-and-count-letter-spotting-kitchen-tools-7",
+        "find-and-count-letter-spotting-kitchen-tools-8",
+        "find-and-count-letter-spotting-kitchen-tools-9",
+        "find-and-count-letter-spotting-kitchen-tools-10",
+        "find-and-count-letter-spotting-kitchen-tools-11",
+        "find-and-count-letter-spotting-kitchen-tools-12",
+        "find-and-count-letter-spotting-kitchen-tools-13",
+        "find-and-count-letter-spotting-kitchen-tools-14",
+        "find-and-count-letter-spotting-kitchen-tools-15"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "find-and-count-miscellaneous",
+      "siblings": [
+        "find-and-count-miscellaneous"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "find-and-count-music",
+      "siblings": [
+        "find-and-count-music",
+        "find-and-count-letter-spotting-music",
+        "find-and-count-letter-spotting-music-2",
+        "find-and-count-letter-spotting-music-3",
+        "find-and-count-letter-spotting-music-4",
+        "find-and-count-letter-spotting-music-5",
+        "find-and-count-letter-spotting-music-6",
+        "find-and-count-letter-spotting-music-7",
+        "find-and-count-letter-spotting-music-8",
+        "find-and-count-letter-spotting-music-9"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "find-and-count-occupations",
+      "siblings": [
+        "find-and-count-occupations"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "find-and-count-ocean-life",
+      "siblings": [
+        "find-and-count-ocean-life"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "find-and-count-pets",
+      "siblings": [
+        "find-and-count-pets"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "find-and-count-post-office",
+      "siblings": [
+        "find-and-count-post-office"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "find-and-count-reptiles-and-amphibians",
+      "siblings": [
+        "find-and-count-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "find-and-count-shapes",
+      "siblings": [
+        "find-and-count-shapes"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "find-and-count-space",
+      "siblings": [
+        "find-and-count-space"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "find-and-count-spring",
+      "siblings": [
+        "find-and-count-spring"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "find-and-count-summer",
+      "siblings": [
+        "find-and-count-summer"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "find-and-count-thanksgiving",
+      "siblings": [
+        "find-and-count-thanksgiving"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "find-and-count-tools",
+      "siblings": [
+        "find-and-count-tools"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "find-and-count-toys",
+      "siblings": [
+        "find-and-count-toys"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "find-and-count-tree",
+      "siblings": [
+        "find-and-count-tree"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "find-and-count-vegetables",
+      "siblings": [
+        "find-and-count-vegetables"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "find-and-count-vehicles",
+      "siblings": [
+        "find-and-count-vehicles",
+        "find-and-count-letter-spotting-vehicles",
+        "find-and-count-letter-spotting-vehicles-2",
+        "find-and-count-letter-spotting-vehicles-3",
+        "find-and-count-letter-spotting-vehicles-4"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "find-and-count-weather",
+      "siblings": [
+        "find-and-count-weather"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "find-and-count-winter",
+      "siblings": [
+        "find-and-count-winter",
+        "find-and-count-letter-spotting-winter",
+        "find-and-count-letter-spotting-winter-2",
+        "find-and-count-letter-spotting-winter-3",
+        "find-and-count-letter-spotting-winter-4",
+        "find-and-count-letter-spotting-winter-5",
+        "find-and-count-letter-spotting-winter-6",
+        "find-and-count-letter-spotting-winter-7"
+      ]
+    },
+    {
+      "type": "find-and-count",
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "find-and-count-zoo-animals",
+      "siblings": [
+        "find-and-count-zoo-animals",
+        "find-and-count-letter-spotting-zoo-animals",
+        "find-and-count-letter-spotting-zoo-animals-2",
+        "find-and-count-letter-spotting-zoo-animals-3",
+        "find-and-count-letter-spotting-zoo-animals-4",
+        "find-and-count-letter-spotting-zoo-animals-5",
+        "find-and-count-letter-spotting-zoo-animals-6",
+        "find-and-count-letter-spotting-zoo-animals-7",
+        "find-and-count-letter-spotting-zoo-animals-8",
+        "find-and-count-letter-spotting-zoo-animals-9"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "word-guess-easy-4th-of-july",
+      "siblings": [
+        "word-guess-easy-4th-of-july"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "word-guess-easy-accessories",
+      "siblings": [
+        "word-guess-easy-accessories"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "word-guess-easy-activities",
+      "siblings": [
+        "word-guess-easy-activities"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "word-guess-easy-animals",
+      "siblings": [
+        "word-guess-easy-animals"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "word-guess-easy-around-the-house",
+      "siblings": [
+        "word-guess-easy-around-the-house"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "word-guess-easy-at-the-supermarket",
+      "siblings": [
+        "word-guess-easy-at-the-supermarket"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "word-guess-easy-bakery",
+      "siblings": [
+        "word-guess-easy-bakery"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "word-guess-easy-beach",
+      "siblings": [
+        "word-guess-easy-beach"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "word-guess-easy-birds",
+      "siblings": [
+        "word-guess-easy-birds"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "word-guess-easy-body-parts",
+      "siblings": [
+        "word-guess-easy-body-parts"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "word-guess-easy-breakfast",
+      "siblings": [
+        "word-guess-easy-breakfast"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "word-guess-easy-camping",
+      "siblings": [
+        "word-guess-easy-camping"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "word-guess-easy-christmas",
+      "siblings": [
+        "word-guess-easy-christmas"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "word-guess-easy-classroom",
+      "siblings": [
+        "word-guess-easy-classroom"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "word-guess-easy-clothing",
+      "siblings": [
+        "word-guess-easy-clothing"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "word-guess-easy-colors",
+      "siblings": [
+        "word-guess-easy-colors"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "word-guess-easy-desserts-and-sweets",
+      "siblings": [
+        "word-guess-easy-desserts-and-sweets"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "word-guess-easy-easter",
+      "siblings": [
+        "word-guess-easy-easter"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "word-guess-easy-emotions",
+      "siblings": [
+        "word-guess-easy-emotions"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "word-guess-easy-farm-animals",
+      "siblings": [
+        "word-guess-easy-farm-animals"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "word-guess-easy-flowers",
+      "siblings": [
+        "word-guess-easy-flowers"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "word-guess-easy-forest-creatures",
+      "siblings": [
+        "word-guess-easy-forest-creatures"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "word-guess-easy-fruits",
+      "siblings": [
+        "word-guess-easy-fruits"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "word-guess-easy-furniture",
+      "siblings": [
+        "word-guess-easy-furniture"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "word-guess-easy-hospital",
+      "siblings": [
+        "word-guess-easy-hospital"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "word-guess-easy-insects-and-bugs",
+      "siblings": [
+        "word-guess-easy-insects-and-bugs"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "word-guess-easy-kitchen-tools",
+      "siblings": [
+        "word-guess-easy-kitchen-tools"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "word-guess-easy-music",
+      "siblings": [
+        "word-guess-easy-music"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "word-guess-easy-occupations",
+      "siblings": [
+        "word-guess-easy-occupations"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "word-guess-easy-ocean-life",
+      "siblings": [
+        "word-guess-easy-ocean-life"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "word-guess-easy-pets",
+      "siblings": [
+        "word-guess-easy-pets"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "word-guess-easy-post-office",
+      "siblings": [
+        "word-guess-easy-post-office"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "word-guess-easy-reptiles-and-amphibians",
+      "siblings": [
+        "word-guess-easy-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "word-guess-easy-shapes",
+      "siblings": [
+        "word-guess-easy-shapes"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "word-guess-easy-space",
+      "siblings": [
+        "word-guess-easy-space"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "word-guess-easy-spring",
+      "siblings": [
+        "word-guess-easy-spring"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "word-guess-easy-summer",
+      "siblings": [
+        "word-guess-easy-summer"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "word-guess-easy-thanksgiving",
+      "siblings": [
+        "word-guess-easy-thanksgiving"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "word-guess-easy-things-that-fly",
+      "siblings": [
+        "word-guess-easy-things-that-fly"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "word-guess-easy-tools",
+      "siblings": [
+        "word-guess-easy-tools"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "word-guess-easy-toys",
+      "siblings": [
+        "word-guess-easy-toys"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "word-guess-easy-tree",
+      "siblings": [
+        "word-guess-easy-tree"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "word-guess-easy-vegetables",
+      "siblings": [
+        "word-guess-easy-vegetables"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "word-guess-easy-vehicles",
+      "siblings": [
+        "word-guess-easy-vehicles",
+        "word-guess-easy-vehicles-2"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "word-guess-easy-weather",
+      "siblings": [
+        "word-guess-easy-weather"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "word-guess-easy-winter",
+      "siblings": [
+        "word-guess-easy-winter"
+      ]
+    },
+    {
+      "type": "word-guess",
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "word-guess-easy-zoo-animals",
+      "siblings": [
+        "word-guess-easy-zoo-animals"
+      ]
+    }
+  ]
+}

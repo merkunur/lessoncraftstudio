@@ -1,0 +1,438 @@
+{
+  "_note": "Wave 6 ship-or-drop fork — pattern-worksheet/null x K x EN, readiness (Patterning (readiness), NO alignment). 48 coords. DB age-tag 6-8 RE-LEVELED to K per lock ruling. GENERIC printable-pattern face (NOT pattern-train themed/named-unit).",
+  "count": 48,
+  "coordinates": [
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-worksheet-4th-of-july",
+      "siblings": [
+        "pattern-worksheet-4th-of-july"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-worksheet-accessories",
+      "siblings": [
+        "pattern-worksheet-accessories"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-worksheet-activities",
+      "siblings": [
+        "pattern-worksheet-activities"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-worksheet-around-the-house",
+      "siblings": [
+        "pattern-worksheet-around-the-house"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-worksheet-at-the-supermarket",
+      "siblings": [
+        "pattern-worksheet-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-worksheet-bakery",
+      "siblings": [
+        "pattern-worksheet-bakery"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "pattern-worksheet-beach",
+      "siblings": [
+        "pattern-worksheet-beach"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-worksheet-birds",
+      "siblings": [
+        "pattern-worksheet-birds"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-worksheet-birds-2",
+      "siblings": [
+        "pattern-worksheet-birds-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "pattern-worksheet-body-parts",
+      "siblings": [
+        "pattern-worksheet-body-parts"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-worksheet-breakfast",
+      "siblings": [
+        "pattern-worksheet-breakfast"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-worksheet-camping",
+      "siblings": [
+        "pattern-worksheet-camping"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-worksheet-christmas",
+      "siblings": [
+        "pattern-worksheet-christmas"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-worksheet-classroom",
+      "siblings": [
+        "pattern-worksheet-classroom"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-worksheet-clothing",
+      "siblings": [
+        "pattern-worksheet-clothing"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-worksheet-colors",
+      "siblings": [
+        "pattern-worksheet-colors"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-worksheet-desserts-and-sweets",
+      "siblings": [
+        "pattern-worksheet-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-worksheet-dinosaurs",
+      "siblings": [
+        "pattern-worksheet-dinosaurs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-worksheet-easter",
+      "siblings": [
+        "pattern-worksheet-easter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-worksheet-emotions",
+      "siblings": [
+        "pattern-worksheet-emotions"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-worksheet-farm-animals",
+      "siblings": [
+        "pattern-worksheet-farm-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-worksheet-flowers",
+      "siblings": [
+        "pattern-worksheet-flowers"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-worksheet-forest-creatures",
+      "siblings": [
+        "pattern-worksheet-forest-creatures"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-worksheet-fruits",
+      "siblings": [
+        "pattern-worksheet-fruits"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-worksheet-furniture",
+      "siblings": [
+        "pattern-worksheet-furniture"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-worksheet-hospital",
+      "siblings": [
+        "pattern-worksheet-hospital"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-worksheet-insects-and-bugs",
+      "siblings": [
+        "pattern-worksheet-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-worksheet-kitchen-tools",
+      "siblings": [
+        "pattern-worksheet-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-worksheet-miscellaneous",
+      "siblings": [
+        "pattern-worksheet-miscellaneous"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-worksheet-music",
+      "siblings": [
+        "pattern-worksheet-music"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-worksheet-occupations",
+      "siblings": [
+        "pattern-worksheet-occupations"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-worksheet-ocean-life",
+      "siblings": [
+        "pattern-worksheet-ocean-life"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-worksheet-pets",
+      "siblings": [
+        "pattern-worksheet-pets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-worksheet-post-office",
+      "siblings": [
+        "pattern-worksheet-post-office"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-worksheet-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-worksheet-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-worksheet-shapes",
+      "siblings": [
+        "pattern-worksheet-shapes"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-worksheet-space",
+      "siblings": [
+        "pattern-worksheet-space"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-worksheet-summer",
+      "siblings": [
+        "pattern-worksheet-summer"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-worksheet-thanksgiving",
+      "siblings": [
+        "pattern-worksheet-thanksgiving"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-worksheet-things-that-fly",
+      "siblings": [
+        "pattern-worksheet-things-that-fly"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-worksheet-tools",
+      "siblings": [
+        "pattern-worksheet-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-worksheet-toys",
+      "siblings": [
+        "pattern-worksheet-toys"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-worksheet-tree",
+      "siblings": [
+        "pattern-worksheet-tree"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-worksheet-vegetables",
+      "siblings": [
+        "pattern-worksheet-vegetables"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-worksheet-vehicles",
+      "siblings": [
+        "pattern-worksheet-vehicles"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-worksheet-weather",
+      "siblings": [
+        "pattern-worksheet-weather"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-worksheet-winter",
+      "siblings": [
+        "pattern-worksheet-winter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-worksheet-zoo-animals",
+      "siblings": [
+        "pattern-worksheet-zoo-animals"
+      ]
+    }
+  ]
+}

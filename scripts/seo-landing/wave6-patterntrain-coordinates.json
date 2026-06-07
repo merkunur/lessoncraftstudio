@@ -1,0 +1,2246 @@
+{
+  "_note": "Wave 6 lead — pattern-train x {ab(null),aab,aabb,abb,abc} x K x EN, readiness (Patterning (readiness), NO alignment). 248 coords. Pattern-unit ladder: ab=2-elem, aab=double-first, abb=double-second, aabb=paired, abc=3-distinct.",
+  "count": 248,
+  "coordinates": [
+    {
+      "mode": "aab",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-train-aab-4th-of-july",
+      "siblings": [
+        "pattern-train-aab-4th-of-july"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-train-aab-accessories",
+      "siblings": [
+        "pattern-train-aab-accessories"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-train-aab-activities",
+      "siblings": [
+        "pattern-train-aab-activities"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "pattern-train-aab-animals",
+      "siblings": [
+        "pattern-train-aab-animals"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-train-aab-around-the-house",
+      "siblings": [
+        "pattern-train-aab-around-the-house"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-train-aab-at-the-supermarket",
+      "siblings": [
+        "pattern-train-aab-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-train-aab-bakery",
+      "siblings": [
+        "pattern-train-aab-bakery"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "pattern-train-aab-beach",
+      "siblings": [
+        "pattern-train-aab-beach"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-train-aab-birds",
+      "siblings": [
+        "pattern-train-aab-birds"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-train-aab-birds-2",
+      "siblings": [
+        "pattern-train-aab-birds-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-train-aab-breakfast",
+      "siblings": [
+        "pattern-train-aab-breakfast"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-train-aab-camping",
+      "siblings": [
+        "pattern-train-aab-camping"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-train-aab-christmas",
+      "siblings": [
+        "pattern-train-aab-christmas"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-train-aab-classroom",
+      "siblings": [
+        "pattern-train-aab-classroom"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-train-aab-clothing",
+      "siblings": [
+        "pattern-train-aab-clothing"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-train-aab-colors",
+      "siblings": [
+        "pattern-train-aab-colors"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-train-aab-desserts-and-sweets",
+      "siblings": [
+        "pattern-train-aab-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-train-aab-dinosaurs",
+      "siblings": [
+        "pattern-train-aab-dinosaurs"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-train-aab-easter",
+      "siblings": [
+        "pattern-train-aab-easter"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-train-aab-emotions",
+      "siblings": [
+        "pattern-train-aab-emotions"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-train-aab-farm-animals",
+      "siblings": [
+        "pattern-train-aab-farm-animals"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-train-aab-flowers",
+      "siblings": [
+        "pattern-train-aab-flowers"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-train-aab-forest-creatures",
+      "siblings": [
+        "pattern-train-aab-forest-creatures"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-train-aab-fruits",
+      "siblings": [
+        "pattern-train-aab-fruits"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-train-aab-furniture",
+      "siblings": [
+        "pattern-train-aab-furniture"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-train-aab-hospital",
+      "siblings": [
+        "pattern-train-aab-hospital"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-train-aab-insects-and-bugs",
+      "siblings": [
+        "pattern-train-aab-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-train-aab-kitchen-tools",
+      "siblings": [
+        "pattern-train-aab-kitchen-tools",
+        "pattern-train-aab-kitchen-tools-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-train-aab-miscellaneous",
+      "siblings": [
+        "pattern-train-aab-miscellaneous",
+        "pattern-train-aab-miscellaneous-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-train-aab-music",
+      "siblings": [
+        "pattern-train-aab-music",
+        "pattern-train-aab-music-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-train-aab-occupations",
+      "siblings": [
+        "pattern-train-aab-occupations",
+        "pattern-train-aab-occupations-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-train-aab-ocean-life",
+      "siblings": [
+        "pattern-train-aab-ocean-life",
+        "pattern-train-aab-ocean-life-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-train-aab-pets",
+      "siblings": [
+        "pattern-train-aab-pets",
+        "pattern-train-aab-pets-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-train-aab-post-office",
+      "siblings": [
+        "pattern-train-aab-post-office",
+        "pattern-train-aab-post-office-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-train-aab-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-train-aab-reptiles-and-amphibians",
+        "pattern-train-aab-reptiles-and-amphibians-2"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-train-aab-shapes",
+      "siblings": [
+        "pattern-train-aab-shapes"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-train-aab-space",
+      "siblings": [
+        "pattern-train-aab-space"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "pattern-train-aab-spring",
+      "siblings": [
+        "pattern-train-aab-spring"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-train-aab-summer",
+      "siblings": [
+        "pattern-train-aab-summer"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-train-aab-thanksgiving",
+      "siblings": [
+        "pattern-train-aab-thanksgiving"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-train-aab-things-that-fly",
+      "siblings": [
+        "pattern-train-aab-things-that-fly"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-train-aab-tools",
+      "siblings": [
+        "pattern-train-aab-tools"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-train-aab-toys",
+      "siblings": [
+        "pattern-train-aab-toys"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-train-aab-tree",
+      "siblings": [
+        "pattern-train-aab-tree"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-train-aab-vegetables",
+      "siblings": [
+        "pattern-train-aab-vegetables"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-train-aab-vehicles",
+      "siblings": [
+        "pattern-train-aab-vehicles"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-train-aab-weather",
+      "siblings": [
+        "pattern-train-aab-weather"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-train-aab-winter",
+      "siblings": [
+        "pattern-train-aab-winter"
+      ]
+    },
+    {
+      "mode": "aab",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-train-aab-zoo-animals",
+      "siblings": [
+        "pattern-train-aab-zoo-animals"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-train-aabb-4th-of-july",
+      "siblings": [
+        "pattern-train-aabb-4th-of-july"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-train-aabb-accessories",
+      "siblings": [
+        "pattern-train-aabb-accessories"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-train-aabb-activities",
+      "siblings": [
+        "pattern-train-aabb-activities"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "pattern-train-aabb-animals",
+      "siblings": [
+        "pattern-train-aabb-animals"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-train-aabb-around-the-house",
+      "siblings": [
+        "pattern-train-aabb-around-the-house"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-train-aabb-at-the-supermarket",
+      "siblings": [
+        "pattern-train-aabb-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-train-aabb-bakery",
+      "siblings": [
+        "pattern-train-aabb-bakery"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "pattern-train-aabb-beach",
+      "siblings": [
+        "pattern-train-aabb-beach"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-train-aabb-birds",
+      "siblings": [
+        "pattern-train-aabb-birds"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-train-aabb-birds-2",
+      "siblings": [
+        "pattern-train-aabb-birds-2"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "pattern-train-aabb-body-parts",
+      "siblings": [
+        "pattern-train-aabb-body-parts"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-train-aabb-breakfast",
+      "siblings": [
+        "pattern-train-aabb-breakfast"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-train-aabb-camping",
+      "siblings": [
+        "pattern-train-aabb-camping"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-train-aabb-christmas",
+      "siblings": [
+        "pattern-train-aabb-christmas"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-train-aabb-classroom",
+      "siblings": [
+        "pattern-train-aabb-classroom"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-train-aabb-clothing",
+      "siblings": [
+        "pattern-train-aabb-clothing"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-train-aabb-colors",
+      "siblings": [
+        "pattern-train-aabb-colors"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-train-aabb-desserts-and-sweets",
+      "siblings": [
+        "pattern-train-aabb-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-train-aabb-dinosaurs",
+      "siblings": [
+        "pattern-train-aabb-dinosaurs"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-train-aabb-easter",
+      "siblings": [
+        "pattern-train-aabb-easter"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-train-aabb-emotions",
+      "siblings": [
+        "pattern-train-aabb-emotions"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-train-aabb-farm-animals",
+      "siblings": [
+        "pattern-train-aabb-farm-animals"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-train-aabb-flowers",
+      "siblings": [
+        "pattern-train-aabb-flowers"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-train-aabb-forest-creatures",
+      "siblings": [
+        "pattern-train-aabb-forest-creatures"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-train-aabb-fruits",
+      "siblings": [
+        "pattern-train-aabb-fruits"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-train-aabb-furniture",
+      "siblings": [
+        "pattern-train-aabb-furniture"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-train-aabb-hospital",
+      "siblings": [
+        "pattern-train-aabb-hospital"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-train-aabb-insects-and-bugs",
+      "siblings": [
+        "pattern-train-aabb-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-train-aabb-kitchen-tools",
+      "siblings": [
+        "pattern-train-aabb-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-train-aabb-miscellaneous",
+      "siblings": [
+        "pattern-train-aabb-miscellaneous"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-train-aabb-music",
+      "siblings": [
+        "pattern-train-aabb-music"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-train-aabb-occupations",
+      "siblings": [
+        "pattern-train-aabb-occupations"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-train-aabb-ocean-life",
+      "siblings": [
+        "pattern-train-aabb-ocean-life"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-train-aabb-pets",
+      "siblings": [
+        "pattern-train-aabb-pets"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-train-aabb-post-office",
+      "siblings": [
+        "pattern-train-aabb-post-office"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-train-aabb-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-train-aabb-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-train-aabb-shapes",
+      "siblings": [
+        "pattern-train-aabb-shapes"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-train-aabb-space",
+      "siblings": [
+        "pattern-train-aabb-space"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "pattern-train-aabb-spring",
+      "siblings": [
+        "pattern-train-aabb-spring"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-train-aabb-summer",
+      "siblings": [
+        "pattern-train-aabb-summer"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-train-aabb-thanksgiving",
+      "siblings": [
+        "pattern-train-aabb-thanksgiving"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-train-aabb-things-that-fly",
+      "siblings": [
+        "pattern-train-aabb-things-that-fly"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-train-aabb-tools",
+      "siblings": [
+        "pattern-train-aabb-tools"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-train-aabb-toys",
+      "siblings": [
+        "pattern-train-aabb-toys"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-train-aabb-tree",
+      "siblings": [
+        "pattern-train-aabb-tree"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-train-aabb-vegetables",
+      "siblings": [
+        "pattern-train-aabb-vegetables"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-train-aabb-vehicles",
+      "siblings": [
+        "pattern-train-aabb-vehicles"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-train-aabb-weather",
+      "siblings": [
+        "pattern-train-aabb-weather"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-train-aabb-winter",
+      "siblings": [
+        "pattern-train-aabb-winter"
+      ]
+    },
+    {
+      "mode": "aabb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-train-aabb-zoo-animals",
+      "siblings": [
+        "pattern-train-aabb-zoo-animals"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-train-abb-4th-of-july",
+      "siblings": [
+        "pattern-train-abb-4th-of-july"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-train-abb-accessories",
+      "siblings": [
+        "pattern-train-abb-accessories"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-train-abb-activities",
+      "siblings": [
+        "pattern-train-abb-activities"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "pattern-train-abb-animals",
+      "siblings": [
+        "pattern-train-abb-animals"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-train-abb-around-the-house",
+      "siblings": [
+        "pattern-train-abb-around-the-house"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-train-abb-at-the-supermarket",
+      "siblings": [
+        "pattern-train-abb-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-train-abb-bakery",
+      "siblings": [
+        "pattern-train-abb-bakery"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "pattern-train-abb-beach",
+      "siblings": [
+        "pattern-train-abb-beach"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-train-abb-birds",
+      "siblings": [
+        "pattern-train-abb-birds"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-train-abb-birds-2",
+      "siblings": [
+        "pattern-train-abb-birds-2"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "pattern-train-abb-body-parts",
+      "siblings": [
+        "pattern-train-abb-body-parts"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-train-abb-breakfast",
+      "siblings": [
+        "pattern-train-abb-breakfast"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-train-abb-camping",
+      "siblings": [
+        "pattern-train-abb-camping"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-train-abb-christmas",
+      "siblings": [
+        "pattern-train-abb-christmas"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-train-abb-classroom",
+      "siblings": [
+        "pattern-train-abb-classroom"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-train-abb-clothing",
+      "siblings": [
+        "pattern-train-abb-clothing"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-train-abb-colors",
+      "siblings": [
+        "pattern-train-abb-colors"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-train-abb-desserts-and-sweets",
+      "siblings": [
+        "pattern-train-abb-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-train-abb-dinosaurs",
+      "siblings": [
+        "pattern-train-abb-dinosaurs"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-train-abb-easter",
+      "siblings": [
+        "pattern-train-abb-easter"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-train-abb-emotions",
+      "siblings": [
+        "pattern-train-abb-emotions"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-train-abb-farm-animals",
+      "siblings": [
+        "pattern-train-abb-farm-animals"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-train-abb-flowers",
+      "siblings": [
+        "pattern-train-abb-flowers"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-train-abb-forest-creatures",
+      "siblings": [
+        "pattern-train-abb-forest-creatures"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-train-abb-fruits",
+      "siblings": [
+        "pattern-train-abb-fruits"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-train-abb-furniture",
+      "siblings": [
+        "pattern-train-abb-furniture"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-train-abb-hospital",
+      "siblings": [
+        "pattern-train-abb-hospital"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-train-abb-insects-and-bugs",
+      "siblings": [
+        "pattern-train-abb-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-train-abb-kitchen-tools",
+      "siblings": [
+        "pattern-train-abb-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-train-abb-miscellaneous",
+      "siblings": [
+        "pattern-train-abb-miscellaneous"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-train-abb-music",
+      "siblings": [
+        "pattern-train-abb-music"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-train-abb-occupations",
+      "siblings": [
+        "pattern-train-abb-occupations"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-train-abb-ocean-life",
+      "siblings": [
+        "pattern-train-abb-ocean-life"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-train-abb-pets",
+      "siblings": [
+        "pattern-train-abb-pets"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-train-abb-post-office",
+      "siblings": [
+        "pattern-train-abb-post-office"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-train-abb-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-train-abb-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-train-abb-shapes",
+      "siblings": [
+        "pattern-train-abb-shapes"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-train-abb-space",
+      "siblings": [
+        "pattern-train-abb-space"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "pattern-train-abb-spring",
+      "siblings": [
+        "pattern-train-abb-spring"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-train-abb-summer",
+      "siblings": [
+        "pattern-train-abb-summer"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-train-abb-thanksgiving",
+      "siblings": [
+        "pattern-train-abb-thanksgiving"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-train-abb-things-that-fly",
+      "siblings": [
+        "pattern-train-abb-things-that-fly"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-train-abb-tools",
+      "siblings": [
+        "pattern-train-abb-tools"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-train-abb-toys",
+      "siblings": [
+        "pattern-train-abb-toys"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-train-abb-tree",
+      "siblings": [
+        "pattern-train-abb-tree"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-train-abb-vegetables",
+      "siblings": [
+        "pattern-train-abb-vegetables"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-train-abb-vehicles",
+      "siblings": [
+        "pattern-train-abb-vehicles"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-train-abb-weather",
+      "siblings": [
+        "pattern-train-abb-weather"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-train-abb-winter",
+      "siblings": [
+        "pattern-train-abb-winter"
+      ]
+    },
+    {
+      "mode": "abb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-train-abb-zoo-animals",
+      "siblings": [
+        "pattern-train-abb-zoo-animals"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-train-abc-4th-of-july",
+      "siblings": [
+        "pattern-train-abc-4th-of-july"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-train-abc-accessories",
+      "siblings": [
+        "pattern-train-abc-accessories"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-train-abc-activities",
+      "siblings": [
+        "pattern-train-abc-activities"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "pattern-train-abc-animals",
+      "siblings": [
+        "pattern-train-abc-animals"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-train-abc-around-the-house",
+      "siblings": [
+        "pattern-train-abc-around-the-house"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-train-abc-at-the-supermarket",
+      "siblings": [
+        "pattern-train-abc-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-train-abc-bakery",
+      "siblings": [
+        "pattern-train-abc-bakery"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "pattern-train-abc-beach",
+      "siblings": [
+        "pattern-train-abc-beach"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-train-abc-birds",
+      "siblings": [
+        "pattern-train-abc-birds"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-train-abc-birds-2",
+      "siblings": [
+        "pattern-train-abc-birds-2"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "pattern-train-abc-body-parts",
+      "siblings": [
+        "pattern-train-abc-body-parts"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-train-abc-breakfast",
+      "siblings": [
+        "pattern-train-abc-breakfast"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-train-abc-camping",
+      "siblings": [
+        "pattern-train-abc-camping"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-train-abc-christmas",
+      "siblings": [
+        "pattern-train-abc-christmas"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-train-abc-classroom",
+      "siblings": [
+        "pattern-train-abc-classroom"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-train-abc-clothing",
+      "siblings": [
+        "pattern-train-abc-clothing"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-train-abc-colors",
+      "siblings": [
+        "pattern-train-abc-colors"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-train-abc-desserts-and-sweets",
+      "siblings": [
+        "pattern-train-abc-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-train-abc-dinosaurs",
+      "siblings": [
+        "pattern-train-abc-dinosaurs"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-train-abc-easter",
+      "siblings": [
+        "pattern-train-abc-easter"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-train-abc-emotions",
+      "siblings": [
+        "pattern-train-abc-emotions"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-train-abc-farm-animals",
+      "siblings": [
+        "pattern-train-abc-farm-animals"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-train-abc-flowers",
+      "siblings": [
+        "pattern-train-abc-flowers"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-train-abc-forest-creatures",
+      "siblings": [
+        "pattern-train-abc-forest-creatures"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-train-abc-fruits",
+      "siblings": [
+        "pattern-train-abc-fruits"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-train-abc-furniture",
+      "siblings": [
+        "pattern-train-abc-furniture"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-train-abc-hospital",
+      "siblings": [
+        "pattern-train-abc-hospital"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-train-abc-insects-and-bugs",
+      "siblings": [
+        "pattern-train-abc-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-train-abc-kitchen-tools",
+      "siblings": [
+        "pattern-train-abc-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-train-abc-miscellaneous",
+      "siblings": [
+        "pattern-train-abc-miscellaneous"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-train-abc-music",
+      "siblings": [
+        "pattern-train-abc-music"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-train-abc-occupations",
+      "siblings": [
+        "pattern-train-abc-occupations"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-train-abc-ocean-life",
+      "siblings": [
+        "pattern-train-abc-ocean-life"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-train-abc-pets",
+      "siblings": [
+        "pattern-train-abc-pets"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-train-abc-post-office",
+      "siblings": [
+        "pattern-train-abc-post-office"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-train-abc-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-train-abc-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-train-abc-shapes",
+      "siblings": [
+        "pattern-train-abc-shapes"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-train-abc-space",
+      "siblings": [
+        "pattern-train-abc-space"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "pattern-train-abc-spring",
+      "siblings": [
+        "pattern-train-abc-spring"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-train-abc-summer",
+      "siblings": [
+        "pattern-train-abc-summer"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-train-abc-thanksgiving",
+      "siblings": [
+        "pattern-train-abc-thanksgiving"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-train-abc-things-that-fly",
+      "siblings": [
+        "pattern-train-abc-things-that-fly"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-train-abc-tools",
+      "siblings": [
+        "pattern-train-abc-tools"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-train-abc-toys",
+      "siblings": [
+        "pattern-train-abc-toys"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-train-abc-tree",
+      "siblings": [
+        "pattern-train-abc-tree"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-train-abc-vegetables",
+      "siblings": [
+        "pattern-train-abc-vegetables"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-train-abc-vehicles",
+      "siblings": [
+        "pattern-train-abc-vehicles"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-train-abc-weather",
+      "siblings": [
+        "pattern-train-abc-weather"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-train-abc-winter",
+      "siblings": [
+        "pattern-train-abc-winter"
+      ]
+    },
+    {
+      "mode": "abc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-train-abc-zoo-animals",
+      "siblings": [
+        "pattern-train-abc-zoo-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "pattern-train-4th-of-july",
+      "siblings": [
+        "pattern-train-4th-of-july"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "pattern-train-accessories",
+      "siblings": [
+        "pattern-train-accessories"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "pattern-train-activities",
+      "siblings": [
+        "pattern-train-activities"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "pattern-train-animals",
+      "siblings": [
+        "pattern-train-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "pattern-train-around-the-house",
+      "siblings": [
+        "pattern-train-around-the-house"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "pattern-train-at-the-supermarket",
+      "siblings": [
+        "pattern-train-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "pattern-train-bakery",
+      "siblings": [
+        "pattern-train-bakery"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "pattern-train-birds",
+      "siblings": [
+        "pattern-train-birds"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "pattern-train-birds-2",
+      "siblings": [
+        "pattern-train-birds-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "pattern-train-body-parts",
+      "siblings": [
+        "pattern-train-body-parts"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "pattern-train-breakfast",
+      "siblings": [
+        "pattern-train-breakfast"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "pattern-train-camping",
+      "siblings": [
+        "pattern-train-camping"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "pattern-train-christmas",
+      "siblings": [
+        "pattern-train-christmas"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "pattern-train-classroom",
+      "siblings": [
+        "pattern-train-classroom"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "pattern-train-clothing",
+      "siblings": [
+        "pattern-train-clothing"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "pattern-train-colors",
+      "siblings": [
+        "pattern-train-colors"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "pattern-train-desserts-and-sweets",
+      "siblings": [
+        "pattern-train-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "pattern-train-dinosaurs",
+      "siblings": [
+        "pattern-train-dinosaurs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "pattern-train-easter",
+      "siblings": [
+        "pattern-train-easter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "pattern-train-emotions",
+      "siblings": [
+        "pattern-train-emotions"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "pattern-train-farm-animals",
+      "siblings": [
+        "pattern-train-farm-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "pattern-train-flowers",
+      "siblings": [
+        "pattern-train-flowers"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "pattern-train-forest-creatures",
+      "siblings": [
+        "pattern-train-forest-creatures"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "pattern-train-fruits",
+      "siblings": [
+        "pattern-train-fruits"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "pattern-train-furniture",
+      "siblings": [
+        "pattern-train-furniture"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "pattern-train-hospital",
+      "siblings": [
+        "pattern-train-hospital"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "pattern-train-insects-and-bugs",
+      "siblings": [
+        "pattern-train-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "pattern-train-kitchen-tools",
+      "siblings": [
+        "pattern-train-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "pattern-train-miscellaneous",
+      "siblings": [
+        "pattern-train-miscellaneous"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "pattern-train-music",
+      "siblings": [
+        "pattern-train-music"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "pattern-train-occupations",
+      "siblings": [
+        "pattern-train-occupations"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "pattern-train-ocean-life",
+      "siblings": [
+        "pattern-train-ocean-life"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "pattern-train-pets",
+      "siblings": [
+        "pattern-train-pets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "pattern-train-post-office",
+      "siblings": [
+        "pattern-train-post-office"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "pattern-train-reptiles-and-amphibians",
+      "siblings": [
+        "pattern-train-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "pattern-train-shapes",
+      "siblings": [
+        "pattern-train-shapes"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "pattern-train-space",
+      "siblings": [
+        "pattern-train-space"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "pattern-train-spring",
+      "siblings": [
+        "pattern-train-spring"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "pattern-train-summer",
+      "siblings": [
+        "pattern-train-summer"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "pattern-train-thanksgiving",
+      "siblings": [
+        "pattern-train-thanksgiving"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "pattern-train-things-that-fly",
+      "siblings": [
+        "pattern-train-things-that-fly"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "pattern-train-tools",
+      "siblings": [
+        "pattern-train-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "pattern-train-toys",
+      "siblings": [
+        "pattern-train-toys"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "pattern-train-tree",
+      "siblings": [
+        "pattern-train-tree"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "pattern-train-vegetables",
+      "siblings": [
+        "pattern-train-vegetables"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "pattern-train-vehicles",
+      "siblings": [
+        "pattern-train-vehicles"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "pattern-train-weather",
+      "siblings": [
+        "pattern-train-weather"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "pattern-train-winter",
+      "siblings": [
+        "pattern-train-winter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "pattern-train-zoo-animals",
+      "siblings": [
+        "pattern-train-zoo-animals"
+      ]
+    }
+  ]
+}

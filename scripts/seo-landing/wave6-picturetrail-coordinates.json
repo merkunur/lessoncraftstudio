@@ -1,0 +1,487 @@
+{
+  "_note": "Wave 6 — picture-trail/pathway x K x EN, readiness (Spatial reasoning (readiness), NO alignment). 48 themes, ~2x collapse (42 collapse). EN emission of picture-path (15.10). Maze/path-trace; collapse landing slug picture-trail-<theme>-kindergarten.",
+  "count": 48,
+  "coordinates": [
+    {
+      "mode": "pathway",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "picture-trail-4th-of-july-001",
+      "siblings": [
+        "picture-trail-4th-of-july-001",
+        "picture-trail-4th-of-july-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "picture-trail-accessories",
+      "siblings": [
+        "picture-trail-accessories"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "picture-trail-activities-001",
+      "siblings": [
+        "picture-trail-activities-001",
+        "picture-trail-activities-002",
+        "picture-trail-activities-003"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "picture-trail-animals-001",
+      "siblings": [
+        "picture-trail-animals-001",
+        "picture-trail-animals-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "picture-trail-around-the-house-001",
+      "siblings": [
+        "picture-trail-around-the-house-001",
+        "picture-trail-around-the-house-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "picture-trail-at-the-supermarket-001",
+      "siblings": [
+        "picture-trail-at-the-supermarket-001",
+        "picture-trail-at-the-supermarket-002",
+        "picture-trail-at-the-supermarket-003"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "picture-trail-bakery-001",
+      "siblings": [
+        "picture-trail-bakery-001",
+        "picture-trail-bakery-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "picture-trail-beach-001",
+      "siblings": [
+        "picture-trail-beach-001",
+        "picture-trail-beach-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "picture-trail-birds-001",
+      "siblings": [
+        "picture-trail-birds-001",
+        "picture-trail-birds-002",
+        "picture-trail-birds-003"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "picture-trail-birds-2-001",
+      "siblings": [
+        "picture-trail-birds-2-001",
+        "picture-trail-birds-2-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "picture-trail-body-parts-001",
+      "siblings": [
+        "picture-trail-body-parts-001",
+        "picture-trail-body-parts-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "picture-trail-breakfast-001",
+      "siblings": [
+        "picture-trail-breakfast-001",
+        "picture-trail-breakfast-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "picture-trail-camping-001",
+      "siblings": [
+        "picture-trail-camping-001",
+        "picture-trail-camping-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "picture-trail-christmas-001",
+      "siblings": [
+        "picture-trail-christmas-001",
+        "picture-trail-christmas-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "picture-trail-classroom-001",
+      "siblings": [
+        "picture-trail-classroom-001",
+        "picture-trail-classroom-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "picture-trail-clothing",
+      "siblings": [
+        "picture-trail-clothing"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "picture-trail-desserts-and-sweets",
+      "siblings": [
+        "picture-trail-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "picture-trail-dinosaurs-001",
+      "siblings": [
+        "picture-trail-dinosaurs-001",
+        "picture-trail-dinosaurs-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "picture-trail-easter-001",
+      "siblings": [
+        "picture-trail-easter-001",
+        "picture-trail-easter-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "picture-trail-emotions-001",
+      "siblings": [
+        "picture-trail-emotions-001",
+        "picture-trail-emotions-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "picture-trail-farm-animals-001",
+      "siblings": [
+        "picture-trail-farm-animals-001",
+        "picture-trail-farm-animals-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "picture-trail-flowers-001",
+      "siblings": [
+        "picture-trail-flowers-001",
+        "picture-trail-flowers-002",
+        "picture-trail-flowers-003"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "picture-trail-forest-creatures-001",
+      "siblings": [
+        "picture-trail-forest-creatures-001",
+        "picture-trail-forest-creatures-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "picture-trail-fruits-001",
+      "siblings": [
+        "picture-trail-fruits-001",
+        "picture-trail-fruits-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "picture-trail-furniture-001",
+      "siblings": [
+        "picture-trail-furniture-001",
+        "picture-trail-furniture-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "picture-trail-hospital-001",
+      "siblings": [
+        "picture-trail-hospital-001",
+        "picture-trail-hospital-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "picture-trail-insects-and-bugs",
+      "siblings": [
+        "picture-trail-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "picture-trail-kitchen-tools-001",
+      "siblings": [
+        "picture-trail-kitchen-tools-001",
+        "picture-trail-kitchen-tools-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "picture-trail-miscellaneous-001",
+      "siblings": [
+        "picture-trail-miscellaneous-001",
+        "picture-trail-miscellaneous-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "picture-trail-music-001",
+      "siblings": [
+        "picture-trail-music-001",
+        "picture-trail-music-002",
+        "picture-trail-music-003"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "picture-trail-occupations-001",
+      "siblings": [
+        "picture-trail-occupations-001",
+        "picture-trail-occupations-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "picture-trail-ocean-life-001",
+      "siblings": [
+        "picture-trail-ocean-life-001",
+        "picture-trail-ocean-life-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "picture-trail-pets-001",
+      "siblings": [
+        "picture-trail-pets-001",
+        "picture-trail-pets-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "picture-trail-post-office",
+      "siblings": [
+        "picture-trail-post-office"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "picture-trail-shapes-001",
+      "siblings": [
+        "picture-trail-shapes-001",
+        "picture-trail-shapes-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "picture-trail-space-001",
+      "siblings": [
+        "picture-trail-space-001",
+        "picture-trail-space-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "picture-trail-spring-001",
+      "siblings": [
+        "picture-trail-spring-001",
+        "picture-trail-spring-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "picture-trail-summer-001",
+      "siblings": [
+        "picture-trail-summer-001",
+        "picture-trail-summer-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "picture-trail-thanksgiving-001",
+      "siblings": [
+        "picture-trail-thanksgiving-001",
+        "picture-trail-thanksgiving-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "picture-trail-things-that-fly",
+      "siblings": [
+        "picture-trail-things-that-fly"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "picture-trail-tools-001",
+      "siblings": [
+        "picture-trail-tools-001",
+        "picture-trail-tools-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "picture-trail-toys-001",
+      "siblings": [
+        "picture-trail-toys-001",
+        "picture-trail-toys-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "picture-trail-tree-001",
+      "siblings": [
+        "picture-trail-tree-001",
+        "picture-trail-tree-002",
+        "picture-trail-tree-003",
+        "picture-trail-tree-004"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "picture-trail-vegetables-001",
+      "siblings": [
+        "picture-trail-vegetables-001",
+        "picture-trail-vegetables-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "picture-trail-vehicles-001",
+      "siblings": [
+        "picture-trail-vehicles-001",
+        "picture-trail-vehicles-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "picture-trail-weather-001",
+      "siblings": [
+        "picture-trail-weather-001",
+        "picture-trail-weather-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "picture-trail-winter-001",
+      "siblings": [
+        "picture-trail-winter-001",
+        "picture-trail-winter-002"
+      ]
+    },
+    {
+      "mode": "pathway",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "picture-trail-zoo-animals-001",
+      "siblings": [
+        "picture-trail-zoo-animals-001",
+        "picture-trail-zoo-animals-002"
+      ]
+    }
+  ]
+}

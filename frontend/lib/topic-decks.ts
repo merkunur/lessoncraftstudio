@@ -60,11 +60,26 @@ export async function fetchDecksForAxis(
     }) as unknown as Promise<TopicDeckSummary[]>;
   }
   if (axis === 'theme') {
-    return prisma.deck.findMany({
-      where: { language: locale, status: 'published', subjectTags: { has: axisKey } },
+    // De-orphan (Wave 5): surface a deck on this theme hub when the theme matches a subjectTag exactly
+    // (regular decks: subject_tags @> [key]) OR when the theme is a component of a "-vs-" combined tag
+    // (picture-sort pairs carry a single "X-vs-Y" tag → a query for X or Y must surface it on BOTH hubs).
+    // Ids-only raw SQL (snake-case columns) keeps the typed shape from DECK_SELECT; the "-vs-" anchor in the
+    // LIKE patterns prevents the substring trap (a query for `animals` must not match `...-vs-zoo_animals`).
+    const idRows = await prisma.$queryRaw<{ id: string }[]>`
+      SELECT id FROM decks
+      WHERE language = ${locale} AND status = 'published'
+        AND ( subject_tags @> ARRAY[${axisKey}]::text[]
+           OR EXISTS (SELECT 1 FROM unnest(subject_tags) t
+                      WHERE t LIKE ${axisKey + '-vs-%'} OR t LIKE ${'%-vs-' + axisKey}) )
+      ORDER BY published_at DESC NULLS LAST, id ASC`;
+    const ids = idRows.map((r) => r.id);
+    if (ids.length === 0) return [];
+    const decks = (await prisma.deck.findMany({
+      where: { id: { in: ids } },
       select: DECK_SELECT,
-      orderBy: [{ publishedAt: 'desc' }, { id: 'asc' }],
-    }) as unknown as Promise<TopicDeckSummary[]>;
+    })) as unknown as TopicDeckSummary[];
+    const order = new Map(ids.map((id, i) => [id, i] as const));
+    return decks.sort((a, b) => (order.get(a.id)! - order.get(b.id)!));
   }
   if (axis === 'educational-level') {
     const ageRanges = levelKeyToAgeRanges(axisKey);

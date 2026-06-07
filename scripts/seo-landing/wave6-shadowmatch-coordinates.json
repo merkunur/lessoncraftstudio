@@ -1,0 +1,530 @@
+{
+  "_note": "Wave 6 final — shadow-match/find-shadow x K x EN, readiness (Visual discrimination (readiness), reused; NO alignment). 48 themes, 140 decks, ALL collapse (~2.9x). Silhouette-match pairing; collapse landing slug shadow-match-<theme>-kindergarten.",
+  "count": 48,
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "shadow-match-4th-of-july",
+      "siblings": [
+        "shadow-match-4th-of-july",
+        "shadow-match-4th-of-july-2",
+        "shadow-match-4th-of-july-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "shadow-match-accessories",
+      "siblings": [
+        "shadow-match-accessories",
+        "shadow-match-accessories-2",
+        "shadow-match-accessories-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "shadow-match-activities",
+      "siblings": [
+        "shadow-match-activities",
+        "shadow-match-activities-2",
+        "shadow-match-activities-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "shadow-match",
+      "siblings": [
+        "shadow-match",
+        "shadow-match-animals",
+        "shadow-match-animals-2",
+        "shadow-match-animals-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "shadow-match-around-the-house",
+      "siblings": [
+        "shadow-match-around-the-house",
+        "shadow-match-around-the-house-2",
+        "shadow-match-around-the-house-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "shadow-match-at-the-supermarket",
+      "siblings": [
+        "shadow-match-at-the-supermarket",
+        "shadow-match-at-the-supermarket-2",
+        "shadow-match-at-the-supermarket-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "shadow-match-bakery",
+      "siblings": [
+        "shadow-match-bakery",
+        "shadow-match-bakery-2",
+        "shadow-match-bakery-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "shadow-match-beach",
+      "siblings": [
+        "shadow-match-beach",
+        "shadow-match-beach-2",
+        "shadow-match-beach-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "shadow-match-birds",
+      "siblings": [
+        "shadow-match-birds",
+        "shadow-match-birds-3",
+        "shadow-match-birds-4"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "shadow-match-birds-2",
+      "siblings": [
+        "shadow-match-birds-2",
+        "shadow-match-birds-2-2",
+        "shadow-match-birds-2-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "shadow-match-body-parts",
+      "siblings": [
+        "shadow-match-body-parts",
+        "shadow-match-body-parts-2",
+        "shadow-match-body-parts-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "shadow-match-breakfast",
+      "siblings": [
+        "shadow-match-breakfast",
+        "shadow-match-breakfast-2",
+        "shadow-match-breakfast-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "shadow-match-camping",
+      "siblings": [
+        "shadow-match-camping",
+        "shadow-match-camping-2",
+        "shadow-match-camping-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "shadow-match-christmas",
+      "siblings": [
+        "shadow-match-christmas",
+        "shadow-match-christmas-2",
+        "shadow-match-christmas-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "shadow-match-classroom",
+      "siblings": [
+        "shadow-match-classroom",
+        "shadow-match-classroom-2",
+        "shadow-match-classroom-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "shadow-match-clothing",
+      "siblings": [
+        "shadow-match-clothing",
+        "shadow-match-clothing-2",
+        "shadow-match-clothing-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "shadow-match-desserts-and-sweets",
+      "siblings": [
+        "shadow-match-desserts-and-sweets",
+        "shadow-match-desserts-and-sweets-2"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "shadow-match-dinosaurs",
+      "siblings": [
+        "shadow-match-dinosaurs",
+        "shadow-match-dinosaurs-2",
+        "shadow-match-dinosaurs-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "shadow-match-easter",
+      "siblings": [
+        "shadow-match-easter",
+        "shadow-match-easter-2",
+        "shadow-match-easter-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "shadow-match-farm-animals",
+      "siblings": [
+        "shadow-match-farm-animals",
+        "shadow-match-farm-animals-2",
+        "shadow-match-farm-animals-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "shadow-match-flowers",
+      "siblings": [
+        "shadow-match-flowers",
+        "shadow-match-flowers-2",
+        "shadow-match-flowers-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "shadow-match-forest-creatures",
+      "siblings": [
+        "shadow-match-forest-creatures",
+        "shadow-match-forest-creatures-2",
+        "shadow-match-forest-creatures-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "shadow-match-fruits",
+      "siblings": [
+        "shadow-match-fruits",
+        "shadow-match-fruits-2",
+        "shadow-match-fruits-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "shadow-match-furniture",
+      "siblings": [
+        "shadow-match-furniture",
+        "shadow-match-furniture-2",
+        "shadow-match-furniture-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "shadow-match-hospital",
+      "siblings": [
+        "shadow-match-hospital",
+        "shadow-match-hospital-2",
+        "shadow-match-hospital-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "shadow-match-insects-and-bugs",
+      "siblings": [
+        "shadow-match-insects-and-bugs",
+        "shadow-match-insects-and-bugs-2",
+        "shadow-match-insects-and-bugs-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "shadow-match-kitchen-tools",
+      "siblings": [
+        "shadow-match-kitchen-tools",
+        "shadow-match-kitchen-tools-2",
+        "shadow-match-kitchen-tools-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "shadow-match-miscellaneous",
+      "siblings": [
+        "shadow-match-miscellaneous",
+        "shadow-match-miscellaneous-2",
+        "shadow-match-miscellaneous-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "shadow-match-music",
+      "siblings": [
+        "shadow-match-music",
+        "shadow-match-music-2",
+        "shadow-match-music-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "shadow-match-occupations",
+      "siblings": [
+        "shadow-match-occupations",
+        "shadow-match-occupations-2"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "shadow-match-ocean-life",
+      "siblings": [
+        "shadow-match-ocean-life",
+        "shadow-match-ocean-life-2",
+        "shadow-match-ocean-life-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "shadow-match-pets",
+      "siblings": [
+        "shadow-match-pets",
+        "shadow-match-pets-2",
+        "shadow-match-pets-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "shadow-match-post-office",
+      "siblings": [
+        "shadow-match-post-office",
+        "shadow-match-post-office-2",
+        "shadow-match-post-office-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "shadow-match-reptiles-and-amphibians",
+      "siblings": [
+        "shadow-match-reptiles-and-amphibians",
+        "shadow-match-reptiles-and-amphibians-2",
+        "shadow-match-reptiles-and-amphibians-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "shadow-match-shapes",
+      "siblings": [
+        "shadow-match-shapes",
+        "shadow-match-shapes-2",
+        "shadow-match-shapes-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "shadow-match-space",
+      "siblings": [
+        "shadow-match-space",
+        "shadow-match-space-2"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "shadow-match-spring",
+      "siblings": [
+        "shadow-match-spring",
+        "shadow-match-spring-2",
+        "shadow-match-spring-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "shadow-match-summer",
+      "siblings": [
+        "shadow-match-summer",
+        "shadow-match-summer-2",
+        "shadow-match-summer-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "shadow-match-thanksgiving",
+      "siblings": [
+        "shadow-match-thanksgiving",
+        "shadow-match-thanksgiving-2"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "shadow-match-things-that-fly",
+      "siblings": [
+        "shadow-match-things-that-fly",
+        "shadow-match-things-that-fly-2"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "shadow-match-tools",
+      "siblings": [
+        "shadow-match-tools",
+        "shadow-match-tools-2",
+        "shadow-match-tools-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "shadow-match-toys",
+      "siblings": [
+        "shadow-match-toys",
+        "shadow-match-toys-2",
+        "shadow-match-toys-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "shadow-match-tree",
+      "siblings": [
+        "shadow-match-tree",
+        "shadow-match-tree-2",
+        "shadow-match-tree-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "shadow-match-vegetables",
+      "siblings": [
+        "shadow-match-vegetables",
+        "shadow-match-vegetables-2",
+        "shadow-match-vegetables-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "shadow-match-vehicles",
+      "siblings": [
+        "shadow-match-vehicles",
+        "shadow-match-vehicles-2",
+        "shadow-match-vehicles-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "shadow-match-weather",
+      "siblings": [
+        "shadow-match-weather",
+        "shadow-match-weather-2",
+        "shadow-match-weather-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "shadow-match-winter",
+      "siblings": [
+        "shadow-match-winter",
+        "shadow-match-winter-2",
+        "shadow-match-winter-3"
+      ]
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "shadow-match-zoo-animals",
+      "siblings": [
+        "shadow-match-zoo-animals",
+        "shadow-match-zoo-animals-2",
+        "shadow-match-zoo-animals-3"
+      ]
+    }
+  ]
+}

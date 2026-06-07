@@ -1,0 +1,680 @@
+{
+  "_note": "Wave 7 coupled-K — missing-pieces x K x EN, readiness (Visual perception (part-to-whole) SHARED label; NO alignment). 48 themes, 290 decks. Coupled with the other part-to-whole type; differentiate on mechanic.",
+  "count": 48,
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "missing-pieces-4th-of-july",
+      "siblings": [
+        "missing-pieces-4th-of-july",
+        "missing-pieces-4th-of-july-2",
+        "missing-pieces-4th-of-july-3",
+        "missing-pieces-4th-of-july-4",
+        "missing-pieces-4th-of-july-5",
+        "missing-pieces-4th-of-july-6",
+        "missing-pieces-4th-of-july-7",
+        "missing-pieces-4th-of-july-8"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "missing-pieces-accessories",
+      "siblings": [
+        "missing-pieces-accessories",
+        "missing-pieces-accessories-2",
+        "missing-pieces-accessories-3",
+        "missing-pieces-accessories-4",
+        "missing-pieces-accessories-5",
+        "missing-pieces-accessories-6",
+        "missing-pieces-accessories-7"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "missing-pieces-activities",
+      "siblings": [
+        "missing-pieces-activities",
+        "missing-pieces-activities-2",
+        "missing-pieces-activities-3",
+        "missing-pieces-activities-4",
+        "missing-pieces-activities-5",
+        "missing-pieces-activities-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "missing-pieces",
+      "siblings": [
+        "missing-pieces",
+        "missing-pieces-animals",
+        "missing-pieces-animals-2",
+        "missing-pieces-animals-3",
+        "missing-pieces-animals-4",
+        "missing-pieces-animals-5",
+        "missing-pieces-animals-6",
+        "missing-pieces-animals-7"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "missing-pieces-around-the-house",
+      "siblings": [
+        "missing-pieces-around-the-house",
+        "missing-pieces-around-the-house-2",
+        "missing-pieces-around-the-house-3",
+        "missing-pieces-around-the-house-4",
+        "missing-pieces-around-the-house-5",
+        "missing-pieces-around-the-house-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "missing-pieces-at-the-supermarket",
+      "siblings": [
+        "missing-pieces-at-the-supermarket",
+        "missing-pieces-at-the-supermarket-2",
+        "missing-pieces-at-the-supermarket-3",
+        "missing-pieces-at-the-supermarket-4",
+        "missing-pieces-at-the-supermarket-5",
+        "missing-pieces-at-the-supermarket-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "missing-pieces-bakery",
+      "siblings": [
+        "missing-pieces-bakery",
+        "missing-pieces-bakery-2",
+        "missing-pieces-bakery-3",
+        "missing-pieces-bakery-4",
+        "missing-pieces-bakery-5",
+        "missing-pieces-bakery-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "missing-pieces-beach",
+      "siblings": [
+        "missing-pieces-beach",
+        "missing-pieces-beach-2",
+        "missing-pieces-beach-3",
+        "missing-pieces-beach-4",
+        "missing-pieces-beach-5",
+        "missing-pieces-beach-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "missing-pieces-birds",
+      "siblings": [
+        "missing-pieces-birds",
+        "missing-pieces-birds-3",
+        "missing-pieces-birds-4",
+        "missing-pieces-birds-5",
+        "missing-pieces-birds-6",
+        "missing-pieces-birds-7"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "missing-pieces-birds-2",
+      "siblings": [
+        "missing-pieces-birds-2",
+        "missing-pieces-birds-2-2",
+        "missing-pieces-birds-2-3",
+        "missing-pieces-birds-2-4",
+        "missing-pieces-birds-2-5",
+        "missing-pieces-birds-2-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "missing-pieces-body-parts",
+      "siblings": [
+        "missing-pieces-body-parts",
+        "missing-pieces-body-parts-2",
+        "missing-pieces-body-parts-3",
+        "missing-pieces-body-parts-4",
+        "missing-pieces-body-parts-5",
+        "missing-pieces-body-parts-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "missing-pieces-breakfast",
+      "siblings": [
+        "missing-pieces-breakfast",
+        "missing-pieces-breakfast-2",
+        "missing-pieces-breakfast-3",
+        "missing-pieces-breakfast-4",
+        "missing-pieces-breakfast-5",
+        "missing-pieces-breakfast-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "missing-pieces-camping",
+      "siblings": [
+        "missing-pieces-camping",
+        "missing-pieces-camping-2",
+        "missing-pieces-camping-3",
+        "missing-pieces-camping-4",
+        "missing-pieces-camping-5",
+        "missing-pieces-camping-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "missing-pieces-christmas",
+      "siblings": [
+        "missing-pieces-christmas",
+        "missing-pieces-christmas-2",
+        "missing-pieces-christmas-3",
+        "missing-pieces-christmas-4",
+        "missing-pieces-christmas-5",
+        "missing-pieces-christmas-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "missing-pieces-classroom",
+      "siblings": [
+        "missing-pieces-classroom",
+        "missing-pieces-classroom-2",
+        "missing-pieces-classroom-3",
+        "missing-pieces-classroom-4",
+        "missing-pieces-classroom-5",
+        "missing-pieces-classroom-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "missing-pieces-clothing",
+      "siblings": [
+        "missing-pieces-clothing",
+        "missing-pieces-clothing-2",
+        "missing-pieces-clothing-3",
+        "missing-pieces-clothing-4",
+        "missing-pieces-clothing-5",
+        "missing-pieces-clothing-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "missing-pieces-desserts-and-sweets",
+      "siblings": [
+        "missing-pieces-desserts-and-sweets",
+        "missing-pieces-desserts-and-sweets-2",
+        "missing-pieces-desserts-and-sweets-3",
+        "missing-pieces-desserts-and-sweets-4",
+        "missing-pieces-desserts-and-sweets-5"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "missing-pieces-dinosaurs",
+      "siblings": [
+        "missing-pieces-dinosaurs",
+        "missing-pieces-dinosaurs-2",
+        "missing-pieces-dinosaurs-3",
+        "missing-pieces-dinosaurs-4",
+        "missing-pieces-dinosaurs-5",
+        "missing-pieces-dinosaurs-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "missing-pieces-easter",
+      "siblings": [
+        "missing-pieces-easter",
+        "missing-pieces-easter-2",
+        "missing-pieces-easter-3",
+        "missing-pieces-easter-4",
+        "missing-pieces-easter-5",
+        "missing-pieces-easter-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "missing-pieces-emotions",
+      "siblings": [
+        "missing-pieces-emotions",
+        "missing-pieces-emotions-2",
+        "missing-pieces-emotions-3",
+        "missing-pieces-emotions-4",
+        "missing-pieces-emotions-5",
+        "missing-pieces-emotions-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "missing-pieces-farm-animals",
+      "siblings": [
+        "missing-pieces-farm-animals",
+        "missing-pieces-farm-animals-2",
+        "missing-pieces-farm-animals-3",
+        "missing-pieces-farm-animals-4",
+        "missing-pieces-farm-animals-5",
+        "missing-pieces-farm-animals-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "missing-pieces-flowers",
+      "siblings": [
+        "missing-pieces-flowers",
+        "missing-pieces-flowers-2",
+        "missing-pieces-flowers-3",
+        "missing-pieces-flowers-4",
+        "missing-pieces-flowers-5",
+        "missing-pieces-flowers-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "missing-pieces-forest-creatures",
+      "siblings": [
+        "missing-pieces-forest-creatures",
+        "missing-pieces-forest-creatures-2",
+        "missing-pieces-forest-creatures-3",
+        "missing-pieces-forest-creatures-4",
+        "missing-pieces-forest-creatures-5",
+        "missing-pieces-forest-creatures-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "missing-pieces-fruits",
+      "siblings": [
+        "missing-pieces-fruits",
+        "missing-pieces-fruits-2",
+        "missing-pieces-fruits-3",
+        "missing-pieces-fruits-4",
+        "missing-pieces-fruits-5",
+        "missing-pieces-fruits-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "missing-pieces-furniture",
+      "siblings": [
+        "missing-pieces-furniture",
+        "missing-pieces-furniture-2",
+        "missing-pieces-furniture-3",
+        "missing-pieces-furniture-4",
+        "missing-pieces-furniture-5",
+        "missing-pieces-furniture-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "missing-pieces-hospital",
+      "siblings": [
+        "missing-pieces-hospital",
+        "missing-pieces-hospital-2",
+        "missing-pieces-hospital-3",
+        "missing-pieces-hospital-4",
+        "missing-pieces-hospital-5",
+        "missing-pieces-hospital-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "missing-pieces-insects-and-bugs",
+      "siblings": [
+        "missing-pieces-insects-and-bugs",
+        "missing-pieces-insects-and-bugs-2",
+        "missing-pieces-insects-and-bugs-3",
+        "missing-pieces-insects-and-bugs-4",
+        "missing-pieces-insects-and-bugs-5",
+        "missing-pieces-insects-and-bugs-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "missing-pieces-kitchen-tools",
+      "siblings": [
+        "missing-pieces-kitchen-tools",
+        "missing-pieces-kitchen-tools-2",
+        "missing-pieces-kitchen-tools-3",
+        "missing-pieces-kitchen-tools-4",
+        "missing-pieces-kitchen-tools-5",
+        "missing-pieces-kitchen-tools-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "missing-pieces-miscellaneous",
+      "siblings": [
+        "missing-pieces-miscellaneous",
+        "missing-pieces-miscellaneous-2",
+        "missing-pieces-miscellaneous-3",
+        "missing-pieces-miscellaneous-4",
+        "missing-pieces-miscellaneous-5",
+        "missing-pieces-miscellaneous-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "missing-pieces-music",
+      "siblings": [
+        "missing-pieces-music",
+        "missing-pieces-music-2",
+        "missing-pieces-music-3",
+        "missing-pieces-music-4",
+        "missing-pieces-music-5",
+        "missing-pieces-music-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "missing-pieces-occupations",
+      "siblings": [
+        "missing-pieces-occupations",
+        "missing-pieces-occupations-2",
+        "missing-pieces-occupations-3",
+        "missing-pieces-occupations-4",
+        "missing-pieces-occupations-5",
+        "missing-pieces-occupations-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "missing-pieces-ocean-life",
+      "siblings": [
+        "missing-pieces-ocean-life",
+        "missing-pieces-ocean-life-2",
+        "missing-pieces-ocean-life-3",
+        "missing-pieces-ocean-life-4",
+        "missing-pieces-ocean-life-5",
+        "missing-pieces-ocean-life-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "missing-pieces-pets",
+      "siblings": [
+        "missing-pieces-pets",
+        "missing-pieces-pets-2",
+        "missing-pieces-pets-3",
+        "missing-pieces-pets-4",
+        "missing-pieces-pets-5",
+        "missing-pieces-pets-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "missing-pieces-post-office",
+      "siblings": [
+        "missing-pieces-post-office",
+        "missing-pieces-post-office-2",
+        "missing-pieces-post-office-3",
+        "missing-pieces-post-office-4",
+        "missing-pieces-post-office-5",
+        "missing-pieces-post-office-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "missing-pieces-reptiles-and-amphibians",
+      "siblings": [
+        "missing-pieces-reptiles-and-amphibians",
+        "missing-pieces-reptiles-and-amphibians-2",
+        "missing-pieces-reptiles-and-amphibians-3",
+        "missing-pieces-reptiles-and-amphibians-4",
+        "missing-pieces-reptiles-and-amphibians-5"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "missing-pieces-space",
+      "siblings": [
+        "missing-pieces-space",
+        "missing-pieces-space-2",
+        "missing-pieces-space-3",
+        "missing-pieces-space-4",
+        "missing-pieces-space-5"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "missing-pieces-spring",
+      "siblings": [
+        "missing-pieces-spring",
+        "missing-pieces-spring-2",
+        "missing-pieces-spring-3",
+        "missing-pieces-spring-4",
+        "missing-pieces-spring-5",
+        "missing-pieces-spring-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "missing-pieces-summer",
+      "siblings": [
+        "missing-pieces-summer",
+        "missing-pieces-summer-2",
+        "missing-pieces-summer-3",
+        "missing-pieces-summer-4",
+        "missing-pieces-summer-5",
+        "missing-pieces-summer-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "missing-pieces-thanksgiving",
+      "siblings": [
+        "missing-pieces-thanksgiving",
+        "missing-pieces-thanksgiving-2",
+        "missing-pieces-thanksgiving-3",
+        "missing-pieces-thanksgiving-4",
+        "missing-pieces-thanksgiving-5",
+        "missing-pieces-thanksgiving-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "missing-pieces-things-that-fly",
+      "siblings": [
+        "missing-pieces-things-that-fly",
+        "missing-pieces-things-that-fly-2",
+        "missing-pieces-things-that-fly-3",
+        "missing-pieces-things-that-fly-4",
+        "missing-pieces-things-that-fly-5",
+        "missing-pieces-things-that-fly-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "missing-pieces-tools",
+      "siblings": [
+        "missing-pieces-tools",
+        "missing-pieces-tools-2",
+        "missing-pieces-tools-3",
+        "missing-pieces-tools-4",
+        "missing-pieces-tools-5",
+        "missing-pieces-tools-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "missing-pieces-toys",
+      "siblings": [
+        "missing-pieces-toys",
+        "missing-pieces-toys-2",
+        "missing-pieces-toys-3",
+        "missing-pieces-toys-4",
+        "missing-pieces-toys-5",
+        "missing-pieces-toys-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "missing-pieces-tree",
+      "siblings": [
+        "missing-pieces-tree",
+        "missing-pieces-tree-2",
+        "missing-pieces-tree-3",
+        "missing-pieces-tree-4",
+        "missing-pieces-tree-5",
+        "missing-pieces-tree-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "missing-pieces-vegetables",
+      "siblings": [
+        "missing-pieces-vegetables",
+        "missing-pieces-vegetables-2",
+        "missing-pieces-vegetables-3",
+        "missing-pieces-vegetables-4",
+        "missing-pieces-vegetables-5",
+        "missing-pieces-vegetables-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "missing-pieces-vehicles",
+      "siblings": [
+        "missing-pieces-vehicles",
+        "missing-pieces-vehicles-2",
+        "missing-pieces-vehicles-3",
+        "missing-pieces-vehicles-4",
+        "missing-pieces-vehicles-5",
+        "missing-pieces-vehicles-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "missing-pieces-weather",
+      "siblings": [
+        "missing-pieces-weather",
+        "missing-pieces-weather-2",
+        "missing-pieces-weather-3",
+        "missing-pieces-weather-4",
+        "missing-pieces-weather-5",
+        "missing-pieces-weather-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "missing-pieces-winter",
+      "siblings": [
+        "missing-pieces-winter",
+        "missing-pieces-winter-2",
+        "missing-pieces-winter-3",
+        "missing-pieces-winter-4",
+        "missing-pieces-winter-5",
+        "missing-pieces-winter-6"
+      ]
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "missing-pieces-zoo-animals",
+      "siblings": [
+        "missing-pieces-zoo-animals",
+        "missing-pieces-zoo-animals-2",
+        "missing-pieces-zoo-animals-3",
+        "missing-pieces-zoo-animals-4",
+        "missing-pieces-zoo-animals-5",
+        "missing-pieces-zoo-animals-6"
+      ]
+    }
+  ]
+}

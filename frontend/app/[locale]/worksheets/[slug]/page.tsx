@@ -98,6 +98,7 @@ export default function WorksheetLandingPage(
   // Per-entry educational level (Wave 3 — first non-K wave). Drives JSON-LD level/age + the level chip.
   // Defaults to kindergarten so existing K landings are unchanged.
   const LEVELS: Record<string, { chip: string; schema: string; age: string }> = {
+    'preschool': { chip: 'Preschool', schema: 'Preschool', age: '3-4' },
     'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
     'grade-1': { chip: 'Grade 1', schema: 'Grade 1', age: '6-7' },
   };

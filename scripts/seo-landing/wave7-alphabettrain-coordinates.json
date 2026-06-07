@@ -1,0 +1,349 @@
+{
+  "_note": "Wave 7 LEAD — alphabet-train/null x PRESCHOOL x EN, readiness (Alphabet awareness (readiness); NO alignment, no CCSS below K). 38 themes, ~1:1 (1 collapse). The program FIRST Preschool landing. Double-fence boundary vs K matching/letter+find-and-count (RF.K.3.a): ABC-order, NOT phonics.",
+  "count": 38,
+  "coordinates": [
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "alphabet-train-4th-of-july",
+      "siblings": [
+        "alphabet-train-4th-of-july"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "alphabet-train-accessories",
+      "siblings": [
+        "alphabet-train-accessories"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "alphabet-train-activities",
+      "siblings": [
+        "alphabet-train-activities"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "alphabet-train",
+      "siblings": [
+        "alphabet-train",
+        "alphabet-train-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "alphabet-train-around-the-house",
+      "siblings": [
+        "alphabet-train-around-the-house"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "alphabet-train-at-the-supermarket",
+      "siblings": [
+        "alphabet-train-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "alphabet-train-beach",
+      "siblings": [
+        "alphabet-train-beach"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "alphabet-train-body-parts",
+      "siblings": [
+        "alphabet-train-body-parts"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "alphabet-train-breakfast",
+      "siblings": [
+        "alphabet-train-breakfast"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "alphabet-train-camping",
+      "siblings": [
+        "alphabet-train-camping"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "alphabet-train-christmas",
+      "siblings": [
+        "alphabet-train-christmas"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "alphabet-train-classroom",
+      "siblings": [
+        "alphabet-train-classroom"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "alphabet-train-clothing",
+      "siblings": [
+        "alphabet-train-clothing"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "alphabet-train-colors",
+      "siblings": [
+        "alphabet-train-colors"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "alphabet-train-desserts-and-sweets",
+      "siblings": [
+        "alphabet-train-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "alphabet-train-farm-animals",
+      "siblings": [
+        "alphabet-train-farm-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "food_bw_2",
+      "slugTheme": "food-bw-2",
+      "canonical": "alphabet-train-food-bw-2",
+      "siblings": [
+        "alphabet-train-food-bw-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "alphabet-train-forest-creatures",
+      "siblings": [
+        "alphabet-train-forest-creatures"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "alphabet-train-fruits",
+      "siblings": [
+        "alphabet-train-fruits"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "alphabet-train-furniture",
+      "siblings": [
+        "alphabet-train-furniture"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "alphabet-train-hospital",
+      "siblings": [
+        "alphabet-train-hospital"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "household_bw",
+      "slugTheme": "household-bw",
+      "canonical": "alphabet-train-household-bw",
+      "siblings": [
+        "alphabet-train-household-bw"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "alphabet-train-kitchen-tools",
+      "siblings": [
+        "alphabet-train-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "alphabet-train-music",
+      "siblings": [
+        "alphabet-train-music"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "nature_bw",
+      "slugTheme": "nature-bw",
+      "canonical": "alphabet-train-nature-bw",
+      "siblings": [
+        "alphabet-train-nature-bw"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "objects_bw",
+      "slugTheme": "objects-bw",
+      "canonical": "alphabet-train-objects-bw",
+      "siblings": [
+        "alphabet-train-objects-bw"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "alphabet-train-occupations",
+      "siblings": [
+        "alphabet-train-occupations"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "alphabet-train-ocean-life",
+      "siblings": [
+        "alphabet-train-ocean-life"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "alphabet-train-pets",
+      "siblings": [
+        "alphabet-train-pets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "alphabet-train-spring",
+      "siblings": [
+        "alphabet-train-spring"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "alphabet-train-summer",
+      "siblings": [
+        "alphabet-train-summer"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "alphabet-train-things-that-fly",
+      "siblings": [
+        "alphabet-train-things-that-fly"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "alphabet-train-tools",
+      "siblings": [
+        "alphabet-train-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "alphabet-train-toys",
+      "siblings": [
+        "alphabet-train-toys"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "alphabet-train-vegetables",
+      "siblings": [
+        "alphabet-train-vegetables"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "alphabet-train-vehicles",
+      "siblings": [
+        "alphabet-train-vehicles"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "alphabet-train-winter",
+      "siblings": [
+        "alphabet-train-winter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "alphabet-train-zoo-animals",
+      "siblings": [
+        "alphabet-train-zoo-animals"
+      ]
+    }
+  ]
+}

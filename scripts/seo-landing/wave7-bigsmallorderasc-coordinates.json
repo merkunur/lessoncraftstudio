@@ -1,0 +1,456 @@
+{
+  "_note": "Wave 7 coupled-Preschool — big-small/orderAsc x Preschool x EN, readiness (Size seriation (readiness); NO alignment, no CCSS below K). 50 themes, ~1:1. NOT K.MD.A.2 (separate activity) - no measurement claim.",
+  "count": 50,
+  "coordinates": [
+    {
+      "mode": "orderAsc",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "big-small-orderasc-4th-of-july",
+      "siblings": [
+        "big-small-orderasc-4th-of-july"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "big-small-orderasc-accessories",
+      "siblings": [
+        "big-small-orderasc-accessories"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "big-small-orderasc-activities",
+      "siblings": [
+        "big-small-orderasc-activities"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "big-small-orderasc-animals",
+      "siblings": [
+        "big-small-orderasc-animals"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "big-small-orderasc-around-the-house",
+      "siblings": [
+        "big-small-orderasc-around-the-house"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "big-small-orderasc-at-the-supermarket",
+      "siblings": [
+        "big-small-orderasc-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "big-small-orderasc-bakery",
+      "siblings": [
+        "big-small-orderasc-bakery"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "big-small-orderasc-beach",
+      "siblings": [
+        "big-small-orderasc-beach"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "big-small-orderasc-birds",
+      "siblings": [
+        "big-small-orderasc-birds"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "big-small-orderasc-birds-2",
+      "siblings": [
+        "big-small-orderasc-birds-2"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "big-small-orderasc-body-parts",
+      "siblings": [
+        "big-small-orderasc-body-parts"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "big-small-orderasc-breakfast",
+      "siblings": [
+        "big-small-orderasc-breakfast"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "big-small-orderasc-camping",
+      "siblings": [
+        "big-small-orderasc-camping"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "big-small-orderasc-christmas",
+      "siblings": [
+        "big-small-orderasc-christmas"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "big-small-orderasc-classroom",
+      "siblings": [
+        "big-small-orderasc-classroom"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "big-small-orderasc-clothing",
+      "siblings": [
+        "big-small-orderasc-clothing"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "big-small-orderasc-colors",
+      "siblings": [
+        "big-small-orderasc-colors"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "big-small-orderasc-desserts-and-sweets",
+      "siblings": [
+        "big-small-orderasc-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "big-small-orderasc-dinosaurs",
+      "siblings": [
+        "big-small-orderasc-dinosaurs"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "big-small-orderasc-easter",
+      "siblings": [
+        "big-small-orderasc-easter"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "big-small-orderasc-emotions",
+      "siblings": [
+        "big-small-orderasc-emotions"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "faces_bw",
+      "slugTheme": "faces-bw",
+      "canonical": "big-small-orderasc-faces-bw",
+      "siblings": [
+        "big-small-orderasc-faces-bw"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "big-small-orderasc-farm-animals",
+      "siblings": [
+        "big-small-orderasc-farm-animals"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "big-small-orderasc-flowers",
+      "siblings": [
+        "big-small-orderasc-flowers"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "big-small-orderasc-forest-creatures",
+      "siblings": [
+        "big-small-orderasc-forest-creatures"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "big-small-orderasc-fruits",
+      "siblings": [
+        "big-small-orderasc-fruits"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "big-small-orderasc-furniture",
+      "siblings": [
+        "big-small-orderasc-furniture"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "big-small-orderasc-hospital",
+      "siblings": [
+        "big-small-orderasc-hospital"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "big-small-orderasc-insects-and-bugs",
+      "siblings": [
+        "big-small-orderasc-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "big-small-orderasc-kitchen-tools",
+      "siblings": [
+        "big-small-orderasc-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "big-small-orderasc-miscellaneous",
+      "siblings": [
+        "big-small-orderasc-miscellaneous"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "big-small-orderasc-music",
+      "siblings": [
+        "big-small-orderasc-music"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "big-small-orderasc-occupations",
+      "siblings": [
+        "big-small-orderasc-occupations"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "big-small-orderasc-ocean-life",
+      "siblings": [
+        "big-small-orderasc-ocean-life"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "big-small-orderasc-pets",
+      "siblings": [
+        "big-small-orderasc-pets"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "big-small-orderasc-post-office",
+      "siblings": [
+        "big-small-orderasc-post-office"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "big-small-orderasc-reptiles-and-amphibians",
+      "siblings": [
+        "big-small-orderasc-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "big-small-orderasc-shapes",
+      "siblings": [
+        "big-small-orderasc-shapes"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "big-small-orderasc-space",
+      "siblings": [
+        "big-small-orderasc-space"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "big-small-orderasc-spring",
+      "siblings": [
+        "big-small-orderasc-spring"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "big-small-orderasc-summer",
+      "siblings": [
+        "big-small-orderasc-summer"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "big-small-orderasc-thanksgiving",
+      "siblings": [
+        "big-small-orderasc-thanksgiving"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "big-small-orderasc-things-that-fly",
+      "siblings": [
+        "big-small-orderasc-things-that-fly"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "big-small-orderasc-tools",
+      "siblings": [
+        "big-small-orderasc-tools"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "big-small-orderasc-tree",
+      "siblings": [
+        "big-small-orderasc-tree"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "big-small-orderasc-vegetables",
+      "siblings": [
+        "big-small-orderasc-vegetables"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "big-small-orderasc-vehicles",
+      "siblings": [
+        "big-small-orderasc-vehicles"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "big-small-orderasc-weather",
+      "siblings": [
+        "big-small-orderasc-weather"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "big-small-orderasc-winter",
+      "siblings": [
+        "big-small-orderasc-winter"
+      ]
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "big-small-orderasc-zoo-animals",
+      "siblings": [
+        "big-small-orderasc-zoo-animals"
+      ]
+    }
+  ]
+}

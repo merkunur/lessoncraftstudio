@@ -29,4 +29,12 @@ All addition modes are **numeric, Zahlenraum bis 20 → 1. Klasse** (the EN-Kind
 - addition is **strand-only / no CCSS code** (EN addition carries no `standard`) → de addition shows the strand chip + **no framework chip** (mirrors the EN strand-only treatment), framework named only in prose if at all.
 - The `mixed` find-the-part framing as *Zahlzerlegung / den fehlenden Teil finden* (never *fehlender Summand* / "missing addend") is the ledger lock that keeps it 1. Klasse and pedagogically honest.
 
-_Future de slices (readiness → Vorschule; subtraction/more-less/big-small; code-addition/crossword/Anlaute) append their rows here at their slice's source-read._
+## Readiness (STEP 2 — Vorschule)
+
+Readiness/perceptual mechanics: NO numeric band → **Vorschule** (5-6). NO CCSS `standard`, NO framework chip; raw `l.strand` = the German Vorläuferfähigkeit label. The `readiness`/`none` validity gate has no countability check → all themes valid (incl. colors/emotions/body_parts/weather/seasons/activities). Differentiate by mechanic copy, not band (within-grade-coupling).
+
+| type / mode | mechanic (SHOWN vs BLANK — ground truth) | genuine skill | de grade-band | de framing (raw l.strand) | source |
+|---|---|---|---|---|---|
+| pattern-train / null(ab),aab,abb,aabb,abc | a repeating picture pattern (AB / AAB / ABB / AABB / ABC unit); the child reads the rhythm + continues it / fills the gap | Muster erkennen und fortsetzen — sequence/seriation precursor (no counting) | **Vorschule** | *Muster erkennen und fortsetzen (Vorläuferfähigkeit)*; "Schauen statt Zählen"; mode-true copy per AB/AAB/ABB/AABB/ABC | pattern-train.html (5-mode dispatch) |
+
+_Further readiness types (grid-match, missing-pieces, bingo, sudoku, picture-sort, odd-one-out, find-objects, pattern-worksheet, picture-trail, shadow-match) + the EN-Preschool set (alphabet-train, big-small, more-less) append their rows here at their sub-slice's source-read. Future numeric slices (subtraction/more-less/big-small; code-addition/crossword/Anlaute) per their later steps._

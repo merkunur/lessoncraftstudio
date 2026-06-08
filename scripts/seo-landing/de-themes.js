@@ -54,7 +54,17 @@ const THEMES = {
   vegetables:              {nPl:'Karotten, Erbsen und Kürbisse',            gen:'Gemüsesorten',         h1:'Gemüse'},
   vehicles:                {nPl:'Busse, Lastwagen und Bagger',              gen:'Fahrzeuge',            h1:'Fahrzeuge'},
   zoo_animals:             {nPl:'Löwen, Zebras und Giraffen',               gen:'Zootiere',             h1:'Zootiere'},
-  // --- readiness-only themes appended per sub-slice as the enum surfaces them (T1-verified) ---
+  // --- readiness-only themes (valid under the no-countability readiness gate; T1-verified) ---
+  // colors/emotions/activities use noun-only plurals (no bare adjectives — they'd break "die {N_PL}";
+  // colors avoids the shapes-theme nPl collision via colour-shade nouns).
+  colors:                  {nPl:'Rottöne, Blautöne und Gelbtöne',           gen:'Farben',               h1:'Farben'},
+  emotions:                {nPl:'Lachgesichter, Weingesichter und Wutgesichter', gen:'Gefühle',          h1:'Emotionen'},
+  body_parts:              {nPl:'Hände, Füße und Ohren',                    gen:'Körperteile',          h1:'Körperteile'},
+  weather:                 {nPl:'Sonnen, Wolken und Regentropfen',          gen:'Wetterbilder',         h1:'Wetter'},
+  spring:                  {nPl:'Blumen, Schmetterlinge und Knospen',       gen:'Frühlingsbilder',      h1:'Frühling'},
+  summer:                  {nPl:'Sonnenschirme, Sandburgen und Bälle',      gen:'Sommerbilder',         h1:'Sommer'},
+  winter:                  {nPl:'Schneeflocken, Schneemänner und Schlitten', gen:'Winterbilder',        h1:'Winter'},
+  activities:              {nPl:'Laufbilder, Springbilder und Tanzbilder',  gen:'Aktivitäten',          h1:'Aktivitäten'},
 };
 
 module.exports = { THEMES };

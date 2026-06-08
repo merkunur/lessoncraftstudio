@@ -1,0 +1,685 @@
+{
+  "locale": "de",
+  "exerciseType": "matching",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 48,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "letter": 44
+  },
+  "totalValid": 44,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "letter"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "letter",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-accessoires-e173",
+      "siblings": [
+        "zuordnung-buchstaben-accessoires-e173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-aktivitaten-f211",
+      "siblings": [
+        "zuordnung-buchstaben-aktivitaten-f211"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-tiere-aa36",
+      "siblings": [
+        "zuordnung-buchstaben-tiere-aa36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-rund-ums-haus-e1d1",
+      "siblings": [
+        "zuordnung-buchstaben-rund-ums-haus-e1d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-im-supermarkt-3649",
+      "siblings": [
+        "zuordnung-buchstaben-im-supermarkt-3649"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-backerei-ad9b",
+      "siblings": [
+        "zuordnung-buchstaben-backerei-ad9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-strand-8c02",
+      "siblings": [
+        "zuordnung-buchstaben-strand-8c02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-vogel-06a8",
+      "siblings": [
+        "zuordnung-buchstaben-vogel-06a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-vogel-2-7810",
+      "siblings": [
+        "zuordnung-buchstaben-vogel-2-7810"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-korperteile-cb93",
+      "siblings": [
+        "zuordnung-buchstaben-korperteile-cb93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-fruhstuck-1415",
+      "siblings": [
+        "zuordnung-buchstaben-fruhstuck-1415"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-camping-6717",
+      "siblings": [
+        "zuordnung-buchstaben-camping-6717"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-weihnachten-a966",
+      "siblings": [
+        "zuordnung-buchstaben-weihnachten-a966"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-klassenzimmer-d29b",
+      "siblings": [
+        "zuordnung-buchstaben-klassenzimmer-d29b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-kleidung-6da7",
+      "siblings": [
+        "zuordnung-buchstaben-kleidung-6da7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-farben-8496",
+      "siblings": [
+        "zuordnung-buchstaben-farben-8496"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-desserts-und-sussigkeiten-d966",
+      "siblings": [
+        "zuordnung-buchstaben-desserts-und-sussigkeiten-d966"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-ostern-666c",
+      "siblings": [
+        "zuordnung-buchstaben-ostern-666c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-emotionen-f949",
+      "siblings": [
+        "zuordnung-buchstaben-emotionen-f949"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-bauernhoftiere-b6d6",
+      "siblings": [
+        "zuordnung-buchstaben-bauernhoftiere-b6d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-waldtiere-3a07",
+      "siblings": [
+        "zuordnung-buchstaben-waldtiere-3a07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-fruchte-6a45",
+      "siblings": [
+        "zuordnung-buchstaben-fruchte-6a45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-mobel-defc",
+      "siblings": [
+        "zuordnung-buchstaben-mobel-defc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-krankenhaus-7d44",
+      "siblings": [
+        "zuordnung-buchstaben-krankenhaus-7d44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-insekten-und-kafer-ec03",
+      "siblings": [
+        "zuordnung-buchstaben-insekten-und-kafer-ec03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-kuchenwerkzeuge-50fa",
+      "siblings": [
+        "zuordnung-buchstaben-kuchenwerkzeuge-50fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-musik-84f3",
+      "siblings": [
+        "zuordnung-buchstaben-musik-84f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-berufe-ad67",
+      "siblings": [
+        "zuordnung-buchstaben-berufe-ad67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-meeresleben-bb34",
+      "siblings": [
+        "zuordnung-buchstaben-meeresleben-bb34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-haustiere-c6d3",
+      "siblings": [
+        "zuordnung-buchstaben-haustiere-c6d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-postamt-14ee",
+      "siblings": [
+        "zuordnung-buchstaben-postamt-14ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-formen-bebe",
+      "siblings": [
+        "zuordnung-buchstaben-formen-bebe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-weltraum-cfa3",
+      "siblings": [
+        "zuordnung-buchstaben-weltraum-cfa3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-fruhling-b9c0",
+      "siblings": [
+        "zuordnung-buchstaben-fruhling-b9c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-sommer-1ee9",
+      "siblings": [
+        "zuordnung-buchstaben-sommer-1ee9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-erntedankfest-4d60",
+      "siblings": [
+        "zuordnung-buchstaben-erntedankfest-4d60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-dinge-die-fliegen-db06",
+      "siblings": [
+        "zuordnung-buchstaben-dinge-die-fliegen-db06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-werkzeuge-2021",
+      "siblings": [
+        "zuordnung-buchstaben-werkzeuge-2021"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-spielzeug-3a6a",
+      "siblings": [
+        "zuordnung-buchstaben-spielzeug-3a6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-gemuse-01a1",
+      "siblings": [
+        "zuordnung-buchstaben-gemuse-01a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-fahrzeuge-a63f",
+      "siblings": [
+        "zuordnung-buchstaben-fahrzeuge-a63f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-wetter-2705",
+      "siblings": [
+        "zuordnung-buchstaben-wetter-2705"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-winter-8a91",
+      "siblings": [
+        "zuordnung-buchstaben-winter-8a91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "zuordnung-buchstaben-zootiere-8d5b",
+      "siblings": [
+        "zuordnung-buchstaben-zootiere-8d5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

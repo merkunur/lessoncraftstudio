@@ -70,7 +70,8 @@ function buildMode(mk){
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
     // optional CCSS standard (framework-bearing types); omitted entirely for readiness/no-standard types.
-    if (cfg.standard) entry.standard = (typeof cfg.standard === 'function' ? cfg.standard(mk, co.level || cfg.level) : cfg.standard);
+    // a per-mode cfg.standard function may return null for a readiness mode (e.g. prepositions/multiplechoice) → no key.
+    if (cfg.standard) { const _std = (typeof cfg.standard === 'function' ? cfg.standard(mk, co.level || cfg.level) : cfg.standard); if (_std) entry.standard = _std; }
     out.push(entry);
   });
   if (dropped.length) console.log('  dropped ' + dropped.length + ': ' + dropped.join(', '));

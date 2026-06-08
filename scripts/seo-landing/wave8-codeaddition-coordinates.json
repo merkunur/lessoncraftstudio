@@ -1,0 +1,478 @@
+{
+  "_note": "Wave 8 coupled — code-addition/{null,secret-word} Gr2 x EN, STANDARD 2.NBT.B.5. Full-corpus re-grade: 101 coords -> 51 Gr1 + 50 Gr2 (null 18 + secret-word 32) + 0 Gr3 (max sum 40). Authorable=50 (color). within-100/two-digit; null=secret-code-decode, secret-word=mystery-word-spell.",
+  "count": 50,
+  "byMode": {
+    "null": 18,
+    "secret-word": 32
+  },
+  "coordinates": [
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "code-addition-4th-of-july",
+      "siblings": [
+        "code-addition-4th-of-july",
+        "code-addition-4th-of-july-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "code-addition-activities",
+      "siblings": [
+        "code-addition-activities",
+        "code-addition-activities-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "code-addition-around-the-house",
+      "siblings": [
+        "code-addition-around-the-house",
+        "code-addition-around-the-house-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "code-addition-birds",
+      "siblings": [
+        "code-addition-birds",
+        "code-addition-birds-3"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "code-addition-camping",
+      "siblings": [
+        "code-addition-camping",
+        "code-addition-camping-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "code-addition-colors",
+      "siblings": [
+        "code-addition-colors",
+        "code-addition-colors-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "code-addition-easter",
+      "siblings": [
+        "code-addition-easter",
+        "code-addition-easter-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "code-addition-farm-animals",
+      "siblings": [
+        "code-addition-farm-animals",
+        "code-addition-farm-animals-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "canonical": "code-addition-flowers",
+      "siblings": [
+        "code-addition-flowers",
+        "code-addition-flowers-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "code-addition-hospital",
+      "siblings": [
+        "code-addition-hospital",
+        "code-addition-hospital-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "code-addition-music",
+      "siblings": [
+        "code-addition-music",
+        "code-addition-music-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "code-addition-occupations",
+      "siblings": [
+        "code-addition-occupations",
+        "code-addition-occupations-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "code-addition-pets",
+      "siblings": [
+        "code-addition-pets",
+        "code-addition-pets-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "code-addition-summer",
+      "siblings": [
+        "code-addition-summer",
+        "code-addition-summer-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "code-addition-things-that-fly",
+      "siblings": [
+        "code-addition-things-that-fly",
+        "code-addition-things-that-fly-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "code-addition-tools",
+      "siblings": [
+        "code-addition-tools",
+        "code-addition-tools-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "code-addition-tree",
+      "siblings": [
+        "code-addition-tree",
+        "code-addition-tree-2"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "code-addition-vegetables",
+      "siblings": [
+        "code-addition-vegetables",
+        "code-addition-vegetables-2"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "code-addition-secret-word-4th-of-july",
+      "siblings": [
+        "code-addition-secret-word-4th-of-july"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "code-addition-secret-word-accessories",
+      "siblings": [
+        "code-addition-secret-word-accessories"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "code-addition-secret-word-animals",
+      "siblings": [
+        "code-addition-secret-word-animals"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "code-addition-secret-word-at-the-supermarket",
+      "siblings": [
+        "code-addition-secret-word-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "code-addition-secret-word-bakery",
+      "siblings": [
+        "code-addition-secret-word-bakery"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "code-addition-secret-word-birds",
+      "siblings": [
+        "code-addition-secret-word-birds"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "code-addition-secret-word-birds-2",
+      "siblings": [
+        "code-addition-secret-word-birds-2"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "code-addition-secret-word-body-parts",
+      "siblings": [
+        "code-addition-secret-word-body-parts"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "code-addition-secret-word-camping",
+      "siblings": [
+        "code-addition-secret-word-camping"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "code-addition-secret-word-christmas",
+      "siblings": [
+        "code-addition-secret-word-christmas"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "code-addition-secret-word-clothing",
+      "siblings": [
+        "code-addition-secret-word-clothing"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "code-addition-secret-word-colors",
+      "siblings": [
+        "code-addition-secret-word-colors"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "code-addition-secret-word-easter",
+      "siblings": [
+        "code-addition-secret-word-easter"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "code-addition-secret-word-emotions",
+      "siblings": [
+        "code-addition-secret-word-emotions"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "code-addition-secret-word-forest-creatures",
+      "siblings": [
+        "code-addition-secret-word-forest-creatures"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "code-addition-secret-word-fruits",
+      "siblings": [
+        "code-addition-secret-word-fruits"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "code-addition-secret-word-insects-and-bugs",
+      "siblings": [
+        "code-addition-secret-word-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "canonical": "code-addition-secret-word-miscellaneous",
+      "siblings": [
+        "code-addition-secret-word-miscellaneous"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "code-addition-secret-word-occupations",
+      "siblings": [
+        "code-addition-secret-word-occupations"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "code-addition-secret-word-ocean-life",
+      "siblings": [
+        "code-addition-secret-word-ocean-life"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "code-addition-secret-word-pets",
+      "siblings": [
+        "code-addition-secret-word-pets"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "code-addition-secret-word-shapes",
+      "siblings": [
+        "code-addition-secret-word-shapes"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "code-addition-secret-word-summer",
+      "siblings": [
+        "code-addition-secret-word-summer"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "code-addition-secret-word-thanksgiving",
+      "siblings": [
+        "code-addition-secret-word-thanksgiving"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "code-addition-secret-word-tools",
+      "siblings": [
+        "code-addition-secret-word-tools"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "code-addition-secret-word-toys",
+      "siblings": [
+        "code-addition-secret-word-toys"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "code-addition-secret-word-tree",
+      "siblings": [
+        "code-addition-secret-word-tree"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "code-addition-secret-word-vegetables",
+      "siblings": [
+        "code-addition-secret-word-vegetables"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "code-addition-secret-word-vehicles",
+      "siblings": [
+        "code-addition-secret-word-vehicles"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "code-addition-secret-word-weather",
+      "siblings": [
+        "code-addition-secret-word-weather"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "code-addition-secret-word-winter",
+      "siblings": [
+        "code-addition-secret-word-winter"
+      ]
+    },
+    {
+      "mode": "secret-word",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "code-addition-secret-word-zoo-animals",
+      "siblings": [
+        "code-addition-secret-word-zoo-animals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "_note": "Wave 8 FINAL — crossword/null x Gr2 x EN, STANDARD L.2.2.d (Language/ELA). 44 themes, all singletons. Spell vocab into intersecting grid. The EN arc last coordinate. ELA not math.",
+  "count": 44,
+  "coordinates": [
+    {
+      "mode": "null",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "crossword-4th-of-july",
+      "siblings": [
+        "crossword-4th-of-july"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "crossword-accessories",
+      "siblings": [
+        "crossword-accessories"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "canonical": "crossword-activities",
+      "siblings": [
+        "crossword-activities"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "crossword-animals",
+      "siblings": [
+        "crossword-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "crossword-around-the-house",
+      "siblings": [
+        "crossword-around-the-house"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "canonical": "crossword-at-the-supermarket",
+      "siblings": [
+        "crossword-at-the-supermarket"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "crossword-bakery",
+      "siblings": [
+        "crossword-bakery"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "crossword-beach",
+      "siblings": [
+        "crossword-beach"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "crossword-body-parts",
+      "siblings": [
+        "crossword-body-parts"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "crossword-breakfast",
+      "siblings": [
+        "crossword-breakfast"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "canonical": "crossword-camping",
+      "siblings": [
+        "crossword-camping"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "crossword-christmas",
+      "siblings": [
+        "crossword-christmas"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "crossword-classroom",
+      "siblings": [
+        "crossword-classroom"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "crossword-clothing",
+      "siblings": [
+        "crossword-clothing"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "canonical": "crossword-colors",
+      "siblings": [
+        "crossword-colors"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "crossword-desserts-and-sweets",
+      "siblings": [
+        "crossword-desserts-and-sweets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "canonical": "crossword-easter",
+      "siblings": [
+        "crossword-easter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "crossword-emotions",
+      "siblings": [
+        "crossword-emotions"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "canonical": "crossword-farm-animals",
+      "siblings": [
+        "crossword-farm-animals"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "crossword-forest-creatures",
+      "siblings": [
+        "crossword-forest-creatures"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "crossword-fruits",
+      "siblings": [
+        "crossword-fruits"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "canonical": "crossword-furniture",
+      "siblings": [
+        "crossword-furniture"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "crossword-hospital",
+      "siblings": [
+        "crossword-hospital"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "crossword-insects-and-bugs",
+      "siblings": [
+        "crossword-insects-and-bugs"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "canonical": "crossword-kitchen-tools",
+      "siblings": [
+        "crossword-kitchen-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "crossword-music",
+      "siblings": [
+        "crossword-music"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "crossword-occupations",
+      "siblings": [
+        "crossword-occupations"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "crossword-ocean-life",
+      "siblings": [
+        "crossword-ocean-life"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "crossword-pets",
+      "siblings": [
+        "crossword-pets"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "crossword-post-office",
+      "siblings": [
+        "crossword-post-office"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "canonical": "crossword-reptiles-and-amphibians",
+      "siblings": [
+        "crossword-reptiles-and-amphibians"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "canonical": "crossword-shapes",
+      "siblings": [
+        "crossword-shapes"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "crossword-space",
+      "siblings": [
+        "crossword-space"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "canonical": "crossword-spring",
+      "siblings": [
+        "crossword-spring"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "canonical": "crossword-summer",
+      "siblings": [
+        "crossword-summer"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "crossword-thanksgiving",
+      "siblings": [
+        "crossword-thanksgiving"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "canonical": "crossword-things-that-fly",
+      "siblings": [
+        "crossword-things-that-fly"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "crossword-tools",
+      "siblings": [
+        "crossword-tools"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "crossword-toys",
+      "siblings": [
+        "crossword-toys"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "canonical": "crossword-vegetables",
+      "siblings": [
+        "crossword-vegetables"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "crossword-vehicles",
+      "siblings": [
+        "crossword-vehicles"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "canonical": "crossword-weather",
+      "siblings": [
+        "crossword-weather"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "crossword-winter",
+      "siblings": [
+        "crossword-winter"
+      ]
+    },
+    {
+      "mode": "null",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "crossword-zoo-animals",
+      "siblings": [
+        "crossword-zoo-animals"
+      ]
+    }
+  ]
+}

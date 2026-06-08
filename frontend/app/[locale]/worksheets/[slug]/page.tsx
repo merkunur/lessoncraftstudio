@@ -101,6 +101,7 @@ export default function WorksheetLandingPage(
     'preschool': { chip: 'Preschool', schema: 'Preschool', age: '3-4' },
     'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
     'grade-1': { chip: 'Grade 1', schema: 'Grade 1', age: '6-7' },
+    'grade-2': { chip: 'Grade 2', schema: 'Grade 2', age: '7-8' },
   };
   const lvl = LEVELS[l.coordinate.level] || LEVELS['kindergarten'];
 

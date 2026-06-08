@@ -1,0 +1,1454 @@
+{
+  "locale": "de",
+  "exerciseType": "code-addition",
+  "rawRowCount": 148,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48,
+    "secret-word": 47
+  },
+  "totalValid": 95,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null,
+    "secret-word"
+  ],
+  "collapsedFamilies": 49,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "code-addition-accessoires-9e6c",
+      "siblings": [
+        "code-addition-accessoires-9e6c",
+        "code-addition-accessoires-5290"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "code-addition-aktivitaten-1846",
+      "siblings": [
+        "code-addition-aktivitaten-1846",
+        "code-addition-aktivitaten-2a90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "code-addition-tiere-402f",
+      "siblings": [
+        "code-addition-tiere-402f",
+        "code-addition-tiere-7309"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "code-addition-rund-ums-haus-bb29",
+      "siblings": [
+        "code-addition-rund-ums-haus-bb29",
+        "code-addition-rund-ums-haus-4c6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "code-addition-im-supermarkt-369f",
+      "siblings": [
+        "code-addition-im-supermarkt-369f",
+        "code-addition-im-supermarkt-6920"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "code-addition-backerei-1eec",
+      "siblings": [
+        "code-addition-backerei-1eec",
+        "code-addition-backerei-2fae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "code-addition-strand-bd70",
+      "siblings": [
+        "code-addition-strand-bd70",
+        "code-addition-strand-4b4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "code-addition-vogel-464d",
+      "siblings": [
+        "code-addition-vogel-464d",
+        "code-addition-vogel-fe17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "code-addition-vogel-2-e280",
+      "siblings": [
+        "code-addition-vogel-2-e280",
+        "code-addition-vogel-2-4697"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "code-addition-korperteile-6b9b",
+      "siblings": [
+        "code-addition-korperteile-6b9b",
+        "code-addition-korperteile-e37f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "code-addition-fruhstuck-fe6d",
+      "siblings": [
+        "code-addition-fruhstuck-fe6d",
+        "code-addition-fruhstuck-7cf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "code-addition-camping-143e",
+      "siblings": [
+        "code-addition-camping-143e",
+        "code-addition-camping-8b5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "code-addition-weihnachten-49cc",
+      "siblings": [
+        "code-addition-weihnachten-49cc",
+        "code-addition-weihnachten-6ffd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "code-addition-klassenzimmer-bd2b",
+      "siblings": [
+        "code-addition-klassenzimmer-bd2b",
+        "code-addition-klassenzimmer-2bcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "code-addition-kleidung-9451",
+      "siblings": [
+        "code-addition-kleidung-9451",
+        "code-addition-kleidung-6fd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "code-addition-farben-be61",
+      "siblings": [
+        "code-addition-farben-be61",
+        "code-addition-farben-c8b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "code-addition-desserts-und-sussigkeiten-6869",
+      "siblings": [
+        "code-addition-desserts-und-sussigkeiten-6869",
+        "code-addition-desserts-und-sussigkeiten-c4d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "code-addition-dinosaurier-e0d4",
+      "siblings": [
+        "code-addition-dinosaurier-e0d4",
+        "code-addition-dinosaurier-dcb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "code-addition-ostern-45ff",
+      "siblings": [
+        "code-addition-ostern-45ff",
+        "code-addition-ostern-1793"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "code-addition-emotionen-5b33",
+      "siblings": [
+        "code-addition-emotionen-5b33",
+        "code-addition-emotionen-21fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "code-addition-bauernhoftiere-8966",
+      "siblings": [
+        "code-addition-bauernhoftiere-8966",
+        "code-addition-bauernhoftiere-4c43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "code-addition-blumen-c711",
+      "siblings": [
+        "code-addition-blumen-c711",
+        "code-addition-blumen-6471"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "code-addition-waldtiere-04a6",
+      "siblings": [
+        "code-addition-waldtiere-04a6",
+        "code-addition-waldtiere-79dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "code-addition-fruchte-259a",
+      "siblings": [
+        "code-addition-fruchte-259a",
+        "code-addition-fruchte-a5bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "code-addition-mobel-97df",
+      "siblings": [
+        "code-addition-mobel-97df",
+        "code-addition-mobel-34b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "code-addition-krankenhaus-4b84",
+      "siblings": [
+        "code-addition-krankenhaus-4b84",
+        "code-addition-krankenhaus-b1a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "code-addition-insekten-und-kafer-1eba",
+      "siblings": [
+        "code-addition-insekten-und-kafer-1eba",
+        "code-addition-insekten-und-kafer-56c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "code-addition-kuchenwerkzeuge-cd90",
+      "siblings": [
+        "code-addition-kuchenwerkzeuge-cd90",
+        "code-addition-kuchenwerkzeuge-f110"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "code-addition-musik-174f",
+      "siblings": [
+        "code-addition-musik-174f",
+        "code-addition-musik-5650"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "code-addition-berufe-0e15",
+      "siblings": [
+        "code-addition-berufe-0e15",
+        "code-addition-berufe-4b8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "code-addition-meeresleben-ae36",
+      "siblings": [
+        "code-addition-meeresleben-ae36",
+        "code-addition-meeresleben-38cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "code-addition-haustiere-7b99",
+      "siblings": [
+        "code-addition-haustiere-7b99",
+        "code-addition-haustiere-bc67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "code-addition-postamt-cba6",
+      "siblings": [
+        "code-addition-postamt-cba6",
+        "code-addition-postamt-849b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "code-addition-reptilien-und-amphibien-d01b",
+      "siblings": [
+        "code-addition-reptilien-und-amphibien-d01b",
+        "code-addition-reptilien-und-amphibien-128f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "code-addition-formen-8f81",
+      "siblings": [
+        "code-addition-formen-8f81",
+        "code-addition-formen-7e4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "code-addition-weltraum-c678",
+      "siblings": [
+        "code-addition-weltraum-c678",
+        "code-addition-weltraum-4173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "code-addition-fruhling-66b9",
+      "siblings": [
+        "code-addition-fruhling-66b9",
+        "code-addition-fruhling-2199"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "code-addition-sommer-c483",
+      "siblings": [
+        "code-addition-sommer-c483",
+        "code-addition-sommer-af62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "code-addition-erntedankfest-e28e",
+      "siblings": [
+        "code-addition-erntedankfest-e28e",
+        "code-addition-erntedankfest-a212"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "code-addition-dinge-die-fliegen-f25d",
+      "siblings": [
+        "code-addition-dinge-die-fliegen-f25d",
+        "code-addition-dinge-die-fliegen-a3ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "code-addition-werkzeuge-2b07",
+      "siblings": [
+        "code-addition-werkzeuge-2b07",
+        "code-addition-werkzeuge-9615"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "code-addition-spielzeug-93c1",
+      "siblings": [
+        "code-addition-spielzeug-93c1",
+        "code-addition-spielzeug-d993"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "code-addition-baume-6959",
+      "siblings": [
+        "code-addition-baume-6959",
+        "code-addition-baume-0449"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "code-addition-gemuse-c16a",
+      "siblings": [
+        "code-addition-gemuse-c16a",
+        "code-addition-gemuse-ec12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "code-addition-fahrzeuge-a564",
+      "siblings": [
+        "code-addition-fahrzeuge-a564",
+        "code-addition-fahrzeuge-488f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "code-addition-wetter-1aba",
+      "siblings": [
+        "code-addition-wetter-1aba",
+        "code-addition-wetter-e85e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "code-addition-winter-2115",
+      "siblings": [
+        "code-addition-winter-2115",
+        "code-addition-winter-2d3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "code-addition-zootiere-11af",
+      "siblings": [
+        "code-addition-zootiere-11af",
+        "code-addition-zootiere-c3c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-accessoires-8303",
+      "siblings": [
+        "code-addition-geheimwort-accessoires-8303"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-aktivitaten-90ef",
+      "siblings": [
+        "code-addition-geheimwort-aktivitaten-90ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-tiere-b428",
+      "siblings": [
+        "code-addition-geheimwort-tiere-b428"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-rund-ums-haus-4c4f",
+      "siblings": [
+        "code-addition-geheimwort-rund-ums-haus-4c4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-im-supermarkt-762d",
+      "siblings": [
+        "code-addition-geheimwort-im-supermarkt-762d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-backerei-15a4",
+      "siblings": [
+        "code-addition-geheimwort-backerei-15a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-strand-2e63",
+      "siblings": [
+        "code-addition-geheimwort-strand-2e63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-vogel-b5c6",
+      "siblings": [
+        "code-addition-geheimwort-vogel-b5c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-vogel-2-a6ba",
+      "siblings": [
+        "code-addition-geheimwort-vogel-2-a6ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-korperteile-83e7",
+      "siblings": [
+        "code-addition-geheimwort-korperteile-83e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-fruhstuck-33a2",
+      "siblings": [
+        "code-addition-geheimwort-fruhstuck-33a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-camping-4ab1",
+      "siblings": [
+        "code-addition-geheimwort-camping-4ab1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-weihnachten-d591",
+      "siblings": [
+        "code-addition-geheimwort-weihnachten-d591"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-klassenzimmer-40d4",
+      "siblings": [
+        "code-addition-geheimwort-klassenzimmer-40d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-kleidung-eed0",
+      "siblings": [
+        "code-addition-geheimwort-kleidung-eed0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-farben-5a93",
+      "siblings": [
+        "code-addition-geheimwort-farben-5a93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-desserts-und-sussigkeiten-a784",
+      "siblings": [
+        "code-addition-geheimwort-desserts-und-sussigkeiten-a784"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-dinosaurier-c6cf",
+      "siblings": [
+        "code-addition-geheimwort-dinosaurier-c6cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-ostern-2985",
+      "siblings": [
+        "code-addition-geheimwort-ostern-2985"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-emotionen-2d2f",
+      "siblings": [
+        "code-addition-geheimwort-emotionen-2d2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-bauernhoftiere-2788",
+      "siblings": [
+        "code-addition-geheimwort-bauernhoftiere-2788"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-blumen-3f09",
+      "siblings": [
+        "code-addition-geheimwort-blumen-3f09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-waldtiere-1b38",
+      "siblings": [
+        "code-addition-geheimwort-waldtiere-1b38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-fruchte-2cd9",
+      "siblings": [
+        "code-addition-geheimwort-fruchte-2cd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-krankenhaus-4f27",
+      "siblings": [
+        "code-addition-geheimwort-krankenhaus-4f27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-insekten-und-kafer-89e4",
+      "siblings": [
+        "code-addition-geheimwort-insekten-und-kafer-89e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-kuchenwerkzeuge-9005",
+      "siblings": [
+        "code-addition-geheimwort-kuchenwerkzeuge-9005"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-musik-a3f4",
+      "siblings": [
+        "code-addition-geheimwort-musik-a3f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-berufe-e3f6",
+      "siblings": [
+        "code-addition-geheimwort-berufe-e3f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "code-addition-geheimwort-meeresleben-b8d6",
+      "siblings": [
+        "code-addition-geheimwort-meeresleben-b8d6",
+        "code-addition-geheimwort-meeresleben-34c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-haustiere-90c0",
+      "siblings": [
+        "code-addition-geheimwort-haustiere-90c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-postamt-fb1a",
+      "siblings": [
+        "code-addition-geheimwort-postamt-fb1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-reptilien-und-amphibien-f179",
+      "siblings": [
+        "code-addition-geheimwort-reptilien-und-amphibien-f179"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-formen-bc0f",
+      "siblings": [
+        "code-addition-geheimwort-formen-bc0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-weltraum-2479",
+      "siblings": [
+        "code-addition-geheimwort-weltraum-2479"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-fruhling-f833",
+      "siblings": [
+        "code-addition-geheimwort-fruhling-f833"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-sommer-c94c",
+      "siblings": [
+        "code-addition-geheimwort-sommer-c94c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-erntedankfest-597b",
+      "siblings": [
+        "code-addition-geheimwort-erntedankfest-597b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-dinge-die-fliegen-827a",
+      "siblings": [
+        "code-addition-geheimwort-dinge-die-fliegen-827a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-werkzeuge-bd96",
+      "siblings": [
+        "code-addition-geheimwort-werkzeuge-bd96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-spielzeug-b53d",
+      "siblings": [
+        "code-addition-geheimwort-spielzeug-b53d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-baume-afed",
+      "siblings": [
+        "code-addition-geheimwort-baume-afed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-gemuse-2df6",
+      "siblings": [
+        "code-addition-geheimwort-gemuse-2df6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-fahrzeuge-0bdb",
+      "siblings": [
+        "code-addition-geheimwort-fahrzeuge-0bdb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-wetter-5a3c",
+      "siblings": [
+        "code-addition-geheimwort-wetter-5a3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-winter-e6bc",
+      "siblings": [
+        "code-addition-geheimwort-winter-e6bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "secret-word",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "code-addition-geheimwort-zootiere-475b",
+      "siblings": [
+        "code-addition-geheimwort-zootiere-475b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

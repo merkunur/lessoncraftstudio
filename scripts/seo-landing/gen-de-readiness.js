@@ -57,11 +57,11 @@ function buildMode(mk){
     const entry = {
       slug: co.canonical,
       variantShape: co.siblings.length>1 ? 'collapsed' : 'singleton',
-      coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level:'vorschule' },
+      coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level: cfg.level || 'vorschule' },
       eyebrow: cfg.eyebrow,
       h1: cfg.h1(mk, datN(d.nPl)),
       strand: (typeof cfg.strand === 'function' ? cfg.strand(mk) : cfg.strand),
-      slotTokens: d.nPl.replace(/ und /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), 'vorschule', cfg.slotWord]),
+      slotTokens: d.nPl.replace(/ und /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), (cfg.level || 'vorschule'), cfg.slotWord]),
       p1: render(sk[c.skel], d.nPl, d.gen),
       p2: render(p2[c.p2], d.nPl, d.gen),
       p3: p3de(d.gen, THEMES[nb1.theme].gen, THEMES[nb2.theme].gen),
@@ -69,6 +69,8 @@ function buildMode(mk){
       carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, THEMES[n.theme].h1), href: n.canonical}; }),
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
+    // optional CCSS standard (framework-bearing types); omitted entirely for readiness/no-standard types.
+    if (cfg.standard) entry.standard = (typeof cfg.standard === 'function' ? cfg.standard(mk) : cfg.standard);
     out.push(entry);
   });
   if (dropped.length) console.log('  dropped ' + dropped.length + ': ' + dropped.join(', '));
@@ -86,7 +88,7 @@ fs.writeFileSync(DE, JSON.stringify(merged, null, 2) + '\n');
 console.log('generated ' + generated.length + ' (' + TYPE + ', modes ' + MODES.join('+') + '); blocked ' + blockedTotal + '; de.json total ' + merged.landings.length);
 
 // gender-lint: flag "ein/eine <Cap>" not in the broad frame-noun whitelist (a slotted theme noun singular = FAIL).
-const WHITE = /^(Bild|Bilder|Reihe|Muster|Gruppe|Dreiergruppe|Vierergruppe|Regel|Einheit|Reihenfolge|Takt|Rhythmus|Wechsel|Echo|Auftakt|Klang|Nachklang|Päckchen|Viererschritt|Denkschritt|Sequenz|Baustein|Grundfähigkeit|Vorübung|Vorbereitung|Erfolgserlebnis|Gespür|Vorläuferfähigkeit|Fortschritt|Schritt|Hin|Auge|Kind|Tempo|Ordnung|Motiv|Druck|Wertung|Wettbewerb|Vorschul|Anfang|Sammlung|Online|Übung|Übungsblatt|Vorlage|Druckvorlage|Blatt|Gitter|Bildgitter|Feld|Quadrat|Stelle|Lücke|Teil|Ganzes|Reihe|Hälfte|Auswahl|Beobachter|Karte|Spiel|Runde|Marker|Knopf|Stein|Kreuz|Wegweiser|Anker|Klassiker|Stift|Detail|Wort|Wortschatz|Bingo|Schauen|Beziehung|Welt|Halt|Sicht|Sache|Idee|Klick|Familie|Treffer|Entdeckerfreude|Spielprinzip|Spielzeit|Bilderwelt|Möglichkeit|Frage|Versuch|Variante|Version|Zeile|Aufgabe|Prinzip|Moment|Küchentisch|Schulalltag|Schulstart|Selbstvertrauen|Zutrauen|Können|Beschäftigung|Konzentration|Geduld|Ausdauer|Leistung|Fähigkeit|Ziel|Grundlage|Sprachübung|Entdeckungsreise|Mengen|Zahlen|Zahl|Ziffer|Anzahl|Summe|Kopf|Stück|Symbol|Zahlsymbol|Gedanke|Begreifen|Antwort|Gewand|Neugier|Anhaltspunkt|Bedeutung|Schreibweise|Zahlverständnis|Zahlgefühl|Zahlenraum)$/;
+const WHITE = /^(Bild|Bilder|Reihe|Muster|Gruppe|Dreiergruppe|Vierergruppe|Regel|Einheit|Reihenfolge|Takt|Rhythmus|Wechsel|Echo|Auftakt|Klang|Nachklang|Päckchen|Viererschritt|Denkschritt|Sequenz|Baustein|Grundfähigkeit|Vorübung|Vorbereitung|Erfolgserlebnis|Gespür|Vorläuferfähigkeit|Fortschritt|Schritt|Hin|Auge|Kind|Tempo|Ordnung|Motiv|Druck|Wertung|Wettbewerb|Vorschul|Anfang|Sammlung|Online|Übung|Übungsblatt|Vorlage|Druckvorlage|Blatt|Gitter|Bildgitter|Feld|Quadrat|Stelle|Lücke|Teil|Ganzes|Reihe|Hälfte|Auswahl|Beobachter|Karte|Spiel|Runde|Marker|Knopf|Stein|Kreuz|Wegweiser|Anker|Klassiker|Stift|Detail|Wort|Wortschatz|Bingo|Schauen|Beziehung|Welt|Halt|Sicht|Sache|Idee|Klick|Familie|Treffer|Entdeckerfreude|Spielprinzip|Spielzeit|Bilderwelt|Möglichkeit|Frage|Versuch|Variante|Version|Zeile|Aufgabe|Prinzip|Moment|Küchentisch|Schulalltag|Schulstart|Selbstvertrauen|Zutrauen|Können|Beschäftigung|Konzentration|Geduld|Ausdauer|Leistung|Fähigkeit|Ziel|Grundlage|Sprachübung|Entdeckungsreise|Rätsel|Rechenrätsel|Knobelaufgabe|Schlüssel|Code|Buchstabe|Lösungswort|Geheimnis|Überraschung|Schatzsuche|Hinweis|Rätsellöser|Detektiv|Sieg|Erfolg|Rechnung|Miete|Aha|Rätselfieber|Mengen|Zahlen|Zahl|Ziffer|Anzahl|Summe|Kopf|Stück|Symbol|Zahlsymbol|Gedanke|Begreifen|Antwort|Gewand|Neugier|Anhaltspunkt|Bedeutung|Schreibweise|Zahlverständnis|Zahlgefühl|Zahlenraum)$/;
 let lintFail=0;
 generated.forEach(e=>{
   const text = e.h1 + ' ' + e.p1 + ' ' + e.p2 + ' ' + e.p3;

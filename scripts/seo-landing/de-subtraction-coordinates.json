@@ -1,0 +1,2740 @@
+{
+  "locale": "de",
+  "exerciseType": "subtraction",
+  "rawRowCount": 195,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-out": 47,
+    "find-subtrahend": 47,
+    "image-number": 48,
+    "mixed": 48
+  },
+  "totalValid": 190,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-out",
+    "find-subtrahend",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-out",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-accessoires-a950",
+      "siblings": [
+        "subtraktion-durchstreichen-accessoires-a950"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-aktivitaten-85a9",
+      "siblings": [
+        "subtraktion-durchstreichen-aktivitaten-85a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "subtraktion-durchstreichen-tiere",
+      "siblings": [
+        "subtraktion-durchstreichen-tiere",
+        "subtraktion-durchstreichen-tiere-e9d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-rund-ums-haus-c485",
+      "siblings": [
+        "subtraktion-durchstreichen-rund-ums-haus-c485"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-im-supermarkt-4271",
+      "siblings": [
+        "subtraktion-durchstreichen-im-supermarkt-4271"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-backerei-eaf8",
+      "siblings": [
+        "subtraktion-durchstreichen-backerei-eaf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-strand-5b60",
+      "siblings": [
+        "subtraktion-durchstreichen-strand-5b60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-vogel-3cb8",
+      "siblings": [
+        "subtraktion-durchstreichen-vogel-3cb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-vogel-2-585c",
+      "siblings": [
+        "subtraktion-durchstreichen-vogel-2-585c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-korperteile-1913",
+      "siblings": [
+        "subtraktion-durchstreichen-korperteile-1913"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-fruhstuck-93f1",
+      "siblings": [
+        "subtraktion-durchstreichen-fruhstuck-93f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-camping-9abc",
+      "siblings": [
+        "subtraktion-durchstreichen-camping-9abc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-weihnachten-9717",
+      "siblings": [
+        "subtraktion-durchstreichen-weihnachten-9717"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-klassenzimmer-aa1f",
+      "siblings": [
+        "subtraktion-durchstreichen-klassenzimmer-aa1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-kleidung-eeee",
+      "siblings": [
+        "subtraktion-durchstreichen-kleidung-eeee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-farben-f9d0",
+      "siblings": [
+        "subtraktion-durchstreichen-farben-f9d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641",
+      "siblings": [
+        "subtraktion-durchstreichen-desserts-und-sussigkeiten-a641"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-dinosaurier-15f8",
+      "siblings": [
+        "subtraktion-durchstreichen-dinosaurier-15f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-ostern-5ce4",
+      "siblings": [
+        "subtraktion-durchstreichen-ostern-5ce4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-emotionen-d909",
+      "siblings": [
+        "subtraktion-durchstreichen-emotionen-d909"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-bauernhoftiere-2de5",
+      "siblings": [
+        "subtraktion-durchstreichen-bauernhoftiere-2de5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-blumen-b93c",
+      "siblings": [
+        "subtraktion-durchstreichen-blumen-b93c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-waldtiere-3049",
+      "siblings": [
+        "subtraktion-durchstreichen-waldtiere-3049"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-fruchte-26d6",
+      "siblings": [
+        "subtraktion-durchstreichen-fruchte-26d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-mobel-c269",
+      "siblings": [
+        "subtraktion-durchstreichen-mobel-c269"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-krankenhaus-c93b",
+      "siblings": [
+        "subtraktion-durchstreichen-krankenhaus-c93b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-insekten-und-kafer-8017",
+      "siblings": [
+        "subtraktion-durchstreichen-insekten-und-kafer-8017"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e",
+      "siblings": [
+        "subtraktion-durchstreichen-kuchenwerkzeuge-3c8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-musik-3b33",
+      "siblings": [
+        "subtraktion-durchstreichen-musik-3b33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-berufe-a31b",
+      "siblings": [
+        "subtraktion-durchstreichen-berufe-a31b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-meeresleben-55ad",
+      "siblings": [
+        "subtraktion-durchstreichen-meeresleben-55ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-haustiere-c152",
+      "siblings": [
+        "subtraktion-durchstreichen-haustiere-c152"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-postamt-33fb",
+      "siblings": [
+        "subtraktion-durchstreichen-postamt-33fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d",
+      "siblings": [
+        "subtraktion-durchstreichen-reptilien-und-amphibien-2a7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-formen-7cac",
+      "siblings": [
+        "subtraktion-durchstreichen-formen-7cac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-weltraum-207e",
+      "siblings": [
+        "subtraktion-durchstreichen-weltraum-207e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-fruhling-276f",
+      "siblings": [
+        "subtraktion-durchstreichen-fruhling-276f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-sommer-a06b",
+      "siblings": [
+        "subtraktion-durchstreichen-sommer-a06b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-erntedankfest-07d8",
+      "siblings": [
+        "subtraktion-durchstreichen-erntedankfest-07d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-dinge-die-fliegen-943c",
+      "siblings": [
+        "subtraktion-durchstreichen-dinge-die-fliegen-943c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-spielzeug-9b8b",
+      "siblings": [
+        "subtraktion-durchstreichen-spielzeug-9b8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-baume-6043",
+      "siblings": [
+        "subtraktion-durchstreichen-baume-6043"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-gemuse-1dc4",
+      "siblings": [
+        "subtraktion-durchstreichen-gemuse-1dc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-fahrzeuge-11bc",
+      "siblings": [
+        "subtraktion-durchstreichen-fahrzeuge-11bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-wetter-5f31",
+      "siblings": [
+        "subtraktion-durchstreichen-wetter-5f31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-winter-86f2",
+      "siblings": [
+        "subtraktion-durchstreichen-winter-86f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "cross-out",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-durchstreichen-zootiere-fa91",
+      "siblings": [
+        "subtraktion-durchstreichen-zootiere-fa91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-accessoires-8969",
+      "siblings": [
+        "subtraktion-subtrahend-finden-accessoires-8969"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-aktivitaten-8df3",
+      "siblings": [
+        "subtraktion-subtrahend-finden-aktivitaten-8df3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-tiere-806b",
+      "siblings": [
+        "subtraktion-subtrahend-finden-tiere-806b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-rund-ums-haus-0dd1",
+      "siblings": [
+        "subtraktion-subtrahend-finden-rund-ums-haus-0dd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-im-supermarkt-928f",
+      "siblings": [
+        "subtraktion-subtrahend-finden-im-supermarkt-928f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-backerei-b015",
+      "siblings": [
+        "subtraktion-subtrahend-finden-backerei-b015"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-vogel-9777",
+      "siblings": [
+        "subtraktion-subtrahend-finden-vogel-9777"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-vogel-2-01c2",
+      "siblings": [
+        "subtraktion-subtrahend-finden-vogel-2-01c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-korperteile-0ed7",
+      "siblings": [
+        "subtraktion-subtrahend-finden-korperteile-0ed7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-fruhstuck-d0ab",
+      "siblings": [
+        "subtraktion-subtrahend-finden-fruhstuck-d0ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-camping-45e5",
+      "siblings": [
+        "subtraktion-subtrahend-finden-camping-45e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-weihnachten-c8ec",
+      "siblings": [
+        "subtraktion-subtrahend-finden-weihnachten-c8ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-klassenzimmer-b3fb",
+      "siblings": [
+        "subtraktion-subtrahend-finden-klassenzimmer-b3fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-kleidung-d3e7",
+      "siblings": [
+        "subtraktion-subtrahend-finden-kleidung-d3e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-farben-4f07",
+      "siblings": [
+        "subtraktion-subtrahend-finden-farben-4f07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb",
+      "siblings": [
+        "subtraktion-subtrahend-finden-desserts-und-sussigkeiten-66eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-dinosaurier-c19a",
+      "siblings": [
+        "subtraktion-subtrahend-finden-dinosaurier-c19a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-ostern-74f5",
+      "siblings": [
+        "subtraktion-subtrahend-finden-ostern-74f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-emotionen-d3ce",
+      "siblings": [
+        "subtraktion-subtrahend-finden-emotionen-d3ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-bauernhoftiere-3a60",
+      "siblings": [
+        "subtraktion-subtrahend-finden-bauernhoftiere-3a60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-blumen-2cf5",
+      "siblings": [
+        "subtraktion-subtrahend-finden-blumen-2cf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-waldtiere-206a",
+      "siblings": [
+        "subtraktion-subtrahend-finden-waldtiere-206a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-fruchte-5b09",
+      "siblings": [
+        "subtraktion-subtrahend-finden-fruchte-5b09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-mobel-fb2f",
+      "siblings": [
+        "subtraktion-subtrahend-finden-mobel-fb2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-krankenhaus-ad77",
+      "siblings": [
+        "subtraktion-subtrahend-finden-krankenhaus-ad77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c",
+      "siblings": [
+        "subtraktion-subtrahend-finden-insekten-und-kafer-1a5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c",
+      "siblings": [
+        "subtraktion-subtrahend-finden-kuchenwerkzeuge-555c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-musik-6df8",
+      "siblings": [
+        "subtraktion-subtrahend-finden-musik-6df8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-berufe-113f",
+      "siblings": [
+        "subtraktion-subtrahend-finden-berufe-113f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-meeresleben-f169",
+      "siblings": [
+        "subtraktion-subtrahend-finden-meeresleben-f169"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-haustiere-4b20",
+      "siblings": [
+        "subtraktion-subtrahend-finden-haustiere-4b20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-postamt-88e3",
+      "siblings": [
+        "subtraktion-subtrahend-finden-postamt-88e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1",
+      "siblings": [
+        "subtraktion-subtrahend-finden-reptilien-und-amphibien-7ab1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-formen-0814",
+      "siblings": [
+        "subtraktion-subtrahend-finden-formen-0814"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-weltraum-adde",
+      "siblings": [
+        "subtraktion-subtrahend-finden-weltraum-adde"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-fruhling-34eb",
+      "siblings": [
+        "subtraktion-subtrahend-finden-fruhling-34eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-sommer-b8a1",
+      "siblings": [
+        "subtraktion-subtrahend-finden-sommer-b8a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-erntedankfest-3e34",
+      "siblings": [
+        "subtraktion-subtrahend-finden-erntedankfest-3e34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0",
+      "siblings": [
+        "subtraktion-subtrahend-finden-dinge-die-fliegen-e6e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-werkzeuge-7acd",
+      "siblings": [
+        "subtraktion-subtrahend-finden-werkzeuge-7acd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-spielzeug-f6c9",
+      "siblings": [
+        "subtraktion-subtrahend-finden-spielzeug-f6c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-baume-3f77",
+      "siblings": [
+        "subtraktion-subtrahend-finden-baume-3f77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-gemuse-433e",
+      "siblings": [
+        "subtraktion-subtrahend-finden-gemuse-433e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-fahrzeuge-0f7d",
+      "siblings": [
+        "subtraktion-subtrahend-finden-fahrzeuge-0f7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-wetter-bf6c",
+      "siblings": [
+        "subtraktion-subtrahend-finden-wetter-bf6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-winter-76af",
+      "siblings": [
+        "subtraktion-subtrahend-finden-winter-76af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-subtrahend-finden-zootiere-fe80",
+      "siblings": [
+        "subtraktion-subtrahend-finden-zootiere-fe80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-accessoires-44f4",
+      "siblings": [
+        "subtraktion-bild-zahl-accessoires-44f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-aktivitaten-9bb4",
+      "siblings": [
+        "subtraktion-bild-zahl-aktivitaten-9bb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-tiere-0b42",
+      "siblings": [
+        "subtraktion-bild-zahl-tiere-0b42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-rund-ums-haus-f122",
+      "siblings": [
+        "subtraktion-bild-zahl-rund-ums-haus-f122"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-im-supermarkt-4472",
+      "siblings": [
+        "subtraktion-bild-zahl-im-supermarkt-4472"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-backerei-4ee2",
+      "siblings": [
+        "subtraktion-bild-zahl-backerei-4ee2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-strand-1129",
+      "siblings": [
+        "subtraktion-bild-zahl-strand-1129"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-vogel-80c9",
+      "siblings": [
+        "subtraktion-bild-zahl-vogel-80c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-vogel-2-72e5",
+      "siblings": [
+        "subtraktion-bild-zahl-vogel-2-72e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-korperteile-df4d",
+      "siblings": [
+        "subtraktion-bild-zahl-korperteile-df4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-fruhstuck-6397",
+      "siblings": [
+        "subtraktion-bild-zahl-fruhstuck-6397"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-camping-71da",
+      "siblings": [
+        "subtraktion-bild-zahl-camping-71da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-weihnachten-fc81",
+      "siblings": [
+        "subtraktion-bild-zahl-weihnachten-fc81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-klassenzimmer-3a1e",
+      "siblings": [
+        "subtraktion-bild-zahl-klassenzimmer-3a1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-kleidung-c812",
+      "siblings": [
+        "subtraktion-bild-zahl-kleidung-c812"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-farben-e0e0",
+      "siblings": [
+        "subtraktion-bild-zahl-farben-e0e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808",
+      "siblings": [
+        "subtraktion-bild-zahl-desserts-und-sussigkeiten-6808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-dinosaurier-714b",
+      "siblings": [
+        "subtraktion-bild-zahl-dinosaurier-714b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-ostern-5e02",
+      "siblings": [
+        "subtraktion-bild-zahl-ostern-5e02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-emotionen-a5bb",
+      "siblings": [
+        "subtraktion-bild-zahl-emotionen-a5bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-bauernhoftiere-5265",
+      "siblings": [
+        "subtraktion-bild-zahl-bauernhoftiere-5265"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-blumen-088d",
+      "siblings": [
+        "subtraktion-bild-zahl-blumen-088d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-waldtiere-f08e",
+      "siblings": [
+        "subtraktion-bild-zahl-waldtiere-f08e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-fruchte-c0d5",
+      "siblings": [
+        "subtraktion-bild-zahl-fruchte-c0d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-mobel-fc35",
+      "siblings": [
+        "subtraktion-bild-zahl-mobel-fc35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-krankenhaus-f75c",
+      "siblings": [
+        "subtraktion-bild-zahl-krankenhaus-f75c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-insekten-und-kafer-0a63",
+      "siblings": [
+        "subtraktion-bild-zahl-insekten-und-kafer-0a63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7",
+      "siblings": [
+        "subtraktion-bild-zahl-kuchenwerkzeuge-c4d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-musik-b2e1",
+      "siblings": [
+        "subtraktion-bild-zahl-musik-b2e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-berufe-59a7",
+      "siblings": [
+        "subtraktion-bild-zahl-berufe-59a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-meeresleben-9b65",
+      "siblings": [
+        "subtraktion-bild-zahl-meeresleben-9b65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-haustiere-d25a",
+      "siblings": [
+        "subtraktion-bild-zahl-haustiere-d25a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-postamt-ce71",
+      "siblings": [
+        "subtraktion-bild-zahl-postamt-ce71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-reptilien-und-amphibien-105a",
+      "siblings": [
+        "subtraktion-bild-zahl-reptilien-und-amphibien-105a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-formen-ef1f",
+      "siblings": [
+        "subtraktion-bild-zahl-formen-ef1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-weltraum-fd85",
+      "siblings": [
+        "subtraktion-bild-zahl-weltraum-fd85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-fruhling-a98c",
+      "siblings": [
+        "subtraktion-bild-zahl-fruhling-a98c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-sommer-6e3b",
+      "siblings": [
+        "subtraktion-bild-zahl-sommer-6e3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-erntedankfest-5c26",
+      "siblings": [
+        "subtraktion-bild-zahl-erntedankfest-5c26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-dinge-die-fliegen-d920",
+      "siblings": [
+        "subtraktion-bild-zahl-dinge-die-fliegen-d920"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-werkzeuge-0fc3",
+      "siblings": [
+        "subtraktion-bild-zahl-werkzeuge-0fc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-spielzeug-d879",
+      "siblings": [
+        "subtraktion-bild-zahl-spielzeug-d879"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-baume-eac5",
+      "siblings": [
+        "subtraktion-bild-zahl-baume-eac5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-gemuse-5916",
+      "siblings": [
+        "subtraktion-bild-zahl-gemuse-5916"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-fahrzeuge-f659",
+      "siblings": [
+        "subtraktion-bild-zahl-fahrzeuge-f659"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-wetter-91df",
+      "siblings": [
+        "subtraktion-bild-zahl-wetter-91df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-winter-f1e8",
+      "siblings": [
+        "subtraktion-bild-zahl-winter-f1e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-bild-zahl-zootiere-30c2",
+      "siblings": [
+        "subtraktion-bild-zahl-zootiere-30c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-accessoires-7401",
+      "siblings": [
+        "subtraktion-gemischt-accessoires-7401"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-aktivitaten-0b41",
+      "siblings": [
+        "subtraktion-gemischt-aktivitaten-0b41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-tiere-d30a",
+      "siblings": [
+        "subtraktion-gemischt-tiere-d30a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-rund-ums-haus-54dd",
+      "siblings": [
+        "subtraktion-gemischt-rund-ums-haus-54dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-im-supermarkt-acd7",
+      "siblings": [
+        "subtraktion-gemischt-im-supermarkt-acd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-backerei-79ac",
+      "siblings": [
+        "subtraktion-gemischt-backerei-79ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-strand-d611",
+      "siblings": [
+        "subtraktion-gemischt-strand-d611"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-vogel-193d",
+      "siblings": [
+        "subtraktion-gemischt-vogel-193d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-vogel-2-aec0",
+      "siblings": [
+        "subtraktion-gemischt-vogel-2-aec0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-korperteile-541f",
+      "siblings": [
+        "subtraktion-gemischt-korperteile-541f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-fruhstuck-fee5",
+      "siblings": [
+        "subtraktion-gemischt-fruhstuck-fee5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-camping-dff7",
+      "siblings": [
+        "subtraktion-gemischt-camping-dff7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-weihnachten-7188",
+      "siblings": [
+        "subtraktion-gemischt-weihnachten-7188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-klassenzimmer-53f6",
+      "siblings": [
+        "subtraktion-gemischt-klassenzimmer-53f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-kleidung-51e2",
+      "siblings": [
+        "subtraktion-gemischt-kleidung-51e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-farben-c708",
+      "siblings": [
+        "subtraktion-gemischt-farben-c708"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-desserts-und-sussigkeiten-bc86",
+      "siblings": [
+        "subtraktion-gemischt-desserts-und-sussigkeiten-bc86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-dinosaurier-a102",
+      "siblings": [
+        "subtraktion-gemischt-dinosaurier-a102"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-ostern-77cd",
+      "siblings": [
+        "subtraktion-gemischt-ostern-77cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-emotionen-8c7c",
+      "siblings": [
+        "subtraktion-gemischt-emotionen-8c7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-bauernhoftiere-90bd",
+      "siblings": [
+        "subtraktion-gemischt-bauernhoftiere-90bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-blumen-d92c",
+      "siblings": [
+        "subtraktion-gemischt-blumen-d92c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-waldtiere-c0ec",
+      "siblings": [
+        "subtraktion-gemischt-waldtiere-c0ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-fruchte-7770",
+      "siblings": [
+        "subtraktion-gemischt-fruchte-7770"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-mobel-43be",
+      "siblings": [
+        "subtraktion-gemischt-mobel-43be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-krankenhaus-7413",
+      "siblings": [
+        "subtraktion-gemischt-krankenhaus-7413"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-insekten-und-kafer-e7fd",
+      "siblings": [
+        "subtraktion-gemischt-insekten-und-kafer-e7fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-kuchenwerkzeuge-7ed1",
+      "siblings": [
+        "subtraktion-gemischt-kuchenwerkzeuge-7ed1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-musik-d3a5",
+      "siblings": [
+        "subtraktion-gemischt-musik-d3a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-berufe-5a8a",
+      "siblings": [
+        "subtraktion-gemischt-berufe-5a8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-meeresleben-d605",
+      "siblings": [
+        "subtraktion-gemischt-meeresleben-d605"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-haustiere-589d",
+      "siblings": [
+        "subtraktion-gemischt-haustiere-589d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-postamt-b3f1",
+      "siblings": [
+        "subtraktion-gemischt-postamt-b3f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-reptilien-und-amphibien-fed4",
+      "siblings": [
+        "subtraktion-gemischt-reptilien-und-amphibien-fed4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-formen-d7e5",
+      "siblings": [
+        "subtraktion-gemischt-formen-d7e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-weltraum-937e",
+      "siblings": [
+        "subtraktion-gemischt-weltraum-937e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-fruhling-0f28",
+      "siblings": [
+        "subtraktion-gemischt-fruhling-0f28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-sommer-7dba",
+      "siblings": [
+        "subtraktion-gemischt-sommer-7dba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-erntedankfest-8d7d",
+      "siblings": [
+        "subtraktion-gemischt-erntedankfest-8d7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-dinge-die-fliegen-c318",
+      "siblings": [
+        "subtraktion-gemischt-dinge-die-fliegen-c318"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-werkzeuge-0c4d",
+      "siblings": [
+        "subtraktion-gemischt-werkzeuge-0c4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-spielzeug-9a99",
+      "siblings": [
+        "subtraktion-gemischt-spielzeug-9a99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-baume-f3db",
+      "siblings": [
+        "subtraktion-gemischt-baume-f3db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-gemuse-030c",
+      "siblings": [
+        "subtraktion-gemischt-gemuse-030c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-fahrzeuge-0669",
+      "siblings": [
+        "subtraktion-gemischt-fahrzeuge-0669"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-wetter-141b",
+      "siblings": [
+        "subtraktion-gemischt-wetter-141b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-winter-8b10",
+      "siblings": [
+        "subtraktion-gemischt-winter-8b10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-gemischt-zootiere-c973",
+      "siblings": [
+        "subtraktion-gemischt-zootiere-c973"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

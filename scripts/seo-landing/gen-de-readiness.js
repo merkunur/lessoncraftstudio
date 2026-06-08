@@ -57,11 +57,11 @@ function buildMode(mk){
     const entry = {
       slug: co.canonical,
       variantShape: co.siblings.length>1 ? 'collapsed' : 'singleton',
-      coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level: cfg.level || 'vorschule' },
+      coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level: co.level || cfg.level || 'vorschule' },
       eyebrow: cfg.eyebrow,
-      h1: cfg.h1(mk, datN(d.nPl)),
-      strand: (typeof cfg.strand === 'function' ? cfg.strand(mk) : cfg.strand),
-      slotTokens: d.nPl.replace(/ und /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), (cfg.level || 'vorschule'), cfg.slotWord]),
+      h1: cfg.h1(mk, datN(d.nPl), co.level || cfg.level),
+      strand: (typeof cfg.strand === 'function' ? cfg.strand(mk, co.level || cfg.level) : cfg.strand),
+      slotTokens: d.nPl.replace(/ und /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), (co.level || cfg.level || 'vorschule'), cfg.slotWord]),
       p1: render(sk[c.skel], d.nPl, d.gen),
       p2: render(p2[c.p2], d.nPl, d.gen),
       p3: p3de(d.gen, THEMES[nb1.theme].gen, THEMES[nb2.theme].gen),
@@ -70,7 +70,7 @@ function buildMode(mk){
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
     // optional CCSS standard (framework-bearing types); omitted entirely for readiness/no-standard types.
-    if (cfg.standard) entry.standard = (typeof cfg.standard === 'function' ? cfg.standard(mk) : cfg.standard);
+    if (cfg.standard) entry.standard = (typeof cfg.standard === 'function' ? cfg.standard(mk, co.level || cfg.level) : cfg.standard);
     out.push(entry);
   });
   if (dropped.length) console.log('  dropped ' + dropped.length + ': ' + dropped.join(', '));

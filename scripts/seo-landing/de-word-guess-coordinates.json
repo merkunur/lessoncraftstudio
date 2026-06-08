@@ -1,0 +1,1406 @@
+{
+  "locale": "de",
+  "exerciseType": "word-guess",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 47,
+    "(null)": 1
+  },
+  "totalValid": 95,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "wort-raten-leicht-accessoires-bdc2",
+      "siblings": [
+        "wort-raten-leicht-accessoires-bdc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "wort-raten-leicht-aktivitaten-c4da",
+      "siblings": [
+        "wort-raten-leicht-aktivitaten-c4da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "wort-raten-leicht-tiere-7e76",
+      "siblings": [
+        "wort-raten-leicht-tiere-7e76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "wort-raten-leicht-rund-ums-haus-7607",
+      "siblings": [
+        "wort-raten-leicht-rund-ums-haus-7607"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "wort-raten-leicht-im-supermarkt-6c86",
+      "siblings": [
+        "wort-raten-leicht-im-supermarkt-6c86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "wort-raten-leicht-backerei-f501",
+      "siblings": [
+        "wort-raten-leicht-backerei-f501"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "wort-raten-leicht-strand-fcf5",
+      "siblings": [
+        "wort-raten-leicht-strand-fcf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "wort-raten-leicht-vogel-7268",
+      "siblings": [
+        "wort-raten-leicht-vogel-7268"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "wort-raten-leicht-vogel-2-b74c",
+      "siblings": [
+        "wort-raten-leicht-vogel-2-b74c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "wort-raten-leicht-korperteile-657f",
+      "siblings": [
+        "wort-raten-leicht-korperteile-657f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "wort-raten-leicht-fruhstuck-2d6f",
+      "siblings": [
+        "wort-raten-leicht-fruhstuck-2d6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "wort-raten-leicht-camping-ebfe",
+      "siblings": [
+        "wort-raten-leicht-camping-ebfe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "wort-raten-leicht-weihnachten-31d5",
+      "siblings": [
+        "wort-raten-leicht-weihnachten-31d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "wort-raten-leicht-klassenzimmer-9275",
+      "siblings": [
+        "wort-raten-leicht-klassenzimmer-9275"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "wort-raten-leicht-kleidung-8f54",
+      "siblings": [
+        "wort-raten-leicht-kleidung-8f54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "wort-raten-leicht-farben-6744",
+      "siblings": [
+        "wort-raten-leicht-farben-6744"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "wort-raten-leicht-desserts-und-sussigkeiten-dd09",
+      "siblings": [
+        "wort-raten-leicht-desserts-und-sussigkeiten-dd09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "wort-raten-leicht-ostern-cb6d",
+      "siblings": [
+        "wort-raten-leicht-ostern-cb6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "wort-raten-leicht-emotionen-3ab9",
+      "siblings": [
+        "wort-raten-leicht-emotionen-3ab9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "wort-raten-leicht-bauernhoftiere-c37d",
+      "siblings": [
+        "wort-raten-leicht-bauernhoftiere-c37d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "wort-raten-leicht-blumen-fff8",
+      "siblings": [
+        "wort-raten-leicht-blumen-fff8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "wort-raten-leicht-waldtiere-9b2e",
+      "siblings": [
+        "wort-raten-leicht-waldtiere-9b2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "wort-raten-leicht-fruchte-9b53",
+      "siblings": [
+        "wort-raten-leicht-fruchte-9b53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "wort-raten-leicht-mobel-4cab",
+      "siblings": [
+        "wort-raten-leicht-mobel-4cab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "wort-raten-leicht-krankenhaus-5a8b",
+      "siblings": [
+        "wort-raten-leicht-krankenhaus-5a8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "wort-raten-leicht-insekten-und-kafer-1839",
+      "siblings": [
+        "wort-raten-leicht-insekten-und-kafer-1839"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "wort-raten-leicht-kuchenwerkzeuge-4dd6",
+      "siblings": [
+        "wort-raten-leicht-kuchenwerkzeuge-4dd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "wort-raten-leicht-musik-6f10",
+      "siblings": [
+        "wort-raten-leicht-musik-6f10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "wort-raten-leicht-berufe-aba1",
+      "siblings": [
+        "wort-raten-leicht-berufe-aba1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "wort-raten-leicht-meeresleben-8314",
+      "siblings": [
+        "wort-raten-leicht-meeresleben-8314"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "wort-raten-leicht-haustiere-6462",
+      "siblings": [
+        "wort-raten-leicht-haustiere-6462"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "wort-raten-leicht-postamt-a9c8",
+      "siblings": [
+        "wort-raten-leicht-postamt-a9c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "wort-raten-leicht-reptilien-und-amphibien-eb11",
+      "siblings": [
+        "wort-raten-leicht-reptilien-und-amphibien-eb11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "wort-raten-leicht-formen-fbe3",
+      "siblings": [
+        "wort-raten-leicht-formen-fbe3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "wort-raten-leicht-weltraum-6e5f",
+      "siblings": [
+        "wort-raten-leicht-weltraum-6e5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "wort-raten-leicht-fruhling-1406",
+      "siblings": [
+        "wort-raten-leicht-fruhling-1406"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "wort-raten-leicht-sommer-3a09",
+      "siblings": [
+        "wort-raten-leicht-sommer-3a09"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "wort-raten-leicht-erntedankfest-0c27",
+      "siblings": [
+        "wort-raten-leicht-erntedankfest-0c27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "wort-raten-leicht-dinge-die-fliegen-2e5e",
+      "siblings": [
+        "wort-raten-leicht-dinge-die-fliegen-2e5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "wort-raten-leicht-werkzeuge-5e6b",
+      "siblings": [
+        "wort-raten-leicht-werkzeuge-5e6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "wort-raten-leicht-spielzeug-6677",
+      "siblings": [
+        "wort-raten-leicht-spielzeug-6677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "wort-raten-leicht-baume-0d62",
+      "siblings": [
+        "wort-raten-leicht-baume-0d62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "wort-raten-leicht-gemuse-f0ae",
+      "siblings": [
+        "wort-raten-leicht-gemuse-f0ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "wort-raten-leicht-fahrzeuge-5a16",
+      "siblings": [
+        "wort-raten-leicht-fahrzeuge-5a16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "wort-raten-leicht-wetter-ad0e",
+      "siblings": [
+        "wort-raten-leicht-wetter-ad0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "wort-raten-leicht-winter-7efe",
+      "siblings": [
+        "wort-raten-leicht-winter-7efe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "wort-raten-leicht-zootiere-99b0",
+      "siblings": [
+        "wort-raten-leicht-zootiere-99b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "wort-raten-normal-accessoires-874b",
+      "siblings": [
+        "wort-raten-normal-accessoires-874b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "wort-raten-normal-aktivitaten-f161",
+      "siblings": [
+        "wort-raten-normal-aktivitaten-f161"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "wort-raten-normal-tiere-99d4",
+      "siblings": [
+        "wort-raten-normal-tiere-99d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "wort-raten-normal-rund-ums-haus-a5d0",
+      "siblings": [
+        "wort-raten-normal-rund-ums-haus-a5d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "wort-raten-normal-im-supermarkt-880e",
+      "siblings": [
+        "wort-raten-normal-im-supermarkt-880e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "wort-raten-normal-backerei-c4fe",
+      "siblings": [
+        "wort-raten-normal-backerei-c4fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "wort-raten-normal-strand-396e",
+      "siblings": [
+        "wort-raten-normal-strand-396e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "wort-raten-normal-vogel-7e25",
+      "siblings": [
+        "wort-raten-normal-vogel-7e25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "wort-raten-normal-vogel-2-823f",
+      "siblings": [
+        "wort-raten-normal-vogel-2-823f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "wort-raten-normal-korperteile-5d9f",
+      "siblings": [
+        "wort-raten-normal-korperteile-5d9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "wort-raten-normal-fruhstuck-ebaf",
+      "siblings": [
+        "wort-raten-normal-fruhstuck-ebaf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "wort-raten-normal-camping-25b8",
+      "siblings": [
+        "wort-raten-normal-camping-25b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "wort-raten-normal-weihnachten-acb4",
+      "siblings": [
+        "wort-raten-normal-weihnachten-acb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "wort-raten-normal-klassenzimmer-ab55",
+      "siblings": [
+        "wort-raten-normal-klassenzimmer-ab55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "wort-raten-normal-kleidung-df5c",
+      "siblings": [
+        "wort-raten-normal-kleidung-df5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "wort-raten-normal-farben-2200",
+      "siblings": [
+        "wort-raten-normal-farben-2200"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "wort-raten-normal-desserts-und-sussigkeiten-d5b8",
+      "siblings": [
+        "wort-raten-normal-desserts-und-sussigkeiten-d5b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "wort-raten-normal-ostern-312e",
+      "siblings": [
+        "wort-raten-normal-ostern-312e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "wort-raten-normal-emotionen-4932",
+      "siblings": [
+        "wort-raten-normal-emotionen-4932"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "wort-raten-normal-bauernhoftiere-226e",
+      "siblings": [
+        "wort-raten-normal-bauernhoftiere-226e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "wort-raten-normal-blumen-799f",
+      "siblings": [
+        "wort-raten-normal-blumen-799f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "wort-raten-normal-waldtiere-426f",
+      "siblings": [
+        "wort-raten-normal-waldtiere-426f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "wort-raten-normal-fruchte-0fb6",
+      "siblings": [
+        "wort-raten-normal-fruchte-0fb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "wort-raten-normal-mobel-f9f4",
+      "siblings": [
+        "wort-raten-normal-mobel-f9f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "wort-raten-normal-krankenhaus-9237",
+      "siblings": [
+        "wort-raten-normal-krankenhaus-9237"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "wort-raten-normal-insekten-und-kafer-58ff",
+      "siblings": [
+        "wort-raten-normal-insekten-und-kafer-58ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "wort-raten-normal-kuchenwerkzeuge-7491",
+      "siblings": [
+        "wort-raten-normal-kuchenwerkzeuge-7491"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "wort-raten-normal-musik-cc9a",
+      "siblings": [
+        "wort-raten-normal-musik-cc9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "wort-raten-normal-berufe-1f22",
+      "siblings": [
+        "wort-raten-normal-berufe-1f22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "wort-raten-normal-meeresleben-d899",
+      "siblings": [
+        "wort-raten-normal-meeresleben-d899"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "wort-raten-normal-haustiere-bf0a",
+      "siblings": [
+        "wort-raten-normal-haustiere-bf0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "wort-raten-normal-postamt-ece9",
+      "siblings": [
+        "wort-raten-normal-postamt-ece9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "wort-raten-normal-reptilien-und-amphibien-6a5e",
+      "siblings": [
+        "wort-raten-normal-reptilien-und-amphibien-6a5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "wort-raten-normal-formen-00bc",
+      "siblings": [
+        "wort-raten-normal-formen-00bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "wort-raten-normal-weltraum-1798",
+      "siblings": [
+        "wort-raten-normal-weltraum-1798"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "wort-raten-normal-fruhling-483f",
+      "siblings": [
+        "wort-raten-normal-fruhling-483f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "wort-raten-normal-sommer-3f8b",
+      "siblings": [
+        "wort-raten-normal-sommer-3f8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "wort-raten-normal-erntedankfest-da05",
+      "siblings": [
+        "wort-raten-normal-erntedankfest-da05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "wort-raten-normal-dinge-die-fliegen-c09e",
+      "siblings": [
+        "wort-raten-normal-dinge-die-fliegen-c09e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "wort-raten-normal-werkzeuge-965f",
+      "siblings": [
+        "wort-raten-normal-werkzeuge-965f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "wort-raten-normal-spielzeug-9070",
+      "siblings": [
+        "wort-raten-normal-spielzeug-9070"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "wort-raten-normal-baume-59a1",
+      "siblings": [
+        "wort-raten-normal-baume-59a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "wort-raten-normal-gemuse-f059",
+      "siblings": [
+        "wort-raten-normal-gemuse-f059"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "wort-raten-normal-fahrzeuge-0f17",
+      "siblings": [
+        "wort-raten-normal-fahrzeuge-0f17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "wort-raten-normal-wetter-7cc5",
+      "siblings": [
+        "wort-raten-normal-wetter-7cc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "wort-raten-normal-winter-5a00",
+      "siblings": [
+        "wort-raten-normal-winter-5a00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "wort-raten-normal-zootiere-bae5",
+      "siblings": [
+        "wort-raten-normal-zootiere-bae5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "wort-raten-tiere",
+      "siblings": [
+        "wort-raten-tiere"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

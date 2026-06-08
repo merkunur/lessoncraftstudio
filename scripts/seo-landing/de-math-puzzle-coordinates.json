@@ -1,0 +1,2208 @@
+{
+  "locale": "de",
+  "exerciseType": "math-puzzle",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 47,
+    "mixed": 47,
+    "subtraction": 48
+  },
+  "totalValid": 142,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-accessoires-176c",
+      "siblings": [
+        "mathe-raetsel-addition-accessoires-176c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-aktivitaten-2658",
+      "siblings": [
+        "mathe-raetsel-addition-aktivitaten-2658"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-tiere-4eb8",
+      "siblings": [
+        "mathe-raetsel-addition-tiere-4eb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-rund-ums-haus-46e8",
+      "siblings": [
+        "mathe-raetsel-addition-rund-ums-haus-46e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-im-supermarkt-f5a8",
+      "siblings": [
+        "mathe-raetsel-addition-im-supermarkt-f5a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-backerei-d1cd",
+      "siblings": [
+        "mathe-raetsel-addition-backerei-d1cd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-strand-a082",
+      "siblings": [
+        "mathe-raetsel-addition-strand-a082"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-vogel-df32",
+      "siblings": [
+        "mathe-raetsel-addition-vogel-df32"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-vogel-2-11b3",
+      "siblings": [
+        "mathe-raetsel-addition-vogel-2-11b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-korperteile-9cae",
+      "siblings": [
+        "mathe-raetsel-addition-korperteile-9cae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-fruhstuck-89a6",
+      "siblings": [
+        "mathe-raetsel-addition-fruhstuck-89a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-camping-af1b",
+      "siblings": [
+        "mathe-raetsel-addition-camping-af1b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-weihnachten-a10f",
+      "siblings": [
+        "mathe-raetsel-addition-weihnachten-a10f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-klassenzimmer-91f7",
+      "siblings": [
+        "mathe-raetsel-addition-klassenzimmer-91f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-kleidung-814e",
+      "siblings": [
+        "mathe-raetsel-addition-kleidung-814e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10",
+      "siblings": [
+        "mathe-raetsel-addition-desserts-und-sussigkeiten-4b10"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-dinosaurier-3cde",
+      "siblings": [
+        "mathe-raetsel-addition-dinosaurier-3cde"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-ostern-574e",
+      "siblings": [
+        "mathe-raetsel-addition-ostern-574e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-emotionen-5de9",
+      "siblings": [
+        "mathe-raetsel-addition-emotionen-5de9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-blumen-d020",
+      "siblings": [
+        "mathe-raetsel-addition-blumen-d020"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-waldtiere-3a4d",
+      "siblings": [
+        "mathe-raetsel-addition-waldtiere-3a4d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-fruchte-fe92",
+      "siblings": [
+        "mathe-raetsel-addition-fruchte-fe92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-mobel-b68e",
+      "siblings": [
+        "mathe-raetsel-addition-mobel-b68e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-krankenhaus-0cc4",
+      "siblings": [
+        "mathe-raetsel-addition-krankenhaus-0cc4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-insekten-und-kafer-1383",
+      "siblings": [
+        "mathe-raetsel-addition-insekten-und-kafer-1383"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-kuchenwerkzeuge-c844",
+      "siblings": [
+        "mathe-raetsel-addition-kuchenwerkzeuge-c844"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-verschiedenes-0881",
+      "siblings": [
+        "mathe-raetsel-addition-verschiedenes-0881"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-musik-ee2a",
+      "siblings": [
+        "mathe-raetsel-addition-musik-ee2a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-berufe-4bbf",
+      "siblings": [
+        "mathe-raetsel-addition-berufe-4bbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-meeresleben-1db9",
+      "siblings": [
+        "mathe-raetsel-addition-meeresleben-1db9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-haustiere-42ad",
+      "siblings": [
+        "mathe-raetsel-addition-haustiere-42ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-postamt-5774",
+      "siblings": [
+        "mathe-raetsel-addition-postamt-5774"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-reptilien-und-amphibien-63fd",
+      "siblings": [
+        "mathe-raetsel-addition-reptilien-und-amphibien-63fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-formen-4706",
+      "siblings": [
+        "mathe-raetsel-addition-formen-4706"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-weltraum-f26f",
+      "siblings": [
+        "mathe-raetsel-addition-weltraum-f26f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-fruhling-9a74",
+      "siblings": [
+        "mathe-raetsel-addition-fruhling-9a74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-sommer-9fcf",
+      "siblings": [
+        "mathe-raetsel-addition-sommer-9fcf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-erntedankfest-7c4d",
+      "siblings": [
+        "mathe-raetsel-addition-erntedankfest-7c4d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-dinge-die-fliegen-df6a",
+      "siblings": [
+        "mathe-raetsel-addition-dinge-die-fliegen-df6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-werkzeuge-68d0",
+      "siblings": [
+        "mathe-raetsel-addition-werkzeuge-68d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-spielzeug-7102",
+      "siblings": [
+        "mathe-raetsel-addition-spielzeug-7102"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-baume-e338",
+      "siblings": [
+        "mathe-raetsel-addition-baume-e338"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-gemuse-73e5",
+      "siblings": [
+        "mathe-raetsel-addition-gemuse-73e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-fahrzeuge-20cd",
+      "siblings": [
+        "mathe-raetsel-addition-fahrzeuge-20cd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-wetter-2a7d",
+      "siblings": [
+        "mathe-raetsel-addition-wetter-2a7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-winter-5671",
+      "siblings": [
+        "mathe-raetsel-addition-winter-5671"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-addition-zootiere-5b59",
+      "siblings": [
+        "mathe-raetsel-addition-zootiere-5b59"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-accessoires-328f",
+      "siblings": [
+        "mathe-raetsel-gemischt-accessoires-328f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-aktivitaten-c86e",
+      "siblings": [
+        "mathe-raetsel-gemischt-aktivitaten-c86e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "mathe-raetsel-gemischt-tiere",
+      "siblings": [
+        "mathe-raetsel-gemischt-tiere",
+        "mathe-raetsel-gemischt-tiere-f07c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-rund-ums-haus-a75a",
+      "siblings": [
+        "mathe-raetsel-gemischt-rund-ums-haus-a75a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-im-supermarkt-a28f",
+      "siblings": [
+        "mathe-raetsel-gemischt-im-supermarkt-a28f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-backerei-d899",
+      "siblings": [
+        "mathe-raetsel-gemischt-backerei-d899"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-strand-09b4",
+      "siblings": [
+        "mathe-raetsel-gemischt-strand-09b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-vogel-c1c9",
+      "siblings": [
+        "mathe-raetsel-gemischt-vogel-c1c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-vogel-2-ff8c",
+      "siblings": [
+        "mathe-raetsel-gemischt-vogel-2-ff8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-korperteile-a450",
+      "siblings": [
+        "mathe-raetsel-gemischt-korperteile-a450"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-camping-8b7b",
+      "siblings": [
+        "mathe-raetsel-gemischt-camping-8b7b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-weihnachten-c9a8",
+      "siblings": [
+        "mathe-raetsel-gemischt-weihnachten-c9a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-klassenzimmer-17dc",
+      "siblings": [
+        "mathe-raetsel-gemischt-klassenzimmer-17dc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-kleidung-be32",
+      "siblings": [
+        "mathe-raetsel-gemischt-kleidung-be32"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e",
+      "siblings": [
+        "mathe-raetsel-gemischt-desserts-und-sussigkeiten-308e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-dinosaurier-a839",
+      "siblings": [
+        "mathe-raetsel-gemischt-dinosaurier-a839"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-ostern-5522",
+      "siblings": [
+        "mathe-raetsel-gemischt-ostern-5522"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-emotionen-3dc9",
+      "siblings": [
+        "mathe-raetsel-gemischt-emotionen-3dc9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-bauernhoftiere-c4c4",
+      "siblings": [
+        "mathe-raetsel-gemischt-bauernhoftiere-c4c4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-blumen-9c5f",
+      "siblings": [
+        "mathe-raetsel-gemischt-blumen-9c5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-waldtiere-a98b",
+      "siblings": [
+        "mathe-raetsel-gemischt-waldtiere-a98b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-fruchte-b879",
+      "siblings": [
+        "mathe-raetsel-gemischt-fruchte-b879"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-mobel-abc5",
+      "siblings": [
+        "mathe-raetsel-gemischt-mobel-abc5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-krankenhaus-5ff1",
+      "siblings": [
+        "mathe-raetsel-gemischt-krankenhaus-5ff1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-insekten-und-kafer-23d8",
+      "siblings": [
+        "mathe-raetsel-gemischt-insekten-und-kafer-23d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d",
+      "siblings": [
+        "mathe-raetsel-gemischt-kuchenwerkzeuge-f90d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-verschiedenes-13c2",
+      "siblings": [
+        "mathe-raetsel-gemischt-verschiedenes-13c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-musik-2b78",
+      "siblings": [
+        "mathe-raetsel-gemischt-musik-2b78"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-berufe-1843",
+      "siblings": [
+        "mathe-raetsel-gemischt-berufe-1843"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-meeresleben-490a",
+      "siblings": [
+        "mathe-raetsel-gemischt-meeresleben-490a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-haustiere-8a7d",
+      "siblings": [
+        "mathe-raetsel-gemischt-haustiere-8a7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-postamt-0dcb",
+      "siblings": [
+        "mathe-raetsel-gemischt-postamt-0dcb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8",
+      "siblings": [
+        "mathe-raetsel-gemischt-reptilien-und-amphibien-8ec8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-formen-7fe3",
+      "siblings": [
+        "mathe-raetsel-gemischt-formen-7fe3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-weltraum-a47a",
+      "siblings": [
+        "mathe-raetsel-gemischt-weltraum-a47a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-fruhling-cd41",
+      "siblings": [
+        "mathe-raetsel-gemischt-fruhling-cd41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-sommer-f9ea",
+      "siblings": [
+        "mathe-raetsel-gemischt-sommer-f9ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-erntedankfest-9daf",
+      "siblings": [
+        "mathe-raetsel-gemischt-erntedankfest-9daf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-dinge-die-fliegen-b140",
+      "siblings": [
+        "mathe-raetsel-gemischt-dinge-die-fliegen-b140"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-werkzeuge-a081",
+      "siblings": [
+        "mathe-raetsel-gemischt-werkzeuge-a081"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-spielzeug-4a3c",
+      "siblings": [
+        "mathe-raetsel-gemischt-spielzeug-4a3c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-baume-fdd7",
+      "siblings": [
+        "mathe-raetsel-gemischt-baume-fdd7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-gemuse-90f0",
+      "siblings": [
+        "mathe-raetsel-gemischt-gemuse-90f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-fahrzeuge-925a",
+      "siblings": [
+        "mathe-raetsel-gemischt-fahrzeuge-925a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-wetter-a61f",
+      "siblings": [
+        "mathe-raetsel-gemischt-wetter-a61f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-winter-9cca",
+      "siblings": [
+        "mathe-raetsel-gemischt-winter-9cca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-gemischt-zootiere-f72b",
+      "siblings": [
+        "mathe-raetsel-gemischt-zootiere-f72b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-accessoires-bdaf",
+      "siblings": [
+        "mathe-raetsel-subtraktion-accessoires-bdaf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-aktivitaten-a00e",
+      "siblings": [
+        "mathe-raetsel-subtraktion-aktivitaten-a00e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-tiere-fa03",
+      "siblings": [
+        "mathe-raetsel-subtraktion-tiere-fa03"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-rund-ums-haus-d030",
+      "siblings": [
+        "mathe-raetsel-subtraktion-rund-ums-haus-d030"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-im-supermarkt-6ca0",
+      "siblings": [
+        "mathe-raetsel-subtraktion-im-supermarkt-6ca0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-backerei-6020",
+      "siblings": [
+        "mathe-raetsel-subtraktion-backerei-6020"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-strand-ecab",
+      "siblings": [
+        "mathe-raetsel-subtraktion-strand-ecab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-vogel-386d",
+      "siblings": [
+        "mathe-raetsel-subtraktion-vogel-386d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-vogel-2-00f3",
+      "siblings": [
+        "mathe-raetsel-subtraktion-vogel-2-00f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-korperteile-e075",
+      "siblings": [
+        "mathe-raetsel-subtraktion-korperteile-e075"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-fruhstuck-1af0",
+      "siblings": [
+        "mathe-raetsel-subtraktion-fruhstuck-1af0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-camping-24fa",
+      "siblings": [
+        "mathe-raetsel-subtraktion-camping-24fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-weihnachten-78f4",
+      "siblings": [
+        "mathe-raetsel-subtraktion-weihnachten-78f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-klassenzimmer-21ec",
+      "siblings": [
+        "mathe-raetsel-subtraktion-klassenzimmer-21ec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-kleidung-e10a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-kleidung-e10a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714",
+      "siblings": [
+        "mathe-raetsel-subtraktion-desserts-und-sussigkeiten-3714"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-dinosaurier-ffe1",
+      "siblings": [
+        "mathe-raetsel-subtraktion-dinosaurier-ffe1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-ostern-e36a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-ostern-e36a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-emotionen-dbe6",
+      "siblings": [
+        "mathe-raetsel-subtraktion-emotionen-dbe6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-bauernhoftiere-d53d",
+      "siblings": [
+        "mathe-raetsel-subtraktion-bauernhoftiere-d53d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-blumen-46ce",
+      "siblings": [
+        "mathe-raetsel-subtraktion-blumen-46ce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-waldtiere-c55a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-waldtiere-c55a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-fruchte-0914",
+      "siblings": [
+        "mathe-raetsel-subtraktion-fruchte-0914"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-mobel-dd69",
+      "siblings": [
+        "mathe-raetsel-subtraktion-mobel-dd69"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-krankenhaus-0435",
+      "siblings": [
+        "mathe-raetsel-subtraktion-krankenhaus-0435"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-insekten-und-kafer-4de0",
+      "siblings": [
+        "mathe-raetsel-subtraktion-insekten-und-kafer-4de0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d",
+      "siblings": [
+        "mathe-raetsel-subtraktion-kuchenwerkzeuge-3b7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-verschiedenes-cd8d",
+      "siblings": [
+        "mathe-raetsel-subtraktion-verschiedenes-cd8d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-musik-e5f0",
+      "siblings": [
+        "mathe-raetsel-subtraktion-musik-e5f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-berufe-011e",
+      "siblings": [
+        "mathe-raetsel-subtraktion-berufe-011e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-meeresleben-81cc",
+      "siblings": [
+        "mathe-raetsel-subtraktion-meeresleben-81cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-haustiere-755f",
+      "siblings": [
+        "mathe-raetsel-subtraktion-haustiere-755f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-postamt-ba93",
+      "siblings": [
+        "mathe-raetsel-subtraktion-postamt-ba93"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f",
+      "siblings": [
+        "mathe-raetsel-subtraktion-reptilien-und-amphibien-ce6f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-formen-d643",
+      "siblings": [
+        "mathe-raetsel-subtraktion-formen-d643"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-weltraum-9fdc",
+      "siblings": [
+        "mathe-raetsel-subtraktion-weltraum-9fdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-fruhling-e00e",
+      "siblings": [
+        "mathe-raetsel-subtraktion-fruhling-e00e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-sommer-e64a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-sommer-e64a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-erntedankfest-8d47",
+      "siblings": [
+        "mathe-raetsel-subtraktion-erntedankfest-8d47"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-dinge-die-fliegen-af9a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-werkzeuge-ec77",
+      "siblings": [
+        "mathe-raetsel-subtraktion-werkzeuge-ec77"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-spielzeug-f29c",
+      "siblings": [
+        "mathe-raetsel-subtraktion-spielzeug-f29c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-baume-582b",
+      "siblings": [
+        "mathe-raetsel-subtraktion-baume-582b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-gemuse-f1a8",
+      "siblings": [
+        "mathe-raetsel-subtraktion-gemuse-f1a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-fahrzeuge-8356",
+      "siblings": [
+        "mathe-raetsel-subtraktion-fahrzeuge-8356"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-wetter-2bd2",
+      "siblings": [
+        "mathe-raetsel-subtraktion-wetter-2bd2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-winter-bda5",
+      "siblings": [
+        "mathe-raetsel-subtraktion-winter-bda5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mathe-raetsel-subtraktion-zootiere-ea8a",
+      "siblings": [
+        "mathe-raetsel-subtraktion-zootiere-ea8a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "level": "2-klasse"
+    }
+  ]
+}

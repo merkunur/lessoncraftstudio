@@ -39,7 +39,15 @@
   },
   "overrideWhitelist": [
     {"mechanic": "chart-count", "theme": "colors", "verdict": "VALID", "reason": "classify-and-count colors = K.MD.B.3 canonical"},
-    {"mechanic": "chart-count", "theme": "shapes", "verdict": "VALID", "reason": "classify-and-count shapes = K.MD.B.3 canonical"}
+    {"mechanic": "chart-count", "theme": "shapes", "verdict": "VALID", "reason": "classify-and-count shapes = K.MD.B.3 canonical"},
+    {"mechanic": "code-addition", "theme": "colors", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "emotions", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "body_parts", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "weather", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "spring", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "summer", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "winter", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"},
+    {"mechanic": "code-addition", "theme": "activities", "verdict": "VALID", "reason": "code-symbols in a legend (Bilder-Code), not counted objects"}
   ],
   "copyPartitivePatterns": ["a tray of", "a stack of", "a bunch of", "a heap of", "a glass of", "a loaf of", "a pile of", "a bowl of", "a plate of", "a basket of", "a pack of", "a box of"],
   "readinessStrands": {

@@ -60,7 +60,7 @@ function buildMode(mk){
       coordinate: { type:TYPE, mode: wantMode, theme:co.theme, level:'vorschule' },
       eyebrow: cfg.eyebrow,
       h1: cfg.h1(mk, datN(d.nPl)),
-      strand: cfg.strand,
+      strand: (typeof cfg.strand === 'function' ? cfg.strand(mk) : cfg.strand),
       slotTokens: d.nPl.replace(/ und /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), 'vorschule', cfg.slotWord]),
       p1: render(sk[c.skel], d.nPl, d.gen),
       p2: render(p2[c.p2], d.nPl, d.gen),

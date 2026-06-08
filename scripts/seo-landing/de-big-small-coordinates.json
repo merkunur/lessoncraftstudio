@@ -1,0 +1,1335 @@
+{
+  "locale": "de",
+  "exerciseType": "big-small",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 42,
+    "orderAsc": 48
+  },
+  "totalValid": 90,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-accessoires-20f9",
+      "siblings": [
+        "gross-klein-grosses-finden-accessoires-20f9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-aktivitaten-697b",
+      "siblings": [
+        "gross-klein-grosses-finden-aktivitaten-697b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-tiere-e63a",
+      "siblings": [
+        "gross-klein-grosses-finden-tiere-e63a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-rund-ums-haus-89eb",
+      "siblings": [
+        "gross-klein-grosses-finden-rund-ums-haus-89eb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-im-supermarkt-eefb",
+      "siblings": [
+        "gross-klein-grosses-finden-im-supermarkt-eefb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-backerei-b12e",
+      "siblings": [
+        "gross-klein-grosses-finden-backerei-b12e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-strand-c7c0",
+      "siblings": [
+        "gross-klein-grosses-finden-strand-c7c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-vogel-2-c0e4",
+      "siblings": [
+        "gross-klein-grosses-finden-vogel-2-c0e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-korperteile-6518",
+      "siblings": [
+        "gross-klein-grosses-finden-korperteile-6518"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-fruhstuck-0fcb",
+      "siblings": [
+        "gross-klein-grosses-finden-fruhstuck-0fcb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-camping-1213",
+      "siblings": [
+        "gross-klein-grosses-finden-camping-1213"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-weihnachten-af06",
+      "siblings": [
+        "gross-klein-grosses-finden-weihnachten-af06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-klassenzimmer-121e",
+      "siblings": [
+        "gross-klein-grosses-finden-klassenzimmer-121e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-kleidung-39ca",
+      "siblings": [
+        "gross-klein-grosses-finden-kleidung-39ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-farben-f920",
+      "siblings": [
+        "gross-klein-grosses-finden-farben-f920"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495",
+      "siblings": [
+        "gross-klein-grosses-finden-desserts-und-sussigkeiten-9495"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-dinosaurier-7ff7",
+      "siblings": [
+        "gross-klein-grosses-finden-dinosaurier-7ff7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-ostern-f7de",
+      "siblings": [
+        "gross-klein-grosses-finden-ostern-f7de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-bauernhoftiere-ddb3",
+      "siblings": [
+        "gross-klein-grosses-finden-bauernhoftiere-ddb3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-blumen-6567",
+      "siblings": [
+        "gross-klein-grosses-finden-blumen-6567"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-waldtiere-a005",
+      "siblings": [
+        "gross-klein-grosses-finden-waldtiere-a005"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-fruchte-91d7",
+      "siblings": [
+        "gross-klein-grosses-finden-fruchte-91d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-mobel-4ef2",
+      "siblings": [
+        "gross-klein-grosses-finden-mobel-4ef2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-krankenhaus-1f79",
+      "siblings": [
+        "gross-klein-grosses-finden-krankenhaus-1f79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-kuchenwerkzeuge-a533",
+      "siblings": [
+        "gross-klein-grosses-finden-kuchenwerkzeuge-a533"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-musik-db01",
+      "siblings": [
+        "gross-klein-grosses-finden-musik-db01"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-berufe-6e40",
+      "siblings": [
+        "gross-klein-grosses-finden-berufe-6e40"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-meeresleben-1784",
+      "siblings": [
+        "gross-klein-grosses-finden-meeresleben-1784"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-haustiere-13b0",
+      "siblings": [
+        "gross-klein-grosses-finden-haustiere-13b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-formen-5dfb",
+      "siblings": [
+        "gross-klein-grosses-finden-formen-5dfb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-weltraum-0574",
+      "siblings": [
+        "gross-klein-grosses-finden-weltraum-0574"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-fruhling-5fd5",
+      "siblings": [
+        "gross-klein-grosses-finden-fruhling-5fd5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-sommer-e77e",
+      "siblings": [
+        "gross-klein-grosses-finden-sommer-e77e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-dinge-die-fliegen-51eb",
+      "siblings": [
+        "gross-klein-grosses-finden-dinge-die-fliegen-51eb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-werkzeuge-4722",
+      "siblings": [
+        "gross-klein-grosses-finden-werkzeuge-4722"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-spielzeug-92d5",
+      "siblings": [
+        "gross-klein-grosses-finden-spielzeug-92d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-baume-1516",
+      "siblings": [
+        "gross-klein-grosses-finden-baume-1516"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-gemuse-ce88",
+      "siblings": [
+        "gross-klein-grosses-finden-gemuse-ce88"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-fahrzeuge-dc64",
+      "siblings": [
+        "gross-klein-grosses-finden-fahrzeuge-dc64"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-wetter-7a00",
+      "siblings": [
+        "gross-klein-grosses-finden-wetter-7a00"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-winter-ec8b",
+      "siblings": [
+        "gross-klein-grosses-finden-winter-ec8b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gross-klein-grosses-finden-zootiere-132f",
+      "siblings": [
+        "gross-klein-grosses-finden-zootiere-132f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-accessoires-5d6d",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-accessoires-5d6d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-aktivitaten-dc1d",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-aktivitaten-dc1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-tiere-9e4e",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-tiere-9e4e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-rund-ums-haus-2e2b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-im-supermarkt-2fdb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-backerei-9a3b",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-backerei-9a3b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-strand-8eef",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-strand-8eef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-vogel-df47",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-vogel-df47"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-vogel-2-012d",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-vogel-2-012d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-korperteile-6729",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-korperteile-6729"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-fruhstuck-046f",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-fruhstuck-046f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-camping-a78c",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-camping-a78c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-weihnachten-e93e",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-weihnachten-e93e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-klassenzimmer-a877",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-klassenzimmer-a877"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-kleidung-80d7",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-kleidung-80d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-farben-1329",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-farben-1329"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-desserts-und-sussigkeiten-313e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-dinosaurier-d77b",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-dinosaurier-d77b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-ostern-5503",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-ostern-5503"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-emotionen-56ff",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-emotionen-56ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-bauernhoftiere-3718"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-blumen-ee46",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-blumen-ee46"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-waldtiere-8ff3",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-waldtiere-8ff3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-fruchte-1790",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-fruchte-1790"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-mobel-d63c",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-mobel-d63c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-krankenhaus-f831",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-krankenhaus-f831"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-insekten-und-kafer-11d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-kuchenwerkzeuge-c68f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-musik-ff1d",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-musik-ff1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-berufe-a7d6",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-berufe-a7d6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-meeresleben-cd62",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-meeresleben-cd62"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-haustiere-eb45",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-haustiere-eb45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-postamt-03c2",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-postamt-03c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-reptilien-und-amphibien-bc42"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-formen-d247",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-formen-d247"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-weltraum-fcc1",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-weltraum-fcc1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-fruhling-d3e1",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-fruhling-d3e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-sommer-5525",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-sommer-5525"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-erntedankfest-6351",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-erntedankfest-6351"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-dinge-die-fliegen-ef19"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-werkzeuge-bdcc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-spielzeug-6aa7",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-spielzeug-6aa7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-baume-9808",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-baume-9808"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-gemuse-8938",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-gemuse-8938"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-fahrzeuge-dc51"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-wetter-a87d",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-wetter-a87d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-winter-7402",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-winter-7402"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gross-klein-aufsteigend-ordnen-zootiere-4f33",
+      "siblings": [
+        "gross-klein-aufsteigend-ordnen-zootiere-4f33"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    }
+  ]
+}

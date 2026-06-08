@@ -12,6 +12,7 @@
  * Landing self-URL uses the no-trailing-slash Next convention (§A.10 / next.config).
  */
 import enData from '@/content/seo-landing/en.json';
+import deData from '@/content/seo-landing/de.json';
 import { CANONICAL_HOST } from '@/lib/seo/url';
 
 export interface LandingCarouselItem { label: string; href: string }
@@ -32,7 +33,10 @@ export interface Landing {
 
 interface LandingFile { landings: Landing[] }
 
-const FILES: Record<string, LandingFile> = { en: enData as unknown as LandingFile };
+const FILES: Record<string, LandingFile> = {
+  en: enData as unknown as LandingFile,
+  de: deData as unknown as LandingFile,
+};
 
 export function getLandingLocales(): string[] {
   return Object.keys(FILES);
@@ -78,6 +82,32 @@ function deckMap(locale: string): Record<string, string> {
 }
 export function landingSlugForDeck(locale: string, deckSlug: string): string | null {
   return deckMap(locale)[deckSlug] || null;
+}
+
+/**
+ * Cross-locale siblings of a landing: the SAME (type, mode, theme) coordinate in OTHER locales.
+ * Matches on type+mode+theme — NOT level (level is RE-DERIVED per locale, e.g. an EN-kindergarten
+ * addition coordinate is de-`1-klasse`). Drives the cross-locale hreflang block (en↔de). Returns
+ * `{locale, slug}` for every other locale that has a landing for the coordinate.
+ */
+export function getSiblingLandingsByCoordinate(
+  coordinate: LandingCoordinate,
+  excludeLocale: string,
+): Array<{ locale: string; slug: string }> {
+  const out: Array<{ locale: string; slug: string }> = [];
+  for (const loc of Object.keys(FILES)) {
+    if (loc === excludeLocale) continue;
+    const f = FILES[loc];
+    if (!f) continue;
+    const m = f.landings.find(
+      (l) =>
+        l.coordinate.type === coordinate.type &&
+        l.coordinate.mode === coordinate.mode &&
+        l.coordinate.theme === coordinate.theme,
+    );
+    if (m) out.push({ locale: loc, slug: m.slug });
+  }
+  return out;
 }
 
 /** Deck-asset URLs (nginx-served; trailing-slash dir; slug-prefixed PDFs). */

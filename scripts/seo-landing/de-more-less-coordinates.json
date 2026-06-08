@@ -1,0 +1,2065 @@
+{
+  "locale": "de",
+  "exerciseType": "more-less",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 46,
+    "image-image": 48,
+    "image-number": 48
+  },
+  "totalValid": 142,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-accessoires-2d66",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-accessoires-2d66"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-aktivitaten-97d6",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-aktivitaten-97d6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-tiere-d011",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-tiere-d011"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-rund-ums-haus-bbed",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-rund-ums-haus-bbed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-im-supermarkt-9937",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-im-supermarkt-9937"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-backerei-4a74",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-backerei-4a74"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-strand-e286",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-strand-e286"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-vogel-0bdf",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-vogel-0bdf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-vogel-2-5b66",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-vogel-2-5b66"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-korperteile-898b",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-korperteile-898b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-fruhstuck-2c75",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-fruhstuck-2c75"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-camping-31d5",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-camping-31d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-weihnachten-f2d6",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-weihnachten-f2d6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-klassenzimmer-9a99",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-klassenzimmer-9a99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-kleidung-2e60",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-kleidung-2e60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-farben-8217",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-farben-8217"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-desserts-und-sussigkeiten-57e7",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-desserts-und-sussigkeiten-57e7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-dinosaurier-eda5",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-dinosaurier-eda5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-ostern-7a59",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-ostern-7a59"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-emotionen-d91d",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-emotionen-d91d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-bauernhoftiere-8d6e",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-bauernhoftiere-8d6e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-blumen-e1d5",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-blumen-e1d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-waldtiere-405f",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-waldtiere-405f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-fruchte-6cde",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-fruchte-6cde"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-mobel-6dc9",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-mobel-6dc9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-kuchenwerkzeuge-96c2",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-kuchenwerkzeuge-96c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-musik-820a",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-musik-820a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-berufe-5dfb",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-berufe-5dfb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-meeresleben-fe10",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-meeresleben-fe10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-haustiere-8185",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-haustiere-8185"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-postamt-3999",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-postamt-3999"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-reptilien-und-amphibien-4f4d",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-reptilien-und-amphibien-4f4d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-formen-0028",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-formen-0028"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-weltraum-27c3",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-weltraum-27c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-fruhling-796c",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-fruhling-796c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-sommer-e47a",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-sommer-e47a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-erntedankfest-9be1",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-erntedankfest-9be1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-dinge-die-fliegen-278d",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-dinge-die-fliegen-278d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-werkzeuge-8e18",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-werkzeuge-8e18"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-spielzeug-ab43",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-spielzeug-ab43"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-baume-a665",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-baume-a665"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-gemuse-22ce",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-gemuse-22ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-fahrzeuge-4970",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-fahrzeuge-4970"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-wetter-4fef",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-wetter-4fef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-winter-183c",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-winter-183c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-ankreuzen-und-durchstreichen-zootiere-22c8",
+      "siblings": [
+        "mehr-weniger-ankreuzen-und-durchstreichen-zootiere-22c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-accessoires-547c",
+      "siblings": [
+        "mehr-weniger-bild-bild-accessoires-547c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-aktivitaten-85e8",
+      "siblings": [
+        "mehr-weniger-bild-bild-aktivitaten-85e8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-tiere-ea81",
+      "siblings": [
+        "mehr-weniger-bild-bild-tiere-ea81"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-rund-ums-haus-d077",
+      "siblings": [
+        "mehr-weniger-bild-bild-rund-ums-haus-d077"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-im-supermarkt-9fd7",
+      "siblings": [
+        "mehr-weniger-bild-bild-im-supermarkt-9fd7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-backerei-1e3f",
+      "siblings": [
+        "mehr-weniger-bild-bild-backerei-1e3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-strand-39de",
+      "siblings": [
+        "mehr-weniger-bild-bild-strand-39de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-vogel-b83e",
+      "siblings": [
+        "mehr-weniger-bild-bild-vogel-b83e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-vogel-2-196a",
+      "siblings": [
+        "mehr-weniger-bild-bild-vogel-2-196a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-korperteile-3a8f",
+      "siblings": [
+        "mehr-weniger-bild-bild-korperteile-3a8f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-fruhstuck-ce57",
+      "siblings": [
+        "mehr-weniger-bild-bild-fruhstuck-ce57"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-camping-546f",
+      "siblings": [
+        "mehr-weniger-bild-bild-camping-546f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-weihnachten-db92",
+      "siblings": [
+        "mehr-weniger-bild-bild-weihnachten-db92"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-klassenzimmer-5d3c",
+      "siblings": [
+        "mehr-weniger-bild-bild-klassenzimmer-5d3c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-kleidung-2d6f",
+      "siblings": [
+        "mehr-weniger-bild-bild-kleidung-2d6f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-farben-e00b",
+      "siblings": [
+        "mehr-weniger-bild-bild-farben-e00b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-desserts-und-sussigkeiten-fd68",
+      "siblings": [
+        "mehr-weniger-bild-bild-desserts-und-sussigkeiten-fd68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-dinosaurier-aa10",
+      "siblings": [
+        "mehr-weniger-bild-bild-dinosaurier-aa10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-ostern-970c",
+      "siblings": [
+        "mehr-weniger-bild-bild-ostern-970c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-emotionen-7af6",
+      "siblings": [
+        "mehr-weniger-bild-bild-emotionen-7af6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-bauernhoftiere-59e2",
+      "siblings": [
+        "mehr-weniger-bild-bild-bauernhoftiere-59e2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-blumen-419c",
+      "siblings": [
+        "mehr-weniger-bild-bild-blumen-419c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-waldtiere-50a4",
+      "siblings": [
+        "mehr-weniger-bild-bild-waldtiere-50a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-fruchte-e201",
+      "siblings": [
+        "mehr-weniger-bild-bild-fruchte-e201"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-mobel-b9f8",
+      "siblings": [
+        "mehr-weniger-bild-bild-mobel-b9f8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-krankenhaus-4a39",
+      "siblings": [
+        "mehr-weniger-bild-bild-krankenhaus-4a39"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-insekten-und-kafer-6fab",
+      "siblings": [
+        "mehr-weniger-bild-bild-insekten-und-kafer-6fab"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-kuchenwerkzeuge-cc2a",
+      "siblings": [
+        "mehr-weniger-bild-bild-kuchenwerkzeuge-cc2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-musik-06c9",
+      "siblings": [
+        "mehr-weniger-bild-bild-musik-06c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-berufe-f4b7",
+      "siblings": [
+        "mehr-weniger-bild-bild-berufe-f4b7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-meeresleben-955d",
+      "siblings": [
+        "mehr-weniger-bild-bild-meeresleben-955d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-haustiere-334f",
+      "siblings": [
+        "mehr-weniger-bild-bild-haustiere-334f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-postamt-95e5",
+      "siblings": [
+        "mehr-weniger-bild-bild-postamt-95e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-reptilien-und-amphibien-f42b",
+      "siblings": [
+        "mehr-weniger-bild-bild-reptilien-und-amphibien-f42b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-formen-96a4",
+      "siblings": [
+        "mehr-weniger-bild-bild-formen-96a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-weltraum-f17a",
+      "siblings": [
+        "mehr-weniger-bild-bild-weltraum-f17a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-fruhling-5860",
+      "siblings": [
+        "mehr-weniger-bild-bild-fruhling-5860"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-sommer-8b9f",
+      "siblings": [
+        "mehr-weniger-bild-bild-sommer-8b9f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-erntedankfest-1021",
+      "siblings": [
+        "mehr-weniger-bild-bild-erntedankfest-1021"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-dinge-die-fliegen-a120",
+      "siblings": [
+        "mehr-weniger-bild-bild-dinge-die-fliegen-a120"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-werkzeuge-4834",
+      "siblings": [
+        "mehr-weniger-bild-bild-werkzeuge-4834"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-spielzeug-cff5",
+      "siblings": [
+        "mehr-weniger-bild-bild-spielzeug-cff5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-baume-1427",
+      "siblings": [
+        "mehr-weniger-bild-bild-baume-1427"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-gemuse-48a0",
+      "siblings": [
+        "mehr-weniger-bild-bild-gemuse-48a0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-fahrzeuge-257b",
+      "siblings": [
+        "mehr-weniger-bild-bild-fahrzeuge-257b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-wetter-bcc4",
+      "siblings": [
+        "mehr-weniger-bild-bild-wetter-bcc4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-winter-445c",
+      "siblings": [
+        "mehr-weniger-bild-bild-winter-445c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-bild-zootiere-9e26",
+      "siblings": [
+        "mehr-weniger-bild-bild-zootiere-9e26"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-accessoires-5b3f",
+      "siblings": [
+        "mehr-weniger-bild-zahl-accessoires-5b3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-aktivitaten-1df1",
+      "siblings": [
+        "mehr-weniger-bild-zahl-aktivitaten-1df1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-tiere-4f79",
+      "siblings": [
+        "mehr-weniger-bild-zahl-tiere-4f79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-rund-ums-haus-36af",
+      "siblings": [
+        "mehr-weniger-bild-zahl-rund-ums-haus-36af"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-im-supermarkt-0f8e",
+      "siblings": [
+        "mehr-weniger-bild-zahl-im-supermarkt-0f8e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-backerei-833a",
+      "siblings": [
+        "mehr-weniger-bild-zahl-backerei-833a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-strand-5d8d",
+      "siblings": [
+        "mehr-weniger-bild-zahl-strand-5d8d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-vogel-8725",
+      "siblings": [
+        "mehr-weniger-bild-zahl-vogel-8725"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-vogel-2-abe5",
+      "siblings": [
+        "mehr-weniger-bild-zahl-vogel-2-abe5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-korperteile-25bd",
+      "siblings": [
+        "mehr-weniger-bild-zahl-korperteile-25bd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-fruhstuck-05f5",
+      "siblings": [
+        "mehr-weniger-bild-zahl-fruhstuck-05f5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-camping-a18f",
+      "siblings": [
+        "mehr-weniger-bild-zahl-camping-a18f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-weihnachten-2a4d",
+      "siblings": [
+        "mehr-weniger-bild-zahl-weihnachten-2a4d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-klassenzimmer-bc10",
+      "siblings": [
+        "mehr-weniger-bild-zahl-klassenzimmer-bc10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-kleidung-71e6",
+      "siblings": [
+        "mehr-weniger-bild-zahl-kleidung-71e6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-farben-eb71",
+      "siblings": [
+        "mehr-weniger-bild-zahl-farben-eb71"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-desserts-und-sussigkeiten-eee5",
+      "siblings": [
+        "mehr-weniger-bild-zahl-desserts-und-sussigkeiten-eee5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-dinosaurier-50b8",
+      "siblings": [
+        "mehr-weniger-bild-zahl-dinosaurier-50b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-ostern-d7b0",
+      "siblings": [
+        "mehr-weniger-bild-zahl-ostern-d7b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-emotionen-2a31",
+      "siblings": [
+        "mehr-weniger-bild-zahl-emotionen-2a31"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-bauernhoftiere-f836",
+      "siblings": [
+        "mehr-weniger-bild-zahl-bauernhoftiere-f836"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-blumen-1915",
+      "siblings": [
+        "mehr-weniger-bild-zahl-blumen-1915"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-waldtiere-f95d",
+      "siblings": [
+        "mehr-weniger-bild-zahl-waldtiere-f95d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-fruchte-1e10",
+      "siblings": [
+        "mehr-weniger-bild-zahl-fruchte-1e10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-mobel-9128",
+      "siblings": [
+        "mehr-weniger-bild-zahl-mobel-9128"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-krankenhaus-c26c",
+      "siblings": [
+        "mehr-weniger-bild-zahl-krankenhaus-c26c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-insekten-und-kafer-5bd6",
+      "siblings": [
+        "mehr-weniger-bild-zahl-insekten-und-kafer-5bd6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-kuchenwerkzeuge-f3cb",
+      "siblings": [
+        "mehr-weniger-bild-zahl-kuchenwerkzeuge-f3cb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-musik-16ed",
+      "siblings": [
+        "mehr-weniger-bild-zahl-musik-16ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-berufe-8399",
+      "siblings": [
+        "mehr-weniger-bild-zahl-berufe-8399"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-meeresleben-dc5e",
+      "siblings": [
+        "mehr-weniger-bild-zahl-meeresleben-dc5e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-haustiere-72d8",
+      "siblings": [
+        "mehr-weniger-bild-zahl-haustiere-72d8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-postamt-f6e4",
+      "siblings": [
+        "mehr-weniger-bild-zahl-postamt-f6e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-reptilien-und-amphibien-fa62",
+      "siblings": [
+        "mehr-weniger-bild-zahl-reptilien-und-amphibien-fa62"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-formen-f2ae",
+      "siblings": [
+        "mehr-weniger-bild-zahl-formen-f2ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-weltraum-9b5a",
+      "siblings": [
+        "mehr-weniger-bild-zahl-weltraum-9b5a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-fruhling-8674",
+      "siblings": [
+        "mehr-weniger-bild-zahl-fruhling-8674"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-sommer-a2c6",
+      "siblings": [
+        "mehr-weniger-bild-zahl-sommer-a2c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-erntedankfest-13bb",
+      "siblings": [
+        "mehr-weniger-bild-zahl-erntedankfest-13bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-dinge-die-fliegen-50b6",
+      "siblings": [
+        "mehr-weniger-bild-zahl-dinge-die-fliegen-50b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-werkzeuge-dff5",
+      "siblings": [
+        "mehr-weniger-bild-zahl-werkzeuge-dff5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-spielzeug-8b4e",
+      "siblings": [
+        "mehr-weniger-bild-zahl-spielzeug-8b4e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-baume-2bbc",
+      "siblings": [
+        "mehr-weniger-bild-zahl-baume-2bbc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-gemuse-d7ca",
+      "siblings": [
+        "mehr-weniger-bild-zahl-gemuse-d7ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-fahrzeuge-2d98",
+      "siblings": [
+        "mehr-weniger-bild-zahl-fahrzeuge-2d98"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-wetter-0f1d",
+      "siblings": [
+        "mehr-weniger-bild-zahl-wetter-0f1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-winter-e4eb",
+      "siblings": [
+        "mehr-weniger-bild-zahl-winter-e4eb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mehr-weniger-bild-zahl-zootiere-25ae",
+      "siblings": [
+        "mehr-weniger-bild-zahl-zootiere-25ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    }
+  ]
+}

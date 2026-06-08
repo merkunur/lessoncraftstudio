@@ -1,0 +1,565 @@
+{
+  "locale": "de",
+  "exerciseType": "alphabet-train",
+  "rawRowCount": 37,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 36
+  },
+  "totalValid": 36,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "hospital",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "buchstabenzug-accessoires-134d",
+      "siblings": [
+        "buchstabenzug-accessoires-134d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "buchstabenzug-aktivitaten-f298",
+      "siblings": [
+        "buchstabenzug-aktivitaten-f298"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "buchstabenzug-tiere",
+      "siblings": [
+        "buchstabenzug-tiere"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "buchstabenzug-rund-ums-haus-938b",
+      "siblings": [
+        "buchstabenzug-rund-ums-haus-938b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "buchstabenzug-im-supermarkt-e16f",
+      "siblings": [
+        "buchstabenzug-im-supermarkt-e16f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "buchstabenzug-strand-a14d",
+      "siblings": [
+        "buchstabenzug-strand-a14d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "buchstabenzug-vogel-2-31cb",
+      "siblings": [
+        "buchstabenzug-vogel-2-31cb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "buchstabenzug-korperteile-13c1",
+      "siblings": [
+        "buchstabenzug-korperteile-13c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "buchstabenzug-fruhstuck-75e3",
+      "siblings": [
+        "buchstabenzug-fruhstuck-75e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "buchstabenzug-camping-41c0",
+      "siblings": [
+        "buchstabenzug-camping-41c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "buchstabenzug-weihnachten-a411",
+      "siblings": [
+        "buchstabenzug-weihnachten-a411"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "buchstabenzug-klassenzimmer-cfa2",
+      "siblings": [
+        "buchstabenzug-klassenzimmer-cfa2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "buchstabenzug-kleidung-1871",
+      "siblings": [
+        "buchstabenzug-kleidung-1871"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "buchstabenzug-desserts-und-sussigkeiten-98f3",
+      "siblings": [
+        "buchstabenzug-desserts-und-sussigkeiten-98f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "buchstabenzug-ostern-46e2",
+      "siblings": [
+        "buchstabenzug-ostern-46e2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "buchstabenzug-emotionen-b7bb",
+      "siblings": [
+        "buchstabenzug-emotionen-b7bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "buchstabenzug-bauernhoftiere-68fc",
+      "siblings": [
+        "buchstabenzug-bauernhoftiere-68fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "buchstabenzug-waldtiere-3fa9",
+      "siblings": [
+        "buchstabenzug-waldtiere-3fa9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "buchstabenzug-fruchte-0964",
+      "siblings": [
+        "buchstabenzug-fruchte-0964"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "buchstabenzug-krankenhaus-52e9",
+      "siblings": [
+        "buchstabenzug-krankenhaus-52e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "buchstabenzug-kuchenwerkzeuge-02e4",
+      "siblings": [
+        "buchstabenzug-kuchenwerkzeuge-02e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "buchstabenzug-musik-593b",
+      "siblings": [
+        "buchstabenzug-musik-593b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "buchstabenzug-berufe-c650",
+      "siblings": [
+        "buchstabenzug-berufe-c650"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "buchstabenzug-meeresleben-cfd3",
+      "siblings": [
+        "buchstabenzug-meeresleben-cfd3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "buchstabenzug-haustiere-f77b",
+      "siblings": [
+        "buchstabenzug-haustiere-f77b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "buchstabenzug-formen-bd91",
+      "siblings": [
+        "buchstabenzug-formen-bd91"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "buchstabenzug-fruhling-65cd",
+      "siblings": [
+        "buchstabenzug-fruhling-65cd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "buchstabenzug-sommer-a903",
+      "siblings": [
+        "buchstabenzug-sommer-a903"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "buchstabenzug-erntedankfest-bbdf",
+      "siblings": [
+        "buchstabenzug-erntedankfest-bbdf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "buchstabenzug-dinge-die-fliegen-fcf8",
+      "siblings": [
+        "buchstabenzug-dinge-die-fliegen-fcf8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "buchstabenzug-werkzeuge-0bad",
+      "siblings": [
+        "buchstabenzug-werkzeuge-0bad"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "buchstabenzug-spielzeug-3d6d",
+      "siblings": [
+        "buchstabenzug-spielzeug-3d6d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "buchstabenzug-gemuse-2ddf",
+      "siblings": [
+        "buchstabenzug-gemuse-2ddf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "buchstabenzug-fahrzeuge-6730",
+      "siblings": [
+        "buchstabenzug-fahrzeuge-6730"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "buchstabenzug-winter-49f0",
+      "siblings": [
+        "buchstabenzug-winter-49f0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "buchstabenzug-zootiere-902c",
+      "siblings": [
+        "buchstabenzug-zootiere-902c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    }
+  ]
+}

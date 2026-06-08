@@ -1,0 +1,700 @@
+{
+  "locale": "de",
+  "exerciseType": "pattern-worksheet",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 45
+  },
+  "totalValid": 45,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-accessoires-a84e",
+      "siblings": [
+        "muster-arbeitsblatt-accessoires-a84e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-aktivitaten-35d9",
+      "siblings": [
+        "muster-arbeitsblatt-aktivitaten-35d9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-tiere-e989",
+      "siblings": [
+        "muster-arbeitsblatt-tiere-e989"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-rund-ums-haus-5279",
+      "siblings": [
+        "muster-arbeitsblatt-rund-ums-haus-5279"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-im-supermarkt-4bde",
+      "siblings": [
+        "muster-arbeitsblatt-im-supermarkt-4bde"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-backerei-742b",
+      "siblings": [
+        "muster-arbeitsblatt-backerei-742b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-strand-02db",
+      "siblings": [
+        "muster-arbeitsblatt-strand-02db"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-vogel-790e",
+      "siblings": [
+        "muster-arbeitsblatt-vogel-790e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-vogel-2-db1e",
+      "siblings": [
+        "muster-arbeitsblatt-vogel-2-db1e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-korperteile-77e3",
+      "siblings": [
+        "muster-arbeitsblatt-korperteile-77e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-fruhstuck-bce5",
+      "siblings": [
+        "muster-arbeitsblatt-fruhstuck-bce5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-camping-87fc",
+      "siblings": [
+        "muster-arbeitsblatt-camping-87fc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-klassenzimmer-b20e",
+      "siblings": [
+        "muster-arbeitsblatt-klassenzimmer-b20e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-kleidung-8781",
+      "siblings": [
+        "muster-arbeitsblatt-kleidung-8781"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-farben-797b",
+      "siblings": [
+        "muster-arbeitsblatt-farben-797b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7",
+      "siblings": [
+        "muster-arbeitsblatt-desserts-und-sussigkeiten-31b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-dinosaurier-5cda",
+      "siblings": [
+        "muster-arbeitsblatt-dinosaurier-5cda"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-ostern-4213",
+      "siblings": [
+        "muster-arbeitsblatt-ostern-4213"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-emotionen-7bbb",
+      "siblings": [
+        "muster-arbeitsblatt-emotionen-7bbb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-bauernhoftiere-840c",
+      "siblings": [
+        "muster-arbeitsblatt-bauernhoftiere-840c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-blumen-c2b5",
+      "siblings": [
+        "muster-arbeitsblatt-blumen-c2b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-waldtiere-084e",
+      "siblings": [
+        "muster-arbeitsblatt-waldtiere-084e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-fruchte-5c57",
+      "siblings": [
+        "muster-arbeitsblatt-fruchte-5c57"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-mobel-70f0",
+      "siblings": [
+        "muster-arbeitsblatt-mobel-70f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-krankenhaus-81fc",
+      "siblings": [
+        "muster-arbeitsblatt-krankenhaus-81fc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-insekten-und-kafer-172b",
+      "siblings": [
+        "muster-arbeitsblatt-insekten-und-kafer-172b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-kuchenwerkzeuge-083f",
+      "siblings": [
+        "muster-arbeitsblatt-kuchenwerkzeuge-083f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-musik-242b",
+      "siblings": [
+        "muster-arbeitsblatt-musik-242b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-berufe-158f",
+      "siblings": [
+        "muster-arbeitsblatt-berufe-158f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-meeresleben-8317",
+      "siblings": [
+        "muster-arbeitsblatt-meeresleben-8317"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-haustiere-54f1",
+      "siblings": [
+        "muster-arbeitsblatt-haustiere-54f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-postamt-8034",
+      "siblings": [
+        "muster-arbeitsblatt-postamt-8034"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-formen-43ee",
+      "siblings": [
+        "muster-arbeitsblatt-formen-43ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-fruhling-8e24",
+      "siblings": [
+        "muster-arbeitsblatt-fruhling-8e24"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-sommer-0604",
+      "siblings": [
+        "muster-arbeitsblatt-sommer-0604"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-erntedankfest-4141",
+      "siblings": [
+        "muster-arbeitsblatt-erntedankfest-4141"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-dinge-die-fliegen-873f",
+      "siblings": [
+        "muster-arbeitsblatt-dinge-die-fliegen-873f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-werkzeuge-ba41",
+      "siblings": [
+        "muster-arbeitsblatt-werkzeuge-ba41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-spielzeug-8b89",
+      "siblings": [
+        "muster-arbeitsblatt-spielzeug-8b89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-baume-7019",
+      "siblings": [
+        "muster-arbeitsblatt-baume-7019"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-gemuse-8284",
+      "siblings": [
+        "muster-arbeitsblatt-gemuse-8284"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-fahrzeuge-d425",
+      "siblings": [
+        "muster-arbeitsblatt-fahrzeuge-d425"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-wetter-db86",
+      "siblings": [
+        "muster-arbeitsblatt-wetter-db86"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-winter-d49d",
+      "siblings": [
+        "muster-arbeitsblatt-winter-d49d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "muster-arbeitsblatt-zootiere-b983",
+      "siblings": [
+        "muster-arbeitsblatt-zootiere-b983"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true
+    }
+  ]
+}

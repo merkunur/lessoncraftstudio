@@ -1,0 +1,731 @@
+{
+  "locale": "de",
+  "exerciseType": "grid-match",
+  "rawRowCount": 49,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 47
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gitter-zuordnung-accessoires-3026",
+      "siblings": [
+        "gitter-zuordnung-accessoires-3026"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gitter-zuordnung-aktivitaten-9095",
+      "siblings": [
+        "gitter-zuordnung-aktivitaten-9095"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "gitter-zuordnung-tiere",
+      "siblings": [
+        "gitter-zuordnung-tiere",
+        "gitter-zuordnung-tiere-8057"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gitter-zuordnung-rund-ums-haus-3014",
+      "siblings": [
+        "gitter-zuordnung-rund-ums-haus-3014"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gitter-zuordnung-im-supermarkt-1dcf",
+      "siblings": [
+        "gitter-zuordnung-im-supermarkt-1dcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gitter-zuordnung-backerei-1545",
+      "siblings": [
+        "gitter-zuordnung-backerei-1545"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gitter-zuordnung-strand-de05",
+      "siblings": [
+        "gitter-zuordnung-strand-de05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gitter-zuordnung-vogel-2ab2",
+      "siblings": [
+        "gitter-zuordnung-vogel-2ab2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gitter-zuordnung-vogel-2-265d",
+      "siblings": [
+        "gitter-zuordnung-vogel-2-265d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gitter-zuordnung-korperteile-2c7b",
+      "siblings": [
+        "gitter-zuordnung-korperteile-2c7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gitter-zuordnung-fruhstuck-a498",
+      "siblings": [
+        "gitter-zuordnung-fruhstuck-a498"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gitter-zuordnung-camping-077d",
+      "siblings": [
+        "gitter-zuordnung-camping-077d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gitter-zuordnung-weihnachten-76ca",
+      "siblings": [
+        "gitter-zuordnung-weihnachten-76ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gitter-zuordnung-klassenzimmer-91cd",
+      "siblings": [
+        "gitter-zuordnung-klassenzimmer-91cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gitter-zuordnung-kleidung-8d9f",
+      "siblings": [
+        "gitter-zuordnung-kleidung-8d9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gitter-zuordnung-desserts-und-sussigkeiten-421d",
+      "siblings": [
+        "gitter-zuordnung-desserts-und-sussigkeiten-421d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "gitter-zuordnung-dinosaurier-c33c",
+      "siblings": [
+        "gitter-zuordnung-dinosaurier-c33c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gitter-zuordnung-ostern-20ee",
+      "siblings": [
+        "gitter-zuordnung-ostern-20ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gitter-zuordnung-emotionen-aa7d",
+      "siblings": [
+        "gitter-zuordnung-emotionen-aa7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gitter-zuordnung-bauernhoftiere-9368",
+      "siblings": [
+        "gitter-zuordnung-bauernhoftiere-9368"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gitter-zuordnung-blumen-0126",
+      "siblings": [
+        "gitter-zuordnung-blumen-0126"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gitter-zuordnung-waldtiere-b066",
+      "siblings": [
+        "gitter-zuordnung-waldtiere-b066"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gitter-zuordnung-fruchte-007c",
+      "siblings": [
+        "gitter-zuordnung-fruchte-007c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gitter-zuordnung-mobel-ef6e",
+      "siblings": [
+        "gitter-zuordnung-mobel-ef6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gitter-zuordnung-krankenhaus-1b1a",
+      "siblings": [
+        "gitter-zuordnung-krankenhaus-1b1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gitter-zuordnung-insekten-und-kafer-b96d",
+      "siblings": [
+        "gitter-zuordnung-insekten-und-kafer-b96d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gitter-zuordnung-kuchenwerkzeuge-40a7",
+      "siblings": [
+        "gitter-zuordnung-kuchenwerkzeuge-40a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gitter-zuordnung-musik-ea48",
+      "siblings": [
+        "gitter-zuordnung-musik-ea48"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gitter-zuordnung-berufe-584f",
+      "siblings": [
+        "gitter-zuordnung-berufe-584f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gitter-zuordnung-meeresleben-18aa",
+      "siblings": [
+        "gitter-zuordnung-meeresleben-18aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gitter-zuordnung-haustiere-fcb9",
+      "siblings": [
+        "gitter-zuordnung-haustiere-fcb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gitter-zuordnung-postamt-ccd4",
+      "siblings": [
+        "gitter-zuordnung-postamt-ccd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gitter-zuordnung-reptilien-und-amphibien-9bf0",
+      "siblings": [
+        "gitter-zuordnung-reptilien-und-amphibien-9bf0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gitter-zuordnung-formen-f443",
+      "siblings": [
+        "gitter-zuordnung-formen-f443"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gitter-zuordnung-weltraum-ff76",
+      "siblings": [
+        "gitter-zuordnung-weltraum-ff76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gitter-zuordnung-fruhling-2a6b",
+      "siblings": [
+        "gitter-zuordnung-fruhling-2a6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gitter-zuordnung-sommer-0634",
+      "siblings": [
+        "gitter-zuordnung-sommer-0634"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gitter-zuordnung-erntedankfest-c02b",
+      "siblings": [
+        "gitter-zuordnung-erntedankfest-c02b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gitter-zuordnung-dinge-die-fliegen-69c2",
+      "siblings": [
+        "gitter-zuordnung-dinge-die-fliegen-69c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gitter-zuordnung-werkzeuge-aac9",
+      "siblings": [
+        "gitter-zuordnung-werkzeuge-aac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gitter-zuordnung-spielzeug-e77f",
+      "siblings": [
+        "gitter-zuordnung-spielzeug-e77f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gitter-zuordnung-baume-0f87",
+      "siblings": [
+        "gitter-zuordnung-baume-0f87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gitter-zuordnung-gemuse-d88c",
+      "siblings": [
+        "gitter-zuordnung-gemuse-d88c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gitter-zuordnung-fahrzeuge-a99d",
+      "siblings": [
+        "gitter-zuordnung-fahrzeuge-a99d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gitter-zuordnung-wetter-86ff",
+      "siblings": [
+        "gitter-zuordnung-wetter-86ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gitter-zuordnung-winter-af35",
+      "siblings": [
+        "gitter-zuordnung-winter-af35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gitter-zuordnung-zootiere-da0a",
+      "siblings": [
+        "gitter-zuordnung-zootiere-da0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

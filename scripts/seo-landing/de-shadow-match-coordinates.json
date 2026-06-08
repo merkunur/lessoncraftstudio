@@ -1,0 +1,1410 @@
+{
+  "locale": "de",
+  "exerciseType": "shadow-match",
+  "rawRowCount": 143,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 45,
+    "make-whole": 47
+  },
+  "totalValid": 92,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 48,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-accessoires-6b4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-aktivitaten-d78e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-tiere",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-tiere",
+        "schatten-zuordnen-schatten-zuordnen-tiere-1acd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-rund-ums-haus-e4d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-im-supermarkt-0768"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-backerei-2645",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-backerei-2645"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-strand-57dc",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-strand-57dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-vogel-9062",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-vogel-9062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-vogel-2-7881",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-vogel-2-7881"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-korperteile-49b5",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-korperteile-49b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-fruhstuck-ade6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-camping-36bc",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-camping-36bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-weihnachten-8077",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-weihnachten-8077"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-klassenzimmer-ac19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-kleidung-b357",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-kleidung-b357"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-desserts-und-sussigkeiten-1f7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-dinosaurier-60f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-ostern-a4ce",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-ostern-a4ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-bauernhoftiere-7ac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-blumen-e858",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-blumen-e858"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-waldtiere-a6ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-fruchte-0159",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-fruchte-0159"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-mobel-5a36",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-mobel-5a36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-krankenhaus-3363"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-insekten-und-kafer-4515"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-kuchenwerkzeuge-48be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-musik-0266",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-musik-0266"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-berufe-6db2",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-berufe-6db2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-meeresleben-8419",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-meeresleben-8419"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-haustiere-0bfc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-postamt-da0c",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-postamt-da0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-reptilien-und-amphibien-8d6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-weltraum-27e5",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-weltraum-27e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-fruhling-439c",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-fruhling-439c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-sommer-8b75",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-sommer-8b75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-erntedankfest-7561"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-dinge-die-fliegen-75d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-werkzeuge-88dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-spielzeug-c723",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-spielzeug-c723"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-baume-13fb",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-baume-13fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-gemuse-105b",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-gemuse-105b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-fahrzeuge-4325"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-wetter-f1ec",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-wetter-f1ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-winter-bca2",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-winter-bca2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a",
+      "siblings": [
+        "schatten-zuordnen-schatten-zuordnen-zootiere-8f4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-accessoires-4437",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-accessoires-4437",
+        "schatten-zuordnen-ganz-machen-accessoires-a615"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-aktivitaten-9110",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-aktivitaten-9110",
+        "schatten-zuordnen-ganz-machen-aktivitaten-4033"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-tiere-77a3",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-tiere-77a3",
+        "schatten-zuordnen-ganz-machen-tiere-c7a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-rund-ums-haus-0b22",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-rund-ums-haus-0b22",
+        "schatten-zuordnen-ganz-machen-rund-ums-haus-dc94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-im-supermarkt-4a93",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-im-supermarkt-4a93",
+        "schatten-zuordnen-ganz-machen-im-supermarkt-62d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-backerei-49d2",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-backerei-49d2",
+        "schatten-zuordnen-ganz-machen-backerei-b39e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-strand-cf45",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-strand-cf45",
+        "schatten-zuordnen-ganz-machen-strand-9a54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-vogel-3818",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-vogel-3818",
+        "schatten-zuordnen-ganz-machen-vogel-0bf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-vogel-2-96c0",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-vogel-2-96c0",
+        "schatten-zuordnen-ganz-machen-vogel-2-d679"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-korperteile-ca69",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-korperteile-ca69",
+        "schatten-zuordnen-ganz-machen-korperteile-2641"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-fruhstuck-123b",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-fruhstuck-123b",
+        "schatten-zuordnen-ganz-machen-fruhstuck-3c23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-camping-7628",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-camping-7628",
+        "schatten-zuordnen-ganz-machen-camping-f9b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-weihnachten-f1b3",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-weihnachten-f1b3",
+        "schatten-zuordnen-ganz-machen-weihnachten-f4ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-klassenzimmer-d725",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-klassenzimmer-d725",
+        "schatten-zuordnen-ganz-machen-klassenzimmer-88b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-kleidung-7497",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-kleidung-7497",
+        "schatten-zuordnen-ganz-machen-kleidung-3a80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-desserts-und-sussigkeiten-2e99",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-desserts-und-sussigkeiten-2e99",
+        "schatten-zuordnen-ganz-machen-desserts-und-sussigkeiten-df78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-dinosaurier-b787",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-dinosaurier-b787",
+        "schatten-zuordnen-ganz-machen-dinosaurier-6071"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-ostern-84db",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-ostern-84db",
+        "schatten-zuordnen-ganz-machen-ostern-8b6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-emotionen-a018",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-emotionen-a018",
+        "schatten-zuordnen-ganz-machen-emotionen-e84c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-bauernhoftiere-8577",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-bauernhoftiere-8577",
+        "schatten-zuordnen-ganz-machen-bauernhoftiere-18a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-blumen-7585",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-blumen-7585",
+        "schatten-zuordnen-ganz-machen-blumen-a00c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-waldtiere-c415",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-waldtiere-c415",
+        "schatten-zuordnen-ganz-machen-waldtiere-1069"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-fruchte-396e",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-fruchte-396e",
+        "schatten-zuordnen-ganz-machen-fruchte-ab26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-mobel-9e43",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-mobel-9e43",
+        "schatten-zuordnen-ganz-machen-mobel-f2e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-krankenhaus-66f0",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-krankenhaus-66f0",
+        "schatten-zuordnen-ganz-machen-krankenhaus-5ab7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-insekten-und-kafer-15e0",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-insekten-und-kafer-15e0",
+        "schatten-zuordnen-ganz-machen-insekten-und-kafer-b2e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-kuchenwerkzeuge-bfcb",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-kuchenwerkzeuge-bfcb",
+        "schatten-zuordnen-ganz-machen-kuchenwerkzeuge-bcd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-musik-b6a3",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-musik-b6a3",
+        "schatten-zuordnen-ganz-machen-musik-1d08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-berufe-c0ba",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-berufe-c0ba",
+        "schatten-zuordnen-ganz-machen-berufe-c174"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-meeresleben-7a02",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-meeresleben-7a02",
+        "schatten-zuordnen-ganz-machen-meeresleben-a36b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-haustiere-c811",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-haustiere-c811",
+        "schatten-zuordnen-ganz-machen-haustiere-de0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-postamt-fda8",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-postamt-fda8",
+        "schatten-zuordnen-ganz-machen-postamt-88b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-reptilien-und-amphibien-5890",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-reptilien-und-amphibien-5890",
+        "schatten-zuordnen-ganz-machen-reptilien-und-amphibien-a84d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-formen-7455",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-formen-7455",
+        "schatten-zuordnen-ganz-machen-formen-c1dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-weltraum-5a2f",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-weltraum-5a2f",
+        "schatten-zuordnen-ganz-machen-weltraum-e52a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-fruhling-6eb5",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-fruhling-6eb5",
+        "schatten-zuordnen-ganz-machen-fruhling-d7a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-sommer-d2b8",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-sommer-d2b8",
+        "schatten-zuordnen-ganz-machen-sommer-3abf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-erntedankfest-3f1a",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-erntedankfest-3f1a",
+        "schatten-zuordnen-ganz-machen-erntedankfest-c1a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-dinge-die-fliegen-73a9",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-dinge-die-fliegen-73a9",
+        "schatten-zuordnen-ganz-machen-dinge-die-fliegen-cf3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-werkzeuge-4a71",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-werkzeuge-4a71",
+        "schatten-zuordnen-ganz-machen-werkzeuge-3bef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-spielzeug-99f4",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-spielzeug-99f4",
+        "schatten-zuordnen-ganz-machen-spielzeug-52e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-baume-7106",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-baume-7106",
+        "schatten-zuordnen-ganz-machen-baume-681f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-gemuse-2fae",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-gemuse-2fae",
+        "schatten-zuordnen-ganz-machen-gemuse-0b9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-fahrzeuge-c26b",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-fahrzeuge-c26b",
+        "schatten-zuordnen-ganz-machen-fahrzeuge-8696"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-wetter-bafb",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-wetter-bafb",
+        "schatten-zuordnen-ganz-machen-wetter-9abe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-winter-e25a",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-winter-e25a",
+        "schatten-zuordnen-ganz-machen-winter-f4d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "schatten-zuordnen-ganz-machen-zootiere-5fa6",
+      "siblings": [
+        "schatten-zuordnen-ganz-machen-zootiere-5fa6",
+        "schatten-zuordnen-ganz-machen-zootiere-095a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

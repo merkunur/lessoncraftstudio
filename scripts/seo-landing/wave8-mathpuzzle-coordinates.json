@@ -1,0 +1,371 @@
+{
+  "_note": "Wave 8 LEAD — math-puzzle/mixed Gr2 x EN, STANDARD 2.NBT.B.5 (Number & Operations in Base Ten). Full-corpus re-grade: 49 coords -> 16 Gr1(skip) + 33 Gr2(21-25) + 0 Gr3. Authorable=33 (33 Gr2 minus B&W no-copy-data). within-100/two-digit, NOT Gr1 within-20.",
+  "count": 33,
+  "gr2Total": 33,
+  "coordinates": [
+    {
+      "mode": "mixed",
+      "theme": "4th_of_july",
+      "slugTheme": "4th-of-july",
+      "canonical": "math-puzzle-4th-of-july",
+      "siblings": [
+        "math-puzzle-4th-of-july",
+        "math-puzzle-4th-of-july-2",
+        "math-puzzle-4th-of-july-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "canonical": "math-puzzle-accessories",
+      "siblings": [
+        "math-puzzle-accessories",
+        "math-puzzle-accessories-2",
+        "math-puzzle-accessories-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "canonical": "math-puzzle",
+      "siblings": [
+        "math-puzzle",
+        "math-puzzle-animals",
+        "math-puzzle-animals-2",
+        "math-puzzle-animals-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "canonical": "math-puzzle-around-the-house",
+      "siblings": [
+        "math-puzzle-around-the-house",
+        "math-puzzle-around-the-house-2",
+        "math-puzzle-around-the-house-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "canonical": "math-puzzle-bakery",
+      "siblings": [
+        "math-puzzle-bakery",
+        "math-puzzle-bakery-2",
+        "math-puzzle-bakery-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "canonical": "math-puzzle-beach",
+      "siblings": [
+        "math-puzzle-beach",
+        "math-puzzle-beach-2",
+        "math-puzzle-beach-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "canonical": "math-puzzle-birds",
+      "siblings": [
+        "math-puzzle-birds",
+        "math-puzzle-birds-3",
+        "math-puzzle-birds-4"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "canonical": "math-puzzle-birds-2",
+      "siblings": [
+        "math-puzzle-birds-2",
+        "math-puzzle-birds-2-2",
+        "math-puzzle-birds-2-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "canonical": "math-puzzle-body-parts",
+      "siblings": [
+        "math-puzzle-body-parts",
+        "math-puzzle-body-parts-2",
+        "math-puzzle-body-parts-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "canonical": "math-puzzle-breakfast",
+      "siblings": [
+        "math-puzzle-breakfast",
+        "math-puzzle-breakfast-2",
+        "math-puzzle-breakfast-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "canonical": "math-puzzle-christmas",
+      "siblings": [
+        "math-puzzle-christmas",
+        "math-puzzle-christmas-2",
+        "math-puzzle-christmas-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "canonical": "math-puzzle-classroom",
+      "siblings": [
+        "math-puzzle-classroom",
+        "math-puzzle-classroom-2",
+        "math-puzzle-classroom-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "canonical": "math-puzzle-clothing",
+      "siblings": [
+        "math-puzzle-clothing",
+        "math-puzzle-clothing-2",
+        "math-puzzle-clothing-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "canonical": "math-puzzle-desserts-and-sweets",
+      "siblings": [
+        "math-puzzle-desserts-and-sweets",
+        "math-puzzle-desserts-and-sweets-2",
+        "math-puzzle-desserts-and-sweets-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "canonical": "math-puzzle-dinosaurs",
+      "siblings": [
+        "math-puzzle-dinosaurs",
+        "math-puzzle-dinosaurs-2",
+        "math-puzzle-dinosaurs-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "canonical": "math-puzzle-emotions",
+      "siblings": [
+        "math-puzzle-emotions",
+        "math-puzzle-emotions-2",
+        "math-puzzle-emotions-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "canonical": "math-puzzle-forest-creatures",
+      "siblings": [
+        "math-puzzle-forest-creatures",
+        "math-puzzle-forest-creatures-2",
+        "math-puzzle-forest-creatures-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "canonical": "math-puzzle-fruits",
+      "siblings": [
+        "math-puzzle-fruits",
+        "math-puzzle-fruits-2",
+        "math-puzzle-fruits-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "canonical": "math-puzzle-hospital",
+      "siblings": [
+        "math-puzzle-hospital",
+        "math-puzzle-hospital-2",
+        "math-puzzle-hospital-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "canonical": "math-puzzle-insects-and-bugs",
+      "siblings": [
+        "math-puzzle-insects-and-bugs",
+        "math-puzzle-insects-and-bugs-2",
+        "math-puzzle-insects-and-bugs-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "canonical": "math-puzzle-music",
+      "siblings": [
+        "math-puzzle-music",
+        "math-puzzle-music-2",
+        "math-puzzle-music-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "canonical": "math-puzzle-occupations",
+      "siblings": [
+        "math-puzzle-occupations",
+        "math-puzzle-occupations-2",
+        "math-puzzle-occupations-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "canonical": "math-puzzle-ocean-life",
+      "siblings": [
+        "math-puzzle-ocean-life",
+        "math-puzzle-ocean-life-2",
+        "math-puzzle-ocean-life-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "canonical": "math-puzzle-pets",
+      "siblings": [
+        "math-puzzle-pets",
+        "math-puzzle-pets-2",
+        "math-puzzle-pets-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "canonical": "math-puzzle-post-office",
+      "siblings": [
+        "math-puzzle-post-office",
+        "math-puzzle-post-office-2",
+        "math-puzzle-post-office-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "canonical": "math-puzzle-space",
+      "siblings": [
+        "math-puzzle-space",
+        "math-puzzle-space-2",
+        "math-puzzle-space-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "canonical": "math-puzzle-thanksgiving",
+      "siblings": [
+        "math-puzzle-thanksgiving",
+        "math-puzzle-thanksgiving-2",
+        "math-puzzle-thanksgiving-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "canonical": "math-puzzle-tools",
+      "siblings": [
+        "math-puzzle-tools",
+        "math-puzzle-tools-2",
+        "math-puzzle-tools-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "canonical": "math-puzzle-toys",
+      "siblings": [
+        "math-puzzle-toys",
+        "math-puzzle-toys-2",
+        "math-puzzle-toys-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "canonical": "math-puzzle-tree",
+      "siblings": [
+        "math-puzzle-tree",
+        "math-puzzle-tree-2",
+        "math-puzzle-tree-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "canonical": "math-puzzle-vehicles",
+      "siblings": [
+        "math-puzzle-vehicles",
+        "math-puzzle-vehicles-2",
+        "math-puzzle-vehicles-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "canonical": "math-puzzle-winter",
+      "siblings": [
+        "math-puzzle-winter",
+        "math-puzzle-winter-2",
+        "math-puzzle-winter-3"
+      ]
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "canonical": "math-puzzle-zoo-animals",
+      "siblings": [
+        "math-puzzle-zoo-animals",
+        "math-puzzle-zoo-animals-2",
+        "math-puzzle-zoo-animals-3"
+      ]
+    }
+  ]
+}

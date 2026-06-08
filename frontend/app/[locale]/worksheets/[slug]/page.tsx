@@ -134,8 +134,11 @@ export default function WorksheetLandingPage(
     { name: l.h1, path: localePath(locale, 'worksheets', l.slug) },
   ]);
 
-  // Per-entry educational level (Wave 3 — first non-K wave). Drives JSON-LD level/age + the level chip.
-  // Defaults to kindergarten so existing K landings are unchanged.
+  // Per-entry educational level. SINGLE band via coordinate.level, OR an honest grade
+  // SPAN via l.levels (ordered low→high band keys) when a worksheet genuinely suits >1
+  // grade. Span → range chip ("Kindergarten–Grade 1") + array educationalLevel + range
+  // typicalAgeRange. Absent l.levels → single-band path is byte-equivalent to before
+  // (zero regression to shipped single-band landings). Defaults to kindergarten.
   const LEVELS: Record<string, { chip: string; schema: string; age: string }> = {
     'preschool': { chip: 'Preschool', schema: 'Preschool', age: '3-4' },
     'kindergarten': { chip: 'Kindergarten', schema: 'Kindergarten', age: '5-6' },
@@ -146,7 +149,18 @@ export default function WorksheetLandingPage(
     '1-klasse': { chip: '1. Klasse', schema: '1. Klasse', age: '6-7' },
     '2-klasse': { chip: '2. Klasse', schema: '2. Klasse', age: '7-8' },
   };
-  const lvl = LEVELS[l.coordinate.level] || LEVELS['kindergarten'];
+  const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
+  const _bands = _bandKeys.map((k) => LEVELS[k]).filter(Boolean);
+  const _safe = _bands.length ? _bands : [LEVELS['kindergarten']];
+  const _isSpan = _safe.length > 1;
+  const _lo = _safe[0];
+  const _hi = _safe[_safe.length - 1];
+  const lvl = {
+    chip: _isSpan ? `${_lo.chip}–${_hi.chip}` : _lo.chip,
+    age: _isSpan ? `${_lo.age.split('-')[0]}-${_hi.age.split('-')[1]}` : _lo.age,
+  };
+  // schema.org educationalLevel: single string (single band) or array (span).
+  const educationalLevelValue: string | string[] = _isSpan ? _safe.map((b) => b.schema) : _lo.schema;
 
   const learningResource = {
     '@context': 'https://schema.org',
@@ -157,7 +171,7 @@ export default function WorksheetLandingPage(
     inLanguage: locale,
     isAccessibleForFree: true,
     learningResourceType: 'Worksheet',
-    educationalLevel: lvl.schema,
+    educationalLevel: educationalLevelValue,
     typicalAgeRange: lvl.age,
     teaches: l.strand,
     image: a.thumbnail,

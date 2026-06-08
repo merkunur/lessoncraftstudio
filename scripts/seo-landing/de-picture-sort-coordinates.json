@@ -1,0 +1,279 @@
+{
+  "_note": "DE picture-sort -vs- (Sortieren und Klassifizieren, Vorschule, NO alignment). de-native demand-cap: left in {bakery, farm_animals} = the 2 highest-recognition Vorschule sort categories (39 of 99 candidate pairs; drops accessories/flowers/tree). canonical = deck slug.",
+  "count": 39,
+  "coordinates": [
+    {
+      "pairKey": "bakery-vs-animals",
+      "left": "bakery",
+      "right": "animals",
+      "slug": "bildersortierung-bakery-vs-animals-0dd6",
+      "canonical": "bildersortierung-bakery-vs-animals-0dd6"
+    },
+    {
+      "pairKey": "bakery-vs-around_the_house",
+      "left": "bakery",
+      "right": "around_the_house",
+      "slug": "bildersortierung-bakery-vs-around-the-house-3d36",
+      "canonical": "bildersortierung-bakery-vs-around-the-house-3d36"
+    },
+    {
+      "pairKey": "bakery-vs-beach",
+      "left": "bakery",
+      "right": "beach",
+      "slug": "bildersortierung-bakery-vs-beach-bf21",
+      "canonical": "bildersortierung-bakery-vs-beach-bf21"
+    },
+    {
+      "pairKey": "bakery-vs-birds",
+      "left": "bakery",
+      "right": "birds",
+      "slug": "bildersortierung-bakery-vs-birds-f0d8",
+      "canonical": "bildersortierung-bakery-vs-birds-f0d8"
+    },
+    {
+      "pairKey": "bakery-vs-body_parts",
+      "left": "bakery",
+      "right": "body_parts",
+      "slug": "bildersortierung-bakery-vs-body-parts-98fa",
+      "canonical": "bildersortierung-bakery-vs-body-parts-98fa"
+    },
+    {
+      "pairKey": "bakery-vs-camping",
+      "left": "bakery",
+      "right": "camping",
+      "slug": "bildersortierung-bakery-vs-camping-8794",
+      "canonical": "bildersortierung-bakery-vs-camping-8794"
+    },
+    {
+      "pairKey": "bakery-vs-christmas",
+      "left": "bakery",
+      "right": "christmas",
+      "slug": "bildersortierung-bakery-vs-christmas-888e",
+      "canonical": "bildersortierung-bakery-vs-christmas-888e"
+    },
+    {
+      "pairKey": "bakery-vs-classroom",
+      "left": "bakery",
+      "right": "classroom",
+      "slug": "bildersortierung-bakery-vs-classroom-9b17",
+      "canonical": "bildersortierung-bakery-vs-classroom-9b17"
+    },
+    {
+      "pairKey": "bakery-vs-clothing",
+      "left": "bakery",
+      "right": "clothing",
+      "slug": "bildersortierung-bakery-vs-clothing-5fbb",
+      "canonical": "bildersortierung-bakery-vs-clothing-5fbb"
+    },
+    {
+      "pairKey": "bakery-vs-dinosaurs",
+      "left": "bakery",
+      "right": "dinosaurs",
+      "slug": "bildersortierung-bakery-vs-dinosaurs-6236",
+      "canonical": "bildersortierung-bakery-vs-dinosaurs-6236"
+    },
+    {
+      "pairKey": "bakery-vs-easter",
+      "left": "bakery",
+      "right": "easter",
+      "slug": "bildersortierung-bakery-vs-easter-5eeb",
+      "canonical": "bildersortierung-bakery-vs-easter-5eeb"
+    },
+    {
+      "pairKey": "bakery-vs-farm_animals",
+      "left": "bakery",
+      "right": "farm_animals",
+      "slug": "bildersortierung-bakery-vs-farm-animals-3398",
+      "canonical": "bildersortierung-bakery-vs-farm-animals-3398"
+    },
+    {
+      "pairKey": "bakery-vs-flowers",
+      "left": "bakery",
+      "right": "flowers",
+      "slug": "bildersortierung-bakery-vs-flowers-7ad5",
+      "canonical": "bildersortierung-bakery-vs-flowers-7ad5"
+    },
+    {
+      "pairKey": "bakery-vs-fruits",
+      "left": "bakery",
+      "right": "fruits",
+      "slug": "bildersortierung-bakery-vs-fruits-1d61",
+      "canonical": "bildersortierung-bakery-vs-fruits-1d61"
+    },
+    {
+      "pairKey": "bakery-vs-furniture",
+      "left": "bakery",
+      "right": "furniture",
+      "slug": "bildersortierung-bakery-vs-furniture-05c8",
+      "canonical": "bildersortierung-bakery-vs-furniture-05c8"
+    },
+    {
+      "pairKey": "bakery-vs-hospital",
+      "left": "bakery",
+      "right": "hospital",
+      "slug": "bildersortierung-bakery-vs-hospital-0ee4",
+      "canonical": "bildersortierung-bakery-vs-hospital-0ee4"
+    },
+    {
+      "pairKey": "bakery-vs-kitchen_tools",
+      "left": "bakery",
+      "right": "kitchen_tools",
+      "slug": "bildersortierung-bakery-vs-kitchen-tools-d55c",
+      "canonical": "bildersortierung-bakery-vs-kitchen-tools-d55c"
+    },
+    {
+      "pairKey": "bakery-vs-music",
+      "left": "bakery",
+      "right": "music",
+      "slug": "bildersortierung-bakery-vs-music-bb11",
+      "canonical": "bildersortierung-bakery-vs-music-bb11"
+    },
+    {
+      "pairKey": "bakery-vs-occupations",
+      "left": "bakery",
+      "right": "occupations",
+      "slug": "bildersortierung-bakery-vs-occupations-36f1",
+      "canonical": "bildersortierung-bakery-vs-occupations-36f1"
+    },
+    {
+      "pairKey": "bakery-vs-ocean_life",
+      "left": "bakery",
+      "right": "ocean_life",
+      "slug": "bildersortierung-bakery-vs-ocean-life-dab7",
+      "canonical": "bildersortierung-bakery-vs-ocean-life-dab7"
+    },
+    {
+      "pairKey": "bakery-vs-pets",
+      "left": "bakery",
+      "right": "pets",
+      "slug": "bildersortierung-bakery-vs-pets-fe47",
+      "canonical": "bildersortierung-bakery-vs-pets-fe47"
+    },
+    {
+      "pairKey": "bakery-vs-post_office",
+      "left": "bakery",
+      "right": "post_office",
+      "slug": "bildersortierung-bakery-vs-post-office-62d5",
+      "canonical": "bildersortierung-bakery-vs-post-office-62d5"
+    },
+    {
+      "pairKey": "bakery-vs-spring",
+      "left": "bakery",
+      "right": "spring",
+      "slug": "bildersortierung-bakery-vs-spring-ec80",
+      "canonical": "bildersortierung-bakery-vs-spring-ec80"
+    },
+    {
+      "pairKey": "bakery-vs-summer",
+      "left": "bakery",
+      "right": "summer",
+      "slug": "bildersortierung-bakery-vs-summer-826b",
+      "canonical": "bildersortierung-bakery-vs-summer-826b"
+    },
+    {
+      "pairKey": "bakery-vs-toys",
+      "left": "bakery",
+      "right": "toys",
+      "slug": "bildersortierung-bakery-vs-toys-99bf",
+      "canonical": "bildersortierung-bakery-vs-toys-99bf"
+    },
+    {
+      "pairKey": "bakery-vs-tree",
+      "left": "bakery",
+      "right": "tree",
+      "slug": "bildersortierung-bakery-vs-tree-73d0",
+      "canonical": "bildersortierung-bakery-vs-tree-73d0"
+    },
+    {
+      "pairKey": "bakery-vs-vegetables",
+      "left": "bakery",
+      "right": "vegetables",
+      "slug": "bildersortierung-bakery-vs-vegetables-384f",
+      "canonical": "bildersortierung-bakery-vs-vegetables-384f"
+    },
+    {
+      "pairKey": "bakery-vs-vehicles",
+      "left": "bakery",
+      "right": "vehicles",
+      "slug": "bildersortierung-bakery-vs-vehicles-cb70",
+      "canonical": "bildersortierung-bakery-vs-vehicles-cb70"
+    },
+    {
+      "pairKey": "bakery-vs-weather",
+      "left": "bakery",
+      "right": "weather",
+      "slug": "bildersortierung-bakery-vs-weather-757f",
+      "canonical": "bildersortierung-bakery-vs-weather-757f"
+    },
+    {
+      "pairKey": "farm_animals-vs-clothing",
+      "left": "farm_animals",
+      "right": "clothing",
+      "slug": "bildersortierung-farm-animals-vs-clothing-49e5",
+      "canonical": "bildersortierung-farm-animals-vs-clothing-49e5"
+    },
+    {
+      "pairKey": "farm_animals-vs-desserts_and_sweets",
+      "left": "farm_animals",
+      "right": "desserts_and_sweets",
+      "slug": "bildersortierung-farm-animals-vs-desserts-and-sweets-cca3",
+      "canonical": "bildersortierung-farm-animals-vs-desserts-and-sweets-cca3"
+    },
+    {
+      "pairKey": "farm_animals-vs-dinosaurs",
+      "left": "farm_animals",
+      "right": "dinosaurs",
+      "slug": "bildersortierung-farm-animals-vs-dinosaurs-8f09",
+      "canonical": "bildersortierung-farm-animals-vs-dinosaurs-8f09"
+    },
+    {
+      "pairKey": "farm_animals-vs-flowers",
+      "left": "farm_animals",
+      "right": "flowers",
+      "slug": "bildersortierung-farm-animals-vs-flowers-ca84",
+      "canonical": "bildersortierung-farm-animals-vs-flowers-ca84"
+    },
+    {
+      "pairKey": "farm_animals-vs-fruits",
+      "left": "farm_animals",
+      "right": "fruits",
+      "slug": "bildersortierung-farm-animals-vs-fruits-2146",
+      "canonical": "bildersortierung-farm-animals-vs-fruits-2146"
+    },
+    {
+      "pairKey": "farm_animals-vs-furniture",
+      "left": "farm_animals",
+      "right": "furniture",
+      "slug": "bildersortierung-farm-animals-vs-furniture-b615",
+      "canonical": "bildersortierung-farm-animals-vs-furniture-b615"
+    },
+    {
+      "pairKey": "farm_animals-vs-occupations",
+      "left": "farm_animals",
+      "right": "occupations",
+      "slug": "bildersortierung-farm-animals-vs-occupations-4464",
+      "canonical": "bildersortierung-farm-animals-vs-occupations-4464"
+    },
+    {
+      "pairKey": "farm_animals-vs-tree",
+      "left": "farm_animals",
+      "right": "tree",
+      "slug": "bildersortierung-farm-animals-vs-tree-f1f4",
+      "canonical": "bildersortierung-farm-animals-vs-tree-f1f4"
+    },
+    {
+      "pairKey": "farm_animals-vs-vegetables",
+      "left": "farm_animals",
+      "right": "vegetables",
+      "slug": "bildersortierung-farm-animals-vs-vegetables-219d",
+      "canonical": "bildersortierung-farm-animals-vs-vegetables-219d"
+    },
+    {
+      "pairKey": "farm_animals-vs-vehicles",
+      "left": "farm_animals",
+      "right": "vehicles",
+      "slug": "bildersortierung-farm-animals-vs-vehicles-d3b2",
+      "canonical": "bildersortierung-farm-animals-vs-vehicles-d3b2"
+    }
+  ]
+}

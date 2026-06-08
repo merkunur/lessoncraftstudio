@@ -1,0 +1,470 @@
+{
+  "locale": "de",
+  "exerciseType": "find-and-count",
+  "mode": "letter-spotting",
+  "coordinates": [
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-tiere",
+        "suchen-und-zaehlen-buchstaben-suchen-tiere-fd78"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-strand-1657",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-camping-068f",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9",
+      "siblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true
+    }
+  ]
+}

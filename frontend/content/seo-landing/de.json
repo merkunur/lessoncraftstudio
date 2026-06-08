@@ -67574,6 +67574,1462 @@
         }
       ],
       "standard": "1.OA.C.6"
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "activities",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Laufbildern, Springbildern und Tanzbildern – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Laufbilder",
+        "Springbilder",
+        "Tanzbilder",
+        "Aktivitäten",
+        "activities",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Auf diesem Anlaut-Suchblatt geht dein Kind auf eine fröhliche Lauschreise durch die Laufbilder, Springbilder und Tanzbilder. Die Aufgabe ist herrlich einfach: Du nennst gemeinsam mit deinem Kind einen bestimmten Anlaut, und dann sucht ihr alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jedes passende Bild wird liebevoll eingekreist. Hier wird nichts gelesen und nichts geschrieben, denn dein Kind soll einzig und allein den ersten Laut eines Wortes heraushören. Genau dieses Anlaut-Heraushören ist eine wichtige Vorübung fürs spätere Lesen und Schreiben. Spielerisch und ganz ohne Druck wächst dabei die phonologische Bewusstheit, die jedes Vorschulkind für den behutsamen Start in die bunte Welt der Buchstaben braucht.",
+      "p2": "Dieses Anlaut-Suchblatt rund um die Laufbilder, Springbilder und Tanzbilder lädt dein Kind zu einem feinen Hörspiel ein. Gemeinsam nennt ihr einen Anfangslaut, und dann sucht dein Kind alle Bilder, deren Namen mit genau diesem Laut beginnen. Jedes passende Bild wird liebevoll eingekreist. Es geht allein ums Heraushören des ersten Lautes, niemals ums Lesen oder Schreiben. So wächst spielerisch die phonologische Bewusstheit, ganz ohne Druck und in eurem eigenen Tempo, gemeinsam mit deinem Kind beim Lauschen und Entdecken.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Tiere oder lausche gemeinsam mit den Körperteilen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Aktivitäten, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6",
+      "carousel": [
+        {
+          "label": "Anlaute – Tiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+        },
+        {
+          "label": "Anlaute – Rund ums Haus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+        },
+        {
+          "label": "Anlaute – Strand",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+        },
+        {
+          "label": "Anlaute – Kleidung",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "animals",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Kühen, Schafen und Hühnern – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Kühe",
+        "Schafe",
+        "Hühner",
+        "Tiere",
+        "animals",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Hören kommt vor dem Lesen, und genau hier setzt dieses Anlaut-Suchblatt mit den Kühen, Schafen und Hühnern an. Dein Kind lernt, den allerersten Laut eines Wortes bewusst herauszuhören. Dazu nennt ihr gemeinsam einen Anfangslaut, und dann gleitet der Blick über alle Kühe, Schafe und Hühner auf dem Blatt. Wo der Name mit diesem Anlaut beginnt, malt dein Kind einen Kreis. Buchstaben müssen dafür noch nicht gelesen werden, denn alles dreht sich um den Klang. Dieses Lauschspiel baut die phonologische Bewusstheit auf, eine echte Vorläuferfähigkeit fürs spätere Lesen und Schreiben. Und weil es so spielerisch ist, merkt dein Kind kaum, wie viel es dabei eigentlich übt und lernt.",
+      "p2": "Dieses Blatt rund um die Kühe, Schafe und Hühner macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Tieren alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Haushaltsdinge oder lausche gemeinsam mit den Frühstückssachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Tiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-tiere",
+      "carousel": [
+        {
+          "label": "Anlaute – Rund ums Haus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+        },
+        {
+          "label": "Anlaute – Im Supermarkt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+        },
+        {
+          "label": "Anlaute – Vögel 2",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+        },
+        {
+          "label": "Anlaute – Desserts und Süßigkeiten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+        }
+      ],
+      "collapseSiblings": [
+        "suchen-und-zaehlen-buchstaben-suchen-tiere",
+        "suchen-und-zaehlen-buchstaben-suchen-tiere-fd78"
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "around_the_house",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Lampen, Stühlen und Uhren – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Lampen",
+        "Stühle",
+        "Uhren",
+        "Haushaltsdinge",
+        "around the house",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Stell dir vor, dein Kind hört ganz genau hin und entdeckt plötzlich, dass viele Wörter mit demselben Laut anfangen. Genau dieses Aha-Erlebnis schenkt dieses Suchblatt rund um die Lampen, Stühle und Uhren. Ihr wählt zusammen einen Anlaut, und dann sucht dein Kind unter den abgebildeten Haushaltsdingen alle Bilder, deren Namen mit diesem Anfangslaut beginnen. Jedes Treffer-Bild wird eingekreist. Dabei steht das Heraushören des ersten Lautes im Mittelpunkt, niemals das Lesen oder das Schreiben. Diese feine Hörarbeit ist eine echte Vorläuferfähigkeit, die der späteren Schrift vorausgeht. Du wirst staunen, wie schnell dein Kind ein Gespür für Anlaute entwickelt, wenn es einfach spielerisch und in Ruhe lauschen darf.",
+      "p2": "Auf eine kleine Lauschreise rund um die Lampen, Stühle und Uhren nimmt dieses Suchblatt dein Kind mit. Du nennst gemeinsam mit ihm einen Anfangslaut, und dein Kind sucht unter den Bildern alle Namen, die mit genau diesem Laut starten. Die passenden Treffer werden liebevoll eingekreist. Niemals geht es ums Lesen oder Schreiben, sondern einzig ums Heraushören des ersten Lautes. So baut dein Kind ganz nebenbei die phonologische Bewusstheit auf, eine wichtige Vorläuferfähigkeit, die dem späteren Schreiben und Lesen freudvoll vorausgeht.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Supermarktdinge oder lausche gemeinsam mit den Campingsachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Haushaltsdinge, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf",
+      "carousel": [
+        {
+          "label": "Anlaute – Im Supermarkt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+        },
+        {
+          "label": "Anlaute – Bäckerei",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+        },
+        {
+          "label": "Anlaute – Körperteile",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+        },
+        {
+          "label": "Anlaute – Ostern",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "at_the_supermarket",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Einkaufswagen, Körben und Regalen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Einkaufswagen",
+        "Körbe",
+        "Regale",
+        "Supermarktdinge",
+        "at the supermarket",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Lauschen, entdecken, einkreisen, so einfach ist dieses fröhliche Anlaut-Suchblatt rund um die Einkaufswagen, Körbe und Regale. Dein Kind soll den Anfangslaut eines Wortes heraushören und alle Bilder finden, deren Namen mit genau diesem Laut beginnen. Ihr wählt zusammen einen Anlaut, und dann geht dein Kind die Einkaufswagen, Körbe und Regale in seinem eigenen Tempo durch. Passt der erste Laut, wird das Bild eingekreist. Gelesen oder geschrieben wird dabei nichts, denn das Ohr führt die Suche. Diese liebevolle Hörarbeit stärkt die phonologische Bewusstheit und bereitet sanft auf das spätere Lesen vor. Ohne Uhr und ohne Wertung darf dein Kind einfach genießen, wie spannend das Spiel mit den ersten Lauten ist.",
+      "p2": "Bei den Einkaufswagen, Körben und Regalen auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Backwaren oder lausche gemeinsam mit den Klassenzimmersachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Supermarktdinge, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe",
+      "carousel": [
+        {
+          "label": "Anlaute – Bäckerei",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+        },
+        {
+          "label": "Anlaute – Strand",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+        },
+        {
+          "label": "Anlaute – Frühstück",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+        },
+        {
+          "label": "Anlaute – Bauernhoftiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "bakery",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Bagels, Brötchen und Kuchen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Bagels",
+        "Brötchen",
+        "Kuchen",
+        "Backwaren",
+        "bakery",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Manche Wörter klingen am Anfang ganz ähnlich, und genau das macht das Lauschen so spannend. Mit diesem Suchblatt rund um die Bagels, Brötchen und Kuchen lädst du dein Kind ein, ganz genau auf den Anfangslaut zu achten. Ihr sprecht zusammen einen Anlaut aus, und dann sucht dein Kind unter den abgebildeten Backwaren jedes Bild, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden eingekreist. Es geht einzig und allein ums Heraushören des ersten Lautes, nicht ums Lesen oder Schreiben. Diese Übung gehört zur phonologischen Bewusstheit, die jedes Vorschulkind sanft auf den Schriftspracherwerb vorbereitet. Lass deinem Kind Zeit, jeden Anlaut in Ruhe zu erlauschen.",
+      "p2": "Dieses Blatt rund um die Bagels, Brötchen und Kuchen macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Backwaren alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Strandsachen oder lausche gemeinsam mit den Kleidungsstücken, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Backwaren, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c",
+      "carousel": [
+        {
+          "label": "Anlaute – Strand",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+        },
+        {
+          "label": "Anlaute – Vögel 2",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+        },
+        {
+          "label": "Anlaute – Camping",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+        },
+        {
+          "label": "Anlaute – Waldtiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-strand-1657",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "beach",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Eimern, Schaufeln und Seesternen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Eimer",
+        "Schaufeln",
+        "Seesterne",
+        "Strandsachen",
+        "beach",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Wenn dein Kind den Anfangslaut eines Wortes hören kann, hat es einen großen Schritt in Richtung Lesen gemacht. Auf diesem Blatt rund um die Eimer, Schaufeln und Seesterne übt es genau das. Sprecht zusammen einen Anlaut, etwa nach der vertrauten Sprechweise „M“ wie Maus, und dann wandert der Blick über alle abgebildeten Strandsachen. Überall dort, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Dieses genaue Hinhören schult die phonologische Bewusstheit und macht dabei richtig Freude. Es gibt keine Uhr und keine Wertung, nur dich und dein Kind beim gemeinsamen Lauschen und Entdecken. So darf jedes Kind in seinem eigenen Tempo voranschreiten.",
+      "p2": "Auf eine kleine Lauschreise rund um die Eimer, Schaufeln und Seesterne nimmt dieses Suchblatt dein Kind mit. Du nennst gemeinsam mit ihm einen Anfangslaut, und dein Kind sucht unter den Bildern alle Namen, die mit genau diesem Laut starten. Die passenden Treffer werden liebevoll eingekreist. Niemals geht es ums Lesen oder Schreiben, sondern einzig ums Heraushören des ersten Lautes. So baut dein Kind ganz nebenbei die phonologische Bewusstheit auf, eine wichtige Vorläuferfähigkeit, die dem späteren Schreiben und Lesen freudvoll vorausgeht.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Vögel oder lausche gemeinsam mit den Süßigkeiten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Strandsachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-strand-1657",
+      "carousel": [
+        {
+          "label": "Anlaute – Vögel 2",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+        },
+        {
+          "label": "Anlaute – Körperteile",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+        },
+        {
+          "label": "Anlaute – Klassenzimmer",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+        },
+        {
+          "label": "Anlaute – Früchte",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "birds_2",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Papageien, Schwänen und Krähen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Papageien",
+        "Schwäne",
+        "Krähen",
+        "Vögel",
+        "birds 2",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Ein gutes Ohr für Anlaute öffnet die Tür zur Welt der Buchstaben. Auf diesem Blatt rund um die Papageien, Schwäne und Krähen darf dein Kind genau dieses Ohr trainieren. Ihr einigt euch auf einen Anfangslaut, und dann sucht dein Kind unter den abgebildeten Vögeln alle Bilder, deren Namen mit demselben Laut starten. Jedes gefundene Bild wird liebevoll eingekreist. Im Mittelpunkt steht stets das Heraushören des ersten Lautes, niemals das Lesen, Schreiben oder Buchstabieren. So bleibt die Übung leicht und freudvoll. Schritt für Schritt wächst dabei die phonologische Bewusstheit, und dein Kind sammelt wertvolle Erfahrungen, die ihm den späteren Start in das Lesen spürbar erleichtern werden.",
+      "p2": "Bei den Papageien, Schwänen und Krähen auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Körperteile oder lausche gemeinsam mit den Ostersachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Vögel, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f",
+      "carousel": [
+        {
+          "label": "Anlaute – Körperteile",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+        },
+        {
+          "label": "Anlaute – Frühstück",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+        },
+        {
+          "label": "Anlaute – Kleidung",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+        },
+        {
+          "label": "Anlaute – Möbel",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "body_parts",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Händen, Füßen und Ohren – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Hände",
+        "Füße",
+        "Ohren",
+        "Körperteile",
+        "body parts",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Anlaute hören ist wie ein kleines Geheimnis, das sich in jedem Wort versteckt. Auf diesem Blatt mit den Händen, Füßen und Ohren darf dein Kind diesem Geheimnis nachspüren. Gemeinsam legt ihr einen Anfangslaut fest, und dann lauscht dein Kind dem Namen jedes Bildes nach. Beginnt der Name mit dem gesuchten Anlaut, wird das Bild eingekreist. So bleibt der Blick immer beim Klang und nicht bei den Buchstaben, denn gelesen wird hier noch nicht. Dieses bewusste Hinhören stärkt die phonologische Bewusstheit, eine wichtige Vorübung fürs spätere Lesen. Bei den Händen, Füßen und Ohren findet dein Kind viele vertraute Motive, die das Lauschen besonders leicht und vergnüglich machen.",
+      "p2": "Dieses Blatt rund um die Hände, Füße und Ohren macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Körperteilen alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Frühstückssachen oder lausche gemeinsam mit den Bauernhoftieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Körperteile, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1",
+      "carousel": [
+        {
+          "label": "Anlaute – Frühstück",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+        },
+        {
+          "label": "Anlaute – Camping",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+        },
+        {
+          "label": "Anlaute – Desserts und Süßigkeiten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+        },
+        {
+          "label": "Anlaute – Krankenhaus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "breakfast",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Eiern, Pfannkuchen und Bananen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Eier",
+        "Pfannkuchen",
+        "Bananen",
+        "Frühstückssachen",
+        "breakfast",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Auf diesem Anlaut-Suchblatt geht dein Kind auf eine fröhliche Lauschreise durch die Eier, Pfannkuchen und Bananen. Die Aufgabe ist herrlich einfach: Du nennst gemeinsam mit deinem Kind einen bestimmten Anlaut, und dann sucht ihr alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jedes passende Bild wird liebevoll eingekreist. Hier wird nichts gelesen und nichts geschrieben, denn dein Kind soll einzig und allein den ersten Laut eines Wortes heraushören. Genau dieses Anlaut-Heraushören ist eine wichtige Vorübung fürs spätere Lesen und Schreiben. Spielerisch und ganz ohne Druck wächst dabei die phonologische Bewusstheit, die jedes Vorschulkind für den behutsamen Start in die bunte Welt der Buchstaben braucht.",
+      "p2": "Auf eine kleine Lauschreise rund um die Eier, Pfannkuchen und Bananen nimmt dieses Suchblatt dein Kind mit. Du nennst gemeinsam mit ihm einen Anfangslaut, und dein Kind sucht unter den Bildern alle Namen, die mit genau diesem Laut starten. Die passenden Treffer werden liebevoll eingekreist. Niemals geht es ums Lesen oder Schreiben, sondern einzig ums Heraushören des ersten Lautes. So baut dein Kind ganz nebenbei die phonologische Bewusstheit auf, eine wichtige Vorläuferfähigkeit, die dem späteren Schreiben und Lesen freudvoll vorausgeht.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Campingsachen oder lausche gemeinsam mit den Waldtieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Frühstückssachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8",
+      "carousel": [
+        {
+          "label": "Anlaute – Camping",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+        },
+        {
+          "label": "Anlaute – Klassenzimmer",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+        },
+        {
+          "label": "Anlaute – Ostern",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+        },
+        {
+          "label": "Anlaute – Küchenwerkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-camping-068f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "camping",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Zelten, Taschenlampen und Rucksäcken – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Zelte",
+        "Taschenlampen",
+        "Rucksäcke",
+        "Campingsachen",
+        "camping",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Hören kommt vor dem Lesen, und genau hier setzt dieses Anlaut-Suchblatt mit den Zelten, Taschenlampen und Rucksäcken an. Dein Kind lernt, den allerersten Laut eines Wortes bewusst herauszuhören. Dazu nennt ihr gemeinsam einen Anfangslaut, und dann gleitet der Blick über alle Zelte, Taschenlampen und Rucksäcke auf dem Blatt. Wo der Name mit diesem Anlaut beginnt, malt dein Kind einen Kreis. Buchstaben müssen dafür noch nicht gelesen werden, denn alles dreht sich um den Klang. Dieses Lauschspiel baut die phonologische Bewusstheit auf, eine echte Vorläuferfähigkeit fürs spätere Lesen und Schreiben. Und weil es so spielerisch ist, merkt dein Kind kaum, wie viel es dabei eigentlich übt und lernt.",
+      "p2": "Bei den Zelten, Taschenlampen und Rucksäcken auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Klassenzimmersachen oder lausche gemeinsam mit den Früchten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Campingsachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-camping-068f",
+      "carousel": [
+        {
+          "label": "Anlaute – Klassenzimmer",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+        },
+        {
+          "label": "Anlaute – Kleidung",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+        },
+        {
+          "label": "Anlaute – Bauernhoftiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+        },
+        {
+          "label": "Anlaute – Musik",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "classroom",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Bleistiften, Büchern und Globen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Bleistifte",
+        "Bücher",
+        "Globen",
+        "Klassenzimmersachen",
+        "classroom",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Stell dir vor, dein Kind hört ganz genau hin und entdeckt plötzlich, dass viele Wörter mit demselben Laut anfangen. Genau dieses Aha-Erlebnis schenkt dieses Suchblatt rund um die Bleistifte, Bücher und Globen. Ihr wählt zusammen einen Anlaut, und dann sucht dein Kind unter den abgebildeten Klassenzimmersachen alle Bilder, deren Namen mit diesem Anfangslaut beginnen. Jedes Treffer-Bild wird eingekreist. Dabei steht das Heraushören des ersten Lautes im Mittelpunkt, niemals das Lesen oder das Schreiben. Diese feine Hörarbeit ist eine echte Vorläuferfähigkeit, die der späteren Schrift vorausgeht. Du wirst staunen, wie schnell dein Kind ein Gespür für Anlaute entwickelt, wenn es einfach spielerisch und in Ruhe lauschen darf.",
+      "p2": "Dieses Blatt rund um die Bleistifte, Bücher und Globen macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Klassenzimmersachen alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Kleidungsstücke oder lausche gemeinsam mit den Möbelstücken, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Klassenzimmersachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b",
+      "carousel": [
+        {
+          "label": "Anlaute – Kleidung",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54"
+        },
+        {
+          "label": "Anlaute – Desserts und Süßigkeiten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+        },
+        {
+          "label": "Anlaute – Waldtiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+        },
+        {
+          "label": "Anlaute – Berufe",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "clothing",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Hemden, Socken und Hüten – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Hemden",
+        "Socken",
+        "Hüte",
+        "Kleidungsstücke",
+        "clothing",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Lauschen, entdecken, einkreisen, so einfach ist dieses fröhliche Anlaut-Suchblatt rund um die Hemden, Socken und Hüte. Dein Kind soll den Anfangslaut eines Wortes heraushören und alle Bilder finden, deren Namen mit genau diesem Laut beginnen. Ihr wählt zusammen einen Anlaut, und dann geht dein Kind die Hemden, Socken und Hüte in seinem eigenen Tempo durch. Passt der erste Laut, wird das Bild eingekreist. Gelesen oder geschrieben wird dabei nichts, denn das Ohr führt die Suche. Diese liebevolle Hörarbeit stärkt die phonologische Bewusstheit und bereitet sanft auf das spätere Lesen vor. Ohne Uhr und ohne Wertung darf dein Kind einfach genießen, wie spannend das Spiel mit den ersten Lauten ist.",
+      "p2": "Mit den Hemden, Socken und Hüten auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Kleidungsstücke. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Süßigkeiten oder lausche gemeinsam mit den Krankenhaussachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Kleidungsstücke, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-kleidung-1d54",
+      "carousel": [
+        {
+          "label": "Anlaute – Desserts und Süßigkeiten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba"
+        },
+        {
+          "label": "Anlaute – Ostern",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+        },
+        {
+          "label": "Anlaute – Früchte",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+        },
+        {
+          "label": "Anlaute – Meeresleben",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "desserts_and_sweets",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Cupcakes, Lutschern und Kuchen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Cupcakes",
+        "Lutscher",
+        "Kuchen",
+        "Süßigkeiten",
+        "desserts and sweets",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Manche Wörter klingen am Anfang ganz ähnlich, und genau das macht das Lauschen so spannend. Mit diesem Suchblatt rund um die Cupcakes, Lutscher und Kuchen lädst du dein Kind ein, ganz genau auf den Anfangslaut zu achten. Ihr sprecht zusammen einen Anlaut aus, und dann sucht dein Kind unter den abgebildeten Süßigkeiten jedes Bild, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden eingekreist. Es geht einzig und allein ums Heraushören des ersten Lautes, nicht ums Lesen oder Schreiben. Diese Übung gehört zur phonologischen Bewusstheit, die jedes Vorschulkind sanft auf den Schriftspracherwerb vorbereitet. Lass deinem Kind Zeit, jeden Anlaut in Ruhe zu erlauschen.",
+      "p2": "Bei den Cupcakes, Lutschern und Kuchen auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Ostersachen oder lausche gemeinsam mit den Küchenutensilien, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Süßigkeiten, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-desserts-und-sussigkeiten-d0ba",
+      "carousel": [
+        {
+          "label": "Anlaute – Ostern",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d"
+        },
+        {
+          "label": "Anlaute – Bauernhoftiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+        },
+        {
+          "label": "Anlaute – Möbel",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+        },
+        {
+          "label": "Anlaute – Haustiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "easter",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Eiern, Häschen und Körben – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Eier",
+        "Häschen",
+        "Körbe",
+        "Ostersachen",
+        "easter",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Wenn dein Kind den Anfangslaut eines Wortes hören kann, hat es einen großen Schritt in Richtung Lesen gemacht. Auf diesem Blatt rund um die Eier, Häschen und Körbe übt es genau das. Sprecht zusammen einen Anlaut, etwa nach der vertrauten Sprechweise „M“ wie Maus, und dann wandert der Blick über alle abgebildeten Ostersachen. Überall dort, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Dieses genaue Hinhören schult die phonologische Bewusstheit und macht dabei richtig Freude. Es gibt keine Uhr und keine Wertung, nur dich und dein Kind beim gemeinsamen Lauschen und Entdecken. So darf jedes Kind in seinem eigenen Tempo voranschreiten.",
+      "p2": "Dieses Blatt rund um die Eier, Häschen und Körbe macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Ostersachen alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Bauernhoftiere oder lausche gemeinsam mit den Instrumenten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Ostersachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-ostern-564d",
+      "carousel": [
+        {
+          "label": "Anlaute – Bauernhoftiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc"
+        },
+        {
+          "label": "Anlaute – Waldtiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+        },
+        {
+          "label": "Anlaute – Krankenhaus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+        },
+        {
+          "label": "Anlaute – Postamt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "farm_animals",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Kühen, Schweinen und Ziegen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Kühe",
+        "Schweine",
+        "Ziegen",
+        "Bauernhoftiere",
+        "farm animals",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Ein gutes Ohr für Anlaute öffnet die Tür zur Welt der Buchstaben. Auf diesem Blatt rund um die Kühe, Schweine und Ziegen darf dein Kind genau dieses Ohr trainieren. Ihr einigt euch auf einen Anfangslaut, und dann sucht dein Kind unter den abgebildeten Bauernhoftieren alle Bilder, deren Namen mit demselben Laut starten. Jedes gefundene Bild wird liebevoll eingekreist. Im Mittelpunkt steht stets das Heraushören des ersten Lautes, niemals das Lesen, Schreiben oder Buchstabieren. So bleibt die Übung leicht und freudvoll. Schritt für Schritt wächst dabei die phonologische Bewusstheit, und dein Kind sammelt wertvolle Erfahrungen, die ihm den späteren Start in das Lesen spürbar erleichtern werden.",
+      "p2": "Mit den Kühen, Schweinen und Ziegen auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Bauernhoftiere. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Waldtiere oder lausche gemeinsam mit den Berufen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Bauernhoftiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-bauernhoftiere-01fc",
+      "carousel": [
+        {
+          "label": "Anlaute – Waldtiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d"
+        },
+        {
+          "label": "Anlaute – Früchte",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+        },
+        {
+          "label": "Anlaute – Küchenwerkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+        },
+        {
+          "label": "Anlaute – Weltraum",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "forest_creatures",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Füchsen, Bären und Igeln – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Füchse",
+        "Bären",
+        "Igel",
+        "Waldtiere",
+        "forest creatures",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Anlaute hören ist wie ein kleines Geheimnis, das sich in jedem Wort versteckt. Auf diesem Blatt mit den Füchsen, Bären und Igeln darf dein Kind diesem Geheimnis nachspüren. Gemeinsam legt ihr einen Anfangslaut fest, und dann lauscht dein Kind dem Namen jedes Bildes nach. Beginnt der Name mit dem gesuchten Anlaut, wird das Bild eingekreist. So bleibt der Blick immer beim Klang und nicht bei den Buchstaben, denn gelesen wird hier noch nicht. Dieses bewusste Hinhören stärkt die phonologische Bewusstheit, eine wichtige Vorübung fürs spätere Lesen. Bei den Füchsen, Bären und Igeln findet dein Kind viele vertraute Motive, die das Lauschen besonders leicht und vergnüglich machen.",
+      "p2": "Bei den Füchsen, Bären und Igeln auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Früchte oder lausche gemeinsam mit den Meerestieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Waldtiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-waldtiere-6e6d",
+      "carousel": [
+        {
+          "label": "Anlaute – Früchte",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d"
+        },
+        {
+          "label": "Anlaute – Möbel",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+        },
+        {
+          "label": "Anlaute – Musik",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+        },
+        {
+          "label": "Anlaute – Erntedankfest",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "fruits",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Äpfeln, Bananen und Birnen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Äpfel",
+        "Bananen",
+        "Birnen",
+        "Früchte",
+        "fruits",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Auf diesem Anlaut-Suchblatt geht dein Kind auf eine fröhliche Lauschreise durch die Äpfel, Bananen und Birnen. Die Aufgabe ist herrlich einfach: Du nennst gemeinsam mit deinem Kind einen bestimmten Anlaut, und dann sucht ihr alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jedes passende Bild wird liebevoll eingekreist. Hier wird nichts gelesen und nichts geschrieben, denn dein Kind soll einzig und allein den ersten Laut eines Wortes heraushören. Genau dieses Anlaut-Heraushören ist eine wichtige Vorübung fürs spätere Lesen und Schreiben. Spielerisch und ganz ohne Druck wächst dabei die phonologische Bewusstheit, die jedes Vorschulkind für den behutsamen Start in die bunte Welt der Buchstaben braucht.",
+      "p2": "Dieses Blatt rund um die Äpfel, Bananen und Birnen macht das Hören zum fröhlichen Spiel. Gemeinsam wählt ihr einen Anlaut, und dann sucht dein Kind unter den abgebildeten Früchten alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jeder Fund wird liebevoll eingekreist. Im Mittelpunkt steht immer das Heraushören des ersten Lautes, niemals das Lesen oder Buchstabieren. So wächst die phonologische Bewusstheit Schritt für Schritt, während dein Kind in seinem ganz eigenen Tempo in Ruhe lauscht und freudig entdeckt.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Möbelstücke oder lausche gemeinsam mit den Haustieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Früchte, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-fruchte-513d",
+      "carousel": [
+        {
+          "label": "Anlaute – Möbel",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02"
+        },
+        {
+          "label": "Anlaute – Krankenhaus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+        },
+        {
+          "label": "Anlaute – Berufe",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+        },
+        {
+          "label": "Anlaute – Dinge die fliegen",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "furniture",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Sofas, Tischen und Lampen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Sofas",
+        "Tische",
+        "Lampen",
+        "Möbelstücke",
+        "furniture",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Hören kommt vor dem Lesen, und genau hier setzt dieses Anlaut-Suchblatt mit den Sofas, Tischen und Lampen an. Dein Kind lernt, den allerersten Laut eines Wortes bewusst herauszuhören. Dazu nennt ihr gemeinsam einen Anfangslaut, und dann gleitet der Blick über alle Sofas, Tische und Lampen auf dem Blatt. Wo der Name mit diesem Anlaut beginnt, malt dein Kind einen Kreis. Buchstaben müssen dafür noch nicht gelesen werden, denn alles dreht sich um den Klang. Dieses Lauschspiel baut die phonologische Bewusstheit auf, eine echte Vorläuferfähigkeit fürs spätere Lesen und Schreiben. Und weil es so spielerisch ist, merkt dein Kind kaum, wie viel es dabei eigentlich übt und lernt.",
+      "p2": "Mit den Sofas, Tischen und Lampen auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Möbelstücke. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Krankenhaussachen oder lausche gemeinsam mit den Postsachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Möbelstücke, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-mobel-bd02",
+      "carousel": [
+        {
+          "label": "Anlaute – Krankenhaus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908"
+        },
+        {
+          "label": "Anlaute – Küchenwerkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+        },
+        {
+          "label": "Anlaute – Meeresleben",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+        },
+        {
+          "label": "Anlaute – Werkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "hospital",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Betten, Verbänden und Stethoskopen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Betten",
+        "Verbände",
+        "Stethoskope",
+        "Krankenhaussachen",
+        "hospital",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Stell dir vor, dein Kind hört ganz genau hin und entdeckt plötzlich, dass viele Wörter mit demselben Laut anfangen. Genau dieses Aha-Erlebnis schenkt dieses Suchblatt rund um die Betten, Verbände und Stethoskope. Ihr wählt zusammen einen Anlaut, und dann sucht dein Kind unter den abgebildeten Krankenhaussachen alle Bilder, deren Namen mit diesem Anfangslaut beginnen. Jedes Treffer-Bild wird eingekreist. Dabei steht das Heraushören des ersten Lautes im Mittelpunkt, niemals das Lesen oder das Schreiben. Diese feine Hörarbeit ist eine echte Vorläuferfähigkeit, die der späteren Schrift vorausgeht. Du wirst staunen, wie schnell dein Kind ein Gespür für Anlaute entwickelt, wenn es einfach spielerisch und in Ruhe lauschen darf.",
+      "p2": "Bei den Betten, Verbänden und Stethoskopen auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Küchenutensilien oder lausche gemeinsam mit den Weltraumsachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Krankenhaussachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-krankenhaus-9908",
+      "carousel": [
+        {
+          "label": "Anlaute – Küchenwerkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412"
+        },
+        {
+          "label": "Anlaute – Musik",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+        },
+        {
+          "label": "Anlaute – Haustiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+        },
+        {
+          "label": "Anlaute – Spielzeug",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "kitchen_tools",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Löffeln, Schneebesen und Pfannen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Löffel",
+        "Schneebesen",
+        "Pfannen",
+        "Küchenutensilien",
+        "kitchen tools",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Lauschen, entdecken, einkreisen, so einfach ist dieses fröhliche Anlaut-Suchblatt rund um die Löffel, Schneebesen und Pfannen. Dein Kind soll den Anfangslaut eines Wortes heraushören und alle Bilder finden, deren Namen mit genau diesem Laut beginnen. Ihr wählt zusammen einen Anlaut, und dann geht dein Kind die Löffel, Schneebesen und Pfannen in seinem eigenen Tempo durch. Passt der erste Laut, wird das Bild eingekreist. Gelesen oder geschrieben wird dabei nichts, denn das Ohr führt die Suche. Diese liebevolle Hörarbeit stärkt die phonologische Bewusstheit und bereitet sanft auf das spätere Lesen vor. Ohne Uhr und ohne Wertung darf dein Kind einfach genießen, wie spannend das Spiel mit den ersten Lauten ist.",
+      "p2": "Hör genau hin, heißt es bei diesem fröhlichen Anlaut-Suchblatt mit den Löffeln, Schneebesen und Pfannen. Dein Kind soll den Anfangslaut eines Wortes heraushören und jedes Bild finden, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden liebevoll eingekreist. Gelesen oder geschrieben wird dabei nichts, denn allein der Klang führt die Suche an. Diese feine Hörarbeit stärkt die phonologische Bewusstheit und bereitet dein Vorschulkind sanft auf den Start in die bunte Welt der Buchstaben vor, ganz ohne Uhr und Wertung.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Instrumente oder lausche gemeinsam mit den Erntedanksachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Küchenutensilien, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-kuchenwerkzeuge-b412",
+      "carousel": [
+        {
+          "label": "Anlaute – Musik",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06"
+        },
+        {
+          "label": "Anlaute – Berufe",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+        },
+        {
+          "label": "Anlaute – Postamt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+        },
+        {
+          "label": "Anlaute – Gemüse",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "music",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Trommeln, Glocken und Flöten – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Trommeln",
+        "Glocken",
+        "Flöten",
+        "Instrumente",
+        "music",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Manche Wörter klingen am Anfang ganz ähnlich, und genau das macht das Lauschen so spannend. Mit diesem Suchblatt rund um die Trommeln, Glocken und Flöten lädst du dein Kind ein, ganz genau auf den Anfangslaut zu achten. Ihr sprecht zusammen einen Anlaut aus, und dann sucht dein Kind unter den abgebildeten Instrumenten jedes Bild, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden eingekreist. Es geht einzig und allein ums Heraushören des ersten Lautes, nicht ums Lesen oder Schreiben. Diese Übung gehört zur phonologischen Bewusstheit, die jedes Vorschulkind sanft auf den Schriftspracherwerb vorbereitet. Lass deinem Kind Zeit, jeden Anlaut in Ruhe zu erlauschen.",
+      "p2": "Mit den Trommeln, Glocken und Flöten auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Instrumente. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Berufe oder lausche gemeinsam mit den Flugobjekten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Instrumente, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-musik-6b06",
+      "carousel": [
+        {
+          "label": "Anlaute – Berufe",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b"
+        },
+        {
+          "label": "Anlaute – Meeresleben",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+        },
+        {
+          "label": "Anlaute – Weltraum",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+        },
+        {
+          "label": "Anlaute – Fahrzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "occupations",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Krankenschwestern, Piloten und Kassierern – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Krankenschwestern",
+        "Piloten",
+        "Kassierer",
+        "Berufe",
+        "occupations",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Wenn dein Kind den Anfangslaut eines Wortes hören kann, hat es einen großen Schritt in Richtung Lesen gemacht. Auf diesem Blatt rund um die Krankenschwestern, Piloten und Kassierer übt es genau das. Sprecht zusammen einen Anlaut, etwa nach der vertrauten Sprechweise „M“ wie Maus, und dann wandert der Blick über alle abgebildeten Berufe. Überall dort, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Dieses genaue Hinhören schult die phonologische Bewusstheit und macht dabei richtig Freude. Es gibt keine Uhr und keine Wertung, nur dich und dein Kind beim gemeinsamen Lauschen und Entdecken. So darf jedes Kind in seinem eigenen Tempo voranschreiten.",
+      "p2": "Bei den Krankenschwestern, Piloten und Kassierern auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Meerestiere oder lausche gemeinsam mit den Werkzeugen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Berufe, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-berufe-3e6b",
+      "carousel": [
+        {
+          "label": "Anlaute – Meeresleben",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca"
+        },
+        {
+          "label": "Anlaute – Haustiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+        },
+        {
+          "label": "Anlaute – Erntedankfest",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+        },
+        {
+          "label": "Anlaute – Zootiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "ocean_life",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Fischen, Krabben und Kraken – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Fische",
+        "Krabben",
+        "Kraken",
+        "Meerestiere",
+        "ocean life",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Ein gutes Ohr für Anlaute öffnet die Tür zur Welt der Buchstaben. Auf diesem Blatt rund um die Fische, Krabben und Kraken darf dein Kind genau dieses Ohr trainieren. Ihr einigt euch auf einen Anfangslaut, und dann sucht dein Kind unter den abgebildeten Meerestieren alle Bilder, deren Namen mit demselben Laut starten. Jedes gefundene Bild wird liebevoll eingekreist. Im Mittelpunkt steht stets das Heraushören des ersten Lautes, niemals das Lesen, Schreiben oder Buchstabieren. So bleibt die Übung leicht und freudvoll. Schritt für Schritt wächst dabei die phonologische Bewusstheit, und dein Kind sammelt wertvolle Erfahrungen, die ihm den späteren Start in das Lesen spürbar erleichtern werden.",
+      "p2": "Hör genau hin, heißt es bei diesem fröhlichen Anlaut-Suchblatt mit den Fischen, Krabben und Kraken. Dein Kind soll den Anfangslaut eines Wortes heraushören und jedes Bild finden, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden liebevoll eingekreist. Gelesen oder geschrieben wird dabei nichts, denn allein der Klang führt die Suche an. Diese feine Hörarbeit stärkt die phonologische Bewusstheit und bereitet dein Vorschulkind sanft auf den Start in die bunte Welt der Buchstaben vor, ganz ohne Uhr und Wertung.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Haustiere oder lausche gemeinsam mit den Spielsachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Meerestiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-meeresleben-52ca",
+      "carousel": [
+        {
+          "label": "Anlaute – Haustiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da"
+        },
+        {
+          "label": "Anlaute – Postamt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+        },
+        {
+          "label": "Anlaute – Dinge die fliegen",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+        },
+        {
+          "label": "Anlaute – Aktivitäten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "pets",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Katzen, Hunden und Kaninchen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Katzen",
+        "Hunde",
+        "Kaninchen",
+        "Haustiere",
+        "pets",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Anlaute hören ist wie ein kleines Geheimnis, das sich in jedem Wort versteckt. Auf diesem Blatt mit den Katzen, Hunden und Kaninchen darf dein Kind diesem Geheimnis nachspüren. Gemeinsam legt ihr einen Anfangslaut fest, und dann lauscht dein Kind dem Namen jedes Bildes nach. Beginnt der Name mit dem gesuchten Anlaut, wird das Bild eingekreist. So bleibt der Blick immer beim Klang und nicht bei den Buchstaben, denn gelesen wird hier noch nicht. Dieses bewusste Hinhören stärkt die phonologische Bewusstheit, eine wichtige Vorübung fürs spätere Lesen. Bei den Katzen, Hunden und Kaninchen findet dein Kind viele vertraute Motive, die das Lauschen besonders leicht und vergnüglich machen.",
+      "p2": "Mit den Katzen, Hunden und Kaninchen auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Haustiere. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Postsachen oder lausche gemeinsam mit den Gemüsesorten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Haustiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-haustiere-12da",
+      "carousel": [
+        {
+          "label": "Anlaute – Postamt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552"
+        },
+        {
+          "label": "Anlaute – Weltraum",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+        },
+        {
+          "label": "Anlaute – Werkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+        },
+        {
+          "label": "Anlaute – Tiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "post_office",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Briefen, Stempeln und Paketen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Briefe",
+        "Stempel",
+        "Pakete",
+        "Postsachen",
+        "post office",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Auf diesem Anlaut-Suchblatt geht dein Kind auf eine fröhliche Lauschreise durch die Briefe, Stempel und Pakete. Die Aufgabe ist herrlich einfach: Du nennst gemeinsam mit deinem Kind einen bestimmten Anlaut, und dann sucht ihr alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jedes passende Bild wird liebevoll eingekreist. Hier wird nichts gelesen und nichts geschrieben, denn dein Kind soll einzig und allein den ersten Laut eines Wortes heraushören. Genau dieses Anlaut-Heraushören ist eine wichtige Vorübung fürs spätere Lesen und Schreiben. Spielerisch und ganz ohne Druck wächst dabei die phonologische Bewusstheit, die jedes Vorschulkind für den behutsamen Start in die bunte Welt der Buchstaben braucht.",
+      "p2": "Bei den Briefen, Stempeln und Paketen auf diesem Blatt dreht sich alles um den ersten Laut. Du sprichst gemeinsam mit deinem Kind einen Anlaut aus, und dann sucht es jedes Bild, dessen Name mit genau diesem Anfangslaut beginnt. Die passenden Treffer werden eingekreist. Es wird weder gelesen noch geschrieben, denn dein Kind soll einzig den Klang am Wortanfang erlauschen. Genau das stärkt die phonologische Bewusstheit, eine wichtige Vorläuferfähigkeit, die deinem Kind den Weg ins Lesen behutsam und freudvoll ebnet.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Weltraumsachen oder lausche gemeinsam mit den Fahrzeugen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Postsachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-postamt-8552",
+      "carousel": [
+        {
+          "label": "Anlaute – Weltraum",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b"
+        },
+        {
+          "label": "Anlaute – Erntedankfest",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+        },
+        {
+          "label": "Anlaute – Spielzeug",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+        },
+        {
+          "label": "Anlaute – Rund ums Haus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "space",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Raketen, Planeten und Sternen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Raketen",
+        "Planeten",
+        "Sterne",
+        "Weltraumsachen",
+        "space",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Hören kommt vor dem Lesen, und genau hier setzt dieses Anlaut-Suchblatt mit den Raketen, Planeten und Sternen an. Dein Kind lernt, den allerersten Laut eines Wortes bewusst herauszuhören. Dazu nennt ihr gemeinsam einen Anfangslaut, und dann gleitet der Blick über alle Raketen, Planeten und Sterne auf dem Blatt. Wo der Name mit diesem Anlaut beginnt, malt dein Kind einen Kreis. Buchstaben müssen dafür noch nicht gelesen werden, denn alles dreht sich um den Klang. Dieses Lauschspiel baut die phonologische Bewusstheit auf, eine echte Vorläuferfähigkeit fürs spätere Lesen und Schreiben. Und weil es so spielerisch ist, merkt dein Kind kaum, wie viel es dabei eigentlich übt und lernt.",
+      "p2": "Hör genau hin, heißt es bei diesem fröhlichen Anlaut-Suchblatt mit den Raketen, Planeten und Sternen. Dein Kind soll den Anfangslaut eines Wortes heraushören und jedes Bild finden, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden liebevoll eingekreist. Gelesen oder geschrieben wird dabei nichts, denn allein der Klang führt die Suche an. Diese feine Hörarbeit stärkt die phonologische Bewusstheit und bereitet dein Vorschulkind sanft auf den Start in die bunte Welt der Buchstaben vor, ganz ohne Uhr und Wertung.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Erntedanksachen oder lausche gemeinsam mit den Zootieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Weltraumsachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-weltraum-754b",
+      "carousel": [
+        {
+          "label": "Anlaute – Erntedankfest",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae"
+        },
+        {
+          "label": "Anlaute – Dinge die fliegen",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+        },
+        {
+          "label": "Anlaute – Gemüse",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+        },
+        {
+          "label": "Anlaute – Im Supermarkt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "thanksgivinng",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Truthähnen, Kürbissen und Kuchen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Truthähne",
+        "Kürbisse",
+        "Kuchen",
+        "Erntedanksachen",
+        "thanksgivinng",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Stell dir vor, dein Kind hört ganz genau hin und entdeckt plötzlich, dass viele Wörter mit demselben Laut anfangen. Genau dieses Aha-Erlebnis schenkt dieses Suchblatt rund um die Truthähne, Kürbisse und Kuchen. Ihr wählt zusammen einen Anlaut, und dann sucht dein Kind unter den abgebildeten Erntedanksachen alle Bilder, deren Namen mit diesem Anfangslaut beginnen. Jedes Treffer-Bild wird eingekreist. Dabei steht das Heraushören des ersten Lautes im Mittelpunkt, niemals das Lesen oder das Schreiben. Diese feine Hörarbeit ist eine echte Vorläuferfähigkeit, die der späteren Schrift vorausgeht. Du wirst staunen, wie schnell dein Kind ein Gespür für Anlaute entwickelt, wenn es einfach spielerisch und in Ruhe lauschen darf.",
+      "p2": "Mit den Truthähnen, Kürbissen und Kuchen auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Erntedanksachen. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Flugobjekte oder lausche gemeinsam mit den Aktivitäten, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Erntedanksachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-erntedankfest-d4ae",
+      "carousel": [
+        {
+          "label": "Anlaute – Dinge die fliegen",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb"
+        },
+        {
+          "label": "Anlaute – Werkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+        },
+        {
+          "label": "Anlaute – Fahrzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+        },
+        {
+          "label": "Anlaute – Bäckerei",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "things_that_fly",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Drachen, Flugzeugen und Ballons – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Drachen",
+        "Flugzeuge",
+        "Ballons",
+        "Flugobjekte",
+        "things that fly",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Lauschen, entdecken, einkreisen, so einfach ist dieses fröhliche Anlaut-Suchblatt rund um die Drachen, Flugzeuge und Ballons. Dein Kind soll den Anfangslaut eines Wortes heraushören und alle Bilder finden, deren Namen mit genau diesem Laut beginnen. Ihr wählt zusammen einen Anlaut, und dann geht dein Kind die Drachen, Flugzeuge und Ballons in seinem eigenen Tempo durch. Passt der erste Laut, wird das Bild eingekreist. Gelesen oder geschrieben wird dabei nichts, denn das Ohr führt die Suche. Diese liebevolle Hörarbeit stärkt die phonologische Bewusstheit und bereitet sanft auf das spätere Lesen vor. Ohne Uhr und ohne Wertung darf dein Kind einfach genießen, wie spannend das Spiel mit den ersten Lauten ist.",
+      "p2": "Ein Suchblatt voller Drachen, Flugzeuge und Ballons wartet hier auf dein Kind. Die Aufgabe lautet: einen Anfangslaut heraushören und alle Bilder einkreisen, deren Namen mit genau diesem Laut beginnen. Nach der vertrauten Sprechweise „M“ wie Maus sucht ihr gemeinsam nach passenden Klängen am Wortanfang. Geschrieben oder gelesen wird dabei nichts, denn allein das feine Ohr ist gefragt. Diese spielerische Vorübung baut die phonologische Bewusstheit auf und schenkt deinem Vorschulkind echte Freude am Lauschen und am Entdecken.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Werkzeuge oder lausche gemeinsam mit den Tieren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Flugobjekte, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-dinge-die-fliegen-5deb",
+      "carousel": [
+        {
+          "label": "Anlaute – Werkzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6"
+        },
+        {
+          "label": "Anlaute – Spielzeug",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+        },
+        {
+          "label": "Anlaute – Zootiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+        },
+        {
+          "label": "Anlaute – Strand",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-strand-1657"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "tools",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Hämmern, Handsägen und Schraubenschlüsseln – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Hämmer",
+        "Handsägen",
+        "Schraubenschlüssel",
+        "Werkzeuge",
+        "tools",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Manche Wörter klingen am Anfang ganz ähnlich, und genau das macht das Lauschen so spannend. Mit diesem Suchblatt rund um die Hämmer, Handsägen und Schraubenschlüssel lädst du dein Kind ein, ganz genau auf den Anfangslaut zu achten. Ihr sprecht zusammen einen Anlaut aus, und dann sucht dein Kind unter den abgebildeten Werkzeugen jedes Bild, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden eingekreist. Es geht einzig und allein ums Heraushören des ersten Lautes, nicht ums Lesen oder Schreiben. Diese Übung gehört zur phonologischen Bewusstheit, die jedes Vorschulkind sanft auf den Schriftspracherwerb vorbereitet. Lass deinem Kind Zeit, jeden Anlaut in Ruhe zu erlauschen.",
+      "p2": "Hör genau hin, heißt es bei diesem fröhlichen Anlaut-Suchblatt mit den Hämmern, Handsägen und Schraubenschlüsseln. Dein Kind soll den Anfangslaut eines Wortes heraushören und jedes Bild finden, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden liebevoll eingekreist. Gelesen oder geschrieben wird dabei nichts, denn allein der Klang führt die Suche an. Diese feine Hörarbeit stärkt die phonologische Bewusstheit und bereitet dein Vorschulkind sanft auf den Start in die bunte Welt der Buchstaben vor, ganz ohne Uhr und Wertung.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Spielsachen oder lausche gemeinsam mit den Haushaltsdingen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Werkzeuge, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-werkzeuge-5fa6",
+      "carousel": [
+        {
+          "label": "Anlaute – Spielzeug",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3"
+        },
+        {
+          "label": "Anlaute – Gemüse",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+        },
+        {
+          "label": "Anlaute – Aktivitäten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+        },
+        {
+          "label": "Anlaute – Vögel 2",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-vogel-2-1d0f"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "toys",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Bällen, Puppen und Robotern – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Bälle",
+        "Puppen",
+        "Roboter",
+        "Spielsachen",
+        "toys",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Wenn dein Kind den Anfangslaut eines Wortes hören kann, hat es einen großen Schritt in Richtung Lesen gemacht. Auf diesem Blatt rund um die Bälle, Puppen und Roboter übt es genau das. Sprecht zusammen einen Anlaut, etwa nach der vertrauten Sprechweise „M“ wie Maus, und dann wandert der Blick über alle abgebildeten Spielsachen. Überall dort, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Dieses genaue Hinhören schult die phonologische Bewusstheit und macht dabei richtig Freude. Es gibt keine Uhr und keine Wertung, nur dich und dein Kind beim gemeinsamen Lauschen und Entdecken. So darf jedes Kind in seinem eigenen Tempo voranschreiten.",
+      "p2": "Mit den Bällen, Puppen und Robotern auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Spielsachen. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Gemüsesorten oder lausche gemeinsam mit den Supermarktdingen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Spielsachen, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-spielzeug-2dc3",
+      "carousel": [
+        {
+          "label": "Anlaute – Gemüse",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2"
+        },
+        {
+          "label": "Anlaute – Fahrzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+        },
+        {
+          "label": "Anlaute – Tiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+        },
+        {
+          "label": "Anlaute – Körperteile",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-korperteile-9fc1"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "vegetables",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Karotten, Erbsen und Kürbissen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Karotten",
+        "Erbsen",
+        "Kürbisse",
+        "Gemüsesorten",
+        "vegetables",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Ein gutes Ohr für Anlaute öffnet die Tür zur Welt der Buchstaben. Auf diesem Blatt rund um die Karotten, Erbsen und Kürbisse darf dein Kind genau dieses Ohr trainieren. Ihr einigt euch auf einen Anfangslaut, und dann sucht dein Kind unter den abgebildeten Gemüsesorten alle Bilder, deren Namen mit demselben Laut starten. Jedes gefundene Bild wird liebevoll eingekreist. Im Mittelpunkt steht stets das Heraushören des ersten Lautes, niemals das Lesen, Schreiben oder Buchstabieren. So bleibt die Übung leicht und freudvoll. Schritt für Schritt wächst dabei die phonologische Bewusstheit, und dein Kind sammelt wertvolle Erfahrungen, die ihm den späteren Start in das Lesen spürbar erleichtern werden.",
+      "p2": "Ein Suchblatt voller Karotten, Erbsen und Kürbisse wartet hier auf dein Kind. Die Aufgabe lautet: einen Anfangslaut heraushören und alle Bilder einkreisen, deren Namen mit genau diesem Laut beginnen. Nach der vertrauten Sprechweise „M“ wie Maus sucht ihr gemeinsam nach passenden Klängen am Wortanfang. Geschrieben oder gelesen wird dabei nichts, denn allein das feine Ohr ist gefragt. Diese spielerische Vorübung baut die phonologische Bewusstheit auf und schenkt deinem Vorschulkind echte Freude am Lauschen und am Entdecken.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Fahrzeuge oder lausche gemeinsam mit den Backwaren, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Gemüsesorten, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-gemuse-9ee2",
+      "carousel": [
+        {
+          "label": "Anlaute – Fahrzeuge",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444"
+        },
+        {
+          "label": "Anlaute – Zootiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+        },
+        {
+          "label": "Anlaute – Rund ums Haus",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-rund-ums-haus-3fbf"
+        },
+        {
+          "label": "Anlaute – Frühstück",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-fruhstuck-04c8"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "vehicles",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Bussen, Lastwagen und Baggern – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Busse",
+        "Lastwagen",
+        "Bagger",
+        "Fahrzeuge",
+        "vehicles",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Anlaute hören ist wie ein kleines Geheimnis, das sich in jedem Wort versteckt. Auf diesem Blatt mit den Bussen, Lastwagen und Baggern darf dein Kind diesem Geheimnis nachspüren. Gemeinsam legt ihr einen Anfangslaut fest, und dann lauscht dein Kind dem Namen jedes Bildes nach. Beginnt der Name mit dem gesuchten Anlaut, wird das Bild eingekreist. So bleibt der Blick immer beim Klang und nicht bei den Buchstaben, denn gelesen wird hier noch nicht. Dieses bewusste Hinhören stärkt die phonologische Bewusstheit, eine wichtige Vorübung fürs spätere Lesen. Bei den Bussen, Lastwagen und Baggern findet dein Kind viele vertraute Motive, die das Lauschen besonders leicht und vergnüglich machen.",
+      "p2": "Hör genau hin, heißt es bei diesem fröhlichen Anlaut-Suchblatt mit den Bussen, Lastwagen und Baggern. Dein Kind soll den Anfangslaut eines Wortes heraushören und jedes Bild finden, dessen Name mit demselben Laut beginnt. Die passenden Bilder werden liebevoll eingekreist. Gelesen oder geschrieben wird dabei nichts, denn allein der Klang führt die Suche an. Diese feine Hörarbeit stärkt die phonologische Bewusstheit und bereitet dein Vorschulkind sanft auf den Start in die bunte Welt der Buchstaben vor, ganz ohne Uhr und Wertung.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Zootiere oder lausche gemeinsam mit den Strandsachen, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Fahrzeuge, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-fahrzeuge-b444",
+      "carousel": [
+        {
+          "label": "Anlaute – Zootiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9"
+        },
+        {
+          "label": "Anlaute – Aktivitäten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+        },
+        {
+          "label": "Anlaute – Im Supermarkt",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-im-supermarkt-24fe"
+        },
+        {
+          "label": "Anlaute – Camping",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-camping-068f"
+        }
+      ]
+    },
+    {
+      "slug": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "find-and-count",
+        "mode": "letter-spotting",
+        "theme": "zoo_animals",
+        "level": "vorschule"
+      },
+      "eyebrow": "Arbeitsblatt: Anlaute",
+      "h1": "Anlaute üben mit Löwen, Zebras und Giraffen – Arbeitsblatt für die Vorschule",
+      "strand": "Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)",
+      "slotTokens": [
+        "Löwen",
+        "Zebras",
+        "Giraffen",
+        "Zootiere",
+        "zoo animals",
+        "vorschule",
+        "anlaute"
+      ],
+      "p1": "Auf diesem Anlaut-Suchblatt geht dein Kind auf eine fröhliche Lauschreise durch die Löwen, Zebras und Giraffen. Die Aufgabe ist herrlich einfach: Du nennst gemeinsam mit deinem Kind einen bestimmten Anlaut, und dann sucht ihr alle Bilder, deren Namen mit genau diesem Anfangslaut beginnen. Jedes passende Bild wird liebevoll eingekreist. Hier wird nichts gelesen und nichts geschrieben, denn dein Kind soll einzig und allein den ersten Laut eines Wortes heraushören. Genau dieses Anlaut-Heraushören ist eine wichtige Vorübung fürs spätere Lesen und Schreiben. Spielerisch und ganz ohne Druck wächst dabei die phonologische Bewusstheit, die jedes Vorschulkind für den behutsamen Start in die bunte Welt der Buchstaben braucht.",
+      "p2": "Mit den Löwen, Zebras und Giraffen auf diesem Blatt übt dein Kind, den allerersten Laut eines Wortes bewusst zu erlauschen. Ihr legt zusammen einen Anlaut fest, und dann wandert der Blick über alle abgebildeten Zootiere. Überall, wo der Name mit demselben Anfangslaut beginnt, malt dein Kind einen fröhlichen Kreis. Buchstaben werden hier noch nicht gelesen, denn allein das Ohr entscheidet. Diese liebevolle Vorübung fürs spätere Lesen schult sanft die phonologische Bewusstheit deines Vorschulkindes und macht dabei wirklich richtig Freude.",
+      "p3": "Hat dein Kind erst einmal Freude am Lauschen gefunden, möchte es bestimmt immer weiter Anlaute heraushören. Schau dich gern um rund um die Aktivitäten oder lausche gemeinsam mit den Vögeln, denn jedes neue Bild bringt neue Klänge zum Entdecken. In unserer großen, kostenlosen Sammlung findest du viele weitere Suchblätter rund um die Zootiere, die du bequem ausdrucken oder direkt online mit deinem Kind spielen kannst. So bleibt das Üben der phonologischen Bewusstheit abwechslungsreich und fröhlich. Genießt zusammen jeden kleinen Anlaut, den ihr aufspürt, und freut euch über jeden Fortschritt auf dem Weg zum Lesen.",
+      "canonicalDeckSlug": "suchen-und-zaehlen-buchstaben-suchen-zootiere-1bb9",
+      "carousel": [
+        {
+          "label": "Anlaute – Aktivitäten",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-aktivitaten-51d6"
+        },
+        {
+          "label": "Anlaute – Tiere",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-tiere"
+        },
+        {
+          "label": "Anlaute – Bäckerei",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-backerei-056c"
+        },
+        {
+          "label": "Anlaute – Klassenzimmer",
+          "href": "suchen-und-zaehlen-buchstaben-suchen-klassenzimmer-6b2b"
+        }
+      ]
     }
   ]
 }

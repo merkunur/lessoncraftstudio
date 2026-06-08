@@ -74,3 +74,9 @@ _All 13 readiness types now have rows._
 2. **find-objects/i-spy** (46) — enters target counts into a validated legend. Clean face = find-odd (shipped 46).
 3. **more-less/image-number** (48) — compares a pile to a numeral. Clean face = image-image (shipped 40).
 4. **more-less/check-cross** (46) — counts each group + enters numerals + marks ✓/✗ (numeric count-input load-bearing). Clean face = image-image (shipped 40).
+
+## Literacy/Anlaut band (STEP 4)
+
+| type / mode | mechanic | genuine skill | de grade-band | de framing | source |
+|---|---|---|---|---|---|
+| find-and-count / letter-spotting | **Anlaut-Suchblatt:** child is given a target initial sound + circles all pictures whose NAME begins with that sound (answer stays in the picture domain) | Anlaut-Hören = phonologische Bewusstheit (Vorläuferfertigkeit; precedes formal reading/writing) | **Vorschule** | **READINESS, NO-CCSS** (R1: RF.K.3.a doesn't transfer — picture-domain answer). strand *Anlaute – phonologische Bewusstheit (Vorläuferfähigkeit)*. **R5 de-specific phonetic_variety re-author** — lands ONLY German-Anlaut-suitable themes: 40→**33** (dropped the 7 German-weak: accessories/colors/shapes/spring/summer/weather/winter; NOT cross-applied to the shared EN compat — per-locale authority). **R6:** h1 foregrounds **Anlaute**, NOT the de type name's misleading "zählen". generic-Anlaut prose + the „M" wie Maus quoted-letter idiom (no theme singular; gender-lint clean). | find-and-count.html (beginningLetterToggle → letter-spotting) |

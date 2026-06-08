@@ -1,0 +1,775 @@
+{
+  "locale": "de",
+  "exerciseType": "odd-one-out",
+  "rawRowCount": 92,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-theme": 1,
+    "same-theme": 46
+  },
+  "totalValid": 47,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-theme",
+    "same-theme"
+  ],
+  "collapsedFamilies": 2,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 44,
+      "canonical": "was-passt-nicht-themenubergreifend-backerei-f235",
+      "siblings": [
+        "was-passt-nicht-themenubergreifend-backerei-f235",
+        "was-passt-nicht-themenubergreifend-backerei-d793",
+        "was-passt-nicht-themenubergreifend-backerei-8b9c",
+        "was-passt-nicht-themenubergreifend-backerei-720e",
+        "was-passt-nicht-themenubergreifend-backerei-1a2e",
+        "was-passt-nicht-themenubergreifend-backerei-255c",
+        "was-passt-nicht-themenubergreifend-backerei-7311",
+        "was-passt-nicht-themenubergreifend-backerei-2433",
+        "was-passt-nicht-themenubergreifend-backerei-f1a4",
+        "was-passt-nicht-themenubergreifend-backerei-818f",
+        "was-passt-nicht-themenubergreifend-backerei-855f",
+        "was-passt-nicht-themenubergreifend-backerei-b376",
+        "was-passt-nicht-themenubergreifend-backerei-0a8d",
+        "was-passt-nicht-themenubergreifend-backerei-8b56",
+        "was-passt-nicht-themenubergreifend-backerei-3a79",
+        "was-passt-nicht-themenubergreifend-backerei-bf42",
+        "was-passt-nicht-themenubergreifend-backerei-80fc",
+        "was-passt-nicht-themenubergreifend-backerei-09f2",
+        "was-passt-nicht-themenubergreifend-backerei-7fe2",
+        "was-passt-nicht-themenubergreifend-backerei-74bf",
+        "was-passt-nicht-themenubergreifend-backerei-f683",
+        "was-passt-nicht-themenubergreifend-backerei-4675",
+        "was-passt-nicht-themenubergreifend-backerei-e111",
+        "was-passt-nicht-themenubergreifend-backerei-1385",
+        "was-passt-nicht-themenubergreifend-backerei-f442",
+        "was-passt-nicht-themenubergreifend-backerei-7709",
+        "was-passt-nicht-themenubergreifend-backerei-b51a",
+        "was-passt-nicht-themenubergreifend-backerei-0d93",
+        "was-passt-nicht-themenubergreifend-backerei-eb62",
+        "was-passt-nicht-themenubergreifend-backerei-0e2e",
+        "was-passt-nicht-themenubergreifend-backerei-0fbd",
+        "was-passt-nicht-themenubergreifend-backerei-fc82",
+        "was-passt-nicht-themenubergreifend-backerei-133b",
+        "was-passt-nicht-themenubergreifend-backerei-39e4",
+        "was-passt-nicht-themenubergreifend-backerei-2f6a",
+        "was-passt-nicht-themenubergreifend-backerei-368c",
+        "was-passt-nicht-themenubergreifend-backerei-8d55",
+        "was-passt-nicht-themenubergreifend-backerei-e60a",
+        "was-passt-nicht-themenubergreifend-backerei-911f",
+        "was-passt-nicht-themenubergreifend-backerei-26d3",
+        "was-passt-nicht-themenubergreifend-backerei-fc3f",
+        "was-passt-nicht-themenubergreifend-backerei-25e3",
+        "was-passt-nicht-themenubergreifend-backerei-1425",
+        "was-passt-nicht-themenubergreifend-backerei-b1f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-accessoires-a649",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-accessoires-a649"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-aktivitaten-4537",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-aktivitaten-4537"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "was-passt-nicht-gleiches-thema-tiere",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-tiere",
+        "was-passt-nicht-gleiches-thema-tiere-430f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-rund-ums-haus-61aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-im-supermarkt-d7b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-backerei-cc72",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-backerei-cc72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-strand-a32e",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-strand-a32e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-vogel-2caa",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-vogel-2caa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-vogel-2-8562",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-vogel-2-8562"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-korperteile-f338",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-korperteile-f338"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-fruhstuck-7d75",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-fruhstuck-7d75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-camping-3916",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-camping-3916"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-weihnachten-bae4",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-weihnachten-bae4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-klassenzimmer-0d01",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-klassenzimmer-0d01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-kleidung-8cc8",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-kleidung-8cc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-farben-e20e",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-farben-e20e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-desserts-und-sussigkeiten-0ea8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-dinosaurier-a7e0",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-dinosaurier-a7e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-ostern-0fc9",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-ostern-0fc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-emotionen-af25",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-emotionen-af25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-bauernhoftiere-9414",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-bauernhoftiere-9414"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-blumen-854d",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-blumen-854d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-waldtiere-3f7f",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-waldtiere-3f7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-fruchte-1614",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-fruchte-1614"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-mobel-188a",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-mobel-188a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-krankenhaus-7edc",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-krankenhaus-7edc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-insekten-und-kafer-a5f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-kuchenwerkzeuge-626d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-musik-1100",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-musik-1100"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-berufe-f622",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-berufe-f622"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-meeresleben-ed3e",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-meeresleben-ed3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-haustiere-cb98",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-haustiere-cb98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-postamt-3ab4",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-postamt-3ab4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-formen-49f4",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-formen-49f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-weltraum-584e",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-weltraum-584e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-fruhling-f9d8",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-fruhling-f9d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-sommer-7105",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-sommer-7105"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-erntedankfest-b3ee",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-erntedankfest-b3ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-dinge-die-fliegen-a762"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-werkzeuge-3bf5",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-werkzeuge-3bf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-spielzeug-bb93",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-spielzeug-bb93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-baume-7707",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-baume-7707"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-gemuse-42ef",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-gemuse-42ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-fahrzeuge-d80a",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-fahrzeuge-d80a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-wetter-c622",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-wetter-c622"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "was-passt-nicht-gleiches-thema-zootiere-a24e",
+      "siblings": [
+        "was-passt-nicht-gleiches-thema-zootiere-a24e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,1390 @@
+{
+  "locale": "de",
+  "exerciseType": "sudoku",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "medium": 47
+  },
+  "totalValid": 94,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "medium"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-accessoires-94dd",
+      "siblings": [
+        "bilder-sudoku-leicht-accessoires-94dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-aktivitaten-0eeb",
+      "siblings": [
+        "bilder-sudoku-leicht-aktivitaten-0eeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-tiere-16ae",
+      "siblings": [
+        "bilder-sudoku-leicht-tiere-16ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-rund-ums-haus-c393",
+      "siblings": [
+        "bilder-sudoku-leicht-rund-ums-haus-c393"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-im-supermarkt-22e5",
+      "siblings": [
+        "bilder-sudoku-leicht-im-supermarkt-22e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-backerei-951b",
+      "siblings": [
+        "bilder-sudoku-leicht-backerei-951b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-strand-a288",
+      "siblings": [
+        "bilder-sudoku-leicht-strand-a288"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-vogel-5aff",
+      "siblings": [
+        "bilder-sudoku-leicht-vogel-5aff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-vogel-2-fcd6",
+      "siblings": [
+        "bilder-sudoku-leicht-vogel-2-fcd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-korperteile-4c53",
+      "siblings": [
+        "bilder-sudoku-leicht-korperteile-4c53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-fruhstuck-6f7b",
+      "siblings": [
+        "bilder-sudoku-leicht-fruhstuck-6f7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-camping-f083",
+      "siblings": [
+        "bilder-sudoku-leicht-camping-f083"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-weihnachten-8463",
+      "siblings": [
+        "bilder-sudoku-leicht-weihnachten-8463"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-klassenzimmer-6b64",
+      "siblings": [
+        "bilder-sudoku-leicht-klassenzimmer-6b64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-kleidung-980a",
+      "siblings": [
+        "bilder-sudoku-leicht-kleidung-980a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-farben-85c8",
+      "siblings": [
+        "bilder-sudoku-leicht-farben-85c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-desserts-und-sussigkeiten-f762",
+      "siblings": [
+        "bilder-sudoku-leicht-desserts-und-sussigkeiten-f762"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-dinosaurier-4eb9",
+      "siblings": [
+        "bilder-sudoku-leicht-dinosaurier-4eb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-ostern-f87b",
+      "siblings": [
+        "bilder-sudoku-leicht-ostern-f87b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-emotionen-2e9e",
+      "siblings": [
+        "bilder-sudoku-leicht-emotionen-2e9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-bauernhoftiere-134a",
+      "siblings": [
+        "bilder-sudoku-leicht-bauernhoftiere-134a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-blumen-fdda",
+      "siblings": [
+        "bilder-sudoku-leicht-blumen-fdda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-waldtiere-bc39",
+      "siblings": [
+        "bilder-sudoku-leicht-waldtiere-bc39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-fruchte-fbad",
+      "siblings": [
+        "bilder-sudoku-leicht-fruchte-fbad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-mobel-6681",
+      "siblings": [
+        "bilder-sudoku-leicht-mobel-6681"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-krankenhaus-802e",
+      "siblings": [
+        "bilder-sudoku-leicht-krankenhaus-802e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-insekten-und-kafer-dd59",
+      "siblings": [
+        "bilder-sudoku-leicht-insekten-und-kafer-dd59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-kuchenwerkzeuge-74d1",
+      "siblings": [
+        "bilder-sudoku-leicht-kuchenwerkzeuge-74d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-musik-31f2",
+      "siblings": [
+        "bilder-sudoku-leicht-musik-31f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-berufe-b0bf",
+      "siblings": [
+        "bilder-sudoku-leicht-berufe-b0bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-meeresleben-a9a9",
+      "siblings": [
+        "bilder-sudoku-leicht-meeresleben-a9a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-haustiere-dde1",
+      "siblings": [
+        "bilder-sudoku-leicht-haustiere-dde1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-postamt-a5fc",
+      "siblings": [
+        "bilder-sudoku-leicht-postamt-a5fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-formen-4957",
+      "siblings": [
+        "bilder-sudoku-leicht-formen-4957"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-weltraum-bc9f",
+      "siblings": [
+        "bilder-sudoku-leicht-weltraum-bc9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-fruhling-a50e",
+      "siblings": [
+        "bilder-sudoku-leicht-fruhling-a50e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-sommer-dc2f",
+      "siblings": [
+        "bilder-sudoku-leicht-sommer-dc2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-erntedankfest-7c84",
+      "siblings": [
+        "bilder-sudoku-leicht-erntedankfest-7c84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-dinge-die-fliegen-d1a7",
+      "siblings": [
+        "bilder-sudoku-leicht-dinge-die-fliegen-d1a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-werkzeuge-b46b",
+      "siblings": [
+        "bilder-sudoku-leicht-werkzeuge-b46b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-spielzeug-1ae2",
+      "siblings": [
+        "bilder-sudoku-leicht-spielzeug-1ae2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-baume-5889",
+      "siblings": [
+        "bilder-sudoku-leicht-baume-5889"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-gemuse-cae6",
+      "siblings": [
+        "bilder-sudoku-leicht-gemuse-cae6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-fahrzeuge-03d6",
+      "siblings": [
+        "bilder-sudoku-leicht-fahrzeuge-03d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-wetter-f192",
+      "siblings": [
+        "bilder-sudoku-leicht-wetter-f192"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-winter-d176",
+      "siblings": [
+        "bilder-sudoku-leicht-winter-d176"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-leicht-zootiere-b423",
+      "siblings": [
+        "bilder-sudoku-leicht-zootiere-b423"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-accessoires-5eeb",
+      "siblings": [
+        "bilder-sudoku-mittel-accessoires-5eeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-aktivitaten-d8c8",
+      "siblings": [
+        "bilder-sudoku-mittel-aktivitaten-d8c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-tiere-9ccc",
+      "siblings": [
+        "bilder-sudoku-mittel-tiere-9ccc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-rund-ums-haus-cd5a",
+      "siblings": [
+        "bilder-sudoku-mittel-rund-ums-haus-cd5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-im-supermarkt-4ac3",
+      "siblings": [
+        "bilder-sudoku-mittel-im-supermarkt-4ac3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-backerei-ce03",
+      "siblings": [
+        "bilder-sudoku-mittel-backerei-ce03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-strand-628b",
+      "siblings": [
+        "bilder-sudoku-mittel-strand-628b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-vogel-8b75",
+      "siblings": [
+        "bilder-sudoku-mittel-vogel-8b75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-vogel-2-d9b2",
+      "siblings": [
+        "bilder-sudoku-mittel-vogel-2-d9b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-korperteile-ccc3",
+      "siblings": [
+        "bilder-sudoku-mittel-korperteile-ccc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-fruhstuck-cb72",
+      "siblings": [
+        "bilder-sudoku-mittel-fruhstuck-cb72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-camping-f64c",
+      "siblings": [
+        "bilder-sudoku-mittel-camping-f64c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-weihnachten-c801",
+      "siblings": [
+        "bilder-sudoku-mittel-weihnachten-c801"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-klassenzimmer-51f3",
+      "siblings": [
+        "bilder-sudoku-mittel-klassenzimmer-51f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-kleidung-8d45",
+      "siblings": [
+        "bilder-sudoku-mittel-kleidung-8d45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-farben-948f",
+      "siblings": [
+        "bilder-sudoku-mittel-farben-948f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-desserts-und-sussigkeiten-f53f",
+      "siblings": [
+        "bilder-sudoku-mittel-desserts-und-sussigkeiten-f53f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-dinosaurier-8e70",
+      "siblings": [
+        "bilder-sudoku-mittel-dinosaurier-8e70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-ostern-91f6",
+      "siblings": [
+        "bilder-sudoku-mittel-ostern-91f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-emotionen-c0ea",
+      "siblings": [
+        "bilder-sudoku-mittel-emotionen-c0ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-bauernhoftiere-7ad5",
+      "siblings": [
+        "bilder-sudoku-mittel-bauernhoftiere-7ad5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-blumen-377f",
+      "siblings": [
+        "bilder-sudoku-mittel-blumen-377f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-waldtiere-52d7",
+      "siblings": [
+        "bilder-sudoku-mittel-waldtiere-52d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-fruchte-3f06",
+      "siblings": [
+        "bilder-sudoku-mittel-fruchte-3f06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-mobel-3d3d",
+      "siblings": [
+        "bilder-sudoku-mittel-mobel-3d3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-krankenhaus-615e",
+      "siblings": [
+        "bilder-sudoku-mittel-krankenhaus-615e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-insekten-und-kafer-5f37",
+      "siblings": [
+        "bilder-sudoku-mittel-insekten-und-kafer-5f37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-kuchenwerkzeuge-ce68",
+      "siblings": [
+        "bilder-sudoku-mittel-kuchenwerkzeuge-ce68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-musik-7fc1",
+      "siblings": [
+        "bilder-sudoku-mittel-musik-7fc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-berufe-cfa9",
+      "siblings": [
+        "bilder-sudoku-mittel-berufe-cfa9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-meeresleben-4b4a",
+      "siblings": [
+        "bilder-sudoku-mittel-meeresleben-4b4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-haustiere-e658",
+      "siblings": [
+        "bilder-sudoku-mittel-haustiere-e658"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-postamt-298f",
+      "siblings": [
+        "bilder-sudoku-mittel-postamt-298f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-formen-09bc",
+      "siblings": [
+        "bilder-sudoku-mittel-formen-09bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-weltraum-e90b",
+      "siblings": [
+        "bilder-sudoku-mittel-weltraum-e90b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-fruhling-872a",
+      "siblings": [
+        "bilder-sudoku-mittel-fruhling-872a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-sommer-20cf",
+      "siblings": [
+        "bilder-sudoku-mittel-sommer-20cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-erntedankfest-9a1e",
+      "siblings": [
+        "bilder-sudoku-mittel-erntedankfest-9a1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-dinge-die-fliegen-a981",
+      "siblings": [
+        "bilder-sudoku-mittel-dinge-die-fliegen-a981"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-werkzeuge-6da4",
+      "siblings": [
+        "bilder-sudoku-mittel-werkzeuge-6da4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-spielzeug-26f9",
+      "siblings": [
+        "bilder-sudoku-mittel-spielzeug-26f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-baume-564f",
+      "siblings": [
+        "bilder-sudoku-mittel-baume-564f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-gemuse-0d27",
+      "siblings": [
+        "bilder-sudoku-mittel-gemuse-0d27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-fahrzeuge-79e4",
+      "siblings": [
+        "bilder-sudoku-mittel-fahrzeuge-79e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-wetter-160b",
+      "siblings": [
+        "bilder-sudoku-mittel-wetter-160b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-winter-6014",
+      "siblings": [
+        "bilder-sudoku-mittel-winter-6014"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bilder-sudoku-mittel-zootiere-cec5",
+      "siblings": [
+        "bilder-sudoku-mittel-zootiere-cec5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

@@ -1,0 +1,1264 @@
+{
+  "locale": "de",
+  "exerciseType": "picture-path",
+  "rawRowCount": 88,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 47,
+    "classic-maze": 38
+  },
+  "totalValid": 85,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-accessoires-d1b5",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-accessoires-d1b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-aktivitaten-4403",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-aktivitaten-4403"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-tiere-8e7d",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-tiere-8e7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-rund-ums-haus-6391",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-rund-ums-haus-6391"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-im-supermarkt-8088",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-im-supermarkt-8088"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-backerei-f692",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-backerei-f692"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-strand-1106",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-strand-1106"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-vogel-5694",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-vogel-5694"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-vogel-2-5c64",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-vogel-2-5c64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-korperteile-4952",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-korperteile-4952"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-fruhstuck-6def",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-fruhstuck-6def"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-camping-d811",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-camping-d811"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-weihnachten-0f56",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-weihnachten-0f56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-klassenzimmer-0c6d",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-klassenzimmer-0c6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-kleidung-9d1d",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-kleidung-9d1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-farben-b4a8",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-farben-b4a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-desserts-und-sussigkeiten-315b",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-desserts-und-sussigkeiten-315b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-dinosaurier-fb9c",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-dinosaurier-fb9c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-ostern-56ff",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-ostern-56ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-emotionen-366c",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-emotionen-366c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-bauernhoftiere-b6a7",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-bauernhoftiere-b6a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-blumen-7bc2",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-blumen-7bc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-waldtiere-363d",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-waldtiere-363d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-fruchte-7bb0",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-fruchte-7bb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-mobel-c5f5",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-mobel-c5f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-krankenhaus-1f95",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-krankenhaus-1f95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-insekten-und-kafer-671b",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-insekten-und-kafer-671b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-kuchenwerkzeuge-adb4",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-kuchenwerkzeuge-adb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-musik-d66e",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-musik-d66e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-berufe-bba5",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-berufe-bba5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-meeresleben-0b0b",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-meeresleben-0b0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-haustiere-7b76",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-haustiere-7b76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-postamt-c412",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-postamt-c412"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-formen-671d",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-formen-671d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-weltraum-a3a9",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-weltraum-a3a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-fruhling-e131",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-fruhling-e131"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-sommer-57b9",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-sommer-57b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-erntedankfest-88ac",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-erntedankfest-88ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-dinge-die-fliegen-8ad9",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-dinge-die-fliegen-8ad9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-werkzeuge-3313",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-werkzeuge-3313"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-spielzeug-2ea1",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-spielzeug-2ea1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-baume-cbdb",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-baume-cbdb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-gemuse-1ea0",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-gemuse-1ea0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-fahrzeuge-9142",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-fahrzeuge-9142"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-wetter-191f",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-wetter-191f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-winter-65c5",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-winter-65c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bildpfad-den-richtigen-weg-wahlen-zootiere-c05f",
+      "siblings": [
+        "bildpfad-den-richtigen-weg-wahlen-zootiere-c05f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-accessoires-79ff",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-accessoires-79ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-aktivitaten-05f4",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-aktivitaten-05f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-rund-ums-haus-3588",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-rund-ums-haus-3588"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-im-supermarkt-5336",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-im-supermarkt-5336"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-backerei-3710",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-backerei-3710"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-strand-2080",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-strand-2080"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-korperteile-b788",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-korperteile-b788"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-fruhstuck-2376",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-fruhstuck-2376"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-camping-a1db",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-camping-a1db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-weihnachten-a34c",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-weihnachten-a34c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-klassenzimmer-6078",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-klassenzimmer-6078"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-kleidung-3b91",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-kleidung-3b91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-farben-fb95",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-farben-fb95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-desserts-und-sussigkeiten-cb8d",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-desserts-und-sussigkeiten-cb8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-dinosaurier-fa13",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-dinosaurier-fa13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-ostern-18b3",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-ostern-18b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-emotionen-eb81",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-emotionen-eb81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-blumen-1045",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-blumen-1045"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-fruchte-b828",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-fruchte-b828"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-mobel-26a2",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-mobel-26a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-krankenhaus-f040",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-krankenhaus-f040"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-kuchenwerkzeuge-065d",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-kuchenwerkzeuge-065d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-musik-b7ed",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-musik-b7ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-berufe-e068",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-berufe-e068"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-meeresleben-0b83",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-meeresleben-0b83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-postamt-5dbf",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-postamt-5dbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-formen-930f",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-formen-930f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-weltraum-1f99",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-weltraum-1f99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-fruhling-8921",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-fruhling-8921"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-sommer-cbd7",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-sommer-cbd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-erntedankfest-b99d",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-erntedankfest-b99d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-dinge-die-fliegen-5239",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-dinge-die-fliegen-5239"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-werkzeuge-dcde",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-werkzeuge-dcde"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-spielzeug-b73b",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-spielzeug-b73b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-baume-ce93",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-baume-ce93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-gemuse-316f",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-gemuse-316f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-fahrzeuge-a664",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-fahrzeuge-a664"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildpfad-klassisches-labyrinth-wetter-f705",
+      "siblings": [
+        "bildpfad-klassisches-labyrinth-wetter-f705"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true
+    }
+  ]
+}

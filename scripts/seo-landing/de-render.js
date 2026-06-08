@@ -14,8 +14,10 @@ function render(tpl, nPl, gen){
   return tpl
     .replace(/(\b[Dd]en )((?:[a-zäöüß]+ )*)\{N_PL\}/g, function (m, art, mid) { return art + mid + datN(nPl); })
     .replace(/(\b[Dd]en )((?:[a-zäöüß]+ )*)\{GEN\}/g, function (m, art, mid) { return art + mid + datN(gen); })
-    .replace(/([Mm]it) \{N_PL\}/g, function (m, mit) { return mit + ' ' + datN(nPl); })
-    .replace(/([Mm]it) \{GEN\}/g, function (m, mit) { return mit + ' ' + datN(gen); })
+    // bare slot after an ALWAYS-dative preposition (no article) → dative plural +n.
+    // (two-way prepositions an/auf/in/unter/zwischen are handled only via "den" above, since they're acc-or-dat.)
+    .replace(/\b([Aa]us|[Aa]ußer|[Bb]ei|[Gg]egenüber|[Mm]it|[Nn]ach|[Ss]eit|[Vv]on|[Zz]u) \{N_PL\}/g, function (m, p) { return p + ' ' + datN(nPl); })
+    .replace(/\b([Aa]us|[Aa]ußer|[Bb]ei|[Gg]egenüber|[Mm]it|[Nn]ach|[Ss]eit|[Vv]on|[Zz]u) \{GEN\}/g, function (m, p) { return p + ' ' + datN(gen); })
     .replace(/\{N_PL\}/g, nPl)
     .replace(/\{GEN\}/g, gen)
     .replace(/(^|[.!?]\s+)Ihr Kind/g, '$1Dein Kind').replace(/Ihr Kind/g, 'dein Kind')

@@ -1,0 +1,1485 @@
+{
+  "locale": "de",
+  "exerciseType": "prepositions",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 48,
+    "multiplechoice": 46
+  },
+  "totalValid": 94,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-accessoires-2781",
+      "siblings": [
+        "praepositionen-luckentext-accessoires-2781"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-aktivitaten-44b8",
+      "siblings": [
+        "praepositionen-luckentext-aktivitaten-44b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-tiere-95c2",
+      "siblings": [
+        "praepositionen-luckentext-tiere-95c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-rund-ums-haus-5de1",
+      "siblings": [
+        "praepositionen-luckentext-rund-ums-haus-5de1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-im-supermarkt-e298",
+      "siblings": [
+        "praepositionen-luckentext-im-supermarkt-e298"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-backerei-20c1",
+      "siblings": [
+        "praepositionen-luckentext-backerei-20c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-strand-98a1",
+      "siblings": [
+        "praepositionen-luckentext-strand-98a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-vogel-5aa6",
+      "siblings": [
+        "praepositionen-luckentext-vogel-5aa6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-vogel-2-49e5",
+      "siblings": [
+        "praepositionen-luckentext-vogel-2-49e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-korperteile-a7d3",
+      "siblings": [
+        "praepositionen-luckentext-korperteile-a7d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-fruhstuck-3f12",
+      "siblings": [
+        "praepositionen-luckentext-fruhstuck-3f12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-camping-246b",
+      "siblings": [
+        "praepositionen-luckentext-camping-246b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-weihnachten-7a9b",
+      "siblings": [
+        "praepositionen-luckentext-weihnachten-7a9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-klassenzimmer-56af",
+      "siblings": [
+        "praepositionen-luckentext-klassenzimmer-56af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-kleidung-8d57",
+      "siblings": [
+        "praepositionen-luckentext-kleidung-8d57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-farben-d336",
+      "siblings": [
+        "praepositionen-luckentext-farben-d336"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-desserts-und-sussigkeiten-71f6",
+      "siblings": [
+        "praepositionen-luckentext-desserts-und-sussigkeiten-71f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-dinosaurier-dfb3",
+      "siblings": [
+        "praepositionen-luckentext-dinosaurier-dfb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-ostern-8455",
+      "siblings": [
+        "praepositionen-luckentext-ostern-8455"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-emotionen-60e5",
+      "siblings": [
+        "praepositionen-luckentext-emotionen-60e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-bauernhoftiere-dac8",
+      "siblings": [
+        "praepositionen-luckentext-bauernhoftiere-dac8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-blumen-5564",
+      "siblings": [
+        "praepositionen-luckentext-blumen-5564"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-waldtiere-f32f",
+      "siblings": [
+        "praepositionen-luckentext-waldtiere-f32f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-fruchte-c567",
+      "siblings": [
+        "praepositionen-luckentext-fruchte-c567"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-mobel-ad16",
+      "siblings": [
+        "praepositionen-luckentext-mobel-ad16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-krankenhaus-6d41",
+      "siblings": [
+        "praepositionen-luckentext-krankenhaus-6d41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-insekten-und-kafer-208c",
+      "siblings": [
+        "praepositionen-luckentext-insekten-und-kafer-208c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-kuchenwerkzeuge-d3c0",
+      "siblings": [
+        "praepositionen-luckentext-kuchenwerkzeuge-d3c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-musik-fc9b",
+      "siblings": [
+        "praepositionen-luckentext-musik-fc9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-berufe-9fa3",
+      "siblings": [
+        "praepositionen-luckentext-berufe-9fa3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-meeresleben-1c5a",
+      "siblings": [
+        "praepositionen-luckentext-meeresleben-1c5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-haustiere-078b",
+      "siblings": [
+        "praepositionen-luckentext-haustiere-078b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-postamt-a049",
+      "siblings": [
+        "praepositionen-luckentext-postamt-a049"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-reptilien-und-amphibien-22d2",
+      "siblings": [
+        "praepositionen-luckentext-reptilien-und-amphibien-22d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-formen-68bf",
+      "siblings": [
+        "praepositionen-luckentext-formen-68bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-weltraum-c469",
+      "siblings": [
+        "praepositionen-luckentext-weltraum-c469"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-fruhling-5f78",
+      "siblings": [
+        "praepositionen-luckentext-fruhling-5f78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-sommer-9f48",
+      "siblings": [
+        "praepositionen-luckentext-sommer-9f48"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-erntedankfest-eb3d",
+      "siblings": [
+        "praepositionen-luckentext-erntedankfest-eb3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-dinge-die-fliegen-7022",
+      "siblings": [
+        "praepositionen-luckentext-dinge-die-fliegen-7022"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-werkzeuge-157e",
+      "siblings": [
+        "praepositionen-luckentext-werkzeuge-157e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-spielzeug-df93",
+      "siblings": [
+        "praepositionen-luckentext-spielzeug-df93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-baume-b0ba",
+      "siblings": [
+        "praepositionen-luckentext-baume-b0ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-gemuse-786f",
+      "siblings": [
+        "praepositionen-luckentext-gemuse-786f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-fahrzeuge-d45b",
+      "siblings": [
+        "praepositionen-luckentext-fahrzeuge-d45b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-wetter-d5c6",
+      "siblings": [
+        "praepositionen-luckentext-wetter-d5c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-winter-676d",
+      "siblings": [
+        "praepositionen-luckentext-winter-676d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "praepositionen-luckentext-zootiere-e158",
+      "siblings": [
+        "praepositionen-luckentext-zootiere-e158"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "1-klasse"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-accessoires-b798",
+      "siblings": [
+        "praepositionen-multiple-choice-accessoires-b798"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-aktivitaten-b58d",
+      "siblings": [
+        "praepositionen-multiple-choice-aktivitaten-b58d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-tiere-666e",
+      "siblings": [
+        "praepositionen-multiple-choice-tiere-666e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-rund-ums-haus-b127",
+      "siblings": [
+        "praepositionen-multiple-choice-rund-ums-haus-b127"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-im-supermarkt-c7f6",
+      "siblings": [
+        "praepositionen-multiple-choice-im-supermarkt-c7f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-backerei-2f86",
+      "siblings": [
+        "praepositionen-multiple-choice-backerei-2f86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-strand-069a",
+      "siblings": [
+        "praepositionen-multiple-choice-strand-069a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-vogel-1552",
+      "siblings": [
+        "praepositionen-multiple-choice-vogel-1552"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-vogel-2-3c1f",
+      "siblings": [
+        "praepositionen-multiple-choice-vogel-2-3c1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-korperteile-ebe7",
+      "siblings": [
+        "praepositionen-multiple-choice-korperteile-ebe7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-fruhstuck-0875",
+      "siblings": [
+        "praepositionen-multiple-choice-fruhstuck-0875"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-camping-120e",
+      "siblings": [
+        "praepositionen-multiple-choice-camping-120e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-weihnachten-06fa",
+      "siblings": [
+        "praepositionen-multiple-choice-weihnachten-06fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-klassenzimmer-c5ce",
+      "siblings": [
+        "praepositionen-multiple-choice-klassenzimmer-c5ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-kleidung-683a",
+      "siblings": [
+        "praepositionen-multiple-choice-kleidung-683a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-farben-865d",
+      "siblings": [
+        "praepositionen-multiple-choice-farben-865d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38",
+      "siblings": [
+        "praepositionen-multiple-choice-desserts-und-sussigkeiten-fd38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-dinosaurier-f308",
+      "siblings": [
+        "praepositionen-multiple-choice-dinosaurier-f308"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-ostern-0b36",
+      "siblings": [
+        "praepositionen-multiple-choice-ostern-0b36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-emotionen-ebc9",
+      "siblings": [
+        "praepositionen-multiple-choice-emotionen-ebc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-bauernhoftiere-00d4",
+      "siblings": [
+        "praepositionen-multiple-choice-bauernhoftiere-00d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-blumen-f9ab",
+      "siblings": [
+        "praepositionen-multiple-choice-blumen-f9ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-waldtiere-bc25",
+      "siblings": [
+        "praepositionen-multiple-choice-waldtiere-bc25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-fruchte-64f3",
+      "siblings": [
+        "praepositionen-multiple-choice-fruchte-64f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-mobel-7743",
+      "siblings": [
+        "praepositionen-multiple-choice-mobel-7743"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-krankenhaus-ab6b",
+      "siblings": [
+        "praepositionen-multiple-choice-krankenhaus-ab6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-kuchenwerkzeuge-6c35",
+      "siblings": [
+        "praepositionen-multiple-choice-kuchenwerkzeuge-6c35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-musik-eac8",
+      "siblings": [
+        "praepositionen-multiple-choice-musik-eac8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-berufe-0f98",
+      "siblings": [
+        "praepositionen-multiple-choice-berufe-0f98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-meeresleben-6469",
+      "siblings": [
+        "praepositionen-multiple-choice-meeresleben-6469"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-haustiere-52d8",
+      "siblings": [
+        "praepositionen-multiple-choice-haustiere-52d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-postamt-8be9",
+      "siblings": [
+        "praepositionen-multiple-choice-postamt-8be9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-formen-b958",
+      "siblings": [
+        "praepositionen-multiple-choice-formen-b958"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-weltraum-979b",
+      "siblings": [
+        "praepositionen-multiple-choice-weltraum-979b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-fruhling-c147",
+      "siblings": [
+        "praepositionen-multiple-choice-fruhling-c147"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-sommer-9474",
+      "siblings": [
+        "praepositionen-multiple-choice-sommer-9474"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-erntedankfest-007c",
+      "siblings": [
+        "praepositionen-multiple-choice-erntedankfest-007c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-dinge-die-fliegen-12d2",
+      "siblings": [
+        "praepositionen-multiple-choice-dinge-die-fliegen-12d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-werkzeuge-25bd",
+      "siblings": [
+        "praepositionen-multiple-choice-werkzeuge-25bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-spielzeug-70d2",
+      "siblings": [
+        "praepositionen-multiple-choice-spielzeug-70d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-baume-f35b",
+      "siblings": [
+        "praepositionen-multiple-choice-baume-f35b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-gemuse-79b7",
+      "siblings": [
+        "praepositionen-multiple-choice-gemuse-79b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-fahrzeuge-7701",
+      "siblings": [
+        "praepositionen-multiple-choice-fahrzeuge-7701"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-wetter-db3c",
+      "siblings": [
+        "praepositionen-multiple-choice-wetter-db3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-winter-bf94",
+      "siblings": [
+        "praepositionen-multiple-choice-winter-bf94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "praepositionen-multiple-choice-zootiere-e8e5",
+      "siblings": [
+        "praepositionen-multiple-choice-zootiere-e8e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "level": "vorschule"
+    }
+  ]
+}

@@ -31,7 +31,7 @@
 export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   'Counting & Cardinality': {
     en: 'Counting & Cardinality',
-    de: 'Zählen und Anzahl',
+    de: 'Zählen und Mengen',
     es: 'Sentido numérico',
     fr: 'Nombres et calcul',
     it: 'Numeri',
@@ -112,7 +112,7 @@ export const STRAND_NAMES: Record<string, Partial<Record<string, string>>> = {
   },
   'Reading: Foundational Skills': {
     en: 'Reading: Foundational Skills',
-    de: 'Lesen: Grundfertigkeiten',
+    de: 'Schriftspracherwerb: Grundlagen',
     es: 'Comprensión lectora',
     fr: 'Lecture et compréhension de l\'écrit',
     it: 'Lettura',

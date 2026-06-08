@@ -1,0 +1,700 @@
+{
+  "locale": "de",
+  "exerciseType": "crossword",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 45
+  },
+  "totalValid": 45,
+  "gateClasses": [
+    null
+  ],
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-accessoires-2245",
+      "siblings": [
+        "kreuzwortraetsel-accessoires-2245"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-aktivitaten-3099",
+      "siblings": [
+        "kreuzwortraetsel-aktivitaten-3099"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-tiere-8fda",
+      "siblings": [
+        "kreuzwortraetsel-tiere-8fda"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-rund-ums-haus-d1d4",
+      "siblings": [
+        "kreuzwortraetsel-rund-ums-haus-d1d4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-im-supermarkt-321b",
+      "siblings": [
+        "kreuzwortraetsel-im-supermarkt-321b"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-backerei-d5b6",
+      "siblings": [
+        "kreuzwortraetsel-backerei-d5b6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-strand-fa41",
+      "siblings": [
+        "kreuzwortraetsel-strand-fa41"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-vogel-f6a2",
+      "siblings": [
+        "kreuzwortraetsel-vogel-f6a2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-vogel-2-ee46",
+      "siblings": [
+        "kreuzwortraetsel-vogel-2-ee46"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-korperteile-ee02",
+      "siblings": [
+        "kreuzwortraetsel-korperteile-ee02"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-fruhstuck-0765",
+      "siblings": [
+        "kreuzwortraetsel-fruhstuck-0765"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-camping-cd65",
+      "siblings": [
+        "kreuzwortraetsel-camping-cd65"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-weihnachten-39f5",
+      "siblings": [
+        "kreuzwortraetsel-weihnachten-39f5"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-klassenzimmer-9b33",
+      "siblings": [
+        "kreuzwortraetsel-klassenzimmer-9b33"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-kleidung-02d3",
+      "siblings": [
+        "kreuzwortraetsel-kleidung-02d3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-farben-e526",
+      "siblings": [
+        "kreuzwortraetsel-farben-e526"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf",
+      "siblings": [
+        "kreuzwortraetsel-desserts-und-sussigkeiten-9bdf"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-ostern-a998",
+      "siblings": [
+        "kreuzwortraetsel-ostern-a998"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-emotionen-0ec4",
+      "siblings": [
+        "kreuzwortraetsel-emotionen-0ec4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-bauernhoftiere-0ca9",
+      "siblings": [
+        "kreuzwortraetsel-bauernhoftiere-0ca9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-blumen-724f",
+      "siblings": [
+        "kreuzwortraetsel-blumen-724f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-waldtiere-77f7",
+      "siblings": [
+        "kreuzwortraetsel-waldtiere-77f7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-fruchte-dedd",
+      "siblings": [
+        "kreuzwortraetsel-fruchte-dedd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-mobel-ea85",
+      "siblings": [
+        "kreuzwortraetsel-mobel-ea85"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-krankenhaus-96cd",
+      "siblings": [
+        "kreuzwortraetsel-krankenhaus-96cd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-insekten-und-kafer-1ad7",
+      "siblings": [
+        "kreuzwortraetsel-insekten-und-kafer-1ad7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-kuchenwerkzeuge-3a01",
+      "siblings": [
+        "kreuzwortraetsel-kuchenwerkzeuge-3a01"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-musik-346f",
+      "siblings": [
+        "kreuzwortraetsel-musik-346f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-berufe-a3aa",
+      "siblings": [
+        "kreuzwortraetsel-berufe-a3aa"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-meeresleben-c394",
+      "siblings": [
+        "kreuzwortraetsel-meeresleben-c394"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-haustiere-82ff",
+      "siblings": [
+        "kreuzwortraetsel-haustiere-82ff"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-postamt-ee97",
+      "siblings": [
+        "kreuzwortraetsel-postamt-ee97"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-formen-4573",
+      "siblings": [
+        "kreuzwortraetsel-formen-4573"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-weltraum-2d35",
+      "siblings": [
+        "kreuzwortraetsel-weltraum-2d35"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-fruhling-a545",
+      "siblings": [
+        "kreuzwortraetsel-fruhling-a545"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-sommer-07e3",
+      "siblings": [
+        "kreuzwortraetsel-sommer-07e3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-erntedankfest-8473",
+      "siblings": [
+        "kreuzwortraetsel-erntedankfest-8473"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-dinge-die-fliegen-1413",
+      "siblings": [
+        "kreuzwortraetsel-dinge-die-fliegen-1413"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-werkzeuge-9866",
+      "siblings": [
+        "kreuzwortraetsel-werkzeuge-9866"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-spielzeug-e043",
+      "siblings": [
+        "kreuzwortraetsel-spielzeug-e043"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-gemuse-ff67",
+      "siblings": [
+        "kreuzwortraetsel-gemuse-ff67"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-fahrzeuge-b033",
+      "siblings": [
+        "kreuzwortraetsel-fahrzeuge-b033"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-wetter-c7b2",
+      "siblings": [
+        "kreuzwortraetsel-wetter-c7b2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-winter-e8aa",
+      "siblings": [
+        "kreuzwortraetsel-winter-e8aa"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "kreuzwortraetsel-zootiere-6a95",
+      "siblings": [
+        "kreuzwortraetsel-zootiere-6a95"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true
+    }
+  ]
+}

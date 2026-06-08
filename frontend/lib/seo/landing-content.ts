@@ -25,6 +25,14 @@ export interface Landing {
   h1: string;
   strand: string;
   standard?: string; // optional CCSS code (e.g. "K.MD.B.3"); when present the route emits educationalAlignment + a code chip
+  /**
+   * Optional grade SPAN (ordered low→high), each value a key in the route's LEVELS map
+   * (en: preschool|kindergarten|grade-1|grade-2 · de: vorschule|1-klasse|2-klasse).
+   * Present ONLY when the worksheet genuinely suits >1 grade (a true boundary sheet);
+   * absent → single-band display via coordinate.level (zero change to shipped landings).
+   * The route renders a range chip + array educationalLevel + range typicalAgeRange.
+   */
+  levels?: string[];
   p1: string; p2: string; p3: string;
   canonicalDeckSlug: string;
   collapseSiblings?: string[];

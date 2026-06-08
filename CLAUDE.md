@@ -1,6 +1,8 @@
 # CLAUDE.md — LessonCraftStudio Interactive Worksheets Platform
 
-**Version:** 3.5 (post variety/depth arc: Nordic school-convention carve-out + strand-name localization + syllable-depth pass) **Last updated:** 2026-06-04
+**Version:** 3.6 (size-reduction pass: empirical anchors / worked examples / reference specs / historical narration relocated to `docs/claude-md/`; every forward-rule, guard, cross-ref, and commit-hash anchor kept inline) **Last updated:** 2026-06-08
+
+> **Companion-docs convention (v3.6).** This file was ~halved by *relocating* (never deleting) the justification layer — commit-hash anchors, worked examples, code snippets, historical narration, and code-implemented reference specs — into git-tracked companions under `docs/claude-md/`. Each terse section keeps its forward-rule + cross-refs + a `→ docs/claude-md/<file>` pointer. The companions: `verification-hygiene.md` (§A.13), `scaling-audit.md` (§A.14), `deck-html-seo-surface.md` (§17.8), `catalog-pipeline.md` (§15 + §14 helpers/gotchas/bundles), `site-topic-export-detail.md` (§14.4 / §16.5.1 / §17.4.3 / §17.5-6 / §18.4), `topic-and-i18n-detail.md` (§16.7 / §16.8 / §17.10), `activities-detail.md` (§20.7), `misc-detail.md` (§11 / §17.1 / §20.3 / §21 tables / §22.2-3 / §A.7.x). When a terse entry isn't enough, read its companion. Working-recall SoT for activities/landing stays the `memory/` + plan files.
 
 ---
 
@@ -40,27 +42,7 @@ The 29 catalog-shipping apps are operator-internal production tooling — teache
 
 **SEO-first emit-site framing:** every manifest field participating in a deck's URL slug or `<head>` (`theme`, `exercise_mode`, `language`, `age_range` via `educational_level`) is an SEO surface, not a data field. Operator-strategic adjudication on emit-site contracts prioritizes search-keyword alignment over technical UI labels. The §15.16 publish-cli reconciliation gate catches emit-defects before they collapse SEO across a wave (§A.13.4 DERIVED-vs-HARDCODED-NULL classification).
 
-**SEO + embed-virality acquisition flywheel.** SEO drives visitors to deck pages → visitors copy embed snippets → embedded decks spread to classroom blogs and school sites → backlinks compound search authority. Structural, not promotional (no ads, no influencer outreach). Three-layer embed architecture (locked):
-
-1. **Mechanism** — deck.html iframe-safe; self-contained per §14.1; verified at `7f91f1b8`.
-2. **Per-deck discovery UX** — operator-discoverable "Embed this" affordance; shipped `e8cec493`.
-3. **Homepage signaling** — embed-virality CTA above-fold; shipped `a793d7c9` (Alt A Arc 3).
-
-Layer 1→2→3 sequencing prevents credibility gaps (homepage CTA pointing at non-existent embed flow). Canonical example of §16.7 lock-with-dependency-pause discipline.
-
-**Backlink-bearing vs visibility-only mechanisms.** Iframes alone are not backlinks; the snippet's visible `<a href>` tags OUTSIDE the iframe (wrapper `<div>` + caption with brand-anchor + keyword-anchor per `e8cec493`) ARE the backlinks. Future distribution mechanisms classify into one bucket at design time.
-
-**Embed-attribution is visible-load-bearing, not technically-enforced (Technique 2 lock at Arc 2 A4).** Don't fight host-site stripping programmatically; design attribution so removal looks broken. Trade minor strip-leakage for low-friction-virality at scale.
-
-**Three-second-budget homepage doctrine.** Teachers arriving via SEO decide stay-or-leave in three seconds. Homepage's job: magnitude + variety + browse-path signaling — not value-prop persuasion (Hero handles), not feature enumeration (deferred to below-fold). Three at-a-glance: structural breadth (29 exercise types + 100 themes), multilingual differentiator (11 flags), one primary acquisition CTA (embed-virality). Alt A architecture (`a793d7c9`) operationalizes this.
-
-**Sampling vs structural-display are distinct UX jobs.** BreadthGrid (9 deck previews per `e5bb3cb4`) samples but doesn't communicate breadth; ExerciseTypeGrid (29 types) enumerates structural axis without rendering individual decks. Conflating them under-signals catalog scale.
-
-**Magnitude-via-structural-axes-not-population.** At 500-decks-per-day cadence toward 55,000-deck target, today's count is stale signal. Communicate via durable structural axes (29 × 100 × 11 = 14,487 publish-eligible combinations per §6). Published-deck count is footnote only. Implemented in `MagnitudeFraming.tsx` (`a93ebb7c`).
-
-**Crawl-bait-density as homepage SEO metric.** Above-fold internal-link count per locale × locales is load-bearing: Alt A targets ~140 above-fold internal links per locale × 11 = ~1,540 crawl-bait surface. Future homepage extensions must raise or preserve this density.
-
-**Foundation-doctrine reality-check pattern.** Periodically (typically at fold-pass cycles), verify foundation doctrine against current ship-state. When foundation references unshipped mechanisms, either accelerate the mechanism or amend the doctrine; don't power-through.
+**SEO + embed-virality acquisition flywheel.** SEO → deck pages → visitors copy embed snippets → embedded decks spread to classroom blogs/school sites → backlinks compound search authority (structural, not promotional). Three-layer embed architecture (locked): (1) iframe-safe self-contained deck.html (§14.1); (2) per-deck "Embed this" affordance; (3) homepage embed-virality CTA above-fold — sequenced 1→2→3 to prevent credibility gaps. **Backlinks = the visible `<a href>` tags OUTSIDE the iframe** (wrapper + caption with brand+keyword anchors), not the iframe itself; **embed-attribution is visible-load-bearing, NOT technically-enforced** (design it so removal looks broken). **Homepage doctrine:** three-second budget (magnitude + variety + browse-path signaling, not persuasion); magnitude-via-structural-axes (29 × 100 × 11 = 14,487 combinations per §6, NOT deck count); **crawl-bait-density** (~140 above-fold internal links/locale × 11 ≈ 1,540) is load-bearing — future homepage work must raise or preserve it. **Foundation-doctrine reality-check:** periodically verify foundation doctrine vs ship-state; accelerate the mechanism or amend the doctrine, don't power-through. Full doctrine + commit anchors → docs/claude-md/misc-detail.md.
 
 **Cross-references on the embed flywheel:** §14.1 self-contained deck.html (substrate); §14.3a `buildShareAffordance` + `buildEmbedAffordance` shared-helper precedent for fan-out across 29 apps; Homepage Alt A Arc 1 (`d039d8e2`) + Arc 2 (`a93ebb7c`) + Arc 3 (`a793d7c9`).
 
@@ -197,135 +179,9 @@ These pages check `!!user` and prompt sign-in if absent — they're personal-org
 
 All new tables via Prisma migrations. Don't modify existing migrations. Don't rename existing tables. Don't remove existing columns. Changes to existing tables need operator approval.
 
-Key new tables:
+**Schema is code; the SoT is `frontend/prisma/schema.prisma` (`model Deck` at ~:1137).** The catalog tables — `Deck`, `DeckEnrichment`, `PlayLink`, `Collection`, `CollectionDeck`, `DeckFavorite`, `EmbedConfig`, `Subscription` — live there; do NOT re-author them here.
 
-```prisma
-model Deck {
-  id              String   @id @default(cuid())
-  slug            String   // §17.8.5 — uniqueness via @@unique([language, slug])
-  title           Json     // {en: "...", de: "...", ...} for 11 languages
-  description     Json     // operator-authored short description per language
-  exerciseType    String   // one of 29 §14.10 types
-  exerciseMode    String?  // app-specific submode (e.g., "image-image", "find-addend")
-  language        String   // primary content language
-  subjectTags     String[]
-  topicSlugs      String[] // soft-FK strings into the §16.5 axis-key set; Topic table itself removed 2026-05-17
-  ageRange        String   // "3-5" | "5-7" | "6-8" | "7-9" | "8-10"
-  htmlUrl         String   // self-contained interactive HTML on CDN
-  pdfUrl          String
-  answerKeyUrl    String?
-  thumbnailUrl    String
-  manifestUrl     String   // merged manifest JSON (reproducibility)
-  publishedAt     DateTime?
-  status          String   @default("draft") // "draft" | "published" | "archived"
-  createdBy       String   // operator user id
-  version         Int      @default(1)
-  contentFamilyId String?  // §17.8.7 — null in v1; populated by v2 translate-this-deck workflow
-  titleHash       String?  // §17.8.17 invariant 1 — @@unique([language, titleHash])
-  descriptionHash String?  // §17.8.17 invariant 2 — @@unique([language, descriptionHash])
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
-  enrichment      DeckEnrichment?
-  playLinks       PlayLink[]
-  favorites       DeckFavorite[]
-  collectionMemberships CollectionDeck[]
-  @@unique([language, slug])
-  @@unique([language, titleHash])
-  @@unique([language, descriptionHash])
-  @@index([status, publishedAt])
-  @@index([exerciseType, language])
-}
-
-model DeckEnrichment {
-  deckId            String   @id
-  deck              Deck     @relation(fields: [deckId], references: [id])
-  embedding         Bytes
-  longDescription   Json
-  learningObjectives Json
-  aiTags            String[]
-  enrichedAt        DateTime @default(now())
-  enrichmentVersion Int      @default(1)
-}
-
-// [REMOVED 2026-05-17] Topic, LessonPlan, ParentNote, Bundle, BundleDeck,
-// BundleLessonPlan, TeachingPackage, BundleTeachingPackage models were
-// dropped per the teaching-packages-domain nuke commission (commit
-// `920aebbc` "[REMOVE][SCHEMA] DROP teaching-packages domain tables").
-// Topic destination pages now operate purely against axis-keys from
-// `topics-taxonomy.json` (see §16.5); deck-grid rendering does not depend
-// on a Topic table. Future revival of any of these would require a fresh
-// schema commission and operator-strategic re-scoping.
-
-model PlayLink {
-  id            String   @id @default(cuid())
-  linkId        String   @unique @db.VarChar(10)
-  deckId        String
-  teacherId     String
-  embedConfigId String?
-  createdAt     DateTime @default(now())
-  deck          Deck     @relation(fields: [deckId], references: [id])
-  teacher       User     @relation(fields: [teacherId], references: [id])
-  embedConfig   EmbedConfig? @relation(fields: [embedConfigId], references: [id])
-  @@index([teacherId])
-}
-
-// Subscriber feature: organize favorites into named collections
-model Collection {
-  id          String   @id @default(cuid())
-  teacherId   String
-  name        String
-  description String?
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
-  teacher     User     @relation(fields: [teacherId], references: [id])
-  decks       CollectionDeck[]
-  @@index([teacherId])
-}
-
-model CollectionDeck {
-  collectionId String
-  deckId       String
-  position     Int
-  addedAt      DateTime @default(now())
-  collection   Collection @relation(fields: [collectionId], references: [id])
-  deck         Deck       @relation(fields: [deckId], references: [id])
-  @@id([collectionId, deckId])
-  @@index([collectionId, position])
-}
-
-// Free-tier: trigger for collections CTA after fifth favorite
-model DeckFavorite {
-  teacherId   String
-  deckId      String
-  favoritedAt DateTime @default(now())
-  teacher     User     @relation(fields: [teacherId], references: [id])
-  deck        Deck     @relation(fields: [deckId], references: [id])
-  @@id([teacherId, deckId])
-  @@index([teacherId, favoritedAt])
-}
-
-// Platform-infrastructure (free per §3 acquisition flywheel)
-model EmbedConfig {
-  id             String   @id @default(cuid())
-  teacherId      String
-  deckId         String
-  width          String?
-  height         String?
-  allowedOrigins String[]
-  createdAt      DateTime @default(now())
-  teacher        User     @relation(fields: [teacherId], references: [id])
-  playLinks      PlayLink[]
-  @@index([teacherId])
-}
-
-model Subscription {
-  // extend existing tracking
-  // grace-period end = lapsed_at + 60 days
-  // schoolLicenseId field added in v1.5
-}
-```
-
-When `Deck` + `Topic` are actually built, `ageRange` should land as a Prisma enum (`AgeRange { AGE_3_5 AGE_5_7 AGE_6_8 AGE_7_9 AGE_8_10 }`) so DB enforces the §17.8.6 mapping.
+Load-bearing `Deck` invariants referenced throughout this doc: SEO-bearing columns `slug` / `titleHash` / `descriptionHash`, each with a compound `@@unique([language, <col>])` (§17.8.5 + §17.8.17 invariants 1-2); `contentFamilyId` (null in v1; v2 hreflang siblings per §17.8.7); `topicSlugs` are soft-FK strings into the §16.5 axis-key set (the Topic table was removed 2026-05-17 — top AMENDMENT; deck-grid rendering does NOT depend on it); `ageRange` ∈ {3-5,5-7,6-8,7-9,8-10} drives §17.8.6 educational-level (when it lands as an enum: `AgeRange { AGE_3_5 AGE_5_7 AGE_6_8 AGE_7_9 AGE_8_10 }` so the DB enforces §17.8.6). `Subscription` extends existing tracking (grace-period end = lapsed_at + 60 days; `schoolLicenseId` in v1.5). The dropped teaching-packages models (Topic, LessonPlan, ParentNote, Bundle, BundleDeck, BundleLessonPlan, TeachingPackage, BundleTeachingPackage) are gone per commit `920aebbc`; revival needs a fresh schema commission.
 
 ### 8.2 File organization
 
@@ -359,17 +215,7 @@ Every catalog page server-rendered. Every deck + topic page has unique title, me
 
 ## 9. What "done" looks like for launch
 
-**Engineering:** Previous public site deleted; apps behind operator auth (§17). All 29 apps producing catalog ZIPs (§15). Catalog browse/search/filter/individual deck pages work. Topic pages render with deck grid + PDF list; lesson plan full for subscribers / blurred for free. Student play works across all 29 types on mobile + desktop, identical per tier. Free shareable links + QR codes + email signup all work. Subscription checkout works ($69 individual; school-license deferred). Subscriber features enforce per `docs/SUBSCRIPTION-SCOPE.md`. 60-day grace works (subscriber features off; old links still functional for students). Contextual conversion prompts trigger correctly. **Sample decks embedded on every public page**. Cloudflare CDN active. Tailscale connecting all three machines. Mac Studio AI picking up new decks within minutes.
-
-**SEO foundation from launch (not bolted on):** All public pages SSR. Native-language URL slugs. hreflang per language variant. Schema.org markup. XML sitemap. Mobile-first responsive (validated at 375px). LCP < 2.5s. Internal linking infrastructure. Search Console verified for priority languages. Initial keyword research per §17 + §19.
-
-**Content at launch:** 400-600 published decks per §19 sequence. 30-50 high-priority topic pages with substantive descriptions + 4-8 recommended decks each in priority languages. (Full-lesson-plan + parent-communication-template scope removed 2026-05-17 along with the underlying domain; topic-page depth comes from descriptions + FAQ + curated deck commentary.) 8-12 substantive blog/guide articles.
-
-**Public site rebuild:** Home leads with multilingual K-3 positioning + embedded sample deck + surfaces topic pages. Pricing page presents two-tier with feature comparison. About + FAQ + support written for multilingual K-3 educators. Blog/guide established. Footer + navigation reflect new audience.
-
-**Acquisition foundation:** Pinterest account with initial pins from samples. LinkedIn list of target international school heads compiled for outreach in months 4-6. Email waitlist captured pre-launch. One conference committed (ECIS or COBIS).
-
-v1 launch is **not** trying to achieve substantial organic search traffic (comes months 6-12), revenue at scale (first subs months 6-9), broad K-12 reach (focus is K-3), or institutional revenue (v1.5).
+Launch "done" = **(Engineering)** 29 apps producing catalog ZIPs; browse/search/filter/deck pages; topic pages (deck grid + PDFs); student play across 29 types mobile+desktop tier-identical; free links/QR/email-signup; $69 checkout; 60-day grace; Cloudflare + Tailscale + Mac-Studio active. **(SEO)** all SSR, native slugs, hreflang, schema, sitemap, mobile-first @375px, LCP<2.5s, Search-Console verified. **(Content)** 400-600 decks, 30-50 topic pages, 8-12 guides. **(Public site)** multilingual K-3 home + pricing + about/FAQ/support + footer/nav. **(Acquisition)** Pinterest, LinkedIn target list, email waitlist, one conference. v1 does NOT target organic-traffic-at-scale / revenue-at-scale / K-12 breadth / institutional revenue (those come later). Full per-area checklist → docs/claude-md/misc-detail.md.
 
 ## 10. How Claude Code sessions operate
 
@@ -425,20 +271,7 @@ Deferred (don't build without explicit direction): unified worksheet creation st
 
 **Removed from scope:** student session analytics (K-3 teachers observe directly all day); assignment-style multi-deck sequences (not justifying engineering weight for K-3); broad "teacher catalog" framing (replaced with multilingual K-3).
 
-**Queued post-Brief-B (Phase 6 close-out 2026-04-30):**
-- Catalog page Phase 1/2/Gate 1 share-work revival — unblocked at `4b91adc0` (nginx catalog deck route §15.7); reactivates when operator decides.
-- Topic destination pages full-shape brief beyond §16's minimal taxonomy. Separate brief.
-- Eleven-deck dry-run — gated on taxonomy expansion brief (now CLOSED 2026-05-01 across all 29 §14.10 apps; subject vocabulary closed at 4 values: math 8 / logic 8 / letters 8 / spatial-reasoning 5; override rate 1/29 = 3.4%; topic destination route §16 implemented separately in Pass 7b).
-- Group C brief drafting — 3 apps TBD; structurally identical to Group B per run-batch precedent.
-- §19 longer-arc: NSR operationalization, school-license design, home page copy, first acquisition activities, native cartoon library deployment, premium classroom personalization (v2), v2 translate-this-deck workflow §17.8.7, grayscale PDF as user-facing download.
-
-**Future-arc candidates filed at fold pass (post-Track-C-443-wave; doctrine-class but not yet promoted):**
-- Manifest-disambiguator-field for fresh-roll-variation slug shape (`variation_id`/`set_label` field flowing into slug as 4th component). Trigger: 2nd+ recurrence of fresh-roll collision pattern at scale (currently 1 instance: 443-wave 3 pairs all earlier-roll-wins-resolved per §15.13).
-- ALL_LOCALES DRY-extraction at 4th-consumer threshold (`['en','de','es','nl','fr','it','pt','sv','da','no','fi']` literal). Extract to `frontend/lib/locales.ts ALL_LOCALES` when 4th consumer surfaces.
-- Arc-splitting threshold heuristic — generalizable shape for when an arc splits into sub-arcs vs ships as one.
-- treasure-hunt manifest-emit-vs-worksheetTheme decoupling (Shape A §A.13.5 expansion).
-- `shared.msg.offtheme.dropped` translation-key promotion at 12th-consumer threshold.
-- backup-samples.sh path-divergence vs §A.1 (`/opt/lessoncraftstudio/backups/` vs `/var/www/lcs-media/backups/`).
+**Queued + future-arc backlog** (catalog-share-revival; topic-page full-shape brief; Group-C brief; §19 longer-arc items; plus filed future-arc candidates — manifest-disambiguator field, ALL_LOCALES DRY-extraction at 4th-consumer, arc-splitting heuristic, treasure-hunt decoupling, `shared.msg.offtheme.dropped` promotion, backup-path divergence) → docs/claude-md/misc-detail.md + [[project-deferred-items-queue]].
 
 ## 12. When this document is wrong
 
@@ -487,58 +320,9 @@ Pick the closest reference app when porting:
 **Attribution is tier-neutral and SEO-neutral.** Footer text and position independent of §17.8 SEO surface.
 
 ### 14.3a Shared catalog-export helpers (`window.LCSCatalogExport`)
-`REFERENCE TRANSLATIONS/catalog-export.js` (synced via `scripts\master-sync.bat`; served at `/var/www/lcs-media/worksheet-generators/js/catalog-export.js?v=9`). Loaded by all 29 apps. Public API:
-
-- **`buildSeoHead(manifest, opts)`** — `<head>` SEO string per §17.8.1: title, meta description, canonical link with `__CANONICAL_URL__`, Schema.org LearningResource JSON-LD with `__EDUCATIONAL_LEVEL__` + `__EDUCATIONAL_LEVEL_LOCALIZED__`. publish-cli substitutes per §17.8.5.
-- **`buildEndDeckLinks(opts)`** — end-of-deck topic-destination links section per §17.8.2. Default: empty string (direct-download decks); pass `{includePlaceholders: true}` from publish-cli-aware path for `__LINK_*__` placeholders.
-- **`buildSrRows({label, rows})`** — `<section class="lcs-sr"><ol><li>...</li></ol></section>` block. Group A pattern §17.8.4. Per-app code builds `rows` strings; helper owns wrapping + HTML-escaping. JSDoc on this function is canonical source for sr* translation-key naming convention (`srExercise<App>`, `srExercise<App><Mode>`, `srPuzzle<App>`, `srWorksheetQuestions`, `srOperator<Name>`, `srShape<Slug>`) and single-vs-≥2-consumer rule.
-- **`buildSrPuzzleSummary({label, summary})`** — single-puzzle variant returning `<section class="lcs-sr"><p>{summary}</p></section>`.
-- **`buildShareAffordance({canonicalURL?, locale, title})`** — self-contained HTML+CSS+inline-JS snippet for embedding in `lcs-bar` (top-right after `<button class="lcs-mute">`, 40×40, `.lcs-share` class). Resolution: (1) `canonicalURL` non-placeholder → use; (2) `locale + title` → construct `https://lessoncraftstudio.com/<locale>/decks/<slugify(title)>/`; (3) insufficient → empty string. Self-contained per §14.1 — no runtime catalog-export.js load. String resolution uses bare-`translations` per §17.8.14 (`srShareNative`/`srShareTo`/`srShareCopyLink`/`srShareCopied`/`srShareAria{Facebook,WhatsApp,Pinterest,Email,CopyLink}` in `translations-shared.js`). Originating: Sub-phase A hotfix `bbcb444c`; DE keys at `ea8e006a`; see §17.8.15 for click behavior.
-- **`vocabKeyFromImage(img)`** — accepts path string OR `{path, word, name}`. Returns vocab-canonical key OR null. Three image source forms:
-  1. **Theme path** (`/images/animals/cat.png`) → `ImageVocab.keyFromPath` → bare key.
-  2. **Server-stored upload** (`/images/animals/camel-1769386104282-2351c8c4.png`) → strip `-<13digit>-<hash>` suffix. (`LCSImageRef.parseImagePath` leaves suffix intact — bug-family eb510be4 / eb510be4.1.)
-  3. **Data URL** (`data:image/png;base64,...`) → no path-derived key; fall back to `img.word || img.name` stripping extension + known suffixes (bug-family eb510be4.2).
-- **`HREFLANG_MARKER`** — `<!-- HREFLANG_INSERTION_POINT -->`. Per §17.8.1.5 MUST be last element in `<head>`; publish-cli substitutes per v1/v2.
-- **`export(opts)`** — main entry for Export-to-catalog ZIP flow. Public API in catalog-export.js JSDoc.
-
-Companion: `translations-shared.js` (loaded by all 29 apps; merge-on-load into `window.translations` with per-app collision warnings).
-
-#### 14.3a.1 Bundle-shape contract extensions (Group B Phase 1)
-- **sudoku** (`9b54ae4b`, bundleVersion 28.3.0): `uniqueImageKeys: [vocabKey, ...]` indexed parallel to `holes[].correctImageIndex` + `cutoutsData[].imageIndex`.
-- **cryptogram** (`ac573fe4`→`5775b9c1`, 16.2.1): `cipherMap: {[Letter]: {vocabKey, fallback}}` FILTERED to letters in `legendSlots`.
-- **picture-path** (`5bfa496c`→`8fc9f522`→`a3697abe`, 29.4.2): `startCellImage` (pathway only), `endCellImage` (pathway+choose-path), `endpointCount` (choose-path; 1/2/3), `legend.items[].vocabKey` (Treasure Trail variant).
-
-The surfacing rationale is the **structural-vs-identity coverage dimension** at Phase 1 close — bundles can be shape-correct yet structurally undescribable in screen-reader text (WHERE vs WHAT). See `feedback_coverage_dimensions_emerge_from_postmortems.md` dimension 6.
-
-#### 14.3a.2 Number-word lookup convention for small-cardinality counts
-Per-app per-locale lookup table at template-fill time:
-```js
-var lookups = {en: {2:'two', 3:'three'}, de: {2:'zwei', 3:'drei'}};
-var lookup = lookups[srLang] || lookups.en;
-```
-Out-of-range falls back to digit with `console.warn`. Tables in per-app code when single-consumer; promote to shared module if second consumer adopts same shape. Originating: picture-path Phase 2 `75d4a27c` (EN) + Phase 3 `263c67f2` (DE).
-
-#### 14.3a.3 4th-consumer threshold pre-emptive refactor
-When the 3rd consumer surfaces AND the 4th is imminent in the open commissions queue, refactor at 3rd-consumer threshold per §A.13 "refactor-during-already-opened-surface" rather than wait for 4th. Originating: `785d63f6` slug-derivation refactor (bulk.js + publish.js + index.js → `slug.js: deriveSeedFromManifest`; 4th consumer Pillar 2 bundle-publish imminent).
-
+`REFERENCE TRANSLATIONS/catalog-export.js` (synced via `scripts\master-sync.bat`; served at `/var/www/lcs-media/worksheet-generators/js/catalog-export.js?v=9`), loaded by all 29 apps. Public API: **`buildSeoHead(manifest, opts)`** (§17.8.1 `<head>` with `__CANONICAL_URL__`/`__EDUCATIONAL_LEVEL__` placeholders); **`buildEndDeckLinks(opts)`** (§17.8.2 end-of-deck topic links; `{includePlaceholders:true}` from publish-cli path); **`buildSrRows`/`buildSrPuzzleSummary`** (sr-only blocks — JSDoc is canonical for sr* key naming + the single-vs-≥2-consumer rule); **`buildShareAffordance({canonicalURL?, locale, title})`** (§17.8.15 in-deck share; bare-`translations` lookup per §17.8.14); **`vocabKeyFromImage(img)`** (3 image-source forms — theme path / server-upload / data-URL — → vocab-canonical key OR null); **`HREFLANG_MARKER`** (MUST be last in `<head>` §17.8.1); **`export(opts)`** (Export-to-catalog ZIP). Companion `translations-shared.js` merges into `window.translations` (per-app collision warnings). Bundle-shape contract extensions (sudoku `uniqueImageKeys` / cryptogram `cipherMap` / picture-path endpoints), the number-word lookup convention, and the 4th-consumer pre-emptive-refactor threshold → **docs/claude-md/catalog-pipeline.md#143a**.
 ### 14.4 Recipe to port a new app
-
-**Step A — Decide family.** Fixed answer positions → Family A. Spatial selection/drawing → Family B. See §14.2 references.
-
-**Step B — Metadata patches** (additive, no visual change):
-1. `worksheetCanvas.problemsData = <data>;` in `generateWorksheet()`.
-2. Tag interactive elements per feature (`isAnswerLine`, `isBlankLetterCell`, `isWordsearchGrid`, etc.).
-3. Carry operator choices needed for validation (`worksheetCanvas.letterCaseValue`, `<rowGroup>.resolvedMode`).
-
-**Step C — Download button + wiring** (4 edits): button in dropdown; const declaration; un-disable in `generateWorksheet`/disable in clear; click listener `downloadInteractiveHtml(worksheetCanvas, '<app>_interactive.html')`.
-
-**Step D — Copy closest reference block and adapt:**
-- Bump `bundleVersion`; change `appType`, `title`.
-- Rewrite `extractDeckBundle` for new slot shape; reuse `_captureWorksheetImage` + `_worldRectBounds`.
-- Extend `renderSlots`/`renderGrid`, `checkAll`, `resetAll` for app-specific interaction.
-- 7 attribution edits per §14.3.
-
-**Step E — Validate, sync, commit, deploy** (§14.5–§14.6).
+**Step A** decide family (fixed answer positions → Family A; spatial selection/drawing → Family B; see §14.2). **Step B** additive metadata patches (`problemsData`, tag interactive elements, carry operator choices needed for validation). **Step C** download button + wiring (4 edits). **Step D** copy the closest reference block + adapt (bump `bundleVersion`, rewrite `extractDeckBundle`, extend render/check/reset, 7 attribution edits per §14.3). **Step E** validate/sync/commit/deploy (§14.5-§14.6). Full step detail → docs/claude-md/site-topic-export-detail.md#144.
 
 ### 14.5 Local dev loop
 A pre-existing Next.js route conflict blocks `npm run dev` until `frontend/app/sitemap.xml/route.ts` is renamed `route.ts.DISABLED-FOR-DEV`. **Rename it back before any push to production** or live sitemap breaks. Known wart; deferred.
@@ -552,47 +336,9 @@ Worksheet-generator HTML updates require BOTH steps (served copy is `chattr +i` 
 3. **Verify:** `curl -s https://www.lessoncraftstudio.com/worksheet-generators/<app>.html | grep -c 'Interactive-HTML export v<N>'` must be ≥ 1.
 
 ### 14.7 Known gotchas (read before debugging)
-
-**Fabric geometry:**
-- `getBoundingRect(true, true)` on grouped child returns GROUP-LOCAL coords in Fabric 5.x, not world. Use `calcTransformMatrix()` + `fabric.util.transformPoint`.
-- `calcTransformMatrix()` already includes object's own scale. Don't also feed `getScaledWidth()/getScaledHeight()` into `transformPoint` — that double-scales. Use intrinsic `img.width` / `img.height`.
-- `exerciseRowGroup.getCenterPoint().y` drifts off equals sign when operands aren't square — bbox center tracks image span, not equation centerline. Anchor to actual `=` sign via `_findEqualsSign`.
-- Operator may transform (scale/translate/rotate) rowGroup after generation. `calcTransformMatrix` honors transforms; that's why use it everywhere instead of hardcoded offsets.
-
-**Bundle + runtime authoring:**
-- Inline `<script>` inside a string must escape `</script>` as `<\/script>`.
-- Runtime stored as array-of-strings joined at render time — avoids template-literal escaping with `${...}` and backticks.
-- `expectedAnswer` MUST branch on mode for find-addend / find-subtrahend / missing operand. Otherwise correct answer marked wrong.
-
-**Operator/interactive filter mismatch (wordsearch-class):** When operator pre-filters what shows on the worksheet, interactive export must apply the same filter. wordsearch.html strips non-letters from each word before placing; v15 exporter filters `placedWordsInfo` against `wordsConfig` to mirror operator's display.
-
-**UX rules:**
-- Don't duplicate what the baked JPEG already shows (v15 draft had an interactive "Find these words" list below the grid — pulled because the baked worksheet already listed targets with images).
-- The operator's `letterCase` choice is baked into clues; interactive input must match. Store `worksheetCanvas.letterCaseValue` at generate time; coerce student input on client; compare case-insensitively.
-
+Full list (Fabric geometry, bundle/runtime authoring, operator/interactive filter mismatch, UX rules) → **docs/claude-md/catalog-pipeline.md#147**. Headlines: use `calcTransformMatrix()` + `fabric.util.transformPoint` for world coords (NOT `getBoundingRect` which is group-local in Fabric 5.x), and don't double-scale (use intrinsic `img.width`/`img.height`); the operator may transform the rowGroup after generation — `calcTransformMatrix` honors it; escape `<\/script>` inside inline string scripts; store the runtime as array-of-strings joined at render (avoids template-literal escaping); `expectedAnswer` MUST branch on mode (find-addend/find-subtrahend/missing-operand); interactive export MUST apply the operator's display filter (wordsearch-class); don't duplicate what the baked JPEG already shows; coerce student input to the operator's `letterCase` and compare case-insensitively.
 ### 14.8 Bundle versions shipped
-
-| Ver | App | Family | Notable |
-|---|---|---|---|
-| v4 | addition | A | Base — single numeric slot per row |
-| v5 | subtraction | A | v4 + cross-out image hitboxes |
-| v6 | code-addition | A | Multi-slot mixed number+letter |
-| v7 | more-less | A | Choice-button answer |
-| v8 | math-puzzle | A | Drag-to-drop pieces |
-| v9 | math-worksheet | A | Symbolic multi-slot algebra |
-| v10 | alphabet-train | A | Drag-to-wagon letter matching |
-| v11 | pattern-train | A | Drag-to-wagon image matching |
-| v12 | prepositions | A | Image-choice circles + fill-in |
-| v13 | word-guess | A | Clean single-kind letter blanks (clean reference) |
-| v14 | word-scramble | A | v13 + display-only scrambled strip |
-| v15 | wordsearch | B | First puzzle-kind drag-to-select grid |
-| v16 | cryptogram | A | Global cipher auto-propagation + live legend |
-| v17 | big-small | A (choice) | Find-one + order-N; transparent button overlay |
-| v18 | pattern-worksheet | A (choice) | Options-tap OR blank-cycle through unique-image palette |
-| v19–v32 | (remaining 14 apps) | various | Family A/B/C/D/E/F per §14.2; see `MEMORY.md` for per-app details |
-
-Bundle versions bump on every port so runtime can key on shape if needed.
-
+Bundle version bumps on every port so the runtime can key on shape if needed. The full v4-v32 table (app → family → notable) → **docs/claude-md/catalog-pipeline.md#148**; per-app details in MEMORY.md. All 29 apps (§14.10) ship interactive HTML + LCSAttribution + the catalog-export ZIP across runtime Families A-F (§14.2). Family G (bingo v24.0-24.1 drag-with-caller) was prototyped then retired.
 ### 14.9 Porting completion (historical)
 Porting of the 14 apps not in v4–v18 (bingo, chart-count, crossword, find-and-count, find-objects, grid-match, matching, missing-pieces, odd-one-out, picture-path, picture-sort, shadow-match, sudoku, treasure-hunt) completed in 2026. All carry interactive HTML + LCSAttribution + catalog-export ZIP. Four apps remain out of scope: `coloring`, `writing`, `draw-and-color`, `drawing-lines` (PDF-only).
 
@@ -642,201 +388,61 @@ Originating: `30f21267` (29 apps STRINGS_ALL bake) + `691ac1c7` (29 apps force-s
 
 ## 15. The catalog data pipeline
 
-End-to-end flow: worksheet generated in one of 29 apps (§14.10) → catalog with full enrichment.
+End-to-end: a worksheet generated in one of the 29 apps (§14.10) → catalog with full enrichment. Terse rules below; **full three-layer manifest JSON schemas, per-subcommand contracts, and empirical anchors live in `docs/claude-md/catalog-pipeline.md`.**
 
 ### 15.1 The three-layer manifest
-
-Each deck's metadata splits across three JSONs, never overwriting. Catalog DB holds merged view; originals stay on disk.
-
-Manifest drives §17.8 deck.html SEO surface: `generation.json` carries reserved `content_family_id`; `metadata.json` carries `educational_level` + `educational_level_localized` (deterministic from `age_range` per §17.8.6).
-
-**`generation.json`** — written by app at generation time. Fully automatic:
-```json
-{
-  "schema_version": "1.0",
-  "deck_id": "addition-image-image-es-2026-04-25-001",
-  "generated_at": "2026-04-25T14:30:00Z",
-  "generator": {"app": "addition", "app_version": "...", "bundle_version": 4},
-  "language": "es",
-  "exercise_type": "addition",
-  "exercise_mode": "image-image",
-  "settings": {"items_per_group_min": 1, "items_per_group_max": 5, "exercises_per_page": 8, "letter_case": "lower"},
-  "theme": "farm-animals",
-  "images_used": ["cow-001.webp", "sheep-002.webp"],
-  "vocabulary": ["vaca", "oveja"],
-  "exercises": [/* problems with answers */],
-  "assets": {"html": "...", "pdf": "...", "answer_key_pdf": "...", "thumbnail": "..."},
-  "content_family_id": null
-}
-```
-
-- **`content_family_id`** — nullable. Reserved schema field for cross-language sibling tracking. **In v1 always `null`.** v2 (translate-this-deck workflow §17.8.7) populates when operator explicitly translates. Format: `<exercise_type>-<exercise_mode>-<theme_or_'plain'>-<unique_suffix>`. Without this, no hreflang block (§17.8.1.5).
-
-**`metadata.json`** — written by publish step on operator PC. Reads `generation.json`; applies topic taxonomy lookup; auto-fills sensible defaults; operator overrides via small form:
-```json
-{
-  "schema_version": "1.0",
-  "deck_id": "addition-image-image-es-2026-04-25-001",
-  "title": {"es": "Sumas con animales de granja", "en": "Farm animal addition"},
-  "short_description": {"es": "...", "en": "..."},
-  "subject": "math",
-  "topic_slugs": ["addition-kindergarten-spanish", "math-spanish-kindergarten"],
-  "age_range": "5-7",
-  "operator_tags": ["farm-animals", "kindergarten", "visual-aids"],
-  "publish_status": "published",
-  "operator_review_completed_at": "...",
-  "educational_level": "Kindergarten",
-  "educational_level_localized": "Kindergarten"
-}
-```
-
-Two new SEO-driven fields, both deterministically derived by publish-cli from `age_range`:
-- **`educational_level`** — `Preschool`/`Kindergarten`/`Grade 1`/`Grade 2`/`Grade 3`. Drives Schema.org `educationalLevel` + `__EDUCATIONAL_LEVEL__` placeholder. See §17.8.6 mapping.
-- **`educational_level_localized`** — looked up via next-intl key `seo.educational_level.<level>`. Drives localized `<title>` + meta description via `__EDUCATIONAL_LEVEL_LOCALIZED__`. Examples: de→`Kindergarten`; fr→`Maternelle`; fi→`Esikoulu`.
-
-Backwards-compatible — manifests written before this amendment lacked them. publish-cli treats missing as "no SEO content" for legacy decks (currently zero; bulk generation hasn't begun).
-
-**`enrichment.json`** — written by local AI service on Mac Studio after publish:
-```json
-{
-  "schema_version": "1.0",
-  "deck_id": "addition-image-image-es-2026-04-25-001",
-  "enrichment_version": 1,
-  "model": "ollama:llama3.3:70b@q4",
-  "enriched_at": "...",
-  "embedding": [/* vector */],
-  "long_description": {"es": "...", "en": "...", /* all 11 */},
-  "learning_objectives": {"es": ["..."], "en": ["..."], /* all 11 */},
-  "ai_tags": ["counting", "single-digit-addition", "visual-math"]
-}
-```
+Each deck's metadata splits across three never-overwriting JSONs (catalog DB holds the merged view; originals stay on disk): **`generation.json`** (app at gen time — deck_id, generator, language, exercise_type/mode, settings, theme, images/vocab, exercises-with-answers, assets, reserved `content_family_id`=null in v1); **`metadata.json`** (publish step + operator review — title/description per locale, subject, `topic_slugs`, age_range, tags, status, + the two SEO fields `educational_level` + `educational_level_localized` deterministically derived from `age_range` per §17.8.6); **`enrichment.json`** (Mac Studio AI — embedding, long_description ×11, learning_objectives ×11, ai_tags). Full schemas in companion.
 
 ### 15.2 The publish flow
-
-`catalogExport(appConfig, generatedContent)` in shared codebase. Every app calls at generation time; produces `generation.json` in-memory.
-
-"Export to catalog" button on each app replaces four legacy KDP/Etsy downloads. Produces single ZIP `<deck_id>.zip`: `manifest.json` (= `generation.json` at this stage), `deck.html`, `printable.pdf`, `answer-key.pdf`, `thumbnail.png`.
-
-Operator runs `publish-cli` on PC (watches folder; drop deck ZIP):
-1. Validates manifest against schema
-2. Auto-fills `metadata.json` via topic taxonomy lookup; small confirmation prompt
-3. Posts `deck.html`, `printable.pdf`, `answer-key.pdf`, `thumbnail.png` to Hetzner static-asset endpoint → public asset folder behind Cloudflare CDN
-4. Generates native-language slug from manifest's localized title; stores on new `slug` column (additive, `@@unique([language, slug])`, MUST land before first deck publishes). Substitutes deck.html SEO placeholders per §17.8: `__CANONICAL_URL__`, `__EDUCATIONAL_LEVEL__`, `__EDUCATIONAL_LEVEL_LOCALIZED__` (both from `age_range` via §17.8.6), `<!-- HREFLANG_INSERTION_POINT -->` (block for v2, empty for v1 `content_family_id=null`), topic-destination URL placeholders. On v2 sibling publish, re-injects updated hreflang into all siblings of same content family.
-5. Posts merged manifest to Hetzner publish endpoint → inserts `Deck` row
-
-Mac Studio polls `/api/ai-ingest/pending` within minutes; generates `enrichment.json`; posts back `/api/ai-ingest/complete`.
-
-**Note on `bundle.canonicalURL`.** v1 does NOT promote canonicalURL to a proper bundle field. In-deck share affordance (§17.8.15) constructs URL at deck.html gen time using predicted-slug fallback — `https://lessoncraftstudio.com/<locale>/decks/<slugify(bundle.title)>/` (Option A authorized at social-share-v1 Sub-phase A). Proper bundle field arrives when (a) publish-cli substitutes real `__CANONICAL_URL__` AND (b) catalog deck route `/[locale]/decks/[slug]` exists. See §17.8.15.
+`catalogExport(appConfig, generatedContent)` produces `generation.json` in-memory; the "Export to catalog" button produces one ZIP (`manifest.json` + deck.html + printable.pdf + answer-key.pdf + thumbnail.png). Operator runs `publish-cli` (watch-folder): validates manifest → auto-fills metadata via taxonomy → posts assets to Hetzner (behind Cloudflare) → generates native-language slug (`@@unique([language, slug])`; migration must land first) + substitutes deck.html SEO placeholders (§17.8) → inserts the `Deck` row. Mac Studio polls within minutes. **`bundle.canonicalURL` note:** v1 does NOT promote it to a bundle field; the in-deck share affordance (§17.8.15) uses a predicted-slug fallback until publish-cli substitutes the real `__CANONICAL_URL__` AND the catalog deck route exists.
 
 ### 15.3 Local AI service contract
-
-Pull-based worker, not push target. Endpoints on Hetzner:
-- `GET /api/ai-ingest/pending` — up to N decks needing enrichment; Tailscale-bound shared secret auth (lesson-plan endpoint variant removed 2026-05-17)
-- `POST /api/ai-ingest/complete` — accepts `enrichment.json` keyed by `deck_id` or topic-and-language
-
-When Mac Studio offline, decks accumulate in `pending`. New decks visible without enrichment but rank lower in semantic search; topic pages fall back to faceted listing.
+Pull-based worker (not a push target). Endpoints on Hetzner: `GET /api/ai-ingest/pending` (Tailscale-bound shared secret) + `POST /api/ai-ingest/complete` (keyed by deck_id). When Mac Studio is offline, decks accumulate in `pending` and serve without enrichment (rank lower; topic pages fall back to faceted).
 
 ### 15.4 Strict-arg parsing
-`scripts/publish-cli/strict-args.js`. SCHEMAS table per subcommand (`publish`, `publish-bulk`, `unpublish`). Errors on unknown flags pre-side-effect; Levenshtein suggestions; non-zero stderr. `publish-bulk` requires `--confirm` for real (Phase 4 Q2 lock); without it dry-run regardless of `--dry-run`. Origin: `772a3375` (Brief B Phase 4). Motivated by unintended `addition-image-image-2/v1` during Phase 3 v4.
+`scripts/publish-cli/strict-args.js` — SCHEMAS per subcommand (`publish`/`publish-bulk`/`unpublish`); errors on unknown flags pre-side-effect (Levenshtein suggestions). `publish-bulk` requires `--confirm` for real (without it, dry-run regardless of `--dry-run`).
 
 ### 15.5 Edit-in-place contract
-`--update-slug <slug>` updates a published deck. Atomicity via temp-staging + symlink-swap (Brief B Phase 3 v4 A1): write new `<slug>-v<N+1>/` then `fs.symlinkSync(target, link + '.new')` + `fs.renameSync(link + '.new', link)`. `rename(2)` on symlink is atomic at kernel level. Do NOT use `ln -sfn`. DB-FS-inconsistency: if asset succeeds but DB fails, assets stay; error logged; operator manually reconciles. Slug-stable on update; versioning internal (`<slug>-v<N>/`); URL stays `/<locale>/decks/<slug>/`. `--update-slug` SOLE update flag (`--update-deck-id` removed `9a30f049` — Deck schema lacks `deck_id`).
+`--update-slug <slug>` updates a published deck via temp-staging + symlink-swap (`fs.symlinkSync` + `fs.renameSync` — kernel-atomic; NOT `ln -sfn`). Slug-stable on update; versioning is internal (`<slug>-v<N>/`). `--update-slug` is the SOLE update flag.
 
 ### 15.6 Slugify divergence
-Two slug generators intentionally differ on non-ASCII: `catalog-export.js: slugify` at `:90` (`.replace(/[^a-z0-9-]+/g, '-')`; non-ASCII → hyphen; deck.html gen time fallback) vs `scripts/publish-cli/slug.js` (§17.8.5 ASCII-fold spec; upload time). Intentional for v1: `bundle.title` English-only across all 29 apps. Load-bearing when apps localize titles AND in-deck predicted-slug fallback consumed in non-en.
+Two slug generators intentionally differ on non-ASCII: `catalog-export.js: slugify` (non-ASCII → hyphen; deck.html gen-time fallback) vs `scripts/publish-cli/slug.js` (§17.8.5 ASCII-fold; upload time). Intentional for v1 (English-only `bundle.title`).
 
 ### 15.7 Catalog deck route
-`/[locale]/decks/<slug>/` served by **nginx**, NOT Next.js. Config at `/etc/nginx/sites-enabled/lessoncraftstudio` (server-side, NOT in git). Deployed `4b91adc0` (Brief B Phase 1). `<slug>` is symlink at `/var/www/lcs-media/decks/<locale>/<slug>` → `<slug>-v<N>/`. Atomic swap via `fs.symlinkSync` + `fs.renameSync` (NOT `ln -sfn`). Canonical URLs `https://www.lessoncraftstudio.com/<locale>/decks/<slug>/`; apex→www 301 via nginx (§A.10).
-
-**Routing-contract implication for Next.js components.** Two URL classes coexist: Next.js routes (trailing-slash-tolerant per `next.config.js: trailingSlash: false`; 308 normalizes) and nginx-served URLs (trailing-slash-strict; no-slash form 404s via Next.js catch-all). Next.js `<Link>` strips trailing slash on render → broken link if pointing at nginx URL. **Convention:** `<Link>` for Next.js routes; plain `<a href="...">` for nginx URLs (deck pages, PDF downloads). Pass 7b deck-card 404 was the cautionary case.
+`/[locale]/decks/<slug>/` served by **nginx** (config at `/etc/nginx/sites-enabled/lessoncraftstudio`, server-side, NOT in git), NOT Next.js. `<slug>` is a symlink → `<slug>-v<N>/`; atomic swap via `fs.symlinkSync`+`fs.renameSync`. Canonical URLs are www-form (§A.10). **Routing-contract for Next.js components: `<Link>` for Next.js routes (trailing-slash-tolerant); plain `<a href>` for nginx URLs (deck pages, PDFs) — `<Link>` strips the trailing slash and 404s nginx URLs.**
 
 ### 15.8 Cloudflare cache-invalidation
-5-min short-TTL via nginx `add_header Cache-Control "public, max-age=300"`. Cloudflare honors origin. No purge-API calls. Fresh edits propagate within 5 min. Load-bearing post-2026-04-30 (Cloudflare onboarding); pre-2026-04-30 empirically inert.
+5-min short-TTL via nginx `Cache-Control: public, max-age=300`; Cloudflare honors origin; no purge-API. Fresh edits propagate within 5 min (load-bearing post-2026-04-30).
 
 ### 15.9 `_collisions.txt` archived-vs-published differentiation
-INSERT-route collisions surface different recommendations: published-row → `add to --updates-manifest mapping (<slug> ← <zipfile>) OR rename source ZIP`; archived-row → `pick a different slug — UPDATE-via-manifest NOT valid for archived rows; reactivation out-of-scope per Phase 5 Q2 lock`. Origin: `0ad626cb`.
+INSERT-route collisions surface different recommendations: published-row → add to `--updates-manifest` OR rename source ZIP; archived-row → pick a different slug (UPDATE-via-manifest invalid for archived rows).
 
 ### 15.10 Block-on-archived UPDATE
-`publish.js` rejects `--update-slug` when `existingRow.status !== 'published'`. The `(language, slug)` compound unique constraint surviving on archived rows is the mechanism. Origin: `0ad626cb`.
-
-**Cross-locale-OK.** §15.10 block applies only same-locale. Cross-locale INSERTs of an archived slug clean (compound unique is `(language, slug)`). (en, picture-path) archived at `0ad626cb` does NOT block (de/es/nl, picture-path) INSERTs. Locale-conditional emission at apps-side (`67d5d99d`): `en` emits `picture-trail`; `de`/`es`/`nl` emit canonical `picture-path`. Routing matrix at NL Batch 6 (`645ca7ff`): /en/decks/picture-trail/ 200; /en/decks/picture-path/ 404; /de/decks/picture-path/ 200; /es/decks/picture-path/ 200 (`1be13b8a`); /nl/decks/picture-path/ 200 (`645ca7ff`); /nl/decks/picture-trail/ 404.
+`publish.js` rejects `--update-slug` when `existingRow.status !== 'published'` (the surviving `(language, slug)` unique constraint is the mechanism). **Cross-locale-OK** — the block is same-locale only; cross-locale INSERTs of an archived slug are clean (locale-conditional emission, e.g. en `picture-trail` vs de/es/nl `picture-path`).
 
 ### 15.11 Unpublish handler
-Single-deck CLI (Phase 5 Q1 lock; bulk-unpublish deferred): `node scripts/publish-cli/index.js unpublish <slug> --language <locale> --confirm`. Pipeline FS-first DB-last: (1) `db.findExistingBySlug(language, slug)` must return published; (2) `place-assets.unpublishAssets(locale, slug)` removes `<slug>` symlink (immediate 404) then `fs.renameSync` every `<slug>-vN/` to `.archived/<locale>/<slug>-unpublished-<utc>/`; (3) `db.unpublishDeck(id)` flips status. Origin: `0ad626cb`.
+Single-deck CLI (`unpublish <slug> --language <locale> --confirm`), FS-first DB-last: find published → `unpublishAssets` (remove symlink → immediate 404; rename `<slug>-vN/` to `.archived/.../<slug>-unpublished-<utc>/`) → flip DB status.
 
 ### 15.12 Archive folder structure
-Two namespaces at `/var/www/lcs-media/decks/.archived/<locale>/`: `<slug>-pruned-<utc>/` (KEEP_VERSIONS=3 pruning) + `<slug>-unpublished-<utc>/` (unpublish handler). Cleanup-cron deferred (>1 GB OR 100+ decks). Origin: `0ad626cb`.
+Two namespaces at `/var/www/lcs-media/decks/.archived/<locale>/`: `<slug>-pruned-<utc>/` (KEEP_VERSIONS=3 pruning) + `<slug>-unpublished-<utc>/` (unpublish). Cleanup-cron deferred (>1 GB OR 100+ decks).
 
 ### 15.13 Dry-run-vs-real parity
-Per-deck staging set (`manifest.json` + post-substitution `deck.html` + `deck.html.diff` + `substitution-report.{json,txt}` + `warnings.txt`) byte-identical between dry-run and real-mode. `_summary.txt` diverges by design. `_results.txt` + `_failures/` real-mode-only. Mechanism: `bulk.js` invokes `dryRunBatch()` as own pre-flight. Origin: Brief B Sub-phase 5.7.
-
-**Within-batch collision-pair inspection-before-confirm.** Default to surfacing inspection report before `--confirm` rather than auto-suffix. Tiebreak: drop LATER-generated ZIP (earlier-roll-wins). Track C 443→440-deck en wave 2026-05-05: 3 pairs dropped; final 440 decks with no `-2` slugs.
+Per-deck staging set is byte-identical between dry-run and real (`bulk.js` invokes `dryRunBatch()` as its own pre-flight); `_summary.txt`/`_results.txt`/`_failures/` diverge by design. **Within-batch collision: surface an inspection report before `--confirm` (anti-pattern: auto-suffix); tiebreak = drop the LATER-generated ZIP (earlier-roll-wins).**
 
 ### 15.14 Asset placement / OG image / pruning
-Layout: `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` + symlink. Ownership: `lcs-media:lcs-media` 755/644; locale-dir auto-chown via `ensureLocaleDir` (`9a30f049`). Pruning: KEEP_VERSIONS=3 moves aged-out dirs to `.archived/`.
-
-**OG image (post SEO-thumbnail commission 2026-05-19):** 1200×630 Sharp-composite, two-column layout:
-- Left 487×630: scaled thumbnail.png (fit:cover; preserves source 480×620 aspect)
-- Right 713×630: cream `#FEFAF3` + deck title (DejaVu Sans Bold 48px, wrapped) + theme/level subhead + brand wordmark
-- XMP packet embedded via Sharp `.withXmp(string)` — dc:title/description/creator/rights/subject + xmpRights:Marked. ~1KB packet.
-- `channels:3` RGB no-alpha; transparent regions composite onto cream background.
-
-Legacy centered-on-white layout retained at `og-image.js: deriveLegacy()` for backwards-compat callers (operator-side app gen without title context). See §17.8.19 for full image-SEO signal stack.
+Layout `/var/www/lcs-media/decks/<locale>/<slug>-v<N>/{deck.html, printable.pdf, answer-key.pdf, thumbnail.png, og-image.png}` + symlink; ownership `lcs-media:lcs-media` 755/644; KEEP_VERSIONS=3 → `.archived/`. **OG image** = 1200×630 Sharp two-column composite (left thumbnail / right cream `#FEFAF3` + title + theme/level + wordmark) + embedded XMP packet; legacy centered layout at `og-image.js: deriveLegacy()`. See §17.8.19.
 
 ### 15.15 publish-bulk per-locale isolation
-`publish-bulk` has NO `--language` flag. SCHEMAS declares `--dry-run`, `--confirm`, `--updates-manifest`, `--batch-id`, `--staging-dir`. Per-locale isolation enforced at folder-content layer (`bulk.js` reads via `fs.readdirSync` non-recursive, filters `.zip`; dot-prefixed subdirs naturally skipped).
-
-**Operational pattern** (14 ES + NL Track C batches; `b18b8654`–`d3b4f962`): (1) archive prior batch's residue `mkdir -p .tier2-trackc-batch-N-{cluster}-{locale}/ && mv *.zip .tier2-trackc-batch-N-{cluster}-{locale}/`; (2) SCP new ZIPs to top level of `publish-inbound/`; (3) `publish-bulk publish-inbound/ --dry-run` then `--confirm`. Premise drift at Batch 4 ES (`b18b8654`) assumed phantom `--language` flag. Folder-content control IS the safeguard.
+`publish-bulk` has NO `--language` flag; per-locale isolation is enforced at the folder-content layer (`bulk.js` reads non-recursive, filters `.zip`; dot-prefixed subdirs skipped). Operational pattern: archive prior batch's residue into a dot-subdir → SCP new ZIPs to top level → `--dry-run` then `--confirm`.
 
 ### 15.16 Manifest-content reconciliation gate
-Two-dimension gate on every manifest before slug derivation; halts batch if any halt-class fires.
-
-**Dimension 1 — `theme` reconciliation** (`reconcileManifestTheme` in `slug.js`). Compares `manifest.theme` against `parseThemeFromImagePath(manifest.exercises[0].image.path)` (fallback `images_used[0]`). Categories: CLEAN / MISSING_THEME / MISSING_PRIMARY / THEME_DISAGREE. Hyphen/underscore + case normalization. Themeless-app legitimate-null path preserved (declared null + no `image.theme` OR CUID-shaped dir).
-
-**Dimension 2 — `exerciseMode` reconciliation** (`reconcileExerciseMode`). Validates `manifest.exercise_mode` against `EXERCISE_MODE_APP_CLASSIFICATION`. Categories: CLEAN (DERIVED app emit, OR null from DERIVED app per default-mode contract §17.8.5) / MODE_NULL_FROM_HARDCODED_APP (the defect class; halts). Post Commission ε at `109a91d4` this list is empty across all 29; gate stays as backstop.
-
-**Operational:** Both dimensions run in `dryRunBatch()` pre-side-effect. Halts surfaced in `_reconciliation.txt`. Themeless legitimate-null preserved (no false halts on Track A baseline). Single-deck `publish.js` wires identically.
-
-**Why structural:** gate runs at publish-cli boundary, not authoring-app boundary — doesn't replace Shape A discipline §A.13.5 but catches whatever apps' emit-sites fail to enforce. Future regression halts before URL-collision or SEO-degradation propagates.
-
-**Tests:** 56 unit tests in `slug.test.js` (21 slugify + 8 deriveSeed + 13 parseThemeFromImagePath + 11 reconcileManifestTheme + 11 reconcileExerciseMode); 5 integration tests in `reconciliation.integration.test.js`.
-
-**Halt-surface predicate calibration vs ground-truth.** When the gate fires unexpectedly, first diagnostic is NOT "gate malfunctioning" — it's "verify predicate against ground-truth." Run `parseThemeFromImagePath` + `reconcileManifestTheme` against a sample manifest by hand. Empirical: code-addition wave halt at `9051b43d` correctly diagnosed as real emit-defect via this calibration before salvage script authored.
-
-Origin: `580b0ca2` (theme) + `2b555b57` (exerciseMode).
+Two-dimension gate on every manifest before slug derivation (runs in `dryRunBatch()` pre-side-effect; halts surfaced in `_reconciliation.txt`): **Dimension 1 theme** (`reconcileManifestTheme` — manifest.theme vs `parseThemeFromImagePath`; CLEAN/MISSING_THEME/MISSING_PRIMARY/THEME_DISAGREE; themeless legitimate-null preserved) + **Dimension 2 exerciseMode** (`reconcileExerciseMode` vs `EXERCISE_MODE_APP_CLASSIFICATION`; the halt class is `MODE_NULL_FROM_HARDCODED_APP` — empty across all 29, gate stays as backstop). Structural backstop at the publish-cli boundary (complements Shape A §A.13.5). **Halt-surface calibration: on unexpected fire, first verify the predicate against ground-truth, not "gate malfunctioning."** 56 unit + 5 integration tests in `slug.test.js`/`reconciliation.integration.test.js`.
 
 ### 15.17 Salvage scripts pattern (`rewrite-manifest-<field>.js`)
-Generation-side emit-defects produce structurally-broken manifests across already-staged ZIPs. One-shot salvage scripts derive correct value from in-bundle content signal and repack in-place with backup.
-
-References:
-- `rewrite-manifest-theme.js` (`9051b43d`) — salvages from `exercises[0].image.theme` (fallback `images_used[0]` path-derived). Reuses `parseThemeFromImagePath`.
-- `rewrite-manifest-exercise-mode.js` (`0f0c648d`) — salvages from `settings.<mode-distinguishing-field>` (e.g., `settings.word_reveal_mode` for code-addition). 2-mode contract per operator adjudication.
-
-**Pattern requirements:**
-1. Pre-pass classification before any FS write (Phase 1 reads every ZIP; classifies rewrite/skip-clean/halt-class; prints summary; no backups/repacks). If any halt-class → exit before Phase 2.
-2. Halt-classes: `unparseable` (in-bundle signal missing) + `ambiguous` (multiple signals disagree OR CUID-shaped). Defensive.
-3. Backup-then-rewrite ordering. Theme rewriter: `<workingDir>.original/` sibling. Exercise-mode rewriter: `.<utc-prefix>/` dot-subdir within workingDir.
-4. Verification post-apply: re-run §15.16 gate; expected N/N CLEAN.
-5. Authoring-side root-cause fix queued separately. Salvage closes present wave; authoring fix per §A.13.5 Shape A closes structural defect for future waves.
-
-Empirical (153 en code-addition wave 2026-05-05): theme rewriter Phase 2 dry-run found 150 rewrite + 3 skip-clean + 0 halts; Phase 3 apply rewrote 150 in-place; Phase 4 gate 153/153 CLEAN. Exercise-mode rewriter Phase 2 found 49 rewrite + 104 skip-clean + 0 halts; Phase 3 rewrote 49; gate 153/153 CLEAN. Phase 5 publish: 153/153 INSERT in 11.1s; live curl HTTP 200 across all 3 slug-shape variants.
-
-**Trigger:** emit-defect surfaces post-generation across staged wave. Always preferred over regeneration when in-bundle signal recoverable; regeneration fallback when signal unparseable + ambiguous.
+Generation-side emit-defects across already-staged ZIPs → one-shot salvage scripts derive the correct value from in-bundle content + repack in-place with backup (`rewrite-manifest-theme.js`, `rewrite-manifest-exercise-mode.js`). Requirements: pre-pass classification before any FS write (halt-classes `unparseable`/`ambiguous` exit before Phase 2); backup-then-rewrite; post-apply re-run the §15.16 gate (expect N/N CLEAN); authoring-side root-cause fix (Shape A §A.13.5) queued separately. Preferred over regeneration when the in-bundle signal is recoverable.
 
 ### 15.18 Inbound-link surface counter + gate doctrine
-`scripts/publish-cli/count-inbound-surfaces.js` (Phase 4b CJS port from `frontend/lib/seo/count-inbound-surfaces.ts`) implements 8-surface counter consumed by `reconcileInboundLinkSurface` predicate at `seo-reconciliation.js:708`. Counts: exerciseTypeTopicPage (always-true) + educationalLevelTopicPage (always-true via §17.8.6) + themeTopicPages (subjectTags non-empty) + siblingAxisStrip (locale ≥2 distinct exerciseTypes) + varietyStripRotation (always-true) + crossAxisPivots (always-true) + deckEndSuggestionStrip (locale ≥7 decks) + breadthGridFeatured (Phase 3a conservative `false`). Predicate fires `INBOUND_LINK_COUNT_BELOW_TARGET` when count <3. WARN pre-Phase-5; HALT post-Phase-5 close.
-
-**§15.18.1 bulk.js wire-in gap discipline. CLOSED 2026-05-19 SEO-100pct commission Phase 5** via default-fallback pattern at `bulk.js` ctx construction (matching countInboundFn precedent): `findExistingByTitleHash: opts.findExistingByTitleHash || db.findExistingByTitleHash`. Same for descriptionHash. Now bulk-publish enforces same uniqueness invariants as single-publish via publish.js (lines 205-206). Origin: Phase 4b close-out Item 12; closed at commit closing Phase 5 of SEO-100pct.
-
-**§15.18.2 Pre-publish-state vs post-publish-state semantics for inbound predicate.** Predicate calls `countInboundFn(deckId, language)` where `deckId` derives from `manifest.deck_id` (operator-space, e.g., `big-small-findbig-en-20260507200010`); helper does `findUnique({where:{id:deckId}})` against `Deck.id` (Prisma CUID). For pre-publish dry-run, `manifest.deck_id ≠ DB CUID` → null → count=0 → predicate fires.
-
-Three resolution paths to consider at fold cycle:
-- **Option A — pre-publish skip:** predicate skips for INSERT-path dry-run; runs only UPDATE-path.
-- **Option B — post-publish projection:** helper accepts `(language, exerciseType, ageRange, subjectTags)` from manifest; computes projected count.
-- **Option C — defer-empirical:** keep current; rely on Phase 5 HALT-flip + post-publish revalidation.
-
-Phase 5 close authorized WARN→HALT despite this concern. Trigger for resolution: if empirical halt rate exceeds ~5% baseline, commission resolution. If stays ~0%, no resolution needed. Cross-reference §A.13.7 first-publish-verification cadence. Origin: Phase 4b close-out Item 13 + Phase 5 risk acceptance.
-
+`scripts/publish-cli/count-inbound-surfaces.js` (CJS port of the TS counter) implements the 8-surface counter consumed by `reconcileInboundLinkSurface`; predicate fires `INBOUND_LINK_COUNT_BELOW_TARGET` when count <3 (WARN pre-Phase-5, HALT post). **§15.18.1 bulk.js wire-in CLOSED** via default-fallback (`opts.findExistingByTitleHash || db.findExistingByTitleHash`, same for descriptionHash) — bulk-publish now enforces the same uniqueness invariants as single-publish. **§15.18.2 pre-vs-post-publish semantics:** for INSERT-path dry-run, `manifest.deck_id ≠ DB CUID` → count=0 → predicate fires; resolution deferred-empirical (commission only if halt rate >~5%). Cross-ref §A.13.7.
 ## 16. Topic destination pages
 
 Primary teacher-facing surface; deliberate divergence from education.com flat results. Each page = curated bundle for a specific (axis × axis-value × locale) per §16.5 α-granular schema — one of three axes (exercise-type / theme / educational-level). URL: `/<locale>/topic/<native-language-slug>/` per §17.4.
@@ -915,40 +521,14 @@ A deck's end-of-deck links (§17.8.2) point to its three (or two, when theme abs
 
 **Compound search-intent topic pages** (e.g., `/de/topic/mathe-kindergarten-addition/`) NOT in v1 scope. URL space remains available; would live alongside α-granular pages. Deferred per §17.8.5 publish-cli substitution simplicity tradeoff.
 
-**`topics-taxonomy.json` schema:**
-```json
-{
-  "$schema_version": "1.0",
-  "apps": {
-    "<app-name>": {
-      "default_subject": "math|letters|logic|spatial-reasoning",
-      "default_age_range": "3-5|5-7|6-8|7-9|8-10",
-      "exercise_type_axis_key": "<key>"
-    }
-  },
-  "axes": {
-    "exercise-type":     {"<axis-key>": {"slug": {"<locale>": "<native-slug>"}}},
-    "theme":             {"<axis-key>": {"slug": {"<locale>": "<native-slug>"}}},
-    "educational-level": {"<axis-key>": {"slug": {"<locale>": "<native-slug>"}}},
-    "exercise-mode":     {"<axis-key>": {"slug": {"<locale>": "<native-slug>"}}}
-  }
-}
-```
+**`topics-taxonomy.json` schema** — `$schema_version` + `apps.<name>.{default_subject, default_age_range, exercise_type_axis_key}` + `axes.{exercise-type,theme,educational-level,exercise-mode}.<axis-key>.slug.<locale>`. Full schema block → docs/claude-md/site-topic-export-detail.md.
 
 Locale coverage per launch tier (§19): Tier 1 (en, de) from day one; Tier 2 (es, nl) at Tier 2 launch; Tier 3 (sv, fi, no) at Tier 3; Tier 4 (fr, it, da, pt) at Tier 4.
 
 **publish-cli substitution** reads `topics-taxonomy.json` and substitutes end-of-deck-link placeholders per §17.8.2 / §17.8.5. Canonical names per emitter at `REFERENCE TRANSLATIONS/catalog-export.js:34-46`: heading `__END_DECK_HEADING__`; URLs `__LINK_MORE_TYPE__` / `__LINK_MORE_THEME__` / `__LINK_MORE_LEVEL__` / `__LINK_BROWSE_ALL__`; localized text `__LINK_TEXT_*__`. Localized text accepts `{type}` / `{theme}` / `{level}` ICU-style against per-axis-key `name.<locale>`.
 
 #### 16.5.1 Theme axis-key registration: Path X 1:1 with image-library
-`axes.theme` registered 1:1 with `image_themes` table `type='images'` rows. **50 color + 50 BW = 100 axis-keys** (post-`947ad260`). Auto-derivation: for each (theme, locale), `slug = slugify(image_themes.displayNames.<locale>)` per §17.8.5; `name = passthrough`.
-
-**Decoration assets** (`type='backgrounds'` 12 rows; `type='borders'` 5 rows) NOT registered — generation-time visual inputs, not catalog-browsing classifications. Registering them produced 27 of 28 surfaced collisions during `947ad260` recon with zero combinatorial gain.
-
-**Drops + renames at `134614dc`:** `food` axis-key DROPPED (no DB theme matched, 0 decks ever). Food-adjacent (`bakery`, `breakfast`, `desserts_and_sweets`, `kitchen_tools`, `at_the_supermarket`) registered separately. `fruit` (singular) RENAMED to `fruits` to match DB.
-
-**`name` field semantic shift at `134614dc`:** from operator-curated singular ("animal") to DB-derived plural-capitalized ("Animals"). 116 published decks pre-`134614dc` keep singular form on end-of-deck links (manifest-baked); new publishes use plural via `__LINK_TEXT_MORE_THEME__`. Coexistence correct; no migration.
-
-**Slug-collision Option A fallback** (`947ad260`): when `image_themes` data has Spanish-displayName collision (e.g., `home_bw` + `household_bw` both `"Hogar BN"`), demoted axis-key uses `slugify(image_themes.name)` for the colliding locale only; `name` passthrough preserved. §A.7.1 documents underlying data fix needed; once renamed Option A removed.
+`axes.theme` is registered 1:1 with `image_themes` `type='images'` rows — **50 color + 50 BW = 100 axis-keys**; per (theme, locale) `slug = slugify(displayNames.<locale>)`, `name = passthrough`. Decoration assets (backgrounds/borders) are NOT registered (generation-time visual inputs, not browse classifications). The drops/renames (`food` dropped, `fruit`→`fruits`), the `name` singular→plural shift, and the Spanish-displayName collision Option-A fallback → docs/claude-md/site-topic-export-detail.md#1651 (+ §A.7.1 underlying data fix).
 
 #### 16.5.2 "Topics" vocabulary reservation
 Word **"topics"** reserved for the architectural concept (topic-destination pages at `/<locale>/topic/<native-slug>/`). User-facing copy does NOT use "topics" as generic browse-axis label — uses concrete axis-names (**exercise types**, **themes**, **educational levels**). Established at Catalog Variety Arc 1 Q2 adjudication. Persists even though specific surface reverted at `383b7d34`.
@@ -996,58 +576,27 @@ Footer surfaces topic-page links across three columns per `Footer.tsx`:
 Both resolve when Track C deck-publish lands first deck.
 
 ## 16.7 Prose substrate
-
-Topic pages render rich descriptive prose above deck grid — locale-natural multi-sentence paragraphs. i18n-keyed per (axis-key, locale).
-
+Topic pages render rich locale-natural prose above the deck grid, i18n-keyed per (axis-key, locale). Full detail → docs/claude-md/topic-and-i18n-detail.md.
 ### 16.7.1 Q3 fallback chain pattern
-3-level fallback:
-1. **`topicProse.<axisKey>`** (single-axis) or **`topicProse.<a1>__<a2>`** (intersection) — rich prose authored for top-N per locale
-2. **`topicPage.intro.<intent>`** where intent ∈ {`exerciseType`, `theme`, `educationalLevel`} — short ICU template
-3. **`topicPage.intersection.intro`** — short ICU template
-
-`TopicProseContainer.tsx` checks in order; first non-empty match. Long-tail axis-keys without `topicProse` substrate-honestly fall through (§16.7.3 Path B). Origin: `15444fe8` Arc 6a + `c03fdb8e` Arc 6d (660 prose blocks across 11 locales).
-
+3-level: `topicProse.<axisKey>` / `topicProse.<a1>__<a2>` (rich, top-N) → `topicPage.intro.<intent>` → `topicPage.intersection.intro`; `TopicProseContainer.tsx` takes the first non-empty.
 ### 16.7.2 topicProse key shape canonical
-- **Single-axis:** `topicProse.<axis-key>` — e.g., `topicProse.addition`, `topicProse.kindergarten`
-- **2-axis intersection:** `topicProse.<a1>__<a2>` with axis-keys in **alphabetic order** — e.g., `topicProse.addition__animals`
-
-`lookupTopicProse` sorts before constructing lookup. Authoring discipline: i18n message file MUST use alphabetic-ordered keys. Origin: `c03fdb8e`.
-
+Single-axis `topicProse.<axis-key>`; 2-axis `topicProse.<a1>__<a2>` with axis-keys in **alphabetic order** (`lookupTopicProse` sorts before lookup).
 ### 16.7.3 Path B by default for content-authoring arcs
-**Path B:** rich content authored for top-N per locale; long-tail substrate-honestly falls through to template intros via §16.7.1. Caps authoring at high-traffic surfaces while preserving structural coverage. Operator-strategic per arc: which axis-keys are "top-N" (deck-volume / query-volume / audience priority). Default at scale: top-N by published-deck-count. Origin: `c03fdb8e` (Path B + intersection.intro gap-fold; 660 prose blocks + 7 intersection.intro gap-fills).
-
+Rich content for top-N per locale; long-tail falls through substrate-honestly to template intros. Top-N is operator-strategic (default: top-N by published-deck-count).
 ## 16.8 Filter-sort-pagination
-
 ### 16.8.1 TOPIC_PAGE_SIZE = 24
-Per-page count locked at 24 (4 columns × 6 rows desktop). Constant at `frontend/lib/topic-decks.ts: TOPIC_PAGE_SIZE`; all paginated surfaces import. Balances grid density vs page-load weight. Locked Arc 6b Q-pagination adjudication.
-
+Locked at 24 (4 cols × 6 rows desktop); constant at `frontend/lib/topic-decks.ts: TOPIC_PAGE_SIZE`, imported by all paginated surfaces.
 ### 16.8.2 Filter-sidebar architecture pattern
-`FilterSidebar.tsx` renders 3 facet groups in fixed order: **theme → educational-level → exercise-type** (matches §16.5.3 axis-ordering). Per-axis:
-- **Theme:** top-N expand pattern — first 12 visible; "Show all themes" button. `FacetGroup.themeTier1Count = 12`.
-- **Educational-level:** all 5 visible (small set).
-- **Exercise-type:** all 29 visible.
-
-**URL-state truth source:** filter state from URL query-string (§16.5.4), NOT React state. Toggle facet `router.push`es new URL. **Path-bound axis exclusion:** when page anchored on axis (`/en/topic/addition/` filters to `type=addition`), that facet excluded.
-
-Origin: `73640794`. UX truncation defect at `91ae41a7` (label-readability fix per §A.13.1).
-
+`FilterSidebar.tsx` renders 3 facet groups in order **theme → educational-level → exercise-type** (theme top-12-then-expand; level all-5; type all-29). URL query-string (§16.5.4) is the state truth-source (NOT React state); the path-bound axis is excluded from its facet.
 ### 16.8.3 Canonical-tag-on-pagination
-Pagination + sort URLs canonical-redirect to bare path when params equal defaults: `?sort=newest` → bare; `?page=1` → bare; `?sort=alphaAsc&page=1` → `?sort=alphaAsc` (page-1 stripped).
-
-Server component compares incoming `searchParams` against canonical-form; if mismatch, 308-redirect. Prevents duplicate-content SEO penalties.
-
-**Subtle bug class** (`1d105da5` fix): earlier impl compared `sp` (already canonicalized) against `currentSp` (also canonicalized) — always equal, redirect never fired. Fix: compare RAW incoming `searchParams.toString()` against canonical.
-
----
+Pagination/sort URLs 308-redirect to the bare path when params equal defaults (`?sort=newest`/`?page=1` stripped). Compare RAW incoming `searchParams` against canonical-form (the subtle bug: comparing two already-canonicalized forms never fires).
 
 ## 17. Public site rebuild + SEO-from-the-start
 
 Previous KDP/Etsy seller positioning fully discontinued; rebuilt for multilingual K-3 audience.
 
 ### 17.1 What was deleted
-**Status: complete** at tag `v1-teardown-complete` on `pivot/printable-business-toolkit`. Removed across 9 sequenced passes (`e8c1c28f`, `b6c8166e`, `c605c911`, `42f4fd5f`, `49b501b0`, `c7d316dc`, `38181bd5`, `7c24630e`, plus Pass 9 final): public seller surfaces (apps/, pricing/, tools/, guides/, bundles/, ideas/, start/, blog/, about/, faq/, compare/, gallery/, sitemap-image/video shells); zero-consumer config trees (~80 MB); seller-era message namespace `apps` across 11 locales; `lemonsqueezy-products.ts` (plural; 7 dead exports); admin/user-control purchase-admin tooling; `DROP TABLE purchases` + `DROP TABLE wplus_transactions`; `Purchase` model + `User.purchases` relation. Public routes matching deleted prefixes return **HTTP 410 Gone** via `middleware.ts`. Reshelled directories (`pricing/`, `about/`, `faq/`) return **404** until new content lands.
-
-See git tag `v1-teardown-complete` for the post-teardown HEAD and Pass 1-9 commit chain.
+**Status: complete** at tag `v1-teardown-complete` on `pivot/printable-business-toolkit` (9 passes removed all public seller surfaces, seller-era namespaces/config, purchase-admin tooling, `Purchase`/`purchases`/`wplus_transactions`). Deleted prefixes return **410 Gone** via `middleware.ts`; reshelled dirs (`pricing/`/`about/`/`faq/`) **404** until new content. Pass 1-9 commit chain → docs/claude-md/misc-detail.md.
 
 ### 17.2 What is preserved (technical foundation)
 
@@ -1085,53 +634,16 @@ Lesson-plan URL surface deleted with the domain (commit `920aebbc`; see top AMEN
 Educational-level axis-keys have canonical age-range semantics per §17.8.6. Per-locale `slug` + `name` maps use the PLATFORM's age-range numbers in parentheticals, NOT the locale's school-system numbers (cross-locale consistency at platform-abstraction layer). Example: Italian `Scuola dell'infanzia` covers ages 3-6 in actual Italian school structure; preschool axis-key uses platform's `(3-5 anni)`. Established at `b3f0d1f3` + `9ea577fe` + `589fd554` + `a47ea021`.
 
 #### 17.4.3 Cross-locale educational-level matrix (canonical)
-
-| Locale | preschool | kindergarten | grade-1 | grade-2 | grade-3 |
-|---|---|---|---|---|---|
-| `en` | preschool | kindergarten | grade 1 | grade 2 | grade 3 |
-| `de` | Vorschule | Kindergarten | 1. Klasse | 2. Klasse | 3. Klasse |
-| `es` | preescolar | jardín infantil | grado 1 | grado 2 | grado 3 |
-| `nl` | peuterklas | kleuterklas | groep 3 | groep 4 | groep 5 |
-| `it` | Scuola dell'infanzia (3-5 anni) | Scuola dell'infanzia (5-7 anni) | Scuola primaria classe prima | Scuola primaria classe seconda | Scuola primaria classe terza |
-| `fr` | École maternelle (petite/moyenne section, 3-5 ans) | École maternelle (grande section, 5-7 ans) | CP (cours préparatoire) | CE1 (cours élémentaire 1) | CE2 (cours élémentaire 2) |
-| `pt` | Educação infantil (creche, 3-5 anos) | Educação infantil (pré-escola, 5-7 anos) | 1º ano do ensino fundamental | 2º ano do ensino fundamental | 3º ano do ensino fundamental |
-| `sv` | Förskola | Förskoleklass | Årskurs 1 | Årskurs 2 | Årskurs 3 |
-| `da` | Børnehave | Børnehaveklasse | 1. klasse | 2. klasse | 3. klasse |
-| `no` | Barnehage (3-5 år) | Barnehage (5-7 år) | 1. trinn | 2. trinn | 3. trinn |
-| `fi` | Varhaiskasvatus | Esiopetus | 1. luokka | 2. luokka | 3. luokka |
-
-**Descriptor-differentiation pattern.** Where locale's school-system UNIFIES multiple platform axis-keys under single term, per-locale name maps differentiate via parenthetical descriptor. 4 of 11 apply: `it`/`fr`/`pt`/`no`. 7 with discrete per-axis-key terminology: `en`/`de`/`es`/`nl`/`sv`/`da`/`fi`. Pattern structural to each locale's school system, NOT Romance/Germanic family divide. Cross-system-boundary parentheticals acceptable trade-offs.
-
-**Class 2 collision pattern.** `home_bw` + `household_bw` `image_themes` pair has identical Spanish + Italian displayNames (`Hogar BN` / `Casa BN`) — Class 2 slug collision; resolved via §16.5.1 Option A fallback. Other 9 of 11 locales have distinct translations. State: collision in `es` (`947ad260`) + `it` (`b3f0d1f3`); distinct elsewhere. Underlying §A.7.1 data fix resolves long-term.
-
-**IT retroactive fix (`9ea577fe`).** Italian preschool/kindergarten parentheticals corrected during fr Track A commission. Pre-fix shipped `b3f0d1f3` with age-representative parentheticals; post-fix per §17.4.3 matrix. Safe at fix-time: 0 it decks published. Future retroactive corrections after Track C deck-publish require deck-rewrite + URL-redirect commission.
+The 5 educational-level axis-keys (preschool/kindergarten/grade-1/grade-2/grade-3) have a canonical per-locale slug+name across all 11 locales — **full 11×5 matrix in docs/claude-md/site-topic-export-detail.md#1743** (also encoded in `topics-taxonomy.json`). **Descriptor-differentiation pattern:** where a locale's school system unifies multiple platform axis-keys under one term (it/fr/pt/no), the per-locale name differentiates via a parenthetical; 7 locales (en/de/es/nl/sv/da/fi) have discrete per-axis-key terminology. Parentheticals use the PLATFORM's age-range numbers (§17.4.2), not the locale's school-system numbers.
 
 ### 17.5 Keyword research workflow
-
-Claude (Anthropic's chat) performs keyword research on demand. When new content is commissioned, Claude is asked to research keyword space for that topic + language. Uses web search to evaluate what currently ranks, competing content, gaps, natural URL slug in target language. Output informs Claude Code's content production.
-
-Working doc `seo-strategy.md` accumulates findings.
-
-For Swedish/Danish/Norwegian/Finnish, native-speaker review recommended before publishing.
-
-Claude's research is strategic, not tactical — can assess "this query has thin competition in Swedish" but cannot produce precise monthly search volumes (requires Ahrefs/SEMrush which operator hasn't adopted).
-
-**Phase 6 NSR-flag list:** 57 keys flagged across 2 populations: 17 organic-phrasing (4 EN + 13 DE) + 40 bulk-i18n-tier (`seo.educational_level.*` + `endDeck.*` × 4 NSR-flagged tiers sv/fi/no/da). Romance Tier 4 (fr, it, pt) authored without NSR per stronger Claude quality assessment. See `project_k3_phrasing_native_speaker_review.md`.
+Claude (chat) does on-demand keyword research when new content is commissioned (web-search what ranks, competing content, gaps, the natural target-language slug); findings accumulate in `seo-strategy.md`. Strategic not tactical (no precise volumes without Ahrefs/SEMrush). Full workflow + article examples → docs/claude-md/site-topic-export-detail.md#175.
 
 #### 17.5.1 NSR-flag pattern for Nordic + non-Romance commissions
-Claude's Nordic quality is weaker than Romance/Germanic. Track A + Wave 1 commissions ship at correct-enough state: auto-derived theme axis-key entries mechanical; topicPage authoring mirrors structural shape; per-locale chrome reaches functional state via cross-locale precedent mirroring. NSR-flag in commit message identifies deferred review. Applies to Nordic + future non-Romance commissions. Does NOT apply where chrome shipped via cross-locale-precedent with native-equivalent confidence.
+Claude's Nordic quality is weaker than Romance/Germanic; Nordic + future non-Romance commissions ship at correct-enough state with an `[NSR-FLAG]` in the commit message marking deferred native-speaker review. Does NOT apply where chrome shipped via cross-locale precedent with native-equivalent confidence.
 
 ### 17.6 Content marketing surface
-Practical name TBD ("Blog" / "Guides" / "Resources"). Minimum cadence: one substantive article per week in strongest content language, translated/adapted into priority languages over time.
-
-Article topics specific to multilingual K-3 educators:
-- "Five ways to support Spanish-speaking children in English-medium kindergarten"
-- "How to choose age-appropriate math activities for multilingual learners ages 4-6"
-- "Working with multilingual parents in early childhood programs"
-- "Integrating home languages into classroom instruction without disrupting curriculum"
-- "Lesson planning for international school early years"
-
-Every guide article embeds a sample deck (§18).
+One substantive article/week in the strongest content language, adapted into priority languages over time; topics specific to multilingual K-3 educators (home-language support, age-appropriate activities, multilingual parents, international-school early years). Every guide embeds a sample deck (§18). Article-topic examples → docs/claude-md/site-topic-export-detail.md#176.
 
 ### 17.7 What this means for Claude Code
 
@@ -1145,121 +657,29 @@ When commissioned for a public page, CC:
 
 ### 17.8 The deck.html SEO surface
 
-Each deck published is a self-contained static HTML at a public URL (§4.4). Google sees each deck.html as its own page. Across 400-600 launch target growing to thousands in 11 language variants, this is a meaningful long-tail SEO surface.
+Each published deck is a self-contained static HTML at a public URL; Google sees each as its own page (a long-tail SEO surface across thousands of decks × 11 locales). SEO is **baked at publish time** (§4.4 cacheability — same bytes to teachers + Googlebot, no request-time templating) and does NOT modify the §14.3 attribution footer. **v1/v2 split:** v1 ships the SEO surface with `content_family_id=null` + empty hreflang; v2 (SHIPPED 2026-05-19) populates cross-language siblings + hreflang (§17.8.7).
 
-SEO design is locked **before bulk generation begins**. Retroactively adding markup would require regenerating thousands of decks.
-
-Two constraints: **§4.4 cacheability** — deck.html served to all teachers + Googlebot is the same bytes; all SEO baked at publish time; no request-time templating. **§14.3 attribution neutrality** — SEO additions do not modify attribution footer.
-
-**v1 / v2 scope split.** v1 (now): each deck.html carries the SEO surface but no cross-language sibling tracking. `content_family_id` reserved nullable schema field ships day one; stays `null` for every v1 deck; hreflang block empty. v2 (later): "translate this deck" workflow generates siblings sharing `content_family_id`; publish-cli injects hreflang. Reserving schema field now avoids migrating v1 decks once v2 lands.
+Terse contract below; **full `<head>`/`<body>` spec, slug ASCII-fold rules + example tables, per-app emit detail, and empirical anchors live in `docs/claude-md/deck-html-seo-surface.md`.** Emit machinery is `LCSCatalogExport.buildSeoHead` + `build-seo-head.js` (publish-cli port).
 
 #### 17.8.1 deck.html `<head>` requirements
-
-1. **`<html lang="...">`** from manifest's `language`.
-2. **`<title>`** — `<Exercise type capitalized> Worksheet — <Theme capitalized> — __EDUCATIONAL_LEVEL_LOCALIZED__ | LessonCraftStudio`. Example: `Addition Worksheet — Animals — Kindergarten | LessonCraftStudio`. Fallbacks: omit theme segment if none; omit ed-level segment + em-dash if no `age_range`. 50–60 chars; truncate. Localized.
-3. **`<meta name="description">`** — `Free interactive <exercise type> worksheet <theme phrase> for __EDUCATIONAL_LEVEL_LOCALIZED__. <Activity instruction sentence>. Print or play online.` 150–160 chars; truncate. Localized.
-4. **`<link rel="canonical" href="__CANONICAL_URL__">`** substituted by publish-cli. Pattern: **`https://lessoncraftstudio.com/<locale>/decks/<native-language-slug>/`** — locale-prefixed; `decks` constant English noun; native-language slug deterministic from localized title. Trailing slash; no `.html`. Examples: `/de/decks/addition-tiere-kindergarten/`, `/en/decks/addition-animals-kindergarten/`, `/fi/decks/yhteenlasku-elaimet-esikoulu/`. Internal `deck_id` stays as DB key + manifest key + ZIP filename; not in public URL. Slug generation in §17.8.5.
-5. **`<!-- HREFLANG_INSERTION_POINT -->`** at end of `<head>`. publish-cli substitutes: v1 → empty string. v2 → one `<link rel="alternate" hreflang>` per sibling + `hreflang="x-default"` to English (or first published). On new sibling publish, re-injects into all existing siblings.
-6. **`<script type="application/ld+json">`** Schema.org `LearningResource`:
-   - `@context`, `@type: LearningResource`
-   - `name` (title minus suffix; substituted)
-   - `description` (same as meta description; substituted)
-   - `learningResourceType: Worksheet`
-   - `educationalLevel` (English from `__EDUCATIONAL_LEVEL__`: `Preschool`/`Kindergarten`/`Grade 1`/`Grade 2`/`Grade 3`)
-   - `teaches` (exercise type's topic slug)
-   - `inLanguage`, `isAccessibleForFree: true`
-   - `creator: {"@type":"Organization", "name":"LessonCraftStudio", "url":"https://lessoncraftstudio.com"}`
-   - `audience: {"@type":"EducationalAudience", "educationalRole":"student"}`
-   - `url` (substituted via `__CANONICAL_URL__`)
-
-   Compact JSON; no newlines/comments/trailing whitespace.
+`<html lang>` from manifest; localized `<title>` (`<Type> Worksheet — <Theme> — <Level> | LessonCraftStudio`, 50-60 chars) + `<meta description>` (150-160 chars) carrying `__EDUCATIONAL_LEVEL_LOCALIZED__`; `<link rel=canonical href=__CANONICAL_URL__>` (`https://lessoncraftstudio.com/<locale>/decks/<native-slug>/`, trailing slash, no `.html`); `<!-- HREFLANG_INSERTION_POINT -->` LAST in `<head>`; Schema.org `LearningResource` JSON-LD (name/description/`learningResourceType:Worksheet`/`educationalLevel`/`teaches`/`inLanguage`/`isAccessibleForFree`/creator/audience/url). Full field spec in companion.
 
 #### 17.8.2 deck.html `<body>` requirements
-
-1. **One `<h1>` per deck** with worksheet title. Replace existing `<div>` wrapper.
-2. **Instruction sentence wrapped in `<p>`**, not `<div>`. Semantic markup only.
-3. **`alt` on every `<img>`** from image library. Alt = vocabulary entry in deck's language. No empty alts — a missing vocab entry is a vocab bug.
-4. **Hidden text describing exercise content** via `aria-label` or visually-hidden span. Generated from manifest's `exercises` array. Standard `sr-only` CSS.
-5. **End-of-deck internal links** — 3-4 real `<a href>` to topic destination pages, rendered at end-screen. Per §16.5 α-granular axes: `/<locale>/topic/<exercise-type-slug>/` + `/<locale>/topic/<theme-slug>/` (only when theme set) + `/<locale>/topic/<educational-level-slug>/` + `/<locale>/`. Real anchors, not JS-driven buttons. Link text in deck's language. publish-cli substitutes via placeholder pairs in §16.5.
+One `<h1>` (worksheet title); instruction in `<p>`; `alt` on every library `<img>` (= vocab entry in deck's language; missing = vocab bug); hidden `sr-only`/`aria-label` describing exercise content from the `exercises` array; **end-of-deck internal links** — real `<a href>` to the deck's α-granular topic pages (§16.5) + locale root, substituted by publish-cli.
 
 #### 17.8.3 Out of scope (anti-SEO)
-No keyword stuffing · no competing for high-volume head terms (long-tail specificity only) · no platform-wide content in each deck.html · no AI-generated marketing copy in decks · no tier-dependent SEO content · no request-time templating.
+No keyword-stuffing, no head-term competition (long-tail only), no platform-wide content per deck, no AI marketing copy, no tier-dependent SEO, no request-time templating.
 
 #### 17.8.4 Changes in `catalogExport()` (shared module §15.2)
-`catalogExport()` emits structure without filling values dependent on `metadata.json` or published context: `<title>` with `__EDUCATIONAL_LEVEL_LOCALIZED__`; meta description with same; Schema.org JSON-LD with `__EDUCATIONAL_LEVEL__`, `__EDUCATIONAL_LEVEL_LOCALIZED__`, `__CANONICAL_URL__`; HREFLANG_INSERTION_POINT marker; `__CANONICAL_URL__` in canonical link + JSON-LD url; topic-destination URL placeholders; `aria-label`/`sr-only` per exercise row.
-
-Per-app changes surgical: title wrapper `<div>` → `<h1>`; instruction wrapper `<div>` → `<p>`; add `alt`; add `aria-label`. Apps do NOT populate `educational_level` or canonical URL (publish-cli's job).
-
-**Multi-template-variant pattern (Group B Phase 2 — picture-path).** Per-row pattern generalizes to multiple template keys dispatched on `bundle.mode`. Picture-path: `srPuzzlePicturePathPathway` / `srPuzzlePicturePathClassicMaze` / `srPuzzlePicturePathChoosePathSingle` / `srPuzzlePicturePathChoosePath`. Per-app code in `renderStandaloneHTML()` selects on `bundle.mode` (+ secondary discriminators per §17.8.12). Conditional segments appended after mode-template-fill. Originating: `75d4a27c`.
+`catalogExport()` emits SEO STRUCTURE with placeholders (`__EDUCATIONAL_LEVEL__`/`__EDUCATIONAL_LEVEL_LOCALIZED__`/`__CANONICAL_URL__`/HREFLANG marker/`aria-label`/`sr-only`); per-app changes are surgical (title `<div>`→`<h1>`, instruction `<div>`→`<p>`, add `alt`+`aria-label`). Apps do NOT populate educational_level or canonical URL (publish-cli's job). Multi-template-variant pattern dispatches on `bundle.mode`.
 
 #### 17.8.5 Changes in `publish-cli`
-
-publish-cli inherits these substitutions on every upload:
-
-1. **Generates native-language slug** from manifest's localized title. Lowercase, hyphen-separated, ASCII-folded (`ä`→`a`, `ñ`→`n`); de-duplicated by appending numeric suffix on collision for same locale. Stored in new **`slug` column on `Deck`** — additive, nullable for pre-existing, required for new, `@@unique([language, slug])`. Migration must land before first publish.
-
-2. **Substitutes `__CANONICAL_URL__`** with `https://lessoncraftstudio.com/<locale>/decks/<slug>/`.
-
-3. **Computes `educational_level` + `educational_level_localized`** from `age_range` via §17.8.6. Stored on merged manifest; substituted into deck.html.
-
-4. **Substitutes `<!-- HREFLANG_INSERTION_POINT -->`** with hreflang block (v2 with siblings) OR empty string (v1).
-
-5. **Substitutes topic-destination URL placeholders** in end-of-deck links per §16.5 α-granular schema, reading `topics-taxonomy.json` (§16.4). Four `__LINK_*__` URL + four `__LINK_TEXT_*__` localized-text.
-
-When v2 sibling published, publish-cli re-injects updated hreflang into all already-published siblings — only operation that touches an already-published deck.html.
-
-**ASCII-fold implementation.** `scripts/publish-cli/slug.js` uses `String.prototype.normalize('NFD').replace(/[̀-ͯ]/g, '')` for combining-mark strip; explicit map for non-decomposable (`ä→a`, `ß→ss`, `æ→ae`, `ø→o`, `å→a`, `ł→l`). Romance-apostrophe v1 hyphenates (`l'addition → l-addition`); v2 strip deferred.
-
-**Empirical examples** (from `134614dc` + `947ad260`):
-
-| Input displayName | Output slug | Notes |
-|---|---|---|
-| `4. Juli` (de) | `4-juli` | period → hyphen; collapse runs |
-| `Süßigkeiten` (de) | `sussigkeiten` | ü→u, ß→ss |
-| `Bäume` (de) | `baume` | ä→a |
-| `Vögel 2` (de) | `vogel-2` | ö→o; numeric variant preserved |
-| `Christmas B&W` (en) | `christmas-b-w` | `&` → hyphen; collapse |
-| `Postres y dulces` (es) | `postres-y-dulces` | spaces → hyphens; lowercase |
-| `Réveil` (fr) | `reveil` | é → e |
-| `Hogar BN` (es, Class 2 fallback) | `hogar-bn` standard OR `household-bw` Option A for `household_bw` only | §16.5.1 |
-
-**Slug-shape canonical for theme-bearing decks** (locked at `785d63f6`). `manifest.theme` non-null → **`<exercise-type>-<exercise-mode>-<theme-axis-key>`** — operation+mechanic+content ordering. Examples: `addition-find-addend-animals` (en), `addition-image-image-4th-of-july` (en), `subtraction-cross-out-valentine-bw` (en). Themeless decks (manifest.theme=null) preserve `<exercise-type>-<exercise-mode>` shape per `if (manifest.theme)` guard.
-
-**Why operation+mechanic+content ordering:** URL-prefix-match aligns with Google search-snippet leading-segment prominence + teacher operation-first search grammar. Mechanic-clustering reads naturally across alphabetic-sort positions. Reads as deck-identity claim. Distinct from intersection-URL axis-ordering (theme→level→type per §16.5.3 navigation grammar); deck-page URLs are leaf-level destinations.
-
-**Slug-derivation gap class.** Slug rules dropping manifest fields propagate SEO degradation. Phase 1 inventory includes slug-pattern preview via `publish-bulk --dry-run` BEFORE `--confirm`. The 443-deck Track C en addition+subtraction wave (2026-05-05) surfaced this when dry-run revealed slugs collapsed to 8 unique patterns because pre-fix slug-derivation read only `exercise_type + exercise_mode`.
-
-**Anti-pattern:** auto-suffix-and-proceed when within-batch slug collisions surface at dry-run. Default to surfacing inspection report per §15.13.
-
-Origin: `785d63f6` (theme-aware slug + single-SoT refactor).
-
-**Default-mode-emits-null contract pattern.** For multi-mode apps (§A.13.4 DERIVED), most-common mode emits null (shorter URL); non-default modes get explicit slug component. Kindergarten-default sudoku slugs as `sudoku-animals` (cleaner) not `sudoku-easy-animals`; non-default `medium`/`hard` become `sudoku-medium-animals`/`sudoku-hard-animals`. Locked taxonomy for 10 multi-mode apps from Commission ε in commit `109a91d4` body (no embedded table; avoids CLAUDE.md drift). Operator-strategic per §1 SEO-first: default = most-common authoring intent + shortest URL.
-
-Origin: `109a91d4` (16 hardcoded-null apps → DERIVED post-`5078f491` code-addition reference).
-
-**Native-language slug derivation** (native-language-slug commission 2026-05-11). publish-cli derives slug components per-locale from `topics-taxonomy.json` rather than raw English-canonical axis-keys. Closes §17.4 native-language-slug doctrine gap latent since publish-cli's first slug derivation; surfaced at first non-EN catalog publish at scale (1018-deck ES math-cluster wave 2026-05-11).
-
-Component resolution:
-- `manifest.exercise_type` → `axes.exercise-type.<key>.slug.<manifest.language>`
-- `manifest.exercise_mode` → `axes.exercise-mode.<key>.slug.<manifest.language>`
-- `manifest.theme` → `axes.theme.<key>.slug.<manifest.language>`
-- `manifest.variant_id` → appended bare (NOT localizable)
-
-**Fallback chain (`slug.js localizeAxisKey`):** (1) taxonomy entry missing → WARN, fall back to bare key; (2) entry present but `slug.<locale>` null/missing → WARN, fall back to `slug.en`; (3) `slug.en` missing → fall back to bare axis-key. WARN entries surface locale-coverage gaps per §16.6.1.
-
-**Example (es):** manifest `{exercise_type:'subtraction', exercise_mode:'find-subtrahend', theme:'animals', language:'es', variant_id:'1507'}` → seed `resta buscar-sustraendo animales 1507` → slug `resta-buscar-sustraendo-animales-1507`.
-
-**Backwards compat:** EN decks slug identically pre-amendment because `axes.<axis>.<key>.slug.en === <key>` (taxonomy invariant). No EN retrofit needed.
-
-**Anti-scope:** non-EN already-published retrofit is per-commission scope. The ES wave (1018 decks) retrofit at native-language-slug commission via unpublish-then-republish. Future de/nl/fr/it/pt/sv/da/no/fi waves derive natively at first publish.
-
-Origin: native-language-slug commission 2026-05-11.
+publish-cli on every upload: (1) **generates a native-language slug** from the manifest (per-locale via `topics-taxonomy.json`; ASCII-fold; stored on `Deck.slug` with `@@unique([language, slug])`); (2) substitutes `__CANONICAL_URL__`; (3) computes `educational_level` + `_localized` from `age_range` (§17.8.6); (4) substitutes the HREFLANG block (v2 siblings / v1 empty); (5) substitutes the 4 `__LINK_*__` + 4 `__LINK_TEXT_*__` topic-destination placeholders from `topics-taxonomy.json`. **Slug shape for themed decks = `<exercise-type>-<exercise-mode>-<theme>`** (operation+mechanic+content ordering); themeless preserve `<type>-<mode>`. **Default-mode-emits-null contract**: most-common mode emits null (shorter URL); non-default modes get an explicit slug component. **Native-language slug derivation** reads per-locale slugs from taxonomy (fallback chain: missing entry → bare key; missing locale → `slug.en`); EN unchanged (taxonomy invariant `slug.en === key`). Surface slug-pattern preview via `publish-bulk --dry-run` before `--confirm` (anti-pattern: auto-suffix on collision — surface inspection per §15.13). ASCII-fold impl + example tables in companion.
 
 #### 17.8.6 The age-range → educational-level mapping
+`educational_level` is deterministically derived from `age_range` by publish-cli (apps never compute; single SoT):
 
-`educational_level` is **deterministically derived** from `metadata.json`'s `age_range` by publish-cli. Apps never compute. Single source of truth.
-
-| `age_range` | `educational_level` (English; Schema.org) | i18n key for localized form |
+| `age_range` | `educational_level` (English; Schema.org) | i18n key |
 |---|---|---|
 | `3-5` | `Preschool` | `seo.educational_level.preschool` |
 | `5-7` | `Kindergarten` | `seo.educational_level.kindergarten` |
@@ -1267,171 +687,64 @@ Origin: native-language-slug commission 2026-05-11.
 | `7-9` | `Grade 2` | `seo.educational_level.grade_2` |
 | `8-10` | `Grade 3` | `seo.educational_level.grade_3` |
 
-English populates Schema.org `educationalLevel`. Localized (via `seo.educational_level.<key>` in next-intl) populates localized `<title>` + meta description. Both stored on `metadata.json` so publish-cli doesn't recompute.
-
-**Per-tier i18n coverage at Phase 6:** Tier 1-2 (en/de/es/nl) operator-authored; Tier 3 (sv/fi/no) authored with operator-best-effort + NSR flag; Tier 4 (da) NSR per Nordic; Tier 4 (fr/it/pt) operator-best-effort without NSR.
-
-**Corpus ceiling note.** 5 axis-keys defined; Pass 1-6 exercised 4-of-5 across 29 apps: preschool 4 / kindergarten 19 / grade-1 5 / grade-2 1 / grade-3 0. grade-3 (8-10) defined-but-unused at K-3 natural ceiling. Stays at 5 keys for forward compat.
+English populates Schema.org `educationalLevel`; the localized form (`seo.educational_level.<key>`) populates localized `<title>` + meta description. Both stored on `metadata.json`. grade-3 (8-10) defined-but-unused at the K-3 ceiling; stays for forward-compat.
 
 #### 17.8.7 v1 vs v2 scope: cross-language sibling tracking
-
-Hreflang only matters when real cross-language siblings exist. Real siblings exist when operator explicitly translates a deck OR when retroactive tuple-matching identifies concept-level siblings across locales.
-
-**v1 (historical):** `content_family_id` nullable column on `Deck`. Always `null` for every v1 deck. publish-cli substituted `<!-- HREFLANG_INSERTION_POINT -->` with empty string.
-
-**v2 (SHIPPED 2026-05-19 SEO-100pct commission):**
-- **Retroactive tuple-matching:** `scripts/publish-cli/populate-and-inject-hreflang.js` groups published decks by 5-tuple (exercise_type, exercise_mode, theme, age_range, variant_id). Multi-locale groups (≥2 distinct languages) get a fresh `content_family_id` (cf-prefixed cuid); each member's deck.html is injected with a `<!-- HREFLANG_BLOCK_START -->...<!-- HREFLANG_BLOCK_END -->` block carrying one `<link rel="alternate" hreflang="<lang>">` per sibling + an `x-default` (preferring en).
-- **Forward-path emission:** `scripts/publish-cli/substitute.js` accepts `opts.siblings = [{language, slug}, ...]` — when non-empty, emits the same shape at `HREFLANG_INSERTION_POINT` for new publishes. Callers (publish.js single-deck + bulk.js batch) must look up siblings via DB before invoking substitute when `manifest.content_family_id` is set; warning emitted when content_family_id is set but siblings absent.
-- **Empirical state (2026-05-19):** 77 decks across 29 cross-locale sibling groups carry content_family_id + hreflang alternates. 9114 single-locale decks correctly have content_family_id=null + no hreflang block.
-
-**Translate-this-deck UI:** deferred to follow-on commission. The substrate (hreflang emission + content_family_id population) is in place; the admin workflow tooling for explicit translation is operator-facing and doesn't affect SEO of existing decks.
+Hreflang matters only with real cross-language siblings. **v2 (SHIPPED 2026-05-19):** `populate-and-inject-hreflang.js` groups published decks by 5-tuple (exercise_type, exercise_mode, theme, age_range, variant_id); multi-locale groups get a `content_family_id` + a `<!-- HREFLANG_BLOCK_* -->` block (one `<link hreflang>` per sibling + `x-default`). Forward path: `substitute.js` accepts `opts.siblings`; callers look up siblings via DB when `content_family_id` is set. Translate-this-deck UI deferred; the SEO substrate is in place.
 
 #### 17.8.8 What this section does NOT change
-Attribution per §14.3 (tier-neutral). Tier model per §7. Cache per §4.4. Pricing per §7. Apps that export per §14.9. Catalog-export ZIP per §15.2; manifest gains one field on generation.json + two on metadata.json per §15.1. URL pattern for `/<locale>/topic/<slug>/` per §16.5.
+Attribution (§14.3, tier-neutral), tier model (§7), cache (§4.4), pricing (§7), which apps export (§14.9), the catalog-export ZIP (§15.2), the topic URL pattern (§16.5). Manifest gains one field on generation.json + two on metadata.json (§15.1).
 
 #### 17.8.9 Answer-bearing-field hygiene
-Bundle fields containing puzzle answers comment-marked at construction: `// ANSWER-BEARING — sr-only template MUST NOT echo this`. Concrete: sudoku `holes[].correctImageIndex`; picture-path `solutionPath` + `legend.items[].correctCount`; cryptogram `slots[].cipherLetter` AND `slots[].expected` (naming misleading; both hold plaintext); subtraction + Brief A 5A apps `slot.expected`.
+Bundle fields holding puzzle answers are comment-marked at construction (`// ANSWER-BEARING — sr-only template MUST NOT echo this`): sudoku `holes[].correctImageIndex`; picture-path `solutionPath`+`legend.items[].correctCount`; cryptogram `slots[].cipherLetter`+`.expected`; subtraction/5A `slot.expected`.
 
 #### 17.8.10 Row+col 1-indexed indexing convention for sr-only
-Bundle 0-indexed; per-app code converts to 1-indexed at template-fill: `var startRow1 = (bundle.startCell.r != null) ? (bundle.startCell.r + 1) : '';`. First surfacing: picture-path Phase 2 `75d4a27c`.
+Bundle is 0-indexed; per-app code converts to 1-indexed at sr-only template-fill.
 
 #### 17.8.11 Defensive-skip discipline for sr-only emission
-When bundle invariants violated at sr-only emission, emission is **skipped entirely** — do NOT render degraded variant. Invariants per app: sudoku skips if `uniqueImageKeys`/`gridDims`/`holes` missing; cryptogram skips if `cipherMap` missing OR `legendSlots` empty; picture-path skips if `mode` unrecognized OR `gridDims`/`startCell`/`endCell` missing OR mode-specific image-field contracts violated OR choose-path with null/0/non-numeric `endpointCount`. Originating: sudoku `37cbec62`, cryptogram `9c9b1b55`, picture-path `75d4a27c`.
+When bundle invariants are violated at sr-only emission, SKIP emission entirely — never render a degraded variant (per-app invariants: sudoku/cryptogram/picture-path skip on missing required fields).
 
 #### 17.8.12 Mode-conditional dispatch with sub-variants
-Extension of §17.8.4. Dispatch order: (1) mode primary → one of N templates; (2) secondary scalar branching within mode (picture-path `endpointCount === 1` → ChoosePathSingle; `>= 2` → ChoosePath); (3) conditional segment presence (collectibles when `legend.items[]` non-empty). First surfacing: picture-path Phase 2 `75d4a27c`; Phase 1 reopen `a3697abe` added `endpointCount` bundle field.
+Dispatch order: (1) mode → one of N templates; (2) secondary scalar branching within mode; (3) conditional segment presence. (Extends §17.8.4.)
 
 #### 17.8.13 List-joiner convention (promote at 4th-consumer threshold)
-`Intl.ListFormat` directly with defensive fallback (`try { Intl.ListFormat(srLang, {style:'long',type:'conjunction'}) } catch { hardcoded English Oxford-comma }`). Three call sites: sudoku, cryptogram, picture-path. Promote to `LCSCatalogExport.formatList(items, locale)` at 4th consumer. Originating hotfix: `8f4f9685`.
+Use `Intl.ListFormat(srLang, …)` with a defensive hardcoded-English fallback. Promote to `LCSCatalogExport.formatList` at the 4th consumer.
 
 #### 17.8.14 Sr-only-emission srLang-keyed lookup convention
-Sr-only emission sites use **srLang-keyed `translations[srLang][key]` lookup directly**, bypassing per-app `t()`. Three-level fallback: srLang → en → hardcoded EN. `srLang` derived from `bundle.contentLanguage`. Reason: per-app `t()` locale-binding architectural divergence causes mixed-locale sr-only. Convention: at sr-only emission in `renderStandaloneHTML()`, do NOT call `t(key)`. Hotfix `573f69e0`.
+Sr-only emission uses **`translations[srLang][key]` direct lookup** (3-level fallback srLang→en→hardcoded-EN; `srLang` from `bundle.contentLanguage`), bypassing per-app `t()` (whose locale-binding causes mixed-locale sr-only). (§A.13.46 extends this to SEO chrome.)
 
 #### 17.8.15 In-deck share affordance
-Each deck.html ships in-deck share via `LCSCatalogExport.buildShareAffordance` (§14.3a). Placement: top-right of `lcs-bar` after `<button class="lcs-mute">`, 40×40 with `.lcs-share` class. **Web Share API progressive enhancement:** capable → `navigator.share({title, url})` OS-rendered share sheet; no Web Share → self-contained 5-platform overlay in deck's content-locale. v1 platforms locked: Facebook, WhatsApp, Pinterest, email, copy-link + Web Share API. Pre-filled captions empty. No platform SDKs; plain anchor links (`facebook.com/sharer/sharer.php?u=...`, `api.whatsapp.com/send?text=...`, `pinterest.com/pin/create/button/?url=...`, `mailto:?subject=...&body=...`); copy-link invokes `navigator.clipboard.writeText(url)` with 2s `srShareCopied` toast. Defensive-skip per §17.8.11 when `canonicalURL` missing AND `locale + title` cannot construct one. Second consumer of §17.8.14 srLang-keyed lookup (`bbcb444c` initial typo corrected). v1 Option A predicted-slug fallback: `https://lessoncraftstudio.com/<locale>/decks/<slugify(bundle.title)>/` (catalog deck route not yet shipped; deferred items: slug collision rare; apps hardcode English `bundle.title`). Tier-neutral + SEO-neutral; same bytes; immutable per Cloudflare cache key.
+Each deck.html ships `LCSCatalogExport.buildShareAffordance` (top-right of `lcs-bar`, `.lcs-share`). Web Share API progressive enhancement → OS share sheet; fallback = self-contained 5-platform overlay (Facebook/WhatsApp/Pinterest/email/copy-link) in the deck's content-locale (plain anchor links, no SDKs). Defensive-skip (§17.8.11) when no canonicalURL and no constructible `locale+title`. v1 predicted-slug fallback `…/<locale>/decks/<slugify(title)>/`. Tier-neutral + SEO-neutral.
 
 #### 17.8.16 Mutable-regions contract via SEO_INSERTION_POINT marker pair
-deck.html `<head>` SEO uses paired `<!-- SEO_INSERTION_POINT_START -->` + `<!-- SEO_INSERTION_POINT_END -->` defining mutable region for retrofit. **Class A (post-Phase-3a.2):** markers present; retrofit replaces between-markers, leaves outside intact. **Class A.1 (post-Phase-3b):** marker pair + `manifest.seo_trace` present; retrofit sources from trace. **Class A.2:** marker pair present; trace absent; retrofit derives from i18n + taxonomy + EN fallback. **Class B (pre-Phase-3a.2):** markers ABSENT; retrofit strips pre-existing SEO elements (title / meta / canonical / og:* / twitter:* / JSON-LD) + injects marker pair + canonical surface + preserves outside. Defensive strip per Phase 4a CP1 fix-2 (`b5c1f3c1`). Atomicity: temp+rename per `republish-seo.js: rewriteDeckHtmlAtomic`; `rename(2)` kernel-atomic. Origin: Phase 4a Checkpoint 1 (`a0ab3cf0` → `b5c1f3c1`).
+deck.html `<head>` SEO uses paired `<!-- SEO_INSERTION_POINT_START/END -->` defining a mutable retrofit region. Classes A/A.1/A.2/B per marker+trace presence (B = markers absent → strip pre-existing SEO + inject marker pair). Atomic temp+rename (`republish-seo.js: rewriteDeckHtmlAtomic`).
 
 #### 17.8.17 Phase 2 §1-§7 invariants codified as deck-page SEO doctrine
+7 deck-page SEO invariants, each enforced by a predicate at `scripts/publish-cli/seo-reconciliation.js`, all **HALT-class on every new publish** via `reconcileDeckPageSEO` (the gate IS the reminder; operator need not remind):
+1. Title uniqueness per (language, titleHash) — `@@unique` + `findExistingByTitleHash`
+2. Description uniqueness per (language, descriptionHash)
+3. Canonical-URL pattern (www-form §A.10 + locale + native slug + trailing slash)
+4. OG-tag completeness (14 tags: 7 og:* + 7 twitter:*)
+5. Inbound-link minimum N≥3 non-sitemap surfaces (`count-inbound-surfaces.js`; HALT post-Phase-5)
+6. Locale-residue absence (`manifest.seo_trace`)
+7. Single-h1 per deck
 
-`[ARC][SEO][DECK-PAGE]` commission's Phase 2 doctrine (`docs/SEO/deck-page-arc-phase-2-doctrine-draft.md`) enumerated 7 deck-page SEO invariants. Each enforced by a predicate at `scripts/publish-cli/seo-reconciliation.js`.
-
-| # | Invariant | Predicate | Class |
-|---|---|---|---|
-| 1 | Title uniqueness per (language, titleHash) | `reconcileTitleUniqueness` | HALT |
-| 2 | Description uniqueness per (language, descriptionHash) | `reconcileDescriptionUniqueness` | HALT |
-| 3 | Canonical-URL pattern (www-form + locale + native slug + trailing slash) | `reconcileCanonicalURLPattern` | HALT |
-| 4 | OG tag completeness (14 tags: 7 og:* + 7 twitter:*) | `reconcileOGTags` | HALT |
-| 5 | Inbound-link minimum N≥3 non-sitemap surfaces | `reconcileInboundLinkSurface` | HALT (post-Phase-5) |
-| 6 | Locale-residue absence (path-(b) trace per Phase 3b) | `reconcileLocaleResidue` | HALT |
-| 7 | Single-h1 per deck | `reconcileSingleH1` | HALT |
-
-**1 WARN-class retained:** `OG_IMAGE_FALLBACK_USED` (informational; per-deck thumbnail vs site-default fallback).
-
-**Invariant 1 + 2:** enforced at DB via `@@unique([language, titleHash])` + `@@unique([language, descriptionHash])`. Predicate-side check pre-INSERT/UPDATE via `findExistingByTitleHash` + `findExistingByDescriptionHash` callbacks. Forward-flow at 100% post-(θ); backward-flow at 63.3% en + 100% non-en (Phase 4a (ι) close).
-
-**Invariant 3:** www-form per §A.10; locale prefix per §17.4; native slug per §17.4.1 + §17.8.5; trailing slash per §15.7.
-
-**Invariant 4:** 14 tags emitted by `LCSCatalogExport.buildSeoHead` + `build-seo-head.js` Node-CJS port (republish-seo retrofit).
-
-**Invariant 5:** N≥3 non-sitemap surfaces via 8-surface counter at `scripts/publish-cli/count-inbound-surfaces.js`. HALT post-Phase-5 close.
-
-**Invariant 6:** path-(b) origin-tracing via `manifest.seo_trace` (Phase 3b primary); path-(a) lexicon-fallback at `seo-reconciliation-exceptions.json` (deprecated; defensive only).
-
-**Invariant 7:** structural HTML; predicate counts h1 elements post-substitution. Phase 3b sweep moved celebration h1 → h2 across 29 apps.
-
-**Auto-control state at commission close:** all 7 enforced HALT-class on every new publish via `reconcileDeckPageSEO` at `seo-reconciliation.js:778`. Operator does not need to remind CC; gate IS the reminder.
-
-Origin: Phase 2 doctrine (`ac9109c7`).
+1 WARN retained: `OG_IMAGE_FALLBACK_USED`. Hash algorithm per §17.8.18.
 
 #### 17.8.19 Image SEO signal stack (multi-signal for Google thumbnails)
-
-Per SEO-thumbnail commission (2026-05-19), every deck page exposes a redundant 5-channel image signal stack so Google can confidently render the thumbnail in search results:
-
-1. **HTML `<head>` meta tags** — emitted by `buildSeoHead` (mirror sources: `scripts/publish-cli/build-seo-head.js` + `REFERENCE TRANSLATIONS/catalog-export.js`):
-   - `<meta property="og:image">` + `:width`/`:height`/`:alt`/`:secure_url`/`:type`
-   - `<meta name="twitter:image">` + `:image:alt`
-   - `<link rel="image_src">`
-   - `<meta name="robots" content="max-image-preview:large">` (global at `frontend/app/layout.tsx`)
-
-2. **Schema.org JSON-LD** — `LearningResource` with full `ImageObject` (`url`, `contentUrl`, `width:1200`, `height:630`, `caption`) + separate `thumbnailUrl` field pointing at `thumbnail.png` + `keywords` (comma-joined localized: exercise-type/theme/level + worksheet/interactive/free) + `typicalAgeRange` + `publisher`.
-
-3. **XML sitemap `<image:image>` entries** — emitted by custom routes at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts`. Two image entries per deck (og-image.png + thumbnail.png) inline with `xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"`. `image:title` from `Deck.title` JSON; `image:caption` from `Deck.description`. **Next.js 14.2.18's `MetadataRoute.Sitemap` does NOT support image entries** — hence the custom routes; sitemap.ts's `generateSitemaps()` returns `[{id:2},{id:3}]` only to cede `/sitemap/0.xml` + `/sitemap/1.xml` to the static custom routes.
-
-4. **Embedded XMP packet in og-image.png** — `scripts/publish-cli/og-image-xmp.js: buildXmpPacket` builds dc:title + dc:description + dc:creator + dc:rights + dc:subject (Bag) + xmpRights:Marked. Embedded via Sharp's `withXmp(string)` (Sharp 0.34.5 API; accepts string only, not Buffer). Adds ~1KB per og-image.
-
-5. **Visual og-image two-column composite** — `scripts/publish-cli/og-image.js: derive(thumbnailBuffer, opts)` extended with `opts.title`/`themeName`/`levelName`/`locale`/`xmpPacket`. Left column 487×630 = scaled thumbnail (fit:cover); right column 713×630 = cream `#FEFAF3` + deck title (DejaVu Sans Bold 48px, wrapped to 3 lines max) + theme/level subhead (28px brand-blue) + LessonCraftStudio wordmark (28px). SVG-text rendered via `scripts/publish-cli/og-image-text.js: buildRightColumnSvg` (librsvg-compatible; manual char-width word-wrap since librsvg lacks `<foreignObject>` support).
-
-**Retrofit script:** `scripts/publish-cli/regenerate-og-images.js` walks all decks under `--locales`, reads thumbnail.png + manifest + post-republish-seo deck.html, derives og-image with two-column + XMP, writes atomically. ~100ms/deck on Hetzner; 9296 decks regenerated in 15min at SEO-thumbnail commission close.
-
-**Forward path:** new publishes via originating apps' `LCSCatalogExport.export()` use the same buildSeoHead emission; og-image generation at the operator-side authoring path retains the legacy `deriveLegacy` centered-on-white layout (no title context available at that gen-time). Hetzner publish-cli + retrofit calls take the two-column path. To upgrade operator-side gen, pass title context into `catalog-export.js`'s og-image derive call.
-
-**For future image SEO work:** invoke `regenerate-og-images.js`; do NOT re-author Sharp pipeline. SVG-text rendering depends on system fonts (Hetzner has DejaVu Sans); changing font requires verifying with `fc-list` first.
+Every deck page exposes a redundant 5-channel image signal: (1) `<head>` meta (`og:image`+width/height/alt/secure_url/type, `twitter:image`, `link rel=image_src`, global `max-image-preview:large`); (2) Schema.org `ImageObject` (1200×630) + `thumbnailUrl` + keywords + typicalAgeRange; (3) XML sitemap `<image:image>` entries via custom routes `frontend/app/sitemap/{0,1}.xml/route.ts`; (4) embedded XMP packet in og-image.png (`og-image-xmp.js`); (5) the two-column og-image composite (`og-image.js: derive`). Retrofit via `regenerate-og-images.js` — do NOT re-author the Sharp pipeline (§A.14.10).
 
 #### 17.8.18 Canonical hash algorithm for titleHash + descriptionHash
-
-**SHA-1 normalized** is the canonical hash function for `Deck.titleHash` + `Deck.descriptionHash` per §17.8.17 invariants 1+2. Computed via `scripts/publish-cli/seo-reconciliation.js: hashTitleOrDescription(s)`:
-
-```js
-function hashTitleOrDescription(s) {
-  if (!s) return null;
-  var normalized = String(s).trim().toLowerCase().replace(/\s+/g, ' ');
-  if (!normalized) return null;
-  return crypto.createHash('sha1').update(normalized, 'utf8').digest('hex');
-}
-```
-
-Length 40 hex. Normalization (trim + lowercase + whitespace collapse) makes hash robust to cosmetic differences — `"Title — Theme"` and `"  title — theme  "` hash identically.
-
-**Standardized 2026-05-19 SEO-100pct commission.** Prior to standardization, the catalog had a mix:
-- `seo-reconciliation.js` predicate wrote SHA-256 raw for new INSERTs
-- `republish-seo.js` + all `rewrite-deck-html-*.js` retrofit paths wrote SHA-1 normalized
-- After full-catalog republish-seo run, 7847 of 9191 decks were SHA-1; 1124 were SHA-256 stuck due to unique-constraint blocks during retrofit.
-
-Unifying on SHA-1 normalized matches the retrofit-canonical state + adds whitespace robustness. The `sha256()` helper is RETAINED at `seo-reconciliation.js` for backwards-compatibility callers but is NOT used by the uniqueness predicates.
-
-**For future hash-writing code:** import + use `hashTitleOrDescription`. Never call `sha256()` for title/description hash computation. Audit script `audit-deck-html.js` flags any DB hash of length 64 as `TITLE_HASH_ALGORITHM_STALE`.
+**SHA-1 normalized** (trim + lowercase + whitespace-collapse → `crypto.sha1` hex, length 40) is canonical for `Deck.titleHash`/`descriptionHash`, computed via `seo-reconciliation.js: hashTitleOrDescription(s)`. Standardized 2026-05-19 (was a SHA-1/SHA-256 mix). For future hash-writing code: import + use `hashTitleOrDescription`; NEVER `sha256()` for title/description; `audit-deck-html.js` flags any length-64 DB hash as stale.
 
 #### 17.8.20 Printable-PDF indexing policy: deck.html is the single indexable surface
-
-**Locked 2026-05-31 (operator decision); REVIEWED + KEPT 2026-06.** Each deck ships two PDF assets (`<slug>-printable.pdf`, `<slug>-answer-key.pdf`) served by nginx under `/<locale>/decks/<slug>/`. They are **linked from deck.html but MUST NOT be indexed** — they duplicate the interactive deck page's content as thin standalone documents, and Google was indexing them in parallel (operator saw `…/decks/<slug>/<slug>-printable.pdf` URLs surface in Search Console). The deck.html page is the sole ranking surface. The noindex policy was re-reviewed and **kept**; an optional **PDF quality pass** (footer brand-anchor backlink + filename + compression) is a candidate future initiative, **not yet commissioned**.
-
-**Mechanism: `X-Robots-Tag: noindex` at the nginx layer (server-side, NOT in git).** A dedicated `location ~ ^/(en|de|…|fi)/decks/([^/]+)/(.+\.pdf)$` block in `/etc/nginx/sites-enabled/lessoncraftstudio` emits `add_header X-Robots-Tag "noindex" always;` and aliases the file. It is inserted **before** the generic deck-asset catch-all (`(.+\.(png|jpg|jpeg|webp|pdf|json|svg))$`) so that `og-image.png` + `thumbnail.png` stay **indexable** (they are load-bearing image-sitemap entries per §17.8.19) — only `.pdf` is de-indexed. `noindex` only (NOT `nofollow`): PDFs stay crawlable so Google sees the header, and follow-default preserves internal link equity from the deck page. **Do NOT use `robots.txt Disallow: *.pdf`** — blocking the crawl would stop Google from ever seeing the noindex, leaving bare URL-only entries in the index. PDFs remain fully downloadable, shareable, and embeddable; they just leave the search index.
-
-**Tooling:** `scripts/publish-cli/patch-nginx-pdf-noindex.py` (idempotent via marker comment; backs up to `/root/nginx-backups/` per §A.14.11; `nginx -t` with auto-rollback; reload). Re-run after any nginx-config rebuild that drops the block. PDFs are **not** in the sitemap and never were (sitemap carries deck-PAGE URLs + `<image:image>` PNG entries only).
-
-**Slug-catalog integrity auditor:** `scripts/publish-cli/audit-slug-fs-db-consistency.js` (read-only) cross-checks every published deck's `slug` against its 5 DB URL columns, the on-disk symlink + asset tree, and the slug re-derived from the on-disk manifest. HARD defects (symlink/asset/PDF-file missing, slug↔htmlUrl mismatch, column-path drift) mean a real 404/wrong-asset; INFO buckets (`NATIVE_SLUG_REDERIVE_DIFF` = benign derivation drift since publish; `PDF_FILENAME_DRIFT` = re-slugged non-EN decks keep the old English-token PDF filename, harmless once noindexed) are awareness-only. 2026-05-31 full-catalog run: **0 hard defects across 19,537 decks** (en/de/es/fr/it/pt full markets + small Nordic/nl). Pairs with `audit-deck-html.js` (deck.html content invariants) + `audit-canonicals-crawl.js` (live self-canonical) per §A.14.9.
-
-**`thanksgivinng` typo — FIXED 2026-05-31** (operator authorized). 73 published decks (en 63, es 4, pt 3, de 2, fr 1) carried a `thanksgivinng` (double-n) typo in the slug + on-disk PDF filenames + manifest theme + DB title/description JSON, baked from an old theme-source typo. `scripts/publish-cli/fix-thanksgivinng-typo.js` applied a uniform `thanksgivinng`→`thanksgiving` token correction across all surfaces (FS dir + PDF-file renames, deck.html, manifest, DB slug + 5 URL columns + title + description, symlink repoint), then `gen-old-slug-redirects.js` + `patch-nginx-deck-redirects.py` regenerated the 301 map so each old typo URL redirects to its corrected slug. Verified: corrected pages 200 + self-canonical, old URLs 301, 0 hard defects on re-audit. 7 **archived** (non-served) es rows retain the typo by design (out of scope — not indexed). The token is unambiguous, so this fixer is the template for any future single-token slug-data typo.
-
+**Locked 2026-05-31; reviewed + kept.** The two PDF assets per deck are linked from deck.html but MUST NOT be indexed (they duplicate the deck page as thin docs). **Mechanism = `X-Robots-Tag: noindex` at nginx** (a `location ~ …/decks/…\.pdf$` block BEFORE the generic deck-asset catch-all so og-image.png + thumbnail.png stay indexable; `noindex` only, NOT `nofollow` — PDFs stay crawlable so Google sees the header + keeps link equity). Do NOT use `robots.txt Disallow: *.pdf` (blocks the crawl → bare URL-only index entries). Tooling: `patch-nginx-pdf-noindex.py` (idempotent; re-run after any nginx rebuild). Slug-integrity auditor `audit-slug-fs-db-consistency.js` (0 hard defects across 19,537 decks 2026-05-31). The `thanksgivinng`→`thanksgiving` typo fixer is the template for any future single-token slug-data typo. Full mechanism + audit detail in companion.
 ### 17.9 [REMOVED 2026-05-17] Pillar 1 lesson-plan production discipline
 
 Section deleted per operator commission (commit `920aebbc`; see top AMENDMENT). The lesson-plans / teaching-packages / themed-bundles cooperation-pattern production discipline is obsolete and no longer load-bearing; a future teacher-facing-pedagogical-content commission would re-scope from scratch.
 
 ### 17.10 I18n hygiene + sitemap-shard infrastructure
-
-**17.10.1 4-shard sitemap-index hash-partitioning.** 4 shards: 0/1 = published deck URLs by `Deck.id` last-char ASCII parity (50/50); 2 = 2-axis intersections; 3 = single-axis topic pages + locale-root + meta. Keeps each under Google's 50K limit. Cross-locale through same 4 shards. Origin: `e5bb3cb4` + `85f090a3` Arc 6c.
-
-**Shard routing (post SEO-thumbnail commission 2026-05-19):**
-- Shards 0 + 1 served by **custom routes** at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts`. Emit `xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"` with per-URL `<image:image>` entries (og-image.png + thumbnail.png; title + caption from `Deck.title`/`description`). Next.js 14.2.18's `MetadataRoute.Sitemap` type doesn't support image fields, hence the bypass.
-- Shards 2 + 3 served by Next.js sitemap convention via `frontend/app/sitemap.ts: generateSitemaps()` which returns only `[{id:2},{id:3}]` (omitting 0 + 1 cedes those URLs to the custom routes).
-- Index at `frontend/app/sitemap.xml/route.ts` hard-codes `[0,1,2,3]` so all four shards remain listed regardless of `generateSitemaps()` return shape.
-
-**17.10.2 Reuse-existing-i18n-key when strings identical.** Identical (key, locale) values reuse single shared key. Origin: `15444fe8` Arc 6a.
-
-**17.10.3 Substrate-honesty namespace-boundary discipline.** Phase 1 grep ALL platform locale files for namespace's key set; Phase 4 confirm 11/11. Mismatch → raw-key-leak. Origin: `c03fdb8e` Arc 6d.
-
-**17.10.4 Wave-N namespace-migration discipline.** Wave 1 ships baseline for subset (Tier 1+2); Wave 2+ folds remaining. Phase 1 cross-locale audit; Phase 2 per-locale gap-fill OR migration; Phase 3 single commit N locale files; Phase 4 per-locale curl + raw-key-leak grep. Origin: `672e771b` + `a1c78529` Wave 2 footer.
-
-**17.10.5 Runtime-consumer-audit is load-bearing.** Runtime consumer (which keys component actually calls) is load-bearing. Static-text references in admin tooling are isolated. Grep `useTranslations\(['"]<namespace>` + `getTranslations.*<namespace>`. Wave 2 footer: legacy 13-key referenced only in 2 admin HTMLs; deletion safe. Origin: `672e771b`.
-
-**17.10.6 Legacy-namespace-residue audit-on-arc-Phase-1.** Locales with Wave 1 partial coverage carry legacy seller-era shapes as runtime-orphaned residue. Wave 2 footer found 7 newer locales with 13-key seller-era shape. Audit BOTH forward gap AND backward residue. Origin: `672e771b` + `a1c78529`.
-
-**17.10.7 Cross-locale convention parity verification.** Phase 1 samples Tier 1+2 actual canonical TEXT shape — not just key presence — to prevent register divergence. Wave 2 footer initially used bare-prefix ("Par langue") until Phase 4 revealed Tier 1+2 is noun-prefixed ("Worksheets by language" / "Arbeitsblätter nach Sprache"). Fix-up `a1c78529`.
-
----
-
+**17.10.1** 4-shard sitemap-index hash-partitioning (shards 0/1 = deck URLs by `Deck.id` last-char parity; 2 = 2-axis intersections; 3 = single-axis topic + locale-root + meta; index hard-codes [0,1,2,3]; shards 0+1 are custom routes emitting `<image:image>`, 2+3 via Next `generateSitemaps()`). **17.10.2** reuse one shared i18n key when (key,locale) values are identical. **17.10.3** substrate-honesty namespace-boundary (grep ALL 11 locale files for a namespace's key set; mismatch → raw-key-leak). **17.10.4** Wave-N namespace-migration discipline (cross-locale audit → per-locale gap-fill → single commit → per-locale curl + raw-key grep). **17.10.5** runtime-consumer-audit is load-bearing (which keys the component actually calls). **17.10.6** legacy-namespace-residue audit-on-arc-Phase-1 (audit BOTH forward gap AND backward residue). **17.10.7** cross-locale convention-parity (sample Tier-1+2 actual canonical TEXT shape, not just key presence). Full detail → docs/claude-md/topic-and-i18n-detail.md.
 ## 18. Sample decks embedded on every public page
 
 Every public page includes a working interactive deck the visitor can play, in their language. Home, about, pricing, blog, topic, guide — each lets visitors experience the product rather than read about it.
@@ -1466,49 +779,10 @@ All three load-bearing. Locale + theme alone underspecify: a 2/2/2/2 grid with 4
 Cross-reference SECTION-2-CURATION-v1.md (canonical curation spec).
 
 #### 18.4.1 Variety-strip composition rules at scale
-Cross-reference §16.2 for canonical strip-composition spec.
-
-**Cardinality caps as variety-shape signals.** Each strip's cap encodes the variety SHAPE:
-- Strip 1's max-1-per-locale spreads (cross-locale demonstration)
-- Strip 2's max-2-per-axis-key allows mild clustering but prevents single-axis-key dominance
-- Strip 3's max-1-per-educational-level + per-page-axis self-skip
-- Strip 4's max-1-per-topicSlug + max-1-per-locale forces catalog-overview operation
-
-**Self-skip threshold (cardinality < 2).** Single-tile reads broken; minimum 2 signals genuine variety. Per-strip. Locked at 2.
-
-**Cross-locale variety ON during substrate-only-locale period.** Decks from en/de/es/nl surface on it/fr/pt/sv/da/no/fi until Track C lands.
-
-**ISR per-page revalidation.** `revalidate=3600`. No module-scoped global memoization at this scale.
-
-**Worked example: Catalog Variety Arc 1 ship at `55ac5687`.** Canonical reference for future variety-surface commissions.
+Cross-ref §16.2. Cardinality caps encode variety SHAPE (Strip 1 max-1-per-locale; Strip 2 max-2-per-axis-key; Strip 3 max-1-per-level + self-skip on level pages; Strip 4 max-1-per-topicSlug + max-1-per-locale). Self-skip per-strip when cardinality <2. Cross-locale variety ON during the substrate-only-locale period. ISR `revalidate=3600`, no module-scoped memoization. Full detail → docs/claude-md/site-topic-export-detail.md#1841.
 
 #### 18.4.2 BreadthGrid 4-family hybrid + 9-cell composition + day-of-week rotation
-
-Shipped at `e5bb3cb4`.
-
-**4-family canonical locale-family map:**
-- **Germanic:** en, de, nl
-- **Nordic:** sv, da, no
-- **Romance:** es, fr, it, pt
-- **Finnic singleton:** fi (with Nordic-as-sibling-proxy)
-
-Sibling pools: `en→[de,nl]`, `de→[en,nl]`, `nl→[de,en]`, `sv→[da,no]`, `da→[no,sv]`, `no→[sv,da]`, `es→[fr,it,pt]`, `fr→[es,it,pt]`, `it→[es,fr,pt]`, `pt→[es,fr,it]`, `fi→[sv,da,no]`.
-
-**Visitor-recognition vs linguistic-typology.** 4-family map prefers visitor-recognition over scholarly-typology. Finnic fi grouped with Nordic because Finnish teachers searching for Nordic-language K-3 recognize sv/da/no as adjacent-market peers — even though Finnish is Uralic. nl with Germanic en/de (visitor-natural) not Romance.
-
-**9-cell composition (6+2+1):** 6 visiting-locale tiles + 2 cross-locale tiles (one per sibling rotated) + 1 featured tile (operator-curated; currently `sudoku-en`).
-
-**Day-of-week rotation rhythm:**
-```js
-function dayOfWeekRotation(): number {
-  return Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % 7;
-}
-```
-UTC-anchored; within-day stable; varies across days. Preserves ISR-cache (1-hour revalidate). Anti-pattern: per-request randomization (fragments ISR cache).
-
-Origin: `e5bb3cb4`.
-
----
+4-family locale map (Germanic en/de/nl; Nordic sv/da/no; Romance es/fr/it/pt; Finnic fi with Nordic sibling-proxy) preferring visitor-recognition over linguistic typology; 9-cell = 6 visiting + 2 cross-locale sibling + 1 featured (`sudoku-en`); UTC day-of-week rotation (within-day stable, ISR-cache-preserving; anti-pattern: per-request randomization fragments ISR cache). Sibling pools + full composition → docs/claude-md/site-topic-export-detail.md#1842.
 
 ## 19. Language launch sequence
 
@@ -1568,14 +842,7 @@ Engines NOT yet built: E5/E6 tracing, E9 sight-word, E3 sort, E13 array, E10 clo
 **Variety mechanism (catalog-wide):** within a deck, the order of words/rounds is a fresh **per-session Fisher–Yates permutation** computed in `mini tools/lcs-shell.js getTask` (a new `Math.random` seed each mount, rebuilt only on pool-size change) — so the depth-pass pools (28-word syllable decks, ~18-item match-pairs, etc.) surface in a different order every visit without re-serving or skipping within a cycle. This is the variety surface the depth pass feeds.
 
 ### 20.3 Architecture summary
-See [[project-activities-architecture]] for full doctrine. Key constraints:
-- **Shell+tool split**: `mini tools/lcs-shell.{css,js}` own chrome (settings/sound/fullscreen/reset + activity chrome: prompt banner with TTS speaker → answer surface → Check → feedback → progress pill → Next). Tools declare `tasks` array; shell renders chrome.
-- **Direction A card design** is the LOCKED aesthetic. Cream `#FBF3E4` + teal `#146B5E` + coral `#F2784B`. Baloo 2 + Nunito. Dual-shadow card, max-width 720px, chunky teal Check button.
-- **ActivityIframe** (`frontend/components/activities/ActivityIframe.tsx`) — transparent wrapper, postMessage auto-resize, 3-layer scrollbar kill.
-- **Activity route** (`frontend/app/[locale]/activities/[slug]/page.tsx`) — SSR + ISR 3600 + JSON-LD educationalAlignment + "Grade · Strand · Code" teacher chip. **CC code NEVER in URL.** Native-language slugs hand-written per locale per `*-activities.json` manifest.
-- **Mini-tools served by nginx, NOT Next.js routes.** Files at `/var/www/lcs-media/mini-tools/`; `middleware.ts` `/mini-tools/*` carve-out prevents 307 locale-redirects.
-- **Platform header** (`CategoryNav.tsx`) wraps decks + activities + manipulatives. Does NOT wrap the 33 worksheet-generator apps (operator exception).
-
+See [[project-activities-architecture]]. Key constraints: **shell+tool split** (`mini tools/lcs-shell.{css,js}` own chrome; tools declare a `tasks` array); **Direction A card design LOCKED** (cream `#FBF3E4` + teal `#146B5E` + coral `#F2784B`; Baloo 2 + Nunito; dual-shadow card max-width 720px); `ActivityIframe.tsx` postMessage auto-resize; activity route SSR + ISR 3600 + JSON-LD, **CC code NEVER in URL**, native-language slugs; **mini-tools served by nginx not Next** (`middleware.ts` carve-out); `CategoryNav.tsx` wraps decks+activities+manipulatives (NOT the 33 worksheet apps). Full detail → docs/claude-md/misc-detail.md.
 ### 20.4 Approval cadence
 See [[feedback-activities-approval-cadence]]. **The bar is NOT "tests pass + HTTP 200."** The bar is: **live render + 3-viewport screenshots (phone/tablet/desktop) + operator eyeball.** Empirical bugs that passed tests but were visually broken: blank pages, MIME 307→404 redirect chains, layout breaks at narrow viewports, COUNT readout showing the answer, badge overlapping the board, oversized blank card area beneath short activities. **No timer / score / SmartScore / streak / countdown anywhere — operator-locked.** Warm K-3 no-shame tone. **Mobile-layout gate is MANDATORY: every new/changed activity MUST pass `scripts/audit-activity-mobile.js` (all phone widths 280→768, empty+filled, 0 hard fails) before ship — see §A.13.55** (this replaces ad-hoc single-width spot checks for the "layout breaks at narrow viewports" + "oversized blank card" classes above).
 
@@ -1603,33 +870,19 @@ Engine leverage (decreasing): **E2 (~600+) >> E7 (~200) > E4 (~120) > E12 (~80) 
 **Fill discipline:** batch-by-skill, operator reviews each set live, NOT mass-fill (thin-pages SEO risk + operator-attention-load risk). Theme-expansion held to LAST as small waves. Slug component-generator proposed (not built) — becomes load-bearing at 500+ scale.
 
 ### 20.7 Literacy engines + phonics safety pipeline
-See [[project-phonics-safety-pipeline]]. Built + SV+FI proven at commit `91421bda` (2026-05-22). 3 engines over a shared internal word-builder core, shipped as distinct facades: **E7** single-letter (EN, built; 20-task CVC deck) · **E8** Syllable Builder (es/it/pt/fr/fi — **all LIVE**, 28-word decks) · **E9** Sound-Chunk Builder (de/nl/sv/da/no — **all LIVE**; 28-word decks, de 30). E2 already covers letter-recognition / sight-words / initial-sound across all locales.
+See [[project-phonics-safety-pipeline]]. 3 engines over a shared word-builder core: **E7** single-letter (EN) · **E8** Syllable Builder (es/it/pt/fr/fi LIVE, 28-word) · **E9** Sound-Chunk Builder (de/nl/sv/da/no LIVE, 28-word de 30). E2 covers letter-recognition / sight-words / initial-sound.
 
-**Safety requirement (operator, non-negotiable):** a syllable/decoding error must be **structurally impossible to publish**. Every word's syllable/sound break confirmed by ≥3 independent sources OR quarantine. Source stack: TeX hyphenation (`hyphen` npm) + in-repo rule-based syllabifier + NST pronunciation lexicons (CC0; sv/no/da) + Wiktionary IPA (kaikki; de/nl/sv/no/da) + `vocabulary-phonics.json` syl cross-check + per-locale curriculum chunk tables (de/nl/sv/no) + DA quarantine regex (5 IPA-criteria → policy-managed flag).
+**Safety requirement (operator, non-negotiable):** a syllable/decoding error must be **structurally impossible to publish** — every break confirmed by ≥3 independent sources OR quarantine (source stack: TeX `hyphen` + in-repo rule-syllabifier + NST lexicons + Wiktionary IPA + `vocabulary-phonics.json` syl + per-locale curriculum chunk tables + DA quarantine regex).
 
 **Per-language verdicts (LOCKED, verbatim):**
 - **sv** — fully safe, no quarantine
-- **no** — safe + ~30-60 kj/sj/skj quarantine (one merger-policy decision; treat kj+sj as distinct in K-1, awareness in grade 2)
-- **de** — safe + ~80-120 multigraph-onset quarantine (Augst & Dehn-cited chunk table)
-- **nl** — safe + ~200-300 multigraph quarantine; thinnest source coverage (Wiktionary pre-flight passed at 84% — above 60% threshold)
-- **da** — safe + 35-55% policy-managed-decoration rate (stød/weakened-final/post-vocalic-r/s-stop/ld-nd-rd, regex-detectable from NST IPA) + ONE curriculum policy decision **DECIDED: orthographic syllables for K-1, phonemic-divergence awareness grade 2** (Elbro lydrethed-first). **CRITICAL implementation detail (per `cli.js:100-103`)**: the 5-criterion `da-quarantine.js` regex is DECORATION on PASS verdicts (`policy_managed:true` flag), NOT hard quarantine. DA flagged words still pass the syllable-count gate; the policy determines which activities they're eligible for (K-1 strict uses `policy_managed:false` pool; grade-2 inclusive uses full approved). DA STEP 1 empirical (2026-05-25, 794/1263 approved): 392 of 794 (49.4%) carry the flag — exactly the §20.7-predicted "haircut" — leaving 402 K-1-safe non-policy-managed words for K-1 activity authoring
+- **no** — safe + ~30-60 kj/sj/skj quarantine (kj+sj distinct in K-1, awareness grade 2)
+- **de** — safe + ~80-120 multigraph-onset quarantine (Augst & Dehn chunk table)
+- **nl** — safe + ~200-300 multigraph quarantine; thinnest source coverage (Wiktionary 84% > 60% threshold)
+- **da** — safe + 35-55% policy-managed-decoration rate; policy DECIDED orthographic syllables K-1 / phonemic-divergence awareness grade 2 (Elbro). The `da-quarantine.js` 5-criterion regex is DECORATION (`policy_managed:true`), NOT hard quarantine — K-1 strict uses the `policy_managed:false` pool (402/794 DA).
 - **es/it/pt/fr/fi** — GREEN auto-gate, no concern
 
-**No live per-word human review required for any language.** Pipeline outputs `scripts/v2-data/verify-syllable-boundaries/output/approved-words-<locale>.json` (activity-authoring source of truth) + `quarantine-report.json` (operator-reviewable). Read-only inputs: image-vocabulary.js + vocabulary-phonics.json (NEVER touched).
-
-**Gate evolution post-pipeline-ship (2026-05-22 session):**
-- **Gate v1.1** (commit `6bc6e804`): GREEN-locale (es/it/pt/fr/fi) rule-syllabifier is the AUTHORITATIVE split source when it agrees with vocab-phonics count. TeX disagreement is advisory-only (no longer vetoes). Safety floor preserved: rule-vs-vocab-phonics count disagreement still quarantines; rule-null falls through to legacy 3-source gate.
-- **Per-locale rule-syllabifier fixes** (ES río accent-guard, PT iã+o re-bracketing, PT ss/rr split, PT-hiatus + FI-seam settled counts, policial.pt 3→4): the specific commit-by-commit accent/digraph/seam corrections live in [[project-phonics-safety-pipeline]] + §A.13.57. Each preserved the safety floor (count-disagreement still quarantines); none moved the gate threshold.
-
-**Per-locale gated approved-pool counts (live `output/`, post the 2026-06 fixes + Nordic arc):** ES 958 · IT 978 · PT 891 · NL 1062 · SV **984** (post-carve-out, was 931 pre-arc) · NO 829 · DA 794 · FI 1120 · FR 810 · DE 1028, of 1263 K-3 nouns. EN curated word set (not pipeline-gated). These are the activity-authoring source-of-truth pools (`approved-words-<locale>.json`).
-
-**Audit verdicts on adjacent rule-syllabifiers (no code changes):**
-- `es.js` — N/A for nasal-rebracket (Spanish has no nasal vowels)
-- `it.js` — was FLAGGED (Italian iato/dittongo register-sensitive); the flag did NOT block — IT shipped (E8 "Forma la parola con le sillabe" LIVE, 28-word deck, native-reviewer-confirmed). The flagged class did not surface in the K-3 deck corpus.
-- `fr.js` — CORRECT (explicit digraph enumeration; not phonotactic)
-- `fi.js` — CORRECT (explicit diphthong set; no accent marks in native FI)
-
-**Backlog:** the río + iã+o vocab-phonics count drift (~13 ES/PT words) is now **CLOSED** — the 8 settled count corrections + `pt.js`/`fi.js` guards (`7393a989`) re-enabled them. The **OPEN** syllable-pipeline backlog is now the **~14 Nordic compound-seam under-grab errors** (sv `bus-schauf-för` / `juls-trum-pa` / `blåskrika` / `höstack` / `samtalshjärta` …, §A.13.57) — they stay quarantined behind the strict gate; hardening the rule's morpheme-seam handling at root is the **prerequisite to any future GREEN-widening** of sv (which would then recover the ~178 correct words currently quarantined).
+**No live per-word human review.** Output `output/approved-words-<locale>.json` (authoring SoT) + `quarantine-report.json`; read-only inputs image-vocabulary.js + vocabulary-phonics.json (NEVER touched). Gate evolution (v1.1 GREEN-locale authoritative-when-agreeing + per-locale rule fixes), live per-locale pool counts, adjacent-syllabifier audit verdicts, and the OPEN ~14 Nordic compound-seam backlog (the GREEN-widening prerequisite) → docs/claude-md/activities-detail.md (+ §A.13.57).
 
 ### 20.8 Parked decisions
 See [[project-activities-parked]]:
@@ -1680,15 +933,7 @@ The non-EN **activity layer** cites each locale's **national curriculum framewor
 Corollary: the heavy SEO work needs **no per-item authoring**. Per-locale titles, descriptions, and alt-text are **derived** from manifests + shared i18n tables + `image-vocabulary.js`. Employing native-expert linguists per item is **wrong** — it's needed only for a new TYPE or new LOCALE (§21.3).
 
 ### 21.1 What is automatic per type (do NOT rebuild — just run it)
-
-| Surface | Indexable mechanism | Title / description / alt-text | JSON-LD | hreflang | Sitemap |
-|---|---|---|---|---|---|
-| **Deck / interactive worksheet** | self-contained `deck.html` at `/<locale>/decks/<native-slug>/` (nginx) | template-built ×locale from manifest; **alt-text from `image-vocabulary.js`**; sr-only from `exercises[]` | `LearningResource` + `ImageObject` (§17.8.1) | cross-locale sibling block via content_family_id (§17.8.7) | shards 0/1 auto (ID-parity, DB-driven) |
-| **Activity** | SSR page `/<locale>/activities/<slug>/` (ISR 3600) | from `*-activities.json` row + 3-tier prose fallback | `LearningResource` + `FAQPage` + `educationalAlignment` | `buildHreflangAlternates` over row slugs | shard 3 (manifest enum) |
-| **Tool (manipulative)** | SSR page `/<locale>/tools/<slug>/` (ISR), iframe child is the tool | from `messages/tool-content/<locale>.json` | `LearningResource` w/ `learningResourceType: Manipulative` | `hreflangAlternatesForTool` | shard 3 (content enum) |
-
-All three: one global `robots` indexes everything; private surfaces (`/admin`, `/member`, dashboards) carry `noindex`. The hreflang map is a **single SoT** at `frontend/lib/seo/hreflang.ts` (`HREFLANG_MAP`, `getHreflangCode`, `buildHreflangAlternates`; `pt→pt-BR`, `es` stays `es`, x-default→en). Never re-inline it.
-
+Per-type SEO is automatic by construction: **deck/interactive-worksheet** (self-contained `deck.html`; template title/desc + alt-text from `image-vocabulary.js`; `LearningResource`+`ImageObject` JSON-LD; cross-locale hreflang; sitemap shards 0/1), **activity** (SSR `/[locale]/activities/<slug>/`; prose + `LearningResource`+`FAQPage`+`educationalAlignment`; shard 3), **tool** (SSR `/[locale]/tools/<slug>/`; `LearningResource:Manipulative`; shard 3). The hreflang map is a single SoT at `frontend/lib/seo/hreflang.ts` (`HREFLANG_MAP`; pt→pt-BR; x-default→en) — never re-inline. Full per-type table → docs/claude-md/misc-detail.md.
 ### 21.2 What I run automatically on "publish decks" (the formerly-manual steps)
 
 Decks are the one type with post-publish finalization steps. **`scripts/publish-cli/publish-wave.js` is THE entry point** — it runs all 9 so none is ever forgotten. The flow is one-command even for wordy non-EN waves (fr/it/pt/de/nl/sv/da/no/fi):
@@ -1720,25 +965,9 @@ Per-locale **content/i18n authoring** (not per-item — the items are template-d
 In those cases, automatically employ the **§A.13.48 native-expert-ensemble-per-locale discipline** (3-agent native ensemble: linguist + marketing + K-3 educator, plan-mode per locale) and the §A.13.49 curriculum-framework squiggle table. Do **not** invoke this for ordinary content waves of an existing type in existing locales.
 
 ### 21.4 Verification standard (run after every publish/deploy)
-
-| Type | Verifier |
-|---|---|
-| Deck | `audit-deck-html.js` (auto via publish-wave step 5) + live curl spot-check (200 + grep `<title>` / `og:image`) |
-| Activity | `node scripts/audit-activity-pages.js --out=docs/audit-results` (≥200 words, LearningResource JSON-LD, single h1, mesh links, no locale-leak) **+ `node scripts/audit-activity-mobile.js` (mobile layout, all widths 280→768, 0 hard fails — §A.13.55)** |
-| Tool | `node scripts/audit-tool-pages.js --out=docs/audit-results` (same floor + Manipulative type; 33/33 must pass) |
-
-Remember Cloudflare 5-min TTL (§15.8) before edge reflects new bytes.
-
+Deck → `audit-deck-html.js` (auto via publish-wave) + live curl spot-check. Activity → `audit-activity-pages.js` + `audit-activity-mobile.js` (§A.13.55). Tool → `audit-tool-pages.js` (33/33). Mind Cloudflare 5-min TTL (§15.8) before the edge reflects new bytes. Full table → docs/claude-md/misc-detail.md.
 ### 21.5 Hand-maintained sync points (the only places adding content touches code)
-
-After the standardization arc, the hreflang map and `LIVE_TOOL_SLUGS` are **auto-derived** (no longer hand-edited). The remaining hand-maintained points:
-
-- **New theme** → `frontend/config/topics-taxonomy.json` (`axes.theme.<key>.slug.<locale>` + name) per §16.5.1.
-- **New noun in art** → `REFERENCE TRANSLATIONS/image-vocabulary.js` (11 locales × sing/plural/gender) — operator-approved only (§10.3); this is what makes deck alt-text automatic.
-- **New tool** → add its key to `TOOL_KEYS` (in `live-tool-slugs.ts` + `audit-tool-pages.js` + `tool-content.ts`) and a `messages/tool-content/<locale>.json` entry per locale; `LIVE_TOOL_SLUGS` + sitemap + middleware carve-out then flow automatically.
-- **New activity** → add a row to the relevant `frontend/public/mini-tools/*-activities.json` (per-locale slug/title); route + sitemap + JSON-LD + mesh flow automatically.
-- **New locale** → §21.3 native-ensemble; add its slot to every shared table + `LOADERS`.
-
+Hreflang map + `LIVE_TOOL_SLUGS` are auto-derived. Remaining hand-maintained: **new theme** → `topics-taxonomy.json` (§16.5.1); **new noun** → `image-vocabulary.js` (operator-approved §10.3); **new tool** → `TOOL_KEYS` + `messages/tool-content/<locale>.json`; **new activity** → a row in `mini-tools/*-activities.json`; **new locale** → §21.3 native-ensemble + every shared table. Detail → docs/claude-md/misc-detail.md.
 ### 21.6 Worksheet-app SEO chrome
 
 The 29 worksheet generators emit deck.html SEO chrome via the content-locale-direct `_seoT` helper (§A.13.46), never per-app `_t`, so generated decks carry correct per-locale SEO regardless of operator UI language. Any new app port or SEO-emission refactor uses the `_seoT` shape verbatim.
@@ -1788,35 +1017,9 @@ A multi-commission program building **tier-3 deck landing pages** to fix the thi
 - **The collapse-vs-resist test is the natural-floor arbiter (Wave 7).** NEVER accept an elevated cross-class/cross-mode number as a "natural ceiling" without running the boilerplate→mode-true sharpening pass. The collapse **MAGNITUDE** distinguishes fixable coupling from genuine floor: a real coupling collapses hard (pattern-train 41%, grid-match/missing-pieces 41%, big-small 32% — all residual framing); a genuine floor RESISTS with the remaining shared n-grams being **accurate-for-both vocabulary** (only grid-match/missing-pieces' 0.177 has genuinely resisted to date). The pass is mandatory before accept; the magnitude decides; the accept-as-natural-ceiling escape valve applies only when a genuine pass plateaus on accurate vocabulary.
 
 ### 22.2 Wave sequence + next-wave runbook
-**Sequence (plan P3.b):** EN waves 1→8 are **COMPLETE (1812 landings)** — per-wave subjects/grades/counts/commits are in the plan file + §22.2 "Key files" pointer + §22.1 doctrine. Then the **locale fan-out** (current phase): full-market locales **de → es → nl → fr → it → pt → sv → da** (operator may reorder the middle eight on market priority) → **no, fi LAST** (sample-only; honesty-filter in as their decks publish) — each locale's **native ensemble** authors its own compat booleans + P1 skeletons + native keyword research + strand/label localization (first per-locale-ensemble engagement in the landing program). **The picture-sort de-orphan (the program's first live-query hub change) shipped in Wave 5** via `themeSubjectTagsWhere` `hasSome`-over-exact-`-vs-`-component-keys (§22.1), with its own verify + rollback.
-
-**Cadence (every wave):** ledger-lock → lead-slice (novel/highest-risk type first) → coupled-slices (cousins authored together to lock differentiation in one pass) → execution (commit + deploy + repoint + verify) → post-ship verify. Each slice STOPS for an operator ruling before the next opens.
-
-**Per-wave runbook:** (1) ledger-lock any new types (source-read; interrupt on surprise) **+ cell-space pre-check** (report each mode's theme breadth + the skel×P2 cell count the guard requires; never author a mode where cells ≤ themes — the corrected floor above) **+ ≤N quantity-ceiling spot-check — MANDATORY at any quantity-defined grade boundary** (run `check-sum-ceiling.js` per mode against the actual child-seen quantity BEFORE authoring; report per-coordinate clean/breach FIRST; exclude breachers + record as Gr2-candidates; a >majority breach is a mode-level interrupt — STOP for a ruling); (2) if a new locale, its native ensemble authors that locale's compat booleans + P1 skeletons + native keyword research first; (3) extend the `gen-wave1.js`/`gen-wave1b.js`-style generator → author + pass `gate.js` (≥200w, 0 FAIL, multi-cluster within+cross) + `validity-gate.js` (0 invalid); (4) ship landings (new URLs, safe) + repoint the canonical decks' `deck.html` (server-side `__CANONICAL_URL__` → landing, quote-terminated page-URL only so og:image/PDF assets stay intact, `.precanonical-bak` per file); (5) **the conditional repoint auto-applies — no code change after wave 1**; (6) verify the **rendered DOM** — the topic deck grid is hydration-gated, so **curl shows 0 deck links (§A.13.50); use the headless-browser standing harness `scripts/seo-landing/verify-hub-autobind.js`** (`en.json`-driven: auto-bind + LEAK=0 + auto-bounding; `--type=<exerciseType>`), not curl; (7) STOP for operator ruling + live eyeball.
-
-**Key files:** route `frontend/app/[locale]/worksheets/[slug]/page.tsx` · lib `frontend/lib/seo/landing-content.ts` · content `frontend/content/seo-landing/en.json` · generators `scripts/seo-landing/gen-wave*.js` (per-wave; `gen-de-readiness.js` for the de locale arc) · gates `scripts/seo-landing/{gate.js,validity-gate.js}` + **quantity-ceiling `scripts/seo-landing/check-sum-ceiling.js`** (4-shape ≤N gate) · compat `frontend/content/seo-landing/theme-mechanic-compat.json` · coordinate enumerators `scripts/seo-landing/enum-wave*.js` + `wave*-coordinates.json` manifests · repoint `scripts/seo-landing/repoint-deck-canonical.js` (committed Wave 2 `ab11441e`; quote-terminated `__CANONICAL_URL__`→landing, `.precanonical-bak`) · hub verifier `scripts/seo-landing/verify-hub-autobind.js` (standing; `--type`, auto-bind + LEAK=0 + auto-bounding) · level map in the route's `LEVELS` const · ledger `docs/seo-landing/mechanic-ledger-mathK.md` · Gr2-candidate record (out-of-tree) `~/.claude/plans/wave3-mathpuzzle-gr2-breachers.md`. **0 protected-core lines** throughout (the 5 activity cores are never touched). Per-wave commits + per-wave generator/enumerator/coordinate-manifest filenames (pilot → Wave 8, each with its counts, new strands/labels, LEVELS-adds, and repoint tallies) are in the plan file `commission-to-cc-structured-hollerith.md`. **EN waves 1-8 CLOSED; next phase = locale fan-out.** **Landing-presence audit 2026-06-08** (all 7 operator-flagged types: chart-count/cryptogram/math-worksheet/picture-sort/treasure-hunt/word-scramble/wordsearch) = **CLEAN, no regression** — chart-count 43 + picture-sort 40 live + binding (LEAK=0 on both type hubs, 200 + self-canonical); the other 5 correctly landing-absent by ruling; the operator's observation reconciled to the deliberately-unlanded set (category (d) above), not a gap.
-
-**Carry-forward (browse-hub, NOT a landing-program task; pre-existing, non-blocking):** `/en/topic/sudoku` returns 404 although `sudoku` is a registered exercise-type axis-key AND a published landing type. NOT Wave-5-caused — the de-orphan touched only the THEME-axis branch; the exercise-type query branch was untouched and the Wave-5 type-hub-unregressed check confirmed prior type hubs (e.g. `/en/topic/subtraction`) bind identically. It is a real pre-existing browse-hub defect (a registered axis-key whose browse hub 404s) worth a dedicated one-investigation fix on the exercise-type browse surface — separate from the landing program, NOT bundled into any content wave.
-
-**Carry-forward — FOUR distinct categories (do not conflate; each resolves differently):** (a) **grade-deferred** — the type's grade is outside the EN waves shipped: **Gr1** (wordsearch, word-scramble — await a future Gr1-literacy wave). *(The Wave-3 71 math-puzzle/code-addition Gr2 breachers are now SHIPPED in Wave 8 — the full-corpus re-grade authored 33/50 ≤100-Gr2 coords; the out-of-tree `wave3-mathpuzzle-gr2-breachers.md` record is consumed.)* (b) **breadth-non-viable** — the skill is real but the type cannot fill a themed-landing wave: **cryptogram** (5-7 tag but **themeless, 0 themes / 100 decks**) + **treasure-hunt's ≤2-theme** modes (only `4th_of_july` + `animals`) — deferred-non-viable-by-breadth, **NOT a removal** (revisit only if a non-themed landing model is ever built). (c) **browse-hub defect** — the `/en/topic/sudoku` 404 above (a registered axis-key whose browse hub 404s; not a landing-program task; the W8 `/en/topic/food` 404 is distinct — a dropped-axis-key per §16.5.1, never a registered theme, so NOT a defect). (d) **content-expansion surface (benign — NOT a defer/removal/defect)** — a SHIPPED type carrying **deliberately-unlanded coordinates**: **chart-count** (~6 non-Wave-2 themes: winter/weather/summer/spring/emotions/body-parts — theme-validity) + **picture-sort** (54 uncapped `-vs-` pairs + bare singletons beyond the Wave-5 40-cap — demand-cap). These correctly stay `/decks/` (LEAK=0); they are a known content-EXPANSION OPTION if demand ever justifies landing them — a fresh-content decision, **never a fix**. Surfaced + ruled clean by the 2026-06-08 landing-presence audit (the shipped 43/40 are live + binding; these extras were never meant to land).
-
+EN waves 1→8 COMPLETE (1812 landings); **locale fan-out in progress** (de COMPLETE 1779; next = es; sequence de→es→nl→fr→it→pt→sv→da→no/fi-last, native ensembles per locale). Per-wave cadence (ledger-lock → lead-slice → coupled-slices → execute+repoint+verify → stop-for-ruling) + the per-wave runbook (cell-space pre-check, ≤N quantity-ceiling spot-check, conditional-repoint auto-bound, rendered-DOM verify via `verify-hub-autobind.js`) + key-files list → the plan file `commission-to-cc-structured-hollerith.md` + docs/claude-md/misc-detail.md. Carry-forward categories (grade-deferred / breadth-non-viable / browse-hub-defect `/en/topic/sudoku` 404 / content-expansion) → plan file.
 ### 22.3 Locale fan-out — `de` COMPLETE (the first full locale); next = `es`
-
-The EN arc (Waves 1–8) shipped the program in English. The **locale fan-out** re-ships the same landing structure per locale. **`de` is the first full locale, COMPLETE 2026-06-08** (de.json **1779** landings; STEPs 1–4; Math + readiness + literacy; all 3 German bands). The doctrine below is **per-locale-durable** — it governs every locale fan-out (es next), not just de. Full record: [[project-de-landing-fanout-investigation]] + the de plan file `~/.claude/plans/plan-mode-commission-de-enchanted-lagoon.md` (the EN plan file stays `commission-to-cc-structured-hollerith.md`).
-
-- **de state** = 1779 landings across STEPs 1–4 (addition → readiness → numeric Klasse → literacy); N-band **vorschule 1057 / 1-klasse 548 / 2-klasse 174**. Per-step type→count→band→commit detail: [[project-de-landing-fanout-investigation]].
-- **Locale grade axis = re-derived per coordinate, NEVER the EN band.** The EN 4-band axis (Preschool/K/Gr1/Gr2) collapses to the locale's own axis (de: **Vorschule 5-6 / 1.Klasse 6-7 / 2.Klasse 7-8** — no German "Kindergarten" grade, so EN-K arithmetic re-grades UP to 1.Klasse). `coordinate.level` is set **per coordinate by mechanic + child-seen quantity** (the ledger-level-OVERRIDE doctrine), confirmed by `check-sum-ceiling.js --locale=<loc> --source=manifest|deck-html` against per-band ceilings (de: 1.Klasse ≤20, 2.Klasse ≤100, >100 = REMOVAL).
-- **The framework classifier line (the spine principle):** **answer in the picture domain → readiness / NO-CCSS / Vorläuferfähigkeit-style strand, no framework chip; answer in the grapheme/text/quantity domain that genuinely teaches a national-curriculum competency → CARRIES** (national-Lehrplan chip + the EN CCSS code as machine anchor). Instances: code-addition (arithmetic-as-key-lookup Kodierrätsel → no-CCSS) vs crossword (genuine spelling → carries); find-and-count (circle pictures by Anlaut → readiness) vs matching (connect to a grapheme → carries); **prepositions SPLITS by mode** (fillin write-the-word → carries 1.Klasse / multiplechoice pick-in-scene → readiness Vorschule, from ONE config).
-- **R3 band-vs-code (standing doctrine):** a CARRIES coordinate keeps its **EN CCSS code as `targetName` regardless of the locale band** — code = competency identifier, chip = band, **no `targetUrl`** (no-targetUrl AlignmentObject per §20.10 / the EN arc). Proven across L.2.2.d (Gr2 crossword), 1.OA/2.NBT (subtraction/math-puzzle), and the **EN-Kindergarten** literacy codes RF.K.3.a/L.K.2.d/L.K.1.e on **de-1.-Klasse** pages (German formal literacy begins a year later than US-K → US-K competency = German-1.Klasse by construction; the apparent K↔1.Klasse code/chip gap is expected, not an error).
-- **R5 per-locale compat authority — NEVER cross-applied.** Language-dependent compat booleans (`phonetic_variety`, `collective_risk`, gender) are re-judged **per locale**. For de, `phonetic_variety` was re-authored for German Anlaut (German has Sch-/St-/Sp-/Pf-/Z-/Qu- onsets English lacks) and applied **de-specifically at the coords filter, NOT by editing the shared EN `theme-mechanic-compat.json`** (the phonetic gate only WARNs, never blocks — so the per-locale judgment lives at the authoring filter). §A.13.58 / §14.6 per-locale-authority principle, on the phonetic axis.
-- **Investigation-then-rule discipline (for held/novel slices).** A slice with unresolved questions (a grade straddle, a framework treatment, a new compat axis) opens as a **plan-mode investigation FIRST** — source-read every mechanic (never the slug), enum the locale corpus, engage the **native ensemble** (K-3 pedagogue + linguist + B2C/SEO, per §A.13.48/§A.13.56) — reports per-coordinate, **operator RULES**, then authoring rides gated coordinate-to-coordinate. STEP 4 was the canonical case (the Vorschule↔1.Klasse straddle + the phonetic_variety re-author + the title mis-signal fix where the de type name misleads, e.g. find-and-count "…zählen"→**Anlaute**, word-guess "raten"→**Wörter schreiben**).
-- **The de-orphan is locale-agnostic.** picture-sort's combined `X-vs-Y` subjectTag is de-orphaned onto both component theme hubs by `frontend/lib/topic-decks.ts: themeSubjectTagsWhere` (`hasSome` over exact `-vs-` component keys) — it **rode UNCHANGED for de** (no code edit); `scripts/seo-landing/verify-deorphan.js --locale=<loc>` + a per-locale test config confirms dual-membership on the **rendered grid** (curl is hydration-blind per §A.13.50).
-- **Engine + render (reuse — proven on the full locale):** `scripts/seo-landing/gen-de-readiness.js` is the config-driven generator — serves readiness (no `standard`) + framework-bearing (`cfg.standard`) + per-mode frames + per-coordinate `co.level` + **level-aware `cfg.standard`/`cfg.strand` functions** + a **standard-guard** (omits the key when a per-mode standard fn returns null, e.g. prepositions/mc). `de-render.js` owns `datN` (dative +n after `den`/always-dative-prep) + the Ihr-Kind→dein-Kind du-conversion. Per type: a `de-readiness-<type>.js` config + a `de-<type>-coordinates.json` (the enum output; per-coord `level` written in for two-band/split types). Gate `gate.js` (whole-page raw 3-gram Jaccard, FAIL ≥0.80 / WARN 0.65-0.80; **§22 mode-true sharpening** for parameter-twin modes — math-puzzle's 0.773→0.642 collapse is the canonical fix); cell-space **8×7=56** floor; **gender-safe plural-only `{N_PL}`/`{GEN}` slots** (the frame tension on letter/Anlaut mechanics is resolved by generic prose + the **„X" wie [fixed-Wort]** quoted-letter idiom — the theme noun never goes singular). Per-coordinate ledger `docs/seo-landing/mechanic-ledger-de.md`. **0 protected-core lines** throughout.
-- **Per-coordinate ship cadence:** ledger-lock (source-read the mechanic) → enum → [phonetic re-author for Anlaut types] → native frames (P1≥100/P2≥72 words, gender-safe, 0 prose digits, h1 foregrounds the true skill where the type name mis-signals) → `gate.js` (0 FAIL) + gender-lint → commit → `bash deploy.sh` → `repoint-deck-canonical.js --locale=<loc> --types=<type>` → **rendered-DOM verify** (Vorschule = 0 educationalAlignment + 0 framework chip [FBEDE6=0]; CARRIES = educationalAlignment + correct targetName + targetUrl=0 + Lehrplan chip + 0 "Common Core"; LEAK=0 via `verify-hub-autobind.js --locale --type`; N-band regression across all bands) → STOP for the next coordinate. **Re-query de.json for the authoritative count — NEVER an additive tally** (the "566"/"1095-vs-978" mislabel lesson).
-- **NEXT = `es`** (the 2nd full locale): the machinery + doctrine are proven, so es fans as a **faster locale-scoped arc** — but it brings its own native-ensemble surprises: **Romance gender (no neuter; the §A.13.58 note that the gender-code bug is ABSENT in Romance)**, the **Spanish onset inventory** for any phonetic coordinate, and **es-native keyword research + title mis-signal checks**. Sequence de→**es**→nl→fr→it→pt→sv→da→no/fi-last; the middle-eight order + pacing is an operator locale-priority call. The es arc opens with its own investigation-then-rule pass (the held questions surface per locale).
-
----
-
+Per-locale-durable doctrine (3-band re-grade-by-mechanic; the picture-domain→readiness / grapheme-text-domain→CARRIES framework classifier; R3 band-vs-code keeping the EN CCSS code as `targetName`; R5 per-locale compat authority — never cross-applied; investigation-then-rule for held slices; the locale-agnostic de-orphan; config-driven `gen-de-readiness.js`) → [[project-de-landing-fanout-investigation]] + the de plan file `plan-mode-commission-de-enchanted-lagoon.md`. de = 1779 landings (vorschule 1057 / 1-klasse 548 / 2-klasse 174).
 ## Appendix A — Production safety rules
 
 ### A.1 Server + isolated storage
@@ -1916,24 +1119,8 @@ Match existing migration-directory timestamp format exactly.
 
 Fix scripts at `/opt/lessoncraftstudio/server-scripts/`: `audit-db-diacritics.js`, `fix-db-diacritics.js`, `fix-db-diacritics-numbered.js`, `image-vocabulary-raw.json`.
 
-#### A.7.1 image_themes Spanish-displayName data-quality issue
-Surfaced `947ad260` (BW theme registration). `home_bw` and `household_bw` both have Spanish displayName `"Hogar BN"`. Class 2 collision resolved by Option A fallback (`household_bw.slug.es = "household-bw"` English-derived; `name.es` passthrough at `"Hogar BN"`). See §16.5.1.
-
-**Fix needed:** operator-curated rename of `household_bw.displayNames.es` to distinct translation. Once renamed, Option A removed; slug re-derived via standard path. Italian `home_bw`/`household_bw` (both `"Casa BN"`) has same shape; Option A also at `b3f0d1f3`.
-
-#### A.7.2 image_themes accent-data-quality cycle (multi-locale)
-Multiple locales surfaced through 2026-05:
-- **pt:** `accessories.pt = "Acessorios"` (expected `"Acessórios"`); `589fd554`
-- **it:** `activities.it = "Attivita"` (expected `"Attività"`); `589fd554`
-- **sv:** `accessories.sv = "Tillbehor"` (expected `"Tillbehör"`); `a47ea021`
-- **da:** `accessories.da = "Tilbehor"` (expected `"Tilbehør"`); `a47ea021`
-- **no:** `accessories.no = "Tilbehor"` (expected `"Tilbehør"`); `a47ea021`
-- **fi:** `animals_bw.fi = "Elaimet MV"` (expected `"Eläimet MV"`); `a47ea021`
-
-Pattern suggests systematic accent-loss at prior data-import. Slug-level safe (slugify ASCII-folds). Sweep `image_themes` UPDATE per-locale when accumulated.
-
-#### A.7.3 fr Class 2 documentation correction (`9ea577fe`)
-`9ea577fe` closeout stated fr Class 2 collision — empirical state at `a47ea021` cross-locale audit was distinct translations (no collision). Documentation correction only.
+#### A.7.1 image_themes displayName data-quality logs (es/it Class-2 collisions; multi-locale accent-loss; fr correction)
+Backlog of `image_themes` displayName issues — Spanish/Italian Class-2 collisions resolved via §16.5.1 Option-A fallback (`home_bw`/`household_bw` → `Hogar BN`/`Casa BN`; fix = operator-curated rename, then Option A removed), systematic multi-locale accent-loss (pt/it/sv/da/no/fi; slug-level safe since slugify ASCII-folds; sweep `image_themes` UPDATE when accumulated), and the fr Class-2 documentation correction. Full per-entry log + commits → docs/claude-md/misc-detail.md.
 
 ### A.8 Sample-commit protection
 - Local `samples/` in `.gitignore`.
@@ -1977,741 +1164,230 @@ Plain `git push` is default for fast-forward cases. `--force-with-lease` reserve
 
 ### A.13 Verification hygiene
 
-Operational discipline applied at Phase 4 verification of any commission. Each sub-doctrine: doctrine statement + empirical anchor (commit hash) + cross-refs as needed.
+Operational discipline applied at Phase 4 verification of any commission. Each sub-doctrine below is the terse forward-rule; **full text + empirical anchors (commit hashes, worked examples, before/after counts) live in `docs/claude-md/verification-hygiene.md`** (relocated 2026-06-08 — nothing deleted).
 
 #### A.13.1 Phase 4 zoom-in label-readability discipline
-Spot-checks must include zoom-in inspection of UI labels in narrow-column contexts (mobile 375px; faceted-sidebar/filter-strip). UX-truncation defects surface only on close inspection. Status-200 + structural-presence smoke tests verify routing + render, NOT label-readability. Origin: `91ae41a7` FilterSidebar truncation (operator screenshot revealed).
+Spot-checks MUST include zoom-in inspection of UI labels in narrow-column contexts (mobile 375px; faceted-sidebar/filter-strip). Status-200 + structural smoke tests verify routing+render, NOT label-readability.
 
 #### A.13.2 Gap-fold-in-same-commit doctrine
-When an arc surfaces a latent bug fixable with ≤10 short strings OR ≤1 component edit at zero strategic cost AND at same fold-target → FOLD into arc's commit; otherwise surface as separate [FIX]. Origin: Arc 6c→6d intersection.intro precedent `c03fdb8e`.
+Latent bug fixable with ≤10 short strings OR ≤1 component edit at zero strategic cost AND same fold-target → FOLD into arc's commit; else surface as separate [FIX].
 
 #### A.13.3 Refactor-during-already-opened-surface principle
-When a [FIX] opens a code surface, audit for adjacent refactor opportunities of same shape. ≥3 instances + imminent 4th consumer per §14.3a → fold refactor. Origin: `785d63f6` slug-derivation refactor (bulk.js + publish.js + index.js → `slug.js: deriveSeedFromManifest`).
+When a [FIX] opens a code surface, audit for adjacent same-shape refactor; ≥3 instances + imminent 4th consumer per §14.3a → fold the refactor.
 
 #### A.13.4 DERIVED vs HARDCODED-NULL emit-site classification
-App emit-sites for SEO-bearing manifest fields classify via `EXERCISE_MODE_APP_CLASSIFICATION` in `slug.js`: **DERIVED** (reads operator UI signal; null legitimate per §17.8.5) vs **HARDCODED-NULL** (literal `null` at static call site; defect class). §15.16 gate halts HARDCODED-NULL+null (`MODE_NULL_FROM_HARDCODED_APP`); DERIVED+null CLEAN. Post Commission ε at `109a91d4` all 29 apps DERIVED; gate stays as backstop. Constant IS live taxonomy gate consumes at runtime; pattern: recon → adjudication → locked taxonomy → code-constant → predicate input. Origin: `2b555b57` + `109a91d4`.
+App emit-sites for SEO-bearing manifest fields classify via `EXERCISE_MODE_APP_CLASSIFICATION` in `slug.js`: **DERIVED** (reads operator signal; null legitimate per §17.8.5) vs **HARDCODED-NULL** (literal `null`; defect). §15.16 gate halts HARDCODED-NULL+null; DERIVED+null CLEAN. All 29 apps DERIVED; gate stays as backstop.
 
 #### A.13.5 Shape A canonical authoring pattern + reconciliation gate as structural complement
-§15.16 gate is publish-time backstop; **Shape A** is canonical authoring-app pattern: at `prepareExerciseImages()` boundary, filter `selectedImages` against active theme before downstream pool-construction. Off-theme dropped with UI warning. Existing emit-site `theme: themeSelect.value` becomes correct once pool theme-constrained. Per-app scoping varies: verbatim (addition, subtraction); branch-scoped (bingo's `customCalloutsCheckbox.checked`; word-scramble + word-guess fallback else); decoupling-deferred (treasure-hunt path-A `worksheetThemeValue`-driven; gate-protected). Translation-key convention: each app ships `<app>.msg.offtheme.dropped` × 11 locales; promote to `shared.msg.offtheme.dropped` at 4th consumer. Origin: `44cbdda1` (code-addition) + `05d0940e` (10 sibling apps).
+§15.16 gate is the publish-time backstop; **Shape A** is the canonical authoring-app pattern: at `prepareExerciseImages()` filter `selectedImages` against active theme before pool-construction (off-theme dropped + UI warning), so `theme: themeSelect.value` becomes correct. Per-app scoping varies; off-theme key `<app>.msg.offtheme.dropped` ×11 → promote to `shared.*` at 4th consumer.
 
 #### A.13.6 Spec-vs-shipped-contract validation discipline
-When commission spec classifies a code surface with shipped contracts, validate spec's rules against shipped contract empirically BEFORE commit. Halt + surface to operator on conflict. Commission δ Phase 3 caught strict-DERIVED rule conflicting with code-addition's null-for-standard (`5078f491`); 104 of 153 decks would have halted. Operator adjudicated Interpretation Y pre-commit. Paired with §A.13.8 — `[ARC][SEO][DECK-PAGE]` Phases 3a-5 fired paired discipline 5 times (Phase 3b multi-h1; Phase 4a CP2 5-step Explore recon; Phase 4a CP2 DB backfill silent-swallow; Phase 4a CP2.5 (θ) close-at-63.3%; Phase 4b Sub-step 0 TS→CJS path). Origin: `2b555b57`.
+When a commission spec classifies a code surface with shipped contracts, validate the spec's rules against the shipped contract empirically BEFORE commit; halt + surface to operator on conflict. Paired with §A.13.8.
 
 #### A.13.7 Per-app first-publish verification cadence
-When a publish-cli gate covers N apps, per-app first-publish verification folds into Track C cadence rather than separate audit commission. Gate IS verification mechanism. Document gate's coverage in commit body; track per-app first-publish events; gate fires (or doesn't) — empirical verification by construction; firing → follow-on `[FIX][AUTHORING]`. Empirical: `580b0ca2` §15.16 theme gate covered 27 unverified apps; caught code-addition's defect at first-publish (153 ZIPs); §15.17 salvage handled recovery.
+When a publish-cli gate covers N apps, per-app first-publish verification folds into Track-C cadence (the gate IS the verification mechanism), not a separate audit; gate-firing → follow-on `[FIX][AUTHORING]`.
 
 #### A.13.8 Adjudication-reversal discipline
-When recon surfaces cost dimension original adjudication didn't account for, recalibrate before executing. Initial adjudication on manifest.theme arc proposed operator-side regeneration of 153 ZIPs; operator pushed back; correct fix was downstream rewrite (`9051b43d` salvage). Cost-modeled "rebuild from scratch"; empirical cost was "operator's generation hours vs CC's code change." Apply: when Phase 1 surfaces a fix path not in original adjudication's option set AND materially cheaper on dimension operator pays, surface recalibration as Phase 2 batched review. Paired with §A.13.6. Origin: `44cbdda1` + `9051b43d`.
+When recon surfaces a cost dimension the original adjudication didn't account for (esp. a cheaper fix path on the dimension the operator pays), recalibrate as a Phase-2 batched review before executing. Paired with §A.13.6.
 
 #### A.13.9 Two-defect pattern recon
-When one emit-defect surfaces at a wave boundary, recon for additional emit-defects in same app at same wave before declaring fixable. For every OTHER emit-site class, run §15.16 gate on sample; second surfaces → fold both into single Shape-A-style fix. Empirical: code-addition (`5078f491` exerciseMode + `9051b43d` theme) — both surfaced at same wave; Commission ε `109a91d4` closed exerciseMode across 16 apps.
+When one emit-defect surfaces at a wave boundary, run the §15.16 gate on a sample for every OTHER emit-site class in the same app before declaring fixable; fold both into one Shape-A fix if a second surfaces.
 
 #### A.13.10 Manifest-as-schema-contract discipline
-Manifest is contract between authoring app + publish-cli. Defects fix at emit-side; do NOT introduce downstream content-vs-metadata reconciliation when avoidable. §15.16 gate is backstop, not primary fix. Salvage-script territory (§15.17) is for already-staged waves only. Anti-pattern: adding reconciliation to publish-cli when authoring-side fix available.
+Manifest is the contract between authoring app + publish-cli. Fix defects at the emit-side; do NOT add downstream content-vs-metadata reconciliation when avoidable. §15.16 gate is backstop; salvage scripts (§15.17) are for already-staged waves only.
 
 #### A.13.11 Operator-strategic adjudication batching at recon-completion
-Phase 1 recon surfaces multiple operator-strategic adjudications → batch into single consolidated review at recon-completion. Do NOT surface mid-stream. N adjudications batched cost ~one context-switch; N separate cost ~N. Empirical: Arc 2 Phase 1 (`a93ebb7c` predecessor) surfaced four (flag iconography source, exercise-type icons, theme thumbnails, EmbedViralityCTA target URL) in one batch; operator locked all four in one round-trip.
+Batch multiple operator-strategic adjudications into one consolidated review at recon-completion; do NOT surface mid-stream (N batched ≈ one context-switch; N separate ≈ N).
 
 #### A.13.12 Mechanical-fan-out vs architectural-sweep distinction at 29-app scope
-**Mechanical fan-out** — sed-replaceable single-line per app; identical at line-level (e.g., `<h1>` → `<h2>` Phase 3a.2). ~30-90 LoC; no per-app reasoning. **Architectural sweep** — 2+ files per app OR shape-level variance (Phase 3b multi-h1; ~300-500+ LoC). Empirical: Phase 3a.2 (29 × 1 LoC, ~30 min); Phase 3b (29 × 5-step diff ≈ 145 LoC, ~2 hours + 4 §A.13.6 firings).
+**Mechanical fan-out** = sed-replaceable single-line per app (~30-90 LoC, no per-app reasoning). **Architectural sweep** = 2+ files per app OR shape-level variance (~300-500+ LoC). See also §A.13.15 (3rd category).
 
 #### A.13.13 Fan-out verification-hygiene at mechanical-fan-out execution
-**6 grep dimensions:** (1) open-tag canonical form `<h1 ` — expected 0; (2) close-tag `</h1>` — expected 0; (3) JS-string-escaped open `"<h1` or `\"<h1` — expected 0; (4) JS-string-escaped close — expected 0; (5) line-context match (e.g., `lcs-celebration__title` confirms class wraps `<h2>`); (6) cross-locale spread matches expected locale set. Phase 3a.2 + Phase 4a Checkpoint 1 surfaced JS-string-literal escape variants; single-dim missed, 6-dim caught. Origin: `3d1027e5`.
+**6 grep dimensions:** open-tag, close-tag, JS-string-escaped open, JS-string-escaped close, line-context match, cross-locale spread. Single-dim misses JS-string-literal escape variants.
 
 #### A.13.14 Phase 1 Explore-agent fidelity validation
-Explore agents are for breadth-survey ("what's surface area of X?"); fidelity-critical claims ("does X have shape Y at line N?") use direct `Grep` + `Read`. Anti-pattern: trusting Explore output for line-precise claims — Explore reads excerpts, doesn't guarantee whole-file fidelity. Empirical: Phase 3b Checkpoint 2 operator-surfaced when Explore claimed 3-step-diff per app; direct grep verified 5-step-diff.
+Explore agents are for breadth-survey; fidelity-critical claims ("X has shape Y at line N?") use direct `Grep`+`Read`. Explore reads excerpts — don't trust it for line-precise claims.
 
 #### A.13.15 Structured-fan-out as 3rd category between mechanical and architectural
-**Per-app structural diff > 1 file BUT not pure architectural touch**: multi-line additions per app; identical structural shape across 29; same metadata-threading; no per-app conditional logic. Cost: 5-step-diff per app; 5 × 28 ≈ 145 LoC; 1-2 hours; 0-2 §A.13.6 firings expected. Empirical: Phase 3b Checkpoint 2 (28 apps; ~145 LoC); Phase 4a Checkpoint 2.5 (θ) rawExerciseMode + exerciseModeName threading.
+Per-app structural diff >1 file BUT identical shape across 29 + same metadata-threading + no per-app conditional logic (~5-step diff per app). Verify per §A.13.16.
 
 #### A.13.16 Verification-hygiene at structured-fan-out execution
-6 dimensions: (1) per-app structural-shape match (grep anchor across 29; expected 1 per app); (2) per-app diff-line consistency (sample 3-5); (3) cross-app naming-pattern verification; (4) post-deploy curl-spot-check (3 apps × 2 locales × 1 deck = 6 production decks); (5) test-suite full-pass; (6) per-app metadata threading audit (extractDeckBundle → renderStandaloneHTML → buildSeoHead → deck.html). Empirical: Phase 4a Checkpoint 2.5 (θ) caught var-hoisting bug at fanout-theta-handler.js before commit.
+6 dimensions: per-app structural-shape match; per-app diff-line consistency (sample 3-5); cross-app naming-pattern; post-deploy curl-spot-check (3 apps × 2 locales); full test-suite pass; per-app metadata-threading audit (extractDeckBundle → renderStandaloneHTML → buildSeoHead → deck.html).
 
 #### A.13.17 Slug-vs-title-shape redundancy as separate doctrine class
-Slug-level catalog data hygiene structurally distinct from title-shape; slug-level collisions not resolvable by title-shape alone. **(a) Shape-pathology collisions** — same (locale, shape) → identical title-hash; resolvable via title-shape adjustment. **(b) Catalog-data-hygiene collisions** — same (locale, slug) due to operator workflow OR legacy renames; requires operator-strategic catalog rationalization commission. Phase 4a CP2.5 (ι) close: (ε) → (θ) → (ι) at 63.3% surfaced (b) requiring (μ) slug-rationalization stub.
-
-**(μ) CLOSED 2026-05-19 SEO-100pct commission via algorithmic disambiguation:** `scripts/publish-cli/disambiguate-titles-mu.js` groups all published en+es decks by ACTUAL RENDERED TITLE (extracted from deck.html, not by structural manifest axes — catches off-taxonomy themes that collapse onto generic titles via republish-seo's taxonomy fallback). For each rendered-title-collision group sorted by createdAt ASC: first member keeps canonical title (no variant_id); members 2..N get sequential ordinal variant_id ('002', '003', ...). Pairs with `disambiguate-titles-finalize.js` (slug-derived sha1(slug)[:6] for cross-slug residue after ordinal assignment). Re-running republish-seo emits new titles with variantLabel suffix ('Set 002' / 'Conjunto 002'); SHA-1 normalized hashes update successfully in DB; @@unique([language, titleHash]) constraint enforces forward. Final state: 9191/9191 unique titleHash + descriptionHash across en/es/pt.
+Slug-level hygiene is distinct from title-shape. **(a) Shape-pathology** collisions (same locale+shape → identical title-hash) resolve via title-shape adjustment; **(b) Catalog-data-hygiene** collisions (same locale+slug from operator workflow / legacy renames) need an operator-strategic rationalization commission. (μ) CLOSED via `disambiguate-titles-mu.js` (rendered-title grouping + ordinal variant_id).
 
 #### A.13.18 Backfill-rate as commission close-out metric
-When primary deliverable enforces uniqueness invariant via DB-side hash, close-out reports **two metrics**: file-level retrofit rate + DB-level invariant-enforcement rate. Silent under-enforcement ("100%" file-level) worse than visible partial enforcement. Phase 4a precedent: file-level 2776/2776 (100%); DB-level 1693/2673 (63.3% en) + 29/29 (100% non-en).
+When a deliverable enforces a uniqueness invariant via a DB-side hash, close-out reports BOTH file-level retrofit rate AND DB-level enforcement rate (silent under-enforcement is worse than visible partial).
 
 #### A.13.19 Capitalization "small word" handling under uniform title-case
-Default to **uniform title-case** (every word capitalized: "More Or Less"); deterministic, locale-independent. AP-style (small words lowercase except sentence-start) is operator-strategic refinement; locale-dependent. Phase 5 Q1 locked uniform across 11 locales; "More Or Less" / "Tren Del Abecedario" grammatically valid. Phase 5 Item 14 carries small-word refinement as future-arc.
+Default to **uniform title-case** (every word capitalized; deterministic, locale-independent). AP-style small-word lowercasing is an operator-strategic, locale-dependent refinement (future-arc).
 
 #### A.13.20 Retrofit-rerun decision: per-locale need-vs-no-need classification
-Changes affecting retrofit output for SOME locales not others → per-locale rerun classification, NOT uniform all-or-nothing. Document in close-out (skip-locales explicit). Phase 5 Sub-step 7: de+es+nl 95 decks rerun (seo.words.* changed); en 2681 NOT rerun (English defaults; no string change). Anti-pattern: reflexively retrofit-all.
+Changes affecting retrofit output for SOME locales not others → per-locale rerun classification (document skip-locales explicitly), NOT uniform all-or-nothing.
 
 #### A.13.21 Operator-pre-recommendation substrate verification at theme/category selection
-When operator pre-recommendation involves theme/category/package selection, verify candidates against canonical-state at planning step before locking scope. Identify substrate dependencies; empirically query before responding; surface divergence as §A.13.6 firing. Empirical: Pillar 2 Arc 6 Phase 1 themeAxisKey (3 of 4 unverified per `image_themes`; 10th firing); Arc 7 Phase 2 saturation (48/50 canonical-color; only `birds_2` + `miscellaneous` unbundled; 16th firing).
+When an operator pre-recommendation involves theme/category/package selection, verify candidates against canonical-state at the planning step before locking scope; surface divergence as a §A.13.6 firing.
 
 #### A.13.22 Audit-doc-vs-canonical-state divergence at commencement-time
-Audit documents become stale during commission cycles. At commencement of work derived from audit doc, re-verify against canonical-state; surface divergence as §A.13.6 firing. Empirical: Stream A Arc 2 Phase 1 `e87c464c` — audit doc claimed 5 packages had theme-dir absence; re-verification revealed only 3 had `themeName: foods` OR `school-objects`; 2 prepositions used `themeName: animals` (separate class). 15th firing. Distinction from §A.13.21: §A.13.21 at plan step; §A.13.22 at commencement step.
+Audit docs go stale across commission cycles. At commencement of work derived from an audit doc, re-verify against canonical-state; surface divergence as a §A.13.6 firing. (vs §A.13.21: that's at plan step, this at commencement step.)
 
 #### A.13.23 Empirical-saturation as commission-cycle close-point signal
-When commission work consumes finite substrate space, saturation signals natural close-point. Query consumption + availability; below-threshold → saturation signal; surface as natural close-point via AskUserQuestion. Empirical: Pillar 2 Arc 7 Phase 2 (16th firing) — 100 axes.theme keys; 50 canonical-color; 48 bundled; only `birds_2` + `miscellaneous` unbundled. Pillar 2 CLOSED (P2-close-pillar2).
+When commission work consumes finite substrate space, query consumption + availability; below-threshold availability is a natural close-point signal → surface via AskUserQuestion.
 
 #### A.13.24 Double-close-out paired commission CLOSED as multi-pillar trajectory milestone
-When two commission cycles close at same paired moment, the paired-close is itself a structural milestone — convergence + natural strategic-input window. Empirical: consolidation cycle close 2026-05-11: Pillar 4 Arc 3 (ζ) close at `6e2b17fa` + Pillar 2 close at `957eb8ff` same session. First multi-pillar trajectory milestone. Subscribe-flip readiness review at `ba9e55c8` codified + surfaced 3-surface adjudication batch.
+When two commission cycles close at the same paired moment, the paired-close is itself a structural milestone + natural strategic-input window.
 
 #### A.13.25 Bundle cluster taxonomy sub-pattern emergence at scale
-At ~14+ clusters / ~48+ bundles, sub-patterns emerge: **paired-cluster** (two clusters composing pillar via sub-axis, e.g., cultural-arts = music + activities) and **crossover-bundle** (bundles bridging two clusters). Audit for sub-pattern emergence at scale; resist premature authoring before scale-emergence. Empirical: Pillar 2 Arc 6 + Arc 7 cultural-arts paired-cluster (music + activities; activities-bundle thematicCoherence references "2nd cultural-arts cluster bundle").
+At ~14+ clusters / ~48+ bundles, audit for sub-patterns (**paired-cluster**, **crossover-bundle**); resist premature authoring before scale-emergence.
 
 #### A.13.26 Schema migration timestamp-stratification doctrine
-DB column added via schema migration → pre-migration rows have NULL by definition. Post-migration rows populate via emit-time logic. **Pre-migration NULL residue is structural, not regression.** Stratify by `createdAt` against migration timestamp; pre-migration cohort NULL expected (retrofit per §15.17 if recovery warranted); post-migration NULL indicates emit-time regression (Shape A §A.13.5). Empirical: (μ) Phase 1 revised diagnostic (`0e51ba8d`). Original Phase 1 (`f6f8ea38`) misclassified 1,288 en NULL title_hash as "authoring-side regression at 10 apps." Revised stratification: pre-2026-05-09 1,483 NULL (pre-migration per `20260509083000_add_seo_hash_columns`); post-2026-05-09 1,202 new publishes 100% correct. 5.5pp drop was statistical artifact. Recalibration via §A.13.8 saved ~3 sessions.
+A DB column added via migration → pre-migration rows are NULL by definition (structural, NOT regression). Stratify by `createdAt` vs migration timestamp; pre-migration NULL = retrofit per §15.17 if warranted; post-migration NULL = emit-time regression (Shape A §A.13.5).
 
 #### A.13.27 Trajectory-vs-static-state pricing inspection
-When classifying trajectory-state change as regression vs natural-progression, inspect denominator AND numerator separately. **Same numerator + growing denominator produces declining percentage that LOOKS like regression but is statistical artifact.** Empirical: (μ) Phase 1. 5.5pp en backfill drop wrong-priced as structural-regression. Numerator (NULL count) fixed at 1,483; denominator (total en) grew 3,870 → 4,183. Same NULL + growing total = lower percentage, NOT regression.
+When classifying a trajectory change as regression vs natural-progression, inspect numerator AND denominator separately — same numerator + growing denominator yields a declining percentage that LOOKS like regression but is a statistical artifact.
 
 #### A.13.28 Phase 4 production-canonical-path verification at deploy boundary
-At Phase 4 production-ship, verify actual production-canonical-path via curl-spot-check BEFORE declaring Phase 4 complete. Sample 3-5 representative URLs; `curl -I` each post-deploy (expected HTTP 200 + correct content-type); verify content via curl + grep for representative markers. Catches gaps smoke tests miss: nginx config divergence + symlink-swap timing + Cloudflare cache-invalidation latency + DB-state-vs-FS-state divergence. Empirical: Pillar 4 Arc 2 Phase 4 (`e9e4d04a`); Brief B Phase 1 catalog deck route (`4b91adc0`); (μ) 308 404 class verification.
+At production-ship, curl-spot-check 3-5 representative URLs (`curl -I` → 200 + correct content-type; grep content) BEFORE declaring Phase 4 done — catches nginx-config divergence, symlink-swap timing, Cloudflare latency, DB-vs-FS divergence.
 
 #### A.13.29 Ground-truth source-citation discipline for behavior-describing content
-Content describing BEHAVIOR of external component author hasn't directly observed MUST cite source code verified against. Mental-model-alone is defect class equivalent to TypeScript `any`. Phase 1 launches Explore against `REFERENCE APPS/<app>.html` (mode dispatch; kid interaction; answer shape; visual feedback; correctness criteria). Cite per entry: `// Verified against: REFERENCE APPS/<app>.html lines X-Y` block with mode dispatch + kid interaction + audit date. Empty-citation = defect; reviewer rejects on sight. Re-verify on source change. Sub-Phase 2.4 `7eac8f50` (25th firing): 4 of 10 templates DRIFTED — find-and-count (assumed per-row; actual category-counting), more-less (assumed circle; actual tap symbol button), word-guess (wrong param "clue-density"; actual `difficulty`), odd-one-out (assumed circle; actual choice-tap one of 4 image buttons). Applies to per-(appName, exerciseMode) prose templates, parent-letter/take-home prose claiming exercise mechanics, sentence-strips guidance claiming UI layouts, future material-generator copy describing kid interactions, admin/marketing/support copy. File-level preamble: `frontend/scripts/lib/exercise-answer-templates.ts` lines 1-50.
+Content describing BEHAVIOR of a component you haven't observed MUST cite source code (`// Verified against: <path> lines X-Y` + mode dispatch + kid interaction + audit date). Empty-citation = defect. Re-verify on source change. (Family with §A.13.30 + §A.13.31.)
 
 #### A.13.30 Audience-perspective discipline for user-facing content
-All user-facing content MUST be from reader's perspective — what they get, what they do — never how the system produces it internally. **Forbidden in teacher/parent-facing copy:** internal taxonomy (`composedExercises`, `materialSlug`, `framePreset`, `package metadata`, `pedagogical framing`); implementation primitives (`IMAGE_VOCABULARY`, `auto-resolved`, `gender data`, `target language` — use "the language your kids are learning"); architectural concepts (`packages`, `decks`, `generators`, `mass-run`); aesthetic-meta descriptors. Describe what reader gets + what they DO ("Print, cut along the dashed lines, use the cards for counting" — NOT "Image-only cards for cut-and-handle classroom work"). **Third-party brand stamps in private external communications forbidden** — parent letters, take-home content, family-facing materials teachers send home are private teacher-parent communication; never stamp with platform branding. Classroom-internal (flashcards, worksheets, answer keys) MAY carry §14.3 attribution; private external MAY NOT. Sub-Phase 2.5: 7 teaching-package section descriptions × 4 Tier 1+2 locales = 28 entries engineering-perspective; parent-letter PDF shipped with `LessonCraftStudio` brand at letters teachers send home.
+User-facing content is from the reader's perspective (what they get + do) — NEVER internal taxonomy / implementation primitives / architecture / aesthetic-meta. **Third-party brand stamps forbidden in private external communications** (parent letters, take-home); classroom-internal materials MAY carry §14.3 attribution.
 
 #### A.13.31 Per-instance content-awareness discipline
-Commission whose scope NAMES a specific package/deck/topic/lesson-plan/material → Phase 1 MUST read canonical artifact BEFORE Phase 2. NAME is a label; YAML/manifest/data file is truth. Paths: package → `docs/lesson-plans/packages/<slug>/package.yaml`; topic → `frontend/config/topics-taxonomy.json` + grep composing packages; deck → manifest JSON + bundle; lesson plan → `docs/lesson-plans/packages/<slug>/lessons/<lesson>.yaml`; material → package.yaml's `materials:` entry. No inference from name. Cite paths in close-out. **Applies to operator's IDE-open signals** — package YAML open alongside commission = read it. Sub-Phase 2.4 find-and-count drift was per-instance content-blindness — described `find-and-count|unified` without reading `count-objects-1-to-10/package.yaml` (`themeSelect: animals` triggers object-counting, not letter-spotting). **Family of three substrate-verification-by-content (§A.13.29 BEHAVIOR + §A.13.30 READER perspective + §A.13.31 per-instance INSTANCE).**
+A commission naming a specific package/deck/topic/lesson-plan/material → Phase 1 MUST read the canonical artifact (YAML/manifest/data file) BEFORE Phase 2; no inference from the name. Applies to operator IDE-open signals. (Family with §A.13.29 + §A.13.30.)
 
 #### A.13.32 Canonical-artifact-grounding-at-composition-time discipline
-Commission specs naming canonical artifacts MUST ground composition against canonical SoT at spec authoring step — NOT prior-session close-out summaries, carried-forward prompts, or assumed inventory state. Anti-pattern: naming-from-memory, drafting-from-prior-close-out, drafting-from-training-fluency. Canonical SoT paths: taxonomy slugs → `learning-targets.json`; per-package YAML → `docs/lesson-plans/packages/<slug>/package.yaml`; generator inventory → canonical generator code paths + §A.13.35 canonical-mode tables.
-
-**Six sub-doctrines:** (1) **Slug-grounding** — verify against `learning-targets.json` BEFORE locking. (2) **Generator-inventory completeness** — verify at composition time. (3) **Per-package × per-generator matrix as mass-run scope** — mass-run IS full (package, generator) matrix, NOT materials-yaml union. (4) **Generator-executability verification** — YAML-reference-existence insufficient; verify actual code path. (5) **Strand-state baseline grounding** — counts drift across arcs; verify against canonical BEFORE locking. (6) **Commission-spec drafting from prior-close-out text** — ground against prior commit's actual close-out scope + body, NOT memory of earlier projections.
-
-**Empirical anchors:**
-- Arc 17 firings (1-4): Phase 1.3 slug-grounding; P2 numeral-cards generator-inventory; P2 identify-community-places matrix-scope; Phase 1.4 clock-mat generator-executability
-- Arc 18-19 firings (5): Arc 17 P1.3 + Arc 18 P1.3 vocabulary-class-strand-start + Arc 19 P1.3 phonological-awareness + Arc 19 P1.4 spelling-and-encoding baseline drift (`bc128f4b` firing #1)
-- Arc 19 + currency-removal (6): Arc 19 P2.3 (`22338d69` firing #6) drafted from P2.1 close-out text without grounding against P2.2's actual close-out. Currency-removal Phase 1c (`0d56e025`) — presumed `money` sub-track wrapper in `learning-targets.json` did not exist; entries are flat siblings within `measurement` `targets[]`.
+Ground composition against canonical SoT at the spec-authoring step — NOT prior-session close-outs, carried-forward prompts, or training-fluency. Six sub-doctrines (slug-grounding, generator-inventory completeness, per-package×per-generator matrix scope, generator-executability, strand-state baseline, drafting-from-prior-close-out) — detail in companion.
 
 #### A.13.33 Phase 0 explicit-methodology reporting at substrate audit
-Phase 0 outputs reference counts that could diverge by methodology. Every count states: (1) **denominator** (what's being divided into); (2) **locale scope** (en-only / en+pt / all-locales / per-locale); (3) **status filter** (published-only / all-status); (4) **temporal anchor** (pre-arc / post-arc / at-commencement); (5) **parent-class vs sub-track layer** — strand-state reporting distinguishes parent-class (e.g., "measurement", used for C4 saturation) from sub-tracks (e.g., "money" within "measurement"). Empirical: Arc 17 Phase 1.3 → 1.4 → 1.5 baseline shifts. en-baseline 154 → 157 (Phase 1.2 → 1.3, denominator widened); pt-baseline 79 → 66 (Phase 1.3 → 1.4, narrowed); reconciliation cost operator-attention. Dimension 5: currency-removal `0d56e025` dropped 2 packages from measurement's money sub-track; C1 SATISFIED rebaselined 203/203 → 201/201 at parent-class layer; report disclosed "money sub-track ceases; measurement parent-class remains SAT."
+Every Phase-0 count states its (1) denominator, (2) locale scope, (3) status filter, (4) temporal anchor, (5) parent-class vs sub-track layer.
 
 #### A.13.34 Parallel-strand-framing pattern for cross-strand content overlap
-Existing package covers content overlapping canonical fill at observable-activity layer → default to surfacing parallel framing distinction in `compositionalRationale`. Observable activity ("the kid reads the clock") can be surface for content authored under multiple strands' pedagogy; both have legitimate strand-canonical pedagogy; both ship; `compositionalRationale` MUST name distinction explicitly (structural requirement, not optional). Anti-pattern: defer-or-skip on observable-activity overlap. Empirical: Arc 17 Phase 1.4 read-time-vs-tell-time (measurement clock-mat manipulative-first vs telling-time-productive-vocabulary); Arc 19 Phase 1.4 phonological-awareness vs phonics-decoding strand-boundary (oral phoneme manipulation vs letter-symbol-decoding; `bc128f4b`).
+When an existing package overlaps a canonical fill at the observable-activity layer, default to surfacing the parallel-framing distinction in `compositionalRationale` (both ship; naming the distinction is structural, not optional). Anti-pattern: defer-or-skip on observable-activity overlap.
 
 #### A.13.34.1 FULL-OVERRIDE threshold-class enumeration
-Locale variants of canonical packages diverge from en at one of three threshold classes:
-- **Materials-level** — pedagogical content preserved; only linguistic surface translates. Sparse-override per-material linguistic adjustments. ~80% of pt variants.
-- **Pedagogy-level** — package's underlying pedagogy locale-specific (e.g., pt-BR has no r-controlled vowels; pt-BR digraph inventory `LH/NH/RR/SS/CH/Ç` vs en `CH/SH/TH/WH/PH`). Sparse-override REFRAMED with extensive `compositionalRationale.<locale>` citing locale's canonical-curriculum SoT per §A.13.34.2. Empirical `bc128f4b` firing #5: Arc 19 P1.4 read-r-controlled-vowels pt + read-vowel-teams pt + spell-words-with-digraphs pt + write-a-simple-sentence pt.
-- **No-equivalent** — package's content has no equivalent in locale's canonical curriculum (USD currency had no canonical pt-BR equivalent). Disposition: substrate-fill OR pkg-removal (currency-removal `0d56e025`). Sparse-override NOT viable.
-
-Apply: at Phase 1 of locale-variant commission, classify each variant BEFORE locking format.
+Locale variants diverge from en at one of three classes — **Materials-level** (linguistic surface only), **Pedagogy-level** (locale-specific pedagogy; reframe with `compositionalRationale.<locale>` per §A.13.34.2), **No-equivalent** (substrate-fill OR pkg-removal). Classify each variant at Phase 1 before locking format.
 
 #### A.13.34.2 Locale-canonical-curriculum-divergence sub-class
-Pedagogy-level reframing MUST anchor to locale's canonical-curriculum SoT (CCSS for en; BNCC for pt-BR), NOT en CCSS. `compositionalRationale.<locale>` cites locale-canonical-curriculum reference (BNCC `EF01LP*` for pt-BR Year-1 literacy; `EF02MA*` for pt-BR Year-2 math). Citation is structural — without it, reframing reads as ad-hoc deviation. Empirical: Arc 19 P1.4 read-r-controlled-vowels pt (R-positioning per BNCC, 4 positions) + read-vowel-teams + spell-words-with-digraphs (pt-BR digraph inventory per BNCC); Arc 19 P1.5 write-a-simple-sentence pt (pro-drop, adjective-post-noun, gender-agreement, ser/estar per BNCC); Arc 18 P1.2 currency pt FULL-OVERRIDE retired at `0d56e025`.
+Pedagogy-level reframing MUST anchor to the locale's canonical-curriculum SoT (CCSS for en; BNCC for pt-BR), NOT en CCSS; `compositionalRationale.<locale>` cites the locale reference (structural — absent it reads as ad-hoc deviation).
 
 #### A.13.35 Canonical generator-mode-verification at extension boundaries
-Extending a generator with new modes OR referencing modes from spec → verify against canonical mode enumeration at source code AND maintain versioned canonical-mode list in CLAUDE.md per generator. Amend table BEFORE shipping any generator-extension.
-
-**Canonical state of record (Arc 18 Phase 0 audit; corrected post-Phase-6-fold-Round-1 training-fluency defect):**
-
-| Generator | Canonical modes | Source-of-truth |
-|---|---|---|
-| `manipulative-cut-outs` | `single-repeat`, `variety` | `frontend/scripts/lib/manipulative-cut-outs-package-loader.ts:30` (`CutOutMode` type); originating spec at `materials-catalog.json` lines 215-244 |
-
-Per source: `single-repeat` = one image × itemCount tiles (counting); `variety` = one image per vocabKey × itemCount copies each (sorting). 2 modes entire canonical set. Source-of-truth column is load-bearing per §A.13.32.
-
-**Forward scope:** generalizes to ANY mode-parameter generator (`countMode` `fixed`/`varying`/`explicit + countList`; `tone × locale × strand` axis; `MATERIAL_COUNT_FIELD` lookup). Apply: Phase 1 reads table AND grep-verifies against source; stale table → §A.13.6 firing.
-
-**Self-firing-as-validation footnote.** Round 1 fold `2bf7723b` introduced this table with 5 modes (`single-repeat`, `base-ten-blocks`, `3d-shape-nets`, `counters`, `clock-pieces`) authored from training-fluency. 4 non-canonical were likely `themeName` confusions. Round 2 `6a6f69b0` preserved defect. Arc 18 Phase 0 audit per §A.13.32 caught at next commencement. Discipline designed to prevent training-fluency canonical-naming fired at its own instance. Corrected at `694f9823` before Arc 18 P1.1.
+Extending/referencing a generator's modes → verify against the canonical mode enumeration at source AND maintain the versioned mode list in the companion (`manipulative-cut-outs` = `single-repeat`, `variety` per `manipulative-cut-outs-package-loader.ts:30`). Generalizes to any mode-parameter generator; stale table → §A.13.6 firing.
 
 #### A.13.36 CC↔assistant cooperation cadence within commission
-Per-package pedagogical-judgment + class-conditional adjudication resolves between CC + assistant within commission, NOT through operator routing. Operator routing reserved for (a) phase-boundary ratification, (b) strategic-direction adjudication, (c) explicit-delegation moments.
-
-**Cadence:** per-package pedagogical-judgment (strand framing; class-template; materials; canonical-fill ordering) — CC drafts, assistant reviews, CC revises; operator does not route. Class-conditional adjudication per §A.13.37 — CC reads table; applies; surfaces deviations to assistant. Phase-boundary ratification (arc-close; commission spec lock; Phase N → N+1) → operator. Strategic-direction adjudication (Pillar 5 mass-run scope; launch-envelope lock; cross-pillar prioritization) → operator. Explicit-delegation moments ("you choose"/"make the call") → adjudicator-forward per §3.4.
-
-**Cross-session-boundary.** "Within commission" is **per-conversation-session**, NOT transitive. New session via working-memory upload → operator routing re-enters at new commission's recommendation boundary (per §A.13.21). Anti-pattern: per-package routing "I drafted X for package Y; please confirm" scales operator-attention with N; cooperation-cadence bounded by phase count. Empirical: 5 Arc 17 phases + Arc 14/15/16 — resolved without operator routing.
+Per-package pedagogical-judgment + class-conditional adjudication resolves between CC + assistant within a commission (per-session, not transitive), NOT operator routing. Operator routing reserved for phase-boundary ratification, strategic-direction adjudication, explicit-delegation moments (§3.4).
 
 #### A.13.37 Class-conditional disposition pattern as canonical materials composition gate
-Materials composition dictated by package class per fixed canonical table. Table IS the gate; deviations require explicit `compositionalRationale` rationale + assistant ratification at Phase 1 close.
-
-| Package class | Materials count | Composition |
-|---|---:|---|
-| Numeracy | 7 | flashcards, picture-cards, place-value-mat, vocabulary-tracing-strips, manipulative-cut-outs, parent-take-home-letter, answer-key |
-| Literacy | 8 | class-template per Arc 16 patterns; canonical YAMLs at `docs/lesson-plans/packages/identify-letter-sounds-vowels/` + siblings |
-| Vocabulary | 8 | class-template per Arc 16 patterns |
-| World-knowledge | 7 | class-template per Arc 17 patterns; canonical YAMLs at `docs/lesson-plans/packages/identify-living-vs-nonliving/` + siblings |
-| SEL | case-by-case | strand-specific; default to PSED-class-template when applicable |
-| Logic | 8 | Arc 17 Phase 1.1: standard 7 + matching-mat |
-
-Apply (Phase 1): identify class per strand assignment; read row; compose against class-template (default: identical); surface deviations at Phase 1 close with rationale. Empirical: 3-package basis at Arc 16 close + Arc 17 5-phase cross-class generalization (logic-class established Phase 1.1 via complete-analogy-image-pair).
+Materials composition is dictated by package class per the fixed canonical table (Numeracy 7 / Literacy 8 / Vocabulary 8 / World-knowledge 7 / SEL case-by-case / Logic 8) — table in companion. Table IS the gate; deviations need explicit `compositionalRationale` + assistant ratification at Phase 1 close.
 
 #### A.13.38 Decoupled-ship pattern across arc-close empirical reliability
-Multi-pillar commission cycles ship in decoupled cadence preserving rollback granularity + absorbing unplanned-failure-mode:
-1. **Phase P1** — package authoring at filesystem level. Write `package.yaml` + asset trees BEFORE git-stage. PC-power-loss / crash leave work recoverable from filesystem.
-2. **Arc-close commit** — single commit captures recoverable filesystem state atomically.
-3. **Phase P2 close-out cycle** — absorbs downstream-deploy dimensions: materials regen (PDFs) + CDN deploy + cross-bundle updates + scope-doc amendments. Ships separately so per-dimension failure-modes don't entangle with arc-authoring rollback.
-
-Primary empirical: Arc 17 P2 PC-power-loss recovery. Filesystem state preserved across unplanned power-loss; arc-close commit re-ran cleanly without re-authoring loss.
-
-**Three-tier commit discipline:**
-
-| Tier | Scope | Trigger | Git |
-|---|---|---|---|
-| (a) Arc-close | Master packages + arc-doc | Phase P1 complete | In-tree |
-| (b) P2 close-out | PDFs + cross-bundle + scope-doc amendments | Phase P2 complete | In-tree |
-| (c) Working-memory | SESSION-STATE.md / CONVERSATION-HANDOFF.md / commission-resolved markers | Within/between commissions | Out-of-tree per §A.8.3; NOT committed |
-
-Tier-confusion (committing tier-c OR coupling tier-a + tier-b) is canonical anti-pattern. Supporting: Arc 14/15/16/17 — 4-arc empirical reliability. Anti-pattern: coupled-ship at arc-authoring boundary trades rollback granularity for atomicity.
+Ship in decoupled cadence: P1 package authoring at filesystem level (recoverable across crash) → single arc-close commit → P2 close-out cycle (PDFs/CDN/cross-bundle/scope-doc). Three-tier commit discipline: (a) arc-close in-tree, (b) P2 close-out in-tree, (c) working-memory out-of-tree (§A.8.3, NOT committed). Tier-confusion is the anti-pattern.
 
 #### A.13.39 Fold-cycle doctrine-content empirical-grounding at Round 1 + Round 2 review
-[DOCS] fold-cycle Round 1 + Round 2 review MUST include empirical-content verification of every doctrine-table cell, canonical-mode list, canonical-artifact path, cited line range against canonical source. Authoring from training-fluency/memory/prior-session-text produces doctrine-table defects shipping into canonical that propagate downstream.
-
-Round 1 dimensions (existing): structural-shape; cross-reference completeness; anti-pattern pole sharpness; when-to-apply trigger; empirical-anchor commit-hash citation; origin line.
-
-Round 2 **adds 6th dimension: empirical-content verification.** For each doctrine cell introduced by Round 1: Read canonical SoT directly; compare claim against source; flag divergence as §A.13.6 firing BEFORE Round 2 surgical-fixes commit.
-
-Empirical: §A.13.35 self-firing correction at `694f9823` (Arc 18 Phase 0). Round 1 fold `2bf7723b` shipped 5-mode `manipulative-cut-outs` table from training-fluency; Round 2 `6a6f69b0` preserved via surgical-fixes pass without empirical-content verification. Arc 18 Phase 0 audit per §A.13.32 caught: source defines only 2 modes. Discipline caught its own substrate violation; canonical example of §A.13.39's necessity.
+[DOCS] fold Round 2 adds a 6th dimension: empirical-content verification — Read the canonical SoT directly and compare every doctrine-table cell / mode-list / artifact-path / cited line range against source; flag divergence as §A.13.6 BEFORE the surgical-fixes commit.
 
 #### A.13.40 Operational-tooling canonical-patterns
-Production scripts composing shell tools have toolchain-specific failure modes recurring across commissions when undocumented.
-
-**Canonical patterns (as of `22338d69` + `1bdc2789`):**
-1. **Puppeteer `browser.close()` + chained-bash `| tail -N` pipes hang.** Subprocess cleanup doesn't release pipe stdin/stdout. Use single-generator-per-job. Anti-pattern: `node scripts/gen-A.js ... | tail -20 && node scripts/gen-B.js ...` — hangs at first browser.close(). Surfaced: Arc 18 P2 (`1bdc2789`).
-2. **pscp CLI syntax on Windows requires `-l user host:path`.** PuTTY's `pscp` requires `-l user host:path`; POSIX `user@host:path` silently fails on Windows — file not uploaded, exit code 0. Use: `pscp -pw <pw> -l root <local> <host>:<remote-path>`. Surfaced: Arc 18 P2 deploy when ~590-PDF tarball appeared to upload but Hetzner `ls` showed no file.
-3. **tar -C extract path ordering preserves entry-relative paths.** Use `tar -C frontend/.scratch/<gen> en es` producing entries `en/*` + `es/*`; extract `tar -C materials/<gen>` produces clean. Anti-pattern: archive `tar -C frontend/.scratch <gen>/en <gen>/es` produces nested `materials/<gen>/<gen>/en/*`. Surfaced: Arc 19 P2.3 numeral-cards (`22338d69`).
-4. **Curl-verification at 6-dimension grep pattern** — cross-refs §A.13.13 + §A.13.28.
-
-Maintenance: new patterns added at commission empirically surfacing them — NOT separate [DOCS] fold.
+Recurring toolchain failure modes: (1) Puppeteer `browser.close()` + chained `| tail -N` pipes hang → single-generator-per-job; (2) Windows `pscp` needs `-l user host:path` (POSIX `user@host:path` silently fails); (3) `tar -C` extract path ordering preserves entry-relative paths; (4) curl-verification at the 6-dimension grep pattern (§A.13.13 + §A.13.28).
 
 #### A.13.41 Authoring-drift recognition discipline — class (a)/(b)/(c) framework
-When canonical-state-vs-shipped-state divergence surfaces at Phase 0, classify into three structural classes BEFORE locking remediation:
-
-- **Class (a) Authoring drift** — shipped diverges due to authoring error. Canonical correct. Remediation: retrofit shipped via [FIX][LESSON-PLANS] / [FIX][SCHEMA] / [FIX][AUTHORING].
-- **Class (b) Doctrine drift** — doctrine/canonical empirically wrong; shipped reflects correct reality. Remediation: amend doctrine via [FIX][DOCS] AND audit prior commissions locked against wrong doctrine.
-- **Class (c) Parallel framing** — distinct strands/packages/framings legitimately at same observable activity. Both correct under different framings. Remediation: ratify both with explicit `compositionalRationale` distinction per §A.13.34.
-
-Anti-pattern: reflexive Class (b) (amend doctrine) when actually Class (a). Symmetric: reflexive Class (a) locks against wrong canonical.
-
-**Apply (Phase 0):** identify divergence; quote both with SoT paths; verify canonical is current per §A.13.32. **Test for (c) first** per §A.13.34 (observable-activity overlap ≠ duplicate). **Test for (b) second** per §A.13.39 (empirical-content verification). **Default to (a).**
-
-Canonical reclassification empirical: §A.13.37 literacy 8-vs-7 material reversal at Arc 19 P2.2 (`f41d4146`). Arc 19 P1.4 close (`bc128f4b`) initially Class (b); P2.2 re-read Phase 1.1-1.3 packages (8 materials WITH sentence-strips); identified Phase 1.4-1.5 6 packages as drift; reclassified to Class (a). Doctrine table correct at 8; 6 packages need sentence-strips retrofit.
-
-**Other empirical anchors:**
-- §A.13.35 `manipulative-cut-outs`: Class (b) — doctrine wrong (training-fluency Round 1); corrected `694f9823`
-- §A.13.34 read-time-vs-tell-time (Arc 17 P1.4): Class (c)
-- §A.13.35 `word-cards` mode-drift in 3 Arc 14 packages (`bc128f4b` firing #4): Class (a) — 3 packages need retrofit; no doctrine amendment per Arc 19 P2.1 verification (`7c86233d`)
-- §A.13.34 pt FULL-OVERRIDE pedagogy-level (Arc 19 P1.4-1.5; `bc128f4b` firing #5): Class (c) — pt-BR phonics canon (BNCC) legitimately diverges from en CCSS
+Classify canonical-vs-shipped divergence BEFORE remediating: **(a) Authoring drift** (retrofit shipped), **(b) Doctrine drift** (amend doctrine + audit prior commissions), **(c) Parallel framing** (ratify both with `compositionalRationale`). Test (c) first (§A.13.34), (b) second (§A.13.39), default (a). Anti-pattern: reflexive (b) when actually (a).
 
 #### A.13.42 Cache-buster discipline on mini-tools .js changes
-Every change to a `*-core.js` or `*-activity.js` in `mini tools/` MUST bump the `?v=N` query in the html wrapper's `<script src>` tag. Same commit; don't split. Without the bump, browsers that visited any earlier version of the URL continue serving the stale local copy and miss new locale strings / task params. CDN edges + service workers compound the staleness.
-
-Mini-tool wrapper html files carry an inline comment near the script tags documenting the rule as a reminder.
-
-**Empirical anchor:** FI E8 fan-out commit `92d0a136` modified `syllable-builder-activity.js` without bumping `?v=1` → operator's browser served cached pre-fan-out JS → in-card title rendered Spanish on FI page. Corrective commit `f59a7ad2` bumped to `?v=2` and force-refreshed. Current state post commit `693b3e86`: `syllable-builder-activity.html` at `?v=3`.
-
-Long-term cleanup candidate: content-hash cache-busters (`?h=<sha1-of-file>`) eliminate the manual discipline. Defer until volume of mini-tool changes makes manual bumps error-prone.
+Every change to a `*-core.js` / `*-activity.js` in `mini tools/` MUST bump the `?v=N` query in the wrapper's `<script src>` (same commit). Without it, cached/CDN/service-worker copies serve stale JS.
 
 #### A.13.43 Programmatic textContent assertions for chrome i18n
-For shared-chrome i18n changes (header nav, activity chip, in-iframe title, breadcrumb, footer crawl-bait), the verification artifact MUST include programmatic `textContent` assertions via Puppeteer's `$eval` with `setCacheEnabled(false)`, not just visual eyeball of the screenshot. Eyeball PNGs from fresh-state Chromium can show correct rendering while user-side cache shows broken state — the assertion is the load-bearing check.
-
-**Empirical anchor:** FI E8 fan-out commission's report said "I eyeballed the PNG; title is 'Sanan rakentaja'" — the PNG WAS correct, but operator's browser cache served pre-fan-out JS rendering Spanish. The cache-buster commit `f59a7ad2` added textContent assertions on `.lcs-title` across PT/FI/ES + cache-disabled fetch, catching this class loudly on first run thereafter. The PT E8 fan-out (commit `693b3e86`) USED the new pattern; 3 textContent assertions across PT/FI/ES passed cleanly.
-
-Cross-reference §A.13.42 (cache-buster bump discipline).
+Shared-chrome i18n changes MUST include programmatic `textContent` assertions via Puppeteer `$eval` with `setCacheEnabled(false)` — not just a screenshot eyeball (fresh Chromium can render correctly while user cache is broken). Cross-ref §A.13.42.
 
 #### A.13.44 Pipeline regression-snapshot discipline
-For ANY change to `scripts/v2-data/verify-syllable-boundaries/` (gate.js, cli.js, rule-syllabifiers/*.js), snapshot the existing `output/approved-words-<locale>.json` for every affected locale + aggregated `output/quarantine-report.json` to `.before-<arc>.json` siblings BEFORE re-running the pipeline. Convention: `<filename>.before-<short-arc-name>.json`.
-
-The diff against the snapshot is the only auditable evidence that (a) the target class shifted as expected, (b) no other class regressed, (c) counts in untouched locales stayed byte-identical (modulo `generated_at` timestamp).
-
-**Empirical anchor:** gate v1.1 commission (commit `6bc6e804`) introduced the pattern. Río fix (`b84113f7`) + PT first-run (`e6f979cf`) + iã+o fix (`ad4924da`) all reused it. Snapshot files NOT staged (out-of-tree audit artifacts per §A.8.3).
+For ANY change to `scripts/v2-data/verify-syllable-boundaries/` (gate.js, cli.js, rule-syllabifiers/*.js), snapshot `output/approved-words-<locale>.json` + `quarantine-report.json` to `.before-<arc>.json` siblings BEFORE re-running — the diff is the only auditable evidence the target class shifted and nothing else regressed. Snapshots out-of-tree (§A.8.3).
 
 #### A.13.45 Pre-flight hand-trace encoding fidelity
-When tracing rule-syllabifier behavior by hand (typical Phase 1 diagnostic), keep accented characters as their canonical Unicode codepoints throughout the trace. `ã` is U+00E3 (single codepoint, in `NASAL_VOWELS`); `pão` is `p`+`ã`+`o`, NOT `p`+`a`+`o`. Trace via direct Read of the actual file, not via mental-model reasoning that may strip diacritics.
-
-**Empirical anchor:** PT first-run commission Phase 1 (commit `e6f979cf`) — Explore agent traced `pão` as `p`+`a`+`o` and concluded a "BLOCKING ISSUE" in pt.js nasal handling. Direct read of pt.js + correct codepoint tracing showed `pão`→`[pão]` (1 syllable, nasal diphthong via `NASAL_VOWELS.has('ã')`) is correct. Powering through the agent's false-alarm hypothesis would have wasted a commission. Note: the GENUINE iã+o defect (avião → [a,viã,o]) was a different, real bug — surfaced empirically when the pipeline ran on the real corpus, NOT predicted by the agent. That's the correct fault-detection mode: hand-traces predict; empirical runs validate.
-
-Cross-reference §A.13.14 (Phase 1 Explore-agent fidelity validation — Grep+Read for fidelity-critical claims).
+When hand-tracing rule-syllabifier behavior, keep accented chars as canonical Unicode codepoints (`ã` = U+00E3, in `NASAL_VOWELS`) via direct Read — not mental-model reasoning that strips diacritics. Hand-traces predict; empirical runs validate (§A.13.14).
 
 #### A.13.46 Content-locale-direct SEO chrome lookup (anti-`_t()`-locale-binding-drift)
+App-side SEO chrome emission (`seoMeta.*` per §17.8.4) MUST use a content-locale-direct `_seoT` lookup against `window.translations` (bind `loc` to content locale, return `null` on miss), NOT per-app `t()` — which has two bug classes (returns key-string on miss; uses `uiLocale` not content locale). `_seoT` helper shape + the 4-app failure set in companion; cross-refs §17.8.14, §17.8.17 invariant 6, §A.14.8 step 2b.
 
-App-side SEO chrome emission (`seoMeta.{worksheetWord,freeInteractive,forWord,printOrPlay}` per §17.8.4) MUST use a content-locale-direct lookup against `window.translations` (the `translations-shared.js` merged dict), NOT the per-app `t()` function. Two recurring bug classes break SEO emission when SEO calls route through per-app `t()`:
-
-- **Class 1 — `t()` returns the key string on miss.** Per-app `t()` implementations that end with `|| key` (instead of `|| null`) defeat the JS short-circuit `_t('x') || 'Fallback'` because the lowercase/literal key string is truthy. Result: deck.html ships with literal i18n key names (`seoFreeInteractive`, `seoFor`) instead of localized values. Empirical: chart-count Italian wave 2026-05-22 (49 ZIPs halted by §17.8.17 invariant 6).
-- **Class 2 — `t()` uses `uiLocale` (operator's UI language) instead of content locale.** When operator generates Italian content with English UI (`uiLocale='en'`, `currentLocale='it'`), `_t('worksheet')` returns "Worksheet" (English) while the seo_trace builder (which uses content locale via `buildSeoTrace`) records "Scheda" (Italian). The seoMeta + deck.html title diverge from seo_trace. Empirical: bingo Italian wave 2026-05-22 (69 ZIPs; slipped the publish-time gate but caught by post-publish `audit-deck-html.js`).
-
-**Canonical fix — `_seoT` helper at the SEO emission boundary:**
-```js
-var _seoT = function(key) {
-  var loc = (window.currentLocale ||
-             (typeof DECK_BUNDLE !== 'undefined' && DECK_BUNDLE.contentLanguage) ||
-             'en');
-  var s = (window.translations) || {};
-  return (s[loc] && s[loc][key]) ||
-         (s.en && s.en[key]) ||
-         null;
-};
-```
-Bind `loc` to content locale (NOT uiLocale). Read directly from `window.translations` (the shared dict; `translations-shared.js` line ~64-540 carries the 4 SEO chrome keys × 11 locales). Return `null` (NOT the key string) on miss so `_seoT('x') || 'Fallback'` short-circuits correctly.
-
-**Empirical anchor:** Italian first-publish wave 2026-05-22 surfaced 4 apps in the same bug class: chart-count (Class 1, 49 ZIPs), bingo (Class 2, 69 ZIPs), cryptogram (Class 1+2, 99 pre-existing decks), shadow-match/find-shadow (Class 1+2, 1 deck). Structural fix applied at `REFERENCE APPS/{chart-count,bingo,cryptogram,shadow-match}.html` at the SEO emission boundary (~line 2772, 3116, 4457, 2560 respectively): added `_seoT` helper alongside the existing `_t` and swapped the 4 SEO `_t(...)` calls per app. Per-app `t()` left intact for non-SEO UI text.
-
-**Cross-references:**
-- §17.8.14 (sr-only srLang-keyed lookup convention — same discipline applied to sr-only emission; this doctrine extends it to SEO chrome).
-- §A.14.8 step 2b (bundle-vs-current-app reconciliation — `_seoT` removes the gen-time emit-side defect class that produced the chart-count residue; salvage script per §15.17 remains the recovery path for already-staged wave ZIPs).
-- §17.8.17 invariant 6 (`LOCALE_RESIDUE_DETECTED` gate — caught chart-count at publish-time but missed bingo due to seo_trace/template divergence; `_seoT` closes the divergence at emit-time).
-
-**When to apply:** future app authoring (29-app maintenance) MUST use `_seoT` for SEO chrome emission, never `_t`. Existing apps' SEO emission audited for this pattern; the 4 named are the empirical-failure set; remaining 25 apps continue to work because their `t()` either returns `null` on miss OR their app-specific table happens to carry the SEO keys for all 11 locales (incidental). At any new-app port + at any existing-app SEO emission refactor, apply the `_seoT` shape verbatim.
-
-#### A.13.47 Activity-page CSS pitfalls (compiled from v7.1→v7.13 polish session, 2026-05-22)
-
-Hard-won rules. Re-discovering any of these wastes hours. Apply at every `/[locale]/activities/[slug]/` + `mini tools/*-activity.html` edit.
-
-1. **iframe `vh`/`vmin` is iframe-relative, NOT viewport-relative.** Content that grows the iframe via ActivityIframe postMessage auto-resize creates a circular dependency: bigger iframe → bigger `vh`/`vmin` basis → bigger clamp values → more content growth → more iframe growth. Empirical: v7.5 `prompt { font-size: clamp(22, 6vh, 48) }` ran away to 48px ceiling on mobile when prompt wrapped; card grew 1070-1228px. **Fix**: use `vw` (viewport-stable) for content font sizes that mustn't grow with iframe height.
-
-2. **`display: flex` defaults to `flex-direction: row`.** `justify-content: flex-start` on a flex-row LEFT-aligns horizontally, not top-aligns vertically. Empirical: v7.4 `.lcs-stage { justify-content: flex-start }` intended "top-align engine vertically" but actually left-aligned engine horizontally (engine wraps off-center -19 to -57px). **Fix**: set `flex-direction: column` explicitly when you want column behaviour.
-
-3. **CSS Grid items with `max-width` fall back to `start` (left) when stretch fails.** Adding `max-width: X` to a grid item without `justify-self: center` produces left-aligned items. Default `justify-self: auto` inherits parent `justify-items: stretch`, but max-width prevents stretching → falls back to `start`. Empirical: v7.10 added `max-width: 76/246` on cb-tile → tiles left-shifted in their columns. **Fix**: always pair max-width with `place-self: center`.
-
-4. **`grid-template-columns: repeat(N, 1fr)` with content-sized items creates HUGE inter-item gaps.** Each column = board-width/N regardless of item content. If items smaller than 1fr, empty space appears between them. Empirical: v7.11 desktop cb-cols-2 → inter-tile gap = 320px (column 351, tile 49). **Fix**: use `repeat(N, auto) + justify-content: center` for content-sized columns with only the explicit `gap` between items.
-
-5. **`width: X` ≠ `max-width: X`.** For UNIFORM sizing across content variations (e.g., tiles with different image counts), use `width: X` (forces exact size). `max-width: X` is a cap — items can still vary smaller based on intrinsic content. Empirical: v7.11 Which-group-has-more 3-item tile was 170×170, 5-item tile was 241×241; v7.12 `width: 220px` made both 220×220.
-
-6. **Engine-injected CSS at runtime wins on same-specificity ties.** Engines (cb/tf/cvc/wb-core.js) call `appendStyles()` AFTER DOM parses → engine rules come later in cascade than wrapper inline `<style>`. Empirical: v7.2 wrapper rules without `!important` were defeated; verify-mobile.js found tf-frames-area still `row` despite wrapper saying `column`. **Fix**: use `!important` on every engine-overriding rule.
-
-7. **Card `overflow: hidden` + fixed height clips engine content → visually reads as "elements overlapping each other".** Stage child with `min-height: 0` (shell default) shrinks below content height; engine content overflows DOWN past stage into actions area; card clips bottom. Empirical: v7.7 cvc-builder engine overflow 171px → 141px overlap with Check button. **Fix**: `.lcs-app.activity { height: auto; overflow-y: visible }` universal; iframe `min-height: 66.67vh` (floor only) so postMessage auto-resize handles growth.
-
-8. **Tablet (768) is its own breakpoint, NOT a "wide mobile" or "small desktop".** Desktop grid layouts (`minmax(0, 1fr) auto minmax(0, 1fr)`) with fr-columns shrink to 0 on tablet → controls overflow into title area. Empirical: v7.7 grid worked desktop, broke iPad-mini 768 (title-controls overlap 71px). **Fix**: extend mobile flex-stack header to `≤1023`; grid only at `≥1024`. Always test desktop AND tablet AND mobile separately.
-
-9. **iframe-src cache-buster `?v=N` is REQUIRED, not optional.** Browser bfcache + iOS Safari/Android WebView ignore `Cache-Control: max-age=0` under back-forward restoration. Empirical: v7.5 prompt-runaway fix not visible on operator's phone until v7.3-era added `?v=N`. **Fix**: `ACTIVITY_WRAPPER_VERSION` constant in `frontend/app/[locale]/activities/[slug]/page.tsx`; bump on every wrapper change.
-
-10. **Tests passing ≠ visual approval.** Programmatic assertions catch overlap/gap/padding/font-size but miss "looks unprofessional". Empirical: v7.5 reported 109/109 PASS while operator saw cramped + off-center layout; v7.7 reported 125/125 PASS while operator saw tiles left-shifted. **Fix**: capture screenshots at desktop (1920) + tablet (768) + mobile (375/390) and EYEBALL them before declaring shipped. Cross-reference CLAUDE.md §A.13.43 approval cadence.
-
-**Bonus operator-collaboration rules:**
-- When operator gives precise deltas (+30%/-30%), apply literally. Don't second-guess; declare side-effects but don't pre-adjust. v7.10 was first-try success because operator specified exact deltas.
-- Engine has content-aware classes already (`cb-cols-2`/`cb-cols-4`, `cb-tile--text`/`cb-tile--group`, `tf-double`, etc.) — use them for per-variant CSS. Don't try to detect activity ID from CSS.
-- Cache-busting cascade per §A.13.42: `lcs-shell.css?v=N` bumps in ALL 7 wrappers same-commit when shell changes; `ACTIVITY_WRAPPER_VERSION` in page.tsx bumps independently when only wrapper HTML changes.
-- If operator hits frustration breaking point, STOP and offer rollback (`git revert <commit>`) rather than power through more iterations. v7.9 → v7.8 rollback was the right move.
-
-Origin: 13-iteration polish session 2026-05-22 (v7.1→v7.13, commits `2149e1a8` through `d333f3c8`). Each rule represents a real iteration that could have been saved.
+#### A.13.47 Activity-page CSS pitfalls (compiled from v7.1→v7.13 polish session)
+10 hard-won rules + operator-collaboration rules for every `/[locale]/activities/[slug]/` + `mini tools/*-activity.html` edit (iframe `vh`/`vmin` is iframe-relative → use `vw`; `flex` defaults to row; grid `max-width` falls back to left → pair with `place-self:center`; `repeat(N,1fr)` makes huge gaps → `repeat(N,auto)+justify-content:center`; `width` ≠ `max-width`; engine-injected CSS wins ties → `!important`; card `overflow:hidden`+fixed-height clips → `height:auto`; tablet 768 is its own breakpoint; iframe `?v=N` required; tests-pass ≠ visual-approval). Full rules + empirical in companion; cross-ref §A.13.55.
 
 #### A.13.48 11-locale i18n recreation discipline via 3-agent native ensemble
-
-Standing rule (operator-locked across the 10-commission homepageV3 arc 2026-05-23/24): when a commission requires **recreating** (not translating) a content namespace across all 11 supported locales, the workflow is plan-mode-per-locale + 3-agent ensemble per locale:
-
-1. **Enter plan mode** for each non-EN locale individually. Never batch all 10 non-EN locales in one execution.
-2. **Launch a 3-agent ensemble in parallel** (single message, multiple Agent tool calls):
-   - One native **linguist** of the target locale.
-   - One native **marketing expert** of the target locale (B2C K-3 EdTech).
-   - One native **K-3 educational content expert** of the target locale.
-3. **Synthesize** their three reports. Surface convergences + divergences explicitly. Document which expert you weighed heaviest on each disputed decision.
-4. **Use AskUserQuestion** for the highest-impact operator-strategic decisions — typically: squiggle/curriculum-framework target (per §A.13.49 taxonomy), mock panel demo language, register choice (formal vs informal), card/image swap requirements.
-5. **Write the recreated copy** into the plan file as a string-by-string table (KEY | EN baseline | RECREATED | Synthesis rationale).
-6. **Call ExitPlanMode** for operator approval per locale.
-7. **Apply** after approval — write the locale's namespace into `frontend/messages/<locale>.json`, plus any component-side changes (e.g., per-locale image/tile map).
-8. **Commit** with locale tag: `[FEATURE][PROTOTYPE] <Namespace> <LANG> recreation`. Nordic+Finnic (sv/da/no/fi) MUST add `[NSR-FLAG][<LOCALE>]` per §17.5.1.
-9. **Push + deploy** per locale.
-10. **Verify** via curl spot-check (~15-17 representative strings per locale + raw-i18n-key leak check + DOM audit for image/tile changes).
-
-**Why structural**: prior batched-translation attempts missed strings, used wrong register, made wrong squiggle-target calls. The plan-mode-per-locale + 3-agent discipline catches these BEFORE shipping by forcing explicit synthesis + operator approval per locale. Empirical anchor: 11-locale homepageV3 arc (10 commits across 2026-05-23/24, ~15-45K tokens per locale Phase 1).
-
-**Hybrid acceptable for small namespaces**: when a namespace is ≤10 short strings (e.g., the worksheetsPage 10-key namespace at commit `3dc57dfe`), batch-fanout using vocabulary patterns established from prior plan-mode commissions is acceptable. The 3-agent ensemble per locale is the rule for ≥50 substantive strings.
-
-**When NOT to apply**: single-string edits (typo fix), bug-fix CSS/layout changes (not content recreation), cleanup/refactor of existing i18n without content change.
-
-Origin: this session's 10 homepageV3 commissions (DE/FR/ES/PT/IT/NL/SV/DA/NO/FI).
+**Recreating** (not translating) a content namespace across all 11 locales = plan-mode-PER-locale + a 3-agent native ensemble per locale (linguist + B2C-marketing + K-3-educator) → synthesize → AskUserQuestion on high-impact forks → write into plan file → ExitPlanMode per locale → apply → commit (`[NSR-FLAG]` for sv/da/no/fi per §17.5.1) → deploy → verify. **Hybrid OK for ≤10-string namespaces; ensemble is the rule for ≥50 substantive strings.** NOT for typo/CSS/refactor.
 
 #### A.13.49 Locale-credible curriculum-framework squiggle taxonomy
-
-Per-locale credible squiggle targets for any K-3 EdTech credibility surface (homepage hero, pillar01, ABout pages, parent-facing pedagogical claims). Locked from the 10-commission homepageV3 arc. Use as canonical reference; do NOT re-derive via fresh agent ensemble at every new commission.
-
-| Locale | Squiggle target | Source / authority |
-|---|---|---|
-| `en` | Common Core | US K-3 standard (CCSS State Standards) |
-| `de` | Lehrplan | KMK / Länder primary curriculum framework |
-| `fr` | programmes officiels | Éducation nationale Bulletin officiel |
-| `es` | los planes de estudio | LOMLOE 2020 / regional curricula |
-| `pt` | BNCC | Base Nacional Comum Curricular (Brazil 2017-) |
-| `it` | Indicazioni nazionali | MIUR 2012/2018 framework |
-| `nl` | SLO Kerndoelen | Stichting Leerplanontwikkeling primary curriculum |
-| `sv` | Lgr22 | Skolverket current K-9 framework (post-2022) |
-| `da` | Fælles Mål | Børne- og Undervisningsministeriet (lit. "Common Goals" — happy semantic near-cognate to Common Core) |
-| `no` | LK20 | Læreplanverket 2020 / Fagfornyelsen (Udir) |
-| `fi` | OPS 2014 | Perusopetuksen opetussuunnitelman perusteet 2014 (Opetushallitus / EDUFI) |
-
-**Apply**: at any new commission requiring per-locale credibility framing, use the table above directly. Pedagogical agent verification required only if extending to a NEW credibility surface that's structurally different from K-3 curriculum framing (e.g., teacher-credential surfacing, professional-development claims). Body-copy supplementary phrasing for "aligned to <framework>" is locale-specific — see homepageV3 namespace in `frontend/messages/<locale>.json` for established collocations ("Anpassad till Lgr22", "Tilpasset Fælles Mål", "Yhteensopiva OPS 2014:n kanssa", etc.).
-
-**Pair with**: §A.13.48 (recreation discipline) — the table above is the OUTPUT of the discipline applied to 10 locales; future commissions consuming this table avoid 10x agent-ensemble cost.
-
-Origin: 10-commission homepageV3 arc 2026-05-23/24.
+Per-locale credible "aligned-to" framework targets for any K-3 credibility surface (en Common Core / de Lehrplan / fr programmes officiels / es los planes de estudio / pt BNCC / it Indicazioni nazionali / nl SLO Kerndoelen / sv Lgr22 / da Fælles Mål / no LK20 / fi OPS 2014). **Use the table directly; do NOT re-derive via fresh ensemble.** Full table + sources + collocations in companion. Pair with §A.13.48.
 
 #### A.13.50 Client-component dropdown SSR verification gotcha
-
-When verifying client-rendered dropdown menu items via curl, content WON'T appear in SSR HTML — the dropdown is gated by `{isOpen && (...)}` and renders only when user clicks to open. False-negative verification trap: a successful CSS-side change shows 0 hits in curl despite being correctly deployed.
-
-**Diagnostic alternatives**:
-1. **Trust source diff + build success** (simplest): if the source change is correct + `deploy.sh` runs clean + git status shows commit pushed, the dropdown change IS live. Curl just can't see it.
-2. **Puppeteer headless test**: click the dropdown trigger, assert `.textContent` on the rendered menu items per §A.13.43 textContent-assertion discipline. Most robust for production verification.
-3. **Operator visual eyeball** at desktop/tablet/mobile breakpoints. Required anyway per §A.13.43 for UI changes.
-
-**Surface area**: any client component with `'use client'` directive that conditionally renders content via `{state && (...)}`. CategoryNav.tsx is the canonical example (line 114 in `frontend/components/layout/CategoryNav.tsx`). Other suspects: modals, hover popovers, tabs (some implementations), conditional sidebars.
-
-**Cross-ref**: §A.13.43 (textContent-assertion discipline). §A.13.13 (fan-out verification 6-grep-dimension discipline) — this is the 7th dimension for client-component dropdowns: "if conditionally rendered, source-diff verification + Puppeteer over curl".
-
-Origin: CategoryNav `browseAllHref` change 2026-05-24 commit `69d7cfdb` — fix shipped + live + verified via source diff, but initial curl verification returned 0 hits because dropdown content is `{isOpen && (...)}`-gated.
+Client-rendered dropdown items gated by `{isOpen && (...)}` do NOT appear in curl SSR HTML (false-negative trap). Verify via source-diff + build-success, OR Puppeteer click + `.textContent` (§A.13.43), OR operator eyeball. `CategoryNav.tsx` is the canonical case. The 7th dimension of §A.13.13.
 
 #### A.13.51 Homepage-v3 hardcoded card1 tile pattern
-
-`frontend/components/homepage-v3/PillarActivities.tsx` hardcodes card1 tiles as `['gat', 'to']` (Italian "gat-to" syllabification of "gatto"). All 11 locales' homepageV3 namespace recreates card1Title/Prompt/CheckLabel/GradeLabel but `card1SubjectAlt` is alt-text-only (describes IMAGE = cat) WITHOUT affecting the visible Italian tiles.
-
-**Per-locale card1SubjectAlt values shipped**:
-- en/de/fr/es/pt/it/nl/sv/da/no: cat-equivalent in respective language (kat / Katze / chat / gato / gato / gatto / kat / katt / kat / katt — 1 syll most locales, doesn't match 2-tile mockup; alt-text only)
-- fi: **kissa** (kis-sa, 2 syll) — uniquely matches the hardcoded 2-tile syllable count. The Italian tiles still visually render "gat" + "to", but the FI alt accurately describes the cat image with a syllable-count-matching word.
-
-**Card3 (different from card1)** uses per-locale `card3ByLocale` image+tiles map at PillarActivities.tsx — 9 locales reuse elephant image; 1 (FI) swaps to giraffe because "elefantti" is 4 syll. Card3 is fully per-locale; card1 is NOT.
-
-**Per-locale card1 tile recreation deferred** to separate component commission. Design decision needed: does each locale get its own card1 tile triple, or do all locales keep the Italian tiles as a "demonstration of multilingual platform" feature? Operator-strategic.
-
-**Cross-ref**: `card3ByLocale` map in PillarActivities.tsx serves as the precedent pattern if/when card1 is per-localized.
-
-Origin: 10-commission homepageV3 arc 2026-05-23/24 + homepage-v3 promotion 2026-05-24 commit `bc215a5c`.
+`PillarActivities.tsx` hardcodes card1 tiles as `['gat','to']` (Italian "gatto"); per-locale `card1SubjectAlt` is alt-text-only and does NOT change the visible tiles. Card3 IS per-locale (`card3ByLocale`); card1 per-locale recreation is deferred (operator-strategic). The `card3ByLocale` map is the precedent if card1 is localized.
 
 #### A.13.52 Rule-syllabifier WORD_BLACKLIST — R abstains, never overrides T
-
-Per the locked safety invariant ("a wrong split NEVER reaches an activity; quarantine ALWAYS beats publishing a wrong split"), rule-syllabifier R is an ADDITIONAL agreeing source under the strict gate — never authoritative. Empirically confirmed at `gate.js:226-238`: `split_source_disagreement` check fires BEFORE count-agreement check; T+R disagreement → quarantine regardless of N+S+W. SV STEP 2 evidence: 964/964 SV-approved have BOTH `TeX` AND `rule` in `sources_agreed`; zero R-overrides-T recoveries.
-
-**When R's principled K-1 convention conflicts with TeX's empirically-inconsistent choice for specific words AND the word is native (not loanword), R RETURNS NULL for those words.** Effect: gate sees only T as split source → no split-disagreement → word recovers via T+N+S count agreement. The locked safety invariant is preserved as "R abstains" rather than "R overrides."
-
-**Implementation:** in `rule-syllabifiers/<locale>.js`, add a `WORD_BLACKLIST = new Set([...])` const + early-return in `syllabify(word)`:
-```js
-function syllabify(word) {
-  if (!word || typeof word !== 'string') return null;
-  if (word.length <= 1) return [word];
-  if (WORD_BLACKLIST.has(word.toLowerCase())) return null;
-  return syllabifyCompound(word);
-}
-```
-
-**Canonical example: NO STEP 2 (`rule-syllabifiers/no.js`).** 9 words blacklisted: `kjegle / kongle / kringle` (Norwegian native -gle ending where TeX picks closed-syl; R's gl-INSEPARABLE would mismatch), `sykling / tøfler` (TeX-inconsistent on stop+liquid/fl in specific words), `gjøkur` (compound where second element 'ur' is too short for compound-suffix match), `oppvaskmaskin / symaskin` (TeX-inconsistent on sk inside maskin element), `forstørrelsesglass` (Norwegian compound with internal st-cluster handled differently by TeX in compound context). All 9 entries are Norwegian-native; loanword regressions remain (acceptable per operator). Final NO STEP 2 result: 829/1263 approved (65.6%); 29 residual regressions all foreign loanwords.
-
-**When NOT to use:** loanwords (acceptable regressions per operator); words where R's principled convention is correct AND TeX is wrong (those quarantine appropriately; that IS the safety mechanism working).
-
-**When to use:** native-locale word where (a) TeX's split is what operator expects K-1 children to see, (b) R's principled convention produces a different split, (c) N+S agree with TeX's count, (d) blacklisting R would let the word recover via T+N+S without R contributing a contradicting split.
-
-Cross-references:
-- §20.7 — phonics safety pipeline; per-language verdicts
-- [[project-phonics-safety-pipeline]] memory — full WORD_BLACKLIST + ng-rule doctrine
-- gate.js:226-238 — empirical safety mechanism this discipline honors
-
-Origin: NO STEP 2 commission 2026-05-25 commits leading to `f834efd1` (no.js + WORD_BLACKLIST shipped; 5 iteration rounds; final +58 net to 829 approved).
+Per the locked safety invariant (a wrong split NEVER reaches an activity; quarantine beats publishing), rule-syllabifier R is an additional agreeing source, never authoritative. When R's principled K-1 convention conflicts with TeX for a NATIVE word, R RETURNS NULL (a `WORD_BLACKLIST` early-return) so the word recovers via T+N+S — "R abstains," never "R overrides." NOT for loanwords. Cross-ref §20.7, [[project-phonics-safety-pipeline]], `gate.js:226-238`.
 
 #### A.13.53 Cognate-aware locale-leakage verify discipline at sequential per-locale fan-outs
-
-When a commission ships ONE activity across all 11 locales as N sequential per-locale commissions (operator approves each before next), apply this doctrine from commission 1 — NOT commission N. **Distinct from §A.13.48 parallel-agent recreation** (different commission shape: §A.13.48 = 3-agent native ensemble for namespace recreation; THIS = sequential per-locale fan-out of one activity instance using PVC-locked cardinal tables + cognate-aware verify).
-
-**Discipline:**
-
-1. **Single-row-multi-locale manifest pattern.** One row id in `<engine>-activities.json` with per-locale `slug`/`page_title`/`page_intro` maps. `resolveActivitySlug` disambiguates by locale. Avoids per-locale row proliferation + hreflang fragility. NEVER add a new row per locale.
-
-2. **Per-locale Puppeteer verify script** at `mini tools/.verify-<slug>.js` with `FORBIDDEN_SUBSTR` array listing OTHER locales' distinctive tokens. Each locale's verify greps its own iframe DOM body for those tokens; expects 0 matches at all 3 viewports (375/768/1920).
-
-3. **Cognate-drop calibration when shared roots exist.** Drop genuine shared cognates from the FORBIDDEN list of the OTHER locale at the CURRENT shipping locale's verify. Empirical progression at E4 match-pairs K.OA.A.3 rollout:
-   - SV first Nordic — no prior Nordic; no drops needed
-   - DA verify: drops `Mål`, `Kort ` from FORBIDDEN_SV (Nordic-trio cognates)
-   - NO verify: drops `Mål`, `Kort ` from FORBIDDEN_{SV,DA}; drops `makker`, `Tryk`, `Prøv` from FORBIDDEN_DA
-   - FI verify: ZERO drops (Uralic distinctness; FI shares no cognates with the 9 Indo-European prior locales)
-
-4. **Full-phrase forbidden tokens, NEVER bare root fragments.** A 4-char substring of locale A is often a substring of locale B's longer word. Use full phrases (e.g., `Alla par blir`, `Alle par bliver`) NOT bare roots (e.g., bare `blir` would false-positive on DA `bliver` ⊃ `blir`).
-
-5. **Substring-trap empirical catalog:**
-
-| Substring trap | Class | Drop discipline |
-|---|---|---|
-| `blir` (SV+NO copula, 4 ch) ⊂ `bliver` (DA copula, 6 ch) | bare ⊂ longer | drop bare `blir`; use full-phrase `Alla par blir`/`Alle par blir` |
-| `Tryk` (DA "tap", 4 ch) ⊂ `Trykk` (NO "tap", 5 ch) | bare ⊂ longer | drop bare `Tryk` from FORBIDDEN_DA in NO verify |
-| `Kort ` (Nordic "card" + space, 5 ch) ⊄ `Kortti ` (FI "card", 7 ch) | NOT a trap (trailing space @position-4 differs from `t` @position-4) | SAFE to keep `Kort ` in FORBIDDEN_{SV,DA,NO} for FI verify |
-| `en` (DA cardinal-1 bare) vs `én` (NO cardinal-1 acute) | distinct codepoints | NOT a substring trap; cards aren't in FORBIDDEN anyway (internal data) |
-
-6. **Forward-looking cognate documentation.** At each locale's commission close, the operator report MUST document which cognates the NEXT locale's verify will need to drop. Knowledge accumulates across commissions.
-
-7. **Pre-commit gate** at `mini tools/.gate-<locale>-<engine>.js` asserts: current locale strings populated; ALL prior locales byte-untouched (regression floor); manifest row keys preserved for priors; per-task pair-validity probes (typically × 6); spoken summary text exact-match per target (via sandbox `LCSAudio.speak` stub capturing `sandbox.__lastSpeak.text`); cross-locale byte-distinctness sanity.
-
-8. **PVC-locked cardinal tables, NO PVC import.** Cardinals (0-10 for K.OA.A.3 range) value-verified against `PlaceValueCore._NUMBER_WORD_HELPERS.<locale>(n, 'cardinal')` for inline storage; confirm 0 PVC imports in shipped wrapper HTML via curl-grep.
-
-9. **Operator-strategic register adjudications per locale.** Cardinal-1 disambiguation (NL `één`, SV `ett`, NO `én`, DA bare `en`, FI `yksi`), copula choice for "pairs make N" (SV/NO `blir`, DA `bliver` per operator-authorized deviation from E12 `er`, FI `on` singular distributive `Jokainen pari on {n}!`). PVC source comment or operator commission text is the lock.
-
-**Empirical anchor:** E4 match-pairs K.OA.A.3 "Make the Number" 11-locale rollout, 2026-05-26 session (10 sequential commissions DE→ES→IT→FR→PT→NL→SV→DA→NO→FI on top of EN baseline). Key commits: SV `3a24e3a8` → DA `61944985` → NO `a61b9977` → FI `4bf56943` (rollout closed 11/11). Engine `match-pairs-core.js` shipped untouched mechanically across all 10 commissions.
-
-**Cross-references:** §A.13.48 (parallel-agent recreation pattern, distinct shape); §A.13.42 (cache-buster bump per ship); §A.13.36 (CC↔assistant cooperation cadence — per-locale routing rhythm); [[feedback-cognate-aware-verify-discipline]] memory file (full doctrine write-up).
+For ONE activity shipped as N sequential per-locale commissions, apply from commission 1: single-row-multi-locale manifest (NEVER per-locale rows); per-locale Puppeteer verify with `FORBIDDEN_SUBSTR` of OTHER locales' **full phrases (never bare roots** — substring traps like `blir`⊂`bliver`, `Tryk`⊂`Trykk`); cognate-drop calibration when roots are shared; pre-commit gate asserting priors byte-untouched; PVC-locked cardinal tables (no PVC import); document NEXT locale's needed cognate-drops at close. Distinct from §A.13.48. Cross-ref [[feedback-cognate-aware-verify-discipline]].
 
 #### A.13.54 Activity-layer i18n fan-out — gender-safe prompt anchoring + per-locale definiteness + 0-line engine bar
-
-Doctrine for building a new distinct-skill activity (EN base) and fanning it out to all 11 locales without touching shared engine code. Empirical anchor: E2 "Comparing Length" (K.MD.A.2) EN build + 11-locale fan-out, 2026-06 (`a5e37bdf` EN → `41232bdb` NO; hreflang chain 12; wrapper `choice-board-activity.js?v=13` / `ACTIVITY_WRAPPER_VERSION='7.73'`).
-
-1. **0-line engine bar via the activity layer.** A new activity + its fan-out touch ONLY: the engine's **activity wrapper** (`<engine>-activity.js` — a new `task_template` branch + a wrapper-injected `<style>` for any new visual treatment), the `*-activities.json` manifest row (per-locale slug/page_title/page_intro), `frontend/messages/activity-content/<locale>.json` (the strand byStrand block), `frontend/lib/seo/strand-names.ts`, and `page.tsx` (`ACTIVITY_WRAPPER_VERSION` constant). The shared **cores** (`choice-board-core.js`, `place-value-core.js`, `match-pairs-core.js`) + `lcs-shell.{css,js}` + Direction A CSS stay **byte-identical**. The definitive regression proof at fan-out end is `git diff <pre-arc>..HEAD --name-only` over those protected files = **0 changes** — which makes per-instance re-verification of the byte-identical engines redundant-by-construction (sample one instance per engine for overflow/caption/speech; the audit + git-diff cover the rest).
-
-2. **Gender-safe prompt anchoring (locked precedent).** When a "tap the {comparative} one" prompt must agree across objects of mixed grammatical gender, anchor agreement to a FIXED noun, not the varying object: fr/es/it/pt → feminine *image* (l'image / la imagen / l'immagine / a imagem); nl → neuter *het plaatje*; sv → common *bilden*; de → neuter substantivized *das höhere*; fi → partitive comparative (no anchor noun). **Per-locale definiteness is a real trap — confirm with a native expert:** Danish uses **single** definiteness (free article + adjective + BARE noun: "det højere billede", enclitic dropped) while Norwegian/Swedish use **double** definiteness (enclitic kept: no "det høyere bildet", sv "den högre bilden"). These are mirror-image and trivially gotten backwards — the linguist must explicitly confirm.
-
-3. **Wrapper prompt strings pre-seeded all-11, validated/corrected per locale.** Author the prompt-string dict for all 11 at EN-build time (Nordic NSR-flagged). Per locale, a native-expert linguist validates; edit the wrapper string ONLY on a correction → then bump BOTH cache-busters (`?v=N` on the `.html` script tag + `ACTIVITY_WRAPPER_VERSION` in `page.tsx`, §A.13.42) and **re-verify every prior locale renders byte-identical post-bump** (the wrapper is shared). The tile aria-label keeps the raw-English-noun house pattern (invisible; consistent with the other E2 activities).
-
-4. **Strand localization is the leak-guard.** A new CCSS strand MUST be added to `strand-names.ts STRAND_NAMES` (all locales) or non-EN pages leak the English strand into the teacher chip + JSON-LD + `whatsInsideStrand` (audit `noStrandLeak`). The byStrand prose cites the **locale's national framework** (never "Common Core"), references the strand only via the `{strand}` placeholder (auto-localized by `localizeStrand`), and is **aligned verbatim to each `<locale>.json`'s house voice** (device-list clause, no-timer phrase, framework clause, task-term [opgaven/uppgift/consigna/comando], bare-infinitive-vs-"At" bullet style). Read the locale file's existing Geometry block and match.
-
-5. **Known staleness classes at the cumulative sweep (NOT regressions).** (a) audit `noStrandLeak` on pre-existing activities whose `<locale>.json` byStrand prose embeds the English strand name (es/it/pt localize → clean; de/fr/nl/sv/da/no/fi historically embed → ~13 fails each); (b) `.verify-*.js` chip-strand regexes hard-coding a strand spelling that differs from the correctly-rendered localized chip ("Number **and**…" vs rendered "Number **&**…"; English vs localized). Both are pre-existing harness staleness. Confirm via the **load-bearing grep** (`h1 / slug / framework / leak / overflow / caption / speech` = 0 FAIL) before reporting clean; a hard-coded-hreflang-count fail only materializes if a verify asserts a chain length that the fan-out superseded.
-
-**Cross-refs:** §A.13.53 (cognate-aware verify, sequential per-locale fan-out), §A.13.48 (native-ensemble recreation), §A.13.42 (cache-buster bump), §A.13.46 (content-locale-direct SEO), §20.10 (national-framework localization), [[feedback-activity-i18n-fanout-gender-anchor]] memory file.
+Building a new distinct-skill activity + 11-locale fan-out touches ONLY the activity layer (wrapper `task_template`+`<style>`, `*-activities.json` row, `activity-content/<locale>.json`, `strand-names.ts`, `ACTIVITY_WRAPPER_VERSION`) — the cores + `lcs-shell.*` + Direction-A CSS stay byte-identical (`git diff --name-only` = 0 is the regression proof). **Gender-safe prompt anchoring**: anchor agreement to a FIXED noun (fr/es/it/pt feminine *image*; nl neuter; sv common; de neuter substantivized; fi partitive). **Per-locale definiteness is a trap** (DA single vs NO/SV double) — confirm with a native expert. Strand localization is the leak-guard. Cross-ref [[feedback-activity-i18n-fanout-gender-anchor]].
 
 #### A.13.55 Mobile-layout audit is mandatory for every activity ship
-
-Activities render in an iframe with `scrolling="no"`, and the activity card is `overflow-x:hidden` — so ANY content wider than the iframe is **clipped/cut off** (the recurring "broken on Galaxy" class; same failure mode as the homepage embed §A.10/Galaxy fix). Pre-existing QA only checked a single 375px width on a handful of activities, so narrow-Android widths (≤360) kept slipping through.
-
-**The gate — `scripts/audit-activity-mobile.js`** (Node + puppeteer at repo root). Enumerates EVERY activity from `frontend/public/mini-tools/*-activities.json`, loads each real `/<locale>/activities/<slug>/` page, and measures geometry INSIDE the iframe across widths **280, 320, 360, 375, 390, 412, 430, 768** (realistic per-width device heights so `vh` sizing is faithful) in **empty + best-effort-filled** states. **Hard-fail** (gate): horizontal overflow/clip (`scrollWidth>clientWidth` OR any element `right>iframe width`), off-screen interactive control, vertical content clip, **sibling-box overlap** (two boxes in a group — keypad keys, tiles, cards, cells, add-buttons — overlapping each other by >2px on both axes; catches the keypad-keys-spill-into-neighbours class where the grid fits the iframe but fixed-width keys overlap internally), console/page error (LIVE only — localhost dev console noise is auto-ignored). **Soft warn** (eyeball signal, not a fail): tap target <36px, empty band >150px below the card. Emits `docs/audit-results/mobile/mobile-activity-audit.{json,md}` + screenshots at 360/412/768. Flags: `--base` (default LIVE; `=http://localhost:3000` for local verify), `--activities=<id-substr>`, `--locales`, `--widths`, `--concurrency`. npm: `npm run audit:activity-mobile`.
-
-**MANDATORY before shipping any new/changed activity** (this is the standing rule — do not re-litigate per activity, and do not rely on "tests pass + HTTP 200" per §20.4):
-1. Local-verify during fixes (`--base=http://localhost:3000 --activities=<id>`; start dev per §14.5 sitemap rename). The harness sets `setCacheEnabled(false)`.
-2. Reach **0 hard fails at every width, both states**, AND eyeball the screenshots (§A.13.43 — tests pass ≠ visual approval).
-3. Bump cache-busters (§A.13.42): `lcs-shell.css?v=` in all 9 wrappers if the shell changed; the engine `*-core.js?v=` in its wrapper(s) if the engine changed; `ACTIVITY_WRAPPER_VERSION` in `frontend/app/[locale]/activities/[slug]/page.tsx`.
-4. Edit source under **`mini tools/`** (git-tracked). `frontend/public/mini-tools/` is the gitignored local-dev mirror (server symlink → `/var/www/lcs-media/mini-tools/`). On Hetzner after push: `git pull` → `cp "mini tools"/*.css "mini tools"/*.js "mini tools"/*.html /var/www/lcs-media/mini-tools/ && chown lcs-media:lcs-media /var/www/lcs-media/mini-tools/*` (files are NOT chattr+i — plain cp; `deploy.sh` does NOT sync mini-tools, it only verifies the symlink) → `bash deploy.sh` (rebuilds the Next app for page.tsx/ACTIVITY_WRAPPER_VERSION).
-5. Re-run the harness against **LIVE** → all-PASS (Cloudflare 5-min TTL §15.8; the `?v` bumps + the harness `?_=` page query bust the edge).
-
-**Empirical anchor (2026-06-02, commit `64f21f7e`):** the first full sweep of all 33 activities found **27 hard fails + a systemic empty-band**; root causes were the iframe `min-height:85vh` (page.tsx) exceeding the card's `min-height:66.67vh` (~28% blank band), place-value fixed-width trays overflowing at ≤320px, and ten-frame chrome controls + single-frame cells overflowing at 280px. Fixes (lcs-shell.css mobile `min-height:0`+`flex-wrap` controls, page.tsx iframe mobile floor 85vh→360px, place-value ≤359 shrink + tray-tighten + 38px button tap-height, ten-frame ≤339 single-cell shrink) → **376/376 pass**. Cross-refs: §A.13.47 (activity CSS pitfalls), §A.13.42 (cache-busters), §A.13.43 (textContent/screenshot verification), §20.4 (approval cadence), §21.4 (verification table), [[feedback-activity-mobile-qa-standard]] memory.
+Activities render in an iframe `scrolling="no"` + card `overflow-x:hidden`, so any over-wide content is clipped. **Gate = `scripts/audit-activity-mobile.js`** (widths 280-768, empty+filled; hard-fail on overflow/clip/off-screen-control/sibling-overlap/console-error). MANDATORY before shipping any new/changed activity: 0 hard fails at every width + eyeball screenshots + bump cache-busters (§A.13.42) + edit source under `mini tools/` + re-run against LIVE. Full gate spec + deploy steps in companion; cross-refs §A.13.47, §20.4, §21.4.
 
 #### A.13.56 Activity i18n fan-out — 3-agent native ensemble + the fixed-token-apposition rule
-
-Extends §A.13.48 (native-ensemble recreation) and §A.13.54 (activity-layer i18n fan-out). Locked from the E2 "Sort and Count" (K.MD.B.3) 11-locale fan-out (2026-06-03; EN `c6db46f5` → NO `60927c7a`).
-
-1. **A fixed-nominative i18n token used as an inline apposition is locale-dependent grammar.** A shared token like `{strand}` (renders a FIXED nominative — `localizeStrand` → "Mätning och data" etc., never inflected) sits cleanly as an apposition after a head noun in Germanic/Romance: "im Bereich {strand}" (de), "dans le domaine {strand}" (fr), "en el área {strand}" (es), "nell'ambito {strand}" (it), "no eixo {strand}" (pt), "binnen het domein {strand}" (nl), "inom området {strand}" (sv), "inden for området {strand}" (da), "innenfor området {strand}" (no). It is **ungrammatical in case-heavy Finnish** — `osa-alueella {strand}` renders "osa-alueella Mittaaminen ja tieto" (locative head + nominative label = wrong). **Fix in case-heavy locales: drop the token and write the area name in the correct inflected form literally** ("mittaamisen ja tiedon osa-alueella"). The single-agent draft asserted this was a valid apposition; only the native LINGUIST in the ensemble caught it. Apply the same scrutiny to any future case-heavy locale (Uralic, Baltic, Slavic) for any fixed-nominative token dropped into a case-marked slot.
-
-2. **Ensemble discipline.** Per locale: 3-agent native ensemble (linguist + K-3 educator + B2C/SEO marketing) → synthesize (linguist is authority on grammar; surface divergences) → apply native corrections → commit → publish → verify → core byte-identity sweep → next. **Ship-on-ensemble-clear**; surface to the operator via AskUserQuestion only on a genuine register/word-choice/strategy fork (not routine APPROVEs). **Strict one-at-a-time, authorship-inclusive** — no look-ahead authoring; never hold accumulated uncommitted shared-wrapper edits across locales (a shared-layer touch could silently move a live locale; the 0-line bar depends on never being in that state). **Use `general-purpose` agents for the ensemble, NOT `Explore`** — Explore agents intermittently refuse creative authoring ("I'm a read-only code explorer"); the linguist role tolerated it but educator/marketing balked.
-
-3. **Recurring ensemble catches** (build these into the per-locale specs to get it right first time): meta-description (`page_intro`) must be **≤~165 chars** or it truncates in mobile SERPs — a per-locale length check (fr/es first drafts ran 220/206 → tightened to ~150); neutral aria nouns (`labelObjects`) should use the locale's **"pictures" word for K-3 picture-tiles** (fr `images`, sv/no `bilder`, da `billeder`), not the clinical "objects" word; guard against **register-bleed from the sibling activity's reference block** (the es `about` draft copied compare-length's "comparar"); for a multi-gender category set, prefer **per-category FULL prompt strings** over a `{noun}` template (es/pt gendered cuántos/cuántas, fr elision, fi partitive) so each is authored correct with no fragile inflection.
-
-4. **0-core-line activity-layer patterns** (the 3 cores + lcs-shell.* + Direction A CSS stayed byte-identical across EN base + all 10 fan-out commits, git-proven): a **flag-guarded `render()` override in the wrapper** swaps the homogeneous core subject-group img srcs to a heterogeneous pile (runs synchronously right after core render — no rAF; no-op when the per-task flag is unset); **per-category prompt-key dispatch** (`promptCount<Category>`); and **`activity-content.ts prose[id]` accepting a full StrandTemplate object** (overrides all four sections) when the byStrand prose is wrong-flavoured for a sibling sharing the same strand (MD's byStrand is length-specific from compare-length). One fold: `'Measurement & Data'` added to `EN_STRAND_NAMES` in `scripts/audit-activity-pages.js`.
-
-Cross-refs: §A.13.48, §A.13.54, §A.13.55, §20.10; [[project-activities-live-inventory]].
+Extends §A.13.48/§A.13.54. A fixed-nominative i18n token (e.g. `{strand}`) used as an inline apposition is **locale-dependent grammar** — clean in Germanic/Romance but ungrammatical in case-heavy Finnish (drop the token, write the inflected form literally; only the native linguist catches it). Per-locale 3-agent ensemble, ship-on-ensemble-clear (AskUserQuestion only on genuine forks), strict one-at-a-time, use `general-purpose` agents NOT `Explore`. 0-core-line patterns (flag-guarded `render()` override; per-category prompt-key dispatch; `prose[id]` full-StrandTemplate override) in companion.
 
 #### A.13.57 Syllabifier reviewer-dispute triage vs the multi-source gate
-
-When a native reviewer disputes a rule-syllabifier's split (the recurring outcome of any per-locale syllable fan-out), do NOT assume it's an engine bug to fix. Triage it against the gate's OTHER independent sources first — this is a one-read decision, not a per-word stop-and-rule round-trip.
-
-A syllabifier reviewer-dispute is only a **gate-viable rule fix** when **(a)** the gate's other independent sources already agree with the reviewer (e.g. pt `ss`/`rr`: TeX + vocab-phonics already give the correct split), **AND (b)** the change is **count-preserving** (`gi-ra-ssol` and `gi-ras-sol` are both 3 syllables). When both hold, fixing the rule makes it agree with the sources that were already right, and re-gating lands clean (zero new quarantine).
-
-- **If TeX backs the current split**, it's USUALLY a **convention difference, not a defect** — leave it. The reviewer's preference is a valid alternative the gate doesn't endorse; flipping the rule makes rule≠TeX → `split_source_disagreement` (`gate.js`) → the gate **quarantines** the words rather than fixing them. **EXCEPTION — the Nordic K-literacy sound-out carve-out** (sv `ck`=`klock-a`, muta-cum-liquida `se-bra`, seam `hand-ske`): for a *sound-out* product TeX (typographic line-break) is **wrong-for-purpose**, so the school split wins — implemented as SURGICAL pattern-matched rule-authority within the strict gate (NOT GREEN). See the §A.13.57 Nordic amendment below.
-- **If the contested split requires a syllable-COUNT change**, the read-only `vocabulary-phonics.json` (§10.3, never edited without approval) carries the **same** count, so a rule-only fix makes rule≠vocab-phonics → the gate **quarantines** the word instead of fixing it. Defer to an explicit, operator-approved vocab-phonics correction. (pt-hiatus `frio→fri-o` / `melancia→me-lan-ci-a`; fi `lumiukko→lu-mi-uk-ko`.)
-- **Never override the multi-source gate for a convention preference** — that breaks the very invariant that caught the real bug. The gate quarantining a "fixed" word is the safety mechanism working, not a failure.
-
-Practical triage: drive `sources/hyphenation.js` (TeX) + check `vocabulary-phonics.json` counts for the disputed words BEFORE touching the rule; the answer tells you fix-now / leave-as-convention / defer-to-protected-edit without any code change. Empirical: PT `ss`/`rr` was the one gate-viable fix of three disputes (`fed6838b`); pt-hiatus/fi-seam (vocab-phonics-backed count change) were correctly deferred to §10.3 edits; **sv was initially left as "TeX-backed convention" but is now the Nordic school-convention carve-out (amendment below) — for a SOUND-OUT product TeX is wrong-for-purpose, a distinct case from a mere reviewer convention-preference.** Cross-refs: §A.13.44 (snapshot before re-gate), §A.13.52 (no.js abstention), §20.7 (gate source stack), `gate.js` (`split_source_disagreement` + `isRegisteredSchoolDivergence`).
-
-**[AMENDMENT — Nordic K-literacy school-convention carve-out (sv pilot, 2026-06-04)]**
-
-The "TeX-backed = leave it" rule has a CARVE-OUT for the Nordic K-literacy **sound-out** product (klappa stavelser / Lgr22 ljudmetoden), where the SCHOOL split is task-correct and TeX (avstavning / typographic line-break) is **wrong-for-purpose** where they diverge:
-- **TeX-backed AND task-appropriate** → leave it (typographic split that also matches the sound-out; any non-Nordic locale).
-- **TeX-backed BUT wrong-for-purpose** (Nordic sound-out: ck, muta-cum-liquida, morpheme seam, short-vowel) → the school split wins.
-
-**Mechanism — SURGICAL, NOT GREEN.** Implemented as pattern-matched rule-authority WITHIN the strict multi-source gate, NOT by moving the locale to GREEN. Full GREEN was REJECTED for sv: it globally relaxes `split_source_disagreement` for ALL words, admitting ~192 previously-quarantined words — including ~14 compound-seam rule ERRORS (`bus-schauf-för`, `juls-trum-pa`, `pås-klil-ja`) the strict gate was correctly catching — breaching the locked safety invariant. Instead, `gate.js isRegisteredSchoolDivergence()` + the per-locale `SCHOOL_DIVERGENCE` config accept the rule's split over a disagreeing TeX ONLY for the registered patterns; every OTHER rule≠TeX disagreement still quarantines. **Accepted divergences still pass FULL multi-source agreement** — the count sources (S/N/W) independently verify the syllable count; only the BOUNDARY comes from the reviewer-validated rule. No relaxation.
-
-**Registered divergence patterns (portable per-locale; no/da inherit this corrected spec):**
-- **ck-coda** (PATTERN, always safe, any word): ck is a single /k/ coda unit; TeX splits c|k, school keeps it whole (`kloc-ka` → `klock-a`).
-- **muta-cum-liquida onset** (reviewer-validated word allowlist): a STOP+liquid stays as the next onset (`se-bra`, `mus-kler`). **Corrected class definition — the literal "add stop+liquid" spec was too blunt and regressed 13 words; the portable rule is:**
-  - **stop+liquid ONLY** — `v` is a FRICATIVE not a stop → EXCLUDED (`hav-re` NOT `ha-vre`); `fl`/`fr` kept (conventional onsets).
-  - **geminate-onset kept whole** — a doubled consonant before the liquid is NOT a muta onset (`äpp-le` NOT `äp-ple`; `ugg-la`, `toff-lor`).
-  - **ng-coda kept whole** — /ŋ/ before a liquid is a coda (`kring-la` NOT `krin-gla`; `häng-lås`).
-  - **vowel length matters** — open-syllable muta holds only after a LONG vowel; a SHORT vowel closes on the stop (`käg-la` NOT `kä-gla`; native-reviewer SETTLED).
-  - a consonant-before-stop muta (`mus-kler`, s+kl) is phonotactically INDISTINGUISHABLE from a compound-seam rule error (`pås-klil-ja`, also s+kl), so muta is an EXPLICIT reviewer-validated allowlist, NOT a blind pattern (a pattern would admit the errors).
-- **registered seams + short-vowel exceptions** (per-word rule overrides): `hand-ske` (seam); `käg-la` (short-vowel, `SHORT_VOWEL_MUTA_EXCEPTIONS`); `påsk-lil-ja` (seam restoring the split the muta change would regress).
-
-**Backlog — INVESTIGATED + PARTIALLY CLOSED (2026-06-04 seam-recovery commission).** The rule's compound-seam UNDER-GRAB (`busschaufför`→`bus-schauf-för`, `julstrumpa`→`juls-trum-pa`, `blåskrika`, `höstack`, …) was root-caused: it is **ONE mechanism** (`sv.js`'s compound layer can't locate the seam, so the phonotactic layer leaks a stem-internal rule — s-closes-preceding / `sch`-trigraph / `ss`-collapse — across it). Split each word at its true seam first and every one is correct. **Crucially, seam location is INHERENTLY LEXICAL, not rule-tractable** — the `muskler` (`mus-kler`, monomorphemic) vs `påsklilja` (`påsk‖lilja`, a real seam) `V s k l V` ambiguity, plus the unpredictable linking-`s` (`havs`+`snäcka`→`havssnäcka`), proves no phonotactic rule can separate a stem-internal cluster from a seam without a free-morpheme dictionary. So a "root rule fix" does not exist; the only safety-compatible fix is the surgical exact-match per-word override (`SCHOOL_COMPOUND_SEAMS` + gate `mutaSeamWords` — the `handske` mechanism), because over-matching ships a wrong split (forbidden) while the exact-match override's only failure mode is leaving a correct word quarantined (acceptable). Lexicon expansion (`MORPHEME_SUFFIXES`) was REJECTED (unbounded substring over-match — `hav`/`jul`/`sko`; the `maskin`→`ma-skin` mis-fire is the existing instance). A SALDO decompounder is the only *principled* long-term answer but only ever gated behind strict agreement (recover-not-override), not now.
-
-**CORRECTED FRAME (operator-ratified 2026-06-04) — the "seam-fix as GREEN prerequisite" framing was WRONG and is RETIRED.** Because seam detection is inherently lexical and PERMANENTLY incomplete, fixing the known seam errors does NOT make GREEN safe: GREEN trusts the rule's split *wholesale* on count-agreement, so it would auto-publish wrong seam splits for the unverified remainder of the +192 admission set AND for all future corpus additions. The correct policy is **strict gate + surgical per-word recovery, NEVER wholesale R-authority (never GREEN for Nordic)** — the carve-out's entire safety value is that it never trusts the rule wholesale. The ~178 typographically-divergent-but-correct words are a SEPARATE optional incremental `mutaSeamWords`/registered-divergence enumeration, NOT a GREEN candidate; with an ample pool they stay quarantined as the right call. The seam fix and GREEN are decoupled.
-
-**Seam-recovery shipped (2026-06-04, `[NSR-FLAG][sv]`):** **8 words** surgically recovered (sv pool 984→993 entries; +8 unique words, `julstrumpa` double-keyed `christmas-stocking`+`stocking`): Class-1 `havssköldpadda` (TeX already correct, sv.js-only); Class-3 `havssnäcka` (differs from TeX only by `ck` → `codaDigraphs` auto-accept, sv.js-only); Class-2 `julstrumpa`/`blåskrika`/`höstack`/`ljusslingor`/`sjukhusarmband`/`förlängningssladd` (TeX also wrong → sv.js override + gate `mutaSeamWords` entry). All count-guarded (N/S back the school count); native-sv-reviewed (0 split disputes). Anti-regression locked in `sv-seam-recovery.test.js` (`muskler`/`påsklilja`/`fiska`/`borste` untouched). **3 deliberate drops:** `busschaufför` (not a sv corpus member); `skridskoåkning` (vocab-phonics `S=3` backs the wrong count vs school 4 → count-mismatch quarantine; needs a separate §10.3 `syl` 3→4 correction); `samtalshjärta` (split correct but the WORD is an English Valentine-candy calque `conversation-heart`, not natural K-3 Swedish — native-sv flagged; filed as a separate §A.7 cross-locale calque-scan backlog, sv/de/fr). The residual seam errors beyond these 8 (and the ~178 typographic-divergence words) stay quarantined as acceptable — NOT a GREEN trigger.
-
-**Empirical (sv pilot, 2026-06-04):** `policial.pt` 3→4 (`po-li-ci-al`; pt 890→891). sv pool **964 → 984**: the 36-class school re-splits (23 ck + 11 muta + `hand-ske`, all native-reviewer-confirmed) stay in place (count-preserving); **+20 words RECOVERED via the muta-cum-liquida rule CORRECTION at full strict R==T agreement** (`ci-tron`, `ko-li-bri`, `fo-to-graf`, … — the rule got more correct and the gate did its normal job; **NOT gate relaxation** — distinct from the rejected GREEN +192). 0 wrong splits admitted; the ~14 seam errors stay quarantined. 12 sv `vocabulary-phonics.json` `syl` entries added (§10.3: `mamma`=2/`pappa`=2/`bror`=1/`gå`=1/…) to hold the count under the carve-out. Live sv deck (`bygg-ordet-av-stavelser`): `klocka` `kloc-ka`→`klock-a` (the only affected deck word). **sv-only; no/da unchanged this commit.** `de`/`nl`/`no`/`sv.js` were already untracked working-tree files (only es/fi/fr/it/pt rule-syllabifiers are git-tracked) — this commit ADDS `sv.js`; the others remain untracked (out of scope).
-
-**[no FAN-OUT 2026-06-04] Norwegian — NO carve-out needed; `no.js` tracked.** Native-no (Bokmål / lydmetoden, LK20) reviewer ruled `no.js` is **ALREADY school-correct** — it agrees with TeX on 100% of its 829-word pool. Decisive determinations (all SETTLED): **Norwegian SPLITS medial geminates** (`klok-ke`, `som-mer`, `syk-kel`) per the explicit pedagogy "del mellom de to like konsonantene" — the **OPPOSITE of sv's ck-coda (`klock-a`); do NOT import it** (sv `ck` is a single-grapheme /kː/ digraph; no spells the geminate `kk` and splits it). ng SPLITS (`en-gel`, not sv's `äng-el` coda). `vr` IS a valid Norwegian onset → `ha-vre` (UNLIKE sv, where `v` was excluded as a fricative → `hav-re`). `hanske` = `hans-ke` (not a live seam, unlike sv `hand-ske`). muta-onset / diphthongs / sj-skj-kj / st all already correct; no short-vowel exceptions. **So `no` gets NO `SCHOOL_DIVERGENCE` entry** (its divergence set is EMPTY; the carve-out never fires for no — verified: synthetic no R≠T still strict-quarantines). The only action was **git-tracking `no.js`** (it was untracked like sv.js — only es/fi/fr/it/pt tracked; the rule file MUST land in the commit). Pool unchanged 829→829; 0 rule/config/deck/vocab change. **Refines the portable framing: the carve-out MECHANISM is portable, but each locale's divergence set is empirically reviewer-determined — sv's is {ck-coda, muta allowlist, seams, short-vowel}; no's is ∅; ng and the geminate convention are per-locale OPPOSITE between sv and no.** **da — DELIBERATE DETERMINATION (no `da.js`):** Danish has no rule syllabifier (prior operator decision; only `da-quarantine.js` Q-decoration + `da-grapheme-phoneme.json` + the policy doc). The carve-out compares TeX vs the rule's split, so with no rule there is nothing to carve out — da's deck (`byg-ordet-af-stavelser`, 28 words) ships on **TeX-aligned splits accepted as-is** (the strict gate uses T with no R). Recorded as a **deliberate determination, not an oversight**: da is TeX-accepted; building a `da.js` would be a separate structural project (carrying the policy-managed/stød complexity of §20.7), not commissioned.
-
-**[Rule-file git-tracking — standing flag.]** `sv.js` + `no.js` were UNTRACKED working-tree files until this Nordic arc git-tracked them (only `es/fi/fr/it/pt` were tracked before). `de.js` + `nl.js` remain **UNTRACKED**, and `da.js` is **ABSENT** (per above). **Future flag: any commit touching a rule-syllabifier MUST `git add` it** — an untracked rule file is one `git checkout`/clean away from losing an edit the way `sv.js` nearly did. (`gate.js` + `vocabulary-phonics.json` ARE tracked. The `approved-words-<locale>.json` pools are git-tracked ONLY for **es/fi/fr/it/pt/sv**; **de/nl/da/no pools are UNTRACKED** working-tree files (`en` has none). **Consequence:** a commission editing a de/nl/da/no pool MUST confirm `git ls-files` shows it staged, or the change lives only on disk and is lost — observed directly during the calque arc's `nl` re-gate. NB: da HAS a pool (untracked) but no rule-syllabifier per the determination above — the two are distinct.)
-
-**[Oral-vs-written / typographic-vs-sound-out — known-deferred through-line.]** The syllable engine's "deepen on the proven method" repeatedly meets the same fault line: a locale's *established* split convention vs the *oral sound-out* convention the activity's clapping pedagogy actually uses. **sv RESOLVED** (school-convention carve-out over TeX-typographic); **fr FLAGGED** (the shipped *syllabes écrites* convention counts the final mute-e, but CP oral-clapping does not — filed for a separate fr-convention review, §20.9); **da TeX-ACCEPTED**. Not every locale's established convention has been audited against the oral-clapping pedagogy. A deliberate **cross-locale oral-syllable-pedagogy convention audit** is a candidate standalone initiative — recorded here as known, deliberately-deferred territory so a future session reads it as a decision, not an oversight.
+A reviewer dispute is a **gate-viable rule fix** ONLY when (a) the gate's other sources already agree with the reviewer AND (b) the change is count-preserving. If TeX backs the current split it's USUALLY convention-not-defect → leave it (flipping the rule makes rule≠TeX → quarantine). If the dispute needs a syllable-COUNT change, defer to an operator-approved `vocabulary-phonics.json` edit (§10.3). Never override the multi-source gate for a convention preference. **EXCEPTION — Nordic K-literacy sound-out carve-out**: for a sound-out product TeX is wrong-for-purpose, so the school split wins via SURGICAL pattern-matched rule-authority within the strict gate (`isRegisteredSchoolDivergence` + per-locale `SCHOOL_DIVERGENCE`) — **NOT GREEN** (full GREEN rejected: it trusts the rule wholesale and would auto-publish wrong seam splits). sv pilot carve-out, no = empty divergence set (already school-correct), da = TeX-accepted (no `da.js`). **Rule-file git-tracking flag: any commit touching a rule-syllabifier MUST `git add` it** (`de.js`/`nl.js` untracked; `da.js` absent). Full carve-out spec, registered patterns, seam-recovery, and the oral-vs-written through-line in companion; cross-refs §A.13.44, §A.13.52, §20.7.
 
 #### A.13.58 Catalog-wide / cross-locale data-quality fixes: the layered-gate stack + per-locale gender authority
-
-Doctrine from the Nordic gender-code arc (2026-06, **242 corrections** across sv/da/no, 7 commits `c8c16d11`→`cedb564e`) + the conversation-heart calque scan (9 locales). For any **catalog-wide or cross-locale data-quality fix** to a canonical multi-locale data file (`REFERENCE TRANSLATIONS/image-vocabulary.js` §6 is the type case — gender/plural codes; applies to any head-noun-keyed or per-locale-validated correction), agent/audit output is a **baseline, not a complete list**. Run the gate stack in order; **each layer catches what the prior structurally cannot**:
-
-1. **Same-head-noun consistency sweep.** For any defect keyed on a head noun (gender code, plural class, …), sweep the FULL vocabulary for every entry sharing a flagged head noun — not just the audit's hits. (Caught **+41** across the Nordic arc that the native-agent audits missed; da's audit alone was ~38% incomplete.)
-2. **Dictionary-plural re-verify.** When a fix can drag a plural (a gender change usually does), verify every affected plural against a dictionary source — INCLUDING already-approved ones; a first-pass plural can be wrong even after native sign-off. (Empirical: da `Strygebrætter`→`Strygebrædder`; `Videnskab`→`Videnskaber`.)
-3. **Cross-locale probe (backstop).** The same-head-noun sweep is itself bounded by its head-noun list; the probe — "is concept X, fixed in locale A, consistent in B and C per each locale's own convention?" — catches what the sweep's list missed. (Caught **+20**, incl. `badge`, which a hand-narrowed candidate set had dismissed.)
-4. **Exhaustive native confirm of the bounded set — never a hand-picked subset.** Eyeball-narrowing the candidates reintroduces the hole one layer up: confirm EVERY common-coded (or every flagged) entry in the bounded set, not the ones that "look" wrong. (Two misfires proved it: `padlock` wrongly INCLUDED via cross-apply intuition; the 23-candidate filter that DISMISSED `badge`.)
-
-**Per-locale gender authority (never cross-apply a code).** Each locale's gender code resolves against **its own base-noun convention**; a code is never copied across locales even for the identical concept. Conventions, explicit: **sv/da `t`=neuter, `n`=common; no `n`=neuter, `m`=common; de `m`/`f`/`n`=der/die/das (3-gender); nl `d`=de/common, `h`=het/neuter (2-gender)** (no is 2-gender — feminine collapsed into masculine; the legacy `f` code is retired to `m` per the standardization ruling). Note the **code-letter inversion**: no `n`=neuter vs sv/da `t`=neuter. Canonical divergence proofs (same concept, gender differs per locale, so the code MUST differ): **`lås`/padlock is COMMON in da/no but NEUTER in sv** (the false-alarm that proved the rule — do not infer da/no from sv); `bräda`/board, `toalett`/toilet, `handled`/wrist are common in sv where the da/no cognates are neuter; `-gram` borrowings are neuter across the set (sv `ett parallellogram`). **DE↔NL non-cross-apply proof: `rectangle` = `das Rechteck` (de=`n`/neuter) but `de rechthoek` (nl=`d`/common) — same shape, opposite gender systems (3-gender vs 2-gender).** Resolving every entry against its own locale — never propagating one locale's reading into another — is what kept the arc from "fixing" correct entries into errors.
-
-**Mechanics that held throughout:** `image-vocabulary.js`-only (gender lives ONLY there — DB/raw-mirrors/seed/phonics carry no gender → no DB/seed/re-gate); per-key node rewrite targeting only the changed locale field; scripted per-line diff discipline asserting exactly-N keys changed, only the intended locale field, every other locale byte-identical, no cross-applied code.
-
-**DE+NL doctrine extensions (2026-06):**
-- **Commit-shape tracks defect-DIRECTION-family, not size.** When a locale's gender defects span multiple error-directions, split commits by direction (each a homogeneous "is this X, not Y?" re-confirm question), not by size. DE → 3 commits (default-to-m wave / masculine-coded-f reverse / scatter residual); NL → 2 (d→het wave / het→d reverse). A 2-entry off-direction residual ships as its OWN explicit "third-direction residual" micro-commit — never buried in a wave (muddies its homogeneous re-confirm) nor fabricated into a fake family.
-- **Held-as-carry-forward classes (never auto-fixed inside a gender pass):** (a) genuine der/das or de/het **twijfel** (DE golf, NL sports); (b) **lemma-defect-not-gender** (DE pretzels: singular field holds a plural + duplicates `pretzel` → needs a lemma rebuild, not a gender flip); (c) **plural-does-more** — a plural correction beyond what the gender requires (irregular -eren / umlaut / geminate spelling / different-lemma / mass-noun) → ship gender, HOLD + flag the plural. Only plain same-lemma plural fixes ride on the gender line.
-- **Homonym vigilance before flipping a gender:** confirm the intended sense IS the one being flipped. het pad=path vs de pad=toad (trail flipped to het; the separate `toad` key correctly stayed de); het bot=bone vs de bot=flounder; het vest=cardigan vs de vest=moat.
-- **The same-head-noun sweep catches misses in BOTH directions AND refuses suffix-collision false-matches:** DE wave +3 das-neuters via `-seil`/`-skop` (Springseil/Mikroskop/Teleskop) while rejecting der Verband/Bruder/Speck/Flugbegleiter; NL confirmed `het trapezium` stays het while the `-hoek` shapes are de.
-
-**Arc status (2026-06):** **three closed** — calque scan (9 locales) + Nordic gender-code (242, sv/da/no, `c8c16d11`→`cedb564e`) + **DE+NL gender-code (136 corrections, 5 commits: DE 58 `7bef6173`+`3735199c`+`7aa69cde` three-directional; NL 78 `5310b329`+`c7de1a40` two-directional — full neuter-bearing-locale discharge; see `[[project-de-nl-gender-audit-complete]]`)**. Live carry-forward (NOT in flight): (1) deploy `.next/standalone` rm-race permanent root-cause fix; (2) standalone-plural / vocab-key sweep (distinct defect class — sneaker plural, lights-singular, the `juniper-tree`/enebær vocab-key semantic mismatch where the key names a berry not a tree); (3) flagged-contestable held as-is (dino-genus deinonychus/parasaurolophus, planet mercury, hemlock-tree, librarian, bull, lemur, sv bacon/badminton/basketball; **DE golf-twijfel + pretzels-lemma + driftwood/diamond/grasshopper does-more plurals + diamond rhombus/gem art-Q; NL sports-twijfel + tape/apron/plesiosaurus/grapefruit + 8 does-more plurals**).
+For any catalog-wide / cross-locale fix to a canonical multi-locale data file (`image-vocabulary.js` is the type case), agent/audit output is a BASELINE not a complete list — run the gate stack in order, each layer catches what the prior cannot: (1) same-head-noun consistency sweep, (2) dictionary-plural re-verify (incl. already-approved), (3) cross-locale probe, (4) exhaustive native confirm of the bounded set (never a hand-picked subset). **Per-locale gender authority — NEVER cross-apply a code** (sv/da `t`=neuter `n`=common; no `n`=neuter `m`=common; de `m/f/n`; nl `d`=common `h`=neuter); resolve every entry against its own locale (`lås` common in da/no but neuter in sv). Mechanics + DE+NL extensions + arc status in companion; cross-ref [[project-de-nl-gender-audit-complete]].
 
 #### A.13.59 Recognition-standard activity + two-sentence anchor+comparison per-locale fan-out
-
-Doctrine from the E14 fractions series (#1 1.G.A.3 + #2 2.G.A.3 non-congruence, both 11/11 LIVE on the E2 choice-board engine; #2 fan-out `fee21a3b`→`c2bb562c`). Extends §A.13.48 (native-ensemble recreation) / §A.13.53 (cognate-aware verify) / §A.13.54 (gender-anchor fan-out) / §A.13.56 (3-agent ensemble) / §20.10 (national-framework localization). Full record: [[project-e14-fractions-series]].
-
-1. **Claim a multi-clause CC standard via its RECOGNITION clause on a 0-core engine; defer the active-verb clause.** A standard whose text has multiple clauses (e.g. 2.G.A.3 = "partition … AND recognize that equal shares need not have the same shape") can be honestly claimed by instantiating its **recognition** clause on an existing 0-core engine (E2 choice-board) — the child *recognizes*, never performs the active verb. The active-verb facet becomes a deferred future activity with a new core (E14 #3 tap-to-partition → `fractions-core.js`). Per §A.13.X scope-of-claim: the activity must INSTANTIATE the clause it claims; the prompt's count-phrase stays cardinal+"equal parts" and an explicit **guardrail** ("the child does NOT divide, but recognizes…") fences the scope; 0 active-partition-verb at the child.
-
-2. **The two-sentence anchor+comparison construction has a per-locale grammar-trap taxonomy** — validate each locale with a native ensemble before it ships. Construction = anchor declarative ("This shape is split into N equal parts.") + instruction ("Tap another shape that is ALSO split into N equal parts."), reusing the locale's #1 share-verb. The load-bearing per-locale traps (each ruled by the linguist): the **also-adverb** scope+placement (FI myös / DE auch-before-predicate / FR aussi-after-conjugated-verb / ES también-before-verb-phrase / IT anche-between-è-and-participle / PT também / NL ook / SV+DA+NO subordinate-adverb-before-finite-verb i.e. SV BIFF); the **relativizer** (DA der+comma vs SV/NO/most som/que/che/die, NO/SV no-comma); **definiteness** (DA single "Denne form" vs NO double "Denne formen" — the mirror); **elision** (IT un'altra); **preposition** (PT "Toque em" indefinite, no contraction); **gender/agreement** (feminine participle; en-word "another"); **V2 vs verb-final** (NL anchor V2 / relative "verdeeld is"). The new fraction noun (thirds: tiers/Drittel/terços/tredjedele…) is PROSE-only.
-
-3. **§20.10 framework-name + content-vs-discovery split, applied per-locale.** Prose cites the national framework NAME only (never "Common Core"/CCSS code in prose; the code is retained ONLY as JSON-LD `targetName` + chip + `/standards/<code>`). The **content-vs-discovery split**: the educator's pedagogical term in prose+prompt, the shorter generic SEO term in title/intro/slug — **normalize the discovery term across a locale cluster** for consistency (e.g. SV "lika delar"/DA "lige dele"/NO "like deler" in slug+title even when prose uses "…stora/store delar/dele/deler"); the size/concept signal rides in the title phrase, not duplicated into the slug. Match each locale's #1 title-case + tail structure. hreflang on BOTH the head `<link>` chain AND the body anchor strip (pt→pt-BR via `getHreflangCode`, `fda70f19`).
-
-4. **Multi-sibling full-phrase cognate clearance (Scandinavian).** When ≥2 near-cognate locales are live, each one's verify FORBIDS the OTHERS' **full anchor phrases, never bare tokens** — real substring trap **Tryk(DA) ⊂ Trykk(NO)** (and ⊃-family with SV Tryck), near-twins lika/lige/like, stora/store, här/her, delad/delt, annan/anden/annen (anden(DA) also = "the duck/spirit"). The base locale (SV) registers its distinct anchors; each subsequent sibling clears ALL prior ones (DA cleared SV; NO cleared BOTH SV+DA — live-verified 0 each). Distinguishers are whole-phrase (relativizer + definiteness + spelling), since bare tokens (delt/også/er/form) are shared.
-
-Verify per locale: `node scripts/audit-activity-mobile.js` 8/8 (§A.13.55) + rendered hreflang chain (12 = 11+x-default) on head AND body strip + 3-viewport screenshots + 0-protected-core git diff + the §20.10 leak grep (no CCSS code / no "motsvarar"-as-citation in prose; the on-page machine-anchor code occurrences are expected). The 0-line protected-core bar (the 5 cores) held git-definitive across all 11 E14 #2 commits.
-
+A multi-clause CC standard can be honestly claimed via its RECOGNITION clause on a 0-core engine (child recognizes, never performs the active verb; explicit guardrail; defer the active-verb facet to a new core). The two-sentence anchor+comparison construction has a per-locale grammar-trap taxonomy (also-adverb placement, relativizer, definiteness, elision, preposition, gender/agreement, V2-vs-verb-final) — validate each locale with a native ensemble. §20.10 framework-name + content-vs-discovery split applied per-locale; multi-sibling full-phrase cognate clearance (Scandinavian). Verify: `audit-activity-mobile.js` 8/8 + hreflang chain 12 + 0-protected-core git diff + §20.10 leak grep. Cross-ref [[project-e14-fractions-series]].
 ### A.14 Scaling Arc audit doctrine
 
-`[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change.
+`[CHORE][AUDIT]` commissions measure publish-cli's path against scale targets without production change. Terse rules below; **full empirical detail, script descriptions, and the pre-publish-wave checklist's history live in `docs/claude-md/scaling-audit.md`.**
 
 #### A.14.1 Scale-ceiling order
-publish-cli's ceilings under realistic catalog growth:
-1. **Time-death tolerance** at ~10K decks (10 min wall-clock at 59.3ms/deck)
-2. **Within-batch slug collision rate** at ~5K-10K decks
-3. **Sharp + chown overhead** at ~30K-55K decks (CPU-bound; subprocess-spawn dominates)
-4. **Stale-staging-dir lockout** (any scale, low probability per batch)
-
-Engineer: chunked batches > pre-collision-check > subprocess-free chown via `fchown` > auto-cleanup. No memory ceiling within 55K (216 MB peak RSS at 440-deck baseline). No disk ceiling within 250K (379 GB free + 28.8M inodes at audit). Origin: `f765b991`.
+publish-cli's ceilings under growth, in order: (1) time-death tolerance ~10K decks (≈59ms/deck → 10 min/batch); (2) within-batch slug-collision rate ~5-10K; (3) Sharp+chown overhead ~30-55K (CPU-bound); (4) stale-staging-dir lockout (any scale). Engineer in order: chunked batches > pre-collision-check > `fchown` > auto-cleanup. No memory/disk ceiling within 55K/250K.
 
 #### A.14.2 Defer-trigger heuristic for performance commissions
-Each commission has explicit empirical trigger; default-defer rather than engineer-now:
-- **Checkpoint/resume** — at 5K+ decks/batch OR first real mid-batch death event
-- **Within-batch slug collision pre-check** — at 5K+ decks/batch
-- **Subprocess-free chown via fchown** — at 30K+ decks/batch
-- **Stale-staging-dir auto-cleanup** — after first lockout
-
-**Anti-pattern:** engineering ahead of empirical trigger.
+Each commission has an explicit empirical trigger; **default-defer** rather than engineer-now (checkpoint/resume at 5K+/batch or first mid-batch death; collision pre-check at 5K+; `fchown` at 30K+; stale-dir cleanup after first lockout).
 
 #### A.14.3 Sequential publish is a feature
-publish-cli's sequential await loop is intentional. Concurrency would introduce within-batch races on slug-collision detection + `create.deck` — two parallel publishes of same `(language, slug)` either deadlock on unique constraint OR produce numeric-suffixed slug racing canonical. Sequential prevents both by construction.
-
-**Operational:** to handle larger batches, **chunk** via `--staging-dir` (split 10K into 3 × 3.3K) rather than parallelize. Chunk boundaries race-safe.
+The sequential await loop is intentional — concurrency would race within-batch slug-collision detection + `create.deck`. To scale, **chunk via `--staging-dir`** (race-safe), do NOT parallelize.
 
 #### A.14.4 publish-cli non-idempotent retry posture
-Re-running partial-completion bulk-publish requires staging-dir hygiene; NOT safe to retry blind. Bulk-publish completing M of N before process-death produces M `Deck` rows + M asset trees + partially-consumed staging dir. Re-running same `publish-bulk <staging-dir>` attempts re-INSERT of M already-published → unique-constraint violations. Recovery: identify M completed; move ZIPs out of staging; re-run against N-M unpublished.
-
-**Anti-pattern:** assuming `publish-bulk` idempotent. Future briefs implying blind-retry must surface manual-recovery.
+Re-running a partial bulk-publish needs staging-dir hygiene; NOT safe to retry blind (M completed → re-INSERT hits unique-constraint). Recovery: move the M completed ZIPs out of staging, re-run against N-M.
 
 #### A.14.5 Asset-tree audit-only `[CHORE][AUDIT]` commission shape
-Read-only audits produce audit-report deliverable + Phase 3 operator-strategic questions; no production change, no DB writes, no FS modification, no `deploy.sh`. Audit-report at `docs/<arc-name>-audit-<utc-date>.md`.
-
-**Phase shape:** (1) Inventory; (2) Empirical recon (read-only on production OR isolated-snapshot); (3) Findings — headline + supporting data + Phase 3 questions; (4) Doctrine carry-forward.
-
-**Triggers:** explicit operator commission OR precipitating event (near-miss, downstream commission benefit).
-
-Origin: `9850df93` (Arc 3 at 731-deck-catalog) + `f765b991` (Arc 5 at 440-wave snapshot).
+Read-only: audit-report deliverable (`docs/<arc>-audit-<utc>.md`) + Phase-3 operator-strategic questions; no DB writes, no FS modification, no `deploy.sh`. Phases: inventory → empirical recon → findings → doctrine carry-forward.
 
 #### A.14.6 Backup-coverage audit class
-Backup-coverage is distinct class from scale-ceiling audits. Backup gaps surface as **URGENT** — catastrophic FS loss is unrecoverable without backup, and gap structurally cheap to close (~40 LOC bash + cron).
-
-**Triggers:** audit commission discovers asset-tree without backup coverage OR new asset-tree at `/var/www/lcs-media/<dir>/`; verify backup OR file [FIX][OPS] alongside create.
-
-**Off-host backup deferred trigger:** ~10 GB asset bytes OR ~6-7K decks. At scale, same-host weekly tarball becomes fallback to off-host.
-
-Origin: `9850df93` (URGENT finding: `/var/www/lcs-media/decks/` zero backup at 731-deck state) + `15be6ef5` (closure: `backup-decks.sh`).
+Backup gaps surface as **URGENT** (catastrophic FS loss is unrecoverable; gap is cheap to close). Verify backup OR file `[FIX][OPS]` for any asset-tree at `/var/www/lcs-media/<dir>/`. Off-host backup deferred trigger: ~10 GB OR ~6-7K decks.
 
 #### A.14.7 Scale-projection methodology extension
-Scale-projection decomposes into two layers; both measured.
-
-**Layer 1 — filesystem-level.** Disk bytes + inode count per published deck × design-target population. Per-deck-asset: deck.html (~200-400 KB), printable.pdf (~50-150 KB), answer-key.pdf (~30-100 KB), thumbnail.png (~20-50 KB), og-image.png (~80-150 KB). Arc 3 (`9850df93`): ~6 inodes × 731 = ~4,400 at audit, projecting ~330,000 at 55K = 1.1% of ext4 default inode budget. Disk: ~1.5 MB/deck × 55K = ~82.5 GB total (4.6× margin against free-space).
-
-**Layer 2 — publish-cli timing.** Per-deck wall-clock × batch size + concurrency profile. Arc 5 (`f765b991`): empirical 59.3 ms/deck projecting 10 min at 10K/batch — time-death tolerance per §A.14.1.
-
-**Apply:** measure both; use real production state or isolated-snapshot; project linearly; flag non-linear factors (disk-fragmentation, DB index bloat, ext4 dir_index thresholds).
+Measure BOTH layers: **filesystem-level** (disk bytes + inode count per deck × target population) and **publish-cli timing** (per-deck wall-clock × batch size). Flag non-linear factors (DB index bloat, ext4 dir_index thresholds).
 
 #### A.14.8 Pre-publish-wave audit doctrine
+Three defect classes recur on operator-staged ZIPs. **Run this 5-step checklist BEFORE `publish-bulk --confirm`** (largely automated now by `publish-wave.js` §21.2, but verify):
+1. **theme-emit audit** — sample 1 ZIP/app; `manifest.theme` non-null when operator picked a theme; else Shape A (§A.13.5) or salvage (§15.17).
+2. **seoMeta audit (source app HTML)** — `extractDeckBundle()` populates `bundle.seoMeta.themeName` via `LCSCatalogExport.deriveThemeName`.
+2b. **bundle-vs-current-app reconciliation (operator ZIP)** — sample deck.html for `seoMeta` populated; absent/null on a themed deck = operator bundle predates the seoMeta fix (hard-refresh + regenerate, or `rewrite-deck-html-title.js` salvage). `_seoT` (§A.13.46) removes this emit-defect class going forward.
+3. **canonical-host check** — `substitute.js CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com'` (www; apex breaks embed auto-resize per §A.10); retrofit via `rewrite-canonical-host.js`.
+4. **deckend-suggestions strip presence** — sample deck.html for `lcs-deckend-suggestions` (≥3 hits); 0-2 = stale `catalog-export.js`; recover via `inject-deck-end-strip.js --rewrite`.
+5. **post-publish spot-check** — curl a sample deck/app: title includes theme word, `var url=` is www-form, `lcs-deckend-tile` ≥1, embed auto-resize works.
 
-Three defect classes have recurred across multiple operator deck-publish hand-offs and were re-diagnosed from scratch each time. All captured here as pre-publish-wave checklist future sessions MUST run BEFORE invoking `publish-bulk --confirm`.
+#### A.14.9 SEO-100pct audit infrastructure (canonical reference)
+Reusable pair under `scripts/publish-cli/`: **`audit-published-baseline.js`** (DB enumeration of published decks; pre/post-migration NULL-hash stratification) + **`audit-deck-html.js`** (per-deck FS audit of 10 SEO invariants — title/desc uniqueness, canonical pattern, ≥14 OG tags, ≥3 inbound links, locale-residue, single-h1, theme-keyword-in-title, deckend strip, www canonical-host). Invoke these; do NOT re-author DB/FS-walking logic. Invariant list + invocation in companion.
 
-**Three recurring defect classes:**
+#### A.14.10 Image-SEO retrofit infrastructure (SEO-thumbnail commission)
+`og-image-text.js` (SVG-text, DejaVu Sans) + `og-image-xmp.js` (XMP packet) + `regenerate-og-images.js` (walks all decks; two-column composite + XMP; ~100ms/deck). Custom sitemap routes at `frontend/app/sitemap/{0,1}.xml/route.ts` emit `<image:image>`. For future image-SEO: extend the text/XMP builders + re-run the regenerator; do NOT touch the Sharp pipeline.
 
-1. **Theme-emit defects** — apps' `LCSCatalogExport.export()` or `buildCatalogManifestSettings()` hardcodes `theme: null`, dropping operator's theme. Plus 27 of 29 apps historically didn't populate `bundle.seoMeta.themeName` in `extractDeckBundle()` so deck.html `<title>` + meta description lacked theme keyword. Past fixes: `5110d6e0` (math-worksheet + prepositions defect-A); `0e5f1560` (28-app sweep adding `seoMeta.themeName` via shared `LCSCatalogExport.deriveThemeName()`).
-
-2. **Embed iframe gap (apex/www mismatch)** — `substitute.js: CANONICAL_URL_BASE` was apex; nginx 301 to www breaks embed iframe auto-resize listener via postMessage URL-match. Past fix: `6fb6ee3d` (apex → www + `rewrite-canonical-host.js` retrofit).
-
-3. **Deckend-suggestions strip stale-emit** — operator's PC `frontend/public/worksheet-generators/` (gitignored serving copy populated by `scripts\master-sync.bat`) goes stale relative to `REFERENCE TRANSLATIONS/catalog-export.js`. When `LCSCatalogExport.buildDeckEndSuggestionsPlaceholder` undefined at deck-generation, apps' `parts.push(deckEndSuggestions)` pushes empty string; deck.html ships without strip. Two failure modes per timestamp ordering: Mode B (oldest, missing all 3 elements) and Mode A (mid-sync, un-hide JS hardcoded but helper undefined → empty section). Result: end-of-deck "Try one of these next:" reel never renders. Past fix: 9-app wave 2026-05-09 — recovery via `scripts/publish-cli/inject-deck-end-strip.js --locale=<X> --rewrite`. Critical for UX + §1 SEO flywheel (deck.html outbound topic-page anchors feed Google's link graph).
-
-**Pre-publish-wave checklist — run BEFORE `publish-bulk --confirm`:**
-
-1. **theme-emit audit.** Sample 1 ZIP per distinct app: `unzip -p <zip> manifest.json | jq .theme` should be non-null when operator selected a theme. If any null:
-   - Apply Shape A authoring fix per §A.13.5, OR
-   - Run salvage script `scripts/publish-cli/rewrite-manifest-theme.js` per §15.17
-
-2. **seoMeta audit (source app HTML).** Each app's `extractDeckBundle()` should populate `bundle.seoMeta.themeName` via shared `LCSCatalogExport.deriveThemeName(opts)`. If absent, deck.html `<title>` will miss theme keyword. Add helper call at extractDeckBundle return per post-`0e5f1560` canonical pattern.
-
-2b. **bundle-vs-current-app reconciliation (operator ZIP audit).** Step 2 audits SOURCE app HTML; Step 2b audits OPERATOR-GENERATED ZIP. Sample 1 ZIP per app: `unzip -p <zip> deck.html | grep -oE 'seoMeta":\{[^}]*'`. If absent OR `themeName: null` for a deck whose manifest.theme is non-null, halt: operator's bundle predates seoMeta-population fix even though source app is current — typically browser-cache + service-worker staleness. Operator must hard-refresh (Ctrl+Shift+R) and regenerate. If unblocking urgent, recovery via `scripts/publish-cli/rewrite-deck-html-title.js` salvage post-publish (§15.17 — see `ca5d4aa0` for catalog-wide recovery precedent). Origin: 95-deck word-guess + word-scramble wave 2026-05-07 generated ~2h before `0e5f1560`.
-
-3. **canonical-host check.** Confirm `scripts/publish-cli/substitute.js: CANONICAL_URL_BASE = 'https://www.lessoncraftstudio.com'` (www form) per §A.10. Apex breaks embed iframe auto-resize. If defective:
-   - Fix constant (one-line edit)
-   - Run `scripts/publish-cli/rewrite-canonical-host.js` against `/var/www/lcs-media/decks/` to retrofit existing
-   - Cloudflare 5-min TTL refreshes edge automatically
-
-4. **deckend-suggestions strip presence audit.** Sample 1 ZIP per app: `unzip -p <zip> deck.html | grep -c 'lcs-deckend-suggestions'`. Expected: ≥3 hits per ZIP — CSS block + section element + un-hide JS guard. If 0-2 hits, operator's PC ran with stale `catalog-export.js` (Mode A: 1 hit; Mode B: 0 hits). Recovery:
-   - **Pre-publish** (preferred): operator runs `scripts\master-sync.bat` + hard-refresh, regenerates wave
-   - **Post-publish salvage**: `scripts/publish-cli/inject-deck-end-strip.js --locale=<X> --rewrite` against `/var/www/lcs-media/decks/` per §15.17 — handles both modes via removeExistingStripAndGuard + re-inject. Idempotent. Cloudflare 5-min TTL refreshes per §15.8
-
-5. **post-publish spot-check.** Pick 1 sample deck per affected app:
-   - `curl -s <deck-url> | grep -E '<title>|var url='` — title should include theme word; var url= should be www form
-   - `curl -s <deck-url> | grep -c 'lcs-deckend-tile'` should return ≥1
-   - Embed deck on test page; verify auto-resize works (no whitespace gap below content)
-
-**Why at doctrine level.** Operator-attention is load-bearing across runway. Re-diagnosing per wave costs ~1-2 hours of CC + operator round-trips. Pre-checking takes ~5 minutes. Asymmetry justifies the doctrine even at one occurrence per quarter; all three classes have recurred multiple times in close succession.
-
-**Apply.** At the START of any commission involving `publish-bulk` on operator-staged ZIPs, run the 5-step checklist before any other work. Surface findings in Phase 1 inventory; fix BEFORE `--confirm`. Each step has documented canonical solution + recovery script.
-
-Origin: surfaced empirically across 345-en-wave + alphabet-train/prepositions embed-gap commission cycles. Step 4 added 2026-05-09 after 9-app wave (picture-sort/shadow-match/bingo/matching/pattern-worksheet/chart-count/pattern-train/big-small) shipped without populated reels; root-cause Mode A + Mode B stale-emit from operator's PC sync lag. Cross-references: §A.10, §A.13.5, §A.13.7, §15.17, §17.8.5.
-
-### A.14.9 SEO-100pct audit infrastructure (canonical reference)
-
-The SEO-100pct commission (2026-05-19) shipped a reusable audit pair under `scripts/publish-cli/`:
-
-1. **`audit-published-baseline.js`** — DB-side enumeration of all published decks for requested locales. Outputs per-deck JSON + per-locale stratified summary (NULL hashes pre vs post 20260509083000 migration; collision sets; cohort breakdown). Reads `frontend/.env.production` for DATABASE_URL on Hetzner. Read-only.
-
-2. **`audit-deck-html.js`** — per-deck FS audit running 10 invariant checks against `/var/www/lcs-media/decks/<locale>/<slug>/deck.html` + sibling `manifest.json`. Bypasses Cloudflare (direct FS read; no rate limits). Concurrency-limited parallel runner. Outputs per-deck JSON + aggregated markdown summary. Reuses `seo-reconciliation.js` predicates + `count-inbound-surfaces.js`.
-
-**Invariants checked:**
-1. Title uniqueness (SHA-1 normalized; matches DB titleHash)
-2. Description uniqueness (SHA-1 normalized; matches DB descriptionHash)
-3. Canonical URL pattern (www-form + locale + native slug + trailing /)
-4. OG tags ≥14 (7 og:* + 7 twitter:*)
-5. Inbound link count ≥3 (via countInboundSurfacesForDeck)
-6. Locale residue absent (lexicon-on-rendered-HTML; trace findings emit as INFO)
-7. Single h1
-8. Theme keyword in rendered title (when manifest.theme is taxonomy-keyed)
-9. Deckend-suggestions strip ≥3 markers
-10. Canonical-host var url= www-form (embed iframe compatibility)
-
-**Invocation pattern (on Hetzner via plink):**
-```
-node scripts/publish-cli/audit-published-baseline.js --locales=en,es,pt
-node scripts/publish-cli/audit-deck-html.js --locales=en,es,pt --baseline=<latest baseline json> --concurrency=16
-```
-
-Wall-clock at 9,191-deck catalog: baseline 0.6s + per-deck audit 20s. Requires `--max-old-space-size=16384` for full-catalog audit on Node 18.
-
-**Future SEO audits:** invoke these scripts; extend `runChecksForDeck` for new invariant classes; do NOT re-author DB-querying or FS-walking logic.
-
-### A.14.10 Image-SEO retrofit infrastructure (SEO-thumbnail commission, 2026-05-19)
-
-Added beyond the §A.14.9 audit pair:
-
-1. **`og-image-text.js`** — SVG-text builder for og-image right column. DejaVu Sans on Hetzner; manual char-width word-wrap (librsvg lacks `<foreignObject>`).
-2. **`og-image-xmp.js`** — XMP packet builder. dc:title/description/creator/rights/subject + xmpRights:Marked; Sharp `.withXmp(string)` API.
-3. **`regenerate-og-images.js`** — walks all `/var/www/lcs-media/decks/<locale>/<slug>/`, regenerates og-image.png with two-column composite + XMP embed. ~100ms/deck on Hetzner; 9296 decks in ~15min at commission close.
-
-Custom sitemap routes at `frontend/app/sitemap/0.xml/route.ts` + `1.xml/route.ts` emit `<image:image>` entries inline per Google's image sitemap protocol (Next.js MetadataRoute.Sitemap doesn't support image fields).
-
-For future image-SEO work: extend `og-image-text.js` SVG builder or `og-image-xmp.js` field set; re-run `regenerate-og-images.js`. Do NOT touch Sharp pipeline directly.
-
-### A.14.11 Deploy-window stale-chunk failure mode (login/interactive break) + two-layer fix (2026-05-29)
-
-**Failure mode.** Each `deploy.sh` run produces a new BUILD_ID; all `_next/static` hashed chunk filenames change and the atomic swap (`mv RELEASE_DIR .next/standalone`) deletes the previous build's `.next/static` wholesale. A client (or Cloudflare edge) holding pre-deploy HTML then requests a now-missing chunk hash → Next serves its **404 as `text/html`** → browser "Refused to execute script … MIME type ('text/html') is not executable" → page JS never hydrates. Empirically this broke the **sign-in page** so the operator "could not log in" even though the login API itself SUCCEEDED (server out-log showed repeated `Signin attempt …` reaching `app/api/auth/signin/route.ts:124`, which is AFTER all rejection checks; no 500s). **Frequent redeploys (e.g. the thin-page program's per-batch deploys) make this recur and strand the most-active user.** Diagnostic tell: browser console 404 on `/_next/static/chunks/app/%5Blocale%5D/layout-<hash>.js`; the post-login redirect goes to `/<locale>/workspace` (`signin-client.tsx:200,297`), NOT `/admin`.
-
-**Two-layer fix (both creds-free; no Cloudflare API token exists on the box):**
-1. **nginx — never cache a transient 404** (server-side config, NOT in git per §15.7). `/etc/nginx/sites-enabled/lessoncraftstudio` `location /_next/static` now has `proxy_intercept_errors on; error_page 404 = @next_static_miss;` + a named `location @next_static_miss { add_header Cache-Control "no-store" always; return 404; }`. Verified: a missing chunk via CF → `404 + Cache-Control: no-store + cf-cache-status: BYPASS`; real chunks still 200. **NEVER leave an nginx `.bak` inside `sites-enabled/`** — nginx loads it → `duplicate upstream "nextjs"`; keep backups in `/root/nginx-backups/`.
-2. **deploy.sh — retain recent builds' chunks so the 404 never happens.** After the swap (replacing the old `rm -rf .next-old`), snapshot THIS build's pristine chunks to `.next-static-archive/<BUILD_ID>/` (a **SIBLING of `.next/`**, NOT inside it — `next build` defaults `cleanDistDir:true` and wipes all of `.next/` every build, so an archive inside `.next/` is destroyed and retention silently degrades to "0 previous"; the sibling survives. Gitignored via `frontend/.gitignore /.next-static-archive/`; never served by nginx), merge the previous `KEEP-1` generations into the live `.next/standalone/.next/static/` with `cp -rn` (current build wins), prune to `KEEP=5`. Bounded (snapshot taken before merge; live rebuilt pristine each swap → no accumulation). Static is served from disk per request, so no extra pm2 restart is needed. A WARN-only post-deploy step (after blog cache warming, before the Google ping) curls `/en/auth/signin` + `/en`, extracts `/_next/static/*.{js,css}`, and reports any non-200 (never `exit 1` — `set -e` is active and the swap already happened). **Lesson:** anything that must survive across deploys cannot live under `.next/` (cleanDistDir wipes it); verify retention shows "current + N previous" (N≥1) from the 2nd deploy after this fix.
-
-`set -e` safety is load-bearing in the retention block: `${ARCHIVE:?}` guard on every `rm -rf`, `${prev%/}/.` separator-safe copy, explicit self-skip (no mtime-tie hazard), `|| true` on the merge.
-
-**Optional future hardening (not shipped):** `generateBuildId` pinning reduces BUILD_ID churn but NOT content-hash churn (retention still required); a Cloudflare cache-purge step in `deploy.sh` or a CF Cache Rule "don't cache 404 on `/_next/static/*`" — both need an operator-provisioned CF API token.
-
+#### A.14.11 Deploy-window stale-chunk failure mode (login/interactive break) + two-layer fix
+Frequent redeploys churn Next `_next/static` hashes; nginx caching a transient deploy-window 404 → signin-page JS 404s → "can't log in" (the login API itself succeeds). Two-layer fix (both creds-free): (1) **nginx** `/_next/static` returns `no-store` on 404 (`proxy_intercept_errors on` + `@next_static_miss`; NEVER leave a `.bak` in `sites-enabled/`); (2) **deploy.sh** retains recent builds' chunks in `.next-static-archive/<BUILD_ID>/` (a SIBLING of `.next/` — `cleanDistDir` wipes anything inside `.next/`), merged with `cp -rn`, pruned to KEEP=5, with a WARN-only post-deploy signin/static curl. Full nginx block + retention script + `set -e` guards in companion.
 *End of CLAUDE.md.*

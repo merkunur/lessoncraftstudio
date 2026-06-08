@@ -52,8 +52,12 @@ function maxNumInManifest(slug) {
       if (Array.isArray(ex.addends)) ex.addends.forEach(function (a) { if (typeof a === 'number') nums.push(a); });
       if (typeof ex.a === 'number') nums.push(ex.a);
       if (typeof ex.b === 'number') nums.push(ex.b);
+      // addition.html shape: ex.{operandA, operandB} (the two pictured addends)
+      if (typeof ex.operandA === 'number') nums.push(ex.operandA);
+      if (typeof ex.operandB === 'number') nums.push(ex.operandB);
     }
     if (typeof ex.minuend === 'number' && typeof ex.subtrahend === 'number') nums.push(ex.minuend - ex.subtrahend);
+    if (typeof ex.operandA === 'number' && typeof ex.operandB === 'number') nums.push(ex.operandA + ex.operandB); // addition total (the child-seen sum)
     if (typeof ex.sum === 'number') nums.push(ex.sum);
     if (typeof ex.answer === 'number') nums.push(ex.answer);
     if (typeof ex.total === 'number') nums.push(ex.total);

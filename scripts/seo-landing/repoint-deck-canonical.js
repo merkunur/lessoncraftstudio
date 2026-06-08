@@ -22,9 +22,10 @@ const LOCALE = arg('locale', 'en');
 const DRY = argv.includes('--dry-run');
 const HOST = 'https://www.lessoncraftstudio.com';
 const DECKS_ROOT = `/var/www/lcs-media/decks/${LOCALE}`;
-const EN = path.resolve(__dirname, '..', '..', 'frontend', 'content', 'seo-landing', 'en.json');
+// read the per-locale landing content (en.json / de.json / …) so the repoint maps the locale's own slugs.
+const CONTENT = path.resolve(__dirname, '..', '..', 'frontend', 'content', 'seo-landing', LOCALE + '.json');
 
-const data = JSON.parse(fs.readFileSync(EN, 'utf8'));
+const data = JSON.parse(fs.readFileSync(CONTENT, 'utf8'));
 const map = {}; // deckSlug -> landingURL
 for (const l of data.landings) {
   if (TYPES && !TYPES.includes(l.coordinate.type)) continue;

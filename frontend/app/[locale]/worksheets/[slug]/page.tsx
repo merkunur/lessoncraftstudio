@@ -294,7 +294,8 @@ export default function WorksheetLandingPage(
             </div>
           </section>
 
-          {/* related carousel */}
+          {/* related carousel — gated: omit the section entirely when there are no honest same-(type,mode) siblings (e.g. the first landing of a new mode), never render a bare heading over an empty grid */}
+          {l.carousel.length > 0 && (
           <section className="mb-12">
             <h2 className="font-display font-bold text-xl text-ink-900 mb-5">{ui.moreToTry}</h2>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -315,6 +316,7 @@ export default function WorksheetLandingPage(
               })}
             </div>
           </section>
+          )}
 
           {/* reserved app block (Ruling #7 — wired to nothing) */}
           <section className="mb-4">

@@ -71,7 +71,7 @@ function loadLandingMap(locale) {
   var data = JSON.parse(fs.readFileSync(p, 'utf8'));
   var map = {};
   (data.landings || []).forEach(function (l) {
-    map[l.slug] = { title: l.title || l.h1 || null, levelName: landingLevelName(locale, l) };
+    map[l.slug] = { title: l.title || l.h1 || null, levelName: landingLevelName(locale, l), metaDescription: l.metaDescription || null };
   });
   return map;
 }
@@ -195,6 +195,7 @@ async function processOneDeck(rootDir, locale, entry, landingMap) {
   if (landingMap && landingMap[slug]) {
     if (landingMap[slug].title) title = landingMap[slug].title;
     if (landingMap[slug].levelName) levelName = landingMap[slug].levelName;
+    if (landingMap[slug].metaDescription) description = landingMap[slug].metaDescription;
   }
 
   // Build XMP packet.

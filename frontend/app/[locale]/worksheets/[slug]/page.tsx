@@ -29,6 +29,7 @@ import {
 const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   en: { jsonld: 'Common Core State Standards', chip: 'Common Core' },
   de: { jsonld: 'Bildungsstandards der Kultusministerkonferenz (KMK)', chip: 'Lehrplan' },
+  es: { jsonld: 'Nueva Escuela Mexicana (SEP)', chip: 'Nueva Escuela Mexicana' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -51,6 +52,13 @@ const UI_STRINGS: Record<string, {
     comingSoon: '', // de: no dashed framework chip on strand-only landings
     madeWith: (t) => `Erstellt mit dem ${t}-Generator`, typeCrumb: (e) => e.replace(/^Arbeitsblatt:\s*/, ''),
     playAria: (h1) => `${h1} spielen`, previewAlt: (h1) => `Vorschau: ${h1}`,
+  },
+  es: {
+    worksheets: 'Hojas de trabajo', playInteractive: 'Jugar', downloadPdf: 'Descargar PDF', answerKey: 'Solución',
+    moreToTry: 'Más hojas de trabajo', tryInteractive: 'Pruébalo — interactivo', makerSoon: 'Generador próximamente.',
+    comingSoon: '', // es (MX): no dashed framework chip on strand-only landings (decided per coordinate at the es ledger)
+    madeWith: (t) => `Hecho con el generador de ${t}`, typeCrumb: (e) => e,
+    playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
   },
 };
 
@@ -84,9 +92,11 @@ export async function generateMetadata(
   const l = getLandingBySlug(params.locale, params.slug);
   if (!l) return {};
   const canonical = canonicalUrl(localePath(params.locale, 'worksheets', l.slug));
-  const description = metaDescription(l);
+  // Gold per-deck meta when authored (demand-aware, not a p1 truncation), else truncated p1.
+  const description = l.metaDescription || metaDescription(l);
   // Root layout's title template appends " · LessonCraftStudio" — don't double-brand.
-  const title = l.h1;
+  // Gold per-deck <title> when present (e.g. MX "hojas de trabajo"-anchored), else the h1.
+  const title = l.title || l.h1;
 
   // Cross-locale hreflang: this coordinate + its siblings in other locales (matched on type+mode+theme,
   // NOT level — level is re-derived per locale). buildHreflangAlternates owns the code map (pt→pt-BR) + x-default→en.
@@ -148,6 +158,10 @@ export default function WorksheetLandingPage(
     'vorschule': { chip: 'Vorschule', schema: 'Vorschule', age: '5-6' },
     '1-klasse': { chip: '1. Klasse', schema: '1. Klasse', age: '6-7' },
     '2-klasse': { chip: '2. Klasse', schema: '2. Klasse', age: '7-8' },
+    // es MX bands (Mexican Spanish): Educación Preescolar (por años) + primer/segundo grado de primaria.
+    'preescolar': { chip: 'Preescolar (5 años)', schema: 'Educación Preescolar', age: '5-6' },
+    'primer-grado': { chip: 'Primer grado', schema: 'Primer grado de primaria', age: '6-7' },
+    'segundo-grado': { chip: 'Segundo grado', schema: 'Segundo grado de primaria', age: '7-8' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[k]).filter(Boolean);

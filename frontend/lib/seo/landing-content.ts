@@ -13,6 +13,7 @@
  */
 import enData from '@/content/seo-landing/en.json';
 import deData from '@/content/seo-landing/de.json';
+import esData from '@/content/seo-landing/es.json';
 import { CANONICAL_HOST } from '@/lib/seo/url';
 
 export interface LandingCarouselItem { label: string; href: string }
@@ -33,6 +34,10 @@ export interface Landing {
    * The route renders a range chip + array educationalLevel + range typicalAgeRange.
    */
   levels?: string[];
+  /** Gold per-deck <title> to the winnable query (distinct from the on-page h1); falls back to h1 when absent (en/de single-band entries unchanged). */
+  title?: string;
+  /** Gold per-deck meta description (authored, demand-aware — NOT a p1 truncation); falls back to truncated p1 when absent. */
+  metaDescription?: string;
   p1: string; p2: string; p3: string;
   canonicalDeckSlug: string;
   collapseSiblings?: string[];
@@ -44,6 +49,7 @@ interface LandingFile { landings: Landing[] }
 const FILES: Record<string, LandingFile> = {
   en: enData as unknown as LandingFile,
   de: deData as unknown as LandingFile,
+  es: esData as unknown as LandingFile,
 };
 
 export function getLandingLocales(): string[] {

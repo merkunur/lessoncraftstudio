@@ -1,0 +1,23 @@
+{
+  "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
+  "landings": [
+    {
+      "slug": "suma-buscar-sumando-animales-0178",
+      "variantShape": "singleton",
+      "coordinate": { "type": "addition", "mode": "find-addend", "theme": "animals", "level": "primer-grado" },
+      "levels": ["preescolar", "primer-grado"],
+      "title": "Hojas de Trabajo de Sumas con Animales: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con animales para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Animales: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": ["murciélago", "tortuga", "orangután", "pingüino", "caballo", "gaviota", "animales", "preescolar", "primer grado"],
+      "p1": "En estas sumas con animales tu pequeño practica una idea muy importante de las matemáticas: encontrar el número que falta. En cada ejercicio aparece una suma a la que le falta un número, como 1 + ? = 2, y el niño descubre cuál es ese número que completa la operación. Son seis ejercicios, todos con sumas hasta el 10, así que el reto es justo del tamaño de manitas que apenas empiezan a sumar.",
+      "p2": "Cada suma viene acompañada de un animal: un murciélago, una tortuga, un orangután, un pingüino, un caballo y una gaviota. Los animales no son adorno; son el gancho que mantiene a los niños mirando, contando y queriendo seguir. Verás dos ejercicios parecidos (el murciélago y la tortuga, ambos con 1 + ? = 2): son distintos a propósito, para que el niño note que la misma idea aparece en lugares diferentes. ¿Cómo se aprende aquí? Con la idea de parte y todo: si conozco una parte y el total, puedo contar hacia adelante hasta llegar. Si tu hijo se atora, cuéntenlo juntos en voz alta con los dedos, sin prisa y sin regañar.",
+      "p3": "En casa o en el salón, puedes imprimir la hoja o usar la versión interactiva en línea, gratis y sin necesidad de crear cuenta. Cuando estos ejercicios le salgan con confianza, el siguiente paso natural es sumar hasta el 20 y empezar con restas sencillas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-animales-0178",
+      "carousel": []
+    }
+  ]
+}

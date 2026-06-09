@@ -37,15 +37,43 @@ function parseArgs(argv) {
     locales: ['en', 'es', 'pt'],
     decksRoot: DEFAULT_DECKS_DIR,
     sample: 0,
-    dryRun: false
+    dryRun: false,
+    landingLocale: null
   };
   argv.slice(2).forEach(function (a) {
     if (a.indexOf('--locales=') === 0) out.locales = a.slice('--locales='.length).split(',').filter(Boolean);
     else if (a.indexOf('--decks-root=') === 0) out.decksRoot = a.slice('--decks-root='.length);
     else if (a.indexOf('--sample=') === 0) out.sample = parseInt(a.slice('--sample='.length), 10) || 0;
+    else if (a.indexOf('--landing-locale=') === 0) out.landingLocale = a.slice('--landing-locale='.length) || null;
     else if (a === '--dry-run') out.dryRun = true;
   });
+  if (out.landingLocale) out.locales = [out.landingLocale];
   return out;
+}
+
+// Landing-aware mode (--landing-locale): source title + honest grade label from the
+// landing entry (frontend/content/seo-landing/<loc>.json) instead of deck.html title
+// + age_range-derived level. Fixes the SERP-thumbnail level/title to match the
+// landing's honest re-graded/spanned grade (e.g. es "Preescolar (5 años)–Primer
+// grado", not the age_range "Kínder"). Only landed slugs are regenerated.
+var LANDING_LEVELS = {
+  es: { 'preescolar': 'Preescolar (5 años)', 'primer-grado': 'Primer grado', 'segundo-grado': 'Segundo grado' }
+};
+function landingLevelName(locale, l) {
+  var map = LANDING_LEVELS[locale] || {};
+  var keys = (l.levels && l.levels.length) ? l.levels : [l.coordinate && l.coordinate.level];
+  var labels = keys.map(function (k) { return map[k]; }).filter(Boolean);
+  if (!labels.length) return null;
+  return labels.length > 1 ? labels[0] + '–' + labels[labels.length - 1] : labels[0];
+}
+function loadLandingMap(locale) {
+  var p = path.join(__dirname, '..', '..', 'frontend', 'content', 'seo-landing', locale + '.json');
+  var data = JSON.parse(fs.readFileSync(p, 'utf8'));
+  var map = {};
+  (data.landings || []).forEach(function (l) {
+    map[l.slug] = { title: l.title || l.h1 || null, levelName: landingLevelName(locale, l) };
+  });
+  return map;
 }
 
 function walkDecks(rootDir, locale) {
@@ -137,7 +165,7 @@ function extractDescriptionFromDeckHtml(versionDir) {
   return null;
 }
 
-async function processOneDeck(rootDir, locale, entry) {
+async function processOneDeck(rootDir, locale, entry, landingMap) {
   var versionDir = entry.versionDir;
   var slug = entry.slug;
 
@@ -160,6 +188,14 @@ async function processOneDeck(rootDir, locale, entry) {
   // canonical state); this guarantees XMP packet matches what Google sees.
   var title = extractTitleFromDeckHtml(versionDir);
   var description = extractDescriptionFromDeckHtml(versionDir);
+  var levelName = ctx.levelName;
+
+  // Landing-aware override: for landed decks, the SERP-thumbnail title + level must
+  // match the LANDING's honest grade (not the deck.html title / age_range level).
+  if (landingMap && landingMap[slug]) {
+    if (landingMap[slug].title) title = landingMap[slug].title;
+    if (landingMap[slug].levelName) levelName = landingMap[slug].levelName;
+  }
 
   // Build XMP packet.
   var xmpPacket = ogImageXmp.buildXmpPacket({
@@ -167,7 +203,7 @@ async function processOneDeck(rootDir, locale, entry) {
     description: description,
     exerciseType: ctx.exerciseTypeName,
     themeName: ctx.themeName,
-    levelName: ctx.levelName,
+    levelName: levelName,
     locale: locale
   });
 
@@ -175,7 +211,7 @@ async function processOneDeck(rootDir, locale, entry) {
   var ogBuffer = await ogImage.derive(thumbnailBuffer, {
     title: title,
     themeName: ctx.themeName,
-    levelName: ctx.levelName,
+    levelName: levelName,
     locale: locale,
     xmpPacket: xmpPacket
   });
@@ -200,14 +236,20 @@ async function main() {
   for (var li = 0; li < args.locales.length; li++) {
     var loc = args.locales[li];
     var entries = walkDecks(args.decksRoot, loc);
+    var landingMap = null;
+    if (args.landingLocale) {
+      landingMap = loadLandingMap(loc);
+      entries = entries.filter(function (e) { return landingMap[e.slug]; });
+      console.log('[regen-og] ' + loc + ': landing-aware mode — ' + Object.keys(landingMap).length + ' landings, ' + entries.length + ' matched decks');
+    }
     if (args.sample) entries = entries.slice(0, args.sample);
-    console.log('[regen-og] ' + loc + ': ' + entries.length + ' decks');
+    if (!args.landingLocale) console.log('[regen-og] ' + loc + ': ' + entries.length + ' decks');
 
     for (var i = 0; i < entries.length; i++) {
       var entry = entries[i];
       if (args.dryRun) { totalOk++; continue; }
       try {
-        var result = await processOneDeck(args.decksRoot, loc, entry);
+        var result = await processOneDeck(args.decksRoot, loc, entry, landingMap);
         if (result.ok) {
           totalOk++;
         } else {

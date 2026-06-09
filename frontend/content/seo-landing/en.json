@@ -42,7 +42,8 @@
           "label": "Find and Count with Animals",
           "href": "find-and-count-animals"
         }
-      ]
+      ],
+      "standard": "1.OA.D.8"
     },
     {
       "slug": "addition-image-image-4th-of-july",
@@ -85,7 +86,8 @@
           "label": "Addition with Christmas",
           "href": "addition-image-image-christmas"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-accessories",
@@ -128,7 +130,8 @@
           "label": "Addition with Classroom Objects",
           "href": "addition-image-image-classroom"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-animals-kindergarten",
@@ -175,7 +178,8 @@
       "collapseSiblings": [
         "addition-image-image",
         "addition-image-image-animals"
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-around-the-house",
@@ -218,7 +222,8 @@
           "label": "Addition with Desserts and Sweets",
           "href": "addition-image-image-desserts-and-sweets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-at-the-supermarket",
@@ -261,7 +266,8 @@
           "label": "Addition with Dinosaurs",
           "href": "addition-image-image-dinosaurs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-bakery",
@@ -304,7 +310,8 @@
           "label": "Addition with Easter",
           "href": "addition-image-image-easter"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-beach",
@@ -347,7 +354,8 @@
           "label": "Addition with Farm Animals",
           "href": "addition-image-image-farm-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-birds",
@@ -390,7 +398,8 @@
           "label": "Addition with Flowers",
           "href": "addition-image-image-flowers"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-birds-2",
@@ -433,7 +442,8 @@
           "label": "Addition with Forest Creatures",
           "href": "addition-image-image-forest-creatures"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-breakfast",
@@ -476,7 +486,8 @@
           "label": "Addition with Fruits",
           "href": "addition-image-image-fruits"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-camping",
@@ -519,7 +530,8 @@
           "label": "Addition with Furniture",
           "href": "addition-image-image-furniture"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-christmas",
@@ -562,7 +574,8 @@
           "label": "Addition with Hospital Things",
           "href": "addition-image-image-hospital"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-classroom",
@@ -605,7 +618,8 @@
           "label": "Addition with Insects and Bugs",
           "href": "addition-image-image-insects-and-bugs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-clothing",
@@ -648,7 +662,8 @@
           "label": "Addition with Kitchen Tools",
           "href": "addition-image-image-kitchen-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-desserts-and-sweets",
@@ -691,7 +706,8 @@
           "label": "Addition with Everyday Objects",
           "href": "addition-image-image-miscellaneous"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-dinosaurs",
@@ -734,7 +750,8 @@
           "label": "Addition with Musical Instruments",
           "href": "addition-image-image-music"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-easter",
@@ -777,7 +794,8 @@
           "label": "Addition with Community Helpers",
           "href": "addition-image-image-occupations"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-farm-animals",
@@ -820,7 +838,8 @@
           "label": "Addition with Ocean Life",
           "href": "addition-image-image-ocean-life"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-flowers",
@@ -863,7 +882,8 @@
           "label": "Addition with Pets",
           "href": "addition-image-image-pets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-forest-creatures",
@@ -906,7 +926,8 @@
           "label": "Addition with Post Office",
           "href": "addition-image-image-post-office"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-fruits",
@@ -949,7 +970,8 @@
           "label": "Addition with Reptiles and Amphibians",
           "href": "addition-image-image-reptiles-and-amphibians"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-furniture",
@@ -992,7 +1014,8 @@
           "label": "Addition with Shapes",
           "href": "addition-image-image-shapes"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-hospital",
@@ -1035,7 +1058,8 @@
           "label": "Addition with Space",
           "href": "addition-image-image-space"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-insects-and-bugs",
@@ -1078,7 +1102,8 @@
           "label": "Addition with Thanksgiving",
           "href": "addition-image-image-thanksgiving"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-kitchen-tools",
@@ -1121,7 +1146,8 @@
           "label": "Addition with Things That Fly",
           "href": "addition-image-image-things-that-fly"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-miscellaneous",
@@ -1164,7 +1190,8 @@
           "label": "Addition with Tools",
           "href": "addition-image-image-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-music",
@@ -1207,7 +1234,8 @@
           "label": "Addition with Toys",
           "href": "addition-image-image-toys"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-occupations",
@@ -1250,7 +1278,8 @@
           "label": "Addition with Trees",
           "href": "addition-image-image-tree"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-ocean-life",
@@ -1293,7 +1322,8 @@
           "label": "Addition with Valentine Pictures",
           "href": "addition-image-image-valentine-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-pets",
@@ -1336,7 +1366,8 @@
           "label": "Addition with Vegetables",
           "href": "addition-image-image-vegetables"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-post-office",
@@ -1379,7 +1410,8 @@
           "label": "Addition with Vehicles",
           "href": "addition-image-image-vehicles"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-reptiles-and-amphibians",
@@ -1422,7 +1454,8 @@
           "label": "Addition with Zoo Animals",
           "href": "addition-image-image-zoo-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-shapes",
@@ -1465,7 +1498,8 @@
           "label": "Addition with Fourth of July Things",
           "href": "addition-image-image-4th-of-july"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-space",
@@ -1508,7 +1542,8 @@
           "label": "Addition with Accessories",
           "href": "addition-image-image-accessories"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-thanksgiving",
@@ -1551,7 +1586,8 @@
           "label": "Addition with Animals",
           "href": "addition-image-image-animals-kindergarten"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-things-that-fly",
@@ -1594,7 +1630,8 @@
           "label": "Addition with Household Things",
           "href": "addition-image-image-around-the-house"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-tools",
@@ -1637,7 +1674,8 @@
           "label": "Addition with Supermarket Things",
           "href": "addition-image-image-at-the-supermarket"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-toys",
@@ -1680,7 +1718,8 @@
           "label": "Addition with Bakery Treats",
           "href": "addition-image-image-bakery"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-tree",
@@ -1723,7 +1762,8 @@
           "label": "Addition with Beach Things",
           "href": "addition-image-image-beach"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-valentine-bw",
@@ -1766,7 +1806,8 @@
           "label": "Addition with Birds",
           "href": "addition-image-image-birds"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-vegetables",
@@ -1809,7 +1850,8 @@
           "label": "Addition with More Birds",
           "href": "addition-image-image-birds-2"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-vehicles",
@@ -1852,7 +1894,8 @@
           "label": "Addition with Breakfast",
           "href": "addition-image-image-breakfast"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-image-zoo-animals",
@@ -1895,7 +1938,8 @@
           "label": "Addition with Camping Gear",
           "href": "addition-image-image-camping"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-4th-of-july",
@@ -1938,7 +1982,8 @@
           "label": "Addition with Classroom Objects",
           "href": "addition-image-number-classroom"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-accessories",
@@ -1981,7 +2026,8 @@
           "label": "Addition with Clothes",
           "href": "addition-image-number-clothing"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-animals",
@@ -2024,7 +2070,8 @@
           "label": "Addition with Desserts and Sweets",
           "href": "addition-image-number-desserts-and-sweets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-around-the-house",
@@ -2067,7 +2114,8 @@
           "label": "Addition with Dinosaurs",
           "href": "addition-image-number-dinosaurs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-at-the-supermarket",
@@ -2110,7 +2158,8 @@
           "label": "Addition with Easter",
           "href": "addition-image-number-easter"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-bakery",
@@ -2153,7 +2202,8 @@
           "label": "Addition with Faces (Black & White)",
           "href": "addition-image-number-faces-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-beach",
@@ -2196,7 +2246,8 @@
           "label": "Addition with Farm Animals",
           "href": "addition-image-number-farm-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-birds",
@@ -2239,7 +2290,8 @@
           "label": "Addition with Flowers",
           "href": "addition-image-number-flowers"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-breakfast",
@@ -2282,7 +2334,8 @@
           "label": "Addition with Forest Creatures",
           "href": "addition-image-number-forest-creatures"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-camping",
@@ -2325,7 +2378,8 @@
           "label": "Addition with Fruits",
           "href": "addition-image-number-fruits"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-christmas",
@@ -2368,7 +2422,8 @@
           "label": "Addition with Furniture",
           "href": "addition-image-number-furniture"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-classroom",
@@ -2411,7 +2466,8 @@
           "label": "Addition with Hospital Things",
           "href": "addition-image-number-hospital"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-clothing",
@@ -2454,7 +2510,8 @@
           "label": "Addition with Household Things (Black & White)",
           "href": "addition-image-number-household-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-desserts-and-sweets",
@@ -2497,7 +2554,8 @@
           "label": "Addition with Insects and Bugs",
           "href": "addition-image-number-insects-and-bugs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-dinosaurs",
@@ -2540,7 +2598,8 @@
           "label": "Addition with Kitchen Things (Black & White)",
           "href": "addition-image-number-kitchen-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-easter",
@@ -2583,7 +2642,8 @@
           "label": "Addition with Kitchen Tools",
           "href": "addition-image-number-kitchen-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-faces-bw",
@@ -2626,7 +2686,8 @@
           "label": "Addition with Everyday Objects",
           "href": "addition-image-number-miscellaneous"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-farm-animals",
@@ -2669,7 +2730,8 @@
           "label": "Addition with Musical Instruments",
           "href": "addition-image-number-music"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-flowers",
@@ -2712,7 +2774,8 @@
           "label": "Addition with Nature (Black & White)",
           "href": "addition-image-number-nature-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-forest-creatures",
@@ -2755,7 +2818,8 @@
           "label": "Addition with Everyday Objects (Black & White)",
           "href": "addition-image-number-objects-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-fruits",
@@ -2798,7 +2862,8 @@
           "label": "Addition with Community Helpers",
           "href": "addition-image-number-occupations"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-furniture",
@@ -2841,7 +2906,8 @@
           "label": "Addition with Ocean Life",
           "href": "addition-image-number-ocean-life"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-hospital",
@@ -2884,7 +2950,8 @@
           "label": "Addition with Pets",
           "href": "addition-image-number-pets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-household-bw",
@@ -2927,7 +2994,8 @@
           "label": "Addition with Post Office",
           "href": "addition-image-number-post-office"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-insects-and-bugs",
@@ -2970,7 +3038,8 @@
           "label": "Addition with Reptiles and Amphibians",
           "href": "addition-image-number-reptiles-and-amphibians"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-kitchen-bw",
@@ -3013,7 +3082,8 @@
           "label": "Addition with Sea Creatures (Black & White)",
           "href": "addition-image-number-sea-life-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-kitchen-tools",
@@ -3056,7 +3126,8 @@
           "label": "Addition with Shapes",
           "href": "addition-image-number-shapes"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-miscellaneous",
@@ -3099,7 +3170,8 @@
           "label": "Addition with Space",
           "href": "addition-image-number-space"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-music",
@@ -3142,7 +3214,8 @@
           "label": "Addition with Sports Gear (Black & White)",
           "href": "addition-image-number-sports-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-nature-bw",
@@ -3185,7 +3258,8 @@
           "label": "Addition with Thanksgiving",
           "href": "addition-image-number-thanksgiving"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-objects-bw",
@@ -3228,7 +3302,8 @@
           "label": "Addition with Things That Fly",
           "href": "addition-image-number-things-that-fly"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-occupations",
@@ -3271,7 +3346,8 @@
           "label": "Addition with Tools",
           "href": "addition-image-number-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-ocean-life",
@@ -3314,7 +3390,8 @@
           "label": "Addition with Toys",
           "href": "addition-image-number-toys"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-pets",
@@ -3357,7 +3434,8 @@
           "label": "Addition with Travel and Holidays (Black & White)",
           "href": "addition-image-number-travel-and-holiday-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-post-office",
@@ -3400,7 +3478,8 @@
           "label": "Addition with Trees",
           "href": "addition-image-number-tree"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-reptiles-and-amphibians",
@@ -3443,7 +3522,8 @@
           "label": "Addition with Valentine Pictures (Black & White)",
           "href": "addition-image-number-valentine-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-sea-life-bw",
@@ -3486,7 +3566,8 @@
           "label": "Addition with Vegetables",
           "href": "addition-image-number-vegetables"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-shapes",
@@ -3529,7 +3610,8 @@
           "label": "Addition with Vehicles",
           "href": "addition-image-number-vehicles"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-space",
@@ -3572,7 +3654,8 @@
           "label": "Addition with Zoo Animals",
           "href": "addition-image-number-zoo-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-sports-bw",
@@ -3615,7 +3698,8 @@
           "label": "Addition with Fourth of July Things",
           "href": "addition-image-number-4th-of-july"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-thanksgiving",
@@ -3658,7 +3742,8 @@
           "label": "Addition with Accessories",
           "href": "addition-image-number-accessories"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-things-that-fly",
@@ -3701,7 +3786,8 @@
           "label": "Addition with Animals",
           "href": "addition-image-number-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-tools",
@@ -3744,7 +3830,8 @@
           "label": "Addition with Household Things",
           "href": "addition-image-number-around-the-house"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-toys",
@@ -3787,7 +3874,8 @@
           "label": "Addition with Supermarket Things",
           "href": "addition-image-number-at-the-supermarket"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-travel-and-holiday-bw",
@@ -3830,7 +3918,8 @@
           "label": "Addition with Bakery Treats",
           "href": "addition-image-number-bakery"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-tree",
@@ -3873,7 +3962,8 @@
           "label": "Addition with Beach Things",
           "href": "addition-image-number-beach"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-valentine-bw",
@@ -3916,7 +4006,8 @@
           "label": "Addition with Birds",
           "href": "addition-image-number-birds"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-vegetables",
@@ -3959,7 +4050,8 @@
           "label": "Addition with Breakfast",
           "href": "addition-image-number-breakfast"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-vehicles",
@@ -4002,7 +4094,8 @@
           "label": "Addition with Camping Gear",
           "href": "addition-image-number-camping"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-image-number-zoo-animals",
@@ -4045,7 +4138,8 @@
           "label": "Addition with Christmas",
           "href": "addition-image-number-christmas"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-4th-of-july",
@@ -4088,7 +4182,8 @@
           "label": "Addition with Classroom Objects",
           "href": "addition-mixed-classroom"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-accessories",
@@ -4131,7 +4226,8 @@
           "label": "Addition with Clothes",
           "href": "addition-mixed-clothing"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-animals",
@@ -4174,7 +4270,8 @@
           "label": "Addition with Desserts and Sweets",
           "href": "addition-mixed-desserts-and-sweets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-apparel-bw",
@@ -4217,7 +4314,8 @@
           "label": "Addition with Dinosaurs",
           "href": "addition-mixed-dinosaurs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-around-the-house",
@@ -4260,7 +4358,8 @@
           "label": "Addition with Easter",
           "href": "addition-mixed-easter"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-at-the-supermarket",
@@ -4303,7 +4402,8 @@
           "label": "Addition with School Things (Black & White)",
           "href": "addition-mixed-education-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-bakery",
@@ -4346,7 +4446,8 @@
           "label": "Addition with Faces (Black & White)",
           "href": "addition-mixed-faces-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-beach",
@@ -4389,7 +4490,8 @@
           "label": "Addition with Farm Animals",
           "href": "addition-mixed-farm-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-birds-kindergarten",
@@ -4436,7 +4538,8 @@
       "collapseSiblings": [
         "addition-mixed-birds",
         "addition-mixed-birds-2"
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-breakfast",
@@ -4479,7 +4582,8 @@
           "label": "Addition with Flowers",
           "href": "addition-mixed-flowers"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-christmas",
@@ -4522,7 +4626,8 @@
           "label": "Addition with Forest Creatures",
           "href": "addition-mixed-forest-creatures"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-classroom",
@@ -4565,7 +4670,8 @@
           "label": "Addition with Fruits",
           "href": "addition-mixed-fruits"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-clothing",
@@ -4608,7 +4714,8 @@
           "label": "Addition with Furniture",
           "href": "addition-mixed-furniture"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-desserts-and-sweets",
@@ -4651,7 +4758,8 @@
           "label": "Addition with Home Things (Black & White)",
           "href": "addition-mixed-home-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-dinosaurs",
@@ -4694,7 +4802,8 @@
           "label": "Addition with Hospital Things",
           "href": "addition-mixed-hospital"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-easter",
@@ -4737,7 +4846,8 @@
           "label": "Addition with Household Things (Black & White)",
           "href": "addition-mixed-household-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-education-bw",
@@ -4780,7 +4890,8 @@
           "label": "Addition with Insects and Bugs",
           "href": "addition-mixed-insects-and-bugs"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-faces-bw",
@@ -4823,7 +4934,8 @@
           "label": "Addition with Kitchen Tools",
           "href": "addition-mixed-kitchen-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-farm-animals",
@@ -4866,7 +4978,8 @@
           "label": "Addition with Everyday Objects",
           "href": "addition-mixed-miscellaneous"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-farm-bw",
@@ -4909,7 +5022,8 @@
           "label": "Addition with Musical Instruments",
           "href": "addition-mixed-music"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-flowers",
@@ -4952,7 +5066,8 @@
           "label": "Addition with Nature (Black & White)",
           "href": "addition-mixed-nature-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-forest-creatures",
@@ -4995,7 +5110,8 @@
           "label": "Addition with Everyday Objects (Black & White)",
           "href": "addition-mixed-objects-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-fruits",
@@ -5038,7 +5154,8 @@
           "label": "Addition with Community Helpers",
           "href": "addition-mixed-occupations"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-furniture",
@@ -5081,7 +5198,8 @@
           "label": "Addition with Ocean Life",
           "href": "addition-mixed-ocean-life"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-home-bw",
@@ -5124,7 +5242,8 @@
           "label": "Addition with Pets",
           "href": "addition-mixed-pets"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-hospital",
@@ -5167,7 +5286,8 @@
           "label": "Addition with Post Office",
           "href": "addition-mixed-post-office"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-household-bw",
@@ -5210,7 +5330,8 @@
           "label": "Addition with Reptiles and Amphibians",
           "href": "addition-mixed-reptiles-and-amphibians"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-insects-and-bugs",
@@ -5253,7 +5374,8 @@
           "label": "Addition with Sea Creatures (Black & White)",
           "href": "addition-mixed-sea-life-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-kitchen-tools",
@@ -5296,7 +5418,8 @@
           "label": "Addition with Shapes",
           "href": "addition-mixed-shapes"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-miscellaneous",
@@ -5339,7 +5462,8 @@
           "label": "Addition with Space",
           "href": "addition-mixed-space"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-music",
@@ -5382,7 +5506,8 @@
           "label": "Addition with Thanksgiving",
           "href": "addition-mixed-thanksgiving"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-nature-bw",
@@ -5425,7 +5550,8 @@
           "label": "Addition with Things That Fly",
           "href": "addition-mixed-things-that-fly"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-objects-bw",
@@ -5468,7 +5594,8 @@
           "label": "Addition with Tools",
           "href": "addition-mixed-tools"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-occupations",
@@ -5511,7 +5638,8 @@
           "label": "Addition with Toys",
           "href": "addition-mixed-toys"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-ocean-life",
@@ -5554,7 +5682,8 @@
           "label": "Addition with Trees",
           "href": "addition-mixed-tree"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-pets",
@@ -5597,7 +5726,8 @@
           "label": "Addition with Valentine Pictures (Black & White)",
           "href": "addition-mixed-valentine-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-post-office",
@@ -5640,7 +5770,8 @@
           "label": "Addition with Vegetables",
           "href": "addition-mixed-vegetables"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-reptiles-and-amphibians",
@@ -5683,7 +5814,8 @@
           "label": "Addition with Vehicles",
           "href": "addition-mixed-vehicles"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-sea-life-bw",
@@ -5726,7 +5858,8 @@
           "label": "Addition with Zoo Animals",
           "href": "addition-mixed-zoo-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-shapes",
@@ -5769,7 +5902,8 @@
           "label": "Addition with Fourth of July Things",
           "href": "addition-mixed-4th-of-july"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-space",
@@ -5812,7 +5946,8 @@
           "label": "Addition with Accessories",
           "href": "addition-mixed-accessories"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-thanksgiving",
@@ -5855,7 +5990,8 @@
           "label": "Addition with Animals",
           "href": "addition-mixed-animals"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-things-that-fly",
@@ -5898,7 +6034,8 @@
           "label": "Addition with Clothes (Black & White)",
           "href": "addition-mixed-apparel-bw"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-tools",
@@ -5941,7 +6078,8 @@
           "label": "Addition with Household Things",
           "href": "addition-mixed-around-the-house"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-toys",
@@ -5984,7 +6122,8 @@
           "label": "Addition with Supermarket Things",
           "href": "addition-mixed-at-the-supermarket"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-tree",
@@ -6027,7 +6166,8 @@
           "label": "Addition with Bakery Treats",
           "href": "addition-mixed-bakery"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-valentine-bw",
@@ -6070,7 +6210,8 @@
           "label": "Addition with Beach Things",
           "href": "addition-mixed-beach"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-vegetables",
@@ -6113,7 +6254,8 @@
           "label": "Addition with Birds",
           "href": "addition-mixed-birds-kindergarten"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-vehicles",
@@ -6156,7 +6298,8 @@
           "label": "Addition with Breakfast",
           "href": "addition-mixed-breakfast"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "addition-mixed-zoo-animals",
@@ -6199,7 +6342,8 @@
           "label": "Addition with Christmas",
           "href": "addition-mixed-christmas"
         }
-      ]
+      ],
+      "standard": "K.OA.A.2"
     },
     {
       "slug": "chart-count-4th-of-july",

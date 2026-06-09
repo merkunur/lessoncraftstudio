@@ -2305,7 +2305,7 @@
         "primer-grado"
       ],
       "title": "Hojas de Trabajo de Sumas con el Salón de Clases",
-      "metaDescription": "6 hojas de trabajo de sumas con útiles del salón de clases para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "metaDescription": "Encuentra el número que falta: 6 sumas hasta 10 con tema de salón de clases. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
       "eyebrow": "Hoja de trabajo de sumas",
       "h1": "Sumas con el Salón de Clases: Encuentra el Número que Falta",
       "strand": "Saberes y Pensamiento Científico — Matemáticas",
@@ -19102,6 +19102,1945 @@
         {
           "label": "Resta con Árboles",
           "href": "resta-mixto-arboles-edb9"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-animales-36bd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "animals",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Animales",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de animales. Para segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Animales",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "23 − 14",
+        "14 − 10",
+        "2 + 8",
+        "9 − 3",
+        "5 + 3",
+        "Animales",
+        "Segundo grado de primaria"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla presenta una operación que hay que resolver: el reto está en pensar con cuidado cada resultado hasta completar el tablero. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones.",
+      "p2": "El tablero mezcla sumas y restas para que el niño cambie de estrategia en cada casilla. Por ejemplo, resuelve restas como 23 − 14 = 9, donde aparece un número de dos cifras, junto con 8 − 3 = 5, 9 − 3 = 6, 6 − 3 = 3 y 14 − 10 = 4; y también sumas como 2 + 8 = 10, 5 + 2 = 7, 5 + 3 = 8 y 1 + 1 = 2. Un detalle importante: el tema de animales es solo decorativo, en el borde y el fondo. No se cuentan animales; lo que se hace es resolver cada operación y escribir el resultado correcto.",
+      "p3": "Trabajar con un número de dos cifras como el 23 ayuda a afianzar el valor posicional —decenas y unidades— y el cálculo de sumas y restas hasta 100, contenidos propios del segundo grado de primaria (7 a 8 años). La actividad está alineada con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas). Puedes usarla en el salón o en casa: imprímela como hoja para resolver con lápiz o juégala en línea, las dos opciones son totalmente gratuitas y sin necesidad de registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, busca otros rompecabezas con restas que requieran reagrupar o con números un poco mayores, para seguir fortaleciendo la confianza al sumar y restar hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-animales-36bd",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-7d10"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-4-de-julio-6de5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "4th_of_july",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: 4 de Julio",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 con tema del 4 de Julio para segundo grado (7-8 años): resuelve 9 operaciones mixtas. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "4 de Julio",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu hija o hijo de segundo grado de primaria debe resolver una por una. Las decoraciones del 4 de Julio que rodean el tablero son solo eso: un marco festivo y alegre. No se cuentan ni se suman; nadie tiene que contar banderas, gorros ni estrellas. El trabajo real está en cada casilla, donde el niño lee la operación, piensa el resultado y escribe la respuesta correcta.",
+      "p2": "Las nueve operaciones de este mazo son reales y van más allá del primer grado: 15 - 13 = 2, 1 + 2 = 3, 8 + 2 = 10, 10 - 6 = 4, 9 - 4 = 5, 17 - 11 = 6, 4 + 3 = 7, 19 - 10 = 9 y 21 - 13 = 8. Varias parten de un número de dos cifras —15 - 13, 10 - 6, 17 - 11, 19 - 10 y la resta más grande, 21 - 13—, y esa es justamente la marca de segundo grado: el trabajo llega hasta 100 y mezcla cantidades de una y de dos cifras. Para resolverlas, el niño apoya su comprensión del valor posicional, separando las decenas y las unidades para restar o sumar con seguridad.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP, Plan de Estudios 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, y refuerza la suma y la resta hasta 100 para niñas y niños de 7 a 8 años. Pensamos cada operación para que el reto sea justo: nada de números enormes, sino una mezcla pareja de una y dos cifras que invita a razonar sin frustrarse. No hay cronómetros, puntajes ni presión; solo un rato tranquilo de práctica con un tema que da gusto. Puedes descargar el rompecabezas gratis para imprimir o jugarlo en línea de inmediato, sin crear cuenta ni registrarte. Como siguiente paso, prueba otro rompecabezas hasta 100 con un tema distinto o repasa primero las restas de dos cifras para afianzar el valor posicional con calma.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-4-de-julio-6de5",
+      "carousel": [
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-f46c"
+        },
+        {
+          "label": "Rompecabezas con Actividades (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-actividades-0805"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-2db5"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-4-de-julio-f46c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "4th_of_july",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: 4 de Julio",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de 4 de Julio. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "4 de Julio",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Con este Rompecabezas de Sumas y Restas hasta 100, los niños de segundo grado de primaria (7 a 8 años) practican el cálculo mental dentro de una cuadrícula de 3×3 con nueve operaciones para resolver. El tema del 4 de Julio es solo decorativo: aparece en el borde y el fondo para hacer la actividad más alegre, pero aquí no se cuentan dibujos. Lo que el niño hace es resolver cada operación, escribir el resultado y completar el rompecabezas casilla por casilla, a su propio ritmo.",
+      "p2": "La marca de segundo grado es clara: varias operaciones usan un número de dos cifras, de modo que el trabajo llega hasta 100. En esta cuadrícula el niño resuelve 22 − 12 = 10, 10 − 2 = 8, 16 − 12 = 4, 19 − 14 = 5, 20 − 14 = 6, 12 − 3 = 9 y 20 − 13 = 7, donde aparecen los números mayores de dos cifras; se completan con las operaciones más sencillas 5 − 3 = 2 y 5 − 2 = 3. Al trabajar con números como 22, 20, 19 o 16, el pequeño fortalece la comprensión del valor posicional —decenas y unidades— y aprende a restar con seguridad hasta 100.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para segundo grado de primaria. Es ideal para reforzar en casa o en el salón, sin presión: no hay cronómetro ni puntaje, solo un rompecabezas tranquilo que invita a pensar. Está disponible gratis para imprimir en PDF o para jugar en línea sin necesidad de registro. Como siguiente paso, anima al niño a inventar sus propias restas hasta 100 con las mismas decenas y unidades, o explora otro rompecabezas con un tema decorativo distinto para seguir practicando.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-4-de-julio-f46c",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Actividades (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-actividades-0805"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-36bd"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
+        },
+        {
+          "label": "Rompecabezas con Partes del Cuerpo (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-actividades-0805",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "activities",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Actividades",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Actividades. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Actividades",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Actividades",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de actividades es solo decorativo: aparece en el borde y el fondo para hacer la página más alegre, pero no se cuenta nada. Aquí lo importante es resolver cada operación con calma, sin imágenes que distraigan del verdadero reto: pensar y calcular.",
+      "p2": "Lo que distingue a este mazo como trabajo de segundo grado es que varias operaciones llegan a números de dos cifras, hasta 100. Por ejemplo: 16 − 7 = 9, 15 − 9 = 6, 11 − 9 = 2, 18 − 14 = 4, 14 − 7 = 7, 21 − 13 = 8 y 16 − 6 = 10. También hay restas más sencillas como 6 − 3 = 3 y 9 − 4 = 5 para que el niño entre en confianza antes de enfrentar el mayor número, el 21. Estas operaciones de dos cifras son la marca clara de que se trabaja hasta 100.",
+      "p3": "Al resolver el rompecabezas, tu hija o hijo practica el valor posicional de decenas y unidades y afianza el cálculo mental hasta 100, una meta central del campo formativo Saberes y Pensamiento Científico (Matemáticas) de la Nueva Escuela Mexicana (SEP) para segundo grado de primaria, niñas y niños de 7 a 8 años. La actividad es gratuita: puedes imprimir la hoja o jugar en línea sin registro, sin cronómetros ni puntajes que presionen. Como siguiente paso, prueba un rompecabezas con sumas hasta 100 o uno de un tema diferente para seguir reforzando la confianza con los números.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-actividades-0805",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-36bd"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-7d10"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
+        },
+        {
+          "label": "Rompecabezas con Navidad (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-navidad-ada1"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "around_the_house",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Alrededor de la Casa",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Alrededor de la Casa. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Alrededor de la Casa",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Alrededor de la Casa",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque RESUELVE una por una. El tema \"Alrededor de la Casa\" es solo decorativo: adorna el borde y el fondo con escenas hogareñas, pero aquí NO se cuentan objetos ni dibujos. Lo que importa son los números, y el reto consiste en encontrar el resultado de cada operación para completar el tablero. La marca de esta versión es clara: aparecen números de dos cifras, por eso es trabajo hasta 100, ideal para segundo grado.",
+      "p2": "Las nueve operaciones de este mazo son reales y verificadas: 5 − 3 = 2, 11 − 8 = 3, 9 − 5 = 4, 10 − 5 = 5, 20 − 14 = 6, 9 − 2 = 7, 21 − 13 = 8, 12 − 3 = 9 y 20 − 10 = 10. Varias de ellas usan un número de dos cifras —11 − 8, 10 − 5, 20 − 14, 21 − 13, 12 − 3 y 20 − 10— y esa es justo la diferencia con primer grado: aquí se trabaja con cantidades hasta 100. Para resolverlas, tu hijo o hija apoya el valor posicional separando decenas y unidades; por ejemplo, en 21 − 13 reconoce 2 decenas y 1 unidad, y reagrupa para llegar al 8. Cada acierto descubre una pieza más del rompecabezas.",
+      "p3": "Esta hoja está alineada con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, y corresponde a segundo grado de primaria, para niñas y niños de 7 a 8 años. El formato de rompecabezas vuelve la práctica de sumas y restas hasta 100 algo divertido y sin presión: no hay cronómetros ni puntajes, solo el gusto de resolver. Puedes usarla de dos maneras totalmente gratis y sin registro: imprímela en PDF para trabajar con lápiz en casa o en el aula, o juégala en línea desde cualquier dispositivo. Como siguiente paso, prueba un rompecabezas con números un poco mayores o cambia el tema decorativo para mantener viva la motivación mientras tu peque domina el valor posicional con decenas y unidades.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-0a6e"
+        },
+        {
+          "label": "Rompecabezas con Postres y Dulces (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "around_the_house",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Alrededor de la Casa",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Alrededor de la Casa. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Alrededor de la Casa",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Alrededor de la Casa",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla presenta una operación que hay que resolver: el reto está en pensar con cuidado cada resultado hasta completar el tablero. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones, con el tema decorativo de Alrededor de la Casa.",
+      "p2": "El tablero mezcla sumas y restas para que el niño cambie de estrategia en cada casilla. Por ejemplo, resuelve restas como 22 − 14 = 8 y 22 − 13 = 9, donde aparece un número de dos cifras, junto con 4 − 2 = 2 y 8 − 4 = 4; y también sumas como 1 + 2 = 3, 2 + 4 = 6, 3 + 2 = 5, 6 + 1 = 7 y 4 + 6 = 10. Un detalle importante: el tema de Alrededor de la Casa es solo decorativo, en el borde y el fondo. No se cuentan objetos de la casa; lo que se hace es resolver cada operación y escribir el resultado correcto.",
+      "p3": "Trabajar con un número de dos cifras como el 22 ayuda a afianzar el valor posicional —decenas y unidades— y el cálculo de sumas y restas hasta 100, contenidos propios del segundo grado de primaria (7 a 8 años). La actividad está alineada con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas). Puedes usarla en el salón o en casa: imprímela como hoja para resolver con lápiz o juégala en línea, las dos opciones son totalmente gratuitas y sin necesidad de registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, busca otros rompecabezas con restas que requieran reagrupar o con números un poco mayores, para seguir fortaleciendo la confianza al sumar y restar hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906",
+      "carousel": [
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-2db5"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-1423"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-animales-7d10",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "animals",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Animales",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Animales. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Animales",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Animales",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu niña o niño de segundo grado va a resolver una por una. El tema de animales es solo decorativo: aparece en el borde y el fondo para que la página se vea alegre, pero aquí no se cuentan animales. Lo que hace tu pequeño es leer cada operación y escribir el resultado, ejercitando el cálculo mental con tranquilidad y sin prisa.",
+      "p2": "La marca de segundo grado es el trabajo hasta 100: varias operaciones usan números de dos cifras. En este mazo, la resta 22 − 12 = 10 muestra un minuendo de dos cifras, y las restas 11 − 7 = 4, 11 − 8 = 3, 14 − 6 = 8, 11 − 4 = 7, 12 − 3 = 9 y 14 − 8 = 6 también parten de números mayores que diez. Se completan con operaciones más sencillas como 6 − 1 = 5 y 6 − 4 = 2, de modo que cada niña o niño afianza la confianza mientras avanza hacia las cifras más grandes.",
+      "p3": "Resolver esta cuadrícula de 3×3 fortalece el valor posicional de decenas y unidades y la fluidez al sumar y restar dentro del 100, justo lo que pide la Nueva Escuela Mexicana en el campo formativo Saberes y Pensamiento Científico (Matemáticas) para segundo grado de primaria, de 7 a 8 años. Es un recurso completamente gratis: puedes imprimirlo para trabajar en papel o jugarlo en línea sin registro, sin cronómetros ni puntajes que presionen. Cuando tu pequeño termine este rompecabezas, el siguiente paso natural es probar otro mazo con un tema distinto para seguir practicando las operaciones hasta 100 con la misma calma.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-animales-7d10",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
+        },
+        {
+          "label": "Rompecabezas con Panadería (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-panaderia-2c9b"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-animales-de-granja-37d7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "farm_animals",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Animales de Granja",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 con animales de granja para segundo grado (7-8 años). Resuelve operaciones de dos cifras. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Animales de Granja",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Animales de Granja",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones que tu peque resuelve una por una. Los animales de la granja —la vaca, el borrego, la gallina, el cerdito— son solo la decoración del borde y el fondo: no se cuentan ni se suman. Lo que de verdad importa son las operaciones. Aquí la consigna no es \"cuenta los animales\", sino resolver cada cuenta y descubrir el resultado que completa cada casilla del rompecabezas.",
+      "p2": "Lo que distingue a este mazo de los de primer grado es que aparece un número de dos cifras: el trabajo llega hasta 100. Tu peque resolverá operaciones como 23 - 14 = 9, 16 - 11 = 5, 13 - 9 = 4, 17 - 9 = 8, 18 - 12 = 6 y 13 - 3 = 10, donde tiene que pensar en las decenas y las unidades. Junto a ellas hay operaciones más sencillas —5 - 2 = 3, 8 - 1 = 7 y 7 - 5 = 2— para que el reto crezca poco a poco y nadie se sienta abrumado. Esa mezcla de números de una y de dos cifras es justo la marca de segundo grado.",
+      "p3": "Esta hoja está pensada para Segundo grado de primaria (7-8 años) y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Al resolver el rompecabezas, tu peque afianza el valor posicional de decenas y unidades hasta 100 y la fluidez con sumas y restas. Es completamente gratis: puedes imprimirla en PDF para trabajar con lápiz o jugarla en línea, sin registro, sin cronómetros y sin puntajes que presionen. El tono es cálido y a su ritmo. Como siguiente paso, prueba otro rompecabezas con un tema distinto para seguir practicando las operaciones hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-animales-de-granja-37d7",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Flores (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-flores-5e00"
+        },
+        {
+          "label": "Rompecabezas con Frutas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-frutas-ab9a"
+        },
+        {
+          "label": "Rompecabezas con Miscelánea (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "zoo_animals",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Animales del Zoológico",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Animales del Zoológico. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Animales del Zoológico",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Animales del Zoológico",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque debe resolver una por una. Los animales del zoológico —el león, la jirafa, el elefante, el mono— son solo la decoración del borde y el fondo: no se cuentan ni se suman. Lo que importa es el número escrito en cada casilla. El reto consiste en resolver cada operación y completar el tablero, así que la atención se queda en las matemáticas mientras el tema mantiene la hoja alegre y atractiva.",
+      "p2": "Las nueve operaciones de este mazo son reales y trabajan el cálculo hasta 100: 10 − 8 = 2, 9 − 2 = 7, 24 − 14 = 10, 9 − 5 = 4, 14 − 9 = 5, 16 − 8 = 8, 10 − 7 = 3, 20 − 11 = 9 y 19 − 13 = 6. Varias incluyen un número de dos cifras —10, 24, 14, 16, 20 y 19—, y esa es justo la marca que distingue el segundo grado del primero: el niño ya no se queda en operaciones de una cifra, sino que practica con cantidades mayores y comprende el valor posicional de las decenas y las unidades hasta 100. La operación 24 − 14 es un buen ejemplo del nivel: dos números de dos cifras que exigen pensar la resta con calma.",
+      "p3": "Esta hoja está pensada para niñas y niños de segundo grado de primaria (7 a 8 años) y se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico — Matemáticas, donde se fortalece la suma y la resta hasta 100 con apoyo del valor posicional. No hay cronómetros ni puntajes: tu peque resuelve a su propio ritmo, en un ambiente cálido y sin presión. Puedes descargar el rompecabezas en PDF para imprimirlo o jugarlo en línea, gratis y sin necesidad de crear una cuenta. Como siguiente paso, busca otros rompecabezas de sumas y restas hasta 100 con temas distintos para que la práctica del cálculo mental siga creciendo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2",
+      "carousel": [
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-6de5"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-f46c"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-7d10"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-0a6e"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-arboles-a611",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "tree",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Árboles",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Árboles. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Árboles",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Árboles",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático invita a niñas y niños de segundo grado a resolver una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas. El tema de árboles es solo decorativo: aparece en el borde y el fondo para dar un toque cálido y alegre, pero no se cuenta nada. Lo que importa es resolver cada operación con calma y confianza. Por eso encontrarás restas como 8 − 3 = 5, 12 − 6 = 6 y 7 − 3 = 4, perfectas para repasar lo que ya se domina antes de pasar a los números más grandes.",
+      "p2": "La marca de segundo grado es el trabajo hasta 100: varias operaciones muestran un número de dos cifras (21–100). En esta cuadrícula tu peque resuelve 21 − 14 = 7, 14 − 12 = 2, 15 − 12 = 3, 18 − 8 = 10, 21 − 12 = 9, 14 − 6 = 8 y 12 − 6 = 6, donde el número mayor llega a 21. Estas operaciones con decenas y unidades ayudan a fortalecer el valor posicional hasta 100 y la fluidez con las restas, un paso clave después del primer grado. Cada casilla se resuelve por separado, así que el reto crece poco a poco y nadie se siente apurado.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, ideal para segundo grado de primaria (7 a 8 años). No hay cronómetros ni puntajes: el objetivo es pensar, comprobar y disfrutar el proceso, con un tono cálido que respeta el ritmo de cada estudiante. Puedes descargarla gratis para imprimir o jugar en línea sin registro, en casa o en el salón. ¿El siguiente paso? Cuando tu peque termine este rompecabezas de árboles con seguridad, prueba otro tema o sube a operaciones con números aún mayores hasta 100 para seguir creciendo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-arboles-a611",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-c9f6"
+        },
+        {
+          "label": "Rompecabezas con Verduras (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-verduras-94f2"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-f356"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-7d10"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-arboles-c9f6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "tree",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Árboles",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Árboles. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Árboles",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Árboles",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este Rompecabezas de Sumas y Restas hasta 100 presenta una cuadrícula de 3×3 con nueve operaciones mixtas que tu hijo o tus alumnos resuelven una por una. El tema de árboles es solo decorativo: adorna el borde y el fondo para que la actividad se sienta cálida y agradable, pero aquí no se cuentan árboles ni se buscan dibujos. La tarea real es matemática: leer cada operación, pensar y escribir el resultado correcto.",
+      "p2": "Lo que distingue a este mazo de los de primer grado es que varias operaciones incluyen un número de dos cifras, así que el trabajo llega hasta 100. En esta hoja se resuelven, por ejemplo, 22 − 13 = 9, 18 − 11 = 7, 21 − 13 = 8, 16 − 12 = 4, 22 − 12 = 10 y 13 − 11 = 2, además de sumas más sencillas como 1 + 2 = 3, 4 + 1 = 5 y 1 + 5 = 6. Mezclar sumas y restas en la misma cuadrícula ayuda a que el niño cambie de estrategia y reconozca el valor posicional de las decenas y las unidades.",
+      "p3": "Resolver estas nueve operaciones es ideal para Segundo grado de primaria (7 a 8 años) y se alinea con la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, al practicar cálculo hasta 100 con apoyo del valor posicional de decenas y unidades. La actividad es completamente gratuita: puedes imprimir la hoja en PDF o jugar en línea sin registro, sin cronómetros ni puntajes que presionen al niño, con un tono cálido que invita a intentarlo a su ritmo. Como siguiente paso, busca otro rompecabezas de la misma colección hasta 100 para seguir afianzando las restas con números de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-arboles-c9f6",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Verduras (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-verduras-94f2"
+        },
+        {
+          "label": "Rompecabezas con Vehículos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+        },
+        {
+          "label": "Rompecabezas con Animales del Zoológico (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-0254"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-aves-0a6e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "birds",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Aves",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Aves. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Aves",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Aves",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático invita a las niñas y los niños de segundo grado a resolver una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas. El tema de aves es solo decorativo: adorna el borde y el fondo de la hoja para hacerla más alegre, pero no se cuenta nada. El reto está en resolver cada operación con cuidado y descubrir el resultado correcto en cada casilla del rompecabezas.",
+      "p2": "Varias operaciones llegan hasta números de dos cifras, la marca que distingue el segundo grado del primero. Por ejemplo, 22 - 12 = 10, 18 - 14 = 4 y 17 - 14 = 3 trabajan dentro del rango hasta 100, mientras que 13 - 8 = 5, 11 - 2 = 9 y 14 - 8 = 6 refuerzan el repaso. Se completan con operaciones más sencillas como 8 - 1 = 7, 4 - 2 = 2 y 9 - 1 = 8, para que cada estudiante avance con confianza y sin prisa.",
+      "p3": "Trabajar con números de dos cifras hasta 100 ayuda a comprender el valor posicional de decenas y unidades, una base esencial para el cálculo mental. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para segundo grado de primaria (7 a 8 años). Puedes descargarla gratis para imprimir o resolverla en línea sin registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, anima a tu grupo a inventar sus propios rompecabezas de sumas y restas hasta 100 para seguir practicando en casa o en el salón.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-aves-0a6e",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-2db5"
+        },
+        {
+          "label": "Rompecabezas con Partes del Cuerpo (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+        },
+        {
+          "label": "Rompecabezas con Frutas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-frutas-ab9a"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-aves-2db5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "birds",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Aves",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 con tema de aves: cuadrícula de 9 operaciones, dos cifras para segundo grado. Gratis, imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Aves",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Aves",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu hijo o tus alumnos van a resolver una por una. Las aves del borde son solo decoración: hacen la página alegre y acogedora, pero NO se cuentan. Aquí lo que importa es calcular cada resultado, no contar dibujos. La actividad es perfecta para niñas y niños de segundo grado de primaria (7 a 8 años) que ya empiezan a trabajar con números hasta 100.",
+      "p2": "En las nueve casillas aparecen operaciones reales como 2 + 1 = 3, 1 + 4 = 5, 4 + 2 = 6, 2 + 2 = 4, 4 + 4 = 8 y 8 − 1 = 7. La marca de segundo grado son las operaciones con números de dos cifras: 10 − 8 = 2, 22 − 13 = 9 y 23 − 13 = 10. Estas restas con decenas y unidades llevan a las y los estudiantes más allá del primer grado y los invitan a pensar en el valor posicional: cuántas decenas y cuántas unidades hay en cada número hasta 100. Al resolver el tablero completo, practican tanto sumar como restar dentro de una misma página.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP) y su campo formativo Saberes y Pensamiento Científico, en el área de Matemáticas, ideal para reforzar el cálculo mental y el trabajo hasta 100 en segundo grado. Es completamente gratis: puedes imprimirla para trabajar con lápiz o resolverla en línea sin necesidad de registro, sin cronómetros ni puntajes que generen presión. El objetivo es que cada estudiante avance a su ritmo, con calma y confianza. Cuando terminen este rompecabezas de aves, busca otros temas decorativos en la colección para seguir practicando sumas y restas hasta 100 con nuevas cuadrículas.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-aves-2db5",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Partes del Cuerpo (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+        },
+        {
+          "label": "Rompecabezas con Navidad (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-navidad-ada1"
+        },
+        {
+          "label": "Rompecabezas con Postres y Dulces (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+        },
+        {
+          "label": "Rompecabezas con Muebles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-muebles-321c"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-clima-a656",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "weather",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Clima",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Clima. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Clima",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Clima",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este Rompecabezas de Sumas y Restas hasta 100 invita a las niñas y los niños de segundo grado de primaria a resolver una cuadrícula de 3×3 con nueve operaciones mixtas, decoradas con un alegre tema de clima. Las nubes, soles y gotitas de lluvia son solo adornos del borde y el fondo: no se cuentan ni se suman. Lo que el niño hace es resolver cada operación de suma y resta para completar el rompecabezas, una casilla a la vez, con calma y a su propio ritmo.",
+      "p2": "Las nueve operaciones son reales y abarcan trabajo hasta 100. Las restas con un número de dos cifras (21–100) son la marca que distingue el segundo grado del primero: 17 − 10 = 7; 10 − 1 = 9; 12 − 10 = 2; 15 − 11 = 4; 21 − 13 = 8; 15 − 5 = 10; y 19 − 14 = 5. Se suman también dos operaciones más sencillas para dar variedad y confianza: 6 − 3 = 3 y 7 − 1 = 6. Al apoyarse en el valor posicional —separar las decenas y las unidades— el niño descubre que restar 21 − 13 o 19 − 14 es manejable cuando piensa primero en las decenas y luego en las unidades.",
+      "p3": "Trabajar con números hasta 100 fortalece la comprensión del valor posicional (decenas y unidades) y la fluidez al sumar y restar, en plena sintonía con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas) para segundo grado de primaria, de 7 a 8 años. El tema del clima es puramente decorativo y hace que la práctica se sienta como un juego, sin presión: aquí no hay cronómetros ni puntajes, solo el gusto de resolver. Esta hoja es completamente gratis; puedes imprimirla para trabajar con lápiz o jugar en línea sin necesidad de registro. Como siguiente paso, prueba un rompecabezas con un tema diferente o avanza a operaciones con números un poco más grandes para seguir creciendo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-clima-a656",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-f356"
+        },
+        {
+          "label": "Rompecabezas con Animales del Zoológico (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
+        },
+        {
+          "label": "Rompecabezas con Actividades (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-actividades-0805"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-clima-f356",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "weather",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Clima",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Clima. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Clima",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Clima",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas, decoradas con un alegre tema del clima. Es importante aclarar que las imágenes del clima son solo decorativas: aparecen en el borde y el fondo para que la hoja se vea atractiva, pero el niño no cuenta soles ni nubes. Lo que hace en cada casilla es resolver la operación que ve escrita, ejercitando el cálculo mental hasta 100.",
+      "p2": "Las nueve operaciones combinan sumas sencillas y restas que llegan a números de dos cifras, la marca que distingue el segundo grado del primero. Tu pequeña o pequeño resolverá: 3 + 1 = 4, 1 + 2 = 3, 6 + 2 = 8, 3 + 3 = 6, 7 − 5 = 2 y 7 − 2 = 5. Las operaciones que llevan un número de dos cifras (17 − 10 = 7, 19 − 9 = 10 y 22 − 13 = 9) son las que confirman el trabajo hasta 100 y refuerzan el valor posicional de decenas y unidades, pues al restar 22 − 13 hay que pensar en las decenas y las unidades por separado.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP) dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para segundo grado de primaria, de 7 a 8 años. Al practicar sumas y restas hasta 100 con un material cálido y sin presión, la niña o el niño afianza el cálculo y la comprensión del valor posicional a su propio ritmo: aquí no hay cronómetros ni puntajes, solo el gusto de resolver. Todo el material es completamente gratis: puedes imprimir el PDF para trabajar en papel o jugar en línea sin registro, desde la computadora o la tablet. Como siguiente paso, busca otros rompecabezas de sumas y restas hasta 100 con temas distintos para que tu estudiante siga practicando con variedad.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-clima-f356",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Animales del Zoológico (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-6de5"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-36bd"
+        },
+        {
+          "label": "Rompecabezas con Panadería (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-panaderia-2c9b"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-emociones-1423",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "emotions",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Emociones",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 con dos cifras y tema de emociones. Segundo grado, 7 a 8 años, gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Emociones",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Emociones",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas de matemáticas presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de emociones es solo decorativo: adorna el borde y el fondo de la hoja con caritas alegres, sorprendidas o tranquilas, pero no se cuentan ni se suman. Aquí el niño no cuenta dibujos: lee cada operación, piensa y escribe el resultado. Operaciones como 17 - 14 = 3, 11 - 5 = 6 y 7 - 5 = 2 ponen a prueba el cálculo mental mientras las emociones acompañan con una atmósfera cálida y amigable.",
+      "p2": "La marca de Segundo grado de este mazo son las operaciones con un número de dos cifras, que llevan el trabajo hasta 100 y van más allá de Primer grado. Fíjate en 21 - 11 = 10 y en 23 - 14 = 9, donde el número mayor es 23: para resolverlas, tu peque apoya las decenas y las unidades, una destreza clave del valor posicional. Las demás —18 - 11 = 7, 10 - 2 = 8, 11 - 7 = 4 y 17 - 12 = 5— combinan números de una y dos cifras para que la práctica sea variada y nadie se aburra. Cada casilla de la cuadrícula es un reto pequeño que da confianza paso a paso.",
+      "p3": "Pensado para Segundo grado de primaria (7 a 8 años), este recurso se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Al resolver las nueve operaciones, tu peque afianza la suma y la resta hasta 100, distingue decenas de unidades y fortalece el cálculo mental sin presión. No hay cronómetros ni puntajes: solo práctica tranquila y un ambiente de juego. Es completamente gratis, lo puedes imprimir en PDF o jugar en línea sin registro. ¿Listos para el siguiente paso? Después de este rompecabezas, prueba otras hojas de sumas y restas hasta 100 con temas distintos para seguir aprendiendo con alegría.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-emociones-1423",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-76ca"
+        },
+        {
+          "label": "Rompecabezas con Animales de Granja (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
+        },
+        {
+          "label": "Rompecabezas con Muebles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-muebles-321c"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-6380"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-emociones-76ca",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "emotions",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Emociones",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de emociones. Para segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Emociones",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Emociones",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3 aparecen nueve operaciones reales que hay que resolver casilla por casilla: el reto está en pensar con calma cada resultado hasta completar todo el tablero. El tema de emociones es solo decorativo: adorna el borde y el fondo con caritas amables, pero aquí nadie cuenta dibujos, sino que se resuelven las operaciones una por una.",
+      "p2": "Entre las nueve operaciones hay sumas sencillas como 1 + 5 = 6, 2 + 2 = 4 y 3 + 2 = 5, junto con restas que llegan hasta números de dos cifras. Esas restas con números de dos cifras son la marca de segundo grado y el trabajo hasta 100: 12 − 10 = 2, 24 − 14 = 10, 14 − 6 = 8, 13 − 10 = 3 y 22 − 13 = 9, además de 8 − 1 = 7. Al pasar de un solo dígito a operaciones como 24 − 14, los pequeños practican el valor posicional —separar decenas y unidades— para restar con seguridad y comprobar cada respuesta sin apuro.",
+      "p3": "Esta actividad se alinea con la Nueva Escuela Mexicana (SEP) dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, pensada para segundo grado de primaria (7 a 8 años). Es completamente gratis: puedes imprimirla para trabajar con lápiz o jugarla en línea, sin registro, sin cronómetros ni puntajes que generen estrés. El tono es cálido y respetuoso del ritmo de cada niña y niño, para que resolver el rompecabezas sea un momento de concentración tranquila. Como siguiente paso, busca otros rompecabezas de sumas y restas hasta 100 con temas distintos y sigue afianzando el cálculo con números de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-emociones-76ca",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Animales de Granja (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
+        },
+        {
+          "label": "Rompecabezas con Flores (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-flores-5e00"
+        },
+        {
+          "label": "Rompecabezas con Hospital (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-hospital-1a67"
+        },
+        {
+          "label": "Rompecabezas con Mascotas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-mascotas-9735"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-en-el-supermercado-7730",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "at_the_supermarket",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: En el Supermercado",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de En el Supermercado. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: En el Supermercado",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "En el Supermercado",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático invita a las niñas y los niños de Segundo grado de primaria (7 a 8 años) a resolver una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas. El tema \"En el Supermercado\" es solo decorativo: adorna el borde y el fondo de la hoja, pero el reto no consiste en contar productos ni dibujos, sino en resolver cada operación con cuidado. Las nueve operaciones del mazo son reales: 1 + 2 = 3, 15 − 6 = 9, 8 − 3 = 5, 3 + 3 = 6, 1 + 1 = 2, 17 − 9 = 8, 21 − 11 = 10, 11 − 7 = 4 y 2 + 5 = 7.",
+      "p2": "Lo que distingue este rompecabezas como trabajo de Segundo grado, y no de Primero, es que varias operaciones presentan números de dos cifras y llevan el trabajo hasta 100. Fíjate en estos casos clave: 15 − 6 = 9, 17 − 9 = 8, 21 − 11 = 10 y 11 − 7 = 4. En 21 − 11, por ejemplo, el niño lee un número de dos cifras y necesita reconocer las decenas y las unidades para restar con seguridad. Trabajar con cantidades de dos cifras fortalece el valor posicional —saber que el 21 tiene 2 decenas y 1 unidad— y prepara el camino para cálculos más largos, siempre dentro de un ambiente tranquilo y sin presión.",
+      "p3": "Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, donde se busca que el estudiantado resuelva sumas y restas hasta 100 comprendiendo el valor de cada cifra. No hay cronómetros ni puntajes: cada quien avanza a su propio ritmo, lo que cuida la confianza y el gusto por las matemáticas. Puedes jugar el rompecabezas en línea, directo en el navegador, o imprimirlo en papel; es totalmente gratis y no necesitas registrarte. Como siguiente paso, prueba otros rompecabezas con temas diferentes o avanza a mazos con operaciones más cercanas al 100 para seguir practicando la suma y la resta de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-en-el-supermercado-7730",
+      "carousel": [
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-b374"
+        },
+        {
+          "label": "Rompecabezas con Panadería (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-panaderia-2c9b"
+        },
+        {
+          "label": "Rompecabezas con Partes del Cuerpo (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-76ca"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-en-el-supermercado-b374",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "at_the_supermarket",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: En el Supermercado",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de En el Supermercado. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: En el Supermercado",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "En el Supermercado",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas para que tu peque de segundo grado las resuelva una por una. El tema del supermercado es solo decorativo: las canastas, los productos y los anaqueles adornan el borde y el fondo para que la actividad se vea alegre, pero no hay nada que contar. Lo que tu estudiante hace es calcular cada resultado, como 9 − 6 = 3 o 9 − 2 = 7, y descubrir cómo se completa todo el tablero.",
+      "p2": "La marca de segundo grado aparece en las operaciones con números de dos cifras, que llevan el trabajo hasta 100. En esta cuadrícula tu peque resuelve 14 − 6 = 8, 17 − 7 = 10, 10 − 5 = 5, 20 − 14 = 6, 10 − 6 = 4 y 21 − 12 = 9, además de operaciones más sencillas como 9 − 7 = 2. Aquí entra en juego el valor posicional: separar las decenas y las unidades para restar con confianza. Por ejemplo, en 21 − 12, conviene mirar las decenas y las unidades por separado para llegar al resultado sin equivocarse.",
+      "p3": "La actividad se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, pensada para niñas y niños de segundo grado de primaria de 7 a 8 años. Resolver el rompecabezas fortalece la fluidez con sumas y restas hasta 100 y el manejo de decenas y unidades, todo en un formato lúdico y sin presión: no hay cronómetros ni puntajes, solo el gusto de completar el tablero. Es completamente gratis; puedes imprimir la hoja en PDF para trabajar en papel o jugar en línea sin necesidad de registro. Como siguiente paso, prueba un rompecabezas con un tema diferente o sube a operaciones con minuendos un poco más grandes para seguir practicando el cálculo hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-en-el-supermercado-b374",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Panadería (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-panaderia-2c9b"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-0a6e"
+        },
+        {
+          "label": "Rompecabezas con Navidad (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-navidad-ada1"
+        },
+        {
+          "label": "Rompecabezas con Animales de Granja (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-espacio-2ba3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "space",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Espacio",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Espacio. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Espacio",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Espacio",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas, decoradas con un alegre tema de espacio. Es importante saberlo desde el inicio: los cohetes, planetas y estrellas son solo decoración en el borde y el fondo. Aquí no se cuentan dibujos; aquí el niño o la niña resuelve cada operación con su cabeza y su lápiz, y descubre el número que va en cada espacio en blanco. El tema sirve para que la página se vea atractiva y motivadora, pero el verdadero juego está en pensar y calcular.",
+      "p2": "Lo que distingue a este mazo como trabajo de segundo grado es que aparecen números de dos cifras (del 21 al 100): por eso decimos \"hasta 100\". Las nueve operaciones del rompecabezas son: 16 − 14 = 2, 12 − 6 = 6, 19 − 12 = 7, 13 − 10 = 3, 11 − 2 = 9, 16 − 8 = 8, 8 − 4 = 4, 24 − 14 = 10 y 13 − 8 = 5. Casi todas usan un número de dos cifras como el 16, el 12, el 19, el 13, el 11 o el 24; la operación 24 − 14 = 10 es la más grande del tablero y muestra con claridad por qué este reto va más allá del primer grado. Resolver estas restas refuerza el valor posicional: separar decenas y unidades para quitar con seguridad.",
+      "p3": "Esta hoja de trabajo está alineada con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, ideal para niñas y niños de segundo grado de primaria, de 7 a 8 años. Al apoyarse en el valor posicional de decenas y unidades hasta 100, el rompecabezas fortalece el cálculo mental y la confianza al restar y sumar. Es completamente gratis: puedes imprimirlo para trabajar en papel o jugarlo en línea sin registro, sin cronómetros y sin puntajes, con un ritmo tranquilo y un tono cálido que invita a intentar de nuevo. Como siguiente paso, prueba otro rompecabezas de la misma serie con un tema diferente para seguir practicando las operaciones hasta 100 con números de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-espacio-2ba3",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Primavera (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-primavera-e570"
+        },
+        {
+          "label": "Rompecabezas con Herramientas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-herramientas-800f"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-c9f6"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-6de5"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-flores-5e00",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "flowers",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Flores",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 con tema de flores para segundo grado (7-8 años). Cuadrícula 3×3, dos cifras. Gratis: imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Flores",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Flores",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu hijo o tu grupo resuelve una por una. El tema de flores es solo decorativo: adorna el borde y el fondo con pétalos y colores alegres, pero aquí no se cuentan flores. La verdadera tarea es calcular cada resultado, escribirlo en su casilla y completar la cuadrícula. Las flores hacen que la práctica se sienta cálida y bonita, mientras el niño se concentra en pensar y resolver con calma.",
+      "p2": "Lo que distingue a este mazo como trabajo de segundo grado es que algunas operaciones llegan a números de dos cifras, hasta 100. Fíjate en estas: 15 − 12 = 3, 22 − 12 = 10, 11 − 5 = 6, 14 − 6 = 8, 17 − 8 = 9 y 18 − 11 = 7. Junto a ellas hay restas más sencillas como 5 − 1 = 4, 7 − 2 = 5 y 7 − 5 = 2, que ayudan a tomar confianza antes de los retos mayores. Al combinar números de una y dos cifras, el niño practica el valor posicional —decenas y unidades— y aprende a restar agrupando y desagrupando con seguridad.",
+      "p3": "Esta actividad está pensada para segundo grado de primaria (7-8 años) y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, donde se trabaja el cálculo con sumas y restas hasta 100. Recuerda: el tema de flores es decoración; el corazón del rompecabezas son las nueve operaciones reales. Puedes descargar e imprimir la hoja gratis para usarla en el cuaderno, o jugarla en línea sin registro, sin cronómetros ni puntajes que presionen. Como siguiente paso, prueba el mismo rompecabezas con otro tema decorativo o sube a operaciones con números aún mayores para seguir afianzando el valor posicional.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-flores-5e00",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Frutas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-frutas-ab9a"
+        },
+        {
+          "label": "Rompecabezas con Muebles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-muebles-321c"
+        },
+        {
+          "label": "Rompecabezas con Música (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-musica-5918"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-formas-6a58",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "shapes",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Formas",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Formas. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Formas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Formas",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de formas es solo decorativo: adorna el borde y el fondo para hacer la hoja más atractiva, pero aquí no se cuentan figuras. Lo importante es resolver cada operación. Algunas usan números de dos cifras (de 21 a 100), y esa es justo la marca que distingue al segundo grado del primero: este mazo llega hasta 100.",
+      "p2": "En esta cuadrícula tu alumno encontrará operaciones como 21 - 11 = 10, 19 - 12 = 7, 13 - 7 = 6, 12 - 8 = 4 y 20 - 11 = 9, donde aparece un número de dos cifras que pone a prueba el trabajo hasta 100. También resolverá sumas y restas más sencillas como 4 + 1 = 5, 1 + 2 = 3, 3 - 1 = 2 y 1 + 7 = 8, que sirven para tomar confianza antes de los retos mayores. Cada casilla es un pequeño desafío: el niño lee la operación, calcula con calma y escribe el resultado. Como es un rompecabezas, la motivación viene del gusto de completar la cuadrícula, sin cronómetros ni puntajes que presionen.",
+      "p3": "Esta hoja apoya el aprendizaje de segundo grado de primaria (7-8 años) y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas del Plan 2022. Al trabajar con números de dos cifras, tu peque practica el valor posicional —reconocer decenas y unidades hasta 100— y fortalece el cálculo mental con sumas y restas. Recuerda que el tema de formas es decorativo: lo que se trabaja son las operaciones, no contar figuras. El material es completamente gratis: puedes imprimirlo en PDF para el cuaderno o jugarlo en línea, sin necesidad de registro. Como siguiente paso, prueba otro rompecabezas con un tema distinto para que tu alumno siga ejercitando las sumas y restas hasta 100 con variedad y de manera divertida.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-formas-6a58",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-856f"
+        },
+        {
+          "label": "Rompecabezas con Espacio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-espacio-2ba3"
+        },
+        {
+          "label": "Rompecabezas con Juguetes (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-juguetes-f2fc"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-f356"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-formas-856f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "shapes",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Formas",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Formas. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Formas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Formas",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas de matemáticas presenta una cuadrícula de 3×3 con nueve operaciones reales de sumas y restas que tu hijo o tus alumnos van a resolver, una por una, hasta completar todo el tablero. El tema de las formas es solo decorativo: los círculos, triángulos y cuadrados adornan el borde y el fondo para que la página se sienta amigable y atractiva, pero aquí nadie cuenta dibujos. Lo importante son los números: cada casilla esconde una operación que hay que pensar y resolver con calma.",
+      "p2": "Lo que distingue a este mazo de los de primer grado es que varias operaciones llegan hasta los números de dos cifras, es decir, trabajo hasta 100. Tu pequeño resolverá retos como 21 - 11 = 10, 22 - 13 = 9, 17 - 14 = 3, 16 - 12 = 4, 16 - 8 = 8, 10 - 8 = 2 y 13 - 8 = 5, donde aparecen cantidades de dos cifras como 21, 22, 17, 16, 13 y 10. También hay operaciones más sencillas como 8 - 1 = 7, 8 - 2 = 6 y 13 - 8 = 5 para que el ritmo sea cómodo. Reconocer las decenas y las unidades dentro de cada número, y entender el valor posicional hasta 100, es justo la marca de segundo grado.",
+      "p3": "Esta actividad está pensada para segundo grado de primaria, niñas y niños de 7 a 8 años, y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, fortaleciendo el cálculo mental y el valor posicional de decenas y unidades hasta 100. Trabajar la cuadrícula completa ayuda a que cada estudiante practique sumar y restar con seguridad, descomponiendo los números mayores en decenas y unidades cuando lo necesita. Todo el material es gratis: puedes imprimirlo para resolverlo con lápiz o jugarlo en línea sin registro, sin cronómetros ni puntajes que generen presión, con un tono cálido que invita a equivocarse y volver a intentar. Como siguiente paso, busca otro rompecabezas hasta 100 con un tema distinto para seguir afianzando estas operaciones de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-formas-856f",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Espacio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-espacio-2ba3"
+        },
+        {
+          "label": "Rompecabezas con Primavera (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-primavera-e570"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-a611"
+        },
+        {
+          "label": "Rompecabezas con Animales del Zoológico (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-del-zoologico-dec2"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-frutas-ab9a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "fruits",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Frutas",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de frutas. Para segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Frutas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Frutas",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla presenta una operación que hay que resolver: el reto está en pensar con cuidado cada resultado hasta completar todo el tablero. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones, en el salón o en casa.",
+      "p2": "El tablero combina operaciones para que el niño piense con calma en cada casilla. Aparecen restas con un número de dos cifras, que son la marca del segundo grado, como 22 − 14 = 8, 19 − 10 = 9, 13 − 3 = 10, 12 − 6 = 6, 15 − 11 = 4 y 15 − 8 = 7; junto con otras un poco más sencillas como 8 − 6 = 2, 8 − 3 = 5 y 8 − 5 = 3. Un detalle importante: el tema de frutas es solo decorativo, en el borde y el fondo. No se cuentan frutas; lo que se hace es resolver cada operación y escribir el resultado correcto en su casilla.",
+      "p3": "Trabajar con un número de dos cifras como el 22 ayuda a afianzar el valor posicional —decenas y unidades— y el cálculo de sumas y restas hasta 100, contenidos propios del segundo grado de primaria (7 a 8 años). La actividad está alineada con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas). Puedes usarla de dos maneras: imprímela como hoja para resolver con lápiz o juégala en línea, las dos opciones son totalmente gratuitas y sin necesidad de registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, busca otros rompecabezas con restas que requieran reagrupar o con números un poco mayores, para seguir fortaleciendo la confianza al sumar y restar hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-frutas-ab9a",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Muebles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-muebles-321c"
+        },
+        {
+          "label": "Rompecabezas con Hospital (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-hospital-1a67"
+        },
+        {
+          "label": "Rompecabezas con Ocupaciones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-ocupaciones-6774"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-6a58"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-herramientas-800f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "tools",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Herramientas",
+      "metaDescription": "Resuelve un rompecabezas de sumas y restas hasta 100 con tema de herramientas, para segundo grado (7-8 años). Gratis: imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Herramientas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Herramientas",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu hija o hijo resuelve una por una. El tema de las herramientas es solo decorativo: aparece en el borde y el fondo para hacer la página más alegre, pero aquí nadie cuenta martillos ni tornillos. Lo que el niño hace es calcular cada resultado, por ejemplo 1 + 2 = 3, 3 + 2 = 5, 9 + 1 = 10 y 9 − 1 = 8.",
+      "p2": "Lo que distingue a este mazo de segundo grado es que varias operaciones llegan a números de dos cifras, hasta 100. Las restas marcadas son la señal de la banda: 21 − 12 = 9, 15 − 13 = 2, 10 − 6 = 4, 18 − 11 = 7 y 20 − 14 = 6. Para resolverlas, el niño piensa en las decenas y las unidades por separado: en 21 hay 2 decenas y 1 unidad, y al quitar 12 vuelve a observar cómo cambian esas decenas y unidades. Así el valor posicional deja de ser una idea abstracta y se vuelve una herramienta de cálculo concreta.",
+      "p3": "Esta actividad acompaña la Nueva Escuela Mexicana (Plan 2022 de la SEP) dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, y está pensada para segundo grado de primaria, niñas y niños de 7 a 8 años. La cuadrícula completa combina sumas sencillas con restas hasta 100: 21 − 12 = 9, 15 − 13 = 2, 9 − 1 = 8, 9 + 1 = 10, 1 + 2 = 3, 10 − 6 = 4, 3 + 2 = 5, 18 − 11 = 7 y 20 − 14 = 6. No hay cronómetros ni puntajes: tu peque resuelve a su ritmo, con calma y confianza. Es completamente gratis; puedes imprimir el PDF para trabajar en papel o jugar en línea, sin necesidad de registrarte. Como siguiente paso, explora más rompecabezas con otros temas decorativos para seguir practicando la suma y la resta hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-herramientas-800f",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Juguetes (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-juguetes-f2fc"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-a611"
+        },
+        {
+          "label": "Rompecabezas con Vehículos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+        },
+        {
+          "label": "Rompecabezas con Actividades (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-actividades-0805"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-hospital-1a67",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "hospital",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Hospital",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Hospital. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Hospital",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Hospital",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de hospital es solo decorativo —aparece en el borde y el fondo para que la página se vea cálida y divertida—, así que aquí no se cuentan dibujos: lo importante es resolver cada operación con lápiz y cabeza. Verás cuentas amistosas como 1 + 1 = 2, 2 + 1 = 3, 3 + 1 = 4, 3 + 2 = 5 y 7 + 3 = 10 para empezar con confianza.",
+      "p2": "Lo que distingue a este mazo de segundo grado es que varias operaciones llegan hasta números de dos cifras, trabajando con cantidades hasta 100. Fíjate en estas restas que son la marca de segundo: 11 − 4 = 7, 13 − 4 = 9, 18 − 12 = 6 y 21 − 13 = 8, donde aparece el número mayor, 21, de dos cifras. Para resolverlas, tu estudiante apoya el valor posicional —separa decenas y unidades— y repasa las restas con reagrupación, una habilidad clave para sumar y restar dentro de 100 con seguridad.",
+      "p3": "Este rompecabezas está alineado con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, pensado para segundo grado de primaria (7-8 años). Al combinar sumas y restas en una misma cuadrícula, tu peque fortalece el cálculo mental, la fluidez con operaciones hasta 100 y la comprensión de decenas y unidades, sin la presión de cronómetros ni puntajes. Es completamente gratis: puedes imprimir la hoja para trabajar en papel o jugarla en línea sin registro, cuando ustedes quieran. Siguiente paso sugerido: cuando domine estas operaciones, prueba un rompecabezas con más restas con reagrupación para seguir avanzando hacia el 100 con calma y a su propio ritmo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-hospital-1a67",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Miscelánea (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+        },
+        {
+          "label": "Rompecabezas con Música (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-musica-5918"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-6380"
+        },
+        {
+          "label": "Rompecabezas con Espacio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-espacio-2ba3"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-juguetes-f2fc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "toys",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Juguetes",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Juguetes. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Juguetes",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Juguetes",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático para segundo grado de primaria (7-8 años) presenta una cuadrícula de 3×3 con nueve operaciones reales que tu peque resuelve una por una. El tema de juguetes es solo decorativo: alegra el borde y el fondo de la hoja, pero aquí no se cuentan juguetes ni dibujos. Lo que el niño hace es razonar y resolver cada resta para completar el rompecabezas, con la motivación visual de un fondo divertido que invita a sentarse a trabajar.",
+      "p2": "La marca de esta banda es el trabajo hasta 100: varias operaciones usan un número de dos cifras (decenas y unidades), lo que distingue segundo grado de primer grado. Tu peque resolverá restas como 16 − 10 = 6, 15 − 6 = 9, 13 − 8 = 5, 12 − 10 = 2, 12 − 5 = 7, 22 − 12 = 10 y 15 − 11 = 4, además de operaciones más sencillas como 9 − 1 = 8 y 8 − 5 = 3. Al apoyarse en el valor posicional —reconocer cuántas decenas y cuántas unidades hay en números como 16, 22 o 15— el niño afianza la fluidez con sumas y restas dentro del 100.",
+      "p3": "Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas) del Plan 2022, pensada para niñas y niños de 7 a 8 años. El formato de rompecabezas convierte el cálculo en un reto agradable: en lugar de una lista de ejercicios, cada respuesta es una pieza que encaja en la cuadrícula 3×3. Es completamente gratis; puedes imprimir el PDF para el cuaderno o jugar en línea sin registro, sin cronómetros ni puntajes que presionen. El tono es cálido y a favor del aprendizaje a su ritmo. Como siguiente paso, prueba con otro tema decorativo o avanza a un rompecabezas con números más grandes para seguir reforzando el cálculo hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-juguetes-f2fc",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-a611"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-c9f6"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-a656"
+        },
+        {
+          "label": "Rompecabezas con Animales (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-36bd"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-mascotas-9735",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "pets",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Mascotas",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Mascotas. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Mascotas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Mascotas",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de mascotas es solo decorativo: adorna el borde y el fondo con carita simpática, pero aquí no se cuentan animalitos ni dibujos. La meta es clara y concreta: leer cada operación, pensar el resultado y escribir la respuesta correcta en su casilla, avanzando a su propio ritmo por todo el tablero.",
+      "p2": "Lo que distingue este mazo de los de primer grado es que algunas operaciones llegan hasta el 100 con números de dos cifras. En la cuadrícula tu estudiante encontrará 23 − 13 = 10 y 15 − 6 = 9, que ponen en juego el valor posicional de decenas y unidades. El resto combina sumas y restas sencillas: 9 − 1 = 8, 2 + 1 = 3, 1 + 1 = 2, 1 + 5 = 6, 2 + 2 = 4, 3 + 2 = 5 y 1 + 6 = 7. Así se mezcla lo conocido con un reto justo para esta edad.",
+      "p3": "Pensado para segundo grado de primaria (7-8 años), este recurso se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Al resolver operaciones de dos cifras hasta 100, tu peque fortalece el dominio de decenas y unidades y la fluidez con sumas y restas. Es completamente gratis: puedes imprimir la hoja para trabajar con lápiz o jugar en línea directo en el navegador, sin registro, sin cronómetro y sin puntajes que presionen. Como siguiente paso, prueba otro rompecabezas con un tema distinto o avanza a uno con números más grandes dentro del 100 para seguir practicando con confianza y calma.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-mascotas-9735",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+        },
+        {
+          "label": "Rompecabezas con Espacio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-espacio-2ba3"
+        },
+        {
+          "label": "Rompecabezas con Verduras (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-verduras-94f2"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-miscelaneo-5a7d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "miscellaneous",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Miscelánea",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Miscelánea. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Miscelánea",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Miscelánea",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones reales que tu hija o hijo de segundo grado debe resolver una por una. El tema de Miscelánea es solo decorativo: adorna el borde y el fondo de la hoja, pero no se cuenta nada. Aquí el reto es razonar cada resta, no contar dibujos. Verás operaciones como 9 − 2 = 7, 11 − 5 = 6 y 6 − 4 = 2, donde el niño piensa cuánto falta o cuánto queda y escribe el resultado en cada casilla.",
+      "p2": "Lo que marca la banda de segundo grado y el trabajo hasta 100 son las operaciones con un número de dos cifras: 13 − 9 = 4, 10 − 2 = 8, 15 − 12 = 3, 11 − 5 = 6, 21 − 11 = 10 y 13 − 4 = 9. Al cruzar la decena, tu estudiante practica el valor posicional —separar decenas y unidades— para restar con seguridad. Por ejemplo, en 21 − 11 reconoce que quita una decena completa y una unidad; en 15 − 12 ajusta unidades dentro de la misma decena. Cada casilla es un pequeño desafío que construye fluidez con números hasta 100 sin prisa ni presión.",
+      "p3": "Este recurso se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), pensado para niñas y niños de 7 a 8 años. El formato de rompecabezas invita a la concentración tranquila: no hay cronómetros, ni puntajes, ni comparaciones; solo el gusto de resolver y comprobar. Puedes usarlo de dos maneras, ambas completamente gratis y sin registro: imprime la hoja en PDF para trabajar con lápiz en casa o en el salón, o juega la versión interactiva en línea desde cualquier dispositivo. Cuando termine este rompecabezas de Miscelánea, sigue con otras cuadrículas de sumas y restas hasta 100 para afianzar el cálculo con decenas y unidades a su propio ritmo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-miscelaneo-5a7d",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Música (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-musica-5918"
+        },
+        {
+          "label": "Rompecabezas con Ocupaciones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-ocupaciones-6774"
+        },
+        {
+          "label": "Rompecabezas con Mascotas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-mascotas-9735"
+        },
+        {
+          "label": "Rompecabezas con Primavera (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-primavera-e570"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-muebles-321c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "furniture",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Muebles",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Muebles. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Muebles",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Muebles",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque de segundo grado debe resolver una por una. El tema de muebles es solo decorativo: aparece en el borde y el fondo para hacer la actividad más alegre, pero aquí no se cuentan sillas ni mesas. Lo importante es pensar cada cuenta y escribir el resultado correcto en cada casilla.",
+      "p2": "La marca de segundo grado está en los números de dos cifras: operaciones como 12 - 9 = 3, 14 - 8 = 6, 13 - 11 = 2, 18 - 10 = 8, 15 - 8 = 7, 11 - 1 = 10 y 21 - 12 = 9 llevan el trabajo hasta el rango de las decenas. El número mayor es 21, así que las niñas y los niños practican el valor posicional de decenas y unidades hasta 100. Junto a estas, aparecen restas más sencillas como 9 - 5 = 4 y 8 - 3 = 5 para que el rompecabezas mezcle retos y dé confianza al avanzar por la cuadrícula.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para segundo grado de primaria, de 7 a 8 años. Al resolver sumas y restas hasta 100, tus alumnos afianzan el cálculo mental, el valor posicional de decenas y unidades, y la lectura de operaciones con números de dos cifras. Puedes usarla totalmente gratis: imprime el PDF para trabajar con lápiz o juega en línea sin registro, sin cronómetros ni puntajes que presionen. Un siguiente paso natural es proponer el mismo rompecabezas con otro tema decorativo, o pasar a operaciones con resultados más cercanos a 100 para seguir creciendo con calma.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-muebles-321c",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Hospital (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-hospital-1a67"
+        },
+        {
+          "label": "Rompecabezas con Miscelánea (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-5476"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-856f"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-musica-5918",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "music",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Música",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de música. Para segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Música",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Música",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla presenta una operación que hay que resolver: el reto está en pensar con calma cada resultado hasta completar el tablero. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones, con un tema de música que hace la actividad más atractiva.",
+      "p2": "El tablero mezcla sumas y restas para que el niño cambie de estrategia en cada casilla. Por ejemplo, resuelve restas con números de dos cifras como 21 − 11 = 10, 20 − 11 = 9, 17 − 13 = 4, 16 − 13 = 3, 14 − 12 = 2, 12 − 7 = 5 y 11 − 3 = 8, junto con operaciones más sencillas como 8 − 1 = 7 y 7 − 1 = 6. Un detalle importante: el tema de música es solo decorativo, en el borde y el fondo. No se cuentan instrumentos ni notas; lo que se hace es resolver cada operación y escribir el resultado correcto.",
+      "p3": "Trabajar con números de dos cifras como el 21 o el 20 ayuda a afianzar el valor posicional —decenas y unidades— y el cálculo de sumas y restas hasta 100, contenidos propios del segundo grado de primaria (7 a 8 años). La actividad está alineada con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas). Puedes usarla en el salón o en casa: imprímela como hoja para resolver con lápiz o juégala en línea, las dos opciones son totalmente gratuitas y sin necesidad de registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, busca otros rompecabezas con restas que requieran reagrupar o con números un poco mayores, para seguir fortaleciendo la confianza al sumar y restar hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-musica-5918",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Ocupaciones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-ocupaciones-6774"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-5476"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+        },
+        {
+          "label": "Rompecabezas con Herramientas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-herramientas-800f"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-navidad-ada1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "christmas",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Navidad",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Navidad. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Navidad",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Navidad",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático invita a las niñas y los niños de segundo grado a resolver una cuadrícula de 3×3 con nueve operaciones mixtas de suma y resta. El tema de Navidad es solo decorativo: adorna el borde y el fondo de la hoja para que el trabajo se sienta alegre y festivo, pero aquí no se cuentan dibujos ni adornos. Lo importante es que cada pequeño resuelva las operaciones, una por una, hasta completar todo el tablero.",
+      "p2": "Lo que distingue a este mazo como trabajo de segundo grado es que varias operaciones incluyen un número de dos cifras, es decir, trabajo hasta 100. Por ejemplo, hay que resolver 15 − 11 = 4, 19 − 14 = 5, 15 − 6 = 9, 17 − 9 = 8 y 23 − 13 = 10, donde el número más grande es 23. Junto a ellas aparecen operaciones más sencillas como 3 − 1 = 2, 4 − 1 = 3, 9 − 3 = 6 y 9 − 2 = 7, de modo que el niño combina restas fáciles con restas que ponen en juego el valor posicional de decenas y unidades.",
+      "p3": "Al separar decenas y unidades para resolver 23 − 13 o 19 − 14, el estudiante fortalece su comprensión del sistema de numeración hasta 100, una meta central del campo formativo Saberes y Pensamiento Científico — Matemáticas de la Nueva Escuela Mexicana (SEP, Plan 2022). El recurso es completamente gratuito: puedes imprimir el PDF para trabajarlo en el cuaderno o jugarlo en línea sin necesidad de registro. No hay cronómetros ni puntajes; el tono es cálido y respetuoso para que cada quien avance a su propio ritmo. Como siguiente paso, prueba el rompecabezas de sumas y restas hasta 100 con otros temas decorativos para seguir practicando el cálculo con números de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-navidad-ada1",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-76ca"
+        },
+        {
+          "label": "Rompecabezas con Miscelánea (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-miscelaneo-5a7d"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-ocupaciones-6774",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "occupations",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Ocupaciones",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Ocupaciones. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Ocupaciones",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Ocupaciones",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "En este rompecabezas matemático tu hijo o tus alumnos resuelven una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas. El tema de ocupaciones es solo decorativo: aparece en el borde y el fondo para hacer la actividad más alegre, pero aquí no se cuentan dibujos ni objetos. Lo importante es que la niña o el niño calcule cada resultado y descubra el rompecabezas completo, una operación a la vez.",
+      "p2": "Lo que distingue a este mazo de segundo grado es que algunas operaciones llegan hasta números de dos cifras, hasta 100. Estas son las nueve operaciones reales del rompecabezas: 15 − 13 = 2, 8 − 3 = 5, 8 − 5 = 3, 19 − 9 = 10, 23 − 14 = 9, 13 − 6 = 7, 15 − 7 = 8, 10 − 6 = 4 y 8 − 2 = 6. Las que llevan número de dos cifras son la marca de segundo grado: 15 − 13, 19 − 9, 23 − 14 (con el número mayor, 23), 13 − 6, 15 − 7 y 10 − 6. Practicarlas ayuda a entender el valor posicional de las decenas y las unidades.",
+      "p3": "Esta actividad está pensada para segundo grado de primaria (7 a 8 años) y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Al resolver restas con minuendos de dos cifras, las y los estudiantes afianzan el cálculo hasta 100 y reconocen cómo se descomponen las decenas y las unidades. Puedes usar el rompecabezas de dos maneras: descárgalo gratis para imprimir o juégalo en línea, sin registro, sin cronómetros ni puntajes, en un ambiente tranquilo y cálido donde equivocarse es parte de aprender. Como siguiente paso, prueba con otro tema decorativo o avanza a sumas y restas con resultados más grandes para seguir construyendo confianza con los números hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-ocupaciones-6774",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-5476"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-6380"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+        },
+        {
+          "label": "Rompecabezas con Juguetes (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-juguetes-f2fc"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "post_office",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Oficina de Correos",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Oficina de Correos. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Oficina de Correos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Oficina de Correos",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una. El tema de la Oficina de Correos es solo decorativo: adorna el borde y el fondo con sobres, sellos y buzones, pero aquí no se cuenta nada. Lo que importa es calcular cada resultado, escribirlo en su casilla y completar el rompecabezas.",
+      "p2": "Lo que marca esta versión como trabajo de segundo grado son los números de dos cifras: en este mazo aparecen 17 − 14 = 3, 14 − 10 = 4, 22 − 13 = 9 y 10 − 2 = 8, todas dentro del rango hasta 100. Junto a ellas, las operaciones más sencillas refuerzan la confianza: 7 − 5 = 2, 6 + 1 = 7, 6 + 4 = 10, 1 + 4 = 5 y 3 + 3 = 6. Esta mezcla ayuda a tus alumnos a moverse con soltura entre la suma y la resta sin sentirse abrumados.",
+      "p3": "Pensado para segundo grado de primaria (7-8 años), este recurso acompaña la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Al resolver operaciones con números de dos cifras, las y los estudiantes practican el valor posicional de decenas y unidades hasta 100 y consolidan el cálculo mental. No hay cronómetros ni puntajes: el ritmo es tranquilo y cálido, para que cada quien avance a su paso. Puedes descargar el rompecabezas gratis para imprimir o jugarlo en línea sin registro. ¿Siguiente paso? Explora otros temas decorativos de la misma cuadrícula 3×3 y arma una colección de rompecabezas para toda la semana.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-6a58"
+        },
+        {
+          "label": "Rompecabezas con Primavera (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-primavera-e570"
+        },
+        {
+          "label": "Rompecabezas con Vehículos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "post_office",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Oficina de Correos",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Oficina de Correos. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Oficina de Correos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Oficina de Correos",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas para que tu alumno o alumna de segundo grado las resuelva una por una. El tema de la oficina de correos es solo decorativo: aparece en el borde y el fondo para hacer la página más alegre, pero el niño no cuenta sobres ni cartas; lo que hace es calcular cada resta. Por ejemplo, en este mazo encontrará operaciones como 7 - 4 = 3 y 18 - 13 = 5, donde tiene que pensar qué número falta para completar la cuadrícula.",
+      "p2": "Lo que distingue a este rompecabezas como trabajo de segundo grado, y no de primero, es que varias operaciones incluyen un número de dos cifras, hasta llegar al 22. Mira estos casos del mazo: 22 - 13 = 9, 22 - 14 = 8, 15 - 13 = 2, 15 - 5 = 10, 17 - 11 = 6, 14 - 7 = 7, 18 - 13 = 5 y 11 - 7 = 4. Al trabajar con cantidades hasta 100, los niños practican el valor posicional —decenas y unidades— y afianzan sus estrategias de cálculo mental restando números de dos cifras, una habilidad clave de la fluidez en este grado.",
+      "p3": "Esta hoja de trabajo está alineada con la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para niñas y niños de segundo grado de primaria, de 7 a 8 años. Es totalmente gratis: puedes imprimirla para repartir en clase o jugar la versión interactiva en línea, sin registro, sin cronómetros y sin puntajes que presionen. El tono es cálido y respetuoso del ritmo de cada estudiante, para que resolver el rompecabezas se sienta como un reto amable. ¿El siguiente paso? Cuando dominen estas restas hasta 100, prueba un rompecabezas con otro tema decorativo para seguir practicando con números de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-oficina-de-correos-2e5f",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-6a58"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-856f"
+        },
+        {
+          "label": "Rompecabezas con Herramientas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-herramientas-800f"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-a656"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-panaderia-2c9b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "bakery",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Panadería",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Panadería. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Panadería",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Panadería",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque de segundo grado debe resolver una por una. El tema de panadería es solo decorativo —los panes, conchas y bolillos adornan el borde y el fondo para que la hoja se vea alegre—, así que aquí no se cuentan dibujos: lo que se hace es calcular cada resta y descubrir el resultado. La marca de esta banda es clara: algunas operaciones traen un número de dos cifras, como 21 - 14 = 7 o 22 - 13 = 9, lo que lleva el trabajo hasta 100 y lo distingue del primer grado.",
+      "p2": "Las nueve operaciones reales del mazo son: 14 - 11 = 3, 21 - 14 = 7, 12 - 2 = 10, 14 - 12 = 2, 22 - 13 = 9, 20 - 12 = 8, 10 - 4 = 6, 11 - 6 = 5 y 10 - 6 = 4. Fíjate en las que arrancan con números de dos cifras —14, 21, 12, 22, 20, 11 y 10—: son justo el sello de segundo grado, porque piden trabajar con el valor posicional de decenas y unidades hasta 100. Al resolverlas, tu peque practica restar prestando cuando hace falta, reconoce cuántas decenas y unidades hay en cada número, y refuerza la fluidez de cálculo que tanto se ejercita a los 7 y 8 años.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico, en el área de Matemáticas, ideal para segundo grado de primaria (7 a 8 años). El formato de rompecabezas convierte la práctica en un reto amigable: cada casilla resuelta acerca a completar la cuadrícula, sin cronómetros ni puntajes que presionen, solo el gusto de calcular y comprobar. Puedes descargarla gratis para imprimir o jugarla en línea sin necesidad de registrarte. Como siguiente paso, anima a tu peque a explicar en voz alta cómo separó las decenas y las unidades en operaciones como 22 - 13 o 21 - 14, y luego prueben otro rompecabezas de la misma banda hasta 100 con un tema diferente para seguir afianzando la resta de dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-panaderia-2c9b",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-0a6e"
+        },
+        {
+          "label": "Rompecabezas con Aves (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-aves-2db5"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+        },
+        {
+          "label": "Rompecabezas con Flores (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-flores-5e00"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "body_parts",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Partes del Cuerpo",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Partes del Cuerpo. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Partes del Cuerpo",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Partes del Cuerpo",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones reales de sumas y restas mixtas para que tu alumno o alumna de segundo grado las resuelva una por una. El tema de partes del cuerpo es solo decorativo: adorna el borde y el fondo con dibujos amables, pero aquí no se cuenta nada. La tarea es clara: leer cada operación, pensar el resultado y escribir el número correcto en cada casilla, de manera tranquila y a su propio ritmo.",
+      "p2": "Las nueve operaciones de esta cuadrícula son: 12 − 10 = 2, 15 − 5 = 10, 15 − 12 = 3, 13 − 9 = 4, 23 − 14 = 9, 15 − 10 = 5, 21 − 13 = 8, 17 − 11 = 6 y 16 − 9 = 7. Lo que distingue este mazo como trabajo de segundo grado, hasta 100, es que aparecen números de dos cifras: el más grande es el 23, y operaciones como 23 − 14 = 9, 21 − 13 = 8, 17 − 11 = 6 y 16 − 9 = 7 piden a la niña o al niño separar las decenas y las unidades para encontrar la respuesta. Reconocer el valor posicional —cuántas decenas y cuántas unidades hay en cada número hasta 100— es justo el paso que separa segundo grado de primero.",
+      "p3": "Esta actividad acompaña la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, y está pensada para segundo grado de primaria, de 7 a 8 años. Al resolver el rompecabezas, tu estudiante practica el cálculo mental con sumas y restas, afianza la noción de decenas y unidades hasta 100 y gana confianza viendo el tablero completo. El recurso es completamente gratuito: puedes imprimirlo para trabajar con lápiz o jugarlo en línea desde cualquier dispositivo, sin registro, sin cronómetros y sin puntajes. Como siguiente paso, busca otros rompecabezas de sumas y restas hasta 100 con distintos temas para que la práctica se sienta siempre fresca y divertida.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-partes-del-cuerpo-7900",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Navidad (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-navidad-ada1"
+        },
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-be25"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-1423"
+        },
+        {
+          "label": "Rompecabezas con Hospital (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-hospital-1a67"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-postres-y-dulces-f04b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "desserts_and_sweets",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Postres y Dulces",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Postres y Dulces. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Postres y Dulces",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Postres y Dulces",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque debe resolver una por una. El tema de postres y dulces es solo decorativo: adorna el borde y el fondo de la hoja con un toque dulce y alegre, pero aquí no se cuentan paletas ni pasteles. Lo que importa es resolver cada operación, escribir el resultado correcto y completar el rompecabezas como quien arma una pieza tras otra.",
+      "p2": "La marca de segundo grado de este mazo es el trabajo hasta 100: varias operaciones incluyen un número de dos cifras (21 a 100). Las nueve operaciones reales de la cuadrícula son 17 - 9 = 8, 11 - 4 = 7, 10 - 1 = 9, 16 - 11 = 5, 14 - 10 = 4, 24 - 14 = 10, 16 - 13 = 3, 7 - 1 = 6 y 16 - 14 = 2. Las que llevan número de dos cifras —17 - 9, 11 - 4, 10 - 1, 16 - 11, 14 - 10, 24 - 14, 16 - 13 y 16 - 14— son justo el reto que distingue a segundo grado de primer grado, pues piden reconocer el valor posicional de decenas y unidades para restar con seguridad.",
+      "p3": "Trabajar el valor posicional hasta 100, separando decenas y unidades, fortalece la fluidez de cálculo de niñas y niños de 7 a 8 años. Esta hoja está pensada para segundo grado de primaria y se alinea con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas. Puedes usarla en casa o en el salón sin complicaciones: es gratis y está disponible para imprimir en PDF o jugar en línea, sin registro, sin cronómetros y sin puntajes que presionen. El tono es cálido y respetuoso del ritmo de cada estudiante. Como siguiente paso, prueba un rompecabezas con sumas y restas un poco más grandes dentro del 100 o explora otro tema decorativo para mantener viva la práctica con una sonrisa.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-postres-y-dulces-f04b",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-1423"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-76ca"
+        },
+        {
+          "label": "Rompecabezas con Frutas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-frutas-ab9a"
+        },
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-5476"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-primavera-e570",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "spring",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Primavera",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 con tema de primavera para segundo grado (7-8 años). Resuelve 9 operaciones, varias de dos cifras. Gratis, en línea o PDF.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Primavera",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Primavera",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este Rompecabezas de Sumas y Restas hasta 100 es una cuadrícula de 3×3 con nueve operaciones mixtas que tu niña o niño debe resolver, una por una, hasta completar el tablero. El tema de primavera —flores, mariposas y colores frescos en el borde y el fondo— es solo decorativo: aquí no se cuentan dibujos, se calculan resultados. La marca de este mazo es que aparecen números de dos cifras (hasta 100), lo que lo ubica claramente en segundo grado y lo distingue de un rompecabezas de primer grado.",
+      "p2": "Las nueve operaciones del tablero son restas reales hasta 100: 19 − 14 = 5, 13 − 11 = 2, 23 − 13 = 10, 23 − 14 = 9, 10 − 7 = 3, 8 − 4 = 4, 19 − 13 = 6, 11 − 4 = 7 y 13 − 5 = 8. Varias parten de un número de dos cifras —23 − 13, 23 − 14, 19 − 14, 19 − 13, 13 − 11, 13 − 5, 11 − 4 y 10 − 7— y esa es justo la marca de segundo grado: trabajar con cantidades hasta 100. Al resolverlas, el estudiante repasa el valor posicional de decenas y unidades y afianza el cálculo mental que pide la banda 21–100.",
+      "p3": "Esta hoja se alinea con la Nueva Escuela Mexicana (SEP) y con el campo formativo Saberes y Pensamiento Científico — Matemáticas del Plan 2022, pensada para segundo grado de primaria (7 a 8 años). Cada resta combina decenas y unidades para que el niño afiance el valor posicional hasta 100 sin presión: no hay cronómetro ni puntaje, solo el gusto de armar el rompecabezas con calma. Puedes usarla gratis: imprímela en PDF para la libreta o jugarla en línea, sin registro y desde cualquier dispositivo. Como siguiente paso, prueba un Rompecabezas de Sumas y Restas hasta 100 con otro tema decorativo o con más sumas para seguir practicando las dos cifras.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-primavera-e570",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Herramientas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-herramientas-800f"
+        },
+        {
+          "label": "Rompecabezas con Juguetes (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-juguetes-f2fc"
+        },
+        {
+          "label": "Rompecabezas con Verduras (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-verduras-94f2"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-f46c"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-salon-de-clases-be25",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "classroom",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Salón de Clases",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de salón de clases. Segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Salón de Clases",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Salón de Clases",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla presenta una operación que hay que resolver: el reto está en pensar con calma cada resultado hasta completar el tablero. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones, ya sea en el salón o en casa.",
+      "p2": "El tablero combina operaciones para que el niño piense con cuidado en cada casilla. Aparecen restas con números de dos cifras como 12 − 3 = 9, 10 − 3 = 7, 14 − 4 = 10, 21 − 13 = 8 y 15 − 9 = 6, junto con restas más sencillas como 9 − 7 = 2, 4 − 1 = 3, 7 − 3 = 4 y 7 − 2 = 5. Operaciones como 21 − 13, donde se trabaja con números mayores a 20, son la marca del segundo grado. Un detalle importante: el tema de salón de clases es solo decorativo, está en el borde y el fondo. No se cuentan objetos del salón; lo que se hace es resolver cada operación y escribir el resultado correcto.",
+      "p3": "Trabajar con números de dos cifras como el 21 ayuda a afianzar el valor posicional —decenas y unidades— y el cálculo de sumas y restas hasta 100, contenidos propios del segundo grado de primaria (7 a 8 años). La actividad está alineada con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas). Puedes usarla como apoyo en clase o en casa: imprímela como hoja para resolver con lápiz o juégala en línea, las dos opciones son totalmente gratuitas y sin necesidad de registro, sin cronómetros ni puntajes que generen presión. Como siguiente paso, busca otros rompecabezas con restas que requieran reagrupar o con números un poco mayores, para seguir fortaleciendo la confianza al sumar y restar hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-salon-de-clases-be25",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Salón de Clases (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-salon-de-clases-c571"
+        },
+        {
+          "label": "Rompecabezas con Postres y Dulces (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+        },
+        {
+          "label": "Rompecabezas con Animales de Granja (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-animales-de-granja-37d7"
+        },
+        {
+          "label": "Rompecabezas con Música (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-musica-5918"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-salon-de-clases-c571",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "classroom",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Salón de Clases",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Salón de Clases. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Salón de Clases",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Salón de Clases",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas para que tu peque las resuelva una por una. El tema del salón de clases es solo decorativo: adorna el borde y el fondo con un ambiente escolar acogedor, pero no se cuenta nada. Aquí la estrella son los números: el niño lee cada operación, piensa la respuesta y la escribe. Verás retos sencillos como 1 + 1 = 2, 1 + 9 = 10 y 4 + 2 = 6, junto con restas como 9 − 4 = 5 que afianzan la fluidez de cálculo dentro del primer nivel de dificultad.",
+      "p2": "Lo que distingue a este mazo como trabajo de segundo grado son las operaciones con números de dos cifras, hasta 100. Cuatro de las nueve operaciones cruzan la decena y exigen reagrupar mentalmente: 21 − 12 = 9, 19 − 12 = 7, 15 − 7 = 8 y 16 − 12 = 4. Ese salto del cálculo hasta 10 hacia el trabajo hasta 100, con minuendos de dos cifras como 21, 19, 16 y 15, es justo la marca que separa segundo grado de primer grado. Al resolverlas, tu peque practica el valor posicional —reconocer decenas y unidades— y la resta con reagrupación, dos cimientos del cálculo mental que se consolidan a esta edad.",
+      "p3": "Esta hoja está pensada para segundo grado de primaria (7 a 8 años) y se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas, donde la cuadrícula de sumas y restas mixtas fortalece la comprensión de las decenas y unidades hasta 100. La puedes usar de dos maneras, ambas gratis y sin registro: imprime el PDF para trabajar con lápiz en casa o en el aula, o resuélvela en línea desde cualquier dispositivo. No hay cronómetros ni puntajes que presionen; tu peque avanza a su ritmo, sin prisas y sin pena al equivocarse. Cuando termine este rompecabezas del salón de clases, busca otro tema decorativo para seguir practicando el cálculo hasta 100 y mantener viva la confianza con los números.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-salon-de-clases-c571",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Postres y Dulces (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-postres-y-dulces-f04b"
+        },
+        {
+          "label": "Rompecabezas con Emociones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-emociones-1423"
+        },
+        {
+          "label": "Rompecabezas con Flores (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-flores-5e00"
+        },
+        {
+          "label": "Rompecabezas con Ocupaciones (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-ocupaciones-6774"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-vehiculos-4eb9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "vehicles",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Vehículos",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 (números de dos cifras) con tema de vehículos. Para segundo grado, 7 a 8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Vehículos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Vehículos",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Esta hoja de trabajo convierte la práctica de sumas y restas en un rompecabezas matemático para niñas y niños de segundo grado de primaria. En una cuadrícula de 3×3, cada casilla muestra una operación que hay que resolver: el reto está en pensar con calma cada resultado hasta completar el tablero. El tema de vehículos es solo decorativo (aparece en el borde y el fondo), así que aquí no se cuentan camiones ni coches: lo que se hace es resolver las nueve operaciones. Es ideal para reforzar el cálculo hasta 100 con números de dos cifras de una manera tranquila y divertida, sin prisas ni presiones.",
+      "p2": "Lo que distingue a este mazo de los de primer grado es que algunas operaciones llegan a números de dos cifras (del 21 al 100), la marca clara del trabajo de segundo grado. Por ejemplo, la operación mayor es 23 − 14 = 9, y también se incluyen 18 − 13 = 5, 10 − 8 = 2, 15 − 7 = 8, 18 − 11 = 7, 11 − 1 = 10, 17 − 13 = 4 y 10 − 4 = 6, junto con restas más sencillas como 7 − 4 = 3. Al alternar operaciones de una y de dos cifras, el rompecabezas invita a apoyarse en el valor posicional —separar decenas y unidades— para restar con seguridad y comprobar cada resultado.",
+      "p3": "El recurso se alinea con la Nueva Escuela Mexicana (SEP, Plan 2022), en el campo formativo Saberes y Pensamiento Científico, dentro de Matemáticas: practicar sumas y restas hasta 100 fortalece la fluidez del cálculo y la comprensión de las decenas y unidades en números de dos cifras. No hay cronómetros ni puntajes; el ritmo lo marca cada niña y cada niño, y el ambiente se mantiene cálido para que equivocarse sea parte de aprender. Puedes usar el rompecabezas de dos formas, ambas gratis y sin registro: imprime la hoja en PDF para trabajar con lápiz, o juégalo en línea desde cualquier dispositivo. Como siguiente paso, prueba un rompecabezas con otro tema decorativo o sube a operaciones con números más grandes para seguir afianzando el cálculo hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-vehiculos-4eb9",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-a656"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-f356"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-f46c"
+        },
+        {
+          "label": "Rompecabezas con En el Supermercado (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-en-el-supermercado-7730"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-verduras-94f2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "vegetables",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Verduras",
+      "metaDescription": "Resuelve este rompecabezas de sumas y restas hasta 100 con tema de verduras para segundo grado (7-8 años). Gratis: imprime o juega en línea, sin registro.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Verduras",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Verduras",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones mixtas de sumas y restas que tu peque resuelve una por una para completar el reto. Las verduras del borde son solo un toque decorativo que hace la página más alegre: aquí no se cuentan zanahorias ni jitomates, lo que importa es resolver cada operación. El niño lee la cuenta, calcula el resultado y lo escribe en su casilla, avanzando a su propio ritmo por toda la cuadrícula.",
+      "p2": "Lo que distingue a este mazo de segundo grado es que aparece trabajo hasta 100: varias restas usan números de dos cifras. Por ejemplo, 16 - 14 = 2, 12 - 5 = 7, 14 - 8 = 6 y 22 - 14 = 8 obligan a tu estudiante a pensar en decenas y unidades, no solo en cuentas hasta diez. Las demás operaciones, como 2 + 1 = 3, 6 - 1 = 5, 3 + 7 = 10, 7 - 3 = 4 y 6 + 3 = 9, refuerzan la fluidez con números pequeños, de modo que el rompecabezas combina repaso y reto en una sola página equilibrada.",
+      "p3": "Esta actividad está alineada con la Nueva Escuela Mexicana (SEP, Plan 2022), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, ideal para segundo grado de primaria (7-8 años). Al resolver operaciones hasta 100, los niños fortalecen el valor posicional de decenas y unidades y la comprensión de la suma y la resta como operaciones complementarias. Es completamente gratis: puedes imprimirla para trabajar con lápiz o jugarla en línea sin registro, sin cronómetros ni puntajes que presionen. Cuando tu peque termine este rompecabezas de verduras, prueba otro tema o un nivel distinto para seguir practicando con confianza.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-verduras-94f2",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Vehículos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vehiculos-4eb9"
+        },
+        {
+          "label": "Rompecabezas con Clima (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-clima-a656"
+        },
+        {
+          "label": "Rompecabezas con 4 de Julio (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-4-de-julio-6de5"
+        },
+        {
+          "label": "Rompecabezas con Alrededor de la Casa (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-alrededor-de-la-casa-7906"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-vida-marina-5476",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "ocean_life",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Sumas y Restas hasta 100: Vida Marina",
+      "metaDescription": "Resuelve el rompecabezas de sumas y restas hasta 100 con tema de vida marina. Cuadrícula 3×3 con dos cifras para segundo grado (7-8 años). Gratis, imprime o juega.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Vida Marina",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Vida Marina",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este rompecabezas matemático presenta una cuadrícula de 3×3 con nueve operaciones reales que tu hija o hijo debe resolver, una por una. El tema de vida marina es solo decorativo: adorna el borde y el fondo con peces, conchas y olas, pero NO se cuenta nada. Aquí lo importante son las operaciones, así que en ningún momento se pide \"contar los animales del mar\"; cada casilla pide pensar y resolver una suma o una resta.",
+      "p2": "Lo que distingue a este mazo de segundo grado es que algunas operaciones llegan hasta 100 y muestran un número de dos cifras. Fíjate en estas: 21 - 12 = 9, 15 - 7 = 8, 10 - 5 = 5, 20 - 13 = 7 y 17 - 7 = 10. El número mayor es 21, una cantidad de dos cifras que ya exige trabajar con decenas y unidades. Las demás casillas refuerzan restas básicas: 7 - 5 = 2, 6 - 2 = 4, 9 - 3 = 6 y 7 - 4 = 3, para que niñas y niños afiancen la confianza antes de resolver las más retadoras.",
+      "p3": "Al separar cada número en decenas y unidades, la pequeña o el pequeño practica el valor posicional hasta 100, una habilidad central de segundo grado de primaria (7-8 años). Esta hoja se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico — Matemáticas, y apoya el cálculo mental y escrito con cantidades cada vez mayores. Es completamente gratis: puedes imprimirla en PDF o jugarla en línea sin registro, sin cronómetros ni puntajes, en un ambiente cálido y sin presiones. Cuando termine este rompecabezas, busca otro de la misma serie con un tema distinto y sigue practicando las sumas y restas hasta 100 a su propio ritmo.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-vida-marina-5476",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Vida Marina (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-vida-marina-6380"
+        },
+        {
+          "label": "Rompecabezas con Mascotas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-mascotas-9735"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-6a58"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-a611"
+        }
+      ]
+    },
+    {
+      "slug": "rompecabezas-matematico-mixto-vida-marina-6380",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "math-puzzle",
+        "mode": "mixed",
+        "theme": "ocean_life",
+        "level": "segundo-grado"
+      },
+      "title": "Rompecabezas de Matemáticas hasta 100: Vida Marina",
+      "metaDescription": "Rompecabezas de sumas y restas hasta 100 (dos cifras) con tema de Vida Marina. Segundo grado, 7-8 años. Gratis: imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de matemáticas",
+      "h1": "Resuelve el Rompecabezas de Sumas y Restas hasta 100: Vida Marina",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "2.NBT.B.5",
+      "slotTokens": [
+        "Vida Marina",
+        "Segundo grado de primaria",
+        "hasta 100"
+      ],
+      "p1": "Este Rompecabezas de Sumas y Restas hasta 100 invita a niñas y niños de segundo grado de primaria (7 a 8 años) a resolver una cuadrícula de 3×3 con nueve operaciones mixtas: cinco restas y cuatro sumas. El alegre tema de vida marina —peces, estrellas de mar y corales en el borde y el fondo— es solo decorativo: no se cuenta nada del dibujo; lo que el estudiante hace es resolver cada operación con cuidado, casilla por casilla, hasta completar todo el rompecabezas.",
+      "p2": "Las nueve operaciones de este mazo son reales y pensadas para el cálculo dentro del rango hasta 100: 2 + 1 = 3, 15 − 8 = 7, 19 − 10 = 9, 18 − 14 = 4, 22 − 14 = 8, 13 − 11 = 2, 4 + 6 = 10, 2 + 3 = 5 y 2 + 4 = 6. Cinco de ellas presentan un número de dos cifras —15 − 8, 19 − 10, 18 − 14, 22 − 14 (con el mayor, 22) y 13 − 11—, y esa es justamente la marca que distingue el segundo grado del primero: la práctica con decenas y unidades y el trabajo hasta 100.",
+      "p3": "Al separar cada número en decenas y unidades, las pequeñas y los pequeños afianzan el valor posicional y la fluidez al sumar y restar, una práctica alineada a la Nueva Escuela Mexicana (SEP, Plan 2022) dentro del campo formativo Saberes y Pensamiento Científico, en Matemáticas. La actividad es totalmente gratuita: puedes imprimirla en PDF para trabajar en el cuaderno o jugarla en línea sin registro, sin cronómetros ni puntajes que presionen, con un tono cálido y amable. Como siguiente paso, busca otro rompecabezas de la misma serie con un tema distinto para seguir practicando las restas con números de dos cifras hasta 100.",
+      "canonicalDeckSlug": "rompecabezas-matematico-mixto-vida-marina-6380",
+      "carousel": [
+        {
+          "label": "Rompecabezas con Mascotas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-mascotas-9735"
+        },
+        {
+          "label": "Rompecabezas con Oficina de Correos (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-oficina-de-correos-2bc3"
+        },
+        {
+          "label": "Rompecabezas con Formas (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-formas-856f"
+        },
+        {
+          "label": "Rompecabezas con Árboles (hasta 100)",
+          "href": "rompecabezas-matematico-mixto-arboles-c9f6"
         }
       ]
     }

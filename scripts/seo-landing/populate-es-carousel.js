@@ -50,8 +50,12 @@ let populated = 0, sub4 = 0;
 for (const k in groups) {
   const list = groups[k];
   const len = list.length;
-  const prefix = list[0].coordinate.type === 'addition' ? 'Sumas con ' : list[0].coordinate.type === 'subtraction' ? 'Resta con ' : null;
-  if (!prefix) continue; // only addition/subtraction in es so far
+  const type = list[0].coordinate.type;
+  const prefix = type === 'addition' ? 'Sumas con ' : type === 'subtraction' ? 'Resta con ' : type === 'math-puzzle' ? 'Rompecabezas con ' : null;
+  if (!prefix) continue; // addition / subtraction / math-puzzle in es so far
+  // math-puzzle spans two grade bands (Segundo hasta 100 / Primer hasta 20); the band suffix
+  // disambiguates a same-theme cross-band sibling once both bands are live (Segundo-only until Primer lands).
+  const bandSuffix = (n) => type !== 'math-puzzle' ? '' : n.coordinate.level === 'segundo-grado' ? ' (hasta 100)' : n.coordinate.level === 'primer-grado' ? ' (hasta 20)' : '';
   for (let i = 0; i < len; i++) {
     const self = list[i];
     const seen = new Set([self.slug]);
@@ -61,7 +65,7 @@ for (const k in groups) {
       const n = list[(i + off) % len];
       if (seen.has(n.slug)) continue;
       seen.add(n.slug);
-      car.push({ label: prefix + (THEME_ES[n.coordinate.theme] || n.coordinate.theme), href: n.slug });
+      car.push({ label: prefix + (THEME_ES[n.coordinate.theme] || n.coordinate.theme) + bandSuffix(n), href: n.slug });
     }
     self.carousel = car;
     populated++;
@@ -79,7 +83,7 @@ for (const l of es.landings) {
     const t = bySlug.get(c.href);
     if (!t) { console.log('DANGLING', l.slug, '->', c.href); bad++; continue; }
     if (t.coordinate.type !== l.coordinate.type || t.coordinate.mode !== l.coordinate.mode) { console.log('CROSS-MODE', l.slug, '->', c.href); bad++; }
-    const wantPrefix = l.coordinate.type === 'addition' ? 'Sumas con ' : 'Resta con ';
+    const wantPrefix = l.coordinate.type === 'addition' ? 'Sumas con ' : l.coordinate.type === 'subtraction' ? 'Resta con ' : 'Rompecabezas con ';
     if (!c.label.startsWith(wantPrefix)) { console.log('LABEL-OP-MISMATCH', l.slug, '->', c.label); bad++; }
     if (c.href === l.slug) { console.log('SELF-LINK', l.slug); bad++; }
   }

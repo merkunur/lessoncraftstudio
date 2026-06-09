@@ -12421,6 +12421,2196 @@
           "href": "resta-buscar-sustraendo-juguetes-856a"
         }
       ]
+    },
+    {
+      "slug": "resta-tachar-panaderia-fd3c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "bakery",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en la Panadería",
+      "metaDescription": "Tacha y cuenta cuántos quedan con restas hasta 10 y dibujos de panadería. Hojas para niños de 5 a 7 años, gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Panadería",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "Bollo",
+        "Pan tostado",
+        "Rollo de canela",
+        "Pastel de queso",
+        "Brownie",
+        "Eclair",
+        "Panadería",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de trabajo de resta lleva a los niños a una panadería llena de cosas ricas para aprender a restar quitando. En cada problema aparece un grupo de dibujos del mismo objeto y el niño tacha cuántos se quitan; luego cuenta los que quedan para descubrir el resultado. Es la forma más concreta de entender la resta: tachar y contar lo que queda, paso a paso, sin prisas. Todas las restas llegan hasta 10, así que los pequeños trabajan con cantidades que pueden ver, señalar y contar con el dedo.",
+      "p2": "Los seis problemas usan objetos reales de la panadería con conteos discretos que los niños reconocen. Hay cinco bollos para tachar cuatro y ver que queda uno; seis panes tostados donde se tachan tres y quedan tres; ocho rollos de canela en los que se tachan cuatro y quedan cuatro. También hay siete pasteles de queso (tacha seis, queda uno), cuatro brownies (tacha tres, queda uno) y nueve eclairs (tacha tres, quedan seis). Cada dibujo se puede contar uno por uno, sin charolas ni docenas: solo objetos sueltos y fáciles de seguir.",
+      "p3": "Puedes imprimir esta ficha o jugarla en línea de forma gratuita, sin necesidad de registrarte ni crear una cuenta. No hay cronómetros ni puntajes: el niño avanza a su propio ritmo, con un tono cálido y sin vergüenza si se equivoca, porque tachar y volver a contar es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP) dentro del campo de Pensamiento Matemático — Número, ideal para Preescolar (5 años) y Primer grado de primaria. Cuando los niños dominen la resta hasta 10, el siguiente paso natural es practicar restas hasta 20.",
+      "canonicalDeckSlug": "resta-tachar-panaderia-fd3c",
+      "carousel": [
+        {
+          "label": "Resta con Playa",
+          "href": "resta-tachar-playa-d4cc"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-e2e3"
+        },
+        {
+          "label": "Resta con Desayuno",
+          "href": "resta-tachar-desayuno-923a"
+        },
+        {
+          "label": "Resta con Postres y Dulces",
+          "href": "resta-tachar-postres-y-dulces-103d"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-4-de-julio-551b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "4th_of_july",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta del 4 de Julio",
+      "metaDescription": "Hojas de trabajo de resta hasta 10 con tema del 4 de Julio: tacha y cuenta cuántos quedan. Para niños de 5 a 7 años, gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el 4 de Julio",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "4 de Julio",
+        "resta-tachar-4-de-julio-551b",
+        "Pensamiento Matemático — Número",
+        "Nueva Escuela Mexicana (SEP)",
+        "Educación Preescolar (5 años) a Primer grado de primaria",
+        "restas hasta 10"
+      ],
+      "p1": "Estas hojas de trabajo de resta convierten la fiesta del 4 de Julio en una actividad sencilla para quitar y contar. En cada problema tu pequeño ve un grupo de dibujos de un mismo objeto, tacha los que se quitan y cuenta los que quedan. Así la resta se vuelve algo que se puede ver y tocar con el dedo: nada de números abstractos, solo dibujos que se cuentan uno por uno. Son restas hasta 10, ideales para niñas y niños de 5 a 7 años que apenas están conociendo qué significa quitar.",
+      "p2": "La ficha trae seis problemas, cada uno con su propio objeto del festejo. Tu hija tacha la cantidad indicada y luego cuenta cuántos dibujos quedan sin tachar; ese número que queda es la respuesta. Puedes imprimir la hoja gratis o jugarla en línea, sin crear cuenta y sin registro. No hay cronómetro ni puntaje: el ritmo lo marca el niño, con calma y a su modo.",
+      "p3": "Lo que hace especial a esta hoja es la acción de tachar y contar lo que queda, el camino más concreto hacia la resta de quitar. En cada problema aparecen dibujos discretos que se cuentan de uno en uno antes y después de tachar. Empieza con la Estatua de la Libertad: hay 8 estatuas, tu pequeño tacha 3 y cuenta que quedan 5 (8 − 3 = 5). Sigue con las hamburguesas: son 3, tacha 1 y quedan 2 (3 − 1 = 2). Luego vienen los hot dogs: de 8, tacha 1 y quedan 7 (8 − 1 = 7). Con las banderas la resta es bien sencilla: hay 2, tacha 1 y queda 1 (2 − 1 = 1). En los pasteles tacha 2 de los 3 y queda 1 (3 − 2 = 1). Y para cerrar, las papas fritas: son 9, tacha 4 y quedan 5 (9 − 4 = 5). En cada caso la pregunta es la misma y siempre clara: ¿cuántos quedan? Tu hijo tacha, cuenta los dibujos que sobran y escribe el resultado. Estas hojas de trabajo se enmarcan en el Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y acompañan a las niñas y niños desde Educación Preescolar (5 años) hasta Primer grado de primaria, con restas hasta 10. Al unir el tema del 4 de Julio con objetos que se pueden contar y tachar, la resta deja de ser un misterio y se vuelve un juego cálido y tranquilo que tu pequeño puede repetir las veces que quiera, en papel o en la pantalla.",
+      "canonicalDeckSlug": "resta-tachar-4-de-julio-551b",
+      "carousel": [
+        {
+          "label": "Resta con Accesorios",
+          "href": "resta-tachar-accesorios-a38e"
+        },
+        {
+          "label": "Resta con Actividades",
+          "href": "resta-tachar-actividades-204d"
+        },
+        {
+          "label": "Resta con Panadería",
+          "href": "resta-tachar-panaderia-fd3c"
+        },
+        {
+          "label": "Resta con Campamento",
+          "href": "resta-tachar-campamento-c259"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-accesorios-a38e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "accessories",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Accesorios",
+      "metaDescription": "Hojas de trabajo de resta con accesorios: tacha y cuenta cuántos quedan. Restas hasta 10 para niños de 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Accesorios",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-accesorios-a38e"
+      ],
+      "p1": "Estas hojas de trabajo de resta enseñan a restar quitando, de la manera más concreta y clara para los más pequeños: el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema usa un accesorio real y conocido —gafas, orejeras, chaleco, sombrero de sol, máscara y diadema— para que la resta tenga sentido con objetos que los niños reconocen de su día a día. No hay que escribir números difíciles ni adivinar lo que falta: solo tachar y contar. Así, la idea de \"quitar\" se vuelve visible y fácil de entender, y el niño descubre que restar es simplemente ver cuántos quedan después de tachar.",
+      "p2": "El mazo trae seis problemas, cada uno con su propio accesorio y restas hasta 10. En el primero aparecen 5 gafas: el niño tacha 4 y queda 1. Luego hay 2 orejeras, tacha 1 y queda 1. Después un grupo de 4 chalecos, tacha 3 y queda 1. Más adelante 8 sombreros de sol, tacha 3 y quedan 5; después 6 máscaras, tacha 4 y quedan 2; y por último 7 diademas, tacha 2 y quedan 5. En cada ficha el niño ve los dibujos completos, marca con una tachadura los que se quitan y cuenta los que sobran para hallar el resultado. Las imágenes son el corazón de la actividad: cada objeto está claro y bien dibujado para que contar sea sencillo y sin confusiones.",
+      "p3": "Tachar y contar los que quedan es la puerta de entrada perfecta a la resta para niños de Educación Preescolar (5 años) y Primer grado de primaria, entre los 5 y los 7 años. Esta actividad acompaña el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana de la SEP, porque ayuda a que el niño relacione la cantidad con la acción de quitar antes de pasar a las operaciones escritas. Al tachar 4 gafas de 5 y descubrir que queda 1, o al tachar 3 sombreros de sol de 8 y contar los 5 que quedan, el niño entiende con sus propios ojos qué significa restar. Cada problema —2 orejeras menos 1, 4 chalecos menos 3, 6 máscaras menos 4 y 7 diademas menos 2— refuerza la pregunta clave: ¿cuántos quedan? Puedes usar estas hojas de trabajo gratis: descárgalas en PDF para imprimir o juega la versión interactiva en línea, sin registro y sin necesidad de crear una cuenta. No hay cronómetros ni puntajes; solo una actividad cálida y tranquila para que cada niño practique a su ritmo, tache con confianza y cuente los que quedan una y otra vez.",
+      "canonicalDeckSlug": "resta-tachar-accesorios-a38e",
+      "carousel": [
+        {
+          "label": "Resta con Actividades",
+          "href": "resta-tachar-actividades-204d"
+        },
+        {
+          "label": "Resta con Animales",
+          "href": "resta-tachar-animales-dec7"
+        },
+        {
+          "label": "Resta con Playa",
+          "href": "resta-tachar-playa-d4cc"
+        },
+        {
+          "label": "Resta con Navidad",
+          "href": "resta-tachar-navidad-413a"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-actividades-204d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "activities",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Actividades",
+      "metaDescription": "Resta hasta 10 con actividades: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Actividades",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "Pescar: 6, tacha 4, quedan 2",
+        "Bailar: 2, tacha 1, queda 1",
+        "Béisbol: 3, tacha 1, quedan 2",
+        "Nadar: 8, tacha 4, quedan 4",
+        "Correr: 3, tacha 1, quedan 2",
+        "Rompecabezas: 6, tacha 5, queda 1"
+      ],
+      "p1": "Esta hoja de trabajo de resta enseña a quitar de la manera más concreta para los más pequeños: el niño mira un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema usa dibujos de actividades que los niños reconocen al instante —pescar, bailar, jugar béisbol, nadar, correr y armar un rompecabezas— para que la resta sea algo que se ve y se toca, no solo números en una hoja.",
+      "p2": "Son seis restas hasta 10 con tema de actividades. En el primer problema hay 6 cañas de pescar: tacha 4 y quedan 2. Luego aparecen 2 niños bailando: tacha 1 y queda 1. Siguen 3 pelotas de béisbol: tacha 1 y quedan 2. Después 8 nadadores: tacha 4 y quedan 4. En el de correr hay 3 corredores: tacha 1 y quedan 2. Y al final 6 piezas de rompecabezas: tacha 5 y queda 1.",
+      "p3": "La mecánica es siempre la misma y por eso funciona tan bien en Educación Preescolar y Primer grado de primaria: el niño cuenta cuántos dibujos hay, tacha cuántos se quitan y vuelve a contar para descubrir cuántos quedan. Así la operación a − b = c deja de ser abstracta. En lugar de memorizar, el niño vive la resta como quitar: tacho 4 de las 6 cañas de pescar y veo con mis propios ojos que quedan 2; tacho 4 de los 8 nadadores y cuento 4 que quedan en el agua. Esta acción de tachar y contar lo que queda es justo lo que pide el Pensamiento Matemático —Número— de la Nueva Escuela Mexicana (SEP) para esta edad: comprender el sentido de quitar antes de escribir cuentas. Cada dibujo se nombra con su objeto real y su conteo exacto, para que el niño relacione la cantidad con cosas que conoce: peces, bailarines, pelotas de béisbol, nadadores, corredores y piezas de rompecabezas. La ficha es ideal para los 5 a 7 años y trabaja únicamente restas hasta 10, un rango cómodo y seguro para empezar. Puedes imprimir la hoja en PDF para trabajarla con lápiz o usar la versión interactiva en línea, gratis y sin registro. No hay cronómetros ni puntajes: el ritmo lo marca el niño, con calma, tachando y contando los que quedan a su propio paso. Una herramienta cálida para que aprender a restar sea sencillo y divertido.",
+      "canonicalDeckSlug": "resta-tachar-actividades-204d",
+      "carousel": [
+        {
+          "label": "Resta con Animales",
+          "href": "resta-tachar-animales-dec7"
+        },
+        {
+          "label": "Resta con En el Supermercado",
+          "href": "resta-tachar-en-el-supermercado-4ba9"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-e2e3"
+        },
+        {
+          "label": "Resta con Salón de Clases",
+          "href": "resta-tachar-salon-de-clases-b09e"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-animales-dec7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Animales",
+      "metaDescription": "Resta hasta 10 con animales: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Animales",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "4 ovejas, tacha 2, quedan 2",
+        "5 cebras, tacha 2, quedan 3",
+        "5 cisnes, tacha 1, quedan 4",
+        "8 renos, tacha 3, quedan 5",
+        "10 pandas, tacha 7, quedan 3",
+        "5 zorros, tacha 1, quedan 4"
+      ],
+      "p1": "Estas hojas de trabajo de resta convierten cada problema en una escena de animales que el niño puede ver y tocar con el lápiz. En lugar de números sueltos, cada resta empieza con un grupo de dibujos: el pequeño tacha los que se van y cuenta los que quedan. Así la resta deja de ser abstracta y se vuelve una acción concreta de quitar, perfecta para quienes apenas empiezan a restar hasta 10.",
+      "p2": "La mecánica es siempre la misma, clara y cálida: aparecen N animalitos, el niño tacha M con su lápiz o con el dedo en la pantalla, y luego cuenta cuántos quedan para descubrir el resultado. Sin cronómetros, sin puntajes y sin prisas. Puedes imprimir la ficha en PDF o jugarla en línea, gratis y sin registro, en casa o en el salón.",
+      "p3": "El mazo de Animales trae seis problemas, cada uno con su animal de verdad para que el conteo sea claro y discreto. En el primero hay 4 ovejas: el niño tacha 2 y quedan 2 (4 − 2 = 2). Luego aparecen 5 cebras: tacha 2 y quedan 3 (5 − 2 = 3). Siguen 5 cisnes: tacha 1 y quedan 4 (5 − 1 = 4). Después vienen 8 renos: tacha 3 y quedan 5 (8 − 3 = 5). El más grande son 10 pandas: tacha 7 y quedan 3 (10 − 7 = 3). Y al final hay 5 zorros: tacha 1 y quedan 4 (5 − 1 = 4). En cada caso el niño hace lo mismo —tachar cuántos se quitan y contar los que quedan—, de modo que entiende con los ojos y con la mano qué significa restar quitando. Esta actividad está pensada para el tránsito de la Educación Preescolar (5 años) al Primer grado de primaria, con restas sencillas hasta 10. Acompaña el área de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y trabaja el sentido del número apoyándose en imágenes, que aquí son contenido de primera clase: ovejas, cebras, cisnes, renos, pandas y zorros que el niño cuenta uno por uno. Es una hoja de trabajo gratis, lista para imprimir o resolver en línea, ideal para reforzar la resta sin presión y con animalitos que invitan a seguir contando.",
+      "canonicalDeckSlug": "resta-tachar-animales-dec7",
+      "carousel": [
+        {
+          "label": "Resta con En el Supermercado",
+          "href": "resta-tachar-en-el-supermercado-4ba9"
+        },
+        {
+          "label": "Resta con Panadería",
+          "href": "resta-tachar-panaderia-fd3c"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-2-4026"
+        },
+        {
+          "label": "Resta con Ropa",
+          "href": "resta-tachar-ropa-e18b"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-arboles-4281",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "tree",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Árboles",
+      "metaDescription": "Resta hasta 10 con árboles: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Árboles",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "roble",
+        "árbol del amor",
+        "sicómoro",
+        "abeto",
+        "higuera de Bengala",
+        "álamo temblón"
+      ],
+      "p1": "Estas hojas de trabajo de resta con árboles enseñan a quitar de la forma más concreta que existe: tu niña o niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema es una resta hasta 10 que se resuelve mirando y contando, sin números abstractos. Ideal para Educación Preescolar (5 años) y Primer grado de primaria, esta ficha vuelve visible la idea de quitar: lo que tachas se va, lo que queda es la respuesta.",
+      "p2": "Cada problema viene ilustrado con un árbol real para que el conteo tenga sentido. En el primero hay 4 robles: tacha 3 y queda 1. Luego aparecen 6 árboles del amor: tacha 2 y quedan 4. Sigue el sicómoro con 9 dibujos: tacha 8 y queda 1. Después 5 abetos: tacha 4 y queda 1. La higuera de Bengala trae 9 dibujos: tacha 6 y quedan 3. Y al final 5 álamos temblones: tacha 1 y quedan 4. Cada resta se ve, se tacha y se cuenta.",
+      "p3": "La mecánica es siempre la misma y por eso resulta tan clara para los más pequeños: en cada hilera hay un grupo de árboles iguales, tu niña o niño tacha cuántos se quitan y luego cuenta cuántos quedan para escribir el resultado. Es la resta de quitar más concreta que hay, porque tachar y contar lo que queda convierte la operación en algo que se toca con los ojos. No hay que adivinar ningún número que falta ni calcular cuánto se quitó: solo tachar y contar los que quedan. Los conteos son discretos y reales —1 roble que queda, 4 árboles del amor, 1 sicómoro, 1 abeto, 3 higueras de Bengala y 4 álamos temblones— para que cada resultado se pueda verificar contando con el dedo. Esta hoja de trabajo se alinea con la Nueva Escuela Mexicana de la SEP dentro del campo de Pensamiento Matemático, en el eje de Número, y apoya el aprendizaje de las restas hasta 10. La puedes imprimir en PDF o jugar en línea, totalmente gratis y sin registro. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada niña o niño, en un ambiente cálido donde equivocarse es parte de aprender. Tacha, cuenta los que quedan y descubre cuántos árboles se quedan en cada bosque.",
+      "canonicalDeckSlug": "resta-tachar-arboles-4281",
+      "carousel": [
+        {
+          "label": "Resta con Verduras",
+          "href": "resta-tachar-verduras-b222"
+        },
+        {
+          "label": "Resta con Vehículos",
+          "href": "resta-tachar-vehiculos-ecbf"
+        },
+        {
+          "label": "Resta con 4 de Julio",
+          "href": "resta-tachar-4-de-julio-551b"
+        },
+        {
+          "label": "Resta con Playa",
+          "href": "resta-tachar-playa-d4cc"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-aves-2-4026",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "birds_2",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Tacha y Cuenta: Resta con Aves (Garza y Halcón)",
+      "metaDescription": "Resta hasta 10 con aves (garza, halcón, águila): tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis: imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Aves",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-aves-2-4026",
+        "birds_2",
+        "Aves",
+        "5-7",
+        "Pensamiento Matemático — Número",
+        "Nueva Escuela Mexicana"
+      ],
+      "p1": "Estas hojas de trabajo de resta convierten el restar en algo que se ve y se toca: el niño tacha los dibujos que se quitan y luego cuenta cuántos quedan. Es la forma más concreta de la resta de quitar, con restas hasta 10 y seis problemas ilustrados con aves de verdad. Nada de números abstractos al principio: primero se tacha, luego se cuenta lo que queda.",
+      "p2": "Cada problema muestra un grupo de una sola ave. El niño tacha cuántas se van y descubre el resultado contando las que sobran. Puedes imprimir la ficha en PDF o jugar en línea, gratis y sin registro, con un tono cálido y sin cronómetros ni puntajes.",
+      "p3": "Así funciona en este mazo de Aves, paso a paso con conteos reales. En el primer problema aparecen 5 garzas; el niño tacha 3 y cuenta que quedan 2 (5 − 3 = 2). Luego hay 3 cisnes: tacha 1 y quedan 2 (3 − 1 = 2). Después llegan 9 halcones; tacha 4 y al contar descubre que quedan 5 (9 − 4 = 5). Sigue un grupo de 5 canarios: tacha 3 y quedan 2 (5 − 3 = 2). El quinto problema muestra 6 pájaros carpinteros; tacha 5 y queda solo 1 (6 − 5 = 1). Por último aparecen 9 águilas: tacha 7 y, al contar, quedan 2 (9 − 7 = 2). En cada caso la mecánica es la misma y muy clara: mira cuántas aves hay, tacha las que se quitan y cuenta las que quedan. Esa acción de tachar y contar lo que queda es justo lo que ancla el sentido de la resta en niños de Educación Preescolar (5 años) y Primer grado de primaria. Las imágenes no son adorno: cada ave tiene un conteo discreto que el niño puede señalar con el dedo mientras tacha, así que la garza, el cisne, el halcón, el canario, el pájaro carpintero y el águila se vuelven apoyos para entender de dónde sale el resultado. El material se alinea con la Nueva Escuela Mexicana de la SEP, dentro del campo de Pensamiento Matemático — Número, y refuerza la idea de quitar como base de la resta. Puedes usarlo en el salón o en casa, imprimirlo cuantas veces quieras o jugarlo en línea sin crear cuenta. Tachar y contar cuántos quedan es un primer puente firme hacia la resta escrita.",
+      "canonicalDeckSlug": "resta-tachar-aves-2-4026",
+      "carousel": [
+        {
+          "label": "Resta con Partes del Cuerpo",
+          "href": "resta-tachar-partes-del-cuerpo-afc9"
+        },
+        {
+          "label": "Resta con Desayuno",
+          "href": "resta-tachar-desayuno-923a"
+        },
+        {
+          "label": "Resta con Salón de Clases",
+          "href": "resta-tachar-salon-de-clases-b09e"
+        },
+        {
+          "label": "Resta con Emociones",
+          "href": "resta-tachar-emociones-7c11"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-aves-e2e3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "birds",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Aves",
+      "metaDescription": "Hojas de trabajo de resta con aves para tachar y contar cuántos quedan. Restas hasta 10 para niños de 5 a 7 años. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Aves",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "aves",
+        "tachar",
+        "quedan",
+        "restas hasta 10",
+        "preescolar",
+        "primer grado"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu pequeño aprende a restar de la manera más concreta: tachando dibujos y contando los que quedan. Cada problema muestra un grupo de aves; el niño tacha cuántas se quitan y cuenta cuántas quedan. Así la resta deja de ser un número abstracto y se vuelve una acción que se ve y se entiende, perfecta para los primeros pasos con restas hasta 10.",
+      "p2": "La ficha trae seis problemas, cada uno con su ave de verdad para que contar sea fácil y divertido. Tu hija o hijo tacha y cuenta a su propio ritmo, sin cronómetros ni puntajes: solo la calma de mirar, tachar y descubrir cuántas aves quedan en cada grupo.",
+      "p3": "Cada problema funciona igual y siempre con aves: aparece un grupo de dibujos, el niño tacha cuántos se quitan y cuenta cuántos quedan. Empezamos con 4 buitres; tacha 1 y quedan 3 (4 − 1 = 3). Luego 3 águilas; tacha 1 y quedan 2 (3 − 1 = 2). Después 3 búhos; tacha 2 y queda 1 (3 − 2 = 1). Siguen 5 loros; tacha 3 y quedan 2 (5 − 3 = 2). El reto grande es la avestruz: 10 dibujos; tacha 9 y queda 1 (10 − 9 = 1). Cerramos con 9 pelícanos; tacha 2 y quedan 7 (9 − 2 = 7). En cada caso la pregunta es la misma y bien clara: ¿cuántas aves quedan? Como los conteos son distintos —del grupo pequeño de los búhos a la decena completa de la avestruz—, tu pequeño practica quitar y contar con números variados, todos dentro de las restas hasta 10. Esta hoja de trabajo de resta acompaña el Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP y está pensada para niños de Educación Preescolar (5 años) hasta Primer grado de primaria, de 5 a 7 años. Puedes imprimirla en PDF o jugarla en línea, totalmente gratis y sin registro. Las aves dibujadas —buitre, águila, búho, loro, avestruz y pelícano— hacen que tachar y contar sea concreto: tu hija o hijo ve el grupo, tacha lo que se quita y cuenta con sus deditos lo que queda. Tachar y contar lo que queda es la base sólida sobre la que más adelante se construyen todas las restas.",
+      "canonicalDeckSlug": "resta-tachar-aves-e2e3",
+      "carousel": [
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-2-4026"
+        },
+        {
+          "label": "Resta con Partes del Cuerpo",
+          "href": "resta-tachar-partes-del-cuerpo-afc9"
+        },
+        {
+          "label": "Resta con Navidad",
+          "href": "resta-tachar-navidad-413a"
+        },
+        {
+          "label": "Resta con Pascua",
+          "href": "resta-tachar-pascua-7995"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-campamento-c259",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "camping",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta de Campamento",
+      "metaDescription": "Resta hasta 10 con tema de campamento: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Campamento",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-campamento-c259"
+      ],
+      "p1": "¿Buscas una manera concreta de enseñar a restar? En esta hoja de trabajo de resta los niños no memorizan números: tachan y cuentan. Cada problema muestra un grupo de dibujos del campamento, el niño tacha los que se quitan y cuenta cuántos quedan. Así la resta se vuelve algo que se puede ver y tocar con la mirada, perfecta para quienes apenas empiezan con los números.",
+      "p2": "El tema de campamento llena la ficha de objetos que les encantan a los pequeños: rocas, troncos, mapas, sillas de camping, fogatas y ríos. Cada resta cuenta una pequeña historia al aire libre, y al tachar los dibujos que sobran el niño descubre por sí mismo cuántos quedan. Sin cronómetros ni puntajes: solo tachar, contar y aprender con calma.",
+      "p3": "Esta hoja de trabajo reúne seis restas de quitar hasta 10, cada una con su propio objeto de campamento y su conteo real. En la primera hay 5 rocas: el niño tacha 2 y quedan 3 (5 − 2 = 3). Luego aparecen 7 troncos: tacha 4 y quedan 3 (7 − 4 = 3). Después un mapa por cada dibujo, 9 en total: tacha 6 y quedan 3 (9 − 6 = 3). Siguen 7 sillas de camping: tacha solo 1 y quedan 6 (7 − 1 = 6), una resta sencilla para tomar confianza. En la fogata hay 5 dibujos: tacha 2 y quedan 3 (5 − 2 = 3). Y al final 6 ríos: tacha 4 y quedan 2 (6 − 4 = 2). En cada caso la pregunta es la misma y muy clara: ¿cuántos quedan? El niño tacha los que se quitan y cuenta los que sobran, descubriendo que restar es simplemente quitar y ver lo que queda. Esta ficha apoya el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y acompaña a niños de Educación Preescolar (5 años) hasta Primer grado de primaria, con restas hasta 10. Puedes imprimirla gratis para trabajar en papel o usar la versión interactiva en línea, sin necesidad de registrarte. Es ideal para el salón de clases, para el repaso en casa o para esos ratos en que los pequeños quieren aprender jugando. Tachar y contar lo que queda convierte la resta en una actividad divertida, concreta y al alcance de todos.",
+      "canonicalDeckSlug": "resta-tachar-campamento-c259",
+      "carousel": [
+        {
+          "label": "Resta con Navidad",
+          "href": "resta-tachar-navidad-413a"
+        },
+        {
+          "label": "Resta con Salón de Clases",
+          "href": "resta-tachar-salon-de-clases-b09e"
+        },
+        {
+          "label": "Resta con Postres y Dulces",
+          "href": "resta-tachar-postres-y-dulces-103d"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-8cd4"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-clima-27ad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "weather",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con el Clima",
+      "metaDescription": "Resta hasta 10 con el clima: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el Clima",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-clima-27ad"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte el clima en una manera concreta de quitar y contar. En cada problema aparece un grupo de dibujos del mismo objeto; el niño tacha cuántos se quitan y cuenta los que quedan. Así descubre que restar es simplemente quitar y mirar lo que sobra, sin números abstractos todavía. Las restas llegan hasta 10, perfectas para manos pequeñas que apenas empiezan a contar hacia atrás.",
+      "p2": "Puedes usar estas fichas de dos formas, las dos gratis y sin registro: imprime el PDF para trabajar con lápiz en casa o en el salón, o juega la versión interactiva en línea desde cualquier dispositivo. No hay cronómetros ni puntajes que presionen al niño; solo el gusto tranquilo de tachar un dibujo, contar los que quedan y seguir al siguiente clima.",
+      "p3": "Cada problema muestra un objeto del clima con su propio conteo, para que el niño relacione el dibujo real con la resta. En el primer reto hay 4 soles brillantes: tacha 3 y queda 1 sol. Después aparecen 3 paraguas; tacha 1 y quedan 2 paraguas listos para la lluvia. Llegan 8 gotas de lluvia: tacha 3 y quedan 5 gotas cayendo. El frío trae 5 copos de nieve; tacha 3 y quedan 2 copos. Luego hay 10 lentes de sol en fila: tacha 1 y quedan 9 lentes. Por último, 6 nubes de un día parcialmente nublado; tacha 4 y quedan 2 nubes en el cielo. La mecánica es siempre la misma y muy clara: el niño cuenta el grupo, tacha cuántos se quitan y vuelve a contar los que quedan para encontrar la respuesta. Tachar con una línea suave deja ver lo que se fue y lo que sobra, así la resta se entiende con los ojos y no de memoria. Esta hoja apoya el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y acompaña a niños de Educación Preescolar de 5 años hasta Primer grado de primaria que practican restas hasta 10. Al usar imágenes del clima que ya conocen, soles, paraguas, gotas y nubes, el aprendizaje se vuelve cercano y cálido. Imprime la ficha o ábrela en línea y deja que tu pequeño tache, cuente y descubra cuántos quedan en cada clima.",
+      "canonicalDeckSlug": "resta-tachar-clima-27ad",
+      "carousel": [
+        {
+          "label": "Resta con Invierno",
+          "href": "resta-tachar-invierno-716d"
+        },
+        {
+          "label": "Resta con 4 de Julio",
+          "href": "resta-tachar-4-de-julio-551b"
+        },
+        {
+          "label": "Resta con Animales",
+          "href": "resta-tachar-animales-dec7"
+        },
+        {
+          "label": "Resta con Partes del Cuerpo",
+          "href": "resta-tachar-partes-del-cuerpo-afc9"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-colores-d02c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "colors",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Colores",
+      "metaDescription": "Resta hasta 10 con colores: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Colores",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "9 - 1 = 8",
+        "6 - 2 = 4",
+        "8 - 3 = 5",
+        "8 - 7 = 1",
+        "10 - 6 = 4",
+        "9 - 3 = 6"
+      ],
+      "p1": "Con estas hojas de trabajo de resta, los niños aprenden a restar de la forma más concreta: tachando y contando. Cada problema muestra un grupo de dibujos del mismo color; el niño tacha cuántos se quitan y cuenta cuántos quedan. Así la resta deja de ser un símbolo abstracto y se vuelve algo que se ve y se hace con la mano. Son fichas pensadas para los más pequeños, con restas hasta 10 y un tono cálido, sin cronómetros ni puntajes.",
+      "p2": "Esta es la versión \"Tacha y Cuenta\": tu sello es la acción de quitar tachando y luego contar los que quedan. Es distinta de nuestras otras hojas, en las que se cuenta y se suma, se buscan los dibujos o se averigua cuánto se quitó. Aquí el camino es siempre el mismo y muy claro: mira el grupo, tacha los que se van y cuenta lo que sobra. Puedes imprimir el PDF o jugar la versión interactiva en línea, las dos gratis y sin registro.",
+      "p3": "Cada color trae su propio problema de quitar, con objetos que el niño puede contar uno por uno. En el azul hay 9 dibujos: tacha 1 y quedan 8. En el rojo hay 6 dibujos: tacha 2 y quedan 4. En el violeta hay 8 dibujos: tacha 3 y quedan 5. En el negro hay 8 dibujos: tacha 7 y queda 1, una resta grande que se vuelve sencilla al ver el grupo casi vacío. En el naranja hay 10 dibujos: tacha 6 y quedan 4. En el morado hay 9 dibujos: tacha 3 y quedan 6. En cada caso el niño hace lo mismo: cuenta cuántos hay, tacha los que se quitan y vuelve a contar para saber cuántos quedan. Esa acción de tachar y contar lo que queda es la base de la resta de quitar, y al repetirla con cada color el niño va entendiendo qué significa restar antes de trabajar solo con números. Estas hojas de trabajo se alinean con la Nueva Escuela Mexicana (SEP), dentro del Pensamiento Matemático y el eje de Número, y sirven igual en el último grado de Educación Preescolar y en el primer grado de primaria. Son ideales para la maestra que busca material concreto y para las familias que acompañan en casa, porque no necesitan explicación: basta tachar y contar cuántos quedan. Descárgalas gratis para imprimir o úsalas en línea, sin crear ninguna cuenta.",
+      "canonicalDeckSlug": "resta-tachar-colores-d02c",
+      "carousel": [
+        {
+          "label": "Resta con Postres y Dulces",
+          "href": "resta-tachar-postres-y-dulces-103d"
+        },
+        {
+          "label": "Resta con Dinosaurios",
+          "href": "resta-tachar-dinosaurios-d619"
+        },
+        {
+          "label": "Resta con Flores",
+          "href": "resta-tachar-flores-ca69"
+        },
+        {
+          "label": "Resta con Utensilios de Cocina",
+          "href": "resta-tachar-utensilios-de-cocina-d874"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-cosas-que-vuelan-98b3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "things_that_fly",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Cosas que Vuelan",
+      "metaDescription": "Resta hasta 10 con cosas que vuelan: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Cosas que Vuelan",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "3 luciérnagas",
+        "tacha 2",
+        "queda 1",
+        "8 águilas",
+        "tacha 4",
+        "quedan 4",
+        "8 tucanes",
+        "tacha 3",
+        "quedan 5",
+        "9 pelícanos",
+        "tacha 6",
+        "quedan 3",
+        "5 búhos",
+        "tacha 4",
+        "queda 1",
+        "8 loros",
+        "tacha 7",
+        "queda 1"
+      ],
+      "p1": "Estas hojas de trabajo de resta enseñan a quitar de la forma más concreta que hay: el niño ve un grupo de dibujos, tacha cuántos se van volando y cuenta los que quedan. Cada problema usa una de las cosas que vuelan, con conteos discretos que se pueden señalar uno por uno con el dedo. Así la resta deja de ser un número abstracto y se vuelve una acción clara: tachar y contar lo que queda. Restas hasta 10, perfectas para los primeros pasos del Pensamiento Matemático.",
+      "p2": "El mazo trae seis restas, cada una ilustrada con su animalito volador real para que el conteo siempre tenga sentido. Empieza suavecito con la luciérnaga: 3 luciérnagas, tacha 2 y queda 1. Luego el águila con 8 dibujos, tacha 4 y quedan 4. Sigue el tucán: 8 tucanes, tacha 3 y quedan 5. El pelícano da el salto más grande: 9 pelícanos, tacha 6 y quedan 3. Después el búho, con 5 dibujos, tacha 4 y queda 1. Y para cerrar, el loro: 8 loros, tacha 7 y queda 1. Cada ficha repite el mismo gesto amable, así el niño gana confianza paso a paso.",
+      "p3": "La mecánica es la misma en las seis fichas y por eso resulta tan tranquila para los más pequeños: primero cuentas todos los dibujos del grupo, luego tachas con una crucecita los que se quitan y al final cuentas los que quedan; ese último número es la respuesta de la resta. No hay que adivinar el número que falta ni averiguar cuánto se quitó: aquí el niño quita él mismo, tachando, y comprueba lo que queda contando. Por ejemplo, en la ficha del pelícano cuentas 9 pelícanos, tachas 6 que se van volando y al contar descubres que quedan 3; en la del loro tachas 7 de los 8 loros y verás que queda 1 solito. Esa acción de tachar y contar lo que queda es justo lo que vuelve la resta fácil de entender a los 5, 6 y 7 años. Las hojas sirven igual de bien en preescolar (5 años) que en primer grado de primaria, dentro del marco de la Nueva Escuela Mexicana de la SEP y su eje de Pensamiento Matemático — Número. Puedes imprimir las fichas para trabajar en papel con crayón o lápiz, o jugar la versión interactiva en línea, donde el niño toca para tachar y va viendo cuántos quedan. Todo es completamente gratis, sin registro, sin cronómetros ni puntajes que presionen: solo un ratito cálido para tachar, contar y descubrir cuántos quedan después de que algunas cosas se van volando.",
+      "canonicalDeckSlug": "resta-tachar-cosas-que-vuelan-98b3",
+      "carousel": [
+        {
+          "label": "Resta con Herramientas",
+          "href": "resta-tachar-herramientas-1813"
+        },
+        {
+          "label": "Resta con Juguetes",
+          "href": "resta-tachar-juguetes-009e"
+        },
+        {
+          "label": "Resta con Vehículos",
+          "href": "resta-tachar-vehiculos-ecbf"
+        },
+        {
+          "label": "Resta con Animales",
+          "href": "resta-tachar-animales-dec7"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-criaturas-del-bosque-37b0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "forest_creatures",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta del Bosque",
+      "metaDescription": "Resta hasta 10 con criaturas del bosque (oso, tortuga, mapache): tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis: imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Criaturas del Bosque",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-criaturas-del-bosque-37b0"
+      ],
+      "p1": "En esta hoja de trabajo de resta, tu pequeña o pequeño aprende a restar de la forma más concreta: quitando. Cada problema muestra un grupo de criaturas del bosque, y la consigna es sencilla y cálida: tacha cuántas se van y cuenta las que quedan. Así el niño ve la resta con sus propios ojos, sin reglas abstractas. Empieza con 4 saltamontes: tacha 2 y quedan 2. Luego aparecen 4 tortugas: tacha 1 y quedan 3. La acción de tachar y contar lo que queda convierte cada operación en algo que se puede tocar y mirar, ideal para quienes apenas descubren el número.",
+      "p2": "El mazo recorre seis escenas del bosque con conteos discretos de objetos reales. Hay 6 osos para tachar 2 y dejar 4; 5 hormigas para tachar 1 y dejar 4; 9 halcones para tachar 2 y quedar 7; y 7 mapaches para tachar 2 y dejar 5. Todas las restas llegan hasta 10, una cantidad amable para la edad. Como cada dibujo se puede contar uno por uno, el resultado nunca es un misterio: basta con mirar cuántas criaturas siguen en pie después de tachar. Es resta de quitar, pura y clara, distinta de buscar el número que falta o de adivinar cuánto se quitó.",
+      "p3": "Esta ficha apoya el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y acompaña a niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, entre los 5 y los 7 años. La mecánica es siempre la misma para que se vuelva costumbre: el grupo de criaturas aparece completo, el niño tacha las que se van y cuenta las que quedan, y así descubre que a − b = c sin necesidad de memorizar. Tachar es una acción motora que ancla la idea de quitar, y contar lo que queda confirma el resultado de un vistazo. Por eso cada escena nombra su criatura real con un conteo concreto: saltamontes, tortugas, osos, hormigas, halcones y mapaches, para que el lenguaje y los números caminen juntos. Puedes usar la hoja de dos maneras, las dos gratis y sin registro: imprímela en PDF para trabajar con lápiz, o juégala en línea directamente en el navegador, donde se tacha con un toque. No hay cronómetros ni puntajes ni presión; solo el gusto tranquilo de contar criaturas del bosque y ver cuántas quedan. Es perfecta para el salón, para la casa o para un ratito de práctica compartida, siempre con un tono cálido que invita a seguir restando sin miedo a equivocarse.",
+      "canonicalDeckSlug": "resta-tachar-criaturas-del-bosque-37b0",
+      "carousel": [
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-8cd4"
+        },
+        {
+          "label": "Resta con Frutas",
+          "href": "resta-tachar-frutas-0c7c"
+        },
+        {
+          "label": "Resta con Utensilios de Cocina",
+          "href": "resta-tachar-utensilios-de-cocina-d874"
+        },
+        {
+          "label": "Resta con Oficina de Correos",
+          "href": "resta-tachar-oficina-de-correos-273b"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-criaturas-del-bosque-8cd4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "forest_creatures",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Bosque",
+      "metaDescription": "Resta hasta 10 con criaturas del bosque (búho, comadreja, lombriz): tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis: imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Criaturas del Bosque",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-criaturas-del-bosque-8cd4"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu peque entra al bosque y aprende a restar de la forma más concreta: tachando y contando lo que queda. Cada problema muestra un grupo de dibujos de un animalito; el niño tacha cuántos se van y cuenta los que se quedan. Así la resta deja de ser un número abstracto y se vuelve algo que se ve, se toca con el lápiz y se entiende.",
+      "p2": "Son seis criaturas del bosque, seis restas hasta 10, y siempre la misma pregunta cálida: ¿cuántos quedan? Sin cronómetros ni puntajes, a su propio ritmo. Puedes imprimir la ficha en PDF o jugar la versión interactiva en línea, gratis y sin registro.",
+      "p3": "Cada problema usa un animalito real del bosque con su grupo exacto de dibujos para que el conteo sea claro y discreto. Tu peque empieza con 4 libélulas, tacha 2 y cuenta que quedan 2. Luego ve 9 comadrejas, tacha 7 y descubre que quedan 2. Después hay 5 búhos: tacha 1 y quedan 4. Siguen 9 saltamontes; tacha 7 y quedan 2. Llega un grupo de 7 pájaros carpinteros: tacha 6 y queda 1 solito. Y al final, 9 lombrices: tacha 3 y quedan 6. En cada caso la mecánica es la misma y muy fácil de seguir: cuenta el grupo completo, tacha cuántos se quitan y vuelve a contar los que quedan; eso es la resta de quitar (a − b = c) hasta 10. Tachar con el lápiz convierte la resta en una acción visible: el niño no adivina el resultado, lo ve quedar en la hoja. Esta ficha acompaña el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y está pensada para el span de Educación Preescolar (5 años) a Primer grado de primaria, edades de 5 a 7 años. Es ideal para reforzar el conteo hasta 10, el sentido de cantidad y la idea de quitar de manera cálida, sin presión y con dibujos que a los niños les encantan. Úsala en casa o en el salón: imprime el PDF para trabajar con lápiz o abre la versión interactiva en línea, ambas gratis y sin necesidad de crear una cuenta.",
+      "canonicalDeckSlug": "resta-tachar-criaturas-del-bosque-8cd4",
+      "carousel": [
+        {
+          "label": "Resta con Frutas",
+          "href": "resta-tachar-frutas-0c7c"
+        },
+        {
+          "label": "Resta con Muebles",
+          "href": "resta-tachar-muebles-a6d4"
+        },
+        {
+          "label": "Resta con Miscelánea",
+          "href": "resta-tachar-miscelaneo-f89a"
+        },
+        {
+          "label": "Resta con Formas",
+          "href": "resta-tachar-formas-c087"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-desayuno-923a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "breakfast",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Desayuno",
+      "metaDescription": "Resta hasta 10 con desayuno: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el Desayuno",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-desayuno-923a"
+      ],
+      "p1": "Esta hoja de trabajo de resta enseña a quitar de la forma más concreta: el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema usa un alimento del desayuno, así que restar se vuelve algo que se puede ver y tocar con la mirada. Sin cronómetros, sin puntajes y con un tono cálido: solo tachar, contar y descubrir cuántos quedan.",
+      "p2": "Puedes usarla gratis de dos maneras: imprime la ficha en PDF para trabajar con lápiz o juega la versión interactiva en línea, sin registro ni cuenta. Es ideal para Educación Preescolar (5 años) y Primer grado de primaria, con restas hasta 10. Se alinea con el Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP, apoyando el primer acercamiento del niño a la resta de quitar.",
+      "p3": "Los seis problemas de esta hoja siguen siempre la misma acción: cuenta el grupo, tacha cuántos se quitan y cuenta los que quedan. Primero hay 2 frascos de miel; tacha 1 y queda 1. Luego aparecen 8 vasos de licuado; tacha 3 y quedan 5. Después hay 8 donas; tacha 2 y quedan 6. Sigue un grupo de 8 arándanos; tacha 7 y queda 1 solito. En seguida hay 6 toronjas; tacha 2 y quedan 4. Por último se ven 9 rebanadas de melón; tacha 7 y quedan 2. Cada conteo es de objetos enteros que el niño puede señalar uno por uno, sin charolas ni docenas: dibujos sueltos de miel, licuado, dona, arándano, toronja y melón. Al tachar lo que se quita y contar lo que queda, el niño entiende la resta hasta 10 con sus propias manos y ojos, en lugar de memorizar números. Esta es nuestra hoja de \"Tacha y Cuenta\": su sello es la acción de tachar y contar cuántos quedan, distinta de contar y sumar o de adivinar cuánto se quitó. Imprímela o juégala en línea cuantas veces quieras, totalmente gratis y sin registro, para que cada niño practique a su propio ritmo y celebre cada resta bien hecha.",
+      "canonicalDeckSlug": "resta-tachar-desayuno-923a",
+      "carousel": [
+        {
+          "label": "Resta con Campamento",
+          "href": "resta-tachar-campamento-c259"
+        },
+        {
+          "label": "Resta con Navidad",
+          "href": "resta-tachar-navidad-413a"
+        },
+        {
+          "label": "Resta con Colores",
+          "href": "resta-tachar-colores-d02c"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-37b0"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-dia-de-accion-de-gracias-c0f5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "thanksgivinng",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en Acción de Gracias",
+      "metaDescription": "Resta hasta 10 con el Día de Acción de Gracias: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Día de Acción de Gracias",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "7 pajares, tacha 2, quedan 5",
+        "5 hojas de otoño, tacha 3, quedan 2",
+        "7 bellotas, tacha 5, quedan 2",
+        "3 pavos, tacha 1, quedan 2",
+        "5 pasteles, tacha 1, quedan 4",
+        "5 espantapájaros, tacha 2, quedan 3"
+      ],
+      "p1": "Estas hojas de trabajo de resta convierten el Día de Acción de Gracias en una forma cálida y concreta de aprender a restar hasta 10. En cada problema tu peque ve un grupo de dibujos, tacha los que se quitan y cuenta los que quedan: así descubre que restar es, simplemente, quitar y ver lo que sobra. Sin números abstractos al principio; primero la acción, luego el resultado.",
+      "p2": "El mazo trae seis problemas, cada uno con su propio objeto de la temporada para que contar sea claro y divertido. Tu peque tacha y cuenta a su ritmo, sin cronómetros ni puntajes, solo el gusto de resolver. Puedes imprimir las fichas en PDF para trabajar en papel o jugar la versión interactiva en línea, gratis y sin registro, desde la compu o la tablet del salón o de casa.",
+      "p3": "Cada hoja muestra una resta de quitar bien concreta: el niño tacha cuántos se quitan y cuenta cuántos quedan. En el primer problema aparecen 7 pajares; tacha 2 y quedan 5 (7 − 2 = 5). Luego hay 5 hojas de otoño; tacha 3 y quedan 2 (5 − 3 = 2). Siguen 7 bellotas; tacha 5 y quedan 2 (7 − 5 = 2). Después se ven 3 pavos; tacha 1 y quedan 2 (3 − 1 = 2). Vienen 5 pasteles; tacha 1 y quedan 4 (5 − 1 = 4). Y por último 5 espantapájaros; tacha 2 y quedan 3 (5 − 2 = 3). Como cada conteo es de objetos reales y separados, tu peque puede señalar, tachar y contar uno por uno, comprobando él mismo el resultado. Esta mecánica de tachar y contar lo que queda es la entrada más natural a la resta para Educación Preescolar y Primer grado de primaria (5 a 7 años): se apoya en imágenes, no en símbolos, y construye el sentido del número antes de escribir la operación. La actividad acompaña el campo de Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP, con un tono amable que invita a equivocarse y volver a intentar. Imprime las hojas o juega en línea las veces que quieras: el mismo material, gratis y siempre listo para tachar, contar y celebrar lo que queda.",
+      "canonicalDeckSlug": "resta-tachar-dia-de-accion-de-gracias-c0f5",
+      "carousel": [
+        {
+          "label": "Resta con Cosas que Vuelan",
+          "href": "resta-tachar-cosas-que-vuelan-98b3"
+        },
+        {
+          "label": "Resta con Herramientas",
+          "href": "resta-tachar-herramientas-1813"
+        },
+        {
+          "label": "Resta con Verduras",
+          "href": "resta-tachar-verduras-b222"
+        },
+        {
+          "label": "Resta con Actividades",
+          "href": "resta-tachar-actividades-204d"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-dinosaurios-d619",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "dinosaurs",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Dinosaurios",
+      "metaDescription": "Hojas de trabajo de resta con dinosaurios: tacha y cuenta cuántos quedan. Restas hasta 10 para niños de 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Dinosaurios",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "dinosaurs",
+        "resta-tachar-dinosaurios-d619"
+      ],
+      "p1": "¿Tu peque está dando sus primeros pasos en la resta? Esta hoja de trabajo de resta con dinosaurios convierte el quitar en algo que se puede ver y tocar con el dedo. En cada problema aparece un grupo de dinosaurios; el niño tacha cuántos se van y luego cuenta los que quedan. Sin números abstractos al principio: primero la acción de tachar, después el resultado. Así la resta deja de ser un misterio y se vuelve un juego con dibujos.",
+      "p2": "La mecánica es siempre la misma, clara y tranquila: mira cuántos dinosaurios hay, tacha los que se quitan y pregúntate \"¿cuántos quedan?\". Esa pregunta es el corazón de la ficha. Tu hijo no tiene que adivinar ni escribir operaciones complicadas; solo tachar y contar los que sobreviven a la tachadura. Es la forma más concreta de entender que restar es quitar.",
+      "p3": "Esta hoja trae seis problemas, cada uno con su propio dinosaurio y conteos reales hasta 10. Empieza con 2 Parasaurolofus: tacha 1 y queda 1, una resta cortita para tomar confianza. Luego aparecen 9 Velociraptores y, al tachar 1, quedan 8, perfecto para contar un grupo grande. Con el Tiranosaurio Rex hay 4 dibujos: tacha 1 y quedan 3. Después vienen 5 Diplodocos, se tachan 2 y quedan 3. El Alosaurio reparte 8 dibujos en partes iguales: tacha 4 y quedan 4. Y para cerrar, 7 Estiracosaurios pierden 3 al tacharlos y quedan 4. En cada caso el niño señala el grupo, tacha la cantidad que se quita y cuenta uno por uno los dinosaurios que quedan; el dibujo siempre acompaña el número. Pensada para Educación Preescolar (5 años) y Primer grado de primaria, niños de 5 a 7 años, esta ficha apoya el Pensamiento Matemático del eje de Número dentro de la Nueva Escuela Mexicana de la SEP. Puedes descargarla e imprimirla gratis o jugarla en línea, sin registro y sin costo. No hay cronómetros ni puntajes: solo dinosaurios, lápices para tachar y la pregunta que nunca falla, ¿cuántos quedan? Un material cálido para practicar la resta a su propio ritmo, en casa o en el salón.",
+      "canonicalDeckSlug": "resta-tachar-dinosaurios-d619",
+      "carousel": [
+        {
+          "label": "Resta con Pascua",
+          "href": "resta-tachar-pascua-7995"
+        },
+        {
+          "label": "Resta con Emociones",
+          "href": "resta-tachar-emociones-7c11"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-8cd4"
+        },
+        {
+          "label": "Resta con Música",
+          "href": "resta-tachar-musica-2adb"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-emociones-7c11",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "emotions",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Emociones",
+      "metaDescription": "Resta hasta 10 con caritas de emociones: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Emociones",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "6 sorprendido − tacha 4 = 2",
+        "5 contento − tacha 2 = 3",
+        "8 escéptico − tacha 5 = 3",
+        "10 cansado − tacha 6 = 4",
+        "6 alegre − tacha 2 = 4",
+        "5 aburrido − tacha 1 = 4"
+      ],
+      "p1": "Esta hoja de trabajo de resta enseña a restar quitando, de la manera más concreta para los niños pequeños: tachar y contar cuántos quedan. En cada problema aparece un grupo de caritas con una misma emoción; tu hijo o alumno tacha cuántas se quitan y luego cuenta las que quedan. Así descubre que restar es simplemente quitar y volver a contar, sin números abstractos ni pasos difíciles de imaginar.",
+      "p2": "Cada ficha trabaja una emoción distinta para que contar resulte cercano y divertido. El primer problema muestra 6 caritas de sorprendido: tacha 4 y quedan 2. Después vienen 5 de contento (tacha 2, quedan 3) y 8 de escéptico (tacha 5, quedan 3). Las caras de cansado son 10: tacha 6 y quedan 4. Siguen 6 de alegre (tacha 2, quedan 4) y, al final, 5 de aburrido (tacha 1, quedan 4). Todas las restas llegan hasta 10, ideales para manos pequeñas.",
+      "p3": "La mecánica es siempre la misma y por eso el niño la domina rápido: mira el grupo de dibujos, tacha cuántos se quitan y pregunta \"¿cuántos quedan?\". Tachar con el lápiz o con el dedo en pantalla vuelve visible la acción de quitar, y contar lo que sobra confirma el resultado. Esta hoja de trabajo se alinea con la Nueva Escuela Mexicana de la SEP, dentro del campo de Pensamiento Matemático — Número, y acompaña a niñas y niños de Educación Preescolar (5 años) a Primer grado de primaria, en restas hasta 10. Las imágenes son parte esencial del aprendizaje: las caritas de sorprendido, contento, escéptico, cansado, alegre y aburrido dan a cada conteo un sentido claro y alegre. Puedes usarla de dos formas, las dos gratis y sin necesidad de registrarte: imprime el PDF para trabajar con lápiz en el cuaderno o en casa, o juega la versión interactiva en línea para tachar directamente en la pantalla. No hay cronómetros ni puntajes; el ritmo lo marca cada niño, con calma y confianza. Tacha, cuenta los que quedan y celebra cada respuesta: así la resta se vuelve un juego que se entiende y se disfruta.",
+      "canonicalDeckSlug": "resta-tachar-emociones-7c11",
+      "carousel": [
+        {
+          "label": "Resta con Flores",
+          "href": "resta-tachar-flores-ca69"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-37b0"
+        },
+        {
+          "label": "Resta con Muebles",
+          "href": "resta-tachar-muebles-a6d4"
+        },
+        {
+          "label": "Resta con Vida Marina",
+          "href": "resta-tachar-vida-marina-9916"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-en-el-supermercado-4ba9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "at_the_supermarket",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Supermercado",
+      "metaDescription": "Resta hasta 10 con el súper: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el Supermercado",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-en-el-supermercado-4ba9"
+      ],
+      "p1": "En estas hojas de trabajo de resta tu peque va de compras al supermercado y aprende a restar quitando. Cada problema muestra un grupo de dibujos de un mismo objeto; el niño tacha cuántos se quitan y cuenta los que quedan. Es la forma más concreta de entender la resta hasta 10: tachar y contar lo que queda, sin números abstractos ni reglas que memorizar.",
+      "p2": "Pensadas para Educación Preescolar (5 años) y Primer grado de primaria, alineadas con el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP). Las imágenes son lo más importante: tu peque ve objetos reales del súper y cuenta uno por uno. Disponibles gratis para imprimir en PDF o para jugar en línea, sin registro, sin cronómetros y sin puntajes.",
+      "p3": "Cada hoja trae seis problemas de resta de quitar, todos con objetos del supermercado y conteos que el niño puede ver y tocar con la mirada. El primero muestra 4 ciruelas: el peque tacha 1 y cuenta que quedan 3. Luego hay 8 chícharos en fila; tacha 5 y quedan 3. Después aparecen 9 paquetes de sal: tacha 5 y quedan 4. En seguida hay 3 pasteles; tacha 1 y quedan 2. El quinto problema muestra 8 carritos de compras: tacha solo 1 y quedan 7, una resta sencilla para sentir cómo cambia el grupo. El último trae 5 bagels; tacha 4 y queda 1 solito. En cada caso la pregunta es la misma y muy clara: ¿cuántos quedan? El niño tacha los dibujos que se quitan, vuelve a contar los que sobran y escribe el resultado. Así descubre que restar es quitar de un grupo y ver lo que queda, una idea que después conecta con la resta escrita. Todas las cantidades se mantienen hasta 10, ideales para manos pequeñas que apenas empiezan. Con dibujos cálidos del súper —ciruelas, chícharos, sal, pasteles, carritos y bagels—, tu peque practica a su ritmo, contando despacio y tachando con gusto. Imprime las hojas para trabajar en casa o en el salón, o juega la versión interactiva en línea: las dos son gratis y no piden registro.",
+      "canonicalDeckSlug": "resta-tachar-en-el-supermercado-4ba9",
+      "carousel": [
+        {
+          "label": "Resta con Panadería",
+          "href": "resta-tachar-panaderia-fd3c"
+        },
+        {
+          "label": "Resta con Playa",
+          "href": "resta-tachar-playa-d4cc"
+        },
+        {
+          "label": "Resta con Partes del Cuerpo",
+          "href": "resta-tachar-partes-del-cuerpo-afc9"
+        },
+        {
+          "label": "Resta con Colores",
+          "href": "resta-tachar-colores-d02c"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-espacio-cb27",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "space",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Espacio",
+      "metaDescription": "Hojas de trabajo de resta del espacio para niños de 5 a 7 años: tacha y cuenta cuántos quedan con restas hasta 10. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Espacio",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-espacio-cb27",
+        "space"
+      ],
+      "p1": "Estas hojas de trabajo de resta llevan a los niños de viaje por el espacio con la forma más concreta de restar: tachar y contar lo que queda. En cada problema aparece un grupo de dibujos iguales; el niño tacha cuántos se quitan y luego cuenta los que quedan para descubrir el resultado. Es resta de quitar, paso a paso, con restas hasta 10 y números que se pueden tocar con el dedo. Sin cronómetros, sin puntajes y con un tono cálido que invita a explorar a su propio ritmo.",
+      "p2": "Esta ficha tiene seis problemas, cada uno ilustrado con un objeto real del espacio para que el conteo sea claro y discreto. El niño ve los dibujos, tacha unos cuantos y cuenta los que quedan: una manera natural de entender qué significa quitar. La acción de tachar deja una huella visible de lo que se fue, y contar lo que queda da el resultado sin necesidad de memorizar nada.",
+      "p3": "En el primer problema hay 9 meteoros: el niño tacha 2 y cuenta los 7 que quedan (9 − 2 = 7). Luego aparecen 8 planetas; tacha 1 y quedan 7 (8 − 1 = 7). En la siguiente fila hay 9 lunas: tacha 8 y queda 1 sola luna brillando (9 − 8 = 1). Después vienen 8 asteroides; tacha 7 y queda 1 (8 − 7 = 1). El quinto problema muestra 3 imágenes de Venus: tacha 1 y quedan 2 (3 − 1 = 2). Para cerrar, hay 6 telescopios: el niño tacha 5 y queda 1 listo para mirar las estrellas (6 − 5 = 1). En cada caso la mecánica es la misma y muy sencilla: cuenta el grupo completo, tacha cuántos se quitan y cuenta los que quedan. Así la resta deja de ser un número abstracto y se convierte en algo que el niño puede ver y hacer con sus propios dedos. Estas hojas de trabajo apoyan el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y acompañan a niños de Educación Preescolar (5 años) y de Primer grado de primaria, con restas hasta 10. Puedes descargarlas gratis en PDF para imprimir o jugar la versión interactiva en línea, sin registro y cuantas veces quieras.",
+      "canonicalDeckSlug": "resta-tachar-espacio-cb27",
+      "carousel": [
+        {
+          "label": "Resta con Verano",
+          "href": "resta-tachar-verano-0739"
+        },
+        {
+          "label": "Resta con Día de Acción de Gracias",
+          "href": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+        },
+        {
+          "label": "Resta con Juguetes",
+          "href": "resta-tachar-juguetes-009e"
+        },
+        {
+          "label": "Resta con 4 de Julio",
+          "href": "resta-tachar-4-de-julio-551b"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-flores-ca69",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "flowers",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Flores",
+      "metaDescription": "Hojas de trabajo de resta gratis: tacha y cuenta cuántas flores quedan. Restas hasta 10 con áster, dalia y trébol, para 5 a 7 años. Imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Flores",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "áster",
+        "azafrán",
+        "peonía",
+        "dalia",
+        "trébol",
+        "azalea"
+      ],
+      "p1": "Estas hojas de trabajo de resta llevan a tu pequeño por un jardín lleno de flores donde restar se vuelve algo que se puede ver y tocar con la mirada. En cada problema aparece un grupo de dibujos de una misma flor; el niño tacha cuántas se quitan y luego cuenta las que quedan. Así descubre, sin prisas, que restar es simplemente quitar algunas y observar el grupo que sobra. Es la forma más concreta de la resta de quitar: una acción clara, tachar, y una pregunta cálida, ¿cuántas quedan?",
+      "p2": "El recorrido incluye seis flores con conteos reales y discretos. Hay 3 ásteres y se tachan 2, así que queda 1. Aparecen 6 azafranes, se tachan 4 y quedan 2. Con las peonías son 2, tachas 1 y queda 1. Las dalias son 4, tachas 3 y queda 1. El trébol trae el grupo más grande: 10 dibujos, se tachan 8 y quedan 2. Y al final, 8 azaleas de las que se tacha solo 1, por lo que quedan 7. Todas son restas hasta 10, pensadas para que el conteo de los dibujos que quedan siempre sea sencillo y al alcance de la mano.",
+      "p3": "La mecánica es siempre la misma para que tu pequeño gane confianza: mira el grupo de flores, tacha cuántas se quitan y cuenta una por una las que quedan para escribir el resultado. No hay que adivinar números que faltan ni calcular cuánto se quitó; aquí lo importante es la acción de tachar y contar lo que sobra. Cada flor se nombra con su dibujo real, de modo que las imágenes son parte del aprendizaje y no un simple adorno: el niño relaciona la palabra áster, dalia o trébol con un conteo concreto. Estas fichas siguen el enfoque de la Nueva Escuela Mexicana de la SEP, dentro del campo de Pensamiento Matemático y el eje de Número, y acompañan el tránsito de Educación Preescolar a primer grado de primaria, ideales para niños de 5 a 7 años que apenas empiezan a restar hasta 10. Puedes usarlas de dos maneras y ambas son gratis y sin registro: descarga el PDF para imprimir y trabajar con lápiz, o juega la versión interactiva en línea directo desde el navegador. No hay cronómetros ni puntajes que presionen; el tono es tranquilo y amable, para que cada niño avance a su ritmo, tache con gusto y celebre cuando descubre cuántas flores quedan en el jardín.",
+      "canonicalDeckSlug": "resta-tachar-flores-ca69",
+      "carousel": [
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-37b0"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-8cd4"
+        },
+        {
+          "label": "Resta con Hospital",
+          "href": "resta-tachar-hospital-8411"
+        },
+        {
+          "label": "Resta con Mascotas",
+          "href": "resta-tachar-mascotas-9ceb"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-formas-c087",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "shapes",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Formas",
+      "metaDescription": "Resta hasta 10 con formas: tacha cuántos se quitan y cuenta cuántos quedan. Hoja gratis para niños de 5 a 7 años, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Formas",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-formas-c087",
+        "shapes",
+        "5-7",
+        "Educación Preescolar",
+        "Primer grado de primaria",
+        "Nueva Escuela Mexicana",
+        "Pensamiento Matemático — Número"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte cada problema en algo que tu pequeño puede ver y tocar con el dedo: un grupo de formas dibujadas que él tacha y cuenta. La mecánica es la resta de quitar más concreta que existe. El niño mira cuántas formas hay, tacha las que se quitan y cuenta las que quedan. Así descubre que restar es simplemente quitar y ver qué sobra, sin números abstractos ni reglas que memorizar. Cada ficha trabaja restas hasta 10 con dibujos grandes y claros.",
+      "p2": "Los seis problemas usan formas geométricas reales que tu pequeño va nombrando mientras cuenta. Hay 4 heptágonos: tacha 1 y quedan 3. Aparecen 9 pentágonos: tacha 5 y quedan 4. Se muestran 10 esferas: tacha 3 y quedan 7. Salen 9 óvalos: tacha 3 y quedan 6. Vienen 5 prismas rectangulares: tacha 3 y quedan 2. Y por último 9 conos: tacha 6 y quedan 3. Al tachar con el lápiz o el dedo, el niño separa lo que se quita de lo que permanece, y al contar los que quedan confirma su respuesta él solo.",
+      "p3": "Puedes usar esta hoja de dos maneras, las dos gratis y sin registro: imprime el PDF para trabajar con lápiz en casa o en el salón, o juega la versión interactiva en línea directo desde la computadora o la tableta. No hay cronómetros ni puntajes; el ritmo lo pone cada niño con calma. La acción de tachar y contar lo que queda es lo que hace única esta ficha: no se trata de adivinar el número que falta ni de escribir cuánto se quitó, sino de quitar de verdad y contar lo que sobra. Para acompañar, pide a tu pequeño que diga en voz alta el nombre de cada forma antes de tachar: \"Aquí hay nueve conos, tacho seis y quedan tres\". Hablar mientras resta refuerza el conteo uno por uno y el lenguaje de la resta de quitar. Estas hojas de trabajo (también llamadas fichas de resta) están pensadas para niños de Educación Preescolar de 5 años y de Primer grado de primaria, dentro del enfoque de la Nueva Escuela Mexicana de la SEP, en el campo de Pensamiento Matemático y el sentido de número. Al combinar formas que ya conocen con la mecánica de tachar y contar, los pequeños practican restas hasta 10 de forma concreta, visual y a su propio ritmo, ganando confianza antes de pasar a las operaciones escritas.",
+      "canonicalDeckSlug": "resta-tachar-formas-c087",
+      "carousel": [
+        {
+          "label": "Resta con Espacio",
+          "href": "resta-tachar-espacio-cb27"
+        },
+        {
+          "label": "Resta con Verano",
+          "href": "resta-tachar-verano-0739"
+        },
+        {
+          "label": "Resta con Herramientas",
+          "href": "resta-tachar-herramientas-1813"
+        },
+        {
+          "label": "Resta con Invierno",
+          "href": "resta-tachar-invierno-716d"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-frutas-0c7c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "fruits",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Frutas",
+      "metaDescription": "Resta hasta 10 con frutas: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Frutas",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-frutas-0c7c",
+        "fruits",
+        "mango",
+        "toronja",
+        "durazno",
+        "clementina",
+        "lima",
+        "limon"
+      ],
+      "p1": "Esta hoja de trabajo de resta lleva a los niños a una canasta de frutas para aprender a quitar de la manera más concreta: tachando y contando lo que queda. En cada problema aparece un grupo de dibujos de una misma fruta; el niño tacha cuántas se quitan y luego cuenta las que quedan. Así descubre que restar es simplemente quitar y volver a contar, sin números abstractos ni reglas que memorizar. Son seis restas hasta 10, pensadas para manos pequeñas y miradas curiosas que cuentan uno por uno.",
+      "p2": "Cada fruta trae su propia resta para tachar y contar. El niño ve 8 mangos, tacha 6 y cuenta que quedan 2. Luego mira 3 toronjas, tacha 2 y le queda 1. Sigue con 8 duraznos: tacha 1 y quedan 7, una resta de quitar poquito que se siente fácil. Después vienen 5 clementinas, tacha 1 y quedan 4. La lima reta un poco más con 9 dibujos: tacha 8 y queda 1 solita. Y para cerrar, 4 limones: tacha 2 y quedan 2. Seis frutas reales, seis grupos que contar, una sola acción que se repite y se afianza: tacha y cuenta cuántos quedan.",
+      "p3": "El ángulo \"Tacha y Cuenta\" hace visible lo que significa restar. En lugar de escribir un número que falta o adivinar cuánto se quitó, el niño actúa: pone una tachita sobre cada dibujo que se va y cuenta con el dedo los que se quedan en la canasta. Esa acción de tachar y contar lo que queda es el puente perfecto entre las matemáticas concretas y las simbólicas para niños de 5 a 7 años, en el tránsito de Educación Preescolar a Primer grado de primaria. Cada problema usa objetos discretos y fáciles de contar: mangos, toronjas, duraznos, clementinas, limas y limones, frutas que los niños mexicanos reconocen del mercado y de la mesa. Trabajar con cantidades hasta 10 mantiene la tarea dentro de lo que un niño pequeño puede contar con seguridad, una a la vez, sin prisa. La hoja se alinea con la Nueva Escuela Mexicana de la SEP, dentro del campo de Pensamiento Matemático y el eje de Número, donde quitar y comparar cantidades es una de las primeras nociones que se construyen. Puedes imprimir la ficha en PDF para trabajar con lápiz y crayón, o jugarla en línea, gratis y sin necesidad de registrarte. No hay cronómetros ni puntajes que presionen: solo una invitación cálida a tachar, contar y descubrir cuántas frutas quedan en cada canasta.",
+      "canonicalDeckSlug": "resta-tachar-frutas-0c7c",
+      "carousel": [
+        {
+          "label": "Resta con Muebles",
+          "href": "resta-tachar-muebles-a6d4"
+        },
+        {
+          "label": "Resta con Hospital",
+          "href": "resta-tachar-hospital-8411"
+        },
+        {
+          "label": "Resta con Música",
+          "href": "resta-tachar-musica-2adb"
+        },
+        {
+          "label": "Resta con Espacio",
+          "href": "resta-tachar-espacio-cb27"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-herramientas-1813",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Herramientas",
+      "metaDescription": "Hojas de trabajo de resta hasta 10 con herramientas: tacha y cuenta cuántos quedan. Para niños de 5 a 7 años, gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Herramientas",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "tuerca",
+        "llave inglesa",
+        "tornillo",
+        "destapacaños",
+        "cinta métrica",
+        "desarmador"
+      ],
+      "p1": "En esta hoja de trabajo de resta, tu peque aprende a restar quitando objetos de verdad: ve un grupo de herramientas, tacha cuántas se van y cuenta las que quedan. Es la forma más concreta de entender la resta hasta 10, porque el niño no memoriza nada todavía: simplemente tacha y cuenta. Cada problema usa una herramienta distinta, con dibujos claros que se pueden contar uno por uno.",
+      "p2": "Tienes seis problemas listos. En el primero hay 2 dibujos de una tuerca: el niño tacha 1 y cuenta que queda 1. Luego aparecen 9 llaves inglesas: tacha 3 y quedan 6. Después 9 tornillos: tacha 4 y quedan 5. Siguen 9 destapacaños: tacha 6 y quedan 3. La cinta métrica trae 5 dibujos: tacha 3 y quedan 2. Y al final 9 desarmadores: tacha 2 y quedan 7. Siempre la misma acción tranquila: tachar lo que se quita y contar lo que queda.",
+      "p3": "Esta ficha de resta forma parte del Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP, pensada para el span entre Educación Preescolar (5 años) y Primer grado de primaria, con niños de 5 a 7 años. El método de tachar y contar lo que queda funciona porque conecta el dibujo con el número: cuando el peque tacha 3 de las 9 llaves inglesas, ve con sus propios ojos que quedan 6, y así descubre que 9 − 3 = 6 sin necesidad de reglas abstractas. Cada uno de los seis problemas muestra un grupo de objetos reales y discretos —una tuerca, una llave inglesa, un tornillo, un destapacaños, una cinta métrica, un desarmador— que el niño puede señalar y contar uno a uno antes y después de tachar. Esto es muy distinto de adivinar cuánto se quitó o de escribir un número junto a un dibujo: aquí la mano del niño hace la resta. Trabajas con números pequeños, todos hasta 10, para que la cuenta de los que quedan siempre sea posible con los dedos o de memoria. Puedes usar esta hoja de dos maneras, las dos gratis y sin registro: imprime el PDF para trabajar en el cuaderno o con lápiz, o juégala en línea directamente en la pantalla, donde el niño tacha tocando los dibujos y cuenta los que quedan. No hay cronómetros ni puntajes ni presión: el ritmo lo pone tu peque. Es una manera cálida y concreta de empezar a restar, con herramientas que les encanta reconocer y nombrar.",
+      "canonicalDeckSlug": "resta-tachar-herramientas-1813",
+      "carousel": [
+        {
+          "label": "Resta con Juguetes",
+          "href": "resta-tachar-juguetes-009e"
+        },
+        {
+          "label": "Resta con Árboles",
+          "href": "resta-tachar-arboles-4281"
+        },
+        {
+          "label": "Resta con Clima",
+          "href": "resta-tachar-clima-27ad"
+        },
+        {
+          "label": "Resta con En el Supermercado",
+          "href": "resta-tachar-en-el-supermercado-4ba9"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-hospital-8411",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "hospital",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Hospital",
+      "metaDescription": "Resta hasta 10 con tema de hospital: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el Hospital",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "hospital",
+        "resta-tachar-hospital-8411",
+        "5-7",
+        "Educación Preescolar",
+        "Primer grado de primaria"
+      ],
+      "p1": "¿Buscas una forma sencilla y concreta de enseñar la resta? Estas hojas de trabajo de resta con tema de hospital muestran la operación de quitar de la manera más clara para los más pequeños: el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta cuántos quedan. Cada problema es una resta hasta 10 que se resuelve mirando y tachando, sin necesidad de leer números todavía. Es la resta de quitar en su forma más visual, ideal para manos pequeñas que apenas empiezan a contar y comparar.",
+      "p2": "El mazo trae seis problemas, cada uno ilustrado con un objeto real del hospital y su conteo exacto: hay 3 pañuelos, el niño tacha 1 y quedan 2; hay 9 medicinas, tacha 1 y quedan 8; hay 3 sillas de ruedas, tacha 2 y queda 1; hay 4 camillas, tacha 3 y queda 1; hay 7 vendajes, tacha 1 y quedan 6; y hay 7 radiografías, tacha 3 y quedan 4. Como los dibujos son objetos que los niños reconocen, cada resta cobra sentido: tachar es quitar, y lo que queda es la respuesta que el niño cuenta con su propio dedo.",
+      "p3": "La mecánica es siempre la misma, fácil de entender y de repetir en casa o en el salón. Primero el niño cuenta el grupo completo de dibujos —por ejemplo, los 9 frascos de medicina o los 7 vendajes—. Luego tacha la cantidad que se quita: una cruz encima de cada dibujo que ya no cuenta. Por último, cuenta solo los que quedan sin tachar, y ese número es el resultado de la resta. Así, \"9 menos 1\" deja de ser un número abstracto y se convierte en algo que el niño ve y comprueba: tacha una medicina y quedan ocho. Cada uno de los seis problemas funciona igual, con conteos discretos de objetos reales —pañuelos, sillas de ruedas, camillas, radiografías— para que la idea de quitar y contar lo que queda se afiance con la práctica. Estas fichas acompañan el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y están pensadas para niños de Educación Preescolar (5 años) y de Primer grado de primaria, con restas hasta 10. Son completamente gratis: puedes imprimir el PDF para trabajar con lápiz o jugar la versión interactiva en línea, sin registro y sin necesidad de crear una cuenta. No hay cronómetros ni puntajes, solo la calma de tachar, contar y descubrir cuántos quedan a tu propio ritmo.",
+      "canonicalDeckSlug": "resta-tachar-hospital-8411",
+      "carousel": [
+        {
+          "label": "Resta con Utensilios de Cocina",
+          "href": "resta-tachar-utensilios-de-cocina-d874"
+        },
+        {
+          "label": "Resta con Miscelánea",
+          "href": "resta-tachar-miscelaneo-f89a"
+        },
+        {
+          "label": "Resta con Vida Marina",
+          "href": "resta-tachar-vida-marina-9916"
+        },
+        {
+          "label": "Resta con Día de Acción de Gracias",
+          "href": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-invierno-716d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "winter",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en Invierno",
+      "metaDescription": "Resta hasta 10 con tema de invierno: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Invierno",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "Búho",
+        "Chimenea",
+        "Snowboard",
+        "Paseo en trineo",
+        "Hielo",
+        "Patinaje sobre hielo"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte el invierno en una forma muy concreta de quitar: en cada problema el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Nada de números abstractos al principio; primero la mano tacha y los ojos cuentan. Así la resta hasta 10 se entiende como lo que de verdad es: una cantidad de la que se quita una parte y queda otra. Perfecta para niños de preescolar y de primer grado de primaria que apenas empiezan a restar.",
+      "p2": "Cada ficha está ilustrada con objetos reales del invierno para que contar sea claro y divertido. El niño tacha con un crayón o con el dedo en la pantalla y de inmediato ve cuántos quedan. Puedes imprimir la hoja en PDF o jugar la versión interactiva en línea, gratis y sin registro. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calma y sin presión, para que el invierno se sienta como un juego de tachar y contar.",
+      "p3": "Los seis problemas siguen siempre la misma mecánica de quitar: tacha cuántos se van y cuenta cuántos quedan, con restas hasta 10. Primero aparecen 5 búhos; el niño tacha 3 y cuentan 2 búhos que quedan en la rama. Luego hay 8 chimeneas humeando; tacha 2 y quedan 6 chimeneas. Después se ven 4 snowboards apoyados en la nieve; tacha 2 y quedan 2 snowboards. Más adelante hay 9 paseos en trineo bajando la loma; tacha 8 y queda 1 solo trineo. En seguida aparecen 10 cubitos de hielo; tacha 3 y quedan 7 de hielo. Por último, se muestran 6 patinajes sobre hielo en la pista; tacha 5 y queda 1 patinaje. Cada objeto se cuenta de uno en uno, así que el niño siempre sabe de cuántos parte y cuántos quedan después de tachar. Esta hoja de trabajo apoya el campo de Pensamiento Matemático, en el eje de Número, dentro de la Nueva Escuela Mexicana de la SEP, y acompaña el paso del conteo a la resta con quitar. Al tachar y contar, el niño construye la idea de resta con sus propias manos antes de escribir el signo menos, y descubre que invierno y matemáticas pueden ir juntos. Está pensada para edades de 5 a 7 años y puedes usarla en casa o en el salón, tantas veces como quieras, gratis.",
+      "canonicalDeckSlug": "resta-tachar-invierno-716d",
+      "carousel": [
+        {
+          "label": "Resta con 4 de Julio",
+          "href": "resta-tachar-4-de-julio-551b"
+        },
+        {
+          "label": "Resta con Accesorios",
+          "href": "resta-tachar-accesorios-a38e"
+        },
+        {
+          "label": "Resta con En el Supermercado",
+          "href": "resta-tachar-en-el-supermercado-4ba9"
+        },
+        {
+          "label": "Resta con Desayuno",
+          "href": "resta-tachar-desayuno-923a"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-juguetes-009e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "toys",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Juguetes",
+      "metaDescription": "Resta hasta 10 con juguetes: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Juguetes",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "Papalote: 4 dibujos, tacha 2, quedan 2",
+        "Crayones: 6 dibujos, tacha 4, quedan 2",
+        "Bloques: 8 dibujos, tacha 6, quedan 2",
+        "Robot: 7 dibujos, tacha 3, quedan 4",
+        "Dominó: 10 dibujos, tacha 3, quedan 7",
+        "Patineta: 9 dibujos, tacha 2, quedan 7"
+      ],
+      "p1": "En esta hoja de trabajo de resta, tu peque aprende a restar de la forma más concreta: viendo, tachando y contando. Cada problema muestra un grupito de juguetes; el niño tacha cuántos se quitan y luego cuenta los que quedan. Así descubre que restar es simplemente quitar y ver qué sobra, sin números abstractos ni reglas difíciles de memorizar.",
+      "p2": "Los seis ejercicios usan juguetes que los niños reconocen al instante, con restas hasta 10. Empiezan con 4 papalotes y tachan 2, así quedan 2; siguen con 6 crayones para tachar 4 y dejar 2, y con 8 bloques para tachar 6 y contar los 2 que quedan. Luego viene el reto de 7 robots (tacha 3, quedan 4), 10 fichas de dominó (tacha 3, quedan 7) y 9 patinetas (tacha 2, quedan 7).",
+      "p3": "La mecánica es siempre la misma y por eso funciona tan bien: el niño mira el grupo completo de dibujos, tacha con su lápiz los que se quitan y después cuenta uno por uno los juguetes que siguen sin tachar. Esa acción de tachar y contar lo que queda convierte la resta en algo que se puede ver y tocar con la mirada, ideal para Educación Preescolar y Primer grado de primaria (5 a 7 años). Cada conteo es discreto y claro: 4 papalotes de los que quedan 2, 6 crayones de los que quedan 2, 8 bloques que se reducen a 2, 7 robots que dejan 4, 10 fichas de dominó que dejan 7 y 9 patinetas que dejan 7. Al trabajar con objetos reales y contables, el pequeño construye el sentido del número antes de pasar a las operaciones escritas, tal como propone el campo formativo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP). La ficha es gratis: puedes imprimirla en PDF o jugarla en línea sin registro, sin cronómetros ni puntajes, con un ritmo cálido y tranquilo para que cada niño avance a su paso. Tacha, cuenta cuántos quedan y celebra cada respuesta correcta.",
+      "canonicalDeckSlug": "resta-tachar-juguetes-009e",
+      "carousel": [
+        {
+          "label": "Resta con Árboles",
+          "href": "resta-tachar-arboles-4281"
+        },
+        {
+          "label": "Resta con Verduras",
+          "href": "resta-tachar-verduras-b222"
+        },
+        {
+          "label": "Resta con Invierno",
+          "href": "resta-tachar-invierno-716d"
+        },
+        {
+          "label": "Resta con Panadería",
+          "href": "resta-tachar-panaderia-fd3c"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-mascotas-9ceb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "pets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Mascotas",
+      "metaDescription": "Hojas de trabajo de resta para tachar y contar cuántos quedan: restas hasta 10 con mascotas para niños de 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Mascotas",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-mascotas-9ceb"
+      ],
+      "p1": "¿Buscas una manera concreta y cariñosa de empezar la resta con los más pequeños? Esta hoja de trabajo de resta usa la idea más sencilla de quitar: el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema le muestra una cantidad real de mascotas, así la resta deja de ser un número abstracto y se vuelve algo que se ve y se toca con el lápiz.",
+      "p2": "El mazo trae seis problemas con restas hasta 10, cada uno ilustrado con su animalito: empiezas con 4 hámsters y tachas 2, así quedan 2; ves 5 chinchillas, tachas 2 y quedan 3; aparecen 7 pinzones, tachas 4 y quedan 3; con 3 geckos tachas 1 y quedan 2; de 4 lagartijas tachas 2 y quedan 2; y por último 8 pececitos, tachas 7 y queda 1 solo. En cada caso el niño tacha y cuenta lo que queda.",
+      "p3": "Lo que distingue a esta ficha es la acción: tachar y contar cuántos quedan. No se trata de adivinar el número que falta ni de escribir cuánto se quitó; la mecánica es la resta de quitar más concreta, ideal para el primer acercamiento al número. El niño rodea con la mirada el grupo de mascotas, marca con una tachita los que se van y cuenta uno por uno los que se quedan, descubriendo solito que 4 menos 2 son 2, que 7 menos 4 son 3 o que de 8 pececitos, al tachar 7, queda solo uno nadando. Como cada problema usa objetos discretos —hámsters, chinchillas, pinzones, geckos, lagartijas y peces— el conteo es visible y los resultados, comprobables a simple vista. Esta hoja de trabajo se alinea con el Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP y acompaña a los pequeños desde Educación Preescolar (5 años) hasta el Primer grado de primaria. Puedes usarla de dos maneras, las dos gratis y sin registro: descárgala en PDF para imprimir y trabajar con lápiz en casa o en el salón, o juégala en línea, donde el niño tacha los dibujos con el dedo o el mouse y cuenta los que quedan. Sin cronómetros y sin puntajes: solo restas tranquilas, mascotas simpáticas y la satisfacción de contar los que quedan a su propio ritmo.",
+      "canonicalDeckSlug": "resta-tachar-mascotas-9ceb",
+      "carousel": [
+        {
+          "label": "Resta con Oficina de Correos",
+          "href": "resta-tachar-oficina-de-correos-273b"
+        },
+        {
+          "label": "Resta con Formas",
+          "href": "resta-tachar-formas-c087"
+        },
+        {
+          "label": "Resta con Día de Acción de Gracias",
+          "href": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+        },
+        {
+          "label": "Resta con Vehículos",
+          "href": "resta-tachar-vehiculos-ecbf"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-miscelaneo-f89a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "miscellaneous",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta Miscelánea",
+      "metaDescription": "Hoja de trabajo de resta gratis: tacha los dibujos que se quitan y cuenta cuántos quedan. Piña, araña, casa y más; restas hasta 10, 5 a 7 años. Imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Miscelánea",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-miscelaneo-f89a"
+      ],
+      "p1": "¿Buscas hojas de trabajo de resta que de verdad se entiendan a los 5, 6 y 7 años? En esta ficha de Miscelánea tu peque ve un grupo de dibujos, tacha los que se quitan y cuenta cuántos quedan. Así la resta deja de ser un número abstracto y se vuelve algo que se puede ver y tocar con el dedo o el lápiz. Es la forma más concreta de quitar: tachar y contar lo que queda.",
+      "p2": "Esta hoja reúne seis objetos distintos para que ningún problema se sienta repetido. Tu hija o hijo trabaja con piñas, calabazas de Halloween, un cuervo, arañas, espantapájaros y casas, siempre con restas hasta 10. Cada problema muestra los dibujos completos; el niño tacha los que se van y escribe o dice cuántos quedan. Sin cronómetros y sin puntajes: solo contar con calma y celebrar el resultado.",
+      "p3": "Cada problema enseña la misma idea con un objeto real, para que el conteo siempre sea de cosas que se pueden señalar una por una. Empieza con 5 piñas: tu peque tacha 3 piñas y cuenta que quedan 2. Sigue con 4 calabazas de Halloween: tacha 2 calabazas y quedan 2. Después aparecen 3 cuervos: tacha 2 cuervos y queda 1. Con 6 arañas, tacha 4 arañas y quedan 2. Con 6 espantapájaros, tacha 4 espantapájaros y quedan 2. Y para cerrar, 2 casas: tacha 1 casa y queda 1. En todos la mecánica es igual de sencilla: mira cuántos hay, tacha cuántos se quitan y cuenta cuántos quedan. Al tachar con el lápiz, la niña o el niño descubre con sus propios ojos por qué 5 menos 3 son 2, sin tener que memorizar nada. Esta hoja de trabajo de resta se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo de Pensamiento Matemático y el eje de Número, para Educación Preescolar y Primer grado de primaria. Es totalmente gratis: puedes imprimir el PDF para trabajar en papel o jugar la versión interactiva en línea, sin registro y sin instalar nada. Una sola ficha, seis objetos y una pregunta clara que tu peque va a aprender a responder solita: ¿cuántos quedan?",
+      "canonicalDeckSlug": "resta-tachar-miscelaneo-f89a",
+      "carousel": [
+        {
+          "label": "Resta con Música",
+          "href": "resta-tachar-musica-2adb"
+        },
+        {
+          "label": "Resta con Ocupaciones",
+          "href": "resta-tachar-ocupaciones-dbf0"
+        },
+        {
+          "label": "Resta con Oficina de Correos",
+          "href": "resta-tachar-oficina-de-correos-273b"
+        },
+        {
+          "label": "Resta con Herramientas",
+          "href": "resta-tachar-herramientas-1813"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-muebles-a6d4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "furniture",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Muebles",
+      "metaDescription": "Resta hasta 10 con muebles: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Muebles",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-muebles-a6d4"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu pequeño aprende a restar de la manera más concreta: tachando dibujos y contando los que quedan. Cada problema muestra un grupo de muebles; el niño tacha cuántos se quitan y cuenta cuántos quedan. Así la resta deja de ser un número abstracto y se vuelve una acción que se ve con los ojos y se hace con la mano. Todas las restas llegan hasta 10, ideales para preescolar y primer grado de primaria.",
+      "p2": "El mazo trae seis problemas, cada uno ilustrado con un mueble de verdad para que contar sea fácil y divertido. Tu hijo tacha los que se quitan y escribe cuántos quedan: 9 taburetes, tacha 4, quedan 5; 3 repisas, tacha 1, quedan 2; 6 gabinetes, tacha 4, quedan 2; 2 sillas, tacha 1, queda 1; 4 mecedoras, tacha 2, quedan 2; y 8 cojines, tacha 6, quedan 2. Cada dibujo tiene su nombre claro, así que el niño cuenta objetos reales y entiende qué significa quitar.",
+      "p3": "Estas hojas de trabajo de resta usan la mecánica de tachar y contar lo que queda, distinta de solo escribir números: aquí la resta se hace con dibujos que el niño tacha uno por uno. Primero cuenta cuántos muebles hay en total, luego tacha cuántos se quitan y al final cuenta los que quedan para hallar el resultado. Con 9 taburetes que tacha 4, descubre que quedan 5; con 8 cojines que tacha 6, ve que quedan 2; y así con las 3 repisas, los 6 gabinetes, las 2 sillas y las 4 mecedoras. Esta forma de quitar y contar lo que queda construye una base sólida para el Pensamiento Matemático del eje de Número, dentro de la Nueva Escuela Mexicana de la SEP, pensada para niños de Educación Preescolar de 5 años hasta primer grado de primaria. Puedes descargar el material en PDF para imprimir y trabajar con lápiz, o jugarlo en línea de forma interactiva, las dos opciones gratis y sin necesidad de registrarte. No hay cronómetros ni puntajes que presionen: el ritmo lo marca tu pequeño. Lo importante es que cuente con calma, tache con cuidado y celebre cada resultado correcto mientras descubre cuántos muebles quedan.",
+      "canonicalDeckSlug": "resta-tachar-muebles-a6d4",
+      "carousel": [
+        {
+          "label": "Resta con Hospital",
+          "href": "resta-tachar-hospital-8411"
+        },
+        {
+          "label": "Resta con Utensilios de Cocina",
+          "href": "resta-tachar-utensilios-de-cocina-d874"
+        },
+        {
+          "label": "Resta con Ocupaciones",
+          "href": "resta-tachar-ocupaciones-dbf0"
+        },
+        {
+          "label": "Resta con Verano",
+          "href": "resta-tachar-verano-0739"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-musica-2adb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "music",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Música",
+      "metaDescription": "Resta hasta 10 con música: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y cuenta cuántos quedan: Resta con Música",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "music",
+        "resta-tachar-musica-2adb"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte cada problema en algo que tu pequeño puede ver y tocar con el dedo: un grupo de dibujos de música que se van quitando uno por uno. El niño tacha cuántos se quitan y después cuenta los que quedan. Así descubre que restar es, simplemente, quitar y ver lo que sobra. Las seis restas llegan hasta 10, con números amables para manitas que apenas empiezan a contar.",
+      "p2": "No hay que escribir números difíciles ni adivinar nada: solo tachar y contar. Cada problema muestra un instrumento distinto, así que el conteo nunca se vuelve aburrido y cada página se siente como un pequeño concierto. Puedes imprimir la ficha para trabajar con lápiz o jugarla en línea sin registro, completamente gratis. Sin cronómetros y sin puntajes: cada niño avanza a su propio ritmo, con calma y confianza.",
+      "p3": "En esta ficha de música tu pequeño practica seis restas de quitar, una por instrumento, y en cada una tacha y cuenta los que quedan. Empieza con el trombón: hay 8 trombones, tacha 6 y quedan 2. Luego vienen los platillos: 5 platillos, tacha 4 y queda 1. Sigue la flauta, la resta más pareja de la página: 8 flautas, tacha 4 y quedan 4. El teclado pone a prueba el conteo grande: 8 teclados, tacha 7 y queda 1. La nota musical es más tranquila: 6 notas musicales, tacha 2 y quedan 4. Y el escenario cierra el concierto: 5 escenarios, tacha 4 y queda 1. En todos los casos la acción es la misma y muy concreta: tachar los dibujos que se quitan con una rayita y después contar uno por uno los que se quedan, para escribir el resultado. Esta forma de restar quitando es perfecta para niños de 5 a 7 años, desde Educación Preescolar hasta primer grado de primaria, porque conecta el número con objetos reales que pueden señalar y contar. La actividad acompaña el campo de Pensamiento Matemático y el eje de número de la Nueva Escuela Mexicana de la SEP, sin presión y con mucho juego. Descarga el PDF para imprimir o juega la versión interactiva en línea: las dos son gratis y no piden ningún registro.",
+      "canonicalDeckSlug": "resta-tachar-musica-2adb",
+      "carousel": [
+        {
+          "label": "Resta con Ocupaciones",
+          "href": "resta-tachar-ocupaciones-dbf0"
+        },
+        {
+          "label": "Resta con Vida Marina",
+          "href": "resta-tachar-vida-marina-9916"
+        },
+        {
+          "label": "Resta con Formas",
+          "href": "resta-tachar-formas-c087"
+        },
+        {
+          "label": "Resta con Juguetes",
+          "href": "resta-tachar-juguetes-009e"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-navidad-413a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "christmas",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Navidad",
+      "metaDescription": "Resta hasta 10 con Navidad: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Navidad",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-navidad-413a"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu pequeño ve un grupo de dibujos navideños, tacha cuántos se quitan y cuenta cuántos quedan. Es la forma más concreta de entender la resta de quitar: nada de números abstractos al principio, solo dibujos que sí se pueden contar con el dedo. El niño mira nueve duendes, tacha tres y descubre que quedan seis; mira seis renos, tacha cuatro y cuenta que quedan dos. Cada problema es una historia chiquita de Navidad donde quitar algo siempre deja una cantidad para volver a contar.",
+      "p2": "Son seis problemas con restas hasta 10, cada uno ilustrado con su propio objeto navideño para que el conteo sea claro y divertido. El niño trabaja con cuatro lucecitas y tacha dos, así quedan dos; mira nueve iglesias, tacha seis y cuenta que quedan tres; tacha siete de los diez Rodolfos y descubre que quedan tres; y con seis panes de jengibre tacha solo uno, así quedan cinco. Tachar y volver a contar lo que queda ayuda a que la resta se sienta natural, una acción con las manos antes de pasar al símbolo de menos.",
+      "p3": "Esta ficha de resa modo Tacha y Cuenta está pensada para niños de Educación Preescolar (5 años) y Primer grado de primaria, dentro del eje de Pensamiento Matemático — Número de la Nueva Escuela Mexicana. A diferencia de otras hojas donde el niño busca el número que falta o averigua cuánto se quitó, aquí la acción es siempre la misma y muy clara: tachar los dibujos que se quitan y contar los que quedan. Cada problema usa conteos discretos de objetos reales que el niño reconoce de la temporada: nueve duendes a los que les tacha tres y quedan seis; seis renos a los que tacha cuatro y quedan dos; cuatro luces de las que tacha dos y quedan dos; nueve iglesias a las que tacha seis y quedan tres; diez Rodolfos a los que tacha siete y quedan tres; y seis panes de jengibre a los que tacha solo uno y quedan cinco. La mecánica de tachar con una rayita y luego contar lo que sobra convierte la resta en algo que se puede ver y tocar, ideal para esos primeros años en que quitar todavía es una idea nueva. Puedes usarla de dos maneras, las dos gratuitas y sin registro: imprime el PDF para trabajar con lápiz en el salón o en casa, o juega la versión interactiva en línea directo desde el navegador. No hay cronómetros ni puntajes que presionen al niño; solo la calma de tachar, contar cuántos quedan y celebrar cada respuesta a su propio ritmo.",
+      "canonicalDeckSlug": "resta-tachar-navidad-413a",
+      "carousel": [
+        {
+          "label": "Resta con Salón de Clases",
+          "href": "resta-tachar-salon-de-clases-b09e"
+        },
+        {
+          "label": "Resta con Ropa",
+          "href": "resta-tachar-ropa-e18b"
+        },
+        {
+          "label": "Resta con Dinosaurios",
+          "href": "resta-tachar-dinosaurios-d619"
+        },
+        {
+          "label": "Resta con Frutas",
+          "href": "resta-tachar-frutas-0c7c"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-ocupaciones-dbf0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "occupations",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Ocupaciones",
+      "metaDescription": "Resta hasta 10 con oficios: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Ocupaciones",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "Piloto: 5 dibujos, tacha 4, quedan 1",
+        "Doctor: 6 dibujos, tacha 2, quedan 4",
+        "Recolector de basura: 4 dibujos, tacha 1, quedan 3",
+        "Florista: 8 dibujos, tacha 4, quedan 4",
+        "Sastre: 10 dibujos, tacha 1, quedan 9",
+        "Barbero: 8 dibujos, tacha 4, quedan 4"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte el quitar en algo que se ve y se cuenta. En cada problema aparece un grupo de dibujos de una misma ocupación: el niño tacha cuántos se quitan y luego cuenta tranquilamente cuántos quedan. Es la forma más concreta de restar hasta 10, porque la respuesta no se adivina ni se calcula de memoria: queda dibujada en la hoja, lista para contarse con el dedo.",
+      "p2": "La ficha recorre seis oficios cercanos para los pequeños. Empieza con 5 pilotos: tacha 4 y quedan 1. Siguen 6 doctores: tacha 2 y quedan 4. Con el recolector de basura hay 4 dibujos: tacha 1 y quedan 3. La florista trae 8 flores de trabajo: tacha 4 y quedan 4. El sastre llega con 10 dibujos: tacha 1 y quedan 9. Y el barbero cierra con 8: tacha 4 y quedan 4. Cada resta usa objetos discretos que se pueden señalar uno por uno.",
+      "p3": "Pensada para niñas y niños de Educación Preescolar (5 años) y Primer grado de primaria, de 5 a 7 años, esta hoja de trabajo de resta acompaña el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP). La mecánica es siempre la misma y por eso da confianza: ves un grupo de dibujos, tachas cuántos se quitan y cuentas los que quedan. Así el niño descubre que restar es, sencillamente, quitar algunos y fijarse en lo que sobra. Los conteos son del todo concretos —5 pilotos, 6 doctores, 4 dibujos del recolector de basura, 8 flores de la florista, 10 dibujos del sastre, 8 del barbero—, de modo que cada respuesta puede comprobarse con la mirada y con el dedo, sin prisas ni números escritos de por medio. No hay cronómetros ni puntajes: solo el gusto de tachar, contar y entender. Pregunta amable después de cada grupo: ¿cuántos quedan? Y al responder, el pequeño ya está restando de verdad. Puedes usar esta ficha de dos maneras, las dos gratis y sin registro: descárgala en PDF para imprimir y trabajar con lápiz, o juega la versión interactiva en línea para tachar y contar directamente en la pantalla. Ideal para el salón, para casa o para reforzar la resta de quitar con material que los niños reconocen y disfrutan.",
+      "canonicalDeckSlug": "resta-tachar-ocupaciones-dbf0",
+      "carousel": [
+        {
+          "label": "Resta con Vida Marina",
+          "href": "resta-tachar-vida-marina-9916"
+        },
+        {
+          "label": "Resta con Mascotas",
+          "href": "resta-tachar-mascotas-9ceb"
+        },
+        {
+          "label": "Resta con Espacio",
+          "href": "resta-tachar-espacio-cb27"
+        },
+        {
+          "label": "Resta con Árboles",
+          "href": "resta-tachar-arboles-4281"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-oficina-de-correos-273b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "post_office",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en Correos",
+      "metaDescription": "Resta hasta 10 con la oficina de correos: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con la Oficina de Correos",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-oficina-de-correos-273b"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu peque aprende a restar quitando, de la forma más concreta que existe: ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Con el tema de la oficina de correos, cada problema cobra vida con cartas, paquetes, estampillas y carteros. El niño tacha con su lápiz o con el dedo y descubre el resultado contando lo que sobra. Son restas hasta 10, ideales para Educación Preescolar y Primer grado de primaria. Disponible gratis para imprimir en PDF o jugar en línea sin registro, con un tono cálido y sin cronómetros ni puntajes.",
+      "p2": "La mecánica es sencilla y clara: cada problema parte de un grupo de objetos, tu peque tacha los que se quitan y luego cuenta cuántos quedan para hallar la respuesta. Así la resta deja de ser un número abstracto y se convierte en una acción que el niño hace con sus propias manos. Esta hoja se alinea con la Nueva Escuela Mexicana de la SEP, dentro del campo de Pensamiento Matemático y el eje de Número, donde los pequeños construyen la idea de quitar y comparar cantidades antes de escribir operaciones formales. Tachar y contar lo que queda es el primer puente hacia restar con seguridad.",
+      "p3": "Los seis problemas del tema de la oficina de correos invitan a tu peque a tachar y contar lo que queda, cada uno con un objeto real y su conteo discreto. Primero ve 5 cartas: tacha 3 y cuenta las cartas que quedan, 2. Luego aparecen 3 oficinas de correos: tacha 2 y queda 1 oficina. En el tercer problema hay 8 paquetes: tacha 3 paquetes y quedan 5. Después se muestran 5 carteros: tacha 4 y queda 1 cartero. El quinto problema presenta 7 entregas: tacha 6 y queda 1 entrega. Por último aparecen 9 estampillas: tacha 5 estampillas y quedan 4. En cada caso la pregunta es la misma y guía toda la actividad: ¿cuántos quedan? El niño tacha los dibujos que se quitan, vuelve a contar los que sobran y escribe el resultado. Esta forma de quitar y contar lo que queda hace que la resta sea visible y comprensible, porque tu peque no adivina ni memoriza: observa, tacha y cuenta. Trabajar con cartas, paquetes y estampillas conecta los números con cosas que los pequeños reconocen de su vida diaria, y eso afianza el sentido de la resta. Puedes imprimir la hoja en PDF para el cuaderno o usar la versión interactiva en línea, ambas gratis y sin registro. Acompaña a tu peque con calma, celebra cada conteo correcto y deja que descubra a su ritmo cuántos quedan en cada grupo.",
+      "canonicalDeckSlug": "resta-tachar-oficina-de-correos-273b",
+      "carousel": [
+        {
+          "label": "Resta con Formas",
+          "href": "resta-tachar-formas-c087"
+        },
+        {
+          "label": "Resta con Espacio",
+          "href": "resta-tachar-espacio-cb27"
+        },
+        {
+          "label": "Resta con Cosas que Vuelan",
+          "href": "resta-tachar-cosas-que-vuelan-98b3"
+        },
+        {
+          "label": "Resta con Clima",
+          "href": "resta-tachar-clima-27ad"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-partes-del-cuerpo-afc9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "body_parts",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta el Cuerpo",
+      "metaDescription": "Hoja de trabajo de resta gratis: tacha y cuenta cuántos quedan con partes del cuerpo. Restas hasta 10 para niños de 5 a 7 años. Imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Partes del Cuerpo",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-partes-del-cuerpo-afc9"
+      ],
+      "p1": "En esta hoja de trabajo de resta tu niño aprende a quitar de la forma más concreta: ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema usa partes del cuerpo bien conocidas (una pierna, un labio, un dedo) para que el conteo sea claro y cercano. Es resta hasta 10 pensada para preescolar y primer grado.",
+      "p2": "La mecánica es siempre la misma y muy sencilla: hay N dibujos de un mismo objeto, el niño tacha M dibujos con su lápiz o con el dedo en la pantalla, y luego cuenta cuántos quedan sin tachar. Así descubre por sí mismo que quitar es restar. Puedes imprimir la ficha en PDF o jugarla en línea, gratis y sin registro, sin cronómetros ni puntajes que presionen.",
+      "p3": "Los seis problemas usan objetos reales con conteos discretos que tu niño puede señalar uno por uno. En el primero hay 5 piernas: tacha 2 y quedan 3. Luego aparecen 6 labios: tacha 5 y queda 1. Después vienen 8 dedos: tacha 3 y quedan 5. El cuarto muestra 7 frentes: tacha 2 y quedan 5. El quinto presenta 8 hombros: tacha 5 y quedan 3. Y el último tiene 7 brazos: tacha 1 y quedan 6. En cada caso el niño hace lo mismo, tacha cuántos se quitan y cuenta cuántos quedan, así que la pregunta clave siempre es la misma: ¿cuántos quedan? Tachar y contar lo que queda convierte la resta en algo que se ve y se toca, no en un número abstracto. Esta hoja se alinea con el campo de Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP, y acompaña con calidez el paso de preescolar (5 años) a primer grado de primaria, con restas hasta 10. Imprímela para trabajar con lápiz o úsala en línea: en ambas formas es gratis y no necesitas crear cuenta. Repite las fichas las veces que quieras, porque cada repaso ayuda a tu niño a quitar con más seguridad y a contar los que quedan sin contar todo de nuevo.",
+      "canonicalDeckSlug": "resta-tachar-partes-del-cuerpo-afc9",
+      "carousel": [
+        {
+          "label": "Resta con Desayuno",
+          "href": "resta-tachar-desayuno-923a"
+        },
+        {
+          "label": "Resta con Campamento",
+          "href": "resta-tachar-campamento-c259"
+        },
+        {
+          "label": "Resta con Ropa",
+          "href": "resta-tachar-ropa-e18b"
+        },
+        {
+          "label": "Resta con Flores",
+          "href": "resta-tachar-flores-ca69"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-pascua-7995",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "easter",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en Pascua",
+      "metaDescription": "Resta hasta 10 con Pascua: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Pascua",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "dulce",
+        "gomitas",
+        "mariposa",
+        "listón",
+        "narciso",
+        "lirio"
+      ],
+      "p1": "En esta hoja de trabajo de resta con tema de Pascua, tu peque resta quitando: cada problema muestra un grupo de dibujos, el niño tacha cuántos se quitan y cuenta los que quedan. Es la forma más concreta de entender la resta hasta 10, porque la respuesta se ve con los ojos. Empieza con los dulces: hay 5 dibujos, tacha 4 y quedan 1 (5 − 4 = 1). Luego vienen las gomitas: aparecen 8, tacha 4 y quedan 4 (8 − 4 = 4). Cada objeto se cuenta de uno en uno, sin prisa y sin presión.",
+      "p2": "Los seis problemas usan objetos discretos y fáciles de contar para que la acción de tachar tenga sentido. La mariposa: 7 dibujos, tacha 1 y quedan 6 (7 − 1 = 6). El listón: 5 dibujos, tacha 2 y quedan 3 (5 − 2 = 3). El narciso: 6 dibujos, tacha 1 y quedan 5 (6 − 1 = 5). El lirio: 4 dibujos, tacha 1 y quedan 3 (4 − 1 = 3). Al tachar y volver a contar lo que queda, el niño descubre por sí mismo el resultado de cada resta, paso a paso.",
+      "p3": "Esta ficha de resta funciona de una manera muy sencilla y muy clara para los más chicos: el niño mira el grupo de dibujos, decide cuántos se quitan, los tacha con una rayita y después cuenta los que quedan. La pregunta de siempre es \"¿cuántos quedan?\", y la respuesta no se adivina: se ve. Por eso esta hoja es ideal para Educación Preescolar (5 años) y Primer grado de primaria, en el rango de 5 a 7 años, con restas hasta 10. Trabajamos el Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP), apoyando la idea de quitar como base de la resta. Cada problema tiene su propio objeto de Pascua con conteos reales: 5 dulces de los que tacha 4 y queda 1; 8 gomitas de las que tacha 4 y quedan 4; 7 mariposas de las que tacha 1 y quedan 6; 5 listones de los que tacha 2 y quedan 3; 6 narcisos de los que tacha 1 y quedan 5; y 4 lirios de los que tacha 1 y quedan 3. Lo que hace distinta a esta hoja es justo esa acción: tachar y contar lo que queda, en vez de buscar un número que falta o adivinar cuánto se quitó. Es resta de quitar, pura y concreta. Puedes usarla de dos formas, totalmente gratis y sin registro: descárgala en PDF para imprimir y trabajar con lápiz, o juégala en línea de forma interactiva. No hay cronómetros ni puntajes; el tono es cálido y tranquilo, para que cada niño avance a su propio ritmo y disfrute contando los dibujos de Pascua que quedan en cada grupo.",
+      "canonicalDeckSlug": "resta-tachar-pascua-7995",
+      "carousel": [
+        {
+          "label": "Resta con Emociones",
+          "href": "resta-tachar-emociones-7c11"
+        },
+        {
+          "label": "Resta con Flores",
+          "href": "resta-tachar-flores-ca69"
+        },
+        {
+          "label": "Resta con Frutas",
+          "href": "resta-tachar-frutas-0c7c"
+        },
+        {
+          "label": "Resta con Ocupaciones",
+          "href": "resta-tachar-ocupaciones-dbf0"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-playa-d4cc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "beach",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en la Playa",
+      "metaDescription": "Resta hasta 10 con tema de playa: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con la Playa",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-playa-d4cc",
+        "beach",
+        "Playa",
+        "7",
+        "2",
+        "5",
+        "3",
+        "2",
+        "1",
+        "8",
+        "4",
+        "4",
+        "5",
+        "1",
+        "4",
+        "9",
+        "2",
+        "7",
+        "3",
+        "1",
+        "2"
+      ],
+      "p1": "Lleva a tus alumnos a la playa con estas hojas de trabajo de resta para tachar y contar. En cada problema aparece un grupo de dibujos del mismo objeto; el niño tacha cuántos se quitan y cuenta los que quedan. Es la forma más concreta de entender la resta de quitar: ver el grupo completo, tachar una parte y descubrir cuántos quedan. Con seis escenas playeras y restas hasta el 10, esta ficha invita a los más pequeños a contar con calma, sin prisa y sin presión.",
+      "p2": "El mazo arranca con 7 botes de bloqueador solar: el niño tacha 2 y cuenta que quedan 5. Luego aparecen 3 sombreros para tachar 2 y dejar 1, y 8 palmeras de las que se tachan 4 para que queden 4. Siguen 5 medusas, donde tacha 1 y quedan 4, y 9 helados de los que tacha 2 para descubrir que quedan 7. Cierra con 3 cabañas: tacha 1 y quedan 2. Cada resta usa objetos reales y conteos exactos, así el alumno relaciona la operación con algo que puede ver y tocar con la mirada.",
+      "p3": "Estas hojas de trabajo de resta apoyan el campo de Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP) y están pensadas para el tramo de Educación Preescolar (5 años) a Primer grado de primaria, con niños de 5 a 7 años. La mecánica es siempre la misma y por eso resulta tan clara: el niño observa el grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan, escribiendo el resultado de a − b = c. Al tachar 2 de los 7 botes de bloqueador y contar 5, o al tachar 4 de las 8 palmeras y contar 4, el alumno vive la resta de quitar de manera concreta: primero ve el todo, después separa una parte y al final cuenta lo que sobra. Con conteos discretos y objetos reconocibles —bloqueador, sombreros, palmeras, medusas, helados y cabañas— las imágenes son el corazón de la actividad y no un simple adorno. Las restas no pasan del 10, así que cada niño puede comprobar su respuesta con los dedos o señalando los dibujos uno por uno. Esta ficha es distinta de las otras hojas de la colección: aquí el sello es la acción de tachar y contar lo que queda, no buscar el número que falta ni averiguar cuánto se quitó. Todo el material es gratis: puedes imprimir el PDF para trabajarlo en papel o jugarlo en línea, sin registro y sin necesidad de crear una cuenta. No hay cronómetros ni puntajes; solo una actividad cálida y tranquila para que cada niño aprenda a su propio ritmo, divirtiéndose con un paseo por la playa mientras descubre cuántos quedan.",
+      "canonicalDeckSlug": "resta-tachar-playa-d4cc",
+      "carousel": [
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-e2e3"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-2-4026"
+        },
+        {
+          "label": "Resta con Campamento",
+          "href": "resta-tachar-campamento-c259"
+        },
+        {
+          "label": "Resta con Dinosaurios",
+          "href": "resta-tachar-dinosaurios-d619"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-postres-y-dulces-103d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "desserts_and_sweets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Postres",
+      "metaDescription": "Resta hasta 10 con postres y dulces: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Postres y Dulces",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-postres-y-dulces-103d",
+        "desserts_and_sweets",
+        "5-7",
+        "Pensamiento Matemático — Número",
+        "Nueva Escuela Mexicana (SEP)"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte cada problema en algo que tu peque puede ver y tocar con los ojos. En vez de números sueltos, aparece un grupo de dibujos de un postre rico: el niño tacha cuántos se quitan y luego cuenta los que quedan. Así descubre que restar es quitar, sin fórmulas ni palabras difíciles. Son seis restas hasta 10 con postres y dulces, perfectas para los primeros pasos del Pensamiento Matemático.",
+      "p2": "La puedes imprimir como ficha de papel o jugarla en línea sin registro, totalmente gratis. No hay cronómetro ni puntaje: tu hijo avanza a su ritmo, tacha con calma y cuenta los que quedan. Pensada para niñas y niños de 5 a 7 años, del último año de Educación Preescolar al Primer grado de primaria, se alinea con el enfoque de la Nueva Escuela Mexicana (SEP) dentro del campo de Pensamiento Matemático — Número.",
+      "p3": "Cada problema muestra un solo postre dibujado varias veces para que contar sea claro y concreto. En el primer reto hay 5 hotcakes: el niño tacha 4 y quedan 1. Luego aparecen 6 rollos de canela, tacha 4 y quedan 2. Sigue con 7 waffles, tacha 5 y quedan 2. Después ve 5 panquecitos, tacha 1 y quedan 4. En el quinto hay 7 brownies, tacha 6 y queda 1. Y para cerrar, 6 barras de chocolate, tacha 2 y quedan 4. En todos la pregunta es la misma y bien sencilla: ¿cuántos quedan? La mecánica de tachar y contar lo que queda hace visible la idea de quitar, porque el peque marca con una rayita los dibujos que se van y vuelve a contar solo los que siguen ahí. Al usar postres y dulces que los niños reconocen —hotcakes, rollos de canela, waffles, panquecitos, brownies y barras de chocolate— la resta deja de ser abstracta y se vuelve un juego rico y cercano. Cada conteo es de objetos enteros y separados, uno por uno, para que el resultado se entienda de un vistazo. Trabajar la resta de quitar de esta forma prepara el camino hacia las operaciones escritas más adelante, siempre con un tono cálido y sin presión. Imprime la hoja para el cuaderno o ábrela en línea para practicar las veces que quieras, en casa o en el salón.",
+      "canonicalDeckSlug": "resta-tachar-postres-y-dulces-103d",
+      "carousel": [
+        {
+          "label": "Resta con Dinosaurios",
+          "href": "resta-tachar-dinosaurios-d619"
+        },
+        {
+          "label": "Resta con Pascua",
+          "href": "resta-tachar-pascua-7995"
+        },
+        {
+          "label": "Resta con Criaturas del Bosque",
+          "href": "resta-tachar-criaturas-del-bosque-37b0"
+        },
+        {
+          "label": "Resta con Miscelánea",
+          "href": "resta-tachar-miscelaneo-f89a"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-ropa-e18b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "clothing",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Ropa",
+      "metaDescription": "Resta de quitar con ropa para niños de 5 a 7 años: tacha y cuenta cuántos quedan. Restas hasta 10, gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Ropa",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "delantal",
+        "gorro",
+        "corbata",
+        "chanclas",
+        "jeans",
+        "impermeable"
+      ],
+      "p1": "Estas hojas de trabajo de resta enseñan a quitar de la forma más concreta: el niño ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Todo gira alrededor de la ropa, así que cada problema usa objetos que los pequeños reconocen al instante. Es resta visual hasta 10, ideal para manos que apenas empiezan a entender qué pasa cuando algo se va.",
+      "p2": "A diferencia de otras fichas que piden adivinar el número que falta o escribir cuánto se quitó, aquí la acción es clara y directa: tachar y contar lo que queda. El niño no necesita memorizar nada todavía; solo mira, tacha con su lápiz o con el dedo en la pantalla, y cuenta los dibujos que sobran. Esa acción de tachar deja una huella visible que conecta el quitar con el resultado.",
+      "p3": "Cada uno de los seis problemas muestra un solo tipo de prenda con su conteo real para que la resta de quitar tenga sentido. Primero aparecen 8 delantales: el niño tacha 1 y cuenta los 7 que quedan. Luego hay 6 gorros; tacha 1 y quedan 5. Después se ven 6 corbatas, tacha 3 y quedan 3, una resta donde la mitad se va. Siguen 4 chanclas: tacha 2 y quedan 2. Vienen 4 jeans, tacha 2 y quedan 2 otra vez, perfecto para notar el patrón. Y al final 6 impermeables: tacha 5 y queda 1 solito, la resta más grande de la hoja. En cada caso la pregunta es la misma y muy sencilla: ¿cuántos quedan? El niño tacha cuántos se quitan y cuenta los dibujos que sobran, sin prisas y sin puntajes. Esta ficha apoya el campo de Pensamiento Matemático, en el eje de Número, dentro de la Nueva Escuela Mexicana de la SEP, y acompaña el paso de Educación Preescolar al Primer grado de primaria. Puedes descargarla gratis en PDF para imprimir o jugarla en línea sin registro, en casa o en el salón, tantas veces como quieras. El tono es cálido y respetuoso con el ritmo de cada niño: lo importante es entender que al quitar siempre quedan menos, y eso se ve clarito al tachar y contar.",
+      "canonicalDeckSlug": "resta-tachar-ropa-e18b",
+      "carousel": [
+        {
+          "label": "Resta con Colores",
+          "href": "resta-tachar-colores-d02c"
+        },
+        {
+          "label": "Resta con Postres y Dulces",
+          "href": "resta-tachar-postres-y-dulces-103d"
+        },
+        {
+          "label": "Resta con Emociones",
+          "href": "resta-tachar-emociones-7c11"
+        },
+        {
+          "label": "Resta con Hospital",
+          "href": "resta-tachar-hospital-8411"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-salon-de-clases-b09e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "classroom",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en el Salón",
+      "metaDescription": "Resta hasta 10 con el salón de clases: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con el Salón de Clases",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-salon-de-clases-b09e"
+      ],
+      "p1": "Estas hojas de trabajo de resta llevan a los niños al salón de clases para aprender a restar quitando de la forma más concreta: ver un grupo de dibujos, tachar cuántos se quitan y contar los que quedan. Cada problema muestra un objeto del salón con su grupo completo; el niño tacha y descubre el resultado con sus propios ojos, sin números abstractos al principio.",
+      "p2": "Con seis útiles escolares que tus alumnos reconocen, cada ficha pone una resta hasta 10 frente a ellos como una imagen clara. La acción es siempre la misma y por eso queda firme: tacha cuántos se quitan y cuenta cuántos quedan. Así la resta deja de ser un misterio y se vuelve algo que se hace con la mano y se comprueba con la vista.",
+      "p3": "Cada uno de los seis problemas usa un objeto real del salón con su conteo discreto, para que el niño tache y cuente lo que queda. Hay 8 crayones: tacha 5 y quedan 3. Hay 10 rollos de cinta adhesiva: tacha 2 y quedan 8. Hay 9 computadoras: tacha 6 y quedan 3. Hay 10 frascos de pegamento: tacha 6 y quedan 4. Hay 8 hojas de papel: tacha 7 y queda 1. Y hay 4 reglas: tacha 2 y quedan 2. En cada caso la mecánica es la misma y muy concreta: el niño cuenta el grupo completo, tacha cuántos se quitan y vuelve a contar los que quedan para hallar la respuesta. Esta es la resta de quitar más sencilla de entender para preescolar y primer grado, porque el resultado se ve con los dibujos antes de escribirlo con números. Las fichas se alinean con el Pensamiento Matemático (Número) de la Nueva Escuela Mexicana de la SEP y son ideales para niños de 5 a 7 años. Puedes descargar el PDF para imprimir o jugar la versión interactiva en línea, todo gratis y sin registro. Sin cronómetros ni puntajes: solo tachar, contar y celebrar lo que cada niño logra a su ritmo, con la confianza de que entiende cuántos quedan.",
+      "canonicalDeckSlug": "resta-tachar-salon-de-clases-b09e",
+      "carousel": [
+        {
+          "label": "Resta con Ropa",
+          "href": "resta-tachar-ropa-e18b"
+        },
+        {
+          "label": "Resta con Colores",
+          "href": "resta-tachar-colores-d02c"
+        },
+        {
+          "label": "Resta con Pascua",
+          "href": "resta-tachar-pascua-7995"
+        },
+        {
+          "label": "Resta con Muebles",
+          "href": "resta-tachar-muebles-a6d4"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-utensilios-de-cocina-d874",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "kitchen_tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta Utensilios",
+      "metaDescription": "Hojas de trabajo de resta gratis: tacha y cuenta cuántos quedan con utensilios de cocina. Restas hasta 10 para niños de 5 a 7 años. Imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Utensilios de Cocina",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-utensilios-de-cocina-d874"
+      ],
+      "p1": "En estas hojas de trabajo de resta, tu pequeño aprende a restar quitando de la forma más concreta que existe: ve un grupo de dibujos, tacha cuántos se quitan y cuenta los que quedan. Cada problema usa utensilios de cocina de verdad, así que el niño no resuelve números abstractos, sino que mira tapas, sartenes y coladores que puede reconocer. Son restas hasta 10, pensadas para niños de Educación Preescolar (5 años) hasta Primer grado de primaria, dentro del Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP).",
+      "p2": "La mecánica es siempre la misma y por eso da confianza: cuenta cuántos dibujos hay, tacha los que se quitan y escribe cuántos quedan. Por ejemplo, en una hoja hay 9 sartenes y se tachan 8, así que queda 1; en otra hay 5 licuadoras y se tachan 3, así que quedan 2. Esa acción de tachar y contar lo que queda convierte la resta en algo que el niño hace con sus propias manos, sin prisa y sin miedo a equivocarse. Aquí no hay cronómetros ni puntajes: solo dibujos claros, conteos sencillos y un ritmo cálido para aprender.",
+      "p3": "Este juego de seis problemas recorre la cocina con conteos discretos de cada objeto. Primero hay 9 tapas y el niño tacha 2, así que quedan 7. Luego aparecen 9 sartenes, tacha 8 y queda 1. Después cuenta 5 licuadoras, tacha 3 y quedan 2. Sigue con 8 tablas de cortar, tacha 4 y quedan 4. Más adelante hay 7 coladores, tacha 3 y quedan 4. Por último, encuentra 4 delantales, tacha 3 y queda 1. En cada caso la misma rutina —contar, tachar lo que se quita y volver a contar lo que queda— deja ver que la resta es simplemente quitar algo de un grupo. Las hojas funcionan en dos formatos para que elijas el que mejor te sirva: puedes imprimir el PDF para trabajar con lápiz en casa o en el salón, o jugar la versión interactiva en línea directamente desde el navegador. Todo es gratis, sin registro y sin cuentas. Por ser dibujos de objetos cotidianos de la cocina, el niño asocia cada resta con algo real, refuerza el conteo de uno en uno y va ganando seguridad antes de pasar a las restas con números escritos. Es una manera amable de practicar el Número del Pensamiento Matemático mientras el pequeño tacha, cuenta y descubre cuántos quedan.",
+      "canonicalDeckSlug": "resta-tachar-utensilios-de-cocina-d874",
+      "carousel": [
+        {
+          "label": "Resta con Miscelánea",
+          "href": "resta-tachar-miscelaneo-f89a"
+        },
+        {
+          "label": "Resta con Música",
+          "href": "resta-tachar-musica-2adb"
+        },
+        {
+          "label": "Resta con Mascotas",
+          "href": "resta-tachar-mascotas-9ceb"
+        },
+        {
+          "label": "Resta con Cosas que Vuelan",
+          "href": "resta-tachar-cosas-que-vuelan-98b3"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-vehiculos-ecbf",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "vehicles",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Vehículos",
+      "metaDescription": "Hojas de trabajo de resta para tachar y contar cuántos quedan: restas hasta 10 con vehículos para niños de 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Vehículos",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "8 carros de carreras, tacha 2, quedan 6",
+        "7 bulldozers, tacha 4, quedan 3",
+        "5 ambulancias, tacha 2, quedan 3",
+        "8 patinetas, tacha 1, quedan 7",
+        "4 aviones, tacha 1, quedan 3",
+        "9 helicópteros, tacha 8, queda 1"
+      ],
+      "p1": "Esta hoja de trabajo de resta convierte cada problema en algo que el niño puede ver y tocar con el lápiz: un grupo de vehículos sobre la página y la pregunta más sencilla de la resta de quitar, ¿cuántos quedan? El pequeño tacha los vehículos que se van y cuenta los que se quedan. Así descubre que restar es quitar, sin números abstractos al principio: primero la acción de tachar, después el resultado.",
+      "p2": "Los seis problemas usan vehículos que los niños reconocen y nombran con gusto. Hay 8 carros de carreras y tachas 2, quedan 6; 7 bulldozers y tachas 4, quedan 3; 5 ambulancias y tachas 2, quedan 3; 8 patinetas y tachas 1, quedan 7; 4 aviones y tachas 1, quedan 3; y 9 helicópteros donde tachas 8 y queda 1. Todas son restas hasta 10, pensadas para que el niño cuente uno por uno cada dibujo.",
+      "p3": "Tachar y contar lo que queda es la forma más concreta de la resta de quitar, y por eso esta ficha funciona tan bien en el tránsito de Educación Preescolar al primer grado de primaria, con niños de 5 a 7 años. Cada problema muestra una cantidad real de vehículos para que el conteo sea discreto: el niño cuenta los 8 carros de carreras antes de tachar 2 y descubrir que quedan 6, o cuenta los 9 helicópteros, tacha 8 y comprueba con alegría que queda 1. La mecánica es siempre la misma y por eso da confianza: ve el grupo completo, tacha cuántos se quitan y cuenta los que quedan. Al trabajar con bulldozers, ambulancias, patinetas y aviones, el pequeño asocia el número con objetos del mundo que le interesan, lo que sostiene su atención mientras practica. Esta actividad se alinea con la Nueva Escuela Mexicana de la SEP dentro del campo formativo de Pensamiento Matemático, en el eje de Número, donde se busca que el niño resuelva problemas de quitar con apoyo de material concreto y dibujos antes de pasar a la operación escrita. La hoja es completamente gratis: puedes imprimirla en PDF para trabajar en papel o jugarla en línea de forma interactiva, sin necesidad de registrarte. No hay cronómetros ni puntajes; el tono es cálido y tranquilo para que cada niño avance a su propio ritmo. Cuenta los dibujos, tacha cuántos quitas y cuenta cuántos quedan: así la resta se vuelve tan clara como ver salir un avión de la pista.",
+      "canonicalDeckSlug": "resta-tachar-vehiculos-ecbf",
+      "carousel": [
+        {
+          "label": "Resta con Clima",
+          "href": "resta-tachar-clima-27ad"
+        },
+        {
+          "label": "Resta con Invierno",
+          "href": "resta-tachar-invierno-716d"
+        },
+        {
+          "label": "Resta con Actividades",
+          "href": "resta-tachar-actividades-204d"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-2-4026"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-verano-0739",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "summer",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta en Verano",
+      "metaDescription": "Resta hasta 10 con verano: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta de Verano",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "castillo de arena",
+        "camiseta",
+        "helado",
+        "mariposa",
+        "catarina",
+        "playa"
+      ],
+      "p1": "Estas hojas de trabajo de resta llevan el verano al salón de clases con la forma más concreta de restar: tachar y contar los que quedan. En cada problema tu niño ve un grupo de dibujos de un mismo objeto, tacha cuántos se quitan y cuenta cuántos quedan. Así la resta hasta 10 deja de ser un número abstracto y se vuelve algo que se ve y se toca con la mirada.",
+      "p2": "El mazo trae seis problemas con objetos de verano que los pequeños reconocen al instante. Empieza con 8 castillos de arena: el niño tacha 7 y quedan 1. Luego 6 camisetas, tacha 2 y quedan 4; después 9 helados, tacha 3 y quedan 6. Siguen 8 mariposas con 6 tachadas para que queden 2, y 10 catarinas donde tacha 5 y quedan 5. Cierra con 9 dibujos de la playa: tacha 6 y quedan 3. Cada conteo es claro y se puede revisar contando uno por uno.",
+      "p3": "La mecánica es siempre la misma y por eso funciona tan bien con niños de 5 a 7 años: se cuenta el grupo completo, se tacha cuántos se quitan y se cuenta cuántos quedan. Es la resta de quitar más sencilla de entender, distinta de buscar un número que falta o de adivinar cuánto se quitó: aquí el niño actúa, tacha con su lápiz o con el dedo en la pantalla y ve el resultado frente a sus ojos. Cada objeto trae conteos discretos que el pequeño puede señalar y verificar: ocho castillos de arena, seis camisetas, nueve helados, ocho mariposas, diez catarinas y nueve dibujos de la playa. Al tachar y contar lo que queda, los niños descubren que 8 menos 7 son 1, que 9 menos 3 son 6 y que 10 menos 5 son 5, sin fórmulas ni prisas. Estas fichas se alinean con el Pensamiento Matemático, eje de Número, de la Nueva Escuela Mexicana de la SEP, y acompañan el paso de Educación Preescolar a Primer grado de primaria. Puedes imprimir las hojas en PDF para trabajar en papel o usar la versión interactiva en línea, las dos completamente gratis y sin necesidad de registrarte. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada niño, con calma y con la satisfacción de contar por sí mismo cuántos quedan en cada grupo de verano.",
+      "canonicalDeckSlug": "resta-tachar-verano-0739",
+      "carousel": [
+        {
+          "label": "Resta con Día de Acción de Gracias",
+          "href": "resta-tachar-dia-de-accion-de-gracias-c0f5"
+        },
+        {
+          "label": "Resta con Cosas que Vuelan",
+          "href": "resta-tachar-cosas-que-vuelan-98b3"
+        },
+        {
+          "label": "Resta con Árboles",
+          "href": "resta-tachar-arboles-4281"
+        },
+        {
+          "label": "Resta con Accesorios",
+          "href": "resta-tachar-accesorios-a38e"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-verduras-b222",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "vegetables",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta con Verduras",
+      "metaDescription": "Resta hasta 10 con verduras: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Verduras",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-verduras-b222",
+        "Verduras",
+        "vegetables",
+        "Pensamiento Matemático — Número",
+        "Nueva Escuela Mexicana (SEP)",
+        "Educación Preescolar – Primer grado",
+        "5-7 años",
+        "restas hasta 10"
+      ],
+      "p1": "En estas hojas de trabajo de resta, tu pequeño aprende a restar de la forma más concreta: tachando lo que se quita y contando lo que queda. Cada problema muestra un grupo de verduras; el niño tacha cuántas se quitan y luego cuenta las que sobran. Así descubre que restar es, sencillamente, quitar y ver cuántas quedan. Ideal para niños de 5 a 7 años, de preescolar a primer grado de primaria.",
+      "p2": "Puedes usar esta ficha gratis: imprímela en PDF o juégala en línea, sin registro y sin cronómetros ni puntajes. Está pensada para acompañar el Pensamiento Matemático — Número de la Nueva Escuela Mexicana (SEP), con un tono cálido que invita a contar sin prisa. Tu pequeño tacha con su dedo o con su lápiz, cuenta en voz alta las verduras que quedan y escribe el resultado.",
+      "p3": "El mazo trae seis problemas de resta hasta 10, cada uno ilustrado con una verdura real para que el conteo sea claro y discreto. En el primero aparecen 2 ejotes: tacha 1 y queda 1. Luego hay 9 rábanos: tacha 6 y quedan 3. Siguen 6 champiñones: tacha 4 y quedan 2. Después se ven 7 berenjenas: tacha 3 y quedan 4. Continúa con 5 calabacines: tacha 2 y quedan 3. Y al final hay 6 brócolis: tacha 5 y queda 1. La mecánica es siempre la misma y por eso resulta tan fácil de entender: el niño mira el grupo de verduras, tacha cuántas se quitan y cuenta cuántas quedan para descubrir el resultado. Tachar deja a la vista lo que se va y lo que permanece, así que cada resta se vuelve algo que se puede ver y tocar, no solo un número en el papel. Al nombrar cada verdura —ejotes, rábano, champiñón, berenjena, calabacín, brócoli— tu pequeño suma vocabulario mientras practica restar. Pregúntale \"¿cuántos quedan?\" después de cada tachado y deja que conteste a su ritmo; no hay tiempo que correr ni puntaje que ganar, solo la alegría de contar las verduras que quedan en el huerto.",
+      "canonicalDeckSlug": "resta-tachar-verduras-b222",
+      "carousel": [
+        {
+          "label": "Resta con Vehículos",
+          "href": "resta-tachar-vehiculos-ecbf"
+        },
+        {
+          "label": "Resta con Clima",
+          "href": "resta-tachar-clima-27ad"
+        },
+        {
+          "label": "Resta con Accesorios",
+          "href": "resta-tachar-accesorios-a38e"
+        },
+        {
+          "label": "Resta con Aves",
+          "href": "resta-tachar-aves-e2e3"
+        }
+      ]
+    },
+    {
+      "slug": "resta-tachar-vida-marina-9916",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "subtraction",
+        "mode": "cross-out",
+        "theme": "ocean_life",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Resta: Tacha y Cuenta Vida Marina",
+      "metaDescription": "Resta hasta 10 con vida marina: tacha y cuenta cuántos quedan. Para 5 a 7 años. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de resta",
+      "h1": "Tacha y Cuenta: Resta con Vida Marina",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "K.OA.A.2",
+      "slotTokens": [
+        "resta-tachar-vida-marina-9916"
+      ],
+      "p1": "Con estas hojas de trabajo de resta, tu pequeño aprende a restar de la manera más concreta: viendo, tachando y contando lo que queda. Cada problema muestra un grupo de dibujos del mar; el niño tacha cuántos se quitan y cuenta cuántos quedan. Así la resta deja de ser un número abstracto y se convierte en algo que se puede ver con los ojos y señalar con el dedo. Todo el material es gratis: puedes imprimir la ficha o jugar la versión interactiva en línea, sin registro y sin cuenta.",
+      "p2": "A diferencia de otras hojas donde hay que adivinar el número que falta o pensar cuánto se quitó, aquí la acción es clarita: tachar y contar los que quedan. El niño no escribe operaciones de memoria; primero tacha los dibujos que se van y luego cuenta los que se quedaron sobre la mesa del mar. Esa secuencia —quitar, tachar, contar— es justo lo que el cerebro de un niño de preescolar y primer grado necesita para entender qué significa restar antes de pasar a los símbolos.",
+      "p3": "Esta ficha trae seis problemas de resta hasta 10, cada uno con su propio animal o planta del mar para que contar sea divertido. En el primero hay 6 algas marinas: tu niño tacha 2 y cuenta que quedan 4. Luego aparecen 10 camarones; al tachar 9, queda solo 1 nadando. En el de las ballenas hay 5 dibujos: se tachan 2 y quedan 3. Sigue el cangrejo, con 4 dibujos de los que se tacha 1 para que queden 3. Después vienen 9 ostras: al tachar 2, quedan 7 en el fondo del mar. Y al final, 5 orcas de las que se tachan 4 y queda 1 sola. En cada caso la mecánica es la misma y muy fácil de seguir: el niño cuenta cuántos hay, tacha cuántos se quitan y vuelve a contar para saber cuántos quedan. Estas hojas de trabajo se alinean con el campo de Pensamiento Matemático, en el eje de Número de la Nueva Escuela Mexicana (SEP), y están pensadas para niños de Educación Preescolar y Primer grado de primaria, de 5 a 7 años. No hay cronómetro ni puntaje: el ritmo lo pone tu pequeño. Si prefieres papel, imprime la ficha en PDF; si prefieres la pantalla, juega la actividad interactiva en línea. Las dos opciones son gratis y no piden registro, para que aprender a restar sea tan tranquilo como ver pasar a un cangrejo por la arena.",
+      "canonicalDeckSlug": "resta-tachar-vida-marina-9916",
+      "carousel": [
+        {
+          "label": "Resta con Mascotas",
+          "href": "resta-tachar-mascotas-9ceb"
+        },
+        {
+          "label": "Resta con Oficina de Correos",
+          "href": "resta-tachar-oficina-de-correos-273b"
+        },
+        {
+          "label": "Resta con Verano",
+          "href": "resta-tachar-verano-0739"
+        },
+        {
+          "label": "Resta con Verduras",
+          "href": "resta-tachar-verduras-b222"
+        }
+      ]
     }
   ]
 }

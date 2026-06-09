@@ -4,19 +4,1755 @@
     {
       "slug": "suma-buscar-sumando-animales-0178",
       "variantShape": "singleton",
-      "coordinate": { "type": "addition", "mode": "find-addend", "theme": "animals", "level": "primer-grado" },
-      "levels": ["preescolar", "primer-grado"],
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
       "title": "Hojas de Trabajo de Sumas con Animales: 6 Ejercicios",
       "metaDescription": "6 hojas de trabajo de sumas con animales para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
       "eyebrow": "Hoja de trabajo de sumas",
       "h1": "Sumas con Animales: Encuentra el Número que Falta",
       "strand": "Pensamiento Matemático — Número",
       "standard": "1.OA.D.8",
-      "slotTokens": ["murciélago", "tortuga", "orangután", "pingüino", "caballo", "gaviota", "animales", "preescolar", "primer grado"],
+      "slotTokens": [
+        "murciélago",
+        "tortuga",
+        "orangután",
+        "pingüino",
+        "caballo",
+        "gaviota",
+        "animales",
+        "preescolar",
+        "primer grado"
+      ],
       "p1": "En estas sumas con animales tu pequeño practica una idea muy importante de las matemáticas: encontrar el número que falta. En cada ejercicio aparece una suma a la que le falta un número, como 1 + ? = 2, y el niño descubre cuál es ese número que completa la operación. Son seis ejercicios, todos con sumas hasta el 10, así que el reto es justo del tamaño de manitas que apenas empiezan a sumar.",
       "p2": "Cada suma viene acompañada de un animal: un murciélago, una tortuga, un orangután, un pingüino, un caballo y una gaviota. Los animales no son adorno; son el gancho que mantiene a los niños mirando, contando y queriendo seguir. Verás dos ejercicios parecidos (el murciélago y la tortuga, ambos con 1 + ? = 2): son distintos a propósito, para que el niño note que la misma idea aparece en lugares diferentes. ¿Cómo se aprende aquí? Con la idea de parte y todo: si conozco una parte y el total, puedo contar hacia adelante hasta llegar. Si tu hijo se atora, cuéntenlo juntos en voz alta con los dedos, sin prisa y sin regañar.",
       "p3": "En casa o en el salón, puedes imprimir la hoja o usar la versión interactiva en línea, gratis y sin necesidad de crear cuenta. Cuando estos ejercicios le salgan con confianza, el siguiente paso natural es sumar hasta el 20 y empezar con restas sencillas.",
       "canonicalDeckSlug": "suma-buscar-sumando-animales-0178",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-alrededor-de-la-casa-745e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "around_the_house",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas en Casa: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con objetos de la casa para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas Alrededor de la Casa: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Bote de basura",
+        "Buzón",
+        "Lápiz",
+        "Fregadero",
+        "Plato",
+        "Tenedor",
+        "Alrededor de la Casa",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas hojas de trabajo de sumas invitan a las niñas y los niños a pasear por la casa mientras aprenden a encontrar el número que falta. Cada actividad muestra un objeto cotidiano del hogar —un bote de basura, un buzón, un lápiz, un fregadero, un plato o un tenedor— junto a una suma sencilla del tipo \"1 + ? = 2\". El reto es siempre el mismo y muy claro: descubrir qué número completa la operación para llegar al total. Son seis ejercicios distintos, cada uno con su propio objeto y su propia suma, pensados para edades de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria, con totales que nunca pasan del 10.",
+      "p2": "El objeto de cada ficha no es solo decoración: ayuda a que la suma se sienta cercana y familiar, porque el lápiz, el plato o el tenedor son cosas que las y los pequeños ven todos los días en casa. Así, la actividad se convierte en una conversación natural: \"Si ya tenemos este número y queremos llegar al total, ¿cuánto le falta?\". Cada hoja conserva el mismo objeto a lo largo de su suma, de modo que la atención se centra en encontrar el número que falta y no en cambiar de tema. Dos ejercicios pueden tener la misma operación, pero si muestran objetos diferentes —un buzón en uno y un fregadero en otro— son actividades distintas que dan más práctica.",
+      "p3": "Todo el material es gratis y se puede usar de dos maneras: descargar el PDF para imprimir y trabajar con lápiz, o jugar la versión interactiva en línea sin necesidad de registro ni cuenta. La opción en línea funciona muy bien como juego de sumas con objetos de la casa para 5 años, y el imprimible acompaña a quienes prefieren el papel en Primer grado. No hay cronómetros ni puntajes: el ritmo lo marca cada quien, con calma y sin vergüenza por equivocarse. Estas hojas de trabajo se alinean con los aprendizajes de la Nueva Escuela Mexicana (SEP) para los primeros acercamientos a las sumas, y dan a las maestras, los maestros y las familias una herramienta cálida para practicar encontrar el número que falta en cualquier momento del día.",
+      "canonicalDeckSlug": "suma-buscar-sumando-alrededor-de-la-casa-745e",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-arboles-2b3c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "tree",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Árboles: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con árboles para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Árboles: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Enebro",
+        "Secuoya roja",
+        "Cedro",
+        "Pino",
+        "Árbol del amor",
+        "Haya",
+        "Árboles",
+        "Preescolar a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con árboles invitan a las niñas y los niños a encontrar el número que falta en cada operación, con un total que nunca pasa de 10. Cada ejercicio presenta una ecuación sencilla del tipo \"1 + ? = 2\" acompañada de un árbol distinto del bosque, así que resolver una suma se siente como descubrir qué árbol crece en cada tarjeta. El material está pensado para Educación Preescolar (5 años) y Primer grado de primaria, con edades de 5 a 7 años, dentro del enfoque de la Nueva Escuela Mexicana de la SEP.",
+      "p2": "Los seis árboles que aparecen en la actividad son el Enebro, la Secuoya roja, el Cedro, el Pino, el Árbol del amor y el Haya. Cada imagen es contenido de primera clase: el árbol decora la tarjeta mientras la pequeña o el pequeño se concentra en la ecuación numérica y descubre cuál es el número que falta para completar la suma. Aunque dos tarjetas compartan el mismo resultado, el árbol que las ilustra las convierte en ejercicios diferentes, así que hay variedad real de principio a fin y nadie se aburre repitiendo lo mismo.",
+      "p3": "Lo mejor es que todo es gratis y se puede usar de dos maneras: descarga el PDF para imprimir las fichas y trabajarlas con lápiz, o juega la versión interactiva en línea, sin registro y sin necesidad de crear una cuenta. Si buscas un juego de sumas con árboles para 5 años o sumas con árboles para primer grado, aquí lo tienes listo para abrir y usar. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada niña y cada niño, en un ambiente cálido donde equivocarse es parte natural de aprender a sumar.",
+      "canonicalDeckSlug": "suma-buscar-sumando-arboles-2b3c",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-aves-2-057a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "birds_2",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Aves: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con aves para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Aves: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Grulla",
+        "Pavo real",
+        "Arrendajo azul",
+        "Ganso",
+        "Pelícano",
+        "Pingüino",
+        "Aves",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "¿Buscas un juego de sumas con aves para niñas y niños de 5 años o sumas de aves para primer grado? Esta hoja de trabajo reúne 6 ejercicios para encontrar el número que falta, todos con sumas hasta el 10 y una linda ave en cada problema. Cada ecuación tiene la forma \"1 + ? = 2\", así que la pequeña o el pequeño descubre cuál es el número que completa la suma. Es una actividad gratis: la puedes imprimir como ficha de papel o jugar en línea, sin registro ni cuentas, desde la computadora, la tablet o el celular.",
+      "p2": "Las seis aves del mazo acompañan los problemas y le dan vida a cada suma: una Grulla de patas largas, un Pavo real con su cola abierta, un Arrendajo azul muy llamativo, un Ganso, un Pelícano con su bolsa en el pico y un alegre Pingüino. Cada ave funciona como ilustración del ejercicio mientras el número manda en la operación: aunque dos cartas muestren la misma suma, si una trae el Ganso y otra el Pelícano, son ejercicios distintos. Así la actividad se siente fresca, las niñas y los niños reconocen aves conocidas y practican varias veces sin aburrirse.",
+      "p3": "Pensada para la etapa de Educación Preescolar (5 años) y el Primer grado de primaria, esta hoja apoya el conteo, el sentido numérico y las primeras sumas dentro del enfoque de la Nueva Escuela Mexicana (SEP). Encontrar el número que falta ayuda a que la pequeña o el pequeño entienda la suma como una relación entre cantidades, no solo como memorizar resultados. No hay cronómetros ni puntajes: el ritmo lo pone cada quien, con calma y sin presión. En la versión en línea, el peque toca o escribe el número que falta y recibe una respuesta amable al instante; en la versión imprimible, basta con un lápiz y muchas ganas de contar aves.",
+      "canonicalDeckSlug": "suma-buscar-sumando-aves-2-057a",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-aves-71f4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "birds",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo: Sumas con Aves Grandes y Exóticas",
+      "metaDescription": "6 hojas de trabajo de sumas con aves grandes: tucán, águila, avestruz y más. Encuentra el número que falta hasta el 10, para 5 a 7 años. Gratis, imprime o juega en línea.",
+      "eyebrow": "Hojas de trabajo de sumas",
+      "h1": "Aves Grandes y Exóticas: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tucán",
+        "Cálao",
+        "Águila",
+        "Avestruz",
+        "Loro",
+        "Buitre",
+        "Aves",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas 6 hojas de trabajo de sumas reúnen a las aves más grandes y llamativas para que tu peque practique encontrar el número que falta. Cada actividad muestra un ave distinta —el tucán de pico enorme, el cálao, el águila, el avestruz, el loro y el buitre— junto a una ecuación sencilla del tipo \"1 + ? = 2\". La imagen acompaña el reto: el niño observa el ave, cuenta y descubre cuál es el número que completa la suma, siempre con totales hasta el 10. No se trata de memorizar, sino de razonar con calma qué cantidad hace falta para llegar al resultado.",
+      "p2": "Aunque dos ejercicios usen una operación parecida, cada uno es distinto porque cambia el ave que lo ilustra: el avestruz, el ave más alta del mundo, no es lo mismo que el pequeño loro o el imponente buitre. Esa variedad mantiene el interés de los más pequeños y conecta las matemáticas con animales que les fascinan. Puedes usar las fichas como apoyo para platicar sobre cada ave mientras resuelven, nombrando al tucán o al cálao por su nombre y reforzando vocabulario y conteo al mismo tiempo.",
+      "p3": "El material está alineado con la Nueva Escuela Mexicana (SEP) y pensado para niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, en sumas hasta el 10. Todo es gratis: puedes descargar el PDF para imprimir o jugar la versión interactiva en línea, sin registro ni cuenta. Si buscas un juego de sumas con aves para 5 años o sumas con animales para primer grado, esta opción interactiva te deja practicar desde cualquier dispositivo. Sin cronómetros ni puntajes: solo un espacio tranquilo y cálido para aprender a su propio ritmo, sin presión y sin miedo a equivocarse.",
+      "canonicalDeckSlug": "suma-buscar-sumando-aves-71f4",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-clima-35a7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "weather",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con el Clima: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con el clima para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con el Clima: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Frío",
+        "Botas de lluvia",
+        "Impermeable",
+        "Paraguas",
+        "Charco",
+        "Soleado",
+        "Clima",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con el tema del clima, pensados para niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, de 5 a 7 años. En cada ejercicio aparece una ecuación sencilla del tipo \"1 + ? = 2\", con totales que nunca pasan del 10, y al lado se muestra un dibujo del clima que acompaña la actividad. La meta es siempre la misma y muy clara para los más pequeños: encontrar el número que falta para completar la suma. Cada problema viene ilustrado con un objeto distinto del clima: un día de Frío, unas Botas de lluvia, un Impermeable, un Paraguas, un Charco y un día Soleado.",
+      "p2": "Aunque dos ejercicios tengan la misma ecuación, el dibujo cambia, así que cada hoja se siente como una actividad nueva y los niños mantienen la atención mientras hablan del clima que ya conocen. El dibujo del Paraguas o del Charco es decorativo y a la vez invita a conversar: \"¿qué te pones cuando llueve?\", \"¿cuántas botas hay?\". Esta versión cubre el tema del clima de principio a fin, con seis imágenes que los pequeños reconocen de su día a día. Las imágenes son contenido de primera clase: nombrar el Impermeable, el día Soleado o el día de Frío convierte una suma abstracta en algo cercano, y eso ayuda a que el conteo hasta 10 tenga sentido para la edad.",
+      "p3": "Todo es gratis. Puedes descargar el PDF para imprimir y trabajar con lápiz en casa o en el salón, o jugar la versión interactiva en línea sin necesidad de registrarte. Si buscas un juego de sumas con el clima para 5 años o sumas del clima para primer grado, esta actividad te sirve para las dos cosas, alineada al enfoque de la Nueva Escuela Mexicana (SEP) para los primeros grados. No hay cronómetros ni puntajes ni nada que presione: el tono es cálido y sin vergüenza, para que cada niña y cada niño avance a su ritmo, se equivoque tranquilo y vuelva a intentar encontrar el número que falta las veces que necesite.",
+      "canonicalDeckSlug": "suma-buscar-sumando-clima-35a7",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-cosas-que-vuelan-1236",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "things_that_fly",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas: Cosas que Vuelan",
+      "metaDescription": "6 hojas de trabajo de sumas con cosas que vuelan para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Cosas que Vuelan: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Paloma",
+        "Pelícano",
+        "Saltamontes",
+        "Cisne",
+        "Loro",
+        "Colibrí",
+        "Cosas que Vuelan",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "¿Buscas un juego de sumas con cosas que vuelan para niñas y niños de 5 años? Esta hoja de trabajo reúne 6 ejercicios donde tu peque tiene que encontrar el número que falta en sumas hasta el 10. Cada actividad muestra una ecuación clara del tipo \"1 + ? = 2\" acompañada de un animalito que vuela: la paloma, el pelícano, el saltamontes, el cisne, el loro y el colibrí. El dibujo no se cuenta para resolver la operación; está ahí para que la actividad sea cálida y atractiva, y para que las criaturas voladoras inviten a tu peque a seguir practicando sin presión.",
+      "p2": "El reto es sencillo y muy concreto: el niño observa la suma, ve cuál número ya está y cuál hace falta, y completa el espacio en blanco para que la igualdad quede correcta. Por ejemplo, junto al colibrí puede aparecer \"4 + ? = 7\", y junto al loro otra suma con un total distinto. Aunque dos cartas tuvieran la misma operación, el saltamontes y el cisne las vuelven ejercicios diferentes, así que tu peque encuentra variedad en cada hoja. Trabajar \"encontrar el número que falta\" desde preescolar y primer grado de primaria fortalece el sentido numérico, la noción de cuánto falta para llegar a un total y la confianza con las sumas hasta 10. Todo dentro del enfoque de la Nueva Escuela Mexicana, respetando el ritmo de cada criatura.",
+      "p3": "Puedes usar estas fichas de dos maneras, las dos completamente gratis y sin registro: descarga el PDF para imprimir y resolver con lápiz en casa o en el salón, o juega la versión interactiva en línea desde la computadora, la tableta o el celular. La opción en línea es ideal cuando quieres una actividad rápida de sumas con cosas que vuelan para primer grado sin imprimir nada. Aquí no hay cronómetros ni puntajes: tu peque avanza con calma, equivocarse es parte de aprender y siempre puede intentarlo de nuevo. Ya sea con la paloma, el pelícano o el cisne, esta hoja de trabajo convierte la práctica de sumas en un ratito tranquilo y divertido para edades de 5 a 7 años.",
+      "canonicalDeckSlug": "suma-buscar-sumando-cosas-que-vuelan-1236",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-desayuno-38b3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "breakfast",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con el Desayuno: 6 Fichas",
+      "metaDescription": "6 hojas de trabajo de sumas con el desayuno para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con el Desayuno: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Hotcake",
+        "Toronja",
+        "Jugo",
+        "Galleta",
+        "Dona",
+        "Pan tostado",
+        "Desayuno",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Estas seis hojas de trabajo de sumas con el desayuno invitan a niñas y niños de 5 a 7 años a encontrar el número que falta en cada operación. Cada ficha muestra una suma sencilla del tipo \"1 + ? = 2\" hasta el 10, acompañada de un rico ejemplo del desayuno: un hotcake doradito, una toronja jugosa, un vaso de jugo, una galleta, una dona y un pan tostado. La imagen no es solo adorno; le da sentido al número y conecta la cuenta con algo que la peque ya conoce de su mesa por la mañana.",
+      "p2": "En cada ejercicio el peque observa cuántos elementos hay y cuántos necesita para llegar al total, y así descubre el número que falta. Por ejemplo, si ya hay dos galletas y la suma pide cuatro, la niña o el niño razona cuántas faltan para completar; lo mismo con tres donas, dos hotcakes o un pan tostado más otro. Aunque dos fichas tengan la misma operación, el objeto cambia —del jugo a la toronja, del hotcake a la dona— por eso cada actividad se siente nueva y vale la pena resolverla por separado.",
+      "p3": "Alineadas con el enfoque de la Nueva Escuela Mexicana (SEP) para los primeros grados, estas sumas hasta el 10 acompañan el paso de Educación Preescolar a Primer grado de primaria con un ritmo amable y sin presión: aquí no hay cronómetros ni puntajes, solo el gusto de pensar y completar. Puedes descargar el PDF para imprimir y trabajarlas en casa o en el aula, o usar la versión interactiva en línea, sin registro y totalmente gratis. Es ideal como juego de sumas con el desayuno para 5 años o como práctica de sumas para primer grado, con un tema cálido que despierta las ganas de seguir contando.",
+      "canonicalDeckSlug": "suma-buscar-sumando-desayuno-38b3",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "thanksgivinng",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo: Sumas de Acción de Gracias",
+      "metaDescription": "6 hojas de trabajo de sumas de Día de Acción de Gracias para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, imprime o juega en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Día de Acción de Gracias: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Bellota",
+        "Espantapájaros",
+        "Pastel",
+        "Pavo",
+        "Otoño",
+        "Pavo asado",
+        "Día de Acción de Gracias",
+        "Preescolar (5 años) a Primer grado de primaria (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne 6 hojas de trabajo de sumas con el tema de Día de Acción de Gracias, pensadas para niñas y niños de 5 a 7 años, desde el último año de Educación Preescolar hasta Primer grado de primaria. En cada ejercicio aparece una suma sencilla del tipo \"1 + ? = 2\", y la tarea consiste en encontrar el número que falta para completar la operación, siempre con totales hasta el 10. Cada suma viene acompañada de un dibujo del tema que la hace más cálida y divertida: una bellota, un espantapájaros, un pastel, un pavo, una imagen de otoño y un pavo asado.",
+      "p2": "Los dibujos no son solo adorno: ayudan a que cada hoja se sienta como parte de la temporada de otoño y del festejo, para que la práctica de sumas sea agradable y sin presión. Aunque dos ejercicios tengan la misma operación, cada uno muestra un objeto distinto del mazo, así que la bellota, el pastel o el pavo asado convierten cada actividad en algo único. Si buscas un juego de sumas de Acción de Gracias para 5 años o sumas de otoño para primer grado, aquí los pequeños practican el conteo y la idea de cuánto falta para llegar al total, un paso clave hacia la suma con seguridad.",
+      "p3": "Todo el material es gratuito y se ofrece en dos formas: puedes descargar el PDF para imprimir y trabajarlo en casa o en el salón, o usar la versión interactiva en línea, que se juega directo en el navegador sin necesidad de crear una cuenta ni registrarse. No hay cronómetros, puntajes ni nada que genere prisa o vergüenza: el ritmo lo marca cada niña o niño. Alineado con el enfoque de la Nueva Escuela Mexicana (SEP), este recurso acompaña el aprendizaje del pensamiento matemático en preescolar y primer grado, ofreciendo una práctica amable de \"encontrar el número que falta\" con un tema que a los pequeños les encanta para esta temporada.",
+      "canonicalDeckSlug": "suma-buscar-sumando-dia-de-accion-de-gracias-b94e",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-4-de-julio-16c6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "4th_of_july",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas 4 de Julio: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con tema 4 de Julio para niños de 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas del 4 de Julio: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Bandera",
+        "Papas Fritas",
+        "Hamburguesa",
+        "Globo",
+        "Estatua",
+        "Tío Sam",
+        "4 de Julio",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Esta colección reúne 6 hojas de trabajo de sumas con el tema del 4 de Julio, pensadas para acompañar a los niños de Educación Preescolar (5 años) y Primer grado de primaria, en edades de 5 a 7 años. En cada ejercicio, los pequeños se encuentran con una suma a la que le falta un número, del tipo \"1 + ? = 2\", y su tarea es descubrir cuál es ese número que falta para completar la operación. Todas las sumas llegan hasta el 10, así que el reto se queda en un rango cómodo para quienes apenas empiezan a sumar. Cada actividad viene ilustrada con un objeto del tema: una Bandera, unas Papas Fritas, una Hamburguesa, un Globo, una Estatua o el Tío Sam, de manera que el conteo se vuelve más cercano y divertido para la niña o el niño.",
+      "p2": "El dibujo que aparece en cada hoja sirve como apoyo visual para que el niño imagine la cantidad antes de escribir su respuesta. Aunque la operación se resuelve con números, la imagen del tema (la Bandera, el Globo o el Tío Sam) le da contexto y vuelve cada ficha distinta de las demás: dos ejercicios pueden tener la misma ecuación, pero si uno muestra una Hamburguesa y otro una Estatua, son actividades diferentes que mantienen el interés. Encontrar el número que falta es una de las primeras formas en que los pequeños descubren cómo se relacionan las cantidades dentro de una suma, una base que la Nueva Escuela Mexicana (SEP) impulsa desde los primeros años. Resolver \"el número que falta\" los invita a pensar hacia adelante y hacia atrás, no solo a contar de corrido.",
+      "p3": "Todas estas hojas de trabajo son gratuitas: puedes descargar el PDF para imprimir y repartir en el salón o en casa, o bien usar la versión interactiva en línea, sin necesidad de crear una cuenta ni registrarte. Si buscas un juego de sumas con tema del 4 de Julio para 5 años, o sumas para primer grado que se sientan festivas y distintas a las de siempre, esta serie funciona en la pantalla o en papel con la misma calidad. No hay cronómetros ni puntajes que presionen; la idea es que cada pequeño avance a su propio ritmo, con un ambiente cálido y sin vergüenza por equivocarse. Las imágenes de la Bandera, las Papas Fritas y los demás objetos del tema acompañan el aprendizaje para que sumar hasta el 10 se sienta como un momento de juego y no como un examen.",
+      "canonicalDeckSlug": "suma-buscar-sumando-4-de-julio-16c6",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-accesorios-156c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "accessories",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Accesorios: 6 Fichas",
+      "metaDescription": "6 hojas de trabajo de sumas con accesorios para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Accesorios: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Corbata de moño",
+        "Bufanda",
+        "Corbata",
+        "Mochila",
+        "Silbato",
+        "Manopla",
+        "Accesorios",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 sumas con accesorios para que las niñas y los niños de 5 a 7 años practiquen una idea muy concreta: encontrar el número que falta. Cada actividad muestra un objeto del tema —una corbata de moño, una bufanda, una corbata, una mochila, un silbato o una manopla— junto a una ecuación como \"1 + ? = 2\". El dibujo acompaña y hace la suma más cercana, mientras que el reto matemático vive en los números. Así, antes de leer cuentas largas, el pequeño relaciona cosas que reconoce de su día —lo que se pone, lo que carga en la mochila— con su primera práctica de sumar hasta el 10.",
+      "p2": "Todas las sumas son del tipo \"n + ? = total\" con totales que no pasan del 10, ideales para Educación Preescolar (5 años) y Primer grado de primaria. El niño observa cuántos hay, cuántos se necesitan en total y descubre cuál es el número que falta. Cada objeto aparece en su propia ficha: la corbata de moño en una, la bufanda en otra, y así con la corbata, la mochila, el silbato y la manopla. Aunque dos actividades compartan la misma cuenta, el accesorio distinto las vuelve ejercicios diferentes, lo que ayuda a que la práctica se sienta variada y no repetitiva.",
+      "p3": "Puedes usar este material de dos maneras, las dos gratis y sin crear cuenta: descarga el PDF para imprimir y trabajar con lápiz, o abre la versión interactiva en línea para resolver desde la computadora o la tablet. No hay cronómetros ni puntajes; el ritmo lo marca cada niña o niño, con un tono cálido y sin presión. Si buscas un juego de sumas con accesorios para 5 años o sumas de accesorios para primer grado, esta actividad acompaña ese primer paso con objetos familiares y números amables. Alineada con el enfoque de la Nueva Escuela Mexicana (SEP), apoya el aprendizaje temprano del conteo y la suma de forma lúdica.",
+      "canonicalDeckSlug": "suma-buscar-sumando-accesorios-156c",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-actividades-bd59",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "activities",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Actividades",
+      "metaDescription": "6 hojas de trabajo de sumas con actividades para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Actividades: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Picnic",
+        "Escribir",
+        "Teatro",
+        "Correr",
+        "Senderismo",
+        "Cerámica",
+        "Actividades",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con tema de actividades para niñas y niños de 5 a 7 años, pensada para el tránsito de Educación Preescolar a Primer grado de primaria. En cada ejercicio aparece una suma sencilla del tipo \"1 + ? = 2\", donde el reto es encontrar el número que falta para completar la operación. Los totales nunca pasan del 10, así que tu peque practica las primeras sumas con confianza y sin apuros. Cada operación viene acompañada de un dibujo de una actividad cotidiana, de esas que dan ganas de hacer en familia o en el recreo.",
+      "p2": "Los seis dibujos muestran actividades que las y los pequeños reconocen al instante: un Picnic al aire libre, Escribir en el cuaderno, una función de Teatro, Correr en el patio, una caminata de Senderismo y una pieza de Cerámica. La imagen es decorativa y acompaña a la operación numérica, así que tu peque siempre suma con números, no con objetos sueltos: el dibujo solo le da un contexto cercano y alegre. Aunque dos tarjetas tuvieran la misma operación, el dibujo distinto las convierte en ejercicios diferentes, y eso mantiene la actividad fresca de principio a fin.",
+      "p3": "Buscar \"el número que falta\" es una de las primeras formas en que se trabaja la suma dentro de la Nueva Escuela Mexicana (SEP): en lugar de solo dar un resultado, la niña o el niño razona cuánto hace falta para llegar al total. Esta ficha es completamente gratis. Puedes descargarla en PDF para imprimir y resolverla con lápiz, o jugar la versión interactiva en línea sin crear cuenta ni registrarte, ideal para un juego de sumas con actividades para 5 años o para reforzar sumas de primer grado desde la compu, la tablet o el celular. Sin cronómetros ni puntajes: aquí cada peque avanza a su ritmo, equivocarse es parte de aprender y lo importante es que se sienta a gusto sumando.",
+      "canonicalDeckSlug": "suma-buscar-sumando-actividades-bd59",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-animales-de-granja-c37f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "farm_animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Animales de Granja",
+      "metaDescription": "6 hojas de trabajo de sumas con animales de granja para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Animales de Granja: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Patito",
+        "Perro",
+        "Buey",
+        "Pato",
+        "Cordero",
+        "Gato",
+        "Animales de Granja",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con animales de granja para acompañar a las niñas y los niños de 5 a 7 años, desde el último grado de Educación Preescolar hasta Primer grado de primaria. En cada problema aparece una ecuación sencilla del tipo \"1 + ? = 2\", donde el reto consiste en encontrar el número que falta. Todas las sumas llegan hasta el 10, así que el material se ajusta a quienes apenas empiezan a combinar cantidades y a quienes ya reconocen los primeros resultados. La actividad es gratuita: puedes imprimirla como ficha de papel o jugarla en línea sin registro, justo como mejor le funcione a tu grupo o a tu peque en casa.",
+      "p2": "Cada ejercicio se ilustra con un animal del corral para que el número que falta tenga un personaje que lo acompañe: el Patito, el Perro, el Buey, el Pato, el Cordero y el Gato aparecen uno por problema. La imagen es decorativa y la cuenta vive en la ecuación, pero ese animalito hace que la suma se sienta como una pequeña visita a la granja en lugar de un renglón de números. Por eso dos problemas pueden tener la misma ecuación y, aun así, ser ejercicios distintos: uno con el Buey y otro con el Cordero invitan a contar de nuevo con calma. Al nombrar a cada animal, los más pequeños relacionan la cantidad con algo conocido y van fijando los pares que suman hasta 10.",
+      "p3": "Pensamos este recurso para la realidad del salón mexicano y de la casa, alineado con el enfoque de la Nueva Escuela Mexicana (SEP), que propone aprender el sentido numérico con materiales cercanos y juego. Si buscas un juego de sumas con animales para 5 años o sumas de animales de granja para primer grado, aquí encuentras práctica honesta y sin presión: no hay cronómetros ni puntajes, solo el gusto de hallar el número que falta a su propio ritmo. Empieza por las ecuaciones más cortas, como las que acompañan al Patito o al Gato, y avanza hacia las que llegan al 10 con el Buey o el Pato. Descárgala para imprimir o ábrela en línea sin crear cuenta; cuando termine, una palomita cálida celebra el esfuerzo y anima a seguir contando.",
+      "canonicalDeckSlug": "suma-buscar-sumando-animales-de-granja-c37f",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-animales-del-zoologico-fd60",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "zoo_animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Animales del Zoológico",
+      "metaDescription": "6 hojas de trabajo de sumas con animales del zoológico para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Animales del Zoológico: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Gorila",
+        "Lobo",
+        "Koala",
+        "Hipopótamo",
+        "Alce",
+        "Camello",
+        "Animales del Zoológico",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Lleva el zoológico al salón con estas 6 hojas de trabajo de sumas para niñas y niños de 5 a 7 años. En cada ejercicio aparece una ecuación sencilla como \"1 + ? = 2\" acompañada de un animal del zoológico que da pistas visuales y hace que contar sea divertido. La consigna es clara: encontrar el número que falta para que la suma quede completa, siempre con totales hasta el 10. Es la actividad ideal para quienes empiezan a sumar y todavía se apoyan en imágenes para razonar.",
+      "p2": "Cada hoja muestra un animal distinto del zoológico, así que ningún ejercicio se siente repetido: el Gorila, el Lobo, el Koala, el Hipopótamo, el Alce y el Camello acompañan una suma diferente cada uno. Aunque dos sumas tuvieran el mismo total, el animal cambia y se convierten en actividades distintas que invitan a observar con atención. El número que falta a veces está al principio y a veces en medio, de modo que la niña o el niño practica de varias maneras la misma idea: completar la suma para llegar al total.",
+      "p3": "Puedes descargar estas fichas en PDF para imprimir o jugar la versión interactiva en línea, sin descargas y sin necesidad de crear una cuenta. La versión digital marca el resultado al instante, sin cronómetros ni puntajes, para que cada quien avance a su ritmo y con calma. El material está pensado para el primer acercamiento a la suma dentro de la Nueva Escuela Mexicana, entre el último año de Educación Preescolar y el Primer grado de primaria. Si buscas un juego de sumas con animales del zoológico para 5 años o sumas de zoológico para primer grado, esta hoja de trabajo une el aprendizaje de los números con la curiosidad por los animales salvajes.",
+      "canonicalDeckSlug": "suma-buscar-sumando-animales-del-zoologico-fd60",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-campamento-fded",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "camping",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas de Campamento: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas de campamento para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Campamento: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Brújula",
+        "Farol",
+        "Zorro",
+        "Agua",
+        "Hot Dog",
+        "Chaleco",
+        "Campamento",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Prepara la mochila y vámonos de campamento a sumar. En esta actividad cada problema arma una suma del tipo \"n + ? = total\", con resultados hasta el 10, y la niña o el niño tiene que encontrar el número que falta para completar la ecuación. Cada ejercicio viene ilustrado con un objeto del tema —una brújula, un farol, un zorro, un vaso de agua, un hot dog y un chaleco— para que la práctica se sienta como una aventura al aire libre y no como un examen. La imagen acompaña la cuenta y le da un punto de apoyo a quienes apenas empiezan a sumar: cuentan, observan y descubren cuánto falta para llegar al total.",
+      "p2": "Son 6 hojas de trabajo distintas, una por cada objeto del campamento. La brújula y el farol invitan a imaginar la caminata nocturna; el zorro asoma entre los árboles; el agua, el hot dog y el chaleco son lo que no puede faltar en la salida. Aunque dos ejercicios lleguen al mismo total, cada uno usa un objeto diferente y una combinación propia, así que el reto cambia en cada página. Este material acompaña los aprendizajes de número y conteo de la Nueva Escuela Mexicana (SEP) para Educación Preescolar y primer grado de primaria, con sumas sencillas hasta el 10, ideales para edades de 5 a 7 años que están afianzando la idea de \"cuánto me falta para llegar a\".",
+      "p3": "Todo es gratis y sin registro. Puedes descargar e imprimir las fichas para trabajarlas en el cuaderno, o resolver la versión interactiva en línea directamente desde la computadora, la tablet o el celular, sin crear ninguna cuenta. No hay cronómetros ni puntajes: la idea es que el peque practique con calma, se equivoque sin pena y vuelva a intentarlo las veces que necesite. Si buscas un juego de sumas de campamento para 5 años o sumas para primer grado con un tema divertido, esta colección te da las dos opciones —imprimible y en línea— para llevar la aventura de \"encontrar el número que falta\" al salón o a la casa.",
+      "canonicalDeckSlug": "suma-buscar-sumando-campamento-fded",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-colores-2e39",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "colors",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Colores: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con colores para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Colores: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Blanco",
+        "Escarlata",
+        "Beige",
+        "Amarillo",
+        "Morado",
+        "Rojo",
+        "Colores",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Esta hoja de trabajo de sumas con colores reúne 6 ejercicios para que las niñas y los niños de 5 a 7 años practiquen encontrar el número que falta. Cada problema muestra una suma sencilla del tipo \"1 + ? = 2\" acompañada de un color del mazo, así la actividad entra por los ojos antes que por los números. Los seis colores que aparecen son Blanco, Escarlata, Beige, Amarillo, Morado y Rojo: cada uno decora su propia tarjeta, de modo que dos ecuaciones con el mismo resultado pero distinto color cuentan como ejercicios distintos y mantienen la atención despierta.",
+      "p2": "El reto siempre es el mismo y por eso se aprende: completar la suma hasta llegar a un total de 10 o menos. Si la tarjeta del Amarillo pide \"3 + ? = 7\", la peque descubre que falta el 4; si la del Morado pide \"2 + ? = 5\", razona que falta el 3. Al combinar el color con la cuenta, la actividad apoya tanto el reconocimiento de los colores como el sentido numérico temprano, dos aprendizajes que la Nueva Escuela Mexicana valora en preescolar y al inicio de la primaria. No hay cronómetros ni puntajes: cada quien avanza a su ritmo, sin prisa y sin vergüenza por equivocarse.",
+      "p3": "Tienes esta ficha de dos maneras, las dos gratis y sin necesidad de crear una cuenta. Puedes descargar el PDF para imprimir y resolverlo con lápiz en casa o en el salón, o puedes usar la versión interactiva en línea, ideal si buscas un juego de sumas con colores para 5 años que se resuelva directo en la pantalla. Esa versión digital es justo lo que muchas familias y docentes piden cuando escriben \"sumas con colores primer grado\" o \"encontrar el número que falta en línea\": la misma práctica, con la respuesta que se revela al tocar, lista para acompañar el aprendizaje del Escarlata, el Beige, el Blanco y el Rojo entre números amistosos del 1 al 10.",
+      "canonicalDeckSlug": "suma-buscar-sumando-colores-2e39",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-criaturas-del-bosque-07a2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "forest_creatures",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Criaturas del Bosque",
+      "metaDescription": "6 hojas de trabajo de sumas con criaturas del bosque para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Criaturas del Bosque: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Murciélago",
+        "Lagartija",
+        "Tortuga",
+        "Hormiga",
+        "Zorro",
+        "Luciérnaga",
+        "Criaturas del Bosque",
+        "Educación Preescolar (5 años) – Primer grado de primaria (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne 6 sumas con criaturas del bosque para que los niños de 5 a 7 años practiquen una idea clave: encontrar el número que falta. Cada ejercicio muestra una operación sencilla del tipo \"1 + ? = 2\" con totales hasta el 10, acompañada de una de estas criaturas del bosque: el murciélago, la lagartija, la tortuga, la hormiga, el zorro y la luciérnaga. La imagen no es un adorno cualquiera: cada animalito ilustra su propio problema, así que el zorro de una hoja y la tortuga de otra son ejercicios distintos aunque la cuenta se parezca. De esta forma el niño asocia el número con algo concreto y querido del bosque mientras razona qué cantidad completa la suma.",
+      "p2": "El mecanismo es el que la Nueva Escuela Mexicana (SEP) trabaja en estos grados: en lugar de dar todos los números, dejamos un espacio en blanco para que el pequeño descubra cuánto falta para llegar al total. Por ejemplo, junto a la luciérnaga puede aparecer \"2 + ? = 5\", y el niño piensa cuántas luciérnagas más se necesitan para que brillen las cinco. Trabajar con totales hasta 10 mantiene la dificultad justa para preescolar (5 años) y primer grado de primaria, sin saltos que frustren. Como las criaturas del bosque despiertan curiosidad —el murciélago que vuela de noche, la hormiga trabajadora, la lagartija que se asolea—, los niños se quedan más tiempo en la tarea y la suma deja de sentirse como un examen.",
+      "p3": "Todo el material es gratis. Puedes descargar el PDF para imprimir y repartir las fichas en clase o en casa, o abrir la versión interactiva en línea, sin registro y sin instalar nada: el niño toca la respuesta y la actividad le confirma al instante, sin cronómetros ni puntajes que generen presión. Ese es el lado que más buscan las familias mexicanas hoy —un juego de sumas con criaturas del bosque para 5 años, sumas de bosque para primer grado que se puedan jugar desde el celular o la computadora—, y aquí lo tienes con tono cálido y sin vergüenza ante el error. Equivócate, vuelve a intentar y celebra cada acierto: así el murciélago, el zorro y sus amigos del bosque acompañan al pequeño a dominar el número que falta a su propio ritmo.",
+      "canonicalDeckSlug": "suma-buscar-sumando-criaturas-del-bosque-07a2",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-dinosaurios-167a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "dinosaurs",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Dinosaurios: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con dinosaurios para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Dinosaurios: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Deinonico",
+        "Brontosaurio",
+        "Estiracosaurio",
+        "Plesiosaurio",
+        "Oviraptor",
+        "Carnotauro",
+        "Dinosaurios",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Si a tu peque le encantan los dinosaurios, esta actividad convierte las sumas en una pequeña aventura prehistórica. Son 6 hojas de trabajo donde el niño tiene que encontrar el número que falta en sumas sencillas, con totales hasta el 10. Cada problema se presenta como una ecuación clara del tipo \"1 + ? = 2\" y viene acompañado de un dinosaurio del mazo, de modo que el peque relacione el cálculo con una imagen que reconoce y quiere descubrir. Está pensada para niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, justo en la etapa en que empiezan a comprender que sumar es juntar cantidades y que a veces hay que averiguar cuánto falta para llegar a un total.",
+      "p2": "En las seis hojas aparecen seis dinosaurios distintos para mantener viva la curiosidad: el Deinonico, el Brontosaurio, el Estiracosaurio, el Plesiosaurio, el Oviraptor y el Carnotauro. El dinosaurio acompaña visualmente cada ejercicio mientras el peque se concentra en la operación numérica: lee la suma, ve qué número ya está, observa el total y descubre el número que falta. Aunque dos ecuaciones tengan el mismo resultado, cada una se ilustra con un dinosaurio diferente, así que para tu peque son retos distintos y siempre hay algo nuevo que mirar. Esta forma de presentar las sumas con un tema favorito ayuda a que el niño se quede más tiempo en la actividad sin sentir que está \"haciendo tarea\".",
+      "p3": "Puedes usar esta actividad de dos maneras, las dos gratis y sin necesidad de crear una cuenta: descarga el PDF para imprimir y trabajar con lápiz, o juega la versión interactiva en línea directo desde la computadora, la tablet o el celular. La versión interactiva funciona muy bien como juego de sumas con dinosaurios para 5 años, mientras que el imprimible es ideal para reforzar las sumas con dinosaurios de primer grado en casa o en el salón. No hay cronómetros ni puntajes ni nada que presione: el tono es cálido y sin vergüenza, para que cada peque avance a su ritmo. Está alineada con el enfoque de la Nueva Escuela Mexicana (SEP), apoyando el aprendizaje del cálculo y la noción de encontrar el número que falta en las primeras sumas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-dinosaurios-167a",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-emociones-eb1b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "emotions",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Emociones",
+      "metaDescription": "6 hojas de trabajo de sumas con emociones para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Emociones: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tímido",
+        "Contento",
+        "Enojado",
+        "Cansado",
+        "Caprichoso",
+        "Triste",
+        "Emociones",
+        "Preescolar (5 años) a primer grado de primaria (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne las primeras sumas y las emociones en una sola hoja de trabajo pensada para niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, de 5 a 7 años. Son 6 ejercicios para encontrar el número que falta: cada problema muestra una operación como \"1 + ? = 2\" acompañada de una carita que expresa un sentimiento, así que el peque resuelve la suma mientras reconoce y nombra cómo se siente. Todas las sumas llegan hasta el 10, un rango cómodo para empezar a sumar sin presión.",
+      "p2": "Cada una de las 6 ecuaciones viene ilustrada con una emoción distinta del mazo: Tímido, Contento, Enojado, Cansado, Caprichoso y Triste. La imagen es parte del ejercicio, no un adorno cualquiera: invita a conversar en casa o en el salón sobre cuándo nos sentimos así, una idea muy cercana al enfoque socioemocional de la Nueva Escuela Mexicana. Para encontrar el número que falta, el niño piensa cuánto le hace falta a un número para llegar al total; por ejemplo, en \"2 + ? = 5\" descubre que falta el 3. Es la base de la resta y del cálculo mental, presentada de forma amable.",
+      "p3": "Puedes usar esta hoja de dos maneras, sin pagar nada y sin crear cuenta: descarga el PDF para imprimir y trabajar con lápiz, o juega la versión interactiva en línea desde la computadora, la tablet o el celular. La versión digital funciona muy bien como juego de sumas con emociones para 5 años y también como práctica de sumas para primer grado, porque el peque toca la respuesta y recibe apoyo cálido, sin cronómetros ni puntajes que generen prisa o vergüenza. Ideal para la maestra de preescolar, para primer grado de primaria y para acompañar en casa: una ficha corta que combina contar con reconocer emociones, a su propio ritmo.",
+      "canonicalDeckSlug": "suma-buscar-sumando-emociones-eb1b",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-en-el-supermercado-870c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "at_the_supermarket",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas en el Súper: Faltante",
+      "metaDescription": "6 hojas de trabajo de sumas con cosas del súper para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas en el Supermercado: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Limón",
+        "Kiwi",
+        "Crema de cacahuate",
+        "Lata",
+        "Agua",
+        "Galleta",
+        "En el Supermercado",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "¿Buscas un juego de sumas con el tema del súper para niñas y niños de 5 años, o un repaso de sumas de primer grado que de verdad les llame la atención? Esta actividad reúne 6 hojas de trabajo de sumas ambientadas en el supermercado, donde cada ejercicio le pide a tu peque encontrar el número que falta en una suma sencilla. En lugar de una operación seca, cada problema viene acompañado de un objeto del mandado que ya conocen del mercado: un limón, un kiwi, un frasco de crema de cacahuate, una lata, una botella de agua y una galleta. La idea es que sumar se sienta como acompañar a mamá o a papá al súper, no como una prueba.",
+      "p2": "El mecanismo es claro y honesto con el grado: cada hoja muestra una suma del tipo \"1 + ? = 2\", con totales que nunca pasan del 10. Tu peque observa el número inicial, ve el resultado y descubre cuántas unidades faltan para completarlo; así practica encontrar el número que falta de manera concreta y sin sentirse presionado. La imagen de cada tarjeta es contenido de primera clase, no un adorno suelto: una carta puede pedir contar de un limón al siguiente y otra puede usar dos galletas, y aunque la ecuación se parezca, son ejercicios distintos porque el objeto cambia. Trabajamos siempre con cantidades exactas y contables —dos latas, tres kiwis, una botella de agua— para que el conteo quede limpio y comprensible.",
+      "p3": "Pensamos esta actividad alineada con la Nueva Escuela Mexicana (SEP), para el tramo que va de Educación Preescolar (5 años) al Primer grado de primaria, con edades de 5 a 7 años y sumas hasta el 10. Todo es gratis: puedes descargar el PDF para imprimir las fichas y resolverlas en papel, o usar la versión interactiva en línea directamente desde la compu o la tablet, sin crear cuenta y sin descargar nada. No hay cronómetros, ni puntajes, ni nada que avergüence a tu peque si se equivoca: puede intentarlo con calma, volver a contar el limón o las galletas y celebrar cada acierto. Es una manera cálida de que las niñas y los niños asocien las sumas con algo cotidiano y querido como ir al supermercado.",
+      "canonicalDeckSlug": "suma-buscar-sumando-en-el-supermercado-870c",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-espacio-02f9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "space",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas del Espacio: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas del espacio para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas del Espacio: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Neptuno",
+        "Asteroide",
+        "Luna",
+        "Urano",
+        "Astronauta",
+        "Galaxia",
+        "Espacio",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Esta colección reúne 6 hojas de trabajo de sumas con tema del espacio, pensadas para niñas y niños de Educación Preescolar (5 años) hasta Primer grado de primaria, es decir, edades de 5 a 7 años. En cada ejercicio aparece una suma del tipo \"n + ? = total\" con resultados hasta el 10, y el pequeño tiene que encontrar el número que falta para completar la operación. Cada problema viene ilustrado con un objeto del espacio: Neptuno, un Asteroide, la Luna, Urano, un Astronauta y una Galaxia. Así, contar y sumar se convierte en una pequeña aventura entre planetas y estrellas.",
+      "p2": "El número que falta se trabaja con la frase del mecanismo de la Nueva Escuela Mexicana (SEP): \"encontrar el número que falta\". Es uno de los primeros pasos del pensamiento matemático en preescolar y primer grado, porque ayuda a que el niño entienda la suma de adelante hacia atrás y se prepare para la resta. Los dibujos del Neptuno azul, el Asteroide con cráteres, la Luna llena, el planeta Urano, el Astronauta flotando y la Galaxia llena de estrellas acompañan cada operación como apoyo visual cálido, sin presión: no hay cronómetro ni puntaje, solo la actividad y las ganas de descubrir cuánto falta para llegar al total.",
+      "p3": "Puedes usar estas hojas de dos maneras y las dos son gratis: descarga el PDF para imprimir y repartir en el salón o en casa, o abre la versión interactiva en línea, que se resuelve directo en la pantalla sin necesidad de registrarte. La versión en línea funciona muy bien como juego de sumas del espacio para 5 años y como práctica de sumas del espacio para primer grado, ideal para repasar antes de un examen o para un momento tranquilo de cálculo mental. Si tu grupo apenas empieza, puedes acompañar cada ficha contando juntos los objetos en voz alta; si ya domina las sumas hasta el 10, deja que resuelva solo el número que falta de Neptuno a la Galaxia. Una actividad sencilla, lista para imprimir o jugar, hecha para que sumar entre planetas se sienta como explorar el espacio.",
+      "canonicalDeckSlug": "suma-buscar-sumando-espacio-02f9",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-flores-be00",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "flowers",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Flores: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con flores para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Flores: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Campanilla",
+        "Lavanda",
+        "Peonía",
+        "Clavel",
+        "Jazmín",
+        "Diente de león",
+        "Flores",
+        "Educación Preescolar a Primer grado de primaria"
+      ],
+      "p1": "Esta actividad reúne 6 hojas de trabajo de sumas con flores para niñas y niños de 5 a 7 años, pensadas para el tramo que va de Educación Preescolar (5 años) a Primer grado de primaria. En cada ejercicio aparece una ecuación sencilla del tipo \"1 + ? = 2\", donde el reto es encontrar el número que falta para completar la suma. Cada problema se acompaña de una flor distinta del jardín: la campanilla, la lavanda, la peonía, el clavel, el jazmín y el diente de león. La flor decora la tarjeta y le da color a la actividad, mientras el peque se concentra en pensar qué cantidad hace falta para llegar al total, siempre con sumas hasta el 10.",
+      "p2": "Lo que hace especial esta actividad es que se puede jugar en línea sin registro o descargar gratis para imprimir, según lo que más te convenga en casa o en el salón. El juego de sumas con flores para 5 años funciona muy bien en la pantalla, porque la niña o el niño toca el número que falta y ve de inmediato cómo se completa la operación; y si prefieres trabajar en papel, la versión imprimible queda lista para repartir como ficha de repaso de sumas para primer grado. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada peque, y un error simplemente se vuelve a intentar con calma. Así, aprender a encontrar el número que falta se siente como un juego tranquilo entre flores y no como un examen.",
+      "p3": "Cada flor le da su propia personalidad al ejercicio, y eso ayuda a que las seis tarjetas no se sientan repetidas aunque practiquen la misma idea. Mientras cuenta los pétalos imaginarios de la peonía o señala el suave morado de la lavanda, el peque relaciona la cantidad con algo concreto y agradable de mirar. La campanilla, el clavel, el jazmín y el diente de león completan un pequeño jardín que invita a seguir sumando una tarjeta tras otra. Esta hoja de trabajo acompaña los primeros pasos del sentido numérico dentro del marco de la Nueva Escuela Mexicana (SEP), reforzando con flores la confianza para sumar hasta el 10. Es una opción cálida y gratuita para que en casa o en clase la suma se descubra jugando.",
+      "canonicalDeckSlug": "suma-buscar-sumando-flores-be00",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-formas-4169",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "shapes",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Formas: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con formas para 5 a 7 años: encuentra el número que falta hasta el 10 con círculos, cuadrados y estrellas. Gratis, imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Formas: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Rectángulo",
+        "Pirámide",
+        "Cuadrado",
+        "Estrella",
+        "Paralelogramo",
+        "Círculo",
+        "Formas",
+        "Preescolar a Primer grado (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne 6 hojas de trabajo de sumas con formas para niñas y niños de 5 a 7 años, pensadas para el tránsito de Educación Preescolar al primer grado de primaria. En cada ejercicio aparece una suma sencilla del tipo \"1 + ? = 2\", con totales que no pasan del 10, y la tarea es encontrar el número que falta para completar la operación. Cada problema se ilustra con una de estas formas conocidas: un rectángulo, una pirámide, un cuadrado, una estrella, un paralelogramo y un círculo. La figura acompaña la cuenta como apoyo visual, así que la pequeña o el pequeño puede mirar la forma mientras piensa cuántas unidades hacen falta para llegar al total.",
+      "p2": "Mezclar las primeras sumas con figuras geométricas tiene una ventaja muy concreta en estas edades: mientras buscan el número que falta, también repasan y nombran las formas. Reconocer el círculo y el cuadrado, distinguir el rectángulo del paralelogramo y notar las puntas de la estrella o la base de la pirámide son habilidades que la Nueva Escuela Mexicana acompaña desde preescolar. Como cada forma va con su propia ecuación, dos cartas que comparten el mismo resultado pero muestran objetos distintos son ejercicios diferentes: así el material da variedad sin repetir y mantiene la atención de la criatura de principio a fin.",
+      "p3": "Todo el material es gratis. Puedes descargar el PDF para imprimir y trabajar con lápiz en casa o en el salón, o abrir la versión interactiva en línea sin registro, ideal como juego de sumas con formas para 5 años: la actividad da retroalimentación cálida en la pantalla, sin cronómetros ni puntajes ni nada que apresure. Si buscas sumas con formas para primer grado que sirvan de repaso amable, estas fichas funcionan igual de bien impresas o en la pantalla. La idea es que cada quien avance a su ritmo, sin prisa y sin vergüenza por equivocarse, mientras suma y reconoce el círculo, el cuadrado, la estrella, el rectángulo, el paralelogramo y la pirámide.",
+      "canonicalDeckSlug": "suma-buscar-sumando-formas-4169",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-frutas-e4ca",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "fruits",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Frutas: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con frutas para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Frutas: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Toronja",
+        "Higo",
+        "Piña",
+        "Chabacano",
+        "Papaya",
+        "Arándano rojo",
+        "Frutas",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con frutas invitan a las niñas y a los niños a encontrar el número que falta en cada operación, sin prisas y sin vergüenza. Cada ejercicio muestra una fruta del mercado junto a una suma sencilla del tipo \"1 + ? = 2\": la imagen acompaña y da color, mientras la pequeña o el pequeño descubre qué número completa la igualdad. Son seis ejercicios distintos, cada uno con su propia fruta: una toronja jugosa, un higo, una piña, un chabacano, una papaya y un arándano rojo. Así, aunque dos cartas tengan totales parecidos, cada actividad se siente nueva porque cambia la fruta que la acompaña.",
+      "p2": "El reto se mantiene amable: todas las sumas llegan hasta el 10, ideales para Educación Preescolar (alrededor de los 5 años) y para Primer grado de primaria, en edades de 5 a 7 años. \"Encontrar el número que falta\" es una forma cariñosa de acercar a las y los peques al sentido de la suma desde la Nueva Escuela Mexicana: en lugar de solo memorizar, observan, cuentan y razonan qué cantidad hace falta para llegar al total. La toronja y la papaya, por su tamaño, se prestan para contar despacio; el higo, el chabacano y el arándano rojo, más pequeños, ayudan a hablar de cantidades chiquitas. Cada fruta abre una conversación distinta en casa o en el salón.",
+      "p3": "Todo es gratis: puedes imprimir las fichas para trabajarlas con lápiz o usar la versión interactiva en línea, sin crear cuenta ni registrarte. En la pantalla, la niña o el niño toca el número que falta y descubre al instante si completó bien la suma, lo que convierte la práctica en un juego de sumas con frutas para 5 años y un apoyo claro para sumas de frutas de primer grado. Sin cronómetros y sin puntajes: aquí lo importante es entender, no correr. Lleva las frutas del mercado al cuaderno o a la tablet y deja que cada toronja, higo, piña, chabacano, papaya y arándano rojo acompañe el momento de aprender a sumar.",
+      "canonicalDeckSlug": "suma-buscar-sumando-frutas-e4ca",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-herramientas-496e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Herramientas: 6 Fichas",
+      "metaDescription": "6 hojas de trabajo de sumas con herramientas para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Herramientas: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Taladro eléctrico",
+        "Serrucho",
+        "Cinta métrica",
+        "Linterna",
+        "Clavo",
+        "Martillo",
+        "Herramientas",
+        "Preescolar (5 años) a Primer grado de primaria (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne seis sumas con herramientas para que los niños de 5 a 7 años practiquen encontrar el número que falta hasta el 10. Cada ficha presenta una ecuación sencilla del tipo \"1 + ? = 2\", donde el pequeño descubre qué número completa la operación. Lo que la hace especial es que cada problema viene acompañado de una herramienta que los niños reconocen del taller o de casa: el taladro eléctrico, el serrucho, la cinta métrica, la linterna, el clavo y el martillo. El objeto no se cuenta, pero invita a observar, conversar y nombrar cada herramienta, de modo que la suma se siente como un pequeño juego de armar y reparar en lugar de un ejercicio frío de números.",
+      "p2": "Las seis sumas avanzan con totales hasta el 10, un rango ideal para esta edad según la Nueva Escuela Mexicana (SEP) en el tránsito de Educación Preescolar a Primer grado de primaria. Como cada herramienta acompaña una ecuación distinta, dos problemas que parezcan iguales son en realidad ejercicios diferentes: el martillo presenta su propia operación y la linterna otra, así que el niño practica con variedad sin sentir que repite lo mismo. Encontrar el número que falta ayuda a desarrollar el sentido numérico y la comprensión de que sumar es completar una cantidad, no solo recitar resultados de memoria. Es una manera concreta y amable de mirar la suma desde la pieza que falta.",
+      "p3": "Puedes usar estas hojas de dos formas y las dos son gratis: imprime el PDF para trabajar con lápiz en el cuaderno, o abre la versión interactiva en línea, sin necesidad de crear cuenta ni registrarte. La versión en línea funciona muy bien como juego de sumas con herramientas para 5 años o como práctica de sumas con herramientas para primer grado, lista para usar en el salón, en casa o en la tablet. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada niño, y los errores son simplemente otra oportunidad para volver a intentar. Si tu peque disfruta los talleres, las reparaciones y las herramientas de verdad, estas fichas convierten esa curiosidad en una primera práctica cálida y segura de la suma.",
+      "canonicalDeckSlug": "suma-buscar-sumando-herramientas-496e",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-hospital-b6fb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "hospital",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas de Hospital: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con tema de hospital para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Hospital: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "pulsera de hospital",
+        "cubrebocas",
+        "expediente médico",
+        "uniforme médico",
+        "monitor cardíaco",
+        "radiografía",
+        "hospital",
+        "preescolar",
+        "primer grado"
+      ],
+      "p1": "A los niños que juegan al doctor les va a encantar esta actividad: son seis sumas con tema de hospital donde tu pequeño practica una idea clave de las matemáticas, encontrar el número que falta. En cada ejercicio aparece una suma a la que le falta un número, como 1 + ? = 2, y el niño descubre cuál es ese número que completa la operación. Todas las sumas llegan hasta el 10, así que el reto queda justo a la medida de manitas que apenas empiezan a sumar.",
+      "p2": "Cada suma viene acompañada de un objeto del hospital: una pulsera de hospital, un cubrebocas, un expediente médico, un uniforme médico, un monitor cardíaco y una radiografía. Las imágenes no son adorno; son el gancho que mantiene a los niños mirando, contando y con ganas de seguir, sobre todo si les gusta jugar a ser doctores o enfermeras. Si dos ejercicios se parecen porque comparten la misma operación pero muestran objetos distintos, es a propósito: así el niño nota que la misma idea aparece en lugares diferentes. ¿Cómo se aprende aquí? Con la idea de parte y todo: si conozco una parte y el total, puedo contar hacia adelante hasta completarlo. Si tu hijo se atora, cuéntenlo juntos en voz alta con los dedos, sin prisa y sin regañar.",
+      "p3": "En casa o en el salón puedes imprimir la hoja para colorear y resolver con lápiz, o usar la versión interactiva en línea, gratis y sin necesidad de crear una cuenta. La ficha sigue el enfoque de la Nueva Escuela Mexicana para el Pensamiento Matemático. Cuando estos ejercicios le salgan con confianza, el siguiente paso natural es sumar hasta el 20 y empezar con restas sencillas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-hospital-b6fb",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-insectos-y-bichos-f59a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "insects_and_bugs",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Insectos: 6 Fichas",
+      "metaDescription": "6 hojas de trabajo de sumas con insectos y bichos para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Insectos y Bichos: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Araña",
+        "Ciempiés",
+        "Babosa",
+        "Catarina",
+        "Milpiés",
+        "Mariposa",
+        "Insectos y Bichos",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Si tu peque ama los bichos del jardín, este juego de sumas con insectos para 5 años convierte una suma sencilla en una pequeña aventura. Cada una de las 6 hojas de trabajo muestra un bichito amigable —una Araña, un Ciempiés, una Babosa— junto a una ecuación a la que le falta un número, como \"1 + ? = 2\". La idea es clara y cálida: el niño observa el dibujo, lee la suma y descubre el número que falta para completarla. No hay sumando que adivinar al azar; hay un bicho que invita a contar y a pensar con calma.",
+      "p2": "Los seis ejercicios usan totales hasta el 10 y un objeto distinto en cada uno: la Araña, el Ciempiés, la Babosa, la Catarina, el Milpiés y la Mariposa. Aunque dos fichas tuvieran la misma suma, el bicho que las acompaña las hace diferentes, así que cada actividad se siente nueva y vale la pena resolverla. La imagen no es solo adorno: le da al pequeño algo concreto en qué apoyarse mientras encuentra el número que falta. Es práctica perfecta para la suma hasta el 10, alineada con la Nueva Escuela Mexicana (SEP) para Educación Preescolar y Primer grado de primaria.",
+      "p3": "Puedes usar esta actividad como más te acomode: imprime el PDF para trabajarlo en papel con lápiz y colores, o juégalo en línea sin registro desde la compu o la tablet, ideal para sumas de insectos en primer grado. Todo es gratis y sin complicaciones, sin cronómetros ni puntajes que presionen: aquí lo importante es contar a la Catarina y a la Mariposa con tranquilidad y sin vergüenza si hay que intentarlo otra vez. Acompaña a tu niña o niño con preguntas sencillas —\"¿cuántas patitas más le faltan al Milpiés?\"— y verás cómo encontrar el número que falta se vuelve un momento de juego, no de tarea pesada.",
+      "canonicalDeckSlug": "suma-buscar-sumando-insectos-y-bichos-f59a",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-invierno-91ad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "winter",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas de Invierno: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas de invierno para 5 a 7 años: encuentra el número que falta hasta el 10 con foca, pingüino, gorro y más. Gratis, imprime o juega en línea.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Invierno: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Foca",
+        "Suéter",
+        "Pingüino",
+        "Gorro",
+        "Mitones",
+        "Pala para nieve",
+        "Invierno",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta actividad de sumas con tema de invierno invita a las niñas y los niños a encontrar el número que falta en sumas sencillas con totales hasta el 10. Cada ejercicio muestra un objeto del invierno y una ecuación del tipo \"n + ? = total\", donde el pequeño descubre cuánto hace falta para completar la suma. Es una manera cálida y sin presiones de practicar las primeras sumas, pensada para Educación Preescolar (5 años) y Primer grado de primaria, en línea con el enfoque de la Nueva Escuela Mexicana de la SEP. No hay cronómetros ni puntajes: solo la calma de contar, observar y resolver a su propio ritmo.",
+      "p2": "La hoja reúne 6 ejercicios distintos, cada uno ilustrado con un objeto real del invierno que acompaña a su ecuación numérica. El primero muestra una Foca asomada en el hielo; el segundo, un Suéter abrigador; el tercero, un Pingüino caminando sobre la nieve; el cuarto, un Gorro de lana; el quinto, unos Mitones para las manos frías; y el sexto, una Pala para nieve. La imagen es parte del ejercicio: el dibujo da contexto y hace la suma más cercana, mientras los números guían el razonamiento. Aunque dos ecuaciones coincidieran, el objeto que las ilustra las vuelve actividades diferentes, así que el niño practica con variedad sin repetir lo mismo.",
+      "p3": "Puedes usar estas fichas de dos maneras, ambas gratis y sin registro: descarga el PDF para imprimir y trabajar con lápiz en casa o en el salón, o abre la versión interactiva en línea para que las niñas y los niños toquen y escriban el número que falta directamente en la pantalla. La versión en línea convierte la práctica en un pequeño juego de sumas de invierno ideal para 5 años y primer grado, perfecto para los días fríos o para una estación temática en clase. Ya sea con la foca, el pingüino o los mitones, cada ejercicio refuerza la noción de cuánto falta para llegar al total, una base firme para seguir avanzando en las matemáticas con confianza y alegría.",
+      "canonicalDeckSlug": "suma-buscar-sumando-invierno-91ad",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-juguetes-2e3e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "toys",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Juguetes: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con juguetes para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Juguetes: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Patín del diablo",
+        "Crayones",
+        "Pala",
+        "Dados",
+        "Patineta",
+        "Cartas",
+        "Juguetes",
+        "Educación Preescolar a Primer grado"
+      ],
+      "p1": "¿Buscas un juego de sumas con juguetes para 5 años que de verdad enganche a las niñas y a los niños? Esta hoja de trabajo reúne 6 ejercicios para encontrar el número que falta en sumas hasta el 10, cada uno ilustrado con un juguete que tu grupo reconoce de inmediato: el patín del diablo, los crayones, la pala, los dados, la patineta y las cartas. Cada problema muestra una ecuación sencilla del tipo \"1 + ? = 2\", donde el pequeño descubre cuántas piezas hacen falta para completar el total. La imagen no es un adorno cualquiera: acompaña la operación, le da contexto y vuelve la suma algo cercano a su vida diaria de juego.",
+      "p2": "Diseñada para el tramo de Educación Preescolar (5 años) a Primer grado de primaria, esta actividad acompaña los aprendizajes de número y conteo de la Nueva Escuela Mexicana (SEP), siempre con totales que no pasan del 10. Cada carta combina un juguete distinto con su propia ecuación, así que aunque dos problemas parezcan parecidos, el patín del diablo y la patineta son ejercicios diferentes para la mente que apenas se inicia en sumar. No verás cronómetros ni puntajes ni nada que apure a la niña o al niño: la idea es que cuente con calma, se equivoque sin pena y vuelva a intentarlo cuantas veces quiera. El tono es cálido porque aprender a sumar se disfruta más sin presión.",
+      "p3": "Tienes dos maneras de usar este material, las dos gratis y sin necesidad de crear una cuenta. Puedes descargar el PDF para imprimir y repartir la ficha en el salón o en casa, ideal cuando prefieres lápiz y papel. O puedes abrir la versión interactiva en línea, donde el pequeño toca la pantalla para completar cada suma de juguetes y recibe una respuesta amable al instante. Esa versión interactiva es perfecta para repasar \"sumas juguetes primer grado\" desde la computadora o la tableta, sin descargar nada. Sea cual sea el camino que elijas, los seis juguetes —patín del diablo, crayones, pala, dados, patineta y cartas— hacen que practicar el número que falta se sienta como un rato de juego y no como una tarea pesada.",
+      "canonicalDeckSlug": "suma-buscar-sumando-juguetes-2e3e",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-mascotas-7003",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "pets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Mascotas: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con mascotas para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Mascotas: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Cacatúa ninfa",
+        "Pez",
+        "Gato",
+        "Gecko",
+        "Lagartija",
+        "Pinzón",
+        "Mascotas",
+        "Educación Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Esta actividad reúne 6 hojas de trabajo de sumas con tema de mascotas para niñas y niños de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria. En cada ejercicio aparece una mascota muy querida en muchos hogares mexicanos —una cacatúa ninfa, un pez, un gato, un gecko, una lagartija o un pinzón— junto a una ecuación sencilla como \"1 + ? = 2\". La tarea siempre es la misma y muy clara: encontrar el número que falta para completar la suma. Los totales nunca pasan del 10, así que cada peque trabaja con cantidades pequeñas que puede contar con los dedos o señalando los dibujos.",
+      "p2": "Cada mascota acompaña su propia ecuación, de modo que el gato y la lagartija son ejercicios distintos aunque la operación se parezca: el dibujo da contexto y motiva, mientras los números enseñan a sumar. Esta versión es perfecta para el angulito ganador que tanto gusta en casa y en el aula: un juego de sumas con mascotas para 5 años que se puede jugar en línea, sin descargar nada y sin crear cuenta. La hoja interactiva da una palomita verde cuando el número es correcto y deja volver a intentarlo con calma, sin cronómetro y sin puntaje, para que la práctica de sumas en primer grado se sienta tranquila y sin presión.",
+      "p3": "Si en tu salón o en tu casa prefieren el papel, la misma ficha está lista para imprimir en PDF gratis, con su hoja de respuestas para revisar de un vistazo. Funciona muy bien para repasar las sumas hasta 10 en el rincón de matemáticas, como tarea ligera o como apoyo para quienes apenas empiezan a reconocer los números que faltan. Al usar mascotas conocidas —la cacatúa ninfa, el pinzón, el gecko— conectamos los números con cosas que las niñas y los niños ya aman, y esa cercanía facilita aprender a sumar. Todo el material es completamente gratuito, alineado con el enfoque de la Nueva Escuela Mexicana de la SEP, y está disponible tanto para imprimir como para jugar en línea cuando quieras.",
+      "canonicalDeckSlug": "suma-buscar-sumando-mascotas-7003",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-miscelaneo-8941",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "miscellaneous",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas Variadas: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con dibujos variados para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Dibujos Variados: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Cuervo",
+        "Otoño",
+        "Casa",
+        "Fogata",
+        "Huerto",
+        "Teclado de computadora",
+        "Miscelánea",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta actividad reúne seis sumas para encontrar el número que falta, cada una ilustrada con un dibujo distinto: un cuervo, una escena de otoño, una casa, una fogata, un huerto y un teclado de computadora. En cada ejercicio el niño o la niña ve una ecuación como \"1 + ? = 2\" y descubre cuál es el número que completa la suma. Los totales nunca pasan del 10, así que es ideal para quienes apenas empiezan a sumar en Educación Preescolar (5 años) y en el primer grado de primaria, entre los 5 y los 7 años de edad.",
+      "p2": "La variedad de dibujos es lo que hace especial a esta hoja: como cada problema muestra un objeto diferente, la atención se mantiene fresca de un ejercicio al siguiente. El dibujo del cuervo o de la fogata acompaña la suma sin reemplazar los números, de modo que la peque siempre cuenta y razona con la ecuación. Dos ejercicios pueden tener la misma operación pero distinto dibujo, y aun así se viven como retos distintos. Encontrar el número que falta, tal como lo plantea la Nueva Escuela Mexicana de la SEP, ayuda a entender la suma como una relación entre cantidades y no solo como una respuesta memorizada.",
+      "p3": "Puedes usar esta actividad de dos maneras, las dos gratis y sin crear ninguna cuenta: descarga el PDF para imprimir y trabajar con lápiz, o juega la versión interactiva en línea directo desde el navegador, en casa o en el salón. La opción en línea funciona muy bien como juego de sumas variadas para 5 años y como repaso de sumas hasta 10 en primer grado. No hay cronómetros ni puntajes que presionen: el ritmo lo marca cada niña y cada niño, con un tono cálido y sin vergüenza al equivocarse. Así, encontrar el número que falta se vuelve una invitación a probar, contar otra vez y celebrar cada acierto con el cuervo, la casa, el huerto y los demás dibujos del mazo.",
+      "canonicalDeckSlug": "suma-buscar-sumando-miscelaneo-8941",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-muebles-9a21",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "furniture",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Muebles: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con muebles para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Muebles: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Cuna",
+        "Silla",
+        "Otomana",
+        "Sillón",
+        "Buró",
+        "Lámpara",
+        "Muebles",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con muebles invitan a niñas y niños de Educación Preescolar (5 años) y Primer grado de primaria a encontrar el número que falta en cada operación. Cada ejercicio muestra una ecuación sencilla del tipo \"1 + ? = 2\" acompañada de un mueble de la casa que la pequeña o el pequeño reconoce de inmediato: una Cuna, una Silla, una Otomana, un Sillón, un Buró y una Lámpara. La imagen no es solo adorno; le da sentido al número y ayuda a que cada actividad se sienta cercana y familiar. Son seis ejercicios distintos, uno por cada mueble, con sumas cuyo total llega hasta el 10.",
+      "p2": "El reto es claro y amable: la criatura ya conoce un sumando y el resultado, y solo necesita descubrir cuántos faltan para completar la operación. Por ejemplo, junto a la Lámpara puede aparecer \"3 + ? = 5\", y al lado del Buró un \"2 + ? = 4\". Así, encontrar el número que falta se vuelve un juego de observación y conteo, no una prueba con cronómetro ni puntaje. Al trabajar con la Cuna, la Silla o el Sillón, el alumno repasa las sumas hasta 10 una y otra vez, en distintos contextos, lo que afianza el sentido numérico que propone la Nueva Escuela Mexicana (SEP) para estas primeras edades.",
+      "p3": "Puedes usar estas hojas de cualquiera de las dos formas, y siempre son gratis: descarga el PDF para imprimir y resolver con lápiz, o abre la versión interactiva en línea sin registro y juega directamente desde la computadora, la tableta o el celular. La versión digital es ideal si buscas un juego de sumas con muebles para niños de 5 años o sumas con muebles de primer grado, porque cada actividad responde al instante y mantiene a la pequeña o al pequeño motivado sin presión. El tono es cálido y sin vergüenza: equivocarse es parte de aprender, y cada mueble —de la Otomana a la Lámpara— ofrece una nueva oportunidad de practicar. Comparte el enlace con familias y docentes para que más niñas y niños sumen jugando con muebles que ven todos los días en casa.",
+      "canonicalDeckSlug": "suma-buscar-sumando-muebles-9a21",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-musica-aca6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "music",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Música: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con instrumentos musicales para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Música: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Platillos",
+        "Guitarra",
+        "Teclado",
+        "Nota musical",
+        "Flauta",
+        "Acordeón",
+        "Música",
+        "Educación Preescolar – Primer grado de primaria"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con tema de música invitan a las niñas y los niños a encontrar el número que falta en sumas sencillas hasta el 10. Cada actividad muestra una ecuación del tipo \"1 + ? = 2\", y junto a ella aparece un instrumento del mazo —los Platillos, la Guitarra, el Teclado, una Nota musical, la Flauta o el Acordeón— que acompaña la cuenta y hace más amigable cada ejercicio. El objeto es decorativo: no se cuenta, sólo da color y contexto al reto numérico para que la práctica se sienta como un juego y no como un examen.",
+      "p2": "El material está pensado para edades de 5 a 7 años, desde Educación Preescolar (5 años) hasta el Primer grado de primaria, y se alinea con el enfoque de la Nueva Escuela Mexicana (SEP) para los primeros acercamientos al sentido numérico. Cada una de las 6 hojas trabaja la misma idea con un instrumento distinto: la suma de la Guitarra y la suma del Teclado son ejercicios diferentes aunque la operación se parezca, porque el cambio de objeto mantiene la atención y permite repetir la práctica sin que se vuelva monótona. Así, la peque que ya domina la ficha de los Platillos puede seguir con la del Acordeón y reforzar la misma habilidad.",
+      "p3": "Puedes usar este recurso de dos maneras, las dos completamente gratis y sin necesidad de crear una cuenta. Descarga el PDF para imprimir y tener las fichas listas en el salón o en casa, o juega la versión interactiva en línea directamente desde la computadora, la tableta o el celular: la niña o el niño escribe el número que falta y recibe una respuesta cálida, sin cronómetros ni puntajes que presionen. Si buscas un juego de sumas con música para 5 años o quieres practicar sumas de música en primer grado, esta actividad combina los instrumentos favoritos de la clase con una práctica de sumas hasta el 10 amable y sin vergüenza, para que cada acierto se celebre y cada intento valga.",
+      "canonicalDeckSlug": "suma-buscar-sumando-musica-aca6",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-navidad-cdd5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "christmas",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas Navideñas: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con tema de Navidad para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Navidad: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Corona navideña",
+        "Nacimiento",
+        "Rodolfo",
+        "Bastón de caramelo",
+        "Listón",
+        "Trineo",
+        "Navidad",
+        "Preescolar (5 años) a primer grado"
+      ],
+      "p1": "Esta colección reúne 6 hojas de trabajo de sumas con tema de Navidad, pensadas para niñas y niños de Educación Preescolar (5 años) hasta primer grado de primaria, entre los 5 y los 7 años. En cada ejercicio aparece una operación como \"1 + ? = 2\", donde el reto es encontrar el número que falta para completar la suma. Todas las sumas llegan hasta el 10, así que el nivel se mantiene amable y al alcance de quienes apenas empiezan a sumar. Cada problema viene acompañado de una linda imagen navideña que vuelve la actividad más cálida y atractiva para los pequeños.",
+      "p2": "Las seis imágenes muestran objetos muy queridos de esta época: una corona navideña, un nacimiento, Rodolfo el reno, un bastón de caramelo, un listón y un trineo. La imagen es decorativa y acompaña a la ecuación numérica; la suma siempre se resuelve con números. Por eso dos tarjetas pueden tener la misma operación pero distinto dibujo, y aun así son ejercicios diferentes, cada uno con su propia carita de la Navidad. Encontrar el número que falta ayuda a las y los estudiantes a pensar la suma de ida y vuelta, una habilidad clave del sentido numérico que acompaña los aprendizajes de la Nueva Escuela Mexicana (SEP).",
+      "p3": "Puedes usar estas fichas de dos maneras, ambas gratis y sin necesidad de crear una cuenta. Descárgalas en PDF para imprimir y trabajar con lápiz en casa o en el salón, o juega la versión interactiva en línea directamente desde la computadora, la tablet o el celular. La opción en línea es ideal si buscas un juego de sumas navideñas para 5 años o sumas de Navidad para primer grado que entretenga mientras se aprende. No hay cronómetros ni puntajes que presionen: el ambiente es tranquilo y cálido, para que cada niña y cada niño avance a su propio ritmo y disfrute completar cada suma con Rodolfo, el trineo y los demás amigos de la Navidad.",
+      "canonicalDeckSlug": "suma-buscar-sumando-navidad-cdd5",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-ocupaciones-5f9c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "occupations",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Oficios: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con oficios para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Oficios: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Farmacéutico",
+        "Jardinero",
+        "Guardaparques",
+        "Conserje",
+        "Sastre",
+        "Bombero",
+        "Ocupaciones",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con el tema de los oficios para niñas y niños de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria. En cada actividad aparece una ecuación sencilla del tipo \"1 + ? = 2\" acompañada de un personaje que ejerce una ocupación, para que tu pequeño descubra cuál es el número que falta. Las sumas llegan hasta el 10, así que son ideales para quienes apenas empiezan a sumar y necesitan practicar con cantidades pequeñas y manejables.",
+      "p2": "Cada ejercicio muestra a un trabajador distinto, de modo que tu hijo asocia el número que falta con una imagen clara y atractiva: el Farmacéutico, el Jardinero, el Guardaparques, el Conserje, el Sastre y el Bombero. Aunque dos cartas compartan el mismo resultado, el oficio cambia, y eso convierte cada problema en una práctica nueva que invita a observar con calma. La imagen no resuelve la operación: sirve para hacer la actividad más cercana, conversar sobre lo que hace cada profesión y mantener el interés mientras se cuenta y se completa la suma.",
+      "p3": "Puedes usar este recurso de dos maneras, totalmente gratis y sin crear ninguna cuenta. Descarga el PDF para imprimir y trabajar con lápiz en casa o en el salón, o juega la versión interactiva en línea, perfecta como juego de sumas con oficios para 5 años o para reforzar las sumas de oficios de primer grado directamente desde la computadora o la tablet. Esta actividad sigue el enfoque de la Nueva Escuela Mexicana (SEP) y se centra en encontrar el número que falta, sin cronómetros ni puntajes que presionen. La idea es que cada niña y cada niño avance a su propio ritmo, con un acompañamiento cálido y sin miedo a equivocarse, descubriendo que sumar también puede ser un juego entre amigos que tienen distintos oficios.",
+      "canonicalDeckSlug": "suma-buscar-sumando-ocupaciones-5f9c",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-oficina-de-correos-6064",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "post_office",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Correos: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con la oficina de correos para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con la Oficina de Correos: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Estampilla",
+        "Oficina de correos",
+        "Cartero",
+        "Camión de correos",
+        "Paquete",
+        "Sobre",
+        "Oficina de Correos",
+        "Educación Preescolar (5 años) – Primer grado de primaria"
+      ],
+      "p1": "¿Tu pequeño o pequeña juega a entregar cartas en casa? Esta actividad de sumas con la oficina de correos aprovecha ese gusto por el correo para practicar el conteo de una forma cálida y sin presiones. Cada hoja de trabajo muestra una ecuación sencilla del tipo \"1 + ? = 2\", acompañada de un objeto del tema que la niña o el niño reconoce al instante: una estampilla lista para pegar, la oficina de correos del barrio, el cartero que reparte el correo, el camión de correos, un paquete por entregar y un sobre cerrado. La meta es siempre la misma: encontrar el número que falta para completar la suma, con totales que no pasan del 10.",
+      "p2": "Las seis hojas comparten el mecanismo, pero cada una tiene su propio objeto, así que dos ecuaciones parecidas con dibujos distintos son ejercicios diferentes que mantienen la atención. La estampilla, la oficina de correos, el cartero, el camión de correos, el paquete y el sobre acompañan el número que falta sin distraer del cálculo: la imagen invita a contar, no a adivinar. Esta ficha está pensada para edades de 5 a 7 años, un span que va de la Educación Preescolar (5 años) al Primer grado de primaria, y acompaña el trabajo de pensamiento matemático de la Nueva Escuela Mexicana (SEP). No hay cronómetros ni puntajes: la idea es que cada quien avance a su ritmo y celebre cada acierto.",
+      "p3": "Puedes usar este material de dos maneras, ambas gratuitas y sin crear cuenta. Descarga el PDF para imprimir si prefieres lápiz y papel, ideal para el salón o la mesa de la cocina; o abre la versión interactiva en línea para resolver las sumas directo en la pantalla, perfecta para un rato de práctica desde la tablet o la computadora. Si buscas un juego de sumas con la oficina de correos para 5 años o sumas de correos para primer grado, aquí lo encuentras listo para empezar. Es una manera amable de reforzar el conteo hasta el 10 con un tema que a la infancia mexicana le encanta: el ir y venir de las cartas, los paquetes y el cartero del barrio.",
+      "canonicalDeckSlug": "suma-buscar-sumando-oficina-de-correos-6064",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-panaderia-d21d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "bakery",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Panadería: 6 Fichas",
+      "metaDescription": "6 hojas de trabajo de sumas con panadería para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Panadería: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Bagel",
+        "Pretzel",
+        "Muffin",
+        "Tarta",
+        "Rollo de canela",
+        "Galleta",
+        "Panadería",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Lleva el mostrador de la panadería a tu salón con estas 6 hojas de trabajo de sumas. En cada ficha, la niña o el niño ve una ecuación sencilla como \"1 + ? = 2\" acompañada de un rico antojo de panadería, y su tarea es encontrar el número que falta para completar la suma. Cada actividad usa totales hasta 10, justo para edades de 5 a 7 años, así que el reto se siente alcanzable y el aprendizaje avanza sin prisas. Es una manera cálida de practicar las primeras sumas con un tema que a casi todos les encanta: el pan dulce y la repostería.",
+      "p2": "Cada uno de los 6 ejercicios muestra un objeto distinto del mazo, de modo que la práctica se mantiene fresca de principio a fin: un Bagel doradito, un Pretzel salado, un Muffin esponjoso, una Tarta de frutas, un Rollo de canela y una Galleta. La imagen es parte del ejercicio, no solo un adorno; al contar dos panes o tres galletas en su cabeza, la o el estudiante conecta los números con cosas reales que conoce. Verás que dos fichas pueden tener la misma ecuación con un objeto diferente, y por eso son ejercicios distintos: cada uno invita a observar, contar de forma discreta y razonar cuánto hace falta para llegar al total.",
+      "p3": "Estas hojas son totalmente gratis. Puedes descargarlas e imprimirlas para repartirlas en el aula o en casa, o usar la versión interactiva en línea sin necesidad de crear cuenta ni registrarte, perfecta para un juego de sumas con panadería para 5 años o para practicar sumas de panadería en primer grado. No hay cronómetros ni puntajes que presionen: la idea es que cada peque resuelva a su ritmo, con calma y sin pena al equivocarse. Pensadas para acompañar el trabajo de Educación Preescolar y Primer grado de primaria dentro de la Nueva Escuela Mexicana, estas actividades ayudan a que encontrar el número que falta se vuelva una práctica natural y disfrutable.",
+      "canonicalDeckSlug": "suma-buscar-sumando-panaderia-d21d",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-partes-del-cuerpo-07ee",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "body_parts",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con el Cuerpo: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con partes del cuerpo para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Partes del Cuerpo: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Hombro",
+        "Cuello",
+        "Tobillo",
+        "Mejillas",
+        "Rodilla",
+        "Nariz",
+        "Partes del Cuerpo",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne 6 sumas con partes del cuerpo para niñas y niños de 5 a 7 años, pensada para el tránsito de Educación Preescolar a primer grado de primaria dentro de la Nueva Escuela Mexicana. En cada ejercicio aparece una ecuación sencilla del tipo \"1 + ? = 2\" acompañada de un dibujo: un hombro, un cuello, un tobillo, las mejillas, una rodilla o una nariz. La tarea es siempre la misma y muy clara para esta edad: encontrar el número que falta para completar la suma, con totales que nunca pasan del 10.",
+      "p2": "Lo bonito de este tema es que el cuerpo es el primer material concreto que cada peque trae consigo. Mientras resuelve la suma del tobillo o de la rodilla, puede tocarse esa parte, señalar la nariz o contar las dos mejillas, y así unir el número con algo que conoce y siente. Cada carta es un ejercicio distinto aunque dos sumas coincidan en sus números: el dibujo del hombro no es el mismo trabajo que el de la nariz, porque el objeto cambia y con él la conversación. Esa cercanía vuelve la práctica de sumas hasta el 10 cálida y sin presión, sin cronómetros ni puntajes.",
+      "p3": "Cada hoja se puede imprimir en PDF para trabajar con lápiz en el salón o en casa, o resolver en la versión interactiva en línea, sin necesidad de crear una cuenta y de forma gratuita. Es ideal para quien busca un juego de sumas con el cuerpo para 5 años o sumas de partes del cuerpo para primer grado que aproveche el interés natural de las y los pequeños por descubrir cómo se llama cada parte. Al terminar las 6 actividades, niñas y niños habrán practicado el número que falta una y otra vez —con el hombro, el cuello, el tobillo, las mejillas, la rodilla y la nariz— afianzando la suma hasta el 10 mientras reconocen su propio cuerpo.",
+      "canonicalDeckSlug": "suma-buscar-sumando-partes-del-cuerpo-07ee",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-pascua-7269",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "easter",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Pascua: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con tema de Pascua para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Pascua: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tulipán",
+        "Gomitas",
+        "Listón",
+        "Patito",
+        "Arcoíris",
+        "Chocolate",
+        "Pascua",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con tema de Pascua invitan a tu peque a encontrar el número que falta en cada ecuación. La actividad presenta seis ejercicios cortos del tipo \"n + ? = total\", siempre con totales hasta el 10, para que niñas y niños de 5 a 7 años practiquen a su ritmo. Cada problema viene ilustrado con un objeto primaveral del mazo: un Tulipán, unas Gomitas, un Listón, un Patito, un Arcoíris y un Chocolate. La imagen acompaña la suma y vuelve la práctica más cálida y cercana, mientras el verdadero reto vive en los números: ver el primer sumando, mirar el total y descubrir cuántas unidades faltan para completarlo.",
+      "p2": "Pensamos esta ficha para el span que va de Educación Preescolar (5 años) al Primer grado de primaria, alineada con el enfoque de la Nueva Escuela Mexicana de la SEP. Encontrar el número que falta es un paso natural antes de la suma formal: tu peque ya no solo junta cantidades, también razona hacia atrás para hallar lo que hace falta. Por eso cada ejercicio se queda en totales pequeños y manejables, sin prisas ni presión. No hay cronómetros ni puntajes: el tono es tranquilo y sin vergüenza, para que equivocarse sea parte del aprendizaje. Si tu peque resuelve la suma del Patito y luego la del Arcoíris, está repasando la misma idea con dos objetos distintos, lo que mantiene su atención y refuerza el concepto desde varios ángulos.",
+      "p3": "Lo mejor es que tienes dos formas de usar este material, ambas gratis y sin registro. Puedes descargar el PDF para imprimir y trabajarlo en casa o en el salón con lápiz, ideal cuando prefieres algo en papel. O puedes abrir la versión interactiva en línea y convertirla en un juego de sumas de Pascua: tu peque toca la pantalla para encontrar el número que falta y recibe respuesta al instante, sin necesidad de crear cuenta. Esta combinación de tema de Pascua, edad de 5 a 7 años y formato interactivo hace que la práctica se sienta como jugar, no como una tarea. Tanto si buscas un juego de sumas con dibujos de primavera para 5 años como ejercicios de sumas para primer grado, estas seis hojas de trabajo te dan una manera amable y clara de acompañar los primeros pasos en la suma.",
+      "canonicalDeckSlug": "suma-buscar-sumando-pascua-7269",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-playa-5472",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "beach",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Playa: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con tema de playa para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Playa: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tortuga",
+        "Roca",
+        "Madera a la deriva",
+        "Torre de salvavidas",
+        "Pala",
+        "Traje de baño",
+        "Playa",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "¿Buscas un juego de sumas con playa para niños de 5 años o sumas de playa para primer grado? Esta actividad reúne 6 ejercicios para encontrar el número que falta, con totales hasta el 10 y un ambiente de mar que encanta a los pequeños. En cada ejercicio aparece una ecuación sencilla como \"1 + ? = 2\" acompañada de un objeto de la playa que el niño reconoce de inmediato. La meta es clara y cálida: descubrir qué número completa la suma, sin prisas y sin presión.",
+      "p2": "Cada una de las 6 hojas muestra un objeto distinto del mazo, así que cada ejercicio se siente nuevo aunque practiquen la misma idea. Tu peque suma con una Tortuga que descansa en la arena, una Roca junto a la orilla, un trozo de Madera a la deriva que llegó con las olas, la Torre de salvavidas que vigila el mar, una Pala para hacer castillos y un Traje de baño listo para nadar. El dibujo es decorativo y la cuenta es real: el niño observa el total, mira el número que ya está y razona cuántos faltan para llegar. Dos ejercicios pueden tener la misma operación con objetos diferentes, y aun así son actividades distintas que invitan a seguir practicando.",
+      "p3": "Esta actividad está pensada para Educación Preescolar (5 años) y Primer grado de primaria, edades de 5 a 7 años, dentro de lo que la Nueva Escuela Mexicana (SEP) propone para los primeros pasos con los números. Encontrar el número que falta ayuda a los niños a comprender la suma como una relación entre partes y todo, no solo como memorizar resultados. Puedes usarla de dos maneras y ambas son gratis: descarga el PDF para imprimir y trabajar con lápiz en casa o en el salón, o abre la versión interactiva en línea para resolverla en la computadora, la tableta o el celular, sin registro ni cuentas. Sin cronómetros y sin puntajes: aquí lo importante es que tu peque explore, se equivoque con confianza y celebre cada número que descubre.",
+      "canonicalDeckSlug": "suma-buscar-sumando-playa-5472",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-postres-y-dulces-6344",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "desserts_and_sweets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Postres: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con postres y dulces para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Postres y Dulces: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Hotcake",
+        "Tarta",
+        "Macarrón",
+        "Muffin",
+        "Dona",
+        "Waffle",
+        "Postres y Dulces",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con un tema dulce que les encanta a las niñas y los niños: postres y dulces. En cada actividad aparece un objeto rico —un hotcake, una tarta, un macarrón, un muffin, una dona o un waffle— junto a una ecuación numérica como \"1 + ? = 2\". La consigna es sencilla y cálida: encontrar el número que falta para completar la suma. Los seis postres dan variedad visual, así que aunque dos ejercicios compartan números, cada carta se siente como una actividad distinta gracias a su propio antojo.",
+      "p2": "Pensamos este material para niñas y niños de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria, con sumas hasta el 10 que se resuelven sin prisa. No hay cronómetros ni puntajes: la idea es que cada quien observe el dibujo del muffin o de la dona, cuente con calma y descubra el número que falta. Las imágenes no son solo adorno; nombramos cada postre real para que el conteo tenga sentido —dos donas, tres macarrones, un waffle— siempre con cantidades discretas que el peque puede señalar y contar uno por uno con el dedo.",
+      "p3": "Lo mejor: es totalmente gratis. Puedes descargar el PDF para imprimir las fichas y trabajarlas en casa o en el salón, o abrir la versión interactiva en línea sin necesidad de registrarte. Si buscas un juego de sumas con postres para 5 años o ejercicios de sumas dulces para primer grado, esta es una opción amable y lista para usar, alineada con la propuesta de la Nueva Escuela Mexicana. Comparte la hoja, déjala a la mano para un ratito de matemáticas y deja que el antojo de un hotcake o una tarta haga el resto: aprender a encontrar el número que falta nunca había sabido tan rico.",
+      "canonicalDeckSlug": "suma-buscar-sumando-postres-y-dulces-6344",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-primavera-f0b8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "spring",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Primavera: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con primavera para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hojas de trabajo de sumas",
+      "h1": "Sumas de Primavera: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tulipán",
+        "Cordero",
+        "Regadera",
+        "Bicicleta",
+        "Mariposa",
+        "Impermeable",
+        "Primavera",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con tema de primavera invitan a las niñas y los niños a encontrar el número que falta en cada ecuación, con totales que llegan hasta el 10. Cada ejercicio muestra una operación clara del tipo \"1 + ? = 2\", y el espacio en blanco es justo el número que tu peque debe descubrir. La actividad está pensada para edades de 5 a 7 años, así que acompaña de forma natural el paso de la Educación Preescolar al Primer grado de primaria, cuando se empieza a sumar con confianza y a jugar con las cantidades pequeñas.",
+      "p2": "Cada problema viene ilustrado con un objeto real de la primavera para que contar sea cálido y cercano: un tulipán que abre sus pétalos, un cordero recién nacido, una regadera para el jardín, una bicicleta lista para pasear, una mariposa de colores y un impermeable para los días de lluvia. La imagen acompaña a la suma, mientras que los números hacen el trabajo matemático; así, dos fichas con la misma operación pero distinto objeto son ejercicios diferentes, y tu peque practica más sin aburrirse. Nombrar en voz alta cada cosa —\"la regadera\", \"la mariposa\", \"el cordero\"— también suma vocabulario mientras suma cantidades.",
+      "p3": "Esta actividad es totalmente gratis: puedes descargar el PDF para imprimir o jugar la versión interactiva en línea, sin registro y sin crear ninguna cuenta. Sabemos que el imprimible de sumas ya se encuentra en todas partes, por eso lo que distingue a estas hojas es el juego de sumas de primavera para 5 años en pantalla, ideal para repasar las sumas de primer grado desde el celular, la tableta o la computadora. No hay cronómetros ni puntajes ni prisas: el tono es tranquilo y sin vergüenza, para que cada error sea solo otra oportunidad de intentarlo. Apoyada en el enfoque de la Nueva Escuela Mexicana de la SEP, esta hoja de trabajo convierte la práctica de \"encontrar el número que falta\" en un momento amable de aprendizaje, en casa o en el salón.",
+      "canonicalDeckSlug": "suma-buscar-sumando-primavera-f0b8",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-reptiles-y-anfibios-eaa9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "reptiles_and_amphibians",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Reptiles: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con reptiles y anfibios para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Reptiles y Anfibios: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Tortuga de tierra",
+        "Gecko",
+        "Rana",
+        "Dragón de Komodo",
+        "Caimán",
+        "Tortuga",
+        "Reptiles y Anfibios",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Si a tu peque le encantan los animales que se arrastran, nadan y saltan, estas hojas de trabajo de sumas con reptiles y anfibios convierten la práctica de matemáticas en una pequeña expedición. Cada ejercicio muestra una ecuación sencilla del tipo \"1 + ? = 2\" acompañada de un animal del tema, para que el niño descubra cuál es el número que falta mientras observa a sus criaturas favoritas. Los seis ejercicios usan totales hasta el 10, una cantidad amable y manejable para manos pequeñas que apenas empiezan a sumar. Esta actividad apoya el inicio del pensamiento matemático de la Nueva Escuela Mexicana (SEP) y está pensada para edades de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria.",
+      "p2": "Cada carta presenta a un animal distinto del mazo: la Tortuga de tierra que camina despacito, el Gecko trepador, la Rana saltarina, el imponente Dragón de Komodo, el Caimán de río y la Tortuga nadadora. El dibujo es decorativo y acompaña a la ecuación numérica, así que el reto siempre es el mismo: encontrar el número que falta para completar la suma. Aunque dos ejercicios tuvieran la misma ecuación, el animal cambia, y para tu peque cada hoja se siente como un descubrimiento nuevo. Esa variedad mantiene la atención sin necesidad de cronómetros ni puntajes: aquí no hay prisa ni vergüenza, solo curiosidad y la satisfacción de resolver un acertijo con sus reptiles preferidos.",
+      "p3": "Puedes usar este juego de sumas con reptiles para 5 años de dos maneras, las dos completamente gratis. Descarga el PDF para imprimir si prefieres lápiz y papel, o juega la versión interactiva en línea desde la computadora, la tablet o el celular, sin necesidad de crear cuenta ni registrarte. La opción interactiva es ideal para practicar sumas de reptiles en primer grado en cualquier momento: en casa, en el salón o de viaje en el carro. Si buscabas una actividad de \"encontrar el número que falta\" que sea cálida, clara y con un tema que de verdad emocione, la Tortuga, el Gecko y la Rana ya están listos para acompañar a tu peque en sus primeras sumas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-reptiles-y-anfibios-eaa9",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-ropa-098f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "clothing",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Ropa: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con ropa para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Ropa: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Camiseta",
+        "Chaqueta",
+        "Shorts",
+        "Traje de nieve",
+        "Overol",
+        "Camiseta sin mangas",
+        "Ropa",
+        "Educación Preescolar – Primer grado de primaria"
+      ],
+      "p1": "Esta actividad reúne seis hojas de trabajo de sumas con tema de ropa, pensadas para niñas y niños de 5 a 7 años que van de Educación Preescolar a Primer grado de primaria. En cada problema aparece una prenda del mazo junto a una suma sencilla del tipo \"1 + ? = 2\", y la tarea es encontrar el número que falta para completar la operación. Todas las sumas llegan como máximo hasta el 10, así que cada ejercicio se mantiene dentro de lo que un pequeño puede contar con los dedos, con calma y sin prisa.",
+      "p2": "Las prendas que ilustran las hojas son objetos cotidianos que los niños reconocen al instante: una Camiseta, una Chaqueta, unos Shorts, un Traje de nieve, un Overol y una Camiseta sin mangas. Cada imagen acompaña a su propia ecuación, de modo que dos cartas con la misma suma pero distinta prenda son en realidad ejercicios diferentes. Ese detalle ayuda a que la práctica no se sienta repetitiva: el niño asocia el número que falta con algo concreto y familiar, como vestirse en la mañana o preparar la ropa para un día de frío.",
+      "p3": "Buscas un juego de sumas con ropa para 5 años o sumas de ropa para primer grado, aquí tienes ambas opciones sin costo. Puedes descargar las hojas en PDF para imprimir y trabajarlas en papel, o usar la versión interactiva en línea que se juega directamente en el navegador, sin necesidad de crear cuenta ni registrarse. La actividad está alineada con el enfoque de la Nueva Escuela Mexicana (SEP) para el aprendizaje temprano de las matemáticas y no incluye cronómetros ni puntajes: la idea es que cada pequeño practique encontrar el número que falta a su propio ritmo, con confianza y sin sentir presión por equivocarse.",
+      "canonicalDeckSlug": "suma-buscar-sumando-ropa-098f",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-salon-de-clases-d7e0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "classroom",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con el Salón de Clases",
+      "metaDescription": "6 hojas de trabajo de sumas con útiles del salón de clases para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con el Salón de Clases: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Silla",
+        "Estante",
+        "Tijeras",
+        "Escritorio",
+        "Cuaderno",
+        "Marcador",
+        "Salón de Clases",
+        "Educación Preescolar (5 años) – Primer grado de primaria (5-7 años)"
+      ],
+      "p1": "Esta actividad reúne 6 hojas de trabajo de sumas ambientadas en el salón de clases, pensadas para niñas y niños de 5 a 7 años, desde Educación Preescolar hasta Primer grado de primaria. En cada ejercicio aparece una sola ecuación del tipo \"1 + ? = 2\", y la tarea es encontrar el número que falta para completar la suma. Todos los resultados llegan hasta el 10, así que la práctica se mantiene en un rango cómodo y sin presión para quienes apenas empiezan a sumar.",
+      "p2": "Cada hoja muestra un objeto del salón que las y los pequeños reconocen de inmediato: la silla donde se sientan, el estante con los libros, las tijeras de la mesa de trabajo, el escritorio del salón, el cuaderno de tareas y el marcador del pizarrón. La imagen acompaña la cuenta y vuelve más cercana la idea de sumar; aunque el dibujo es decorativo, ayuda a que la actividad se sienta como parte de su día en la escuela. Dos fichas con la misma ecuación pero distinto objeto cuentan como ejercicios diferentes, de modo que hay variedad real para repasar el mismo número que falta sin que se vuelva repetitivo.",
+      "p3": "Puedes usar este material de dos maneras: descargar el PDF para imprimir y trabajarlo con lápiz, o abrir la versión interactiva en línea para resolverlo desde la computadora o la tableta, sin necesidad de crear una cuenta. Todo es gratis y no hay cronómetros ni puntajes; la intención es que cada niña y cada niño avance a su propio ritmo, con un tono cálido y sin vergüenza al equivocarse. Si buscas un juego de sumas con el salón de clases para 5 años o sumas de útiles escolares para primer grado, esta colección alineada con la Nueva Escuela Mexicana (SEP) ofrece una forma sencilla y amable de practicar encontrar el número que falta.",
+      "canonicalDeckSlug": "suma-buscar-sumando-salon-de-clases-d7e0",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-utensilios-de-cocina-d44c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "kitchen_tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Utensilios de Cocina",
+      "metaDescription": "6 hojas de trabajo de sumas con utensilios de cocina para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Utensilios de Cocina: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "tabla de cortar",
+        "plato",
+        "taza medidora",
+        "tostador",
+        "salero",
+        "cacerola",
+        "utensilios de cocina",
+        "preescolar",
+        "primer grado"
+      ],
+      "p1": "En estas sumas con utensilios de cocina tu pequeño practica una idea clave de las matemáticas: encontrar el número que falta. En cada ejercicio aparece una suma a la que le falta un número, como 1 + ? = 2, y el niño descubre cuál es ese número que completa la operación. Son seis ejercicios, todos con sumas hasta el 10, así que el reto queda justo a la medida de manitas que apenas empiezan a sumar. Y como todo pasa \"en la cocina\", la actividad se siente más como jugar a cocinar que como una tarea.",
+      "p2": "Cada suma viene acompañada de un utensilio de cocina: una tabla de cortar, un plato, una taza medidora, un tostador, un salero y una cacerola. Los utensilios no son adorno; son el gancho que mantiene a los niños mirando, contando y queriendo seguir, como si estuvieran preparando una receta. Si dos ejercicios se parecen porque comparten la misma operación pero muestran objetos distintos —digamos el plato y la cacerola—, son ejercicios distintos a propósito, para que el niño note que la misma idea aparece en lugares diferentes. ¿Cómo se aprende aquí? Con la idea de parte y todo: si conozco una parte y el total, puedo contar hacia adelante hasta llegar al número que falta. Si tu hijo se atora, cuenten juntos en voz alta con los dedos, sin prisa y sin regañar.",
+      "p3": "En casa o en el salón, puedes imprimir la hoja o usar la versión interactiva en línea, gratis y sin necesidad de crear cuenta. Es un juego de sumas con utensilios de cocina ideal para 5 años y para primer grado de primaria. Cuando estos ejercicios le salgan con confianza, el siguiente paso natural es sumar hasta el 20 y empezar con restas sencillas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-utensilios-de-cocina-d44c",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-vehiculos-c068",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "vehicles",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Vehículos: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con vehículos para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Vehículos: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Carro de carreras",
+        "Taxi",
+        "Patineta",
+        "Camión de correos",
+        "Helicóptero",
+        "Patrulla",
+        "Vehículos",
+        "Educación Preescolar – Primer grado de primaria"
+      ],
+      "p1": "Esta hoja de trabajo reúne 6 ejercicios de sumas con vehículos pensados para niñas y niños de 5 a 7 años, desde Educación Preescolar (5 años) hasta Primer grado de primaria. En cada ejercicio aparece una ecuación sencilla del tipo \"1 + ? = 2\", con totales que llegan hasta el 10, y el reto consiste en encontrar el número que falta. Cada problema está ilustrado con un vehículo que les encanta: un carro de carreras veloz, un taxi de la ciudad, una patineta, un camión de correos, un helicóptero que sube al cielo y una patrulla. La imagen acompaña a los números para que la actividad sea concreta y atractiva, justo como recomienda la Nueva Escuela Mexicana al partir de contextos cercanos a la infancia.",
+      "p2": "Aunque dos ecuaciones coincidan, cada vehículo convierte el ejercicio en una experiencia distinta: contar carros de carreras no es lo mismo que contar helicópteros, y esa variedad mantiene viva la atención. La hoja se puede descargar e imprimir gratis para trabajar con lápiz, o jugar en línea sin registro y sin necesidad de crear una cuenta. Si buscas un juego de sumas con vehículos para 5 años o actividades de sumas con vehículos para primer grado, esta ficha funciona en ambos casos: la versión interactiva da pistas suaves y la versión imprimible es ideal para la libreta o el rincón de matemáticas del salón.",
+      "p3": "No hay cronómetros ni puntajes que presionen; el objetivo es que cada peque descubra el número que falta a su propio ritmo, con un tono cálido y sin vergüenza ante el error. La actividad fortalece el sentido numérico, el conteo hasta 10 y la idea de que una suma se puede completar de distintas maneras, habilidades clave en el primer acercamiento a las matemáticas. Maestras, maestros y familias pueden usar esta hoja de trabajo en casa o en el aula: imprime las seis fichas con vehículos para repartir, o abre la versión en línea en la computadora o la tableta para que las niñas y los niños toquen la respuesta correcta. Vehículo por vehículo, la suma se vuelve un juego y aprender a encontrar el número que falta se siente como una aventura sobre ruedas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-vehiculos-c068",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-verano-271f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "summer",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas de Verano: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas de verano para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas de Verano: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "shorts",
+        "traje de baño",
+        "helado",
+        "mariposa",
+        "pelota de playa",
+        "natación",
+        "verano",
+        "preescolar",
+        "primer grado"
+      ],
+      "p1": "En estas sumas de verano tu pequeño practica una idea muy importante de las matemáticas: encontrar el número que falta. En cada ejercicio aparece una suma a la que le falta un número, como 1 + ? = 2, y el niño descubre cuál es ese número que completa la operación. Son seis ejercicios, todos con sumas hasta el 10, así que el reto es justo del tamaño de manitas que apenas empiezan a sumar. Es una actividad ideal para esos días de calor o de vacaciones, cuando hay tiempo de sobra para sentarse un ratito a jugar con los números.",
+      "p2": "Cada suma viene acompañada de algo del verano: unos shorts, un traje de baño, un helado, una mariposa, una pelota de playa y la natación. Las imágenes no son adorno; son el gancho que mantiene a los niños mirando, contando y queriendo seguir, porque el verano es justo lo que más les emociona. Verás dos ejercicios parecidos (los shorts y el traje de baño, ambos con la misma ecuación): son distintos a propósito, para que el niño note que la misma idea aparece en lugares diferentes. ¿Cómo se aprende aquí? Con la idea de parte y todo: si conozco una parte y el total, puedo contar hacia adelante hasta llegar. Si tu hijo se atora, cuéntenlo juntos en voz alta con los dedos, sin prisa y sin regañar.",
+      "p3": "En casa o en el salón, puedes imprimir la hoja o usar la versión interactiva en línea, gratis y sin necesidad de crear cuenta. La versión en línea es perfecta para una tarde de verano: el niño juega con las sumas de la pelota de playa y el helado desde la computadora o la tablet, sin lápiz ni papel. Cuando estos ejercicios le salgan con confianza, el siguiente paso natural es sumar hasta el 20 y empezar con restas sencillas.",
+      "canonicalDeckSlug": "suma-buscar-sumando-verano-271f",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-verduras-dcfb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "vegetables",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Verduras: 6 Ejercicios",
+      "metaDescription": "6 hojas de trabajo de sumas con verduras para 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Verduras: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Puerro",
+        "Apio",
+        "Calabaza",
+        "Ajo",
+        "Espinaca",
+        "Champiñón",
+        "Verduras",
+        "Preescolar (5 años) a Primer grado de primaria"
+      ],
+      "p1": "Estas hojas de trabajo de sumas con verduras invitan a las niñas y a los niños de 5 a 7 años a encontrar el número que falta en cada operación. La actividad reúne seis ejercicios, y en cada uno aparece una verdura del mercado mexicano que acompaña la suma: un puerro, una rama de apio, una calabaza, un diente de ajo, una hoja de espinaca y un champiñón. La imagen no es solo decoración; le da un punto de apoyo concreto a quien apenas empieza a sumar, porque puede mirar la verdura mientras piensa cuánto le falta para llegar al total.",
+      "p2": "El mecanismo es sencillo y cálido. Cada ficha muestra una operación del tipo \"1 + ? = 2\", donde el resultado nunca pasa de 10, y la tarea consiste en descubrir el número que falta para completar la suma. Así, la calabaza puede plantear \"3 + ? = 7\" mientras la espinaca propone \"2 + ? = 6\": misma idea, distinta verdura, distinto ejercicio. Trabajar con sumas hasta el 10 le permite a cada peque contar con los dedos, señalar la verdura o usar objetos de la cocina, sin prisa y sin sentir que se equivoca. No hay cronómetros ni puntajes: solo el gusto de ir resolviendo a su ritmo.",
+      "p3": "Esta actividad acompaña los aprendizajes de la Nueva Escuela Mexicana (SEP) para el tramo de Educación Preescolar y Primer grado de primaria, cuando las y los estudiantes empiezan a darle sentido a la suma. Puedes descargar el PDF para imprimir y repartir en el salón o en casa, o usar la versión interactiva en línea, sin registro y completamente gratis. Si buscas un juego de sumas con verduras para 5 años o practicar sumas de verduras para primer grado, este mazo ofrece ambas opciones con los mismos seis ejercicios. El puerro, el apio, la calabaza, el ajo, la espinaca y el champiñón convierten la práctica numérica en algo familiar, cercano al mercado y a la mesa de cada familia.",
+      "canonicalDeckSlug": "suma-buscar-sumando-verduras-dcfb",
+      "carousel": []
+    },
+    {
+      "slug": "suma-buscar-sumando-vida-marina-dbcd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "addition",
+        "mode": "find-addend",
+        "theme": "ocean_life",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Hojas de Trabajo de Sumas con Vida Marina (5-7)",
+      "metaDescription": "6 hojas de trabajo de sumas con vida marina para niños de 5 a 7 años: encuentra el número que falta hasta el 10. Gratis, para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de trabajo de sumas",
+      "h1": "Sumas con Vida Marina: Encuentra el Número que Falta",
+      "strand": "Pensamiento Matemático — Número",
+      "standard": "1.OA.D.8",
+      "slotTokens": [
+        "Orca",
+        "Delfín",
+        "Alga marina",
+        "Coral",
+        "Foca",
+        "Narval",
+        "Vida Marina",
+        "Preescolar (5 años) a Primer grado (5-7 años)"
+      ],
+      "p1": "Sumérgete en el mar con esta actividad de sumas en la que tu peque practica al encontrar el número que falta. En cada ejercicio aparece una criatura marina junto a una ecuación sencilla como \"1 + ? = 2\": el niño observa el total y descubre cuántos faltan para completarlo. Es una manera cálida y sin presión de empezar con las sumas hasta el 10, ideal para Educación Preescolar (5 años) y Primer grado de primaria (edades 5 a 7), siguiendo el enfoque de la Nueva Escuela Mexicana de la SEP.",
+      "p2": "Cada una de las 6 hojas muestra un habitante del océano distinto: una Orca, un Delfín, un Alga marina, un Coral, una Foca y un Narval. Las imágenes acompañan el conteo y le dan sentido al ejercicio, mientras los números van cambiando de una hoja a otra. Aunque dos cartas tuvieran la misma operación, el objeto que las ilustra las vuelve actividades diferentes, así que tu peque puede repetir la práctica sin aburrirse y mantener viva su curiosidad por las criaturas del mar.",
+      "p3": "Lo mejor: este \"juego de sumas con vida marina para 5 años\" es completamente gratis. Puedes descargar la ficha en PDF para imprimir en casa o en el salón, o jugar la versión interactiva en línea desde la computadora o el celular, sin necesidad de registrarte. No hay cronómetros ni puntajes que generen estrés; solo un ritmo tranquilo para que cada niño aprenda a su manera. Perfecto para docentes que buscan \"sumas vida marina primer grado\" y para familias que quieren acompañar los primeros pasos en matemáticas con un tema que encanta a los más pequeños.",
+      "canonicalDeckSlug": "suma-buscar-sumando-vida-marina-dbcd",
       "carousel": []
     }
   ]

@@ -2,6 +2,2206 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "tren-de-patrones-abc-4-de-julio-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "4th_of_july",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con 4 de Julio: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con 4 de Julio (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Papas Fritas",
+        "Estatua",
+        "EE.UU.",
+        "4 de Julio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de 4 de Julio lo arma con papas fritas, estatua, EE.UU. repitiéndose —papas fritas, estatua, EE.UU., papas fritas, estatua, EE.UU.…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: papas fritas, después estatua, después EE.UU.. El niño señala cada vagón de 4 de Julio y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-4-de-julio-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Accesorios",
+          "href": "tren-de-patrones-abc-accesorios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Actividades",
+          "href": "tren-de-patrones-abc-actividades-fe63"
+        },
+        {
+          "label": "Patrón ABC con En el Supermercado",
+          "href": "tren-de-patrones-abc-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón ABC con Desayuno",
+          "href": "tren-de-patrones-abc-desayuno-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-accesorios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Accesorios: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Accesorios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Accesorios: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Gorro",
+        "Máscara",
+        "Insignia",
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Accesorios trabaja el patrón ABC: tres dibujos diferentes —gorro, máscara, insignia— en un orden fijo que se repite. La serie gorro, máscara, insignia, gorro, máscara, insignia… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: gorro, máscara, insignia, una y otra vez. Recorriendo gorro, máscara, insignia, gorro, máscara, insignia… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Descarga el PDF de Accesorios (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-accesorios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Actividades",
+          "href": "tren-de-patrones-abc-actividades-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales",
+          "href": "tren-de-patrones-abc-animales-fe63"
+        },
+        {
+          "label": "Patrón ABC con Panadería",
+          "href": "tren-de-patrones-abc-panaderia-fe63"
+        },
+        {
+          "label": "Patrón ABC con Campamento",
+          "href": "tren-de-patrones-abc-campamento-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-actividades-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Actividades: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Actividades (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Actividades",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Escribir",
+        "Coser",
+        "Acampar",
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Actividades, la fila va escribir, coser, acampar, escribir, coser, acampar…, repitiendo escribir, coser, acampar sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Actividades, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "Imprime esta hoja de patrón ABC con Actividades o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-actividades-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Animales",
+          "href": "tren-de-patrones-abc-animales-fe63"
+        },
+        {
+          "label": "Patrón ABC con Alrededor de la Casa",
+          "href": "tren-de-patrones-abc-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Playa",
+          "href": "tren-de-patrones-abc-playa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Navidad",
+          "href": "tren-de-patrones-abc-navidad-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-alrededor-de-la-casa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "around_the_house",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Alrededor de la casa: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Alrededor de la casa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Alrededor de la casa",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Escaleras",
+        "Lámpara",
+        "Tetera",
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de escaleras, lámpara, tetera? Eso es un patrón ABC, y esta hoja de Alrededor de la casa lo plantea con escaleras, lámpara, tetera, escaleras, lámpara, tetera… El niño aprende que ningún dibujo se repite dentro del grupo: primero escaleras, luego lámpara, luego tetera, y otra vez.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: escaleras, lámpara, tetera. Con Alrededor de la casa en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "El patrón ABC de Alrededor de la casa está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-alrededor-de-la-casa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con En el Supermercado",
+          "href": "tren-de-patrones-abc-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón ABC con Panadería",
+          "href": "tren-de-patrones-abc-panaderia-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-2-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ropa",
+          "href": "tren-de-patrones-abc-ropa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-animales-de-granja-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Animales de granja: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Animales de granja (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Animales de granja: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Buey",
+        "Toro",
+        "Burro",
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: buey, toro, burro, y vuelta a empezar. En esta hoja de Animales de granja, buey, toro, burro, buey, toro, burro… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir buey, toro, burro, buey, toro, burro… en voz alta —los tres en orden— ayuda al niño de Animales de granja a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-animales-de-granja-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Flores",
+          "href": "tren-de-patrones-abc-flores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Criaturas del Bosque",
+          "href": "tren-de-patrones-abc-criaturas-del-bosque-fe63"
+        },
+        {
+          "label": "Patrón ABC con Hospital",
+          "href": "tren-de-patrones-abc-hospital-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vida Marina",
+          "href": "tren-de-patrones-abc-vida-marina-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-animales-del-zoologico-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Animales del zoológico: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Animales del zoológico (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Animales del zoológico",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "León marino",
+        "Tigre",
+        "Jirafa",
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —león marino, tigre, jirafa— se turnan en orden, formando un patrón ABC. La hoja de Animales del zoológico muestra león marino, tigre, jirafa, león marino, tigre, jirafa… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: león marino, después tigre, después jirafa. El niño señala cada vagón de Animales del zoológico y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "Descarga el PDF de Animales del zoológico (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-animales-del-zoologico-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con 4 de Julio",
+          "href": "tren-de-patrones-abc-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Accesorios",
+          "href": "tren-de-patrones-abc-accesorios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Alrededor de la Casa",
+          "href": "tren-de-patrones-abc-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Partes del Cuerpo",
+          "href": "tren-de-patrones-abc-partes-del-cuerpo-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-animales-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Animales: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Animales (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Animales",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Ballena",
+        "Delfín",
+        "Jaguar",
+        "Animales",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Animales lo arma con ballena, delfín, jaguar repitiéndose —ballena, delfín, jaguar, ballena, delfín, jaguar…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: ballena, delfín, jaguar, una y otra vez. Recorriendo ballena, delfín, jaguar, ballena, delfín, jaguar… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Imprime esta hoja de patrón ABC con Animales o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-animales-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Alrededor de la Casa",
+          "href": "tren-de-patrones-abc-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón ABC con En el Supermercado",
+          "href": "tren-de-patrones-abc-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-fe63"
+        },
+        {
+          "label": "Patrón ABC con Salón de Clases",
+          "href": "tren-de-patrones-abc-salon-de-clases-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-arboles-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Árboles: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Árboles (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Árboles: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Palmera",
+        "Abedul",
+        "Ciprés",
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Árboles trabaja el patrón ABC: tres dibujos diferentes —palmera, abedul, ciprés— en un orden fijo que se repite. La serie palmera, abedul, ciprés, palmera, abedul, ciprés… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Árboles, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "El patrón ABC de Árboles está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-arboles-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Verduras",
+          "href": "tren-de-patrones-abc-verduras-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vehículos",
+          "href": "tren-de-patrones-abc-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales del Zoológico",
+          "href": "tren-de-patrones-abc-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón ABC con En el Supermercado",
+          "href": "tren-de-patrones-abc-en-el-supermercado-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-aves-2-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "birds_2",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Aves 2: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Aves 2 (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Aves 2",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pato",
+        "Frailecillo",
+        "Golondrina",
+        "Aves 2",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Aves 2, la fila va pato, frailecillo, golondrina, pato, frailecillo, golondrina…, repitiendo pato, frailecillo, golondrina sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: pato, frailecillo, golondrina. Con Aves 2 en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-aves-2-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Partes del Cuerpo",
+          "href": "tren-de-patrones-abc-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Desayuno",
+          "href": "tren-de-patrones-abc-desayuno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Salón de Clases",
+          "href": "tren-de-patrones-abc-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón ABC con Emociones",
+          "href": "tren-de-patrones-abc-emociones-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-aves-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "birds",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Aves: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Aves (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Aves",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pingüino",
+        "Avestruz",
+        "Flamenco",
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de pingüino, avestruz, flamenco? Eso es un patrón ABC, y esta hoja de Aves lo plantea con pingüino, avestruz, flamenco, pingüino, avestruz, flamenco… El niño aprende que ningún dibujo se repite dentro del grupo: primero pingüino, luego avestruz, luego flamenco, y otra vez.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir pingüino, avestruz, flamenco, pingüino, avestruz, flamenco… en voz alta —los tres en orden— ayuda al niño de Aves a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "Descarga el PDF de Aves (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-aves-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-2-fe63"
+        },
+        {
+          "label": "Patrón ABC con Partes del Cuerpo",
+          "href": "tren-de-patrones-abc-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Navidad",
+          "href": "tren-de-patrones-abc-navidad-fe63"
+        },
+        {
+          "label": "Patrón ABC con Pascua",
+          "href": "tren-de-patrones-abc-pascua-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-campamento-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Campamento: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Campamento (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Campamento: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Mesa de picnic",
+        "Brújula",
+        "Parrilla",
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: mesa de picnic, brújula, parrilla, y vuelta a empezar. En esta hoja de Campamento, mesa de picnic, brújula, parrilla, mesa de picnic, brújula, parrilla… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: mesa de picnic, después brújula, después parrilla. El niño señala cada vagón de Campamento y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "Imprime esta hoja de patrón ABC con Campamento o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-campamento-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Navidad",
+          "href": "tren-de-patrones-abc-navidad-fe63"
+        },
+        {
+          "label": "Patrón ABC con Salón de Clases",
+          "href": "tren-de-patrones-abc-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón ABC con Postres y Dulces",
+          "href": "tren-de-patrones-abc-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón ABC con Criaturas del Bosque",
+          "href": "tren-de-patrones-abc-criaturas-del-bosque-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-clima-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Clima: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Clima (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Clima",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Frío",
+        "Termómetro",
+        "Mitones",
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —frío, termómetro, mitones— se turnan en orden, formando un patrón ABC. La hoja de Clima muestra frío, termómetro, mitones, frío, termómetro, mitones… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: frío, termómetro, mitones, una y otra vez. Recorriendo frío, termómetro, mitones, frío, termómetro, mitones… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "El patrón ABC de Clima está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-clima-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Invierno",
+          "href": "tren-de-patrones-abc-invierno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales del Zoológico",
+          "href": "tren-de-patrones-abc-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón ABC con Actividades",
+          "href": "tren-de-patrones-abc-actividades-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-colores-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "colors",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Colores: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Colores (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Colores",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Carmesí",
+        "Verde",
+        "Rojo",
+        "Colores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Colores lo arma con carmesí, verde, rojo repitiéndose —carmesí, verde, rojo, carmesí, verde, rojo…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Colores, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-colores-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Postres y Dulces",
+          "href": "tren-de-patrones-abc-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón ABC con Dinosaurios",
+          "href": "tren-de-patrones-abc-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales de Granja",
+          "href": "tren-de-patrones-abc-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón ABC con Insectos y Bichos",
+          "href": "tren-de-patrones-abc-insectos-y-bichos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-cosas-que-vuelan-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Cosas que vuelan: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Cosas que vuelan (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Cosas que vuelan: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Avión de papel",
+        "Cohete",
+        "Pájaro",
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Cosas que vuelan trabaja el patrón ABC: tres dibujos diferentes —avión de papel, cohete, pájaro— en un orden fijo que se repite. La serie avión de papel, cohete, pájaro, avión de papel, cohete, pájaro… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: avión de papel, cohete, pájaro. Con Cosas que vuelan en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "Descarga el PDF de Cosas que vuelan (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-cosas-que-vuelan-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Herramientas",
+          "href": "tren-de-patrones-abc-herramientas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Juguetes",
+          "href": "tren-de-patrones-abc-juguetes-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vehículos",
+          "href": "tren-de-patrones-abc-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Actividades",
+          "href": "tren-de-patrones-abc-actividades-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-criaturas-del-bosque-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "forest_creatures",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Criaturas del bosque: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Criaturas del bosque (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Criaturas del bosque",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Conejo",
+        "Venado",
+        "Halcón",
+        "Criaturas del bosque",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Criaturas del bosque, la fila va conejo, venado, halcón, conejo, venado, halcón…, repitiendo conejo, venado, halcón sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir conejo, venado, halcón, conejo, venado, halcón… en voz alta —los tres en orden— ayuda al niño de Criaturas del bosque a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "Imprime esta hoja de patrón ABC con Criaturas del bosque o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-criaturas-del-bosque-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Frutas",
+          "href": "tren-de-patrones-abc-frutas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Muebles",
+          "href": "tren-de-patrones-abc-muebles-fe63"
+        },
+        {
+          "label": "Patrón ABC con Utensilios de Cocina",
+          "href": "tren-de-patrones-abc-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Oficina de Correos",
+          "href": "tren-de-patrones-abc-oficina-de-correos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-desayuno-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Desayuno: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Desayuno (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Desayuno",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Toronja",
+        "Muffin",
+        "Queso",
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de toronja, muffin, queso? Eso es un patrón ABC, y esta hoja de Desayuno lo plantea con toronja, muffin, queso, toronja, muffin, queso… El niño aprende que ningún dibujo se repite dentro del grupo: primero toronja, luego muffin, luego queso, y otra vez.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: toronja, después muffin, después queso. El niño señala cada vagón de Desayuno y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "El patrón ABC de Desayuno está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-desayuno-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Campamento",
+          "href": "tren-de-patrones-abc-campamento-fe63"
+        },
+        {
+          "label": "Patrón ABC con Navidad",
+          "href": "tren-de-patrones-abc-navidad-fe63"
+        },
+        {
+          "label": "Patrón ABC con Colores",
+          "href": "tren-de-patrones-abc-colores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Flores",
+          "href": "tren-de-patrones-abc-flores-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Día de Acción de Gracias: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Día de Acción de Gracias (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Día de Acción de Gracias: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pavo asado",
+        "Manzana",
+        "Calabaza",
+        "Día de Acción de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: pavo asado, manzana, calabaza, y vuelta a empezar. En esta hoja de Día de Acción de Gracias, pavo asado, manzana, calabaza, pavo asado, manzana, calabaza… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: pavo asado, manzana, calabaza, una y otra vez. Recorriendo pavo asado, manzana, calabaza, pavo asado, manzana, calabaza… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Cosas que Vuelan",
+          "href": "tren-de-patrones-abc-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón ABC con Herramientas",
+          "href": "tren-de-patrones-abc-herramientas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verduras",
+          "href": "tren-de-patrones-abc-verduras-fe63"
+        },
+        {
+          "label": "Patrón ABC con Accesorios",
+          "href": "tren-de-patrones-abc-accesorios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-dinosaurios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Dinosaurios: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Dinosaurios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Dinosaurios",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Alosaurio",
+        "Argentinosaurio",
+        "Brontosaurio",
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —alosaurio, argentinosaurio, brontosaurio— se turnan en orden, formando un patrón ABC. La hoja de Dinosaurios muestra alosaurio, argentinosaurio, brontosaurio, alosaurio, argentinosaurio, brontosaurio… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Dinosaurios, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "Descarga el PDF de Dinosaurios (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-dinosaurios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Pascua",
+          "href": "tren-de-patrones-abc-pascua-fe63"
+        },
+        {
+          "label": "Patrón ABC con Emociones",
+          "href": "tren-de-patrones-abc-emociones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Criaturas del Bosque",
+          "href": "tren-de-patrones-abc-criaturas-del-bosque-fe63"
+        },
+        {
+          "label": "Patrón ABC con Miscelánea",
+          "href": "tren-de-patrones-abc-miscelaneo-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-emociones-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "emotions",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Emociones: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Emociones (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Emociones",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Feliz",
+        "Aburrido",
+        "Emocionado",
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Emociones lo arma con feliz, aburrido, emocionado repitiéndose —feliz, aburrido, emocionado, feliz, aburrido, emocionado…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: feliz, aburrido, emocionado. Con Emociones en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "Imprime esta hoja de patrón ABC con Emociones o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-emociones-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Animales de Granja",
+          "href": "tren-de-patrones-abc-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón ABC con Flores",
+          "href": "tren-de-patrones-abc-flores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Muebles",
+          "href": "tren-de-patrones-abc-muebles-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ocupaciones",
+          "href": "tren-de-patrones-abc-ocupaciones-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-en-el-supermercado-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con En el supermercado: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con En el supermercado (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con En el supermercado: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Galleta",
+        "Zanahoria",
+        "Manzana",
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de En el supermercado trabaja el patrón ABC: tres dibujos diferentes —galleta, zanahoria, manzana— en un orden fijo que se repite. La serie galleta, zanahoria, manzana, galleta, zanahoria, manzana… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir galleta, zanahoria, manzana, galleta, zanahoria, manzana… en voz alta —los tres en orden— ayuda al niño de En el supermercado a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "El patrón ABC de En el supermercado está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-en-el-supermercado-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Panadería",
+          "href": "tren-de-patrones-abc-panaderia-fe63"
+        },
+        {
+          "label": "Patrón ABC con Playa",
+          "href": "tren-de-patrones-abc-playa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Partes del Cuerpo",
+          "href": "tren-de-patrones-abc-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Colores",
+          "href": "tren-de-patrones-abc-colores-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-espacio-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Espacio: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Espacio (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Espacio",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Urano",
+        "Luna",
+        "Cohete",
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Espacio, la fila va urano, luna, cohete, urano, luna, cohete…, repitiendo urano, luna, cohete sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: urano, después luna, después cohete. El niño señala cada vagón de Espacio y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-espacio-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Primavera",
+          "href": "tren-de-patrones-abc-primavera-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verano",
+          "href": "tren-de-patrones-abc-verano-fe63"
+        },
+        {
+          "label": "Patrón ABC con Herramientas",
+          "href": "tren-de-patrones-abc-herramientas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Invierno",
+          "href": "tren-de-patrones-abc-invierno-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-flores-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Flores: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Flores (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Flores",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Peonía",
+        "Forsitia",
+        "Loto",
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de peonía, forsitia, loto? Eso es un patrón ABC, y esta hoja de Flores lo plantea con peonía, forsitia, loto, peonía, forsitia, loto… El niño aprende que ningún dibujo se repite dentro del grupo: primero peonía, luego forsitia, luego loto, y otra vez.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: peonía, forsitia, loto, una y otra vez. Recorriendo peonía, forsitia, loto, peonía, forsitia, loto… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Descarga el PDF de Flores (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-flores-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Criaturas del Bosque",
+          "href": "tren-de-patrones-abc-criaturas-del-bosque-fe63"
+        },
+        {
+          "label": "Patrón ABC con Frutas",
+          "href": "tren-de-patrones-abc-frutas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Insectos y Bichos",
+          "href": "tren-de-patrones-abc-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Mascotas",
+          "href": "tren-de-patrones-abc-mascotas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-formas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "shapes",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Formas: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Formas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Formas: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Luna",
+        "Cubo",
+        "Hexágono",
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: luna, cubo, hexágono, y vuelta a empezar. En esta hoja de Formas, luna, cubo, hexágono, luna, cubo, hexágono… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Formas, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "Imprime esta hoja de patrón ABC con Formas o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-formas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Espacio",
+          "href": "tren-de-patrones-abc-espacio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Primavera",
+          "href": "tren-de-patrones-abc-primavera-fe63"
+        },
+        {
+          "label": "Patrón ABC con Cosas que Vuelan",
+          "href": "tren-de-patrones-abc-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón ABC con Clima",
+          "href": "tren-de-patrones-abc-clima-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-frutas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Frutas: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Frutas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Frutas",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Clementina",
+        "Cereza",
+        "Toronja",
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —clementina, cereza, toronja— se turnan en orden, formando un patrón ABC. La hoja de Frutas muestra clementina, cereza, toronja, clementina, cereza, toronja… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: clementina, cereza, toronja. Con Frutas en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "El patrón ABC de Frutas está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-frutas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Muebles",
+          "href": "tren-de-patrones-abc-muebles-fe63"
+        },
+        {
+          "label": "Patrón ABC con Hospital",
+          "href": "tren-de-patrones-abc-hospital-fe63"
+        },
+        {
+          "label": "Patrón ABC con Miscelánea",
+          "href": "tren-de-patrones-abc-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Reptiles y Anfibios",
+          "href": "tren-de-patrones-abc-reptiles-y-anfibios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-herramientas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "tools",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Herramientas: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Herramientas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Herramientas",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Destapacaños",
+        "Brocha",
+        "Desarmador",
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Herramientas lo arma con destapacaños, brocha, desarmador repitiéndose —destapacaños, brocha, desarmador, destapacaños, brocha, desarmador…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir destapacaños, brocha, desarmador, destapacaños, brocha, desarmador… en voz alta —los tres en orden— ayuda al niño de Herramientas a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-herramientas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Juguetes",
+          "href": "tren-de-patrones-abc-juguetes-fe63"
+        },
+        {
+          "label": "Patrón ABC con Árboles",
+          "href": "tren-de-patrones-abc-arboles-fe63"
+        },
+        {
+          "label": "Patrón ABC con Clima",
+          "href": "tren-de-patrones-abc-clima-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales",
+          "href": "tren-de-patrones-abc-animales-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-hospital-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Hospital: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Hospital (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Hospital: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Muletas",
+        "Silla de ruedas",
+        "Termómetro",
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Hospital trabaja el patrón ABC: tres dibujos diferentes —muletas, silla de ruedas, termómetro— en un orden fijo que se repite. La serie muletas, silla de ruedas, termómetro, muletas, silla de ruedas, termómetro… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: muletas, después silla de ruedas, después termómetro. El niño señala cada vagón de Hospital y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "Descarga el PDF de Hospital (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-hospital-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Insectos y Bichos",
+          "href": "tren-de-patrones-abc-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Utensilios de Cocina",
+          "href": "tren-de-patrones-abc-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ocupaciones",
+          "href": "tren-de-patrones-abc-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Espacio",
+          "href": "tren-de-patrones-abc-espacio-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-insectos-y-bichos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "insects_and_bugs",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Insectos y bichos: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Insectos y bichos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Insectos y bichos",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Araña",
+        "Caracol",
+        "Mariposa",
+        "Insectos y bichos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Insectos y bichos, la fila va araña, caracol, mariposa, araña, caracol, mariposa…, repitiendo araña, caracol, mariposa sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: araña, caracol, mariposa, una y otra vez. Recorriendo araña, caracol, mariposa, araña, caracol, mariposa… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Imprime esta hoja de patrón ABC con Insectos y bichos o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-insectos-y-bichos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Utensilios de Cocina",
+          "href": "tren-de-patrones-abc-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Miscelánea",
+          "href": "tren-de-patrones-abc-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vida Marina",
+          "href": "tren-de-patrones-abc-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Primavera",
+          "href": "tren-de-patrones-abc-primavera-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-invierno-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Invierno: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Invierno (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Invierno",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Snowboard",
+        "Iglú",
+        "Gorro",
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de snowboard, iglú, gorro? Eso es un patrón ABC, y esta hoja de Invierno lo plantea con snowboard, iglú, gorro, snowboard, iglú, gorro… El niño aprende que ningún dibujo se repite dentro del grupo: primero snowboard, luego iglú, luego gorro, y otra vez.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Invierno, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "El patrón ABC de Invierno está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-invierno-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Animales del Zoológico",
+          "href": "tren-de-patrones-abc-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón ABC con 4 de Julio",
+          "href": "tren-de-patrones-abc-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales",
+          "href": "tren-de-patrones-abc-animales-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-2-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-juguetes-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Juguetes: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Juguetes (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Juguetes: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Barco",
+        "Cohete",
+        "Cubeta",
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: barco, cohete, cubeta, y vuelta a empezar. En esta hoja de Juguetes, barco, cohete, cubeta, barco, cohete, cubeta… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: barco, cohete, cubeta. Con Juguetes en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-juguetes-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Árboles",
+          "href": "tren-de-patrones-abc-arboles-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verduras",
+          "href": "tren-de-patrones-abc-verduras-fe63"
+        },
+        {
+          "label": "Patrón ABC con Invierno",
+          "href": "tren-de-patrones-abc-invierno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Alrededor de la Casa",
+          "href": "tren-de-patrones-abc-alrededor-de-la-casa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-mascotas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Mascotas: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Mascotas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Mascotas",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Jerbo",
+        "Lagartija",
+        "Cacatúa ninfa",
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —jerbo, lagartija, cacatúa ninfa— se turnan en orden, formando un patrón ABC. La hoja de Mascotas muestra jerbo, lagartija, cacatúa ninfa, jerbo, lagartija, cacatúa ninfa… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir jerbo, lagartija, cacatúa ninfa, jerbo, lagartija, cacatúa ninfa… en voz alta —los tres en orden— ayuda al niño de Mascotas a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "Descarga el PDF de Mascotas (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-mascotas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Oficina de Correos",
+          "href": "tren-de-patrones-abc-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Reptiles y Anfibios",
+          "href": "tren-de-patrones-abc-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Primavera",
+          "href": "tren-de-patrones-abc-primavera-fe63"
+        },
+        {
+          "label": "Patrón ABC con Árboles",
+          "href": "tren-de-patrones-abc-arboles-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-miscelaneo-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "miscellaneous",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Misceláneo: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Misceláneo (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Misceláneo",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Espantapájaros",
+        "Piña",
+        "Otoño",
+        "Misceláneo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Misceláneo lo arma con espantapájaros, piña, otoño repitiéndose —espantapájaros, piña, otoño, espantapájaros, piña, otoño…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: espantapájaros, después piña, después otoño. El niño señala cada vagón de Misceláneo y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "Imprime esta hoja de patrón ABC con Misceláneo o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-miscelaneo-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Música",
+          "href": "tren-de-patrones-abc-musica-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ocupaciones",
+          "href": "tren-de-patrones-abc-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Oficina de Correos",
+          "href": "tren-de-patrones-abc-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Día de Acción de Gracias",
+          "href": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-muebles-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Muebles: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Muebles (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Muebles: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Silla",
+        "Tapete",
+        "Espejo",
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Muebles trabaja el patrón ABC: tres dibujos diferentes —silla, tapete, espejo— en un orden fijo que se repite. La serie silla, tapete, espejo, silla, tapete, espejo… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: silla, tapete, espejo, una y otra vez. Recorriendo silla, tapete, espejo, silla, tapete, espejo… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "El patrón ABC de Muebles está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-muebles-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Hospital",
+          "href": "tren-de-patrones-abc-hospital-fe63"
+        },
+        {
+          "label": "Patrón ABC con Insectos y Bichos",
+          "href": "tren-de-patrones-abc-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Música",
+          "href": "tren-de-patrones-abc-musica-fe63"
+        },
+        {
+          "label": "Patrón ABC con Formas",
+          "href": "tren-de-patrones-abc-formas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-musica-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "music",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Música: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Música (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Música",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Nota musical",
+        "Arpa",
+        "Trombón",
+        "Música",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Música, la fila va nota musical, arpa, trombón, nota musical, arpa, trombón…, repitiendo nota musical, arpa, trombón sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Música, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-musica-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Ocupaciones",
+          "href": "tren-de-patrones-abc-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vida Marina",
+          "href": "tren-de-patrones-abc-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Reptiles y Anfibios",
+          "href": "tren-de-patrones-abc-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Cosas que Vuelan",
+          "href": "tren-de-patrones-abc-cosas-que-vuelan-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-navidad-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Navidad: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Navidad (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Navidad",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Vela",
+        "Trineo",
+        "Santa Claus",
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de vela, trineo, Santa Claus? Eso es un patrón ABC, y esta hoja de Navidad lo plantea con vela, trineo, Santa Claus, vela, trineo, Santa Claus… El niño aprende que ningún dibujo se repite dentro del grupo: primero vela, luego trineo, luego Santa Claus, y otra vez.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: vela, trineo, Santa Claus. Con Navidad en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "Descarga el PDF de Navidad (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-navidad-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Salón de Clases",
+          "href": "tren-de-patrones-abc-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ropa",
+          "href": "tren-de-patrones-abc-ropa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Dinosaurios",
+          "href": "tren-de-patrones-abc-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Frutas",
+          "href": "tren-de-patrones-abc-frutas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-ocupaciones-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Ocupaciones: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Ocupaciones (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Ocupaciones: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Granjero",
+        "Bailarina",
+        "Atleta",
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: granjero, bailarina, atleta, y vuelta a empezar. En esta hoja de Ocupaciones, granjero, bailarina, atleta, granjero, bailarina, atleta… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir granjero, bailarina, atleta, granjero, bailarina, atleta… en voz alta —los tres en orden— ayuda al niño de Ocupaciones a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "Imprime esta hoja de patrón ABC con Ocupaciones o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-ocupaciones-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Vida Marina",
+          "href": "tren-de-patrones-abc-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón ABC con Mascotas",
+          "href": "tren-de-patrones-abc-mascotas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Formas",
+          "href": "tren-de-patrones-abc-formas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Herramientas",
+          "href": "tren-de-patrones-abc-herramientas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-oficina-de-correos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "post_office",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Oficina de correos: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Oficina de correos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Oficina de correos",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Sobre",
+        "Cartero",
+        "Paquete",
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —sobre, cartero, paquete— se turnan en orden, formando un patrón ABC. La hoja de Oficina de correos muestra sobre, cartero, paquete, sobre, cartero, paquete… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: sobre, después cartero, después paquete. El niño señala cada vagón de Oficina de correos y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "El patrón ABC de Oficina de correos está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-oficina-de-correos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Reptiles y Anfibios",
+          "href": "tren-de-patrones-abc-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Formas",
+          "href": "tren-de-patrones-abc-formas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verano",
+          "href": "tren-de-patrones-abc-verano-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verduras",
+          "href": "tren-de-patrones-abc-verduras-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-panaderia-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "bakery",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Panadería: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Panadería (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Panadería",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pastel de queso",
+        "Brownie",
+        "Galleta",
+        "Panadería",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Panadería lo arma con pastel de queso, brownie, galleta repitiéndose —pastel de queso, brownie, galleta, pastel de queso, brownie, galleta…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: pastel de queso, brownie, galleta, una y otra vez. Recorriendo pastel de queso, brownie, galleta, pastel de queso, brownie, galleta… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-panaderia-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Playa",
+          "href": "tren-de-patrones-abc-playa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-fe63"
+        },
+        {
+          "label": "Patrón ABC con Desayuno",
+          "href": "tren-de-patrones-abc-desayuno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Postres y Dulces",
+          "href": "tren-de-patrones-abc-postres-y-dulces-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-partes-del-cuerpo-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Partes del cuerpo: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Partes del cuerpo (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Partes del cuerpo: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Oreja",
+        "Talón",
+        "Boca",
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Partes del cuerpo trabaja el patrón ABC: tres dibujos diferentes —oreja, talón, boca— en un orden fijo que se repite. La serie oreja, talón, boca, oreja, talón, boca… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Partes del cuerpo, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "Descarga el PDF de Partes del cuerpo (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-partes-del-cuerpo-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Desayuno",
+          "href": "tren-de-patrones-abc-desayuno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Campamento",
+          "href": "tren-de-patrones-abc-campamento-fe63"
+        },
+        {
+          "label": "Patrón ABC con Ropa",
+          "href": "tren-de-patrones-abc-ropa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales de Granja",
+          "href": "tren-de-patrones-abc-animales-de-granja-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-pascua-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Pascua: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Pascua (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Pascua",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Conejito",
+        "Chocolate",
+        "Arcoíris",
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Pascua, la fila va conejito, chocolate, arcoíris, conejito, chocolate, arcoíris…, repitiendo conejito, chocolate, arcoíris sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: conejito, chocolate, arcoíris. Con Pascua en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "Imprime esta hoja de patrón ABC con Pascua o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-pascua-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Emociones",
+          "href": "tren-de-patrones-abc-emociones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales de Granja",
+          "href": "tren-de-patrones-abc-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón ABC con Frutas",
+          "href": "tren-de-patrones-abc-frutas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Música",
+          "href": "tren-de-patrones-abc-musica-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-playa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Playa: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Playa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Playa",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Gaviota",
+        "Delfín",
+        "Palmera",
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de gaviota, delfín, palmera? Eso es un patrón ABC, y esta hoja de Playa lo plantea con gaviota, delfín, palmera, gaviota, delfín, palmera… El niño aprende que ningún dibujo se repite dentro del grupo: primero gaviota, luego delfín, luego palmera, y otra vez.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir gaviota, delfín, palmera, gaviota, delfín, palmera… en voz alta —los tres en orden— ayuda al niño de Playa a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "El patrón ABC de Playa está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-playa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-fe63"
+        },
+        {
+          "label": "Patrón ABC con Aves",
+          "href": "tren-de-patrones-abc-aves-2-fe63"
+        },
+        {
+          "label": "Patrón ABC con Campamento",
+          "href": "tren-de-patrones-abc-campamento-fe63"
+        },
+        {
+          "label": "Patrón ABC con Dinosaurios",
+          "href": "tren-de-patrones-abc-dinosaurios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-postres-y-dulces-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Postres y dulces: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Postres y dulces (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Postres y dulces: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Rollo de canela",
+        "Pay",
+        "Galleta",
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: rollo de canela, pay, galleta, y vuelta a empezar. En esta hoja de Postres y dulces, rollo de canela, pay, galleta, rollo de canela, pay, galleta… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: rollo de canela, después pay, después galleta. El niño señala cada vagón de Postres y dulces y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-postres-y-dulces-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Dinosaurios",
+          "href": "tren-de-patrones-abc-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Pascua",
+          "href": "tren-de-patrones-abc-pascua-fe63"
+        },
+        {
+          "label": "Patrón ABC con Flores",
+          "href": "tren-de-patrones-abc-flores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Utensilios de Cocina",
+          "href": "tren-de-patrones-abc-utensilios-de-cocina-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-primavera-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "spring",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Primavera: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Primavera (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Primavera",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Nube",
+        "Patito",
+        "Rana",
+        "Primavera",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —nube, patito, rana— se turnan en orden, formando un patrón ABC. La hoja de Primavera muestra nube, patito, rana, nube, patito, rana… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: nube, patito, rana, una y otra vez. Recorriendo nube, patito, rana, nube, patito, rana… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Descarga el PDF de Primavera (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-primavera-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Verano",
+          "href": "tren-de-patrones-abc-verano-fe63"
+        },
+        {
+          "label": "Patrón ABC con Día de Acción de Gracias",
+          "href": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón ABC con Juguetes",
+          "href": "tren-de-patrones-abc-juguetes-fe63"
+        },
+        {
+          "label": "Patrón ABC con Animales del Zoológico",
+          "href": "tren-de-patrones-abc-animales-del-zoologico-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-reptiles-y-anfibios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "reptiles_and_amphibians",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Reptiles y anfibios: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Reptiles y anfibios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Reptiles y anfibios",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Cobra",
+        "Tortuga",
+        "Salamandra",
+        "Reptiles y anfibios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Reptiles y anfibios lo arma con cobra, tortuga, salamandra repitiéndose —cobra, tortuga, salamandra, cobra, tortuga, salamandra…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Reptiles y anfibios, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "Imprime esta hoja de patrón ABC con Reptiles y anfibios o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-reptiles-y-anfibios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Formas",
+          "href": "tren-de-patrones-abc-formas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Espacio",
+          "href": "tren-de-patrones-abc-espacio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Día de Acción de Gracias",
+          "href": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón ABC con Vehículos",
+          "href": "tren-de-patrones-abc-vehiculos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-ropa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Ropa: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Ropa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Ropa: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Camiseta",
+        "Gorro",
+        "Pantalón",
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Ropa trabaja el patrón ABC: tres dibujos diferentes —camiseta, gorro, pantalón— en un orden fijo que se repite. La serie camiseta, gorro, pantalón, camiseta, gorro, pantalón… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: camiseta, gorro, pantalón. Con Ropa en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "El patrón ABC de Ropa está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-ropa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Colores",
+          "href": "tren-de-patrones-abc-colores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Postres y Dulces",
+          "href": "tren-de-patrones-abc-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón ABC con Emociones",
+          "href": "tren-de-patrones-abc-emociones-fe63"
+        },
+        {
+          "label": "Patrón ABC con Hospital",
+          "href": "tren-de-patrones-abc-hospital-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-salon-de-clases-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Salón de clases: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Salón de clases (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Salón de clases",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Calculadora",
+        "Cinta adhesiva",
+        "Lápiz",
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con Salón de clases, la fila va calculadora, cinta adhesiva, lápiz, calculadora, cinta adhesiva, lápiz…, repitiendo calculadora, cinta adhesiva, lápiz sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir calculadora, cinta adhesiva, lápiz, calculadora, cinta adhesiva, lápiz… en voz alta —los tres en orden— ayuda al niño de Salón de clases a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-salon-de-clases-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Ropa",
+          "href": "tren-de-patrones-abc-ropa-fe63"
+        },
+        {
+          "label": "Patrón ABC con Colores",
+          "href": "tren-de-patrones-abc-colores-fe63"
+        },
+        {
+          "label": "Patrón ABC con Pascua",
+          "href": "tren-de-patrones-abc-pascua-fe63"
+        },
+        {
+          "label": "Patrón ABC con Muebles",
+          "href": "tren-de-patrones-abc-muebles-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-utensilios-de-cocina-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Utensilios de cocina: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Utensilios de cocina (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Utensilios de cocina",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Rodillo",
+        "Plato",
+        "Bandeja para hornear",
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de rodillo, plato, bandeja para hornear? Eso es un patrón ABC, y esta hoja de Utensilios de cocina lo plantea con rodillo, plato, bandeja para hornear, rodillo, plato, bandeja para hornear… El niño aprende que ningún dibujo se repite dentro del grupo: primero rodillo, luego plato, luego bandeja para hornear, y otra vez.",
+      "p2": "Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: rodillo, después plato, después bandeja para hornear. El niño señala cada vagón de Utensilios de cocina y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.",
+      "p3": "Descarga el PDF de Utensilios de cocina (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-utensilios-de-cocina-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Miscelánea",
+          "href": "tren-de-patrones-abc-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón ABC con Música",
+          "href": "tren-de-patrones-abc-musica-fe63"
+        },
+        {
+          "label": "Patrón ABC con Mascotas",
+          "href": "tren-de-patrones-abc-mascotas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Verano",
+          "href": "tren-de-patrones-abc-verano-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-vehiculos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Vehículos: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Vehículos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Vehículos: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Grúa",
+        "Motocicleta",
+        "Tren",
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón ABC es un ritmo de tres sin repeticiones: grúa, motocicleta, tren, y vuelta a empezar. En esta hoja de Vehículos, grúa, motocicleta, tren, grúa, motocicleta, tren… se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.",
+      "p2": "Para seguir el ABC hay que recordar la fila completa: grúa, motocicleta, tren, una y otra vez. Recorriendo grúa, motocicleta, tren, grúa, motocicleta, tren… con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.",
+      "p3": "Imprime esta hoja de patrón ABC con Vehículos o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-vehiculos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Clima",
+          "href": "tren-de-patrones-abc-clima-fe63"
+        },
+        {
+          "label": "Patrón ABC con Invierno",
+          "href": "tren-de-patrones-abc-invierno-fe63"
+        },
+        {
+          "label": "Patrón ABC con Accesorios",
+          "href": "tren-de-patrones-abc-accesorios-fe63"
+        },
+        {
+          "label": "Patrón ABC con Playa",
+          "href": "tren-de-patrones-abc-playa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-verano-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Verano: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Verano (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón ABC de Verano",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Natación",
+        "Sombrero de sol",
+        "Parrilla",
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tres dibujos —natación, sombrero de sol, parrilla— se turnan en orden, formando un patrón ABC. La hoja de Verano muestra natación, sombrero de sol, parrilla, natación, sombrero de sol, parrilla… y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.",
+      "p2": "El ABC se completa recordando el orden. El niño mira la fila de Verano, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.",
+      "p3": "El patrón ABC de Verano está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-verano-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Día de Acción de Gracias",
+          "href": "tren-de-patrones-abc-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón ABC con Cosas que Vuelan",
+          "href": "tren-de-patrones-abc-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón ABC con Árboles",
+          "href": "tren-de-patrones-abc-arboles-fe63"
+        },
+        {
+          "label": "Patrón ABC con 4 de Julio",
+          "href": "tren-de-patrones-abc-4-de-julio-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-verduras-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Verduras: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Verduras (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón ABC con Verduras",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Papa",
+        "Calabaza",
+        "Coliflor",
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de Verduras lo arma con papa, calabaza, coliflor repitiéndose —papa, calabaza, coliflor, papa, calabaza, coliflor…— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.",
+      "p2": "Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: papa, calabaza, coliflor. Con Verduras en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.",
+      "p3": "La hoja del patrón ABC se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-verduras-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Vehículos",
+          "href": "tren-de-patrones-abc-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Clima",
+          "href": "tren-de-patrones-abc-clima-fe63"
+        },
+        {
+          "label": "Patrón ABC con 4 de Julio",
+          "href": "tren-de-patrones-abc-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Panadería",
+          "href": "tren-de-patrones-abc-panaderia-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-abc-vida-marina-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "abc",
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "Patrón ABC con Vida marina: ¿Qué Sigue?",
+      "metaDescription": "Patrón ABC con Vida marina (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón ABC con Vida marina: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Ostra",
+        "Caballito de mar",
+        "Pez payaso",
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Vida marina trabaja el patrón ABC: tres dibujos diferentes —ostra, caballito de mar, pez payaso— en un orden fijo que se repite. La serie ostra, caballito de mar, pez payaso, ostra, caballito de mar, pez payaso… avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.",
+      "p2": "A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir ostra, caballito de mar, pez payaso, ostra, caballito de mar, pez payaso… en voz alta —los tres en orden— ayuda al niño de Vida marina a no perder el trío y a completar el hueco con seguridad.",
+      "p3": "Descarga el PDF de Vida marina (patrón ABC) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-abc-vida-marina-fe63",
+      "carousel": [
+        {
+          "label": "Patrón ABC con Mascotas",
+          "href": "tren-de-patrones-abc-mascotas-fe63"
+        },
+        {
+          "label": "Patrón ABC con Oficina de Correos",
+          "href": "tren-de-patrones-abc-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón ABC con Espacio",
+          "href": "tren-de-patrones-abc-espacio-fe63"
+        },
+        {
+          "label": "Patrón ABC con Juguetes",
+          "href": "tren-de-patrones-abc-juguetes-fe63"
+        }
+      ]
+    },
+    {
       "slug": "tren-de-patrones-aabb-4-de-julio-fe63",
       "variantShape": "singleton",
       "coordinate": {

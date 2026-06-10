@@ -78,7 +78,7 @@ const rawFacts = facts[key];
 if (!rawFacts) { console.error('no facts for ' + key); process.exit(1); }
 // dedupe to one landing per theme (first slug; skip null/ERR themes)
 const seen = new Set(); const list = [];
-for (const f of rawFacts) { if (!f.theme || /^ERR:/.test(f.theme) || seen.has(f.theme)) continue; seen.add(f.theme); list.push(f); }
+for (const f of rawFacts) { if (!f.theme || /^ERR:|^UNMAPPED/.test(f.theme) || seen.has(f.theme)) continue; seen.add(f.theme); list.push(f); }
 list.sort((a, b) => a.theme < b.theme ? -1 : 1);
 const S = cfg.SKEL.length, P = cfg.P2.length, cells = S * P;
 console.log(`${key}: ${rawFacts.length} decks → ${list.length} themes | cells ${S}x${P}=${cells} ` + (cells > list.length ? '[OK]' : '[INVARIANT WARN cells<themes]'));
@@ -88,22 +88,28 @@ const entries = list.map((f, i) => {
   const c = cellAssign(i, S, P);
   let meta = cfg.meta(T); if (meta.length > 170) meta = cfg.metaAlt(T);
   if (meta.length > 170) meta = meta.slice(0, 168).replace(/\s+\S*$/, '') + '.'; // long-theme catch-all ≤170
-  return {
+  // CARRIES (literacy): cfg.standard (CCSS machine anchor) + cfg.level (primer/segundo) + cfg.gradeLabel.
+  // Readiness default: no standard, preescolar. Render route emits educationalAlignment + framework chip iff `standard`.
+  const level = cfg.level || 'preescolar';
+  const gradeLabel = cfg.gradeLabel || 'Preescolar (5 años)';
+  const entry = {
     slug: f.slug,
     variantShape: 'singleton',
-    coordinate: { type: TYPE, mode: (MODEARG === 'null' ? null : MODEARG), theme: f.theme, level: 'preescolar' },
+    coordinate: { type: TYPE, mode: (MODEARG === 'null' ? null : MODEARG), theme: f.theme, level },
     title: cfg.title(T),
     metaDescription: meta,
     eyebrow: cfg.eyebrow,
     h1: cfg.h1(T, i),
     strand: cfg.strand,
-    slotTokens: [T, 'Preescolar (5 años)'],
+    slotTokens: [T, gradeLabel],
     p1: cfg.SKEL[c.skel].replace(/\{TEMA\}/g, T),
     p2: cfg.P2[c.p2].replace(/\{TEMA\}/g, T),
     p3: cfg.P3(T),
     canonicalDeckSlug: f.slug,
     carousel: [1, 2, 5, 11].map((off) => { const n = list[(i + off) % list.length]; return { label: cfg.carousel(themeDisplay(n.theme)), href: n.slug }; }),
   };
+  if (cfg.standard) entry.standard = cfg.standard;
+  return entry;
 });
 console.log('built', entries.length, '| sample', entries[0].slug, '|', entries[0].title);
 

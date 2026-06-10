@@ -51,8 +51,8 @@ for (const k in groups) {
   const list = groups[k];
   const len = list.length;
   const type = list[0].coordinate.type;
-  const prefix = type === 'addition' ? 'Sumas con ' : type === 'subtraction' ? 'Resta con ' : type === 'math-puzzle' ? 'Rompecabezas con ' : null;
-  if (!prefix) continue; // addition / subtraction / math-puzzle in es so far
+  const prefix = type === 'addition' ? 'Sumas con ' : type === 'subtraction' ? 'Resta con ' : type === 'math-puzzle' ? 'Rompecabezas con ' : type === 'chart-count' ? 'Contar ' : null;
+  if (!prefix) continue; // addition / subtraction / math-puzzle / chart-count in es so far
   // math-puzzle spans two grade bands (Segundo hasta 100 / Primer hasta 20); the band suffix
   // disambiguates a same-theme cross-band sibling once both bands are live (Segundo-only until Primer lands).
   const bandSuffix = (n) => type !== 'math-puzzle' ? '' : n.coordinate.level === 'segundo-grado' ? ' (hasta 100)' : n.coordinate.level === 'primer-grado' ? ' (hasta 20)' : '';
@@ -83,7 +83,7 @@ for (const l of es.landings) {
     const t = bySlug.get(c.href);
     if (!t) { console.log('DANGLING', l.slug, '->', c.href); bad++; continue; }
     if (t.coordinate.type !== l.coordinate.type || t.coordinate.mode !== l.coordinate.mode) { console.log('CROSS-MODE', l.slug, '->', c.href); bad++; }
-    const wantPrefix = l.coordinate.type === 'addition' ? 'Sumas con ' : l.coordinate.type === 'subtraction' ? 'Resta con ' : 'Rompecabezas con ';
+    const wantPrefix = l.coordinate.type === 'addition' ? 'Sumas con ' : l.coordinate.type === 'subtraction' ? 'Resta con ' : l.coordinate.type === 'chart-count' ? 'Contar ' : 'Rompecabezas con ';
     if (!c.label.startsWith(wantPrefix)) { console.log('LABEL-OP-MISMATCH', l.slug, '->', c.label); bad++; }
     if (c.href === l.slug) { console.log('SELF-LINK', l.slug); bad++; }
   }

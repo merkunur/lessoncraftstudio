@@ -2,6 +2,1605 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "bingo-accesorios-4f99",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Accesorios: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Accesorios (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Accesorios: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Se nombra una imagen y el niño la busca en su tablero. De eso trata esta lotería de Accesorios para preescolar. En el tablero esperan las imágenes de Accesorios, y cuando se canta una, el pequeño la encuentra entre todas y la marca con una ficha. Aquí no se cuenta nada: se escucha y se observa. Reconocer la figura nombrada entre muchas y ubicarla en su lugar es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Accesorios, jugar es fácil y cada figura marcada se siente como un pequeño logro.",
+      "p2": "En cuanto el niño descubre la figura cantada en su tablero, le pone encima una ficha: un frijolito, una piedrita o una crucecita. Así, poco a poco, las imágenes de Accesorios se van cubriendo hasta llenar el tablero. Al buscar, el pequeño entrena el ubicar una figura con la vista y reconocerla en su lugar. Es observar con atención, jugando, sin contar y sin números.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-accesorios-4f99",
+      "carousel": [
+        {
+          "label": "Lotería con Actividades",
+          "href": "bingo-actividades-98be"
+        },
+        {
+          "label": "Lotería con Animales",
+          "href": "bingo-animales"
+        },
+        {
+          "label": "Lotería con Panadería",
+          "href": "bingo-panaderia-3c41"
+        },
+        {
+          "label": "Lotería con Navidad",
+          "href": "bingo-navidad-89d6"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-actividades-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Actividades: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Actividades (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Actividades: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Para un niño de preescolar, observar y ubicar es un pequeño gran logro, y esta lotería de Actividades lo convierte en juego. El pequeño escucha qué figura toca, pasea la mirada por las imágenes de Actividades de su tablero y marca la correcta. Ese ubicar con la vista es una destreza precursora que después ayuda al leer. Aquí el niño practica sin números, sin contar y sin presión por el resultado, simplemente porque la lotería da gusto. Déjalo buscar con calma y alegrarse con cada figura cantada. El tablero gratis con Actividades está listo para imprimir y para la pantalla.",
+      "p2": "La lotería de Actividades nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Actividades, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-actividades-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Animales",
+          "href": "bingo-animales"
+        },
+        {
+          "label": "Lotería con Alrededor de la casa",
+          "href": "bingo-alrededor-de-la-casa-98be"
+        },
+        {
+          "label": "Lotería con Playa",
+          "href": "bingo-playa-09d5"
+        },
+        {
+          "label": "Lotería con Salón de clases",
+          "href": "bingo-salon-de-clases-6032"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-animales",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "animals",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Animales: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Animales (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Animales: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Antes de leer letras, el niño aprende a observar con cuidado y a relacionar lo que escucha con la imagen correcta. Esta lotería de Animales entrena justo eso: se nombra una figura, el pequeño la encuentra entre las imágenes de Animales de su tablero y la marca. Reconocer un dibujo nombrado y ubicarlo en el tablero es una verdadera destreza precursora, y aquí se siente como diversión. Sin contar, sin números y sin calificaciones. Deja que el niño busque a su propio ritmo; el tablero con Animales está gratis para imprimir o jugar en pantalla.",
+      "p2": "La lotería también pone en movimiento el vocabulario: al jugar se nombran las Animales, y el niño une la palabra escuchada con el dibujo correcto. Relacionar palabra e imagen es una linda práctica de lenguaje y, a la vez, de ubicación visual. Todo de pasada y en pleno juego, sin números, sin contar y sin presión, solo mirando, escuchando y hablando.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Animales, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-animales",
+      "carousel": [
+        {
+          "label": "Lotería con Alrededor de la casa",
+          "href": "bingo-alrededor-de-la-casa-98be"
+        },
+        {
+          "label": "Lotería con En el supermercado",
+          "href": "bingo-en-el-supermercado-98be"
+        },
+        {
+          "label": "Lotería con Aves 2",
+          "href": "bingo-aves-2-58fc"
+        },
+        {
+          "label": "Lotería con Ropa",
+          "href": "bingo-ropa-1a48"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-alrededor-de-la-casa-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Alrededor de la casa: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Alrededor de la casa (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Alrededor de la casa: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Listos para una ronda de lotería? Así va: se canta una figura, el niño la reconoce en su tablero de Alrededor de la casa y coloca su ficha. Encontrar la imagen correcta entre tantas Alrededor de la casa ejercita el escuchar, mirar y ubicar, una destreza precursora importante antes de la lectura. Y como la lotería es un juego, no se siente nada como tarea: sin números, sin contar, sin puntos y sin apuro. Solo el pequeño, su tablero y el gusto de encontrar. Llévate el tablero gratis con Alrededor de la casa, para imprimir o para jugar en pantalla.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Alrededor de la casa mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Alrededor de la casa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-alrededor-de-la-casa-98be",
+      "carousel": [
+        {
+          "label": "Lotería con En el supermercado",
+          "href": "bingo-en-el-supermercado-98be"
+        },
+        {
+          "label": "Lotería con Panadería",
+          "href": "bingo-panaderia-3c41"
+        },
+        {
+          "label": "Lotería con Partes del cuerpo",
+          "href": "bingo-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Lotería con Colores",
+          "href": "bingo-colores-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-en-el-supermercado-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con En el supermercado: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con En el supermercado (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de En el supermercado: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "La lotería se disfruta mejor juntos: tú cantas una imagen, el niño la busca en su tablero de En el supermercado y pone una ficha encima. Encontrar la figura nombrada entre tantas imágenes de En el supermercado ejercita el escuchar, mirar y ubicar, una habilidad valiosísima para la escuela. Y lo mejor de todo: no se siente como practicar. Sin números, sin contar, sin puntos ni reloj, solo ustedes dos y el alegre \"¡Ya la encontré!\". Elige el tablero con En el supermercado, imprímelo o jueguen directamente en línea, a su propio ritmo.",
+      "p2": "La lotería de En el supermercado nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de En el supermercado, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-en-el-supermercado-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Panadería",
+          "href": "bingo-panaderia-3c41"
+        },
+        {
+          "label": "Lotería con Playa",
+          "href": "bingo-playa-09d5"
+        },
+        {
+          "label": "Lotería con Desayuno",
+          "href": "bingo-desayuno-680f"
+        },
+        {
+          "label": "Lotería con Postres y dulces",
+          "href": "bingo-postres-y-dulces-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-panaderia-3c41",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "bakery",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Panadería: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Panadería (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Panadería: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Panadería",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar, mirar y marcar: así se juega esta lotería de Panadería. Se canta el nombre de una figura y el niño la reconoce entre las imágenes de Panadería de su tablero. Localizar el dibujo correcto y cubrirlo con una ficha entrena el observar con atención, una habilidad que más adelante facilita la lectura. Y lo mejor: no se siente como tarea, porque la lotería es puro juego. Sin números, sin contar y sin puntos, solo el pequeño, su tablero y la alegría de gritar \"¡Aquí está!\". Tú solo necesitas el tablero con Panadería y unas fichas para marcar.",
+      "p2": "La lotería también pone en movimiento el vocabulario: al jugar se nombran las Panadería, y el niño une la palabra escuchada con el dibujo correcto. Relacionar palabra e imagen es una linda práctica de lenguaje y, a la vez, de ubicación visual. Todo de pasada y en pleno juego, sin números, sin contar y sin presión, solo mirando, escuchando y hablando.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Panadería, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-panaderia-3c41",
+      "carousel": [
+        {
+          "label": "Lotería con Playa",
+          "href": "bingo-playa-09d5"
+        },
+        {
+          "label": "Lotería con Aves 2",
+          "href": "bingo-aves-2-58fc"
+        },
+        {
+          "label": "Lotería con Campamento",
+          "href": "bingo-campamento-98be"
+        },
+        {
+          "label": "Lotería con Pascua",
+          "href": "bingo-pascua-49e8"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-playa-09d5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Playa: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Playa (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Playa: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar una imagen, mirar un momento, buscar y marcar: la lotería de Playa ejercita de paso la concentración y el observar con atención. El niño busca la figura cantada entre las imágenes de Playa de su tablero y la ubica en su lugar. Esa percepción visual es una destreza precursora para la escuela, pero en el juego el pequeño no lo nota, solo se divierte descubriendo. Sin números, sin contar, sin reloj y sin puntos. Cada figura marcada es un pequeño triunfo. Imprime el tablero con Playa y jueguen las veces que quieran.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Playa mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Playa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-playa-09d5",
+      "carousel": [
+        {
+          "label": "Lotería con Aves 2",
+          "href": "bingo-aves-2-58fc"
+        },
+        {
+          "label": "Lotería con Partes del cuerpo",
+          "href": "bingo-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Lotería con Navidad",
+          "href": "bingo-navidad-89d6"
+        },
+        {
+          "label": "Lotería con Animales de granja",
+          "href": "bingo-animales-de-granja-646b"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-aves-2-58fc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Aves 2: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Aves 2 (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Aves 2: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Aves 2",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Los dibujos conocidos hacen fácil el reconocer, y en eso se apoya esta lotería de Aves 2. El niño conoce las imágenes de Aves 2 de su tablero, escucha la figura cantada y la ubica sin dudar. Al buscar y marcar entrena la percepción visual: reconocer una imagen entre varias parecidas y encontrarla en su lugar. Esa destreza precursora lo acompaña después hasta el aprendizaje de la lectura. En el juego solo cuenta la alegría de descubrir, no contar, sin números, sin reloj y sin carrera. Imprime el tablero con Aves 2 y pónganse cómodos a jugar.",
+      "p2": "La lotería de Aves 2 nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Aves 2, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-aves-2-58fc",
+      "carousel": [
+        {
+          "label": "Lotería con Partes del cuerpo",
+          "href": "bingo-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Lotería con Desayuno",
+          "href": "bingo-desayuno-680f"
+        },
+        {
+          "label": "Lotería con Salón de clases",
+          "href": "bingo-salon-de-clases-6032"
+        },
+        {
+          "label": "Lotería con Flores",
+          "href": "bingo-flores-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-partes-del-cuerpo-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Partes del cuerpo: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Partes del cuerpo (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Partes del cuerpo: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Se nombra una imagen y el niño la busca en su tablero. De eso trata esta lotería de Partes del cuerpo para preescolar. En el tablero esperan las imágenes de Partes del cuerpo, y cuando se canta una, el pequeño la encuentra entre todas y la marca con una ficha. Aquí no se cuenta nada: se escucha y se observa. Reconocer la figura nombrada entre muchas y ubicarla en su lugar es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Partes del cuerpo, jugar es fácil y cada figura marcada se siente como un pequeño logro.",
+      "p2": "La lotería también pone en movimiento el vocabulario: al jugar se nombran las Partes del cuerpo, y el niño une la palabra escuchada con el dibujo correcto. Relacionar palabra e imagen es una linda práctica de lenguaje y, a la vez, de ubicación visual. Todo de pasada y en pleno juego, sin números, sin contar y sin presión, solo mirando, escuchando y hablando.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Partes del cuerpo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-partes-del-cuerpo-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Desayuno",
+          "href": "bingo-desayuno-680f"
+        },
+        {
+          "label": "Lotería con Campamento",
+          "href": "bingo-campamento-98be"
+        },
+        {
+          "label": "Lotería con Ropa",
+          "href": "bingo-ropa-1a48"
+        },
+        {
+          "label": "Lotería con Criaturas del bosque",
+          "href": "bingo-criaturas-del-bosque-40d8"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-desayuno-680f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Desayuno: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Desayuno (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Desayuno: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Para un niño de preescolar, observar y ubicar es un pequeño gran logro, y esta lotería de Desayuno lo convierte en juego. El pequeño escucha qué figura toca, pasea la mirada por las imágenes de Desayuno de su tablero y marca la correcta. Ese ubicar con la vista es una destreza precursora que después ayuda al leer. Aquí el niño practica sin números, sin contar y sin presión por el resultado, simplemente porque la lotería da gusto. Déjalo buscar con calma y alegrarse con cada figura cantada. El tablero gratis con Desayuno está listo para imprimir y para la pantalla.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Desayuno mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Desayuno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-desayuno-680f",
+      "carousel": [
+        {
+          "label": "Lotería con Campamento",
+          "href": "bingo-campamento-98be"
+        },
+        {
+          "label": "Lotería con Navidad",
+          "href": "bingo-navidad-89d6"
+        },
+        {
+          "label": "Lotería con Colores",
+          "href": "bingo-colores-98be"
+        },
+        {
+          "label": "Lotería con Frutas",
+          "href": "bingo-frutas-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-campamento-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Campamento: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Campamento (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Campamento: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Antes de leer letras, el niño aprende a observar con cuidado y a relacionar lo que escucha con la imagen correcta. Esta lotería de Campamento entrena justo eso: se nombra una figura, el pequeño la encuentra entre las imágenes de Campamento de su tablero y la marca. Reconocer un dibujo nombrado y ubicarlo en el tablero es una verdadera destreza precursora, y aquí se siente como diversión. Sin contar, sin números y sin calificaciones. Deja que el niño busque a su propio ritmo; el tablero con Campamento está gratis para imprimir o jugar en pantalla.",
+      "p2": "La lotería de Campamento nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Campamento, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-campamento-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Navidad",
+          "href": "bingo-navidad-89d6"
+        },
+        {
+          "label": "Lotería con Salón de clases",
+          "href": "bingo-salon-de-clases-6032"
+        },
+        {
+          "label": "Lotería con Postres y dulces",
+          "href": "bingo-postres-y-dulces-98be"
+        },
+        {
+          "label": "Lotería con Muebles",
+          "href": "bingo-muebles-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-navidad-89d6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Navidad: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Navidad (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Navidad: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Listos para una ronda de lotería? Así va: se canta una figura, el niño la reconoce en su tablero de Navidad y coloca su ficha. Encontrar la imagen correcta entre tantas Navidad ejercita el escuchar, mirar y ubicar, una destreza precursora importante antes de la lectura. Y como la lotería es un juego, no se siente nada como tarea: sin números, sin contar, sin puntos y sin apuro. Solo el pequeño, su tablero y el gusto de encontrar. Llévate el tablero gratis con Navidad, para imprimir o para jugar en pantalla.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Navidad la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Navidad, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-navidad-89d6",
+      "carousel": [
+        {
+          "label": "Lotería con Salón de clases",
+          "href": "bingo-salon-de-clases-6032"
+        },
+        {
+          "label": "Lotería con Ropa",
+          "href": "bingo-ropa-1a48"
+        },
+        {
+          "label": "Lotería con Pascua",
+          "href": "bingo-pascua-49e8"
+        },
+        {
+          "label": "Lotería con Hospital",
+          "href": "bingo-hospital-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-salon-de-clases-6032",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Salón de clases: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Salón de clases (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Salón de clases: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "La lotería se disfruta mejor juntos: tú cantas una imagen, el niño la busca en su tablero de Salón de clases y pone una ficha encima. Encontrar la figura nombrada entre tantas imágenes de Salón de clases ejercita el escuchar, mirar y ubicar, una habilidad valiosísima para la escuela. Y lo mejor de todo: no se siente como practicar. Sin números, sin contar, sin puntos ni reloj, solo ustedes dos y el alegre \"¡Ya la encontré!\". Elige el tablero con Salón de clases, imprímelo o jueguen directamente en línea, a su propio ritmo.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Salón de clases mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Salón de clases, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-salon-de-clases-6032",
+      "carousel": [
+        {
+          "label": "Lotería con Ropa",
+          "href": "bingo-ropa-1a48"
+        },
+        {
+          "label": "Lotería con Colores",
+          "href": "bingo-colores-98be"
+        },
+        {
+          "label": "Lotería con Animales de granja",
+          "href": "bingo-animales-de-granja-646b"
+        },
+        {
+          "label": "Lotería con Utensilios de cocina",
+          "href": "bingo-utensilios-de-cocina-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-ropa-1a48",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Ropa: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Ropa (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Ropa: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar, mirar y marcar: así se juega esta lotería de Ropa. Se canta el nombre de una figura y el niño la reconoce entre las imágenes de Ropa de su tablero. Localizar el dibujo correcto y cubrirlo con una ficha entrena el observar con atención, una habilidad que más adelante facilita la lectura. Y lo mejor: no se siente como tarea, porque la lotería es puro juego. Sin números, sin contar y sin puntos, solo el pequeño, su tablero y la alegría de gritar \"¡Aquí está!\". Tú solo necesitas el tablero con Ropa y unas fichas para marcar.",
+      "p2": "La lotería de Ropa nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Ropa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-ropa-1a48",
+      "carousel": [
+        {
+          "label": "Lotería con Colores",
+          "href": "bingo-colores-98be"
+        },
+        {
+          "label": "Lotería con Postres y dulces",
+          "href": "bingo-postres-y-dulces-98be"
+        },
+        {
+          "label": "Lotería con Flores",
+          "href": "bingo-flores-98be"
+        },
+        {
+          "label": "Lotería con Ocupaciones",
+          "href": "bingo-ocupaciones-6b78"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-colores-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "colors",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Colores: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Colores (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Colores: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Colores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar una imagen, mirar un momento, buscar y marcar: la lotería de Colores ejercita de paso la concentración y el observar con atención. El niño busca la figura cantada entre las imágenes de Colores de su tablero y la ubica en su lugar. Esa percepción visual es una destreza precursora para la escuela, pero en el juego el pequeño no lo nota, solo se divierte descubriendo. Sin números, sin contar, sin reloj y sin puntos. Cada figura marcada es un pequeño triunfo. Imprime el tablero con Colores y jueguen las veces que quieran.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Colores la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Colores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-colores-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Postres y dulces",
+          "href": "bingo-postres-y-dulces-98be"
+        },
+        {
+          "label": "Lotería con Pascua",
+          "href": "bingo-pascua-49e8"
+        },
+        {
+          "label": "Lotería con Criaturas del bosque",
+          "href": "bingo-criaturas-del-bosque-40d8"
+        },
+        {
+          "label": "Lotería con Vida marina",
+          "href": "bingo-vida-marina-8045"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-postres-y-dulces-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Postres y dulces: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Postres y dulces (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Postres y dulces: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Los dibujos conocidos hacen fácil el reconocer, y en eso se apoya esta lotería de Postres y dulces. El niño conoce las imágenes de Postres y dulces de su tablero, escucha la figura cantada y la ubica sin dudar. Al buscar y marcar entrena la percepción visual: reconocer una imagen entre varias parecidas y encontrarla en su lugar. Esa destreza precursora lo acompaña después hasta el aprendizaje de la lectura. En el juego solo cuenta la alegría de descubrir, no contar, sin números, sin reloj y sin carrera. Imprime el tablero con Postres y dulces y pónganse cómodos a jugar.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Postres y dulces mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Postres y dulces, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-postres-y-dulces-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Pascua",
+          "href": "bingo-pascua-49e8"
+        },
+        {
+          "label": "Lotería con Animales de granja",
+          "href": "bingo-animales-de-granja-646b"
+        },
+        {
+          "label": "Lotería con Frutas",
+          "href": "bingo-frutas-98be"
+        },
+        {
+          "label": "Lotería con Mascotas",
+          "href": "bingo-mascotas-63b2"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-pascua-49e8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Pascua: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Pascua (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Pascua: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Se nombra una imagen y el niño la busca en su tablero. De eso trata esta lotería de Pascua para preescolar. En el tablero esperan las imágenes de Pascua, y cuando se canta una, el pequeño la encuentra entre todas y la marca con una ficha. Aquí no se cuenta nada: se escucha y se observa. Reconocer la figura nombrada entre muchas y ubicarla en su lugar es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Pascua, jugar es fácil y cada figura marcada se siente como un pequeño logro.",
+      "p2": "La lotería de Pascua nunca aburre: revuelve los tableros, cambien lugares, y las imágenes aparecen en sitios nuevos. Cada ronda ejercita otra vez el escuchar, mirar y ubicar, sin que se sienta como repetir. El niño se mantiene curioso, esperando qué figura toca después. Todo de juego, sin números, sin contar y sin carrera.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Pascua, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-pascua-49e8",
+      "carousel": [
+        {
+          "label": "Lotería con Animales de granja",
+          "href": "bingo-animales-de-granja-646b"
+        },
+        {
+          "label": "Lotería con Flores",
+          "href": "bingo-flores-98be"
+        },
+        {
+          "label": "Lotería con Muebles",
+          "href": "bingo-muebles-98be"
+        },
+        {
+          "label": "Lotería con Formas",
+          "href": "bingo-formas-3ede"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-animales-de-granja-646b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Animales de granja: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Animales de granja (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Animales de granja: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Para un niño de preescolar, observar y ubicar es un pequeño gran logro, y esta lotería de Animales de granja lo convierte en juego. El pequeño escucha qué figura toca, pasea la mirada por las imágenes de Animales de granja de su tablero y marca la correcta. Ese ubicar con la vista es una destreza precursora que después ayuda al leer. Aquí el niño practica sin números, sin contar y sin presión por el resultado, simplemente porque la lotería da gusto. Déjalo buscar con calma y alegrarse con cada figura cantada. El tablero gratis con Animales de granja está listo para imprimir y para la pantalla.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Animales de granja la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Animales de granja, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-animales-de-granja-646b",
+      "carousel": [
+        {
+          "label": "Lotería con Flores",
+          "href": "bingo-flores-98be"
+        },
+        {
+          "label": "Lotería con Criaturas del bosque",
+          "href": "bingo-criaturas-del-bosque-40d8"
+        },
+        {
+          "label": "Lotería con Hospital",
+          "href": "bingo-hospital-98be"
+        },
+        {
+          "label": "Lotería con Espacio",
+          "href": "bingo-espacio-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-flores-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Flores: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Flores (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Flores: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Antes de leer letras, el niño aprende a observar con cuidado y a relacionar lo que escucha con la imagen correcta. Esta lotería de Flores entrena justo eso: se nombra una figura, el pequeño la encuentra entre las imágenes de Flores de su tablero y la marca. Reconocer un dibujo nombrado y ubicarlo en el tablero es una verdadera destreza precursora, y aquí se siente como diversión. Sin contar, sin números y sin calificaciones. Deja que el niño busque a su propio ritmo; el tablero con Flores está gratis para imprimir o jugar en pantalla.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Flores mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Flores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-flores-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Criaturas del bosque",
+          "href": "bingo-criaturas-del-bosque-40d8"
+        },
+        {
+          "label": "Lotería con Frutas",
+          "href": "bingo-frutas-98be"
+        },
+        {
+          "label": "Lotería con Utensilios de cocina",
+          "href": "bingo-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Lotería con Primavera",
+          "href": "bingo-primavera-69f3"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-criaturas-del-bosque-40d8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Criaturas del bosque: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Criaturas del bosque (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Criaturas del bosque: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Criaturas del bosque",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Listos para una ronda de lotería? Así va: se canta una figura, el niño la reconoce en su tablero de Criaturas del bosque y coloca su ficha. Encontrar la imagen correcta entre tantas Criaturas del bosque ejercita el escuchar, mirar y ubicar, una destreza precursora importante antes de la lectura. Y como la lotería es un juego, no se siente nada como tarea: sin números, sin contar, sin puntos y sin apuro. Solo el pequeño, su tablero y el gusto de encontrar. Llévate el tablero gratis con Criaturas del bosque, para imprimir o para jugar en pantalla.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Criaturas del bosque y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Criaturas del bosque, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-criaturas-del-bosque-40d8",
+      "carousel": [
+        {
+          "label": "Lotería con Frutas",
+          "href": "bingo-frutas-98be"
+        },
+        {
+          "label": "Lotería con Muebles",
+          "href": "bingo-muebles-98be"
+        },
+        {
+          "label": "Lotería con Ocupaciones",
+          "href": "bingo-ocupaciones-6b78"
+        },
+        {
+          "label": "Lotería con Verano",
+          "href": "bingo-verano-319c"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-frutas-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Frutas: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Frutas (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Frutas: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "La lotería se disfruta mejor juntos: tú cantas una imagen, el niño la busca en su tablero de Frutas y pone una ficha encima. Encontrar la figura nombrada entre tantas imágenes de Frutas ejercita el escuchar, mirar y ubicar, una habilidad valiosísima para la escuela. Y lo mejor de todo: no se siente como practicar. Sin números, sin contar, sin puntos ni reloj, solo ustedes dos y el alegre \"¡Ya la encontré!\". Elige el tablero con Frutas, imprímelo o jueguen directamente en línea, a su propio ritmo.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Frutas la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Frutas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-frutas-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Muebles",
+          "href": "bingo-muebles-98be"
+        },
+        {
+          "label": "Lotería con Hospital",
+          "href": "bingo-hospital-98be"
+        },
+        {
+          "label": "Lotería con Vida marina",
+          "href": "bingo-vida-marina-8045"
+        },
+        {
+          "label": "Lotería con Cosas que vuelan",
+          "href": "bingo-cosas-que-vuelan-3368"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-muebles-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Muebles: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Muebles (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Muebles: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar, mirar y marcar: así se juega esta lotería de Muebles. Se canta el nombre de una figura y el niño la reconoce entre las imágenes de Muebles de su tablero. Localizar el dibujo correcto y cubrirlo con una ficha entrena el observar con atención, una habilidad que más adelante facilita la lectura. Y lo mejor: no se siente como tarea, porque la lotería es puro juego. Sin números, sin contar y sin puntos, solo el pequeño, su tablero y la alegría de gritar \"¡Aquí está!\". Tú solo necesitas el tablero con Muebles y unas fichas para marcar.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Muebles mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Muebles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-muebles-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Hospital",
+          "href": "bingo-hospital-98be"
+        },
+        {
+          "label": "Lotería con Utensilios de cocina",
+          "href": "bingo-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Lotería con Mascotas",
+          "href": "bingo-mascotas-63b2"
+        },
+        {
+          "label": "Lotería con Juguetes",
+          "href": "bingo-juguetes-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-hospital-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Hospital: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Hospital (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Hospital: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar una imagen, mirar un momento, buscar y marcar: la lotería de Hospital ejercita de paso la concentración y el observar con atención. El niño busca la figura cantada entre las imágenes de Hospital de su tablero y la ubica en su lugar. Esa percepción visual es una destreza precursora para la escuela, pero en el juego el pequeño no lo nota, solo se divierte descubriendo. Sin números, sin contar, sin reloj y sin puntos. Cada figura marcada es un pequeño triunfo. Imprime el tablero con Hospital y jueguen las veces que quieran.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Hospital y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Hospital, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-hospital-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Utensilios de cocina",
+          "href": "bingo-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Lotería con Ocupaciones",
+          "href": "bingo-ocupaciones-6b78"
+        },
+        {
+          "label": "Lotería con Formas",
+          "href": "bingo-formas-3ede"
+        },
+        {
+          "label": "Lotería con Árboles",
+          "href": "bingo-arboles-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-utensilios-de-cocina-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Utensilios de cocina: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Utensilios de cocina (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Utensilios de cocina: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Los dibujos conocidos hacen fácil el reconocer, y en eso se apoya esta lotería de Utensilios de cocina. El niño conoce las imágenes de Utensilios de cocina de su tablero, escucha la figura cantada y la ubica sin dudar. Al buscar y marcar entrena la percepción visual: reconocer una imagen entre varias parecidas y encontrarla en su lugar. Esa destreza precursora lo acompaña después hasta el aprendizaje de la lectura. En el juego solo cuenta la alegría de descubrir, no contar, sin números, sin reloj y sin carrera. Imprime el tablero con Utensilios de cocina y pónganse cómodos a jugar.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Utensilios de cocina la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Utensilios de cocina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-utensilios-de-cocina-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Ocupaciones",
+          "href": "bingo-ocupaciones-6b78"
+        },
+        {
+          "label": "Lotería con Vida marina",
+          "href": "bingo-vida-marina-8045"
+        },
+        {
+          "label": "Lotería con Espacio",
+          "href": "bingo-espacio-98be"
+        },
+        {
+          "label": "Lotería con Verduras",
+          "href": "bingo-verduras-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-ocupaciones-6b78",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Ocupaciones: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Ocupaciones (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Ocupaciones: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Se nombra una imagen y el niño la busca en su tablero. De eso trata esta lotería de Ocupaciones para preescolar. En el tablero esperan las imágenes de Ocupaciones, y cuando se canta una, el pequeño la encuentra entre todas y la marca con una ficha. Aquí no se cuenta nada: se escucha y se observa. Reconocer la figura nombrada entre muchas y ubicarla en su lugar es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Ocupaciones, jugar es fácil y cada figura marcada se siente como un pequeño logro.",
+      "p2": "Pueden intercambiar los papeles: a veces tú cantas las figuras y a veces el niño nombra las Ocupaciones mientras tú buscas. Así el ubicar se vuelve un juego para toda la familia, y el pequeño vive las dos partes: buscar y nombrar. Ambas fortalecen la mirada atenta y el lenguaje. Y como es lotería, todo se mantiene ligero y alegre, sin números y sin presión.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Ocupaciones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-ocupaciones-6b78",
+      "carousel": [
+        {
+          "label": "Lotería con Vida marina",
+          "href": "bingo-vida-marina-8045"
+        },
+        {
+          "label": "Lotería con Mascotas",
+          "href": "bingo-mascotas-63b2"
+        },
+        {
+          "label": "Lotería con Primavera",
+          "href": "bingo-primavera-69f3"
+        },
+        {
+          "label": "Lotería con Vehículos",
+          "href": "bingo-vehiculos-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-vida-marina-8045",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Vida marina: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Vida marina (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Vida marina: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Para un niño de preescolar, observar y ubicar es un pequeño gran logro, y esta lotería de Vida marina lo convierte en juego. El pequeño escucha qué figura toca, pasea la mirada por las imágenes de Vida marina de su tablero y marca la correcta. Ese ubicar con la vista es una destreza precursora que después ayuda al leer. Aquí el niño practica sin números, sin contar y sin presión por el resultado, simplemente porque la lotería da gusto. Déjalo buscar con calma y alegrarse con cada figura cantada. El tablero gratis con Vida marina está listo para imprimir y para la pantalla.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Vida marina y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Vida marina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-vida-marina-8045",
+      "carousel": [
+        {
+          "label": "Lotería con Mascotas",
+          "href": "bingo-mascotas-63b2"
+        },
+        {
+          "label": "Lotería con Formas",
+          "href": "bingo-formas-3ede"
+        },
+        {
+          "label": "Lotería con Verano",
+          "href": "bingo-verano-319c"
+        },
+        {
+          "label": "Lotería con Clima",
+          "href": "bingo-clima-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-mascotas-63b2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Mascotas: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Mascotas (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Mascotas: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Antes de leer letras, el niño aprende a observar con cuidado y a relacionar lo que escucha con la imagen correcta. Esta lotería de Mascotas entrena justo eso: se nombra una figura, el pequeño la encuentra entre las imágenes de Mascotas de su tablero y la marca. Reconocer un dibujo nombrado y ubicarlo en el tablero es una verdadera destreza precursora, y aquí se siente como diversión. Sin contar, sin números y sin calificaciones. Deja que el niño busque a su propio ritmo; el tablero con Mascotas está gratis para imprimir o jugar en pantalla.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Mascotas la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Mascotas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-mascotas-63b2",
+      "carousel": [
+        {
+          "label": "Lotería con Formas",
+          "href": "bingo-formas-3ede"
+        },
+        {
+          "label": "Lotería con Espacio",
+          "href": "bingo-espacio-98be"
+        },
+        {
+          "label": "Lotería con Cosas que vuelan",
+          "href": "bingo-cosas-que-vuelan-3368"
+        },
+        {
+          "label": "Lotería con Invierno",
+          "href": "bingo-invierno-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-formas-3ede",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "shapes",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Formas: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Formas (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Formas: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Listos para una ronda de lotería? Así va: se canta una figura, el niño la reconoce en su tablero de Formas y coloca su ficha. Encontrar la imagen correcta entre tantas Formas ejercita el escuchar, mirar y ubicar, una destreza precursora importante antes de la lectura. Y como la lotería es un juego, no se siente nada como tarea: sin números, sin contar, sin puntos y sin apuro. Solo el pequeño, su tablero y el gusto de encontrar. Llévate el tablero gratis con Formas, para imprimir o para jugar en pantalla.",
+      "p2": "Cada figura encontrada es un pequeño triunfo. Cuando el niño descubre la imagen cantada entre las Formas y la marca con orgullo, crece su confianza en lo que es capaz de hacer. Ese \"¡Yo la encontré!\" llega lejos, hasta la escuela, donde observar y ubicar se necesitan cada día. En la lotería no hay respuestas malas bajo presión, solo la alegría de descubrir a su propio ritmo.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Formas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-formas-3ede",
+      "carousel": [
+        {
+          "label": "Lotería con Espacio",
+          "href": "bingo-espacio-98be"
+        },
+        {
+          "label": "Lotería con Primavera",
+          "href": "bingo-primavera-69f3"
+        },
+        {
+          "label": "Lotería con Juguetes",
+          "href": "bingo-juguetes-98be"
+        },
+        {
+          "label": "Lotería con Animales del zoológico",
+          "href": "bingo-animales-del-zoologico-01cd"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-espacio-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Espacio: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Espacio (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Espacio: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "La lotería se disfruta mejor juntos: tú cantas una imagen, el niño la busca en su tablero de Espacio y pone una ficha encima. Encontrar la figura nombrada entre tantas imágenes de Espacio ejercita el escuchar, mirar y ubicar, una habilidad valiosísima para la escuela. Y lo mejor de todo: no se siente como practicar. Sin números, sin contar, sin puntos ni reloj, solo ustedes dos y el alegre \"¡Ya la encontré!\". Elige el tablero con Espacio, imprímelo o jueguen directamente en línea, a su propio ritmo.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Espacio y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Espacio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-espacio-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Primavera",
+          "href": "bingo-primavera-69f3"
+        },
+        {
+          "label": "Lotería con Verano",
+          "href": "bingo-verano-319c"
+        },
+        {
+          "label": "Lotería con Árboles",
+          "href": "bingo-arboles-98be"
+        },
+        {
+          "label": "Lotería con Accesorios",
+          "href": "bingo-accesorios-4f99"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-primavera-69f3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "spring",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Primavera: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Primavera (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Primavera: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Primavera",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar, mirar y marcar: así se juega esta lotería de Primavera. Se canta el nombre de una figura y el niño la reconoce entre las imágenes de Primavera de su tablero. Localizar el dibujo correcto y cubrirlo con una ficha entrena el observar con atención, una habilidad que más adelante facilita la lectura. Y lo mejor: no se siente como tarea, porque la lotería es puro juego. Sin números, sin contar y sin puntos, solo el pequeño, su tablero y la alegría de gritar \"¡Aquí está!\". Tú solo necesitas el tablero con Primavera y unas fichas para marcar.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Primavera la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Primavera, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-primavera-69f3",
+      "carousel": [
+        {
+          "label": "Lotería con Verano",
+          "href": "bingo-verano-319c"
+        },
+        {
+          "label": "Lotería con Cosas que vuelan",
+          "href": "bingo-cosas-que-vuelan-3368"
+        },
+        {
+          "label": "Lotería con Verduras",
+          "href": "bingo-verduras-98be"
+        },
+        {
+          "label": "Lotería con Actividades",
+          "href": "bingo-actividades-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-verano-319c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Verano: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Verano (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Verano: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar una imagen, mirar un momento, buscar y marcar: la lotería de Verano ejercita de paso la concentración y el observar con atención. El niño busca la figura cantada entre las imágenes de Verano de su tablero y la ubica en su lugar. Esa percepción visual es una destreza precursora para la escuela, pero en el juego el pequeño no lo nota, solo se divierte descubriendo. Sin números, sin contar, sin reloj y sin puntos. Cada figura marcada es un pequeño triunfo. Imprime el tablero con Verano y jueguen las veces que quieran.",
+      "p2": "Cada figura encontrada es un pequeño triunfo. Cuando el niño descubre la imagen cantada entre las Verano y la marca con orgullo, crece su confianza en lo que es capaz de hacer. Ese \"¡Yo la encontré!\" llega lejos, hasta la escuela, donde observar y ubicar se necesitan cada día. En la lotería no hay respuestas malas bajo presión, solo la alegría de descubrir a su propio ritmo.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Verano, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-verano-319c",
+      "carousel": [
+        {
+          "label": "Lotería con Cosas que vuelan",
+          "href": "bingo-cosas-que-vuelan-3368"
+        },
+        {
+          "label": "Lotería con Juguetes",
+          "href": "bingo-juguetes-98be"
+        },
+        {
+          "label": "Lotería con Vehículos",
+          "href": "bingo-vehiculos-98be"
+        },
+        {
+          "label": "Lotería con Animales",
+          "href": "bingo-animales"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-cosas-que-vuelan-3368",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Cosas que vuelan: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Cosas que vuelan (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Cosas que vuelan: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Los dibujos conocidos hacen fácil el reconocer, y en eso se apoya esta lotería de Cosas que vuelan. El niño conoce las imágenes de Cosas que vuelan de su tablero, escucha la figura cantada y la ubica sin dudar. Al buscar y marcar entrena la percepción visual: reconocer una imagen entre varias parecidas y encontrarla en su lugar. Esa destreza precursora lo acompaña después hasta el aprendizaje de la lectura. En el juego solo cuenta la alegría de descubrir, no contar, sin números, sin reloj y sin carrera. Imprime el tablero con Cosas que vuelan y pónganse cómodos a jugar.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Cosas que vuelan y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Cosas que vuelan, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-cosas-que-vuelan-3368",
+      "carousel": [
+        {
+          "label": "Lotería con Juguetes",
+          "href": "bingo-juguetes-98be"
+        },
+        {
+          "label": "Lotería con Árboles",
+          "href": "bingo-arboles-98be"
+        },
+        {
+          "label": "Lotería con Clima",
+          "href": "bingo-clima-98be"
+        },
+        {
+          "label": "Lotería con Alrededor de la casa",
+          "href": "bingo-alrededor-de-la-casa-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-juguetes-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Juguetes: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Juguetes (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Juguetes: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Se nombra una imagen y el niño la busca en su tablero. De eso trata esta lotería de Juguetes para preescolar. En el tablero esperan las imágenes de Juguetes, y cuando se canta una, el pequeño la encuentra entre todas y la marca con una ficha. Aquí no se cuenta nada: se escucha y se observa. Reconocer la figura nombrada entre muchas y ubicarla en su lugar es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Juguetes, jugar es fácil y cada figura marcada se siente como un pequeño logro.",
+      "p2": "Algunas imágenes se parecen entre sí, y eso hace más valioso el reconocer: el niño mira dos veces para encontrar entre las Juguetes la figura exactamente correcta. Esa percepción fina entrena el ojo para el detalle, una habilidad que después ayuda a distinguir letras. En la lotería sigue siendo juego: sin presión, sin reloj, solo el gusto de encontrar la imagen.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Juguetes, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-juguetes-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Árboles",
+          "href": "bingo-arboles-98be"
+        },
+        {
+          "label": "Lotería con Verduras",
+          "href": "bingo-verduras-98be"
+        },
+        {
+          "label": "Lotería con Invierno",
+          "href": "bingo-invierno-98be"
+        },
+        {
+          "label": "Lotería con En el supermercado",
+          "href": "bingo-en-el-supermercado-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-arboles-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Árboles: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Árboles (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Árboles: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Para un niño de preescolar, observar y ubicar es un pequeño gran logro, y esta lotería de Árboles lo convierte en juego. El pequeño escucha qué figura toca, pasea la mirada por las imágenes de Árboles de su tablero y marca la correcta. Ese ubicar con la vista es una destreza precursora que después ayuda al leer. Aquí el niño practica sin números, sin contar y sin presión por el resultado, simplemente porque la lotería da gusto. Déjalo buscar con calma y alegrarse con cada figura cantada. El tablero gratis con Árboles está listo para imprimir y para la pantalla.",
+      "p2": "Cada figura encontrada es un pequeño triunfo. Cuando el niño descubre la imagen cantada entre las Árboles y la marca con orgullo, crece su confianza en lo que es capaz de hacer. Ese \"¡Yo la encontré!\" llega lejos, hasta la escuela, donde observar y ubicar se necesitan cada día. En la lotería no hay respuestas malas bajo presión, solo la alegría de descubrir a su propio ritmo.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Árboles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-arboles-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Verduras",
+          "href": "bingo-verduras-98be"
+        },
+        {
+          "label": "Lotería con Vehículos",
+          "href": "bingo-vehiculos-98be"
+        },
+        {
+          "label": "Lotería con Animales del zoológico",
+          "href": "bingo-animales-del-zoologico-01cd"
+        },
+        {
+          "label": "Lotería con Panadería",
+          "href": "bingo-panaderia-3c41"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-verduras-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Verduras: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Verduras (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Verduras: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Antes de leer letras, el niño aprende a observar con cuidado y a relacionar lo que escucha con la imagen correcta. Esta lotería de Verduras entrena justo eso: se nombra una figura, el pequeño la encuentra entre las imágenes de Verduras de su tablero y la marca. Reconocer un dibujo nombrado y ubicarlo en el tablero es una verdadera destreza precursora, y aquí se siente como diversión. Sin contar, sin números y sin calificaciones. Deja que el niño busque a su propio ritmo; el tablero con Verduras está gratis para imprimir o jugar en pantalla.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Verduras y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Verduras, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-verduras-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Vehículos",
+          "href": "bingo-vehiculos-98be"
+        },
+        {
+          "label": "Lotería con Clima",
+          "href": "bingo-clima-98be"
+        },
+        {
+          "label": "Lotería con Accesorios",
+          "href": "bingo-accesorios-4f99"
+        },
+        {
+          "label": "Lotería con Playa",
+          "href": "bingo-playa-09d5"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-vehiculos-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Vehículos: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Vehículos (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Vehículos: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Listos para una ronda de lotería? Así va: se canta una figura, el niño la reconoce en su tablero de Vehículos y coloca su ficha. Encontrar la imagen correcta entre tantas Vehículos ejercita el escuchar, mirar y ubicar, una destreza precursora importante antes de la lectura. Y como la lotería es un juego, no se siente nada como tarea: sin números, sin contar, sin puntos y sin apuro. Solo el pequeño, su tablero y el gusto de encontrar. Llévate el tablero gratis con Vehículos, para imprimir o para jugar en pantalla.",
+      "p2": "En cuanto el niño descubre la figura cantada en su tablero, le pone encima una ficha: un frijolito, una piedrita o una crucecita. Así, poco a poco, las imágenes de Vehículos se van cubriendo hasta llenar el tablero. Al buscar, el pequeño entrena el ubicar una figura con la vista y reconocerla en su lugar. Es observar con atención, jugando, sin contar y sin números.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Vehículos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-vehiculos-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Clima",
+          "href": "bingo-clima-98be"
+        },
+        {
+          "label": "Lotería con Invierno",
+          "href": "bingo-invierno-98be"
+        },
+        {
+          "label": "Lotería con Actividades",
+          "href": "bingo-actividades-98be"
+        },
+        {
+          "label": "Lotería con Aves 2",
+          "href": "bingo-aves-2-58fc"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-clima-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Clima: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Clima (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Imágenes con Clima: Marca la Figura",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "La lotería se disfruta mejor juntos: tú cantas una imagen, el niño la busca en su tablero de Clima y pone una ficha encima. Encontrar la figura nombrada entre tantas imágenes de Clima ejercita el escuchar, mirar y ubicar, una habilidad valiosísima para la escuela. Y lo mejor de todo: no se siente como practicar. Sin números, sin contar, sin puntos ni reloj, solo ustedes dos y el alegre \"¡Ya la encontré!\". Elige el tablero con Clima, imprímelo o jueguen directamente en línea, a su propio ritmo.",
+      "p2": "Cada figura encontrada es un pequeño triunfo. Cuando el niño descubre la imagen cantada entre las Clima y la marca con orgullo, crece su confianza en lo que es capaz de hacer. Ese \"¡Yo la encontré!\" llega lejos, hasta la escuela, donde observar y ubicar se necesitan cada día. En la lotería no hay respuestas malas bajo presión, solo la alegría de descubrir a su propio ritmo.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Clima, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-clima-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Invierno",
+          "href": "bingo-invierno-98be"
+        },
+        {
+          "label": "Lotería con Animales del zoológico",
+          "href": "bingo-animales-del-zoologico-01cd"
+        },
+        {
+          "label": "Lotería con Animales",
+          "href": "bingo-animales"
+        },
+        {
+          "label": "Lotería con Partes del cuerpo",
+          "href": "bingo-partes-del-cuerpo-98be"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-invierno-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Invierno: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Invierno (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Lotería de Invierno: ¿Dónde Está la Imagen?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar, mirar y marcar: así se juega esta lotería de Invierno. Se canta el nombre de una figura y el niño la reconoce entre las imágenes de Invierno de su tablero. Localizar el dibujo correcto y cubrirlo con una ficha entrena el observar con atención, una habilidad que más adelante facilita la lectura. Y lo mejor: no se siente como tarea, porque la lotería es puro juego. Sin números, sin contar y sin puntos, solo el pequeño, su tablero y la alegría de gritar \"¡Aquí está!\". Tú solo necesitas el tablero con Invierno y unas fichas para marcar.",
+      "p2": "Cada niño busca a su propio ritmo, y eso está muy bien. Dale tiempo al pequeño para encontrar con calma la figura cantada entre las imágenes de Invierno y marcarla. No hay reloj que corra ni puntos que cuenten, solo la grata sensación de haber descubierto la figura por sí mismo. Ese ubicar tranquilo fortalece las destrezas precursoras para la escuela.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Invierno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-invierno-98be",
+      "carousel": [
+        {
+          "label": "Lotería con Animales del zoológico",
+          "href": "bingo-animales-del-zoologico-01cd"
+        },
+        {
+          "label": "Lotería con Accesorios",
+          "href": "bingo-accesorios-4f99"
+        },
+        {
+          "label": "Lotería con Alrededor de la casa",
+          "href": "bingo-alrededor-de-la-casa-98be"
+        },
+        {
+          "label": "Lotería con Desayuno",
+          "href": "bingo-desayuno-680f"
+        }
+      ]
+    },
+    {
+      "slug": "bingo-animales-del-zoologico-01cd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "bingo",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "Lotería de Imágenes con Animales del zoológico: Marca la Figura",
+      "metaDescription": "Lotería de imágenes con Animales del zoológico (preescolar): encuentra en el tablero la figura nombrada y márcala. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Juega Lotería con Animales del zoológico: Encuentra y Marca",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Escuchar una imagen, mirar un momento, buscar y marcar: la lotería de Animales del zoológico ejercita de paso la concentración y el observar con atención. El niño busca la figura cantada entre las imágenes de Animales del zoológico de su tablero y la ubica en su lugar. Esa percepción visual es una destreza precursora para la escuela, pero en el juego el pequeño no lo nota, solo se divierte descubriendo. Sin números, sin contar, sin reloj y sin puntos. Cada figura marcada es un pequeño triunfo. Imprime el tablero con Animales del zoológico y jueguen las veces que quieran.",
+      "p2": "En cuanto el niño descubre la figura cantada en su tablero, le pone encima una ficha: un frijolito, una piedrita o una crucecita. Así, poco a poco, las imágenes de Animales del zoológico se van cubriendo hasta llenar el tablero. Al buscar, el pequeño entrena el ubicar una figura con la vista y reconocerla en su lugar. Es observar con atención, jugando, sin contar y sin números.",
+      "p3": "Si a tu pequeño le encanta esta lotería de Animales del zoológico, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir el tablero en PDF para jugar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "bingo-animales-del-zoologico-01cd",
+      "carousel": [
+        {
+          "label": "Lotería con Accesorios",
+          "href": "bingo-accesorios-4f99"
+        },
+        {
+          "label": "Lotería con Actividades",
+          "href": "bingo-actividades-98be"
+        },
+        {
+          "label": "Lotería con En el supermercado",
+          "href": "bingo-en-el-supermercado-98be"
+        },
+        {
+          "label": "Lotería con Campamento",
+          "href": "bingo-campamento-98be"
+        }
+      ]
+    },
+    {
       "slug": "mas-o-menos-imagen-imagen-4-de-julio-74a5",
       "variantShape": "singleton",
       "coordinate": {

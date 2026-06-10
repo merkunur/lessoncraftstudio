@@ -205,12 +205,37 @@ export default function WorksheetLandingPage(
     };
   }
 
+  // Quiz rich-result (Google "Practice problems"): a SEPARATE third JSON-LD node,
+  // emitted ONLY when the landing carries ≥2 practiceProblems (qualifying families
+  // per fancy-orbit §348; honest-fit — each q mirrors what the child sees). Distinct
+  // @type from LearningResource/BreadcrumbList; the CCSS code may legitimately repeat.
+  const quizSchema = (l.practiceProblems && l.practiceProblems.length >= 2) ? {
+    '@context': 'https://schema.org',
+    '@type': 'Quiz',
+    name: l.h1,
+    about: { '@type': 'Thing', name: l.strand },
+    educationalLevel: educationalLevelValue,
+    ...(l.standard ? { educationalAlignment: {
+      '@type': 'AlignmentObject',
+      alignmentType: 'educationalSubject',
+      educationalFramework: fw.jsonld,
+      targetName: l.standard,
+    } } : {}),
+    hasPart: l.practiceProblems.map((p) => ({
+      '@type': 'Question',
+      eduQuestionType: 'Flashcard',
+      text: p.q,
+      acceptedAnswer: { '@type': 'Answer', text: p.a },
+    })),
+  } : null;
+
   const SHADOW = 'shadow-[0_2px_8px_rgba(20,30,28,0.08),_0_24px_56px_rgba(20,30,28,0.12)]';
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(learningResource) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      {quizSchema && <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(quizSchema) }} />}
 
       <main className="bg-cream-50 min-h-screen">
         <div className="container mx-auto px-4 max-w-6xl py-8 md:py-12">

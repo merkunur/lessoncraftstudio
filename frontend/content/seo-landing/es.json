@@ -2,6 +2,1933 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "empareja-en-cuadricula-4-de-julio-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "4th_of_july",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con 4 de Julio: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con 4 de Julio (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con 4 de Julio: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "4 de Julio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de 4 de Julio, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de 4 de Julio que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de 4 de Julio, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "En esta variante solo hay unas pocas casillas dadas, así que el niño observa con más cuidado las imágenes de 4 de Julio para cerrar los huecos. Eso convierte el completar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y coloca cada pieza con gusto. Sin números y sin prisa, solo mirar y dejar que encaje, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de 4 de Julio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-4-de-julio-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Accesorios",
+          "href": "empareja-en-cuadricula-accesorios-98be"
+        },
+        {
+          "label": "Cuadrícula con Actividades",
+          "href": "empareja-en-cuadricula-actividades-98be"
+        },
+        {
+          "label": "Cuadrícula con Panadería",
+          "href": "empareja-en-cuadricula-panaderia-98be"
+        },
+        {
+          "label": "Cuadrícula con Campamento",
+          "href": "empareja-en-cuadricula-campamento-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-accesorios-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Accesorios: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Accesorios (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Accesorios",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Accesorios para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Accesorios va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Accesorios y mirando con orgullo la cuadrícula terminada.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de Accesorios como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-accesorios-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Actividades",
+          "href": "empareja-en-cuadricula-actividades-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales",
+          "href": "empareja-en-cuadricula-animales"
+        },
+        {
+          "label": "Cuadrícula con Playa",
+          "href": "empareja-en-cuadricula-playa-98be"
+        },
+        {
+          "label": "Cuadrícula con Navidad",
+          "href": "empareja-en-cuadricula-navidad-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-actividades-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Actividades: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Actividades (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Actividades: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Actividades, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Actividades que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Actividades de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "En esta versión, una cuadrícula un poco más grande invita al niño a llenar varias casillas seguidas. Con las imágenes de Actividades como guía, va reconociendo qué pieza va en cada lugar y completa todo el dibujo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de la cuadrícula terminada.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Actividades, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-actividades-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Animales",
+          "href": "empareja-en-cuadricula-animales"
+        },
+        {
+          "label": "Cuadrícula con En el supermercado",
+          "href": "empareja-en-cuadricula-en-el-supermercado-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves",
+          "href": "empareja-en-cuadricula-aves-98be"
+        },
+        {
+          "label": "Cuadrícula con Salón de clases",
+          "href": "empareja-en-cuadricula-salon-de-clases-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-animales",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "animals",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Animales: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Animales (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Animales: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Animales, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Animales como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Animales conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Animales, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Animales, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-animales",
+      "carousel": [
+        {
+          "label": "Cuadrícula con En el supermercado",
+          "href": "empareja-en-cuadricula-en-el-supermercado-98be"
+        },
+        {
+          "label": "Cuadrícula con Panadería",
+          "href": "empareja-en-cuadricula-panaderia-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves 2",
+          "href": "empareja-en-cuadricula-aves-2-98be"
+        },
+        {
+          "label": "Cuadrícula con Ropa",
+          "href": "empareja-en-cuadricula-ropa-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-en-el-supermercado-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con En el supermercado: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con En el supermercado (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de En el supermercado",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de En el supermercado encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con En el supermercado como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de En el supermercado como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de En el supermercado, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-en-el-supermercado-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Panadería",
+          "href": "empareja-en-cuadricula-panaderia-98be"
+        },
+        {
+          "label": "Cuadrícula con Playa",
+          "href": "empareja-en-cuadricula-playa-98be"
+        },
+        {
+          "label": "Cuadrícula con Partes del cuerpo",
+          "href": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Cuadrícula con Postres y dulces",
+          "href": "empareja-en-cuadricula-postres-y-dulces-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-panaderia-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "bakery",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Panadería: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Panadería (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Panadería: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Panadería",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Panadería para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Panadería va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "En esta versión, una cuadrícula un poco más grande invita al niño a llenar varias casillas seguidas. Con las imágenes de Panadería como guía, va reconociendo qué pieza va en cada lugar y completa todo el dibujo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de la cuadrícula terminada.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Panadería, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-panaderia-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Playa",
+          "href": "empareja-en-cuadricula-playa-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves",
+          "href": "empareja-en-cuadricula-aves-98be"
+        },
+        {
+          "label": "Cuadrícula con Desayuno",
+          "href": "empareja-en-cuadricula-desayuno-98be"
+        },
+        {
+          "label": "Cuadrícula con Dinosaurios",
+          "href": "empareja-en-cuadricula-dinosaurios-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-playa-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Playa: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Playa (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Playa: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Playa para preescolar. El niño observa las imágenes de Playa en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Playa, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Playa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-playa-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Aves",
+          "href": "empareja-en-cuadricula-aves-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves 2",
+          "href": "empareja-en-cuadricula-aves-2-98be"
+        },
+        {
+          "label": "Cuadrícula con Campamento",
+          "href": "empareja-en-cuadricula-campamento-98be"
+        },
+        {
+          "label": "Cuadrícula con Pascua",
+          "href": "empareja-en-cuadricula-pascua-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-aves-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "birds",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Aves: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Aves (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Aves",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Llenar la casilla que falta: de eso trata esta cuadrícula de imágenes para preescolar. El niño mira las imágenes de Aves que ya están en la cuadrícula y averigua qué pieza va en el hueco para que todo encaje. Así practica, jugando, a pensar la parte dentro del todo, sin una sola operación. Esta percepción visual es una destreza precursora valiosa, mucho antes de que empiece la primaria. Es una tarea suave, sin bien o mal bajo presión: el pequeño observa, prueba y se alegra cuando el dibujo de Aves queda completo.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de Aves como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Aves, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-aves-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Aves 2",
+          "href": "empareja-en-cuadricula-aves-2-98be"
+        },
+        {
+          "label": "Cuadrícula con Partes del cuerpo",
+          "href": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Cuadrícula con Navidad",
+          "href": "empareja-en-cuadricula-navidad-98be"
+        },
+        {
+          "label": "Cuadrícula con Emociones",
+          "href": "empareja-en-cuadricula-emociones-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-aves-2-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Aves 2: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Aves 2 (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Aves 2: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Aves 2",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de Aves 2, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de Aves 2 que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Aves 2, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "En esta versión, una cuadrícula un poco más grande invita al niño a llenar varias casillas seguidas. Con las imágenes de Aves 2 como guía, va reconociendo qué pieza va en cada lugar y completa todo el dibujo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de la cuadrícula terminada.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Aves 2, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-aves-2-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Partes del cuerpo",
+          "href": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+        },
+        {
+          "label": "Cuadrícula con Desayuno",
+          "href": "empareja-en-cuadricula-desayuno-98be"
+        },
+        {
+          "label": "Cuadrícula con Salón de clases",
+          "href": "empareja-en-cuadricula-salon-de-clases-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales de granja",
+          "href": "empareja-en-cuadricula-animales-de-granja-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-partes-del-cuerpo-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Partes del cuerpo: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Partes del cuerpo (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Partes del cuerpo: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Partes del cuerpo para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Partes del cuerpo va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Partes del cuerpo y mirando con orgullo la cuadrícula terminada.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Partes del cuerpo, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Partes del cuerpo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-partes-del-cuerpo-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Desayuno",
+          "href": "empareja-en-cuadricula-desayuno-98be"
+        },
+        {
+          "label": "Cuadrícula con Campamento",
+          "href": "empareja-en-cuadricula-campamento-98be"
+        },
+        {
+          "label": "Cuadrícula con Ropa",
+          "href": "empareja-en-cuadricula-ropa-98be"
+        },
+        {
+          "label": "Cuadrícula con Flores",
+          "href": "empareja-en-cuadricula-flores-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-desayuno-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Desayuno: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Desayuno (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Desayuno",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Desayuno, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Desayuno que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Desayuno de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de Desayuno como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Desayuno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-desayuno-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Campamento",
+          "href": "empareja-en-cuadricula-campamento-98be"
+        },
+        {
+          "label": "Cuadrícula con Navidad",
+          "href": "empareja-en-cuadricula-navidad-98be"
+        },
+        {
+          "label": "Cuadrícula con Postres y dulces",
+          "href": "empareja-en-cuadricula-postres-y-dulces-98be"
+        },
+        {
+          "label": "Cuadrícula con Frutas",
+          "href": "empareja-en-cuadricula-frutas-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-campamento-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Campamento: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Campamento (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Campamento: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Campamento, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Campamento como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Campamento conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Campamento alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Campamento, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-campamento-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Navidad",
+          "href": "empareja-en-cuadricula-navidad-98be"
+        },
+        {
+          "label": "Cuadrícula con Salón de clases",
+          "href": "empareja-en-cuadricula-salon-de-clases-98be"
+        },
+        {
+          "label": "Cuadrícula con Dinosaurios",
+          "href": "empareja-en-cuadricula-dinosaurios-98be"
+        },
+        {
+          "label": "Cuadrícula con Muebles",
+          "href": "empareja-en-cuadricula-muebles-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-navidad-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Navidad: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Navidad (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Navidad: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de Navidad encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con Navidad como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Navidad, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Navidad, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-navidad-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Salón de clases",
+          "href": "empareja-en-cuadricula-salon-de-clases-98be"
+        },
+        {
+          "label": "Cuadrícula con Ropa",
+          "href": "empareja-en-cuadricula-ropa-98be"
+        },
+        {
+          "label": "Cuadrícula con Pascua",
+          "href": "empareja-en-cuadricula-pascua-98be"
+        },
+        {
+          "label": "Cuadrícula con Hospital",
+          "href": "empareja-en-cuadricula-hospital-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-salon-de-clases-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Salón de clases: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Salón de clases (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Salón de clases",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Salón de clases para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Salón de clases va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de Salón de clases como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Salón de clases, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-salon-de-clases-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Ropa",
+          "href": "empareja-en-cuadricula-ropa-98be"
+        },
+        {
+          "label": "Cuadrícula con Postres y dulces",
+          "href": "empareja-en-cuadricula-postres-y-dulces-98be"
+        },
+        {
+          "label": "Cuadrícula con Emociones",
+          "href": "empareja-en-cuadricula-emociones-98be"
+        },
+        {
+          "label": "Cuadrícula con Insectos y bichos",
+          "href": "empareja-en-cuadricula-insectos-y-bichos-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-ropa-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Ropa: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Ropa (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Ropa: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Ropa para preescolar. El niño observa las imágenes de Ropa en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Ropa alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Ropa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-ropa-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Postres y dulces",
+          "href": "empareja-en-cuadricula-postres-y-dulces-98be"
+        },
+        {
+          "label": "Cuadrícula con Dinosaurios",
+          "href": "empareja-en-cuadricula-dinosaurios-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales de granja",
+          "href": "empareja-en-cuadricula-animales-de-granja-98be"
+        },
+        {
+          "label": "Cuadrícula con Utensilios de cocina",
+          "href": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-postres-y-dulces-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Postres y dulces: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Postres y dulces (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Postres y dulces: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Llenar la casilla que falta: de eso trata esta cuadrícula de imágenes para preescolar. El niño mira las imágenes de Postres y dulces que ya están en la cuadrícula y averigua qué pieza va en el hueco para que todo encaje. Así practica, jugando, a pensar la parte dentro del todo, sin una sola operación. Esta percepción visual es una destreza precursora valiosa, mucho antes de que empiece la primaria. Es una tarea suave, sin bien o mal bajo presión: el pequeño observa, prueba y se alegra cuando el dibujo de Postres y dulces queda completo.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Postres y dulces, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Postres y dulces, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-postres-y-dulces-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Dinosaurios",
+          "href": "empareja-en-cuadricula-dinosaurios-98be"
+        },
+        {
+          "label": "Cuadrícula con Pascua",
+          "href": "empareja-en-cuadricula-pascua-98be"
+        },
+        {
+          "label": "Cuadrícula con Flores",
+          "href": "empareja-en-cuadricula-flores-98be"
+        },
+        {
+          "label": "Cuadrícula con Misceláneo",
+          "href": "empareja-en-cuadricula-miscelaneo-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-dinosaurios-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Dinosaurios: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Dinosaurios (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Dinosaurios",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de Dinosaurios, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de Dinosaurios que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Dinosaurios, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "Esta versión trae más casillas vacías, así que el niño completa el dibujo casi por su cuenta. Con las imágenes de Dinosaurios como pequeño ancla en la cuadrícula, descubre qué pieza falta en cada caso y va llenando un hueco tras otro. Eso le da la grata sensación de haber armado algo completo. Sin prisa y sin presión de bien o mal, solo observar con calma y completar.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Dinosaurios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-dinosaurios-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Pascua",
+          "href": "empareja-en-cuadricula-pascua-98be"
+        },
+        {
+          "label": "Cuadrícula con Emociones",
+          "href": "empareja-en-cuadricula-emociones-98be"
+        },
+        {
+          "label": "Cuadrícula con Frutas",
+          "href": "empareja-en-cuadricula-frutas-98be"
+        },
+        {
+          "label": "Cuadrícula con Música",
+          "href": "empareja-en-cuadricula-musica-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-pascua-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Pascua: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Pascua (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Pascua: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Pascua para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Pascua va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Pascua y mirando con orgullo la cuadrícula terminada.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Pascua alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Pascua, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-pascua-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Emociones",
+          "href": "empareja-en-cuadricula-emociones-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales de granja",
+          "href": "empareja-en-cuadricula-animales-de-granja-98be"
+        },
+        {
+          "label": "Cuadrícula con Muebles",
+          "href": "empareja-en-cuadricula-muebles-98be"
+        },
+        {
+          "label": "Cuadrícula con Ocupaciones",
+          "href": "empareja-en-cuadricula-ocupaciones-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-emociones-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "emotions",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Emociones: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Emociones (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Emociones: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Emociones, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Emociones que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Emociones de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Emociones, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Emociones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-emociones-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Animales de granja",
+          "href": "empareja-en-cuadricula-animales-de-granja-98be"
+        },
+        {
+          "label": "Cuadrícula con Flores",
+          "href": "empareja-en-cuadricula-flores-98be"
+        },
+        {
+          "label": "Cuadrícula con Hospital",
+          "href": "empareja-en-cuadricula-hospital-98be"
+        },
+        {
+          "label": "Cuadrícula con Vida marina",
+          "href": "empareja-en-cuadricula-vida-marina-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-animales-de-granja-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Animales de granja: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Animales de granja (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Animales de granja",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Animales de granja, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Animales de granja como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Animales de granja conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Animales de granja antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Animales de granja, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-animales-de-granja-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Flores",
+          "href": "empareja-en-cuadricula-flores-98be"
+        },
+        {
+          "label": "Cuadrícula con Frutas",
+          "href": "empareja-en-cuadricula-frutas-98be"
+        },
+        {
+          "label": "Cuadrícula con Insectos y bichos",
+          "href": "empareja-en-cuadricula-insectos-y-bichos-98be"
+        },
+        {
+          "label": "Cuadrícula con Mascotas",
+          "href": "empareja-en-cuadricula-mascotas-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-flores-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Flores: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Flores (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Flores: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de Flores encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con Flores como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Flores alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Flores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-flores-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Frutas",
+          "href": "empareja-en-cuadricula-frutas-98be"
+        },
+        {
+          "label": "Cuadrícula con Muebles",
+          "href": "empareja-en-cuadricula-muebles-98be"
+        },
+        {
+          "label": "Cuadrícula con Utensilios de cocina",
+          "href": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Cuadrícula con Oficina de correos",
+          "href": "empareja-en-cuadricula-oficina-de-correos-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-frutas-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Frutas: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Frutas (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Frutas: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Frutas para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Frutas va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Frutas, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Frutas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-frutas-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Muebles",
+          "href": "empareja-en-cuadricula-muebles-98be"
+        },
+        {
+          "label": "Cuadrícula con Hospital",
+          "href": "empareja-en-cuadricula-hospital-98be"
+        },
+        {
+          "label": "Cuadrícula con Misceláneo",
+          "href": "empareja-en-cuadricula-miscelaneo-98be"
+        },
+        {
+          "label": "Cuadrícula con Reptiles y anfibios",
+          "href": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-muebles-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Muebles: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Muebles (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Muebles",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Muebles para preescolar. El niño observa las imágenes de Muebles en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Muebles antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Muebles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-muebles-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Hospital",
+          "href": "empareja-en-cuadricula-hospital-98be"
+        },
+        {
+          "label": "Cuadrícula con Insectos y bichos",
+          "href": "empareja-en-cuadricula-insectos-y-bichos-98be"
+        },
+        {
+          "label": "Cuadrícula con Música",
+          "href": "empareja-en-cuadricula-musica-98be"
+        },
+        {
+          "label": "Cuadrícula con Formas",
+          "href": "empareja-en-cuadricula-formas-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-hospital-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Hospital: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Hospital (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Hospital: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Llenar la casilla que falta: de eso trata esta cuadrícula de imágenes para preescolar. El niño mira las imágenes de Hospital que ya están en la cuadrícula y averigua qué pieza va en el hueco para que todo encaje. Así practica, jugando, a pensar la parte dentro del todo, sin una sola operación. Esta percepción visual es una destreza precursora valiosa, mucho antes de que empiece la primaria. Es una tarea suave, sin bien o mal bajo presión: el pequeño observa, prueba y se alegra cuando el dibujo de Hospital queda completo.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Hospital alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Hospital, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-hospital-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Insectos y bichos",
+          "href": "empareja-en-cuadricula-insectos-y-bichos-98be"
+        },
+        {
+          "label": "Cuadrícula con Utensilios de cocina",
+          "href": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Cuadrícula con Ocupaciones",
+          "href": "empareja-en-cuadricula-ocupaciones-98be"
+        },
+        {
+          "label": "Cuadrícula con Espacio",
+          "href": "empareja-en-cuadricula-espacio-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-insectos-y-bichos-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Insectos y bichos: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Insectos y bichos (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Insectos y bichos: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Insectos y bichos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de Insectos y bichos, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de Insectos y bichos que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Insectos y bichos, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "En esta variante se mezcla una selección variada en la cuadrícula, así que el niño elige entre varias opciones la pieza que de verdad encaja. Compara las imágenes de Insectos y bichos, piensa con calma y completa el dibujo con cuidado. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de completar una cuadrícula.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Insectos y bichos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-insectos-y-bichos-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Utensilios de cocina",
+          "href": "empareja-en-cuadricula-utensilios-de-cocina-98be"
+        },
+        {
+          "label": "Cuadrícula con Misceláneo",
+          "href": "empareja-en-cuadricula-miscelaneo-98be"
+        },
+        {
+          "label": "Cuadrícula con Vida marina",
+          "href": "empareja-en-cuadricula-vida-marina-98be"
+        },
+        {
+          "label": "Cuadrícula con Primavera",
+          "href": "empareja-en-cuadricula-primavera-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-utensilios-de-cocina-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Utensilios de cocina: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Utensilios de cocina (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Utensilios de cocina",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Utensilios de cocina para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Utensilios de cocina va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Utensilios de cocina y mirando con orgullo la cuadrícula terminada.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Utensilios de cocina antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Utensilios de cocina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-utensilios-de-cocina-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Misceláneo",
+          "href": "empareja-en-cuadricula-miscelaneo-98be"
+        },
+        {
+          "label": "Cuadrícula con Música",
+          "href": "empareja-en-cuadricula-musica-98be"
+        },
+        {
+          "label": "Cuadrícula con Mascotas",
+          "href": "empareja-en-cuadricula-mascotas-98be"
+        },
+        {
+          "label": "Cuadrícula con Verano",
+          "href": "empareja-en-cuadricula-verano-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-miscelaneo-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "miscellaneous",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Misceláneo: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Misceláneo (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Misceláneo: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Misceláneo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Misceláneo, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Misceláneo que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Misceláneo de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Misceláneo alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Misceláneo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-miscelaneo-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Música",
+          "href": "empareja-en-cuadricula-musica-98be"
+        },
+        {
+          "label": "Cuadrícula con Ocupaciones",
+          "href": "empareja-en-cuadricula-ocupaciones-98be"
+        },
+        {
+          "label": "Cuadrícula con Oficina de correos",
+          "href": "empareja-en-cuadricula-oficina-de-correos-98be"
+        },
+        {
+          "label": "Cuadrícula con Día de Acción de Gracias",
+          "href": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-musica-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "music",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Música: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Música (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Música: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Música",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Música, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Música como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Música conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Música y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Música, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-musica-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Ocupaciones",
+          "href": "empareja-en-cuadricula-ocupaciones-98be"
+        },
+        {
+          "label": "Cuadrícula con Vida marina",
+          "href": "empareja-en-cuadricula-vida-marina-98be"
+        },
+        {
+          "label": "Cuadrícula con Reptiles y anfibios",
+          "href": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+        },
+        {
+          "label": "Cuadrícula con Cosas que vuelan",
+          "href": "empareja-en-cuadricula-cosas-que-vuelan-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-ocupaciones-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Ocupaciones: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Ocupaciones (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Ocupaciones",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de Ocupaciones encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con Ocupaciones como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Ocupaciones antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Ocupaciones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-ocupaciones-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Vida marina",
+          "href": "empareja-en-cuadricula-vida-marina-98be"
+        },
+        {
+          "label": "Cuadrícula con Mascotas",
+          "href": "empareja-en-cuadricula-mascotas-98be"
+        },
+        {
+          "label": "Cuadrícula con Formas",
+          "href": "empareja-en-cuadricula-formas-98be"
+        },
+        {
+          "label": "Cuadrícula con Herramientas",
+          "href": "empareja-en-cuadricula-herramientas-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-vida-marina-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Vida marina: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Vida marina (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Vida marina: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Vida marina para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Vida marina va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Vida marina alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Vida marina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-vida-marina-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Mascotas",
+          "href": "empareja-en-cuadricula-mascotas-98be"
+        },
+        {
+          "label": "Cuadrícula con Oficina de correos",
+          "href": "empareja-en-cuadricula-oficina-de-correos-98be"
+        },
+        {
+          "label": "Cuadrícula con Espacio",
+          "href": "empareja-en-cuadricula-espacio-98be"
+        },
+        {
+          "label": "Cuadrícula con Juguetes",
+          "href": "empareja-en-cuadricula-juguetes-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-mascotas-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Mascotas: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Mascotas (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Mascotas: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Mascotas para preescolar. El niño observa las imágenes de Mascotas en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Mascotas y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Mascotas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-mascotas-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Oficina de correos",
+          "href": "empareja-en-cuadricula-oficina-de-correos-98be"
+        },
+        {
+          "label": "Cuadrícula con Reptiles y anfibios",
+          "href": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+        },
+        {
+          "label": "Cuadrícula con Primavera",
+          "href": "empareja-en-cuadricula-primavera-98be"
+        },
+        {
+          "label": "Cuadrícula con Árboles",
+          "href": "empareja-en-cuadricula-arboles-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-oficina-de-correos-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "post_office",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Oficina de correos: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Oficina de correos (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Oficina de correos",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Llenar la casilla que falta: de eso trata esta cuadrícula de imágenes para preescolar. El niño mira las imágenes de Oficina de correos que ya están en la cuadrícula y averigua qué pieza va en el hueco para que todo encaje. Así practica, jugando, a pensar la parte dentro del todo, sin una sola operación. Esta percepción visual es una destreza precursora valiosa, mucho antes de que empiece la primaria. Es una tarea suave, sin bien o mal bajo presión: el pequeño observa, prueba y se alegra cuando el dibujo de Oficina de correos queda completo.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Oficina de correos antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Oficina de correos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-oficina-de-correos-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Reptiles y anfibios",
+          "href": "empareja-en-cuadricula-reptiles-y-anfibios-98be"
+        },
+        {
+          "label": "Cuadrícula con Formas",
+          "href": "empareja-en-cuadricula-formas-98be"
+        },
+        {
+          "label": "Cuadrícula con Verano",
+          "href": "empareja-en-cuadricula-verano-98be"
+        },
+        {
+          "label": "Cuadrícula con Verduras",
+          "href": "empareja-en-cuadricula-verduras-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-reptiles-y-anfibios-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Reptiles y anfibios: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Reptiles y anfibios (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Reptiles y anfibios: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Reptiles y anfibios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de Reptiles y anfibios, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de Reptiles y anfibios que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Reptiles y anfibios, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "Aquí la cuadrícula ya está medio llena y el niño agrega las imágenes que faltan paso a paso. Observa las de Reptiles y anfibios alrededor y siente qué pieza va en el espacio vacío. Es una tarea suave y clara para empezar, donde cada niño tiene su logro. Observar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Reptiles y anfibios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-reptiles-y-anfibios-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Formas",
+          "href": "empareja-en-cuadricula-formas-98be"
+        },
+        {
+          "label": "Cuadrícula con Espacio",
+          "href": "empareja-en-cuadricula-espacio-98be"
+        },
+        {
+          "label": "Cuadrícula con Día de Acción de Gracias",
+          "href": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
+        },
+        {
+          "label": "Cuadrícula con Vehículos",
+          "href": "empareja-en-cuadricula-vehiculos-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-formas-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "shapes",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Formas: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Formas (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Formas: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Formas para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Formas va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Formas y mirando con orgullo la cuadrícula terminada.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Formas y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Formas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-formas-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Espacio",
+          "href": "empareja-en-cuadricula-espacio-98be"
+        },
+        {
+          "label": "Cuadrícula con Primavera",
+          "href": "empareja-en-cuadricula-primavera-98be"
+        },
+        {
+          "label": "Cuadrícula con Cosas que vuelan",
+          "href": "empareja-en-cuadricula-cosas-que-vuelan-98be"
+        },
+        {
+          "label": "Cuadrícula con Clima",
+          "href": "empareja-en-cuadricula-clima-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-espacio-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Espacio: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Espacio (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Espacio",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Espacio, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Espacio que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Espacio de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Espacio antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Espacio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-espacio-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Primavera",
+          "href": "empareja-en-cuadricula-primavera-98be"
+        },
+        {
+          "label": "Cuadrícula con Verano",
+          "href": "empareja-en-cuadricula-verano-98be"
+        },
+        {
+          "label": "Cuadrícula con Herramientas",
+          "href": "empareja-en-cuadricula-herramientas-98be"
+        },
+        {
+          "label": "Cuadrícula con Invierno",
+          "href": "empareja-en-cuadricula-invierno-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-primavera-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "spring",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Primavera: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Primavera (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Primavera: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Primavera",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Primavera, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Primavera como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Primavera conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "En esta variante solo hay unas pocas casillas dadas, así que el niño observa con más cuidado las imágenes de Primavera para cerrar los huecos. Eso convierte el completar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y coloca cada pieza con gusto. Sin números y sin prisa, solo mirar y dejar que encaje, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Primavera, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-primavera-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Verano",
+          "href": "empareja-en-cuadricula-verano-98be"
+        },
+        {
+          "label": "Cuadrícula con Día de Acción de Gracias",
+          "href": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
+        },
+        {
+          "label": "Cuadrícula con Juguetes",
+          "href": "empareja-en-cuadricula-juguetes-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales del zoológico",
+          "href": "empareja-en-cuadricula-animales-del-zoologico-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-verano-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Verano: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Verano (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Verano: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de Verano encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con Verano como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Verano y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Verano, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-verano-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Día de Acción de Gracias",
+          "href": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be"
+        },
+        {
+          "label": "Cuadrícula con Cosas que vuelan",
+          "href": "empareja-en-cuadricula-cosas-que-vuelan-98be"
+        },
+        {
+          "label": "Cuadrícula con Árboles",
+          "href": "empareja-en-cuadricula-arboles-98be"
+        },
+        {
+          "label": "Cuadrícula con 4 de Julio",
+          "href": "empareja-en-cuadricula-4-de-julio-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Día de Acción de Gracias: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Día de Acción de Gracias (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Día de Acción de Gracias",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Día de Acción de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Día de Acción de Gracias para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Día de Acción de Gracias va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Día de Acción de Gracias antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Día de Acción de Gracias, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-dia-de-accion-de-gracias-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Cosas que vuelan",
+          "href": "empareja-en-cuadricula-cosas-que-vuelan-98be"
+        },
+        {
+          "label": "Cuadrícula con Herramientas",
+          "href": "empareja-en-cuadricula-herramientas-98be"
+        },
+        {
+          "label": "Cuadrícula con Verduras",
+          "href": "empareja-en-cuadricula-verduras-98be"
+        },
+        {
+          "label": "Cuadrícula con Accesorios",
+          "href": "empareja-en-cuadricula-accesorios-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-cosas-que-vuelan-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Cosas que vuelan: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Cosas que vuelan (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Cosas que vuelan: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Cosas que vuelan para preescolar. El niño observa las imágenes de Cosas que vuelan en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "En esta variante solo hay unas pocas casillas dadas, así que el niño observa con más cuidado las imágenes de Cosas que vuelan para cerrar los huecos. Eso convierte el completar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y coloca cada pieza con gusto. Sin números y sin prisa, solo mirar y dejar que encaje, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Cosas que vuelan, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-cosas-que-vuelan-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Herramientas",
+          "href": "empareja-en-cuadricula-herramientas-98be"
+        },
+        {
+          "label": "Cuadrícula con Juguetes",
+          "href": "empareja-en-cuadricula-juguetes-98be"
+        },
+        {
+          "label": "Cuadrícula con Vehículos",
+          "href": "empareja-en-cuadricula-vehiculos-98be"
+        },
+        {
+          "label": "Cuadrícula con Actividades",
+          "href": "empareja-en-cuadricula-actividades-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-herramientas-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "tools",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Herramientas: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Herramientas (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Herramientas: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Llenar la casilla que falta: de eso trata esta cuadrícula de imágenes para preescolar. El niño mira las imágenes de Herramientas que ya están en la cuadrícula y averigua qué pieza va en el hueco para que todo encaje. Así practica, jugando, a pensar la parte dentro del todo, sin una sola operación. Esta percepción visual es una destreza precursora valiosa, mucho antes de que empiece la primaria. Es una tarea suave, sin bien o mal bajo presión: el pequeño observa, prueba y se alegra cuando el dibujo de Herramientas queda completo.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Herramientas y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Herramientas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-herramientas-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Juguetes",
+          "href": "empareja-en-cuadricula-juguetes-98be"
+        },
+        {
+          "label": "Cuadrícula con Árboles",
+          "href": "empareja-en-cuadricula-arboles-98be"
+        },
+        {
+          "label": "Cuadrícula con Clima",
+          "href": "empareja-en-cuadricula-clima-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales",
+          "href": "empareja-en-cuadricula-animales"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-juguetes-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Juguetes: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Juguetes (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Juguetes",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué imagen va en la casilla vacía? En esta cuadrícula de Juguetes, algunas casillas ya tienen su dibujo y otras están vacías. El niño observa con atención las imágenes de Juguetes que ya están puestas y descubre cuál encaja en cada hueco para que el dibujo quede completo. Aquí no se cuenta nada: se observa. Mirar una parte y descubrir cómo encaja en el todo es percepción visual, una base importante antes de la escuela. Con dibujos conocidos de Juguetes, empezar es fácil y cada casilla llena se siente como un pequeño logro.",
+      "p2": "En esta variante las imágenes se parecen un poco entre sí, así que el niño distingue con cuidado entre las de Juguetes antes de poner la pieza en la casilla vacía. Eso afina la percepción visual de una manera bonita y de juego. El pequeño puede mirar todas las veces que quiera; aquí cuenta el ojo, no el número. Un paso cariñoso hacia la percepción parte-todo.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Juguetes, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-juguetes-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Árboles",
+          "href": "empareja-en-cuadricula-arboles-98be"
+        },
+        {
+          "label": "Cuadrícula con Verduras",
+          "href": "empareja-en-cuadricula-verduras-98be"
+        },
+        {
+          "label": "Cuadrícula con Invierno",
+          "href": "empareja-en-cuadricula-invierno-98be"
+        },
+        {
+          "label": "Cuadrícula con En el supermercado",
+          "href": "empareja-en-cuadricula-en-el-supermercado-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-arboles-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Árboles: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Árboles (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Árboles: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué pieza encaja en la cuadrícula? Esa es la pregunta de esta hoja de Árboles para preescolar. El niño ve una cuadrícula con algunas casillas llenas y otras vacías, y piensa cuál de las imágenes de Árboles va en el hueco. Con dibujos que ya conoce, la primera mirada le resulta fácil. Así entrena la percepción parte-todo, una habilidad que más adelante necesitará para reconocer letras y formas. No hay carrera ni estrellas que juntar: solo el pequeño completando con calma un dibujo de Árboles y mirando con orgullo la cuadrícula terminada.",
+      "p2": "En esta variante solo hay unas pocas casillas dadas, así que el niño observa con más cuidado las imágenes de Árboles para cerrar los huecos. Eso convierte el completar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y coloca cada pieza con gusto. Sin números y sin prisa, solo mirar y dejar que encaje, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Árboles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-arboles-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Verduras",
+          "href": "empareja-en-cuadricula-verduras-98be"
+        },
+        {
+          "label": "Cuadrícula con Vehículos",
+          "href": "empareja-en-cuadricula-vehiculos-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales del zoológico",
+          "href": "empareja-en-cuadricula-animales-del-zoologico-98be"
+        },
+        {
+          "label": "Cuadrícula con Panadería",
+          "href": "empareja-en-cuadricula-panaderia-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-verduras-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Verduras: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Verduras (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Verduras: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Observar en lugar de contar: en esta cuadrícula de Verduras, el niño descubre qué imagen va en cada casilla vacía. Algunas ya están llenas, y las imágenes de Verduras que contienen dan la pista de lo que falta. El pequeño compara, piensa y completa la cuadrícula casilla por casilla, en una práctica tranquila de percepción parte-todo. No hay puntos ni reloj que corra; puede mirar todo el tiempo que quiera. Con Verduras de su mundo, la tarea se mantiene cercana y agradable, y el logro llega solo.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Verduras y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Verduras, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-verduras-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Vehículos",
+          "href": "empareja-en-cuadricula-vehiculos-98be"
+        },
+        {
+          "label": "Cuadrícula con Clima",
+          "href": "empareja-en-cuadricula-clima-98be"
+        },
+        {
+          "label": "Cuadrícula con 4 de Julio",
+          "href": "empareja-en-cuadricula-4-de-julio-98be"
+        },
+        {
+          "label": "Cuadrícula con Playa",
+          "href": "empareja-en-cuadricula-playa-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-vehiculos-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Vehículos: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Vehículos (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Vehículos",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta cuadrícula de Vehículos, el niño se vuelve un observador atento: mira con cuidado y reconoce qué pieza va en la casilla vacía. Algunas casillas ya están llenas y el resto espera; con las imágenes de Vehículos como pista, el pequeño completa el dibujo casilla por casilla. Se trata de observar en lugar de contar, de la percepción parte-todo tan importante antes de que empiece la escuela. Con Vehículos conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de armar un dibujo completo.",
+      "p2": "En esta versión, una cuadrícula un poco más grande invita al niño a llenar varias casillas seguidas. Con las imágenes de Vehículos como guía, va reconociendo qué pieza va en cada lugar y completa todo el dibujo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de la cuadrícula terminada.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Vehículos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-vehiculos-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Clima",
+          "href": "empareja-en-cuadricula-clima-98be"
+        },
+        {
+          "label": "Cuadrícula con Invierno",
+          "href": "empareja-en-cuadricula-invierno-98be"
+        },
+        {
+          "label": "Cuadrícula con Accesorios",
+          "href": "empareja-en-cuadricula-accesorios-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves",
+          "href": "empareja-en-cuadricula-aves-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-clima-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Clima: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Clima (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Clima: ¿Qué Imagen Falta?",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Algunas casillas llenas, otras vacías, y el niño completa el dibujo. En esta cuadrícula reconoce cuál de las imágenes de Clima encaja en cada cuadro libre y así arma toda la composición. Es percepción visual pura: observar, comparar y colocar la pieza adecuada en el conjunto. Aquí no se cuenta nada, porque en preescolar el ojo importa más que el número. Con Clima como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada casilla bien resuelta hace crecer un poco la confianza del pequeño.",
+      "p2": "En esta variante solo hay unas pocas casillas dadas, así que el niño observa con más cuidado las imágenes de Clima para cerrar los huecos. Eso convierte el completar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y coloca cada pieza con gusto. Sin números y sin prisa, solo mirar y dejar que encaje, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Clima, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-clima-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Invierno",
+          "href": "empareja-en-cuadricula-invierno-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales del zoológico",
+          "href": "empareja-en-cuadricula-animales-del-zoologico-98be"
+        },
+        {
+          "label": "Cuadrícula con Actividades",
+          "href": "empareja-en-cuadricula-actividades-98be"
+        },
+        {
+          "label": "Cuadrícula con Aves 2",
+          "href": "empareja-en-cuadricula-aves-2-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-invierno-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Invierno: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Invierno (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Cuadrícula de Imágenes con Invierno: Completa el Dibujo",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Completar un dibujo: eso es lo bonito de esta cuadrícula de Invierno para preescolar. Algunas casillas ya muestran una imagen y otras esperan vacías la pieza correcta. El niño reconoce cuál de las imágenes de Invierno va en la casilla que falta y así, poco a poco, completa toda la cuadrícula. No hay números ni se cuenta nada, solo observar con cuidado y la satisfacción de encajar cada parte en el todo. Esa percepción de cómo una parte forma el conjunto prepara al pequeño para leer y escribir, a su propio ritmo y sin presión.",
+      "p2": "Aquí la cuadrícula es más pequeña y muy clara, ideal para el primer intento. El niño mira las imágenes de Invierno y completa con una sola pieza adecuada la casilla que falta. Así el completar sale rápido y dan ganas de seguir con el siguiente dibujo. Observar en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Invierno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-invierno-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con Animales del zoológico",
+          "href": "empareja-en-cuadricula-animales-del-zoologico-98be"
+        },
+        {
+          "label": "Cuadrícula con 4 de Julio",
+          "href": "empareja-en-cuadricula-4-de-julio-98be"
+        },
+        {
+          "label": "Cuadrícula con Animales",
+          "href": "empareja-en-cuadricula-animales"
+        },
+        {
+          "label": "Cuadrícula con Partes del cuerpo",
+          "href": "empareja-en-cuadricula-partes-del-cuerpo-98be"
+        }
+      ]
+    },
+    {
+      "slug": "empareja-en-cuadricula-animales-del-zoologico-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "Cuadrícula de Imágenes con Animales del zoológico: Completa el Dibujo",
+      "metaDescription": "Cuadrícula de imágenes con Animales del zoológico (preescolar): observa y completa las casillas vacías. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de percepción visual",
+      "h1": "Completa la Cuadrícula de Animales del zoológico",
+      "strand": "Saberes y Pensamiento Científico — Observación y reconocimiento de formas en el entorno",
+      "slotTokens": [
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una casilla vacía, la pieza correcta, y el dibujo queda listo. Así de sencilla y valiosa es esta cuadrícula de Animales del zoológico para preescolar. El niño observa las imágenes de Animales del zoológico en la cuadrícula y descubre cuál falta para completarlo todo. Esta tarea afina el mirar con atención y el sentido de cómo una parte pertenece al todo, sin números y sin contar. En el año previo a la escuela, eso es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada cuadrícula completa es un logro real que invita a seguir.",
+      "p2": "En esta versión, una cuadrícula un poco más grande invita al niño a llenar varias casillas seguidas. Con las imágenes de Animales del zoológico como guía, va reconociendo qué pieza va en cada lugar y completa todo el dibujo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de la cuadrícula terminada.",
+      "p3": "Si a tu pequeño le gusta esta cuadrícula de Animales del zoológico, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la observación y el reconocimiento de formas del entorno, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "empareja-en-cuadricula-animales-del-zoologico-98be",
+      "carousel": [
+        {
+          "label": "Cuadrícula con 4 de Julio",
+          "href": "empareja-en-cuadricula-4-de-julio-98be"
+        },
+        {
+          "label": "Cuadrícula con Accesorios",
+          "href": "empareja-en-cuadricula-accesorios-98be"
+        },
+        {
+          "label": "Cuadrícula con En el supermercado",
+          "href": "empareja-en-cuadricula-en-el-supermercado-98be"
+        },
+        {
+          "label": "Cuadrícula con Desayuno",
+          "href": "empareja-en-cuadricula-desayuno-98be"
+        }
+      ]
+    },
+    {
       "slug": "tren-de-patrones-abc-4-de-julio-fe63",
       "variantShape": "singleton",
       "coordinate": {

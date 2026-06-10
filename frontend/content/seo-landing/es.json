@@ -2,6 +2,67 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "contar-en-grafico-animales",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Animales en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con animales para niños de 5 a 7 años: cuenta cuántos hay de cada animal y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta los Animales y Descubre Cuántos Hay",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Koala",
+        "Camello",
+        "Cerdo",
+        "Gato",
+        "Ballena",
+        "Alce",
+        "Animales",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja invita a los niños a contar y organizar datos de la forma más natural: agrupando y contando. La actividad muestra varios animales y pide reunir los del mismo tipo, contar cuántos hay de cada uno y colorear las casillas hasta la altura que corresponde, construyendo poco a poco una gráfica o pictograma. La mecánica es clara —cuenta cuántos hay y responde— y enseña a clasificar objetos en categorías y a comparar cantidades, una base del pensamiento matemático y de la organización de datos que acompaña al niño durante toda la primaria.",
+      "p2": "Los animales del mazo hacen la práctica cercana y divertida. El niño cuenta 5 koalas, 4 cerdos, 4 gatos y 4 alces; después 2 camellos y, por último, 1 ballena. Al colorear una casilla por cada animal, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos. Señalar con el dedo cada dibujo mientras se cuenta ayuda a los pequeños a no perder la cuenta y a comprobar su respuesta, y comparar las columnas terminadas responde de forma visual preguntas como «¿cuántos hay?» y «¿cuál tiene más?».",
+      "p3": "La hoja se puede imprimir en PDF para trabajar en papel o jugar en línea de forma interactiva, siempre gratis y sin necesidad de registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con un tono cálido y sin vergüenza por equivocarse, porque contar de nuevo es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP) dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. Cuando el pequeño cuente con seguridad hasta 5, el siguiente paso natural es contar y comparar grupos un poco más grandes.",
+      "canonicalDeckSlug": "contar-en-grafico-animales",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos koalas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos cerdos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos gatos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos alces hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos camellos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas ballenas hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
       "slug": "suma-buscar-sumando-animales-0178",
       "variantShape": "singleton",
       "coordinate": {

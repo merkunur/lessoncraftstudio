@@ -42,6 +42,16 @@ export interface Landing {
   canonicalDeckSlug: string;
   collapseSiblings?: string[];
   carousel: LandingCarouselItem[];
+  /**
+   * Optional practice-problem pairs for the schema.org Quiz rich-result (Google
+   * "Practice problems"). Present ONLY for families that genuinely qualify (the
+   * deck poses ≥2 marked Q/A the child sees — addition/subtraction/math-puzzle/
+   * chart-count/more-less; NOT readiness/visual/word-puzzle per fancy-orbit §348).
+   * When present (length ≥2) the route emits a third Quiz JSON-LD node. Each `q`
+   * MUST mirror what the child SEES on the rendered deck (honest-fit; e.g.
+   * chart-count "¿Cuántos koalas hay?" → "5"). Absent → no Quiz node (clean).
+   */
+  practiceProblems?: { q: string; a: string }[];
 }
 
 interface LandingFile { landings: Landing[] }

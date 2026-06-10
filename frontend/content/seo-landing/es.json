@@ -2,6 +2,1434 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "clasificar-imagenes-accessories-vs-animals-f238",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "accessories-vs-animals",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Accesorios",
+      "metaDescription": "Clasifica Animales y Accesorios (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Accesorios",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja se mezclan dos clases de imágenes: las de Animales y las de Accesorios. El niño observa cada dibujo y lo coloca en el grupo al que pertenece —de un lado Animales, del otro Accesorios—, separando todo por su categoría. Aquí no se cuenta nada: se clasifica. Mirar en qué se parecen unas imágenes y en qué se diferencian de otras, y agruparlas por eso, es una habilidad científica temprana muy valiosa para la escuela. Con dibujos conocidos de Animales y Accesorios, empezar es fácil y cada grupo bien armado se siente como un pequeño logro.",
+      "p2": "En esta variante las imágenes de Animales y Accesorios se parecen un poco en color o forma, así que el niño observa con más cuidado antes de mandar cada dibujo a su grupo. Eso convierte el clasificar en una pequeña aventura de descubrimiento: se toma su tiempo, compara con calma y separa cada imagen con gusto. Sin números y sin prisa, solo mirar y agrupar por categoría, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-accessories-vs-animals-f238",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Actividades",
+          "href": "clasificar-imagenes-activities-vs-animals-ff66"
+        },
+        {
+          "label": "Clasifica Animales y En el supermercado",
+          "href": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
+        },
+        {
+          "label": "Clasifica Animales y Aves",
+          "href": "clasificar-imagenes-animals-vs-birds-e49d"
+        },
+        {
+          "label": "Clasifica Animales y Postres y dulces",
+          "href": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-activities-vs-animals-ff66",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "activities-vs-animals",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Actividades",
+      "metaDescription": "Clasifica Animales y Actividades (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Actividades: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Animales o Actividades? Esa es la pregunta de esta hoja de clasificación para preescolar. El niño ve imágenes de las dos clases mezcladas y decide, una por una, a qué grupo pertenece cada dibujo. Con Animales y Actividades que ya conoce, la primera mirada le resulta fácil. Así entrena el clasificar por características, una habilidad que más adelante necesitará para ordenar, comparar y razonar. No hay carrera ni estrellas que juntar: solo el pequeño separando con calma Animales de Actividades y mirando con orgullo sus dos grupos terminados.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Actividades y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Actividades, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-activities-vs-animals-ff66",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y En el supermercado",
+          "href": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
+        },
+        {
+          "label": "Clasifica Animales y Panader�a",
+          "href": "clasificar-imagenes-animals-vs-bakery-f867"
+        },
+        {
+          "label": "Clasifica Animales y Partes del cuerpo",
+          "href": "clasificar-imagenes-animals-vs-body-parts-6ea8"
+        },
+        {
+          "label": "Clasifica Animales y Dinosaurios",
+          "href": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y En el supermercado",
+      "metaDescription": "Clasifica Animales y En el supermercado (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y En el supermercado por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿De qué grupo es cada imagen? El niño mira un dibujo, decide si va con Animales o con En el supermercado, y lo coloca en su lugar. Esta hoja revuelve las imágenes de Animales y En el supermercado para que el pequeño las clasifique, separando una categoría de la otra. No se cuenta: se observa y se agrupa por características. Esta práctica de clasificación es una destreza precursora tranquila, sin números, que en la escuela ayuda a ordenar ideas. Con Animales y En el supermercado conocidos, la tarea se mantiene cercana y agradable, y la satisfacción de tener todo ordenado llega sola.",
+      "p2": "En esta versión hay más imágenes para repartir, así que el niño clasifica un montón más grande de Animales y En el supermercado, llevando cada dibujo a su grupo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de ver los dos grupos bien separados.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y En el supermercado, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Panader�a",
+          "href": "clasificar-imagenes-animals-vs-bakery-f867"
+        },
+        {
+          "label": "Clasifica Animales y Playa",
+          "href": "clasificar-imagenes-animals-vs-beach-4dd1"
+        },
+        {
+          "label": "Clasifica Animales y Desayuno",
+          "href": "clasificar-imagenes-animals-vs-breakfast-c226"
+        },
+        {
+          "label": "Clasifica Animales y Pascua",
+          "href": "clasificar-imagenes-animals-vs-easter-ac0e"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-bakery-f867",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-bakery",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Panader�a",
+      "metaDescription": "Clasifica Animales y Panader�a (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Panader�a",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Panader�a",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja, el niño se vuelve un pequeño clasificador: observa cada imagen y decide si pertenece al grupo de Animales o al de Panader�a. Las imágenes empiezan todas revueltas, y el pequeño las separa por su categoría hasta dejar dos grupos claros. Se trata de observar y agrupar, no de contar, esa clasificación por características tan importante antes de que empiece la escuela. Con Animales y Panader�a conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de ordenar un montón revuelto en sus dos grupos.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Panader�a hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Panader�a, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-bakery-f867",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Playa",
+          "href": "clasificar-imagenes-animals-vs-beach-4dd1"
+        },
+        {
+          "label": "Clasifica Animales y Aves",
+          "href": "clasificar-imagenes-animals-vs-birds-e49d"
+        },
+        {
+          "label": "Clasifica Animales y Navidad",
+          "href": "clasificar-imagenes-animals-vs-christmas-31bb"
+        },
+        {
+          "label": "Clasifica Animales y Emociones",
+          "href": "clasificar-imagenes-animals-vs-emotions-306e"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-beach-4dd1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-beach",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Playa",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Playa en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Playa: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos grupos, un montón de imágenes revueltas, y el niño pone orden. En esta hoja separa las de Animales de las de Playa, llevando cada dibujo a su categoría. Es clasificación pura: observar, comparar y agrupar por lo que las imágenes tienen en común. Aquí no se cuenta nada, porque en preescolar el ojo y el criterio importan más que el número. Con Animales y Playa como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada grupo bien separado hace crecer un poco la confianza del pequeño.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Playa y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Playa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-beach-4dd1",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Aves",
+          "href": "clasificar-imagenes-animals-vs-birds-e49d"
+        },
+        {
+          "label": "Clasifica Animales y Partes del cuerpo",
+          "href": "clasificar-imagenes-animals-vs-body-parts-6ea8"
+        },
+        {
+          "label": "Clasifica Animales y Sal�n de clases",
+          "href": "clasificar-imagenes-animals-vs-classroom-a07b"
+        },
+        {
+          "label": "Clasifica Animales y Flores",
+          "href": "clasificar-imagenes-animals-vs-flowers-b23d"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-birds-e49d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-birds",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Aves",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Aves en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Aves por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Separar en dos grupos: de eso trata esta hoja de clasificación para preescolar. Todas las imágenes de Animales y de Aves están revueltas, y el niño las ordena según a qué clase pertenecen. Reconoce qué hace que un dibujo sea de Animales y qué lo hace de Aves, y así forma dos montones bien separados. No hay números ni se cuenta nada, solo observar con calma y clasificar por características. Esa forma de agrupar por semejanzas y diferencias prepara al pequeño para pensar y ordenar el mundo, a su propio ritmo y sin presión.",
+      "p2": "En esta versión hay más imágenes para repartir, así que el niño clasifica un montón más grande de Animales y Aves, llevando cada dibujo a su grupo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de ver los dos grupos bien separados.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Aves, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-birds-e49d",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Partes del cuerpo",
+          "href": "clasificar-imagenes-animals-vs-body-parts-6ea8"
+        },
+        {
+          "label": "Clasifica Animales y Desayuno",
+          "href": "clasificar-imagenes-animals-vs-breakfast-c226"
+        },
+        {
+          "label": "Clasifica Animales y Ropa",
+          "href": "clasificar-imagenes-animals-vs-clothing-ffaa"
+        },
+        {
+          "label": "Clasifica Animales y Frutas",
+          "href": "clasificar-imagenes-animals-vs-fruits-d77d"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-body-parts-6ea8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-body_parts",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Partes del cuerpo",
+      "metaDescription": "Clasifica Animales y Partes del cuerpo (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Partes del cuerpo",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un dibujo, una categoría, y poco a poco todo queda ordenado. Así de sencilla y valiosa es esta hoja de clasificar Animales y Partes del cuerpo para preescolar. El niño observa las imágenes revueltas y las reparte en dos grupos según sean de Animales o de Partes del cuerpo. Esta tarea afina el mirar con atención y el sentido de cómo agrupar por semejanzas, sin números y sin contar. En el año previo a la escuela, clasificar así es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada montón bien separado es un logro real que invita a seguir.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Partes del cuerpo hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Partes del cuerpo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-body-parts-6ea8",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Desayuno",
+          "href": "clasificar-imagenes-animals-vs-breakfast-c226"
+        },
+        {
+          "label": "Clasifica Animales y Navidad",
+          "href": "clasificar-imagenes-animals-vs-christmas-31bb"
+        },
+        {
+          "label": "Clasifica Animales y Postres y dulces",
+          "href": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
+        },
+        {
+          "label": "Clasifica Animales y Muebles",
+          "href": "clasificar-imagenes-animals-vs-furniture-b9b1"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-breakfast-c226",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-breakfast",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Desayuno",
+      "metaDescription": "Clasifica Animales y Desayuno (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Desayuno: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Clasificar es comparar y agrupar: en esta hoja, el niño separa las imágenes de Animales de las de Desayuno. Observa cada dibujo, nota qué características tiene y lo manda al grupo que le corresponde. Como solo hay dos categorías, la tarea es clara y da ánimo. El pequeño descubre que puede ordenar un montón revuelto con solo mirar con atención. Esta clasificación por características es una base científica valiosa, mucho antes de la primaria, y se hace sin contar y sin presión, con Animales y Desayuno de su mundo.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Desayuno y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Desayuno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-breakfast-c226",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Navidad",
+          "href": "clasificar-imagenes-animals-vs-christmas-31bb"
+        },
+        {
+          "label": "Clasifica Animales y Sal�n de clases",
+          "href": "clasificar-imagenes-animals-vs-classroom-a07b"
+        },
+        {
+          "label": "Clasifica Animales y Dinosaurios",
+          "href": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
+        },
+        {
+          "label": "Clasifica Animales y Hospital",
+          "href": "clasificar-imagenes-animals-vs-hospital-8f3a"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-christmas-31bb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-christmas",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Navidad",
+      "metaDescription": "Clasifica Animales y Navidad (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Navidad por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja se mezclan dos clases de imágenes: las de Animales y las de Navidad. El niño observa cada dibujo y lo coloca en el grupo al que pertenece —de un lado Animales, del otro Navidad—, separando todo por su categoría. Aquí no se cuenta nada: se clasifica. Mirar en qué se parecen unas imágenes y en qué se diferencian de otras, y agruparlas por eso, es una habilidad científica temprana muy valiosa para la escuela. Con dibujos conocidos de Animales y Navidad, empezar es fácil y cada grupo bien armado se siente como un pequeño logro.",
+      "p2": "En esta versión hay más imágenes para repartir, así que el niño clasifica un montón más grande de Animales y Navidad, llevando cada dibujo a su grupo. Eso fortalece a la vez la constancia y el mirar con atención. No hay reloj ni puntos, solo la alegría tranquila de ver los dos grupos bien separados.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Navidad, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-christmas-31bb",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Sal�n de clases",
+          "href": "clasificar-imagenes-animals-vs-classroom-a07b"
+        },
+        {
+          "label": "Clasifica Animales y Ropa",
+          "href": "clasificar-imagenes-animals-vs-clothing-ffaa"
+        },
+        {
+          "label": "Clasifica Animales y Pascua",
+          "href": "clasificar-imagenes-animals-vs-easter-ac0e"
+        },
+        {
+          "label": "Clasifica Animales y Utensilios de cocina",
+          "href": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-classroom-a07b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-classroom",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Sal�n de clases",
+      "metaDescription": "Clasifica Animales y Sal�n de clases (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Sal�n de clases",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Sal�n de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Animales o Sal�n de clases? Esa es la pregunta de esta hoja de clasificación para preescolar. El niño ve imágenes de las dos clases mezcladas y decide, una por una, a qué grupo pertenece cada dibujo. Con Animales y Sal�n de clases que ya conoce, la primera mirada le resulta fácil. Así entrena el clasificar por características, una habilidad que más adelante necesitará para ordenar, comparar y razonar. No hay carrera ni estrellas que juntar: solo el pequeño separando con calma Animales de Sal�n de clases y mirando con orgullo sus dos grupos terminados.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Sal�n de clases hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Sal�n de clases, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-classroom-a07b",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Ropa",
+          "href": "clasificar-imagenes-animals-vs-clothing-ffaa"
+        },
+        {
+          "label": "Clasifica Animales y Postres y dulces",
+          "href": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
+        },
+        {
+          "label": "Clasifica Animales y Emociones",
+          "href": "clasificar-imagenes-animals-vs-emotions-306e"
+        },
+        {
+          "label": "Clasifica Animales y M�sica",
+          "href": "clasificar-imagenes-animals-vs-music-3a91"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-clothing-ffaa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-clothing",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Ropa",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Ropa en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Ropa: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿De qué grupo es cada imagen? El niño mira un dibujo, decide si va con Animales o con Ropa, y lo coloca en su lugar. Esta hoja revuelve las imágenes de Animales y Ropa para que el pequeño las clasifique, separando una categoría de la otra. No se cuenta: se observa y se agrupa por características. Esta práctica de clasificación es una destreza precursora tranquila, sin números, que en la escuela ayuda a ordenar ideas. Con Animales y Ropa conocidos, la tarea se mantiene cercana y agradable, y la satisfacción de tener todo ordenado llega sola.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Ropa y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Ropa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-clothing-ffaa",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Postres y dulces",
+          "href": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb"
+        },
+        {
+          "label": "Clasifica Animales y Dinosaurios",
+          "href": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
+        },
+        {
+          "label": "Clasifica Animales y Flores",
+          "href": "clasificar-imagenes-animals-vs-flowers-b23d"
+        },
+        {
+          "label": "Clasifica Animales y Ocupaciones",
+          "href": "clasificar-imagenes-animals-vs-occupations-03ba"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Postres y dulces",
+      "metaDescription": "Clasifica Animales y Postres y dulces (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Postres y dulces por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja, el niño se vuelve un pequeño clasificador: observa cada imagen y decide si pertenece al grupo de Animales o al de Postres y dulces. Las imágenes empiezan todas revueltas, y el pequeño las separa por su categoría hasta dejar dos grupos claros. Se trata de observar y agrupar, no de contar, esa clasificación por características tan importante antes de que empiece la escuela. Con Animales y Postres y dulces conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de ordenar un montón revuelto en sus dos grupos.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y Postres y dulces y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Postres y dulces, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-desserts-and-sweets-4fbb",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Dinosaurios",
+          "href": "clasificar-imagenes-animals-vs-dinosaurs-e02f"
+        },
+        {
+          "label": "Clasifica Animales y Pascua",
+          "href": "clasificar-imagenes-animals-vs-easter-ac0e"
+        },
+        {
+          "label": "Clasifica Animales y Frutas",
+          "href": "clasificar-imagenes-animals-vs-fruits-d77d"
+        },
+        {
+          "label": "Clasifica Animales y Oficina de correos",
+          "href": "clasificar-imagenes-animals-vs-post-office-3c85"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-dinosaurs-e02f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Dinosaurios",
+      "metaDescription": "Clasifica Animales y Dinosaurios (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Dinosaurios",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos grupos, un montón de imágenes revueltas, y el niño pone orden. En esta hoja separa las de Animales de las de Dinosaurios, llevando cada dibujo a su categoría. Es clasificación pura: observar, comparar y agrupar por lo que las imágenes tienen en común. Aquí no se cuenta nada, porque en preescolar el ojo y el criterio importan más que el número. Con Animales y Dinosaurios como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada grupo bien separado hace crecer un poco la confianza del pequeño.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Dinosaurios hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Dinosaurios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-dinosaurs-e02f",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Pascua",
+          "href": "clasificar-imagenes-animals-vs-easter-ac0e"
+        },
+        {
+          "label": "Clasifica Animales y Emociones",
+          "href": "clasificar-imagenes-animals-vs-emotions-306e"
+        },
+        {
+          "label": "Clasifica Animales y Muebles",
+          "href": "clasificar-imagenes-animals-vs-furniture-b9b1"
+        },
+        {
+          "label": "Clasifica Animales y Formas",
+          "href": "clasificar-imagenes-animals-vs-shapes-2f8a"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-easter-ac0e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-easter",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Pascua",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Pascua en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Pascua: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Separar en dos grupos: de eso trata esta hoja de clasificación para preescolar. Todas las imágenes de Animales y de Pascua están revueltas, y el niño las ordena según a qué clase pertenecen. Reconoce qué hace que un dibujo sea de Animales y qué lo hace de Pascua, y así forma dos montones bien separados. No hay números ni se cuenta nada, solo observar con calma y clasificar por características. Esa forma de agrupar por semejanzas y diferencias prepara al pequeño para pensar y ordenar el mundo, a su propio ritmo y sin presión.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Pascua y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Pascua, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-easter-ac0e",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Emociones",
+          "href": "clasificar-imagenes-animals-vs-emotions-306e"
+        },
+        {
+          "label": "Clasifica Animales y Flores",
+          "href": "clasificar-imagenes-animals-vs-flowers-b23d"
+        },
+        {
+          "label": "Clasifica Animales y Hospital",
+          "href": "clasificar-imagenes-animals-vs-hospital-8f3a"
+        },
+        {
+          "label": "Clasifica Animales y Espacio",
+          "href": "clasificar-imagenes-animals-vs-space-ed50"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-emotions-306e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-emotions",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Emociones",
+      "metaDescription": "Clasifica Animales y Emociones (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Emociones por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un dibujo, una categoría, y poco a poco todo queda ordenado. Así de sencilla y valiosa es esta hoja de clasificar Animales y Emociones para preescolar. El niño observa las imágenes revueltas y las reparte en dos grupos según sean de Animales o de Emociones. Esta tarea afina el mirar con atención y el sentido de cómo agrupar por semejanzas, sin números y sin contar. En el año previo a la escuela, clasificar así es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada montón bien separado es un logro real que invita a seguir.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y Emociones y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Emociones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-emotions-306e",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Flores",
+          "href": "clasificar-imagenes-animals-vs-flowers-b23d"
+        },
+        {
+          "label": "Clasifica Animales y Frutas",
+          "href": "clasificar-imagenes-animals-vs-fruits-d77d"
+        },
+        {
+          "label": "Clasifica Animales y Utensilios de cocina",
+          "href": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
+        },
+        {
+          "label": "Clasifica Animales y Verano",
+          "href": "clasificar-imagenes-animals-vs-summer-cdb9"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-flowers-b23d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-flowers",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Flores",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Flores en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Flores",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Clasificar es comparar y agrupar: en esta hoja, el niño separa las imágenes de Animales de las de Flores. Observa cada dibujo, nota qué características tiene y lo manda al grupo que le corresponde. Como solo hay dos categorías, la tarea es clara y da ánimo. El pequeño descubre que puede ordenar un montón revuelto con solo mirar con atención. Esta clasificación por características es una base científica valiosa, mucho antes de la primaria, y se hace sin contar y sin presión, con Animales y Flores de su mundo.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Flores hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Flores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-flowers-b23d",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Frutas",
+          "href": "clasificar-imagenes-animals-vs-fruits-d77d"
+        },
+        {
+          "label": "Clasifica Animales y Muebles",
+          "href": "clasificar-imagenes-animals-vs-furniture-b9b1"
+        },
+        {
+          "label": "Clasifica Animales y M�sica",
+          "href": "clasificar-imagenes-animals-vs-music-3a91"
+        },
+        {
+          "label": "Clasifica Animales y D�a de Acci�n de Gracias",
+          "href": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-fruits-d77d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-fruits",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Frutas",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Frutas en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Frutas: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja se mezclan dos clases de imágenes: las de Animales y las de Frutas. El niño observa cada dibujo y lo coloca en el grupo al que pertenece —de un lado Animales, del otro Frutas—, separando todo por su categoría. Aquí no se cuenta nada: se clasifica. Mirar en qué se parecen unas imágenes y en qué se diferencian de otras, y agruparlas por eso, es una habilidad científica temprana muy valiosa para la escuela. Con dibujos conocidos de Animales y Frutas, empezar es fácil y cada grupo bien armado se siente como un pequeño logro.",
+      "p2": "En esta variante hay un par de imágenes que podrían confundir, así que el niño piensa con cuidado a qué grupo van. Comparar entre Animales y Frutas y decidir con calma afina el criterio de clasificación. Si duda, puede volver a mirar; cada decisión cuenta y nada lo apura. Sin presión de bien o mal, solo separar con calma en dos grupos.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Frutas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-fruits-d77d",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Muebles",
+          "href": "clasificar-imagenes-animals-vs-furniture-b9b1"
+        },
+        {
+          "label": "Clasifica Animales y Hospital",
+          "href": "clasificar-imagenes-animals-vs-hospital-8f3a"
+        },
+        {
+          "label": "Clasifica Animales y Ocupaciones",
+          "href": "clasificar-imagenes-animals-vs-occupations-03ba"
+        },
+        {
+          "label": "Clasifica Animales y Herramientas",
+          "href": "clasificar-imagenes-animals-vs-tools-895a"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-furniture-b9b1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-furniture",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Muebles",
+      "metaDescription": "Clasifica Animales y Muebles (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Muebles por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Animales o Muebles? Esa es la pregunta de esta hoja de clasificación para preescolar. El niño ve imágenes de las dos clases mezcladas y decide, una por una, a qué grupo pertenece cada dibujo. Con Animales y Muebles que ya conoce, la primera mirada le resulta fácil. Así entrena el clasificar por características, una habilidad que más adelante necesitará para ordenar, comparar y razonar. No hay carrera ni estrellas que juntar: solo el pequeño separando con calma Animales de Muebles y mirando con orgullo sus dos grupos terminados.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y Muebles y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Muebles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-furniture-b9b1",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Hospital",
+          "href": "clasificar-imagenes-animals-vs-hospital-8f3a"
+        },
+        {
+          "label": "Clasifica Animales y Utensilios de cocina",
+          "href": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
+        },
+        {
+          "label": "Clasifica Animales y Oficina de correos",
+          "href": "clasificar-imagenes-animals-vs-post-office-3c85"
+        },
+        {
+          "label": "Clasifica Animales y Juguetes",
+          "href": "clasificar-imagenes-animals-vs-toys-6b6d"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-hospital-8f3a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-hospital",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Hospital",
+      "metaDescription": "Clasifica Animales y Hospital (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Hospital",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿De qué grupo es cada imagen? El niño mira un dibujo, decide si va con Animales o con Hospital, y lo coloca en su lugar. Esta hoja revuelve las imágenes de Animales y Hospital para que el pequeño las clasifique, separando una categoría de la otra. No se cuenta: se observa y se agrupa por características. Esta práctica de clasificación es una destreza precursora tranquila, sin números, que en la escuela ayuda a ordenar ideas. Con Animales y Hospital conocidos, la tarea se mantiene cercana y agradable, y la satisfacción de tener todo ordenado llega sola.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Hospital hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Hospital, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-hospital-8f3a",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Utensilios de cocina",
+          "href": "clasificar-imagenes-animals-vs-kitchen-tools-76fd"
+        },
+        {
+          "label": "Clasifica Animales y M�sica",
+          "href": "clasificar-imagenes-animals-vs-music-3a91"
+        },
+        {
+          "label": "Clasifica Animales y Formas",
+          "href": "clasificar-imagenes-animals-vs-shapes-2f8a"
+        },
+        {
+          "label": "Clasifica Animales y �rboles",
+          "href": "clasificar-imagenes-animals-vs-tree-98be"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-kitchen-tools-76fd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Utensilios de cocina",
+      "metaDescription": "Clasifica Animales y Utensilios de cocina (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Utensilios de cocina: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja, el niño se vuelve un pequeño clasificador: observa cada imagen y decide si pertenece al grupo de Animales o al de Utensilios de cocina. Las imágenes empiezan todas revueltas, y el pequeño las separa por su categoría hasta dejar dos grupos claros. Se trata de observar y agrupar, no de contar, esa clasificación por características tan importante antes de que empiece la escuela. Con Animales y Utensilios de cocina conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de ordenar un montón revuelto en sus dos grupos.",
+      "p2": "Aquí el niño puede nombrar en voz alta cada imagen mientras la coloca: \"este es de Animales\", \"este es de Utensilios de cocina\". Decir la categoría mientras separa ayuda a fijar el criterio y hace el clasificar más divertido. Aquí cuenta el ojo y el razonamiento, no el número, a su propio ritmo y sin apuro.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Utensilios de cocina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-kitchen-tools-76fd",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y M�sica",
+          "href": "clasificar-imagenes-animals-vs-music-3a91"
+        },
+        {
+          "label": "Clasifica Animales y Ocupaciones",
+          "href": "clasificar-imagenes-animals-vs-occupations-03ba"
+        },
+        {
+          "label": "Clasifica Animales y Espacio",
+          "href": "clasificar-imagenes-animals-vs-space-ed50"
+        },
+        {
+          "label": "Clasifica Animales y Verduras",
+          "href": "clasificar-imagenes-animals-vs-vegetables-86ab"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-music-3a91",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-music",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y M�sica",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y M�sica en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y M�sica por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "M�sica",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos grupos, un montón de imágenes revueltas, y el niño pone orden. En esta hoja separa las de Animales de las de M�sica, llevando cada dibujo a su categoría. Es clasificación pura: observar, comparar y agrupar por lo que las imágenes tienen en común. Aquí no se cuenta nada, porque en preescolar el ojo y el criterio importan más que el número. Con Animales y M�sica como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada grupo bien separado hace crecer un poco la confianza del pequeño.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y M�sica y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y M�sica, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-music-3a91",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Ocupaciones",
+          "href": "clasificar-imagenes-animals-vs-occupations-03ba"
+        },
+        {
+          "label": "Clasifica Animales y Oficina de correos",
+          "href": "clasificar-imagenes-animals-vs-post-office-3c85"
+        },
+        {
+          "label": "Clasifica Animales y Verano",
+          "href": "clasificar-imagenes-animals-vs-summer-cdb9"
+        },
+        {
+          "label": "Clasifica Animales y Veh�culos",
+          "href": "clasificar-imagenes-animals-vs-vehicles-3f91"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-occupations-03ba",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-occupations",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Ocupaciones",
+      "metaDescription": "Clasifica Animales y Ocupaciones (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Ocupaciones",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Separar en dos grupos: de eso trata esta hoja de clasificación para preescolar. Todas las imágenes de Animales y de Ocupaciones están revueltas, y el niño las ordena según a qué clase pertenecen. Reconoce qué hace que un dibujo sea de Animales y qué lo hace de Ocupaciones, y así forma dos montones bien separados. No hay números ni se cuenta nada, solo observar con calma y clasificar por características. Esa forma de agrupar por semejanzas y diferencias prepara al pequeño para pensar y ordenar el mundo, a su propio ritmo y sin presión.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Ocupaciones hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Ocupaciones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-occupations-03ba",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Oficina de correos",
+          "href": "clasificar-imagenes-animals-vs-post-office-3c85"
+        },
+        {
+          "label": "Clasifica Animales y Formas",
+          "href": "clasificar-imagenes-animals-vs-shapes-2f8a"
+        },
+        {
+          "label": "Clasifica Animales y D�a de Acci�n de Gracias",
+          "href": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
+        },
+        {
+          "label": "Clasifica Animales y Clima",
+          "href": "clasificar-imagenes-animals-vs-weather-fb18"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-post-office-3c85",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-post_office",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Oficina de correos",
+      "metaDescription": "Clasifica Animales y Oficina de correos (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Oficina de correos: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un dibujo, una categoría, y poco a poco todo queda ordenado. Así de sencilla y valiosa es esta hoja de clasificar Animales y Oficina de correos para preescolar. El niño observa las imágenes revueltas y las reparte en dos grupos según sean de Animales o de Oficina de correos. Esta tarea afina el mirar con atención y el sentido de cómo agrupar por semejanzas, sin números y sin contar. En el año previo a la escuela, clasificar así es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada montón bien separado es un logro real que invita a seguir.",
+      "p2": "Aquí el niño puede nombrar en voz alta cada imagen mientras la coloca: \"este es de Animales\", \"este es de Oficina de correos\". Decir la categoría mientras separa ayuda a fijar el criterio y hace el clasificar más divertido. Aquí cuenta el ojo y el razonamiento, no el número, a su propio ritmo y sin apuro.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Oficina de correos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-post-office-3c85",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Formas",
+          "href": "clasificar-imagenes-animals-vs-shapes-2f8a"
+        },
+        {
+          "label": "Clasifica Animales y Espacio",
+          "href": "clasificar-imagenes-animals-vs-space-ed50"
+        },
+        {
+          "label": "Clasifica Animales y Herramientas",
+          "href": "clasificar-imagenes-animals-vs-tools-895a"
+        },
+        {
+          "label": "Clasifica Animales y Alrededor de la casa",
+          "href": "clasificar-imagenes-around-the-house-vs-animals-98be"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-shapes-2f8a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-shapes",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Formas",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Formas en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Formas por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Clasificar es comparar y agrupar: en esta hoja, el niño separa las imágenes de Animales de las de Formas. Observa cada dibujo, nota qué características tiene y lo manda al grupo que le corresponde. Como solo hay dos categorías, la tarea es clara y da ánimo. El pequeño descubre que puede ordenar un montón revuelto con solo mirar con atención. Esta clasificación por características es una base científica valiosa, mucho antes de la primaria, y se hace sin contar y sin presión, con Animales y Formas de su mundo.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y Formas y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Formas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-shapes-2f8a",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Espacio",
+          "href": "clasificar-imagenes-animals-vs-space-ed50"
+        },
+        {
+          "label": "Clasifica Animales y Verano",
+          "href": "clasificar-imagenes-animals-vs-summer-cdb9"
+        },
+        {
+          "label": "Clasifica Animales y Juguetes",
+          "href": "clasificar-imagenes-animals-vs-toys-6b6d"
+        },
+        {
+          "label": "Clasifica Animales y Accesorios",
+          "href": "clasificar-imagenes-accessories-vs-animals-f238"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-space-ed50",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-space",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Espacio",
+      "metaDescription": "Clasifica Animales y Espacio (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Espacio",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja se mezclan dos clases de imágenes: las de Animales y las de Espacio. El niño observa cada dibujo y lo coloca en el grupo al que pertenece —de un lado Animales, del otro Espacio—, separando todo por su categoría. Aquí no se cuenta nada: se clasifica. Mirar en qué se parecen unas imágenes y en qué se diferencian de otras, y agruparlas por eso, es una habilidad científica temprana muy valiosa para la escuela. Con dibujos conocidos de Animales y Espacio, empezar es fácil y cada grupo bien armado se siente como un pequeño logro.",
+      "p2": "En esta variante se mezcla una buena cantidad de imágenes, así que el niño clasifica con paciencia todo el montón de Animales y Espacio hasta dejar dos grupos completos. Eso fortalece al mismo tiempo el mirar con atención y la constancia. Sin puntos ni reloj, solo el pequeño y la callada alegría de haber ordenado todo por categorías.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Espacio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-space-ed50",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Verano",
+          "href": "clasificar-imagenes-animals-vs-summer-cdb9"
+        },
+        {
+          "label": "Clasifica Animales y D�a de Acci�n de Gracias",
+          "href": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
+        },
+        {
+          "label": "Clasifica Animales y �rboles",
+          "href": "clasificar-imagenes-animals-vs-tree-98be"
+        },
+        {
+          "label": "Clasifica Animales y Actividades",
+          "href": "clasificar-imagenes-activities-vs-animals-ff66"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-summer-cdb9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-summer",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Verano",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Verano en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Verano: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Animales o Verano? Esa es la pregunta de esta hoja de clasificación para preescolar. El niño ve imágenes de las dos clases mezcladas y decide, una por una, a qué grupo pertenece cada dibujo. Con Animales y Verano que ya conoce, la primera mirada le resulta fácil. Así entrena el clasificar por características, una habilidad que más adelante necesitará para ordenar, comparar y razonar. No hay carrera ni estrellas que juntar: solo el pequeño separando con calma Animales de Verano y mirando con orgullo sus dos grupos terminados.",
+      "p2": "Aquí el niño puede nombrar en voz alta cada imagen mientras la coloca: \"este es de Animales\", \"este es de Verano\". Decir la categoría mientras separa ayuda a fijar el criterio y hace el clasificar más divertido. Aquí cuenta el ojo y el razonamiento, no el número, a su propio ritmo y sin apuro.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Verano, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-summer-cdb9",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y D�a de Acci�n de Gracias",
+          "href": "clasificar-imagenes-animals-vs-thanksgiving-96b3"
+        },
+        {
+          "label": "Clasifica Animales y Herramientas",
+          "href": "clasificar-imagenes-animals-vs-tools-895a"
+        },
+        {
+          "label": "Clasifica Animales y Verduras",
+          "href": "clasificar-imagenes-animals-vs-vegetables-86ab"
+        },
+        {
+          "label": "Clasifica Animales y En el supermercado",
+          "href": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-thanksgiving-96b3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y D�a de Acci�n de Gracias",
+      "metaDescription": "Clasifica Animales y D�a de Acci�n de Gracias (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y D�a de Acci�n de Gracias por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "D�a de Acci�n de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿De qué grupo es cada imagen? El niño mira un dibujo, decide si va con Animales o con D�a de Acci�n de Gracias, y lo coloca en su lugar. Esta hoja revuelve las imágenes de Animales y D�a de Acci�n de Gracias para que el pequeño las clasifique, separando una categoría de la otra. No se cuenta: se observa y se agrupa por características. Esta práctica de clasificación es una destreza precursora tranquila, sin números, que en la escuela ayuda a ordenar ideas. Con Animales y D�a de Acci�n de Gracias conocidos, la tarea se mantiene cercana y agradable, y la satisfacción de tener todo ordenado llega sola.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y D�a de Acci�n de Gracias y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y D�a de Acci�n de Gracias, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-thanksgiving-96b3",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Herramientas",
+          "href": "clasificar-imagenes-animals-vs-tools-895a"
+        },
+        {
+          "label": "Clasifica Animales y Juguetes",
+          "href": "clasificar-imagenes-animals-vs-toys-6b6d"
+        },
+        {
+          "label": "Clasifica Animales y Veh�culos",
+          "href": "clasificar-imagenes-animals-vs-vehicles-3f91"
+        },
+        {
+          "label": "Clasifica Animales y Panader�a",
+          "href": "clasificar-imagenes-animals-vs-bakery-f867"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-tools-895a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-tools",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Herramientas",
+      "metaDescription": "Clasifica Animales y Herramientas (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Herramientas",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja, el niño se vuelve un pequeño clasificador: observa cada imagen y decide si pertenece al grupo de Animales o al de Herramientas. Las imágenes empiezan todas revueltas, y el pequeño las separa por su categoría hasta dejar dos grupos claros. Se trata de observar y agrupar, no de contar, esa clasificación por características tan importante antes de que empiece la escuela. Con Animales y Herramientas conocidos, todo se mantiene como un juego. No hay tiempo que corra ni error que pese: solo la calma de ordenar un montón revuelto en sus dos grupos.",
+      "p2": "Aquí lo bonito es hacerlo juntos: revuelvan las imágenes de Animales y Herramientas y vayan separándolas mientras conversan sobre por qué cada una va en su grupo. Hablar de las semejanzas y diferencias enriquece el clasificar y el lenguaje a la vez. Todo de juego, sin números, sin contar y sin carrera, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Herramientas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-tools-895a",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Juguetes",
+          "href": "clasificar-imagenes-animals-vs-toys-6b6d"
+        },
+        {
+          "label": "Clasifica Animales y �rboles",
+          "href": "clasificar-imagenes-animals-vs-tree-98be"
+        },
+        {
+          "label": "Clasifica Animales y Clima",
+          "href": "clasificar-imagenes-animals-vs-weather-fb18"
+        },
+        {
+          "label": "Clasifica Animales y Playa",
+          "href": "clasificar-imagenes-animals-vs-beach-4dd1"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-toys-6b6d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-toys",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Juguetes",
+      "metaDescription": "Clasifica Animales y Juguetes (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Juguetes: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos grupos, un montón de imágenes revueltas, y el niño pone orden. En esta hoja separa las de Animales de las de Juguetes, llevando cada dibujo a su categoría. Es clasificación pura: observar, comparar y agrupar por lo que las imágenes tienen en común. Aquí no se cuenta nada, porque en preescolar el ojo y el criterio importan más que el número. Con Animales y Juguetes como acompañantes conocidos, la práctica se mantiene cálida y sin prisa, y cada grupo bien separado hace crecer un poco la confianza del pequeño.",
+      "p2": "Aquí el niño puede nombrar en voz alta cada imagen mientras la coloca: \"este es de Animales\", \"este es de Juguetes\". Decir la categoría mientras separa ayuda a fijar el criterio y hace el clasificar más divertido. Aquí cuenta el ojo y el razonamiento, no el número, a su propio ritmo y sin apuro.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Juguetes, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-toys-6b6d",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y �rboles",
+          "href": "clasificar-imagenes-animals-vs-tree-98be"
+        },
+        {
+          "label": "Clasifica Animales y Verduras",
+          "href": "clasificar-imagenes-animals-vs-vegetables-86ab"
+        },
+        {
+          "label": "Clasifica Animales y Alrededor de la casa",
+          "href": "clasificar-imagenes-around-the-house-vs-animals-98be"
+        },
+        {
+          "label": "Clasifica Animales y Aves",
+          "href": "clasificar-imagenes-animals-vs-birds-e49d"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-tree-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-tree",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y �rboles",
+      "metaDescription": "Clasifica Animales y �rboles (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y �rboles por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "�rboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Separar en dos grupos: de eso trata esta hoja de clasificación para preescolar. Todas las imágenes de Animales y de �rboles están revueltas, y el niño las ordena según a qué clase pertenecen. Reconoce qué hace que un dibujo sea de Animales y qué lo hace de �rboles, y así forma dos montones bien separados. No hay números ni se cuenta nada, solo observar con calma y clasificar por características. Esa forma de agrupar por semejanzas y diferencias prepara al pequeño para pensar y ordenar el mundo, a su propio ritmo y sin presión.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y �rboles y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y �rboles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-tree-98be",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Verduras",
+          "href": "clasificar-imagenes-animals-vs-vegetables-86ab"
+        },
+        {
+          "label": "Clasifica Animales y Veh�culos",
+          "href": "clasificar-imagenes-animals-vs-vehicles-3f91"
+        },
+        {
+          "label": "Clasifica Animales y Accesorios",
+          "href": "clasificar-imagenes-accessories-vs-animals-f238"
+        },
+        {
+          "label": "Clasifica Animales y Partes del cuerpo",
+          "href": "clasificar-imagenes-animals-vs-body-parts-6ea8"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-vegetables-86ab",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-vegetables",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Verduras",
+      "metaDescription": "Clasifica Animales y Verduras (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Verduras",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un dibujo, una categoría, y poco a poco todo queda ordenado. Así de sencilla y valiosa es esta hoja de clasificar Animales y Verduras para preescolar. El niño observa las imágenes revueltas y las reparte en dos grupos según sean de Animales o de Verduras. Esta tarea afina el mirar con atención y el sentido de cómo agrupar por semejanzas, sin números y sin contar. En el año previo a la escuela, clasificar así es justamente una destreza precursora muy útil. El pequeño descubre en lugar de cumplir, y cada montón bien separado es un logro real que invita a seguir.",
+      "p2": "Aquí lo bonito es hacerlo juntos: revuelvan las imágenes de Animales y Verduras y vayan separándolas mientras conversan sobre por qué cada una va en su grupo. Hablar de las semejanzas y diferencias enriquece el clasificar y el lenguaje a la vez. Todo de juego, sin números, sin contar y sin carrera, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Verduras, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-vegetables-86ab",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Veh�culos",
+          "href": "clasificar-imagenes-animals-vs-vehicles-3f91"
+        },
+        {
+          "label": "Clasifica Animales y Clima",
+          "href": "clasificar-imagenes-animals-vs-weather-fb18"
+        },
+        {
+          "label": "Clasifica Animales y Actividades",
+          "href": "clasificar-imagenes-activities-vs-animals-ff66"
+        },
+        {
+          "label": "Clasifica Animales y Desayuno",
+          "href": "clasificar-imagenes-animals-vs-breakfast-c226"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-vehicles-3f91",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-vehicles",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Veh�culos",
+      "metaDescription": "Clasifica Animales y Veh�culos (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Animales o Veh�culos: Separa en Dos Grupos",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Veh�culos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Clasificar es comparar y agrupar: en esta hoja, el niño separa las imágenes de Animales de las de Veh�culos. Observa cada dibujo, nota qué características tiene y lo manda al grupo que le corresponde. Como solo hay dos categorías, la tarea es clara y da ánimo. El pequeño descubre que puede ordenar un montón revuelto con solo mirar con atención. Esta clasificación por características es una base científica valiosa, mucho antes de la primaria, y se hace sin contar y sin presión, con Animales y Veh�culos de su mundo.",
+      "p2": "Aquí el niño puede nombrar en voz alta cada imagen mientras la coloca: \"este es de Animales\", \"este es de Veh�culos\". Decir la categoría mientras separa ayuda a fijar el criterio y hace el clasificar más divertido. Aquí cuenta el ojo y el razonamiento, no el número, a su propio ritmo y sin apuro.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Veh�culos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-vehicles-3f91",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Clima",
+          "href": "clasificar-imagenes-animals-vs-weather-fb18"
+        },
+        {
+          "label": "Clasifica Animales y Alrededor de la casa",
+          "href": "clasificar-imagenes-around-the-house-vs-animals-98be"
+        },
+        {
+          "label": "Clasifica Animales y En el supermercado",
+          "href": "clasificar-imagenes-animals-vs-at-the-supermarket-1d73"
+        },
+        {
+          "label": "Clasifica Animales y Navidad",
+          "href": "clasificar-imagenes-animals-vs-christmas-31bb"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-animals-vs-weather-fb18",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "animals-vs-weather",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Clima",
+      "metaDescription": "Hoja de clasificación para preescolar: separa las imágenes de Animales y Clima en dos grupos, por sus características. Sin contar. Gratis para imprimir o jugar en línea.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasificar Animales y Clima por Categorías",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En esta hoja se mezclan dos clases de imágenes: las de Animales y las de Clima. El niño observa cada dibujo y lo coloca en el grupo al que pertenece —de un lado Animales, del otro Clima—, separando todo por su categoría. Aquí no se cuenta nada: se clasifica. Mirar en qué se parecen unas imágenes y en qué se diferencian de otras, y agruparlas por eso, es una habilidad científica temprana muy valiosa para la escuela. Con dibujos conocidos de Animales y Clima, empezar es fácil y cada grupo bien armado se siente como un pequeño logro.",
+      "p2": "Aquí hay pocas imágenes, así que el niño arma rápido los dos grupos de Animales y Clima y siente enseguida el logro de tener todo ordenado. Es una tarea suave y clara para empezar, donde cada niño separa con confianza. Clasificar en lugar de contar, a tu propio ritmo, sin presión ni competencia.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Clima, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-animals-vs-weather-fb18",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Alrededor de la casa",
+          "href": "clasificar-imagenes-around-the-house-vs-animals-98be"
+        },
+        {
+          "label": "Clasifica Animales y Accesorios",
+          "href": "clasificar-imagenes-accessories-vs-animals-f238"
+        },
+        {
+          "label": "Clasifica Animales y Panader�a",
+          "href": "clasificar-imagenes-animals-vs-bakery-f867"
+        },
+        {
+          "label": "Clasifica Animales y Sal�n de clases",
+          "href": "clasificar-imagenes-animals-vs-classroom-a07b"
+        }
+      ]
+    },
+    {
+      "slug": "clasificar-imagenes-around-the-house-vs-animals-98be",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "picture-sort",
+        "mode": null,
+        "theme": "around_the_house-vs-animals",
+        "level": "preescolar"
+      },
+      "title": "Clasifica las Imágenes: Animales y Alrededor de la casa",
+      "metaDescription": "Clasifica Animales y Alrededor de la casa (preescolar): separa las imágenes en dos grupos. Gratis para imprimir o jugar en línea, sin registro.",
+      "eyebrow": "Hoja de clasificación",
+      "h1": "Clasifica las Imágenes: Animales y Alrededor de la casa",
+      "strand": "Saberes y Pensamiento Científico — Clasificación de seres vivos y objetos por sus características",
+      "slotTokens": [
+        "Animales",
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Animales o Alrededor de la casa? Esa es la pregunta de esta hoja de clasificación para preescolar. El niño ve imágenes de las dos clases mezcladas y decide, una por una, a qué grupo pertenece cada dibujo. Con Animales y Alrededor de la casa que ya conoce, la primera mirada le resulta fácil. Así entrena el clasificar por características, una habilidad que más adelante necesitará para ordenar, comparar y razonar. No hay carrera ni estrellas que juntar: solo el pequeño separando con calma Animales de Alrededor de la casa y mirando con orgullo sus dos grupos terminados.",
+      "p2": "Aquí lo bonito es hacerlo juntos: revuelvan las imágenes de Animales y Alrededor de la casa y vayan separándolas mientras conversan sobre por qué cada una va en su grupo. Hablar de las semejanzas y diferencias enriquece el clasificar y el lenguaje a la vez. Todo de juego, sin números, sin contar y sin carrera, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta separar estas imágenes de Animales y Alrededor de la casa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en la clasificación de seres vivos y objetos por sus características, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "clasificar-imagenes-around-the-house-vs-animals-98be",
+      "carousel": [
+        {
+          "label": "Clasifica Animales y Accesorios",
+          "href": "clasificar-imagenes-accessories-vs-animals-f238"
+        },
+        {
+          "label": "Clasifica Animales y Actividades",
+          "href": "clasificar-imagenes-activities-vs-animals-ff66"
+        },
+        {
+          "label": "Clasifica Animales y Playa",
+          "href": "clasificar-imagenes-animals-vs-beach-4dd1"
+        },
+        {
+          "label": "Clasifica Animales y Ropa",
+          "href": "clasificar-imagenes-animals-vs-clothing-ffaa"
+        }
+      ]
+    },
+    {
       "slug": "preposiciones-completar-4-de-julio-a8c1",
       "variantShape": "singleton",
       "coordinate": {

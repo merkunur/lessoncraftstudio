@@ -30,7 +30,10 @@ const STRAND = 'Saberes y Pensamiento Científico — Patrones de repetición y 
 
 const facts = JSON.parse(fs.readFileSync(`scripts/seo-landing/_pt-${modeArg}-facts.json`, 'utf8'));
 const tax = JSON.parse(fs.readFileSync('frontend/config/topics-taxonomy.json', 'utf8'));
-const lc = (s) => s ? s.charAt(0).toLowerCase() + s.slice(1) : s;
+// Element nouns render mid-sentence → fully lowercase (vocab caps each word: "Hot Dog" →
+// "hot dog", "Pavo Real" → "pavo real"); PROPER nouns keep their casing ("Tío Sam").
+const PROPER_ELEMENTS = new Set(['Tío Sam', 'Santa Claus', 'Estatua de la Libertad']);
+const lc = (s) => !s ? s : PROPER_ELEMENTS.has(s) ? s : s.toLowerCase();
 const themeDisplay = (k) => { const e = tax.axes.theme[k]; return (e && e.name && e.name.es) ? e.name.es : k; };
 const LABEL = { ab: 'AB', aab: 'AAB', abb: 'ABB', aabb: 'AABB', abc: 'ABC' };
 function seqIllustration(mode, els) {

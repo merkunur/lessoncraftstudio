@@ -2,6 +2,2113 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "tren-de-patrones-aabb-4-de-julio-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "4th_of_july",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con 4 de Julio: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con 4 de Julio (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Bandera",
+        "Hot Dog",
+        "4 de Julio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de 4 de Julio lo arma con bandera, bandera, hot dog, hot dog —bandera, bandera, hot dog, hot dog, bandera, bandera, hot dog, hot dog…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de bandera, luego la pareja de hot dog. El niño señala cada vagón de 4 de Julio y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-4-de-julio-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Accesorios",
+          "href": "tren-de-patrones-aabb-accesorios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Actividades",
+          "href": "tren-de-patrones-aabb-actividades-fe63"
+        },
+        {
+          "label": "Patrón AABB con En el Supermercado",
+          "href": "tren-de-patrones-aabb-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón AABB con Desayuno",
+          "href": "tren-de-patrones-aabb-desayuno-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-accesorios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Accesorios: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Accesorios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Accesorios: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Mochila",
+        "Paraguas",
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Accesorios trabaja el patrón AABB: mochila dos veces y luego paraguas dos veces, y otra vez. La serie mochila, mochila, paraguas, paraguas, mochila, mochila, paraguas, paraguas… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: mochila dos veces, paraguas dos veces, una y otra vez. Recorriendo mochila, mochila, paraguas, paraguas, mochila, mochila, paraguas, paraguas… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Descarga el PDF de Accesorios (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-accesorios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Actividades",
+          "href": "tren-de-patrones-aabb-actividades-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales",
+          "href": "tren-de-patrones-aabb-animales-fe63"
+        },
+        {
+          "label": "Patrón AABB con Panadería",
+          "href": "tren-de-patrones-aabb-panaderia-fe63"
+        },
+        {
+          "label": "Patrón AABB con Campamento",
+          "href": "tren-de-patrones-aabb-campamento-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-actividades-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Actividades: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Actividades (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Actividades",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Cerámica",
+        "Patinar",
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Actividades, la fila va cerámica, cerámica, patinar, patinar, cerámica, cerámica, patinar, patinar…, repitiendo el bloque cerámica, cerámica, patinar, patinar. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Actividades, ve que cerámica y patinar llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "Imprime esta hoja de patrón AABB con Actividades o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-actividades-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Animales",
+          "href": "tren-de-patrones-aabb-animales-fe63"
+        },
+        {
+          "label": "Patrón AABB con Alrededor de la Casa",
+          "href": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Playa",
+          "href": "tren-de-patrones-aabb-playa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Navidad",
+          "href": "tren-de-patrones-aabb-navidad-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "around_the_house",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Alrededor de la casa: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Alrededor de la casa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Alrededor de la casa",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Alfombra",
+        "Estante",
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de alfombra, alfombra, estante, estante? Eso es un patrón AABB, y esta hoja de Alrededor de la casa lo plantea con alfombra, alfombra, estante, estante, alfombra, alfombra, estante, estante… El niño aprende a contar de a dos —alfombra dos veces, estante dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: alfombra, alfombra, estante, estante. Con Alrededor de la casa en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "El patrón AABB de Alrededor de la casa está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con En el Supermercado",
+          "href": "tren-de-patrones-aabb-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón AABB con Panadería",
+          "href": "tren-de-patrones-aabb-panaderia-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-2-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ropa",
+          "href": "tren-de-patrones-aabb-ropa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-animales-de-granja-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Animales de granja: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Animales de granja (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Animales de granja: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Burro",
+        "Cerdo",
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: burro, burro, cerdo, cerdo. En esta hoja de Animales de granja, burro, burro, cerdo, cerdo, burro, burro, cerdo, cerdo… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir burro, burro, cerdo, cerdo, burro, burro, cerdo, cerdo… en voz alta —marcando las dos parejas— ayuda al niño de Animales de granja a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-animales-de-granja-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Flores",
+          "href": "tren-de-patrones-aabb-flores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Frutas",
+          "href": "tren-de-patrones-aabb-frutas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Insectos y Bichos",
+          "href": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Mascotas",
+          "href": "tren-de-patrones-aabb-mascotas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-animales-del-zoologico-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Animales del zoológico: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Animales del zoológico (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Animales del zoológico",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Koala",
+        "Hipopótamo",
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí koala y hipopótamo aparecen de a dos cada uno, formando un patrón AABB. La hoja de Animales del zoológico muestra koala, koala, hipopótamo, hipopótamo, koala, koala, hipopótamo, hipopótamo… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de koala, luego la pareja de hipopótamo. El niño señala cada vagón de Animales del zoológico y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "Descarga el PDF de Animales del zoológico (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-animales-del-zoologico-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con 4 de Julio",
+          "href": "tren-de-patrones-aabb-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Accesorios",
+          "href": "tren-de-patrones-aabb-accesorios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Alrededor de la Casa",
+          "href": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Partes del Cuerpo",
+          "href": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-animales-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "animals",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Animales: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Animales (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Animales",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Mapache",
+        "Conejo",
+        "Animales",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Animales lo arma con mapache, mapache, conejo, conejo —mapache, mapache, conejo, conejo, mapache, mapache, conejo, conejo…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: mapache dos veces, conejo dos veces, una y otra vez. Recorriendo mapache, mapache, conejo, conejo, mapache, mapache, conejo, conejo… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Imprime esta hoja de patrón AABB con Animales o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-animales-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Alrededor de la Casa",
+          "href": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+        },
+        {
+          "label": "Patrón AABB con En el Supermercado",
+          "href": "tren-de-patrones-aabb-en-el-supermercado-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-fe63"
+        },
+        {
+          "label": "Patrón AABB con Salón de Clases",
+          "href": "tren-de-patrones-aabb-salon-de-clases-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-arboles-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Árboles: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Árboles (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Árboles: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Plátano",
+        "Cedro",
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Árboles trabaja el patrón AABB: plátano dos veces y luego cedro dos veces, y otra vez. La serie plátano, plátano, cedro, cedro, plátano, plátano, cedro, cedro… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Árboles, ve que plátano y cedro llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "El patrón AABB de Árboles está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-arboles-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Verduras",
+          "href": "tren-de-patrones-aabb-verduras-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vehículos",
+          "href": "tren-de-patrones-aabb-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales del Zoológico",
+          "href": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón AABB con En el Supermercado",
+          "href": "tren-de-patrones-aabb-en-el-supermercado-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-aves-2-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "birds_2",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Aves 2: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Aves 2 (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Aves 2",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pájaro carpintero",
+        "Cardenal",
+        "Aves 2",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Aves 2, la fila va pájaro carpintero, pájaro carpintero, cardenal, cardenal, pájaro carpintero, pájaro carpintero, cardenal, cardenal…, repitiendo el bloque pájaro carpintero, pájaro carpintero, cardenal, cardenal. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: pájaro carpintero, pájaro carpintero, cardenal, cardenal. Con Aves 2 en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-aves-2-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Partes del Cuerpo",
+          "href": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Desayuno",
+          "href": "tren-de-patrones-aabb-desayuno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Salón de Clases",
+          "href": "tren-de-patrones-aabb-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón AABB con Emociones",
+          "href": "tren-de-patrones-aabb-emociones-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-aves-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "birds",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Aves: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Aves (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Aves",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Flamenco",
+        "Pelícano",
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de flamenco, flamenco, pelícano, pelícano? Eso es un patrón AABB, y esta hoja de Aves lo plantea con flamenco, flamenco, pelícano, pelícano, flamenco, flamenco, pelícano, pelícano… El niño aprende a contar de a dos —flamenco dos veces, pelícano dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir flamenco, flamenco, pelícano, pelícano, flamenco, flamenco, pelícano, pelícano… en voz alta —marcando las dos parejas— ayuda al niño de Aves a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "Descarga el PDF de Aves (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-aves-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-2-fe63"
+        },
+        {
+          "label": "Patrón AABB con Partes del Cuerpo",
+          "href": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Navidad",
+          "href": "tren-de-patrones-aabb-navidad-fe63"
+        },
+        {
+          "label": "Patrón AABB con Pascua",
+          "href": "tren-de-patrones-aabb-pascua-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-campamento-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Campamento: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Campamento (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Campamento: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Binoculares",
+        "Mochila",
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: binoculares, binoculares, mochila, mochila. En esta hoja de Campamento, binoculares, binoculares, mochila, mochila, binoculares, binoculares, mochila, mochila… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de binoculares, luego la pareja de mochila. El niño señala cada vagón de Campamento y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "Imprime esta hoja de patrón AABB con Campamento o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-campamento-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Navidad",
+          "href": "tren-de-patrones-aabb-navidad-fe63"
+        },
+        {
+          "label": "Patrón AABB con Salón de Clases",
+          "href": "tren-de-patrones-aabb-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón AABB con Postres y Dulces",
+          "href": "tren-de-patrones-aabb-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón AABB con Frutas",
+          "href": "tren-de-patrones-aabb-frutas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-clima-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Clima: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Clima (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Clima",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Bufanda",
+        "Botas de lluvia",
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí bufanda y botas de lluvia aparecen de a dos cada uno, formando un patrón AABB. La hoja de Clima muestra bufanda, bufanda, botas de lluvia, botas de lluvia, bufanda, bufanda, botas de lluvia, botas de lluvia… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: bufanda dos veces, botas de lluvia dos veces, una y otra vez. Recorriendo bufanda, bufanda, botas de lluvia, botas de lluvia, bufanda, bufanda, botas de lluvia, botas de lluvia… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "El patrón AABB de Clima está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-clima-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Invierno",
+          "href": "tren-de-patrones-aabb-invierno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales del Zoológico",
+          "href": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón AABB con Actividades",
+          "href": "tren-de-patrones-aabb-actividades-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-colores-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "colors",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Colores: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Colores (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Colores",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Coral",
+        "Morado",
+        "Colores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Colores lo arma con coral, coral, morado, morado —coral, coral, morado, morado, coral, coral, morado, morado…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Colores, ve que coral y morado llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-colores-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Postres y Dulces",
+          "href": "tren-de-patrones-aabb-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón AABB con Dinosaurios",
+          "href": "tren-de-patrones-aabb-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales de Granja",
+          "href": "tren-de-patrones-aabb-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón AABB con Utensilios de Cocina",
+          "href": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-cosas-que-vuelan-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Cosas que vuelan: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Cosas que vuelan (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Cosas que vuelan: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Escarabajo",
+        "Tucán",
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Cosas que vuelan trabaja el patrón AABB: escarabajo dos veces y luego tucán dos veces, y otra vez. La serie escarabajo, escarabajo, tucán, tucán, escarabajo, escarabajo, tucán, tucán… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: escarabajo, escarabajo, tucán, tucán. Con Cosas que vuelan en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "Descarga el PDF de Cosas que vuelan (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-cosas-que-vuelan-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Herramientas",
+          "href": "tren-de-patrones-aabb-herramientas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Juguetes",
+          "href": "tren-de-patrones-aabb-juguetes-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vehículos",
+          "href": "tren-de-patrones-aabb-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Actividades",
+          "href": "tren-de-patrones-aabb-actividades-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-desayuno-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Desayuno: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Desayuno (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Desayuno",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Huevo frito",
+        "Gachas",
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Desayuno, la fila va huevo frito, huevo frito, gachas, gachas, huevo frito, huevo frito, gachas, gachas…, repitiendo el bloque huevo frito, huevo frito, gachas, gachas. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir huevo frito, huevo frito, gachas, gachas, huevo frito, huevo frito, gachas, gachas… en voz alta —marcando las dos parejas— ayuda al niño de Desayuno a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "Imprime esta hoja de patrón AABB con Desayuno o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-desayuno-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Campamento",
+          "href": "tren-de-patrones-aabb-campamento-fe63"
+        },
+        {
+          "label": "Patrón AABB con Navidad",
+          "href": "tren-de-patrones-aabb-navidad-fe63"
+        },
+        {
+          "label": "Patrón AABB con Colores",
+          "href": "tren-de-patrones-aabb-colores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Flores",
+          "href": "tren-de-patrones-aabb-flores-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Día de Acción de Gracias: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Día de Acción de Gracias (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Día de Acción de Gracias",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pan",
+        "Calabaza",
+        "Día de Acción de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de pan, pan, calabaza, calabaza? Eso es un patrón AABB, y esta hoja de Día de Acción de Gracias lo plantea con pan, pan, calabaza, calabaza, pan, pan, calabaza, calabaza… El niño aprende a contar de a dos —pan dos veces, calabaza dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de pan, luego la pareja de calabaza. El niño señala cada vagón de Día de Acción de Gracias y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "El patrón AABB de Día de Acción de Gracias está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Cosas que Vuelan",
+          "href": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón AABB con Herramientas",
+          "href": "tren-de-patrones-aabb-herramientas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verduras",
+          "href": "tren-de-patrones-aabb-verduras-fe63"
+        },
+        {
+          "label": "Patrón AABB con Accesorios",
+          "href": "tren-de-patrones-aabb-accesorios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-dinosaurios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Dinosaurios: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Dinosaurios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Dinosaurios: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Brontosaurio",
+        "Estegosaurio",
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: brontosaurio, brontosaurio, estegosaurio, estegosaurio. En esta hoja de Dinosaurios, brontosaurio, brontosaurio, estegosaurio, estegosaurio, brontosaurio, brontosaurio, estegosaurio, estegosaurio… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: brontosaurio dos veces, estegosaurio dos veces, una y otra vez. Recorriendo brontosaurio, brontosaurio, estegosaurio, estegosaurio, brontosaurio, brontosaurio, estegosaurio, estegosaurio… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-dinosaurios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Pascua",
+          "href": "tren-de-patrones-aabb-pascua-fe63"
+        },
+        {
+          "label": "Patrón AABB con Emociones",
+          "href": "tren-de-patrones-aabb-emociones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Frutas",
+          "href": "tren-de-patrones-aabb-frutas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Música",
+          "href": "tren-de-patrones-aabb-musica-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-emociones-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "emotions",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Emociones: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Emociones (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Emociones",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Aburrido",
+        "Emocionado",
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí aburrido y emocionado aparecen de a dos cada uno, formando un patrón AABB. La hoja de Emociones muestra aburrido, aburrido, emocionado, emocionado, aburrido, aburrido, emocionado, emocionado… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Emociones, ve que aburrido y emocionado llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "Descarga el PDF de Emociones (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-emociones-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Animales de Granja",
+          "href": "tren-de-patrones-aabb-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón AABB con Flores",
+          "href": "tren-de-patrones-aabb-flores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Hospital",
+          "href": "tren-de-patrones-aabb-hospital-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vida Marina",
+          "href": "tren-de-patrones-aabb-vida-marina-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-en-el-supermercado-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con En el supermercado: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con En el supermercado (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con En el supermercado",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Frambuesa",
+        "Jugo",
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de En el supermercado lo arma con frambuesa, frambuesa, jugo, jugo —frambuesa, frambuesa, jugo, jugo, frambuesa, frambuesa, jugo, jugo…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: frambuesa, frambuesa, jugo, jugo. Con En el supermercado en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "Imprime esta hoja de patrón AABB con En el supermercado o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-en-el-supermercado-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Panadería",
+          "href": "tren-de-patrones-aabb-panaderia-fe63"
+        },
+        {
+          "label": "Patrón AABB con Playa",
+          "href": "tren-de-patrones-aabb-playa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Partes del Cuerpo",
+          "href": "tren-de-patrones-aabb-partes-del-cuerpo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Colores",
+          "href": "tren-de-patrones-aabb-colores-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-espacio-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Espacio: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Espacio (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Espacio: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Telescopio",
+        "Astronauta",
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Espacio trabaja el patrón AABB: telescopio dos veces y luego astronauta dos veces, y otra vez. La serie telescopio, telescopio, astronauta, astronauta, telescopio, telescopio, astronauta, astronauta… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir telescopio, telescopio, astronauta, astronauta, telescopio, telescopio, astronauta, astronauta… en voz alta —marcando las dos parejas— ayuda al niño de Espacio a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "El patrón AABB de Espacio está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-espacio-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Primavera",
+          "href": "tren-de-patrones-aabb-primavera-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verano",
+          "href": "tren-de-patrones-aabb-verano-fe63"
+        },
+        {
+          "label": "Patrón AABB con Herramientas",
+          "href": "tren-de-patrones-aabb-herramientas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Invierno",
+          "href": "tren-de-patrones-aabb-invierno-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-flores-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Flores: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Flores (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Flores",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Orquídea",
+        "Lirio",
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Flores, la fila va orquídea, orquídea, lirio, lirio, orquídea, orquídea, lirio, lirio…, repitiendo el bloque orquídea, orquídea, lirio, lirio. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de orquídea, luego la pareja de lirio. El niño señala cada vagón de Flores y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-flores-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Frutas",
+          "href": "tren-de-patrones-aabb-frutas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Muebles",
+          "href": "tren-de-patrones-aabb-muebles-fe63"
+        },
+        {
+          "label": "Patrón AABB con Utensilios de Cocina",
+          "href": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Oficina de Correos",
+          "href": "tren-de-patrones-aabb-oficina-de-correos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-formas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "shapes",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Formas: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Formas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Formas",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Cuadrado",
+        "Heptágono",
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de cuadrado, cuadrado, heptágono, heptágono? Eso es un patrón AABB, y esta hoja de Formas lo plantea con cuadrado, cuadrado, heptágono, heptágono, cuadrado, cuadrado, heptágono, heptágono… El niño aprende a contar de a dos —cuadrado dos veces, heptágono dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: cuadrado dos veces, heptágono dos veces, una y otra vez. Recorriendo cuadrado, cuadrado, heptágono, heptágono, cuadrado, cuadrado, heptágono, heptágono… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Descarga el PDF de Formas (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-formas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Espacio",
+          "href": "tren-de-patrones-aabb-espacio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Primavera",
+          "href": "tren-de-patrones-aabb-primavera-fe63"
+        },
+        {
+          "label": "Patrón AABB con Cosas que Vuelan",
+          "href": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón AABB con Clima",
+          "href": "tren-de-patrones-aabb-clima-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-frutas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Frutas: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Frutas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Frutas: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Manzana",
+        "Arándano",
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: manzana, manzana, arándano, arándano. En esta hoja de Frutas, manzana, manzana, arándano, arándano, manzana, manzana, arándano, arándano… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Frutas, ve que manzana y arándano llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "Imprime esta hoja de patrón AABB con Frutas o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-frutas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Muebles",
+          "href": "tren-de-patrones-aabb-muebles-fe63"
+        },
+        {
+          "label": "Patrón AABB con Hospital",
+          "href": "tren-de-patrones-aabb-hospital-fe63"
+        },
+        {
+          "label": "Patrón AABB con Miscelánea",
+          "href": "tren-de-patrones-aabb-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Reptiles y Anfibios",
+          "href": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-herramientas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "tools",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Herramientas: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Herramientas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Herramientas",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Clavo",
+        "Pinzas",
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí clavo y pinzas aparecen de a dos cada uno, formando un patrón AABB. La hoja de Herramientas muestra clavo, clavo, pinzas, pinzas, clavo, clavo, pinzas, pinzas… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: clavo, clavo, pinzas, pinzas. Con Herramientas en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "El patrón AABB de Herramientas está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-herramientas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Juguetes",
+          "href": "tren-de-patrones-aabb-juguetes-fe63"
+        },
+        {
+          "label": "Patrón AABB con Árboles",
+          "href": "tren-de-patrones-aabb-arboles-fe63"
+        },
+        {
+          "label": "Patrón AABB con Clima",
+          "href": "tren-de-patrones-aabb-clima-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales",
+          "href": "tren-de-patrones-aabb-animales-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-hospital-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Hospital: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Hospital (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Hospital",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Camilla",
+        "Doctor",
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Hospital lo arma con camilla, camilla, doctor, doctor —camilla, camilla, doctor, doctor, camilla, camilla, doctor, doctor…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir camilla, camilla, doctor, doctor, camilla, camilla, doctor, doctor… en voz alta —marcando las dos parejas— ayuda al niño de Hospital a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-hospital-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Insectos y Bichos",
+          "href": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Utensilios de Cocina",
+          "href": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ocupaciones",
+          "href": "tren-de-patrones-aabb-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Espacio",
+          "href": "tren-de-patrones-aabb-espacio-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-insectos-y-bichos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "insects_and_bugs",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Insectos y bichos: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Insectos y bichos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Insectos y bichos: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Hormiga",
+        "Abeja",
+        "Insectos y bichos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Insectos y bichos trabaja el patrón AABB: hormiga dos veces y luego abeja dos veces, y otra vez. La serie hormiga, hormiga, abeja, abeja, hormiga, hormiga, abeja, abeja… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de hormiga, luego la pareja de abeja. El niño señala cada vagón de Insectos y bichos y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "Descarga el PDF de Insectos y bichos (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-insectos-y-bichos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Utensilios de Cocina",
+          "href": "tren-de-patrones-aabb-utensilios-de-cocina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Miscelánea",
+          "href": "tren-de-patrones-aabb-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vida Marina",
+          "href": "tren-de-patrones-aabb-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Primavera",
+          "href": "tren-de-patrones-aabb-primavera-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-invierno-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Invierno: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Invierno (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Invierno",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Patinaje sobre hielo",
+        "Esquí",
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Invierno, la fila va patinaje sobre hielo, patinaje sobre hielo, esquí, esquí, patinaje sobre hielo, patinaje sobre hielo, esquí, esquí…, repitiendo el bloque patinaje sobre hielo, patinaje sobre hielo, esquí, esquí. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: patinaje sobre hielo dos veces, esquí dos veces, una y otra vez. Recorriendo patinaje sobre hielo, patinaje sobre hielo, esquí, esquí, patinaje sobre hielo, patinaje sobre hielo, esquí, esquí… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Imprime esta hoja de patrón AABB con Invierno o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-invierno-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Animales del Zoológico",
+          "href": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
+        },
+        {
+          "label": "Patrón AABB con 4 de Julio",
+          "href": "tren-de-patrones-aabb-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales",
+          "href": "tren-de-patrones-aabb-animales-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-2-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-juguetes-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Juguetes: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Juguetes (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Juguetes",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Patín del diablo",
+        "Tren",
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de patín del diablo, patín del diablo, tren, tren? Eso es un patrón AABB, y esta hoja de Juguetes lo plantea con patín del diablo, patín del diablo, tren, tren, patín del diablo, patín del diablo, tren, tren… El niño aprende a contar de a dos —patín del diablo dos veces, tren dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Juguetes, ve que patín del diablo y tren llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "El patrón AABB de Juguetes está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-juguetes-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Árboles",
+          "href": "tren-de-patrones-aabb-arboles-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verduras",
+          "href": "tren-de-patrones-aabb-verduras-fe63"
+        },
+        {
+          "label": "Patrón AABB con Invierno",
+          "href": "tren-de-patrones-aabb-invierno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Alrededor de la Casa",
+          "href": "tren-de-patrones-aabb-alrededor-de-la-casa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-mascotas-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Mascotas: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Mascotas (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Mascotas: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pez",
+        "Chinchilla",
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: pez, pez, chinchilla, chinchilla. En esta hoja de Mascotas, pez, pez, chinchilla, chinchilla, pez, pez, chinchilla, chinchilla… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: pez, pez, chinchilla, chinchilla. Con Mascotas en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-mascotas-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Oficina de Correos",
+          "href": "tren-de-patrones-aabb-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Reptiles y Anfibios",
+          "href": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Primavera",
+          "href": "tren-de-patrones-aabb-primavera-fe63"
+        },
+        {
+          "label": "Patrón AABB con Árboles",
+          "href": "tren-de-patrones-aabb-arboles-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-miscelaneo-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "miscellaneous",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Misceláneo: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Misceláneo (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Misceláneo",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Araña",
+        "Halloween",
+        "Misceláneo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí araña y halloween aparecen de a dos cada uno, formando un patrón AABB. La hoja de Misceláneo muestra araña, araña, halloween, halloween, araña, araña, halloween, halloween… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir araña, araña, halloween, halloween, araña, araña, halloween, halloween… en voz alta —marcando las dos parejas— ayuda al niño de Misceláneo a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "Descarga el PDF de Misceláneo (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-miscelaneo-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Música",
+          "href": "tren-de-patrones-aabb-musica-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ocupaciones",
+          "href": "tren-de-patrones-aabb-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Oficina de Correos",
+          "href": "tren-de-patrones-aabb-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Día de Acción de Gracias",
+          "href": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-muebles-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Muebles: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Muebles (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Muebles",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Tapete",
+        "Lámpara",
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Muebles lo arma con tapete, tapete, lámpara, lámpara —tapete, tapete, lámpara, lámpara, tapete, tapete, lámpara, lámpara…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de tapete, luego la pareja de lámpara. El niño señala cada vagón de Muebles y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "Imprime esta hoja de patrón AABB con Muebles o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-muebles-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Hospital",
+          "href": "tren-de-patrones-aabb-hospital-fe63"
+        },
+        {
+          "label": "Patrón AABB con Insectos y Bichos",
+          "href": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Música",
+          "href": "tren-de-patrones-aabb-musica-fe63"
+        },
+        {
+          "label": "Patrón AABB con Formas",
+          "href": "tren-de-patrones-aabb-formas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-musica-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "music",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Música: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Música (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Música: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Xilófono",
+        "Guitarra",
+        "Música",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Música trabaja el patrón AABB: xilófono dos veces y luego guitarra dos veces, y otra vez. La serie xilófono, xilófono, guitarra, guitarra, xilófono, xilófono, guitarra, guitarra… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: xilófono dos veces, guitarra dos veces, una y otra vez. Recorriendo xilófono, xilófono, guitarra, guitarra, xilófono, xilófono, guitarra, guitarra… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "El patrón AABB de Música está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-musica-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Ocupaciones",
+          "href": "tren-de-patrones-aabb-ocupaciones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vida Marina",
+          "href": "tren-de-patrones-aabb-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Reptiles y Anfibios",
+          "href": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Cosas que Vuelan",
+          "href": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-navidad-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Navidad: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Navidad (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Navidad",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Vela",
+        "Árbol",
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Navidad, la fila va vela, vela, árbol, árbol, vela, vela, árbol, árbol…, repitiendo el bloque vela, vela, árbol, árbol. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Navidad, ve que vela y árbol llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-navidad-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Salón de Clases",
+          "href": "tren-de-patrones-aabb-salon-de-clases-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ropa",
+          "href": "tren-de-patrones-aabb-ropa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Dinosaurios",
+          "href": "tren-de-patrones-aabb-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Muebles",
+          "href": "tren-de-patrones-aabb-muebles-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-ocupaciones-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Ocupaciones: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Ocupaciones (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Ocupaciones",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Chef",
+        "Músico",
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de chef, chef, músico, músico? Eso es un patrón AABB, y esta hoja de Ocupaciones lo plantea con chef, chef, músico, músico, chef, chef, músico, músico… El niño aprende a contar de a dos —chef dos veces, músico dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: chef, chef, músico, músico. Con Ocupaciones en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "Descarga el PDF de Ocupaciones (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-ocupaciones-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Vida Marina",
+          "href": "tren-de-patrones-aabb-vida-marina-fe63"
+        },
+        {
+          "label": "Patrón AABB con Mascotas",
+          "href": "tren-de-patrones-aabb-mascotas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Formas",
+          "href": "tren-de-patrones-aabb-formas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Herramientas",
+          "href": "tren-de-patrones-aabb-herramientas-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-oficina-de-correos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "post_office",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Oficina de correos: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Oficina de correos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Oficina de correos: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Carta",
+        "Camión de correos",
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: carta, carta, camión de correos, camión de correos. En esta hoja de Oficina de correos, carta, carta, camión de correos, camión de correos, carta, carta, camión de correos, camión de correos… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir carta, carta, camión de correos, camión de correos, carta, carta, camión de correos, camión de correos… en voz alta —marcando las dos parejas— ayuda al niño de Oficina de correos a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "Imprime esta hoja de patrón AABB con Oficina de correos o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-oficina-de-correos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Reptiles y Anfibios",
+          "href": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Formas",
+          "href": "tren-de-patrones-aabb-formas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verano",
+          "href": "tren-de-patrones-aabb-verano-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verduras",
+          "href": "tren-de-patrones-aabb-verduras-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-panaderia-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "bakery",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Panadería: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Panadería (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Panadería",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pay",
+        "Hombre de jengibre",
+        "Panadería",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí pay y hombre de jengibre aparecen de a dos cada uno, formando un patrón AABB. La hoja de Panadería muestra pay, pay, hombre de jengibre, hombre de jengibre, pay, pay, hombre de jengibre, hombre de jengibre… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de pay, luego la pareja de hombre de jengibre. El niño señala cada vagón de Panadería y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "El patrón AABB de Panadería está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-panaderia-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Playa",
+          "href": "tren-de-patrones-aabb-playa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-fe63"
+        },
+        {
+          "label": "Patrón AABB con Desayuno",
+          "href": "tren-de-patrones-aabb-desayuno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Postres y Dulces",
+          "href": "tren-de-patrones-aabb-postres-y-dulces-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-partes-del-cuerpo-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Partes del cuerpo: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Partes del cuerpo (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Partes del cuerpo",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Boca",
+        "Diente",
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Partes del cuerpo lo arma con boca, boca, diente, diente —boca, boca, diente, diente, boca, boca, diente, diente…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: boca dos veces, diente dos veces, una y otra vez. Recorriendo boca, boca, diente, diente, boca, boca, diente, diente… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-partes-del-cuerpo-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Desayuno",
+          "href": "tren-de-patrones-aabb-desayuno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Campamento",
+          "href": "tren-de-patrones-aabb-campamento-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ropa",
+          "href": "tren-de-patrones-aabb-ropa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales de Granja",
+          "href": "tren-de-patrones-aabb-animales-de-granja-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-pascua-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Pascua: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Pascua (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Pascua: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Pollito",
+        "Mariposa",
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Pascua trabaja el patrón AABB: pollito dos veces y luego mariposa dos veces, y otra vez. La serie pollito, pollito, mariposa, mariposa, pollito, pollito, mariposa, mariposa… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Pascua, ve que pollito y mariposa llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "Descarga el PDF de Pascua (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-pascua-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Emociones",
+          "href": "tren-de-patrones-aabb-emociones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales de Granja",
+          "href": "tren-de-patrones-aabb-animales-de-granja-fe63"
+        },
+        {
+          "label": "Patrón AABB con Muebles",
+          "href": "tren-de-patrones-aabb-muebles-fe63"
+        },
+        {
+          "label": "Patrón AABB con Ocupaciones",
+          "href": "tren-de-patrones-aabb-ocupaciones-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-playa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Playa: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Playa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Playa",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Cubeta",
+        "Papalote",
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Playa, la fila va cubeta, cubeta, papalote, papalote, cubeta, cubeta, papalote, papalote…, repitiendo el bloque cubeta, cubeta, papalote, papalote. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: cubeta, cubeta, papalote, papalote. Con Playa en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "Imprime esta hoja de patrón AABB con Playa o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-playa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-fe63"
+        },
+        {
+          "label": "Patrón AABB con Aves",
+          "href": "tren-de-patrones-aabb-aves-2-fe63"
+        },
+        {
+          "label": "Patrón AABB con Campamento",
+          "href": "tren-de-patrones-aabb-campamento-fe63"
+        },
+        {
+          "label": "Patrón AABB con Dinosaurios",
+          "href": "tren-de-patrones-aabb-dinosaurios-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-postres-y-dulces-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Postres y dulces: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Postres y dulces (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Postres y dulces",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Dona",
+        "Paleta",
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de dona, dona, paleta, paleta? Eso es un patrón AABB, y esta hoja de Postres y dulces lo plantea con dona, dona, paleta, paleta, dona, dona, paleta, paleta… El niño aprende a contar de a dos —dona dos veces, paleta dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir dona, dona, paleta, paleta, dona, dona, paleta, paleta… en voz alta —marcando las dos parejas— ayuda al niño de Postres y dulces a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "El patrón AABB de Postres y dulces está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-postres-y-dulces-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Dinosaurios",
+          "href": "tren-de-patrones-aabb-dinosaurios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Pascua",
+          "href": "tren-de-patrones-aabb-pascua-fe63"
+        },
+        {
+          "label": "Patrón AABB con Flores",
+          "href": "tren-de-patrones-aabb-flores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Miscelánea",
+          "href": "tren-de-patrones-aabb-miscelaneo-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-primavera-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "spring",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Primavera: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Primavera (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Primavera: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Jardín",
+        "Regadera",
+        "Primavera",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: jardín, jardín, regadera, regadera. En esta hoja de Primavera, jardín, jardín, regadera, regadera, jardín, jardín, regadera, regadera… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de jardín, luego la pareja de regadera. El niño señala cada vagón de Primavera y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-primavera-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Verano",
+          "href": "tren-de-patrones-aabb-verano-fe63"
+        },
+        {
+          "label": "Patrón AABB con Día de Acción de Gracias",
+          "href": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón AABB con Juguetes",
+          "href": "tren-de-patrones-aabb-juguetes-fe63"
+        },
+        {
+          "label": "Patrón AABB con Animales del Zoológico",
+          "href": "tren-de-patrones-aabb-animales-del-zoologico-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "reptiles_and_amphibians",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Reptiles y anfibios: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Reptiles y anfibios (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Reptiles y anfibios",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Tortuga de tierra",
+        "Cobra",
+        "Reptiles y anfibios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí tortuga de tierra y cobra aparecen de a dos cada uno, formando un patrón AABB. La hoja de Reptiles y anfibios muestra tortuga de tierra, tortuga de tierra, cobra, cobra, tortuga de tierra, tortuga de tierra, cobra, cobra… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: tortuga de tierra dos veces, cobra dos veces, una y otra vez. Recorriendo tortuga de tierra, tortuga de tierra, cobra, cobra, tortuga de tierra, tortuga de tierra, cobra, cobra… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Descarga el PDF de Reptiles y anfibios (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-reptiles-y-anfibios-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Formas",
+          "href": "tren-de-patrones-aabb-formas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Espacio",
+          "href": "tren-de-patrones-aabb-espacio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Día de Acción de Gracias",
+          "href": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón AABB con Vehículos",
+          "href": "tren-de-patrones-aabb-vehiculos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-ropa-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Ropa: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Ropa (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Ropa",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Zapato",
+        "Sudadera con capucha",
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Ropa lo arma con zapato, zapato, sudadera con capucha, sudadera con capucha —zapato, zapato, sudadera con capucha, sudadera con capucha, zapato, zapato, sudadera con capucha, sudadera con capucha…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Ropa, ve que zapato y sudadera con capucha llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "Imprime esta hoja de patrón AABB con Ropa o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-ropa-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Colores",
+          "href": "tren-de-patrones-aabb-colores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Postres y Dulces",
+          "href": "tren-de-patrones-aabb-postres-y-dulces-fe63"
+        },
+        {
+          "label": "Patrón AABB con Emociones",
+          "href": "tren-de-patrones-aabb-emociones-fe63"
+        },
+        {
+          "label": "Patrón AABB con Insectos y Bichos",
+          "href": "tren-de-patrones-aabb-insectos-y-bichos-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-salon-de-clases-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Salón de clases: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Salón de clases (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Salón de clases: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Maestro",
+        "Escritorio",
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Esta hoja de Salón de clases trabaja el patrón AABB: maestro dos veces y luego escritorio dos veces, y otra vez. La serie maestro, maestro, escritorio, escritorio, maestro, maestro, escritorio, escritorio… repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: maestro, maestro, escritorio, escritorio. Con Salón de clases en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "El patrón AABB de Salón de clases está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-salon-de-clases-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Ropa",
+          "href": "tren-de-patrones-aabb-ropa-fe63"
+        },
+        {
+          "label": "Patrón AABB con Colores",
+          "href": "tren-de-patrones-aabb-colores-fe63"
+        },
+        {
+          "label": "Patrón AABB con Pascua",
+          "href": "tren-de-patrones-aabb-pascua-fe63"
+        },
+        {
+          "label": "Patrón AABB con Hospital",
+          "href": "tren-de-patrones-aabb-hospital-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-utensilios-de-cocina-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Utensilios de cocina: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Utensilios de cocina (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Utensilios de cocina",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Jarra",
+        "Olla",
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Dos iguales y dos iguales: así avanza el patrón AABB. Con Utensilios de cocina, la fila va jarra, jarra, olla, olla, jarra, jarra, olla, olla…, repitiendo el bloque jarra, jarra, olla, olla. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.",
+      "p2": "A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir jarra, jarra, olla, olla, jarra, jarra, olla, olla… en voz alta —marcando las dos parejas— ayuda al niño de Utensilios de cocina a no perder el grupo de cuatro y a completar el hueco con seguridad.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-utensilios-de-cocina-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Miscelánea",
+          "href": "tren-de-patrones-aabb-miscelaneo-fe63"
+        },
+        {
+          "label": "Patrón AABB con Música",
+          "href": "tren-de-patrones-aabb-musica-fe63"
+        },
+        {
+          "label": "Patrón AABB con Mascotas",
+          "href": "tren-de-patrones-aabb-mascotas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Verano",
+          "href": "tren-de-patrones-aabb-verano-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-vehiculos-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Vehículos: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Vehículos (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Vehículos",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Camión de basura",
+        "Avión",
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Qué sigue después de camión de basura, camión de basura, avión, avión? Eso es un patrón AABB, y esta hoja de Vehículos lo plantea con camión de basura, camión de basura, avión, avión, camión de basura, camión de basura, avión, avión… El niño aprende a contar de a dos —camión de basura dos veces, avión dos veces— antes de que el grupo vuelva a empezar.",
+      "p2": "Lo distintivo del AABB es que todo viene de a dos: primero la pareja de camión de basura, luego la pareja de avión. El niño señala cada vagón de Vehículos y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.",
+      "p3": "Descarga el PDF de Vehículos (patrón AABB) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-vehiculos-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Clima",
+          "href": "tren-de-patrones-aabb-clima-fe63"
+        },
+        {
+          "label": "Patrón AABB con Invierno",
+          "href": "tren-de-patrones-aabb-invierno-fe63"
+        },
+        {
+          "label": "Patrón AABB con Accesorios",
+          "href": "tren-de-patrones-aabb-accesorios-fe63"
+        },
+        {
+          "label": "Patrón AABB con Playa",
+          "href": "tren-de-patrones-aabb-playa-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-verano-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Verano: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Verano (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Patrón AABB con Verano: ¿Qué Dibujo Sigue?",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Tienda de campaña",
+        "Parrilla",
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "El patrón AABB es un ritmo de cuatro en parejas: tienda de campaña, tienda de campaña, parrilla, parrilla. En esta hoja de Verano, tienda de campaña, tienda de campaña, parrilla, parrilla, tienda de campaña, tienda de campaña, parrilla, parrilla… se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.",
+      "p2": "Para seguir el AABB hay que llevar la cuenta de las parejas: tienda de campaña dos veces, parrilla dos veces, una y otra vez. Recorriendo tienda de campaña, tienda de campaña, parrilla, parrilla, tienda de campaña, tienda de campaña, parrilla, parrilla… con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.",
+      "p3": "Imprime esta hoja de patrón AABB con Verano o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-verano-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Día de Acción de Gracias",
+          "href": "tren-de-patrones-aabb-dia-de-accion-de-gracias-fe63"
+        },
+        {
+          "label": "Patrón AABB con Cosas que Vuelan",
+          "href": "tren-de-patrones-aabb-cosas-que-vuelan-fe63"
+        },
+        {
+          "label": "Patrón AABB con Árboles",
+          "href": "tren-de-patrones-aabb-arboles-fe63"
+        },
+        {
+          "label": "Patrón AABB con 4 de Julio",
+          "href": "tren-de-patrones-aabb-4-de-julio-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-verduras-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Verduras: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Verduras (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Completa el Patrón AABB de Verduras",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Jitomate",
+        "Nabo",
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Aquí jitomate y nabo aparecen de a dos cada uno, formando un patrón AABB. La hoja de Verduras muestra jitomate, jitomate, nabo, nabo, jitomate, jitomate, nabo, nabo… y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.",
+      "p2": "El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de Verduras, ve que jitomate y nabo llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.",
+      "p3": "El patrón AABB de Verduras está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-verduras-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Vehículos",
+          "href": "tren-de-patrones-aabb-vehiculos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Clima",
+          "href": "tren-de-patrones-aabb-clima-fe63"
+        },
+        {
+          "label": "Patrón AABB con 4 de Julio",
+          "href": "tren-de-patrones-aabb-4-de-julio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Panadería",
+          "href": "tren-de-patrones-aabb-panaderia-fe63"
+        }
+      ]
+    },
+    {
+      "slug": "tren-de-patrones-aabb-vida-marina-fe63",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "pattern-train",
+        "mode": "aabb",
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "Patrón AABB con Vida marina: ¿Qué Sigue?",
+      "metaDescription": "Patrón AABB con Vida marina (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de patrones",
+      "h1": "Continúa el Patrón AABB con Vida marina",
+      "strand": "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento",
+      "slotTokens": [
+        "Cangrejo",
+        "Tiburón",
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de Vida marina lo arma con cangrejo, cangrejo, tiburón, tiburón —cangrejo, cangrejo, tiburón, tiburón, cangrejo, cangrejo, tiburón, tiburón…— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.",
+      "p2": "Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: cangrejo, cangrejo, tiburón, tiburón. Con Vida marina en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.",
+      "p3": "La hoja del patrón AABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
+      "canonicalDeckSlug": "tren-de-patrones-aabb-vida-marina-fe63",
+      "carousel": [
+        {
+          "label": "Patrón AABB con Mascotas",
+          "href": "tren-de-patrones-aabb-mascotas-fe63"
+        },
+        {
+          "label": "Patrón AABB con Oficina de Correos",
+          "href": "tren-de-patrones-aabb-oficina-de-correos-fe63"
+        },
+        {
+          "label": "Patrón AABB con Espacio",
+          "href": "tren-de-patrones-aabb-espacio-fe63"
+        },
+        {
+          "label": "Patrón AABB con Juguetes",
+          "href": "tren-de-patrones-aabb-juguetes-fe63"
+        }
+      ]
+    },
+    {
       "slug": "tren-de-patrones-abb-4-de-julio-fe63",
       "variantShape": "singleton",
       "coordinate": {
@@ -21,8 +2128,8 @@
         "4 de Julio",
         "Preescolar (5 años)"
       ],
-      "p1": "En un patrón ABB, primero llega un dibujo solo y luego el otro repetido dos veces. Esta hoja de 4 de Julio lo arma con hot Dog, tío Sam, tío Sam —hot Dog, tío Sam, tío Sam, hot Dog, tío Sam, tío Sam…— y el niño descubre qué sigue. Es el espejo del AAB: aquí la pareja está al final.",
-      "p2": "Lo distintivo del ABB es que la pareja va al final: hot Dog, y luego tío Sam, tío Sam. El niño señala cada vagón de 4 de Julio y dice el grupo de tres en voz alta; así sabe si el hueco pide tío Sam otra vez o ya vuelve hot Dog.",
+      "p1": "En un patrón ABB, primero llega un dibujo solo y luego el otro repetido dos veces. Esta hoja de 4 de Julio lo arma con hot dog, Tío Sam, Tío Sam —hot dog, Tío Sam, Tío Sam, hot dog, Tío Sam, Tío Sam…— y el niño descubre qué sigue. Es el espejo del AAB: aquí la pareja está al final.",
+      "p2": "Lo distintivo del ABB es que la pareja va al final: hot dog, y luego Tío Sam, Tío Sam. El niño señala cada vagón de 4 de Julio y dice el grupo de tres en voz alta; así sabe si el hueco pide Tío Sam otra vez o ya vuelve hot dog.",
       "p3": "La hoja del patrón ABB se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).",
       "canonicalDeckSlug": "tren-de-patrones-abb-4-de-julio-fe63",
       "carousel": [

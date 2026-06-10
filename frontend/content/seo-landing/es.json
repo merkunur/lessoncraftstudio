@@ -2,6 +2,3267 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "contar-en-grafico-4-de-julio",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "4th_of_july",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar 4 de Julio en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (4 de Julio) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Limonada",
+        "Tío Sam",
+        "Estatua de la Libertad",
+        "Globo",
+        "Bandera",
+        "Águila",
+        "4 de Julio",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de 4 de Julio invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar limonadas de tíos Sam— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar limonadas, tíos Sam y estatuas de la Libertad en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 limonadas, 4 tíos Sam, 4 estatuas de la Libertad, 4 globos, 1 bandera y 2 águilas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de 4 de Julio se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de limonadas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-4-de-julio",
+      "carousel": [
+        {
+          "label": "Contar Accesorios",
+          "href": "contar-en-grafico-accesorios"
+        },
+        {
+          "label": "Contar Animales",
+          "href": "contar-en-grafico-animales"
+        },
+        {
+          "label": "Contar Panadería",
+          "href": "contar-en-grafico-panaderia"
+        },
+        {
+          "label": "Contar Navidad",
+          "href": "contar-en-grafico-navidad"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas limonadas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos tíos Sam hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas estatuas de la Libertad hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos globos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas banderas hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas águilas hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-accesorios",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "accessories",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Accesorios en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Accesorios) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Accesorios",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Gorra",
+        "Varita mágica",
+        "Insignia",
+        "Sombrero",
+        "Corbata de moño",
+        "Sombrero de sol",
+        "Accesorios",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Accesorios, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —gorras, varitas mágicas, insignias…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar gorras y varitas mágicas por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 5 gorras, 1 varita mágica, 5 insignias, 3 sombreros, 3 corbatas de moño y 3 sombreros de sol. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Accesorios para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de gorras es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-accesorios",
+      "carousel": [
+        {
+          "label": "Contar Animales",
+          "href": "contar-en-grafico-animales"
+        },
+        {
+          "label": "Contar Alrededor de la Casa",
+          "href": "contar-en-grafico-alrededor-de-la-casa"
+        },
+        {
+          "label": "Contar Playa",
+          "href": "contar-en-grafico-playa"
+        },
+        {
+          "label": "Contar Salón de Clases",
+          "href": "contar-en-grafico-salon-de-clases"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas gorras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas varitas mágicas hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas insignias hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos sombreros hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas corbatas de moño hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos sombreros de sol hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-alrededor-de-la-casa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Alrededor de la casa en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Alrededor de la casa) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Alrededor de la casa",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Grifo",
+        "Alfombra",
+        "Caja de herramientas",
+        "Tazón",
+        "Secadora",
+        "Chimenea",
+        "Alrededor de la casa",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Alrededor de la casa, el niño mira los dibujos, junta los iguales —los grifos con los grifos, los alfombras con los alfombras— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de cajas de herramientas forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 4 grifos, 5 alfombras, 3 cajas de herramientas, 4 tazones, 3 secadoras y 1 chimenea. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Alrededor de la casa para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-alrededor-de-la-casa",
+      "carousel": [
+        {
+          "label": "Contar En el Supermercado",
+          "href": "contar-en-grafico-en-el-supermercado"
+        },
+        {
+          "label": "Contar Panadería",
+          "href": "contar-en-grafico-panaderia"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves-2"
+        },
+        {
+          "label": "Contar Colores",
+          "href": "contar-en-grafico-colores"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos grifos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas alfombras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cajas de herramientas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos tazones hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas secadoras hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas chimeneas hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-animales-de-granja",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Animales de granja en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Animales de granja) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Animales de granja",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Pollito",
+        "Conejo",
+        "Guajolote",
+        "Burro",
+        "Cordero",
+        "Caballo",
+        "Animales de granja",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Animales de granja propone una tarea clara: clasificar los dibujos por tipo —pollitos, conejos, pavos y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 2 pollitos, 5 conejos, 3 pavos, 5 burros, 4 corderos y 1 caballo. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Animales de granja está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de conejos la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-animales-de-granja",
+      "carousel": [
+        {
+          "label": "Contar Flores",
+          "href": "contar-en-grafico-flores"
+        },
+        {
+          "label": "Contar Criaturas del Bosque",
+          "href": "contar-en-grafico-criaturas-del-bosque"
+        },
+        {
+          "label": "Contar Hospital",
+          "href": "contar-en-grafico-hospital"
+        },
+        {
+          "label": "Contar Vida Marina",
+          "href": "contar-en-grafico-vida-marina"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pollitos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos conejos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos pavos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos burros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos corderos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos caballos hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-animales-del-zoologico",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Animales del zoológico en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Animales del zoológico) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Animales del zoológico",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Panda",
+        "Orangután",
+        "Koala",
+        "Chimpancé",
+        "Hiena",
+        "Animales del zoológico",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Animales del zoológico invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar pandas de orangutanes— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar pandas, orangutanes y koalas en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 pandas, 5 orangutanes, 4 koalas, 3 chimpancés y 3 hienas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Animales del zoológico se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de pandas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-animales-del-zoologico",
+      "carousel": [
+        {
+          "label": "Contar 4 de Julio",
+          "href": "contar-en-grafico-4-de-julio"
+        },
+        {
+          "label": "Contar Accesorios",
+          "href": "contar-en-grafico-accesorios"
+        },
+        {
+          "label": "Contar En el Supermercado",
+          "href": "contar-en-grafico-en-el-supermercado"
+        },
+        {
+          "label": "Contar Campamento",
+          "href": "contar-en-grafico-campamento"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pandas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos orangutanes hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos koalas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos chimpancés hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas hienas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-arboles",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tree",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Árboles en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Árboles) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Árboles",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Álamo",
+        "Palmera",
+        "Cicuta",
+        "Cereza",
+        "Pera",
+        "Picea",
+        "Árboles",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Árboles, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —álamos, palmeras, cicutas…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar álamos y palmeras por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 2 álamos, 5 palmeras, 2 cicutas, 5 cerezas, 3 peras y 3 piceas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Árboles para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de palmeras es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-arboles",
+      "carousel": [
+        {
+          "label": "Contar Verduras",
+          "href": "contar-en-grafico-verduras"
+        },
+        {
+          "label": "Contar Vehículos",
+          "href": "contar-en-grafico-vehiculos"
+        },
+        {
+          "label": "Contar Accesorios",
+          "href": "contar-en-grafico-accesorios"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos álamos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas palmeras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cicutas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas cerezas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas peras hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas piceas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-aves-2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Aves 2 en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Aves 2 para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Aves 2",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Guajolote",
+        "Guacamayo",
+        "Avestruz",
+        "Grulla",
+        "Gaviota",
+        "Frailecillo",
+        "Aves 2",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Aves 2, el niño mira los dibujos, junta los iguales —los pavos con los pavos, los guacamayos con los guacamayos— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de avestruces forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 1 guajolote, 5 guacamayos, 3 avestruces, 3 grullas, 3 gaviotas y 5 frailecillos. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Aves 2 para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-aves-2",
+      "carousel": [
+        {
+          "label": "Contar Desayuno",
+          "href": "contar-en-grafico-desayuno"
+        },
+        {
+          "label": "Contar Campamento",
+          "href": "contar-en-grafico-campamento"
+        },
+        {
+          "label": "Contar Ropa",
+          "href": "contar-en-grafico-ropa"
+        },
+        {
+          "label": "Contar Flores",
+          "href": "contar-en-grafico-flores"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pavos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos guacamayos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos avestruces hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas grullas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas gaviotas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos frailecillos hay?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-aves",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Aves en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Aves para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Aves",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Loro",
+        "Pingüino",
+        "Búho",
+        "Tucán",
+        "Buitre",
+        "Pavo real",
+        "Aves",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Aves propone una tarea clara: clasificar los dibujos por tipo —loros, pingüinos, búhos y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 4 loros, 5 pingüinos, 2 búhos, 2 tucanes, 5 buitres y 2 pavos reales. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Aves está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de pingüinos la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-aves",
+      "carousel": [
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves-2"
+        },
+        {
+          "label": "Contar Desayuno",
+          "href": "contar-en-grafico-desayuno"
+        },
+        {
+          "label": "Contar Salón de Clases",
+          "href": "contar-en-grafico-salon-de-clases"
+        },
+        {
+          "label": "Contar Animales de Granja",
+          "href": "contar-en-grafico-animales-de-granja"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos loros hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos pingüinos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos búhos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos tucanes hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos buitres hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos pavos reales hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-campamento",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "camping",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Campamento en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Campamento) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Campamento",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Botas",
+        "Canoa",
+        "Mesa de picnic",
+        "Cuerda",
+        "Remo",
+        "Fogata",
+        "Campamento",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Campamento invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar botas de canoas— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar botas, canoas y mesas de picnic en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 botas, 3 canoas, 4 mesas de picnic, 3 cuerdas, 3 remos y 2 fogatas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Campamento se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de botas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-campamento",
+      "carousel": [
+        {
+          "label": "Contar Navidad",
+          "href": "contar-en-grafico-navidad"
+        },
+        {
+          "label": "Contar Salón de Clases",
+          "href": "contar-en-grafico-salon-de-clases"
+        },
+        {
+          "label": "Contar Postres y Dulces",
+          "href": "contar-en-grafico-postres-y-dulces"
+        },
+        {
+          "label": "Contar Frutas",
+          "href": "contar-en-grafico-frutas"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas botas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas canoas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas mesas de picnic hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas cuerdas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos remos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas fogatas hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-colores",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "colors",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Colores en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Colores) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Colores",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Morado",
+        "Rojo",
+        "Gris",
+        "Verde",
+        "Azul",
+        "Violeta",
+        "Colores",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Colores, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —morado, rojo, gris…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar morado y rojo por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 3 morado, 2 rojo, 4 gris, 5 verde, 5 azul y 1 violeta. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Colores para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de verde es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-colores",
+      "carousel": [
+        {
+          "label": "Contar Postres y Dulces",
+          "href": "contar-en-grafico-postres-y-dulces"
+        },
+        {
+          "label": "Contar Dinosaurios",
+          "href": "contar-en-grafico-dinosaurios"
+        },
+        {
+          "label": "Contar Flores",
+          "href": "contar-en-grafico-flores"
+        },
+        {
+          "label": "Contar Utensilios de Cocina",
+          "href": "contar-en-grafico-utensilios-de-cocina"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos morado hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos rojo hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos gris hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos verde hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos azul hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas violetas hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-cosas-que-vuelan",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Cosas que vuelan en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Cosas que vuelan) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Cosas que vuelan",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Paloma",
+        "Jet",
+        "Globo aerostático",
+        "Búho",
+        "Abeja",
+        "Libélula",
+        "Cosas que vuelan",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Cosas que vuelan, el niño mira los dibujos, junta los iguales —los palomas con los palomas, los jets con los jets— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de globos aerostáticos forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 4 palomas, 3 jets, 3 globos aerostáticos, 2 búhos, 3 abejas y 5 libélulas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Cosas que vuelan para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-cosas-que-vuelan",
+      "carousel": [
+        {
+          "label": "Contar Herramientas",
+          "href": "contar-en-grafico-herramientas"
+        },
+        {
+          "label": "Contar Juguetes",
+          "href": "contar-en-grafico-juguetes"
+        },
+        {
+          "label": "Contar Vehículos",
+          "href": "contar-en-grafico-vehiculos"
+        },
+        {
+          "label": "Contar En el Supermercado",
+          "href": "contar-en-grafico-en-el-supermercado"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas palomas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos jets hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos globos aerostáticos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos búhos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas abejas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas libélulas hay?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-criaturas-del-bosque",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Criaturas del bosque en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Criaturas del bosque) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Criaturas del bosque",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Oruga",
+        "Libélula",
+        "Hormiga",
+        "Puercoespín",
+        "Saltamontes",
+        "Sapo",
+        "Criaturas del bosque",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Criaturas del bosque propone una tarea clara: clasificar los dibujos por tipo —orugas, libélulas, hormigas y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 5 orugas, 5 libélulas, 3 hormigas, 5 puercoespines, 1 saltamontes y 1 sapo. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Criaturas del bosque está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de orugas la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-criaturas-del-bosque",
+      "carousel": [
+        {
+          "label": "Contar Frutas",
+          "href": "contar-en-grafico-frutas"
+        },
+        {
+          "label": "Contar Muebles",
+          "href": "contar-en-grafico-muebles"
+        },
+        {
+          "label": "Contar Utensilios de Cocina",
+          "href": "contar-en-grafico-utensilios-de-cocina"
+        },
+        {
+          "label": "Contar Oficina de Correos",
+          "href": "contar-en-grafico-oficina-de-correos"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas orugas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas libélulas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas hormigas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos puercoespines hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos saltamontes hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos sapos hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-desayuno",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Desayuno en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Desayuno) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Desayuno",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Queso",
+        "Melón",
+        "Arándano",
+        "Jugo",
+        "Hotcake",
+        "Huevo frito",
+        "Desayuno",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Desayuno invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar quesos de melones— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar quesos, melones y arándanos en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 1 queso, 4 melones, 5 arándanos, 3 jugos, 4 hotcakes y 3 huevos fritos. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Desayuno se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de arándanos, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-desayuno",
+      "carousel": [
+        {
+          "label": "Contar Campamento",
+          "href": "contar-en-grafico-campamento"
+        },
+        {
+          "label": "Contar Navidad",
+          "href": "contar-en-grafico-navidad"
+        },
+        {
+          "label": "Contar Colores",
+          "href": "contar-en-grafico-colores"
+        },
+        {
+          "label": "Contar Criaturas del Bosque",
+          "href": "contar-en-grafico-criaturas-del-bosque"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos quesos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos melones hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos arándanos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos jugos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos hotcakes hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos huevos fritos hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-dia-de-accion-de-gracias",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Día de Acción de Gracias en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Día de Acción de Gracias) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Día de Acción de Gracias",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Calabaza",
+        "Pajar",
+        "Elote",
+        "Arándano rojo",
+        "Pavo asado",
+        "Bellota",
+        "Día de Acción de Gracias",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Día de Acción de Gracias, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —calabazas, pajares, elotes…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar calabazas y pajares por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 5 calabazas, 3 pajares, 3 elotes, 2 arándanos rojos, 4 pavos asados y 3 bellotas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Día de Acción de Gracias para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de calabazas es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-dia-de-accion-de-gracias",
+      "carousel": [
+        {
+          "label": "Contar Cosas que Vuelan",
+          "href": "contar-en-grafico-cosas-que-vuelan"
+        },
+        {
+          "label": "Contar Herramientas",
+          "href": "contar-en-grafico-herramientas"
+        },
+        {
+          "label": "Contar Verduras",
+          "href": "contar-en-grafico-verduras"
+        },
+        {
+          "label": "Contar Alrededor de la Casa",
+          "href": "contar-en-grafico-alrededor-de-la-casa"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas calabazas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos pajares hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos elotes hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos arándanos rojos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos pavos asados hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas bellotas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-dinosaurios",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Dinosaurios en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Dinosaurios) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Dinosaurios",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Argentinosaurio",
+        "Anquilosaurio",
+        "Carnotauro",
+        "Velociraptor",
+        "Parasaurolofus",
+        "Iguanodonte",
+        "Dinosaurios",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Dinosaurios, el niño mira los dibujos, junta los iguales —los argentinosaurios con los argentinosaurios, los anquilosaurios con los anquilosaurios— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de carnotauros forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 5 argentinosaurios, 3 anquilosaurios, 5 carnotauros, 4 velociraptores, 1 parasaurolofus y 2 iguanodontes. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Dinosaurios para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-dinosaurios",
+      "carousel": [
+        {
+          "label": "Contar Pascua",
+          "href": "contar-en-grafico-pascua"
+        },
+        {
+          "label": "Contar Animales de Granja",
+          "href": "contar-en-grafico-animales-de-granja"
+        },
+        {
+          "label": "Contar Frutas",
+          "href": "contar-en-grafico-frutas"
+        },
+        {
+          "label": "Contar Música",
+          "href": "contar-en-grafico-musica"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos argentinosaurios hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos anquilosaurios hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos carnotauros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos velociraptores hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos parasaurolofus hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos iguanodontes hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-en-el-supermercado",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar En el supermercado en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (En el supermercado) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: En el supermercado",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Muffin",
+        "Durazno",
+        "Crema de cacahuate",
+        "Cebolla",
+        "Queso",
+        "Papas fritas",
+        "En el supermercado",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con En el supermercado propone una tarea clara: clasificar los dibujos por tipo —muffins, duraznos, cremas de cacahuate y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 2 muffins, 1 durazno, 5 cremas de cacahuate, 4 cebollas, 5 quesos y 3 papas fritas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de En el supermercado está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de cremas de cacahuate la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-en-el-supermercado",
+      "carousel": [
+        {
+          "label": "Contar Panadería",
+          "href": "contar-en-grafico-panaderia"
+        },
+        {
+          "label": "Contar Playa",
+          "href": "contar-en-grafico-playa"
+        },
+        {
+          "label": "Contar Desayuno",
+          "href": "contar-en-grafico-desayuno"
+        },
+        {
+          "label": "Contar Postres y Dulces",
+          "href": "contar-en-grafico-postres-y-dulces"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos muffins hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos duraznos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos cremas de cacahuate hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cebollas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos quesos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos papas fritas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-espacio",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "space",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Espacio en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Espacio) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Espacio",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Saturno",
+        "Asteroide",
+        "Luna",
+        "Meteoro",
+        "Tierra",
+        "Cohete",
+        "Espacio",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Espacio invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar saturno de asteroides— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar saturno, asteroides y lunas en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 3 saturno, 3 asteroides, 5 lunas, 4 meteoros, 2 tierra y 3 cohetes. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Espacio se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de lunas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-espacio",
+      "carousel": [
+        {
+          "label": "Contar Día de Acción de Gracias",
+          "href": "contar-en-grafico-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Contar Cosas que Vuelan",
+          "href": "contar-en-grafico-cosas-que-vuelan"
+        },
+        {
+          "label": "Contar Árboles",
+          "href": "contar-en-grafico-arboles"
+        },
+        {
+          "label": "Contar Animales",
+          "href": "contar-en-grafico-animales"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos saturno hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos asteroides hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas lunas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos meteoros hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas tierra hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos cohetes hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-flores",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "flowers",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Flores en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Flores para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Flores",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Tulipán",
+        "Peonía",
+        "Diente de león",
+        "Violeta",
+        "Ranúnculo",
+        "Trilio",
+        "Flores",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Flores, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —tulipanes, peonías, dientes de león…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar tulipanes y peonías por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 3 tulipanes, 4 peonías, 4 dientes de león, 4 violetas, 3 ranúnculos y 2 trilios. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Flores para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de peonías es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-flores",
+      "carousel": [
+        {
+          "label": "Contar Criaturas del Bosque",
+          "href": "contar-en-grafico-criaturas-del-bosque"
+        },
+        {
+          "label": "Contar Frutas",
+          "href": "contar-en-grafico-frutas"
+        },
+        {
+          "label": "Contar Insectos y Bichos",
+          "href": "contar-en-grafico-insectos-y-bichos"
+        },
+        {
+          "label": "Contar Mascotas",
+          "href": "contar-en-grafico-mascotas"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos tulipanes hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas peonías hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos dientes de león hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas violetas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos ranúnculos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos trilios hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-formas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "shapes",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Formas en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Formas para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Formas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Pirámide",
+        "Rectángulo",
+        "Cilindro",
+        "Cuadrado",
+        "Luna",
+        "Esfera",
+        "Formas",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Formas, el niño mira los dibujos, junta los iguales —los pirámides con los pirámides, los rectángulos con los rectángulos— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de cilindros forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 5 pirámides, 3 rectángulos, 5 cilindros, 3 cuadrados, 2 lunas y 2 esferas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Formas para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-formas",
+      "carousel": [
+        {
+          "label": "Contar Espacio",
+          "href": "contar-en-grafico-espacio"
+        },
+        {
+          "label": "Contar Día de Acción de Gracias",
+          "href": "contar-en-grafico-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Contar Juguetes",
+          "href": "contar-en-grafico-juguetes"
+        },
+        {
+          "label": "Contar Accesorios",
+          "href": "contar-en-grafico-accesorios"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pirámides hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos rectángulos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos cilindros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos cuadrados hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas lunas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas esferas hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-frutas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "fruits",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Frutas en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Frutas para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Frutas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Lima",
+        "Arándano rojo",
+        "Plátano",
+        "Arándano",
+        "Coco",
+        "Caqui",
+        "Frutas",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Frutas propone una tarea clara: clasificar los dibujos por tipo —limas, arándanos rojos, plátanos y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 4 limas, 2 arándanos rojos, 5 plátanos, 3 arándanos, 4 cocos y 2 caquis. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Frutas está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de plátanos la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-frutas",
+      "carousel": [
+        {
+          "label": "Contar Muebles",
+          "href": "contar-en-grafico-muebles"
+        },
+        {
+          "label": "Contar Hospital",
+          "href": "contar-en-grafico-hospital"
+        },
+        {
+          "label": "Contar Miscelánea",
+          "href": "contar-en-grafico-miscelaneo"
+        },
+        {
+          "label": "Contar Reptiles y Anfibios",
+          "href": "contar-en-grafico-reptiles-y-anfibios"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas limas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos arándanos rojos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos plátanos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos arándanos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos cocos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos caquis hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-herramientas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Herramientas en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Herramientas) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Herramientas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Pinzas",
+        "Desarmador",
+        "Llave inglesa",
+        "Escalera",
+        "Cinta métrica",
+        "Uña",
+        "Herramientas",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Herramientas invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar pinzas de desarmadores— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar pinzas, desarmadores y llaves inglesas en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 pinzas, 3 desarmadores, 3 llaves inglesas, 5 escaleras, 2 cintas métricas y 2 uñas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Herramientas se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de pinzas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-herramientas",
+      "carousel": [
+        {
+          "label": "Contar Juguetes",
+          "href": "contar-en-grafico-juguetes"
+        },
+        {
+          "label": "Contar Árboles",
+          "href": "contar-en-grafico-arboles"
+        },
+        {
+          "label": "Contar Animales del Zoológico",
+          "href": "contar-en-grafico-animales-del-zoologico"
+        },
+        {
+          "label": "Contar Panadería",
+          "href": "contar-en-grafico-panaderia"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pinzas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos desarmadores hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas llaves inglesas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas escaleras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cintas métricas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas uñas hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-hospital",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "hospital",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Hospital en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Hospital) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Hospital",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Radiografía",
+        "Muletas",
+        "Vendaje",
+        "Uniforme médico",
+        "Camilla",
+        "Enfermera",
+        "Hospital",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Hospital, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —radiografías, muletas, vendajes…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar radiografías y muletas por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 5 radiografías, 2 muletas, 5 vendajes, 1 uniforme médico, 5 camillas y 2 enfermeras. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Hospital para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de radiografías es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-hospital",
+      "carousel": [
+        {
+          "label": "Contar Insectos y Bichos",
+          "href": "contar-en-grafico-insectos-y-bichos"
+        },
+        {
+          "label": "Contar Utensilios de Cocina",
+          "href": "contar-en-grafico-utensilios-de-cocina"
+        },
+        {
+          "label": "Contar Ocupaciones",
+          "href": "contar-en-grafico-ocupaciones"
+        },
+        {
+          "label": "Contar Espacio",
+          "href": "contar-en-grafico-espacio"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas radiografías hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas muletas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos vendajes hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos uniformes médicos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas camillas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas enfermeras hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-insectos-y-bichos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Insectos y bichos en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Insectos y bichos) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Insectos y bichos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Hormiga",
+        "Milpiés",
+        "Mariposa",
+        "Libélula",
+        "Catarina",
+        "Gusano",
+        "Insectos y bichos",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Insectos y bichos, el niño mira los dibujos, junta los iguales —los hormigas con los hormigas, los milpiés con los milpiés— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de mariposas forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 4 hormigas, 3 milpiés, 3 mariposas, 4 libélulas, 3 catarinas y 3 gusanos. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Insectos y bichos para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-insectos-y-bichos",
+      "carousel": [
+        {
+          "label": "Contar Utensilios de Cocina",
+          "href": "contar-en-grafico-utensilios-de-cocina"
+        },
+        {
+          "label": "Contar Miscelánea",
+          "href": "contar-en-grafico-miscelaneo"
+        },
+        {
+          "label": "Contar Vida Marina",
+          "href": "contar-en-grafico-vida-marina"
+        },
+        {
+          "label": "Contar Día de Acción de Gracias",
+          "href": "contar-en-grafico-dia-de-accion-de-gracias"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas hormigas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos milpiés hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas mariposas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas libélulas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas catarinas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos gusanos hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-juguetes",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "toys",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Juguetes en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Juguetes) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Juguetes",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Helicóptero",
+        "Niña",
+        "Carro",
+        "Crayones",
+        "Camión",
+        "Bebé niña",
+        "Juguetes",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Juguetes propone una tarea clara: clasificar los dibujos por tipo —helicópteros, niñas, carros y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 2 helicópteros, 3 niñas, 2 carros, 5 crayones, 3 camiones y 5 bebés niñas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Juguetes está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de crayones la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-juguetes",
+      "carousel": [
+        {
+          "label": "Contar Árboles",
+          "href": "contar-en-grafico-arboles"
+        },
+        {
+          "label": "Contar Verduras",
+          "href": "contar-en-grafico-verduras"
+        },
+        {
+          "label": "Contar 4 de Julio",
+          "href": "contar-en-grafico-4-de-julio"
+        },
+        {
+          "label": "Contar Playa",
+          "href": "contar-en-grafico-playa"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos helicópteros hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas niñas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos carros hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos crayones hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos camiones hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos bebés niñas hay?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-mascotas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "pets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Mascotas en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Mascotas) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Mascotas",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Loro",
+        "Conejo",
+        "Cacatúa ninfa",
+        "Tortuga de tierra",
+        "Pez",
+        "Perro",
+        "Mascotas",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Mascotas invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar loros de conejos— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar loros, conejos y cacatúas ninfa en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 loros, 5 conejos, 3 cacatúas ninfa, 5 tortugas de tierra, 1 pez y 1 perro. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Mascotas se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de loros, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-mascotas",
+      "carousel": [
+        {
+          "label": "Contar Oficina de Correos",
+          "href": "contar-en-grafico-oficina-de-correos"
+        },
+        {
+          "label": "Contar Reptiles y Anfibios",
+          "href": "contar-en-grafico-reptiles-y-anfibios"
+        },
+        {
+          "label": "Contar Día de Acción de Gracias",
+          "href": "contar-en-grafico-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Contar Vehículos",
+          "href": "contar-en-grafico-vehiculos"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos loros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos conejos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cacatúas ninfa hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas tortugas de tierra hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos peces hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos perros hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-miscelaneo",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "miscellaneous",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Misceláneo en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Misceláneo) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Misceláneo",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Hoja",
+        "Casa",
+        "Huerto",
+        "Piña de pino",
+        "Fogata",
+        "Árbol de otoño",
+        "Misceláneo",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Misceláneo, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —hojas, casas, huertos…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar hojas y casas por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 5 hojas, 4 casas, 1 huerto, 3 piñas de pino, 2 fogatas y 5 árboles de otoño. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Misceláneo para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de hojas es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-miscelaneo",
+      "carousel": [
+        {
+          "label": "Contar Música",
+          "href": "contar-en-grafico-musica"
+        },
+        {
+          "label": "Contar Ocupaciones",
+          "href": "contar-en-grafico-ocupaciones"
+        },
+        {
+          "label": "Contar Oficina de Correos",
+          "href": "contar-en-grafico-oficina-de-correos"
+        },
+        {
+          "label": "Contar Herramientas",
+          "href": "contar-en-grafico-herramientas"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas hojas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas casas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos huertos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas piñas de pino hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas fogatas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos árboles de otoño hay?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-muebles",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "furniture",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Muebles en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Muebles) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Muebles",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Mecedora",
+        "Sillón",
+        "Librero",
+        "Sofá",
+        "Cómoda",
+        "Cuna",
+        "Muebles",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Muebles, el niño mira los dibujos, junta los iguales —los mecedoras con los mecedoras, los sillones con los sillones— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de libreros forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 5 mecedoras, 3 sillones, 2 libreros, 4 sofás, 5 cómodas y 1 cuna. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Muebles para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-muebles",
+      "carousel": [
+        {
+          "label": "Contar Hospital",
+          "href": "contar-en-grafico-hospital"
+        },
+        {
+          "label": "Contar Insectos y Bichos",
+          "href": "contar-en-grafico-insectos-y-bichos"
+        },
+        {
+          "label": "Contar Música",
+          "href": "contar-en-grafico-musica"
+        },
+        {
+          "label": "Contar Formas",
+          "href": "contar-en-grafico-formas"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas mecedoras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos sillones hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos libreros hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos sofás hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas cómodas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cunas hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-musica",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "music",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Música en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Música para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Música",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Arpa",
+        "Tambor",
+        "Nota musical",
+        "Cantante",
+        "Platillos",
+        "Xilófono",
+        "Música",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Música propone una tarea clara: clasificar los dibujos por tipo —arpas, tambores, notas musicales y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 2 arpas, 5 tambores, 4 notas musicales, 5 cantantes, 3 platillos y 1 xilófono. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Música está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de tambores la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-musica",
+      "carousel": [
+        {
+          "label": "Contar Ocupaciones",
+          "href": "contar-en-grafico-ocupaciones"
+        },
+        {
+          "label": "Contar Vida Marina",
+          "href": "contar-en-grafico-vida-marina"
+        },
+        {
+          "label": "Contar Reptiles y Anfibios",
+          "href": "contar-en-grafico-reptiles-y-anfibios"
+        },
+        {
+          "label": "Contar Juguetes",
+          "href": "contar-en-grafico-juguetes"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas arpas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos tambores hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas notas musicales hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos cantantes hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos platillos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos xilófonos hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-navidad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "christmas",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Navidad en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Navidad) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Navidad",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Calcetín navideño",
+        "Chimenea",
+        "Árbol",
+        "Santa Claus",
+        "Pan de jengibre",
+        "Navidad",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Navidad invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar calcetines navideños de chimeneas— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar calcetines navideños, chimeneas y árboles en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 4 calcetines navideños, 5 chimeneas, 3 árboles, 3 Santa Claus y 5 panes de jengibre. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Navidad se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de chimeneas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-navidad",
+      "carousel": [
+        {
+          "label": "Contar Salón de Clases",
+          "href": "contar-en-grafico-salon-de-clases"
+        },
+        {
+          "label": "Contar Ropa",
+          "href": "contar-en-grafico-ropa"
+        },
+        {
+          "label": "Contar Dinosaurios",
+          "href": "contar-en-grafico-dinosaurios"
+        },
+        {
+          "label": "Contar Muebles",
+          "href": "contar-en-grafico-muebles"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos calcetines navideños hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas chimeneas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos árboles hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos Santa Claus hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos panes de jengibre hay?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-ocupaciones",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "occupations",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Ocupaciones en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Ocupaciones) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Ocupaciones",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cartero",
+        "Bombero",
+        "Doctor",
+        "Farmacéutico",
+        "Sastre",
+        "Maestro",
+        "Ocupaciones",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Ocupaciones, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —carteros, bomberos, doctores…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar carteros y bomberos por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 4 carteros, 5 bomberos, 4 doctores, 1 farmacéutico, 2 sastres y 4 maestros. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Ocupaciones para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de bomberos es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-ocupaciones",
+      "carousel": [
+        {
+          "label": "Contar Vida Marina",
+          "href": "contar-en-grafico-vida-marina"
+        },
+        {
+          "label": "Contar Mascotas",
+          "href": "contar-en-grafico-mascotas"
+        },
+        {
+          "label": "Contar Formas",
+          "href": "contar-en-grafico-formas"
+        },
+        {
+          "label": "Contar Árboles",
+          "href": "contar-en-grafico-arboles"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos carteros hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos bomberos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos doctores hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos farmacéuticos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos sastres hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos maestros hay?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-oficina-de-correos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "post_office",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Oficina de correos en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Oficina de correos) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Oficina de correos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cartero",
+        "Oficina de correos",
+        "Sobre",
+        "Buzón",
+        "Sello",
+        "Paquete",
+        "Oficina de correos",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Oficina de correos, el niño mira los dibujos, junta los iguales —los carteros con los carteros, los oficinas de correos con los oficinas de correos— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de sobres forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 3 carteros, 2 oficinas de correos, 5 sobres, 5 buzones, 3 sellos y 2 paquetes. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Oficina de correos para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-oficina-de-correos",
+      "carousel": [
+        {
+          "label": "Contar Reptiles y Anfibios",
+          "href": "contar-en-grafico-reptiles-y-anfibios"
+        },
+        {
+          "label": "Contar Formas",
+          "href": "contar-en-grafico-formas"
+        },
+        {
+          "label": "Contar Cosas que Vuelan",
+          "href": "contar-en-grafico-cosas-que-vuelan"
+        },
+        {
+          "label": "Contar Animales del Zoológico",
+          "href": "contar-en-grafico-animales-del-zoologico"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos carteros hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas oficinas de correos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos sobres hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos buzones hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos sellos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos paquetes hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-panaderia",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "bakery",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Panadería en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Panadería) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Panadería",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Pastel",
+        "Eclair",
+        "Cuerno",
+        "Galleta",
+        "Baguette",
+        "Tarta",
+        "Panadería",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Panadería propone una tarea clara: clasificar los dibujos por tipo —pasteles, eclairs, cuernos y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 5 pasteles, 5 eclairs, 3 cuernos, 5 galletas, 1 baguette y 1 tarta. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Panadería está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de pasteles la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-panaderia",
+      "carousel": [
+        {
+          "label": "Contar Playa",
+          "href": "contar-en-grafico-playa"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves"
+        },
+        {
+          "label": "Contar Campamento",
+          "href": "contar-en-grafico-campamento"
+        },
+        {
+          "label": "Contar Dinosaurios",
+          "href": "contar-en-grafico-dinosaurios"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos pasteles hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos eclairs hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos cuernos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas galletas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos baguettes hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas tartas hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-pascua",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "easter",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Pascua en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Pascua para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Pascua",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Canasta",
+        "Listón",
+        "Patito",
+        "Pollito",
+        "Dulce",
+        "Cordero",
+        "Pascua",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Pascua invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar canastas de listones— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar canastas, listones y patitos en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 5 canastas, 4 listones, 1 patito, 3 pollitos, 5 dulces y 2 corderos. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Pascua se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de canastas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-pascua",
+      "carousel": [
+        {
+          "label": "Contar Animales de Granja",
+          "href": "contar-en-grafico-animales-de-granja"
+        },
+        {
+          "label": "Contar Flores",
+          "href": "contar-en-grafico-flores"
+        },
+        {
+          "label": "Contar Muebles",
+          "href": "contar-en-grafico-muebles"
+        },
+        {
+          "label": "Contar Ocupaciones",
+          "href": "contar-en-grafico-ocupaciones"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas canastas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos listones hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos patitos hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos pollitos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos dulces hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos corderos hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-playa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "beach",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Playa en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Playa para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Playa",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Traje de baño",
+        "Pelícano",
+        "Velero",
+        "Faro",
+        "Pala",
+        "Lentes de sol",
+        "Playa",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Playa, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —trajes de baño, pelícanos, veleros…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar trajes de baño y pelícanos por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 3 trajes de baño, 2 pelícanos, 5 veleros, 5 faros, 4 palas y 1 lentes de sol. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Playa para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de veleros es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-playa",
+      "carousel": [
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves-2"
+        },
+        {
+          "label": "Contar Navidad",
+          "href": "contar-en-grafico-navidad"
+        },
+        {
+          "label": "Contar Pascua",
+          "href": "contar-en-grafico-pascua"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos trajes de baño hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos pelícanos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos veleros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos faros hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas palas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos lentes de sol hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-postres-y-dulces",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Postres y dulces en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Postres y dulces) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Postres y dulces",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Bastón de caramelo",
+        "Panquecito",
+        "Pastel",
+        "Rollo de canela",
+        "Muffin",
+        "Tarta",
+        "Postres y dulces",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Postres y dulces, el niño mira los dibujos, junta los iguales —los bastones de caramelo con los bastones de caramelo, los panquecitos con los panquecitos— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de pasteles forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 3 bastones de caramelo, 3 panquecitos, 3 pasteles, 3 rollos de canela, 5 muffins y 3 tartas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Postres y dulces para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-postres-y-dulces",
+      "carousel": [
+        {
+          "label": "Contar Dinosaurios",
+          "href": "contar-en-grafico-dinosaurios"
+        },
+        {
+          "label": "Contar Pascua",
+          "href": "contar-en-grafico-pascua"
+        },
+        {
+          "label": "Contar Criaturas del Bosque",
+          "href": "contar-en-grafico-criaturas-del-bosque"
+        },
+        {
+          "label": "Contar Miscelánea",
+          "href": "contar-en-grafico-miscelaneo"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos bastones de caramelo hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos panquecitos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos pasteles hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos rollos de canela hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos muffins hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas tartas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-reptiles-y-anfibios",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Reptiles y anfibios en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Reptiles y anfibios) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Reptiles y anfibios",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Gecko",
+        "Camaleón",
+        "Cobra",
+        "Iguana",
+        "Tortuga",
+        "Dragón de Komodo",
+        "Reptiles y anfibios",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Reptiles y anfibios propone una tarea clara: clasificar los dibujos por tipo —geckos, camaleones, cobras y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 2 geckos, 5 camaleones, 5 cobras, 3 iguanas, 3 tortugas y 2 dragones de Komodo. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Reptiles y anfibios está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de camaleones la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-reptiles-y-anfibios",
+      "carousel": [
+        {
+          "label": "Contar Formas",
+          "href": "contar-en-grafico-formas"
+        },
+        {
+          "label": "Contar Espacio",
+          "href": "contar-en-grafico-espacio"
+        },
+        {
+          "label": "Contar Herramientas",
+          "href": "contar-en-grafico-herramientas"
+        },
+        {
+          "label": "Contar 4 de Julio",
+          "href": "contar-en-grafico-4-de-julio"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos geckos hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos camaleones hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cobras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas iguanas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas tortugas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos dragones de Komodo hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-ropa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "clothing",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Ropa en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo con el tema de Ropa para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar en línea sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Ropa",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Manopla",
+        "Corbata de moño",
+        "Corbata",
+        "Pantuflas",
+        "Blusa",
+        "Ropa",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Ropa invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar manoplas de corbatas de moño— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar manoplas, corbatas de moño y corbatas en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 3 manoplas, 5 corbatas de moño, 4 corbatas, 5 pantuflas y 3 blusas. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Ropa se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de corbatas de moño, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-ropa",
+      "carousel": [
+        {
+          "label": "Contar Colores",
+          "href": "contar-en-grafico-colores"
+        },
+        {
+          "label": "Contar Postres y Dulces",
+          "href": "contar-en-grafico-postres-y-dulces"
+        },
+        {
+          "label": "Contar Animales de Granja",
+          "href": "contar-en-grafico-animales-de-granja"
+        },
+        {
+          "label": "Contar Insectos y Bichos",
+          "href": "contar-en-grafico-insectos-y-bichos"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas manoplas hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas corbatas de moño hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas corbatas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos pantuflas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas blusas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-salon-de-clases",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "classroom",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Salón de clases en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Salón de clases) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Salón de clases",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Marcador",
+        "Folder",
+        "Globo terráqueo",
+        "Tijeras",
+        "Calculadora",
+        "Mochila",
+        "Salón de clases",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Salón de clases, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —marcadores, carpetas, globos terráqueos…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar marcadores y carpetas por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 3 marcadores, 4 carpetas, 5 globos terráqueos, 4 tijeras, 1 calculadora y 3 mochilas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Salón de clases para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de globos terráqueos es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-salon-de-clases",
+      "carousel": [
+        {
+          "label": "Contar Ropa",
+          "href": "contar-en-grafico-ropa"
+        },
+        {
+          "label": "Contar Colores",
+          "href": "contar-en-grafico-colores"
+        },
+        {
+          "label": "Contar Pascua",
+          "href": "contar-en-grafico-pascua"
+        },
+        {
+          "label": "Contar Hospital",
+          "href": "contar-en-grafico-hospital"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos marcadores hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas carpetas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos globos terráqueos hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas tijeras hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas calculadoras hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas mochilas hay?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-utensilios-de-cocina",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Utensilios de cocina en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Utensilios de cocina) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Utensilios de cocina",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Taza",
+        "Jarra",
+        "Pinzas",
+        "Cacerola",
+        "Bandeja para hornear",
+        "Sartén",
+        "Utensilios de cocina",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "En esta actividad de Utensilios de cocina, el niño mira los dibujos, junta los iguales —los tazas con los tazas, los jarras con los jarras— cuenta cuántos hay de cada uno y colorea las casillas que correspondan. Al terminar, columnas como la de pinzas forman un pictograma que se lee de un vistazo. La tarea ejercita el conteo y la clasificación de manera concreta y visual, sin prisa.",
+      "p2": "En este mazo, el niño cuenta 2 tazas, 5 jarras, 5 pinzas, 4 cacerolas, 3 bandejas para hornear y 1 sartén. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "Disponible gratis: imprime la hoja de Utensilios de cocina para trabajar en papel o juégala en línea, sin necesidad de registrarse. No incluye cronómetros ni puntajes; revisar y contar otra vez también es aprender. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico (Matemáticas), ideal para niñas y niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. El siguiente paso es comparar cuál categoría tiene más dibujos.",
+      "canonicalDeckSlug": "contar-en-grafico-utensilios-de-cocina",
+      "carousel": [
+        {
+          "label": "Contar Miscelánea",
+          "href": "contar-en-grafico-miscelaneo"
+        },
+        {
+          "label": "Contar Música",
+          "href": "contar-en-grafico-musica"
+        },
+        {
+          "label": "Contar Mascotas",
+          "href": "contar-en-grafico-mascotas"
+        },
+        {
+          "label": "Contar Cosas que Vuelan",
+          "href": "contar-en-grafico-cosas-que-vuelan"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas tazas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas jarras hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos pinzas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas cacerolas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántas bandejas para hornear hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas sartenes hay?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-vehiculos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Vehículos en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Vehículos) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Vehículos",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Grúa remolque",
+        "Cohete",
+        "Avión",
+        "Canoa",
+        "Camión de bomberos",
+        "Montacargas",
+        "Vehículos",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo y gráfica con Vehículos propone una tarea clara: clasificar los dibujos por tipo —grúas remolques, cohetes, aviones y más— contar cuántos hay de cada clase y colorear una casilla por dibujo hasta levantar cada columna. Así el pequeño aprende a organizar datos y a comparar cantidades, viendo de inmediato qué grupo tiene más y cuál tiene menos.",
+      "p2": "Aquí hay que contar 1 grúa remolque, 5 cohetes, 5 aviones, 2 canoas, 3 camiones de bomberos y 4 montacargas. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Esta gráfica de Vehículos está disponible gratis para imprimir en PDF o jugar en línea, sin registro. Sin relojes ni puntajes: el ritmo lo pone cada niño, con un tono amable. Alineada con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años. Al final, comparar las columnas —¿es la de cohetes la más grande?— afianza la lectura del pictograma.",
+      "canonicalDeckSlug": "contar-en-grafico-vehiculos",
+      "carousel": [
+        {
+          "label": "Contar Animales del Zoológico",
+          "href": "contar-en-grafico-animales-del-zoologico"
+        },
+        {
+          "label": "Contar 4 de Julio",
+          "href": "contar-en-grafico-4-de-julio"
+        },
+        {
+          "label": "Contar Alrededor de la Casa",
+          "href": "contar-en-grafico-alrededor-de-la-casa"
+        },
+        {
+          "label": "Contar Desayuno",
+          "href": "contar-en-grafico-desayuno"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas grúas remolques hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántos cohetes hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántos aviones hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas canoas hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántos camiones de bomberos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos montacargas hay?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-verduras",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Verduras en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Verduras) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Verduras",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Nabo",
+        "Lechuga",
+        "Papa",
+        "Chirivía",
+        "Zanahoria",
+        "Ejotes",
+        "Verduras",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Esta hoja de conteo con el tema de Verduras invita a las niñas y los niños a contar y organizar datos: hay que juntar los dibujos iguales —por ejemplo, separar nabos de lechugas— contar cuántos hay de cada clase y colorear las casillas hasta la altura correcta para ir armando una gráfica o pictograma. Al clasificar nabos, lechugas y papas en columnas, el pequeño practica una idea base del pensamiento matemático: ordenar por categorías y comparar cantidades.",
+      "p2": "En este mazo, el niño cuenta 3 nabos, 1 lechuga, 5 papas, 5 chirivías, 4 zanahorias y 2 ejotes. Al colorear una casilla por cada dibujo, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos; señalar con el dedo cada dibujo mientras se cuenta ayuda a no perder la cuenta y a comprobar la respuesta.",
+      "p3": "La hoja de Verduras se puede imprimir en PDF para trabajar en papel o jugar en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse, porque contar de nuevo —volver a revisar la columna de papas, por ejemplo— es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), en el campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para Preescolar (5 años) a Primer grado de primaria, de 5 a 7 años.",
+      "canonicalDeckSlug": "contar-en-grafico-verduras",
+      "carousel": [
+        {
+          "label": "Contar Vehículos",
+          "href": "contar-en-grafico-vehiculos"
+        },
+        {
+          "label": "Contar Animales del Zoológico",
+          "href": "contar-en-grafico-animales-del-zoologico"
+        },
+        {
+          "label": "Contar Animales",
+          "href": "contar-en-grafico-animales"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves-2"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántos nabos hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántas lechugas hay?",
+          "a": "1"
+        },
+        {
+          "q": "¿Cuántas papas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas chirivías hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas zanahorias hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos ejotes hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "contar-en-grafico-vida-marina",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "primer-grado"
+      },
+      "levels": [
+        "preescolar",
+        "primer-grado"
+      ],
+      "title": "Contar Vida marina en una Gráfica: ¿Cuántos Hay?",
+      "metaDescription": "Hoja de conteo (Vida marina) para niños de 5 a 7 años: cuenta cuántos hay de cada dibujo y colorea la gráfica. Gratis para imprimir o jugar sin registro.",
+      "eyebrow": "Hoja de conteo y gráfica",
+      "h1": "Cuenta y Completa la Gráfica: Vida marina",
+      "strand": "Saberes y Pensamiento Científico — Matemáticas",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Vieira",
+        "Orca",
+        "Ballena",
+        "León marino",
+        "Pez ángel",
+        "Calamar",
+        "Vida marina",
+        "Preescolar (5 años) a Primer grado"
+      ],
+      "p1": "Con esta gráfica de conteo de Vida marina, las niñas y los niños cuentan para responder «¿cuántos hay?». La hoja mezcla varios dibujos —vieiras, orcas, ballenas…— y pide reunir los que son iguales, contar cada grupo y pintar una columna casilla por casilla hasta formar un pictograma. Es una primera aproximación a la organización de datos: clasificar vieiras y orcas por tipo, contar cuántos hay y comparar cuál grupo es más grande.",
+      "p2": "Aquí hay que contar 2 vieiras, 5 orcas, 4 ballenas, 4 leones marinos, 3 peces ángeles y 2 calamares. Cada grupo se lleva a su propia columna, así que al terminar se ve a simple vista cuál categoría quedó más alta y cuál más baja; contar señalando con el dedo evita saltarse dibujos y permite revisar la respuesta antes de seguir.",
+      "p3": "Puedes descargar el PDF de Vida marina para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, con calidez y sin presión. La actividad se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico (Matemáticas), pensada para Preescolar (5 años) a Primer grado de primaria (5 a 7 años). Después de contar, conviene comparar las columnas y ver si la de orcas es la más alta.",
+      "canonicalDeckSlug": "contar-en-grafico-vida-marina",
+      "carousel": [
+        {
+          "label": "Contar Mascotas",
+          "href": "contar-en-grafico-mascotas"
+        },
+        {
+          "label": "Contar Oficina de Correos",
+          "href": "contar-en-grafico-oficina-de-correos"
+        },
+        {
+          "label": "Contar Espacio",
+          "href": "contar-en-grafico-espacio"
+        },
+        {
+          "label": "Contar Verduras",
+          "href": "contar-en-grafico-verduras"
+        }
+      ],
+      "practiceProblems": [
+        {
+          "q": "¿Cuántas vieiras hay?",
+          "a": "2"
+        },
+        {
+          "q": "¿Cuántas orcas hay?",
+          "a": "5"
+        },
+        {
+          "q": "¿Cuántas ballenas hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos leones marinos hay?",
+          "a": "4"
+        },
+        {
+          "q": "¿Cuántos peces ángeles hay?",
+          "a": "3"
+        },
+        {
+          "q": "¿Cuántos calamares hay?",
+          "a": "2"
+        }
+      ]
+    },
+    {
       "slug": "contar-en-grafico-animales",
       "variantShape": "singleton",
       "coordinate": {
@@ -34,7 +3295,24 @@
       "p2": "Los animales del mazo hacen la práctica cercana y divertida. El niño cuenta 5 koalas, 4 cerdos, 4 gatos y 4 alces; después 2 camellos y, por último, 1 ballena. Al colorear una casilla por cada animal, la columna más alta muestra de un vistazo qué grupo tiene más y cuál tiene menos. Señalar con el dedo cada dibujo mientras se cuenta ayuda a los pequeños a no perder la cuenta y a comprobar su respuesta, y comparar las columnas terminadas responde de forma visual preguntas como «¿cuántos hay?» y «¿cuál tiene más?».",
       "p3": "La hoja se puede imprimir en PDF para trabajar en papel o jugar en línea de forma interactiva, siempre gratis y sin necesidad de registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con un tono cálido y sin vergüenza por equivocarse, porque contar de nuevo es parte de aprender. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP) dentro del campo formativo Saberes y Pensamiento Científico (Matemáticas), y es ideal para niños de Preescolar (5 años) a Primer grado de primaria, con edades de 5 a 7 años. Cuando el pequeño cuente con seguridad hasta 5, el siguiente paso natural es contar y comparar grupos un poco más grandes.",
       "canonicalDeckSlug": "contar-en-grafico-animales",
-      "carousel": [],
+      "carousel": [
+        {
+          "label": "Contar Alrededor de la Casa",
+          "href": "contar-en-grafico-alrededor-de-la-casa"
+        },
+        {
+          "label": "Contar En el Supermercado",
+          "href": "contar-en-grafico-en-el-supermercado"
+        },
+        {
+          "label": "Contar Aves",
+          "href": "contar-en-grafico-aves"
+        },
+        {
+          "label": "Contar Ropa",
+          "href": "contar-en-grafico-ropa"
+        }
+      ],
       "practiceProblems": [
         {
           "q": "¿Cuántos koalas hay?",

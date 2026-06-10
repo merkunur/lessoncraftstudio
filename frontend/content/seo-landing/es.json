@@ -2,6 +2,1933 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "preposiciones-opcion-multiple-4-de-julio-7d8f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "4th_of_july",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con 4 de Julio",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con 4 de Julio: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con 4 de Julio",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "4 de Julio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de 4 de Julio para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de 4 de Julio y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "En esta variante, las imágenes de 4 de Julio se parecen mucho entre sí, así que el niño mira con más cuidado dónde está el objeto: ¿sobre, debajo o dentro? Con un toque elige la que muestra la posición correcta. Deja que observe con calma cada opción; comparar es parte del juego. Sin escribir y sin contar, solo mirar y reconocer dónde está cada cosa.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con 4 de Julio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-4-de-julio-7d8f",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Accesorios",
+          "href": "preposiciones-opcion-multiple-accesorios-e8a7"
+        },
+        {
+          "label": "¿Dónde está? — Actividades",
+          "href": "preposiciones-opcion-multiple-actividades-4bc6"
+        },
+        {
+          "label": "¿Dónde está? — En el supermercado",
+          "href": "preposiciones-opcion-multiple-en-el-supermercado-611d"
+        },
+        {
+          "label": "¿Dónde está? — Desayuno",
+          "href": "preposiciones-opcion-multiple-desayuno-5db7"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-accesorios-e8a7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Accesorios",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Accesorios: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Accesorios: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Accesorios, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Accesorios, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Accesorios como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-accesorios-e8a7",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Actividades",
+          "href": "preposiciones-opcion-multiple-actividades-4bc6"
+        },
+        {
+          "label": "¿Dónde está? — Animales",
+          "href": "preposiciones-opcion-multiple-animales-3169"
+        },
+        {
+          "label": "¿Dónde está? — Panadería",
+          "href": "preposiciones-opcion-multiple-panaderia-8419"
+        },
+        {
+          "label": "¿Dónde está? — Campamento",
+          "href": "preposiciones-opcion-multiple-campamento-8378"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-actividades-4bc6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Actividades",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Actividades: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Actividades: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Actividades, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Actividades, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "En esta versión, la escena trae más opciones, así que el niño compara con calma las imágenes de Actividades antes de elegir. ¿En cuál el objeto está dentro y no fuera? ¿junto a algo y no lejos? Mirar con atención fortalece a la vez la constancia y la percepción del espacio. No hay reloj ni puntos, solo la alegría tranquila de reconocer la posición correcta.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Actividades, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-actividades-4bc6",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Animales",
+          "href": "preposiciones-opcion-multiple-animales-3169"
+        },
+        {
+          "label": "¿Dónde está? — Alrededor de la casa",
+          "href": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9"
+        },
+        {
+          "label": "¿Dónde está? — Playa",
+          "href": "preposiciones-opcion-multiple-playa-57f0"
+        },
+        {
+          "label": "¿Dónde está? — Navidad",
+          "href": "preposiciones-opcion-multiple-navidad-44af"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-animales-3169",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "animals",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Animales",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Animales: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Animales",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Animales",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Animales para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Animales, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Animales, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Animales, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-animales-3169",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Alrededor de la casa",
+          "href": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9"
+        },
+        {
+          "label": "¿Dónde está? — En el supermercado",
+          "href": "preposiciones-opcion-multiple-en-el-supermercado-611d"
+        },
+        {
+          "label": "¿Dónde está? — Aves",
+          "href": "preposiciones-opcion-multiple-aves-280e"
+        },
+        {
+          "label": "¿Dónde está? — Salón de clases",
+          "href": "preposiciones-opcion-multiple-salon-de-clases-7946"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "around_the_house",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Alrededor de la casa",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Alrededor de la casa: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Alrededor de la casa: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Alrededor de la casa para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Alrededor de la casa y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Alrededor de la casa como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Alrededor de la casa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — En el supermercado",
+          "href": "preposiciones-opcion-multiple-en-el-supermercado-611d"
+        },
+        {
+          "label": "¿Dónde está? — Panadería",
+          "href": "preposiciones-opcion-multiple-panaderia-8419"
+        },
+        {
+          "label": "¿Dónde está? — Aves 2",
+          "href": "preposiciones-opcion-multiple-aves-2-86a6"
+        },
+        {
+          "label": "¿Dónde está? — Ropa",
+          "href": "preposiciones-opcion-multiple-ropa-799d"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-en-el-supermercado-611d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con En el supermercado",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con En el supermercado: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de En el supermercado: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de En el supermercado para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de En el supermercado, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "En esta versión, la escena trae más opciones, así que el niño compara con calma las imágenes de En el supermercado antes de elegir. ¿En cuál el objeto está dentro y no fuera? ¿junto a algo y no lejos? Mirar con atención fortalece a la vez la constancia y la percepción del espacio. No hay reloj ni puntos, solo la alegría tranquila de reconocer la posición correcta.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con En el supermercado, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-en-el-supermercado-611d",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Panadería",
+          "href": "preposiciones-opcion-multiple-panaderia-8419"
+        },
+        {
+          "label": "¿Dónde está? — Playa",
+          "href": "preposiciones-opcion-multiple-playa-57f0"
+        },
+        {
+          "label": "¿Dónde está? — Partes del cuerpo",
+          "href": "preposiciones-opcion-multiple-partes-del-cuerpo-7623"
+        },
+        {
+          "label": "¿Dónde está? — Colores",
+          "href": "preposiciones-opcion-multiple-colores-3385"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-panaderia-8419",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "bakery",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Panadería",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Panadería: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Panadería",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Panadería",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Panadería, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Panadería, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Panadería, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Panadería, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-panaderia-8419",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Playa",
+          "href": "preposiciones-opcion-multiple-playa-57f0"
+        },
+        {
+          "label": "¿Dónde está? — Aves",
+          "href": "preposiciones-opcion-multiple-aves-280e"
+        },
+        {
+          "label": "¿Dónde está? — Desayuno",
+          "href": "preposiciones-opcion-multiple-desayuno-5db7"
+        },
+        {
+          "label": "¿Dónde está? — Postres y dulces",
+          "href": "preposiciones-opcion-multiple-postres-y-dulces-367f"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-playa-57f0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Playa",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Playa: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Playa: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encanta encontrar la imagen correcta, porque parece un pequeño reto de observación. En esta hoja de Playa para preescolar, el pequeño ve una escena repetida en varias imágenes y decide en cuál el objeto está en la posición que se pide: dentro o fuera, arriba o abajo, junto a otra cosa o lejos. Con la vista compara las imágenes de Playa y, con un toque, elige la opción acertada. Las demás muestran posiciones distintas, así que hay que mirar con cuidado. Así ejercita, sin darse cuenta, las nociones espaciales y la concentración, ambas destrezas precursoras importantes. Sin competencia y sin presión, solo el niño y el gusto de reconocer dónde está cada cosa.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Playa como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Playa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-playa-57f0",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Aves",
+          "href": "preposiciones-opcion-multiple-aves-280e"
+        },
+        {
+          "label": "¿Dónde está? — Aves 2",
+          "href": "preposiciones-opcion-multiple-aves-2-86a6"
+        },
+        {
+          "label": "¿Dónde está? — Campamento",
+          "href": "preposiciones-opcion-multiple-campamento-8378"
+        },
+        {
+          "label": "¿Dónde está? — Dinosaurios",
+          "href": "preposiciones-opcion-multiple-dinosaurios-b717"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-aves-280e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "birds",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Aves",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Aves: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Aves: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de Aves para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de Aves y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "En esta versión, la escena trae más opciones, así que el niño compara con calma las imágenes de Aves antes de elegir. ¿En cuál el objeto está dentro y no fuera? ¿junto a algo y no lejos? Mirar con atención fortalece a la vez la constancia y la percepción del espacio. No hay reloj ni puntos, solo la alegría tranquila de reconocer la posición correcta.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Aves, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-aves-280e",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Aves 2",
+          "href": "preposiciones-opcion-multiple-aves-2-86a6"
+        },
+        {
+          "label": "¿Dónde está? — Partes del cuerpo",
+          "href": "preposiciones-opcion-multiple-partes-del-cuerpo-7623"
+        },
+        {
+          "label": "¿Dónde está? — Navidad",
+          "href": "preposiciones-opcion-multiple-navidad-44af"
+        },
+        {
+          "label": "¿Dónde está? — Pascua",
+          "href": "preposiciones-opcion-multiple-pascua-aea0"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-aves-2-86a6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "birds_2",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Aves 2",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Aves 2: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Aves 2",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Aves 2",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Aves 2, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Aves 2, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Aves 2, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Aves 2, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-aves-2-86a6",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Partes del cuerpo",
+          "href": "preposiciones-opcion-multiple-partes-del-cuerpo-7623"
+        },
+        {
+          "label": "¿Dónde está? — Desayuno",
+          "href": "preposiciones-opcion-multiple-desayuno-5db7"
+        },
+        {
+          "label": "¿Dónde está? — Salón de clases",
+          "href": "preposiciones-opcion-multiple-salon-de-clases-7946"
+        },
+        {
+          "label": "¿Dónde está? — Emociones",
+          "href": "preposiciones-opcion-multiple-emociones-1d2f"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-partes-del-cuerpo-7623",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Partes del cuerpo",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Partes del cuerpo: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Partes del cuerpo: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Partes del cuerpo, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Partes del cuerpo, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Partes del cuerpo como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Partes del cuerpo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-partes-del-cuerpo-7623",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Desayuno",
+          "href": "preposiciones-opcion-multiple-desayuno-5db7"
+        },
+        {
+          "label": "¿Dónde está? — Campamento",
+          "href": "preposiciones-opcion-multiple-campamento-8378"
+        },
+        {
+          "label": "¿Dónde está? — Ropa",
+          "href": "preposiciones-opcion-multiple-ropa-799d"
+        },
+        {
+          "label": "¿Dónde está? — Animales de granja",
+          "href": "preposiciones-opcion-multiple-animales-de-granja-0c53"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-desayuno-5db7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Desayuno",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Desayuno: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Desayuno: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Desayuno para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Desayuno, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Desayuno y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Desayuno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-desayuno-5db7",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Campamento",
+          "href": "preposiciones-opcion-multiple-campamento-8378"
+        },
+        {
+          "label": "¿Dónde está? — Navidad",
+          "href": "preposiciones-opcion-multiple-navidad-44af"
+        },
+        {
+          "label": "¿Dónde está? — Colores",
+          "href": "preposiciones-opcion-multiple-colores-3385"
+        },
+        {
+          "label": "¿Dónde está? — Flores",
+          "href": "preposiciones-opcion-multiple-flores-aae4"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-campamento-8378",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Campamento",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Campamento: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Campamento",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Campamento para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Campamento y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Campamento, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Campamento, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-campamento-8378",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Navidad",
+          "href": "preposiciones-opcion-multiple-navidad-44af"
+        },
+        {
+          "label": "¿Dónde está? — Salón de clases",
+          "href": "preposiciones-opcion-multiple-salon-de-clases-7946"
+        },
+        {
+          "label": "¿Dónde está? — Postres y dulces",
+          "href": "preposiciones-opcion-multiple-postres-y-dulces-367f"
+        },
+        {
+          "label": "¿Dónde está? — Criaturas del bosque",
+          "href": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-navidad-44af",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Navidad",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Navidad: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Navidad: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de Navidad para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de Navidad, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Navidad como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Navidad, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-navidad-44af",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Salón de clases",
+          "href": "preposiciones-opcion-multiple-salon-de-clases-7946"
+        },
+        {
+          "label": "¿Dónde está? — Ropa",
+          "href": "preposiciones-opcion-multiple-ropa-799d"
+        },
+        {
+          "label": "¿Dónde está? — Dinosaurios",
+          "href": "preposiciones-opcion-multiple-dinosaurios-b717"
+        },
+        {
+          "label": "¿Dónde está? — Frutas",
+          "href": "preposiciones-opcion-multiple-frutas-454c"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-salon-de-clases-7946",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Salón de clases",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Salón de clases: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Salón de clases: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Salón de clases, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Salón de clases, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Salón de clases y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Salón de clases, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-salon-de-clases-7946",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Ropa",
+          "href": "preposiciones-opcion-multiple-ropa-799d"
+        },
+        {
+          "label": "¿Dónde está? — Colores",
+          "href": "preposiciones-opcion-multiple-colores-3385"
+        },
+        {
+          "label": "¿Dónde está? — Pascua",
+          "href": "preposiciones-opcion-multiple-pascua-aea0"
+        },
+        {
+          "label": "¿Dónde está? — Muebles",
+          "href": "preposiciones-opcion-multiple-muebles-54ff"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-ropa-799d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Ropa",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Ropa: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Ropa",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encanta encontrar la imagen correcta, porque parece un pequeño reto de observación. En esta hoja de Ropa para preescolar, el pequeño ve una escena repetida en varias imágenes y decide en cuál el objeto está en la posición que se pide: dentro o fuera, arriba o abajo, junto a otra cosa o lejos. Con la vista compara las imágenes de Ropa y, con un toque, elige la opción acertada. Las demás muestran posiciones distintas, así que hay que mirar con cuidado. Así ejercita, sin darse cuenta, las nociones espaciales y la concentración, ambas destrezas precursoras importantes. Sin competencia y sin presión, solo el niño y el gusto de reconocer dónde está cada cosa.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Ropa, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Ropa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-ropa-799d",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Colores",
+          "href": "preposiciones-opcion-multiple-colores-3385"
+        },
+        {
+          "label": "¿Dónde está? — Postres y dulces",
+          "href": "preposiciones-opcion-multiple-postres-y-dulces-367f"
+        },
+        {
+          "label": "¿Dónde está? — Emociones",
+          "href": "preposiciones-opcion-multiple-emociones-1d2f"
+        },
+        {
+          "label": "¿Dónde está? — Hospital",
+          "href": "preposiciones-opcion-multiple-hospital-2a1e"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-colores-3385",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "colors",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Colores",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Colores: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Colores: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Colores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de Colores para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de Colores y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "Esta versión muestra posiciones un poco más parecidas entre sí, así que el niño descubre la respuesta casi por su cuenta. Con las imágenes de Colores como pequeño ancla, compara dónde está el objeto en cada una y señala la correcta. Eso le da la grata sensación de haber resuelto algo solito. Sin presión de bien o mal, solo mirar con calma y reconocer la ubicación.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Colores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-colores-3385",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Postres y dulces",
+          "href": "preposiciones-opcion-multiple-postres-y-dulces-367f"
+        },
+        {
+          "label": "¿Dónde está? — Dinosaurios",
+          "href": "preposiciones-opcion-multiple-dinosaurios-b717"
+        },
+        {
+          "label": "¿Dónde está? — Animales de granja",
+          "href": "preposiciones-opcion-multiple-animales-de-granja-0c53"
+        },
+        {
+          "label": "¿Dónde está? — Insectos y bichos",
+          "href": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-postres-y-dulces-367f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Postres y dulces",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Postres y dulces: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Postres y dulces: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Postres y dulces, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Postres y dulces, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Postres y dulces y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Postres y dulces, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-postres-y-dulces-367f",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Dinosaurios",
+          "href": "preposiciones-opcion-multiple-dinosaurios-b717"
+        },
+        {
+          "label": "¿Dónde está? — Pascua",
+          "href": "preposiciones-opcion-multiple-pascua-aea0"
+        },
+        {
+          "label": "¿Dónde está? — Flores",
+          "href": "preposiciones-opcion-multiple-flores-aae4"
+        },
+        {
+          "label": "¿Dónde está? — Utensilios de cocina",
+          "href": "preposiciones-opcion-multiple-utensilios-de-cocina-172f"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-dinosaurios-b717",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Dinosaurios",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Dinosaurios: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Dinosaurios",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Dinosaurios, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Dinosaurios, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Dinosaurios, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Dinosaurios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-dinosaurios-b717",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Pascua",
+          "href": "preposiciones-opcion-multiple-pascua-aea0"
+        },
+        {
+          "label": "¿Dónde está? — Emociones",
+          "href": "preposiciones-opcion-multiple-emociones-1d2f"
+        },
+        {
+          "label": "¿Dónde está? — Criaturas del bosque",
+          "href": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8"
+        },
+        {
+          "label": "¿Dónde está? — Misceláneo",
+          "href": "preposiciones-opcion-multiple-miscelaneo-2052"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-pascua-aea0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Pascua",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Pascua: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Pascua: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Pascua para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Pascua, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Pascua y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Pascua, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-pascua-aea0",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Emociones",
+          "href": "preposiciones-opcion-multiple-emociones-1d2f"
+        },
+        {
+          "label": "¿Dónde está? — Animales de granja",
+          "href": "preposiciones-opcion-multiple-animales-de-granja-0c53"
+        },
+        {
+          "label": "¿Dónde está? — Frutas",
+          "href": "preposiciones-opcion-multiple-frutas-454c"
+        },
+        {
+          "label": "¿Dónde está? — Música",
+          "href": "preposiciones-opcion-multiple-musica-721f"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-emociones-1d2f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "emotions",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Emociones",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Emociones: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Emociones: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Emociones para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Emociones y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Emociones y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Emociones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-emociones-1d2f",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Animales de granja",
+          "href": "preposiciones-opcion-multiple-animales-de-granja-0c53"
+        },
+        {
+          "label": "¿Dónde está? — Flores",
+          "href": "preposiciones-opcion-multiple-flores-aae4"
+        },
+        {
+          "label": "¿Dónde está? — Muebles",
+          "href": "preposiciones-opcion-multiple-muebles-54ff"
+        },
+        {
+          "label": "¿Dónde está? — Ocupaciones",
+          "href": "preposiciones-opcion-multiple-ocupaciones-873c"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-animales-de-granja-0c53",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Animales de granja",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Animales de granja: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Animales de granja",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de Animales de granja para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de Animales de granja, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Animales de granja, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Animales de granja, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-animales-de-granja-0c53",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Flores",
+          "href": "preposiciones-opcion-multiple-flores-aae4"
+        },
+        {
+          "label": "¿Dónde está? — Criaturas del bosque",
+          "href": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8"
+        },
+        {
+          "label": "¿Dónde está? — Hospital",
+          "href": "preposiciones-opcion-multiple-hospital-2a1e"
+        },
+        {
+          "label": "¿Dónde está? — Vida marina",
+          "href": "preposiciones-opcion-multiple-vida-marina-70f3"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-flores-aae4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Flores",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Flores: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Flores: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Flores, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Flores, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Flores y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Flores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-flores-aae4",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Criaturas del bosque",
+          "href": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8"
+        },
+        {
+          "label": "¿Dónde está? — Frutas",
+          "href": "preposiciones-opcion-multiple-frutas-454c"
+        },
+        {
+          "label": "¿Dónde está? — Insectos y bichos",
+          "href": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce"
+        },
+        {
+          "label": "¿Dónde está? — Mascotas",
+          "href": "preposiciones-opcion-multiple-mascotas-1549"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "forest_creatures",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Criaturas del bosque",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Criaturas del bosque: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Criaturas del bosque: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Criaturas del bosque",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encanta encontrar la imagen correcta, porque parece un pequeño reto de observación. En esta hoja de Criaturas del bosque para preescolar, el pequeño ve una escena repetida en varias imágenes y decide en cuál el objeto está en la posición que se pide: dentro o fuera, arriba o abajo, junto a otra cosa o lejos. Con la vista compara las imágenes de Criaturas del bosque y, con un toque, elige la opción acertada. Las demás muestran posiciones distintas, así que hay que mirar con cuidado. Así ejercita, sin darse cuenta, las nociones espaciales y la concentración, ambas destrezas precursoras importantes. Sin competencia y sin presión, solo el niño y el gusto de reconocer dónde está cada cosa.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Criaturas del bosque y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Criaturas del bosque, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-criaturas-del-bosque-37b8",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Frutas",
+          "href": "preposiciones-opcion-multiple-frutas-454c"
+        },
+        {
+          "label": "¿Dónde está? — Muebles",
+          "href": "preposiciones-opcion-multiple-muebles-54ff"
+        },
+        {
+          "label": "¿Dónde está? — Utensilios de cocina",
+          "href": "preposiciones-opcion-multiple-utensilios-de-cocina-172f"
+        },
+        {
+          "label": "¿Dónde está? — Oficina de correos",
+          "href": "preposiciones-opcion-multiple-oficina-de-correos-869c"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-frutas-454c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Frutas",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Frutas: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Frutas",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de Frutas para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de Frutas y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "En esta variante se mezclan más posiciones —sobre, debajo, dentro, fuera, junto a—, así que el niño elige entre varias opciones la imagen que muestra el lugar correcto. Compara las imágenes de Frutas, piensa con calma y toca la acertada. Eso fortalece al mismo tiempo el mirar con atención y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de reconocer dónde está.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Frutas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-frutas-454c",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Muebles",
+          "href": "preposiciones-opcion-multiple-muebles-54ff"
+        },
+        {
+          "label": "¿Dónde está? — Hospital",
+          "href": "preposiciones-opcion-multiple-hospital-2a1e"
+        },
+        {
+          "label": "¿Dónde está? — Misceláneo",
+          "href": "preposiciones-opcion-multiple-miscelaneo-2052"
+        },
+        {
+          "label": "¿Dónde está? — Espacio",
+          "href": "preposiciones-opcion-multiple-espacio-61ac"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-muebles-54ff",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Muebles",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Muebles: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Muebles: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Muebles, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Muebles, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Muebles y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Muebles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-muebles-54ff",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Hospital",
+          "href": "preposiciones-opcion-multiple-hospital-2a1e"
+        },
+        {
+          "label": "¿Dónde está? — Insectos y bichos",
+          "href": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce"
+        },
+        {
+          "label": "¿Dónde está? — Música",
+          "href": "preposiciones-opcion-multiple-musica-721f"
+        },
+        {
+          "label": "¿Dónde está? — Verano",
+          "href": "preposiciones-opcion-multiple-verano-422a"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-hospital-2a1e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Hospital",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Hospital: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Hospital: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Hospital, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Hospital, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Hospital y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Hospital, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-hospital-2a1e",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Insectos y bichos",
+          "href": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce"
+        },
+        {
+          "label": "¿Dónde está? — Utensilios de cocina",
+          "href": "preposiciones-opcion-multiple-utensilios-de-cocina-172f"
+        },
+        {
+          "label": "¿Dónde está? — Ocupaciones",
+          "href": "preposiciones-opcion-multiple-ocupaciones-873c"
+        },
+        {
+          "label": "¿Dónde está? — Día de Acción de Gracias",
+          "href": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "insects_and_bugs",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Insectos y bichos",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Insectos y bichos: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Insectos y bichos",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Insectos y bichos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Insectos y bichos para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Insectos y bichos, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Insectos y bichos. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Insectos y bichos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-insectos-y-bichos-e7ce",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Utensilios de cocina",
+          "href": "preposiciones-opcion-multiple-utensilios-de-cocina-172f"
+        },
+        {
+          "label": "¿Dónde está? — Misceláneo",
+          "href": "preposiciones-opcion-multiple-miscelaneo-2052"
+        },
+        {
+          "label": "¿Dónde está? — Vida marina",
+          "href": "preposiciones-opcion-multiple-vida-marina-70f3"
+        },
+        {
+          "label": "¿Dónde está? — Cosas que vuelan",
+          "href": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-utensilios-de-cocina-172f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Utensilios de cocina",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Utensilios de cocina: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Utensilios de cocina: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Utensilios de cocina para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Utensilios de cocina y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Utensilios de cocina y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Utensilios de cocina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-utensilios-de-cocina-172f",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Misceláneo",
+          "href": "preposiciones-opcion-multiple-miscelaneo-2052"
+        },
+        {
+          "label": "¿Dónde está? — Música",
+          "href": "preposiciones-opcion-multiple-musica-721f"
+        },
+        {
+          "label": "¿Dónde está? — Mascotas",
+          "href": "preposiciones-opcion-multiple-mascotas-1549"
+        },
+        {
+          "label": "¿Dónde está? — Herramientas",
+          "href": "preposiciones-opcion-multiple-herramientas-5f15"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-miscelaneo-2052",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "miscellaneous",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Misceláneo",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Misceláneo: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Misceláneo: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Misceláneo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de Misceláneo para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de Misceláneo, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Misceláneo y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Misceláneo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-miscelaneo-2052",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Música",
+          "href": "preposiciones-opcion-multiple-musica-721f"
+        },
+        {
+          "label": "¿Dónde está? — Ocupaciones",
+          "href": "preposiciones-opcion-multiple-ocupaciones-873c"
+        },
+        {
+          "label": "¿Dónde está? — Oficina de correos",
+          "href": "preposiciones-opcion-multiple-oficina-de-correos-869c"
+        },
+        {
+          "label": "¿Dónde está? — Juguetes",
+          "href": "preposiciones-opcion-multiple-juguetes-22d4"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-musica-721f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "music",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Música",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Música: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Música",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Música",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Música, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Música, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Música. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Música, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-musica-721f",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Ocupaciones",
+          "href": "preposiciones-opcion-multiple-ocupaciones-873c"
+        },
+        {
+          "label": "¿Dónde está? — Vida marina",
+          "href": "preposiciones-opcion-multiple-vida-marina-70f3"
+        },
+        {
+          "label": "¿Dónde está? — Espacio",
+          "href": "preposiciones-opcion-multiple-espacio-61ac"
+        },
+        {
+          "label": "¿Dónde está? — Árboles",
+          "href": "preposiciones-opcion-multiple-arboles-d2cf"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-ocupaciones-873c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Ocupaciones",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Ocupaciones: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Ocupaciones: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encanta encontrar la imagen correcta, porque parece un pequeño reto de observación. En esta hoja de Ocupaciones para preescolar, el pequeño ve una escena repetida en varias imágenes y decide en cuál el objeto está en la posición que se pide: dentro o fuera, arriba o abajo, junto a otra cosa o lejos. Con la vista compara las imágenes de Ocupaciones y, con un toque, elige la opción acertada. Las demás muestran posiciones distintas, así que hay que mirar con cuidado. Así ejercita, sin darse cuenta, las nociones espaciales y la concentración, ambas destrezas precursoras importantes. Sin competencia y sin presión, solo el niño y el gusto de reconocer dónde está cada cosa.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Ocupaciones y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Ocupaciones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-ocupaciones-873c",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Vida marina",
+          "href": "preposiciones-opcion-multiple-vida-marina-70f3"
+        },
+        {
+          "label": "¿Dónde está? — Mascotas",
+          "href": "preposiciones-opcion-multiple-mascotas-1549"
+        },
+        {
+          "label": "¿Dónde está? — Verano",
+          "href": "preposiciones-opcion-multiple-verano-422a"
+        },
+        {
+          "label": "¿Dónde está? — Verduras",
+          "href": "preposiciones-opcion-multiple-verduras-3ee5"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-vida-marina-70f3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Vida marina",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Vida marina: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Vida marina: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de Vida marina para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de Vida marina y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "Aquí hay pocas imágenes y la escena es muy clara, ideal para el primer intento. El niño observa las imágenes de Vida marina y señala la que muestra el objeto en el lugar indicado, encima o debajo. Como hay pocas opciones, la elección sale rápido y dan ganas de seguir con la siguiente. Observar en lugar de escribir, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Vida marina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-vida-marina-70f3",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Mascotas",
+          "href": "preposiciones-opcion-multiple-mascotas-1549"
+        },
+        {
+          "label": "¿Dónde está? — Oficina de correos",
+          "href": "preposiciones-opcion-multiple-oficina-de-correos-869c"
+        },
+        {
+          "label": "¿Dónde está? — Día de Acción de Gracias",
+          "href": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787"
+        },
+        {
+          "label": "¿Dónde está? — Vehículos",
+          "href": "preposiciones-opcion-multiple-vehiculos-9fbe"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-mascotas-1549",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Mascotas",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Mascotas: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Mascotas",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Mascotas, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Mascotas, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Mascotas. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Mascotas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-mascotas-1549",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Oficina de correos",
+          "href": "preposiciones-opcion-multiple-oficina-de-correos-869c"
+        },
+        {
+          "label": "¿Dónde está? — Espacio",
+          "href": "preposiciones-opcion-multiple-espacio-61ac"
+        },
+        {
+          "label": "¿Dónde está? — Cosas que vuelan",
+          "href": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9"
+        },
+        {
+          "label": "¿Dónde está? — Clima",
+          "href": "preposiciones-opcion-multiple-clima-bfb1"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-oficina-de-correos-869c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "post_office",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Oficina de correos",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Oficina de correos: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Oficina de correos: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Oficina de correos, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Oficina de correos, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Oficina de correos y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Oficina de correos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-oficina-de-correos-869c",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Espacio",
+          "href": "preposiciones-opcion-multiple-espacio-61ac"
+        },
+        {
+          "label": "¿Dónde está? — Verano",
+          "href": "preposiciones-opcion-multiple-verano-422a"
+        },
+        {
+          "label": "¿Dónde está? — Herramientas",
+          "href": "preposiciones-opcion-multiple-herramientas-5f15"
+        },
+        {
+          "label": "¿Dónde está? — Invierno",
+          "href": "preposiciones-opcion-multiple-invierno-5fae"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-espacio-61ac",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Espacio",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Espacio: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Espacio: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Espacio para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Espacio, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "En esta variante, las imágenes de Espacio se parecen mucho entre sí, así que el niño mira con más cuidado dónde está el objeto: ¿sobre, debajo o dentro? Con un toque elige la que muestra la posición correcta. Deja que observe con calma cada opción; comparar es parte del juego. Sin escribir y sin contar, solo mirar y reconocer dónde está cada cosa.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Espacio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-espacio-61ac",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Verano",
+          "href": "preposiciones-opcion-multiple-verano-422a"
+        },
+        {
+          "label": "¿Dónde está? — Día de Acción de Gracias",
+          "href": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787"
+        },
+        {
+          "label": "¿Dónde está? — Juguetes",
+          "href": "preposiciones-opcion-multiple-juguetes-22d4"
+        },
+        {
+          "label": "¿Dónde está? — Animales del zoológico",
+          "href": "preposiciones-opcion-multiple-animales-del-zoologico-14c6"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-verano-422a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Verano",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Verano: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Verano",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Verano para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Verano y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Verano. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Verano, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-verano-422a",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Día de Acción de Gracias",
+          "href": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787"
+        },
+        {
+          "label": "¿Dónde está? — Cosas que vuelan",
+          "href": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9"
+        },
+        {
+          "label": "¿Dónde está? — Árboles",
+          "href": "preposiciones-opcion-multiple-arboles-d2cf"
+        },
+        {
+          "label": "¿Dónde está? — 4 de Julio",
+          "href": "preposiciones-opcion-multiple-4-de-julio-7d8f"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Día de Acción de Gracias",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Día de Acción de Gracias: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Día de Acción de Gracias: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Día de Acción de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de Día de Acción de Gracias para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de Día de Acción de Gracias, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Día de Acción de Gracias y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Día de Acción de Gracias, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-dia-de-accion-de-gracias-e787",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Cosas que vuelan",
+          "href": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9"
+        },
+        {
+          "label": "¿Dónde está? — Herramientas",
+          "href": "preposiciones-opcion-multiple-herramientas-5f15"
+        },
+        {
+          "label": "¿Dónde está? — Verduras",
+          "href": "preposiciones-opcion-multiple-verduras-3ee5"
+        },
+        {
+          "label": "¿Dónde está? — Accesorios",
+          "href": "preposiciones-opcion-multiple-accesorios-e8a7"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Cosas que vuelan",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Cosas que vuelan: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Cosas que vuelan: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Cosas que vuelan, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Cosas que vuelan, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "En esta variante, las imágenes de Cosas que vuelan se parecen mucho entre sí, así que el niño mira con más cuidado dónde está el objeto: ¿sobre, debajo o dentro? Con un toque elige la que muestra la posición correcta. Deja que observe con calma cada opción; comparar es parte del juego. Sin escribir y sin contar, solo mirar y reconocer dónde está cada cosa.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Cosas que vuelan, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-cosas-que-vuelan-4cd9",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Herramientas",
+          "href": "preposiciones-opcion-multiple-herramientas-5f15"
+        },
+        {
+          "label": "¿Dónde está? — Juguetes",
+          "href": "preposiciones-opcion-multiple-juguetes-22d4"
+        },
+        {
+          "label": "¿Dónde está? — Vehículos",
+          "href": "preposiciones-opcion-multiple-vehiculos-9fbe"
+        },
+        {
+          "label": "¿Dónde está? — Actividades",
+          "href": "preposiciones-opcion-multiple-actividades-4bc6"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-herramientas-5f15",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "tools",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Herramientas",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Herramientas: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Herramientas",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encanta encontrar la imagen correcta, porque parece un pequeño reto de observación. En esta hoja de Herramientas para preescolar, el pequeño ve una escena repetida en varias imágenes y decide en cuál el objeto está en la posición que se pide: dentro o fuera, arriba o abajo, junto a otra cosa o lejos. Con la vista compara las imágenes de Herramientas y, con un toque, elige la opción acertada. Las demás muestran posiciones distintas, así que hay que mirar con cuidado. Así ejercita, sin darse cuenta, las nociones espaciales y la concentración, ambas destrezas precursoras importantes. Sin competencia y sin presión, solo el niño y el gusto de reconocer dónde está cada cosa.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Herramientas. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Herramientas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-herramientas-5f15",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Juguetes",
+          "href": "preposiciones-opcion-multiple-juguetes-22d4"
+        },
+        {
+          "label": "¿Dónde está? — Árboles",
+          "href": "preposiciones-opcion-multiple-arboles-d2cf"
+        },
+        {
+          "label": "¿Dónde está? — Clima",
+          "href": "preposiciones-opcion-multiple-clima-bfb1"
+        },
+        {
+          "label": "¿Dónde está? — Animales",
+          "href": "preposiciones-opcion-multiple-animales-3169"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-juguetes-22d4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Juguetes",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Juguetes: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Juguetes: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está el objeto? En esta actividad de Juguetes para preescolar, el niño observa varias imágenes de una misma escena y elige, con un solo toque, la que muestra la posición correcta: el objeto sobre la mesa, debajo de la silla o dentro de la caja. Aquí no se escribe ni se cuenta nada; el pequeño reconoce con la vista la ubicación espacial y la señala. Mirar las imágenes de Juguetes y decidir dónde se encuentra cada cosa entrena las nociones espaciales, una destreza precursora muy valiosa antes de la escuela. Estas palabras de posición —sobre, debajo, dentro, fuera, junto a— ayudan al niño a entender y describir el mundo que lo rodea. Sin reloj y sin prisa, el pequeño elige a su propio ritmo, con calidez y sin vergüenza por equivocarse.",
+      "p2": "En esta variante varias imágenes parecen acertadas, así que el niño piensa con cuidado antes de tocar una. Observa entre las imágenes de Juguetes y comprueba en cuál el objeto está de verdad en la posición pedida —sobre, debajo o al lado—. Si se equivoca, mira otra vez y vuelve a elegir; cada intento cuenta y afina la observación. Aquí mira el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Juguetes, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-juguetes-22d4",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Árboles",
+          "href": "preposiciones-opcion-multiple-arboles-d2cf"
+        },
+        {
+          "label": "¿Dónde está? — Verduras",
+          "href": "preposiciones-opcion-multiple-verduras-3ee5"
+        },
+        {
+          "label": "¿Dónde está? — Invierno",
+          "href": "preposiciones-opcion-multiple-invierno-5fae"
+        },
+        {
+          "label": "¿Dónde está? — Alrededor de la casa",
+          "href": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-arboles-d2cf",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Árboles",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Árboles: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Árboles: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Mirar dos imágenes y descubrir cuál muestra el lugar correcto es un ejercicio precioso para ojos y mentes pequeñas. En esta hoja de Árboles, el niño tiene varias opciones de una misma escena y debe hallar la que coincide con la posición pedida: sobre, debajo, dentro, fuera o junto a algo. Con el dedo señala, entre las imágenes de Árboles, la opción acertada, sin escribir ni contar. Las demás muestran la cosa en otro lugar, de modo que conviene observar con atención. Esta hoja fortalece las nociones espaciales, una destreza precursora central para empezar la escuela. No hay cronómetro ni nadie que compare: solo el gusto de mirar, pensar y elegir.",
+      "p2": "En esta variante, las imágenes de Árboles se parecen mucho entre sí, así que el niño mira con más cuidado dónde está el objeto: ¿sobre, debajo o dentro? Con un toque elige la que muestra la posición correcta. Deja que observe con calma cada opción; comparar es parte del juego. Sin escribir y sin contar, solo mirar y reconocer dónde está cada cosa.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Árboles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-arboles-d2cf",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Verduras",
+          "href": "preposiciones-opcion-multiple-verduras-3ee5"
+        },
+        {
+          "label": "¿Dónde está? — Vehículos",
+          "href": "preposiciones-opcion-multiple-vehiculos-9fbe"
+        },
+        {
+          "label": "¿Dónde está? — Animales del zoológico",
+          "href": "preposiciones-opcion-multiple-animales-del-zoologico-14c6"
+        },
+        {
+          "label": "¿Dónde está? — En el supermercado",
+          "href": "preposiciones-opcion-multiple-en-el-supermercado-611d"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-verduras-3ee5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Verduras",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Verduras: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Verduras",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Sobre, debajo, dentro, junto a: estas palabritas de posición describen dónde se encuentra cada objeto, y esta actividad ayuda al niño a reconocerlas con la vista. En la hoja de Verduras, el pequeño mira varias imágenes de una escena y elige la que muestra la ubicación correcta. Por ejemplo, entre las imágenes de Verduras, ¿en cuál está el gato encima del cojín y no debajo? El niño observa, compara y señala con un toque, sin contar ni escribir. Es razonamiento espacial puro, una destreza precursora que prepara para entender el lenguaje de la posición. Una tarea suave que, de paso, resulta divertida y se hace por completo a simple vista.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Verduras. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Verduras, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-verduras-3ee5",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Vehículos",
+          "href": "preposiciones-opcion-multiple-vehiculos-9fbe"
+        },
+        {
+          "label": "¿Dónde está? — Clima",
+          "href": "preposiciones-opcion-multiple-clima-bfb1"
+        },
+        {
+          "label": "¿Dónde está? — 4 de Julio",
+          "href": "preposiciones-opcion-multiple-4-de-julio-7d8f"
+        },
+        {
+          "label": "¿Dónde está? — Panadería",
+          "href": "preposiciones-opcion-multiple-panaderia-8419"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-vehiculos-9fbe",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Vehículos",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Vehículos: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Vehículos: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Una escena, varias imágenes y una sola posición correcta: así de claro empieza esta actividad de Vehículos para preescolar. El niño observa con cuidado y elige, con un toque, la imagen donde el objeto aparece sobre, debajo, dentro o junto a otra cosa, según lo que se pida. Entre las imágenes de Vehículos, compara los lugares y señala el acertado, sin escribir una sola palabra. Así reconoce las nociones espaciales con la vista, una destreza precursora muy importante para la escuela. Como no hay letras ni números de por medio, la tarea es perfecta para los más pequeños. Deja que el niño mire, piense y elija a su propio ritmo, sin prisa y sin vergüenza por intentarlo de nuevo.",
+      "p2": "En esta versión, la escena trae más opciones, así que el niño compara con calma las imágenes de Vehículos antes de elegir. ¿En cuál el objeto está dentro y no fuera? ¿junto a algo y no lejos? Mirar con atención fortalece a la vez la constancia y la percepción del espacio. No hay reloj ni puntos, solo la alegría tranquila de reconocer la posición correcta.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Vehículos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-vehiculos-9fbe",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Clima",
+          "href": "preposiciones-opcion-multiple-clima-bfb1"
+        },
+        {
+          "label": "¿Dónde está? — Invierno",
+          "href": "preposiciones-opcion-multiple-invierno-5fae"
+        },
+        {
+          "label": "¿Dónde está? — Accesorios",
+          "href": "preposiciones-opcion-multiple-accesorios-e8a7"
+        },
+        {
+          "label": "¿Dónde está? — Playa",
+          "href": "preposiciones-opcion-multiple-playa-57f0"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-clima-bfb1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Clima",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Clima: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar en.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Elige la Imagen Correcta de Clima: ¿Dónde Está?",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿En cuál imagen el objeto está dentro de la caja? Esa pregunta sencilla es el corazón de esta hoja de Clima para preescolar. El niño observa varias imágenes muy parecidas y elige, con un solo toque, la que muestra la posición correcta. Lo interesante: todas se ven similares, pero la ubicación cambia —en una el objeto está encima, en otra debajo, en otra al lado—. El pequeño mira con calma las imágenes de Clima y decide cuál corresponde. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a comprender instrucciones de lugar. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente ni se escriba.",
+      "p2": "En esta variante, las imágenes de Clima se parecen mucho entre sí, así que el niño mira con más cuidado dónde está el objeto: ¿sobre, debajo o dentro? Con un toque elige la que muestra la posición correcta. Deja que observe con calma cada opción; comparar es parte del juego. Sin escribir y sin contar, solo mirar y reconocer dónde está cada cosa.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Clima, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-clima-bfb1",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Invierno",
+          "href": "preposiciones-opcion-multiple-invierno-5fae"
+        },
+        {
+          "label": "¿Dónde está? — Animales del zoológico",
+          "href": "preposiciones-opcion-multiple-animales-del-zoologico-14c6"
+        },
+        {
+          "label": "¿Dónde está? — Actividades",
+          "href": "preposiciones-opcion-multiple-actividades-4bc6"
+        },
+        {
+          "label": "¿Dónde está? — Aves",
+          "href": "preposiciones-opcion-multiple-aves-280e"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-invierno-5fae",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Invierno",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Invierno: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "¿Dónde Está? Posiciones con Invierno",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer dónde está cada cosa se siente como un juego de mirar con atención, y eso es justamente lo valioso. En esta hoja de Invierno para preescolar, el niño ve dos o tres imágenes parecidas y debe elegir la única que muestra el objeto en la posición indicada: ¿está encima de algo o debajo? ¿dentro o fuera? Con un toque, el pequeño señala la respuesta entre las imágenes de Invierno, sin tener que escribir una sola letra. Así practica las nociones espaciales y el observar con cuidado, dos bases que más adelante le servirán para ubicarse y orientarse. No hay puntos ni nada que apresure: aquí manda el ojo, no el número, y cada elección se hace con calma.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren con calma las imágenes de Invierno. ¿Dónde está el objeto en cada una? ¿encima, debajo o dentro? El niño señala con el dedo la imagen que muestra la posición correcta. Conversar mientras observan —\"mira, aquí está adentro\"— hace más grato el momento. Al final, reconocer dónde está cada cosa se vuelve un juego compartido.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Invierno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-invierno-5fae",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — Animales del zoológico",
+          "href": "preposiciones-opcion-multiple-animales-del-zoologico-14c6"
+        },
+        {
+          "label": "¿Dónde está? — 4 de Julio",
+          "href": "preposiciones-opcion-multiple-4-de-julio-7d8f"
+        },
+        {
+          "label": "¿Dónde está? — Animales",
+          "href": "preposiciones-opcion-multiple-animales-3169"
+        },
+        {
+          "label": "¿Dónde está? — Aves 2",
+          "href": "preposiciones-opcion-multiple-aves-2-86a6"
+        }
+      ]
+    },
+    {
+      "slug": "preposiciones-opcion-multiple-animales-del-zoologico-14c6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "prepositions",
+        "mode": "multiplechoice",
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "¿Dónde Está? Posiciones con Animales del zoológico",
+      "metaDescription": "¿Dónde está? Posiciones espaciales para preescolar con Animales del zoológico: mira las imágenes y elige la que muestra el lugar correcto, sin contar. Gratis para.",
+      "eyebrow": "Hoja de nociones espaciales",
+      "h1": "Nociones Espaciales con Animales del zoológico: Sobre, Debajo, Dentro",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Reconocer la posición de un objeto —si está encima, debajo o adentro— es aprender de verdad mientras se juega a observar. En esta hoja de Animales del zoológico, el niño se vuelve un mirador atento: ve varias imágenes parecidas y averigua en cuál el objeto está justo en el lugar indicado. La mayoría muestran otra ubicación y solo una es la correcta. El pequeño la elige con un toque entre las imágenes de Animales del zoológico, descubriendo la respuesta por sí mismo. Estas nociones espaciales preparan para pensar y ubicarse en la escuela, sin que el niño tenga que contar ni escribir nada. Solo imprimir, sentarse y reconocer juntos dónde está cada cosa.",
+      "p2": "En esta versión, la escena trae más opciones, así que el niño compara con calma las imágenes de Animales del zoológico antes de elegir. ¿En cuál el objeto está dentro y no fuera? ¿junto a algo y no lejos? Mirar con atención fortalece a la vez la constancia y la percepción del espacio. No hay reloj ni puntos, solo la alegría tranquila de reconocer la posición correcta.",
+      "p3": "Si a tu pequeño le gusta reconocer dónde están las cosas con Animales del zoológico, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "preposiciones-opcion-multiple-animales-del-zoologico-14c6",
+      "carousel": [
+        {
+          "label": "¿Dónde está? — 4 de Julio",
+          "href": "preposiciones-opcion-multiple-4-de-julio-7d8f"
+        },
+        {
+          "label": "¿Dónde está? — Accesorios",
+          "href": "preposiciones-opcion-multiple-accesorios-e8a7"
+        },
+        {
+          "label": "¿Dónde está? — Alrededor de la casa",
+          "href": "preposiciones-opcion-multiple-alrededor-de-la-casa-7ac9"
+        },
+        {
+          "label": "¿Dónde está? — Partes del cuerpo",
+          "href": "preposiciones-opcion-multiple-partes-del-cuerpo-7623"
+        }
+      ]
+    },
+    {
       "slug": "bingo-accesorios-4f99",
       "variantShape": "singleton",
       "coordinate": {

@@ -67,8 +67,12 @@ const CONFIG = {
   },
 };
 
-const cfg = CONFIG[TYPE];
-if (!cfg) { console.error('no CONFIG for type ' + TYPE); process.exit(1); }
+// embedded CONFIG (grid-match) OR external per-type file. Try mode-specific (es-readiness-
+// <type>-<mode>.js, e.g. big-small-findBig) first, then es-readiness-<type>.js.
+let cfg = CONFIG[TYPE];
+if (!cfg && MODEARG !== 'null') { try { cfg = require('./es-readiness-' + TYPE + '-' + MODEARG); } catch (e) { /* fall through */ } }
+if (!cfg) { try { cfg = require('./es-readiness-' + TYPE); } catch (e) { cfg = null; } }
+if (!cfg) { console.error('no CONFIG for type ' + TYPE + ' (mode ' + MODEARG + ')'); process.exit(1); }
 const key = TYPE + '|' + MODEARG;
 const rawFacts = facts[key];
 if (!rawFacts) { console.error('no facts for ' + key); process.exit(1); }
@@ -83,6 +87,7 @@ const entries = list.map((f, i) => {
   const T = themeDisplay(f.theme);
   const c = cellAssign(i, S, P);
   let meta = cfg.meta(T); if (meta.length > 170) meta = cfg.metaAlt(T);
+  if (meta.length > 170) meta = meta.slice(0, 168).replace(/\s+\S*$/, '') + '.'; // long-theme catch-all ≤170
   return {
     slug: f.slug,
     variantShape: 'singleton',

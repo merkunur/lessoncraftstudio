@@ -19,6 +19,13 @@ const T = LOCALE === 'de' ? {
   dualTarget: 'bildersortierung-bakery-vs-animals-0dd6',    // a specific de -vs-animals landing slug
   partnerHub: 'backerei',                                   // its other component's de hub (bakery)
   typeHub: 'addition',
+} : LOCALE === 'es' ? {
+  anchorHub: 'animales',                                     // es animals theme hub
+  goodRe: /-vs-animals(-|$)|(^|-)animals-vs-/,               // es picture-sort slug (english-key -vs- component)
+  badRe: /(farm|zoo|sea|forest)-animals/,                    // substring-trap: *-animals must NOT match plain animals
+  dualTarget: 'clasificar-imagenes-accessories-vs-animals-f238', // a specific es -vs-animals landing
+  partnerHub: 'accesorios',                                  // its other component's es hub (accessories)
+  typeHub: 'suma',                                           // an es type hub to confirm unregressed
 } : {
   anchorHub: 'animals',
   goodRe: /(^|-)animals-vs-|-vs-animals$/,

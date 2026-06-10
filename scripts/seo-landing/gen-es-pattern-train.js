@@ -1,20 +1,23 @@
 #!/usr/bin/env node
 /**
- * gen-es-pattern-train.js — es pattern-train (readiness) landings. AB-LEAD first
- * (--mode=ab, the 50 blank-exercise_mode decks); fan aab/abb/aabb/abc later.
+ * gen-es-pattern-train.js — es pattern-train (readiness) landings, PER-MODE-DISTINCT prose.
  *
- * Readiness, NO-CCSS: no `standard`, no `levels` (Preescolar single-band via
- * coordinate.level='preescolar'), no `practiceProblems` (no Quiz). Strand = the
- * LOCKED es readiness-strand doctrine label: campo "Saberes y Pensamiento
- * Científico" + the native NEM Fase-2 PDA descriptor "Patrones de repetición y
- * crecimiento". Per-mode prose weaves the theme + the deck's own element nouns
- * (from manifest elementToImage) for cross-theme distinctness (§22 sharpening);
- * patterning makes NO count-claim so there is no honest-count/noun-vs-icon gate —
- * the element names are just the pictures that repeat.
+ * Operator doctrine (2026-06-10): for a multi-mode coordinate whose modes are genuinely
+ * different content, build PER-MODE-DISTINCT prose pools at the lead (NOT shared framing
+ * with a label/seq swap) — it is both the cross-mode similarity fix (en-like ~0.24, vs 0.798
+ * for the shared-framing version) AND an honest-fit improvement: each mode's prose describes
+ * ITS specific pattern structure (AB two-that-alternate / AAB two-then-one / ABB one-then-two
+ * / AABB pairs / ABC three-distinct). Each pool weaves theme + the deck's element nouns + the
+ * actual sequence; within-mode spread via lcm(6,5,4)=60 > ~50 entries/mode.
  *
- * Reads: scripts/seo-landing/_pt-<mode>-facts.json (Stage-A dump), topics-taxonomy.json
+ * Readiness, NO-CCSS (ratified live): no `standard`, no `levels` (Preescolar single-band via
+ * coordinate.level='preescolar'), no `practiceProblems` (no Quiz). Strand = the LOCKED
+ * "Saberes y Pensamiento Científico — Patrones de repetición y crecimiento".
+ *
+ * Reads: scripts/seo-landing/_pt-<mode>-facts.json (Stage-A: {slug,themeKey,elements}),
+ *        frontend/config/topics-taxonomy.json
  * Writes: surgical insert into es.json (CRLF→LF normalized; git stores LF).
- * Usage: node scripts/seo-landing/gen-es-pattern-train.js --mode=ab [--dry-run]
+ * Usage: node scripts/seo-landing/gen-es-pattern-train.js --mode=ab|aab|abb|aabb|abc [--dry-run]
  */
 'use strict';
 const fs = require('fs');
@@ -29,19 +32,9 @@ const facts = JSON.parse(fs.readFileSync(`scripts/seo-landing/_pt-${modeArg}-fac
 const tax = JSON.parse(fs.readFileSync('frontend/config/topics-taxonomy.json', 'utf8'));
 const lc = (s) => s ? s.charAt(0).toLowerCase() + s.slice(1) : s;
 const themeDisplay = (k) => { const e = tax.axes.theme[k]; return (e && e.name && e.name.es) ? e.name.es : k; };
-
-// Mode spec: human pattern label + the repeating-unit description. AB lead now.
-const MODE = {
-  ab:   { label: 'AB',   unitWords: 'dos dibujos que se turnan' },
-  aab:  { label: 'AAB',  unitWords: 'una unidad de tres: dos iguales y luego uno distinto' },
-  abb:  { label: 'ABB',  unitWords: 'una unidad de tres: uno distinto y luego dos iguales' },
-  aabb: { label: 'AABB', unitWords: 'una unidad de cuatro: dos iguales y luego otros dos iguales' },
-  abc:  { label: 'ABC',  unitWords: 'una unidad de tres dibujos diferentes' },
-};
-// sequence illustration from element nouns, per mode (lowercased)
+const LABEL = { ab: 'AB', aab: 'AAB', abb: 'ABB', aabb: 'AABB', abc: 'ABC' };
 function seqIllustration(mode, els) {
-  const e = els.map(lc);
-  const a = e[0], b = e[1] || e[0], c = e[2] || b;
+  const e = els.map(lc); const a = e[0], b = e[1] || e[0], c = e[2] || b;
   if (mode === 'ab') return `${a}, ${b}, ${a}, ${b}…`;
   if (mode === 'aab') return `${a}, ${a}, ${b}, ${a}, ${a}, ${b}…`;
   if (mode === 'abb') return `${a}, ${b}, ${b}, ${a}, ${b}, ${b}…`;
@@ -50,75 +43,139 @@ function seqIllustration(mode, els) {
   return `${a}, ${b}…`;
 }
 
-const H1 = (lab, T, i) => [
-  `Continúa el Patrón ${lab} con ${T}`,
-  `Patrón ${lab} con ${T}: ¿Qué Dibujo Sigue?`,
-  `Completa el Patrón ${lab} de ${T}`,
-][i % 3];
-function p1(T, lab, unit, seq, a, b, i) {
+// Per-mode-distinct pools. ctx = {T, a, b, c, seq, lab}. Each pool's framing describes its
+// OWN pattern structure in mode-specific language (the cross-mode distinctness + honest-fit).
+const POOLS = {
+  ab: {
+    h1: (x) => [`Continúa el Patrón AB con ${x.T}`, `Patrón AB con ${x.T}: ¿Qué Dibujo Sigue?`, `Completa el Patrón AB de ${x.T}`],
+    p1: (x) => [
+      `En un patrón AB, dos dibujos se turnan: primero uno, luego el otro, y vuelta a empezar. Esta hoja de ${x.T} pone a ${x.a} y ${x.b} a turnarse —${x.seq}— y el niño descubre cuál toca después. Es de los primeros patrones que se aprenden en preescolar, puro ir y venir.`,
+      `Esta hoja de ${x.T} arma el patrón más sencillo de todos: el AB, donde ${x.a} y ${x.b} se alternan sin parar. La serie avanza ${x.seq} y la última casilla espera el dibujo que sigue. Alternar dos dibujos y predecir el siguiente es razonamiento de patrones temprano.`,
+      `Dos dibujos que se turnan, una y otra vez: ese es el patrón AB. Con ${x.T}, la fila va ${x.seq}, y el pequeño solo tiene que ver el vaivén entre ${x.a} y ${x.b} para saber qué viene. Reconocer esta alternancia es una base del pensamiento lógico del preescolar.`,
+      `¿Qué sigue cuando ${x.a} y ${x.b} se alternan? Eso es un patrón AB, y esta hoja de ${x.T} lo plantea con la serie ${x.seq} El niño nota que después de ${x.a} siempre viene ${x.b}, y completa el vagón vacío. Sencillo, rítmico y sin contar nada.`,
+      `El patrón AB es un vaivén: ${x.a}, ${x.b}, y otra vez. En esta hoja de ${x.T} la secuencia ${x.seq} se repite con ese ritmo de dos, y el pequeño elige el dibujo que continúa. Captar la alternancia entre dos elementos es seriación en su forma más clara.`,
+      `Aquí ${x.a} y ${x.b} se turnan en un patrón AB: uno sí, uno no, sin descanso. La hoja de ${x.T} muestra ${x.seq} y deja huecos para que el niño mantenga el turno. Leer y continuar una alternancia simple prepara la mente para patrones más largos.`,
+    ],
+    p2: (x) => [
+      `Como el patrón AB solo alterna dos dibujos, el ritmo es fácil de oír: ${x.a}, ${x.b}, ${x.a}, ${x.b}… El niño señala cada vagón y dice la serie en voz alta; al llegar al hueco, la propia voz le dice si toca ${x.a} o ${x.b}.`,
+      `La clave del AB es el turno: después de ${x.a} viene ${x.b}, y después de ${x.b} regresa ${x.a}. Mirando la fila de ${x.T} y diciendo «uno, otro, uno, otro», el pequeño anticipa el dibujo que falta sin necesidad de contar.`,
+      `Un patrón AB se completa observando el vaivén. El niño recorre ${x.seq} con el dedo, descubre que dos dibujos de ${x.T} se turnan, y coloca el que sigue. Es una tarea de ritmo y observación, no de cantidad.`,
+      `Para seguir el AB, basta preguntar «¿cuál de los dos toca ahora?». Con ${x.a} y ${x.b} turnándose en ${x.T}, el pequeño completa el hueco eligiendo el opuesto al último dibujo. Esa alternancia simple es la puerta de entrada a los patrones.`,
+      `El AB no pide contar: pide notar el turno entre ${x.a} y ${x.b}. Decir la serie de ${x.T} en voz alta —y volver a empezar si hace falta— deja ver el ritmo y vuelve la seriación un juego tranquilo.`,
+    ],
+  },
+  aab: {
+    h1: (x) => [`Continúa el Patrón AAB con ${x.T}`, `Patrón AAB con ${x.T}: ¿Qué Dibujo Sigue?`, `Completa el Patrón AAB de ${x.T}`],
+    p1: (x) => [
+      `En un patrón AAB, el primer dibujo aparece dos veces seguidas y luego llega el segundo una sola vez. Esta hoja de ${x.T} lo arma con ${x.a}, ${x.a}, ${x.b} repitiéndose —${x.seq}— y el niño descubre qué toca después. Un ritmo de tres con una pequeña sorpresa al final.`,
+      `Esta hoja de ${x.T} trabaja el patrón AAB: dos ${x.a} juntos y después un ${x.b}, y otra vez. La serie ${x.seq} repite ese grupo de tres, y la casilla vacía espera el dibujo que continúa. Notar que el grupo es «dos y luego uno» es un paso más que el simple AB.`,
+      `Dos iguales y luego uno distinto: ese es el corazón del patrón AAB. Con ${x.T}, la fila avanza ${x.seq}, repitiendo ${x.a}, ${x.a}, ${x.b}. El pequeño descubre la unidad de tres y la continúa, afinando su lectura de patrones.`,
+      `¿Qué sigue después de ${x.a}, ${x.a}, ${x.b}? Eso es un patrón AAB, y esta hoja de ${x.T} lo plantea con la serie ${x.seq} El niño aprende a esperar dos ${x.a} antes de cada ${x.b}, y completa el vagón que falta.`,
+      `El patrón AAB tiene un ritmo de tres: ${x.a}, ${x.a}, ${x.b}, y vuelta a empezar. En esta hoja de ${x.T}, ${x.seq} se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer que el primer elemento se duplica antes del segundo es seriación más rica.`,
+      `Aquí ${x.a} aparece de a dos y ${x.b} de a uno, formando un patrón AAB. La hoja de ${x.T} muestra ${x.seq} y deja huecos para que el niño mantenga ese grupo de tres. Continuar un patrón con repetición desigual ejercita la atención al detalle.`,
+    ],
+    p2: (x) => [
+      `Lo distintivo del AAB es que un dibujo se repite antes del otro: ${x.a}, ${x.a}, y recién entonces ${x.b}. El niño señala cada vagón de ${x.T} y dice el grupo de tres en voz alta; así descubre si el hueco pide otro ${x.a} o ya toca ${x.b}.`,
+      `Para seguir el AAB hay que contar el turno doble: dos ${x.a} y un ${x.b}, una y otra vez. Recorriendo ${x.seq} con el dedo, el pequeño nota cuándo se cierra el grupo de tres y coloca el dibujo correcto, sin operaciones de por medio.`,
+      `El AAB se completa observando el ritmo «dos y uno». El niño mira la fila de ${x.T}, ve que ${x.a} viene en pareja y ${x.b} en solitario, y continúa la serie. Es una unidad de tres que se lee de un vistazo cuando se dice en voz alta.`,
+      `Seguir un patrón AAB pide notar dónde empieza y termina el grupo: ${x.a}, ${x.a}, ${x.b}. Con ${x.T} en los vagones, el pequeño anticipa el siguiente dibujo preguntándose «¿ya van dos ${x.a}?». Ese pequeño análisis es razonamiento de patrones.`,
+      `A diferencia del simple turno, el AAB repite el primer dibujo antes de cambiar. Decir ${x.seq} en voz alta —marcando los dos ${x.a} y luego el ${x.b}— ayuda al niño de ${x.T} a no perder el grupo de tres y a completar el hueco con seguridad.`,
+    ],
+  },
+  abb: {
+    h1: (x) => [`Continúa el Patrón ABB con ${x.T}`, `Patrón ABB con ${x.T}: ¿Qué Dibujo Sigue?`, `Completa el Patrón ABB de ${x.T}`],
+    p1: (x) => [
+      `En un patrón ABB, primero llega un dibujo solo y luego el otro repetido dos veces. Esta hoja de ${x.T} lo arma con ${x.a}, ${x.b}, ${x.b} —${x.seq}— y el niño descubre qué sigue. Es el espejo del AAB: aquí la pareja está al final.`,
+      `Esta hoja de ${x.T} trabaja el patrón ABB: un ${x.a} y después dos ${x.b} juntos, y otra vez. La serie ${x.seq} repite ese grupo de tres, y la casilla vacía espera el dibujo que continúa. Notar que el segundo elemento se duplica es la clave.`,
+      `Uno distinto y luego dos iguales: así avanza el patrón ABB. Con ${x.T}, la fila va ${x.seq}, repitiendo ${x.a}, ${x.b}, ${x.b}. El pequeño descubre la unidad de tres y la continúa, observando dónde aparece la pareja.`,
+      `¿Qué sigue después de ${x.a}, ${x.b}, ${x.b}? Eso es un patrón ABB, y esta hoja de ${x.T} lo plantea con ${x.seq} El niño aprende a esperar dos ${x.b} tras cada ${x.a}, y completa el vagón que falta.`,
+      `El patrón ABB lleva un ritmo de tres con la repetición al final: ${x.a}, ${x.b}, ${x.b}. En esta hoja de ${x.T}, ${x.seq} se repite con ese compás, y el pequeño elige el dibujo que sigue. Ver que el segundo dibujo viene en pareja afina la lectura.`,
+      `Aquí ${x.a} aparece de a uno y ${x.b} de a dos, formando un patrón ABB. La hoja de ${x.T} muestra ${x.seq} y deja huecos para mantener ese grupo de tres. Continuar el ritmo «uno y luego dos» ejercita la atención.`,
+    ],
+    p2: (x) => [
+      `Lo distintivo del ABB es que la pareja va al final: ${x.a}, y luego ${x.b}, ${x.b}. El niño señala cada vagón de ${x.T} y dice el grupo de tres en voz alta; así sabe si el hueco pide otro ${x.b} o ya vuelve ${x.a}.`,
+      `Para seguir el ABB hay que esperar el turno doble del segundo dibujo: un ${x.a} y dos ${x.b}, una y otra vez. Recorriendo ${x.seq} con el dedo, el pequeño nota cuándo se cierra el grupo de tres y coloca el dibujo correcto.`,
+      `El ABB se completa observando el ritmo «uno y dos». El niño mira la fila de ${x.T}, ve que ${x.a} viene solo y ${x.b} en pareja, y continúa la serie. Es una unidad de tres clara al decirla en voz alta.`,
+      `Seguir un patrón ABB pide notar dónde está la pareja: ${x.a}, ${x.b}, ${x.b}. Con ${x.T} en los vagones, el pequeño anticipa el siguiente dibujo preguntándose «¿ya van dos ${x.b}?». Ese análisis es razonamiento de patrones.`,
+      `A diferencia del AAB, en el ABB la repetición llega después del primer dibujo. Decir ${x.seq} en voz alta —un ${x.a} y luego los dos ${x.b}— ayuda al niño de ${x.T} a no perder el grupo de tres y a completar el hueco.`,
+    ],
+  },
+  aabb: {
+    h1: (x) => [`Continúa el Patrón AABB con ${x.T}`, `Patrón AABB con ${x.T}: ¿Qué Dibujo Sigue?`, `Completa el Patrón AABB de ${x.T}`],
+    p1: (x) => [
+      `En un patrón AABB, dos dibujos iguales llegan juntos y después otros dos iguales: pares y pares. Esta hoja de ${x.T} lo arma con ${x.a}, ${x.a}, ${x.b}, ${x.b} —${x.seq}— y el niño descubre qué sigue. Un ritmo de cuatro hecho de dos parejas.`,
+      `Esta hoja de ${x.T} trabaja el patrón AABB: dos ${x.a} y luego dos ${x.b}, y otra vez. La serie ${x.seq} repite ese grupo de cuatro, y la casilla vacía espera el dibujo que continúa. Ver que cada dibujo viene en pareja es la clave.`,
+      `Dos iguales y dos iguales: así avanza el patrón AABB. Con ${x.T}, la fila va ${x.seq}, repitiendo el bloque ${x.a}, ${x.a}, ${x.b}, ${x.b}. El pequeño descubre la unidad de cuatro y la continúa, observando las parejas.`,
+      `¿Qué sigue después de ${x.a}, ${x.a}, ${x.b}, ${x.b}? Eso es un patrón AABB, y esta hoja de ${x.T} lo plantea con ${x.seq} El niño aprende a contar de a dos —dos ${x.a}, dos ${x.b}— antes de que el grupo vuelva a empezar.`,
+      `El patrón AABB es un ritmo de cuatro en parejas: ${x.a}, ${x.a}, ${x.b}, ${x.b}. En esta hoja de ${x.T}, ${x.seq} se repite con ese compás, y el pequeño elige el dibujo que sigue. Reconocer dos parejas seguidas es seriación más larga.`,
+      `Aquí ${x.a} y ${x.b} aparecen de a dos cada uno, formando un patrón AABB. La hoja de ${x.T} muestra ${x.seq} y deja huecos para mantener ese grupo de cuatro. Continuar un ritmo de parejas ejercita la memoria del patrón.`,
+    ],
+    p2: (x) => [
+      `Lo distintivo del AABB es que todo viene de a dos: primero la pareja de ${x.a}, luego la pareja de ${x.b}. El niño señala cada vagón de ${x.T} y dice el grupo de cuatro en voz alta; así sabe si el hueco cierra una pareja o abre la siguiente.`,
+      `Para seguir el AABB hay que llevar la cuenta de las parejas: dos ${x.a}, dos ${x.b}, una y otra vez. Recorriendo ${x.seq} con el dedo, el pequeño nota cuándo se completa cada par y coloca el dibujo correcto.`,
+      `El AABB se completa observando el ritmo «dos y dos». El niño mira la fila de ${x.T}, ve que ${x.a} y ${x.b} llegan en parejas, y continúa la serie. Es una unidad de cuatro que se ordena fácil al decirla en voz alta.`,
+      `Seguir un patrón AABB pide notar dónde termina una pareja y empieza la otra: ${x.a}, ${x.a}, ${x.b}, ${x.b}. Con ${x.T} en los vagones, el pequeño anticipa el dibujo preguntándose «¿ya van dos?». Ese análisis es razonamiento de patrones.`,
+      `A diferencia del AB, el AABB agrupa los dibujos de a dos antes de cambiar. Decir ${x.seq} en voz alta —marcando las dos parejas— ayuda al niño de ${x.T} a no perder el grupo de cuatro y a completar el hueco con seguridad.`,
+    ],
+  },
+  abc: {
+    h1: (x) => [`Continúa el Patrón ABC con ${x.T}`, `Patrón ABC con ${x.T}: ¿Qué Dibujo Sigue?`, `Completa el Patrón ABC de ${x.T}`],
+    p1: (x) => [
+      `En un patrón ABC, tres dibujos distintos van en fila y luego el trío vuelve a empezar. Esta hoja de ${x.T} lo arma con ${x.a}, ${x.b}, ${x.c} repitiéndose —${x.seq}— y el niño descubre qué sigue. Sin repeticiones dentro del grupo: tres diferentes, en orden.`,
+      `Esta hoja de ${x.T} trabaja el patrón ABC: tres dibujos diferentes —${x.a}, ${x.b}, ${x.c}— en un orden fijo que se repite. La serie ${x.seq} avanza con ese trío, y la casilla vacía espera el que continúa. Recordar el orden de tres es un paso más exigente.`,
+      `Tres dibujos distintos en secuencia: así avanza el patrón ABC. Con ${x.T}, la fila va ${x.seq}, repitiendo ${x.a}, ${x.b}, ${x.c} sin cambiar el orden. El pequeño descubre el trío y lo continúa, memorizando la fila.`,
+      `¿Qué sigue después de ${x.a}, ${x.b}, ${x.c}? Eso es un patrón ABC, y esta hoja de ${x.T} lo plantea con ${x.seq} El niño aprende que ningún dibujo se repite dentro del grupo: primero ${x.a}, luego ${x.b}, luego ${x.c}, y otra vez.`,
+      `El patrón ABC es un ritmo de tres sin repeticiones: ${x.a}, ${x.b}, ${x.c}, y vuelta a empezar. En esta hoja de ${x.T}, ${x.seq} se repite con ese orden, y el pequeño elige el dibujo que sigue. Seguir un trío de elementos distintos es seriación más rica.`,
+      `Aquí tres dibujos —${x.a}, ${x.b}, ${x.c}— se turnan en orden, formando un patrón ABC. La hoja de ${x.T} muestra ${x.seq} y deja huecos para mantener el trío. Continuar un patrón de tres distintos ejercita la memoria de secuencia.`,
+    ],
+    p2: (x) => [
+      `Lo distintivo del ABC es que los tres dibujos son diferentes y el orden manda: ${x.a}, después ${x.b}, después ${x.c}. El niño señala cada vagón de ${x.T} y dice el trío en voz alta; así sabe cuál de los tres toca en el hueco.`,
+      `Para seguir el ABC hay que recordar la fila completa: ${x.a}, ${x.b}, ${x.c}, una y otra vez. Recorriendo ${x.seq} con el dedo, el pequeño nota en qué punto del trío está y coloca el dibujo correcto, sin contar.`,
+      `El ABC se completa recordando el orden. El niño mira la fila de ${x.T}, ve que tres dibujos se turnan sin repetirse, y continúa la serie. Es un trío que se sostiene mejor al decirlo en voz alta.`,
+      `Seguir un patrón ABC pide tener presentes los tres dibujos y su orden: ${x.a}, ${x.b}, ${x.c}. Con ${x.T} en los vagones, el pequeño anticipa el siguiente preguntándose «¿cuál de los tres va ahora?». Ese repaso es razonamiento de patrones.`,
+      `A diferencia de los patrones con repetición, el ABC no duplica ningún dibujo dentro del grupo. Decir ${x.seq} en voz alta —los tres en orden— ayuda al niño de ${x.T} a no perder el trío y a completar el hueco con seguridad.`,
+    ],
+  },
+};
+// p3 (print/NEM close) — mode-tagged so even this paragraph differs across modes.
+function p3(x, i) {
   return [
-    `Esta hoja de patrones con ${T} arma un patrón ${lab}: ${unit} para formar una secuencia como ${seq} El niño descubre la parte que se repite y dice qué dibujo sigue. Continuar patrones de repetición es pensamiento lógico-matemático del preescolar, sin contar nada.`,
-    `Termina el patrón. En esta hoja, ${a} y ${b} se turnan en un ritmo ${lab} —${seq}— y el pequeño completa los espacios vacíos para que el tren siga igual. Leer un patrón sencillo y continuarlo es de las primeras destrezas de razonamiento del preescolar.`,
-    `Un patrón ${lab} es de los más sencillos: ${unit}. Esta hoja lo arma con dibujos de ${T} —la serie va ${seq}— y pide al niño colocar el dibujo correcto en cada vagón vacío. Reconocer el ritmo y extenderlo desarrolla la atención y el orden, sin números de por medio.`,
-    `¿Qué sigue? En este tren de vagones, los dibujos de ${T} avanzan en un patrón ${lab}: ${seq} El niño observa, encuentra la regla que se repite y la continúa. Es seriación temprana: notar el orden de una sucesión y extenderlo, una base del pensamiento matemático.`,
-    `Con ${a} y ${b} turnándose, esta hoja de ${T} crea un patrón ${lab} que se repite así: ${seq} La tarea del pequeño es mirar la secuencia, descubrir qué parte se repite y completar lo que falta. Continuar patrones prepara la mente para el conteo y las operaciones.`,
-    `Esta actividad de preescolar presenta un patrón ${lab} con ${T}: ${unit}, en el orden ${seq} El niño completa las casillas vacías siguiendo el ritmo. Reconocer y continuar patrones es una destreza precursora del pensamiento numérico, sin sumar ni contar.`,
-    `Mira el tren de dibujos: ${seq} Es un patrón ${lab} hecho con ${T}. El pequeño descubre la regla que se repite y elige el dibujo que sigue en cada espacio. Esta práctica afina la observación y el razonamiento lógico antes de los números.`,
-    `El patrón ${lab} de esta hoja repite ${T} con un ritmo claro —${seq}— para que el niño anticipe qué viene después. Encontrar la unidad que se repite y continuarla es razonamiento de patrones, una base del aprendizaje matemático que se trabaja en el preescolar.`,
-  ][i % 8];
-}
-function p2(T, lab, seq, i) {
-  return [
-    `La gracia del patrón ${lab} está en su ritmo constante: una vez descubierta la parte que se repite, el niño puede predecir qué sigue. Señalar con el dedo y decir la serie en voz alta —${seq}— ayuda a no perder el hilo y a comprobar la respuesta.`,
-    `Para resolverlo, el pequeño lee la secuencia de izquierda a derecha, encuentra la unidad que se repite y la extiende. Nombrar cada dibujo de ${T} mientras avanza mantiene la atención en el ritmo del patrón, no en la cantidad: aquí no se cuenta nada.`,
-    `Extender un patrón ${lab} pide sostener una regla simple en la mente y aplicarla una y otra vez. Esa constancia es preparación matemática del preescolar; hacerlo con dibujos conocidos de ${T} mantiene el reto claro y el ritmo fácil de ver.`,
-    `El patrón se completa observando, no contando: el niño mira ${seq}, capta el ritmo y coloca el dibujo que falta. Trabajar con ${T} hace la práctica cercana, y decir la serie en voz alta convierte la seriación en un juego de observación.`,
-    `Cada vagón vacío es una pequeña pregunta, «¿qué sigue?». El niño responde mirando el patrón ${lab} y continuando su ritmo. Practicar con ${T} mantiene la tarea concreta y divertida, y prepara el camino hacia el conteo y el orden numérico.`,
-    `Al continuar el patrón ${lab}, el pequeño ejercita la idea de que una secuencia sigue una regla y se puede predecir. Con ${T} en los vagones, descubrir y extender ese ritmo se vuelve una práctica de razonamiento, sin ninguna operación de por medio.`,
-  ][i % 6];
-}
-function p3(T, i) {
-  return [
-    `La hoja se puede imprimir en PDF para trabajar en papel o jugar en línea de forma interactiva, siempre gratis y sin necesidad de registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con un tono cálido y sin vergüenza por equivocarse. Esta actividad se alinea con la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el proceso de reconocer patrones de repetición y crecimiento, ideal para Preescolar (5 años).`,
-    `Puedes descargar el PDF de ${T} para imprimir o jugar la versión interactiva en línea, gratis y sin crear cuenta. Sin cronómetro ni puntaje: cada niña y cada niño avanza a su ritmo, porque observar de nuevo la secuencia es parte de aprender. Se alinea con la Nueva Escuela Mexicana (SEP) en el campo formativo Saberes y Pensamiento Científico —reconocer y continuar patrones de repetición y crecimiento— pensada para Preescolar (5 años).`,
-    `Disponible gratis: imprime la hoja de patrones o juégala en línea de forma interactiva, sin registrarse. No incluye cronómetros ni puntajes; el ritmo lo pone cada niño, con calidez y sin presión. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer patrones de repetición y crecimiento, ideal para Preescolar (5 años).`,
-    `Esta hoja de ${T} está lista para imprimir en PDF o jugar en línea, gratis y sin cuenta. Nada de relojes ni calificaciones: el niño avanza tranquilo, y volver a mirar el patrón es parte natural de aprender. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico —patrones de repetición y crecimiento—, pensada para Preescolar (5 años).`,
-    `Juega la versión interactiva en línea o imprime el PDF; siempre gratis, sin registro. Sin cronómetro ni puntaje, cada pequeño marca su ritmo. La actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro de Saberes y Pensamiento Científico, en el reconocimiento y la continuación de patrones de repetición y crecimiento, ideal para niñas y niños de Preescolar (5 años).`,
-  ][i % 5];
+    `La hoja del patrón ${x.lab} se puede imprimir en PDF o jugar en línea de forma interactiva, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, sin vergüenza por equivocarse. Se alinea con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, ideal para Preescolar (5 años).`,
+    `Descarga el PDF de ${x.T} (patrón ${x.lab}) para imprimir o juega la versión interactiva en línea, gratis y sin crear cuenta. Sin reloj ni calificación: cada niña y cada niño avanza a su paso, porque volver a mirar la fila es parte de aprender. Enmarcada en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en patrones de repetición y crecimiento, para Preescolar (5 años).`,
+    `Imprime esta hoja de patrón ${x.lab} con ${x.T} o juégala en línea, sin registro y siempre gratis. Nada de cronómetros ni puntajes; el pequeño marca su ritmo con calma. Alineada con la Nueva Escuela Mexicana (SEP), campo formativo Saberes y Pensamiento Científico, en el aprendizaje de reconocer y continuar patrones, ideal para Preescolar (5 años).`,
+    `El patrón ${x.lab} de ${x.T} está disponible para imprimir en PDF o jugar en línea de forma interactiva, gratis y sin cuenta. Sin relojes ni notas: cada niño avanza tranquilo. Se enmarca en la Nueva Escuela Mexicana (SEP), Saberes y Pensamiento Científico, en el reconocimiento de patrones de repetición y crecimiento, para niñas y niños de Preescolar (5 años).`,
+  ][i % 4];
 }
 
-const spec = MODE[modeArg];
+const pool = POOLS[modeArg];
 const entries = facts.map((d, i) => {
   const T = themeDisplay(d.themeKey);
-  const seq = seqIllustration(modeArg, d.elements);
-  const a = lc(d.elements[0] || ''); const b = lc(d.elements[1] || a);
-  let meta = `Hoja de patrones ${spec.label} con ${T} para preescolar: observa la secuencia (${seq.replace('…','')}) y descubre qué sigue. Gratis para imprimir o jugar en línea sin registro.`;
-  if (meta.length > 170) meta = `Patrón ${spec.label} con ${T} (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.`;
-  if (meta.length > 170) meta = `Patrón ${spec.label} con ${T}: ¿qué sigue? Hoja de preescolar gratis para imprimir o jugar en línea.`;
+  const e = (d.elements || []).map((s) => s);
+  const x = { T, a: lc(e[0] || ''), b: lc(e[1] || e[0] || ''), c: lc(e[2] || e[1] || e[0] || ''), seq: seqIllustration(modeArg, d.elements), lab: LABEL[modeArg] };
+  const p1arr = pool.p1(x), p2arr = pool.p2(x), h1arr = pool.h1(x);
+  let meta = `Hoja de patrones ${x.lab} con ${T} para preescolar: observa la secuencia (${x.seq.replace('…','')}) y descubre qué sigue. Gratis para imprimir o jugar en línea sin registro.`;
+  if (meta.length > 170) meta = `Patrón ${x.lab} con ${T} (preescolar): observa la secuencia y descubre qué dibujo sigue. Gratis para imprimir o jugar en línea sin registro.`;
+  if (meta.length > 170) meta = `Patrón ${x.lab} con ${T}: ¿qué sigue? Hoja de preescolar gratis para imprimir o jugar en línea.`;
   return {
     slug: d.slug,
     variantShape: 'singleton',
     coordinate: { type: 'pattern-train', mode: (modeArg === 'ab' ? null : modeArg), theme: d.themeKey, level: 'preescolar' },
-    title: `Patrón ${spec.label} con ${T}: ¿Qué Sigue?`,
+    title: `Patrón ${x.lab} con ${T}: ¿Qué Sigue?`,
     metaDescription: meta,
     eyebrow: 'Hoja de patrones',
-    h1: H1(spec.label, T, i),
+    h1: h1arr[i % h1arr.length],
     strand: STRAND,
-    slotTokens: [d.elements[0], d.elements[1], T, 'Preescolar (5 años)'].filter(Boolean),
-    p1: p1(T, spec.label, spec.unitWords, seq, a, b, i),
-    p2: p2(T, spec.label, seq, i),
-    p3: p3(T, i),
+    slotTokens: [d.elements[0], d.elements[1], d.elements[2], T, 'Preescolar (5 años)'].filter(Boolean),
+    p1: p1arr[i % p1arr.length],
+    p2: p2arr[i % p2arr.length],
+    p3: p3(x, i),
     canonicalDeckSlug: d.slug,
     carousel: [],
   };
 });
 
-console.log(`mode=${modeArg} | built ${entries.length} entries`);
-entries.slice(0, 2).forEach((e) => {
-  console.log('---', e.slug, '---');
-  console.log('  title:', e.title, '| meta len:', e.metaDescription.length);
-  console.log('  p1:', e.p1.slice(0, 150));
-});
+console.log(`mode=${modeArg} | built ${entries.length} | p1 pool ${pool.p1({T:'',a:'',b:'',c:'',seq:'',lab:''}).length} / p2 ${pool.p2({T:'',a:'',b:'',c:'',seq:'',lab:''}).length}`);
+entries.slice(0, 2).forEach((e) => console.log('  ', e.slug, '|', e.title, '| meta', e.metaDescription.length, '\n     p1:', e.p1.slice(0, 120)));
 
 if (DRY) { console.log('\n[DRY-RUN] no write.'); process.exit(0); }
 const raw = fs.readFileSync(ES, 'utf8').replace(/\r\n/g, '\n');

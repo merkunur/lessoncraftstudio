@@ -2,6 +2,1892 @@
   "_note": "ES = MEXICAN SPANISH locale (operator ledger-lock 2026-06-09). First locale under the per-deck gold + demand-first model. Register: 'hojas de trabajo' anchors titles (MX); MX lexis throughout; grade bands Educación Preescolar (por años) + primer/segundo grado de primaria; framework Nueva Escuela Mexicana (SEP) human-facing, CCSS code machine-only in JSON-LD; onset by sílaba + seseo for phonetic coords. Authored by the MX-native ensemble (linguista + B2C/SEO + docente). gold title + metaDescription are per-deck authored (not derived). Lead coordinate (this scaffold) = addition find-addend; the find-addend family fan-out follows draft-only, then operator eyeball before deploy.",
   "landings": [
     {
+      "slug": "busqueda-del-tesoro-4-de-julio",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "4th_of_july",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con 4 de Julio: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con 4 de Julio (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con 4 de Julio: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "4 de Julio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de 4 de Julio, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de 4 de Julio hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de 4 de Julio hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con 4 de Julio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-7671",
+      "carousel": [
+        {
+          "label": "Tesoro de Accesorios",
+          "href": "busqueda-del-tesoro-accesorios"
+        },
+        {
+          "label": "Tesoro de Actividades",
+          "href": "busqueda-del-tesoro-actividades"
+        },
+        {
+          "label": "Tesoro de Playa",
+          "href": "busqueda-del-tesoro-playa"
+        },
+        {
+          "label": "Tesoro de Salón de clases",
+          "href": "busqueda-del-tesoro-salon-de-clases"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-accesorios",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "accessories",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Accesorios: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Accesorios (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Accesorios: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Accesorios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Accesorios, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Accesorios con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Accesorios, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f473",
+      "carousel": [
+        {
+          "label": "Tesoro de Actividades",
+          "href": "busqueda-del-tesoro-actividades"
+        },
+        {
+          "label": "Tesoro de Alrededor de la casa",
+          "href": "busqueda-del-tesoro-alrededor-de-la-casa"
+        },
+        {
+          "label": "Tesoro de Aves",
+          "href": "busqueda-del-tesoro-aves"
+        },
+        {
+          "label": "Tesoro de Ropa",
+          "href": "busqueda-del-tesoro-ropa"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-actividades",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "activities",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Actividades: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Actividades (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Actividades: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Actividades",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Actividades. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Actividades. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "En esta versión, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. El niño los sigue uno a uno para cruzar el mapa de Actividades hasta el tesoro. Aprender hacia dónde queda cada lado fortalece a la vez la orientación y el seguir instrucciones. No hay reloj ni puntos, solo la alegría tranquila de llegar al premio paso a paso.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Actividades, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9dd5",
+      "carousel": [
+        {
+          "label": "Tesoro de Alrededor de la casa",
+          "href": "busqueda-del-tesoro-alrededor-de-la-casa"
+        },
+        {
+          "label": "Tesoro de En el supermercado",
+          "href": "busqueda-del-tesoro-en-el-supermercado"
+        },
+        {
+          "label": "Tesoro de Partes del cuerpo",
+          "href": "busqueda-del-tesoro-partes-del-cuerpo"
+        },
+        {
+          "label": "Tesoro de Colores",
+          "href": "busqueda-del-tesoro-colores"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-alrededor-de-la-casa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "around_the_house",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Alrededor de la casa: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Alrededor de la casa (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Alrededor de la casa: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Alrededor de la casa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Alrededor de la casa, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Alrededor de la casa. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Alrededor de la casa, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Alrededor de la casa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-22bd",
+      "carousel": [
+        {
+          "label": "Tesoro de En el supermercado",
+          "href": "busqueda-del-tesoro-en-el-supermercado"
+        },
+        {
+          "label": "Tesoro de Playa",
+          "href": "busqueda-del-tesoro-playa"
+        },
+        {
+          "label": "Tesoro de Desayuno",
+          "href": "busqueda-del-tesoro-desayuno"
+        },
+        {
+          "label": "Tesoro de Postres y dulces",
+          "href": "busqueda-del-tesoro-postres-y-dulces"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-en-el-supermercado",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "at_the_supermarket",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con En el supermercado: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con En el supermercado (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de En el supermercado: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "En el supermercado",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con En el supermercado para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de En el supermercado hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de En el supermercado, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con En el supermercado, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d195",
+      "carousel": [
+        {
+          "label": "Tesoro de Playa",
+          "href": "busqueda-del-tesoro-playa"
+        },
+        {
+          "label": "Tesoro de Aves",
+          "href": "busqueda-del-tesoro-aves"
+        },
+        {
+          "label": "Tesoro de Campamento",
+          "href": "busqueda-del-tesoro-campamento"
+        },
+        {
+          "label": "Tesoro de Dinosaurios",
+          "href": "busqueda-del-tesoro-dinosaurios"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-playa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "beach",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Playa: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Playa (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Playa: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Playa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Playa para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Playa hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "En esta versión, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. El niño los sigue uno a uno para cruzar el mapa de Playa hasta el tesoro. Aprender hacia dónde queda cada lado fortalece a la vez la orientación y el seguir instrucciones. No hay reloj ni puntos, solo la alegría tranquila de llegar al premio paso a paso.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Playa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-33b1",
+      "carousel": [
+        {
+          "label": "Tesoro de Aves",
+          "href": "busqueda-del-tesoro-aves"
+        },
+        {
+          "label": "Tesoro de Partes del cuerpo",
+          "href": "busqueda-del-tesoro-partes-del-cuerpo"
+        },
+        {
+          "label": "Tesoro de Navidad",
+          "href": "busqueda-del-tesoro-navidad"
+        },
+        {
+          "label": "Tesoro de Pascua",
+          "href": "busqueda-del-tesoro-pascua"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-aves",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "birds",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Aves: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Aves (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Aves: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Aves",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir direcciones hasta el tesoro es un ejercicio precioso para manitas y mentes pequeñas. En esta hoja de Aves, el niño parte de un punto del mapa y obedece, paso a paso, las indicaciones que se le dan: a la derecha, hacia arriba, a la izquierda. Así se desplaza entre las imágenes de Aves hasta dar con el tesoro escondido. Con cada paso, el pequeño desarrolla el sentido de la orientación y la constancia, sin contar ni calcular nada. Si toma un rumbo equivocado, no pasa nada: regresa y prueba de nuevo, y cada intento merece un aplauso. Llegar al tesoro no tiene ninguna prisa: lo que cuenta es el camino bien seguido.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Aves, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Aves, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0fac",
+      "carousel": [
+        {
+          "label": "Tesoro de Partes del cuerpo",
+          "href": "busqueda-del-tesoro-partes-del-cuerpo"
+        },
+        {
+          "label": "Tesoro de Desayuno",
+          "href": "busqueda-del-tesoro-desayuno"
+        },
+        {
+          "label": "Tesoro de Salón de clases",
+          "href": "busqueda-del-tesoro-salon-de-clases"
+        },
+        {
+          "label": "Tesoro de Emociones",
+          "href": "busqueda-del-tesoro-emociones"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-partes-del-cuerpo",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "body_parts",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Partes del cuerpo: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Partes del cuerpo (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Partes del cuerpo: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Partes del cuerpo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encantan los mapas del tesoro porque parecen una aventura de verdad: ¿hacia dónde hay que ir ahora? En esta hoja de Partes del cuerpo, el pequeño sigue las direcciones que le marca cada paso y se desplaza por el mapa de cuadritos hasta el tesoro. Arriba, abajo, a un lado o al otro, va moviéndose entre las imágenes de Partes del cuerpo, siempre atento a la siguiente indicación. Así ejercita, sin darse cuenta, la orientación en el espacio y la concentración, dos destrezas precursoras importantes. No hay competencia ni nadie que apure: solo el niño, el mapa y un caminito de direcciones que lo lleva, paso a paso, hasta el tesoro escondido.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Partes del cuerpo, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Partes del cuerpo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-353e",
+      "carousel": [
+        {
+          "label": "Tesoro de Desayuno",
+          "href": "busqueda-del-tesoro-desayuno"
+        },
+        {
+          "label": "Tesoro de Campamento",
+          "href": "busqueda-del-tesoro-campamento"
+        },
+        {
+          "label": "Tesoro de Ropa",
+          "href": "busqueda-del-tesoro-ropa"
+        },
+        {
+          "label": "Tesoro de Animales de granja",
+          "href": "busqueda-del-tesoro-animales-de-granja"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-desayuno",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "breakfast",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Desayuno: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Desayuno (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Desayuno: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Desayuno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Desayuno, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Desayuno hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "En esta versión, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. El niño los sigue uno a uno para cruzar el mapa de Desayuno hasta el tesoro. Aprender hacia dónde queda cada lado fortalece a la vez la orientación y el seguir instrucciones. No hay reloj ni puntos, solo la alegría tranquila de llegar al premio paso a paso.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Desayuno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-1065",
+      "carousel": [
+        {
+          "label": "Tesoro de Campamento",
+          "href": "busqueda-del-tesoro-campamento"
+        },
+        {
+          "label": "Tesoro de Navidad",
+          "href": "busqueda-del-tesoro-navidad"
+        },
+        {
+          "label": "Tesoro de Colores",
+          "href": "busqueda-del-tesoro-colores"
+        },
+        {
+          "label": "Tesoro de Flores",
+          "href": "busqueda-del-tesoro-flores"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-campamento",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "camping",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Campamento: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Campamento (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Campamento: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Campamento",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Campamento, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Campamento con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Campamento, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Campamento, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8f99",
+      "carousel": [
+        {
+          "label": "Tesoro de Navidad",
+          "href": "busqueda-del-tesoro-navidad"
+        },
+        {
+          "label": "Tesoro de Salón de clases",
+          "href": "busqueda-del-tesoro-salon-de-clases"
+        },
+        {
+          "label": "Tesoro de Postres y dulces",
+          "href": "busqueda-del-tesoro-postres-y-dulces"
+        },
+        {
+          "label": "Tesoro de Criaturas del bosque",
+          "href": "busqueda-del-tesoro-criaturas-del-bosque"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-navidad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "christmas",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Navidad: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Navidad (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Navidad: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Navidad",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Navidad. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Navidad. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Navidad, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Navidad, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e244",
+      "carousel": [
+        {
+          "label": "Tesoro de Salón de clases",
+          "href": "busqueda-del-tesoro-salon-de-clases"
+        },
+        {
+          "label": "Tesoro de Ropa",
+          "href": "busqueda-del-tesoro-ropa"
+        },
+        {
+          "label": "Tesoro de Dinosaurios",
+          "href": "busqueda-del-tesoro-dinosaurios"
+        },
+        {
+          "label": "Tesoro de Frutas",
+          "href": "busqueda-del-tesoro-frutas"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-salon-de-clases",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "classroom",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Salón de clases: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Salón de clases (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Salón de clases: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Salón de clases",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Salón de clases, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Salón de clases. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Salón de clases. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Salón de clases, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-21b1",
+      "carousel": [
+        {
+          "label": "Tesoro de Ropa",
+          "href": "busqueda-del-tesoro-ropa"
+        },
+        {
+          "label": "Tesoro de Colores",
+          "href": "busqueda-del-tesoro-colores"
+        },
+        {
+          "label": "Tesoro de Pascua",
+          "href": "busqueda-del-tesoro-pascua"
+        },
+        {
+          "label": "Tesoro de Muebles",
+          "href": "busqueda-del-tesoro-muebles"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-ropa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "clothing",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Ropa: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Ropa (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Ropa: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Ropa",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con Ropa para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de Ropa hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Ropa, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Ropa, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f15a",
+      "carousel": [
+        {
+          "label": "Tesoro de Colores",
+          "href": "busqueda-del-tesoro-colores"
+        },
+        {
+          "label": "Tesoro de Postres y dulces",
+          "href": "busqueda-del-tesoro-postres-y-dulces"
+        },
+        {
+          "label": "Tesoro de Emociones",
+          "href": "busqueda-del-tesoro-emociones"
+        },
+        {
+          "label": "Tesoro de Hospital",
+          "href": "busqueda-del-tesoro-hospital"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-colores",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "colors",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Colores: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Colores (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Colores: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Colores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Colores para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Colores hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Colores, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Colores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2a74",
+      "carousel": [
+        {
+          "label": "Tesoro de Postres y dulces",
+          "href": "busqueda-del-tesoro-postres-y-dulces"
+        },
+        {
+          "label": "Tesoro de Dinosaurios",
+          "href": "busqueda-del-tesoro-dinosaurios"
+        },
+        {
+          "label": "Tesoro de Animales de granja",
+          "href": "busqueda-del-tesoro-animales-de-granja"
+        },
+        {
+          "label": "Tesoro de Insectos y bichos",
+          "href": "busqueda-del-tesoro-insectos-y-bichos"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-postres-y-dulces",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "desserts_and_sweets",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Postres y dulces: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Postres y dulces (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Postres y dulces: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Postres y dulces",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir direcciones hasta el tesoro es un ejercicio precioso para manitas y mentes pequeñas. En esta hoja de Postres y dulces, el niño parte de un punto del mapa y obedece, paso a paso, las indicaciones que se le dan: a la derecha, hacia arriba, a la izquierda. Así se desplaza entre las imágenes de Postres y dulces hasta dar con el tesoro escondido. Con cada paso, el pequeño desarrolla el sentido de la orientación y la constancia, sin contar ni calcular nada. Si toma un rumbo equivocado, no pasa nada: regresa y prueba de nuevo, y cada intento merece un aplauso. Llegar al tesoro no tiene ninguna prisa: lo que cuenta es el camino bien seguido.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Postres y dulces. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Postres y dulces, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-73b9",
+      "carousel": [
+        {
+          "label": "Tesoro de Dinosaurios",
+          "href": "busqueda-del-tesoro-dinosaurios"
+        },
+        {
+          "label": "Tesoro de Pascua",
+          "href": "busqueda-del-tesoro-pascua"
+        },
+        {
+          "label": "Tesoro de Flores",
+          "href": "busqueda-del-tesoro-flores"
+        },
+        {
+          "label": "Tesoro de Utensilios de cocina",
+          "href": "busqueda-del-tesoro-utensilios-de-cocina"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-dinosaurios",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "dinosaurs",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Dinosaurios: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Dinosaurios (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Dinosaurios: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Dinosaurios",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encantan los mapas del tesoro porque parecen una aventura de verdad: ¿hacia dónde hay que ir ahora? En esta hoja de Dinosaurios, el pequeño sigue las direcciones que le marca cada paso y se desplaza por el mapa de cuadritos hasta el tesoro. Arriba, abajo, a un lado o al otro, va moviéndose entre las imágenes de Dinosaurios, siempre atento a la siguiente indicación. Así ejercita, sin darse cuenta, la orientación en el espacio y la concentración, dos destrezas precursoras importantes. No hay competencia ni nadie que apure: solo el niño, el mapa y un caminito de direcciones que lo lleva, paso a paso, hasta el tesoro escondido.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Dinosaurios, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Dinosaurios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-990f",
+      "carousel": [
+        {
+          "label": "Tesoro de Pascua",
+          "href": "busqueda-del-tesoro-pascua"
+        },
+        {
+          "label": "Tesoro de Emociones",
+          "href": "busqueda-del-tesoro-emociones"
+        },
+        {
+          "label": "Tesoro de Criaturas del bosque",
+          "href": "busqueda-del-tesoro-criaturas-del-bosque"
+        },
+        {
+          "label": "Tesoro de Misceláneo",
+          "href": "busqueda-del-tesoro-miscelaneo"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-pascua",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "easter",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Pascua: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Pascua (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Pascua: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Pascua",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Pascua, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Pascua hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Pascua, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Pascua, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-puntos-cardinales-accesorios-ed71",
+      "carousel": [
+        {
+          "label": "Tesoro de Emociones",
+          "href": "busqueda-del-tesoro-emociones"
+        },
+        {
+          "label": "Tesoro de Animales de granja",
+          "href": "busqueda-del-tesoro-animales-de-granja"
+        },
+        {
+          "label": "Tesoro de Frutas",
+          "href": "busqueda-del-tesoro-frutas"
+        },
+        {
+          "label": "Tesoro de Música",
+          "href": "busqueda-del-tesoro-musica"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-emociones",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "emotions",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Emociones: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Emociones (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Emociones: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Emociones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Emociones, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Emociones con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Emociones. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Emociones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-c831",
+      "carousel": [
+        {
+          "label": "Tesoro de Animales de granja",
+          "href": "busqueda-del-tesoro-animales-de-granja"
+        },
+        {
+          "label": "Tesoro de Flores",
+          "href": "busqueda-del-tesoro-flores"
+        },
+        {
+          "label": "Tesoro de Muebles",
+          "href": "busqueda-del-tesoro-muebles"
+        },
+        {
+          "label": "Tesoro de Ocupaciones",
+          "href": "busqueda-del-tesoro-ocupaciones"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-animales-de-granja",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "farm_animals",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Animales de granja: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Animales de granja (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Animales de granja: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Animales de granja",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Animales de granja. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Animales de granja. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Animales de granja, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Animales de granja, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-90f0",
+      "carousel": [
+        {
+          "label": "Tesoro de Flores",
+          "href": "busqueda-del-tesoro-flores"
+        },
+        {
+          "label": "Tesoro de Criaturas del bosque",
+          "href": "busqueda-del-tesoro-criaturas-del-bosque"
+        },
+        {
+          "label": "Tesoro de Hospital",
+          "href": "busqueda-del-tesoro-hospital"
+        },
+        {
+          "label": "Tesoro de Vida marina",
+          "href": "busqueda-del-tesoro-vida-marina"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-flores",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "flowers",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Flores: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Flores (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Flores: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Flores",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Flores, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Flores. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Flores en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Flores, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e57c",
+      "carousel": [
+        {
+          "label": "Tesoro de Criaturas del bosque",
+          "href": "busqueda-del-tesoro-criaturas-del-bosque"
+        },
+        {
+          "label": "Tesoro de Frutas",
+          "href": "busqueda-del-tesoro-frutas"
+        },
+        {
+          "label": "Tesoro de Insectos y bichos",
+          "href": "busqueda-del-tesoro-insectos-y-bichos"
+        },
+        {
+          "label": "Tesoro de Mascotas",
+          "href": "busqueda-del-tesoro-mascotas"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-criaturas-del-bosque",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "forest_creatures",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Criaturas del bosque: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Criaturas del bosque (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Criaturas del bosque: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Criaturas del bosque",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con Criaturas del bosque para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de Criaturas del bosque hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Criaturas del bosque. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Criaturas del bosque, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29ae",
+      "carousel": [
+        {
+          "label": "Tesoro de Frutas",
+          "href": "busqueda-del-tesoro-frutas"
+        },
+        {
+          "label": "Tesoro de Muebles",
+          "href": "busqueda-del-tesoro-muebles"
+        },
+        {
+          "label": "Tesoro de Utensilios de cocina",
+          "href": "busqueda-del-tesoro-utensilios-de-cocina"
+        },
+        {
+          "label": "Tesoro de Oficina de correos",
+          "href": "busqueda-del-tesoro-oficina-de-correos"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-frutas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "fruits",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Frutas: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Frutas (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Frutas: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Frutas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Frutas para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Frutas hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Frutas, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Frutas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ffd9",
+      "carousel": [
+        {
+          "label": "Tesoro de Muebles",
+          "href": "busqueda-del-tesoro-muebles"
+        },
+        {
+          "label": "Tesoro de Hospital",
+          "href": "busqueda-del-tesoro-hospital"
+        },
+        {
+          "label": "Tesoro de Misceláneo",
+          "href": "busqueda-del-tesoro-miscelaneo"
+        },
+        {
+          "label": "Tesoro de Formas",
+          "href": "busqueda-del-tesoro-formas"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-muebles",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "furniture",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Muebles: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Muebles (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Muebles: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Muebles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir direcciones hasta el tesoro es un ejercicio precioso para manitas y mentes pequeñas. En esta hoja de Muebles, el niño parte de un punto del mapa y obedece, paso a paso, las indicaciones que se le dan: a la derecha, hacia arriba, a la izquierda. Así se desplaza entre las imágenes de Muebles hasta dar con el tesoro escondido. Con cada paso, el pequeño desarrolla el sentido de la orientación y la constancia, sin contar ni calcular nada. Si toma un rumbo equivocado, no pasa nada: regresa y prueba de nuevo, y cada intento merece un aplauso. Llegar al tesoro no tiene ninguna prisa: lo que cuenta es el camino bien seguido.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Muebles en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Muebles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-8bb9",
+      "carousel": [
+        {
+          "label": "Tesoro de Hospital",
+          "href": "busqueda-del-tesoro-hospital"
+        },
+        {
+          "label": "Tesoro de Insectos y bichos",
+          "href": "busqueda-del-tesoro-insectos-y-bichos"
+        },
+        {
+          "label": "Tesoro de Música",
+          "href": "busqueda-del-tesoro-musica"
+        },
+        {
+          "label": "Tesoro de Espacio",
+          "href": "busqueda-del-tesoro-espacio"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-hospital",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "hospital",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Hospital: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Hospital (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Hospital: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Hospital",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encantan los mapas del tesoro porque parecen una aventura de verdad: ¿hacia dónde hay que ir ahora? En esta hoja de Hospital, el pequeño sigue las direcciones que le marca cada paso y se desplaza por el mapa de cuadritos hasta el tesoro. Arriba, abajo, a un lado o al otro, va moviéndose entre las imágenes de Hospital, siempre atento a la siguiente indicación. Así ejercita, sin darse cuenta, la orientación en el espacio y la concentración, dos destrezas precursoras importantes. No hay competencia ni nadie que apure: solo el niño, el mapa y un caminito de direcciones que lo lleva, paso a paso, hasta el tesoro escondido.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Hospital. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Hospital, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-d411",
+      "carousel": [
+        {
+          "label": "Tesoro de Insectos y bichos",
+          "href": "busqueda-del-tesoro-insectos-y-bichos"
+        },
+        {
+          "label": "Tesoro de Utensilios de cocina",
+          "href": "busqueda-del-tesoro-utensilios-de-cocina"
+        },
+        {
+          "label": "Tesoro de Ocupaciones",
+          "href": "busqueda-del-tesoro-ocupaciones"
+        },
+        {
+          "label": "Tesoro de Primavera",
+          "href": "busqueda-del-tesoro-primavera"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-insectos-y-bichos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "insects_and_bugs",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Insectos y bichos: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Insectos y bichos (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Insectos y bichos: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Insectos y bichos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Insectos y bichos, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Insectos y bichos hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "En esta variante se combinan flechas y giros, así que el niño elige con cuidado hacia qué lado moverse en cada paso. Sigue las direcciones por el mapa de Insectos y bichos, pensando con calma dónde queda arriba, abajo, izquierda y derecha. Eso fortalece al mismo tiempo el orientarse y la paciencia. Sin puntos ni reloj, solo el pequeño y la callada alegría de llegar al tesoro.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Insectos y bichos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f7eb",
+      "carousel": [
+        {
+          "label": "Tesoro de Utensilios de cocina",
+          "href": "busqueda-del-tesoro-utensilios-de-cocina"
+        },
+        {
+          "label": "Tesoro de Misceláneo",
+          "href": "busqueda-del-tesoro-miscelaneo"
+        },
+        {
+          "label": "Tesoro de Vida marina",
+          "href": "busqueda-del-tesoro-vida-marina"
+        },
+        {
+          "label": "Tesoro de Verano",
+          "href": "busqueda-del-tesoro-verano"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-utensilios-de-cocina",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "kitchen_tools",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Utensilios de cocina: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Utensilios de cocina (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Utensilios de cocina: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Utensilios de cocina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Utensilios de cocina, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Utensilios de cocina con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Utensilios de cocina en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Utensilios de cocina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ab2c",
+      "carousel": [
+        {
+          "label": "Tesoro de Misceláneo",
+          "href": "busqueda-del-tesoro-miscelaneo"
+        },
+        {
+          "label": "Tesoro de Música",
+          "href": "busqueda-del-tesoro-musica"
+        },
+        {
+          "label": "Tesoro de Mascotas",
+          "href": "busqueda-del-tesoro-mascotas"
+        },
+        {
+          "label": "Tesoro de Día de Acción de Gracias",
+          "href": "busqueda-del-tesoro-dia-de-accion-de-gracias"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-miscelaneo",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "miscellaneous",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Misceláneo: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Misceláneo (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Misceláneo: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Misceláneo",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Misceláneo. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Misceláneo. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Misceláneo. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Misceláneo, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-5160",
+      "carousel": [
+        {
+          "label": "Tesoro de Música",
+          "href": "busqueda-del-tesoro-musica"
+        },
+        {
+          "label": "Tesoro de Ocupaciones",
+          "href": "busqueda-del-tesoro-ocupaciones"
+        },
+        {
+          "label": "Tesoro de Oficina de correos",
+          "href": "busqueda-del-tesoro-oficina-de-correos"
+        },
+        {
+          "label": "Tesoro de Cosas que vuelan",
+          "href": "busqueda-del-tesoro-cosas-que-vuelan"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-musica",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "music",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Música: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Música (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Música: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Música",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Música, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Música. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Música, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Música, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f120",
+      "carousel": [
+        {
+          "label": "Tesoro de Ocupaciones",
+          "href": "busqueda-del-tesoro-ocupaciones"
+        },
+        {
+          "label": "Tesoro de Vida marina",
+          "href": "busqueda-del-tesoro-vida-marina"
+        },
+        {
+          "label": "Tesoro de Formas",
+          "href": "busqueda-del-tesoro-formas"
+        },
+        {
+          "label": "Tesoro de Herramientas",
+          "href": "busqueda-del-tesoro-herramientas"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-ocupaciones",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "occupations",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Ocupaciones: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Ocupaciones (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Ocupaciones: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Ocupaciones",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con Ocupaciones para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de Ocupaciones hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Ocupaciones en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Ocupaciones, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-9336",
+      "carousel": [
+        {
+          "label": "Tesoro de Vida marina",
+          "href": "busqueda-del-tesoro-vida-marina"
+        },
+        {
+          "label": "Tesoro de Mascotas",
+          "href": "busqueda-del-tesoro-mascotas"
+        },
+        {
+          "label": "Tesoro de Espacio",
+          "href": "busqueda-del-tesoro-espacio"
+        },
+        {
+          "label": "Tesoro de Juguetes",
+          "href": "busqueda-del-tesoro-juguetes"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-vida-marina",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "ocean_life",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Vida marina: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Vida marina (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Vida marina: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Vida marina",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Vida marina para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Vida marina hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Vida marina. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Vida marina, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0ea0",
+      "carousel": [
+        {
+          "label": "Tesoro de Mascotas",
+          "href": "busqueda-del-tesoro-mascotas"
+        },
+        {
+          "label": "Tesoro de Oficina de correos",
+          "href": "busqueda-del-tesoro-oficina-de-correos"
+        },
+        {
+          "label": "Tesoro de Primavera",
+          "href": "busqueda-del-tesoro-primavera"
+        },
+        {
+          "label": "Tesoro de Árboles",
+          "href": "busqueda-del-tesoro-arboles"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-mascotas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "pets",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Mascotas: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Mascotas (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Mascotas: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Mascotas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir direcciones hasta el tesoro es un ejercicio precioso para manitas y mentes pequeñas. En esta hoja de Mascotas, el niño parte de un punto del mapa y obedece, paso a paso, las indicaciones que se le dan: a la derecha, hacia arriba, a la izquierda. Así se desplaza entre las imágenes de Mascotas hasta dar con el tesoro escondido. Con cada paso, el pequeño desarrolla el sentido de la orientación y la constancia, sin contar ni calcular nada. Si toma un rumbo equivocado, no pasa nada: regresa y prueba de nuevo, y cada intento merece un aplauso. Llegar al tesoro no tiene ninguna prisa: lo que cuenta es el camino bien seguido.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Mascotas, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Mascotas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-56b6",
+      "carousel": [
+        {
+          "label": "Tesoro de Oficina de correos",
+          "href": "busqueda-del-tesoro-oficina-de-correos"
+        },
+        {
+          "label": "Tesoro de Formas",
+          "href": "busqueda-del-tesoro-formas"
+        },
+        {
+          "label": "Tesoro de Verano",
+          "href": "busqueda-del-tesoro-verano"
+        },
+        {
+          "label": "Tesoro de Verduras",
+          "href": "busqueda-del-tesoro-verduras"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-oficina-de-correos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "post_office",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Oficina de correos: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Oficina de correos (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Oficina de correos: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Oficina de correos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encantan los mapas del tesoro porque parecen una aventura de verdad: ¿hacia dónde hay que ir ahora? En esta hoja de Oficina de correos, el pequeño sigue las direcciones que le marca cada paso y se desplaza por el mapa de cuadritos hasta el tesoro. Arriba, abajo, a un lado o al otro, va moviéndose entre las imágenes de Oficina de correos, siempre atento a la siguiente indicación. Así ejercita, sin darse cuenta, la orientación en el espacio y la concentración, dos destrezas precursoras importantes. No hay competencia ni nadie que apure: solo el niño, el mapa y un caminito de direcciones que lo lleva, paso a paso, hasta el tesoro escondido.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Oficina de correos en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Oficina de correos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-995d",
+      "carousel": [
+        {
+          "label": "Tesoro de Formas",
+          "href": "busqueda-del-tesoro-formas"
+        },
+        {
+          "label": "Tesoro de Espacio",
+          "href": "busqueda-del-tesoro-espacio"
+        },
+        {
+          "label": "Tesoro de Día de Acción de Gracias",
+          "href": "busqueda-del-tesoro-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Tesoro de Vehículos",
+          "href": "busqueda-del-tesoro-vehiculos"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-formas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "shapes",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Formas: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Formas (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Formas: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Formas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Formas, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Formas hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "Aquí el mapa es más pequeño y muy claro, ideal para el primer intento. El niño parte del inicio y sigue unas pocas direcciones hasta el tesoro, avanzando entre las imágenes de Formas. Como hay pocos pasos, el recorrido sale rápido y dan ganas de seguir con el siguiente. Orientarse en lugar de contar, cálido y sin ningún apuro, al ritmo del pequeño.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Formas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6e80",
+      "carousel": [
+        {
+          "label": "Tesoro de Espacio",
+          "href": "busqueda-del-tesoro-espacio"
+        },
+        {
+          "label": "Tesoro de Primavera",
+          "href": "busqueda-del-tesoro-primavera"
+        },
+        {
+          "label": "Tesoro de Cosas que vuelan",
+          "href": "busqueda-del-tesoro-cosas-que-vuelan"
+        },
+        {
+          "label": "Tesoro de Clima",
+          "href": "busqueda-del-tesoro-clima"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-espacio",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "space",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Espacio: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Espacio (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Espacio: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Espacio",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Espacio, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Espacio con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Espacio, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Espacio, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-29de",
+      "carousel": [
+        {
+          "label": "Tesoro de Primavera",
+          "href": "busqueda-del-tesoro-primavera"
+        },
+        {
+          "label": "Tesoro de Verano",
+          "href": "busqueda-del-tesoro-verano"
+        },
+        {
+          "label": "Tesoro de Herramientas",
+          "href": "busqueda-del-tesoro-herramientas"
+        },
+        {
+          "label": "Tesoro de Invierno",
+          "href": "busqueda-del-tesoro-invierno"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-primavera",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "spring",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Primavera: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Primavera (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Primavera: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Primavera",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Primavera. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Primavera. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Primavera en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Primavera, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-puntos-cardinales-accesorios-4d46",
+      "carousel": [
+        {
+          "label": "Tesoro de Verano",
+          "href": "busqueda-del-tesoro-verano"
+        },
+        {
+          "label": "Tesoro de Día de Acción de Gracias",
+          "href": "busqueda-del-tesoro-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Tesoro de Juguetes",
+          "href": "busqueda-del-tesoro-juguetes"
+        },
+        {
+          "label": "Tesoro de Animales del zoológico",
+          "href": "busqueda-del-tesoro-animales-del-zoologico"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-verano",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "summer",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Verano: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Verano (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Verano: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Verano",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Verano, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Verano. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de Verano hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Verano, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-6c6c",
+      "carousel": [
+        {
+          "label": "Tesoro de Día de Acción de Gracias",
+          "href": "busqueda-del-tesoro-dia-de-accion-de-gracias"
+        },
+        {
+          "label": "Tesoro de Cosas que vuelan",
+          "href": "busqueda-del-tesoro-cosas-que-vuelan"
+        },
+        {
+          "label": "Tesoro de Árboles",
+          "href": "busqueda-del-tesoro-arboles"
+        },
+        {
+          "label": "Tesoro de 4 de Julio",
+          "href": "busqueda-del-tesoro-4-de-julio"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-dia-de-accion-de-gracias",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "thanksgivinng",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Día de Acción de Gracias: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Día de Acción de Gracias (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Día de Acción de Gracias: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Día de Acción de Gracias",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con Día de Acción de Gracias para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de Día de Acción de Gracias hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Día de Acción de Gracias, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Día de Acción de Gracias, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615",
+      "carousel": [
+        {
+          "label": "Tesoro de Cosas que vuelan",
+          "href": "busqueda-del-tesoro-cosas-que-vuelan"
+        },
+        {
+          "label": "Tesoro de Herramientas",
+          "href": "busqueda-del-tesoro-herramientas"
+        },
+        {
+          "label": "Tesoro de Verduras",
+          "href": "busqueda-del-tesoro-verduras"
+        },
+        {
+          "label": "Tesoro de Accesorios",
+          "href": "busqueda-del-tesoro-accesorios"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-cosas-que-vuelan",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "things_that_fly",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Cosas que vuelan: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Cosas que vuelan (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Cosas que vuelan: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Cosas que vuelan",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Cosas que vuelan para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Cosas que vuelan hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Cosas que vuelan en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Cosas que vuelan, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-ee57",
+      "carousel": [
+        {
+          "label": "Tesoro de Herramientas",
+          "href": "busqueda-del-tesoro-herramientas"
+        },
+        {
+          "label": "Tesoro de Juguetes",
+          "href": "busqueda-del-tesoro-juguetes"
+        },
+        {
+          "label": "Tesoro de Vehículos",
+          "href": "busqueda-del-tesoro-vehiculos"
+        },
+        {
+          "label": "Tesoro de Actividades",
+          "href": "busqueda-del-tesoro-actividades"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-herramientas",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "tools",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Herramientas: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Herramientas (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Herramientas: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Herramientas",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir direcciones hasta el tesoro es un ejercicio precioso para manitas y mentes pequeñas. En esta hoja de Herramientas, el niño parte de un punto del mapa y obedece, paso a paso, las indicaciones que se le dan: a la derecha, hacia arriba, a la izquierda. Así se desplaza entre las imágenes de Herramientas hasta dar con el tesoro escondido. Con cada paso, el pequeño desarrolla el sentido de la orientación y la constancia, sin contar ni calcular nada. Si toma un rumbo equivocado, no pasa nada: regresa y prueba de nuevo, y cada intento merece un aplauso. Llegar al tesoro no tiene ninguna prisa: lo que cuenta es el camino bien seguido.",
+      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de Herramientas hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Herramientas, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2d82",
+      "carousel": [
+        {
+          "label": "Tesoro de Juguetes",
+          "href": "busqueda-del-tesoro-juguetes"
+        },
+        {
+          "label": "Tesoro de Árboles",
+          "href": "busqueda-del-tesoro-arboles"
+        },
+        {
+          "label": "Tesoro de Clima",
+          "href": "busqueda-del-tesoro-clima"
+        },
+        {
+          "label": "Tesoro de Alrededor de la casa",
+          "href": "busqueda-del-tesoro-alrededor-de-la-casa"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-juguetes",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "toys",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Juguetes: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Juguetes (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Juguetes: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Juguetes",
+        "Preescolar (5 años)"
+      ],
+      "p1": "A los niños les encantan los mapas del tesoro porque parecen una aventura de verdad: ¿hacia dónde hay que ir ahora? En esta hoja de Juguetes, el pequeño sigue las direcciones que le marca cada paso y se desplaza por el mapa de cuadritos hasta el tesoro. Arriba, abajo, a un lado o al otro, va moviéndose entre las imágenes de Juguetes, siempre atento a la siguiente indicación. Así ejercita, sin darse cuenta, la orientación en el espacio y la concentración, dos destrezas precursoras importantes. No hay competencia ni nadie que apure: solo el niño, el mapa y un caminito de direcciones que lo lleva, paso a paso, hasta el tesoro escondido.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Juguetes, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Juguetes, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0735",
+      "carousel": [
+        {
+          "label": "Tesoro de Árboles",
+          "href": "busqueda-del-tesoro-arboles"
+        },
+        {
+          "label": "Tesoro de Verduras",
+          "href": "busqueda-del-tesoro-verduras"
+        },
+        {
+          "label": "Tesoro de Invierno",
+          "href": "busqueda-del-tesoro-invierno"
+        },
+        {
+          "label": "Tesoro de En el supermercado",
+          "href": "busqueda-del-tesoro-en-el-supermercado"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-arboles",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "tree",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Árboles: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Árboles (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Árboles: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Árboles",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Árboles, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Árboles hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
+      "p2": "En esta variante el recorrido es un poco más largo, así que el niño sigue más direcciones, una tras otra, antes de llegar al tesoro. Con las imágenes de Árboles en el mapa, va moviéndose con cuidado, atento a cada indicación. Si toma un rumbo equivocado, regresa y vuelve a empezar; cada intento afina su sentido del espacio. Aquí orienta el ojo, no el número, a su propio ritmo.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Árboles, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-74d0",
+      "carousel": [
+        {
+          "label": "Tesoro de Verduras",
+          "href": "busqueda-del-tesoro-verduras"
+        },
+        {
+          "label": "Tesoro de Vehículos",
+          "href": "busqueda-del-tesoro-vehiculos"
+        },
+        {
+          "label": "Tesoro de Animales del zoológico",
+          "href": "busqueda-del-tesoro-animales-del-zoologico"
+        },
+        {
+          "label": "Tesoro de Playa",
+          "href": "busqueda-del-tesoro-playa"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-verduras",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "vegetables",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Verduras: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Verduras (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Verduras: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Verduras",
+        "Preescolar (5 años)"
+      ],
+      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Verduras, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Verduras con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
+      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de Verduras hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Verduras, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-2b5e",
+      "carousel": [
+        {
+          "label": "Tesoro de Vehículos",
+          "href": "busqueda-del-tesoro-vehiculos"
+        },
+        {
+          "label": "Tesoro de Clima",
+          "href": "busqueda-del-tesoro-clima"
+        },
+        {
+          "label": "Tesoro de 4 de Julio",
+          "href": "busqueda-del-tesoro-4-de-julio"
+        },
+        {
+          "label": "Tesoro de Aves",
+          "href": "busqueda-del-tesoro-aves"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-vehiculos",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "vehicles",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Vehículos: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Vehículos (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Vehículos: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Vehículos",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Un mapa, unas flechas y un tesoro por encontrar: así de sencillo empieza esta hoja de Vehículos. El niño lee cada dirección —arriba, abajo, izquierda o derecha— y mueve su dedo o un lápiz por las casillas, avanzando entre las imágenes de Vehículos. Paso a paso, sigue las indicaciones hasta dar con el tesoro. Lo bonito es que aquí no se trata de contar, sino de orientarse y de seguir instrucciones con atención. Si una dirección lo confunde, puede volver a empezar las veces que quiera. Es razonamiento espacial puro, suave y divertido, donde cada paso bien dado acerca un poco más al premio escondido.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Vehículos, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Vehículos, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-f08e",
+      "carousel": [
+        {
+          "label": "Tesoro de Clima",
+          "href": "busqueda-del-tesoro-clima"
+        },
+        {
+          "label": "Tesoro de Invierno",
+          "href": "busqueda-del-tesoro-invierno"
+        },
+        {
+          "label": "Tesoro de Accesorios",
+          "href": "busqueda-del-tesoro-accesorios"
+        },
+        {
+          "label": "Tesoro de Partes del cuerpo",
+          "href": "busqueda-del-tesoro-partes-del-cuerpo"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-clima",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "weather",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Clima: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Clima (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o jugar.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Mapa del Tesoro de Clima: Arriba, Abajo, Derecha, Izquierda",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Clima",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Cruzar el mapa hasta el tesoro suena a juego y, sin embargo, es aprender de verdad. En esta hoja de Clima, el niño se vuelve un pequeño explorador: lee cada dirección y mueve su ficha por las casillas, paso a paso, entre las imágenes de Clima. Arriba, abajo, derecha o izquierda, el pequeño sigue la pista con atención hasta encontrar el premio escondido. Este seguir instrucciones y orientarse en el espacio prepara para pensar y moverse con orden en la escuela, sin que el niño tenga que contar nada. Solo imprimir, sentarse y descubrir juntos hacia dónde lleva el camino del tesoro.",
+      "p2": "En esta versión, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. El niño los sigue uno a uno para cruzar el mapa de Clima hasta el tesoro. Aprender hacia dónde queda cada lado fortalece a la vez la orientación y el seguir instrucciones. No hay reloj ni puntos, solo la alegría tranquila de llegar al premio paso a paso.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Clima, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-dfa5",
+      "carousel": [
+        {
+          "label": "Tesoro de Invierno",
+          "href": "busqueda-del-tesoro-invierno"
+        },
+        {
+          "label": "Tesoro de Animales del zoológico",
+          "href": "busqueda-del-tesoro-animales-del-zoologico"
+        },
+        {
+          "label": "Tesoro de Actividades",
+          "href": "busqueda-del-tesoro-actividades"
+        },
+        {
+          "label": "Tesoro de Desayuno",
+          "href": "busqueda-del-tesoro-desayuno"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-invierno",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "winter",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Invierno: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Invierno (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Encuentra el Tesoro de Invierno: Paso a Paso",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Invierno",
+        "Preescolar (5 años)"
+      ],
+      "p1": "¿Hacia dónde lleva la siguiente flecha? Esa pregunta es el corazón de esta búsqueda del tesoro con Invierno para preescolar. El niño comienza en un punto del mapa y sigue las direcciones una a una, avanzando casilla por casilla entre las imágenes de Invierno hasta llegar al tesoro. Lo interesante es que cada paso le pide pensar dónde queda la derecha, la izquierda, el arriba y el abajo. El pequeño observa con calma, mueve el dedo con cuidado y comprueba si va por buen camino. Así trabaja la percepción del espacio, una habilidad que en la escuela ayuda a orientarse y a seguir instrucciones. Todo muy tranquilo, a su propio ritmo y sin que nada se cuente.",
+      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de Invierno hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Invierno, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-bbac",
+      "carousel": [
+        {
+          "label": "Tesoro de Animales del zoológico",
+          "href": "busqueda-del-tesoro-animales-del-zoologico"
+        },
+        {
+          "label": "Tesoro de 4 de Julio",
+          "href": "busqueda-del-tesoro-4-de-julio"
+        },
+        {
+          "label": "Tesoro de Alrededor de la casa",
+          "href": "busqueda-del-tesoro-alrededor-de-la-casa"
+        },
+        {
+          "label": "Tesoro de Campamento",
+          "href": "busqueda-del-tesoro-campamento"
+        }
+      ]
+    },
+    {
+      "slug": "busqueda-del-tesoro-animales-del-zoologico",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "treasure-hunt",
+        "mode": "cardinal-arrows",
+        "theme": "zoo_animals",
+        "level": "preescolar"
+      },
+      "title": "Busca el Tesoro con Animales del zoológico: Sigue las Direcciones",
+      "metaDescription": "Búsqueda del tesoro con Animales del zoológico (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para.",
+      "eyebrow": "Hoja de orientación espacial",
+      "h1": "Busca el Tesoro con Animales del zoológico: Sigue las Direcciones",
+      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
+      "slotTokens": [
+        "Animales del zoológico",
+        "Preescolar (5 años)"
+      ],
+      "p1": "Seguir el camino correcto se siente como una aventura, y eso es justamente esta búsqueda del tesoro con Animales del zoológico para preescolar. El niño parte de un punto del mapa y sigue, una por una, las direcciones que se le indican: un paso arriba, otro a la derecha, otro abajo. Así se desplaza entre las imágenes de Animales del zoológico hasta encontrar el tesoro escondido. Con cada flecha, el pequeño practica la orientación en el espacio y aprende a distinguir la derecha de la izquierda, dos bases muy valiosas antes de la escuela. Aquí no se cuenta nada ni hay puntos: solo el gusto de seguir la pista paso a paso y descubrir a dónde lleva.",
+      "p2": "Aquí lo bonito es hacerlo juntos: siéntense a la mesa y miren el mapa con calma. ¿Hacia dónde dice la primera flecha? El niño mueve el dedo paso a paso, pasando entre las imágenes de Animales del zoológico, hasta el tesoro escondido. Conversar mientras siguen las direcciones hace más grato el momento. Al final, el camino encontrado se puede repasar con un lápiz de color.",
+      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Animales del zoológico, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
+      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-e61b",
+      "carousel": [
+        {
+          "label": "Tesoro de 4 de Julio",
+          "href": "busqueda-del-tesoro-4-de-julio"
+        },
+        {
+          "label": "Tesoro de Accesorios",
+          "href": "busqueda-del-tesoro-accesorios"
+        },
+        {
+          "label": "Tesoro de En el supermercado",
+          "href": "busqueda-del-tesoro-en-el-supermercado"
+        },
+        {
+          "label": "Tesoro de Navidad",
+          "href": "busqueda-del-tesoro-navidad"
+        }
+      ]
+    },
+    {
       "slug": "sopa-de-letras-4-de-julio-6b8d",
       "variantShape": "singleton",
       "coordinate": {
@@ -3948,88 +5834,6 @@
         }
       ],
       "standard": "L.K.2.d"
-    },
-    {
-      "slug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615",
-      "variantShape": "singleton",
-      "coordinate": {
-        "type": "treasure-hunt",
-        "mode": "cardinal-arrows",
-        "theme": "accessories",
-        "level": "preescolar"
-      },
-      "title": "Busca el Tesoro con Accesorios: Sigue las Direcciones",
-      "metaDescription": "Búsqueda del tesoro con Accesorios (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
-      "eyebrow": "Hoja de orientación espacial",
-      "h1": "Busca el Tesoro con Accesorios: Sigue las Direcciones",
-      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
-      "slotTokens": [
-        "Accesorios",
-        "Preescolar (5 años)"
-      ],
-      "p1": "¿Dónde está escondido el tesoro? En esta hoja de Accesorios, el niño lo descubre siguiendo direcciones por un mapa de cuadritos. Cada paso le indica hacia dónde moverse —arriba, abajo, a la derecha o a la izquierda—, y el pequeño avanza casilla por casilla entre las imágenes de Accesorios hasta llegar al tesoro. No hay que contar nada: lo que importa es orientarse y seguir las indicaciones con cuidado. Si se equivoca de dirección, regresa y vuelve a intentar; cada paso afina su sentido del espacio. Sin reloj y sin prisa, el pequeño avanza a su propio ritmo, contento de seguir la pista hasta el final.",
-      "p2": "En esta variante, las direcciones vienen como flechas: arriba, abajo, a la derecha y a la izquierda. El niño las sigue paso a paso por el mapa de Accesorios hasta llegar al tesoro. Deja que se tome su tiempo y mueva el dedo con calma; si se equivoca de rumbo, regresa y vuelve a empezar. Sin contar y sin prisa, solo seguir las pistas y descubrir el premio escondido.",
-      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Accesorios, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
-      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615",
-      "carousel": [
-        {
-          "label": "Tesoro de Animales",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-animales"
-        },
-        {
-          "label": "Tesoro de Accesorios",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
-        },
-        {
-          "label": "Tesoro de Animales",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-animales"
-        },
-        {
-          "label": "Tesoro de Animales",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-animales"
-        }
-      ]
-    },
-    {
-      "slug": "busqueda-del-tesoro-arriba-abajo-izq-der-animales",
-      "variantShape": "singleton",
-      "coordinate": {
-        "type": "treasure-hunt",
-        "mode": "cardinal-arrows",
-        "theme": "animals",
-        "level": "preescolar"
-      },
-      "title": "Busca el Tesoro con Animales: Sigue las Direcciones",
-      "metaDescription": "Búsqueda del tesoro con Animales (preescolar): sigue las flechas o los puntos cardinales paso a paso hasta el tesoro. Orientación sin contar, gratis para imprimir o.",
-      "eyebrow": "Hoja de orientación espacial",
-      "h1": "Mapa del Tesoro de Animales: Arriba, Abajo, Derecha, Izquierda",
-      "strand": "Saberes y Pensamiento Científico — El dominio del espacio mediante desplazamientos y recorridos",
-      "slotTokens": [
-        "Animales",
-        "Preescolar (5 años)"
-      ],
-      "p1": "En algunos mapas, las direcciones vienen como puntos cardinales: norte, sur, este y oeste. En esta hoja de Animales, el niño sigue esas indicaciones paso a paso para cruzar el mapa de cuadritos hasta el tesoro. Cada paso le dice hacia qué lado moverse, y el pequeño avanza entre las imágenes de Animales con cuidado y atención. Conocer los puntos cardinales y seguir un recorrido es una preparación preciosa para orientarse más adelante. Aquí no se cuenta nada: solo se observa, se decide y se sigue la pista. Sin cronómetro ni comparaciones, el niño disfruta de moverse por el mapa hasta encontrar el premio escondido.",
-      "p2": "Esta versión mezcla varios giros, así que el niño piensa con calma hacia dónde queda la derecha y la izquierda antes de cada paso. Sigue las direcciones por el mapa de Animales, casilla por casilla, hasta el tesoro. Eso le da la grata sensación de haber encontrado el camino él solito. Sin presión de bien o mal, solo seguir las pistas con tranquilidad.",
-      "p3": "Si a tu pequeño le gusta esta búsqueda del tesoro con Animales, hay mucho más para descubrir, sin presión y sin contar. Puedes imprimir la hoja en PDF para trabajar en papel o jugar la versión interactiva en línea, siempre gratis y sin registrarse. No hay cronómetros ni puntajes: el ritmo lo marca cada niño, con calidez y sin vergüenza por equivocarse. Esta actividad se enmarca en la Nueva Escuela Mexicana (SEP), dentro del campo formativo Saberes y Pensamiento Científico, en el dominio del espacio mediante desplazamientos y recorridos, ideal para niñas y niños de Preescolar (5 años).",
-      "canonicalDeckSlug": "busqueda-del-tesoro-arriba-abajo-izq-der-animales",
-      "carousel": [
-        {
-          "label": "Tesoro de Accesorios",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
-        },
-        {
-          "label": "Tesoro de Animales",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-animales"
-        },
-        {
-          "label": "Tesoro de Accesorios",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
-        },
-        {
-          "label": "Tesoro de Accesorios",
-          "href": "busqueda-del-tesoro-arriba-abajo-izq-der-accesorios-0615"
-        }
-      ]
     },
     {
       "slug": "ficha-matematica-3-simbolos-suma-resta-4-de-julio-237f",

@@ -105,7 +105,7 @@ const entries = list.map((f, i) => {
     p1: cfg.SKEL[c.skel].replace(/\{TEMA\}/g, T),
     p2: cfg.P2[c.p2].replace(/\{TEMA\}/g, T),
     p3: cfg.P3(T),
-    canonicalDeckSlug: f.slug,
+    canonicalDeckSlug: f.canonicalDeckSlug || f.slug,
     carousel: [1, 2, 5, 11].map((off) => { const n = list[(i + off) % list.length]; return { label: cfg.carousel(themeDisplay(n.theme)), href: n.slug }; }),
   };
   if (cfg.standard) entry.standard = cfg.standard;

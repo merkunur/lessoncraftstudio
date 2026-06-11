@@ -1,0 +1,2170 @@
+{
+  "locale": "sv",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 48,
+    "mixed": 47,
+    "subtraction": 47
+  },
+  "totalValid": 121,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepussel-addition-tillbehor-fe9d",
+      "siblings": [
+        "mattepussel-addition-tillbehor-fe9d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mattepussel-addition-djur-d2c8",
+      "siblings": [
+        "mattepussel-addition-djur-d2c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepussel-addition-runt-huset-aed2",
+      "siblings": [
+        "mattepussel-addition-runt-huset-aed2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepussel-addition-i-snabbkopet-38e7",
+      "siblings": [
+        "mattepussel-addition-i-snabbkopet-38e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepussel-addition-bageri-c428",
+      "siblings": [
+        "mattepussel-addition-bageri-c428"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepussel-addition-strand-3e5f",
+      "siblings": [
+        "mattepussel-addition-strand-3e5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepussel-addition-faglar-72c1",
+      "siblings": [
+        "mattepussel-addition-faglar-72c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepussel-addition-faglar-2-8c02",
+      "siblings": [
+        "mattepussel-addition-faglar-2-8c02"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepussel-addition-frukost-f1f5",
+      "siblings": [
+        "mattepussel-addition-frukost-f1f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepussel-addition-camping-a0ee",
+      "siblings": [
+        "mattepussel-addition-camping-a0ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepussel-addition-jul-ab75",
+      "siblings": [
+        "mattepussel-addition-jul-ab75"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepussel-addition-klassrum-f7f2",
+      "siblings": [
+        "mattepussel-addition-klassrum-f7f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mattepussel-addition-klader-1584",
+      "siblings": [
+        "mattepussel-addition-klader-1584"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepussel-addition-efterratter-och-godis-5ab2",
+      "siblings": [
+        "mattepussel-addition-efterratter-och-godis-5ab2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepussel-addition-dinosaurier-3eb8",
+      "siblings": [
+        "mattepussel-addition-dinosaurier-3eb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepussel-addition-pask-0a65",
+      "siblings": [
+        "mattepussel-addition-pask-0a65"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepussel-addition-bondgardsdjur-e1f0",
+      "siblings": [
+        "mattepussel-addition-bondgardsdjur-e1f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepussel-addition-blommor-27e7",
+      "siblings": [
+        "mattepussel-addition-blommor-27e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepussel-addition-skogsdjur-a154",
+      "siblings": [
+        "mattepussel-addition-skogsdjur-a154"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepussel-addition-frukter-0e64",
+      "siblings": [
+        "mattepussel-addition-frukter-0e64"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepussel-addition-mobler-43c1",
+      "siblings": [
+        "mattepussel-addition-mobler-43c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepussel-addition-sjukhus-ba1f",
+      "siblings": [
+        "mattepussel-addition-sjukhus-ba1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepussel-addition-insekter-och-kryp-f6c8",
+      "siblings": [
+        "mattepussel-addition-insekter-och-kryp-f6c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepussel-addition-koksredskap-d55f",
+      "siblings": [
+        "mattepussel-addition-koksredskap-d55f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "mattepussel-addition-blandat-3ef6",
+      "siblings": [
+        "mattepussel-addition-blandat-3ef6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepussel-addition-musik-f6dd",
+      "siblings": [
+        "mattepussel-addition-musik-f6dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepussel-addition-yrken-f0f0",
+      "siblings": [
+        "mattepussel-addition-yrken-f0f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepussel-addition-havsliv-a7ee",
+      "siblings": [
+        "mattepussel-addition-havsliv-a7ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepussel-addition-husdjur-4659",
+      "siblings": [
+        "mattepussel-addition-husdjur-4659"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepussel-addition-postkontor-d394",
+      "siblings": [
+        "mattepussel-addition-postkontor-d394"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepussel-addition-reptiler-och-groddjur-fb56",
+      "siblings": [
+        "mattepussel-addition-reptiler-och-groddjur-fb56"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepussel-addition-former-9c2d",
+      "siblings": [
+        "mattepussel-addition-former-9c2d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepussel-addition-rymden-45b8",
+      "siblings": [
+        "mattepussel-addition-rymden-45b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepussel-addition-thanksgiving-3eeb",
+      "siblings": [
+        "mattepussel-addition-thanksgiving-3eeb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepussel-addition-saker-som-flyger-91ab",
+      "siblings": [
+        "mattepussel-addition-saker-som-flyger-91ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepussel-addition-verktyg-e928",
+      "siblings": [
+        "mattepussel-addition-verktyg-e928"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepussel-addition-leksaker-25e0",
+      "siblings": [
+        "mattepussel-addition-leksaker-25e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepussel-addition-trad-f443",
+      "siblings": [
+        "mattepussel-addition-trad-f443"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepussel-addition-gronsaker-773b",
+      "siblings": [
+        "mattepussel-addition-gronsaker-773b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepussel-addition-fordon-b536",
+      "siblings": [
+        "mattepussel-addition-fordon-b536"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepussel-addition-djurparksdjur-cd9e",
+      "siblings": [
+        "mattepussel-addition-djurparksdjur-cd9e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "K.OA.A.2"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepussel-blandat-tillbehor-9fa9",
+      "siblings": [
+        "mattepussel-blandat-tillbehor-9fa9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "mattepussel-blandat-djur",
+      "siblings": [
+        "mattepussel-blandat-djur",
+        "mattepussel-blandat-djur-2438"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepussel-blandat-runt-huset-8fe7",
+      "siblings": [
+        "mattepussel-blandat-runt-huset-8fe7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepussel-blandat-i-snabbkopet-f67b",
+      "siblings": [
+        "mattepussel-blandat-i-snabbkopet-f67b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepussel-blandat-bageri-0ff1",
+      "siblings": [
+        "mattepussel-blandat-bageri-0ff1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepussel-blandat-strand-5701",
+      "siblings": [
+        "mattepussel-blandat-strand-5701"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepussel-blandat-faglar-fb9e",
+      "siblings": [
+        "mattepussel-blandat-faglar-fb9e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepussel-blandat-faglar-2-2bc0",
+      "siblings": [
+        "mattepussel-blandat-faglar-2-2bc0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepussel-blandat-frukost-796e",
+      "siblings": [
+        "mattepussel-blandat-frukost-796e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepussel-blandat-camping-cb89",
+      "siblings": [
+        "mattepussel-blandat-camping-cb89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepussel-blandat-jul-e98f",
+      "siblings": [
+        "mattepussel-blandat-jul-e98f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepussel-blandat-klassrum-2968",
+      "siblings": [
+        "mattepussel-blandat-klassrum-2968"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mattepussel-blandat-klader-030f",
+      "siblings": [
+        "mattepussel-blandat-klader-030f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepussel-blandat-efterratter-och-godis-1425",
+      "siblings": [
+        "mattepussel-blandat-efterratter-och-godis-1425"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepussel-blandat-dinosaurier-5ebe",
+      "siblings": [
+        "mattepussel-blandat-dinosaurier-5ebe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepussel-blandat-pask-8bf7",
+      "siblings": [
+        "mattepussel-blandat-pask-8bf7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepussel-blandat-bondgardsdjur-1bdb",
+      "siblings": [
+        "mattepussel-blandat-bondgardsdjur-1bdb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepussel-blandat-blommor-1bd3",
+      "siblings": [
+        "mattepussel-blandat-blommor-1bd3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepussel-blandat-skogsdjur-6d11",
+      "siblings": [
+        "mattepussel-blandat-skogsdjur-6d11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepussel-blandat-frukter-fe87",
+      "siblings": [
+        "mattepussel-blandat-frukter-fe87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepussel-blandat-mobler-6c5e",
+      "siblings": [
+        "mattepussel-blandat-mobler-6c5e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepussel-blandat-sjukhus-c0d8",
+      "siblings": [
+        "mattepussel-blandat-sjukhus-c0d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepussel-blandat-insekter-och-kryp-d368",
+      "siblings": [
+        "mattepussel-blandat-insekter-och-kryp-d368"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepussel-blandat-koksredskap-3111",
+      "siblings": [
+        "mattepussel-blandat-koksredskap-3111"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepussel-blandat-musik-0cc9",
+      "siblings": [
+        "mattepussel-blandat-musik-0cc9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepussel-blandat-yrken-164d",
+      "siblings": [
+        "mattepussel-blandat-yrken-164d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepussel-blandat-havsliv-8e60",
+      "siblings": [
+        "mattepussel-blandat-havsliv-8e60"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepussel-blandat-husdjur-5da3",
+      "siblings": [
+        "mattepussel-blandat-husdjur-5da3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepussel-blandat-postkontor-ce99",
+      "siblings": [
+        "mattepussel-blandat-postkontor-ce99"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepussel-blandat-reptiler-och-groddjur-095f",
+      "siblings": [
+        "mattepussel-blandat-reptiler-och-groddjur-095f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepussel-blandat-former-e7ab",
+      "siblings": [
+        "mattepussel-blandat-former-e7ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepussel-blandat-rymden-c5c2",
+      "siblings": [
+        "mattepussel-blandat-rymden-c5c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepussel-blandat-thanksgiving-af13",
+      "siblings": [
+        "mattepussel-blandat-thanksgiving-af13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepussel-blandat-saker-som-flyger-b16b",
+      "siblings": [
+        "mattepussel-blandat-saker-som-flyger-b16b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepussel-blandat-verktyg-0c2c",
+      "siblings": [
+        "mattepussel-blandat-verktyg-0c2c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepussel-blandat-leksaker-2243",
+      "siblings": [
+        "mattepussel-blandat-leksaker-2243"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepussel-blandat-trad-622b",
+      "siblings": [
+        "mattepussel-blandat-trad-622b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepussel-blandat-gronsaker-4bc9",
+      "siblings": [
+        "mattepussel-blandat-gronsaker-4bc9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepussel-blandat-fordon-4fb3",
+      "siblings": [
+        "mattepussel-blandat-fordon-4fb3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepussel-blandat-djurparksdjur-8dc2",
+      "siblings": [
+        "mattepussel-blandat-djurparksdjur-8dc2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-tillbehor-0bf9",
+      "siblings": [
+        "mattepussel-subtraktion-tillbehor-0bf9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-djur-2e66",
+      "siblings": [
+        "mattepussel-subtraktion-djur-2e66"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-runt-huset-9be5",
+      "siblings": [
+        "mattepussel-subtraktion-runt-huset-9be5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-i-snabbkopet-d960",
+      "siblings": [
+        "mattepussel-subtraktion-i-snabbkopet-d960"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-bageri-1c36",
+      "siblings": [
+        "mattepussel-subtraktion-bageri-1c36"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-strand-933f",
+      "siblings": [
+        "mattepussel-subtraktion-strand-933f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-faglar-fe06",
+      "siblings": [
+        "mattepussel-subtraktion-faglar-fe06"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-faglar-2-61a1",
+      "siblings": [
+        "mattepussel-subtraktion-faglar-2-61a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-frukost-5e89",
+      "siblings": [
+        "mattepussel-subtraktion-frukost-5e89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-camping-7946",
+      "siblings": [
+        "mattepussel-subtraktion-camping-7946"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-jul-8696",
+      "siblings": [
+        "mattepussel-subtraktion-jul-8696"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-klassrum-edde",
+      "siblings": [
+        "mattepussel-subtraktion-klassrum-edde"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-klader-2110",
+      "siblings": [
+        "mattepussel-subtraktion-klader-2110"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-efterratter-och-godis-4b83",
+      "siblings": [
+        "mattepussel-subtraktion-efterratter-och-godis-4b83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-dinosaurier-0866",
+      "siblings": [
+        "mattepussel-subtraktion-dinosaurier-0866"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-pask-8899",
+      "siblings": [
+        "mattepussel-subtraktion-pask-8899"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-bondgardsdjur-3cf2",
+      "siblings": [
+        "mattepussel-subtraktion-bondgardsdjur-3cf2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-blommor-b2b1",
+      "siblings": [
+        "mattepussel-subtraktion-blommor-b2b1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-skogsdjur-cc18",
+      "siblings": [
+        "mattepussel-subtraktion-skogsdjur-cc18"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-frukter-653d",
+      "siblings": [
+        "mattepussel-subtraktion-frukter-653d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-mobler-b1cc",
+      "siblings": [
+        "mattepussel-subtraktion-mobler-b1cc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-sjukhus-d5a2",
+      "siblings": [
+        "mattepussel-subtraktion-sjukhus-d5a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-insekter-och-kryp-9a8e",
+      "siblings": [
+        "mattepussel-subtraktion-insekter-och-kryp-9a8e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-koksredskap-a8e0",
+      "siblings": [
+        "mattepussel-subtraktion-koksredskap-a8e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-musik-9335",
+      "siblings": [
+        "mattepussel-subtraktion-musik-9335"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-yrken-495b",
+      "siblings": [
+        "mattepussel-subtraktion-yrken-495b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-havsliv-aa13",
+      "siblings": [
+        "mattepussel-subtraktion-havsliv-aa13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-husdjur-b08b",
+      "siblings": [
+        "mattepussel-subtraktion-husdjur-b08b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-postkontor-d134",
+      "siblings": [
+        "mattepussel-subtraktion-postkontor-d134"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-reptiler-och-groddjur-d29f",
+      "siblings": [
+        "mattepussel-subtraktion-reptiler-och-groddjur-d29f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-former-6cfd",
+      "siblings": [
+        "mattepussel-subtraktion-former-6cfd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-rymden-d0cf",
+      "siblings": [
+        "mattepussel-subtraktion-rymden-d0cf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-thanksgiving-6233",
+      "siblings": [
+        "mattepussel-subtraktion-thanksgiving-6233"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-1",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-saker-som-flyger-1a56",
+      "siblings": [
+        "mattepussel-subtraktion-saker-som-flyger-1a56"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-verktyg-8cdf",
+      "siblings": [
+        "mattepussel-subtraktion-verktyg-8cdf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-leksaker-57f1",
+      "siblings": [
+        "mattepussel-subtraktion-leksaker-57f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-trad-f8e0",
+      "siblings": [
+        "mattepussel-subtraktion-trad-f8e0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-gronsaker-2fc1",
+      "siblings": [
+        "mattepussel-subtraktion-gronsaker-2fc1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-fordon-dc38",
+      "siblings": [
+        "mattepussel-subtraktion-fordon-dc38"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepussel-subtraktion-djurparksdjur-a7d7",
+      "siblings": [
+        "mattepussel-subtraktion-djurparksdjur-a7d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ak-2",
+      "standard": "2.NBT.B.5"
+    }
+  ]
+}

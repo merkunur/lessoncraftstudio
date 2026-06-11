@@ -38,7 +38,7 @@ const GRADE_LABEL = { 'forskola': 'Förskola', 'ak-1': 'Åk 1', 'ak-2': 'Åk 2' 
 
 // standard → "0–N" band (HONEST-FIT; must match the deck's band)
 const RANGE_BY_STANDARD = {
-  'K.OA.A.1': '0–10', 'K.OA.A.2': '0–10', 'K.CC.B.5': '0–10', 'K.CC.C.6': '0–10',
+  'K.OA.A.1': '0–10', 'K.OA.A.2': '0–10', 'K.OA.A.4': '0–10', 'K.CC.B.5': '0–10', 'K.CC.C.6': '0–10',
   '1.OA.C.6': '0–20', '1.OA.D.8': '0–20', '1.OA.A.1': '0–20', '1.OA.D.7': '0–20', '1.NBT.C.4': '0–20',
   '2.OA.B.2': '0–20', '2.NBT.B.5': '0–100', '2.NBT.A.1': '0–100',
 };

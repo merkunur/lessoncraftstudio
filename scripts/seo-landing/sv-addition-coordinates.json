@@ -1,0 +1,2531 @@
+{
+  "locale": "sv",
+  "exerciseType": "addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 197,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-addend": 48,
+    "image-image": 48,
+    "image-number": 48,
+    "mixed": 47
+  },
+  "totalValid": 160,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-addend",
+    "image-image",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 2,
+  "invalidRetired": [
+    "find-addend/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "find-addend/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "find-addend/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "find-addend/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "find-addend/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "find-addend/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "find-addend/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "find-addend/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot addition spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot addition activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot addition body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot addition colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot addition emotions — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot addition summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot addition weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot addition winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "find-addend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addition-hitta-termen-tillbehor-846c",
+      "siblings": [
+        "addition-hitta-termen-tillbehor-846c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addition-hitta-termen-djur-105b",
+      "siblings": [
+        "addition-hitta-termen-djur-105b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addition-hitta-termen-runt-huset-80ca",
+      "siblings": [
+        "addition-hitta-termen-runt-huset-80ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addition-hitta-termen-i-snabbkopet-8662",
+      "siblings": [
+        "addition-hitta-termen-i-snabbkopet-8662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addition-hitta-termen-bageri-f3de",
+      "siblings": [
+        "addition-hitta-termen-bageri-f3de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addition-hitta-termen-strand-c792",
+      "siblings": [
+        "addition-hitta-termen-strand-c792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addition-hitta-termen-faglar-6367",
+      "siblings": [
+        "addition-hitta-termen-faglar-6367"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addition-hitta-termen-faglar-2-dee0",
+      "siblings": [
+        "addition-hitta-termen-faglar-2-dee0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addition-hitta-termen-frukost-38d3",
+      "siblings": [
+        "addition-hitta-termen-frukost-38d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addition-hitta-termen-camping-66d3",
+      "siblings": [
+        "addition-hitta-termen-camping-66d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addition-hitta-termen-jul-73f6",
+      "siblings": [
+        "addition-hitta-termen-jul-73f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addition-hitta-termen-klassrum-ddc5",
+      "siblings": [
+        "addition-hitta-termen-klassrum-ddc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addition-hitta-termen-klader-5096",
+      "siblings": [
+        "addition-hitta-termen-klader-5096"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addition-hitta-termen-efterratter-och-godis-81ae",
+      "siblings": [
+        "addition-hitta-termen-efterratter-och-godis-81ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addition-hitta-termen-dinosaurier-900b",
+      "siblings": [
+        "addition-hitta-termen-dinosaurier-900b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addition-hitta-termen-pask-5377",
+      "siblings": [
+        "addition-hitta-termen-pask-5377"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addition-hitta-termen-bondgardsdjur-0f3f",
+      "siblings": [
+        "addition-hitta-termen-bondgardsdjur-0f3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addition-hitta-termen-blommor-b338",
+      "siblings": [
+        "addition-hitta-termen-blommor-b338"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addition-hitta-termen-skogsdjur-e33f",
+      "siblings": [
+        "addition-hitta-termen-skogsdjur-e33f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addition-hitta-termen-frukter-82be",
+      "siblings": [
+        "addition-hitta-termen-frukter-82be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addition-hitta-termen-mobler-789d",
+      "siblings": [
+        "addition-hitta-termen-mobler-789d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addition-hitta-termen-sjukhus-68af",
+      "siblings": [
+        "addition-hitta-termen-sjukhus-68af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addition-hitta-termen-insekter-och-kryp-a36a",
+      "siblings": [
+        "addition-hitta-termen-insekter-och-kryp-a36a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addition-hitta-termen-koksredskap-14ba",
+      "siblings": [
+        "addition-hitta-termen-koksredskap-14ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addition-hitta-termen-musik-cbfd",
+      "siblings": [
+        "addition-hitta-termen-musik-cbfd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addition-hitta-termen-yrken-1439",
+      "siblings": [
+        "addition-hitta-termen-yrken-1439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addition-hitta-termen-havsliv-a5b2",
+      "siblings": [
+        "addition-hitta-termen-havsliv-a5b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addition-hitta-termen-husdjur-3b4a",
+      "siblings": [
+        "addition-hitta-termen-husdjur-3b4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addition-hitta-termen-postkontor-aba3",
+      "siblings": [
+        "addition-hitta-termen-postkontor-aba3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addition-hitta-termen-reptiler-och-groddjur-5437",
+      "siblings": [
+        "addition-hitta-termen-reptiler-och-groddjur-5437"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addition-hitta-termen-former-afe9",
+      "siblings": [
+        "addition-hitta-termen-former-afe9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addition-hitta-termen-rymden-676a",
+      "siblings": [
+        "addition-hitta-termen-rymden-676a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addition-hitta-termen-thanksgiving-df2f",
+      "siblings": [
+        "addition-hitta-termen-thanksgiving-df2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addition-hitta-termen-saker-som-flyger-94d6",
+      "siblings": [
+        "addition-hitta-termen-saker-som-flyger-94d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addition-hitta-termen-verktyg-702a",
+      "siblings": [
+        "addition-hitta-termen-verktyg-702a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addition-hitta-termen-leksaker-6d66",
+      "siblings": [
+        "addition-hitta-termen-leksaker-6d66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addition-hitta-termen-trad-14a3",
+      "siblings": [
+        "addition-hitta-termen-trad-14a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addition-hitta-termen-gronsaker-a71b",
+      "siblings": [
+        "addition-hitta-termen-gronsaker-a71b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addition-hitta-termen-fordon-6de6",
+      "siblings": [
+        "addition-hitta-termen-fordon-6de6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-addend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addition-hitta-termen-djurparksdjur-0974",
+      "siblings": [
+        "addition-hitta-termen-djurparksdjur-0974"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addition-bild-bild-tillbehor-9f47",
+      "siblings": [
+        "addition-bild-bild-tillbehor-9f47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "addition-bild-bild-djur",
+      "siblings": [
+        "addition-bild-bild-djur",
+        "addition-bild-bild-djur-9ba4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addition-bild-bild-runt-huset-1755",
+      "siblings": [
+        "addition-bild-bild-runt-huset-1755"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addition-bild-bild-i-snabbkopet-c339",
+      "siblings": [
+        "addition-bild-bild-i-snabbkopet-c339"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addition-bild-bild-bageri-e2d9",
+      "siblings": [
+        "addition-bild-bild-bageri-e2d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addition-bild-bild-strand-90f2",
+      "siblings": [
+        "addition-bild-bild-strand-90f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addition-bild-bild-faglar-db19",
+      "siblings": [
+        "addition-bild-bild-faglar-db19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "addition-bild-bild-faglar-2-fe12",
+      "siblings": [
+        "addition-bild-bild-faglar-2-fe12",
+        "addition-bild-bild-faglar-2-b154"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addition-bild-bild-frukost-f0c8",
+      "siblings": [
+        "addition-bild-bild-frukost-f0c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addition-bild-bild-camping-75a5",
+      "siblings": [
+        "addition-bild-bild-camping-75a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addition-bild-bild-jul-2c69",
+      "siblings": [
+        "addition-bild-bild-jul-2c69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addition-bild-bild-klassrum-766d",
+      "siblings": [
+        "addition-bild-bild-klassrum-766d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addition-bild-bild-klader-7e2d",
+      "siblings": [
+        "addition-bild-bild-klader-7e2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addition-bild-bild-efterratter-och-godis-4d05",
+      "siblings": [
+        "addition-bild-bild-efterratter-och-godis-4d05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addition-bild-bild-dinosaurier-aa85",
+      "siblings": [
+        "addition-bild-bild-dinosaurier-aa85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addition-bild-bild-pask-c04c",
+      "siblings": [
+        "addition-bild-bild-pask-c04c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addition-bild-bild-bondgardsdjur-52bc",
+      "siblings": [
+        "addition-bild-bild-bondgardsdjur-52bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addition-bild-bild-blommor-eb73",
+      "siblings": [
+        "addition-bild-bild-blommor-eb73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addition-bild-bild-skogsdjur-8ec4",
+      "siblings": [
+        "addition-bild-bild-skogsdjur-8ec4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addition-bild-bild-frukter-2df6",
+      "siblings": [
+        "addition-bild-bild-frukter-2df6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addition-bild-bild-mobler-89e7",
+      "siblings": [
+        "addition-bild-bild-mobler-89e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addition-bild-bild-sjukhus-cbbb",
+      "siblings": [
+        "addition-bild-bild-sjukhus-cbbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addition-bild-bild-insekter-och-kryp-21d1",
+      "siblings": [
+        "addition-bild-bild-insekter-och-kryp-21d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addition-bild-bild-koksredskap-f748",
+      "siblings": [
+        "addition-bild-bild-koksredskap-f748"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addition-bild-bild-musik-39b4",
+      "siblings": [
+        "addition-bild-bild-musik-39b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addition-bild-bild-yrken-fdcb",
+      "siblings": [
+        "addition-bild-bild-yrken-fdcb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addition-bild-bild-havsliv-167f",
+      "siblings": [
+        "addition-bild-bild-havsliv-167f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addition-bild-bild-husdjur-4e6c",
+      "siblings": [
+        "addition-bild-bild-husdjur-4e6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addition-bild-bild-postkontor-ed0c",
+      "siblings": [
+        "addition-bild-bild-postkontor-ed0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addition-bild-bild-reptiler-och-groddjur-5ad8",
+      "siblings": [
+        "addition-bild-bild-reptiler-och-groddjur-5ad8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addition-bild-bild-former-6eb5",
+      "siblings": [
+        "addition-bild-bild-former-6eb5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addition-bild-bild-rymden-052a",
+      "siblings": [
+        "addition-bild-bild-rymden-052a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addition-bild-bild-thanksgiving-f428",
+      "siblings": [
+        "addition-bild-bild-thanksgiving-f428"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addition-bild-bild-saker-som-flyger-66d6",
+      "siblings": [
+        "addition-bild-bild-saker-som-flyger-66d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addition-bild-bild-verktyg-f52f",
+      "siblings": [
+        "addition-bild-bild-verktyg-f52f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addition-bild-bild-leksaker-fc64",
+      "siblings": [
+        "addition-bild-bild-leksaker-fc64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addition-bild-bild-trad-e39b",
+      "siblings": [
+        "addition-bild-bild-trad-e39b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addition-bild-bild-gronsaker-d9e4",
+      "siblings": [
+        "addition-bild-bild-gronsaker-d9e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addition-bild-bild-fordon-ec0d",
+      "siblings": [
+        "addition-bild-bild-fordon-ec0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addition-bild-bild-djurparksdjur-0e24",
+      "siblings": [
+        "addition-bild-bild-djurparksdjur-0e24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addition-bild-nummer-tillbehor-35b0",
+      "siblings": [
+        "addition-bild-nummer-tillbehor-35b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addition-bild-nummer-djur-7cd1",
+      "siblings": [
+        "addition-bild-nummer-djur-7cd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addition-bild-nummer-runt-huset-55bb",
+      "siblings": [
+        "addition-bild-nummer-runt-huset-55bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addition-bild-nummer-i-snabbkopet-3340",
+      "siblings": [
+        "addition-bild-nummer-i-snabbkopet-3340"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addition-bild-nummer-bageri-7dfd",
+      "siblings": [
+        "addition-bild-nummer-bageri-7dfd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addition-bild-nummer-strand-ac63",
+      "siblings": [
+        "addition-bild-nummer-strand-ac63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addition-bild-nummer-faglar-14e3",
+      "siblings": [
+        "addition-bild-nummer-faglar-14e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addition-bild-nummer-faglar-2-5b59",
+      "siblings": [
+        "addition-bild-nummer-faglar-2-5b59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addition-bild-nummer-frukost-2081",
+      "siblings": [
+        "addition-bild-nummer-frukost-2081"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addition-bild-nummer-camping-8900",
+      "siblings": [
+        "addition-bild-nummer-camping-8900"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addition-bild-nummer-jul-9ff9",
+      "siblings": [
+        "addition-bild-nummer-jul-9ff9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addition-bild-nummer-klassrum-0720",
+      "siblings": [
+        "addition-bild-nummer-klassrum-0720"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addition-bild-nummer-klader-a1e2",
+      "siblings": [
+        "addition-bild-nummer-klader-a1e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addition-bild-nummer-efterratter-och-godis-3b1c",
+      "siblings": [
+        "addition-bild-nummer-efterratter-och-godis-3b1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addition-bild-nummer-dinosaurier-c237",
+      "siblings": [
+        "addition-bild-nummer-dinosaurier-c237"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addition-bild-nummer-pask-a32b",
+      "siblings": [
+        "addition-bild-nummer-pask-a32b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addition-bild-nummer-bondgardsdjur-bdb4",
+      "siblings": [
+        "addition-bild-nummer-bondgardsdjur-bdb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addition-bild-nummer-blommor-265c",
+      "siblings": [
+        "addition-bild-nummer-blommor-265c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addition-bild-nummer-skogsdjur-8345",
+      "siblings": [
+        "addition-bild-nummer-skogsdjur-8345"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addition-bild-nummer-frukter-58ce",
+      "siblings": [
+        "addition-bild-nummer-frukter-58ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addition-bild-nummer-mobler-4ed5",
+      "siblings": [
+        "addition-bild-nummer-mobler-4ed5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addition-bild-nummer-sjukhus-963a",
+      "siblings": [
+        "addition-bild-nummer-sjukhus-963a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addition-bild-nummer-insekter-och-kryp-0d44",
+      "siblings": [
+        "addition-bild-nummer-insekter-och-kryp-0d44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addition-bild-nummer-koksredskap-7eee",
+      "siblings": [
+        "addition-bild-nummer-koksredskap-7eee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addition-bild-nummer-musik-366a",
+      "siblings": [
+        "addition-bild-nummer-musik-366a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addition-bild-nummer-yrken-f15c",
+      "siblings": [
+        "addition-bild-nummer-yrken-f15c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addition-bild-nummer-havsliv-bdd5",
+      "siblings": [
+        "addition-bild-nummer-havsliv-bdd5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addition-bild-nummer-husdjur-f8b5",
+      "siblings": [
+        "addition-bild-nummer-husdjur-f8b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addition-bild-nummer-postkontor-19e0",
+      "siblings": [
+        "addition-bild-nummer-postkontor-19e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addition-bild-nummer-reptiler-och-groddjur-5fb7",
+      "siblings": [
+        "addition-bild-nummer-reptiler-och-groddjur-5fb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addition-bild-nummer-former-5b5f",
+      "siblings": [
+        "addition-bild-nummer-former-5b5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addition-bild-nummer-rymden-bbb7",
+      "siblings": [
+        "addition-bild-nummer-rymden-bbb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addition-bild-nummer-thanksgiving-006c",
+      "siblings": [
+        "addition-bild-nummer-thanksgiving-006c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addition-bild-nummer-saker-som-flyger-78d5",
+      "siblings": [
+        "addition-bild-nummer-saker-som-flyger-78d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addition-bild-nummer-verktyg-b505",
+      "siblings": [
+        "addition-bild-nummer-verktyg-b505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addition-bild-nummer-leksaker-6c14",
+      "siblings": [
+        "addition-bild-nummer-leksaker-6c14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addition-bild-nummer-trad-8313",
+      "siblings": [
+        "addition-bild-nummer-trad-8313"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addition-bild-nummer-gronsaker-2b46",
+      "siblings": [
+        "addition-bild-nummer-gronsaker-2b46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addition-bild-nummer-fordon-6cb1",
+      "siblings": [
+        "addition-bild-nummer-fordon-6cb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addition-bild-nummer-djurparksdjur-4dd4",
+      "siblings": [
+        "addition-bild-nummer-djurparksdjur-4dd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addition-blandat-tillbehor-3144",
+      "siblings": [
+        "addition-blandat-tillbehor-3144"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addition-blandat-djur-ce20",
+      "siblings": [
+        "addition-blandat-djur-ce20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addition-blandat-runt-huset-d348",
+      "siblings": [
+        "addition-blandat-runt-huset-d348"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addition-blandat-i-snabbkopet-1a8f",
+      "siblings": [
+        "addition-blandat-i-snabbkopet-1a8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addition-blandat-bageri-901c",
+      "siblings": [
+        "addition-blandat-bageri-901c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addition-blandat-strand-abe2",
+      "siblings": [
+        "addition-blandat-strand-abe2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addition-blandat-faglar-3abc",
+      "siblings": [
+        "addition-blandat-faglar-3abc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addition-blandat-faglar-2-f6e9",
+      "siblings": [
+        "addition-blandat-faglar-2-f6e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addition-blandat-frukost-92bb",
+      "siblings": [
+        "addition-blandat-frukost-92bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addition-blandat-camping-f4c8",
+      "siblings": [
+        "addition-blandat-camping-f4c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addition-blandat-jul-451f",
+      "siblings": [
+        "addition-blandat-jul-451f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addition-blandat-klassrum-eacf",
+      "siblings": [
+        "addition-blandat-klassrum-eacf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addition-blandat-klader-6c68",
+      "siblings": [
+        "addition-blandat-klader-6c68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addition-blandat-efterratter-och-godis-f48a",
+      "siblings": [
+        "addition-blandat-efterratter-och-godis-f48a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addition-blandat-dinosaurier-faf0",
+      "siblings": [
+        "addition-blandat-dinosaurier-faf0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addition-blandat-pask-0c39",
+      "siblings": [
+        "addition-blandat-pask-0c39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addition-blandat-bondgardsdjur-92f9",
+      "siblings": [
+        "addition-blandat-bondgardsdjur-92f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addition-blandat-blommor-a8db",
+      "siblings": [
+        "addition-blandat-blommor-a8db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addition-blandat-skogsdjur-d0a5",
+      "siblings": [
+        "addition-blandat-skogsdjur-d0a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addition-blandat-frukter-9779",
+      "siblings": [
+        "addition-blandat-frukter-9779"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addition-blandat-mobler-3327",
+      "siblings": [
+        "addition-blandat-mobler-3327"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addition-blandat-sjukhus-8ef1",
+      "siblings": [
+        "addition-blandat-sjukhus-8ef1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "addition-blandat-insekter-och-kryp-e13a",
+      "siblings": [
+        "addition-blandat-insekter-och-kryp-e13a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addition-blandat-koksredskap-7ea9",
+      "siblings": [
+        "addition-blandat-koksredskap-7ea9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addition-blandat-musik-8fc3",
+      "siblings": [
+        "addition-blandat-musik-8fc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addition-blandat-yrken-fd5b",
+      "siblings": [
+        "addition-blandat-yrken-fd5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addition-blandat-havsliv-a46e",
+      "siblings": [
+        "addition-blandat-havsliv-a46e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addition-blandat-husdjur-ab7f",
+      "siblings": [
+        "addition-blandat-husdjur-ab7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addition-blandat-postkontor-811b",
+      "siblings": [
+        "addition-blandat-postkontor-811b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "addition-blandat-reptiler-och-groddjur-8f47",
+      "siblings": [
+        "addition-blandat-reptiler-och-groddjur-8f47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addition-blandat-former-c711",
+      "siblings": [
+        "addition-blandat-former-c711"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addition-blandat-rymden-175b",
+      "siblings": [
+        "addition-blandat-rymden-175b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addition-blandat-thanksgiving-b66b",
+      "siblings": [
+        "addition-blandat-thanksgiving-b66b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addition-blandat-saker-som-flyger-7dd6",
+      "siblings": [
+        "addition-blandat-saker-som-flyger-7dd6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addition-blandat-verktyg-5337",
+      "siblings": [
+        "addition-blandat-verktyg-5337"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addition-blandat-leksaker-0706",
+      "siblings": [
+        "addition-blandat-leksaker-0706"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addition-blandat-trad-f1da",
+      "siblings": [
+        "addition-blandat-trad-f1da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addition-blandat-gronsaker-dda9",
+      "siblings": [
+        "addition-blandat-gronsaker-dda9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addition-blandat-fordon-2821",
+      "siblings": [
+        "addition-blandat-fordon-2821"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addition-blandat-djurparksdjur-98bf",
+      "siblings": [
+        "addition-blandat-djurparksdjur-98bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

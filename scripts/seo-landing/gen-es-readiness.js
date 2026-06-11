@@ -20,11 +20,12 @@ const argv = process.argv.slice(2);
 const DRY = argv.includes('--dry-run');
 const TYPE = (argv.find((a) => a.indexOf('--type=') === 0) || '').split('=')[1];
 const MODEARG = (argv.find((a) => a.indexOf('--mode=') === 0) || '--mode=null').split('=')[1];
+const LOC = (argv.find((a) => a.indexOf('--locale=') === 0) || '--locale=es').split('=')[1];
 if (!TYPE) { console.error('--type required'); process.exit(1); }
-const ES = 'frontend/content/seo-landing/es.json';
-const facts = JSON.parse(fs.readFileSync('scripts/seo-landing/_es-readiness.json', 'utf8'));
+const ES = 'frontend/content/seo-landing/' + LOC + '.json';
+const facts = JSON.parse(fs.readFileSync('scripts/seo-landing/_' + LOC + '-readiness.json', 'utf8'));
 const tax = JSON.parse(fs.readFileSync('frontend/config/topics-taxonomy.json', 'utf8'));
-const themeDisplay = (k) => { const e = tax.axes.theme[k]; return (e && e.name && e.name.es) ? e.name.es : k.replace(/_/g, ' '); };
+const themeDisplay = (k) => { const e = tax.axes.theme[k]; return (e && e.name && e.name[LOC]) ? e.name[LOC] : k.replace(/_/g, ' '); };
 
 function gcd(a, b) { while (b) { const t = a % b; a = b; b = t; } return a; }
 function coprimeStride(cells) { let k = Math.max(2, Math.round(cells * 0.618)); for (let d = 0; d < cells; d++) for (const c of [k + d, k - d]) if (c > 1 && c < cells && gcd(c, cells) === 1) return c; return 1; }
@@ -69,9 +70,9 @@ const CONFIG = {
 
 // embedded CONFIG (grid-match) OR external per-type file. Try mode-specific (es-readiness-
 // <type>-<mode>.js, e.g. big-small-findBig) first, then es-readiness-<type>.js.
-let cfg = CONFIG[TYPE];
-if (!cfg && MODEARG !== 'null') { try { cfg = require('./es-readiness-' + TYPE + '-' + MODEARG); } catch (e) { /* fall through */ } }
-if (!cfg) { try { cfg = require('./es-readiness-' + TYPE); } catch (e) { cfg = null; } }
+let cfg = (LOC === 'es') ? CONFIG[TYPE] : undefined;
+if (!cfg && MODEARG !== 'null') { try { cfg = require('./' + LOC + '-readiness-' + TYPE + '-' + MODEARG); } catch (e) { /* fall through */ } }
+if (!cfg) { try { cfg = require('./' + LOC + '-readiness-' + TYPE); } catch (e) { cfg = null; } }
 if (!cfg) { console.error('no CONFIG for type ' + TYPE + ' (mode ' + MODEARG + ')'); process.exit(1); }
 const key = TYPE + '|' + MODEARG;
 const rawFacts = facts[key];
@@ -86,18 +87,19 @@ console.log(`${key}: ${rawFacts.length} decks → ${list.length} themes | cells 
 const entries = list.map((f, i) => {
   const T = themeDisplay(f.theme);
   const c = cellAssign(i, S, P);
-  let meta = cfg.meta(T); if (meta.length > 170) meta = cfg.metaAlt(T);
-  if (meta.length > 170) meta = meta.slice(0, 168).replace(/\s+\S*$/, '') + '.'; // long-theme catch-all ≤170
-  // CARRIES (literacy): cfg.standard (CCSS machine anchor) + cfg.level (primer/segundo) + cfg.gradeLabel.
-  // Readiness default: no standard, preescolar. Render route emits educationalAlignment + framework chip iff `standard`.
+  // title/meta OPTIONAL: es stores "gold" title+meta; en/de omit them (cfg.title/cfg.meta absent)
+  // so the route generates title=h1 + meta=first-sentence-of-p1 (the EN convention).
+  let meta = cfg.meta ? cfg.meta(T) : null;
+  if (meta && meta.length > 170) meta = cfg.metaAlt ? cfg.metaAlt(T) : meta;
+  if (meta && meta.length > 170) meta = meta.slice(0, 168).replace(/\s+\S*$/, '') + '.'; // long-theme catch-all ≤170
+  // CARRIES (literacy/numeric): cfg.standard (CCSS machine anchor) + cfg.level + cfg.gradeLabel.
+  // Readiness default: no standard, preescolar (es). en/de configs always set level+gradeLabel.
   const level = cfg.level || 'preescolar';
   const gradeLabel = cfg.gradeLabel || 'Preescolar (5 años)';
   const entry = {
     slug: f.slug,
     variantShape: 'singleton',
     coordinate: { type: TYPE, mode: (MODEARG === 'null' ? null : MODEARG), theme: f.theme, level },
-    title: cfg.title(T),
-    metaDescription: meta,
     eyebrow: cfg.eyebrow,
     h1: cfg.h1(T, i),
     strand: cfg.strand,
@@ -108,6 +110,8 @@ const entries = list.map((f, i) => {
     canonicalDeckSlug: f.canonicalDeckSlug || f.slug,
     carousel: [1, 2, 5, 11].map((off) => { const n = list[(i + off) % list.length]; return { label: cfg.carousel(themeDisplay(n.theme)), href: n.slug }; }),
   };
+  if (cfg.title) entry.title = cfg.title(T);          // es gold title; en/de omit → route uses h1
+  if (meta) entry.metaDescription = meta;             // es banded meta; en/de omit → route derives from p1
   if (cfg.standard) entry.standard = cfg.standard;
   return entry;
 });

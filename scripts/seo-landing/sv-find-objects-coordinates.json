@@ -1,0 +1,1576 @@
+{
+  "locale": "sv",
+  "exerciseType": "find-objects",
+  "level": "forskola",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-odd": 47,
+    "i-spy": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-odd",
+    "i-spy"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-odd",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-tillbehor-6bca",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-tillbehor-6bca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-aktiviteter-b604",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-aktiviteter-b604"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-djur-9626",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-djur-9626"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-i-snabbkopet-aa71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-bageri-a4da",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-bageri-a4da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-strand-2f75",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-strand-2f75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-faglar-f304",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-faglar-f304"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-faglar-2-361b",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-faglar-2-361b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-kroppsdelar-2e5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-frukost-25f3",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-frukost-25f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-camping-3f36",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-camping-3f36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-jul-4732",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-jul-4732"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-klassrum-80cf",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-klassrum-80cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-klader-4738",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-klader-4738"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-farger-0531",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-farger-0531"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-efterratter-och-godis-4279"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-dinosaurier-2762",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-dinosaurier-2762"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-pask-fb64",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-pask-fb64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-kanslor-68ad",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-kanslor-68ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-bondgardsdjur-dc7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-blommor-c056",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-blommor-c056"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-skogsdjur-54f8",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-skogsdjur-54f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-frukter-e328",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-frukter-e328"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-mobler-1d54",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-mobler-1d54"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-sjukhus-fddc",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-sjukhus-fddc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-insekter-och-kryp-7537"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-koksredskap-e952",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-koksredskap-e952"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-musik-eb16",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-musik-eb16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-yrken-4b44",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-yrken-4b44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-havsliv-0068",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-havsliv-0068"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-husdjur-0b59",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-husdjur-0b59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-postkontor-da6c",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-postkontor-da6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-reptiler-och-groddjur-6b9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-former-b352",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-former-b352"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-rymden-4abe",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-rymden-4abe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-var-cd47",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-var-cd47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-sommar-0431",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-sommar-0431"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-thanksgiving-60d0",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-thanksgiving-60d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-saker-som-flyger-859e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-verktyg-5d39",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-verktyg-5d39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-leksaker-291d",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-leksaker-291d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-trad-5360",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-trad-5360"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-gronsaker-965e",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-gronsaker-965e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-fordon-2649",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-fordon-2649"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-vader-95a0",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-vader-95a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-vinter-76b9",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-vinter-76b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-hitta-den-udda-djurparksdjur-9532",
+      "siblings": [
+        "hitta-foremalen-hitta-den-udda-djurparksdjur-9532"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-tillbehor-16ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-aktiviteter-5587"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-djur-978e",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-djur-978e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-i-snabbkopet-8791"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-bageri-a984",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-bageri-a984"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-strand-c295",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-strand-c295"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-faglar-164f",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-faglar-164f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-faglar-2-409a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-kroppsdelar-7bf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-frukost-e06a",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-frukost-e06a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-camping-fe7e",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-camping-fe7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-jul-2667",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-jul-2667"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-klassrum-b1ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-klader-03e0",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-klader-03e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-farger-8320",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-farger-8320"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-efterratter-och-godis-30b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-dinosaurier-d660"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-pask-238e",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-pask-238e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-kanslor-e09d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-bondgardsdjur-70ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-blommor-38ea",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-blommor-38ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-skogsdjur-d2f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-frukter-dc96",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-frukter-dc96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-mobler-a0ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-sjukhus-2299"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-insekter-och-kryp-fd43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-koksredskap-4ea4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-musik-a649",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-musik-a649"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-yrken-c3c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-havsliv-194d",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-havsliv-194d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-husdjur-d3d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-postkontor-d47d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-reptiler-och-groddjur-0463"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-former-a4fd",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-former-a4fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-rymden-007e",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-rymden-007e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-var-a67c",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-var-a67c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-sommar-caef",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-sommar-caef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-thanksgiving-7334"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-saker-som-flyger-bbba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-verktyg-776b",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-verktyg-776b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-leksaker-6bf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-trad-d24d",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-trad-d24d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-gronsaker-3792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-fordon-9c5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-vader-e54d",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-vader-e54d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-vinter-f85f",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-vinter-f85f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6",
+      "siblings": [
+        "hitta-foremalen-jag-ser-jag-ser-djurparksdjur-f6b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    }
+  ]
+}

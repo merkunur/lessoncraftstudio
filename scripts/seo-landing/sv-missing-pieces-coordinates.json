@@ -1,0 +1,1561 @@
+{
+  "locale": "sv",
+  "exerciseType": "missing-pieces",
+  "level": "forskola",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "one-missing": 47,
+    "two-missing": 46
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "one-missing",
+    "two-missing"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-tillbehor-7fda",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-tillbehor-7fda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-aktiviteter-2e91",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-aktiviteter-2e91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "saknade-bitar-1-saknad-bit-djur",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-djur",
+        "saknade-bitar-1-saknad-bit-djur-ca5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-runt-huset-2e66",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-runt-huset-2e66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-i-snabbkopet-438c",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-i-snabbkopet-438c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-bageri-fdb8",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-bageri-fdb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-strand-f18f",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-strand-f18f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-faglar-fe23",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-faglar-fe23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-faglar-2-30ca",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-faglar-2-30ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-kroppsdelar-e5bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-frukost-45e8",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-frukost-45e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-camping-fb62",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-camping-fb62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-jul-7753",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-jul-7753"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-klassrum-cf26",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-klassrum-cf26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-klader-50c7",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-klader-50c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-efterratter-och-godis-bbcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-dinosaurier-cf07",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-dinosaurier-cf07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-pask-6b35",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-pask-6b35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-kanslor-800a",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-kanslor-800a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-bondgardsdjur-ba25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-blommor-dde6",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-blommor-dde6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-skogsdjur-d557",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-skogsdjur-d557"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-frukter-525d",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-frukter-525d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-mobler-2728",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-mobler-2728"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-sjukhus-6af1",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-sjukhus-6af1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-insekter-och-kryp-b72e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-koksredskap-45a2",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-koksredskap-45a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-blandat-6cfc",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-blandat-6cfc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-musik-1bcc",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-musik-1bcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-yrken-ef6b",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-yrken-ef6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-havsliv-d68d",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-havsliv-d68d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-husdjur-6420",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-husdjur-6420"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-postkontor-af64",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-postkontor-af64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-reptiler-och-groddjur-84eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-rymden-1772",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-rymden-1772"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-var-d828",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-var-d828"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-sommar-55b4",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-sommar-55b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-thanksgiving-237e",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-thanksgiving-237e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-saker-som-flyger-d0cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-verktyg-3aba",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-verktyg-3aba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-leksaker-1ec6",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-leksaker-1ec6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-trad-97b7",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-trad-97b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-gronsaker-9e37",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-gronsaker-9e37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-fordon-b18d",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-fordon-b18d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-vader-649e",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-vader-649e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-vinter-f2cd",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-vinter-f2cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "saknade-bitar-1-saknad-bit-djurparksdjur-07af",
+      "siblings": [
+        "saknade-bitar-1-saknad-bit-djurparksdjur-07af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-tillbehor-2c3f",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-tillbehor-2c3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-aktiviteter-8e3e",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-aktiviteter-8e3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-djur-6a43",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-djur-6a43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-runt-huset-50ff",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-runt-huset-50ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-i-snabbkopet-4b22",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-i-snabbkopet-4b22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-bageri-bb81",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-bageri-bb81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-strand-a0d2",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-strand-a0d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-faglar-a58d",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-faglar-a58d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-faglar-2-ff7c",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-faglar-2-ff7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-kroppsdelar-71a2",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-kroppsdelar-71a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-frukost-12ec",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-frukost-12ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-camping-6744",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-camping-6744"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-jul-994c",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-jul-994c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-klassrum-477e",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-klassrum-477e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-klader-046c",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-klader-046c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-efterratter-och-godis-554e",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-efterratter-och-godis-554e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-dinosaurier-66f1",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-dinosaurier-66f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-pask-0638",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-pask-0638"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-kanslor-3240",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-kanslor-3240"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-bondgardsdjur-e73f",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-bondgardsdjur-e73f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-blommor-0d36",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-blommor-0d36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-skogsdjur-def1",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-skogsdjur-def1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-frukter-65bd",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-frukter-65bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-mobler-18ce",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-mobler-18ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-sjukhus-e04f",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-sjukhus-e04f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-insekter-och-kryp-aca3",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-insekter-och-kryp-aca3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-koksredskap-b317",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-koksredskap-b317"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-musik-8126",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-musik-8126"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-yrken-722f",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-yrken-722f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-havsliv-0bbd",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-havsliv-0bbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-husdjur-6d58",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-husdjur-6d58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-postkontor-7421",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-postkontor-7421"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-reptiler-och-groddjur-3675",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-reptiler-och-groddjur-3675"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-rymden-d5e2",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-rymden-d5e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-var-4797",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-var-4797"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-sommar-26b6",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-sommar-26b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-thanksgiving-0c14",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-thanksgiving-0c14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-saker-som-flyger-71c1",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-saker-som-flyger-71c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-verktyg-445d",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-verktyg-445d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-leksaker-7fb8",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-leksaker-7fb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-trad-aeb1",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-trad-aeb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-gronsaker-ebe5",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-gronsaker-ebe5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-fordon-b0f5",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-fordon-b0f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-vader-6b2c",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-vader-6b2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-vinter-df49",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-vinter-df49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "saknade-bitar-2-saknade-bitar-djurparksdjur-50a4",
+      "siblings": [
+        "saknade-bitar-2-saknade-bitar-djurparksdjur-50a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    }
+  ]
+}

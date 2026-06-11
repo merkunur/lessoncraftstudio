@@ -1,0 +1,1529 @@
+{
+  "locale": "sv",
+  "exerciseType": "shadow-match",
+  "level": "forskola",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 44,
+    "make-whole": 47
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-tillbehor-416e",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-tillbehor-416e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-aktiviteter-9daf",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-aktiviteter-9daf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "matcha-skuggor-para-skuggan-djur",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-djur",
+        "matcha-skuggor-para-skuggan-djur-0e1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-runt-huset-a7c1",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-runt-huset-a7c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-i-snabbkopet-76dc",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-i-snabbkopet-76dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-bageri-3ad7",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-bageri-3ad7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-strand-ab32",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-strand-ab32"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-faglar-03b9",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-faglar-03b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-faglar-2-d113",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-faglar-2-d113"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-kroppsdelar-1078",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-kroppsdelar-1078"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-frukost-9d73",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-frukost-9d73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-camping-8215",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-camping-8215"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-jul-9ed7",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-jul-9ed7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-klassrum-3ca2",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-klassrum-3ca2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-klader-6cda",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-klader-6cda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-efterratter-och-godis-1370",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-efterratter-och-godis-1370"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-dinosaurier-b116",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-dinosaurier-b116"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-pask-0ca4",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-pask-0ca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-bondgardsdjur-8738",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-bondgardsdjur-8738"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-blommor-9c57",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-blommor-9c57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-skogsdjur-622b",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-skogsdjur-622b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-mobler-617f",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-mobler-617f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-sjukhus-d215",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-sjukhus-d215"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-insekter-och-kryp-b85d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-koksredskap-5775",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-koksredskap-5775"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-musik-a814",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-musik-a814"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-yrken-978b",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-yrken-978b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-havsliv-916b",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-havsliv-916b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-husdjur-215d",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-husdjur-215d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-postkontor-7926",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-postkontor-7926"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-reptiler-och-groddjur-2969"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-rymden-ce86",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-rymden-ce86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-var-1f35",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-var-1f35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-sommar-ca19",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-sommar-ca19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-thanksgiving-9249",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-thanksgiving-9249"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-saker-som-flyger-8420",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-saker-som-flyger-8420"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-verktyg-7acc",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-verktyg-7acc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-leksaker-5962",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-leksaker-5962"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-trad-3a73",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-trad-3a73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-gronsaker-df2b",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-gronsaker-df2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-fordon-8db6",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-fordon-8db6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-vader-245b",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-vader-245b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-vinter-ad06",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-vinter-ad06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matcha-skuggor-para-skuggan-djurparksdjur-88a4",
+      "siblings": [
+        "matcha-skuggor-para-skuggan-djurparksdjur-88a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-tillbehor-5972",
+      "siblings": [
+        "matcha-skuggor-gor-hel-tillbehor-5972"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-aktiviteter-f728",
+      "siblings": [
+        "matcha-skuggor-gor-hel-aktiviteter-f728"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-djur-4ea4",
+      "siblings": [
+        "matcha-skuggor-gor-hel-djur-4ea4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-runt-huset-73d5",
+      "siblings": [
+        "matcha-skuggor-gor-hel-runt-huset-73d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-i-snabbkopet-29e0",
+      "siblings": [
+        "matcha-skuggor-gor-hel-i-snabbkopet-29e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-bageri-091a",
+      "siblings": [
+        "matcha-skuggor-gor-hel-bageri-091a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-strand-2b56",
+      "siblings": [
+        "matcha-skuggor-gor-hel-strand-2b56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-faglar-a161",
+      "siblings": [
+        "matcha-skuggor-gor-hel-faglar-a161"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-faglar-2-a242",
+      "siblings": [
+        "matcha-skuggor-gor-hel-faglar-2-a242"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-kroppsdelar-52b7",
+      "siblings": [
+        "matcha-skuggor-gor-hel-kroppsdelar-52b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-frukost-45d9",
+      "siblings": [
+        "matcha-skuggor-gor-hel-frukost-45d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-camping-682a",
+      "siblings": [
+        "matcha-skuggor-gor-hel-camping-682a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-jul-1302",
+      "siblings": [
+        "matcha-skuggor-gor-hel-jul-1302"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-klassrum-51ca",
+      "siblings": [
+        "matcha-skuggor-gor-hel-klassrum-51ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-klader-494b",
+      "siblings": [
+        "matcha-skuggor-gor-hel-klader-494b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-efterratter-och-godis-10da",
+      "siblings": [
+        "matcha-skuggor-gor-hel-efterratter-och-godis-10da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-dinosaurier-b04c",
+      "siblings": [
+        "matcha-skuggor-gor-hel-dinosaurier-b04c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-pask-b0f5",
+      "siblings": [
+        "matcha-skuggor-gor-hel-pask-b0f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-kanslor-e568",
+      "siblings": [
+        "matcha-skuggor-gor-hel-kanslor-e568"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-bondgardsdjur-1d57",
+      "siblings": [
+        "matcha-skuggor-gor-hel-bondgardsdjur-1d57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-blommor-6a84",
+      "siblings": [
+        "matcha-skuggor-gor-hel-blommor-6a84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-skogsdjur-27a7",
+      "siblings": [
+        "matcha-skuggor-gor-hel-skogsdjur-27a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-frukter-6955",
+      "siblings": [
+        "matcha-skuggor-gor-hel-frukter-6955"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-mobler-b90a",
+      "siblings": [
+        "matcha-skuggor-gor-hel-mobler-b90a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-sjukhus-242c",
+      "siblings": [
+        "matcha-skuggor-gor-hel-sjukhus-242c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-insekter-och-kryp-38a1",
+      "siblings": [
+        "matcha-skuggor-gor-hel-insekter-och-kryp-38a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-koksredskap-4377",
+      "siblings": [
+        "matcha-skuggor-gor-hel-koksredskap-4377"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-musik-dc68",
+      "siblings": [
+        "matcha-skuggor-gor-hel-musik-dc68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-yrken-61b3",
+      "siblings": [
+        "matcha-skuggor-gor-hel-yrken-61b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-havsliv-d745",
+      "siblings": [
+        "matcha-skuggor-gor-hel-havsliv-d745"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-husdjur-f69e",
+      "siblings": [
+        "matcha-skuggor-gor-hel-husdjur-f69e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-postkontor-09ca",
+      "siblings": [
+        "matcha-skuggor-gor-hel-postkontor-09ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e",
+      "siblings": [
+        "matcha-skuggor-gor-hel-reptiler-och-groddjur-e02e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-former-84c3",
+      "siblings": [
+        "matcha-skuggor-gor-hel-former-84c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-rymden-2f83",
+      "siblings": [
+        "matcha-skuggor-gor-hel-rymden-2f83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-var-bec9",
+      "siblings": [
+        "matcha-skuggor-gor-hel-var-bec9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-sommar-e86c",
+      "siblings": [
+        "matcha-skuggor-gor-hel-sommar-e86c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-thanksgiving-295d",
+      "siblings": [
+        "matcha-skuggor-gor-hel-thanksgiving-295d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-saker-som-flyger-fd78",
+      "siblings": [
+        "matcha-skuggor-gor-hel-saker-som-flyger-fd78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-verktyg-6f8e",
+      "siblings": [
+        "matcha-skuggor-gor-hel-verktyg-6f8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-leksaker-bd76",
+      "siblings": [
+        "matcha-skuggor-gor-hel-leksaker-bd76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-trad-fac0",
+      "siblings": [
+        "matcha-skuggor-gor-hel-trad-fac0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-gronsaker-8fd7",
+      "siblings": [
+        "matcha-skuggor-gor-hel-gronsaker-8fd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-fordon-39e5",
+      "siblings": [
+        "matcha-skuggor-gor-hel-fordon-39e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-vader-cd69",
+      "siblings": [
+        "matcha-skuggor-gor-hel-vader-cd69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-vinter-ab69",
+      "siblings": [
+        "matcha-skuggor-gor-hel-vinter-ab69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matcha-skuggor-gor-hel-djurparksdjur-3837",
+      "siblings": [
+        "matcha-skuggor-gor-hel-djurparksdjur-3837"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    }
+  ]
+}

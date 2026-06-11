@@ -85,7 +85,8 @@ function buildMode(mk){
       carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, THEMES[n.theme].h1Display), href: n.canonical}; }),
     };
     if (co.siblings.length>1) entry.collapseSiblings = co.siblings;
-    if (cfg.standard) { const _std = (typeof cfg.standard === 'function' ? cfg.standard(mk, level) : cfg.standard); if (_std) entry.standard = _std; }
+    // per-coordinate standard (band-split numeric, e.g. math-puzzle) takes precedence; else the config's standard.
+    const _std = co.standard || (cfg.standard ? (typeof cfg.standard === 'function' ? cfg.standard(mk, level) : cfg.standard) : null); if (_std) entry.standard = _std;
     out.push(entry);
   });
   if (dropped.length) console.log('  dropped ' + dropped.length + ': ' + dropped.join(', '));

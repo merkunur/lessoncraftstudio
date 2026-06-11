@@ -1,0 +1,1610 @@
+{
+  "locale": "sv",
+  "exerciseType": "treasure-hunt",
+  "level": "forskola",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 48,
+    "compass": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-tillbehor-90e4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-aktiviteter-60aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-djur",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-djur",
+        "skattjakt-upp-ner-vanster-hoger-djur-8e7c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-runt-huset-b3bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-i-snabbkopet-f8b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-bageri-1e63",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-bageri-1e63"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-strand-70e5",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-strand-70e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-faglar-061c",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-faglar-061c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-faglar-2-2a5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-kroppsdelar-7506"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-frukost-a074",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-frukost-a074"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-camping-bcd0",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-camping-bcd0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-jul-87f2",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-jul-87f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-klassrum-441e",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-klassrum-441e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-klader-e127",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-klader-e127"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-farger-18e3",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-farger-18e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-efterratter-och-godis-a081"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-dinosaurier-9d68"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-pask-d392",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-pask-d392"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-kanslor-a994",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-kanslor-a994"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-bondgardsdjur-5a68"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-blommor-12b6",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-blommor-12b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-skogsdjur-26d2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-frukter-2f80",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-frukter-2f80"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-mobler-12f3",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-mobler-12f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-sjukhus-9864",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-sjukhus-9864"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-insekter-och-kryp-c962"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-koksredskap-a069",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-koksredskap-a069"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-musik-1920",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-musik-1920"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-yrken-e076",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-yrken-e076"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-havsliv-6e27",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-havsliv-6e27"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-husdjur-aed9",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-husdjur-aed9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-postkontor-fe73",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-postkontor-fe73"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-reptiler-och-groddjur-0615"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-former-689a",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-former-689a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-rymden-e454",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-rymden-e454"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-var-195f",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-var-195f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-sommar-4253",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-sommar-4253"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-thanksgiving-1a9e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-saker-som-flyger-fb3b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-verktyg-559a",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-verktyg-559a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-leksaker-ca45",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-leksaker-ca45"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-trad-2b34",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-trad-2b34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-gronsaker-8d35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-fordon-7164",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-fordon-7164"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-vader-63f5",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-vader-63f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-vinter-f1ab",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-vinter-f1ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f",
+      "siblings": [
+        "skattjakt-upp-ner-vanster-hoger-djurparksdjur-861f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-tillbehor-82d8",
+      "siblings": [
+        "skattjakt-vaderstreck-tillbehor-82d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-aktiviteter-4fcd",
+      "siblings": [
+        "skattjakt-vaderstreck-aktiviteter-4fcd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-djur-f3a5",
+      "siblings": [
+        "skattjakt-vaderstreck-djur-f3a5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-runt-huset-0353",
+      "siblings": [
+        "skattjakt-vaderstreck-runt-huset-0353"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-i-snabbkopet-9b9d",
+      "siblings": [
+        "skattjakt-vaderstreck-i-snabbkopet-9b9d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-bageri-cc0d",
+      "siblings": [
+        "skattjakt-vaderstreck-bageri-cc0d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-strand-2aad",
+      "siblings": [
+        "skattjakt-vaderstreck-strand-2aad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-faglar-a956",
+      "siblings": [
+        "skattjakt-vaderstreck-faglar-a956"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-faglar-2-f1f5",
+      "siblings": [
+        "skattjakt-vaderstreck-faglar-2-f1f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-kroppsdelar-57d0",
+      "siblings": [
+        "skattjakt-vaderstreck-kroppsdelar-57d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-frukost-fd1e",
+      "siblings": [
+        "skattjakt-vaderstreck-frukost-fd1e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-camping-af02",
+      "siblings": [
+        "skattjakt-vaderstreck-camping-af02"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-jul-b38a",
+      "siblings": [
+        "skattjakt-vaderstreck-jul-b38a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-klassrum-90c5",
+      "siblings": [
+        "skattjakt-vaderstreck-klassrum-90c5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-klader-a95c",
+      "siblings": [
+        "skattjakt-vaderstreck-klader-a95c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-farger-1bcf",
+      "siblings": [
+        "skattjakt-vaderstreck-farger-1bcf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-efterratter-och-godis-670f",
+      "siblings": [
+        "skattjakt-vaderstreck-efterratter-och-godis-670f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-dinosaurier-8c56",
+      "siblings": [
+        "skattjakt-vaderstreck-dinosaurier-8c56"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-pask-403a",
+      "siblings": [
+        "skattjakt-vaderstreck-pask-403a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-kanslor-e899",
+      "siblings": [
+        "skattjakt-vaderstreck-kanslor-e899"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-bondgardsdjur-aac6",
+      "siblings": [
+        "skattjakt-vaderstreck-bondgardsdjur-aac6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-blommor-aca8",
+      "siblings": [
+        "skattjakt-vaderstreck-blommor-aca8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-skogsdjur-c723",
+      "siblings": [
+        "skattjakt-vaderstreck-skogsdjur-c723"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-frukter-8500",
+      "siblings": [
+        "skattjakt-vaderstreck-frukter-8500"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-mobler-cb01",
+      "siblings": [
+        "skattjakt-vaderstreck-mobler-cb01"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-sjukhus-0480",
+      "siblings": [
+        "skattjakt-vaderstreck-sjukhus-0480"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-insekter-och-kryp-fb22",
+      "siblings": [
+        "skattjakt-vaderstreck-insekter-och-kryp-fb22"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-koksredskap-87c4",
+      "siblings": [
+        "skattjakt-vaderstreck-koksredskap-87c4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-musik-cb0c",
+      "siblings": [
+        "skattjakt-vaderstreck-musik-cb0c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-yrken-c680",
+      "siblings": [
+        "skattjakt-vaderstreck-yrken-c680"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-havsliv-a5b7",
+      "siblings": [
+        "skattjakt-vaderstreck-havsliv-a5b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-husdjur-a339",
+      "siblings": [
+        "skattjakt-vaderstreck-husdjur-a339"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-postkontor-4903",
+      "siblings": [
+        "skattjakt-vaderstreck-postkontor-4903"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3",
+      "siblings": [
+        "skattjakt-vaderstreck-reptiler-och-groddjur-b1d3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-former-928f",
+      "siblings": [
+        "skattjakt-vaderstreck-former-928f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-rymden-7e86",
+      "siblings": [
+        "skattjakt-vaderstreck-rymden-7e86"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-var-ca23",
+      "siblings": [
+        "skattjakt-vaderstreck-var-ca23"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-sommar-73b4",
+      "siblings": [
+        "skattjakt-vaderstreck-sommar-73b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-thanksgiving-a370",
+      "siblings": [
+        "skattjakt-vaderstreck-thanksgiving-a370"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-saker-som-flyger-82f2",
+      "siblings": [
+        "skattjakt-vaderstreck-saker-som-flyger-82f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-verktyg-1347",
+      "siblings": [
+        "skattjakt-vaderstreck-verktyg-1347"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-leksaker-a31d",
+      "siblings": [
+        "skattjakt-vaderstreck-leksaker-a31d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-trad-89e2",
+      "siblings": [
+        "skattjakt-vaderstreck-trad-89e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-gronsaker-928a",
+      "siblings": [
+        "skattjakt-vaderstreck-gronsaker-928a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-fordon-6341",
+      "siblings": [
+        "skattjakt-vaderstreck-fordon-6341"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-vader-ba8d",
+      "siblings": [
+        "skattjakt-vaderstreck-vader-ba8d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-vinter-17d8",
+      "siblings": [
+        "skattjakt-vaderstreck-vinter-17d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattjakt-vaderstreck-djurparksdjur-b006",
+      "siblings": [
+        "skattjakt-vaderstreck-djurparksdjur-b006"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    }
+  ]
+}

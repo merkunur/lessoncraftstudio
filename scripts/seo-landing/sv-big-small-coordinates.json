@@ -1,0 +1,1348 @@
+{
+  "locale": "sv",
+  "exerciseType": "big-small",
+  "level": "forskola",
+  "rawRowCount": 110,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 43,
+    "orderAsc": 48
+  },
+  "totalValid": 78,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 15,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic",
+    "orderAsc/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "orderAsc/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "orderAsc/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "orderAsc/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "orderAsc/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "orderAsc/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "orderAsc/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-tillbehor-a1c7",
+      "siblings": [
+        "stor-liten-hitta-den-stora-tillbehor-a1c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-djur-0969",
+      "siblings": [
+        "stor-liten-hitta-den-stora-djur-0969",
+        "stor-liten-hitta-den-stora-djur-a96b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-runt-huset-1a6b",
+      "siblings": [
+        "stor-liten-hitta-den-stora-runt-huset-1a6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-i-snabbkopet-b54a",
+      "siblings": [
+        "stor-liten-hitta-den-stora-i-snabbkopet-b54a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-bageri-9813",
+      "siblings": [
+        "stor-liten-hitta-den-stora-bageri-9813",
+        "stor-liten-hitta-den-stora-bageri-4aa4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-strand-1b6b",
+      "siblings": [
+        "stor-liten-hitta-den-stora-strand-1b6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-faglar-c607",
+      "siblings": [
+        "stor-liten-hitta-den-stora-faglar-c607"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-faglar-2-2604",
+      "siblings": [
+        "stor-liten-hitta-den-stora-faglar-2-2604",
+        "stor-liten-hitta-den-stora-faglar-2-3ebb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-kroppsdelar-9a67",
+      "siblings": [
+        "stor-liten-hitta-den-stora-kroppsdelar-9a67"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-frukost-4869",
+      "siblings": [
+        "stor-liten-hitta-den-stora-frukost-4869",
+        "stor-liten-hitta-den-stora-frukost-483b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-camping-7e68",
+      "siblings": [
+        "stor-liten-hitta-den-stora-camping-7e68",
+        "stor-liten-hitta-den-stora-camping-4ec1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-jul-6629",
+      "siblings": [
+        "stor-liten-hitta-den-stora-jul-6629"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-klassrum-49c6",
+      "siblings": [
+        "stor-liten-hitta-den-stora-klassrum-49c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-klader-618a",
+      "siblings": [
+        "stor-liten-hitta-den-stora-klader-618a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-efterratter-och-godis-3435",
+      "siblings": [
+        "stor-liten-hitta-den-stora-efterratter-och-godis-3435",
+        "stor-liten-hitta-den-stora-efterratter-och-godis-3462"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-dinosaurier-b899",
+      "siblings": [
+        "stor-liten-hitta-den-stora-dinosaurier-b899",
+        "stor-liten-hitta-den-stora-dinosaurier-acb1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-pask-cee9",
+      "siblings": [
+        "stor-liten-hitta-den-stora-pask-cee9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-bondgardsdjur-f9de",
+      "siblings": [
+        "stor-liten-hitta-den-stora-bondgardsdjur-f9de",
+        "stor-liten-hitta-den-stora-bondgardsdjur-242e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-blommor-765c",
+      "siblings": [
+        "stor-liten-hitta-den-stora-blommor-765c",
+        "stor-liten-hitta-den-stora-blommor-fb0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-skogsdjur-6461",
+      "siblings": [
+        "stor-liten-hitta-den-stora-skogsdjur-6461"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-frukter-626f",
+      "siblings": [
+        "stor-liten-hitta-den-stora-frukter-626f",
+        "stor-liten-hitta-den-stora-frukter-cdaf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-mobler-c87f",
+      "siblings": [
+        "stor-liten-hitta-den-stora-mobler-c87f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-sjukhus-05e5",
+      "siblings": [
+        "stor-liten-hitta-den-stora-sjukhus-05e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-koksredskap-f937",
+      "siblings": [
+        "stor-liten-hitta-den-stora-koksredskap-f937"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-musik-8978",
+      "siblings": [
+        "stor-liten-hitta-den-stora-musik-8978"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-yrken-48a4",
+      "siblings": [
+        "stor-liten-hitta-den-stora-yrken-48a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-havsliv-0750",
+      "siblings": [
+        "stor-liten-hitta-den-stora-havsliv-0750"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-husdjur-0c52",
+      "siblings": [
+        "stor-liten-hitta-den-stora-husdjur-0c52"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-former-230a",
+      "siblings": [
+        "stor-liten-hitta-den-stora-former-230a",
+        "stor-liten-hitta-den-stora-former-e133"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-rymden-450d",
+      "siblings": [
+        "stor-liten-hitta-den-stora-rymden-450d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-saker-som-flyger-c08e",
+      "siblings": [
+        "stor-liten-hitta-den-stora-saker-som-flyger-c08e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-verktyg-99ef",
+      "siblings": [
+        "stor-liten-hitta-den-stora-verktyg-99ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-leksaker-f549",
+      "siblings": [
+        "stor-liten-hitta-den-stora-leksaker-f549"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-trad-9659",
+      "siblings": [
+        "stor-liten-hitta-den-stora-trad-9659"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "stor-liten-hitta-den-stora-gronsaker-3c93",
+      "siblings": [
+        "stor-liten-hitta-den-stora-gronsaker-3c93"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-fordon-14cd",
+      "siblings": [
+        "stor-liten-hitta-den-stora-fordon-14cd",
+        "stor-liten-hitta-den-stora-fordon-060a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "stor-liten-hitta-den-stora-djurparksdjur-7472",
+      "siblings": [
+        "stor-liten-hitta-den-stora-djurparksdjur-7472",
+        "stor-liten-hitta-den-stora-djurparksdjur-69be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-tillbehor-86c2",
+      "siblings": [
+        "stor-liten-stigande-ordning-tillbehor-86c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-djur-fb10",
+      "siblings": [
+        "stor-liten-stigande-ordning-djur-fb10"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-runt-huset-87c3",
+      "siblings": [
+        "stor-liten-stigande-ordning-runt-huset-87c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-i-snabbkopet-9c73",
+      "siblings": [
+        "stor-liten-stigande-ordning-i-snabbkopet-9c73"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-bageri-25ee",
+      "siblings": [
+        "stor-liten-stigande-ordning-bageri-25ee"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-strand-965d",
+      "siblings": [
+        "stor-liten-stigande-ordning-strand-965d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-faglar-e39d",
+      "siblings": [
+        "stor-liten-stigande-ordning-faglar-e39d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-faglar-2-2f2e",
+      "siblings": [
+        "stor-liten-stigande-ordning-faglar-2-2f2e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-kroppsdelar-660f",
+      "siblings": [
+        "stor-liten-stigande-ordning-kroppsdelar-660f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-frukost-99d0",
+      "siblings": [
+        "stor-liten-stigande-ordning-frukost-99d0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-camping-09bf",
+      "siblings": [
+        "stor-liten-stigande-ordning-camping-09bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-jul-c9c0",
+      "siblings": [
+        "stor-liten-stigande-ordning-jul-c9c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-klassrum-b404",
+      "siblings": [
+        "stor-liten-stigande-ordning-klassrum-b404"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-klader-5718",
+      "siblings": [
+        "stor-liten-stigande-ordning-klader-5718"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-efterratter-och-godis-ed12",
+      "siblings": [
+        "stor-liten-stigande-ordning-efterratter-och-godis-ed12"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-dinosaurier-846b",
+      "siblings": [
+        "stor-liten-stigande-ordning-dinosaurier-846b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-pask-ac0c",
+      "siblings": [
+        "stor-liten-stigande-ordning-pask-ac0c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-bondgardsdjur-e5fc",
+      "siblings": [
+        "stor-liten-stigande-ordning-bondgardsdjur-e5fc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-blommor-a384",
+      "siblings": [
+        "stor-liten-stigande-ordning-blommor-a384"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-skogsdjur-6c7c",
+      "siblings": [
+        "stor-liten-stigande-ordning-skogsdjur-6c7c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-frukter-9d86",
+      "siblings": [
+        "stor-liten-stigande-ordning-frukter-9d86"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-mobler-795d",
+      "siblings": [
+        "stor-liten-stigande-ordning-mobler-795d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-sjukhus-da8b",
+      "siblings": [
+        "stor-liten-stigande-ordning-sjukhus-da8b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-insekter-och-kryp-99d4",
+      "siblings": [
+        "stor-liten-stigande-ordning-insekter-och-kryp-99d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-koksredskap-20fb",
+      "siblings": [
+        "stor-liten-stigande-ordning-koksredskap-20fb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-musik-75e9",
+      "siblings": [
+        "stor-liten-stigande-ordning-musik-75e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-yrken-e044",
+      "siblings": [
+        "stor-liten-stigande-ordning-yrken-e044"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-havsliv-8295",
+      "siblings": [
+        "stor-liten-stigande-ordning-havsliv-8295"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-husdjur-f118",
+      "siblings": [
+        "stor-liten-stigande-ordning-husdjur-f118"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-postkontor-5f81",
+      "siblings": [
+        "stor-liten-stigande-ordning-postkontor-5f81"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3",
+      "siblings": [
+        "stor-liten-stigande-ordning-reptiler-och-groddjur-adc3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-former-aa93",
+      "siblings": [
+        "stor-liten-stigande-ordning-former-aa93"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-rymden-9b89",
+      "siblings": [
+        "stor-liten-stigande-ordning-rymden-9b89"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-thanksgiving-07fb",
+      "siblings": [
+        "stor-liten-stigande-ordning-thanksgiving-07fb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-saker-som-flyger-be05",
+      "siblings": [
+        "stor-liten-stigande-ordning-saker-som-flyger-be05"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-verktyg-aff5",
+      "siblings": [
+        "stor-liten-stigande-ordning-verktyg-aff5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-leksaker-96d5",
+      "siblings": [
+        "stor-liten-stigande-ordning-leksaker-96d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-trad-a24f",
+      "siblings": [
+        "stor-liten-stigande-ordning-trad-a24f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-gronsaker-4449",
+      "siblings": [
+        "stor-liten-stigande-ordning-gronsaker-4449"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-fordon-6869",
+      "siblings": [
+        "stor-liten-stigande-ordning-fordon-6869"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "stor-liten-stigande-ordning-djurparksdjur-b2c5",
+      "siblings": [
+        "stor-liten-stigande-ordning-djurparksdjur-b2c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "forskola"
+    }
+  ]
+}

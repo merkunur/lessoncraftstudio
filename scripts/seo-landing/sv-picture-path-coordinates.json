@@ -1,0 +1,1385 @@
+{
+  "locale": "sv",
+  "exerciseType": "picture-path",
+  "level": "forskola",
+  "rawRowCount": 85,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 48,
+    "classic-maze": 34
+  },
+  "totalValid": 82,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-tillbehor-7a19",
+      "siblings": [
+        "bildvag-valj-ratt-vag-tillbehor-7a19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-aktiviteter-9bd8",
+      "siblings": [
+        "bildvag-valj-ratt-vag-aktiviteter-9bd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-djur-19b6",
+      "siblings": [
+        "bildvag-valj-ratt-vag-djur-19b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-runt-huset-bd3a",
+      "siblings": [
+        "bildvag-valj-ratt-vag-runt-huset-bd3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-i-snabbkopet-1e88",
+      "siblings": [
+        "bildvag-valj-ratt-vag-i-snabbkopet-1e88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-bageri-0d28",
+      "siblings": [
+        "bildvag-valj-ratt-vag-bageri-0d28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-strand-285f",
+      "siblings": [
+        "bildvag-valj-ratt-vag-strand-285f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-faglar-884a",
+      "siblings": [
+        "bildvag-valj-ratt-vag-faglar-884a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-faglar-2-e7dc",
+      "siblings": [
+        "bildvag-valj-ratt-vag-faglar-2-e7dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-kroppsdelar-8fd1",
+      "siblings": [
+        "bildvag-valj-ratt-vag-kroppsdelar-8fd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-frukost-fe3c",
+      "siblings": [
+        "bildvag-valj-ratt-vag-frukost-fe3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-camping-6811",
+      "siblings": [
+        "bildvag-valj-ratt-vag-camping-6811"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-jul-b33a",
+      "siblings": [
+        "bildvag-valj-ratt-vag-jul-b33a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-klassrum-9301",
+      "siblings": [
+        "bildvag-valj-ratt-vag-klassrum-9301"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-klader-e3fd",
+      "siblings": [
+        "bildvag-valj-ratt-vag-klader-e3fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-farger-0f26",
+      "siblings": [
+        "bildvag-valj-ratt-vag-farger-0f26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-efterratter-och-godis-1b5d",
+      "siblings": [
+        "bildvag-valj-ratt-vag-efterratter-och-godis-1b5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-dinosaurier-2c61",
+      "siblings": [
+        "bildvag-valj-ratt-vag-dinosaurier-2c61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-pask-4b58",
+      "siblings": [
+        "bildvag-valj-ratt-vag-pask-4b58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-kanslor-2f2d",
+      "siblings": [
+        "bildvag-valj-ratt-vag-kanslor-2f2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-bondgardsdjur-b9a4",
+      "siblings": [
+        "bildvag-valj-ratt-vag-bondgardsdjur-b9a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-blommor-6f5e",
+      "siblings": [
+        "bildvag-valj-ratt-vag-blommor-6f5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-skogsdjur-234a",
+      "siblings": [
+        "bildvag-valj-ratt-vag-skogsdjur-234a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-frukter-4ca8",
+      "siblings": [
+        "bildvag-valj-ratt-vag-frukter-4ca8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-mobler-b52e",
+      "siblings": [
+        "bildvag-valj-ratt-vag-mobler-b52e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-sjukhus-2c52",
+      "siblings": [
+        "bildvag-valj-ratt-vag-sjukhus-2c52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-insekter-och-kryp-3208",
+      "siblings": [
+        "bildvag-valj-ratt-vag-insekter-och-kryp-3208"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-koksredskap-a598",
+      "siblings": [
+        "bildvag-valj-ratt-vag-koksredskap-a598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-musik-6c0d",
+      "siblings": [
+        "bildvag-valj-ratt-vag-musik-6c0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-yrken-86b4",
+      "siblings": [
+        "bildvag-valj-ratt-vag-yrken-86b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-havsliv-237f",
+      "siblings": [
+        "bildvag-valj-ratt-vag-havsliv-237f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-husdjur-9ddd",
+      "siblings": [
+        "bildvag-valj-ratt-vag-husdjur-9ddd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-postkontor-80ec",
+      "siblings": [
+        "bildvag-valj-ratt-vag-postkontor-80ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-reptiler-och-groddjur-66d2",
+      "siblings": [
+        "bildvag-valj-ratt-vag-reptiler-och-groddjur-66d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-former-3a7f",
+      "siblings": [
+        "bildvag-valj-ratt-vag-former-3a7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-rymden-3ffb",
+      "siblings": [
+        "bildvag-valj-ratt-vag-rymden-3ffb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-var-7a50",
+      "siblings": [
+        "bildvag-valj-ratt-vag-var-7a50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-sommar-9383",
+      "siblings": [
+        "bildvag-valj-ratt-vag-sommar-9383"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-thanksgiving-725c",
+      "siblings": [
+        "bildvag-valj-ratt-vag-thanksgiving-725c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-saker-som-flyger-2b90",
+      "siblings": [
+        "bildvag-valj-ratt-vag-saker-som-flyger-2b90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-verktyg-e081",
+      "siblings": [
+        "bildvag-valj-ratt-vag-verktyg-e081"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-leksaker-21da",
+      "siblings": [
+        "bildvag-valj-ratt-vag-leksaker-21da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-trad-c82e",
+      "siblings": [
+        "bildvag-valj-ratt-vag-trad-c82e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-gronsaker-0fcd",
+      "siblings": [
+        "bildvag-valj-ratt-vag-gronsaker-0fcd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-fordon-cf44",
+      "siblings": [
+        "bildvag-valj-ratt-vag-fordon-cf44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-vader-4089",
+      "siblings": [
+        "bildvag-valj-ratt-vag-vader-4089"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-vinter-f30d",
+      "siblings": [
+        "bildvag-valj-ratt-vag-vinter-f30d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bildvag-valj-ratt-vag-djurparksdjur-9a81",
+      "siblings": [
+        "bildvag-valj-ratt-vag-djurparksdjur-9a81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-tillbehor-d5cc",
+      "siblings": [
+        "bildvag-klassisk-labyrint-tillbehor-d5cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-aktiviteter-49f3",
+      "siblings": [
+        "bildvag-klassisk-labyrint-aktiviteter-49f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-runt-huset-da31",
+      "siblings": [
+        "bildvag-klassisk-labyrint-runt-huset-da31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-i-snabbkopet-de84",
+      "siblings": [
+        "bildvag-klassisk-labyrint-i-snabbkopet-de84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-bageri-4006",
+      "siblings": [
+        "bildvag-klassisk-labyrint-bageri-4006"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-strand-790d",
+      "siblings": [
+        "bildvag-klassisk-labyrint-strand-790d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-kroppsdelar-c316",
+      "siblings": [
+        "bildvag-klassisk-labyrint-kroppsdelar-c316"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-frukost-6507",
+      "siblings": [
+        "bildvag-klassisk-labyrint-frukost-6507"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-camping-465c",
+      "siblings": [
+        "bildvag-klassisk-labyrint-camping-465c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-jul-a393",
+      "siblings": [
+        "bildvag-klassisk-labyrint-jul-a393"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-klassrum-ab17",
+      "siblings": [
+        "bildvag-klassisk-labyrint-klassrum-ab17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-klader-c7c9",
+      "siblings": [
+        "bildvag-klassisk-labyrint-klader-c7c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-efterratter-och-godis-8db7",
+      "siblings": [
+        "bildvag-klassisk-labyrint-efterratter-och-godis-8db7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-pask-8642",
+      "siblings": [
+        "bildvag-klassisk-labyrint-pask-8642"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-blommor-1808",
+      "siblings": [
+        "bildvag-klassisk-labyrint-blommor-1808"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-frukter-1c9f",
+      "siblings": [
+        "bildvag-klassisk-labyrint-frukter-1c9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-mobler-93ad",
+      "siblings": [
+        "bildvag-klassisk-labyrint-mobler-93ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-sjukhus-45c0",
+      "siblings": [
+        "bildvag-klassisk-labyrint-sjukhus-45c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-koksredskap-d23a",
+      "siblings": [
+        "bildvag-klassisk-labyrint-koksredskap-d23a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-musik-ed47",
+      "siblings": [
+        "bildvag-klassisk-labyrint-musik-ed47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-yrken-ed1f",
+      "siblings": [
+        "bildvag-klassisk-labyrint-yrken-ed1f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-postkontor-fd59",
+      "siblings": [
+        "bildvag-klassisk-labyrint-postkontor-fd59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-rymden-71ee",
+      "siblings": [
+        "bildvag-klassisk-labyrint-rymden-71ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-var-dc10",
+      "siblings": [
+        "bildvag-klassisk-labyrint-var-dc10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-sommar-1ac3",
+      "siblings": [
+        "bildvag-klassisk-labyrint-sommar-1ac3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-thanksgiving-96d8",
+      "siblings": [
+        "bildvag-klassisk-labyrint-thanksgiving-96d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-saker-som-flyger-6ed1",
+      "siblings": [
+        "bildvag-klassisk-labyrint-saker-som-flyger-6ed1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-verktyg-91a7",
+      "siblings": [
+        "bildvag-klassisk-labyrint-verktyg-91a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-leksaker-b12a",
+      "siblings": [
+        "bildvag-klassisk-labyrint-leksaker-b12a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-trad-3eb1",
+      "siblings": [
+        "bildvag-klassisk-labyrint-trad-3eb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-gronsaker-e607",
+      "siblings": [
+        "bildvag-klassisk-labyrint-gronsaker-e607"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-fordon-57bb",
+      "siblings": [
+        "bildvag-klassisk-labyrint-fordon-57bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-vader-6d38",
+      "siblings": [
+        "bildvag-klassisk-labyrint-vader-6d38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bildvag-klassisk-labyrint-vinter-ea0f",
+      "siblings": [
+        "bildvag-klassisk-labyrint-vinter-ea0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "forskola"
+    }
+  ]
+}

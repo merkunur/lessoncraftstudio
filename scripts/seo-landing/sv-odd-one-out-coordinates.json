@@ -1,0 +1,896 @@
+{
+  "locale": "sv",
+  "exerciseType": "odd-one-out",
+  "level": "forskola",
+  "rawRowCount": 90,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-theme": 2,
+    "same-theme": 47
+  },
+  "totalValid": 49,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-theme",
+    "same-theme"
+  ],
+  "collapsedFamilies": 3,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 34,
+      "canonical": "vilken-passar-inte-tvartema-djur-78ef",
+      "siblings": [
+        "vilken-passar-inte-tvartema-djur-78ef",
+        "vilken-passar-inte-tvartema-djur-8787",
+        "vilken-passar-inte-tvartema-djur-d6d0",
+        "vilken-passar-inte-tvartema-djur-b42b",
+        "vilken-passar-inte-tvartema-djur-1a4a",
+        "vilken-passar-inte-tvartema-djur-9a0d",
+        "vilken-passar-inte-tvartema-djur-fbba",
+        "vilken-passar-inte-tvartema-djur-b9c1",
+        "vilken-passar-inte-tvartema-djur-403d",
+        "vilken-passar-inte-tvartema-djur-3e3c",
+        "vilken-passar-inte-tvartema-djur-d9da",
+        "vilken-passar-inte-tvartema-djur-6fbb",
+        "vilken-passar-inte-tvartema-djur-c905",
+        "vilken-passar-inte-tvartema-djur-fabb",
+        "vilken-passar-inte-tvartema-djur-17de",
+        "vilken-passar-inte-tvartema-djur-bbcd",
+        "vilken-passar-inte-tvartema-djur-c694",
+        "vilken-passar-inte-tvartema-djur-a576",
+        "vilken-passar-inte-tvartema-djur-3134",
+        "vilken-passar-inte-tvartema-djur-fac2",
+        "vilken-passar-inte-tvartema-djur-c51b",
+        "vilken-passar-inte-tvartema-djur-a318",
+        "vilken-passar-inte-tvartema-djur-8d84",
+        "vilken-passar-inte-tvartema-djur-a9dd",
+        "vilken-passar-inte-tvartema-djur-6d2e",
+        "vilken-passar-inte-tvartema-djur-3f62",
+        "vilken-passar-inte-tvartema-djur-d290",
+        "vilken-passar-inte-tvartema-djur-f394",
+        "vilken-passar-inte-tvartema-djur-3d82",
+        "vilken-passar-inte-tvartema-djur-3967",
+        "vilken-passar-inte-tvartema-djur-965c",
+        "vilken-passar-inte-tvartema-djur-2390",
+        "vilken-passar-inte-tvartema-djur-7280",
+        "vilken-passar-inte-tvartema-djur-99a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "cross-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 7,
+      "canonical": "vilken-passar-inte-tvartema-bageri-d297",
+      "siblings": [
+        "vilken-passar-inte-tvartema-bageri-d297",
+        "vilken-passar-inte-tvartema-bageri-85a6",
+        "vilken-passar-inte-tvartema-bageri-ce71",
+        "vilken-passar-inte-tvartema-bageri-c9d2",
+        "vilken-passar-inte-tvartema-bageri-7e03",
+        "vilken-passar-inte-tvartema-bageri-da2e",
+        "vilken-passar-inte-tvartema-bageri-373b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-tillbehor-77ae",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-tillbehor-77ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-aktiviteter-41a4",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-aktiviteter-41a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "vilken-passar-inte-samma-tema-djur",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-djur",
+        "vilken-passar-inte-samma-tema-djur-1f92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-runt-huset-f0b2",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-runt-huset-f0b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-i-snabbkopet-e01b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-i-snabbkopet-e01b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-bageri-a179",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-bageri-a179"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-strand-ea97",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-strand-ea97"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-faglar-f11d",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-faglar-f11d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-faglar-2-8720",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-faglar-2-8720"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-kroppsdelar-32fd",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-kroppsdelar-32fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-frukost-c09a",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-frukost-c09a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-camping-c976",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-camping-c976"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-jul-e1d7",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-jul-e1d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-klassrum-b6b2",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-klassrum-b6b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-klader-bc53",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-klader-bc53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-farger-7d94",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-farger-7d94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-efterratter-och-godis-c90b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-dinosaurier-c40b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-dinosaurier-c40b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-pask-e8dc",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-pask-e8dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-kanslor-2ae0",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-kanslor-2ae0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-bondgardsdjur-8751",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-bondgardsdjur-8751"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-blommor-0ad3",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-blommor-0ad3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-skogsdjur-9195",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-skogsdjur-9195"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-frukter-5482",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-frukter-5482"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-mobler-971b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-mobler-971b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-sjukhus-88a7",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-sjukhus-88a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-insekter-och-kryp-36ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-koksredskap-2c4d",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-koksredskap-2c4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-musik-df88",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-musik-df88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-yrken-e213",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-yrken-e213"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-havsliv-51fe",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-havsliv-51fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-husdjur-8824",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-husdjur-8824"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-postkontor-b636",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-postkontor-b636"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-former-7b5b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-former-7b5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-rymden-63f8",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-rymden-63f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-var-f141",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-var-f141"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-sommar-4af6",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-sommar-4af6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-thanksgiving-0da4",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-thanksgiving-0da4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-saker-som-flyger-e263",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-saker-som-flyger-e263"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-verktyg-af58",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-verktyg-af58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-leksaker-97d9",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-leksaker-97d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-trad-08d5",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-trad-08d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-gronsaker-b213",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-gronsaker-b213"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-fordon-f84b",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-fordon-f84b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-vader-5e03",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-vader-5e03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-vinter-1fdc",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-vinter-1fdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "vilken-passar-inte-samma-tema-djurparksdjur-cfe2",
+      "siblings": [
+        "vilken-passar-inte-samma-tema-djurparksdjur-cfe2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    }
+  ]
+}

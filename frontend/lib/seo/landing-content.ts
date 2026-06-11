@@ -14,6 +14,7 @@
 import enData from '@/content/seo-landing/en.json';
 import deData from '@/content/seo-landing/de.json';
 import esData from '@/content/seo-landing/es.json';
+import svData from '@/content/seo-landing/sv.json';
 import { CANONICAL_HOST } from '@/lib/seo/url';
 
 export interface LandingCarouselItem { label: string; href: string }
@@ -60,6 +61,7 @@ const FILES: Record<string, LandingFile> = {
   en: enData as unknown as LandingFile,
   de: deData as unknown as LandingFile,
   es: esData as unknown as LandingFile,
+  sv: svData as unknown as LandingFile,
 };
 
 export function getLandingLocales(): string[] {

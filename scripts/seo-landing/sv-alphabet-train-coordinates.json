@@ -1,0 +1,602 @@
+{
+  "locale": "sv",
+  "exerciseType": "alphabet-train",
+  "level": "forskola",
+  "rawRowCount": 36,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 34
+  },
+  "totalValid": 34,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "hospital",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabetstaget-tillbehor-b64e",
+      "siblings": [
+        "alfabetstaget-tillbehor-b64e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabetstaget-aktiviteter-6a95",
+      "siblings": [
+        "alfabetstaget-aktiviteter-6a95"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "alfabetstaget-djur",
+      "siblings": [
+        "alfabetstaget-djur",
+        "alfabetstaget-djur-c427"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabetstaget-runt-huset-7ad3",
+      "siblings": [
+        "alfabetstaget-runt-huset-7ad3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabetstaget-i-snabbkopet-c935",
+      "siblings": [
+        "alfabetstaget-i-snabbkopet-c935"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabetstaget-strand-1a78",
+      "siblings": [
+        "alfabetstaget-strand-1a78"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabetstaget-kroppsdelar-d1b2",
+      "siblings": [
+        "alfabetstaget-kroppsdelar-d1b2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alfabetstaget-frukost-95e1",
+      "siblings": [
+        "alfabetstaget-frukost-95e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabetstaget-camping-3282",
+      "siblings": [
+        "alfabetstaget-camping-3282"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabetstaget-jul-2e81",
+      "siblings": [
+        "alfabetstaget-jul-2e81"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabetstaget-klassrum-ead5",
+      "siblings": [
+        "alfabetstaget-klassrum-ead5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabetstaget-klader-2852",
+      "siblings": [
+        "alfabetstaget-klader-2852"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabetstaget-pask-ba52",
+      "siblings": [
+        "alfabetstaget-pask-ba52"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "alfabetstaget-kanslor-b74b",
+      "siblings": [
+        "alfabetstaget-kanslor-b74b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabetstaget-bondgardsdjur-81a1",
+      "siblings": [
+        "alfabetstaget-bondgardsdjur-81a1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabetstaget-skogsdjur-3f93",
+      "siblings": [
+        "alfabetstaget-skogsdjur-3f93"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alfabetstaget-frukter-dac7",
+      "siblings": [
+        "alfabetstaget-frukter-dac7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabetstaget-sjukhus-b0ec",
+      "siblings": [
+        "alfabetstaget-sjukhus-b0ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabetstaget-koksredskap-bb7d",
+      "siblings": [
+        "alfabetstaget-koksredskap-bb7d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "alfabetstaget-musik-a436",
+      "siblings": [
+        "alfabetstaget-musik-a436"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabetstaget-yrken-a007",
+      "siblings": [
+        "alfabetstaget-yrken-a007"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alfabetstaget-havsliv-6be9",
+      "siblings": [
+        "alfabetstaget-havsliv-6be9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alfabetstaget-husdjur-0984",
+      "siblings": [
+        "alfabetstaget-husdjur-0984"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "alfabetstaget-former-bf83",
+      "siblings": [
+        "alfabetstaget-former-bf83"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabetstaget-rymden-0510",
+      "siblings": [
+        "alfabetstaget-rymden-0510"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabetstaget-var-dbc8",
+      "siblings": [
+        "alfabetstaget-var-dbc8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabetstaget-sommar-1917",
+      "siblings": [
+        "alfabetstaget-sommar-1917"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabetstaget-thanksgiving-47f8",
+      "siblings": [
+        "alfabetstaget-thanksgiving-47f8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabetstaget-saker-som-flyger-b833",
+      "siblings": [
+        "alfabetstaget-saker-som-flyger-b833"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabetstaget-leksaker-8109",
+      "siblings": [
+        "alfabetstaget-leksaker-8109"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabetstaget-gronsaker-32ce",
+      "siblings": [
+        "alfabetstaget-gronsaker-32ce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alfabetstaget-fordon-4ec7",
+      "siblings": [
+        "alfabetstaget-fordon-4ec7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "alfabetstaget-vader-6519",
+      "siblings": [
+        "alfabetstaget-vader-6519"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabetstaget-djurparksdjur-053a",
+      "siblings": [
+        "alfabetstaget-djurparksdjur-053a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    }
+  ]
+}

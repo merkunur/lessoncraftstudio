@@ -25,7 +25,24 @@ if (!TYPE) { console.error('--type required'); process.exit(1); }
 const ES = 'frontend/content/seo-landing/' + LOC + '.json';
 const facts = JSON.parse(fs.readFileSync('scripts/seo-landing/_' + LOC + '-readiness.json', 'utf8'));
 const tax = JSON.parse(fs.readFileSync('frontend/config/topics-taxonomy.json', 'utf8'));
-const themeDisplay = (k) => { const e = tax.axes.theme[k]; return (e && e.name && e.name[LOC]) ? e.name[LOC] : k.replace(/_/g, ' '); };
+// de German-grammar: use de-themes.gen (a datN-safe plural collective, e.g. animals→"Tiere",
+// around_the_house→"Haushaltsdinge") as the in-prose theme word, + a dative-after-preposition
+// pass (de-render's datN) so "mit Tiere" → "mit Tieren". Other locales pass through unchanged.
+let DE_THEMES = null, deDat = null;
+if (LOC === 'de') {
+  try { DE_THEMES = require('./de-themes').THEMES; } catch (e) { DE_THEMES = null; }
+  const datN = (p) => p.replace(/[A-Za-zÄÖÜäöüß]+/g, (w) => (w === 'und' || /[ns]$/.test(w)) ? w : w + 'n');
+  const PREP = '([Aa]us|[Aa]ußer|[Bb]ei|[Gg]egenüber|[Mm]it|[Nn]ach|[Ss]eit|[Vv]on|[Zz]u|[Dd]en|[Dd]em)';
+  deDat = (text, T) => {
+    if (!T || /[0-9.]/.test(T)) return text;            // proper-noun/invariant (e.g. "4. Juli") → skip
+    const dat = datN(T); if (dat === T) return text;
+    return text.replace(new RegExp('\\b' + PREP + ' ' + T.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), (m, p) => p + ' ' + dat);
+  };
+}
+const themeDisplay = (k) => {
+  if (DE_THEMES && DE_THEMES[k] && DE_THEMES[k].gen) return DE_THEMES[k].gen;
+  const e = tax.axes.theme[k]; return (e && e.name && e.name[LOC]) ? e.name[LOC] : k.replace(/_/g, ' ');
+};
 
 function gcd(a, b) { while (b) { const t = a % b; a = b; b = t; } return a; }
 function coprimeStride(cells) { let k = Math.max(2, Math.round(cells * 0.618)); for (let d = 0; d < cells; d++) for (const c of [k + d, k - d]) if (c > 1 && c < cells && gcd(c, cells) === 1) return c; return 1; }
@@ -96,19 +113,20 @@ const entries = list.map((f, i) => {
   // Readiness default: no standard, preescolar (es). en/de configs always set level+gradeLabel.
   const level = cfg.level || 'preescolar';
   const gradeLabel = cfg.gradeLabel || 'Preescolar (5 años)';
+  const dd = (s) => (deDat ? deDat(s, T) : s);   // de dative-after-preposition pass; no-op for en/es
   const entry = {
     slug: f.slug,
     variantShape: 'singleton',
     coordinate: { type: TYPE, mode: (MODEARG === 'null' ? null : MODEARG), theme: f.theme, level },
     eyebrow: cfg.eyebrow,
-    h1: cfg.h1(T, i),
+    h1: dd(cfg.h1(T, i)),
     strand: cfg.strand,
     slotTokens: [T, gradeLabel],
-    p1: cfg.SKEL[c.skel].replace(/\{TEMA\}/g, T),
-    p2: cfg.P2[c.p2].replace(/\{TEMA\}/g, T),
-    p3: cfg.P3(T),
+    p1: dd(cfg.SKEL[c.skel].replace(/\{TEMA\}/g, T)),
+    p2: dd(cfg.P2[c.p2].replace(/\{TEMA\}/g, T)),
+    p3: dd(cfg.P3(T)),
     canonicalDeckSlug: f.canonicalDeckSlug || f.slug,
-    carousel: [1, 2, 5, 11].map((off) => { const n = list[(i + off) % list.length]; return { label: cfg.carousel(themeDisplay(n.theme)), href: n.slug }; }),
+    carousel: [1, 2, 5, 11].map((off) => { const n = list[(i + off) % list.length]; const nt = themeDisplay(n.theme); const lab = cfg.carousel(nt); return { label: (deDat ? deDat(lab, nt) : lab), href: n.slug }; }),
   };
   if (cfg.title) entry.title = cfg.title(T);          // es gold title; en/de omit → route uses h1
   if (meta) entry.metaDescription = meta;             // es banded meta; en/de omit → route derives from p1

@@ -67,7 +67,7 @@ const TYPE_MAP = {
   'find-objects':  { op: { 'i-spy': 'Jag ser något', 'find-odd': 'Hitta det udda' }, qual: {} },
   'odd-one-out':   { op: 'Vad passar inte?', qual: {} },
   bingo:           { op: 'Bildbingo', qual: {} },
-  'pattern-train': { op: { aab: 'AAB-mönster', abb: 'ABB-mönster', aabb: 'AABB-mönster', abc: 'ABC-mönster' }, qual: {} },
+  'pattern-train': { op: { 'null': 'AB-mönster', aab: 'AAB-mönster', abb: 'ABB-mönster', aabb: 'AABB-mönster', abc: 'ABC-mönster' }, qual: {} },
   'pattern-worksheet': { op: 'Mönster', qual: {} },
   'picture-path':  { op: 'Bildlabyrint', qual: { 'choose-path': 'välj rätt väg', 'classic-maze': 'klassisk labyrint' } },
   'picture-trail': { op: 'Bildlabyrint', qual: {} },

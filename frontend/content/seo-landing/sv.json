@@ -1,0 +1,2169 @@
+{
+  "_note": "SV landing copy.",
+  "landings": [
+    {
+      "slug": "rutmatchning-tillbehor-dfa4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "accessories",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med accessoarer – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "accessoarer",
+        "accessoarerna",
+        "Tillbehör",
+        "accessories",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på accessoarerna i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med accessoarer som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på accessoarerna för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med aktiviteter, eller prova något med fåglar – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med accessoarer är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-tillbehor-dfa4",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Aktiviteter",
+          "href": "rutmatchning-aktiviteter-c46b"
+        },
+        {
+          "label": "Bildrutnät – Djur",
+          "href": "rutmatchning-djur"
+        },
+        {
+          "label": "Bildrutnät – Bageri",
+          "href": "rutmatchning-bageri-a94c"
+        },
+        {
+          "label": "Bildrutnät – Camping",
+          "href": "rutmatchning-camping-9838"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Tillbehör | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Tillbehör. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-aktiviteter-c46b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "activities",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med aktiviteter – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "aktiviteter",
+        "aktiviteterna",
+        "Aktiviteter",
+        "activities",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av aktiviteterna som hör hemma i luckan. Med aktiviteter som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med aktiviteter som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med djur, eller prova något med fåglar – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med aktiviteter är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-aktiviteter-c46b",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Djur",
+          "href": "rutmatchning-djur"
+        },
+        {
+          "label": "Bildrutnät – Runt huset",
+          "href": "rutmatchning-runt-huset-3d66"
+        },
+        {
+          "label": "Bildrutnät – Strand",
+          "href": "rutmatchning-strand-4813"
+        },
+        {
+          "label": "Bildrutnät – Jul",
+          "href": "rutmatchning-jul-4e9e"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Aktiviteter | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Aktiviteter. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-djur",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "animals",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med djur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "djur",
+        "djuren",
+        "Djur",
+        "animals",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och djuren i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med djur hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "I den här versionen bjuder ett något större rutnät in ditt barn att fylla flera tomma rutor efter varandra. Med djur som vägvisare ser barnet så småningom vilken del som hör vart och gör på så vis hela bilden fullständig. Det stärker uthålligheten och det noggranna tittandet på samma gång. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid det färdiga rutnätet och ett växande självförtroende.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med saker, eller prova något med kroppsdelar – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med djur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-djur",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Runt huset",
+          "href": "rutmatchning-runt-huset-3d66"
+        },
+        {
+          "label": "Bildrutnät – I snabbköpet",
+          "href": "rutmatchning-i-snabbkopet-d81a"
+        },
+        {
+          "label": "Bildrutnät – Fåglar",
+          "href": "rutmatchning-faglar-d8fa"
+        },
+        {
+          "label": "Bildrutnät – Klassrum",
+          "href": "rutmatchning-klassrum-f255"
+        }
+      ],
+      "collapseSiblings": [
+        "rutmatchning-djur",
+        "rutmatchning-djur-2128"
+      ],
+      "title": "Arbetsblad Bildrutnät – Djur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Djur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-runt-huset-3d66",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med saker – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "saker",
+        "sakerna",
+        "Runt huset",
+        "around the house",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med sakerna som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med saker som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför sakerna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med varor, eller prova något med smörgåsar – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med saker är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-runt-huset-3d66",
+      "carousel": [
+        {
+          "label": "Bildrutnät – I snabbköpet",
+          "href": "rutmatchning-i-snabbkopet-d81a"
+        },
+        {
+          "label": "Bildrutnät – Bageri",
+          "href": "rutmatchning-bageri-a94c"
+        },
+        {
+          "label": "Bildrutnät – Fåglar 2",
+          "href": "rutmatchning-faglar-2-8e04"
+        },
+        {
+          "label": "Bildrutnät – Kläder",
+          "href": "rutmatchning-klader-487c"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Runt huset | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Runt huset. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-i-snabbkopet-d81a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med varor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "varor",
+        "varorna",
+        "I snabbköpet",
+        "at the supermarket",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av varorna som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med varor som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med varor som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med bakverk, eller prova något med tält – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med varor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-i-snabbkopet-d81a",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Bageri",
+          "href": "rutmatchning-bageri-a94c"
+        },
+        {
+          "label": "Bildrutnät – Strand",
+          "href": "rutmatchning-strand-4813"
+        },
+        {
+          "label": "Bildrutnät – Kroppsdelar",
+          "href": "rutmatchning-kroppsdelar-bb1f"
+        },
+        {
+          "label": "Bildrutnät – Efterrätter och godis",
+          "href": "rutmatchning-efterratter-och-godis-a8a1"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – I snabbköpet | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – I snabbköpet. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-bageri-a94c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "bakery",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med bakverk – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "bakverk",
+        "bakverken",
+        "Bageri",
+        "bakery",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av bakverken som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "I den här versionen bjuder ett något större rutnät in ditt barn att fylla flera tomma rutor efter varandra. Med bakverk som vägvisare ser barnet så småningom vilken del som hör vart och gör på så vis hela bilden fullständig. Det stärker uthålligheten och det noggranna tittandet på samma gång. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid det färdiga rutnätet och ett växande självförtroende.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med snäckor, eller prova något med presenter – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med bakverk är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-bageri-a94c",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Strand",
+          "href": "rutmatchning-strand-4813"
+        },
+        {
+          "label": "Bildrutnät – Fåglar",
+          "href": "rutmatchning-faglar-d8fa"
+        },
+        {
+          "label": "Bildrutnät – Frukost",
+          "href": "rutmatchning-frukost-2217"
+        },
+        {
+          "label": "Bildrutnät – Dinosaurier",
+          "href": "rutmatchning-dinosaurier-4a7f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Bageri | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Bageri. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-strand-4813",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "beach",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med snäckor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "snäckor",
+        "snäckorna",
+        "Strand",
+        "beach",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad snäckor i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför snäckorna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med fåglar, eller prova något med pennor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med snäckor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-strand-4813",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Fåglar",
+          "href": "rutmatchning-faglar-d8fa"
+        },
+        {
+          "label": "Bildrutnät – Fåglar 2",
+          "href": "rutmatchning-faglar-2-8e04"
+        },
+        {
+          "label": "Bildrutnät – Camping",
+          "href": "rutmatchning-camping-9838"
+        },
+        {
+          "label": "Bildrutnät – Påsk",
+          "href": "rutmatchning-pask-e822"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Strand | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Strand. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-faglar-d8fa",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "birds",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med fåglar – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "fåglar",
+        "fåglarna",
+        "Fåglar",
+        "birds",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar fåglarna som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med fåglar som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med fåglar, eller prova något med kläder – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med fåglar är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-faglar-d8fa",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Fåglar 2",
+          "href": "rutmatchning-faglar-2-8e04"
+        },
+        {
+          "label": "Bildrutnät – Kroppsdelar",
+          "href": "rutmatchning-kroppsdelar-bb1f"
+        },
+        {
+          "label": "Bildrutnät – Jul",
+          "href": "rutmatchning-jul-4e9e"
+        },
+        {
+          "label": "Bildrutnät – Känslor",
+          "href": "rutmatchning-kanslor-60b8"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Fåglar | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Fåglar. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-faglar-2-8e04",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med fåglar – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "fåglar",
+        "fåglarna",
+        "Fåglar 2",
+        "birds 2",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på fåglarna i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med fåglar som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "I den här versionen bjuder ett något större rutnät in ditt barn att fylla flera tomma rutor efter varandra. Med fåglar som vägvisare ser barnet så småningom vilken del som hör vart och gör på så vis hela bilden fullständig. Det stärker uthålligheten och det noggranna tittandet på samma gång. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid det färdiga rutnätet och ett växande självförtroende.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med kroppsdelar, eller prova något med efterrätter – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med fåglar är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-faglar-2-8e04",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Kroppsdelar",
+          "href": "rutmatchning-kroppsdelar-bb1f"
+        },
+        {
+          "label": "Bildrutnät – Frukost",
+          "href": "rutmatchning-frukost-2217"
+        },
+        {
+          "label": "Bildrutnät – Klassrum",
+          "href": "rutmatchning-klassrum-f255"
+        },
+        {
+          "label": "Bildrutnät – Bondgårdsdjur",
+          "href": "rutmatchning-bondgardsdjur-9287"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Fåglar 2 | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Fåglar 2. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-kroppsdelar-bb1f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "body_parts",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med kroppsdelar – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "kroppsdelar",
+        "kroppsdelarna",
+        "Kroppsdelar",
+        "body parts",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av kroppsdelarna som hör hemma i luckan. Med kroppsdelar som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför kroppsdelarna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med smörgåsar, eller prova något med dinosaurier – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med kroppsdelar är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-kroppsdelar-bb1f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Frukost",
+          "href": "rutmatchning-frukost-2217"
+        },
+        {
+          "label": "Bildrutnät – Camping",
+          "href": "rutmatchning-camping-9838"
+        },
+        {
+          "label": "Bildrutnät – Kläder",
+          "href": "rutmatchning-klader-487c"
+        },
+        {
+          "label": "Bildrutnät – Blommor",
+          "href": "rutmatchning-blommor-f48c"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Kroppsdelar | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Kroppsdelar. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-frukost-2217",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med smörgåsar – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "smörgåsar",
+        "smörgåsarna",
+        "Frukost",
+        "breakfast",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och smörgåsarna i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med smörgåsar hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med smörgåsar som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med tält, eller prova något med ägg – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med smörgåsar är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-frukost-2217",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Camping",
+          "href": "rutmatchning-camping-9838"
+        },
+        {
+          "label": "Bildrutnät – Jul",
+          "href": "rutmatchning-jul-4e9e"
+        },
+        {
+          "label": "Bildrutnät – Efterrätter och godis",
+          "href": "rutmatchning-efterratter-och-godis-a8a1"
+        },
+        {
+          "label": "Bildrutnät – Skogsdjur",
+          "href": "rutmatchning-skogsdjur-1c12"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Frukost | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Frukost. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-camping-9838",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "camping",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med tält – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "tält",
+        "tälten",
+        "Camping",
+        "camping",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med tälten som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med tält som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar tälten runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med presenter, eller prova något med känslor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med tält är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-camping-9838",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Jul",
+          "href": "rutmatchning-jul-4e9e"
+        },
+        {
+          "label": "Bildrutnät – Klassrum",
+          "href": "rutmatchning-klassrum-f255"
+        },
+        {
+          "label": "Bildrutnät – Dinosaurier",
+          "href": "rutmatchning-dinosaurier-4a7f"
+        },
+        {
+          "label": "Bildrutnät – Frukter",
+          "href": "rutmatchning-frukter-4eb1"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Camping | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Camping. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-jul-4e9e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "christmas",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med presenter – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "presenter",
+        "presenterna",
+        "Jul",
+        "christmas",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av presenterna som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med presenter som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför presenterna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med pennor, eller prova något med djur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med presenter är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-jul-4e9e",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Klassrum",
+          "href": "rutmatchning-klassrum-f255"
+        },
+        {
+          "label": "Bildrutnät – Kläder",
+          "href": "rutmatchning-klader-487c"
+        },
+        {
+          "label": "Bildrutnät – Påsk",
+          "href": "rutmatchning-pask-e822"
+        },
+        {
+          "label": "Bildrutnät – Möbler",
+          "href": "rutmatchning-mobler-2576"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Jul | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Jul. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-klassrum-f255",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "classroom",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med pennor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "pennor",
+        "pennorna",
+        "Klassrum",
+        "classroom",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av pennorna som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med pennor som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med kläder, eller prova något med blommor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med pennor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-klassrum-f255",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Kläder",
+          "href": "rutmatchning-klader-487c"
+        },
+        {
+          "label": "Bildrutnät – Efterrätter och godis",
+          "href": "rutmatchning-efterratter-och-godis-a8a1"
+        },
+        {
+          "label": "Bildrutnät – Känslor",
+          "href": "rutmatchning-kanslor-60b8"
+        },
+        {
+          "label": "Bildrutnät – Sjukhus",
+          "href": "rutmatchning-sjukhus-731e"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Klassrum | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Klassrum. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-klader-487c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "clothing",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med kläder – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "kläder",
+        "kläderna",
+        "Kläder",
+        "clothing",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad kläder i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar kläderna runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med efterrätter, eller prova något med djur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med kläder är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-klader-487c",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Efterrätter och godis",
+          "href": "rutmatchning-efterratter-och-godis-a8a1"
+        },
+        {
+          "label": "Bildrutnät – Dinosaurier",
+          "href": "rutmatchning-dinosaurier-4a7f"
+        },
+        {
+          "label": "Bildrutnät – Bondgårdsdjur",
+          "href": "rutmatchning-bondgardsdjur-9287"
+        },
+        {
+          "label": "Bildrutnät – Insekter och kryp",
+          "href": "rutmatchning-insekter-och-kryp-8f1f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Kläder | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Kläder. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-efterratter-och-godis-a8a1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med efterrätter – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "efterrätter",
+        "efterrätterna",
+        "Efterrätter och godis",
+        "desserts and sweets",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar efterrätterna som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför efterrätterna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med dinosaurier, eller prova något med frukter – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med efterrätter är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-efterratter-och-godis-a8a1",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Dinosaurier",
+          "href": "rutmatchning-dinosaurier-4a7f"
+        },
+        {
+          "label": "Bildrutnät – Påsk",
+          "href": "rutmatchning-pask-e822"
+        },
+        {
+          "label": "Bildrutnät – Blommor",
+          "href": "rutmatchning-blommor-f48c"
+        },
+        {
+          "label": "Bildrutnät – Köksredskap",
+          "href": "rutmatchning-koksredskap-7208"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Efterrätter och godis | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Efterrätter och godis. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-dinosaurier-4a7f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med dinosaurier – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "dinosaurier",
+        "dinosaurierna",
+        "Dinosaurier",
+        "dinosaurs",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på dinosaurierna i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med dinosaurier som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "Den här versionen arbetar med fler tomma rutor, så att ditt barn gör bilden nästan helt på egen hand. Med dinosaurier som ett litet ankare i rutnätet kommer det fram till vilken del som fattas för stunden och fyller en lucka i taget. Det ger ditt barn den goda känslan av att ha klarat något helt själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro titta och komplettera.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med ägg, eller prova något med möbler – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med dinosaurier är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-dinosaurier-4a7f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Påsk",
+          "href": "rutmatchning-pask-e822"
+        },
+        {
+          "label": "Bildrutnät – Känslor",
+          "href": "rutmatchning-kanslor-60b8"
+        },
+        {
+          "label": "Bildrutnät – Skogsdjur",
+          "href": "rutmatchning-skogsdjur-1c12"
+        },
+        {
+          "label": "Bildrutnät – Blandat",
+          "href": "rutmatchning-blandat-16c5"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Dinosaurier | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Dinosaurier. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-pask-e822",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "easter",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med ägg – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "ägg",
+        "äggen",
+        "Påsk",
+        "easter",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av äggen som hör hemma i luckan. Med ägg som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar äggen runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med känslor, eller prova något med sprutor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med ägg är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-pask-e822",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Känslor",
+          "href": "rutmatchning-kanslor-60b8"
+        },
+        {
+          "label": "Bildrutnät – Bondgårdsdjur",
+          "href": "rutmatchning-bondgardsdjur-9287"
+        },
+        {
+          "label": "Bildrutnät – Frukter",
+          "href": "rutmatchning-frukter-4eb1"
+        },
+        {
+          "label": "Bildrutnät – Musik",
+          "href": "rutmatchning-musik-235d"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Påsk | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Påsk. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-kanslor-60b8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "emotions",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med känslor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "känslor",
+        "känslorna",
+        "Känslor",
+        "emotions",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och känslorna i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med känslor hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför känslorna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med djur, eller prova något med insekter – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med känslor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-kanslor-60b8",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Bondgårdsdjur",
+          "href": "rutmatchning-bondgardsdjur-9287"
+        },
+        {
+          "label": "Bildrutnät – Blommor",
+          "href": "rutmatchning-blommor-f48c"
+        },
+        {
+          "label": "Bildrutnät – Möbler",
+          "href": "rutmatchning-mobler-2576"
+        },
+        {
+          "label": "Bildrutnät – Yrken",
+          "href": "rutmatchning-yrken-d660"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Känslor | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Känslor. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-bondgardsdjur-9287",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med djur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "djur",
+        "djuren",
+        "Bondgårdsdjur",
+        "farm animals",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med djuren som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med djur som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan djuren innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med blommor, eller prova något med redskap – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med djur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-bondgardsdjur-9287",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Blommor",
+          "href": "rutmatchning-blommor-f48c"
+        },
+        {
+          "label": "Bildrutnät – Skogsdjur",
+          "href": "rutmatchning-skogsdjur-1c12"
+        },
+        {
+          "label": "Bildrutnät – Sjukhus",
+          "href": "rutmatchning-sjukhus-731e"
+        },
+        {
+          "label": "Bildrutnät – Havsliv",
+          "href": "rutmatchning-havsliv-9e7d"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Bondgårdsdjur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Bondgårdsdjur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-blommor-f48c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "flowers",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med blommor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "blommor",
+        "blommorna",
+        "Blommor",
+        "flowers",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av blommorna som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med blommor som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar blommorna runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med djur, eller prova något med saker – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med blommor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-blommor-f48c",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Skogsdjur",
+          "href": "rutmatchning-skogsdjur-1c12"
+        },
+        {
+          "label": "Bildrutnät – Frukter",
+          "href": "rutmatchning-frukter-4eb1"
+        },
+        {
+          "label": "Bildrutnät – Insekter och kryp",
+          "href": "rutmatchning-insekter-och-kryp-8f1f"
+        },
+        {
+          "label": "Bildrutnät – Husdjur",
+          "href": "rutmatchning-husdjur-1d7f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Blommor | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Blommor. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-skogsdjur-1c12",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med djur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "djur",
+        "djuren",
+        "Skogsdjur",
+        "forest creatures",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av djuren som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför djuren, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med frukter, eller prova något med instrument – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med djur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-skogsdjur-1c12",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Frukter",
+          "href": "rutmatchning-frukter-4eb1"
+        },
+        {
+          "label": "Bildrutnät – Möbler",
+          "href": "rutmatchning-mobler-2576"
+        },
+        {
+          "label": "Bildrutnät – Köksredskap",
+          "href": "rutmatchning-koksredskap-7208"
+        },
+        {
+          "label": "Bildrutnät – Postkontor",
+          "href": "rutmatchning-postkontor-8bb7"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Skogsdjur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Skogsdjur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-frukter-4eb1",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "fruits",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med frukter – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "frukter",
+        "frukterna",
+        "Frukter",
+        "fruits",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad frukter i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan frukterna innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med möbler, eller prova något med yrken – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med frukter är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-frukter-4eb1",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Möbler",
+          "href": "rutmatchning-mobler-2576"
+        },
+        {
+          "label": "Bildrutnät – Sjukhus",
+          "href": "rutmatchning-sjukhus-731e"
+        },
+        {
+          "label": "Bildrutnät – Blandat",
+          "href": "rutmatchning-blandat-16c5"
+        },
+        {
+          "label": "Bildrutnät – Reptiler och groddjur",
+          "href": "rutmatchning-reptiler-och-groddjur-a87d"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Frukter | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Frukter. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-mobler-2576",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "furniture",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med möbler – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "möbler",
+        "möblerna",
+        "Möbler",
+        "furniture",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar möblerna som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar möblerna runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med sprutor, eller prova något med havsdjur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med möbler är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-mobler-2576",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Sjukhus",
+          "href": "rutmatchning-sjukhus-731e"
+        },
+        {
+          "label": "Bildrutnät – Insekter och kryp",
+          "href": "rutmatchning-insekter-och-kryp-8f1f"
+        },
+        {
+          "label": "Bildrutnät – Musik",
+          "href": "rutmatchning-musik-235d"
+        },
+        {
+          "label": "Bildrutnät – Former",
+          "href": "rutmatchning-former-f15b"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Möbler | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Möbler. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-sjukhus-731e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "hospital",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med sprutor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "sprutor",
+        "sprutorna",
+        "Sjukhus",
+        "hospital",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på sprutorna i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med sprutor som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "I den här varianten blandas ett brokigt urval in i rutnätet, så att ditt barn ur flera möjligheter söker fram den del som verkligen passar. Det jämför sprutorna, funderar i lugn och ro och gör sedan bilden fullständig med eftertanke. Det stärker det noggranna tittandet och tålamodet på samma gång. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att göra ett rutnät komplett.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med insekter, eller prova något med djur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med sprutor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-sjukhus-731e",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Insekter och kryp",
+          "href": "rutmatchning-insekter-och-kryp-8f1f"
+        },
+        {
+          "label": "Bildrutnät – Köksredskap",
+          "href": "rutmatchning-koksredskap-7208"
+        },
+        {
+          "label": "Bildrutnät – Yrken",
+          "href": "rutmatchning-yrken-d660"
+        },
+        {
+          "label": "Bildrutnät – Rymden",
+          "href": "rutmatchning-rymden-f50f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Sjukhus | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Sjukhus. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-insekter-och-kryp-8f1f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med insekter – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "insekter",
+        "insekterna",
+        "Insekter och kryp",
+        "insects and bugs",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av insekterna som hör hemma i luckan. Med insekter som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan insekterna innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med redskap, eller prova något med brev – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med insekter är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-insekter-och-kryp-8f1f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Köksredskap",
+          "href": "rutmatchning-koksredskap-7208"
+        },
+        {
+          "label": "Bildrutnät – Blandat",
+          "href": "rutmatchning-blandat-16c5"
+        },
+        {
+          "label": "Bildrutnät – Havsliv",
+          "href": "rutmatchning-havsliv-9e7d"
+        },
+        {
+          "label": "Bildrutnät – Vår",
+          "href": "rutmatchning-var-83f5"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Insekter och kryp | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Insekter och kryp. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-koksredskap-7208",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med redskap – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "redskap",
+        "redskapen",
+        "Köksredskap",
+        "kitchen tools",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och redskapen i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med redskap hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar redskapen runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med saker, eller prova något med reptiler – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med redskap är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-koksredskap-7208",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Blandat",
+          "href": "rutmatchning-blandat-16c5"
+        },
+        {
+          "label": "Bildrutnät – Musik",
+          "href": "rutmatchning-musik-235d"
+        },
+        {
+          "label": "Bildrutnät – Husdjur",
+          "href": "rutmatchning-husdjur-1d7f"
+        },
+        {
+          "label": "Bildrutnät – Sommar",
+          "href": "rutmatchning-sommar-4b6f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Köksredskap | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Köksredskap. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-blandat-16c5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "miscellaneous",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med saker – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "saker",
+        "sakerna",
+        "Blandat",
+        "miscellaneous",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med sakerna som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med saker som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på sakerna och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med instrument, eller prova något med former – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med saker är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-blandat-16c5",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Musik",
+          "href": "rutmatchning-musik-235d"
+        },
+        {
+          "label": "Bildrutnät – Yrken",
+          "href": "rutmatchning-yrken-d660"
+        },
+        {
+          "label": "Bildrutnät – Postkontor",
+          "href": "rutmatchning-postkontor-8bb7"
+        },
+        {
+          "label": "Bildrutnät – Thanksgiving",
+          "href": "rutmatchning-thanksgiving-cd70"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Blandat | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Blandat. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-musik-235d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "music",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med instrument – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "instrument",
+        "instrumenten",
+        "Musik",
+        "music",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av instrumenten som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med instrument som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan instrumenten innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med yrken, eller prova något med stjärnor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med instrument är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-musik-235d",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Yrken",
+          "href": "rutmatchning-yrken-d660"
+        },
+        {
+          "label": "Bildrutnät – Havsliv",
+          "href": "rutmatchning-havsliv-9e7d"
+        },
+        {
+          "label": "Bildrutnät – Reptiler och groddjur",
+          "href": "rutmatchning-reptiler-och-groddjur-a87d"
+        },
+        {
+          "label": "Bildrutnät – Saker som flyger",
+          "href": "rutmatchning-saker-som-flyger-63dd"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Musik | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Musik. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-yrken-d660",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "occupations",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med yrken – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "yrken",
+        "yrkena",
+        "Yrken",
+        "occupations",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av yrkena som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar yrkena runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med havsdjur, eller prova något med blommor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med yrken är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-yrken-d660",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Havsliv",
+          "href": "rutmatchning-havsliv-9e7d"
+        },
+        {
+          "label": "Bildrutnät – Husdjur",
+          "href": "rutmatchning-husdjur-1d7f"
+        },
+        {
+          "label": "Bildrutnät – Former",
+          "href": "rutmatchning-former-f15b"
+        },
+        {
+          "label": "Bildrutnät – Verktyg",
+          "href": "rutmatchning-verktyg-b86e"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Yrken | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Yrken. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-havsliv-9e7d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med havsdjur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "havsdjur",
+        "havsdjuren",
+        "Havsliv",
+        "ocean life",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad havsdjur i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på havsdjuren och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med djur, eller prova något med solar – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med havsdjur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-havsliv-9e7d",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Husdjur",
+          "href": "rutmatchning-husdjur-1d7f"
+        },
+        {
+          "label": "Bildrutnät – Postkontor",
+          "href": "rutmatchning-postkontor-8bb7"
+        },
+        {
+          "label": "Bildrutnät – Rymden",
+          "href": "rutmatchning-rymden-f50f"
+        },
+        {
+          "label": "Bildrutnät – Leksaker",
+          "href": "rutmatchning-leksaker-c202"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Havsliv | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Havsliv. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-husdjur-1d7f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "pets",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med djur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "djur",
+        "djuren",
+        "Husdjur",
+        "pets",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar djuren som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan djuren innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med brev, eller prova något med pumpor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med djur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-husdjur-1d7f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Postkontor",
+          "href": "rutmatchning-postkontor-8bb7"
+        },
+        {
+          "label": "Bildrutnät – Reptiler och groddjur",
+          "href": "rutmatchning-reptiler-och-groddjur-a87d"
+        },
+        {
+          "label": "Bildrutnät – Vår",
+          "href": "rutmatchning-var-83f5"
+        },
+        {
+          "label": "Bildrutnät – Träd",
+          "href": "rutmatchning-trad-56c8"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Husdjur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Husdjur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-postkontor-8bb7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "post_office",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med brev – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "brev",
+        "breven",
+        "Postkontor",
+        "post office",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på breven i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med brev som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "Här är rutnätet redan halvfyllt, och ditt barn kompletterar de bilder som fattas steg för steg. Det betraktar breven runt omkring och känner vilken del som ännu hör till den tomma platsen. En mjuk och överskådlig uppgift att börja med, där varje barn får uppleva en känsla av att lyckas. Att titta i stället för att räkna, i ditt alldeles egna tempo, utan press och utan tävling.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med reptiler, eller prova något med flygplan – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med brev är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-postkontor-8bb7",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Reptiler och groddjur",
+          "href": "rutmatchning-reptiler-och-groddjur-a87d"
+        },
+        {
+          "label": "Bildrutnät – Former",
+          "href": "rutmatchning-former-f15b"
+        },
+        {
+          "label": "Bildrutnät – Sommar",
+          "href": "rutmatchning-sommar-4b6f"
+        },
+        {
+          "label": "Bildrutnät – Grönsaker",
+          "href": "rutmatchning-gronsaker-9e56"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Postkontor | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Postkontor. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-reptiler-och-groddjur-a87d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med reptiler – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "reptiler",
+        "reptilerna",
+        "Reptiler och groddjur",
+        "reptiles and amphibians",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av reptilerna som hör hemma i luckan. Med reptiler som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på reptilerna och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med former, eller prova något med verktyg – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med reptiler är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-reptiler-och-groddjur-a87d",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Former",
+          "href": "rutmatchning-former-f15b"
+        },
+        {
+          "label": "Bildrutnät – Rymden",
+          "href": "rutmatchning-rymden-f50f"
+        },
+        {
+          "label": "Bildrutnät – Thanksgiving",
+          "href": "rutmatchning-thanksgiving-cd70"
+        },
+        {
+          "label": "Bildrutnät – Fordon",
+          "href": "rutmatchning-fordon-e28b"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Reptiler och groddjur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Reptiler och groddjur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-former-f15b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "shapes",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med former – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "former",
+        "formerna",
+        "Former",
+        "shapes",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och formerna i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med former hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan formerna innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med stjärnor, eller prova något med leksaker – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med former är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-former-f15b",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Rymden",
+          "href": "rutmatchning-rymden-f50f"
+        },
+        {
+          "label": "Bildrutnät – Vår",
+          "href": "rutmatchning-var-83f5"
+        },
+        {
+          "label": "Bildrutnät – Saker som flyger",
+          "href": "rutmatchning-saker-som-flyger-63dd"
+        },
+        {
+          "label": "Bildrutnät – Väder",
+          "href": "rutmatchning-vader-36f9"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Former | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Former. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-rymden-f50f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "space",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med stjärnor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "stjärnor",
+        "stjärnorna",
+        "Rymden",
+        "space",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med stjärnorna som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med stjärnor som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på stjärnorna för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med blommor, eller prova något med träd – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med stjärnor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-rymden-f50f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Vår",
+          "href": "rutmatchning-var-83f5"
+        },
+        {
+          "label": "Bildrutnät – Sommar",
+          "href": "rutmatchning-sommar-4b6f"
+        },
+        {
+          "label": "Bildrutnät – Verktyg",
+          "href": "rutmatchning-verktyg-b86e"
+        },
+        {
+          "label": "Bildrutnät – Vinter",
+          "href": "rutmatchning-vinter-73c9"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Rymden | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Rymden. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-var-83f5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "spring",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med blommor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "blommor",
+        "blommorna",
+        "Vår",
+        "spring",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av blommorna som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med blommor som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på blommorna och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med solar, eller prova något med grönsaker – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med blommor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-var-83f5",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Sommar",
+          "href": "rutmatchning-sommar-4b6f"
+        },
+        {
+          "label": "Bildrutnät – Thanksgiving",
+          "href": "rutmatchning-thanksgiving-cd70"
+        },
+        {
+          "label": "Bildrutnät – Leksaker",
+          "href": "rutmatchning-leksaker-c202"
+        },
+        {
+          "label": "Bildrutnät – Djurparksdjur",
+          "href": "rutmatchning-djurparksdjur-f4e3"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Vår | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Vår. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-sommar-4b6f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "summer",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med solar – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "solar",
+        "solarna",
+        "Sommar",
+        "summer",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av solarna som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan solarna innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med pumpor, eller prova något med fordon – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med solar är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-sommar-4b6f",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Thanksgiving",
+          "href": "rutmatchning-thanksgiving-cd70"
+        },
+        {
+          "label": "Bildrutnät – Saker som flyger",
+          "href": "rutmatchning-saker-som-flyger-63dd"
+        },
+        {
+          "label": "Bildrutnät – Träd",
+          "href": "rutmatchning-trad-56c8"
+        },
+        {
+          "label": "Bildrutnät – Tillbehör",
+          "href": "rutmatchning-tillbehor-dfa4"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Sommar | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Sommar. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-thanksgiving-cd70",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med pumpor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "pumpor",
+        "pumporna",
+        "Thanksgiving",
+        "thanksgivinng",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad pumpor i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på pumporna för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med flygplan, eller prova något med moln – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med pumpor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-thanksgiving-cd70",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Saker som flyger",
+          "href": "rutmatchning-saker-som-flyger-63dd"
+        },
+        {
+          "label": "Bildrutnät – Verktyg",
+          "href": "rutmatchning-verktyg-b86e"
+        },
+        {
+          "label": "Bildrutnät – Grönsaker",
+          "href": "rutmatchning-gronsaker-9e56"
+        },
+        {
+          "label": "Bildrutnät – Aktiviteter",
+          "href": "rutmatchning-aktiviteter-c46b"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Thanksgiving | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Thanksgiving. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-saker-som-flyger-63dd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med flygplan – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "flygplan",
+        "flygplanen",
+        "Saker som flyger",
+        "things that fly",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar flygplanen som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på flygplanen och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med verktyg, eller prova något med snöflingor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med flygplan är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-saker-som-flyger-63dd",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Verktyg",
+          "href": "rutmatchning-verktyg-b86e"
+        },
+        {
+          "label": "Bildrutnät – Leksaker",
+          "href": "rutmatchning-leksaker-c202"
+        },
+        {
+          "label": "Bildrutnät – Fordon",
+          "href": "rutmatchning-fordon-e28b"
+        },
+        {
+          "label": "Bildrutnät – Djur",
+          "href": "rutmatchning-djur"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Saker som flyger | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Saker som flyger. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-verktyg-b86e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "tools",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med verktyg – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "verktyg",
+        "verktygen",
+        "Verktyg",
+        "tools",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken bild hör hemma i den tomma rutan? I det här bildrutnätet är några rutor redan ifyllda och några står tomma. Ditt barn tittar noga på verktygen i rutnätet och funderar på vilken bild som passar i varje lucka, så att hela bilden blir komplett igen. Det handlar om att titta, inte att räkna – en riktig förberedande färdighet inför skolan. Ditt barn lär sig att se hur en del hör ihop med en helhet och att granska noga. Med verktyg som ditt barn redan känner igen blir starten mjuk, och varje ifylld ruta känns som en liten framgång. Det finns ingen press och ingen klocka som tickar i bakgrunden, utan ditt barn får sitta kvar vid uppgiften precis så länge som det själv vill. Låt ditt barn ta den tid det behöver.",
+      "p2": "I den här varianten liknar bilderna varandra en aning, så ditt barn skiljer riktigt noga mellan verktygen innan det lägger den passande delen i den tomma rutan. Det skärper den visuella perceptionen på ett fint och lekfullt sätt. Ditt barn får titta så ofta det vill – här räknas bara ögat, inte siffran. Ett kärleksfullt steg mot det logiska tänkandet kring delar och helhet, helt i barnets eget tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med leksaker, eller prova något med djur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med verktyg är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-verktyg-b86e",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Leksaker",
+          "href": "rutmatchning-leksaker-c202"
+        },
+        {
+          "label": "Bildrutnät – Träd",
+          "href": "rutmatchning-trad-56c8"
+        },
+        {
+          "label": "Bildrutnät – Väder",
+          "href": "rutmatchning-vader-36f9"
+        },
+        {
+          "label": "Bildrutnät – Runt huset",
+          "href": "rutmatchning-runt-huset-3d66"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Verktyg | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Verktyg. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-leksaker-c202",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "toys",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med leksaker – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "leksaker",
+        "leksakerna",
+        "Leksaker",
+        "toys",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Vilken del passar i rutnätet? Den frågan står i centrum för vårt bildrutnät för förskolan. Ditt barn ser ett rutnät med några ifyllda och några tomma rutor och funderar på vilken av leksakerna som hör hemma i luckan. Med leksaker som barnet redan känner igen lyckas den första blicken utan ansträngning. På så vis tränar ditt barn det logiska tänkandet kring delar och helhet – en färdighet som behövs senare när bokstäver och former ska kännas igen. Det finns ingen kapplöpning och inga stjärnor att samla, bara ditt barn som i lugn och ro gör en bild fullständig och tittar stolt på det färdiga rutnätet. Sådana stunder av eftertanke och igenkänning är värdefulla just nu, alldeles oavsett hur snabbt det går.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på leksakerna för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med träd, eller prova något med accessoarer – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med leksaker är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-leksaker-c202",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Träd",
+          "href": "rutmatchning-trad-56c8"
+        },
+        {
+          "label": "Bildrutnät – Grönsaker",
+          "href": "rutmatchning-gronsaker-9e56"
+        },
+        {
+          "label": "Bildrutnät – Vinter",
+          "href": "rutmatchning-vinter-73c9"
+        },
+        {
+          "label": "Bildrutnät – I snabbköpet",
+          "href": "rutmatchning-i-snabbkopet-d81a"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Leksaker | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Leksaker. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-trad-56c8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "tree",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med träd – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "träd",
+        "träden",
+        "Träd",
+        "tree",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Titta, inte räkna: i det här bildrutnätet kommer ditt barn fram till vilken bild som hör hemma i varje tom ruta. Några rutor är redan ifyllda, och träden i dem ger ledtråden om vad som fattas. Ditt barn jämför, funderar och gör rutnätet komplett ruta för ruta – en lugn uppgift för det logiska tänkandet kring delar och helhet. Det finns inga poäng och ingen klocka som tickar; ditt barn får titta så länge det vill. Med träd hämtade ur barnets egen värld förblir uppgiften trygg och inbjudande, och känslan av att lyckas infinner sig alldeles av sig själv när bilden faller på plats. Det är ett stillsamt sätt att förbereda ögat och tanken inför skolan, helt på barnets egna villkor.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på träden och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med grönsaker, eller prova något med aktiviteter – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med träd är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-trad-56c8",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Grönsaker",
+          "href": "rutmatchning-gronsaker-9e56"
+        },
+        {
+          "label": "Bildrutnät – Fordon",
+          "href": "rutmatchning-fordon-e28b"
+        },
+        {
+          "label": "Bildrutnät – Djurparksdjur",
+          "href": "rutmatchning-djurparksdjur-f4e3"
+        },
+        {
+          "label": "Bildrutnät – Bageri",
+          "href": "rutmatchning-bageri-a94c"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Träd | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Träd. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-gronsaker-9e56",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med grönsaker – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "grönsaker",
+        "grönsakerna",
+        "Grönsaker",
+        "vegetables",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "I det här bildrutnätet blir ditt barn en uppmärksam iakttagare: det tittar noga och känner igen vilken del som hör hemma i den ruta som fattas. Några rutor är redan ifyllda, resten väntar ännu tomma – och med grönsakerna som ledtråd gör ditt barn bilden komplett ruta för ruta. Här handlar det om att titta i stället för att räkna, om det logiska tänkande kring delar och helhet som är så viktigt innan skolan börjar. Med grönsaker som barnet känner igen förblir allt lekfullt och inbjudande. Det finns ingen tid som rinner iväg och inget fel som räknas – bara den lugna glädjen i att foga ihop en hel bild.",
+      "p2": "I den här versionen bjuder ett något större rutnät in ditt barn att fylla flera tomma rutor efter varandra. Med grönsaker som vägvisare ser barnet så småningom vilken del som hör vart och gör på så vis hela bilden fullständig. Det stärker uthålligheten och det noggranna tittandet på samma gång. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid det färdiga rutnätet och ett växande självförtroende.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med fordon, eller prova något med djur – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med grönsaker är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-gronsaker-9e56",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Fordon",
+          "href": "rutmatchning-fordon-e28b"
+        },
+        {
+          "label": "Bildrutnät – Väder",
+          "href": "rutmatchning-vader-36f9"
+        },
+        {
+          "label": "Bildrutnät – Tillbehör",
+          "href": "rutmatchning-tillbehor-dfa4"
+        },
+        {
+          "label": "Bildrutnät – Strand",
+          "href": "rutmatchning-strand-4813"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Grönsaker | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Grönsaker. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-fordon-e28b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med fordon – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "fordon",
+        "fordonen",
+        "Fordon",
+        "vehicles",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Några rutor fyllda, några tomma – och ditt barn gör bilden komplett. I det här bildrutnätet ser barnet vilken av fordonen som passar i varje ledig ruta och gör så hela mönstret fullständigt. Det är ren visuell perception: att titta, jämföra och lägga den passande delen till helheten. Här räknas ingenting, för i förskolan väger ögat tyngre än siffran. Med fordon som trygga följeslagare förblir övningen varm och utan press. Varje gång en tom ruta fylls rätt växer ditt barns självförtroende en liten bit – och det är just det som året före skolan handlar om. Att se hur en del fogas in i en helhet är en grund som bär långt, både i lek och senare i skolarbetet. Låt det ta sin tid.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på fordonen för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med moln, eller prova något med saker – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med fordon är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-fordon-e28b",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Väder",
+          "href": "rutmatchning-vader-36f9"
+        },
+        {
+          "label": "Bildrutnät – Vinter",
+          "href": "rutmatchning-vinter-73c9"
+        },
+        {
+          "label": "Bildrutnät – Aktiviteter",
+          "href": "rutmatchning-aktiviteter-c46b"
+        },
+        {
+          "label": "Bildrutnät – Fåglar",
+          "href": "rutmatchning-faglar-d8fa"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Fordon | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Fordon. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-vader-36f9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "weather",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med moln – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "moln",
+        "molnen",
+        "Väder",
+        "weather",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att göra en bild fullständig – det är just det som gör det här bildrutnätet så fint för förskolan. Några rutor visar redan en bild, andra väntar ännu tomma på rätt del. Ditt barn känner igen vilken av molnen som hör till den tomma rutan och fyller på så sätt rutnätet bit för bit. Här räknas det inte och det finns inga siffror, bara noggrant tittande och den goda känslan av att lägga en del till en helhet. Den här visuella perceptionen – att se hur en del passar in i det hela – förbereder ditt barn helt på köpet inför läsning och skrivning. I ditt eget tempo, utan press och utan att något måste gå fort.",
+      "p2": "Här är rutnätet mindre och särskilt överskådligt – idealiskt för det allra första försöket. Ditt barn tittar på molnen och kompletterar den ruta som fattas med en enda passande del. Så lyckas ifyllandet snabbt och ger genast lust på nästa bild. Att titta i stället för att räkna, varmt och utan minsta tidspress, helt i ditt barns tempo och utan att något måste vara klart.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med snöflingor, eller prova något med varor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med moln är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-vader-36f9",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Vinter",
+          "href": "rutmatchning-vinter-73c9"
+        },
+        {
+          "label": "Bildrutnät – Djurparksdjur",
+          "href": "rutmatchning-djurparksdjur-f4e3"
+        },
+        {
+          "label": "Bildrutnät – Djur",
+          "href": "rutmatchning-djur"
+        },
+        {
+          "label": "Bildrutnät – Fåglar 2",
+          "href": "rutmatchning-faglar-2-8e04"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Väder | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Väder. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-vinter-73c9",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "winter",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med snöflingor – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "snöflingor",
+        "snöflingorna",
+        "Vinter",
+        "winter",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "En tom ruta, en passande del – och bilden är hel. Så enkelt och så verksamt är det här bildrutnätet för förskolan. Ditt barn betraktar en rad snöflingor i rutnätet och kommer fram till vilken bild som ännu saknas för att göra allt fullständigt. Den här uppgiften övar det noggranna tittandet och känslan för hur en del hör till det hela – helt utan siffror, helt utan att räkna. Året före skolan är just det en värdefull förberedande färdighet. Ditt barn får upptäcka i stället för att beta av, och varje fullbordat rutnät är en liten, äkta framgång som ger lust att fortsätta med nästa. Hela tiden är det ögat och tanken som leder vägen, i en lugn takt som passar just ditt barn.",
+      "p2": "I den här versionen bjuder ett något större rutnät in ditt barn att fylla flera tomma rutor efter varandra. Med snöflingor som vägvisare ser barnet så småningom vilken del som hör vart och gör på så vis hela bilden fullständig. Det stärker uthålligheten och det noggranna tittandet på samma gång. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid det färdiga rutnätet och ett växande självförtroende.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med djur, eller prova något med bakverk – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med snöflingor är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-vinter-73c9",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Djurparksdjur",
+          "href": "rutmatchning-djurparksdjur-f4e3"
+        },
+        {
+          "label": "Bildrutnät – Tillbehör",
+          "href": "rutmatchning-tillbehor-dfa4"
+        },
+        {
+          "label": "Bildrutnät – Runt huset",
+          "href": "rutmatchning-runt-huset-3d66"
+        },
+        {
+          "label": "Bildrutnät – Kroppsdelar",
+          "href": "rutmatchning-kroppsdelar-bb1f"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Vinter | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Vinter. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rutmatchning-djurparksdjur-f4e3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "grid-match",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "forskola"
+      },
+      "eyebrow": "Arbetsblad: Bildrutnät",
+      "h1": "Bildrutnät med djur – arbetsblad för förskolan",
+      "strand": "Visuell perception och logiskt tänkande",
+      "slotTokens": [
+        "djur",
+        "djuren",
+        "Djurparksdjur",
+        "zoo animals",
+        "forskola",
+        "bildrutnät"
+      ],
+      "p1": "Att fylla den ruta som saknas – det är vad det här bildrutnätet handlar om för förskolebarn. Ditt barn betraktar djuren som redan ligger i rutnätet och letar reda på vilken del som hör till luckan, så att allt passar ihop. På så vis övar barnet helt lekfullt på att tänka kring en del och en helhet, utan en enda siffra. Den här visuella perceptionen är en viktig förberedande färdighet långt innan det första skolåret börjar. Det är en stillsam uppgift utan rätt eller fel under tidspress: ditt barn tittar, provar och blir glatt när bilden blir hel. Med bekanta motiv i rutorna känns varje steg igenkännbart och tryggt, och barnet vågar utforska på egen hand. Just den goda känslan bär lärandet vidare.",
+      "p2": "I den här varianten är bara ett fåtal rutor ifyllda från början, så ditt barn får titta extra noga på djuren för att sluta luckorna. Det gör ifyllandet till en liten upptäcktsresa. Ditt barn tar sin tid, jämför i lugn och ro och lägger varje del till helheten med en nöjd känsla. Utan siffror och utan brådska – bara titta och låta delarna falla på plats, helt i ditt barns tempo.",
+      "p3": "Om ditt barn tycker om det här bildrutnätet finns det mycket mer att upptäcka, helt utan press. Titta gärna på uppgifterna med accessoarer, eller prova något med snäckor – båda bjuder in ditt barn att titta noga och foga ihop delar till en helhet. Hela samlingen med djur är gratis och väntar på att spelas online eller skrivas ut, precis som ni vill ha det. Så hittar ditt barn alltid en ny bild att göra fullständig, i sitt eget tempo och med många små stunder där det får lyckas. Mycket nöje med att titta, upptäcka och göra bilden hel!",
+      "canonicalDeckSlug": "rutmatchning-djurparksdjur-f4e3",
+      "carousel": [
+        {
+          "label": "Bildrutnät – Tillbehör",
+          "href": "rutmatchning-tillbehor-dfa4"
+        },
+        {
+          "label": "Bildrutnät – Aktiviteter",
+          "href": "rutmatchning-aktiviteter-c46b"
+        },
+        {
+          "label": "Bildrutnät – I snabbköpet",
+          "href": "rutmatchning-i-snabbkopet-d81a"
+        },
+        {
+          "label": "Bildrutnät – Frukost",
+          "href": "rutmatchning-frukost-2217"
+        }
+      ],
+      "title": "Arbetsblad Bildrutnät – Djurparksdjur | skriva ut PDF gratis",
+      "metaDescription": "Bildrutnät – Djurparksdjur. Fyll i bildrutnätet. Gratis arbetsblad att skriva ut (PDF)."
+    }
+  ]
+}

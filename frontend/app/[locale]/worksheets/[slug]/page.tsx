@@ -30,6 +30,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   en: { jsonld: 'Common Core State Standards', chip: 'Common Core' },
   de: { jsonld: 'Bildungsstandards der Kultusministerkonferenz (KMK)', chip: 'Lehrplan' },
   es: { jsonld: 'Nueva Escuela Mexicana (SEP)', chip: 'Nueva Escuela Mexicana' },
+  sv: { jsonld: 'Läroplan för grundskolan (Lgr22)', chip: 'Lgr22' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -59,6 +60,13 @@ const UI_STRINGS: Record<string, {
     comingSoon: '', // es (MX): no dashed framework chip on strand-only landings (decided per coordinate at the es ledger)
     madeWith: (t) => `Hecho con el generador de ${t}`, typeCrumb: (e) => e,
     playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
+  },
+  sv: {
+    worksheets: 'Arbetsblad', playInteractive: 'Spela', downloadPdf: 'Ladda ner PDF', answerKey: 'Facit',
+    moreToTry: 'Fler arbetsblad att prova', tryInteractive: 'Prova interaktivt', makerSoon: 'Generatorsida kommer snart.',
+    comingSoon: '', // sv: no dashed framework chip on strand-only readiness landings (per the sv ledger ⑥)
+    madeWith: (t) => `Skapat med ${t}-generatorn`, typeCrumb: (e) => e.replace(/^Arbetsblad:\s*/, ''),
+    playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
   },
 };
 
@@ -162,6 +170,10 @@ export default function WorksheetLandingPage(
     'preescolar': { chip: 'Preescolar (5 años)', schema: 'Educación Preescolar', age: '5-6' },
     'primer-grado': { chip: 'Primer grado', schema: 'Primer grado de primaria', age: '6-7' },
     'segundo-grado': { chip: 'Segundo grado', schema: 'Segundo grado de primaria', age: '7-8' },
+    // sv 3-band axis (Lgr22, +1-year Nordic shift): förskola (readiness, EN Preschool+Kindergarten) / åk 1 / åk 2.
+    'forskola': { chip: 'Förskola', schema: 'Förskola', age: '4-6' },
+    'ak-1': { chip: 'Åk 1', schema: 'Årskurs 1', age: '7-8' },
+    'ak-2': { chip: 'Åk 2', schema: 'Årskurs 2', age: '8-9' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[k]).filter(Boolean);

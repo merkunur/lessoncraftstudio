@@ -73,13 +73,17 @@ const TYPE_MAP = {
   'picture-path':  { op: 'Beelddoolhof', qual: { 'choose-path': 'kies de goede weg', 'classic-maze': 'klassiek doolhof' } },
   'picture-trail': { op: 'Beelddoolhof', qual: {} },
   'picture-sort':  { op: 'Plaatjes sorteren', qual: {} },
-  'alphabet-train':{ op: 'Alfabettrein', qual: {} },
-  matching:        { op: { letter: 'Letters verbinden', name: 'Woorden verbinden' }, qual: {} },
+  // literacy [X] tokens re-keyed to the 2026-06-12 nl literacy harvest (attested demand;
+  // honest-fit gated): Alfabet (Minipret), Beginletters (juf-sites), Woordjes lezen (VLL
+  // ecosystem), Ontbrekende letters (taal-oefenen.nl category), Husselwoorden (Wiesewijs/
+  // taal-oefenen/Meester Maarten), Kruiswoordpuzzel + honest "met plaatjes" distinguisher.
+  'alphabet-train':{ op: 'Alfabet', qual: {} },
+  matching:        { op: { letter: 'Beginletters', name: 'Woordjes lezen' }, qual: {} },
   prepositions:    { op: 'Voorzetsels', qual: { fillin: 'invullen', multiplechoice: 'meerkeuze' } },
-  'word-guess':    { op: 'Raad het woord', qual: { easy: 'makkelijk', normal: 'normaal' } },
-  'word-scramble': { op: 'Woordpuzzel', qual: { easy: 'makkelijk', normal: 'normaal' } },
+  'word-guess':    { op: 'Ontbrekende letters', qual: { 'null': 'oefenmix', easy: 'korte woorden', normal: 'langere woorden' } },
+  'word-scramble': { op: 'Husselwoorden', qual: { easy: 'korte woorden', normal: 'langere woorden' } },
   wordsearch:      { op: 'Woordzoeker', qual: {} },
-  crossword:       { op: 'Beeldkruiswoordpuzzel', qual: {} },
+  crossword:       { op: 'Kruiswoordpuzzel', qual: { 'null': 'met plaatjes' } },
   'treasure-hunt': { op: 'Schattenjacht', qual: { 'cardinal-arrows': 'met pijlen', compass: 'met kompas' } },
 };
 
@@ -94,10 +98,10 @@ const META_FLAVOR = {
   bingo: 'speel beeldbingo en markeer het juiste vakje', 'pattern-train': 'maak het patroon af met het juiste plaatje',
   'pattern-worksheet': 'maak het patroon af', 'picture-path': 'volg de goede weg door het doolhof',
   'picture-trail': 'volg de goede weg door het doolhof', 'picture-sort': 'sorteer de plaatjes in de juiste groep',
-  'alphabet-train': 'zet de letters in de juiste volgorde', matching: 'trek een lijn tussen de paren die bij elkaar horen',
-  prepositions: 'kies het juiste voorzetsel', 'word-guess': 'raad het woord letter voor letter',
-  'word-scramble': 'zet de letters in de juiste volgorde', wordsearch: 'zoek de woorden in het rooster',
-  crossword: 'los de beeldkruiswoordpuzzel op', 'treasure-hunt': 'volg de aanwijzingen naar de schat',
+  'alphabet-train': 'zet de letters van het alfabet in de juiste volgorde', matching: 'trek een lijn tussen het plaatje en de letter of het woord',
+  prepositions: 'kies het juiste voorzetsel bij het plaatje', 'word-guess': 'vul de ontbrekende letters in en maak het woord af',
+  'word-scramble': 'hussel de letters terug tot het goede woord', wordsearch: 'zoek de woorden in het letterrooster',
+  crossword: 'vul de kruiswoordpuzzel in met de woorden bij de plaatjes', 'treasure-hunt': 'volg de aanwijzingen naar de schat',
 };
 
 // ---------------------------------------------------------------------------

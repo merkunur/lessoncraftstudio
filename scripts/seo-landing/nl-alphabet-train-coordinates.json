@@ -1,0 +1,632 @@
+{
+  "locale": "nl",
+  "exerciseType": "alphabet-train",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 40,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 38
+  },
+  "totalValid": 38,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabettrein-accessoires-8436",
+      "siblings": [
+        "alfabettrein-accessoires-8436"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabettrein-activiteiten-01ed",
+      "siblings": [
+        "alfabettrein-activiteiten-01ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "alfabettrein-dieren",
+      "siblings": [
+        "alfabettrein-dieren",
+        "alfabettrein-dieren-d488"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabettrein-rond-het-huis-7287",
+      "siblings": [
+        "alfabettrein-rond-het-huis-7287"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabettrein-in-de-supermarkt-16e5",
+      "siblings": [
+        "alfabettrein-in-de-supermarkt-16e5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabettrein-strand-326f",
+      "siblings": [
+        "alfabettrein-strand-326f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alfabettrein-vogels-2-e125",
+      "siblings": [
+        "alfabettrein-vogels-2-e125"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabettrein-lichaamsdelen-68f8",
+      "siblings": [
+        "alfabettrein-lichaamsdelen-68f8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alfabettrein-ontbijt-e079",
+      "siblings": [
+        "alfabettrein-ontbijt-e079"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabettrein-kamperen-842e",
+      "siblings": [
+        "alfabettrein-kamperen-842e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabettrein-kerstmis-ff87",
+      "siblings": [
+        "alfabettrein-kerstmis-ff87"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabettrein-klaslokaal-aa8c",
+      "siblings": [
+        "alfabettrein-klaslokaal-aa8c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabettrein-kleding-b384",
+      "siblings": [
+        "alfabettrein-kleding-b384"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "alfabettrein-kleuren-b132",
+      "siblings": [
+        "alfabettrein-kleuren-b132"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "alfabettrein-desserts-en-snoep-91f7",
+      "siblings": [
+        "alfabettrein-desserts-en-snoep-91f7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabettrein-pasen-a7e2",
+      "siblings": [
+        "alfabettrein-pasen-a7e2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabettrein-boerderijdieren-7955",
+      "siblings": [
+        "alfabettrein-boerderijdieren-7955"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabettrein-boswezens-8dc0",
+      "siblings": [
+        "alfabettrein-boswezens-8dc0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alfabettrein-fruit-786f",
+      "siblings": [
+        "alfabettrein-fruit-786f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "alfabettrein-meubels-f704",
+      "siblings": [
+        "alfabettrein-meubels-f704"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabettrein-ziekenhuis-5c13",
+      "siblings": [
+        "alfabettrein-ziekenhuis-5c13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabettrein-keukengerei-bbdd",
+      "siblings": [
+        "alfabettrein-keukengerei-bbdd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "alfabettrein-muziek-4e01",
+      "siblings": [
+        "alfabettrein-muziek-4e01"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabettrein-beroepen-fdb3",
+      "siblings": [
+        "alfabettrein-beroepen-fdb3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alfabettrein-oceaanleven-72d9",
+      "siblings": [
+        "alfabettrein-oceaanleven-72d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "alfabettrein-vormen-6d56",
+      "siblings": [
+        "alfabettrein-vormen-6d56"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabettrein-ruimte-f8a2",
+      "siblings": [
+        "alfabettrein-ruimte-f8a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabettrein-lente-bbc6",
+      "siblings": [
+        "alfabettrein-lente-bbc6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabettrein-zomer-935f",
+      "siblings": [
+        "alfabettrein-zomer-935f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabettrein-thanksgiving-4c49",
+      "siblings": [
+        "alfabettrein-thanksgiving-4c49"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabettrein-dingen-die-vliegen-87c1",
+      "siblings": [
+        "alfabettrein-dingen-die-vliegen-87c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "alfabettrein-gereedschap-1c06",
+      "siblings": [
+        "alfabettrein-gereedschap-1c06"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabettrein-speelgoed-8a92",
+      "siblings": [
+        "alfabettrein-speelgoed-8a92"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabettrein-groenten-3b03",
+      "siblings": [
+        "alfabettrein-groenten-3b03"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alfabettrein-voertuigen-d4b6",
+      "siblings": [
+        "alfabettrein-voertuigen-d4b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "alfabettrein-weer-2eb0",
+      "siblings": [
+        "alfabettrein-weer-2eb0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "alfabettrein-winter-0068",
+      "siblings": [
+        "alfabettrein-winter-0068"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabettrein-dierentuindieren-5f11",
+      "siblings": [
+        "alfabettrein-dierentuindieren-5f11"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

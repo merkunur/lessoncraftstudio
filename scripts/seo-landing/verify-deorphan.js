@@ -33,6 +33,13 @@ const T = LOCALE === 'de' ? {
   dualTarget: 'sortera-bilder-animals-vs-flowers-4c83',      // a specific sv animals-vs- landing
   partnerHub: 'blommor',                                      // its other component's sv hub (flowers)
   typeHub: 'addition',                                        // an sv type hub to confirm unregressed
+} : LOCALE === 'nl' ? {
+  anchorHub: 'dieren',                                        // nl animals theme hub
+  goodRe: /-vs-animals(-|$)|(^|-)animals-vs-/,                // nl picture-sort slug (english-key -vs- component)
+  badRe: /(farm|zoo|sea|forest)-animals/,                    // substring-trap: *-animals must NOT match plain animals
+  dualTarget: 'beelden-sorteren-accessories-vs-animals-8b75', // a specific nl -vs-animals landing
+  partnerHub: 'accessoires',                                  // its other component's nl hub (accessories)
+  typeHub: 'optellen',                                        // an nl type hub to confirm unregressed
 } : {
   anchorHub: 'animals',
   goodRe: /(^|-)animals-vs-|-vs-animals$/,

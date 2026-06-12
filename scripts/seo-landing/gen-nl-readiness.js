@@ -51,7 +51,9 @@ function p3nl(ownTheme, nb1Theme, nb2Theme){
 const modeKey = (m) => (m === null ? 'null' : m);
 const onlyArg = arg('only', null);
 const MODES = onlyArg ? [onlyArg] : Object.keys(cfg.modes);
-const DEFAULT_LEVEL = cfg.level || 'kleuters';
+// cfg.level may be a string OR a function (mk) => levelKey for band-split-by-mode types
+// (matching letter→kleuters / name→groep-3; word-guess easy→groep-3 / normal→groep-4).
+const levelFor = (mk) => (typeof cfg.level === 'function' ? cfg.level(mk) : (cfg.level || 'kleuters'));
 
 function buildMode(mk){
   const wantMode = (mk === 'null') ? null : mk;
@@ -68,7 +70,7 @@ function buildMode(mk){
   const out=[];
   list.forEach((co,i)=>{
     const d = THEMES[co.theme];
-    const level = co.level || DEFAULT_LEVEL;
+    const level = co.level || levelFor(mk);
     const c = cellAssign(i, sk.length, p2.length);
     const nb1 = list[(i+1)%list.length], nb2 = list[(i+7)%list.length];
     const entry = {
@@ -113,6 +115,11 @@ generated.forEach(e => {
   }
   const sus = singularSlotSuspects(text);
   if (sus.length) { console.log('  B2 SINGULAR-SLOT ? ' + e.slug + ' :: ' + sus.join(', ')); lintFail++; }
+  // B3 doubled-article guard: "de de X" is never grammatical Dutch (the "de {N_PL_DEF}" template-composition
+  // defect, plDef already carrying "de "). NOTE "het het"/"het de" stay allowed — "het" is also the
+  // subject pronoun for the child ("oefent het het herkennen van").
+  const dd = text.match(/\b[Dd]e de [a-zà-ž]/g);
+  if (dd) { console.log('  B3 DOUBLED-ARTICLE ' + e.slug + ' :: ' + dd.join(', ')); lintFail++; }
 });
 let short=0; generated.forEach(e=>{const w=(e.p1+' '+e.p2+' '+e.p3).split(/\s+/).filter(Boolean).length; if(w<200){short++; if(short<=12)console.log('  SHORT ' + e.slug + ': ' + w);}});
 if (short) console.log(short + ' short (<200 words)');

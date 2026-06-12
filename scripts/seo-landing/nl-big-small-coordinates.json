@@ -1,0 +1,1303 @@
+{
+  "locale": "nl",
+  "exerciseType": "big-small",
+  "level": "kleuters",
+  "rawRowCount": 92,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 42,
+    "orderAsc": 47
+  },
+  "totalValid": 76,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig",
+    "orderAsc"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic",
+    "orderAsc/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "orderAsc/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "orderAsc/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "orderAsc/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "orderAsc/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "orderAsc/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "orderAsc/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-accessoires-21b4",
+      "siblings": [
+        "groot-klein-vind-de-grote-accessoires-21b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-dieren-23b3",
+      "siblings": [
+        "groot-klein-vind-de-grote-dieren-23b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-rond-het-huis-8b74",
+      "siblings": [
+        "groot-klein-vind-de-grote-rond-het-huis-8b74"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-in-de-supermarkt-27e2",
+      "siblings": [
+        "groot-klein-vind-de-grote-in-de-supermarkt-27e2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-bakkerij-8e30",
+      "siblings": [
+        "groot-klein-vind-de-grote-bakkerij-8e30"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-strand-19bc",
+      "siblings": [
+        "groot-klein-vind-de-grote-strand-19bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-vogels-2-a0d9",
+      "siblings": [
+        "groot-klein-vind-de-grote-vogels-2-a0d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-lichaamsdelen-5ad8",
+      "siblings": [
+        "groot-klein-vind-de-grote-lichaamsdelen-5ad8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-ontbijt-c86c",
+      "siblings": [
+        "groot-klein-vind-de-grote-ontbijt-c86c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-kamperen-16a3",
+      "siblings": [
+        "groot-klein-vind-de-grote-kamperen-16a3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-kerstmis-5edf",
+      "siblings": [
+        "groot-klein-vind-de-grote-kerstmis-5edf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-klaslokaal-0d2a",
+      "siblings": [
+        "groot-klein-vind-de-grote-klaslokaal-0d2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-kleding-db0f",
+      "siblings": [
+        "groot-klein-vind-de-grote-kleding-db0f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-desserts-en-snoep-07ba",
+      "siblings": [
+        "groot-klein-vind-de-grote-desserts-en-snoep-07ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-dinosaurussen-41a7",
+      "siblings": [
+        "groot-klein-vind-de-grote-dinosaurussen-41a7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-pasen-1c24",
+      "siblings": [
+        "groot-klein-vind-de-grote-pasen-1c24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-boerderijdieren-1faa",
+      "siblings": [
+        "groot-klein-vind-de-grote-boerderijdieren-1faa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-bloemen-b7c2",
+      "siblings": [
+        "groot-klein-vind-de-grote-bloemen-b7c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-boswezens-6c62",
+      "siblings": [
+        "groot-klein-vind-de-grote-boswezens-6c62"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-fruit-6ca8",
+      "siblings": [
+        "groot-klein-vind-de-grote-fruit-6ca8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-meubels-e666",
+      "siblings": [
+        "groot-klein-vind-de-grote-meubels-e666"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-ziekenhuis-d8c6",
+      "siblings": [
+        "groot-klein-vind-de-grote-ziekenhuis-d8c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-keukengerei-4cf4",
+      "siblings": [
+        "groot-klein-vind-de-grote-keukengerei-4cf4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-muziek-fc16",
+      "siblings": [
+        "groot-klein-vind-de-grote-muziek-fc16"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-beroepen-f42f",
+      "siblings": [
+        "groot-klein-vind-de-grote-beroepen-f42f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-oceaanleven-0273",
+      "siblings": [
+        "groot-klein-vind-de-grote-oceaanleven-0273"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-huisdieren-eb44",
+      "siblings": [
+        "groot-klein-vind-de-grote-huisdieren-eb44"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-vormen-018c",
+      "siblings": [
+        "groot-klein-vind-de-grote-vormen-018c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-ruimte-9821",
+      "siblings": [
+        "groot-klein-vind-de-grote-ruimte-9821"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-dingen-die-vliegen-75f0",
+      "siblings": [
+        "groot-klein-vind-de-grote-dingen-die-vliegen-75f0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-gereedschap-304f",
+      "siblings": [
+        "groot-klein-vind-de-grote-gereedschap-304f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-speelgoed-41dc",
+      "siblings": [
+        "groot-klein-vind-de-grote-speelgoed-41dc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-bomen-6e31",
+      "siblings": [
+        "groot-klein-vind-de-grote-bomen-6e31"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-groenten-bb13",
+      "siblings": [
+        "groot-klein-vind-de-grote-groenten-bb13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-voertuigen-bb2b",
+      "siblings": [
+        "groot-klein-vind-de-grote-voertuigen-bb2b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "groot-klein-vind-de-grote-dierentuindieren-8ea2",
+      "siblings": [
+        "groot-klein-vind-de-grote-dierentuindieren-8ea2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-accessoires-473a",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-accessoires-473a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-dieren-8de3",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-dieren-8de3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-rond-het-huis-40a7",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-rond-het-huis-40a7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-in-de-supermarkt-3714",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-in-de-supermarkt-3714"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-bakkerij-2f54",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-bakkerij-2f54"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-strand-926b",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-strand-926b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-vogels-5ea9",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-vogels-5ea9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-vogels-2-6152",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-vogels-2-6152"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-lichaamsdelen-4363",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-lichaamsdelen-4363"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-ontbijt-305c",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-ontbijt-305c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-kamperen-5b38",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-kamperen-5b38"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-kerstmis-b209",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-kerstmis-b209"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-kleding-36e8",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-kleding-36e8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-desserts-en-snoep-6a45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-dinosaurussen-6681",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-dinosaurussen-6681"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-pasen-0e9f",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-pasen-0e9f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-boerderijdieren-8024",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-boerderijdieren-8024"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-bloemen-2430",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-bloemen-2430"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-boswezens-7282",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-boswezens-7282"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-fruit-76c8",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-fruit-76c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-meubels-7243",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-meubels-7243"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-ziekenhuis-de71",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-ziekenhuis-de71"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-insecten-en-beestjes-9363"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-keukengerei-e3e9",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-keukengerei-e3e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-muziek-c6ef",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-muziek-c6ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-beroepen-5bb0",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-beroepen-5bb0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-oceaanleven-40d0",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-oceaanleven-40d0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-huisdieren-b94a",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-huisdieren-b94a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-postkantoor-cc00",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-postkantoor-cc00"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-reptielen-en-amfibieen-9264"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-vormen-53a9",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-vormen-53a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-ruimte-0fea",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-ruimte-0fea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-thanksgiving-5f97",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-thanksgiving-5f97"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-dingen-die-vliegen-07a7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-gereedschap-9cef",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-gereedschap-9cef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-speelgoed-ae96",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-speelgoed-ae96"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-bomen-5778",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-bomen-5778"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-groenten-f64b",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-groenten-f64b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-voertuigen-2cf9",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-voertuigen-2cf9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    },
+    {
+      "mode": "orderAsc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "groot-klein-oplopende-volgorde-dierentuindieren-f7de",
+      "siblings": [
+        "groot-klein-oplopende-volgorde-dierentuindieren-f7de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "kleuters"
+    }
+  ]
+}

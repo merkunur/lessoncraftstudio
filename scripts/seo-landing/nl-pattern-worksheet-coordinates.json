@@ -1,0 +1,839 @@
+{
+  "locale": "nl",
+  "exerciseType": "pattern-worksheet",
+  "level": "kleuters",
+  "rawRowCount": 50,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroon-werkblad-accessoires-604e",
+      "siblings": [
+        "patroon-werkblad-accessoires-604e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroon-werkblad-activiteiten-6ba9",
+      "siblings": [
+        "patroon-werkblad-activiteiten-6ba9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroon-werkblad-dieren-4d1f",
+      "siblings": [
+        "patroon-werkblad-dieren-4d1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroon-werkblad-rond-het-huis-0d80",
+      "siblings": [
+        "patroon-werkblad-rond-het-huis-0d80"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroon-werkblad-in-de-supermarkt-f1e8",
+      "siblings": [
+        "patroon-werkblad-in-de-supermarkt-f1e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroon-werkblad-bakkerij-144f",
+      "siblings": [
+        "patroon-werkblad-bakkerij-144f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroon-werkblad-strand-a70d",
+      "siblings": [
+        "patroon-werkblad-strand-a70d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroon-werkblad-vogels-4041",
+      "siblings": [
+        "patroon-werkblad-vogels-4041"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroon-werkblad-vogels-2-6108",
+      "siblings": [
+        "patroon-werkblad-vogels-2-6108"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroon-werkblad-lichaamsdelen-dadd",
+      "siblings": [
+        "patroon-werkblad-lichaamsdelen-dadd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroon-werkblad-ontbijt-5f8b",
+      "siblings": [
+        "patroon-werkblad-ontbijt-5f8b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroon-werkblad-kamperen-b0e8",
+      "siblings": [
+        "patroon-werkblad-kamperen-b0e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroon-werkblad-kerstmis-f6f0",
+      "siblings": [
+        "patroon-werkblad-kerstmis-f6f0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroon-werkblad-klaslokaal-4b5c",
+      "siblings": [
+        "patroon-werkblad-klaslokaal-4b5c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroon-werkblad-kleding-dd28",
+      "siblings": [
+        "patroon-werkblad-kleding-dd28"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroon-werkblad-kleuren-d9f1",
+      "siblings": [
+        "patroon-werkblad-kleuren-d9f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroon-werkblad-desserts-en-snoep-05b7",
+      "siblings": [
+        "patroon-werkblad-desserts-en-snoep-05b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroon-werkblad-dinosaurussen-018f",
+      "siblings": [
+        "patroon-werkblad-dinosaurussen-018f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroon-werkblad-pasen-4f7d",
+      "siblings": [
+        "patroon-werkblad-pasen-4f7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroon-werkblad-emoties-a13d",
+      "siblings": [
+        "patroon-werkblad-emoties-a13d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroon-werkblad-boerderijdieren-fdad",
+      "siblings": [
+        "patroon-werkblad-boerderijdieren-fdad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroon-werkblad-bloemen-d59a",
+      "siblings": [
+        "patroon-werkblad-bloemen-d59a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroon-werkblad-boswezens-03a9",
+      "siblings": [
+        "patroon-werkblad-boswezens-03a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroon-werkblad-fruit-f9ee",
+      "siblings": [
+        "patroon-werkblad-fruit-f9ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroon-werkblad-meubels-58f4",
+      "siblings": [
+        "patroon-werkblad-meubels-58f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroon-werkblad-ziekenhuis-f9f6",
+      "siblings": [
+        "patroon-werkblad-ziekenhuis-f9f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroon-werkblad-insecten-en-beestjes-c5a1",
+      "siblings": [
+        "patroon-werkblad-insecten-en-beestjes-c5a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroon-werkblad-keukengerei-f7af",
+      "siblings": [
+        "patroon-werkblad-keukengerei-f7af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroon-werkblad-muziek-98ab",
+      "siblings": [
+        "patroon-werkblad-muziek-98ab"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroon-werkblad-beroepen-066d",
+      "siblings": [
+        "patroon-werkblad-beroepen-066d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroon-werkblad-oceaanleven-1c08",
+      "siblings": [
+        "patroon-werkblad-oceaanleven-1c08"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroon-werkblad-huisdieren-ae29",
+      "siblings": [
+        "patroon-werkblad-huisdieren-ae29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroon-werkblad-postkantoor-a920",
+      "siblings": [
+        "patroon-werkblad-postkantoor-a920"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroon-werkblad-reptielen-en-amfibieen-655e",
+      "siblings": [
+        "patroon-werkblad-reptielen-en-amfibieen-655e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroon-werkblad-vormen-1ad1",
+      "siblings": [
+        "patroon-werkblad-vormen-1ad1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroon-werkblad-ruimte-77fa",
+      "siblings": [
+        "patroon-werkblad-ruimte-77fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroon-werkblad-lente-d3f2",
+      "siblings": [
+        "patroon-werkblad-lente-d3f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroon-werkblad-zomer-fb34",
+      "siblings": [
+        "patroon-werkblad-zomer-fb34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroon-werkblad-thanksgiving-21bd",
+      "siblings": [
+        "patroon-werkblad-thanksgiving-21bd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroon-werkblad-dingen-die-vliegen-7556",
+      "siblings": [
+        "patroon-werkblad-dingen-die-vliegen-7556"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroon-werkblad-gereedschap-375e",
+      "siblings": [
+        "patroon-werkblad-gereedschap-375e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroon-werkblad-speelgoed-4330",
+      "siblings": [
+        "patroon-werkblad-speelgoed-4330"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroon-werkblad-bomen-f75b",
+      "siblings": [
+        "patroon-werkblad-bomen-f75b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroon-werkblad-groenten-7b6a",
+      "siblings": [
+        "patroon-werkblad-groenten-7b6a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroon-werkblad-voertuigen-5cb8",
+      "siblings": [
+        "patroon-werkblad-voertuigen-5cb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroon-werkblad-weer-6b4a",
+      "siblings": [
+        "patroon-werkblad-weer-6b4a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroon-werkblad-winter-4cd7",
+      "siblings": [
+        "patroon-werkblad-winter-4cd7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroon-werkblad-dierentuindieren-9ea0",
+      "siblings": [
+        "patroon-werkblad-dierentuindieren-9ea0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    }
+  ]
+}

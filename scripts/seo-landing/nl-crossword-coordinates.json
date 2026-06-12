@@ -1,0 +1,743 @@
+{
+  "locale": "nl",
+  "exerciseType": "crossword",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 47,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 45
+  },
+  "totalValid": 45,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-accessoires-adfc",
+      "siblings": [
+        "kruiswoordraadsel-accessoires-adfc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-activiteiten-155e",
+      "siblings": [
+        "kruiswoordraadsel-activiteiten-155e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-dieren-cc73",
+      "siblings": [
+        "kruiswoordraadsel-dieren-cc73"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-rond-het-huis-d923",
+      "siblings": [
+        "kruiswoordraadsel-rond-het-huis-d923"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-in-de-supermarkt-49b0",
+      "siblings": [
+        "kruiswoordraadsel-in-de-supermarkt-49b0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-bakkerij-97dc",
+      "siblings": [
+        "kruiswoordraadsel-bakkerij-97dc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-strand-f9bd",
+      "siblings": [
+        "kruiswoordraadsel-strand-f9bd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-vogels-a534",
+      "siblings": [
+        "kruiswoordraadsel-vogels-a534"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-vogels-2-c8c2",
+      "siblings": [
+        "kruiswoordraadsel-vogels-2-c8c2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-lichaamsdelen-bbb1",
+      "siblings": [
+        "kruiswoordraadsel-lichaamsdelen-bbb1"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-ontbijt-38af",
+      "siblings": [
+        "kruiswoordraadsel-ontbijt-38af"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-kamperen-1fd9",
+      "siblings": [
+        "kruiswoordraadsel-kamperen-1fd9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-kerstmis-c825",
+      "siblings": [
+        "kruiswoordraadsel-kerstmis-c825"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-klaslokaal-5941",
+      "siblings": [
+        "kruiswoordraadsel-klaslokaal-5941"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-kleding-de56",
+      "siblings": [
+        "kruiswoordraadsel-kleding-de56"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-kleuren-dc6f",
+      "siblings": [
+        "kruiswoordraadsel-kleuren-dc6f"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-desserts-en-snoep-fd52",
+      "siblings": [
+        "kruiswoordraadsel-desserts-en-snoep-fd52"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-pasen-6b1a",
+      "siblings": [
+        "kruiswoordraadsel-pasen-6b1a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-emoties-410a",
+      "siblings": [
+        "kruiswoordraadsel-emoties-410a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-boerderijdieren-c3a6",
+      "siblings": [
+        "kruiswoordraadsel-boerderijdieren-c3a6"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-bloemen-4441",
+      "siblings": [
+        "kruiswoordraadsel-bloemen-4441"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-boswezens-e689",
+      "siblings": [
+        "kruiswoordraadsel-boswezens-e689"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-fruit-d2ad",
+      "siblings": [
+        "kruiswoordraadsel-fruit-d2ad"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-meubels-6b34",
+      "siblings": [
+        "kruiswoordraadsel-meubels-6b34"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-ziekenhuis-48fd",
+      "siblings": [
+        "kruiswoordraadsel-ziekenhuis-48fd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-insecten-en-beestjes-fbf9",
+      "siblings": [
+        "kruiswoordraadsel-insecten-en-beestjes-fbf9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-keukengerei-e10a",
+      "siblings": [
+        "kruiswoordraadsel-keukengerei-e10a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-muziek-a8d0",
+      "siblings": [
+        "kruiswoordraadsel-muziek-a8d0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-beroepen-56d7",
+      "siblings": [
+        "kruiswoordraadsel-beroepen-56d7"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-oceaanleven-9758",
+      "siblings": [
+        "kruiswoordraadsel-oceaanleven-9758"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-huisdieren-9a13",
+      "siblings": [
+        "kruiswoordraadsel-huisdieren-9a13"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-postkantoor-9e0e",
+      "siblings": [
+        "kruiswoordraadsel-postkantoor-9e0e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-vormen-b1dd",
+      "siblings": [
+        "kruiswoordraadsel-vormen-b1dd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-ruimte-9390",
+      "siblings": [
+        "kruiswoordraadsel-ruimte-9390"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-lente-5789",
+      "siblings": [
+        "kruiswoordraadsel-lente-5789"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-zomer-b024",
+      "siblings": [
+        "kruiswoordraadsel-zomer-b024"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-thanksgiving-6e3c",
+      "siblings": [
+        "kruiswoordraadsel-thanksgiving-6e3c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-dingen-die-vliegen-bf52",
+      "siblings": [
+        "kruiswoordraadsel-dingen-die-vliegen-bf52"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-gereedschap-ec00",
+      "siblings": [
+        "kruiswoordraadsel-gereedschap-ec00"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-speelgoed-2166",
+      "siblings": [
+        "kruiswoordraadsel-speelgoed-2166"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-groenten-7dd0",
+      "siblings": [
+        "kruiswoordraadsel-groenten-7dd0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-voertuigen-16f0",
+      "siblings": [
+        "kruiswoordraadsel-voertuigen-16f0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-weer-5ca0",
+      "siblings": [
+        "kruiswoordraadsel-weer-5ca0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-winter-397a",
+      "siblings": [
+        "kruiswoordraadsel-winter-397a"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "kruiswoordraadsel-dierentuindieren-fd0e",
+      "siblings": [
+        "kruiswoordraadsel-dierentuindieren-fd0e"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

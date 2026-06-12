@@ -1,0 +1,3919 @@
+{
+  "locale": "nl",
+  "exerciseType": "pattern-train",
+  "level": "kleuters",
+  "rawRowCount": 246,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "aab": 48,
+    "aabb": 48,
+    "abb": 48,
+    "abc": 48,
+    "(null)": 48
+  },
+  "totalValid": 240,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "aab",
+    "aabb",
+    "abb",
+    "abc",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "aab",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroontrein-aab-accessoires-5db1",
+      "siblings": [
+        "patroontrein-aab-accessoires-5db1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroontrein-aab-activiteiten-b0d2",
+      "siblings": [
+        "patroontrein-aab-activiteiten-b0d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroontrein-aab-dieren-1d8d",
+      "siblings": [
+        "patroontrein-aab-dieren-1d8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroontrein-aab-rond-het-huis-0209",
+      "siblings": [
+        "patroontrein-aab-rond-het-huis-0209"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroontrein-aab-in-de-supermarkt-8b78",
+      "siblings": [
+        "patroontrein-aab-in-de-supermarkt-8b78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroontrein-aab-bakkerij-f149",
+      "siblings": [
+        "patroontrein-aab-bakkerij-f149"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroontrein-aab-strand-7ae5",
+      "siblings": [
+        "patroontrein-aab-strand-7ae5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroontrein-aab-vogels-500a",
+      "siblings": [
+        "patroontrein-aab-vogels-500a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroontrein-aab-vogels-2-86fe",
+      "siblings": [
+        "patroontrein-aab-vogels-2-86fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroontrein-aab-lichaamsdelen-edc9",
+      "siblings": [
+        "patroontrein-aab-lichaamsdelen-edc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroontrein-aab-ontbijt-33ad",
+      "siblings": [
+        "patroontrein-aab-ontbijt-33ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroontrein-aab-kamperen-187d",
+      "siblings": [
+        "patroontrein-aab-kamperen-187d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroontrein-aab-kerstmis-90bf",
+      "siblings": [
+        "patroontrein-aab-kerstmis-90bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroontrein-aab-klaslokaal-ddb4",
+      "siblings": [
+        "patroontrein-aab-klaslokaal-ddb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroontrein-aab-kleding-11a4",
+      "siblings": [
+        "patroontrein-aab-kleding-11a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroontrein-aab-kleuren-6200",
+      "siblings": [
+        "patroontrein-aab-kleuren-6200"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroontrein-aab-desserts-en-snoep-429a",
+      "siblings": [
+        "patroontrein-aab-desserts-en-snoep-429a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroontrein-aab-dinosaurussen-8330",
+      "siblings": [
+        "patroontrein-aab-dinosaurussen-8330"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroontrein-aab-pasen-0ab7",
+      "siblings": [
+        "patroontrein-aab-pasen-0ab7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroontrein-aab-emoties-2351",
+      "siblings": [
+        "patroontrein-aab-emoties-2351"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroontrein-aab-boerderijdieren-7e1c",
+      "siblings": [
+        "patroontrein-aab-boerderijdieren-7e1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroontrein-aab-bloemen-f652",
+      "siblings": [
+        "patroontrein-aab-bloemen-f652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroontrein-aab-boswezens-4341",
+      "siblings": [
+        "patroontrein-aab-boswezens-4341"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroontrein-aab-fruit-95e3",
+      "siblings": [
+        "patroontrein-aab-fruit-95e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroontrein-aab-meubels-67fc",
+      "siblings": [
+        "patroontrein-aab-meubels-67fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroontrein-aab-ziekenhuis-cd15",
+      "siblings": [
+        "patroontrein-aab-ziekenhuis-cd15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroontrein-aab-insecten-en-beestjes-4a4c",
+      "siblings": [
+        "patroontrein-aab-insecten-en-beestjes-4a4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroontrein-aab-keukengerei-d32b",
+      "siblings": [
+        "patroontrein-aab-keukengerei-d32b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroontrein-aab-muziek-032d",
+      "siblings": [
+        "patroontrein-aab-muziek-032d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroontrein-aab-beroepen-97b3",
+      "siblings": [
+        "patroontrein-aab-beroepen-97b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroontrein-aab-oceaanleven-600c",
+      "siblings": [
+        "patroontrein-aab-oceaanleven-600c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroontrein-aab-huisdieren-0591",
+      "siblings": [
+        "patroontrein-aab-huisdieren-0591"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroontrein-aab-postkantoor-a552",
+      "siblings": [
+        "patroontrein-aab-postkantoor-a552"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroontrein-aab-reptielen-en-amfibieen-f2f2",
+      "siblings": [
+        "patroontrein-aab-reptielen-en-amfibieen-f2f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroontrein-aab-vormen-c728",
+      "siblings": [
+        "patroontrein-aab-vormen-c728"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroontrein-aab-ruimte-7dc3",
+      "siblings": [
+        "patroontrein-aab-ruimte-7dc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroontrein-aab-lente-ec03",
+      "siblings": [
+        "patroontrein-aab-lente-ec03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroontrein-aab-zomer-7a4f",
+      "siblings": [
+        "patroontrein-aab-zomer-7a4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroontrein-aab-thanksgiving-9fe4",
+      "siblings": [
+        "patroontrein-aab-thanksgiving-9fe4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroontrein-aab-dingen-die-vliegen-b51a",
+      "siblings": [
+        "patroontrein-aab-dingen-die-vliegen-b51a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroontrein-aab-gereedschap-7cad",
+      "siblings": [
+        "patroontrein-aab-gereedschap-7cad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroontrein-aab-speelgoed-5aa1",
+      "siblings": [
+        "patroontrein-aab-speelgoed-5aa1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroontrein-aab-bomen-a665",
+      "siblings": [
+        "patroontrein-aab-bomen-a665"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroontrein-aab-groenten-c864",
+      "siblings": [
+        "patroontrein-aab-groenten-c864"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroontrein-aab-voertuigen-13d9",
+      "siblings": [
+        "patroontrein-aab-voertuigen-13d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroontrein-aab-weer-d240",
+      "siblings": [
+        "patroontrein-aab-weer-d240"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroontrein-aab-winter-2036",
+      "siblings": [
+        "patroontrein-aab-winter-2036"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aab",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroontrein-aab-dierentuindieren-7907",
+      "siblings": [
+        "patroontrein-aab-dierentuindieren-7907"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroontrein-aabb-accessoires-67b1",
+      "siblings": [
+        "patroontrein-aabb-accessoires-67b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroontrein-aabb-activiteiten-bb60",
+      "siblings": [
+        "patroontrein-aabb-activiteiten-bb60"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroontrein-aabb-dieren-dff3",
+      "siblings": [
+        "patroontrein-aabb-dieren-dff3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroontrein-aabb-rond-het-huis-7848",
+      "siblings": [
+        "patroontrein-aabb-rond-het-huis-7848"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroontrein-aabb-in-de-supermarkt-7c3c",
+      "siblings": [
+        "patroontrein-aabb-in-de-supermarkt-7c3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroontrein-aabb-bakkerij-b910",
+      "siblings": [
+        "patroontrein-aabb-bakkerij-b910"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroontrein-aabb-strand-d1af",
+      "siblings": [
+        "patroontrein-aabb-strand-d1af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroontrein-aabb-vogels-7259",
+      "siblings": [
+        "patroontrein-aabb-vogels-7259"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroontrein-aabb-vogels-2-9f4b",
+      "siblings": [
+        "patroontrein-aabb-vogels-2-9f4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroontrein-aabb-lichaamsdelen-e64b",
+      "siblings": [
+        "patroontrein-aabb-lichaamsdelen-e64b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroontrein-aabb-ontbijt-c6ae",
+      "siblings": [
+        "patroontrein-aabb-ontbijt-c6ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroontrein-aabb-kamperen-4efc",
+      "siblings": [
+        "patroontrein-aabb-kamperen-4efc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroontrein-aabb-kerstmis-5b7a",
+      "siblings": [
+        "patroontrein-aabb-kerstmis-5b7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroontrein-aabb-klaslokaal-0a87",
+      "siblings": [
+        "patroontrein-aabb-klaslokaal-0a87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroontrein-aabb-kleding-a639",
+      "siblings": [
+        "patroontrein-aabb-kleding-a639"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroontrein-aabb-kleuren-0021",
+      "siblings": [
+        "patroontrein-aabb-kleuren-0021"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroontrein-aabb-desserts-en-snoep-dee5",
+      "siblings": [
+        "patroontrein-aabb-desserts-en-snoep-dee5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroontrein-aabb-dinosaurussen-ec84",
+      "siblings": [
+        "patroontrein-aabb-dinosaurussen-ec84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroontrein-aabb-pasen-24db",
+      "siblings": [
+        "patroontrein-aabb-pasen-24db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroontrein-aabb-emoties-267a",
+      "siblings": [
+        "patroontrein-aabb-emoties-267a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroontrein-aabb-boerderijdieren-d473",
+      "siblings": [
+        "patroontrein-aabb-boerderijdieren-d473"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroontrein-aabb-bloemen-2dcf",
+      "siblings": [
+        "patroontrein-aabb-bloemen-2dcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroontrein-aabb-boswezens-997c",
+      "siblings": [
+        "patroontrein-aabb-boswezens-997c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroontrein-aabb-fruit-1f59",
+      "siblings": [
+        "patroontrein-aabb-fruit-1f59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroontrein-aabb-meubels-808a",
+      "siblings": [
+        "patroontrein-aabb-meubels-808a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroontrein-aabb-ziekenhuis-7052",
+      "siblings": [
+        "patroontrein-aabb-ziekenhuis-7052"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroontrein-aabb-insecten-en-beestjes-fdec",
+      "siblings": [
+        "patroontrein-aabb-insecten-en-beestjes-fdec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroontrein-aabb-keukengerei-71ca",
+      "siblings": [
+        "patroontrein-aabb-keukengerei-71ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroontrein-aabb-muziek-51b9",
+      "siblings": [
+        "patroontrein-aabb-muziek-51b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroontrein-aabb-beroepen-90f1",
+      "siblings": [
+        "patroontrein-aabb-beroepen-90f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroontrein-aabb-oceaanleven-857b",
+      "siblings": [
+        "patroontrein-aabb-oceaanleven-857b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroontrein-aabb-huisdieren-9b6c",
+      "siblings": [
+        "patroontrein-aabb-huisdieren-9b6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroontrein-aabb-postkantoor-ed8b",
+      "siblings": [
+        "patroontrein-aabb-postkantoor-ed8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroontrein-aabb-reptielen-en-amfibieen-f114",
+      "siblings": [
+        "patroontrein-aabb-reptielen-en-amfibieen-f114"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroontrein-aabb-vormen-f75c",
+      "siblings": [
+        "patroontrein-aabb-vormen-f75c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroontrein-aabb-ruimte-c91c",
+      "siblings": [
+        "patroontrein-aabb-ruimte-c91c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroontrein-aabb-lente-5fcb",
+      "siblings": [
+        "patroontrein-aabb-lente-5fcb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroontrein-aabb-zomer-c4a1",
+      "siblings": [
+        "patroontrein-aabb-zomer-c4a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroontrein-aabb-thanksgiving-3986",
+      "siblings": [
+        "patroontrein-aabb-thanksgiving-3986"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroontrein-aabb-dingen-die-vliegen-6697",
+      "siblings": [
+        "patroontrein-aabb-dingen-die-vliegen-6697"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroontrein-aabb-gereedschap-bdbf",
+      "siblings": [
+        "patroontrein-aabb-gereedschap-bdbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroontrein-aabb-speelgoed-4321",
+      "siblings": [
+        "patroontrein-aabb-speelgoed-4321"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroontrein-aabb-bomen-d9ae",
+      "siblings": [
+        "patroontrein-aabb-bomen-d9ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroontrein-aabb-groenten-9bae",
+      "siblings": [
+        "patroontrein-aabb-groenten-9bae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroontrein-aabb-voertuigen-c6b4",
+      "siblings": [
+        "patroontrein-aabb-voertuigen-c6b4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroontrein-aabb-weer-6eb6",
+      "siblings": [
+        "patroontrein-aabb-weer-6eb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroontrein-aabb-winter-73ff",
+      "siblings": [
+        "patroontrein-aabb-winter-73ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "aabb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroontrein-aabb-dierentuindieren-92f6",
+      "siblings": [
+        "patroontrein-aabb-dierentuindieren-92f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroontrein-abb-accessoires-704c",
+      "siblings": [
+        "patroontrein-abb-accessoires-704c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroontrein-abb-activiteiten-bfc7",
+      "siblings": [
+        "patroontrein-abb-activiteiten-bfc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroontrein-abb-dieren-dc3b",
+      "siblings": [
+        "patroontrein-abb-dieren-dc3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroontrein-abb-rond-het-huis-37a6",
+      "siblings": [
+        "patroontrein-abb-rond-het-huis-37a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroontrein-abb-in-de-supermarkt-d664",
+      "siblings": [
+        "patroontrein-abb-in-de-supermarkt-d664"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroontrein-abb-bakkerij-2d47",
+      "siblings": [
+        "patroontrein-abb-bakkerij-2d47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroontrein-abb-strand-21f4",
+      "siblings": [
+        "patroontrein-abb-strand-21f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroontrein-abb-vogels-ba8a",
+      "siblings": [
+        "patroontrein-abb-vogels-ba8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroontrein-abb-vogels-2-4273",
+      "siblings": [
+        "patroontrein-abb-vogels-2-4273"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroontrein-abb-lichaamsdelen-94b7",
+      "siblings": [
+        "patroontrein-abb-lichaamsdelen-94b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroontrein-abb-ontbijt-e111",
+      "siblings": [
+        "patroontrein-abb-ontbijt-e111"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroontrein-abb-kamperen-3abc",
+      "siblings": [
+        "patroontrein-abb-kamperen-3abc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroontrein-abb-kerstmis-c485",
+      "siblings": [
+        "patroontrein-abb-kerstmis-c485"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroontrein-abb-klaslokaal-9e4e",
+      "siblings": [
+        "patroontrein-abb-klaslokaal-9e4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroontrein-abb-kleding-1a4d",
+      "siblings": [
+        "patroontrein-abb-kleding-1a4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroontrein-abb-kleuren-f68b",
+      "siblings": [
+        "patroontrein-abb-kleuren-f68b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroontrein-abb-desserts-en-snoep-2d70",
+      "siblings": [
+        "patroontrein-abb-desserts-en-snoep-2d70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroontrein-abb-dinosaurussen-2408",
+      "siblings": [
+        "patroontrein-abb-dinosaurussen-2408"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroontrein-abb-pasen-053d",
+      "siblings": [
+        "patroontrein-abb-pasen-053d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroontrein-abb-emoties-ba67",
+      "siblings": [
+        "patroontrein-abb-emoties-ba67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroontrein-abb-boerderijdieren-2a14",
+      "siblings": [
+        "patroontrein-abb-boerderijdieren-2a14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroontrein-abb-bloemen-55f3",
+      "siblings": [
+        "patroontrein-abb-bloemen-55f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroontrein-abb-boswezens-52c3",
+      "siblings": [
+        "patroontrein-abb-boswezens-52c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroontrein-abb-fruit-189b",
+      "siblings": [
+        "patroontrein-abb-fruit-189b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroontrein-abb-meubels-653c",
+      "siblings": [
+        "patroontrein-abb-meubels-653c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroontrein-abb-ziekenhuis-59db",
+      "siblings": [
+        "patroontrein-abb-ziekenhuis-59db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroontrein-abb-insecten-en-beestjes-117b",
+      "siblings": [
+        "patroontrein-abb-insecten-en-beestjes-117b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroontrein-abb-keukengerei-5879",
+      "siblings": [
+        "patroontrein-abb-keukengerei-5879"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroontrein-abb-muziek-b68d",
+      "siblings": [
+        "patroontrein-abb-muziek-b68d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroontrein-abb-beroepen-92c7",
+      "siblings": [
+        "patroontrein-abb-beroepen-92c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroontrein-abb-oceaanleven-290f",
+      "siblings": [
+        "patroontrein-abb-oceaanleven-290f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroontrein-abb-huisdieren-7349",
+      "siblings": [
+        "patroontrein-abb-huisdieren-7349"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroontrein-abb-postkantoor-a505",
+      "siblings": [
+        "patroontrein-abb-postkantoor-a505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroontrein-abb-reptielen-en-amfibieen-95dd",
+      "siblings": [
+        "patroontrein-abb-reptielen-en-amfibieen-95dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroontrein-abb-vormen-7451",
+      "siblings": [
+        "patroontrein-abb-vormen-7451"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroontrein-abb-ruimte-1153",
+      "siblings": [
+        "patroontrein-abb-ruimte-1153"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroontrein-abb-lente-14f6",
+      "siblings": [
+        "patroontrein-abb-lente-14f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroontrein-abb-zomer-5e82",
+      "siblings": [
+        "patroontrein-abb-zomer-5e82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroontrein-abb-thanksgiving-e6a0",
+      "siblings": [
+        "patroontrein-abb-thanksgiving-e6a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroontrein-abb-dingen-die-vliegen-58c1",
+      "siblings": [
+        "patroontrein-abb-dingen-die-vliegen-58c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroontrein-abb-gereedschap-c43f",
+      "siblings": [
+        "patroontrein-abb-gereedschap-c43f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroontrein-abb-speelgoed-2b5e",
+      "siblings": [
+        "patroontrein-abb-speelgoed-2b5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroontrein-abb-bomen-fd79",
+      "siblings": [
+        "patroontrein-abb-bomen-fd79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroontrein-abb-groenten-5d2f",
+      "siblings": [
+        "patroontrein-abb-groenten-5d2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroontrein-abb-voertuigen-4549",
+      "siblings": [
+        "patroontrein-abb-voertuigen-4549"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroontrein-abb-weer-245f",
+      "siblings": [
+        "patroontrein-abb-weer-245f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroontrein-abb-winter-7b40",
+      "siblings": [
+        "patroontrein-abb-winter-7b40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abb",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroontrein-abb-dierentuindieren-f536",
+      "siblings": [
+        "patroontrein-abb-dierentuindieren-f536"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroontrein-abc-accessoires-b5ab",
+      "siblings": [
+        "patroontrein-abc-accessoires-b5ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroontrein-abc-activiteiten-77c2",
+      "siblings": [
+        "patroontrein-abc-activiteiten-77c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroontrein-abc-dieren-56da",
+      "siblings": [
+        "patroontrein-abc-dieren-56da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroontrein-abc-rond-het-huis-4547",
+      "siblings": [
+        "patroontrein-abc-rond-het-huis-4547"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroontrein-abc-in-de-supermarkt-2487",
+      "siblings": [
+        "patroontrein-abc-in-de-supermarkt-2487"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroontrein-abc-bakkerij-6d47",
+      "siblings": [
+        "patroontrein-abc-bakkerij-6d47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroontrein-abc-strand-2c73",
+      "siblings": [
+        "patroontrein-abc-strand-2c73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroontrein-abc-vogels-6af7",
+      "siblings": [
+        "patroontrein-abc-vogels-6af7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroontrein-abc-vogels-2-798c",
+      "siblings": [
+        "patroontrein-abc-vogels-2-798c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroontrein-abc-lichaamsdelen-980e",
+      "siblings": [
+        "patroontrein-abc-lichaamsdelen-980e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroontrein-abc-ontbijt-39a7",
+      "siblings": [
+        "patroontrein-abc-ontbijt-39a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroontrein-abc-kamperen-01dd",
+      "siblings": [
+        "patroontrein-abc-kamperen-01dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroontrein-abc-kerstmis-d4c8",
+      "siblings": [
+        "patroontrein-abc-kerstmis-d4c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroontrein-abc-klaslokaal-7065",
+      "siblings": [
+        "patroontrein-abc-klaslokaal-7065"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroontrein-abc-kleding-eb2c",
+      "siblings": [
+        "patroontrein-abc-kleding-eb2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroontrein-abc-kleuren-45ef",
+      "siblings": [
+        "patroontrein-abc-kleuren-45ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroontrein-abc-desserts-en-snoep-0ff8",
+      "siblings": [
+        "patroontrein-abc-desserts-en-snoep-0ff8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroontrein-abc-dinosaurussen-c3a1",
+      "siblings": [
+        "patroontrein-abc-dinosaurussen-c3a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroontrein-abc-pasen-2993",
+      "siblings": [
+        "patroontrein-abc-pasen-2993"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroontrein-abc-emoties-9646",
+      "siblings": [
+        "patroontrein-abc-emoties-9646"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroontrein-abc-boerderijdieren-d540",
+      "siblings": [
+        "patroontrein-abc-boerderijdieren-d540"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroontrein-abc-bloemen-b32a",
+      "siblings": [
+        "patroontrein-abc-bloemen-b32a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroontrein-abc-boswezens-ac0b",
+      "siblings": [
+        "patroontrein-abc-boswezens-ac0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroontrein-abc-fruit-cef9",
+      "siblings": [
+        "patroontrein-abc-fruit-cef9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroontrein-abc-meubels-9f2f",
+      "siblings": [
+        "patroontrein-abc-meubels-9f2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroontrein-abc-ziekenhuis-7c53",
+      "siblings": [
+        "patroontrein-abc-ziekenhuis-7c53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroontrein-abc-insecten-en-beestjes-5108",
+      "siblings": [
+        "patroontrein-abc-insecten-en-beestjes-5108"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroontrein-abc-keukengerei-72ad",
+      "siblings": [
+        "patroontrein-abc-keukengerei-72ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroontrein-abc-muziek-69f2",
+      "siblings": [
+        "patroontrein-abc-muziek-69f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroontrein-abc-beroepen-0d24",
+      "siblings": [
+        "patroontrein-abc-beroepen-0d24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroontrein-abc-oceaanleven-5b4a",
+      "siblings": [
+        "patroontrein-abc-oceaanleven-5b4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroontrein-abc-huisdieren-e022",
+      "siblings": [
+        "patroontrein-abc-huisdieren-e022"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroontrein-abc-postkantoor-5da3",
+      "siblings": [
+        "patroontrein-abc-postkantoor-5da3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroontrein-abc-reptielen-en-amfibieen-8248",
+      "siblings": [
+        "patroontrein-abc-reptielen-en-amfibieen-8248"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroontrein-abc-vormen-a11d",
+      "siblings": [
+        "patroontrein-abc-vormen-a11d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroontrein-abc-ruimte-700b",
+      "siblings": [
+        "patroontrein-abc-ruimte-700b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroontrein-abc-lente-93ca",
+      "siblings": [
+        "patroontrein-abc-lente-93ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroontrein-abc-zomer-3fbd",
+      "siblings": [
+        "patroontrein-abc-zomer-3fbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroontrein-abc-thanksgiving-eb20",
+      "siblings": [
+        "patroontrein-abc-thanksgiving-eb20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroontrein-abc-dingen-die-vliegen-2d8e",
+      "siblings": [
+        "patroontrein-abc-dingen-die-vliegen-2d8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroontrein-abc-gereedschap-14e3",
+      "siblings": [
+        "patroontrein-abc-gereedschap-14e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroontrein-abc-speelgoed-c7d8",
+      "siblings": [
+        "patroontrein-abc-speelgoed-c7d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroontrein-abc-bomen-7071",
+      "siblings": [
+        "patroontrein-abc-bomen-7071"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroontrein-abc-groenten-f6f7",
+      "siblings": [
+        "patroontrein-abc-groenten-f6f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroontrein-abc-voertuigen-2bae",
+      "siblings": [
+        "patroontrein-abc-voertuigen-2bae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroontrein-abc-weer-0a58",
+      "siblings": [
+        "patroontrein-abc-weer-0a58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroontrein-abc-winter-4906",
+      "siblings": [
+        "patroontrein-abc-winter-4906"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": "abc",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroontrein-abc-dierentuindieren-0d4c",
+      "siblings": [
+        "patroontrein-abc-dierentuindieren-0d4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "patroontrein-accessoires-a16c",
+      "siblings": [
+        "patroontrein-accessoires-a16c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "patroontrein-activiteiten-48ae",
+      "siblings": [
+        "patroontrein-activiteiten-48ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "patroontrein-dieren-51c0",
+      "siblings": [
+        "patroontrein-dieren-51c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "patroontrein-rond-het-huis-f1e7",
+      "siblings": [
+        "patroontrein-rond-het-huis-f1e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "patroontrein-in-de-supermarkt-60e9",
+      "siblings": [
+        "patroontrein-in-de-supermarkt-60e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "patroontrein-bakkerij-0380",
+      "siblings": [
+        "patroontrein-bakkerij-0380"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "patroontrein-strand-f300",
+      "siblings": [
+        "patroontrein-strand-f300"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "patroontrein-vogels-d28f",
+      "siblings": [
+        "patroontrein-vogels-d28f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "patroontrein-vogels-2-078a",
+      "siblings": [
+        "patroontrein-vogels-2-078a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "patroontrein-lichaamsdelen-4d92",
+      "siblings": [
+        "patroontrein-lichaamsdelen-4d92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "patroontrein-ontbijt-562a",
+      "siblings": [
+        "patroontrein-ontbijt-562a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "patroontrein-kamperen-4898",
+      "siblings": [
+        "patroontrein-kamperen-4898"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "patroontrein-kerstmis-a105",
+      "siblings": [
+        "patroontrein-kerstmis-a105"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "patroontrein-klaslokaal-a0b7",
+      "siblings": [
+        "patroontrein-klaslokaal-a0b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "patroontrein-kleding-d44d",
+      "siblings": [
+        "patroontrein-kleding-d44d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "patroontrein-kleuren-0927",
+      "siblings": [
+        "patroontrein-kleuren-0927"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "patroontrein-desserts-en-snoep-5fbd",
+      "siblings": [
+        "patroontrein-desserts-en-snoep-5fbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "patroontrein-dinosaurussen-6353",
+      "siblings": [
+        "patroontrein-dinosaurussen-6353"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "patroontrein-pasen-2bc9",
+      "siblings": [
+        "patroontrein-pasen-2bc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "patroontrein-emoties-6613",
+      "siblings": [
+        "patroontrein-emoties-6613"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "patroontrein-boerderijdieren-2e57",
+      "siblings": [
+        "patroontrein-boerderijdieren-2e57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "patroontrein-bloemen-e784",
+      "siblings": [
+        "patroontrein-bloemen-e784"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "patroontrein-boswezens-302a",
+      "siblings": [
+        "patroontrein-boswezens-302a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "patroontrein-fruit-d4f6",
+      "siblings": [
+        "patroontrein-fruit-d4f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "patroontrein-meubels-7285",
+      "siblings": [
+        "patroontrein-meubels-7285"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "patroontrein-ziekenhuis-3d58",
+      "siblings": [
+        "patroontrein-ziekenhuis-3d58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "patroontrein-insecten-en-beestjes-167e",
+      "siblings": [
+        "patroontrein-insecten-en-beestjes-167e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "patroontrein-keukengerei-effb",
+      "siblings": [
+        "patroontrein-keukengerei-effb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "patroontrein-muziek-4cbf",
+      "siblings": [
+        "patroontrein-muziek-4cbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "patroontrein-beroepen-0989",
+      "siblings": [
+        "patroontrein-beroepen-0989"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "patroontrein-oceaanleven-42d2",
+      "siblings": [
+        "patroontrein-oceaanleven-42d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "patroontrein-huisdieren-b72d",
+      "siblings": [
+        "patroontrein-huisdieren-b72d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "patroontrein-postkantoor-6743",
+      "siblings": [
+        "patroontrein-postkantoor-6743"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "patroontrein-reptielen-en-amfibieen-f00c",
+      "siblings": [
+        "patroontrein-reptielen-en-amfibieen-f00c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "patroontrein-vormen-433c",
+      "siblings": [
+        "patroontrein-vormen-433c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "patroontrein-ruimte-43a3",
+      "siblings": [
+        "patroontrein-ruimte-43a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "patroontrein-lente-fe35",
+      "siblings": [
+        "patroontrein-lente-fe35"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "patroontrein-zomer-39b6",
+      "siblings": [
+        "patroontrein-zomer-39b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "patroontrein-thanksgiving-2f3e",
+      "siblings": [
+        "patroontrein-thanksgiving-2f3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "patroontrein-dingen-die-vliegen-c52d",
+      "siblings": [
+        "patroontrein-dingen-die-vliegen-c52d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "patroontrein-gereedschap-be6c",
+      "siblings": [
+        "patroontrein-gereedschap-be6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "patroontrein-speelgoed-03cc",
+      "siblings": [
+        "patroontrein-speelgoed-03cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "patroontrein-bomen-54e5",
+      "siblings": [
+        "patroontrein-bomen-54e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "patroontrein-groenten-86f4",
+      "siblings": [
+        "patroontrein-groenten-86f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "patroontrein-voertuigen-bc14",
+      "siblings": [
+        "patroontrein-voertuigen-bc14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "patroontrein-weer-4b37",
+      "siblings": [
+        "patroontrein-weer-4b37"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "patroontrein-winter-9f9b",
+      "siblings": [
+        "patroontrein-winter-9f9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "patroontrein-dierentuindieren-0d26",
+      "siblings": [
+        "patroontrein-dierentuindieren-0d26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "kleuters"
+    }
+  ]
+}

@@ -31,6 +31,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   de: { jsonld: 'Bildungsstandards der Kultusministerkonferenz (KMK)', chip: 'Lehrplan' },
   es: { jsonld: 'Nueva Escuela Mexicana (SEP)', chip: 'Nueva Escuela Mexicana' },
   sv: { jsonld: 'Läroplan för grundskolan (Lgr22)', chip: 'Lgr22' },
+  nl: { jsonld: 'Kerndoelen primair onderwijs', chip: 'SLO-kerndoelen' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -67,6 +68,13 @@ const UI_STRINGS: Record<string, {
     comingSoon: '', // sv: no dashed framework chip on strand-only readiness landings (per the sv ledger ⑥)
     madeWith: (t) => `Skapat med ${t}-generatorn`, typeCrumb: (e) => e.replace(/^Arbetsblad:\s*/, ''),
     playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
+  },
+  nl: {
+    worksheets: 'Werkbladen', playInteractive: 'Spelen', downloadPdf: 'PDF downloaden', answerKey: 'Antwoorden',
+    moreToTry: 'Meer werkbladen om te proberen', tryInteractive: 'Probeer het interactief', makerSoon: 'Generatorpagina komt binnenkort.',
+    comingSoon: '', // nl: no dashed framework chip on strand-only readiness landings (per the nl ledger ⑥)
+    madeWith: (t) => `Gemaakt met de ${t}-generator`, typeCrumb: (e) => e.replace(/^Werkblad:\s*/, ''),
+    playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
   },
 };
 
@@ -174,6 +182,11 @@ export default function WorksheetLandingPage(
     'forskola': { chip: 'Förskola', schema: 'Förskola', age: '4-6' },
     'ak-1': { chip: 'Åk 1', schema: 'Årskurs 1', age: '7-8' },
     'ak-2': { chip: 'Åk 2', schema: 'Årskurs 2', age: '8-9' },
+    // nl 3-band axis (SLO-kerndoelen): kleuters (readiness, EN Preschool+Kindergarten, groep 1-2) /
+    // groep 3 (first formal, ≤20 CARRIES) / groep 4 (21-100 CARRIES). split-at-20; groep 5 OUT.
+    'kleuters': { chip: 'Kleuters', schema: 'Kleuters (groep 1-2)', age: '4-6' },
+    'groep-3': { chip: 'Groep 3', schema: 'Groep 3', age: '6-7' },
+    'groep-4': { chip: 'Groep 4', schema: 'Groep 4', age: '7-8' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[k]).filter(Boolean);

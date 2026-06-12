@@ -113,29 +113,151 @@ export function landingSlugForDeck(locale: string, deckSlug: string): string | n
 }
 
 /**
+ * Lazy per-locale coordinate index: `${type}|${mode}|${theme}` → Landing.
+ * Built once per locale (same pattern as deckMap). Makes sibling/hreflang lookup
+ * O(1) — mandatory for the landings sitemap shard, which iterates ~25k entries
+ * and would otherwise pay an O(locales × n) linear scan per entry.
+ */
+const _coordIndex: Record<string, Map<string, Landing>> = {};
+function coordKey(c: LandingCoordinate): string {
+  return `${c.type}|${c.mode === null ? 'null' : c.mode}|${c.theme}`;
+}
+function coordIndex(locale: string): Map<string, Landing> {
+  if (_coordIndex[locale]) return _coordIndex[locale];
+  const m = new Map<string, Landing>();
+  const f = FILES[locale];
+  if (f) for (const l of f.landings) m.set(coordKey(l.coordinate), l);
+  _coordIndex[locale] = m;
+  return m;
+}
+
+/**
  * Cross-locale siblings of a landing: the SAME (type, mode, theme) coordinate in OTHER locales.
  * Matches on type+mode+theme — NOT level (level is RE-DERIVED per locale, e.g. an EN-kindergarten
  * addition coordinate is de-`1-klasse`). Drives the cross-locale hreflang block (en↔de). Returns
- * `{locale, slug}` for every other locale that has a landing for the coordinate.
+ * `{locale, slug}` for every other locale that has a landing for the coordinate. O(locales) via
+ * the coordinate index.
  */
 export function getSiblingLandingsByCoordinate(
   coordinate: LandingCoordinate,
   excludeLocale: string,
 ): Array<{ locale: string; slug: string }> {
   const out: Array<{ locale: string; slug: string }> = [];
+  const key = coordKey(coordinate);
   for (const loc of Object.keys(FILES)) {
     if (loc === excludeLocale) continue;
-    const f = FILES[loc];
-    if (!f) continue;
-    const m = f.landings.find(
-      (l) =>
-        l.coordinate.type === coordinate.type &&
-        l.coordinate.mode === coordinate.mode &&
-        l.coordinate.theme === coordinate.theme,
-    );
+    const m = coordIndex(loc).get(key);
     if (m) out.push({ locale: loc, slug: m.slug });
   }
   return out;
+}
+
+/**
+ * Lazy per-locale facet indexes over the landing set — power the hub landing
+ * browser, the standards-hub "Worksheets for this standard" section, and the
+ * landing↔landing link mesh. Same lazy-memoization pattern as deckMap; first
+ * call per locale builds all four maps in one pass (<50ms at 2.5k entries).
+ */
+interface FacetIndexes {
+  byType: Map<string, Landing[]>;
+  byTheme: Map<string, Landing[]>;
+  byLevel: Map<string, Landing[]>;
+  byStandard: Map<string, Landing[]>;
+}
+const _facets: Record<string, FacetIndexes> = {};
+function facets(locale: string): FacetIndexes {
+  if (_facets[locale]) return _facets[locale];
+  const fx: FacetIndexes = {
+    byType: new Map(),
+    byTheme: new Map(),
+    byLevel: new Map(),
+    byStandard: new Map(),
+  };
+  const push = (m: Map<string, Landing[]>, k: string, l: Landing) => {
+    const arr = m.get(k);
+    if (arr) arr.push(l);
+    else m.set(k, [l]);
+  };
+  const f = FILES[locale];
+  if (f) {
+    for (const l of f.landings) {
+      push(fx.byType, l.coordinate.type, l);
+      push(fx.byTheme, l.coordinate.theme, l);
+      push(fx.byLevel, l.coordinate.level, l);
+      if (l.standard) push(fx.byStandard, l.standard, l);
+    }
+    // Deterministic order (stable across ISR revalidations): slug-sorted.
+    for (const m of [fx.byType, fx.byTheme, fx.byLevel, fx.byStandard]) {
+      for (const arr of m.values()) arr.sort((a, b) => (a.slug < b.slug ? -1 : 1));
+    }
+  }
+  _facets[locale] = fx;
+  return fx;
+}
+
+export function getLandingsByType(locale: string, type: string): Landing[] {
+  return facets(locale).byType.get(type) || [];
+}
+export function getLandingsByTheme(locale: string, theme: string): Landing[] {
+  return facets(locale).byTheme.get(theme) || [];
+}
+export function getLandingsByLevel(locale: string, level: string): Landing[] {
+  return facets(locale).byLevel.get(level) || [];
+}
+/** Landings carrying a CCSS code (exact match, e.g. "K.MD.B.3"). Readiness landings carry none. */
+export function getLandingsByStandard(locale: string, code: string): Landing[] {
+  return facets(locale).byStandard.get(code) || [];
+}
+
+/**
+ * Deterministic landing↔landing link mesh ("More worksheets" module).
+ * Selection is a stable neighbor-window around the current landing inside
+ * slug-sorted facet lists (NO randomness — links must not churn across ISR
+ * revalidations, §16.2 ISR-cache-preserving discipline):
+ *   - up to 4 same-type (prefer same-level) other-theme landings
+ *   - up to 4 same-theme other-type landings
+ *   - up to 2 same-level other-type/theme landings
+ * Every landing therefore both emits and receives ~8-10 sibling links,
+ * de-orphaning the landing tier independently of the topic hubs.
+ */
+export interface MeshGroups {
+  sameType: Landing[];
+  sameTheme: Landing[];
+  sameLevel: Landing[];
+}
+function neighborWindow(list: Landing[], self: Landing, take: number, exclude: Set<string>): Landing[] {
+  if (take <= 0 || list.length === 0) return [];
+  const i = list.findIndex((l) => l.slug === self.slug);
+  const out: Landing[] = [];
+  // walk outward from the landing's own position (or the start when absent)
+  const start = i >= 0 ? i : 0;
+  for (let d = 1; d <= list.length && out.length < take; d++) {
+    const cand = list[(start + d) % list.length];
+    if (cand.slug === self.slug || exclude.has(cand.slug)) continue;
+    exclude.add(cand.slug);
+    out.push(cand);
+  }
+  return out;
+}
+export function getRelatedLandings(locale: string, self: Landing): MeshGroups {
+  const fx = facets(locale);
+  const exclude = new Set<string>([self.slug]);
+  // same type: prefer the same level's slice of the type list, then the rest of the type
+  const typeList = fx.byType.get(self.coordinate.type) || [];
+  const typeSameLevel = typeList.filter((l) => l.coordinate.level === self.coordinate.level);
+  let sameType = neighborWindow(typeSameLevel, self, 4, exclude);
+  if (sameType.length < 4) sameType = sameType.concat(neighborWindow(typeList, self, 4 - sameType.length, exclude));
+  const sameTheme = neighborWindow(
+    (fx.byTheme.get(self.coordinate.theme) || []).filter((l) => l.coordinate.type !== self.coordinate.type),
+    self, 4, exclude,
+  );
+  const sameLevel = neighborWindow(
+    (fx.byLevel.get(self.coordinate.level) || []).filter(
+      (l) => l.coordinate.type !== self.coordinate.type && l.coordinate.theme !== self.coordinate.theme,
+    ),
+    self, 2, exclude,
+  );
+  return { sameType, sameTheme, sameLevel };
 }
 
 /** Deck-asset URLs (nginx-served; trailing-slash dir; slug-prefixed PDFs). */

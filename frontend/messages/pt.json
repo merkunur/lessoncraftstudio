@@ -3903,7 +3903,16 @@
     "tileCta": "Ver atividades",
     "tileAlt": "Exemplo de atividade: {typeName}",
     "emptyTitle": "Ainda não há atividades disponíveis nesse idioma.",
-    "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma."
+    "emptyBody": "Nosso catálogo cresce idioma por idioma. Volte em breve ou explore outro idioma.",
+    "browse": {
+      "heading": "Explorar todas as folhas de atividades",
+      "filterType": "Tipo de exercício",
+      "filterLevel": "Nível",
+      "filterTheme": "Tema",
+      "all": "Todos",
+      "results": "{count} folhas de atividades",
+      "showAllThemes": "Ver todos os temas"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -3918,7 +3927,8 @@
     "relatedCodeLinkAriaLabel": "Ver atividades alinhadas ao padrão {code}",
     "gradeLabel": "Série",
     "tryItLink": "Experimentar",
-    "standardsBreadcrumb": "Padrões"
+    "standardsBreadcrumb": "Padrões",
+    "worksheetsHeading": "Folhas de atividades para este padrão"
   },
   "aboutPage": {
     "meta": {

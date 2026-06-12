@@ -2324,7 +2324,16 @@
     "tileCta": "Se oppgavene",
     "tileAlt": "Eksempel på oppgave: {typeName}",
     "emptyTitle": "Ingen oppgaver tilgjengelig på dette språket ennå.",
-    "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk."
+    "emptyBody": "Katalogen vår vokser språk for språk. Kom tilbake snart eller bla i et annet språk.",
+    "browse": {
+      "heading": "Bla gjennom alle arbeidsark",
+      "filterType": "Oppgavetype",
+      "filterLevel": "Nivå",
+      "filterTheme": "Tema",
+      "all": "Alle",
+      "results": "{count} arbeidsark",
+      "showAllThemes": "Vis alle temaer"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2339,7 +2348,8 @@
     "relatedCodeLinkAriaLabel": "Se aktiviteter tilpasset standard {code}",
     "gradeLabel": "Trinn",
     "tryItLink": "Prøv",
-    "standardsBreadcrumb": "Standarder"
+    "standardsBreadcrumb": "Standarder",
+    "worksheetsHeading": "Arbeidsark til dette målet"
   },
   "aboutPage": {
     "meta": {

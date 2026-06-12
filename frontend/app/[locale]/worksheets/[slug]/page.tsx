@@ -20,7 +20,8 @@ import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { getAxisSlug } from '@/lib/taxonomy';
 import {
-  getLandingLocales, getLandingSlugs, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate, Landing,
+  getLandingLocales, getLandingSlugs, getLandingBySlug, deckAssets, getSiblingLandingsByCoordinate,
+  getRelatedLandings, Landing,
 } from '@/lib/seo/landing-content';
 
 // Per-locale framework: human-facing chip + JSON-LD name. Readiness/no-standard de landings carry NO
@@ -38,6 +39,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
 const UI_STRINGS: Record<string, {
   worksheets: string; playInteractive: string; downloadPdf: string; answerKey: string;
   moreToTry: string; tryInteractive: string; makerSoon: string; comingSoon: string;
+  sameThemeHeading: string; sameLevelHeading: string;
   madeWith: (t: string) => string; typeCrumb: (eyebrow: string) => string;
   playAria: (h1: string) => string; previewAlt: (h1: string) => string;
 }> = {
@@ -45,6 +47,7 @@ const UI_STRINGS: Record<string, {
     worksheets: 'Worksheets', playInteractive: 'Play interactive', downloadPdf: 'Download PDF', answerKey: 'Answer key',
     moreToTry: 'More worksheets to try', tryInteractive: 'Try it — interactive', makerSoon: 'Worksheet-maker page coming soon.',
     comingSoon: 'Aligned standard — coming soon',
+    sameThemeHeading: 'More with this theme', sameLevelHeading: 'More for this level',
     madeWith: (t) => `Made with the ${t} maker`, typeCrumb: (e) => e + 's',
     playAria: (h1) => `Play ${h1}`, previewAlt: (h1) => `Preview of ${h1}`,
   },
@@ -52,6 +55,7 @@ const UI_STRINGS: Record<string, {
     worksheets: 'Arbeitsblätter', playInteractive: 'Interaktiv spielen', downloadPdf: 'PDF herunterladen', answerKey: 'Lösungen',
     moreToTry: 'Weitere Arbeitsblätter zum Ausprobieren', tryInteractive: 'Jetzt ausprobieren', makerSoon: 'Generator-Seite folgt in Kürze.',
     comingSoon: '', // de: no dashed framework chip on strand-only landings
+    sameThemeHeading: 'Mehr mit diesem Thema', sameLevelHeading: 'Mehr für diese Stufe',
     madeWith: (t) => `Erstellt mit dem ${t}-Generator`, typeCrumb: (e) => e.replace(/^Arbeitsblatt:\s*/, ''),
     playAria: (h1) => `${h1} spielen`, previewAlt: (h1) => `Vorschau: ${h1}`,
   },
@@ -59,6 +63,7 @@ const UI_STRINGS: Record<string, {
     worksheets: 'Hojas de trabajo', playInteractive: 'Jugar', downloadPdf: 'Descargar PDF', answerKey: 'Solución',
     moreToTry: 'Más hojas de trabajo', tryInteractive: 'Pruébalo — interactivo', makerSoon: 'Generador próximamente.',
     comingSoon: '', // es (MX): no dashed framework chip on strand-only landings (decided per coordinate at the es ledger)
+    sameThemeHeading: 'Más con este tema', sameLevelHeading: 'Más para este nivel',
     madeWith: (t) => `Hecho con el generador de ${t}`, typeCrumb: (e) => e,
     playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
   },
@@ -66,6 +71,7 @@ const UI_STRINGS: Record<string, {
     worksheets: 'Arbetsblad', playInteractive: 'Spela', downloadPdf: 'Ladda ner PDF', answerKey: 'Facit',
     moreToTry: 'Fler arbetsblad att prova', tryInteractive: 'Prova interaktivt', makerSoon: 'Generatorsida kommer snart.',
     comingSoon: '', // sv: no dashed framework chip on strand-only readiness landings (per the sv ledger ⑥)
+    sameThemeHeading: 'Mer med samma tema', sameLevelHeading: 'Mer för samma nivå',
     madeWith: (t) => `Skapat med ${t}-generatorn`, typeCrumb: (e) => e.replace(/^Arbetsblad:\s*/, ''),
     playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
   },
@@ -73,6 +79,7 @@ const UI_STRINGS: Record<string, {
     worksheets: 'Werkbladen', playInteractive: 'Spelen', downloadPdf: 'PDF downloaden', answerKey: 'Antwoorden',
     moreToTry: 'Meer werkbladen om te proberen', tryInteractive: 'Probeer het interactief', makerSoon: 'Generatorpagina komt binnenkort.',
     comingSoon: '', // nl: no dashed framework chip on strand-only readiness landings (per the nl ledger ⑥)
+    sameThemeHeading: 'Meer met dit thema', sameLevelHeading: 'Meer voor dit niveau',
     madeWith: (t) => `Gemaakt met de ${t}-generator`, typeCrumb: (e) => e.replace(/^Werkblad:\s*/, ''),
     playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
   },
@@ -367,6 +374,48 @@ export default function WorksheetLandingPage(
             </div>
           </section>
           )}
+
+          {/* landing↔landing link mesh (Gate-1 browse-layer ruling 2026-06-12) — the carousel above
+              carries same-(type,mode) edges; this module adds the CROSS edges (same-theme other-type +
+              same-level) so every landing receives ~8-10 sibling inlinks and the landing tier is
+              de-orphaned independently of the topic hubs. Selection is deterministic (slug-sorted
+              neighbor-window in landing-content.ts) so links never churn across ISR revalidations.
+              Each group self-skips when empty — never a bare heading. */}
+          {(() => {
+            const mesh = getRelatedLandings(locale, l);
+            if (mesh.sameTheme.length === 0 && mesh.sameLevel.length === 0) return null;
+            const linkCls = 'block text-[15px] text-teal-800 hover:text-ink-900 hover:underline leading-snug py-1';
+            return (
+              <section className="mb-12">
+                <div className="grid md:grid-cols-2 gap-8">
+                  {mesh.sameTheme.length > 0 && (
+                    <div>
+                      <h2 className="font-display font-bold text-lg text-ink-900 mb-3">{ui.sameThemeHeading}</h2>
+                      <ul>
+                        {mesh.sameTheme.map((m) => (
+                          <li key={m.slug}>
+                            <Link href={localePath(locale, 'worksheets', m.slug)} className={linkCls}>{m.h1}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                  {mesh.sameLevel.length > 0 && (
+                    <div>
+                      <h2 className="font-display font-bold text-lg text-ink-900 mb-3">{ui.sameLevelHeading}</h2>
+                      <ul>
+                        {mesh.sameLevel.map((m) => (
+                          <li key={m.slug}>
+                            <Link href={localePath(locale, 'worksheets', m.slug)} className={linkCls}>{m.h1}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+              </section>
+            );
+          })()}
 
           {/* reserved app block (Ruling #7 — wired to nothing) */}
           <section className="mb-4">

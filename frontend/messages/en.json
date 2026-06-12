@@ -3897,7 +3897,16 @@
     "tileCta": "View worksheets",
     "tileAlt": "{typeName} worksheet sample",
     "emptyTitle": "No worksheets available in this language yet.",
-    "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language."
+    "emptyBody": "Our catalog is expanding language by language. Please check back soon, or browse another language.",
+    "browse": {
+      "heading": "Browse all worksheets",
+      "filterType": "Exercise type",
+      "filterLevel": "Level",
+      "filterTheme": "Theme",
+      "all": "All",
+      "results": "{count} worksheets",
+      "showAllThemes": "Show all themes"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -3912,7 +3921,8 @@
     "relatedCodeLinkAriaLabel": "View activities aligned to standard {code}",
     "gradeLabel": "Grade",
     "tryItLink": "Try it",
-    "standardsBreadcrumb": "Standards"
+    "standardsBreadcrumb": "Standards",
+    "worksheetsHeading": "Printable worksheets for this standard"
   },
   "aboutPage": {
     "meta": {

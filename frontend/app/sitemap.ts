@@ -54,10 +54,15 @@ export async function generateSitemaps() {
   // handlers at app/sitemap/0.xml/route.ts + 1.xml/route.ts (Next.js
   // MetadataRoute.Sitemap doesn't support <image:image> entries inline).
   // Omitting ids 0 + 1 here lets the custom static routes own those URLs;
-  // app/sitemap.xml/route.ts (the index) still references all four shards.
+  // app/sitemap.xml/route.ts (the index) still references all five shards.
+  //
+  // ID 4 — landings: /[locale]/worksheets/[slug] deck-landing pages (Gate-1
+  // browse-layer ruling 2026-06-12). DB-free (per-locale JSON via
+  // landing-content.ts); ~25k final URLs across all locales < 50k cap.
   return [
     { id: 2 },
     { id: 3 },
+    { id: 4 },
   ];
 }
 
@@ -183,6 +188,9 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
   if (id === 3) {
     const staticPages = [
       { path: '', priority: 1.0, changeFreq: 'daily' as const },
+      // /worksheets hub — the catalog hub + landing browser (Gate-1 browse
+      // layer); renders for all 11 locales (type tiles even pre-landings).
+      { path: '/worksheets', priority: 0.7, changeFreq: 'weekly' as const },
       { path: '/terms', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/privacy', priority: 0.3, changeFreq: 'monthly' as const },
       { path: '/contact', priority: 0.3, changeFreq: 'monthly' as const },
@@ -404,6 +412,50 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
     }
 
     return routes;
+  }
+
+  // ====================================================================
+  // SHARD 4 — DECK-LANDING PAGES (/[locale]/worksheets/[slug])
+  // ====================================================================
+  // Gate-1 browse-layer ruling (2026-06-12): the landing tier enters the
+  // sitemap as its own shard. DB-FREE — reads the per-locale landing JSON
+  // through landing-content.ts (the same SoT the route renders from), so a
+  // landing's presence here is exactly its presence on the site (unpublish a
+  // landing from the JSON → it drops out of this shard at next revalidate).
+  // Hreflang mirrors the landing route's generateMetadata byte-for-byte:
+  // siblings matched on (type, mode, theme) via the O(1) coordinate index,
+  // alternates built by the same buildHreflangAlternates SoT (pt→pt-BR,
+  // x-default→en-else-first). Declares only locales where the sibling
+  // actually exists (§17.4 hreflang honesty).
+  if (id === 4) {
+    try {
+      const { getLandingLocales, getAllLandings, getSiblingLandingsByCoordinate } = await import('@/lib/seo/landing-content');
+      const { buildHreflangAlternates } = await import('@/lib/seo/hreflang');
+      const routes: MetadataRoute.Sitemap = [];
+      const landingLocales = getLandingLocales();
+      for (const locale of landingLocales) {
+        for (const l of getAllLandings(locale)) {
+          const slugByLocale: Record<string, string> = { [locale]: l.slug };
+          for (const s of getSiblingLandingsByCoordinate(l.coordinate, locale)) slugByLocale[s.locale] = s.slug;
+          const languages = buildHreflangAlternates(
+            landingLocales,
+            (loc) => (slugByLocale[loc] ? `${baseUrl}/${loc}/worksheets/${slugByLocale[loc]}` : null),
+            baseUrl,
+          );
+          routes.push({
+            url: `${baseUrl}/${locale}/worksheets/${l.slug}`,
+            lastModified: STATIC_CONTENT_DATE,
+            changeFrequency: 'monthly',
+            priority: 0.6,
+            alternates: { languages },
+          });
+        }
+      }
+      return routes;
+    } catch (err) {
+      console.warn('[sitemap] shard 4 (landings) failed; emitting empty:', (err as Error).message);
+      return [];
+    }
   }
 
   return [];

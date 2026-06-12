@@ -2309,7 +2309,16 @@
     "tileCta": "Katso tehtävät",
     "tileAlt": "Esimerkkitehtävä: {typeName}",
     "emptyTitle": "Tällä kielellä ei ole vielä saatavilla tehtäviä.",
-    "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä."
+    "emptyBody": "Katalogimme kasvaa kieli kerrallaan. Käy uudelleen pian tai selaa toista kieltä.",
+    "browse": {
+      "heading": "Selaa kaikkia tehtäviä",
+      "filterType": "Tehtävätyyppi",
+      "filterLevel": "Taso",
+      "filterTheme": "Aihe",
+      "all": "Kaikki",
+      "results": "{count} tehtävää",
+      "showAllThemes": "Näytä kaikki aiheet"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2324,7 +2333,8 @@
     "relatedCodeLinkAriaLabel": "Näytä standardiin {code} sidotut tehtävät",
     "gradeLabel": "Luokka",
     "tryItLink": "Kokeile",
-    "standardsBreadcrumb": "Standardit"
+    "standardsBreadcrumb": "Standardit",
+    "worksheetsHeading": "Tulostettavat tehtävät tähän tavoitteeseen"
   },
   "aboutPage": {
     "meta": {

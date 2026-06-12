@@ -2317,7 +2317,16 @@
     "tileCta": "Se opgaver",
     "tileAlt": "Eksempel på opgave: {typeName}",
     "emptyTitle": "Ingen opgaver tilgængelige på dette sprog endnu.",
-    "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog."
+    "emptyBody": "Vores katalog vokser sprog for sprog. Kom snart igen eller gennemse et andet sprog.",
+    "browse": {
+      "heading": "Gennemse alle arbejdsark",
+      "filterType": "Opgavetype",
+      "filterLevel": "Niveau",
+      "filterTheme": "Tema",
+      "all": "Alle",
+      "results": "{count} arbejdsark",
+      "showAllThemes": "Vis alle temaer"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2332,7 +2341,8 @@
     "relatedCodeLinkAriaLabel": "Se aktiviteter tilpasset standard {code}",
     "gradeLabel": "Klasse",
     "tryItLink": "Prøv",
-    "standardsBreadcrumb": "Standarder"
+    "standardsBreadcrumb": "Standarder",
+    "worksheetsHeading": "Arbejdsark til dette mål"
   },
   "aboutPage": {
     "meta": {

@@ -1,0 +1,1499 @@
+{
+  "locale": "nl",
+  "exerciseType": "find-and-count",
+  "level": "kleuters",
+  "rawRowCount": 92,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "hidden-object": 45,
+    "letter-spotting": 44
+  },
+  "totalValid": 89,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "hidden-object",
+    "letter-spotting"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "hidden-object",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-accessoires-85de",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-accessoires-85de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-activiteiten-3944",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-activiteiten-3944"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-dieren-9b8e",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-dieren-9b8e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-rond-het-huis-501e",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-rond-het-huis-501e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-in-de-supermarkt-642a",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-in-de-supermarkt-642a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-bakkerij-8f3b",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-bakkerij-8f3b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-strand-d8f0",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-strand-d8f0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-vogels-2-1cbf",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-vogels-2-1cbf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-lichaamsdelen-0c99",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-lichaamsdelen-0c99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-ontbijt-8806",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-ontbijt-8806"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-kamperen-26c5",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-kamperen-26c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-kerstmis-3cce",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-kerstmis-3cce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-klaslokaal-66c7",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-klaslokaal-66c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-kleding-908b",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-kleding-908b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-kleuren-9cfd",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-kleuren-9cfd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-desserts-en-snoep-22e1",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-desserts-en-snoep-22e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-pasen-f11e",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-pasen-f11e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-emoties-d5c6",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-emoties-d5c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-boerderijdieren-6f68",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-boerderijdieren-6f68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-bloemen-acfe",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-bloemen-acfe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-boswezens-77b4",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-boswezens-77b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-fruit-e856",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-fruit-e856"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-meubels-b180",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-meubels-b180"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-ziekenhuis-22bf",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-ziekenhuis-22bf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-insecten-en-beestjes-42b3",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-insecten-en-beestjes-42b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-keukengerei-92d3",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-keukengerei-92d3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-muziek-3570",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-muziek-3570"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-beroepen-7a74",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-beroepen-7a74"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-oceaanleven-b3a2",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-oceaanleven-b3a2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-huisdieren-0e3f",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-huisdieren-0e3f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-postkantoor-f04a",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-postkantoor-f04a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-reptielen-en-amfibieen-624b",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-reptielen-en-amfibieen-624b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-vormen-0c4c",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-vormen-0c4c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-ruimte-6c9a",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-ruimte-6c9a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-lente-56fe",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-lente-56fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-zomer-398e",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-zomer-398e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-thanksgiving-5910",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-thanksgiving-5910"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-dingen-die-vliegen-7e34",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-dingen-die-vliegen-7e34"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-gereedschap-e464",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-gereedschap-e464"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-speelgoed-1857",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-speelgoed-1857"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-groenten-9d95",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-groenten-9d95"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-voertuigen-f414",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-voertuigen-f414"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-weer-1272",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-weer-1272"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-winter-be2a",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-winter-be2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "zoek-en-tel-verborgen-objecten-dierentuindieren-6ce0",
+      "siblings": [
+        "zoek-en-tel-verborgen-objecten-dierentuindieren-6ce0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-accessoires-0143",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-accessoires-0143"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-activiteiten-c45c",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-activiteiten-c45c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "zoek-en-tel-letters-zoeken-dieren",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-dieren",
+        "zoek-en-tel-letters-zoeken-dieren-1053"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-rond-het-huis-5492",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-rond-het-huis-5492"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-in-de-supermarkt-1577",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-in-de-supermarkt-1577"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-bakkerij-73f7",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-bakkerij-73f7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-strand-dc9d",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-strand-dc9d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-vogels-2-6b18",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-vogels-2-6b18"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-lichaamsdelen-7c35",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-lichaamsdelen-7c35"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-ontbijt-051f",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-ontbijt-051f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-kamperen-e006",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-kamperen-e006"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-kerstmis-2a09",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-kerstmis-2a09"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-klaslokaal-1a7e",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-klaslokaal-1a7e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-kleding-c72e",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-kleding-c72e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-kleuren-2b47",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-kleuren-2b47"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-desserts-en-snoep-2651",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-desserts-en-snoep-2651"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-pasen-ea65",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-pasen-ea65"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-emoties-7282",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-emoties-7282"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-boerderijdieren-1130",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-boerderijdieren-1130"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-bloemen-6110",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-bloemen-6110"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-boswezens-451a",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-boswezens-451a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-fruit-cf8d",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-fruit-cf8d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-meubels-c2be",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-meubels-c2be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-ziekenhuis-810e",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-ziekenhuis-810e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-insecten-en-beestjes-b32b",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-insecten-en-beestjes-b32b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-keukengerei-e954",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-keukengerei-e954"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-muziek-2017",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-muziek-2017"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-beroepen-16e1",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-beroepen-16e1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-oceaanleven-ce21",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-oceaanleven-ce21"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-huisdieren-1c6a",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-huisdieren-1c6a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-postkantoor-893a",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-postkantoor-893a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-vormen-b4d6",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-vormen-b4d6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-ruimte-a82f",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-ruimte-a82f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-lente-afa8",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-lente-afa8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-zomer-3bb8",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-zomer-3bb8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-thanksgiving-9412",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-thanksgiving-9412"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-dingen-die-vliegen-de15",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-dingen-die-vliegen-de15"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-gereedschap-3cfb",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-gereedschap-3cfb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-speelgoed-8516",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-speelgoed-8516"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-groenten-2d45",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-groenten-2d45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-voertuigen-ec9f",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-voertuigen-ec9f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-weer-6239",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-weer-6239"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-winter-8a56",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-winter-8a56"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "zoek-en-tel-letters-zoeken-dierentuindieren-c685",
+      "siblings": [
+        "zoek-en-tel-letters-zoeken-dierentuindieren-c685"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "kleuters"
+    }
+  ]
+}

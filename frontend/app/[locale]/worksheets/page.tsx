@@ -125,15 +125,18 @@ const BROWSE_TOP_THEMES = 12;
 // Display labels for landing level keys (per-locale band spines). A display-
 // only duplicate of the [slug] route's LEVELS chips (route files can't export
 // extra symbols) — fold both into a shared lib at the next LEVELS touch.
+// Locale-prefixed entries (`da:1-klasse`) win over bare keys — da shares the
+// `1-klasse`/`2-klasse` KEYS with de but Danish writes lowercase "1. klasse".
 const LEVEL_CHIP: Record<string, string> = {
   preschool: 'Preschool', kindergarten: 'Kindergarten', 'grade-1': 'Grade 1', 'grade-2': 'Grade 2',
   vorschule: 'Vorschule', '1-klasse': '1. Klasse', '2-klasse': '2. Klasse',
-  preescolar: 'Preescolar', primer: 'Primer grado', segundo: 'Segundo grado',
+  preescolar: 'Preescolar', 'primer-grado': 'Primer grado', 'segundo-grado': 'Segundo grado',
   forskola: 'Förskola', 'ak-1': 'Åk 1', 'ak-2': 'Åk 2',
   kleuters: 'Kleuters', 'groep-3': 'Groep 3', 'groep-4': 'Groep 4',
+  boernehaveklasse: '0. klasse', 'da:1-klasse': '1. klasse', 'da:2-klasse': '2. klasse',
 };
-function levelChip(key: string): string {
-  return LEVEL_CHIP[key] || key;
+function levelChip(key: string, locale?: string): string {
+  return (locale && LEVEL_CHIP[`${locale}:${key}`]) || LEVEL_CHIP[key] || key;
 }
 function themeLabel(themeKey: string, locale: string): string {
   if (!themeKey) return '';
@@ -252,7 +255,7 @@ export default async function AllWorksheetsPage({
     const types = [...typeSet.keys()]
       .map((key) => ({ key, label: getAxisName('exercise-type', key, locale) || key }))
       .sort((a, b) => a.label.localeCompare(b.label, locale));
-    const levels = [...levelSet.keys()].map((key) => ({ key, label: levelChip(key) })).sort((a, b) => a.label.localeCompare(b.label, locale));
+    const levels = [...levelSet.keys()].map((key) => ({ key, label: levelChip(key, locale) })).sort((a, b) => a.label.localeCompare(b.label, locale));
     const themesAll = [...themeSet.entries()]
       .sort((a, b) => b[1] - a[1])
       .map(([key]) => ({ key, label: themeLabel(key, locale) }));
@@ -424,7 +427,7 @@ export default async function AllWorksheetsPage({
                       className="object-cover group-hover:scale-[1.02] transition-transform duration-300" />
                   </div>
                   <div className="p-3.5">
-                    <p className="text-[10.5px] font-bold uppercase tracking-wider text-[#D9633A]">{levelChip(l.coordinate.level)}</p>
+                    <p className="text-[10.5px] font-bold uppercase tracking-wider text-[#D9633A]">{levelChip(l.coordinate.level, locale)}</p>
                     <p className="font-display font-semibold text-[15px] text-ink-900 leading-snug mt-1 group-hover:text-terracotta-600 transition-colors">{l.h1}</p>
                   </div>
                 </Link>

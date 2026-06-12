@@ -1,0 +1,1433 @@
+{
+  "locale": "da",
+  "exerciseType": "picture-path",
+  "level": "boernehaveklasse",
+  "rawRowCount": 88,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 48,
+    "classic-maze": 37
+  },
+  "totalValid": 85,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-tilbehor-adce",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-tilbehor-adce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-aktiviteter-0f15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-dyr-2995",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-dyr-2995"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-rundt-i-huset-b774"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-i-supermarkedet-b6d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-bageri-c57f",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-bageri-c57f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-strand-3b51",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-strand-3b51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-fugle-250c",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-fugle-250c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-fugle-2-c055",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-fugle-2-c055"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-kropsdele-1391",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-kropsdele-1391"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-morgenmad-b411",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-morgenmad-b411"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-camping-6c3e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-camping-6c3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-jul-3956",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-jul-3956"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-klassevaerelse-0b15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-toj-d99f",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-toj-d99f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-farver-97ad",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-farver-97ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-desserter-og-slik-542e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-dinosaurer-c67e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-paske-3e6e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-paske-3e6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-folelser-087d",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-folelser-087d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-bondegardsdyr-40c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-blomster-bf92",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-blomster-bf92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-skovdyr-b085",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-skovdyr-b085"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-frugter-740f",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-frugter-740f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-mobler-42ff",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-mobler-42ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-hospital-7b96",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-hospital-7b96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-insekter-og-kryb-c5c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-kokkenredskaber-844e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-musik-0cdf",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-musik-0cdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-erhverv-2362",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-erhverv-2362"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-havliv-81a4",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-havliv-81a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-kaeledyr-29dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-postkontor-f4c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-krybdyr-og-padder-9f94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-former-240d",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-former-240d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-rummet-3026",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-rummet-3026"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-forar-b799",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-forar-b799"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-sommer-891f",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-sommer-891f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-thanksgiving-90a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-ting-der-flyver-9e10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-vaerktoj-9fb2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-legetoj-a3fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-traeer-6e25",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-traeer-6e25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-grontsager-d78e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-grontsager-d78e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-koretojer-2ae8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-vejr-deb9",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-vejr-deb9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-vinter-ef0e",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-vinter-ef0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4",
+      "siblings": [
+        "billedvej-vaelg-den-rigtige-vej-zoodyr-eea4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-tilbehor-487a",
+      "siblings": [
+        "billedvej-klassisk-labyrint-tilbehor-487a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-aktiviteter-4d5a",
+      "siblings": [
+        "billedvej-klassisk-labyrint-aktiviteter-4d5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-rundt-i-huset-7768",
+      "siblings": [
+        "billedvej-klassisk-labyrint-rundt-i-huset-7768"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-i-supermarkedet-4faa",
+      "siblings": [
+        "billedvej-klassisk-labyrint-i-supermarkedet-4faa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-bageri-cc5f",
+      "siblings": [
+        "billedvej-klassisk-labyrint-bageri-cc5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-strand-5e7c",
+      "siblings": [
+        "billedvej-klassisk-labyrint-strand-5e7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-kropsdele-37b5",
+      "siblings": [
+        "billedvej-klassisk-labyrint-kropsdele-37b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-morgenmad-0646",
+      "siblings": [
+        "billedvej-klassisk-labyrint-morgenmad-0646"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-camping-fd42",
+      "siblings": [
+        "billedvej-klassisk-labyrint-camping-fd42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-jul-5df9",
+      "siblings": [
+        "billedvej-klassisk-labyrint-jul-5df9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-klassevaerelse-b471",
+      "siblings": [
+        "billedvej-klassisk-labyrint-klassevaerelse-b471"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-toj-53d4",
+      "siblings": [
+        "billedvej-klassisk-labyrint-toj-53d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-farver-00ac",
+      "siblings": [
+        "billedvej-klassisk-labyrint-farver-00ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-desserter-og-slik-8a83",
+      "siblings": [
+        "billedvej-klassisk-labyrint-desserter-og-slik-8a83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-dinosaurer-6999",
+      "siblings": [
+        "billedvej-klassisk-labyrint-dinosaurer-6999"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-paske-1e94",
+      "siblings": [
+        "billedvej-klassisk-labyrint-paske-1e94"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-folelser-540f",
+      "siblings": [
+        "billedvej-klassisk-labyrint-folelser-540f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-blomster-d8e6",
+      "siblings": [
+        "billedvej-klassisk-labyrint-blomster-d8e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-frugter-99d1",
+      "siblings": [
+        "billedvej-klassisk-labyrint-frugter-99d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-mobler-4781",
+      "siblings": [
+        "billedvej-klassisk-labyrint-mobler-4781"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-hospital-b350",
+      "siblings": [
+        "billedvej-klassisk-labyrint-hospital-b350"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-kokkenredskaber-d787",
+      "siblings": [
+        "billedvej-klassisk-labyrint-kokkenredskaber-d787"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-musik-1849",
+      "siblings": [
+        "billedvej-klassisk-labyrint-musik-1849"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-erhverv-78e1",
+      "siblings": [
+        "billedvej-klassisk-labyrint-erhverv-78e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-postkontor-e439",
+      "siblings": [
+        "billedvej-klassisk-labyrint-postkontor-e439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-former-055e",
+      "siblings": [
+        "billedvej-klassisk-labyrint-former-055e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-rummet-0b4b",
+      "siblings": [
+        "billedvej-klassisk-labyrint-rummet-0b4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-sommer-bd3a",
+      "siblings": [
+        "billedvej-klassisk-labyrint-sommer-bd3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-thanksgiving-f2bd",
+      "siblings": [
+        "billedvej-klassisk-labyrint-thanksgiving-f2bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-ting-der-flyver-32b9",
+      "siblings": [
+        "billedvej-klassisk-labyrint-ting-der-flyver-32b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-vaerktoj-7962",
+      "siblings": [
+        "billedvej-klassisk-labyrint-vaerktoj-7962"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-legetoj-c13d",
+      "siblings": [
+        "billedvej-klassisk-labyrint-legetoj-c13d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-traeer-be9f",
+      "siblings": [
+        "billedvej-klassisk-labyrint-traeer-be9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-grontsager-0fa0",
+      "siblings": [
+        "billedvej-klassisk-labyrint-grontsager-0fa0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-koretojer-bf27",
+      "siblings": [
+        "billedvej-klassisk-labyrint-koretojer-bf27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-vejr-6713",
+      "siblings": [
+        "billedvej-klassisk-labyrint-vejr-6713"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "billedvej-klassisk-labyrint-vinter-2479",
+      "siblings": [
+        "billedvej-klassisk-labyrint-vinter-2479"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

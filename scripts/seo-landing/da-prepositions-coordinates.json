@@ -1,0 +1,1513 @@
+{
+  "locale": "da",
+  "exerciseType": "prepositions",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 48,
+    "multiplechoice": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-tilbehor-6ce5",
+      "siblings": [
+        "praepositioner-udfyld-tilbehor-6ce5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-aktiviteter-b24a",
+      "siblings": [
+        "praepositioner-udfyld-aktiviteter-b24a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-dyr-8f9f",
+      "siblings": [
+        "praepositioner-udfyld-dyr-8f9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-rundt-i-huset-93d5",
+      "siblings": [
+        "praepositioner-udfyld-rundt-i-huset-93d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-i-supermarkedet-2f41",
+      "siblings": [
+        "praepositioner-udfyld-i-supermarkedet-2f41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-bageri-ad15",
+      "siblings": [
+        "praepositioner-udfyld-bageri-ad15"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-strand-f1a5",
+      "siblings": [
+        "praepositioner-udfyld-strand-f1a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-fugle-256f",
+      "siblings": [
+        "praepositioner-udfyld-fugle-256f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-fugle-2-2d6c",
+      "siblings": [
+        "praepositioner-udfyld-fugle-2-2d6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-kropsdele-93ad",
+      "siblings": [
+        "praepositioner-udfyld-kropsdele-93ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-morgenmad-41e3",
+      "siblings": [
+        "praepositioner-udfyld-morgenmad-41e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-camping-bb0d",
+      "siblings": [
+        "praepositioner-udfyld-camping-bb0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-jul-b8e2",
+      "siblings": [
+        "praepositioner-udfyld-jul-b8e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-klassevaerelse-a07a",
+      "siblings": [
+        "praepositioner-udfyld-klassevaerelse-a07a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-toj-f3d8",
+      "siblings": [
+        "praepositioner-udfyld-toj-f3d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-farver-345d",
+      "siblings": [
+        "praepositioner-udfyld-farver-345d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-desserter-og-slik-e21d",
+      "siblings": [
+        "praepositioner-udfyld-desserter-og-slik-e21d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-dinosaurer-6845",
+      "siblings": [
+        "praepositioner-udfyld-dinosaurer-6845"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-paske-e74a",
+      "siblings": [
+        "praepositioner-udfyld-paske-e74a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-folelser-997e",
+      "siblings": [
+        "praepositioner-udfyld-folelser-997e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-bondegardsdyr-4dcc",
+      "siblings": [
+        "praepositioner-udfyld-bondegardsdyr-4dcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-blomster-db4c",
+      "siblings": [
+        "praepositioner-udfyld-blomster-db4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-skovdyr-642e",
+      "siblings": [
+        "praepositioner-udfyld-skovdyr-642e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-frugter-ae62",
+      "siblings": [
+        "praepositioner-udfyld-frugter-ae62"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-mobler-8f33",
+      "siblings": [
+        "praepositioner-udfyld-mobler-8f33"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-hospital-cc48",
+      "siblings": [
+        "praepositioner-udfyld-hospital-cc48"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-insekter-og-kryb-77da",
+      "siblings": [
+        "praepositioner-udfyld-insekter-og-kryb-77da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-kokkenredskaber-9423",
+      "siblings": [
+        "praepositioner-udfyld-kokkenredskaber-9423"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-musik-cf73",
+      "siblings": [
+        "praepositioner-udfyld-musik-cf73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-erhverv-017a",
+      "siblings": [
+        "praepositioner-udfyld-erhverv-017a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-havliv-116c",
+      "siblings": [
+        "praepositioner-udfyld-havliv-116c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-kaeledyr-e87c",
+      "siblings": [
+        "praepositioner-udfyld-kaeledyr-e87c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-postkontor-9fb7",
+      "siblings": [
+        "praepositioner-udfyld-postkontor-9fb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-krybdyr-og-padder-46fe",
+      "siblings": [
+        "praepositioner-udfyld-krybdyr-og-padder-46fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-former-a125",
+      "siblings": [
+        "praepositioner-udfyld-former-a125"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-rummet-e18d",
+      "siblings": [
+        "praepositioner-udfyld-rummet-e18d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-forar-4095",
+      "siblings": [
+        "praepositioner-udfyld-forar-4095"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-sommer-5305",
+      "siblings": [
+        "praepositioner-udfyld-sommer-5305"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-thanksgiving-6ad2",
+      "siblings": [
+        "praepositioner-udfyld-thanksgiving-6ad2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-ting-der-flyver-38e4",
+      "siblings": [
+        "praepositioner-udfyld-ting-der-flyver-38e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-vaerktoj-ae14",
+      "siblings": [
+        "praepositioner-udfyld-vaerktoj-ae14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-legetoj-20bf",
+      "siblings": [
+        "praepositioner-udfyld-legetoj-20bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-traeer-d637",
+      "siblings": [
+        "praepositioner-udfyld-traeer-d637"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-grontsager-0877",
+      "siblings": [
+        "praepositioner-udfyld-grontsager-0877"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-koretojer-6af6",
+      "siblings": [
+        "praepositioner-udfyld-koretojer-6af6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-vejr-5073",
+      "siblings": [
+        "praepositioner-udfyld-vejr-5073"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-vinter-4a7f",
+      "siblings": [
+        "praepositioner-udfyld-vinter-4a7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "praepositioner-udfyld-zoodyr-2160",
+      "siblings": [
+        "praepositioner-udfyld-zoodyr-2160"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-tilbehor-ef06",
+      "siblings": [
+        "praepositioner-flervalg-tilbehor-ef06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-aktiviteter-d67c",
+      "siblings": [
+        "praepositioner-flervalg-aktiviteter-d67c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-dyr-3bb2",
+      "siblings": [
+        "praepositioner-flervalg-dyr-3bb2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-rundt-i-huset-f911",
+      "siblings": [
+        "praepositioner-flervalg-rundt-i-huset-f911"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-i-supermarkedet-0ad2",
+      "siblings": [
+        "praepositioner-flervalg-i-supermarkedet-0ad2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-bageri-be03",
+      "siblings": [
+        "praepositioner-flervalg-bageri-be03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-strand-98a8",
+      "siblings": [
+        "praepositioner-flervalg-strand-98a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-fugle-4845",
+      "siblings": [
+        "praepositioner-flervalg-fugle-4845"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-fugle-2-402a",
+      "siblings": [
+        "praepositioner-flervalg-fugle-2-402a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-kropsdele-809d",
+      "siblings": [
+        "praepositioner-flervalg-kropsdele-809d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-morgenmad-314d",
+      "siblings": [
+        "praepositioner-flervalg-morgenmad-314d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-camping-4e0f",
+      "siblings": [
+        "praepositioner-flervalg-camping-4e0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-jul-fffd",
+      "siblings": [
+        "praepositioner-flervalg-jul-fffd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-klassevaerelse-19f8",
+      "siblings": [
+        "praepositioner-flervalg-klassevaerelse-19f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-toj-d001",
+      "siblings": [
+        "praepositioner-flervalg-toj-d001"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-farver-7489",
+      "siblings": [
+        "praepositioner-flervalg-farver-7489"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-desserter-og-slik-b6d1",
+      "siblings": [
+        "praepositioner-flervalg-desserter-og-slik-b6d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-dinosaurer-bc12",
+      "siblings": [
+        "praepositioner-flervalg-dinosaurer-bc12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-paske-622d",
+      "siblings": [
+        "praepositioner-flervalg-paske-622d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-folelser-0ccd",
+      "siblings": [
+        "praepositioner-flervalg-folelser-0ccd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-bondegardsdyr-9512",
+      "siblings": [
+        "praepositioner-flervalg-bondegardsdyr-9512"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-blomster-08c1",
+      "siblings": [
+        "praepositioner-flervalg-blomster-08c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-skovdyr-e527",
+      "siblings": [
+        "praepositioner-flervalg-skovdyr-e527"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-frugter-e5c9",
+      "siblings": [
+        "praepositioner-flervalg-frugter-e5c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-mobler-1ff9",
+      "siblings": [
+        "praepositioner-flervalg-mobler-1ff9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-hospital-47f2",
+      "siblings": [
+        "praepositioner-flervalg-hospital-47f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-insekter-og-kryb-502e",
+      "siblings": [
+        "praepositioner-flervalg-insekter-og-kryb-502e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-kokkenredskaber-2115",
+      "siblings": [
+        "praepositioner-flervalg-kokkenredskaber-2115"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-musik-6d08",
+      "siblings": [
+        "praepositioner-flervalg-musik-6d08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-erhverv-0d83",
+      "siblings": [
+        "praepositioner-flervalg-erhverv-0d83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-havliv-ea1b",
+      "siblings": [
+        "praepositioner-flervalg-havliv-ea1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-kaeledyr-527f",
+      "siblings": [
+        "praepositioner-flervalg-kaeledyr-527f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-postkontor-04c8",
+      "siblings": [
+        "praepositioner-flervalg-postkontor-04c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-krybdyr-og-padder-b071",
+      "siblings": [
+        "praepositioner-flervalg-krybdyr-og-padder-b071"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-former-35af",
+      "siblings": [
+        "praepositioner-flervalg-former-35af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-rummet-3609",
+      "siblings": [
+        "praepositioner-flervalg-rummet-3609"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-forar-6ce4",
+      "siblings": [
+        "praepositioner-flervalg-forar-6ce4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-sommer-a5db",
+      "siblings": [
+        "praepositioner-flervalg-sommer-a5db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-thanksgiving-0440",
+      "siblings": [
+        "praepositioner-flervalg-thanksgiving-0440"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-ting-der-flyver-70ce",
+      "siblings": [
+        "praepositioner-flervalg-ting-der-flyver-70ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-vaerktoj-4192",
+      "siblings": [
+        "praepositioner-flervalg-vaerktoj-4192"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-legetoj-4635",
+      "siblings": [
+        "praepositioner-flervalg-legetoj-4635"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-traeer-d2e7",
+      "siblings": [
+        "praepositioner-flervalg-traeer-d2e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-grontsager-3bb3",
+      "siblings": [
+        "praepositioner-flervalg-grontsager-3bb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-koretojer-25f1",
+      "siblings": [
+        "praepositioner-flervalg-koretojer-25f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-vejr-63f6",
+      "siblings": [
+        "praepositioner-flervalg-vejr-63f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-vinter-37d5",
+      "siblings": [
+        "praepositioner-flervalg-vinter-37d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "praepositioner-flervalg-zoodyr-d98f",
+      "siblings": [
+        "praepositioner-flervalg-zoodyr-d98f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

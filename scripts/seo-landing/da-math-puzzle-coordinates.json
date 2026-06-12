@@ -1,0 +1,1848 @@
+{
+  "locale": "da",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 140,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 43,
+    "mixed": 46,
+    "subtraction": 47
+  },
+  "totalValid": 116,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-tilbehor-3d57",
+      "siblings": [
+        "matematikpuslespil-addition-tilbehor-3d57"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-dyr-0f9a",
+      "siblings": [
+        "matematikpuslespil-addition-dyr-0f9a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-rundt-i-huset-7b59",
+      "siblings": [
+        "matematikpuslespil-addition-rundt-i-huset-7b59"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-i-supermarkedet-8934",
+      "siblings": [
+        "matematikpuslespil-addition-i-supermarkedet-8934"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-bageri-8470",
+      "siblings": [
+        "matematikpuslespil-addition-bageri-8470"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-strand-d278",
+      "siblings": [
+        "matematikpuslespil-addition-strand-d278"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-fugle-438f",
+      "siblings": [
+        "matematikpuslespil-addition-fugle-438f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-fugle-2-a176",
+      "siblings": [
+        "matematikpuslespil-addition-fugle-2-a176"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-morgenmad-b667",
+      "siblings": [
+        "matematikpuslespil-addition-morgenmad-b667"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-camping-0f12",
+      "siblings": [
+        "matematikpuslespil-addition-camping-0f12"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-jul-570e",
+      "siblings": [
+        "matematikpuslespil-addition-jul-570e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-klassevaerelse-abb0",
+      "siblings": [
+        "matematikpuslespil-addition-klassevaerelse-abb0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-toj-c402",
+      "siblings": [
+        "matematikpuslespil-addition-toj-c402"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-dinosaurer-bde7",
+      "siblings": [
+        "matematikpuslespil-addition-dinosaurer-bde7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-paske-9f92",
+      "siblings": [
+        "matematikpuslespil-addition-paske-9f92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-bondegardsdyr-bf70",
+      "siblings": [
+        "matematikpuslespil-addition-bondegardsdyr-bf70"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-blomster-8631",
+      "siblings": [
+        "matematikpuslespil-addition-blomster-8631"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-skovdyr-ad39",
+      "siblings": [
+        "matematikpuslespil-addition-skovdyr-ad39"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-mobler-733e",
+      "siblings": [
+        "matematikpuslespil-addition-mobler-733e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-hospital-acca",
+      "siblings": [
+        "matematikpuslespil-addition-hospital-acca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-insekter-og-kryb-d73f",
+      "siblings": [
+        "matematikpuslespil-addition-insekter-og-kryb-d73f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-kokkenredskaber-e183",
+      "siblings": [
+        "matematikpuslespil-addition-kokkenredskaber-e183"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-musik-d6ac",
+      "siblings": [
+        "matematikpuslespil-addition-musik-d6ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-erhverv-dd4c",
+      "siblings": [
+        "matematikpuslespil-addition-erhverv-dd4c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-havliv-b12d",
+      "siblings": [
+        "matematikpuslespil-addition-havliv-b12d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-kaeledyr-6b0b",
+      "siblings": [
+        "matematikpuslespil-addition-kaeledyr-6b0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-postkontor-19f9",
+      "siblings": [
+        "matematikpuslespil-addition-postkontor-19f9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-krybdyr-og-padder-24d7",
+      "siblings": [
+        "matematikpuslespil-addition-krybdyr-og-padder-24d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-rummet-3034",
+      "siblings": [
+        "matematikpuslespil-addition-rummet-3034"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-thanksgiving-8c8c",
+      "siblings": [
+        "matematikpuslespil-addition-thanksgiving-8c8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-ting-der-flyver-db30",
+      "siblings": [
+        "matematikpuslespil-addition-ting-der-flyver-db30"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-vaerktoj-d05b",
+      "siblings": [
+        "matematikpuslespil-addition-vaerktoj-d05b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-legetoj-893f",
+      "siblings": [
+        "matematikpuslespil-addition-legetoj-893f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-traeer-002a",
+      "siblings": [
+        "matematikpuslespil-addition-traeer-002a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-grontsager-04a8",
+      "siblings": [
+        "matematikpuslespil-addition-grontsager-04a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-koretojer-81ca",
+      "siblings": [
+        "matematikpuslespil-addition-koretojer-81ca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-addition-zoodyr-75a9",
+      "siblings": [
+        "matematikpuslespil-addition-zoodyr-75a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-tilbehor-fedf",
+      "siblings": [
+        "matematikpuslespil-blandet-tilbehor-fedf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "matematikpuslespil-blandet-dyr",
+      "siblings": [
+        "matematikpuslespil-blandet-dyr",
+        "matematikpuslespil-blandet-dyr-cdfd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-rundt-i-huset-22b3",
+      "siblings": [
+        "matematikpuslespil-blandet-rundt-i-huset-22b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-i-supermarkedet-e812",
+      "siblings": [
+        "matematikpuslespil-blandet-i-supermarkedet-e812"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-bageri-6c6f",
+      "siblings": [
+        "matematikpuslespil-blandet-bageri-6c6f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-strand-1e1f",
+      "siblings": [
+        "matematikpuslespil-blandet-strand-1e1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-fugle-a521",
+      "siblings": [
+        "matematikpuslespil-blandet-fugle-a521"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-fugle-2-51a7",
+      "siblings": [
+        "matematikpuslespil-blandet-fugle-2-51a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-morgenmad-a4cf",
+      "siblings": [
+        "matematikpuslespil-blandet-morgenmad-a4cf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-camping-0603",
+      "siblings": [
+        "matematikpuslespil-blandet-camping-0603"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-jul-da65",
+      "siblings": [
+        "matematikpuslespil-blandet-jul-da65"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-klassevaerelse-b3fd",
+      "siblings": [
+        "matematikpuslespil-blandet-klassevaerelse-b3fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-toj-b379",
+      "siblings": [
+        "matematikpuslespil-blandet-toj-b379"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-dinosaurer-bbf7",
+      "siblings": [
+        "matematikpuslespil-blandet-dinosaurer-bbf7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-paske-43b4",
+      "siblings": [
+        "matematikpuslespil-blandet-paske-43b4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-bondegardsdyr-b009",
+      "siblings": [
+        "matematikpuslespil-blandet-bondegardsdyr-b009"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-blomster-71e1",
+      "siblings": [
+        "matematikpuslespil-blandet-blomster-71e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-skovdyr-1969",
+      "siblings": [
+        "matematikpuslespil-blandet-skovdyr-1969"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-frugter-4691",
+      "siblings": [
+        "matematikpuslespil-blandet-frugter-4691"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-mobler-4bde",
+      "siblings": [
+        "matematikpuslespil-blandet-mobler-4bde"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-hospital-5bda",
+      "siblings": [
+        "matematikpuslespil-blandet-hospital-5bda"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-insekter-og-kryb-27b2",
+      "siblings": [
+        "matematikpuslespil-blandet-insekter-og-kryb-27b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-kokkenredskaber-296f",
+      "siblings": [
+        "matematikpuslespil-blandet-kokkenredskaber-296f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-musik-5320",
+      "siblings": [
+        "matematikpuslespil-blandet-musik-5320"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-erhverv-a753",
+      "siblings": [
+        "matematikpuslespil-blandet-erhverv-a753"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-havliv-71de",
+      "siblings": [
+        "matematikpuslespil-blandet-havliv-71de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-kaeledyr-1c29",
+      "siblings": [
+        "matematikpuslespil-blandet-kaeledyr-1c29"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-postkontor-c4ee",
+      "siblings": [
+        "matematikpuslespil-blandet-postkontor-c4ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-krybdyr-og-padder-9d3d",
+      "siblings": [
+        "matematikpuslespil-blandet-krybdyr-og-padder-9d3d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-former-cc92",
+      "siblings": [
+        "matematikpuslespil-blandet-former-cc92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-rummet-c46a",
+      "siblings": [
+        "matematikpuslespil-blandet-rummet-c46a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-thanksgiving-666d",
+      "siblings": [
+        "matematikpuslespil-blandet-thanksgiving-666d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-ting-der-flyver-2e78",
+      "siblings": [
+        "matematikpuslespil-blandet-ting-der-flyver-2e78"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-vaerktoj-fd5d",
+      "siblings": [
+        "matematikpuslespil-blandet-vaerktoj-fd5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-legetoj-5c17",
+      "siblings": [
+        "matematikpuslespil-blandet-legetoj-5c17"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-traeer-2dac",
+      "siblings": [
+        "matematikpuslespil-blandet-traeer-2dac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-grontsager-ab0b",
+      "siblings": [
+        "matematikpuslespil-blandet-grontsager-ab0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-koretojer-181d",
+      "siblings": [
+        "matematikpuslespil-blandet-koretojer-181d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-blandet-zoodyr-3041",
+      "siblings": [
+        "matematikpuslespil-blandet-zoodyr-3041"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-tilbehor-c552",
+      "siblings": [
+        "matematikpuslespil-subtraktion-tilbehor-c552"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-dyr-c1f8",
+      "siblings": [
+        "matematikpuslespil-subtraktion-dyr-c1f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-rundt-i-huset-9cdb",
+      "siblings": [
+        "matematikpuslespil-subtraktion-rundt-i-huset-9cdb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-i-supermarkedet-6e74",
+      "siblings": [
+        "matematikpuslespil-subtraktion-i-supermarkedet-6e74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-bageri-1422",
+      "siblings": [
+        "matematikpuslespil-subtraktion-bageri-1422"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-strand-3f3e",
+      "siblings": [
+        "matematikpuslespil-subtraktion-strand-3f3e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-fugle-eaa5",
+      "siblings": [
+        "matematikpuslespil-subtraktion-fugle-eaa5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-fugle-2-590c",
+      "siblings": [
+        "matematikpuslespil-subtraktion-fugle-2-590c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-morgenmad-7b41",
+      "siblings": [
+        "matematikpuslespil-subtraktion-morgenmad-7b41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-camping-c5f3",
+      "siblings": [
+        "matematikpuslespil-subtraktion-camping-c5f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-jul-65e9",
+      "siblings": [
+        "matematikpuslespil-subtraktion-jul-65e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-klassevaerelse-79aa",
+      "siblings": [
+        "matematikpuslespil-subtraktion-klassevaerelse-79aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-toj-47fe",
+      "siblings": [
+        "matematikpuslespil-subtraktion-toj-47fe"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-dinosaurer-a436",
+      "siblings": [
+        "matematikpuslespil-subtraktion-dinosaurer-a436"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-paske-38b9",
+      "siblings": [
+        "matematikpuslespil-subtraktion-paske-38b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-bondegardsdyr-8072",
+      "siblings": [
+        "matematikpuslespil-subtraktion-bondegardsdyr-8072"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-blomster-a0e2",
+      "siblings": [
+        "matematikpuslespil-subtraktion-blomster-a0e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-skovdyr-e4c9",
+      "siblings": [
+        "matematikpuslespil-subtraktion-skovdyr-e4c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-frugter-abe0",
+      "siblings": [
+        "matematikpuslespil-subtraktion-frugter-abe0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-mobler-7ace",
+      "siblings": [
+        "matematikpuslespil-subtraktion-mobler-7ace"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-hospital-2106",
+      "siblings": [
+        "matematikpuslespil-subtraktion-hospital-2106"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-insekter-og-kryb-adcf",
+      "siblings": [
+        "matematikpuslespil-subtraktion-insekter-og-kryb-adcf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-kokkenredskaber-b4c9",
+      "siblings": [
+        "matematikpuslespil-subtraktion-kokkenredskaber-b4c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-diverse-581c",
+      "siblings": [
+        "matematikpuslespil-subtraktion-diverse-581c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-musik-e67d",
+      "siblings": [
+        "matematikpuslespil-subtraktion-musik-e67d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-erhverv-66e4",
+      "siblings": [
+        "matematikpuslespil-subtraktion-erhverv-66e4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-havliv-cfcf",
+      "siblings": [
+        "matematikpuslespil-subtraktion-havliv-cfcf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-kaeledyr-d9b2",
+      "siblings": [
+        "matematikpuslespil-subtraktion-kaeledyr-d9b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-postkontor-0c56",
+      "siblings": [
+        "matematikpuslespil-subtraktion-postkontor-0c56"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-krybdyr-og-padder-43a2",
+      "siblings": [
+        "matematikpuslespil-subtraktion-krybdyr-og-padder-43a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-former-fa18",
+      "siblings": [
+        "matematikpuslespil-subtraktion-former-fa18"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-rummet-cd3a",
+      "siblings": [
+        "matematikpuslespil-subtraktion-rummet-cd3a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-thanksgiving-1d72",
+      "siblings": [
+        "matematikpuslespil-subtraktion-thanksgiving-1d72"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-ting-der-flyver-dc41",
+      "siblings": [
+        "matematikpuslespil-subtraktion-ting-der-flyver-dc41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-vaerktoj-32a2",
+      "siblings": [
+        "matematikpuslespil-subtraktion-vaerktoj-32a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-legetoj-6825",
+      "siblings": [
+        "matematikpuslespil-subtraktion-legetoj-6825"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-traeer-cd81",
+      "siblings": [
+        "matematikpuslespil-subtraktion-traeer-cd81"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-grontsager-0440",
+      "siblings": [
+        "matematikpuslespil-subtraktion-grontsager-0440"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-koretojer-5be2",
+      "siblings": [
+        "matematikpuslespil-subtraktion-koretojer-5be2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matematikpuslespil-subtraktion-zoodyr-46d9",
+      "siblings": [
+        "matematikpuslespil-subtraktion-zoodyr-46d9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

@@ -1,0 +1,1499 @@
+{
+  "locale": "da",
+  "exerciseType": "word-guess",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 47,
+    "(null)": 1
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal",
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gaet-ordet-let-tilbehor-7a55",
+      "siblings": [
+        "gaet-ordet-let-tilbehor-7a55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gaet-ordet-let-aktiviteter-e95f",
+      "siblings": [
+        "gaet-ordet-let-aktiviteter-e95f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gaet-ordet-let-dyr-a2c6",
+      "siblings": [
+        "gaet-ordet-let-dyr-a2c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gaet-ordet-let-rundt-i-huset-61c2",
+      "siblings": [
+        "gaet-ordet-let-rundt-i-huset-61c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gaet-ordet-let-i-supermarkedet-9a61",
+      "siblings": [
+        "gaet-ordet-let-i-supermarkedet-9a61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gaet-ordet-let-bageri-011b",
+      "siblings": [
+        "gaet-ordet-let-bageri-011b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gaet-ordet-let-strand-6a40",
+      "siblings": [
+        "gaet-ordet-let-strand-6a40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gaet-ordet-let-fugle-5387",
+      "siblings": [
+        "gaet-ordet-let-fugle-5387"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gaet-ordet-let-fugle-2-7964",
+      "siblings": [
+        "gaet-ordet-let-fugle-2-7964"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gaet-ordet-let-kropsdele-e2f4",
+      "siblings": [
+        "gaet-ordet-let-kropsdele-e2f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gaet-ordet-let-morgenmad-b18f",
+      "siblings": [
+        "gaet-ordet-let-morgenmad-b18f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gaet-ordet-let-camping-f9e3",
+      "siblings": [
+        "gaet-ordet-let-camping-f9e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gaet-ordet-let-jul-a1a4",
+      "siblings": [
+        "gaet-ordet-let-jul-a1a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gaet-ordet-let-klassevaerelse-e3a3",
+      "siblings": [
+        "gaet-ordet-let-klassevaerelse-e3a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gaet-ordet-let-toj-37b3",
+      "siblings": [
+        "gaet-ordet-let-toj-37b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gaet-ordet-let-farver-a530",
+      "siblings": [
+        "gaet-ordet-let-farver-a530"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gaet-ordet-let-desserter-og-slik-810f",
+      "siblings": [
+        "gaet-ordet-let-desserter-og-slik-810f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gaet-ordet-let-paske-79cd",
+      "siblings": [
+        "gaet-ordet-let-paske-79cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gaet-ordet-let-folelser-2a3c",
+      "siblings": [
+        "gaet-ordet-let-folelser-2a3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gaet-ordet-let-bondegardsdyr-b4a6",
+      "siblings": [
+        "gaet-ordet-let-bondegardsdyr-b4a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gaet-ordet-let-blomster-f17e",
+      "siblings": [
+        "gaet-ordet-let-blomster-f17e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gaet-ordet-let-skovdyr-0f12",
+      "siblings": [
+        "gaet-ordet-let-skovdyr-0f12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gaet-ordet-let-frugter-fd0d",
+      "siblings": [
+        "gaet-ordet-let-frugter-fd0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gaet-ordet-let-mobler-07be",
+      "siblings": [
+        "gaet-ordet-let-mobler-07be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gaet-ordet-let-hospital-03bf",
+      "siblings": [
+        "gaet-ordet-let-hospital-03bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gaet-ordet-let-insekter-og-kryb-3672",
+      "siblings": [
+        "gaet-ordet-let-insekter-og-kryb-3672"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gaet-ordet-let-kokkenredskaber-45a7",
+      "siblings": [
+        "gaet-ordet-let-kokkenredskaber-45a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gaet-ordet-let-musik-70d6",
+      "siblings": [
+        "gaet-ordet-let-musik-70d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gaet-ordet-let-erhverv-5b73",
+      "siblings": [
+        "gaet-ordet-let-erhverv-5b73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gaet-ordet-let-havliv-8c6f",
+      "siblings": [
+        "gaet-ordet-let-havliv-8c6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gaet-ordet-let-kaeledyr-b6f8",
+      "siblings": [
+        "gaet-ordet-let-kaeledyr-b6f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gaet-ordet-let-postkontor-a821",
+      "siblings": [
+        "gaet-ordet-let-postkontor-a821"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gaet-ordet-let-krybdyr-og-padder-bd24",
+      "siblings": [
+        "gaet-ordet-let-krybdyr-og-padder-bd24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gaet-ordet-let-former-c5ce",
+      "siblings": [
+        "gaet-ordet-let-former-c5ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gaet-ordet-let-rummet-583f",
+      "siblings": [
+        "gaet-ordet-let-rummet-583f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gaet-ordet-let-forar-4c47",
+      "siblings": [
+        "gaet-ordet-let-forar-4c47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gaet-ordet-let-sommer-63ed",
+      "siblings": [
+        "gaet-ordet-let-sommer-63ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gaet-ordet-let-thanksgiving-c44a",
+      "siblings": [
+        "gaet-ordet-let-thanksgiving-c44a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gaet-ordet-let-ting-der-flyver-4f81",
+      "siblings": [
+        "gaet-ordet-let-ting-der-flyver-4f81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gaet-ordet-let-vaerktoj-01fc",
+      "siblings": [
+        "gaet-ordet-let-vaerktoj-01fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gaet-ordet-let-legetoj-3fa2",
+      "siblings": [
+        "gaet-ordet-let-legetoj-3fa2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gaet-ordet-let-traeer-019e",
+      "siblings": [
+        "gaet-ordet-let-traeer-019e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gaet-ordet-let-grontsager-e88d",
+      "siblings": [
+        "gaet-ordet-let-grontsager-e88d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gaet-ordet-let-koretojer-ccf5",
+      "siblings": [
+        "gaet-ordet-let-koretojer-ccf5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gaet-ordet-let-vejr-d1d0",
+      "siblings": [
+        "gaet-ordet-let-vejr-d1d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gaet-ordet-let-vinter-1780",
+      "siblings": [
+        "gaet-ordet-let-vinter-1780"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gaet-ordet-let-zoodyr-c12b",
+      "siblings": [
+        "gaet-ordet-let-zoodyr-c12b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-tilbehor-43c2",
+      "siblings": [
+        "gaet-ordet-normal-tilbehor-43c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-aktiviteter-01b9",
+      "siblings": [
+        "gaet-ordet-normal-aktiviteter-01b9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-dyr-7b3a",
+      "siblings": [
+        "gaet-ordet-normal-dyr-7b3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-rundt-i-huset-2919",
+      "siblings": [
+        "gaet-ordet-normal-rundt-i-huset-2919"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-i-supermarkedet-0aec",
+      "siblings": [
+        "gaet-ordet-normal-i-supermarkedet-0aec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-bageri-af83",
+      "siblings": [
+        "gaet-ordet-normal-bageri-af83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-strand-729e",
+      "siblings": [
+        "gaet-ordet-normal-strand-729e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-fugle-2684",
+      "siblings": [
+        "gaet-ordet-normal-fugle-2684"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-fugle-2-3a53",
+      "siblings": [
+        "gaet-ordet-normal-fugle-2-3a53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-kropsdele-d47c",
+      "siblings": [
+        "gaet-ordet-normal-kropsdele-d47c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-morgenmad-b45b",
+      "siblings": [
+        "gaet-ordet-normal-morgenmad-b45b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-camping-5dc5",
+      "siblings": [
+        "gaet-ordet-normal-camping-5dc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-jul-46cc",
+      "siblings": [
+        "gaet-ordet-normal-jul-46cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-klassevaerelse-b792",
+      "siblings": [
+        "gaet-ordet-normal-klassevaerelse-b792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-toj-00f1",
+      "siblings": [
+        "gaet-ordet-normal-toj-00f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-farver-9d75",
+      "siblings": [
+        "gaet-ordet-normal-farver-9d75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-desserter-og-slik-698a",
+      "siblings": [
+        "gaet-ordet-normal-desserter-og-slik-698a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-paske-940f",
+      "siblings": [
+        "gaet-ordet-normal-paske-940f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-folelser-2df0",
+      "siblings": [
+        "gaet-ordet-normal-folelser-2df0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-bondegardsdyr-f715",
+      "siblings": [
+        "gaet-ordet-normal-bondegardsdyr-f715"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-blomster-4110",
+      "siblings": [
+        "gaet-ordet-normal-blomster-4110"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-skovdyr-e301",
+      "siblings": [
+        "gaet-ordet-normal-skovdyr-e301"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-frugter-ced3",
+      "siblings": [
+        "gaet-ordet-normal-frugter-ced3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-mobler-c754",
+      "siblings": [
+        "gaet-ordet-normal-mobler-c754"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-hospital-b5a8",
+      "siblings": [
+        "gaet-ordet-normal-hospital-b5a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-insekter-og-kryb-883e",
+      "siblings": [
+        "gaet-ordet-normal-insekter-og-kryb-883e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-kokkenredskaber-f283",
+      "siblings": [
+        "gaet-ordet-normal-kokkenredskaber-f283"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-musik-f74b",
+      "siblings": [
+        "gaet-ordet-normal-musik-f74b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-erhverv-7cd1",
+      "siblings": [
+        "gaet-ordet-normal-erhverv-7cd1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-havliv-1019",
+      "siblings": [
+        "gaet-ordet-normal-havliv-1019"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-kaeledyr-24ea",
+      "siblings": [
+        "gaet-ordet-normal-kaeledyr-24ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-postkontor-23d1",
+      "siblings": [
+        "gaet-ordet-normal-postkontor-23d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-krybdyr-og-padder-e5f4",
+      "siblings": [
+        "gaet-ordet-normal-krybdyr-og-padder-e5f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-former-7245",
+      "siblings": [
+        "gaet-ordet-normal-former-7245"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-rummet-def1",
+      "siblings": [
+        "gaet-ordet-normal-rummet-def1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-forar-cb49",
+      "siblings": [
+        "gaet-ordet-normal-forar-cb49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-sommer-eab2",
+      "siblings": [
+        "gaet-ordet-normal-sommer-eab2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-thanksgiving-32d7",
+      "siblings": [
+        "gaet-ordet-normal-thanksgiving-32d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-ting-der-flyver-4ebe",
+      "siblings": [
+        "gaet-ordet-normal-ting-der-flyver-4ebe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-vaerktoj-2fa9",
+      "siblings": [
+        "gaet-ordet-normal-vaerktoj-2fa9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-legetoj-6a6a",
+      "siblings": [
+        "gaet-ordet-normal-legetoj-6a6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-traeer-1af1",
+      "siblings": [
+        "gaet-ordet-normal-traeer-1af1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-grontsager-fbf8",
+      "siblings": [
+        "gaet-ordet-normal-grontsager-fbf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-koretojer-19f4",
+      "siblings": [
+        "gaet-ordet-normal-koretojer-19f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-vejr-1038",
+      "siblings": [
+        "gaet-ordet-normal-vejr-1038"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-vinter-54e5",
+      "siblings": [
+        "gaet-ordet-normal-vinter-54e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gaet-ordet-normal-zoodyr-9d2c",
+      "siblings": [
+        "gaet-ordet-normal-zoodyr-9d2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gaet-ordet-dyr",
+      "siblings": [
+        "gaet-ordet-dyr"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

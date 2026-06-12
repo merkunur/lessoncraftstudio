@@ -1,0 +1,602 @@
+{
+  "locale": "da",
+  "exerciseType": "alphabet-train",
+  "level": "boernehaveklasse",
+  "rawRowCount": 36,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 34
+  },
+  "totalValid": 34,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "forest_creatures",
+    "fruits",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabettoget-tilbehor-7545",
+      "siblings": [
+        "alfabettoget-tilbehor-7545"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabettoget-aktiviteter-2084",
+      "siblings": [
+        "alfabettoget-aktiviteter-2084"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "alfabettoget-dyr",
+      "siblings": [
+        "alfabettoget-dyr",
+        "alfabettoget-dyr-b388"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabettoget-rundt-i-huset-4f6c",
+      "siblings": [
+        "alfabettoget-rundt-i-huset-4f6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabettoget-i-supermarkedet-58d4",
+      "siblings": [
+        "alfabettoget-i-supermarkedet-58d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "alfabettoget-bageri-c2fb",
+      "siblings": [
+        "alfabettoget-bageri-c2fb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabettoget-strand-358f",
+      "siblings": [
+        "alfabettoget-strand-358f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alfabettoget-fugle-2-e10f",
+      "siblings": [
+        "alfabettoget-fugle-2-e10f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabettoget-kropsdele-5b12",
+      "siblings": [
+        "alfabettoget-kropsdele-5b12"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "alfabettoget-morgenmad-c1f9",
+      "siblings": [
+        "alfabettoget-morgenmad-c1f9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabettoget-camping-11b0",
+      "siblings": [
+        "alfabettoget-camping-11b0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabettoget-jul-06ea",
+      "siblings": [
+        "alfabettoget-jul-06ea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabettoget-klassevaerelse-fbb1",
+      "siblings": [
+        "alfabettoget-klassevaerelse-fbb1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabettoget-toj-a050",
+      "siblings": [
+        "alfabettoget-toj-a050"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "alfabettoget-farver-7d11",
+      "siblings": [
+        "alfabettoget-farver-7d11"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "alfabettoget-desserter-og-slik-9145",
+      "siblings": [
+        "alfabettoget-desserter-og-slik-9145"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabettoget-paske-b33e",
+      "siblings": [
+        "alfabettoget-paske-b33e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabettoget-bondegardsdyr-acf6",
+      "siblings": [
+        "alfabettoget-bondegardsdyr-acf6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabettoget-skovdyr-5161",
+      "siblings": [
+        "alfabettoget-skovdyr-5161"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "alfabettoget-frugter-70f5",
+      "siblings": [
+        "alfabettoget-frugter-70f5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabettoget-hospital-450e",
+      "siblings": [
+        "alfabettoget-hospital-450e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabettoget-kokkenredskaber-e065",
+      "siblings": [
+        "alfabettoget-kokkenredskaber-e065"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabettoget-erhverv-1bce",
+      "siblings": [
+        "alfabettoget-erhverv-1bce"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alfabettoget-havliv-15bc",
+      "siblings": [
+        "alfabettoget-havliv-15bc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alfabettoget-kaeledyr-1e46",
+      "siblings": [
+        "alfabettoget-kaeledyr-1e46"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabettoget-rummet-d9a4",
+      "siblings": [
+        "alfabettoget-rummet-d9a4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabettoget-forar-4b5a",
+      "siblings": [
+        "alfabettoget-forar-4b5a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabettoget-sommer-7d5f",
+      "siblings": [
+        "alfabettoget-sommer-7d5f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabettoget-thanksgiving-2b82",
+      "siblings": [
+        "alfabettoget-thanksgiving-2b82"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabettoget-ting-der-flyver-505e",
+      "siblings": [
+        "alfabettoget-ting-der-flyver-505e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabettoget-legetoj-715d",
+      "siblings": [
+        "alfabettoget-legetoj-715d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabettoget-grontsager-0ec8",
+      "siblings": [
+        "alfabettoget-grontsager-0ec8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alfabettoget-koretojer-48e8",
+      "siblings": [
+        "alfabettoget-koretojer-48e8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabettoget-zoodyr-9571",
+      "siblings": [
+        "alfabettoget-zoodyr-9571"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

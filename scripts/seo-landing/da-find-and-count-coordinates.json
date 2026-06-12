@@ -1,0 +1,1515 @@
+{
+  "locale": "da",
+  "exerciseType": "find-and-count",
+  "level": "boernehaveklasse",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "hidden-object": 45,
+    "letter-spotting": 45
+  },
+  "totalValid": 90,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "hidden-object",
+    "letter-spotting"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "hidden-object",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-tilbehor-71b8",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-tilbehor-71b8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-aktiviteter-15d7",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-aktiviteter-15d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-dyr-dc04",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-dyr-dc04"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-rundt-i-huset-45c0",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-rundt-i-huset-45c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-i-supermarkedet-7f97",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-i-supermarkedet-7f97"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-bageri-73a6",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-bageri-73a6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-strand-90ac",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-strand-90ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-fugle-2-e508",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-fugle-2-e508"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-kropsdele-d822",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-kropsdele-d822"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-morgenmad-5dfc",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-morgenmad-5dfc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-camping-aefa",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-camping-aefa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-jul-6903",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-jul-6903"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-klassevaerelse-20c7",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-klassevaerelse-20c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-toj-c8e4",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-toj-c8e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-farver-7d67",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-farver-7d67"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-paske-fc9f",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-paske-fc9f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-folelser-9a8c",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-folelser-9a8c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-bondegardsdyr-f726",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-bondegardsdyr-f726"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-blomster-b36a",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-blomster-b36a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-skovdyr-a95d",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-skovdyr-a95d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-frugter-3ab3",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-frugter-3ab3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-mobler-a025",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-mobler-a025"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-hospital-706d",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-hospital-706d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-insekter-og-kryb-2225",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-insekter-og-kryb-2225"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-kokkenredskaber-e8a8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-musik-8dbe",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-musik-8dbe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-erhverv-25c7",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-erhverv-25c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-havliv-8682",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-havliv-8682"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-kaeledyr-66a6",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-kaeledyr-66a6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-postkontor-6031",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-postkontor-6031"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-krybdyr-og-padder-d182"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-former-5d81",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-former-5d81"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-rummet-d281",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-rummet-d281"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-forar-5f29",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-forar-5f29"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-sommer-e2df",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-sommer-e2df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-thanksgiving-93e8",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-thanksgiving-93e8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-ting-der-flyver-12b1",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-ting-der-flyver-12b1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-vaerktoj-991f",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-vaerktoj-991f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-legetoj-0e3a",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-legetoj-0e3a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-traeer-8b34",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-traeer-8b34"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-grontsager-0147",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-grontsager-0147"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-koretojer-945b",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-koretojer-945b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-vejr-faed",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-vejr-faed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-vinter-d710",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-vinter-d710"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "hidden-object",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "find-og-tael-skjulte-genstande-zoodyr-1b1f",
+      "siblings": [
+        "find-og-tael-skjulte-genstande-zoodyr-1b1f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-tilbehor-8db6",
+      "siblings": [
+        "find-og-tael-find-bogstaver-tilbehor-8db6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-aktiviteter-f5a5",
+      "siblings": [
+        "find-og-tael-find-bogstaver-aktiviteter-f5a5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "find-og-tael-find-bogstaver-dyr",
+      "siblings": [
+        "find-og-tael-find-bogstaver-dyr",
+        "find-og-tael-find-bogstaver-dyr-357c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-rundt-i-huset-0b6c",
+      "siblings": [
+        "find-og-tael-find-bogstaver-rundt-i-huset-0b6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-i-supermarkedet-f0fb",
+      "siblings": [
+        "find-og-tael-find-bogstaver-i-supermarkedet-f0fb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-bageri-a4f1",
+      "siblings": [
+        "find-og-tael-find-bogstaver-bageri-a4f1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-strand-c1be",
+      "siblings": [
+        "find-og-tael-find-bogstaver-strand-c1be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-fugle-2-d25f",
+      "siblings": [
+        "find-og-tael-find-bogstaver-fugle-2-d25f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-kropsdele-3b4e",
+      "siblings": [
+        "find-og-tael-find-bogstaver-kropsdele-3b4e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-morgenmad-9d04",
+      "siblings": [
+        "find-og-tael-find-bogstaver-morgenmad-9d04"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-camping-abac",
+      "siblings": [
+        "find-og-tael-find-bogstaver-camping-abac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-jul-8112",
+      "siblings": [
+        "find-og-tael-find-bogstaver-jul-8112"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-klassevaerelse-5e45",
+      "siblings": [
+        "find-og-tael-find-bogstaver-klassevaerelse-5e45"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-toj-3437",
+      "siblings": [
+        "find-og-tael-find-bogstaver-toj-3437"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-farver-d9a0",
+      "siblings": [
+        "find-og-tael-find-bogstaver-farver-d9a0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: colors has low onset variety",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-paske-f8af",
+      "siblings": [
+        "find-og-tael-find-bogstaver-paske-f8af"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-folelser-845b",
+      "siblings": [
+        "find-og-tael-find-bogstaver-folelser-845b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-bondegardsdyr-2088",
+      "siblings": [
+        "find-og-tael-find-bogstaver-bondegardsdyr-2088"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-blomster-ffc2",
+      "siblings": [
+        "find-og-tael-find-bogstaver-blomster-ffc2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-skovdyr-de5a",
+      "siblings": [
+        "find-og-tael-find-bogstaver-skovdyr-de5a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-frugter-f945",
+      "siblings": [
+        "find-og-tael-find-bogstaver-frugter-f945"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-mobler-f83d",
+      "siblings": [
+        "find-og-tael-find-bogstaver-mobler-f83d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-hospital-6fda",
+      "siblings": [
+        "find-og-tael-find-bogstaver-hospital-6fda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-insekter-og-kryb-44ff",
+      "siblings": [
+        "find-og-tael-find-bogstaver-insekter-og-kryb-44ff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-kokkenredskaber-9095",
+      "siblings": [
+        "find-og-tael-find-bogstaver-kokkenredskaber-9095"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-musik-eb65",
+      "siblings": [
+        "find-og-tael-find-bogstaver-musik-eb65"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-erhverv-b82a",
+      "siblings": [
+        "find-og-tael-find-bogstaver-erhverv-b82a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-havliv-5353",
+      "siblings": [
+        "find-og-tael-find-bogstaver-havliv-5353"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-kaeledyr-bdaa",
+      "siblings": [
+        "find-og-tael-find-bogstaver-kaeledyr-bdaa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-postkontor-1405",
+      "siblings": [
+        "find-og-tael-find-bogstaver-postkontor-1405"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-krybdyr-og-padder-b061",
+      "siblings": [
+        "find-og-tael-find-bogstaver-krybdyr-og-padder-b061"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-former-903e",
+      "siblings": [
+        "find-og-tael-find-bogstaver-former-903e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "warn": "WEAK: shapes has low onset variety",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-rummet-17e6",
+      "siblings": [
+        "find-og-tael-find-bogstaver-rummet-17e6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-forar-c4ed",
+      "siblings": [
+        "find-og-tael-find-bogstaver-forar-c4ed"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-sommer-7697",
+      "siblings": [
+        "find-og-tael-find-bogstaver-sommer-7697"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-thanksgiving-995e",
+      "siblings": [
+        "find-og-tael-find-bogstaver-thanksgiving-995e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-ting-der-flyver-31a0",
+      "siblings": [
+        "find-og-tael-find-bogstaver-ting-der-flyver-31a0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-vaerktoj-579f",
+      "siblings": [
+        "find-og-tael-find-bogstaver-vaerktoj-579f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-legetoj-8ee9",
+      "siblings": [
+        "find-og-tael-find-bogstaver-legetoj-8ee9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-traeer-fcc0",
+      "siblings": [
+        "find-og-tael-find-bogstaver-traeer-fcc0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-grontsager-ce15",
+      "siblings": [
+        "find-og-tael-find-bogstaver-grontsager-ce15"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-koretojer-8f4a",
+      "siblings": [
+        "find-og-tael-find-bogstaver-koretojer-8f4a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-vejr-4d95",
+      "siblings": [
+        "find-og-tael-find-bogstaver-vejr-4d95"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-vinter-0d9a",
+      "siblings": [
+        "find-og-tael-find-bogstaver-vinter-0d9a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "letter-spotting",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "find-og-tael-find-bogstaver-zoodyr-130d",
+      "siblings": [
+        "find-og-tael-find-bogstaver-zoodyr-130d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "phonetic",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

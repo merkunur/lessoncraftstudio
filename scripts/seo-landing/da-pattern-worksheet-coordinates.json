@@ -1,0 +1,839 @@
+{
+  "locale": "da",
+  "exerciseType": "pattern-worksheet",
+  "level": "boernehaveklasse",
+  "rawRowCount": 50,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "monsterark-tilbehor-b67d",
+      "siblings": [
+        "monsterark-tilbehor-b67d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "monsterark-aktiviteter-c30b",
+      "siblings": [
+        "monsterark-aktiviteter-c30b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "monsterark-dyr-3e98",
+      "siblings": [
+        "monsterark-dyr-3e98"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "monsterark-rundt-i-huset-65b6",
+      "siblings": [
+        "monsterark-rundt-i-huset-65b6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "monsterark-i-supermarkedet-ad27",
+      "siblings": [
+        "monsterark-i-supermarkedet-ad27"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "monsterark-bageri-ebf3",
+      "siblings": [
+        "monsterark-bageri-ebf3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "monsterark-strand-f730",
+      "siblings": [
+        "monsterark-strand-f730"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "monsterark-fugle-c5aa",
+      "siblings": [
+        "monsterark-fugle-c5aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "monsterark-fugle-2-b186",
+      "siblings": [
+        "monsterark-fugle-2-b186"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "monsterark-kropsdele-c84c",
+      "siblings": [
+        "monsterark-kropsdele-c84c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "monsterark-morgenmad-6c0b",
+      "siblings": [
+        "monsterark-morgenmad-6c0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "monsterark-camping-b380",
+      "siblings": [
+        "monsterark-camping-b380"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "monsterark-jul-304b",
+      "siblings": [
+        "monsterark-jul-304b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "monsterark-klassevaerelse-77ce",
+      "siblings": [
+        "monsterark-klassevaerelse-77ce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "monsterark-toj-c1c8",
+      "siblings": [
+        "monsterark-toj-c1c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "monsterark-farver-631e",
+      "siblings": [
+        "monsterark-farver-631e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "monsterark-desserter-og-slik-7acd",
+      "siblings": [
+        "monsterark-desserter-og-slik-7acd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "monsterark-dinosaurer-5a35",
+      "siblings": [
+        "monsterark-dinosaurer-5a35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "monsterark-paske-b03d",
+      "siblings": [
+        "monsterark-paske-b03d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "monsterark-folelser-22a3",
+      "siblings": [
+        "monsterark-folelser-22a3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "monsterark-bondegardsdyr-dd89",
+      "siblings": [
+        "monsterark-bondegardsdyr-dd89"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "monsterark-blomster-b43a",
+      "siblings": [
+        "monsterark-blomster-b43a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "monsterark-skovdyr-b287",
+      "siblings": [
+        "monsterark-skovdyr-b287"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "monsterark-frugter-afbf",
+      "siblings": [
+        "monsterark-frugter-afbf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "monsterark-mobler-4221",
+      "siblings": [
+        "monsterark-mobler-4221"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "monsterark-hospital-872e",
+      "siblings": [
+        "monsterark-hospital-872e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "monsterark-insekter-og-kryb-a29f",
+      "siblings": [
+        "monsterark-insekter-og-kryb-a29f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "monsterark-kokkenredskaber-3937",
+      "siblings": [
+        "monsterark-kokkenredskaber-3937"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "monsterark-musik-06f7",
+      "siblings": [
+        "monsterark-musik-06f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "monsterark-erhverv-6a7e",
+      "siblings": [
+        "monsterark-erhverv-6a7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "monsterark-havliv-0f9a",
+      "siblings": [
+        "monsterark-havliv-0f9a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "monsterark-kaeledyr-bb6b",
+      "siblings": [
+        "monsterark-kaeledyr-bb6b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "monsterark-postkontor-9f31",
+      "siblings": [
+        "monsterark-postkontor-9f31"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "monsterark-krybdyr-og-padder-2c74",
+      "siblings": [
+        "monsterark-krybdyr-og-padder-2c74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "monsterark-former-150f",
+      "siblings": [
+        "monsterark-former-150f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "monsterark-rummet-5d0f",
+      "siblings": [
+        "monsterark-rummet-5d0f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "monsterark-forar-4f50",
+      "siblings": [
+        "monsterark-forar-4f50"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "monsterark-sommer-242e",
+      "siblings": [
+        "monsterark-sommer-242e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "monsterark-thanksgiving-7e33",
+      "siblings": [
+        "monsterark-thanksgiving-7e33"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "monsterark-ting-der-flyver-d0be",
+      "siblings": [
+        "monsterark-ting-der-flyver-d0be"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "monsterark-vaerktoj-4500",
+      "siblings": [
+        "monsterark-vaerktoj-4500"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "monsterark-legetoj-1b24",
+      "siblings": [
+        "monsterark-legetoj-1b24"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "monsterark-traeer-d322",
+      "siblings": [
+        "monsterark-traeer-d322"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "monsterark-grontsager-e093",
+      "siblings": [
+        "monsterark-grontsager-e093"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "monsterark-koretojer-ee64",
+      "siblings": [
+        "monsterark-koretojer-ee64"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "monsterark-vejr-0311",
+      "siblings": [
+        "monsterark-vejr-0311"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "monsterark-vinter-d3c0",
+      "siblings": [
+        "monsterark-vinter-d3c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "monsterark-zoodyr-d375",
+      "siblings": [
+        "monsterark-zoodyr-d375"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

@@ -1,0 +1,1610 @@
+{
+  "locale": "da",
+  "exerciseType": "treasure-hunt",
+  "level": "boernehaveklasse",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 48,
+    "compass": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-tilbehor-53a8",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-tilbehor-53a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-aktiviteter-6497",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-aktiviteter-6497"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "skattejagt-op-ned-venstre-hojre-dyr",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-dyr",
+        "skattejagt-op-ned-venstre-hojre-dyr-db71"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-rundt-i-huset-be55"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-i-supermarkedet-8d44"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-bageri-02de",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-bageri-02de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-strand-aa1b",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-strand-aa1b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-fugle-f8ec",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-fugle-f8ec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-fugle-2-3ba9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-kropsdele-b2a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-morgenmad-d057",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-morgenmad-d057"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-camping-6ffc",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-camping-6ffc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-jul-3f41",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-jul-3f41"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-klassevaerelse-33c6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-toj-392c",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-toj-392c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-farver-c2e5",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-farver-c2e5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-desserter-og-slik-17a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-dinosaurer-0a25"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-paske-1675",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-paske-1675"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-folelser-9f96",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-folelser-9f96"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-bondegardsdyr-8e53"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-blomster-e8c1",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-blomster-e8c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-skovdyr-7cd8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-frugter-e697",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-frugter-e697"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-mobler-8379",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-mobler-8379"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-hospital-9836",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-hospital-9836"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-insekter-og-kryb-ec11"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-kokkenredskaber-20af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-musik-00de",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-musik-00de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-erhverv-cf43",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-erhverv-cf43"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-havliv-5506",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-havliv-5506"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-kaeledyr-c57f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-postkontor-62cf",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-postkontor-62cf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-krybdyr-og-padder-8155"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-former-ac20",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-former-ac20"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-rummet-59b5",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-rummet-59b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-forar-a68a",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-forar-a68a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-sommer-6740",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-sommer-6740"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-thanksgiving-011e",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-thanksgiving-011e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-ting-der-flyver-56c9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-vaerktoj-9ced"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-legetoj-d234",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-legetoj-d234"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-traeer-2b34",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-traeer-2b34"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-grontsager-f451",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-grontsager-f451"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-koretojer-af1c",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-koretojer-af1c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-vejr-add6",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-vejr-add6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-vinter-826f",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-vinter-826f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattejagt-op-ned-venstre-hojre-zoodyr-66b5",
+      "siblings": [
+        "skattejagt-op-ned-venstre-hojre-zoodyr-66b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-tilbehor-5038",
+      "siblings": [
+        "skattejagt-verdenshjorner-tilbehor-5038"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-aktiviteter-a9ad",
+      "siblings": [
+        "skattejagt-verdenshjorner-aktiviteter-a9ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-dyr-f7c7",
+      "siblings": [
+        "skattejagt-verdenshjorner-dyr-f7c7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-rundt-i-huset-24f5",
+      "siblings": [
+        "skattejagt-verdenshjorner-rundt-i-huset-24f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-i-supermarkedet-1df1",
+      "siblings": [
+        "skattejagt-verdenshjorner-i-supermarkedet-1df1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-bageri-1d9a",
+      "siblings": [
+        "skattejagt-verdenshjorner-bageri-1d9a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-strand-c747",
+      "siblings": [
+        "skattejagt-verdenshjorner-strand-c747"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-fugle-53b2",
+      "siblings": [
+        "skattejagt-verdenshjorner-fugle-53b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-fugle-2-aac6",
+      "siblings": [
+        "skattejagt-verdenshjorner-fugle-2-aac6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-kropsdele-bde3",
+      "siblings": [
+        "skattejagt-verdenshjorner-kropsdele-bde3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-morgenmad-651b",
+      "siblings": [
+        "skattejagt-verdenshjorner-morgenmad-651b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-camping-a03b",
+      "siblings": [
+        "skattejagt-verdenshjorner-camping-a03b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-jul-4d74",
+      "siblings": [
+        "skattejagt-verdenshjorner-jul-4d74"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-klassevaerelse-980d",
+      "siblings": [
+        "skattejagt-verdenshjorner-klassevaerelse-980d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-toj-811f",
+      "siblings": [
+        "skattejagt-verdenshjorner-toj-811f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-farver-7508",
+      "siblings": [
+        "skattejagt-verdenshjorner-farver-7508"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-desserter-og-slik-11b9",
+      "siblings": [
+        "skattejagt-verdenshjorner-desserter-og-slik-11b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-dinosaurer-84e1",
+      "siblings": [
+        "skattejagt-verdenshjorner-dinosaurer-84e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-paske-5120",
+      "siblings": [
+        "skattejagt-verdenshjorner-paske-5120"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-folelser-7551",
+      "siblings": [
+        "skattejagt-verdenshjorner-folelser-7551"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-bondegardsdyr-8e2a",
+      "siblings": [
+        "skattejagt-verdenshjorner-bondegardsdyr-8e2a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-blomster-9d2b",
+      "siblings": [
+        "skattejagt-verdenshjorner-blomster-9d2b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-skovdyr-f29e",
+      "siblings": [
+        "skattejagt-verdenshjorner-skovdyr-f29e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-frugter-ad9f",
+      "siblings": [
+        "skattejagt-verdenshjorner-frugter-ad9f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-mobler-87d7",
+      "siblings": [
+        "skattejagt-verdenshjorner-mobler-87d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-hospital-090f",
+      "siblings": [
+        "skattejagt-verdenshjorner-hospital-090f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-insekter-og-kryb-664c",
+      "siblings": [
+        "skattejagt-verdenshjorner-insekter-og-kryb-664c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-kokkenredskaber-f289",
+      "siblings": [
+        "skattejagt-verdenshjorner-kokkenredskaber-f289"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-musik-2f99",
+      "siblings": [
+        "skattejagt-verdenshjorner-musik-2f99"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-erhverv-236a",
+      "siblings": [
+        "skattejagt-verdenshjorner-erhverv-236a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-havliv-ea84",
+      "siblings": [
+        "skattejagt-verdenshjorner-havliv-ea84"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-kaeledyr-5116",
+      "siblings": [
+        "skattejagt-verdenshjorner-kaeledyr-5116"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-postkontor-6783",
+      "siblings": [
+        "skattejagt-verdenshjorner-postkontor-6783"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc",
+      "siblings": [
+        "skattejagt-verdenshjorner-krybdyr-og-padder-1fcc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-former-8d0f",
+      "siblings": [
+        "skattejagt-verdenshjorner-former-8d0f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-rummet-63a8",
+      "siblings": [
+        "skattejagt-verdenshjorner-rummet-63a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-forar-522a",
+      "siblings": [
+        "skattejagt-verdenshjorner-forar-522a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-sommer-be79",
+      "siblings": [
+        "skattejagt-verdenshjorner-sommer-be79"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-thanksgiving-30f8",
+      "siblings": [
+        "skattejagt-verdenshjorner-thanksgiving-30f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-ting-der-flyver-8e98",
+      "siblings": [
+        "skattejagt-verdenshjorner-ting-der-flyver-8e98"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-vaerktoj-e5eb",
+      "siblings": [
+        "skattejagt-verdenshjorner-vaerktoj-e5eb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-legetoj-16b2",
+      "siblings": [
+        "skattejagt-verdenshjorner-legetoj-16b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-traeer-5c35",
+      "siblings": [
+        "skattejagt-verdenshjorner-traeer-5c35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-grontsager-7e8f",
+      "siblings": [
+        "skattejagt-verdenshjorner-grontsager-7e8f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-koretojer-317d",
+      "siblings": [
+        "skattejagt-verdenshjorner-koretojer-317d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-vejr-a40e",
+      "siblings": [
+        "skattejagt-verdenshjorner-vejr-a40e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-vinter-b7ef",
+      "siblings": [
+        "skattejagt-verdenshjorner-vinter-b7ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "skattejagt-verdenshjorner-zoodyr-3bbb",
+      "siblings": [
+        "skattejagt-verdenshjorner-zoodyr-3bbb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

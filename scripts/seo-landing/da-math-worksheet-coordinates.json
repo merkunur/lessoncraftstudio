@@ -1,0 +1,1498 @@
+{
+  "locale": "da",
+  "exerciseType": "math-worksheet",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "three-symbols-add-sub": 48,
+    "two-symbols-add-sub": 47
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "three-symbols-add-sub",
+    "two-symbols-add-sub"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-tilbehor-3875",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-tilbehor-3875"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-aktiviteter-b1ff",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-aktiviteter-b1ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-dyr-4244",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-dyr-4244"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-rundt-i-huset-e5c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-i-supermarkedet-cf65",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-i-supermarkedet-cf65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-bageri-77cd",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-bageri-77cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-strand-1a83",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-strand-1a83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-fugle-0600",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-fugle-0600"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-fugle-2-59f2",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-fugle-2-59f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-kropsdele-cd1e",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-kropsdele-cd1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-morgenmad-98c2",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-morgenmad-98c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-camping-fa14",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-camping-fa14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-jul-b38e",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-jul-b38e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-klassevaerelse-46fc",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-klassevaerelse-46fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-toj-cf64",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-toj-cf64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-farver-08fc",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-farver-08fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-desserter-og-slik-7d6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-dinosaurer-09cc",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-dinosaurer-09cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-paske-39ff",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-paske-39ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-folelser-ddbd",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-folelser-ddbd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-bondegardsdyr-08f7",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-bondegardsdyr-08f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-blomster-8ae7",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-blomster-8ae7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-skovdyr-376f",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-skovdyr-376f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-frugter-cdb8",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-frugter-cdb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-mobler-c5a6",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-mobler-c5a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-hospital-195f",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-hospital-195f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-insekter-og-kryb-2be7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-kokkenredskaber-65f8",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-kokkenredskaber-65f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-musik-9652",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-musik-9652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-erhverv-80e2",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-erhverv-80e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-havliv-0a5b",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-havliv-0a5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-kaeledyr-778e",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-kaeledyr-778e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-postkontor-b682",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-postkontor-b682"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-krybdyr-og-padder-45c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-former-86de",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-former-86de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-rummet-e893",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-rummet-e893"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-forar-0062",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-forar-0062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-sommer-c6e8",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-sommer-c6e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-thanksgiving-4007",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-thanksgiving-4007"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-ting-der-flyver-87c6",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-ting-der-flyver-87c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-vaerktoj-b184",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-vaerktoj-b184"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-legetoj-21c2",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-legetoj-21c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-traeer-e991",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-traeer-e991"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-grontsager-798d",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-grontsager-798d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-koretojer-8848",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-koretojer-8848"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-vejr-ed84",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-vejr-ed84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-vinter-901f",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-vinter-901f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "three-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matematikark-3-symboler-add-sub-zoodyr-6a50",
+      "siblings": [
+        "matematikark-3-symboler-add-sub-zoodyr-6a50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-tilbehor-8c66",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-tilbehor-8c66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-aktiviteter-f7d0",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-aktiviteter-f7d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-dyr-6091",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-dyr-6091"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-rundt-i-huset-bf7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-i-supermarkedet-421e",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-i-supermarkedet-421e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-bageri-bec4",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-bageri-bec4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-strand-e1c1",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-strand-e1c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-fugle-7671",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-fugle-7671"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-fugle-2-eb68",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-fugle-2-eb68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-kropsdele-9868",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-kropsdele-9868"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-morgenmad-0800",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-morgenmad-0800"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-camping-9855",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-camping-9855"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-jul-4095",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-jul-4095"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-klassevaerelse-6ce8",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-klassevaerelse-6ce8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-toj-b88f",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-toj-b88f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-farver-c9c2",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-farver-c9c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-dinosaurer-622d",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-dinosaurer-622d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-paske-3009",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-paske-3009"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-folelser-8fed",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-folelser-8fed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-bondegardsdyr-0b16",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-bondegardsdyr-0b16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-blomster-01e0",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-blomster-01e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-skovdyr-defa",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-skovdyr-defa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-frugter-1a85",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-frugter-1a85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-mobler-4831",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-mobler-4831"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-hospital-5270",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-hospital-5270"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-insekter-og-kryb-f2f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-kokkenredskaber-e7ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-musik-b35d",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-musik-b35d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-erhverv-e26b",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-erhverv-e26b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-havliv-eb46",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-havliv-eb46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-kaeledyr-cef2",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-kaeledyr-cef2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-postkontor-210b",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-postkontor-210b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-krybdyr-og-padder-e0ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-former-f9b6",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-former-f9b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-rummet-e9a9",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-rummet-e9a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-forar-79a1",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-forar-79a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-sommer-55e4",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-sommer-55e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-thanksgiving-980b",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-thanksgiving-980b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-ting-der-flyver-70f7",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-ting-der-flyver-70f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-vaerktoj-2f6b",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-vaerktoj-2f6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-legetoj-2165",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-legetoj-2165"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-traeer-a50b",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-traeer-a50b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-grontsager-5b6d",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-grontsager-5b6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-koretojer-0801",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-koretojer-0801"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-vejr-9364",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-vejr-9364"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-vinter-7c91",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-vinter-7c91"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "two-symbols-add-sub",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "matematikark-2-symboler-add-sub-zoodyr-2c7d",
+      "siblings": [
+        "matematikark-2-symboler-add-sub-zoodyr-2c7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

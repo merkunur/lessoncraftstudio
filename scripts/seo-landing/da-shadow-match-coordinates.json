@@ -1,0 +1,1545 @@
+{
+  "locale": "da",
+  "exerciseType": "shadow-match",
+  "level": "boernehaveklasse",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 45,
+    "make-whole": 47
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-tilbehor-a1f1",
+      "siblings": [
+        "match-skygger-match-skyggen-tilbehor-a1f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-aktiviteter-bbb6",
+      "siblings": [
+        "match-skygger-match-skyggen-aktiviteter-bbb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "match-skygger-match-skyggen-dyr",
+      "siblings": [
+        "match-skygger-match-skyggen-dyr",
+        "match-skygger-match-skyggen-dyr-b0c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-rundt-i-huset-0f8c",
+      "siblings": [
+        "match-skygger-match-skyggen-rundt-i-huset-0f8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-i-supermarkedet-4d96",
+      "siblings": [
+        "match-skygger-match-skyggen-i-supermarkedet-4d96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-bageri-38d4",
+      "siblings": [
+        "match-skygger-match-skyggen-bageri-38d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-strand-e0ab",
+      "siblings": [
+        "match-skygger-match-skyggen-strand-e0ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-fugle-b79b",
+      "siblings": [
+        "match-skygger-match-skyggen-fugle-b79b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-fugle-2-a200",
+      "siblings": [
+        "match-skygger-match-skyggen-fugle-2-a200"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-kropsdele-3fd8",
+      "siblings": [
+        "match-skygger-match-skyggen-kropsdele-3fd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-morgenmad-6cdc",
+      "siblings": [
+        "match-skygger-match-skyggen-morgenmad-6cdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-camping-fe7c",
+      "siblings": [
+        "match-skygger-match-skyggen-camping-fe7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-jul-0e5c",
+      "siblings": [
+        "match-skygger-match-skyggen-jul-0e5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-klassevaerelse-bb73",
+      "siblings": [
+        "match-skygger-match-skyggen-klassevaerelse-bb73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-toj-fd3e",
+      "siblings": [
+        "match-skygger-match-skyggen-toj-fd3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-desserter-og-slik-a6c0",
+      "siblings": [
+        "match-skygger-match-skyggen-desserter-og-slik-a6c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-dinosaurer-6ae9",
+      "siblings": [
+        "match-skygger-match-skyggen-dinosaurer-6ae9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-paske-0cce",
+      "siblings": [
+        "match-skygger-match-skyggen-paske-0cce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-bondegardsdyr-4ca4",
+      "siblings": [
+        "match-skygger-match-skyggen-bondegardsdyr-4ca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-blomster-4d86",
+      "siblings": [
+        "match-skygger-match-skyggen-blomster-4d86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-skovdyr-5b3f",
+      "siblings": [
+        "match-skygger-match-skyggen-skovdyr-5b3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-frugter-46c5",
+      "siblings": [
+        "match-skygger-match-skyggen-frugter-46c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-mobler-b349",
+      "siblings": [
+        "match-skygger-match-skyggen-mobler-b349"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-hospital-271f",
+      "siblings": [
+        "match-skygger-match-skyggen-hospital-271f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-insekter-og-kryb-c108",
+      "siblings": [
+        "match-skygger-match-skyggen-insekter-og-kryb-c108"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-kokkenredskaber-33cd",
+      "siblings": [
+        "match-skygger-match-skyggen-kokkenredskaber-33cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-musik-b9d2",
+      "siblings": [
+        "match-skygger-match-skyggen-musik-b9d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-erhverv-ae1e",
+      "siblings": [
+        "match-skygger-match-skyggen-erhverv-ae1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-havliv-dcf7",
+      "siblings": [
+        "match-skygger-match-skyggen-havliv-dcf7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-kaeledyr-db41",
+      "siblings": [
+        "match-skygger-match-skyggen-kaeledyr-db41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-postkontor-66b2",
+      "siblings": [
+        "match-skygger-match-skyggen-postkontor-66b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-krybdyr-og-padder-0d14",
+      "siblings": [
+        "match-skygger-match-skyggen-krybdyr-og-padder-0d14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-rummet-501a",
+      "siblings": [
+        "match-skygger-match-skyggen-rummet-501a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-forar-d924",
+      "siblings": [
+        "match-skygger-match-skyggen-forar-d924"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-sommer-096b",
+      "siblings": [
+        "match-skygger-match-skyggen-sommer-096b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-thanksgiving-1623",
+      "siblings": [
+        "match-skygger-match-skyggen-thanksgiving-1623"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-ting-der-flyver-f80d",
+      "siblings": [
+        "match-skygger-match-skyggen-ting-der-flyver-f80d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-vaerktoj-7614",
+      "siblings": [
+        "match-skygger-match-skyggen-vaerktoj-7614"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-legetoj-f239",
+      "siblings": [
+        "match-skygger-match-skyggen-legetoj-f239"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-traeer-c543",
+      "siblings": [
+        "match-skygger-match-skyggen-traeer-c543"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-grontsager-a4bc",
+      "siblings": [
+        "match-skygger-match-skyggen-grontsager-a4bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-koretojer-a667",
+      "siblings": [
+        "match-skygger-match-skyggen-koretojer-a667"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-vejr-c2de",
+      "siblings": [
+        "match-skygger-match-skyggen-vejr-c2de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-vinter-f385",
+      "siblings": [
+        "match-skygger-match-skyggen-vinter-f385"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "match-skygger-match-skyggen-zoodyr-90a9",
+      "siblings": [
+        "match-skygger-match-skyggen-zoodyr-90a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-tilbehor-bcdd",
+      "siblings": [
+        "match-skygger-gor-hel-tilbehor-bcdd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-aktiviteter-ab3b",
+      "siblings": [
+        "match-skygger-gor-hel-aktiviteter-ab3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-dyr-ea73",
+      "siblings": [
+        "match-skygger-gor-hel-dyr-ea73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-rundt-i-huset-0407",
+      "siblings": [
+        "match-skygger-gor-hel-rundt-i-huset-0407"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-i-supermarkedet-e400",
+      "siblings": [
+        "match-skygger-gor-hel-i-supermarkedet-e400"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-bageri-80ee",
+      "siblings": [
+        "match-skygger-gor-hel-bageri-80ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-strand-ba39",
+      "siblings": [
+        "match-skygger-gor-hel-strand-ba39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-fugle-8452",
+      "siblings": [
+        "match-skygger-gor-hel-fugle-8452"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-fugle-2-d4df",
+      "siblings": [
+        "match-skygger-gor-hel-fugle-2-d4df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-kropsdele-d41f",
+      "siblings": [
+        "match-skygger-gor-hel-kropsdele-d41f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-morgenmad-db38",
+      "siblings": [
+        "match-skygger-gor-hel-morgenmad-db38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-camping-e6eb",
+      "siblings": [
+        "match-skygger-gor-hel-camping-e6eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-jul-1a7b",
+      "siblings": [
+        "match-skygger-gor-hel-jul-1a7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-klassevaerelse-a2a7",
+      "siblings": [
+        "match-skygger-gor-hel-klassevaerelse-a2a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-toj-e439",
+      "siblings": [
+        "match-skygger-gor-hel-toj-e439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-desserter-og-slik-9f19",
+      "siblings": [
+        "match-skygger-gor-hel-desserter-og-slik-9f19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-dinosaurer-01bf",
+      "siblings": [
+        "match-skygger-gor-hel-dinosaurer-01bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-paske-aa47",
+      "siblings": [
+        "match-skygger-gor-hel-paske-aa47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-folelser-8aac",
+      "siblings": [
+        "match-skygger-gor-hel-folelser-8aac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-bondegardsdyr-d557",
+      "siblings": [
+        "match-skygger-gor-hel-bondegardsdyr-d557"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-blomster-657c",
+      "siblings": [
+        "match-skygger-gor-hel-blomster-657c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-skovdyr-3ca2",
+      "siblings": [
+        "match-skygger-gor-hel-skovdyr-3ca2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-frugter-06ca",
+      "siblings": [
+        "match-skygger-gor-hel-frugter-06ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-mobler-08bc",
+      "siblings": [
+        "match-skygger-gor-hel-mobler-08bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-hospital-f8ec",
+      "siblings": [
+        "match-skygger-gor-hel-hospital-f8ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-insekter-og-kryb-71b8",
+      "siblings": [
+        "match-skygger-gor-hel-insekter-og-kryb-71b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-kokkenredskaber-edca",
+      "siblings": [
+        "match-skygger-gor-hel-kokkenredskaber-edca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-musik-f81b",
+      "siblings": [
+        "match-skygger-gor-hel-musik-f81b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-erhverv-e710",
+      "siblings": [
+        "match-skygger-gor-hel-erhverv-e710"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-havliv-924f",
+      "siblings": [
+        "match-skygger-gor-hel-havliv-924f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-kaeledyr-8feb",
+      "siblings": [
+        "match-skygger-gor-hel-kaeledyr-8feb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-postkontor-0518",
+      "siblings": [
+        "match-skygger-gor-hel-postkontor-0518"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-krybdyr-og-padder-0f96",
+      "siblings": [
+        "match-skygger-gor-hel-krybdyr-og-padder-0f96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-former-239f",
+      "siblings": [
+        "match-skygger-gor-hel-former-239f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-rummet-1ad4",
+      "siblings": [
+        "match-skygger-gor-hel-rummet-1ad4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-forar-7e63",
+      "siblings": [
+        "match-skygger-gor-hel-forar-7e63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-sommer-1f9c",
+      "siblings": [
+        "match-skygger-gor-hel-sommer-1f9c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-thanksgiving-4e00",
+      "siblings": [
+        "match-skygger-gor-hel-thanksgiving-4e00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-ting-der-flyver-80a4",
+      "siblings": [
+        "match-skygger-gor-hel-ting-der-flyver-80a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-vaerktoj-5f1d",
+      "siblings": [
+        "match-skygger-gor-hel-vaerktoj-5f1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-legetoj-1f8c",
+      "siblings": [
+        "match-skygger-gor-hel-legetoj-1f8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-traeer-7046",
+      "siblings": [
+        "match-skygger-gor-hel-traeer-7046"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-grontsager-fc8e",
+      "siblings": [
+        "match-skygger-gor-hel-grontsager-fc8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-koretojer-ea4a",
+      "siblings": [
+        "match-skygger-gor-hel-koretojer-ea4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-vejr-6900",
+      "siblings": [
+        "match-skygger-gor-hel-vejr-6900"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-vinter-f0d2",
+      "siblings": [
+        "match-skygger-gor-hel-vinter-f0d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "match-skygger-gor-hel-zoodyr-9fc3",
+      "siblings": [
+        "match-skygger-gor-hel-zoodyr-9fc3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "locale": "da",
+  "exerciseType": "cryptogram",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 101,
+  "rowsWithoutSubjectTag": 101,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {},
+  "totalValid": 0,
+  "distinctThemes": [],
+  "distinctModes": [],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": []
+}

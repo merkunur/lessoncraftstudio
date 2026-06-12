@@ -1,0 +1,1512 @@
+{
+  "locale": "da",
+  "exerciseType": "missing-pieces",
+  "level": "boernehaveklasse",
+  "rawRowCount": 93,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "one-missing": 44,
+    "two-missing": 46
+  },
+  "totalValid": 90,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "one-missing",
+    "two-missing"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "one-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-tilbehor-86d5",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-tilbehor-86d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-aktiviteter-a763",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-aktiviteter-a763"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "manglende-brikker-1-manglende-brik-dyr",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-dyr",
+        "manglende-brikker-1-manglende-brik-dyr-b218"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-rundt-i-huset-9700",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-rundt-i-huset-9700"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-i-supermarkedet-4652",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-i-supermarkedet-4652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-bageri-aa69",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-bageri-aa69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-strand-1f22",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-strand-1f22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-fugle-21c5",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-fugle-21c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-fugle-2-9062",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-fugle-2-9062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-kropsdele-b034",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-kropsdele-b034"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-morgenmad-b85d",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-morgenmad-b85d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-camping-6009",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-camping-6009"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-jul-6f74",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-jul-6f74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-klassevaerelse-4a08",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-klassevaerelse-4a08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-toj-8c1b",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-toj-8c1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-dinosaurer-3f79",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-dinosaurer-3f79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-paske-44a3",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-paske-44a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-folelser-2bb6",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-folelser-2bb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-bondegardsdyr-f934",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-bondegardsdyr-f934"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-blomster-28b7",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-blomster-28b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-skovdyr-ec9d",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-skovdyr-ec9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-frugter-600d",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-frugter-600d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-mobler-eaeb",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-mobler-eaeb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-hospital-e598",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-hospital-e598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-insekter-og-kryb-ecf2",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-insekter-og-kryb-ecf2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-kokkenredskaber-8e55",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-kokkenredskaber-8e55"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-musik-fa90",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-musik-fa90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-havliv-9eae",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-havliv-9eae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-kaeledyr-1d1c",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-kaeledyr-1d1c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-postkontor-55ae",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-postkontor-55ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-krybdyr-og-padder-178f",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-krybdyr-og-padder-178f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-rummet-75d3",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-rummet-75d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-forar-241a",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-forar-241a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-sommer-10c6",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-sommer-10c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-thanksgiving-0aac",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-thanksgiving-0aac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-ting-der-flyver-504a",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-ting-der-flyver-504a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-vaerktoj-0b72",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-vaerktoj-0b72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-legetoj-2d81",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-legetoj-2d81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-traeer-2817",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-traeer-2817"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-grontsager-d1fe",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-grontsager-d1fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-koretojer-90c2",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-koretojer-90c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-vejr-b225",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-vejr-b225"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-vinter-3898",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-vinter-3898"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "one-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "manglende-brikker-1-manglende-brik-zoodyr-f6cf",
+      "siblings": [
+        "manglende-brikker-1-manglende-brik-zoodyr-f6cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-tilbehor-ad10",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-tilbehor-ad10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-aktiviteter-8884",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-aktiviteter-8884"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-dyr-4307",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-dyr-4307"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-rundt-i-huset-01a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-i-supermarkedet-27a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-bageri-ba2f",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-bageri-ba2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-strand-d5b8",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-strand-d5b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-fugle-3b29",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-fugle-3b29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-fugle-2-92d6",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-fugle-2-92d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-kropsdele-e9df",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-kropsdele-e9df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-morgenmad-4f05",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-morgenmad-4f05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-camping-ccb4",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-camping-ccb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-jul-49a1",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-jul-49a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-klassevaerelse-6527",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-klassevaerelse-6527"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-toj-0e2a",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-toj-0e2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-desserter-og-slik-052f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-dinosaurer-e30b",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-dinosaurer-e30b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-paske-c778",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-paske-c778"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-folelser-d7d0",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-folelser-d7d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-bondegardsdyr-af5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-blomster-c24c",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-blomster-c24c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-skovdyr-f527",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-skovdyr-f527"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-frugter-b7e7",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-frugter-b7e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-mobler-2940",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-mobler-2940"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-hospital-57ae",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-hospital-57ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-insekter-og-kryb-255b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-kokkenredskaber-b6ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-musik-6962",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-musik-6962"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-erhverv-d5e2",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-erhverv-d5e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-havliv-6fcc",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-havliv-6fcc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-kaeledyr-8028",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-kaeledyr-8028"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-postkontor-3876",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-postkontor-3876"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-krybdyr-og-padder-9fa6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-rummet-f710",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-rummet-f710"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-forar-0954",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-forar-0954"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-sommer-000c",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-sommer-000c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-thanksgiving-aaf6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-ting-der-flyver-2fd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-vaerktoj-81f7",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-vaerktoj-81f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-legetoj-0f69",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-legetoj-0f69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-traeer-bbc0",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-traeer-bbc0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-grontsager-1ab0",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-grontsager-1ab0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-koretojer-a0b2",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-koretojer-a0b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-vejr-014a",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-vejr-014a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-vinter-9ce4",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-vinter-9ce4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "two-missing",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "manglende-brikker-2-manglende-brikker-zoodyr-7c81",
+      "siblings": [
+        "manglende-brikker-2-manglende-brikker-zoodyr-7c81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

@@ -36,8 +36,10 @@ const DECK_ROOT = '/var/www/lcs-media/decks/' + LOCALE + '/';
 // (`ring-1769383010179-6b29f518.webp` -> `ring`; `party-hat-...webp` -> `party-hat`),
 // then a bare trailing `-<n>` duplicate counter.
 function nounKey(p) {
+  // Upload suffix is `-<13-digit-timestamp>-<base36 hash>.webp` (the hash is lowercase
+  // alphanumeric, NOT always hex — e.g. `heptagon-1769383459045-so8kiwbv.webp`).
   return p.split('/').pop()
-    .replace(/-\d{10,}-[0-9a-f]+\.webp$/i, '')
+    .replace(/-\d{10,}-[0-9a-z]+\.webp$/i, '')
     .replace(/\.webp$/i, '')
     .replace(/-\d+$/, '');
 }

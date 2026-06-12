@@ -30,11 +30,19 @@ function labelSafeNouns(theme) {
     .map(([noun, v]) => ({ noun, vocabKey: v.vocabKey, px: v.px }));
 }
 
-function fileUri(theme, noun, variantIndex) {
+function fileUri(theme, noun, variantIndex, opts) {
   const t = themeEntry(theme);
   const entry = t.nouns[noun];
   if (!entry) throw new Error('resolve: noun not cached: ' + theme + '/' + noun);
   const file = entry.files[variantIndex || 0];
+  // Prefer the derived 512px copy (image-cache/derive.js) — icons render at
+  // ≤~240px CSS so 512 device px is full retina sharpness at a fraction of the
+  // embedded-PDF weight. opts.full opts back into the @3x source for call
+  // sites that scale art larger (e.g. measurement-tasks artExtent objects).
+  if (!opts || !opts.full) {
+    const derived = path.join(CACHE, 'themes-512', theme, file);
+    if (fs.existsSync(derived)) return require('url').pathToFileURL(derived).href;
+  }
   return require('url').pathToFileURL(path.join(CACHE, 'themes', theme, file)).href;
 }
 

@@ -46,7 +46,7 @@ function measuredObject(theme, item, lengthU, maxU, band) {
   const bandH = Math.min(artH, band || BAND);
   return `<span style="display:inline-flex;flex-direction:column;align-items:flex-start" data-lcs-objlen="${lengthU}">` +
     `<span style="position:relative;display:block;width:${maxU * U + 2}px;height:${bandH.toFixed(1)}px;overflow:hidden">` +
-    `<img class="ws-icon" src="${fileUri(theme, item.noun)}" alt="" ` +
+    `<img class="ws-icon" src="${fileUri(theme, item.noun, 0, { full: true })}" alt="" ` +
     `style="position:absolute;left:${(1 - leftShift).toFixed(1)}px;top:${(-topShift).toFixed(1)}px;width:${boxW.toFixed(1)}px;height:${boxW.toFixed(1)}px">` +
     `</span>` + cubeRow(lengthU, maxU) + `</span>`;
 }

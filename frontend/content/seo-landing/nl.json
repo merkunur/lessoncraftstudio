@@ -22239,6 +22239,2402 @@
       "standard": "1.OA.C.6",
       "title": "Werkbladen Rekenpuzzel tot 20 – Dierentuindieren | printen PDF gratis",
       "metaDescription": "Rekenpuzzel tot 20 – Dierentuindieren. Los de rekenpuzzel op en vul het juiste getal in. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-accessoires-ce59",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "accessories",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met accessoires – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "accessoires",
+        "de accessoires",
+        "Accessoires",
+        "accessories",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met accessoires. Elk van de accessoires staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de accessoires worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met activiteiten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met vogels, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met accessoires is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-accessoires-ce59",
+      "carousel": [
+        {
+          "label": "Rekencode – Activiteiten",
+          "href": "code-optellen-activiteiten-a2db"
+        },
+        {
+          "label": "Rekencode – Dieren",
+          "href": "code-optellen-dieren-6a2e"
+        },
+        {
+          "label": "Rekencode – Bakkerij",
+          "href": "code-optellen-bakkerij-9cdf"
+        },
+        {
+          "label": "Rekencode – Kamperen",
+          "href": "code-optellen-kamperen-1caf"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-accessoires-ce59",
+        "code-optellen-accessoires-09f9"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Accessoires | printen PDF gratis",
+      "metaDescription": "Rekencode – Accessoires. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-activiteiten-a2db",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "activities",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met activiteiten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "activiteiten",
+        "de activiteiten",
+        "Activiteiten",
+        "activities",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin activiteiten de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de activiteiten fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met vogels, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met activiteiten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-activiteiten-a2db",
+      "carousel": [
+        {
+          "label": "Rekencode – Dieren",
+          "href": "code-optellen-dieren-6a2e"
+        },
+        {
+          "label": "Rekencode – Rond het huis",
+          "href": "code-optellen-rond-het-huis-0533"
+        },
+        {
+          "label": "Rekencode – Strand",
+          "href": "code-optellen-strand-2bfe"
+        },
+        {
+          "label": "Rekencode – Kerstmis",
+          "href": "code-optellen-kerstmis-d763"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-activiteiten-a2db",
+        "code-optellen-activiteiten-29af"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Activiteiten | printen PDF gratis",
+      "metaDescription": "Rekencode – Activiteiten. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-dieren-6a2e",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "animals",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met dieren – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dieren",
+        "de dieren",
+        "Dieren",
+        "animals",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van dieren. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de dieren zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Decoderen is leuker als het zonder druk gebeurt. Daarom is dit werkblad bedacht zonder tijdslimiet of puntentelling – jouw kind speurt op zijn eigen manier naar de getallen achter de plaatjes. Een foutje? Dat hoort bij het speuren. Met elke nieuwe aanwijzing wordt de geheime code een beetje duidelijker, en dat maakt het kraken juist zo bevredigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met spullen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met lichaamsdelen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-dieren-6a2e",
+      "carousel": [
+        {
+          "label": "Rekencode – Rond het huis",
+          "href": "code-optellen-rond-het-huis-0533"
+        },
+        {
+          "label": "Rekencode – In de supermarkt",
+          "href": "code-optellen-in-de-supermarkt-bf8a"
+        },
+        {
+          "label": "Rekencode – Vogels",
+          "href": "code-optellen-vogels-ec15"
+        },
+        {
+          "label": "Rekencode – Klaslokaal",
+          "href": "code-optellen-klaslokaal-60a8"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-dieren-6a2e",
+        "code-optellen-dieren-33c3"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Dieren | printen PDF gratis",
+      "metaDescription": "Rekencode – Dieren. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-rond-het-huis-0533",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met spullen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "spullen",
+        "de spullen",
+        "Rond het huis",
+        "around the house",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in spullen. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de spullen houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met producten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met boterhammen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met spullen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-rond-het-huis-0533",
+      "carousel": [
+        {
+          "label": "Rekencode – In de supermarkt",
+          "href": "code-optellen-in-de-supermarkt-bf8a"
+        },
+        {
+          "label": "Rekencode – Bakkerij",
+          "href": "code-optellen-bakkerij-9cdf"
+        },
+        {
+          "label": "Rekencode – Vogels 2",
+          "href": "code-optellen-vogels-2-923e"
+        },
+        {
+          "label": "Rekencode – Kleding",
+          "href": "code-optellen-kleding-13e7"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-rond-het-huis-0533",
+        "code-optellen-rond-het-huis-3d13"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Rond het huis | printen PDF gratis",
+      "metaDescription": "Rekencode – Rond het huis. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-in-de-supermarkt-bf8a",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met producten – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "producten",
+        "de producten",
+        "In de supermarkt",
+        "at the supermarket",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met producten wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de producten worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met broodjes, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met tenten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met producten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-in-de-supermarkt-bf8a",
+      "carousel": [
+        {
+          "label": "Rekencode – Bakkerij",
+          "href": "code-optellen-bakkerij-9cdf"
+        },
+        {
+          "label": "Rekencode – Strand",
+          "href": "code-optellen-strand-2bfe"
+        },
+        {
+          "label": "Rekencode – Lichaamsdelen",
+          "href": "code-optellen-lichaamsdelen-b1fb"
+        },
+        {
+          "label": "Rekencode – Kleuren",
+          "href": "code-optellen-kleuren-dfc6"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-in-de-supermarkt-bf8a",
+        "code-optellen-in-de-supermarkt-802b"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – In de supermarkt | printen PDF gratis",
+      "metaDescription": "Rekencode – In de supermarkt. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-bakkerij-9cdf",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "bakery",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met broodjes – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "broodjes",
+        "de broodjes",
+        "Bakkerij",
+        "bakery",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol broodjes, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de broodjes dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Decoderen is leuker als het zonder druk gebeurt. Daarom is dit werkblad bedacht zonder tijdslimiet of puntentelling – jouw kind speurt op zijn eigen manier naar de getallen achter de plaatjes. Een foutje? Dat hoort bij het speuren. Met elke nieuwe aanwijzing wordt de geheime code een beetje duidelijker, en dat maakt het kraken juist zo bevredigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met schelpen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met cadeaus, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met broodjes is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-bakkerij-9cdf",
+      "carousel": [
+        {
+          "label": "Rekencode – Strand",
+          "href": "code-optellen-strand-2bfe"
+        },
+        {
+          "label": "Rekencode – Vogels",
+          "href": "code-optellen-vogels-ec15"
+        },
+        {
+          "label": "Rekencode – Ontbijt",
+          "href": "code-optellen-ontbijt-0b0b"
+        },
+        {
+          "label": "Rekencode – Desserts en snoep",
+          "href": "code-optellen-desserts-en-snoep-c5f5"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-bakkerij-9cdf",
+        "code-optellen-bakkerij-9586"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Bakkerij | printen PDF gratis",
+      "metaDescription": "Rekencode – Bakkerij. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-strand-2bfe",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "beach",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met schelpen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "schelpen",
+        "de schelpen",
+        "Strand",
+        "beach",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol schelpen verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de schelpen zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met vogels, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met potloden, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met schelpen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-strand-2bfe",
+      "carousel": [
+        {
+          "label": "Rekencode – Vogels",
+          "href": "code-optellen-vogels-ec15"
+        },
+        {
+          "label": "Rekencode – Vogels 2",
+          "href": "code-optellen-vogels-2-923e"
+        },
+        {
+          "label": "Rekencode – Kamperen",
+          "href": "code-optellen-kamperen-1caf"
+        },
+        {
+          "label": "Rekencode – Dinosaurussen",
+          "href": "code-optellen-dinosaurussen-bbde"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-strand-2bfe",
+        "code-optellen-strand-b14b"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Strand | printen PDF gratis",
+      "metaDescription": "Rekencode – Strand. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-vogels-ec15",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "birds",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met vogels – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "vogels",
+        "de vogels",
+        "Vogels",
+        "birds",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol vogels. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de vogels houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met vogels, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met kledingstukken, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met vogels is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-vogels-ec15",
+      "carousel": [
+        {
+          "label": "Rekencode – Vogels 2",
+          "href": "code-optellen-vogels-2-923e"
+        },
+        {
+          "label": "Rekencode – Lichaamsdelen",
+          "href": "code-optellen-lichaamsdelen-b1fb"
+        },
+        {
+          "label": "Rekencode – Kerstmis",
+          "href": "code-optellen-kerstmis-d763"
+        },
+        {
+          "label": "Rekencode – Pasen",
+          "href": "code-optellen-pasen-5aea"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-vogels-ec15",
+        "code-optellen-vogels-fbe0"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Vogels | printen PDF gratis",
+      "metaDescription": "Rekencode – Vogels. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-vogels-2-923e",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met vogels – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "vogels",
+        "de vogels",
+        "Vogels 2",
+        "birds 2",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met vogels. Elk van de vogels staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de vogels worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Decoderen is leuker als het zonder druk gebeurt. Daarom is dit werkblad bedacht zonder tijdslimiet of puntentelling – jouw kind speurt op zijn eigen manier naar de getallen achter de plaatjes. Een foutje? Dat hoort bij het speuren. Met elke nieuwe aanwijzing wordt de geheime code een beetje duidelijker, en dat maakt het kraken juist zo bevredigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met lichaamsdelen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met kleuren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met vogels is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-vogels-2-923e",
+      "carousel": [
+        {
+          "label": "Rekencode – Lichaamsdelen",
+          "href": "code-optellen-lichaamsdelen-b1fb"
+        },
+        {
+          "label": "Rekencode – Ontbijt",
+          "href": "code-optellen-ontbijt-0b0b"
+        },
+        {
+          "label": "Rekencode – Klaslokaal",
+          "href": "code-optellen-klaslokaal-60a8"
+        },
+        {
+          "label": "Rekencode – Emoties",
+          "href": "code-optellen-emoties-60cd"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-vogels-2-923e",
+        "code-optellen-vogels-2-e612"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Vogels 2 | printen PDF gratis",
+      "metaDescription": "Rekencode – Vogels 2. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-lichaamsdelen-b1fb",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "body_parts",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met lichaamsdelen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "lichaamsdelen",
+        "de lichaamsdelen",
+        "Lichaamsdelen",
+        "body parts",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin lichaamsdelen de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de lichaamsdelen fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met boterhammen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met toetjes, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met lichaamsdelen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-lichaamsdelen-b1fb",
+      "carousel": [
+        {
+          "label": "Rekencode – Ontbijt",
+          "href": "code-optellen-ontbijt-0b0b"
+        },
+        {
+          "label": "Rekencode – Kamperen",
+          "href": "code-optellen-kamperen-1caf"
+        },
+        {
+          "label": "Rekencode – Kleding",
+          "href": "code-optellen-kleding-13e7"
+        },
+        {
+          "label": "Rekencode – Boerderijdieren",
+          "href": "code-optellen-boerderijdieren-9a8b"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-lichaamsdelen-b1fb",
+        "code-optellen-lichaamsdelen-18be"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Lichaamsdelen | printen PDF gratis",
+      "metaDescription": "Rekencode – Lichaamsdelen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-ontbijt-0b0b",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met boterhammen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "boterhammen",
+        "de boterhammen",
+        "Ontbijt",
+        "breakfast",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van boterhammen. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de boterhammen zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met tenten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dinosaurussen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met boterhammen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-ontbijt-0b0b",
+      "carousel": [
+        {
+          "label": "Rekencode – Kamperen",
+          "href": "code-optellen-kamperen-1caf"
+        },
+        {
+          "label": "Rekencode – Kerstmis",
+          "href": "code-optellen-kerstmis-d763"
+        },
+        {
+          "label": "Rekencode – Kleuren",
+          "href": "code-optellen-kleuren-dfc6"
+        },
+        {
+          "label": "Rekencode – Bloemen",
+          "href": "code-optellen-bloemen-273d"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-ontbijt-0b0b",
+        "code-optellen-ontbijt-e62d"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Ontbijt | printen PDF gratis",
+      "metaDescription": "Rekencode – Ontbijt. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-kamperen-1caf",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "camping",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met tenten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "tenten",
+        "de tenten",
+        "Kamperen",
+        "camping",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in tenten. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de tenten houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met cadeaus, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met eieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met tenten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-kamperen-1caf",
+      "carousel": [
+        {
+          "label": "Rekencode – Kerstmis",
+          "href": "code-optellen-kerstmis-d763"
+        },
+        {
+          "label": "Rekencode – Klaslokaal",
+          "href": "code-optellen-klaslokaal-60a8"
+        },
+        {
+          "label": "Rekencode – Desserts en snoep",
+          "href": "code-optellen-desserts-en-snoep-c5f5"
+        },
+        {
+          "label": "Rekencode – Boswezens",
+          "href": "code-optellen-boswezens-cc23"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-kamperen-1caf",
+        "code-optellen-kamperen-e232"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Kamperen | printen PDF gratis",
+      "metaDescription": "Rekencode – Kamperen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-kerstmis-d763",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "christmas",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met cadeaus – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "cadeaus",
+        "de cadeaus",
+        "Kerstmis",
+        "christmas",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met cadeaus wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de cadeaus worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met potloden, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met emoties, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met cadeaus is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-kerstmis-d763",
+      "carousel": [
+        {
+          "label": "Rekencode – Klaslokaal",
+          "href": "code-optellen-klaslokaal-60a8"
+        },
+        {
+          "label": "Rekencode – Kleding",
+          "href": "code-optellen-kleding-13e7"
+        },
+        {
+          "label": "Rekencode – Dinosaurussen",
+          "href": "code-optellen-dinosaurussen-bbde"
+        },
+        {
+          "label": "Rekencode – Fruit",
+          "href": "code-optellen-fruit-591f"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-kerstmis-d763",
+        "code-optellen-kerstmis-a111"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Kerstmis | printen PDF gratis",
+      "metaDescription": "Rekencode – Kerstmis. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-klaslokaal-60a8",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "classroom",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met potloden – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "potloden",
+        "de potloden",
+        "Klaslokaal",
+        "classroom",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol potloden, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de potloden dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met kledingstukken, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met potloden is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-klaslokaal-60a8",
+      "carousel": [
+        {
+          "label": "Rekencode – Kleding",
+          "href": "code-optellen-kleding-13e7"
+        },
+        {
+          "label": "Rekencode – Kleuren",
+          "href": "code-optellen-kleuren-dfc6"
+        },
+        {
+          "label": "Rekencode – Pasen",
+          "href": "code-optellen-pasen-5aea"
+        },
+        {
+          "label": "Rekencode – Meubels",
+          "href": "code-optellen-meubels-7897"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-klaslokaal-60a8",
+        "code-optellen-klaslokaal-7eb1"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Klaslokaal | printen PDF gratis",
+      "metaDescription": "Rekencode – Klaslokaal. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-kleding-13e7",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "clothing",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met kledingstukken – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "kledingstukken",
+        "de kledingstukken",
+        "Kleding",
+        "clothing",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol kledingstukken verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de kledingstukken zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met kleuren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met bloemen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met kledingstukken is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-kleding-13e7",
+      "carousel": [
+        {
+          "label": "Rekencode – Kleuren",
+          "href": "code-optellen-kleuren-dfc6"
+        },
+        {
+          "label": "Rekencode – Desserts en snoep",
+          "href": "code-optellen-desserts-en-snoep-c5f5"
+        },
+        {
+          "label": "Rekencode – Emoties",
+          "href": "code-optellen-emoties-60cd"
+        },
+        {
+          "label": "Rekencode – Ziekenhuis",
+          "href": "code-optellen-ziekenhuis-dc61"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-kleding-13e7",
+        "code-optellen-kleding-6711"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Kleding | printen PDF gratis",
+      "metaDescription": "Rekencode – Kleding. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-kleuren-dfc6",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "colors",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met kleuren – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "kleuren",
+        "de kleuren",
+        "Kleuren",
+        "colors",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol kleuren. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de kleuren houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met toetjes, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met kleuren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-kleuren-dfc6",
+      "carousel": [
+        {
+          "label": "Rekencode – Desserts en snoep",
+          "href": "code-optellen-desserts-en-snoep-c5f5"
+        },
+        {
+          "label": "Rekencode – Dinosaurussen",
+          "href": "code-optellen-dinosaurussen-bbde"
+        },
+        {
+          "label": "Rekencode – Boerderijdieren",
+          "href": "code-optellen-boerderijdieren-9a8b"
+        },
+        {
+          "label": "Rekencode – Insecten en beestjes",
+          "href": "code-optellen-insecten-en-beestjes-6f64"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-kleuren-dfc6",
+        "code-optellen-kleuren-dbbf"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Kleuren | printen PDF gratis",
+      "metaDescription": "Rekencode – Kleuren. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-desserts-en-snoep-c5f5",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met toetjes – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "toetjes",
+        "de toetjes",
+        "Desserts en snoep",
+        "desserts and sweets",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met toetjes. Elk van de toetjes staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de toetjes worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Een echte speurder neemt de tijd, en dat mag jouw kind hier ook. Dit werkblad heeft geen klok en geen scorebord: het gaat puur om het plezier van het ontcijferen. Twijfelt jouw kind welk getal bij welk plaatje hoort? Dan probeert het gewoon een andere som, want elke aanwijzing helpt de geheime code verder te ontrafelen.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dinosaurussen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met vruchten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met toetjes is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-desserts-en-snoep-c5f5",
+      "carousel": [
+        {
+          "label": "Rekencode – Dinosaurussen",
+          "href": "code-optellen-dinosaurussen-bbde"
+        },
+        {
+          "label": "Rekencode – Pasen",
+          "href": "code-optellen-pasen-5aea"
+        },
+        {
+          "label": "Rekencode – Bloemen",
+          "href": "code-optellen-bloemen-273d"
+        },
+        {
+          "label": "Rekencode – Keukengerei",
+          "href": "code-optellen-keukengerei-97f2"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-desserts-en-snoep-c5f5",
+        "code-optellen-desserts-en-snoep-5dc5"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Desserts en snoep | printen PDF gratis",
+      "metaDescription": "Rekencode – Desserts en snoep. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-dinosaurussen-bbde",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met dinosaurussen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dinosaurussen",
+        "de dinosaurussen",
+        "Dinosaurussen",
+        "dinosaurs",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin dinosaurussen de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de dinosaurussen fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met eieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met meubels, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dinosaurussen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-dinosaurussen-bbde",
+      "carousel": [
+        {
+          "label": "Rekencode – Pasen",
+          "href": "code-optellen-pasen-5aea"
+        },
+        {
+          "label": "Rekencode – Emoties",
+          "href": "code-optellen-emoties-60cd"
+        },
+        {
+          "label": "Rekencode – Boswezens",
+          "href": "code-optellen-boswezens-cc23"
+        },
+        {
+          "label": "Rekencode – Muziek",
+          "href": "code-optellen-muziek-99cb"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-dinosaurussen-bbde",
+        "code-optellen-dinosaurussen-3593"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Dinosaurussen | printen PDF gratis",
+      "metaDescription": "Rekencode – Dinosaurussen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-pasen-5aea",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "easter",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met eieren – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "eieren",
+        "de eieren",
+        "Pasen",
+        "easter",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van eieren. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de eieren zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met emoties, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met spuiten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met eieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-pasen-5aea",
+      "carousel": [
+        {
+          "label": "Rekencode – Emoties",
+          "href": "code-optellen-emoties-60cd"
+        },
+        {
+          "label": "Rekencode – Boerderijdieren",
+          "href": "code-optellen-boerderijdieren-9a8b"
+        },
+        {
+          "label": "Rekencode – Fruit",
+          "href": "code-optellen-fruit-591f"
+        },
+        {
+          "label": "Rekencode – Beroepen",
+          "href": "code-optellen-beroepen-1042"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-pasen-5aea",
+        "code-optellen-pasen-30f1"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Pasen | printen PDF gratis",
+      "metaDescription": "Rekencode – Pasen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-emoties-60cd",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "emotions",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met emoties – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "emoties",
+        "de emoties",
+        "Emoties",
+        "emotions",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in emoties. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de emoties houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met insecten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met emoties is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-emoties-60cd",
+      "carousel": [
+        {
+          "label": "Rekencode – Boerderijdieren",
+          "href": "code-optellen-boerderijdieren-9a8b"
+        },
+        {
+          "label": "Rekencode – Bloemen",
+          "href": "code-optellen-bloemen-273d"
+        },
+        {
+          "label": "Rekencode – Meubels",
+          "href": "code-optellen-meubels-7897"
+        },
+        {
+          "label": "Rekencode – Oceaanleven",
+          "href": "code-optellen-oceaanleven-8d84"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-emoties-60cd",
+        "code-optellen-emoties-102c"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Emoties | printen PDF gratis",
+      "metaDescription": "Rekencode – Emoties. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-boerderijdieren-9a8b",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met dieren – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dieren",
+        "de dieren",
+        "Boerderijdieren",
+        "farm animals",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met dieren wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de dieren worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met bloemen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met keukenspullen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-boerderijdieren-9a8b",
+      "carousel": [
+        {
+          "label": "Rekencode – Bloemen",
+          "href": "code-optellen-bloemen-273d"
+        },
+        {
+          "label": "Rekencode – Boswezens",
+          "href": "code-optellen-boswezens-cc23"
+        },
+        {
+          "label": "Rekencode – Ziekenhuis",
+          "href": "code-optellen-ziekenhuis-dc61"
+        },
+        {
+          "label": "Rekencode – Huisdieren",
+          "href": "code-optellen-huisdieren-2ea7"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-boerderijdieren-9a8b",
+        "code-optellen-boerderijdieren-bbd8"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Boerderijdieren | printen PDF gratis",
+      "metaDescription": "Rekencode – Boerderijdieren. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-bloemen-273d",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "flowers",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met bloemen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "bloemen",
+        "de bloemen",
+        "Bloemen",
+        "flowers",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol bloemen, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de bloemen dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met instrumenten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met bloemen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-bloemen-273d",
+      "carousel": [
+        {
+          "label": "Rekencode – Boswezens",
+          "href": "code-optellen-boswezens-cc23"
+        },
+        {
+          "label": "Rekencode – Fruit",
+          "href": "code-optellen-fruit-591f"
+        },
+        {
+          "label": "Rekencode – Insecten en beestjes",
+          "href": "code-optellen-insecten-en-beestjes-6f64"
+        },
+        {
+          "label": "Rekencode – Postkantoor",
+          "href": "code-optellen-postkantoor-8c52"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-bloemen-273d",
+        "code-optellen-bloemen-4231"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Bloemen | printen PDF gratis",
+      "metaDescription": "Rekencode – Bloemen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-boswezens-cc23",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met dieren – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dieren",
+        "de dieren",
+        "Boswezens",
+        "forest creatures",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol dieren verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de dieren zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met vruchten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met beroepen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-boswezens-cc23",
+      "carousel": [
+        {
+          "label": "Rekencode – Fruit",
+          "href": "code-optellen-fruit-591f"
+        },
+        {
+          "label": "Rekencode – Meubels",
+          "href": "code-optellen-meubels-7897"
+        },
+        {
+          "label": "Rekencode – Keukengerei",
+          "href": "code-optellen-keukengerei-97f2"
+        },
+        {
+          "label": "Rekencode – Reptielen en amfibieën",
+          "href": "code-optellen-reptielen-en-amfibieen-038c"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-boswezens-cc23",
+        "code-optellen-boswezens-1ade"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Boswezens | printen PDF gratis",
+      "metaDescription": "Rekencode – Boswezens. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-fruit-591f",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "fruits",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met vruchten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "vruchten",
+        "de vruchten",
+        "Fruit",
+        "fruits",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol vruchten. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de vruchten houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met meubels, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met zeedieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met vruchten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-fruit-591f",
+      "carousel": [
+        {
+          "label": "Rekencode – Meubels",
+          "href": "code-optellen-meubels-7897"
+        },
+        {
+          "label": "Rekencode – Ziekenhuis",
+          "href": "code-optellen-ziekenhuis-dc61"
+        },
+        {
+          "label": "Rekencode – Muziek",
+          "href": "code-optellen-muziek-99cb"
+        },
+        {
+          "label": "Rekencode – Vormen",
+          "href": "code-optellen-vormen-43b6"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-fruit-591f",
+        "code-optellen-fruit-4f0b"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Fruit | printen PDF gratis",
+      "metaDescription": "Rekencode – Fruit. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-meubels-7897",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "furniture",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met meubels – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "meubels",
+        "de meubels",
+        "Meubels",
+        "furniture",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met meubels. Elk van de meubels staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de meubels worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Wat dit werkblad fijn maakt, is dat jouw kind mag puzzelen zonder enige druk. Geen tijd die dringt, geen cijfer dat meekijkt – alleen het avontuur van het kraken. Jouw kind ontdekt op zijn eigen tempo welke getallen zich achter de plaatjes verbergen. Lukt een som niet meteen? Dan wijst een andere aanwijzing vaak de weg, en zo komt de code stukje bij beetje los.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met spuiten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met meubels is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-meubels-7897",
+      "carousel": [
+        {
+          "label": "Rekencode – Ziekenhuis",
+          "href": "code-optellen-ziekenhuis-dc61"
+        },
+        {
+          "label": "Rekencode – Insecten en beestjes",
+          "href": "code-optellen-insecten-en-beestjes-6f64"
+        },
+        {
+          "label": "Rekencode – Beroepen",
+          "href": "code-optellen-beroepen-1042"
+        },
+        {
+          "label": "Rekencode – Ruimte",
+          "href": "code-optellen-ruimte-dfe2"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-meubels-7897",
+        "code-optellen-meubels-e38c"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Meubels | printen PDF gratis",
+      "metaDescription": "Rekencode – Meubels. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-ziekenhuis-dc61",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "hospital",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met spuiten – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "spuiten",
+        "de spuiten",
+        "Ziekenhuis",
+        "hospital",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin spuiten de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de spuiten fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met insecten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met brieven, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met spuiten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-ziekenhuis-dc61",
+      "carousel": [
+        {
+          "label": "Rekencode – Insecten en beestjes",
+          "href": "code-optellen-insecten-en-beestjes-6f64"
+        },
+        {
+          "label": "Rekencode – Keukengerei",
+          "href": "code-optellen-keukengerei-97f2"
+        },
+        {
+          "label": "Rekencode – Oceaanleven",
+          "href": "code-optellen-oceaanleven-8d84"
+        },
+        {
+          "label": "Rekencode – Lente",
+          "href": "code-optellen-lente-3481"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-ziekenhuis-dc61",
+        "code-optellen-ziekenhuis-1733"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Ziekenhuis | printen PDF gratis",
+      "metaDescription": "Rekencode – Ziekenhuis. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-insecten-en-beestjes-6f64",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met insecten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "insecten",
+        "de insecten",
+        "Insecten en beestjes",
+        "insects and bugs",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van insecten. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de insecten zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met keukenspullen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met reptielen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met insecten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-insecten-en-beestjes-6f64",
+      "carousel": [
+        {
+          "label": "Rekencode – Keukengerei",
+          "href": "code-optellen-keukengerei-97f2"
+        },
+        {
+          "label": "Rekencode – Muziek",
+          "href": "code-optellen-muziek-99cb"
+        },
+        {
+          "label": "Rekencode – Huisdieren",
+          "href": "code-optellen-huisdieren-2ea7"
+        },
+        {
+          "label": "Rekencode – Zomer",
+          "href": "code-optellen-zomer-6f5e"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-insecten-en-beestjes-6f64",
+        "code-optellen-insecten-en-beestjes-7d3b"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Insecten en beestjes | printen PDF gratis",
+      "metaDescription": "Rekencode – Insecten en beestjes. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-keukengerei-97f2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met keukenspullen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "keukenspullen",
+        "de keukenspullen",
+        "Keukengerei",
+        "kitchen tools",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in keukenspullen. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de keukenspullen houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met instrumenten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met vormen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met keukenspullen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-keukengerei-97f2",
+      "carousel": [
+        {
+          "label": "Rekencode – Muziek",
+          "href": "code-optellen-muziek-99cb"
+        },
+        {
+          "label": "Rekencode – Beroepen",
+          "href": "code-optellen-beroepen-1042"
+        },
+        {
+          "label": "Rekencode – Postkantoor",
+          "href": "code-optellen-postkantoor-8c52"
+        },
+        {
+          "label": "Rekencode – Thanksgiving",
+          "href": "code-optellen-thanksgiving-945d"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-keukengerei-97f2",
+        "code-optellen-keukengerei-032a"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Keukengerei | printen PDF gratis",
+      "metaDescription": "Rekencode – Keukengerei. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-muziek-99cb",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "music",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met instrumenten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "instrumenten",
+        "de instrumenten",
+        "Muziek",
+        "music",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met instrumenten wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de instrumenten worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met beroepen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met sterren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met instrumenten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-muziek-99cb",
+      "carousel": [
+        {
+          "label": "Rekencode – Beroepen",
+          "href": "code-optellen-beroepen-1042"
+        },
+        {
+          "label": "Rekencode – Oceaanleven",
+          "href": "code-optellen-oceaanleven-8d84"
+        },
+        {
+          "label": "Rekencode – Reptielen en amfibieën",
+          "href": "code-optellen-reptielen-en-amfibieen-038c"
+        },
+        {
+          "label": "Rekencode – Dingen die vliegen",
+          "href": "code-optellen-dingen-die-vliegen-7cd8"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-muziek-99cb",
+        "code-optellen-muziek-25cc"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Muziek | printen PDF gratis",
+      "metaDescription": "Rekencode – Muziek. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-beroepen-1042",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "occupations",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met beroepen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "beroepen",
+        "de beroepen",
+        "Beroepen",
+        "occupations",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol beroepen, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de beroepen dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met zeedieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met bloemen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met beroepen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-beroepen-1042",
+      "carousel": [
+        {
+          "label": "Rekencode – Oceaanleven",
+          "href": "code-optellen-oceaanleven-8d84"
+        },
+        {
+          "label": "Rekencode – Huisdieren",
+          "href": "code-optellen-huisdieren-2ea7"
+        },
+        {
+          "label": "Rekencode – Vormen",
+          "href": "code-optellen-vormen-43b6"
+        },
+        {
+          "label": "Rekencode – Gereedschap",
+          "href": "code-optellen-gereedschap-76f7"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-beroepen-1042",
+        "code-optellen-beroepen-bef6"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Beroepen | printen PDF gratis",
+      "metaDescription": "Rekencode – Beroepen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-oceaanleven-8d84",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met zeedieren – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "zeedieren",
+        "de zeedieren",
+        "Oceaanleven",
+        "ocean life",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol zeedieren verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de zeedieren zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met ijsjes, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met zeedieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-oceaanleven-8d84",
+      "carousel": [
+        {
+          "label": "Rekencode – Huisdieren",
+          "href": "code-optellen-huisdieren-2ea7"
+        },
+        {
+          "label": "Rekencode – Postkantoor",
+          "href": "code-optellen-postkantoor-8c52"
+        },
+        {
+          "label": "Rekencode – Ruimte",
+          "href": "code-optellen-ruimte-dfe2"
+        },
+        {
+          "label": "Rekencode – Speelgoed",
+          "href": "code-optellen-speelgoed-f245"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-oceaanleven-8d84",
+        "code-optellen-oceaanleven-51a3"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Oceaanleven | printen PDF gratis",
+      "metaDescription": "Rekencode – Oceaanleven. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-huisdieren-2ea7",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "pets",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met dieren – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dieren",
+        "de dieren",
+        "Huisdieren",
+        "pets",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol dieren. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de dieren houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met brieven, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met pompoenen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-huisdieren-2ea7",
+      "carousel": [
+        {
+          "label": "Rekencode – Postkantoor",
+          "href": "code-optellen-postkantoor-8c52"
+        },
+        {
+          "label": "Rekencode – Reptielen en amfibieën",
+          "href": "code-optellen-reptielen-en-amfibieen-038c"
+        },
+        {
+          "label": "Rekencode – Lente",
+          "href": "code-optellen-lente-3481"
+        },
+        {
+          "label": "Rekencode – Bomen",
+          "href": "code-optellen-bomen-2a68"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-huisdieren-2ea7",
+        "code-optellen-huisdieren-0c1d"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Huisdieren | printen PDF gratis",
+      "metaDescription": "Rekencode – Huisdieren. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-postkantoor-8c52",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "post_office",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met brieven – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "brieven",
+        "de brieven",
+        "Postkantoor",
+        "post office",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met brieven. Elk van de brieven staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de brieven worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Een code kraken doe je stap voor stap, en dat is precies wat dit werkblad zo prettig maakt. Jouw kind hoeft niets te haasten: het mag rustig uitvogelen welk getal bij welk plaatje hoort. Lukt het niet in één keer? Geen probleem. Elke ontcijferde som brengt het dichter bij de oplossing, en zo groeit het zelfvertrouwen vanzelf mee.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met reptielen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met vliegtuigen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met brieven is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-postkantoor-8c52",
+      "carousel": [
+        {
+          "label": "Rekencode – Reptielen en amfibieën",
+          "href": "code-optellen-reptielen-en-amfibieen-038c"
+        },
+        {
+          "label": "Rekencode – Vormen",
+          "href": "code-optellen-vormen-43b6"
+        },
+        {
+          "label": "Rekencode – Zomer",
+          "href": "code-optellen-zomer-6f5e"
+        },
+        {
+          "label": "Rekencode – Groenten",
+          "href": "code-optellen-groenten-5f88"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-postkantoor-8c52",
+        "code-optellen-postkantoor-bdf1"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Postkantoor | printen PDF gratis",
+      "metaDescription": "Rekencode – Postkantoor. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-reptielen-en-amfibieen-038c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met reptielen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "reptielen",
+        "de reptielen",
+        "Reptielen en amfibieën",
+        "reptiles and amphibians",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin reptielen de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de reptielen fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met vormen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met gereedschappen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met reptielen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-reptielen-en-amfibieen-038c",
+      "carousel": [
+        {
+          "label": "Rekencode – Vormen",
+          "href": "code-optellen-vormen-43b6"
+        },
+        {
+          "label": "Rekencode – Ruimte",
+          "href": "code-optellen-ruimte-dfe2"
+        },
+        {
+          "label": "Rekencode – Thanksgiving",
+          "href": "code-optellen-thanksgiving-945d"
+        },
+        {
+          "label": "Rekencode – Voertuigen",
+          "href": "code-optellen-voertuigen-b333"
+        }
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Reptielen en amfibieën | printen PDF gratis",
+      "metaDescription": "Rekencode – Reptielen en amfibieën. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-vormen-43b6",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "shapes",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met vormen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "vormen",
+        "de vormen",
+        "Vormen",
+        "shapes",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van vormen. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de vormen zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met sterren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met speelgoedjes, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met vormen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-vormen-43b6",
+      "carousel": [
+        {
+          "label": "Rekencode – Ruimte",
+          "href": "code-optellen-ruimte-dfe2"
+        },
+        {
+          "label": "Rekencode – Lente",
+          "href": "code-optellen-lente-3481"
+        },
+        {
+          "label": "Rekencode – Dingen die vliegen",
+          "href": "code-optellen-dingen-die-vliegen-7cd8"
+        },
+        {
+          "label": "Rekencode – Weer",
+          "href": "code-optellen-weer-d5b4"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-vormen-43b6",
+        "code-optellen-vormen-e768"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Vormen | printen PDF gratis",
+      "metaDescription": "Rekencode – Vormen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-ruimte-dfe2",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "space",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met sterren – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "sterren",
+        "de sterren",
+        "Ruimte",
+        "space",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in sterren. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de sterren houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met bloemen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met bomen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met sterren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-ruimte-dfe2",
+      "carousel": [
+        {
+          "label": "Rekencode – Lente",
+          "href": "code-optellen-lente-3481"
+        },
+        {
+          "label": "Rekencode – Zomer",
+          "href": "code-optellen-zomer-6f5e"
+        },
+        {
+          "label": "Rekencode – Gereedschap",
+          "href": "code-optellen-gereedschap-76f7"
+        },
+        {
+          "label": "Rekencode – Winter",
+          "href": "code-optellen-winter-aa39"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-ruimte-dfe2",
+        "code-optellen-ruimte-5f93"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Ruimte | printen PDF gratis",
+      "metaDescription": "Rekencode – Ruimte. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-lente-3481",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "spring",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met bloemen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "bloemen",
+        "de bloemen",
+        "Lente",
+        "spring",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met bloemen wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de bloemen worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met ijsjes, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met groenten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met bloemen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-lente-3481",
+      "carousel": [
+        {
+          "label": "Rekencode – Zomer",
+          "href": "code-optellen-zomer-6f5e"
+        },
+        {
+          "label": "Rekencode – Thanksgiving",
+          "href": "code-optellen-thanksgiving-945d"
+        },
+        {
+          "label": "Rekencode – Speelgoed",
+          "href": "code-optellen-speelgoed-f245"
+        },
+        {
+          "label": "Rekencode – Dierentuindieren",
+          "href": "code-optellen-dierentuindieren-70ef"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-lente-3481",
+        "code-optellen-lente-2dec"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Lente | printen PDF gratis",
+      "metaDescription": "Rekencode – Lente. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-zomer-6f5e",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "summer",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met ijsjes – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "ijsjes",
+        "de ijsjes",
+        "Zomer",
+        "summer",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol ijsjes, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de ijsjes dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met pompoenen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met voertuigen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met ijsjes is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-zomer-6f5e",
+      "carousel": [
+        {
+          "label": "Rekencode – Thanksgiving",
+          "href": "code-optellen-thanksgiving-945d"
+        },
+        {
+          "label": "Rekencode – Dingen die vliegen",
+          "href": "code-optellen-dingen-die-vliegen-7cd8"
+        },
+        {
+          "label": "Rekencode – Bomen",
+          "href": "code-optellen-bomen-2a68"
+        },
+        {
+          "label": "Rekencode – Accessoires",
+          "href": "code-optellen-accessoires-ce59"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-zomer-6f5e",
+        "code-optellen-zomer-98b0"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Zomer | printen PDF gratis",
+      "metaDescription": "Rekencode – Zomer. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-thanksgiving-945d",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met pompoenen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "pompoenen",
+        "de pompoenen",
+        "Thanksgiving",
+        "thanksgivinng",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol pompoenen verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de pompoenen zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met vliegtuigen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met wolken, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met pompoenen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-thanksgiving-945d",
+      "carousel": [
+        {
+          "label": "Rekencode – Dingen die vliegen",
+          "href": "code-optellen-dingen-die-vliegen-7cd8"
+        },
+        {
+          "label": "Rekencode – Gereedschap",
+          "href": "code-optellen-gereedschap-76f7"
+        },
+        {
+          "label": "Rekencode – Groenten",
+          "href": "code-optellen-groenten-5f88"
+        },
+        {
+          "label": "Rekencode – Activiteiten",
+          "href": "code-optellen-activiteiten-a2db"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-thanksgiving-945d",
+        "code-optellen-thanksgiving-75aa"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Thanksgiving | printen PDF gratis",
+      "metaDescription": "Rekencode – Thanksgiving. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-dingen-die-vliegen-7cd8",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met vliegtuigen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "vliegtuigen",
+        "de vliegtuigen",
+        "Dingen die vliegen",
+        "things that fly",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol vliegtuigen. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de vliegtuigen houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met gereedschappen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met sneeuwvlokken, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met vliegtuigen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-dingen-die-vliegen-7cd8",
+      "carousel": [
+        {
+          "label": "Rekencode – Gereedschap",
+          "href": "code-optellen-gereedschap-76f7"
+        },
+        {
+          "label": "Rekencode – Speelgoed",
+          "href": "code-optellen-speelgoed-f245"
+        },
+        {
+          "label": "Rekencode – Voertuigen",
+          "href": "code-optellen-voertuigen-b333"
+        },
+        {
+          "label": "Rekencode – Dieren",
+          "href": "code-optellen-dieren-6a2e"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-dingen-die-vliegen-7cd8",
+        "code-optellen-dingen-die-vliegen-e83d"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Dingen die vliegen | printen PDF gratis",
+      "metaDescription": "Rekencode – Dingen die vliegen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-gereedschap-76f7",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "tools",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met gereedschappen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "gereedschappen",
+        "de gereedschappen",
+        "Gereedschap",
+        "tools",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad kraakt jouw kind een geheime rekencode met gereedschappen. Elk van de gereedschappen staat voor een getal, en samen vormen ze een verborgen getallencode die ontcijferd moet worden. Jouw kind speurt als een echte detective: door de optelsommen op te lossen ontdekt het stap voor stap welk getal bij welk plaatje hoort. Zodra een plaatje ontmaskerd is, valt de volgende som vanzelf op zijn plek. Het is decoderen in plaats van zomaar sommen maken, en dat maakt het rekenen spannend. de gereedschappen worden zo de sleutel tot de hele code, en jouw kind voelt zich een echte codekraker.",
+      "p2": "Bij het kraken van een rekencode draait alles om ontdekken, niet om snelheid. Jouw kind krijgt de ruimte om rustig te ontcijferen welk getal achter elk plaatje schuilt. Er is geen timer en geen wedstrijd, alleen de voldoening als er weer een stukje van de code op zijn plek valt. Zo blijft het oefenen ontspannen en uitnodigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met speelgoedjes, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met gereedschappen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-gereedschap-76f7",
+      "carousel": [
+        {
+          "label": "Rekencode – Speelgoed",
+          "href": "code-optellen-speelgoed-f245"
+        },
+        {
+          "label": "Rekencode – Bomen",
+          "href": "code-optellen-bomen-2a68"
+        },
+        {
+          "label": "Rekencode – Weer",
+          "href": "code-optellen-weer-d5b4"
+        },
+        {
+          "label": "Rekencode – Rond het huis",
+          "href": "code-optellen-rond-het-huis-0533"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-gereedschap-76f7",
+        "code-optellen-gereedschap-3b04"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Gereedschap | printen PDF gratis",
+      "metaDescription": "Rekencode – Gereedschap. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-speelgoed-f245",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "toys",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met speelgoedjes – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "speelgoedjes",
+        "de speelgoedjes",
+        "Speelgoed",
+        "toys",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Op dit werkblad ontmoet jouw kind een rekencode waarin speelgoedjes de geheime getallen verbergen. Geen rijtje sommen om af te werken, maar een puzzel om te kraken: welk getal hoort bij welk plaatje? Jouw kind speurt, combineert en ontcijfert tot de hele code is opgelost. de speelgoedjes fungeren als de versleutelde aanwijzingen, en met elke som die klopt, komt er een nieuw getal tevoorschijn. Het voelt als detectivewerk waarbij de getallen langzaam hun geheim prijsgeven. Zo wordt optellen een ontdekkingsreis, en blijft jouw kind nieuwsgierig naar het volgende stukje van de code.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met bomen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met accessoires, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met speelgoedjes is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-speelgoed-f245",
+      "carousel": [
+        {
+          "label": "Rekencode – Bomen",
+          "href": "code-optellen-bomen-2a68"
+        },
+        {
+          "label": "Rekencode – Groenten",
+          "href": "code-optellen-groenten-5f88"
+        },
+        {
+          "label": "Rekencode – Winter",
+          "href": "code-optellen-winter-aa39"
+        },
+        {
+          "label": "Rekencode – In de supermarkt",
+          "href": "code-optellen-in-de-supermarkt-bf8a"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-speelgoed-f245",
+        "code-optellen-speelgoed-68ae"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Speelgoed | printen PDF gratis",
+      "metaDescription": "Rekencode – Speelgoed. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-bomen-2a68",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "tree",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met bomen – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "bomen",
+        "de bomen",
+        "Bomen",
+        "tree",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad nodigt jouw kind uit om een geheime code te ontcijferen met behulp van bomen. Achter elk plaatje schuilt een getal, en die getallen vormen samen een rekencode die ontrafeld wil worden. Jouw kind werkt als een speurder die aanwijzingen verzamelt: los een som op, ontdek een getal, en gebruik dat weer om de volgende code te kraken. de bomen zijn de geheime tekens die ontmaskerd moeten worden. Zo verandert gewoon optellen in een spannend raadselspel, waarbij elk juist antwoord een nieuw stukje van de verborgen code blootlegt.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met groenten, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met activiteiten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met bomen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-bomen-2a68",
+      "carousel": [
+        {
+          "label": "Rekencode – Groenten",
+          "href": "code-optellen-groenten-5f88"
+        },
+        {
+          "label": "Rekencode – Voertuigen",
+          "href": "code-optellen-voertuigen-b333"
+        },
+        {
+          "label": "Rekencode – Dierentuindieren",
+          "href": "code-optellen-dierentuindieren-70ef"
+        },
+        {
+          "label": "Rekencode – Bakkerij",
+          "href": "code-optellen-bakkerij-9cdf"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-bomen-2a68",
+        "code-optellen-bomen-5a78"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Bomen | printen PDF gratis",
+      "metaDescription": "Rekencode – Bomen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-groenten-5f88",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met groenten – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "groenten",
+        "de groenten",
+        "Groenten",
+        "vegetables",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Dit werkblad is een echte speurtocht: jouw kind kraakt een getallencode verstopt in groenten. Achter ieder plaatje zit een getal, en die getallen vormen samen de geheime rekencode. De opdracht is om door slim rekenen te ontcijferen welk getal bij welke afbeelding hoort. de groenten houden hun waarde verborgen tot jouw kind ze ontmaskert. Elke opgeloste som is een aanwijzing die helpt bij de volgende, zodat de code zich beetje bij beetje onthult. Het is decoderen, combineren en ontdekken in één, en jouw kind beleeft het plezier van een raadsel terwijl het rekenen oefent.",
+      "p2": "Decoderen is leuker als het zonder druk gebeurt. Daarom is dit werkblad bedacht zonder tijdslimiet of puntentelling – jouw kind speurt op zijn eigen manier naar de getallen achter de plaatjes. Een foutje? Dat hoort bij het speuren. Met elke nieuwe aanwijzing wordt de geheime code een beetje duidelijker, en dat maakt het kraken juist zo bevredigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met voertuigen, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met dieren, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met groenten is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-groenten-5f88",
+      "carousel": [
+        {
+          "label": "Rekencode – Voertuigen",
+          "href": "code-optellen-voertuigen-b333"
+        },
+        {
+          "label": "Rekencode – Weer",
+          "href": "code-optellen-weer-d5b4"
+        },
+        {
+          "label": "Rekencode – Accessoires",
+          "href": "code-optellen-accessoires-ce59"
+        },
+        {
+          "label": "Rekencode – Strand",
+          "href": "code-optellen-strand-2bfe"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-groenten-5f88",
+        "code-optellen-groenten-d2a1"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Groenten | printen PDF gratis",
+      "metaDescription": "Rekencode – Groenten. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-voertuigen-b333",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met voertuigen – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "voertuigen",
+        "de voertuigen",
+        "Voertuigen",
+        "vehicles",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Een geheime getallencode met voertuigen wacht op jouw kind. De bedoeling is simpel maar spannend: ontdek welk getal achter elk plaatje verstopt zit en kraak zo de hele rekencode. Jouw kind ontcijfert de aanwijzingen één voor één, net als een echte speurder die een mysterie oplost. de voertuigen worden de bouwstenen van de code, en elke opgeloste som brengt het dichter bij de oplossing. Dit is rekenen met een raadsel eromheen: in plaats van losse sommen ontvouwt zich een verborgen patroon van getallen dat jouw kind zelf mag ontmaskeren en compleet maken.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met wolken, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met spullen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met voertuigen is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-voertuigen-b333",
+      "carousel": [
+        {
+          "label": "Rekencode – Weer",
+          "href": "code-optellen-weer-d5b4"
+        },
+        {
+          "label": "Rekencode – Winter",
+          "href": "code-optellen-winter-aa39"
+        },
+        {
+          "label": "Rekencode – Activiteiten",
+          "href": "code-optellen-activiteiten-a2db"
+        },
+        {
+          "label": "Rekencode – Vogels",
+          "href": "code-optellen-vogels-ec15"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-voertuigen-b333",
+        "code-optellen-voertuigen-d453"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Voertuigen | printen PDF gratis",
+      "metaDescription": "Rekencode – Voertuigen. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-weer-d5b4",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "weather",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met wolken – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "wolken",
+        "de wolken",
+        "Weer",
+        "weather",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Welkom bij een rekencode vol wolken, waarbij elk plaatje een geheim getal verbergt. In plaats van een rijtje gewone sommen krijgt jouw kind hier een raadsel: welk getal hoort bij welke afbeelding? Door de getallen achter de plaatjes uit te vogelen, kraakt het beetje bij beetje de hele code. de wolken dienen als aanwijzingen, en elke opgeloste som onthult een nieuw stukje van het geheim. Het is uitvogelen, combineren en ontcijferen tegelijk. Deze speurtocht naar de juiste getallen maakt het oefenen met optellen veel leuker dan een saaie rekenbladzijde.",
+      "p2": "Het kraken van een geheime code gaat het beste in alle rust. Jouw kind mag zelf bepalen waar het begint en hoe snel het gaat – er is immers niets dat afgevinkt of afgemeten wordt. Komt het even niet uit een plaatje? Dan helpt een andere som vaak verder. Zo ontstaat een prettig gevoel van ontdekken, waarbij elke ontcijferde aanwijzing telt.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met sneeuwvlokken, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met producten, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met wolken is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-weer-d5b4",
+      "carousel": [
+        {
+          "label": "Rekencode – Winter",
+          "href": "code-optellen-winter-aa39"
+        },
+        {
+          "label": "Rekencode – Dierentuindieren",
+          "href": "code-optellen-dierentuindieren-70ef"
+        },
+        {
+          "label": "Rekencode – Dieren",
+          "href": "code-optellen-dieren-6a2e"
+        },
+        {
+          "label": "Rekencode – Vogels 2",
+          "href": "code-optellen-vogels-2-923e"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-weer-d5b4",
+        "code-optellen-weer-fd5e"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Weer | printen PDF gratis",
+      "metaDescription": "Rekencode – Weer. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-winter-aa39",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "winter",
+        "level": "groep-3"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 20 met sneeuwvlokken – werkblad voor groep 3",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "sneeuwvlokken",
+        "de sneeuwvlokken",
+        "Winter",
+        "winter",
+        "groep-3",
+        "rekencode"
+      ],
+      "p1": "Klaar om een geheime rekencode te kraken? Met dit werkblad vol sneeuwvlokken verandert jouw kind in een echte codekraker. Elk plaatje staat voor een getal, en samen verbergen ze een code die ontcijferd moet worden. Jouw kind ontdekt door te rekenen welk getal bij welke afbeelding past, en gebruikt die kennis om de volgende sommen te ontrafelen. de sneeuwvlokken zijn de geheime symbolen die ontmaskerd willen worden. Het is een spel van uitvogelen en combineren, waarbij elk juist antwoord een deurtje opent naar het volgende geheim. Zo wordt oefenen met getallen een spannend avontuur.",
+      "p2": "Decoderen is leuker als het zonder druk gebeurt. Daarom is dit werkblad bedacht zonder tijdslimiet of puntentelling – jouw kind speurt op zijn eigen manier naar de getallen achter de plaatjes. Een foutje? Dat hoort bij het speuren. Met elke nieuwe aanwijzing wordt de geheime code een beetje duidelijker, en dat maakt het kraken juist zo bevredigend.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met dieren, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met broodjes, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met sneeuwvlokken is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-winter-aa39",
+      "carousel": [
+        {
+          "label": "Rekencode – Dierentuindieren",
+          "href": "code-optellen-dierentuindieren-70ef"
+        },
+        {
+          "label": "Rekencode – Accessoires",
+          "href": "code-optellen-accessoires-ce59"
+        },
+        {
+          "label": "Rekencode – Rond het huis",
+          "href": "code-optellen-rond-het-huis-0533"
+        },
+        {
+          "label": "Rekencode – Lichaamsdelen",
+          "href": "code-optellen-lichaamsdelen-b1fb"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-winter-aa39",
+        "code-optellen-winter-940e"
+      ],
+      "standard": "1.OA.A.2",
+      "title": "Werkbladen Rekencode – Winter | printen PDF gratis",
+      "metaDescription": "Rekencode – Winter. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
+    },
+    {
+      "slug": "code-optellen-dierentuindieren-70ef",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "code-addition",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "groep-4"
+      },
+      "eyebrow": "Werkblad: Rekencode",
+      "h1": "Rekencode kraken tot 100 met dieren – werkblad voor groep 4",
+      "strand": "Getallen en bewerkingen",
+      "slotTokens": [
+        "dieren",
+        "de dieren",
+        "Dierentuindieren",
+        "zoo animals",
+        "groep-4",
+        "rekencode"
+      ],
+      "p1": "Hier gaat jouw kind aan de slag als codekraker met een rekencode vol dieren. Elk plaatje is een getal in vermomming, en de opdracht is om uit te vinden welk getal bij welke afbeelding hoort. Door slim te combineren en de sommen op te lossen, ontcijfert jouw kind de hele geheime code. de dieren houden de getallen verborgen tot ze ontmaskerd worden. Het mooie is dat het oplossen vanzelf gaat: zodra één plaatje bekend is, helpt dat bij de volgende. Decoderen voelt als een spel, en ondertussen oefent jouw kind volop met rekenen.",
+      "p2": "Het fijne aan een rekencode is dat jouw kind zelf het tempo bepaalt. Er is geen klok die tikt en geen score die meekijkt – alleen het plezier van het ontcijferen. Komt een plaatje niet meteen tevoorschijn? Dan probeert jouw kind gewoon een andere som eerst, want elke aanwijzing helpt om de code verder te kraken.",
+      "p3": "Vindt jouw kind het leuk om codes te kraken? Dan is er nog veel meer te ontdekken. Kijk eens bij de rekencodes met accessoires, want ook daar verbergen de plaatjes geheime getallen die ontcijferd willen worden. Of probeer iets met schelpen, voor een nieuwe speurtocht vol verrassende aanwijzingen. Elk werkblad is weer een ander raadsel om als echte codekraker op te lossen. Onze hele verzameling met dieren is helemaal gratis: jouw kind kan de rekencodes online spelen of ze uitprinten om er rustig aan de keukentafel mee aan de slag te gaan. Zo blijft het ontcijferen leuk, en oefent jouw kind ondertussen spelenderwijs met getallen en optellen.",
+      "canonicalDeckSlug": "code-optellen-dierentuindieren-70ef",
+      "carousel": [
+        {
+          "label": "Rekencode – Accessoires",
+          "href": "code-optellen-accessoires-ce59"
+        },
+        {
+          "label": "Rekencode – Activiteiten",
+          "href": "code-optellen-activiteiten-a2db"
+        },
+        {
+          "label": "Rekencode – In de supermarkt",
+          "href": "code-optellen-in-de-supermarkt-bf8a"
+        },
+        {
+          "label": "Rekencode – Ontbijt",
+          "href": "code-optellen-ontbijt-0b0b"
+        }
+      ],
+      "collapseSiblings": [
+        "code-optellen-dierentuindieren-70ef",
+        "code-optellen-dierentuindieren-f08d"
+      ],
+      "standard": "2.NBT.B.5",
+      "title": "Werkbladen Rekencode – Dierentuindieren | printen PDF gratis",
+      "metaDescription": "Rekencode – Dierentuindieren. Kraak de code en schrijf het getal. Gratis werkbladen om te printen (PDF)."
     }
   ]
 }

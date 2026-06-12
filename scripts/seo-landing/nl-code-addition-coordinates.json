@@ -1,0 +1,939 @@
+{
+  "locale": "nl",
+  "exerciseType": "code-addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48
+  },
+  "totalValid": 48,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 47,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "code-optellen-accessoires-ce59",
+      "siblings": [
+        "code-optellen-accessoires-ce59",
+        "code-optellen-accessoires-09f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "code-optellen-activiteiten-a2db",
+      "siblings": [
+        "code-optellen-activiteiten-a2db",
+        "code-optellen-activiteiten-29af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "code-optellen-dieren-6a2e",
+      "siblings": [
+        "code-optellen-dieren-6a2e",
+        "code-optellen-dieren-33c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "code-optellen-rond-het-huis-0533",
+      "siblings": [
+        "code-optellen-rond-het-huis-0533",
+        "code-optellen-rond-het-huis-3d13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "code-optellen-in-de-supermarkt-bf8a",
+      "siblings": [
+        "code-optellen-in-de-supermarkt-bf8a",
+        "code-optellen-in-de-supermarkt-802b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "code-optellen-bakkerij-9cdf",
+      "siblings": [
+        "code-optellen-bakkerij-9cdf",
+        "code-optellen-bakkerij-9586"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "code-optellen-strand-2bfe",
+      "siblings": [
+        "code-optellen-strand-2bfe",
+        "code-optellen-strand-b14b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "code-optellen-vogels-ec15",
+      "siblings": [
+        "code-optellen-vogels-ec15",
+        "code-optellen-vogels-fbe0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "code-optellen-vogels-2-923e",
+      "siblings": [
+        "code-optellen-vogels-2-923e",
+        "code-optellen-vogels-2-e612"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "code-optellen-lichaamsdelen-b1fb",
+      "siblings": [
+        "code-optellen-lichaamsdelen-b1fb",
+        "code-optellen-lichaamsdelen-18be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "code-optellen-ontbijt-0b0b",
+      "siblings": [
+        "code-optellen-ontbijt-0b0b",
+        "code-optellen-ontbijt-e62d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "code-optellen-kamperen-1caf",
+      "siblings": [
+        "code-optellen-kamperen-1caf",
+        "code-optellen-kamperen-e232"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "code-optellen-kerstmis-d763",
+      "siblings": [
+        "code-optellen-kerstmis-d763",
+        "code-optellen-kerstmis-a111"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "code-optellen-klaslokaal-60a8",
+      "siblings": [
+        "code-optellen-klaslokaal-60a8",
+        "code-optellen-klaslokaal-7eb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "code-optellen-kleding-13e7",
+      "siblings": [
+        "code-optellen-kleding-13e7",
+        "code-optellen-kleding-6711"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "code-optellen-kleuren-dfc6",
+      "siblings": [
+        "code-optellen-kleuren-dfc6",
+        "code-optellen-kleuren-dbbf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "code-optellen-desserts-en-snoep-c5f5",
+      "siblings": [
+        "code-optellen-desserts-en-snoep-c5f5",
+        "code-optellen-desserts-en-snoep-5dc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "code-optellen-dinosaurussen-bbde",
+      "siblings": [
+        "code-optellen-dinosaurussen-bbde",
+        "code-optellen-dinosaurussen-3593"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "code-optellen-pasen-5aea",
+      "siblings": [
+        "code-optellen-pasen-5aea",
+        "code-optellen-pasen-30f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "code-optellen-emoties-60cd",
+      "siblings": [
+        "code-optellen-emoties-60cd",
+        "code-optellen-emoties-102c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "code-optellen-boerderijdieren-9a8b",
+      "siblings": [
+        "code-optellen-boerderijdieren-9a8b",
+        "code-optellen-boerderijdieren-bbd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "code-optellen-bloemen-273d",
+      "siblings": [
+        "code-optellen-bloemen-273d",
+        "code-optellen-bloemen-4231"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "code-optellen-boswezens-cc23",
+      "siblings": [
+        "code-optellen-boswezens-cc23",
+        "code-optellen-boswezens-1ade"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "code-optellen-fruit-591f",
+      "siblings": [
+        "code-optellen-fruit-591f",
+        "code-optellen-fruit-4f0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "code-optellen-meubels-7897",
+      "siblings": [
+        "code-optellen-meubels-7897",
+        "code-optellen-meubels-e38c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "code-optellen-ziekenhuis-dc61",
+      "siblings": [
+        "code-optellen-ziekenhuis-dc61",
+        "code-optellen-ziekenhuis-1733"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "code-optellen-insecten-en-beestjes-6f64",
+      "siblings": [
+        "code-optellen-insecten-en-beestjes-6f64",
+        "code-optellen-insecten-en-beestjes-7d3b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "code-optellen-keukengerei-97f2",
+      "siblings": [
+        "code-optellen-keukengerei-97f2",
+        "code-optellen-keukengerei-032a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "code-optellen-muziek-99cb",
+      "siblings": [
+        "code-optellen-muziek-99cb",
+        "code-optellen-muziek-25cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "code-optellen-beroepen-1042",
+      "siblings": [
+        "code-optellen-beroepen-1042",
+        "code-optellen-beroepen-bef6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "code-optellen-oceaanleven-8d84",
+      "siblings": [
+        "code-optellen-oceaanleven-8d84",
+        "code-optellen-oceaanleven-51a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "code-optellen-huisdieren-2ea7",
+      "siblings": [
+        "code-optellen-huisdieren-2ea7",
+        "code-optellen-huisdieren-0c1d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "code-optellen-postkantoor-8c52",
+      "siblings": [
+        "code-optellen-postkantoor-8c52",
+        "code-optellen-postkantoor-bdf1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "code-optellen-reptielen-en-amfibieen-038c",
+      "siblings": [
+        "code-optellen-reptielen-en-amfibieen-038c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "code-optellen-vormen-43b6",
+      "siblings": [
+        "code-optellen-vormen-43b6",
+        "code-optellen-vormen-e768"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "code-optellen-ruimte-dfe2",
+      "siblings": [
+        "code-optellen-ruimte-dfe2",
+        "code-optellen-ruimte-5f93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "code-optellen-lente-3481",
+      "siblings": [
+        "code-optellen-lente-3481",
+        "code-optellen-lente-2dec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "code-optellen-zomer-6f5e",
+      "siblings": [
+        "code-optellen-zomer-6f5e",
+        "code-optellen-zomer-98b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "code-optellen-thanksgiving-945d",
+      "siblings": [
+        "code-optellen-thanksgiving-945d",
+        "code-optellen-thanksgiving-75aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "code-optellen-dingen-die-vliegen-7cd8",
+      "siblings": [
+        "code-optellen-dingen-die-vliegen-7cd8",
+        "code-optellen-dingen-die-vliegen-e83d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "code-optellen-gereedschap-76f7",
+      "siblings": [
+        "code-optellen-gereedschap-76f7",
+        "code-optellen-gereedschap-3b04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "code-optellen-speelgoed-f245",
+      "siblings": [
+        "code-optellen-speelgoed-f245",
+        "code-optellen-speelgoed-68ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "code-optellen-bomen-2a68",
+      "siblings": [
+        "code-optellen-bomen-2a68",
+        "code-optellen-bomen-5a78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "code-optellen-groenten-5f88",
+      "siblings": [
+        "code-optellen-groenten-5f88",
+        "code-optellen-groenten-d2a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "code-optellen-voertuigen-b333",
+      "siblings": [
+        "code-optellen-voertuigen-b333",
+        "code-optellen-voertuigen-d453"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "code-optellen-weer-d5b4",
+      "siblings": [
+        "code-optellen-weer-d5b4",
+        "code-optellen-weer-fd5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "code-optellen-winter-aa39",
+      "siblings": [
+        "code-optellen-winter-aa39",
+        "code-optellen-winter-940e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.A.2"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "code-optellen-dierentuindieren-70ef",
+      "siblings": [
+        "code-optellen-dierentuindieren-70ef",
+        "code-optellen-dierentuindieren-f08d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    }
+  ]
+}

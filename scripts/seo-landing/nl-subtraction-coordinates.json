@@ -1,0 +1,2516 @@
+{
+  "locale": "nl",
+  "exerciseType": "subtraction",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 196,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-out": 48,
+    "find-subtrahend": 47,
+    "image-number": 48,
+    "mixed": 48
+  },
+  "totalValid": 159,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-out",
+    "find-subtrahend",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "cross-out/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "cross-out/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "cross-out/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "cross-out/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "cross-out/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "cross-out/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "cross-out/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "cross-out/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "cross-out",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-accessoires-3c61",
+      "siblings": [
+        "aftrekken-doorstrepen-accessoires-3c61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "aftrekken-doorstrepen-dieren",
+      "siblings": [
+        "aftrekken-doorstrepen-dieren",
+        "aftrekken-doorstrepen-dieren-647c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-rond-het-huis-ca36",
+      "siblings": [
+        "aftrekken-doorstrepen-rond-het-huis-ca36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-in-de-supermarkt-fc8d",
+      "siblings": [
+        "aftrekken-doorstrepen-in-de-supermarkt-fc8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-bakkerij-ba9a",
+      "siblings": [
+        "aftrekken-doorstrepen-bakkerij-ba9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-strand-941f",
+      "siblings": [
+        "aftrekken-doorstrepen-strand-941f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-vogels-856b",
+      "siblings": [
+        "aftrekken-doorstrepen-vogels-856b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-vogels-2-1e52",
+      "siblings": [
+        "aftrekken-doorstrepen-vogels-2-1e52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-ontbijt-de04",
+      "siblings": [
+        "aftrekken-doorstrepen-ontbijt-de04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-kamperen-e814",
+      "siblings": [
+        "aftrekken-doorstrepen-kamperen-e814"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-kerstmis-dfcf",
+      "siblings": [
+        "aftrekken-doorstrepen-kerstmis-dfcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-klaslokaal-c7ed",
+      "siblings": [
+        "aftrekken-doorstrepen-klaslokaal-c7ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-kleding-4d4b",
+      "siblings": [
+        "aftrekken-doorstrepen-kleding-4d4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-desserts-en-snoep-7652",
+      "siblings": [
+        "aftrekken-doorstrepen-desserts-en-snoep-7652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-dinosaurussen-c517",
+      "siblings": [
+        "aftrekken-doorstrepen-dinosaurussen-c517"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-pasen-4e81",
+      "siblings": [
+        "aftrekken-doorstrepen-pasen-4e81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-boerderijdieren-707e",
+      "siblings": [
+        "aftrekken-doorstrepen-boerderijdieren-707e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-bloemen-b4b0",
+      "siblings": [
+        "aftrekken-doorstrepen-bloemen-b4b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-boswezens-5573",
+      "siblings": [
+        "aftrekken-doorstrepen-boswezens-5573"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-fruit-adb4",
+      "siblings": [
+        "aftrekken-doorstrepen-fruit-adb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-meubels-b257",
+      "siblings": [
+        "aftrekken-doorstrepen-meubels-b257"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-ziekenhuis-1297",
+      "siblings": [
+        "aftrekken-doorstrepen-ziekenhuis-1297"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-insecten-en-beestjes-824d",
+      "siblings": [
+        "aftrekken-doorstrepen-insecten-en-beestjes-824d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-keukengerei-939e",
+      "siblings": [
+        "aftrekken-doorstrepen-keukengerei-939e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-muziek-029a",
+      "siblings": [
+        "aftrekken-doorstrepen-muziek-029a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-beroepen-232b",
+      "siblings": [
+        "aftrekken-doorstrepen-beroepen-232b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-oceaanleven-6ca4",
+      "siblings": [
+        "aftrekken-doorstrepen-oceaanleven-6ca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-huisdieren-3974",
+      "siblings": [
+        "aftrekken-doorstrepen-huisdieren-3974"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-postkantoor-ba99",
+      "siblings": [
+        "aftrekken-doorstrepen-postkantoor-ba99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-reptielen-en-amfibieen-b271",
+      "siblings": [
+        "aftrekken-doorstrepen-reptielen-en-amfibieen-b271"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-vormen-217d",
+      "siblings": [
+        "aftrekken-doorstrepen-vormen-217d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-ruimte-a427",
+      "siblings": [
+        "aftrekken-doorstrepen-ruimte-a427"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-thanksgiving-748b",
+      "siblings": [
+        "aftrekken-doorstrepen-thanksgiving-748b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-dingen-die-vliegen-984d",
+      "siblings": [
+        "aftrekken-doorstrepen-dingen-die-vliegen-984d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-gereedschap-9697",
+      "siblings": [
+        "aftrekken-doorstrepen-gereedschap-9697"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-speelgoed-0c41",
+      "siblings": [
+        "aftrekken-doorstrepen-speelgoed-0c41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-bomen-93c8",
+      "siblings": [
+        "aftrekken-doorstrepen-bomen-93c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-groenten-4b3d",
+      "siblings": [
+        "aftrekken-doorstrepen-groenten-4b3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-voertuigen-6fef",
+      "siblings": [
+        "aftrekken-doorstrepen-voertuigen-6fef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "aftrekken-doorstrepen-dierentuindieren-7c9d",
+      "siblings": [
+        "aftrekken-doorstrepen-dierentuindieren-7c9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-accessoires-6c82",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-accessoires-6c82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-dieren-4cc5",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-dieren-4cc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-in-de-supermarkt-d1da",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-in-de-supermarkt-d1da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-bakkerij-f797",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-bakkerij-f797"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-strand-58d2",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-strand-58d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-vogels-2405",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-vogels-2405"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-vogels-2-5d19",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-vogels-2-5d19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-ontbijt-c9e1",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-ontbijt-c9e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-kamperen-cca4",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-kamperen-cca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-kerstmis-6a5f",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-kerstmis-6a5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-klaslokaal-c1dc",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-klaslokaal-c1dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-kleding-e49b",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-kleding-e49b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-desserts-en-snoep-a922",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-desserts-en-snoep-a922"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-dinosaurussen-49de",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-dinosaurussen-49de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-pasen-876d",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-pasen-876d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-boerderijdieren-00dc",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-boerderijdieren-00dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-bloemen-d677",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-bloemen-d677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-boswezens-9f53",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-boswezens-9f53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-fruit-e0b6",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-fruit-e0b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-meubels-be81",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-meubels-be81"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-ziekenhuis-8ba3",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-ziekenhuis-8ba3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-insecten-en-beestjes-e40a",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-insecten-en-beestjes-e40a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-keukengerei-c48a",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-keukengerei-c48a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-muziek-4ab5",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-muziek-4ab5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-beroepen-9489",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-beroepen-9489"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-oceaanleven-ba1e",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-oceaanleven-ba1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-huisdieren-5c4e",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-huisdieren-5c4e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-postkantoor-1e7d",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-postkantoor-1e7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-reptielen-en-amfibieen-5d69",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-reptielen-en-amfibieen-5d69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-vormen-c8a3",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-vormen-c8a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-ruimte-2d1a",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-ruimte-2d1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-thanksgiving-ad0d",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-thanksgiving-ad0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-dingen-die-vliegen-3ac8",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-dingen-die-vliegen-3ac8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-gereedschap-da3d",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-gereedschap-da3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-speelgoed-6e10",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-speelgoed-6e10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-bomen-a4b3",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-bomen-a4b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-groenten-6533",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-groenten-6533"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-voertuigen-b595",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-voertuigen-b595"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "aftrekken-zoek-de-aftrekker-dierentuindieren-4496",
+      "siblings": [
+        "aftrekken-zoek-de-aftrekker-dierentuindieren-4496"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-accessoires-7bd9",
+      "siblings": [
+        "aftrekken-beeld-getal-accessoires-7bd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-dieren-e5f5",
+      "siblings": [
+        "aftrekken-beeld-getal-dieren-e5f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-rond-het-huis-4e11",
+      "siblings": [
+        "aftrekken-beeld-getal-rond-het-huis-4e11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-in-de-supermarkt-8398",
+      "siblings": [
+        "aftrekken-beeld-getal-in-de-supermarkt-8398"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-bakkerij-d4c7",
+      "siblings": [
+        "aftrekken-beeld-getal-bakkerij-d4c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-strand-bd49",
+      "siblings": [
+        "aftrekken-beeld-getal-strand-bd49"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-vogels-4285",
+      "siblings": [
+        "aftrekken-beeld-getal-vogels-4285"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-vogels-2-370a",
+      "siblings": [
+        "aftrekken-beeld-getal-vogels-2-370a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-ontbijt-d766",
+      "siblings": [
+        "aftrekken-beeld-getal-ontbijt-d766"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-kamperen-70f7",
+      "siblings": [
+        "aftrekken-beeld-getal-kamperen-70f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-kerstmis-2b05",
+      "siblings": [
+        "aftrekken-beeld-getal-kerstmis-2b05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-klaslokaal-8435",
+      "siblings": [
+        "aftrekken-beeld-getal-klaslokaal-8435"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-kleding-53bd",
+      "siblings": [
+        "aftrekken-beeld-getal-kleding-53bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-desserts-en-snoep-0a01",
+      "siblings": [
+        "aftrekken-beeld-getal-desserts-en-snoep-0a01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-dinosaurussen-1dbb",
+      "siblings": [
+        "aftrekken-beeld-getal-dinosaurussen-1dbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-pasen-9230",
+      "siblings": [
+        "aftrekken-beeld-getal-pasen-9230"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-boerderijdieren-3f22",
+      "siblings": [
+        "aftrekken-beeld-getal-boerderijdieren-3f22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-bloemen-6d64",
+      "siblings": [
+        "aftrekken-beeld-getal-bloemen-6d64"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-boswezens-5a0e",
+      "siblings": [
+        "aftrekken-beeld-getal-boswezens-5a0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-fruit-1241",
+      "siblings": [
+        "aftrekken-beeld-getal-fruit-1241"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-meubels-64ed",
+      "siblings": [
+        "aftrekken-beeld-getal-meubels-64ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-ziekenhuis-e14e",
+      "siblings": [
+        "aftrekken-beeld-getal-ziekenhuis-e14e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-insecten-en-beestjes-b411",
+      "siblings": [
+        "aftrekken-beeld-getal-insecten-en-beestjes-b411"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-keukengerei-fe9f",
+      "siblings": [
+        "aftrekken-beeld-getal-keukengerei-fe9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-muziek-4573",
+      "siblings": [
+        "aftrekken-beeld-getal-muziek-4573"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-beroepen-3907",
+      "siblings": [
+        "aftrekken-beeld-getal-beroepen-3907"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-oceaanleven-cbb8",
+      "siblings": [
+        "aftrekken-beeld-getal-oceaanleven-cbb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-huisdieren-95af",
+      "siblings": [
+        "aftrekken-beeld-getal-huisdieren-95af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-postkantoor-3afc",
+      "siblings": [
+        "aftrekken-beeld-getal-postkantoor-3afc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3",
+      "siblings": [
+        "aftrekken-beeld-getal-reptielen-en-amfibieen-c6e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-vormen-1ff5",
+      "siblings": [
+        "aftrekken-beeld-getal-vormen-1ff5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-ruimte-4f11",
+      "siblings": [
+        "aftrekken-beeld-getal-ruimte-4f11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-thanksgiving-15ea",
+      "siblings": [
+        "aftrekken-beeld-getal-thanksgiving-15ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-dingen-die-vliegen-17cc",
+      "siblings": [
+        "aftrekken-beeld-getal-dingen-die-vliegen-17cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-gereedschap-0f66",
+      "siblings": [
+        "aftrekken-beeld-getal-gereedschap-0f66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-speelgoed-3d03",
+      "siblings": [
+        "aftrekken-beeld-getal-speelgoed-3d03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-bomen-4305",
+      "siblings": [
+        "aftrekken-beeld-getal-bomen-4305"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-groenten-2956",
+      "siblings": [
+        "aftrekken-beeld-getal-groenten-2956"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-voertuigen-c590",
+      "siblings": [
+        "aftrekken-beeld-getal-voertuigen-c590"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "aftrekken-beeld-getal-dierentuindieren-e681",
+      "siblings": [
+        "aftrekken-beeld-getal-dierentuindieren-e681"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-accessoires-4435",
+      "siblings": [
+        "aftrekken-gemengd-accessoires-4435"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-dieren-6407",
+      "siblings": [
+        "aftrekken-gemengd-dieren-6407"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-rond-het-huis-50e4",
+      "siblings": [
+        "aftrekken-gemengd-rond-het-huis-50e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-in-de-supermarkt-3bf9",
+      "siblings": [
+        "aftrekken-gemengd-in-de-supermarkt-3bf9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-bakkerij-bc74",
+      "siblings": [
+        "aftrekken-gemengd-bakkerij-bc74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-strand-4b45",
+      "siblings": [
+        "aftrekken-gemengd-strand-4b45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-vogels-ab04",
+      "siblings": [
+        "aftrekken-gemengd-vogels-ab04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-vogels-2-095d",
+      "siblings": [
+        "aftrekken-gemengd-vogels-2-095d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-ontbijt-8834",
+      "siblings": [
+        "aftrekken-gemengd-ontbijt-8834"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-kamperen-e6f7",
+      "siblings": [
+        "aftrekken-gemengd-kamperen-e6f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-kerstmis-c587",
+      "siblings": [
+        "aftrekken-gemengd-kerstmis-c587"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-klaslokaal-3b68",
+      "siblings": [
+        "aftrekken-gemengd-klaslokaal-3b68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-kleding-2117",
+      "siblings": [
+        "aftrekken-gemengd-kleding-2117"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-desserts-en-snoep-78ad",
+      "siblings": [
+        "aftrekken-gemengd-desserts-en-snoep-78ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-dinosaurussen-75d6",
+      "siblings": [
+        "aftrekken-gemengd-dinosaurussen-75d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-pasen-7804",
+      "siblings": [
+        "aftrekken-gemengd-pasen-7804"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-boerderijdieren-45c2",
+      "siblings": [
+        "aftrekken-gemengd-boerderijdieren-45c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-bloemen-1795",
+      "siblings": [
+        "aftrekken-gemengd-bloemen-1795"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-boswezens-26c4",
+      "siblings": [
+        "aftrekken-gemengd-boswezens-26c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-fruit-3e6d",
+      "siblings": [
+        "aftrekken-gemengd-fruit-3e6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-meubels-a60f",
+      "siblings": [
+        "aftrekken-gemengd-meubels-a60f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-ziekenhuis-0d08",
+      "siblings": [
+        "aftrekken-gemengd-ziekenhuis-0d08"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-insecten-en-beestjes-278f",
+      "siblings": [
+        "aftrekken-gemengd-insecten-en-beestjes-278f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-keukengerei-9cad",
+      "siblings": [
+        "aftrekken-gemengd-keukengerei-9cad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-muziek-dbb3",
+      "siblings": [
+        "aftrekken-gemengd-muziek-dbb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-beroepen-71f8",
+      "siblings": [
+        "aftrekken-gemengd-beroepen-71f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-oceaanleven-f89c",
+      "siblings": [
+        "aftrekken-gemengd-oceaanleven-f89c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-huisdieren-6701",
+      "siblings": [
+        "aftrekken-gemengd-huisdieren-6701"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-postkantoor-f2ae",
+      "siblings": [
+        "aftrekken-gemengd-postkantoor-f2ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-reptielen-en-amfibieen-f3cf",
+      "siblings": [
+        "aftrekken-gemengd-reptielen-en-amfibieen-f3cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-vormen-f69a",
+      "siblings": [
+        "aftrekken-gemengd-vormen-f69a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-ruimte-8f86",
+      "siblings": [
+        "aftrekken-gemengd-ruimte-8f86"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-thanksgiving-e598",
+      "siblings": [
+        "aftrekken-gemengd-thanksgiving-e598"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-dingen-die-vliegen-5ec3",
+      "siblings": [
+        "aftrekken-gemengd-dingen-die-vliegen-5ec3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-gereedschap-299c",
+      "siblings": [
+        "aftrekken-gemengd-gereedschap-299c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-speelgoed-7c74",
+      "siblings": [
+        "aftrekken-gemengd-speelgoed-7c74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-bomen-d57a",
+      "siblings": [
+        "aftrekken-gemengd-bomen-d57a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-groenten-5a03",
+      "siblings": [
+        "aftrekken-gemengd-groenten-5a03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-voertuigen-5d19",
+      "siblings": [
+        "aftrekken-gemengd-voertuigen-5d19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "aftrekken-gemengd-dierentuindieren-4567",
+      "siblings": [
+        "aftrekken-gemengd-dierentuindieren-4567"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

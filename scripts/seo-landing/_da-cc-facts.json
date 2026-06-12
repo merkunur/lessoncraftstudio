@@ -1,0 +1,1913 @@
+[
+ {
+  "slug": "tael-i-diagram-4-juli-d1c7",
+  "themeKey": "4th_of_july",
+  "siblings": [
+   "tael-i-diagram-4-juli-d1c7"
+  ],
+  "categories": [
+   {
+    "nounKey": "grill",
+    "locName": "Grill",
+    "count": 1
+   },
+   {
+    "nounKey": "lemonade",
+    "locName": "Limonade",
+    "count": 2
+   },
+   {
+    "nounKey": "liberty",
+    "locName": "Frihed",
+    "count": 4
+   },
+   {
+    "nounKey": "cake",
+    "locName": "Kage",
+    "count": 3
+   },
+   {
+    "nounKey": "ice-cream",
+    "locName": "Is",
+    "count": 5
+   },
+   {
+    "nounKey": "flag",
+    "locName": "Flag",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-tilbehor-58e6",
+  "themeKey": "accessories",
+  "siblings": [
+   "tael-i-diagram-tilbehor-58e6"
+  ],
+  "categories": [
+   {
+    "nounKey": "wand",
+    "locName": "Tryllestav",
+    "count": 5
+   },
+   {
+    "nounKey": "bracelet",
+    "locName": "Armbånd",
+    "count": 3
+   },
+   {
+    "nounKey": "hair-tie",
+    "locName": "Hårelastik",
+    "count": 4
+   },
+   {
+    "nounKey": "barrette",
+    "locName": "Hårspænde",
+    "count": 2
+   },
+   {
+    "nounKey": "tiara",
+    "locName": "Tiara",
+    "count": 2
+   },
+   {
+    "nounKey": "medal",
+    "locName": "Medalje",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-aktiviteter-5bea",
+  "themeKey": "activities",
+  "siblings": [
+   "tael-i-diagram-aktiviteter-5bea"
+  ],
+  "categories": [
+   {
+    "nounKey": "playground",
+    "locName": "Legeplads",
+    "count": 4
+   },
+   {
+    "nounKey": "tennis",
+    "locName": "Tennis",
+    "count": 3
+   },
+   {
+    "nounKey": "fishing",
+    "locName": "Fiskeri",
+    "count": 5
+   },
+   {
+    "nounKey": "skating",
+    "locName": "Skøjteløbning",
+    "count": 2
+   },
+   {
+    "nounKey": "basketball",
+    "locName": "Basketball",
+    "count": 2
+   },
+   {
+    "nounKey": "skiing",
+    "locName": "Skisport",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-dyr-16c1",
+  "themeKey": "animals",
+  "siblings": [
+   "tael-i-diagram-dyr-16c1"
+  ],
+  "categories": [
+   {
+    "nounKey": "elephant",
+    "locName": "Elefant",
+    "count": 1
+   },
+   {
+    "nounKey": "woodpecker",
+    "locName": "Spætte",
+    "count": 5
+   },
+   {
+    "nounKey": "cat",
+    "locName": "Kat",
+    "count": 4
+   },
+   {
+    "nounKey": "seagull",
+    "locName": "Måge",
+    "count": 3
+   },
+   {
+    "nounKey": "panda",
+    "locName": "Panda",
+    "count": 2
+   },
+   {
+    "nounKey": "duck",
+    "locName": "And",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-rundt-i-huset-f796",
+  "themeKey": "around_the_house",
+  "siblings": [
+   "tael-i-diagram-rundt-i-huset-f796"
+  ],
+  "categories": [
+   {
+    "nounKey": "computer",
+    "locName": "Computer",
+    "count": 5
+   },
+   {
+    "nounKey": "dresser",
+    "locName": "Kommode",
+    "count": 5
+   },
+   {
+    "nounKey": "floor-lamp",
+    "locName": "Standerlampe",
+    "count": 1
+   },
+   {
+    "nounKey": "brush",
+    "locName": "Borste",
+    "count": 3
+   },
+   {
+    "nounKey": "pot",
+    "locName": "Gryde",
+    "count": 3
+   },
+   {
+    "nounKey": "kitchen",
+    "locName": "Køkken",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-i-supermarkedet-4327",
+  "themeKey": "at_the_supermarket",
+  "siblings": [
+   "tael-i-diagram-i-supermarkedet-4327"
+  ],
+  "categories": [
+   {
+    "nounKey": "pepper",
+    "locName": "Peberfrugt",
+    "count": 1
+   },
+   {
+    "nounKey": "mushroom",
+    "locName": "Svamp",
+    "count": 5
+   },
+   {
+    "nounKey": "price-tag",
+    "locName": "Prismærke",
+    "count": 4
+   },
+   {
+    "nounKey": "soda",
+    "locName": "Sodavand",
+    "count": 3
+   },
+   {
+    "nounKey": "peas",
+    "locName": "Ærter",
+    "count": 3
+   },
+   {
+    "nounKey": "grapes",
+    "locName": "Druer",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-bageri-8236",
+  "themeKey": "bakery",
+  "siblings": [
+   "tael-i-diagram-bageri-8236"
+  ],
+  "categories": [
+   {
+    "nounKey": "tart",
+    "locName": "Tærte",
+    "count": 2
+   },
+   {
+    "nounKey": "pretzel",
+    "locName": "Kringle",
+    "count": 2
+   },
+   {
+    "nounKey": "cheesecake",
+    "locName": "Cheesecake",
+    "count": 5
+   },
+   {
+    "nounKey": "cinnamon-roll",
+    "locName": "Kanelsnegl",
+    "count": 4
+   },
+   {
+    "nounKey": "baguette",
+    "locName": "Baguette",
+    "count": 5
+   },
+   {
+    "nounKey": "toast",
+    "locName": "Ristet brød",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-strand-d40a",
+  "themeKey": "beach",
+  "siblings": [
+   "tael-i-diagram-strand-d40a"
+  ],
+  "categories": [
+   {
+    "nounKey": "sunglasses",
+    "locName": "Solbriller",
+    "count": 2
+   },
+   {
+    "nounKey": "swimsuit",
+    "locName": "Badedragt",
+    "count": 4
+   },
+   {
+    "nounKey": "sun-hat",
+    "locName": "Solhat",
+    "count": 3
+   },
+   {
+    "nounKey": "cloud",
+    "locName": "Sky",
+    "count": 2
+   },
+   {
+    "nounKey": "umbrella",
+    "locName": "Paraply",
+    "count": 4
+   },
+   {
+    "nounKey": "beach-ball",
+    "locName": "Badebold",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-fugle-503c",
+  "themeKey": "birds",
+  "siblings": [
+   "tael-i-diagram-fugle-503c"
+  ],
+  "categories": [
+   {
+    "nounKey": "peacock",
+    "locName": "Påfugl",
+    "count": 5
+   },
+   {
+    "nounKey": "hornbill",
+    "locName": "Næsehornsfugl",
+    "count": 2
+   },
+   {
+    "nounKey": "parrot",
+    "locName": "Papegøje",
+    "count": 5
+   },
+   {
+    "nounKey": "flamingo",
+    "locName": "Flamingo",
+    "count": 4
+   },
+   {
+    "nounKey": "vulture",
+    "locName": "Grib",
+    "count": 1
+   },
+   {
+    "nounKey": "penguin",
+    "locName": "Pingvin",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-fugle-2-5d14",
+  "themeKey": "birds_2",
+  "siblings": [
+   "tael-i-diagram-fugle-2-5d14"
+  ],
+  "categories": [
+   {
+    "nounKey": "robin",
+    "locName": "Rødhals",
+    "count": 3
+   },
+   {
+    "nounKey": "sparrow",
+    "locName": "Spurv",
+    "count": 5
+   },
+   {
+    "nounKey": "stork",
+    "locName": "Stork",
+    "count": 4
+   },
+   {
+    "nounKey": "blue-jay",
+    "locName": "Blåskade",
+    "count": 3
+   },
+   {
+    "nounKey": "seagull",
+    "locName": "Måge",
+    "count": 2
+   },
+   {
+    "nounKey": "macaw",
+    "locName": "Ara",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-kropsdele-ff98",
+  "themeKey": "body_parts",
+  "siblings": [
+   "tael-i-diagram-kropsdele-ff98"
+  ],
+  "categories": [
+   {
+    "nounKey": "lip",
+    "locName": "Læbe",
+    "count": 3
+   },
+   {
+    "nounKey": "nail",
+    "locName": "Negl",
+    "count": 2
+   },
+   {
+    "nounKey": "muscles",
+    "locName": "Muskler",
+    "count": 5
+   },
+   {
+    "nounKey": "ankle",
+    "locName": "Ankel",
+    "count": 4
+   },
+   {
+    "nounKey": "eye",
+    "locName": "Øje",
+    "count": 5
+   },
+   {
+    "nounKey": "forehead",
+    "locName": "Pande",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-morgenmad-8e32",
+  "themeKey": "breakfast",
+  "siblings": [
+   "tael-i-diagram-morgenmad-8e32"
+  ],
+  "categories": [
+   {
+    "nounKey": "muffin",
+    "locName": "Muffin",
+    "count": 3
+   },
+   {
+    "nounKey": "pancake",
+    "locName": "Pandekage",
+    "count": 4
+   },
+   {
+    "nounKey": "melon",
+    "locName": "Melon",
+    "count": 2
+   },
+   {
+    "nounKey": "blueberry",
+    "locName": "Blåbær",
+    "count": 1
+   },
+   {
+    "nounKey": "sausage",
+    "locName": "Pølse",
+    "count": 5
+   },
+   {
+    "nounKey": "donut",
+    "locName": "Doughnut",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-camping-527f",
+  "themeKey": "camping",
+  "siblings": [
+   "tael-i-diagram-camping-527f"
+  ],
+  "categories": [
+   {
+    "nounKey": "log",
+    "locName": "Træstamme",
+    "count": 3
+   },
+   {
+    "nounKey": "hammock",
+    "locName": "Hængekøje",
+    "count": 2
+   },
+   {
+    "nounKey": "frog",
+    "locName": "Frø",
+    "count": 5
+   },
+   {
+    "nounKey": "cooler",
+    "locName": "Køletaske",
+    "count": 4
+   },
+   {
+    "nounKey": "map",
+    "locName": "Kort",
+    "count": 4
+   },
+   {
+    "nounKey": "pinecone",
+    "locName": "Grankogle",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-jul-063e",
+  "themeKey": "christmas",
+  "siblings": [
+   "tael-i-diagram-jul-063e"
+  ],
+  "categories": [
+   {
+    "nounKey": "reindeer",
+    "locName": "Rensdyr",
+    "count": 5
+   },
+   {
+    "nounKey": "chimney",
+    "locName": "Skorsten",
+    "count": 1
+   },
+   {
+    "nounKey": "ornament",
+    "locName": "Julekugle",
+    "count": 3
+   },
+   {
+    "nounKey": "star",
+    "locName": "Stjerne",
+    "count": 2
+   },
+   {
+    "nounKey": "angel",
+    "locName": "Engel",
+    "count": 4
+   },
+   {
+    "nounKey": "santa",
+    "locName": "Julemanden",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-klassevaerelse-8cfe",
+  "themeKey": "classroom",
+  "siblings": [
+   "tael-i-diagram-klassevaerelse-8cfe"
+  ],
+  "categories": [
+   {
+    "nounKey": "computer",
+    "locName": "Computer",
+    "count": 1
+   },
+   {
+    "nounKey": "librarian",
+    "locName": "Bibliotekar",
+    "count": 3
+   },
+   {
+    "nounKey": "chair",
+    "locName": "Stol",
+    "count": 5
+   },
+   {
+    "nounKey": "clock",
+    "locName": "Ur",
+    "count": 4
+   },
+   {
+    "nounKey": "map",
+    "locName": "Kort",
+    "count": 3
+   },
+   {
+    "nounKey": "crayon",
+    "locName": "Farvekridt",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-toj-7d64",
+  "themeKey": "clothing",
+  "siblings": [
+   "tael-i-diagram-toj-7d64"
+  ],
+  "categories": [
+   {
+    "nounKey": "jeans",
+    "locName": "Jeans",
+    "count": 5
+   },
+   {
+    "nounKey": "tank-top",
+    "locName": "Tanktop",
+    "count": 2
+   },
+   {
+    "nounKey": "scarf",
+    "locName": "Halstørklæde",
+    "count": 3
+   },
+   {
+    "nounKey": "shorts",
+    "locName": "Shorts",
+    "count": 2
+   },
+   {
+    "nounKey": "vest",
+    "locName": "Vest",
+    "count": 3
+   },
+   {
+    "nounKey": "tie",
+    "locName": "Slips",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-farver-10f3",
+  "themeKey": "colors",
+  "siblings": [
+   "tael-i-diagram-farver-10f3"
+  ],
+  "categories": [
+   {
+    "nounKey": "brown",
+    "locName": "Brun",
+    "count": 2
+   },
+   {
+    "nounKey": "blue",
+    "locName": "Blå",
+    "count": 5
+   },
+   {
+    "nounKey": "black",
+    "locName": "Sort",
+    "count": 4
+   },
+   {
+    "nounKey": "violet",
+    "locName": "Violet",
+    "count": 4
+   },
+   {
+    "nounKey": "white",
+    "locName": "Hvid",
+    "count": 2
+   },
+   {
+    "nounKey": "crimson",
+    "locName": "Karmin",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-desserter-og-slik-1033",
+  "themeKey": "desserts_and_sweets",
+  "siblings": [
+   "tael-i-diagram-desserter-og-slik-1033"
+  ],
+  "categories": [
+   {
+    "nounKey": "lollipop",
+    "locName": "Slikkepind",
+    "count": 3
+   },
+   {
+    "nounKey": "popsicle",
+    "locName": "Ispind",
+    "count": 5
+   },
+   {
+    "nounKey": "cookie",
+    "locName": "Småkage",
+    "count": 2
+   },
+   {
+    "nounKey": "waffle",
+    "locName": "Vaffel",
+    "count": 2
+   },
+   {
+    "nounKey": "cupcake",
+    "locName": "Cupcake",
+    "count": 5
+   },
+   {
+    "nounKey": "chocolate-bar",
+    "locName": "Chokoladebar",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-dinosaurer-5816",
+  "themeKey": "dinosaurs",
+  "siblings": [
+   "tael-i-diagram-dinosaurer-5816"
+  ],
+  "categories": [
+   {
+    "nounKey": "iguanodon",
+    "locName": "Iguanodon",
+    "count": 5
+   },
+   {
+    "nounKey": "maiasaura",
+    "locName": "Maiasaura",
+    "count": 3
+   },
+   {
+    "nounKey": "parasaurolophus",
+    "locName": "Parasaurolophus",
+    "count": 2
+   },
+   {
+    "nounKey": "allosaurus",
+    "locName": "Allosaurus",
+    "count": 4
+   },
+   {
+    "nounKey": "apatosaurus",
+    "locName": "Apatosaurus",
+    "count": 5
+   },
+   {
+    "nounKey": "ankylosaurus",
+    "locName": "Ankylosaurus",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-paske-bc07",
+  "themeKey": "easter",
+  "siblings": [
+   "tael-i-diagram-paske-bc07"
+  ],
+  "categories": [
+   {
+    "nounKey": "bunny",
+    "locName": "Kanin",
+    "count": 1
+   },
+   {
+    "nounKey": "duckling",
+    "locName": "Ælling",
+    "count": 5
+   },
+   {
+    "nounKey": "cross",
+    "locName": "Kors",
+    "count": 3
+   },
+   {
+    "nounKey": "daffodil",
+    "locName": "Påskelilje",
+    "count": 3
+   },
+   {
+    "nounKey": "feather",
+    "locName": "Fjer",
+    "count": 3
+   },
+   {
+    "nounKey": "ribbon",
+    "locName": "Bånd",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-folelser-0b4a",
+  "themeKey": "emotions",
+  "siblings": [
+   "tael-i-diagram-folelser-0b4a"
+  ],
+  "categories": [
+   {
+    "nounKey": "scared",
+    "locName": "Bange",
+    "count": 2
+   },
+   {
+    "nounKey": "capricious",
+    "locName": "Lunefuld",
+    "count": 3
+   },
+   {
+    "nounKey": "sad",
+    "locName": "Trist",
+    "count": 5
+   },
+   {
+    "nounKey": "sceptical",
+    "locName": "Skeptisk",
+    "count": 5
+   },
+   {
+    "nounKey": "angry",
+    "locName": "Vred",
+    "count": 1
+   },
+   {
+    "nounKey": "disgusted",
+    "locName": "Væmmet",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-bondegardsdyr-7649",
+  "themeKey": "farm_animals",
+  "siblings": [
+   "tael-i-diagram-bondegardsdyr-7649"
+  ],
+  "categories": [
+   {
+    "nounKey": "dog",
+    "locName": "Hund",
+    "count": 4
+   },
+   {
+    "nounKey": "goat",
+    "locName": "Ged",
+    "count": 1
+   },
+   {
+    "nounKey": "horse",
+    "locName": "Hest 2",
+    "count": 5
+   },
+   {
+    "nounKey": "turkey",
+    "locName": "Kalkun",
+    "count": 4
+   },
+   {
+    "nounKey": "cat",
+    "locName": "Kat",
+    "count": 3
+   },
+   {
+    "nounKey": "duck",
+    "locName": "And",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-blomster-2a8e",
+  "themeKey": "flowers",
+  "siblings": [
+   "tael-i-diagram-blomster-2a8e"
+  ],
+  "categories": [
+   {
+    "nounKey": "forsythia",
+    "locName": "Forsythia",
+    "count": 3
+   },
+   {
+    "nounKey": "snowdrop",
+    "locName": "Vintergæk",
+    "count": 4
+   },
+   {
+    "nounKey": "forget-me-not",
+    "locName": "Forglemmigej",
+    "count": 2
+   },
+   {
+    "nounKey": "dandelion",
+    "locName": "Mælkebøtte",
+    "count": 4
+   },
+   {
+    "nounKey": "clover",
+    "locName": "Kløver",
+    "count": 5
+   },
+   {
+    "nounKey": "cornflower",
+    "locName": "Kornblomst",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-skovdyr-087a",
+  "themeKey": "forest_creatures",
+  "siblings": [
+   "tael-i-diagram-skovdyr-087a"
+  ],
+  "categories": [
+   {
+    "nounKey": "moose",
+    "locName": "Elg",
+    "count": 2
+   },
+   {
+    "nounKey": "porcupine",
+    "locName": "Hulepindsvin",
+    "count": 4
+   },
+   {
+    "nounKey": "beaver",
+    "locName": "Bæver",
+    "count": 3
+   },
+   {
+    "nounKey": "spider",
+    "locName": "Edderkop",
+    "count": 5
+   },
+   {
+    "nounKey": "bat",
+    "locName": "Flagermus",
+    "count": 2
+   },
+   {
+    "nounKey": "turtle",
+    "locName": "Skildpadde",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-frugter-5777",
+  "themeKey": "fruits",
+  "siblings": [
+   "tael-i-diagram-frugter-5777"
+  ],
+  "categories": [
+   {
+    "nounKey": "blackberry",
+    "locName": "Brombær",
+    "count": 4
+   },
+   {
+    "nounKey": "kiwi",
+    "locName": "Kiwi",
+    "count": 1
+   },
+   {
+    "nounKey": "lime",
+    "locName": "Lime",
+    "count": 4
+   },
+   {
+    "nounKey": "grapefruit",
+    "locName": "Grapefrugt",
+    "count": 2
+   },
+   {
+    "nounKey": "plum",
+    "locName": "Blomme",
+    "count": 4
+   },
+   {
+    "nounKey": "persimmon",
+    "locName": "Kaki",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-mobler-c54f",
+  "themeKey": "furniture",
+  "siblings": [
+   "tael-i-diagram-mobler-c54f"
+  ],
+  "categories": [
+   {
+    "nounKey": "lamp",
+    "locName": "Lampe",
+    "count": 2
+   },
+   {
+    "nounKey": "curtains",
+    "locName": "Gardiner",
+    "count": 3
+   },
+   {
+    "nounKey": "armchair",
+    "locName": "Lænestol",
+    "count": 3
+   },
+   {
+    "nounKey": "bed",
+    "locName": "Seng",
+    "count": 3
+   },
+   {
+    "nounKey": "cushion",
+    "locName": "Pude",
+    "count": 5
+   },
+   {
+    "nounKey": "chair",
+    "locName": "Stol",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-hospital-9940",
+  "themeKey": "hospital",
+  "siblings": [
+   "tael-i-diagram-hospital-9940"
+  ],
+  "categories": [
+   {
+    "nounKey": "thermometer",
+    "locName": "Termometer",
+    "count": 3
+   },
+   {
+    "nounKey": "cast",
+    "locName": "Gips",
+    "count": 3
+   },
+   {
+    "nounKey": "bed",
+    "locName": "Hospitalsseng",
+    "count": 2
+   },
+   {
+    "nounKey": "monitor",
+    "locName": "Hjerteovervågning",
+    "count": 4
+   },
+   {
+    "nounKey": "tissue",
+    "locName": "Lommetørklæde",
+    "count": 4
+   },
+   {
+    "nounKey": "bandage",
+    "locName": "Bandage",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-insekter-og-kryb-1df7",
+  "themeKey": "insects_and_bugs",
+  "siblings": [
+   "tael-i-diagram-insekter-og-kryb-1df7"
+  ],
+  "categories": [
+   {
+    "nounKey": "ladybug",
+    "locName": "Mariehøne",
+    "count": 2
+   },
+   {
+    "nounKey": "butterfly",
+    "locName": "Sommerfugl",
+    "count": 2
+   },
+   {
+    "nounKey": "snail",
+    "locName": "Snegl",
+    "count": 4
+   },
+   {
+    "nounKey": "cricket",
+    "locName": "Fårekylling",
+    "count": 3
+   },
+   {
+    "nounKey": "millipede",
+    "locName": "Tusindben",
+    "count": 4
+   },
+   {
+    "nounKey": "wasp",
+    "locName": "Hveps",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-kokkenredskaber-fad7",
+  "themeKey": "kitchen_tools",
+  "siblings": [
+   "tael-i-diagram-kokkenredskaber-fad7"
+  ],
+  "categories": [
+   {
+    "nounKey": "measuring-cup",
+    "locName": "Målebæger",
+    "count": 4
+   },
+   {
+    "nounKey": "bowl",
+    "locName": "Skål",
+    "count": 5
+   },
+   {
+    "nounKey": "baking-sheet",
+    "locName": "Bageplade",
+    "count": 1
+   },
+   {
+    "nounKey": "pitcher",
+    "locName": "Kande",
+    "count": 3
+   },
+   {
+    "nounKey": "lid",
+    "locName": "Låg",
+    "count": 4
+   },
+   {
+    "nounKey": "rolling-pin",
+    "locName": "Kagerulle",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-musik-6fe3",
+  "themeKey": "music",
+  "siblings": [
+   "tael-i-diagram-musik-6fe3"
+  ],
+  "categories": [
+   {
+    "nounKey": "accordion",
+    "locName": "Harmonika",
+    "count": 1
+   },
+   {
+    "nounKey": "harp",
+    "locName": "Harpe",
+    "count": 4
+   },
+   {
+    "nounKey": "keyboard",
+    "locName": "Keyboard",
+    "count": 4
+   },
+   {
+    "nounKey": "singer",
+    "locName": "Sanger",
+    "count": 1
+   },
+   {
+    "nounKey": "note",
+    "locName": "Musiknode",
+    "count": 5
+   },
+   {
+    "nounKey": "drum",
+    "locName": "Tromme",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-erhverv-c42e",
+  "themeKey": "occupations",
+  "siblings": [
+   "tael-i-diagram-erhverv-c42e"
+  ],
+  "categories": [
+   {
+    "nounKey": "mail-carrier",
+    "locName": "Postbud 2",
+    "count": 4
+   },
+   {
+    "nounKey": "crossing-guard",
+    "locName": "Skolepatrulje 2",
+    "count": 3
+   },
+   {
+    "nounKey": "ballerina",
+    "locName": "Ballerina",
+    "count": 2
+   },
+   {
+    "nounKey": "veterinarian",
+    "locName": "Dyrlæge",
+    "count": 3
+   },
+   {
+    "nounKey": "doctor",
+    "locName": "Læge",
+    "count": 3
+   },
+   {
+    "nounKey": "barber",
+    "locName": "Barber",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-havliv-b0b2",
+  "themeKey": "ocean_life",
+  "siblings": [
+   "tael-i-diagram-havliv-b0b2"
+  ],
+  "categories": [
+   {
+    "nounKey": "jellyfish",
+    "locName": "Vandmand",
+    "count": 4
+   },
+   {
+    "nounKey": "oyster",
+    "locName": "Østers",
+    "count": 4
+   },
+   {
+    "nounKey": "clownfish",
+    "locName": "Klovnfisk",
+    "count": 1
+   },
+   {
+    "nounKey": "narwhal",
+    "locName": "Narhval",
+    "count": 3
+   },
+   {
+    "nounKey": "orca",
+    "locName": "Spækhugger",
+    "count": 3
+   },
+   {
+    "nounKey": "ray",
+    "locName": "Rokke",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-kaeledyr-ad04",
+  "themeKey": "pets",
+  "siblings": [
+   "tael-i-diagram-kaeledyr-ad04"
+  ],
+  "categories": [
+   {
+    "nounKey": "dog",
+    "locName": "Hund",
+    "count": 0
+   },
+   {
+    "nounKey": "chinchilla",
+    "locName": "Chinchilla",
+    "count": 5
+   },
+   {
+    "nounKey": "ferret",
+    "locName": "Fritte",
+    "count": 3
+   },
+   {
+    "nounKey": "rabbit",
+    "locName": "Kanin",
+    "count": 3
+   },
+   {
+    "nounKey": "turtle",
+    "locName": "Skildpadde",
+    "count": 4
+   },
+   {
+    "nounKey": "gerbil",
+    "locName": "Ørkenrotte",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-postkontor-2c1e",
+  "themeKey": "post_office",
+  "siblings": [
+   "tael-i-diagram-postkontor-2c1e"
+  ],
+  "categories": [
+   {
+    "nounKey": "stamp",
+    "locName": "Frimærke",
+    "count": 4
+   },
+   {
+    "nounKey": "letter",
+    "locName": "Brev",
+    "count": 2
+   },
+   {
+    "nounKey": "post-office",
+    "locName": "Postkontor",
+    "count": 2
+   },
+   {
+    "nounKey": "truck",
+    "locName": "Postbil",
+    "count": 5
+   },
+   {
+    "nounKey": "delivery",
+    "locName": "Levering",
+    "count": 2
+   },
+   {
+    "nounKey": "scale",
+    "locName": "Postvægt",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-krybdyr-og-padder-c256",
+  "themeKey": "reptiles_and_amphibians",
+  "siblings": [
+   "tael-i-diagram-krybdyr-og-padder-c256"
+  ],
+  "categories": [
+   {
+    "nounKey": "turtle",
+    "locName": "Skildpadde",
+    "count": 4
+   },
+   {
+    "nounKey": "gecko",
+    "locName": "Gekko",
+    "count": 3
+   },
+   {
+    "nounKey": "cobra",
+    "locName": "Kobra",
+    "count": 4
+   },
+   {
+    "nounKey": "frog",
+    "locName": "Frø",
+    "count": 3
+   },
+   {
+    "nounKey": "iguana",
+    "locName": "Leguan",
+    "count": 1
+   },
+   {
+    "nounKey": "alligator",
+    "locName": "Alligator",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-former-4ee7",
+  "themeKey": "shapes",
+  "siblings": [
+   "tael-i-diagram-former-4ee7"
+  ],
+  "categories": [
+   {
+    "nounKey": "diamond",
+    "locName": "Rombe",
+    "count": 1
+   },
+   {
+    "nounKey": "moon",
+    "locName": "Måne",
+    "count": 2
+   },
+   {
+    "nounKey": "pentagon",
+    "locName": "Femkant",
+    "count": 3
+   },
+   {
+    "nounKey": "rectangle",
+    "locName": "Rektangel",
+    "count": 4
+   },
+   {
+    "nounKey": "octogon",
+    "locName": "Ottekant",
+    "count": 5
+   },
+   {
+    "nounKey": "heart",
+    "locName": "Hjerte",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-rummet-2c80",
+  "themeKey": "space",
+  "siblings": [
+   "tael-i-diagram-rummet-2c80"
+  ],
+  "categories": [
+   {
+    "nounKey": "satellite",
+    "locName": "Satellit",
+    "count": 5
+   },
+   {
+    "nounKey": "mercury",
+    "locName": "Merkur",
+    "count": 4
+   },
+   {
+    "nounKey": "neptune",
+    "locName": "Neptun",
+    "count": 2
+   },
+   {
+    "nounKey": "asteroid",
+    "locName": "Asteroide",
+    "count": 5
+   },
+   {
+    "nounKey": "mars",
+    "locName": "Mars",
+    "count": 2
+   },
+   {
+    "nounKey": "planet",
+    "locName": "Planet",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-forar-5fba",
+  "themeKey": "spring",
+  "siblings": [
+   "tael-i-diagram-forar-5fba"
+  ],
+  "categories": [
+   {
+    "nounKey": "bud",
+    "locName": "Knop",
+    "count": 4
+   },
+   {
+    "nounKey": "caterpillar",
+    "locName": "Larve",
+    "count": 4
+   },
+   {
+    "nounKey": "lamb",
+    "locName": "Lam",
+    "count": 3
+   },
+   {
+    "nounKey": "puddle",
+    "locName": "Vandpyt",
+    "count": 4
+   },
+   {
+    "nounKey": "bee",
+    "locName": "Bi",
+    "count": 3
+   },
+   {
+    "nounKey": "watering-can",
+    "locName": "Vandkande",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-sommer-15b6",
+  "themeKey": "summer",
+  "siblings": [
+   "tael-i-diagram-sommer-15b6"
+  ],
+  "categories": [
+   {
+    "nounKey": "kite",
+    "locName": "Drage",
+    "count": 3
+   },
+   {
+    "nounKey": "jellyfish",
+    "locName": "Vandmand",
+    "count": 4
+   },
+   {
+    "nounKey": "sandcastle",
+    "locName": "Sandslot",
+    "count": 3
+   },
+   {
+    "nounKey": "hot-dog",
+    "locName": "Hotdog",
+    "count": 3
+   },
+   {
+    "nounKey": "dolphin",
+    "locName": "Delfin",
+    "count": 3
+   },
+   {
+    "nounKey": "pineapple",
+    "locName": "Ananas",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-thanksgiving-4193",
+  "themeKey": "thanksgivinng",
+  "siblings": [
+   "tael-i-diagram-thanksgiving-4193"
+  ],
+  "categories": [
+   {
+    "nounKey": "pumpkin",
+    "locName": "Græskar",
+    "count": 5
+   },
+   {
+    "nounKey": "pie",
+    "locName": "Tærte",
+    "count": 3
+   },
+   {
+    "nounKey": "haystack",
+    "locName": "Høstak",
+    "count": 4
+   },
+   {
+    "nounKey": "acorn",
+    "locName": "Agern",
+    "count": 5
+   },
+   {
+    "nounKey": "roasted-turkey",
+    "locName": "Stegt kalkun",
+    "count": 2
+   },
+   {
+    "nounKey": "corn",
+    "locName": "Majs",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-ting-der-flyver-6462",
+  "themeKey": "things_that_fly",
+  "siblings": [
+   "tael-i-diagram-ting-der-flyver-6462"
+  ],
+  "categories": [
+   {
+    "nounKey": "parrot",
+    "locName": "Papegøje",
+    "count": 5
+   },
+   {
+    "nounKey": "owl",
+    "locName": "Ugle",
+    "count": 2
+   },
+   {
+    "nounKey": "beetle",
+    "locName": "Bille",
+    "count": 2
+   },
+   {
+    "nounKey": "blue-jay",
+    "locName": "Blåskade",
+    "count": 4
+   },
+   {
+    "nounKey": "butterfly",
+    "locName": "Sommerfugl",
+    "count": 3
+   },
+   {
+    "nounKey": "hot-air-balloon",
+    "locName": "Luftballon",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-vaerktoj-aace",
+  "themeKey": "tools",
+  "siblings": [
+   "tael-i-diagram-vaerktoj-aace"
+  ],
+  "categories": [
+   {
+    "nounKey": "ladder",
+    "locName": "Stige",
+    "count": 3
+   },
+   {
+    "nounKey": "screwdriver",
+    "locName": "Skruetrækker",
+    "count": 1
+   },
+   {
+    "nounKey": "electric-drill",
+    "locName": "Boremaskine",
+    "count": 2
+   },
+   {
+    "nounKey": "tape-measure",
+    "locName": "Målebånd",
+    "count": 5
+   },
+   {
+    "nounKey": "pliers",
+    "locName": "Tang",
+    "count": 5
+   },
+   {
+    "nounKey": "paint-brush",
+    "locName": "Pensel",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-legetoj-8c1c",
+  "themeKey": "toys",
+  "siblings": [
+   "tael-i-diagram-legetoj-8c1c"
+  ],
+  "categories": [
+   {
+    "nounKey": "domino",
+    "locName": "Domino",
+    "count": 3
+   },
+   {
+    "nounKey": "lego",
+    "locName": "Lego",
+    "count": 3
+   },
+   {
+    "nounKey": "doll",
+    "locName": "Dukke",
+    "count": 2
+   },
+   {
+    "nounKey": "truck",
+    "locName": "Lastbil",
+    "count": 5
+   },
+   {
+    "nounKey": "robot",
+    "locName": "Robot",
+    "count": 5
+   },
+   {
+    "nounKey": "bucket",
+    "locName": "Spand",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-traeer-bae6",
+  "themeKey": "tree",
+  "siblings": [
+   "tael-i-diagram-traeer-bae6"
+  ],
+  "categories": [
+   {
+    "nounKey": "maple",
+    "locName": "Løn",
+    "count": 2
+   },
+   {
+    "nounKey": "birch",
+    "locName": "Birk",
+    "count": 5
+   },
+   {
+    "nounKey": "spruce",
+    "locName": "Gran",
+    "count": 5
+   },
+   {
+    "nounKey": "hemlock",
+    "locName": "Hemlock",
+    "count": 2
+   },
+   {
+    "nounKey": "pine",
+    "locName": "Fyr",
+    "count": 5
+   },
+   {
+    "nounKey": "orange",
+    "locName": "Appelsintræ",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-grontsager-289d",
+  "themeKey": "vegetables",
+  "siblings": [
+   "tael-i-diagram-grontsager-289d"
+  ],
+  "categories": [
+   {
+    "nounKey": "pumpkin",
+    "locName": "Græskar",
+    "count": 4
+   },
+   {
+    "nounKey": "spinach",
+    "locName": "Spinat",
+    "count": 5
+   },
+   {
+    "nounKey": "bell-pepper",
+    "locName": "Peberfrugt",
+    "count": 4
+   },
+   {
+    "nounKey": "eggplant",
+    "locName": "Aubergine",
+    "count": 3
+   },
+   {
+    "nounKey": "lettuce",
+    "locName": "Salat",
+    "count": 2
+   },
+   {
+    "nounKey": "parsnip",
+    "locName": "Pastinak",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-koretojer-571b",
+  "themeKey": "vehicles",
+  "siblings": [
+   "tael-i-diagram-koretojer-571b"
+  ],
+  "categories": [
+   {
+    "nounKey": "helicopter",
+    "locName": "Helikopter",
+    "count": 5
+   },
+   {
+    "nounKey": "ship",
+    "locName": "Skib",
+    "count": 1
+   },
+   {
+    "nounKey": "excavator",
+    "locName": "Gravemaskine",
+    "count": 5
+   },
+   {
+    "nounKey": "mail-truck",
+    "locName": "Postbil",
+    "count": 3
+   },
+   {
+    "nounKey": "jet",
+    "locName": "Jetfly",
+    "count": 1
+   },
+   {
+    "nounKey": "skateboard",
+    "locName": "Skateboard",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-vejr-fa2b",
+  "themeKey": "weather",
+  "siblings": [
+   "tael-i-diagram-vejr-fa2b"
+  ],
+  "categories": [
+   {
+    "nounKey": "cold",
+    "locName": "Koldt",
+    "count": 2
+   },
+   {
+    "nounKey": "rainy",
+    "locName": "Regnfuldt",
+    "count": 3
+   },
+   {
+    "nounKey": "umbrella",
+    "locName": "Paraply",
+    "count": 3
+   },
+   {
+    "nounKey": "cloud",
+    "locName": "Sky",
+    "count": 4
+   },
+   {
+    "nounKey": "partly-cloudy",
+    "locName": "Delvis overskyet",
+    "count": 4
+   },
+   {
+    "nounKey": "cloudy",
+    "locName": "Overskyet",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-vinter-34b0",
+  "themeKey": "winter",
+  "siblings": [
+   "tael-i-diagram-vinter-34b0"
+  ],
+  "categories": [
+   {
+    "nounKey": "mittens",
+    "locName": "Vanter",
+    "count": 4
+   },
+   {
+    "nounKey": "sleigh",
+    "locName": "Slæde",
+    "count": 4
+   },
+   {
+    "nounKey": "fireplace",
+    "locName": "Pejs",
+    "count": 2
+   },
+   {
+    "nounKey": "snowboarding",
+    "locName": "Snowboard",
+    "count": 4
+   },
+   {
+    "nounKey": "ice",
+    "locName": "Is",
+    "count": 3
+   },
+   {
+    "nounKey": "coat",
+    "locName": "Frakke",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tael-i-diagram-zoodyr-ae48",
+  "themeKey": "zoo_animals",
+  "siblings": [
+   "tael-i-diagram-zoodyr-ae48"
+  ],
+  "categories": [
+   {
+    "nounKey": "rhinoceros",
+    "locName": "Næsehorn",
+    "count": 2
+   },
+   {
+    "nounKey": "fox",
+    "locName": "Ræv",
+    "count": 1
+   },
+   {
+    "nounKey": "koala",
+    "locName": "Koala",
+    "count": 5
+   },
+   {
+    "nounKey": "chimpanzee",
+    "locName": "Chimpanse",
+    "count": 5
+   },
+   {
+    "nounKey": "hyena",
+    "locName": "Hyæne",
+    "count": 2
+   },
+   {
+    "nounKey": "gorilla",
+    "locName": "Gorilla",
+    "count": 5
+   }
+  ]
+ }
+]

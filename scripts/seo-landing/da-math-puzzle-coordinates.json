@@ -104,7 +104,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -119,7 +121,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -134,7 +138,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -150,7 +156,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -166,7 +174,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -181,7 +191,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -196,7 +208,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -211,7 +225,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -227,7 +243,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -242,7 +260,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -257,7 +277,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -272,7 +294,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -287,7 +311,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -302,7 +328,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -317,7 +345,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -332,7 +362,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -347,7 +379,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -362,7 +396,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -377,7 +413,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -392,7 +430,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -407,7 +447,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -423,7 +465,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -438,7 +482,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -453,7 +499,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -468,7 +516,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -483,7 +533,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -498,7 +550,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -513,7 +567,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -528,7 +584,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -543,7 +601,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -558,7 +618,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -573,7 +635,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -588,7 +652,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -603,7 +669,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -618,7 +686,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -633,7 +703,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "addition",
@@ -648,7 +720,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "mixed",
@@ -663,7 +737,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -679,7 +755,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -694,7 +772,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -710,7 +790,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -726,7 +808,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -741,7 +825,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -756,7 +842,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -771,7 +859,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -787,7 +877,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -802,7 +894,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -817,7 +911,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -832,7 +928,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -847,7 +945,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -862,7 +962,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -877,7 +979,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -892,7 +996,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -907,7 +1013,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -922,7 +1030,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -937,7 +1047,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -952,7 +1064,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -967,7 +1081,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -982,7 +1098,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -998,7 +1116,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1013,7 +1133,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -1028,7 +1150,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1043,7 +1167,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -1058,7 +1184,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1073,7 +1201,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -1088,7 +1218,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1103,7 +1235,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1118,7 +1252,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "K.OA.A.2"
     },
     {
       "mode": "mixed",
@@ -1133,7 +1269,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1148,7 +1286,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -1163,7 +1303,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1178,7 +1320,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1193,7 +1337,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1208,7 +1354,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "mixed",
@@ -1223,7 +1371,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "mixed",
@@ -1238,7 +1388,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1253,7 +1405,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1268,7 +1422,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1283,7 +1439,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1299,7 +1457,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1315,7 +1475,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1330,7 +1492,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1345,7 +1509,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1360,7 +1526,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1376,7 +1544,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1391,7 +1561,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1406,7 +1578,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1421,7 +1595,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1436,7 +1612,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1451,7 +1629,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1466,7 +1646,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1481,7 +1663,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1496,7 +1680,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1511,7 +1697,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1526,7 +1714,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1541,7 +1731,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1556,7 +1748,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1571,7 +1765,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1587,7 +1783,9 @@
       ],
       "valid": true,
       "gate": "countability",
-      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1602,7 +1800,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1617,7 +1817,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1632,7 +1834,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1647,7 +1851,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1662,7 +1868,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1677,7 +1885,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1692,7 +1902,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1707,7 +1919,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1722,7 +1936,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1737,7 +1953,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1752,7 +1970,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1767,7 +1987,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1782,7 +2004,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1797,7 +2021,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1812,7 +2038,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     },
     {
       "mode": "subtraction",
@@ -1827,7 +2055,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "2-klasse",
+      "standard": "2.NBT.B.5"
     },
     {
       "mode": "subtraction",
@@ -1842,7 +2072,9 @@
         "6-8"
       ],
       "valid": true,
-      "gate": "countability"
+      "gate": "countability",
+      "level": "1-klasse",
+      "standard": "1.OA.C.6"
     }
   ]
 }

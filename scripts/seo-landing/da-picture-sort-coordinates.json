@@ -1,0 +1,2119 @@
+{
+  "locale": "da",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 213,
+  "pairCount": 211,
+  "coordinates": [
+    {
+      "pairKey": "4th_of_july-vs-animals",
+      "left": "4th_of_july",
+      "right": "animals",
+      "canonical": "sorter-billeder-4th-of-july-vs-animals-16cd",
+      "siblings": [
+        "sorter-billeder-4th-of-july-vs-animals-16cd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-bakery",
+      "left": "4th_of_july",
+      "right": "bakery",
+      "canonical": "sorter-billeder-4th-of-july-vs-bakery-d903",
+      "siblings": [
+        "sorter-billeder-4th-of-july-vs-bakery-d903"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-dinosaurs",
+      "left": "4th_of_july",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-4th-of-july-vs-dinosaurs-247f",
+      "siblings": [
+        "sorter-billeder-4th-of-july-vs-dinosaurs-247f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-flowers",
+      "left": "4th_of_july",
+      "right": "flowers",
+      "canonical": "sorter-billeder-4th-of-july-vs-flowers-18ff",
+      "siblings": [
+        "sorter-billeder-4th-of-july-vs-flowers-18ff"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-vehicles",
+      "left": "4th_of_july",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-4th-of-july-vs-vehicles-a4cb",
+      "siblings": [
+        "sorter-billeder-4th-of-july-vs-vehicles-a4cb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "sorter-billeder-accessories-vs-animals-b588",
+      "siblings": [
+        "sorter-billeder-accessories-vs-animals-b588"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-bakery",
+      "left": "accessories",
+      "right": "bakery",
+      "canonical": "sorter-billeder-accessories-vs-bakery-6d23",
+      "siblings": [
+        "sorter-billeder-accessories-vs-bakery-6d23"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-dinosaurs",
+      "left": "accessories",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-accessories-vs-dinosaurs-1f40",
+      "siblings": [
+        "sorter-billeder-accessories-vs-dinosaurs-1f40"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "sorter-billeder-accessories-vs-flowers-c8b4",
+      "siblings": [
+        "sorter-billeder-accessories-vs-flowers-c8b4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vehicles",
+      "left": "accessories",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-accessories-vs-vehicles-1bc6",
+      "siblings": [
+        "sorter-billeder-accessories-vs-vehicles-1bc6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-animals",
+      "left": "activities",
+      "right": "animals",
+      "canonical": "sorter-billeder-activities-vs-animals-40d3",
+      "siblings": [
+        "sorter-billeder-activities-vs-animals-40d3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-bakery",
+      "left": "activities",
+      "right": "bakery",
+      "canonical": "sorter-billeder-activities-vs-bakery-97cd",
+      "siblings": [
+        "sorter-billeder-activities-vs-bakery-97cd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-dinosaurs",
+      "left": "activities",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-activities-vs-dinosaurs-2ec9",
+      "siblings": [
+        "sorter-billeder-activities-vs-dinosaurs-2ec9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-flowers",
+      "left": "activities",
+      "right": "flowers",
+      "canonical": "sorter-billeder-activities-vs-flowers-b512",
+      "siblings": [
+        "sorter-billeder-activities-vs-flowers-b512"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-vehicles",
+      "left": "activities",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-activities-vs-vehicles-4b11",
+      "siblings": [
+        "sorter-billeder-activities-vs-vehicles-4b11"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-bakery",
+      "left": "animals",
+      "right": "bakery",
+      "canonical": "sorter-billeder-animals-vs-bakery-cdc6",
+      "siblings": [
+        "sorter-billeder-animals-vs-bakery-cdc6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-dinosaurs",
+      "left": "animals",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-animals-vs-dinosaurs-5bf6",
+      "siblings": [
+        "sorter-billeder-animals-vs-dinosaurs-5bf6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-flowers",
+      "left": "animals",
+      "right": "flowers",
+      "canonical": "sorter-billeder-animals-vs-flowers-387e",
+      "siblings": [
+        "sorter-billeder-animals-vs-flowers-387e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vehicles",
+      "left": "animals",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-animals-vs-vehicles-39c3",
+      "siblings": [
+        "sorter-billeder-animals-vs-vehicles-39c3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-animals",
+      "left": "around_the_house",
+      "right": "animals",
+      "canonical": "sorter-billeder-around-the-house-vs-animals-8405",
+      "siblings": [
+        "sorter-billeder-around-the-house-vs-animals-8405"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-bakery",
+      "left": "around_the_house",
+      "right": "bakery",
+      "canonical": "sorter-billeder-around-the-house-vs-bakery-7150",
+      "siblings": [
+        "sorter-billeder-around-the-house-vs-bakery-7150"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-flowers",
+      "left": "around_the_house",
+      "right": "flowers",
+      "canonical": "sorter-billeder-around-the-house-vs-flowers-cb4e",
+      "siblings": [
+        "sorter-billeder-around-the-house-vs-flowers-cb4e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-animals",
+      "left": "at_the_supermarket",
+      "right": "animals",
+      "canonical": "sorter-billeder-at-the-supermarket-vs-animals-834c",
+      "siblings": [
+        "sorter-billeder-at-the-supermarket-vs-animals-834c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-bakery",
+      "left": "at_the_supermarket",
+      "right": "bakery",
+      "canonical": "sorter-billeder-at-the-supermarket-vs-bakery-1617",
+      "siblings": [
+        "sorter-billeder-at-the-supermarket-vs-bakery-1617"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-dinosaurs",
+      "left": "at_the_supermarket",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-at-the-supermarket-vs-dinosaurs-1a48",
+      "siblings": [
+        "sorter-billeder-at-the-supermarket-vs-dinosaurs-1a48"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-flowers",
+      "left": "at_the_supermarket",
+      "right": "flowers",
+      "canonical": "sorter-billeder-at-the-supermarket-vs-flowers-8a48",
+      "siblings": [
+        "sorter-billeder-at-the-supermarket-vs-flowers-8a48"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-vehicles",
+      "left": "at_the_supermarket",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-at-the-supermarket-vs-vehicles-8d71",
+      "siblings": [
+        "sorter-billeder-at-the-supermarket-vs-vehicles-8d71"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-animals",
+      "left": "bakery",
+      "right": "animals",
+      "canonical": "sorter-billeder-bakery-vs-animals-89c0",
+      "siblings": [
+        "sorter-billeder-bakery-vs-animals-89c0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-dinosaurs",
+      "left": "bakery",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-bakery-vs-dinosaurs-6080",
+      "siblings": [
+        "sorter-billeder-bakery-vs-dinosaurs-6080"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-flowers",
+      "left": "bakery",
+      "right": "flowers",
+      "canonical": "sorter-billeder-bakery-vs-flowers-b0d3",
+      "siblings": [
+        "sorter-billeder-bakery-vs-flowers-b0d3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-vehicles",
+      "left": "bakery",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-bakery-vs-vehicles-74ab",
+      "siblings": [
+        "sorter-billeder-bakery-vs-vehicles-74ab"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-animals",
+      "left": "beach",
+      "right": "animals",
+      "canonical": "sorter-billeder-beach-vs-animals-ad45",
+      "siblings": [
+        "sorter-billeder-beach-vs-animals-ad45"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-bakery",
+      "left": "beach",
+      "right": "bakery",
+      "canonical": "sorter-billeder-beach-vs-bakery-9b0e",
+      "siblings": [
+        "sorter-billeder-beach-vs-bakery-9b0e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-dinosaurs",
+      "left": "beach",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-beach-vs-dinosaurs-5b6c",
+      "siblings": [
+        "sorter-billeder-beach-vs-dinosaurs-5b6c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-flowers",
+      "left": "beach",
+      "right": "flowers",
+      "canonical": "sorter-billeder-beach-vs-flowers-d956",
+      "siblings": [
+        "sorter-billeder-beach-vs-flowers-d956"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-vehicles",
+      "left": "beach",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-beach-vs-vehicles-412a",
+      "siblings": [
+        "sorter-billeder-beach-vs-vehicles-412a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-bakery",
+      "left": "birds",
+      "right": "bakery",
+      "canonical": "sorter-billeder-birds-vs-bakery-8a46",
+      "siblings": [
+        "sorter-billeder-birds-vs-bakery-8a46"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-dinosaurs",
+      "left": "birds",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-birds-vs-dinosaurs-280b",
+      "siblings": [
+        "sorter-billeder-birds-vs-dinosaurs-280b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-flowers",
+      "left": "birds",
+      "right": "flowers",
+      "canonical": "sorter-billeder-birds-vs-flowers-5d7f",
+      "siblings": [
+        "sorter-billeder-birds-vs-flowers-5d7f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-vehicles",
+      "left": "birds",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-birds-vs-vehicles-ced6",
+      "siblings": [
+        "sorter-billeder-birds-vs-vehicles-ced6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds_2-vs-bakery",
+      "left": "birds_2",
+      "right": "bakery",
+      "canonical": "sorter-billeder-birds-2-vs-bakery-2c74",
+      "siblings": [
+        "sorter-billeder-birds-2-vs-bakery-2c74"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds_2-vs-flowers",
+      "left": "birds_2",
+      "right": "flowers",
+      "canonical": "sorter-billeder-birds-2-vs-flowers-8c40",
+      "siblings": [
+        "sorter-billeder-birds-2-vs-flowers-8c40"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-animals",
+      "left": "body_parts",
+      "right": "animals",
+      "canonical": "sorter-billeder-body-parts-vs-animals-e291",
+      "siblings": [
+        "sorter-billeder-body-parts-vs-animals-e291"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-bakery",
+      "left": "body_parts",
+      "right": "bakery",
+      "canonical": "sorter-billeder-body-parts-vs-bakery-9ae3",
+      "siblings": [
+        "sorter-billeder-body-parts-vs-bakery-9ae3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-dinosaurs",
+      "left": "body_parts",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-body-parts-vs-dinosaurs-7ccd",
+      "siblings": [
+        "sorter-billeder-body-parts-vs-dinosaurs-7ccd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-flowers",
+      "left": "body_parts",
+      "right": "flowers",
+      "canonical": "sorter-billeder-body-parts-vs-flowers-822c",
+      "siblings": [
+        "sorter-billeder-body-parts-vs-flowers-822c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-vehicles",
+      "left": "body_parts",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-body-parts-vs-vehicles-173a",
+      "siblings": [
+        "sorter-billeder-body-parts-vs-vehicles-173a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-animals",
+      "left": "breakfast",
+      "right": "animals",
+      "canonical": "sorter-billeder-breakfast-vs-animals-1f97",
+      "siblings": [
+        "sorter-billeder-breakfast-vs-animals-1f97"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-dinosaurs",
+      "left": "breakfast",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-breakfast-vs-dinosaurs-8302",
+      "siblings": [
+        "sorter-billeder-breakfast-vs-dinosaurs-8302"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-flowers",
+      "left": "breakfast",
+      "right": "flowers",
+      "canonical": "sorter-billeder-breakfast-vs-flowers-9020",
+      "siblings": [
+        "sorter-billeder-breakfast-vs-flowers-9020"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-vehicles",
+      "left": "breakfast",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-breakfast-vs-vehicles-bb04",
+      "siblings": [
+        "sorter-billeder-breakfast-vs-vehicles-bb04"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-bakery",
+      "left": "camping",
+      "right": "bakery",
+      "canonical": "sorter-billeder-camping-vs-bakery-a3f4",
+      "siblings": [
+        "sorter-billeder-camping-vs-bakery-a3f4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-dinosaurs",
+      "left": "camping",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-camping-vs-dinosaurs-2701",
+      "siblings": [
+        "sorter-billeder-camping-vs-dinosaurs-2701"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-flowers",
+      "left": "camping",
+      "right": "flowers",
+      "canonical": "sorter-billeder-camping-vs-flowers-fb08",
+      "siblings": [
+        "sorter-billeder-camping-vs-flowers-fb08"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-vehicles",
+      "left": "camping",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-camping-vs-vehicles-39d6",
+      "siblings": [
+        "sorter-billeder-camping-vs-vehicles-39d6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-animals",
+      "left": "christmas",
+      "right": "animals",
+      "canonical": "sorter-billeder-christmas-vs-animals-3b3a",
+      "siblings": [
+        "sorter-billeder-christmas-vs-animals-3b3a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-bakery",
+      "left": "christmas",
+      "right": "bakery",
+      "canonical": "sorter-billeder-christmas-vs-bakery-1a15",
+      "siblings": [
+        "sorter-billeder-christmas-vs-bakery-1a15"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-dinosaurs",
+      "left": "christmas",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-christmas-vs-dinosaurs-d352",
+      "siblings": [
+        "sorter-billeder-christmas-vs-dinosaurs-d352"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-flowers",
+      "left": "christmas",
+      "right": "flowers",
+      "canonical": "sorter-billeder-christmas-vs-flowers-b7f4",
+      "siblings": [
+        "sorter-billeder-christmas-vs-flowers-b7f4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-vehicles",
+      "left": "christmas",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-christmas-vs-vehicles-883c",
+      "siblings": [
+        "sorter-billeder-christmas-vs-vehicles-883c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-animals",
+      "left": "classroom",
+      "right": "animals",
+      "canonical": "sorter-billeder-classroom-vs-animals-3eb3",
+      "siblings": [
+        "sorter-billeder-classroom-vs-animals-3eb3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-bakery",
+      "left": "classroom",
+      "right": "bakery",
+      "canonical": "sorter-billeder-classroom-vs-bakery-cd69",
+      "siblings": [
+        "sorter-billeder-classroom-vs-bakery-cd69"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-dinosaurs",
+      "left": "classroom",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-classroom-vs-dinosaurs-eb9b",
+      "siblings": [
+        "sorter-billeder-classroom-vs-dinosaurs-eb9b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-flowers",
+      "left": "classroom",
+      "right": "flowers",
+      "canonical": "sorter-billeder-classroom-vs-flowers-bf98",
+      "siblings": [
+        "sorter-billeder-classroom-vs-flowers-bf98"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-vehicles",
+      "left": "classroom",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-classroom-vs-vehicles-1dec",
+      "siblings": [
+        "sorter-billeder-classroom-vs-vehicles-1dec"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-animals",
+      "left": "clothing",
+      "right": "animals",
+      "canonical": "sorter-billeder-clothing-vs-animals-20d0",
+      "siblings": [
+        "sorter-billeder-clothing-vs-animals-20d0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-bakery",
+      "left": "clothing",
+      "right": "bakery",
+      "canonical": "sorter-billeder-clothing-vs-bakery-49ce",
+      "siblings": [
+        "sorter-billeder-clothing-vs-bakery-49ce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-dinosaurs",
+      "left": "clothing",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-clothing-vs-dinosaurs-259f",
+      "siblings": [
+        "sorter-billeder-clothing-vs-dinosaurs-259f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-flowers",
+      "left": "clothing",
+      "right": "flowers",
+      "canonical": "sorter-billeder-clothing-vs-flowers-b640",
+      "siblings": [
+        "sorter-billeder-clothing-vs-flowers-b640"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-animals",
+      "left": "colors",
+      "right": "animals",
+      "canonical": "sorter-billeder-colors-vs-animals-5291",
+      "siblings": [
+        "sorter-billeder-colors-vs-animals-5291"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-bakery",
+      "left": "colors",
+      "right": "bakery",
+      "canonical": "sorter-billeder-colors-vs-bakery-84ba",
+      "siblings": [
+        "sorter-billeder-colors-vs-bakery-84ba"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-dinosaurs",
+      "left": "colors",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-colors-vs-dinosaurs-e45d",
+      "siblings": [
+        "sorter-billeder-colors-vs-dinosaurs-e45d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-flowers",
+      "left": "colors",
+      "right": "flowers",
+      "canonical": "sorter-billeder-colors-vs-flowers-4859",
+      "siblings": [
+        "sorter-billeder-colors-vs-flowers-4859"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-vehicles",
+      "left": "colors",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-colors-vs-vehicles-be14",
+      "siblings": [
+        "sorter-billeder-colors-vs-vehicles-be14"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-flowers",
+      "left": "desserts_and_sweets",
+      "right": "flowers",
+      "canonical": "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9",
+      "siblings": [
+        "sorter-billeder-desserts-and-sweets-vs-flowers-7bd9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-bakery",
+      "left": "dinosaurs",
+      "right": "bakery",
+      "canonical": "sorter-billeder-dinosaurs-vs-bakery-f40a",
+      "siblings": [
+        "sorter-billeder-dinosaurs-vs-bakery-f40a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-flowers",
+      "left": "dinosaurs",
+      "right": "flowers",
+      "canonical": "sorter-billeder-dinosaurs-vs-flowers-4f87",
+      "siblings": [
+        "sorter-billeder-dinosaurs-vs-flowers-4f87"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-vehicles",
+      "left": "dinosaurs",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-dinosaurs-vs-vehicles-3ca5",
+      "siblings": [
+        "sorter-billeder-dinosaurs-vs-vehicles-3ca5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-bakery",
+      "left": "easter",
+      "right": "bakery",
+      "canonical": "sorter-billeder-easter-vs-bakery-c753",
+      "siblings": [
+        "sorter-billeder-easter-vs-bakery-c753"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-dinosaurs",
+      "left": "easter",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-easter-vs-dinosaurs-10de",
+      "siblings": [
+        "sorter-billeder-easter-vs-dinosaurs-10de"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-vehicles",
+      "left": "easter",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-easter-vs-vehicles-eb2c",
+      "siblings": [
+        "sorter-billeder-easter-vs-vehicles-eb2c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-animals",
+      "left": "emotions",
+      "right": "animals",
+      "canonical": "sorter-billeder-emotions-vs-animals-2017",
+      "siblings": [
+        "sorter-billeder-emotions-vs-animals-2017"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-bakery",
+      "left": "emotions",
+      "right": "bakery",
+      "canonical": "sorter-billeder-emotions-vs-bakery-9402",
+      "siblings": [
+        "sorter-billeder-emotions-vs-bakery-9402"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-dinosaurs",
+      "left": "emotions",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-emotions-vs-dinosaurs-17f0",
+      "siblings": [
+        "sorter-billeder-emotions-vs-dinosaurs-17f0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-flowers",
+      "left": "emotions",
+      "right": "flowers",
+      "canonical": "sorter-billeder-emotions-vs-flowers-66e2",
+      "siblings": [
+        "sorter-billeder-emotions-vs-flowers-66e2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-vehicles",
+      "left": "emotions",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-emotions-vs-vehicles-93ad",
+      "siblings": [
+        "sorter-billeder-emotions-vs-vehicles-93ad"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-dinosaurs",
+      "left": "farm_animals",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-farm-animals-vs-dinosaurs-73a7",
+      "siblings": [
+        "sorter-billeder-farm-animals-vs-dinosaurs-73a7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-flowers",
+      "left": "farm_animals",
+      "right": "flowers",
+      "canonical": "sorter-billeder-farm-animals-vs-flowers-66a2",
+      "siblings": [
+        "sorter-billeder-farm-animals-vs-flowers-66a2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-vehicles",
+      "left": "farm_animals",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-farm-animals-vs-vehicles-ed0f",
+      "siblings": [
+        "sorter-billeder-farm-animals-vs-vehicles-ed0f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-animals",
+      "left": "flowers",
+      "right": "animals",
+      "canonical": "sorter-billeder-flowers-vs-animals-50ad",
+      "siblings": [
+        "sorter-billeder-flowers-vs-animals-50ad"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-bakery",
+      "left": "flowers",
+      "right": "bakery",
+      "canonical": "sorter-billeder-flowers-vs-bakery-48ee",
+      "siblings": [
+        "sorter-billeder-flowers-vs-bakery-48ee"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-dinosaurs",
+      "left": "flowers",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-flowers-vs-dinosaurs-65e0",
+      "siblings": [
+        "sorter-billeder-flowers-vs-dinosaurs-65e0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-vehicles",
+      "left": "flowers",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-flowers-vs-vehicles-bb6a",
+      "siblings": [
+        "sorter-billeder-flowers-vs-vehicles-bb6a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-bakery",
+      "left": "forest_creatures",
+      "right": "bakery",
+      "canonical": "sorter-billeder-forest-creatures-vs-bakery-486e",
+      "siblings": [
+        "sorter-billeder-forest-creatures-vs-bakery-486e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-flowers",
+      "left": "forest_creatures",
+      "right": "flowers",
+      "canonical": "sorter-billeder-forest-creatures-vs-flowers-329e",
+      "siblings": [
+        "sorter-billeder-forest-creatures-vs-flowers-329e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-vehicles",
+      "left": "forest_creatures",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-forest-creatures-vs-vehicles-ad4e",
+      "siblings": [
+        "sorter-billeder-forest-creatures-vs-vehicles-ad4e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-animals",
+      "left": "fruits",
+      "right": "animals",
+      "canonical": "sorter-billeder-fruits-vs-animals-2029",
+      "siblings": [
+        "sorter-billeder-fruits-vs-animals-2029"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-bakery",
+      "left": "fruits",
+      "right": "bakery",
+      "canonical": "sorter-billeder-fruits-vs-bakery-e5ac",
+      "siblings": [
+        "sorter-billeder-fruits-vs-bakery-e5ac"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-dinosaurs",
+      "left": "fruits",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-fruits-vs-dinosaurs-b6c5",
+      "siblings": [
+        "sorter-billeder-fruits-vs-dinosaurs-b6c5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-flowers",
+      "left": "fruits",
+      "right": "flowers",
+      "canonical": "sorter-billeder-fruits-vs-flowers-04a4",
+      "siblings": [
+        "sorter-billeder-fruits-vs-flowers-04a4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-vehicles",
+      "left": "fruits",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-fruits-vs-vehicles-5c74",
+      "siblings": [
+        "sorter-billeder-fruits-vs-vehicles-5c74"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-animals",
+      "left": "furniture",
+      "right": "animals",
+      "canonical": "sorter-billeder-furniture-vs-animals-33ce",
+      "siblings": [
+        "sorter-billeder-furniture-vs-animals-33ce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-bakery",
+      "left": "furniture",
+      "right": "bakery",
+      "canonical": "sorter-billeder-furniture-vs-bakery-aa98",
+      "siblings": [
+        "sorter-billeder-furniture-vs-bakery-aa98"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-dinosaurs",
+      "left": "furniture",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-furniture-vs-dinosaurs-a2d3",
+      "siblings": [
+        "sorter-billeder-furniture-vs-dinosaurs-a2d3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-flowers",
+      "left": "furniture",
+      "right": "flowers",
+      "canonical": "sorter-billeder-furniture-vs-flowers-fea6",
+      "siblings": [
+        "sorter-billeder-furniture-vs-flowers-fea6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-vehicles",
+      "left": "furniture",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-furniture-vs-vehicles-e692",
+      "siblings": [
+        "sorter-billeder-furniture-vs-vehicles-e692"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-animals",
+      "left": "hospital",
+      "right": "animals",
+      "canonical": "sorter-billeder-hospital-vs-animals-f06b",
+      "siblings": [
+        "sorter-billeder-hospital-vs-animals-f06b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-bakery",
+      "left": "hospital",
+      "right": "bakery",
+      "canonical": "sorter-billeder-hospital-vs-bakery-d6dd",
+      "siblings": [
+        "sorter-billeder-hospital-vs-bakery-d6dd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-dinosaurs",
+      "left": "hospital",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-hospital-vs-dinosaurs-6206",
+      "siblings": [
+        "sorter-billeder-hospital-vs-dinosaurs-6206"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-flowers",
+      "left": "hospital",
+      "right": "flowers",
+      "canonical": "sorter-billeder-hospital-vs-flowers-ab41",
+      "siblings": [
+        "sorter-billeder-hospital-vs-flowers-ab41"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-vehicles",
+      "left": "hospital",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-hospital-vs-vehicles-faea",
+      "siblings": [
+        "sorter-billeder-hospital-vs-vehicles-faea"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-bakery",
+      "left": "insects_and_bugs",
+      "right": "bakery",
+      "canonical": "sorter-billeder-insects-and-bugs-vs-bakery-134e",
+      "siblings": [
+        "sorter-billeder-insects-and-bugs-vs-bakery-134e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-dinosaurs",
+      "left": "insects_and_bugs",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce",
+      "siblings": [
+        "sorter-billeder-insects-and-bugs-vs-dinosaurs-f3ce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-flowers",
+      "left": "insects_and_bugs",
+      "right": "flowers",
+      "canonical": "sorter-billeder-insects-and-bugs-vs-flowers-7555",
+      "siblings": [
+        "sorter-billeder-insects-and-bugs-vs-flowers-7555"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-vehicles",
+      "left": "insects_and_bugs",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6",
+      "siblings": [
+        "sorter-billeder-insects-and-bugs-vs-vehicles-f3e6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-animals",
+      "left": "kitchen_tools",
+      "right": "animals",
+      "canonical": "sorter-billeder-kitchen-tools-vs-animals-d731",
+      "siblings": [
+        "sorter-billeder-kitchen-tools-vs-animals-d731"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-bakery",
+      "left": "kitchen_tools",
+      "right": "bakery",
+      "canonical": "sorter-billeder-kitchen-tools-vs-bakery-e2fa",
+      "siblings": [
+        "sorter-billeder-kitchen-tools-vs-bakery-e2fa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-dinosaurs",
+      "left": "kitchen_tools",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8",
+      "siblings": [
+        "sorter-billeder-kitchen-tools-vs-dinosaurs-5ea8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-flowers",
+      "left": "kitchen_tools",
+      "right": "flowers",
+      "canonical": "sorter-billeder-kitchen-tools-vs-flowers-8975",
+      "siblings": [
+        "sorter-billeder-kitchen-tools-vs-flowers-8975"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-animals",
+      "left": "music",
+      "right": "animals",
+      "canonical": "sorter-billeder-music-vs-animals-4f4c",
+      "siblings": [
+        "sorter-billeder-music-vs-animals-4f4c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-bakery",
+      "left": "music",
+      "right": "bakery",
+      "canonical": "sorter-billeder-music-vs-bakery-a74c",
+      "siblings": [
+        "sorter-billeder-music-vs-bakery-a74c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-dinosaurs",
+      "left": "music",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-music-vs-dinosaurs-46a8",
+      "siblings": [
+        "sorter-billeder-music-vs-dinosaurs-46a8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-flowers",
+      "left": "music",
+      "right": "flowers",
+      "canonical": "sorter-billeder-music-vs-flowers-4eac",
+      "siblings": [
+        "sorter-billeder-music-vs-flowers-4eac"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-vehicles",
+      "left": "music",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-music-vs-vehicles-477d",
+      "siblings": [
+        "sorter-billeder-music-vs-vehicles-477d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-animals",
+      "left": "occupations",
+      "right": "animals",
+      "canonical": "sorter-billeder-occupations-vs-animals-fc6c",
+      "siblings": [
+        "sorter-billeder-occupations-vs-animals-fc6c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-bakery",
+      "left": "occupations",
+      "right": "bakery",
+      "canonical": "sorter-billeder-occupations-vs-bakery-297c",
+      "siblings": [
+        "sorter-billeder-occupations-vs-bakery-297c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-dinosaurs",
+      "left": "occupations",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-occupations-vs-dinosaurs-caea",
+      "siblings": [
+        "sorter-billeder-occupations-vs-dinosaurs-caea"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-flowers",
+      "left": "occupations",
+      "right": "flowers",
+      "canonical": "sorter-billeder-occupations-vs-flowers-a84b",
+      "siblings": [
+        "sorter-billeder-occupations-vs-flowers-a84b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-vehicles",
+      "left": "occupations",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-occupations-vs-vehicles-84cf",
+      "siblings": [
+        "sorter-billeder-occupations-vs-vehicles-84cf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-bakery",
+      "left": "ocean_life",
+      "right": "bakery",
+      "canonical": "sorter-billeder-ocean-life-vs-bakery-4d49",
+      "siblings": [
+        "sorter-billeder-ocean-life-vs-bakery-4d49"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-dinosaurs",
+      "left": "ocean_life",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-ocean-life-vs-dinosaurs-f34d",
+      "siblings": [
+        "sorter-billeder-ocean-life-vs-dinosaurs-f34d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-flowers",
+      "left": "ocean_life",
+      "right": "flowers",
+      "canonical": "sorter-billeder-ocean-life-vs-flowers-eb48",
+      "siblings": [
+        "sorter-billeder-ocean-life-vs-flowers-eb48"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-vehicles",
+      "left": "ocean_life",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-ocean-life-vs-vehicles-9b2e",
+      "siblings": [
+        "sorter-billeder-ocean-life-vs-vehicles-9b2e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-bakery",
+      "left": "pets",
+      "right": "bakery",
+      "canonical": "sorter-billeder-pets-vs-bakery-1eee",
+      "siblings": [
+        "sorter-billeder-pets-vs-bakery-1eee"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-dinosaurs",
+      "left": "pets",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-pets-vs-dinosaurs-e31f",
+      "siblings": [
+        "sorter-billeder-pets-vs-dinosaurs-e31f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-flowers",
+      "left": "pets",
+      "right": "flowers",
+      "canonical": "sorter-billeder-pets-vs-flowers-c3c2",
+      "siblings": [
+        "sorter-billeder-pets-vs-flowers-c3c2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-vehicles",
+      "left": "pets",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-pets-vs-vehicles-6300",
+      "siblings": [
+        "sorter-billeder-pets-vs-vehicles-6300"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-animals",
+      "left": "post_office",
+      "right": "animals",
+      "canonical": "sorter-billeder-post-office-vs-animals-e521",
+      "siblings": [
+        "sorter-billeder-post-office-vs-animals-e521"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-bakery",
+      "left": "post_office",
+      "right": "bakery",
+      "canonical": "sorter-billeder-post-office-vs-bakery-a64c",
+      "siblings": [
+        "sorter-billeder-post-office-vs-bakery-a64c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-dinosaurs",
+      "left": "post_office",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-post-office-vs-dinosaurs-5f34",
+      "siblings": [
+        "sorter-billeder-post-office-vs-dinosaurs-5f34"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-flowers",
+      "left": "post_office",
+      "right": "flowers",
+      "canonical": "sorter-billeder-post-office-vs-flowers-0459",
+      "siblings": [
+        "sorter-billeder-post-office-vs-flowers-0459"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-vehicles",
+      "left": "post_office",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-post-office-vs-vehicles-63c7",
+      "siblings": [
+        "sorter-billeder-post-office-vs-vehicles-63c7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-bakery",
+      "left": "reptiles_and_amphibians",
+      "right": "bakery",
+      "canonical": "sorter-billeder-reptiles-and-amphibians-vs-bakery-d9f2",
+      "siblings": [
+        "sorter-billeder-reptiles-and-amphibians-vs-bakery-d9f2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-dinosaurs",
+      "left": "reptiles_and_amphibians",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-reptiles-and-amphibians-vs-dinosaurs-b86e",
+      "siblings": [
+        "sorter-billeder-reptiles-and-amphibians-vs-dinosaurs-b86e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-flowers",
+      "left": "reptiles_and_amphibians",
+      "right": "flowers",
+      "canonical": "sorter-billeder-reptiles-and-amphibians-vs-flowers-4295",
+      "siblings": [
+        "sorter-billeder-reptiles-and-amphibians-vs-flowers-4295"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-vehicles",
+      "left": "reptiles_and_amphibians",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-reptiles-and-amphibians-vs-vehicles-2617",
+      "siblings": [
+        "sorter-billeder-reptiles-and-amphibians-vs-vehicles-2617"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-animals",
+      "left": "shapes",
+      "right": "animals",
+      "canonical": "sorter-billeder-shapes-vs-animals-3808",
+      "siblings": [
+        "sorter-billeder-shapes-vs-animals-3808"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-bakery",
+      "left": "shapes",
+      "right": "bakery",
+      "canonical": "sorter-billeder-shapes-vs-bakery-6f37",
+      "siblings": [
+        "sorter-billeder-shapes-vs-bakery-6f37"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-dinosaurs",
+      "left": "shapes",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-shapes-vs-dinosaurs-635d",
+      "siblings": [
+        "sorter-billeder-shapes-vs-dinosaurs-635d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-flowers",
+      "left": "shapes",
+      "right": "flowers",
+      "canonical": "sorter-billeder-shapes-vs-flowers-29a4",
+      "siblings": [
+        "sorter-billeder-shapes-vs-flowers-29a4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-vehicles",
+      "left": "shapes",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-shapes-vs-vehicles-cc04",
+      "siblings": [
+        "sorter-billeder-shapes-vs-vehicles-cc04"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-animals",
+      "left": "space",
+      "right": "animals",
+      "canonical": "sorter-billeder-space-vs-animals-3e05",
+      "siblings": [
+        "sorter-billeder-space-vs-animals-3e05",
+        "sorter-billeder-space-vs-animals-0b2c"
+      ],
+      "n": 2
+    },
+    {
+      "pairKey": "space-vs-bakery",
+      "left": "space",
+      "right": "bakery",
+      "canonical": "sorter-billeder-space-vs-bakery-ae7b",
+      "siblings": [
+        "sorter-billeder-space-vs-bakery-ae7b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-beach",
+      "left": "space",
+      "right": "beach",
+      "canonical": "sorter-billeder-space-vs-beach-d201",
+      "siblings": [
+        "sorter-billeder-space-vs-beach-d201"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-dinosaurs",
+      "left": "space",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-space-vs-dinosaurs-bde7",
+      "siblings": [
+        "sorter-billeder-space-vs-dinosaurs-bde7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-flowers",
+      "left": "space",
+      "right": "flowers",
+      "canonical": "sorter-billeder-space-vs-flowers-1176",
+      "siblings": [
+        "sorter-billeder-space-vs-flowers-1176"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-vehicles",
+      "left": "space",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-space-vs-vehicles-766a",
+      "siblings": [
+        "sorter-billeder-space-vs-vehicles-766a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-bakery",
+      "left": "spring",
+      "right": "bakery",
+      "canonical": "sorter-billeder-spring-vs-bakery-f714",
+      "siblings": [
+        "sorter-billeder-spring-vs-bakery-f714"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-dinosaurs",
+      "left": "spring",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-spring-vs-dinosaurs-3aef",
+      "siblings": [
+        "sorter-billeder-spring-vs-dinosaurs-3aef"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-flowers",
+      "left": "spring",
+      "right": "flowers",
+      "canonical": "sorter-billeder-spring-vs-flowers-278c",
+      "siblings": [
+        "sorter-billeder-spring-vs-flowers-278c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-vehicles",
+      "left": "spring",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-spring-vs-vehicles-6065",
+      "siblings": [
+        "sorter-billeder-spring-vs-vehicles-6065"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-animals",
+      "left": "summer",
+      "right": "animals",
+      "canonical": "sorter-billeder-summer-vs-animals-fcfc",
+      "siblings": [
+        "sorter-billeder-summer-vs-animals-fcfc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-bakery",
+      "left": "summer",
+      "right": "bakery",
+      "canonical": "sorter-billeder-summer-vs-bakery-64de",
+      "siblings": [
+        "sorter-billeder-summer-vs-bakery-64de"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-dinosaurs",
+      "left": "summer",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-summer-vs-dinosaurs-9b3d",
+      "siblings": [
+        "sorter-billeder-summer-vs-dinosaurs-9b3d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-flowers",
+      "left": "summer",
+      "right": "flowers",
+      "canonical": "sorter-billeder-summer-vs-flowers-d35e",
+      "siblings": [
+        "sorter-billeder-summer-vs-flowers-d35e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-vehicles",
+      "left": "summer",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-summer-vs-vehicles-e7e4",
+      "siblings": [
+        "sorter-billeder-summer-vs-vehicles-e7e4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-animals",
+      "left": "thanksgivinng",
+      "right": "animals",
+      "canonical": "sorter-billeder-thanksgivinng-vs-animals-8a32",
+      "siblings": [
+        "sorter-billeder-thanksgivinng-vs-animals-8a32"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-bakery",
+      "left": "thanksgivinng",
+      "right": "bakery",
+      "canonical": "sorter-billeder-thanksgivinng-vs-bakery-4909",
+      "siblings": [
+        "sorter-billeder-thanksgivinng-vs-bakery-4909"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-dinosaurs",
+      "left": "thanksgivinng",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-thanksgivinng-vs-dinosaurs-2d00",
+      "siblings": [
+        "sorter-billeder-thanksgivinng-vs-dinosaurs-2d00"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-flowers",
+      "left": "thanksgivinng",
+      "right": "flowers",
+      "canonical": "sorter-billeder-thanksgivinng-vs-flowers-3951",
+      "siblings": [
+        "sorter-billeder-thanksgivinng-vs-flowers-3951"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-vehicles",
+      "left": "thanksgivinng",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-thanksgivinng-vs-vehicles-dd20",
+      "siblings": [
+        "sorter-billeder-thanksgivinng-vs-vehicles-dd20"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-bakery",
+      "left": "things_that_fly",
+      "right": "bakery",
+      "canonical": "sorter-billeder-things-that-fly-vs-bakery-d354",
+      "siblings": [
+        "sorter-billeder-things-that-fly-vs-bakery-d354"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-dinosaurs",
+      "left": "things_that_fly",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-things-that-fly-vs-dinosaurs-5ffa",
+      "siblings": [
+        "sorter-billeder-things-that-fly-vs-dinosaurs-5ffa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-animals",
+      "left": "tools",
+      "right": "animals",
+      "canonical": "sorter-billeder-tools-vs-animals-249e",
+      "siblings": [
+        "sorter-billeder-tools-vs-animals-249e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-bakery",
+      "left": "tools",
+      "right": "bakery",
+      "canonical": "sorter-billeder-tools-vs-bakery-addc",
+      "siblings": [
+        "sorter-billeder-tools-vs-bakery-addc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-dinosaurs",
+      "left": "tools",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-tools-vs-dinosaurs-c934",
+      "siblings": [
+        "sorter-billeder-tools-vs-dinosaurs-c934"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-flowers",
+      "left": "tools",
+      "right": "flowers",
+      "canonical": "sorter-billeder-tools-vs-flowers-54c6",
+      "siblings": [
+        "sorter-billeder-tools-vs-flowers-54c6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-vehicles",
+      "left": "tools",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-tools-vs-vehicles-4ecf",
+      "siblings": [
+        "sorter-billeder-tools-vs-vehicles-4ecf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-animals",
+      "left": "toys",
+      "right": "animals",
+      "canonical": "sorter-billeder-toys-vs-animals-311e",
+      "siblings": [
+        "sorter-billeder-toys-vs-animals-311e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-bakery",
+      "left": "toys",
+      "right": "bakery",
+      "canonical": "sorter-billeder-toys-vs-bakery-8fd5",
+      "siblings": [
+        "sorter-billeder-toys-vs-bakery-8fd5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-dinosaurs",
+      "left": "toys",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-toys-vs-dinosaurs-8790",
+      "siblings": [
+        "sorter-billeder-toys-vs-dinosaurs-8790"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-flowers",
+      "left": "toys",
+      "right": "flowers",
+      "canonical": "sorter-billeder-toys-vs-flowers-2c55",
+      "siblings": [
+        "sorter-billeder-toys-vs-flowers-2c55"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-vehicles",
+      "left": "toys",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-toys-vs-vehicles-d138",
+      "siblings": [
+        "sorter-billeder-toys-vs-vehicles-d138"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-animals",
+      "left": "tree",
+      "right": "animals",
+      "canonical": "sorter-billeder-tree-vs-animals-ce22",
+      "siblings": [
+        "sorter-billeder-tree-vs-animals-ce22"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-bakery",
+      "left": "tree",
+      "right": "bakery",
+      "canonical": "sorter-billeder-tree-vs-bakery-2683",
+      "siblings": [
+        "sorter-billeder-tree-vs-bakery-2683"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-dinosaurs",
+      "left": "tree",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-tree-vs-dinosaurs-270a",
+      "siblings": [
+        "sorter-billeder-tree-vs-dinosaurs-270a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-flowers",
+      "left": "tree",
+      "right": "flowers",
+      "canonical": "sorter-billeder-tree-vs-flowers-494f",
+      "siblings": [
+        "sorter-billeder-tree-vs-flowers-494f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-vehicles",
+      "left": "tree",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-tree-vs-vehicles-60f5",
+      "siblings": [
+        "sorter-billeder-tree-vs-vehicles-60f5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-animals",
+      "left": "vegetables",
+      "right": "animals",
+      "canonical": "sorter-billeder-vegetables-vs-animals-98fb",
+      "siblings": [
+        "sorter-billeder-vegetables-vs-animals-98fb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-bakery",
+      "left": "vegetables",
+      "right": "bakery",
+      "canonical": "sorter-billeder-vegetables-vs-bakery-9d5b",
+      "siblings": [
+        "sorter-billeder-vegetables-vs-bakery-9d5b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-dinosaurs",
+      "left": "vegetables",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-vegetables-vs-dinosaurs-10c8",
+      "siblings": [
+        "sorter-billeder-vegetables-vs-dinosaurs-10c8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-flowers",
+      "left": "vegetables",
+      "right": "flowers",
+      "canonical": "sorter-billeder-vegetables-vs-flowers-5c48",
+      "siblings": [
+        "sorter-billeder-vegetables-vs-flowers-5c48"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-vehicles",
+      "left": "vegetables",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-vegetables-vs-vehicles-6e0c",
+      "siblings": [
+        "sorter-billeder-vegetables-vs-vehicles-6e0c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-animals",
+      "left": "vehicles",
+      "right": "animals",
+      "canonical": "sorter-billeder-vehicles-vs-animals-aee9",
+      "siblings": [
+        "sorter-billeder-vehicles-vs-animals-aee9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-bakery",
+      "left": "vehicles",
+      "right": "bakery",
+      "canonical": "sorter-billeder-vehicles-vs-bakery-afab",
+      "siblings": [
+        "sorter-billeder-vehicles-vs-bakery-afab"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-dinosaurs",
+      "left": "vehicles",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-vehicles-vs-dinosaurs-d0b0",
+      "siblings": [
+        "sorter-billeder-vehicles-vs-dinosaurs-d0b0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-flowers",
+      "left": "vehicles",
+      "right": "flowers",
+      "canonical": "sorter-billeder-vehicles-vs-flowers-91db",
+      "siblings": [
+        "sorter-billeder-vehicles-vs-flowers-91db"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-animals",
+      "left": "weather",
+      "right": "animals",
+      "canonical": "sorter-billeder-weather-vs-animals-2e5a",
+      "siblings": [
+        "sorter-billeder-weather-vs-animals-2e5a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-bakery",
+      "left": "weather",
+      "right": "bakery",
+      "canonical": "sorter-billeder-weather-vs-bakery-d49c",
+      "siblings": [
+        "sorter-billeder-weather-vs-bakery-d49c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-dinosaurs",
+      "left": "weather",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-weather-vs-dinosaurs-16ac",
+      "siblings": [
+        "sorter-billeder-weather-vs-dinosaurs-16ac"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-flowers",
+      "left": "weather",
+      "right": "flowers",
+      "canonical": "sorter-billeder-weather-vs-flowers-cc1b",
+      "siblings": [
+        "sorter-billeder-weather-vs-flowers-cc1b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-vehicles",
+      "left": "weather",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-weather-vs-vehicles-2ccd",
+      "siblings": [
+        "sorter-billeder-weather-vs-vehicles-2ccd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-animals",
+      "left": "winter",
+      "right": "animals",
+      "canonical": "sorter-billeder-winter-vs-animals-e761",
+      "siblings": [
+        "sorter-billeder-winter-vs-animals-e761"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-bakery",
+      "left": "winter",
+      "right": "bakery",
+      "canonical": "sorter-billeder-winter-vs-bakery-b028",
+      "siblings": [
+        "sorter-billeder-winter-vs-bakery-b028"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-dinosaurs",
+      "left": "winter",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-winter-vs-dinosaurs-812e",
+      "siblings": [
+        "sorter-billeder-winter-vs-dinosaurs-812e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-flowers",
+      "left": "winter",
+      "right": "flowers",
+      "canonical": "sorter-billeder-winter-vs-flowers-9d42",
+      "siblings": [
+        "sorter-billeder-winter-vs-flowers-9d42"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-vehicles",
+      "left": "winter",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-winter-vs-vehicles-82b3",
+      "siblings": [
+        "sorter-billeder-winter-vs-vehicles-82b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-bakery",
+      "left": "zoo_animals",
+      "right": "bakery",
+      "canonical": "sorter-billeder-zoo-animals-vs-bakery-6746",
+      "siblings": [
+        "sorter-billeder-zoo-animals-vs-bakery-6746"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-dinosaurs",
+      "left": "zoo_animals",
+      "right": "dinosaurs",
+      "canonical": "sorter-billeder-zoo-animals-vs-dinosaurs-73d8",
+      "siblings": [
+        "sorter-billeder-zoo-animals-vs-dinosaurs-73d8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-flowers",
+      "left": "zoo_animals",
+      "right": "flowers",
+      "canonical": "sorter-billeder-zoo-animals-vs-flowers-66a3",
+      "siblings": [
+        "sorter-billeder-zoo-animals-vs-flowers-66a3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-vehicles",
+      "left": "zoo_animals",
+      "right": "vehicles",
+      "canonical": "sorter-billeder-zoo-animals-vs-vehicles-5b51",
+      "siblings": [
+        "sorter-billeder-zoo-animals-vs-vehicles-5b51"
+      ],
+      "n": 1
+    }
+  ]
+}

@@ -43,15 +43,18 @@ const RANGE_BY_STANDARD = {
 };
 const RANGE_BY_LEVEL = { 'boernehaveklasse': '', '1-klasse': 'til 20', '2-klasse': 'til 100' };
 
-const NUMERIC_TYPES = new Set(['addition', 'subtraction', 'math-puzzle']);
-// "uden tierovergang": within-10 + direct modes only (find-addend/find-subtrahend excluded).
+const NUMERIC_TYPES = new Set(['addition', 'subtraction', 'math-puzzle', 'math-worksheet']);
+// "uden tierovergang": within-10 + direct modes only (find-addend/find-subtrahend excluded);
+// math-worksheet excluded entirely (the qualifier targets plus/minus-opgaver searches, not symbol-math).
 const NO_CARRY_EXCLUDED_MODES = new Set(['find-addend', 'find-subtrahend']);
+const NO_CARRY_EXCLUDED_TYPES = new Set(['math-worksheet']);
 
 // --- per-type op + per-mode qualifier (da keyword harvest 2026-06-12; attested-led) ----
 const TYPE_MAP = {
   addition:        { op: 'Plusopgaver', qual: { 'image-image': 'med billeder', 'image-number': 'med billeder og tal', 'find-addend': 'med manglende tal', mixed: '' } },
   subtraction:     { op: 'Minusopgaver', qual: { 'cross-out': 'med overstregning', 'image-number': 'med billeder og tal', 'find-subtrahend': 'med manglende tal', mixed: '' } },
   'math-puzzle':   { op: { addition: 'Talpuslespil plus', subtraction: 'Talpuslespil minus', mixed: 'Talpuslespil' }, qual: {} },
+  'math-worksheet':{ op: { 'two-symbols-add-sub': 'Regn med billeder', 'three-symbols-add-sub': 'Regn med billeder (tre led)' }, qual: {} },
   'code-addition': { op: { 'null': 'Regnekode', 'secret-word': 'Hemmeligt ord med regnekode' }, qual: { 'secret-word': 'knæk koden' } },
   'chart-count':   { op: 'Søjlediagram', qual: {} },
   'more-less':     { op: 'Flest og færrest', qual: { 'check-cross': 'sæt kryds', 'image-image': 'med billeder', 'image-number': 'med billeder og tal' } },
@@ -82,6 +85,7 @@ const TYPE_MAP = {
 const META_FLAVOR = {
   addition: 'regn plusstykkerne og skriv svaret', subtraction: 'regn minusstykkerne og skriv svaret',
   'math-puzzle': 'løs talpuslespillet og indsæt det rigtige tal', 'code-addition': 'knæk koden og skriv tallet',
+  'math-worksheet': 'find billedernes værdi og regn stykket ud',
   'chart-count': 'tæl og udfyld søjlediagrammet', 'more-less': 'sammenlign mængderne og vælg flest eller færrest',
   'find-and-count': 'find tingene på billedet og tæl dem', 'big-small': 'sammenlign størrelserne og sortér dem',
   'grid-match': 'sæt billedbrikkerne på den rigtige plads', 'missing-pieces': 'find den brik, der mangler',
@@ -128,6 +132,7 @@ function rangeFor(type, standard, level) {
 // "uden tierovergang": honest only on the within-10 band + direct modes (within-10 sums never carry).
 function noCarryFor(type, mode, range) {
   if (!NUMERIC_TYPES.has(type)) return '';
+  if (NO_CARRY_EXCLUDED_TYPES.has(type)) return '';
   if (range !== 'til 10') return '';
   if (NO_CARRY_EXCLUDED_MODES.has(mode)) return '';
   return 'uden tierovergang';

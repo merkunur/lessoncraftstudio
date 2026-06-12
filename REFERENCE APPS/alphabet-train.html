@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=29"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=30"></script>
   <meta charset="UTF-8" />
   <meta name="robots" content="noindex, nofollow">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -1186,6 +1186,11 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="mode">Mode</button>
             <div class="accordion-content">
+                <label for="worksheetModeSelect" data-translate="worksheetMode">Worksheet Type:</label>
+                <select id="worksheetModeSelect" style="margin-bottom:12px;">
+                  <option value="letter-hint" selected data-translate="worksheetModeLetterHint">Letter Hints (easier)</option>
+                  <option value="standard" data-translate="worksheetModeStandard">Standard</option>
+                </select>
                 <label for="autoCreateCheckbox" class="checkbox-label">
                   <input type="checkbox" id="autoCreateCheckbox">
                   <span data-translate="autoCreateRandom">Auto Create (Random 11 Letters & Images)</span>
@@ -1516,6 +1521,7 @@
     const searchInputEl = document.getElementById('searchInput');
     const dictionaryEl = document.getElementById('dictionary');
     const autoCreateCheckbox = document.getElementById('autoCreateCheckbox');
+    const worksheetModeSelect = document.getElementById('worksheetModeSelect');
     const manualSelectionGroup = document.getElementById('manualSelectionGroup');
     const messageEl = document.getElementById('message');
     const clearBtn = document.getElementById('clearBtn');
@@ -2752,6 +2758,17 @@
       updateGenerateButtonState();
     });
 
+    // Worksheet-type module toggle. 'letter-hint' (default) attaches the
+    // beginning letter to every worksheet image (answer-key style) so young
+    // kids don't need to read the picture names; 'standard' is the original
+    // pictures-only worksheet. Rebuild the worksheet on change if one exists
+    // so the operator sees the effect immediately (mirrors autoCreate above).
+    if (worksheetModeSelect) {
+      worksheetModeSelect.addEventListener('change', () => {
+        if (worksheetGenerated) { handleGenerateWorksheet(); }
+      });
+    }
+
     clearBtn.addEventListener('click', () => {
       autoCreateCheckbox.checked = false; isAutoCreateMode = false;
       manualSelectionGroup.style.display = 'block';
@@ -3378,6 +3395,36 @@
             const trainLeftEdge = trainCenterX - trainBgImg.getScaledWidth() / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2 * 0.7;
+
+            // "Letter Hints" module: when active, attach the beginning letter to
+            // every worksheet image in the same white-badge style used on the
+            // answer-key page (see buildAnswerKeyOnCanvas). These badges are
+            // printable-only — tagged isModeLetterBadge so _captureWorksheetImage
+            // hides them from the interactive backdrop (the deck.html runtime
+            // already draws its own per-piece + clue letters, so baking them
+            // would double the letter). The original 'standard' module renders
+            // pictures only (the child must know the picture name).
+            const letterHintMode = (worksheetModeSelect && worksheetModeSelect.value === 'letter-hint');
+            // Clue badges are collected here and added AFTER the train background
+            // + wagon images (below) so they layer on top, not behind the train.
+            const letterHintClueBadges = [];
+            const makeLetterHintBadge = function (letter, centerX, bottomY) {
+                return new fabric.Text(String(letter), {
+                    left: centerX,
+                    top: bottomY,
+                    originX: 'center', originY: 'bottom',
+                    fontSize: 16,
+                    fill: '#000',
+                    backgroundColor: 'rgba(255,255,255,0.8)',
+                    padding: 2,
+                    shadow: 'rgba(0,0,0,0.3) 1px 1px 2px',
+                    selectable: false,
+                    evented: false,
+                    isTrainGeneratedItem: true,
+                    isModeLetterBadge: true
+                });
+            };
+
             const currentClueCount = Math.max(3, Math.min(parseInt(document.getElementById('clueCount').value, 10), selectedLetters.length));
             let lettersCopyForClues = [...selectedLetters];
             const clues = [];
@@ -3436,6 +3483,20 @@
                     // the train (move/scale/rotate) carry the cargo with them.
                     captureTrainChildOffset(clueFabImg, trainBgImg);
                     masterElements.push(clueFabImg);
+
+                    // Letter Hints module: badge the pre-placed clue image too,
+                    // so every worksheet image mirrors the answer key. Tracks the
+                    // train via captureTrainChildOffset like the cargo above.
+                    if (letterHintMode) {
+                        const clueBadge = makeLetterHintBadge(
+                            letter,
+                            finalLeft + (WAGON_BOX_SIZE_BASE * S_SCALE / 2),
+                            finalTop + (WAGON_BOX_SIZE_BASE * S_SCALE) - 12
+                        );
+                        clueBadge.generationId = 'clueLetterBadge_' + letter;
+                        captureTrainChildOffset(clueBadge, trainBgImg);
+                        letterHintClueBadges.push(clueBadge);
+                    }
                 } else {
                     // Invisible marker rect at the picture-zone size — the
                     // visible dashed rectangle in the train template. Used
@@ -3532,6 +3593,11 @@
                 newGeneratedObjects.push(masterElements[i]);
             }
 
+            // Letter Hints module: add clue letter badges last so they sit on
+            // top of the train background + clue images (they were collected in
+            // the wagon loop above, before trainBgImg was pushed).
+            letterHintClueBadges.forEach(function (b) { newGeneratedObjects.push(b); });
+
 
             const cutoutElements = [];
             // Base cutout size
@@ -3576,6 +3642,19 @@
                     cutoutImagePath: assignedImgData.path
                 });
                 cutoutElements.push(cutFabImg);
+
+                // Letter Hints module: badge each cutout so the child can match
+                // the printed letter to the wagon without knowing the picture
+                // name. The badge joins cutOutsBlockGroup below — already hidden
+                // from the interactive backdrop via isCutoutPalette, so the
+                // deck.html pieces show only their own runtime letter.
+                if (letterHintMode) {
+                    cutoutElements.push(makeLetterHintBadge(
+                        letter,
+                        left_full + (enlargedCutBoxSize / 2),
+                        cutBoxTop_full + enlargedCutBoxSize - 4
+                    ));
+                }
             }
             if (cutoutElements.length > 0) {
                 const cutOutsBlockGroup = new fabric.Group(cutoutElements, { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)', isTrainGeneratedItem: true, originalIndex: 1, isCutoutPalette: true });
@@ -4147,6 +4226,15 @@ async function downloadPDF(canvasToExport, fileName, opts) {
                     hidden.push(o);
                 }
                 if (o && o.isAlphabetCutout === true && o.visible !== false) {
+                    o.visible = false;
+                    hidden.push(o);
+                }
+                // Letter Hints module: printable-only letter badges must NOT
+                // bake into the interactive backdrop — the deck.html runtime
+                // already draws per-piece + clue letters, so a baked badge
+                // would double the letter. They stay visible for the PDF +
+                // on-screen preview (full-canvas render), just not this capture.
+                if (o && o.isModeLetterBadge === true && o.visible !== false) {
                     o.visible = false;
                     hidden.push(o);
                 }
@@ -5175,6 +5263,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         capture('borderThemeSelect', 'border_theme_select');
         capture('letterCount', 'letter_count');
         capture('grayscaleToggle', 'grayscale');
+        capture('worksheetModeSelect', 'worksheet_mode');
         var theme = (typeof themeSelect !== 'undefined' && themeSelect && themeSelect.value && themeSelect.value !== 'all')
             ? themeSelect.value : null;
         return {
@@ -5195,7 +5284,12 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             // [ARC][SEO][DECK-PAGE] Phase 3b Checkpoint 2: pre-build bundle so
             // bundle.seoTrace can thread through metadata.seo_trace into manifest.json.
             var manifestMeta = buildCatalogManifestSettings();
-            var derivedExerciseMode = null;
+            // Letter Hints module → non-null exercise_mode 'letter-hint' (a
+            // distinct slug/title/SEO surface, registered in topics-taxonomy.json
+            // + EMBEDDED_EXERCISE_MODE_NAMES). The original 'standard' module
+            // keeps exercise_mode = null (default-mode-emits-null per §17.8.5),
+            // so already-published alphabet-train decks are unaffected.
+            var derivedExerciseMode = (worksheetModeSelect && worksheetModeSelect.value === 'letter-hint') ? 'letter-hint' : null;
             // Phase 4a Checkpoint 2.5 (θ): hoist exerciseMode for seoMeta discriminator
             var exerciseModeForBundle = derivedExerciseMode;
             var cachedBundle = await extractDeckBundle(worksheetCanvas, { loadingMode: 'inline', exerciseMode: exerciseModeForBundle });

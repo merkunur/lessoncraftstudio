@@ -4396,6 +4396,34 @@
           "fi": "ABC"
         }
       },
+      "letter-hint": {
+        "slug": {
+          "en": "letter-hint",
+          "de": "buchstaben-hilfe",
+          "es": "pista-de-letra",
+          "nl": "letterhint",
+          "it": "indizio-lettera",
+          "fr": "indice-de-lettre",
+          "pt": "dica-de-letra",
+          "sv": "bokstavsledtrad",
+          "da": "bogstavhjaelp",
+          "no": "bokstavhint",
+          "fi": "kirjainvihje"
+        },
+        "name": {
+          "en": "Letter Hints",
+          "de": "Buchstaben-Hilfe",
+          "es": "Pistas de letra",
+          "nl": "Letterhints",
+          "it": "Indizi di lettera",
+          "fr": "Indices de lettres",
+          "pt": "Dicas de letra",
+          "sv": "Bokstavsledtrådar",
+          "da": "Bogstavhjælp",
+          "no": "Bokstavhint",
+          "fi": "Kirjainvihjeet"
+        }
+      },
       "letter": {
         "slug": {
           "en": "letter",

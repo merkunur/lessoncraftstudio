@@ -3602,8 +3602,13 @@
                             cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
                         }
                     );
-                    const lineKey = `line_${i}`;
-                    if(transforms[lineKey]) line.set(transforms[lineKey]);
+                    // Do NOT restore a prior line's transform: a connector line's
+                    // left/top are derived from its endpoints, and in mix mode the
+                    // left item (image+word) width varies per worksheet, so the old
+                    // line's left/top no longer matches the new pair — restoring it
+                    // dragged the line off the items (misaligned on every regen).
+                    // The line is always drawn fresh from the current (transform-
+                    // restored) item positions, so it tracks its pair.
                     canvas.add(line);
                 }
                 

@@ -103829,6 +103829,2511 @@
       ],
       "title": "Arbetsblad Prepositioner flerval – Djurparksdjur | skriva ut PDF gratis",
       "metaDescription": "Prepositioner flerval – Djurparksdjur. Välj rätt preposition. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-tillbehor-0bee",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "accessories",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Tillbehör",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Vante",
+        "Öronvärmare",
+        "Märke",
+        "Hatt",
+        "Halsband",
+        "Cape",
+        "Tillbehör",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Tillbehör bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger vantar för sig och öronvärmare för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När vantar, öronvärmare och märken står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 2 vantar, 2 öronvärmare, 1 märke, 5 hattar, 5 halsband och 5 capes. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Tillbehör går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med hattar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-tillbehor-0bee",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många vantar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många öronvärmare finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många märken finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många hattar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många halsband finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många capes finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Tillbehör | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Tillbehör. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-djur",
+      "variantShape": "collapsed",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "animals",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Djur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Fisk",
+        "Räv",
+        "Leopard",
+        "Tvättbjörn",
+        "Pingvin",
+        "Kamel",
+        "Djur",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Djur får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – fiskar, rävar, leoparder och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera fiskar och rävar efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 3 fiskar, 4 rävar, 3 leoparder, 3 tvättbjörnar, 2 pingviner och 5 kameler. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Djur för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med kameler är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-djur",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många fiskar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många rävar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många leoparder finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många tvättbjörnar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många pingviner finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många kameler finns det?",
+          "a": "5"
+        }
+      ],
+      "collapseSiblings": [
+        "rakna-i-diagram-djur",
+        "rakna-i-diagram-djur-c093"
+      ],
+      "title": "Arbetsblad Bilddiagram – Djur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Djur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-runt-huset-d246",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Runt huset",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Soptunna",
+        "Tandborste",
+        "Klocka",
+        "Strömbrytare",
+        "Staket",
+        "Sked",
+        "Runt huset",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Runt huset tittar ditt barn på bilderna, lägger de likadana tillsammans – soptunnor med soptunnor, tandborstar med tandborstar – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som klockor ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 soptunnor, 3 tandborstar, 4 klockor, 1 strömbrytare, 5 staket och 3 skedar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Runt huset för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske staket?",
+      "canonicalDeckSlug": "rakna-i-diagram-runt-huset-d246",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många soptunnor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många tandborstar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många klockor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många strömbrytare finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många staket finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många skedar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Runt huset | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Runt huset. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-i-snabbkopet-0078",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: I snabbköpet",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Melon",
+        "Påse",
+        "Muffin",
+        "Blåbär",
+        "Broccoli",
+        "Bacon",
+        "I snabbköpet",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med I snabbköpet ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – meloner, påsar, muffins och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 5 meloner, 3 påsar, 2 muffins, 2 blåbär, 3 broccoli och 5 bacon. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med I snabbköpet finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med meloner den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-i-snabbkopet-0078",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många meloner finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många påsar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många muffins finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många blåbär finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många broccoli finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många bacon finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – I snabbköpet | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – I snabbköpet. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-bageri-4532",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "bakery",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Bageri",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Munk",
+        "Muffin",
+        "Cupcake",
+        "Eclair",
+        "Våffla",
+        "Cheesecake",
+        "Bageri",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Bageri bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger munkar för sig och muffins för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När munkar, muffins och cupcakes står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 1 munk, 5 muffins, 5 cupcakes, 0 eclairer, 4 våfflor och 5 cheesecakes. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Bageri går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med muffins, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-bageri-4532",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många munkar finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många muffins finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många cupcakes finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många eclairer finns det?",
+          "a": "0"
+        },
+        {
+          "q": "Hur många våfflor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många cheesecakes finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Bageri | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Bageri. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-strand-d835",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "beach",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Strand",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Snäcka",
+        "Vatten",
+        "Våg",
+        "Klippa",
+        "Hink",
+        "Baddräkt",
+        "Strand",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Strand får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – snäckor, vatten, vågar och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera snäckor och vatten efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 4 snäckor, 4 vatten, 2 vågar, 5 klippor, 3 hinkar och 2 baddräkter. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Strand för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med klippor är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-strand-d835",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många snäckor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många vatten finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många vågar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många klippor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många hinkar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många baddräkter finns det?",
+          "a": "2"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Strand | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Strand. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-faglar-dcbc",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Fåglar",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Tukan",
+        "Pingvin",
+        "Gam",
+        "Påfågel",
+        "Ara",
+        "Näshornsfågel",
+        "Fåglar",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Fåglar tittar ditt barn på bilderna, lägger de likadana tillsammans – tukaner med tukaner, pingviner med pingviner – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som gamar ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 tukaner, 1 pingvin, 3 gamar, 2 påfåglar, 5 aror och 5 näshornsfåglar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Fåglar för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske aror?",
+      "canonicalDeckSlug": "rakna-i-diagram-faglar-dcbc",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många tukaner finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många pingviner finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många gamar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många påfåglar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många aror finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många näshornsfåglar finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Fåglar | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Fåglar. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-faglar-2-3d5b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Fåglar 2",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Svan",
+        "Häger",
+        "Flamingo",
+        "Kolibri",
+        "Rödhake",
+        "Ara",
+        "Fåglar 2",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Fåglar 2 ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – svanar, hägrar, flamingor och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 3 svanar, 5 hägrar, 3 flamingor, 2 kolibrier, 4 rödhakar och 3 aror. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Fåglar 2 finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med hägrar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-faglar-2-3d5b",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många svanar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många hägrar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många flamingor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många kolibrier finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många rödhakar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många aror finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Fåglar 2 | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Fåglar 2. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-frukost-2f6f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Frukost",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Gröt",
+        "Hallon",
+        "Flingor",
+        "Muffin",
+        "Smör",
+        "Ost",
+        "Frukost",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Frukost bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger gröt för sig och hallon för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När gröt, hallon och flingor står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 1 gröt, 5 hallon, 5 flingor, 2 muffins, 3 smör och 4 ostar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Frukost går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med hallon, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-frukost-2f6f",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många gröt finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många hallon finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många flingor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många muffins finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många smör finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ostar finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Frukost | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Frukost. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-camping-5b9d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "camping",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Camping",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Eldfluga",
+        "Kompass",
+        "Stock",
+        "Stuga",
+        "Ficklampa",
+        "Hatt",
+        "Camping",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Camping får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – eldflugor, kompasser, stockar och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera eldflugor och kompasser efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 3 eldflugor, 2 kompasser, 4 stockar, 3 stugor, 5 ficklampor och 3 hattar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Camping för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med ficklampor är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-camping-5b9d",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många eldflugor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många kompasser finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många stockar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många stugor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ficklampor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många hattar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Camping | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Camping. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-jul-34b2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "christmas",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Jul",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Ängel",
+        "Present",
+        "Julkula",
+        "Mistel",
+        "Girlang",
+        "Träd",
+        "Jul",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Jul tittar ditt barn på bilderna, lägger de likadana tillsammans – änglar med änglar, presenter med presenter – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som julkulor ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 3 änglar, 4 presenter, 3 julkulor, 2 mistlar, 5 girlangar och 3 träd. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Jul för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske girlangar?",
+      "canonicalDeckSlug": "rakna-i-diagram-jul-34b2",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många änglar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många presenter finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många julkulor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många mistlar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många girlangar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många träd finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Jul | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Jul. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-klassrum-dc2d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "classroom",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Klassrum",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Klocka",
+        "Tuschpenna",
+        "Elev",
+        "Tejp",
+        "Papper",
+        "Häftapparat",
+        "Klassrum",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Klassrum ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – klockor, tuschpennor, elever och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 5 klockor, 3 tuschpennor, 1 elev, 4 tejpar, 4 papper och 3 häftapparater. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Klassrum finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med klockor den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-klassrum-dc2d",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många klockor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många tuschpennor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många elever finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många tejpar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många papper finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många häftapparater finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Klassrum | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Klassrum. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-klader-7eea",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "clothing",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Kläder",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Kappa",
+        "Tröja",
+        "Pyjamas",
+        "Huvtröja",
+        "Mossa",
+        "Stövlar",
+        "Kläder",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Kläder bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger kappor för sig och tröjor för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När kappor, tröjor och pyjamasar står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 kappor, 1 tröja, 4 pyjamasar, 5 huvtröjor, 4 mossor och 2 stövlar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Kläder går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med huvtröjor, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-klader-7eea",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många kappor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många tröjor finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många pyjamasar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många huvtröjor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många mossor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många stövlar finns det?",
+          "a": "2"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Kläder | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Kläder. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-farger-2fa0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "colors",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Färger",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Karmosinröd",
+        "Röd",
+        "Persika",
+        "Brun",
+        "Lime",
+        "Apelsin",
+        "Färger",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Färger får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – karmosinröd, röd, persikor och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera karmosinröd och röd efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 1 karmosinröd, 3 röd, 3 persikor, 3 brun, 5 limar och 5 apelsiner. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Färger för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med limar är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-farger-2fa0",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många karmosinröd finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många röd finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många persikor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många brun finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många limar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många apelsiner finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Färger | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Färger. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-efterratter-och-godis-166f",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Efterrätter och godis",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Paj",
+        "Kaka",
+        "Muffin",
+        "Pepparkaksgubbe",
+        "Pudding",
+        "Brownie",
+        "Efterrätter och godis",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Efterrätter och godis tittar ditt barn på bilderna, lägger de likadana tillsammans – pajar med pajar, kakor med kakor – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som muffins ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 pajar, 4 kakor, 5 muffins, 0 pepparkaksgubbar, 2 puddingar och 5 brownies. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Efterrätter och godis för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske muffins?",
+      "canonicalDeckSlug": "rakna-i-diagram-efterratter-och-godis-166f",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många pajar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många kakor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många muffins finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många pepparkaksgubbar finns det?",
+          "a": "0"
+        },
+        {
+          "q": "Hur många puddingar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många brownies finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Efterrätter och godis | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Efterrätter och godis. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-dinosaurier-43ad",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Dinosaurier",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Tyrannosaurus rex",
+        "Pachycephalosaurus",
+        "Therizinosaurus",
+        "Giganotosaurus",
+        "Styracosaurus",
+        "Ankylosaurus",
+        "Dinosaurier",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Dinosaurier ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – Tyrannosaurus rex, pachycephalosaurusar, therizinosaurusar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 5 Tyrannosaurus rex, 2 pachycephalosaurusar, 3 therizinosaurusar, 4 giganotosaurusar, 3 styracosaurusar och 3 ankylosaurusar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Dinosaurier finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med Tyrannosaurus rex den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-dinosaurier-43ad",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många Tyrannosaurus rex finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många pachycephalosaurusar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många therizinosaurusar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många giganotosaurusar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många styracosaurusar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ankylosaurusar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Dinosaurier | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Dinosaurier. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-pask-b069",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "easter",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Påsk",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Korg",
+        "Fjäder",
+        "Fjäril",
+        "Lamm",
+        "Band",
+        "Ankunge",
+        "Påsk",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Påsk bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger korgar för sig och fjädrar för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När korgar, fjädrar och fjärilar står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 5 korgar, 3 fjädrar, 2 fjärilar, 3 lamm, 2 band och 5 ankungar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Påsk går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med korgar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-pask-b069",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många korgar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många fjädrar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många fjärilar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många lamm finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många band finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många ankungar finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Påsk | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Påsk. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-bondgardsdjur-abb4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "farm_animals",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Bondgårdsdjur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Lamm",
+        "Anka",
+        "Uggla",
+        "Katt",
+        "Tupp",
+        "Kalv",
+        "Bondgårdsdjur",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Bondgårdsdjur får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – lamm, ankor, ugglor och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera lamm och ankor efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 3 lamm, 2 ankor, 3 ugglor, 4 katter, 5 tuppar och 3 kalvar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Bondgårdsdjur för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med tuppar är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-bondgardsdjur-abb4",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många lamm finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ankor finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många ugglor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många katter finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många tuppar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många kalvar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Bondgårdsdjur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Bondgårdsdjur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-blommor-56ce",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "flowers",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Blommor",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Påsklilja",
+        "Violett",
+        "Förgätmigej",
+        "Näckros",
+        "Blåklint",
+        "Snödroppe",
+        "Blommor",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Blommor tittar ditt barn på bilderna, lägger de likadana tillsammans – påskliljor med påskliljor, violer med violer – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som förgätmigejar ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 5 påskliljor, 3 violer, 2 förgätmigejar, 4 näckrosar, 2 blåklintar och 4 snödroppar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Blommor för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske påskliljor?",
+      "canonicalDeckSlug": "rakna-i-diagram-blommor-56ce",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många påskliljor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många violer finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många förgätmigejar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många näckrosar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många blåklintar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många snödroppar finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Blommor | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Blommor. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-skogsdjur-0ff2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Skogsdjur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Uggla",
+        "Spindel",
+        "Varg",
+        "Hök",
+        "Snigel",
+        "Eldfluga",
+        "Skogsdjur",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Skogsdjur ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – ugglor, spindlar, vargar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 3 ugglor, 3 spindlar, 2 vargar, 5 hökar, 2 sniglar och 5 eldflugor. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Skogsdjur finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med hökar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-skogsdjur-0ff2",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många ugglor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många spindlar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många vargar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många hökar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många sniglar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många eldflugor finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Skogsdjur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Skogsdjur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-frukter-0f34",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "fruits",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Frukter",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Vattenmelon",
+        "Tranbär",
+        "Aprikos",
+        "Ananas",
+        "Drakfrukt",
+        "Mango",
+        "Frukter",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Frukter bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger vattenmeloner för sig och tranbär för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När vattenmeloner, tranbär och aprikoser står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 5 vattenmeloner, 3 tranbär, 3 aprikoser, 3 ananaser, 4 drakfrukter och 2 mangor. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Frukter går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med vattenmeloner, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-frukter-0f34",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många vattenmeloner finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många tranbär finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många aprikoser finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ananaser finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många drakfrukter finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många mangor finns det?",
+          "a": "2"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Frukter | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Frukter. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-mobler-5129",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "furniture",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Möbler",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Hylla",
+        "Fåtölj",
+        "Gardin",
+        "Fotpall",
+        "Byrå",
+        "Spegel",
+        "Möbler",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Möbler får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – hyllor, fåtöljar, gardiner och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera hyllor och fåtöljar efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 1 hylla, 4 fåtöljar, 5 gardiner, 4 fotpallar, 3 byråer och 3 speglar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Möbler för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med gardiner är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-mobler-5129",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många hyllor finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många fåtöljar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många gardiner finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många fotpallar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många byråer finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många speglar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Möbler | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Möbler. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-sjukhus-5651",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "hospital",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Sjukhus",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Medicin",
+        "Spruta",
+        "Sjukhussäng",
+        "Bandage",
+        "Sjukhusarmband",
+        "Kryckor",
+        "Sjukhus",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Sjukhus tittar ditt barn på bilderna, lägger de likadana tillsammans – mediciner med mediciner, sprutor med sprutor – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som sjukhussängar ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 2 mediciner, 5 sprutor, 3 sjukhussängar, 4 bandage, 3 sjukhusarmband och 3 kryckor. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Sjukhus för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske sprutor?",
+      "canonicalDeckSlug": "rakna-i-diagram-sjukhus-5651",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många mediciner finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många sprutor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många sjukhussängar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många bandage finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många sjukhusarmband finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många kryckor finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Sjukhus | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Sjukhus. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-insekter-och-kryp-25d3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Insekter och kryp",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Tusenfoting",
+        "Myra",
+        "Larv",
+        "Spindel",
+        "Trollslända",
+        "Snigel",
+        "Insekter och kryp",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Insekter och kryp ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – tusenfotingar, myror, larvar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 3 tusenfotingar, 3 myror, 5 larvar, 5 spindlar, 0 trollsländor och 4 sniglar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Insekter och kryp finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med larvar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-insekter-och-kryp-25d3",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många tusenfotingar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många myror finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många larvar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många spindlar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många trollsländor finns det?",
+          "a": "0"
+        },
+        {
+          "q": "Hur många sniglar finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Insekter och kryp | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Insekter och kryp. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-koksredskap-d75b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Köksredskap",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Köksvåg",
+        "Bakplåt",
+        "Mugg",
+        "Pepparkaksform",
+        "Sked",
+        "Stekpanna",
+        "Köksredskap",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Köksredskap bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger köksvågar för sig och bakplåtar för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När köksvågar, bakplåtar och muggar står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 3 köksvågar, 4 bakplåtar, 2 muggar, 5 pepparkaksformar, 3 skedar och 3 stekpannor. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Köksredskap går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med pepparkaksformar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-koksredskap-d75b",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många köksvågar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många bakplåtar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många muggar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många pepparkaksformar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många skedar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många stekpannor finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Köksredskap | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Köksredskap. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-musik-8f73",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "music",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Musik",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cymbal",
+        "Sångare",
+        "Trumma",
+        "Fiol",
+        "Trombon",
+        "Xylofon",
+        "Musik",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Musik får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – cymbaler, sångare, trummor och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera cymbaler och sångare efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 1 cymbal, 3 sångare, 5 trummor, 5 fioler, 2 tromboner och 4 xylofoner. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Musik för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med trummor är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-musik-8f73",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många cymbaler finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många sångare finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många trummor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många fioler finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många tromboner finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många xylofoner finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Musik | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Musik. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-yrken-ade4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "occupations",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Yrken",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Fotograf",
+        "Kontorsarbetare",
+        "Kassör",
+        "Ambulanssjukvårdare",
+        "Skräddare",
+        "Atlet",
+        "Yrken",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Yrken tittar ditt barn på bilderna, lägger de likadana tillsammans – fotografer med fotografer, kontorsarbetare med kontorsarbetare – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som kassörer ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 fotografer, 2 kontorsarbetare, 4 kassörer, 4 ambulanssjukvårdare, 3 skräddare och 3 atleter. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Yrken för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske fotografer?",
+      "canonicalDeckSlug": "rakna-i-diagram-yrken-ade4",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många fotografer finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många kontorsarbetare finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många kassörer finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många ambulanssjukvårdare finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många skräddare finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många atleter finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Yrken | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Yrken. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-havsliv-eb50",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Havsliv",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Blåsfisk",
+        "Ängelfisk",
+        "Manet",
+        "Sjöstjärna",
+        "Krabba",
+        "Ostron",
+        "Havsliv",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Havsliv ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – blåsfiskar, ängelfiskar, manetar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 3 blåsfiskar, 5 ängelfiskar, 5 manetar, 1 sjöstjärna, 3 krabbor och 3 ostron. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Havsliv finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med ängelfiskar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-havsliv-eb50",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många blåsfiskar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ängelfiskar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många manetar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många sjöstjärnor finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många krabbor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många ostron finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Havsliv | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Havsliv. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-husdjur-8990",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "pets",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Husdjur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Leguan",
+        "Groda",
+        "Gecko",
+        "Nymfparakit",
+        "Guldfisk",
+        "Katt",
+        "Husdjur",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Husdjur bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger leguaner för sig och grodor för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När leguaner, grodor och geckos står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 2 leguaner, 2 grodor, 2 geckos, 4 nymfparakiter, 5 guldfiskar och 5 katter. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Husdjur går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med guldfiskar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-husdjur-8990",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många leguaner finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många grodor finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många geckos finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många nymfparakiter finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många guldfiskar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många katter finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Husdjur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Husdjur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-postkontor-f835",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "post_office",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Postkontor",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Brev",
+        "Frimärke",
+        "Brevbärare",
+        "Postkontor",
+        "Postbil",
+        "Paket",
+        "Postkontor",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Postkontor får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – brev, frimärken, brevbärare och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera brev och frimärken efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 4 brev, 2 frimärken, 3 brevbärare, 5 postkontor, 4 postbilar och 2 paket. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Postkontor för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med postkontor är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-postkontor-f835",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många brev finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många frimärken finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många brevbärare finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många postkontor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många postbilar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många paket finns det?",
+          "a": "2"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Postkontor | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Postkontor. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-reptiler-och-groddjur-60e4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Reptiler och groddjur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Salamander",
+        "Sköldpadda",
+        "Gecko",
+        "Landsköldpadda",
+        "Groda",
+        "Kameleont",
+        "Reptiler och groddjur",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Reptiler och groddjur tittar ditt barn på bilderna, lägger de likadana tillsammans – salamandrar med salamandrar, sköldpaddor med sköldpaddor – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som geckos ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 2 salamandrar, 2 sköldpaddor, 3 geckos, 5 landsköldpaddor, 3 grodor och 5 kameleonter. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Reptiler och groddjur för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske landsköldpaddor?",
+      "canonicalDeckSlug": "rakna-i-diagram-reptiler-och-groddjur-60e4",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många salamandrar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många sköldpaddor finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många geckos finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många landsköldpaddor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många grodor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många kameleonter finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Reptiler och groddjur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Reptiler och groddjur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-former-bd2c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "shapes",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Former",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Rätblock",
+        "Åttahörning",
+        "Trapets",
+        "Parallellogram",
+        "Pyramid",
+        "Oval",
+        "Former",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Former ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – rätblock, åttahörningar, trapetsar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 3 rätblock, 2 åttahörningar, 5 trapetsar, 3 parallellogram, 2 pyramider och 5 ovalar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Former finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med trapetsar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-former-bd2c",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många rätblock finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många åttahörningar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många trapetsar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många parallellogram finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många pyramider finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många ovalar finns det?",
+          "a": "5"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Former | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Former. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-rymden-39e3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "space",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Rymden",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Saturnus",
+        "Venus",
+        "Asteroid",
+        "Måne",
+        "Mars",
+        "Komet",
+        "Rymden",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Rymden bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger saturnus för sig och venus för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När saturnus, venus och asteroider står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 1 saturnus, 5 venus, 1 asteroid, 5 månar, 4 mars och 4 kometer. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Rymden går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med venus, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-rymden-39e3",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många saturnus finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många venus finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många asteroider finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många månar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många mars finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många kometer finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Rymden | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Rymden. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-thanksgiving-f73c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Thanksgiving",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Uramerikan",
+        "Skörd",
+        "Pumpa",
+        "Höstträd",
+        "Paj",
+        "Kalkon",
+        "Thanksgiving",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Thanksgiving får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – uramerikaner, skördar, pumpor och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera uramerikaner och skördar efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 2 uramerikaner, 5 skördar, 3 pumpor, 2 höstträd, 4 pajar och 4 kalkoner. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Thanksgiving för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med skördar är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-thanksgiving-f73c",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många uramerikaner finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många skördar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många pumpor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många höstträd finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många pajar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många kalkoner finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Thanksgiving | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Thanksgiving. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-saker-som-flyger-d07c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Saker som flyger",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Pelikan",
+        "Eldfluga",
+        "Kolibri",
+        "Mygga",
+        "Gräshoppa",
+        "Skalbagge",
+        "Saker som flyger",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Saker som flyger tittar ditt barn på bilderna, lägger de likadana tillsammans – pelikaner med pelikaner, eldflugor med eldflugor – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som kolibrier ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 pelikaner, 1 eldfluga, 5 kolibrier, 2 myggor, 5 gräshoppor och 3 skalbaggar. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Saker som flyger för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske kolibrier?",
+      "canonicalDeckSlug": "rakna-i-diagram-saker-som-flyger-d07c",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många pelikaner finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många eldflugor finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många kolibrier finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många myggor finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många gräshoppor finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många skalbaggar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Saker som flyger | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Saker som flyger. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-verktyg-4ea7",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tools",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Verktyg",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Förlängningssladd",
+        "Bult",
+        "Tång",
+        "Skruvmejsel",
+        "Måttband",
+        "Borrmaskin",
+        "Verktyg",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Verktyg ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – förlängningssladdar, bultar, tänger och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 5 förlängningssladdar, 2 bultar, 1 tång, 4 skruvmejslar, 5 måttband och 3 borrmaskiner. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Verktyg finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med förlängningssladdar den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-verktyg-4ea7",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många förlängningssladdar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många bultar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många tänger finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många skruvmejslar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många måttband finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många borrmaskiner finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Verktyg | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Verktyg. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-leksaker-025e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "toys",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Leksaker",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Boll",
+        "Docka",
+        "Nallebjörn",
+        "Båt",
+        "Spade",
+        "Skateboard",
+        "Leksaker",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Leksaker bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger bollar för sig och dockor för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När bollar, dockor och nallebjörnar står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 5 bollar, 3 dockor, 2 nallebjörnar, 3 båtar, 3 spadar och 4 skateboards. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Leksaker går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med bollar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-leksaker-025e",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många bollar finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många dockor finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många nallebjörnar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många båtar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många spadar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många skateboards finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Leksaker | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Leksaker. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-trad-ad00",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tree",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Träd",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Palm",
+        "Gran",
+        "Ek",
+        "Ceder",
+        "Valnötsträd",
+        "Lönn",
+        "Träd",
+        "Förskola till åk 1"
+      ],
+      "p1": "Med den här räkneuppgiften i Träd får ditt barn svara på frågan «hur många finns det?». Bladet blandar flera olika bilder – palmer, granar, ekar och fler – och uppgiften är att samla ihop de likadana, räkna varje grupp och färga en stapel ruta för ruta tills ett piktogram är klart. Det är en första bekantskap med att organisera data: att sortera palmer och granar efter sort, räkna hur många det blir och jämföra vilken grupp som är flest. Ditt barn pekar på varje bild medan det räknar, helt utan tidspress och utan poäng att jaga.",
+      "p2": "Här räknar ditt barn 3 palmer, 2 granar, 3 ekar, 4 cedrar, 5 valnötsträd och 3 lönnar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Du kan ladda ner PDF:en med Träd för att skriva ut, eller spela den interaktiva versionen online – gratis och utan konto. Ingen klocka och inga poäng: varje barn går fram i sin egen takt, med värme och utan press. Aktiviteten knyter an till Lgr22 inom området Sannolikhet och statistik (matematik) och är tänkt för förskola till årskurs 1, ungefär 5–7 år. När ditt barn har räknat klart är det fint att jämföra staplarna och se om kolumnen med valnötsträd är den högsta.",
+      "canonicalDeckSlug": "rakna-i-diagram-trad-ad00",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många palmer finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många granar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många ekar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många cedrar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många valnötsträd finns det?",
+          "a": "5"
+        },
+        {
+          "q": "Hur många lönnar finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Träd | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Träd. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-gronsaker-3bcd",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Grönsaker",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Morot",
+        "Spenat",
+        "Vitlök",
+        "Pumpa",
+        "Lök",
+        "Rova",
+        "Grönsaker",
+        "Förskola till åk 1"
+      ],
+      "p1": "I den här aktiviteten med Grönsaker tittar ditt barn på bilderna, lägger de likadana tillsammans – morötter med morötter, spenat med spenat – räknar hur många det finns av varje och färgar de rutor som hör till. När bladet är klart bildar kolumner som vitlökar ett piktogram som går att läsa med en enda blick. Uppgiften övar räknandet och klassificeringen på ett påtagligt och visuellt sätt, lugnt och tryggt. Ditt barn får ta all den tid det behöver, för det finns ingen klocka och inga stjärnor här, bara glädjen i att se mängderna växa fram.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 morötter, 4 spenat, 2 vitlökar, 4 pumpor, 3 lökar och 3 rovor. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Helt gratis: skriv ut bladet med Grönsaker för att arbeta på papper, eller spela det online utan att behöva registrera dig. Det finns inga tidtagarur och inga poäng; att granska och räkna en gång till är också att lära sig. Bladet knyter an till Lgr22, området Sannolikhet och statistik (matematik), och passar barn i förskola till årskurs 1, i åldern 5–7 år. Nästa steg är att jämföra vilken kategori som har flest bilder – är det kanske morötter?",
+      "canonicalDeckSlug": "rakna-i-diagram-gronsaker-3bcd",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många morötter finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många spenat finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många vitlökar finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många pumpor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många lökar finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många rovor finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Grönsaker | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Grönsaker. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-fordon-121a",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Fordon",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Grävmaskin",
+        "Färja",
+        "Buss",
+        "Jeep",
+        "Ambulans",
+        "Bärgningsbil",
+        "Fordon",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här räkne- och diagrambladet med Fordon ger ditt barn en tydlig uppgift: att klassificera bilderna efter sort – grävmaskiner, färjor, bussar och fler – räkna hur många det finns av varje slag och färga en ruta per bild tills varje stapel reser sig. Så lär sig ditt barn att ordna data och jämföra mängder, och ser direkt vilken grupp som har flest och vilken som har minst. Allt håller sig inom talområdet 0–10, så uppgiften förblir överskådlig. Du kan sitta bredvid, räkna med och peka tillsammans, helt utan press och utan bedömning.",
+      "p2": "Här räknar ditt barn 4 grävmaskiner, 4 färjor, 1 buss, 4 jeepar, 3 ambulanser och 4 bärgningsbilar. Varje grupp får sin egen kolumn, så när bladet är klart syns det direkt vilken kategori som blev högst och vilken som blev lägst. Att räkna och samtidigt peka på varje bild gör att ditt barn inte hoppar över någon och kan granska svaret i lugn och ro.",
+      "p3": "Det här diagrammet med Fordon finns gratis att skriva ut som PDF eller spela online, utan registrering. Inga klockor och inga poäng: ditt barn sätter takten själv, i en vänlig ton. Bladet knyter an till Lgr22, inom området Sannolikhet och statistik (matematik), och passar fint för förskola till årskurs 1, ungefär 5–7 år. Till sist kan ni jämföra kolumnerna – är stapeln med grävmaskiner den högsta? – och så befäster ni läsningen av piktogrammet tillsammans.",
+      "canonicalDeckSlug": "rakna-i-diagram-fordon-121a",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många grävmaskiner finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många färjor finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många bussar finns det?",
+          "a": "1"
+        },
+        {
+          "q": "Hur många jeepar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många ambulanser finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många bärgningsbilar finns det?",
+          "a": "4"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Fordon | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Fordon. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
+    },
+    {
+      "slug": "rakna-i-diagram-djurparksdjur-23d2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "ak-1"
+      },
+      "levels": [
+        "forskola",
+        "ak-1"
+      ],
+      "eyebrow": "Arbetsblad: Räkna i diagram",
+      "h1": "Räkna och fyll i diagrammet: Djurparksdjur",
+      "strand": "Sannolikhet och statistik",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Noshörning",
+        "Lejon",
+        "Fladdermus",
+        "Orangutang",
+        "Kamel",
+        "Giraff",
+        "Djurparksdjur",
+        "Förskola till åk 1"
+      ],
+      "p1": "Det här arbetsbladet med temat Djurparksdjur bjuder in ditt barn att räkna och ordna data på ett konkret sätt. Först sorterar barnet bilderna i grupper – det lägger noshörningar för sig och lejon för sig – och räknar sedan hur många det finns av varje slag. För varje bild färgar ditt barn en ruta i rätt kolumn, och så växer ett diagram eller piktogram fram steg för steg. När noshörningar, lejon och fladdermöss står i var sin stapel ser ditt barn genast vilken grupp som är störst. På så vis övar barnet en grundläggande matematisk tanke: att klassificera efter kategori, räkna och jämföra mängder, allt inom talområdet 0–10 och i sin egen lugna takt.",
+      "p2": "I det här arbetsbladet räknar ditt barn 4 noshörningar, 2 lejon, 3 fladdermöss, 4 orangutangar, 4 kameler och 3 giraffer. När det färgar en ruta för varje bild visar den högsta kolumnen med en enda blick vilken grupp som har flest och vilken som har minst. Att peka med fingret på varje bild medan man räknar hjälper ditt barn att inte tappa räkningen och att kontrollera svaret.",
+      "p3": "Bladet med Djurparksdjur går att skriva ut som PDF för att arbeta på papper, eller att spela direkt på skärmen – alltid gratis och utan att registrera sig. Det finns inga tidtagarur och inga poäng: ditt barn bestämmer takten själv, utan skam över att räkna fel, för att räkna om en stapel – titta en gång till på kolumnen med noshörningar, till exempel – är en del av att lära sig. Aktiviteten knyter an till Lgr22 och området Sannolikhet och statistik inom matematiken, och passar fint för förskola till årskurs 1, ungefär 5–7 år. Som ett nästa steg kan ni jämföra kolumnerna och se vilken som är högst.",
+      "canonicalDeckSlug": "rakna-i-diagram-djurparksdjur-23d2",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Hur många noshörningar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många lejon finns det?",
+          "a": "2"
+        },
+        {
+          "q": "Hur många fladdermöss finns det?",
+          "a": "3"
+        },
+        {
+          "q": "Hur många orangutangar finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många kameler finns det?",
+          "a": "4"
+        },
+        {
+          "q": "Hur många giraffer finns det?",
+          "a": "3"
+        }
+      ],
+      "title": "Arbetsblad Bilddiagram – Djurparksdjur | skriva ut PDF gratis",
+      "metaDescription": "Bilddiagram – Djurparksdjur. Räkna och färglägg diagrammet. Gratis arbetsblad att skriva ut (PDF)."
     }
   ]
 }

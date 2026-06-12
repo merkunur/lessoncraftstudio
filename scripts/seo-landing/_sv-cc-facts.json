@@ -1,0 +1,2208 @@
+[
+  {
+    "slug": "rakna-i-diagram-4-juli-ad2c",
+    "themeKey": "4th_of_july",
+    "siblings": [
+      "rakna-i-diagram-4-juli-ad2c"
+    ],
+    "categories": [
+      {
+        "nounKey": "flag",
+        "svName": "Flagga",
+        "count": 3,
+        "plural": "Flaggor"
+      },
+      {
+        "nounKey": "balloon",
+        "svName": "Ballong",
+        "count": 2,
+        "plural": "Ballongar"
+      },
+      {
+        "nounKey": "liberty",
+        "svName": "Frihet",
+        "count": 3,
+        "plural": "Friheter"
+      },
+      {
+        "nounKey": "hotdog",
+        "svName": "Korv med Bröd",
+        "count": 4,
+        "plural": null
+      },
+      {
+        "nounKey": "hamburger",
+        "svName": "Hamburgare",
+        "count": 3,
+        "plural": "Hamburgare"
+      },
+      {
+        "nounKey": "grill",
+        "svName": "Grill",
+        "count": 5,
+        "plural": "Grillar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-tillbehor-0bee",
+    "themeKey": "accessories",
+    "siblings": [
+      "rakna-i-diagram-tillbehor-0bee"
+    ],
+    "categories": [
+      {
+        "nounKey": "mitten",
+        "svName": "Vante",
+        "count": 2,
+        "plural": "Vantar"
+      },
+      {
+        "nounKey": "earmuffs",
+        "svName": "Öronvärmare",
+        "count": 2,
+        "plural": "Öronvärmare"
+      },
+      {
+        "nounKey": "badge",
+        "svName": "Märke",
+        "count": 1,
+        "plural": "Märken"
+      },
+      {
+        "nounKey": "hat",
+        "svName": "Hatt",
+        "count": 5,
+        "plural": "Hattar"
+      },
+      {
+        "nounKey": "necklace",
+        "svName": "Halsband",
+        "count": 5,
+        "plural": "Halsband"
+      },
+      {
+        "nounKey": "cape",
+        "svName": "Kapa",
+        "count": 5,
+        "plural": "Kapor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-aktiviteter-4f38",
+    "themeKey": "activities",
+    "siblings": [
+      "rakna-i-diagram-aktiviteter-4f38"
+    ],
+    "categories": [
+      {
+        "nounKey": "guitar",
+        "svName": "Gitarr",
+        "count": 2,
+        "plural": "Gitarrar"
+      },
+      {
+        "nounKey": "football",
+        "svName": "Amerikansk fotboll",
+        "count": 4,
+        "plural": "Amerikansk fotboll"
+      },
+      {
+        "nounKey": "gymnastics",
+        "svName": "Gymnastik",
+        "count": 5,
+        "plural": "Gymnastik"
+      },
+      {
+        "nounKey": "tennis",
+        "svName": "Tennis",
+        "count": 3,
+        "plural": "Tennis"
+      },
+      {
+        "nounKey": "running",
+        "svName": "Springa",
+        "count": 3,
+        "plural": "Springa"
+      },
+      {
+        "nounKey": "dancing",
+        "svName": "Dansa",
+        "count": 3,
+        "plural": "Dansa"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-djur",
+    "themeKey": "animals",
+    "siblings": [
+      "rakna-i-diagram-djur",
+      "rakna-i-diagram-djur-c093"
+    ],
+    "categories": [
+      {
+        "nounKey": "fish",
+        "svName": "Fisk",
+        "count": 3,
+        "plural": "Fiskar"
+      },
+      {
+        "nounKey": "fox",
+        "svName": "Räv",
+        "count": 4,
+        "plural": "Rävar"
+      },
+      {
+        "nounKey": "leopard",
+        "svName": "Leopard",
+        "count": 3,
+        "plural": "Leoparder"
+      },
+      {
+        "nounKey": "raccoon",
+        "svName": "Tvättbjörn",
+        "count": 3,
+        "plural": "Tvättbjörnar"
+      },
+      {
+        "nounKey": "penguin",
+        "svName": "Pingvin",
+        "count": 2,
+        "plural": "Pingviner"
+      },
+      {
+        "nounKey": "camel",
+        "svName": "Kamel",
+        "count": 5,
+        "plural": "Kameler"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-runt-huset-d246",
+    "themeKey": "around_the_house",
+    "siblings": [
+      "rakna-i-diagram-runt-huset-d246"
+    ],
+    "categories": [
+      {
+        "nounKey": "trash-can",
+        "svName": "Soptunna",
+        "count": 4,
+        "plural": "Soptunnor"
+      },
+      {
+        "nounKey": "toothbrush",
+        "svName": "Tandborste",
+        "count": 3,
+        "plural": "Tandborstar"
+      },
+      {
+        "nounKey": "clock",
+        "svName": "Klocka",
+        "count": 4,
+        "plural": "Klockor"
+      },
+      {
+        "nounKey": "light-switch",
+        "svName": "Strömbrytare",
+        "count": 1,
+        "plural": "Strömbrytare"
+      },
+      {
+        "nounKey": "fence",
+        "svName": "Staket",
+        "count": 5,
+        "plural": "Staket"
+      },
+      {
+        "nounKey": "spoon",
+        "svName": "Sked",
+        "count": 3,
+        "plural": "Skedar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-i-snabbkopet-0078",
+    "themeKey": "at_the_supermarket",
+    "siblings": [
+      "rakna-i-diagram-i-snabbkopet-0078"
+    ],
+    "categories": [
+      {
+        "nounKey": "melon",
+        "svName": "Melon",
+        "count": 5,
+        "plural": "Meloner"
+      },
+      {
+        "nounKey": "bag",
+        "svName": "Påse",
+        "count": 3,
+        "plural": "Påsar"
+      },
+      {
+        "nounKey": "muffin",
+        "svName": "Muffin",
+        "count": 2,
+        "plural": "Muffins"
+      },
+      {
+        "nounKey": "blueberry",
+        "svName": "Blåbär",
+        "count": 2,
+        "plural": "Blåbär"
+      },
+      {
+        "nounKey": "broccoli",
+        "svName": "Broccoli",
+        "count": 3,
+        "plural": "Broccoli"
+      },
+      {
+        "nounKey": "bacon",
+        "svName": "Bacon",
+        "count": 5,
+        "plural": "Bacon"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-bageri-4532",
+    "themeKey": "bakery",
+    "siblings": [
+      "rakna-i-diagram-bageri-4532"
+    ],
+    "categories": [
+      {
+        "nounKey": "doughnut",
+        "svName": "Munk",
+        "count": 1,
+        "plural": "Munkar"
+      },
+      {
+        "nounKey": "muffin",
+        "svName": "Muffin",
+        "count": 5,
+        "plural": "Muffins"
+      },
+      {
+        "nounKey": "cupcake",
+        "svName": "Cupcake",
+        "count": 5,
+        "plural": "Cupcakes"
+      },
+      {
+        "nounKey": "eclair",
+        "svName": "Eclair",
+        "count": 0,
+        "plural": "Eclairar"
+      },
+      {
+        "nounKey": "waffle",
+        "svName": "Våffla",
+        "count": 4,
+        "plural": "Våfflor"
+      },
+      {
+        "nounKey": "cheesecake",
+        "svName": "Cheesecake",
+        "count": 5,
+        "plural": "Cheesecakes"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-strand-d835",
+    "themeKey": "beach",
+    "siblings": [
+      "rakna-i-diagram-strand-d835"
+    ],
+    "categories": [
+      {
+        "nounKey": "seashell",
+        "svName": "Snäcka",
+        "count": 4,
+        "plural": "Snäckor"
+      },
+      {
+        "nounKey": "water",
+        "svName": "Vatten",
+        "count": 4,
+        "plural": "Vatten"
+      },
+      {
+        "nounKey": "wave",
+        "svName": "Våg",
+        "count": 2,
+        "plural": "Vågar"
+      },
+      {
+        "nounKey": "rock",
+        "svName": "Klippa",
+        "count": 5,
+        "plural": "Klippor"
+      },
+      {
+        "nounKey": "bucket",
+        "svName": "Hink",
+        "count": 3,
+        "plural": "Hinkar"
+      },
+      {
+        "nounKey": "bathing-suit",
+        "svName": "Baddräkt",
+        "count": 2,
+        "plural": "Baddräktar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-faglar-dcbc",
+    "themeKey": "birds",
+    "siblings": [
+      "rakna-i-diagram-faglar-dcbc"
+    ],
+    "categories": [
+      {
+        "nounKey": "toucan",
+        "svName": "Tukan",
+        "count": 4,
+        "plural": "Tukanar"
+      },
+      {
+        "nounKey": "penguin",
+        "svName": "Pingvin",
+        "count": 1,
+        "plural": "Pingviner"
+      },
+      {
+        "nounKey": "vulture",
+        "svName": "Gam",
+        "count": 3,
+        "plural": "Gamar"
+      },
+      {
+        "nounKey": "peacock",
+        "svName": "Påfågel",
+        "count": 2,
+        "plural": "Påfåglar"
+      },
+      {
+        "nounKey": "macaw",
+        "svName": "Ara",
+        "count": 5,
+        "plural": "Aror"
+      },
+      {
+        "nounKey": "hornbill",
+        "svName": "Näshornsfågel",
+        "count": 5,
+        "plural": "Näshornsfåglar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-faglar-2-3d5b",
+    "themeKey": "birds_2",
+    "siblings": [
+      "rakna-i-diagram-faglar-2-3d5b"
+    ],
+    "categories": [
+      {
+        "nounKey": "swan",
+        "svName": "Svan",
+        "count": 3,
+        "plural": "Svanar"
+      },
+      {
+        "nounKey": "heron",
+        "svName": "Häger",
+        "count": 5,
+        "plural": "Hägrar"
+      },
+      {
+        "nounKey": "flamingo",
+        "svName": "Flamingo",
+        "count": 3,
+        "plural": "Flamingoar"
+      },
+      {
+        "nounKey": "hummingbird",
+        "svName": "Kolibri",
+        "count": 2,
+        "plural": "Kolibrier"
+      },
+      {
+        "nounKey": "robin",
+        "svName": "Rödhake",
+        "count": 4,
+        "plural": "Rödhakar"
+      },
+      {
+        "nounKey": "macaw",
+        "svName": "Ara",
+        "count": 3,
+        "plural": "Aror"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-kroppsdelar-5fee",
+    "themeKey": "body_parts",
+    "siblings": [
+      "rakna-i-diagram-kroppsdelar-5fee"
+    ],
+    "categories": [
+      {
+        "nounKey": "ankle",
+        "svName": "Vrist",
+        "count": 1,
+        "plural": "Vristar"
+      },
+      {
+        "nounKey": "thumb",
+        "svName": "Tumme",
+        "count": 3,
+        "plural": "Tummar"
+      },
+      {
+        "nounKey": "shoulder",
+        "svName": "Axel",
+        "count": 5,
+        "plural": "Axlar"
+      },
+      {
+        "nounKey": "wrist",
+        "svName": "Handled",
+        "count": 3,
+        "plural": "Handledar"
+      },
+      {
+        "nounKey": "face",
+        "svName": "Ansikte",
+        "count": 5,
+        "plural": "Ansikte"
+      },
+      {
+        "nounKey": "chin",
+        "svName": "Haka",
+        "count": 3,
+        "plural": "Hakor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-frukost-2f6f",
+    "themeKey": "breakfast",
+    "siblings": [
+      "rakna-i-diagram-frukost-2f6f"
+    ],
+    "categories": [
+      {
+        "nounKey": "porridge",
+        "svName": "Gröt",
+        "count": 1,
+        "plural": "Gröt"
+      },
+      {
+        "nounKey": "raspberry",
+        "svName": "Hallon",
+        "count": 5,
+        "plural": "Hallon"
+      },
+      {
+        "nounKey": "cereal",
+        "svName": "Flingor",
+        "count": 5,
+        "plural": "Flingor"
+      },
+      {
+        "nounKey": "muffin",
+        "svName": "Muffin",
+        "count": 2,
+        "plural": "Muffins"
+      },
+      {
+        "nounKey": "butter",
+        "svName": "Smör",
+        "count": 3,
+        "plural": "Smör"
+      },
+      {
+        "nounKey": "cheese",
+        "svName": "Ost",
+        "count": 4,
+        "plural": "Ostar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-camping-5b9d",
+    "themeKey": "camping",
+    "siblings": [
+      "rakna-i-diagram-camping-5b9d"
+    ],
+    "categories": [
+      {
+        "nounKey": "firefly",
+        "svName": "Eldfluga",
+        "count": 3,
+        "plural": "Eldflugor"
+      },
+      {
+        "nounKey": "compass",
+        "svName": "Kompass",
+        "count": 2,
+        "plural": "Kompassar"
+      },
+      {
+        "nounKey": "log",
+        "svName": "Stock",
+        "count": 4,
+        "plural": "Stockar"
+      },
+      {
+        "nounKey": "cabin",
+        "svName": "Stuga",
+        "count": 3,
+        "plural": "Stugor"
+      },
+      {
+        "nounKey": "flashlight",
+        "svName": "Ficklampa",
+        "count": 5,
+        "plural": "Ficklampor"
+      },
+      {
+        "nounKey": "hat",
+        "svName": "Hatt",
+        "count": 3,
+        "plural": "Hattar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-jul-34b2",
+    "themeKey": "christmas",
+    "siblings": [
+      "rakna-i-diagram-jul-34b2"
+    ],
+    "categories": [
+      {
+        "nounKey": "angel",
+        "svName": "Ängel",
+        "count": 3,
+        "plural": "Änglar"
+      },
+      {
+        "nounKey": "present",
+        "svName": "Present",
+        "count": 4,
+        "plural": "Presenter"
+      },
+      {
+        "nounKey": "ornament",
+        "svName": "Julkula",
+        "count": 3,
+        "plural": "Julkulor"
+      },
+      {
+        "nounKey": "mistletoe",
+        "svName": "Mistel",
+        "count": 2,
+        "plural": "Mistlar"
+      },
+      {
+        "nounKey": "garland",
+        "svName": "Girlang",
+        "count": 5,
+        "plural": "Girlangar"
+      },
+      {
+        "nounKey": "tree",
+        "svName": "Träd",
+        "count": 3,
+        "plural": "Träd"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-klassrum-dc2d",
+    "themeKey": "classroom",
+    "siblings": [
+      "rakna-i-diagram-klassrum-dc2d"
+    ],
+    "categories": [
+      {
+        "nounKey": "clock",
+        "svName": "Klocka",
+        "count": 5,
+        "plural": "Klockor"
+      },
+      {
+        "nounKey": "marker",
+        "svName": "Tuschpenna",
+        "count": 3,
+        "plural": "Tuschpennor"
+      },
+      {
+        "nounKey": "student",
+        "svName": "Elev",
+        "count": 1,
+        "plural": "Elever"
+      },
+      {
+        "nounKey": "tape",
+        "svName": "Tejp",
+        "count": 4,
+        "plural": "Tejpar"
+      },
+      {
+        "nounKey": "paper",
+        "svName": "Papper",
+        "count": 4,
+        "plural": "Papper"
+      },
+      {
+        "nounKey": "stapler",
+        "svName": "Häftapparat",
+        "count": 3,
+        "plural": "Häftapparater"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-klader-7eea",
+    "themeKey": "clothing",
+    "siblings": [
+      "rakna-i-diagram-klader-7eea"
+    ],
+    "categories": [
+      {
+        "nounKey": "coat",
+        "svName": "Kappa",
+        "count": 4,
+        "plural": "Kappor"
+      },
+      {
+        "nounKey": "sweater",
+        "svName": "Tröja",
+        "count": 1,
+        "plural": "Tröjor"
+      },
+      {
+        "nounKey": "pajamas",
+        "svName": "Pyjamas",
+        "count": 4,
+        "plural": "Pyjamasar"
+      },
+      {
+        "nounKey": "hoodie",
+        "svName": "Huvtröja",
+        "count": 5,
+        "plural": "Huvtröjor"
+      },
+      {
+        "nounKey": "beanie",
+        "svName": "Mossa",
+        "count": 4,
+        "plural": "Mossor"
+      },
+      {
+        "nounKey": "boots",
+        "svName": "Stövlar",
+        "count": 2,
+        "plural": "Stövlar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-farger-2fa0",
+    "themeKey": "colors",
+    "siblings": [
+      "rakna-i-diagram-farger-2fa0"
+    ],
+    "categories": [
+      {
+        "nounKey": "crimson",
+        "svName": "Karmosinröd",
+        "count": 1,
+        "plural": "Karmosinröd"
+      },
+      {
+        "nounKey": "red",
+        "svName": "Röd",
+        "count": 3,
+        "plural": "Röd"
+      },
+      {
+        "nounKey": "peach",
+        "svName": "Persika",
+        "count": 3,
+        "plural": "Persikor"
+      },
+      {
+        "nounKey": "brown",
+        "svName": "Brun",
+        "count": 3,
+        "plural": "Brun"
+      },
+      {
+        "nounKey": "lime",
+        "svName": "Lime",
+        "count": 5,
+        "plural": "Limar"
+      },
+      {
+        "nounKey": "orange",
+        "svName": "Apelsin",
+        "count": 5,
+        "plural": "Apelsiner"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-efterratter-och-godis-166f",
+    "themeKey": "desserts_and_sweets",
+    "siblings": [
+      "rakna-i-diagram-efterratter-och-godis-166f"
+    ],
+    "categories": [
+      {
+        "nounKey": "pie",
+        "svName": "Paj",
+        "count": 4,
+        "plural": "Pajar"
+      },
+      {
+        "nounKey": "cookie",
+        "svName": "Kaka",
+        "count": 4,
+        "plural": "Kakor"
+      },
+      {
+        "nounKey": "muffin",
+        "svName": "Muffin",
+        "count": 5,
+        "plural": "Muffins"
+      },
+      {
+        "nounKey": "gingerbread-man",
+        "svName": "Pepparkaksgubbe",
+        "count": 0,
+        "plural": "Pepparkaksgubbar"
+      },
+      {
+        "nounKey": "pudding",
+        "svName": "Pudding",
+        "count": 2,
+        "plural": "Puddingar"
+      },
+      {
+        "nounKey": "brownie",
+        "svName": "Brownie",
+        "count": 5,
+        "plural": "Brownies"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-dinosaurier-43ad",
+    "themeKey": "dinosaurs",
+    "siblings": [
+      "rakna-i-diagram-dinosaurier-43ad"
+    ],
+    "categories": [
+      {
+        "nounKey": "tyrannosaurus-rex",
+        "svName": "Tyrannosaurus Rex",
+        "count": 5,
+        "plural": "Tyrannosaurus Rexar"
+      },
+      {
+        "nounKey": "pachycephalosaurus",
+        "svName": "Pachycephalosaurus",
+        "count": 2,
+        "plural": "Pachycephalosaurusar"
+      },
+      {
+        "nounKey": "therizinosaurus",
+        "svName": "Therizinosaurus",
+        "count": 3,
+        "plural": "Therizinosaurusar"
+      },
+      {
+        "nounKey": "giganotosaurus",
+        "svName": "Giganotosaurus",
+        "count": 4,
+        "plural": "Giganotosaurusar"
+      },
+      {
+        "nounKey": "styracosaurus",
+        "svName": "Styracosaurus",
+        "count": 3,
+        "plural": "Styracosaurusar"
+      },
+      {
+        "nounKey": "ankylosaurus",
+        "svName": "Ankylosaurus",
+        "count": 3,
+        "plural": "Ankylosaurusar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-pask-b069",
+    "themeKey": "easter",
+    "siblings": [
+      "rakna-i-diagram-pask-b069"
+    ],
+    "categories": [
+      {
+        "nounKey": "basket",
+        "svName": "Korg",
+        "count": 5,
+        "plural": "Korgar"
+      },
+      {
+        "nounKey": "feather",
+        "svName": "Fjäder",
+        "count": 3,
+        "plural": "Fjädrar"
+      },
+      {
+        "nounKey": "butterfly",
+        "svName": "Fjäril",
+        "count": 2,
+        "plural": "Fjärilar"
+      },
+      {
+        "nounKey": "lamb",
+        "svName": "Lamm",
+        "count": 3,
+        "plural": "Lamm"
+      },
+      {
+        "nounKey": "ribbon",
+        "svName": "Band",
+        "count": 2,
+        "plural": "Band"
+      },
+      {
+        "nounKey": "duckling",
+        "svName": "Ankunge",
+        "count": 5,
+        "plural": "Ankungar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-kanslor-665b",
+    "themeKey": "emotions",
+    "siblings": [
+      "rakna-i-diagram-kanslor-665b"
+    ],
+    "categories": [
+      {
+        "nounKey": "surprised",
+        "svName": "Förvånad",
+        "count": 2,
+        "plural": "Förvånad"
+      },
+      {
+        "nounKey": "excited",
+        "svName": "Upprymd",
+        "count": 2,
+        "plural": "Upprymd"
+      },
+      {
+        "nounKey": "shy",
+        "svName": "Blyg",
+        "count": 1,
+        "plural": "Blyg"
+      },
+      {
+        "nounKey": "angry",
+        "svName": "Arg",
+        "count": 5,
+        "plural": "Arg"
+      },
+      {
+        "nounKey": "scared",
+        "svName": "Rädd",
+        "count": 5,
+        "plural": "Rädd"
+      },
+      {
+        "nounKey": "sad",
+        "svName": "Ledsen",
+        "count": 5,
+        "plural": "Ledsen"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-bondgardsdjur-abb4",
+    "themeKey": "farm_animals",
+    "siblings": [
+      "rakna-i-diagram-bondgardsdjur-abb4"
+    ],
+    "categories": [
+      {
+        "nounKey": "lamb",
+        "svName": "Lamm",
+        "count": 3,
+        "plural": "Lamm"
+      },
+      {
+        "nounKey": "duck",
+        "svName": "Anka",
+        "count": 2,
+        "plural": "Ankor"
+      },
+      {
+        "nounKey": "owl",
+        "svName": "Uggla",
+        "count": 3,
+        "plural": "Ugglor"
+      },
+      {
+        "nounKey": "cat",
+        "svName": "Katt",
+        "count": 4,
+        "plural": "Katter"
+      },
+      {
+        "nounKey": "rooster",
+        "svName": "Tupp",
+        "count": 5,
+        "plural": "Tuppar"
+      },
+      {
+        "nounKey": "calf",
+        "svName": "Kalv",
+        "count": 3,
+        "plural": "Kalvar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-blommor-56ce",
+    "themeKey": "flowers",
+    "siblings": [
+      "rakna-i-diagram-blommor-56ce"
+    ],
+    "categories": [
+      {
+        "nounKey": "daffodil",
+        "svName": "Påsklilja",
+        "count": 5,
+        "plural": "Påskliljor"
+      },
+      {
+        "nounKey": "violet",
+        "svName": "Viol",
+        "count": 3,
+        "plural": "Violer"
+      },
+      {
+        "nounKey": "forget-me-not",
+        "svName": "Förgätmigej",
+        "count": 2,
+        "plural": "Förgätmigejar"
+      },
+      {
+        "nounKey": "water-lily",
+        "svName": "Näckros",
+        "count": 4,
+        "plural": "Näckrosar"
+      },
+      {
+        "nounKey": "cornflower",
+        "svName": "Blåklint",
+        "count": 2,
+        "plural": "Blåklintar"
+      },
+      {
+        "nounKey": "snowdrop",
+        "svName": "Snödroppe",
+        "count": 4,
+        "plural": "Snödroppar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-skogsdjur-0ff2",
+    "themeKey": "forest_creatures",
+    "siblings": [
+      "rakna-i-diagram-skogsdjur-0ff2"
+    ],
+    "categories": [
+      {
+        "nounKey": "owl",
+        "svName": "Uggla",
+        "count": 3,
+        "plural": "Ugglor"
+      },
+      {
+        "nounKey": "spider",
+        "svName": "Spindel",
+        "count": 3,
+        "plural": "Spindlar"
+      },
+      {
+        "nounKey": "wolf",
+        "svName": "Varg",
+        "count": 2,
+        "plural": "Vargar"
+      },
+      {
+        "nounKey": "hawk",
+        "svName": "Hök",
+        "count": 5,
+        "plural": "Hökar"
+      },
+      {
+        "nounKey": "snail",
+        "svName": "Snigel",
+        "count": 2,
+        "plural": "Sniglar"
+      },
+      {
+        "nounKey": "firefly",
+        "svName": "Eldfluga",
+        "count": 5,
+        "plural": "Eldflugor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-frukter-0f34",
+    "themeKey": "fruits",
+    "siblings": [
+      "rakna-i-diagram-frukter-0f34"
+    ],
+    "categories": [
+      {
+        "nounKey": "watermelon",
+        "svName": "Vattenmelon",
+        "count": 5,
+        "plural": "Vattenmelonar"
+      },
+      {
+        "nounKey": "cranberry",
+        "svName": "Tranbär",
+        "count": 3,
+        "plural": "Tranbär"
+      },
+      {
+        "nounKey": "apricot",
+        "svName": "Aprikos",
+        "count": 3,
+        "plural": "Aprikoser"
+      },
+      {
+        "nounKey": "pineapple",
+        "svName": "Ananas",
+        "count": 3,
+        "plural": "Ananasar"
+      },
+      {
+        "nounKey": "dragonfruit",
+        "svName": "Drakfrukt",
+        "count": 4,
+        "plural": null
+      },
+      {
+        "nounKey": "mango",
+        "svName": "Mango",
+        "count": 2,
+        "plural": "Mangos"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-mobler-5129",
+    "themeKey": "furniture",
+    "siblings": [
+      "rakna-i-diagram-mobler-5129"
+    ],
+    "categories": [
+      {
+        "nounKey": "shelf",
+        "svName": "Hylla",
+        "count": 1,
+        "plural": "Hyllor"
+      },
+      {
+        "nounKey": "armchair",
+        "svName": "Fåtölj",
+        "count": 4,
+        "plural": "Fåtöljar"
+      },
+      {
+        "nounKey": "curtains",
+        "svName": "Gardiner",
+        "count": 5,
+        "plural": "Gardinerar"
+      },
+      {
+        "nounKey": "ottoman",
+        "svName": "Fotpall",
+        "count": 4,
+        "plural": "Fotpallar"
+      },
+      {
+        "nounKey": "dresser",
+        "svName": "Byrå",
+        "count": 3,
+        "plural": "Byråar"
+      },
+      {
+        "nounKey": "mirror",
+        "svName": "Spegel",
+        "count": 3,
+        "plural": "Speglar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-sjukhus-5651",
+    "themeKey": "hospital",
+    "siblings": [
+      "rakna-i-diagram-sjukhus-5651"
+    ],
+    "categories": [
+      {
+        "nounKey": "medicine",
+        "svName": "Medicin",
+        "count": 2,
+        "plural": "Medicinar"
+      },
+      {
+        "nounKey": "syringe",
+        "svName": "Spruta",
+        "count": 5,
+        "plural": "Sprutor"
+      },
+      {
+        "nounKey": "bed",
+        "svName": "Sjukhussäng",
+        "count": 3,
+        "plural": "Sängar"
+      },
+      {
+        "nounKey": "bandage",
+        "svName": "Bandage",
+        "count": 4,
+        "plural": "Bandage"
+      },
+      {
+        "nounKey": "bracelet",
+        "svName": "Sjukhusarmband",
+        "count": 3,
+        "plural": "Armband"
+      },
+      {
+        "nounKey": "crutches",
+        "svName": "Kryckor",
+        "count": 3,
+        "plural": "Kryckor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-insekter-och-kryp-25d3",
+    "themeKey": "insects_and_bugs",
+    "siblings": [
+      "rakna-i-diagram-insekter-och-kryp-25d3"
+    ],
+    "categories": [
+      {
+        "nounKey": "centipede",
+        "svName": "Tusenfoting",
+        "count": 3,
+        "plural": "Tusenfotingar"
+      },
+      {
+        "nounKey": "ant",
+        "svName": "Myra",
+        "count": 3,
+        "plural": "Myror"
+      },
+      {
+        "nounKey": "caterpillar",
+        "svName": "Larv",
+        "count": 5,
+        "plural": "Larvar"
+      },
+      {
+        "nounKey": "spider",
+        "svName": "Spindel",
+        "count": 5,
+        "plural": "Spindlar"
+      },
+      {
+        "nounKey": "dragonfly",
+        "svName": "Trollslända",
+        "count": 0,
+        "plural": "Trollsländor"
+      },
+      {
+        "nounKey": "snail",
+        "svName": "Snigel",
+        "count": 4,
+        "plural": "Sniglar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-koksredskap-d75b",
+    "themeKey": "kitchen_tools",
+    "siblings": [
+      "rakna-i-diagram-koksredskap-d75b"
+    ],
+    "categories": [
+      {
+        "nounKey": "kitchen-scale",
+        "svName": "Köksvåg",
+        "count": 3,
+        "plural": "Köksvågar"
+      },
+      {
+        "nounKey": "baking-sheet",
+        "svName": "Bakplåt",
+        "count": 4,
+        "plural": "Bakplåtar"
+      },
+      {
+        "nounKey": "mug",
+        "svName": "Mugg",
+        "count": 2,
+        "plural": "Muggar"
+      },
+      {
+        "nounKey": "cookie-cutter",
+        "svName": "Pepparkaksform",
+        "count": 5,
+        "plural": "Pepparkaksformar"
+      },
+      {
+        "nounKey": "spoon",
+        "svName": "Sked",
+        "count": 3,
+        "plural": "Skedar"
+      },
+      {
+        "nounKey": "frying-pan",
+        "svName": "Stekpanna",
+        "count": 3,
+        "plural": "Stekpannor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-musik-8f73",
+    "themeKey": "music",
+    "siblings": [
+      "rakna-i-diagram-musik-8f73"
+    ],
+    "categories": [
+      {
+        "nounKey": "cymbals",
+        "svName": "Cymbaler",
+        "count": 1,
+        "plural": "Cymbalerar"
+      },
+      {
+        "nounKey": "singer",
+        "svName": "Sångare",
+        "count": 3,
+        "plural": "Sångare"
+      },
+      {
+        "nounKey": "drum",
+        "svName": "Trumma",
+        "count": 5,
+        "plural": "Trummor"
+      },
+      {
+        "nounKey": "violin",
+        "svName": "Fiol",
+        "count": 5,
+        "plural": "Fiolar"
+      },
+      {
+        "nounKey": "trombone",
+        "svName": "Trombon",
+        "count": 2,
+        "plural": "Tromboner"
+      },
+      {
+        "nounKey": "xylophone",
+        "svName": "Xylofon",
+        "count": 4,
+        "plural": "Xylofoner"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-yrken-ade4",
+    "themeKey": "occupations",
+    "siblings": [
+      "rakna-i-diagram-yrken-ade4"
+    ],
+    "categories": [
+      {
+        "nounKey": "photographer",
+        "svName": "Fotograf",
+        "count": 4,
+        "plural": "Fotografer"
+      },
+      {
+        "nounKey": "office-worker",
+        "svName": "Kontorsarbetare",
+        "count": 2,
+        "plural": "Kontorsarbetare"
+      },
+      {
+        "nounKey": "cashier",
+        "svName": "Kassör",
+        "count": 4,
+        "plural": "Kassörer"
+      },
+      {
+        "nounKey": "paramedic",
+        "svName": "Ambulanssjukvårdare",
+        "count": 4,
+        "plural": "Ambulanssjukvårdare"
+      },
+      {
+        "nounKey": "tailor",
+        "svName": "Skräddare",
+        "count": 3,
+        "plural": "Skräddare"
+      },
+      {
+        "nounKey": "athlete",
+        "svName": "Atlet",
+        "count": 3,
+        "plural": "Atleter"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-havsliv-eb50",
+    "themeKey": "ocean_life",
+    "siblings": [
+      "rakna-i-diagram-havsliv-eb50"
+    ],
+    "categories": [
+      {
+        "nounKey": "pufferfish",
+        "svName": "Blåsfisk",
+        "count": 3,
+        "plural": "Blåsfiskar"
+      },
+      {
+        "nounKey": "angelfish",
+        "svName": "Ängelfisk",
+        "count": 5,
+        "plural": "Ängelfiskar"
+      },
+      {
+        "nounKey": "jellyfish",
+        "svName": "Manet",
+        "count": 5,
+        "plural": "Manetar"
+      },
+      {
+        "nounKey": "starfish",
+        "svName": "Sjöstjärna",
+        "count": 1,
+        "plural": "Sjöstjärnor"
+      },
+      {
+        "nounKey": "crab",
+        "svName": "Krabba",
+        "count": 3,
+        "plural": "Krabbor"
+      },
+      {
+        "nounKey": "oyster",
+        "svName": "Ostron",
+        "count": 3,
+        "plural": "Ostronar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-husdjur-8990",
+    "themeKey": "pets",
+    "siblings": [
+      "rakna-i-diagram-husdjur-8990"
+    ],
+    "categories": [
+      {
+        "nounKey": "iguana",
+        "svName": "Leguan",
+        "count": 2,
+        "plural": "Leguanar"
+      },
+      {
+        "nounKey": "frog",
+        "svName": "Groda",
+        "count": 2,
+        "plural": "Grodor"
+      },
+      {
+        "nounKey": "gecko",
+        "svName": "Gecko",
+        "count": 2,
+        "plural": "Geckos"
+      },
+      {
+        "nounKey": "cockatiel",
+        "svName": "Nymfparakit",
+        "count": 4,
+        "plural": "Nymfparakiter"
+      },
+      {
+        "nounKey": "goldfish",
+        "svName": "Guldfisk",
+        "count": 5,
+        "plural": "Guldfiskar"
+      },
+      {
+        "nounKey": "cat",
+        "svName": "Katt",
+        "count": 5,
+        "plural": "Katter"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-postkontor-f835",
+    "themeKey": "post_office",
+    "siblings": [
+      "rakna-i-diagram-postkontor-f835"
+    ],
+    "categories": [
+      {
+        "nounKey": "letter",
+        "svName": "Brev",
+        "count": 4,
+        "plural": "Brev"
+      },
+      {
+        "nounKey": "stamp",
+        "svName": "Frimärke",
+        "count": 2,
+        "plural": "Stämplar"
+      },
+      {
+        "nounKey": "delivery",
+        "svName": "Leverans",
+        "count": 3,
+        "plural": "Leveransar"
+      },
+      {
+        "nounKey": "post-office",
+        "svName": "Postkontor",
+        "count": 5,
+        "plural": "Postkontor"
+      },
+      {
+        "nounKey": "truck",
+        "svName": "Postbil",
+        "count": 4,
+        "plural": "Lastbilar"
+      },
+      {
+        "nounKey": "package",
+        "svName": "Paket",
+        "count": 2,
+        "plural": "Paket"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-reptiler-och-groddjur-60e4",
+    "themeKey": "reptiles_and_amphibians",
+    "siblings": [
+      "rakna-i-diagram-reptiler-och-groddjur-60e4"
+    ],
+    "categories": [
+      {
+        "nounKey": "salamander",
+        "svName": "Salamander",
+        "count": 2,
+        "plural": "Salamanderar"
+      },
+      {
+        "nounKey": "turtle",
+        "svName": "Sköldpadda",
+        "count": 2,
+        "plural": "Sköldpaddor"
+      },
+      {
+        "nounKey": "gecko",
+        "svName": "Gecko",
+        "count": 3,
+        "plural": "Geckos"
+      },
+      {
+        "nounKey": "tortoise",
+        "svName": "Landsköldpadda",
+        "count": 5,
+        "plural": "Landsköldpaddor"
+      },
+      {
+        "nounKey": "frog",
+        "svName": "Groda",
+        "count": 3,
+        "plural": "Grodor"
+      },
+      {
+        "nounKey": "chameleon",
+        "svName": "Kameleont",
+        "count": 5,
+        "plural": "Kameleont"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-former-bd2c",
+    "themeKey": "shapes",
+    "siblings": [
+      "rakna-i-diagram-former-bd2c"
+    ],
+    "categories": [
+      {
+        "nounKey": "rectangular-box",
+        "svName": "Rätblock",
+        "count": 3,
+        "plural": "Rätblock"
+      },
+      {
+        "nounKey": "octogon",
+        "svName": "Åttahörning",
+        "count": 2,
+        "plural": null
+      },
+      {
+        "nounKey": "trapezoid",
+        "svName": "Trapets",
+        "count": 5,
+        "plural": "Trapetsar"
+      },
+      {
+        "nounKey": "parallelogram",
+        "svName": "Parallellogram",
+        "count": 3,
+        "plural": "Parallellogram"
+      },
+      {
+        "nounKey": "pyramid",
+        "svName": "Pyramid",
+        "count": 2,
+        "plural": "Pyramider"
+      },
+      {
+        "nounKey": "oval",
+        "svName": "Oval",
+        "count": 5,
+        "plural": "Ovalar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-rymden-39e3",
+    "themeKey": "space",
+    "siblings": [
+      "rakna-i-diagram-rymden-39e3"
+    ],
+    "categories": [
+      {
+        "nounKey": "saturn",
+        "svName": "Saturnus",
+        "count": 1,
+        "plural": "Saturnus"
+      },
+      {
+        "nounKey": "venus",
+        "svName": "Venus",
+        "count": 5,
+        "plural": "Venus"
+      },
+      {
+        "nounKey": "asteroid",
+        "svName": "Asteroid",
+        "count": 1,
+        "plural": "Asteroidar"
+      },
+      {
+        "nounKey": "moon",
+        "svName": "Månen",
+        "count": 5,
+        "plural": "Månar"
+      },
+      {
+        "nounKey": "mars",
+        "svName": "Mars",
+        "count": 4,
+        "plural": "Mars"
+      },
+      {
+        "nounKey": "comet",
+        "svName": "Komet",
+        "count": 4,
+        "plural": "Kometar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-var-443a",
+    "themeKey": "spring",
+    "siblings": [
+      "rakna-i-diagram-var-443a"
+    ],
+    "categories": [
+      {
+        "nounKey": "puddle",
+        "svName": "Pöl",
+        "count": 1,
+        "plural": "Pölar"
+      },
+      {
+        "nounKey": "bicycle",
+        "svName": "Cykel",
+        "count": 4,
+        "plural": "Cyklar"
+      },
+      {
+        "nounKey": "flower",
+        "svName": "Blomma",
+        "count": 5,
+        "plural": "Blommor"
+      },
+      {
+        "nounKey": "umbrella",
+        "svName": "Paraply",
+        "count": 5,
+        "plural": "Paraply"
+      },
+      {
+        "nounKey": "grass",
+        "svName": "Gräs",
+        "count": 3,
+        "plural": "Gräs"
+      },
+      {
+        "nounKey": "leaf",
+        "svName": "Löv",
+        "count": 2,
+        "plural": "Löv"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-sommar-2523",
+    "themeKey": "summer",
+    "siblings": [
+      "rakna-i-diagram-sommar-2523"
+    ],
+    "categories": [
+      {
+        "nounKey": "cap",
+        "svName": "Keps",
+        "count": 3,
+        "plural": "Kepsar"
+      },
+      {
+        "nounKey": "ladybug",
+        "svName": "Nyckelpiga",
+        "count": 3,
+        "plural": "Nyckelpigor"
+      },
+      {
+        "nounKey": "sandcastle",
+        "svName": "Sandslott",
+        "count": 5,
+        "plural": "Sandslott"
+      },
+      {
+        "nounKey": "butterfly",
+        "svName": "Fjäril",
+        "count": 3,
+        "plural": "Fjärilar"
+      },
+      {
+        "nounKey": "starfish",
+        "svName": "Sjöstjärna",
+        "count": 3,
+        "plural": "Sjöstjärnor"
+      },
+      {
+        "nounKey": "swimming",
+        "svName": "Simning",
+        "count": 3,
+        "plural": "Simning"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-thanksgiving-f73c",
+    "themeKey": "thanksgivinng",
+    "siblings": [
+      "rakna-i-diagram-thanksgiving-f73c"
+    ],
+    "categories": [
+      {
+        "nounKey": "native-american",
+        "svName": "Indianer",
+        "count": 2,
+        "plural": "Indianerar"
+      },
+      {
+        "nounKey": "harvest",
+        "svName": "Skörd",
+        "count": 5,
+        "plural": "Skördar"
+      },
+      {
+        "nounKey": "pumpkin",
+        "svName": "Pumpa",
+        "count": 3,
+        "plural": "Pumpor"
+      },
+      {
+        "nounKey": "autumn",
+        "svName": "Höst",
+        "count": 2,
+        "plural": "Höst"
+      },
+      {
+        "nounKey": "pie",
+        "svName": "Paj",
+        "count": 4,
+        "plural": "Pajar"
+      },
+      {
+        "nounKey": "turkey",
+        "svName": "Kalkon",
+        "count": 4,
+        "plural": "Kalkoner"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-saker-som-flyger-d07c",
+    "themeKey": "things_that_fly",
+    "siblings": [
+      "rakna-i-diagram-saker-som-flyger-d07c"
+    ],
+    "categories": [
+      {
+        "nounKey": "pelican",
+        "svName": "Pelikan",
+        "count": 4,
+        "plural": "Pelikanar"
+      },
+      {
+        "nounKey": "firefly",
+        "svName": "Eldfluga",
+        "count": 1,
+        "plural": "Eldflugor"
+      },
+      {
+        "nounKey": "hummingbird",
+        "svName": "Kolibri",
+        "count": 5,
+        "plural": "Kolibrier"
+      },
+      {
+        "nounKey": "mosquito",
+        "svName": "Mygga",
+        "count": 2,
+        "plural": "Myggor"
+      },
+      {
+        "nounKey": "grasshopper",
+        "svName": "Gräshoppa",
+        "count": 5,
+        "plural": "Gräshoppor"
+      },
+      {
+        "nounKey": "beetle",
+        "svName": "Skalbagge",
+        "count": 3,
+        "plural": "Skalbaggar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-verktyg-4ea7",
+    "themeKey": "tools",
+    "siblings": [
+      "rakna-i-diagram-verktyg-4ea7"
+    ],
+    "categories": [
+      {
+        "nounKey": "extension-cord",
+        "svName": "Förlängningssladd",
+        "count": 5,
+        "plural": "Förlängningssladdar"
+      },
+      {
+        "nounKey": "bolt",
+        "svName": "Bult",
+        "count": 2,
+        "plural": "Bultar"
+      },
+      {
+        "nounKey": "pliers",
+        "svName": "Tång",
+        "count": 1,
+        "plural": "Tångar"
+      },
+      {
+        "nounKey": "screwdriver",
+        "svName": "Skruvmejsel",
+        "count": 4,
+        "plural": "Skruvmejslar"
+      },
+      {
+        "nounKey": "tape-measure",
+        "svName": "Måttband",
+        "count": 5,
+        "plural": "Måttband"
+      },
+      {
+        "nounKey": "electric-drill",
+        "svName": "Borrmaskin",
+        "count": 3,
+        "plural": "Borrmaskinar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-leksaker-025e",
+    "themeKey": "toys",
+    "siblings": [
+      "rakna-i-diagram-leksaker-025e"
+    ],
+    "categories": [
+      {
+        "nounKey": "ball",
+        "svName": "Boll",
+        "count": 5,
+        "plural": "Bollar"
+      },
+      {
+        "nounKey": "doll",
+        "svName": "Docka",
+        "count": 3,
+        "plural": "Dockor"
+      },
+      {
+        "nounKey": "teddy-bear",
+        "svName": "Nallebjörn",
+        "count": 2,
+        "plural": "Nallebjörnar"
+      },
+      {
+        "nounKey": "boat",
+        "svName": "Båt",
+        "count": 3,
+        "plural": "Båtar"
+      },
+      {
+        "nounKey": "shovel",
+        "svName": "Spade",
+        "count": 3,
+        "plural": "Spadar"
+      },
+      {
+        "nounKey": "skateboard",
+        "svName": "Skateboard",
+        "count": 4,
+        "plural": "Skateboards"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-trad-ad00",
+    "themeKey": "tree",
+    "siblings": [
+      "rakna-i-diagram-trad-ad00"
+    ],
+    "categories": [
+      {
+        "nounKey": "palm",
+        "svName": "Palm",
+        "count": 3,
+        "plural": null
+      },
+      {
+        "nounKey": "fir",
+        "svName": "Gran",
+        "count": 2,
+        "plural": null
+      },
+      {
+        "nounKey": "oak",
+        "svName": "Ek",
+        "count": 3,
+        "plural": null
+      },
+      {
+        "nounKey": "cedar",
+        "svName": "Ceder",
+        "count": 4,
+        "plural": null
+      },
+      {
+        "nounKey": "walnut",
+        "svName": "Valnötsträd",
+        "count": 5,
+        "plural": null
+      },
+      {
+        "nounKey": "maple",
+        "svName": "Lönn",
+        "count": 3,
+        "plural": null
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-gronsaker-3bcd",
+    "themeKey": "vegetables",
+    "siblings": [
+      "rakna-i-diagram-gronsaker-3bcd"
+    ],
+    "categories": [
+      {
+        "nounKey": "carrot",
+        "svName": "Morot",
+        "count": 4,
+        "plural": "Moroter"
+      },
+      {
+        "nounKey": "spinach",
+        "svName": "Spenat",
+        "count": 4,
+        "plural": "Spenat"
+      },
+      {
+        "nounKey": "garlic",
+        "svName": "Vitlök",
+        "count": 2,
+        "plural": "Vitlök"
+      },
+      {
+        "nounKey": "pumpkin",
+        "svName": "Pumpa",
+        "count": 4,
+        "plural": "Pumpor"
+      },
+      {
+        "nounKey": "onion",
+        "svName": "Lök",
+        "count": 3,
+        "plural": "Lökar"
+      },
+      {
+        "nounKey": "turnip",
+        "svName": "Rova",
+        "count": 3,
+        "plural": "Rovor"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-fordon-121a",
+    "themeKey": "vehicles",
+    "siblings": [
+      "rakna-i-diagram-fordon-121a"
+    ],
+    "categories": [
+      {
+        "nounKey": "excavator",
+        "svName": "Grävmaskin",
+        "count": 4,
+        "plural": "Grävmaskinar"
+      },
+      {
+        "nounKey": "ferry",
+        "svName": "Färja",
+        "count": 4,
+        "plural": "Färjor"
+      },
+      {
+        "nounKey": "bus",
+        "svName": "Buss",
+        "count": 1,
+        "plural": "Bussar"
+      },
+      {
+        "nounKey": "jeep",
+        "svName": "Jeep",
+        "count": 4,
+        "plural": "Jeepar"
+      },
+      {
+        "nounKey": "ambulance",
+        "svName": "Ambulans",
+        "count": 3,
+        "plural": "Ambulansar"
+      },
+      {
+        "nounKey": "tow-truck",
+        "svName": "Bärgningsbil",
+        "count": 4,
+        "plural": "Bärgningsbilar"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-vader-f25c",
+    "themeKey": "weather",
+    "siblings": [
+      "rakna-i-diagram-vader-f25c"
+    ],
+    "categories": [
+      {
+        "nounKey": "raindrop",
+        "svName": "Regndroppe",
+        "count": 3,
+        "plural": "Regndroppar"
+      },
+      {
+        "nounKey": "partly-cloudy",
+        "svName": "Delvis molnigt",
+        "count": 3,
+        "plural": "Delvis molnigt"
+      },
+      {
+        "nounKey": "sunglasses",
+        "svName": "Solglasögon",
+        "count": 4,
+        "plural": "Solglasögon"
+      },
+      {
+        "nounKey": "cloudy",
+        "svName": "Molnigt",
+        "count": 5,
+        "plural": "Molnigt"
+      },
+      {
+        "nounKey": "snowflake",
+        "svName": "Snöflinga",
+        "count": 4,
+        "plural": "Snöflingor"
+      },
+      {
+        "nounKey": "rainy",
+        "svName": "Regnigt",
+        "count": 1,
+        "plural": "Regnigt"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-vinter-6de2",
+    "themeKey": "winter",
+    "siblings": [
+      "rakna-i-diagram-vinter-6de2"
+    ],
+    "categories": [
+      {
+        "nounKey": "evergreen",
+        "svName": "Vintergröna",
+        "count": 5,
+        "plural": "Vintergrönor"
+      },
+      {
+        "nounKey": "skiing",
+        "svName": "Skidåkning",
+        "count": 4,
+        "plural": "Skidåkning"
+      },
+      {
+        "nounKey": "sweater",
+        "svName": "Tröja",
+        "count": 2,
+        "plural": "Tröjor"
+      },
+      {
+        "nounKey": "coat",
+        "svName": "Kappa",
+        "count": 4,
+        "plural": "Kappor"
+      },
+      {
+        "nounKey": "hat",
+        "svName": "Mössa",
+        "count": 2,
+        "plural": "Hattar"
+      },
+      {
+        "nounKey": "earmuffs",
+        "svName": "Öronmuffar",
+        "count": 3,
+        "plural": "Öronvärmare"
+      }
+    ]
+  },
+  {
+    "slug": "rakna-i-diagram-djurparksdjur-23d2",
+    "themeKey": "zoo_animals",
+    "siblings": [
+      "rakna-i-diagram-djurparksdjur-23d2"
+    ],
+    "categories": [
+      {
+        "nounKey": "rhinoceros",
+        "svName": "Noshörning",
+        "count": 4,
+        "plural": "Noshörningar"
+      },
+      {
+        "nounKey": "lion",
+        "svName": "Lejon",
+        "count": 2,
+        "plural": "Lejon"
+      },
+      {
+        "nounKey": "bat",
+        "svName": "Fladdermus",
+        "count": 3,
+        "plural": "Fladdermöss"
+      },
+      {
+        "nounKey": "orangutan",
+        "svName": "Orangutang",
+        "count": 4,
+        "plural": "Orangutangar"
+      },
+      {
+        "nounKey": "camel",
+        "svName": "Kamel",
+        "count": 4,
+        "plural": "Kameler"
+      },
+      {
+        "nounKey": "giraffe",
+        "svName": "Giraff",
+        "count": 3,
+        "plural": "Giraffer"
+      }
+    ]
+  }
+]

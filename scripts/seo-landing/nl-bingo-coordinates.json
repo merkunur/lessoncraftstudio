@@ -1,0 +1,708 @@
+{
+  "locale": "nl",
+  "exerciseType": "bingo",
+  "level": "kleuters",
+  "rawRowCount": 77,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 38
+  },
+  "totalValid": 38,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 38,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "bingo-accessoires-795e",
+      "siblings": [
+        "bingo-accessoires-795e",
+        "bingo-accessoires-7c10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "bingo-activiteiten-35c3",
+      "siblings": [
+        "bingo-activiteiten-35c3",
+        "bingo-activiteiten-88c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 3,
+      "canonical": "bingo-dieren",
+      "siblings": [
+        "bingo-dieren",
+        "bingo-dieren-e27e",
+        "bingo-dieren-0706"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "bingo-rond-het-huis-9e71",
+      "siblings": [
+        "bingo-rond-het-huis-9e71",
+        "bingo-rond-het-huis-da5c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "bingo-in-de-supermarkt-f148",
+      "siblings": [
+        "bingo-in-de-supermarkt-f148",
+        "bingo-in-de-supermarkt-1a0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "bingo-bakkerij-43d1",
+      "siblings": [
+        "bingo-bakkerij-43d1",
+        "bingo-bakkerij-8adf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "bingo-strand-8c2a",
+      "siblings": [
+        "bingo-strand-8c2a",
+        "bingo-strand-6f95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "bingo-vogels-2-e87d",
+      "siblings": [
+        "bingo-vogels-2-e87d",
+        "bingo-vogels-2-bbbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "bingo-lichaamsdelen-3657",
+      "siblings": [
+        "bingo-lichaamsdelen-3657",
+        "bingo-lichaamsdelen-49e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "bingo-ontbijt-d6e0",
+      "siblings": [
+        "bingo-ontbijt-d6e0",
+        "bingo-ontbijt-7c0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "bingo-kamperen-f739",
+      "siblings": [
+        "bingo-kamperen-f739",
+        "bingo-kamperen-9f52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "bingo-kerstmis-9942",
+      "siblings": [
+        "bingo-kerstmis-9942",
+        "bingo-kerstmis-295c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "bingo-klaslokaal-2940",
+      "siblings": [
+        "bingo-klaslokaal-2940",
+        "bingo-klaslokaal-d9f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "bingo-kleding-7d9e",
+      "siblings": [
+        "bingo-kleding-7d9e",
+        "bingo-kleding-db1a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "bingo-kleuren-a47f",
+      "siblings": [
+        "bingo-kleuren-a47f",
+        "bingo-kleuren-29da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "bingo-desserts-en-snoep-f21c",
+      "siblings": [
+        "bingo-desserts-en-snoep-f21c",
+        "bingo-desserts-en-snoep-b9a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "bingo-pasen-3978",
+      "siblings": [
+        "bingo-pasen-3978",
+        "bingo-pasen-f566"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "bingo-boerderijdieren-8590",
+      "siblings": [
+        "bingo-boerderijdieren-8590",
+        "bingo-boerderijdieren-63f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "bingo-bloemen-3857",
+      "siblings": [
+        "bingo-bloemen-3857",
+        "bingo-bloemen-2ca7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "bingo-boswezens-3305",
+      "siblings": [
+        "bingo-boswezens-3305",
+        "bingo-boswezens-88ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "bingo-fruit-5d26",
+      "siblings": [
+        "bingo-fruit-5d26",
+        "bingo-fruit-033a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "bingo-meubels-e9aa",
+      "siblings": [
+        "bingo-meubels-e9aa",
+        "bingo-meubels-f2ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "bingo-ziekenhuis-3120",
+      "siblings": [
+        "bingo-ziekenhuis-3120",
+        "bingo-ziekenhuis-4e1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "bingo-keukengerei-d18c",
+      "siblings": [
+        "bingo-keukengerei-d18c",
+        "bingo-keukengerei-422a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "bingo-beroepen-fa16",
+      "siblings": [
+        "bingo-beroepen-fa16",
+        "bingo-beroepen-081b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "bingo-oceaanleven-bf35",
+      "siblings": [
+        "bingo-oceaanleven-bf35",
+        "bingo-oceaanleven-a179"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "bingo-huisdieren-d1bd",
+      "siblings": [
+        "bingo-huisdieren-d1bd",
+        "bingo-huisdieren-7ec4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "bingo-vormen-b9e6",
+      "siblings": [
+        "bingo-vormen-b9e6",
+        "bingo-vormen-1503"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "bingo-ruimte-8834",
+      "siblings": [
+        "bingo-ruimte-8834",
+        "bingo-ruimte-920f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "bingo-lente-e7f3",
+      "siblings": [
+        "bingo-lente-e7f3",
+        "bingo-lente-31aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "bingo-zomer-3d3d",
+      "siblings": [
+        "bingo-zomer-3d3d",
+        "bingo-zomer-ba9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "bingo-dingen-die-vliegen-a71c",
+      "siblings": [
+        "bingo-dingen-die-vliegen-a71c",
+        "bingo-dingen-die-vliegen-c93b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "bingo-speelgoed-26db",
+      "siblings": [
+        "bingo-speelgoed-26db",
+        "bingo-speelgoed-7e2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "bingo-groenten-7a73",
+      "siblings": [
+        "bingo-groenten-7a73",
+        "bingo-groenten-46c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "bingo-voertuigen-97c7",
+      "siblings": [
+        "bingo-voertuigen-97c7",
+        "bingo-voertuigen-0ca4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "bingo-weer-d052",
+      "siblings": [
+        "bingo-weer-d052",
+        "bingo-weer-3307"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "bingo-winter-b652",
+      "siblings": [
+        "bingo-winter-b652",
+        "bingo-winter-5fc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "bingo-dierentuindieren-fcbc",
+      "siblings": [
+        "bingo-dierentuindieren-fcbc",
+        "bingo-dierentuindieren-0555"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    }
+  ]
+}

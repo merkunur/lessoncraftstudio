@@ -1,0 +1,1610 @@
+{
+  "locale": "nl",
+  "exerciseType": "treasure-hunt",
+  "level": "kleuters",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cardinal-arrows": 48,
+    "compass": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cardinal-arrows",
+    "compass"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cardinal-arrows",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-accessoires-2551",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-accessoires-2551"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-activiteiten-8aaf"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "schatzoektocht-op-neer-links-rechts-dieren",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-dieren",
+        "schatzoektocht-op-neer-links-rechts-dieren-b176"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-rond-het-huis-6c7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-in-de-supermarkt-9832"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-bakkerij-5530",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-bakkerij-5530"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-strand-6465",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-strand-6465"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-vogels-14dd",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-vogels-14dd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-vogels-2-6ff7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-lichaamsdelen-fd10"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-ontbijt-d934",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-ontbijt-d934"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-kamperen-70b3",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-kamperen-70b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-kerstmis-075e",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-kerstmis-075e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-klaslokaal-2cca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-kleding-2a37",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-kleding-2a37"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-kleuren-a2d6",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-kleuren-a2d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-desserts-en-snoep-e890"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-dinosaurussen-9ec5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-pasen-5014",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-pasen-5014"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-emoties-b771",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-emoties-b771"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-boerderijdieren-8774"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-bloemen-fd3c",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-bloemen-fd3c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-boswezens-a18c",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-boswezens-a18c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-fruit-9d6e",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-fruit-9d6e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-meubels-aee9",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-meubels-aee9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-ziekenhuis-158f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-insecten-en-beestjes-fb0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-keukengerei-d7b7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-muziek-3de7",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-muziek-3de7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-beroepen-3055",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-beroepen-3055"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-oceaanleven-3519",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-oceaanleven-3519"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-huisdieren-e66d",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-huisdieren-e66d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-postkantoor-40f6",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-postkantoor-40f6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-reptielen-en-amfibieen-e145"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-vormen-4b3b",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-vormen-4b3b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-ruimte-a149",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-ruimte-a149"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-lente-c792",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-lente-c792"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-zomer-547f",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-zomer-547f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-thanksgiving-a3fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-dingen-die-vliegen-b770"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-gereedschap-d601",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-gereedschap-d601"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-speelgoed-8de3",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-speelgoed-8de3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-bomen-7576",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-bomen-7576"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-groenten-7402",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-groenten-7402"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-voertuigen-c265",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-voertuigen-c265"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-weer-f4a1",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-weer-f4a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-winter-d2fa",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-winter-d2fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "cardinal-arrows",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16",
+      "siblings": [
+        "schatzoektocht-op-neer-links-rechts-dierentuindieren-1d16"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-accessoires-7351",
+      "siblings": [
+        "schatzoektocht-windrichtingen-accessoires-7351"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-activiteiten-e41d",
+      "siblings": [
+        "schatzoektocht-windrichtingen-activiteiten-e41d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-dieren-91f3",
+      "siblings": [
+        "schatzoektocht-windrichtingen-dieren-91f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-rond-het-huis-031c",
+      "siblings": [
+        "schatzoektocht-windrichtingen-rond-het-huis-031c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-in-de-supermarkt-2547",
+      "siblings": [
+        "schatzoektocht-windrichtingen-in-de-supermarkt-2547"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-bakkerij-56fa",
+      "siblings": [
+        "schatzoektocht-windrichtingen-bakkerij-56fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-strand-66d0",
+      "siblings": [
+        "schatzoektocht-windrichtingen-strand-66d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-vogels-aed9",
+      "siblings": [
+        "schatzoektocht-windrichtingen-vogels-aed9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-vogels-2-b47c",
+      "siblings": [
+        "schatzoektocht-windrichtingen-vogels-2-b47c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-lichaamsdelen-112c",
+      "siblings": [
+        "schatzoektocht-windrichtingen-lichaamsdelen-112c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-ontbijt-8a4c",
+      "siblings": [
+        "schatzoektocht-windrichtingen-ontbijt-8a4c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-kamperen-f171",
+      "siblings": [
+        "schatzoektocht-windrichtingen-kamperen-f171"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-kerstmis-a6f3",
+      "siblings": [
+        "schatzoektocht-windrichtingen-kerstmis-a6f3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-klaslokaal-55af",
+      "siblings": [
+        "schatzoektocht-windrichtingen-klaslokaal-55af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-kleding-85c2",
+      "siblings": [
+        "schatzoektocht-windrichtingen-kleding-85c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-kleuren-7d40",
+      "siblings": [
+        "schatzoektocht-windrichtingen-kleuren-7d40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-desserts-en-snoep-316e",
+      "siblings": [
+        "schatzoektocht-windrichtingen-desserts-en-snoep-316e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-dinosaurussen-8540",
+      "siblings": [
+        "schatzoektocht-windrichtingen-dinosaurussen-8540"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-pasen-1fda",
+      "siblings": [
+        "schatzoektocht-windrichtingen-pasen-1fda"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-emoties-1def",
+      "siblings": [
+        "schatzoektocht-windrichtingen-emoties-1def"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-boerderijdieren-2526",
+      "siblings": [
+        "schatzoektocht-windrichtingen-boerderijdieren-2526"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-bloemen-e288",
+      "siblings": [
+        "schatzoektocht-windrichtingen-bloemen-e288"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-boswezens-a887",
+      "siblings": [
+        "schatzoektocht-windrichtingen-boswezens-a887"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-fruit-6431",
+      "siblings": [
+        "schatzoektocht-windrichtingen-fruit-6431"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-meubels-8de0",
+      "siblings": [
+        "schatzoektocht-windrichtingen-meubels-8de0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-ziekenhuis-fca6",
+      "siblings": [
+        "schatzoektocht-windrichtingen-ziekenhuis-fca6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6",
+      "siblings": [
+        "schatzoektocht-windrichtingen-insecten-en-beestjes-aae6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-keukengerei-8831",
+      "siblings": [
+        "schatzoektocht-windrichtingen-keukengerei-8831"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-muziek-2ee6",
+      "siblings": [
+        "schatzoektocht-windrichtingen-muziek-2ee6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-beroepen-3ea8",
+      "siblings": [
+        "schatzoektocht-windrichtingen-beroepen-3ea8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-oceaanleven-9af3",
+      "siblings": [
+        "schatzoektocht-windrichtingen-oceaanleven-9af3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-huisdieren-8ae2",
+      "siblings": [
+        "schatzoektocht-windrichtingen-huisdieren-8ae2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-postkantoor-9c98",
+      "siblings": [
+        "schatzoektocht-windrichtingen-postkantoor-9c98"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e",
+      "siblings": [
+        "schatzoektocht-windrichtingen-reptielen-en-amfibieen-ca9e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-vormen-cc69",
+      "siblings": [
+        "schatzoektocht-windrichtingen-vormen-cc69"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-ruimte-9ec4",
+      "siblings": [
+        "schatzoektocht-windrichtingen-ruimte-9ec4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-lente-15ae",
+      "siblings": [
+        "schatzoektocht-windrichtingen-lente-15ae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-zomer-52cd",
+      "siblings": [
+        "schatzoektocht-windrichtingen-zomer-52cd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-thanksgiving-b960",
+      "siblings": [
+        "schatzoektocht-windrichtingen-thanksgiving-b960"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8",
+      "siblings": [
+        "schatzoektocht-windrichtingen-dingen-die-vliegen-4dc8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-gereedschap-7b35",
+      "siblings": [
+        "schatzoektocht-windrichtingen-gereedschap-7b35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-speelgoed-63fc",
+      "siblings": [
+        "schatzoektocht-windrichtingen-speelgoed-63fc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-bomen-8d47",
+      "siblings": [
+        "schatzoektocht-windrichtingen-bomen-8d47"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-groenten-4d93",
+      "siblings": [
+        "schatzoektocht-windrichtingen-groenten-4d93"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-voertuigen-3dfc",
+      "siblings": [
+        "schatzoektocht-windrichtingen-voertuigen-3dfc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-weer-c48b",
+      "siblings": [
+        "schatzoektocht-windrichtingen-weer-c48b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-winter-1942",
+      "siblings": [
+        "schatzoektocht-windrichtingen-winter-1942"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "compass",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "schatzoektocht-windrichtingen-dierentuindieren-9770",
+      "siblings": [
+        "schatzoektocht-windrichtingen-dierentuindieren-9770"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    }
+  ]
+}

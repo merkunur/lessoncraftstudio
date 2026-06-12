@@ -1,0 +1,1400 @@
+{
+  "locale": "nl",
+  "exerciseType": "picture-path",
+  "level": "kleuters",
+  "rawRowCount": 86,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "choose-path": 47,
+    "classic-maze": 36
+  },
+  "totalValid": 83,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "choose-path",
+    "classic-maze"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "choose-path",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-accessoires-7ced",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-accessoires-7ced"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-activiteiten-5aea",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-activiteiten-5aea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-dieren-2665",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-dieren-2665"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-rond-het-huis-908a",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-rond-het-huis-908a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-in-de-supermarkt-fe29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-bakkerij-6a9f",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-bakkerij-6a9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-strand-25f5",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-strand-25f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-vogels-2b80",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-vogels-2b80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-vogels-2-9d03",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-vogels-2-9d03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-lichaamsdelen-9517"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-ontbijt-30c4",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-ontbijt-30c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-kamperen-f06d",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-kamperen-f06d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-kerstmis-7677",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-kerstmis-7677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-klaslokaal-1fb6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-kleding-10b3",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-kleding-10b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-kleuren-be9d",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-kleuren-be9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-desserts-en-snoep-5ac8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-dinosaurussen-87f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-pasen-9e28",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-pasen-9e28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-emoties-e376",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-emoties-e376"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-boerderijdieren-ca11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-bloemen-5697",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-bloemen-5697"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-boswezens-0b65",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-boswezens-0b65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-fruit-015d",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-fruit-015d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-meubels-172b",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-meubels-172b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-ziekenhuis-06dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-insecten-en-beestjes-9d6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-keukengerei-1a07",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-keukengerei-1a07"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-muziek-fd50",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-muziek-fd50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-beroepen-15fb",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-beroepen-15fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-oceaanleven-175f",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-oceaanleven-175f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-huisdieren-f98b",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-huisdieren-f98b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-postkantoor-1b4b",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-postkantoor-1b4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-vormen-3977",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-vormen-3977"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-ruimte-ed0e",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-ruimte-ed0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-lente-8035",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-lente-8035"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-zomer-6118",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-zomer-6118"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-thanksgiving-58d0",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-thanksgiving-58d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-dingen-die-vliegen-84f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-gereedschap-b27e",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-gereedschap-b27e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-speelgoed-85d1",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-speelgoed-85d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-bomen-7ad0",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-bomen-7ad0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-groenten-d836",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-groenten-d836"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-voertuigen-6761",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-voertuigen-6761"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-weer-372e",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-weer-372e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-winter-8b3f",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-winter-8b3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "choose-path",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "beeldpad-kies-het-juiste-pad-dierentuindieren-8973",
+      "siblings": [
+        "beeldpad-kies-het-juiste-pad-dierentuindieren-8973"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-accessoires-dded",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-accessoires-dded"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-activiteiten-ceb8",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-activiteiten-ceb8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-rond-het-huis-3084",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-rond-het-huis-3084"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-in-de-supermarkt-858a",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-in-de-supermarkt-858a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-bakkerij-a619",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-bakkerij-a619"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-strand-0163",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-strand-0163"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-lichaamsdelen-29df",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-lichaamsdelen-29df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-ontbijt-f5ae",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-ontbijt-f5ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-kamperen-4cef",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-kamperen-4cef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-kerstmis-2257",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-kerstmis-2257"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-klaslokaal-c2cc",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-klaslokaal-c2cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-kleding-c1fa",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-kleding-c1fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-desserts-en-snoep-6d9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-dinosaurussen-cd30",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-dinosaurussen-cd30"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-pasen-8e6d",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-pasen-8e6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-bloemen-904d",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-bloemen-904d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-fruit-74ce",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-fruit-74ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-meubels-1220",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-meubels-1220"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-ziekenhuis-4dcf",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-ziekenhuis-4dcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-keukengerei-0f70",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-keukengerei-0f70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-muziek-9c11",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-muziek-9c11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-beroepen-a19b",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-beroepen-a19b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-oceaanleven-d2ba",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-oceaanleven-d2ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-postkantoor-bb68",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-postkantoor-bb68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-vormen-1a7e",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-vormen-1a7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-ruimte-f1b6",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-ruimte-f1b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-lente-c789",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-lente-c789"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-zomer-7b8b",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-zomer-7b8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-thanksgiving-eb72",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-thanksgiving-eb72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-gereedschap-25e6",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-gereedschap-25e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-speelgoed-f361",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-speelgoed-f361"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-bomen-302b",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-bomen-302b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-groenten-459e",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-groenten-459e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-voertuigen-d669",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-voertuigen-d669"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-weer-1243",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-weer-1243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "classic-maze",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "beeldpad-klassiek-doolhof-winter-090a",
+      "siblings": [
+        "beeldpad-klassiek-doolhof-winter-090a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    }
+  ]
+}

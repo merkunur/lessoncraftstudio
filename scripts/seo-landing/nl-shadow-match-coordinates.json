@@ -1,0 +1,1545 @@
+{
+  "locale": "nl",
+  "exerciseType": "shadow-match",
+  "level": "kleuters",
+  "rawRowCount": 95,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 45,
+    "make-whole": 47
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-accessoires-c7f5",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-accessoires-c7f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-activiteiten-9ec8",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-activiteiten-9ec8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-dieren",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-dieren",
+        "schaduw-koppelen-koppel-de-schaduw-dieren-b878"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-rond-het-huis-5c9d",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-rond-het-huis-5c9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-in-de-supermarkt-5a2f",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-in-de-supermarkt-5a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-bakkerij-ebbb",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-bakkerij-ebbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-strand-d719",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-strand-d719"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-vogels-f609",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-vogels-f609"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-vogels-2-72ac",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-vogels-2-72ac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-lichaamsdelen-f50f",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-lichaamsdelen-f50f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-ontbijt-1bf1",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-ontbijt-1bf1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-kamperen-3a3c",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-kamperen-3a3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-kerstmis-93fc",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-kerstmis-93fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-klaslokaal-b35d",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-klaslokaal-b35d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-kleding-8436",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-kleding-8436"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-desserts-en-snoep-b5e1",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-desserts-en-snoep-b5e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-dinosaurussen-c1de",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-dinosaurussen-c1de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-pasen-38a4",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-pasen-38a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-boerderijdieren-90ed",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-boerderijdieren-90ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-bloemen-7b45",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-bloemen-7b45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-boswezens-3870",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-boswezens-3870"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-fruit-60be",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-fruit-60be"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-meubels-ccd4",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-meubels-ccd4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-ziekenhuis-2c8e",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-ziekenhuis-2c8e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-insecten-en-beestjes-825b",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-insecten-en-beestjes-825b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-keukengerei-1ee6",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-keukengerei-1ee6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-muziek-6950",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-muziek-6950"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-beroepen-bd9a",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-beroepen-bd9a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-oceaanleven-55b0",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-oceaanleven-55b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-huisdieren-19c6",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-huisdieren-19c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-postkantoor-ff2d",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-postkantoor-ff2d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-reptielen-en-amfibieen-d5e1",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-reptielen-en-amfibieen-d5e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-ruimte-c31d",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-ruimte-c31d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-lente-7fdc",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-lente-7fdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-zomer-1343",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-zomer-1343"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-thanksgiving-6974",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-thanksgiving-6974"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-dingen-die-vliegen-382b",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-dingen-die-vliegen-382b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-gereedschap-2a8b",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-gereedschap-2a8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-speelgoed-e240",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-speelgoed-e240"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-bomen-c83a",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-bomen-c83a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-groenten-51a5",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-groenten-51a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-voertuigen-b942",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-voertuigen-b942"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-weer-b7d6",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-weer-b7d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-winter-e41c",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-winter-e41c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "schaduw-koppelen-koppel-de-schaduw-dierentuindieren-a29f",
+      "siblings": [
+        "schaduw-koppelen-koppel-de-schaduw-dierentuindieren-a29f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-accessoires-f654",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-accessoires-f654"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-activiteiten-f04f",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-activiteiten-f04f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-dieren-a660",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-dieren-a660"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-rond-het-huis-f24f",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-rond-het-huis-f24f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-in-de-supermarkt-400a",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-in-de-supermarkt-400a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-bakkerij-3cb7",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-bakkerij-3cb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-strand-9d14",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-strand-9d14"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-vogels-7e51",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-vogels-7e51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-vogels-2-f87c",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-vogels-2-f87c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-lichaamsdelen-cc98",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-lichaamsdelen-cc98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-ontbijt-f9c1",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-ontbijt-f9c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-kamperen-92f3",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-kamperen-92f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-kerstmis-d482",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-kerstmis-d482"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-klaslokaal-34cd",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-klaslokaal-34cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-kleding-4421",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-kleding-4421"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-desserts-en-snoep-7215",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-desserts-en-snoep-7215"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-dinosaurussen-8ef0",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-dinosaurussen-8ef0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-pasen-11ab",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-pasen-11ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-emoties-f4c6",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-emoties-f4c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-boerderijdieren-d030",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-boerderijdieren-d030"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-bloemen-7294",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-bloemen-7294"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-boswezens-d9c4",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-boswezens-d9c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-fruit-e6b6",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-fruit-e6b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-meubels-6ac3",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-meubels-6ac3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-ziekenhuis-1b78",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-ziekenhuis-1b78"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-insecten-en-beestjes-a3f8",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-insecten-en-beestjes-a3f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-keukengerei-4bdc",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-keukengerei-4bdc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-muziek-875d",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-muziek-875d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-beroepen-1155",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-beroepen-1155"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-oceaanleven-e661",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-oceaanleven-e661"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-huisdieren-08a4",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-huisdieren-08a4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-postkantoor-3f05",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-postkantoor-3f05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-reptielen-en-amfibieen-ea0d",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-reptielen-en-amfibieen-ea0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-vormen-a6e8",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-vormen-a6e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-ruimte-5b6b",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-ruimte-5b6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-lente-cdf4",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-lente-cdf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-zomer-5d17",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-zomer-5d17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-thanksgiving-83df",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-thanksgiving-83df"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-dingen-die-vliegen-a59e",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-dingen-die-vliegen-a59e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-gereedschap-7e3e",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-gereedschap-7e3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-speelgoed-2568",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-speelgoed-2568"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-bomen-8130",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-bomen-8130"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-groenten-1403",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-groenten-1403"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-voertuigen-bf1e",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-voertuigen-bf1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-weer-6f10",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-weer-6f10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-winter-5d0e",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-winter-5d0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "schaduw-koppelen-maak-het-heel-dierentuindieren-ed65",
+      "siblings": [
+        "schaduw-koppelen-maak-het-heel-dierentuindieren-ed65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    }
+  ]
+}

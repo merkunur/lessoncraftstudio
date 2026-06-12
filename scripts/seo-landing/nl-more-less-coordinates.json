@@ -1,0 +1,2036 @@
+{
+  "locale": "nl",
+  "exerciseType": "more-less",
+  "level": "kleuters",
+  "rawRowCount": 148,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 47,
+    "image-image": 49,
+    "image-number": 48
+  },
+  "totalValid": 120,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "check-cross/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "check-cross/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "check-cross/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "check-cross/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "check-cross/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "check-cross/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "check-cross/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "check-cross/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-accessoires-f6bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-dieren-732d",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-dieren-732d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-rond-het-huis-0f03"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-in-de-supermarkt-9e08"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-bakkerij-d3da"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-strand-2a2a",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-strand-2a2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-vogels-62c9",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-vogels-62c9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-vogels-2-6a5b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-ontbijt-8c60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-kamperen-4a98"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-kerstmis-7d79"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-klaslokaal-8b44"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-kleding-5df0",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-kleding-5df0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-desserts-en-snoep-fa4a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-dinosaurussen-ea13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-pasen-4402",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-pasen-4402"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-boerderijdieren-e2c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-bloemen-6fd4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-boswezens-8bfd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-fruit-124f",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-fruit-124f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-meubels-8426",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-meubels-8426"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-ziekenhuis-72fd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-insecten-en-beestjes-28f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-keukengerei-b1d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-muziek-9f8c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-beroepen-081c",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-beroepen-081c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-huisdieren-9050"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-postkantoor-0910"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-reptielen-en-amfibieen-e724"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-vormen-3651",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-vormen-3651"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-ruimte-31e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-thanksgiving-e818"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-dingen-die-vliegen-5ec3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-gereedschap-4cf6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-speelgoed-0b6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-bomen-ee14",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-bomen-ee14"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-groenten-f99c",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-groenten-f99c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-voertuigen-a36d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126",
+      "siblings": [
+        "meer-minder-aankruisen-en-doorstrepen-dierentuindieren-4126"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-accessoires-693d",
+      "siblings": [
+        "meer-minder-beeld-beeld-accessoires-693d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-dieren-4602",
+      "siblings": [
+        "meer-minder-beeld-beeld-dieren-4602"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-rond-het-huis-dec0",
+      "siblings": [
+        "meer-minder-beeld-beeld-rond-het-huis-dec0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-in-de-supermarkt-eab6",
+      "siblings": [
+        "meer-minder-beeld-beeld-in-de-supermarkt-eab6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-bakkerij-5b66",
+      "siblings": [
+        "meer-minder-beeld-beeld-bakkerij-5b66"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-strand-5fa4",
+      "siblings": [
+        "meer-minder-beeld-beeld-strand-5fa4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-vogels-8af7",
+      "siblings": [
+        "meer-minder-beeld-beeld-vogels-8af7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-vogels-2-1c13",
+      "siblings": [
+        "meer-minder-beeld-beeld-vogels-2-1c13"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-ontbijt-f549",
+      "siblings": [
+        "meer-minder-beeld-beeld-ontbijt-f549"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-kamperen-90f2",
+      "siblings": [
+        "meer-minder-beeld-beeld-kamperen-90f2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-kerstmis-c5d4",
+      "siblings": [
+        "meer-minder-beeld-beeld-kerstmis-c5d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-klaslokaal-592b",
+      "siblings": [
+        "meer-minder-beeld-beeld-klaslokaal-592b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-kleding-17ef",
+      "siblings": [
+        "meer-minder-beeld-beeld-kleding-17ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-desserts-en-snoep-d61a",
+      "siblings": [
+        "meer-minder-beeld-beeld-desserts-en-snoep-d61a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-dinosaurussen-3ade",
+      "siblings": [
+        "meer-minder-beeld-beeld-dinosaurussen-3ade"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-pasen-a4d1",
+      "siblings": [
+        "meer-minder-beeld-beeld-pasen-a4d1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-boerderijdieren-2d60",
+      "siblings": [
+        "meer-minder-beeld-beeld-boerderijdieren-2d60"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-bloemen-7974",
+      "siblings": [
+        "meer-minder-beeld-beeld-bloemen-7974"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-boswezens-7c78",
+      "siblings": [
+        "meer-minder-beeld-beeld-boswezens-7c78"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-fruit-1bf6",
+      "siblings": [
+        "meer-minder-beeld-beeld-fruit-1bf6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-meubels-56c1",
+      "siblings": [
+        "meer-minder-beeld-beeld-meubels-56c1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-ziekenhuis-3c43",
+      "siblings": [
+        "meer-minder-beeld-beeld-ziekenhuis-3c43"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-insecten-en-beestjes-3ba2",
+      "siblings": [
+        "meer-minder-beeld-beeld-insecten-en-beestjes-3ba2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-keukengerei-188c",
+      "siblings": [
+        "meer-minder-beeld-beeld-keukengerei-188c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-diversen-3b90",
+      "siblings": [
+        "meer-minder-beeld-beeld-diversen-3b90"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-muziek-766e",
+      "siblings": [
+        "meer-minder-beeld-beeld-muziek-766e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-beroepen-3762",
+      "siblings": [
+        "meer-minder-beeld-beeld-beroepen-3762"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-oceaanleven-1ff5",
+      "siblings": [
+        "meer-minder-beeld-beeld-oceaanleven-1ff5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-huisdieren-1b26",
+      "siblings": [
+        "meer-minder-beeld-beeld-huisdieren-1b26"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-postkantoor-6e2a",
+      "siblings": [
+        "meer-minder-beeld-beeld-postkantoor-6e2a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-reptielen-en-amfibieen-5638",
+      "siblings": [
+        "meer-minder-beeld-beeld-reptielen-en-amfibieen-5638"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-vormen-44c3",
+      "siblings": [
+        "meer-minder-beeld-beeld-vormen-44c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-ruimte-8aba",
+      "siblings": [
+        "meer-minder-beeld-beeld-ruimte-8aba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-thanksgiving-7dd2",
+      "siblings": [
+        "meer-minder-beeld-beeld-thanksgiving-7dd2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-dingen-die-vliegen-53c0",
+      "siblings": [
+        "meer-minder-beeld-beeld-dingen-die-vliegen-53c0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-gereedschap-cb04",
+      "siblings": [
+        "meer-minder-beeld-beeld-gereedschap-cb04"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-speelgoed-b57f",
+      "siblings": [
+        "meer-minder-beeld-beeld-speelgoed-b57f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-bomen-a868",
+      "siblings": [
+        "meer-minder-beeld-beeld-bomen-a868"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-groenten-77ae",
+      "siblings": [
+        "meer-minder-beeld-beeld-groenten-77ae"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-voertuigen-b7b4",
+      "siblings": [
+        "meer-minder-beeld-beeld-voertuigen-b7b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-beeld-dierentuindieren-c6d5",
+      "siblings": [
+        "meer-minder-beeld-beeld-dierentuindieren-c6d5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-accessoires-9b30",
+      "siblings": [
+        "meer-minder-beeld-getal-accessoires-9b30"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-dieren-467d",
+      "siblings": [
+        "meer-minder-beeld-getal-dieren-467d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-rond-het-huis-b99b",
+      "siblings": [
+        "meer-minder-beeld-getal-rond-het-huis-b99b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-in-de-supermarkt-1ce1",
+      "siblings": [
+        "meer-minder-beeld-getal-in-de-supermarkt-1ce1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-bakkerij-616e",
+      "siblings": [
+        "meer-minder-beeld-getal-bakkerij-616e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-strand-2cc8",
+      "siblings": [
+        "meer-minder-beeld-getal-strand-2cc8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-vogels-146a",
+      "siblings": [
+        "meer-minder-beeld-getal-vogels-146a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-vogels-2-8ee9",
+      "siblings": [
+        "meer-minder-beeld-getal-vogels-2-8ee9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-ontbijt-12f3",
+      "siblings": [
+        "meer-minder-beeld-getal-ontbijt-12f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-kamperen-36c7",
+      "siblings": [
+        "meer-minder-beeld-getal-kamperen-36c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-kerstmis-7c85",
+      "siblings": [
+        "meer-minder-beeld-getal-kerstmis-7c85"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-klaslokaal-f908",
+      "siblings": [
+        "meer-minder-beeld-getal-klaslokaal-f908"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-kleding-58e3",
+      "siblings": [
+        "meer-minder-beeld-getal-kleding-58e3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-desserts-en-snoep-c136",
+      "siblings": [
+        "meer-minder-beeld-getal-desserts-en-snoep-c136"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-dinosaurussen-40c3",
+      "siblings": [
+        "meer-minder-beeld-getal-dinosaurussen-40c3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-pasen-fabf",
+      "siblings": [
+        "meer-minder-beeld-getal-pasen-fabf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-boerderijdieren-c1d8",
+      "siblings": [
+        "meer-minder-beeld-getal-boerderijdieren-c1d8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-bloemen-2b08",
+      "siblings": [
+        "meer-minder-beeld-getal-bloemen-2b08"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-boswezens-a61d",
+      "siblings": [
+        "meer-minder-beeld-getal-boswezens-a61d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-fruit-5c35",
+      "siblings": [
+        "meer-minder-beeld-getal-fruit-5c35"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-meubels-ca0f",
+      "siblings": [
+        "meer-minder-beeld-getal-meubels-ca0f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-ziekenhuis-5484",
+      "siblings": [
+        "meer-minder-beeld-getal-ziekenhuis-5484"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-insecten-en-beestjes-5fcd",
+      "siblings": [
+        "meer-minder-beeld-getal-insecten-en-beestjes-5fcd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-keukengerei-69fe",
+      "siblings": [
+        "meer-minder-beeld-getal-keukengerei-69fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-muziek-0187",
+      "siblings": [
+        "meer-minder-beeld-getal-muziek-0187"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-beroepen-3e36",
+      "siblings": [
+        "meer-minder-beeld-getal-beroepen-3e36"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-oceaanleven-63ab",
+      "siblings": [
+        "meer-minder-beeld-getal-oceaanleven-63ab"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-huisdieren-e922",
+      "siblings": [
+        "meer-minder-beeld-getal-huisdieren-e922"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-postkantoor-5502",
+      "siblings": [
+        "meer-minder-beeld-getal-postkantoor-5502"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff",
+      "siblings": [
+        "meer-minder-beeld-getal-reptielen-en-amfibieen-9eff"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-vormen-25b3",
+      "siblings": [
+        "meer-minder-beeld-getal-vormen-25b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-ruimte-c2de",
+      "siblings": [
+        "meer-minder-beeld-getal-ruimte-c2de"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-thanksgiving-8338",
+      "siblings": [
+        "meer-minder-beeld-getal-thanksgiving-8338"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-dingen-die-vliegen-1009",
+      "siblings": [
+        "meer-minder-beeld-getal-dingen-die-vliegen-1009"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-gereedschap-df04",
+      "siblings": [
+        "meer-minder-beeld-getal-gereedschap-df04"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-speelgoed-2072",
+      "siblings": [
+        "meer-minder-beeld-getal-speelgoed-2072"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-bomen-bbe5",
+      "siblings": [
+        "meer-minder-beeld-getal-bomen-bbe5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-groenten-f154",
+      "siblings": [
+        "meer-minder-beeld-getal-groenten-f154"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-voertuigen-5bb5",
+      "siblings": [
+        "meer-minder-beeld-getal-voertuigen-5bb5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "meer-minder-beeld-getal-dierentuindieren-ca0b",
+      "siblings": [
+        "meer-minder-beeld-getal-dierentuindieren-ca0b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "kleuters"
+    }
+  ]
+}

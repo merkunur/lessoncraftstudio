@@ -1,0 +1,1450 @@
+{
+  "locale": "nl",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 140,
+  "pairCount": 139,
+  "leftThemes": [
+    "accessories",
+    "animals",
+    "bakery",
+    "flowers",
+    "tree"
+  ],
+  "rightThemes": [
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "body_parts",
+    "breakfast",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "coordinates": [
+    {
+      "pairKey": "accessories-vs-activities",
+      "left": "accessories",
+      "right": "activities",
+      "canonical": "beelden-sorteren-accessories-vs-activities-71b1",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-activities-71b1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "beelden-sorteren-accessories-vs-animals-8b75",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-animals-8b75"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-around_the_house",
+      "left": "accessories",
+      "right": "around_the_house",
+      "canonical": "beelden-sorteren-accessories-vs-around-the-house-6a55",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-around-the-house-6a55"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-at_the_supermarket",
+      "left": "accessories",
+      "right": "at_the_supermarket",
+      "canonical": "beelden-sorteren-accessories-vs-at-the-supermarket-7dea",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-at-the-supermarket-7dea"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-bakery",
+      "left": "accessories",
+      "right": "bakery",
+      "canonical": "beelden-sorteren-accessories-vs-bakery-b7c7",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-bakery-b7c7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-beach",
+      "left": "accessories",
+      "right": "beach",
+      "canonical": "beelden-sorteren-accessories-vs-beach-4d75",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-beach-4d75"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-birds",
+      "left": "accessories",
+      "right": "birds",
+      "canonical": "beelden-sorteren-accessories-vs-birds-ffc8",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-birds-ffc8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-body_parts",
+      "left": "accessories",
+      "right": "body_parts",
+      "canonical": "beelden-sorteren-accessories-vs-body-parts-a10f",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-body-parts-a10f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-breakfast",
+      "left": "accessories",
+      "right": "breakfast",
+      "canonical": "beelden-sorteren-accessories-vs-breakfast-f7fd",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-breakfast-f7fd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-classroom",
+      "left": "accessories",
+      "right": "classroom",
+      "canonical": "beelden-sorteren-accessories-vs-classroom-c082",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-classroom-c082"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-desserts_and_sweets",
+      "left": "accessories",
+      "right": "desserts_and_sweets",
+      "canonical": "beelden-sorteren-accessories-vs-desserts-and-sweets-7e65",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-desserts-and-sweets-7e65"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-dinosaurs",
+      "left": "accessories",
+      "right": "dinosaurs",
+      "canonical": "beelden-sorteren-accessories-vs-dinosaurs-f7d2",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-dinosaurs-f7d2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-easter",
+      "left": "accessories",
+      "right": "easter",
+      "canonical": "beelden-sorteren-accessories-vs-easter-bb88",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-easter-bb88"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-farm_animals",
+      "left": "accessories",
+      "right": "farm_animals",
+      "canonical": "beelden-sorteren-accessories-vs-farm-animals-5e6a",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-farm-animals-5e6a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "beelden-sorteren-accessories-vs-flowers-3681",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-flowers-3681"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-forest_creatures",
+      "left": "accessories",
+      "right": "forest_creatures",
+      "canonical": "beelden-sorteren-accessories-vs-forest-creatures-062f",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-forest-creatures-062f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-fruits",
+      "left": "accessories",
+      "right": "fruits",
+      "canonical": "beelden-sorteren-accessories-vs-fruits-2f2b",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-fruits-2f2b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-furniture",
+      "left": "accessories",
+      "right": "furniture",
+      "canonical": "beelden-sorteren-accessories-vs-furniture-d94a",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-furniture-d94a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-hospital",
+      "left": "accessories",
+      "right": "hospital",
+      "canonical": "beelden-sorteren-accessories-vs-hospital-7b9e",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-hospital-7b9e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-insects_and_bugs",
+      "left": "accessories",
+      "right": "insects_and_bugs",
+      "canonical": "beelden-sorteren-accessories-vs-insects-and-bugs-12ab",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-insects-and-bugs-12ab"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-kitchen_tools",
+      "left": "accessories",
+      "right": "kitchen_tools",
+      "canonical": "beelden-sorteren-accessories-vs-kitchen-tools-be16",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-kitchen-tools-be16"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-music",
+      "left": "accessories",
+      "right": "music",
+      "canonical": "beelden-sorteren-accessories-vs-music-da0a",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-music-da0a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-occupations",
+      "left": "accessories",
+      "right": "occupations",
+      "canonical": "beelden-sorteren-accessories-vs-occupations-2c9f",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-occupations-2c9f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-ocean_life",
+      "left": "accessories",
+      "right": "ocean_life",
+      "canonical": "beelden-sorteren-accessories-vs-ocean-life-2430",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-ocean-life-2430"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-pets",
+      "left": "accessories",
+      "right": "pets",
+      "canonical": "beelden-sorteren-accessories-vs-pets-c82c",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-pets-c82c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-post_office",
+      "left": "accessories",
+      "right": "post_office",
+      "canonical": "beelden-sorteren-accessories-vs-post-office-9217",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-post-office-9217"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-reptiles_and_amphibians",
+      "left": "accessories",
+      "right": "reptiles_and_amphibians",
+      "canonical": "beelden-sorteren-accessories-vs-reptiles-and-amphibians-a238",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-reptiles-and-amphibians-a238"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-shapes",
+      "left": "accessories",
+      "right": "shapes",
+      "canonical": "beelden-sorteren-accessories-vs-shapes-808d",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-shapes-808d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-space",
+      "left": "accessories",
+      "right": "space",
+      "canonical": "beelden-sorteren-accessories-vs-space-96da",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-space-96da"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-spring",
+      "left": "accessories",
+      "right": "spring",
+      "canonical": "beelden-sorteren-accessories-vs-spring-3058",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-spring-3058"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-summer",
+      "left": "accessories",
+      "right": "summer",
+      "canonical": "beelden-sorteren-accessories-vs-summer-ec3e",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-summer-ec3e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-thanksgivinng",
+      "left": "accessories",
+      "right": "thanksgivinng",
+      "canonical": "beelden-sorteren-accessories-vs-thanksgivinng-92ab",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-thanksgivinng-92ab"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-things_that_fly",
+      "left": "accessories",
+      "right": "things_that_fly",
+      "canonical": "beelden-sorteren-accessories-vs-things-that-fly-cb72",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-things-that-fly-cb72"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tools",
+      "left": "accessories",
+      "right": "tools",
+      "canonical": "beelden-sorteren-accessories-vs-tools-51f7",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-tools-51f7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-toys",
+      "left": "accessories",
+      "right": "toys",
+      "canonical": "beelden-sorteren-accessories-vs-toys-152b",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-toys-152b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tree",
+      "left": "accessories",
+      "right": "tree",
+      "canonical": "beelden-sorteren-accessories-vs-tree-c209",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-tree-c209"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vegetables",
+      "left": "accessories",
+      "right": "vegetables",
+      "canonical": "beelden-sorteren-accessories-vs-vegetables-7429",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-vegetables-7429"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vehicles",
+      "left": "accessories",
+      "right": "vehicles",
+      "canonical": "beelden-sorteren-accessories-vs-vehicles-0b04",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-vehicles-0b04"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-weather",
+      "left": "accessories",
+      "right": "weather",
+      "canonical": "beelden-sorteren-accessories-vs-weather-f600",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-weather-f600"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-winter",
+      "left": "accessories",
+      "right": "winter",
+      "canonical": "beelden-sorteren-accessories-vs-winter-6a83",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-winter-6a83"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-zoo_animals",
+      "left": "accessories",
+      "right": "zoo_animals",
+      "canonical": "beelden-sorteren-accessories-vs-zoo-animals-6de2",
+      "siblings": [
+        "beelden-sorteren-accessories-vs-zoo-animals-6de2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-around_the_house",
+      "left": "animals",
+      "right": "around_the_house",
+      "canonical": "beelden-sorteren-animals-vs-around-the-house-f152",
+      "siblings": [
+        "beelden-sorteren-animals-vs-around-the-house-f152"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-at_the_supermarket",
+      "left": "animals",
+      "right": "at_the_supermarket",
+      "canonical": "beelden-sorteren-animals-vs-at-the-supermarket-5b5e",
+      "siblings": [
+        "beelden-sorteren-animals-vs-at-the-supermarket-5b5e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-breakfast",
+      "left": "animals",
+      "right": "breakfast",
+      "canonical": "beelden-sorteren-animals-vs-breakfast-bff4",
+      "siblings": [
+        "beelden-sorteren-animals-vs-breakfast-bff4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-christmas",
+      "left": "animals",
+      "right": "christmas",
+      "canonical": "beelden-sorteren-animals-vs-christmas-e1eb",
+      "siblings": [
+        "beelden-sorteren-animals-vs-christmas-e1eb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-classroom",
+      "left": "animals",
+      "right": "classroom",
+      "canonical": "beelden-sorteren-animals-vs-classroom-50cd",
+      "siblings": [
+        "beelden-sorteren-animals-vs-classroom-50cd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-clothing",
+      "left": "animals",
+      "right": "clothing",
+      "canonical": "beelden-sorteren-animals-vs-clothing-34f1",
+      "siblings": [
+        "beelden-sorteren-animals-vs-clothing-34f1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-fruits",
+      "left": "animals",
+      "right": "fruits",
+      "canonical": "beelden-sorteren-animals-vs-fruits-49a1",
+      "siblings": [
+        "beelden-sorteren-animals-vs-fruits-49a1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-furniture",
+      "left": "animals",
+      "right": "furniture",
+      "canonical": "beelden-sorteren-animals-vs-furniture-167b",
+      "siblings": [
+        "beelden-sorteren-animals-vs-furniture-167b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-hospital",
+      "left": "animals",
+      "right": "hospital",
+      "canonical": "beelden-sorteren-animals-vs-hospital-317d",
+      "siblings": [
+        "beelden-sorteren-animals-vs-hospital-317d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-kitchen_tools",
+      "left": "animals",
+      "right": "kitchen_tools",
+      "canonical": "beelden-sorteren-animals-vs-kitchen-tools-8ae5",
+      "siblings": [
+        "beelden-sorteren-animals-vs-kitchen-tools-8ae5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-music",
+      "left": "animals",
+      "right": "music",
+      "canonical": "beelden-sorteren-animals-vs-music-d68d",
+      "siblings": [
+        "beelden-sorteren-animals-vs-music-d68d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-post_office",
+      "left": "animals",
+      "right": "post_office",
+      "canonical": "beelden-sorteren-animals-vs-post-office-aa06",
+      "siblings": [
+        "beelden-sorteren-animals-vs-post-office-aa06"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-shapes",
+      "left": "animals",
+      "right": "shapes",
+      "canonical": "beelden-sorteren-animals-vs-shapes-4141",
+      "siblings": [
+        "beelden-sorteren-animals-vs-shapes-4141"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tools",
+      "left": "animals",
+      "right": "tools",
+      "canonical": "beelden-sorteren-animals-vs-tools-c8d0",
+      "siblings": [
+        "beelden-sorteren-animals-vs-tools-c8d0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vegetables",
+      "left": "animals",
+      "right": "vegetables",
+      "canonical": "beelden-sorteren-animals-vs-vegetables-6140",
+      "siblings": [
+        "beelden-sorteren-animals-vs-vegetables-6140"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-animals",
+      "left": "bakery",
+      "right": "animals",
+      "canonical": "beelden-sorteren-bakery-vs-animals-1f08",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-animals-1f08"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-body_parts",
+      "left": "bakery",
+      "right": "body_parts",
+      "canonical": "beelden-sorteren-bakery-vs-body-parts-7394",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-body-parts-7394"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-christmas",
+      "left": "bakery",
+      "right": "christmas",
+      "canonical": "beelden-sorteren-bakery-vs-christmas-6d0c",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-christmas-6d0c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-classroom",
+      "left": "bakery",
+      "right": "classroom",
+      "canonical": "beelden-sorteren-bakery-vs-classroom-9133",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-classroom-9133"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-clothing",
+      "left": "bakery",
+      "right": "clothing",
+      "canonical": "beelden-sorteren-bakery-vs-clothing-6a8a",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-clothing-6a8a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-dinosaurs",
+      "left": "bakery",
+      "right": "dinosaurs",
+      "canonical": "beelden-sorteren-bakery-vs-dinosaurs-f134",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-dinosaurs-f134"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-easter",
+      "left": "bakery",
+      "right": "easter",
+      "canonical": "beelden-sorteren-bakery-vs-easter-94bf",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-easter-94bf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-farm_animals",
+      "left": "bakery",
+      "right": "farm_animals",
+      "canonical": "beelden-sorteren-bakery-vs-farm-animals-da50",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-farm-animals-da50"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-flowers",
+      "left": "bakery",
+      "right": "flowers",
+      "canonical": "beelden-sorteren-bakery-vs-flowers-ec7a",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-flowers-ec7a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-forest_creatures",
+      "left": "bakery",
+      "right": "forest_creatures",
+      "canonical": "beelden-sorteren-bakery-vs-forest-creatures-a098",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-forest-creatures-a098"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-fruits",
+      "left": "bakery",
+      "right": "fruits",
+      "canonical": "beelden-sorteren-bakery-vs-fruits-4d49",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-fruits-4d49"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-furniture",
+      "left": "bakery",
+      "right": "furniture",
+      "canonical": "beelden-sorteren-bakery-vs-furniture-c069",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-furniture-c069"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-kitchen_tools",
+      "left": "bakery",
+      "right": "kitchen_tools",
+      "canonical": "beelden-sorteren-bakery-vs-kitchen-tools-fa24",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-kitchen-tools-fa24"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-music",
+      "left": "bakery",
+      "right": "music",
+      "canonical": "beelden-sorteren-bakery-vs-music-4311",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-music-4311"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-occupations",
+      "left": "bakery",
+      "right": "occupations",
+      "canonical": "beelden-sorteren-bakery-vs-occupations-aca8",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-occupations-aca8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-ocean_life",
+      "left": "bakery",
+      "right": "ocean_life",
+      "canonical": "beelden-sorteren-bakery-vs-ocean-life-ea27",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-ocean-life-ea27"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-pets",
+      "left": "bakery",
+      "right": "pets",
+      "canonical": "beelden-sorteren-bakery-vs-pets-9e1e",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-pets-9e1e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-post_office",
+      "left": "bakery",
+      "right": "post_office",
+      "canonical": "beelden-sorteren-bakery-vs-post-office-66f1",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-post-office-66f1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-spring",
+      "left": "bakery",
+      "right": "spring",
+      "canonical": "beelden-sorteren-bakery-vs-spring-a086",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-spring-a086"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-things_that_fly",
+      "left": "bakery",
+      "right": "things_that_fly",
+      "canonical": "beelden-sorteren-bakery-vs-things-that-fly-d5cf",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-things-that-fly-d5cf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-tools",
+      "left": "bakery",
+      "right": "tools",
+      "canonical": "beelden-sorteren-bakery-vs-tools-6b63",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-tools-6b63"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-tree",
+      "left": "bakery",
+      "right": "tree",
+      "canonical": "beelden-sorteren-bakery-vs-tree-06f0",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-tree-06f0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-vegetables",
+      "left": "bakery",
+      "right": "vegetables",
+      "canonical": "beelden-sorteren-bakery-vs-vegetables-3b07",
+      "siblings": [
+        "beelden-sorteren-bakery-vs-vegetables-3b07"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-animals",
+      "left": "flowers",
+      "right": "animals",
+      "canonical": "beelden-sorteren-flowers-vs-animals-9c9a",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-animals-9c9a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-at_the_supermarket",
+      "left": "flowers",
+      "right": "at_the_supermarket",
+      "canonical": "beelden-sorteren-flowers-vs-at-the-supermarket-8f12",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-at-the-supermarket-8f12"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-beach",
+      "left": "flowers",
+      "right": "beach",
+      "canonical": "beelden-sorteren-flowers-vs-beach-2040",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-beach-2040"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-birds",
+      "left": "flowers",
+      "right": "birds",
+      "canonical": "beelden-sorteren-flowers-vs-birds-46e2",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-birds-46e2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-body_parts",
+      "left": "flowers",
+      "right": "body_parts",
+      "canonical": "beelden-sorteren-flowers-vs-body-parts-8f10",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-body-parts-8f10"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-christmas",
+      "left": "flowers",
+      "right": "christmas",
+      "canonical": "beelden-sorteren-flowers-vs-christmas-e03f",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-christmas-e03f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-classroom",
+      "left": "flowers",
+      "right": "classroom",
+      "canonical": "beelden-sorteren-flowers-vs-classroom-d1d2",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-classroom-d1d2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-clothing",
+      "left": "flowers",
+      "right": "clothing",
+      "canonical": "beelden-sorteren-flowers-vs-clothing-d112",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-clothing-d112"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-desserts_and_sweets",
+      "left": "flowers",
+      "right": "desserts_and_sweets",
+      "canonical": "beelden-sorteren-flowers-vs-desserts-and-sweets-ce1d",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-desserts-and-sweets-ce1d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-dinosaurs",
+      "left": "flowers",
+      "right": "dinosaurs",
+      "canonical": "beelden-sorteren-flowers-vs-dinosaurs-d6cd",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-dinosaurs-d6cd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-farm_animals",
+      "left": "flowers",
+      "right": "farm_animals",
+      "canonical": "beelden-sorteren-flowers-vs-farm-animals-c4b7",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-farm-animals-c4b7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-forest_creatures",
+      "left": "flowers",
+      "right": "forest_creatures",
+      "canonical": "beelden-sorteren-flowers-vs-forest-creatures-fd13",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-forest-creatures-fd13"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-fruits",
+      "left": "flowers",
+      "right": "fruits",
+      "canonical": "beelden-sorteren-flowers-vs-fruits-4b29",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-fruits-4b29"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-furniture",
+      "left": "flowers",
+      "right": "furniture",
+      "canonical": "beelden-sorteren-flowers-vs-furniture-023d",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-furniture-023d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-insects_and_bugs",
+      "left": "flowers",
+      "right": "insects_and_bugs",
+      "canonical": "beelden-sorteren-flowers-vs-insects-and-bugs-7807",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-insects-and-bugs-7807"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-kitchen_tools",
+      "left": "flowers",
+      "right": "kitchen_tools",
+      "canonical": "beelden-sorteren-flowers-vs-kitchen-tools-510f",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-kitchen-tools-510f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-music",
+      "left": "flowers",
+      "right": "music",
+      "canonical": "beelden-sorteren-flowers-vs-music-92e0",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-music-92e0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-ocean_life",
+      "left": "flowers",
+      "right": "ocean_life",
+      "canonical": "beelden-sorteren-flowers-vs-ocean-life-9a19",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-ocean-life-9a19"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-pets",
+      "left": "flowers",
+      "right": "pets",
+      "canonical": "beelden-sorteren-flowers-vs-pets-524c",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-pets-524c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-thanksgivinng",
+      "left": "flowers",
+      "right": "thanksgivinng",
+      "canonical": "beelden-sorteren-flowers-vs-thanksgivinng-ec8b",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-thanksgivinng-ec8b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-things_that_fly",
+      "left": "flowers",
+      "right": "things_that_fly",
+      "canonical": "beelden-sorteren-flowers-vs-things-that-fly-aa4f",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-things-that-fly-aa4f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-tools",
+      "left": "flowers",
+      "right": "tools",
+      "canonical": "beelden-sorteren-flowers-vs-tools-5f95",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-tools-5f95"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-toys",
+      "left": "flowers",
+      "right": "toys",
+      "canonical": "beelden-sorteren-flowers-vs-toys-e6fc",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-toys-e6fc"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-tree",
+      "left": "flowers",
+      "right": "tree",
+      "canonical": "beelden-sorteren-flowers-vs-tree-2087",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-tree-2087"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-vegetables",
+      "left": "flowers",
+      "right": "vegetables",
+      "canonical": "beelden-sorteren-flowers-vs-vegetables-e2f8",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-vegetables-e2f8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-zoo_animals",
+      "left": "flowers",
+      "right": "zoo_animals",
+      "canonical": "beelden-sorteren-flowers-vs-zoo-animals-63f3",
+      "siblings": [
+        "beelden-sorteren-flowers-vs-zoo-animals-63f3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-animals",
+      "left": "tree",
+      "right": "animals",
+      "canonical": "beelden-sorteren-tree-vs-animals-8cd5",
+      "siblings": [
+        "beelden-sorteren-tree-vs-animals-8cd5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-around_the_house",
+      "left": "tree",
+      "right": "around_the_house",
+      "canonical": "beelden-sorteren-tree-vs-around-the-house-ba72",
+      "siblings": [
+        "beelden-sorteren-tree-vs-around-the-house-ba72"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-at_the_supermarket",
+      "left": "tree",
+      "right": "at_the_supermarket",
+      "canonical": "beelden-sorteren-tree-vs-at-the-supermarket-b56a",
+      "siblings": [
+        "beelden-sorteren-tree-vs-at-the-supermarket-b56a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-beach",
+      "left": "tree",
+      "right": "beach",
+      "canonical": "beelden-sorteren-tree-vs-beach-fca8",
+      "siblings": [
+        "beelden-sorteren-tree-vs-beach-fca8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-birds",
+      "left": "tree",
+      "right": "birds",
+      "canonical": "beelden-sorteren-tree-vs-birds-d6fd",
+      "siblings": [
+        "beelden-sorteren-tree-vs-birds-d6fd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-body_parts",
+      "left": "tree",
+      "right": "body_parts",
+      "canonical": "beelden-sorteren-tree-vs-body-parts-aa3e",
+      "siblings": [
+        "beelden-sorteren-tree-vs-body-parts-aa3e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-breakfast",
+      "left": "tree",
+      "right": "breakfast",
+      "canonical": "beelden-sorteren-tree-vs-breakfast-cd43",
+      "siblings": [
+        "beelden-sorteren-tree-vs-breakfast-cd43"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-christmas",
+      "left": "tree",
+      "right": "christmas",
+      "canonical": "beelden-sorteren-tree-vs-christmas-e06c",
+      "siblings": [
+        "beelden-sorteren-tree-vs-christmas-e06c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-classroom",
+      "left": "tree",
+      "right": "classroom",
+      "canonical": "beelden-sorteren-tree-vs-classroom-b09e",
+      "siblings": [
+        "beelden-sorteren-tree-vs-classroom-b09e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-clothing",
+      "left": "tree",
+      "right": "clothing",
+      "canonical": "beelden-sorteren-tree-vs-clothing-aa79",
+      "siblings": [
+        "beelden-sorteren-tree-vs-clothing-aa79"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-desserts_and_sweets",
+      "left": "tree",
+      "right": "desserts_and_sweets",
+      "canonical": "beelden-sorteren-tree-vs-desserts-and-sweets-0314",
+      "siblings": [
+        "beelden-sorteren-tree-vs-desserts-and-sweets-0314"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-dinosaurs",
+      "left": "tree",
+      "right": "dinosaurs",
+      "canonical": "beelden-sorteren-tree-vs-dinosaurs-b0d7",
+      "siblings": [
+        "beelden-sorteren-tree-vs-dinosaurs-b0d7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-easter",
+      "left": "tree",
+      "right": "easter",
+      "canonical": "beelden-sorteren-tree-vs-easter-3236",
+      "siblings": [
+        "beelden-sorteren-tree-vs-easter-3236"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-forest_creatures",
+      "left": "tree",
+      "right": "forest_creatures",
+      "canonical": "beelden-sorteren-tree-vs-forest-creatures-3960",
+      "siblings": [
+        "beelden-sorteren-tree-vs-forest-creatures-3960"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-fruits",
+      "left": "tree",
+      "right": "fruits",
+      "canonical": "beelden-sorteren-tree-vs-fruits-330d",
+      "siblings": [
+        "beelden-sorteren-tree-vs-fruits-330d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-furniture",
+      "left": "tree",
+      "right": "furniture",
+      "canonical": "beelden-sorteren-tree-vs-furniture-c23d",
+      "siblings": [
+        "beelden-sorteren-tree-vs-furniture-c23d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-hospital",
+      "left": "tree",
+      "right": "hospital",
+      "canonical": "beelden-sorteren-tree-vs-hospital-b3d0",
+      "siblings": [
+        "beelden-sorteren-tree-vs-hospital-b3d0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-insects_and_bugs",
+      "left": "tree",
+      "right": "insects_and_bugs",
+      "canonical": "beelden-sorteren-tree-vs-insects-and-bugs-770e",
+      "siblings": [
+        "beelden-sorteren-tree-vs-insects-and-bugs-770e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-kitchen_tools",
+      "left": "tree",
+      "right": "kitchen_tools",
+      "canonical": "beelden-sorteren-tree-vs-kitchen-tools-bd49",
+      "siblings": [
+        "beelden-sorteren-tree-vs-kitchen-tools-bd49"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-music",
+      "left": "tree",
+      "right": "music",
+      "canonical": "beelden-sorteren-tree-vs-music-bee7",
+      "siblings": [
+        "beelden-sorteren-tree-vs-music-bee7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-ocean_life",
+      "left": "tree",
+      "right": "ocean_life",
+      "canonical": "beelden-sorteren-tree-vs-ocean-life-9e20",
+      "siblings": [
+        "beelden-sorteren-tree-vs-ocean-life-9e20"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-pets",
+      "left": "tree",
+      "right": "pets",
+      "canonical": "beelden-sorteren-tree-vs-pets-d73c",
+      "siblings": [
+        "beelden-sorteren-tree-vs-pets-d73c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-post_office",
+      "left": "tree",
+      "right": "post_office",
+      "canonical": "beelden-sorteren-tree-vs-post-office-d026",
+      "siblings": [
+        "beelden-sorteren-tree-vs-post-office-d026"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-shapes",
+      "left": "tree",
+      "right": "shapes",
+      "canonical": "beelden-sorteren-tree-vs-shapes-4169",
+      "siblings": [
+        "beelden-sorteren-tree-vs-shapes-4169"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-space",
+      "left": "tree",
+      "right": "space",
+      "canonical": "beelden-sorteren-tree-vs-space-9214",
+      "siblings": [
+        "beelden-sorteren-tree-vs-space-9214"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-spring",
+      "left": "tree",
+      "right": "spring",
+      "canonical": "beelden-sorteren-tree-vs-spring-5e43",
+      "siblings": [
+        "beelden-sorteren-tree-vs-spring-5e43"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-summer",
+      "left": "tree",
+      "right": "summer",
+      "canonical": "beelden-sorteren-tree-vs-summer-3b79",
+      "siblings": [
+        "beelden-sorteren-tree-vs-summer-3b79"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-thanksgivinng",
+      "left": "tree",
+      "right": "thanksgivinng",
+      "canonical": "beelden-sorteren-tree-vs-thanksgivinng-aeb3",
+      "siblings": [
+        "beelden-sorteren-tree-vs-thanksgivinng-aeb3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-things_that_fly",
+      "left": "tree",
+      "right": "things_that_fly",
+      "canonical": "beelden-sorteren-tree-vs-things-that-fly-c290",
+      "siblings": [
+        "beelden-sorteren-tree-vs-things-that-fly-c290"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-tools",
+      "left": "tree",
+      "right": "tools",
+      "canonical": "beelden-sorteren-tree-vs-tools-4b84",
+      "siblings": [
+        "beelden-sorteren-tree-vs-tools-4b84"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-vegetables",
+      "left": "tree",
+      "right": "vegetables",
+      "canonical": "beelden-sorteren-tree-vs-vegetables-2cfd",
+      "siblings": [
+        "beelden-sorteren-tree-vs-vegetables-2cfd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-weather",
+      "left": "tree",
+      "right": "weather",
+      "canonical": "beelden-sorteren-tree-vs-weather-925f",
+      "siblings": [
+        "beelden-sorteren-tree-vs-weather-925f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-winter",
+      "left": "tree",
+      "right": "winter",
+      "canonical": "beelden-sorteren-tree-vs-winter-42e2",
+      "siblings": [
+        "beelden-sorteren-tree-vs-winter-42e2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-zoo_animals",
+      "left": "tree",
+      "right": "zoo_animals",
+      "canonical": "beelden-sorteren-tree-vs-zoo-animals-b870",
+      "siblings": [
+        "beelden-sorteren-tree-vs-zoo-animals-b870"
+      ],
+      "n": 1
+    }
+  ]
+}

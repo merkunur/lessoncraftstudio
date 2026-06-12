@@ -1,0 +1,62 @@
+/* sv config: crossword (Bildkorsord) — årskurs 2, stavning, FRAMEWORK-BEARING (CARRIES).
+ * Strand 'Läsa och skriva' (Lgr22). standard L.2.2.d. Single mode (null).
+ * MECHANIC: a CROSSWORD GRID with picture clues. Ditt barn stavar varje ord och skriver in det i
+ * rutorna — VÅGRÄTT OCH LODRÄTT — där orden KORSAR varandra och delar GEMENSAMMA BOKSTÄVER.
+ * En bokstav i varje ruta. CARRIES literacy (spelling), årskurs 2.
+ *
+ * SATURATE: bildkorsord, korsord, stava ordet, skriv in i rutorna, vågrätt och lodrätt,
+ * en bokstav i varje ruta, orden korsar varandra, gemensamma bokstäver. The theme {N_PL} are the
+ * PICTURES clued in the crossword — each is a word ditt barn spells into the grid.
+ *
+ * DIVERGE from the other 3 word/spelling siblings (CRITICAL):
+ *   word-guess   = sound ONE word into a row of blanks (single-word-blank). DO NOT use.
+ *   word-scramble = REORDER given letters into a word (scramble). DO NOT use.
+ *   wordsearch   = FIND hidden words inside a letter grid (find-in-grid). DO NOT use.
+ *   THIS crossword = a GRID where MULTIPLE words CROSS, sharing letters, spelled from picture clues
+ *   across+down. The identity is the CROSSING GRID / vågrätt-och-lodrätt / gemensamma bokstäver.
+ *   NEVER use scramble / single-word-blank / find-hidden-in-grid framing.
+ *
+ * NEVER: "Common Core" / "Bokstavskännedom" / "Fonologisk medvetenhet" / "Taluppfattning och tals
+ * användning" / "Matematiska resonemang" / "Visuell perception" — and NEVER the sibling framings
+ * (kasta om bokstäverna / leta upp gömda ord i bokstavsrutnätet / ett enda ord i en rad av tomma rutor).
+ * NO counting/arithmetic framing (this is SPELLING, never räkna/summa/antal-as-task).
+ * du-register, "ditt barn" (årskurs 2 — slightly more capable, still warm and no-shame).
+ *
+ * Lint notes (sv-render.js): theme nouns enter ONLY via {N_PL}/{N_PL_DEF}; never "En/Ett <Cap theme
+ * noun>" (B2 singular-slot guard). Singular frame nouns stay lowercase mid-sentence and use only
+ * whitelisted ones (korsord stays lowercase: "ett korsord"; ord, bokstav, ruta, bild, arbetsblad, barn). */
+'use strict';
+module.exports = {
+  type: 'crossword',
+  eyebrow: 'Arbetsblad: Bildkorsord',
+  strand: 'Läsa och skriva',
+  standard: () => 'L.2.2.d',
+  level: 'ak-2',
+  slotWord: 'bildkorsord',
+  h1: (mk, theme, level) => 'Bildkorsord med ' + theme.plIndef + ' – arbetsblad för årskurs 2',
+  carousel: (mk, h1Display) => 'Bildkorsord – ' + h1Display,
+  modes: {
+    'null': {
+      SKEL: [
+        'I ett bildkorsord möts orden och delar bokstäver, och det är just det ditt barn får upptäcka här. På arbetsbladet finns ett rutnät med bilder som ledtrådar, till exempel {N_PL}, och till varje bild hör ett ord som ska stavas och skrivas in i rutorna. En bokstav i varje ruta, vågrätt och lodrätt, så att orden korsar varandra. Ditt barn tittar på bilden, säger ordet tyst för sig självt, lyssnar efter ljud för ljud och skriver bokstäverna på rätt plats. Där ett vågrätt och ett lodrätt ord möts delar de en gemensam bokstav, och den måste passa åt båda hållen. Att stava {N_PL_DEF} och få dem att korsa varandra övar både stavningen och tålamodet på en gång, en fin färdighet i årskurs 2. Det finns ingen klocka som tickar och inga poäng att jaga, bara ditt barn, rutnätet och den lugna glädjen när orden hakar i varandra.',
+        'Vågrätt och lodrätt – så löper orden i det här bildkorsordet, och där de korsar varandra delar de en bokstav. På arbetsbladet ser ditt barn ett rutnät och bredvid bilder som ledtrådar, bland dem {N_PL}. Till varje bild hör ett ord som ditt barn ska stava och skriva in, en bokstav i varje ruta. Det betraktar bilden, ljudar sig fram genom ordet och placerar varje bokstav rätt. Det fina med ett korsord är att orden inte står ensamma: de möts, och en gemensam bokstav måste stämma både vågrätt och lodrätt. När ditt barn skriver in {N_PL_DEF} märker det hur ett rätt stavat ord hjälper nästa på traven via den delade bokstaven. Så övas stavningen på ett sammanhängande sätt. Här finns ingen brådska och ingen tävlan, bara ditt barn som i lugn och ro får orden att korsa varandra i rutnätet.',
+        'Stava ordet och skriv in det i rutorna – det är hjärtat i det här bildkorsordet. Ditt barn ser ett rutnät med bilder som ledtrådar, till exempel {N_PL}, och varje bild gömmer ett ord som ska skrivas in vågrätt eller lodrätt. En bokstav hör hemma i varje ruta. Ditt barn tittar på bilden, ljudar ordet och fyller i bokstäverna på rätt platser. Eftersom orden korsar varandra delar två av dem alltid en gemensam bokstav i rutan där de möts, och den måste passa åt båda hållen samtidigt. Det här att stava {N_PL_DEF} så att allt går ihop är en omtyckt utmaning som befäster stavningen i årskurs 2. Du kan sitta intill och titta på bilderna tillsammans, men låt ditt barn själv hitta bokstäverna. Helt utan tidspress växer både stavkunnandet och stoltheten över ett färdigt korsord.',
+        'Här blir ditt barn en liten korsordslösare: det stavar ord efter ord och skriver in dem i ett rutnät där de korsar varandra. På arbetsbladet finns bilder som ledtrådar, bland dem {N_PL}, och till varje bild hör ett ord. Ditt barn säger ordet tyst, hör varje ljud och skriver bokstäverna i rutorna, vågrätt och lodrätt. Det spännande är att orden möts: i rutan där ett vågrätt och ett lodrätt ord korsas står en gemensam bokstav som måste stämma för båda. När ditt barn skriver in {N_PL_DEF} bygger det så ett helt nät av ord som hänger ihop. Att stava rätt blir på det här viset både viktigt och meningsfullt, för en bokstav på fel plats märks genast i korsordet. Det finns ingen tävling och inga stjärnor att samla, bara den lugna glädjen i att få orden att korsa varandra och fylla rutnätet.',
+        'Orden korsar varandra och delar gemensamma bokstäver – så fungerar ett bildkorsord, och det är just det ditt barn övar på det här arbetsbladet. Det ser ett rutnät och bilder som ledtrådar, till exempel {N_PL}, där varje bild står för ett ord. Ditt barn stavar ordet och skriver in det i rutorna, en bokstav i varje, vågrätt eller lodrätt. Där två ord möts delar de en bokstav som måste passa åt båda hållen. Så lär sig ditt barn att tänka i två riktningar samtidigt och att stava noga, för en gemensam bokstav binder ihop hela korsordet. Med {N_PL_DEF} som bekanta bilder blir varje ord en trygg ledtråd att ljuda sig fram genom. Det här övar stavningen på ett sammanhängande och lustfyllt sätt, helt utan att räkna något. Här tickar ingen klocka och inga poäng delas ut, bara ditt barn och rutnätet av korsande ord.',
+        'Det här arbetsbladet bjuder ditt barn på ett riktigt bildkorsord, där varje bild leder till ett ord som ska stavas och skrivas in. I rutnätet löper orden vågrätt och lodrätt och korsar varandra, och till ledtrådarna hör {N_PL}. Ditt barn tittar på bilden, ljudar sig genom ordet och placerar en bokstav i varje ruta. Det kluriga och fina är att orden hakar i varandra: en gemensam bokstav i mötespunkten måste stämma både för det vågräta och det lodräta ordet. När ditt barn skriver in {N_PL_DEF} upptäcker det hur en rätt stavad bokstav hjälper grannordet på plats. Så övas stavningen i ett naturligt sammanhang, mitt i årskurs 2. Du kan följa ditt barn med värme och bara hjälpa till när det ber om det. Utan brådska och utan press fylls rutnätet sakta med ord som möts och korsar varandra.',
+        'En bokstav i varje ruta, och orden möts där de korsar varandra – så är ett bildkorsord uppbyggt, och här får ditt barn pröva på det. På arbetsbladet finns ett rutnät med bilder som ledtrådar, bland dem {N_PL}, och varje bild står för ett ord att stava in. Ditt barn säger ordet, lyssnar efter ljuden och skriver bokstäverna vågrätt eller lodrätt på rätt plats. I rutan där två ord korsas delar de en gemensam bokstav, som måste passa åt båda hållen. Det här att få {N_PL_DEF} att gå ihop i rutnätet skärper både stavningen och blicken för hur ord hänger samman. Eftersom orden stöttar varandra genom de delade bokstäverna blir varje rätt stavat ord en liten nyckel till nästa. Här finns ingen tidspress och ingen tävlan, bara ditt barn som lugnt lägger korsord och ser orden krokas i varandra.',
+        'I den här uppgiften blir ditt barn en uppmärksam ordbyggare: det stavar ord efter ord och fogar in dem i ett korsord där de korsar varandra. Bilderna är ledtrådarna – bland dem {N_PL} – och varje bild gömmer ett ord. Ditt barn betraktar bilden, ljudar sig fram bokstav för bokstav och skriver in ordet vågrätt eller lodrätt, en bokstav i varje ruta. Det sinnrika med ett korsord är att orden delar bokstäver: i mötespunkten står en gemensam bokstav som måste stämma för båda orden samtidigt. När ditt barn skriver in {N_PL_DEF} märker det hur stavningen blir extra viktig, för en bokstav på fel plats syns genast i grannordet. Så övas stavning i årskurs 2 på ett sammanhängande och meningsfullt vis, aldrig genom att räkna. Tiden får ticka fritt och inget fel bokförs – kvar blir glädjen i ett rutnät där orden korsar varandra.',
+      ],
+      P2: [
+        'I den här varianten är korsordet litet, med bara några få ord som möts, så ditt barn snabbt ser hur orden korsar varandra och delar en bokstav. En mjuk start där känslan för rutnätet genast infinner sig. Ditt barn stavar bilden, skriver in {N_PL_DEF} vågrätt och lodrätt och gläds åt att se orden hakas i varandra. Ingen brådska och ingen tävlan, bara att stava i lugn och ro, helt i ditt barns tempo.',
+        'Här löper korsordet över ett större rutnät, så att ditt barn får stava in fler {N_PL_DEF} och låta många ord korsa varandra. En tydlig uppgift där barnet känner hur det är att ha fyllt ett helt korsord med rätt stavade ord. Att skriva in en bokstav i varje ruta, vågrätt och lodrätt, i sitt eget tempo och utan minsta press om vem som hinner först.',
+        'I den här versionen ligger orden tätt och korsar varandra på många ställen, så ditt barn får tänka noga på de gemensamma bokstäverna. Med {N_PL} som bekanta ledtrådar stavar barnet snart in det ena ordet efter det andra, en bokstav i taget. Det stärker både stavningen och blicken för hur ord hänger ihop. Det finns ingen klocka och inga poäng, bara den lugna glädjen vid varje ord som faller på plats i korsordet.',
+        'Den här varianten har gott om korsningar, där ett vågrätt och ett lodrätt ord delar en bokstav, så ditt barn får kontrollera att bokstaven stämmer åt båda hållen. När det stavar {N_PL_DEF} blir varje delad bokstav en liten ledtråd som hjälper grannordet rätt. Det ger barnet den goda känslan av att ha löst korsordet alldeles själv. Utan brådska och utan rätt-eller-fel-press, bara att i lugn och ro stava och skriva in.',
+        'Är ditt barn osäkert, titta på bilden tillsammans och säg ordet långsamt, ljud för ljud, innan barnet skriver in bokstäverna. Då hör det vilken bokstav som kommer härnäst i rutorna. Den lugna genomgången stärker stavningen och tilltron till den egna förmågan – en fin grund i årskurs 2, helt utan press och utan att räkna en enda sak. Låt ditt barn själv placera bokstäverna vågrätt och lodrätt.',
+        'Följ ditt barn varsamt med en fråga: vilken bokstav delar de här två orden i rutan där de korsas? Så pekar du tanken mot den gemensamma bokstaven utan att avslöja hela ordet. Hur {N_PL_DEF} ska stavas in får barnet hitta alldeles själv, lugnt och med all den tid det behöver. Varje rätt stavat ord göder lusten att fylla nästa rad i korsordet, vågrätt eller lodrätt.',
+        'I den här varianten påminner några ord om varandra, så att ditt barn får stava extra noga och kontrollera varje gemensam bokstav där {N_PL_DEF} korsar varandra. Det ljudar sig fram genom orden och skriver in dem med eftertanke, en bokstav i varje ruta. Tålamodet och stavkunnandet växer sida vid sida. Inga poäng, ingen klocka – bara ditt barn och den stilla glädjen i att få orden att mötas i rutnätet.',
+      ],
+    },
+  },
+  P3: 'Om ditt barn tycker om att stava ord och se dem korsa varandra i rutnätet finns det mer att upptäcka, helt utan press och utan att räkna. Prova gärna ett bildkorsord med {NB1}, eller ett där {NB2} ska stavas in vågrätt och lodrätt – båda bjuder in ditt barn att titta på en bild, ljuda sig fram genom ordet och skriva en bokstav i varje ruta tills orden hakar i varandra. Hela samlingen med {GEN} är gratis och kan spelas online eller skrivas ut. Så hittar ditt barn alltid ett nytt korsord att fylla med rätt stavade ord, i sitt eget lugna tempo. Mycket nöje med att stava och se orden korsa varandra!',
+};

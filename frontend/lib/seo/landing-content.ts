@@ -182,7 +182,8 @@ function facets(locale: string): FacetIndexes {
   if (f) {
     for (const l of f.landings) {
       push(fx.byType, l.coordinate.type, l);
-      push(fx.byTheme, l.coordinate.theme, l);
+      // themeless coordinates exist at runtime (es math-worksheet class) — skip
+      if (l.coordinate.theme) push(fx.byTheme, l.coordinate.theme, l);
       push(fx.byLevel, l.coordinate.level, l);
       if (l.standard) push(fx.byStandard, l.standard, l);
     }

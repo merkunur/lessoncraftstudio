@@ -1,0 +1,2187 @@
+{
+  "locale": "nl",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 147,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 47,
+    "mixed": 48,
+    "subtraction": 48
+  },
+  "totalValid": 122,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-accessoires-b7e3",
+      "siblings": [
+        "rekenpuzzel-optellen-accessoires-b7e3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-dieren-89e2",
+      "siblings": [
+        "rekenpuzzel-optellen-dieren-89e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-rond-het-huis-cb72",
+      "siblings": [
+        "rekenpuzzel-optellen-rond-het-huis-cb72"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-in-de-supermarkt-2ba1",
+      "siblings": [
+        "rekenpuzzel-optellen-in-de-supermarkt-2ba1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-bakkerij-2d66",
+      "siblings": [
+        "rekenpuzzel-optellen-bakkerij-2d66"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-strand-1a23",
+      "siblings": [
+        "rekenpuzzel-optellen-strand-1a23"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-vogels-af85",
+      "siblings": [
+        "rekenpuzzel-optellen-vogels-af85"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-vogels-2-9d5f",
+      "siblings": [
+        "rekenpuzzel-optellen-vogels-2-9d5f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-ontbijt-7e83",
+      "siblings": [
+        "rekenpuzzel-optellen-ontbijt-7e83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-kamperen-2e58",
+      "siblings": [
+        "rekenpuzzel-optellen-kamperen-2e58"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-kerstmis-802a",
+      "siblings": [
+        "rekenpuzzel-optellen-kerstmis-802a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-klaslokaal-81f2",
+      "siblings": [
+        "rekenpuzzel-optellen-klaslokaal-81f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-kleding-f1e4",
+      "siblings": [
+        "rekenpuzzel-optellen-kleding-f1e4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-desserts-en-snoep-6d4a",
+      "siblings": [
+        "rekenpuzzel-optellen-desserts-en-snoep-6d4a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-dinosaurussen-cd7e",
+      "siblings": [
+        "rekenpuzzel-optellen-dinosaurussen-cd7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-pasen-9005",
+      "siblings": [
+        "rekenpuzzel-optellen-pasen-9005"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-boerderijdieren-ac30",
+      "siblings": [
+        "rekenpuzzel-optellen-boerderijdieren-ac30"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-bloemen-b78a",
+      "siblings": [
+        "rekenpuzzel-optellen-bloemen-b78a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-boswezens-007f",
+      "siblings": [
+        "rekenpuzzel-optellen-boswezens-007f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-fruit-8728",
+      "siblings": [
+        "rekenpuzzel-optellen-fruit-8728"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-meubels-f48d",
+      "siblings": [
+        "rekenpuzzel-optellen-meubels-f48d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-ziekenhuis-8ef2",
+      "siblings": [
+        "rekenpuzzel-optellen-ziekenhuis-8ef2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-insecten-en-beestjes-154b",
+      "siblings": [
+        "rekenpuzzel-optellen-insecten-en-beestjes-154b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-keukengerei-9e65",
+      "siblings": [
+        "rekenpuzzel-optellen-keukengerei-9e65"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-muziek-5723",
+      "siblings": [
+        "rekenpuzzel-optellen-muziek-5723"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-beroepen-0d25",
+      "siblings": [
+        "rekenpuzzel-optellen-beroepen-0d25"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-oceaanleven-a909",
+      "siblings": [
+        "rekenpuzzel-optellen-oceaanleven-a909"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-huisdieren-64e6",
+      "siblings": [
+        "rekenpuzzel-optellen-huisdieren-64e6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-postkantoor-6131",
+      "siblings": [
+        "rekenpuzzel-optellen-postkantoor-6131"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e",
+      "siblings": [
+        "rekenpuzzel-optellen-reptielen-en-amfibieen-d90e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-vormen-559f",
+      "siblings": [
+        "rekenpuzzel-optellen-vormen-559f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-ruimte-030f",
+      "siblings": [
+        "rekenpuzzel-optellen-ruimte-030f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-thanksgiving-5902",
+      "siblings": [
+        "rekenpuzzel-optellen-thanksgiving-5902"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-dingen-die-vliegen-2bb6",
+      "siblings": [
+        "rekenpuzzel-optellen-dingen-die-vliegen-2bb6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-gereedschap-573a",
+      "siblings": [
+        "rekenpuzzel-optellen-gereedschap-573a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-speelgoed-2186",
+      "siblings": [
+        "rekenpuzzel-optellen-speelgoed-2186"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-bomen-2e68",
+      "siblings": [
+        "rekenpuzzel-optellen-bomen-2e68"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-groenten-8102",
+      "siblings": [
+        "rekenpuzzel-optellen-groenten-8102"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-voertuigen-29f2",
+      "siblings": [
+        "rekenpuzzel-optellen-voertuigen-29f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-optellen-dierentuindieren-24b5",
+      "siblings": [
+        "rekenpuzzel-optellen-dierentuindieren-24b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-accessoires-a5d1",
+      "siblings": [
+        "rekenpuzzel-gemengd-accessoires-a5d1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "rekenpuzzel-gemengd-dieren",
+      "siblings": [
+        "rekenpuzzel-gemengd-dieren",
+        "rekenpuzzel-gemengd-dieren-8109"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-rond-het-huis-7a63",
+      "siblings": [
+        "rekenpuzzel-gemengd-rond-het-huis-7a63"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-in-de-supermarkt-9565",
+      "siblings": [
+        "rekenpuzzel-gemengd-in-de-supermarkt-9565"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-bakkerij-fe5d",
+      "siblings": [
+        "rekenpuzzel-gemengd-bakkerij-fe5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-strand-4e7e",
+      "siblings": [
+        "rekenpuzzel-gemengd-strand-4e7e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-vogels-eb2b",
+      "siblings": [
+        "rekenpuzzel-gemengd-vogels-eb2b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-vogels-2-dc77",
+      "siblings": [
+        "rekenpuzzel-gemengd-vogels-2-dc77"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-ontbijt-162c",
+      "siblings": [
+        "rekenpuzzel-gemengd-ontbijt-162c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-kamperen-7bff",
+      "siblings": [
+        "rekenpuzzel-gemengd-kamperen-7bff"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-kerstmis-03a1",
+      "siblings": [
+        "rekenpuzzel-gemengd-kerstmis-03a1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-klaslokaal-519b",
+      "siblings": [
+        "rekenpuzzel-gemengd-klaslokaal-519b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-kleding-4653",
+      "siblings": [
+        "rekenpuzzel-gemengd-kleding-4653"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-desserts-en-snoep-fda4",
+      "siblings": [
+        "rekenpuzzel-gemengd-desserts-en-snoep-fda4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-dinosaurussen-d29f",
+      "siblings": [
+        "rekenpuzzel-gemengd-dinosaurussen-d29f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-pasen-0157",
+      "siblings": [
+        "rekenpuzzel-gemengd-pasen-0157"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-boerderijdieren-7af3",
+      "siblings": [
+        "rekenpuzzel-gemengd-boerderijdieren-7af3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-bloemen-1877",
+      "siblings": [
+        "rekenpuzzel-gemengd-bloemen-1877"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-boswezens-2d2e",
+      "siblings": [
+        "rekenpuzzel-gemengd-boswezens-2d2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-fruit-4754",
+      "siblings": [
+        "rekenpuzzel-gemengd-fruit-4754"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-meubels-f984",
+      "siblings": [
+        "rekenpuzzel-gemengd-meubels-f984"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-ziekenhuis-e8e8",
+      "siblings": [
+        "rekenpuzzel-gemengd-ziekenhuis-e8e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-insecten-en-beestjes-048b",
+      "siblings": [
+        "rekenpuzzel-gemengd-insecten-en-beestjes-048b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-keukengerei-437b",
+      "siblings": [
+        "rekenpuzzel-gemengd-keukengerei-437b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-diversen-0532",
+      "siblings": [
+        "rekenpuzzel-gemengd-diversen-0532"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-muziek-78d6",
+      "siblings": [
+        "rekenpuzzel-gemengd-muziek-78d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-beroepen-d303",
+      "siblings": [
+        "rekenpuzzel-gemengd-beroepen-d303"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-oceaanleven-d43a",
+      "siblings": [
+        "rekenpuzzel-gemengd-oceaanleven-d43a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-huisdieren-c32a",
+      "siblings": [
+        "rekenpuzzel-gemengd-huisdieren-c32a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-postkantoor-b893",
+      "siblings": [
+        "rekenpuzzel-gemengd-postkantoor-b893"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc",
+      "siblings": [
+        "rekenpuzzel-gemengd-reptielen-en-amfibieen-e8bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-vormen-448d",
+      "siblings": [
+        "rekenpuzzel-gemengd-vormen-448d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-ruimte-33e4",
+      "siblings": [
+        "rekenpuzzel-gemengd-ruimte-33e4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-thanksgiving-05ee",
+      "siblings": [
+        "rekenpuzzel-gemengd-thanksgiving-05ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-dingen-die-vliegen-8242",
+      "siblings": [
+        "rekenpuzzel-gemengd-dingen-die-vliegen-8242"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-gereedschap-0b66",
+      "siblings": [
+        "rekenpuzzel-gemengd-gereedschap-0b66"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-speelgoed-fed6",
+      "siblings": [
+        "rekenpuzzel-gemengd-speelgoed-fed6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-bomen-073e",
+      "siblings": [
+        "rekenpuzzel-gemengd-bomen-073e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-groenten-e5e9",
+      "siblings": [
+        "rekenpuzzel-gemengd-groenten-e5e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-voertuigen-5755",
+      "siblings": [
+        "rekenpuzzel-gemengd-voertuigen-5755"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-gemengd-dierentuindieren-2845",
+      "siblings": [
+        "rekenpuzzel-gemengd-dierentuindieren-2845"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-accessoires-607e",
+      "siblings": [
+        "rekenpuzzel-aftrekken-accessoires-607e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-dieren-a03a",
+      "siblings": [
+        "rekenpuzzel-aftrekken-dieren-a03a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-rond-het-huis-07a5",
+      "siblings": [
+        "rekenpuzzel-aftrekken-rond-het-huis-07a5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-in-de-supermarkt-1983",
+      "siblings": [
+        "rekenpuzzel-aftrekken-in-de-supermarkt-1983"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-bakkerij-fa85",
+      "siblings": [
+        "rekenpuzzel-aftrekken-bakkerij-fa85"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-strand-53c0",
+      "siblings": [
+        "rekenpuzzel-aftrekken-strand-53c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-vogels-ae13",
+      "siblings": [
+        "rekenpuzzel-aftrekken-vogels-ae13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-vogels-2-2db5",
+      "siblings": [
+        "rekenpuzzel-aftrekken-vogels-2-2db5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-ontbijt-a90d",
+      "siblings": [
+        "rekenpuzzel-aftrekken-ontbijt-a90d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-kamperen-26a2",
+      "siblings": [
+        "rekenpuzzel-aftrekken-kamperen-26a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-kerstmis-9600",
+      "siblings": [
+        "rekenpuzzel-aftrekken-kerstmis-9600"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-klaslokaal-8464",
+      "siblings": [
+        "rekenpuzzel-aftrekken-klaslokaal-8464"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-kleding-1b5c",
+      "siblings": [
+        "rekenpuzzel-aftrekken-kleding-1b5c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-desserts-en-snoep-702d",
+      "siblings": [
+        "rekenpuzzel-aftrekken-desserts-en-snoep-702d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-dinosaurussen-5155",
+      "siblings": [
+        "rekenpuzzel-aftrekken-dinosaurussen-5155"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-pasen-9a12",
+      "siblings": [
+        "rekenpuzzel-aftrekken-pasen-9a12"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-boerderijdieren-0748",
+      "siblings": [
+        "rekenpuzzel-aftrekken-boerderijdieren-0748"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-bloemen-0b6f",
+      "siblings": [
+        "rekenpuzzel-aftrekken-bloemen-0b6f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-boswezens-1d13",
+      "siblings": [
+        "rekenpuzzel-aftrekken-boswezens-1d13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-fruit-aa55",
+      "siblings": [
+        "rekenpuzzel-aftrekken-fruit-aa55"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-meubels-f769",
+      "siblings": [
+        "rekenpuzzel-aftrekken-meubels-f769"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-ziekenhuis-c8ea",
+      "siblings": [
+        "rekenpuzzel-aftrekken-ziekenhuis-c8ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-insecten-en-beestjes-1446",
+      "siblings": [
+        "rekenpuzzel-aftrekken-insecten-en-beestjes-1446"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-keukengerei-7c68",
+      "siblings": [
+        "rekenpuzzel-aftrekken-keukengerei-7c68"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-diversen-d6af",
+      "siblings": [
+        "rekenpuzzel-aftrekken-diversen-d6af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-muziek-a2c1",
+      "siblings": [
+        "rekenpuzzel-aftrekken-muziek-a2c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-beroepen-6bca",
+      "siblings": [
+        "rekenpuzzel-aftrekken-beroepen-6bca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-oceaanleven-bddc",
+      "siblings": [
+        "rekenpuzzel-aftrekken-oceaanleven-bddc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-huisdieren-b9a9",
+      "siblings": [
+        "rekenpuzzel-aftrekken-huisdieren-b9a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-postkantoor-24ef",
+      "siblings": [
+        "rekenpuzzel-aftrekken-postkantoor-24ef"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f",
+      "siblings": [
+        "rekenpuzzel-aftrekken-reptielen-en-amfibieen-378f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-vormen-c9f8",
+      "siblings": [
+        "rekenpuzzel-aftrekken-vormen-c9f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-ruimte-b5b2",
+      "siblings": [
+        "rekenpuzzel-aftrekken-ruimte-b5b2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-thanksgiving-8d9e",
+      "siblings": [
+        "rekenpuzzel-aftrekken-thanksgiving-8d9e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21",
+      "siblings": [
+        "rekenpuzzel-aftrekken-dingen-die-vliegen-6f21"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-gereedschap-3add",
+      "siblings": [
+        "rekenpuzzel-aftrekken-gereedschap-3add"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-speelgoed-cae6",
+      "siblings": [
+        "rekenpuzzel-aftrekken-speelgoed-cae6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-bomen-50ea",
+      "siblings": [
+        "rekenpuzzel-aftrekken-bomen-50ea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-groenten-b73b",
+      "siblings": [
+        "rekenpuzzel-aftrekken-groenten-b73b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-voertuigen-2136",
+      "siblings": [
+        "rekenpuzzel-aftrekken-voertuigen-2136"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-3",
+      "standard": "1.OA.C.6"
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "rekenpuzzel-aftrekken-dierentuindieren-5d18",
+      "siblings": [
+        "rekenpuzzel-aftrekken-dierentuindieren-5d18"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "groep-4",
+      "standard": "2.NBT.B.5"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+/*
+ * Worksheet page chrome — Direction A visual system on a print-friendly
+ * white page (cream lives on cards/accents, not full-bleed: ink-friendly).
+ * The content box is 703×945 px (A4∩Letter common area, 96dpi). Outer
+ * margins are applied by @page at render time per page size.
+ */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  background: #FFFFFF;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.ws-page {
+  width: 703px;
+  height: 945px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito', sans-serif;
+  color: #3A3530;
+  overflow: hidden;
+  padding: 0 14px;   /* operator-ruled (Gate 2 class 1): content never touches the page edge */
+}
+
+/* ---------- header ---------- */
+.ws-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #146B5E;
+}
+
+.ws-title {
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #146B5E;
+  letter-spacing: 0.2px;
+}
+
+.ws-title .ws-title-accent { color: #F2784B; }
+
+.ws-namedate {
+  display: flex;
+  gap: 18px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #8A8276;
+  white-space: nowrap;
+  padding-bottom: 4px;
+}
+
+.ws-namedate .ws-blank {
+  display: inline-block;
+  width: 110px;
+  border-bottom: 1.5px solid #C8BFAE;
+}
+.ws-namedate .ws-blank--short { width: 64px; }
+
+/* ---------- instruction ---------- */
+.ws-instruction {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 14px 0 16px;
+}
+
+.ws-instruction-badge {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #F2784B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ws-instruction p {
+  font-size: 17px;
+  font-weight: 700;
+  color: #3A3530;
+}
+
+/* ---------- body ---------- */
+.ws-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+/* ---------- footer ---------- */
+.ws-foot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding-top: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #8A8276;
+  letter-spacing: 0.3px;
+}
+
+.ws-foot .ws-foot-rule {
+  flex: 1 1 auto;
+  height: 1px;
+  background: #E5DCC8;
+}
+
+/* ---------- problem-card grid (the workhorse layout) ---------- */
+.ws-cardgrid {
+  flex: 1 1 auto;
+  display: grid;
+  gap: 14px;
+  min-height: 0;
+}
+
+.ws-card {
+  background: #FBF3E4;
+  border: 2px solid #F0E4CB;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  position: relative;
+  min-height: 0;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.ws-card-badge {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 30px;
+  height: 30px;
+  border-radius: 14px 0 14px 0;
+  background: #146B5E;
+  color: #FFFFFF;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ws-card-stage {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 0;
+  padding: 6px 4px;
+}
+
+.ws-icon-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.ws-icon-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ws-icon {
+  object-fit: contain;
+}
+
+/* answer chips */
+.ws-choices {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  padding-top: 8px;
+}
+
+.ws-chip {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2.5px solid #146B5E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+  font-size: 28px;
+  color: #3A3530;
+}
+
+/* white sub-group box inside a card (compare-two-groups family) */
+.ws-subgroup {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  background: #FFFFFF;
+  border: 2px solid #F0E4CB;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+/* write-in answer box */
+.ws-answerbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  border: 2px dashed #C8BFAE;
+  border-radius: 10px;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+  font-size: 26px;
+  color: #3A3530;
+}
+
+/* ---------- two-column match layout ---------- */
+.ws-match {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 6px 30px;
+}
+
+.ws-match-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 12px;
+}
+
+.ws-match-item {
+  background: #FBF3E4;
+  border: 2px solid #F0E4CB;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ws-match-item--plain { background: #FFFFFF; }
+
+.ws-match-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #F2784B;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ws-match-dot--right { right: -26px; }
+.ws-match-dot--left  { left:  -26px; }

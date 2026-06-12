@@ -4501,7 +4501,7 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             allCorrect: _rt("runtimeAllCorrect", "All correct!")
         };
         return {
-            bundleVersion: '10.8.0',
+            bundleVersion: '10.9.0',
             schemaFormat: 'image-references-v3',
             loadingMode: loadingMode,
             snapshotMode: 'inline',
@@ -4517,6 +4517,10 @@ async function downloadPDF(canvasToExport, fileName, opts) {
             worksheetImage: worksheetImage,
             grid: { rows: 1, cols: cells.length, cells: cells },
             pieces: pieces,
+            // Letter Hints module: tells the interactive runtime to reveal the
+            // per-piece + per-clue letter badges DURING play (not only after
+            // Check). null/standard decks stay reveal-on-Check.
+            letterHint: (rawExerciseMode === 'letter-hint'),
             clueBadges: clueBadges,
             imagePlacements: imagePlacements,
             imageRefs: imageRefs,
@@ -4575,6 +4579,11 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         '.lcs-clue-badge{position:absolute;transform:translate(-50%,-50%);width:clamp(18px,2.6vw,24px);height:clamp(18px,2.6vw,24px);background:#FFC857;color:#1C1C1E;border:2px solid #FFF;border-radius:50%;font-size:clamp(11px,1.6vw,14px);font-weight:700;display:none;align-items:center;justify-content:center;box-shadow:0 1px 3px rgba(0,0,0,.25);pointer-events:none;z-index:5}',
         '.lcs-overlay--reviewed .lcs-piece__num{display:flex}',
         '.lcs-overlay--reviewed .lcs-clue-badge{display:flex}',
+        // Letter Hints module: reveal the piece + clue letter badges during play
+        // (not only after Check). Gated by the bundle.letterHint flag, applied as
+        // the .lcs-overlay--letter-hint class at render time; standard decks omit it.
+        '.lcs-overlay--letter-hint .lcs-piece__num{display:flex}',
+        '.lcs-overlay--letter-hint .lcs-clue-badge{display:flex}',
         '.lcs-footer{position:sticky;bottom:0;z-index:10;margin-top:24px;background:rgba(254,250,243,.95);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);border-top:1px solid #DCE1E6;padding:16px 12px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}',
         '.lcs-btn{font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:12px;border:none;cursor:pointer;min-height:52px;min-width:160px;transition:background-color .2s,transform .1s,box-shadow .2s,opacity .2s}',
         '.lcs-btn:active:not([disabled]){transform:scale(.97)}',
@@ -4694,6 +4703,8 @@ async function downloadPDF(canvasToExport, fileName, opts) {
         '  function renderWorksheet(){',
         '    overlayEl.innerHTML="";',
         '    overlayEl.classList.remove("lcs-overlay--reviewed");',
+        '    // Letter Hints module: keep the letter badges visible during play.',
+        '    if(DECK_BUNDLE&&DECK_BUNDLE.letterHint){overlayEl.classList.add("lcs-overlay--letter-hint");}',
         '    // v10.1 — overlay sharper WebP variants on top of baked clue-wagon',
         '    // images. Appended FIRST so they sit beneath cells/pieces in z-order.',
         '    var placements=DECK_BUNDLE.imagePlacements||[];',

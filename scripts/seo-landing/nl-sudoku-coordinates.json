@@ -1,0 +1,1577 @@
+{
+  "locale": "nl",
+  "exerciseType": "sudoku",
+  "level": "kleuters",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "medium": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "medium"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-accessoires-9201",
+      "siblings": [
+        "foto-sudoku-makkelijk-accessoires-9201"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-activiteiten-09ad",
+      "siblings": [
+        "foto-sudoku-makkelijk-activiteiten-09ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-dieren-a067",
+      "siblings": [
+        "foto-sudoku-makkelijk-dieren-a067"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-rond-het-huis-2a16",
+      "siblings": [
+        "foto-sudoku-makkelijk-rond-het-huis-2a16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-in-de-supermarkt-10c9",
+      "siblings": [
+        "foto-sudoku-makkelijk-in-de-supermarkt-10c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-bakkerij-6267",
+      "siblings": [
+        "foto-sudoku-makkelijk-bakkerij-6267"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-strand-1430",
+      "siblings": [
+        "foto-sudoku-makkelijk-strand-1430"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-vogels-2-c5f8",
+      "siblings": [
+        "foto-sudoku-makkelijk-vogels-2-c5f8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-lichaamsdelen-814d",
+      "siblings": [
+        "foto-sudoku-makkelijk-lichaamsdelen-814d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-ontbijt-b74d",
+      "siblings": [
+        "foto-sudoku-makkelijk-ontbijt-b74d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-kamperen-9aa8",
+      "siblings": [
+        "foto-sudoku-makkelijk-kamperen-9aa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-kerstmis-b58a",
+      "siblings": [
+        "foto-sudoku-makkelijk-kerstmis-b58a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-klaslokaal-8e99",
+      "siblings": [
+        "foto-sudoku-makkelijk-klaslokaal-8e99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-kleding-26ee",
+      "siblings": [
+        "foto-sudoku-makkelijk-kleding-26ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-kleuren-75f1",
+      "siblings": [
+        "foto-sudoku-makkelijk-kleuren-75f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-desserts-en-snoep-0f0e",
+      "siblings": [
+        "foto-sudoku-makkelijk-desserts-en-snoep-0f0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-dinosaurussen-caf8",
+      "siblings": [
+        "foto-sudoku-makkelijk-dinosaurussen-caf8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-pasen-7195",
+      "siblings": [
+        "foto-sudoku-makkelijk-pasen-7195"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-emoties-d102",
+      "siblings": [
+        "foto-sudoku-makkelijk-emoties-d102"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-boerderijdieren-e5e2",
+      "siblings": [
+        "foto-sudoku-makkelijk-boerderijdieren-e5e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-bloemen-eaec",
+      "siblings": [
+        "foto-sudoku-makkelijk-bloemen-eaec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-boswezens-fc31",
+      "siblings": [
+        "foto-sudoku-makkelijk-boswezens-fc31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-fruit-dda6",
+      "siblings": [
+        "foto-sudoku-makkelijk-fruit-dda6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-meubels-fee1",
+      "siblings": [
+        "foto-sudoku-makkelijk-meubels-fee1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-ziekenhuis-b092",
+      "siblings": [
+        "foto-sudoku-makkelijk-ziekenhuis-b092"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-insecten-en-beestjes-2980",
+      "siblings": [
+        "foto-sudoku-makkelijk-insecten-en-beestjes-2980"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-keukengerei-eae5",
+      "siblings": [
+        "foto-sudoku-makkelijk-keukengerei-eae5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-muziek-ef41",
+      "siblings": [
+        "foto-sudoku-makkelijk-muziek-ef41"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-beroepen-1314",
+      "siblings": [
+        "foto-sudoku-makkelijk-beroepen-1314"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-oceaanleven-b8f6",
+      "siblings": [
+        "foto-sudoku-makkelijk-oceaanleven-b8f6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-huisdieren-b07d",
+      "siblings": [
+        "foto-sudoku-makkelijk-huisdieren-b07d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-postkantoor-69e3",
+      "siblings": [
+        "foto-sudoku-makkelijk-postkantoor-69e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-reptielen-en-amfibieen-1eb4",
+      "siblings": [
+        "foto-sudoku-makkelijk-reptielen-en-amfibieen-1eb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-vormen-334b",
+      "siblings": [
+        "foto-sudoku-makkelijk-vormen-334b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-ruimte-2d95",
+      "siblings": [
+        "foto-sudoku-makkelijk-ruimte-2d95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-lente-f1d4",
+      "siblings": [
+        "foto-sudoku-makkelijk-lente-f1d4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-zomer-5501",
+      "siblings": [
+        "foto-sudoku-makkelijk-zomer-5501"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-thanksgiving-844c",
+      "siblings": [
+        "foto-sudoku-makkelijk-thanksgiving-844c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-dingen-die-vliegen-d105",
+      "siblings": [
+        "foto-sudoku-makkelijk-dingen-die-vliegen-d105"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-gereedschap-3db1",
+      "siblings": [
+        "foto-sudoku-makkelijk-gereedschap-3db1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-speelgoed-6977",
+      "siblings": [
+        "foto-sudoku-makkelijk-speelgoed-6977"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-bomen-ec13",
+      "siblings": [
+        "foto-sudoku-makkelijk-bomen-ec13"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-groenten-72ea",
+      "siblings": [
+        "foto-sudoku-makkelijk-groenten-72ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-voertuigen-de6f",
+      "siblings": [
+        "foto-sudoku-makkelijk-voertuigen-de6f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-weer-4d19",
+      "siblings": [
+        "foto-sudoku-makkelijk-weer-4d19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-winter-dd0e",
+      "siblings": [
+        "foto-sudoku-makkelijk-winter-dd0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "foto-sudoku-makkelijk-dierentuindieren-ddc2",
+      "siblings": [
+        "foto-sudoku-makkelijk-dierentuindieren-ddc2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-accessoires-6129",
+      "siblings": [
+        "foto-sudoku-gemiddeld-accessoires-6129"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-activiteiten-910b",
+      "siblings": [
+        "foto-sudoku-gemiddeld-activiteiten-910b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-dieren-dceb",
+      "siblings": [
+        "foto-sudoku-gemiddeld-dieren-dceb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-rond-het-huis-e214",
+      "siblings": [
+        "foto-sudoku-gemiddeld-rond-het-huis-e214"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-in-de-supermarkt-9173",
+      "siblings": [
+        "foto-sudoku-gemiddeld-in-de-supermarkt-9173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-bakkerij-91c0",
+      "siblings": [
+        "foto-sudoku-gemiddeld-bakkerij-91c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-strand-901c",
+      "siblings": [
+        "foto-sudoku-gemiddeld-strand-901c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-vogels-52b6",
+      "siblings": [
+        "foto-sudoku-gemiddeld-vogels-52b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-vogels-2-de8f",
+      "siblings": [
+        "foto-sudoku-gemiddeld-vogels-2-de8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-lichaamsdelen-f439",
+      "siblings": [
+        "foto-sudoku-gemiddeld-lichaamsdelen-f439"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-ontbijt-bbc1",
+      "siblings": [
+        "foto-sudoku-gemiddeld-ontbijt-bbc1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-kamperen-4f95",
+      "siblings": [
+        "foto-sudoku-gemiddeld-kamperen-4f95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-kerstmis-5708",
+      "siblings": [
+        "foto-sudoku-gemiddeld-kerstmis-5708"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-klaslokaal-afe4",
+      "siblings": [
+        "foto-sudoku-gemiddeld-klaslokaal-afe4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-kleding-8e06",
+      "siblings": [
+        "foto-sudoku-gemiddeld-kleding-8e06"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-kleuren-11bc",
+      "siblings": [
+        "foto-sudoku-gemiddeld-kleuren-11bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-desserts-en-snoep-bd19",
+      "siblings": [
+        "foto-sudoku-gemiddeld-desserts-en-snoep-bd19"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-dinosaurussen-c3d2",
+      "siblings": [
+        "foto-sudoku-gemiddeld-dinosaurussen-c3d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-pasen-113b",
+      "siblings": [
+        "foto-sudoku-gemiddeld-pasen-113b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-emoties-5ac9",
+      "siblings": [
+        "foto-sudoku-gemiddeld-emoties-5ac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-boerderijdieren-cac3",
+      "siblings": [
+        "foto-sudoku-gemiddeld-boerderijdieren-cac3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-bloemen-5201",
+      "siblings": [
+        "foto-sudoku-gemiddeld-bloemen-5201"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-boswezens-91ea",
+      "siblings": [
+        "foto-sudoku-gemiddeld-boswezens-91ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-fruit-8fa1",
+      "siblings": [
+        "foto-sudoku-gemiddeld-fruit-8fa1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-meubels-822c",
+      "siblings": [
+        "foto-sudoku-gemiddeld-meubels-822c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-ziekenhuis-53c4",
+      "siblings": [
+        "foto-sudoku-gemiddeld-ziekenhuis-53c4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-insecten-en-beestjes-0ef6",
+      "siblings": [
+        "foto-sudoku-gemiddeld-insecten-en-beestjes-0ef6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-keukengerei-f39e",
+      "siblings": [
+        "foto-sudoku-gemiddeld-keukengerei-f39e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-muziek-b2e9",
+      "siblings": [
+        "foto-sudoku-gemiddeld-muziek-b2e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-beroepen-c4fb",
+      "siblings": [
+        "foto-sudoku-gemiddeld-beroepen-c4fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-oceaanleven-a166",
+      "siblings": [
+        "foto-sudoku-gemiddeld-oceaanleven-a166"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-huisdieren-3c2c",
+      "siblings": [
+        "foto-sudoku-gemiddeld-huisdieren-3c2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-postkantoor-62d0",
+      "siblings": [
+        "foto-sudoku-gemiddeld-postkantoor-62d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-vormen-0575",
+      "siblings": [
+        "foto-sudoku-gemiddeld-vormen-0575"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-ruimte-90ea",
+      "siblings": [
+        "foto-sudoku-gemiddeld-ruimte-90ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-lente-6de7",
+      "siblings": [
+        "foto-sudoku-gemiddeld-lente-6de7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-zomer-345e",
+      "siblings": [
+        "foto-sudoku-gemiddeld-zomer-345e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-thanksgiving-9861",
+      "siblings": [
+        "foto-sudoku-gemiddeld-thanksgiving-9861"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-dingen-die-vliegen-5a2c",
+      "siblings": [
+        "foto-sudoku-gemiddeld-dingen-die-vliegen-5a2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-gereedschap-7d59",
+      "siblings": [
+        "foto-sudoku-gemiddeld-gereedschap-7d59"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-speelgoed-7d9f",
+      "siblings": [
+        "foto-sudoku-gemiddeld-speelgoed-7d9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-bomen-6629",
+      "siblings": [
+        "foto-sudoku-gemiddeld-bomen-6629"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-groenten-c24c",
+      "siblings": [
+        "foto-sudoku-gemiddeld-groenten-c24c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-voertuigen-9fed",
+      "siblings": [
+        "foto-sudoku-gemiddeld-voertuigen-9fed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-weer-a5ca",
+      "siblings": [
+        "foto-sudoku-gemiddeld-weer-a5ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-winter-9ce1",
+      "siblings": [
+        "foto-sudoku-gemiddeld-winter-9ce1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "foto-sudoku-gemiddeld-dierentuindieren-f1d0",
+      "siblings": [
+        "foto-sudoku-gemiddeld-dierentuindieren-f1d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "kleuters"
+    }
+  ]
+}

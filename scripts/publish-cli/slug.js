@@ -227,6 +227,16 @@ function deriveSeedFromManifest(manifest) {
   // <axis-key>.slug.en === <axis-key> verbatim for every entry.
   var locale = manifest.language || 'en';
   var parts = [];
+  // Cross-language decks (display language ≠ content/target language): LEAD the
+  // slug with the content language name (localized in the display locale, e.g.
+  // "Spanish"/"Spanisch") so the deck gets a distinct, keyword-rich slug and
+  // never collides with a monolingual deck of the same (type, theme). Emitted by
+  // the apps as manifest.content_language(+_name); absent for monolingual decks.
+  // ASCII-folded by slugify() downstream. Falls back to the ISO code.
+  if (manifest.content_language && manifest.content_language !== locale) {
+    var _clName = manifest.content_language_name || manifest.content_language;
+    if (_clName) parts.push(String(_clName));
+  }
   if (manifest.exercise_type) parts.push(localizeAxisKey('exercise-type', manifest.exercise_type, locale));
   if (manifest.exercise_mode) parts.push(localizeAxisKey('exercise-mode', manifest.exercise_mode, locale));
   // NOTE: compound cross-theme keys (X-vs-Y, e.g. odd-one-out / picture-sort

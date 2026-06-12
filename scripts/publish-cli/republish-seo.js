@@ -475,6 +475,11 @@ function buildSeoOpts(c) {
   // Mode axis-key (raw) so the title engine can drop locale-specific jargon modes
   // from the head (config.headDropModes) — distinct from the localized modeName.
   seoOpts.exerciseModeKey = c.manifest.exercise_mode || null;
+  // Cross-language decks: the content/target language name (localized, baked by
+  // the app into manifest.content_language_name) leads the rebuilt title so the
+  // preband/republish title rebuild preserves the "Spanish Word Search …" lead
+  // instead of stripping it. Null/absent for monolingual decks.
+  seoOpts.contentLanguageName = c.manifest.content_language_name || null;
   var diffResult = seoDifferentiator.deriveDifferentiator(
     c.manifest, c.manifest.language,
     { config: seoOpts.titleConfig, exerciseModeName: seoOpts.exerciseModeName }

@@ -153,6 +153,11 @@ function composeTitle(opts) {
   var typeKey = String(opts.exerciseTypeSlug || '');
 
   var typeName = String(opts.exerciseTypeName || '');
+  // Cross-language: lead the type with the content/target language name (config-
+  // driven title path). Mirrors the legacy path + catalog-export.js.
+  var _xlangName = (opts.contentLanguageName !== undefined && opts.contentLanguageName !== null && opts.contentLanguageName !== '')
+                     ? String(opts.contentLanguageName) : null;
+  if (_xlangName) typeName = _xlangName + ' ' + typeName;
   var modeName = (opts.exerciseModeName !== undefined && opts.exerciseModeName !== null && opts.exerciseModeName !== '')
                    ? String(opts.exerciseModeName) : null;
   var modeKey = (opts.exerciseModeKey !== undefined && opts.exerciseModeKey !== null) ? String(opts.exerciseModeKey) : null;
@@ -310,6 +315,13 @@ function buildSeoHead(opts) {
   if (!opts) throw new Error('buildSeoHead: opts is required.');
   var language        = String(opts.language || 'en');
   var typeName        = String(opts.exerciseTypeName || '');
+  // Cross-language decks: lead the type with the CONTENT/target language name
+  // (localized in the display locale), so the title reads "Spanish Word Search …".
+  // Folding into typeName makes it lead BOTH title + description. Mirrors
+  // catalog-export.js buildSeoHead. Null/absent for monolingual decks.
+  var _xlangName      = (opts.contentLanguageName !== undefined && opts.contentLanguageName !== null && opts.contentLanguageName !== '')
+                          ? String(opts.contentLanguageName) : null;
+  if (_xlangName) typeName = _xlangName + ' ' + typeName;
   var typeSlug        = String(opts.exerciseTypeSlug || '');
   var themeName       = opts.themeName ? String(opts.themeName) : null;
   // Phase 4a Checkpoint 2.5 (θ): exercise_mode discriminator. Non-null

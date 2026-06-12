@@ -191,8 +191,46 @@
     }
   }
 
+  // Cross-language deck support: localized name of a CONTENT/target language as
+  // written in a given DISPLAY locale (e.g. LANGUAGE_NAMES.de.es === 'Spanisch').
+  // SoT mirrors the apps' GRID_LANG_NAMES_IN (matching/crossword/wordsearch mix
+  // mode). Used to lead the cross-language deck slug + title with the target
+  // language. [NSR-FLAG] sv/da/no/fi rows + Nordic columns + fi '-ksi' form
+  // (instruction register; title-lead grammar polish deferred per §17.5.1).
+  var LANGUAGE_NAMES = {
+    en: { en:'English',     de:'German',       fr:'French',       es:'Spanish',     pt:'Portuguese',  it:'Italian',    nl:'Dutch',          sv:'Swedish',    da:'Danish',     no:'Norwegian',  fi:'Finnish' },
+    de: { en:'Englisch',    de:'Deutsch',      fr:'Französisch',  es:'Spanisch',    pt:'Portugiesisch', it:'Italienisch', nl:'Niederländisch', sv:'Schwedisch', da:'Dänisch',    no:'Norwegisch', fi:'Finnisch' },
+    fr: { en:'anglais',     de:'allemand',     fr:'français',     es:'espagnol',    pt:'portugais',   it:'italien',    nl:'néerlandais',    sv:'suédois',    da:'danois',     no:'norvégien',  fi:'finnois' },
+    es: { en:'inglés',      de:'alemán',       fr:'francés',      es:'español',     pt:'portugués',   it:'italiano',   nl:'holandés',       sv:'sueco',      da:'danés',      no:'noruego',    fi:'finlandés' },
+    it: { en:'inglese',     de:'tedesco',      fr:'francese',     es:'spagnolo',    pt:'portoghese',  it:'italiano',   nl:'olandese',       sv:'svedese',    da:'danese',     no:'norvegese',  fi:'finlandese' },
+    pt: { en:'inglês',      de:'alemão',       fr:'francês',      es:'espanhol',    pt:'português',   it:'italiano',   nl:'holandês',       sv:'sueco',      da:'dinamarquês',no:'norueguês',  fi:'finlandês' },
+    nl: { en:'Engels',      de:'Duits',        fr:'Frans',        es:'Spaans',      pt:'Portugees',   it:'Italiaans',  nl:'Nederlands',     sv:'Zweeds',     da:'Deens',      no:'Noors',      fi:'Fins' },
+    sv: { en:'engelska',    de:'tyska',        fr:'franska',      es:'spanska',     pt:'portugisiska',it:'italienska', nl:'nederländska',   sv:'svenska',    da:'danska',     no:'norska',     fi:'finska' },
+    da: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'hollandsk',      sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+    no: { en:'engelsk',     de:'tysk',         fr:'fransk',       es:'spansk',      pt:'portugisisk', it:'italiensk',  nl:'nederlandsk',    sv:'svensk',     da:'dansk',      no:'norsk',      fi:'finsk' },
+    fi: { en:'englanti',    de:'saksa',        fr:'ranska',       es:'espanja',     pt:'portugali',   it:'italia',     nl:'hollanti',       sv:'ruotsi',     da:'tanska',     no:'norja',      fi:'suomi' }
+  };
+
+  // languageName(contentCode, displayLocale) → the target language's name as
+  // written in the display locale; null when inputs are missing/unknown.
+  function languageName(contentCode, displayLocale) {
+    if (!contentCode || typeof contentCode !== 'string') return null;
+    var disp = (displayLocale && LANGUAGE_NAMES[displayLocale]) ? displayLocale : 'en';
+    var row = LANGUAGE_NAMES[disp] || LANGUAGE_NAMES.en;
+    return row[contentCode] || (LANGUAGE_NAMES.en && LANGUAGE_NAMES.en[contentCode]) || null;
+  }
+
   function buildManifest(opts, deckId, generatedAt) {
     var meta = opts.metadata || {};
+    // Cross-language: content/target language (≠ display `language`). Emitted
+    // only when the app passes opts.contentLanguage AND it differs from the
+    // display language; otherwise both fields stay null (monolingual decks
+    // unchanged). content_language_name is the SoT localized name consumed by
+    // slug.js (lead token) + build-seo-head.js (title/desc lead) downstream.
+    var _displayLang = opts.language || null;
+    var _contentLang = (opts.contentLanguage && opts.contentLanguage !== _displayLang)
+      ? opts.contentLanguage : null;
+    var _contentLangName = _contentLang ? languageName(_contentLang, _displayLang) : null;
     var manifest = {
       schema_version: SCHEMA_VERSION,
       deck_id: deckId,
@@ -203,6 +241,8 @@
         bundle_version: opts.app && (opts.app.bundleVersion != null) ? opts.app.bundleVersion : null
       },
       language: opts.language || null,
+      content_language: _contentLang,
+      content_language_name: _contentLangName,
       exercise_type: opts.exerciseType || null,
       exercise_mode: opts.exerciseMode || null,
       settings: meta.settings || {},
@@ -633,6 +673,13 @@
     // Defaults to English "Set" for backwards compat with callers that don't
     // pass variantLabel (legacy app gen-time invocations pre-locale-fix).
     var variantLabel    = String(opts.variantLabel || 'Set');
+    // Cross-language decks: lead the type with the CONTENT/target language name
+    // (e.g. "Spanish Word Search …"), localized in the display locale. Folding
+    // it into typeName makes it lead BOTH the title head and the description
+    // lead (which reuse typeName) in one place. Null for monolingual decks.
+    var contentLangName = (opts.contentLanguageName !== undefined && opts.contentLanguageName !== null && opts.contentLanguageName !== '')
+                            ? String(opts.contentLanguageName) : null;
+    if (contentLangName) typeName = contentLangName + ' ' + typeName;
 
     // Title: "{Type} {Mode?} {Worksheet} — {Theme} — __EDUCATIONAL_LEVEL_LOCALIZED__ — {VariantLabel} {variantId}? | LessonCraftStudio"
     // Mode segment included when non-null (non-default mode); omitted for default mode.
@@ -2064,6 +2111,7 @@
     vocabKeyFromImage: vocabKeyFromImage,
     deriveThemeName: deriveThemeName,
     deriveExerciseModeName: deriveExerciseModeName,
+    languageName: languageName,
     deriveVariantId: deriveVariantId,
     HREFLANG_MARKER: HREFLANG_MARKER,
     export: exportCatalog

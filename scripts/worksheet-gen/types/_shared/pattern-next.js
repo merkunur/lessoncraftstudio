@@ -79,14 +79,21 @@ function makePatternType(cfg) {
             `<img class="ws-icon" src="${e.src}" alt="" style="width:${iconFit(e.px)}px;height:${iconFit(e.px)}px${e.flip ? ';transform:scaleY(-1)' : ''}"></span>`;
         };
 
-        let seq, answerSym, blankIdx, seqLen;
+        let seq, answerSym, blankIdx, seqLen, blankIdx2 = -1, answerSym2 = null;
         if (attribute === 'count') {
           seqLen = 4;
           blankIdx = seqLen - 1;            // growing: always "what comes next"
           answerSym = String(seqLen);       // count of the next group
         } else {
           seq = Array.from({ length: unit.length * d.repeats }, (_, k) => unit[k % unit.length]);
-          if (variant === 'missing') {
+          if (variant === 'missing2') {
+            // two non-adjacent interior blanks at different unit residues
+            do {
+              blankIdx = rng.int(1, seq.length - 3);
+              blankIdx2 = rng.int(blankIdx + 2, seq.length - 1);
+            } while (blankIdx % unit.length === blankIdx2 % unit.length);
+            answerSym2 = seq[blankIdx2];
+          } else if (variant === 'missing') {
             blankIdx = rng.int(1, seq.length - 2);
           } else {
             blankIdx = seq.length;          // blank appended at the end
@@ -100,6 +107,8 @@ function makePatternType(cfg) {
         for (let k = 0; k < seqLen; k++) {
           if (k === blankIdx) {
             slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${attribute === 'count' ? k + 1 : answerSym}">?</span>`);
+          } else if (k === blankIdx2) {
+            slots.push(`<span class="ws-pattern-slot ws-pattern-slot--blank" style="${slotStyle}" data-lcs-blank="${answerSym2}">?</span>`);
           } else {
             slots.push(render(attribute === 'count' ? null : seq[k], k));
           }
@@ -114,6 +123,19 @@ function makePatternType(cfg) {
               Array.from({ length: c }, () => `<img class="ws-icon" src="${elements.A.src}" alt="" style="width:22px;height:22px">`).join('') + `</span>`,
             correct: c === seqLen,
           }));
+        } else if (variant === 'missing2') {
+          // line-drawing task: one chip per unit symbol + a distractor; the
+          // child connects each blank to its chip (no single "correct" chip)
+          const opts = [...symbols];
+          if (attribute === 'noun') opts.push('_distractor');
+          choices = rng.shuffle(opts).map((sym) => {
+            const e = elements[sym];
+            return {
+              html: `<img class="ws-icon" src="${e.src}" alt="" style="width:${Math.min(e.px, 46)}px;height:${Math.min(e.px, 46)}px${e.flip ? ';transform:scaleY(-1)' : ''}">`,
+              correct: false,
+              sym,
+            };
+          });
         } else {
           const opts = [...new Set([answerSym, ...rng.shuffle(symbols.filter((s) => s !== answerSym))])].slice(0, 2);
           if (attribute === 'noun') opts.push('_distractor');
@@ -126,11 +148,11 @@ function makePatternType(cfg) {
           });
         }
         const chipHtml = choices.map((c) =>
-          `<span class="ws-pattern-chip"${c.correct ? ' data-lcs-correct="1"' : ''}>${c.html}</span>`).join('');
+          `<span class="ws-pattern-chip"${c.correct ? ' data-lcs-correct="1"' : ''}${c.sym ? ` data-lcs-sym="${c.sym}"` : ''}>${c.html}</span>`).join('');
 
         cards.push(
           `<div class="ws-card-stage" style="gap:12px;justify-content:space-between;padding:6px 10px">` +
-          `<span class="ws-pattern-seq" data-lcs-unitlen="${unit.length}" data-lcs-attr="${attribute}">${slots.join('')}</span>` +
+          `<span class="ws-pattern-seq" data-lcs-unitlen="${unit.length}" data-lcs-attr="${attribute}" data-lcs-variant="${variant}">${slots.join('')}</span>` +
           `<span class="ws-pattern-choices">${chipHtml}</span>` +
           `</div>`
         );
@@ -146,10 +168,22 @@ function makePatternType(cfg) {
           const seq = card.querySelector('[data-lcs-unitlen]');
           const blank = card.querySelector('[data-lcs-blank]');
           if (!blank) { fails.push(`row ${i + 1}: no blank slot`); return; }
+          const variant = seq.dataset.lcsVariant;
           const chips = [...card.querySelectorAll('.ws-pattern-chip')];
-          const correct = chips.filter((c) => c.dataset.lcsCorrect);
-          if (correct.length !== 1) { fails.push(`row ${i + 1}: ${correct.length} correct chips`); return; }
-          if (chips.length < 2) fails.push(`row ${i + 1}: only ${chips.length} choices`);
+          if (variant === 'missing2') {
+            // line-drawing variant: every blank's expected symbol must exist
+            // among the chips, and there must be 2 blanks
+            const blanks = [...card.querySelectorAll('[data-lcs-blank]')];
+            if (blanks.length !== 2) fails.push(`row ${i + 1}: ${blanks.length} blanks (want 2)`);
+            const syms = chips.map((c) => c.dataset.lcsSym);
+            blanks.forEach((b) => {
+              if (!syms.includes(b.dataset.lcsBlank)) fails.push(`row ${i + 1}: blank symbol ${b.dataset.lcsBlank} not among chips`);
+            });
+          } else {
+            const correct = chips.filter((c) => c.dataset.lcsCorrect);
+            if (correct.length !== 1) { fails.push(`row ${i + 1}: ${correct.length} correct chips`); return; }
+            if (chips.length < 2) fails.push(`row ${i + 1}: only ${chips.length} choices`);
+          }
 
           // semantic re-derivation: walk the visible slots, infer the unit,
           // and confirm the declared blank value matches the pattern.
@@ -181,10 +215,14 @@ function makePatternType(cfg) {
                 fails.push(`row ${i + 1}: slot ${k + 1} breaks the pattern`);
               }
             });
-            const expected = unit[blankIdx % unitLen];
-            if (expected !== undefined && blank.dataset.lcsBlank !== expected) {
-              fails.push(`row ${i + 1}: blank declares ${blank.dataset.lcsBlank}, pattern expects ${expected}`);
-            }
+            // every blank (1 or 2) must declare exactly what the pattern expects
+            slots.forEach((s, k) => {
+              if (s.dataset.lcsBlank === undefined) return;
+              const expected = unit[k % unitLen];
+              if (expected !== undefined && s.dataset.lcsBlank !== expected) {
+                fails.push(`row ${i + 1}: blank at ${k + 1} declares ${s.dataset.lcsBlank}, pattern expects ${expected}`);
+              }
+            });
           }
         });
         return fails;

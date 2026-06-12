@@ -230,6 +230,76 @@ html, body {
   color: #3A3530;
 }
 
+/* ---------- sorting bins ---------- */
+.ws-bin {
+  flex: 1 1 0;
+  max-width: 260px;
+  height: 170px;
+  background: #FFFFFF;
+  border: 3px solid #146B5E;
+  border-radius: 0 0 18px 18px;
+  border-top: 3px dashed #146B5E;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.ws-bin-label {
+  position: absolute;
+  top: -28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #FBF3E4;
+  border: 2.5px solid #146B5E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- busy-scene counting ---------- */
+.ws-scene {
+  flex: 1 1 auto;
+  background: #FBF3E4;
+  border: 2px solid #F0E4CB;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 0;
+}
+
+.ws-scene-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px;
+  margin-bottom: 10px;
+  background: #FFFFFF;
+  border: 2.5px dashed #F2784B;
+  border-radius: 12px;
+}
+
+.ws-scene-legend {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.ws-scene-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 2px solid #F0E4CB;
+  border-radius: 12px;
+  padding: 8px 12px;
+}
+
 /* ---------- pattern rows ---------- */
 .ws-pattern-seq {
   flex: 1 1 auto;

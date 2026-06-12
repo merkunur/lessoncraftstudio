@@ -83,4 +83,31 @@ async function pickDistinctSilhouettes(theme, nouns, count, rng, threshold) {
   throw new Error(`silhouette: theme ${theme} cannot supply ${count} shape-distinct nouns (got ${picked.length})`);
 }
 
-module.exports = { silhouetteUri, maskSignature, maskIoU, pickDistinctSilhouettes };
+const _extentCache = new Map();
+
+/**
+ * Horizontal art extent of an icon: the fraction of the image width the
+ * actual (non-transparent) art occupies, and where it starts. Lets
+ * measurement types register the ART (not the padded box) against a ruler.
+ * Returns { widthFrac, leftFrac } from sharp's trim bounding box.
+ */
+async function artExtent(theme, noun) {
+  const key = theme + '//' + noun;
+  if (_extentCache.has(key)) return _extentCache.get(key);
+  const entry = themeEntry(theme).nouns[noun];
+  const src = path.join(CACHE, 'themes', theme, entry.files[0]);
+  const meta = await sharp(src).metadata();
+  const { info } = await sharp(src).trim({ threshold: 8 }).toBuffer({ resolveWithObject: true });
+  const left = -(info.trimOffsetLeft || 0);
+  const top = -(info.trimOffsetTop || 0);
+  const ext = {
+    widthFrac: info.width / meta.width,
+    leftFrac: left / meta.width,
+    heightFrac: info.height / meta.height,
+    topFrac: top / meta.height,
+  };
+  _extentCache.set(key, ext);
+  return ext;
+}
+
+module.exports = { silhouetteUri, maskSignature, maskIoU, pickDistinctSilhouettes, artExtent };

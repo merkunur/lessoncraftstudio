@@ -3915,7 +3915,16 @@
     "tileCta": "Ver fichas",
     "tileAlt": "Ejemplo de ficha: {typeName}",
     "emptyTitle": "Todavía no hay fichas disponibles en este idioma.",
-    "emptyBody": "Nuestro catálogo crece idioma por idioma. Vuelve pronto o explora otro idioma."
+    "emptyBody": "Nuestro catálogo crece idioma por idioma. Vuelve pronto o explora otro idioma.",
+    "browse": {
+      "heading": "Explorar todas las hojas de trabajo",
+      "filterType": "Tipo de ejercicio",
+      "filterLevel": "Nivel",
+      "filterTheme": "Tema",
+      "all": "Todos",
+      "results": "{count} hojas de trabajo",
+      "showAllThemes": "Ver todos los temas"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -3930,7 +3939,8 @@
     "relatedCodeLinkAriaLabel": "Ver actividades alineadas al estándar {code}",
     "gradeLabel": "Grado",
     "tryItLink": "Probar",
-    "standardsBreadcrumb": "Estándares"
+    "standardsBreadcrumb": "Estándares",
+    "worksheetsHeading": "Hojas de trabajo para este estándar"
   },
   "aboutPage": {
     "meta": {

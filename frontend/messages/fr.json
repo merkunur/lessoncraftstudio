@@ -2340,7 +2340,16 @@
     "tileCta": "Voir les fiches",
     "tileAlt": "Exemple de fiche : {typeName}",
     "emptyTitle": "Aucune fiche disponible dans cette langue pour le moment.",
-    "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue."
+    "emptyBody": "Notre catalogue s'étend langue par langue. Reviens bientôt ou parcours une autre langue.",
+    "browse": {
+      "heading": "Parcourir toutes les fiches",
+      "filterType": "Type d'exercice",
+      "filterLevel": "Niveau",
+      "filterTheme": "Thème",
+      "all": "Tous",
+      "results": "{count} fiches",
+      "showAllThemes": "Afficher tous les thèmes"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2355,7 +2364,8 @@
     "relatedCodeLinkAriaLabel": "Voir les activités alignées à la norme {code}",
     "gradeLabel": "Niveau",
     "tryItLink": "Essayer",
-    "standardsBreadcrumb": "Normes"
+    "standardsBreadcrumb": "Normes",
+    "worksheetsHeading": "Fiches à imprimer pour ce repère"
   },
   "aboutPage": {
     "meta": {

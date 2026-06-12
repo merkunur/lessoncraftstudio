@@ -2320,7 +2320,16 @@
     "tileCta": "Bekijk werkbladen",
     "tileAlt": "Voorbeeld werkblad: {typeName}",
     "emptyTitle": "Nog geen werkbladen beschikbaar in deze taal.",
-    "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal."
+    "emptyBody": "Onze catalogus groeit taal per taal. Kom snel terug of blader door een andere taal.",
+    "browse": {
+      "heading": "Alle werkbladen doorzoeken",
+      "filterType": "Oefentype",
+      "filterLevel": "Niveau",
+      "filterTheme": "Thema",
+      "all": "Alle",
+      "results": "{count} werkbladen",
+      "showAllThemes": "Alle thema's tonen"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2335,7 +2344,8 @@
     "relatedCodeLinkAriaLabel": "Activiteiten aansluitend op standaard {code} bekijken",
     "gradeLabel": "Groep",
     "tryItLink": "Probeer",
-    "standardsBreadcrumb": "Standaarden"
+    "standardsBreadcrumb": "Standaarden",
+    "worksheetsHeading": "Werkbladen bij dit leerdoel"
   },
   "aboutPage": {
     "meta": {

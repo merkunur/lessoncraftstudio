@@ -13,12 +13,13 @@
 
 export const revalidate = 3600;
 
-// Canonical 4-shard list. Phase 4 SEO-thumbnail commission: shards 0 + 1
+// Canonical 5-shard list. Phase 4 SEO-thumbnail commission: shards 0 + 1
 // are served by custom routes (app/sitemap/0.xml/route.ts + 1.xml/route.ts)
-// to emit per-URL <image:image> entries. Shards 2 + 3 served by Next.js
-// sitemap convention from app/sitemap.ts. Hard-coded here so the index
-// references all four shards regardless of generateSitemaps()'s return.
-const SITEMAP_SHARD_IDS = [0, 1, 2, 3];
+// to emit per-URL <image:image> entries. Shards 2 + 3 + 4 served by Next.js
+// sitemap convention from app/sitemap.ts (4 = deck-landing pages, Gate-1
+// browse-layer ruling 2026-06-12). Hard-coded here so the index references
+// all five shards regardless of generateSitemaps()'s return.
+const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4];
 
 export async function GET() {
   const baseUrl = 'https://www.lessoncraftstudio.com';

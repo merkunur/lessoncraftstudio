@@ -24,6 +24,10 @@ function normalize(text, tokens){ let t=' '+text.toLowerCase()+' '; for(const to
 
 // ---- genericness + structural lints
 console.log('=== §4.B genericness + structural lints ===');
+// Reserved-slug invariant (Gate-1 browse-layer ruling 2026-06-12): a landing slug
+// must never equal a bare reserved word — these are held open for future
+// /worksheets/ sub-routes (the hub's browser/facet machinery).
+const RESERVED_SLUGS = new Set(['browse','all','filter','filters','search','index']);
 let lintFails=0;
 for(const p of pages){
   const body=[p.p1,p.p2,p.p3].join(' ');
@@ -34,6 +38,7 @@ for(const p of pages){
   if(wc<200) issues.push('WORDCOUNT '+wc+'<200');
   if(hits.length) issues.push('BANNED ['+hits.join(', ')+']');
   if(!themeNounInP1) issues.push('NO theme-noun in P1');
+  if(RESERVED_SLUGS.has(p.slug)) issues.push('RESERVED SLUG "'+p.slug+'"');
   if(issues.length){ lintFails++; console.log('  FAIL '+p.slug+': '+issues.join(' | ')); }
 }
 console.log(lintFails? ('  -> '+lintFails+' lint fails'):'  -> all '+pages.length+' pages pass lint (≥200 words, no banned phrases, theme-noun in P1)');

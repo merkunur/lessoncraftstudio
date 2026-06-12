@@ -3918,7 +3918,16 @@
     "tileCta": "Vedi le schede",
     "tileAlt": "Esempio di scheda: {typeName}",
     "emptyTitle": "Nessuna scheda disponibile in questa lingua per ora.",
-    "emptyBody": "Il nostro catalogo cresce lingua per lingua. Torna presto o esplora un'altra lingua."
+    "emptyBody": "Il nostro catalogo cresce lingua per lingua. Torna presto o esplora un'altra lingua.",
+    "browse": {
+      "heading": "Sfoglia tutte le schede",
+      "filterType": "Tipo di esercizio",
+      "filterLevel": "Livello",
+      "filterTheme": "Tema",
+      "all": "Tutti",
+      "results": "{count} schede",
+      "showAllThemes": "Mostra tutti i temi"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -3933,7 +3942,8 @@
     "relatedCodeLinkAriaLabel": "Vedi attività allineate allo standard {code}",
     "gradeLabel": "Classe",
     "tryItLink": "Prova",
-    "standardsBreadcrumb": "Standard"
+    "standardsBreadcrumb": "Standard",
+    "worksheetsHeading": "Schede da stampare per questo traguardo"
   },
   "aboutPage": {
     "meta": {

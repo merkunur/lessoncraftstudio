@@ -3718,7 +3718,16 @@
     "tileCta": "Arbeitsblätter ansehen",
     "tileAlt": "{typeName} — Arbeitsblatt-Beispiel",
     "emptyTitle": "Noch keine Arbeitsblätter in dieser Sprache verfügbar.",
-    "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache."
+    "emptyBody": "Unser Katalog wächst Sprache für Sprache. Schau bald wieder vorbei oder durchsuche eine andere Sprache.",
+    "browse": {
+      "heading": "Alle Arbeitsblätter durchsuchen",
+      "filterType": "Übungstyp",
+      "filterLevel": "Stufe",
+      "filterTheme": "Thema",
+      "all": "Alle",
+      "results": "{count} Arbeitsblätter",
+      "showAllThemes": "Alle Themen anzeigen"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -3733,7 +3742,8 @@
     "relatedCodeLinkAriaLabel": "Aktivitäten zum Standard {code} ansehen",
     "gradeLabel": "Klasse",
     "tryItLink": "Ausprobieren",
-    "standardsBreadcrumb": "Standards"
+    "standardsBreadcrumb": "Standards",
+    "worksheetsHeading": "Arbeitsblätter zu diesem Standard"
   },
   "aboutPage": {
     "meta": {

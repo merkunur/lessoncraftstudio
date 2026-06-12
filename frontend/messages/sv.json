@@ -2320,7 +2320,16 @@
     "tileCta": "Se arbetsbladen",
     "tileAlt": "Arbetsbladsexempel: {typeName}",
     "emptyTitle": "Inga arbetsblad tillgängliga på det här språket ännu.",
-    "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk."
+    "emptyBody": "Vår katalog växer språk för språk. Kom tillbaka snart eller bläddra på ett annat språk.",
+    "browse": {
+      "heading": "Bläddra bland alla arbetsblad",
+      "filterType": "Övningstyp",
+      "filterLevel": "Nivå",
+      "filterTheme": "Tema",
+      "all": "Alla",
+      "results": "{count} arbetsblad",
+      "showAllThemes": "Visa alla teman"
+    }
   },
   "standardsPage": {
     "meta": {
@@ -2335,7 +2344,8 @@
     "relatedCodeLinkAriaLabel": "Visa aktiviteter anpassade till standard {code}",
     "gradeLabel": "Klass",
     "tryItLink": "Prova",
-    "standardsBreadcrumb": "Standarder"
+    "standardsBreadcrumb": "Standarder",
+    "worksheetsHeading": "Arbetsblad för denna standard"
   },
   "aboutPage": {
     "meta": {

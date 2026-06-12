@@ -18,6 +18,7 @@ import {
   relatedCodesInDomain,
 } from '@/lib/standards';
 import { ActivityRow } from '@/lib/activities';
+import { getLandingsByStandard } from '@/lib/seo/landing-content';
 import TopicFaq from '@/components/catalog/TopicFaq';
 
 /**
@@ -308,6 +309,38 @@ export default async function StandardsPage({
             </div>
           )}
         </section>
+
+        {/* Worksheets for this standard (Gate-1 browse-layer ruling 2026-06-12) — deck-landing
+            pages carrying this exact CCSS code, via getLandingsByStandard (lazy facet index).
+            Honest-fit gated: the section renders ONLY when ≥1 landing matches in this locale
+            (readiness landings carry no code, unled locales have none → section absent). Capped
+            at 12 links; deterministic slug-sorted order (ISR-stable). */}
+        {(() => {
+          const wsLandings = getLandingsByStandard(params.locale, meta.code).slice(0, 12);
+          if (wsLandings.length === 0) return null;
+          return (
+            <section aria-labelledby="standards-worksheets-heading" className="mt-8">
+              <h2
+                id="standards-worksheets-heading"
+                className="font-display font-semibold text-xl md:text-2xl text-teal-800 mb-4"
+              >
+                {t('worksheetsHeading')}
+              </h2>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-1">
+                {wsLandings.map((w) => (
+                  <li key={w.slug}>
+                    <Link
+                      href={localePath(params.locale, 'worksheets', w.slug)}
+                      className="block text-[15px] text-teal-800 hover:text-teal-900 hover:underline leading-snug py-1"
+                    >
+                      {w.h1}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          );
+        })()}
 
         {siblings.length > 0 && (
           <section

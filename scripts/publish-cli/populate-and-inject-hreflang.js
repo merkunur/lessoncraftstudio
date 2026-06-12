@@ -66,7 +66,13 @@ function tupleKey(deck, manifest) {
     deck.exerciseMode || '',
     (manifest && manifest.theme) || '',
     deck.ageRange || '',
-    (manifest && manifest.variant_id) || ''
+    (manifest && manifest.variant_id) || '',
+    // Cross-language: the content/target language separates a cross-language
+    // deck (e.g. DE-UI→ES) from a monolingual deck of the same type/theme/age so
+    // they are NOT wrongly declared hreflang siblings. Monolingual decks have no
+    // content_language → empty slot (unchanged grouping). Cross-language decks
+    // group only with same-content-language siblings (DE→ES with FR→ES).
+    (manifest && manifest.content_language) || ''
   ].join('|');
 }
 

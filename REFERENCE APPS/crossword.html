@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=29"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=31"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -3853,10 +3853,19 @@ document.addEventListener("DOMContentLoaded", function() {
                 (s.en && s.en[key]) ||
                 null;
         };
+        // Cross-language: content/target language = GRID locale (where answers are
+        // spelled); display = clue locale = window.currentLocale. Localized name
+        // leads the deck.html title via buildSeoHead. Null for monolingual decks.
+        var _xlangName = (window.mixModeEnabled && window.currentGridLocale
+            && window.currentGridLocale !== (window.currentClueLocale || window.currentLocale)
+            && window.LCSCatalogExport && LCSCatalogExport.languageName)
+            ? LCSCatalogExport.languageName(window.currentGridLocale, (window.currentClueLocale || window.currentLocale || 'en'))
+            : null;
         var seoMeta = {
             exerciseTypeSlug: 'crossword',
             exerciseTypeName: canvas.lcsLocalizedTitle || 'Crossword',
             exerciseModeName: exerciseModeName,
+            contentLanguageName: _xlangName,
             themeName: (window.LCSCatalogExport && window.LCSCatalogExport.deriveThemeName)
                 ? window.LCSCatalogExport.deriveThemeName({ selectEl: document.getElementById('worksheetThemeSelect') })
                 : null,
@@ -4423,6 +4432,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 exerciseTypeName: displayTitle,
                 exerciseTypeSlug: seo.exerciseTypeSlug || "crossword",
                 exerciseModeName: seo.exerciseModeName || null,
+                contentLanguageName: seo.contentLanguageName || null,
                 themeName: seo.themeName || null,
                 worksheetWord: seo.worksheetWord || 'Worksheet',
                 instruction: seo.instruction || '',
@@ -4545,8 +4555,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function buildCatalogManifestSettings() {
         var imagesUsed = [];
         var seen = {};
-        if (typeof selectedImages !== 'undefined' && Array.isArray(selectedImages)) {
-            selectedImages.forEach(function (img) {
+        if (typeof userSelectedImages !== 'undefined' && Array.isArray(userSelectedImages)) {
+            userSelectedImages.forEach(function (img) {
                 var path = img && img.path;
                 if (!path || seen[path]) return;
                 seen[path] = true;
@@ -4554,8 +4564,8 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
         var vocabulary = [];
-        if (typeof selectedImages !== 'undefined' && Array.isArray(selectedImages)) {
-            selectedImages.forEach(function (img) {
+        if (typeof userSelectedImages !== 'undefined' && Array.isArray(userSelectedImages)) {
+            userSelectedImages.forEach(function (img) {
                 if (img && img.word) vocabulary.push(img.word);
             });
         }
@@ -4605,6 +4615,8 @@ document.addEventListener("DOMContentLoaded", function() {
             var result = await window.LCSCatalogExport.export({
                 app: { name: 'crossword', version: '31.0.3', bundleVersion: 31 },
                 language: window.currentLocale || 'en',
+                // Cross-language: content/target language = GRID locale (mix mode only).
+                contentLanguage: (window.mixModeEnabled && window.currentGridLocale) ? window.currentGridLocale : null,
                 exerciseType: 'crossword',
                 exerciseMode: exerciseModeForBundle,
                 producers: {

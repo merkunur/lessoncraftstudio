@@ -6,7 +6,7 @@
     <script src="/worksheet-generators/js/attribution-manager.js?v=1"></script>
     <script src="/worksheet-generators/js/image-reference.js?v=2"></script>
     <script src="/worksheet-generators/js/jszip-3.10.1.min.js"></script>
-    <script src="/worksheet-generators/js/catalog-export.js?v=29"></script>
+    <script src="/worksheet-generators/js/catalog-export.js?v=31"></script>
     <meta charset="UTF-8" />
     <meta name="robots" content="noindex, nofollow">
     <title>MatchUp Maker</title>
@@ -1321,6 +1321,11 @@
         // read by createHeaderGroup to render the theme name above the instruction.
         // Null when no specific theme is in play (mixed-theme custom selection / non-letter-family mode).
         let lastChosenThemeName = null;
+        // Cross-language/theme fix: the resolved theme KEY (axis-key, e.g. "vegetables")
+        // used by the name/letter pool — emitted as manifest.theme so cross-language
+        // matching decks get a theme in slug + subject_tags (lastChosenThemeName is
+        // the DISPLAY name, wrong for the manifest theme axis-key).
+        let lastChosenThemeKey = null;
         let letterType = 'randomAll';
         let currentGeneratedData = { worksheet: [], answerKey: [], mode: null };
         let worksheetCanvas, answerKeyCanvas;
@@ -2688,6 +2693,7 @@
                 if (m === 'letter' || m === 'name') {
                     let pool = [];
                     let chosenThemeName = null;
+                    let chosenThemeKey = null;
                     const n = +countEl.value;
                     if (letterType === 'randomAll') {
                         if (themes.length === 0) throw new Error(t('themesNotLoadedYet'));
@@ -2695,11 +2701,13 @@
                         // themes[] elements may be either {value, displayName} objects or bare strings (legacy fallback per loadThemes).
                         const randomThemeKey = (randomThemeEntry && typeof randomThemeEntry === 'object') ? randomThemeEntry.value : randomThemeEntry;
                         chosenThemeName = (randomThemeEntry && typeof randomThemeEntry === 'object' && randomThemeEntry.displayName) ? randomThemeEntry.displayName : String(randomThemeKey);
+                        chosenThemeKey = randomThemeKey || null;
                         pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomThemeKey)}&locale=${currentLocale}`, `Failed to load random theme "${randomThemeKey}"`);
                     } else if (letterType === 'randomTheme') {
                         if (!letterThemeEl.value) throw new Error(t('pleaseChooseTheme'));
                         const opt = letterThemeEl.options && letterThemeEl.options[letterThemeEl.selectedIndex];
                         chosenThemeName = opt ? (opt.text || '').trim() : null;
+                        chosenThemeKey = letterThemeEl.value || null;
                         pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(letterThemeEl.value)}&locale=${currentLocale}`, 'Failed to load theme images.');
                     } else {
                         const allSelected = [...selectedImages, ...uploadedImages];
@@ -2709,11 +2717,13 @@
                         const themeSet = new Set(allSelected.map(img => img && img.theme).filter(Boolean));
                         if (themeSet.size === 1) {
                             const themeKey = themeSet.values().next().value;
+                            chosenThemeKey = themeKey || null;
                             const entry = themes.find(en => (en && typeof en === 'object' ? en.value : en) === themeKey);
                             chosenThemeName = entry ? ((typeof entry === 'object' ? entry.displayName : entry) || themeKey) : themeKey;
                         }
                     }
                     lastChosenThemeName = chosenThemeName;
+                    lastChosenThemeKey = chosenThemeKey;
                     if (pool.length < n) throw new Error(t('notEnoughImagesInTheme').replace('{found}', pool.length).replace('{needed}', n));
                     pool = shuffle(pool).slice(0, n);
                     // Mix-mode (operator commission 2026-05-08): override the
@@ -2752,6 +2762,7 @@
                     pairs = answerKey.map((p, i) => ({ left: p.left, right: rightItems[i] }));
                 } else {
                     lastChosenThemeName = null;
+                    lastChosenThemeKey = null;
                     const filledSlots = configSlots.filter(s => {
                          if (m === 'custom') return s.left && s.left.val && s.right && s.right.val && s.right.val.trim() !== '';
                          return s.left && s.left.val && s.right && s.right.val;
@@ -3814,10 +3825,19 @@
                     (s.en && s.en[key]) ||
                     null;
             };
+            // Cross-language: content/target language = right column locale; the
+            // localized name (in the display locale = left = window.currentLocale)
+            // leads the deck.html title via buildSeoHead. Null for monolingual decks.
+            var _xlangName = (window.mixModeEnabled && window.currentRightLocale
+                && window.currentRightLocale !== (window.currentLeftLocale || window.currentLocale)
+                && window.LCSCatalogExport && LCSCatalogExport.languageName)
+                ? LCSCatalogExport.languageName(window.currentRightLocale, (window.currentLeftLocale || window.currentLocale || 'en'))
+                : null;
             var seoMeta = {
                 exerciseTypeSlug: 'matching',
                 exerciseTypeName: canvas.lcsLocalizedTitle || 'Match Up',
                 exerciseModeName: exerciseModeName,
+                contentLanguageName: _xlangName,
                 themeName: null,  // matching has no theme system; intentionally null
                 instruction: canvas.lcsLocalizedInstruction || '',
                 worksheetWord: _seoT('worksheet') || 'Worksheet',
@@ -4308,6 +4328,7 @@
                     exerciseTypeName: displayTitle,
                     exerciseTypeSlug: seo.exerciseTypeSlug || "matching",
                     exerciseModeName: seo.exerciseModeName || null,
+                    contentLanguageName: seo.contentLanguageName || null,
                     themeName: seo.themeName || null,
                     worksheetWord: seo.worksheetWord || 'Worksheet',
                     instruction: seo.instruction || '',
@@ -4473,9 +4494,15 @@
             // 'all'/empty → null (legitimate themeless deck or random-pull mode).
             var _modeEl = document.getElementById('mode');
             var _mode = _modeEl ? _modeEl.value : '';
+            // letter/name modes pull from a theme POOL (randomAll/randomTheme/custom);
+            // the resolved theme axis-key is captured at generation as lastChosenThemeKey
+            // (the DOM picker is empty for randomAll, so reading it emitted theme:null —
+            // the cross-language matching theme bug). Fall back to the DOM picker for the
+            // configSlot modes (imgname/custom/imgorfname) where no pool theme exists.
             var _pickerId = (_mode === 'letter') ? 'letterTheme' : 'dictTheme';
             var _pEl = document.getElementById(_pickerId);
-            var _theme = (_pEl && _pEl.value && _pEl.value !== 'all') ? _pEl.value : null;
+            var _domTheme = (_pEl && _pEl.value && _pEl.value !== 'all') ? _pEl.value : null;
+            var _theme = (typeof lastChosenThemeKey !== 'undefined' && lastChosenThemeKey) ? lastChosenThemeKey : _domTheme;
             return {
                 settings: settings,
                 theme: _theme,
@@ -4502,6 +4529,8 @@
                 var result = await window.LCSCatalogExport.export({
                     app: { name: 'matching', version: '21.1.0', bundleVersion: 21 },
                     language: window.currentLocale || 'en',
+                    // Cross-language: content/target language = right column locale (mix mode only).
+                    contentLanguage: (window.mixModeEnabled && window.currentRightLocale) ? window.currentRightLocale : null,
                     exerciseType: 'matching',
                     exerciseMode: exerciseModeForBundle,
                     producers: {

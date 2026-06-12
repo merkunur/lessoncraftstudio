@@ -10,7 +10,7 @@
 const tokens = require('./_tokens.js');
 const { svgRoot, roundedRect, circle, el } = require('./_svg.js');
 
-function tenFrame({ a, b = 0, cell = 58 }, ctx) {
+function tenFrame({ a, b = 0, cell = 58, iconHref }, ctx) {
   const t = (ctx && ctx.tokens) || tokens;
   if (a + b > 10 || a < 0 || b < 0) throw new Error(`tenFrame: invalid counts a=${a} b=${b}`);
   const cols = 5, rows = 2;
@@ -31,11 +31,19 @@ function tenFrame({ a, b = 0, cell = 58 }, ctx) {
     const cx = pad + (i % cols) * cell + cell / 2;
     const cy = pad + Math.floor(i / cols) * cell + cell / 2;
     const isA = i < a;
-    parts.push(circle({
-      cx, cy, r,
-      fill: isA ? t.color.teal : t.color.coral,
-      data: { 'data-lcs-counter': isA ? 'a' : 'b' },
-    }));
+    if (iconHref) {
+      const s = cell * 0.78;
+      parts.push(el('image', {
+        href: iconHref, x: cx - s / 2, y: cy - s / 2, width: s, height: s,
+        'data-lcs-counter': isA ? 'a' : 'b',
+      }));
+    } else {
+      parts.push(circle({
+        cx, cy, r,
+        fill: isA ? t.color.teal : t.color.coral,
+        data: { 'data-lcs-counter': isA ? 'a' : 'b' },
+      }));
+    }
   }
 
   return {

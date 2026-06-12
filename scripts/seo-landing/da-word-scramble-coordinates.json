@@ -1,0 +1,1482 @@
+{
+  "locale": "da",
+  "exerciseType": "word-scramble",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 97,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-tilbehor-17ed",
+      "siblings": [
+        "bogstavpuslespil-let-tilbehor-17ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-aktiviteter-e353",
+      "siblings": [
+        "bogstavpuslespil-let-aktiviteter-e353"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-dyr-7f04",
+      "siblings": [
+        "bogstavpuslespil-let-dyr-7f04"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-rundt-i-huset-2a87",
+      "siblings": [
+        "bogstavpuslespil-let-rundt-i-huset-2a87"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-i-supermarkedet-238d",
+      "siblings": [
+        "bogstavpuslespil-let-i-supermarkedet-238d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-bageri-b00a",
+      "siblings": [
+        "bogstavpuslespil-let-bageri-b00a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-strand-032c",
+      "siblings": [
+        "bogstavpuslespil-let-strand-032c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-fugle-28f7",
+      "siblings": [
+        "bogstavpuslespil-let-fugle-28f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-fugle-2-8da5",
+      "siblings": [
+        "bogstavpuslespil-let-fugle-2-8da5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-kropsdele-a0d8",
+      "siblings": [
+        "bogstavpuslespil-let-kropsdele-a0d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-morgenmad-54fd",
+      "siblings": [
+        "bogstavpuslespil-let-morgenmad-54fd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-camping-f7f8",
+      "siblings": [
+        "bogstavpuslespil-let-camping-f7f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-jul-ea80",
+      "siblings": [
+        "bogstavpuslespil-let-jul-ea80"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-klassevaerelse-0421",
+      "siblings": [
+        "bogstavpuslespil-let-klassevaerelse-0421"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-toj-9251",
+      "siblings": [
+        "bogstavpuslespil-let-toj-9251"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-farver-c36b",
+      "siblings": [
+        "bogstavpuslespil-let-farver-c36b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-desserter-og-slik-aab0",
+      "siblings": [
+        "bogstavpuslespil-let-desserter-og-slik-aab0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-paske-07bc",
+      "siblings": [
+        "bogstavpuslespil-let-paske-07bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-folelser-88e9",
+      "siblings": [
+        "bogstavpuslespil-let-folelser-88e9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-bondegardsdyr-c078",
+      "siblings": [
+        "bogstavpuslespil-let-bondegardsdyr-c078"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-blomster-7937",
+      "siblings": [
+        "bogstavpuslespil-let-blomster-7937"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-skovdyr-ffe3",
+      "siblings": [
+        "bogstavpuslespil-let-skovdyr-ffe3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-frugter-fd7b",
+      "siblings": [
+        "bogstavpuslespil-let-frugter-fd7b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-mobler-0f6d",
+      "siblings": [
+        "bogstavpuslespil-let-mobler-0f6d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-hospital-9607",
+      "siblings": [
+        "bogstavpuslespil-let-hospital-9607"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-insekter-og-kryb-0251",
+      "siblings": [
+        "bogstavpuslespil-let-insekter-og-kryb-0251"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-kokkenredskaber-4324",
+      "siblings": [
+        "bogstavpuslespil-let-kokkenredskaber-4324"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-musik-00e2",
+      "siblings": [
+        "bogstavpuslespil-let-musik-00e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-erhverv-2c53",
+      "siblings": [
+        "bogstavpuslespil-let-erhverv-2c53"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-havliv-c757",
+      "siblings": [
+        "bogstavpuslespil-let-havliv-c757"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-kaeledyr-15a6",
+      "siblings": [
+        "bogstavpuslespil-let-kaeledyr-15a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-postkontor-b79f",
+      "siblings": [
+        "bogstavpuslespil-let-postkontor-b79f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-krybdyr-og-padder-a8a0",
+      "siblings": [
+        "bogstavpuslespil-let-krybdyr-og-padder-a8a0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-former-2f8f",
+      "siblings": [
+        "bogstavpuslespil-let-former-2f8f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-rummet-24c6",
+      "siblings": [
+        "bogstavpuslespil-let-rummet-24c6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-forar-3f85",
+      "siblings": [
+        "bogstavpuslespil-let-forar-3f85"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-sommer-c8d0",
+      "siblings": [
+        "bogstavpuslespil-let-sommer-c8d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-thanksgiving-834d",
+      "siblings": [
+        "bogstavpuslespil-let-thanksgiving-834d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-ting-der-flyver-e219",
+      "siblings": [
+        "bogstavpuslespil-let-ting-der-flyver-e219"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-vaerktoj-4b38",
+      "siblings": [
+        "bogstavpuslespil-let-vaerktoj-4b38"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-legetoj-b458",
+      "siblings": [
+        "bogstavpuslespil-let-legetoj-b458"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-traeer-9d0a",
+      "siblings": [
+        "bogstavpuslespil-let-traeer-9d0a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-grontsager-3b93",
+      "siblings": [
+        "bogstavpuslespil-let-grontsager-3b93"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-koretojer-085f",
+      "siblings": [
+        "bogstavpuslespil-let-koretojer-085f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-vejr-5433",
+      "siblings": [
+        "bogstavpuslespil-let-vejr-5433"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-vinter-adc3",
+      "siblings": [
+        "bogstavpuslespil-let-vinter-adc3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-let-zoodyr-d593",
+      "siblings": [
+        "bogstavpuslespil-let-zoodyr-d593"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-tilbehor-ac3b",
+      "siblings": [
+        "bogstavpuslespil-normal-tilbehor-ac3b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-aktiviteter-f848",
+      "siblings": [
+        "bogstavpuslespil-normal-aktiviteter-f848"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-dyr-265c",
+      "siblings": [
+        "bogstavpuslespil-normal-dyr-265c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-rundt-i-huset-13fa",
+      "siblings": [
+        "bogstavpuslespil-normal-rundt-i-huset-13fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-i-supermarkedet-6424",
+      "siblings": [
+        "bogstavpuslespil-normal-i-supermarkedet-6424"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-bageri-da33",
+      "siblings": [
+        "bogstavpuslespil-normal-bageri-da33"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-strand-d334",
+      "siblings": [
+        "bogstavpuslespil-normal-strand-d334"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-fugle-2a4e",
+      "siblings": [
+        "bogstavpuslespil-normal-fugle-2a4e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-fugle-2-3ed1",
+      "siblings": [
+        "bogstavpuslespil-normal-fugle-2-3ed1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-kropsdele-6215",
+      "siblings": [
+        "bogstavpuslespil-normal-kropsdele-6215"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-morgenmad-ea2f",
+      "siblings": [
+        "bogstavpuslespil-normal-morgenmad-ea2f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-camping-d3c7",
+      "siblings": [
+        "bogstavpuslespil-normal-camping-d3c7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-jul-7f77",
+      "siblings": [
+        "bogstavpuslespil-normal-jul-7f77"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-klassevaerelse-8a28",
+      "siblings": [
+        "bogstavpuslespil-normal-klassevaerelse-8a28"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-toj-8906",
+      "siblings": [
+        "bogstavpuslespil-normal-toj-8906"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-farver-35e2",
+      "siblings": [
+        "bogstavpuslespil-normal-farver-35e2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-desserter-og-slik-a9ee",
+      "siblings": [
+        "bogstavpuslespil-normal-desserter-og-slik-a9ee"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-paske-1654",
+      "siblings": [
+        "bogstavpuslespil-normal-paske-1654"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-folelser-9521",
+      "siblings": [
+        "bogstavpuslespil-normal-folelser-9521"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-bondegardsdyr-f3e7",
+      "siblings": [
+        "bogstavpuslespil-normal-bondegardsdyr-f3e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-blomster-e243",
+      "siblings": [
+        "bogstavpuslespil-normal-blomster-e243"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-skovdyr-a67b",
+      "siblings": [
+        "bogstavpuslespil-normal-skovdyr-a67b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-frugter-37b0",
+      "siblings": [
+        "bogstavpuslespil-normal-frugter-37b0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-mobler-1148",
+      "siblings": [
+        "bogstavpuslespil-normal-mobler-1148"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-hospital-ff35",
+      "siblings": [
+        "bogstavpuslespil-normal-hospital-ff35"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-insekter-og-kryb-ca8d",
+      "siblings": [
+        "bogstavpuslespil-normal-insekter-og-kryb-ca8d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-kokkenredskaber-28d9",
+      "siblings": [
+        "bogstavpuslespil-normal-kokkenredskaber-28d9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-musik-6e13",
+      "siblings": [
+        "bogstavpuslespil-normal-musik-6e13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-erhverv-59ad",
+      "siblings": [
+        "bogstavpuslespil-normal-erhverv-59ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-havliv-b8a7",
+      "siblings": [
+        "bogstavpuslespil-normal-havliv-b8a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-kaeledyr-dcce",
+      "siblings": [
+        "bogstavpuslespil-normal-kaeledyr-dcce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-postkontor-f136",
+      "siblings": [
+        "bogstavpuslespil-normal-postkontor-f136"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-krybdyr-og-padder-9894",
+      "siblings": [
+        "bogstavpuslespil-normal-krybdyr-og-padder-9894"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-former-5e03",
+      "siblings": [
+        "bogstavpuslespil-normal-former-5e03"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-rummet-fc01",
+      "siblings": [
+        "bogstavpuslespil-normal-rummet-fc01"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-forar-4794",
+      "siblings": [
+        "bogstavpuslespil-normal-forar-4794"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-sommer-8d0d",
+      "siblings": [
+        "bogstavpuslespil-normal-sommer-8d0d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-thanksgiving-056e",
+      "siblings": [
+        "bogstavpuslespil-normal-thanksgiving-056e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-ting-der-flyver-72d1",
+      "siblings": [
+        "bogstavpuslespil-normal-ting-der-flyver-72d1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-vaerktoj-2660",
+      "siblings": [
+        "bogstavpuslespil-normal-vaerktoj-2660"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-legetoj-cd79",
+      "siblings": [
+        "bogstavpuslespil-normal-legetoj-cd79"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-traeer-c48c",
+      "siblings": [
+        "bogstavpuslespil-normal-traeer-c48c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-grontsager-d19c",
+      "siblings": [
+        "bogstavpuslespil-normal-grontsager-d19c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-koretojer-09de",
+      "siblings": [
+        "bogstavpuslespil-normal-koretojer-09de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-vejr-b885",
+      "siblings": [
+        "bogstavpuslespil-normal-vejr-b885"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-vinter-45d1",
+      "siblings": [
+        "bogstavpuslespil-normal-vinter-45d1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "bogstavpuslespil-normal-zoodyr-8a0b",
+      "siblings": [
+        "bogstavpuslespil-normal-zoodyr-8a0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

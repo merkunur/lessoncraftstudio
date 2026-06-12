@@ -1,0 +1,1560 @@
+{
+  "locale": "da",
+  "exerciseType": "find-objects",
+  "level": "boernehaveklasse",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-odd": 47,
+    "i-spy": 46
+  },
+  "totalValid": 93,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-odd",
+    "i-spy"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-odd",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-tilbehor-480b",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-tilbehor-480b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-aktiviteter-5b9e",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-aktiviteter-5b9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-dyr-a59b",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-dyr-a59b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-rundt-i-huset-2c10",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-rundt-i-huset-2c10"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-i-supermarkedet-7256",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-i-supermarkedet-7256"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-bageri-5c28",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-bageri-5c28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-strand-8ae5",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-strand-8ae5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-fugle-2-6d28",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-fugle-2-6d28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-kropsdele-76fd",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-kropsdele-76fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-morgenmad-151b",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-morgenmad-151b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-camping-bb42",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-camping-bb42"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-jul-bc17",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-jul-bc17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-klassevaerelse-6e72",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-klassevaerelse-6e72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-toj-d23d",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-toj-d23d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-farver-bfa7",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-farver-bfa7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-desserter-og-slik-b5a3",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-desserter-og-slik-b5a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-dinosaurer-e244",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-dinosaurer-e244"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-paske-ae72",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-paske-ae72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-folelser-76f9",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-folelser-76f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-bondegardsdyr-e67d",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-bondegardsdyr-e67d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-blomster-b928",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-blomster-b928"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-skovdyr-b277",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-skovdyr-b277"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-frugter-17b7",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-frugter-17b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-mobler-a596",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-mobler-a596"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-hospital-30fd",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-hospital-30fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-insekter-og-kryb-d6ee",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-insekter-og-kryb-d6ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-kokkenredskaber-32ef",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-kokkenredskaber-32ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-musik-35b2",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-musik-35b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-erhverv-dea7",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-erhverv-dea7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-havliv-4ef6",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-havliv-4ef6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-kaeledyr-7213",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-kaeledyr-7213"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-postkontor-9d44",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-postkontor-9d44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-krybdyr-og-padder-e3e4",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-krybdyr-og-padder-e3e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-former-35e7",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-former-35e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-rummet-9a80",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-rummet-9a80"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-forar-96a2",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-forar-96a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-sommer-fe67",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-sommer-fe67"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-thanksgiving-5f2b",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-thanksgiving-5f2b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-ting-der-flyver-cddd",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-ting-der-flyver-cddd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-vaerktoj-18de",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-vaerktoj-18de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-legetoj-5b4f",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-legetoj-5b4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-traeer-4d58",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-traeer-4d58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-grontsager-333f",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-grontsager-333f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-koretojer-cc7a",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-koretojer-cc7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-vejr-54e6",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-vejr-54e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-vinter-24e1",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-vinter-24e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "find-odd",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "find-genstandene-find-den-anderledes-zoodyr-876c",
+      "siblings": [
+        "find-genstandene-find-den-anderledes-zoodyr-876c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-tilbehor-0dc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-aktiviteter-06ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-dyr-d7cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-i-supermarkedet-a19e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-bageri-8283",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-bageri-8283"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-strand-8ee2",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-strand-8ee2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-fugle-2-cf2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-kropsdele-e8fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-morgenmad-0c51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-camping-6fc0",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-camping-6fc0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-jul-1b92",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-jul-1b92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-klassevaerelse-1499"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-toj-7a95",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-toj-7a95"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-farver-3296",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-farver-3296"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-desserter-og-slik-35a8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-dinosaurer-c91e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-paske-2bcf",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-paske-2bcf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-folelser-bf53",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-folelser-bf53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-bondegardsdyr-8aed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-blomster-35a2",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-blomster-35a2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-skovdyr-c0b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-frugter-5e82",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-frugter-5e82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-mobler-ab8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-hospital-6f2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-insekter-og-kryb-078d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-kokkenredskaber-18b5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-musik-0f8b",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-musik-0f8b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-erhverv-0638",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-erhverv-0638"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-havliv-1733",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-havliv-1733"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-kaeledyr-2b5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-postkontor-fbd8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-krybdyr-og-padder-ef93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-former-aff9",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-former-aff9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-rummet-9f3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-forar-349b",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-forar-349b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-sommer-cf0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-thanksgiving-55e5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-ting-der-flyver-1371"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-vaerktoj-fc34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-legetoj-924a",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-legetoj-924a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-traeer-6e3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-grontsager-ed23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-koretojer-f2c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-vejr-ab0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-vinter-0dc7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    },
+    {
+      "mode": "i-spy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b",
+      "siblings": [
+        "find-genstandene-jeg-ser-jeg-ser-zoodyr-3b0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "boernehaveklasse"
+    }
+  ]
+}

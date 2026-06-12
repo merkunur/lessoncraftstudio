@@ -1,0 +1,2499 @@
+{
+  "locale": "da",
+  "exerciseType": "subtraction",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 195,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-out": 48,
+    "find-subtrahend": 47,
+    "image-number": 47,
+    "mixed": 48
+  },
+  "totalValid": 158,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-out",
+    "find-subtrahend",
+    "image-number",
+    "mixed"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "cross-out/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "cross-out/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "cross-out/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "cross-out/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "cross-out/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "cross-out/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "cross-out/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "cross-out/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "find-subtrahend/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot subtraction activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot subtraction body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/colors — INVALID: cannot subtraction colors — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot subtraction emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot subtraction spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot subtraction summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot subtraction weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot subtraction winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "cross-out",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-tilbehor-41ce",
+      "siblings": [
+        "subtraktion-streg-over-tilbehor-41ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "subtraktion-streg-over-dyr",
+      "siblings": [
+        "subtraktion-streg-over-dyr",
+        "subtraktion-streg-over-dyr-7e6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-rundt-i-huset-c48f",
+      "siblings": [
+        "subtraktion-streg-over-rundt-i-huset-c48f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-i-supermarkedet-bf5f",
+      "siblings": [
+        "subtraktion-streg-over-i-supermarkedet-bf5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-bageri-339a",
+      "siblings": [
+        "subtraktion-streg-over-bageri-339a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-strand-c946",
+      "siblings": [
+        "subtraktion-streg-over-strand-c946"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-fugle-2096",
+      "siblings": [
+        "subtraktion-streg-over-fugle-2096"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-fugle-2-50a1",
+      "siblings": [
+        "subtraktion-streg-over-fugle-2-50a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-morgenmad-558f",
+      "siblings": [
+        "subtraktion-streg-over-morgenmad-558f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-camping-5006",
+      "siblings": [
+        "subtraktion-streg-over-camping-5006"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-jul-224c",
+      "siblings": [
+        "subtraktion-streg-over-jul-224c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-klassevaerelse-a276",
+      "siblings": [
+        "subtraktion-streg-over-klassevaerelse-a276"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-toj-24d5",
+      "siblings": [
+        "subtraktion-streg-over-toj-24d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-desserter-og-slik-c875",
+      "siblings": [
+        "subtraktion-streg-over-desserter-og-slik-c875"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-dinosaurer-7400",
+      "siblings": [
+        "subtraktion-streg-over-dinosaurer-7400"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-paske-58af",
+      "siblings": [
+        "subtraktion-streg-over-paske-58af"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-bondegardsdyr-0945",
+      "siblings": [
+        "subtraktion-streg-over-bondegardsdyr-0945"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-blomster-b084",
+      "siblings": [
+        "subtraktion-streg-over-blomster-b084"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-skovdyr-be1b",
+      "siblings": [
+        "subtraktion-streg-over-skovdyr-be1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-frugter-2995",
+      "siblings": [
+        "subtraktion-streg-over-frugter-2995"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-mobler-4e4b",
+      "siblings": [
+        "subtraktion-streg-over-mobler-4e4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-hospital-0859",
+      "siblings": [
+        "subtraktion-streg-over-hospital-0859"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-insekter-og-kryb-9537",
+      "siblings": [
+        "subtraktion-streg-over-insekter-og-kryb-9537"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-kokkenredskaber-27ce",
+      "siblings": [
+        "subtraktion-streg-over-kokkenredskaber-27ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-musik-bc38",
+      "siblings": [
+        "subtraktion-streg-over-musik-bc38"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-erhverv-285d",
+      "siblings": [
+        "subtraktion-streg-over-erhverv-285d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-havliv-6b6d",
+      "siblings": [
+        "subtraktion-streg-over-havliv-6b6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-kaeledyr-0656",
+      "siblings": [
+        "subtraktion-streg-over-kaeledyr-0656"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-postkontor-d38b",
+      "siblings": [
+        "subtraktion-streg-over-postkontor-d38b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-krybdyr-og-padder-3216",
+      "siblings": [
+        "subtraktion-streg-over-krybdyr-og-padder-3216"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-former-c821",
+      "siblings": [
+        "subtraktion-streg-over-former-c821"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-rummet-ed2f",
+      "siblings": [
+        "subtraktion-streg-over-rummet-ed2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-thanksgiving-6f3c",
+      "siblings": [
+        "subtraktion-streg-over-thanksgiving-6f3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-ting-der-flyver-dd3d",
+      "siblings": [
+        "subtraktion-streg-over-ting-der-flyver-dd3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-vaerktoj-0d3a",
+      "siblings": [
+        "subtraktion-streg-over-vaerktoj-0d3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-legetoj-b31a",
+      "siblings": [
+        "subtraktion-streg-over-legetoj-b31a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-traeer-4f8f",
+      "siblings": [
+        "subtraktion-streg-over-traeer-4f8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-grontsager-d3eb",
+      "siblings": [
+        "subtraktion-streg-over-grontsager-d3eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-koretojer-0522",
+      "siblings": [
+        "subtraktion-streg-over-koretojer-0522"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "cross-out",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-streg-over-zoodyr-c343",
+      "siblings": [
+        "subtraktion-streg-over-zoodyr-c343"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-tilbehor-c3b3",
+      "siblings": [
+        "subtraktion-find-subtrahend-tilbehor-c3b3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-dyr-5ac7",
+      "siblings": [
+        "subtraktion-find-subtrahend-dyr-5ac7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-rundt-i-huset-ed05",
+      "siblings": [
+        "subtraktion-find-subtrahend-rundt-i-huset-ed05"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-i-supermarkedet-ba7f",
+      "siblings": [
+        "subtraktion-find-subtrahend-i-supermarkedet-ba7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-bageri-8b6e",
+      "siblings": [
+        "subtraktion-find-subtrahend-bageri-8b6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-strand-0e01",
+      "siblings": [
+        "subtraktion-find-subtrahend-strand-0e01"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-fugle-cb27",
+      "siblings": [
+        "subtraktion-find-subtrahend-fugle-cb27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-fugle-2-14f1",
+      "siblings": [
+        "subtraktion-find-subtrahend-fugle-2-14f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-morgenmad-fd6b",
+      "siblings": [
+        "subtraktion-find-subtrahend-morgenmad-fd6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-camping-c654",
+      "siblings": [
+        "subtraktion-find-subtrahend-camping-c654"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-jul-cad9",
+      "siblings": [
+        "subtraktion-find-subtrahend-jul-cad9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-klassevaerelse-91f9",
+      "siblings": [
+        "subtraktion-find-subtrahend-klassevaerelse-91f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-toj-016f",
+      "siblings": [
+        "subtraktion-find-subtrahend-toj-016f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-dinosaurer-a1c8",
+      "siblings": [
+        "subtraktion-find-subtrahend-dinosaurer-a1c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-paske-0728",
+      "siblings": [
+        "subtraktion-find-subtrahend-paske-0728"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-bondegardsdyr-b734",
+      "siblings": [
+        "subtraktion-find-subtrahend-bondegardsdyr-b734"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-blomster-4f9d",
+      "siblings": [
+        "subtraktion-find-subtrahend-blomster-4f9d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-skovdyr-cd70",
+      "siblings": [
+        "subtraktion-find-subtrahend-skovdyr-cd70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-frugter-ec85",
+      "siblings": [
+        "subtraktion-find-subtrahend-frugter-ec85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-mobler-b552",
+      "siblings": [
+        "subtraktion-find-subtrahend-mobler-b552"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-hospital-490e",
+      "siblings": [
+        "subtraktion-find-subtrahend-hospital-490e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-insekter-og-kryb-089b",
+      "siblings": [
+        "subtraktion-find-subtrahend-insekter-og-kryb-089b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-kokkenredskaber-52a3",
+      "siblings": [
+        "subtraktion-find-subtrahend-kokkenredskaber-52a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-musik-774d",
+      "siblings": [
+        "subtraktion-find-subtrahend-musik-774d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-erhverv-488f",
+      "siblings": [
+        "subtraktion-find-subtrahend-erhverv-488f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-havliv-7819",
+      "siblings": [
+        "subtraktion-find-subtrahend-havliv-7819"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-kaeledyr-362d",
+      "siblings": [
+        "subtraktion-find-subtrahend-kaeledyr-362d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-postkontor-33ff",
+      "siblings": [
+        "subtraktion-find-subtrahend-postkontor-33ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f",
+      "siblings": [
+        "subtraktion-find-subtrahend-krybdyr-og-padder-9a2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-former-c1bc",
+      "siblings": [
+        "subtraktion-find-subtrahend-former-c1bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-rummet-7792",
+      "siblings": [
+        "subtraktion-find-subtrahend-rummet-7792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-thanksgiving-97bc",
+      "siblings": [
+        "subtraktion-find-subtrahend-thanksgiving-97bc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-ting-der-flyver-e6a6",
+      "siblings": [
+        "subtraktion-find-subtrahend-ting-der-flyver-e6a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-vaerktoj-f09c",
+      "siblings": [
+        "subtraktion-find-subtrahend-vaerktoj-f09c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-legetoj-b325",
+      "siblings": [
+        "subtraktion-find-subtrahend-legetoj-b325"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-traeer-e8fe",
+      "siblings": [
+        "subtraktion-find-subtrahend-traeer-e8fe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-grontsager-4e5e",
+      "siblings": [
+        "subtraktion-find-subtrahend-grontsager-4e5e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-koretojer-2809",
+      "siblings": [
+        "subtraktion-find-subtrahend-koretojer-2809"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "find-subtrahend",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-find-subtrahend-zoodyr-98fb",
+      "siblings": [
+        "subtraktion-find-subtrahend-zoodyr-98fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-tilbehor-48fd",
+      "siblings": [
+        "subtraktion-billede-tal-tilbehor-48fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-dyr-2284",
+      "siblings": [
+        "subtraktion-billede-tal-dyr-2284"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-rundt-i-huset-5227",
+      "siblings": [
+        "subtraktion-billede-tal-rundt-i-huset-5227"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-i-supermarkedet-668f",
+      "siblings": [
+        "subtraktion-billede-tal-i-supermarkedet-668f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-bageri-c87a",
+      "siblings": [
+        "subtraktion-billede-tal-bageri-c87a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-strand-2e12",
+      "siblings": [
+        "subtraktion-billede-tal-strand-2e12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-fugle-08f7",
+      "siblings": [
+        "subtraktion-billede-tal-fugle-08f7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-fugle-2-dc1e",
+      "siblings": [
+        "subtraktion-billede-tal-fugle-2-dc1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-morgenmad-a278",
+      "siblings": [
+        "subtraktion-billede-tal-morgenmad-a278"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-camping-271d",
+      "siblings": [
+        "subtraktion-billede-tal-camping-271d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-jul-3179",
+      "siblings": [
+        "subtraktion-billede-tal-jul-3179"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-klassevaerelse-4fac",
+      "siblings": [
+        "subtraktion-billede-tal-klassevaerelse-4fac"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-toj-e8ec",
+      "siblings": [
+        "subtraktion-billede-tal-toj-e8ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-dinosaurer-1e7a",
+      "siblings": [
+        "subtraktion-billede-tal-dinosaurer-1e7a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-paske-de63",
+      "siblings": [
+        "subtraktion-billede-tal-paske-de63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-bondegardsdyr-bb0b",
+      "siblings": [
+        "subtraktion-billede-tal-bondegardsdyr-bb0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-blomster-affc",
+      "siblings": [
+        "subtraktion-billede-tal-blomster-affc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-skovdyr-8e52",
+      "siblings": [
+        "subtraktion-billede-tal-skovdyr-8e52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-frugter-e5b8",
+      "siblings": [
+        "subtraktion-billede-tal-frugter-e5b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-mobler-d5f3",
+      "siblings": [
+        "subtraktion-billede-tal-mobler-d5f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-hospital-2eb0",
+      "siblings": [
+        "subtraktion-billede-tal-hospital-2eb0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-insekter-og-kryb-ebbe",
+      "siblings": [
+        "subtraktion-billede-tal-insekter-og-kryb-ebbe"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-kokkenredskaber-8cb7",
+      "siblings": [
+        "subtraktion-billede-tal-kokkenredskaber-8cb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-musik-53e9",
+      "siblings": [
+        "subtraktion-billede-tal-musik-53e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-erhverv-00fa",
+      "siblings": [
+        "subtraktion-billede-tal-erhverv-00fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-havliv-2e93",
+      "siblings": [
+        "subtraktion-billede-tal-havliv-2e93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-kaeledyr-d01d",
+      "siblings": [
+        "subtraktion-billede-tal-kaeledyr-d01d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-postkontor-ba85",
+      "siblings": [
+        "subtraktion-billede-tal-postkontor-ba85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-krybdyr-og-padder-6aa8",
+      "siblings": [
+        "subtraktion-billede-tal-krybdyr-og-padder-6aa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-former-55db",
+      "siblings": [
+        "subtraktion-billede-tal-former-55db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-rummet-ef3f",
+      "siblings": [
+        "subtraktion-billede-tal-rummet-ef3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-thanksgiving-4c8c",
+      "siblings": [
+        "subtraktion-billede-tal-thanksgiving-4c8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-ting-der-flyver-8a0f",
+      "siblings": [
+        "subtraktion-billede-tal-ting-der-flyver-8a0f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-vaerktoj-bb7c",
+      "siblings": [
+        "subtraktion-billede-tal-vaerktoj-bb7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-legetoj-812d",
+      "siblings": [
+        "subtraktion-billede-tal-legetoj-812d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-traeer-d581",
+      "siblings": [
+        "subtraktion-billede-tal-traeer-d581"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-grontsager-7fa8",
+      "siblings": [
+        "subtraktion-billede-tal-grontsager-7fa8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-koretojer-1ea0",
+      "siblings": [
+        "subtraktion-billede-tal-koretojer-1ea0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-billede-tal-zoodyr-be9b",
+      "siblings": [
+        "subtraktion-billede-tal-zoodyr-be9b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "subtraktion-blandet-tilbehor-c73f",
+      "siblings": [
+        "subtraktion-blandet-tilbehor-c73f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "subtraktion-blandet-dyr-0a26",
+      "siblings": [
+        "subtraktion-blandet-dyr-0a26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "subtraktion-blandet-rundt-i-huset-9d11",
+      "siblings": [
+        "subtraktion-blandet-rundt-i-huset-9d11"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "subtraktion-blandet-i-supermarkedet-7834",
+      "siblings": [
+        "subtraktion-blandet-i-supermarkedet-7834"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "subtraktion-blandet-bageri-18ed",
+      "siblings": [
+        "subtraktion-blandet-bageri-18ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "subtraktion-blandet-strand-d05b",
+      "siblings": [
+        "subtraktion-blandet-strand-d05b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "subtraktion-blandet-fugle-47b1",
+      "siblings": [
+        "subtraktion-blandet-fugle-47b1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "subtraktion-blandet-fugle-2-8208",
+      "siblings": [
+        "subtraktion-blandet-fugle-2-8208"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "subtraktion-blandet-morgenmad-2d8f",
+      "siblings": [
+        "subtraktion-blandet-morgenmad-2d8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "subtraktion-blandet-camping-3554",
+      "siblings": [
+        "subtraktion-blandet-camping-3554"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "subtraktion-blandet-jul-47a5",
+      "siblings": [
+        "subtraktion-blandet-jul-47a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "subtraktion-blandet-klassevaerelse-bc1e",
+      "siblings": [
+        "subtraktion-blandet-klassevaerelse-bc1e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "subtraktion-blandet-toj-0297",
+      "siblings": [
+        "subtraktion-blandet-toj-0297"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "subtraktion-blandet-desserter-og-slik-7412",
+      "siblings": [
+        "subtraktion-blandet-desserter-og-slik-7412"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "subtraktion-blandet-dinosaurer-86f0",
+      "siblings": [
+        "subtraktion-blandet-dinosaurer-86f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "subtraktion-blandet-paske-a9ca",
+      "siblings": [
+        "subtraktion-blandet-paske-a9ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "subtraktion-blandet-bondegardsdyr-82e0",
+      "siblings": [
+        "subtraktion-blandet-bondegardsdyr-82e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "subtraktion-blandet-blomster-3184",
+      "siblings": [
+        "subtraktion-blandet-blomster-3184"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "subtraktion-blandet-skovdyr-0832",
+      "siblings": [
+        "subtraktion-blandet-skovdyr-0832"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "subtraktion-blandet-frugter-2d18",
+      "siblings": [
+        "subtraktion-blandet-frugter-2d18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "subtraktion-blandet-mobler-a10d",
+      "siblings": [
+        "subtraktion-blandet-mobler-a10d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "subtraktion-blandet-hospital-50f2",
+      "siblings": [
+        "subtraktion-blandet-hospital-50f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "subtraktion-blandet-insekter-og-kryb-cab3",
+      "siblings": [
+        "subtraktion-blandet-insekter-og-kryb-cab3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "subtraktion-blandet-kokkenredskaber-c505",
+      "siblings": [
+        "subtraktion-blandet-kokkenredskaber-c505"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives"
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "subtraktion-blandet-musik-da73",
+      "siblings": [
+        "subtraktion-blandet-musik-da73"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "subtraktion-blandet-erhverv-c845",
+      "siblings": [
+        "subtraktion-blandet-erhverv-c845"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "subtraktion-blandet-havliv-e508",
+      "siblings": [
+        "subtraktion-blandet-havliv-e508"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "subtraktion-blandet-kaeledyr-cb58",
+      "siblings": [
+        "subtraktion-blandet-kaeledyr-cb58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "subtraktion-blandet-postkontor-5534",
+      "siblings": [
+        "subtraktion-blandet-postkontor-5534"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "subtraktion-blandet-krybdyr-og-padder-d90b",
+      "siblings": [
+        "subtraktion-blandet-krybdyr-og-padder-d90b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "subtraktion-blandet-former-719a",
+      "siblings": [
+        "subtraktion-blandet-former-719a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "subtraktion-blandet-rummet-15c7",
+      "siblings": [
+        "subtraktion-blandet-rummet-15c7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "subtraktion-blandet-thanksgiving-fb5a",
+      "siblings": [
+        "subtraktion-blandet-thanksgiving-fb5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "subtraktion-blandet-ting-der-flyver-94ce",
+      "siblings": [
+        "subtraktion-blandet-ting-der-flyver-94ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "subtraktion-blandet-vaerktoj-f2f9",
+      "siblings": [
+        "subtraktion-blandet-vaerktoj-f2f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "subtraktion-blandet-legetoj-707f",
+      "siblings": [
+        "subtraktion-blandet-legetoj-707f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "subtraktion-blandet-traeer-4e7e",
+      "siblings": [
+        "subtraktion-blandet-traeer-4e7e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "subtraktion-blandet-grontsager-db04",
+      "siblings": [
+        "subtraktion-blandet-grontsager-db04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "subtraktion-blandet-koretojer-68fd",
+      "siblings": [
+        "subtraktion-blandet-koretojer-68fd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "subtraktion-blandet-zoodyr-3302",
+      "siblings": [
+        "subtraktion-blandet-zoodyr-3302"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability"
+    }
+  ]
+}

@@ -230,6 +230,56 @@ html, body {
   color: #3A3530;
 }
 
+/* ---------- pattern rows ---------- */
+.ws-pattern-seq {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.ws-pattern-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: #FFFFFF;
+  border: 2px solid #F0E4CB;
+  border-radius: 10px;
+  flex: 0 0 auto;
+}
+
+.ws-pattern-slot--blank {
+  border: 2.5px dashed #F2784B;
+  background: #FFFFFF;
+  color: #F2784B;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.ws-pattern-choices {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 12px;
+  border-left: 2px dashed #C8BFAE;
+}
+
+.ws-pattern-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2.5px solid #146B5E;
+}
+
 /* ---------- two-column match layout ---------- */
 .ws-match {
   flex: 1 1 auto;

@@ -26,6 +26,13 @@ const T = LOCALE === 'de' ? {
   dualTarget: 'clasificar-imagenes-accessories-vs-animals-f238', // a specific es -vs-animals landing
   partnerHub: 'accesorios',                                  // its other component's es hub (accessories)
   typeHub: 'suma',                                           // an es type hub to confirm unregressed
+} : LOCALE === 'sv' ? {
+  anchorHub: 'djur',                                          // sv animals theme hub
+  goodRe: /-vs-animals(-|$)|(^|-)animals-vs-/,                // sv picture-sort slug (english-key -vs- component)
+  badRe: /(farm|zoo|sea|forest)-animals/,                    // substring-trap: *-animals must NOT match plain animals
+  dualTarget: 'sortera-bilder-animals-vs-flowers-4c83',      // a specific sv animals-vs- landing
+  partnerHub: 'blommor',                                      // its other component's sv hub (flowers)
+  typeHub: 'addition',                                        // an sv type hub to confirm unregressed
 } : {
   anchorHub: 'animals',
   goodRe: /(^|-)animals-vs-|-vs-animals$/,

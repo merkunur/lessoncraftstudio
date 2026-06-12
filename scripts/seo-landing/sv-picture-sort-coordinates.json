@@ -1,0 +1,1602 @@
+{
+  "locale": "sv",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 154,
+  "pairCount": 151,
+  "leftThemes": [
+    "4th_of_july",
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "rightThemes": [
+    "4th_of_july",
+    "activities",
+    "animals",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "dinosaurs",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "fruits",
+    "furniture",
+    "kitchen_tools",
+    "music",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "shapes",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "zoo_animals"
+  ],
+  "coordinates": [
+    {
+      "pairKey": "4th_of_july-vs-animals",
+      "left": "4th_of_july",
+      "right": "animals",
+      "canonical": "sortera-bilder-4th-of-july-vs-animals-d3ba",
+      "siblings": [
+        "sortera-bilder-4th-of-july-vs-animals-d3ba"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "4th_of_july-vs-tree",
+      "left": "4th_of_july",
+      "right": "tree",
+      "canonical": "sortera-bilder-4th-of-july-vs-tree-5f9d",
+      "siblings": [
+        "sortera-bilder-4th-of-july-vs-tree-5f9d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "sortera-bilder-accessories-vs-animals-e2c6",
+      "siblings": [
+        "sortera-bilder-accessories-vs-animals-e2c6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "sortera-bilder-accessories-vs-flowers-cf10",
+      "siblings": [
+        "sortera-bilder-accessories-vs-flowers-cf10"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tree",
+      "left": "accessories",
+      "right": "tree",
+      "canonical": "sortera-bilder-accessories-vs-tree-563c",
+      "siblings": [
+        "sortera-bilder-accessories-vs-tree-563c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-animals",
+      "left": "activities",
+      "right": "animals",
+      "canonical": "sortera-bilder-activities-vs-animals-8cb5",
+      "siblings": [
+        "sortera-bilder-activities-vs-animals-8cb5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-flowers",
+      "left": "activities",
+      "right": "flowers",
+      "canonical": "sortera-bilder-activities-vs-flowers-974c",
+      "siblings": [
+        "sortera-bilder-activities-vs-flowers-974c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "activities-vs-tree",
+      "left": "activities",
+      "right": "tree",
+      "canonical": "sortera-bilder-activities-vs-tree-700e",
+      "siblings": [
+        "sortera-bilder-activities-vs-tree-700e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-flowers",
+      "left": "animals",
+      "right": "flowers",
+      "canonical": "sortera-bilder-animals-vs-flowers-4c83",
+      "siblings": [
+        "sortera-bilder-animals-vs-flowers-4c83"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tree",
+      "left": "animals",
+      "right": "tree",
+      "canonical": "sortera-bilder-animals-vs-tree-ea5b",
+      "siblings": [
+        "sortera-bilder-animals-vs-tree-ea5b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-animals",
+      "left": "around_the_house",
+      "right": "animals",
+      "canonical": "sortera-bilder-around-the-house-vs-animals-7cd7",
+      "siblings": [
+        "sortera-bilder-around-the-house-vs-animals-7cd7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-flowers",
+      "left": "around_the_house",
+      "right": "flowers",
+      "canonical": "sortera-bilder-around-the-house-vs-flowers-b981",
+      "siblings": [
+        "sortera-bilder-around-the-house-vs-flowers-b981"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "around_the_house-vs-tree",
+      "left": "around_the_house",
+      "right": "tree",
+      "canonical": "sortera-bilder-around-the-house-vs-tree-fc8a",
+      "siblings": [
+        "sortera-bilder-around-the-house-vs-tree-fc8a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-animals",
+      "left": "at_the_supermarket",
+      "right": "animals",
+      "canonical": "sortera-bilder-at-the-supermarket-vs-animals-a868",
+      "siblings": [
+        "sortera-bilder-at-the-supermarket-vs-animals-a868"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-flowers",
+      "left": "at_the_supermarket",
+      "right": "flowers",
+      "canonical": "sortera-bilder-at-the-supermarket-vs-flowers-8699",
+      "siblings": [
+        "sortera-bilder-at-the-supermarket-vs-flowers-8699"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "at_the_supermarket-vs-tree",
+      "left": "at_the_supermarket",
+      "right": "tree",
+      "canonical": "sortera-bilder-at-the-supermarket-vs-tree-03f7",
+      "siblings": [
+        "sortera-bilder-at-the-supermarket-vs-tree-03f7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-4th_of_july",
+      "left": "bakery",
+      "right": "4th_of_july",
+      "canonical": "sortera-bilder-bakery-vs-4th-of-july-2e45",
+      "siblings": [
+        "sortera-bilder-bakery-vs-4th-of-july-2e45"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-activities",
+      "left": "bakery",
+      "right": "activities",
+      "canonical": "sortera-bilder-bakery-vs-activities-1b86",
+      "siblings": [
+        "sortera-bilder-bakery-vs-activities-1b86"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-animals",
+      "left": "bakery",
+      "right": "animals",
+      "canonical": "sortera-bilder-bakery-vs-animals-df48",
+      "siblings": [
+        "sortera-bilder-bakery-vs-animals-df48",
+        "sortera-bilder-bakery-vs-animals-d8f9"
+      ],
+      "n": 2
+    },
+    {
+      "pairKey": "bakery-vs-birds",
+      "left": "bakery",
+      "right": "birds",
+      "canonical": "sortera-bilder-bakery-vs-birds-4e8e",
+      "siblings": [
+        "sortera-bilder-bakery-vs-birds-4e8e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-birds_2",
+      "left": "bakery",
+      "right": "birds_2",
+      "canonical": "sortera-bilder-bakery-vs-birds-2-1fd2",
+      "siblings": [
+        "sortera-bilder-bakery-vs-birds-2-1fd2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-body_parts",
+      "left": "bakery",
+      "right": "body_parts",
+      "canonical": "sortera-bilder-bakery-vs-body-parts-2950",
+      "siblings": [
+        "sortera-bilder-bakery-vs-body-parts-2950"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-breakfast",
+      "left": "bakery",
+      "right": "breakfast",
+      "canonical": "sortera-bilder-bakery-vs-breakfast-30f0",
+      "siblings": [
+        "sortera-bilder-bakery-vs-breakfast-30f0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-camping",
+      "left": "bakery",
+      "right": "camping",
+      "canonical": "sortera-bilder-bakery-vs-camping-f46e",
+      "siblings": [
+        "sortera-bilder-bakery-vs-camping-f46e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-christmas",
+      "left": "bakery",
+      "right": "christmas",
+      "canonical": "sortera-bilder-bakery-vs-christmas-025d",
+      "siblings": [
+        "sortera-bilder-bakery-vs-christmas-025d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-classroom",
+      "left": "bakery",
+      "right": "classroom",
+      "canonical": "sortera-bilder-bakery-vs-classroom-2bd4",
+      "siblings": [
+        "sortera-bilder-bakery-vs-classroom-2bd4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-clothing",
+      "left": "bakery",
+      "right": "clothing",
+      "canonical": "sortera-bilder-bakery-vs-clothing-1e26",
+      "siblings": [
+        "sortera-bilder-bakery-vs-clothing-1e26"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-colors",
+      "left": "bakery",
+      "right": "colors",
+      "canonical": "sortera-bilder-bakery-vs-colors-d5a7",
+      "siblings": [
+        "sortera-bilder-bakery-vs-colors-d5a7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-dinosaurs",
+      "left": "bakery",
+      "right": "dinosaurs",
+      "canonical": "sortera-bilder-bakery-vs-dinosaurs-1de9",
+      "siblings": [
+        "sortera-bilder-bakery-vs-dinosaurs-1de9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-emotions",
+      "left": "bakery",
+      "right": "emotions",
+      "canonical": "sortera-bilder-bakery-vs-emotions-3f64",
+      "siblings": [
+        "sortera-bilder-bakery-vs-emotions-3f64"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-farm_animals",
+      "left": "bakery",
+      "right": "farm_animals",
+      "canonical": "sortera-bilder-bakery-vs-farm-animals-ee7a",
+      "siblings": [
+        "sortera-bilder-bakery-vs-farm-animals-ee7a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-flowers",
+      "left": "bakery",
+      "right": "flowers",
+      "canonical": "sortera-bilder-bakery-vs-flowers-35d0",
+      "siblings": [
+        "sortera-bilder-bakery-vs-flowers-35d0",
+        "sortera-bilder-bakery-vs-flowers-74cf"
+      ],
+      "n": 2
+    },
+    {
+      "pairKey": "bakery-vs-fruits",
+      "left": "bakery",
+      "right": "fruits",
+      "canonical": "sortera-bilder-bakery-vs-fruits-4580",
+      "siblings": [
+        "sortera-bilder-bakery-vs-fruits-4580"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-furniture",
+      "left": "bakery",
+      "right": "furniture",
+      "canonical": "sortera-bilder-bakery-vs-furniture-3f12",
+      "siblings": [
+        "sortera-bilder-bakery-vs-furniture-3f12"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-kitchen_tools",
+      "left": "bakery",
+      "right": "kitchen_tools",
+      "canonical": "sortera-bilder-bakery-vs-kitchen-tools-eb15",
+      "siblings": [
+        "sortera-bilder-bakery-vs-kitchen-tools-eb15"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-music",
+      "left": "bakery",
+      "right": "music",
+      "canonical": "sortera-bilder-bakery-vs-music-95b3",
+      "siblings": [
+        "sortera-bilder-bakery-vs-music-95b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-ocean_life",
+      "left": "bakery",
+      "right": "ocean_life",
+      "canonical": "sortera-bilder-bakery-vs-ocean-life-31c8",
+      "siblings": [
+        "sortera-bilder-bakery-vs-ocean-life-31c8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-pets",
+      "left": "bakery",
+      "right": "pets",
+      "canonical": "sortera-bilder-bakery-vs-pets-5bfb",
+      "siblings": [
+        "sortera-bilder-bakery-vs-pets-5bfb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-post_office",
+      "left": "bakery",
+      "right": "post_office",
+      "canonical": "sortera-bilder-bakery-vs-post-office-c921",
+      "siblings": [
+        "sortera-bilder-bakery-vs-post-office-c921"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-shapes",
+      "left": "bakery",
+      "right": "shapes",
+      "canonical": "sortera-bilder-bakery-vs-shapes-f357",
+      "siblings": [
+        "sortera-bilder-bakery-vs-shapes-f357"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-toys",
+      "left": "bakery",
+      "right": "toys",
+      "canonical": "sortera-bilder-bakery-vs-toys-bbd8",
+      "siblings": [
+        "sortera-bilder-bakery-vs-toys-bbd8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-tree",
+      "left": "bakery",
+      "right": "tree",
+      "canonical": "sortera-bilder-bakery-vs-tree-3eb7",
+      "siblings": [
+        "sortera-bilder-bakery-vs-tree-3eb7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-vegetables",
+      "left": "bakery",
+      "right": "vegetables",
+      "canonical": "sortera-bilder-bakery-vs-vegetables-06d9",
+      "siblings": [
+        "sortera-bilder-bakery-vs-vegetables-06d9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-vehicles",
+      "left": "bakery",
+      "right": "vehicles",
+      "canonical": "sortera-bilder-bakery-vs-vehicles-2964",
+      "siblings": [
+        "sortera-bilder-bakery-vs-vehicles-2964"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "bakery-vs-zoo_animals",
+      "left": "bakery",
+      "right": "zoo_animals",
+      "canonical": "sortera-bilder-bakery-vs-zoo-animals-ee80",
+      "siblings": [
+        "sortera-bilder-bakery-vs-zoo-animals-ee80"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-flowers",
+      "left": "beach",
+      "right": "flowers",
+      "canonical": "sortera-bilder-beach-vs-flowers-c7d3",
+      "siblings": [
+        "sortera-bilder-beach-vs-flowers-c7d3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "beach-vs-tree",
+      "left": "beach",
+      "right": "tree",
+      "canonical": "sortera-bilder-beach-vs-tree-f548",
+      "siblings": [
+        "sortera-bilder-beach-vs-tree-f548"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds-vs-tree",
+      "left": "birds",
+      "right": "tree",
+      "canonical": "sortera-bilder-birds-vs-tree-8c83",
+      "siblings": [
+        "sortera-bilder-birds-vs-tree-8c83"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds_2-vs-flowers",
+      "left": "birds_2",
+      "right": "flowers",
+      "canonical": "sortera-bilder-birds-2-vs-flowers-09e5",
+      "siblings": [
+        "sortera-bilder-birds-2-vs-flowers-09e5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "birds_2-vs-tree",
+      "left": "birds_2",
+      "right": "tree",
+      "canonical": "sortera-bilder-birds-2-vs-tree-291d",
+      "siblings": [
+        "sortera-bilder-birds-2-vs-tree-291d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-animals",
+      "left": "body_parts",
+      "right": "animals",
+      "canonical": "sortera-bilder-body-parts-vs-animals-3802",
+      "siblings": [
+        "sortera-bilder-body-parts-vs-animals-3802"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-flowers",
+      "left": "body_parts",
+      "right": "flowers",
+      "canonical": "sortera-bilder-body-parts-vs-flowers-3902",
+      "siblings": [
+        "sortera-bilder-body-parts-vs-flowers-3902"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "body_parts-vs-tree",
+      "left": "body_parts",
+      "right": "tree",
+      "canonical": "sortera-bilder-body-parts-vs-tree-2add",
+      "siblings": [
+        "sortera-bilder-body-parts-vs-tree-2add"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-animals",
+      "left": "breakfast",
+      "right": "animals",
+      "canonical": "sortera-bilder-breakfast-vs-animals-88de",
+      "siblings": [
+        "sortera-bilder-breakfast-vs-animals-88de"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-flowers",
+      "left": "breakfast",
+      "right": "flowers",
+      "canonical": "sortera-bilder-breakfast-vs-flowers-61ea",
+      "siblings": [
+        "sortera-bilder-breakfast-vs-flowers-61ea"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "breakfast-vs-tree",
+      "left": "breakfast",
+      "right": "tree",
+      "canonical": "sortera-bilder-breakfast-vs-tree-ca60",
+      "siblings": [
+        "sortera-bilder-breakfast-vs-tree-ca60"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-flowers",
+      "left": "camping",
+      "right": "flowers",
+      "canonical": "sortera-bilder-camping-vs-flowers-d679",
+      "siblings": [
+        "sortera-bilder-camping-vs-flowers-d679"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "camping-vs-tree",
+      "left": "camping",
+      "right": "tree",
+      "canonical": "sortera-bilder-camping-vs-tree-f6a8",
+      "siblings": [
+        "sortera-bilder-camping-vs-tree-f6a8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-animals",
+      "left": "christmas",
+      "right": "animals",
+      "canonical": "sortera-bilder-christmas-vs-animals-04f4",
+      "siblings": [
+        "sortera-bilder-christmas-vs-animals-04f4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-flowers",
+      "left": "christmas",
+      "right": "flowers",
+      "canonical": "sortera-bilder-christmas-vs-flowers-8cb2",
+      "siblings": [
+        "sortera-bilder-christmas-vs-flowers-8cb2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "christmas-vs-tree",
+      "left": "christmas",
+      "right": "tree",
+      "canonical": "sortera-bilder-christmas-vs-tree-6163",
+      "siblings": [
+        "sortera-bilder-christmas-vs-tree-6163"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-animals",
+      "left": "classroom",
+      "right": "animals",
+      "canonical": "sortera-bilder-classroom-vs-animals-b533",
+      "siblings": [
+        "sortera-bilder-classroom-vs-animals-b533"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-flowers",
+      "left": "classroom",
+      "right": "flowers",
+      "canonical": "sortera-bilder-classroom-vs-flowers-9bb5",
+      "siblings": [
+        "sortera-bilder-classroom-vs-flowers-9bb5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "classroom-vs-tree",
+      "left": "classroom",
+      "right": "tree",
+      "canonical": "sortera-bilder-classroom-vs-tree-13c9",
+      "siblings": [
+        "sortera-bilder-classroom-vs-tree-13c9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-animals",
+      "left": "clothing",
+      "right": "animals",
+      "canonical": "sortera-bilder-clothing-vs-animals-0b36",
+      "siblings": [
+        "sortera-bilder-clothing-vs-animals-0b36"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-flowers",
+      "left": "clothing",
+      "right": "flowers",
+      "canonical": "sortera-bilder-clothing-vs-flowers-77b3",
+      "siblings": [
+        "sortera-bilder-clothing-vs-flowers-77b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "clothing-vs-tree",
+      "left": "clothing",
+      "right": "tree",
+      "canonical": "sortera-bilder-clothing-vs-tree-f86e",
+      "siblings": [
+        "sortera-bilder-clothing-vs-tree-f86e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-animals",
+      "left": "colors",
+      "right": "animals",
+      "canonical": "sortera-bilder-colors-vs-animals-c4a5",
+      "siblings": [
+        "sortera-bilder-colors-vs-animals-c4a5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-flowers",
+      "left": "colors",
+      "right": "flowers",
+      "canonical": "sortera-bilder-colors-vs-flowers-cf78",
+      "siblings": [
+        "sortera-bilder-colors-vs-flowers-cf78"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "colors-vs-tree",
+      "left": "colors",
+      "right": "tree",
+      "canonical": "sortera-bilder-colors-vs-tree-0e9f",
+      "siblings": [
+        "sortera-bilder-colors-vs-tree-0e9f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-animals",
+      "left": "desserts_and_sweets",
+      "right": "animals",
+      "canonical": "sortera-bilder-desserts-and-sweets-vs-animals-dd7e",
+      "siblings": [
+        "sortera-bilder-desserts-and-sweets-vs-animals-dd7e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-flowers",
+      "left": "desserts_and_sweets",
+      "right": "flowers",
+      "canonical": "sortera-bilder-desserts-and-sweets-vs-flowers-d751",
+      "siblings": [
+        "sortera-bilder-desserts-and-sweets-vs-flowers-d751"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "desserts_and_sweets-vs-tree",
+      "left": "desserts_and_sweets",
+      "right": "tree",
+      "canonical": "sortera-bilder-desserts-and-sweets-vs-tree-4779",
+      "siblings": [
+        "sortera-bilder-desserts-and-sweets-vs-tree-4779"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-animals",
+      "left": "dinosaurs",
+      "right": "animals",
+      "canonical": "sortera-bilder-dinosaurs-vs-animals-f206",
+      "siblings": [
+        "sortera-bilder-dinosaurs-vs-animals-f206"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-flowers",
+      "left": "dinosaurs",
+      "right": "flowers",
+      "canonical": "sortera-bilder-dinosaurs-vs-flowers-2c03",
+      "siblings": [
+        "sortera-bilder-dinosaurs-vs-flowers-2c03"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "dinosaurs-vs-tree",
+      "left": "dinosaurs",
+      "right": "tree",
+      "canonical": "sortera-bilder-dinosaurs-vs-tree-d589",
+      "siblings": [
+        "sortera-bilder-dinosaurs-vs-tree-d589"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-animals",
+      "left": "easter",
+      "right": "animals",
+      "canonical": "sortera-bilder-easter-vs-animals-a4e7",
+      "siblings": [
+        "sortera-bilder-easter-vs-animals-a4e7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-flowers",
+      "left": "easter",
+      "right": "flowers",
+      "canonical": "sortera-bilder-easter-vs-flowers-8a92",
+      "siblings": [
+        "sortera-bilder-easter-vs-flowers-8a92"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "easter-vs-tree",
+      "left": "easter",
+      "right": "tree",
+      "canonical": "sortera-bilder-easter-vs-tree-be7b",
+      "siblings": [
+        "sortera-bilder-easter-vs-tree-be7b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-animals",
+      "left": "emotions",
+      "right": "animals",
+      "canonical": "sortera-bilder-emotions-vs-animals-ac71",
+      "siblings": [
+        "sortera-bilder-emotions-vs-animals-ac71"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-flowers",
+      "left": "emotions",
+      "right": "flowers",
+      "canonical": "sortera-bilder-emotions-vs-flowers-fdb0",
+      "siblings": [
+        "sortera-bilder-emotions-vs-flowers-fdb0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "emotions-vs-tree",
+      "left": "emotions",
+      "right": "tree",
+      "canonical": "sortera-bilder-emotions-vs-tree-4c2c",
+      "siblings": [
+        "sortera-bilder-emotions-vs-tree-4c2c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "farm_animals-vs-tree",
+      "left": "farm_animals",
+      "right": "tree",
+      "canonical": "sortera-bilder-farm-animals-vs-tree-493d",
+      "siblings": [
+        "sortera-bilder-farm-animals-vs-tree-493d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-animals",
+      "left": "flowers",
+      "right": "animals",
+      "canonical": "sortera-bilder-flowers-vs-animals-00dd",
+      "siblings": [
+        "sortera-bilder-flowers-vs-animals-00dd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-tree",
+      "left": "flowers",
+      "right": "tree",
+      "canonical": "sortera-bilder-flowers-vs-tree-28b8",
+      "siblings": [
+        "sortera-bilder-flowers-vs-tree-28b8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-flowers",
+      "left": "forest_creatures",
+      "right": "flowers",
+      "canonical": "sortera-bilder-forest-creatures-vs-flowers-4061",
+      "siblings": [
+        "sortera-bilder-forest-creatures-vs-flowers-4061"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "forest_creatures-vs-tree",
+      "left": "forest_creatures",
+      "right": "tree",
+      "canonical": "sortera-bilder-forest-creatures-vs-tree-c89d",
+      "siblings": [
+        "sortera-bilder-forest-creatures-vs-tree-c89d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-animals",
+      "left": "fruits",
+      "right": "animals",
+      "canonical": "sortera-bilder-fruits-vs-animals-ebd0",
+      "siblings": [
+        "sortera-bilder-fruits-vs-animals-ebd0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-flowers",
+      "left": "fruits",
+      "right": "flowers",
+      "canonical": "sortera-bilder-fruits-vs-flowers-91e0",
+      "siblings": [
+        "sortera-bilder-fruits-vs-flowers-91e0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "fruits-vs-tree",
+      "left": "fruits",
+      "right": "tree",
+      "canonical": "sortera-bilder-fruits-vs-tree-f13d",
+      "siblings": [
+        "sortera-bilder-fruits-vs-tree-f13d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-animals",
+      "left": "furniture",
+      "right": "animals",
+      "canonical": "sortera-bilder-furniture-vs-animals-bacd",
+      "siblings": [
+        "sortera-bilder-furniture-vs-animals-bacd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-flowers",
+      "left": "furniture",
+      "right": "flowers",
+      "canonical": "sortera-bilder-furniture-vs-flowers-d0bf",
+      "siblings": [
+        "sortera-bilder-furniture-vs-flowers-d0bf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "furniture-vs-tree",
+      "left": "furniture",
+      "right": "tree",
+      "canonical": "sortera-bilder-furniture-vs-tree-0d76",
+      "siblings": [
+        "sortera-bilder-furniture-vs-tree-0d76"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-animals",
+      "left": "hospital",
+      "right": "animals",
+      "canonical": "sortera-bilder-hospital-vs-animals-9b8f",
+      "siblings": [
+        "sortera-bilder-hospital-vs-animals-9b8f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-flowers",
+      "left": "hospital",
+      "right": "flowers",
+      "canonical": "sortera-bilder-hospital-vs-flowers-63b8",
+      "siblings": [
+        "sortera-bilder-hospital-vs-flowers-63b8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "hospital-vs-tree",
+      "left": "hospital",
+      "right": "tree",
+      "canonical": "sortera-bilder-hospital-vs-tree-0611",
+      "siblings": [
+        "sortera-bilder-hospital-vs-tree-0611"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-flowers",
+      "left": "insects_and_bugs",
+      "right": "flowers",
+      "canonical": "sortera-bilder-insects-and-bugs-vs-flowers-24b8",
+      "siblings": [
+        "sortera-bilder-insects-and-bugs-vs-flowers-24b8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "insects_and_bugs-vs-tree",
+      "left": "insects_and_bugs",
+      "right": "tree",
+      "canonical": "sortera-bilder-insects-and-bugs-vs-tree-90f2",
+      "siblings": [
+        "sortera-bilder-insects-and-bugs-vs-tree-90f2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-animals",
+      "left": "kitchen_tools",
+      "right": "animals",
+      "canonical": "sortera-bilder-kitchen-tools-vs-animals-2241",
+      "siblings": [
+        "sortera-bilder-kitchen-tools-vs-animals-2241"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-flowers",
+      "left": "kitchen_tools",
+      "right": "flowers",
+      "canonical": "sortera-bilder-kitchen-tools-vs-flowers-5f33",
+      "siblings": [
+        "sortera-bilder-kitchen-tools-vs-flowers-5f33"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "kitchen_tools-vs-tree",
+      "left": "kitchen_tools",
+      "right": "tree",
+      "canonical": "sortera-bilder-kitchen-tools-vs-tree-ebd7",
+      "siblings": [
+        "sortera-bilder-kitchen-tools-vs-tree-ebd7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-animals",
+      "left": "music",
+      "right": "animals",
+      "canonical": "sortera-bilder-music-vs-animals-a510",
+      "siblings": [
+        "sortera-bilder-music-vs-animals-a510"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-flowers",
+      "left": "music",
+      "right": "flowers",
+      "canonical": "sortera-bilder-music-vs-flowers-d4a9",
+      "siblings": [
+        "sortera-bilder-music-vs-flowers-d4a9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "music-vs-tree",
+      "left": "music",
+      "right": "tree",
+      "canonical": "sortera-bilder-music-vs-tree-e81c",
+      "siblings": [
+        "sortera-bilder-music-vs-tree-e81c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-animals",
+      "left": "occupations",
+      "right": "animals",
+      "canonical": "sortera-bilder-occupations-vs-animals-0d8d",
+      "siblings": [
+        "sortera-bilder-occupations-vs-animals-0d8d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-flowers",
+      "left": "occupations",
+      "right": "flowers",
+      "canonical": "sortera-bilder-occupations-vs-flowers-c794",
+      "siblings": [
+        "sortera-bilder-occupations-vs-flowers-c794"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "occupations-vs-tree",
+      "left": "occupations",
+      "right": "tree",
+      "canonical": "sortera-bilder-occupations-vs-tree-6630",
+      "siblings": [
+        "sortera-bilder-occupations-vs-tree-6630"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-flowers",
+      "left": "ocean_life",
+      "right": "flowers",
+      "canonical": "sortera-bilder-ocean-life-vs-flowers-5694",
+      "siblings": [
+        "sortera-bilder-ocean-life-vs-flowers-5694"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "ocean_life-vs-tree",
+      "left": "ocean_life",
+      "right": "tree",
+      "canonical": "sortera-bilder-ocean-life-vs-tree-c5f3",
+      "siblings": [
+        "sortera-bilder-ocean-life-vs-tree-c5f3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-flowers",
+      "left": "pets",
+      "right": "flowers",
+      "canonical": "sortera-bilder-pets-vs-flowers-3dd4",
+      "siblings": [
+        "sortera-bilder-pets-vs-flowers-3dd4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "pets-vs-tree",
+      "left": "pets",
+      "right": "tree",
+      "canonical": "sortera-bilder-pets-vs-tree-67a0",
+      "siblings": [
+        "sortera-bilder-pets-vs-tree-67a0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-animals",
+      "left": "post_office",
+      "right": "animals",
+      "canonical": "sortera-bilder-post-office-vs-animals-6675",
+      "siblings": [
+        "sortera-bilder-post-office-vs-animals-6675"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-flowers",
+      "left": "post_office",
+      "right": "flowers",
+      "canonical": "sortera-bilder-post-office-vs-flowers-37e5",
+      "siblings": [
+        "sortera-bilder-post-office-vs-flowers-37e5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "post_office-vs-tree",
+      "left": "post_office",
+      "right": "tree",
+      "canonical": "sortera-bilder-post-office-vs-tree-fcfa",
+      "siblings": [
+        "sortera-bilder-post-office-vs-tree-fcfa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-flowers",
+      "left": "reptiles_and_amphibians",
+      "right": "flowers",
+      "canonical": "sortera-bilder-reptiles-and-amphibians-vs-flowers-7abd",
+      "siblings": [
+        "sortera-bilder-reptiles-and-amphibians-vs-flowers-7abd"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "reptiles_and_amphibians-vs-tree",
+      "left": "reptiles_and_amphibians",
+      "right": "tree",
+      "canonical": "sortera-bilder-reptiles-and-amphibians-vs-tree-1e80",
+      "siblings": [
+        "sortera-bilder-reptiles-and-amphibians-vs-tree-1e80"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-animals",
+      "left": "shapes",
+      "right": "animals",
+      "canonical": "sortera-bilder-shapes-vs-animals-7008",
+      "siblings": [
+        "sortera-bilder-shapes-vs-animals-7008"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-flowers",
+      "left": "shapes",
+      "right": "flowers",
+      "canonical": "sortera-bilder-shapes-vs-flowers-c1f4",
+      "siblings": [
+        "sortera-bilder-shapes-vs-flowers-c1f4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "shapes-vs-tree",
+      "left": "shapes",
+      "right": "tree",
+      "canonical": "sortera-bilder-shapes-vs-tree-6d9f",
+      "siblings": [
+        "sortera-bilder-shapes-vs-tree-6d9f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-animals",
+      "left": "space",
+      "right": "animals",
+      "canonical": "sortera-bilder-space-vs-animals-3978",
+      "siblings": [
+        "sortera-bilder-space-vs-animals-3978"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-flowers",
+      "left": "space",
+      "right": "flowers",
+      "canonical": "sortera-bilder-space-vs-flowers-f83d",
+      "siblings": [
+        "sortera-bilder-space-vs-flowers-f83d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "space-vs-tree",
+      "left": "space",
+      "right": "tree",
+      "canonical": "sortera-bilder-space-vs-tree-dae8",
+      "siblings": [
+        "sortera-bilder-space-vs-tree-dae8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "spring-vs-tree",
+      "left": "spring",
+      "right": "tree",
+      "canonical": "sortera-bilder-spring-vs-tree-c977",
+      "siblings": [
+        "sortera-bilder-spring-vs-tree-c977"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-flowers",
+      "left": "summer",
+      "right": "flowers",
+      "canonical": "sortera-bilder-summer-vs-flowers-6923",
+      "siblings": [
+        "sortera-bilder-summer-vs-flowers-6923"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "summer-vs-tree",
+      "left": "summer",
+      "right": "tree",
+      "canonical": "sortera-bilder-summer-vs-tree-5dc8",
+      "siblings": [
+        "sortera-bilder-summer-vs-tree-5dc8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-animals",
+      "left": "thanksgivinng",
+      "right": "animals",
+      "canonical": "sortera-bilder-thanksgivinng-vs-animals-7dce",
+      "siblings": [
+        "sortera-bilder-thanksgivinng-vs-animals-7dce"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-flowers",
+      "left": "thanksgivinng",
+      "right": "flowers",
+      "canonical": "sortera-bilder-thanksgivinng-vs-flowers-2add",
+      "siblings": [
+        "sortera-bilder-thanksgivinng-vs-flowers-2add"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "thanksgivinng-vs-tree",
+      "left": "thanksgivinng",
+      "right": "tree",
+      "canonical": "sortera-bilder-thanksgivinng-vs-tree-4fb7",
+      "siblings": [
+        "sortera-bilder-thanksgivinng-vs-tree-4fb7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-flowers",
+      "left": "things_that_fly",
+      "right": "flowers",
+      "canonical": "sortera-bilder-things-that-fly-vs-flowers-2178",
+      "siblings": [
+        "sortera-bilder-things-that-fly-vs-flowers-2178"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "things_that_fly-vs-tree",
+      "left": "things_that_fly",
+      "right": "tree",
+      "canonical": "sortera-bilder-things-that-fly-vs-tree-4007",
+      "siblings": [
+        "sortera-bilder-things-that-fly-vs-tree-4007"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-animals",
+      "left": "tools",
+      "right": "animals",
+      "canonical": "sortera-bilder-tools-vs-animals-9b19",
+      "siblings": [
+        "sortera-bilder-tools-vs-animals-9b19"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-flowers",
+      "left": "tools",
+      "right": "flowers",
+      "canonical": "sortera-bilder-tools-vs-flowers-cc02",
+      "siblings": [
+        "sortera-bilder-tools-vs-flowers-cc02"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tools-vs-tree",
+      "left": "tools",
+      "right": "tree",
+      "canonical": "sortera-bilder-tools-vs-tree-25c3",
+      "siblings": [
+        "sortera-bilder-tools-vs-tree-25c3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-animals",
+      "left": "toys",
+      "right": "animals",
+      "canonical": "sortera-bilder-toys-vs-animals-c789",
+      "siblings": [
+        "sortera-bilder-toys-vs-animals-c789"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-flowers",
+      "left": "toys",
+      "right": "flowers",
+      "canonical": "sortera-bilder-toys-vs-flowers-ab50",
+      "siblings": [
+        "sortera-bilder-toys-vs-flowers-ab50"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "toys-vs-tree",
+      "left": "toys",
+      "right": "tree",
+      "canonical": "sortera-bilder-toys-vs-tree-d943",
+      "siblings": [
+        "sortera-bilder-toys-vs-tree-d943"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-animals",
+      "left": "tree",
+      "right": "animals",
+      "canonical": "sortera-bilder-tree-vs-animals-f635",
+      "siblings": [
+        "sortera-bilder-tree-vs-animals-f635"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-flowers",
+      "left": "tree",
+      "right": "flowers",
+      "canonical": "sortera-bilder-tree-vs-flowers-133d",
+      "siblings": [
+        "sortera-bilder-tree-vs-flowers-133d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-animals",
+      "left": "vegetables",
+      "right": "animals",
+      "canonical": "sortera-bilder-vegetables-vs-animals-2469",
+      "siblings": [
+        "sortera-bilder-vegetables-vs-animals-2469"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-flowers",
+      "left": "vegetables",
+      "right": "flowers",
+      "canonical": "sortera-bilder-vegetables-vs-flowers-baa4",
+      "siblings": [
+        "sortera-bilder-vegetables-vs-flowers-baa4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vegetables-vs-tree",
+      "left": "vegetables",
+      "right": "tree",
+      "canonical": "sortera-bilder-vegetables-vs-tree-1dbe",
+      "siblings": [
+        "sortera-bilder-vegetables-vs-tree-1dbe"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-animals",
+      "left": "vehicles",
+      "right": "animals",
+      "canonical": "sortera-bilder-vehicles-vs-animals-6978",
+      "siblings": [
+        "sortera-bilder-vehicles-vs-animals-6978"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-flowers",
+      "left": "vehicles",
+      "right": "flowers",
+      "canonical": "sortera-bilder-vehicles-vs-flowers-f326",
+      "siblings": [
+        "sortera-bilder-vehicles-vs-flowers-f326"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "vehicles-vs-tree",
+      "left": "vehicles",
+      "right": "tree",
+      "canonical": "sortera-bilder-vehicles-vs-tree-b0a3",
+      "siblings": [
+        "sortera-bilder-vehicles-vs-tree-b0a3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-animals",
+      "left": "weather",
+      "right": "animals",
+      "canonical": "sortera-bilder-weather-vs-animals-9e0c",
+      "siblings": [
+        "sortera-bilder-weather-vs-animals-9e0c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-flowers",
+      "left": "weather",
+      "right": "flowers",
+      "canonical": "sortera-bilder-weather-vs-flowers-1361",
+      "siblings": [
+        "sortera-bilder-weather-vs-flowers-1361"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "weather-vs-tree",
+      "left": "weather",
+      "right": "tree",
+      "canonical": "sortera-bilder-weather-vs-tree-910e",
+      "siblings": [
+        "sortera-bilder-weather-vs-tree-910e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-flowers",
+      "left": "winter",
+      "right": "flowers",
+      "canonical": "sortera-bilder-winter-vs-flowers-bc26",
+      "siblings": [
+        "sortera-bilder-winter-vs-flowers-bc26"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "winter-vs-tree",
+      "left": "winter",
+      "right": "tree",
+      "canonical": "sortera-bilder-winter-vs-tree-d7d8",
+      "siblings": [
+        "sortera-bilder-winter-vs-tree-d7d8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-flowers",
+      "left": "zoo_animals",
+      "right": "flowers",
+      "canonical": "sortera-bilder-zoo-animals-vs-flowers-84e2",
+      "siblings": [
+        "sortera-bilder-zoo-animals-vs-flowers-84e2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "zoo_animals-vs-tree",
+      "left": "zoo_animals",
+      "right": "tree",
+      "canonical": "sortera-bilder-zoo-animals-vs-tree-ce64",
+      "siblings": [
+        "sortera-bilder-zoo-animals-vs-tree-ce64"
+      ],
+      "n": 1
+    }
+  ]
+}

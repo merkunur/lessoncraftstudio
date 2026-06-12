@@ -136,6 +136,7 @@ function levelChip(key: string): string {
   return LEVEL_CHIP[key] || key;
 }
 function themeLabel(themeKey: string, locale: string): string {
+  if (!themeKey) return '';
   if (themeKey.includes('-vs-')) {
     return themeKey.split('-vs-').map((k) => getAxisName('theme', k, locale) || k).join(' · ');
   }
@@ -244,7 +245,9 @@ export default async function AllWorksheetsPage({
     for (const l of allLandings) {
       typeSet.set(l.coordinate.type, (typeSet.get(l.coordinate.type) || 0) + 1);
       levelSet.set(l.coordinate.level, (levelSet.get(l.coordinate.level) || 0) + 1);
-      themeSet.set(l.coordinate.theme, (themeSet.get(l.coordinate.theme) || 0) + 1);
+      // themeless coordinates exist at runtime (es math-worksheet class carries
+      // theme:null despite the declared type) — they are unfilterable by theme.
+      if (l.coordinate.theme) themeSet.set(l.coordinate.theme, (themeSet.get(l.coordinate.theme) || 0) + 1);
     }
     const types = [...typeSet.keys()]
       .map((key) => ({ key, label: getAxisName('exercise-type', key, locale) || key }))

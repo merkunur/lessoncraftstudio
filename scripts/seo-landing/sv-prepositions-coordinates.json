@@ -1,0 +1,1529 @@
+{
+  "locale": "sv",
+  "exerciseType": "prepositions",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 47,
+    "multiplechoice": 44
+  },
+  "totalValid": 91,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-tillbehor-d586",
+      "siblings": [
+        "prepositioner-fyll-i-tillbehor-d586"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-aktiviteter-ab70",
+      "siblings": [
+        "prepositioner-fyll-i-aktiviteter-ab70"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-djur-cfd7",
+      "siblings": [
+        "prepositioner-fyll-i-djur-cfd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-runt-huset-2910",
+      "siblings": [
+        "prepositioner-fyll-i-runt-huset-2910"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-i-snabbkopet-dfe4",
+      "siblings": [
+        "prepositioner-fyll-i-i-snabbkopet-dfe4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-bageri-25e8",
+      "siblings": [
+        "prepositioner-fyll-i-bageri-25e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-strand-ad6d",
+      "siblings": [
+        "prepositioner-fyll-i-strand-ad6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-faglar-4a58",
+      "siblings": [
+        "prepositioner-fyll-i-faglar-4a58"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-faglar-2-6c5a",
+      "siblings": [
+        "prepositioner-fyll-i-faglar-2-6c5a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-kroppsdelar-1a7b",
+      "siblings": [
+        "prepositioner-fyll-i-kroppsdelar-1a7b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-frukost-cac8",
+      "siblings": [
+        "prepositioner-fyll-i-frukost-cac8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-camping-8ed2",
+      "siblings": [
+        "prepositioner-fyll-i-camping-8ed2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-jul-1f50",
+      "siblings": [
+        "prepositioner-fyll-i-jul-1f50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-klassrum-20a5",
+      "siblings": [
+        "prepositioner-fyll-i-klassrum-20a5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-klader-aed8",
+      "siblings": [
+        "prepositioner-fyll-i-klader-aed8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-farger-3126",
+      "siblings": [
+        "prepositioner-fyll-i-farger-3126"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-efterratter-och-godis-8582",
+      "siblings": [
+        "prepositioner-fyll-i-efterratter-och-godis-8582"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-dinosaurier-a212",
+      "siblings": [
+        "prepositioner-fyll-i-dinosaurier-a212"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-pask-a22c",
+      "siblings": [
+        "prepositioner-fyll-i-pask-a22c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-kanslor-1092",
+      "siblings": [
+        "prepositioner-fyll-i-kanslor-1092"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-blommor-a847",
+      "siblings": [
+        "prepositioner-fyll-i-blommor-a847"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-skogsdjur-c9b0",
+      "siblings": [
+        "prepositioner-fyll-i-skogsdjur-c9b0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-frukter-a229",
+      "siblings": [
+        "prepositioner-fyll-i-frukter-a229"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-mobler-a2de",
+      "siblings": [
+        "prepositioner-fyll-i-mobler-a2de"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-sjukhus-93c1",
+      "siblings": [
+        "prepositioner-fyll-i-sjukhus-93c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-insekter-och-kryp-6f77",
+      "siblings": [
+        "prepositioner-fyll-i-insekter-och-kryp-6f77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-koksredskap-98e8",
+      "siblings": [
+        "prepositioner-fyll-i-koksredskap-98e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-musik-989f",
+      "siblings": [
+        "prepositioner-fyll-i-musik-989f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-yrken-386c",
+      "siblings": [
+        "prepositioner-fyll-i-yrken-386c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-havsliv-b5e4",
+      "siblings": [
+        "prepositioner-fyll-i-havsliv-b5e4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-husdjur-8677",
+      "siblings": [
+        "prepositioner-fyll-i-husdjur-8677"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-postkontor-fe4c",
+      "siblings": [
+        "prepositioner-fyll-i-postkontor-fe4c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-reptiler-och-groddjur-e9b8",
+      "siblings": [
+        "prepositioner-fyll-i-reptiler-och-groddjur-e9b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-former-910d",
+      "siblings": [
+        "prepositioner-fyll-i-former-910d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-rymden-cd5d",
+      "siblings": [
+        "prepositioner-fyll-i-rymden-cd5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-var-0d36",
+      "siblings": [
+        "prepositioner-fyll-i-var-0d36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-sommar-611e",
+      "siblings": [
+        "prepositioner-fyll-i-sommar-611e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-thanksgiving-54c6",
+      "siblings": [
+        "prepositioner-fyll-i-thanksgiving-54c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-saker-som-flyger-9b4b",
+      "siblings": [
+        "prepositioner-fyll-i-saker-som-flyger-9b4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-verktyg-f876",
+      "siblings": [
+        "prepositioner-fyll-i-verktyg-f876"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-leksaker-f662",
+      "siblings": [
+        "prepositioner-fyll-i-leksaker-f662"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-trad-658a",
+      "siblings": [
+        "prepositioner-fyll-i-trad-658a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-gronsaker-933b",
+      "siblings": [
+        "prepositioner-fyll-i-gronsaker-933b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-fordon-1915",
+      "siblings": [
+        "prepositioner-fyll-i-fordon-1915"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-vader-087f",
+      "siblings": [
+        "prepositioner-fyll-i-vader-087f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-vinter-f6fb",
+      "siblings": [
+        "prepositioner-fyll-i-vinter-f6fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "prepositioner-fyll-i-djurparksdjur-a82d",
+      "siblings": [
+        "prepositioner-fyll-i-djurparksdjur-a82d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "ak-1"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "prepositioner-flerval-tillbehor-e93a",
+      "siblings": [
+        "prepositioner-flerval-tillbehor-e93a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "prepositioner-flerval-aktiviteter-1488",
+      "siblings": [
+        "prepositioner-flerval-aktiviteter-1488"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "prepositioner-flerval-djur-dbb7",
+      "siblings": [
+        "prepositioner-flerval-djur-dbb7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "prepositioner-flerval-runt-huset-8b3d",
+      "siblings": [
+        "prepositioner-flerval-runt-huset-8b3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "prepositioner-flerval-i-snabbkopet-4437",
+      "siblings": [
+        "prepositioner-flerval-i-snabbkopet-4437"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "prepositioner-flerval-bageri-15cc",
+      "siblings": [
+        "prepositioner-flerval-bageri-15cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "prepositioner-flerval-strand-38eb",
+      "siblings": [
+        "prepositioner-flerval-strand-38eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "prepositioner-flerval-faglar-88ad",
+      "siblings": [
+        "prepositioner-flerval-faglar-88ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "prepositioner-flerval-faglar-2-c8dd",
+      "siblings": [
+        "prepositioner-flerval-faglar-2-c8dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "prepositioner-flerval-kroppsdelar-2d71",
+      "siblings": [
+        "prepositioner-flerval-kroppsdelar-2d71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "prepositioner-flerval-frukost-f29d",
+      "siblings": [
+        "prepositioner-flerval-frukost-f29d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "prepositioner-flerval-camping-2b53",
+      "siblings": [
+        "prepositioner-flerval-camping-2b53"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "prepositioner-flerval-jul-cdca",
+      "siblings": [
+        "prepositioner-flerval-jul-cdca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "prepositioner-flerval-klassrum-8ad4",
+      "siblings": [
+        "prepositioner-flerval-klassrum-8ad4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "prepositioner-flerval-klader-c108",
+      "siblings": [
+        "prepositioner-flerval-klader-c108"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "prepositioner-flerval-farger-8f3d",
+      "siblings": [
+        "prepositioner-flerval-farger-8f3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "prepositioner-flerval-efterratter-och-godis-3c92",
+      "siblings": [
+        "prepositioner-flerval-efterratter-och-godis-3c92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "prepositioner-flerval-dinosaurier-da39",
+      "siblings": [
+        "prepositioner-flerval-dinosaurier-da39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "prepositioner-flerval-pask-19cb",
+      "siblings": [
+        "prepositioner-flerval-pask-19cb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "prepositioner-flerval-kanslor-061b",
+      "siblings": [
+        "prepositioner-flerval-kanslor-061b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "prepositioner-flerval-bondgardsdjur-3cb3",
+      "siblings": [
+        "prepositioner-flerval-bondgardsdjur-3cb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "prepositioner-flerval-blommor-d8e1",
+      "siblings": [
+        "prepositioner-flerval-blommor-d8e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "prepositioner-flerval-skogsdjur-5fd7",
+      "siblings": [
+        "prepositioner-flerval-skogsdjur-5fd7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "prepositioner-flerval-frukter-e127",
+      "siblings": [
+        "prepositioner-flerval-frukter-e127"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "prepositioner-flerval-mobler-846d",
+      "siblings": [
+        "prepositioner-flerval-mobler-846d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "prepositioner-flerval-sjukhus-b320",
+      "siblings": [
+        "prepositioner-flerval-sjukhus-b320"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "prepositioner-flerval-koksredskap-0cb3",
+      "siblings": [
+        "prepositioner-flerval-koksredskap-0cb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "prepositioner-flerval-musik-8a6a",
+      "siblings": [
+        "prepositioner-flerval-musik-8a6a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "prepositioner-flerval-yrken-9f77",
+      "siblings": [
+        "prepositioner-flerval-yrken-9f77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "prepositioner-flerval-havsliv-9984",
+      "siblings": [
+        "prepositioner-flerval-havsliv-9984"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "prepositioner-flerval-husdjur-2d56",
+      "siblings": [
+        "prepositioner-flerval-husdjur-2d56"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "prepositioner-flerval-postkontor-2e0c",
+      "siblings": [
+        "prepositioner-flerval-postkontor-2e0c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "prepositioner-flerval-rymden-4a3a",
+      "siblings": [
+        "prepositioner-flerval-rymden-4a3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "prepositioner-flerval-sommar-ebcd",
+      "siblings": [
+        "prepositioner-flerval-sommar-ebcd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "prepositioner-flerval-thanksgiving-f776",
+      "siblings": [
+        "prepositioner-flerval-thanksgiving-f776"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "prepositioner-flerval-saker-som-flyger-35cf",
+      "siblings": [
+        "prepositioner-flerval-saker-som-flyger-35cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "prepositioner-flerval-verktyg-5865",
+      "siblings": [
+        "prepositioner-flerval-verktyg-5865"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "prepositioner-flerval-leksaker-18c8",
+      "siblings": [
+        "prepositioner-flerval-leksaker-18c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "prepositioner-flerval-trad-8360",
+      "siblings": [
+        "prepositioner-flerval-trad-8360"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "prepositioner-flerval-gronsaker-29aa",
+      "siblings": [
+        "prepositioner-flerval-gronsaker-29aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "prepositioner-flerval-fordon-2a31",
+      "siblings": [
+        "prepositioner-flerval-fordon-2a31"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "prepositioner-flerval-vader-1416",
+      "siblings": [
+        "prepositioner-flerval-vader-1416"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "prepositioner-flerval-vinter-327c",
+      "siblings": [
+        "prepositioner-flerval-vinter-327c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "prepositioner-flerval-djurparksdjur-9691",
+      "siblings": [
+        "prepositioner-flerval-djurparksdjur-9691"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "forskola"
+    }
+  ]
+}

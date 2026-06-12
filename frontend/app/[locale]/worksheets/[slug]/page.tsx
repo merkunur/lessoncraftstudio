@@ -33,6 +33,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   es: { jsonld: 'Nueva Escuela Mexicana (SEP)', chip: 'Nueva Escuela Mexicana' },
   sv: { jsonld: 'Läroplan för grundskolan (Lgr22)', chip: 'Lgr22' },
   nl: { jsonld: 'Kerndoelen primair onderwijs', chip: 'SLO-kerndoelen' },
+  da: { jsonld: 'Fælles Mål', chip: 'Fælles Mål' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -82,6 +83,14 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Meer met dit thema', sameLevelHeading: 'Meer voor dit niveau',
     madeWith: (t) => `Gemaakt met de ${t}-generator`, typeCrumb: (e) => e.replace(/^Werkblad:\s*/, ''),
     playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
+  },
+  da: {
+    worksheets: 'Opgaver', playInteractive: 'Spil interaktivt', downloadPdf: 'Hent PDF', answerKey: 'Facitliste',
+    moreToTry: 'Flere opgaver at prøve', tryInteractive: 'Prøv den interaktivt', makerSoon: 'Generatorsiden kommer snart.',
+    comingSoon: '', // da: no dashed framework chip on strand-only readiness landings (da ledger)
+    sameThemeHeading: 'Mere med dette tema', sameLevelHeading: 'Mere til samme klassetrin',
+    madeWith: (t) => `Lavet med ${t}-generatoren`, typeCrumb: (e) => e.replace(/^Opgave:\s*/, ''),
+    playAria: (h1) => `Spil ${h1}`, previewAlt: (h1) => `Forhåndsvisning af ${h1}`,
   },
 };
 
@@ -194,9 +203,16 @@ export default function WorksheetLandingPage(
     'kleuters': { chip: 'Kleuters', schema: 'Kleuters (groep 1-2)', age: '4-6' },
     'groep-3': { chip: 'Groep 3', schema: 'Groep 3', age: '6-7' },
     'groep-4': { chip: 'Groep 4', schema: 'Groep 4', age: '7-8' },
+    // da 3-band axis (Fælles Mål, da ledger-lock 2026-06-12): børnehaveklassen (readiness floor =
+    // børnehave + 0. klasse merged, ages 3-6) / 1. klasse (≤20 CARRIES, 7) / 2. klasse (21-100, 8);
+    // 3. klasse OUT. da SHARES the '1-klasse'/'2-klasse' KEYS with de — Danish writes lowercase
+    // "1. klasse", so the locale-prefixed 'da:' entries win via the prefixed lookup below.
+    'boernehaveklasse': { chip: 'Børnehaveklassen (0. klasse)', schema: 'Børnehaveklassen', age: '3-6' },
+    'da:1-klasse': { chip: '1. klasse', schema: '1. klasse', age: '7-8' },
+    'da:2-klasse': { chip: '2. klasse', schema: '2. klasse', age: '8-9' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
-  const _bands = _bandKeys.map((k) => LEVELS[k]).filter(Boolean);
+  const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);
   const _safe = _bands.length ? _bands : [LEVELS['kindergarten']];
   const _isSpan = _safe.length > 1;
   const _lo = _safe[0];

@@ -60,6 +60,37 @@ function iconScatter({ theme, noun, n, w, h, iconPx, rng }) {
   return `<div style="position:relative;width:${w}px;height:${h}px">${imgs.join('')}</div>`;
 }
 
+/**
+ * Mixed-noun scatter: counts = { noun: n, ... } placed in one w×h stage on
+ * jittered shuffled grid cells (no overlap). Each img carries
+ * data-lcs-scatter="<vocabKey>" for counting in verify().
+ */
+function mixedScatter({ theme, items, w, h, iconPx, rng, mark }) {
+  const total = items.reduce((a, it) => a + it.n, 0);
+  const cols = Math.ceil(Math.sqrt(total * (w / h)));
+  const rows = Math.ceil(total / cols);
+  const cellW = w / cols, cellH = h / rows;
+  const cells = [];
+  for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) cells.push([c, r]);
+  const picked = rng.shuffle(cells).slice(0, total);
+  const flat = [];
+  items.forEach((it) => { for (let k = 0; k < it.n; k++) flat.push(it); });
+  const order = rng.shuffle(flat);
+  const jx = Math.max(0, (cellW - iconPx) / 2 - 2);
+  const jy = Math.max(0, (cellH - iconPx) / 2 - 2);
+  const imgs = order.map((it, i) => {
+    const [c, r] = picked[i];
+    const x = c * cellW + (cellW - iconPx) / 2 + (rng.next() * 2 - 1) * jx;
+    const y = r * cellH + (cellH - iconPx) / 2 + (rng.next() * 2 - 1) * jy;
+    const rot = (rng.next() * 16 - 8).toFixed(1);
+    const extra = mark ? mark(it, i) : '';
+    return `<img class="ws-icon" src="${fileUri(theme, it.noun)}" alt="" data-lcs-scatter="${it.vocabKey}"${extra} ` +
+      `style="position:absolute;left:${x.toFixed(1)}px;top:${y.toFixed(1)}px;` +
+      `width:${iconPx}px;height:${iconPx}px;transform:rotate(${rot}deg)">`;
+  });
+  return `<div style="position:relative;width:${w}px;height:${h}px">${imgs.join('')}</div>`;
+}
+
 /** Numeral choice chips; exactly one carries data-lcs-correct. */
 function chipRow({ choices, correct, size }) {
   const px = size || 52;
@@ -96,4 +127,4 @@ function distractorsFor({ correct, count, min, max, rng, deltas }) {
   return [...ds];
 }
 
-module.exports = { iconRows, fitIcons, iconScatter, chipRow, answerBox, distractorsFor };
+module.exports = { iconRows, fitIcons, iconScatter, mixedScatter, chipRow, answerBox, distractorsFor };

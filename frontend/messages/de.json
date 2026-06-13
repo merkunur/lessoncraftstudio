@@ -922,7 +922,9 @@
       "free_interactive": "Kostenloses interaktives",
       "for": "für",
       "print_or_play_online": "Drucken oder online spielen",
-      "variant_label": "Satz"
+      "variant_label": "Satz",
+      "free_printable": "Kostenloses druckbares",
+      "download_pdf": "Kostenloses PDF herunterladen"
     },
     "deckCardAlt": {
       "withTheme": "Vorschau: {exerciseType}-Arbeitsblatt mit {theme} für {level}",
@@ -3291,7 +3293,29 @@
     "kindergarten": "Kindergarten-Materialien (5-7 Jahre): Buchstaben, Zahlen, Wortschatz. Druckbare PDFs und interaktive Online-Spiele in 11 Sprachen.",
     "grade-1": "Arbeitsblätter für die 1. Klasse: Lesen, Schreiben, Rechnen bis 20. Druckbare PDFs und interaktive Übungen in 11 Sprachen.",
     "grade-2": "Arbeitsblätter für die 2. Klasse: Zahlenraum bis 100, Lesen, Schreiben. Druckbare Materialien und Online-Übungen für den Alltag.",
-    "grade-3": "Arbeitsblätter für die 3. Klasse: Multiplikation, Division, Lesen, Schreiben. Druckbar und interaktiv, geeignet für Hausaufgaben."
+    "grade-3": "Arbeitsblätter für die 3. Klasse: Multiplikation, Division, Lesen, Schreiben. Druckbar und interaktiv, geeignet für Hausaufgaben.",
+    "counting-pictures": "Zählen lernen mit bunten Bildern: Arbeitsblätter für Vorschule und Kindergarten, Mengen erfassen und die passende Zahl finden. PDF kostenlos zum Ausdrucken.",
+    "counting-frames": "Zehnerfeld-Arbeitsblätter für Kindergarten und 1. Klasse: Plättchen zählen, Felder füllen und Zahlen bis 20 Schritt für Schritt aufbauen. Kostenlose PDFs.",
+    "tally-counting": "Strichlisten-Arbeitsblätter für Kindergarten bis 2. Klasse: Mengen zählen, in Fünferbündeln notieren und wieder ablesen. Kostenlos als PDF zum Ausdrucken.",
+    "number-charts": "Hundertertafel und Zahlenreihen: fehlende Zahlen ergänzen und Zählmuster entdecken. Arbeitsblätter von Kindergarten bis 3. Klasse, PDF kostenlos.",
+    "comparing-numbers": "Zahlen vergleichen mit größer, kleiner und gleich: Arbeitsblätter für die 1. bis 3. Klasse im Zahlenraum bis 1000. Kostenlos als PDF zum Ausdrucken.",
+    "comparing-groups": "Mengen vergleichen in Vorschule und Kindergarten: Welche Gruppe zeigt mehr, weniger oder gleich viele Bilder? Arbeitsblätter kostenlos als PDF zum Ausdrucken.",
+    "comparing-sizes": "Größen vergleichen mit klaren Bildpaaren: groß und klein, lang und kurz, hoch und niedrig. Arbeitsblätter für Vorschule und Kindergarten, kostenlos als PDF.",
+    "number-lines": "Zahlenstrahl-Arbeitsblätter für die 1. bis 3. Klasse: Sprünge für Plus und Minus, fehlende Zahlen eintragen, Reihenfolge üben. Kostenlose PDFs zum Ausdrucken.",
+    "base-ten": "Stellenwert verstehen mit Zehnerblöcken: Hunderter, Zehner und Einer ablesen und Zahlen selbst bauen. Arbeitsblätter für die 1. und 2. Klasse, PDF kostenlos.",
+    "telling-time": "Uhrzeit lernen mit Arbeitsblättern für die 1. bis 3. Klasse: analoge Uhren auf volle und halbe Stunden sowie in Fünf-Minuten-Schritten ablesen. PDF kostenlos.",
+    "fractions": "Brüche entdecken in der 2. und 3. Klasse: Hälften, Drittel und Viertel anmalen, benennen und vergleichen. Arbeitsblätter kostenlos als PDF zum Ausdrucken.",
+    "graphing-data": "Diagramme lesen in der 1. bis 3. Klasse: Säulendiagramme, Bilddiagramme und Strichlisten auswerten und ergänzen. Arbeitsblätter als kostenlose PDFs zum Drucken.",
+    "arrays-multiplication": "Erstes Einmaleins mit Punktefeldern: gleiche Gruppen, wiederholte Addition und Malaufgaben in Reihen. Arbeitsblätter für die 2. und 3. Klasse, PDF kostenlos.",
+    "geometry": "Geometrie-Arbeitsblätter von Vorschule bis 3. Klasse: Formen und Körper benennen, Ecken und Seiten zählen, Symmetrie entdecken. Kostenlos als PDF zum Drucken.",
+    "measurement": "Messen und Größen für die 1. bis 3. Klasse: Längen mit Lineal und Einheitswürfeln bestimmen, vergleichen, Thermometer ablesen. Kostenlos als PDF drucken.",
+    "visual-logic": "Logikrätsel mit Bildern von Vorschule bis 3. Klasse: Bilder-Sudoku und Logicals mit genau einer richtigen Lösung pro Rätsel. Arbeitsblätter kostenlos als PDF.",
+    "visual-discrimination": "Visuelle Wahrnehmung fördern in Vorschule und Kindergarten: Schatten erkennen, Spiegelbilder finden, Unterschiede entdecken. Arbeitsblätter als kostenlose PDFs.",
+    "visual-matching": "Bilder zuordnen in Vorschule und Kindergarten: zusammengehörige Paare finden und verbinden. Arbeitsblätter kostenlos als PDF zum Drucken.",
+    "patterns": "Muster fortsetzen mit Bildreihen: AB-, AAB- und ABC-Folgen erkennen und ergänzen. Arbeitsblätter für Vorschule und Kindergarten, kostenlos als PDF zum Drucken.",
+    "position-words": "Lagebeziehungen üben mit Bildszenen: über, unter, links, rechts, innen und außen. Arbeitsblätter für Vorschule und Kindergarten, kostenlos als PDF drucken.",
+    "sorting-categories": "Sortieren und Ordnen in Vorschule und Kindergarten: Bilder nach Kategorien gruppieren und erklären, was zusammengehört. Arbeitsblätter kostenlos als PDF.",
+    "picture-arithmetic": "Rechnen mit Bildern für Kindergarten und 1. Klasse: Plus und Minus mit Bildgruppen und Durchstreichen üben. Arbeitsblätter kostenlos als PDF drucken."
   },
   "topicProse": {
     "animals": "Tiere gehören zu den ersten Bildern, die Kinder sicher benennen, und genau dieses vertraute Bildset zieht sich durch alle Übungstypen. Mit Tieren zählen und addieren die Kinder, sie sortieren und ordnen zu, sie entscheiden, was nicht dazugehört, und sie erkennen erste Buchstaben. Der Themenwortschatz mit Tieren ist in jeder Sprache hochfrequent und damit ideal für mehrsprachige Klassen, in denen jedes Kind die Begriffe schnell aufgreift. Alle Arbeitsblätter mit Tieren gibt es als kostenloses PDF zum Ausdrucken mit passender, online spielbarer Version und Lösungsbogen. So können die Kinder zu Hause und in der Schule üben. Die Arbeitsblätter stehen in allen 11 Sprachen, in denen wir veröffentlichen, bereit.",

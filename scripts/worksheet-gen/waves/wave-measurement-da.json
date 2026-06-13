@@ -1,0 +1,24 @@
+{
+  "id": "wave-measurement-da",
+  "seedEpoch": 1,
+  "locales": [
+    "da"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    1,
+    3
+  ],
+  "variantsPerType": 1,
+  "types": {
+    "assetClasses": [
+      "measurement"
+    ]
+  }
+}

@@ -136,7 +136,7 @@
     "instruction": "Indkreds den LÆNGSTE i hver række."
   },
   "K-038": {
-    "title": "Tung eller let?",
+    "title": "Hvad vejer mest?",
     "instruction": "Tænk på det virkelige liv! Indkreds den TUNGESTE."
   },
   "K-039": {
@@ -631,6 +631,10 @@
     "title": "Hvad er klokken?",
     "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
   },
+  "G2-250": {
+    "title": "Kvart over og kvart i",
+    "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
+  },
   "G3-301": {
     "title": "Store tabeller",
     "instruction": "Tæl rækkerne af billeder. Skriv hvor mange i alt."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Klodstårne",
     "instruction": "Tæl alle klodserne i hvert tårn. Skriv det samlede antal."
+  },
+  "G3-354": {
+    "title": "Helt nøjagtigt klokkeslæt",
+    "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
+  },
+  "G3-355": {
+    "title": "12-timer og 24-timer",
+    "instruction": "Lav om mellem 12-timer og 24-timer. Indkreds den rigtige form."
+  },
+  "G3-356": {
+    "title": "Læg til og træk fra",
+    "instruction": "Start ved klokkeslættet. Læg til eller træk fra, og skriv det nye klokkeslæt."
   },
   "G3-348": {
     "title": "Stor billedsudoku",

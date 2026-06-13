@@ -1106,7 +1106,9 @@
       "free_interactive": "Gratis interaktivt",
       "for": "til",
       "print_or_play_online": "Udskriv eller spil online",
-      "variant_label": "Sæt"
+      "variant_label": "Sæt",
+      "free_printable": "Gratis printbart",
+      "download_pdf": "Hent PDF gratis"
     },
     "deckCardAlt": {
       "withTheme": "Forhåndsvisning af {exerciseType}-arbejdsark med {theme} til {level}",
@@ -1899,7 +1901,29 @@
     "weather": "Sol, regn, sne, vind og otte vejrtyper mere. Farverige billeder til daglige samtaler om vejret om morgenen i børnehaveklassen.",
     "winter": "Snemand, kælk, slik og vintertøj. Festlige illustrationer til ugerne mellem efterårsferien og juleferiens start i indskolingen.",
     "zoo_animals": "Løve, tiger, giraf, elefant og otte zoodyr mere. Farverige illustrationer til tema-uger før eller efter et zoo-besøg i børnehaveklassen.",
-    "zoo_animals_bw": "Zoodyr som stregtegninger til farvelægning. Brug dem som lektie efter klassens udflugt til Zoologisk Have i forbindelse med naturfag."
+    "zoo_animals_bw": "Zoodyr som stregtegninger til farvelægning. Brug dem som lektie efter klassens udflugt til Zoologisk Have i forbindelse med naturfag.",
+    "counting-pictures": "Tæl billedgrupper og skriv det rigtige tal. Tælleøvelse for 4-6-årige i børnehaven og børnehaveklassen — gratis at printe som PDF.",
+    "counting-frames": "Fyld tierrammen og byg tal op til 20 med tydelig visuel struktur. Talforståelse for børnehaveklassen — gratis udskrivbare PDF-ark.",
+    "tally-counting": "Tæl billeder og noter med tællestreger i grupper af fem. Talvenlig opgave for indskolingen — gratis at printe som PDF til klassen.",
+    "number-charts": "Udfyld de manglende tal i hundredfeltet og find mønstrene. Talrækkefølge for 1.-2. klasse — gratis udskrivbare PDF-ark til at printe.",
+    "comparing-numbers": "Hvilket tal er størst? Sammenlign tal med større end, mindre end og lig med. Talopgaver for 1.-2. klasse — gratis at printe som PDF.",
+    "comparing-groups": "Hvilken gruppe har flest, og hvilken har færrest? Mængdebegreber for 3-5-årige i børnehaven — gratis udskrivbare PDF-ark at printe.",
+    "comparing-sizes": "Find den største, den mindste og den længste. Størrelsesord for de yngste i børnehaven — gratis at printe som PDF-ark til hjemmet.",
+    "number-lines": "Hop på tallinjen og gør plus og minus konkret og synligt. Talopgaver for 1.-2. klasse — gratis udskrivbare PDF-ark, klar til at printe.",
+    "base-ten": "Tæl tiere og enere og forstå positionssystemet med tier-klodser. Talopgaver for 1.-2. klasse — gratis at printe som PDF til klassen.",
+    "telling-time": "Aflæs det analoge ur — hel og halv og fem minutter. Lær klokken i 1.-2. klasse med gratis udskrivbare PDF-ark, klar til at printe.",
+    "fractions": "Farv og navngiv halve, tredjedele og fjerdedele. Et konkret første møde med brøker for 2.-3. klasse — gratis at printe som PDF-ark.",
+    "graphing-data": "Aflæs og udfyld søjlediagrammer og billeddiagrammer med tema-data. Datalæsning for indskolingen — gratis udskrivbare PDF-ark at printe.",
+    "arrays-multiplication": "Tæl rækker og søjler, og gør gentaget plus til gange. Begyndende multiplikation for 2.-3. klasse — gratis udskrivbare PDF-ark at printe.",
+    "geometry": "Navngiv former, tæl sider og hjørner, og find symmetri. Geometri for indskolingen som gratis udskrivbare PDF-ark, klar til at printe.",
+    "measurement": "Mål med lineal og enheds-klodser, og sammenlign længder. Praktisk måling for indskolingen — gratis at printe som PDF-ark til klassen.",
+    "visual-logic": "Billed-sudoku og logikgitre med præcis ét rigtigt svar. Begynder-logik for indskolingen som gratis udskrivbare PDF-ark, klar til at printe.",
+    "visual-discrimination": "Match skygger, find spejlbilleder og se hvilken der ikke passer. Visuel skelnen for 4-6-årige i børnehaven — gratis at printe som PDF-ark.",
+    "visual-matching": "Find par og forbind billeder der hører sammen. Visuel hukommelse for de yngste i børnehaven — gratis udskrivbare PDF-ark at printe.",
+    "patterns": "Fortsæt mønstret og find det manglende led i AB- og ABC-rækker. Mønstre for børnehaven — gratis at printe som PDF-ark til klassen.",
+    "position-words": "Over, under, til venstre og til højre i billedscener. Pladsforståelse for 4-6-årige i børnehaven — gratis udskrivbare PDF-ark at printe.",
+    "sorting-categories": "Sortér billeder i grupper og forklar hvad der hører sammen. Kategorisering for de yngste — gratis at printe som PDF-ark til klassen.",
+    "picture-arithmetic": "Læg sammen og træk fra med billedgrupper, før tallene kommer. Billedregning for indskolingen — gratis udskrivbare PDF-ark at printe."
   },
   "topicProse": {
     "animals": "Arbejdsark med dyr er det mest brugbare tema i en indskolingsklasse, fordi ordene går igen overalt. Den samme velkendte flok af katte, køer, fugle og fisk dukker op i tælling og addition, sortering og matchning, hvilken der ikke passer og staveøvelser med forlyd, så børnene øver en ny færdighed på billeder, de allerede kender og holder af, frem for at afkode en ny sammenhæng hver gang. Dyrenavne er også højfrekvente på alle de sprog, vi udgiver på, hvilket gør disse ark særligt nyttige, når en klasse har børn på forskellige sprogniveauer. Denne side samler hvert dyretema-ark på tværs af øvelsestyperne. Hvert ark er en gratis printbar PDF at printe med en tilhørende interaktiv version og en facitliste, og hele samlingen findes på de 11 sprog vi udgiver på.",

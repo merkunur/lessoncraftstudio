@@ -631,6 +631,10 @@
     "title": "Que horas são?",
     "instruction": "Leia cada relógio. Circule a hora certa."
   },
+  "G2-250": {
+    "title": "Quartos de hora",
+    "instruction": "Leia cada relógio. Circule a hora certa."
+  },
   "G3-301": {
     "title": "Matrizes grandes",
     "instruction": "Conte as fileiras de figuras. Escreva quantas há no total."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Torres de cubos",
     "instruction": "Conte todos os cubos de cada torre. Escreva o total."
+  },
+  "G3-354": {
+    "title": "Certinho no minuto",
+    "instruction": "Leia cada relógio. Circule a hora certa."
+  },
+  "G3-355": {
+    "title": "12 horas ou 24 horas",
+    "instruction": "Transforme cada hora na sua outra forma. Circule a equivalente."
+  },
+  "G3-356": {
+    "title": "Some ou tire o tempo",
+    "instruction": "Comece na hora indicada, some ou tire o tempo e escreva a nova hora."
   },
   "G3-348": {
     "title": "Sudoku de figuras grande",

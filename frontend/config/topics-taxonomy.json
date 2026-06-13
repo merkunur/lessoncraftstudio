@@ -149,6 +149,116 @@
       "default_subject": "logic",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "odd-one-out"
+    },
+    "counting-pictures": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "counting-pictures"
+    },
+    "counting-frames": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "counting-frames"
+    },
+    "tally-counting": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "tally-counting"
+    },
+    "number-charts": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "number-charts"
+    },
+    "comparing-numbers": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "comparing-numbers"
+    },
+    "comparing-groups": {
+      "default_subject": "math",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "comparing-groups"
+    },
+    "comparing-sizes": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "comparing-sizes"
+    },
+    "number-lines": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "number-lines"
+    },
+    "base-ten": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "base-ten"
+    },
+    "telling-time": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "telling-time"
+    },
+    "fractions": {
+      "default_subject": "math",
+      "default_age_range": "8-10",
+      "exercise_type_axis_key": "fractions"
+    },
+    "graphing-data": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "graphing-data"
+    },
+    "arrays-multiplication": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "arrays-multiplication"
+    },
+    "geometry": {
+      "default_subject": "math",
+      "default_age_range": "7-9",
+      "exercise_type_axis_key": "geometry"
+    },
+    "measurement": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "measurement"
+    },
+    "visual-logic": {
+      "default_subject": "logic",
+      "default_age_range": "8-10",
+      "exercise_type_axis_key": "visual-logic"
+    },
+    "visual-discrimination": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "visual-discrimination"
+    },
+    "visual-matching": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "visual-matching"
+    },
+    "patterns": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "patterns"
+    },
+    "position-words": {
+      "default_subject": "spatial-reasoning",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "position-words"
+    },
+    "sorting-categories": {
+      "default_subject": "logic",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "sorting-categories"
+    },
+    "picture-arithmetic": {
+      "default_subject": "math",
+      "default_age_range": "6-8",
+      "exercise_type_axis_key": "picture-arithmetic"
     }
   },
   "axes": {
@@ -971,6 +1081,182 @@
           "da": "Hvilken Passer Ikke",
           "no": "Hvilken Passer Ikke",
           "fi": "Mikä Ei Kuulu Joukkoon"
+        }
+      },
+      "counting-pictures": {
+        "slug": {
+          "en": "counting-pictures"
+        },
+        "name": {
+          "en": "Counting Pictures"
+        }
+      },
+      "counting-frames": {
+        "slug": {
+          "en": "counting-frames"
+        },
+        "name": {
+          "en": "Ten Frames"
+        }
+      },
+      "tally-counting": {
+        "slug": {
+          "en": "tally-counting"
+        },
+        "name": {
+          "en": "Tally Marks"
+        }
+      },
+      "number-charts": {
+        "slug": {
+          "en": "number-charts"
+        },
+        "name": {
+          "en": "Number Charts"
+        }
+      },
+      "comparing-numbers": {
+        "slug": {
+          "en": "comparing-numbers"
+        },
+        "name": {
+          "en": "Comparing Numbers"
+        }
+      },
+      "comparing-groups": {
+        "slug": {
+          "en": "comparing-groups"
+        },
+        "name": {
+          "en": "Comparing Groups"
+        }
+      },
+      "comparing-sizes": {
+        "slug": {
+          "en": "comparing-sizes"
+        },
+        "name": {
+          "en": "Comparing Sizes"
+        }
+      },
+      "number-lines": {
+        "slug": {
+          "en": "number-lines"
+        },
+        "name": {
+          "en": "Number Lines"
+        }
+      },
+      "base-ten": {
+        "slug": {
+          "en": "base-ten"
+        },
+        "name": {
+          "en": "Base Ten Blocks"
+        }
+      },
+      "telling-time": {
+        "slug": {
+          "en": "telling-time"
+        },
+        "name": {
+          "en": "Telling Time"
+        }
+      },
+      "fractions": {
+        "slug": {
+          "en": "fractions"
+        },
+        "name": {
+          "en": "Fractions"
+        }
+      },
+      "graphing-data": {
+        "slug": {
+          "en": "graphing-data"
+        },
+        "name": {
+          "en": "Graphs and Data"
+        }
+      },
+      "arrays-multiplication": {
+        "slug": {
+          "en": "arrays-multiplication"
+        },
+        "name": {
+          "en": "Arrays and Multiplication"
+        }
+      },
+      "geometry": {
+        "slug": {
+          "en": "geometry"
+        },
+        "name": {
+          "en": "Geometry"
+        }
+      },
+      "measurement": {
+        "slug": {
+          "en": "measurement"
+        },
+        "name": {
+          "en": "Measurement"
+        }
+      },
+      "visual-logic": {
+        "slug": {
+          "en": "visual-logic"
+        },
+        "name": {
+          "en": "Visual Logic"
+        }
+      },
+      "visual-discrimination": {
+        "slug": {
+          "en": "visual-discrimination"
+        },
+        "name": {
+          "en": "Visual Discrimination"
+        }
+      },
+      "visual-matching": {
+        "slug": {
+          "en": "visual-matching"
+        },
+        "name": {
+          "en": "Visual Matching"
+        }
+      },
+      "patterns": {
+        "slug": {
+          "en": "patterns"
+        },
+        "name": {
+          "en": "Patterns"
+        }
+      },
+      "position-words": {
+        "slug": {
+          "en": "position-words"
+        },
+        "name": {
+          "en": "Position Words"
+        }
+      },
+      "sorting-categories": {
+        "slug": {
+          "en": "sorting-categories"
+        },
+        "name": {
+          "en": "Sorting and Categorizing"
+        }
+      },
+      "picture-arithmetic": {
+        "slug": {
+          "en": "picture-arithmetic"
+        },
+        "name": {
+          "en": "Picture Math"
         }
       }
     },

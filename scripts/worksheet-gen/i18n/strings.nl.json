@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Beroepen en hun gereedschap",
     "instruction": "Trek een lijn van elke helper naar het gereedschap dat hij gebruikt."
+  },
+  "K-221": {
+    "title": "Beginklanken",
+    "instruction": "Schrijf de letter waarmee elk plaatje begint."
+  },
+  "K-222": {
+    "title": "Hoofdletters en kleine letters",
+    "instruction": "Trek een lijn van elke hoofdletter naar de kleine letter."
+  },
+  "K-223": {
+    "title": "Ontbrekende letters",
+    "instruction": "Schrijf de ontbrekende letters om het alfabet af te maken."
+  },
+  "K-224": {
+    "title": "Ontbrekende klank",
+    "instruction": "Schrijf de ontbrekende letter om elk woord af te maken."
+  },
+  "K-225": {
+    "title": "Woord bij plaatje",
+    "instruction": "Trek een lijn van elk woord naar het plaatje dat erbij hoort."
+  },
+  "K-226": {
+    "title": "Eindklanken",
+    "instruction": "Schrijf de letter waarmee elk plaatje eindigt."
+  },
+  "K-227": {
+    "title": "Middenklanken",
+    "instruction": "Schrijf de klinker die je in het midden van elk woord hoort."
+  },
+  "K-228": {
+    "title": "Sorteren op beginklank",
+    "instruction": "Trek een lijn van elk plaatje naar de letter waarmee het begint."
+  },
+  "K-229": {
+    "title": "Zoek de letter",
+    "instruction": "Zet een kring om elke letter die hetzelfde is als die in het vak."
+  },
+  "K-230": {
+    "title": "Klinkers en medeklinkers",
+    "instruction": "Sorteer elke letter bij de klinkers of bij de medeklinkers."
+  },
+  "K-231": {
+    "title": "Bouw het woord",
+    "instruction": "Gebruik de letters om het woord bij elk plaatje te bouwen."
+  },
+  "K-232": {
+    "title": "Rijmparen",
+    "instruction": "Trek een lijn tussen de twee plaatjes die op elkaar rijmen."
+  },
+  "K-233": {
+    "title": "Tel de lettergrepen",
+    "instruction": "Schrijf hoeveel lettergrepen je in elk woord hoort."
+  },
+  "K-234": {
+    "title": "Sorteren op lettergrepen",
+    "instruction": "Trek een lijn van elk plaatje naar het juiste aantal lettergrepen."
+  },
+  "K-235": {
+    "title": "Sorteren op groep",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
   }
 }

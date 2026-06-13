@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Berufe und ihre Werkzeuge",
     "instruction": "Verbinde jede helfende Person mit dem Werkzeug, das sie benutzt."
+  },
+  "K-221": {
+    "title": "Anlaute",
+    "instruction": "Schreibe den Buchstaben, mit dem jedes Bild beginnt."
+  },
+  "K-222": {
+    "title": "Groß- und Kleinbuchstaben",
+    "instruction": "Verbinde jeden Großbuchstaben mit seinem Kleinbuchstaben."
+  },
+  "K-223": {
+    "title": "Fehlende Buchstaben",
+    "instruction": "Schreibe die fehlenden Buchstaben, um das Alphabet zu vervollständigen."
+  },
+  "K-224": {
+    "title": "Fehlender Laut",
+    "instruction": "Schreibe den fehlenden Buchstaben, um jedes Wort zu vervollständigen."
+  },
+  "K-225": {
+    "title": "Wort und Bild verbinden",
+    "instruction": "Verbinde jedes Wort mit dem passenden Bild."
+  },
+  "K-226": {
+    "title": "Auslaute",
+    "instruction": "Schreibe den Buchstaben, mit dem jedes Bild endet."
+  },
+  "K-227": {
+    "title": "Inlaute",
+    "instruction": "Schreibe den Selbstlaut, den du in der Mitte jedes Wortes hörst."
+  },
+  "K-228": {
+    "title": "Nach Anlaut sortieren",
+    "instruction": "Verbinde jedes Bild mit dem Buchstaben, mit dem es beginnt."
+  },
+  "K-229": {
+    "title": "Finde den Buchstaben",
+    "instruction": "Kreise jeden Buchstaben ein, der zu dem im Kästchen passt."
+  },
+  "K-230": {
+    "title": "Selbstlaute und Mitlaute",
+    "instruction": "Sortiere jeden Buchstaben zu den Selbstlauten oder den Mitlauten."
+  },
+  "K-231": {
+    "title": "Wörter bauen",
+    "instruction": "Baue mit den Buchstaben das Wort zu jedem Bild."
+  },
+  "K-232": {
+    "title": "Reimpaare",
+    "instruction": "Verbinde die beiden Bilder, die sich reimen."
+  },
+  "K-233": {
+    "title": "Silben zählen",
+    "instruction": "Schreibe, wie viele Silben du in jedem Wort hörst."
+  },
+  "K-234": {
+    "title": "Nach Silben sortieren",
+    "instruction": "Verbinde jedes Bild mit der Anzahl seiner Silben."
+  },
+  "K-235": {
+    "title": "Nach Kategorien sortieren",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
   }
 }

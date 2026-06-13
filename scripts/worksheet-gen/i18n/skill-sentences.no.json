@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Å koble hvert bilde til partneren sin utvikler tenkningen for å oppdage sammenhenger i naturen.",
     "short": "Utvikler kobling og tenkning."
+  },
+  "beginning-sounds": {
+    "full": "Å si den første lyden i hvert bilde bygger den bokstav-lyd-kunnskapen som er kjernen i tidlig lesing.",
+    "short": "Øver førstelyd og bokstavlyder."
+  },
+  "letter-knowledge": {
+    "full": "Å kjenne igjen store og små bokstaver og rekkefølgen deres bygger alfabetkunnskapen som tidlig lesing hviler på.",
+    "short": "Øver bokstavkjennskap og alfabetet."
+  },
+  "word-building": {
+    "full": "Å lytte etter hver lyd og skrive bokstaven som mangler bygger avkodingen barna bruker når de leser sine første ord.",
+    "short": "Øver avkoding og ordbygging."
+  },
+  "picture-vocabulary": {
+    "full": "Å koble skrevne ord til bildene sine bygger ordgjenkjenningen og ordforrådet som gjør bokstaver til mening.",
+    "short": "Øver ordgjenkjenning og ordforråd."
+  },
+  "phonological-awareness": {
+    "full": "Å høre lydene og stavelsene inne i ord bygger den språklige bevisstheten som flytende lesing er avhengig av.",
+    "short": "Øver språklig bevissthet."
   }
 }

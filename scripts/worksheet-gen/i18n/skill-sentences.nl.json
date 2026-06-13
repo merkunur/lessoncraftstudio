@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Elk plaatje aan zijn maatje koppelen ontwikkelt het redeneren om verbanden in de natuur te ontdekken.",
     "short": "Ontwikkelt koppelen en redeneren."
+  },
+  "beginning-sounds": {
+    "full": "Door de eerste klank van elk plaatje te benoemen leren kinderen de letter-klankkoppeling die de basis vormt van leren lezen.",
+    "short": "Oefent beginklanken en letterklanken."
+  },
+  "letter-knowledge": {
+    "full": "Het herkennen van hoofdletters, kleine letters en hun volgorde bouwt de letterkennis op waarop leren lezen rust.",
+    "short": "Oefent letterherkenning en het alfabet."
+  },
+  "word-building": {
+    "full": "Door naar elke klank te luisteren en de ontbrekende letter te schrijven oefenen kinderen het verklanken dat ze nodig hebben om hun eerste woorden te lezen.",
+    "short": "Oefent verklanken en woorden bouwen."
+  },
+  "picture-vocabulary": {
+    "full": "Door geschreven woorden bij hun plaatje te zoeken bouwen kinderen de woordherkenning en woordenschat op die letters betekenis geven.",
+    "short": "Oefent woordherkenning en woordenschat."
+  },
+  "phonological-awareness": {
+    "full": "Het horen van de klanken en lettergrepen in woorden bouwt het fonologisch bewustzijn op waarop vlot lezen steunt.",
+    "short": "Oefent fonologisch bewustzijn."
   }
 }

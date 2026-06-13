@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Collegare ogni immagine alla sua coppia sviluppa il ragionamento per scoprire i legami nel mondo naturale.",
     "short": "Sviluppa l'abbinamento e il ragionamento."
+  },
+  "beginning-sounds": {
+    "full": "Dire il primo suono di ogni immagine costruisce la conoscenza dei suoni delle lettere che è al cuore della lettura iniziale.",
+    "short": "Allena suoni iniziali e suoni delle lettere."
+  },
+  "letter-knowledge": {
+    "full": "Riconoscere le lettere maiuscole e minuscole e il loro ordine costruisce la conoscenza dell'alfabeto su cui si fonda la lettura iniziale.",
+    "short": "Allena il riconoscimento delle lettere e l'alfabeto."
+  },
+  "word-building": {
+    "full": "Ascoltare ogni suono e scrivere la lettera mancante costruisce le abilità di decodifica con cui i bambini leggono le prime parole.",
+    "short": "Allena decodifica e costruzione di parole."
+  },
+  "picture-vocabulary": {
+    "full": "Abbinare le parole scritte alle immagini costruisce il riconoscimento delle parole e il vocabolario che trasforma le lettere in significato.",
+    "short": "Allena riconoscimento delle parole e vocabolario."
+  },
+  "phonological-awareness": {
+    "full": "Sentire i suoni e le sillabe dentro le parole costruisce la consapevolezza fonologica da cui dipende la lettura fluente.",
+    "short": "Allena la consapevolezza fonologica."
   }
 }

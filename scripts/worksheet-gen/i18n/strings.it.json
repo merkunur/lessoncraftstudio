@@ -898,5 +898,65 @@
   "K-213": {
     "title": "I lavoratori della comunità e i loro strumenti",
     "instruction": "Collega con una linea ogni lavoratore allo strumento che usa."
+  },
+  "K-221": {
+    "title": "Suoni iniziali",
+    "instruction": "Scrivi la lettera con cui comincia ogni immagine."
+  },
+  "K-222": {
+    "title": "Maiuscole e minuscole",
+    "instruction": "Unisci con una linea ogni lettera maiuscola alla sua minuscola."
+  },
+  "K-223": {
+    "title": "Lettere mancanti",
+    "instruction": "Scrivi le lettere mancanti per completare l'alfabeto."
+  },
+  "K-224": {
+    "title": "Suono mancante",
+    "instruction": "Scrivi la lettera mancante per completare ogni parola."
+  },
+  "K-225": {
+    "title": "Collega parola e immagine",
+    "instruction": "Unisci con una linea ogni parola all'immagine che indica."
+  },
+  "K-226": {
+    "title": "Suoni finali",
+    "instruction": "Scrivi la lettera con cui finisce ogni immagine."
+  },
+  "K-227": {
+    "title": "Suoni in mezzo",
+    "instruction": "Scrivi la vocale che senti in mezzo a ogni parola."
+  },
+  "K-228": {
+    "title": "Ordina per suono iniziale",
+    "instruction": "Unisci con una linea ogni immagine alla lettera con cui comincia."
+  },
+  "K-229": {
+    "title": "Trova la lettera",
+    "instruction": "Cerchia tutte le lettere uguali a quella nel riquadro."
+  },
+  "K-230": {
+    "title": "Vocali e consonanti",
+    "instruction": "Ordina ogni lettera tra le vocali o le consonanti."
+  },
+  "K-231": {
+    "title": "Costruisci la parola",
+    "instruction": "Usa le lettere per costruire la parola di ogni immagine."
+  },
+  "K-232": {
+    "title": "Coppie in rima",
+    "instruction": "Unisci con una linea le due immagini che fanno rima."
+  },
+  "K-233": {
+    "title": "Conta le sillabe",
+    "instruction": "Scrivi quante sillabe senti in ogni parola."
+  },
+  "K-234": {
+    "title": "Ordina per sillabe",
+    "instruction": "Unisci con una linea ogni immagine al suo numero di sillabe."
+  },
+  "K-235": {
+    "title": "Ordina per categoria",
+    "instruction": "Unisci con una linea ogni immagine al gruppo a cui appartiene."
   }
 }

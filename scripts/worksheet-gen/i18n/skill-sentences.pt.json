@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Ligar cada imagem ao seu par desenvolve o raciocínio para descobrir conexões no mundo natural.",
     "short": "Desenvolve a correspondência e o raciocínio."
+  },
+  "beginning-sounds": {
+    "full": "Nomear o primeiro som de cada figura desenvolve o conhecimento das relações entre letra e som que está no coração da leitura inicial.",
+    "short": "Desenvolve o som inicial e a relação letra-som."
+  },
+  "letter-knowledge": {
+    "full": "Reconhecer letras maiúsculas e minúsculas e sua ordem desenvolve o conhecimento do alfabeto sobre o qual a leitura inicial se constrói.",
+    "short": "Desenvolve o reconhecimento das letras e do alfabeto."
+  },
+  "word-building": {
+    "full": "Ouvir cada som e escrever a letra que falta desenvolve as habilidades de decodificação que as crianças usam para ler suas primeiras palavras.",
+    "short": "Desenvolve a decodificação e a montagem de palavras."
+  },
+  "picture-vocabulary": {
+    "full": "Ligar palavras escritas às suas figuras desenvolve o reconhecimento de palavras e o vocabulário que transformam letras em significado.",
+    "short": "Desenvolve o reconhecimento de palavras e o vocabulário."
+  },
+  "phonological-awareness": {
+    "full": "Ouvir os sons e as sílabas dentro das palavras desenvolve a consciência fonológica de que a leitura fluente depende.",
+    "short": "Desenvolve a consciência fonológica."
   }
 }

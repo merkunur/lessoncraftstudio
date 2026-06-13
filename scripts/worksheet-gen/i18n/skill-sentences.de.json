@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Das Zuordnen der passenden Bildpaare fördert das logische Denken und das Erkennen von Zusammenhängen in der Natur.",
     "short": "Fördert Zuordnen und logisches Denken."
+  },
+  "beginning-sounds": {
+    "full": "Den ersten Laut in jedem Bild zu benennen baut das Buchstaben-Laut-Wissen auf, das im Zentrum des ersten Lesens steht.",
+    "short": "Fördert Anlaute und Buchstaben-Laut-Zuordnung."
+  },
+  "letter-knowledge": {
+    "full": "Groß- und Kleinbuchstaben und ihre Reihenfolge zu erkennen baut das Alphabetwissen auf, auf dem das frühe Lesen aufbaut.",
+    "short": "Fördert Buchstabenerkennung und Alphabetwissen."
+  },
+  "word-building": {
+    "full": "Auf jeden Laut zu hören und den fehlenden Buchstaben zu schreiben baut die Lesefähigkeiten auf, mit denen Kinder ihre ersten Wörter lesen.",
+    "short": "Fördert Lautieren und Wortaufbau."
+  },
+  "picture-vocabulary": {
+    "full": "Geschriebene Wörter ihren Bildern zuzuordnen baut den Wortschatz und das Worterkennen auf, das aus Buchstaben Bedeutung macht.",
+    "short": "Fördert Worterkennung und Wortschatz."
+  },
+  "phonological-awareness": {
+    "full": "Die Laute und Silben in Wörtern zu hören baut die phonologische Bewusstheit auf, auf die flüssiges Lesen angewiesen ist.",
+    "short": "Fördert die phonologische Bewusstheit."
   }
 }

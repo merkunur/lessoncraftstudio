@@ -4,19 +4,49 @@
     {
       "key": "Animals",
       "label": {
-        "en": "Animals"
+        "en": "Animals",
+        "de": "Tiere",
+        "es": "Animales",
+        "fr": "Animaux",
+        "it": "Animali",
+        "pt": "Animais",
+        "nl": "Dieren",
+        "sv": "Djur",
+        "da": "Dyr",
+        "no": "Dyr",
+        "fi": "Eläimet"
       }
     },
     {
       "key": "Fruits",
       "label": {
-        "en": "Fruits"
+        "en": "Fruits",
+        "de": "Obst",
+        "es": "Frutas",
+        "fr": "Fruits",
+        "it": "Frutta",
+        "pt": "Frutas",
+        "nl": "Fruit",
+        "sv": "Frukt",
+        "da": "Frugt",
+        "no": "Frukt",
+        "fi": "Hedelmät"
       }
     },
     {
       "key": "Vehicles",
       "label": {
-        "en": "Vehicles"
+        "en": "Vehicles",
+        "de": "Fahrzeuge",
+        "es": "Vehículos",
+        "fr": "Véhicules",
+        "it": "Veicoli",
+        "pt": "Veículos",
+        "nl": "Voertuigen",
+        "sv": "Fordon",
+        "da": "Køretøjer",
+        "no": "Kjøretøy",
+        "fi": "Ajoneuvot"
       }
     }
   ],

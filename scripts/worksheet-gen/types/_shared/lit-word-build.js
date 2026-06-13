@@ -58,9 +58,13 @@ function makeLitWordBuild(cfg) {
 
       if (this.mode === 'build-the-word') return buildBuildWord(chosen, n, rng);
 
-      const cols = n >= 4 ? 4 : n;
+      // adapt to the longest word so non-EN words (longer than EN CVC) don't
+      // overflow the page: shorter words → 4 columns; longer → fewer + smaller.
+      const maxLen = Math.max(3, ...chosen.map((it) => String(it.word).length));
+      const cols = maxLen <= 3 ? Math.min(4, n) : maxLen <= 4 ? 3 : 2;
       const iconPx = n > 6 ? 92 : 104;
-      const tile = 38, fs = 24;
+      const tile = maxLen <= 3 ? 38 : maxLen <= 4 ? 33 : 30;
+      const fs = maxLen <= 4 ? 24 : 20;
 
       const cards = chosen.map((it) => {
         const letters = String(it.word).split('');

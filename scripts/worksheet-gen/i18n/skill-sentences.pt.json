@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Contar conjuntos de figuras desenvolve a correspondência um a um e o senso numérico que dá segurança nos primeiros passos.",
+    "short": "Desenvolve a contagem e o senso numérico."
+  },
+  "counting-frames": {
+    "full": "O quadro de dez dá às crianças uma estrutura visual clara para contar, formar o cinco e formar o dez com confiança.",
+    "short": "Trabalha o senso numérico com o quadro de dez."
+  },
+  "tally-counting": {
+    "full": "Registrar contagens com risquinhos ensina a organizar informações e a contar de forma eficiente em grupos de cinco.",
+    "short": "Pratica contar e registrar com marcas."
+  },
+  "number-charts": {
+    "full": "Trabalhar com o quadro numérico fortalece a ordem da contagem, os padrões de saltos e o início do valor posicional.",
+    "short": "Reforça a ordem e os padrões dos números."
+  },
+  "comparing-numbers": {
+    "full": "Comparar números com maior que, menor que e igual constrói o senso de grandeza por trás de toda a aritmética futura.",
+    "short": "Desenvolve o pensar maior e menor que."
+  },
+  "comparing-groups": {
+    "full": "Decidir qual grupo tem mais, menos ou a mesma quantidade desenvolve a comparação antes mesmo dos símbolos numéricos.",
+    "short": "Desenvolve a comparação mais-menos-igual."
+  },
+  "comparing-sizes": {
+    "full": "Separar grande e pequeno, alto e baixo, comprido e curto desenvolve o vocabulário de tamanho usado todos os dias.",
+    "short": "Trabalha o vocabulário grande e pequeno."
+  },
+  "number-lines": {
+    "full": "Saltar pela reta numérica torna a adição, a subtração e a ordem dos números visíveis e concretas para os pequenos.",
+    "short": "Mostra somar e subtrair na reta numérica."
+  },
+  "base-ten": {
+    "full": "Os blocos de base dez tornam o valor posicional concreto: centenas, dezenas e unidades visíveis de uma só olhada.",
+    "short": "Torna o valor posicional concreto e visível."
+  },
+  "telling-time": {
+    "full": "Ler o relógio analógico na hora cheia, meia hora e de cinco em cinco constrói uma habilidade de que a criança se orgulha.",
+    "short": "Pratica ler as horas no relógio analógico."
+  },
+  "fractions": {
+    "full": "Pintar, nomear e comparar meios, terços e quartos dá às crianças um primeiro olhar concreto sobre as frações.",
+    "short": "Um primeiro olhar sobre meios e quartos."
+  },
+  "graphing-data": {
+    "full": "Ler gráficos de barras, pictogramas e tabelas ensina a criança a organizar dados e a responder perguntas sobre eles.",
+    "short": "Desenvolve a leitura de gráficos e dados."
+  },
+  "arrays-multiplication": {
+    "full": "As matrizes de linhas e colunas com figuras transformam a adição repetida na base do pensar multiplicativo.",
+    "short": "Trabalha a multiplicação com matrizes."
+  },
+  "geometry": {
+    "full": "Nomear formas, contar lados e cantos e explorar a simetria desenvolve a linguagem espacial da geometria inicial.",
+    "short": "Trabalha formas e a geometria inicial."
+  },
+  "measurement": {
+    "full": "Medir com régua e cubinhos e comparar comprimentos desenvolve o senso prático de medida, passo a passo.",
+    "short": "Desenvolve o senso prático de medida real."
+  },
+  "visual-logic": {
+    "full": "Sudoku ilustrado e grades de raciocínio estimulam a dedução: cada desafio tem exatamente uma resposta certa a achar.",
+    "short": "Estimula a dedução com desafios ilustrados."
+  },
+  "visual-discrimination": {
+    "full": "Achar sombras, imagens espelhadas e o que é diferente aguça a percepção visual por trás da leitura fluente.",
+    "short": "Aguça a percepção e a atenção ao detalhe."
+  },
+  "visual-matching": {
+    "full": "Parear figuras relacionadas fortalece a memória visual e o pensar igual-diferente que a criança usa todos os dias.",
+    "short": "Fortalece a associação e a memória visual."
+  },
+  "patterns": {
+    "full": "Continuar e completar sequências de figuras desenvolve o pensar algébrico que começa muito antes da álgebra.",
+    "short": "Desenvolve o reconhecimento de padrões."
+  },
+  "position-words": {
+    "full": "Em cima, embaixo, à esquerda e à direita ganham vida em cenas que constroem o vocabulário espacial e o senso de direção.",
+    "short": "Trabalha as palavras de posição e direção."
+  },
+  "sorting-categories": {
+    "full": "Agrupar figuras em categorias desenvolve o pensar classificatório usado na matemática, nas ciências e na leitura.",
+    "short": "Desenvolve a classificação por categorias."
+  },
+  "picture-arithmetic": {
+    "full": "Somar e subtrair com grupos de figuras permite dominar as operações de forma concreta antes dos numerais abstratos.",
+    "short": "Somar e subtrair com grupos de figuras."
+  }
+}

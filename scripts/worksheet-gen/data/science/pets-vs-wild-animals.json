@@ -1,0 +1,114 @@
+{
+  "_note": "Sort animals into Pets vs Wild Animals. K-1. Pets from the pets theme; wild from zoo animals. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "pets",
+      "label": {
+        "en": "Pets",
+        "de": "Haustiere",
+        "es": "Mascotas",
+        "fr": "Animaux domestiques",
+        "it": "Animali domestici",
+        "pt": "Animais de estimação",
+        "nl": "Huisdieren",
+        "sv": "Husdjur",
+        "da": "Kæledyr",
+        "no": "Kjaeledyr",
+        "fi": "Lemmikit"
+      }
+    },
+    {
+      "key": "wild",
+      "label": {
+        "en": "Wild Animals",
+        "de": "Wildtiere",
+        "es": "Animales salvajes",
+        "fr": "Animaux sauvages",
+        "it": "Animali selvatici",
+        "pt": "Animais selvagens",
+        "nl": "Wilde dieren",
+        "sv": "Vilda djur",
+        "da": "Vilde dyr",
+        "no": "Ville dyr",
+        "fi": "Villieläimet"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "pets",
+      "noun": "dog",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "cat",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "hamster",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "rabbit",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "goldfish",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "parrot",
+      "bin": "pets"
+    },
+    {
+      "theme": "pets",
+      "noun": "gerbil",
+      "bin": "pets"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "lion",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "elephant",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "giraffe",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "tiger",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "bear",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "zebra",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "monkey",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "gorilla",
+      "bin": "wild"
+    }
+  ]
+}

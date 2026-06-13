@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Sortera i två cirklar",
     "instruction": "Vänster cirkel: denna sort. Höger: STORA. Mitten: båda! Dra ett streck till rätt plats."
+  },
+  "K-201": {
+    "title": "Levande och icke levande",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-202": {
+    "title": "Frukt och grönsaker",
+    "instruction": "Dra ett streck från varje mat till gruppen den hör till."
+  },
+  "K-203": {
+    "title": "Nyttig och onyttig mat",
+    "instruction": "Dra ett streck från varje mat till gruppen den hör till."
+  },
+  "K-204": {
+    "title": "Husdjur och vilda djur",
+    "instruction": "Dra ett streck från varje djur till gruppen det hör till."
+  },
+  "K-206": {
+    "title": "Saker som flyger",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-207": {
+    "title": "Sommar- och vinterkläder",
+    "instruction": "Dra ett streck från varje klädesplagg till rätt grupp."
+  },
+  "K-208": {
+    "title": "Dag och natt",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-209": {
+    "title": "Lantbruksdjur och vilda djur",
+    "instruction": "Dra ett streck från varje djur till gruppen det hör till."
+  },
+  "K-210": {
+    "title": "Transport på land, vatten och i luften",
+    "instruction": "Dra ett streck från varje fordon till platsen där det färdas."
+  },
+  "K-211": {
+    "title": "Varmt och kallt",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-212": {
+    "title": "Behov och önskningar",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "K-214": {
+    "title": "Naturligt och tillverkat",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
+  },
+  "G1-201": {
+    "title": "Sortera djuren",
+    "instruction": "Dra ett streck från varje djur till gruppen det hör till."
+  },
+  "G1-202": {
+    "title": "Var bor djuren?",
+    "instruction": "Dra ett streck från varje djur till platsen där det bor."
+  },
+  "G1-204": {
+    "title": "Sjunker eller flyter?",
+    "instruction": "Dra ett streck från varje föremål till gruppen du tror det hör till."
+  },
+  "G1-205": {
+    "title": "Djurens kroppshölje",
+    "instruction": "Dra ett streck från varje djur till dess kroppshölje."
+  },
+  "G1-206": {
+    "title": "Vad djuren äter",
+    "instruction": "Dra ett streck från varje djur till gruppen det hör till."
+  },
+  "G1-207": {
+    "title": "De fyra matgrupperna",
+    "instruction": "Dra ett streck från varje mat till dess matgrupp."
+  },
+  "G1-203": {
+    "title": "Hönans livscykel",
+    "instruction": "Skriv 1, 2, 3 för att lägga bilderna i rätt ordning."
+  },
+  "K-205": {
+    "title": "Djurens ungar",
+    "instruction": "Dra ett streck från varje vuxet djur till dess unge."
+  },
+  "K-213": {
+    "title": "Yrken och deras verktyg",
+    "instruction": "Dra ett streck från varje yrkesperson till verktyget de använder."
   }
 }

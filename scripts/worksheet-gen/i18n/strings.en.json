@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Two-Circle Sort",
     "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place."
+  },
+  "K-201": {
+    "title": "Living and Non-living Things",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-202": {
+    "title": "Fruits and Vegetables",
+    "instruction": "Draw a line from each food to the group it belongs to."
+  },
+  "K-203": {
+    "title": "Healthy and Not-Healthy Foods",
+    "instruction": "Draw a line from each food to the group it belongs to."
+  },
+  "K-204": {
+    "title": "Pets and Wild Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "K-206": {
+    "title": "Things That Fly",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-207": {
+    "title": "Summer and Winter Clothes",
+    "instruction": "Draw a line from each item of clothing to the right group."
+  },
+  "K-208": {
+    "title": "Day and Night",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-209": {
+    "title": "Farm and Wild Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "K-210": {
+    "title": "Land, Water, and Air Transportation",
+    "instruction": "Draw a line from each vehicle to where it travels."
+  },
+  "K-211": {
+    "title": "Hot and Cold",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-212": {
+    "title": "Wants and Needs",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "K-214": {
+    "title": "Natural and Man-made",
+    "instruction": "Draw a line from each picture to the group it belongs to."
+  },
+  "G1-201": {
+    "title": "Sort the Animals",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "G1-202": {
+    "title": "Where Do Animals Live?",
+    "instruction": "Draw a line from each animal to where it lives."
+  },
+  "G1-204": {
+    "title": "Sink or Float?",
+    "instruction": "Draw a line from each object to the group you think it belongs to."
+  },
+  "G1-205": {
+    "title": "Animal Coverings",
+    "instruction": "Draw a line from each animal to its body covering."
+  },
+  "G1-206": {
+    "title": "What Animals Eat",
+    "instruction": "Draw a line from each animal to the group it belongs to."
+  },
+  "G1-207": {
+    "title": "The Four Food Groups",
+    "instruction": "Draw a line from each food to its food group."
+  },
+  "G1-203": {
+    "title": "The Life Cycle of a Chicken",
+    "instruction": "Write 1, 2, 3 to put the pictures in the right order."
+  },
+  "K-205": {
+    "title": "Animal Babies",
+    "instruction": "Draw a line from each grown-up animal to its baby."
+  },
+  "K-213": {
+    "title": "Community Helpers and Their Tools",
+    "instruction": "Draw a line from each helper to the tool they use."
   }
 }

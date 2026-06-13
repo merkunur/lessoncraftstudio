@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Ordina a due cerchi",
     "instruction": "Sinistra: questo tipo. Destra: i grandi. Mezzo: entrambi! Collega ogni immagine al posto."
+  },
+  "K-201": {
+    "title": "Esseri viventi e non viventi",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-202": {
+    "title": "Frutta e verdura",
+    "instruction": "Collega con una linea ogni alimento al gruppo a cui appartiene."
+  },
+  "K-203": {
+    "title": "Cibi sani e cibi poco sani",
+    "instruction": "Collega con una linea ogni alimento al gruppo a cui appartiene."
+  },
+  "K-204": {
+    "title": "Animali domestici e animali selvatici",
+    "instruction": "Collega con una linea ogni animale al gruppo a cui appartiene."
+  },
+  "K-206": {
+    "title": "Cose che volano",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-207": {
+    "title": "Vestiti dell'estate e dell'inverno",
+    "instruction": "Collega con una linea ogni capo di abbigliamento al gruppo giusto."
+  },
+  "K-208": {
+    "title": "Giorno e notte",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-209": {
+    "title": "Animali della fattoria e animali selvatici",
+    "instruction": "Collega con una linea ogni animale al gruppo a cui appartiene."
+  },
+  "K-210": {
+    "title": "Mezzi di terra, acqua e aria",
+    "instruction": "Collega con una linea ogni mezzo di trasporto al luogo in cui viaggia."
+  },
+  "K-211": {
+    "title": "Caldo e freddo",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-212": {
+    "title": "Desideri e bisogni",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "K-214": {
+    "title": "Naturale e artificiale",
+    "instruction": "Collega con una linea ogni immagine al gruppo a cui appartiene."
+  },
+  "G1-201": {
+    "title": "Classifica gli animali",
+    "instruction": "Collega con una linea ogni animale al gruppo a cui appartiene."
+  },
+  "G1-202": {
+    "title": "Dove vivono gli animali?",
+    "instruction": "Collega con una linea ogni animale al luogo in cui vive."
+  },
+  "G1-204": {
+    "title": "Galleggia o affonda?",
+    "instruction": "Collega con una linea ogni oggetto al gruppo a cui pensi che appartenga."
+  },
+  "G1-205": {
+    "title": "Il rivestimento degli animali",
+    "instruction": "Collega con una linea ogni animale al suo rivestimento del corpo."
+  },
+  "G1-206": {
+    "title": "Cosa mangiano gli animali",
+    "instruction": "Collega con una linea ogni animale al gruppo a cui appartiene."
+  },
+  "G1-207": {
+    "title": "I quattro gruppi alimentari",
+    "instruction": "Collega con una linea ogni alimento al suo gruppo alimentare."
+  },
+  "G1-203": {
+    "title": "Il ciclo di vita della gallina",
+    "instruction": "Scrivi 1, 2, 3 per mettere le immagini nell'ordine giusto."
+  },
+  "K-205": {
+    "title": "I cuccioli degli animali",
+    "instruction": "Collega con una linea ogni animale adulto al suo cucciolo."
+  },
+  "K-213": {
+    "title": "I lavoratori della comunità e i loro strumenti",
+    "instruction": "Collega con una linea ogni lavoratore allo strumento che usa."
   }
 }

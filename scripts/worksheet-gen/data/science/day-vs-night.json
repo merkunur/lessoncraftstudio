@@ -1,0 +1,84 @@
+{
+  "_note": "Sort things we see in the Day vs Night sky. K. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "day",
+      "label": {
+        "en": "Day",
+        "de": "Tag",
+        "es": "Día",
+        "fr": "Jour",
+        "it": "Giorno",
+        "pt": "Dia",
+        "nl": "Dag",
+        "sv": "Dag",
+        "da": "Dag",
+        "no": "Dag",
+        "fi": "Päivä"
+      }
+    },
+    {
+      "key": "night",
+      "label": {
+        "en": "Night",
+        "de": "Nacht",
+        "es": "Noche",
+        "fr": "Nuit",
+        "it": "Notte",
+        "pt": "Noite",
+        "nl": "Nacht",
+        "sv": "Natt",
+        "da": "Nat",
+        "no": "Natt",
+        "fi": "Yö"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "weather",
+      "noun": "sun",
+      "bin": "day"
+    },
+    {
+      "theme": "weather",
+      "noun": "rainbow",
+      "bin": "day"
+    },
+    {
+      "theme": "summer",
+      "noun": "kite",
+      "bin": "day"
+    },
+    {
+      "theme": "weather",
+      "noun": "cloud",
+      "bin": "day"
+    },
+    {
+      "theme": "spring",
+      "noun": "bird",
+      "bin": "day"
+    },
+    {
+      "theme": "space",
+      "noun": "moon",
+      "bin": "night"
+    },
+    {
+      "theme": "shapes",
+      "noun": "star",
+      "bin": "night"
+    },
+    {
+      "theme": "animals",
+      "noun": "owl",
+      "bin": "night"
+    },
+    {
+      "theme": "animals",
+      "noun": "bat",
+      "bin": "night"
+    }
+  ]
+}

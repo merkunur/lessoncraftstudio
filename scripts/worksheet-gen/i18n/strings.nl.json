@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Sorteren met twee cirkels",
     "instruction": "Links: deze soort. Rechts: GROTE. Midden: allebei! Verbind elk plaatje met zijn plek."
+  },
+  "K-201": {
+    "title": "Levend en niet-levend",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-202": {
+    "title": "Fruit en groenten",
+    "instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort."
+  },
+  "K-203": {
+    "title": "Gezond en ongezond eten",
+    "instruction": "Trek een lijn van elk voedsel naar de groep waar het bij hoort."
+  },
+  "K-204": {
+    "title": "Huisdieren en wilde dieren",
+    "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+  },
+  "K-206": {
+    "title": "Wat kan er vliegen?",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-207": {
+    "title": "Zomer- en winterkleren",
+    "instruction": "Trek een lijn van elk kledingstuk naar de goede groep."
+  },
+  "K-208": {
+    "title": "Dag en nacht",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-209": {
+    "title": "Boerderijdieren en wilde dieren",
+    "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+  },
+  "K-210": {
+    "title": "Vervoer over land, water en in de lucht",
+    "instruction": "Trek een lijn van elk voertuig naar de plek waar het rijdt, vaart of vliegt."
+  },
+  "K-211": {
+    "title": "Warm en koud",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-212": {
+    "title": "Wat je wilt en wat je nodig hebt",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "K-214": {
+    "title": "Natuurlijk en gemaakt",
+    "instruction": "Trek een lijn van elk plaatje naar de groep waar het bij hoort."
+  },
+  "G1-201": {
+    "title": "Sorteer de dieren",
+    "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+  },
+  "G1-202": {
+    "title": "Waar wonen de dieren?",
+    "instruction": "Trek een lijn van elk dier naar de plek waar het woont."
+  },
+  "G1-204": {
+    "title": "Zinkt het of drijft het?",
+    "instruction": "Trek een lijn van elk voorwerp naar de groep waar het volgens jou bij hoort."
+  },
+  "G1-205": {
+    "title": "De huid van dieren",
+    "instruction": "Trek een lijn van elk dier naar wat zijn lichaam bedekt."
+  },
+  "G1-206": {
+    "title": "Wat eten dieren?",
+    "instruction": "Trek een lijn van elk dier naar de groep waar het bij hoort."
+  },
+  "G1-207": {
+    "title": "De vier voedselgroepen",
+    "instruction": "Trek een lijn van elk voedsel naar de voedselgroep."
+  },
+  "G1-203": {
+    "title": "De levenscyclus van een kip",
+    "instruction": "Schrijf 1, 2, 3 om de plaatjes in de goede volgorde te zetten."
+  },
+  "K-205": {
+    "title": "Dieren en hun jongen",
+    "instruction": "Trek een lijn van elk volwassen dier naar zijn jong."
+  },
+  "K-213": {
+    "title": "Beroepen en hun gereedschap",
+    "instruction": "Trek een lijn van elke helper naar het gereedschap dat hij gebruikt."
   }
 }

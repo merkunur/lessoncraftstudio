@@ -1,0 +1,124 @@
+{
+  "_note": "Living vs non-living things. K-2 biology. Living = grows/eats/breathes; non-living = made objects. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "living",
+      "label": {
+        "en": "Living",
+        "de": "Lebendig",
+        "es": "Ser vivo",
+        "fr": "Vivant",
+        "it": "Vivente",
+        "pt": "Ser vivo",
+        "nl": "Levend",
+        "sv": "Levande",
+        "da": "Levende",
+        "no": "Levende",
+        "fi": "Elävä"
+      }
+    },
+    {
+      "key": "nonliving",
+      "label": {
+        "en": "Non-living",
+        "de": "Nicht lebendig",
+        "es": "No vivo",
+        "fr": "Non-vivant",
+        "it": "Non vivente",
+        "pt": "Não vivo",
+        "nl": "Niet-levend",
+        "sv": "Icke levande",
+        "da": "Ikke-levende",
+        "no": "Ikke-levende",
+        "fi": "Eloton"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "living"
+    },
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "living"
+    },
+    {
+      "theme": "animals",
+      "noun": "rabbit",
+      "bin": "living"
+    },
+    {
+      "theme": "animals",
+      "noun": "fish",
+      "bin": "living"
+    },
+    {
+      "theme": "insects and bugs",
+      "noun": "butterfly",
+      "bin": "living"
+    },
+    {
+      "theme": "insects and bugs",
+      "noun": "bee",
+      "bin": "living"
+    },
+    {
+      "theme": "spring",
+      "noun": "bird",
+      "bin": "living"
+    },
+    {
+      "theme": "spring",
+      "noun": "flower",
+      "bin": "living"
+    },
+    {
+      "theme": "forest creatures",
+      "noun": "frog",
+      "bin": "living"
+    },
+    {
+      "theme": "furniture",
+      "noun": "chair",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "car",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "toys",
+      "noun": "ball",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "around the house",
+      "noun": "cup",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "classroom",
+      "noun": "book",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "around the house",
+      "noun": "key",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "around the house",
+      "noun": "clock",
+      "bin": "nonliving"
+    },
+    {
+      "theme": "kitchen tools",
+      "noun": "spoon",
+      "bin": "nonliving"
+    }
+  ]
+}

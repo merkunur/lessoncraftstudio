@@ -1,0 +1,99 @@
+{
+  "_note": "Sort clothing into Summer vs Winter. K. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "summer",
+      "label": {
+        "en": "Summer",
+        "de": "Sommer",
+        "es": "Verano",
+        "fr": "Été",
+        "it": "Estate",
+        "pt": "Verão",
+        "nl": "Zomer",
+        "sv": "Sommar",
+        "da": "Sommer",
+        "no": "Sommer",
+        "fi": "Kesä"
+      }
+    },
+    {
+      "key": "winter",
+      "label": {
+        "en": "Winter",
+        "de": "Winter",
+        "es": "Invierno",
+        "fr": "Hiver",
+        "it": "Inverno",
+        "pt": "Inverno",
+        "nl": "Winter",
+        "sv": "Vinter",
+        "da": "Vinter",
+        "no": "Vinter",
+        "fi": "Talvi"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "summer",
+      "noun": "sunglasses",
+      "bin": "summer"
+    },
+    {
+      "theme": "clothing",
+      "noun": "swimsuit",
+      "bin": "summer"
+    },
+    {
+      "theme": "summer",
+      "noun": "sandals",
+      "bin": "summer"
+    },
+    {
+      "theme": "clothing",
+      "noun": "shorts",
+      "bin": "summer"
+    },
+    {
+      "theme": "clothing",
+      "noun": "t-shirt",
+      "bin": "summer"
+    },
+    {
+      "theme": "clothing",
+      "noun": "cap",
+      "bin": "summer"
+    },
+    {
+      "theme": "clothing",
+      "noun": "coat",
+      "bin": "winter"
+    },
+    {
+      "theme": "winter",
+      "noun": "mittens",
+      "bin": "winter"
+    },
+    {
+      "theme": "clothing",
+      "noun": "scarf",
+      "bin": "winter"
+    },
+    {
+      "theme": "clothing",
+      "noun": "boots",
+      "bin": "winter"
+    },
+    {
+      "theme": "winter",
+      "noun": "earmuffs",
+      "bin": "winter"
+    },
+    {
+      "theme": "clothing",
+      "noun": "sweater",
+      "bin": "winter"
+    }
+  ]
+}

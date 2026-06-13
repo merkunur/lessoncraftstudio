@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Tri à deux cercles",
     "instruction": "Gauche : cette sorte. Droite : les GRANDS. Milieu : les deux ! Relie chaque image."
+  },
+  "K-201": {
+    "title": "Vivant ou non-vivant",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-202": {
+    "title": "Fruits et légumes",
+    "instruction": "Relie chaque aliment au groupe auquel il appartient."
+  },
+  "K-203": {
+    "title": "Aliments sains et moins sains",
+    "instruction": "Relie chaque aliment au groupe auquel il appartient."
+  },
+  "K-204": {
+    "title": "Animaux domestiques et animaux sauvages",
+    "instruction": "Relie chaque animal au groupe auquel il appartient."
+  },
+  "K-206": {
+    "title": "Ce qui vole",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-207": {
+    "title": "Vêtements d'été et d'hiver",
+    "instruction": "Relie chaque vêtement au bon groupe."
+  },
+  "K-208": {
+    "title": "Le jour et la nuit",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-209": {
+    "title": "Animaux de la ferme et animaux sauvages",
+    "instruction": "Relie chaque animal au groupe auquel il appartient."
+  },
+  "K-210": {
+    "title": "Transports sur terre, sur l'eau et dans l'air",
+    "instruction": "Relie chaque véhicule à l'endroit où il se déplace."
+  },
+  "K-211": {
+    "title": "Chaud et froid",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-212": {
+    "title": "Besoins et envies",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "K-214": {
+    "title": "Naturel ou fabriqué",
+    "instruction": "Relie chaque image au groupe auquel elle appartient."
+  },
+  "G1-201": {
+    "title": "Range les animaux",
+    "instruction": "Relie chaque animal au groupe auquel il appartient."
+  },
+  "G1-202": {
+    "title": "Où vivent les animaux ?",
+    "instruction": "Relie chaque animal à l'endroit où il vit."
+  },
+  "G1-204": {
+    "title": "Flotte ou coule ?",
+    "instruction": "Relie chaque objet au groupe qui te semble correct."
+  },
+  "G1-205": {
+    "title": "Le corps des animaux",
+    "instruction": "Relie chaque animal à ce qui recouvre son corps."
+  },
+  "G1-206": {
+    "title": "Que mangent les animaux ?",
+    "instruction": "Relie chaque animal au groupe auquel il appartient."
+  },
+  "G1-207": {
+    "title": "Les quatre groupes d'aliments",
+    "instruction": "Relie chaque aliment à son groupe."
+  },
+  "G1-203": {
+    "title": "Le cycle de vie de la poule",
+    "instruction": "Écris 1, 2, 3 pour remettre les images dans le bon ordre."
+  },
+  "K-205": {
+    "title": "Les bébés animaux",
+    "instruction": "Relie chaque animal adulte à son petit."
+  },
+  "K-213": {
+    "title": "Les métiers et leurs outils",
+    "instruction": "Relie chaque personne à l'outil qu'elle utilise."
   }
 }

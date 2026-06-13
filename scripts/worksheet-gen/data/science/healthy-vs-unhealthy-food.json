@@ -1,0 +1,119 @@
+{
+  "_note": "Sort foods into everyday (healthy) vs sometimes (not-healthy) foods. K-2 nutrition. Warm framing: bins are 'Healthy' / 'Not Healthy'. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "healthy",
+      "label": {
+        "en": "Healthy",
+        "de": "Gesund",
+        "es": "Sanos",
+        "fr": "Sain",
+        "it": "Sano",
+        "pt": "Saudável",
+        "nl": "Gezond",
+        "sv": "Nyttigt",
+        "da": "Sund",
+        "no": "Sunn",
+        "fi": "Terveellinen"
+      }
+    },
+    {
+      "key": "unhealthy",
+      "label": {
+        "en": "Not Healthy",
+        "de": "Ungesund",
+        "es": "No sanos",
+        "fr": "Moins sain",
+        "it": "Poco sano",
+        "pt": "Não saudável",
+        "nl": "Ongezond",
+        "sv": "Onyttigt",
+        "da": "Usund",
+        "no": "Usunn",
+        "fi": "Epäterveellinen"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "healthy"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "healthy"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "carrot",
+      "bin": "healthy"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "broccoli",
+      "bin": "healthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "milk",
+      "bin": "healthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "water",
+      "bin": "healthy"
+    },
+    {
+      "theme": "fruits",
+      "noun": "orange",
+      "bin": "healthy"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "tomato",
+      "bin": "healthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "candy",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "donut",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "desserts and sweets",
+      "noun": "cake",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "soda",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "desserts and sweets",
+      "noun": "cookie",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "desserts and sweets",
+      "noun": "lollipop",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "pizza",
+      "bin": "unhealthy"
+    },
+    {
+      "theme": "desserts and sweets",
+      "noun": "cupcake",
+      "bin": "unhealthy"
+    }
+  ]
+}

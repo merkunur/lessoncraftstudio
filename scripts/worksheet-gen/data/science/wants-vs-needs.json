@@ -1,0 +1,99 @@
+{
+  "_note": "Sort into Needs (things we must have) vs Wants (things that are nice to have). K. SEL/social studies. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "needs",
+      "label": {
+        "en": "Needs",
+        "de": "Bedürfnisse",
+        "es": "Necesidades",
+        "fr": "Besoins",
+        "it": "Bisogni",
+        "pt": "Necessidades",
+        "nl": "Nodig hebben",
+        "sv": "Behov",
+        "da": "Behov",
+        "no": "Behov",
+        "fi": "Tarpeet"
+      }
+    },
+    {
+      "key": "wants",
+      "label": {
+        "en": "Wants",
+        "de": "Wünsche",
+        "es": "Deseos",
+        "fr": "Envies",
+        "it": "Desideri",
+        "pt": "Desejos",
+        "nl": "Willen hebben",
+        "sv": "Önskningar",
+        "da": "Ønsker",
+        "no": "Onsker",
+        "fi": "Toiveet"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "At the Supermarket",
+      "noun": "water",
+      "bin": "needs"
+    },
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "needs"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "bread",
+      "bin": "needs"
+    },
+    {
+      "theme": "clothing",
+      "noun": "shirt",
+      "bin": "needs"
+    },
+    {
+      "theme": "furniture",
+      "noun": "bed",
+      "bin": "needs"
+    },
+    {
+      "theme": "miscellaneous",
+      "noun": "house",
+      "bin": "needs"
+    },
+    {
+      "theme": "toys",
+      "noun": "ball",
+      "bin": "wants"
+    },
+    {
+      "theme": "toys",
+      "noun": "doll",
+      "bin": "wants"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "candy",
+      "bin": "wants"
+    },
+    {
+      "theme": "around the house",
+      "noun": "television",
+      "bin": "wants"
+    },
+    {
+      "theme": "toys",
+      "noun": "balloon",
+      "bin": "wants"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bicycle",
+      "bin": "wants"
+    }
+  ]
+}

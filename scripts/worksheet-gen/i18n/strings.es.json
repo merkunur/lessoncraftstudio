@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Clasifica en dos círculos",
     "instruction": "Izquierda: esta clase. Derecha: los GRANDES. Medio: ¡los dos! Une cada dibujo a su lugar."
+  },
+  "K-201": {
+    "title": "Seres vivos y no vivos",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-202": {
+    "title": "Frutas y verduras",
+    "instruction": "Une con una línea cada alimento con el grupo al que pertenece."
+  },
+  "K-203": {
+    "title": "Alimentos sanos y no sanos",
+    "instruction": "Une con una línea cada alimento con el grupo al que pertenece."
+  },
+  "K-204": {
+    "title": "Mascotas y animales salvajes",
+    "instruction": "Une con una línea cada animal con el grupo al que pertenece."
+  },
+  "K-206": {
+    "title": "Cosas que vuelan",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-207": {
+    "title": "Ropa de verano y de invierno",
+    "instruction": "Une con una línea cada prenda con el grupo correcto."
+  },
+  "K-208": {
+    "title": "El día y la noche",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-209": {
+    "title": "Animales de granja y salvajes",
+    "instruction": "Une con una línea cada animal con el grupo al que pertenece."
+  },
+  "K-210": {
+    "title": "Transportes de tierra, agua y aire",
+    "instruction": "Une con una línea cada vehículo con el lugar por donde se desplaza."
+  },
+  "K-211": {
+    "title": "Frío y calor",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-212": {
+    "title": "Deseos y necesidades",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "K-214": {
+    "title": "Natural y artificial",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
+  },
+  "G1-201": {
+    "title": "Clasifica los animales",
+    "instruction": "Une con una línea cada animal con el grupo al que pertenece."
+  },
+  "G1-202": {
+    "title": "¿Dónde viven los animales?",
+    "instruction": "Une con una línea cada animal con el lugar donde vive."
+  },
+  "G1-204": {
+    "title": "¿Se hunde o flota?",
+    "instruction": "Une con una línea cada objeto con el grupo al que crees que pertenece."
+  },
+  "G1-205": {
+    "title": "El cuerpo de los animales",
+    "instruction": "Une con una línea cada animal con lo que cubre su cuerpo."
+  },
+  "G1-206": {
+    "title": "¿Qué comen los animales?",
+    "instruction": "Une con una línea cada animal con el grupo al que pertenece."
+  },
+  "G1-207": {
+    "title": "Los grupos de alimentos",
+    "instruction": "Une con una línea cada alimento con su grupo."
+  },
+  "G1-203": {
+    "title": "El ciclo de vida de la gallina",
+    "instruction": "Escribe 1, 2, 3 para ordenar los dibujos correctamente."
+  },
+  "K-205": {
+    "title": "Las crías de los animales",
+    "instruction": "Une con una línea cada animal adulto con su cría."
+  },
+  "K-213": {
+    "title": "Las profesiones y sus herramientas",
+    "instruction": "Une con una línea cada profesión con la herramienta que utiliza."
   }
 }

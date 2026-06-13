@@ -1,0 +1,10 @@
+{
+  "_note": "Curated grown-up <-> baby animal pairs, all from the 'farm animals' theme cache. Goose/gosling dropped (gosling not in library).",
+  "pairs": [
+    { "left": { "theme": "farm animals", "noun": "cow" },   "right": { "theme": "farm animals", "noun": "calf" } },
+    { "left": { "theme": "farm animals", "noun": "hen" },    "right": { "theme": "farm animals", "noun": "chick" } },
+    { "left": { "theme": "farm animals", "noun": "horse" },  "right": { "theme": "farm animals", "noun": "foal" } },
+    { "left": { "theme": "farm animals", "noun": "sheep" },  "right": { "theme": "farm animals", "noun": "lamb" } },
+    { "left": { "theme": "farm animals", "noun": "duck" },   "right": { "theme": "farm animals", "noun": "duckling" } }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "_note": "Sort into Natural (from nature) vs Man-made (people made it). K-1. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "natural",
+      "label": {
+        "en": "Natural",
+        "de": "Natürlich",
+        "es": "Natural",
+        "fr": "Naturel",
+        "it": "Naturale",
+        "pt": "Natural",
+        "nl": "Natuurlijk",
+        "sv": "Naturligt",
+        "da": "Naturligt",
+        "no": "Naturlig",
+        "fi": "Luonnollinen"
+      }
+    },
+    {
+      "key": "manmade",
+      "label": {
+        "en": "Man-made",
+        "de": "Von Menschen gemacht",
+        "es": "Artificial",
+        "fr": "Fabriqué par l'homme",
+        "it": "Artificiale",
+        "pt": "Feito pelo ser humano",
+        "nl": "Gemaakt door mensen",
+        "sv": "Tillverkat",
+        "da": "Menneskeskabt",
+        "no": "Menneskeskapt",
+        "fi": "Ihmisen tekemä"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "spring",
+      "noun": "flower",
+      "bin": "natural"
+    },
+    {
+      "theme": "beach",
+      "noun": "rock",
+      "bin": "natural"
+    },
+    {
+      "theme": "miscellaneous",
+      "noun": "leaf",
+      "bin": "natural"
+    },
+    {
+      "theme": "camping",
+      "noun": "mountain",
+      "bin": "natural"
+    },
+    {
+      "theme": "weather",
+      "noun": "sun",
+      "bin": "natural"
+    },
+    {
+      "theme": "weather",
+      "noun": "cloud",
+      "bin": "natural"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "car",
+      "bin": "manmade"
+    },
+    {
+      "theme": "miscellaneous",
+      "noun": "house",
+      "bin": "manmade"
+    },
+    {
+      "theme": "furniture",
+      "noun": "chair",
+      "bin": "manmade"
+    },
+    {
+      "theme": "classroom",
+      "noun": "book",
+      "bin": "manmade"
+    },
+    {
+      "theme": "toys",
+      "noun": "ball",
+      "bin": "manmade"
+    },
+    {
+      "theme": "around the house",
+      "noun": "cup",
+      "bin": "manmade"
+    }
+  ]
+}

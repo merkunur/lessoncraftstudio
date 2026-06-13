@@ -1,0 +1,70 @@
+{
+  "_note": "LITERACY sort-by-beginning-sound (science-category-sort): pictures into initial-letter bins. en here.",
+  "bins": [
+    {
+      "key": "B",
+      "label": {
+        "en": "B"
+      }
+    },
+    {
+      "key": "C",
+      "label": {
+        "en": "C"
+      }
+    },
+    {
+      "key": "S",
+      "label": {
+        "en": "S"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "toys",
+      "noun": "ball",
+      "bin": "B"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bus",
+      "bin": "B"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "B"
+    },
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "C"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "cow",
+      "bin": "C"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "carrot",
+      "bin": "C"
+    },
+    {
+      "theme": "beach",
+      "noun": "sun",
+      "bin": "S"
+    },
+    {
+      "theme": "accessories",
+      "noun": "sock",
+      "bin": "S"
+    },
+    {
+      "theme": "shapes",
+      "noun": "star",
+      "bin": "S"
+    }
+  ]
+}

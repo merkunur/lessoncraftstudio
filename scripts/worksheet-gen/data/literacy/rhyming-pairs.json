@@ -1,0 +1,85 @@
+{
+  "_note": "LITERACY rhyming pairs (science-pair-match): each left rhymes with its right. en here.",
+  "pairs": [
+    {
+      "left": {
+        "theme": "animals",
+        "noun": "cat"
+      },
+      "right": {
+        "theme": "accessories",
+        "noun": "hat"
+      }
+    },
+    {
+      "left": {
+        "theme": "animals",
+        "noun": "dog"
+      },
+      "right": {
+        "theme": "camping",
+        "noun": "frog"
+      }
+    },
+    {
+      "left": {
+        "theme": "beach",
+        "noun": "sun"
+      },
+      "right": {
+        "theme": "bakery",
+        "noun": "bun"
+      }
+    },
+    {
+      "left": {
+        "theme": "shapes",
+        "noun": "star"
+      },
+      "right": {
+        "theme": "vehicles",
+        "noun": "car"
+      }
+    },
+    {
+      "left": {
+        "theme": "farm animals",
+        "noun": "bee"
+      },
+      "right": {
+        "theme": "christmas",
+        "noun": "tree"
+      }
+    },
+    {
+      "left": {
+        "theme": "vehicles",
+        "noun": "boat"
+      },
+      "right": {
+        "theme": "farm animals",
+        "noun": "goat"
+      }
+    },
+    {
+      "left": {
+        "theme": "around the house",
+        "noun": "bed"
+      },
+      "right": {
+        "theme": "winter",
+        "noun": "sled"
+      }
+    },
+    {
+      "left": {
+        "theme": "At the Supermarket",
+        "noun": "bag"
+      },
+      "right": {
+        "theme": "4th of July",
+        "noun": "flag"
+      }
+    }
+  ]
+}

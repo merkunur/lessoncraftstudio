@@ -1,0 +1,17 @@
+{
+  "_note": "LITERACY build-the-word (lit-word-build, mode build-the-word). NATIVE PER LOCALE from the gated pool: short decodable words (3-4 letters) with a cached picture; the factory scrambles the letters into a bank. Color themes only. en authored here; other locales at the native fan.",
+  "items": {
+    "en": [
+      { "theme": "animals", "noun": "cat", "word": "cat" },
+      { "theme": "animals", "noun": "dog", "word": "dog" },
+      { "theme": "weather", "noun": "sun", "word": "sun" },
+      { "theme": "animals", "noun": "fox", "word": "fox" },
+      { "theme": "vehicles", "noun": "bus", "word": "bus" },
+      { "theme": "clothing", "noun": "hat", "word": "hat" },
+      { "theme": "animals", "noun": "fish", "word": "fish" },
+      { "theme": "shapes", "noun": "star", "word": "star" },
+      { "theme": "toys", "noun": "ball", "word": "ball" },
+      { "theme": "forest creatures", "noun": "frog", "word": "frog" }
+    ]
+  }
+}

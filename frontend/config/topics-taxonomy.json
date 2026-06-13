@@ -294,6 +294,11 @@
       "default_subject": "letters",
       "default_age_range": "5-7",
       "exercise_type_axis_key": "picture-vocabulary"
+    },
+    "phonological-awareness": {
+      "default_subject": "letters",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "phonological-awareness"
     }
   },
   "axes": {
@@ -1848,6 +1853,14 @@
         },
         "name": {
           "en": "Picture Vocabulary"
+        }
+      },
+      "phonological-awareness": {
+        "slug": {
+          "en": "phonological-awareness"
+        },
+        "name": {
+          "en": "Sounds & Syllables"
         }
       }
     },

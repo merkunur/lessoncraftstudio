@@ -12,5 +12,22 @@
     "da": "abcdefghijklmnopqrstuvwxyzæøå",
     "no": "abcdefghijklmnopqrstuvwxyzæøå",
     "fi": "abcdefghijklmnopqrstuvwxyzåäö"
+  },
+  "vowels": {
+    "en": "aeiou",
+    "de": "aeiouäöü",
+    "es": "aeiou",
+    "fr": "aeiouy",
+    "it": "aeiou",
+    "pt": "aeiou",
+    "nl": "aeiou",
+    "sv": "aeiouyåäö",
+    "da": "aeiouyæøå",
+    "no": "aeiouyæøå",
+    "fi": "aeiouyäö"
+  },
+  "vcLabels": {
+    "vowels": { "en": "Vowels" },
+    "consonants": { "en": "Consonants" }
   }
 }

@@ -1,0 +1,47 @@
+{
+  "_note": "LITERACY syllable count (lit-sound-match render, answer = #syllables). en here.",
+  "items": {
+    "en": [
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "answer": "1"
+      },
+      {
+        "theme": "animals",
+        "noun": "dog",
+        "answer": "1"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "answer": "1"
+      },
+      {
+        "theme": "miscellaneous",
+        "noun": "acorn",
+        "answer": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "apron",
+        "answer": "2"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "airplane",
+        "answer": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "banana",
+        "answer": "3"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "ambulance",
+        "answer": "3"
+      }
+    ]
+  }
+}

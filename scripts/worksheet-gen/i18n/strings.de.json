@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Zählen und Einkreisen",
+    "instruction": "Zähle die Bilder in jedem Kästchen. Kreise die richtige Zahl ein."
+  },
+  "K-004": {
+    "title": "Zählen im Zehnerfeld",
+    "instruction": "Zähle die Bilder im Zehnerfeld. Schreibe die Zahl auf."
+  },
+  "K-005": {
+    "title": "Zehnerfeld füllen",
+    "instruction": "Male so viele Punkte ins Feld, wie die Zahl zeigt."
+  },
+  "K-006": {
+    "title": "Zählen und Schreiben",
+    "instruction": "Zähle die Bilder in jedem Kästchen. Schreibe die Zahl auf."
+  },
+  "K-007": {
+    "title": "Zählen und Verbinden",
+    "instruction": "Zähle die Bilder. Verbinde sie mit der richtigen Zahl."
+  },
+  "K-008": {
+    "title": "Mehr oder weniger?",
+    "instruction": "Schau dir beide Gruppen an. Kreise die Gruppe mit MEHR ein."
+  },
+  "K-009": {
+    "title": "Welche Gruppe hat weniger?",
+    "instruction": "Schau dir beide Gruppen an. Kreise die Gruppe mit WENIGER ein."
+  },
+  "K-010": {
+    "title": "Gleich viele finden",
+    "instruction": "Zwei Gruppen haben gleich viele. Kreise beide ein."
+  },
+  "K-011": {
+    "title": "Zählen und Anmalen",
+    "instruction": "Male genau so viele Bilder an, wie die Zahl zeigt."
+  },
+  "K-012": {
+    "title": "Eins für jeden",
+    "instruction": "Jedes Bild bekommt einen Partner. Verbinde sie Paar für Paar."
+  },
+  "K-013": {
+    "title": "Jede Sorte zählen",
+    "instruction": "Zähle jede Sorte. Schreibe auf, wie viele du findest."
+  },
+  "K-014": {
+    "title": "Strichliste machen",
+    "instruction": "Zähle die Bilder. Male Zählstriche in das Kästchen."
+  },
+  "K-015": {
+    "title": "Strichliste lesen",
+    "instruction": "Zähle die Zählstriche. Schreibe die Zahl auf."
+  },
+  "K-016": {
+    "title": "Gerade oder ungerade?",
+    "instruction": "Bilde Paare! Bleibt eins übrig, ist die Zahl ungerade."
+  },
+  "K-017": {
+    "title": "Blitzblick",
+    "instruction": "Zähle nicht einzeln! Schau schnell hin und kreise ein, wie viele es sind."
+  },
+  "K-018": {
+    "title": "Wie viele auf einen Blick?",
+    "instruction": "Schau schnell hin und kreise ein, wie viele du siehst."
+  },
+  "K-019": {
+    "title": "Fehlende Zahlen bis 10",
+    "instruction": "Zähle den Zahlenstreifen entlang. Schreibe jede fehlende Zahl auf."
+  },
+  "K-020": {
+    "title": "Fehlende Zahlen bis 20",
+    "instruction": "Zähle den Zahlenstreifen entlang. Schreibe jede fehlende Zahl auf."
+  },
+  "K-021": {
+    "title": "Vorgänger und Nachfolger",
+    "instruction": "Schreibe die Zahl, die davor kommt, und die Zahl, die danach kommt."
+  },
+  "K-022": {
+    "title": "Die Zahl in der Mitte",
+    "instruction": "Schreibe die Zahl, die dazwischen liegt."
+  },
+  "K-023": {
+    "title": "Countdown von 10",
+    "instruction": "Zähle rückwärts. Schreibe jede fehlende Zahl auf."
+  },
+  "K-024": {
+    "title": "Zehnerfeld zuordnen",
+    "instruction": "Verbinde jede Zahl mit ihrem Zehnerfeld."
+  },
+  "K-025": {
+    "title": "Strichliste zuordnen",
+    "instruction": "Verbinde jede Zahl mit den passenden Zählstrichen."
+  },
+  "K-027": {
+    "title": "Reihen zählen",
+    "instruction": "Zähle die Reihen mit Bildern. Schreibe auf, wie viele es zusammen sind."
+  },
+  "K-028": {
+    "title": "Wie viele zusammen?",
+    "instruction": "Zähle beide Gruppen zusammen. Schreibe auf, wie viele es insgesamt sind."
+  },
+  "K-029": {
+    "title": "Gut geschätzt",
+    "instruction": "Schätze zuerst, ohne zu zählen! Kreise die bessere Schätzung ein und zähle dann nach."
+  },
+  "K-030": {
+    "title": "Erster, Zweiter, Dritter",
+    "instruction": "Beginne beim Pfeil. Kreise das Bild an der angegebenen Stelle ein."
+  },
+  "K-031": {
+    "title": "An welcher Stelle?",
+    "instruction": "Beginne beim Pfeil. Schreibe in jeden Kreis, an welcher Stelle das Bild steht."
+  },
+  "K-032": {
+    "title": "Groß und klein",
+    "instruction": "Kreise in jeder Reihe das GRÖSSTE Bild ein."
+  },
+  "K-033": {
+    "title": "Klein, mittel, groß",
+    "instruction": "Nummeriere die Bilder von 1 (am kleinsten) bis 3 (am größten)."
+  },
+  "K-034": {
+    "title": "Vom Kleinsten zum Größten",
+    "instruction": "Nummeriere die Bilder von 1 (am kleinsten) bis 5 (am größten)."
+  },
+  "K-035": {
+    "title": "Hoch und niedrig",
+    "instruction": "Kreise in jeder Reihe das HÖCHSTE Bild ein."
+  },
+  "K-036": {
+    "title": "Von niedrig nach hoch",
+    "instruction": "Nummeriere die Bilder von 1 (am niedrigsten) bis 4 (am höchsten)."
+  },
+  "K-037": {
+    "title": "Lang und kurz",
+    "instruction": "Kreise in jeder Reihe das LÄNGSTE Bild ein."
+  },
+  "K-038": {
+    "title": "Schwer oder leicht?",
+    "instruction": "Denk an die echten Dinge! Kreise das SCHWERERE ein."
+  },
+  "K-039": {
+    "title": "Gleich und anders",
+    "instruction": "Drei Bilder sind gleich. Kreise das Bild ein, das anders ist."
+  },
+  "K-040": {
+    "title": "Nur die Großen",
+    "instruction": "Kreise jedes GROSSE Bild ein. Lass die Kleinen in Ruhe."
+  },
+  "K-042": {
+    "title": "Gut sortiert",
+    "instruction": "Verbinde jedes Bild mit der Kiste, in die es gehört."
+  },
+  "K-043": {
+    "title": "Was passt nicht?",
+    "instruction": "Schau dir jede Reihe an. Kreise das Bild ein, das nicht dazupasst."
+  },
+  "K-044": {
+    "title": "Welche Größe passt nicht?",
+    "instruction": "Schau dir jede Reihe an. Kreise das Bild ein, das eine andere Größe hat."
+  },
+  "K-046": {
+    "title": "Was kommt als Nächstes?",
+    "instruction": "Schau dir das Muster an. Kreise ein, was als Nächstes kommt."
+  },
+  "K-047": {
+    "title": "ABC-Muster",
+    "instruction": "Schau dir das Muster an. Kreise ein, was als Nächstes kommt."
+  },
+  "K-048": {
+    "title": "AABB-Muster",
+    "instruction": "Schau dir das Muster an. Kreise ein, was als Nächstes kommt."
+  },
+  "K-049": {
+    "title": "Muster vervollständigen",
+    "instruction": "Ein Bild fehlt. Kreise ein, was in das leere Kästchen gehört."
+  },
+  "K-050": {
+    "title": "Groß-Klein-Muster",
+    "instruction": "Schau dir das Muster an. Kreise ein, was als Nächstes kommt."
+  },
+  "K-052": {
+    "title": "Auf-und-ab-Muster",
+    "instruction": "Schau dir das Muster an. Kreise ein, was als Nächstes kommt."
+  },
+  "K-053": {
+    "title": "Wachsende Muster",
+    "instruction": "Das Muster wächst. Kreise die Gruppe ein, die als Nächstes kommt."
+  },
+  "K-057": {
+    "title": "Schatten zuordnen",
+    "instruction": "Verbinde jedes Bild mit seinem Schatten."
+  },
+  "K-058": {
+    "title": "Paare finden",
+    "instruction": "Jedes Bild hat einen Zwilling. Verbinde die Paare mit einer Linie."
+  },
+  "K-059": {
+    "title": "Suchen und Einkreisen",
+    "instruction": "Finde alle Bilder wie das im Kasten. Kreise sie alle ein."
+  },
+  "K-060": {
+    "title": "Ich sehe was",
+    "instruction": "Schau genau hin! Zähle jede Sorte und schreibe die Zahl auf."
+  },
+  "K-061": {
+    "title": "Unterschiede entdecken",
+    "instruction": "Vergleiche die beiden Bilder. Kreise rechts ein, was sich verändert hat."
+  },
+  "K-062": {
+    "title": "Zwillinge suchen",
+    "instruction": "Zwei Bilder sind genau gleich. Finde sie und kreise beide ein."
+  },
+  "K-063": {
+    "title": "Spieglein, Spieglein",
+    "instruction": "Kreise das Bild ein, das das Spiegelbild zeigt."
+  },
+  "K-064": {
+    "title": "Auf, unter, neben",
+    "instruction": "Kreise das Bild ein, das AUF der Kiste liegt."
+  },
+  "K-065": {
+    "title": "Links und rechts",
+    "instruction": "Kreise jedes Bild auf der LINKEN Seite der Linie ein."
+  },
+  "K-066": {
+    "title": "Oben, Mitte, unten",
+    "instruction": "Kreise jedes Bild in der MITTLEREN Reihe ein."
+  },
+  "K-067": {
+    "title": "Innen und außen",
+    "instruction": "Kreise jedes Bild ein, das IN der großen Form ist."
+  },
+  "K-068": {
+    "title": "Was passt in die Lücke?",
+    "instruction": "Jede Reihe zeigt eine Bildsorte. Kreise ein, was ins leere Kästchen passt."
+  },
+  "K-069": {
+    "title": "Was ist das?",
+    "instruction": "Nur ein Teil des Bildes ist zu sehen. Kreise das ganze Bild ein, zu dem es gehört."
+  },
+  "K-070": {
+    "title": "Formenjagd",
+    "instruction": "Finde alle Formen wie die im Kasten. Kreise sie alle ein."
+  },
+  "K-075": {
+    "title": "Seiten zählen",
+    "instruction": "Zähle die Seiten jeder Form. Schreibe die Zahl auf."
+  },
+  "K-076": {
+    "title": "Nach Seiten sortieren",
+    "instruction": "Verbinde jede Form mit der Zahl ihrer Seiten."
+  },
+  "K-077": {
+    "title": "Formenmuster",
+    "instruction": "Schau dir das Muster an. Kreise die Form ein, die als Nächstes kommt."
+  },
+  "K-078": {
+    "title": "Formen-Zwillinge",
+    "instruction": "Jede Form hat einen Zwilling. Verbinde die Paare mit einer Linie."
+  },
+  "K-079": {
+    "title": "Große und kleine Formen",
+    "instruction": "Kreise in jeder Reihe die GRÖSSTE Form ein."
+  },
+  "K-080": {
+    "title": "Welche Form passt nicht?",
+    "instruction": "Schau dir jede Reihe an. Kreise die Form ein, die nicht dazupasst."
+  },
+  "G1-101": {
+    "title": "Bilder zusammenzählen",
+    "instruction": "Zähle beide Gruppen. Schreibe auf, wie viele es zusammen sind."
+  },
+  "G1-102": {
+    "title": "Plusaufgaben mit Bildern",
+    "instruction": "Zähle beide Gruppen. Schreibe auf, wie viele es insgesamt sind."
+  },
+  "G1-103": {
+    "title": "Durchstreichen und Abziehen",
+    "instruction": "Einige Bilder sind durchgestrichen. Schreibe auf, wie viele übrig bleiben."
+  },
+  "G1-104": {
+    "title": "Minusaufgaben mit Bildern",
+    "instruction": "Einige Bilder sind durchgestrichen. Schreibe auf, wie viele noch da sind."
+  },
+  "G1-105": {
+    "title": "Plus im Zehnerfeld",
+    "instruction": "Zähle die beiden Farben. Schreibe das Ergebnis der Plusaufgabe auf."
+  },
+  "G1-106": {
+    "title": "Ergänzen bis 10",
+    "instruction": "Wie viele Punkte fehlen noch bis 10? Schreibe die fehlende Zahl auf."
+  },
+  "G1-110": {
+    "title": "Domino-Mathe",
+    "instruction": "Zähle beide Seiten des Dominosteins. Schreibe die Summe auf."
+  },
+  "G1-111": {
+    "title": "Würfeln und Addieren",
+    "instruction": "Zähle die Punkte auf beiden Würfeln. Schreibe die Summe auf."
+  },
+  "G1-112": {
+    "title": "Drei Gruppen addieren",
+    "instruction": "Zähle alle drei Gruppen. Schreibe das Ergebnis auf."
+  },
+  "G1-113": {
+    "title": "Aufgabenfamilien",
+    "instruction": "Vervollständige mit den beiden Gruppen alle vier Rechenaufgaben."
+  },
+  "G1-114": {
+    "title": "Größer, kleiner oder gleich?",
+    "instruction": "Vergleiche die beiden Gruppen. Kreise das richtige Zeichen ein."
+  },
+  "G1-115": {
+    "title": "Was fehlt noch?",
+    "instruction": "Zähle die Gruppe. Schreibe die Zahl, die bis zur Gesamtzahl fehlt."
+  },
+  "G1-116": {
+    "title": "Weiterzählen",
+    "instruction": "Starte beim Punkt. Hüpfe vorwärts und schreibe auf, wo du landest."
+  },
+  "G1-117": {
+    "title": "Rückwärtszählen",
+    "instruction": "Starte beim Punkt. Hüpfe rückwärts und schreibe auf, wo du landest."
+  },
+  "G1-118": {
+    "title": "Hüpfen auf dem Zahlenstrahl",
+    "instruction": "Starte beim Punkt. Zähle die Sprünge. Schreibe das Plus-Ergebnis auf."
+  },
+  "G1-119": {
+    "title": "Zurückhüpfen und Abziehen",
+    "instruction": "Folge den Sprüngen rückwärts. Schreibe das Minus-Ergebnis auf."
+  },
+  "G1-120": {
+    "title": "Zehner und Einer",
+    "instruction": "Zähle die Zehner und Einer. Schreibe die Zahl auf."
+  },
+  "G1-121": {
+    "title": "Richtig gebaut",
+    "instruction": "Kreise die Blöcke ein, die die Zahl zeigen."
+  },
+  "G1-122": {
+    "title": "Wie viele Zehner?",
+    "instruction": "Zähle die Zehnerstangen. Vervollständige die Rechenaufgabe."
+  },
+  "G1-123": {
+    "title": "In Zehnerschritten zählen",
+    "instruction": "Zähle in 10er-Schritten. Schreibe jede fehlende Zahl auf."
+  },
+  "G1-124": {
+    "title": "In Fünferschritten zählen",
+    "instruction": "Zähle in 5er-Schritten. Schreibe jede fehlende Zahl auf."
+  },
+  "G1-125": {
+    "title": "In Zweierschritten zählen",
+    "instruction": "Zähle in 2er-Schritten. Schreibe jede fehlende Zahl auf."
+  },
+  "G1-126": {
+    "title": "Zählen in Gruppen",
+    "instruction": "In jedem Kasten ist gleich viel. Zähle in Schritten und schreibe die Zwischensummen auf."
+  },
+  "G1-129": {
+    "title": "Die Hundertertafel",
+    "instruction": "Einige Zahlen haben sich versteckt. Schreibe jede fehlende Zahl in ihr Kästchen."
+  },
+  "G1-130": {
+    "title": "Zählweg anmalen",
+    "instruction": "Zwei Kästchen sind schon angemalt. Male alle Zahlen im gleichen Zählmuster an."
+  },
+  "G1-131": {
+    "title": "1 mehr, 1 weniger",
+    "instruction": "Schreibe die Zahl, die 1 weniger ist, und die Zahl, die 1 mehr ist."
+  },
+  "G1-132": {
+    "title": "10 mehr, 10 weniger",
+    "instruction": "Schreibe die Zahl, die 10 weniger ist, und die Zahl, die 10 mehr ist."
+  },
+  "G1-133": {
+    "title": "Zahlen zerlegen",
+    "instruction": "Schau dir die Blöcke an. Kreise die passende Zerlegung ein."
+  },
+  "G1-135": {
+    "title": "Kleinste Zahl zuerst",
+    "instruction": "Nummeriere mit 1, 2, 3 von der kleinsten zur größten Zahl."
+  },
+  "G1-136": {
+    "title": "Größte Zahl zuerst",
+    "instruction": "Nummeriere mit 1, 2, 3 von der größten zur kleinsten Zahl."
+  },
+  "G1-137": {
+    "title": "Größer oder kleiner?",
+    "instruction": "Vergleiche die Zahlen. Kreise das richtige Zeichen ein."
+  },
+  "G1-138": {
+    "title": "Wo wohnt die Zahl?",
+    "instruction": "Finde die Zahl auf dem Zahlenstrahl. Kreise ihren Punkt ein."
+  },
+  "G1-139": {
+    "title": "Würfel für Würfel",
+    "instruction": "Jeder Gegenstand liegt auf Kästchen. Zähle sie und schreibe die Länge auf."
+  },
+  "G1-140": {
+    "title": "Von kurz nach lang",
+    "instruction": "Miss mit den Kästchen. Nummeriere von 1 (am kürzesten) bis 3 (am längsten)."
+  },
+  "G1-141": {
+    "title": "Bilddiagramm lesen",
+    "instruction": "Zähle die Bilder in jeder Reihe. Schreibe die Zahlen auf."
+  },
+  "G1-142": {
+    "title": "Wovon am meisten?",
+    "instruction": "Schau dir das Diagramm an. Kreise das ein, wovon es am MEISTEN gibt."
+  },
+  "G1-143": {
+    "title": "Säulendiagramm lesen",
+    "instruction": "Lies jede Säule ab. Schreibe ihre Zahl auf."
+  },
+  "G1-144": {
+    "title": "Die höchste Säule",
+    "instruction": "Schau dir die Säulen an. Kreise die Säule mit den meisten ein."
+  },
+  "G1-146": {
+    "title": "Sortieren und Zählen",
+    "instruction": "Zähle jede Sorte in der Reihe. Trage die Anzahl in die Tabelle ein."
+  },
+  "G1-147": {
+    "title": "Zählen und Eintragen",
+    "instruction": "Lies die Anzahl ab. Male genauso viele Kästchen im Diagramm an."
+  },
+  "G1-148": {
+    "title": "Volle Stunden",
+    "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
+  },
+  "G1-149": {
+    "title": "Halbe Stunden",
+    "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
+  },
+  "G1-150": {
+    "title": "Uhren-Partner",
+    "instruction": "Verbinde jede Uhr mit ihrer digitalen Uhrzeit."
+  },
+  "G1-155": {
+    "title": "Zwei Bilder fehlen",
+    "instruction": "Zwei Bilder fehlen. Verbinde jedes Bild mit seinem leeren Kästchen."
+  },
+  "G1-157": {
+    "title": "Bilderrätsel",
+    "instruction": "Schau dir das erste Paar an. Kreise ein, was das zweite Paar genauso ergänzt."
+  },
+  "G1-158": {
+    "title": "Bilder-Sudoku",
+    "instruction": "Jede Reihe, Spalte und Box braucht alle vier Bilder. Male oder schreibe, was fehlt."
+  },
+  "G1-160": {
+    "title": "Drei Gruppen",
+    "instruction": "Verbinde jedes Bild mit der Kiste, in die es gehört."
+  },
+  "G2-203": {
+    "title": "Blöcke addieren",
+    "instruction": "Addiere die beiden Blockgruppen. Schreibe das Ergebnis auf."
+  },
+  "G2-205": {
+    "title": "Blöcke abziehen",
+    "instruction": "Ziehe die zweite Gruppe von der ersten ab. Schreibe das Ergebnis auf."
+  },
+  "G2-206": {
+    "title": "Einen Zehner bündeln",
+    "instruction": "Kreise 10 Einer zu einem Zehner ein. Schreibe auf, wie viele Zehner und Einer es sind."
+  },
+  "G2-207": {
+    "title": "In Dreierschritten zählen",
+    "instruction": "Zähle in 3er-Schritten. Schreibe jede fehlende Zahl auf."
+  },
+  "G2-208": {
+    "title": "In Viererschritten zählen",
+    "instruction": "Zähle in 4er-Schritten. Schreibe jede fehlende Zahl auf."
+  },
+  "G2-209": {
+    "title": "Immer wieder plus",
+    "instruction": "In jedem Ring ist gleich viel. Vervollständige die Plusaufgabe."
+  },
+  "G2-210": {
+    "title": "Vom Plus zum Mal",
+    "instruction": "Zähle die gleichen Gruppen. Vervollständige die Malaufgabe."
+  },
+  "G2-211": {
+    "title": "Reihen und Spalten",
+    "instruction": "Zähle die Reihen und Spalten. Vervollständige die Malaufgabe."
+  },
+  "G2-212": {
+    "title": "Welches Feld passt?",
+    "instruction": "Kreise das Punktefeld ein, das zur Malaufgabe passt."
+  },
+  "G2-213": {
+    "title": "Leichte Gruppen",
+    "instruction": "Zähle die gleich großen Gruppen. Vervollständige die Malaufgabe."
+  },
+  "G2-216": {
+    "title": "Gerecht teilen",
+    "instruction": "Verteile den Haufen gerecht auf die Kisten. Schreibe auf, wie viele jede bekommt."
+  },
+  "G2-217": {
+    "title": "Wie viele Gruppen?",
+    "instruction": "Die Ringe bilden gleich große Gruppen. Schreibe auf, wie viele Gruppen es sind."
+  },
+  "G2-218": {
+    "title": "Jagd auf ungerade Zahlen",
+    "instruction": "Kreise jede UNGERADE Zahl ein. Schau auf die letzte Ziffer."
+  },
+  "G2-219": {
+    "title": "Großes Zahlenduell",
+    "instruction": "Vergleiche die Zahlen. Kreise das richtige Zeichen ein."
+  },
+  "G2-220": {
+    "title": "Der Reihe nach",
+    "instruction": "Nummeriere mit 1 bis 4 von der kleinsten zur größten Zahl."
+  },
+  "G2-221": {
+    "title": "Auf Zehner runden",
+    "instruction": "Schau auf den Punkt. Kreise den Zehner ein, der näher liegt."
+  },
+  "G2-222": {
+    "title": "Blöcke ablesen",
+    "instruction": "Zähle die Hunderter, Zehner und Einer. Schreibe die Zahl auf."
+  },
+  "G2-223": {
+    "title": "Hunderter, Zehner, Einer",
+    "instruction": "Schau dir die Blöcke an. Kreise die passende Zerlegung ein."
+  },
+  "G2-224": {
+    "title": "Stellenwerte ordnen",
+    "instruction": "Zähle die Blöcke. Fülle die Stellenwerttafel aus."
+  },
+  "G2-225": {
+    "title": "Ziffern-Detektiv",
+    "instruction": "Schau auf die unterstrichene Ziffer. Kreise ihren Wert ein."
+  },
+  "G2-226": {
+    "title": "100 mehr, 100 weniger",
+    "instruction": "Schreibe die Zahl, die 100 weniger ist, und die Zahl, die 100 mehr ist."
+  },
+  "G2-227": {
+    "title": "Passende Blöcke",
+    "instruction": "Kreise die Blöcke ein, die die Zahl zeigen."
+  },
+  "G2-228": {
+    "title": "Halb und halb",
+    "instruction": "Male eine Hälfte jeder Form an."
+  },
+  "G2-229": {
+    "title": "Drittel und Viertel",
+    "instruction": "Male den Bruchteil jeder Form an."
+  },
+  "G2-230": {
+    "title": "Den Bruch finden",
+    "instruction": "Kreise die Form ein, die den Bruch zeigt."
+  },
+  "G2-231": {
+    "title": "Bruch-Freunde",
+    "instruction": "Verbinde jedes Bild mit seinem Bruch."
+  },
+  "G2-232": {
+    "title": "Gerecht geteilt?",
+    "instruction": "Kreise jede Form ein, die in GLEICH große Teile geteilt ist."
+  },
+  "G2-233": {
+    "title": "Bruchteil der Menge",
+    "instruction": "Kreise den Bruchteil der Bilder ein. Schreibe auf, wie viele das sind."
+  },
+  "G2-234": {
+    "title": "Richtig geschnitten",
+    "instruction": "Kreise die Form ein, die genau den Bruch zeigt."
+  },
+  "G2-235": {
+    "title": "Messen mit dem Lineal",
+    "instruction": "Alles beginnt bei 0. Lies das Lineal ab und schreibe die Länge in Einheiten auf."
+  },
+  "G2-236": {
+    "title": "Wie viel länger?",
+    "instruction": "Miss beide Gegenstände. Schreibe auf, um wie viele Einheiten einer länger ist."
+  },
+  "G2-237": {
+    "title": "Diagramm-Detektiv",
+    "instruction": "Nutze das Diagramm und löse beide Bildaufgaben."
+  },
+  "G2-238": {
+    "title": "Jedes Bild zählt doppelt",
+    "instruction": "Jedes Bild steht für 2! Schreibe die echte Anzahl für jede Reihe auf."
+  },
+  "G2-239": {
+    "title": "Von der Strichliste zur Säule",
+    "instruction": "Lies die Strichliste ab. Male für jede Anzahl die passende Säule an."
+  },
+  "G2-240": {
+    "title": "X-Diagramm lesen",
+    "instruction": "Zähle die X über jeder Zahl. Schreibe auf, wie viele es sind."
+  },
+  "G2-241": {
+    "title": "Formen-Sortierer",
+    "instruction": "Verbinde jede Form mit der Zahl ihrer Seiten."
+  },
+  "G2-242": {
+    "title": "Flächen zählen",
+    "instruction": "Schreibe auf, wie viele ebene Flächen jeder Körper hat."
+  },
+  "G2-243": {
+    "title": "Körper um uns herum",
+    "instruction": "Verbinde jeden Körper mit dem Gegenstand, der seine Form hat."
+  },
+  "G2-244": {
+    "title": "Fläche oder Körper?",
+    "instruction": "Verbinde jede Form mit ihrer Kiste: flache Formen links, Körper rechts."
+  },
+  "G2-245": {
+    "title": "Kanten zählen",
+    "instruction": "Schreibe auf, wie viele Kanten jeder Körper hat."
+  },
+  "G2-246": {
+    "title": "Ecken zählen",
+    "instruction": "Schreibe auf, wie viele Ecken jeder Körper hat."
+  },
+  "G2-247": {
+    "title": "Spiegelachse?",
+    "instruction": "Ist die gestrichelte Linie eine Spiegelachse? Kreise Haken oder Kreuz ein."
+  },
+  "G2-248": {
+    "title": "Das Spiegelbild finden",
+    "instruction": "Kreise das Bild ein, das auf beiden Seiten gleich aussieht."
+  },
+  "G2-249": {
+    "title": "Wie spät ist es?",
+    "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
+  },
+  "G3-301": {
+    "title": "Große Punktefelder",
+    "instruction": "Zähle die Reihen mit Bildern. Schreibe auf, wie viele es zusammen sind."
+  },
+  "G3-302": {
+    "title": "Knifflige Gruppen",
+    "instruction": "Zähle die gleichen Gruppen. Vervollständige die Malaufgabe."
+  },
+  "G3-308": {
+    "title": "Mal-Sprünge",
+    "instruction": "Folge den gleichen Sprüngen von null aus. Schreibe jede Zahl auf, auf der du landest."
+  },
+  "G3-309": {
+    "title": "Aufteilen",
+    "instruction": "Verteile den Haufen gerecht auf die Kisten. Schreibe auf, wie viele jede bekommt."
+  },
+  "G3-310": {
+    "title": "Sprünge bis zur Null",
+    "instruction": "Zähle die gleichen Sprünge zurück bis zur Null. Schreibe auf, wie viele es sind."
+  },
+  "G3-311": {
+    "title": "Mal-Familien",
+    "instruction": "Vervollständige mit dem Punktefeld alle vier Rechenaufgaben."
+  },
+  "G3-312": {
+    "title": "Der fehlende Faktor",
+    "instruction": "Schau dir das Punktefeld an. Schreibe den fehlenden Faktor auf."
+  },
+  "G3-313": {
+    "title": "Kästchen zählen",
+    "instruction": "Zähle die Kästchen im Rechteck. Vervollständige die Malaufgabe."
+  },
+  "G3-314": {
+    "title": "Tauschaufgaben",
+    "instruction": "Beide Punktefelder zeigen dieselbe Anzahl. Vervollständige beide Aufgaben."
+  },
+  "G3-315": {
+    "title": "Wie heißt der Bruch?",
+    "instruction": "Schreibe den Bruch auf, den die angemalten Teile zeigen."
+  },
+  "G3-316": {
+    "title": "Brüche anmalen",
+    "instruction": "Male die richtige Anzahl Teile an, um jeden Bruch zu zeigen."
+  },
+  "G3-317": {
+    "title": "Brüche auf dem Zahlenstrahl",
+    "instruction": "Der Punkt zeigt einen Bruch. Kreise ein, welcher es ist."
+  },
+  "G3-318": {
+    "title": "Bruch-Zwillinge",
+    "instruction": "Verbinde jedes Bild mit seinem passenden Bruch."
+  },
+  "G3-319": {
+    "title": "Welcher ist größer?",
+    "instruction": "Schau dir beide Streifen an. Kreise den größeren Bruch ein."
+  },
+  "G3-320": {
+    "title": "Bruchteil einer Gruppe",
+    "instruction": "Kreise den Bruchteil der Bilder ein. Schreibe auf, wie viele das sind."
+  },
+  "G3-321": {
+    "title": "Das Ganze finden",
+    "instruction": "Der kleine Streifen ist nur ein Teil. Kreise den Streifen ein, der das GANZE zeigt."
+  },
+  "G3-322": {
+    "title": "Gleiche Partner",
+    "instruction": "Verbinde jedes Bild mit seinem Bruch."
+  },
+  "G3-323": {
+    "title": "Auf Hunderter runden",
+    "instruction": "Schau auf den Punkt. Kreise den Hunderter ein, der näher liegt."
+  },
+  "G3-325": {
+    "title": "Tausender-Duell",
+    "instruction": "Vergleiche die Zahlen. Kreise das richtige Zeichen ein."
+  },
+  "G3-326": {
+    "title": "Das Muster knacken",
+    "instruction": "Finde die Regel jeder Reihe. Schreibe die fehlenden Zahlen auf."
+  },
+  "G3-327": {
+    "title": "Immer weniger",
+    "instruction": "Die Zahlen werden um den gleichen Wert kleiner. Schreibe die fehlenden auf."
+  },
+  "G3-328": {
+    "title": "Zahlenmaschinen",
+    "instruction": "Jede Maschine rechnet mit ihrer Regel. Trage die fehlenden Zahlen ein."
+  },
+  "G3-329": {
+    "title": "Zählen in großen Schritten",
+    "instruction": "Finde die Zählregel. Schreibe jede fehlende Zahl auf."
+  },
+  "G3-332": {
+    "title": "Säulen mit 5er-Schritten",
+    "instruction": "Achtung — die Skala zählt in 5er-Schritten! Schreibe den Wert jeder Säule auf."
+  },
+  "G3-333": {
+    "title": "Jedes Bild steht für 5",
+    "instruction": "Jedes Bild steht für 5! Schreibe die echte Anzahl für jede Reihe auf."
+  },
+  "G3-334": {
+    "title": "Das Diagramm bauen",
+    "instruction": "Nutze die Tabelle. Male für jeden Wert eine Säule an."
+  },
+  "G3-335": {
+    "title": "Halbe Schritte",
+    "instruction": "Zähle die X über jeder Zahl. Schreibe auf, wie viele es sind."
+  },
+  "G3-337": {
+    "title": "Rundherum gemessen",
+    "instruction": "Zähle die Kästchenkanten rund um jedes Rechteck. Schreibe den Umfang auf."
+  },
+  "G3-338": {
+    "title": "Gleiche Fläche, neue Form",
+    "instruction": "Kreise das Rechteck ein, das GLEICH viele Kästchen bedeckt."
+  },
+  "G3-339": {
+    "title": "Gleicher Zaun, neuer Garten",
+    "instruction": "Kreise das Rechteck mit dem GLEICHEN Umfang ein."
+  },
+  "G3-340": {
+    "title": "Vierecks-Familie",
+    "instruction": "Verbinde jedes Viereck mit seiner Familie."
+  },
+  "G3-341": {
+    "title": "Jagd auf rechte Winkel",
+    "instruction": "Kreise jeden RECHTEN Winkel ein. Du erkennst ihn am kleinen Quadrat."
+  },
+  "G3-342": {
+    "title": "Wie viele Spiegelachsen?",
+    "instruction": "Schreibe auf, wie viele Spiegelachsen jede Form hat."
+  },
+  "G3-343": {
+    "title": "Gleich große Teile",
+    "instruction": "Kreise jede Form ein, die in GLEICH große Teile geteilt ist."
+  },
+  "G3-344": {
+    "title": "Wie viel Zeit ist vergangen?",
+    "instruction": "Vergleiche die beiden Uhren. Schreibe auf, wie viele Stunden vergangen sind."
+  },
+  "G3-345": {
+    "title": "Heiß oder kalt?",
+    "instruction": "Lies jedes Thermometer ab. Schreibe die Temperatur auf."
+  },
+  "G3-346": {
+    "title": "Würfeltürme",
+    "instruction": "Zähle alle Würfel in jedem Turm. Schreibe die Anzahl auf."
+  },
+  "G3-348": {
+    "title": "Großes Bilder-Sudoku",
+    "instruction": "Jede Reihe, Spalte und Box braucht alle sechs Bilder. Fülle die leeren Felder aus."
+  },
+  "G3-349": {
+    "title": "Magische Quadrate",
+    "instruction": "Jede Reihe und Spalte ergibt die magische Zahl. Fülle die leeren Felder aus."
+  },
+  "G3-350": {
+    "title": "Im Gleichgewicht",
+    "instruction": "Beide Seiten müssen gleich schwer sein. Schreibe die fehlende Zahl auf."
+  },
+  "G3-351": {
+    "title": "Rätsel vervollständigen",
+    "instruction": "Jede Reihe hat ein Bild, jede Spalte eine Größe. Kreise ein, was ins leere Feld passt."
+  },
+  "G3-353": {
+    "title": "Sortieren mit zwei Kreisen",
+    "instruction": "Links: diese Sorte. Rechts: GROSSE. Mitte: beides! Verbinde jedes Bild mit seinem Platz."
+  }
+}

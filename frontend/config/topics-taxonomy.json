@@ -1085,178 +1085,222 @@
       },
       "counting-pictures": {
         "slug": {
-          "en": "counting-pictures"
+          "en": "counting-pictures",
+          "de": "bilder-zaehlen"
         },
         "name": {
-          "en": "Counting Pictures"
+          "en": "Counting Pictures",
+          "de": "Zählen mit Bildern"
         }
       },
       "counting-frames": {
         "slug": {
-          "en": "counting-frames"
+          "en": "counting-frames",
+          "de": "zehnerfeld"
         },
         "name": {
-          "en": "Ten Frames"
+          "en": "Ten Frames",
+          "de": "Zehnerfeld"
         }
       },
       "tally-counting": {
         "slug": {
-          "en": "tally-counting"
+          "en": "tally-counting",
+          "de": "strichlisten"
         },
         "name": {
-          "en": "Tally Marks"
+          "en": "Tally Marks",
+          "de": "Strichlisten"
         }
       },
       "number-charts": {
         "slug": {
-          "en": "number-charts"
+          "en": "number-charts",
+          "de": "hundertertafel"
         },
         "name": {
-          "en": "Number Charts"
+          "en": "Number Charts",
+          "de": "Hundertertafel"
         }
       },
       "comparing-numbers": {
         "slug": {
-          "en": "comparing-numbers"
+          "en": "comparing-numbers",
+          "de": "zahlen-vergleichen"
         },
         "name": {
-          "en": "Comparing Numbers"
+          "en": "Comparing Numbers",
+          "de": "Zahlen vergleichen"
         }
       },
       "comparing-groups": {
         "slug": {
-          "en": "comparing-groups"
+          "en": "comparing-groups",
+          "de": "mengen-vergleichen"
         },
         "name": {
-          "en": "Comparing Groups"
+          "en": "Comparing Groups",
+          "de": "Mengen vergleichen"
         }
       },
       "comparing-sizes": {
         "slug": {
-          "en": "comparing-sizes"
+          "en": "comparing-sizes",
+          "de": "groessen-vergleichen"
         },
         "name": {
-          "en": "Comparing Sizes"
+          "en": "Comparing Sizes",
+          "de": "Größen vergleichen"
         }
       },
       "number-lines": {
         "slug": {
-          "en": "number-lines"
+          "en": "number-lines",
+          "de": "zahlenstrahl"
         },
         "name": {
-          "en": "Number Lines"
+          "en": "Number Lines",
+          "de": "Zahlenstrahl"
         }
       },
       "base-ten": {
         "slug": {
-          "en": "base-ten"
+          "en": "base-ten",
+          "de": "stellenwert"
         },
         "name": {
-          "en": "Base Ten Blocks"
+          "en": "Base Ten Blocks",
+          "de": "Stellenwert"
         }
       },
       "telling-time": {
         "slug": {
-          "en": "telling-time"
+          "en": "telling-time",
+          "de": "uhrzeit"
         },
         "name": {
-          "en": "Telling Time"
+          "en": "Telling Time",
+          "de": "Uhrzeit lernen"
         }
       },
       "fractions": {
         "slug": {
-          "en": "fractions"
+          "en": "fractions",
+          "de": "brueche"
         },
         "name": {
-          "en": "Fractions"
+          "en": "Fractions",
+          "de": "Brüche"
         }
       },
       "graphing-data": {
         "slug": {
-          "en": "graphing-data"
+          "en": "graphing-data",
+          "de": "diagramme"
         },
         "name": {
-          "en": "Graphs and Data"
+          "en": "Graphs and Data",
+          "de": "Diagramme und Daten"
         }
       },
       "arrays-multiplication": {
         "slug": {
-          "en": "arrays-multiplication"
+          "en": "arrays-multiplication",
+          "de": "einmaleins"
         },
         "name": {
-          "en": "Arrays and Multiplication"
+          "en": "Arrays and Multiplication",
+          "de": "Erstes Einmaleins"
         }
       },
       "geometry": {
         "slug": {
-          "en": "geometry"
+          "en": "geometry",
+          "de": "geometrie"
         },
         "name": {
-          "en": "Geometry"
+          "en": "Geometry",
+          "de": "Geometrie"
         }
       },
       "measurement": {
         "slug": {
-          "en": "measurement"
+          "en": "measurement",
+          "de": "messen"
         },
         "name": {
-          "en": "Measurement"
+          "en": "Measurement",
+          "de": "Messen"
         }
       },
       "visual-logic": {
         "slug": {
-          "en": "visual-logic"
+          "en": "visual-logic",
+          "de": "logikraetsel"
         },
         "name": {
-          "en": "Visual Logic"
+          "en": "Visual Logic",
+          "de": "Logikrätsel"
         }
       },
       "visual-discrimination": {
         "slug": {
-          "en": "visual-discrimination"
+          "en": "visual-discrimination",
+          "de": "visuelle-wahrnehmung"
         },
         "name": {
-          "en": "Visual Discrimination"
+          "en": "Visual Discrimination",
+          "de": "Visuelle Wahrnehmung"
         }
       },
       "visual-matching": {
         "slug": {
-          "en": "visual-matching"
+          "en": "visual-matching",
+          "de": "bilder-zuordnen"
         },
         "name": {
-          "en": "Visual Matching"
+          "en": "Visual Matching",
+          "de": "Bilder zuordnen"
         }
       },
       "patterns": {
         "slug": {
-          "en": "patterns"
+          "en": "patterns",
+          "de": "muster-fortsetzen"
         },
         "name": {
-          "en": "Patterns"
+          "en": "Patterns",
+          "de": "Muster fortsetzen"
         }
       },
       "position-words": {
         "slug": {
-          "en": "position-words"
+          "en": "position-words",
+          "de": "lagebeziehungen"
         },
         "name": {
-          "en": "Position Words"
+          "en": "Position Words",
+          "de": "Lagebeziehungen"
         }
       },
       "sorting-categories": {
         "slug": {
-          "en": "sorting-categories"
+          "en": "sorting-categories",
+          "de": "sortieren-und-ordnen"
         },
         "name": {
-          "en": "Sorting and Categorizing"
+          "en": "Sorting and Categorizing",
+          "de": "Sortieren und Ordnen"
         }
       },
       "picture-arithmetic": {
         "slug": {
-          "en": "picture-arithmetic"
+          "en": "picture-arithmetic",
+          "de": "rechnen-mit-bildern"
         },
         "name": {
-          "en": "Picture Math"
+          "en": "Picture Math",
+          "de": "Rechnen mit Bildern"
         }
       }
     },

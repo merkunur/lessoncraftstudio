@@ -126,7 +126,7 @@ function makeClockType(cfg) {
           for (const w of wrongs) { if (opts.size < 3 && w !== correct) opts.add(w); }
           const scaffold = difficulty === 1 ? clock({ h: h12, m, size: 130 }).svg : '';
           const chips = rng.shuffle([...opts]).map((v) =>
-            `<span class="ws-chip" style="width:auto;min-width:104px;height:48px;font-size:21px;padding:0 14px;border-radius:24px" ` +
+            `<span class="ws-chip" style="width:auto;min-width:96px;height:48px;font-size:21px;padding:0 16px;border-radius:24px;white-space:nowrap" ` +
             `data-lcs-choice="${v}"${v === correct ? ' data-lcs-correct="1"' : ''}>${v}</span>`).join('');
           cards.push(
             `<div class="ws-card-stage" style="flex-direction:column;gap:12px" data-lcs-h24="${h24}" data-lcs-m="${m}" data-lcs-dir="${dir}">` +
@@ -163,7 +163,7 @@ function makeClockType(cfg) {
           );
         }
       }
-      const cols = (mode === 'elapsed' || mode === 'time-arith') ? 1 : 2;
+      const cols = (mode === 'elapsed' || mode === 'time-arith' || mode === 'convert-24h') ? 1 : 2;
       return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(cards.length / cols) }), meta: {} };
     },
 

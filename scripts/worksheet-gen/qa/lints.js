@@ -18,6 +18,15 @@ function runLints(page, { gradeBand }) {
     const pageEl = document.querySelector('[data-lcs-page]');
     const pb = pageEl.getBoundingClientRect();
 
+    // 0. non-empty body: a worksheet must render at least one content unit.
+    // Catches the "blank sheet" class (e.g. a themed generator finding no usable
+    // nouns and emitting zero cards) BEFORE it can be published. Every type's
+    // body uses one of these content primitives.
+    const CONTENT_SEL = '.ws-card-stage, .ws-match-item, .ws-bin, .ws-pattern-slot, .ws-pattern-chip';
+    if (document.querySelectorAll('.ws-page ' + CONTENT_SEL.split(', ').join(', .ws-page ')).length === 0) {
+      fails.push('blank worksheet: no content elements rendered');
+    }
+
     // 1. overflow/clip: every visible element inside the page box
     document.querySelectorAll('.ws-page *').forEach((el) => {
       if (!(el instanceof HTMLElement) && !(el instanceof SVGElement)) return;

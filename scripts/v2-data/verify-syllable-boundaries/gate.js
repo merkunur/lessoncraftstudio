@@ -267,7 +267,11 @@ function evaluate(inputs, opts) {
   // sv would globally relax split_source_disagreement and admit ~192 words
   // (incl. ~14 compound-seam rule errors) the strict gate correctly
   // quarantines, breaching the safety invariant. CLAUDE.md §A.13.57.
-  const GREEN_LOCALES = new Set(['es', 'it', 'pt', 'fr', 'fi']);
+  // en is GREEN: TeX en-us is typographic (Liang), not syllabification, and
+  // no literacy PRINTABLE renders a syllable split — only the COUNT matters
+  // (cross-validated by the careful en.js counter + vocab-phonics, the same
+  // R+S bar es/fi syllable activities ship on). See rule-syllabifiers/en.js.
+  const GREEN_LOCALES = new Set(['en', 'es', 'it', 'pt', 'fr', 'fi']);
   const isGreen = GREEN_LOCALES.has(opts.locale);
 
   if (isGreen && R) {

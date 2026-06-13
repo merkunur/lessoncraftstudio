@@ -1122,7 +1122,9 @@
       "free_interactive": "Scheda interattiva gratuita",
       "for": "per",
       "print_or_play_online": "Stampa o gioca online",
-      "variant_label": "Set"
+      "variant_label": "Set",
+      "free_printable": "Scheda stampabile gratis:",
+      "download_pdf": "Scarica il PDF gratis"
     },
     "deckCardAlt": {
       "withTheme": "Anteprima della scheda di {exerciseType} con {theme} per {level}",
@@ -3427,7 +3429,29 @@
     "word-scramble": "Anagrammi per bambini: rimetti in ordine le lettere mescolate e ricostruisci la parola. Gioco di lettura per la prima e seconda.",
     "wordsearch": "Cerca parole nella griglia di lettere trascinando il dito sulle parole nascoste. Esercizio di lettura per la primaria, online o da stampare.",
     "zoo_animals": "A tema animali dello zoo: leone, elefante, giraffa e scimmia in immagini colorate. Lessico esotico per il circle time dei piccoli.",
-    "zoo_animals_bw": "Animali dello zoo in bianco e nero da colorare: leoni, elefanti e giraffe al tratto. Disegni stampabili per attività tranquille."
+    "zoo_animals_bw": "Animali dello zoo in bianco e nero da colorare: leoni, elefanti e giraffe al tratto. Disegni stampabili per attività tranquille.",
+    "counting-pictures": "Schede per contare le immagini per la scuola dell'infanzia: i bambini contano insiemi di figure e imparano la corrispondenza uno a uno. PDF da stampare, gratis.",
+    "counting-frames": "Schede con la tabella del dieci per l'infanzia: i bambini contano i puntini, fanno il cinque e il dieci e scoprono il numero. PDF da stampare, gratis.",
+    "tally-counting": "Schede di conteggio con le stanghette per la prima primaria: i bambini registrano le quantità in gruppi da cinque. PDF da stampare, gratis.",
+    "number-charts": "Schede con la tabella dei numeri per la prima primaria: i bambini completano le sequenze, contano a salti e scoprono i ritmi. PDF da stampare, gratis.",
+    "comparing-numbers": "Schede di confronto tra numeri per la prima primaria: i bambini usano maggiore, minore e uguale per capire le quantità. PDF da stampare, gratis.",
+    "comparing-groups": "Schede di confronto tra quantità per l'infanzia: i bambini guardano due gruppi e scelgono quale ha di più, di meno o uguale. PDF da stampare, gratis.",
+    "comparing-sizes": "Schede di confronto di grandezze per l'infanzia: i bambini distinguono grande e piccolo, alto e basso, lungo e corto. PDF da stampare, gratis.",
+    "number-lines": "Schede con la linea dei numeri per la prima primaria: i bambini fanno i salti per addizionare, sottrarre e ordinare i numeri. PDF da stampare, gratis.",
+    "base-ten": "Schede su decine e unità per la prima primaria: i bambini contano i blocchi e capiscono il valore posizionale a colpo d'occhio. PDF da stampare, gratis.",
+    "telling-time": "Schede per leggere l'orologio per la prima primaria: i bambini leggono ore, mezze ore e cinque minuti sull'orologio analogico. PDF da stampare, gratis.",
+    "fractions": "Schede sulle frazioni per la seconda primaria: i bambini colorano, nominano e confrontano metà, terzi e quarti delle figure. PDF da stampare, gratis.",
+    "graphing-data": "Schede con grafici e dati per la prima primaria: i bambini leggono istogrammi, ideogrammi e tabelle per rispondere alle domande. PDF da stampare, gratis.",
+    "arrays-multiplication": "Schede con schieramenti e moltiplicazione per la seconda primaria: i bambini contano righe e colonne e scoprono la moltiplicazione. PDF da stampare, gratis.",
+    "geometry": "Schede di forme geometriche per la prima primaria: i bambini nominano le forme, contano lati e angoli ed esplorano la simmetria. PDF da stampare, gratis.",
+    "measurement": "Schede di misurazione per la seconda primaria: i bambini misurano con righelli e cubetti e confrontano le lunghezze passo dopo passo. PDF da stampare, gratis.",
+    "visual-logic": "Schede di logica visiva per la prima primaria: con sudoku illustrato e griglie i bambini ragionano e cercano l'unica risposta giusta. PDF da stampare, gratis.",
+    "visual-discrimination": "Schede di discriminazione visiva per l'infanzia: i bambini trovano ombre, immagini speculari e l'intruso, allenando l'attenzione. PDF da stampare, gratis.",
+    "visual-matching": "Schede di abbinamenti visivi per l'infanzia: i bambini collegano le immagini collegate e rafforzano la memoria visiva. PDF da stampare, gratis.",
+    "patterns": "Schede di sequenze e ritmi per l'infanzia: i bambini continuano e completano le sequenze di immagini AB e ABC. PDF da stampare, gratis.",
+    "position-words": "Schede sugli indicatori spaziali per l'infanzia: i bambini riconoscono sopra, sotto, destra e sinistra nelle scene illustrate. PDF da stampare, gratis.",
+    "sorting-categories": "Schede per classificare per categorie per l'infanzia: i bambini ordinano le immagini nei gruppi giusti e imparano a classificare. PDF da stampare, gratis.",
+    "picture-arithmetic": "Schede di calcolo con le immagini per l'infanzia: i bambini addizionano e sottraggono con i gruppi di figure prima dei numeri. PDF da stampare, gratis."
   },
   "topicProse": {
     "animals": "L'insieme di immagini familiari degli Animali accompagna i bambini attraverso tante abilità diverse: contare e prime addizioni, classificare e abbinare le figure, trova l'intruso e riconoscere le prime lettere, sempre con il supporto delle immagini. Gli animali sono un vocabolario amato e ad alta frequenza in ogni lingua, e nelle classi bilingui questo aiuta i piccoli a fissare le parole nuove con facilità. Ogni scheda è gratuita e da stampare in PDF, senza registrazione, con la versione interattiva per giocare online e le soluzioni. Essendo disponibile in tutte le 11 lingue in cui pubblichiamo, questa raccolta di schede a tema Animali sostiene il percorso K-3 in ogni classe.",

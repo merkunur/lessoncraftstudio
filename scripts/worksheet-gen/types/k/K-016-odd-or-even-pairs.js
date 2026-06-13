@@ -32,6 +32,7 @@ module.exports = {
     es: { odd: 'impar', even: 'par' },
     nl: { odd: 'oneven', even: 'even' },
     fr: { odd: 'impair', even: 'pair' },
+    it: { odd: 'dispari', even: 'pari' },
   },
 
   build({ theme, difficulty, locale }, ctx) {

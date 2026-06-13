@@ -1089,14 +1089,16 @@
           "de": "bilder-zaehlen",
           "es": "contar-con-dibujos",
           "nl": "tellen-met-plaatjes",
-          "fr": "compter-les-images"
+          "fr": "compter-les-images",
+          "it": "contare-immagini"
         },
         "name": {
           "en": "Counting Pictures",
           "de": "Zählen mit Bildern",
           "es": "Contar con dibujos",
           "nl": "Tellen met plaatjes",
-          "fr": "Compter des images"
+          "fr": "Compter des images",
+          "it": "Contare con le immagini"
         }
       },
       "counting-frames": {
@@ -1105,14 +1107,16 @@
           "de": "zehnerfeld",
           "es": "marcos-de-diez",
           "nl": "tienraam",
-          "fr": "boites-de-dix"
+          "fr": "boites-de-dix",
+          "it": "tabella-del-dieci"
         },
         "name": {
           "en": "Ten Frames",
           "de": "Zehnerfeld",
           "es": "Marcos de diez",
           "nl": "Tienraam",
-          "fr": "Boîtes de dix"
+          "fr": "Boîtes de dix",
+          "it": "Tabella del dieci"
         }
       },
       "tally-counting": {
@@ -1121,14 +1125,16 @@
           "de": "strichlisten",
           "es": "marcas-de-conteo",
           "nl": "turven",
-          "fr": "comptage-en-batons"
+          "fr": "comptage-en-batons",
+          "it": "conteggio-stanghette"
         },
         "name": {
           "en": "Tally Marks",
           "de": "Strichlisten",
           "es": "Marcas de conteo",
           "nl": "Turven",
-          "fr": "Comptage en bâtons"
+          "fr": "Comptage en bâtons",
+          "it": "Conteggio con le stanghette"
         }
       },
       "number-charts": {
@@ -1137,14 +1143,16 @@
           "de": "hundertertafel",
           "es": "tabla-del-100",
           "nl": "honderdveld",
-          "fr": "tableau-des-nombres"
+          "fr": "tableau-des-nombres",
+          "it": "tabella-dei-numeri"
         },
         "name": {
           "en": "Number Charts",
           "de": "Hundertertafel",
           "es": "Tabla del 100",
           "nl": "Honderdveld",
-          "fr": "Tableau des nombres"
+          "fr": "Tableau des nombres",
+          "it": "Tabella dei numeri"
         }
       },
       "comparing-numbers": {
@@ -1153,14 +1161,16 @@
           "de": "zahlen-vergleichen",
           "es": "comparar-numeros",
           "nl": "getallen-vergelijken",
-          "fr": "comparer-les-nombres"
+          "fr": "comparer-les-nombres",
+          "it": "confronto-numeri"
         },
         "name": {
           "en": "Comparing Numbers",
           "de": "Zahlen vergleichen",
           "es": "Comparar números",
           "nl": "Getallen vergelijken",
-          "fr": "Comparer les nombres"
+          "fr": "Comparer les nombres",
+          "it": "Confronto tra numeri"
         }
       },
       "comparing-groups": {
@@ -1169,14 +1179,16 @@
           "de": "mengen-vergleichen",
           "es": "comparar-cantidades",
           "nl": "groepen-vergelijken",
-          "fr": "comparer-les-quantites"
+          "fr": "comparer-les-quantites",
+          "it": "confronto-quantita"
         },
         "name": {
           "en": "Comparing Groups",
           "de": "Mengen vergleichen",
           "es": "Comparar cantidades",
           "nl": "Groepen vergelijken",
-          "fr": "Comparer les quantités"
+          "fr": "Comparer les quantités",
+          "it": "Confronto tra quantità"
         }
       },
       "comparing-sizes": {
@@ -1185,14 +1197,16 @@
           "de": "groessen-vergleichen",
           "es": "comparar-tamanos",
           "nl": "groottes-vergelijken",
-          "fr": "comparer-les-tailles"
+          "fr": "comparer-les-tailles",
+          "it": "confronto-grandezze"
         },
         "name": {
           "en": "Comparing Sizes",
           "de": "Größen vergleichen",
           "es": "Comparar tamaños",
           "nl": "Groottes vergelijken",
-          "fr": "Comparer les tailles"
+          "fr": "Comparer les tailles",
+          "it": "Confronto di grandezze"
         }
       },
       "number-lines": {
@@ -1201,14 +1215,16 @@
           "de": "zahlenstrahl",
           "es": "recta-numerica",
           "nl": "getallenlijn",
-          "fr": "droite-numerique"
+          "fr": "droite-numerique",
+          "it": "linea-dei-numeri"
         },
         "name": {
           "en": "Number Lines",
           "de": "Zahlenstrahl",
           "es": "Recta numérica",
           "nl": "Getallenlijn",
-          "fr": "Droite numérique"
+          "fr": "Droite numérique",
+          "it": "Linea dei numeri"
         }
       },
       "base-ten": {
@@ -1217,14 +1233,16 @@
           "de": "stellenwert",
           "es": "valor-posicional",
           "nl": "getalbegrip",
-          "fr": "dizaines-et-unites"
+          "fr": "dizaines-et-unites",
+          "it": "decine-e-unita"
         },
         "name": {
           "en": "Base Ten Blocks",
           "de": "Stellenwert",
           "es": "Valor posicional",
           "nl": "Getalbegrip",
-          "fr": "Dizaines et unités"
+          "fr": "Dizaines et unités",
+          "it": "Decine e unità"
         }
       },
       "telling-time": {
@@ -1233,14 +1251,16 @@
           "de": "uhrzeit",
           "es": "aprender-la-hora",
           "nl": "klokkijken",
-          "fr": "lire-l-heure"
+          "fr": "lire-l-heure",
+          "it": "leggere-l-orologio"
         },
         "name": {
           "en": "Telling Time",
           "de": "Uhrzeit lernen",
           "es": "Aprender la hora",
           "nl": "Klokkijken",
-          "fr": "Lire l'heure"
+          "fr": "Lire l'heure",
+          "it": "Leggere l'orologio"
         }
       },
       "fractions": {
@@ -1249,14 +1269,16 @@
           "de": "brueche",
           "es": "fracciones",
           "nl": "breuken",
-          "fr": "fractions"
+          "fr": "fractions",
+          "it": "frazioni"
         },
         "name": {
           "en": "Fractions",
           "de": "Brüche",
           "es": "Fracciones",
           "nl": "Breuken",
-          "fr": "Fractions"
+          "fr": "Fractions",
+          "it": "Frazioni"
         }
       },
       "graphing-data": {
@@ -1265,14 +1287,16 @@
           "de": "diagramme",
           "es": "graficos-y-datos",
           "nl": "grafieken-lezen",
-          "fr": "graphiques-et-donnees"
+          "fr": "graphiques-et-donnees",
+          "it": "grafici-e-dati"
         },
         "name": {
           "en": "Graphs and Data",
           "de": "Diagramme und Daten",
           "es": "Gráficos y datos",
           "nl": "Grafieken lezen",
-          "fr": "Graphiques et données"
+          "fr": "Graphiques et données",
+          "it": "Grafici e dati"
         }
       },
       "arrays-multiplication": {
@@ -1281,14 +1305,16 @@
           "de": "einmaleins",
           "es": "multiplicacion",
           "nl": "keersommen",
-          "fr": "multiplication-en-reseaux"
+          "fr": "multiplication-en-reseaux",
+          "it": "schieramenti-moltiplicazione"
         },
         "name": {
           "en": "Arrays and Multiplication",
           "de": "Erstes Einmaleins",
           "es": "Multiplicación",
           "nl": "Keersommen",
-          "fr": "Multiplication en réseaux"
+          "fr": "Multiplication en réseaux",
+          "it": "Schieramenti e moltiplicazione"
         }
       },
       "geometry": {
@@ -1297,14 +1323,16 @@
           "de": "geometrie",
           "es": "geometria",
           "nl": "meetkunde",
-          "fr": "geometrie"
+          "fr": "geometrie",
+          "it": "forme-geometriche"
         },
         "name": {
           "en": "Geometry",
           "de": "Geometrie",
           "es": "Geometría",
           "nl": "Meetkunde",
-          "fr": "Géométrie"
+          "fr": "Géométrie",
+          "it": "Forme geometriche"
         }
       },
       "measurement": {
@@ -1313,14 +1341,16 @@
           "de": "messen",
           "es": "medicion",
           "nl": "meten",
-          "fr": "mesures"
+          "fr": "mesures",
+          "it": "misurazione"
         },
         "name": {
           "en": "Measurement",
           "de": "Messen",
           "es": "Medición",
           "nl": "Meten",
-          "fr": "Mesures"
+          "fr": "Mesures",
+          "it": "Misurazione"
         }
       },
       "visual-logic": {
@@ -1329,14 +1359,16 @@
           "de": "logikraetsel",
           "es": "logica-visual",
           "nl": "visuele-logica",
-          "fr": "logique-visuelle"
+          "fr": "logique-visuelle",
+          "it": "logica-visiva"
         },
         "name": {
           "en": "Visual Logic",
           "de": "Logikrätsel",
           "es": "Lógica visual",
           "nl": "Visuele logica",
-          "fr": "Logique visuelle"
+          "fr": "Logique visuelle",
+          "it": "Logica visiva"
         }
       },
       "visual-discrimination": {
@@ -1345,14 +1377,16 @@
           "de": "visuelle-wahrnehmung",
           "es": "discriminacion-visual",
           "nl": "visuele-waarneming",
-          "fr": "discrimination-visuelle"
+          "fr": "discrimination-visuelle",
+          "it": "discriminazione-visiva"
         },
         "name": {
           "en": "Visual Discrimination",
           "de": "Visuelle Wahrnehmung",
           "es": "Discriminación visual",
           "nl": "Visuele waarneming",
-          "fr": "Discrimination visuelle"
+          "fr": "Discrimination visuelle",
+          "it": "Discriminazione visiva"
         }
       },
       "visual-matching": {
@@ -1361,14 +1395,16 @@
           "de": "bilder-zuordnen",
           "es": "emparejamiento-visual",
           "nl": "visueel-koppelen",
-          "fr": "associations-visuelles"
+          "fr": "associations-visuelles",
+          "it": "abbinamenti-visivi"
         },
         "name": {
           "en": "Visual Matching",
           "de": "Bilder zuordnen",
           "es": "Emparejamiento visual",
           "nl": "Visueel koppelen",
-          "fr": "Associations visuelles"
+          "fr": "Associations visuelles",
+          "it": "Abbinamenti visivi"
         }
       },
       "patterns": {
@@ -1377,14 +1413,16 @@
           "de": "muster-fortsetzen",
           "es": "patrones",
           "nl": "patronen",
-          "fr": "suites-logiques"
+          "fr": "suites-logiques",
+          "it": "sequenze-e-ritmi"
         },
         "name": {
           "en": "Patterns",
           "de": "Muster fortsetzen",
           "es": "Patrones",
           "nl": "Patronen",
-          "fr": "Suites logiques"
+          "fr": "Suites logiques",
+          "it": "Sequenze e ritmi"
         }
       },
       "position-words": {
@@ -1393,14 +1431,16 @@
           "de": "lagebeziehungen",
           "es": "conceptos-espaciales",
           "nl": "positiewoorden",
-          "fr": "se-reperer-dans-l-espace"
+          "fr": "se-reperer-dans-l-espace",
+          "it": "indicatori-spaziali"
         },
         "name": {
           "en": "Position Words",
           "de": "Lagebeziehungen",
           "es": "Conceptos espaciales",
           "nl": "Positiewoorden",
-          "fr": "Se repérer dans l'espace"
+          "fr": "Se repérer dans l'espace",
+          "it": "Indicatori spaziali"
         }
       },
       "sorting-categories": {
@@ -1409,14 +1449,16 @@
           "de": "sortieren-und-ordnen",
           "es": "clasificar-y-agrupar",
           "nl": "sorteren",
-          "fr": "trier-par-categories"
+          "fr": "trier-par-categories",
+          "it": "classificare-categorie"
         },
         "name": {
           "en": "Sorting and Categorizing",
           "de": "Sortieren und Ordnen",
           "es": "Clasificar y agrupar",
           "nl": "Sorteren",
-          "fr": "Trier par catégories"
+          "fr": "Trier par catégories",
+          "it": "Classificare per categorie"
         }
       },
       "picture-arithmetic": {
@@ -1425,14 +1467,16 @@
           "de": "rechnen-mit-bildern",
           "es": "sumas-y-restas",
           "nl": "plaatjes-rekenen",
-          "fr": "calcul-illustre"
+          "fr": "calcul-illustre",
+          "it": "calcolo-con-immagini"
         },
         "name": {
           "en": "Picture Math",
           "de": "Rechnen mit Bildern",
           "es": "Sumas y restas con dibujos",
           "nl": "Plaatjes rekenen",
-          "fr": "Calcul illustré"
+          "fr": "Calcul illustré",
+          "it": "Calcolo con le immagini"
         }
       }
     },

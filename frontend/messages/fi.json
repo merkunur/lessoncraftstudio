@@ -1098,7 +1098,9 @@
       "free_interactive": "Ilmainen interaktiivinen",
       "for": "tasolle",
       "print_or_play_online": "Tulosta tai pelaa verkossa",
-      "variant_label": "Sarja"
+      "variant_label": "Sarja",
+      "free_printable": "Ilmainen tulostettava",
+      "download_pdf": "Lataa ilmainen PDF"
     },
     "deckCardAlt": {
       "withTheme": "Esikatselu: {exerciseType}-tehtäväarkki, aiheena {theme}, {level}",
@@ -1891,7 +1893,29 @@
     "kindergarten": "Esiopetuksen tehtäviä 5-7-vuotiaille: lukukäsite 1-20, kirjain-äännevastaavuus, muodot ja sanasto Opetushallituksen esiopetuksen tavoitteiden mukaan.",
     "grade-1": "1. luokan tehtäviä 6-8-vuotiaille: alkavaa lukutaitoa, yhteen- ja vähennyslaskua sekä sanastoa OPS 2014 -alkuopetuksen tavoitteiden mukaisesti.",
     "grade-2": "2. luokan harjoituksia 7-9-vuotiaille: kymmenylityksiä, luetun ymmärtämistä ja sanaston laajennusta OPS 2014:n alkuopetuksen mukaisesti.",
-    "grade-3": "3. luokan oppimateriaalia 8-10-vuotiaille: kertotaulua, murtolukuja ja monivaiheisia tehtäviä OPS 2014:n tavoitteiden mukaisesti."
+    "grade-3": "3. luokan oppimateriaalia 8-10-vuotiaille: kertotaulua, murtolukuja ja monivaiheisia tehtäviä OPS 2014:n tavoitteiden mukaisesti.",
+    "counting-pictures": "Laske kuvat -tehtäviä esiopetukseen: lapsi laskee kuvajoukot ja harjoittelee yksi yhteen -vastaavuutta. Ilmainen tulostettava PDF lukukäsitteen tueksi.",
+    "counting-frames": "Kymmenkehys-tehtäviä esiopetukseen ja 1. luokalle: lapsi laskee kymmenkehyksen ruudut ja hahmottaa viiden ja kymmenen. Ilmainen tulostettava PDF.",
+    "tally-counting": "Tukkimiehen kirjanpito -tehtäviä esiopetukseen ja 1. luokalle: lapsi merkitsee lukumäärät viiden ryhmiin. Ilmainen tulostettava PDF laskemisen tueksi.",
+    "number-charts": "Lukutaulu-tehtäviä 1.-2. luokalle: lapsi harjoittelee lukujen järjestystä, hyppylaskua ja paikka-arvoa satataulun avulla. Ilmainen tulostettava PDF.",
+    "comparing-numbers": "Lukujen vertailu -tehtäviä 1.-2. luokalle: lapsi vertailee lukuja suurempi, pienempi ja yhtä suuri. Ilmainen tulostettava PDF lukukäsitteen tueksi.",
+    "comparing-groups": "Määrien vertailu -tehtäviä esiopetukseen: lapsi vertailee kuvajoukkoja enemmän, vähemmän vai yhtä monta. Ilmainen tulostettava PDF kuvilla.",
+    "comparing-sizes": "Kokojen vertailu -tehtäviä esiopetukseen: lapsi järjestää esineet isoista pieniin ja pitkistä lyhyisiin. Ilmainen tulostettava PDF kokosanaston tueksi.",
+    "number-lines": "Lukusuora-tehtäviä esiopetukseen ja 1. luokalle: lapsi hyppii lukusuoralla ja näkee yhteen- ja vähennyslaskun konkreettisesti. Ilmainen tulostettava PDF.",
+    "base-ten": "Kymmenet ja ykköset -tehtäviä 1.-2. luokalle: lapsi hahmottaa paikka-arvon kymppi- ja ykköspalikoilla. Ilmainen tulostettava PDF paikka-arvon tueksi.",
+    "telling-time": "Kellonajat-tehtäviä 1.-2. luokalle: lapsi lukee viisarikelloa tasatunnein, puolin tunnein ja viiden minuutin tarkkuudella. Ilmainen tulostettava PDF.",
+    "fractions": "Murtoluku-tehtäviä 1.-2. luokalle: lapsi värittää, nimeää ja vertailee puolikkaita, kolmasosia ja neljäsosia. Ilmainen tulostettava PDF murtolukuihin.",
+    "graphing-data": "Kaavio-tehtäviä esiopetukseen ja 1. luokalle: lapsi lukee pylväs- ja kuvakaavioita ja vastaa kysymyksiin. Ilmainen tulostettava PDF tilastojen alkeisiin.",
+    "arrays-multiplication": "Kertolaskun alkeet -tehtäviä 1.-2. luokalle: lapsi laskee kuvarivistöjä ja oivaltaa toistuvan yhteenlaskun. Ilmainen tulostettava PDF kertolaskuun.",
+    "geometry": "Geometria-tehtäviä esiopetukseen ja 1. luokalle: lapsi nimeää muotoja, laskee sivuja ja kulmia sekä tutkii symmetriaa. Ilmainen tulostettava PDF.",
+    "measurement": "Mittaaminen-tehtäviä 1.-2. luokalle: lapsi mittaa viivoittimella ja yksikkökuutioilla sekä vertailee pituuksia. Ilmainen tulostettava PDF mittaamiseen.",
+    "visual-logic": "Looginen päättely -tehtäviä esiopetukseen ja 1. luokalle: lapsi ratkaisee kuvasudokun ja päättelyruudukon. Ilmainen tulostettava PDF päättelyn tueksi.",
+    "visual-discrimination": "Hahmottamis-tehtäviä esiopetukseen: lapsi etsii varjot, peilikuvat ja joukosta eroavan. Ilmainen tulostettava PDF tarkkaavuuden ja hahmottamisen tueksi.",
+    "visual-matching": "Kuvaparit-tehtäviä esiopetukseen: lapsi yhdistää yhteenkuuluvat kuvat ja vahvistaa muistia. Ilmainen tulostettava PDF samanlainen-erilainen-ajatteluun.",
+    "patterns": "Kuviojono-tehtäviä esiopetukseen ja 1. luokalle: lapsi jatkaa ja täydentää toistuvia kuviojonoja. Ilmainen tulostettava PDF loogisen ajattelun tueksi.",
+    "position-words": "Sijaintisanat-tehtäviä esiopetukseen: lapsi tunnistaa ylä-, ala-, vasen ja oikea kuvatilanteista. Ilmainen tulostettava PDF sijaintisanaston tueksi.",
+    "sorting-categories": "Lajittelu-tehtäviä esiopetukseen ja 1. luokalle: lapsi lajittelee kuvat luokkiin ominaisuuden mukaan. Ilmainen tulostettava PDF luokittelun tueksi.",
+    "picture-arithmetic": "Kuvalaskut-tehtäviä esiopetukseen ja 1. luokalle: lapsi laskee yhteen ja vähentää kuvajoukoilla ennen numeroita. Ilmainen tulostettava PDF kuvilla."
   },
   "topicProse": {
     "animals": "Eläinaiheiset tehtävät ovat varhaiskasvatuksen hyödyllisin teema, sillä sama sanasto kulkee mukana kaikkialla. Tutut hahmot — kissat, lehmät, linnut, kalat — toistuvat laskemisessa ja yhteenlaskussa, lajittelussa ja yhdistämisessä, mikä ei kuulu joukkoon -tehtävissä sekä alkukirjaimen tunnistamisessa, joten lapset harjoittelevat uutta taitoa tutuilla ja rakkailla kuvilla sen sijaan, että purkaisivat joka kerta uutta yhteyttä. Eläinten nimet ovat myös yleisiä jokaisessa julkaisemassamme kielessä, mikä tekee näistä tehtävistä erityisen käteviä, kun ryhmässä on lapsia eri kielitaitotasoilla. Tälle sivulle on koottu kaikki eläinaiheiset tehtävät eri tehtävätyypeistä. Jokainen on ilmainen, tulostettava PDF, jolla on vastaava interaktiivinen versio sekä vastaukset. Koko valikoima on saatavilla kaikilla 11 kielellä, joilla julkaisemme.",

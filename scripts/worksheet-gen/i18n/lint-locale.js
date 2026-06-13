@@ -116,6 +116,43 @@ function lintLocale(locale) {
     if (!words[w]) errors.push('messages: missing seo.words.' + w);
   }
 
+  // --- English-lexicon residue pre-check (publish-cli reconcileLocaleResidue
+  // lexicon path; printable manifests have seo_trace=null so they take it). A
+  // locale word spelled identically to an English-lexicon entry (fr
+  // "multiplication", pt "grade") trips LOCALE_RESIDUE_DETECTED at publish
+  // unless it's in seo-reconciliation-exceptions.json. Surface it here. ---
+  try {
+    const seoRecon = require('../../publish-cli/seo-reconciliation.js');
+    const LEX = seoRecon.ENGLISH_LEXICON;
+    const exc = (seoRecon.loadLexiconExceptions()[locale] || []).map((w) => w.toLowerCase());
+    const excSet = new Set(exc);
+    const brand = seoRecon.BRAND_WHITELIST;
+    const tokensOf = (s) => seoRecon.tokenizeForLexicon(String(s || ''));
+    const collisions = new Set();
+    const scan = (s) => {
+      for (const tok of tokensOf(s)) {
+        if (brand.has(tok) || excSet.has(tok)) continue;
+        if (LEX.has(tok)) collisions.add(tok);
+      }
+    };
+    for (const id of Object.keys(loc)) { scan(loc[id].title); scan(loc[id].instruction); }
+    const skillLoc = fs.existsSync(skillPath) ? readJson(skillPath) : {};
+    for (const fam of fams) {
+      if (skillLoc[fam]) { scan(skillLoc[fam].full); scan(skillLoc[fam].short); }
+      const tx = TAXONOMY.axes['exercise-type'][fam];
+      if (tx && tx.name && tx.name[locale]) scan(tx.name[locale]);
+      if (messages.topicMeta && messages.topicMeta[fam]) scan(messages.topicMeta[fam]);
+    }
+    if (words.free_printable) scan(words.free_printable);
+    if (words.download_pdf) scan(words.download_pdf);
+    if (collisions.size) {
+      errors.push('lexicon-residue: locale words collide with ENGLISH_LEXICON (add to seo-reconciliation-exceptions.json["' +
+        locale + '"]): ' + [...collisions].sort().join(', '));
+    }
+  } catch (e) {
+    warnings.push('lexicon-residue: pre-check skipped (' + e.message + ')');
+  }
+
   // --- K-016 inline extra words ---
   const k016 = specs.find((s) => s.id === 'K-016');
   if (k016) {

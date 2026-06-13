@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Plus und Minus mit Bildgruppen lässt Kinder das Rechnen anschaulich meistern, bevor abstrakte Ziffern ins Spiel kommen.",
     "short": "Anschauliches Plus- und Minusrechnen mit Bildern."
+  },
+  "science-sort": {
+    "full": "Das Sortieren von Bildern in die richtigen Gruppen fördert das Beobachten und Ordnen – grundlegende Fähigkeiten des Sachunterrichts.",
+    "short": "Fördert Beobachten und Ordnen."
+  },
+  "science-sequence": {
+    "full": "Das Ordnen der Bilder in die richtige Reihenfolge hilft Kindern zu verstehen, wie Lebewesen wachsen und sich verändern.",
+    "short": "Fördert Reihenfolge und Lebenszyklen."
+  },
+  "science-match": {
+    "full": "Das Zuordnen der passenden Bildpaare fördert das logische Denken und das Erkennen von Zusammenhängen in der Natur.",
+    "short": "Fördert Zuordnen und logisches Denken."
   }
 }

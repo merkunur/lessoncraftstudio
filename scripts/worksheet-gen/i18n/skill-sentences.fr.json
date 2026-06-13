@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Additionner et soustraire avec des groupes d'images permet de maîtriser les opérations concrètement avant les chiffres.",
     "short": "Calcul concret avec des groupes d'images."
+  },
+  "science-sort": {
+    "full": "Trier les images dans les bons groupes développe l'observation et le classement, au cœur de la découverte du monde.",
+    "short": "Développe l'observation et le classement."
+  },
+  "science-sequence": {
+    "full": "Remettre les images dans le bon ordre aide les enfants à comprendre comment les êtres vivants grandissent et changent.",
+    "short": "Développe la chronologie et les cycles de vie."
+  },
+  "science-match": {
+    "full": "Associer chaque image à sa paire développe le raisonnement pour repérer les liens dans le monde qui les entoure.",
+    "short": "Développe l'association et le raisonnement."
   }
 }

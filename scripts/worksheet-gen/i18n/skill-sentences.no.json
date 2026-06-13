@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Å legge sammen og trekke fra med bildegrupper lar barna mestre regneartene konkret før de abstrakte tallene.",
     "short": "Konkret pluss og minus med bildegrupper."
+  },
+  "science-sort": {
+    "full": "Å sortere bilder i riktige grupper utvikler evnen til å observere og klassifisere – grunnlaget i naturfag.",
+    "short": "Utvikler å observere og sortere."
+  },
+  "science-sequence": {
+    "full": "Å legge bildene i riktig rekkefølge hjelper barn å forstå hvordan levende ting vokser og endrer seg.",
+    "short": "Utvikler rekkefølge og livssykluser."
+  },
+  "science-match": {
+    "full": "Å koble hvert bilde til partneren sin utvikler tenkningen for å oppdage sammenhenger i naturen.",
+    "short": "Utvikler kobling og tenkning."
   }
 }

@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Sumar y restar con grupos de dibujos permite dominar las operaciones de forma concreta antes de las cifras.",
     "short": "Sumas y restas concretas con apoyo visual."
+  },
+  "science-sort": {
+    "full": "Clasificar las imágenes en los grupos correctos desarrolla la observación y la clasificación, claves del conocimiento del medio.",
+    "short": "Desarrolla la observación y la clasificación."
+  },
+  "science-sequence": {
+    "full": "Ordenar las imágenes en la secuencia correcta ayuda a los niños a entender cómo los seres vivos crecen y cambian.",
+    "short": "Desarrolla la secuenciación y los ciclos de vida."
+  },
+  "science-match": {
+    "full": "Relacionar cada imagen con su pareja desarrolla el razonamiento para descubrir conexiones en el mundo natural.",
+    "short": "Desarrolla la relación y el razonamiento."
   }
 }

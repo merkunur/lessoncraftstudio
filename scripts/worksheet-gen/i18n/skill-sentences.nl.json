@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Optellen en aftrekken met plaatjesgroepjes laat kinderen rekenen concreet beheersen voor de abstracte cijfers komen.",
     "short": "Concreet rekenen met plaatjesgroepjes."
+  },
+  "science-sort": {
+    "full": "Plaatjes in de juiste groepen sorteren ontwikkelt het waarnemen en ordenen, de basis van natuur en techniek.",
+    "short": "Ontwikkelt waarnemen en ordenen."
+  },
+  "science-sequence": {
+    "full": "De plaatjes in de juiste volgorde leggen helpt kinderen begrijpen hoe levende dingen groeien en veranderen.",
+    "short": "Ontwikkelt volgorde en levenscycli."
+  },
+  "science-match": {
+    "full": "Elk plaatje aan zijn maatje koppelen ontwikkelt het redeneren om verbanden in de natuur te ontdekken.",
+    "short": "Ontwikkelt koppelen en redeneren."
   }
 }

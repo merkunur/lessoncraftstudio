@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Kuvajoukoilla yhteen laskeminen ja vähentäminen antaa lapsen hallita laskutoimitukset konkreettisesti ennen numeroita.",
     "short": "Konkreettista yhteen- ja vähennyslaskua kuvilla."
+  },
+  "science-sort": {
+    "full": "Kuvien lajittelu oikeisiin ryhmiin kehittää havainnointia ja luokittelua – ympäristöopin perustaitoja.",
+    "short": "Kehittää havainnointia ja lajittelua."
+  },
+  "science-sequence": {
+    "full": "Kuvien järjestäminen oikeaan järjestykseen auttaa lapsia ymmärtämään, miten elävät asiat kasvavat ja muuttuvat.",
+    "short": "Kehittää järjestystä ja elämänkiertoja."
+  },
+  "science-match": {
+    "full": "Kuvien yhdistäminen pareiksi kehittää päättelyä, jolla lapsi huomaa yhteyksiä luonnossa.",
+    "short": "Kehittää yhdistämistä ja päättelyä."
   }
 }

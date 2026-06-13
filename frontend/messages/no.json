@@ -1113,7 +1113,9 @@
       "free_interactive": "Gratis interaktivt",
       "for": "for",
       "print_or_play_online": "Skriv ut eller spill online",
-      "variant_label": "Sett"
+      "variant_label": "Sett",
+      "free_printable": "Gratis utskrivbart",
+      "download_pdf": "Last ned PDF gratis"
     },
     "deckCardAlt": {
       "withTheme": "Forhåndsvisning av {exerciseType}-arbeidsark med {theme} for {level}",
@@ -1906,7 +1908,29 @@
     "weather": "Fargerike værbilder — sol, regn, snø, vind, torden. Bruk dem i daglige værsamtaler eller meteorologi-tema på 2. trinn i barneskolen.",
     "winter": "Fargerike vinterbilder — snømenn, ski, snøflak, varme klær. Bruk dem i vintertema eller etter første snøfall på skolen i K-3-trinn.",
     "zoo_animals": "Fargerike dyrehagedyr — løver, sjiraffer, sebraer, aper. Bruk i tema om eksotiske dyr eller etter besøk i dyreparken i barneskolen.",
-    "zoo_animals_bw": "Dyrehagedyr i strektegning til fargelegging. Tonersparende klassesett — bruk dem etter dyrehagebesøk eller i savanne-tema på trinnet."
+    "zoo_animals_bw": "Dyrehagedyr i strektegning til fargelegging. Tonersparende klassesett — bruk dem etter dyrehagebesøk eller i savanne-tema på trinnet.",
+    "counting-pictures": "Gratis arbeidsark der barn teller bildegrupper og øver tall-til-mengde. For barnehage og skolestart — skriv ut PDF eller spill på nett.",
+    "counting-frames": "Arbeidsark med tierramme for barnehage og 1. trinn: tell, lag fem og lag ti på en tydelig måte. Last ned gratis PDF eller skriv ut.",
+    "tally-counting": "Øv på å telle og notere med tellestreker i grupper på fem. Gratis arbeidsark for skolestart og 1. trinn — skriv ut PDF eller spill på nett.",
+    "number-charts": "Arbeidsark med hundrerute som styrker telling, hopptelling og tallmønstre. For 1. og 2. trinn — last ned gratis PDF eller skriv ut.",
+    "comparing-numbers": "Sammenlign tall med større enn, mindre enn og lik. Gratis arbeidsark for skolestart og 1. trinn — skriv ut PDF eller spill på nett.",
+    "comparing-groups": "Hvilken gruppe har flest, færrest eller like mange? Gratis arbeidsark for barnehage og skolestart — skriv ut PDF eller spill på nett.",
+    "comparing-sizes": "Sorter stor og liten, høy og lav, lang og kort. Gratis arbeidsark for 3-5-åringer i barnehagen — skriv ut PDF eller spill på nett.",
+    "number-lines": "Hopp langs tallinja og gjør addisjon og subtraksjon synlig. Gratis arbeidsark for skolestart og 1. trinn — skriv ut PDF eller spill på nett.",
+    "base-ten": "Arbeidsark med tiere og enere som gjør plassverdi konkret og synlig å se. For 1. og 2. trinn — last ned gratis PDF eller skriv ut nå.",
+    "telling-time": "Øv på å lese den analoge klokka — hel, halv og fem på fem. Gratis arbeidsark for 1. og 2. trinn — skriv ut PDF eller spill på nett.",
+    "fractions": "Skraver, navngi og sammenlign halve, tredeler og firedeler. Gratis arbeidsark om brøk for 1. og 2. trinn — skriv ut PDF eller spill.",
+    "graphing-data": "Les søylediagram, bildediagram og tellestrek-tabeller. Gratis arbeidsark i datalesing for 1. og 2. trinn — skriv ut PDF eller spill.",
+    "arrays-multiplication": "Rader og kolonner med bilder gjør gjentatt addisjon til ganging. Gratis arbeidsark for 2. trinn — skriv ut PDF eller spill på nett.",
+    "geometry": "Navngi former, tell sider og hjørner og utforsk symmetri. Gratis geometri-arbeidsark for skolestart og 1. trinn — skriv ut PDF eller spill.",
+    "measurement": "Mål med linjal og enhetsklosser og sammenlign lengder. Gratis arbeidsark i måling for skolestart og 1. trinn — skriv ut PDF eller spill.",
+    "visual-logic": "Bildesudoku og logikkrutenett der hver gåte har ett riktig svar. Gratis arbeidsark for 1.-3. trinn — skriv ut PDF eller spill på nett.",
+    "visual-discrimination": "Finn skygger, speilbilder og det som ikke passer. Gratis arbeidsark som skjerper visuell oppmerksomhet — skriv ut PDF eller spill.",
+    "visual-matching": "Match bilder som hører sammen og styrk visuell hukommelse. Gratis arbeidsark for barnehage og skolestart — skriv ut PDF eller spill.",
+    "patterns": "Fortsett og fullfør bildemønstre — tidlig algebraisk tenkning. Gratis arbeidsark for barnehage og skolestart — skriv ut PDF eller spill.",
+    "position-words": "Øv på over, under, til venstre og høyre i bildescener. Gratis arbeidsark i plasseringsord for barnehage — skriv ut PDF eller spill.",
+    "sorting-categories": "Sorter bilder i kategorier og øv på klassifisering. Gratis arbeidsark for barnehage og skolestart — skriv ut PDF eller spill på nett.",
+    "picture-arithmetic": "Legg sammen og trekk fra med bildegrupper før tallene. Gratis arbeidsark for barnehage og skolestart — skriv ut PDF eller spill på nett."
   },
   "topicProse": {
     "animals": "Arbeidsark med dyr er det mest nyttige temaet i et klasserom for de minste, fordi ordene går igjen overalt. Den samme vennlige gjengen — katter, kuer, fugler, fisk — dukker opp på tvers av telling og addisjon, sortering og koble sammen, finne den som ikke passer, og staving av første bokstav, så barna øver på en ny ferdighet med bilder de allerede kjenner og er glad i, i stedet for å tolke en fersk sammenheng hver gang. Dyrenavn er også høyfrekvente i hvert språk, noe som gjør disse arkene særlig nyttige når en klasse har barn på ulike språknivåer. Denne siden samler alle arbeidsark med dyr på tvers av oppgavetypene. Hvert ark er en gratis utskrivbar PDF med en interaktiv versjon ved siden av og en fasit, og hele settet er tilgjengelig på de 11 språkene vi publiserer på.",

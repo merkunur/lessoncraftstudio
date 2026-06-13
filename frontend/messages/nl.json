@@ -779,7 +779,9 @@
       "free_interactive": "Gratis interactief",
       "for": "voor",
       "print_or_play_online": "Afdrukken of online spelen",
-      "variant_label": "Set"
+      "variant_label": "Set",
+      "free_printable": "Gratis printbaar",
+      "download_pdf": "Download de gratis PDF"
     },
     "deckCardAlt": {
       "withTheme": "Voorbeeld van het {exerciseType}-werkblad met {theme} voor {level}",
@@ -1636,7 +1638,29 @@
     "kindergarten": "Werkbladen voor de kleuterklas (5-7 jaar): tel-, letter- en koppeloefeningen die aansluiten bij de SLO kerndoelen voor kleuters.",
     "grade-1": "Werkbladen voor groep 3 (6-8 jaar): lees-, schrijf- en rekenoefeningen die aansluiten bij de SLO kerndoelen voor het eerste leerjaar.",
     "grade-2": "Werkbladen voor groep 4 (7-9 jaar): rekenen tot 100, leesoefeningen en woordenschat passend bij de kerndoelen van de basisschool.",
-    "grade-3": "Werkbladen voor groep 5 (8-10 jaar): rekenen, taal en logisch denken aansluitend bij de SLO kerndoelen van het derde leerjaar."
+    "grade-3": "Werkbladen voor groep 5 (8-10 jaar): rekenen, taal en logisch denken aansluitend bij de SLO kerndoelen van het derde leerjaar.",
+    "counting-pictures": "Tellen-met-plaatjes werkbladen voor peuters en kleuters: tel themaplaatjes en omcirkel of schrijf het juiste getal. Gratis printbare PDF.",
+    "counting-frames": "Tienraam-werkbladen voor kleuters en groep 3: tel fiches, vul het raam en bouw getallen tot 20 met heldere structuur. Gratis printbare PDF.",
+    "tally-counting": "Turf-werkbladen voor de onderbouw: tel groepjes plaatjes, noteer ze met turfjes en lees de turven weer terug als getal. Gratis printbare PDF.",
+    "number-charts": "Honderdveld-werkbladen voor groep 1, 2 en 3: vul ontbrekende getallen in en ontdek sprongen en telpatronen. Gratis printbare PDF's.",
+    "comparing-numbers": "Getallen-vergelijken werkbladen voor groep 1, 2 en 3: groter dan, kleiner dan en gelijk aan met getallen tot 1000. Gratis printbare PDF.",
+    "comparing-groups": "Groepen-vergelijken werkbladen voor peuters en kleuters: bepaal welke groep meer, minder of evenveel plaatjes heeft. Gratis printbare PDF.",
+    "comparing-sizes": "Groottes-vergelijken werkbladen voor jonge kinderen: groot en klein, lang en kort, met vriendelijke plaatjesparen. Gratis printbare PDF.",
+    "number-lines": "Getallenlijn-werkbladen voor groep 1, 2 en 3: sprongen voor optellen en aftrekken, en ontbrekende getallen invullen. Gratis printbare PDF.",
+    "base-ten": "Getalbegrip-werkbladen voor groep 1 en 2: lees honderdtallen, tientallen en eenheden en koppel blokjes aan getallen. Gratis printbare PDF.",
+    "telling-time": "Klokkijken-werkbladen voor groep 1, 2 en 3: analoge klok lezen op het hele en halve uur en de wijzers tekenen. Gratis printbare PDF.",
+    "fractions": "Breuken-werkbladen voor groep 3 en 4: arceer vormen, benoem helften, derden en vierden en vergelijk breuken. Gratis printbare PDF.",
+    "graphing-data": "Grafieken-lezen werkbladen voor groep 1, 2 en 3: lees en vul staafdiagrammen, beelddiagrammen en turftabellen in. Gratis printbare PDF.",
+    "arrays-multiplication": "Keersommen-werkbladen voor groep 3 en 4: gelijke groepjes, herhaald optellen en rijen-keer-kolommen met plaatjes. Gratis printbare PDF.",
+    "geometry": "Meetkunde-werkbladen voor groep 1 t/m 3: benoem vormen, tel zijden en hoeken en ontdek symmetrie en oppervlakte. Gratis printbare PDF.",
+    "measurement": "Meten-werkbladen voor groep 1 t/m 3: meet met liniaal en blokjes, vergelijk lengtes en lees de thermometer af. Gratis printbare PDF.",
+    "visual-logic": "Visuele-logica werkbladen voor groep 1 t/m 3: fotosudoku en redeneerroosters die het logisch denken stap voor stap opbouwen. Gratis printbare PDF.",
+    "visual-discrimination": "Visuele-waarneming werkbladen voor peuters en kleuters: koppel schaduwen, spot spiegelplaatjes en vind de uitzondering. Gratis printbare PDF.",
+    "visual-matching": "Visueel-koppelen werkbladen voor jonge kinderen: koppel bij elkaar horende plaatjes en verbind de look-alikes. Gratis printbare PDF.",
+    "patterns": "Patroon-werkbladen voor peuters en kleuters: zet AB-, AAB- en ABC-patronen met plaatjes voort en vind het ontbrekende stuk. Gratis printbare PDF.",
+    "position-words": "Positiewoorden-werkbladen voor peuters en kleuters: boven, onder, links en rechts in plaatjesscenes. Gratis printbare PDF voor de onderbouw.",
+    "sorting-categories": "Sorteer-werkbladen voor jonge kinderen: orden plaatjes in categorieën en leg uit wat bij elkaar hoort. Gratis printbare PDF voor de onderbouw.",
+    "picture-arithmetic": "Plaatjes-rekenen werkbladen voor kleuters en groep 3: optellen en aftrekken met plaatjesgroepjes en doorstreepsommen. Gratis printbare PDF."
   },
   "topicProse": {
     "animals": "Bekijk hier de werkbladen met dieren, waarin kinderen met een vertrouwde set dierenplaatjes tellen, sorteren, koppelen en kiezen welke hoort er niet bij. Voor jonge kinderen keert hetzelfde dierenthema terug bij eerste letters en klanken en vele andere vaardigheden, zodat een herkenbare set veel oefeningen draagt. Elk werkblad is gratis af te drukken als PDF, met een interactieve versie om online te spelen en een antwoordblad. Combineer een paar bladen tot een setje rond dieren. De werkbladen met dieren zijn beschikbaar in de 11 talen waarin we publiceren.",

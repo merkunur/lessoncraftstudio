@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Tellen en omcirkelen",
+    "instruction": "Tel de plaatjes in elk vak. Omcirkel het juiste getal."
+  },
+  "K-004": {
+    "title": "Tellen in het tienraam",
+    "instruction": "Tel de plaatjes in het raam. Schrijf het getal op."
+  },
+  "K-005": {
+    "title": "Vul het tienraam",
+    "instruction": "Teken een stip in het raam voor elk getal dat wordt aangegeven."
+  },
+  "K-006": {
+    "title": "Tellen en schrijven",
+    "instruction": "Tel de plaatjes in elk vak. Schrijf het getal op."
+  },
+  "K-007": {
+    "title": "Tellen en verbinden",
+    "instruction": "Tel de plaatjes. Trek een lijn naar het juiste getal."
+  },
+  "K-008": {
+    "title": "Meer of minder?",
+    "instruction": "Kijk naar beide groepen. Omcirkel de groep met MEER."
+  },
+  "K-009": {
+    "title": "Welke heeft minder?",
+    "instruction": "Kijk naar beide groepen. Omcirkel de groep met MINDER."
+  },
+  "K-010": {
+    "title": "Vind gelijke groepen",
+    "instruction": "Twee groepen hebben evenveel. Omcirkel ze allebei."
+  },
+  "K-011": {
+    "title": "Tellen en kleuren",
+    "instruction": "Kleur precies zoveel plaatjes als het getal aangeeft."
+  },
+  "K-012": {
+    "title": "Eén voor elk",
+    "instruction": "Geef elk een maatje. Trek een lijn om ze één voor één te verbinden."
+  },
+  "K-013": {
+    "title": "Tel elke soort",
+    "instruction": "Tel elke soort plaatje. Schrijf op hoeveel je er vindt."
+  },
+  "K-014": {
+    "title": "Maak je turfjes",
+    "instruction": "Tel de plaatjes. Teken turfstreepjes in het vak."
+  },
+  "K-015": {
+    "title": "Lees de turfjes",
+    "instruction": "Tel de turfstreepjes. Schrijf het getal op."
+  },
+  "K-016": {
+    "title": "Oneven of even?",
+    "instruction": "Maak paren! Als er één overblijft, is het getal oneven."
+  },
+  "K-017": {
+    "title": "Snel kijken",
+    "instruction": "Tel niet één voor één! Kijk snel en omcirkel hoeveel."
+  },
+  "K-018": {
+    "title": "Hoeveel zie je snel?",
+    "instruction": "Kijk snel en omcirkel hoeveel je ziet."
+  },
+  "K-019": {
+    "title": "Ontbrekende getallen tot 10",
+    "instruction": "Tel langs de strook. Schrijf elk ontbrekend getal op."
+  },
+  "K-020": {
+    "title": "Ontbrekende getallen tot 20",
+    "instruction": "Tel langs de strook. Schrijf elk ontbrekend getal op."
+  },
+  "K-021": {
+    "title": "Ervoor en erna",
+    "instruction": "Schrijf het getal dat ervoor komt en het getal dat erna komt."
+  },
+  "K-022": {
+    "title": "Wat zit ertussen?",
+    "instruction": "Schrijf het getal dat ertussen komt."
+  },
+  "K-023": {
+    "title": "Aftellen: 10, 9, 8",
+    "instruction": "Tel terug. Schrijf elk ontbrekend getal op."
+  },
+  "K-024": {
+    "title": "Tienraam zoeken",
+    "instruction": "Trek een lijn van elk getal naar het bijbehorende tienraam."
+  },
+  "K-025": {
+    "title": "Turfjes zoeken",
+    "instruction": "Trek een lijn van elk getal naar de bijbehorende turfstreepjes."
+  },
+  "K-027": {
+    "title": "Tel het rooster",
+    "instruction": "Tel de rijen plaatjes. Schrijf op hoeveel het er in totaal zijn."
+  },
+  "K-028": {
+    "title": "Hoeveel samen?",
+    "instruction": "Tel beide groepen samen. Schrijf op hoeveel het er in totaal zijn."
+  },
+  "K-029": {
+    "title": "Een goede schatting",
+    "instruction": "Schat eerst, niet tellen! Omcirkel de beste gok en tel daarna na."
+  },
+  "K-030": {
+    "title": "Eerste, tweede, derde",
+    "instruction": "Begin bij de pijl. Omcirkel het plaatje op de aangegeven plaats."
+  },
+  "K-031": {
+    "title": "Welke plaats?",
+    "instruction": "Begin bij de pijl. Schrijf de plaats van elk gemerkt plaatje in zijn cirkel."
+  },
+  "K-032": {
+    "title": "Groot en klein",
+    "instruction": "Omcirkel het GROOTSTE in elke rij."
+  },
+  "K-033": {
+    "title": "Klein, midden, groot",
+    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 3 (grootste)."
+  },
+  "K-034": {
+    "title": "Kleinste tot grootste",
+    "instruction": "Nummer de plaatjes van 1 (kleinste) tot 5 (grootste)."
+  },
+  "K-035": {
+    "title": "Hoog en laag",
+    "instruction": "Omcirkel het HOOGSTE in elke rij."
+  },
+  "K-036": {
+    "title": "Laag tot hoog",
+    "instruction": "Nummer de plaatjes van 1 (laagste) tot 4 (hoogste)."
+  },
+  "K-037": {
+    "title": "Lang en kort",
+    "instruction": "Omcirkel het LANGSTE in elke rij."
+  },
+  "K-038": {
+    "title": "Zwaar of licht?",
+    "instruction": "Denk aan het echte leven! Omcirkel het ZWAARSTE."
+  },
+  "K-039": {
+    "title": "Gelijk en anders",
+    "instruction": "Drie plaatjes zijn gelijk. Omcirkel het plaatje dat anders is."
+  },
+  "K-040": {
+    "title": "Alleen de grote",
+    "instruction": "Omcirkel elk GROOT plaatje. Laat de kleine met rust."
+  },
+  "K-042": {
+    "title": "Goed sorteren",
+    "instruction": "Trek een lijn van elk plaatje naar de bak waar het hoort."
+  },
+  "K-043": {
+    "title": "Welke hoort er niet bij?",
+    "instruction": "Kijk naar elke rij. Omcirkel het plaatje dat er niet bij hoort."
+  },
+  "K-044": {
+    "title": "Vind het andere formaat",
+    "instruction": "Kijk naar elke rij. Omcirkel degene met een ander formaat."
+  },
+  "K-046": {
+    "title": "Wat komt erna?",
+    "instruction": "Kijk naar de reeks. Omcirkel wat erna komt."
+  },
+  "K-047": {
+    "title": "ABC-reeksen",
+    "instruction": "Kijk naar de reeks. Omcirkel wat erna komt."
+  },
+  "K-048": {
+    "title": "AABB-reeksen",
+    "instruction": "Kijk naar de reeks. Omcirkel wat erna komt."
+  },
+  "K-049": {
+    "title": "Maak de reeks af",
+    "instruction": "Er ontbreekt een plaatje. Omcirkel wat in het lege vak hoort."
+  },
+  "K-050": {
+    "title": "Groot-en-klein-reeksen",
+    "instruction": "Kijk naar de reeks. Omcirkel wat erna komt."
+  },
+  "K-052": {
+    "title": "Omhoog-en-omlaag-reeksen",
+    "instruction": "Kijk naar de reeks. Omcirkel wat erna komt."
+  },
+  "K-053": {
+    "title": "Groeiende reeksen",
+    "instruction": "De reeks groeit. Omcirkel de groep die erna komt."
+  },
+  "K-057": {
+    "title": "Zoek de schaduw",
+    "instruction": "Trek een lijn van elk plaatje naar zijn schaduw."
+  },
+  "K-058": {
+    "title": "Vind de paren",
+    "instruction": "Elk plaatje heeft een tweeling. Trek een lijn tussen elk paar."
+  },
+  "K-059": {
+    "title": "Vinden en omcirkelen",
+    "instruction": "Vind elk plaatje dat hetzelfde is als dat in het vak. Omcirkel ze allemaal."
+  },
+  "K-060": {
+    "title": "Ik zie, ik zie",
+    "instruction": "Kijk goed! Tel elke soort en schrijf het getal op."
+  },
+  "K-061": {
+    "title": "Zoek de verschillen",
+    "instruction": "Vergelijk de twee plaatjes. Omcirkel wat er rechts veranderd is."
+  },
+  "K-062": {
+    "title": "Vind de tweelingen",
+    "instruction": "Twee plaatjes zijn precies gelijk. Vind ze en omcirkel ze allebei."
+  },
+  "K-063": {
+    "title": "Spiegeltje, spiegeltje",
+    "instruction": "Omcirkel het plaatje dat het spiegelbeeld toont."
+  },
+  "K-064": {
+    "title": "Op, onder, naast",
+    "instruction": "Omcirkel het plaatje dat OP de doos staat."
+  },
+  "K-065": {
+    "title": "Links en rechts",
+    "instruction": "Omcirkel elk plaatje aan de LINKERkant van de lijn."
+  },
+  "K-066": {
+    "title": "Boven, midden, onder",
+    "instruction": "Omcirkel elk plaatje in de MIDDELSTE rij."
+  },
+  "K-067": {
+    "title": "Binnen en buiten",
+    "instruction": "Omcirkel elk plaatje BINNEN de grote vorm."
+  },
+  "K-068": {
+    "title": "Wat past in het gat?",
+    "instruction": "Elke rij toont één soort plaatje. Omcirkel het stuk dat in het lege vak past."
+  },
+  "K-069": {
+    "title": "Wat is het?",
+    "instruction": "Er is maar een deel van het plaatje te zien. Omcirkel het hele plaatje waar het bij hoort."
+  },
+  "K-070": {
+    "title": "Vormen zoeken",
+    "instruction": "Vind elke vorm zoals die in het vak. Omcirkel ze allemaal."
+  },
+  "K-075": {
+    "title": "Tel de zijden",
+    "instruction": "Tel de zijden van elke vorm. Schrijf het getal op."
+  },
+  "K-076": {
+    "title": "Sorteer op zijden",
+    "instruction": "Trek een lijn van elke vorm naar het aantal zijden."
+  },
+  "K-077": {
+    "title": "Vormreeksen",
+    "instruction": "Kijk naar de reeks. Omcirkel de vorm die erna komt."
+  },
+  "K-078": {
+    "title": "Vormtweelingen",
+    "instruction": "Elke vorm heeft een tweeling. Trek een lijn tussen elk paar."
+  },
+  "K-079": {
+    "title": "Grote en kleine vormen",
+    "instruction": "Omcirkel de GROOTSTE vorm in elke rij."
+  },
+  "K-080": {
+    "title": "Welke vorm is anders?",
+    "instruction": "Kijk naar elke rij. Omcirkel de vorm die er niet bij hoort."
+  },
+  "G1-101": {
+    "title": "Plaatjes optellen",
+    "instruction": "Tel beide groepen. Schrijf op hoeveel het er samen zijn."
+  },
+  "G1-102": {
+    "title": "Optellen met plaatjes",
+    "instruction": "Tel beide groepen. Schrijf op hoeveel het er samen zijn."
+  },
+  "G1-103": {
+    "title": "Doorstrepen en aftrekken",
+    "instruction": "Sommige plaatjes zijn doorgestreept. Schrijf op hoeveel er overblijven."
+  },
+  "G1-104": {
+    "title": "Aftrekken met plaatjes",
+    "instruction": "Sommige plaatjes zijn doorgestreept. Schrijf op hoeveel er overblijven."
+  },
+  "G1-105": {
+    "title": "Optellen in het tienraam",
+    "instruction": "Tel de twee kleuren. Schrijf het antwoord van de optelsom op."
+  },
+  "G1-106": {
+    "title": "Maak er 10 van",
+    "instruction": "Hoeveel stippen erbij om 10 te maken? Schrijf het ontbrekende getal op."
+  },
+  "G1-110": {
+    "title": "Dominorekenen",
+    "instruction": "Tel beide kanten van de domino. Schrijf de som op."
+  },
+  "G1-111": {
+    "title": "Gooien en optellen",
+    "instruction": "Tel de stippen op beide dobbelstenen. Schrijf de som op."
+  },
+  "G1-112": {
+    "title": "Drie groepen optellen",
+    "instruction": "Tel alle drie de groepen. Schrijf het totaal op."
+  },
+  "G1-113": {
+    "title": "Sommenfamilies",
+    "instruction": "Gebruik de twee groepen om alle vier de sommen af te maken."
+  },
+  "G1-114": {
+    "title": "Meer, minder of gelijk?",
+    "instruction": "Vergelijk de twee groepen. Omcirkel het juiste teken."
+  },
+  "G1-115": {
+    "title": "Wat ontbreekt er?",
+    "instruction": "Tel de groep. Schrijf het ontbrekende getal op om het totaal te halen."
+  },
+  "G1-116": {
+    "title": "Verder tellen",
+    "instruction": "Begin bij de stip. Spring vooruit en schrijf op waar je landt."
+  },
+  "G1-117": {
+    "title": "Terugtellen",
+    "instruction": "Begin bij de stip. Spring achteruit en schrijf op waar je landt."
+  },
+  "G1-118": {
+    "title": "Springen langs de lijn",
+    "instruction": "Begin bij de stip. Tel de sprongen. Schrijf het antwoord van de optelsom op."
+  },
+  "G1-119": {
+    "title": "Spring terug en trek af",
+    "instruction": "Volg de sprongen achteruit. Schrijf het antwoord van de aftreksom op."
+  },
+  "G1-120": {
+    "title": "Tientallen en eenheden",
+    "instruction": "Tel de tientallen en eenheden. Schrijf het getal op."
+  },
+  "G1-121": {
+    "title": "Bouw het goed",
+    "instruction": "Omcirkel de blokken die het getal tonen."
+  },
+  "G1-122": {
+    "title": "Hoeveel tientallen?",
+    "instruction": "Tel de tienstaven. Maak de som af."
+  },
+  "G1-123": {
+    "title": "Tel met tientallen",
+    "instruction": "Tel met sprongen van 10. Schrijf elk ontbrekend getal op."
+  },
+  "G1-124": {
+    "title": "Tel met vijftallen",
+    "instruction": "Tel met sprongen van 5. Schrijf elk ontbrekend getal op."
+  },
+  "G1-125": {
+    "title": "Tel met tweetallen",
+    "instruction": "Tel met sprongen van 2. Schrijf elk ontbrekend getal op."
+  },
+  "G1-126": {
+    "title": "Tel in groepen",
+    "instruction": "Elk vak heeft evenveel. Tel met sprongen en schrijf het lopende totaal op."
+  },
+  "G1-129": {
+    "title": "Het honderdveld",
+    "instruction": "Sommige getallen zijn verstopt. Schrijf elk ontbrekend getal in zijn vak."
+  },
+  "G1-130": {
+    "title": "Kleur het telpad",
+    "instruction": "Twee vakken zijn alvast gekleurd. Kleur elk getal in hetzelfde telpatroon."
+  },
+  "G1-131": {
+    "title": "1 meer, 1 minder",
+    "instruction": "Schrijf het getal dat 1 minder is en het getal dat 1 meer is."
+  },
+  "G1-132": {
+    "title": "10 meer, 10 minder",
+    "instruction": "Schrijf het getal dat 10 minder is en het getal dat 10 meer is."
+  },
+  "G1-133": {
+    "title": "Rek het getal uit",
+    "instruction": "Kijk naar de blokken. Omcirkel de bijbehorende splitsvorm."
+  },
+  "G1-135": {
+    "title": "Kleinste eerst",
+    "instruction": "Nummer ze 1, 2, 3 van kleinste naar grootste."
+  },
+  "G1-136": {
+    "title": "Grootste eerst",
+    "instruction": "Nummer ze 1, 2, 3 van grootste naar kleinste."
+  },
+  "G1-137": {
+    "title": "Meer of minder?",
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+  },
+  "G1-138": {
+    "title": "Waar woont het?",
+    "instruction": "Vind het getal op de lijn. Omcirkel zijn stip."
+  },
+  "G1-139": {
+    "title": "Hokje voor hokje",
+    "instruction": "Elk voorwerp ligt op hokjes. Tel ze en schrijf de lengte op."
+  },
+  "G1-140": {
+    "title": "Kort tot lang",
+    "instruction": "Meet elk voorwerp met zijn hokjes. Nummer ze 1 (kortste) tot 3 (langste)."
+  },
+  "G1-141": {
+    "title": "Lees de plaatjesgrafiek",
+    "instruction": "Tel de plaatjes in elke rij. Schrijf de getallen op."
+  },
+  "G1-142": {
+    "title": "De allermeeste",
+    "instruction": "Kijk naar de grafiek. Omcirkel degene met de MEESTE."
+  },
+  "G1-143": {
+    "title": "Lees de staafgrafiek",
+    "instruction": "Lees elke staaf. Schrijf zijn getal op."
+  },
+  "G1-144": {
+    "title": "De hoogste staaf",
+    "instruction": "Kijk naar de staven. Omcirkel degene met de meeste."
+  },
+  "G1-146": {
+    "title": "Sorteren en tellen",
+    "instruction": "Tel elke soort in de strook. Schrijf de totalen in de tabel."
+  },
+  "G1-147": {
+    "title": "Tellen en grafiek maken",
+    "instruction": "Lees de aantallen. Kleur voor elk een vakje in de grafiek."
+  },
+  "G1-148": {
+    "title": "Op het hele uur",
+    "instruction": "Lees elke klok. Omcirkel de juiste tijd."
+  },
+  "G1-149": {
+    "title": "Half hoe laat?",
+    "instruction": "Lees elke klok. Omcirkel de juiste tijd."
+  },
+  "G1-150": {
+    "title": "Klokmaatjes",
+    "instruction": "Trek een lijn van elke klok naar zijn digitale tijd."
+  },
+  "G1-155": {
+    "title": "Er ontbreken er twee",
+    "instruction": "Twee plaatjes ontbreken. Trek een lijn van elk plaatje naar zijn lege vak."
+  },
+  "G1-157": {
+    "title": "Plaatjespuzzels",
+    "instruction": "Kijk naar het eerste paar. Omcirkel wat het tweede paar op dezelfde manier afmaakt."
+  },
+  "G1-158": {
+    "title": "Plaatjessudoku",
+    "instruction": "Elke rij, kolom en blok heeft alle vier de plaatjes nodig. Vul elk leeg vakje in."
+  },
+  "G1-160": {
+    "title": "Drie groepen",
+    "instruction": "Trek een lijn van elk plaatje naar de bak waar het hoort."
+  },
+  "G2-203": {
+    "title": "Blokken optellen",
+    "instruction": "Tel de twee groepen blokken op. Schrijf het totaal op."
+  },
+  "G2-205": {
+    "title": "Blokken weghalen",
+    "instruction": "Trek de tweede groep van de eerste af. Schrijf het antwoord op."
+  },
+  "G2-206": {
+    "title": "Maak een tiental",
+    "instruction": "Omcirkel 10 eenheden om een tiental te bundelen. Schrijf hoeveel tientallen en eenheden."
+  },
+  "G2-207": {
+    "title": "Tel met drietallen",
+    "instruction": "Tel met sprongen van 3. Schrijf elk ontbrekend getal op."
+  },
+  "G2-208": {
+    "title": "Tel met viertallen",
+    "instruction": "Tel met sprongen van 4. Schrijf elk ontbrekend getal op."
+  },
+  "G2-209": {
+    "title": "Tel nog eens op",
+    "instruction": "Elke ring heeft evenveel. Maak de optelsom af."
+  },
+  "G2-210": {
+    "title": "Van optellen naar keer",
+    "instruction": "Tel de gelijke groepen. Maak de keersom af."
+  },
+  "G2-211": {
+    "title": "Rijen en kolommen",
+    "instruction": "Tel de rijen en kolommen. Maak de keersom af."
+  },
+  "G2-212": {
+    "title": "Kies het rooster",
+    "instruction": "Omcirkel het rooster dat bij de keersom past."
+  },
+  "G2-213": {
+    "title": "Makkelijke groepen",
+    "instruction": "Tel de gelijke groepen. Maak de keersom af."
+  },
+  "G2-216": {
+    "title": "Eerlijk delen",
+    "instruction": "Verdeel de stapel eerlijk over de bakken. Schrijf op hoeveel elk krijgt."
+  },
+  "G2-217": {
+    "title": "Hoeveel groepen?",
+    "instruction": "De ringen maken gelijke groepen. Schrijf op hoeveel groepen er zijn."
+  },
+  "G2-218": {
+    "title": "Oneven getallen zoeken",
+    "instruction": "Omcirkel elk ONEVEN getal. Kijk naar het laatste cijfer om te beslissen."
+  },
+  "G2-219": {
+    "title": "Grote getallen strijd",
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+  },
+  "G2-220": {
+    "title": "Op een rij zetten",
+    "instruction": "Nummer ze 1 tot 4 van kleinste naar grootste."
+  },
+  "G2-221": {
+    "title": "Afronden op tiental",
+    "instruction": "Kijk naar de stip. Omcirkel het tiental waar het dichter bij ligt."
+  },
+  "G2-222": {
+    "title": "Lees de blokken",
+    "instruction": "Tel de honderdtallen, tientallen en eenheden. Schrijf het getal op dat ze tonen."
+  },
+  "G2-223": {
+    "title": "Honderd, tien, één",
+    "instruction": "Kijk naar de blokken. Omcirkel de bijbehorende splitsvorm."
+  },
+  "G2-224": {
+    "title": "Sorteer de plaatsen",
+    "instruction": "Tel de blokken. Vul de plaatswaardetabel in."
+  },
+  "G2-225": {
+    "title": "Cijferdetective",
+    "instruction": "Kijk naar het onderstreepte cijfer. Omcirkel zijn waarde."
+  },
+  "G2-226": {
+    "title": "100 meer, 100 minder",
+    "instruction": "Schrijf het getal dat 100 minder is en het getal dat 100 meer is."
+  },
+  "G2-227": {
+    "title": "Zoek de blokken",
+    "instruction": "Omcirkel de blokken die het getal tonen."
+  },
+  "G2-228": {
+    "title": "Half om half",
+    "instruction": "Kleur de helft van elke vorm."
+  },
+  "G2-229": {
+    "title": "Derden en kwarten",
+    "instruction": "Kleur de breuk van elke vorm."
+  },
+  "G2-230": {
+    "title": "Vind de breuk",
+    "instruction": "Omcirkel de vorm die de breuk toont."
+  },
+  "G2-231": {
+    "title": "Breukmaatjes",
+    "instruction": "Trek een lijn van elk plaatje naar zijn breuk."
+  },
+  "G2-232": {
+    "title": "Eerlijke stukken?",
+    "instruction": "Omcirkel elke vorm die in GELIJKE stukken is gedeeld."
+  },
+  "G2-233": {
+    "title": "Verdeel de verzameling",
+    "instruction": "Omcirkel de breuk van de plaatjes. Schrijf op hoeveel dat is."
+  },
+  "G2-234": {
+    "title": "Goed snijden",
+    "instruction": "Omcirkel de vorm die de breuk toont."
+  },
+  "G2-235": {
+    "title": "Meten met de liniaal",
+    "instruction": "Elk voorwerp begint bij 0. Lees de liniaal en schrijf op hoeveel eenheden lang het is."
+  },
+  "G2-236": {
+    "title": "Hoeveel langer?",
+    "instruction": "Meet beide voorwerpen. Schrijf op hoeveel eenheden langer er één is."
+  },
+  "G2-237": {
+    "title": "Grafiekdetective",
+    "instruction": "Gebruik de grafiek om beide plaatjesvragen op te lossen."
+  },
+  "G2-238": {
+    "title": "Elk plaatje telt dubbel",
+    "instruction": "Elk plaatje staat voor 2! Schrijf het echte aantal voor elke rij."
+  },
+  "G2-239": {
+    "title": "Van turfjes naar grafiek",
+    "instruction": "Lees de turftabel. Kleur voor elk aantal een staaf."
+  },
+  "G2-240": {
+    "title": "Lees de lijngrafiek",
+    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel."
+  },
+  "G2-241": {
+    "title": "Vormensorteerder",
+    "instruction": "Trek een lijn van elke vorm naar het aantal zijden."
+  },
+  "G2-242": {
+    "title": "Tel de vlakken",
+    "instruction": "Schrijf op hoeveel platte vlakken elk lichaam heeft."
+  },
+  "G2-243": {
+    "title": "Lichamen om ons heen",
+    "instruction": "Trek een lijn van elk lichaam naar het voorwerp met die vorm."
+  },
+  "G2-244": {
+    "title": "Plat of ruimtelijk?",
+    "instruction": "Trek een lijn van elke vorm naar zijn bak: platte vormen links, lichamen rechts."
+  },
+  "G2-245": {
+    "title": "Tel de ribben",
+    "instruction": "Schrijf op hoeveel ribben elk lichaam heeft."
+  },
+  "G2-246": {
+    "title": "Tel de hoekpunten",
+    "instruction": "Schrijf op hoeveel hoekpunten elk lichaam heeft."
+  },
+  "G2-247": {
+    "title": "Spiegellijn?",
+    "instruction": "Is de stippellijn een spiegellijn? Omcirkel het vinkje of het kruisje."
+  },
+  "G2-248": {
+    "title": "Vind het spiegelplaatje",
+    "instruction": "Omcirkel het plaatje dat aan beide kanten gelijk is."
+  },
+  "G2-249": {
+    "title": "Hoe laat is het?",
+    "instruction": "Lees elke klok. Omcirkel de juiste tijd."
+  },
+  "G3-301": {
+    "title": "Grote roosters",
+    "instruction": "Tel de rijen plaatjes. Schrijf op hoeveel het er in totaal zijn."
+  },
+  "G3-302": {
+    "title": "Lastige groepen",
+    "instruction": "Tel de gelijke groepen. Maak de keersom af."
+  },
+  "G3-308": {
+    "title": "Keersprongen",
+    "instruction": "Volg de gelijke sprongen vanaf nul. Schrijf elk landingsgetal op."
+  },
+  "G3-309": {
+    "title": "Verdeel het",
+    "instruction": "Verdeel de stapel eerlijk over de bakken. Schrijf op hoeveel elk krijgt."
+  },
+  "G3-310": {
+    "title": "Spring terug naar nul",
+    "instruction": "Tel de gelijke sprongen terug naar nul. Schrijf op hoeveel sprongen het kost."
+  },
+  "G3-311": {
+    "title": "Keerfamilies",
+    "instruction": "Gebruik het rooster om alle vier de sommen af te maken."
+  },
+  "G3-312": {
+    "title": "De ontbrekende factor",
+    "instruction": "Kijk naar het rooster. Schrijf de ontbrekende factor op."
+  },
+  "G3-313": {
+    "title": "Tel de vierkanten",
+    "instruction": "Tel de vierkanten in de rechthoek. Maak de keersom af."
+  },
+  "G3-314": {
+    "title": "Draai het om",
+    "instruction": "Beide roosters tonen hetzelfde totaal. Maak beide sommen af."
+  },
+  "G3-315": {
+    "title": "Noem die breuk",
+    "instruction": "Schrijf de breuk op die de gekleurde delen tonen."
+  },
+  "G3-316": {
+    "title": "Kleur de breuk",
+    "instruction": "Kleur het juiste aantal delen om elke breuk te tonen."
+  },
+  "G3-317": {
+    "title": "Breuken op de lijn",
+    "instruction": "De stip wijst een breuk aan. Omcirkel welke."
+  },
+  "G3-318": {
+    "title": "Tweelingbreuken",
+    "instruction": "Trek een lijn van elk plaatje naar zijn bijbehorende breuk."
+  },
+  "G3-319": {
+    "title": "Welke is groter?",
+    "instruction": "Kijk naar beide staven. Omcirkel de grotere breuk."
+  },
+  "G3-320": {
+    "title": "Breuk van de groep",
+    "instruction": "Omcirkel de breuk van de plaatjes. Schrijf op hoeveel dat is."
+  },
+  "G3-321": {
+    "title": "Vind het geheel",
+    "instruction": "De kleine staaf is één deel. Omcirkel de staaf die het GEHEEL toont."
+  },
+  "G3-322": {
+    "title": "Gelijke maatjes",
+    "instruction": "Trek een lijn van elk plaatje naar zijn breuk."
+  },
+  "G3-323": {
+    "title": "Afronden op honderdtal",
+    "instruction": "Kijk naar de stip. Omcirkel het honderdtal waar het dichter bij ligt."
+  },
+  "G3-325": {
+    "title": "Duizendtallen strijd",
+    "instruction": "Vergelijk de getallen. Omcirkel het juiste teken."
+  },
+  "G3-326": {
+    "title": "Kraak het patroon",
+    "instruction": "Vind de regel van elke rij. Schrijf de ontbrekende getallen op."
+  },
+  "G3-327": {
+    "title": "Naar beneden",
+    "instruction": "De getallen krimpen met hetzelfde getal. Schrijf de ontbrekende op."
+  },
+  "G3-328": {
+    "title": "Getalmachines",
+    "instruction": "Elke machine past zijn regel op elk getal toe. Vul de ontbrekende in."
+  },
+  "G3-329": {
+    "title": "Grote sprongen tellen",
+    "instruction": "Vind de telregel. Schrijf elk ontbrekend getal op."
+  },
+  "G3-332": {
+    "title": "Grote schaalstaven",
+    "instruction": "Let op — de schaal telt met 5! Schrijf de waarde van elke staaf op."
+  },
+  "G3-333": {
+    "title": "Elk plaatje is 5",
+    "instruction": "Elk plaatje staat voor 5! Schrijf het echte aantal voor elke rij."
+  },
+  "G3-334": {
+    "title": "Bouw de grafiek",
+    "instruction": "Gebruik de tabel. Kleur voor elke waarde een staaf."
+  },
+  "G3-335": {
+    "title": "Halverwegemarkeringen",
+    "instruction": "Tel de kruisjes boven elk getal. Schrijf op hoeveel."
+  },
+  "G3-337": {
+    "title": "Loop langs de rand",
+    "instruction": "Tel de hokjesranden rond elke rechthoek. Schrijf de omtrek op."
+  },
+  "G3-338": {
+    "title": "Zelfde ruimte, nieuwe vorm",
+    "instruction": "Omcirkel de rechthoek die DEZELFDE hoeveelheid hokjes bedekt."
+  },
+  "G3-339": {
+    "title": "Zelfde hek, nieuwe tuin",
+    "instruction": "Omcirkel de rechthoek met DEZELFDE afstand eromheen."
+  },
+  "G3-340": {
+    "title": "Vierhoekenploeg",
+    "instruction": "Trek een lijn van elke vierhoek naar zijn familie."
+  },
+  "G3-341": {
+    "title": "Rechte hoeken zoeken",
+    "instruction": "Omcirkel elke RECHTE hoek (die met het kleine vierkantje)."
+  },
+  "G3-342": {
+    "title": "Hoeveel spiegellijnen?",
+    "instruction": "Schrijf op hoeveel spiegellijnen elke vorm heeft."
+  },
+  "G3-343": {
+    "title": "Gelijke stukken",
+    "instruction": "Omcirkel elke vorm die in GELIJKE stukken is gedeeld."
+  },
+  "G3-344": {
+    "title": "Hoeveel tijd verstreek?",
+    "instruction": "Vergelijk de twee klokken. Schrijf op hoeveel uur er verstreek."
+  },
+  "G3-345": {
+    "title": "Warm of koud?",
+    "instruction": "Lees elke thermometer. Schrijf de temperatuur op die hij toont."
+  },
+  "G3-346": {
+    "title": "Blokkentorens",
+    "instruction": "Tel alle blokken in elke toren. Schrijf het totaal op."
+  },
+  "G3-348": {
+    "title": "Grote plaatjessudoku",
+    "instruction": "Elke rij, kolom en blok heeft alle zes de plaatjes nodig — vul de lege vakjes in."
+  },
+  "G3-349": {
+    "title": "Magische vierkanten",
+    "instruction": "Elke rij en kolom telt op tot het magische getal. Vul de lege vakjes in."
+  },
+  "G3-350": {
+    "title": "Maak het in evenwicht",
+    "instruction": "Beide kanten moeten even zwaar zijn. Schrijf het ontbrekende getal op."
+  },
+  "G3-351": {
+    "title": "Wat maakt de puzzel af?",
+    "instruction": "Rijen delen een plaatje. Kolommen delen een formaat. Omcirkel wat in het lege vakje past."
+  },
+  "G3-353": {
+    "title": "Sorteren met twee cirkels",
+    "instruction": "Links: deze soort. Rechts: GROTE. Midden: allebei! Verbind elk plaatje met zijn plek."
+  }
+}

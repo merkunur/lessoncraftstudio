@@ -30,6 +30,7 @@ module.exports = {
     // via i18n/strings.<locale>.json; build() reads odd/even from here).
     de: { odd: 'ungerade', even: 'gerade' },
     es: { odd: 'impar', even: 'par' },
+    nl: { odd: 'oneven', even: 'even' },
   },
 
   build({ theme, difficulty, locale }, ctx) {

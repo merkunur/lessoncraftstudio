@@ -1,0 +1,29 @@
+{
+  "_note": "LITERACY beginning-sound (lit-sound-match). NATIVE PER LOCALE: each locale's words come from its gated approved-words-<locale>.json pool; `answer` is that locale's initial grapheme for the pictured word (de multigraph onsets are whole graphemes: Schaf->Sch, Stern->St, Spinne->Sp). Only color themes (no BW). en + de authored here (de = the Gate-2 hardest-phonics exemplar); the other 9 locales are authored at the native-ensemble fan.",
+  "items": {
+    "en": [
+      { "theme": "fruits", "noun": "apple", "answer": "A" },
+      { "theme": "toys", "noun": "ball", "answer": "B" },
+      { "theme": "pets", "noun": "cat", "answer": "C" },
+      { "theme": "animals", "noun": "dog", "answer": "D" },
+      { "theme": "animals", "noun": "fish", "answer": "F" },
+      { "theme": "clothing", "noun": "hat", "answer": "H" },
+      { "theme": "pets", "noun": "mouse", "answer": "M" },
+      { "theme": "animals", "noun": "pig", "answer": "P" },
+      { "theme": "weather", "noun": "sun", "answer": "S" },
+      { "theme": "vehicles", "noun": "bus", "answer": "B" }
+    ],
+    "de": [
+      { "theme": "fruits", "noun": "apple", "answer": "A" },
+      { "theme": "toys", "noun": "ball", "answer": "B" },
+      { "theme": "animals", "noun": "fish", "answer": "F" },
+      { "theme": "animals", "noun": "dog", "answer": "H" },
+      { "theme": "pets", "noun": "cat", "answer": "K" },
+      { "theme": "pets", "noun": "mouse", "answer": "M" },
+      { "theme": "weather", "noun": "sun", "answer": "S" },
+      { "theme": "farm animals", "noun": "sheep", "answer": "Sch" },
+      { "theme": "shapes", "noun": "star", "answer": "St" },
+      { "theme": "insects and bugs", "noun": "spider", "answer": "Sp" }
+    ]
+  }
+}

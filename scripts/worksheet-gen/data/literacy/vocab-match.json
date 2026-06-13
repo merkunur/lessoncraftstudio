@@ -1,0 +1,15 @@
+{
+  "_note": "LITERACY word↔picture (lit-vocab-match). NATIVE PER LOCALE from the gated pool: the printed word is the locale word paired with the noun's picture (de 'Katze' with a cat picture). Color themes only. en authored here; other locales at the native-ensemble fan.",
+  "pairs": {
+    "en": [
+      { "theme": "pets", "noun": "cat", "word": "cat" },
+      { "theme": "animals", "noun": "dog", "word": "dog" },
+      { "theme": "weather", "noun": "sun", "word": "sun" },
+      { "theme": "fruits", "noun": "apple", "word": "apple" },
+      { "theme": "animals", "noun": "fish", "word": "fish" },
+      { "theme": "toys", "noun": "ball", "word": "ball" },
+      { "theme": "vehicles", "noun": "bus", "word": "bus" },
+      { "theme": "shapes", "noun": "star", "word": "star" }
+    ]
+  }
+}

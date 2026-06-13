@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Addizionare e sottrarre con i gruppi di figure fa padroneggiare le operazioni in concreto, prima dei numeri astratti.",
     "short": "Addizioni e sottrazioni con le immagini."
+  },
+  "science-sort": {
+    "full": "Smistare le immagini nei gruppi giusti sviluppa l'osservazione e la classificazione, alla base delle scienze.",
+    "short": "Sviluppa osservazione e classificazione."
+  },
+  "science-sequence": {
+    "full": "Mettere in ordine le immagini aiuta i bambini a capire come gli esseri viventi crescono e cambiano nel tempo.",
+    "short": "Sviluppa la sequenza e i cicli di vita."
+  },
+  "science-match": {
+    "full": "Collegare ogni immagine alla sua coppia sviluppa il ragionamento per scoprire i legami nel mondo naturale.",
+    "short": "Sviluppa l'abbinamento e il ragionamento."
   }
 }

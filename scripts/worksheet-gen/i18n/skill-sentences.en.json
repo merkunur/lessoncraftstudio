@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Adding and subtracting with picture groups lets children master operations concretely before abstract numerals.",
     "short": "Concrete picture-based adding and subtracting."
+  },
+  "science-sort": {
+    "full": "Sorting pictures into the right groups builds the classifying and observing skills at the heart of early science.",
+    "short": "Builds classifying and observing skills."
+  },
+  "science-sequence": {
+    "full": "Putting the pictures in order helps young learners understand sequence and how living things grow and change over time.",
+    "short": "Builds sequencing and life-cycle skills."
+  },
+  "science-match": {
+    "full": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
+    "short": "Builds matching and reasoning skills."
   }
 }

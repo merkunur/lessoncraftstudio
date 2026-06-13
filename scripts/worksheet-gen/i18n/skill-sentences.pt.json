@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Somar e subtrair com grupos de figuras permite dominar as operações de forma concreta antes dos numerais abstratos.",
     "short": "Somar e subtrair com grupos de figuras."
+  },
+  "science-sort": {
+    "full": "Classificar as imagens nos grupos certos desenvolve a observação e a classificação, base das ciências da natureza.",
+    "short": "Desenvolve observação e classificação."
+  },
+  "science-sequence": {
+    "full": "Colocar as imagens na ordem certa ajuda as crianças a entender como os seres vivos crescem e mudam.",
+    "short": "Desenvolve a sequência e os ciclos de vida."
+  },
+  "science-match": {
+    "full": "Ligar cada imagem ao seu par desenvolve o raciocínio para descobrir conexões no mundo natural.",
+    "short": "Desenvolve a correspondência e o raciocínio."
   }
 }

@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "Att addera och subtrahera med bildgrupper låter barn bemästra räknesätten konkret före abstrakta siffror.",
     "short": "Konkret addition och subtraktion med bilder."
+  },
+  "science-sort": {
+    "full": "Att sortera bilder i rätt grupper utvecklar förmågan att observera och klassificera – grunden i de naturorienterande ämnena.",
+    "short": "Utvecklar att observera och sortera."
+  },
+  "science-sequence": {
+    "full": "Att lägga bilderna i rätt ordning hjälper barn att förstå hur levande saker växer och förändras.",
+    "short": "Utvecklar ordningsföljd och livscykler."
+  },
+  "science-match": {
+    "full": "Att para ihop varje bild med sin partner utvecklar tänkandet för att upptäcka samband i naturen.",
+    "short": "Utvecklar parning och tänkande."
   }
 }

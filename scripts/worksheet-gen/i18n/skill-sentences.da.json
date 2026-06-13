@@ -86,5 +86,17 @@
   "picture-arithmetic": {
     "full": "At lægge sammen og trække fra med billedgrupper lader børnene mestre regnearterne konkret, før de abstrakte tal kommer.",
     "short": "Konkret billedbaseret plus og minus i alt."
+  },
+  "science-sort": {
+    "full": "At sortere billeder i de rigtige grupper udvikler evnen til at observere og klassificere – grundlaget for natur/teknologi.",
+    "short": "Udvikler at observere og sortere."
+  },
+  "science-sequence": {
+    "full": "At lægge billederne i den rigtige rækkefølge hjælper børn med at forstå, hvordan levende ting vokser og ændrer sig.",
+    "short": "Udvikler rækkefølge og livscyklusser."
+  },
+  "science-match": {
+    "full": "At parre hvert billede med sin makker udvikler tænkningen til at opdage sammenhænge i naturen.",
+    "short": "Udvikler parring og tænkning."
   }
 }

@@ -1129,7 +1129,9 @@
       "free_interactive": "Fiche interactive gratuite",
       "for": "pour",
       "print_or_play_online": "Imprimer ou jouer en ligne",
-      "variant_label": "Série"
+      "variant_label": "Série",
+      "free_printable": "Fiche imprimable gratuite :",
+      "download_pdf": "Télécharger le PDF gratuit"
     },
     "deckCardAlt": {
       "withTheme": "Aperçu de la fiche {exerciseType} avec {theme} pour {level}",
@@ -1922,7 +1924,29 @@
     "kindergarten": "Activités pour la grande section de maternelle (5-7 ans) : lettres, nombres jusqu'à 10 et vocabulaire, selon les programmes de l'Éducation nationale.",
     "grade-1": "Fiches et jeux pour le CP (cours préparatoire) : lecture, écriture et calcul jusqu'à 20, conformes aux programmes officiels. PDF imprimables et jeux en ligne.",
     "grade-2": "Fiches et jeux pour le CE1 (cours élémentaire 1) : nombres jusqu'à 100, lecture et écriture, conformes aux programmes officiels. À imprimer ou en ligne.",
-    "grade-3": "Fiches et jeux pour le CE2 (cours élémentaire 2) : multiplication, lecture et écriture, conformes aux programmes officiels. PDF imprimables et activités interactives."
+    "grade-3": "Fiches et jeux pour le CE2 (cours élémentaire 2) : multiplication, lecture et écriture, conformes aux programmes officiels. PDF imprimables et activités interactives.",
+    "counting-pictures": "Fiches pour compter des images en maternelle : dénombrer des collections illustrées puis entourer ou écrire le bon nombre. PDF à imprimer, gratuit.",
+    "counting-frames": "Fiches de boîtes de dix pour la GS et le CP : compter les jetons, remplir les cases et construire les nombres jusqu'à 20. PDF à imprimer, gratuit.",
+    "tally-counting": "Fiches de comptage en bâtons pour la maternelle et le CP : compter des groupes d'images et les noter en bâtons par paquets de cinq. PDF à imprimer, gratuit.",
+    "number-charts": "Fiches de tableau des nombres pour la maternelle au CE1 : compléter les nombres manquants et repérer les suites de comptage. PDF à imprimer, gratuit.",
+    "comparing-numbers": "Fiches pour comparer les nombres du CP au CE2 : plus grand, plus petit ou égal avec des nombres jusqu'à 1000. PDF à imprimer, gratuit.",
+    "comparing-groups": "Fiches pour comparer les quantités en maternelle : dire quel groupe d'images a le plus, le moins ou autant. PDF à imprimer, gratuit.",
+    "comparing-sizes": "Fiches pour comparer les tailles en maternelle : grand et petit, long et court avec des paires d'images amusantes. PDF à imprimer, gratuit.",
+    "number-lines": "Fiches de droite numérique du CP au CE2 : avancer par bonds pour additionner et soustraire et placer les nombres dans l'ordre. PDF à imprimer, gratuit.",
+    "base-ten": "Fiches sur les dizaines et les unités pour le CP et le CE1 : lire les centaines, dizaines et unités et construire la numération. PDF à imprimer, gratuit.",
+    "telling-time": "Fiches pour lire l'heure du CP au CE2 : lire l'horloge à l'heure pile, à la demi-heure et aux cinq minutes, et dessiner les aiguilles. PDF à imprimer, gratuit.",
+    "fractions": "Fiches de fractions pour le CE1 et le CE2 : colorier, nommer et comparer les demis, les tiers et les quarts avec des formes claires. PDF à imprimer, gratuit.",
+    "graphing-data": "Fiches de graphiques et de données du CP au CE2 : lire et compléter des diagrammes en bâtons, pictogrammes et tableaux. PDF à imprimer, gratuit.",
+    "arrays-multiplication": "Fiches de multiplication en réseaux pour le CE1 et le CE2 : groupes égaux, additions répétées et réseaux en lignes et colonnes. PDF à imprimer, gratuit.",
+    "geometry": "Fiches de géométrie pour la maternelle au CE1 : nommer les formes, compter les côtés et les sommets et explorer la symétrie. PDF à imprimer, gratuit.",
+    "measurement": "Fiches de mesures pour la maternelle au CE1 : mesurer à la règle et avec des cubes, comparer des longueurs et lire des outils. PDF à imprimer, gratuit.",
+    "visual-logic": "Fiches de logique visuelle pour la maternelle au CE1 : sudoku illustré et grilles de raisonnement qui développent la déduction. PDF à imprimer, gratuit.",
+    "visual-discrimination": "Fiches de discrimination visuelle pour la maternelle : associer des ombres, repérer les images en miroir et trouver l'intrus. PDF à imprimer, gratuit.",
+    "visual-matching": "Fiches d'associations visuelles pour la maternelle : relier des images qui vont ensemble et apparier les paires semblables. PDF à imprimer, gratuit.",
+    "patterns": "Fiches de suites logiques pour la maternelle : prolonger des suites d'images AB, AAB et ABC et trouver la case manquante. PDF à imprimer, gratuit.",
+    "position-words": "Fiches pour se repérer dans l'espace en maternelle : sur, sous, à gauche, à droite, dedans et dehors à travers des scènes imagées. PDF à imprimer, gratuit.",
+    "sorting-categories": "Fiches pour trier par catégories en maternelle : ranger les images par groupes et expliquer ce qui va ensemble. PDF à imprimer, gratuit.",
+    "picture-arithmetic": "Fiches de calcul illustré pour la GS et le CP : additionner et soustraire avec des groupes d'images et compléter les nombres manquants. PDF à imprimer, gratuit."
   },
   "topicProse": {
     "animals": "Parcourez ici les fiches sur le theme des animaux, un univers familier que les enfants adorent. Le meme jeu d'images d'animaux revient au fil des activites : les enfants comptent, trient, associent, trouvent l'intrus et tracent leurs premieres lettres autour de ces personnages attachants. Un seul theme, de nombreuses competences travaillees, avec un support visuel rassurant qui motive les plus jeunes. Les activites conviennent de la maternelle aux debuts d'elementaire. Chaque fiche est gratuite a imprimer en PDF, avec une version interactive a jouer en ligne et un corrige. Combinez plusieurs fiches pour un parcours complet sur les animaux. Disponible dans les 11 langues que nous publions, cette serie reunit math et lecture autour d'un theme aime.",

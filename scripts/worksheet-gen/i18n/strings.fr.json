@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Compter et entourer",
+    "instruction": "Compte les images dans chaque case. Entoure le bon nombre."
+  },
+  "K-004": {
+    "title": "Compter sur la grille",
+    "instruction": "Compte les images dans la grille. Écris le nombre."
+  },
+  "K-005": {
+    "title": "Remplir la grille",
+    "instruction": "Dessine un point dans la grille pour chaque unité du nombre."
+  },
+  "K-006": {
+    "title": "Compter et écrire",
+    "instruction": "Compte les images dans chaque case. Écris le nombre."
+  },
+  "K-007": {
+    "title": "Compter et relier",
+    "instruction": "Compte les images. Trace un trait vers le bon nombre."
+  },
+  "K-008": {
+    "title": "Plus ou moins ?",
+    "instruction": "Regarde les deux groupes. Entoure le groupe qui en a le PLUS."
+  },
+  "K-009": {
+    "title": "Lequel en a le moins ?",
+    "instruction": "Regarde les deux groupes. Entoure le groupe qui en a le MOINS."
+  },
+  "K-010": {
+    "title": "Les groupes égaux",
+    "instruction": "Deux groupes ont le même nombre. Entoure-les tous les deux."
+  },
+  "K-011": {
+    "title": "Compter et colorier",
+    "instruction": "Colorie exactement autant d'images que le nombre l'indique."
+  },
+  "K-012": {
+    "title": "Un pour chacun",
+    "instruction": "Donne un partenaire à chacun. Trace un trait pour les relier un à un."
+  },
+  "K-013": {
+    "title": "Compter chaque sorte",
+    "instruction": "Compte chaque sorte d'image. Écris combien tu en trouves."
+  },
+  "K-014": {
+    "title": "Dessiner les bâtons",
+    "instruction": "Compte les images. Dessine les bâtons dans la case."
+  },
+  "K-015": {
+    "title": "Lire les bâtons",
+    "instruction": "Compte les bâtons. Écris le nombre."
+  },
+  "K-016": {
+    "title": "Pair ou impair ?",
+    "instruction": "Forme des paires ! S'il en reste un, le nombre est impair."
+  },
+  "K-017": {
+    "title": "Coup d'œil rapide !",
+    "instruction": "Ne compte pas un à un ! Regarde vite et entoure combien il y en a."
+  },
+  "K-018": {
+    "title": "Combien ? Vite !",
+    "instruction": "Regarde vite et entoure combien tu en vois."
+  },
+  "K-019": {
+    "title": "Nombres manquants à 10",
+    "instruction": "Compte le long de la bande. Écris chaque nombre manquant."
+  },
+  "K-020": {
+    "title": "Nombres manquants à 20",
+    "instruction": "Compte le long de la bande. Écris chaque nombre manquant."
+  },
+  "K-021": {
+    "title": "Avant et après",
+    "instruction": "Écris le nombre qui vient avant et celui qui vient après."
+  },
+  "K-022": {
+    "title": "Coincé au milieu",
+    "instruction": "Écris le nombre qui vient entre les deux."
+  },
+  "K-023": {
+    "title": "Décollage ! 10, 9, 8…",
+    "instruction": "Compte à l'envers. Écris chaque nombre manquant."
+  },
+  "K-024": {
+    "title": "Relier à la grille",
+    "instruction": "Trace un trait de chaque nombre vers sa grille."
+  },
+  "K-025": {
+    "title": "Relier aux bâtons",
+    "instruction": "Trace un trait de chaque nombre vers ses bâtons."
+  },
+  "K-027": {
+    "title": "Compter le quadrillage",
+    "instruction": "Compte les rangées d'images. Écris combien il y en a en tout."
+  },
+  "K-028": {
+    "title": "Combien en tout ?",
+    "instruction": "Compte les deux groupes ensemble. Écris combien il y en a en tout."
+  },
+  "K-029": {
+    "title": "Fais une bonne estimation !",
+    "instruction": "N'estime pas au hasard ! Entoure la meilleure estimation, puis vérifie en comptant."
+  },
+  "K-030": {
+    "title": "Premier, deuxième, troisième…",
+    "instruction": "Pars de la flèche. Entoure l'image à la position indiquée."
+  },
+  "K-031": {
+    "title": "Quelle position ?",
+    "instruction": "Pars de la flèche. Écris la position de chaque image marquée dans son cercle."
+  },
+  "K-032": {
+    "title": "Grand et petit",
+    "instruction": "Entoure le PLUS GRAND dans chaque rangée."
+  },
+  "K-033": {
+    "title": "Petit, moyen, grand",
+    "instruction": "Numérote les images de 1 (le plus petit) à 3 (le plus grand)."
+  },
+  "K-034": {
+    "title": "Du plus petit au plus grand",
+    "instruction": "Numérote les images de 1 (le plus petit) à 5 (le plus grand)."
+  },
+  "K-035": {
+    "title": "Grand et petit en hauteur",
+    "instruction": "Entoure le PLUS HAUT dans chaque rangée."
+  },
+  "K-036": {
+    "title": "Du plus bas au plus haut",
+    "instruction": "Numérote les images de 1 (le plus bas) à 4 (le plus haut)."
+  },
+  "K-037": {
+    "title": "Long et court",
+    "instruction": "Entoure le PLUS LONG dans chaque rangée."
+  },
+  "K-038": {
+    "title": "Lourd ou léger ?",
+    "instruction": "Pense à la vraie vie ! Entoure le PLUS LOURD."
+  },
+  "K-039": {
+    "title": "Pareil et différent",
+    "instruction": "Trois images sont pareilles. Entoure celle qui est différente."
+  },
+  "K-040": {
+    "title": "Les grands seulement",
+    "instruction": "Entoure chaque GRANDE image. Laisse les petites de côté."
+  },
+  "K-042": {
+    "title": "Faire le tri",
+    "instruction": "Trace un trait de chaque image vers le bac où elle va."
+  },
+  "K-043": {
+    "title": "Lequel est différent ?",
+    "instruction": "Regarde chaque rangée. Entoure l'image qui n'a pas sa place."
+  },
+  "K-044": {
+    "title": "La taille différente",
+    "instruction": "Regarde chaque rangée. Entoure celui qui a une taille différente."
+  },
+  "K-046": {
+    "title": "Qu'est-ce qui suit ?",
+    "instruction": "Regarde la suite. Entoure ce qui vient ensuite."
+  },
+  "K-047": {
+    "title": "Suites ABC",
+    "instruction": "Regarde la suite. Entoure ce qui vient ensuite."
+  },
+  "K-048": {
+    "title": "Suites AABB",
+    "instruction": "Regarde la suite. Entoure ce qui vient ensuite."
+  },
+  "K-049": {
+    "title": "Compléter la suite",
+    "instruction": "Une image manque. Entoure ce qui va dans la case vide."
+  },
+  "K-050": {
+    "title": "Suites grand et petit",
+    "instruction": "Regarde la suite. Entoure ce qui vient ensuite."
+  },
+  "K-052": {
+    "title": "Suites haut et bas",
+    "instruction": "Regarde la suite. Entoure ce qui vient ensuite."
+  },
+  "K-053": {
+    "title": "Suites qui grandissent",
+    "instruction": "La suite grandit. Entoure le groupe qui vient ensuite."
+  },
+  "K-057": {
+    "title": "Relier à l'ombre",
+    "instruction": "Trace un trait de chaque image vers son ombre."
+  },
+  "K-058": {
+    "title": "Trouver les paires",
+    "instruction": "Chaque image a un jumeau. Trace un trait entre chaque paire."
+  },
+  "K-059": {
+    "title": "Trouver et entourer",
+    "instruction": "Trouve chaque image comme celle de la case. Entoure-les toutes."
+  },
+  "K-060": {
+    "title": "Je vois…",
+    "instruction": "Regarde bien ! Compte chaque sorte et écris le nombre."
+  },
+  "K-061": {
+    "title": "Trouver les différences",
+    "instruction": "Compare les deux images. Entoure ce qui a changé à droite."
+  },
+  "K-062": {
+    "title": "Trouver les jumeaux",
+    "instruction": "Deux images sont exactement pareilles. Trouve-les et entoure-les."
+  },
+  "K-063": {
+    "title": "Miroir, miroir",
+    "instruction": "Entoure l'image qui montre le reflet du miroir."
+  },
+  "K-064": {
+    "title": "Sur, sous, à côté",
+    "instruction": "Entoure l'image qui est SUR la boîte."
+  },
+  "K-065": {
+    "title": "Gauche et droite",
+    "instruction": "Entoure chaque image à GAUCHE de la ligne."
+  },
+  "K-066": {
+    "title": "Haut, milieu, bas",
+    "instruction": "Entoure chaque image dans la rangée du MILIEU."
+  },
+  "K-067": {
+    "title": "Dedans et dehors",
+    "instruction": "Entoure chaque image qui est DEDANS la grande forme."
+  },
+  "K-068": {
+    "title": "Qu'est-ce qui complète ?",
+    "instruction": "Chaque rangée montre une sorte d'image. Entoure la pièce qui va dans la case vide."
+  },
+  "K-069": {
+    "title": "Qu'est-ce que c'est ?",
+    "instruction": "Seule une partie de l'image apparaît. Entoure l'image entière à laquelle elle appartient."
+  },
+  "K-070": {
+    "title": "Chasse aux formes",
+    "instruction": "Trouve chaque forme comme celle de la case. Entoure-les toutes."
+  },
+  "K-075": {
+    "title": "Compter les côtés",
+    "instruction": "Compte les côtés de chaque forme. Écris le nombre."
+  },
+  "K-076": {
+    "title": "Trier par côtés",
+    "instruction": "Trace un trait de chaque forme vers son nombre de côtés."
+  },
+  "K-077": {
+    "title": "Suites de formes",
+    "instruction": "Regarde la suite. Entoure la forme qui vient ensuite."
+  },
+  "K-078": {
+    "title": "Formes jumelles",
+    "instruction": "Chaque forme a un jumeau. Trace un trait entre chaque paire."
+  },
+  "K-079": {
+    "title": "Grandes et petites formes",
+    "instruction": "Entoure la PLUS GRANDE forme dans chaque rangée."
+  },
+  "K-080": {
+    "title": "Quelle forme est différente ?",
+    "instruction": "Regarde chaque rangée. Entoure la forme qui n'a pas sa place."
+  },
+  "G1-101": {
+    "title": "Additionner les images",
+    "instruction": "Compte les deux groupes. Écris combien il y en a en tout."
+  },
+  "G1-102": {
+    "title": "Addition d'images",
+    "instruction": "Compte les deux groupes. Écris combien il y en a en tout."
+  },
+  "G1-103": {
+    "title": "Barrer et soustraire",
+    "instruction": "Des images sont barrées. Écris combien il en reste."
+  },
+  "G1-104": {
+    "title": "Soustraction d'images",
+    "instruction": "Des images sont barrées. Écris combien il en reste."
+  },
+  "G1-105": {
+    "title": "Addition sur la grille",
+    "instruction": "Compte les deux couleurs. Écris la somme de l'addition."
+  },
+  "G1-106": {
+    "title": "Faire 10 !",
+    "instruction": "Combien de points en plus pour faire 10 ? Écris le nombre manquant."
+  },
+  "G1-110": {
+    "title": "Maths des dominos",
+    "instruction": "Compte les deux côtés du domino. Écris la somme."
+  },
+  "G1-111": {
+    "title": "Lancer et additionner",
+    "instruction": "Compte les points des deux dés. Écris la somme."
+  },
+  "G1-112": {
+    "title": "Additionner trois groupes",
+    "instruction": "Compte les trois groupes. Écris le total."
+  },
+  "G1-113": {
+    "title": "Familles de nombres",
+    "instruction": "Utilise les deux groupes pour finir les quatre opérations."
+  },
+  "G1-114": {
+    "title": "Plus, moins ou égal ?",
+    "instruction": "Compare les deux groupes. Entoure le bon signe."
+  },
+  "G1-115": {
+    "title": "Qu'est-ce qui manque ?",
+    "instruction": "Compte le groupe. Écris le nombre manquant pour atteindre le total."
+  },
+  "G1-116": {
+    "title": "Avance en comptant !",
+    "instruction": "Pars du point. Saute en avant et écris où tu atterris."
+  },
+  "G1-117": {
+    "title": "Recule en comptant !",
+    "instruction": "Pars du point. Saute en arrière et écris où tu atterris."
+  },
+  "G1-118": {
+    "title": "Saute sur la ligne !",
+    "instruction": "Pars du point. Compte les sauts. Écris le résultat de l'addition."
+  },
+  "G1-119": {
+    "title": "Saute en arrière",
+    "instruction": "Suis les sauts en arrière. Écris le résultat de la soustraction."
+  },
+  "G1-120": {
+    "title": "Dizaines et unités",
+    "instruction": "Compte les dizaines et les unités. Écris le nombre."
+  },
+  "G1-121": {
+    "title": "Bien construit",
+    "instruction": "Entoure les blocs qui montrent le nombre."
+  },
+  "G1-122": {
+    "title": "Combien de dizaines ?",
+    "instruction": "Compte les barres de dix. Termine l'opération."
+  },
+  "G1-123": {
+    "title": "Compter par dizaines",
+    "instruction": "Compte de 10 en 10. Écris chaque nombre manquant."
+  },
+  "G1-124": {
+    "title": "Compter par cinq",
+    "instruction": "Compte de 5 en 5. Écris chaque nombre manquant."
+  },
+  "G1-125": {
+    "title": "Compter par deux",
+    "instruction": "Compte de 2 en 2. Écris chaque nombre manquant."
+  },
+  "G1-126": {
+    "title": "Compter par groupes",
+    "instruction": "Chaque case a la même quantité. Compte par bonds et écris le total."
+  },
+  "G1-129": {
+    "title": "La grille des nombres",
+    "instruction": "Des nombres se cachent. Écris chaque nombre manquant dans sa case."
+  },
+  "G1-130": {
+    "title": "Colorier le chemin",
+    "instruction": "Deux cases colorées te montrent le départ. Colorie chaque nombre selon la même suite."
+  },
+  "G1-131": {
+    "title": "1 de plus, 1 de moins",
+    "instruction": "Écris le nombre qui a 1 de moins et celui qui a 1 de plus."
+  },
+  "G1-132": {
+    "title": "10 de plus, 10 de moins",
+    "instruction": "Écris le nombre qui a 10 de moins et celui qui a 10 de plus."
+  },
+  "G1-133": {
+    "title": "Étirer le nombre",
+    "instruction": "Regarde les blocs. Entoure la décomposition qui correspond."
+  },
+  "G1-135": {
+    "title": "Du plus petit",
+    "instruction": "Numérote-les 1, 2, 3 du plus petit au plus grand."
+  },
+  "G1-136": {
+    "title": "Du plus grand",
+    "instruction": "Numérote-les 1, 2, 3 du plus grand au plus petit."
+  },
+  "G1-137": {
+    "title": "Plus grand ou plus petit ?",
+    "instruction": "Compare les nombres. Entoure le bon signe."
+  },
+  "G1-138": {
+    "title": "Où habite-t-il ?",
+    "instruction": "Trouve le nombre sur la ligne. Entoure son point."
+  },
+  "G1-139": {
+    "title": "Carreau par carreau",
+    "instruction": "Chaque objet repose sur des carreaux. Compte-les et écris la longueur."
+  },
+  "G1-140": {
+    "title": "Du plus court au plus long",
+    "instruction": "Mesure chaque objet avec ses carreaux. Numérote de 1 (le plus court) à 3 (le plus long)."
+  },
+  "G1-141": {
+    "title": "Lire le graphique imagé",
+    "instruction": "Compte les images dans chaque rangée. Écris les nombres."
+  },
+  "G1-142": {
+    "title": "Le plus de tous",
+    "instruction": "Regarde le graphique. Entoure celui qui en a le PLUS."
+  },
+  "G1-143": {
+    "title": "Lire le graphique",
+    "instruction": "Lis chaque barre. Écris son nombre."
+  },
+  "G1-144": {
+    "title": "La barre la plus haute",
+    "instruction": "Regarde les barres. Entoure celle qui en a le plus."
+  },
+  "G1-146": {
+    "title": "Trier et compter",
+    "instruction": "Compte chaque sorte dans la bande. Écris les totaux dans le tableau."
+  },
+  "G1-147": {
+    "title": "Compter et représenter",
+    "instruction": "Lis les comptages. Colorie une case du graphique pour chacun."
+  },
+  "G1-148": {
+    "title": "À l'heure pile",
+    "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
+  },
+  "G1-149": {
+    "title": "Et demie ?",
+    "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
+  },
+  "G1-150": {
+    "title": "Horloges en paires",
+    "instruction": "Trace un trait de chaque horloge vers son heure numérique."
+  },
+  "G1-155": {
+    "title": "Il en manque deux !",
+    "instruction": "Deux images manquent. Trace un trait de chaque image vers sa case vide."
+  },
+  "G1-157": {
+    "title": "Casse-têtes en images",
+    "instruction": "Regarde la première paire. Entoure ce qui complète la deuxième de la même façon."
+  },
+  "G1-158": {
+    "title": "Sudoku d'images",
+    "instruction": "Chaque ligne, colonne et boîte a les quatre images — remplis chaque case vide."
+  },
+  "G1-160": {
+    "title": "Trois groupes",
+    "instruction": "Trace un trait de chaque image vers le bac où elle va."
+  },
+  "G2-203": {
+    "title": "Additionner les blocs",
+    "instruction": "Additionne les deux groupes de blocs. Écris le total."
+  },
+  "G2-205": {
+    "title": "Enlever les blocs",
+    "instruction": "Soustrais le deuxième groupe du premier. Écris la réponse."
+  },
+  "G2-206": {
+    "title": "Faire une dizaine !",
+    "instruction": "Entoure 10 unités pour grouper une dizaine. Écris combien de dizaines et d'unités."
+  },
+  "G2-207": {
+    "title": "Compter par trois",
+    "instruction": "Compte de 3 en 3. Écris chaque nombre manquant."
+  },
+  "G2-208": {
+    "title": "Compter par quatre",
+    "instruction": "Compte de 4 en 4. Écris chaque nombre manquant."
+  },
+  "G2-209": {
+    "title": "Additionner encore",
+    "instruction": "Chaque anneau contient la même quantité. Termine l'addition."
+  },
+  "G2-210": {
+    "title": "De l'addition au produit",
+    "instruction": "Compte les groupes égaux. Finis la multiplication."
+  },
+  "G2-211": {
+    "title": "Lignes et colonnes",
+    "instruction": "Compte les lignes et les colonnes. Finis la multiplication."
+  },
+  "G2-212": {
+    "title": "Choisir le quadrillage",
+    "instruction": "Entoure le quadrillage qui correspond à la multiplication."
+  },
+  "G2-213": {
+    "title": "Groupes faciles",
+    "instruction": "Compte les groupes égaux. Finis la multiplication."
+  },
+  "G2-216": {
+    "title": "Partager équitablement",
+    "instruction": "Partage le tas également dans les bacs. Écris combien chacun reçoit."
+  },
+  "G2-217": {
+    "title": "Combien de groupes ?",
+    "instruction": "Les anneaux forment des groupes égaux. Écris combien il y a de groupes."
+  },
+  "G2-218": {
+    "title": "Chasse aux impairs",
+    "instruction": "Entoure chaque nombre IMPAIR. Regarde le dernier chiffre pour décider."
+  },
+  "G2-219": {
+    "title": "Bataille de nombres",
+    "instruction": "Compare les nombres. Entoure le bon signe."
+  },
+  "G2-220": {
+    "title": "Les mettre en ordre",
+    "instruction": "Numérote-les de 1 à 4 du plus petit au plus grand."
+  },
+  "G2-221": {
+    "title": "Arrondis-le !",
+    "instruction": "Regarde le point. Entoure la dizaine la plus proche."
+  },
+  "G2-222": {
+    "title": "Lire les blocs",
+    "instruction": "Compte les centaines, dizaines et unités. Écris le nombre qu'ils montrent."
+  },
+  "G2-223": {
+    "title": "Centaines, dizaines, unités",
+    "instruction": "Regarde les blocs. Entoure la décomposition qui correspond."
+  },
+  "G2-224": {
+    "title": "Trier les positions",
+    "instruction": "Compte les blocs. Remplis le tableau de numération."
+  },
+  "G2-225": {
+    "title": "Détective des chiffres",
+    "instruction": "Regarde le chiffre souligné. Entoure sa valeur."
+  },
+  "G2-226": {
+    "title": "100 de plus, 100 de moins",
+    "instruction": "Écris le nombre qui a 100 de moins et celui qui a 100 de plus."
+  },
+  "G2-227": {
+    "title": "Relier aux blocs",
+    "instruction": "Entoure les blocs qui montrent le nombre."
+  },
+  "G2-228": {
+    "title": "Moitié et moitié",
+    "instruction": "Colorie une moitié de chaque forme."
+  },
+  "G2-229": {
+    "title": "Tiers et quarts",
+    "instruction": "Colorie la fraction de chaque forme."
+  },
+  "G2-230": {
+    "title": "Trouver la fraction",
+    "instruction": "Entoure la forme qui montre la fraction."
+  },
+  "G2-231": {
+    "title": "Amis des fractions",
+    "instruction": "Trace un trait de chaque image vers sa fraction."
+  },
+  "G2-232": {
+    "title": "Parts égales ?",
+    "instruction": "Entoure chaque forme coupée en parts ÉGALES."
+  },
+  "G2-233": {
+    "title": "Partager la collection",
+    "instruction": "Entoure la fraction des images. Écris combien cela fait."
+  },
+  "G2-234": {
+    "title": "Bien découper",
+    "instruction": "Entoure la forme qui montre la fraction."
+  },
+  "G2-235": {
+    "title": "Mesure-le !",
+    "instruction": "Chaque objet part de 0. Lis la règle et écris sa longueur en unités."
+  },
+  "G2-236": {
+    "title": "Combien plus long ?",
+    "instruction": "Mesure les deux objets. Écris de combien d'unités l'un est plus long."
+  },
+  "G2-237": {
+    "title": "Détective des graphiques",
+    "instruction": "Utilise le graphique pour répondre aux deux questions en images."
+  },
+  "G2-238": {
+    "title": "Chaque image compte double",
+    "instruction": "Chaque image vaut 2 ! Écris le vrai compte de chaque rangée."
+  },
+  "G2-239": {
+    "title": "Des bâtons au graphique",
+    "instruction": "Lis le tableau des bâtons. Colorie une barre pour chaque compte."
+  },
+  "G2-240": {
+    "title": "Lire le diagramme",
+    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien."
+  },
+  "G2-241": {
+    "title": "Trieur de formes",
+    "instruction": "Trace un trait de chaque forme vers son nombre de côtés."
+  },
+  "G2-242": {
+    "title": "Compter les faces",
+    "instruction": "Écris combien de faces plates a chaque solide."
+  },
+  "G2-243": {
+    "title": "Les solides autour de nous",
+    "instruction": "Trace un trait de chaque solide vers l'objet de sa forme."
+  },
+  "G2-244": {
+    "title": "Plat ou solide ?",
+    "instruction": "Trace un trait de chaque forme vers son bac : formes plates à gauche, solides à droite."
+  },
+  "G2-245": {
+    "title": "Compter les arêtes",
+    "instruction": "Écris combien d'arêtes a chaque solide."
+  },
+  "G2-246": {
+    "title": "Compter les sommets",
+    "instruction": "Écris combien de sommets a chaque solide."
+  },
+  "G2-247": {
+    "title": "Axe de symétrie ?",
+    "instruction": "La ligne en pointillés est-elle un axe de symétrie ? Entoure la coche ou la croix."
+  },
+  "G2-248": {
+    "title": "L'image symétrique",
+    "instruction": "Entoure l'image qui est pareille des deux côtés."
+  },
+  "G2-249": {
+    "title": "Quelle heure est-il ?",
+    "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
+  },
+  "G3-301": {
+    "title": "Grands quadrillages",
+    "instruction": "Compte les rangées d'images. Écris combien il y en a en tout."
+  },
+  "G3-302": {
+    "title": "Groupes rusés",
+    "instruction": "Compte les groupes égaux. Finis la multiplication."
+  },
+  "G3-308": {
+    "title": "Sauts de multiplication",
+    "instruction": "Suis les sauts égaux depuis zéro. Écris chaque nombre d'arrivée."
+  },
+  "G3-309": {
+    "title": "Diviser le tas",
+    "instruction": "Partage le tas également dans les bacs. Écris combien chacun reçoit."
+  },
+  "G3-310": {
+    "title": "Sauter jusqu'à zéro",
+    "instruction": "Compte les sauts égaux jusqu'à zéro. Écris combien de sauts il faut."
+  },
+  "G3-311": {
+    "title": "Familles de multiplication",
+    "instruction": "Utilise le quadrillage pour finir les quatre opérations."
+  },
+  "G3-312": {
+    "title": "Le facteur manquant",
+    "instruction": "Regarde le quadrillage. Écris le facteur manquant."
+  },
+  "G3-313": {
+    "title": "Compter les carrés",
+    "instruction": "Compte les carrés du rectangle. Finis la multiplication."
+  },
+  "G3-314": {
+    "title": "Retourner le quadrillage",
+    "instruction": "Les deux quadrillages ont le même total. Finis les deux opérations."
+  },
+  "G3-315": {
+    "title": "Nomme la fraction",
+    "instruction": "Écris la fraction que montrent les parts coloriées."
+  },
+  "G3-316": {
+    "title": "Colorier la fraction",
+    "instruction": "Colorie le bon nombre de parts pour montrer chaque fraction."
+  },
+  "G3-317": {
+    "title": "Fractions sur la ligne",
+    "instruction": "Le point marque une fraction. Entoure laquelle."
+  },
+  "G3-318": {
+    "title": "Fractions jumelles",
+    "instruction": "Trace un trait de chaque image vers la fraction qui correspond."
+  },
+  "G3-319": {
+    "title": "Laquelle est plus grande ?",
+    "instruction": "Regarde les deux barres. Entoure la plus grande fraction."
+  },
+  "G3-320": {
+    "title": "Fraction du groupe",
+    "instruction": "Entoure la fraction des images. Écris combien cela fait."
+  },
+  "G3-321": {
+    "title": "Trouver le tout",
+    "instruction": "La petite barre est une part. Entoure la barre qui montre le TOUT."
+  },
+  "G3-322": {
+    "title": "Partenaires égaux",
+    "instruction": "Trace un trait de chaque image vers sa fraction."
+  },
+  "G3-323": {
+    "title": "Arrondir à la centaine",
+    "instruction": "Regarde le point. Entoure la centaine la plus proche."
+  },
+  "G3-325": {
+    "title": "Duel des milliers",
+    "instruction": "Compare les nombres. Entoure le bon signe."
+  },
+  "G3-326": {
+    "title": "Trouve le motif",
+    "instruction": "Trouve la règle de chaque rangée. Écris les nombres manquants."
+  },
+  "G3-327": {
+    "title": "Ça descend !",
+    "instruction": "Les nombres baissent de la même quantité. Écris les nombres manquants."
+  },
+  "G3-328": {
+    "title": "Machines à nombres",
+    "instruction": "Chaque machine applique sa règle à chaque nombre. Écris ceux qui manquent."
+  },
+  "G3-329": {
+    "title": "Grands bonds de comptage",
+    "instruction": "Trouve la règle de comptage. Écris chaque nombre manquant."
+  },
+  "G3-332": {
+    "title": "Barres à grande échelle",
+    "instruction": "Attention — l'échelle compte de 5 en 5 ! Écris la valeur de chaque barre."
+  },
+  "G3-333": {
+    "title": "Chaque image vaut 5",
+    "instruction": "Chaque image vaut 5 ! Écris le vrai compte de chaque rangée."
+  },
+  "G3-334": {
+    "title": "Construire le graphique",
+    "instruction": "Utilise le tableau. Colorie une barre pour chaque valeur."
+  },
+  "G3-335": {
+    "title": "Marques de mi-chemin",
+    "instruction": "Compte les croix au-dessus de chaque nombre. Écris combien."
+  },
+  "G3-337": {
+    "title": "Le tour du contour",
+    "instruction": "Compte les unités autour de chaque rectangle. Écris le périmètre."
+  },
+  "G3-338": {
+    "title": "Même espace, autre forme",
+    "instruction": "Entoure le rectangle qui couvre le MÊME nombre de carrés."
+  },
+  "G3-339": {
+    "title": "Même clôture, autre jardin",
+    "instruction": "Entoure le rectangle qui a le MÊME tour."
+  },
+  "G3-340": {
+    "title": "L'équipe des quadrilatères",
+    "instruction": "Trace un trait de chaque forme à quatre côtés vers sa famille."
+  },
+  "G3-341": {
+    "title": "Chasse aux angles droits",
+    "instruction": "Entoure chaque angle DROIT (ceux avec le petit carré)."
+  },
+  "G3-342": {
+    "title": "Combien d'axes de symétrie ?",
+    "instruction": "Écris combien d'axes de symétrie a chaque forme."
+  },
+  "G3-343": {
+    "title": "Parts égales",
+    "instruction": "Entoure chaque forme coupée en parts ÉGALES."
+  },
+  "G3-344": {
+    "title": "Combien de temps passé ?",
+    "instruction": "Compare les deux horloges. Écris combien d'heures se sont passées."
+  },
+  "G3-345": {
+    "title": "Chaud ou froid ?",
+    "instruction": "Lis chaque thermomètre. Écris la température qu'il montre."
+  },
+  "G3-346": {
+    "title": "Tours de cubes",
+    "instruction": "Compte tous les cubes de chaque tour. Écris le total."
+  },
+  "G3-348": {
+    "title": "Grand sudoku d'images",
+    "instruction": "Chaque ligne, colonne et boîte a les six images — remplis les cases vides."
+  },
+  "G3-349": {
+    "title": "Carrés magiques",
+    "instruction": "Chaque ligne et colonne fait le nombre magique. Remplis les cases vides."
+  },
+  "G3-350": {
+    "title": "Faire l'équilibre",
+    "instruction": "Les deux côtés doivent peser pareil. Écris le nombre manquant."
+  },
+  "G3-351": {
+    "title": "Qu'est-ce qui complète ?",
+    "instruction": "Les lignes ont une image, les colonnes une taille. Entoure ce qui va dans la case vide."
+  },
+  "G3-353": {
+    "title": "Tri à deux cercles",
+    "instruction": "Gauche : cette sorte. Droite : les GRANDS. Milieu : les deux ! Relie chaque image."
+  }
+}

@@ -126,7 +126,14 @@ function makeBaseTenType(cfg) {
           const shown = s.split('').map((ch, k) =>
             `<span style="${k === idx ? 'text-decoration:underline;text-decoration-color:#F2784B;text-decoration-thickness:4px;color:#F2784B' : ''}">${ch}</span>`).join('');
           const wrongs = new Set([digit, value * 10].filter((w) => w !== value && w > 0));
-          if (wrongs.size < 2) wrongs.add(Math.max(1, Math.floor(value / 10)));
+          // Fallback distractor must not equal the correct value or repeat an
+          // existing wrong (units-place value 1 made floor(value/10)→1 === value,
+          // emitting two identical chips; surfaced at wave-001 verify).
+          let extra = Math.max(1, Math.floor(value / 10));
+          while (wrongs.size < 2) {
+            if (extra !== value && !wrongs.has(extra)) wrongs.add(extra);
+            else extra++;
+          }
           const chips = rng.shuffle([value, ...[...wrongs].slice(0, 2)]).map((c) =>
             `<span class="ws-chip" style="width:auto;min-width:70px;height:48px;font-size:22px;padding:0 12px;border-radius:24px" ` +
             `data-lcs-choice="${c}"${c === value ? ' data-lcs-correct="1"' : ''}>${c}</span>`).join('');

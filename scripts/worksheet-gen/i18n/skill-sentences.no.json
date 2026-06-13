@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Å telle vennlige bildegrupper bygger en-til-en-forståelse og den tidlige tallforståelsen bak en trygg start i matematikken.",
+    "short": "Bygger telling og tidlig tallforståelse."
+  },
+  "counting-frames": {
+    "full": "Tierrammen gir barna en tydelig visuell struktur for å telle, lage fem og lage ti — kjernen i tidlig tallforståelse.",
+    "short": "Bygger tallforståelse med en tierramme."
+  },
+  "tally-counting": {
+    "full": "Å notere antall med tellestreker lærer barna å organisere informasjon og telle effektivt i grupper på fem.",
+    "short": "Øv på å telle og notere med tellestreker."
+  },
+  "number-charts": {
+    "full": "Arbeid med hundreruta styrker tellerekkefølgen, hopptellingsmønstre og tidlig tenkning om plassverdi.",
+    "short": "Styrker tellerekkefølge og tallmønstre."
+  },
+  "comparing-numbers": {
+    "full": "Å sammenligne tall med større enn, mindre enn og lik bygger tankegangen om mengde som ligger bak all senere regning.",
+    "short": "Bygger trygg større- og mindre-enn-tenkning."
+  },
+  "comparing-groups": {
+    "full": "Å avgjøre hvilken gruppe som har flere, færre eller like mange bygger tidlige sammenligningsferdigheter før tallsymboler.",
+    "short": "Bygger tidlig flere-færre-like-sammenligning."
+  },
+  "comparing-sizes": {
+    "full": "Å sortere stor og liten, høy og lav, lang og lengst bygger størrelsesordene de yngste bruker hver eneste dag.",
+    "short": "Bygger ordforråd for stor-liten og høy-lav."
+  },
+  "number-lines": {
+    "full": "Å hoppe langs tallinja gjør addisjon, subtraksjon og tallrekkefølge synlig og konkret for de yngste elevene.",
+    "short": "Gjør pluss og minus synlig på tallinja."
+  },
+  "base-ten": {
+    "full": "Tiere og enere gjør abstrakt plassverdi til noe barna kan se og telle — hundrere, tiere og enere i ett blikk.",
+    "short": "Gjør plassverdi konkret med tiere og enere."
+  },
+  "telling-time": {
+    "full": "Å lese analog klokke til hel, halv og fem minutter bygger en livsferdighet barna er stolte av å mestre.",
+    "short": "Øv på å lese analog klokke med blide tall."
+  },
+  "fractions": {
+    "full": "Å skravere, navngi og sammenligne halve, tredeler og firedeler gir barna et konkret første møte med brøk.",
+    "short": "Et konkret første møte med halve og firedeler."
+  },
+  "graphing-data": {
+    "full": "Å lese søylediagram, bildediagram og tellestrek-tabeller lærer barna å organisere data og svare på spørsmål.",
+    "short": "Bygger tidlige dataferdigheter med diagram."
+  },
+  "arrays-multiplication": {
+    "full": "Bildematriser i rader og kolonner gjør gjentatt addisjon til grunnlaget for tenkning om ganging.",
+    "short": "Bygger gangetenkning med bildematriser."
+  },
+  "geometry": {
+    "full": "Å navngi former, telle sider og hjørner og utforske symmetri bygger det romlige språket i tidlig geometri.",
+    "short": "Bygger formnavn og tidlig geometritenkning."
+  },
+  "measurement": {
+    "full": "Å måle med linjal og enhetsklosser og sammenligne lengder bygger praktisk målesans steg for steg.",
+    "short": "Bygger praktisk målesans med linjal og klosser."
+  },
+  "visual-logic": {
+    "full": "Bildesudoku og resonneringsrutenett trener slutningsevnen — hver gåte har akkurat ett riktig svar å finne.",
+    "short": "Trener logisk slutning med bildegåter."
+  },
+  "visual-discrimination": {
+    "full": "Å finne skygger, speilbilder og det som ikke passer skjerper den visuelle oppmerksomheten bak flytende lesing.",
+    "short": "Skjerper visuell oppmerksomhet og blikk."
+  },
+  "visual-matching": {
+    "full": "Å matche bilder som hører sammen styrker visuell hukommelse og lik-ulik-tenkningen de yngste trenger hver dag.",
+    "short": "Styrker visuell parmatching og hukommelse."
+  },
+  "patterns": {
+    "full": "Å fortsette og fullføre bildemønstre bygger den algebraiske tenkningen som starter lenge før algebra.",
+    "short": "Bygger mønstergjenkjenning og tidlig algebra."
+  },
+  "position-words": {
+    "full": "Over, under, til venstre og høyre blir levende i bildescener som bygger romlig ordforråd og retningssans.",
+    "short": "Bygger plasseringsord og retningssans."
+  },
+  "sorting-categories": {
+    "full": "Å sortere bilder i kategorier bygger klassifiseringstenkningen barna bruker i matte, naturfag og lesing.",
+    "short": "Bygger sortering og klassifiseringstenkning."
+  },
+  "picture-arithmetic": {
+    "full": "Å legge sammen og trekke fra med bildegrupper lar barna mestre regneartene konkret før de abstrakte tallene.",
+    "short": "Konkret pluss og minus med bildegrupper."
+  }
+}

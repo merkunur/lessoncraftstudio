@@ -1093,7 +1093,8 @@
           "it": "contare-immagini",
           "pt": "contar-figuras",
           "sv": "rakna-bilder",
-          "da": "tael-billeder"
+          "da": "tael-billeder",
+          "no": "telle-bilder"
         },
         "name": {
           "en": "Counting Pictures",
@@ -1104,7 +1105,8 @@
           "it": "Contare con le immagini",
           "pt": "Contar figuras",
           "sv": "Räkna bilder",
-          "da": "Tæl billeder"
+          "da": "Tæl billeder",
+          "no": "Telle bilder"
         }
       },
       "counting-frames": {
@@ -1117,7 +1119,8 @@
           "it": "tabella-del-dieci",
           "pt": "quadro-de-dez",
           "sv": "tioram",
-          "da": "tierramme"
+          "da": "tierramme",
+          "no": "tierramme"
         },
         "name": {
           "en": "Ten Frames",
@@ -1128,7 +1131,8 @@
           "it": "Tabella del dieci",
           "pt": "Quadro de dez",
           "sv": "Tioramar",
-          "da": "Tierramme"
+          "da": "Tierramme",
+          "no": "Tierramme"
         }
       },
       "tally-counting": {
@@ -1141,7 +1145,8 @@
           "it": "conteggio-stanghette",
           "pt": "marcas-de-contagem",
           "sv": "rakna-med-streck",
-          "da": "tael-med-streger"
+          "da": "tael-med-streger",
+          "no": "tellestreker"
         },
         "name": {
           "en": "Tally Marks",
@@ -1152,7 +1157,8 @@
           "it": "Conteggio con le stanghette",
           "pt": "Marcas de contagem",
           "sv": "Räkna med streck",
-          "da": "Tæl med streger"
+          "da": "Tæl med streger",
+          "no": "Tellestreker"
         }
       },
       "number-charts": {
@@ -1165,7 +1171,8 @@
           "it": "tabella-dei-numeri",
           "pt": "quadro-numerico",
           "sv": "hundraruta",
-          "da": "hundredfelt"
+          "da": "hundredfelt",
+          "no": "hundrerute"
         },
         "name": {
           "en": "Number Charts",
@@ -1176,7 +1183,8 @@
           "it": "Tabella dei numeri",
           "pt": "Quadro numérico",
           "sv": "Hundraruta",
-          "da": "Hundredfelt"
+          "da": "Hundredfelt",
+          "no": "Hundrerute"
         }
       },
       "comparing-numbers": {
@@ -1189,7 +1197,8 @@
           "it": "confronto-numeri",
           "pt": "comparar-numeros",
           "sv": "jamfora-tal",
-          "da": "sammenlign-tal"
+          "da": "sammenlign-tal",
+          "no": "sammenligne-tall"
         },
         "name": {
           "en": "Comparing Numbers",
@@ -1200,7 +1209,8 @@
           "it": "Confronto tra numeri",
           "pt": "Comparar números",
           "sv": "Jämföra tal",
-          "da": "Sammenlign tal"
+          "da": "Sammenlign tal",
+          "no": "Sammenligne tall"
         }
       },
       "comparing-groups": {
@@ -1213,7 +1223,8 @@
           "it": "confronto-quantita",
           "pt": "comparar-grupos",
           "sv": "jamfora-mangder",
-          "da": "flest-faerrest"
+          "da": "flest-faerrest",
+          "no": "sammenligne-mengder"
         },
         "name": {
           "en": "Comparing Groups",
@@ -1224,7 +1235,8 @@
           "it": "Confronto tra quantità",
           "pt": "Comparar grupos",
           "sv": "Jämföra mängder",
-          "da": "Flest og færrest"
+          "da": "Flest og færrest",
+          "no": "Sammenligne mengder"
         }
       },
       "comparing-sizes": {
@@ -1237,7 +1249,8 @@
           "it": "confronto-grandezze",
           "pt": "comparar-tamanhos",
           "sv": "jamfora-storlekar",
-          "da": "stoerst-mindst"
+          "da": "stoerst-mindst",
+          "no": "sammenligne-storrelser"
         },
         "name": {
           "en": "Comparing Sizes",
@@ -1248,7 +1261,8 @@
           "it": "Confronto di grandezze",
           "pt": "Comparar tamanhos",
           "sv": "Jämföra storlekar",
-          "da": "Størst og mindst"
+          "da": "Størst og mindst",
+          "no": "Sammenligne størrelser"
         }
       },
       "number-lines": {
@@ -1261,7 +1275,8 @@
           "it": "linea-dei-numeri",
           "pt": "reta-numerica",
           "sv": "tallinje",
-          "da": "tallinje"
+          "da": "tallinje",
+          "no": "tallinje"
         },
         "name": {
           "en": "Number Lines",
@@ -1272,7 +1287,8 @@
           "it": "Linea dei numeri",
           "pt": "Reta numérica",
           "sv": "Tallinje",
-          "da": "Tallinje"
+          "da": "Tallinje",
+          "no": "Tallinje"
         }
       },
       "base-ten": {
@@ -1285,7 +1301,8 @@
           "it": "decine-e-unita",
           "pt": "valor-posicional",
           "sv": "tiotal-och-ental",
-          "da": "tiere-og-enere"
+          "da": "tiere-og-enere",
+          "no": "plassverdi"
         },
         "name": {
           "en": "Base Ten Blocks",
@@ -1296,7 +1313,8 @@
           "it": "Decine e unità",
           "pt": "Valor posicional",
           "sv": "Tiotal och ental",
-          "da": "Tiere og enere"
+          "da": "Tiere og enere",
+          "no": "Plassverdi (tiere og enere)"
         }
       },
       "telling-time": {
@@ -1309,7 +1327,8 @@
           "it": "leggere-l-orologio",
           "pt": "ver-as-horas",
           "sv": "klockan",
-          "da": "klokken"
+          "da": "klokken",
+          "no": "klokka"
         },
         "name": {
           "en": "Telling Time",
@@ -1320,7 +1339,8 @@
           "it": "Leggere l'orologio",
           "pt": "Ver as horas",
           "sv": "Klockan",
-          "da": "Hvad er klokken"
+          "da": "Hvad er klokken",
+          "no": "Lese klokka"
         }
       },
       "fractions": {
@@ -1333,7 +1353,8 @@
           "it": "frazioni",
           "pt": "fracoes",
           "sv": "brak",
-          "da": "broeker"
+          "da": "broeker",
+          "no": "brok"
         },
         "name": {
           "en": "Fractions",
@@ -1344,7 +1365,8 @@
           "it": "Frazioni",
           "pt": "Frações",
           "sv": "Bråk",
-          "da": "Brøker"
+          "da": "Brøker",
+          "no": "Brøk"
         }
       },
       "graphing-data": {
@@ -1357,7 +1379,8 @@
           "it": "grafici-e-dati",
           "pt": "graficos",
           "sv": "diagram",
-          "da": "diagrammer"
+          "da": "diagrammer",
+          "no": "diagram-og-data"
         },
         "name": {
           "en": "Graphs and Data",
@@ -1368,7 +1391,8 @@
           "it": "Grafici e dati",
           "pt": "Gráficos e dados",
           "sv": "Diagram",
-          "da": "Diagrammer og data"
+          "da": "Diagrammer og data",
+          "no": "Diagram og data"
         }
       },
       "arrays-multiplication": {
@@ -1381,7 +1405,8 @@
           "it": "schieramenti-moltiplicazione",
           "pt": "multiplicacao",
           "sv": "multiplikation-bilder",
-          "da": "gange-tabel"
+          "da": "gange-tabel",
+          "no": "ganging-med-rader"
         },
         "name": {
           "en": "Arrays and Multiplication",
@@ -1392,7 +1417,8 @@
           "it": "Schieramenti e moltiplicazione",
           "pt": "Multiplicação",
           "sv": "Multiplikation med bilder",
-          "da": "Gange og rækker"
+          "da": "Gange og rækker",
+          "no": "Ganging med rader"
         }
       },
       "geometry": {
@@ -1405,7 +1431,8 @@
           "it": "forme-geometriche",
           "pt": "geometria",
           "sv": "geometri",
-          "da": "geometri"
+          "da": "geometri",
+          "no": "geometri"
         },
         "name": {
           "en": "Geometry",
@@ -1416,7 +1443,8 @@
           "it": "Forme geometriche",
           "pt": "Geometria",
           "sv": "Geometri",
-          "da": "Geometri og former"
+          "da": "Geometri og former",
+          "no": "Geometri"
         }
       },
       "measurement": {
@@ -1429,7 +1457,8 @@
           "it": "misurazione",
           "pt": "medidas",
           "sv": "matning",
-          "da": "maaling"
+          "da": "maaling",
+          "no": "maling"
         },
         "name": {
           "en": "Measurement",
@@ -1440,7 +1469,8 @@
           "it": "Misurazione",
           "pt": "Medidas",
           "sv": "Mätning",
-          "da": "Måling"
+          "da": "Måling",
+          "no": "Måling"
         }
       },
       "visual-logic": {
@@ -1453,7 +1483,8 @@
           "it": "logica-visiva",
           "pt": "logica-visual",
           "sv": "logiska-pussel",
-          "da": "visuel-logik"
+          "da": "visuel-logik",
+          "no": "logiske-gater"
         },
         "name": {
           "en": "Visual Logic",
@@ -1464,7 +1495,8 @@
           "it": "Logica visiva",
           "pt": "Lógica visual",
           "sv": "Logiska pussel",
-          "da": "Visuel logik"
+          "da": "Visuel logik",
+          "no": "Logiske gåter"
         }
       },
       "visual-discrimination": {
@@ -1477,7 +1509,8 @@
           "it": "discriminazione-visiva",
           "pt": "discriminacao-visual",
           "sv": "visuell-perception",
-          "da": "find-forskellen"
+          "da": "find-forskellen",
+          "no": "finn-forskjeller"
         },
         "name": {
           "en": "Visual Discrimination",
@@ -1488,7 +1521,8 @@
           "it": "Discriminazione visiva",
           "pt": "Discriminação visual",
           "sv": "Visuell perception",
-          "da": "Find forskellen"
+          "da": "Find forskellen",
+          "no": "Visuell oppmerksomhet"
         }
       },
       "visual-matching": {
@@ -1501,7 +1535,8 @@
           "it": "abbinamenti-visivi",
           "pt": "associacao-visual",
           "sv": "para-ihop-bilder",
-          "da": "find-par"
+          "da": "find-par",
+          "no": "finn-par"
         },
         "name": {
           "en": "Visual Matching",
@@ -1512,7 +1547,8 @@
           "it": "Abbinamenti visivi",
           "pt": "Associação visual",
           "sv": "Para ihop bilder",
-          "da": "Find par"
+          "da": "Find par",
+          "no": "Finne par"
         }
       },
       "patterns": {
@@ -1525,7 +1561,8 @@
           "it": "sequenze-e-ritmi",
           "pt": "padroes",
           "sv": "monster",
-          "da": "monstre"
+          "da": "monstre",
+          "no": "monster"
         },
         "name": {
           "en": "Patterns",
@@ -1536,7 +1573,8 @@
           "it": "Sequenze e ritmi",
           "pt": "Padrões",
           "sv": "Mönster",
-          "da": "Mønstre"
+          "da": "Mønstre",
+          "no": "Mønster"
         }
       },
       "position-words": {
@@ -1549,7 +1587,8 @@
           "it": "indicatori-spaziali",
           "pt": "palavras-de-posicao",
           "sv": "lageord",
-          "da": "placering"
+          "da": "placering",
+          "no": "plassering-ord"
         },
         "name": {
           "en": "Position Words",
@@ -1560,7 +1599,8 @@
           "it": "Indicatori spaziali",
           "pt": "Palavras de posição",
           "sv": "Lägeord",
-          "da": "Placering og retning"
+          "da": "Placering og retning",
+          "no": "Plasseringsord"
         }
       },
       "sorting-categories": {
@@ -1573,7 +1613,8 @@
           "it": "classificare-categorie",
           "pt": "classificar-por-categorias",
           "sv": "sortera-kategorier",
-          "da": "sorter-i-grupper"
+          "da": "sorter-i-grupper",
+          "no": "sortere-i-grupper"
         },
         "name": {
           "en": "Sorting and Categorizing",
@@ -1584,7 +1625,8 @@
           "it": "Classificare per categorie",
           "pt": "Classificar por categorias",
           "sv": "Sortera i kategorier",
-          "da": "Sortér i grupper"
+          "da": "Sortér i grupper",
+          "no": "Sortere i grupper"
         }
       },
       "picture-arithmetic": {
@@ -1597,7 +1639,8 @@
           "it": "calcolo-con-immagini",
           "pt": "contas-ilustradas",
           "sv": "rakna-med-bilder",
-          "da": "billedregning"
+          "da": "billedregning",
+          "no": "regne-med-bilder"
         },
         "name": {
           "en": "Picture Math",
@@ -1608,7 +1651,8 @@
           "it": "Calcolo con le immagini",
           "pt": "Contas ilustradas",
           "sv": "Räkna med bilder",
-          "da": "Billedregning"
+          "da": "Billedregning",
+          "no": "Regne med bilder"
         }
       }
     },

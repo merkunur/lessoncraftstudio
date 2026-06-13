@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Contare simpatici insiemi di figure sviluppa la corrispondenza uno a uno e il primo senso del numero.",
+    "short": "Sviluppa il conteggio e il senso del numero."
+  },
+  "counting-frames": {
+    "full": "La tabella del dieci dà ai bambini una struttura visiva chiara per contare, fare il cinque e fare il dieci.",
+    "short": "Allena il numero con la tabella del dieci."
+  },
+  "tally-counting": {
+    "full": "Registrare le quantità con le stanghette insegna a organizzare i dati e a contare in fretta in gruppi da cinque.",
+    "short": "Conta e registra con le stanghette a gruppi."
+  },
+  "number-charts": {
+    "full": "Lavorare con la tabella dei numeri rafforza l'ordine del conteggio, i salti e il primo valore posizionale.",
+    "short": "Rafforza l'ordine e i ritmi dei numeri."
+  },
+  "comparing-numbers": {
+    "full": "Confrontare i numeri con maggiore, minore e uguale costruisce il senso delle quantità dietro ogni calcolo futuro.",
+    "short": "Allena il maggiore e il minore con sicurezza."
+  },
+  "comparing-groups": {
+    "full": "Decidere quale gruppo ha di più, di meno o uguale sviluppa il confronto prima ancora dei simboli numerici.",
+    "short": "Sviluppa il confronto di più, meno, uguale."
+  },
+  "comparing-sizes": {
+    "full": "Ordinare grande e piccolo, alto e basso, lungo e corto costruisce il lessico delle grandezze di ogni giorno.",
+    "short": "Allena il lessico di grande e piccolo."
+  },
+  "number-lines": {
+    "full": "Saltare lungo la linea dei numeri rende visibili e concreti l'addizione, la sottrazione e l'ordine dei numeri.",
+    "short": "Rende visibili le addizioni sulla linea."
+  },
+  "base-ten": {
+    "full": "I blocchi delle decine trasformano il valore posizionale in qualcosa da vedere e contare: centinaia, decine e unità.",
+    "short": "Rende concreto il valore posizionale dei numeri."
+  },
+  "telling-time": {
+    "full": "Leggere l'orologio analogico all'ora, alla mezza e ai cinque minuti regala un'abilità di vita di cui andare fieri.",
+    "short": "Allena a leggere l'orologio analogico."
+  },
+  "fractions": {
+    "full": "Colorare, nominare e confrontare metà, terzi e quarti offre ai bambini un primo sguardo concreto alle frazioni.",
+    "short": "Un primo sguardo a metà, terzi e quarti."
+  },
+  "graphing-data": {
+    "full": "Leggere istogrammi, ideogrammi e tabelle insegna ai bambini a organizzare i dati e a rispondere alle domande.",
+    "short": "Allena i primi dati con grafici e tabelle."
+  },
+  "arrays-multiplication": {
+    "full": "Gli schieramenti illustrati di righe e colonne trasformano l'addizione ripetuta nella base della moltiplicazione.",
+    "short": "Avvia alla moltiplicazione con gli schieramenti."
+  },
+  "geometry": {
+    "full": "Nominare le forme, contare lati e angoli ed esplorare la simmetria costruisce il lessico spaziale della geometria.",
+    "short": "Allena i nomi delle forme e la geometria."
+  },
+  "measurement": {
+    "full": "Misurare con righelli e cubetti unitari e confrontare le lunghezze costruisce un senso pratico della misura.",
+    "short": "Allena il senso pratico della misurazione."
+  },
+  "visual-logic": {
+    "full": "Il sudoku illustrato e le griglie di ragionamento allenano la deduzione: ogni puzzle ha un'unica risposta giusta.",
+    "short": "Allena la deduzione con i puzzle illustrati."
+  },
+  "visual-discrimination": {
+    "full": "Trovare ombre, immagini speculari e l'intruso affina la discriminazione visiva alla base di una lettura fluente.",
+    "short": "Affina la discriminazione visiva e l'attenzione."
+  },
+  "visual-matching": {
+    "full": "Abbinare le immagini collegate rafforza la memoria visiva e il ragionamento uguale-diverso di ogni giorno.",
+    "short": "Rafforza gli abbinamenti e la memoria visiva."
+  },
+  "patterns": {
+    "full": "Continuare e completare le sequenze di immagini sviluppa quel pensiero algebrico che nasce molto prima dell'algebra.",
+    "short": "Allena le sequenze e il pensiero algebrico."
+  },
+  "position-words": {
+    "full": "Sopra, sotto, destra e sinistra prendono vita in scene illustrate che costruiscono il lessico spaziale e l'orientamento.",
+    "short": "Allena gli indicatori spaziali e l'orientamento."
+  },
+  "sorting-categories": {
+    "full": "Classificare le immagini in categorie sviluppa quel pensiero che i bambini usano in matematica, scienze e lettura.",
+    "short": "Sviluppa l'ordinare e il classificare."
+  },
+  "picture-arithmetic": {
+    "full": "Addizionare e sottrarre con i gruppi di figure fa padroneggiare le operazioni in concreto, prima dei numeri astratti.",
+    "short": "Addizioni e sottrazioni con le immagini."
+  }
+}

@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Conta e cerchia",
+    "instruction": "Conta le immagini in ogni riquadro. Cerchia il numero giusto."
+  },
+  "K-004": {
+    "title": "Conta sulla griglia",
+    "instruction": "Conta le immagini nella griglia. Scrivi il numero."
+  },
+  "K-005": {
+    "title": "Riempi la griglia",
+    "instruction": "Disegna un puntino nella griglia per ogni unità che indica il numero."
+  },
+  "K-006": {
+    "title": "Conta e scrivi",
+    "instruction": "Conta le immagini in ogni riquadro. Scrivi il numero."
+  },
+  "K-007": {
+    "title": "Conta e collega",
+    "instruction": "Conta le immagini. Traccia una linea fino al numero giusto."
+  },
+  "K-008": {
+    "title": "Di più o di meno?",
+    "instruction": "Guarda i due gruppi. Cerchia il gruppo che ne ha DI PIÙ."
+  },
+  "K-009": {
+    "title": "Quale ne ha meno?",
+    "instruction": "Guarda i due gruppi. Cerchia il gruppo che ne ha DI MENO."
+  },
+  "K-010": {
+    "title": "Trova i gruppi uguali",
+    "instruction": "Due gruppi hanno lo stesso numero. Cerchia entrambi."
+  },
+  "K-011": {
+    "title": "Conta e colora",
+    "instruction": "Colora esattamente tante immagini quante ne indica il numero."
+  },
+  "K-012": {
+    "title": "Uno per ciascuno",
+    "instruction": "Dai un compagno a ciascuno. Collega uno a uno con una linea."
+  },
+  "K-013": {
+    "title": "Conta ogni tipo",
+    "instruction": "Conta ogni tipo di immagine. Scrivi quante ne trovi."
+  },
+  "K-014": {
+    "title": "Fai le stanghette",
+    "instruction": "Conta le immagini. Disegna le stanghette nel riquadro."
+  },
+  "K-015": {
+    "title": "Leggi le stanghette",
+    "instruction": "Conta le stanghette. Scrivi il numero."
+  },
+  "K-016": {
+    "title": "Pari o dispari?",
+    "instruction": "Fai le coppie! Se ne avanza uno, il numero è dispari."
+  },
+  "K-017": {
+    "title": "Occhio veloce!",
+    "instruction": "Non contare uno a uno! Guarda al volo e cerchia quanti sono."
+  },
+  "K-018": {
+    "title": "Quanti? Veloce!",
+    "instruction": "Guarda al volo e cerchia quanti ne vedi."
+  },
+  "K-019": {
+    "title": "Numeri mancanti al 10",
+    "instruction": "Conta lungo la striscia. Scrivi ogni numero mancante."
+  },
+  "K-020": {
+    "title": "Numeri mancanti al 20",
+    "instruction": "Conta lungo la striscia. Scrivi ogni numero mancante."
+  },
+  "K-021": {
+    "title": "Prima e dopo",
+    "instruction": "Scrivi il numero che viene prima e quello che viene dopo."
+  },
+  "K-022": {
+    "title": "Quale sta in mezzo?",
+    "instruction": "Scrivi il numero che sta in mezzo."
+  },
+  "K-023": {
+    "title": "Conto alla rovescia!",
+    "instruction": "Conta all'indietro. Scrivi ogni numero mancante."
+  },
+  "K-024": {
+    "title": "Abbina la griglia",
+    "instruction": "Traccia una linea da ogni numero alla sua griglia."
+  },
+  "K-025": {
+    "title": "Abbina le stanghette",
+    "instruction": "Traccia una linea da ogni numero alle sue stanghette."
+  },
+  "K-027": {
+    "title": "Conta lo schieramento",
+    "instruction": "Conta le file di immagini. Scrivi quante sono in tutto."
+  },
+  "K-028": {
+    "title": "Quanti in tutto?",
+    "instruction": "Conta insieme i due gruppi. Scrivi quanti sono in tutto."
+  },
+  "K-029": {
+    "title": "Indovina bene!",
+    "instruction": "Non contare! Cerchia la stima migliore, poi controlla contando."
+  },
+  "K-030": {
+    "title": "Primo, secondo, terzo",
+    "instruction": "Parti dalla freccia. Cerchia l'immagine nella posizione indicata."
+  },
+  "K-031": {
+    "title": "Che posizione è?",
+    "instruction": "Parti dalla freccia. Scrivi la posizione di ogni immagine segnata."
+  },
+  "K-032": {
+    "title": "Grande e piccolo",
+    "instruction": "Cerchia quello PIÙ GRANDE in ogni fila."
+  },
+  "K-033": {
+    "title": "Piccolo, medio, grande",
+    "instruction": "Numera le immagini da 1 (più piccolo) a 3 (più grande)."
+  },
+  "K-034": {
+    "title": "Dal piccolo al grande",
+    "instruction": "Numera le immagini da 1 (più piccolo) a 5 (più grande)."
+  },
+  "K-035": {
+    "title": "Alto e basso",
+    "instruction": "Cerchia quello PIÙ ALTO in ogni fila."
+  },
+  "K-036": {
+    "title": "Dal basso all'alto",
+    "instruction": "Numera le immagini da 1 (più basso) a 4 (più alto)."
+  },
+  "K-037": {
+    "title": "Lungo e corto",
+    "instruction": "Cerchia quello PIÙ LUNGO in ogni fila."
+  },
+  "K-038": {
+    "title": "Pesante o leggero?",
+    "instruction": "Pensa alla vita reale! Cerchia quello PIÙ PESANTE."
+  },
+  "K-039": {
+    "title": "Uguale e diverso",
+    "instruction": "Tre immagini sono uguali. Cerchia quella diversa."
+  },
+  "K-040": {
+    "title": "Solo i grandi",
+    "instruction": "Cerchia ogni immagine GRANDE. Lascia stare quelle piccole."
+  },
+  "K-042": {
+    "title": "Metti in ordine",
+    "instruction": "Traccia una linea da ogni immagine al contenitore giusto."
+  },
+  "K-043": {
+    "title": "Quale è diverso?",
+    "instruction": "Guarda ogni fila. Cerchia l'immagine che non c'entra."
+  },
+  "K-044": {
+    "title": "Trova la grandezza diversa",
+    "instruction": "Guarda ogni fila. Cerchia quello di grandezza diversa."
+  },
+  "K-046": {
+    "title": "Cosa viene dopo?",
+    "instruction": "Guarda la sequenza. Cerchia cosa viene dopo."
+  },
+  "K-047": {
+    "title": "Sequenze ABC",
+    "instruction": "Guarda la sequenza. Cerchia cosa viene dopo."
+  },
+  "K-048": {
+    "title": "Sequenze AABB",
+    "instruction": "Guarda la sequenza. Cerchia cosa viene dopo."
+  },
+  "K-049": {
+    "title": "Completa la sequenza",
+    "instruction": "Manca un'immagine. Cerchia cosa va nel riquadro vuoto."
+  },
+  "K-050": {
+    "title": "Sequenze grande-piccolo",
+    "instruction": "Guarda la sequenza. Cerchia cosa viene dopo."
+  },
+  "K-052": {
+    "title": "Sequenze su e giù",
+    "instruction": "Guarda la sequenza. Cerchia cosa viene dopo."
+  },
+  "K-053": {
+    "title": "Sequenze crescenti",
+    "instruction": "La sequenza cresce. Cerchia il gruppo che viene dopo."
+  },
+  "K-057": {
+    "title": "Abbina l'ombra",
+    "instruction": "Traccia una linea da ogni immagine alla sua ombra."
+  },
+  "K-058": {
+    "title": "Trova le coppie",
+    "instruction": "Ogni immagine ha un gemello. Collega ogni coppia con una linea."
+  },
+  "K-059": {
+    "title": "Trova e cerchia",
+    "instruction": "Trova ogni immagine uguale a quella nel riquadro. Cerchiale tutte."
+  },
+  "K-060": {
+    "title": "Indovina chi vedo",
+    "instruction": "Guarda bene! Conta ogni tipo e scrivi il numero."
+  },
+  "K-061": {
+    "title": "Trova le differenze",
+    "instruction": "Confronta le due immagini. Cerchia cosa è cambiato a destra."
+  },
+  "K-062": {
+    "title": "Trova i gemelli",
+    "instruction": "Due immagini sono identiche. Trovale e cerchiale entrambe."
+  },
+  "K-063": {
+    "title": "Specchio, specchio",
+    "instruction": "Cerchia l'immagine che mostra il riflesso allo specchio."
+  },
+  "K-064": {
+    "title": "Sopra, sotto, accanto",
+    "instruction": "Cerchia l'immagine che sta SOPRA la scatola."
+  },
+  "K-065": {
+    "title": "Sinistra e destra",
+    "instruction": "Cerchia ogni immagine a SINISTRA della linea."
+  },
+  "K-066": {
+    "title": "Su, in mezzo, giù",
+    "instruction": "Cerchia ogni immagine nella fila DI MEZZO."
+  },
+  "K-067": {
+    "title": "Dentro e fuori",
+    "instruction": "Cerchia ogni immagine DENTRO la forma grande."
+  },
+  "K-068": {
+    "title": "Cosa riempie il vuoto?",
+    "instruction": "Ogni fila mostra un tipo di immagine. Cerchia il pezzo che riempie il vuoto."
+  },
+  "K-069": {
+    "title": "Cosa è?",
+    "instruction": "Si vede solo una parte. Cerchia l'immagine intera a cui appartiene."
+  },
+  "K-070": {
+    "title": "Caccia alle forme",
+    "instruction": "Trova ogni forma uguale a quella nel riquadro. Cerchiale tutte."
+  },
+  "K-075": {
+    "title": "Conta i lati",
+    "instruction": "Conta i lati di ogni forma. Scrivi il numero."
+  },
+  "K-076": {
+    "title": "Ordina per lati",
+    "instruction": "Traccia una linea da ogni forma al suo numero di lati."
+  },
+  "K-077": {
+    "title": "Sequenze di forme",
+    "instruction": "Guarda la sequenza. Cerchia la forma che viene dopo."
+  },
+  "K-078": {
+    "title": "Forme gemelle",
+    "instruction": "Ogni forma ha un gemello. Collega ogni coppia con una linea."
+  },
+  "K-079": {
+    "title": "Forme grandi e piccole",
+    "instruction": "Cerchia la forma PIÙ GRANDE in ogni fila."
+  },
+  "K-080": {
+    "title": "Quale forma è diversa?",
+    "instruction": "Guarda ogni fila. Cerchia la forma che non c'entra."
+  },
+  "G1-101": {
+    "title": "Addiziona le immagini",
+    "instruction": "Conta i due gruppi. Scrivi quanti sono in tutto."
+  },
+  "G1-102": {
+    "title": "Addizione con immagini",
+    "instruction": "Conta i due gruppi. Scrivi quanti sono in tutto."
+  },
+  "G1-103": {
+    "title": "Barra e sottrai",
+    "instruction": "Alcune immagini sono barrate. Scrivi quante ne restano."
+  },
+  "G1-104": {
+    "title": "Sottrazione con immagini",
+    "instruction": "Alcune immagini sono barrate. Scrivi quante ne restano."
+  },
+  "G1-105": {
+    "title": "Addizione sulla griglia",
+    "instruction": "Conta i due colori. Scrivi il risultato dell'addizione."
+  },
+  "G1-106": {
+    "title": "Fai 10!",
+    "instruction": "Quanti puntini in più per fare 10? Scrivi il numero mancante."
+  },
+  "G1-110": {
+    "title": "Matematica col domino",
+    "instruction": "Conta i due lati del domino. Scrivi la somma."
+  },
+  "G1-111": {
+    "title": "Lancia e addiziona",
+    "instruction": "Conta i puntini sui due dadi. Scrivi la somma."
+  },
+  "G1-112": {
+    "title": "Addiziona tre gruppi",
+    "instruction": "Conta tutti e tre i gruppi. Scrivi il totale."
+  },
+  "G1-113": {
+    "title": "Famiglie di numeri",
+    "instruction": "Usa i due gruppi per completare le quattro operazioni."
+  },
+  "G1-114": {
+    "title": "Maggiore, minore o uguale?",
+    "instruction": "Confronta i due gruppi. Cerchia il simbolo giusto."
+  },
+  "G1-115": {
+    "title": "Cosa manca?",
+    "instruction": "Conta il gruppo. Scrivi il numero mancante per arrivare al totale."
+  },
+  "G1-116": {
+    "title": "Conta in avanti!",
+    "instruction": "Parti dal puntino. Salta in avanti e scrivi dove arrivi."
+  },
+  "G1-117": {
+    "title": "Conta all'indietro!",
+    "instruction": "Parti dal puntino. Salta all'indietro e scrivi dove arrivi."
+  },
+  "G1-118": {
+    "title": "Salta sulla linea!",
+    "instruction": "Parti dal puntino. Conta i salti. Scrivi il risultato dell'addizione."
+  },
+  "G1-119": {
+    "title": "Salta indietro e sottrai",
+    "instruction": "Segui i salti all'indietro. Scrivi il risultato della sottrazione."
+  },
+  "G1-120": {
+    "title": "Decine e unità",
+    "instruction": "Conta le decine e le unità. Scrivi il numero."
+  },
+  "G1-121": {
+    "title": "Costruisci giusto",
+    "instruction": "Cerchia i blocchi che mostrano il numero."
+  },
+  "G1-122": {
+    "title": "Quante decine?",
+    "instruction": "Conta le barre delle decine. Completa l'operazione."
+  },
+  "G1-123": {
+    "title": "Conta per dieci",
+    "instruction": "Conta saltando di 10. Scrivi ogni numero mancante."
+  },
+  "G1-124": {
+    "title": "Conta per cinque",
+    "instruction": "Conta saltando di 5. Scrivi ogni numero mancante."
+  },
+  "G1-125": {
+    "title": "Conta per due",
+    "instruction": "Conta saltando di 2. Scrivi ogni numero mancante."
+  },
+  "G1-126": {
+    "title": "Conta a gruppi",
+    "instruction": "Ogni riquadro ha la stessa quantità. Conta a salti e scrivi il totale."
+  },
+  "G1-129": {
+    "title": "La tavola del cento",
+    "instruction": "Alcuni numeri si nascondono. Scrivi ogni numero mancante nel suo riquadro."
+  },
+  "G1-130": {
+    "title": "Colora il percorso",
+    "instruction": "Due riquadri sono già colorati. Colora ogni numero con lo stesso ritmo di conteggio."
+  },
+  "G1-131": {
+    "title": "1 in più, 1 in meno",
+    "instruction": "Scrivi il numero con 1 in meno e quello con 1 in più."
+  },
+  "G1-132": {
+    "title": "10 in più, 10 in meno",
+    "instruction": "Scrivi il numero con 10 in meno e quello con 10 in più."
+  },
+  "G1-133": {
+    "title": "Allunga il numero",
+    "instruction": "Guarda i blocchi. Cerchia la forma estesa corrispondente."
+  },
+  "G1-135": {
+    "title": "Prima il più piccolo",
+    "instruction": "Numerali 1, 2, 3 dal più piccolo al più grande."
+  },
+  "G1-136": {
+    "title": "Prima il più grande",
+    "instruction": "Numerali 1, 2, 3 dal più grande al più piccolo."
+  },
+  "G1-137": {
+    "title": "Maggiore o minore?",
+    "instruction": "Confronta i numeri. Cerchia il simbolo giusto."
+  },
+  "G1-138": {
+    "title": "Dove abita il numero?",
+    "instruction": "Trova il numero sulla linea. Cerchia il suo puntino."
+  },
+  "G1-139": {
+    "title": "Quadretto per quadretto",
+    "instruction": "Ogni oggetto poggia su quadretti. Contali e scrivi la lunghezza."
+  },
+  "G1-140": {
+    "title": "Dal corto al lungo",
+    "instruction": "Misura ogni oggetto coi quadretti. Numerali da 1 (più corto) a 3 (più lungo)."
+  },
+  "G1-141": {
+    "title": "Leggi l'ideogramma",
+    "instruction": "Conta le immagini in ogni fila. Scrivi i numeri."
+  },
+  "G1-142": {
+    "title": "Più di tutti",
+    "instruction": "Guarda il grafico. Cerchia quello che ne ha DI PIÙ."
+  },
+  "G1-143": {
+    "title": "Leggi il grafico a barre",
+    "instruction": "Leggi ogni barra. Scrivi il suo numero."
+  },
+  "G1-144": {
+    "title": "La barra più alta",
+    "instruction": "Guarda le barre. Cerchia quella più alta."
+  },
+  "G1-146": {
+    "title": "Ordina e conta",
+    "instruction": "Conta ogni tipo nella striscia. Scrivi i totali nella tabella."
+  },
+  "G1-147": {
+    "title": "Conta e fai il grafico",
+    "instruction": "Leggi i conteggi. Colora un riquadro nel grafico per ognuno."
+  },
+  "G1-148": {
+    "title": "In punto",
+    "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
+  },
+  "G1-149": {
+    "title": "Che ora e mezza?",
+    "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
+  },
+  "G1-150": {
+    "title": "Orologi a coppie",
+    "instruction": "Traccia una linea da ogni orologio alla sua ora digitale."
+  },
+  "G1-155": {
+    "title": "Ne mancano due!",
+    "instruction": "Mancano due immagini. Collega ogni immagine al suo riquadro vuoto."
+  },
+  "G1-157": {
+    "title": "Rebus di immagini",
+    "instruction": "Guarda la prima coppia. Cerchia cosa completa la seconda allo stesso modo."
+  },
+  "G1-158": {
+    "title": "Sudoku di immagini",
+    "instruction": "Ogni fila, colonna e riquadro vuole tutte e quattro le immagini: completa le celle vuote."
+  },
+  "G1-160": {
+    "title": "Tre gruppi",
+    "instruction": "Traccia una linea da ogni immagine al contenitore giusto."
+  },
+  "G2-203": {
+    "title": "Addiziona i blocchi",
+    "instruction": "Addiziona i due gruppi di blocchi. Scrivi il totale."
+  },
+  "G2-205": {
+    "title": "Togli i blocchi",
+    "instruction": "Sottrai il secondo gruppo dal primo. Scrivi il risultato."
+  },
+  "G2-206": {
+    "title": "Forma una decina!",
+    "instruction": "Cerchia 10 unità per fare una decina. Scrivi quante decine e unità."
+  },
+  "G2-207": {
+    "title": "Conta per tre",
+    "instruction": "Conta saltando di 3. Scrivi ogni numero mancante."
+  },
+  "G2-208": {
+    "title": "Conta per quattro",
+    "instruction": "Conta saltando di 4. Scrivi ogni numero mancante."
+  },
+  "G2-209": {
+    "title": "Addiziona di nuovo",
+    "instruction": "Ogni cerchio ha la stessa quantità. Completa l'addizione."
+  },
+  "G2-210": {
+    "title": "Dall'addizione al per",
+    "instruction": "Conta i gruppi uguali. Completa la moltiplicazione."
+  },
+  "G2-211": {
+    "title": "Righe e colonne",
+    "instruction": "Conta le righe e le colonne. Completa la moltiplicazione."
+  },
+  "G2-212": {
+    "title": "Scegli lo schieramento",
+    "instruction": "Cerchia lo schieramento che corrisponde alla moltiplicazione."
+  },
+  "G2-213": {
+    "title": "Gruppi facili",
+    "instruction": "Conta i gruppi uguali. Completa la moltiplicazione."
+  },
+  "G2-216": {
+    "title": "Dividi equamente",
+    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne tocca a ognuno."
+  },
+  "G2-217": {
+    "title": "Quanti gruppi?",
+    "instruction": "I cerchi formano gruppi uguali. Scrivi quanti gruppi ci sono."
+  },
+  "G2-218": {
+    "title": "Caccia ai dispari",
+    "instruction": "Cerchia ogni numero DISPARI. Guarda l'ultima cifra per decidere."
+  },
+  "G2-219": {
+    "title": "Sfida tra numeri",
+    "instruction": "Confronta i numeri. Cerchia il simbolo giusto."
+  },
+  "G2-220": {
+    "title": "Mettili in fila",
+    "instruction": "Numerali da 1 a 4 dal più piccolo al più grande."
+  },
+  "G2-221": {
+    "title": "Arrotonda!",
+    "instruction": "Guarda il puntino. Cerchia la decina a cui è più vicino."
+  },
+  "G2-222": {
+    "title": "Leggi i blocchi",
+    "instruction": "Conta le centinaia, le decine e le unità. Scrivi il numero che mostrano."
+  },
+  "G2-223": {
+    "title": "Centinaia, decine, unità",
+    "instruction": "Guarda i blocchi. Cerchia la forma estesa corrispondente."
+  },
+  "G2-224": {
+    "title": "Ordina i posti",
+    "instruction": "Conta i blocchi. Completa la tabella del valore posizionale."
+  },
+  "G2-225": {
+    "title": "Detective di cifre",
+    "instruction": "Guarda la cifra sottolineata. Cerchia il suo valore."
+  },
+  "G2-226": {
+    "title": "100 in più, 100 in meno",
+    "instruction": "Scrivi il numero con 100 in meno e quello con 100 in più."
+  },
+  "G2-227": {
+    "title": "Abbina i blocchi",
+    "instruction": "Cerchia i blocchi che mostrano il numero."
+  },
+  "G2-228": {
+    "title": "Metà e metà",
+    "instruction": "Colora la metà di ogni forma."
+  },
+  "G2-229": {
+    "title": "Terzi e quarti",
+    "instruction": "Colora la frazione di ogni forma."
+  },
+  "G2-230": {
+    "title": "Trova la frazione",
+    "instruction": "Cerchia la forma che mostra la frazione."
+  },
+  "G2-231": {
+    "title": "Amiche frazioni",
+    "instruction": "Traccia una linea da ogni immagine alla sua frazione."
+  },
+  "G2-232": {
+    "title": "Parti uguali?",
+    "instruction": "Cerchia ogni forma divisa in parti UGUALI."
+  },
+  "G2-233": {
+    "title": "Dividi l'insieme",
+    "instruction": "Cerchia la frazione delle immagini. Scrivi quante sono."
+  },
+  "G2-234": {
+    "title": "Taglia giusto",
+    "instruction": "Cerchia la forma che mostra la frazione."
+  },
+  "G2-235": {
+    "title": "Misura!",
+    "instruction": "Ogni oggetto parte da 0. Leggi il righello e scrivi quante unità è lungo."
+  },
+  "G2-236": {
+    "title": "Quanto più lungo?",
+    "instruction": "Misura entrambi gli oggetti. Scrivi di quante unità è più lungo uno."
+  },
+  "G2-237": {
+    "title": "Detective dei grafici",
+    "instruction": "Usa il grafico per risolvere le due domande con le immagini."
+  },
+  "G2-238": {
+    "title": "Ogni immagine vale due",
+    "instruction": "Ogni immagine vale 2! Scrivi il conteggio reale di ogni fila."
+  },
+  "G2-239": {
+    "title": "Dalle stanghette al grafico",
+    "instruction": "Leggi la tabella delle stanghette. Colora una barra per ogni conteggio."
+  },
+  "G2-240": {
+    "title": "Leggi il grafico a punti",
+    "instruction": "Conta le X sopra ogni numero. Scrivi quante sono."
+  },
+  "G2-241": {
+    "title": "Ordina le forme",
+    "instruction": "Traccia una linea da ogni forma al suo numero di lati."
+  },
+  "G2-242": {
+    "title": "Conta le facce",
+    "instruction": "Scrivi quante facce piatte ha ogni solido."
+  },
+  "G2-243": {
+    "title": "I solidi intorno a noi",
+    "instruction": "Traccia una linea da ogni solido all'oggetto con la sua forma."
+  },
+  "G2-244": {
+    "title": "Piatto o solido?",
+    "instruction": "Traccia una linea da ogni forma al gruppo: piatte a sinistra, solidi a destra."
+  },
+  "G2-245": {
+    "title": "Conta gli spigoli",
+    "instruction": "Scrivi quanti spigoli ha ogni solido."
+  },
+  "G2-246": {
+    "title": "Conta i vertici",
+    "instruction": "Scrivi quanti vertici ha ogni solido."
+  },
+  "G2-247": {
+    "title": "Asse di simmetria?",
+    "instruction": "La linea tratteggiata è un asse di simmetria? Cerchia il segno giusto o la croce."
+  },
+  "G2-248": {
+    "title": "Trova l'immagine simmetrica",
+    "instruction": "Cerchia l'immagine uguale su entrambi i lati."
+  },
+  "G2-249": {
+    "title": "Che ora è?",
+    "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
+  },
+  "G3-301": {
+    "title": "Grandi schieramenti",
+    "instruction": "Conta le file di immagini. Scrivi quante sono in tutto."
+  },
+  "G3-302": {
+    "title": "Gruppi difficili",
+    "instruction": "Conta i gruppi uguali. Completa la moltiplicazione."
+  },
+  "G3-308": {
+    "title": "Salti della moltiplicazione",
+    "instruction": "Segui i salti uguali da zero. Scrivi ogni numero d'arrivo."
+  },
+  "G3-309": {
+    "title": "Dividi tutto",
+    "instruction": "Dividi il mucchio in parti uguali nei contenitori. Scrivi quanti ne tocca a ognuno."
+  },
+  "G3-310": {
+    "title": "Salta giù fino a zero",
+    "instruction": "Conta i salti uguali fino a zero. Scrivi quanti salti servono."
+  },
+  "G3-311": {
+    "title": "Famiglie del per",
+    "instruction": "Usa lo schieramento per completare le quattro operazioni."
+  },
+  "G3-312": {
+    "title": "Il fattore mancante",
+    "instruction": "Guarda lo schieramento. Scrivi il fattore mancante."
+  },
+  "G3-313": {
+    "title": "Conta i quadretti",
+    "instruction": "Conta i quadretti nel rettangolo. Completa la moltiplicazione."
+  },
+  "G3-314": {
+    "title": "Gira al contrario",
+    "instruction": "I due schieramenti hanno lo stesso totale. Completa entrambe le operazioni."
+  },
+  "G3-315": {
+    "title": "Nomina la frazione",
+    "instruction": "Scrivi la frazione che mostrano le parti colorate."
+  },
+  "G3-316": {
+    "title": "Colora la frazione",
+    "instruction": "Colora il numero giusto di parti per mostrare ogni frazione."
+  },
+  "G3-317": {
+    "title": "Frazioni sulla linea",
+    "instruction": "Il puntino segna una frazione. Cerchia quale."
+  },
+  "G3-318": {
+    "title": "Frazioni gemelle",
+    "instruction": "Traccia una linea da ogni immagine alla frazione corrispondente."
+  },
+  "G3-319": {
+    "title": "Quale è più grande?",
+    "instruction": "Guarda le due barre. Cerchia la frazione più grande."
+  },
+  "G3-320": {
+    "title": "Frazione del gruppo",
+    "instruction": "Cerchia la frazione delle immagini. Scrivi quante sono."
+  },
+  "G3-321": {
+    "title": "Trova l'intero",
+    "instruction": "La barra piccola è una parte. Cerchia la barra che mostra l'INTERO."
+  },
+  "G3-322": {
+    "title": "Coppie uguali",
+    "instruction": "Traccia una linea da ogni immagine alla sua frazione."
+  },
+  "G3-323": {
+    "title": "Arrotonda al centinaio",
+    "instruction": "Guarda il puntino. Cerchia il centinaio a cui è più vicino."
+  },
+  "G3-325": {
+    "title": "Sfida tra migliaia",
+    "instruction": "Confronta i numeri. Cerchia il simbolo giusto."
+  },
+  "G3-326": {
+    "title": "Scopri la regola",
+    "instruction": "Trova la regola di ogni fila. Scrivi i numeri mancanti."
+  },
+  "G3-327": {
+    "title": "Si scende!",
+    "instruction": "I numeri calano della stessa quantità. Scrivi quelli mancanti."
+  },
+  "G3-328": {
+    "title": "Macchine dei numeri",
+    "instruction": "Ogni macchina applica la sua regola a ogni numero. Scrivi quelli mancanti."
+  },
+  "G3-329": {
+    "title": "Grandi salti di conteggio",
+    "instruction": "Trova la regola del conteggio. Scrivi ogni numero mancante."
+  },
+  "G3-332": {
+    "title": "Barre a grande scala",
+    "instruction": "Attento: la scala conta di 5! Scrivi il valore di ogni barra."
+  },
+  "G3-333": {
+    "title": "Ogni immagine vale 5",
+    "instruction": "Ogni immagine vale 5! Scrivi il conteggio reale di ogni fila."
+  },
+  "G3-334": {
+    "title": "Costruisci il grafico",
+    "instruction": "Usa la tabella. Colora una barra per ogni valore."
+  },
+  "G3-335": {
+    "title": "Segni a metà strada",
+    "instruction": "Conta le X sopra ogni numero. Scrivi quante sono."
+  },
+  "G3-337": {
+    "title": "Cammina sul bordo",
+    "instruction": "Conta i lati unitari attorno a ogni rettangolo. Scrivi il perimetro."
+  },
+  "G3-338": {
+    "title": "Stesso spazio, nuova forma",
+    "instruction": "Cerchia il rettangolo che copre lo STESSO numero di quadretti."
+  },
+  "G3-339": {
+    "title": "Stesso recinto, nuovo prato",
+    "instruction": "Cerchia il rettangolo con la STESSA distanza intorno."
+  },
+  "G3-340": {
+    "title": "Squadra dei quadrilateri",
+    "instruction": "Traccia una linea da ogni forma a quattro lati alla sua famiglia."
+  },
+  "G3-341": {
+    "title": "Caccia agli angoli retti",
+    "instruction": "Cerchia ogni angolo RETTO (quelli con il quadratino)."
+  },
+  "G3-342": {
+    "title": "Quanti assi di simmetria?",
+    "instruction": "Scrivi quanti assi di simmetria ha ogni forma."
+  },
+  "G3-343": {
+    "title": "Pezzi uguali",
+    "instruction": "Cerchia ogni forma divisa in parti UGUALI."
+  },
+  "G3-344": {
+    "title": "Quanto tempo è passato?",
+    "instruction": "Confronta i due orologi. Scrivi quante ore sono passate."
+  },
+  "G3-345": {
+    "title": "Caldo o freddo?",
+    "instruction": "Leggi ogni termometro. Scrivi la temperatura che mostra."
+  },
+  "G3-346": {
+    "title": "Torri di cubi",
+    "instruction": "Conta tutti i cubi di ogni torre. Scrivi il totale."
+  },
+  "G3-348": {
+    "title": "Grande sudoku di immagini",
+    "instruction": "Ogni fila, colonna e riquadro vuole tutte e sei le immagini: completa le celle vuote."
+  },
+  "G3-349": {
+    "title": "Quadrati magici",
+    "instruction": "Ogni fila e colonna somma al numero magico. Completa le celle vuote."
+  },
+  "G3-350": {
+    "title": "Fai l'equilibrio",
+    "instruction": "I due lati devono pesare uguale. Scrivi il numero mancante."
+  },
+  "G3-351": {
+    "title": "Cosa completa il puzzle?",
+    "instruction": "Le file hanno un'immagine, le colonne una grandezza. Cerchia cosa va nella cella vuota."
+  },
+  "G3-353": {
+    "title": "Ordina a due cerchi",
+    "instruction": "Sinistra: questo tipo. Destra: i grandi. Mezzo: entrambi! Collega ogni immagine al posto."
+  }
+}

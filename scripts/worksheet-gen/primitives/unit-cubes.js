@@ -32,13 +32,17 @@ function unitCubes({ l, w, h, unit = 22 }, ctx) {
   const W = (l + w) * COS * u + 16;
   const H = (l + w) * SIN * u + h * u + 16;
   const ox = w * COS * u + 8;
-  const oy = h * u + 8 - u * 0;
+  // oy places the top-back-top vertex at y=8 so the whole stack sits inside the
+  // declared H (top vertex at 8, bottom-front vertex at H-8). The previous extra
+  // `+ (l+w)*SIN*u - u` offset pushed the stack down past H, clipping the
+  // front-bottom row of cubes (worse as l grows).
+  const oy = h * u + 8;
   const parts = [];
   // paint order: back-to-front (y desc), left-to-right (x asc), bottom-up (z asc)
   for (let z = 0; z < h; z++) {
     for (let y = w - 1; y >= 0; y--) {
       for (let x = 0; x < l; x++) {
-        parts.push(cubeAt(x, y, z, u, ox, oy + (l + w) * SIN * u - u, t, { 'data-lcs-cube': 1 }));
+        parts.push(cubeAt(x, y, z, u, ox, oy, t, { 'data-lcs-cube': 1 }));
       }
     }
   }

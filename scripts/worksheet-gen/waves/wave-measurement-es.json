@@ -1,0 +1,24 @@
+{
+  "id": "wave-measurement-es",
+  "seedEpoch": 1,
+  "locales": [
+    "es"
+  ],
+  "themes": [
+    "animals",
+    "fruits",
+    "vehicles",
+    "toys"
+  ],
+  "themesPerType": 2,
+  "difficulties": [
+    1,
+    3
+  ],
+  "variantsPerType": 1,
+  "types": {
+    "assetClasses": [
+      "measurement"
+    ]
+  }
+}

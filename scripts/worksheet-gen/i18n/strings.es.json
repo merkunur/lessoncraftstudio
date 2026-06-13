@@ -631,6 +631,10 @@
     "title": "¿Qué hora es?",
     "instruction": "Lee cada reloj. Rodea la hora correcta."
   },
+  "G2-250": {
+    "title": "Cuartos de hora",
+    "instruction": "Lee cada reloj. Rodea la hora correcta."
+  },
   "G3-301": {
     "title": "Arreglos grandes",
     "instruction": "Cuenta las filas de dibujos. Escribe cuántos hay en total."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Torres de cubos",
     "instruction": "Cuenta todos los cubos de cada torre. Escribe el total."
+  },
+  "G3-354": {
+    "title": "Hora exacta",
+    "instruction": "Lee cada reloj. Rodea la hora correcta."
+  },
+  "G3-355": {
+    "title": "Reloj de 12 y 24 horas",
+    "instruction": "Convierte cada hora. Rodea la forma correcta."
+  },
+  "G3-356": {
+    "title": "Suma y resta de tiempo",
+    "instruction": "Mira la hora de inicio. Suma o resta y escribe la hora nueva."
   },
   "G3-348": {
     "title": "Sudoku de dibujos grande",

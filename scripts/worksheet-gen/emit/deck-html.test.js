@@ -108,32 +108,47 @@ check('themeless deck substitutes cleanly (no theme link, theme recon legitimate
   assert.deepStrictEqual(sub.errors, []);
 });
 
-check('SWEEP all 200 types: title ≤70 + desc 120-170 + unique titles per band', function () {
-  const { loadAllTypes } = require('../lib/load-types.js');
-  const seenTitles = new Set();
-  const bad = [];
-  for (const spec of loadAllTypes()) {
-    const themed = spec.themeAxis && spec.themeAxis.applicable;
-    const strings = resolveStrings(spec.id, 'en', spec);
-    const manifest = buildManifest({
-      spec, strings, cacheTheme: themed ? 'animals' : null, difficulty: 2, locale: 'en',
-      deckId: 'wsg-sweep-' + spec.id, generatedAt: '2026-06-13T00:00:00Z',
-      imagesUsed: themed ? [{ theme: 'animals', noun: 'sheep', vocabKey: 'sheep' }] : [],
-    });
-    const html = buildDeckHtml({
-      manifest, spec, strings, locale: 'en',
-      preview: { dataUri: 'data:image/jpeg;base64,TEST', width: 860, height: 1156 },
-    });
-    const title = /<title>([^<]*)<\/title>/.exec(html)[1];
-    const desc = /name="description" content="([^"]*)"/.exec(html)[1];
-    if (title.length > 70) bad.push(spec.id + ': title ' + title.length);
-    if (desc.length < 120 || desc.length > 170) bad.push(spec.id + ': desc ' + desc.length);
-    const tKey = title.toLowerCase();
-    if (seenTitles.has(tKey)) bad.push(spec.id + ': duplicate title "' + title + '"');
-    seenTitles.add(tKey);
-  }
-  assert.deepStrictEqual(bad, [], 'sweep violations:\n  ' + bad.join('\n  '));
-});
+// SWEEP runs for en + every authored strings.<locale>.json — title/desc are
+// banded AT EMIT for printables (preband skips them), so each authored locale
+// must clear the real gates here BEFORE any wave renders.
+const sweepLocales = ['en'].concat(
+  require('fs').readdirSync(require('path').join(__dirname, '..', 'i18n'))
+    .map((f) => { const m = /^strings\.([a-z]{2})\.json$/.exec(f); return m && m[1]; })
+    .filter((l) => l && l !== 'en')
+    .sort()
+);
+
+for (const sweepLocale of sweepLocales) {
+  check('SWEEP all 200 types [' + sweepLocale + ']: title ≤70 + desc 120-170 + unique titles per band', function () {
+    const { loadAllTypes } = require('../lib/load-types.js');
+    const seenTitles = new Set();
+    const bad = [];
+    for (const spec of loadAllTypes()) {
+      const themed = spec.themeAxis && spec.themeAxis.applicable;
+      const strings = resolveStrings(spec.id, sweepLocale, spec);
+      if (sweepLocale !== 'en' && strings.source !== 'locale') {
+        bad.push(spec.id + ': strings resolved from ' + strings.source + ', not the locale file');
+      }
+      const manifest = buildManifest({
+        spec, strings, cacheTheme: themed ? 'animals' : null, difficulty: 2, locale: sweepLocale,
+        deckId: 'wsg-sweep-' + spec.id, generatedAt: '2026-06-13T00:00:00Z',
+        imagesUsed: themed ? [{ theme: 'animals', noun: 'sheep', vocabKey: 'sheep' }] : [],
+      });
+      const html = buildDeckHtml({
+        manifest, spec, strings, locale: sweepLocale,
+        preview: { dataUri: 'data:image/jpeg;base64,TEST', width: 860, height: 1156 },
+      });
+      const title = /<title>([^<]*)<\/title>/.exec(html)[1];
+      const desc = /name="description" content="([^"]*)"/.exec(html)[1];
+      if (title.length > 70) bad.push(spec.id + ': title ' + title.length + ' "' + title + '"');
+      if (desc.length < 120 || desc.length > 170) bad.push(spec.id + ': desc ' + desc.length);
+      const tKey = title.toLowerCase();
+      if (seenTitles.has(tKey)) bad.push(spec.id + ': duplicate title "' + title + '"');
+      seenTitles.add(tKey);
+    }
+    assert.deepStrictEqual(bad, [], 'sweep violations:\n  ' + bad.join('\n  '));
+  });
+}
 
 if (failures) { console.error(failures + ' failure(s)'); process.exit(1); }
 console.log('All emit/deck-html.test.js cases passed.');

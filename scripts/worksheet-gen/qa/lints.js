@@ -22,7 +22,7 @@ function runLints(page, { gradeBand }) {
     // Catches the "blank sheet" class (e.g. a themed generator finding no usable
     // nouns and emitting zero cards) BEFORE it can be published. Every type's
     // body uses one of these content primitives.
-    const CONTENT_SEL = '.ws-card-stage, .ws-match-item, .ws-bin, .ws-pattern-slot, .ws-pattern-chip';
+    const CONTENT_SEL = '.ws-card-stage, .ws-match-item, .ws-bin, .ws-pattern-slot, .ws-pattern-chip, [data-lit-content]';
     if (document.querySelectorAll('.ws-page ' + CONTENT_SEL.split(', ').join(', .ws-page ')).length === 0) {
       fails.push('blank worksheet: no content elements rendered');
     }

@@ -17,6 +17,10 @@ const { renderInstance } = require('../render/render-instance.js');
 const { makeScienceCategorySort } = require('../types/_shared/science-category-sort.js');
 const { makeScienceSequence } = require('../types/_shared/science-sequence.js');
 const { makeSciencePairMatch } = require('../types/_shared/science-pair-match.js');
+const { makeLitSoundMatch } = require('../types/_shared/lit-sound-match.js');
+const { makeLitLetterKnowledge } = require('../types/_shared/lit-letter-knowledge.js');
+const { makeLitWordBuild } = require('../types/_shared/lit-word-build.js');
+const { makeLitVocabMatch } = require('../types/_shared/lit-vocab-match.js');
 
 function loadData(rel) {
   return JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', rel), 'utf8'));
@@ -46,6 +50,59 @@ const EXEMPLARS = {
       exerciseType: 'science-match',
       data: loadData('science/baby-animals.json'),
       i18n: { en: { title: 'Animal Babies', instruction: 'Draw a line from each grown-up animal to its baby.' } },
+    }),
+  }),
+  'beginning-sounds': () => ({
+    spec: makeLitSoundMatch({
+      id: 'LIT-EX-001', slug: 'beginning-sounds', gradeBand: 'K',
+      exerciseType: 'beginning-sounds', mode: 'beginning',
+      data: loadData('literacy/beginning-sounds.json'),
+      i18n: {
+        en: { title: 'Beginning Sounds', instruction: 'Write the letter that each picture begins with.' },
+        de: { title: 'Anlaute', instruction: 'Schreibe den Anlaut (Anfangsbuchstaben) zu jedem Bild.' },
+      },
+    }),
+  }),
+  'upper-lower': () => ({
+    spec: makeLitLetterKnowledge({
+      id: 'LIT-EX-002', slug: 'uppercase-lowercase', gradeBand: 'K',
+      exerciseType: 'letter-knowledge', mode: 'upper-lower',
+      data: loadData('literacy/letter-knowledge.json'),
+      i18n: {
+        en: { title: 'Capital & Small Letters', instruction: 'Draw a line from each capital letter to its small letter.' },
+        de: { title: 'Groß- und Kleinbuchstaben', instruction: 'Verbinde jeden Großbuchstaben mit seinem Kleinbuchstaben.' },
+      },
+    }),
+  }),
+  'missing-alphabet': () => ({
+    spec: makeLitLetterKnowledge({
+      id: 'LIT-EX-003', slug: 'missing-letters-abc', gradeBand: 'K',
+      exerciseType: 'letter-knowledge', mode: 'missing-alphabet',
+      data: loadData('literacy/letter-knowledge.json'),
+      i18n: {
+        en: { title: 'Missing Letters', instruction: 'Write the missing letters to finish the alphabet.' },
+        de: { title: 'Fehlende Buchstaben', instruction: 'Schreibe die fehlenden Buchstaben ins Alphabet.' },
+      },
+    }),
+  }),
+  'cvc-missing': () => ({
+    spec: makeLitWordBuild({
+      id: 'LIT-EX-004', slug: 'cvc-missing-letter', gradeBand: 'K',
+      exerciseType: 'word-building', mode: 'cvc-missing',
+      data: loadData('literacy/word-build.json'),
+      i18n: {
+        en: { title: 'Missing Sound', instruction: 'Write the missing letter to finish each word.' },
+      },
+    }),
+  }),
+  'word-picture': () => ({
+    spec: makeLitVocabMatch({
+      id: 'LIT-EX-005', slug: 'match-word-picture', gradeBand: 'K',
+      exerciseType: 'picture-vocabulary', mode: 'word-picture',
+      data: loadData('literacy/vocab-match.json'),
+      i18n: {
+        en: { title: 'Match Word to Picture', instruction: 'Draw a line from each word to the picture it names.' },
+      },
     }),
   }),
 };

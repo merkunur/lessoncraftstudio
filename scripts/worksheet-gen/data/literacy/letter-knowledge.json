@@ -1,0 +1,16 @@
+{
+  "_note": "LITERACY letter-knowledge alphabets (lit-letter-knowledge). Lowercase, in canonical alphabet order per locale. No pool words needed — letter knowledge is buildable for every locale from its alphabet alone. de adds ä ö ü (ß omitted: no uppercase pair for upper-lower match); es adds ñ; sv/fi add å ä ö; da/no add æ ø å; it uses the 21-letter native alphabet (j k w x y are loanword-only). Native ensemble confirms alphabet conventions at the fan.",
+  "alphabets": {
+    "en": "abcdefghijklmnopqrstuvwxyz",
+    "de": "abcdefghijklmnopqrstuvwxyzäöü",
+    "es": "abcdefghijklmnñopqrstuvwxyz",
+    "fr": "abcdefghijklmnopqrstuvwxyz",
+    "it": "abcdefghilmnopqrstuvz",
+    "pt": "abcdefghijklmnopqrstuvwxyz",
+    "nl": "abcdefghijklmnopqrstuvwxyz",
+    "sv": "abcdefghijklmnopqrstuvwxyzåäö",
+    "da": "abcdefghijklmnopqrstuvwxyzæøå",
+    "no": "abcdefghijklmnopqrstuvwxyzæøå",
+    "fi": "abcdefghijklmnopqrstuvwxyzåäö"
+  }
+}

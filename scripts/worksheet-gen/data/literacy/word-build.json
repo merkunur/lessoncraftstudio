@@ -1,0 +1,17 @@
+{
+  "_note": "LITERACY word-build / CVC missing-letter (lit-word-build). NATIVE PER LOCALE from the gated pool. en = CVC with the medial VOWEL blanked (classic c_t); blank = 0-based index of the missing letter. Color themes only. en authored here (CVC = en's canonical case); other locales authored at the native-ensemble fan with their own short decodable words + chosen blank position.",
+  "items": {
+    "en": [
+      { "theme": "pets", "noun": "cat", "word": "cat", "blank": 1 },
+      { "theme": "animals", "noun": "dog", "word": "dog", "blank": 1 },
+      { "theme": "animals", "noun": "pig", "word": "pig", "blank": 1 },
+      { "theme": "weather", "noun": "sun", "word": "sun", "blank": 1 },
+      { "theme": "vehicles", "noun": "bus", "word": "bus", "blank": 1 },
+      { "theme": "clothing", "noun": "hat", "word": "hat", "blank": 1 },
+      { "theme": "animals", "noun": "fox", "word": "fox", "blank": 1 },
+      { "theme": "farm animals", "noun": "hen", "word": "hen", "blank": 1 },
+      { "theme": "body parts", "noun": "leg", "word": "leg", "blank": 1 },
+      { "theme": "fruits", "noun": "fig", "word": "fig", "blank": 1 }
+    ]
+  }
+}

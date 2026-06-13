@@ -143,7 +143,12 @@ function apply(opts) {
   note('__CANONICAL_URL__', 'computed', canonicalURL, false);
 
   // 2. __EDUCATIONAL_LEVEL__
-  var ageRange = metadata.age_range;
+  // Per-deck age_range from the manifest takes precedence over the per-app
+  // taxonomy default — worksheet-gen printables span K..G3 within one family
+  // key (manifest.age_range; manifest.metadata.age_range is the metadata.json
+  // layer mirror). Explicit caller-supplied metadata.age_range stays first.
+  var ageRange = metadata.age_range || manifest.age_range ||
+    (manifest.metadata && manifest.metadata.age_range);
   if (!ageRange) {
     var appCfg;
     try {
@@ -364,6 +369,11 @@ function apply(opts) {
     .replace(/__LINK_TEXT_BROWSE_ALL__/g, rBrowse.value)
     .replace(/<!-- HREFLANG_INSERTION_POINT -->/g, hreflangBlock)
     .replace(/__DECK_END_SUGGESTIONS_HEADER__/g, rDeckEndHeader.value)
+    // __PDF_URL__: printable download CTA (worksheet-gen printable decks).
+    // Only substitute knows both canonicalURL and the slug-prefixed PDF name
+    // (publish.js renames printable.pdf → <slug>-printable.pdf). No-op for
+    // interactive decks (placeholder absent).
+    .replace(/__PDF_URL__/g, canonicalURL + slug + '-printable.pdf')
     // R5: normalize the app-baked bare <html lang="xx"> to the BCP-47 code
     // (pt→pt-BR) per hreflang.ts SoT. publish-cli is the single choke point;
     // idempotent (passthrough/same-string for non-pt locales).

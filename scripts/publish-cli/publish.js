@@ -380,7 +380,7 @@ async function publish(opts) {
         exerciseType: manifest.exercise_type,
         exerciseMode: manifest.exercise_mode,
         subjectTags: subjectTagsForUpdate,
-        ageRange: '5-7',  // TODO: derive from taxonomy.appConfig per app
+        ageRange: manifest.age_range || '5-7',  // per-deck (worksheet-gen printables); TODO: taxonomy.appConfig fallback per app
         htmlUrl: canonicalURL + 'deck.html',
         pdfUrl: canonicalURL + printablePdfName,
         answerKeyUrl: assets[answerKeyPdfName] ? canonicalURL + answerKeyPdfName : null,
@@ -395,11 +395,16 @@ async function publish(opts) {
     } else {
       // INSERT path.
       var taxonomy = require('./taxonomy');
-      var ageRange;
-      try {
-        ageRange = taxonomy.appConfig(manifest.generator.app).default_age_range;
-      } catch (e) {
-        ageRange = '5-7';  // fallback default
+      // Per-deck manifest.age_range takes precedence (worksheet-gen printables
+      // span K..G3 within one family key); per-app taxonomy default is the
+      // interactive-app fallback.
+      var ageRange = manifest.age_range || null;
+      if (!ageRange) {
+        try {
+          ageRange = taxonomy.appConfig(manifest.generator.app).default_age_range;
+        } catch (e) {
+          ageRange = '5-7';  // fallback default
+        }
       }
       // Phase-3.0 W-1 forward-fix: derive subjectTags from manifest.theme. See
       // matching UPDATE-path comment above for origin + backfill rationale.

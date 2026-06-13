@@ -65,7 +65,13 @@ function validateManifest(manifest) {
     errors.push('unsupported language "' + manifest.language + '"; expected one of ' + SUPPORTED_LOCALES.join(', '));
   }
   if (manifest.assets) {
-    ['html', 'pdf', 'answer_key_pdf', 'thumbnail'].forEach(function (k) {
+    // printable_only (schema 1.1, worksheet-gen printables per CLAUDE.md §14.10
+    // family-keys note): answer-key is by-design absent; assets.answer_key_pdf
+    // is null and the ZIP carries no answer-key.pdf entry.
+    var requiredAssets = manifest.printable_only === true
+      ? ['html', 'pdf', 'thumbnail']
+      : ['html', 'pdf', 'answer_key_pdf', 'thumbnail'];
+    requiredAssets.forEach(function (k) {
       if (!manifest.assets[k]) errors.push('manifest.assets.' + k + ' is missing');
     });
   }

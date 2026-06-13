@@ -79,6 +79,10 @@ function classifyZip(zip) {
   var manifest;
   try { manifest = JSON.parse(zip.readAsText(me)); }
   catch (e) { return { halt: 'manifest.json parse error: ' + e.message }; }
+  // Printable worksheet-gen decks band title+description at EMIT time from
+  // per-TYPE strings; re-emitting the head here from taxonomy FAMILY names
+  // would overwrite per-type titles and mass-collide them within a family.
+  if (manifest.printable_only === true) return { skip: 'printable_only (emit-time banded)' };
   var html = zip.readAsText(he);
   var hasMarkers = html.indexOf(SEO_MARKER_START) !== -1 && html.indexOf(SEO_MARKER_END) !== -1;
   var hasHead = /<\/head>/i.test(html);
@@ -160,6 +164,7 @@ async function main() {
   // ---- Pass A (scan): plain (no-disambiguator) title per deck + collision detection ----
   var halts = [];
   var stillBad = [];
+  var skips = 0;       // printable_only ZIPs (emit-time banded; preband not applicable)
   var oldOutOfBand = 0;
   var newLenBuckets = { '<120': 0, '120-170': 0, '>170': 0 };
   var titleCount = Object.create(null);            // plain title -> count
@@ -169,6 +174,7 @@ async function main() {
     var zf = zips[i];
     var c = classifyZip(new AdmZip(path.join(folder, zf)));
     if (c.halt) { halts.push({ zf: zf, reason: c.halt }); continue; }
+    if (c.skip) { skips++; continue; }
 
     var oldDesc = descContent(c.html);
     if (oldDesc.length > 170 || oldDesc.length < 120) oldOutOfBand++;
@@ -209,6 +215,7 @@ async function main() {
 
   console.log('\n[preband] === classification ===');
   console.log('  classify halts:               ' + halts.length);
+  console.log('  printable_only skips:         ' + skips + ' (emit-time banded)');
   console.log('  OLD desc out-of-band:         ' + oldOutOfBand);
   console.log('  NEW desc lengths:             <120=' + newLenBuckets['<120'] + '  120-170=' + newLenBuckets['120-170'] + '  >170=' + newLenBuckets['>170']);
   console.log('  NEW desc STILL out-of-band:   ' + stillBad.length);

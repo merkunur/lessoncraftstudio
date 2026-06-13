@@ -136,7 +136,7 @@
     "instruction": "Ringa in den LÄNGSTA i varje rad."
   },
   "K-038": {
-    "title": "Tung eller lätt?",
+    "title": "Vad väger mest?",
     "instruction": "Tänk på verkligheten! Ringa in den TYNGRE."
   },
   "K-039": {
@@ -631,6 +631,10 @@
     "title": "Vad är klockan?",
     "instruction": "Läs varje klocka. Ringa in tiden som passar."
   },
+  "G2-250": {
+    "title": "Kvart över, halv och kvart i",
+    "instruction": "Läs varje klocka. Ringa in tiden som passar."
+  },
   "G3-301": {
     "title": "Stora rutnät",
     "instruction": "Räkna raderna med bilder. Skriv hur många det är totalt."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Kubtorn",
     "instruction": "Räkna alla kuber i varje torn. Skriv summan."
+  },
+  "G3-354": {
+    "title": "Klockan på minuten",
+    "instruction": "Läs varje klocka. Ringa in tiden som passar."
+  },
+  "G3-355": {
+    "title": "12-timmars och 24-timmars",
+    "instruction": "Skriv om varje tid till rätt form. Ringa in den som passar."
+  },
+  "G3-356": {
+    "title": "Lägg till och dra ifrån tid",
+    "instruction": "Börja vid tiden som visas. Räkna framåt eller bakåt och skriv den nya tiden."
   },
   "G3-348": {
     "title": "Stor bildsudoku",

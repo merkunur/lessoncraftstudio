@@ -136,7 +136,7 @@
     "instruction": "Kreise in jeder Reihe das LÄNGSTE Bild ein."
   },
   "K-038": {
-    "title": "Schwer oder leicht?",
+    "title": "Was wiegt mehr?",
     "instruction": "Denk an die echten Dinge! Kreise das SCHWERERE ein."
   },
   "K-039": {
@@ -631,6 +631,10 @@
     "title": "Wie spät ist es?",
     "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
   },
+  "G2-250": {
+    "title": "Viertelstunden",
+    "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
+  },
   "G3-301": {
     "title": "Große Punktefelder",
     "instruction": "Zähle die Reihen mit Bildern. Schreibe auf, wie viele es zusammen sind."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Würfeltürme",
     "instruction": "Zähle alle Würfel in jedem Turm. Schreibe die Anzahl auf."
+  },
+  "G3-354": {
+    "title": "Minutengenau ablesen",
+    "instruction": "Lies jede Uhr ab. Kreise die passende Uhrzeit ein."
+  },
+  "G3-355": {
+    "title": "12- und 24-Stunden-Zeit",
+    "instruction": "Wandle jede Uhrzeit um. Kreise die passende Schreibweise ein."
+  },
+  "G3-356": {
+    "title": "Zeit dazurechnen und abziehen",
+    "instruction": "Lies die Startzeit ab. Rechne die neue Uhrzeit aus und schreibe sie auf."
   },
   "G3-348": {
     "title": "Großes Bilder-Sudoku",

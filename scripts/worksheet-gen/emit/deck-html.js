@@ -168,6 +168,14 @@ function buildDeckHtml(o) {
   const modeName = seoHead.deriveExerciseModeName(manifest.exercise_mode, locale, TAXONOMY_JSON);
   const skill = skillSentenceFor(spec.exerciseType, locale);
 
+  // Variant axis (variant >1): a "Set N" disambiguator makes the <title> + meta
+  // description unique per worksheet of the same type+theme+level, clearing the
+  // §17.8.17 title/description uniqueness HALT gates. composeTitle (titleConfig
+  // path) consumes `disambiguator` (never dropped); bandedDescription's tail
+  // consumes `variantId` + `variantLabel`. variant 1 passes none → byte-identical.
+  const variantN = manifest.variant && manifest.variant > 1 ? manifest.variant : null;
+  const setWord = word(locale, 'set', 'Set');
+
   const seoBlock = seoHead.buildSeoHead({
     language: locale,
     exerciseTypeName: strings.title,
@@ -184,6 +192,9 @@ function buildDeckHtml(o) {
     titleConfig: TITLE_CONFIG[locale] || TITLE_CONFIG._default,
     skillSentence: skill.full || '',
     skillSentenceShort: skill.short || '',
+    disambiguator: variantN ? setWord + ' ' + variantN : undefined,
+    variantId: variantN ? String(variantN) : undefined,
+    variantLabel: setWord,
   });
 
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');

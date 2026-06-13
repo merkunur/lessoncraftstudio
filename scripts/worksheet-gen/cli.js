@@ -71,7 +71,7 @@ async function generate(args) {
   // retry must never duplicate a sibling slot's theme (same variant_id + theme +
   // mode would collide on slug).
   const assigned = new Map();
-  const slotKey = (it) => it.typeId + '|d' + it.difficulty + '|' + it.locale;
+  const slotKey = (it) => it.typeId + '|d' + it.difficulty + '|' + it.locale + '|v' + (it.variant || 1);
   list.forEach((it) => {
     if (!it.cacheTheme) return;
     if (!assigned.has(slotKey(it))) assigned.set(slotKey(it), new Set());
@@ -81,7 +81,7 @@ async function generate(args) {
   async function produce(spec, strings, it, deckId, cacheTheme) {
     const r = await renderInstance({
       type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+      variant: it.variant, page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
     });
     const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
     if (fails.length) return { qaFails: fails };
@@ -90,7 +90,7 @@ async function generate(args) {
     const imagesUsed = scrapeImagesUsed(r.html, cacheManifest);
     const manifest = buildManifest({
       spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
-      deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+      variant: it.variant, deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
     });
     const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
     writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });
@@ -125,7 +125,7 @@ async function generate(args) {
           const candidates = eligibleThemes(spec, plan.themes || [])
             .filter((t) => !tried.has(t) && !taken.has(t));
           for (const altTheme of candidates) {
-            const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale);
+            const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale, it.variant);
             if (!args.force && fs.existsSync(path.join(stagingDir, altDeckId + '.zip'))) continue;
             try {
               const res = await produce(spec, strings, it, altDeckId, altTheme);

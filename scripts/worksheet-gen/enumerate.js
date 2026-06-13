@@ -9,6 +9,8 @@
  *     themes: ['animals', 'fruits', ...],   // cache-form names
  *     themesPerType: 2,                     // cap per themed type (round-robin spread)
  *     difficulties: [2],
+ *     variantsPerType: 1,                   // OPTIONAL (default 1): N distinct worksheets per slot
+ *     variants: { 'G1-148': 10 },           // OPTIONAL per-type override of variantsPerType
  *     types: 'all' | ['K-002', ...] | { gradeBands?: [], assetClasses?: [], exclude?: [] }
  *   }
  *
@@ -76,10 +78,14 @@ function eligibleThemes(spec, waveThemes) {
   });
 }
 
-function deckIdFor(waveId, spec, cacheTheme, difficulty, locale) {
+function deckIdFor(waveId, spec, cacheTheme, difficulty, locale, variant) {
   const waveShort = String(waveId).replace(/[^a-z0-9]/gi, '').replace(/^wave0*/i, 'w');
   const themePart = cacheTheme ? themeAxisKey(cacheTheme) : 'nothm';
-  return ['wsg', waveShort, variantIdForSpec(spec), themePart, 'd' + difficulty, locale].join('-');
+  const parts = ['wsg', waveShort, variantIdForSpec(spec), themePart, 'd' + difficulty, locale];
+  // variant 1 omits the suffix so single-variant waves keep their current ZIP
+  // basename (idempotent resume); variant >1 gets a -vN tail (unique deckId).
+  if (variant && variant > 1) parts.push('v' + variant);
+  return parts.join('-');
 }
 
 function enumerate(plan) {
@@ -121,6 +127,10 @@ function enumerate(plan) {
   const instances = [];
   const skipped = [];
   specs.forEach((spec, idx) => {
+    // Variant axis: N distinct worksheets per (type, theme, difficulty, locale).
+    // Per-type override map wins over the wave-wide default; default 1 keeps
+    // every pre-variant wave byte-identical.
+    const variantsForType = (plan.variants && plan.variants[spec.id]) || plan.variantsPerType || 1;
     const themed = spec.themeAxis && spec.themeAxis.applicable;
     let themeList;
     if (themed) {
@@ -141,14 +151,17 @@ function enumerate(plan) {
     for (const cacheTheme of themeList) {
       for (const difficulty of plan.difficulties) {
         for (const locale of plan.locales) {
-          instances.push({
-            typeId: spec.id,
-            cacheTheme: cacheTheme,
-            difficulty: difficulty,
-            locale: locale,
-            deckId: deckIdFor(plan.id, spec, cacheTheme, difficulty, locale),
-            seed: instanceSeed({ typeId: spec.id, theme: cacheTheme, difficulty, seedEpoch: plan.seedEpoch || 1 }),
-          });
+          for (let variant = 1; variant <= variantsForType; variant++) {
+            instances.push({
+              typeId: spec.id,
+              cacheTheme: cacheTheme,
+              difficulty: difficulty,
+              locale: locale,
+              variant: variant,
+              deckId: deckIdFor(plan.id, spec, cacheTheme, difficulty, locale, variant),
+              seed: instanceSeed({ typeId: spec.id, theme: cacheTheme, difficulty, seedEpoch: plan.seedEpoch || 1, variant }),
+            });
+          }
         }
       }
     }

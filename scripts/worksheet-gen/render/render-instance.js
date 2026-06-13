@@ -10,13 +10,13 @@ const { makeRng, instanceSeed } = require('../lib/rng.js');
 const { runLints } = require('../qa/lints.js');
 
 /**
- * @param {object} o { type, theme, difficulty, locale, pageSize, outDir, baseName, page (puppeteer Page) }
+ * @param {object} o { type, theme, difficulty, locale, variant, pageSize, outDir, baseName, page (puppeteer Page) }
  * @returns {object} { html, qa: {lints, verify}, pdfPath, pngPath, meta }
  */
 async function renderInstance(o) {
   const { type, theme, difficulty, locale, page } = o;
   const pageSize = o.pageSize || (locale === 'en' ? 'letter' : 'a4');
-  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1 }));
+  const rng = makeRng(instanceSeed({ typeId: type.id, theme, difficulty, seedEpoch: o.seedEpoch || 1, variant: o.variant }));
 
   const strings = (o.strings) || (type.i18n && type.i18n[locale]) || type.i18n.en;
   const built = await type.build({ theme, difficulty, locale }, { rng });

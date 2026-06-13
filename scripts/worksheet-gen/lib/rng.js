@@ -1,8 +1,11 @@
 /**
  * Deterministic seeded RNG for worksheet instances.
- * seed = sha1(typeId|theme|difficulty|seedEpoch) — locale-INDEPENDENT so all 11
- * locales of one instance render identical content (the design-once +
- * hreflang-sibling guarantee). mulberry32 over the first 4 seed bytes.
+ * seed = sha1(typeId|theme|difficulty|seedEpoch[|vN]) — locale-INDEPENDENT so
+ * all 11 locales of one instance render identical content (the design-once +
+ * hreflang-sibling guarantee). The optional |vN suffix (variant > 1) re-rolls
+ * the problems for additional worksheets of the same type+theme+difficulty;
+ * variant 1 omits the suffix so every pre-variant wave reproduces byte-identically.
+ * mulberry32 over the first 4 seed bytes.
  */
 'use strict';
 const crypto = require('crypto');
@@ -33,8 +36,9 @@ function makeRng(seedString) {
   };
 }
 
-function instanceSeed({ typeId, theme, difficulty, seedEpoch }) {
-  return `${typeId}|${theme || 'none'}|${difficulty}|${seedEpoch || 1}`;
+function instanceSeed({ typeId, theme, difficulty, seedEpoch, variant }) {
+  const base = `${typeId}|${theme || 'none'}|${difficulty}|${seedEpoch || 1}`;
+  return (variant && variant > 1) ? `${base}|v${variant}` : base;
 }
 
 module.exports = { makeRng, instanceSeed };

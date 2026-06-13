@@ -126,7 +126,7 @@ async function generate(args) {
             .filter((t) => !tried.has(t) && !taken.has(t));
           for (const altTheme of candidates) {
             const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale);
-            if (fs.existsSync(path.join(stagingDir, altDeckId + '.zip'))) continue;
+            if (!args.force && fs.existsSync(path.join(stagingDir, altDeckId + '.zip'))) continue;
             try {
               const res = await produce(spec, strings, it, altDeckId, altTheme);
               if (res.qaFails) continue;

@@ -30,6 +30,10 @@ const i18n = require('../../publish-cli/i18n.js');
 const taxonomy = require('../../publish-cli/taxonomy.js');
 const TAXONOMY_JSON = require('../../../frontend/config/topics-taxonomy.json');
 const TITLE_CONFIG = require('../../publish-cli/seo-title-config.json');
+// Per-family skill sentences (the printable analogue of publish-cli's
+// seo-skill-sentences.json): join bandedDescription's middle pool so
+// short-title/themeless types still reach the 120-char floor.
+const SKILL_SENTENCES = require('../i18n/skill-sentences.en.json');
 
 const CANONICAL_BASE = 'https://www.lessoncraftstudio.com';
 
@@ -160,6 +164,8 @@ function buildDeckHtml(o) {
     printOrPlay: word(locale, 'download_pdf', 'Download the free PDF'),
     educationalLevelLocalized: levelLocalized,
     titleConfig: TITLE_CONFIG[locale] || TITLE_CONFIG._default,
+    skillSentence: (SKILL_SENTENCES[spec.exerciseType] || {}).full || '',
+    skillSentenceShort: (SKILL_SENTENCES[spec.exerciseType] || {}).short || '',
   });
 
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');

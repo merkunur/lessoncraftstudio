@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Counting friendly picture sets builds one-to-one correspondence and the early number sense behind confident math beginnings.",
+    "short": "Builds counting skills and early number sense."
+  },
+  "counting-frames": {
+    "full": "Ten frames give children a clear visual structure for counting, making five and making ten — the heart of early number sense.",
+    "short": "Builds number sense with the classic ten-frame structure."
+  },
+  "tally-counting": {
+    "full": "Recording counts as tally marks teaches children to organize information and count efficiently in groups of five.",
+    "short": "Practice counting and recording with tally marks."
+  },
+  "number-charts": {
+    "full": "Working with number charts strengthens counting order, skip-counting patterns and early place-value thinking.",
+    "short": "Strengthens counting order and number patterns."
+  },
+  "comparing-numbers": {
+    "full": "Comparing numbers with greater-than, less-than and equal builds the magnitude thinking behind all later arithmetic.",
+    "short": "Builds confident greater-than and less-than thinking."
+  },
+  "comparing-groups": {
+    "full": "Deciding which group has more, fewer or the same builds early comparison skills before children ever use number symbols.",
+    "short": "Builds early more-fewer-same comparison skills."
+  },
+  "comparing-sizes": {
+    "full": "Sorting big and small, tall and short, long and longest builds the size vocabulary young learners use every day.",
+    "short": "Builds big-small and tall-short size vocabulary."
+  },
+  "number-lines": {
+    "full": "Hopping along a number line makes addition, subtraction and number order visible and concrete for young learners.",
+    "short": "Makes adding and subtracting visible on a number line."
+  },
+  "base-ten": {
+    "full": "Base ten blocks turn abstract place value into something children can see and count — hundreds, tens and ones at a glance.",
+    "short": "Makes place value concrete with hundreds, tens and ones."
+  },
+  "telling-time": {
+    "full": "Reading analog clocks to the hour, half hour and five minutes builds a life skill children are proud to master.",
+    "short": "Practice reading analog clocks with friendly faces."
+  },
+  "fractions": {
+    "full": "Shading, naming and comparing halves, thirds and fourths gives children a concrete first look at fractions.",
+    "short": "A concrete first look at halves, thirds and fourths."
+  },
+  "graphing-data": {
+    "full": "Reading bar graphs, pictographs and tally charts teaches children to organize data and answer questions about it.",
+    "short": "Builds early data skills with graphs and charts."
+  },
+  "arrays-multiplication": {
+    "full": "Rows-and-columns picture arrays turn repeated addition into the foundation of multiplication thinking.",
+    "short": "Builds multiplication thinking with picture arrays."
+  },
+  "geometry": {
+    "full": "Naming shapes, counting sides and corners and exploring symmetry builds the spatial language of early geometry.",
+    "short": "Builds shape names and early geometry thinking."
+  },
+  "measurement": {
+    "full": "Measuring with rulers and unit cubes and comparing lengths builds practical measurement sense step by step.",
+    "short": "Builds hands-on measurement sense."
+  },
+  "visual-logic": {
+    "full": "Picture sudoku and reasoning grids stretch deduction skills — every puzzle has exactly one right answer to discover.",
+    "short": "Stretches logical deduction with picture puzzles."
+  },
+  "visual-discrimination": {
+    "full": "Spotting shadows, mirrored pictures and odd ones out sharpens the visual discrimination behind fluent reading.",
+    "short": "Sharpens visual discrimination and attention to detail."
+  },
+  "visual-matching": {
+    "full": "Matching related pictures strengthens visual memory and the same-different thinking young learners need every day.",
+    "short": "Strengthens visual matching and memory skills."
+  },
+  "patterns": {
+    "full": "Continuing and completing picture patterns builds the algebraic thinking that starts long before algebra.",
+    "short": "Builds pattern recognition and early algebraic thinking."
+  },
+  "position-words": {
+    "full": "Above, below, left and right come alive in picture scenes that build spatial vocabulary and direction sense.",
+    "short": "Builds position words and direction sense."
+  },
+  "sorting-categories": {
+    "full": "Sorting pictures into categories builds the classification thinking children use across math, science and reading.",
+    "short": "Builds sorting and classification thinking."
+  },
+  "picture-arithmetic": {
+    "full": "Adding and subtracting with picture groups lets children master operations concretely before abstract numerals.",
+    "short": "Concrete picture-based adding and subtracting."
+  }
+}

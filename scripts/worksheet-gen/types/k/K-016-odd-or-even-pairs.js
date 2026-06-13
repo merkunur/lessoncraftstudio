@@ -29,6 +29,7 @@ module.exports = {
     // Non-EN blocks carry ONLY the extra chip words (title/instruction resolve
     // via i18n/strings.<locale>.json; build() reads odd/even from here).
     de: { odd: 'ungerade', even: 'gerade' },
+    es: { odd: 'impar', even: 'par' },
   },
 
   build({ theme, difficulty, locale }, ctx) {

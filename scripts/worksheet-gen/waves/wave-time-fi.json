@@ -1,0 +1,23 @@
+{
+  "id": "wave-time-fi",
+  "seedEpoch": 1,
+  "locales": [
+    "fi"
+  ],
+  "themes": [],
+  "themesPerType": 1,
+  "difficulties": [
+    2
+  ],
+  "variantsPerType": 10,
+  "types": [
+    "G1-148",
+    "G1-149",
+    "G2-250",
+    "G2-249",
+    "G3-354",
+    "G3-344",
+    "G3-355",
+    "G3-356"
+  ]
+}

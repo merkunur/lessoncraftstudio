@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Att räkna vänliga bildgrupper bygger ett-till-ett-korrespondens och den tidiga talförståelse som ger en trygg mattestart.",
+    "short": "Bygger räkneförmåga och tidig talförståelse."
+  },
+  "counting-frames": {
+    "full": "Tioramar ger barn en tydlig visuell struktur för att räkna, bygga fem och bygga tio — kärnan i tidig talförståelse.",
+    "short": "Bygger talförståelse med den klassiska tioramen."
+  },
+  "tally-counting": {
+    "full": "Att skriva tal som räknestreck lär barn att ordna information och räkna effektivt i grupper om fem.",
+    "short": "Öva att räkna och föra streck i grupper om fem."
+  },
+  "number-charts": {
+    "full": "Att arbeta med hundrarutor stärker talföljd, hoppräkningens mönster och det tidiga positionssystemstänket.",
+    "short": "Stärker talföljd och mönster bland talen."
+  },
+  "comparing-numbers": {
+    "full": "Att jämföra tal med större än, mindre än och lika med bygger storlekstänket bakom all senare räkning.",
+    "short": "Bygger tryggt större-än- och mindre-än-tänk."
+  },
+  "comparing-groups": {
+    "full": "Att avgöra vilken grupp som har fler, färre eller lika många bygger tidig jämförelseförmåga före räknesymbolerna.",
+    "short": "Bygger tidigt fler-färre-lika-jämförande."
+  },
+  "comparing-sizes": {
+    "full": "Att sortera stort och litet, långt och kort bygger det storleksordförråd som unga elever använder varje dag.",
+    "short": "Bygger ordförråd som stor-liten och lång-kort."
+  },
+  "number-lines": {
+    "full": "Att hoppa längs en tallinje gör addition, subtraktion och talföljd synlig och konkret för unga elever.",
+    "short": "Gör addition och subtraktion synlig på linjen."
+  },
+  "base-ten": {
+    "full": "Tiobasmaterial gör abstrakt positionssystem till något barn kan se och räkna — hundratal, tiotal och ental.",
+    "short": "Gör positionssystemet konkret med tiotal."
+  },
+  "telling-time": {
+    "full": "Att läsa analog klocka på hel, halv och fem minuter bygger en livsfärdighet barn är stolta att bemästra.",
+    "short": "Öva att läsa analog klocka med vänliga urtavlor."
+  },
+  "fractions": {
+    "full": "Att färglägga, namnge och jämföra halvor, tredjedelar och fjärdedelar ger barn en konkret första titt på bråk.",
+    "short": "Konkret första titt på halvor och delar."
+  },
+  "graphing-data": {
+    "full": "Att läsa stapeldiagram, bilddiagram och strecktabeller lär barn att ordna data och svara på frågor om den.",
+    "short": "Bygger tidig dataförmåga med olika diagram."
+  },
+  "arrays-multiplication": {
+    "full": "Bildmatriser med rader och kolumner förvandlar upprepad addition till grunden för multiplikationstänkande.",
+    "short": "Bygger multiplikationstänk med bildmatriser."
+  },
+  "geometry": {
+    "full": "Att namnge former, räkna sidor och hörn och utforska symmetri bygger den tidiga geometrins rumsliga språk.",
+    "short": "Bygger formnamn och tidigt geometritänk."
+  },
+  "measurement": {
+    "full": "Att mäta med linjal och enhetskuber och jämföra längder bygger praktiskt mätsinne steg för steg.",
+    "short": "Bygger praktiskt mätsinne med händerna."
+  },
+  "visual-logic": {
+    "full": "Bildsudoku och tankerutor tänjer på deduktionsförmågan — varje pussel har exakt ett rätt svar att hitta.",
+    "short": "Tänjer logisk deduktion med bildpussel."
+  },
+  "visual-discrimination": {
+    "full": "Att hitta skuggor, speglade bilder och vilken som inte passar skärper blicken för detaljer som läsning vilar på.",
+    "short": "Skärper visuell perception och detaljblick."
+  },
+  "visual-matching": {
+    "full": "Att para ihop bilder som hör samman stärker visuellt minne och det lika-olika-tänk barn behöver varje dag.",
+    "short": "Stärker visuell matchning och minnesförmåga."
+  },
+  "patterns": {
+    "full": "Att fortsätta och fylla i bildmönster bygger det algebraiska tänkande som börjar långt före algebran.",
+    "short": "Bygger mönsterigenkänning och algebratänk."
+  },
+  "position-words": {
+    "full": "Ovanför, under, vänster och höger får liv i bildscener som bygger rumsligt ordförråd och riktningssinne.",
+    "short": "Bygger lägeord och tydligt riktningssinne."
+  },
+  "sorting-categories": {
+    "full": "Att sortera bilder i kategorier bygger det klassificeringstänk barn använder i matte, NO och läsning.",
+    "short": "Bygger sortering och klassificeringstänk."
+  },
+  "picture-arithmetic": {
+    "full": "Att addera och subtrahera med bildgrupper låter barn bemästra räknesätten konkret före abstrakta siffror.",
+    "short": "Konkret addition och subtraktion med bilder."
+  }
+}

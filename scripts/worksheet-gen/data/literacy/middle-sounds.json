@@ -52,6 +52,426 @@
         "noun": "mug",
         "answer": "u"
       }
+    ],
+    "de": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "answer": "e"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "oil",
+        "answer": "ö"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "answer": "a"
+      },
+      {
+        "theme": "camping",
+        "noun": "bear",
+        "answer": "ä"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "answer": "u"
+      },
+      {
+        "theme": "around the house",
+        "noun": "clock",
+        "answer": "u"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "cow",
+        "answer": "u"
+      },
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "answer": "ü"
+      }
+    ],
+    "es": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "bread",
+        "answer": "a"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "answer": "o"
+      },
+      {
+        "theme": "animals",
+        "noun": "fish",
+        "answer": "e"
+      },
+      {
+        "theme": "body parts",
+        "noun": "foot",
+        "answer": "i"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "jet",
+        "answer": "e"
+      },
+      {
+        "theme": "beach",
+        "noun": "net",
+        "answer": "e"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "pie",
+        "answer": "a"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "salt",
+        "answer": "a"
+      }
+    ],
+    "fr": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "bag",
+        "answer": "a"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "answer": "i"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bowl",
+        "answer": "o"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "answer": "u"
+      },
+      {
+        "theme": "toys",
+        "noun": "dice",
+        "answer": "d"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "answer": "u"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "garlic",
+        "answer": "a"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "goose",
+        "answer": "o"
+      }
+    ],
+    "it": [
+      {
+        "theme": "vehicles",
+        "noun": "crane",
+        "answer": "u"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "jet",
+        "answer": "e"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "answer": "u"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "corn",
+        "answer": "a"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "answer": "a"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "goose",
+        "answer": "o"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "grapes",
+        "answer": "u"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "answer": "e"
+      }
+    ],
+    "pt": [
+      {
+        "theme": "body parts",
+        "noun": "foot",
+        "answer": "p"
+      },
+      {
+        "theme": "toys",
+        "noun": "shovel",
+        "answer": "p"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bread",
+        "answer": "o"
+      },
+      {
+        "theme": "body parts",
+        "noun": "hand",
+        "answer": "o"
+      },
+      {
+        "theme": "breakfast",
+        "noun": "honey",
+        "answer": "e"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "answer": "o"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "salt",
+        "answer": "a"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "answer": "o"
+      }
+    ],
+    "nl": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "answer": "e"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "onion",
+        "answer": "u"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "answer": "o"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "answer": "a"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "badger",
+        "answer": "a"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bag",
+        "answer": "a"
+      },
+      {
+        "theme": "toys",
+        "noun": "ball",
+        "answer": "a"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "answer": "e"
+      }
+    ],
+    "sv": [
+      {
+        "theme": "beach",
+        "noun": "island",
+        "answer": "ö"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "answer": "i"
+      },
+      {
+        "theme": "body parts",
+        "noun": "toe",
+        "answer": "å"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "answer": "a"
+      },
+      {
+        "theme": "breakfast",
+        "noun": "biscuit",
+        "answer": "e"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "answer": "o"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "answer": "å"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "car",
+        "answer": "i"
+      }
+    ],
+    "da": [
+      {
+        "theme": "beach",
+        "noun": "island",
+        "answer": "ø"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "answer": "i"
+      },
+      {
+        "theme": "around the house",
+        "noun": "clock",
+        "answer": "u"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "cow",
+        "answer": "o"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "answer": "æ"
+      },
+      {
+        "theme": "body parts",
+        "noun": "toe",
+        "answer": "å"
+      },
+      {
+        "theme": "accessories",
+        "noun": "watch",
+        "answer": "u"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "answer": "a"
+      }
+    ],
+    "no": [
+      {
+        "theme": "farm animals",
+        "noun": "cow",
+        "answer": "u"
+      },
+      {
+        "theme": "beach",
+        "noun": "island",
+        "answer": "ø"
+      },
+      {
+        "theme": "body parts",
+        "noun": "toe",
+        "answer": "å"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "airplane",
+        "answer": "y"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "answer": "a"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "boat",
+        "answer": "å"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "answer": "o"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "answer": "å"
+      }
+    ],
+    "fi": [
+      {
+        "theme": "accessories",
+        "noun": "belt",
+        "answer": "y"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "butter",
+        "answer": "o"
+      },
+      {
+        "theme": "body parts",
+        "noun": "head",
+        "answer": "ä"
+      },
+      {
+        "theme": "shapes",
+        "noun": "moon",
+        "answer": "u"
+      },
+      {
+        "theme": "body parts",
+        "noun": "mouth",
+        "answer": "u"
+      },
+      {
+        "theme": "ocean life",
+        "noun": "shark",
+        "answer": "a"
+      },
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "answer": "o"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "basket",
+        "answer": "o"
+      }
     ]
   }
 }

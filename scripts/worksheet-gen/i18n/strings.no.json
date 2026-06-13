@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Yrker og redskapene deres",
     "instruction": "Trekk en strek fra hver yrkesperson til redskapet de bruker."
+  },
+  "K-221": {
+    "title": "Førstelyd",
+    "instruction": "Skriv bokstaven som hvert bilde begynner med."
+  },
+  "K-222": {
+    "title": "Store og små bokstaver",
+    "instruction": "Tegn en strek fra hver stor bokstav til den lille bokstaven."
+  },
+  "K-223": {
+    "title": "Bokstaver som mangler",
+    "instruction": "Skriv bokstavene som mangler for å fullføre alfabetet."
+  },
+  "K-224": {
+    "title": "Lyden som mangler",
+    "instruction": "Skriv bokstaven som mangler for å fullføre hvert ord."
+  },
+  "K-225": {
+    "title": "Koble ord til bilde",
+    "instruction": "Tegn en strek fra hvert ord til bildet det viser."
+  },
+  "K-226": {
+    "title": "Sistelyd",
+    "instruction": "Skriv bokstaven som hvert bilde slutter med."
+  },
+  "K-227": {
+    "title": "Midtlyd",
+    "instruction": "Skriv vokalen du hører midt inne i hvert ord."
+  },
+  "K-228": {
+    "title": "Sorter etter førstelyd",
+    "instruction": "Tegn en strek fra hvert bilde til bokstaven det begynner med."
+  },
+  "K-229": {
+    "title": "Finn bokstaven",
+    "instruction": "Sett ring rundt hver bokstav som er lik den i ruta."
+  },
+  "K-230": {
+    "title": "Vokaler og konsonanter",
+    "instruction": "Sorter hver bokstav som vokal eller konsonant."
+  },
+  "K-231": {
+    "title": "Bygg ordet",
+    "instruction": "Bruk bokstavene til å bygge ordet for hvert bilde."
+  },
+  "K-232": {
+    "title": "Rimpar",
+    "instruction": "Tegn en strek mellom de to bildene som rimer på hverandre."
+  },
+  "K-233": {
+    "title": "Tell stavelsene",
+    "instruction": "Skriv hvor mange stavelser du hører i hvert ord."
+  },
+  "K-234": {
+    "title": "Sorter etter stavelser",
+    "instruction": "Tegn en strek fra hvert bilde til riktig antall stavelser."
+  },
+  "K-235": {
+    "title": "Sorter etter kategori",
+    "instruction": "Tegn en strek fra hvert bilde til gruppa det hører til."
   }
 }

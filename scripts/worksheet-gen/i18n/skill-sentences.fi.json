@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Kuvien yhdistäminen pareiksi kehittää päättelyä, jolla lapsi huomaa yhteyksiä luonnossa.",
     "short": "Kehittää yhdistämistä ja päättelyä."
+  },
+  "beginning-sounds": {
+    "full": "Sanan alkuäänteen nimeäminen kuvasta rakentaa kirjain-äänne-yhteyttä, joka on lukemaan oppimisen ydin.",
+    "short": "Vahvistaa alkuäänne- ja kirjaintaitoja."
+  },
+  "letter-knowledge": {
+    "full": "Isojen ja pienten kirjainten sekä niiden järjestyksen tunnistaminen rakentaa aakkostaitoa, jolle lukeminen perustuu.",
+    "short": "Vahvistaa kirjainten ja aakkosten tuntemusta."
+  },
+  "word-building": {
+    "full": "Äänteiden kuunteleminen ja puuttuvan kirjaimen kirjoittaminen harjoittaa lukutaitoa, jolla lapsi lukee ensimmäiset sanansa.",
+    "short": "Vahvistaa lukemisen ja sananrakennuksen taitoja."
+  },
+  "picture-vocabulary": {
+    "full": "Kirjoitettujen sanojen ja kuvien yhdistäminen vahvistaa sanantunnistusta ja sanavarastoa, jotka muuttavat kirjaimet merkitykseksi.",
+    "short": "Vahvistaa sanantunnistusta ja sanavarastoa."
+  },
+  "phonological-awareness": {
+    "full": "Sanojen sisältämien äänteiden ja tavujen kuuleminen rakentaa kielellistä tietoisuutta, jolle sujuva lukeminen perustuu.",
+    "short": "Vahvistaa kielellistä tietoisuutta."
   }
 }

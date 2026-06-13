@@ -2,16 +2,576 @@
   "_note": "LITERACY build-the-word (lit-word-build, mode build-the-word). NATIVE PER LOCALE from the gated pool: short decodable words (3-4 letters) with a cached picture; the factory scrambles the letters into a bank. Color themes only. en authored here; other locales at the native fan.",
   "items": {
     "en": [
-      { "theme": "animals", "noun": "cat", "word": "cat" },
-      { "theme": "animals", "noun": "dog", "word": "dog" },
-      { "theme": "weather", "noun": "sun", "word": "sun" },
-      { "theme": "animals", "noun": "fox", "word": "fox" },
-      { "theme": "vehicles", "noun": "bus", "word": "bus" },
-      { "theme": "clothing", "noun": "hat", "word": "hat" },
-      { "theme": "animals", "noun": "fish", "word": "fish" },
-      { "theme": "shapes", "noun": "star", "word": "star" },
-      { "theme": "toys", "noun": "ball", "word": "ball" },
-      { "theme": "forest creatures", "noun": "frog", "word": "frog" }
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "word": "cat"
+      },
+      {
+        "theme": "animals",
+        "noun": "dog",
+        "word": "dog"
+      },
+      {
+        "theme": "weather",
+        "noun": "sun",
+        "word": "sun"
+      },
+      {
+        "theme": "animals",
+        "noun": "fox",
+        "word": "fox"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "word": "bus"
+      },
+      {
+        "theme": "clothing",
+        "noun": "hat",
+        "word": "hat"
+      },
+      {
+        "theme": "animals",
+        "noun": "fish",
+        "word": "fish"
+      },
+      {
+        "theme": "shapes",
+        "noun": "star",
+        "word": "star"
+      },
+      {
+        "theme": "toys",
+        "noun": "ball",
+        "word": "ball"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "frog",
+        "word": "frog"
+      }
+    ],
+    "de": [
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "word": "arm"
+      },
+      {
+        "theme": "camping",
+        "noun": "bear",
+        "word": "bär"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "word": "bus"
+      },
+      {
+        "theme": "around the house",
+        "noun": "clock",
+        "word": "uhr"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "cow",
+        "word": "kuh"
+      },
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "word": "tür"
+      },
+      {
+        "theme": "body parts",
+        "noun": "ear",
+        "word": "ohr"
+      },
+      {
+        "theme": "around the house",
+        "noun": "gate",
+        "word": "tor"
+      },
+      {
+        "theme": "accessories",
+        "noun": "hat",
+        "word": "hut"
+      },
+      {
+        "theme": "camping",
+        "noun": "lake",
+        "word": "see"
+      }
+    ],
+    "es": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "bread",
+        "word": "pan"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "word": "col"
+      },
+      {
+        "theme": "animals",
+        "noun": "fish",
+        "word": "pez"
+      },
+      {
+        "theme": "body parts",
+        "noun": "foot",
+        "word": "pie"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "jet",
+        "word": "jet"
+      },
+      {
+        "theme": "beach",
+        "noun": "net",
+        "word": "red"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "pie",
+        "word": "pay"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "salt",
+        "word": "sal"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "word": "sol"
+      },
+      {
+        "theme": "breakfast",
+        "noun": "honey",
+        "word": "miel"
+      }
+    ],
+    "fr": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "bag",
+        "word": "sac"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "word": "lit"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bowl",
+        "word": "bol"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "word": "bus"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "garlic",
+        "word": "ail"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "goose",
+        "word": "oie"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "jet",
+        "word": "jet"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "juice",
+        "word": "jus"
+      },
+      {
+        "theme": "camping",
+        "noun": "lake",
+        "word": "lac"
+      },
+      {
+        "theme": "body parts",
+        "noun": "neck",
+        "word": "cou"
+      }
+    ],
+    "it": [
+      {
+        "theme": "vehicles",
+        "noun": "crane",
+        "word": "gru"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "jet",
+        "word": "jet"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "word": "bue"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "corn",
+        "word": "mais"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "word": "ape"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "goose",
+        "word": "oca"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "grapes",
+        "word": "uva"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "word": "mela"
+      },
+      {
+        "theme": "camping",
+        "noun": "bear",
+        "word": "orso"
+      },
+      {
+        "theme": "fruits",
+        "noun": "blackberry",
+        "word": "mora"
+      }
+    ],
+    "pt": [
+      {
+        "theme": "breakfast",
+        "noun": "honey",
+        "word": "mel"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "word": "boi"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "salt",
+        "word": "sal"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "word": "sol"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "van",
+        "word": "van"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "crane",
+        "word": "grou"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "train",
+        "word": "trem"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "word": "ovo"
+      },
+      {
+        "theme": "shapes",
+        "noun": "moon",
+        "word": "lua"
+      },
+      {
+        "theme": "camping",
+        "noun": "river",
+        "word": "rio"
+      }
+    ],
+    "nl": [
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "word": "arm"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "badger",
+        "word": "das"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bag",
+        "word": "tas"
+      },
+      {
+        "theme": "toys",
+        "noun": "ball",
+        "word": "bal"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "word": "bed"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "word": "bij"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bowl",
+        "word": "kom"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "word": "bus"
+      },
+      {
+        "theme": "camping",
+        "noun": "cabin",
+        "word": "hut"
+      },
+      {
+        "theme": "accessories",
+        "noun": "cap",
+        "word": "pet"
+      }
+    ],
+    "sv": [
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "word": "arm"
+      },
+      {
+        "theme": "breakfast",
+        "noun": "biscuit",
+        "word": "kex"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "word": "bok"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "word": "kål"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "car",
+        "word": "bil"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "cheese",
+        "word": "ost"
+      },
+      {
+        "theme": "around the house",
+        "noun": "comb",
+        "word": "kam"
+      },
+      {
+        "theme": "shapes",
+        "noun": "cone",
+        "word": "kon"
+      },
+      {
+        "theme": "shapes",
+        "noun": "cube",
+        "word": "kub"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "word": "ägg"
+      }
+    ],
+    "da": [
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "word": "arm"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "boat",
+        "word": "båd"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "word": "bog"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bull",
+        "word": "tyr"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "word": "bus"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "word": "kål"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "car",
+        "word": "bil"
+      },
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "word": "kat"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "cheese",
+        "word": "ost"
+      },
+      {
+        "theme": "beach",
+        "noun": "cloud",
+        "word": "sky"
+      }
+    ],
+    "no": [
+      {
+        "theme": "vehicles",
+        "noun": "airplane",
+        "word": "fly"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "word": "arm"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "boat",
+        "word": "båt"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "word": "bok"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "cabbage",
+        "word": "kål"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "car",
+        "word": "bil"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "cheese",
+        "word": "ost"
+      },
+      {
+        "theme": "beach",
+        "noun": "cloud",
+        "word": "sky"
+      },
+      {
+        "theme": "around the house",
+        "noun": "comb",
+        "word": "kam"
+      },
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "word": "dør"
+      }
+    ],
+    "fi": [
+      {
+        "theme": "accessories",
+        "noun": "belt",
+        "word": "vyö"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "butter",
+        "word": "voi"
+      },
+      {
+        "theme": "body parts",
+        "noun": "head",
+        "word": "pää"
+      },
+      {
+        "theme": "shapes",
+        "noun": "moon",
+        "word": "kuu"
+      },
+      {
+        "theme": "body parts",
+        "noun": "mouth",
+        "word": "suu"
+      },
+      {
+        "theme": "ocean life",
+        "noun": "shark",
+        "word": "hai"
+      },
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "word": "ovi"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "basket",
+        "word": "kori"
+      },
+      {
+        "theme": "accessories",
+        "noun": "beanie",
+        "word": "pipo"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "boat",
+        "word": "vene"
+      }
     ]
   }
 }

@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Att para ihop varje bild med sin partner utvecklar tänkandet för att upptäcka samband i naturen.",
     "short": "Utvecklar parning och tänkande."
+  },
+  "beginning-sounds": {
+    "full": "Att säga första ljudet i varje bild bygger den bokstav-ljud-kunskap som tidig läsning vilar på.",
+    "short": "Tränar första ljudet och bokstavsljud."
+  },
+  "letter-knowledge": {
+    "full": "Att känna igen stora och små bokstäver och deras ordning bygger den alfabetskunskap som tidig läsning vilar på.",
+    "short": "Tränar bokstäver och alfabetet."
+  },
+  "word-building": {
+    "full": "Att lyssna efter varje ljud och skriva bokstaven som fattas bygger den avkodning barn använder för att läsa sina första ord.",
+    "short": "Tränar avkodning och att bygga ord."
+  },
+  "picture-vocabulary": {
+    "full": "Att para ihop skrivna ord med sina bilder bygger den ordförståelse och ordförråd som gör bokstäver till mening.",
+    "short": "Tränar ordigenkänning och ordförråd."
+  },
+  "phonological-awareness": {
+    "full": "Att höra ljuden och stavelserna inuti ord bygger den fonologiska medvetenhet som flytande läsning bygger på.",
+    "short": "Tränar fonologisk medvetenhet."
   }
 }

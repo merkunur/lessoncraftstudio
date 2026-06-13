@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Profissionais da Comunidade e Suas Ferramentas",
     "instruction": "Ligue cada profissional à ferramenta que ele usa."
+  },
+  "K-221": {
+    "title": "Sons iniciais",
+    "instruction": "Escreva a letra com que cada figura começa."
+  },
+  "K-222": {
+    "title": "Letras maiúsculas e minúsculas",
+    "instruction": "Ligue cada letra maiúscula à sua letra minúscula."
+  },
+  "K-223": {
+    "title": "Letras que faltam",
+    "instruction": "Escreva as letras que faltam para completar o alfabeto."
+  },
+  "K-224": {
+    "title": "Som que falta",
+    "instruction": "Escreva a letra que falta para completar cada palavra."
+  },
+  "K-225": {
+    "title": "Ligue a palavra à figura",
+    "instruction": "Ligue cada palavra à figura que ela nomeia."
+  },
+  "K-226": {
+    "title": "Sons finais",
+    "instruction": "Escreva a letra com que cada figura termina."
+  },
+  "K-227": {
+    "title": "Sons do meio",
+    "instruction": "Escreva a vogal que você ouve no meio de cada palavra."
+  },
+  "K-228": {
+    "title": "Agrupe pelo som inicial",
+    "instruction": "Ligue cada figura à letra com que ela começa."
+  },
+  "K-229": {
+    "title": "Encontre a letra",
+    "instruction": "Circule todas as letras iguais à letra do quadrinho."
+  },
+  "K-230": {
+    "title": "Vogais e consoantes",
+    "instruction": "Separe cada letra entre as vogais ou as consoantes."
+  },
+  "K-231": {
+    "title": "Monte a palavra",
+    "instruction": "Use as letras para montar a palavra de cada figura."
+  },
+  "K-232": {
+    "title": "Pares que rimam",
+    "instruction": "Ligue as duas figuras que rimam."
+  },
+  "K-233": {
+    "title": "Conte as sílabas",
+    "instruction": "Escreva quantas sílabas você ouve em cada palavra."
+  },
+  "K-234": {
+    "title": "Agrupe por sílabas",
+    "instruction": "Ligue cada figura ao seu número de sílabas."
+  },
+  "K-235": {
+    "title": "Agrupe por categoria",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
   }
 }

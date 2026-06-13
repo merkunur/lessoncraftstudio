@@ -66,5 +66,746 @@
       "noun": "astronaut",
       "bin": "3"
     }
-  ]
+  ],
+  "binsByLocale": {
+    "de": [
+      {
+        "key": "1",
+        "label": {
+          "de": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "de": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "de": "3"
+        }
+      }
+    ],
+    "es": [
+      {
+        "key": "2",
+        "label": {
+          "es": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "es": "3"
+        }
+      },
+      {
+        "key": "4",
+        "label": {
+          "es": "4"
+        }
+      }
+    ],
+    "fr": [
+      {
+        "key": "2",
+        "label": {
+          "fr": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "fr": "3"
+        }
+      },
+      {
+        "key": "4",
+        "label": {
+          "fr": "4"
+        }
+      }
+    ],
+    "it": [
+      {
+        "key": "2",
+        "label": {
+          "it": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "it": "3"
+        }
+      },
+      {
+        "key": "4",
+        "label": {
+          "it": "4"
+        }
+      }
+    ],
+    "pt": [
+      {
+        "key": "2",
+        "label": {
+          "pt": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "pt": "3"
+        }
+      },
+      {
+        "key": "4",
+        "label": {
+          "pt": "4"
+        }
+      }
+    ],
+    "nl": [
+      {
+        "key": "1",
+        "label": {
+          "nl": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "nl": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "nl": "3"
+        }
+      }
+    ],
+    "sv": [
+      {
+        "key": "1",
+        "label": {
+          "sv": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "sv": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "sv": "3"
+        }
+      }
+    ],
+    "da": [
+      {
+        "key": "1",
+        "label": {
+          "da": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "da": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "da": "3"
+        }
+      }
+    ],
+    "no": [
+      {
+        "key": "1",
+        "label": {
+          "no": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "no": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "no": "3"
+        }
+      }
+    ],
+    "fi": [
+      {
+        "key": "2",
+        "label": {
+          "fi": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "fi": "3"
+        }
+      },
+      {
+        "key": "4",
+        "label": {
+          "fi": "4"
+        }
+      }
+    ],
+    "en": [
+      {
+        "key": "1",
+        "label": {
+          "en": "1"
+        }
+      },
+      {
+        "key": "2",
+        "label": {
+          "en": "2"
+        }
+      },
+      {
+        "key": "3",
+        "label": {
+          "en": "3"
+        }
+      }
+    ]
+  },
+  "itemsByLocale": {
+    "de": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "bin": "1"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "oil",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "arm",
+        "bin": "1"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bagel",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "beanie",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "banana",
+        "bin": "3"
+      },
+      {
+        "theme": "toys",
+        "noun": "domino",
+        "bin": "3"
+      },
+      {
+        "theme": "around the house",
+        "noun": "garage",
+        "bin": "3"
+      }
+    ],
+    "es": [
+      {
+        "theme": "camping",
+        "noun": "bear",
+        "bin": "2"
+      },
+      {
+        "theme": "body parts",
+        "noun": "eye",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "garlic",
+        "bin": "2"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "bin": "3"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "caterpillar",
+        "bin": "3"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "corn",
+        "bin": "3"
+      },
+      {
+        "theme": "toys",
+        "noun": "sandbox",
+        "bin": "4"
+      },
+      {
+        "theme": "animals",
+        "noun": "antelope",
+        "bin": "4"
+      },
+      {
+        "theme": "fruits",
+        "noun": "avocado",
+        "bin": "4"
+      }
+    ],
+    "fr": [
+      {
+        "theme": "animals",
+        "noun": "donkey",
+        "bin": "2"
+      },
+      {
+        "theme": "beach",
+        "noun": "island",
+        "bin": "2"
+      },
+      {
+        "theme": "toys",
+        "noun": "baby",
+        "bin": "2"
+      },
+      {
+        "theme": "shapes",
+        "noun": "oval",
+        "bin": "3"
+      },
+      {
+        "theme": "classroom",
+        "noun": "student",
+        "bin": "3"
+      },
+      {
+        "theme": "weather",
+        "noun": "thunderstorm",
+        "bin": "3"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bookshelf",
+        "bin": "4"
+      },
+      {
+        "theme": "classroom",
+        "noun": "shelf",
+        "bin": "4"
+      },
+      {
+        "theme": "animals",
+        "noun": "antelope",
+        "bin": "4"
+      }
+    ],
+    "it": [
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "bin": "2"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "goose",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "grapes",
+        "bin": "2"
+      },
+      {
+        "theme": "animals",
+        "noun": "donkey",
+        "bin": "3"
+      },
+      {
+        "theme": "camping",
+        "noun": "hammock",
+        "bin": "3"
+      },
+      {
+        "theme": "beach",
+        "noun": "island",
+        "bin": "3"
+      },
+      {
+        "theme": "fruits",
+        "noun": "avocado",
+        "bin": "4"
+      },
+      {
+        "theme": "shapes",
+        "noun": "hexagon",
+        "bin": "4"
+      },
+      {
+        "theme": "animals",
+        "noun": "antelope",
+        "bin": "4"
+      }
+    ],
+    "pt": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "bin": "2"
+      },
+      {
+        "theme": "shapes",
+        "noun": "moon",
+        "bin": "2"
+      },
+      {
+        "theme": "camping",
+        "noun": "river",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "blackberry",
+        "bin": "3"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "ship",
+        "bin": "3"
+      },
+      {
+        "theme": "accessories",
+        "noun": "whistle",
+        "bin": "3"
+      },
+      {
+        "theme": "fruits",
+        "noun": "avocado",
+        "bin": "4"
+      },
+      {
+        "theme": "fruits",
+        "noun": "cranberry",
+        "bin": "4"
+      },
+      {
+        "theme": "fruits",
+        "noun": "pineapple",
+        "bin": "4"
+      }
+    ],
+    "nl": [
+      {
+        "theme": "At the Supermarket",
+        "noun": "egg",
+        "bin": "1"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "onion",
+        "bin": "1"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "ox",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "ankle",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "badge",
+        "bin": "2"
+      },
+      {
+        "theme": "toys",
+        "noun": "domino",
+        "bin": "3"
+      },
+      {
+        "theme": "around the house",
+        "noun": "garage",
+        "bin": "3"
+      },
+      {
+        "theme": "clothing",
+        "noun": "pajamas",
+        "bin": "3"
+      }
+    ],
+    "sv": [
+      {
+        "theme": "beach",
+        "noun": "island",
+        "bin": "1"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "toe",
+        "bin": "1"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "badge",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bagel",
+        "bin": "2"
+      },
+      {
+        "theme": "camping",
+        "noun": "binoculars",
+        "bin": "3"
+      },
+      {
+        "theme": "toys",
+        "noun": "domino",
+        "bin": "3"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "radish",
+        "bin": "3"
+      }
+    ],
+    "da": [
+      {
+        "theme": "beach",
+        "noun": "island",
+        "bin": "1"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "bee",
+        "bin": "1"
+      },
+      {
+        "theme": "around the house",
+        "noun": "clock",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "ankle",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bacon",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "banana",
+        "bin": "2"
+      },
+      {
+        "theme": "toys",
+        "noun": "domino",
+        "bin": "3"
+      },
+      {
+        "theme": "around the house",
+        "noun": "garage",
+        "bin": "3"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "radish",
+        "bin": "3"
+      }
+    ],
+    "no": [
+      {
+        "theme": "farm animals",
+        "noun": "cow",
+        "bin": "1"
+      },
+      {
+        "theme": "beach",
+        "noun": "island",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "toe",
+        "bin": "1"
+      },
+      {
+        "theme": "body parts",
+        "noun": "ankle",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bacon",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "badge",
+        "bin": "2"
+      },
+      {
+        "theme": "toys",
+        "noun": "domino",
+        "bin": "3"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "candy",
+        "bin": "3"
+      },
+      {
+        "theme": "vegetables",
+        "noun": "celery",
+        "bin": "3"
+      }
+    ],
+    "fi": [
+      {
+        "theme": "around the house",
+        "noun": "door",
+        "bin": "2"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "basket",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "beanie",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "apple",
+        "bin": "3"
+      },
+      {
+        "theme": "zoo animals",
+        "noun": "monkey",
+        "bin": "3"
+      },
+      {
+        "theme": "forest creatures",
+        "noun": "slug",
+        "bin": "3"
+      },
+      {
+        "theme": "fruits",
+        "noun": "avocado",
+        "bin": "4"
+      },
+      {
+        "theme": "accessories",
+        "noun": "apron",
+        "bin": "4"
+      },
+      {
+        "theme": "shapes",
+        "noun": "pyramid",
+        "bin": "4"
+      }
+    ],
+    "en": [
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "bin": "1"
+      },
+      {
+        "theme": "animals",
+        "noun": "dog",
+        "bin": "1"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "bin": "1"
+      },
+      {
+        "theme": "miscellaneous",
+        "noun": "acorn",
+        "bin": "2"
+      },
+      {
+        "theme": "accessories",
+        "noun": "apron",
+        "bin": "2"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "airplane",
+        "bin": "2"
+      },
+      {
+        "theme": "fruits",
+        "noun": "banana",
+        "bin": "3"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "ambulance",
+        "bin": "3"
+      },
+      {
+        "theme": "occupations",
+        "noun": "astronaut",
+        "bin": "3"
+      }
+    ]
+  }
 }

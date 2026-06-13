@@ -27,7 +27,31 @@
     "fi": "aeiouyäö"
   },
   "vcLabels": {
-    "vowels": { "en": "Vowels" },
-    "consonants": { "en": "Consonants" }
+    "vowels": {
+      "en": "Vowels",
+      "de": "Selbstlaute",
+      "es": "Vocales",
+      "fr": "Voyelles",
+      "it": "Vocali",
+      "pt": "Vogais",
+      "nl": "Klinkers",
+      "sv": "Vokaler",
+      "da": "Vokaler",
+      "no": "Vokaler",
+      "fi": "Vokaalit"
+    },
+    "consonants": {
+      "en": "Consonants",
+      "de": "Mitlaute",
+      "es": "Consonantes",
+      "fr": "Consonnes",
+      "it": "Consonanti",
+      "pt": "Consoantes",
+      "nl": "Medeklinkers",
+      "sv": "Konsonanter",
+      "da": "Konsonanter",
+      "no": "Konsonanter",
+      "fi": "Konsonantit"
+    }
   }
 }

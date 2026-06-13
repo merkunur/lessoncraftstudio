@@ -98,5 +98,25 @@
   "science-match": {
     "full": "At parre hvert billede med sin makker udvikler tænkningen til at opdage sammenhænge i naturen.",
     "short": "Udvikler parring og tænkning."
+  },
+  "beginning-sounds": {
+    "full": "Når barnet siger den første lyd i hvert billede, opbygges den bogstav-lyd-viden, der er kernen i den tidlige læsning.",
+    "short": "Styrker forlyd og bogstav-lyd."
+  },
+  "letter-knowledge": {
+    "full": "At kende store og små bogstaver og deres rækkefølge giver barnet det alfabetkendskab, som den tidlige læsning bygger på.",
+    "short": "Styrker bogstavkendskab og alfabet."
+  },
+  "word-building": {
+    "full": "At lytte efter hver lyd og skrive det manglende bogstav opbygger de afkodningsfærdigheder, barnet bruger til at læse sine første ord.",
+    "short": "Styrker afkodning og ordbygning."
+  },
+  "picture-vocabulary": {
+    "full": "At sætte skrevne ord sammen med billeder opbygger den ordgenkendelse og det ordforråd, der gør bogstaver til mening.",
+    "short": "Styrker ordgenkendelse og ordforråd."
+  },
+  "phonological-awareness": {
+    "full": "At høre lydene og stavelserne inde i ordene opbygger den sproglige opmærksomhed, som flydende læsning afhænger af.",
+    "short": "Styrker sproglig opmærksomhed."
   }
 }

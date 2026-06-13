@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Associer chaque image à sa paire développe le raisonnement pour repérer les liens dans le monde qui les entoure.",
     "short": "Développe l'association et le raisonnement."
+  },
+  "beginning-sounds": {
+    "full": "Nommer le premier son de chaque image développe la connaissance des correspondances lettre-son, au cœur de l'apprentissage de la lecture.",
+    "short": "Développe le son initial et le lien lettre-son."
+  },
+  "letter-knowledge": {
+    "full": "Reconnaître les majuscules, les minuscules et leur ordre construit la connaissance de l'alphabet sur laquelle repose la lecture.",
+    "short": "Développe la reconnaissance des lettres."
+  },
+  "word-building": {
+    "full": "Écouter chaque son et écrire la lettre manquante développe le décodage que les enfants utilisent pour lire leurs premiers mots.",
+    "short": "Développe le décodage et l'écriture des mots."
+  },
+  "picture-vocabulary": {
+    "full": "Associer les mots écrits à leurs images développe la reconnaissance des mots et le vocabulaire qui donnent du sens aux lettres.",
+    "short": "Développe la reconnaissance des mots et le vocabulaire."
+  },
+  "phonological-awareness": {
+    "full": "Entendre les sons et les syllabes à l'intérieur des mots développe la conscience phonologique dont dépend une lecture fluide.",
+    "short": "Développe la conscience phonologique."
   }
 }

@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Las profesiones y sus herramientas",
     "instruction": "Une con una línea cada profesión con la herramienta que utiliza."
+  },
+  "K-221": {
+    "title": "Sonidos iniciales",
+    "instruction": "Escribe la letra con la que empieza cada dibujo."
+  },
+  "K-222": {
+    "title": "Mayúsculas y minúsculas",
+    "instruction": "Une con una línea cada letra mayúscula con su minúscula."
+  },
+  "K-223": {
+    "title": "Letras que faltan",
+    "instruction": "Escribe las letras que faltan para completar el abecedario."
+  },
+  "K-224": {
+    "title": "El sonido que falta",
+    "instruction": "Escribe la letra que falta para completar cada palabra."
+  },
+  "K-225": {
+    "title": "Une la palabra con el dibujo",
+    "instruction": "Une con una línea cada palabra con el dibujo que nombra."
+  },
+  "K-226": {
+    "title": "Sonidos finales",
+    "instruction": "Escribe la letra con la que termina cada dibujo."
+  },
+  "K-227": {
+    "title": "Sonidos del medio",
+    "instruction": "Escribe la vocal que oyes en el medio de cada palabra."
+  },
+  "K-228": {
+    "title": "Clasifica por sonido inicial",
+    "instruction": "Une con una línea cada dibujo con la letra con la que empieza."
+  },
+  "K-229": {
+    "title": "Encuentra la letra",
+    "instruction": "Rodea con un círculo cada letra igual a la del recuadro."
+  },
+  "K-230": {
+    "title": "Vocales y consonantes",
+    "instruction": "Clasifica cada letra en las vocales o en las consonantes."
+  },
+  "K-231": {
+    "title": "Forma la palabra",
+    "instruction": "Usa las letras para formar la palabra de cada dibujo."
+  },
+  "K-232": {
+    "title": "Parejas que riman",
+    "instruction": "Une con una línea los dos dibujos que riman."
+  },
+  "K-233": {
+    "title": "Cuenta las sílabas",
+    "instruction": "Escribe cuántas sílabas oyes en cada palabra."
+  },
+  "K-234": {
+    "title": "Clasifica por sílabas",
+    "instruction": "Une con una línea cada dibujo con su número de sílabas."
+  },
+  "K-235": {
+    "title": "Clasifica por categoría",
+    "instruction": "Une con una línea cada dibujo con el grupo al que pertenece."
   }
 }

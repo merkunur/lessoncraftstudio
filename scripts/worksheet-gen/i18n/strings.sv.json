@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Yrken och deras verktyg",
     "instruction": "Dra ett streck från varje yrkesperson till verktyget de använder."
+  },
+  "K-221": {
+    "title": "Första ljudet",
+    "instruction": "Skriv bokstaven som varje bild börjar med."
+  },
+  "K-222": {
+    "title": "Stora och små bokstäver",
+    "instruction": "Dra ett streck från varje stor bokstav till dess lilla bokstav."
+  },
+  "K-223": {
+    "title": "Bokstäver som fattas",
+    "instruction": "Skriv bokstäverna som fattas för att göra alfabetet färdigt."
+  },
+  "K-224": {
+    "title": "Ljudet som fattas",
+    "instruction": "Skriv bokstaven som fattas för att göra varje ord färdigt."
+  },
+  "K-225": {
+    "title": "Para ihop ord och bild",
+    "instruction": "Dra ett streck från varje ord till bilden det betyder."
+  },
+  "K-226": {
+    "title": "Sista ljudet",
+    "instruction": "Skriv bokstaven som varje bild slutar med."
+  },
+  "K-227": {
+    "title": "Ljudet i mitten",
+    "instruction": "Skriv vokalen du hör i mitten av varje ord."
+  },
+  "K-228": {
+    "title": "Sortera efter första ljudet",
+    "instruction": "Dra ett streck från varje bild till bokstaven den börjar med."
+  },
+  "K-229": {
+    "title": "Hitta bokstaven",
+    "instruction": "Ringa in varje bokstav som är lika med den i rutan."
+  },
+  "K-230": {
+    "title": "Vokaler och konsonanter",
+    "instruction": "Sortera varje bokstav till vokalerna eller konsonanterna."
+  },
+  "K-231": {
+    "title": "Bygg ordet",
+    "instruction": "Använd bokstäverna för att bygga ordet till varje bild."
+  },
+  "K-232": {
+    "title": "Ord som rimmar",
+    "instruction": "Dra ett streck mellan de två bilderna som rimmar."
+  },
+  "K-233": {
+    "title": "Räkna stavelserna",
+    "instruction": "Skriv hur många stavelser du hör i varje ord."
+  },
+  "K-234": {
+    "title": "Sortera efter stavelser",
+    "instruction": "Dra ett streck från varje bild till antalet stavelser."
+  },
+  "K-235": {
+    "title": "Sortera efter kategori",
+    "instruction": "Dra ett streck från varje bild till gruppen den hör till."
   }
 }

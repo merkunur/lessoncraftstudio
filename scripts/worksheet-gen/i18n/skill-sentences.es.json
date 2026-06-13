@@ -98,5 +98,25 @@
   "science-match": {
     "full": "Relacionar cada imagen con su pareja desarrolla el razonamiento para descubrir conexiones en el mundo natural.",
     "short": "Desarrolla la relación y el razonamiento."
+  },
+  "beginning-sounds": {
+    "full": "Nombrar el primer sonido de cada dibujo desarrolla el conocimiento de las letras y sus sonidos que está en el corazón de la lectura inicial.",
+    "short": "Desarrolla el sonido inicial y las letras."
+  },
+  "letter-knowledge": {
+    "full": "Reconocer las letras mayúsculas y minúsculas y su orden desarrolla el conocimiento del abecedario sobre el que se construye la lectura inicial.",
+    "short": "Desarrolla el reconocimiento de letras."
+  },
+  "word-building": {
+    "full": "Escuchar cada sonido y escribir la letra que falta desarrolla las destrezas de decodificación que los niños usan para leer sus primeras palabras.",
+    "short": "Desarrolla la decodificación de palabras."
+  },
+  "picture-vocabulary": {
+    "full": "Unir las palabras escritas con sus dibujos desarrolla el reconocimiento de palabras y el vocabulario que convierte las letras en significado.",
+    "short": "Desarrolla el vocabulario y la lectura."
+  },
+  "phonological-awareness": {
+    "full": "Oír los sonidos y las sílabas dentro de las palabras desarrolla la conciencia fonológica de la que depende la lectura fluida.",
+    "short": "Desarrolla la conciencia fonológica."
   }
 }

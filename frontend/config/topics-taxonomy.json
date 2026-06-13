@@ -1825,42 +1825,142 @@
       },
       "beginning-sounds": {
         "slug": {
-          "en": "beginning-sounds"
+          "en": "beginning-sounds",
+          "de": "anlaute",
+          "es": "sonidos-iniciales",
+          "fr": "sons-initiaux",
+          "it": "suoni-iniziali",
+          "pt": "sons-iniciais",
+          "nl": "beginklanken",
+          "sv": "forsta-ljudet",
+          "da": "forlyd",
+          "no": "foerstelyd",
+          "fi": "alkuaanteet"
         },
         "name": {
-          "en": "Beginning Sounds"
+          "en": "Beginning Sounds",
+          "de": "Anlaute",
+          "es": "Sonidos iniciales",
+          "fr": "Sons initiaux",
+          "it": "Suoni iniziali",
+          "pt": "Sons iniciais",
+          "nl": "Beginklanken",
+          "sv": "Första ljudet",
+          "da": "Forlyd",
+          "no": "Førstelyd",
+          "fi": "Alkuäänteet"
         }
       },
       "letter-knowledge": {
         "slug": {
-          "en": "letter-knowledge"
+          "en": "letter-knowledge",
+          "de": "buchstaben-erkennen",
+          "es": "conocimiento-de-letras",
+          "fr": "connaissance-des-lettres",
+          "it": "conoscenza-delle-lettere",
+          "pt": "conhecimento-das-letras",
+          "nl": "letterkennis",
+          "sv": "bokstavskunskap",
+          "da": "bogstavkendskab",
+          "no": "bokstavkjennskap",
+          "fi": "kirjaintuntemus"
         },
         "name": {
-          "en": "Letter Knowledge"
+          "en": "Letter Knowledge",
+          "de": "Buchstaben erkennen",
+          "es": "Conocimiento de letras",
+          "fr": "Connaissance des lettres",
+          "it": "Conoscenza delle lettere",
+          "pt": "Conhecimento das letras",
+          "nl": "Letterkennis",
+          "sv": "Bokstavskunskap",
+          "da": "Bogstavkendskab",
+          "no": "Bokstavkjennskap",
+          "fi": "Kirjaintuntemus"
         }
       },
       "word-building": {
         "slug": {
-          "en": "word-building"
+          "en": "word-building",
+          "de": "woerter-bauen",
+          "es": "formar-palabras",
+          "fr": "construction-de-mots",
+          "it": "costruzione-di-parole",
+          "pt": "montagem-de-palavras",
+          "nl": "woorden-bouwen",
+          "sv": "bygga-ord",
+          "da": "ordbygning",
+          "no": "ordbygging",
+          "fi": "sananrakennus"
         },
         "name": {
-          "en": "Word Building"
+          "en": "Word Building",
+          "de": "Wörter bauen",
+          "es": "Formar palabras",
+          "fr": "Construction de mots",
+          "it": "Costruzione di parole",
+          "pt": "Montagem de palavras",
+          "nl": "Woorden bouwen",
+          "sv": "Bygga ord",
+          "da": "Ordbygning",
+          "no": "Ordbygging",
+          "fi": "Sananrakennus"
         }
       },
       "picture-vocabulary": {
         "slug": {
-          "en": "picture-vocabulary"
+          "en": "picture-vocabulary",
+          "de": "wortschatz-mit-bildern",
+          "es": "vocabulario-con-dibujos",
+          "fr": "vocabulaire-en-images",
+          "it": "vocabolario-illustrato",
+          "pt": "vocabulario-com-figuras",
+          "nl": "woordenschat",
+          "sv": "bildordforrad",
+          "da": "ordforraad",
+          "no": "bildeordforraad",
+          "fi": "kuvasanasto"
         },
         "name": {
-          "en": "Picture Vocabulary"
+          "en": "Picture Vocabulary",
+          "de": "Wortschatz mit Bildern",
+          "es": "Vocabulario con dibujos",
+          "fr": "Vocabulaire en images",
+          "it": "Vocabolario illustrato",
+          "pt": "Vocabulário com figuras",
+          "nl": "Woordenschat",
+          "sv": "Bildordförråd",
+          "da": "Ordforråd",
+          "no": "Bildeordforråd",
+          "fi": "Kuvasanasto"
         }
       },
       "phonological-awareness": {
         "slug": {
-          "en": "phonological-awareness"
+          "en": "phonological-awareness",
+          "de": "laute-und-silben",
+          "es": "conciencia-fonologica",
+          "fr": "conscience-phonologique",
+          "it": "consapevolezza-fonologica",
+          "pt": "consciencia-fonologica",
+          "nl": "fonologisch-bewustzijn",
+          "sv": "fonologisk-medvetenhet",
+          "da": "sproglig-opmaerksomhed",
+          "no": "spraaklig-bevissthet",
+          "fi": "kielellinen-tietoisuus"
         },
         "name": {
-          "en": "Sounds & Syllables"
+          "en": "Sounds & Syllables",
+          "de": "Laute & Silben",
+          "es": "Conciencia fonológica",
+          "fr": "Conscience phonologique",
+          "it": "Consapevolezza fonologica",
+          "pt": "Consciência fonológica",
+          "nl": "Klanken en lettergrepen",
+          "sv": "Fonologisk medvetenhet",
+          "da": "Sproglig opmærksomhed",
+          "no": "Språklig bevissthet",
+          "fi": "Kielellinen tietoisuus"
         }
       }
     },

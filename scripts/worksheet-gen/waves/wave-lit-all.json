@@ -1,0 +1,9 @@
+{
+  "id": "wave-lit-all",
+  "seedEpoch": 1,
+  "locales": ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"],
+  "themes": [],
+  "difficulties": [2],
+  "variantsPerType": 1,
+  "types": ["K-221", "K-222", "K-223", "K-224", "K-225", "K-226", "K-227", "K-228", "K-229", "K-230", "K-231", "K-232", "K-233", "K-234", "K-235"]
+}

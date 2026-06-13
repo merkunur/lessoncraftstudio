@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Hjælpere i samfundet og deres redskaber",
     "instruction": "Tegn en streg fra hver hjælper til det redskab, de bruger."
+  },
+  "K-221": {
+    "title": "Forlyd",
+    "instruction": "Skriv det første bogstav, som hvert billede begynder med."
+  },
+  "K-222": {
+    "title": "Store og små bogstaver",
+    "instruction": "Tegn en streg fra hvert stort bogstav til det lille bogstav."
+  },
+  "K-223": {
+    "title": "Manglende bogstaver",
+    "instruction": "Skriv de bogstaver, der mangler, så alfabetet bliver færdigt."
+  },
+  "K-224": {
+    "title": "Den manglende lyd",
+    "instruction": "Skriv det bogstav, der mangler, så hvert ord bliver færdigt."
+  },
+  "K-225": {
+    "title": "Find ordet til billedet",
+    "instruction": "Tegn en streg fra hvert ord til det billede, det hører til."
+  },
+  "K-226": {
+    "title": "Udlyd",
+    "instruction": "Skriv det sidste bogstav, som hvert billede ender på."
+  },
+  "K-227": {
+    "title": "Lyden i midten",
+    "instruction": "Skriv den vokal, du hører midt i hvert ord."
+  },
+  "K-228": {
+    "title": "Sortér efter forlyd",
+    "instruction": "Tegn en streg fra hvert billede til det bogstav, det begynder med."
+  },
+  "K-229": {
+    "title": "Find bogstavet",
+    "instruction": "Sæt en ring om hvert bogstav, der er magen til det i kassen."
+  },
+  "K-230": {
+    "title": "Vokaler og konsonanter",
+    "instruction": "Sortér hvert bogstav som vokal eller konsonant."
+  },
+  "K-231": {
+    "title": "Byg ordet",
+    "instruction": "Brug bogstaverne til at bygge ordet til hvert billede."
+  },
+  "K-232": {
+    "title": "Rim-par",
+    "instruction": "Tegn en streg mellem de to billeder, der rimer."
+  },
+  "K-233": {
+    "title": "Tæl stavelserne",
+    "instruction": "Skriv, hvor mange stavelser du hører i hvert ord."
+  },
+  "K-234": {
+    "title": "Sortér efter stavelser",
+    "instruction": "Tegn en streg fra hvert billede til antallet af stavelser."
+  },
+  "K-235": {
+    "title": "Sortér i grupper",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
   }
 }

@@ -898,5 +898,65 @@
   "K-213": {
     "title": "Ammattilaiset ja heidän työvälineensä",
     "instruction": "Piirrä viiva jokaisesta ammattilaisesta hänen käyttämäänsä työvälineeseen."
+  },
+  "K-221": {
+    "title": "Sanan alkuäänne",
+    "instruction": "Kirjoita kirjain, jolla kukin kuva alkaa."
+  },
+  "K-222": {
+    "title": "Isot ja pienet kirjaimet",
+    "instruction": "Vedä viiva isosta kirjaimesta sen pieneen kirjaimeen."
+  },
+  "K-223": {
+    "title": "Puuttuvat kirjaimet",
+    "instruction": "Kirjoita puuttuvat kirjaimet ja täydennä aakkoset."
+  },
+  "K-224": {
+    "title": "Puuttuva äänne",
+    "instruction": "Kirjoita puuttuva kirjain ja täydennä jokainen sana."
+  },
+  "K-225": {
+    "title": "Yhdistä sana ja kuva",
+    "instruction": "Vedä viiva jokaisesta sanasta kuvaan, jota se tarkoittaa."
+  },
+  "K-226": {
+    "title": "Sanan loppuäänne",
+    "instruction": "Kirjoita kirjain, johon kukin kuva loppuu."
+  },
+  "K-227": {
+    "title": "Sanan keskiäänne",
+    "instruction": "Kirjoita vokaali, jonka kuulet sanan keskellä."
+  },
+  "K-228": {
+    "title": "Lajittele alkuäänteen mukaan",
+    "instruction": "Vedä viiva jokaisesta kuvasta kirjaimeen, jolla se alkaa."
+  },
+  "K-229": {
+    "title": "Etsi kirjain",
+    "instruction": "Ympyröi jokainen kirjain, joka on sama kuin laatikossa."
+  },
+  "K-230": {
+    "title": "Vokaalit ja konsonantit",
+    "instruction": "Lajittele jokainen kirjain vokaaleihin tai konsonantteihin."
+  },
+  "K-231": {
+    "title": "Rakenna sana",
+    "instruction": "Rakenna kirjaimista jokaisen kuvan sana."
+  },
+  "K-232": {
+    "title": "Riimiparit",
+    "instruction": "Vedä viiva kahden kuvan välille, jotka riimittelevät."
+  },
+  "K-233": {
+    "title": "Laske tavut",
+    "instruction": "Kirjoita, kuinka monta tavua kuulet jokaisessa sanassa."
+  },
+  "K-234": {
+    "title": "Lajittele tavujen mukaan",
+    "instruction": "Vedä viiva jokaisesta kuvasta sen tavujen lukumäärään."
+  },
+  "K-235": {
+    "title": "Lajittele ryhmiin",
+    "instruction": "Vedä viiva jokaisesta kuvasta ryhmään, johon se kuuluu."
   }
 }

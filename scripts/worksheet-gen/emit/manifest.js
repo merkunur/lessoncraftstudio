@@ -5,7 +5,9 @@
  * Contract notes (verified against scripts/publish-cli/):
  * - exercise_type = the collapsed family key (taxonomy-registered, Gate-1);
  *   generator.app mirrors it (publish.js appConfig fallback + selfMeta).
- * - variant_id = compact lowercase type id ('k002') — slug tail only.
+ * - variant_id = compact lowercase type id ('k002') — slug tail only; gains a
+ *   '-N' suffix for variant >1 (the variant axis — N distinct worksheets of one
+ *   type+theme+difficulty; v1 unchanged).
  * - exercise_mode: d2 → null (default-mode-emits-null §17.8.5), d1 → 'easy',
  *   d3 → 'hard' (both registered ×11 in axes.exercise-mode).
  * - age_range derives from the catalog id prefix (K/G1/G2/G3) and is emitted
@@ -73,6 +75,7 @@ function scrapeImagesUsed(html, cacheManifest) {
  */
 function buildManifest(o) {
   const { spec, difficulty, locale, deckId, generatedAt, strings } = o;
+  const variant = o.variant || 1;
   const themeKey = themeAxisKey(o.cacheTheme);
   const ageRange = ageRangeForSpec(spec);
   const imagesUsed = o.imagesUsed || [];
@@ -127,7 +130,12 @@ function buildManifest(o) {
       thumbnail: 'thumbnail.png',
     },
     content_family_id: null,
-    variant_id: variantIdForSpec(spec),
+    // variant_id is appended BARE to the slug seed (slug.js deriveSeedFromManifest)
+    // and (via deck-html.js) drives the "Set N" title/description disambiguator —
+    // so variant >1 yields a unique deterministic slug/title/desc, clearing the
+    // §17.8.17 uniqueness HALT gates. variant 1 keeps the legacy compact type id.
+    variant_id: variant > 1 ? variantIdForSpec(spec) + '-' + variant : variantIdForSpec(spec),
+    variant: variant,
     seo_trace: null,
   };
   // Round-trip check (catalog-export.js convention): must JSON-serialize cleanly.

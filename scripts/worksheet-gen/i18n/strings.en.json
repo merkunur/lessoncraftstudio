@@ -631,6 +631,10 @@
     "title": "What Time Is It?",
     "instruction": "Read each clock. Circle the matching time."
   },
+  "G2-250": {
+    "title": "Quarter Hours",
+    "instruction": "Read each clock. Circle the matching time."
+  },
   "G3-301": {
     "title": "Big Arrays",
     "instruction": "Count the rows of pictures. Write how many in all."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Cube Towers",
     "instruction": "Count all the cubes in each tower. Write the total."
+  },
+  "G3-354": {
+    "title": "To the Minute",
+    "instruction": "Read each clock. Circle the matching time."
+  },
+  "G3-355": {
+    "title": "12-Hour and 24-Hour Time",
+    "instruction": "Match each time to its 12-hour or 24-hour form. Circle the correct one."
+  },
+  "G3-356": {
+    "title": "Add and Subtract Time",
+    "instruction": "Start at the time shown, then add or subtract. Write the new time."
   },
   "G3-348": {
     "title": "Big Picture Sudoku",

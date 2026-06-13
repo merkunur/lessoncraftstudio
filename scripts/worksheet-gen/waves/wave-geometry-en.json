@@ -1,0 +1,10 @@
+{
+  "id": "wave-geometry-en",
+  "seedEpoch": 1,
+  "locales": ["en"],
+  "themes": ["animals", "fruits", "vehicles", "toys"],
+  "themesPerType": 1,
+  "difficulties": [2, 3],
+  "variantsPerType": 1,
+  "types": ["K-075", "K-076", "G2-242", "G2-245", "G2-247", "G2-248", "G3-337", "G3-340", "G3-341", "G3-342"]
+}

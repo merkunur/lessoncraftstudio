@@ -38,13 +38,18 @@ function parseArgs(argv) {
     decksRoot: DEFAULT_DECKS_DIR,
     sample: 0,
     dryRun: false,
-    landingLocale: null
+    landingLocale: null,
+    slugs: null   // --slugs-file=<path>: restrict to these slugs (newline list) — targeted small-batch regen
   };
   argv.slice(2).forEach(function (a) {
     if (a.indexOf('--locales=') === 0) out.locales = a.slice('--locales='.length).split(',').filter(Boolean);
     else if (a.indexOf('--decks-root=') === 0) out.decksRoot = a.slice('--decks-root='.length);
     else if (a.indexOf('--sample=') === 0) out.sample = parseInt(a.slice('--sample='.length), 10) || 0;
     else if (a.indexOf('--landing-locale=') === 0) out.landingLocale = a.slice('--landing-locale='.length) || null;
+    else if (a.indexOf('--slugs-file=') === 0) {
+      var sf = a.slice('--slugs-file='.length);
+      out.slugs = new Set(fs.readFileSync(sf, 'utf8').split('\n').map(function (s) { return s.trim(); }).filter(Boolean));
+    }
     else if (a === '--dry-run') out.dryRun = true;
   });
   if (out.landingLocale) out.locales = [out.landingLocale];
@@ -243,6 +248,7 @@ async function main() {
       entries = entries.filter(function (e) { return landingMap[e.slug]; });
       console.log('[regen-og] ' + loc + ': landing-aware mode — ' + Object.keys(landingMap).length + ' landings, ' + entries.length + ' matched decks');
     }
+    if (args.slugs) entries = entries.filter(function (e) { return args.slugs.has(e.slug); });
     if (args.sample) entries = entries.slice(0, args.sample);
     if (!args.landingLocale) console.log('[regen-og] ' + loc + ': ' + entries.length + ' decks');
 

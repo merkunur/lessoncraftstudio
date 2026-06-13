@@ -1087,264 +1087,308 @@
         "slug": {
           "en": "counting-pictures",
           "de": "bilder-zaehlen",
-          "es": "contar-con-dibujos"
+          "es": "contar-con-dibujos",
+          "nl": "tellen-met-plaatjes"
         },
         "name": {
           "en": "Counting Pictures",
           "de": "Zählen mit Bildern",
-          "es": "Contar con dibujos"
+          "es": "Contar con dibujos",
+          "nl": "Tellen met plaatjes"
         }
       },
       "counting-frames": {
         "slug": {
           "en": "counting-frames",
           "de": "zehnerfeld",
-          "es": "marcos-de-diez"
+          "es": "marcos-de-diez",
+          "nl": "tienraam"
         },
         "name": {
           "en": "Ten Frames",
           "de": "Zehnerfeld",
-          "es": "Marcos de diez"
+          "es": "Marcos de diez",
+          "nl": "Tienraam"
         }
       },
       "tally-counting": {
         "slug": {
           "en": "tally-counting",
           "de": "strichlisten",
-          "es": "marcas-de-conteo"
+          "es": "marcas-de-conteo",
+          "nl": "turven"
         },
         "name": {
           "en": "Tally Marks",
           "de": "Strichlisten",
-          "es": "Marcas de conteo"
+          "es": "Marcas de conteo",
+          "nl": "Turven"
         }
       },
       "number-charts": {
         "slug": {
           "en": "number-charts",
           "de": "hundertertafel",
-          "es": "tabla-del-100"
+          "es": "tabla-del-100",
+          "nl": "honderdveld"
         },
         "name": {
           "en": "Number Charts",
           "de": "Hundertertafel",
-          "es": "Tabla del 100"
+          "es": "Tabla del 100",
+          "nl": "Honderdveld"
         }
       },
       "comparing-numbers": {
         "slug": {
           "en": "comparing-numbers",
           "de": "zahlen-vergleichen",
-          "es": "comparar-numeros"
+          "es": "comparar-numeros",
+          "nl": "getallen-vergelijken"
         },
         "name": {
           "en": "Comparing Numbers",
           "de": "Zahlen vergleichen",
-          "es": "Comparar números"
+          "es": "Comparar números",
+          "nl": "Getallen vergelijken"
         }
       },
       "comparing-groups": {
         "slug": {
           "en": "comparing-groups",
           "de": "mengen-vergleichen",
-          "es": "comparar-cantidades"
+          "es": "comparar-cantidades",
+          "nl": "groepen-vergelijken"
         },
         "name": {
           "en": "Comparing Groups",
           "de": "Mengen vergleichen",
-          "es": "Comparar cantidades"
+          "es": "Comparar cantidades",
+          "nl": "Groepen vergelijken"
         }
       },
       "comparing-sizes": {
         "slug": {
           "en": "comparing-sizes",
           "de": "groessen-vergleichen",
-          "es": "comparar-tamanos"
+          "es": "comparar-tamanos",
+          "nl": "groottes-vergelijken"
         },
         "name": {
           "en": "Comparing Sizes",
           "de": "Größen vergleichen",
-          "es": "Comparar tamaños"
+          "es": "Comparar tamaños",
+          "nl": "Groottes vergelijken"
         }
       },
       "number-lines": {
         "slug": {
           "en": "number-lines",
           "de": "zahlenstrahl",
-          "es": "recta-numerica"
+          "es": "recta-numerica",
+          "nl": "getallenlijn"
         },
         "name": {
           "en": "Number Lines",
           "de": "Zahlenstrahl",
-          "es": "Recta numérica"
+          "es": "Recta numérica",
+          "nl": "Getallenlijn"
         }
       },
       "base-ten": {
         "slug": {
           "en": "base-ten",
           "de": "stellenwert",
-          "es": "valor-posicional"
+          "es": "valor-posicional",
+          "nl": "getalbegrip"
         },
         "name": {
           "en": "Base Ten Blocks",
           "de": "Stellenwert",
-          "es": "Valor posicional"
+          "es": "Valor posicional",
+          "nl": "Getalbegrip"
         }
       },
       "telling-time": {
         "slug": {
           "en": "telling-time",
           "de": "uhrzeit",
-          "es": "aprender-la-hora"
+          "es": "aprender-la-hora",
+          "nl": "klokkijken"
         },
         "name": {
           "en": "Telling Time",
           "de": "Uhrzeit lernen",
-          "es": "Aprender la hora"
+          "es": "Aprender la hora",
+          "nl": "Klokkijken"
         }
       },
       "fractions": {
         "slug": {
           "en": "fractions",
           "de": "brueche",
-          "es": "fracciones"
+          "es": "fracciones",
+          "nl": "breuken"
         },
         "name": {
           "en": "Fractions",
           "de": "Brüche",
-          "es": "Fracciones"
+          "es": "Fracciones",
+          "nl": "Breuken"
         }
       },
       "graphing-data": {
         "slug": {
           "en": "graphing-data",
           "de": "diagramme",
-          "es": "graficos-y-datos"
+          "es": "graficos-y-datos",
+          "nl": "grafieken-lezen"
         },
         "name": {
           "en": "Graphs and Data",
           "de": "Diagramme und Daten",
-          "es": "Gráficos y datos"
+          "es": "Gráficos y datos",
+          "nl": "Grafieken lezen"
         }
       },
       "arrays-multiplication": {
         "slug": {
           "en": "arrays-multiplication",
           "de": "einmaleins",
-          "es": "multiplicacion"
+          "es": "multiplicacion",
+          "nl": "keersommen"
         },
         "name": {
           "en": "Arrays and Multiplication",
           "de": "Erstes Einmaleins",
-          "es": "Multiplicación"
+          "es": "Multiplicación",
+          "nl": "Keersommen"
         }
       },
       "geometry": {
         "slug": {
           "en": "geometry",
           "de": "geometrie",
-          "es": "geometria"
+          "es": "geometria",
+          "nl": "meetkunde"
         },
         "name": {
           "en": "Geometry",
           "de": "Geometrie",
-          "es": "Geometría"
+          "es": "Geometría",
+          "nl": "Meetkunde"
         }
       },
       "measurement": {
         "slug": {
           "en": "measurement",
           "de": "messen",
-          "es": "medicion"
+          "es": "medicion",
+          "nl": "meten"
         },
         "name": {
           "en": "Measurement",
           "de": "Messen",
-          "es": "Medición"
+          "es": "Medición",
+          "nl": "Meten"
         }
       },
       "visual-logic": {
         "slug": {
           "en": "visual-logic",
           "de": "logikraetsel",
-          "es": "logica-visual"
+          "es": "logica-visual",
+          "nl": "visuele-logica"
         },
         "name": {
           "en": "Visual Logic",
           "de": "Logikrätsel",
-          "es": "Lógica visual"
+          "es": "Lógica visual",
+          "nl": "Visuele logica"
         }
       },
       "visual-discrimination": {
         "slug": {
           "en": "visual-discrimination",
           "de": "visuelle-wahrnehmung",
-          "es": "discriminacion-visual"
+          "es": "discriminacion-visual",
+          "nl": "visuele-waarneming"
         },
         "name": {
           "en": "Visual Discrimination",
           "de": "Visuelle Wahrnehmung",
-          "es": "Discriminación visual"
+          "es": "Discriminación visual",
+          "nl": "Visuele waarneming"
         }
       },
       "visual-matching": {
         "slug": {
           "en": "visual-matching",
           "de": "bilder-zuordnen",
-          "es": "emparejamiento-visual"
+          "es": "emparejamiento-visual",
+          "nl": "visueel-koppelen"
         },
         "name": {
           "en": "Visual Matching",
           "de": "Bilder zuordnen",
-          "es": "Emparejamiento visual"
+          "es": "Emparejamiento visual",
+          "nl": "Visueel koppelen"
         }
       },
       "patterns": {
         "slug": {
           "en": "patterns",
           "de": "muster-fortsetzen",
-          "es": "patrones"
+          "es": "patrones",
+          "nl": "patronen"
         },
         "name": {
           "en": "Patterns",
           "de": "Muster fortsetzen",
-          "es": "Patrones"
+          "es": "Patrones",
+          "nl": "Patronen"
         }
       },
       "position-words": {
         "slug": {
           "en": "position-words",
           "de": "lagebeziehungen",
-          "es": "conceptos-espaciales"
+          "es": "conceptos-espaciales",
+          "nl": "positiewoorden"
         },
         "name": {
           "en": "Position Words",
           "de": "Lagebeziehungen",
-          "es": "Conceptos espaciales"
+          "es": "Conceptos espaciales",
+          "nl": "Positiewoorden"
         }
       },
       "sorting-categories": {
         "slug": {
           "en": "sorting-categories",
           "de": "sortieren-und-ordnen",
-          "es": "clasificar-y-agrupar"
+          "es": "clasificar-y-agrupar",
+          "nl": "sorteren"
         },
         "name": {
           "en": "Sorting and Categorizing",
           "de": "Sortieren und Ordnen",
-          "es": "Clasificar y agrupar"
+          "es": "Clasificar y agrupar",
+          "nl": "Sorteren"
         }
       },
       "picture-arithmetic": {
         "slug": {
           "en": "picture-arithmetic",
           "de": "rechnen-mit-bildern",
-          "es": "sumas-y-restas"
+          "es": "sumas-y-restas",
+          "nl": "plaatjes-rekenen"
         },
         "name": {
           "en": "Picture Math",
           "de": "Rechnen mit Bildern",
-          "es": "Sumas y restas con dibujos"
+          "es": "Sumas y restas con dibujos",
+          "nl": "Plaatjes rekenen"
         }
       }
     },

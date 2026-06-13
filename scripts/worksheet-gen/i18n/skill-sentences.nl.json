@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Vriendelijke plaatjessetjes tellen bouwt aan een-op-een koppelen en het vroege getalgevoel achter zelfverzekerd rekenen.",
+    "short": "Bouwt aan tellen en vroeg getalgevoel."
+  },
+  "counting-frames": {
+    "full": "Het tienraam geeft kinderen een duidelijke visuele structuur om te tellen en getallen tot tien op te bouwen.",
+    "short": "Bouwt getalgevoel op met het tienraam."
+  },
+  "tally-counting": {
+    "full": "Tellen met turfjes leert kinderen informatie te ordenen en handig te tellen in groepjes van vijf.",
+    "short": "Oefen handig tellen en noteren met turfjes."
+  },
+  "number-charts": {
+    "full": "Werken met het honderdveld versterkt de telvolgorde, sprongpatronen en het vroege denken over plaatswaarde.",
+    "short": "Versterkt telvolgorde en getalpatronen."
+  },
+  "comparing-numbers": {
+    "full": "Getallen vergelijken met groter dan, kleiner dan en gelijk aan bouwt aan het denken over hoeveelheid.",
+    "short": "Bouwt aan groter-dan en kleiner-dan denken."
+  },
+  "comparing-groups": {
+    "full": "Bepalen welke groep meer, minder of evenveel heeft bouwt aan vergelijken nog voor kinderen getalsymbolen gebruiken.",
+    "short": "Bouwt aan meer-minder-evenveel vergelijken."
+  },
+  "comparing-sizes": {
+    "full": "Groot en klein, lang en kort sorteren bouwt aan de woordenschat over grootte die jonge kinderen dagelijks gebruiken.",
+    "short": "Bouwt aan woordenschat groot-klein en lang-kort."
+  },
+  "number-lines": {
+    "full": "Springen over de getallenlijn maakt optellen, aftrekken en de getalvolgorde zichtbaar en concreet voor jonge kinderen.",
+    "short": "Maakt optellen zichtbaar op de getallenlijn."
+  },
+  "base-ten": {
+    "full": "Blokjes maken de abstracte plaatswaarde tastbaar: honderdtallen, tientallen en eenheden in een oogopslag.",
+    "short": "Maakt plaatswaarde concreet met losse blokjes."
+  },
+  "telling-time": {
+    "full": "De analoge klok lezen op het hele uur, halve uur en de vijf minuten bouwt aan een vaardigheid voor het leven.",
+    "short": "Oefen klokkijken met vriendelijke wijzerplaten."
+  },
+  "fractions": {
+    "full": "Helften, derden en vierden arceren, benoemen en vergelijken geeft kinderen een eerste concrete kennismaking met breuken.",
+    "short": "Een eerste concrete kennismaking met breuken."
+  },
+  "graphing-data": {
+    "full": "Staafdiagrammen, beelddiagrammen en turftabellen lezen leert kinderen gegevens te ordenen en er vragen over te beantwoorden.",
+    "short": "Bouwt aan datavaardigheid met grafieken."
+  },
+  "arrays-multiplication": {
+    "full": "Rijen-en-kolommen met plaatjes maken van herhaald optellen de basis voor het denken in keersommen.",
+    "short": "Bouwt aan keersom-denken met plaatjes."
+  },
+  "geometry": {
+    "full": "Vormen benoemen, zijden en hoeken tellen en symmetrie ontdekken bouwt aan de ruimtelijke taal van de meetkunde.",
+    "short": "Bouwt vormnamen en vroege meetkunde op."
+  },
+  "measurement": {
+    "full": "Meten met liniaal en blokjes en lengtes vergelijken bouwt stap voor stap aan praktisch meetbegrip.",
+    "short": "Bouwt stap voor stap aan praktisch meetbegrip."
+  },
+  "visual-logic": {
+    "full": "Fotosudoku en redeneerroosters rekken het logisch denken op, want elke puzzel heeft precies een juiste oplossing.",
+    "short": "Rekt logisch denken op met fotopuzzels."
+  },
+  "visual-discrimination": {
+    "full": "Schaduwen, spiegelplaatjes en uitzonderingen spotten scherpt de visuele waarneming die achter vlot lezen zit.",
+    "short": "Scherpt visuele waarneming en oog voor detail."
+  },
+  "visual-matching": {
+    "full": "Bij elkaar horende plaatjes koppelen versterkt het visuele geheugen en het denken over gelijk en verschillend.",
+    "short": "Versterkt visueel koppelen en geheugen."
+  },
+  "patterns": {
+    "full": "Beeldpatronen voortzetten en aanvullen bouwt aan het algebraïsch denken dat lang voor de algebra begint.",
+    "short": "Bouwt aan patroonherkenning en denken."
+  },
+  "position-words": {
+    "full": "Boven, onder, links en rechts komen tot leven in plaatjesscenes die de ruimtelijke woordenschat opbouwen.",
+    "short": "Bouwt aan positiewoorden en richtingsgevoel."
+  },
+  "sorting-categories": {
+    "full": "Plaatjes in categorieën sorteren bouwt aan het classificeren dat kinderen gebruiken bij rekenen, lezen en wereldoriëntatie.",
+    "short": "Bouwt aan sorteren en leren classificeren."
+  },
+  "picture-arithmetic": {
+    "full": "Optellen en aftrekken met plaatjesgroepjes laat kinderen rekenen concreet beheersen voor de abstracte cijfers komen.",
+    "short": "Concreet rekenen met plaatjesgroepjes."
+  }
+}

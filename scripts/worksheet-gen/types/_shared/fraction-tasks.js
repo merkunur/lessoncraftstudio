@@ -83,7 +83,10 @@ function makeFractionType(cfg) {
         };
       }
 
-      for (let i = 0; i < d.cards; i++) {
+      // whole-mode stacks 3 tall option bars per card — fewer cards gives each
+      // the vertical room so nothing clips the overflow:hidden card.
+      const nCards = mode === 'whole' ? 3 : d.cards;
+      for (let i = 0; i < nCards; i++) {
         let stage;
         if (mode === 'shade') {
           const { num, den } = pickFrac();
@@ -163,24 +166,31 @@ function makeFractionType(cfg) {
             nl.svg + `<span class="ws-pattern-choices">${chips}</span></div>`;
         } else if (mode === 'whole') {
           const den = rng.pick(d.ds.filter((x) => x <= 6));
-          const unitW = 36;
+          // Fixed-cell bars (HTML, not fractionShape): every cell is the same
+          // 32px square, so the reference "one part" matches each answer cell AND
+          // the bar height is FIXED (not scaled by the denominator) — 3 stacked
+          // bars never overflow the overflow:hidden card. (fractionShape couples
+          // width+height to size, which both mismatched cells and clipped.)
+          const CELL = 32;
+          const cellsBar = (parts, shaded) =>
+            `<span style="display:inline-flex">` +
+            Array.from({ length: parts }, () =>
+              `<span style="width:${CELL}px;height:${CELL}px;box-sizing:border-box;border:2.5px solid #146B5E;border-radius:5px;background:${shaded ? '#DDEBE8' : '#FFFFFF'};margin:1.5px"></span>`
+            ).join('') + `</span>`;
           const bar = (parts, mark) =>
-            `<span class="ws-pattern-chip" style="width:auto;height:auto;border-radius:12px;padding:8px"${mark ? ' data-lcs-correct="1"' : ''} data-lcs-len="${parts}">` +
-            fractionShape({ shape: 'bar', d: parts, shaded: 0, size: (unitW * parts) / 1.5 }).svg + `</span>`;
+            `<span class="ws-pattern-chip" style="width:auto;height:auto;border-radius:12px;padding:7px"${mark ? ' data-lcs-correct="1"' : ''} data-lcs-len="${parts}">` +
+            cellsBar(parts, false) + `</span>`;
           const wrongs = [den - 1, den + 1].filter((x) => x >= 2);
           const chips = rng.shuffle([{ p: den, ok: true }, ...wrongs.map((p) => ({ p, ok: false }))]).map((o) => bar(o.p, o.ok)).join('');
           stage = `<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:6px 12px" data-lcs-den="${den}">` +
             `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:8px">` +
-            // reference = exactly ONE part: size/1.5 so its single cell width
-            // (size*1.5/d) equals an answer-bar cell (the bars below use size
-            // unitW*parts/1.5 → 36px cells); was unitW*1.5 → an 81px mismatched part.
-            fractionShape({ shape: 'bar', d: 1, shaded: 1, size: unitW / 1.5 }).svg + FRAC(1, den, 20) + `</span>` +
+            cellsBar(1, true) + FRAC(1, den, 20) + `</span>` +
             `<span class="ws-pattern-choices" style="flex-direction:column;gap:10px;align-items:flex-end">${chips}</span></div>`;
         }
         cards.push(stage);
       }
       const cols = (mode === 'shade' || mode === 'name') ? 2 : 1;
-      return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(d.cards / cols) }), meta: {} };
+      return { bodyHtml: cardGrid({ cards, cols, rows: Math.ceil(cards.length / cols) }), meta: {} };
     },
 
     async verify(page) {

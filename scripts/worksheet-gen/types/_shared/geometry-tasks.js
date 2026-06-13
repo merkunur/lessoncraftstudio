@@ -110,9 +110,14 @@ function makeGeometryType(cfg) {
       }
 
       if (mode === 'solid-counts') {
-        const solids = rng.shuffle(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && !SHAPES_3D[k].curved));
-        const extra = rng.shuffle(['cylinder', 'cone'].filter((k) => have.includes(k) && facet === 'faces'));
-        const picked = [...solids, ...extra].slice(0, 4);
+        // 5-solid pool (cube, rectangular_box, pyramid, sphere, cylinder —
+        // curved sphere/cylinder counts are in shape-data.js + the verify SOLIDS
+        // map, standard K-3 convention). Excluding only the non-curved set left 3
+        // polyhedra so edges/vertices variants + difficulty levels rendered
+        // near-identical; 4-of-5 per seed → distinct mixes per (type,difficulty).
+        // 'cone' is EXCLUDED: its shapes-theme art is a frustum (flat top) so the
+        // true-cone counts (1 edge / 1 vertex) don't match the drawing.
+        const picked = rng.shuffle(Object.keys(SHAPES_3D).filter((k) => have.includes(k) && k !== 'cone')).slice(0, 4);
         picked.forEach((k) => {
           cards.push(`<div class="ws-card-stage" style="gap:30px" data-lcs-shape="${k}" data-lcs-count="${SHAPES_3D[k][facet]}">` +
             shapeImg(k, 120) + answerBox({ w: 64, h: 52, answer: SHAPES_3D[k][facet] }) + `</div>`);

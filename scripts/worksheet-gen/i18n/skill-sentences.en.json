@@ -98,5 +98,21 @@
   "science-match": {
     "full": "Matching each picture to its partner builds the reasoning children use to notice connections in the world around them.",
     "short": "Builds matching and reasoning skills."
+  },
+  "beginning-sounds": {
+    "full": "Naming the first sound in each picture builds the letter-sound knowledge at the heart of early reading.",
+    "short": "Builds beginning-sound and letter-sound skills."
+  },
+  "letter-knowledge": {
+    "full": "Recognizing capital and small letters and their order builds the alphabet knowledge early reading is built on.",
+    "short": "Builds letter recognition and alphabet skills."
+  },
+  "word-building": {
+    "full": "Listening for each sound and writing the missing letter builds the decoding skills children use to read their first words.",
+    "short": "Builds decoding and word-building skills."
+  },
+  "picture-vocabulary": {
+    "full": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
+    "short": "Builds word recognition and vocabulary skills."
   }
 }

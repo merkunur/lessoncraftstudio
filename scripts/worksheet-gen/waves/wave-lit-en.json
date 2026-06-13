@@ -1,0 +1,9 @@
+{
+  "id": "wave-lit-en",
+  "seedEpoch": 1,
+  "locales": ["en"],
+  "themes": [],
+  "difficulties": [2],
+  "variantsPerType": 1,
+  "types": ["K-221", "K-222", "K-223", "K-224", "K-225"]
+}

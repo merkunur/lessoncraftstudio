@@ -1,0 +1,9 @@
+{
+  "id": "wave-011",
+  "seedEpoch": 1,
+  "locales": ["fi"],
+  "themes": ["animals", "fruits", "vehicles", "toys", "shapes"],
+  "themesPerType": 2,
+  "difficulties": [2],
+  "types": "all"
+}

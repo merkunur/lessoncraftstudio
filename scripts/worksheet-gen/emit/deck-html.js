@@ -24,16 +24,33 @@
  * strip (visible + guard script), and <style id="lcs-embed-hide"> baked.
  */
 'use strict';
+const fs = require('fs');
 const path = require('path');
 const seoHead = require('../../publish-cli/build-seo-head.js');
 const i18n = require('../../publish-cli/i18n.js');
 const taxonomy = require('../../publish-cli/taxonomy.js');
 const TAXONOMY_JSON = require('../../../frontend/config/topics-taxonomy.json');
 const TITLE_CONFIG = require('../../publish-cli/seo-title-config.json');
+
 // Per-family skill sentences (the printable analogue of publish-cli's
 // seo-skill-sentences.json): join bandedDescription's middle pool so
 // short-title/themeless types still reach the 120-char floor.
-const SKILL_SENTENCES = require('../i18n/skill-sentences.en.json');
+// Per-locale files (skill-sentences.<locale>.json) authored by the non-EN
+// commission; chain mirrors i18n/strings.js: locale file → en.
+const _skillFiles = {};
+function skillSentencesFile(locale) {
+  if (!(locale in _skillFiles)) {
+    const p = path.join(__dirname, '..', 'i18n', 'skill-sentences.' + locale + '.json');
+    _skillFiles[locale] = fs.existsSync(p) ? JSON.parse(fs.readFileSync(p, 'utf8')) : null;
+  }
+  return _skillFiles[locale];
+}
+function skillSentenceFor(familyKey, locale) {
+  const loc = locale !== 'en' && skillSentencesFile(locale);
+  if (loc && loc[familyKey] && loc[familyKey].full && loc[familyKey].short) return loc[familyKey];
+  const en = skillSentencesFile('en');
+  return (en && en[familyKey]) || {};
+}
 
 const CANONICAL_BASE = 'https://www.lessoncraftstudio.com';
 
@@ -149,6 +166,7 @@ function buildDeckHtml(o) {
   const themeName = themeNameFor(themeKey, locale);
   const levelLocalized = levelFor(manifest.age_range, locale);
   const modeName = seoHead.deriveExerciseModeName(manifest.exercise_mode, locale, TAXONOMY_JSON);
+  const skill = skillSentenceFor(spec.exerciseType, locale);
 
   const seoBlock = seoHead.buildSeoHead({
     language: locale,
@@ -164,8 +182,8 @@ function buildDeckHtml(o) {
     printOrPlay: word(locale, 'download_pdf', 'Download the free PDF'),
     educationalLevelLocalized: levelLocalized,
     titleConfig: TITLE_CONFIG[locale] || TITLE_CONFIG._default,
-    skillSentence: (SKILL_SENTENCES[spec.exerciseType] || {}).full || '',
-    skillSentenceShort: (SKILL_SENTENCES[spec.exerciseType] || {}).short || '',
+    skillSentence: skill.full || '',
+    skillSentenceShort: skill.short || '',
   });
 
   const downloadLabel = word(locale, 'download_pdf', 'Download the free PDF');
@@ -216,4 +234,4 @@ function buildDeckHtml(o) {
   ].join('\n');
 }
 
-module.exports = { buildDeckHtml, themeNameFor, typeAxisFor, levelFor };
+module.exports = { buildDeckHtml, themeNameFor, typeAxisFor, levelFor, skillSentenceFor };

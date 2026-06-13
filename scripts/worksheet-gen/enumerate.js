@@ -23,6 +23,8 @@
  * staging ZIP basename (idempotent resume).
  */
 'use strict';
+const fs = require('fs');
+const path = require('path');
 const { loadAllTypes } = require('./lib/load-types.js');
 const { instanceSeed } = require('./lib/rng.js');
 const { themeAxisKey, variantIdForSpec } = require('./emit/manifest.js');
@@ -98,6 +100,24 @@ function enumerate(plan) {
   });
 
   const specs = selectSpecs(plan.types);
+
+  // Pre-flight: non-EN locales need the full authored i18n layer (the lint
+  // gate's invariants, asserted fail-fast here before any render).
+  const nonEn = plan.locales.filter((l) => l !== 'en');
+  for (const locale of nonEn) {
+    for (const f of ['strings.' + locale + '.json', 'skill-sentences.' + locale + '.json']) {
+      if (!fs.existsSync(path.join(__dirname, 'i18n', f))) {
+        throw new Error('enumerate: missing i18n/' + f + ' (author the locale layer first; see lint-locale.js)');
+      }
+    }
+    for (const fam of new Set(specs.map((s) => s.exerciseType))) {
+      const entry = TAXONOMY.axes['exercise-type'][fam];
+      if (!entry || !entry.slug || !entry.slug[locale] || !entry.name || !entry.name[locale]) {
+        throw new Error('enumerate: family key "' + fam + '" missing taxonomy slug/name for locale ' + locale);
+      }
+    }
+  }
+
   const instances = [];
   const skipped = [];
   specs.forEach((spec, idx) => {

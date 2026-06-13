@@ -830,7 +830,9 @@
       "free_interactive": "Free interactive",
       "for": "for",
       "print_or_play_online": "Print or play online",
-      "variant_label": "Set"
+      "variant_label": "Set",
+      "free_printable": "Free printable",
+      "download_pdf": "Download the free PDF"
     },
     "deckCardAlt": {
       "withTheme": "Preview of {exerciseType} worksheet featuring {theme} for {level}",

@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Count and Circle",
+    "instruction": "Count the pictures in each box. Circle the right number."
+  },
+  "K-004": {
+    "title": "Ten-Frame Count",
+    "instruction": "Count the pictures in the frame. Write the number."
+  },
+  "K-005": {
+    "title": "Fill the Frame",
+    "instruction": "Draw a dot in the frame for each one the number shows."
+  },
+  "K-006": {
+    "title": "Count and Write",
+    "instruction": "Count the pictures in each box. Write the number."
+  },
+  "K-007": {
+    "title": "Count and Match",
+    "instruction": "Count the pictures. Draw a line to the right number."
+  },
+  "K-008": {
+    "title": "More or Less?",
+    "instruction": "Look at both groups. Circle the group that has MORE."
+  },
+  "K-009": {
+    "title": "Which Has Fewer?",
+    "instruction": "Look at both groups. Circle the group that has FEWER."
+  },
+  "K-010": {
+    "title": "Find the Equal Groups",
+    "instruction": "Two groups have the same number. Circle both of them."
+  },
+  "K-011": {
+    "title": "Count and Color",
+    "instruction": "Color exactly as many pictures as the number shows."
+  },
+  "K-012": {
+    "title": "One for Each",
+    "instruction": "Give each one a partner. Draw a line to connect them one by one."
+  },
+  "K-013": {
+    "title": "Count Each Kind",
+    "instruction": "Count each kind of picture. Write how many you find."
+  },
+  "K-014": {
+    "title": "Make Your Tally",
+    "instruction": "Count the pictures. Draw tally marks in the box."
+  },
+  "K-015": {
+    "title": "Read the Tally",
+    "instruction": "Count the tally marks. Write the number."
+  },
+  "K-016": {
+    "title": "Odd or Even?",
+    "instruction": "Pair them up! If one is left over, the number is odd."
+  },
+  "K-017": {
+    "title": "Quick Look!",
+    "instruction": "Do not count one by one! Look quickly and circle how many."
+  },
+  "K-018": {
+    "title": "How Many? Quick!",
+    "instruction": "Look quickly and circle how many you see."
+  },
+  "K-019": {
+    "title": "Missing Numbers to 10",
+    "instruction": "Count along the strip. Write each missing number."
+  },
+  "K-020": {
+    "title": "Missing Numbers to 20",
+    "instruction": "Count along the strip. Write each missing number."
+  },
+  "K-021": {
+    "title": "Before and After",
+    "instruction": "Write the number that comes before and the one that comes after."
+  },
+  "K-022": {
+    "title": "Stuck in the Middle",
+    "instruction": "Write the number that comes between."
+  },
+  "K-023": {
+    "title": "Blast Off! 10, 9, 8…",
+    "instruction": "Count backward. Write each missing number."
+  },
+  "K-024": {
+    "title": "Frame Match",
+    "instruction": "Draw a line from each number to its ten-frame."
+  },
+  "K-025": {
+    "title": "Tally Match",
+    "instruction": "Draw a line from each number to its tally marks."
+  },
+  "K-027": {
+    "title": "Count the Array",
+    "instruction": "Count the rows of pictures. Write how many in all."
+  },
+  "K-028": {
+    "title": "How Many Altogether?",
+    "instruction": "Count both groups together. Write how many in all."
+  },
+  "K-029": {
+    "title": "Take a Good Guess!",
+    "instruction": "Do not count! Circle the better guess, then check by counting."
+  },
+  "K-030": {
+    "title": "First, Second, Third…",
+    "instruction": "Start at the arrow. Circle the picture at the position shown."
+  },
+  "K-031": {
+    "title": "What Position?",
+    "instruction": "Start at the arrow. Write each marked picture’s position in its circle."
+  },
+  "K-032": {
+    "title": "Big and Small",
+    "instruction": "Circle the BIGGEST one in each row."
+  },
+  "K-033": {
+    "title": "Small, Medium, Big",
+    "instruction": "Number the pictures from 1 (smallest) to 3 (biggest)."
+  },
+  "K-034": {
+    "title": "Smallest to Biggest",
+    "instruction": "Number the pictures from 1 (smallest) to 5 (biggest)."
+  },
+  "K-035": {
+    "title": "Tall and Short",
+    "instruction": "Circle the TALLEST one in each row."
+  },
+  "K-036": {
+    "title": "Short to Tall",
+    "instruction": "Number the pictures from 1 (shortest) to 4 (tallest)."
+  },
+  "K-037": {
+    "title": "Long and Short",
+    "instruction": "Circle the LONGEST one in each row."
+  },
+  "K-038": {
+    "title": "Heavy or Light?",
+    "instruction": "Think about real life! Circle the HEAVIER one."
+  },
+  "K-039": {
+    "title": "Same and Different",
+    "instruction": "Three pictures are the same. Circle the one that is different."
+  },
+  "K-040": {
+    "title": "Big Ones Only",
+    "instruction": "Circle every BIG picture. Leave the small ones alone."
+  },
+  "K-042": {
+    "title": "Sort It Out",
+    "instruction": "Draw a line from each picture to the bin where it belongs."
+  },
+  "K-043": {
+    "title": "Which One Is Different?",
+    "instruction": "Look at each row. Circle the picture that does not belong."
+  },
+  "K-044": {
+    "title": "Find the Different Size",
+    "instruction": "Look at each row. Circle the one that is a different size."
+  },
+  "K-046": {
+    "title": "What Comes Next?",
+    "instruction": "Look at the pattern. Circle what comes next."
+  },
+  "K-047": {
+    "title": "ABC Patterns",
+    "instruction": "Look at the pattern. Circle what comes next."
+  },
+  "K-048": {
+    "title": "AABB Patterns",
+    "instruction": "Look at the pattern. Circle what comes next."
+  },
+  "K-049": {
+    "title": "Complete the Pattern",
+    "instruction": "A picture is missing. Circle what belongs in the empty box."
+  },
+  "K-050": {
+    "title": "Big and Small Patterns",
+    "instruction": "Look at the pattern. Circle what comes next."
+  },
+  "K-052": {
+    "title": "Up and Down Patterns",
+    "instruction": "Look at the pattern. Circle what comes next."
+  },
+  "K-053": {
+    "title": "Growing Patterns",
+    "instruction": "The pattern grows. Circle the group that comes next."
+  },
+  "K-057": {
+    "title": "Match the Shadow",
+    "instruction": "Draw a line from each picture to its shadow."
+  },
+  "K-058": {
+    "title": "Find the Pairs",
+    "instruction": "Every picture has a twin. Draw a line between each pair."
+  },
+  "K-059": {
+    "title": "Find and Circle",
+    "instruction": "Find every picture like the one in the box. Circle them all."
+  },
+  "K-060": {
+    "title": "I Spy…",
+    "instruction": "Look closely! Count each kind and write the number."
+  },
+  "K-061": {
+    "title": "Spot the Differences",
+    "instruction": "Compare the two pictures. Circle what changed on the right."
+  },
+  "K-062": {
+    "title": "Find the Twins",
+    "instruction": "Two pictures are exactly the same. Find them and circle both."
+  },
+  "K-063": {
+    "title": "Mirror, Mirror",
+    "instruction": "Circle the picture that shows the mirror image."
+  },
+  "K-064": {
+    "title": "On, Under, Beside",
+    "instruction": "Circle the picture that is ON the box."
+  },
+  "K-065": {
+    "title": "Left and Right",
+    "instruction": "Circle every picture on the LEFT side of the line."
+  },
+  "K-066": {
+    "title": "Top, Middle, Bottom",
+    "instruction": "Circle every picture in the MIDDLE row."
+  },
+  "K-067": {
+    "title": "Inside and Outside",
+    "instruction": "Circle every picture INSIDE the big shape."
+  },
+  "K-068": {
+    "title": "What Fits the Gap?",
+    "instruction": "Each row shows one kind of picture. Circle the piece that fits the empty box."
+  },
+  "K-069": {
+    "title": "What Is It?",
+    "instruction": "Only part of the picture is showing. Circle the whole picture it belongs to."
+  },
+  "K-070": {
+    "title": "Shape Hunt",
+    "instruction": "Find every shape like the one in the box. Circle them all."
+  },
+  "K-075": {
+    "title": "Count the Sides",
+    "instruction": "Count the sides of each shape. Write the number."
+  },
+  "K-076": {
+    "title": "Sort by Sides",
+    "instruction": "Draw a line from each shape to its number of sides."
+  },
+  "K-077": {
+    "title": "Shape Patterns",
+    "instruction": "Look at the pattern. Circle the shape that comes next."
+  },
+  "K-078": {
+    "title": "Shape Twins",
+    "instruction": "Every shape has a twin. Draw a line between each pair."
+  },
+  "K-079": {
+    "title": "Big Shapes, Small Shapes",
+    "instruction": "Circle the BIGGEST shape in each row."
+  },
+  "K-080": {
+    "title": "Which Shape Is Different?",
+    "instruction": "Look at each row. Circle the shape that does not belong."
+  },
+  "G1-101": {
+    "title": "Add the Pictures",
+    "instruction": "Count both groups. Write how many altogether."
+  },
+  "G1-102": {
+    "title": "Picture Addition",
+    "instruction": "Count both groups. Write how many altogether."
+  },
+  "G1-103": {
+    "title": "Cross Out and Subtract",
+    "instruction": "Some pictures are crossed out. Write how many are left."
+  },
+  "G1-104": {
+    "title": "Picture Subtraction",
+    "instruction": "Some pictures are crossed out. Write how many are left."
+  },
+  "G1-105": {
+    "title": "Ten-Frame Addition",
+    "instruction": "Count the two colors. Write the addition sentence’s answer."
+  },
+  "G1-106": {
+    "title": "Make 10!",
+    "instruction": "How many more dots to make 10? Write the missing number."
+  },
+  "G1-110": {
+    "title": "Domino Math",
+    "instruction": "Count both sides of the domino. Write the sum."
+  },
+  "G1-111": {
+    "title": "Roll and Add",
+    "instruction": "Count the dots on both dice. Write the sum."
+  },
+  "G1-112": {
+    "title": "Add Three Groups",
+    "instruction": "Count all three groups. Write the total."
+  },
+  "G1-113": {
+    "title": "Fact Families",
+    "instruction": "Use the two groups to finish all four number sentences."
+  },
+  "G1-114": {
+    "title": "Greater, Less, or Equal?",
+    "instruction": "Compare the two groups. Circle the right symbol."
+  },
+  "G1-115": {
+    "title": "What Is Missing?",
+    "instruction": "Count the group. Write the missing number to reach the total."
+  },
+  "G1-116": {
+    "title": "Count On!",
+    "instruction": "Start at the dot. Hop forward and write where you land."
+  },
+  "G1-117": {
+    "title": "Count Back!",
+    "instruction": "Start at the dot. Hop backward and write where you land."
+  },
+  "G1-118": {
+    "title": "Hop Along the Line!",
+    "instruction": "Start at the dot. Count the hops. Write the addition answer."
+  },
+  "G1-119": {
+    "title": "Hop Back and Subtract",
+    "instruction": "Follow the hops backward. Write the subtraction answer."
+  },
+  "G1-120": {
+    "title": "Tens and Ones",
+    "instruction": "Count the tens and ones. Write the number."
+  },
+  "G1-121": {
+    "title": "Build It Right",
+    "instruction": "Circle the blocks that show the number."
+  },
+  "G1-122": {
+    "title": "How Many Tens?",
+    "instruction": "Count the ten-rods. Finish the number sentence."
+  },
+  "G1-123": {
+    "title": "Count by Tens",
+    "instruction": "Skip count by 10. Write each missing number."
+  },
+  "G1-124": {
+    "title": "Count by Fives",
+    "instruction": "Skip count by 5. Write each missing number."
+  },
+  "G1-125": {
+    "title": "Count by Twos",
+    "instruction": "Skip count by 2. Write each missing number."
+  },
+  "G1-126": {
+    "title": "Count in Groups",
+    "instruction": "Each box holds the same amount. Skip count and write the running total."
+  },
+  "G1-129": {
+    "title": "The Hundreds Chart",
+    "instruction": "Some numbers are hiding. Write each missing number in its box."
+  },
+  "G1-130": {
+    "title": "Color the Counting Path",
+    "instruction": "Two boxes are colored to start you off. Color every number in the same counting pattern."
+  },
+  "G1-131": {
+    "title": "1 More, 1 Less",
+    "instruction": "Write the number that is 1 less and the number that is 1 more."
+  },
+  "G1-132": {
+    "title": "10 More, 10 Less",
+    "instruction": "Write the number that is 10 less and the number that is 10 more."
+  },
+  "G1-133": {
+    "title": "Stretch the Number",
+    "instruction": "Look at the blocks. Circle the matching expanded form."
+  },
+  "G1-135": {
+    "title": "Smallest First",
+    "instruction": "Number them 1, 2, 3 from smallest to greatest."
+  },
+  "G1-136": {
+    "title": "Biggest First",
+    "instruction": "Number them 1, 2, 3 from greatest to smallest."
+  },
+  "G1-137": {
+    "title": "Greater or Less?",
+    "instruction": "Compare the numbers. Circle the right symbol."
+  },
+  "G1-138": {
+    "title": "Where Does It Live?",
+    "instruction": "Find the number on the line. Circle its dot."
+  },
+  "G1-139": {
+    "title": "Cube by Cube",
+    "instruction": "Each object sits on unit squares. Count them and write the length."
+  },
+  "G1-140": {
+    "title": "Short to Long",
+    "instruction": "Measure each object with its squares. Number them 1 (shortest) to 3 (longest)."
+  },
+  "G1-141": {
+    "title": "Read the Picture Graph",
+    "instruction": "Count the pictures in each row. Write the numbers."
+  },
+  "G1-142": {
+    "title": "Most of All",
+    "instruction": "Look at the graph. Circle the one with the MOST."
+  },
+  "G1-143": {
+    "title": "Read the Bar Graph",
+    "instruction": "Read each bar. Write its number."
+  },
+  "G1-144": {
+    "title": "The Tallest Bar",
+    "instruction": "Look at the bars. Circle the one with the most."
+  },
+  "G1-146": {
+    "title": "Sort and Count",
+    "instruction": "Count each kind in the strip. Write the totals in the table."
+  },
+  "G1-147": {
+    "title": "Count and Graph",
+    "instruction": "Read the counts. Color one box in the graph for each one."
+  },
+  "G1-148": {
+    "title": "On the Hour",
+    "instruction": "Read each clock. Circle the matching time."
+  },
+  "G1-149": {
+    "title": "Half Past What?",
+    "instruction": "Read each clock. Circle the matching time."
+  },
+  "G1-150": {
+    "title": "Clock Partners",
+    "instruction": "Draw a line from each clock to its digital time."
+  },
+  "G1-155": {
+    "title": "Two Are Missing!",
+    "instruction": "Two pictures are missing. Draw a line from each picture to its empty box."
+  },
+  "G1-157": {
+    "title": "Picture Puzzles",
+    "instruction": "Look at the first pair. Circle what completes the second pair the same way."
+  },
+  "G1-158": {
+    "title": "Picture Sudoku",
+    "instruction": "Every row, column, and box needs all four pictures — draw or write what goes in each empty cell."
+  },
+  "G1-160": {
+    "title": "Three Groups",
+    "instruction": "Draw a line from each picture to the bin where it belongs."
+  },
+  "G2-203": {
+    "title": "Add the Blocks",
+    "instruction": "Add the two block groups. Write the total."
+  },
+  "G2-205": {
+    "title": "Take Away the Blocks",
+    "instruction": "Subtract the second group from the first. Write the answer."
+  },
+  "G2-206": {
+    "title": "Make a Ten!",
+    "instruction": "Circle 10 ones to bundle a ten. Write how many tens and ones."
+  },
+  "G2-207": {
+    "title": "Count by Threes",
+    "instruction": "Skip count by 3. Write each missing number."
+  },
+  "G2-208": {
+    "title": "Count by Fours",
+    "instruction": "Skip count by 4. Write each missing number."
+  },
+  "G2-209": {
+    "title": "Add It Again",
+    "instruction": "Each ring holds the same amount. Finish the addition."
+  },
+  "G2-210": {
+    "title": "From Adding to Times",
+    "instruction": "Count the equal groups. Finish the multiplication."
+  },
+  "G2-211": {
+    "title": "Rows and Columns",
+    "instruction": "Count the rows and columns. Finish the multiplication sentence."
+  },
+  "G2-212": {
+    "title": "Pick the Array",
+    "instruction": "Circle the array that matches the multiplication."
+  },
+  "G2-213": {
+    "title": "Easy Groups",
+    "instruction": "Count the equal groups. Finish the multiplication."
+  },
+  "G2-216": {
+    "title": "Share It Fairly",
+    "instruction": "Share the pile equally into the bins. Write how many each gets."
+  },
+  "G2-217": {
+    "title": "How Many Groups?",
+    "instruction": "The rings make equal groups. Write how many groups there are."
+  },
+  "G2-218": {
+    "title": "Odd Number Hunt",
+    "instruction": "Circle every ODD number. Look at the last digit to decide."
+  },
+  "G2-219": {
+    "title": "Big Number Battle",
+    "instruction": "Compare the numbers. Circle the right symbol."
+  },
+  "G2-220": {
+    "title": "Line Them Up",
+    "instruction": "Number them 1 to 4 from smallest to greatest."
+  },
+  "G2-221": {
+    "title": "Round It!",
+    "instruction": "Look at the dot. Circle the ten it is closer to."
+  },
+  "G2-222": {
+    "title": "Read the Blocks",
+    "instruction": "Count the hundreds, tens, and ones. Write the number they show."
+  },
+  "G2-223": {
+    "title": "Hundreds, Tens, Ones",
+    "instruction": "Look at the blocks. Circle the matching expanded form."
+  },
+  "G2-224": {
+    "title": "Sort the Places",
+    "instruction": "Count the blocks. Fill in the place-value chart."
+  },
+  "G2-225": {
+    "title": "Digit Detective",
+    "instruction": "Look at the underlined digit. Circle its value."
+  },
+  "G2-226": {
+    "title": "100 More, 100 Less",
+    "instruction": "Write the number that is 100 less and the number that is 100 more."
+  },
+  "G2-227": {
+    "title": "Match the Blocks",
+    "instruction": "Circle the blocks that show the number."
+  },
+  "G2-228": {
+    "title": "Half and Half",
+    "instruction": "Color one half of each shape."
+  },
+  "G2-229": {
+    "title": "Thirds and Quarters",
+    "instruction": "Color the fraction of each shape."
+  },
+  "G2-230": {
+    "title": "Find the Fraction",
+    "instruction": "Circle the shape that shows the fraction."
+  },
+  "G2-231": {
+    "title": "Fraction Friends",
+    "instruction": "Draw a line from each picture to its fraction."
+  },
+  "G2-232": {
+    "title": "Fair Shares?",
+    "instruction": "Circle every shape that is cut into EQUAL parts."
+  },
+  "G2-233": {
+    "title": "Share the Set",
+    "instruction": "Circle the fraction of the pictures. Write how many that is."
+  },
+  "G2-234": {
+    "title": "Cut It Right",
+    "instruction": "Circle the shape that shows the fraction."
+  },
+  "G2-235": {
+    "title": "Measure It!",
+    "instruction": "Each object starts at 0. Read the ruler and write how many units long it is."
+  },
+  "G2-236": {
+    "title": "How Much Longer?",
+    "instruction": "Measure both objects. Write how many units longer one is."
+  },
+  "G2-237": {
+    "title": "Graph Detective",
+    "instruction": "Use the graph to solve both picture questions."
+  },
+  "G2-238": {
+    "title": "Each Picture Counts Double",
+    "instruction": "Each picture stands for 2! Write the real count for each row."
+  },
+  "G2-239": {
+    "title": "Tally to Graph",
+    "instruction": "Read the tally chart. Color one bar for each count."
+  },
+  "G2-240": {
+    "title": "Read the Line Plot",
+    "instruction": "Count the X marks above each number. Write how many."
+  },
+  "G2-241": {
+    "title": "Shape Sorter",
+    "instruction": "Draw a line from each shape to its number of sides."
+  },
+  "G2-242": {
+    "title": "Count the Faces",
+    "instruction": "Write how many flat faces each solid has."
+  },
+  "G2-243": {
+    "title": "Solid Shapes Around Us",
+    "instruction": "Draw a line from each solid to the object with its shape."
+  },
+  "G2-244": {
+    "title": "Flat or Solid?",
+    "instruction": "Draw a line from each shape to its bin: flat shapes left, solid shapes right."
+  },
+  "G2-245": {
+    "title": "Count the Edges",
+    "instruction": "Write how many edges each solid has."
+  },
+  "G2-246": {
+    "title": "Count the Corners",
+    "instruction": "Write how many corners each solid has."
+  },
+  "G2-247": {
+    "title": "Mirror Line?",
+    "instruction": "Is the dashed line a mirror line? Circle the check or the cross."
+  },
+  "G2-248": {
+    "title": "Find the Mirror Picture",
+    "instruction": "Circle the picture that is the same on both sides."
+  },
+  "G2-249": {
+    "title": "What Time Is It?",
+    "instruction": "Read each clock. Circle the matching time."
+  },
+  "G3-301": {
+    "title": "Big Arrays",
+    "instruction": "Count the rows of pictures. Write how many in all."
+  },
+  "G3-302": {
+    "title": "Tricky Groups",
+    "instruction": "Count the equal groups. Finish the multiplication."
+  },
+  "G3-308": {
+    "title": "Multiplication Hops",
+    "instruction": "Follow the equal hops from zero. Write each landing number."
+  },
+  "G3-309": {
+    "title": "Divide It Up",
+    "instruction": "Share the pile equally into the bins. Write how many each gets."
+  },
+  "G3-310": {
+    "title": "Hop Down to Zero",
+    "instruction": "Count the equal hops back to zero. Write how many hops it takes."
+  },
+  "G3-311": {
+    "title": "Times Families",
+    "instruction": "Use the array to finish all four number sentences."
+  },
+  "G3-312": {
+    "title": "The Missing Factor",
+    "instruction": "Look at the array. Write the missing factor."
+  },
+  "G3-313": {
+    "title": "Count the Squares",
+    "instruction": "Count the squares in the rectangle. Finish the multiplication."
+  },
+  "G3-314": {
+    "title": "Flip It Around",
+    "instruction": "Both arrays show the same total. Finish both number sentences."
+  },
+  "G3-315": {
+    "title": "Name That Fraction",
+    "instruction": "Write the fraction the shaded parts show."
+  },
+  "G3-316": {
+    "title": "Shade the Fraction",
+    "instruction": "Color the right number of parts to show each fraction."
+  },
+  "G3-317": {
+    "title": "Fractions on the Line",
+    "instruction": "The dot marks a fraction. Circle which one."
+  },
+  "G3-318": {
+    "title": "Twin Fractions",
+    "instruction": "Draw a line from each picture to its matching fraction."
+  },
+  "G3-319": {
+    "title": "Which Is Bigger?",
+    "instruction": "Look at both bars. Circle the bigger fraction."
+  },
+  "G3-320": {
+    "title": "Fraction of the Group",
+    "instruction": "Circle the fraction of the pictures. Write how many that is."
+  },
+  "G3-321": {
+    "title": "Find the Whole",
+    "instruction": "The small bar is one part. Circle the bar that shows the WHOLE."
+  },
+  "G3-322": {
+    "title": "Equal Partners",
+    "instruction": "Draw a line from each picture to its fraction."
+  },
+  "G3-323": {
+    "title": "Round to the Hundred",
+    "instruction": "Look at the dot. Circle the hundred it is closer to."
+  },
+  "G3-325": {
+    "title": "Thousands Showdown",
+    "instruction": "Compare the numbers. Circle the right symbol."
+  },
+  "G3-326": {
+    "title": "Crack the Pattern",
+    "instruction": "Find each row’s rule. Write the missing numbers."
+  },
+  "G3-327": {
+    "title": "Going Down!",
+    "instruction": "The numbers shrink by the same amount. Write the missing ones."
+  },
+  "G3-328": {
+    "title": "Number Machines",
+    "instruction": "Each machine uses its rule on every number. Fill in the missing ones."
+  },
+  "G3-329": {
+    "title": "Big Skip Counting",
+    "instruction": "Find the counting rule. Write each missing number."
+  },
+  "G3-332": {
+    "title": "Big Scale Bars",
+    "instruction": "Careful — the scale counts by 5! Write the value of each bar."
+  },
+  "G3-333": {
+    "title": "Each Picture Means 5",
+    "instruction": "Each picture stands for 5! Write the real count for each row."
+  },
+  "G3-334": {
+    "title": "Build the Graph",
+    "instruction": "Use the table. Color a bar for each value."
+  },
+  "G3-335": {
+    "title": "Halfway Marks",
+    "instruction": "Count the X marks above each number. Write how many."
+  },
+  "G3-337": {
+    "title": "Walk the Edge",
+    "instruction": "Count the unit edges around each rectangle. Write the perimeter."
+  },
+  "G3-338": {
+    "title": "Same Space, New Shape",
+    "instruction": "Circle the rectangle that covers the SAME number of squares."
+  },
+  "G3-339": {
+    "title": "Same Fence, New Yard",
+    "instruction": "Circle the rectangle with the SAME distance around."
+  },
+  "G3-340": {
+    "title": "Quad Squad",
+    "instruction": "Draw a line from each four-sided shape to its family."
+  },
+  "G3-341": {
+    "title": "Right-Angle Hunt",
+    "instruction": "Circle every RIGHT angle (the ones with the little square)."
+  },
+  "G3-342": {
+    "title": "How Many Mirror Lines?",
+    "instruction": "Write how many mirror lines each shape has."
+  },
+  "G3-343": {
+    "title": "Equal Pieces",
+    "instruction": "Circle every shape that is cut into EQUAL parts."
+  },
+  "G3-344": {
+    "title": "How Much Time Passed?",
+    "instruction": "Compare the two clocks. Write how many hours passed."
+  },
+  "G3-345": {
+    "title": "Hot or Cold?",
+    "instruction": "Read each thermometer. Write the temperature it shows."
+  },
+  "G3-346": {
+    "title": "Cube Towers",
+    "instruction": "Count all the cubes in each tower. Write the total."
+  },
+  "G3-348": {
+    "title": "Big Picture Sudoku",
+    "instruction": "Every row, column, and box needs all six pictures — fill the empty cells."
+  },
+  "G3-349": {
+    "title": "Magic Squares",
+    "instruction": "Every row and column adds up to the magic number. Fill the empty cells."
+  },
+  "G3-350": {
+    "title": "Make It Balance",
+    "instruction": "Both sides must weigh the same. Write the missing number."
+  },
+  "G3-351": {
+    "title": "What Completes the Puzzle?",
+    "instruction": "Rows share a picture. Columns share a size. Circle what fits the empty cell."
+  },
+  "G3-353": {
+    "title": "Two-Circle Sort",
+    "instruction": "Left circle: this kind. Right circle: BIG ones. Middle: both! Draw a line from each picture to its place."
+  }
+}

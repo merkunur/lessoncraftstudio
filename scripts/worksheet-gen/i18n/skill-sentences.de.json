@@ -13,7 +13,7 @@
   },
   "number-charts": {
     "full": "Die Arbeit mit Zahlentafeln festigt die Zählreihenfolge, das Zählen in Schritten und erstes Stellenwertdenken.",
-    "short": "Festigt die Zählreihenfolge und erste Zahlenmuster."
+    "short": "Festigt die Zählreihenfolge und Zahlenmuster."
   },
   "comparing-numbers": {
     "full": "Zahlen mit größer, kleiner und gleich zu vergleichen baut das Größenverständnis auf, das alles spätere Rechnen trägt.",
@@ -41,7 +41,7 @@
   },
   "fractions": {
     "full": "Hälften, Drittel und Viertel anzumalen, zu benennen und zu vergleichen gibt Kindern einen anschaulichen ersten Blick auf Brüche.",
-    "short": "Ein anschaulicher erster Blick auf Hälften und Viertel."
+    "short": "Ein erster Blick auf Hälften und Viertel."
   },
   "graphing-data": {
     "full": "Säulendiagramme, Bilddiagramme und Strichlisten zu lesen lehrt Kinder, Daten zu ordnen und Fragen dazu zu beantworten.",
@@ -49,7 +49,7 @@
   },
   "arrays-multiplication": {
     "full": "Punktefelder in Reihen und Spalten verwandeln wiederholte Addition in das Fundament des Einmaleins-Denkens.",
-    "short": "Baut Einmaleins-Denken mit anschaulichen Punktefeldern auf."
+    "short": "Baut Einmaleins-Denken mit Punktefeldern auf."
   },
   "geometry": {
     "full": "Formen benennen, Ecken und Seiten zählen und Symmetrie entdecken baut die räumliche Sprache der frühen Geometrie auf.",

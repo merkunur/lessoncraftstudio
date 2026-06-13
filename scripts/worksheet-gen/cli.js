@@ -15,7 +15,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
-const { enumerate } = require('./enumerate.js');
+const { enumerate, eligibleThemes, deckIdFor } = require('./enumerate.js');
 const { loadType } = require('./lib/load-types.js');
 const { resolveStrings } = require('./i18n/strings.js');
 const { renderInstance } = require('./render/render-instance.js');
@@ -64,8 +64,39 @@ async function generate(args) {
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
 
-  const state = { wave: plan.id, startedAt: new Date().toISOString(), done: [], failed: [], skippedExisting: 0 };
+  const state = { wave: plan.id, startedAt: new Date().toISOString(), done: [], failed: [], skippedExisting: 0, retriedThemes: [] };
   const t0 = Date.now();
+
+  // Themes already assigned per (type, difficulty, locale) — the alternate-theme
+  // retry must never duplicate a sibling slot's theme (same variant_id + theme +
+  // mode would collide on slug).
+  const assigned = new Map();
+  const slotKey = (it) => it.typeId + '|d' + it.difficulty + '|' + it.locale;
+  list.forEach((it) => {
+    if (!it.cacheTheme) return;
+    if (!assigned.has(slotKey(it))) assigned.set(slotKey(it), new Set());
+    assigned.get(slotKey(it)).add(it.cacheTheme);
+  });
+
+  async function produce(spec, strings, it, deckId, cacheTheme) {
+    const r = await renderInstance({
+      type: spec, theme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
+      page, outDir: workDir, baseName: deckId, seedEpoch: plan.seedEpoch || 1, strings,
+    });
+    const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
+    if (fails.length) return { qaFails: fails };
+    const preview = await buildPreviewJpeg(r.pngPath);
+    const thumbnailBuf = await buildThumbnail(r.pngPath);
+    const imagesUsed = scrapeImagesUsed(r.html, cacheManifest);
+    const manifest = buildManifest({
+      spec, cacheTheme: cacheTheme, difficulty: it.difficulty, locale: it.locale,
+      deckId: deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
+    });
+    const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
+    writeDeckZip({ stagingDir, deckId: deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });
+    return { ok: true };
+  }
+
   try {
     for (let i = 0; i < list.length; i++) {
       const it = list[i];
@@ -75,29 +106,44 @@ async function generate(args) {
       const spec = loadType(it.typeId);
       const strings = resolveStrings(it.typeId, it.locale, spec);
       try {
-        const r = await renderInstance({
-          type: spec, theme: it.cacheTheme, difficulty: it.difficulty, locale: it.locale,
-          page, outDir: workDir, baseName: it.deckId, seedEpoch: plan.seedEpoch || 1, strings,
-        });
-        const fails = [].concat(r.qa.lints || [], r.qa.verify || []);
-        if (fails.length) {
-          state.failed.push({ deckId: it.deckId, qa: fails });
-          console.error('  QA-FAIL ' + it.deckId + ': ' + JSON.stringify(fails).slice(0, 200));
+        const res = await produce(spec, strings, it, it.deckId, it.cacheTheme);
+        if (res.qaFails) {
+          state.failed.push({ deckId: it.deckId, qa: res.qaFails });
+          console.error('  QA-FAIL ' + it.deckId + ': ' + JSON.stringify(res.qaFails).slice(0, 200));
           continue;
         }
-        const preview = await buildPreviewJpeg(r.pngPath);
-        const thumbnailBuf = await buildThumbnail(r.pngPath);
-        const imagesUsed = scrapeImagesUsed(r.html, cacheManifest);
-        const manifest = buildManifest({
-          spec, cacheTheme: it.cacheTheme, difficulty: it.difficulty, locale: it.locale,
-          deckId: it.deckId, generatedAt: new Date().toISOString(), strings, imagesUsed,
-        });
-        const deckHtml = buildDeckHtml({ manifest, spec, strings, locale: it.locale, preview });
-        writeDeckZip({ stagingDir, deckId: it.deckId, manifest, deckHtml, pdfPath: r.pdfPath, thumbnailBuf });
         state.done.push(it.deckId);
       } catch (e) {
-        state.failed.push({ deckId: it.deckId, error: e.message });
-        console.error('  ERROR ' + it.deckId + ': ' + e.message);
+        // A render throw on a THEMED instance usually signals theme-type
+        // incompatibility beyond the minNouns gate (no flat nouns, too few
+        // asymmetric shapes, no mass rank, …) — retry the slot with the
+        // remaining eligible themes before declaring failure.
+        let recovered = false;
+        if (it.cacheTheme) {
+          const tried = new Set([it.cacheTheme]);
+          const taken = assigned.get(slotKey(it)) || new Set();
+          const candidates = eligibleThemes(spec, plan.themes || [])
+            .filter((t) => !tried.has(t) && !taken.has(t));
+          for (const altTheme of candidates) {
+            const altDeckId = deckIdFor(plan.id, spec, altTheme, it.difficulty, it.locale);
+            if (fs.existsSync(path.join(stagingDir, altDeckId + '.zip'))) continue;
+            try {
+              const res = await produce(spec, strings, it, altDeckId, altTheme);
+              if (res.qaFails) continue;
+              taken.add(altTheme);
+              assigned.set(slotKey(it), taken);
+              state.done.push(altDeckId);
+              state.retriedThemes.push({ from: it.deckId, to: altDeckId, reason: e.message });
+              console.log('  THEME-RETRY ' + it.deckId + ' → ' + altDeckId + ' (' + e.message.slice(0, 80) + ')');
+              recovered = true;
+              break;
+            } catch (e2) { /* try next theme */ }
+          }
+        }
+        if (!recovered) {
+          state.failed.push({ deckId: it.deckId, error: e.message });
+          console.error('  ERROR ' + it.deckId + ': ' + e.message);
+        }
       }
       if ((i + 1) % 25 === 0) {
         const rate = (Date.now() - t0) / (i + 1);

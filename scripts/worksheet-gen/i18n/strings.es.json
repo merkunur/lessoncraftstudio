@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Cuenta y rodea",
+    "instruction": "Cuenta los dibujos de cada cuadro. Rodea el número correcto."
+  },
+  "K-004": {
+    "title": "Cuenta el marco de diez",
+    "instruction": "Cuenta los dibujos del marco. Escribe el número."
+  },
+  "K-005": {
+    "title": "Llena el marco",
+    "instruction": "Dibuja un punto en el marco por cada uno que indica el número."
+  },
+  "K-006": {
+    "title": "Cuenta y escribe",
+    "instruction": "Cuenta los dibujos de cada cuadro. Escribe el número."
+  },
+  "K-007": {
+    "title": "Cuenta y une",
+    "instruction": "Cuenta los dibujos. Une con una línea al número correcto."
+  },
+  "K-008": {
+    "title": "¿Más o menos?",
+    "instruction": "Mira los dos grupos. Rodea el grupo que tiene MÁS."
+  },
+  "K-009": {
+    "title": "¿Cuál tiene menos?",
+    "instruction": "Mira los dos grupos. Rodea el grupo que tiene MENOS."
+  },
+  "K-010": {
+    "title": "Halla los grupos iguales",
+    "instruction": "Dos grupos tienen el mismo número. Rodea los dos."
+  },
+  "K-011": {
+    "title": "Cuenta y colorea",
+    "instruction": "Colorea exactamente tantos dibujos como indica el número."
+  },
+  "K-012": {
+    "title": "Uno para cada uno",
+    "instruction": "Dale pareja a cada uno. Une de uno en uno con una línea."
+  },
+  "K-013": {
+    "title": "Cuenta cada clase",
+    "instruction": "Cuenta cada clase de dibujo. Escribe cuántos encuentras."
+  },
+  "K-014": {
+    "title": "Haz tus marcas",
+    "instruction": "Cuenta los dibujos. Dibuja las marcas de conteo en el cuadro."
+  },
+  "K-015": {
+    "title": "Lee las marcas",
+    "instruction": "Cuenta las marcas de conteo. Escribe el número."
+  },
+  "K-016": {
+    "title": "¿Par o impar?",
+    "instruction": "¡Forma parejas! Si sobra uno, el número es impar."
+  },
+  "K-017": {
+    "title": "Mirada rápida",
+    "instruction": "¡No cuentes de uno en uno! Mira rápido y rodea cuántos hay."
+  },
+  "K-018": {
+    "title": "Cuenta de un vistazo",
+    "instruction": "Mira rápido y rodea cuántos ves."
+  },
+  "K-019": {
+    "title": "Números que faltan al 10",
+    "instruction": "Cuenta por la tira. Escribe cada número que falta."
+  },
+  "K-020": {
+    "title": "Números que faltan al 20",
+    "instruction": "Cuenta por la tira. Escribe cada número que falta."
+  },
+  "K-021": {
+    "title": "Antes y después",
+    "instruction": "Escribe el número que va antes y el que va después."
+  },
+  "K-022": {
+    "title": "El del medio",
+    "instruction": "Escribe el número que va en el medio."
+  },
+  "K-023": {
+    "title": "Cuenta atrás para despegar",
+    "instruction": "Cuenta hacia atrás. Escribe cada número que falta."
+  },
+  "K-024": {
+    "title": "Une con el marco",
+    "instruction": "Une con una línea cada número a su marco de diez."
+  },
+  "K-025": {
+    "title": "Une con las marcas",
+    "instruction": "Une con una línea cada número a sus marcas de conteo."
+  },
+  "K-027": {
+    "title": "Cuenta el arreglo",
+    "instruction": "Cuenta las filas de dibujos. Escribe cuántos hay en total."
+  },
+  "K-028": {
+    "title": "¿Cuántos en total?",
+    "instruction": "Cuenta los dos grupos juntos. Escribe cuántos hay en total."
+  },
+  "K-029": {
+    "title": "Haz una buena estimación",
+    "instruction": "Estima primero, ¡no cuentes! Rodea la mejor estimación y comprueba contando."
+  },
+  "K-030": {
+    "title": "Primero, segundo, tercero",
+    "instruction": "Empieza en la flecha. Rodea el dibujo en la posición indicada."
+  },
+  "K-031": {
+    "title": "¿Qué posición?",
+    "instruction": "Empieza en la flecha. Escribe en su círculo la posición de cada dibujo marcado."
+  },
+  "K-032": {
+    "title": "Grande y pequeño",
+    "instruction": "Rodea el MÁS GRANDE de cada fila."
+  },
+  "K-033": {
+    "title": "Pequeño, mediano, grande",
+    "instruction": "Numera los dibujos del 1 (más pequeño) al 3 (más grande)."
+  },
+  "K-034": {
+    "title": "Del más pequeño al grande",
+    "instruction": "Numera los dibujos del 1 (más pequeño) al 5 (más grande)."
+  },
+  "K-035": {
+    "title": "Alto y bajo",
+    "instruction": "Rodea el MÁS ALTO de cada fila."
+  },
+  "K-036": {
+    "title": "De bajo a alto",
+    "instruction": "Numera los dibujos del 1 (más bajo) al 4 (más alto)."
+  },
+  "K-037": {
+    "title": "Largo y corto",
+    "instruction": "Rodea el MÁS LARGO de cada fila."
+  },
+  "K-038": {
+    "title": "¿Pesado o liviano?",
+    "instruction": "¡Piensa en la vida real! Rodea el MÁS PESADO."
+  },
+  "K-039": {
+    "title": "Igual y diferente",
+    "instruction": "Tres dibujos son iguales. Rodea el que es diferente."
+  },
+  "K-040": {
+    "title": "Solo los grandes",
+    "instruction": "Rodea cada dibujo GRANDE. No rodees los pequeños."
+  },
+  "K-042": {
+    "title": "A clasificar",
+    "instruction": "Une con una línea cada dibujo al cesto al que pertenece."
+  },
+  "K-043": {
+    "title": "¿Cuál es diferente?",
+    "instruction": "Mira cada fila. Rodea el dibujo que no pertenece."
+  },
+  "K-044": {
+    "title": "Halla el tamaño diferente",
+    "instruction": "Mira cada fila. Rodea el que tiene un tamaño diferente."
+  },
+  "K-046": {
+    "title": "¿Qué sigue?",
+    "instruction": "Mira el patrón. Rodea lo que sigue."
+  },
+  "K-047": {
+    "title": "Patrones ABC",
+    "instruction": "Mira el patrón. Rodea lo que sigue."
+  },
+  "K-048": {
+    "title": "Patrones AABB",
+    "instruction": "Mira el patrón. Rodea lo que sigue."
+  },
+  "K-049": {
+    "title": "Completa el patrón",
+    "instruction": "Falta un dibujo. Rodea lo que va en el cuadro vacío."
+  },
+  "K-050": {
+    "title": "Patrones de grande y pequeño",
+    "instruction": "Mira el patrón. Rodea lo que sigue."
+  },
+  "K-052": {
+    "title": "Patrones de arriba y abajo",
+    "instruction": "Mira el patrón. Rodea lo que sigue."
+  },
+  "K-053": {
+    "title": "Patrones que crecen",
+    "instruction": "El patrón crece. Rodea el grupo que sigue."
+  },
+  "K-057": {
+    "title": "Une con la sombra",
+    "instruction": "Une con una línea cada dibujo a su sombra."
+  },
+  "K-058": {
+    "title": "Halla las parejas",
+    "instruction": "Cada dibujo tiene su gemelo. Une cada pareja con una línea."
+  },
+  "K-059": {
+    "title": "Halla y rodea",
+    "instruction": "Halla cada dibujo igual al del cuadro. Rodéalos todos."
+  },
+  "K-060": {
+    "title": "Veo, veo",
+    "instruction": "¡Mira con atención! Cuenta cada clase y escribe el número."
+  },
+  "K-061": {
+    "title": "Halla las diferencias",
+    "instruction": "Compara los dos dibujos. Rodea lo que cambió a la derecha."
+  },
+  "K-062": {
+    "title": "Halla los gemelos",
+    "instruction": "Dos dibujos son exactamente iguales. Hállalos y rodea los dos."
+  },
+  "K-063": {
+    "title": "Espejito, espejito",
+    "instruction": "Rodea el dibujo que muestra la imagen en el espejo."
+  },
+  "K-064": {
+    "title": "Encima, debajo, al lado",
+    "instruction": "Rodea el dibujo que está ENCIMA de la caja."
+  },
+  "K-065": {
+    "title": "Izquierda y derecha",
+    "instruction": "Rodea cada dibujo del lado IZQUIERDO de la línea."
+  },
+  "K-066": {
+    "title": "Arriba, en medio, abajo",
+    "instruction": "Rodea cada dibujo de la fila DEL MEDIO."
+  },
+  "K-067": {
+    "title": "Dentro y fuera",
+    "instruction": "Rodea cada dibujo que está DENTRO de la figura grande."
+  },
+  "K-068": {
+    "title": "¿Qué llena el hueco?",
+    "instruction": "Cada fila muestra una clase de dibujo. Rodea la pieza que llena el cuadro vacío."
+  },
+  "K-069": {
+    "title": "¿Qué es?",
+    "instruction": "Solo se ve una parte del dibujo. Rodea el dibujo entero al que pertenece."
+  },
+  "K-070": {
+    "title": "Caza de figuras",
+    "instruction": "Halla cada figura igual a la del cuadro. Rodéalas todas."
+  },
+  "K-075": {
+    "title": "Cuenta los lados",
+    "instruction": "Cuenta los lados de cada figura. Escribe el número."
+  },
+  "K-076": {
+    "title": "Clasifica por lados",
+    "instruction": "Une con una línea cada figura a su número de lados."
+  },
+  "K-077": {
+    "title": "Patrones de figuras",
+    "instruction": "Mira el patrón. Rodea la figura que sigue."
+  },
+  "K-078": {
+    "title": "Figuras gemelas",
+    "instruction": "Cada figura tiene su gemela. Une cada pareja con una línea."
+  },
+  "K-079": {
+    "title": "Figuras grandes y pequeñas",
+    "instruction": "Rodea la figura MÁS GRANDE de cada fila."
+  },
+  "K-080": {
+    "title": "¿Qué figura es diferente?",
+    "instruction": "Mira cada fila. Rodea la figura que no pertenece."
+  },
+  "G1-101": {
+    "title": "Suma los dibujos",
+    "instruction": "Cuenta los dos grupos. Escribe cuántos hay en total."
+  },
+  "G1-102": {
+    "title": "Suma con dibujos",
+    "instruction": "Cuenta los dos grupos. Escribe cuántos hay en total."
+  },
+  "G1-103": {
+    "title": "Tacha y resta",
+    "instruction": "Algunos dibujos están tachados. Escribe cuántos quedan."
+  },
+  "G1-104": {
+    "title": "Resta con dibujos",
+    "instruction": "Algunos dibujos están tachados. Escribe cuántos quedan."
+  },
+  "G1-105": {
+    "title": "Suma con marco de diez",
+    "instruction": "Cuenta los dos colores. Escribe el resultado de la suma."
+  },
+  "G1-106": {
+    "title": "Forma 10",
+    "instruction": "¿Cuántos puntos más para formar 10? Escribe el número que falta."
+  },
+  "G1-110": {
+    "title": "Matemáticas con dominó",
+    "instruction": "Cuenta los dos lados del dominó. Escribe la suma."
+  },
+  "G1-111": {
+    "title": "Tira y suma",
+    "instruction": "Cuenta los puntos de los dos dados. Escribe la suma."
+  },
+  "G1-112": {
+    "title": "Suma tres grupos",
+    "instruction": "Cuenta los tres grupos. Escribe el total."
+  },
+  "G1-113": {
+    "title": "Familias de operaciones",
+    "instruction": "Usa los dos grupos para completar las cuatro operaciones."
+  },
+  "G1-114": {
+    "title": "¿Mayor, menor o igual?",
+    "instruction": "Compara los dos grupos. Rodea el símbolo correcto."
+  },
+  "G1-115": {
+    "title": "¿Qué falta?",
+    "instruction": "Cuenta el grupo. Escribe el número que falta para llegar al total."
+  },
+  "G1-116": {
+    "title": "Cuenta hacia adelante",
+    "instruction": "Empieza en el punto. Salta hacia adelante y escribe dónde caes."
+  },
+  "G1-117": {
+    "title": "Cuenta hacia atrás",
+    "instruction": "Empieza en el punto. Salta hacia atrás y escribe dónde caes."
+  },
+  "G1-118": {
+    "title": "Salta por la recta",
+    "instruction": "Empieza en el punto. Cuenta los saltos. Escribe el resultado de la suma."
+  },
+  "G1-119": {
+    "title": "Salta atrás y resta",
+    "instruction": "Sigue los saltos hacia atrás. Escribe el resultado de la resta."
+  },
+  "G1-120": {
+    "title": "Decenas y unidades",
+    "instruction": "Cuenta las decenas y las unidades. Escribe el número."
+  },
+  "G1-121": {
+    "title": "Constrúyelo bien",
+    "instruction": "Rodea los bloques que muestran el número."
+  },
+  "G1-122": {
+    "title": "¿Cuántas decenas?",
+    "instruction": "Cuenta las barras de diez. Completa la operación."
+  },
+  "G1-123": {
+    "title": "Cuenta de diez en diez",
+    "instruction": "Cuenta de 10 en 10. Escribe cada número que falta."
+  },
+  "G1-124": {
+    "title": "Cuenta de cinco en cinco",
+    "instruction": "Cuenta de 5 en 5. Escribe cada número que falta."
+  },
+  "G1-125": {
+    "title": "Cuenta de dos en dos",
+    "instruction": "Cuenta de 2 en 2. Escribe cada número que falta."
+  },
+  "G1-126": {
+    "title": "Cuenta en grupos",
+    "instruction": "Cada cuadro tiene la misma cantidad. Cuenta y escribe el total acumulado."
+  },
+  "G1-129": {
+    "title": "El cuadro del cien",
+    "instruction": "Algunos números se esconden. Escribe cada número que falta en su cuadro."
+  },
+  "G1-130": {
+    "title": "Colorea el camino",
+    "instruction": "Dos cuadros ya están coloreados. Colorea cada número con el mismo patrón de conteo."
+  },
+  "G1-131": {
+    "title": "1 más, 1 menos",
+    "instruction": "Escribe el número que es 1 menos y el que es 1 más."
+  },
+  "G1-132": {
+    "title": "10 más, 10 menos",
+    "instruction": "Escribe el número que es 10 menos y el que es 10 más."
+  },
+  "G1-133": {
+    "title": "Estira el número",
+    "instruction": "Mira los bloques. Rodea la forma desarrollada correcta."
+  },
+  "G1-135": {
+    "title": "El más pequeño primero",
+    "instruction": "Numéralos 1, 2, 3 del menor al mayor."
+  },
+  "G1-136": {
+    "title": "El más grande primero",
+    "instruction": "Numéralos 1, 2, 3 del mayor al menor."
+  },
+  "G1-137": {
+    "title": "¿Mayor o menor?",
+    "instruction": "Compara los números. Rodea el símbolo correcto."
+  },
+  "G1-138": {
+    "title": "¿Dónde vive?",
+    "instruction": "Halla el número en la recta. Rodea su punto."
+  },
+  "G1-139": {
+    "title": "Cuadro a cuadro",
+    "instruction": "Cada objeto se apoya en cuadros. Cuéntalos y escribe la longitud."
+  },
+  "G1-140": {
+    "title": "De corto a largo",
+    "instruction": "Mide cada objeto con sus cuadros. Numéralos del 1 (más corto) al 3 (más largo)."
+  },
+  "G1-141": {
+    "title": "Lee el pictograma",
+    "instruction": "Cuenta los dibujos de cada fila. Escribe los números."
+  },
+  "G1-142": {
+    "title": "El que tiene más",
+    "instruction": "Mira el gráfico. Rodea el que tiene MÁS."
+  },
+  "G1-143": {
+    "title": "Lee el gráfico de barras",
+    "instruction": "Lee cada barra. Escribe su número."
+  },
+  "G1-144": {
+    "title": "La barra más alta",
+    "instruction": "Mira las barras. Rodea la que tiene más."
+  },
+  "G1-146": {
+    "title": "Clasifica y cuenta",
+    "instruction": "Cuenta cada clase de la tira. Escribe los totales en la tabla."
+  },
+  "G1-147": {
+    "title": "Cuenta y grafica",
+    "instruction": "Lee los conteos. Colorea un cuadro en el gráfico por cada uno."
+  },
+  "G1-148": {
+    "title": "En punto",
+    "instruction": "Lee cada reloj. Rodea la hora correcta."
+  },
+  "G1-149": {
+    "title": "¿Y media de qué?",
+    "instruction": "Lee cada reloj. Rodea la hora correcta."
+  },
+  "G1-150": {
+    "title": "Relojes en pareja",
+    "instruction": "Une con una línea cada reloj a su hora digital."
+  },
+  "G1-155": {
+    "title": "¡Faltan dos!",
+    "instruction": "Faltan dos dibujos. Une con una línea cada dibujo a su cuadro vacío."
+  },
+  "G1-157": {
+    "title": "Acertijos con dibujos",
+    "instruction": "Mira la primera pareja. Rodea lo que completa igual la segunda pareja."
+  },
+  "G1-158": {
+    "title": "Sudoku de dibujos",
+    "instruction": "Cada fila, columna y caja lleva los cuatro dibujos. Completa cada celda vacía."
+  },
+  "G1-160": {
+    "title": "Tres grupos",
+    "instruction": "Une con una línea cada dibujo al cesto al que pertenece."
+  },
+  "G2-203": {
+    "title": "Suma los bloques",
+    "instruction": "Suma los dos grupos de bloques. Escribe el total."
+  },
+  "G2-205": {
+    "title": "Quita los bloques",
+    "instruction": "Resta el segundo grupo del primero. Escribe el resultado."
+  },
+  "G2-206": {
+    "title": "Forma una decena",
+    "instruction": "Rodea 10 unidades para agrupar una decena. Escribe cuántas decenas y unidades."
+  },
+  "G2-207": {
+    "title": "Cuenta de tres en tres",
+    "instruction": "Cuenta de 3 en 3. Escribe cada número que falta."
+  },
+  "G2-208": {
+    "title": "Cuenta de cuatro en cuatro",
+    "instruction": "Cuenta de 4 en 4. Escribe cada número que falta."
+  },
+  "G2-209": {
+    "title": "Súmalo otra vez",
+    "instruction": "Cada anillo tiene la misma cantidad. Completa la suma."
+  },
+  "G2-210": {
+    "title": "De sumar a multiplicar",
+    "instruction": "Cuenta los grupos iguales. Completa la multiplicación."
+  },
+  "G2-211": {
+    "title": "Filas y columnas",
+    "instruction": "Cuenta las filas y las columnas. Completa la multiplicación."
+  },
+  "G2-212": {
+    "title": "Elige el arreglo",
+    "instruction": "Rodea el arreglo que coincide con la multiplicación."
+  },
+  "G2-213": {
+    "title": "Grupos fáciles",
+    "instruction": "Cuenta los grupos iguales. Completa la multiplicación."
+  },
+  "G2-216": {
+    "title": "Reparte por igual",
+    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos toca a cada uno."
+  },
+  "G2-217": {
+    "title": "¿Cuántos grupos?",
+    "instruction": "Los anillos forman grupos iguales. Escribe cuántos grupos hay."
+  },
+  "G2-218": {
+    "title": "Caza de números impares",
+    "instruction": "Rodea cada número IMPAR. Mira el último dígito para decidir."
+  },
+  "G2-219": {
+    "title": "Duelo de números grandes",
+    "instruction": "Compara los números. Rodea el símbolo correcto."
+  },
+  "G2-220": {
+    "title": "Ponlos en orden",
+    "instruction": "Numéralos del 1 al 4 del menor al mayor."
+  },
+  "G2-221": {
+    "title": "Redondéalo",
+    "instruction": "Mira el punto. Rodea la decena a la que está más cerca."
+  },
+  "G2-222": {
+    "title": "Lee los bloques",
+    "instruction": "Cuenta las centenas, decenas y unidades. Escribe el número que muestran."
+  },
+  "G2-223": {
+    "title": "Centenas, decenas, unidades",
+    "instruction": "Mira los bloques. Rodea la forma desarrollada correcta."
+  },
+  "G2-224": {
+    "title": "Ordena los lugares",
+    "instruction": "Cuenta los bloques. Completa la tabla de valor posicional."
+  },
+  "G2-225": {
+    "title": "Detective de dígitos",
+    "instruction": "Mira el dígito subrayado. Rodea su valor."
+  },
+  "G2-226": {
+    "title": "100 más, 100 menos",
+    "instruction": "Escribe el número que es 100 menos y el que es 100 más."
+  },
+  "G2-227": {
+    "title": "Une con los bloques",
+    "instruction": "Rodea los bloques que muestran el número."
+  },
+  "G2-228": {
+    "title": "Mitad y mitad",
+    "instruction": "Colorea la mitad de cada figura."
+  },
+  "G2-229": {
+    "title": "Tercios y cuartos",
+    "instruction": "Colorea la fracción de cada figura."
+  },
+  "G2-230": {
+    "title": "Halla la fracción",
+    "instruction": "Rodea la figura que muestra la fracción."
+  },
+  "G2-231": {
+    "title": "Fracciones amigas",
+    "instruction": "Une con una línea cada dibujo a su fracción."
+  },
+  "G2-232": {
+    "title": "¿Partes justas?",
+    "instruction": "Rodea cada figura cortada en partes IGUALES."
+  },
+  "G2-233": {
+    "title": "Reparte el conjunto",
+    "instruction": "Rodea la fracción de los dibujos. Escribe cuántos son."
+  },
+  "G2-234": {
+    "title": "Córtalo bien",
+    "instruction": "Rodea la figura que muestra la fracción."
+  },
+  "G2-235": {
+    "title": "Mídelo",
+    "instruction": "Cada objeto empieza en 0. Lee la regla y escribe cuántas unidades mide."
+  },
+  "G2-236": {
+    "title": "¿Cuánto más largo?",
+    "instruction": "Mide los dos objetos. Escribe cuántas unidades más largo es uno."
+  },
+  "G2-237": {
+    "title": "Detective de gráficos",
+    "instruction": "Usa el gráfico para resolver las dos preguntas con dibujos."
+  },
+  "G2-238": {
+    "title": "Cada dibujo vale doble",
+    "instruction": "¡Cada dibujo vale 2! Escribe el conteo real de cada fila."
+  },
+  "G2-239": {
+    "title": "De marcas a gráfico",
+    "instruction": "Lee la tabla de conteo. Colorea una barra por cada conteo."
+  },
+  "G2-240": {
+    "title": "Lee el diagrama de puntos",
+    "instruction": "Cuenta las equis sobre cada número. Escribe cuántas hay."
+  },
+  "G2-241": {
+    "title": "Clasifica figuras",
+    "instruction": "Une con una línea cada figura a su número de lados."
+  },
+  "G2-242": {
+    "title": "Cuenta las caras",
+    "instruction": "Escribe cuántas caras planas tiene cada cuerpo."
+  },
+  "G2-243": {
+    "title": "Cuerpos a nuestro alrededor",
+    "instruction": "Une con una línea cada cuerpo al objeto con su forma."
+  },
+  "G2-244": {
+    "title": "¿Plano o cuerpo?",
+    "instruction": "Une cada figura a su cesto: figuras planas a la izquierda, cuerpos a la derecha."
+  },
+  "G2-245": {
+    "title": "Cuenta las aristas",
+    "instruction": "Escribe cuántas aristas tiene cada cuerpo."
+  },
+  "G2-246": {
+    "title": "Cuenta los vértices",
+    "instruction": "Escribe cuántos vértices tiene cada cuerpo."
+  },
+  "G2-247": {
+    "title": "¿Eje de simetría?",
+    "instruction": "¿La línea punteada es un eje de simetría? Rodea el visto o la cruz."
+  },
+  "G2-248": {
+    "title": "Halla el dibujo simétrico",
+    "instruction": "Rodea el dibujo que es igual de los dos lados."
+  },
+  "G2-249": {
+    "title": "¿Qué hora es?",
+    "instruction": "Lee cada reloj. Rodea la hora correcta."
+  },
+  "G3-301": {
+    "title": "Arreglos grandes",
+    "instruction": "Cuenta las filas de dibujos. Escribe cuántos hay en total."
+  },
+  "G3-302": {
+    "title": "Grupos difíciles",
+    "instruction": "Cuenta los grupos iguales. Completa la multiplicación."
+  },
+  "G3-308": {
+    "title": "Saltos de multiplicar",
+    "instruction": "Sigue los saltos iguales desde cero. Escribe cada número donde caes."
+  },
+  "G3-309": {
+    "title": "Repártelo",
+    "instruction": "Reparte el montón por igual en los cestos. Escribe cuántos toca a cada uno."
+  },
+  "G3-310": {
+    "title": "Salta hasta cero",
+    "instruction": "Cuenta los saltos iguales de vuelta a cero. Escribe cuántos saltos hacen falta."
+  },
+  "G3-311": {
+    "title": "Familias de multiplicar",
+    "instruction": "Usa el arreglo para completar las cuatro operaciones."
+  },
+  "G3-312": {
+    "title": "El factor que falta",
+    "instruction": "Mira el arreglo. Escribe el factor que falta."
+  },
+  "G3-313": {
+    "title": "Cuenta los cuadros",
+    "instruction": "Cuenta los cuadros del rectángulo. Completa la multiplicación."
+  },
+  "G3-314": {
+    "title": "Dale la vuelta",
+    "instruction": "Los dos arreglos muestran el mismo total. Completa las dos operaciones."
+  },
+  "G3-315": {
+    "title": "Nombra la fracción",
+    "instruction": "Escribe la fracción que muestran las partes sombreadas."
+  },
+  "G3-316": {
+    "title": "Sombrea la fracción",
+    "instruction": "Colorea el número de partes correcto para mostrar cada fracción."
+  },
+  "G3-317": {
+    "title": "Fracciones en la recta",
+    "instruction": "El punto marca una fracción. Rodea cuál es."
+  },
+  "G3-318": {
+    "title": "Fracciones gemelas",
+    "instruction": "Une con una línea cada dibujo a su fracción correspondiente."
+  },
+  "G3-319": {
+    "title": "¿Cuál es mayor?",
+    "instruction": "Mira las dos barras. Rodea la fracción mayor."
+  },
+  "G3-320": {
+    "title": "Fracción del grupo",
+    "instruction": "Rodea la fracción de los dibujos. Escribe cuántos son."
+  },
+  "G3-321": {
+    "title": "Halla el entero",
+    "instruction": "La barra pequeña es una parte. Rodea la barra que muestra el ENTERO."
+  },
+  "G3-322": {
+    "title": "Parejas iguales",
+    "instruction": "Une con una línea cada dibujo a su fracción."
+  },
+  "G3-323": {
+    "title": "Redondea a la centena",
+    "instruction": "Mira el punto. Rodea la centena a la que está más cerca."
+  },
+  "G3-325": {
+    "title": "Duelo de miles",
+    "instruction": "Compara los números. Rodea el símbolo correcto."
+  },
+  "G3-326": {
+    "title": "Descifra el patrón",
+    "instruction": "Halla la regla de cada fila. Escribe los números que faltan."
+  },
+  "G3-327": {
+    "title": "Hacia abajo",
+    "instruction": "Los números bajan la misma cantidad. Escribe los que faltan."
+  },
+  "G3-328": {
+    "title": "Máquinas de números",
+    "instruction": "Cada máquina aplica su regla a cada número. Completa los que faltan."
+  },
+  "G3-329": {
+    "title": "Conteo a saltos grandes",
+    "instruction": "Halla la regla de conteo. Escribe cada número que falta."
+  },
+  "G3-332": {
+    "title": "Barras a gran escala",
+    "instruction": "Cuidado: ¡la escala cuenta de 5 en 5! Escribe el valor de cada barra."
+  },
+  "G3-333": {
+    "title": "Cada dibujo vale 5",
+    "instruction": "¡Cada dibujo vale 5! Escribe el conteo real de cada fila."
+  },
+  "G3-334": {
+    "title": "Construye el gráfico",
+    "instruction": "Usa la tabla. Colorea una barra por cada valor."
+  },
+  "G3-335": {
+    "title": "Marcas a medio camino",
+    "instruction": "Cuenta las equis sobre cada número. Escribe cuántas hay."
+  },
+  "G3-337": {
+    "title": "Recorre el borde",
+    "instruction": "Cuenta las unidades del borde de cada rectángulo. Escribe el perímetro."
+  },
+  "G3-338": {
+    "title": "Mismo espacio, nueva forma",
+    "instruction": "Rodea el rectángulo que cubre el MISMO número de cuadros."
+  },
+  "G3-339": {
+    "title": "Misma cerca, nuevo patio",
+    "instruction": "Rodea el rectángulo con la MISMA distancia alrededor."
+  },
+  "G3-340": {
+    "title": "El equipo de cuatro lados",
+    "instruction": "Une con una línea cada figura de cuatro lados a su familia."
+  },
+  "G3-341": {
+    "title": "Caza de ángulos rectos",
+    "instruction": "Rodea cada ángulo RECTO (los que tienen el cuadradito)."
+  },
+  "G3-342": {
+    "title": "¿Cuántos ejes de simetría?",
+    "instruction": "Escribe cuántos ejes de simetría tiene cada figura."
+  },
+  "G3-343": {
+    "title": "Partes iguales",
+    "instruction": "Rodea cada figura cortada en partes IGUALES."
+  },
+  "G3-344": {
+    "title": "¿Cuánto tiempo pasó?",
+    "instruction": "Compara los dos relojes. Escribe cuántas horas pasaron."
+  },
+  "G3-345": {
+    "title": "¿Calor o frío?",
+    "instruction": "Lee cada termómetro. Escribe la temperatura que muestra."
+  },
+  "G3-346": {
+    "title": "Torres de cubos",
+    "instruction": "Cuenta todos los cubos de cada torre. Escribe el total."
+  },
+  "G3-348": {
+    "title": "Sudoku de dibujos grande",
+    "instruction": "Cada fila, columna y caja necesita los seis dibujos: llena las celdas vacías."
+  },
+  "G3-349": {
+    "title": "Cuadrados mágicos",
+    "instruction": "Cada fila y columna suma el número mágico. Llena las celdas vacías."
+  },
+  "G3-350": {
+    "title": "Haz que se equilibre",
+    "instruction": "Los dos lados deben pesar lo mismo. Escribe el número que falta."
+  },
+  "G3-351": {
+    "title": "¿Qué completa el acertijo?",
+    "instruction": "Las filas comparten un dibujo. Las columnas, un tamaño. Rodea lo que va en la celda vacía."
+  },
+  "G3-353": {
+    "title": "Clasifica en dos círculos",
+    "instruction": "Izquierda: esta clase. Derecha: los GRANDES. Medio: ¡los dos! Une cada dibujo a su lugar."
+  }
+}

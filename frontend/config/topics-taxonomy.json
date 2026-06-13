@@ -1086,221 +1086,265 @@
       "counting-pictures": {
         "slug": {
           "en": "counting-pictures",
-          "de": "bilder-zaehlen"
+          "de": "bilder-zaehlen",
+          "es": "contar-con-dibujos"
         },
         "name": {
           "en": "Counting Pictures",
-          "de": "Zählen mit Bildern"
+          "de": "Zählen mit Bildern",
+          "es": "Contar con dibujos"
         }
       },
       "counting-frames": {
         "slug": {
           "en": "counting-frames",
-          "de": "zehnerfeld"
+          "de": "zehnerfeld",
+          "es": "marcos-de-diez"
         },
         "name": {
           "en": "Ten Frames",
-          "de": "Zehnerfeld"
+          "de": "Zehnerfeld",
+          "es": "Marcos de diez"
         }
       },
       "tally-counting": {
         "slug": {
           "en": "tally-counting",
-          "de": "strichlisten"
+          "de": "strichlisten",
+          "es": "marcas-de-conteo"
         },
         "name": {
           "en": "Tally Marks",
-          "de": "Strichlisten"
+          "de": "Strichlisten",
+          "es": "Marcas de conteo"
         }
       },
       "number-charts": {
         "slug": {
           "en": "number-charts",
-          "de": "hundertertafel"
+          "de": "hundertertafel",
+          "es": "tabla-del-100"
         },
         "name": {
           "en": "Number Charts",
-          "de": "Hundertertafel"
+          "de": "Hundertertafel",
+          "es": "Tabla del 100"
         }
       },
       "comparing-numbers": {
         "slug": {
           "en": "comparing-numbers",
-          "de": "zahlen-vergleichen"
+          "de": "zahlen-vergleichen",
+          "es": "comparar-numeros"
         },
         "name": {
           "en": "Comparing Numbers",
-          "de": "Zahlen vergleichen"
+          "de": "Zahlen vergleichen",
+          "es": "Comparar números"
         }
       },
       "comparing-groups": {
         "slug": {
           "en": "comparing-groups",
-          "de": "mengen-vergleichen"
+          "de": "mengen-vergleichen",
+          "es": "comparar-cantidades"
         },
         "name": {
           "en": "Comparing Groups",
-          "de": "Mengen vergleichen"
+          "de": "Mengen vergleichen",
+          "es": "Comparar cantidades"
         }
       },
       "comparing-sizes": {
         "slug": {
           "en": "comparing-sizes",
-          "de": "groessen-vergleichen"
+          "de": "groessen-vergleichen",
+          "es": "comparar-tamanos"
         },
         "name": {
           "en": "Comparing Sizes",
-          "de": "Größen vergleichen"
+          "de": "Größen vergleichen",
+          "es": "Comparar tamaños"
         }
       },
       "number-lines": {
         "slug": {
           "en": "number-lines",
-          "de": "zahlenstrahl"
+          "de": "zahlenstrahl",
+          "es": "recta-numerica"
         },
         "name": {
           "en": "Number Lines",
-          "de": "Zahlenstrahl"
+          "de": "Zahlenstrahl",
+          "es": "Recta numérica"
         }
       },
       "base-ten": {
         "slug": {
           "en": "base-ten",
-          "de": "stellenwert"
+          "de": "stellenwert",
+          "es": "valor-posicional"
         },
         "name": {
           "en": "Base Ten Blocks",
-          "de": "Stellenwert"
+          "de": "Stellenwert",
+          "es": "Valor posicional"
         }
       },
       "telling-time": {
         "slug": {
           "en": "telling-time",
-          "de": "uhrzeit"
+          "de": "uhrzeit",
+          "es": "aprender-la-hora"
         },
         "name": {
           "en": "Telling Time",
-          "de": "Uhrzeit lernen"
+          "de": "Uhrzeit lernen",
+          "es": "Aprender la hora"
         }
       },
       "fractions": {
         "slug": {
           "en": "fractions",
-          "de": "brueche"
+          "de": "brueche",
+          "es": "fracciones"
         },
         "name": {
           "en": "Fractions",
-          "de": "Brüche"
+          "de": "Brüche",
+          "es": "Fracciones"
         }
       },
       "graphing-data": {
         "slug": {
           "en": "graphing-data",
-          "de": "diagramme"
+          "de": "diagramme",
+          "es": "graficos-y-datos"
         },
         "name": {
           "en": "Graphs and Data",
-          "de": "Diagramme und Daten"
+          "de": "Diagramme und Daten",
+          "es": "Gráficos y datos"
         }
       },
       "arrays-multiplication": {
         "slug": {
           "en": "arrays-multiplication",
-          "de": "einmaleins"
+          "de": "einmaleins",
+          "es": "multiplicacion"
         },
         "name": {
           "en": "Arrays and Multiplication",
-          "de": "Erstes Einmaleins"
+          "de": "Erstes Einmaleins",
+          "es": "Multiplicación"
         }
       },
       "geometry": {
         "slug": {
           "en": "geometry",
-          "de": "geometrie"
+          "de": "geometrie",
+          "es": "geometria"
         },
         "name": {
           "en": "Geometry",
-          "de": "Geometrie"
+          "de": "Geometrie",
+          "es": "Geometría"
         }
       },
       "measurement": {
         "slug": {
           "en": "measurement",
-          "de": "messen"
+          "de": "messen",
+          "es": "medicion"
         },
         "name": {
           "en": "Measurement",
-          "de": "Messen"
+          "de": "Messen",
+          "es": "Medición"
         }
       },
       "visual-logic": {
         "slug": {
           "en": "visual-logic",
-          "de": "logikraetsel"
+          "de": "logikraetsel",
+          "es": "logica-visual"
         },
         "name": {
           "en": "Visual Logic",
-          "de": "Logikrätsel"
+          "de": "Logikrätsel",
+          "es": "Lógica visual"
         }
       },
       "visual-discrimination": {
         "slug": {
           "en": "visual-discrimination",
-          "de": "visuelle-wahrnehmung"
+          "de": "visuelle-wahrnehmung",
+          "es": "discriminacion-visual"
         },
         "name": {
           "en": "Visual Discrimination",
-          "de": "Visuelle Wahrnehmung"
+          "de": "Visuelle Wahrnehmung",
+          "es": "Discriminación visual"
         }
       },
       "visual-matching": {
         "slug": {
           "en": "visual-matching",
-          "de": "bilder-zuordnen"
+          "de": "bilder-zuordnen",
+          "es": "emparejamiento-visual"
         },
         "name": {
           "en": "Visual Matching",
-          "de": "Bilder zuordnen"
+          "de": "Bilder zuordnen",
+          "es": "Emparejamiento visual"
         }
       },
       "patterns": {
         "slug": {
           "en": "patterns",
-          "de": "muster-fortsetzen"
+          "de": "muster-fortsetzen",
+          "es": "patrones"
         },
         "name": {
           "en": "Patterns",
-          "de": "Muster fortsetzen"
+          "de": "Muster fortsetzen",
+          "es": "Patrones"
         }
       },
       "position-words": {
         "slug": {
           "en": "position-words",
-          "de": "lagebeziehungen"
+          "de": "lagebeziehungen",
+          "es": "conceptos-espaciales"
         },
         "name": {
           "en": "Position Words",
-          "de": "Lagebeziehungen"
+          "de": "Lagebeziehungen",
+          "es": "Conceptos espaciales"
         }
       },
       "sorting-categories": {
         "slug": {
           "en": "sorting-categories",
-          "de": "sortieren-und-ordnen"
+          "de": "sortieren-und-ordnen",
+          "es": "clasificar-y-agrupar"
         },
         "name": {
           "en": "Sorting and Categorizing",
-          "de": "Sortieren und Ordnen"
+          "de": "Sortieren und Ordnen",
+          "es": "Clasificar y agrupar"
         }
       },
       "picture-arithmetic": {
         "slug": {
           "en": "picture-arithmetic",
-          "de": "rechnen-mit-bildern"
+          "de": "rechnen-mit-bildern",
+          "es": "sumas-y-restas"
         },
         "name": {
           "en": "Picture Math",
-          "de": "Rechnen mit Bildern"
+          "de": "Rechnen mit Bildern",
+          "es": "Sumas y restas con dibujos"
         }
       }
     },

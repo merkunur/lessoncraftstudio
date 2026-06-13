@@ -792,7 +792,9 @@
       "free_interactive": "Hoja interactiva gratuita",
       "for": "para",
       "print_or_play_online": "Imprime o juega en línea",
-      "variant_label": "Conjunto"
+      "variant_label": "Conjunto",
+      "free_printable": "Ficha imprimible gratis:",
+      "download_pdf": "Descargar el PDF gratis"
     },
     "deckCardAlt": {
       "withTheme": "Vista previa de la hoja de {exerciseType} con {theme} para {level}",
@@ -3161,7 +3163,29 @@
     "kindergarten": "Fichas de jardín infantil gratis para niños de 5 a 7 años: reconocimiento de letras, conteo hasta 20 y vocabulario alineado con educación infantil.",
     "grade-1": "Fichas de grado 1 gratis alineadas con LOMLOE: actividades de matemáticas, lectura y vocabulario para niños de 6 a 8 años en el primer ciclo de primaria.",
     "grade-2": "Fichas de grado 2 alineadas con el currículo de primaria: sumas, restas, lectura y vocabulario para niños de 7 a 9 años con apoyo visual abundante.",
-    "grade-3": "Fichas de grado 3 para niños de 8 a 10 años: matemáticas, lengua y comprensión lectora del segundo ciclo de primaria con actividades imprimibles y digitales."
+    "grade-3": "Fichas de grado 3 para niños de 8 a 10 años: matemáticas, lengua y comprensión lectora del segundo ciclo de primaria con actividades imprimibles y digitales.",
+    "counting-pictures": "Fichas de conteo con dibujos gratis para preescolar y jardín infantil: contar grupos de imágenes y rodear o escribir el número. PDF para imprimir.",
+    "counting-frames": "Fichas de marcos de diez gratis para jardín infantil y grado 1: contar fichas, completar marcos y formar números hasta el 20. PDF para imprimir.",
+    "tally-counting": "Fichas de marcas de conteo gratis para los primeros grados: contar dibujos, registrarlos con palitos y leerlos como números. PDF para imprimir.",
+    "number-charts": "Fichas de tablas numéricas gratis: completar los números que faltan del 1 al 20 y en la tabla del 100, y descubrir patrones. PDF para imprimir.",
+    "comparing-numbers": "Fichas para comparar números gratis para grado 1 a 3: mayor que, menor que e igual con cifras del 0 al 1.000. PDF para imprimir en casa o en clase.",
+    "comparing-groups": "Fichas para comparar cantidades gratis para preescolar y jardín infantil: decidir qué grupo de dibujos tiene más, menos o lo mismo. PDF imprimible.",
+    "comparing-sizes": "Fichas para comparar tamaños gratis para los más pequeños: grande y pequeño, alto y bajo, largo y corto con pares de dibujos. PDF para imprimir.",
+    "number-lines": "Fichas de la recta numérica gratis para grado 1 a 3: saltos para sumar y restar, números que faltan y primeras fracciones. PDF para imprimir.",
+    "base-ten": "Fichas de valor posicional gratis para grado 1 y 2: leer centenas, decenas y unidades con bloques de base diez y formar números. PDF para imprimir.",
+    "telling-time": "Fichas del reloj gratis para grado 1 a 3: leer la hora en punto, y media y de cinco en cinco minutos, y dibujar las manecillas. PDF para imprimir.",
+    "fractions": "Fichas de fracciones gratis para grado 2 y 3: colorear figuras, nombrar medios, tercios y cuartos, compararlos y ubicarlos. PDF para imprimir.",
+    "graphing-data": "Fichas de gráficos gratis para grado 1 a 3: leer y completar gráficos de barras, pictogramas y tablas de conteo con datos temáticos. PDF imprimible.",
+    "arrays-multiplication": "Fichas de multiplicación gratis para grado 2 y 3: grupos iguales, sumas repetidas y matrices de filas y columnas con dibujos. PDF para imprimir.",
+    "geometry": "Fichas de geometría gratis para preescolar y primaria: figuras planas y cuerpos geométricos, lados, vértices y simetría. PDF para imprimir.",
+    "measurement": "Fichas de medición gratis para preescolar y primaria: medir con regla y cubos, comparar longitudes y leer termómetros. PDF para imprimir gratis.",
+    "visual-logic": "Fichas de lógica visual gratis para preescolar y primaria: sudokus de imágenes y cuadrículas de razonamiento paso a paso. PDF para imprimir.",
+    "visual-discrimination": "Fichas de discriminación visual gratis para preescolar: emparejar sombras, hallar imágenes en espejo y descubrir el intruso. PDF para imprimir.",
+    "visual-matching": "Fichas de emparejamiento visual gratis para los más pequeños: unir dibujos relacionados, mitades y parejas parecidas. PDF para imprimir en casa.",
+    "patterns": "Fichas de patrones gratis para preescolar y jardín infantil: continuar secuencias AB, AAB y ABC y hallar la pieza que falta. PDF para imprimir.",
+    "position-words": "Fichas de conceptos espaciales gratis para preescolar: encima, debajo, izquierda, derecha, dentro y fuera con escenas de dibujos. PDF imprimible.",
+    "sorting-categories": "Fichas para clasificar y agrupar gratis para los más pequeños: ordenar dibujos por categorías y explicar qué va junto. PDF para imprimir gratis.",
+    "picture-arithmetic": "Fichas de sumas y restas con dibujos gratis para jardín infantil y grado 1: contar, tachar y completar los números que faltan. PDF imprimible."
   },
   "topicProse": {
     "animals": "El conjunto de imágenes conocidas de Animales acompaña a los niños por todos los tipos de ejercicio. Con perros, gatos, vacas y leones se practica el conteo y las primeras sumas, clasificar y emparejar, encontrar el intruso y reconocer las primeras letras, todo con apoyo visual. El vocabulario del tema es de alta frecuencia en cada idioma, así que en clases bilingües las palabras se asientan mientras los niños trabajan. Cada ficha es un PDF gratis para imprimir, con su versión interactiva para jugar en línea y su hoja de respuestas. Y al estar disponibles en los 11 idiomas en los que publicamos, una misma ficha de Animales sirve a niños que aprenden en lenguas diferentes.",

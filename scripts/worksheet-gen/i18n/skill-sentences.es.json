@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Contar grupos de dibujos desarrolla la correspondencia uno a uno y el sentido numérico de los primeros años.",
+    "short": "Desarrolla el conteo y el sentido numérico."
+  },
+  "counting-frames": {
+    "full": "Los marcos de diez dan una estructura visual clara para contar y formar el cinco y el diez con seguridad.",
+    "short": "Refuerza el número con los marcos de diez."
+  },
+  "tally-counting": {
+    "full": "Registrar cantidades con marcas de conteo enseña a organizar información y a contar en grupos de cinco.",
+    "short": "Practica el conteo con palitos de cinco."
+  },
+  "number-charts": {
+    "full": "Trabajar con tablas numéricas afianza el orden de los números, el conteo salteado y el valor posicional.",
+    "short": "Afianza el orden numérico y sus patrones."
+  },
+  "comparing-numbers": {
+    "full": "Comparar números con mayor que, menor que e igual construye el sentido de magnitud de toda la aritmética.",
+    "short": "Refuerza el mayor que, menor que e igual."
+  },
+  "comparing-groups": {
+    "full": "Decidir qué grupo tiene más, menos o lo mismo desarrolla la comparación antes de los símbolos numéricos.",
+    "short": "Desarrolla la comparación de cantidades."
+  },
+  "comparing-sizes": {
+    "full": "Ordenar grande y pequeño, alto y bajo, largo y corto construye el vocabulario de tamaños de cada día.",
+    "short": "Trabaja el vocabulario de los tamaños."
+  },
+  "number-lines": {
+    "full": "Saltar por la recta numérica hace visibles la suma, la resta y el orden de los números para los pequeños.",
+    "short": "Hace visible el cálculo en la recta numérica."
+  },
+  "base-ten": {
+    "full": "Los bloques de base diez convierten el valor posicional en algo visible: centenas, decenas y unidades.",
+    "short": "Hace concreto el valor posicional con bloques."
+  },
+  "telling-time": {
+    "full": "Leer el reloj en punto, y media y de cinco en cinco minutos es una destreza que llena de orgullo a los niños.",
+    "short": "Practica la lectura del reloj analógico."
+  },
+  "fractions": {
+    "full": "Colorear, nombrar y comparar medios, tercios y cuartos ofrece un primer contacto concreto con las fracciones.",
+    "short": "Primer contacto con medios, tercios y cuartos."
+  },
+  "graphing-data": {
+    "full": "Leer gráficos de barras, pictogramas y tablas de conteo enseña a organizar datos y a responder preguntas.",
+    "short": "Inicia en los datos con gráficos sencillos."
+  },
+  "arrays-multiplication": {
+    "full": "Las matrices de filas y columnas convierten la suma repetida en la base del pensamiento multiplicativo.",
+    "short": "Prepara la multiplicación con matrices."
+  },
+  "geometry": {
+    "full": "Nombrar figuras, contar lados y vértices y explorar la simetría construye el lenguaje de la geometría.",
+    "short": "Trabaja las figuras y la geometría inicial."
+  },
+  "measurement": {
+    "full": "Medir con regla y cubos y comparar longitudes desarrolla paso a paso el sentido práctico de la medida.",
+    "short": "Desarrolla el sentido práctico de medir."
+  },
+  "visual-logic": {
+    "full": "El sudoku de imágenes y las cuadrículas de razonamiento ejercitan la deducción: cada reto tiene una única solución.",
+    "short": "Ejercita la deducción con retos de imágenes."
+  },
+  "visual-discrimination": {
+    "full": "Hallar sombras, reflejos e intrusos agudiza la discriminación visual que sostiene una lectura fluida.",
+    "short": "Agudiza la percepción visual y la atención."
+  },
+  "visual-matching": {
+    "full": "Emparejar dibujos relacionados fortalece la memoria visual y el pensamiento de igual y diferente diario.",
+    "short": "Fortalece la memoria y la atención visual."
+  },
+  "patterns": {
+    "full": "Continuar y completar patrones de dibujos construye el pensamiento algebraico mucho antes del álgebra.",
+    "short": "Trabaja patrones y pensamiento lógico."
+  },
+  "position-words": {
+    "full": "Encima, debajo, izquierda y derecha cobran vida en escenas que construyen vocabulario espacial y orientación.",
+    "short": "Trabaja los conceptos espaciales básicos."
+  },
+  "sorting-categories": {
+    "full": "Clasificar dibujos por categorías desarrolla el pensamiento que se usa en matemáticas, ciencias y lectura.",
+    "short": "Desarrolla la clasificación por categorías."
+  },
+  "picture-arithmetic": {
+    "full": "Sumar y restar con grupos de dibujos permite dominar las operaciones de forma concreta antes de las cifras.",
+    "short": "Sumas y restas concretas con apoyo visual."
+  }
+}

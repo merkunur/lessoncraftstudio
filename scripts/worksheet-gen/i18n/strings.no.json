@@ -136,7 +136,7 @@
     "instruction": "Sett ring rundt den LENGSTE i hver rad."
   },
   "K-038": {
-    "title": "Tung eller lett?",
+    "title": "Hva veier mest?",
     "instruction": "Tenk på det virkelige livet! Sett ring rundt den TYNGSTE."
   },
   "K-039": {
@@ -631,6 +631,10 @@
     "title": "Hva er klokka?",
     "instruction": "Les hver klokke. Sett ring rundt tiden som passer."
   },
+  "G2-250": {
+    "title": "Kvart over og kvart på",
+    "instruction": "Les hver klokke. Sett ring rundt tiden som passer."
+  },
   "G3-301": {
     "title": "Store rutenett",
     "instruction": "Tell radene med bilder. Skriv hvor mange det er til sammen."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Klosstårn",
     "instruction": "Tell alle klossene i hvert tårn. Skriv summen."
+  },
+  "G3-354": {
+    "title": "Klokka på minuttet",
+    "instruction": "Les hver klokke. Sett ring rundt tiden som passer."
+  },
+  "G3-355": {
+    "title": "12-timer og 24-timer",
+    "instruction": "Gjør om mellom 12-timers og 24-timers tid. Sett ring rundt det som er riktig."
+  },
+  "G3-356": {
+    "title": "Legg til og trekk fra tid",
+    "instruction": "Start på tiden som vises. Legg til eller trekk fra, og skriv den nye tiden."
   },
   "G3-348": {
     "title": "Stor bildesudoku",

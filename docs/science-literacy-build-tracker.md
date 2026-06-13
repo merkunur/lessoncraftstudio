@@ -104,7 +104,18 @@ Dry-run #1: 231 ZIPs, theme_halts=0, exercise_mode_halts=0, collisions=0 (the pr
 4. publish-wave (publish to catalog) + deck-landing + verify (`audit-deck-html.js`, live curl). Note default_subject `science` is the 5th subject (§16.4 doctrine-review flag — authorized by this commission).
 5. Fan-time content checks: per-pair baby-art distinguishability (calf vs cow §A.13.29); per-sort separability on rendered evidence.
 
-## ▶▶ LITERACY (VERTICAL 2) — START HERE (new session) ◀◀
+## 🏁 LITERACY VERTICAL CLOSED — 165 decks LIVE in production (2026-06-14)
+15 K-2 literacy types × 11 locales published to the live catalog (batch-20260613233535, **165 INSERT, 0 fail**). Commits `b1ecf1b6` (EN pool) · `60156407` (4 factories) · `d5d762aa` (EN pipeline) · `54158810` (EN catalog 15 types) · `55fb483c` (11-locale fan) — all pushed. 5 protected cores byte-untouched throughout.
+- **5 family-key topic hubs** live per locale: beginning-sounds, letter-knowledge, word-building, picture-vocabulary, phonological-awareness ("Sounds & Syllables"). Verified: `/de/topic/anlaute`, `/en/topic/beginning-sounds`, `/fi/topic/kielellinen-tietoisuus` all 200.
+- **Verified live** (origin+CF 200): localized title/desc/educational-level, single h1, 12 hreflang (11+x-default), og:image, native slugs (anlaute-k221 / sonidos-iniciales / alkuaanteet / forlyd / bildeordforraad …).
+- **Native-per-language**: words pulled from each gated `approved-words-<locale>.json` pool via `tools/gen-lit-fan.js`; i18n authored by 10 native ensembles (§A.13.48) → `i18n/apply-lit-loc.js` surgical merge. **NSR-FLAG sv/da/no/fi** (native review pending, §17.5.1).
+- **Engine**: 4 factories (lit-sound-match/letter-knowledge/word-build/vocab-match) + lit-sort (per-locale sort) + reuse of science-category-sort/pair-match. New family key `phonological-awareness`.
+- **Publish path** (scoped, avoids §50-min catalog OG): SCP → git pull taxonomy → `publish-bulk --confirm` (165) → `regenerate-og-images --slugs-file --locales=all11` (165, 12s) → `populate-and-inject-hreflang --confirm --locales=all11` (165 DB, 6090 sibling rewrites) → `deploy.sh` (hubs).
+- **1 honest drop**: opposites (asset-thin). Per-locale picture words = generator first-pass (core-theme common-noun ranked); residual it/fi obscure-short picks are a future native-polish item.
+
+**BOTH VERTICALS (Science 231 + Literacy 165 = 396 decks) NOW LIVE.** Remaining follow-ups: sv/da/no/fi NSR review (both verticals); optional it/fi literacy word-pick polish; the deck end-link trailing-slash 308→200 hop (negligible, both verticals).
+
+## ▶▶ LITERACY (VERTICAL 2) — build record (CLOSED; kept for reference) ◀◀
 **Read first:** the plan file `~/.claude/plans/two-new-worksheet-verticals-polymorphic-axolotl.md` (full Literacy scope + the Gate-1 rulings) + the resumed plan `~/.claude/plans/continue-the-two-new-worksheet-verticals-floofy-glacier.md` + this tracker. Science is DONE; this is the second, higher-cost vertical (NATIVE per language, not design-once).
 
 ### ✅ LITERACY PROGRESS — EN foundation proven (session 2026-06-13/14)

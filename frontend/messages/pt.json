@@ -1122,7 +1122,9 @@
       "free_interactive": "Folha interativa grátis",
       "for": "para",
       "print_or_play_online": "Imprima ou jogue online",
-      "variant_label": "Conjunto"
+      "variant_label": "Conjunto",
+      "free_printable": "Atividade grátis para imprimir:",
+      "download_pdf": "Baixar o PDF grátis"
     },
     "deckCardAlt": {
       "withTheme": "Pré-visualização da ficha de {exerciseType} com {theme} para {level}",
@@ -3413,7 +3415,29 @@
     "kindergarten": "Atividades para a pré-escola da educação infantil (5-7 anos): jogos interativos e materiais imprimíveis gratuitos, alinhados à BNCC.",
     "grade-1": "Atividades para o 1º ano do ensino fundamental: jogos interativos e versões imprimíveis gratuitas, de acordo com a BNCC.",
     "grade-2": "Atividades para o 2º ano do ensino fundamental: jogos interativos online e materiais imprimíveis gratuitos, alinhados à BNCC.",
-    "grade-3": "Atividades para o 3º ano do ensino fundamental: jogos interativos e versões imprimíveis gratuitas, de acordo com a BNCC."
+    "grade-3": "Atividades para o 3º ano do ensino fundamental: jogos interativos e versões imprimíveis gratuitas, de acordo com a BNCC.",
+    "counting-pictures": "Atividades de contar figuras para a educação infantil: as crianças contam conjuntos ilustrados e escrevem o número certo. PDF para imprimir, grátis.",
+    "counting-frames": "Atividades com quadro de dez para a educação infantil e anos iniciais: contar fichas, completar quadros e formar números até 20. PDF grátis para imprimir.",
+    "tally-counting": "Atividades de marcas de contagem para os anos iniciais: contar grupos de figuras, registrar com risquinhos e ler de volta. PDF para imprimir, grátis.",
+    "number-charts": "Atividades com quadro numérico para a educação infantil e anos iniciais: completar números que faltam e ver padrões de contagem. PDF grátis para imprimir.",
+    "comparing-numbers": "Atividades de comparar números para os anos iniciais: maior que, menor que e igual com numerais até 1.000. PDF para imprimir, grátis para usar.",
+    "comparing-groups": "Atividades de comparar grupos para a educação infantil: descobrir qual conjunto de figuras tem mais, menos ou a mesma quantidade. PDF grátis para imprimir.",
+    "comparing-sizes": "Atividades de comparar tamanhos para a educação infantil: grande e pequeno, alto e baixo, comprido e curto com pares de figuras. PDF grátis para imprimir.",
+    "number-lines": "Atividades com reta numérica para os anos iniciais: somar e subtrair com saltos, achar números que faltam e ordenar. PDF para imprimir, grátis.",
+    "base-ten": "Atividades de valor posicional para os anos iniciais: ler centenas, dezenas e unidades e associar os blocos aos numerais. PDF grátis para imprimir.",
+    "telling-time": "Atividades de ver as horas para os anos iniciais: ler relógios analógicos na hora cheia, meia hora e cinco em cinco. PDF para imprimir, grátis.",
+    "fractions": "Atividades de frações para os anos iniciais: pintar figuras, nomear meios, terços e quartos e comparar frações. PDF para imprimir, grátis para usar.",
+    "graphing-data": "Atividades de gráficos e dados para os anos iniciais: ler e completar gráficos de barras, pictogramas e tabelas. PDF para imprimir, grátis.",
+    "arrays-multiplication": "Atividades de multiplicação para os anos iniciais: grupos iguais, adição de parcelas repetidas e matrizes de linhas e colunas. PDF grátis para imprimir.",
+    "geometry": "Atividades de geometria para a educação infantil e anos iniciais: nomear formas, contar lados e cantos e explorar a simetria. PDF grátis para imprimir.",
+    "measurement": "Atividades de medidas para a educação infantil e anos iniciais: medir com régua e cubinhos e comparar comprimentos. PDF para imprimir, grátis para usar.",
+    "visual-logic": "Atividades de lógica visual para a educação infantil e anos iniciais: sudoku ilustrado e grades de raciocínio com uma só resposta. PDF grátis para imprimir.",
+    "visual-discrimination": "Atividades de discriminação visual para a educação infantil: parear sombras, achar imagens espelhadas e o que é diferente. PDF grátis para imprimir.",
+    "visual-matching": "Atividades de associação visual para a educação infantil: ligar figuras relacionadas, juntar metades e parear semelhantes. PDF grátis para imprimir.",
+    "patterns": "Atividades de padrões para a educação infantil: continuar sequências de figuras AB, AAB e ABC e achar a peça que falta. PDF para imprimir, grátis.",
+    "position-words": "Atividades de palavras de posição para a educação infantil: em cima, embaixo, à esquerda e à direita em cenas ilustradas. PDF grátis para imprimir.",
+    "sorting-categories": "Atividades de classificar por categorias para a educação infantil: agrupar figuras por tema e dizer o que combina. PDF para imprimir, grátis para usar.",
+    "picture-arithmetic": "Atividades de contas ilustradas para a educação infantil e anos iniciais: somar e subtrair com grupos de figuras. PDF para imprimir, grátis para usar."
   },
   "topicProse": {
     "animals": "O conjunto de imagens conhecidas de Animais acompanha as crianças por muitas habilidades. As mesmas figuras reaparecem nas atividades com tema Animais, levando os pequenos pela contagem e primeiras somas, por classificar e associar, por descobrir qual é o diferente e por reconhecer as primeiras letras, sempre com apoio de imagens. O vocabulário do tema é útil no dia a dia e, em turmas bilíngues, é de alta frequência em cada idioma. Cada atividade é grátis para imprimir em PDF, com versão interativa para jogar online e gabarito. Como está disponível nos 11 idiomas em que publicamos, você escolhe a língua da sua turma sem trocar de material.",

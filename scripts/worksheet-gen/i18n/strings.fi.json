@@ -631,6 +631,10 @@
     "title": "Paljonko kello on?",
     "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
   },
+  "G2-250": {
+    "title": "Vartit",
+    "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
+  },
   "G3-301": {
     "title": "Isot ruudukot",
     "instruction": "Laske kuvarivit. Kirjoita, montako kaikkiaan."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Kuutiotornit",
     "instruction": "Laske kaikki kuutiot jokaisessa tornissa. Kirjoita summa."
+  },
+  "G3-354": {
+    "title": "Tarkka aika",
+    "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
+  },
+  "G3-355": {
+    "title": "12- ja 24-tuntinen aika",
+    "instruction": "Muunna jokainen aika toiseen muotoon. Ympyröi oikea vaihtoehto."
+  },
+  "G3-356": {
+    "title": "Lisää ja vähennä aikaa",
+    "instruction": "Aloita annetusta ajasta, lisää tai vähennä. Kirjoita uusi aika."
   },
   "G3-348": {
     "title": "Iso kuvasudoku",

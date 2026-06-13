@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Compter des collections d'images amusantes installe la correspondance terme à terme et le sens du nombre des débuts.",
+    "short": "Développe le comptage et le sens du nombre."
+  },
+  "counting-frames": {
+    "full": "Les boîtes de dix offrent un repère visuel clair pour compter, faire cinq et faire dix, au cœur du sens du nombre.",
+    "short": "Le sens du nombre avec les boîtes de dix."
+  },
+  "tally-counting": {
+    "full": "Noter les comptages en bâtons apprend à organiser l'information et à compter vite par paquets de cinq.",
+    "short": "S'entraîner à compter en notant des bâtons."
+  },
+  "number-charts": {
+    "full": "Travailler sur le tableau des nombres renforce l'ordre de comptage, les bonds réguliers et les premières dizaines.",
+    "short": "Renforce l'ordre de comptage et les suites."
+  },
+  "comparing-numbers": {
+    "full": "Comparer les nombres avec plus grand, plus petit et égal construit le sens des grandeurs derrière tout le calcul.",
+    "short": "Le sens du plus grand et du plus petit."
+  },
+  "comparing-groups": {
+    "full": "Décider quel groupe a le plus, le moins ou autant développe la comparaison avant même les symboles des nombres.",
+    "short": "Développe la comparaison plus, moins, autant."
+  },
+  "comparing-sizes": {
+    "full": "Ranger grand et petit, long et court enrichit le vocabulaire des tailles que les jeunes enfants utilisent chaque jour.",
+    "short": "Enrichit le vocabulaire grand-petit, long-court."
+  },
+  "number-lines": {
+    "full": "Avancer par bonds sur une droite numérique rend l'addition, la soustraction et l'ordre des nombres concrets et visibles.",
+    "short": "Rend le calcul visible sur une droite numérique."
+  },
+  "base-ten": {
+    "full": "Le matériel de numération rend les dizaines et les unités concrètes : centaines, dizaines et unités d'un seul coup d'œil.",
+    "short": "Rend la numération concrète et visible."
+  },
+  "telling-time": {
+    "full": "Lire l'horloge à l'heure, à la demi-heure et aux cinq minutes construit un savoir-faire dont les enfants sont fiers.",
+    "short": "S'entraîner à lire l'horloge à aiguilles."
+  },
+  "fractions": {
+    "full": "Colorier, nommer et comparer les demis, les tiers et les quarts offre aux enfants un premier regard concret sur les fractions.",
+    "short": "Découvrir les demis, tiers et quarts."
+  },
+  "graphing-data": {
+    "full": "Lire des diagrammes, pictogrammes et tableaux apprend à organiser des données et à répondre à des questions dessus.",
+    "short": "Développe la lecture de graphiques et tableaux."
+  },
+  "arrays-multiplication": {
+    "full": "Les réseaux d'images en lignes et colonnes transforment l'addition répétée en base du raisonnement multiplicatif.",
+    "short": "Construit la multiplication avec des réseaux."
+  },
+  "geometry": {
+    "full": "Nommer les formes, compter les côtés et les sommets et explorer la symétrie installe le langage de la géométrie.",
+    "short": "Développe les formes et la géométrie des débuts."
+  },
+  "measurement": {
+    "full": "Mesurer à la règle et avec des cubes et comparer des longueurs construit pas à pas un vrai sens de la mesure.",
+    "short": "Développe le sens concret de la mesure."
+  },
+  "visual-logic": {
+    "full": "Les sudokus illustrés et les grilles de raisonnement exercent la déduction : chaque puzzle a une seule bonne réponse.",
+    "short": "Exerce la déduction avec des puzzles imagés."
+  },
+  "visual-discrimination": {
+    "full": "Repérer les ombres, les images en miroir et les intrus affine la discrimination visuelle qui sert à bien lire.",
+    "short": "Affine la discrimination et l'observation."
+  },
+  "visual-matching": {
+    "full": "Associer des images qui vont ensemble renforce la mémoire visuelle et le repérage du pareil et du différent.",
+    "short": "Renforce l'association et la mémoire visuelle."
+  },
+  "patterns": {
+    "full": "Prolonger et compléter des suites d'images construit le raisonnement logique qui prépare bien avant l'algèbre.",
+    "short": "Développe les suites et le raisonnement logique."
+  },
+  "position-words": {
+    "full": "Sur, sous, à gauche et à droite prennent vie dans des scènes imagées qui bâtissent le vocabulaire de l'espace.",
+    "short": "Développe le repérage et le vocabulaire spatial."
+  },
+  "sorting-categories": {
+    "full": "Trier des images par catégories construit le raisonnement de classement utile en maths, en sciences et en lecture.",
+    "short": "Développe le tri et la classification."
+  },
+  "picture-arithmetic": {
+    "full": "Additionner et soustraire avec des groupes d'images permet de maîtriser les opérations concrètement avant les chiffres.",
+    "short": "Calcul concret avec des groupes d'images."
+  }
+}

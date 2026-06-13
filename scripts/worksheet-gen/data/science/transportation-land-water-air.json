@@ -1,0 +1,135 @@
+{
+  "_note": "Sort vehicles by where they travel: Land / Water / Air. K. All from the vehicles theme. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "land",
+      "label": {
+        "en": "Land",
+        "de": "Land",
+        "es": "Tierra",
+        "fr": "Terre",
+        "it": "Terra",
+        "pt": "Terra",
+        "nl": "Land",
+        "sv": "Land",
+        "da": "Land",
+        "no": "Land",
+        "fi": "Maa"
+      }
+    },
+    {
+      "key": "water",
+      "label": {
+        "en": "Water",
+        "de": "Wasser",
+        "es": "Agua",
+        "fr": "Eau",
+        "it": "Acqua",
+        "pt": "Água",
+        "nl": "Water",
+        "sv": "Vatten",
+        "da": "Vand",
+        "no": "Vann",
+        "fi": "Vesi"
+      }
+    },
+    {
+      "key": "air",
+      "label": {
+        "en": "Air",
+        "de": "Luft",
+        "es": "Aire",
+        "fr": "Air",
+        "it": "Aria",
+        "pt": "Ar",
+        "nl": "Lucht",
+        "sv": "Luft",
+        "da": "Luft",
+        "no": "Luft",
+        "fi": "Ilma"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "vehicles",
+      "noun": "car",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bus",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "truck",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bicycle",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "motorcycle",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "train",
+      "bin": "land"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "boat",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "ship",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "submarine",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "sailboat",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "canoe",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "ferry",
+      "bin": "water"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "airplane",
+      "bin": "air"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "helicopter",
+      "bin": "air"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "rocket",
+      "bin": "air"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "jet",
+      "bin": "air"
+    }
+  ]
+}

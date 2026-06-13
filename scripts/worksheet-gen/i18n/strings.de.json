@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Sortieren mit zwei Kreisen",
     "instruction": "Links: diese Sorte. Rechts: GROSSE. Mitte: beides! Verbinde jedes Bild mit seinem Platz."
+  },
+  "K-201": {
+    "title": "Lebendig und nicht lebendig",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-202": {
+    "title": "Obst und Gemüse",
+    "instruction": "Verbinde jedes Lebensmittel mit der Gruppe, zu der es gehört."
+  },
+  "K-203": {
+    "title": "Gesunde und ungesunde Lebensmittel",
+    "instruction": "Verbinde jedes Lebensmittel mit der Gruppe, zu der es gehört."
+  },
+  "K-204": {
+    "title": "Haustiere und Wildtiere",
+    "instruction": "Verbinde jedes Tier mit der Gruppe, zu der es gehört."
+  },
+  "K-206": {
+    "title": "Was kann fliegen?",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-207": {
+    "title": "Sommer- und Winterkleidung",
+    "instruction": "Verbinde jedes Kleidungsstück mit der richtigen Gruppe."
+  },
+  "K-208": {
+    "title": "Tag und Nacht",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-209": {
+    "title": "Bauernhof- und Wildtiere",
+    "instruction": "Verbinde jedes Tier mit der Gruppe, zu der es gehört."
+  },
+  "K-210": {
+    "title": "Fahrzeuge zu Land, zu Wasser und in der Luft",
+    "instruction": "Verbinde jedes Fahrzeug mit dem Ort, an dem es sich fortbewegt."
+  },
+  "K-211": {
+    "title": "Heiß und kalt",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-212": {
+    "title": "Wünsche und Bedürfnisse",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "K-214": {
+    "title": "Natürlich und von Menschen gemacht",
+    "instruction": "Verbinde jedes Bild mit der Gruppe, zu der es gehört."
+  },
+  "G1-201": {
+    "title": "Tiere sortieren",
+    "instruction": "Verbinde jedes Tier mit der Gruppe, zu der es gehört."
+  },
+  "G1-202": {
+    "title": "Wo leben die Tiere?",
+    "instruction": "Verbinde jedes Tier mit dem Ort, an dem es lebt."
+  },
+  "G1-204": {
+    "title": "Schwimmt oder sinkt?",
+    "instruction": "Verbinde jeden Gegenstand mit der Gruppe, zu der er deiner Meinung nach gehört."
+  },
+  "G1-205": {
+    "title": "Die Körperbedeckung der Tiere",
+    "instruction": "Verbinde jedes Tier mit seiner Körperbedeckung."
+  },
+  "G1-206": {
+    "title": "Was fressen die Tiere?",
+    "instruction": "Verbinde jedes Tier mit der Gruppe, zu der es gehört."
+  },
+  "G1-207": {
+    "title": "Die vier Lebensmittelgruppen",
+    "instruction": "Verbinde jedes Lebensmittel mit seiner Lebensmittelgruppe."
+  },
+  "G1-203": {
+    "title": "Der Lebenszyklus des Huhns",
+    "instruction": "Schreibe 1, 2, 3 und bringe die Bilder in die richtige Reihenfolge."
+  },
+  "K-205": {
+    "title": "Tierkinder",
+    "instruction": "Verbinde jedes erwachsene Tier mit seinem Tierkind."
+  },
+  "K-213": {
+    "title": "Berufe und ihre Werkzeuge",
+    "instruction": "Verbinde jede helfende Person mit dem Werkzeug, das sie benutzt."
   }
 }

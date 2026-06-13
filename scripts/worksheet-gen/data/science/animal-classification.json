@@ -1,0 +1,170 @@
+{
+  "_note": "Curated noun->class map for the SCIENCE animal-classification concept-sort. Nouns reference cached themes (theme,noun). K-2 classification; sea mammals (dolphin/whale) intentionally omitted to avoid the mammal-vs-fish ambiguity at this grade.",
+  "bins": [
+    {
+      "key": "mammals",
+      "label": {
+        "en": "Mammals",
+        "de": "Säugetiere",
+        "es": "Mamíferos",
+        "fr": "Mammifères",
+        "it": "Mammiferi",
+        "pt": "Mamíferos",
+        "nl": "Zoogdieren",
+        "sv": "Däggdjur",
+        "da": "Pattedyr",
+        "no": "Pattedyr",
+        "fi": "Nisäkkäät"
+      }
+    },
+    {
+      "key": "birds",
+      "label": {
+        "en": "Birds",
+        "de": "Vögel",
+        "es": "Aves",
+        "fr": "Oiseaux",
+        "it": "Uccelli",
+        "pt": "Aves",
+        "nl": "Vogels",
+        "sv": "Fåglar",
+        "da": "Fugle",
+        "no": "Fugler",
+        "fi": "Linnut"
+      }
+    },
+    {
+      "key": "reptiles",
+      "label": {
+        "en": "Reptiles",
+        "de": "Reptilien",
+        "es": "Reptiles",
+        "fr": "Reptiles",
+        "it": "Rettili",
+        "pt": "Répteis",
+        "nl": "Reptielen",
+        "sv": "Reptiler",
+        "da": "Krybdyr",
+        "no": "Krypdyr",
+        "fi": "Matelijat"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "elephant",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "fox",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "horse",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "koala",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "panda",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "tiger",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "zebra",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "rabbit",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "pig",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "sheep",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "giraffe",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "wolf",
+      "bin": "mammals"
+    },
+    {
+      "theme": "animals",
+      "noun": "duck",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "owl",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "penguin",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "seagull",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "swan",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "vulture",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "woodpecker",
+      "bin": "birds"
+    },
+    {
+      "theme": "animals",
+      "noun": "iguana",
+      "bin": "reptiles"
+    },
+    {
+      "theme": "animals",
+      "noun": "turtle",
+      "bin": "reptiles"
+    }
+  ]
+}

@@ -259,6 +259,21 @@
       "default_subject": "math",
       "default_age_range": "6-8",
       "exercise_type_axis_key": "picture-arithmetic"
+    },
+    "science-sort": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "science-sort"
+    },
+    "science-sequence": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "science-sequence"
+    },
+    "science-match": {
+      "default_subject": "science",
+      "default_age_range": "5-7",
+      "exercise_type_axis_key": "science-match"
     }
   },
   "axes": {
@@ -1697,6 +1712,90 @@
           "da": "Billedregning",
           "no": "Regne med bilder",
           "fi": "Kuvalaskut"
+        }
+      },
+      "science-sort": {
+        "slug": {
+          "en": "science-sort",
+          "de": "sachunterricht-sortieren",
+          "es": "clasificar-ciencias",
+          "fr": "tri-en-sciences",
+          "it": "classifichiamo-le-scienze",
+          "pt": "classificar-ciencias",
+          "nl": "natuur-sorteren",
+          "sv": "sortera-i-naturen",
+          "da": "sorter-i-naturen",
+          "no": "sortere-i-naturfag",
+          "fi": "luonnontieteen-lajittelu"
+        },
+        "name": {
+          "en": "Science Sorting",
+          "de": "Sachunterricht-Sortieren",
+          "es": "Clasificar en ciencias",
+          "fr": "Tri en sciences",
+          "it": "Classifichiamo le scienze",
+          "pt": "Classificar em Ciências",
+          "nl": "Natuur sorteren",
+          "sv": "Sortera i naturen",
+          "da": "Sortér i naturen",
+          "no": "Sortere i naturfag",
+          "fi": "Luonnontieteen lajittelu"
+        }
+      },
+      "science-sequence": {
+        "slug": {
+          "en": "science-sequence",
+          "de": "reihenfolge-und-lebenszyklen",
+          "es": "secuencias-ciclos-de-vida",
+          "fr": "ordre-et-cycles-de-vie",
+          "it": "sequenze-e-cicli-di-vita",
+          "pt": "sequencias-ciclos-de-vida",
+          "nl": "volgorde-en-levenscyclus",
+          "sv": "ordningsfoljd-och-livscykler",
+          "da": "raekkefoelge-og-livscyklusser",
+          "no": "rekkefolge-og-livssykluser",
+          "fi": "jarjestys-ja-elamankierto"
+        },
+        "name": {
+          "en": "Sequencing & Life Cycles",
+          "de": "Reihenfolge & Lebenszyklen",
+          "es": "Secuencias y ciclos de vida",
+          "fr": "Ordre et cycles de vie",
+          "it": "Sequenze e cicli di vita",
+          "pt": "Sequências e Ciclos de Vida",
+          "nl": "Volgorde en levenscyclus",
+          "sv": "Ordningsföljd och livscykler",
+          "da": "Rækkefølge og livscyklusser",
+          "no": "Rekkefolge og livssykluser",
+          "fi": "Järjestys ja elämänkierto"
+        }
+      },
+      "science-match": {
+        "slug": {
+          "en": "science-match",
+          "de": "sachunterricht-zuordnen",
+          "es": "relacionar-ciencias",
+          "fr": "associations-en-sciences",
+          "it": "abbinamenti-di-scienze",
+          "pt": "associacao-ciencias",
+          "nl": "natuur-verbinden",
+          "sv": "para-ihop-i-naturen",
+          "da": "find-par-i-naturen",
+          "no": "para-sammen-i-naturfag",
+          "fi": "luonnontieteen-yhdistaminen"
+        },
+        "name": {
+          "en": "Science Matching",
+          "de": "Sachunterricht-Zuordnen",
+          "es": "Relacionar en ciencias",
+          "fr": "Associations en sciences",
+          "it": "Abbinamenti di scienze",
+          "pt": "Associação em Ciências",
+          "nl": "Natuur verbinden",
+          "sv": "Para ihop i naturen",
+          "da": "Find par i naturen",
+          "no": "Para sammen i naturfag",
+          "fi": "Luonnontieteen yhdistäminen"
         }
       }
     },

@@ -1,0 +1,13 @@
+{
+  "_note": "Match each community helper to the tool they use. K. left=helper (occupations), right=tool. All keys verified in cache manifest.",
+  "pairs": [
+    { "left": { "theme": "occupations", "noun": "doctor" },   "right": { "theme": "hospital", "noun": "stethoscope" } },
+    { "left": { "theme": "occupations", "noun": "chef" },     "right": { "theme": "kitchen tools", "noun": "whisk" } },
+    { "left": { "theme": "occupations", "noun": "teacher" },  "right": { "theme": "classroom", "noun": "book" } },
+    { "left": { "theme": "occupations", "noun": "farmer" },   "right": { "theme": "vehicles", "noun": "tractor" } },
+    { "left": { "theme": "occupations", "noun": "carpenter" },"right": { "theme": "tools", "noun": "hammer" } },
+    { "left": { "theme": "occupations", "noun": "musician" }, "right": { "theme": "music", "noun": "guitar" } },
+    { "left": { "theme": "occupations", "noun": "gardener" }, "right": { "theme": "around the house", "noun": "rake" } },
+    { "left": { "theme": "occupations", "noun": "pilot" },    "right": { "theme": "vehicles", "noun": "airplane" } }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "_note": "Sort things that are Hot vs Cold. K. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "hot",
+      "label": {
+        "en": "Hot",
+        "de": "Heiß",
+        "es": "Caliente",
+        "fr": "Chaud",
+        "it": "Caldo",
+        "pt": "Quente",
+        "nl": "Warm",
+        "sv": "Varmt",
+        "da": "Varmt",
+        "no": "Varmt",
+        "fi": "Kuuma"
+      }
+    },
+    {
+      "key": "cold",
+      "label": {
+        "en": "Cold",
+        "de": "Kalt",
+        "es": "Frío",
+        "fr": "Froid",
+        "it": "Freddo",
+        "pt": "Frio",
+        "nl": "Koud",
+        "sv": "Kallt",
+        "da": "Koldt",
+        "no": "Kaldt",
+        "fi": "Kylmä"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "weather",
+      "noun": "sun",
+      "bin": "hot"
+    },
+    {
+      "theme": "summer",
+      "noun": "campfire",
+      "bin": "hot"
+    },
+    {
+      "theme": "winter",
+      "noun": "fireplace",
+      "bin": "hot"
+    },
+    {
+      "theme": "around the house",
+      "noun": "grill",
+      "bin": "hot"
+    },
+    {
+      "theme": "summer",
+      "noun": "barbecue",
+      "bin": "hot"
+    },
+    {
+      "theme": "winter",
+      "noun": "snowman",
+      "bin": "cold"
+    },
+    {
+      "theme": "winter",
+      "noun": "ice",
+      "bin": "cold"
+    },
+    {
+      "theme": "winter",
+      "noun": "icicle",
+      "bin": "cold"
+    },
+    {
+      "theme": "desserts and sweets",
+      "noun": "popsicle",
+      "bin": "cold"
+    },
+    {
+      "theme": "weather",
+      "noun": "snowflake",
+      "bin": "cold"
+    }
+  ]
+}

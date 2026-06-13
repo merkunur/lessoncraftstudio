@@ -1,0 +1,104 @@
+{
+  "_note": "Sort animals into Plant Eaters vs Meat Eaters (herbivore/carnivore). G1. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "plant",
+      "label": {
+        "en": "Plant Eaters",
+        "de": "Pflanzenfresser",
+        "es": "Herbívoros",
+        "fr": "Herbivores",
+        "it": "Erbivori",
+        "pt": "Herbívoros",
+        "nl": "Planteneters",
+        "sv": "Växtätare",
+        "da": "Planteædere",
+        "no": "Planteetere",
+        "fi": "Kasvinsyöjät"
+      }
+    },
+    {
+      "key": "meat",
+      "label": {
+        "en": "Meat Eaters",
+        "de": "Fleischfresser",
+        "es": "Carnívoros",
+        "fr": "Carnivores",
+        "it": "Carnivori",
+        "pt": "Carnívoros",
+        "nl": "Vleeseters",
+        "sv": "Köttätare",
+        "da": "Kødædere",
+        "no": "Kjottetere",
+        "fi": "Lihansyöjät"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "farm animals",
+      "noun": "cow",
+      "bin": "plant"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "sheep",
+      "bin": "plant"
+    },
+    {
+      "theme": "animals",
+      "noun": "horse",
+      "bin": "plant"
+    },
+    {
+      "theme": "animals",
+      "noun": "rabbit",
+      "bin": "plant"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "elephant",
+      "bin": "plant"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "giraffe",
+      "bin": "plant"
+    },
+    {
+      "theme": "camping",
+      "noun": "deer",
+      "bin": "plant"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "lion",
+      "bin": "meat"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "tiger",
+      "bin": "meat"
+    },
+    {
+      "theme": "animals",
+      "noun": "wolf",
+      "bin": "meat"
+    },
+    {
+      "theme": "animals",
+      "noun": "fox",
+      "bin": "meat"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "shark",
+      "bin": "meat"
+    },
+    {
+      "theme": "birds",
+      "noun": "eagle",
+      "bin": "meat"
+    }
+  ]
+}

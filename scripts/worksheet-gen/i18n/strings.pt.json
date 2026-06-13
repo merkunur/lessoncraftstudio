@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Separe em dois círculos",
     "instruction": "Esquerdo: este tipo. Direito: os GRANDES. Meio: os dois! Ligue cada figura ao seu lugar."
+  },
+  "K-201": {
+    "title": "Seres Vivos e Não Vivos",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-202": {
+    "title": "Frutas e Legumes",
+    "instruction": "Ligue cada alimento ao grupo a que ele pertence."
+  },
+  "K-203": {
+    "title": "Alimentos Saudáveis e Não Saudáveis",
+    "instruction": "Ligue cada alimento ao grupo a que ele pertence."
+  },
+  "K-204": {
+    "title": "Animais de Estimação e Animais Selvagens",
+    "instruction": "Ligue cada animal ao grupo a que ele pertence."
+  },
+  "K-206": {
+    "title": "Coisas Que Voam",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-207": {
+    "title": "Roupas de Verão e de Inverno",
+    "instruction": "Ligue cada peça de roupa ao grupo certo."
+  },
+  "K-208": {
+    "title": "Dia e Noite",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-209": {
+    "title": "Animais da Fazenda e Animais Selvagens",
+    "instruction": "Ligue cada animal ao grupo a que ele pertence."
+  },
+  "K-210": {
+    "title": "Transportes na Terra, na Água e no Ar",
+    "instruction": "Ligue cada veículo ao lugar por onde ele anda."
+  },
+  "K-211": {
+    "title": "Quente e Frio",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-212": {
+    "title": "Desejos e Necessidades",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "K-214": {
+    "title": "Natural e Feito pelo Ser Humano",
+    "instruction": "Ligue cada figura ao grupo a que ela pertence."
+  },
+  "G1-201": {
+    "title": "Classifique os Animais",
+    "instruction": "Ligue cada animal ao grupo a que ele pertence."
+  },
+  "G1-202": {
+    "title": "Onde os Animais Vivem?",
+    "instruction": "Ligue cada animal ao lugar onde ele vive."
+  },
+  "G1-204": {
+    "title": "Afunda ou Flutua?",
+    "instruction": "Ligue cada objeto ao grupo que você acha que ele pertence."
+  },
+  "G1-205": {
+    "title": "A Cobertura do Corpo dos Animais",
+    "instruction": "Ligue cada animal à cobertura do corpo dele."
+  },
+  "G1-206": {
+    "title": "O Que os Animais Comem",
+    "instruction": "Ligue cada animal ao grupo a que ele pertence."
+  },
+  "G1-207": {
+    "title": "Os Quatro Grupos de Alimentos",
+    "instruction": "Ligue cada alimento ao seu grupo alimentar."
+  },
+  "G1-203": {
+    "title": "O Ciclo de Vida da Galinha",
+    "instruction": "Escreva 1, 2, 3 para colocar as figuras na ordem certa."
+  },
+  "K-205": {
+    "title": "Os Filhotes dos Animais",
+    "instruction": "Ligue cada animal adulto ao seu filhote."
+  },
+  "K-213": {
+    "title": "Profissionais da Comunidade e Suas Ferramentas",
+    "instruction": "Ligue cada profissional à ferramenta que ele usa."
   }
 }

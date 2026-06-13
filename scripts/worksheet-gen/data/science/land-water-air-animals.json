@@ -1,0 +1,145 @@
+{
+  "_note": "Sort animals by where they live: Land / Water / Air. K-1. Three bins. Sea mammals (dolphin/whale) live in water; classify by habitat not biology at this grade. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "land",
+      "label": {
+        "en": "Land",
+        "de": "Land",
+        "es": "Tierra",
+        "fr": "Terre",
+        "it": "Terra",
+        "pt": "Terra",
+        "nl": "Land",
+        "sv": "Land",
+        "da": "Land",
+        "no": "Land",
+        "fi": "Maa"
+      }
+    },
+    {
+      "key": "water",
+      "label": {
+        "en": "Water",
+        "de": "Wasser",
+        "es": "Agua",
+        "fr": "Eau",
+        "it": "Acqua",
+        "pt": "Água",
+        "nl": "Water",
+        "sv": "Vatten",
+        "da": "Vand",
+        "no": "Vann",
+        "fi": "Vesi"
+      }
+    },
+    {
+      "key": "air",
+      "label": {
+        "en": "Air",
+        "de": "Luft",
+        "es": "Aire",
+        "fr": "Air",
+        "it": "Aria",
+        "pt": "Ar",
+        "nl": "Lucht",
+        "sv": "Luft",
+        "da": "Luft",
+        "no": "Luft",
+        "fi": "Ilma"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "land"
+    },
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "land"
+    },
+    {
+      "theme": "animals",
+      "noun": "horse",
+      "bin": "land"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "lion",
+      "bin": "land"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "elephant",
+      "bin": "land"
+    },
+    {
+      "theme": "animals",
+      "noun": "rabbit",
+      "bin": "land"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "fish",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "dolphin",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "whale",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "octopus",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "crab",
+      "bin": "water"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "seal",
+      "bin": "water"
+    },
+    {
+      "theme": "birds",
+      "noun": "eagle",
+      "bin": "air"
+    },
+    {
+      "theme": "birds",
+      "noun": "parrot",
+      "bin": "air"
+    },
+    {
+      "theme": "insects and bugs",
+      "noun": "bee",
+      "bin": "air"
+    },
+    {
+      "theme": "insects and bugs",
+      "noun": "butterfly",
+      "bin": "air"
+    },
+    {
+      "theme": "Things That Fly",
+      "noun": "bird",
+      "bin": "air"
+    },
+    {
+      "theme": "birds",
+      "noun": "flamingo",
+      "bin": "air"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "_note": "Sort animals into Farm vs Wild. K. Farm from 'farm animals', wild from 'zoo animals'. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "farm",
+      "label": {
+        "en": "Farm Animals",
+        "de": "Bauernhoftiere",
+        "es": "Animales de granja",
+        "fr": "Animaux de la ferme",
+        "it": "Animali della fattoria",
+        "pt": "Animais da fazenda",
+        "nl": "Boerderijdieren",
+        "sv": "Lantbruksdjur",
+        "da": "Husdyr",
+        "no": "Husdyr",
+        "fi": "Maatilan eläimet"
+      }
+    },
+    {
+      "key": "wild",
+      "label": {
+        "en": "Wild Animals",
+        "de": "Wildtiere",
+        "es": "Animales salvajes",
+        "fr": "Animaux sauvages",
+        "it": "Animali selvatici",
+        "pt": "Animais selvagens",
+        "nl": "Wilde dieren",
+        "sv": "Vilda djur",
+        "da": "Vilde dyr",
+        "no": "Ville dyr",
+        "fi": "Villieläimet"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "farm animals",
+      "noun": "cow",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "pig",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "sheep",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "chicken",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "horse",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "duck",
+      "bin": "farm"
+    },
+    {
+      "theme": "farm animals",
+      "noun": "goat",
+      "bin": "farm"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "lion",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "tiger",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "elephant",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "giraffe",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "bear",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "monkey",
+      "bin": "wild"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "zebra",
+      "bin": "wild"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "_note": "Sort foods into Fruits vs Vegetables. K-1. Tomato kept in vegetables per the K-2 culinary convention. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "fruits",
+      "label": {
+        "en": "Fruits",
+        "de": "Obst",
+        "es": "Frutas",
+        "fr": "Fruits",
+        "it": "Frutta",
+        "pt": "Frutas",
+        "nl": "Fruit",
+        "sv": "Frukt",
+        "da": "Frugt",
+        "no": "Frukt",
+        "fi": "Hedelmät"
+      }
+    },
+    {
+      "key": "vegetables",
+      "label": {
+        "en": "Vegetables",
+        "de": "Gemüse",
+        "es": "Verduras",
+        "fr": "Légumes",
+        "it": "Verdura",
+        "pt": "Legumes e Verduras",
+        "nl": "Groenten",
+        "sv": "Grönsaker",
+        "da": "Grøntsager",
+        "no": "Gronnsaker",
+        "fi": "Vihannekset"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "orange",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "strawberry",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "pear",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "peach",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "watermelon",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "cherry",
+      "bin": "fruits"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "carrot",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "broccoli",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "tomato",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "potato",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "onion",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "corn",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "cucumber",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "lettuce",
+      "bin": "vegetables"
+    }
+  ]
+}

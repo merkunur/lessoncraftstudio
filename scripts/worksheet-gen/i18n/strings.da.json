@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Sortér i to cirkler",
     "instruction": "Venstre: denne slags. Højre: STORE. Midten: begge! Forbind hvert billede med dets plads."
+  },
+  "K-201": {
+    "title": "Levende og ikke-levende",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-202": {
+    "title": "Frugt og grøntsager",
+    "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til."
+  },
+  "K-203": {
+    "title": "Sund og usund mad",
+    "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til."
+  },
+  "K-204": {
+    "title": "Kæledyr og vilde dyr",
+    "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til."
+  },
+  "K-206": {
+    "title": "Ting der kan flyve",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-207": {
+    "title": "Sommer- og vintertøj",
+    "instruction": "Tegn en streg fra hvert stykke tøj til den rigtige gruppe."
+  },
+  "K-208": {
+    "title": "Dag og nat",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-209": {
+    "title": "Husdyr og vilde dyr",
+    "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til."
+  },
+  "K-210": {
+    "title": "Transport på land, vand og i luften",
+    "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det kører."
+  },
+  "K-211": {
+    "title": "Varmt og koldt",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-212": {
+    "title": "Behov og ønsker",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "K-214": {
+    "title": "Naturligt og menneskeskabt",
+    "instruction": "Tegn en streg fra hvert billede til den gruppe, det hører til."
+  },
+  "G1-201": {
+    "title": "Sortér dyrene",
+    "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til."
+  },
+  "G1-202": {
+    "title": "Hvor bor dyrene?",
+    "instruction": "Tegn en streg fra hvert dyr til det sted, hvor det bor."
+  },
+  "G1-204": {
+    "title": "Synker eller flyder?",
+    "instruction": "Tegn en streg fra hver ting til den gruppe, du tror, den hører til."
+  },
+  "G1-205": {
+    "title": "Dyrenes hud og pels",
+    "instruction": "Tegn en streg fra hvert dyr til det, der dækker dets krop."
+  },
+  "G1-206": {
+    "title": "Hvad spiser dyrene?",
+    "instruction": "Tegn en streg fra hvert dyr til den gruppe, det hører til."
+  },
+  "G1-207": {
+    "title": "De fire madgrupper",
+    "instruction": "Tegn en streg fra hver mad til dens madgruppe."
+  },
+  "G1-203": {
+    "title": "En kyllings livscyklus",
+    "instruction": "Skriv 1, 2, 3 for at sætte billederne i den rigtige rækkefølge."
+  },
+  "K-205": {
+    "title": "Dyreunger",
+    "instruction": "Tegn en streg fra hvert voksent dyr til dets unge."
+  },
+  "K-213": {
+    "title": "Hjælpere i samfundet og deres redskaber",
+    "instruction": "Tegn en streg fra hver hjælper til det redskab, de bruger."
   }
 }

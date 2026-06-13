@@ -1,0 +1,135 @@
+{
+  "_note": "Sort animals by body covering: Fur / Feathers / Scales. G1. 3 bins. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "fur",
+      "label": {
+        "en": "Fur",
+        "de": "Fell",
+        "es": "Pelo",
+        "fr": "Poils",
+        "it": "Pelo",
+        "pt": "Pelos",
+        "nl": "Vacht",
+        "sv": "Päls",
+        "da": "Pels",
+        "no": "Pels",
+        "fi": "Turkki"
+      }
+    },
+    {
+      "key": "feathers",
+      "label": {
+        "en": "Feathers",
+        "de": "Federn",
+        "es": "Plumas",
+        "fr": "Plumes",
+        "it": "Piume",
+        "pt": "Penas",
+        "nl": "Veren",
+        "sv": "Fjädrar",
+        "da": "Fjer",
+        "no": "Fjaer",
+        "fi": "Höyhenet"
+      }
+    },
+    {
+      "key": "scales",
+      "label": {
+        "en": "Scales",
+        "de": "Schuppen",
+        "es": "Escamas",
+        "fr": "Écailles",
+        "it": "Squame",
+        "pt": "Escamas",
+        "nl": "Schubben",
+        "sv": "Fjäll",
+        "da": "Skæl",
+        "no": "Skjell",
+        "fi": "Suomut"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "fur"
+    },
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "fur"
+    },
+    {
+      "theme": "animals",
+      "noun": "fox",
+      "bin": "fur"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "bear",
+      "bin": "fur"
+    },
+    {
+      "theme": "animals",
+      "noun": "rabbit",
+      "bin": "fur"
+    },
+    {
+      "theme": "zoo animals",
+      "noun": "lion",
+      "bin": "fur"
+    },
+    {
+      "theme": "birds",
+      "noun": "owl",
+      "bin": "feathers"
+    },
+    {
+      "theme": "birds",
+      "noun": "eagle",
+      "bin": "feathers"
+    },
+    {
+      "theme": "birds",
+      "noun": "parrot",
+      "bin": "feathers"
+    },
+    {
+      "theme": "birds",
+      "noun": "penguin",
+      "bin": "feathers"
+    },
+    {
+      "theme": "animals",
+      "noun": "duck",
+      "bin": "feathers"
+    },
+    {
+      "theme": "ocean life",
+      "noun": "fish",
+      "bin": "scales"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "iguana",
+      "bin": "scales"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "turtle",
+      "bin": "scales"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "alligator",
+      "bin": "scales"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "chameleon",
+      "bin": "scales"
+    }
+  ]
+}

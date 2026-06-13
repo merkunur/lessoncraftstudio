@@ -1,0 +1,131 @@
+{
+  "_note": "Sort foods into 4 food groups: Fruits / Vegetables / Grains / Protein. G1. Four bins (widest layout). All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "fruits",
+      "label": {
+        "en": "Fruits",
+        "de": "Obst",
+        "es": "Frutas",
+        "fr": "Fruits",
+        "it": "Frutta",
+        "pt": "Frutas",
+        "nl": "Fruit",
+        "sv": "Frukt",
+        "da": "Frugt",
+        "no": "Frukt",
+        "fi": "Hedelmät"
+      }
+    },
+    {
+      "key": "vegetables",
+      "label": {
+        "en": "Vegetables",
+        "de": "Gemüse",
+        "es": "Verduras",
+        "fr": "Légumes",
+        "it": "Verdura",
+        "pt": "Legumes e Verduras",
+        "nl": "Groenten",
+        "sv": "Grönsaker",
+        "da": "Grøntsager",
+        "no": "Gronnsaker",
+        "fi": "Vihannekset"
+      }
+    },
+    {
+      "key": "grains",
+      "label": {
+        "en": "Grains",
+        "de": "Getreide",
+        "es": "Cereales",
+        "fr": "Céréales",
+        "it": "Cereali",
+        "pt": "Cereais",
+        "nl": "Granen",
+        "sv": "Spannmål",
+        "da": "Korn",
+        "no": "Korn",
+        "fi": "Viljatuotteet"
+      }
+    },
+    {
+      "key": "protein",
+      "label": {
+        "en": "Protein",
+        "de": "Eiweiß",
+        "es": "Proteínas",
+        "fr": "Protéines",
+        "it": "Proteine",
+        "pt": "Proteínas",
+        "nl": "Eiwitten",
+        "sv": "Protein",
+        "da": "Protein",
+        "no": "Protein",
+        "fi": "Proteiini"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "strawberry",
+      "bin": "fruits"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "carrot",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "broccoli",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "corn",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "bread",
+      "bin": "grains"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "cereal",
+      "bin": "grains"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "rice",
+      "bin": "grains"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "egg",
+      "bin": "protein"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "fish",
+      "bin": "protein"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "ham",
+      "bin": "protein"
+    }
+  ]
+}

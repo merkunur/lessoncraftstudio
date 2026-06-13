@@ -1,0 +1,99 @@
+{
+  "_note": "Predict-and-sort: things that Float vs Sink in water. G1. Curated by everyday buoyancy. All keys verified in cache manifest.",
+  "bins": [
+    {
+      "key": "float",
+      "label": {
+        "en": "Float",
+        "de": "Schwimmt",
+        "es": "Flota",
+        "fr": "Flotte",
+        "it": "Galleggia",
+        "pt": "Flutua",
+        "nl": "Drijven",
+        "sv": "Flyter",
+        "da": "Flyder",
+        "no": "Flyter",
+        "fi": "Kelluu"
+      }
+    },
+    {
+      "key": "sink",
+      "label": {
+        "en": "Sink",
+        "de": "Sinkt",
+        "es": "Se hunde",
+        "fr": "Coule",
+        "it": "Affonda",
+        "pt": "Afunda",
+        "nl": "Zinken",
+        "sv": "Sjunker",
+        "da": "Synker",
+        "no": "Synker",
+        "fi": "Uppoaa"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "beach",
+      "noun": "boat",
+      "bin": "float"
+    },
+    {
+      "theme": "animals",
+      "noun": "duck",
+      "bin": "float"
+    },
+    {
+      "theme": "toys",
+      "noun": "ball",
+      "bin": "float"
+    },
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "float"
+    },
+    {
+      "theme": "miscellaneous",
+      "noun": "leaf",
+      "bin": "float"
+    },
+    {
+      "theme": "easter",
+      "noun": "feather",
+      "bin": "float"
+    },
+    {
+      "theme": "beach",
+      "noun": "rock",
+      "bin": "sink"
+    },
+    {
+      "theme": "around the house",
+      "noun": "key",
+      "bin": "sink"
+    },
+    {
+      "theme": "kitchen tools",
+      "noun": "spoon",
+      "bin": "sink"
+    },
+    {
+      "theme": "classroom",
+      "noun": "scissors",
+      "bin": "sink"
+    },
+    {
+      "theme": "tools",
+      "noun": "hammer",
+      "bin": "sink"
+    },
+    {
+      "theme": "kitchen tools",
+      "noun": "fork",
+      "bin": "sink"
+    }
+  ]
+}

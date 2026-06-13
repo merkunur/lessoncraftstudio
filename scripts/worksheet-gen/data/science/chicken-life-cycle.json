@@ -1,0 +1,8 @@
+{
+  "_note": "Chicken life-cycle stages in CORRECT order (egg -> chick -> hen). The only complete staged set in the current image library; butterfly/frog/plant life cycles are dropped (missing chrysalis/tadpole/sprout art) per the buildable-now ruling.",
+  "stages": [
+    { "theme": "At the Supermarket", "noun": "egg" },
+    { "theme": "farm animals", "noun": "chick" },
+    { "theme": "farm animals", "noun": "hen" }
+  ]
+}

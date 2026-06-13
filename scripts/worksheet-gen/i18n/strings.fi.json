@@ -814,5 +814,89 @@
   "G3-353": {
     "title": "Kahden kehän lajittelu",
     "instruction": "Vasen kehä: tätä lajia. Oikea: ISOT. Keskellä: molemmat! Yhdistä jokainen kuva."
+  },
+  "K-201": {
+    "title": "Elävät ja elottomat",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-202": {
+    "title": "Hedelmät ja vihannekset",
+    "instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-203": {
+    "title": "Terveelliset ja epäterveelliset ruoat",
+    "instruction": "Piirrä viiva jokaisesta ruoasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-204": {
+    "title": "Lemmikit ja villieläimet",
+    "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+  },
+  "K-206": {
+    "title": "Mikä osaa lentää?",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-207": {
+    "title": "Kesä- ja talvivaatteet",
+    "instruction": "Piirrä viiva jokaisesta vaatteesta oikeaan ryhmään."
+  },
+  "K-208": {
+    "title": "Päivä ja yö",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-209": {
+    "title": "Maatilan eläimet ja villieläimet",
+    "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+  },
+  "K-210": {
+    "title": "Maa-, vesi- ja ilmaliikenne",
+    "instruction": "Piirrä viiva jokaisesta kulkuvälineestä siihen, missä se kulkee."
+  },
+  "K-211": {
+    "title": "Kuuma ja kylmä",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-212": {
+    "title": "Tarpeet ja toiveet",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "K-214": {
+    "title": "Luonnollinen ja ihmisen tekemä",
+    "instruction": "Piirrä viiva jokaisesta kuvasta siihen ryhmään, johon se kuuluu."
+  },
+  "G1-201": {
+    "title": "Lajittele eläimet",
+    "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+  },
+  "G1-202": {
+    "title": "Missä eläimet elävät?",
+    "instruction": "Piirrä viiva jokaisesta eläimestä siihen, missä se elää."
+  },
+  "G1-204": {
+    "title": "Uppoaa vai kelluu?",
+    "instruction": "Piirrä viiva jokaisesta esineestä siihen ryhmään, johon arvelet sen kuuluvan."
+  },
+  "G1-205": {
+    "title": "Eläinten ihopeite",
+    "instruction": "Piirrä viiva jokaisesta eläimestä sen ihopeitteeseen."
+  },
+  "G1-206": {
+    "title": "Mitä eläimet syövät",
+    "instruction": "Piirrä viiva jokaisesta eläimestä siihen ryhmään, johon se kuuluu."
+  },
+  "G1-207": {
+    "title": "Neljä ruoka-aineryhmää",
+    "instruction": "Piirrä viiva jokaisesta ruoasta sen ruoka-aineryhmään."
+  },
+  "G1-203": {
+    "title": "Kanan elämänkierto",
+    "instruction": "Kirjoita 1, 2, 3 ja laita kuvat oikeaan järjestykseen."
+  },
+  "K-205": {
+    "title": "Eläinten poikaset",
+    "instruction": "Piirrä viiva jokaisesta aikuisesta eläimestä sen poikaseen."
+  },
+  "K-213": {
+    "title": "Ammattilaiset ja heidän työvälineensä",
+    "instruction": "Piirrä viiva jokaisesta ammattilaisesta hänen käyttämäänsä työvälineeseen."
   }
 }

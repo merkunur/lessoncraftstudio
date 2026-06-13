@@ -1109,7 +1109,9 @@
       "free_interactive": "Gratis interaktivt",
       "for": "för",
       "print_or_play_online": "Skriv ut eller spela online",
-      "variant_label": "Set"
+      "variant_label": "Set",
+      "free_printable": "Gratis utskrivbart arbetsblad:",
+      "download_pdf": "Ladda ner PDF gratis"
     },
     "deckCardAlt": {
       "withTheme": "Förhandsvisning av {exerciseType}-arbetsblad med {theme} för {level}",
@@ -1902,7 +1904,29 @@
     "weather": "Vädertemat utvecklar naturobservation och säsongsmedvetenhet hos förskolebarn genom sol, regn, snö och åska för meteorologisk grundförståelse om världen.",
     "winter": "Vintertemat bygger säsongsordförråd och svensk kulturkännedom hos förskolebarn genom snö, skidor, mössor och vintersport för cyklisk årstidsförståelse.",
     "zoo_animals": "Djurparksdjurstemat utvecklar artkännedom och habitatkunskap hos 3-7 åringar genom lejon, elefanter och giraffer för exotisk djurfascination i klassen.",
-    "zoo_animals_bw": "Djurparksdjur i svartvitt bygger artkännedom och visuell diskriminering hos förskolebarn genom konturer av exotiska djur för utskriftsövningar i klassen."
+    "zoo_animals_bw": "Djurparksdjur i svartvitt bygger artkännedom och visuell diskriminering hos förskolebarn genom konturer av exotiska djur för utskriftsövningar i klassen.",
+    "counting-pictures": "Räkna-bilder-blad för förskoleklass och årskurs 1 bygger ett-till-ett-korrespondens och tidig talförståelse. Skriv ut gratis som PDF eller öva online.",
+    "counting-frames": "Tioram-blad för förskoleklass och årskurs 1 ger tydlig struktur för att räkna och bygga tiotal. Skriv ut gratis som PDF eller öva direkt i webbläsaren.",
+    "tally-counting": "Räkna-med-streck-blad för förskoleklass och årskurs 1 tränar att ordna och räkna i grupper om fem. Skriv ut gratis som PDF eller öva online.",
+    "number-charts": "Hundraruta-blad för förskoleklass och årskurs 1 stärker talföljd, hoppräkning och tidigt positionssystem. Skriv ut gratis som PDF eller öva online.",
+    "comparing-numbers": "Jämföra-tal-blad för förskoleklass och årskurs 1 bygger storleksbegrepp med större än, mindre än och lika med. Skriv ut gratis som PDF eller öva online.",
+    "comparing-groups": "Jämföra-mängder-blad för förskolan tränar att se vilken grupp som har fler, färre eller lika många. Skriv ut gratis som PDF eller öva online utan symboler.",
+    "comparing-sizes": "Jämföra-storlekar-blad för förskolan bygger ordförråd som stor, liten, lång och kort. Skriv ut gratis som PDF eller öva direkt i webbläsaren.",
+    "number-lines": "Tallinje-blad för förskoleklass och årskurs 1 gör addition, subtraktion och talföljd konkret och synlig. Skriv ut gratis som PDF eller öva online.",
+    "base-ten": "Tiotal-och-ental-blad för årskurs 1-2 gör positionssystemet konkret med hundratal, tiotal och ental. Skriv ut gratis som PDF eller öva i webbläsaren.",
+    "telling-time": "Klockan-blad för årskurs 1-2 tränar att läsa analog klocka på hel, halv och fem minuter. Skriv ut gratis som PDF eller öva direkt online.",
+    "fractions": "Bråk-blad för årskurs 1-2 ger en konkret första titt på halvor, tredjedelar och fjärdedelar. Skriv ut gratis som PDF eller öva i webbläsaren.",
+    "graphing-data": "Diagram-blad för förskoleklass till årskurs 2 tränar att läsa stapeldiagram, bilddiagram och strecktabeller. Skriv ut gratis som PDF eller öva online.",
+    "arrays-multiplication": "Multiplikation-med-bilder-blad för årskurs 1-2 förvandlar upprepad addition till tidigt multiplikationstänk. Skriv ut gratis som PDF eller öva online.",
+    "geometry": "Geometri-blad för förskoleklass till årskurs 2 bygger formnamn, hörn, sidor och symmetri. Skriv ut gratis som PDF eller öva direkt i webbläsaren.",
+    "measurement": "Mätning-blad för förskoleklass till årskurs 2 bygger praktiskt mätsinne med linjal och att jämföra längder. Skriv ut gratis som PDF eller öva online.",
+    "visual-logic": "Logiska-pussel-blad för förskoleklass till årskurs 2 tränar deduktion med bildsudoku och tankerutor. Skriv ut gratis som PDF eller öva direkt online.",
+    "visual-discrimination": "Visuell-perception-blad för förskoleklass och årskurs 1 skärper öga för detaljer med skuggor, speglingar och hitta-rätt. Skriv ut gratis som PDF eller öva online.",
+    "visual-matching": "Para-ihop-bilder-blad för förskolan stärker visuellt minne och lika-olika-tänk. Skriv ut gratis som PDF eller öva direkt i webbläsaren.",
+    "patterns": "Mönster-blad för förskoleklass och årskurs 1 bygger mönsterigenkänning och tidigt algebratänk. Skriv ut gratis som PDF eller öva direkt online.",
+    "position-words": "Lägeord-blad för förskolan bygger rumsligt ordförråd som ovanför, under, vänster och höger. Skriv ut gratis som PDF eller öva direkt i webbläsaren.",
+    "sorting-categories": "Sortera-i-kategorier-blad för förskolan bygger klassificeringstänk som barn använder i matte, NO och läsning. Skriv ut gratis som PDF eller öva online.",
+    "picture-arithmetic": "Räkna-med-bilder-blad för förskoleklass och årskurs 1 låter barn räkna addition och subtraktion konkret. Skriv ut gratis som PDF eller öva online."
   },
   "topicProse": {
     "animals": "Bläddra bland arbetsblad med Djur här, där en och samma bekanta djurbild dyker upp i många olika övningar. Barnen räknar djuren, sorterar dem, parar ihop dem, funderar på vilken som inte passar och övar sina första bokstäver med djuren som stöd. Med tydligt bildstöd passar arbetsblad med Djur barn i förskolan och tidiga skolår, eftersom ett välkänt tema gör många olika färdigheter lättare att möta. Varje arbetsblad är gratis att skriva ut som PDF, med en interaktiv version att spela online och facit. Kombinera ett räkneblad med ett bokstavsblad på samma tema. Allt finns på de 11 språk vi publicerar på.",

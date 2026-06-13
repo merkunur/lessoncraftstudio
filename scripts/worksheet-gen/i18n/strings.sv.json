@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Räkna och ringa in",
+    "instruction": "Räkna bilderna i varje ruta. Ringa in rätt tal."
+  },
+  "K-004": {
+    "title": "Räkna i tioruta",
+    "instruction": "Räkna bilderna i rutan. Skriv talet."
+  },
+  "K-005": {
+    "title": "Fyll i rutan",
+    "instruction": "Rita en prick i rutan för varje en som talet visar."
+  },
+  "K-006": {
+    "title": "Räkna och skriv",
+    "instruction": "Räkna bilderna i varje ruta. Skriv talet."
+  },
+  "K-007": {
+    "title": "Räkna och para ihop",
+    "instruction": "Räkna bilderna. Dra ett streck till rätt tal."
+  },
+  "K-008": {
+    "title": "Fler eller färre?",
+    "instruction": "Titta på båda grupperna. Ringa in gruppen som har FLER."
+  },
+  "K-009": {
+    "title": "Vilken har färre?",
+    "instruction": "Titta på båda grupperna. Ringa in gruppen som har FÄRRE."
+  },
+  "K-010": {
+    "title": "Hitta lika grupper",
+    "instruction": "Två grupper har lika många. Ringa in båda."
+  },
+  "K-011": {
+    "title": "Räkna och måla",
+    "instruction": "Måla precis så många bilder som talet visar."
+  },
+  "K-012": {
+    "title": "En till varje",
+    "instruction": "Ge varje bild en kompis. Dra ett streck och para ihop dem en och en."
+  },
+  "K-013": {
+    "title": "Räkna varje sort",
+    "instruction": "Räkna varje sorts bild. Skriv hur många du hittar."
+  },
+  "K-014": {
+    "title": "Rita räknestreck",
+    "instruction": "Räkna bilderna. Rita streck i rutan."
+  },
+  "K-015": {
+    "title": "Läs strecken",
+    "instruction": "Räkna strecken. Skriv talet."
+  },
+  "K-016": {
+    "title": "Udda eller jämnt?",
+    "instruction": "Para ihop dem! Om en blir över är talet udda."
+  },
+  "K-017": {
+    "title": "Snabb titt",
+    "instruction": "Räkna inte en och en! Titta snabbt och ringa in hur många."
+  },
+  "K-018": {
+    "title": "Hur många? Snabbt",
+    "instruction": "Titta snabbt och ringa in hur många du ser."
+  },
+  "K-019": {
+    "title": "Tal som saknas till 10",
+    "instruction": "Räkna längs raden. Skriv varje tal som saknas."
+  },
+  "K-020": {
+    "title": "Tal som saknas till 20",
+    "instruction": "Räkna längs raden. Skriv varje tal som saknas."
+  },
+  "K-021": {
+    "title": "Före och efter",
+    "instruction": "Skriv talet som kommer före och det som kommer efter."
+  },
+  "K-022": {
+    "title": "Mitt emellan",
+    "instruction": "Skriv talet som kommer emellan."
+  },
+  "K-023": {
+    "title": "Nedräkning: 10, 9, 8",
+    "instruction": "Räkna baklänges. Skriv varje tal som saknas."
+  },
+  "K-024": {
+    "title": "Para ihop tioruta",
+    "instruction": "Dra ett streck från varje tal till dess tioruta."
+  },
+  "K-025": {
+    "title": "Para ihop streck",
+    "instruction": "Dra ett streck från varje tal till dess streck."
+  },
+  "K-027": {
+    "title": "Räkna i rader",
+    "instruction": "Räkna raderna med bilder. Skriv hur många det är totalt."
+  },
+  "K-028": {
+    "title": "Hur många tillsammans?",
+    "instruction": "Räkna båda grupperna ihop. Skriv hur många det är totalt."
+  },
+  "K-029": {
+    "title": "Gör en bra gissning",
+    "instruction": "Räkna inte — gissa! Ringa in den bästa gissningen, kolla sen."
+  },
+  "K-030": {
+    "title": "Första, andra, tredje",
+    "instruction": "Börja vid pilen. Ringa in bilden på den plats som visas."
+  },
+  "K-031": {
+    "title": "Vilken plats?",
+    "instruction": "Börja vid pilen. Skriv varje markerad bilds plats i dess cirkel."
+  },
+  "K-032": {
+    "title": "Stor och liten",
+    "instruction": "Ringa in den STÖRSTA i varje rad."
+  },
+  "K-033": {
+    "title": "Liten, mellan, stor",
+    "instruction": "Numrera bilderna från 1 (minst) till 3 (störst)."
+  },
+  "K-034": {
+    "title": "Minst till störst",
+    "instruction": "Numrera bilderna från 1 (minst) till 5 (störst)."
+  },
+  "K-035": {
+    "title": "Hög och låg",
+    "instruction": "Ringa in den HÖGSTA i varje rad."
+  },
+  "K-036": {
+    "title": "Låg till hög",
+    "instruction": "Numrera bilderna från 1 (lägst) till 4 (högst)."
+  },
+  "K-037": {
+    "title": "Lång och kort",
+    "instruction": "Ringa in den LÄNGSTA i varje rad."
+  },
+  "K-038": {
+    "title": "Tung eller lätt?",
+    "instruction": "Tänk på verkligheten! Ringa in den TYNGRE."
+  },
+  "K-039": {
+    "title": "Lika och olika",
+    "instruction": "Tre bilder är lika. Ringa in den som är olik."
+  },
+  "K-040": {
+    "title": "Bara de stora",
+    "instruction": "Ringa in varje STOR bild. Lämna de små."
+  },
+  "K-042": {
+    "title": "Sortera rätt",
+    "instruction": "Dra ett streck från varje bild till lådan där den hör hemma."
+  },
+  "K-043": {
+    "title": "Vilken är olik?",
+    "instruction": "Titta på varje rad. Ringa in bilden som inte hör hemma."
+  },
+  "K-044": {
+    "title": "Hitta annan storlek",
+    "instruction": "Titta på varje rad. Ringa in den som har annan storlek."
+  },
+  "K-046": {
+    "title": "Vad kommer sen?",
+    "instruction": "Titta på mönstret. Ringa in vad som kommer sedan."
+  },
+  "K-047": {
+    "title": "ABC-mönster",
+    "instruction": "Titta på mönstret. Ringa in vad som kommer sedan."
+  },
+  "K-048": {
+    "title": "AABB-mönster",
+    "instruction": "Titta på mönstret. Ringa in vad som kommer sedan."
+  },
+  "K-049": {
+    "title": "Gör klart mönstret",
+    "instruction": "En bild saknas. Ringa in vad som hör hemma i tomma rutan."
+  },
+  "K-050": {
+    "title": "Stora och små mönster",
+    "instruction": "Titta på mönstret. Ringa in vad som kommer sedan."
+  },
+  "K-052": {
+    "title": "Mönster upp och ner",
+    "instruction": "Titta på mönstret. Ringa in vad som kommer sedan."
+  },
+  "K-053": {
+    "title": "Växande mönster",
+    "instruction": "Mönstret växer. Ringa in gruppen som kommer sedan."
+  },
+  "K-057": {
+    "title": "Para ihop skuggan",
+    "instruction": "Dra ett streck från varje bild till dess skugga."
+  },
+  "K-058": {
+    "title": "Hitta paren",
+    "instruction": "Varje bild har en tvilling. Dra ett streck mellan varje par."
+  },
+  "K-059": {
+    "title": "Hitta och ringa in",
+    "instruction": "Hitta varje bild som den i rutan. Ringa in alla."
+  },
+  "K-060": {
+    "title": "Jag spanar",
+    "instruction": "Titta noga! Räkna varje sort och skriv talet."
+  },
+  "K-061": {
+    "title": "Hitta skillnaderna",
+    "instruction": "Jämför de två bilderna. Ringa in vad som ändrats till höger."
+  },
+  "K-062": {
+    "title": "Hitta tvillingarna",
+    "instruction": "Två bilder är precis lika. Hitta dem och ringa in båda."
+  },
+  "K-063": {
+    "title": "Spegel, spegel",
+    "instruction": "Ringa in bilden som visar spegelbilden."
+  },
+  "K-064": {
+    "title": "På, under, bredvid",
+    "instruction": "Ringa in bilden som är PÅ lådan."
+  },
+  "K-065": {
+    "title": "Vänster och höger",
+    "instruction": "Ringa in varje bild på VÄNSTER sida om linjen."
+  },
+  "K-066": {
+    "title": "Topp, mitt, botten",
+    "instruction": "Ringa in varje bild i MITTRADEN."
+  },
+  "K-067": {
+    "title": "Inuti och utanför",
+    "instruction": "Ringa in varje bild INUTI den stora figuren."
+  },
+  "K-068": {
+    "title": "Vad passar i luckan?",
+    "instruction": "Varje rad visar en sorts bild. Ringa in biten som passar i tomma rutan."
+  },
+  "K-069": {
+    "title": "Vad är det?",
+    "instruction": "Bara en del av bilden syns. Ringa in hela bilden den hör till."
+  },
+  "K-070": {
+    "title": "Figurjakt",
+    "instruction": "Hitta varje figur som den i rutan. Ringa in alla."
+  },
+  "K-075": {
+    "title": "Räkna sidorna",
+    "instruction": "Räkna sidorna på varje figur. Skriv talet."
+  },
+  "K-076": {
+    "title": "Sortera efter sidor",
+    "instruction": "Dra ett streck från varje figur till dess antal sidor."
+  },
+  "K-077": {
+    "title": "Figurmönster",
+    "instruction": "Titta på mönstret. Ringa in figuren som kommer sedan."
+  },
+  "K-078": {
+    "title": "Figurtvillingar",
+    "instruction": "Varje figur har en tvilling. Dra ett streck mellan varje par."
+  },
+  "K-079": {
+    "title": "Stora och små figurer",
+    "instruction": "Ringa in den STÖRSTA figuren i varje rad."
+  },
+  "K-080": {
+    "title": "Vilken figur är olik?",
+    "instruction": "Titta på varje rad. Ringa in figuren som inte hör hemma."
+  },
+  "G1-101": {
+    "title": "Addera bilderna",
+    "instruction": "Räkna båda grupperna. Skriv hur många det är tillsammans."
+  },
+  "G1-102": {
+    "title": "Bildaddition",
+    "instruction": "Räkna båda grupperna. Skriv hur många det är tillsammans."
+  },
+  "G1-103": {
+    "title": "Stryk över och subtrahera",
+    "instruction": "Några bilder är överstrukna. Skriv hur många som är kvar."
+  },
+  "G1-104": {
+    "title": "Bildsubtraktion",
+    "instruction": "Några bilder är överstrukna. Skriv hur många som är kvar."
+  },
+  "G1-105": {
+    "title": "Addition i tioruta",
+    "instruction": "Räkna de två färgerna. Skriv svaret på additionen."
+  },
+  "G1-106": {
+    "title": "Gör 10",
+    "instruction": "Hur många prickar till för att bli 10? Skriv talet som saknas."
+  },
+  "G1-110": {
+    "title": "Dominoräkning",
+    "instruction": "Räkna båda sidor av dominobrickan. Skriv summan."
+  },
+  "G1-111": {
+    "title": "Slå och addera",
+    "instruction": "Räkna prickarna på båda tärningarna. Skriv summan."
+  },
+  "G1-112": {
+    "title": "Addera tre grupper",
+    "instruction": "Räkna alla tre grupperna. Skriv summan."
+  },
+  "G1-113": {
+    "title": "Talfamiljer",
+    "instruction": "Använd de två grupperna för att göra klart alla fyra talen."
+  },
+  "G1-114": {
+    "title": "Större, mindre, lika?",
+    "instruction": "Jämför de två grupperna. Ringa in rätt tecken."
+  },
+  "G1-115": {
+    "title": "Vad saknas?",
+    "instruction": "Räkna gruppen. Skriv talet som saknas för att nå summan."
+  },
+  "G1-116": {
+    "title": "Räkna uppåt",
+    "instruction": "Börja vid pricken. Hoppa framåt och skriv var du landar."
+  },
+  "G1-117": {
+    "title": "Räkna nedåt",
+    "instruction": "Börja vid pricken. Hoppa bakåt och skriv var du landar."
+  },
+  "G1-118": {
+    "title": "Hoppa längs linjen",
+    "instruction": "Börja vid pricken. Räkna hoppen. Skriv svaret på additionen."
+  },
+  "G1-119": {
+    "title": "Hoppa bakåt, subtrahera",
+    "instruction": "Följ hoppen bakåt. Skriv svaret på subtraktionen."
+  },
+  "G1-120": {
+    "title": "Tiotal och ental",
+    "instruction": "Räkna tiotalen och entalen. Skriv talet."
+  },
+  "G1-121": {
+    "title": "Bygg rätt",
+    "instruction": "Ringa in blocken som visar talet."
+  },
+  "G1-122": {
+    "title": "Hur många tiotal?",
+    "instruction": "Räkna tiostavarna. Skriv talet som saknas."
+  },
+  "G1-123": {
+    "title": "Räkna med tiotal",
+    "instruction": "Hoppräkna med 10. Skriv varje tal som saknas."
+  },
+  "G1-124": {
+    "title": "Räkna med femmor",
+    "instruction": "Hoppräkna med 5. Skriv varje tal som saknas."
+  },
+  "G1-125": {
+    "title": "Räkna med tvåor",
+    "instruction": "Hoppräkna med 2. Skriv varje tal som saknas."
+  },
+  "G1-126": {
+    "title": "Räkna i grupper",
+    "instruction": "Varje ruta har lika många. Hoppräkna och skriv summan så långt."
+  },
+  "G1-129": {
+    "title": "Hundratavlan",
+    "instruction": "Några tal gömmer sig. Skriv varje tal som saknas i sin ruta."
+  },
+  "G1-130": {
+    "title": "Måla räknespåret",
+    "instruction": "Två rutor är målade för att börja. Måla varje tal i samma räknemönster."
+  },
+  "G1-131": {
+    "title": "1 mer, 1 mindre",
+    "instruction": "Skriv talet som är 1 mindre och talet som är 1 mer."
+  },
+  "G1-132": {
+    "title": "10 mer, 10 mindre",
+    "instruction": "Skriv talet som är 10 mindre och talet som är 10 mer."
+  },
+  "G1-133": {
+    "title": "Dra ut talet",
+    "instruction": "Titta på blocken. Ringa in den utvecklade formen som passar."
+  },
+  "G1-135": {
+    "title": "Minst först",
+    "instruction": "Numrera dem 1, 2, 3 från minst till störst."
+  },
+  "G1-136": {
+    "title": "Störst först",
+    "instruction": "Numrera dem 1, 2, 3 från störst till minst."
+  },
+  "G1-137": {
+    "title": "Större eller mindre?",
+    "instruction": "Jämför talen. Ringa in rätt tecken."
+  },
+  "G1-138": {
+    "title": "Var bor talet?",
+    "instruction": "Hitta talet på linjen. Ringa in dess prick."
+  },
+  "G1-139": {
+    "title": "Ruta för ruta",
+    "instruction": "Varje sak ligger på rutor. Räkna dem och skriv längden."
+  },
+  "G1-140": {
+    "title": "Kort till lång",
+    "instruction": "Mät varje sak med dess rutor. Numrera 1 (kortast) till 3 (längst)."
+  },
+  "G1-141": {
+    "title": "Läs bilddiagrammet",
+    "instruction": "Räkna bilderna i varje rad. Skriv talen."
+  },
+  "G1-142": {
+    "title": "Flest av alla",
+    "instruction": "Titta på diagrammet. Ringa in den med FLEST."
+  },
+  "G1-143": {
+    "title": "Läs stapeldiagrammet",
+    "instruction": "Läs varje stapel. Skriv dess tal."
+  },
+  "G1-144": {
+    "title": "Den högsta stapeln",
+    "instruction": "Titta på staplarna. Ringa in den med flest."
+  },
+  "G1-146": {
+    "title": "Sortera och räkna",
+    "instruction": "Räkna varje sort i raden. Skriv summorna i tabellen."
+  },
+  "G1-147": {
+    "title": "Räkna och rita diagram",
+    "instruction": "Läs antalen. Måla en ruta i diagrammet för varje en."
+  },
+  "G1-148": {
+    "title": "Hel timme",
+    "instruction": "Läs varje klocka. Ringa in tiden som passar."
+  },
+  "G1-149": {
+    "title": "Halv vad?",
+    "instruction": "Läs varje klocka. Ringa in tiden som passar."
+  },
+  "G1-150": {
+    "title": "Klockkompisar",
+    "instruction": "Dra ett streck från varje klocka till dess digitala tid."
+  },
+  "G1-155": {
+    "title": "Två saknas",
+    "instruction": "Två bilder saknas. Dra ett streck från varje bild till dess tomma ruta."
+  },
+  "G1-157": {
+    "title": "Bildgåtor",
+    "instruction": "Titta på första paret. Ringa in vad som gör klart andra paret likadant."
+  },
+  "G1-158": {
+    "title": "Bildsudoku",
+    "instruction": "Varje rad, kolumn och ruta behöver alla fyra bilder — rita eller skriv vad som saknas."
+  },
+  "G1-160": {
+    "title": "Tre grupper",
+    "instruction": "Dra ett streck från varje bild till lådan där den hör hemma."
+  },
+  "G2-203": {
+    "title": "Addera blocken",
+    "instruction": "Addera de två blockgrupperna. Skriv summan."
+  },
+  "G2-205": {
+    "title": "Ta bort blocken",
+    "instruction": "Subtrahera den andra gruppen från den första. Skriv svaret."
+  },
+  "G2-206": {
+    "title": "Gör ett tiotal",
+    "instruction": "Ringa in 10 ental för att göra ett tiotal. Skriv hur många tiotal och ental."
+  },
+  "G2-207": {
+    "title": "Räkna med treor",
+    "instruction": "Hoppräkna med 3. Skriv varje tal som saknas."
+  },
+  "G2-208": {
+    "title": "Räkna med fyror",
+    "instruction": "Hoppräkna med 4. Skriv varje tal som saknas."
+  },
+  "G2-209": {
+    "title": "Addera igen",
+    "instruction": "Varje ring har lika många. Skriv svaret på additionen."
+  },
+  "G2-210": {
+    "title": "Från addition till gånger",
+    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+  },
+  "G2-211": {
+    "title": "Rader och kolumner",
+    "instruction": "Räkna raderna och kolumnerna. Gör klart multiplikationen."
+  },
+  "G2-212": {
+    "title": "Välj rätt rutnät",
+    "instruction": "Ringa in rutnätet som passar multiplikationen."
+  },
+  "G2-213": {
+    "title": "Enkla grupper",
+    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+  },
+  "G2-216": {
+    "title": "Dela lika",
+    "instruction": "Dela högen lika i lådorna. Skriv hur många var och en får."
+  },
+  "G2-217": {
+    "title": "Hur många grupper?",
+    "instruction": "Ringarna gör lika grupper. Skriv hur många grupper det är."
+  },
+  "G2-218": {
+    "title": "Jakt på udda tal",
+    "instruction": "Ringa in varje UDDA tal. Titta på sista siffran så vet du."
+  },
+  "G2-219": {
+    "title": "Talduell",
+    "instruction": "Jämför talen. Ringa in rätt tecken."
+  },
+  "G2-220": {
+    "title": "Ställ dem i ordning",
+    "instruction": "Numrera dem 1 till 4 från minst till störst."
+  },
+  "G2-221": {
+    "title": "Avrunda talet",
+    "instruction": "Titta på pricken. Ringa in tiotalet det är närmast."
+  },
+  "G2-222": {
+    "title": "Läs blocken",
+    "instruction": "Räkna hundratalen, tiotalen och entalen. Skriv talet de visar."
+  },
+  "G2-223": {
+    "title": "Hundratal, tiotal, ental",
+    "instruction": "Titta på blocken. Ringa in den utvecklade formen som passar."
+  },
+  "G2-224": {
+    "title": "Sortera platserna",
+    "instruction": "Räkna blocken. Fyll i platsvärdestabellen."
+  },
+  "G2-225": {
+    "title": "Sifferdetektiv",
+    "instruction": "Titta på den understrukna siffran. Ringa in dess värde."
+  },
+  "G2-226": {
+    "title": "100 mer, 100 mindre",
+    "instruction": "Skriv talet som är 100 mindre och talet som är 100 mer."
+  },
+  "G2-227": {
+    "title": "Para ihop blocken",
+    "instruction": "Ringa in blocken som visar talet."
+  },
+  "G2-228": {
+    "title": "Hälften och hälften",
+    "instruction": "Måla ena halvan av varje figur."
+  },
+  "G2-229": {
+    "title": "Tredjedelar, fjärdedelar",
+    "instruction": "Måla delen av varje figur."
+  },
+  "G2-230": {
+    "title": "Hitta delen",
+    "instruction": "Ringa in figuren som visar delen."
+  },
+  "G2-231": {
+    "title": "Delkompisar",
+    "instruction": "Dra ett streck från varje bild till dess del."
+  },
+  "G2-232": {
+    "title": "Lika delar?",
+    "instruction": "Ringa in varje figur som är delad i LIKA delar."
+  },
+  "G2-233": {
+    "title": "Dela mängden",
+    "instruction": "Ringa in delen av bilderna. Skriv hur många det är."
+  },
+  "G2-234": {
+    "title": "Dela rätt",
+    "instruction": "Ringa in figuren som visar delen."
+  },
+  "G2-235": {
+    "title": "Mät det",
+    "instruction": "Varje sak börjar vid 0. Läs linjalen och skriv hur många enheter lång."
+  },
+  "G2-236": {
+    "title": "Hur mycket längre?",
+    "instruction": "Mät båda sakerna. Skriv hur många enheter längre den ena är."
+  },
+  "G2-237": {
+    "title": "Diagramdetektiv",
+    "instruction": "Använd diagrammet för att lösa båda bildfrågorna."
+  },
+  "G2-238": {
+    "title": "Varje bild räknas dubbelt",
+    "instruction": "Varje bild står för 2! Skriv det riktiga antalet för varje rad."
+  },
+  "G2-239": {
+    "title": "Från streck till diagram",
+    "instruction": "Läs strecktabellen. Måla en stapel för varje antal."
+  },
+  "G2-240": {
+    "title": "Läs punktdiagrammet",
+    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många."
+  },
+  "G2-241": {
+    "title": "Figursorteraren",
+    "instruction": "Dra ett streck från varje figur till dess antal sidor."
+  },
+  "G2-242": {
+    "title": "Räkna sidoytorna",
+    "instruction": "Skriv hur många plana sidor varje kropp har."
+  },
+  "G2-243": {
+    "title": "Kroppar omkring oss",
+    "instruction": "Dra ett streck från varje kropp till saken med dess form."
+  },
+  "G2-244": {
+    "title": "Plan eller kropp?",
+    "instruction": "Dra ett streck till rätt låda: plana figurer vänster, kroppar höger."
+  },
+  "G2-245": {
+    "title": "Räkna kanterna",
+    "instruction": "Skriv hur många kanter varje kropp har."
+  },
+  "G2-246": {
+    "title": "Räkna hörnen",
+    "instruction": "Skriv hur många hörn varje kropp har."
+  },
+  "G2-247": {
+    "title": "Spegellinje?",
+    "instruction": "Är den streckade linjen en spegellinje? Ringa in bocken eller krysset."
+  },
+  "G2-248": {
+    "title": "Hitta spegelbilden",
+    "instruction": "Ringa in bilden som är likadan på båda sidor."
+  },
+  "G2-249": {
+    "title": "Vad är klockan?",
+    "instruction": "Läs varje klocka. Ringa in tiden som passar."
+  },
+  "G3-301": {
+    "title": "Stora rutnät",
+    "instruction": "Räkna raderna med bilder. Skriv hur många det är totalt."
+  },
+  "G3-302": {
+    "title": "Kluriga grupper",
+    "instruction": "Räkna de lika grupperna. Gör klart multiplikationen."
+  },
+  "G3-308": {
+    "title": "Multiplikationshopp",
+    "instruction": "Följ de lika hoppen från noll. Skriv varje tal du landar på."
+  },
+  "G3-309": {
+    "title": "Dela upp det",
+    "instruction": "Dela högen lika i lådorna. Skriv hur många var och en får."
+  },
+  "G3-310": {
+    "title": "Hoppa ner till noll",
+    "instruction": "Räkna de lika hoppen tillbaka till noll. Skriv hur många hopp det tar."
+  },
+  "G3-311": {
+    "title": "Gångerfamiljer",
+    "instruction": "Använd rutnätet för att göra klart alla fyra talen."
+  },
+  "G3-312": {
+    "title": "Faktorn som saknas",
+    "instruction": "Titta på rutnätet. Skriv faktorn som saknas."
+  },
+  "G3-313": {
+    "title": "Räkna rutorna",
+    "instruction": "Räkna rutorna i rektangeln. Gör klart multiplikationen."
+  },
+  "G3-314": {
+    "title": "Vänd på det",
+    "instruction": "Båda rutnäten visar samma antal. Gör klart båda talen."
+  },
+  "G3-315": {
+    "title": "Vad heter delen?",
+    "instruction": "Skriv delen som de färgade delarna visar."
+  },
+  "G3-316": {
+    "title": "Färglägg delen",
+    "instruction": "Måla rätt antal delar för att visa varje del."
+  },
+  "G3-317": {
+    "title": "Delar på linjen",
+    "instruction": "Pricken markerar en del. Ringa in vilken."
+  },
+  "G3-318": {
+    "title": "Deltvillingar",
+    "instruction": "Dra ett streck från varje bild till dess del som passar."
+  },
+  "G3-319": {
+    "title": "Vilken är större?",
+    "instruction": "Titta på båda staplarna. Ringa in den större delen."
+  },
+  "G3-320": {
+    "title": "Del av gruppen",
+    "instruction": "Ringa in delen av bilderna. Skriv hur många det är."
+  },
+  "G3-321": {
+    "title": "Hitta det hela",
+    "instruction": "Den lilla stapeln är en del. Ringa in stapeln som visar det HELA."
+  },
+  "G3-322": {
+    "title": "Lika kompisar",
+    "instruction": "Dra ett streck från varje bild till dess del."
+  },
+  "G3-323": {
+    "title": "Avrunda till hundratal",
+    "instruction": "Titta på pricken. Ringa in hundratalet det är närmast."
+  },
+  "G3-325": {
+    "title": "Tusentalsduell",
+    "instruction": "Jämför talen. Ringa in rätt tecken."
+  },
+  "G3-326": {
+    "title": "Knäck mönstret",
+    "instruction": "Hitta varje rads regel. Skriv talen som saknas."
+  },
+  "G3-327": {
+    "title": "Det går nedåt",
+    "instruction": "Talen minskar med lika mycket. Skriv de som saknas."
+  },
+  "G3-328": {
+    "title": "Talmaskiner",
+    "instruction": "Varje maskin använder sin regel på varje tal. Fyll i de som saknas."
+  },
+  "G3-329": {
+    "title": "Stora hopp i räkning",
+    "instruction": "Hitta räkneregeln. Skriv varje tal som saknas."
+  },
+  "G3-332": {
+    "title": "Staplar i stor skala",
+    "instruction": "Se upp — skalan räknar med 5! Skriv värdet på varje stapel."
+  },
+  "G3-333": {
+    "title": "Varje bild betyder 5",
+    "instruction": "Varje bild står för 5! Skriv det riktiga antalet för varje rad."
+  },
+  "G3-334": {
+    "title": "Bygg diagrammet",
+    "instruction": "Använd tabellen. Måla en stapel för varje värde."
+  },
+  "G3-335": {
+    "title": "Halvvägsmärken",
+    "instruction": "Räkna X-en ovanför varje tal. Skriv hur många."
+  },
+  "G3-337": {
+    "title": "Gå runt kanten",
+    "instruction": "Räkna enhetskanterna runt varje rektangel. Skriv omkretsen."
+  },
+  "G3-338": {
+    "title": "Samma yta, ny form",
+    "instruction": "Ringa in rektangeln som täcker SAMMA antal rutor."
+  },
+  "G3-339": {
+    "title": "Samma staket, ny gård",
+    "instruction": "Ringa in rektangeln med SAMMA sträcka runt om."
+  },
+  "G3-340": {
+    "title": "Fyrhörningsgänget",
+    "instruction": "Dra ett streck från varje fyrsidig figur till dess familj."
+  },
+  "G3-341": {
+    "title": "Jakt på räta vinklar",
+    "instruction": "Ringa in varje RÄT vinkel (de med lilla rutan)."
+  },
+  "G3-342": {
+    "title": "Hur många spegellinjer?",
+    "instruction": "Skriv hur många spegellinjer varje figur har."
+  },
+  "G3-343": {
+    "title": "Lika delar",
+    "instruction": "Ringa in varje figur som är delad i LIKA delar."
+  },
+  "G3-344": {
+    "title": "Hur lång tid gick?",
+    "instruction": "Jämför de två klockorna. Skriv hur många timmar som gick."
+  },
+  "G3-345": {
+    "title": "Varmt eller kallt?",
+    "instruction": "Läs varje termometer. Skriv temperaturen den visar."
+  },
+  "G3-346": {
+    "title": "Kubtorn",
+    "instruction": "Räkna alla kuber i varje torn. Skriv summan."
+  },
+  "G3-348": {
+    "title": "Stor bildsudoku",
+    "instruction": "Varje rad, kolumn och ruta behöver alla sex bilder — fyll i tomma rutor."
+  },
+  "G3-349": {
+    "title": "Magiska kvadrater",
+    "instruction": "Varje rad och kolumn blir det magiska talet. Fyll i tomma rutor."
+  },
+  "G3-350": {
+    "title": "Få det att väga lika",
+    "instruction": "Båda sidor måste väga lika. Skriv talet som saknas."
+  },
+  "G3-351": {
+    "title": "Vad gör pusslet klart?",
+    "instruction": "Rader delar en bild. Kolumner delar en storlek. Ringa in vad som passar."
+  },
+  "G3-353": {
+    "title": "Sortera i två cirklar",
+    "instruction": "Vänster cirkel: denna sort. Höger: STORA. Mitten: båda! Dra ett streck till rätt plats."
+  }
+}

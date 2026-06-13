@@ -631,6 +631,10 @@
     "title": "Quelle heure est-il ?",
     "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
   },
+  "G2-250": {
+    "title": "Et quart, et demie ?",
+    "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
+  },
   "G3-301": {
     "title": "Grands quadrillages",
     "instruction": "Compte les rangées d'images. Écris combien il y en a en tout."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Tours de cubes",
     "instruction": "Compte tous les cubes de chaque tour. Écris le total."
+  },
+  "G3-354": {
+    "title": "À la minute près",
+    "instruction": "Lis chaque horloge. Entoure l'heure qui correspond."
+  },
+  "G3-355": {
+    "title": "De 12 h à 24 h",
+    "instruction": "Transforme chaque heure dans l'autre format. Entoure la bonne réponse."
+  },
+  "G3-356": {
+    "title": "Ajoute ou enlève du temps",
+    "instruction": "Pars de l'heure indiquée, puis ajoute ou enlève. Écris la nouvelle heure."
   },
   "G3-348": {
     "title": "Grand sudoku d'images",

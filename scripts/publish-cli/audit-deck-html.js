@@ -289,10 +289,14 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   // Alt-text SEO commission 2026-05-27 Dimension 2(b): every deck.html
   // top-level interactive container MUST carry role="application" +
   // non-empty aria-label per WCAG 4.1.2 + SEO accessible-name surface.
+  // Printable profile (manifest.printable_only, worksheet-gen decks): the page
+  // is a static preview, not an interactive application — role="application"
+  // would be a WCAG misdeclaration. aria-label stays mandatory.
+  var isPrintable = !!(manifestObj && manifestObj.printable_only === true);
   var mainTagMatch = /<main\s+id="lcs-app"([^>]*)>/i.exec(htmlText);
   if (mainTagMatch) {
     var mainAttrs = mainTagMatch[1];
-    var hasRole = /role="application"/.test(mainAttrs);
+    var hasRole = isPrintable || /role="application"/.test(mainAttrs);
     var ariaLabelMatch = /aria-label="([^"]*)"/i.exec(mainAttrs);
     var ariaLabelValue = ariaLabelMatch ? ariaLabelMatch[1] : '';
     var ariaIsUnsubstituted = ariaLabelValue === '__APP_ARIA_LABEL__';
@@ -364,7 +368,10 @@ async function runChecksForDeck(dbDeck, htmlText, manifestObj, ctx) {
   // literal-alt form.
   var hasMini = htmlText.indexOf('class=\\"lcs-mini\\"') !== -1 || htmlText.indexOf('class="lcs-mini"') !== -1;
   var hasRuntimeLookup = hasMini && htmlText.indexOf('celebrationMiniAlt') !== -1;
-  if (hasRuntimeLookup) {
+  if (isPrintable) {
+    // Printable profile: no interactive runtime → no celebration mini-image.
+    checks.celebrationMiniAlt = { pass: true, skip: 'printable_only deck (no celebration runtime)' };
+  } else if (hasRuntimeLookup) {
     checks.celebrationMiniAlt = { pass: true, value: 'runtime-resolved via window.translations' };
   } else {
     var celebMiniRegex = /class=\\?"lcs-mini\\?"\s*alt=\\?"([^"\\]*(?:\\.[^"\\]*)*)\\?"/;

@@ -621,6 +621,7 @@ function computeNewHtml(c) {
  * so we derive from taxonomy.appConfig if absent.
  */
 function inferAgeRange(manifest) {
+  if (manifest.age_range) return manifest.age_range;  // per-deck (worksheet-gen printables)
   if (manifest.metadata && manifest.metadata.age_range) return manifest.metadata.age_range;
   try {
     var cfg = taxonomy.appConfig(manifest.generator && manifest.generator.app);

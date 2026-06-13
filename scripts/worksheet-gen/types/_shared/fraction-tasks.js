@@ -171,7 +171,10 @@ function makeFractionType(cfg) {
           const chips = rng.shuffle([{ p: den, ok: true }, ...wrongs.map((p) => ({ p, ok: false }))]).map((o) => bar(o.p, o.ok)).join('');
           stage = `<div class="ws-card-stage" style="gap:20px;justify-content:space-between;padding:6px 12px" data-lcs-den="${den}">` +
             `<span style="display:inline-flex;flex-direction:column;align-items:center;gap:8px">` +
-            fractionShape({ shape: 'bar', d: 1, shaded: 1, size: unitW * 1.5 }).svg + FRAC(1, den, 20) + `</span>` +
+            // reference = exactly ONE part: size/1.5 so its single cell width
+            // (size*1.5/d) equals an answer-bar cell (the bars below use size
+            // unitW*parts/1.5 → 36px cells); was unitW*1.5 → an 81px mismatched part.
+            fractionShape({ shape: 'bar', d: 1, shaded: 1, size: unitW / 1.5 }).svg + FRAC(1, den, 20) + `</span>` +
             `<span class="ws-pattern-choices" style="flex-direction:column;gap:10px;align-items:flex-end">${chips}</span></div>`;
         }
         cards.push(stage);

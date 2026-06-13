@@ -156,6 +156,15 @@ function makeGeometryType(cfg) {
           else if (iou < 0.78) asym.push(n);
           if (sym.length >= d.rows && asym.length >= d.rows * 2) break;
         }
+        // A theme with too few mirror-symmetric (or asymmetric) nouns would
+        // produce a blank/degraded sheet (e.g. vehicles: side-view cars are
+        // asymmetric → 0 symmetric). Throw so cli.js retries an alternate theme;
+        // never emit an empty worksheet. (symmetry-yn needs 2 symmetric for the
+        // two ✓ cards; pick-symmetric needs ≥1 symmetric + 2 asymmetric per row.)
+        const minSym = mode === 'symmetry-yn' ? 2 : 1;
+        if (sym.length < minSym || asym.length < 2) {
+          throw new Error(`geometry: theme ${theme} lacks mirror-symmetry variety for ${mode} (sym=${sym.length}, asym=${asym.length})`);
+        }
         if (mode === 'symmetry-yn') {
           const picks = rng.shuffle([...sym.slice(0, 2).map((n) => ({ n, s: true })), ...asym.slice(0, 2).map((n) => ({ n, s: false }))]);
           picks.forEach(({ n, s }) => {
@@ -305,14 +314,20 @@ function makeGeometryType(cfg) {
           if ([...left].sort().join() !== [...right].sort().join()) fails.push('right not a permutation');
           left.forEach((v, i) => { if (right[i] === v) fails.push(`row ${i + 1}: straight-across`); });
         } else if (mode === 'symmetry-yn') {
-          document.querySelectorAll('[data-lcs-sym]').forEach((c, i) => {
+          const cards = [...document.querySelectorAll('[data-lcs-sym]')];
+          if (cards.length < 2) fails.push(`blank/degraded: ${cards.length} cards (need ≥2)`);
+          const yes = cards.filter((c) => c.dataset.lcsSym === '1').length;
+          if (yes < 1 || yes >= cards.length) fails.push(`needs both a symmetric and an asymmetric example (yes=${yes}/${cards.length})`);
+          cards.forEach((c, i) => {
             const s = c.dataset.lcsSym === '1';
             const correct = [...c.querySelectorAll('.ws-chip')].filter((x) => x.dataset.lcsCorrect);
             if (correct.length !== 1) fails.push(`card ${i + 1}: ${correct.length} correct`);
             else if ((correct[0].dataset.lcsVal === 'yes') !== s) fails.push(`card ${i + 1}: chip != symmetry`);
           });
         } else if (mode === 'pick-symmetric') {
-          document.querySelectorAll('[data-lcs-card]').forEach((c, i) => {
+          const cards = [...document.querySelectorAll('[data-lcs-card]')];
+          if (cards.length < 1) fails.push('blank: 0 cards rendered');
+          cards.forEach((c, i) => {
             if (c.querySelectorAll('[data-lcs-correct]').length !== 1) fails.push(`row ${i + 1}: correct count`);
           });
         } else if (mode === 'perimeter') {

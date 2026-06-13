@@ -139,8 +139,12 @@ function makeMeasurementType(cfg) {
       if (mode === 'volume-cubes') {
         const used = new Set();
         for (let i = 0; i < 4; i++) {
-          let l, w, h, g = 0;
-          do { l = rng.int(2, 4); w = rng.int(1, 3); h = rng.int(1, 3); g++; }
+          // Single-depth wall (w=1): every cube shows a front face → all are
+          // countable by sight (a full l×w×h box hides interior/back cubes in
+          // the isometric view, making "count all the cubes" impossible). h≥2
+          // keeps it a clear wall, not a confusing diagonal 1×1×N row.
+          let l, w = 1, h, g = 0;
+          do { l = rng.int(2, 5); h = rng.int(2, 3); g++; }
           while (used.has(`${l}.${w}.${h}`) && g < 30);
           used.add(`${l}.${w}.${h}`);
           const stack = unitCubes({ l, w, h, unit: 24 });

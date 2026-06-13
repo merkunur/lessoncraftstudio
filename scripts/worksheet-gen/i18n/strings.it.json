@@ -631,6 +631,10 @@
     "title": "Che ora è?",
     "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
   },
+  "G2-250": {
+    "title": "I quarti d'ora",
+    "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
+  },
   "G3-301": {
     "title": "Grandi schieramenti",
     "instruction": "Conta le file di immagini. Scrivi quante sono in tutto."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Torri di cubi",
     "instruction": "Conta tutti i cubi di ogni torre. Scrivi il totale."
+  },
+  "G3-354": {
+    "title": "L'ora al minuto",
+    "instruction": "Leggi ogni orologio. Cerchia l'ora giusta."
+  },
+  "G3-355": {
+    "title": "Formato 12 e 24 ore",
+    "instruction": "Trasforma ogni ora nell'altro formato. Cerchia quella giusta."
+  },
+  "G3-356": {
+    "title": "Aggiungi e togli il tempo",
+    "instruction": "Parti dall'ora indicata, poi aggiungi o togli. Scrivi la nuova ora."
   },
   "G3-348": {
     "title": "Grande sudoku di immagini",

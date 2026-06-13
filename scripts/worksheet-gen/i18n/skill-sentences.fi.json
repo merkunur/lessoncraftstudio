@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "Kuvajoukkojen laskeminen rakentaa yksi yhteen -vastaavuutta ja varhaista lukukäsitettä luottavaisen matematiikan pohjaksi.",
+    "short": "Vahvistaa laskutaitoa ja lukukäsitettä."
+  },
+  "counting-frames": {
+    "full": "Kymmenkehys antaa lapselle selkeän rakenteen laskemiseen sekä viiden ja kymmenen muodostamiseen lukukäsitteen ytimessä.",
+    "short": "Vahvistaa lukukäsitettä kymmenkehyksellä."
+  },
+  "tally-counting": {
+    "full": "Lukumäärien merkitseminen tukkimiehen kirjanpidolla opettaa jäsentämään tietoa ja laskemaan tehokkaasti viiden ryhmissä.",
+    "short": "Harjoittaa laskemista tukkimiehen merkeillä."
+  },
+  "number-charts": {
+    "full": "Lukutaulun käyttö vahvistaa lukujen järjestystä, hyppylaskun kuvioita ja varhaista paikka-arvon ymmärtämistä.",
+    "short": "Vahvistaa lukujen järjestystä ja kuvioita."
+  },
+  "comparing-numbers": {
+    "full": "Lukujen vertailu suuremmaksi, pienemmäksi ja yhtä suureksi rakentaa suuruusajattelua kaiken myöhemmän laskennan pohjaksi.",
+    "short": "Vahvistaa suurempi-pienempi-ajattelua."
+  },
+  "comparing-groups": {
+    "full": "Sen päättely, missä joukossa on enemmän, vähemmän vai yhtä monta, rakentaa vertailutaitoa jo ennen numeromerkkejä.",
+    "short": "Vahvistaa varhaista määrien vertailua."
+  },
+  "comparing-sizes": {
+    "full": "Isojen ja pienten, pitkien ja lyhyiden lajittelu rakentaa kokosanastoa, jota lapsi käyttää joka päivä.",
+    "short": "Vahvistaa iso-pieni- ja pitkä-lyhyt-sanastoa."
+  },
+  "number-lines": {
+    "full": "Lukusuoralla hyppiminen tekee yhteen- ja vähennyslaskusta sekä lukujen järjestyksestä näkyvää ja konkreettista.",
+    "short": "Tekee laskemisesta näkyvää lukusuoralla."
+  },
+  "base-ten": {
+    "full": "Kymppi- ja ykköspalikat muuttavat abstraktin paikka-arvon näkyväksi: sadat, kymmenet ja ykköset yhdellä silmäyksellä.",
+    "short": "Konkretisoi paikka-arvon kymppipalikoilla."
+  },
+  "telling-time": {
+    "full": "Viisarikellon lukeminen tasatunnein, puolin tunnein ja viiden minuutin tarkkuudella rakentaa arjessa tarvittavan elämäntaidon.",
+    "short": "Harjoittaa viisarikellon lukemista tunnein."
+  },
+  "fractions": {
+    "full": "Puolikkaiden, kolmas- ja neljäsosien värittäminen, nimeäminen ja vertailu antaa konkreettisen ensikosketuksen murtolukuihin.",
+    "short": "Konkreettinen ensikosketus murtolukuihin."
+  },
+  "graphing-data": {
+    "full": "Pylväs- ja kuvakaavioiden lukeminen opettaa jäsentämään tietoa ja vastaamaan sitä koskeviin kysymyksiin.",
+    "short": "Vahvistaa varhaisia tilastotaitoja kaavioilla."
+  },
+  "arrays-multiplication": {
+    "full": "Riveistä ja sarakkeista koostuvat kuvarivistöt muuttavat toistuvan yhteenlaskun kertolaskuajattelun pohjaksi.",
+    "short": "Pohjustaa kertolaskua kuvarivistöillä."
+  },
+  "geometry": {
+    "full": "Muotojen nimeäminen, sivujen ja kulmien laskeminen sekä symmetrian tutkiminen rakentaa geometrian tilakäsitteistöä.",
+    "short": "Vahvistaa muotoja ja geometria-ajattelua."
+  },
+  "measurement": {
+    "full": "Viivoittimella ja yksikkökuutioilla mittaaminen sekä pituuksien vertailu rakentaa käytännön mittaustajua askel askeleelta.",
+    "short": "Vahvistaa käytännön mittaustajua viivoittimella."
+  },
+  "visual-logic": {
+    "full": "Kuvasudoku ja päättelyruudukot haastavat päättelytaitoja: jokaisella pulmalla on täsmälleen yksi oikea ratkaisu.",
+    "short": "Haastaa loogista päättelyä kuvapulmilla."
+  },
+  "visual-discrimination": {
+    "full": "Varjojen, peilikuvien ja joukosta eroavan etsiminen kehittää hahmottamista, joka on sujuvan lukemisen taustalla.",
+    "short": "Kehittää hahmottamista ja tarkkaavuutta."
+  },
+  "visual-matching": {
+    "full": "Yhteenkuuluvien kuvien yhdistäminen vahvistaa näkömuistia ja samanlainen-erilainen-ajattelua, jota lapsi tarvitsee päivittäin.",
+    "short": "Vahvistaa kuvaparien yhdistämistä ja muistia."
+  },
+  "patterns": {
+    "full": "Kuviojonojen jatkaminen ja täydentäminen rakentaa algebrallista ajattelua, joka alkaa kauan ennen algebraa.",
+    "short": "Vahvistaa kuvioita ja varhaista algebraa."
+  },
+  "position-words": {
+    "full": "Ylä, ala, vasen ja oikea heräävät eloon kuvatilanteissa, jotka rakentavat sijaintisanastoa ja suuntatajua.",
+    "short": "Vahvistaa sijaintisanoja ja suuntatajua."
+  },
+  "sorting-categories": {
+    "full": "Kuvien lajittelu luokkiin rakentaa luokitteluajattelua, jota lapsi käyttää matematiikassa, ympäristöopissa ja lukemisessa.",
+    "short": "Vahvistaa lajittelua ja luokitteluajattelua."
+  },
+  "picture-arithmetic": {
+    "full": "Kuvajoukoilla yhteen laskeminen ja vähentäminen antaa lapsen hallita laskutoimitukset konkreettisesti ennen numeroita.",
+    "short": "Konkreettista yhteen- ja vähennyslaskua kuvilla."
+  }
+}

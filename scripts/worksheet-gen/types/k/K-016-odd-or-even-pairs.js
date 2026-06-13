@@ -37,6 +37,7 @@ module.exports = {
     sv: { odd: 'udda', even: 'jämnt' },
     da: { odd: 'ulige', even: 'lige' },
     no: { odd: 'oddetall', even: 'partall' },
+    fi: { odd: 'pariton', even: 'parillinen' },
   },
 
   build({ theme, difficulty, locale }, ctx) {

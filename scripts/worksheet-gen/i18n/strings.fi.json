@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Laske ja ympyröi",
+    "instruction": "Laske kuvat jokaisessa ruudussa. Ympyröi oikea luku."
+  },
+  "K-004": {
+    "title": "Laske kymppiruudusta",
+    "instruction": "Laske ruudun kuvat. Kirjoita luku."
+  },
+  "K-005": {
+    "title": "Täytä kymppiruutu",
+    "instruction": "Piirrä ruutuun yksi piste jokaista luvun osoittamaa kohti."
+  },
+  "K-006": {
+    "title": "Laske ja kirjoita",
+    "instruction": "Laske kuvat jokaisessa ruudussa. Kirjoita luku."
+  },
+  "K-007": {
+    "title": "Laske ja yhdistä",
+    "instruction": "Laske kuvat. Piirrä viiva oikeaan lukuun."
+  },
+  "K-008": {
+    "title": "Enemmän vai vähemmän?",
+    "instruction": "Katso molempia ryhmiä. Ympyröi ryhmä, jossa on ENEMMÄN."
+  },
+  "K-009": {
+    "title": "Kummassa vähemmän?",
+    "instruction": "Katso molempia ryhmiä. Ympyröi ryhmä, jossa on VÄHEMMÄN."
+  },
+  "K-010": {
+    "title": "Etsi yhtä suuret",
+    "instruction": "Kahdessa ryhmässä on yhtä monta. Ympyröi molemmat."
+  },
+  "K-011": {
+    "title": "Laske ja väritä",
+    "instruction": "Väritä juuri niin monta kuvaa kuin luku osoittaa."
+  },
+  "K-012": {
+    "title": "Pari jokaiselle",
+    "instruction": "Anna jokaiselle pari. Yhdistä ne viivalla yksi kerrallaan."
+  },
+  "K-013": {
+    "title": "Laske lajeittain",
+    "instruction": "Laske jokainen kuvalaji. Kirjoita, montako löydät."
+  },
+  "K-014": {
+    "title": "Piirrä tukkimiehet",
+    "instruction": "Laske kuvat. Piirrä tukkimerkit ruutuun."
+  },
+  "K-015": {
+    "title": "Lue tukkimiehet",
+    "instruction": "Laske tukkimerkit. Kirjoita luku."
+  },
+  "K-016": {
+    "title": "Pariton vai parillinen?",
+    "instruction": "Tee parit! Jos yksi jää yli, luku on pariton."
+  },
+  "K-017": {
+    "title": "Vilkaise nopeasti!",
+    "instruction": "Älä laske yksitellen! Vilkaise nopeasti ja ympyröi montako."
+  },
+  "K-018": {
+    "title": "Montako? Nopeasti!",
+    "instruction": "Vilkaise nopeasti ja ympyröi montako näet."
+  },
+  "K-019": {
+    "title": "Puuttuvat luvut 10:een",
+    "instruction": "Laske rivi läpi. Kirjoita jokainen puuttuva luku."
+  },
+  "K-020": {
+    "title": "Puuttuvat luvut 20:een",
+    "instruction": "Laske rivi läpi. Kirjoita jokainen puuttuva luku."
+  },
+  "K-021": {
+    "title": "Edellä ja jäljessä",
+    "instruction": "Kirjoita edellinen ja seuraava luku."
+  },
+  "K-022": {
+    "title": "Mikä jää väliin?",
+    "instruction": "Kirjoita luku, joka tulee väliin."
+  },
+  "K-023": {
+    "title": "Lähtölaskenta! 10, 9, 8…",
+    "instruction": "Laske taaksepäin. Kirjoita jokainen puuttuva luku."
+  },
+  "K-024": {
+    "title": "Yhdistä kymppiruutuun",
+    "instruction": "Piirrä viiva jokaisesta luvusta sen kymppiruutuun."
+  },
+  "K-025": {
+    "title": "Yhdistä tukkimiehiin",
+    "instruction": "Piirrä viiva jokaisesta luvusta sen tukkimerkkeihin."
+  },
+  "K-027": {
+    "title": "Laske ruudukko",
+    "instruction": "Laske kuvarivit. Kirjoita, montako kaikkiaan."
+  },
+  "K-028": {
+    "title": "Montako yhteensä?",
+    "instruction": "Laske molemmat ryhmät yhteen. Kirjoita, montako kaikkiaan."
+  },
+  "K-029": {
+    "title": "Arvaa hyvin!",
+    "instruction": "Älä laske! Ympyröi parempi arvio ja tarkista sitten laskemalla."
+  },
+  "K-030": {
+    "title": "Ensimmäinen, toinen…",
+    "instruction": "Aloita nuolesta. Ympyröi kuva osoitetussa paikassa."
+  },
+  "K-031": {
+    "title": "Monesko?",
+    "instruction": "Aloita nuolesta. Kirjoita jokaisen merkityn kuvan järjestysluku."
+  },
+  "K-032": {
+    "title": "Iso ja pieni",
+    "instruction": "Ympyröi joka rivin SUURIN."
+  },
+  "K-033": {
+    "title": "Pieni, keski, iso",
+    "instruction": "Numeroi kuvat 1 (pienin) – 3 (suurin)."
+  },
+  "K-034": {
+    "title": "Pienimmästä suurimpaan",
+    "instruction": "Numeroi kuvat 1 (pienin) – 5 (suurin)."
+  },
+  "K-035": {
+    "title": "Pitkä ja lyhyt",
+    "instruction": "Ympyröi joka rivin KORKEIN."
+  },
+  "K-036": {
+    "title": "Lyhyestä pitkään",
+    "instruction": "Numeroi kuvat 1 (matalin) – 4 (korkein)."
+  },
+  "K-037": {
+    "title": "Pitkä ja lyhyt esine",
+    "instruction": "Ympyröi joka rivin PISIN."
+  },
+  "K-038": {
+    "title": "Painava vai kevyt?",
+    "instruction": "Mieti oikeaa elämää! Ympyröi PAINAVAMPI."
+  },
+  "K-039": {
+    "title": "Sama ja erilainen",
+    "instruction": "Kolme kuvaa on samanlaista. Ympyröi se, joka on erilainen."
+  },
+  "K-040": {
+    "title": "Vain isot",
+    "instruction": "Ympyröi jokainen ISO kuva. Jätä pienet rauhaan."
+  },
+  "K-042": {
+    "title": "Lajittele oikein",
+    "instruction": "Piirrä viiva jokaisesta kuvasta laatikkoon, johon se kuuluu."
+  },
+  "K-043": {
+    "title": "Mikä ei kuulu?",
+    "instruction": "Katso jokaista riviä. Ympyröi kuva, joka ei kuulu joukkoon."
+  },
+  "K-044": {
+    "title": "Etsi eri kokoinen",
+    "instruction": "Katso jokaista riviä. Ympyröi se, joka on eri kokoinen."
+  },
+  "K-046": {
+    "title": "Mikä tulee seuraavaksi?",
+    "instruction": "Katso jonoa. Ympyröi, mikä tulee seuraavaksi."
+  },
+  "K-047": {
+    "title": "ABC-jonot",
+    "instruction": "Katso jonoa. Ympyröi, mikä tulee seuraavaksi."
+  },
+  "K-048": {
+    "title": "AABB-jonot",
+    "instruction": "Katso jonoa. Ympyröi, mikä tulee seuraavaksi."
+  },
+  "K-049": {
+    "title": "Täydennä jono",
+    "instruction": "Yksi kuva puuttuu. Ympyröi, mikä kuuluu tyhjään ruutuun."
+  },
+  "K-050": {
+    "title": "Iso ja pieni -jonot",
+    "instruction": "Katso jonoa. Ympyröi, mikä tulee seuraavaksi."
+  },
+  "K-052": {
+    "title": "Ylös ja alas -jonot",
+    "instruction": "Katso jonoa. Ympyröi, mikä tulee seuraavaksi."
+  },
+  "K-053": {
+    "title": "Kasvavat jonot",
+    "instruction": "Jono kasvaa. Ympyröi ryhmä, joka tulee seuraavaksi."
+  },
+  "K-057": {
+    "title": "Yhdistä varjoon",
+    "instruction": "Piirrä viiva jokaisesta kuvasta sen varjoon."
+  },
+  "K-058": {
+    "title": "Etsi parit",
+    "instruction": "Jokaisella kuvalla on kaksonen. Yhdistä parit viivalla."
+  },
+  "K-059": {
+    "title": "Etsi ja ympyröi",
+    "instruction": "Etsi kaikki ruudun kuvan kaltaiset. Ympyröi ne kaikki."
+  },
+  "K-060": {
+    "title": "Etsin silmälläni…",
+    "instruction": "Katso tarkkaan! Laske jokainen laji ja kirjoita luku."
+  },
+  "K-061": {
+    "title": "Etsi erot",
+    "instruction": "Vertaa kuvia. Ympyröi se, mikä muuttui oikeassa kuvassa."
+  },
+  "K-062": {
+    "title": "Etsi kaksoset",
+    "instruction": "Kaksi kuvaa on aivan samanlaista. Etsi ne ja ympyröi molemmat."
+  },
+  "K-063": {
+    "title": "Peili, peili",
+    "instruction": "Ympyröi kuva, joka näyttää peilikuvan."
+  },
+  "K-064": {
+    "title": "Päällä, alla, vieressä",
+    "instruction": "Ympyröi kuva, joka on laatikon PÄÄLLÄ."
+  },
+  "K-065": {
+    "title": "Vasen ja oikea",
+    "instruction": "Ympyröi jokainen kuva viivan VASEMMALLA puolella."
+  },
+  "K-066": {
+    "title": "Ylä, keski, ala",
+    "instruction": "Ympyröi jokainen kuva KESKIMMÄISELLÄ rivillä."
+  },
+  "K-067": {
+    "title": "Sisällä ja ulkona",
+    "instruction": "Ympyröi jokainen kuva ison kuvion SISÄLLÄ."
+  },
+  "K-068": {
+    "title": "Mikä sopii aukkoon?",
+    "instruction": "Joka rivillä on yhtä kuvalajia. Ympyröi pala, joka sopii tyhjään ruutuun."
+  },
+  "K-069": {
+    "title": "Mikä se on?",
+    "instruction": "Vain osa kuvasta näkyy. Ympyröi koko kuva, johon se kuuluu."
+  },
+  "K-070": {
+    "title": "Muotojahti",
+    "instruction": "Etsi kaikki ruudun muodon kaltaiset. Ympyröi ne kaikki."
+  },
+  "K-075": {
+    "title": "Laske sivut",
+    "instruction": "Laske jokaisen muodon sivut. Kirjoita luku."
+  },
+  "K-076": {
+    "title": "Lajittele sivuilla",
+    "instruction": "Piirrä viiva jokaisesta muodosta sen sivujen lukumäärään."
+  },
+  "K-077": {
+    "title": "Muotojonot",
+    "instruction": "Katso jonoa. Ympyröi muoto, joka tulee seuraavaksi."
+  },
+  "K-078": {
+    "title": "Muotokaksoset",
+    "instruction": "Jokaisella muodolla on kaksonen. Yhdistä parit viivalla."
+  },
+  "K-079": {
+    "title": "Isot ja pienet muodot",
+    "instruction": "Ympyröi joka rivin SUURIN muoto."
+  },
+  "K-080": {
+    "title": "Mikä muoto ei kuulu?",
+    "instruction": "Katso jokaista riviä. Ympyröi muoto, joka ei kuulu joukkoon."
+  },
+  "G1-101": {
+    "title": "Laske kuvat yhteen",
+    "instruction": "Laske molemmat ryhmät. Kirjoita, montako yhteensä."
+  },
+  "G1-102": {
+    "title": "Kuvien yhteenlasku",
+    "instruction": "Laske molemmat ryhmät. Kirjoita, montako kaikkiaan."
+  },
+  "G1-103": {
+    "title": "Yliviivaa ja vähennä",
+    "instruction": "Osa kuvista on yliviivattu. Kirjoita, montako jää jäljelle."
+  },
+  "G1-104": {
+    "title": "Kuvien vähennyslasku",
+    "instruction": "Osa kuvista on yliviivattu. Kirjoita, montako on jäljellä."
+  },
+  "G1-105": {
+    "title": "Kymppiruudun yhteenlasku",
+    "instruction": "Laske kaksi väriä. Kirjoita yhteenlaskun vastaus."
+  },
+  "G1-106": {
+    "title": "Tee 10!",
+    "instruction": "Montako pistettä lisää, että saadaan 10? Kirjoita puuttuva luku."
+  },
+  "G1-110": {
+    "title": "Dominolasku",
+    "instruction": "Laske dominon molemmat puolet. Kirjoita summa."
+  },
+  "G1-111": {
+    "title": "Heitä ja laske yhteen",
+    "instruction": "Laske molempien noppien pisteet. Kirjoita summa."
+  },
+  "G1-112": {
+    "title": "Laske kolme ryhmää",
+    "instruction": "Laske kaikki kolme ryhmää. Kirjoita summa."
+  },
+  "G1-113": {
+    "title": "Lukuperheet",
+    "instruction": "Käytä kahta ryhmää ja täydennä kaikki neljä laskua."
+  },
+  "G1-114": {
+    "title": "Suurempi, pienempi, yhtä suuri?",
+    "instruction": "Vertaa ryhmiä. Ympyröi oikea merkki."
+  },
+  "G1-115": {
+    "title": "Mikä puuttuu?",
+    "instruction": "Laske ryhmä. Kirjoita puuttuva luku, jolla pääset summaan."
+  },
+  "G1-116": {
+    "title": "Laske eteenpäin!",
+    "instruction": "Aloita pisteestä. Hyppää eteenpäin ja kirjoita, mihin osut."
+  },
+  "G1-117": {
+    "title": "Laske taaksepäin!",
+    "instruction": "Aloita pisteestä. Hyppää taaksepäin ja kirjoita, mihin osut."
+  },
+  "G1-118": {
+    "title": "Hyppää lukusuoralla!",
+    "instruction": "Aloita pisteestä. Laske hypyt. Kirjoita yhteenlaskun vastaus."
+  },
+  "G1-119": {
+    "title": "Hyppää taakse ja vähennä",
+    "instruction": "Seuraa hyppyjä taaksepäin. Kirjoita vähennyslaskun vastaus."
+  },
+  "G1-120": {
+    "title": "Kympit ja ykköset",
+    "instruction": "Laske kympit ja ykköset. Kirjoita luku."
+  },
+  "G1-121": {
+    "title": "Rakenna oikein",
+    "instruction": "Ympyröi palikat, jotka näyttävät luvun."
+  },
+  "G1-122": {
+    "title": "Montako kymppiä?",
+    "instruction": "Laske kymppisauvat. Täydennä lasku."
+  },
+  "G1-123": {
+    "title": "Laske kymmenittäin",
+    "instruction": "Laske kymmenen välein. Kirjoita jokainen puuttuva luku."
+  },
+  "G1-124": {
+    "title": "Laske viisittäin",
+    "instruction": "Laske viiden välein. Kirjoita jokainen puuttuva luku."
+  },
+  "G1-125": {
+    "title": "Laske kaksittain",
+    "instruction": "Laske kahden välein. Kirjoita jokainen puuttuva luku."
+  },
+  "G1-126": {
+    "title": "Laske ryhmittäin",
+    "instruction": "Joka laatikossa on yhtä monta. Laske ryhmittäin ja kirjoita summa."
+  },
+  "G1-129": {
+    "title": "Satataulu",
+    "instruction": "Osa luvuista piileskelee. Kirjoita jokainen puuttuva luku ruutuunsa."
+  },
+  "G1-130": {
+    "title": "Väritä laskupolku",
+    "instruction": "Kaksi ruutua on väritetty aluksi. Väritä jokainen luku samaa laskutapaa."
+  },
+  "G1-131": {
+    "title": "1 enemmän, 1 vähemmän",
+    "instruction": "Kirjoita luku, joka on 1 vähemmän, ja luku, joka on 1 enemmän."
+  },
+  "G1-132": {
+    "title": "10 enemmän, 10 vähemmän",
+    "instruction": "Kirjoita luku, joka on 10 vähemmän, ja luku, joka on 10 enemmän."
+  },
+  "G1-133": {
+    "title": "Venytä luku",
+    "instruction": "Katso palikoita. Ympyröi sopiva hajotettu muoto."
+  },
+  "G1-135": {
+    "title": "Pienin ensin",
+    "instruction": "Numeroi ne 1, 2, 3 pienimmästä suurimpaan."
+  },
+  "G1-136": {
+    "title": "Suurin ensin",
+    "instruction": "Numeroi ne 1, 2, 3 suurimmasta pienimpään."
+  },
+  "G1-137": {
+    "title": "Suurempi vai pienempi?",
+    "instruction": "Vertaa lukuja. Ympyröi oikea merkki."
+  },
+  "G1-138": {
+    "title": "Missä se asuu?",
+    "instruction": "Etsi luku lukusuoralta. Ympyröi sen piste."
+  },
+  "G1-139": {
+    "title": "Ruutu ruudulta",
+    "instruction": "Jokainen esine on ruuduilla. Laske ne ja kirjoita pituus."
+  },
+  "G1-140": {
+    "title": "Lyhyestä pitkään",
+    "instruction": "Mittaa esineet ruuduilla. Numeroi 1 (lyhin) – 3 (pisin)."
+  },
+  "G1-141": {
+    "title": "Lue kuvaaja",
+    "instruction": "Laske kuvat joka rivillä. Kirjoita luvut."
+  },
+  "G1-142": {
+    "title": "Eniten kaikista",
+    "instruction": "Katso kuvaajaa. Ympyröi se, jota on ENITEN."
+  },
+  "G1-143": {
+    "title": "Lue pylväskuvaaja",
+    "instruction": "Lue jokainen pylväs. Kirjoita sen luku."
+  },
+  "G1-144": {
+    "title": "Korkein pylväs",
+    "instruction": "Katso pylväitä. Ympyröi se, jota on eniten."
+  },
+  "G1-146": {
+    "title": "Lajittele ja laske",
+    "instruction": "Laske jokainen laji rivistä. Kirjoita summat taulukkoon."
+  },
+  "G1-147": {
+    "title": "Laske ja kuvaa",
+    "instruction": "Lue luvut. Väritä kuvaajaan yksi ruutu jokaista kohti."
+  },
+  "G1-148": {
+    "title": "Tasatunnit",
+    "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
+  },
+  "G1-149": {
+    "title": "Puoli mitä?",
+    "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
+  },
+  "G1-150": {
+    "title": "Kelloparit",
+    "instruction": "Piirrä viiva jokaisesta kellosta sen digiaikaan."
+  },
+  "G1-155": {
+    "title": "Kaksi puuttuu!",
+    "instruction": "Kaksi kuvaa puuttuu. Piirrä viiva jokaisesta kuvasta tyhjään ruutuun."
+  },
+  "G1-157": {
+    "title": "Kuvapulmat",
+    "instruction": "Katso ensimmäistä paria. Ympyröi, mikä täydentää toisen parin samoin."
+  },
+  "G1-158": {
+    "title": "Kuvasudoku",
+    "instruction": "Joka riviin, sarakkeeseen ja ruutuun tulee kaikki neljä kuvaa — piirrä tyhjiin ruutuihin."
+  },
+  "G1-160": {
+    "title": "Kolme ryhmää",
+    "instruction": "Piirrä viiva jokaisesta kuvasta laatikkoon, johon se kuuluu."
+  },
+  "G2-203": {
+    "title": "Laske palikat yhteen",
+    "instruction": "Laske kaksi palikkaryhmää yhteen. Kirjoita summa."
+  },
+  "G2-205": {
+    "title": "Ota palikat pois",
+    "instruction": "Vähennä jälkimmäinen ryhmä ensimmäisestä. Kirjoita vastaus."
+  },
+  "G2-206": {
+    "title": "Tee kymppi!",
+    "instruction": "Ympyröi 10 ykköstä yhdeksi kympiksi. Kirjoita kympit ja ykköset."
+  },
+  "G2-207": {
+    "title": "Laske kolmittain",
+    "instruction": "Laske kolmen välein. Kirjoita jokainen puuttuva luku."
+  },
+  "G2-208": {
+    "title": "Laske neljittäin",
+    "instruction": "Laske neljän välein. Kirjoita jokainen puuttuva luku."
+  },
+  "G2-209": {
+    "title": "Laske taas yhteen",
+    "instruction": "Joka renkaassa on yhtä monta. Täydennä yhteenlasku."
+  },
+  "G2-210": {
+    "title": "Yhteenlaskusta kertolaskuun",
+    "instruction": "Laske yhtä suuret ryhmät. Täydennä kertolasku."
+  },
+  "G2-211": {
+    "title": "Rivit ja sarakkeet",
+    "instruction": "Laske rivit ja sarakkeet. Täydennä kertolasku."
+  },
+  "G2-212": {
+    "title": "Valitse ruudukko",
+    "instruction": "Ympyröi ruudukko, joka vastaa kertolaskua."
+  },
+  "G2-213": {
+    "title": "Helpot ryhmät",
+    "instruction": "Laske yhtä suuret ryhmät. Täydennä kertolasku."
+  },
+  "G2-216": {
+    "title": "Jaa reilusti",
+    "instruction": "Jaa kasa tasan laatikoihin. Kirjoita, montako kukin saa."
+  },
+  "G2-217": {
+    "title": "Montako ryhmää?",
+    "instruction": "Renkaat tekevät yhtä suuria ryhmiä. Kirjoita, montako ryhmää on."
+  },
+  "G2-218": {
+    "title": "Parittomien jahti",
+    "instruction": "Ympyröi jokainen PARITON luku. Katso viimeistä numeroa."
+  },
+  "G2-219": {
+    "title": "Suurten lukujen taisto",
+    "instruction": "Vertaa lukuja. Ympyröi oikea merkki."
+  },
+  "G2-220": {
+    "title": "Laita järjestykseen",
+    "instruction": "Numeroi ne 1–4 pienimmästä suurimpaan."
+  },
+  "G2-221": {
+    "title": "Pyöristä!",
+    "instruction": "Katso pistettä. Ympyröi kymmen, jota se on lähempänä."
+  },
+  "G2-222": {
+    "title": "Lue palikat",
+    "instruction": "Laske sadat, kympit ja ykköset. Kirjoita luku, jonka ne näyttävät."
+  },
+  "G2-223": {
+    "title": "Sadat, kympit, ykköset",
+    "instruction": "Katso palikoita. Ympyröi sopiva hajotettu muoto."
+  },
+  "G2-224": {
+    "title": "Lajittele paikat",
+    "instruction": "Laske palikat. Täytä paikka-arvotaulukko."
+  },
+  "G2-225": {
+    "title": "Numeroetsivä",
+    "instruction": "Katso alleviivattua numeroa. Ympyröi sen arvo."
+  },
+  "G2-226": {
+    "title": "100 enemmän, 100 vähemmän",
+    "instruction": "Kirjoita luku, joka on 100 vähemmän, ja luku, joka on 100 enemmän."
+  },
+  "G2-227": {
+    "title": "Yhdistä palikoihin",
+    "instruction": "Ympyröi palikat, jotka näyttävät luvun."
+  },
+  "G2-228": {
+    "title": "Puoli ja puoli",
+    "instruction": "Väritä jokaisesta kuviosta puolet."
+  },
+  "G2-229": {
+    "title": "Kolmas- ja neljäsosat",
+    "instruction": "Väritä jokaisesta kuviosta osoitettu osa."
+  },
+  "G2-230": {
+    "title": "Etsi murtoluku",
+    "instruction": "Ympyröi kuvio, joka näyttää murtoluvun."
+  },
+  "G2-231": {
+    "title": "Murtolukukaverit",
+    "instruction": "Piirrä viiva jokaisesta kuvasta sen murtolukuun."
+  },
+  "G2-232": {
+    "title": "Reilut osat?",
+    "instruction": "Ympyröi jokainen kuvio, joka on jaettu YHTÄ suuriin osiin."
+  },
+  "G2-233": {
+    "title": "Jaa joukko",
+    "instruction": "Ympyröi kuvien murto-osa. Kirjoita, montako se on."
+  },
+  "G2-234": {
+    "title": "Leikkaa oikein",
+    "instruction": "Ympyröi kuvio, joka näyttää murtoluvun."
+  },
+  "G2-235": {
+    "title": "Mittaa!",
+    "instruction": "Jokainen esine alkaa 0:sta. Lue viivain ja kirjoita pituus yksikköinä."
+  },
+  "G2-236": {
+    "title": "Kuinka paljon pidempi?",
+    "instruction": "Mittaa molemmat esineet. Kirjoita, montako yksikköä toinen on pidempi."
+  },
+  "G2-237": {
+    "title": "Kuvaajaetsivä",
+    "instruction": "Ratkaise molemmat kuvakysymykset kuvaajan avulla."
+  },
+  "G2-238": {
+    "title": "Joka kuva on kaksi",
+    "instruction": "Joka kuva tarkoittaa 2:ta! Kirjoita jokaisen rivin todellinen määrä."
+  },
+  "G2-239": {
+    "title": "Tukkimiehistä kuvaajaksi",
+    "instruction": "Lue tukkitaulukko. Väritä yksi pylväs jokaista määrää kohti."
+  },
+  "G2-240": {
+    "title": "Lue pistekaavio",
+    "instruction": "Laske X-merkit jokaisen luvun yllä. Kirjoita, montako."
+  },
+  "G2-241": {
+    "title": "Muotolajittelija",
+    "instruction": "Piirrä viiva jokaisesta muodosta sen sivujen lukumäärään."
+  },
+  "G2-242": {
+    "title": "Laske tahkot",
+    "instruction": "Kirjoita, montako tasaista tahkoa kullakin kappaleella on."
+  },
+  "G2-243": {
+    "title": "Kappaleet ympärillämme",
+    "instruction": "Piirrä viiva jokaisesta kappaleesta esineeseen, jolla on sama muoto."
+  },
+  "G2-244": {
+    "title": "Taso vai kappale?",
+    "instruction": "Piirrä viiva muodosta laatikkoon: tasokuviot vasemmalle, kappaleet oikealle."
+  },
+  "G2-245": {
+    "title": "Laske särmät",
+    "instruction": "Kirjoita, montako särmää kullakin kappaleella on."
+  },
+  "G2-246": {
+    "title": "Laske kärjet",
+    "instruction": "Kirjoita, montako kärkeä kullakin kappaleella on."
+  },
+  "G2-247": {
+    "title": "Symmetria-akseli?",
+    "instruction": "Onko katkoviiva symmetria-akseli? Ympyröi rasti tai oikein-merkki."
+  },
+  "G2-248": {
+    "title": "Etsi peilikuva",
+    "instruction": "Ympyröi kuva, joka on samanlainen molemmilla puolilla."
+  },
+  "G2-249": {
+    "title": "Paljonko kello on?",
+    "instruction": "Lue jokainen kello. Ympyröi sopiva aika."
+  },
+  "G3-301": {
+    "title": "Isot ruudukot",
+    "instruction": "Laske kuvarivit. Kirjoita, montako kaikkiaan."
+  },
+  "G3-302": {
+    "title": "Vaikeat ryhmät",
+    "instruction": "Laske yhtä suuret ryhmät. Täydennä kertolasku."
+  },
+  "G3-308": {
+    "title": "Kertolaskuhypyt",
+    "instruction": "Seuraa yhtä suuria hyppyjä nollasta. Kirjoita jokainen osumaluku."
+  },
+  "G3-309": {
+    "title": "Jaa osiin",
+    "instruction": "Jaa kasa tasan laatikoihin. Kirjoita, montako kukin saa."
+  },
+  "G3-310": {
+    "title": "Hyppää alas nollaan",
+    "instruction": "Laske yhtä suuret hypyt takaisin nollaan. Kirjoita, montako hyppyä."
+  },
+  "G3-311": {
+    "title": "Kertolaskuperheet",
+    "instruction": "Käytä ruudukkoa ja täydennä kaikki neljä laskua."
+  },
+  "G3-312": {
+    "title": "Puuttuva tekijä",
+    "instruction": "Katso ruudukkoa. Kirjoita puuttuva tekijä."
+  },
+  "G3-313": {
+    "title": "Laske neliöt",
+    "instruction": "Laske suorakulmion neliöt. Täydennä kertolasku."
+  },
+  "G3-314": {
+    "title": "Käännä ympäri",
+    "instruction": "Molemmat ruudukot näyttävät saman summan. Täydennä molemmat laskut."
+  },
+  "G3-315": {
+    "title": "Nimeä murtoluku",
+    "instruction": "Kirjoita murtoluku, jonka väritetyt osat näyttävät."
+  },
+  "G3-316": {
+    "title": "Väritä murtoluku",
+    "instruction": "Väritä oikea määrä osia, jotta näkyy jokainen murtoluku."
+  },
+  "G3-317": {
+    "title": "Murtoluvut lukusuoralla",
+    "instruction": "Piste osoittaa murtoluvun. Ympyröi mikä."
+  },
+  "G3-318": {
+    "title": "Murtolukukaksoset",
+    "instruction": "Piirrä viiva jokaisesta kuvasta sopivaan murtolukuun."
+  },
+  "G3-319": {
+    "title": "Kumpi on suurempi?",
+    "instruction": "Katso molempia palkkeja. Ympyröi suurempi murtoluku."
+  },
+  "G3-320": {
+    "title": "Joukon murto-osa",
+    "instruction": "Ympyröi kuvien murto-osa. Kirjoita, montako se on."
+  },
+  "G3-321": {
+    "title": "Etsi kokonainen",
+    "instruction": "Pieni palkki on yksi osa. Ympyröi palkki, joka näyttää KOKONAISEN."
+  },
+  "G3-322": {
+    "title": "Yhtä suuret kaverit",
+    "instruction": "Piirrä viiva jokaisesta kuvasta sen murtolukuun."
+  },
+  "G3-323": {
+    "title": "Pyöristä sataan",
+    "instruction": "Katso pistettä. Ympyröi sata, jota se on lähempänä."
+  },
+  "G3-325": {
+    "title": "Tuhansien kamppailu",
+    "instruction": "Vertaa lukuja. Ympyröi oikea merkki."
+  },
+  "G3-326": {
+    "title": "Murra sääntö",
+    "instruction": "Etsi jokaisen rivin sääntö. Kirjoita puuttuvat luvut."
+  },
+  "G3-327": {
+    "title": "Menossa alas!",
+    "instruction": "Luvut pienenevät saman verran. Kirjoita puuttuvat luvut."
+  },
+  "G3-328": {
+    "title": "Lukukoneet",
+    "instruction": "Joka kone käyttää sääntöään jokaiseen lukuun. Täytä puuttuvat."
+  },
+  "G3-329": {
+    "title": "Iso harppauslasku",
+    "instruction": "Etsi laskusääntö. Kirjoita jokainen puuttuva luku."
+  },
+  "G3-332": {
+    "title": "Isojen pylväiden asteikko",
+    "instruction": "Varo — asteikko etenee viiden välein! Kirjoita jokaisen pylvään arvo."
+  },
+  "G3-333": {
+    "title": "Joka kuva on viisi",
+    "instruction": "Joka kuva tarkoittaa 5:tä! Kirjoita jokaisen rivin todellinen määrä."
+  },
+  "G3-334": {
+    "title": "Rakenna kuvaaja",
+    "instruction": "Käytä taulukkoa. Väritä pylväs jokaista arvoa kohti."
+  },
+  "G3-335": {
+    "title": "Puolivälimerkit",
+    "instruction": "Laske X-merkit jokaisen luvun yllä. Kirjoita, montako."
+  },
+  "G3-337": {
+    "title": "Kierrä reuna",
+    "instruction": "Laske yksikkösärmät jokaisen suorakulmion ympäri. Kirjoita piiri."
+  },
+  "G3-338": {
+    "title": "Sama ala, uusi muoto",
+    "instruction": "Ympyröi suorakulmio, joka peittää SAMAN määrän neliöitä."
+  },
+  "G3-339": {
+    "title": "Sama aita, uusi piha",
+    "instruction": "Ympyröi suorakulmio, jonka ympärysmatka on SAMA."
+  },
+  "G3-340": {
+    "title": "Nelikulmiojoukko",
+    "instruction": "Piirrä viiva jokaisesta nelisivuisesta muodosta sen perheeseen."
+  },
+  "G3-341": {
+    "title": "Suorien kulmien jahti",
+    "instruction": "Ympyröi jokainen SUORA kulma (ne, joissa on pieni neliö)."
+  },
+  "G3-342": {
+    "title": "Montako akselia?",
+    "instruction": "Kirjoita, montako symmetria-akselia kullakin muodolla on."
+  },
+  "G3-343": {
+    "title": "Yhtä suuret palat",
+    "instruction": "Ympyröi jokainen kuvio, joka on jaettu YHTÄ suuriin osiin."
+  },
+  "G3-344": {
+    "title": "Paljonko aikaa kului?",
+    "instruction": "Vertaa kelloja. Kirjoita, montako tuntia kului."
+  },
+  "G3-345": {
+    "title": "Kuuma vai kylmä?",
+    "instruction": "Lue jokainen lämpömittari. Kirjoita lämpötila, jonka se näyttää."
+  },
+  "G3-346": {
+    "title": "Kuutiotornit",
+    "instruction": "Laske kaikki kuutiot jokaisessa tornissa. Kirjoita summa."
+  },
+  "G3-348": {
+    "title": "Iso kuvasudoku",
+    "instruction": "Joka riviin, sarakkeeseen ja ruutuun tarvitaan kaikki kuusi kuvaa — täytä tyhjät."
+  },
+  "G3-349": {
+    "title": "Taikaneliöt",
+    "instruction": "Joka rivi ja sarake antaa taikaluvun. Täytä tyhjät ruudut."
+  },
+  "G3-350": {
+    "title": "Saata tasapainoon",
+    "instruction": "Molempien puolten on painettava yhtä paljon. Kirjoita puuttuva luku."
+  },
+  "G3-351": {
+    "title": "Mikä täydentää pulman?",
+    "instruction": "Rivit jakavat kuvan, sarakkeet koon. Ympyröi, mikä sopii tyhjään ruutuun."
+  },
+  "G3-353": {
+    "title": "Kahden kehän lajittelu",
+    "instruction": "Vasen kehä: tätä lajia. Oikea: ISOT. Keskellä: molemmat! Yhdistä jokainen kuva."
+  }
+}

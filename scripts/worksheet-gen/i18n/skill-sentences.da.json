@@ -1,0 +1,90 @@
+{
+  "counting-pictures": {
+    "full": "At tælle venlige billedgrupper opbygger en-til-en-korrespondance og den tidlige talfornemmelse bag en tryg start på matematikken.",
+    "short": "Opbygger tælleevne og tidlig talfornemmelse."
+  },
+  "counting-frames": {
+    "full": "Tierrammen giver børnene en klar visuel struktur til at tælle, lave fem og lave ti — kernen i den tidlige talfornemmelse.",
+    "short": "Opbygger talfornemmelse med den klassiske ramme."
+  },
+  "tally-counting": {
+    "full": "At notere optællinger som tællestreger lærer børnene at ordne information og tælle effektivt i grupper af fem.",
+    "short": "Øv at tælle og notere med tællestreger."
+  },
+  "number-charts": {
+    "full": "At arbejde med hundredfeltet styrker talrækkefølge, springtællingens mønstre og den tidlige forståelse af positionssystemet.",
+    "short": "Styrker talrækkefølge og mønstre i tallene."
+  },
+  "comparing-numbers": {
+    "full": "At sammenligne tal med større end, mindre end og lig med opbygger den størrelsestænkning, der ligger bag al senere regning.",
+    "short": "Opbygger tryg tænkning om større end og mindre end."
+  },
+  "comparing-groups": {
+    "full": "At afgøre hvilken gruppe der har flest, færrest eller lige mange opbygger tidlige sammenligningsevner før tal-symbolerne.",
+    "short": "Opbygger tidlige flest-og-færrest-evner."
+  },
+  "comparing-sizes": {
+    "full": "At sortere stor og lille, høj og lav, lang og længst opbygger det størrelses-ordforråd, de yngste elever bruger hver dag.",
+    "short": "Opbygger ordforråd for stor-lille og høj-lav."
+  },
+  "number-lines": {
+    "full": "At hoppe langs en tallinje gør addition, subtraktion og talrækkefølge synlig og konkret for de yngste elever.",
+    "short": "Gør plus og minus tydeligt synligt på en tallinje."
+  },
+  "base-ten": {
+    "full": "Tier-klodser gør abstrakt positionssystem til noget, børnene kan se og tælle — hundreder, tiere og enere på ét blik.",
+    "short": "Gør positionssystem konkret med tiere og enere."
+  },
+  "telling-time": {
+    "full": "At aflæse analoge ure på hel, halv og fem minutter opbygger en livsfærdighed, børnene er stolte af at mestre.",
+    "short": "Øv på at aflæse det analoge ur med venlige urskiver."
+  },
+  "fractions": {
+    "full": "At farve, navngive og sammenligne halve, tredjedele og fjerdedele giver børnene et konkret første kig på brøker.",
+    "short": "Et konkret og tydeligt kig på halve og fjerdedele."
+  },
+  "graphing-data": {
+    "full": "At aflæse søjlediagrammer, billeddiagrammer og tællestreg-skemaer lærer børnene at ordne data og svare på spørgsmål om dem.",
+    "short": "Opbygger tidlige dataevner med diagrammer."
+  },
+  "arrays-multiplication": {
+    "full": "Billed-rækker med rækker og søjler gør gentaget addition til fundamentet for tænkningen bag multiplikation.",
+    "short": "Opbygger gange-tænkning med billed-rækker."
+  },
+  "geometry": {
+    "full": "At navngive former, tælle sider og hjørner og udforske symmetri opbygger det rumlige sprog i den tidlige geometri.",
+    "short": "Opbygger formnavne og tidlig geometri-tænkning."
+  },
+  "measurement": {
+    "full": "At måle med lineal og enheds-klodser og sammenligne længder opbygger praktisk målefornemmelse skridt for skridt.",
+    "short": "Opbygger praktisk målefornemmelse trin for trin."
+  },
+  "visual-logic": {
+    "full": "Billed-sudoku og logikgitre udfordrer deduktionsevnen — hvert puslespil har præcis ét rigtigt svar at finde.",
+    "short": "Udfordrer logisk deduktion med billed-puslespil."
+  },
+  "visual-discrimination": {
+    "full": "At få øje på skygger, spejlede billeder og hvilken der ikke passer skærper den visuelle skelnen bag flydende læsning.",
+    "short": "Skærper visuel skelnen og sans for detaljer."
+  },
+  "visual-matching": {
+    "full": "At matche billeder der hører sammen styrker den visuelle hukommelse og den ens-forskellig-tænkning, børnene bruger hver dag.",
+    "short": "Styrker visuel matchning og hukommelse."
+  },
+  "patterns": {
+    "full": "At fortsætte og fuldende billedmønstre opbygger den algebraiske tænkning, der starter længe før algebraen selv.",
+    "short": "Opbygger mønstergenkendelse og tidlig algebra."
+  },
+  "position-words": {
+    "full": "Over, under, til venstre og til højre kommer til live i billedscener, der opbygger rumligt ordforråd og retningssans.",
+    "short": "Opbygger placeringsord og retningssans."
+  },
+  "sorting-categories": {
+    "full": "At sortere billeder i grupper opbygger den klassifikationstænkning, børnene bruger på tværs af matematik, naturfag og læsning.",
+    "short": "Opbygger sorterings- og klassifikationstænkning."
+  },
+  "picture-arithmetic": {
+    "full": "At lægge sammen og trække fra med billedgrupper lader børnene mestre regnearterne konkret, før de abstrakte tal kommer.",
+    "short": "Konkret billedbaseret plus og minus i alt."
+  }
+}

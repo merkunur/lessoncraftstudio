@@ -1,0 +1,802 @@
+{
+  "K-002": {
+    "title": "Tæl og indkreds",
+    "instruction": "Tæl billederne i hver rude. Indkreds det rigtige tal."
+  },
+  "K-004": {
+    "title": "Tæl i tierrammen",
+    "instruction": "Tæl billederne i rammen. Skriv tallet."
+  },
+  "K-005": {
+    "title": "Fyld rammen",
+    "instruction": "Tegn en prik i rammen for hver, som tallet viser."
+  },
+  "K-006": {
+    "title": "Tæl og skriv",
+    "instruction": "Tæl billederne i hver rude. Skriv tallet."
+  },
+  "K-007": {
+    "title": "Tæl og forbind",
+    "instruction": "Tæl billederne. Tegn en streg til det rigtige tal."
+  },
+  "K-008": {
+    "title": "Flest eller færrest?",
+    "instruction": "Se på begge grupper. Indkreds den gruppe, der har FLEST."
+  },
+  "K-009": {
+    "title": "Hvem har færrest?",
+    "instruction": "Se på begge grupper. Indkreds den gruppe, der har FÆRREST."
+  },
+  "K-010": {
+    "title": "Find lige store grupper",
+    "instruction": "To grupper har det samme antal. Indkreds dem begge."
+  },
+  "K-011": {
+    "title": "Tæl og farvelæg",
+    "instruction": "Farvelæg præcis så mange billeder, som tallet viser."
+  },
+  "K-012": {
+    "title": "En til hver",
+    "instruction": "Giv hver en makker. Tegn en streg, der forbinder dem en for en."
+  },
+  "K-013": {
+    "title": "Tæl hver slags",
+    "instruction": "Tæl hver slags billede. Skriv, hvor mange du finder."
+  },
+  "K-014": {
+    "title": "Lav dine tællestreger",
+    "instruction": "Tæl billederne. Tegn tællestreger i ruden."
+  },
+  "K-015": {
+    "title": "Læs tællestregerne",
+    "instruction": "Tæl tællestregerne. Skriv tallet."
+  },
+  "K-016": {
+    "title": "Lige eller ulige?",
+    "instruction": "Sæt dem sammen to og to! Bliver en tilovers, er tallet ulige."
+  },
+  "K-017": {
+    "title": "Hurtigt kig!",
+    "instruction": "Tæl ikke en for en! Kig hurtigt, og indkreds hvor mange."
+  },
+  "K-018": {
+    "title": "Hvor mange? Hurtigt!",
+    "instruction": "Kig hurtigt, og indkreds hvor mange du ser."
+  },
+  "K-019": {
+    "title": "Manglende tal til 10",
+    "instruction": "Tæl langs talrækken. Skriv hvert tal, der mangler."
+  },
+  "K-020": {
+    "title": "Manglende tal til 20",
+    "instruction": "Tæl langs talrækken. Skriv hvert tal, der mangler."
+  },
+  "K-021": {
+    "title": "Før og efter",
+    "instruction": "Skriv tallet, der kommer før, og det, der kommer efter."
+  },
+  "K-022": {
+    "title": "Fanget i midten",
+    "instruction": "Skriv tallet, der kommer imellem."
+  },
+  "K-023": {
+    "title": "Tæl baglæns: 10, 9, 8",
+    "instruction": "Tæl baglæns. Skriv hvert tal, der mangler."
+  },
+  "K-024": {
+    "title": "Find tierrammen",
+    "instruction": "Tegn en streg fra hvert tal til dets tierramme."
+  },
+  "K-025": {
+    "title": "Find tællestregerne",
+    "instruction": "Tegn en streg fra hvert tal til dets tællestreger."
+  },
+  "K-027": {
+    "title": "Tæl i tabellen",
+    "instruction": "Tæl rækkerne af billeder. Skriv hvor mange i alt."
+  },
+  "K-028": {
+    "title": "Hvor mange i alt?",
+    "instruction": "Tæl begge grupper sammen. Skriv hvor mange i alt."
+  },
+  "K-029": {
+    "title": "Gæt godt!",
+    "instruction": "Vurder først, tæl ikke! Indkreds det bedste gæt, tjek så ved at tælle."
+  },
+  "K-030": {
+    "title": "Første, anden, tredje",
+    "instruction": "Start ved pilen. Indkreds billedet på den viste plads."
+  },
+  "K-031": {
+    "title": "Hvilken plads?",
+    "instruction": "Start ved pilen. Skriv hvert markeret billedes plads i dets cirkel."
+  },
+  "K-032": {
+    "title": "Stor og lille",
+    "instruction": "Indkreds den STØRSTE i hver række."
+  },
+  "K-033": {
+    "title": "Lille, mellem, stor",
+    "instruction": "Nummerér billederne fra 1 (mindst) til 3 (størst)."
+  },
+  "K-034": {
+    "title": "Mindst til størst",
+    "instruction": "Nummerér billederne fra 1 (mindst) til 5 (størst)."
+  },
+  "K-035": {
+    "title": "Høj og lav",
+    "instruction": "Indkreds den HØJESTE i hver række."
+  },
+  "K-036": {
+    "title": "Lav til høj",
+    "instruction": "Nummerér billederne fra 1 (lavest) til 4 (højest)."
+  },
+  "K-037": {
+    "title": "Lang og kort",
+    "instruction": "Indkreds den LÆNGSTE i hver række."
+  },
+  "K-038": {
+    "title": "Tung eller let?",
+    "instruction": "Tænk på det virkelige liv! Indkreds den TUNGESTE."
+  },
+  "K-039": {
+    "title": "Ens og forskellig",
+    "instruction": "Tre billeder er ens. Indkreds det, der er forskelligt."
+  },
+  "K-040": {
+    "title": "Kun de store",
+    "instruction": "Indkreds hvert STORT billede. Lad de små være."
+  },
+  "K-042": {
+    "title": "Sortér det",
+    "instruction": "Tegn en streg fra hvert billede til kassen, det hører til i."
+  },
+  "K-043": {
+    "title": "Hvilken passer ikke?",
+    "instruction": "Se på hver række. Indkreds billedet, der ikke hører til."
+  },
+  "K-044": {
+    "title": "Find den anden størrelse",
+    "instruction": "Se på hver række. Indkreds den, der har en anden størrelse."
+  },
+  "K-046": {
+    "title": "Hvad kommer nu?",
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+  },
+  "K-047": {
+    "title": "ABC-mønstre",
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+  },
+  "K-048": {
+    "title": "AABB-mønstre",
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+  },
+  "K-049": {
+    "title": "Færdiggør mønstret",
+    "instruction": "Et billede mangler. Indkreds, hvad der hører i den tomme rude."
+  },
+  "K-050": {
+    "title": "Store og små mønstre",
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+  },
+  "K-052": {
+    "title": "Op og ned-mønstre",
+    "instruction": "Se på mønstret. Indkreds, hvad der kommer nu."
+  },
+  "K-053": {
+    "title": "Voksende mønstre",
+    "instruction": "Mønstret vokser. Indkreds gruppen, der kommer nu."
+  },
+  "K-057": {
+    "title": "Find skyggen",
+    "instruction": "Tegn en streg fra hvert billede til dets skygge."
+  },
+  "K-058": {
+    "title": "Find parrene",
+    "instruction": "Hvert billede har en tvilling. Tegn en streg mellem hvert par."
+  },
+  "K-059": {
+    "title": "Find og indkreds",
+    "instruction": "Find hvert billede magen til det i ruden. Indkreds dem alle."
+  },
+  "K-060": {
+    "title": "Jeg ser, jeg ser",
+    "instruction": "Kig godt efter! Tæl hver slags, og skriv tallet."
+  },
+  "K-061": {
+    "title": "Find forskellene",
+    "instruction": "Sammenlign de to billeder. Indkreds, hvad der er ændret til højre."
+  },
+  "K-062": {
+    "title": "Find tvillingerne",
+    "instruction": "To billeder er helt ens. Find dem, og indkreds dem begge."
+  },
+  "K-063": {
+    "title": "Spejl, spejl",
+    "instruction": "Indkreds billedet, der viser spejlbilledet."
+  },
+  "K-064": {
+    "title": "På, under, ved siden af",
+    "instruction": "Indkreds billedet, der er PÅ kassen."
+  },
+  "K-065": {
+    "title": "Venstre og højre",
+    "instruction": "Indkreds hvert billede på VENSTRE side af stregen."
+  },
+  "K-066": {
+    "title": "Øverst, midt, nederst",
+    "instruction": "Indkreds hvert billede i den MIDTERSTE række."
+  },
+  "K-067": {
+    "title": "Inden i og uden for",
+    "instruction": "Indkreds hvert billede INDEN I den store figur."
+  },
+  "K-068": {
+    "title": "Hvad passer i hullet?",
+    "instruction": "Hver række viser en slags billede. Indkreds brikken, der passer i den tomme rude."
+  },
+  "K-069": {
+    "title": "Hvad er det?",
+    "instruction": "Kun en del af billedet ses. Indkreds det hele billede, det hører til."
+  },
+  "K-070": {
+    "title": "Figurjagt",
+    "instruction": "Find hver figur magen til den i ruden. Indkreds dem alle."
+  },
+  "K-075": {
+    "title": "Tæl siderne",
+    "instruction": "Tæl siderne på hver figur. Skriv tallet."
+  },
+  "K-076": {
+    "title": "Sortér efter sider",
+    "instruction": "Tegn en streg fra hver figur til dens antal sider."
+  },
+  "K-077": {
+    "title": "Figurmønstre",
+    "instruction": "Se på mønstret. Indkreds figuren, der kommer nu."
+  },
+  "K-078": {
+    "title": "Figurtvillinger",
+    "instruction": "Hver figur har en tvilling. Tegn en streg mellem hvert par."
+  },
+  "K-079": {
+    "title": "Store og små figurer",
+    "instruction": "Indkreds den STØRSTE figur i hver række."
+  },
+  "K-080": {
+    "title": "Hvilken figur passer ikke?",
+    "instruction": "Se på hver række. Indkreds figuren, der ikke hører til."
+  },
+  "G1-101": {
+    "title": "Læg billederne sammen",
+    "instruction": "Tæl begge grupper. Skriv hvor mange i alt."
+  },
+  "G1-102": {
+    "title": "Billedaddition",
+    "instruction": "Tæl begge grupper. Skriv hvor mange i alt."
+  },
+  "G1-103": {
+    "title": "Streg over og træk fra",
+    "instruction": "Nogle billeder er streget over. Skriv hvor mange der er tilbage."
+  },
+  "G1-104": {
+    "title": "Billedsubtraktion",
+    "instruction": "Nogle billeder er streget over. Skriv hvor mange der er tilbage."
+  },
+  "G1-105": {
+    "title": "Tierrammeaddition",
+    "instruction": "Tæl de to farver. Skriv svaret på additionsstykket."
+  },
+  "G1-106": {
+    "title": "Lav 10!",
+    "instruction": "Hvor mange prikker mere giver 10? Skriv tallet, der mangler."
+  },
+  "G1-110": {
+    "title": "Dominomatematik",
+    "instruction": "Tæl begge sider af dominobrikken. Skriv summen."
+  },
+  "G1-111": {
+    "title": "Slå og læg sammen",
+    "instruction": "Tæl prikkerne på begge terninger. Skriv summen."
+  },
+  "G1-112": {
+    "title": "Læg tre grupper sammen",
+    "instruction": "Tæl alle tre grupper. Skriv det samlede antal."
+  },
+  "G1-113": {
+    "title": "Talfamilier",
+    "instruction": "Brug de to grupper til at færdiggøre alle fire regnestykker."
+  },
+  "G1-114": {
+    "title": "Større, mindre eller lig?",
+    "instruction": "Sammenlign de to grupper. Indkreds det rigtige tegn."
+  },
+  "G1-115": {
+    "title": "Hvad mangler?",
+    "instruction": "Tæl gruppen. Skriv tallet, der mangler for at nå det samlede antal."
+  },
+  "G1-116": {
+    "title": "Tæl videre!",
+    "instruction": "Start ved prikken. Hop fremad, og skriv hvor du lander."
+  },
+  "G1-117": {
+    "title": "Tæl tilbage!",
+    "instruction": "Start ved prikken. Hop baglæns, og skriv hvor du lander."
+  },
+  "G1-118": {
+    "title": "Hop langs linjen!",
+    "instruction": "Start ved prikken. Tæl hoppene. Skriv additionssvaret."
+  },
+  "G1-119": {
+    "title": "Hop tilbage og træk fra",
+    "instruction": "Følg hoppene baglæns. Skriv subtraktionssvaret."
+  },
+  "G1-120": {
+    "title": "Tiere og enere",
+    "instruction": "Tæl tierne og enerne. Skriv tallet."
+  },
+  "G1-121": {
+    "title": "Byg det rigtigt",
+    "instruction": "Indkreds klodserne, der viser tallet."
+  },
+  "G1-122": {
+    "title": "Hvor mange tiere?",
+    "instruction": "Tæl tierstængerne. Færdiggør regnestykket."
+  },
+  "G1-123": {
+    "title": "Tæl med tiere",
+    "instruction": "Tæl med 10. Skriv hvert tal, der mangler."
+  },
+  "G1-124": {
+    "title": "Tæl med femmere",
+    "instruction": "Tæl med 5. Skriv hvert tal, der mangler."
+  },
+  "G1-125": {
+    "title": "Tæl med toere",
+    "instruction": "Tæl med 2. Skriv hvert tal, der mangler."
+  },
+  "G1-126": {
+    "title": "Tæl i grupper",
+    "instruction": "Hver kasse har det samme antal. Tæl i spring, og skriv den løbende sum."
+  },
+  "G1-129": {
+    "title": "Hundredtabellen",
+    "instruction": "Nogle tal gemmer sig. Skriv hvert manglende tal i dets rude."
+  },
+  "G1-130": {
+    "title": "Farv tællestien",
+    "instruction": "To ruder er farvet for at starte dig. Farv hvert tal i det samme tællemønster."
+  },
+  "G1-131": {
+    "title": "1 mere, 1 mindre",
+    "instruction": "Skriv tallet, der er 1 mindre, og tallet, der er 1 mere."
+  },
+  "G1-132": {
+    "title": "10 mere, 10 mindre",
+    "instruction": "Skriv tallet, der er 10 mindre, og tallet, der er 10 mere."
+  },
+  "G1-133": {
+    "title": "Stræk tallet ud",
+    "instruction": "Se på klodserne. Indkreds den matchende udvidede form."
+  },
+  "G1-135": {
+    "title": "Mindst først",
+    "instruction": "Nummerér dem 1, 2, 3 fra mindst til størst."
+  },
+  "G1-136": {
+    "title": "Størst først",
+    "instruction": "Nummerér dem 1, 2, 3 fra størst til mindst."
+  },
+  "G1-137": {
+    "title": "Større eller mindre?",
+    "instruction": "Sammenlign tallene. Indkreds det rigtige tegn."
+  },
+  "G1-138": {
+    "title": "Hvor bor tallet?",
+    "instruction": "Find tallet på linjen. Indkreds dets prik."
+  },
+  "G1-139": {
+    "title": "Felt for felt",
+    "instruction": "Hver ting står på felter. Tæl dem, og skriv længden."
+  },
+  "G1-140": {
+    "title": "Kort til lang",
+    "instruction": "Mål hver ting med dens felter. Nummerér dem 1 (kortest) til 3 (længst)."
+  },
+  "G1-141": {
+    "title": "Læs billeddiagrammet",
+    "instruction": "Tæl billederne i hver række. Skriv tallene."
+  },
+  "G1-142": {
+    "title": "Flest af alle",
+    "instruction": "Se på diagrammet. Indkreds den med FLEST."
+  },
+  "G1-143": {
+    "title": "Læs søjlediagrammet",
+    "instruction": "Læs hver søjle. Skriv dens tal."
+  },
+  "G1-144": {
+    "title": "Den højeste søjle",
+    "instruction": "Se på søjlerne. Indkreds den med flest."
+  },
+  "G1-146": {
+    "title": "Sortér og tæl",
+    "instruction": "Tæl hver slags i stribben. Skriv det samlede antal i tabellen."
+  },
+  "G1-147": {
+    "title": "Tæl og tegn diagram",
+    "instruction": "Læs antallene. Farv en rude i diagrammet for hver."
+  },
+  "G1-148": {
+    "title": "Hele timer",
+    "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
+  },
+  "G1-149": {
+    "title": "Halv hvad?",
+    "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
+  },
+  "G1-150": {
+    "title": "Urmakkere",
+    "instruction": "Tegn en streg fra hvert ur til dets digitale klokkeslæt."
+  },
+  "G1-155": {
+    "title": "To mangler!",
+    "instruction": "To billeder mangler. Tegn en streg fra hvert billede til dets tomme rude."
+  },
+  "G1-157": {
+    "title": "Billedgåder",
+    "instruction": "Se på det første par. Indkreds, hvad der fuldender det andet par på samme måde."
+  },
+  "G1-158": {
+    "title": "Billedsudoku",
+    "instruction": "Hver række, søjle og kasse skal have alle fire billeder. Tegn eller skriv i hver tom rude."
+  },
+  "G1-160": {
+    "title": "Tre grupper",
+    "instruction": "Tegn en streg fra hvert billede til kassen, det hører til i."
+  },
+  "G2-203": {
+    "title": "Læg klodserne sammen",
+    "instruction": "Læg de to klodsgrupper sammen. Skriv det samlede antal."
+  },
+  "G2-205": {
+    "title": "Tag klodser væk",
+    "instruction": "Træk den anden gruppe fra den første. Skriv svaret."
+  },
+  "G2-206": {
+    "title": "Lav en tier!",
+    "instruction": "Indkreds 10 enere for at bundte en tier. Skriv hvor mange tiere og enere."
+  },
+  "G2-207": {
+    "title": "Tæl med treere",
+    "instruction": "Tæl med 3. Skriv hvert tal, der mangler."
+  },
+  "G2-208": {
+    "title": "Tæl med firere",
+    "instruction": "Tæl med 4. Skriv hvert tal, der mangler."
+  },
+  "G2-209": {
+    "title": "Læg sammen igen",
+    "instruction": "Hver ring har det samme antal. Færdiggør additionen."
+  },
+  "G2-210": {
+    "title": "Fra plus til gange",
+    "instruction": "Tæl de lige store grupper. Færdiggør multiplikationen."
+  },
+  "G2-211": {
+    "title": "Rækker og søjler",
+    "instruction": "Tæl rækkerne og søjlerne. Færdiggør multiplikationsstykket."
+  },
+  "G2-212": {
+    "title": "Vælg tabellen",
+    "instruction": "Indkreds tabellen, der passer til multiplikationen."
+  },
+  "G2-213": {
+    "title": "Nemme grupper",
+    "instruction": "Tæl de lige store grupper. Færdiggør multiplikationen."
+  },
+  "G2-216": {
+    "title": "Del retfærdigt",
+    "instruction": "Del bunken ligeligt i kasserne. Skriv hvor mange hver får."
+  },
+  "G2-217": {
+    "title": "Hvor mange grupper?",
+    "instruction": "Ringene laver lige store grupper. Skriv hvor mange grupper der er."
+  },
+  "G2-218": {
+    "title": "Ulige tal-jagt",
+    "instruction": "Indkreds hvert ULIGE tal. Se på sidste ciffer for at afgøre det."
+  },
+  "G2-219": {
+    "title": "Store tal-dyst",
+    "instruction": "Sammenlign tallene. Indkreds det rigtige tegn."
+  },
+  "G2-220": {
+    "title": "Stil dem på række",
+    "instruction": "Nummerér dem 1 til 4 fra mindst til størst."
+  },
+  "G2-221": {
+    "title": "Rund af!",
+    "instruction": "Se på prikken. Indkreds den tier, den er tættest på."
+  },
+  "G2-222": {
+    "title": "Læs klodserne",
+    "instruction": "Tæl hundrederne, tierne og enerne. Skriv tallet, de viser."
+  },
+  "G2-223": {
+    "title": "Hundreder, tiere, enere",
+    "instruction": "Se på klodserne. Indkreds den matchende udvidede form."
+  },
+  "G2-224": {
+    "title": "Sortér pladserne",
+    "instruction": "Tæl klodserne. Udfyld positionsskemaet."
+  },
+  "G2-225": {
+    "title": "Cifferdetektiv",
+    "instruction": "Se på det understregede ciffer. Indkreds dets værdi."
+  },
+  "G2-226": {
+    "title": "100 mere, 100 mindre",
+    "instruction": "Skriv tallet, der er 100 mindre, og tallet, der er 100 mere."
+  },
+  "G2-227": {
+    "title": "Find klodserne",
+    "instruction": "Indkreds klodserne, der viser tallet."
+  },
+  "G2-228": {
+    "title": "Halvt og halvt",
+    "instruction": "Farv den ene halvdel af hver figur."
+  },
+  "G2-229": {
+    "title": "Tredjedele og fjerdedele",
+    "instruction": "Farv brøkdelen af hver figur."
+  },
+  "G2-230": {
+    "title": "Find brøken",
+    "instruction": "Indkreds figuren, der viser brøken."
+  },
+  "G2-231": {
+    "title": "Brøkvenner",
+    "instruction": "Tegn en streg fra hvert billede til dets brøk."
+  },
+  "G2-232": {
+    "title": "Lige store dele?",
+    "instruction": "Indkreds hver figur, der er delt i LIGE store dele."
+  },
+  "G2-233": {
+    "title": "Del mængden",
+    "instruction": "Indkreds brøkdelen af billederne. Skriv hvor mange det er."
+  },
+  "G2-234": {
+    "title": "Skær rigtigt",
+    "instruction": "Indkreds figuren, der viser brøken."
+  },
+  "G2-235": {
+    "title": "Mål det!",
+    "instruction": "Hver ting starter ved 0. Læs linealen, og skriv hvor mange enheder lang den er."
+  },
+  "G2-236": {
+    "title": "Hvor meget længere?",
+    "instruction": "Mål begge ting. Skriv hvor mange enheder længere den ene er."
+  },
+  "G2-237": {
+    "title": "Diagramdetektiv",
+    "instruction": "Brug diagrammet til at løse begge billedspørgsmål."
+  },
+  "G2-238": {
+    "title": "Hvert billede tæller dobbelt",
+    "instruction": "Hvert billede står for 2! Skriv det rigtige antal for hver række."
+  },
+  "G2-239": {
+    "title": "Fra tællestreger til diagram",
+    "instruction": "Læs tællestregskemaet. Farv en søjle for hvert antal."
+  },
+  "G2-240": {
+    "title": "Læs prikdiagrammet",
+    "instruction": "Tæl X-mærkerne over hvert tal. Skriv hvor mange."
+  },
+  "G2-241": {
+    "title": "Figursortering",
+    "instruction": "Tegn en streg fra hver figur til dens antal sider."
+  },
+  "G2-242": {
+    "title": "Tæl fladerne",
+    "instruction": "Skriv hvor mange flade sider hver rumfigur har."
+  },
+  "G2-243": {
+    "title": "Rumfigurer omkring os",
+    "instruction": "Tegn en streg fra hver rumfigur til tingen med dens form."
+  },
+  "G2-244": {
+    "title": "Flad eller rumlig?",
+    "instruction": "Tegn en streg fra hver figur til dens kasse: flade til venstre, rumfigurer til højre."
+  },
+  "G2-245": {
+    "title": "Tæl kanterne",
+    "instruction": "Skriv hvor mange kanter hver rumfigur har."
+  },
+  "G2-246": {
+    "title": "Tæl hjørnerne",
+    "instruction": "Skriv hvor mange hjørner hver rumfigur har."
+  },
+  "G2-247": {
+    "title": "Spejllinje?",
+    "instruction": "Er den stiplede linje en spejllinje? Indkreds fluebenet eller krydset."
+  },
+  "G2-248": {
+    "title": "Find spejlbilledet",
+    "instruction": "Indkreds billedet, der er ens på begge sider."
+  },
+  "G2-249": {
+    "title": "Hvad er klokken?",
+    "instruction": "Læs hvert ur. Indkreds det rigtige klokkeslæt."
+  },
+  "G3-301": {
+    "title": "Store tabeller",
+    "instruction": "Tæl rækkerne af billeder. Skriv hvor mange i alt."
+  },
+  "G3-302": {
+    "title": "Drilske grupper",
+    "instruction": "Tæl de lige store grupper. Færdiggør multiplikationen."
+  },
+  "G3-308": {
+    "title": "Gangehop",
+    "instruction": "Følg de lige store hop fra nul. Skriv hvert landingstal."
+  },
+  "G3-309": {
+    "title": "Del det op",
+    "instruction": "Del bunken ligeligt i kasserne. Skriv hvor mange hver får."
+  },
+  "G3-310": {
+    "title": "Hop ned til nul",
+    "instruction": "Tæl de lige store hop tilbage til nul. Skriv hvor mange hop det tager."
+  },
+  "G3-311": {
+    "title": "Gangefamilier",
+    "instruction": "Brug tabellen til at færdiggøre alle fire regnestykker."
+  },
+  "G3-312": {
+    "title": "Den manglende faktor",
+    "instruction": "Se på tabellen. Skriv den manglende faktor."
+  },
+  "G3-313": {
+    "title": "Tæl kvadraterne",
+    "instruction": "Tæl kvadraterne i rektanglet. Færdiggør multiplikationen."
+  },
+  "G3-314": {
+    "title": "Vend det om",
+    "instruction": "Begge tabeller viser det samme antal. Færdiggør begge regnestykker."
+  },
+  "G3-315": {
+    "title": "Navngiv brøken",
+    "instruction": "Skriv brøken, de skraverede dele viser."
+  },
+  "G3-316": {
+    "title": "Skravér brøken",
+    "instruction": "Farv det rigtige antal dele for at vise hver brøk."
+  },
+  "G3-317": {
+    "title": "Brøker på linjen",
+    "instruction": "Prikken markerer en brøk. Indkreds hvilken."
+  },
+  "G3-318": {
+    "title": "Brøktvillinger",
+    "instruction": "Tegn en streg fra hvert billede til dets matchende brøk."
+  },
+  "G3-319": {
+    "title": "Hvilken er størst?",
+    "instruction": "Se på begge bjælker. Indkreds den største brøk."
+  },
+  "G3-320": {
+    "title": "Brøkdel af gruppen",
+    "instruction": "Indkreds brøkdelen af billederne. Skriv hvor mange det er."
+  },
+  "G3-321": {
+    "title": "Find det hele",
+    "instruction": "Den lille bjælke er én del. Indkreds bjælken, der viser DET HELE."
+  },
+  "G3-322": {
+    "title": "Lige partnere",
+    "instruction": "Tegn en streg fra hvert billede til dets brøk."
+  },
+  "G3-323": {
+    "title": "Rund til hundrede",
+    "instruction": "Se på prikken. Indkreds det hundrede, den er tættest på."
+  },
+  "G3-325": {
+    "title": "Tusind-dyst",
+    "instruction": "Sammenlign tallene. Indkreds det rigtige tegn."
+  },
+  "G3-326": {
+    "title": "Knæk mønstret",
+    "instruction": "Find hver rækkes regel. Skriv de manglende tal."
+  },
+  "G3-327": {
+    "title": "Det går nedad!",
+    "instruction": "Tallene falder med det samme antal. Skriv de manglende."
+  },
+  "G3-328": {
+    "title": "Talmaskiner",
+    "instruction": "Hver maskine bruger sin regel på hvert tal. Udfyld de manglende."
+  },
+  "G3-329": {
+    "title": "Stor springtælling",
+    "instruction": "Find tællereglen. Skriv hvert tal, der mangler."
+  },
+  "G3-332": {
+    "title": "Store skalasøjler",
+    "instruction": "Pas på — skalaen tæller med 5! Skriv værdien af hver søjle."
+  },
+  "G3-333": {
+    "title": "Hvert billede betyder 5",
+    "instruction": "Hvert billede står for 5! Skriv det rigtige antal for hver række."
+  },
+  "G3-334": {
+    "title": "Byg diagrammet",
+    "instruction": "Brug tabellen. Farv en søjle for hver værdi."
+  },
+  "G3-335": {
+    "title": "Halvvejsmærker",
+    "instruction": "Tæl X-mærkerne over hvert tal. Skriv hvor mange."
+  },
+  "G3-337": {
+    "title": "Gå langs kanten",
+    "instruction": "Tæl enhedskanterne rundt om hvert rektangel. Skriv omkredsen."
+  },
+  "G3-338": {
+    "title": "Samme plads, ny form",
+    "instruction": "Indkreds rektanglet, der dækker det SAMME antal kvadrater."
+  },
+  "G3-339": {
+    "title": "Samme hegn, ny have",
+    "instruction": "Indkreds rektanglet med den SAMME afstand rundt om."
+  },
+  "G3-340": {
+    "title": "Firkantholdet",
+    "instruction": "Tegn en streg fra hver firsidet figur til dens familie."
+  },
+  "G3-341": {
+    "title": "Ret vinkel-jagt",
+    "instruction": "Indkreds hver RET vinkel (dem med det lille kvadrat)."
+  },
+  "G3-342": {
+    "title": "Hvor mange spejllinjer?",
+    "instruction": "Skriv hvor mange spejllinjer hver figur har."
+  },
+  "G3-343": {
+    "title": "Lige store stykker",
+    "instruction": "Indkreds hver figur, der er delt i LIGE store dele."
+  },
+  "G3-344": {
+    "title": "Hvor lang tid gik?",
+    "instruction": "Sammenlign de to ure. Skriv hvor mange timer der gik."
+  },
+  "G3-345": {
+    "title": "Varm eller kold?",
+    "instruction": "Læs hvert termometer. Skriv temperaturen, den viser."
+  },
+  "G3-346": {
+    "title": "Klodstårne",
+    "instruction": "Tæl alle klodserne i hvert tårn. Skriv det samlede antal."
+  },
+  "G3-348": {
+    "title": "Stor billedsudoku",
+    "instruction": "Hver række, søjle og kasse skal have alle seks billeder — udfyld de tomme celler."
+  },
+  "G3-349": {
+    "title": "Magiske kvadrater",
+    "instruction": "Hver række og søjle giver det magiske tal. Udfyld de tomme celler."
+  },
+  "G3-350": {
+    "title": "Få det til at balancere",
+    "instruction": "Begge sider skal veje det samme. Skriv tallet, der mangler."
+  },
+  "G3-351": {
+    "title": "Hvad fuldender gåden?",
+    "instruction": "Rækker deler et billede, søjler en størrelse. Indkreds, hvad der passer i den tomme celle."
+  },
+  "G3-353": {
+    "title": "Sortér i to cirkler",
+    "instruction": "Venstre: denne slags. Højre: STORE. Midten: begge! Forbind hvert billede med dets plads."
+  }
+}

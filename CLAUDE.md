@@ -354,6 +354,8 @@ All 29 ship: interactive HTML (§14), shared LCSAttribution (§14.3), catalog-ex
 
 **Canonical-name-vs-emission contract.** Each app's `generator.app` field in `manifest.json` MUST match the §14.10 canonical name verbatim (e.g., `sudoku`, NOT `picture-sudoku`). Verified across all 29 at Brief B Phase 2 `59a0cde9`.
 
+**Printable worksheet-gen family keys (2026-06, NOT apps).** The headless generator at `scripts/worksheet-gen/` publishes printable-only decks under 22 collapsed exercise-type family keys (counting-pictures, counting-frames, tally-counting, number-charts, comparing-numbers, comparing-groups, comparing-sizes, number-lines, base-ten, telling-time, fractions, graphing-data, arrays-multiplication, geometry, measurement, visual-logic, visual-discrimination, visual-matching, patterns, position-words, sorting-categories, picture-arithmetic). These are taxonomy-registered `axes.exercise-type` keys + `apps.*` default entries (`generator.app` = family key; worksheet type id rides as `variant_id`; `manifest.printable_only: true`, schema 1.1, no answer key) — they are NOT interactive apps and never join the §14.10 list. en-only taxonomy entries until the non-EN follow-up commission (picture-trail precedent).
+
 ### 14.11 Runtime UI i18n: bake-at-source + force-set-in-init
 
 Standalone deck.html displays runtime UI strings (title strip, Check/Try Again buttons, mute/share/embed, result modal). The **bake-at-source-time + force-set-in-init** pattern is canonical (locked 2026-05-10 across 29 apps × 11 locales).

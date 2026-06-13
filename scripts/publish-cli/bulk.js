@@ -155,10 +155,24 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
   }
 
   var predictedSlug = slugCandidate;
+  var thisDeckId = null;
   if (existingSlug) {
-    // UPDATE path: slug stays as the existing one.
+    // UPDATE path: slug stays as the existing one. Resolve the existing row id
+    // so SEO reconciliation excludes THIS deck from the (language,titleHash)/
+    // (language,descriptionHash) uniqueness checks — otherwise an update whose
+    // title/description are unchanged (e.g. only the worksheet image changed)
+    // false-fires TITLE_NON_UNIQUE / DESC_NON_UNIQUE against itself.
     predictedSlug = existingSlug;
     result.routedAs = 'UPDATE';
+    if (ctx.findExistingBySlug) {
+      try {
+        var updRow = await ctx.findExistingBySlug(manifest.language, existingSlug);
+        if (updRow) thisDeckId = updRow.id;
+      } catch (e) {
+        result.errors.push('UPDATE row lookup: ' + e.message);
+        return result;
+      }
+    }
   } else {
     // INSERT path: check collision against DB.
     if (ctx.findExistingBySlug) {
@@ -217,7 +231,7 @@ async function dryRunOneZip(zipPath, stagingRoot, ctx) {
       manifest: manifest,
       substitutedHtml: subResult.html,
       slug: predictedSlug,
-      thisDeckId: existingSlug ? null : null, // INSERT path; UPDATE-via-slug path uses ctx
+      thisDeckId: thisDeckId, // UPDATE: existing row id (exclude self); INSERT: null
       findExistingByTitleHash: ctx.findExistingByTitleHash,
       findExistingByDescriptionHash: ctx.findExistingByDescriptionHash,
       countInboundFn: ctx.countInboundFn,

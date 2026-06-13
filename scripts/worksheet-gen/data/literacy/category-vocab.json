@@ -1,0 +1,70 @@
+{
+  "_note": "LITERACY category-vocabulary sort (science-category-sort): pictures into category bins. en here.",
+  "bins": [
+    {
+      "key": "Animals",
+      "label": {
+        "en": "Animals"
+      }
+    },
+    {
+      "key": "Fruits",
+      "label": {
+        "en": "Fruits"
+      }
+    },
+    {
+      "key": "Vehicles",
+      "label": {
+        "en": "Vehicles"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "Animals"
+    },
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "Animals"
+    },
+    {
+      "theme": "animals",
+      "noun": "fox",
+      "bin": "Animals"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "Fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "pear",
+      "bin": "Fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "lemon",
+      "bin": "Fruits"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bus",
+      "bin": "Vehicles"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "truck",
+      "bin": "Vehicles"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "boat",
+      "bin": "Vehicles"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "_note": "LITERACY middle/medial-vowel sound (lit-sound-match): answer = medial vowel. en here.",
+  "items": {
+    "en": [
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "answer": "a"
+      },
+      {
+        "theme": "At the Supermarket",
+        "noun": "bag",
+        "answer": "a"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "answer": "e"
+      },
+      {
+        "theme": "farm animals",
+        "noun": "hen",
+        "answer": "e"
+      },
+      {
+        "theme": "animals",
+        "noun": "pig",
+        "answer": "i"
+      },
+      {
+        "theme": "fruits",
+        "noun": "fig",
+        "answer": "i"
+      },
+      {
+        "theme": "animals",
+        "noun": "dog",
+        "answer": "o"
+      },
+      {
+        "theme": "animals",
+        "noun": "fox",
+        "answer": "o"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "answer": "u"
+      },
+      {
+        "theme": "kitchen tools",
+        "noun": "mug",
+        "answer": "u"
+      }
+    ]
+  }
+}

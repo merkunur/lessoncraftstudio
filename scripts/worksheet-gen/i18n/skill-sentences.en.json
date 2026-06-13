@@ -114,5 +114,9 @@
   "picture-vocabulary": {
     "full": "Matching printed words to their pictures builds the word-recognition and vocabulary that turns letters into meaning.",
     "short": "Builds word recognition and vocabulary skills."
+  },
+  "phonological-awareness": {
+    "full": "Hearing the sounds and syllables inside words builds the phonological awareness that fluent reading depends on.",
+    "short": "Builds phonological awareness skills."
   }
 }

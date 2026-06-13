@@ -105,6 +105,30 @@ const EXEMPLARS = {
       },
     }),
   }),
+  'find-letter': () => ({
+    spec: makeLitLetterKnowledge({
+      id: 'LIT-EX-006', slug: 'find-the-letter', gradeBand: 'K',
+      exerciseType: 'letter-knowledge', mode: 'find-letter-grid',
+      data: loadData('literacy/letter-knowledge.json'),
+      i18n: { en: { title: 'Find the Letter', instruction: 'Circle every letter that matches the one in the box.' } },
+    }),
+  }),
+  'vowel-consonant': () => ({
+    spec: makeLitLetterKnowledge({
+      id: 'LIT-EX-007', slug: 'vowels-and-consonants', gradeBand: 'K',
+      exerciseType: 'letter-knowledge', mode: 'vowel-consonant',
+      data: loadData('literacy/letter-knowledge.json'),
+      i18n: { en: { title: 'Vowels and Consonants', instruction: 'Sort each letter into the vowels or the consonants.' } },
+    }),
+  }),
+  'build-word': () => ({
+    spec: makeLitWordBuild({
+      id: 'LIT-EX-008', slug: 'build-the-word', gradeBand: 'K',
+      exerciseType: 'word-building', mode: 'build-the-word',
+      data: loadData('literacy/build-word.json'),
+      i18n: { en: { title: 'Build the Word', instruction: 'Use the letters to build the word for each picture.' } },
+    }),
+  }),
 };
 
 async function main() {

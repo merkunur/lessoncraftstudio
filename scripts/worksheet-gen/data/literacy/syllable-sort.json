@@ -1,0 +1,70 @@
+{
+  "_note": "LITERACY syllable sort (science-category-sort): pictures into syllable-count bins. en here.",
+  "bins": [
+    {
+      "key": "1",
+      "label": {
+        "en": "1"
+      }
+    },
+    {
+      "key": "2",
+      "label": {
+        "en": "2"
+      }
+    },
+    {
+      "key": "3",
+      "label": {
+        "en": "3"
+      }
+    }
+  ],
+  "items": [
+    {
+      "theme": "animals",
+      "noun": "cat",
+      "bin": "1"
+    },
+    {
+      "theme": "animals",
+      "noun": "dog",
+      "bin": "1"
+    },
+    {
+      "theme": "beach",
+      "noun": "sun",
+      "bin": "1"
+    },
+    {
+      "theme": "miscellaneous",
+      "noun": "acorn",
+      "bin": "2"
+    },
+    {
+      "theme": "accessories",
+      "noun": "apron",
+      "bin": "2"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "airplane",
+      "bin": "2"
+    },
+    {
+      "theme": "fruits",
+      "noun": "banana",
+      "bin": "3"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "ambulance",
+      "bin": "3"
+    },
+    {
+      "theme": "occupations",
+      "noun": "astronaut",
+      "bin": "3"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "_note": "LITERACY ending-sound (lit-sound-match): answer = final grapheme/sound. NATIVE per locale; en here.",
+  "items": {
+    "en": [
+      {
+        "theme": "animals",
+        "noun": "cat",
+        "answer": "t"
+      },
+      {
+        "theme": "beach",
+        "noun": "sun",
+        "answer": "n"
+      },
+      {
+        "theme": "around the house",
+        "noun": "bed",
+        "answer": "d"
+      },
+      {
+        "theme": "animals",
+        "noun": "pig",
+        "answer": "g"
+      },
+      {
+        "theme": "classroom",
+        "noun": "book",
+        "answer": "k"
+      },
+      {
+        "theme": "around the house",
+        "noun": "cup",
+        "answer": "p"
+      },
+      {
+        "theme": "music",
+        "noun": "drum",
+        "answer": "m"
+      },
+      {
+        "theme": "miscellaneous",
+        "noun": "leaf",
+        "answer": "f"
+      },
+      {
+        "theme": "animals",
+        "noun": "fox",
+        "answer": "x"
+      },
+      {
+        "theme": "vehicles",
+        "noun": "bus",
+        "answer": "s"
+      }
+    ]
+  }
+}

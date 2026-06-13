@@ -631,6 +631,10 @@
     "title": "Hoe laat is het?",
     "instruction": "Lees elke klok. Omcirkel de juiste tijd."
   },
+  "G2-250": {
+    "title": "Kwartieren lezen",
+    "instruction": "Lees elke klok. Omcirkel de juiste tijd."
+  },
   "G3-301": {
     "title": "Grote roosters",
     "instruction": "Tel de rijen plaatjes. Schrijf op hoeveel het er in totaal zijn."
@@ -778,6 +782,18 @@
   "G3-346": {
     "title": "Blokkentorens",
     "instruction": "Tel alle blokken in elke toren. Schrijf het totaal op."
+  },
+  "G3-354": {
+    "title": "Tot op de minuut",
+    "instruction": "Lees elke klok. Omcirkel de juiste tijd."
+  },
+  "G3-355": {
+    "title": "12-uurs en 24-uurs tijd",
+    "instruction": "Zet elke tijd om naar de andere schrijfwijze. Omcirkel de juiste tijd."
+  },
+  "G3-356": {
+    "title": "Tijd optellen en aftrekken",
+    "instruction": "Begin bij de tijd op de klok. Tel erbij of haal eraf en schrijf de nieuwe tijd op."
   },
   "G3-348": {
     "title": "Grote plaatjessudoku",

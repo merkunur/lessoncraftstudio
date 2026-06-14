@@ -36,6 +36,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   sv: { jsonld: 'Läroplan för grundskolan (Lgr22)', chip: 'Lgr22' },
   nl: { jsonld: 'Kerndoelen primair onderwijs', chip: 'SLO-kerndoelen' },
   da: { jsonld: 'Fælles Mål', chip: 'Fælles Mål' },
+  it: { jsonld: 'Indicazioni nazionali per il curricolo', chip: 'Indicazioni Nazionali' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -108,6 +109,16 @@ const UI_STRINGS: Record<string, {
     // [NSR-FLAG] da embed labels — native review pending (§17.5.1)
     embedButton: 'Indlejr dette opgaveark', embedCopy: 'Kopiér kode', embedCopied: 'Kopieret!',
     embedPrefix: 'Arbejdsark fra', embedKeyword: 'gratis printbare arbejdsark',
+  },
+  it: {
+    worksheets: 'Schede didattiche', playInteractive: 'Gioca', downloadPdf: 'Scarica PDF', answerKey: 'Soluzioni',
+    moreToTry: 'Altre schede da provare', tryInteractive: 'Provala — interattiva', makerSoon: 'Pagina del generatore in arrivo.',
+    comingSoon: '', // it: no dashed framework chip on strand-only readiness landings (it ledger)
+    sameThemeHeading: 'Altro con questo tema', sameLevelHeading: 'Altro per questo livello',
+    madeWith: (t) => `Creato con il generatore di ${t}`, typeCrumb: (e) => e.replace(/^Scheda:\s*/, ''),
+    playAria: (h1) => `Gioca ${h1}`, previewAlt: (h1) => `Anteprima di ${h1}`,
+    embedButton: 'Incorpora questa scheda', embedCopy: 'Copia codice', embedCopied: 'Copiato!',
+    embedPrefix: 'Scheda di', embedKeyword: 'schede stampabili gratuite',
   },
 };
 
@@ -238,6 +249,10 @@ export default function WorksheetLandingPage(
     'boernehaveklasse': { chip: 'Børnehaveklassen (0. klasse)', schema: 'Børnehaveklassen', age: '3-6' },
     'da:1-klasse': { chip: '1. klasse', schema: '1. klasse', age: '7-8' },
     'da:2-klasse': { chip: '2. klasse', schema: '2. klasse', age: '8-9' },
+    // it — 3-band spine (terza = OUT, >ceiling); infanzia folds EN preschool+K (no separate K year).
+    'infanzia': { chip: "Scuola dell'infanzia", schema: "Scuola dell'infanzia", age: '3-6' },
+    'classe-prima': { chip: 'Classe prima – scuola primaria', schema: 'Scuola primaria - classe prima', age: '6-7' },
+    'classe-seconda': { chip: 'Classe seconda – scuola primaria', schema: 'Scuola primaria - classe seconda', age: '7-8' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);

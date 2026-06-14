@@ -148,7 +148,10 @@ echo ""
 # matrix below targets `tools/<seller-slug>` sub-paths, NOT bare /tools. Bare /tools is
 # verified positively in Test 8c.
 echo "Testing seller-era teardown matrix (local Next.js layer)..."
-SELLER_PATHS_LOCAL="apps apps/math-puzzle-worksheets tools/profit-hub tools/kdp-royalty-calculator tools/kdp-size-calculator tools/niche-finder tools/activity-book-planner bundles guides ideas start blog"
+# Note: the worksheet-maker /apps/<x>-worksheets slugs now 301 into their rebuilt
+# /tools/<x>-maker landings (SEO RESCUE Part 1 — see Test 8d), so they are NO LONGER
+# 410. The /apps/ sub-path sentinel here uses a non-maker seller slug that still 410s.
+SELLER_PATHS_LOCAL="apps apps/seller-bundle-pack tools/profit-hub tools/kdp-royalty-calculator tools/kdp-size-calculator tools/niche-finder tools/activity-book-planner bundles guides ideas start blog"
 MATRIX_FAILURES=0
 MATRIX_CHECKS=0
 for LANG in $ALL_LOCALES; do
@@ -244,6 +247,32 @@ if [ $MINI_FAILURES -eq 0 ]; then
     echo "  PASS: 3 mini-tools (ten-frame, number-line, ruler) all return 200 via edge"
 else
     FAILURES=$((FAILURES + MINI_FAILURES))
+fi
+
+echo ""
+
+# Test 8d: Worksheet-maker /apps -> /tools 301 redirects (SEO RESCUE Part 1).
+# The pre-pivot /apps/<x>-worksheets URLs now 301 into their rebuilt /tools/<x>-maker
+# landings (frontend/config/maker-redirects.ts). check_local_status does NOT follow
+# redirects, so a 301 reads as "301". Guards against the redirect map regressing to 410.
+# Includes the de buchstabensalat case (word-scramble /apps/ slug — the corrected mapping).
+echo "Testing worksheet-maker /apps -> /tools 301 redirects..."
+MAKER_REDIRECT_PATHS="/en/apps/cryptogram-worksheets /en/apps/math-puzzle-worksheets /de/apps/buchstabensalat-arbeitsblaetter /es/apps/sopa-letras-fichas /fr/apps/mots-caches-fiches"
+MK_FAILURES=0
+MK_CHECKS=0
+for P in $MAKER_REDIRECT_PATHS; do
+    MK_CHECKS=$((MK_CHECKS + 1))
+    STATUS=$(check_local_status "$P")
+    if [ "$STATUS" != "301" ]; then
+        echo "  FAIL: $P returned $STATUS (expected 301 -> /tools maker landing)"
+        MK_FAILURES=$((MK_FAILURES + 1))
+    fi
+done
+if [ $MK_FAILURES -eq 0 ]; then
+    echo "  PASS: $MK_CHECKS maker /apps->/tools 301 redirects verified"
+else
+    echo "  FAIL: $MK_FAILURES of $MK_CHECKS maker redirect checks failed"
+    FAILURES=$((FAILURES + MK_FAILURES))
 fi
 
 echo ""

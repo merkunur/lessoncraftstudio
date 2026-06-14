@@ -53,6 +53,21 @@
   "items": [
     {
       "theme": "animals",
+      "noun": "antelope",
+      "bin": "Animals"
+    },
+    {
+      "theme": "animals",
+      "noun": "bat",
+      "bin": "Animals"
+    },
+    {
+      "theme": "animals",
+      "noun": "camel",
+      "bin": "Animals"
+    },
+    {
+      "theme": "animals",
       "noun": "cat",
       "bin": "Animals"
     },
@@ -63,8 +78,23 @@
     },
     {
       "theme": "animals",
-      "noun": "fox",
+      "noun": "dolphin",
       "bin": "Animals"
+    },
+    {
+      "theme": "fruits",
+      "noun": "apple",
+      "bin": "Fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "apricot",
+      "bin": "Fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "avocado",
+      "bin": "Fruits"
     },
     {
       "theme": "fruits",
@@ -73,27 +103,42 @@
     },
     {
       "theme": "fruits",
-      "noun": "pear",
+      "noun": "blackberry",
       "bin": "Fruits"
     },
     {
       "theme": "fruits",
-      "noun": "lemon",
+      "noun": "blueberry",
       "bin": "Fruits"
     },
     {
       "theme": "vehicles",
-      "noun": "bus",
+      "noun": "airplane",
       "bin": "Vehicles"
     },
     {
       "theme": "vehicles",
-      "noun": "truck",
+      "noun": "ambulance",
+      "bin": "Vehicles"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bicycle",
       "bin": "Vehicles"
     },
     {
       "theme": "vehicles",
       "noun": "boat",
+      "bin": "Vehicles"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bulldozer",
+      "bin": "Vehicles"
+    },
+    {
+      "theme": "vehicles",
+      "noun": "bus",
       "bin": "Vehicles"
     }
   ]

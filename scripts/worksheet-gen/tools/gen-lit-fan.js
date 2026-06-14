@@ -24,7 +24,9 @@ const path = require('path');
 const DIR = path.join(__dirname, '..', 'data', 'literacy');
 const POOLDIR = path.join(__dirname, '..', '..', 'v2-data', 'verify-syllable-boundaries', 'output');
 const CACHE = require(path.join(__dirname, '..', 'cache', 'manifest.json'));
-const LOCALES = ['de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+// 'en' included so EN also gets the larger pools needed for 5 distinct variants
+// (the live EN v1 is unaffected — only v2-5 are published from the new data).
+const LOCALES = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
 const VOWELS = require(path.join(DIR, 'letter-knowledge.json')).vowels;
 
 // Skip non-concrete-noun source themes (color swatches, emotion faces) so the
@@ -75,12 +77,12 @@ function fan(file, kind) {
       // beginning/ending dedupe by grapheme (varied sounds); middle takes the
       // 8 simplest words (medial vowel repeats are fine — only 5 vowels exist).
       let picks;
-      if (kind === 'middle') picks = cands.slice().sort(rank).slice(0, 8);
-      else picks = pickDistinct(cands, kind === 'beginning' ? (c) => firstLetter(c.word) : (c) => lastLetter(c.word), 10);
+      if (kind === 'middle') picks = cands.slice().sort(rank).slice(0, 32);
+      else picks = pickDistinct(cands, kind === 'beginning' ? (c) => firstLetter(c.word) : (c) => lastLetter(c.word), 26);
       data.items[loc] = picks.map((c) => ({ theme: c.theme, noun: c.noun, answer: kind === 'middle' ? firstVowel(loc, c.word) : (kind === 'ending' ? lastLetter(c.word) : firstLetter(c.word)) }));
       log.push(file + '/' + loc + ': ' + data.items[loc].length + ' items');
     } else if (kind === 'wordpicture') {
-      const picks = cands.slice().sort(rank).slice(0, 10);
+      const picks = cands.slice().sort(rank).slice(0, 32);
       data.pairs[loc] = picks.map((c) => ({ theme: c.theme, noun: c.noun, word: c.word }));
       log.push(file + '/' + loc + ': ' + data.pairs[loc].length + ' pairs');
     } else if (kind === 'syllable-count') {
@@ -88,7 +90,7 @@ function fan(file, kind) {
       const byCount = {}; for (const c of cands) (byCount[c.count] = byCount[c.count] || []).push(c);
       const top = Object.keys(byCount).map(Number).filter((n) => n >= 1 && n <= 4).sort((a, b) => byCount[b].length - byCount[a].length).slice(0, 3).sort((a, b) => a - b);
       const items = [];
-      for (const cnt of top) for (const c of byCount[cnt].slice().sort(rank).slice(0, 3)) items.push({ theme: c.theme, noun: c.noun, answer: String(cnt) });
+      for (const cnt of top) for (const c of byCount[cnt].slice().sort(rank).slice(0, 8)) items.push({ theme: c.theme, noun: c.noun, answer: String(cnt) });
       data.items[loc] = items;
       log.push(file + '/' + loc + ': ' + items.length + ' items (counts ' + top.join('/') + ')');
     } else if (kind === 'sort-first' || kind === 'sort-syllable') {
@@ -97,19 +99,19 @@ function fan(file, kind) {
         const byInit = {}; for (const c of cands) (byInit[firstLetter(c.word)] = byInit[firstLetter(c.word)] || []).push(c);
         const groups = Object.keys(byInit).filter((k) => byInit[k].length >= 3).sort((a, b) => byInit[b].length - byInit[a].length).slice(0, 3).sort();
         data.binsByLocale[loc] = groups.map((g) => ({ key: g, label: { [loc]: g } }));
-        const items = []; for (const g of groups) for (const c of byInit[g].slice().sort(rank).slice(0, 3)) items.push({ theme: c.theme, noun: c.noun, bin: g });
+        const items = []; for (const g of groups) for (const c of byInit[g].slice().sort(rank).slice(0, 6)) items.push({ theme: c.theme, noun: c.noun, bin: g });
         data.itemsByLocale[loc] = items;
         log.push(file + '/' + loc + ': bins ' + groups.join(',') + ' (' + items.length + ' items)');
       } else {
         const byCount = {}; for (const c of cands) (byCount[c.count] = byCount[c.count] || []).push(c);
         const top = Object.keys(byCount).map(Number).filter((n) => n >= 1 && n <= 4 && byCount[n].length >= 3).sort((a, b) => byCount[b].length - byCount[a].length).slice(0, 3).sort((a, b) => a - b);
         data.binsByLocale[loc] = top.map((c) => ({ key: String(c), label: { [loc]: String(c) } }));
-        const items = []; for (const cnt of top) for (const c of byCount[cnt].slice().sort(rank).slice(0, 3)) items.push({ theme: c.theme, noun: c.noun, bin: String(cnt) });
+        const items = []; for (const cnt of top) for (const c of byCount[cnt].slice().sort(rank).slice(0, 6)) items.push({ theme: c.theme, noun: c.noun, bin: String(cnt) });
         data.itemsByLocale[loc] = items;
         log.push(file + '/' + loc + ': syl-bins ' + top.join(',') + ' (' + items.length + ' items)');
       }
     } else if (kind === 'cvc' || kind === 'build') {
-      const shorts = cands.filter((c) => c.word.length >= 3 && c.word.length <= 5 && /^[a-zäöüåæøñ]+$/.test(c.word)).slice().sort(rank).slice(0, 10);
+      const shorts = cands.filter((c) => c.word.length >= 3 && c.word.length <= 5 && /^[a-zäöüåæøñ]+$/.test(c.word)).slice().sort(rank).slice(0, 32);
       data.items[loc] = shorts.map((c) => {
         const o = { theme: c.theme, noun: c.noun, word: c.word };
         if (kind === 'cvc') { let bi = 1; for (let i = 0; i < c.word.length; i++) if (isV(loc, c.word[i])) { bi = i; break; } o.blank = bi; }
@@ -136,6 +138,25 @@ fan('sort-by-beginning-sound.json', 'sort-first');
 fan('syllable-sort.json', 'sort-syllable');
 fan('word-build.json', 'cvc');
 fan('build-word.json', 'build');
+
+// category-vocab (K-235): LOCALE-NEUTRAL picture items (no word rendered — only
+// localized bin labels), so fill once with 6 cached nouns per theme-bin for
+// variant variety. Bin labels (label.<locale>) are preserved.
+function fanCategory() {
+  const p = path.join(DIR, 'category-vocab.json');
+  const d = JSON.parse(fs.readFileSync(p, 'utf8'));
+  const themeFor = { Animals: 'animals', Fruits: 'fruits', Vehicles: 'vehicles' };
+  const items = [];
+  for (const bin of d.bins) {
+    const theme = themeFor[bin.key];
+    const nouns = Object.keys((CACHE.themes[theme] || {}).nouns || {}).filter((n) => /^[a-z]+$/.test(n) && !BLOCK_KEYS.has(n)).sort();
+    for (const n of nouns.slice(0, 6)) items.push({ theme, noun: n, bin: bin.key });
+  }
+  d.items = items;
+  fs.writeFileSync(p, JSON.stringify(d, null, 2) + '\n');
+  log.push('category-vocab: ' + items.length + ' neutral items (6/bin)');
+}
+fanCategory();
 
 console.log(log.join('\n'));
 console.log('\nDONE — fanned picture data for ' + LOCALES.length + ' non-EN locales.');

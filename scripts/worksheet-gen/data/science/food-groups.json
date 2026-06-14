@@ -126,6 +126,66 @@
       "theme": "At the Supermarket",
       "noun": "ham",
       "bin": "protein"
+    },
+    {
+      "theme": "fruits",
+      "noun": "orange",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "pear",
+      "bin": "fruits"
+    },
+    {
+      "theme": "fruits",
+      "noun": "peach",
+      "bin": "fruits"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "potato",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "tomato",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "vegetables",
+      "noun": "cucumber",
+      "bin": "vegetables"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "bagel",
+      "bin": "grains"
+    },
+    {
+      "theme": "bakery",
+      "noun": "muffin",
+      "bin": "grains"
+    },
+    {
+      "theme": "bakery",
+      "noun": "toast",
+      "bin": "grains"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "cheese",
+      "bin": "protein"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "bacon",
+      "bin": "protein"
+    },
+    {
+      "theme": "At the Supermarket",
+      "noun": "sausage",
+      "bin": "protein"
     }
   ]
 }

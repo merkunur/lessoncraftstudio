@@ -1,0 +1,249 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "abbinamento-griglia-animali"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "abbinamento-griglia-parti-del-corpo-662d"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "abbinamento-griglia-panetteria-21d9"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "abbinamento-griglia-frutta-13a0"
+  },
+  {
+   "mode": null,
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "abbinamento-griglia-4-luglio-7da4"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "abbinamento-griglia-animali-domestici-536e"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "abbinamento-griglia-cose-che-volano-05bb"
+  },
+  {
+   "mode": null,
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "abbinamento-griglia-dinosauri-16d9"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "abbinamento-griglia-dolci-e-dolciumi-cd17"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "abbinamento-griglia-emozioni-a357"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "abbinamento-griglia-estate-0f09"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "abbinamento-griglia-giocattoli-51a8"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "abbinamento-griglia-giorno-del-ringraziamento-dd6e"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "abbinamento-griglia-in-giro-per-casa-a105"
+  },
+  {
+   "mode": null,
+   "theme": "hospital",
+   "canonicalDeckSlug": "abbinamento-griglia-ospedale-dbc3"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "abbinamento-griglia-uccelli-2-abae"
+  },
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "abbinamento-griglia-accessori-3ec7"
+  },
+  {
+   "mode": null,
+   "theme": "tree",
+   "canonicalDeckSlug": "abbinamento-griglia-alberi-2b60"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "abbinamento-griglia-campeggio-38fc"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "abbinamento-griglia-mobili-7050"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "abbinamento-griglia-professioni-8307"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "abbinamento-griglia-spazio-40d4"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "abbinamento-griglia-utensili-da-cucina-58b7"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "abbinamento-griglia-vita-oceanica-253e"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "abbinamento-griglia-abbigliamento-fe44"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "abbinamento-griglia-attivita-03d3"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "abbinamento-griglia-meteo-0887"
+  },
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "abbinamento-griglia-al-supermercato-5c4c"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "abbinamento-griglia-animali-della-fattoria-3c0b"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "abbinamento-griglia-animali-dello-zoo-ed40"
+  },
+  {
+   "mode": null,
+   "theme": "tools",
+   "canonicalDeckSlug": "abbinamento-griglia-attrezzi-1397"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "abbinamento-griglia-aula-5f51"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "abbinamento-griglia-colazione-7e2c"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "abbinamento-griglia-creature-della-foresta-b9ac"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "abbinamento-griglia-fiori-8055"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "abbinamento-griglia-forme-697f"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "abbinamento-griglia-insetti-e-scarafaggi-1be6"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "abbinamento-griglia-inverno-96ab"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "abbinamento-griglia-pasqua-0732"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "abbinamento-griglia-primavera-a69a"
+  },
+  {
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "abbinamento-griglia-rettili-e-anfibi-80d8"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "abbinamento-griglia-spiaggia-f5c0"
+  },
+  {
+   "mode": null,
+   "theme": "post_office",
+   "canonicalDeckSlug": "abbinamento-griglia-ufficio-postale-8723"
+  },
+  {
+   "mode": null,
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "abbinamento-griglia-varie-005a"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "abbinamento-griglia-veicoli-76ac"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "abbinamento-griglia-verdure-884f"
+  },
+  {
+   "mode": null,
+   "theme": "birds",
+   "canonicalDeckSlug": "abbinamento-griglia-uccelli-8bbd"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "abbinamento-griglia-musica-ffc9"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "abbinamento-griglia-natale-cd55"
+  }
+ ]
+}

@@ -1,0 +1,474 @@
+{
+ "coordinates": [
+  {
+   "mode": "one-missing",
+   "theme": "clothing",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-abbigliamento-3423"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-parti-del-corpo-02ea"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-rettili-e-anfibi-eb23"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "clothing",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-abbigliamento-5dd6"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-animali-dello-zoo-31f2"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-colazione-166e"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "post_office",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-ufficio-postale-82b9"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-insetti-e-scarafaggi-fb41"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "occupations",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-professioni-2194"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "post_office",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-ufficio-postale-0b7d"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-al-supermercato-d75e"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-animali-della-fattoria-0d22"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "classroom",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-aula-6a96"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "camping",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-campeggio-73f9"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "emotions",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-emozioni-46a4"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-in-giro-per-casa-60e3"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-insetti-e-scarafaggi-11b8"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "hospital",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-ospedale-30a5"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "bakery",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-panetteria-6116"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "occupations",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-professioni-296b"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "space",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-spazio-3ea2"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-utensili-da-cucina-9457"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "animals",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-animali-5b59"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "pets",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-animali-domestici-5b1b"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "tools",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-attrezzi-fcf3"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "classroom",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-aula-c05b"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-colazione-0515"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "emotions",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-emozioni-09bc"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "summer",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-estate-055a"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "fruits",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-frutta-c864"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "toys",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-giocattoli-32a1"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "furniture",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-mobili-a8dc"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "christmas",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-natale-85ce"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "spring",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-primavera-9201"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "beach",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-spiaggia-8dea"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-uccelli-2-5283"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-varie-19e8"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "accessories",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-accessori-2d81"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-verdure-5ca3"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-4-luglio-0ca9"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "tools",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-attrezzi-1dde"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-dolci-e-dolciumi-1518"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-cose-che-volano-17a9"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "flowers",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-fiori-5c34"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "fruits",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-frutta-62c7"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "summer",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-estate-62de"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "christmas",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-natale-2f39"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "music",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-musica-b3d9"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "accessories",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-accessori-9129"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "activities",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-attivita-3ecd"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "camping",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-campeggio-1798"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-dinosauri-3a8a"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "hospital",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-ospedale-4187"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "bakery",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-panetteria-09ee"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "easter",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-pasqua-ce2c"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "space",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-spazio-9745"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "toys",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-giocattoli-eda8"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "spring",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-primavera-7a6c"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "beach",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-spiaggia-4970"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "birds",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-fe7e"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "tree",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-alberi-d440"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "furniture",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-mobili-439f"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-uccelli-2-a5ca"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-parti-del-corpo-c5d4"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-creature-della-foresta-ec87"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-veicoli-dabd"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "weather",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-meteo-de2b"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-veicoli-0183"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-4-luglio-2776"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-al-supermercato-db0c"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-animali-della-fattoria-4b89"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "flowers",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-fiori-9423"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-in-giro-per-casa-c88d"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "music",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-musica-135b"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "animals",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-animali-0e6e"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-creature-della-foresta-3281"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-giorno-del-ringraziamento-74a8"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "easter",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-pasqua-12ee"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "winter",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-inverno-d0da"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-dinosauri-4c39"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-verdure-d23c"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-vita-oceanica-48fa"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-cose-che-volano-ed23"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "tree",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-alberi-d3de"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-animali-dello-zoo-106f"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-giorno-del-ringraziamento-34d7"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "weather",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-meteo-bb0b"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "birds",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-uccelli-f56b"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-utensili-da-cucina-ceb5"
+  },
+  {
+   "mode": "one-missing",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "pezzi-mancanti-1-pezzo-mancante-vita-oceanica-14b2"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "pets",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-animali-domestici-5fa2"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "activities",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-attivita-ca3b"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "winter",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-inverno-5526"
+  },
+  {
+   "mode": "two-missing",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "pezzi-mancanti-2-pezzi-mancanti-rettili-e-anfibi-2003"
+  }
+ ]
+}

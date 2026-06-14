@@ -1,0 +1,474 @@
+{
+ "coordinates": [
+  {
+   "mode": "findBig",
+   "theme": "",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-4-luglio-aab6"
+  },
+  {
+   "mode": "findBig",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-4-luglio-c1c5"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "accessories",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-accessori-7caf"
+  },
+  {
+   "mode": "findBig",
+   "theme": "accessories",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-accessori-17be"
+  },
+  {
+   "mode": "findBig",
+   "theme": "activities",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-attivita-183f"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "activities",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-attivita-a328"
+  },
+  {
+   "mode": "findBig",
+   "theme": "animals",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-animali-d54d"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "animals",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-animali-725c"
+  },
+  {
+   "mode": "findBig",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-in-giro-per-casa-5fd1"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-in-giro-per-casa-c1ee"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-al-supermercato-258f"
+  },
+  {
+   "mode": "findBig",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-al-supermercato-1780"
+  },
+  {
+   "mode": "findBig",
+   "theme": "bakery",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-panetteria-0f55"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "bakery",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-panetteria-0075"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "beach",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-spiaggia-7590"
+  },
+  {
+   "mode": "findBig",
+   "theme": "beach",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-spiaggia-7cc4"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "birds",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-uccelli-831d"
+  },
+  {
+   "mode": "findBig",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-uccelli-2-1230"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-uccelli-2-3bc3"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-parti-del-corpo-77b7"
+  },
+  {
+   "mode": "findBig",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-parti-del-corpo-0f8b"
+  },
+  {
+   "mode": "findBig",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-colazione-e5ac"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-colazione-fd67"
+  },
+  {
+   "mode": "findBig",
+   "theme": "camping",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-campeggio-ba49"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "camping",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-campeggio-1790"
+  },
+  {
+   "mode": "findBig",
+   "theme": "christmas",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-natale-7a54"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "christmas",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-natale-41dd"
+  },
+  {
+   "mode": "findBig",
+   "theme": "classroom",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-aula-e22d"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "classroom",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-aula-bb74"
+  },
+  {
+   "mode": "findBig",
+   "theme": "clothing",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-abbigliamento-987b"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "clothing",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-abbigliamento-59da"
+  },
+  {
+   "mode": "findBig",
+   "theme": "colors",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-colori-2f21"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "colors",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-colori-19a9"
+  },
+  {
+   "mode": "findBig",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-dolci-e-dolciumi-7e35"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-dolci-e-dolciumi-98a6"
+  },
+  {
+   "mode": "findBig",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-dinosauri-5c10"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-dinosauri-c763"
+  },
+  {
+   "mode": "findBig",
+   "theme": "easter",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-pasqua-4721"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "easter",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-pasqua-3eb7"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "emotions",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-emozioni-6675"
+  },
+  {
+   "mode": "findBig",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-animali-della-fattoria-d14f"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-animali-della-fattoria-65a2"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "flowers",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-fiori-225e"
+  },
+  {
+   "mode": "findBig",
+   "theme": "flowers",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-fiori-c90e"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-creature-della-foresta-9a92"
+  },
+  {
+   "mode": "findBig",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-creature-della-foresta-ba80"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "fruits",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-frutta-90ad"
+  },
+  {
+   "mode": "findBig",
+   "theme": "fruits",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-frutta-ff14"
+  },
+  {
+   "mode": "findBig",
+   "theme": "furniture",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-mobili-57fc"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "furniture",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-mobili-acb6"
+  },
+  {
+   "mode": "findBig",
+   "theme": "hospital",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-ospedale-682c"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "hospital",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-ospedale-e538"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-insetti-e-scarafaggi-d8c0"
+  },
+  {
+   "mode": "findBig",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-utensili-da-cucina-fb35"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-utensili-da-cucina-2c2c"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-varie-207e"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "music",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-musica-3d58"
+  },
+  {
+   "mode": "findBig",
+   "theme": "music",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-musica-25c3"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "occupations",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-professioni-6a42"
+  },
+  {
+   "mode": "findBig",
+   "theme": "occupations",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-professioni-4cf2"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-vita-oceanica-21e4"
+  },
+  {
+   "mode": "findBig",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-vita-oceanica-0a09"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "pets",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-animali-domestici-87f9"
+  },
+  {
+   "mode": "findBig",
+   "theme": "pets",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-animali-domestici-671e"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "post_office",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-ufficio-postale-89a8"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-rettili-e-anfibi-27bd"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "shapes",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-forme-9262"
+  },
+  {
+   "mode": "findBig",
+   "theme": "shapes",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-forme-8fef"
+  },
+  {
+   "mode": "findBig",
+   "theme": "space",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-spazio-adc5"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "space",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-spazio-8500"
+  },
+  {
+   "mode": "findBig",
+   "theme": "spring",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-primavera-f7e3"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "spring",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-primavera-fb30"
+  },
+  {
+   "mode": "findBig",
+   "theme": "summer",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-estate-ef3b"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "summer",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-estate-6a43"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-giorno-del-ringraziamento-1f49"
+  },
+  {
+   "mode": "findBig",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-cose-che-volano-9a66"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-cose-che-volano-ea7d"
+  },
+  {
+   "mode": "findBig",
+   "theme": "tools",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-attrezzi-9c3e"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "tools",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-attrezzi-1f81"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "toys",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-giocattoli-e01d"
+  },
+  {
+   "mode": "findBig",
+   "theme": "toys",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-giocattoli-9177"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "tree",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-alberi-ff2b"
+  },
+  {
+   "mode": "findBig",
+   "theme": "tree",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-alberi-0d26"
+  },
+  {
+   "mode": "findBig",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-verdure-09e6"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-verdure-3be9"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-veicoli-e76d"
+  },
+  {
+   "mode": "findBig",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-veicoli-e6ca"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "weather",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-meteo-e377"
+  },
+  {
+   "mode": "findBig",
+   "theme": "weather",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-meteo-4b77"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "winter",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-inverno-e662"
+  },
+  {
+   "mode": "findBig",
+   "theme": "winter",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-inverno-e2df"
+  },
+  {
+   "mode": "orderAsc",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "grande-piccolo-ordine-crescente-animali-dello-zoo-7670"
+  },
+  {
+   "mode": "findBig",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "grande-piccolo-trova-il-grande-animali-dello-zoo-d95e"
+  }
+ ]
+}

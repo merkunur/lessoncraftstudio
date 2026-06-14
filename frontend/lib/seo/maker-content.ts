@@ -31,28 +31,30 @@ import { buildHreflangAlternates } from './hreflang';
  * demand-proven generators. Phase 1b extends this set.
  */
 export const MAKER_KEYS = [
-  'cryptogram',
-  'wordsearch',
-  'sudoku',
-  'crossword',
-  'find-objects',
-  'word-guess',
+  // Math
+  'addition', 'subtraction', 'code-addition', 'more-less', 'math-puzzle', 'math-worksheet',
+  // Literacy
+  'alphabet-train', 'prepositions', 'word-guess', 'word-scramble', 'wordsearch', 'cryptogram', 'writing',
+  // Visual
+  'big-small', 'pattern-train', 'pattern-worksheet', 'draw-and-color', 'drawing-lines', 'coloring', 'chart-count',
+  // Matching
+  'matching', 'grid-match', 'shadow-match', 'bingo', 'picture-sort',
+  // Puzzle
+  'missing-pieces', 'odd-one-out', 'sudoku', 'picture-path',
+  // Search
+  'find-and-count', 'find-objects', 'crossword', 'treasure-hunt',
 ] as const;
 export type MakerKey = (typeof MAKER_KEYS)[number];
 
 /**
  * Generator HTML file per maker key (served by nginx at
- * /worksheet-generators/<htmlFile>, §A.1). Mirrors products.ts ALL_APPS.htmlFile.
- * The landing's launch button opens this with ?lang=<locale>.
+ * /worksheet-generators/<htmlFile>, §A.1). Every ALL_APPS entry's htmlFile is
+ * `<key>.html` (verified in products.ts), so derive it. The landing's launch
+ * button opens this with ?lang=<locale>.
  */
-export const MAKER_GENERATOR_HTML: Record<MakerKey, string> = {
-  cryptogram: 'cryptogram.html',
-  wordsearch: 'wordsearch.html',
-  sudoku: 'sudoku.html',
-  crossword: 'crossword.html',
-  'find-objects': 'find-objects.html',
-  'word-guess': 'word-guess.html',
-};
+export const MAKER_GENERATOR_HTML: Record<MakerKey, string> = Object.fromEntries(
+  MAKER_KEYS.map((k) => [k, `${k}.html`]),
+) as Record<MakerKey, string>;
 
 /** Public URL of the generator a maker launches. */
 export function makerGeneratorUrl(makerKey: MakerKey, locale: string): string {
@@ -92,9 +94,14 @@ const LOADERS: Record<string, () => Promise<{ default: MakerContentFile }>> = {
   en: () => import('@/messages/maker-content/en.json') as unknown as Promise<{ default: MakerContentFile }>,
   de: () => import('@/messages/maker-content/de.json') as unknown as Promise<{ default: MakerContentFile }>,
   es: () => import('@/messages/maker-content/es.json') as unknown as Promise<{ default: MakerContentFile }>,
+  fr: () => import('@/messages/maker-content/fr.json') as unknown as Promise<{ default: MakerContentFile }>,
   it: () => import('@/messages/maker-content/it.json') as unknown as Promise<{ default: MakerContentFile }>,
+  pt: () => import('@/messages/maker-content/pt.json') as unknown as Promise<{ default: MakerContentFile }>,
   nl: () => import('@/messages/maker-content/nl.json') as unknown as Promise<{ default: MakerContentFile }>,
   sv: () => import('@/messages/maker-content/sv.json') as unknown as Promise<{ default: MakerContentFile }>,
+  da: () => import('@/messages/maker-content/da.json') as unknown as Promise<{ default: MakerContentFile }>,
+  no: () => import('@/messages/maker-content/no.json') as unknown as Promise<{ default: MakerContentFile }>,
+  fi: () => import('@/messages/maker-content/fi.json') as unknown as Promise<{ default: MakerContentFile }>,
 };
 
 const _cache: Record<string, MakerContentFile | null> = {};

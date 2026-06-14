@@ -1,26 +1,242 @@
 {
-  "cryptogram": {
-    "slug": "kryptogram-skapare",
-    "name": "Kryptogram-skaparen",
-    "tagline": "Gör knepiga kodknäckar-arbetsblad där varje bokstav blir en symbol eller siffra.",
-    "metaTitle": "Skapa kryptogram för barn – gratis arbetsblad | LessonCraftStudio",
-    "metaDescription": "Skapa kryptogram-arbetsblad gratis i webbläsaren. Skriv dina egna ord, få ett kodknäckar-blad med facit på nolltid. Ingen inloggning, ingen installation.",
+  "addition": {
+    "slug": "additions-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i addition",
+    "tagline": "Gör övningar i addition med bilder och tal på några sekunder",
+    "metaTitle": "Gör arbetsblad i addition gratis — utskrivbart | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i addition för 5-7 år. Bygg utskrivbara additionstal med bilder och siffror plus facit — ingen inloggning, gratis i webbläsaren, 11 språk.",
     "about": [
-      "Med Kryptogram-skaparen gör du arbetsblad där varje bokstav byts ut mot en symbol eller siffra, så att eleverna får knäcka koden för att läsa de gömda orden. Det är ett lekfullt sätt att träna bokstavsigenkänning och tålamod för barn i åldern 3-7 år.",
-      "Du skriver helt enkelt in de ord eller den korta mening du vill ha, och verktyget bygger ett färdigt kryptogram med en tydlig kodnyckel. Du kan välja bland över 3000 temabilder så att bladet passar just det ni arbetar med. Allt körs gratis direkt i webbläsaren – inget konto och inget program behöver laddas ner.",
-      "Varje arbetsblad kommer med ett facit, så att du snabbt kan rätta tillsammans med klassen eller låta eleverna kontrollera sig själva. Skriv ut så många exemplar du behöver, helt utan kostnad."
+      "Att lägga ihop är en av de allra första matematiska färdigheterna, och den fastnar bäst när barnen kan se vad de gör. Den här gratis skaparen av arbetsblad i addition bygger enkla tal med vänliga bilder såväl som med rena siffror, så att ett barn kan räkna föremål för att komma fram till summan innan det arbetar med enbart tal.",
+      "Du bestämmer hur sidan ser ut: välj små tal för nybörjare eller lite mer utmaning, och välj ett bildtema så att föremålen känns bekanta. Varje barn skriver svaret i rutan, vilket håller fokus på att få rätt summa.",
+      "Varje arbetsblad du skapar kan skrivas ut direkt, och de flesta har ett tillhörande facit så att du snabbt kan rätta eller låta barnen rätta själva. Allt körs i webbläsaren utan konto, på vilket som helst av 11 språk."
     ],
     "howToUse": [
-      "Skriv in de ord eller den korta mening eleverna ska knäcka.",
-      "Välj om bokstäverna ska bli siffror eller roliga symboler, och ett bildtema om du vill.",
-      "Förhandsgranska arbetsbladet och justera tills det känns lagom svårt.",
-      "Skriv ut bladet och facitet – klart att använda i klassrummet."
+      "Välj bildtal för de yngsta som räknar eller tal med bara siffror för barn som är redo att räkna med siffror.",
+      "Välj ett tema och ett talområde som passar din grupp.",
+      "Skriv ut arbetsbladet och låt varje barn skriva summan i svarsrutan.",
+      "Rätta de färdiga talen mot det utskrivna facit."
     ],
     "classroomIdeas": [
-      "Använd veckans ord eller temaord och låt eleverna avkoda dem som morgonstart.",
-      "Gör ett gemensamt kryptogram på tavlan och lös det tillsammans steg för steg.",
-      "Låt barnen knäcka varandras hemliga meddelanden i par.",
-      "Koppla koden till ett tema, till exempel djur eller årstider, för extra motivation."
+      "Kör ett snabbt uppvärmningsblad i början av matematiklektionen.",
+      "Lägg bildaddition i en praktisk räknestation.",
+      "Skicka hem ett kort blad för extra övning med en förälder.",
+      "Para ihop ett tematiskt blad med det ämne ni utforskar just den veckan."
+    ]
+  },
+  "subtraction": {
+    "slug": "subtraktions-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i subtraktion",
+    "tagline": "Bygg snabbt övningar i att ta bort med bilder och tal",
+    "metaTitle": "Gör arbetsblad i subtraktion gratis — utskrivbart | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i subtraktion för 5-7 år. Gör utskrivbara tal i att ta bort med bilder och siffror plus facit — ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Att ta bort kan kännas svårare än att lägga ihop, så barnen har nytta av att se föremålen försvinna innan de arbetar med tal. Den här gratis skaparen av arbetsblad i subtraktion gör subtraktionstal med bilder och med siffror, och låter unga elever stryka över föremål för att hitta vad som blir kvar.",
+      "Ställ in nivån så att den passar din klass: håll talen låga vid de första försöken och höj dem sedan när tryggheten växer. Ett bildtema gör att varje uppgift känns som en liten berättelse i stället för en rad med siffror.",
+      "Arbetsbladen skrivs ut direkt och de flesta innehåller ett facit, så rättningen går snabbt och barnen kan rätta sina egna så snart de är redo. Allt fungerar i webbläsaren utan inloggning, på 11 språk."
+    ],
+    "howToUse": [
+      "Välj bildsubtraktion för nybörjare eller tal med bara siffror för äldre barn.",
+      "Välj ett tema och ett talområde som passar dina elever.",
+      "Skriv ut sidan och be varje barn skriva vad som blir kvar i rutan.",
+      "Använd det utskrivna facit för att rätta eller stötta självrättning."
+    ],
+    "classroomIdeas": [
+      "Visa hur man stryker över tillsammans på tavlan innan barnen börjar.",
+      "Erbjud bildsubtraktion i en räknestation med föremål att flytta.",
+      "Skicka hem ett kort övningsblad mellan lektionerna.",
+      "Blanda in en tematisk sida när du vill ge samma färdighet ett nytt sammanhang."
+    ]
+  },
+  "code-addition": {
+    "slug": "kodadditions-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i kodaddition",
+    "tagline": "Avkoda bilderna och lägg sedan ihop talen",
+    "metaTitle": "Gör arbetsblad i kodaddition gratis — avkoda och addera | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i kodaddition för 5-7 år. Barnen avkodar en bildnyckel och adderar sedan — utskrivbart med facit, ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Den här gratis skaparen av arbetsblad i kodaddition lägger till ett litet pussel i vanliga tal. En liten teckenförklaring parar ihop varje bild eller symbol med ett tal, och barnet läser nyckeln först, byter ut bilderna mot deras värden och lägger sedan ihop dem.",
+      "Det extra avkodningssteget tränar noggrann läsning och ett-till-ett-matchning vid sidan av matematiken, vilket gör det till en tillfredsställande utmaning för barn som redan adderar små tal med trygghet.",
+      "Välj ett tema för bilderna i teckenförklaringen och ett talområde för att styra svårighetsgraden. Varje blad skrivs ut med ett tillhörande facit, så att du kan kontrollera både avkodningen och summorna. Det körs i vilken webbläsare som helst, på 11 språk, utan att ett konto behövs."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bilderna i teckenförklaringen passar din klass.",
+      "Ställ in ett talområde som matchar elevernas additionsförmåga.",
+      "Skriv ut bladet och påminn barnen om att läsa bildnyckeln först.",
+      "Kontrollera både de avkodade talen och summorna mot facit."
+    ],
+    "classroomIdeas": [
+      "Introducera det som en aktivitet med en hemlig kod för att väcka nyfikenhet.",
+      "Använd det som en utvidgning för barn som blir klara med vanlig addition tidigt.",
+      "Gå igenom ett avkodat tal tillsammans innan barnen arbetar själva.",
+      "Knyt temat i teckenförklaringen till ett pågående ämne för en tematisk utmaning."
+    ]
+  },
+  "more-less": {
+    "slug": "mer-eller-mindre-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i mer eller mindre",
+    "tagline": "Jämför två grupper: mer, mindre eller lika",
+    "metaTitle": "Gör arbetsblad i mer eller mindre gratis — jämför grupper | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i mer eller mindre för 3-5 år. Barnen jämför bildgrupper och markerar mer, mindre eller lika — utskrivbart, ingen inloggning, 11 språk.",
+    "about": [
+      "Innan barnen räknar exakt behöver de en känsla för mängd, och det börjar med att jämföra. Den här gratis skaparen av arbetsblad i mer eller mindre visar två grupper av bilder bredvid varandra och ber barnet avgöra vilken som har mer, vilken som har mindre eller om de är lika.",
+      "Eftersom fokus ligger på jämförelse snarare än exakta summor kan även de allra yngsta eleverna vara med genom att titta och resonera. Att markera svaret håller uppgiften enkel och tydlig för små händer, och samtalet kring varje par bygger ett rikt ordförråd.",
+      "Välj ett bildtema för att hålla grupperna engagerande och skriv ut sidan när du är redo. De flesta blad innehåller ett facit för snabb rättning. Det fungerar i webbläsaren på 11 språk, utan konto och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att de två grupperna använder bekanta bilder.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Be barnen titta på båda grupperna och markera mer, mindre eller lika.",
+      "Kontrollera svaren mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Använd det under ett samtal om hur många under samlingen.",
+      "Lägg det i en matematikstation tillsammans med riktiga föremål att jämföra.",
+      "Visa orden mer, färre och lika många medan du markerar ett tillsammans.",
+      "Skicka hem ett blad för att öva på att jämföra vardagliga grupper."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "mattepussel-skapare",
+    "name": "Skapa mattepussel",
+    "tagline": "Talpussel med blandade räknesätt och saknade delar",
+    "metaTitle": "Gör mattepussel gratis — utskrivbara talpussel | LessonCraftStudio",
+    "metaDescription": "Skapa gratis mattepussel för 6-8 år. Gör utskrivbara pussel med blandade räknesätt, saknade tal och facit — ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Den här gratis skaparen av mattepussel gör räkning till ett tankespel. I stället för ett rakt tal lämnas ett tal eller ett räknetecken tomt, och barnet måste resonera baklänges för att lista ut vad som hör hemma i luckan.",
+      "Att fylla i ett saknat tal eller tecken bygger en djupare förståelse för hur addition och subtraktion hänger ihop, vilket hjälper barnen att gå bortom inlärda fakta mot en genuin taluppfattning.",
+      "Du kan blanda räknesätten och ställa in svårighetsgraden så att den passar din grupp, och varje pussel skrivs ut med ett facit så att rättningen blir enkel. Variationen håller barnen tänkande i stället för gissande. Det öppnas i vilken webbläsare som helst, på 11 språk, utan inloggning och utan något att ladda ner."
+    ],
+    "howToUse": [
+      "Välj vilka räknesätt som ska ingå och hur utmanande det ska vara.",
+      "Skriv ut pusselbladet till din klass.",
+      "Be barnen hitta det saknade talet eller räknetecknet på varje rad.",
+      "Bekräfta varje svar med det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Använd ett pussel som en kort hjärnuppvärmning i början av matematiken.",
+      "Erbjud det som en utvidgning för barn som är redo att resonera, inte bara minnas.",
+      "Lös en knepig rad tillsammans och prata igenom tänkandet.",
+      "Lägg en liten uppsättning som utmaning för dem som blir klara tidigt."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "matte-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i matematik",
+    "tagline": "Allmän räkneövning med blandade uppgiftstyper",
+    "metaTitle": "Gör arbetsblad i matematik gratis — utskrivbar räkning | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i matematik för 5-7 år. Bygg utskrivbar blandad räkneövning med facit — ingen inloggning, gratis i webbläsaren, 11 språk.",
+    "about": [
+      "Ibland behöver du bara en ren sida med övning, och den här gratis skaparen av matematikarbetsblad ger precis det. Den bygger ett allmänt räkneblad med en blandning av uppgiftstyper så att barnen får varierad, allsidig övning på ett ställe.",
+      "Eftersom uppgifterna varierar kan barnen inte glida fram på ett enda mönster; de måste läsa varje fråga och välja hur de ska lösa den, vilket håller dem uppmärksamma och flexibla.",
+      "Ställ in nivån så att den passar dina elever, skriv ut bladet och använd det tillhörande facit för att rätta snabbt eller låta barnen rätta sina egna. Det är ett enkelt sätt att hålla ett jämnt flöde av ny övning utan förberedelser, vecka efter vecka. Verktyget körs i webbläsaren, på 11 språk, utan konto och utan något att ladda ner."
+    ],
+    "howToUse": [
+      "Välj uppgiftstyper och svårighetsgrad för din grupp.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Låt barnen läsa varje uppgift noga och lösa den.",
+      "Rätta sidan mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Använd det som en snabb veckorepetition av färdigheter du har lärt ut.",
+      "Lägg det som självständigt arbete medan du håller en liten grupp.",
+      "Skicka hem ett som lätt, varierad övning.",
+      "Bygg ett kort blad för en snabb avstämning i slutet av ett arbetsområde."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "alfabetstaag-skapare",
+    "name": "Skapa alfabetståg",
+    "tagline": "Fyll i de saknade bokstäverna längs ett vänligt tåg",
+    "metaTitle": "Gör alfabetståg gratis — saknade bokstäver | LessonCraftStudio",
+    "metaDescription": "Skapa gratis alfabetståg för 3-5 år. Barnen fyller i saknade bokstäver i ordning längs ett utskrivbart tåg — facit, ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Att lära sig alfabetets ordning blir lekfullt när det åker längs ett tåg. Den här gratis skaparen av alfabetståg lägger ut bokstäverna som vagnar med några luckor, och barnet skriver de saknade bokstäverna för att hålla ordningsföljden igång.",
+      "Att lista ut vilken bokstav som kommer härnäst stärker bokstavsordning och bokstavskännedom samtidigt, och tågformen ger små elever en tydlig väg att följa från vänster till höger.",
+      "Du kan justera hur många bokstäver som saknas så att det passar din grupp, från en enda lucka för de yngsta till flera för dem som är redo, och varje tåg skrivs ut med ett facit. Den glada tågformen gör alfabetet inbjudande i stället för som ett prov. Det öppnas i vilken webbläsare som helst, på 11 språk, utan inloggning och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj hur många bokstäver du vill lämna tomma för dina elever.",
+      "Skriv ut alfabetståget till varje barn.",
+      "Be barnen läsa längs tåget och skriva de saknade bokstäverna i ordning.",
+      "Kontrollera det färdiga tåget mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Sjung eller säg alfabetet tillsammans innan barnen fyller i luckorna.",
+      "Använd det i en språkstation tillsammans med magnetbokstäver.",
+      "Börja med en eller två luckor och lägg sedan till fler när barnen växer.",
+      "Skicka hem ett tåg för att öva bokstavsordning med en vuxen."
+    ]
+  },
+  "prepositions": {
+    "slug": "prepositioner-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i prepositioner",
+    "tagline": "Välj rätt lägesord för varje bild",
+    "metaTitle": "Gör arbetsblad i prepositioner gratis — lägesord | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i prepositioner för 5-7 år. Barnen väljer i, på, under och fler från bildscener — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Lägesord som i, på, under och bredvid beskriver var saker finns, och barnen förstår dem lättast med en bild framför sig. Den här gratis skaparen av arbetsblad i prepositioner visar en liten scen och ber barnet välja det ord som beskriver var ett föremål befinner sig.",
+      "Att matcha rätt preposition mot en tydlig bild bygger både rumsligt ordförråd och noggrant tittande, och det ger tidiga läsare ett meningsfullt och konkret sätt att använda ord de hör varje dag i klassrummet och hemma.",
+      "Välj ett tema för scenerna och skriv ut bladet, komplett med ett facit för snabb rättning eller självrättning. Det körs i webbläsaren på 11 språk, med tillgång till över 3 000 temabilder, utan konto och utan installation."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bildscenerna passar din klass.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Be barnen titta på varje scen och välja rätt lägesord.",
+      "Kontrollera de valda orden mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Agera ut en preposition med en leksak och en låda innan barnen börjar.",
+      "Använd det för att stötta ett språkrikt samtal om var saker finns.",
+      "Para ihop det med vardagliga föremål i klassrummet för en praktisk och rolig uppföljning.",
+      "Knyt temat i scenen till en saga ni läser tillsammans."
+    ]
+  },
+  "word-guess": {
+    "slug": "gissa-ordet-skapare",
+    "name": "Gissa-ordet-skaparen",
+    "tagline": "Gör arbetsblad där en bild ger ledtråden och barnen skriver in ordet bokstav för bokstav.",
+    "metaTitle": "Skapa gissa ordet-arbetsblad utifrån bild – gratis | LessonCraftStudio",
+    "metaDescription": "Skapa gissa ordet-arbetsblad gratis i webbläsaren. Barnen ser en bild och skriver ordet bokstav för bokstav. Med facit. Ingen inloggning, ingen installation.",
+    "about": [
+      "Gissa-ordet-skaparen gör arbetsblad där barnen ser en bild och fyller i ordet bokstav för bokstav i tomma rutor. Det är ett effektivt sätt att koppla ljud, bild och stavning för läsande nybörjare.",
+      "Du väljer bilder ur ett bibliotek på över 3000 illustrationer och bestämmer hur mycket hjälp barnen ska få, till exempel några förifyllda bokstäver. Verktyget körs gratis direkt i webbläsaren utan inloggning eller installation.",
+      "Tillsammans med bladet får du ett facit med alla rätta ord. Skriv ut så många kopior du vill och använd dem som återkommande lästräning, helt kostnadsfritt."
+    ],
+    "howToUse": [
+      "Välj de bilder vars ord barnen ska gissa och skriva.",
+      "Ställ in hur många bokstäver som ska vara förifyllda som stöd.",
+      "Förhandsgranska bladet så att svårighetsgraden passar åldern.",
+      "Skriv ut arbetsbladet och facitet och dela ut i klassen."
+    ],
+    "classroomIdeas": [
+      "Träna bokstavsljud genom att låta barnen ljuda sig fram till ordet under bilden.",
+      "Använd temabilder, till exempel djur eller frukter, för att bygga ordförråd.",
+      "Lös några ord gemensamt på tavlan innan barnen arbetar på egen hand.",
+      "Låt bladet bli en självrättande station där barnen kontrollerar med facitet."
+    ]
+  },
+  "word-scramble": {
+    "slug": "ordmix-skapare",
+    "name": "Skapa ordmix",
+    "tagline": "Lägg bokstäverna i rätt ordning med hjälp av en bildledtråd",
+    "metaTitle": "Gör ordmix gratis — utskrivbar stavning | LessonCraftStudio",
+    "metaDescription": "Skapa gratis ordmix för 6-8 år. Barnen lägger bokstäver i rätt ordning med en bildledtråd och skriver ordet — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att lägga blandade bokstäver i ordning till ett riktigt ord är ett snabbt och roligt sätt att öva stavning. Den här gratis skaparen av ordmix blandar bokstäverna i varje ord och parar det med en bildledtråd, så att barnen har något att sikta mot medan de listar ut det.",
+      "Att lägga bokstäverna rätt uppmuntrar barnen att hålla bokstäver i minnet, prova olika ordningar och ljuda ordet, vilket stärker både stavning och fonologisk medvetenhet i ett pussel utan press. Bildledtråden gör att även de som ännu inte läser tryggt kan delta.",
+      "Välj ett bildtema så att orden passar ditt ämne, och skriv ut bladet med dess facit. Tematiska ord knyter stavningsövningen prydligt till det ni lär er den veckan. Verktyget fungerar i vilken webbläsare som helst, på 11 språk, utan inloggning och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att de blandade orden matchar ditt fokusordförråd.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Be barnen använda bildledtråden och skriva det rätt ordnade ordet.",
+      "Kontrollera stavningarna mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Lös en ordmix tillsammans och säg varje ljud högt.",
+      "Använd det för att repetera ämnes- eller temaordförråd i slutet av veckan.",
+      "Lägg det som en stavningsstation med bokstavsbrickor att flytta runt.",
+      "Skicka hem en kort ordmix för lekfull stavningsövning."
     ]
   },
   "wordsearch": {
@@ -47,6 +263,390 @@
       "Låt snabba elever skapa egna ordlistor som du gömmer i nästa blad."
     ]
   },
+  "cryptogram": {
+    "slug": "kryptogram-skapare",
+    "name": "Kryptogram-skaparen",
+    "tagline": "Gör knepiga kodknäckar-arbetsblad där varje bokstav blir en symbol eller siffra.",
+    "metaTitle": "Skapa kryptogram för barn – gratis arbetsblad | LessonCraftStudio",
+    "metaDescription": "Skapa kryptogram-arbetsblad gratis i webbläsaren. Skriv dina egna ord, få ett kodknäckar-blad med facit på nolltid. Ingen inloggning, ingen installation.",
+    "about": [
+      "Med Kryptogram-skaparen gör du arbetsblad där varje bokstav byts ut mot en symbol eller siffra, så att eleverna får knäcka koden för att läsa de gömda orden. Det är ett lekfullt sätt att träna bokstavsigenkänning och tålamod för barn i åldern 3-7 år.",
+      "Du skriver helt enkelt in de ord eller den korta mening du vill ha, och verktyget bygger ett färdigt kryptogram med en tydlig kodnyckel. Du kan välja bland över 3000 temabilder så att bladet passar just det ni arbetar med. Allt körs gratis direkt i webbläsaren – inget konto och inget program behöver laddas ner.",
+      "Varje arbetsblad kommer med ett facit, så att du snabbt kan rätta tillsammans med klassen eller låta eleverna kontrollera sig själva. Skriv ut så många exemplar du behöver, helt utan kostnad."
+    ],
+    "howToUse": [
+      "Skriv in de ord eller den korta mening eleverna ska knäcka.",
+      "Välj om bokstäverna ska bli siffror eller roliga symboler, och ett bildtema om du vill.",
+      "Förhandsgranska arbetsbladet och justera tills det känns lagom svårt.",
+      "Skriv ut bladet och facitet – klart att använda i klassrummet."
+    ],
+    "classroomIdeas": [
+      "Använd veckans ord eller temaord och låt eleverna avkoda dem som morgonstart.",
+      "Gör ett gemensamt kryptogram på tavlan och lös det tillsammans steg för steg.",
+      "Låt barnen knäcka varandras hemliga meddelanden i par.",
+      "Koppla koden till ett tema, till exempel djur eller årstider, för extra motivation."
+    ]
+  },
+  "writing": {
+    "slug": "skrivoevningar-skapare",
+    "name": "Skapa skrivövningar",
+    "tagline": "Stödjande övningsblad för bokstäver och ord",
+    "metaTitle": "Gör skrivövningar gratis — utskrivbar handstil | LessonCraftStudio",
+    "metaDescription": "Skapa gratis skrivövningar för 4-7 år. Gör utskrivbar bokstavs- och ordträning med hjälplinjer — ingen inloggning, gratis i webbläsaren, 11 språk.",
+    "about": [
+      "Prydlig handstil kommer av jämn, upprepad övning på linjer som visar barnen var bokstäverna hör hemma. Den här gratis skaparen av skrivövningar gör utskrivbara övningsblad med tydliga hjälplinjer för att spåra och skriva bokstäver och ord.",
+      "Hjälplinjer hjälper barnen att kontrollera bokstävernas höjd och placering, medan att först spåra och sedan skriva bygger det muskelminne som med tiden gör handstilen naturlig och flytande.",
+      "Du väljer vilka bokstäver eller ord som ska övas och skriver sedan ut bladet till din klass. Det här är en utskriftsaktivitet gjord för penna och papper, så det finns inget facit på nätet eftersom själva skrivandet är målet. Det är ett snabbt sätt att ge varje barn precis rätt bokstäver att arbeta med. Det körs i webbläsaren på 11 språk, utan konto och utan något att installera."
+    ],
+    "howToUse": [
+      "Skriv in de bokstäver eller ord du vill att barnen ska öva.",
+      "Skriv ut det stödjande övningsbladet till varje barn.",
+      "Låt barnen spåra förlagan först och sedan skriva själva.",
+      "Var uppmärksam på rätt bokstavsformning och ge mjuka påminnelser."
+    ],
+    "classroomIdeas": [
+      "Använd ett dagligt uppvärmningsblad för att bygga en skrivrutin.",
+      "Öva bokstäverna från veckans fonologiska fokus.",
+      "Lägg det i en skrivstation med bekväma pennor.",
+      "Skicka hem ett blad så att familjen kan stötta samma bokstäver."
+    ]
+  },
+  "big-small": {
+    "slug": "stor-liten-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i stor och liten",
+    "tagline": "Markera vilken bild som är stor och vilken som är liten",
+    "metaTitle": "Gör arbetsblad i stor och liten gratis — sortera storlek | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i stor och liten för 3-5 år. Barnen jämför bildstorlekar och markerar stor mot liten — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att jämföra storlek är ett av de tidigaste sätten barn beskriver världen på, och det lägger grunden för senare mätning. Den här gratis skaparen av arbetsblad i stor och liten visar samma slags bild i två storlekar och ber barnet markera vilken som är stor och vilken som är liten.",
+      "Eftersom uppgiften enbart handlar om att titta och jämföra kan även de som inte läser ännu vara med med självförtroende, och bygga ordförrådet stor, liten, större och mindre på vägen genom hela aktiviteten.",
+      "Välj ett vänligt tema för bilderna och skriv ut bladet, som kommer med ett facit för snabb rättning. Bekanta tematiska bilder hjälper små barn att hålla intresset uppe medan de jämför. Det fungerar i webbläsaren på 11 språk, utan inloggning och utan installation."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bilderna känns bekanta för din grupp.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Be barnen markera den stora bilden och den lilla bilden.",
+      "Kontrollera svaren mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Jämför två riktiga föremål i klassrummet innan barnen börjar.",
+      "Använd det i en sorteringsstation med stora och små leksaker.",
+      "Visa orden stor, liten, större och mindre medan ni arbetar.",
+      "Skicka hem ett blad för att leta efter stora och små saker hemma."
+    ]
+  },
+  "pattern-train": {
+    "slug": "moenstertaag-skapare",
+    "name": "Skapa mönstertåg",
+    "tagline": "Välj vad som kommer härnäst i bildmönstret",
+    "metaTitle": "Gör mönstertåg gratis — vad kommer härnäst | LessonCraftStudio",
+    "metaDescription": "Skapa gratis mönstertåg för 5-7 år. Barnen hittar vad som kommer härnäst i ett bildmönster längs ett tåg — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att upptäcka ett mönster och förutsäga vad som kommer härnäst är tidig algebra i förklädnad. Den här gratis skaparen av mönstertåg visar ett upprepande bildmönster som löper längs ett tåg med en vagn lämnad tom, och barnet listar ut vilken bild som fyller luckan.",
+      "Att fortsätta ett mönster ber barnen att lägga märke till regeln, hålla den i minnet och tillämpa den, vilket skärper resonemang och uppmärksamhet på ett lekfullt, visuellt sätt som lägger grunden för senare matematik.",
+      "Välj ett tema för mönsterbilderna och ställ in svårighetsgraden så att den passar din grupp. Varje tåg skrivs ut med ett facit för snabb rättning. Det vänliga tåget håller mönstret tydligt och från vänster till höger. Det öppnas i vilken webbläsare som helst, på 11 språk, utan inloggning och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema och hur komplext det upprepande mönstret ska vara.",
+      "Skriv ut mönstertåget till din klass.",
+      "Be barnen säga mönstret högt och välja vad som kommer härnäst.",
+      "Kontrollera den valda bilden mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Klappa eller ramsa ett mönster tillsammans innan barnen provar sidan.",
+      "Bygg ett matchande mönster med klossar i en station.",
+      "Börja med enkla ABAB-mönster och lägg sedan till mer komplexitet.",
+      "Knyt mönstertemat till ert pågående ämne."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "moenster-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i mönster",
+    "tagline": "Slutför varje rad med bild- och formmönster",
+    "metaTitle": "Gör arbetsblad i mönster gratis — utskrivbara mönster | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i mönster för 6-8 år. Barnen slutför rader med bild- och formmönster — utskrivbart med facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Den här gratis skaparen av arbetsblad i mönster ger barnen flera mönster att slutföra på en enda sida, och bygger vidare på de enkla upprepningar de mötte som yngre elever. Varje rad visar en bild- eller formsekvens som barnet slutför.",
+      "Med fler rader och rikare regler övar barnen på att läsa ett mönster noga, identifiera den upprepande enheten och förlänga den korrekt, vilket fördjupar resonemanget bakom tidig algebra. Att se flera mönster samtidigt hjälper också barnen att jämföra olika slags regler.",
+      "Välj ett tema och en svårighetsgrad som passar din klass, och skriv sedan ut bladet med dess facit för snabb rättning. Flera mönster på en sida gör det enkelt att ge gott om övning vid ett enda tillfälle. Verktyget körs i webbläsaren, på 11 språk, utan konto och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema och hur utmanande mönstren ska vara.",
+      "Skriv ut arbetsbladet till varje barn.",
+      "Be barnen hitta regeln på varje rad och slutföra den.",
+      "Kontrollera de färdiga raderna mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Diskutera den upprepande enheten i ett mönster med klassen först.",
+      "Lägg det som självständigt arbete efter en kort mönsterlektion.",
+      "Erbjud svårare mönster som utvidgning för dem som blir klara tidigt.",
+      "Kombinera bild- och formrader för varierad övning."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "rita-och-faerglaeg-skapare",
+    "name": "Skapa rita och färglägg",
+    "tagline": "Kopiera en bild ruta för ruta och färglägg den sedan",
+    "metaTitle": "Gör rita och färglägg gratis — kopiera i rutnät | LessonCraftStudio",
+    "metaDescription": "Skapa gratis rita och färglägg för 5-8 år. Barnen kopierar en bild ruta för ruta i ett rutnät och färglägger den — utskrivbar PDF, ingen inloggning, 11 språk.",
+    "about": [
+      "Att kopiera en bild en ruta i taget hjälper barnen att sakta ner och verkligen titta, och den här gratis skaparen av rita och färglägg gör det till en lugn och belönande aktivitet. En förlagebild ligger i ett rutnät, och barnet återskapar den ruta för ruta i ett tomt rutnät innan det färglägger.",
+      "Rutnätet delar upp en hel bild i hanterbara delar, vilket bygger rumslig medvetenhet, noggrant observerande och pennkontroll, allt medan barnet känner stoltheten över att ha ritat något själv.",
+      "Välj en temabild ur ett bibliotek med över 3 000 bilder och skriv ut aktiviteten som en PDF för arbete med penna och kritor. Det finns inget facit på nätet eftersom den färdiga teckningen är resultatet. Det fungerar i webbläsaren på 11 språk, utan inloggning och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj en temabild som barnen ska kopiera.",
+      "Skriv ut PDF:en med förlagans rutnät och det tomma rutnätet.",
+      "Be barnen kopiera bilden en ruta i taget.",
+      "Låt barnen färglägga den färdiga teckningen som de vill."
+    ],
+    "classroomIdeas": [
+      "Använd det som en lugn, fokuserad aktivitet efter livliga lektioner.",
+      "Lägg det i en bild- eller finmotorikstation.",
+      "Prata om vilken ruta man ska börja med för att stötta planering.",
+      "Visa de färdiga bilderna tillsammans som klassens konstverk."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "linjer-ovningar-skapare",
+    "name": "Skapa linjeövningar",
+    "tagline": "Spåra raka, böjda och sicksackformade förskrivarbanor",
+    "metaTitle": "Gör linjeövningar gratis — spåra inför skrivandet | LessonCraftStudio",
+    "metaDescription": "Skapa gratis linjeövningar för 3-5 år. Barnen spårar raka, böjda och sicksackformade banor för finmotorik — utskrivbar PDF, ingen inloggning, 11 språk.",
+    "about": [
+      "Innan barnen kan skriva bokstäver behöver de stadiga händer och god kontroll över pennan. Den här gratis skaparen av linjeövningar gör förskrivarblad fulla av prickade banor att spåra, däribland raka linjer, mjuka böjar och livliga sicksacklinjer som tränar handen på olika sätt.",
+      "Att följa en bana från början till slut tränar de små musklerna och den öga-hand-koordination som handstilen vilar på, och variationen av linjeformer håller övningen fräsch och rolig dag efter dag i stället för enformig.",
+      "Skriv ut bladen som en PDF för pennarbete; eftersom målet är själva spårningen finns inget facit. Det är ett enkelt, färdigt sätt att bygga den kontroll som handstilen behöver, utan förberedelser. Verktyget körs i webbläsaren på 11 språk, utan konto och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj de linjetyper du vill ha, från raka till böjda till sicksack.",
+      "Skriv ut PDF-övningsbladet till varje barn.",
+      "Visa barnen hur de spårar varje prickad bana lugnt från början till slut.",
+      "Uppmuntra ett bekvämt penngrepp och stadiga, flytande drag."
+    ],
+    "classroomIdeas": [
+      "Använd det som en daglig finmotorikuppvärmning före skrivandet.",
+      "Lägg det i en station med tjocka pennor och kritor.",
+      "Spåra en stor version av varje linje i luften tillsammans först.",
+      "Skicka hem ett blad för att bygga förskrivarkontroll tillsammans med familjen."
+    ]
+  },
+  "coloring": {
+    "slug": "maelarsidor-skapare",
+    "name": "Skapa målarsidor",
+    "tagline": "Gör tematiska konturbilder till utskrivbara målarsidor",
+    "metaTitle": "Gör målarsidor gratis — utskrivbara att färglägga | LessonCraftStudio",
+    "metaDescription": "Skapa gratis målarsidor för 3-7 år. Gör utskrivbara tematiska konturbilder från ett stort bildbibliotek — PDF, ingen inloggning, fungerar på 11 språk.",
+    "about": [
+      "Att färglägga är lugnande, kreativt och bra för små händer, och den här gratis skaparen av målarsidor låter dig bygga sidor från ett stort bibliotek av tematiska konturbilder på ett ögonblick. Välj de bilder du vill ha och skriv ut rena, barnvänliga konturer.",
+      "Att fylla i konturer hjälper barnen att utveckla pennkontroll och färgmedvetenhet samtidigt som det ger dem utrymme att uttrycka sig, vilket gör det till en mild, skärmfri aktivitet som passar en bred åldersspann från förskolan och uppåt.",
+      "Sidorna skrivs ut som en PDF redo för kritor eller pennor, utan att något facit behövs. Med över 3 000 bilder att välja bland kan du alltid matcha en sida till stunden eller till ert tema. Verktyget körs i vilken webbläsare som helst, på 11 språk, och ber aldrig om inloggning eller installation."
+    ],
+    "howToUse": [
+      "Välj ett tema och de konturbilder du vill ha.",
+      "Skriv ut målarsidan som en PDF.",
+      "Dela ut kritor eller färgpennor.",
+      "Låt barnen färglägga bilderna fritt."
+    ],
+    "classroomIdeas": [
+      "Använd en tematisk sida för att lugna klassen i början av dagen.",
+      "Matcha bilderna till en saga eller ett ämne ni utforskar.",
+      "Erbjud det som ett lugnt val under den fria leken.",
+      "Skicka hem en målarsida för en avslappnad aktivitet med familjen."
+    ]
+  },
+  "chart-count": {
+    "slug": "bilddiagram-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i bilddiagram",
+    "tagline": "Räkna bilderna och fyll i stapeldiagrammet",
+    "metaTitle": "Gör arbetsblad i bilddiagram gratis — stapeldiagram | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i bilddiagram för 5-7 år. Barnen räknar avbildade föremål och fyller i ett stapeldiagram per kategori — utskrivbart, facit, 11 språk.",
+    "about": [
+      "Att läsa och göra enkla diagram är en tidig dataskicklighet, och bilder gör det lättillgängligt. Den här gratis skaparen av arbetsblad i bilddiagram visar grupper av föremål och ett tomt stapeldiagram, och barnet räknar varje slags bild och fyller i stapeln så att den stämmer.",
+      "Att förvandla en räkning till en stapel hjälper barnen att koppla mängd till en visuell höjd, ett viktigt steg mot att förstå diagram och jämföra antal med en blick och resonera om mest och minst.",
+      "Välj ett tema för bilderna och skriv ut arbetsbladet med dess facit för snabb rättning eller självrättning. Det är ett milt, praktiskt första steg in i att läsa och göra diagram. Verktyget öppnas i webbläsaren, på 11 språk, utan inloggning och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att föremålen att räkna passar din klass.",
+      "Skriv ut arbetsbladet i bilddiagram till varje barn.",
+      "Be barnen räkna varje slags bild och fylla i den matchande stapeln.",
+      "Kontrollera det färdiga diagrammet mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Bygg ett klassdiagram av riktiga föremål innan arbetsbladet.",
+      "Använd det för att redovisa resultatet av en snabb klassundersökning.",
+      "Prata om vilken stapel som är högst och lägst tillsammans.",
+      "Lägg det i en matematikstation som praktisk dataövning."
+    ]
+  },
+  "matching": {
+    "slug": "matchnings-arbetsblad-skapare",
+    "name": "Skapa arbetsblad i matchning",
+    "tagline": "Dra linjer för att koppla ihop bilderna som hör ihop",
+    "metaTitle": "Gör arbetsblad i matchning gratis — koppla ihop paren | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i matchning för 5-7 år. Barnen drar linjer som kopplar ihop bildpar som hör ihop — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att matcha par är ett tydligt och tillfredsställande sätt för barn att visa vad de kan. Den här gratis skaparen av arbetsblad i matchning placerar bilder i två kolumner, och barnet drar en linje för att koppla varje bild till sin partner på andra sidan.",
+      "Att koppla rätt par bygger visuell urskillning och resonemang om hur saker hör samman, och det enkla linjedragandet håller uppgiften lättillgänglig för tidiga elever och de som ännu inte läser.",
+      "Välj ett tema så att paren passar ditt ämne, och skriv sedan ut bladet med dess facit för snabb rättning. Det är ett flexibelt sätt att kontrollera förståelsen av hur saker hänger ihop. Det fungerar i vilken webbläsare som helst, på 11 språk, utan att ett konto behövs och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bildparen passar din lektion.",
+      "Skriv ut matchningsbladet till varje barn.",
+      "Be barnen dra en linje från varje bild till dess partner.",
+      "Kontrollera de hopkopplade paren mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Visa en matchning på tavlan och förklara varför paret hör ihop.",
+      "Använd det för att repetera tematiskt ordförråd eller relaterade begrepp.",
+      "Lägg det i en station med fysiska kort att matcha först.",
+      "Skicka hem ett matchningsblad för snabb, tydlig övning."
+    ]
+  },
+  "grid-match": {
+    "slug": "rutnaetspussel-skapare",
+    "name": "Skapa rutnätspussel",
+    "tagline": "Placera varje bild i sin matchande ruta",
+    "metaTitle": "Gör rutnätspussel gratis — bildaktivitet i rutnät | LessonCraftStudio",
+    "metaDescription": "Skapa gratis rutnätspussel för 5-7 år. Barnen placerar eller ritar varje bild i sin matchande ruta — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att arbeta inom ett rutnät ber barnen att hålla reda på rader och kolumner noga, och den här gratis skaparen av rutnätspussel bygger en aktivitet kring just det. Barnet listar ut var varje bild hör hemma och placerar eller ritar in den i rätt ruta.",
+      "Att läsa av en position i rutnätet stärker rumsligt resonemang och noggrann matchning, färdigheter som stöttar allt från tidig geometri till att läsa en tabell senare. Det uppmuntrar också barnen att arbeta ordnat, från vänster till höger och uppifrån och ned.",
+      "Välj ett tema för bilderna och skriv ut arbetsbladet, som kommer med ett facit för snabb rättning. Att arbeta inom ett rutnät är också utmärkt förberedelse för att läsa tabeller senare. Verktyget körs i webbläsaren på 11 språk, utan inloggning och utan något att ladda ner."
+    ],
+    "howToUse": [
+      "Välj ett tema så att rutnätsbilderna passar din grupp.",
+      "Skriv ut rutnätspusslet till varje barn.",
+      "Be barnen placera eller rita varje bild i sin matchande ruta.",
+      "Kontrollera det färdiga rutnätet mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Peka ut rader och kolumner tillsammans innan barnen börjar.",
+      "Använd det som en titta-noga-utmaning i en matematikstation.",
+      "Börja med ett litet rutnät och låt det växa när tryggheten ökar.",
+      "Knyt bildtemat till ert pågående ämne."
+    ]
+  },
+  "shadow-match": {
+    "slug": "skuggmatchning-skapare",
+    "name": "Skapa skuggmatchning",
+    "tagline": "Matcha varje bild till sin rätta skugga",
+    "metaTitle": "Gör skuggmatchning gratis — matcha siluetten | LessonCraftStudio",
+    "metaDescription": "Skapa gratis skuggmatchning för 5-7 år. Barnen matchar varje bild till sin rätta skuggsiluett — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att matcha en bild till sin skugga är ett härligt test av noggrant observerande. Den här gratis skaparen av skuggmatchning visar färgglada bilder vid sidan av deras svarta siluetter, och barnet kopplar varje bild till den skugga som passar den exakt.",
+      "Eftersom skuggor tar bort färg och detaljer måste barnen fokusera på enbart form och kontur, vilket skärper visuell urskillning och uppmärksamhet i ett pussel som känns som ett spel. Samma fokus på kontur stöttar även tidig bokstavs- och formigenkänning längre fram.",
+      "Välj ett tema för bilderna och skriv ut bladet, komplett med ett facit för snabb rättning. Kontrasten mellan full färg och enkel skugga gör det både lugnande och fängslande. Det fungerar i vilken webbläsare som helst, på 11 språk, utan inloggning eller installation."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bilderna och skuggorna passar din klass.",
+      "Skriv ut skuggmatchningsbladet till varje barn.",
+      "Be barnen matcha varje bild till sin rätta skugga.",
+      "Kontrollera matchningarna mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Gör riktiga skuggor med en ficklampa och föremål för att introducera det.",
+      "Använd det som en fokuserad aktivitet för visuell perception i en station.",
+      "Diskutera hur formen ensam hjälper dig att känna igen ett föremål.",
+      "Knyt bildtemat till en saga eller ett ämne."
+    ]
+  },
+  "bingo": {
+    "slug": "bildbingo-skapare",
+    "name": "Skapa bildbingo",
+    "tagline": "Utskrivbara bildbingobrickor och uppropskort",
+    "metaTitle": "Gör bildbingo gratis — utskrivbar bingo med bilder | LessonCraftStudio",
+    "metaDescription": "Skapa gratis bildbingo för 5-7 år. Gör utskrivbara bingobrickor och uppropskort med bilder för ordförrådsspel — ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Bingo är ett glädjefyllt sätt att öva ordförråd tillsammans, och den här gratis skaparen av bildbingo bygger bildbrickor plus matchande uppropskort på några klick. Varje barn får en bricka med tematiska bilder medan du ropar upp dem en i taget.",
+      "Att lyssna efter en bild och markera den bygger ordigenkänning, ordförråd och lyssnande, och den gemensamma spelenergin gör nya ord minnesvärda för hela klassen. Eftersom varje bricka är lite annorlunda håller sig barnen uppmärksamma och med genom hela rundan, ända fram till sista bilden.",
+      "Välj ett tema så att bilderna passar ditt ämne, och skriv sedan ut tillräckligt med varierade brickor till din grupp tillsammans med uppropskorten. Verktyget körs i webbläsaren, på 11 språk, utan att ett konto behövs."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bingobilderna matchar ditt fokusordförråd.",
+      "Skriv ut en bingobricka per barn och uppsättningen uppropskort.",
+      "Ropa upp bilder en i taget och låt barnen markera dem.",
+      "Fira en full rad eller full bricka som den vinnande raden."
+    ],
+    "classroomIdeas": [
+      "Använd det för att repetera ämnesordförråd i ett livligt helklasspel.",
+      "Ropa orden på ett annat språk för språkinlärare.",
+      "Låt ett barn vara den som ropar för att öva på att läsa bilderna.",
+      "Kör en snabb runda som en rolig lektionsöppnare eller övergång."
+    ]
+  },
+  "picture-sort": {
+    "slug": "sortera-bilder-skapare",
+    "name": "Skapa sortera bilder",
+    "tagline": "Sortera varje bild under rätt kategori",
+    "metaTitle": "Gör sortera bilder gratis — sortering och kategorier | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i att sortera bilder för 5-7 år. Barnen sorterar bilder i rätt kategorier — utskrivbart med facit, ingen inloggning, gratis, 11 språk.",
+    "about": [
+      "Att sortera saker i grupper är hur barn skapar mening i världen, och den här gratis skaparen av att sortera bilder förvandlar det till ett tydligt arbetsblad. Du anger kategorirubriker och en uppsättning bilder, och barnet avgör vilken grupp varje bild hör till.",
+      "Att kategorisera bygger resonemang, ordförråd och förmågan att lägga märke till vad föremål har gemensamt, en väsentlig tankefärdighet som stöttar naturkunskap, matematik och språk lika mycket. Att sätta ord på regeln för varje grupp ger också barnen mycket att prata om.",
+      "Välj ett tema och dina kategorier, och skriv sedan ut bladet med dess facit för snabb rättning. Sorteringsövning fungerar tvärs över matematik, naturkunskap och språk, så den förtjänar ofta sin plats. Verktyget öppnas i vilken webbläsare som helst, på 11 språk, utan inloggning eller installation."
+    ],
+    "howToUse": [
+      "Välj kategorierna och ett tema för bilderna.",
+      "Skriv ut sorteringsbladet till varje barn.",
+      "Be barnen sortera varje bild under rätt rubrik.",
+      "Kontrollera de sorterade grupperna mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Sortera riktiga föremål i ringar innan arbetsbladet.",
+      "Använd det för att stötta en lektion i att kategorisera inom naturkunskap eller ämne.",
+      "Prata igenom en bild tillsammans och sätt ord på varför den passar i en grupp.",
+      "Lägg det i en station med utklippta bilder att sortera fysiskt."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "saknade-bitar-skapare",
+    "name": "Skapa saknade bitar",
+    "tagline": "Hitta biten som gör bilden komplett",
+    "metaTitle": "Gör saknade bitar gratis — gör bilden komplett | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i saknade bitar för 5-7 år. Barnen hittar biten som gör varje bild komplett — utskrivbart med facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att lista ut vilken bit som gör en bild komplett är ett tillfredsställande visuellt pussel för unga elever. Den här gratis skaparen av saknade bitar visar en bild med en lucka, och barnet hittar eller ritar den del som passar för att göra den hel.",
+      "Att slutföra bilden ber barnen att föreställa sig helheten, jämföra former och detaljer och resonera om vad som saknas, vilket bygger rumslig medvetenhet och noggrant observerande. Det är den sortens lugna, fokuserade uppgift som passar en stilla stund på dagen.",
+      "Välj ett tema för bilderna och skriv ut arbetsbladet, som kommer med ett facit för snabb rättning. Det är ett tillfredsställande, lågpressat pussel som barnen gärna återvänder till. Det körs i webbläsaren på 11 språk, utan konto och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bilderna passar din grupp.",
+      "Skriv ut bladet med saknade bitar till varje barn.",
+      "Be barnen hitta eller rita den bit som gör varje bild komplett.",
+      "Kontrollera svaren mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Lös en tillsammans och beskriv vad som saknas och varför.",
+      "Använd det som en utmaning i visuellt resonemang i en lugn station.",
+      "Para ihop det med enkla pussel för praktisk övning.",
+      "Knyt bildtemat till ert pågående ämne."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "hitta-udda-skapare",
+    "name": "Skapa hitta udda ut",
+    "tagline": "Hitta bilden som inte hör hemma",
+    "metaTitle": "Gör hitta udda ut gratis — hitta det som avviker | LessonCraftStudio",
+    "metaDescription": "Skapa gratis arbetsblad i hitta udda ut för 5-7 år. Barnen markerar bilden som inte hör hemma och säger varför — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att avgöra vad som inte hör hemma är en skarp liten resonemangsuppgift, och den här gratis skaparen av hitta udda ut bygger den från bilder. Varje grupp har något gemensamt utom en, och barnet markerar bilden som inte passar, och kan förklara varför.",
+      "Att hitta den udda ber barnen att lägga märke till en gemensam egenskap och pröva varje föremål mot den, vilket stärker kategorisering, ordförråd och vanan att motivera ett svar. Det finns ofta mer än ett sätt att förklara ett val, vilket väcker bra samtal.",
+      "Välj ett tema så att grupperna passar ditt ämne, och skriv sedan ut bladet med dess facit för snabb rättning. Att be barnen förklara sitt val förvandlar en snabb uppgift till rik samtal. Verktyget fungerar i vilken webbläsare som helst, på 11 språk, utan att inloggning krävs och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att bildgrupperna passar din klass.",
+      "Skriv ut bladet hitta udda ut till varje barn.",
+      "Be barnen markera bilden som inte hör hemma i varje grupp.",
+      "Kontrollera svaren mot det utskrivna facit och diskutera skälen."
+    ],
+    "classroomIdeas": [
+      "Lös en grupp högt och be barnen förklara sitt tänkande.",
+      "Använd det för att fördjupa en lektion i att sortera eller kategorisera.",
+      "Uppmuntra barnen att säga varför deras val inte passar.",
+      "Lägg det som en snabb resonemangsuppvärmning."
+    ]
+  },
   "sudoku": {
     "slug": "barn-sudoku-skapare",
     "name": "Barn-sudoku-skaparen",
@@ -71,28 +671,52 @@
       "Låt barnen prata om hur de tänker när de placerar varje bild – ett fint matematiksamtal."
     ]
   },
-  "crossword": {
-    "slug": "bildkorsord-skapare",
-    "name": "Bildkorsords-skaparen",
-    "tagline": "Gör korsord där en bild blir ledtråden – perfekt för läsande nybörjare.",
-    "metaTitle": "Skapa bildkorsord för barn – gratis arbetsblad | LessonCraftStudio",
-    "metaDescription": "Skapa bildkorsord gratis i webbläsaren med dina egna ord och bilder. Få ett färdigt arbetsblad med facit på nolltid. Ingen inloggning, ingen installation.",
+  "picture-path": {
+    "slug": "bildvaeg-skapare",
+    "name": "Skapa bildväg",
+    "tagline": "Rita vägen genom labyrinten fram till målet",
+    "metaTitle": "Gör bildväg gratis — utskrivbar labyrint | LessonCraftStudio",
+    "metaDescription": "Skapa gratis bildväg för 5-7 år. Barnen ritar vägen genom en rutnätslabyrint från start till mål — utskrivbart, facit, ingen inloggning, 11 språk.",
     "about": [
-      "Bildkorsords-skaparen bygger korsord där varje ledtråd är en bild i stället för en text. Barnen tittar på illustrationen och skriver in ordet, vilket gör korsord tillgängliga redan innan eleverna läser flytande.",
-      "Du skriver in orden du vill ha och kopplar dem till bilder ur ett bibliotek på över 3000 illustrationer. Verktyget ordnar rutnätet åt dig och allt görs gratis direkt i webbläsaren utan inloggning eller installation.",
-      "Tillsammans med korsordet får du ett ifyllt facit som gör det enkelt att rätta. Skriv ut så många blad du behöver och återanvänd dem läsår efter läsår, helt utan kostnad."
+      "Labyrinter är ett klassiskt sätt att bygga planering och pennkontroll, och den här gratis skaparen av bildväg gör en rutnätslabyrint för unga elever. Barnet ritar en väg från starten till målet och rör sig bara genom de tillåtna rutorna.",
+      "Att hitta en väg ber barnen att planera framåt, följa reglerna om var de får gå och hålla sig prydliga och stadiga med pennan, allt i en aktivitet som känns som ren lek snarare än övning. Det tydliga rutnätet håller även knepiga labyrinter lättillgängliga för de allra yngsta eleverna.",
+      "Välj ett tema och en svårighetsgrad som passar din grupp, och skriv sedan ut labyrinten med dess facit för snabb rättning. Det öppnas i webbläsaren, på 11 språk, utan inloggning eller installation."
     ],
     "howToUse": [
-      "Skriv in orden som ska byggas in i korsordet.",
-      "Välj en passande bild som ledtråd till varje ord.",
-      "Låt verktyget lägga ut rutnätet och förhandsgranska resultatet.",
-      "Skriv ut korsordet och facitet och dela ut i klassen."
+      "Välj ett tema och hur utmanande labyrinten ska vara.",
+      "Skriv ut bladet med bildvägen till varje barn.",
+      "Be barnen rita vägen från start till mål genom de öppna rutorna.",
+      "Kontrollera vägen mot det utskrivna facit."
     ],
     "classroomIdeas": [
-      "Träna stavning och bokstavsljud genom att låta bilden visa vilket ord som ska skrivas.",
-      "Gör ett temakorsord, till exempel om fordon eller mat, kopplat till bilderna.",
-      "Lös ett gemensamt korsord på tavlan och samtala om varje ords stavning.",
-      "Använd korsordet som rolig repetition av veckans ord innan helgen."
+      "Spåra vägen med ett finger på sidan innan ni använder en penna.",
+      "Använd det som en lugn och fokuserad aktivitet i en stilla station under dagen.",
+      "Börja med enkla labyrinter och bygg upp svårighetsgraden.",
+      "Prata om att planera hela vägen i förväg innan man rusar in."
+    ]
+  },
+  "find-and-count": {
+    "slug": "hitta-och-raekna-skapare",
+    "name": "Skapa hitta och räkna",
+    "tagline": "Hitta bilden i scenen och räkna hur många",
+    "metaTitle": "Gör hitta och räkna gratis — sök och räkna | LessonCraftStudio",
+    "metaDescription": "Skapa gratis hitta och räkna för 3-5 år. Barnen hittar en målbild i en livlig scen och räknar hur många — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att söka i en livlig bild och räkna det man hittar är en ren fröjd för små barn, och den här gratis skaparen av hitta och räkna förvandlar det till tidig matematikövning. En livlig scen gömmer en målbild, och barnet hittar varje en och räknar hur många det finns.",
+      "Att leta och räkna bygger visuell avsökning, ett-till-ett-räkning och fokuserad uppmärksamhet, och det lekfulla letandet håller små elever glatt engagerade. Eftersom det känns som ett spel övar barnen på att räkna längre utan att tröttna.",
+      "Välj ett tema så att scenen passar din klass, och skriv sedan ut arbetsbladet med dess facit för snabb rättning. Formatet med en gömd bild gör att räknandet känns som en skattjakt. Verktyget körs i vilken webbläsare som helst, på 11 språk, utan att ett konto behövs och utan något att installera."
+    ],
+    "howToUse": [
+      "Välj ett tema så att den livliga scenen passar din grupp.",
+      "Skriv ut bladet hitta och räkna till varje barn.",
+      "Be barnen hitta målbilden och räkna hur många som dyker upp.",
+      "Kontrollera totalsumman mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Gör en snabb titta-och-hitta-sökning av scenen tillsammans först.",
+      "Använd det i en station för tidig räkning.",
+      "Uppmuntra barnen att röra vid varje föremål en gång medan de räknar.",
+      "Knyt scenens tema till en saga eller ett ämne."
     ]
   },
   "find-objects": {
@@ -119,28 +743,52 @@
       "Låt barnen jämföra antal i par: vem hittade flest av varje föremål?"
     ]
   },
-  "word-guess": {
-    "slug": "gissa-ordet-skapare",
-    "name": "Gissa-ordet-skaparen",
-    "tagline": "Gör arbetsblad där en bild ger ledtråden och barnen skriver in ordet bokstav för bokstav.",
-    "metaTitle": "Skapa gissa ordet-arbetsblad utifrån bild – gratis | LessonCraftStudio",
-    "metaDescription": "Skapa gissa ordet-arbetsblad gratis i webbläsaren. Barnen ser en bild och skriver ordet bokstav för bokstav. Med facit. Ingen inloggning, ingen installation.",
+  "crossword": {
+    "slug": "bildkorsord-skapare",
+    "name": "Bildkorsords-skaparen",
+    "tagline": "Gör korsord där en bild blir ledtråden – perfekt för läsande nybörjare.",
+    "metaTitle": "Skapa bildkorsord för barn – gratis arbetsblad | LessonCraftStudio",
+    "metaDescription": "Skapa bildkorsord gratis i webbläsaren med dina egna ord och bilder. Få ett färdigt arbetsblad med facit på nolltid. Ingen inloggning, ingen installation.",
     "about": [
-      "Gissa-ordet-skaparen gör arbetsblad där barnen ser en bild och fyller i ordet bokstav för bokstav i tomma rutor. Det är ett effektivt sätt att koppla ljud, bild och stavning för läsande nybörjare.",
-      "Du väljer bilder ur ett bibliotek på över 3000 illustrationer och bestämmer hur mycket hjälp barnen ska få, till exempel några förifyllda bokstäver. Verktyget körs gratis direkt i webbläsaren utan inloggning eller installation.",
-      "Tillsammans med bladet får du ett facit med alla rätta ord. Skriv ut så många kopior du vill och använd dem som återkommande lästräning, helt kostnadsfritt."
+      "Bildkorsords-skaparen bygger korsord där varje ledtråd är en bild i stället för en text. Barnen tittar på illustrationen och skriver in ordet, vilket gör korsord tillgängliga redan innan eleverna läser flytande.",
+      "Du skriver in orden du vill ha och kopplar dem till bilder ur ett bibliotek på över 3000 illustrationer. Verktyget ordnar rutnätet åt dig och allt görs gratis direkt i webbläsaren utan inloggning eller installation.",
+      "Tillsammans med korsordet får du ett ifyllt facit som gör det enkelt att rätta. Skriv ut så många blad du behöver och återanvänd dem läsår efter läsår, helt utan kostnad."
     ],
     "howToUse": [
-      "Välj de bilder vars ord barnen ska gissa och skriva.",
-      "Ställ in hur många bokstäver som ska vara förifyllda som stöd.",
-      "Förhandsgranska bladet så att svårighetsgraden passar åldern.",
-      "Skriv ut arbetsbladet och facitet och dela ut i klassen."
+      "Skriv in orden som ska byggas in i korsordet.",
+      "Välj en passande bild som ledtråd till varje ord.",
+      "Låt verktyget lägga ut rutnätet och förhandsgranska resultatet.",
+      "Skriv ut korsordet och facitet och dela ut i klassen."
     ],
     "classroomIdeas": [
-      "Träna bokstavsljud genom att låta barnen ljuda sig fram till ordet under bilden.",
-      "Använd temabilder, till exempel djur eller frukter, för att bygga ordförråd.",
-      "Lös några ord gemensamt på tavlan innan barnen arbetar på egen hand.",
-      "Låt bladet bli en självrättande station där barnen kontrollerar med facitet."
+      "Träna stavning och bokstavsljud genom att låta bilden visa vilket ord som ska skrivas.",
+      "Gör ett temakorsord, till exempel om fordon eller mat, kopplat till bilderna.",
+      "Lös ett gemensamt korsord på tavlan och samtala om varje ords stavning.",
+      "Använd korsordet som rolig repetition av veckans ord innan helgen."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "skattjakt-skapare",
+    "name": "Skapa skattjakt",
+    "tagline": "Följ riktningspilarna fram till skatten",
+    "metaTitle": "Gör skattjakt gratis — följ riktningarna | LessonCraftStudio",
+    "metaDescription": "Skapa gratis skattjakt för 6-8 år. Barnen följer riktningspilar över en rutnätskarta till skatten — utskrivbart, facit, ingen inloggning, 11 språk.",
+    "about": [
+      "Att följa riktningar över en karta är ett spännande sätt att öva rumsligt tänkande, och den här gratis skaparen av skattjakt bygger just ett sådant äventyr. En rutnätskarta med bilder och riktningspilar vägleder barnet steg för steg mot den gömda skatten.",
+      "Att läsa pilar och röra sig åt rätt håll tränar riktningsord, ordningsföljd och en tidig känsla för position och rörelse, allt inlindat i en berättelse som barnen älskar. Att nå skatten ger ett tydligt, motiverande mål att arbeta mot, ett steg i taget genom hela kartan.",
+      "Välj ett tema och en svårighetsgrad som passar din grupp, från en kort hunt med få steg till en längre med fler, och skriv sedan ut kartan med dess facit för snabb rättning eller självrättning. Verktyget öppnas i webbläsaren, på 11 språk, utan inloggning och utan installation."
+    ],
+    "howToUse": [
+      "Välj ett tema och hur många steg jakten ska ta.",
+      "Skriv ut skattjaktskartan till varje barn.",
+      "Be barnen följa varje riktningspil ett steg i taget.",
+      "Kontrollera den slutliga skattrutan mot det utskrivna facit."
+    ],
+    "classroomIdeas": [
+      "Gå några riktningssteg över ett golvrutnät tillsammans först.",
+      "Använd det för att öva orden upp, ner, vänster och höger.",
+      "Lägg det som en problemlösningsutmaning i en station.",
+      "Öka antalet steg när barnen blir tryggare."
     ]
   },
   "labels": {

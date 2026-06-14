@@ -1,26 +1,242 @@
 {
-  "cryptogram": {
-    "slug": "cryptogram-maker",
-    "name": "Cryptogram Maker",
-    "tagline": "Make printable picture cryptograms in any theme",
-    "metaTitle": "Free Cryptogram Maker — Printable Picture Cryptograms | LessonCraftStudio",
-    "metaDescription": "A free cryptogram maker for the classroom. Pick a theme, type your words, and print a picture cryptogram with an answer key — no login, no install, in 11 languages.",
+  "addition": {
+    "slug": "addition-worksheet-maker",
+    "name": "Addition Worksheet Maker",
+    "tagline": "Make picture and number addition practice in seconds",
+    "metaTitle": "Free Addition Worksheet Maker — Printable Math | LessonCraftStudio",
+    "metaDescription": "A free addition worksheet maker for ages 5-7. Create printable picture and number addition sums with an answer key — no login, no install, 11 languages.",
     "about": [
-      "A cryptogram turns reading into a friendly puzzle: each letter is hidden behind a little picture or symbol, and children crack the code to reveal the words. This free cryptogram maker lets a teacher build one in under a minute — choose a theme, type the words you want, and the page sets up the picture key and the coded message for you.",
-      "Because you choose the words, the puzzle can match exactly what your class is learning — this week's spelling list, vocabulary from a story, or names from a topic. The generator draws on a library of more than 3,000 themed pictures, so the symbols feel inviting rather than abstract for early readers.",
-      "Everything prints cleanly as a worksheet, and an answer key prints alongside it. There is no account to create and nothing to install — it runs in the browser, works in 11 languages, and the finished puzzle is completely free to use in your classroom."
+      "Adding is one of the very first math skills, and it sticks best when children can see what they are doing. This free addition worksheet maker builds simple sums using friendly pictures as well as plain numbers, so a child can count objects to reach the total before they work with digits alone.",
+      "You decide how the page looks: choose small numbers for beginners or a little more challenge, and pick a picture theme so the objects feel familiar. Each child writes the answer in the box, which keeps the focus on getting the total right.",
+      "Every worksheet you make can be printed straight away, and most come with a matching answer key so you can check work quickly or let children self-mark. It runs in your browser with no account, in any of 11 languages."
     ],
     "howToUse": [
-      "Pick a theme and type the words or short message you want children to decode.",
-      "Print the worksheet and hand out the picture key so children can match each symbol to its letter.",
-      "Let children work in pairs to crack the code, decoding one word at a time.",
-      "Use the answer key to check the solution together at the end."
+      "Choose picture sums for the youngest counters or number-only sums for children ready to add with digits.",
+      "Pick a theme and a number range that suits your group.",
+      "Print the worksheet and have each child write the total in the answer box.",
+      "Check the finished sums against the printed answer key."
     ],
     "classroomIdeas": [
-      "Hide this week's spelling words inside a cryptogram for early-finisher practice.",
-      "Build a cryptogram from a story's key vocabulary as a comprehension warm-up.",
-      "Make a short coded message — like a class reward or a riddle — for children to reveal.",
-      "Pair a cryptogram with a topic so children decode the words they are about to learn."
+      "Run a quick warm-up sheet at the start of a math lesson.",
+      "Set picture addition at a hands-on counting centre.",
+      "Send a short sheet home for extra practice with a parent.",
+      "Pair a themed sheet with the topic you are exploring that week."
+    ]
+  },
+  "subtraction": {
+    "slug": "subtraction-worksheet-maker",
+    "name": "Subtraction Worksheet Maker",
+    "tagline": "Build picture and number take-away practice fast",
+    "metaTitle": "Free Subtraction Worksheet Maker — Printable Math | LessonCraftStudio",
+    "metaDescription": "A free subtraction worksheet maker for ages 5-7. Make printable picture and number take-away sums with an answer key — no login, no install, 11 languages.",
+    "about": [
+      "Taking away can feel harder than adding, so children benefit from seeing the objects disappear before they work with numbers. This free subtraction worksheet maker creates picture take-away sums and number sums, letting young learners cross out objects to find what is left.",
+      "Set the level to match your class: keep the numbers low for first attempts, then raise them as confidence grows. A picture theme makes each problem feel like a small story rather than a row of digits.",
+      "Worksheets print instantly and most include an answer key, so checking is fast and children can mark their own as soon as they are ready. Everything works in the browser with no sign-in, across 11 languages."
+    ],
+    "howToUse": [
+      "Pick picture take-aways for beginners or number-only sums for older children.",
+      "Choose a theme and a number range to suit your learners.",
+      "Print the page and ask each child to write what is left in the box.",
+      "Use the printed answer key to check or to support self-marking."
+    ],
+    "classroomIdeas": [
+      "Model crossing-out together on the board before children start.",
+      "Offer picture subtraction at a counting station with objects to move.",
+      "Send a short practice sheet home between lessons.",
+      "Mix in a themed page when you want a fresh context for the same skill."
+    ]
+  },
+  "code-addition": {
+    "slug": "code-addition-worksheet-maker",
+    "name": "Code Addition Worksheet Maker",
+    "tagline": "Decode the pictures, then add the numbers",
+    "metaTitle": "Free Code Addition Worksheet Maker — Decode & Add | LessonCraftStudio",
+    "metaDescription": "A free code addition worksheet maker for ages 5-7. Children decode a picture key, then add — printable with an answer key, no login, no install, 11 languages.",
+    "about": [
+      "This free code addition worksheet maker adds a little puzzle to ordinary sums. A small legend pairs each picture or symbol with a number, and the child reads the key first, swaps the pictures for their values, and then adds them up.",
+      "The extra decoding step builds careful reading and one-to-one matching alongside the math, which makes it a satisfying challenge for children who already add small numbers confidently.",
+      "Choose a theme for the legend pictures and a number range to control the difficulty. Each sheet prints with a matching answer key, so you can confirm both the decoding and the totals. It runs in any browser, in 11 languages, with no account needed."
+    ],
+    "howToUse": [
+      "Pick a theme so the legend pictures suit your class.",
+      "Set a number range that matches your learners' adding skills.",
+      "Print the sheet and remind children to read the picture key first.",
+      "Check both the decoded numbers and the totals against the answer key."
+    ],
+    "classroomIdeas": [
+      "Introduce it as a 'secret code' activity to spark curiosity.",
+      "Use it as an extension for children who finish plain addition early.",
+      "Walk through one decoded sum together before children work alone.",
+      "Tie the legend theme to a current topic for a themed challenge."
+    ]
+  },
+  "more-less": {
+    "slug": "more-or-less-worksheet-maker",
+    "name": "More or Less Worksheet Maker",
+    "tagline": "Compare two groups: more, less, or equal",
+    "metaTitle": "Free More or Less Worksheet Maker — Compare Groups | LessonCraftStudio",
+    "metaDescription": "A free more-or-less worksheet maker for ages 3-5. Children compare picture groups and mark more, less, or equal — printable, no login, 11 languages.",
+    "about": [
+      "Before children count accurately they need a feel for quantity, and comparing is where that begins. This free more-or-less worksheet maker shows two groups of pictures side by side and asks the child to decide which has more, which has fewer, or whether they are the same.",
+      "Because the focus is on comparison rather than exact totals, even very young learners can take part by looking and reasoning. Marking the answer keeps the task simple and clear for little hands.",
+      "Choose a picture theme to keep the groups engaging and print the page when you are ready. Most sheets include an answer key for quick checking. It works in the browser in 11 languages, with nothing to install."
+    ],
+    "howToUse": [
+      "Choose a theme so the two groups use familiar pictures.",
+      "Print the worksheet for each child.",
+      "Ask children to look at both groups and mark more, less, or equal.",
+      "Check answers against the printed key."
+    ],
+    "classroomIdeas": [
+      "Use it during a 'how many' circle-time discussion.",
+      "Set it at a math centre alongside real objects to compare.",
+      "Model the words 'more', 'fewer', and 'the same' as you mark one together.",
+      "Send a sheet home to practise comparing everyday groups."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "math-puzzle-maker",
+    "name": "Math Puzzle Maker",
+    "tagline": "Mixed-operation number puzzles with missing parts",
+    "metaTitle": "Free Math Puzzle Maker — Printable Number Puzzles | LessonCraftStudio",
+    "metaDescription": "A free math puzzle maker for ages 6-8. Create printable mixed-operation puzzles with missing numbers and an answer key — no login, no install, 11 languages.",
+    "about": [
+      "This free math puzzle maker turns arithmetic into a thinking game. Instead of a straight sum, a number or an operation is left blank, and the child has to reason backwards to work out what belongs in the gap.",
+      "Filling in a missing number or sign builds a deeper sense of how addition and subtraction connect, which helps children move beyond memorised facts toward genuine number sense.",
+      "You can mix the operations and set the difficulty to match your group, and each puzzle prints with an answer key so checking is straightforward. The variety keeps children thinking rather than guessing. It opens in any browser, in 11 languages, with no sign-in and nothing to download."
+    ],
+    "howToUse": [
+      "Choose which operations to include and how challenging to make them.",
+      "Print the puzzle sheet for your class.",
+      "Ask children to find the missing number or operation in each line.",
+      "Confirm each answer with the printed key."
+    ],
+    "classroomIdeas": [
+      "Use a puzzle as a short brain-warmer to open math time.",
+      "Offer it as an extension for children ready to reason, not just recall.",
+      "Solve one tricky line together and talk through the thinking.",
+      "Set a small set as an early-finisher challenge."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "math-worksheet-maker",
+    "name": "Math Worksheet Maker",
+    "tagline": "General arithmetic practice with mixed problem types",
+    "metaTitle": "Free Math Worksheet Maker — Printable Arithmetic | LessonCraftStudio",
+    "metaDescription": "A free math worksheet maker for ages 5-7. Build printable mixed arithmetic practice with an answer key — no login, no install, works in 11 languages.",
+    "about": [
+      "Sometimes you just need a clean page of practice, and this free math worksheet maker delivers exactly that. It builds a general arithmetic sheet with a mix of problem types so children get varied, well-rounded practice in one place.",
+      "Because the problems vary, children can't coast on a single pattern; they have to read each question and choose how to solve it, which keeps them attentive and flexible.",
+      "Set the level to fit your learners, print the sheet, and use the matching answer key to mark it quickly. It is an easy way to keep a steady supply of fresh practice without the prep. The tool runs in the browser, in 11 languages, with no account and nothing to download."
+    ],
+    "howToUse": [
+      "Choose the problem types and difficulty for your group.",
+      "Print the worksheet for each child.",
+      "Have children read each problem carefully and solve it.",
+      "Check the page against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Use it as a quick weekly review of skills you have taught.",
+      "Set it as independent work while you run a small group.",
+      "Send one home as light, varied practice.",
+      "Build a short sheet for a fast formative check at the end of a unit."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "alphabet-train-maker",
+    "name": "Alphabet Train Maker",
+    "tagline": "Fill the missing letters along a friendly train",
+    "metaTitle": "Free Alphabet Train Maker — Missing Letters | LessonCraftStudio",
+    "metaDescription": "A free alphabet train maker for ages 3-5. Children fill missing letters in sequence along a printable train — answer key, no login, no install, 11 languages.",
+    "about": [
+      "Learning the order of the alphabet becomes playful when it rides along a train. This free alphabet train maker lays the letters out as carriages with a few gaps, and the child writes the missing letters to keep the sequence going.",
+      "Working out which letter comes next reinforces letter order and recognition at the same time, and the train shape gives little learners a clear left-to-right path to follow.",
+      "You can adjust how many letters are missing to match your group, and each train prints with an answer key. The cheerful train shape makes the alphabet feel inviting rather than like a test. It opens in any browser, in 11 languages, with no login required and nothing to install."
+    ],
+    "howToUse": [
+      "Choose how many letters to leave blank for your learners.",
+      "Print the alphabet train for each child.",
+      "Ask children to read along and write the missing letters in order.",
+      "Check the completed train with the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Sing or say the alphabet together before children fill the gaps.",
+      "Use it at a literacy centre alongside magnetic letters.",
+      "Start with one or two gaps, then add more as children grow.",
+      "Send a train home to practise letter order with a grown-up."
+    ]
+  },
+  "prepositions": {
+    "slug": "prepositions-worksheet-maker",
+    "name": "Prepositions Worksheet Maker",
+    "tagline": "Pick the right position word for each picture",
+    "metaTitle": "Free Prepositions Worksheet Maker — Position Words | LessonCraftStudio",
+    "metaDescription": "A free prepositions worksheet maker for ages 5-7. Children choose in, on, under and more from picture scenes — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Position words like in, on, under, and beside describe where things are, and children grasp them most easily with a picture in front of them. This free prepositions worksheet maker shows a small scene and asks the child to choose the word that describes where an object sits.",
+      "Matching the right preposition to a clear image builds both spatial vocabulary and careful looking, and it gives early readers a meaningful way to use words they hear every day.",
+      "Choose a theme for the scenes and print the sheet, complete with an answer key for fast checking. It runs in the browser in 11 languages, with no account and no install."
+    ],
+    "howToUse": [
+      "Choose a theme so the picture scenes suit your class.",
+      "Print the worksheet for each child.",
+      "Ask children to look at each scene and pick the correct position word.",
+      "Check the chosen words against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Act out a preposition with a toy and a box before children start.",
+      "Use it to support a language-rich 'where is it?' discussion.",
+      "Pair it with everyday classroom objects for a hands-on follow-up.",
+      "Link the scene theme to a story you are reading together."
+    ]
+  },
+  "word-guess": {
+    "slug": "word-guess-maker",
+    "name": "Word Guess Maker",
+    "tagline": "Create picture word-guess puzzles in minutes",
+    "metaTitle": "Free Word Guess Maker — Printable Picture Word Puzzles | LessonCraftStudio",
+    "metaDescription": "A free word guess maker for early readers. Build printable picture word-guess puzzles from your own words, with an answer key — no login, in 11 languages.",
+    "about": [
+      "A word-guess puzzle shows a picture and a row of empty boxes, and children work out the word and write it in one letter at a time. This free word guess maker builds the puzzle from your own words, pairing each with a clear picture so even early readers can join in.",
+      "Because the words are yours, the puzzle matches the class — first sounds, spelling words, or topic vocabulary. Looking at a picture and sounding out its word links meaning, sound, and spelling together, which is exactly how early reading grows.",
+      "Each puzzle prints with an answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished worksheet is free to print and use however your classroom needs it."
+    ],
+    "howToUse": [
+      "Type the words you want children to guess; each one is paired with a picture.",
+      "Print the worksheet and ask children to name the picture and write the word in the boxes.",
+      "Encourage children to sound the word out and fill the letters they are sure of first.",
+      "Check the words together using the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Build a word-guess sheet from this week's spelling or sound focus.",
+      "Use picture clues so children connect a word's meaning to its spelling.",
+      "Make a topic word-guess as a fun end-of-unit review.",
+      "Let early finishers guess a few bonus words while others complete the page."
+    ]
+  },
+  "word-scramble": {
+    "slug": "word-scramble-maker",
+    "name": "Word Scramble Maker",
+    "tagline": "Unscramble the letters using a picture clue",
+    "metaTitle": "Free Word Scramble Maker — Printable Spelling | LessonCraftStudio",
+    "metaDescription": "A free word scramble maker for ages 6-8. Children unscramble letters with a picture clue and write the word — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Rearranging jumbled letters into a real word is a quick, fun way to practise spelling. This free word scramble maker mixes up the letters of each word and pairs it with a picture clue, so children have something to aim for as they work it out.",
+      "Unscrambling encourages children to hold letters in mind, try arrangements, and sound the word out, which strengthens both spelling and phonics in a low-pressure puzzle.",
+      "Choose a picture theme so the words fit your topic, and print the sheet with its answer key. Themed words tie the spelling practice neatly to whatever you are learning that week. The tool works in any browser, in 11 languages, with no sign-in and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme so the scrambled words match your vocabulary focus.",
+      "Print the worksheet for each child.",
+      "Ask children to use the picture clue and write the unscrambled word.",
+      "Check the spellings against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Solve one scramble together, saying each sound aloud.",
+      "Use it to review topic or theme vocabulary at the week's end.",
+      "Set it as a spelling centre with letter tiles to move around.",
+      "Send a short scramble home for playful spelling practice."
     ]
   },
   "wordsearch": {
@@ -47,6 +263,390 @@
       "Use a word search as a calm settling task at the start of the day."
     ]
   },
+  "cryptogram": {
+    "slug": "cryptogram-maker",
+    "name": "Cryptogram Maker",
+    "tagline": "Make printable picture cryptograms in any theme",
+    "metaTitle": "Free Cryptogram Maker — Printable Picture Cryptograms | LessonCraftStudio",
+    "metaDescription": "A free cryptogram maker for the classroom. Pick a theme, type your words, and print a picture cryptogram with an answer key — no login, no install, in 11 languages.",
+    "about": [
+      "A cryptogram turns reading into a friendly puzzle: each letter is hidden behind a little picture or symbol, and children crack the code to reveal the words. This free cryptogram maker lets a teacher build one in under a minute — choose a theme, type the words you want, and the page sets up the picture key and the coded message for you.",
+      "Because you choose the words, the puzzle can match exactly what your class is learning — this week's spelling list, vocabulary from a story, or names from a topic. The generator draws on a library of more than 3,000 themed pictures, so the symbols feel inviting rather than abstract for early readers.",
+      "Everything prints cleanly as a worksheet, and an answer key prints alongside it. There is no account to create and nothing to install — it runs in the browser, works in 11 languages, and the finished puzzle is completely free to use in your classroom."
+    ],
+    "howToUse": [
+      "Pick a theme and type the words or short message you want children to decode.",
+      "Print the worksheet and hand out the picture key so children can match each symbol to its letter.",
+      "Let children work in pairs to crack the code, decoding one word at a time.",
+      "Use the answer key to check the solution together at the end."
+    ],
+    "classroomIdeas": [
+      "Hide this week's spelling words inside a cryptogram for early-finisher practice.",
+      "Build a cryptogram from a story's key vocabulary as a comprehension warm-up.",
+      "Make a short coded message — like a class reward or a riddle — for children to reveal.",
+      "Pair a cryptogram with a topic so children decode the words they are about to learn."
+    ]
+  },
+  "writing": {
+    "slug": "handwriting-worksheet-maker",
+    "name": "Handwriting Worksheet Maker",
+    "tagline": "Guided practice sheets for letters and words",
+    "metaTitle": "Free Handwriting Worksheet Maker — Printable Practice | LessonCraftStudio",
+    "metaDescription": "A free handwriting worksheet maker for ages 4-7. Make printable letter and word practice with guide lines — no login, no install, works in 11 languages.",
+    "about": [
+      "Neat handwriting comes from steady, repeated practice on lines that show children where letters belong. This free handwriting worksheet maker creates printable practice sheets with clear guide lines for tracing and writing letters and words.",
+      "Guide lines help children control letter height and placement, while tracing first and writing after builds the muscle memory that makes handwriting feel natural over time.",
+      "You choose the letters or words to practise, then print the sheet for your class. This is a print activity built for pencil and paper, so there is no online answer key. It is a quick way to give every child the right letters to work on. It runs in the browser in 11 languages, with no account required and nothing to install."
+    ],
+    "howToUse": [
+      "Enter the letters or words you want children to practise.",
+      "Print the guided practice sheet for each child.",
+      "Have children trace the model first, then write on their own.",
+      "Watch for correct letter formation and offer gentle reminders."
+    ],
+    "classroomIdeas": [
+      "Use a daily warm-up sheet to build a handwriting routine.",
+      "Practise the letters from this week's phonics focus.",
+      "Set it at a writing centre with comfortable pencils.",
+      "Send a sheet home so families can support the same letters."
+    ]
+  },
+  "big-small": {
+    "slug": "big-and-small-worksheet-maker",
+    "name": "Big and Small Worksheet Maker",
+    "tagline": "Mark which picture is big and which is small",
+    "metaTitle": "Free Big and Small Worksheet Maker — Size Sorting | LessonCraftStudio",
+    "metaDescription": "A free big-and-small worksheet maker for ages 3-5. Children compare picture sizes and mark big vs small — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Comparing size is one of the earliest ways children describe the world, and it lays groundwork for later measuring. This free big-and-small worksheet maker shows the same kind of picture at two sizes and asks the child to mark which is big and which is small.",
+      "Because the task is purely about looking and comparing, even pre-readers can join in confidently, building the vocabulary of big, small, bigger, and smaller as they go.",
+      "Pick a friendly theme for the pictures and print the sheet, which comes with an answer key for quick checking. Familiar themed pictures help young children stay interested while they compare. It works in the browser in 11 languages, with no login and no install."
+    ],
+    "howToUse": [
+      "Choose a theme so the pictures feel familiar to your group.",
+      "Print the worksheet for each child.",
+      "Ask children to mark the big picture and the small picture.",
+      "Check the answers against the printed key."
+    ],
+    "classroomIdeas": [
+      "Compare two real classroom objects before children start.",
+      "Use it at a sorting centre with big and small toys.",
+      "Model the words big, small, bigger, and smaller as you go.",
+      "Send a sheet home to spot big and small things around the house."
+    ]
+  },
+  "pattern-train": {
+    "slug": "pattern-train-maker",
+    "name": "Pattern Train Maker",
+    "tagline": "Pick what comes next in the picture pattern",
+    "metaTitle": "Free Pattern Train Maker — What Comes Next | LessonCraftStudio",
+    "metaDescription": "A free pattern train maker for ages 5-7. Children find what comes next in a picture pattern along a train — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Spotting a pattern and predicting what comes next is early algebra in disguise. This free pattern train maker shows a repeating picture pattern running along a train with one carriage left empty, and the child works out which picture fills the gap.",
+      "Continuing a pattern asks children to notice the rule, hold it in mind, and apply it, which sharpens reasoning and attention in a playful, visual way.",
+      "Choose a theme for the pattern pictures and set the difficulty to suit your group. Each train prints with an answer key for quick checking. The friendly train keeps the pattern clear and left-to-right. It opens in any browser, in 11 languages, with no sign-in and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme and how complex the repeating pattern should be.",
+      "Print the pattern train for your class.",
+      "Ask children to say the pattern aloud and choose what comes next.",
+      "Check the chosen picture against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Clap or chant a pattern together before children try the page.",
+      "Build a matching pattern with blocks at a centre.",
+      "Start with simple ABAB patterns, then add complexity.",
+      "Link the pattern theme to your current topic."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "pattern-worksheet-maker",
+    "name": "Pattern Worksheet Maker",
+    "tagline": "Complete each row of picture and shape patterns",
+    "metaTitle": "Free Pattern Worksheet Maker — Printable Patterns | LessonCraftStudio",
+    "metaDescription": "A free pattern worksheet maker for ages 6-8. Children complete rows of picture and shape patterns — printable with an answer key, no login, 11 languages.",
+    "about": [
+      "This free pattern worksheet maker gives children several patterns to finish on a single page, building on the simple repeats they met as younger learners. Each row shows a picture or shape sequence that the child completes.",
+      "With more rows and richer rules, children practise reading a pattern carefully, identifying the repeating unit, and extending it accurately, which deepens the reasoning behind early algebra. Seeing several patterns at once also helps children compare different kinds of rules.",
+      "Choose a theme and difficulty to match your class, then print the sheet with its answer key for fast marking. Several patterns on one page make it easy to give plenty of practice in a single sitting. The tool runs in the browser, in 11 languages, with no account and nothing to install."
+    ],
+    "howToUse": [
+      "Choose a theme and how challenging the patterns should be.",
+      "Print the worksheet for each child.",
+      "Ask children to find the rule in each row and complete it.",
+      "Check the finished rows against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Discuss the repeating unit of one pattern as a class first.",
+      "Set it as independent work after a pattern mini-lesson.",
+      "Offer harder patterns as an early-finisher extension.",
+      "Combine picture and shape rows for varied practice."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "draw-and-color-maker",
+    "name": "Draw and Color Maker",
+    "tagline": "Copy a picture square by square, then color it in",
+    "metaTitle": "Free Draw and Color Maker — Grid Copy Drawing | LessonCraftStudio",
+    "metaDescription": "A free draw-and-color maker for ages 5-8. Children copy a picture square by square onto a grid, then color it — printable PDF, no login, 11 languages.",
+    "about": [
+      "Copying a picture one square at a time helps children slow down and really look, and this free draw-and-color maker turns that into a calm, rewarding activity. A model picture sits on a grid, and the child recreates it square by square onto a blank grid before coloring.",
+      "The grid breaks a whole picture into manageable parts, which builds spatial awareness, careful observation, and pencil control, all while the child feels the pride of drawing something themselves.",
+      "Choose a theme picture and print the activity as a PDF for pencil-and-crayon work. There is no online answer key because the finished art is the result. It works in the browser in 11 languages, with no login."
+    ],
+    "howToUse": [
+      "Pick a theme picture for children to copy.",
+      "Print the PDF with the model grid and the blank grid.",
+      "Ask children to copy the picture one square at a time.",
+      "Let children color the finished drawing however they like."
+    ],
+    "classroomIdeas": [
+      "Use it as a quiet, focused activity after busy lessons.",
+      "Set it at an art or fine-motor centre.",
+      "Talk about which square to start with to support planning.",
+      "Display the finished pictures together as class artwork."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "drawing-lines-maker",
+    "name": "Drawing Lines Maker",
+    "tagline": "Trace straight, curved, and zigzag pre-writing paths",
+    "metaTitle": "Free Drawing Lines Maker — Pre-Writing Tracing | LessonCraftStudio",
+    "metaDescription": "A free drawing-lines maker for ages 3-5. Children trace straight, curved, and zigzag paths for fine-motor control — printable PDF, no login, 11 languages.",
+    "about": [
+      "Before children can write letters they need steady hands and good control of a pencil. This free drawing-lines maker creates pre-writing sheets full of dotted paths to trace, including straight lines, gentle curves, and lively zigzags.",
+      "Following a path from start to finish trains the small muscles and hand-eye coordination that handwriting depends on, and the variety of line shapes keeps the practice fresh and fun.",
+      "Print the sheets as a PDF for pencil work; because the goal is the tracing itself, there is no answer key. It is a simple, ready-made way to build the control that handwriting needs. The tool runs in the browser in 11 languages, with no account and nothing to install."
+    ],
+    "howToUse": [
+      "Choose the line types you want, from straight to curved to zigzag.",
+      "Print the PDF practice sheet for each child.",
+      "Show children how to trace each dotted path from start to end.",
+      "Encourage a comfortable pencil grip and steady, flowing strokes."
+    ],
+    "classroomIdeas": [
+      "Use it as a daily fine-motor warm-up before writing.",
+      "Set it at a station with chunky pencils and crayons.",
+      "Trace a big version in the air together first.",
+      "Send a sheet home to build pre-writing control with families."
+    ]
+  },
+  "coloring": {
+    "slug": "coloring-page-maker",
+    "name": "Coloring Page Maker",
+    "tagline": "Turn themed outline pictures into printable coloring pages",
+    "metaTitle": "Free Coloring Page Maker — Printable Coloring | LessonCraftStudio",
+    "metaDescription": "A free coloring page maker for ages 3-7. Create printable themed outline coloring pages from a huge picture library — PDF, no login, works in 11 languages.",
+    "about": [
+      "Coloring is calming, creative, and great for little hands, and this free coloring page maker lets you build pages from a large library of themed outline pictures in moments. Choose the pictures you want and print clean, child-friendly outlines.",
+      "Filling in outlines helps children develop pencil control and color awareness while giving them space to express themselves, making it a gentle, screen-free activity that suits a wide range of ages.",
+      "Pages print as a PDF ready for crayons or pencils, with no answer key needed. With thousands of pictures to choose from you can always match a page to the moment. The tool runs in any browser, in 11 languages, and never asks for a login or an install."
+    ],
+    "howToUse": [
+      "Choose a theme and the outline pictures you would like.",
+      "Print the coloring page as a PDF.",
+      "Hand out crayons or colored pencils.",
+      "Let children color the pictures freely."
+    ],
+    "classroomIdeas": [
+      "Use a themed page to settle the class at the start of the day.",
+      "Match the pictures to a story or topic you are exploring.",
+      "Offer it as a calm choice during free-play time.",
+      "Send a coloring page home for a relaxed activity with family."
+    ]
+  },
+  "chart-count": {
+    "slug": "chart-count-maker",
+    "name": "Chart Count Maker",
+    "tagline": "Count the pictures and fill the bar chart",
+    "metaTitle": "Free Chart Count Maker — Picture Bar Graphs | LessonCraftStudio",
+    "metaDescription": "A free chart-count maker for ages 5-7. Children count pictured items and fill a bar chart for each category — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Reading and making simple charts is an early data skill, and pictures make it approachable. This free chart-count maker shows groups of items and a blank bar chart, and the child counts each kind of picture and fills the bar to match.",
+      "Turning a count into a bar helps children connect quantity with a visual height, an important step toward understanding graphs and comparing amounts at a glance.",
+      "Choose a theme for the pictures and print the worksheet with its answer key for quick checking. It is a gentle, hands-on first step into reading and making graphs. The tool opens in the browser, in 11 languages, with no sign-in and no install."
+    ],
+    "howToUse": [
+      "Pick a theme so the items to count suit your class.",
+      "Print the chart-count worksheet for each child.",
+      "Ask children to count each kind of picture and fill the matching bar.",
+      "Check the completed chart against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Build a class bar chart from real objects before the worksheet.",
+      "Use it to record results of a quick class survey.",
+      "Talk about which bar is tallest and shortest together.",
+      "Set it at a math centre as hands-on data practice."
+    ]
+  },
+  "matching": {
+    "slug": "matching-worksheet-maker",
+    "name": "Matching Worksheet Maker",
+    "tagline": "Draw lines to connect the pictures that go together",
+    "metaTitle": "Free Matching Worksheet Maker — Connect the Pairs | LessonCraftStudio",
+    "metaDescription": "A free matching worksheet maker for ages 5-7. Children draw lines connecting picture pairs that go together — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Matching pairs is a clear, satisfying way for children to show what they know. This free matching worksheet maker places pictures in two columns, and the child draws a line to join each one to its partner on the other side.",
+      "Connecting the right pairs builds visual discrimination and reasoning about how things relate, and the simple line-drawing keeps the task accessible for early learners.",
+      "Choose a theme so the pairings fit your topic, then print the sheet with its answer key for fast checking. It is a flexible way to check understanding of how things connect. It works in any browser, in 11 languages, with no account needed and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme so the picture pairs suit your lesson.",
+      "Print the matching worksheet for each child.",
+      "Ask children to draw a line from each picture to its partner.",
+      "Check the connected pairs against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Model one match on the board, explaining why the pair belongs.",
+      "Use it to review themed vocabulary or related concepts.",
+      "Set it at a center with physical cards to match first.",
+      "Send a matching sheet home for quick, clear practice."
+    ]
+  },
+  "grid-match": {
+    "slug": "grid-match-maker",
+    "name": "Grid Match Maker",
+    "tagline": "Place each picture into its matching grid cell",
+    "metaTitle": "Free Grid Match Maker — Picture Grid Activity | LessonCraftStudio",
+    "metaDescription": "A free grid-match maker for ages 5-7. Children place or draw each picture into its matching grid cell — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Working within a grid asks children to track rows and columns carefully, and this free grid-match maker builds an activity around exactly that. The child works out where each picture belongs and places or draws it into the correct cell.",
+      "Reading a grid position strengthens spatial reasoning and careful matching, skills that support everything from early geometry to reading a table later on. It also encourages children to work in an orderly, left-to-right and top-to-bottom way.",
+      "Choose a theme for the pictures and print the worksheet, which comes with an answer key for quick checking. Working within a grid is also great preparation for reading tables later on. The tool runs in the browser in 11 languages, with no login and nothing to download."
+    ],
+    "howToUse": [
+      "Pick a theme so the grid pictures suit your group.",
+      "Print the grid-match worksheet for each child.",
+      "Ask children to place or draw each picture in its matching cell.",
+      "Check the completed grid against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Point out rows and columns together before children begin.",
+      "Use it as a careful-looking challenge at a math centre.",
+      "Start with a small grid and grow it as confidence builds.",
+      "Tie the picture theme to your current topic."
+    ]
+  },
+  "shadow-match": {
+    "slug": "shadow-match-maker",
+    "name": "Shadow Match Maker",
+    "tagline": "Match each picture to its correct shadow",
+    "metaTitle": "Free Shadow Match Maker — Match the Silhouette | LessonCraftStudio",
+    "metaDescription": "A free shadow-match maker for ages 5-7. Children match each picture to its correct shadow silhouette — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Matching a picture to its shadow is a delightful test of careful observation. This free shadow-match maker shows colorful pictures alongside their black silhouettes, and the child links each picture to the shadow that fits it exactly.",
+      "Because shadows strip away color and detail, children have to focus on shape and outline, sharpening visual discrimination and attention in a puzzle that feels like a game. That same focus on outline supports early letter and shape recognition too.",
+      "Choose a theme for the pictures and print the sheet, complete with an answer key for quick checking. The contrast between full color and plain shadow makes it both calming and absorbing. It works in any browser, in 11 languages, with no sign-in or install."
+    ],
+    "howToUse": [
+      "Pick a theme so the pictures and shadows suit your class.",
+      "Print the shadow-match worksheet for each child.",
+      "Ask children to match each picture to its correct shadow.",
+      "Check the matches against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Make real shadows with a flashlight and objects to introduce it.",
+      "Use it as a focused visual-perception centre activity.",
+      "Discuss how shape alone helps you recognise an object.",
+      "Link the picture theme to a story or topic."
+    ]
+  },
+  "bingo": {
+    "slug": "bingo-card-maker",
+    "name": "Bingo Card Maker",
+    "tagline": "Printable picture bingo cards and calling cards",
+    "metaTitle": "Free Bingo Card Maker — Printable Picture Bingo | LessonCraftStudio",
+    "metaDescription": "A free bingo card maker for ages 5-7. Create printable picture bingo cards and calling cards for vocabulary games — no login, no install, 11 languages.",
+    "about": [
+      "Bingo is a joyful way to practise vocabulary together, and this free bingo card maker builds picture cards plus matching calling cards in a few clicks. Each child gets a card of themed pictures while you call them out one at a time.",
+      "Listening for a picture and marking it builds word recognition, vocabulary, and listening skills, and the shared game energy makes new words memorable for the whole class. Because every card is a little different, children stay alert through the whole round.",
+      "Choose a theme so the pictures fit your topic, then print enough varied cards for your group along with the calling cards. The tool runs in the browser, in 11 languages, with no account required."
+    ],
+    "howToUse": [
+      "Pick a theme so the bingo pictures match your vocabulary focus.",
+      "Print one bingo card per child and the set of calling cards.",
+      "Call pictures one at a time and have children mark them.",
+      "Celebrate a full row or full card as the winning line."
+    ],
+    "classroomIdeas": [
+      "Use it to revise topic vocabulary in a lively whole-class game.",
+      "Call the words in another language for language learners.",
+      "Let a child be the caller to practise reading the pictures.",
+      "Run a quick round as a fun lesson opener or transition."
+    ]
+  },
+  "picture-sort": {
+    "slug": "picture-sort-maker",
+    "name": "Picture Sort Maker",
+    "tagline": "Sort each picture under the right category",
+    "metaTitle": "Free Picture Sort Maker — Sorting & Categories | LessonCraftStudio",
+    "metaDescription": "A free picture-sort maker for ages 5-7. Children sort pictures into the correct categories — printable with an answer key, no login, no install, 11 languages.",
+    "about": [
+      "Sorting things into groups is how children make sense of the world, and this free picture-sort maker turns it into a clear worksheet. You provide category headers and a set of pictures, and the child decides which group each picture belongs to.",
+      "Categorising builds reasoning, vocabulary, and the ability to notice what items have in common, an essential thinking skill that supports science, math, and literacy alike. Naming the rule for each group also gives children plenty to talk about.",
+      "Choose a theme and your categories, then print the sheet with its answer key for fast checking. Sorting practice works across math, science, and language, so it earns its place often. The tool opens in any browser, in 11 languages, with no login or install."
+    ],
+    "howToUse": [
+      "Choose the categories and a theme for the pictures.",
+      "Print the picture-sort worksheet for each child.",
+      "Ask children to sort each picture under the correct heading.",
+      "Check the sorted groups against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Sort real objects into hoops before the worksheet.",
+      "Use it to support a science or topic categorisation lesson.",
+      "Talk through one picture together, naming why it fits a group.",
+      "Set it at a center with cut-out pictures to physically sort."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "missing-pieces-maker",
+    "name": "Missing Pieces Maker",
+    "tagline": "Find the piece that completes the picture",
+    "metaTitle": "Free Missing Pieces Maker — Complete the Picture | LessonCraftStudio",
+    "metaDescription": "A free missing-pieces maker for ages 5-7. Children find the piece that completes each picture — printable with an answer key, no login, 11 languages.",
+    "about": [
+      "Working out which piece completes a picture is a satisfying visual puzzle for young learners. This free missing-pieces maker shows a picture with a gap, and the child finds or draws the part that fits to make it whole.",
+      "Completing the image asks children to picture the whole, compare shapes and details, and reason about what is missing, building spatial awareness and careful observation. It is the kind of quiet, focused task that suits a calm moment in the day.",
+      "Choose a theme for the pictures and print the worksheet, which comes with an answer key for quick checking. It is a satisfying, low-pressure puzzle that children return to happily. It runs in the browser in 11 languages, with no account and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme so the pictures suit your group.",
+      "Print the missing-pieces worksheet for each child.",
+      "Ask children to find or draw the piece that completes each picture.",
+      "Check the answers against the printed key."
+    ],
+    "classroomIdeas": [
+      "Solve one together, describing what is missing and why.",
+      "Use it as a visual-reasoning challenge at a quiet centre.",
+      "Pair it with simple jigsaw puzzles for hands-on practice.",
+      "Link the picture theme to your current topic."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "odd-one-out-maker",
+    "name": "Odd One Out Maker",
+    "tagline": "Spot the picture that doesn't belong",
+    "metaTitle": "Free Odd One Out Maker — Spot the Difference | LessonCraftStudio",
+    "metaDescription": "A free odd-one-out maker for ages 5-7. Children mark the picture that doesn't belong and say why — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Deciding what doesn't belong is a sharp little reasoning task, and this free odd-one-out maker builds it from pictures. Each group shares something in common except one, and the child marks the picture that doesn't fit, and can explain why.",
+      "Finding the odd one out asks children to notice a shared property and test each item against it, strengthening categorising, vocabulary, and the habit of justifying an answer. There is often more than one way to explain a choice, which sparks good discussion.",
+      "Choose a theme so the groups suit your topic, then print the sheet with its answer key for quick checking. Asking children to explain their choice turns a quick task into rich talk. The tool works in any browser, in 11 languages, with no login required and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme so the picture groups suit your class.",
+      "Print the odd-one-out worksheet for each child.",
+      "Ask children to mark the picture that doesn't belong in each group.",
+      "Check the answers against the printed key and discuss the reasons."
+    ],
+    "classroomIdeas": [
+      "Solve one group aloud, asking children to explain their thinking.",
+      "Use it to deepen a sorting or categorising lesson.",
+      "Encourage children to say why their choice doesn't fit.",
+      "Set it as a quick reasoning warm-up."
+    ]
+  },
   "sudoku": {
     "slug": "sudoku-maker",
     "name": "Sudoku Maker",
@@ -71,28 +671,52 @@
       "Offer a number sudoku as an extension for children ready for a challenge."
     ]
   },
-  "crossword": {
-    "slug": "crossword-maker",
-    "name": "Crossword Maker",
-    "tagline": "Make picture crosswords kids can solve",
-    "metaTitle": "Free Crossword Maker — Printable Picture Crosswords for Kids | LessonCraftStudio",
-    "metaDescription": "A free crossword maker for the classroom. Build picture-clue crosswords from your own words and print with an answer key — no login, in 11 languages.",
+  "picture-path": {
+    "slug": "picture-path-maker",
+    "name": "Picture Path Maker",
+    "tagline": "Draw the path through the maze to the goal",
+    "metaTitle": "Free Picture Path Maker — Printable Maze | LessonCraftStudio",
+    "metaDescription": "A free picture-path maker for ages 5-7. Children draw the path through a grid maze from start to goal — printable, answer key, no login, 11 languages.",
     "about": [
-      "A crossword links spelling and meaning: children read a clue, think of the word, and fit it into the grid letter by letter. This free crossword maker builds one from your own words, and for early readers the clues can be pictures instead of sentences — a child sees a picture and writes the word it names.",
-      "Because you supply the words, the crossword matches your class — topic vocabulary, spelling words, or words from a story. Picture clues make it accessible to children who are still building reading confidence, while written clues stretch those who are ready.",
-      "Every crossword prints with its answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished puzzle is free to print and use however your classroom needs it."
+      "Mazes are a classic way to build planning and pencil control, and this free picture-path maker creates a grid maze for young learners. The child draws a path from the start to the goal, moving only through the allowed cells.",
+      "Finding a route asks children to plan ahead, follow rules about where they can go, and stay neat and steady with their pencil, all in an activity that feels like pure fun. The clear grid keeps even tricky mazes approachable for young learners.",
+      "Choose a theme and difficulty to match your group, then print the maze with its answer key for quick checking. It opens in the browser, in 11 languages, with no sign-in or install."
     ],
     "howToUse": [
-      "Type the words you want in the puzzle and choose picture or written clues.",
-      "Print the crossword and let children read each clue and fill the matching word.",
-      "Encourage children to start with the words they are most sure of and use crossing letters as hints.",
-      "Check answers together using the printed answer key."
+      "Pick a theme and how challenging the maze should be.",
+      "Print the picture-path worksheet for each child.",
+      "Ask children to draw the path from start to goal through the open cells.",
+      "Check the route against the printed answer key."
     ],
     "classroomIdeas": [
-      "Build a picture-clue crossword to revise this week's vocabulary.",
-      "Use a crossword as a spelling check that feels like a game rather than a test.",
-      "Make a topic crossword children complete at the end of a unit.",
-      "Let children suggest the words for next week's class crossword."
+      "Trace the path with a finger before using a pencil.",
+      "Use it as a calm, focused activity at a quiet centre.",
+      "Start with simple mazes and build up the difficulty.",
+      "Talk about planning a route before rushing in."
+    ]
+  },
+  "find-and-count": {
+    "slug": "find-and-count-maker",
+    "name": "Find and Count Maker",
+    "tagline": "Find the picture in the scene and count how many",
+    "metaTitle": "Free Find and Count Maker — Search & Count | LessonCraftStudio",
+    "metaDescription": "A free find-and-count maker for ages 3-5. Children find a target picture in a busy scene and count how many — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Searching a busy picture and counting what you find is pure delight for young children, and this free find-and-count maker turns that into early math practice. A lively scene hides a target picture, and the child finds each one and counts how many there are.",
+      "Hunting and counting builds visual scanning, one-to-one counting, and focused attention, and the playful search keeps little learners happily engaged. Because it feels like a game, children practise counting for longer without tiring.",
+      "Choose a theme so the scene suits your class, then print the worksheet with its answer key for quick checking. The hidden-picture format makes counting feel like a treasure hunt. The tool runs in any browser, in 11 languages, with no account needed and nothing to install."
+    ],
+    "howToUse": [
+      "Pick a theme so the busy scene suits your group.",
+      "Print the find-and-count worksheet for each child.",
+      "Ask children to find the target picture and count how many appear.",
+      "Check the total against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Do a quick I-spy search of the scene together first.",
+      "Use it at an early-counting centre.",
+      "Encourage children to touch each item once as they count.",
+      "Link the scene theme to a story or topic."
     ]
   },
   "find-objects": {
@@ -119,28 +743,52 @@
       "Turn it into an I Spy game — call out an object and let children point or circle it."
     ]
   },
-  "word-guess": {
-    "slug": "word-guess-maker",
-    "name": "Word Guess Maker",
-    "tagline": "Create picture word-guess puzzles in minutes",
-    "metaTitle": "Free Word Guess Maker — Printable Picture Word Puzzles | LessonCraftStudio",
-    "metaDescription": "A free word guess maker for early readers. Build printable picture word-guess puzzles from your own words, with an answer key — no login, in 11 languages.",
+  "crossword": {
+    "slug": "crossword-maker",
+    "name": "Crossword Maker",
+    "tagline": "Make picture crosswords kids can solve",
+    "metaTitle": "Free Crossword Maker — Printable Picture Crosswords for Kids | LessonCraftStudio",
+    "metaDescription": "A free crossword maker for the classroom. Build picture-clue crosswords from your own words and print with an answer key — no login, in 11 languages.",
     "about": [
-      "A word-guess puzzle shows a picture and a row of empty boxes, and children work out the word and write it in one letter at a time. This free word guess maker builds the puzzle from your own words, pairing each with a clear picture so even early readers can join in.",
-      "Because the words are yours, the puzzle matches the class — first sounds, spelling words, or topic vocabulary. Looking at a picture and sounding out its word links meaning, sound, and spelling together, which is exactly how early reading grows.",
-      "Each puzzle prints with an answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished worksheet is free to print and use however your classroom needs it."
+      "A crossword links spelling and meaning: children read a clue, think of the word, and fit it into the grid letter by letter. This free crossword maker builds one from your own words, and for early readers the clues can be pictures instead of sentences — a child sees a picture and writes the word it names.",
+      "Because you supply the words, the crossword matches your class — topic vocabulary, spelling words, or words from a story. Picture clues make it accessible to children who are still building reading confidence, while written clues stretch those who are ready.",
+      "Every crossword prints with its answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished puzzle is free to print and use however your classroom needs it."
     ],
     "howToUse": [
-      "Type the words you want children to guess; each one is paired with a picture.",
-      "Print the worksheet and ask children to name the picture and write the word in the boxes.",
-      "Encourage children to sound the word out and fill the letters they are sure of first.",
-      "Check the words together using the printed answer key."
+      "Type the words you want in the puzzle and choose picture or written clues.",
+      "Print the crossword and let children read each clue and fill the matching word.",
+      "Encourage children to start with the words they are most sure of and use crossing letters as hints.",
+      "Check answers together using the printed answer key."
     ],
     "classroomIdeas": [
-      "Build a word-guess sheet from this week's spelling or sound focus.",
-      "Use picture clues so children connect a word's meaning to its spelling.",
-      "Make a topic word-guess as a fun end-of-unit review.",
-      "Let early finishers guess a few bonus words while others complete the page."
+      "Build a picture-clue crossword to revise this week's vocabulary.",
+      "Use a crossword as a spelling check that feels like a game rather than a test.",
+      "Make a topic crossword children complete at the end of a unit.",
+      "Let children suggest the words for next week's class crossword."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "treasure-hunt-maker",
+    "name": "Treasure Hunt Maker",
+    "tagline": "Follow the direction arrows to reach the treasure",
+    "metaTitle": "Free Treasure Hunt Maker — Follow the Directions | LessonCraftStudio",
+    "metaDescription": "A free treasure-hunt maker for ages 6-8. Children follow direction arrows across a grid map to the treasure — printable, answer key, no login, 11 languages.",
+    "about": [
+      "Following directions across a map is an exciting way to practise spatial thinking, and this free treasure-hunt maker builds just such an adventure. A picture grid map with direction arrows guides the child step by step toward the hidden treasure.",
+      "Reading arrows and moving the right way trains directional language, sequencing, and an early sense of position and movement, all wrapped up in a story children love. Reaching the treasure gives a clear, motivating goal to work toward.",
+      "Choose a theme and difficulty to suit your group, then print the map with its answer key for quick checking. The tool opens in the browser, in 11 languages, with no login or install."
+    ],
+    "howToUse": [
+      "Pick a theme and how many steps the hunt should take.",
+      "Print the treasure-hunt map for each child.",
+      "Ask children to follow each direction arrow one step at a time.",
+      "Check the final treasure square against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Walk a few direction steps across a floor grid together first.",
+      "Use it to practise the words up, down, left, and right.",
+      "Set it as a problem-solving challenge at a centre.",
+      "Increase the number of steps as children grow more confident."
     ]
   },
   "labels": {

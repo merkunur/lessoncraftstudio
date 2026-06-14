@@ -34,22 +34,34 @@ import fi from '@/messages/tool-content/fi.json';
 import makerEn from '@/messages/maker-content/en.json';
 import makerDe from '@/messages/maker-content/de.json';
 import makerEs from '@/messages/maker-content/es.json';
+import makerFr from '@/messages/maker-content/fr.json';
 import makerIt from '@/messages/maker-content/it.json';
+import makerPt from '@/messages/maker-content/pt.json';
 import makerNl from '@/messages/maker-content/nl.json';
 import makerSv from '@/messages/maker-content/sv.json';
+import makerDa from '@/messages/maker-content/da.json';
+import makerNo from '@/messages/maker-content/no.json';
+import makerFi from '@/messages/maker-content/fi.json';
 
 // Tool keys present in every tool-content file. Kept local (not imported from
 // tool-content.ts) so this module has zero runtime deps beyond the JSON — safe
 // for the Edge middleware bundle.
 const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler'] as const;
-// Maker keys present in every maker-content file (pilot set, §maker-content.ts).
-const MAKER_KEYS = ['cryptogram', 'wordsearch', 'sudoku', 'crossword', 'find-objects', 'word-guess'] as const;
+// Maker keys present in every maker-content file (all 33, §maker-content.ts).
+const MAKER_KEYS = [
+  'addition', 'subtraction', 'code-addition', 'more-less', 'math-puzzle', 'math-worksheet',
+  'alphabet-train', 'prepositions', 'word-guess', 'word-scramble', 'wordsearch', 'cryptogram', 'writing',
+  'big-small', 'pattern-train', 'pattern-worksheet', 'draw-and-color', 'drawing-lines', 'coloring', 'chart-count',
+  'matching', 'grid-match', 'shadow-match', 'bingo', 'picture-sort',
+  'missing-pieces', 'odd-one-out', 'sudoku', 'picture-path',
+  'find-and-count', 'find-objects', 'crossword', 'treasure-hunt',
+] as const;
 
 const FILES = [en, de, es, fr, it, pt, nl, sv, da, no, fi] as unknown as Array<
   Record<string, { slug?: string }>
 >;
 
-const MAKER_FILES = [makerEn, makerDe, makerEs, makerIt, makerNl, makerSv] as unknown as Array<
+const MAKER_FILES = [makerEn, makerDe, makerEs, makerFr, makerIt, makerPt, makerNl, makerSv, makerDa, makerNo, makerFi] as unknown as Array<
   Record<string, { slug?: string }>
 >;
 

@@ -1,26 +1,242 @@
 {
-  "cryptogram": {
-    "slug": "generador-criptogramas",
-    "name": "Generador de criptogramas",
-    "tagline": "Crea criptogramas con imágenes para que los niños descifren palabras letra a letra.",
-    "metaTitle": "Generador de criptogramas para niños | LessonCraftStudio",
-    "metaDescription": "Crea criptogramas gratis para infantil y primaria. Los niños descifran palabras con pistas de imágenes. Genera la ficha y la hoja de respuestas en segundos.",
+  "addition": {
+    "slug": "generador-fichas-suma",
+    "name": "Generador de fichas de suma",
+    "tagline": "Crea sumas con imágenes y números en segundos",
+    "metaTitle": "Generador de fichas de suma gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de suma gratis para niños de 5 a 7 años. Crea sumas con dibujos o números y su hoja de respuestas. Sin registro, en el navegador, 11 idiomas.",
     "about": [
-      "El generador de criptogramas convierte palabras sencillas en pequeños enigmas que los niños resuelven cambiando símbolos o imágenes por letras. Es una forma divertida de practicar el reconocimiento de letras, el deletreo y la atención, perfecta para los primeros lectores de 3 a 7 años.",
-      "Eliges el vocabulario o un tema, y la herramienta crea automáticamente la clave de descifrado usando más de 3000 imágenes ilustradas. Cada ficha sale lista para imprimir, con un diseño claro y letras grandes pensadas para manos pequeñas y ojos que aún están aprendiendo a leer.",
-      "Es completamente gratis, funciona directamente en el navegador y no requiere registro ni instalación. Junto a cada criptograma se genera su hoja de respuestas, así que puedes corregir de un vistazo o dejar que los peques se autocorrijan."
+      "Sumar es una de las primeras destrezas matemáticas, y se afianza mejor cuando los niños pueden ver lo que están haciendo. Este generador de fichas de suma gratuito crea sumas sencillas con dibujos simpáticos y también con números, de modo que cada niño puede contar objetos hasta llegar al total antes de trabajar solo con cifras.",
+      "Tú decides cómo se ve la ficha: elige números pequeños para quienes empiezan o un poco más de reto, y escoge un tema de imágenes para que los objetos resulten familiares. Cada niño escribe el resultado en la casilla, lo que mantiene la atención en lograr el total correcto.",
+      "Toda ficha que generes se puede imprimir al instante, y la mayoría incluye su hoja de respuestas para que corrijas rápido o dejes que los niños se autocorrijan. Funciona en el navegador, sin necesidad de crear una cuenta y en cualquiera de los 11 idiomas, con más de 3000 imágenes temáticas a tu disposición."
     ],
     "howToUse": [
-      "Escribe las palabras que quieres trabajar o elige un tema con imágenes para generar la clave de pistas.",
-      "Pulsa generar y revisa la vista previa del criptograma y de su hoja de respuestas.",
-      "Imprime la ficha (una para cada niño o una por pareja para trabajar en equipo).",
-      "Reparte las fichas y deja que los niños descifren cada palabra letra a letra."
+      "Elige sumas con dibujos para los más pequeños o sumas solo con números para quienes ya suman con cifras.",
+      "Escoge un tema y un rango de números adecuado a tu grupo.",
+      "Imprime la ficha y pide a cada niño que escriba el total en la casilla.",
+      "Comprueba las sumas resueltas con la hoja de respuestas impresa."
     ],
     "classroomIdeas": [
-      "Crea un criptograma con el vocabulario de la semana para repasar antes de un nuevo tema.",
-      "Esconde un mensaje secreto sencillo ('hola clase') como actividad de buenos días.",
-      "Úsalo como rincón de lectura: los niños descifran su nombre o el de un compañero.",
-      "Prepara una ficha por estaciones del año o por animales y enlázala con tu proyecto del trimestre."
+      "Usa una ficha rápida como calentamiento al inicio de la clase de matemáticas.",
+      "Coloca la suma con dibujos en un rincón de conteo manipulativo.",
+      "Envía una ficha corta a casa para practicar con la familia.",
+      "Combina una ficha temática con el tema que estéis explorando esa semana."
+    ]
+  },
+  "subtraction": {
+    "slug": "generador-fichas-resta",
+    "name": "Generador de fichas de resta",
+    "tagline": "Crea restas con imágenes y números al momento",
+    "metaTitle": "Generador de fichas de resta gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de resta gratis para niños de 5 a 7 años. Crea restas con dibujos o números y su hoja de respuestas. Sin registro, en el navegador, 11 idiomas.",
+    "about": [
+      "Quitar puede resultar más difícil que sumar, así que a los niños les ayuda ver cómo desaparecen los objetos antes de trabajar con números. Este generador de fichas de resta gratuito crea restas con dibujos y restas con números, dejando que los más pequeños tachen objetos para descubrir cuántos quedan.",
+      "Ajusta el nivel a tu clase: mantén los números bajos en los primeros intentos y súbelos a medida que crece la confianza. Un tema de imágenes convierte cada problema en una pequeña historia en lugar de una fila de cifras.",
+      "Las fichas se imprimen al instante y la mayoría incluye su hoja de respuestas, de modo que corregir es rápido y los niños pueden autocorregirse en cuanto estén listos. Todo funciona en el navegador, sin iniciar sesión y en 11 idiomas, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige restas con dibujos para quienes empiezan o restas solo con números para los mayores.",
+      "Escoge un tema y un rango de números que se ajuste a tus alumnos.",
+      "Imprime la ficha y pide a cada niño que escriba cuántos quedan en la casilla.",
+      "Usa la hoja de respuestas impresa para corregir o apoyar la autocorrección."
+    ],
+    "classroomIdeas": [
+      "Modela tachar objetos juntos en la pizarra antes de que empiecen.",
+      "Ofrece la resta con dibujos en un rincón de conteo con objetos para mover.",
+      "Envía una ficha corta de práctica a casa entre clases.",
+      "Incluye una ficha temática cuando quieras un contexto nuevo para la misma destreza."
+    ]
+  },
+  "code-addition": {
+    "slug": "generador-suma-codificada",
+    "name": "Generador de suma codificada",
+    "tagline": "Descifra los dibujos y luego suma los números",
+    "metaTitle": "Generador de suma codificada gratis: descifra y suma | LessonCraftStudio",
+    "metaDescription": "Generador de suma codificada gratis para 5 a 7 años. Los niños descifran una clave de dibujos y luego suman. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Este generador de suma codificada gratuito añade un pequeño juego de ingenio a las sumas de siempre. Una leyenda asocia cada dibujo o símbolo con un número; el niño lee primero la clave, cambia los dibujos por sus valores y después los suma.",
+      "El paso extra de descifrar desarrolla la lectura atenta y la correspondencia uno a uno junto con el cálculo, lo que lo convierte en un reto muy satisfactorio para los niños que ya suman números pequeños con seguridad.",
+      "Elige un tema para los dibujos de la leyenda y un rango de números para controlar la dificultad. Cada ficha se imprime con su hoja de respuestas, para que confirmes tanto el descifrado como los totales. Funciona en cualquier navegador, en 11 idiomas y sin necesidad de cuenta, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos de la leyenda encajen con tu clase.",
+      "Fija un rango de números acorde a la destreza de cálculo de tus alumnos.",
+      "Imprime la ficha y recuerda a los niños que lean primero la clave de dibujos.",
+      "Comprueba tanto los números descifrados como los totales con la hoja de respuestas."
+    ],
+    "classroomIdeas": [
+      "Preséntalo como una actividad de \"código secreto\" para despertar la curiosidad.",
+      "Úsalo como ampliación para quienes terminan pronto la suma normal.",
+      "Resuelve una suma descifrada juntos antes de que trabajen solos.",
+      "Vincula el tema de la leyenda a un contenido actual para un reto temático."
+    ]
+  },
+  "more-less": {
+    "slug": "generador-comparacion-cantidades",
+    "name": "Generador de comparación de cantidades",
+    "tagline": "Compara dos grupos: más, menos o igual",
+    "metaTitle": "Generador de fichas de más y menos gratis: comparar grupos | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de comparar cantidades gratis para 3 a 5 años. Los niños comparan grupos de dibujos y marcan más, menos o igual. Sin registro, 11 idiomas.",
+    "about": [
+      "Antes de contar con exactitud, los niños necesitan una intuición de la cantidad, y comparar es donde todo empieza. Este generador de fichas para comparar cantidades, gratuito, muestra dos grupos de dibujos uno al lado del otro y pide al niño decidir cuál tiene más, cuál tiene menos o si son iguales.",
+      "Como el foco está en comparar y no en los totales exactos, incluso los más pequeños pueden participar mirando y razonando. Marcar la respuesta mantiene la tarea sencilla y clara para las manos pequeñas.",
+      "Elige un tema de imágenes para que los grupos resulten atractivos e imprime la ficha cuando estés listo. La mayoría incluye su hoja de respuestas para corregir rápido. Funciona en el navegador, en 11 idiomas y sin nada que instalar, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dos grupos usen dibujos familiares.",
+      "Imprime una ficha para cada niño.",
+      "Pide a los niños que miren ambos grupos y marquen más, menos o igual.",
+      "Comprueba las respuestas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Úsalo durante una conversación de asamblea sobre \"cuántos hay\".",
+      "Colócalo en un rincón de matemáticas junto a objetos reales para comparar.",
+      "Modela las palabras \"más\", \"menos\" e \"igual\" mientras marcáis una juntos.",
+      "Envía una ficha a casa para practicar comparando grupos cotidianos."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "generador-puzzles-matematicos",
+    "name": "Generador de puzzles matemáticos",
+    "tagline": "Puzzles numéricos con partes que faltan",
+    "metaTitle": "Generador de puzzles matemáticos gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de puzzles matemáticos gratis para 6 a 8 años. Crea puzzles de operaciones con números que faltan y su hoja de respuestas. Sin registro, 11 idiomas.",
+    "about": [
+      "Este generador de puzzles matemáticos gratuito convierte el cálculo en un juego de razonamiento. En lugar de una operación directa, se deja en blanco un número o un signo, y el niño tiene que razonar al revés para averiguar qué falta en el hueco.",
+      "Completar un número o un signo que falta desarrolla un sentido más profundo de cómo se relacionan la suma y la resta, lo que ayuda a los niños a ir más allá de los datos memorizados hacia un verdadero sentido numérico.",
+      "Puedes combinar las operaciones y ajustar la dificultad a tu grupo, y cada puzzle se imprime con su hoja de respuestas para que corregir sea sencillo. La variedad mantiene a los niños pensando en lugar de adivinar. Se abre en cualquier navegador, en 11 idiomas, sin registro y sin nada que descargar."
+    ],
+    "howToUse": [
+      "Elige qué operaciones incluir y cuánto reto quieres en cada puzzle.",
+      "Imprime la ficha de puzzles para tu clase.",
+      "Pide a los niños que encuentren el número o el signo que falta en cada línea.",
+      "Confirma cada respuesta con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Usa un puzzle como calentamiento mental para abrir la clase de matemáticas.",
+      "Ofrécelo como ampliación a los niños listos para razonar, no solo recordar.",
+      "Resuelve una línea difícil juntos y comentad el razonamiento.",
+      "Propón un pequeño conjunto como reto para quienes terminan pronto."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "generador-ejercicios-matematicas",
+    "name": "Generador de ejercicios de matemáticas",
+    "tagline": "Práctica general de cálculo con tipos variados",
+    "metaTitle": "Generador de ejercicios de matemáticas gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de ejercicios de matemáticas gratis para 5 a 7 años. Crea práctica de cálculo variada con hoja de respuestas. Sin registro, en el navegador, 11 idiomas.",
+    "about": [
+      "A veces solo necesitas una página limpia de práctica, y este generador de ejercicios de matemáticas gratuito hace exactamente eso. Crea una ficha de cálculo general con una mezcla de tipos de problemas, de modo que los niños practican de forma variada y completa en un solo lugar.",
+      "Como los problemas varían, los niños no pueden ir en piloto automático con un único patrón; tienen que leer cada pregunta y decidir cómo resolverla, lo que los mantiene atentos y flexibles.",
+      "Ajusta el nivel a tus alumnos, imprime la ficha y usa la hoja de respuestas para corregirla rápidamente. Es una forma fácil de mantener un suministro constante de práctica fresca sin preparación. La herramienta funciona en el navegador, en 11 idiomas, sin cuenta y sin nada que descargar."
+    ],
+    "howToUse": [
+      "Elige los tipos de problemas y la dificultad para tu grupo.",
+      "Imprime la ficha para cada niño.",
+      "Pide a los niños que lean cada problema con atención y lo resuelvan.",
+      "Corrige la página con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Úsalo como un repaso semanal rápido de las destrezas que has enseñado.",
+      "Plantéalo como trabajo autónomo mientras atiendes a un grupo pequeño.",
+      "Envía una ficha a casa como práctica ligera y variada.",
+      "Prepara una ficha corta para una evaluación rápida al cerrar una unidad."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "generador-tren-abecedario",
+    "name": "Generador del tren del abecedario",
+    "tagline": "Completa las letras que faltan en un tren simpático",
+    "metaTitle": "Generador del tren del abecedario gratis: letras que faltan | LessonCraftStudio",
+    "metaDescription": "Generador del tren del abecedario gratis para 3 a 5 años. Los niños completan las letras que faltan en orden. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Aprender el orden del abecedario se vuelve un juego cuando viaja en un tren. Este generador del tren del abecedario gratuito coloca las letras como vagones con algunos huecos, y el niño escribe las letras que faltan para que la secuencia siga adelante.",
+      "Averiguar qué letra viene después refuerza a la vez el orden y el reconocimiento de las letras, y la forma de tren ofrece a los más pequeños un camino claro de izquierda a derecha para seguir.",
+      "Puedes ajustar cuántas letras faltan para adaptarte a tu grupo, y cada tren se imprime con su hoja de respuestas. La forma alegre del tren hace que el abecedario resulte acogedor en lugar de un examen. Se abre en cualquier navegador, en 11 idiomas, sin necesidad de registro y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige cuántas letras dejar en blanco según tus alumnos.",
+      "Imprime el tren del abecedario para cada niño.",
+      "Pide a los niños que lean siguiendo el tren y escriban en orden las letras que faltan.",
+      "Comprueba el tren completado con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Cantad o decid el abecedario juntos antes de completar los huecos.",
+      "Úsalo en un rincón de lectoescritura junto a letras magnéticas.",
+      "Empieza con uno o dos huecos y añade más a medida que crecen.",
+      "Envía un tren a casa para practicar el orden de las letras con un adulto."
+    ]
+  },
+  "prepositions": {
+    "slug": "generador-fichas-preposiciones",
+    "name": "Generador de fichas de preposiciones",
+    "tagline": "Elige la palabra de posición correcta para cada dibujo",
+    "metaTitle": "Generador de fichas de preposiciones gratis: palabras de lugar | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de preposiciones gratis para 5 a 7 años. Los niños eligen en, sobre, debajo y más a partir de escenas. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Las palabras de posición como en, sobre, debajo y al lado describen dónde están las cosas, y los niños las captan con más facilidad teniendo un dibujo delante. Este generador de fichas de preposiciones gratuito muestra una pequeña escena y pide al niño elegir la palabra que describe dónde se encuentra un objeto.",
+      "Asociar la preposición correcta a una imagen clara desarrolla a la vez el vocabulario espacial y la observación atenta, y ofrece a los primeros lectores una forma significativa de usar palabras que oyen cada día.",
+      "Elige un tema para las escenas e imprime la ficha, con su hoja de respuestas para corregir deprisa. Funciona en el navegador, en 11 idiomas, sin cuenta y sin instalación, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un tema para que las escenas encajen con tu clase.",
+      "Imprime la ficha para cada niño.",
+      "Pide a los niños que miren cada escena y elijan la palabra de posición correcta.",
+      "Comprueba las palabras elegidas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Representa una preposición con un juguete y una caja antes de empezar.",
+      "Úsalo para apoyar una conversación rica de \"¿dónde está?\".",
+      "Combínalo con objetos cotidianos del aula para un seguimiento manipulativo.",
+      "Vincula el tema de las escenas a un cuento que estéis leyendo juntos."
+    ]
+  },
+  "word-guess": {
+    "slug": "generador-adivinar-palabras",
+    "name": "Generador de adivinar la palabra",
+    "tagline": "Crea fichas donde los niños adivinan la palabra a partir de un dibujo.",
+    "metaTitle": "Generador de adivinar palabras con imagen | LessonCraftStudio",
+    "metaDescription": "Crea fichas gratis para adivinar palabras con imagen en infantil y primaria. Los niños completan las letras que faltan. Incluye hoja de respuestas para imprimir.",
+    "about": [
+      "El generador de adivinar la palabra muestra un dibujo y unas casillas para que los niños completen la palabra letra a letra. Según el nivel, puedes dejar todas las casillas vacías o dar algunas letras como pista, lo que lo hace ideal desde infantil hasta primaria.",
+      "Eliges las palabras o un tema entre más de 3000 imágenes y la herramienta crea la ficha asociando cada dibujo con su palabra. Es perfecto para practicar el deletreo, los sonidos iniciales y el vocabulario de forma muy visual.",
+      "Funciona gratis en el navegador, sin registro ni instalación. Cada ficha se genera con su hoja de respuestas, así que la corrección es inmediata y los niños pueden incluso autocorregirse."
+    ],
+    "howToUse": [
+      "Introduce las palabras que quieres trabajar o elige un tema con imágenes.",
+      "Decide cuántas letras dar como pista según el nivel del grupo.",
+      "Genera la ficha y revisa la vista previa junto a la hoja de respuestas.",
+      "Imprime y reparte: los niños miran el dibujo y completan las letras que faltan."
+    ],
+    "classroomIdeas": [
+      "Empieza dando la primera letra para trabajar los sonidos iniciales en infantil.",
+      "Aumenta la dificultad dejando todas las casillas vacías para los lectores más avanzados.",
+      "Crea fichas por campos de vocabulario y úsalas como repaso semanal.",
+      "Conviértelo en juego oral: los niños dicen la palabra en voz alta antes de escribirla."
+    ]
+  },
+  "word-scramble": {
+    "slug": "generador-palabras-desordenadas",
+    "name": "Generador de palabras desordenadas",
+    "tagline": "Ordena las letras con ayuda de un dibujo",
+    "metaTitle": "Generador de palabras desordenadas gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de palabras desordenadas gratis para 6 a 8 años. Los niños ordenan letras con una pista de dibujo y escriben la palabra. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Reordenar letras revueltas hasta formar una palabra real es una forma rápida y divertida de practicar la ortografía. Este generador de palabras desordenadas gratuito mezcla las letras de cada palabra y la acompaña de una pista de dibujo, para que los niños tengan una meta clara mientras la resuelven.",
+      "Ordenar las letras anima a los niños a retenerlas en la mente, probar combinaciones y sonorizar la palabra, lo que refuerza a la vez la ortografía y la conciencia fonológica en un juego sin presión.",
+      "Elige un tema de imágenes para que las palabras encajen con tu contenido e imprime la ficha con su hoja de respuestas. Las palabras temáticas vinculan la práctica de ortografía con lo que estéis aprendiendo esa semana. La herramienta funciona en cualquier navegador, en 11 idiomas, sin registro y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema para que las palabras coincidan con tu foco de vocabulario.",
+      "Imprime la ficha para cada niño.",
+      "Pide a los niños que usen la pista de dibujo y escriban la palabra ordenada.",
+      "Comprueba la ortografía con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Resolved una palabra juntos, diciendo cada sonido en voz alta.",
+      "Úsalo para repasar el vocabulario del tema al final de la semana.",
+      "Plantéalo como rincón de ortografía con fichas de letras para mover.",
+      "Envía una palabra corta a casa para una práctica de ortografía lúdica."
     ]
   },
   "wordsearch": {
@@ -47,6 +263,390 @@
       "Combínala con un dictado: primero buscan la palabra y luego la copian debajo."
     ]
   },
+  "cryptogram": {
+    "slug": "generador-criptogramas",
+    "name": "Generador de criptogramas",
+    "tagline": "Crea criptogramas con imágenes para que los niños descifren palabras letra a letra.",
+    "metaTitle": "Generador de criptogramas para niños | LessonCraftStudio",
+    "metaDescription": "Crea criptogramas gratis para infantil y primaria. Los niños descifran palabras con pistas de imágenes. Genera la ficha y la hoja de respuestas en segundos.",
+    "about": [
+      "El generador de criptogramas convierte palabras sencillas en pequeños enigmas que los niños resuelven cambiando símbolos o imágenes por letras. Es una forma divertida de practicar el reconocimiento de letras, el deletreo y la atención, perfecta para los primeros lectores de 3 a 7 años.",
+      "Eliges el vocabulario o un tema, y la herramienta crea automáticamente la clave de descifrado usando más de 3000 imágenes ilustradas. Cada ficha sale lista para imprimir, con un diseño claro y letras grandes pensadas para manos pequeñas y ojos que aún están aprendiendo a leer.",
+      "Es completamente gratis, funciona directamente en el navegador y no requiere registro ni instalación. Junto a cada criptograma se genera su hoja de respuestas, así que puedes corregir de un vistazo o dejar que los peques se autocorrijan."
+    ],
+    "howToUse": [
+      "Escribe las palabras que quieres trabajar o elige un tema con imágenes para generar la clave de pistas.",
+      "Pulsa generar y revisa la vista previa del criptograma y de su hoja de respuestas.",
+      "Imprime la ficha (una para cada niño o una por pareja para trabajar en equipo).",
+      "Reparte las fichas y deja que los niños descifren cada palabra letra a letra."
+    ],
+    "classroomIdeas": [
+      "Crea un criptograma con el vocabulario de la semana para repasar antes de un nuevo tema.",
+      "Esconde un mensaje secreto sencillo ('hola clase') como actividad de buenos días.",
+      "Úsalo como rincón de lectura: los niños descifran su nombre o el de un compañero.",
+      "Prepara una ficha por estaciones del año o por animales y enlázala con tu proyecto del trimestre."
+    ]
+  },
+  "writing": {
+    "slug": "generador-fichas-escritura",
+    "name": "Generador de fichas de escritura",
+    "tagline": "Práctica guiada de letras y palabras con pauta",
+    "metaTitle": "Generador de fichas de escritura gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de escritura gratis para 4 a 7 años. Crea práctica de letras y palabras con líneas de pauta. Sin registro, en el navegador, 11 idiomas.",
+    "about": [
+      "Una buena caligrafía nace de una práctica constante y repetida sobre líneas que muestran a los niños dónde van las letras. Este generador de fichas de escritura gratuito crea hojas de práctica imprimibles con líneas de pauta claras para repasar y escribir letras y palabras.",
+      "Las líneas de pauta ayudan a los niños a controlar el tamaño y la colocación de las letras, mientras que repasar primero y escribir después construye la memoria muscular que con el tiempo hace que escribir resulte natural.",
+      "Tú eliges las letras o palabras que practicar y luego imprimes la ficha para tu clase. Esta es una actividad de papel y lápiz, por lo que no incluye hoja de respuestas. Es una forma rápida de dar a cada niño las letras adecuadas en las que trabajar. Funciona en el navegador, en 11 idiomas, sin necesidad de cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Introduce las letras o palabras que quieres que los niños practiquen.",
+      "Imprime la ficha de práctica guiada para cada niño.",
+      "Pide a los niños que repasen primero el modelo y luego escriban por su cuenta.",
+      "Observa la formación correcta de las letras y ofrece recordatorios suaves."
+    ],
+    "classroomIdeas": [
+      "Usa una ficha de calentamiento diaria para crear una rutina de escritura.",
+      "Practicad las letras del foco fonético de esta semana.",
+      "Colócalo en un rincón de escritura con lápices cómodos.",
+      "Envía una ficha a casa para que las familias apoyen las mismas letras."
+    ]
+  },
+  "big-small": {
+    "slug": "generador-fichas-grande-pequeno",
+    "name": "Generador de fichas grande y pequeño",
+    "tagline": "Marca qué dibujo es grande y cuál es pequeño",
+    "metaTitle": "Generador de fichas grande y pequeño gratis: comparar tamaños | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de grande y pequeño gratis para 3 a 5 años. Los niños comparan tamaños y marcan grande o pequeño. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Comparar el tamaño es una de las primeras maneras en que los niños describen el mundo, y sienta las bases para medir más adelante. Este generador de fichas de grande y pequeño gratuito muestra el mismo tipo de dibujo en dos tamaños y pide al niño marcar cuál es grande y cuál es pequeño.",
+      "Como la tarea consiste solo en mirar y comparar, incluso quienes aún no leen pueden participar con seguridad, construyendo el vocabulario de grande, pequeño, mayor y menor sobre la marcha.",
+      "Elige un tema simpático para los dibujos e imprime la ficha, que viene con su hoja de respuestas para corregir rápido. Las imágenes temáticas familiares ayudan a los pequeños a mantener el interés mientras comparan. Funciona en el navegador, en 11 idiomas, sin registro y sin instalación."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos resulten familiares a tu grupo.",
+      "Imprime la ficha para cada niño.",
+      "Pide a los niños que marquen el dibujo grande y el dibujo pequeño.",
+      "Comprueba las respuestas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Comparad dos objetos reales del aula antes de que empiecen los niños.",
+      "Úsalo en un rincón de clasificación con juguetes grandes y pequeños.",
+      "Modela las palabras grande, pequeño, mayor y menor mientras avanzáis.",
+      "Envía una ficha a casa para encontrar cosas grandes y pequeñas por la casa."
+    ]
+  },
+  "pattern-train": {
+    "slug": "generador-tren-patrones",
+    "name": "Generador del tren de patrones",
+    "tagline": "Elige qué viene después en el patrón de dibujos",
+    "metaTitle": "Generador del tren de patrones gratis: qué viene después | LessonCraftStudio",
+    "metaDescription": "Generador del tren de patrones gratis para 5 a 7 años. Los niños descubren qué viene después en un patrón de dibujos. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Detectar un patrón y predecir qué viene después es álgebra temprana disfrazada de juego. Este generador del tren de patrones gratuito muestra un patrón de dibujos que se repite a lo largo de un tren con un vagón vacío, y el niño averigua qué dibujo completa el hueco.",
+      "Continuar un patrón pide a los niños fijarse en la regla, retenerla en la mente y aplicarla, lo que afina el razonamiento y la atención de un modo lúdico y visual.",
+      "Elige un tema para los dibujos del patrón y ajusta la dificultad a tu grupo. Cada tren se imprime con su hoja de respuestas para corregir rápido. El tren simpático mantiene el patrón claro y de izquierda a derecha. Se abre en cualquier navegador, en 11 idiomas, sin registro y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema y cuán complejo debe ser el patrón que se repite.",
+      "Imprime el tren de patrones para tu clase.",
+      "Pide a los niños que digan el patrón en voz alta y elijan qué viene después.",
+      "Comprueba el dibujo elegido con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Aplaudid o cantad un patrón juntos antes de que prueben la ficha.",
+      "Construid un patrón igual con bloques en un rincón.",
+      "Empieza con patrones simples ABAB y añade complejidad.",
+      "Vincula el tema del patrón a vuestro contenido actual."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "generador-fichas-patrones",
+    "name": "Generador de fichas de patrones",
+    "tagline": "Completa cada fila de patrones de dibujos y formas",
+    "metaTitle": "Generador de fichas de patrones gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de patrones gratis para 6 a 8 años. Los niños completan filas de patrones de dibujos y formas. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Este generador de fichas de patrones gratuito ofrece a los niños varios patrones que completar en una sola página, ampliando las repeticiones simples que conocieron de más pequeños. Cada fila muestra una secuencia de dibujos o formas que el niño completa.",
+      "Con más filas y reglas más ricas, los niños practican leer un patrón con atención, identificar la unidad que se repite y prolongarla con precisión, lo que profundiza el razonamiento detrás del álgebra temprana. Ver varios patrones a la vez también les ayuda a comparar distintos tipos de regla.",
+      "Elige un tema y una dificultad acordes a tu clase, luego imprime la ficha con su hoja de respuestas para corregir deprisa. Varios patrones en una página facilitan dar mucha práctica de una sentada. La herramienta funciona en el navegador, en 11 idiomas, sin cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema y cuán difíciles deben ser los patrones.",
+      "Imprime la ficha para cada niño.",
+      "Pide a los niños que encuentren la regla de cada fila y la completen.",
+      "Comprueba las filas terminadas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Comentad primero entre todos la unidad que se repite en un patrón.",
+      "Plantéalo como trabajo autónomo tras una mini-lección de patrones.",
+      "Ofrece patrones más difíciles como ampliación para quienes terminan pronto.",
+      "Combina filas de dibujos y de formas para una práctica variada."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "generador-dibujo-cuadricula",
+    "name": "Generador de dibujo con cuadrícula",
+    "tagline": "Copia un dibujo casilla a casilla y luego coloréalo",
+    "metaTitle": "Generador de dibujo con cuadrícula gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de dibujo con cuadrícula gratis para 5 a 8 años. Los niños copian un dibujo casilla a casilla y lo colorean. PDF para imprimir, sin registro, 11 idiomas.",
+    "about": [
+      "Copiar un dibujo casilla a casilla ayuda a los niños a ir despacio y observar de verdad, y este generador de dibujo con cuadrícula gratuito convierte eso en una actividad tranquila y gratificante. Un dibujo modelo aparece sobre una cuadrícula, y el niño lo recrea casilla a casilla en una cuadrícula vacía antes de colorear.",
+      "La cuadrícula descompone un dibujo entero en partes manejables, lo que desarrolla la orientación espacial, la observación atenta y el control del lápiz, todo mientras el niño siente el orgullo de dibujar algo por sí mismo.",
+      "Elige un dibujo temático e imprime la actividad como PDF para trabajar con lápiz y pintura. No hay hoja de respuestas, porque el resultado es la propia obra terminada. Funciona en el navegador, en 11 idiomas y sin necesidad de iniciar sesión, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un dibujo temático para que los niños lo copien.",
+      "Imprime el PDF con la cuadrícula modelo y la cuadrícula vacía.",
+      "Pide a los niños que copien el dibujo de una casilla en una.",
+      "Deja que los niños coloreen el dibujo terminado a su gusto."
+    ],
+    "classroomIdeas": [
+      "Úsalo como actividad tranquila y concentrada tras clases movidas.",
+      "Colócalo en un rincón de arte o de motricidad fina.",
+      "Hablad de por qué casilla empezar para apoyar la planificación.",
+      "Exponed los dibujos terminados juntos como obra de la clase."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "generador-fichas-grafomotricidad",
+    "name": "Generador de fichas de grafomotricidad",
+    "tagline": "Repasa trazos rectos, curvos y en zigzag",
+    "metaTitle": "Generador de fichas de grafomotricidad gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de grafomotricidad gratis para 3 a 5 años. Los niños repasan trazos rectos, curvos y en zigzag para la motricidad fina. PDF, sin registro, 11 idiomas.",
+    "about": [
+      "Antes de escribir letras, los niños necesitan manos firmes y un buen control del lápiz. Este generador de fichas de grafomotricidad gratuito crea hojas de preescritura llenas de caminos punteados para repasar, con líneas rectas, curvas suaves y zigzags animados.",
+      "Seguir un camino de principio a fin entrena los pequeños músculos y la coordinación ojo-mano de los que depende la escritura, y la variedad de trazos mantiene la práctica fresca y divertida.",
+      "Imprime las hojas como PDF para trabajar con lápiz; como el objetivo es el propio trazo, no hay hoja de respuestas. Es una forma sencilla y lista para usar de desarrollar el control que necesita la escritura. La herramienta funciona en el navegador, en 11 idiomas, sin cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige los tipos de trazo que quieres, de rectos a curvos y en zigzag.",
+      "Imprime la hoja de práctica en PDF para cada niño.",
+      "Muestra a los niños cómo repasar cada camino punteado de principio a fin.",
+      "Anima a una sujeción cómoda del lápiz y a trazos firmes y fluidos."
+    ],
+    "classroomIdeas": [
+      "Úsalo como calentamiento diario de motricidad fina antes de escribir.",
+      "Colócalo en un rincón con lápices gruesos y ceras.",
+      "Trazad primero una versión grande en el aire juntos.",
+      "Envía una hoja a casa para desarrollar el control de preescritura con la familia."
+    ]
+  },
+  "coloring": {
+    "slug": "generador-paginas-colorear",
+    "name": "Generador de páginas para colorear",
+    "tagline": "Convierte dibujos de contorno temáticos en páginas para colorear",
+    "metaTitle": "Generador de páginas para colorear gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de páginas para colorear gratis para 3 a 7 años. Crea páginas de contorno temáticas desde una enorme biblioteca de dibujos. PDF, sin registro, 11 idiomas.",
+    "about": [
+      "Colorear es relajante, creativo y estupendo para las manos pequeñas, y este generador de páginas para colorear gratuito te deja crear páginas a partir de una gran biblioteca de dibujos de contorno temáticos en un momento. Elige los dibujos que quieras e imprime contornos limpios y aptos para niños.",
+      "Rellenar contornos ayuda a los niños a desarrollar el control del lápiz y la conciencia del color, dándoles espacio para expresarse, lo que la convierte en una actividad amable y sin pantallas que sirve para un amplio rango de edades.",
+      "Las páginas se imprimen como PDF listas para ceras o lápices, sin necesidad de hoja de respuestas. Con miles de dibujos para elegir, siempre puedes encajar una página con el momento. La herramienta funciona en cualquier navegador, en 11 idiomas, y nunca pide registro ni instalación."
+    ],
+    "howToUse": [
+      "Elige un tema y los dibujos de contorno que quieras.",
+      "Imprime la página para colorear como PDF.",
+      "Reparte ceras o lápices de colores.",
+      "Deja que los niños coloreen los dibujos libremente."
+    ],
+    "classroomIdeas": [
+      "Usa una página temática para calmar a la clase al inicio del día.",
+      "Encaja los dibujos con un cuento o tema que estéis explorando.",
+      "Ofrécelo como opción tranquila durante el juego libre.",
+      "Envía una página para colorear a casa para una actividad relajada en familia."
+    ]
+  },
+  "chart-count": {
+    "slug": "generador-graficos-imagenes",
+    "name": "Generador de gráficos con imágenes",
+    "tagline": "Cuenta los dibujos y completa el gráfico de barras",
+    "metaTitle": "Generador de gráficos con imágenes gratis: contar y graficar | LessonCraftStudio",
+    "metaDescription": "Generador de gráficos con imágenes gratis para 5 a 7 años. Los niños cuentan dibujos y completan un gráfico de barras. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Leer y crear gráficos sencillos es una destreza temprana de datos, y las imágenes la hacen accesible. Este generador de gráficos con imágenes gratuito muestra grupos de objetos y un gráfico de barras vacío, y el niño cuenta cada tipo de dibujo y rellena la barra hasta igualarlo.",
+      "Convertir un conteo en una barra ayuda a los niños a conectar la cantidad con una altura visual, un paso importante para comprender los gráficos y comparar cantidades de un vistazo.",
+      "Elige un tema para los dibujos e imprime la ficha con su hoja de respuestas para corregir rápido. Es un primer paso amable y manipulativo en la lectura y la creación de gráficos. La herramienta se abre en el navegador, en 11 idiomas, sin registro y sin instalación."
+    ],
+    "howToUse": [
+      "Elige un tema para que los objetos que contar encajen con tu clase.",
+      "Imprime la ficha de gráfico para cada niño.",
+      "Pide a los niños que cuenten cada tipo de dibujo y rellenen la barra correspondiente.",
+      "Comprueba el gráfico completado con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Construid un gráfico de barras de clase con objetos reales antes de la ficha.",
+      "Úsalo para registrar los resultados de una encuesta rápida de clase.",
+      "Hablad juntos de qué barra es la más alta y la más baja.",
+      "Colócalo en un rincón de matemáticas como práctica de datos manipulativa."
+    ]
+  },
+  "matching": {
+    "slug": "generador-fichas-asociacion",
+    "name": "Generador de fichas de asociación",
+    "tagline": "Une con líneas los dibujos que van juntos",
+    "metaTitle": "Generador de fichas de asociación gratis: unir parejas | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de asociación gratis para 5 a 7 años. Los niños unen con líneas las parejas de dibujos que van juntas. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Asociar parejas es una forma clara y satisfactoria de que los niños muestren lo que saben. Este generador de fichas de asociación gratuito coloca dibujos en dos columnas, y el niño traza una línea para unir cada uno con su pareja del otro lado.",
+      "Conectar las parejas correctas desarrolla la discriminación visual y el razonamiento sobre cómo se relacionan las cosas, y el sencillo trazo de líneas mantiene la tarea accesible para quienes empiezan a aprender.",
+      "Elige un tema para que las asociaciones encajen con tu contenido, luego imprime la ficha con su hoja de respuestas para corregir deprisa. Es una forma flexible de comprobar la comprensión de cómo se relacionan las cosas. Funciona en cualquier navegador, en 11 idiomas, sin necesidad de cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema para que las parejas de dibujos encajen con tu lección.",
+      "Imprime la ficha de asociación para cada niño.",
+      "Pide a los niños que tracen una línea de cada dibujo a su pareja.",
+      "Comprueba las parejas unidas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Modela una asociación en la pizarra, explicando por qué van juntos.",
+      "Úsalo para repasar vocabulario temático o conceptos relacionados.",
+      "Colócalo en un rincón con tarjetas físicas para emparejar primero.",
+      "Envía una ficha de asociación a casa para una práctica rápida y clara."
+    ]
+  },
+  "grid-match": {
+    "slug": "generador-puzzle-cuadricula",
+    "name": "Generador de puzzle de cuadrícula",
+    "tagline": "Coloca cada dibujo en su casilla de la cuadrícula",
+    "metaTitle": "Generador de puzzle de cuadrícula gratis: actividad de cuadrícula | LessonCraftStudio",
+    "metaDescription": "Generador de puzzle de cuadrícula gratis para 5 a 7 años. Los niños colocan o dibujan cada imagen en su casilla. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Trabajar dentro de una cuadrícula pide a los niños seguir con cuidado filas y columnas, y este generador de puzzle de cuadrícula gratuito crea una actividad en torno a eso. El niño averigua dónde va cada dibujo y lo coloca o lo dibuja en la casilla correcta.",
+      "Leer la posición en una cuadrícula fortalece el razonamiento espacial y la asociación atenta, destrezas que apoyan desde la geometría temprana hasta la lectura de una tabla más adelante. También anima a los niños a trabajar de forma ordenada, de izquierda a derecha y de arriba abajo.",
+      "Elige un tema para los dibujos e imprime la ficha, que viene con su hoja de respuestas para corregir rápido. Trabajar dentro de una cuadrícula es también una gran preparación para leer tablas después. La herramienta funciona en el navegador, en 11 idiomas, sin registro y sin nada que descargar."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos de la cuadrícula encajen con tu grupo.",
+      "Imprime la ficha de puzzle de cuadrícula para cada niño.",
+      "Pide a los niños que coloquen o dibujen cada imagen en su casilla.",
+      "Comprueba la cuadrícula completada con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Señalad juntos las filas y columnas antes de que empiecen los niños.",
+      "Úsalo como reto de observación atenta en un rincón de matemáticas.",
+      "Empieza con una cuadrícula pequeña y agrándala según crece la confianza.",
+      "Vincula el tema de los dibujos a vuestro contenido actual."
+    ]
+  },
+  "shadow-match": {
+    "slug": "generador-discriminacion-visual",
+    "name": "Generador de discriminación visual",
+    "tagline": "Une cada dibujo con su sombra correcta",
+    "metaTitle": "Generador de fichas de sombras gratis: discriminación visual | LessonCraftStudio",
+    "metaDescription": "Generador de fichas de sombras gratis para 5 a 7 años. Los niños unen cada dibujo con su silueta correcta. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Unir un dibujo con su sombra es una deliciosa prueba de observación atenta. Este generador de discriminación visual gratuito muestra dibujos a color junto a sus siluetas negras, y el niño une cada dibujo con la sombra que le corresponde exactamente.",
+      "Como las sombras quitan el color y el detalle, los niños tienen que fijarse en la forma y el contorno, lo que afina la discriminación visual y la atención en un juego que parece de mesa. Ese mismo foco en el contorno apoya también el reconocimiento temprano de letras y formas.",
+      "Elige un tema para los dibujos e imprime la ficha, con su hoja de respuestas para corregir rápido. El contraste entre el color pleno y la sombra lisa la hace a la vez calmada y absorbente. Funciona en cualquier navegador, en 11 idiomas, sin registro ni instalación."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos y las sombras encajen con tu clase.",
+      "Imprime la ficha de sombras para cada niño.",
+      "Pide a los niños que unan cada dibujo con su sombra correcta.",
+      "Comprueba las uniones con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Haced sombras reales con una linterna y objetos para presentarlo.",
+      "Úsalo como actividad concentrada de percepción visual en un rincón.",
+      "Comentad cómo la forma por sí sola ayuda a reconocer un objeto.",
+      "Vincula el tema de los dibujos a un cuento o contenido."
+    ]
+  },
+  "bingo": {
+    "slug": "generador-tarjetas-bingo",
+    "name": "Generador de tarjetas de bingo",
+    "tagline": "Tarjetas de bingo de imágenes y cartas para cantar",
+    "metaTitle": "Generador de tarjetas de bingo gratis: bingo de imágenes | LessonCraftStudio",
+    "metaDescription": "Generador de tarjetas de bingo gratis para 5 a 7 años. Crea tarjetas de bingo de imágenes y cartas para cantar en juegos de vocabulario. Sin registro, 11 idiomas.",
+    "about": [
+      "El bingo es una forma alegre de practicar vocabulario en grupo, y este generador de tarjetas de bingo gratuito crea tarjetas de imágenes y sus cartas para cantar en unos clics. Cada niño recibe una tarjeta de dibujos temáticos mientras tú los vas cantando uno a uno.",
+      "Escuchar un dibujo y marcarlo desarrolla el reconocimiento de palabras, el vocabulario y la escucha, y la energía compartida del juego hace memorables las palabras nuevas para toda la clase. Como cada tarjeta es un poco distinta, los niños se mantienen atentos durante toda la ronda.",
+      "Elige un tema para que los dibujos encajen con tu contenido, luego imprime tantas tarjetas variadas como necesite tu grupo junto con las cartas para cantar. La herramienta funciona en el navegador, en 11 idiomas, sin necesidad de cuenta y con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos del bingo encajen con tu foco de vocabulario.",
+      "Imprime una tarjeta de bingo por niño y el juego de cartas para cantar.",
+      "Canta los dibujos de uno en uno y haz que los niños los marquen.",
+      "Celebrad una fila completa o una tarjeta completa como línea ganadora."
+    ],
+    "classroomIdeas": [
+      "Úsalo para repasar el vocabulario del tema en un juego animado con toda la clase.",
+      "Canta las palabras en otro idioma para los que aprenden lenguas.",
+      "Deja que un niño sea quien canta para practicar leyendo los dibujos.",
+      "Haz una ronda rápida como apertura o transición divertida de la clase."
+    ]
+  },
+  "picture-sort": {
+    "slug": "generador-clasificacion-imagenes",
+    "name": "Generador de clasificación de imágenes",
+    "tagline": "Clasifica cada dibujo bajo la categoría correcta",
+    "metaTitle": "Generador de clasificación de imágenes gratis: clasificar y agrupar | LessonCraftStudio",
+    "metaDescription": "Generador de clasificación de imágenes gratis para 5 a 7 años. Los niños clasifican dibujos en las categorías correctas. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Clasificar las cosas en grupos es como los niños dan sentido al mundo, y este generador de clasificación de imágenes gratuito lo convierte en una ficha clara. Tú aportas los encabezados de categoría y un conjunto de dibujos, y el niño decide a qué grupo pertenece cada dibujo.",
+      "Categorizar desarrolla el razonamiento, el vocabulario y la capacidad de notar qué tienen en común los objetos, una destreza de pensamiento esencial que apoya por igual las ciencias, las matemáticas y la lectoescritura. Nombrar la regla de cada grupo también da mucho de qué hablar a los niños.",
+      "Elige un tema y tus categorías, luego imprime la ficha con su hoja de respuestas para corregir rápido. La práctica de clasificar sirve en matemáticas, ciencias y lengua, así que se gana su sitio a menudo. La herramienta se abre en cualquier navegador, en 11 idiomas, sin registro ni instalación."
+    ],
+    "howToUse": [
+      "Elige las categorías y un tema para los dibujos.",
+      "Imprime la ficha de clasificación para cada niño.",
+      "Pide a los niños que clasifiquen cada dibujo bajo el encabezado correcto.",
+      "Comprueba los grupos clasificados con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Clasificad objetos reales en aros antes de la ficha.",
+      "Úsalo para apoyar una lección de clasificación en ciencias o de un tema.",
+      "Comentad un dibujo juntos, nombrando por qué encaja en un grupo.",
+      "Colócalo en un rincón con dibujos recortados para clasificar físicamente."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "generador-piezas-faltantes",
+    "name": "Generador de piezas que faltan",
+    "tagline": "Encuentra la pieza que completa el dibujo",
+    "metaTitle": "Generador de piezas que faltan gratis: completar el dibujo | LessonCraftStudio",
+    "metaDescription": "Generador de piezas que faltan gratis para 5 a 7 años. Los niños encuentran la pieza que completa cada dibujo. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Averiguar qué pieza completa un dibujo es un puzzle visual satisfactorio para los pequeños. Este generador de piezas que faltan gratuito muestra un dibujo con un hueco, y el niño encuentra o dibuja la parte que encaja para completarlo.",
+      "Completar la imagen pide a los niños imaginar el conjunto, comparar formas y detalles y razonar sobre lo que falta, lo que desarrolla la orientación espacial y la observación atenta. Es ese tipo de tarea tranquila y concentrada que viene bien para un momento sereno del día.",
+      "Elige un tema para los dibujos e imprime la ficha, que viene con su hoja de respuestas para corregir rápido. Es un puzzle satisfactorio y sin presión al que los niños vuelven encantados. Funciona en el navegador, en 11 idiomas, sin cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema para que los dibujos encajen con tu grupo.",
+      "Imprime la ficha de piezas que faltan para cada niño.",
+      "Pide a los niños que encuentren o dibujen la pieza que completa cada dibujo.",
+      "Comprueba las respuestas con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Resolved uno juntos, describiendo qué falta y por qué.",
+      "Úsalo como reto de razonamiento visual en un rincón tranquilo.",
+      "Combínalo con puzzles sencillos de encaje para una práctica manipulativa.",
+      "Vincula el tema de los dibujos a vuestro contenido actual."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "generador-fichas-intruso",
+    "name": "Generador de fichas del intruso",
+    "tagline": "Descubre el dibujo que no pertenece al grupo",
+    "metaTitle": "Generador de fichas del intruso gratis: encuentra el que sobra | LessonCraftStudio",
+    "metaDescription": "Generador de fichas del intruso gratis para 5 a 7 años. Los niños marcan el dibujo que no pertenece y dicen por qué. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Decidir qué no pertenece es una pequeña tarea de razonamiento muy aguda, y este generador de fichas del intruso gratuito la construye con dibujos. Cada grupo comparte algo en común salvo uno, y el niño marca el dibujo que no encaja y puede explicar por qué.",
+      "Encontrar al intruso pide a los niños notar una propiedad común y probar cada elemento frente a ella, lo que fortalece la categorización, el vocabulario y el hábito de justificar una respuesta. A menudo hay más de una manera de explicar la elección, lo que provoca buenas conversaciones.",
+      "Elige un tema para que los grupos encajen con tu contenido, luego imprime la ficha con su hoja de respuestas para corregir rápido. Pedir a los niños que expliquen su elección convierte una tarea breve en un diálogo rico. La herramienta funciona en cualquier navegador, en 11 idiomas, sin necesidad de registro y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema para que los grupos de dibujos encajen con tu clase.",
+      "Imprime la ficha del intruso para cada niño.",
+      "Pide a los niños que marquen el dibujo que no pertenece en cada grupo.",
+      "Comprueba las respuestas con la hoja de respuestas y comentad los motivos."
+    ],
+    "classroomIdeas": [
+      "Resolved un grupo en voz alta, pidiendo a los niños que expliquen su razonamiento.",
+      "Úsalo para profundizar en una lección de clasificar o agrupar.",
+      "Anima a los niños a decir por qué su elección no encaja.",
+      "Plantéalo como un calentamiento rápido de razonamiento."
+    ]
+  },
   "sudoku": {
     "slug": "generador-sudoku-infantil",
     "name": "Generador de sudokus para niños",
@@ -71,28 +671,52 @@
       "Ofrécelo como reto tranquilo para los niños que terminan antes las demás tareas."
     ]
   },
-  "crossword": {
-    "slug": "generador-crucigramas-imagenes",
-    "name": "Generador de crucigramas con imágenes",
-    "tagline": "Crea crucigramas con dibujos como pistas para escribir las palabras.",
-    "metaTitle": "Generador de crucigramas con imágenes | LessonCraftStudio",
-    "metaDescription": "Crea crucigramas gratis con imágenes como pistas para infantil y primaria. Los niños escriben la palabra de cada dibujo. Incluye hoja de respuestas para imprimir.",
+  "picture-path": {
+    "slug": "generador-recorrido-imagenes",
+    "name": "Generador de recorrido con imágenes",
+    "tagline": "Traza el camino por el laberinto hasta la meta",
+    "metaTitle": "Generador de laberintos con imágenes gratis para imprimir | LessonCraftStudio",
+    "metaDescription": "Generador de laberintos con imágenes gratis para 5 a 7 años. Los niños trazan el camino por un laberinto de cuadrícula. Con hoja de respuestas, sin registro, 11 idiomas.",
     "about": [
-      "El generador de crucigramas usa dibujos como pistas en lugar de definiciones escritas, así que los niños solo tienen que mirar la imagen y escribir la palabra correspondiente. Es perfecto para afianzar el deletreo y ampliar vocabulario en los primeros lectores.",
-      "Eliges las palabras o un tema y la herramienta las encaja automáticamente en una cuadrícula entrelazada, asignando a cada una su imagen de entre más de 3000 ilustraciones. Las casillas son amplias y las pistas claras, pensadas para manos pequeñas.",
-      "Es gratis, se usa en el navegador y no necesita registro ni instalación. Junto al crucigrama se genera su hoja de respuestas completa, lo que facilita muchísimo la corrección y el repaso en clase."
+      "Los laberintos son una forma clásica de desarrollar la planificación y el control del lápiz, y este generador de recorrido con imágenes gratuito crea un laberinto de cuadrícula para los pequeños. El niño traza un camino desde el inicio hasta la meta, moviéndose solo por las casillas permitidas.",
+      "Encontrar una ruta pide a los niños planificar con antelación, seguir reglas sobre por dónde pueden ir y mantenerse limpios y firmes con el lápiz, todo en una actividad que parece pura diversión. La cuadrícula clara mantiene accesibles incluso los laberintos más enredados.",
+      "Elige un tema y una dificultad acordes a tu grupo, luego imprime el laberinto con su hoja de respuestas para corregir rápido. Se abre en el navegador, en 11 idiomas, sin registro ni instalación, con más de 3000 imágenes temáticas."
     ],
     "howToUse": [
-      "Escribe las palabras que quieres trabajar o selecciona un tema con imágenes.",
-      "Genera el crucigrama y comprueba que las palabras se cruzan correctamente.",
-      "Revisa la vista previa de la ficha y de su hoja de respuestas.",
-      "Imprime y reparte: los niños miran cada dibujo y escriben la palabra en las casillas."
+      "Elige un tema y cuán difícil debe ser el laberinto.",
+      "Imprime la ficha de recorrido para cada niño.",
+      "Pide a los niños que tracen el camino desde el inicio hasta la meta por las casillas abiertas.",
+      "Comprueba la ruta con la hoja de respuestas impresa."
     ],
     "classroomIdeas": [
-      "Refuerza el vocabulario nuevo de un tema convirtiéndolo en un crucigrama ilustrado.",
-      "Trabaja la conciencia fonológica pidiendo que digan el sonido inicial antes de escribir.",
-      "Crea un crucigrama por campos semánticos: el cuerpo, la casa, los medios de transporte.",
-      "Úsalo como tarea de repaso para casa, con la imagen ayudando a las familias a guiar."
+      "Recorred el camino con el dedo antes de usar el lápiz.",
+      "Úsalo como actividad calmada y concentrada en un rincón tranquilo.",
+      "Empieza con laberintos sencillos y sube la dificultad poco a poco.",
+      "Hablad de planificar una ruta antes de lanzarse de golpe."
+    ]
+  },
+  "find-and-count": {
+    "slug": "generador-busca-cuenta",
+    "name": "Generador de busca y cuenta",
+    "tagline": "Encuentra el dibujo en la escena y cuenta cuántos hay",
+    "metaTitle": "Generador de busca y cuenta gratis: buscar y contar | LessonCraftStudio",
+    "metaDescription": "Generador de busca y cuenta gratis para 3 a 5 años. Los niños buscan un dibujo en una escena llena y cuentan cuántos hay. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Buscar en un dibujo lleno y contar lo que encuentras es pura delicia para los pequeños, y este generador de busca y cuenta gratuito lo convierte en práctica matemática temprana. Una escena animada esconde un dibujo objetivo, y el niño encuentra cada uno y cuenta cuántos hay.",
+      "Buscar y contar desarrolla el rastreo visual, el conteo uno a uno y la atención concentrada, y la búsqueda lúdica mantiene a los pequeños felizmente ocupados. Como parece un juego, los niños practican el conteo durante más tiempo sin cansarse.",
+      "Elige un tema para que la escena encaje con tu clase, luego imprime la ficha con su hoja de respuestas para corregir rápido. El formato de dibujo escondido hace que contar parezca una búsqueda del tesoro. La herramienta funciona en cualquier navegador, en 11 idiomas, sin necesidad de cuenta y sin nada que instalar."
+    ],
+    "howToUse": [
+      "Elige un tema para que la escena llena encaje con tu grupo.",
+      "Imprime la ficha de busca y cuenta para cada niño.",
+      "Pide a los niños que encuentren el dibujo objetivo y cuenten cuántos aparecen.",
+      "Comprueba el total con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Haced primero una búsqueda rápida de la escena juntos, tipo veo-veo.",
+      "Úsalo en un rincón de conteo inicial.",
+      "Anima a los niños a tocar cada objeto una vez mientras cuentan.",
+      "Vincula el tema de la escena a un cuento o contenido."
     ]
   },
   "find-objects": {
@@ -119,28 +743,52 @@
       "Trabaja vocabulario nombrando en voz alta cada objeto antes de empezar a buscar."
     ]
   },
-  "word-guess": {
-    "slug": "generador-adivinar-palabras",
-    "name": "Generador de adivinar la palabra",
-    "tagline": "Crea fichas donde los niños adivinan la palabra a partir de un dibujo.",
-    "metaTitle": "Generador de adivinar palabras con imagen | LessonCraftStudio",
-    "metaDescription": "Crea fichas gratis para adivinar palabras con imagen en infantil y primaria. Los niños completan las letras que faltan. Incluye hoja de respuestas para imprimir.",
+  "crossword": {
+    "slug": "generador-crucigramas-imagenes",
+    "name": "Generador de crucigramas con imágenes",
+    "tagline": "Crea crucigramas con dibujos como pistas para escribir las palabras.",
+    "metaTitle": "Generador de crucigramas con imágenes | LessonCraftStudio",
+    "metaDescription": "Crea crucigramas gratis con imágenes como pistas para infantil y primaria. Los niños escriben la palabra de cada dibujo. Incluye hoja de respuestas para imprimir.",
     "about": [
-      "El generador de adivinar la palabra muestra un dibujo y unas casillas para que los niños completen la palabra letra a letra. Según el nivel, puedes dejar todas las casillas vacías o dar algunas letras como pista, lo que lo hace ideal desde infantil hasta primaria.",
-      "Eliges las palabras o un tema entre más de 3000 imágenes y la herramienta crea la ficha asociando cada dibujo con su palabra. Es perfecto para practicar el deletreo, los sonidos iniciales y el vocabulario de forma muy visual.",
-      "Funciona gratis en el navegador, sin registro ni instalación. Cada ficha se genera con su hoja de respuestas, así que la corrección es inmediata y los niños pueden incluso autocorregirse."
+      "El generador de crucigramas usa dibujos como pistas en lugar de definiciones escritas, así que los niños solo tienen que mirar la imagen y escribir la palabra correspondiente. Es perfecto para afianzar el deletreo y ampliar vocabulario en los primeros lectores.",
+      "Eliges las palabras o un tema y la herramienta las encaja automáticamente en una cuadrícula entrelazada, asignando a cada una su imagen de entre más de 3000 ilustraciones. Las casillas son amplias y las pistas claras, pensadas para manos pequeñas.",
+      "Es gratis, se usa en el navegador y no necesita registro ni instalación. Junto al crucigrama se genera su hoja de respuestas completa, lo que facilita muchísimo la corrección y el repaso en clase."
     ],
     "howToUse": [
-      "Introduce las palabras que quieres trabajar o elige un tema con imágenes.",
-      "Decide cuántas letras dar como pista según el nivel del grupo.",
-      "Genera la ficha y revisa la vista previa junto a la hoja de respuestas.",
-      "Imprime y reparte: los niños miran el dibujo y completan las letras que faltan."
+      "Escribe las palabras que quieres trabajar o selecciona un tema con imágenes.",
+      "Genera el crucigrama y comprueba que las palabras se cruzan correctamente.",
+      "Revisa la vista previa de la ficha y de su hoja de respuestas.",
+      "Imprime y reparte: los niños miran cada dibujo y escriben la palabra en las casillas."
     ],
     "classroomIdeas": [
-      "Empieza dando la primera letra para trabajar los sonidos iniciales en infantil.",
-      "Aumenta la dificultad dejando todas las casillas vacías para los lectores más avanzados.",
-      "Crea fichas por campos de vocabulario y úsalas como repaso semanal.",
-      "Conviértelo en juego oral: los niños dicen la palabra en voz alta antes de escribirla."
+      "Refuerza el vocabulario nuevo de un tema convirtiéndolo en un crucigrama ilustrado.",
+      "Trabaja la conciencia fonológica pidiendo que digan el sonido inicial antes de escribir.",
+      "Crea un crucigrama por campos semánticos: el cuerpo, la casa, los medios de transporte.",
+      "Úsalo como tarea de repaso para casa, con la imagen ayudando a las familias a guiar."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "generador-busqueda-tesoro",
+    "name": "Generador de búsqueda del tesoro",
+    "tagline": "Sigue las flechas de dirección hasta el tesoro",
+    "metaTitle": "Generador de búsqueda del tesoro gratis: sigue las direcciones | LessonCraftStudio",
+    "metaDescription": "Generador de búsqueda del tesoro gratis para 6 a 8 años. Los niños siguen flechas por un mapa de cuadrícula hasta el tesoro. Con hoja de respuestas, sin registro, 11 idiomas.",
+    "about": [
+      "Seguir direcciones por un mapa es una forma emocionante de practicar el pensamiento espacial, y este generador de búsqueda del tesoro gratuito crea justo esa aventura. Un mapa de cuadrícula con dibujos y flechas de dirección guía al niño paso a paso hacia el tesoro escondido.",
+      "Leer las flechas y moverse en el sentido correcto entrena el lenguaje direccional, la secuenciación y un sentido temprano de la posición y el movimiento, todo envuelto en una historia que a los niños les encanta. Llegar al tesoro ofrece una meta clara y motivadora hacia la que trabajar.",
+      "Elige un tema y una dificultad acordes a tu grupo, luego imprime el mapa con su hoja de respuestas para corregir rápido. La herramienta se abre en el navegador, en 11 idiomas, sin registro ni instalación, con más de 3000 imágenes temáticas."
+    ],
+    "howToUse": [
+      "Elige un tema y cuántos pasos debe tener la búsqueda.",
+      "Imprime el mapa de la búsqueda del tesoro para cada niño.",
+      "Pide a los niños que sigan cada flecha de dirección de un paso en uno.",
+      "Comprueba la casilla final del tesoro con la hoja de respuestas impresa."
+    ],
+    "classroomIdeas": [
+      "Recorred juntos primero unos pasos de dirección por una cuadrícula en el suelo.",
+      "Úsalo para practicar las palabras arriba, abajo, izquierda y derecha.",
+      "Plantéalo como reto de resolución de problemas en un rincón.",
+      "Aumenta el número de pasos a medida que los niños ganan confianza."
     ]
   },
   "labels": {

@@ -108,7 +108,7 @@ export async function generateMetadata({ params }: PageProps) {
   const knownPages = ['homepage', 'contact', 'about', 'terms', 'privacy'];
 
   // Pages that exist in all locales and need hreflang
-  const hreflangPages = ['terms', 'privacy', 'contact', 'faq'];
+  const hreflangPages = ['terms', 'privacy', 'contact'];
 
   // Default metadata based on page — all 11 locales
   const titles: Record<string, Record<string, string>> = {

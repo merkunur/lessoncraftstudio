@@ -1,0 +1,15 @@
+{
+  "id": "wave-nsr-it",
+  "seedEpoch": 1,
+  "locales": [
+    "it"
+  ],
+  "themes": [],
+  "difficulties": [
+    2
+  ],
+  "variantsPerType": 5,
+  "types": [
+    "K-227"
+  ]
+}

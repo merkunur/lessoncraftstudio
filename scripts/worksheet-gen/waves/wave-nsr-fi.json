@@ -1,0 +1,18 @@
+{
+  "id": "wave-nsr-fi",
+  "seedEpoch": 1,
+  "locales": [
+    "fi"
+  ],
+  "themes": [],
+  "difficulties": [
+    2
+  ],
+  "variantsPerType": 5,
+  "types": [
+    "G1-203",
+    "G1-205",
+    "K-225",
+    "K-232"
+  ]
+}

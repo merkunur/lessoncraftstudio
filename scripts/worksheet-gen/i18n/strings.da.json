@@ -821,11 +821,11 @@
   },
   "K-202": {
     "title": "Frugt og grøntsager",
-    "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til."
+    "instruction": "Tegn en streg fra hver madvare til den gruppe, den hører til."
   },
   "K-203": {
     "title": "Sund og usund mad",
-    "instruction": "Tegn en streg fra hver mad til den gruppe, den hører til."
+    "instruction": "Tegn en streg fra hver madvare til den gruppe, den hører til."
   },
   "K-204": {
     "title": "Kæledyr og vilde dyr",
@@ -849,7 +849,7 @@
   },
   "K-210": {
     "title": "Transport på land, vand og i luften",
-    "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det kører."
+    "instruction": "Tegn en streg fra hvert køretøj til det sted, hvor det færdes."
   },
   "K-211": {
     "title": "Varmt og koldt",
@@ -876,7 +876,7 @@
     "instruction": "Tegn en streg fra hver ting til den gruppe, du tror, den hører til."
   },
   "G1-205": {
-    "title": "Dyrenes hud og pels",
+    "title": "Hvad dækker dyret?",
     "instruction": "Tegn en streg fra hvert dyr til det, der dækker dets krop."
   },
   "G1-206": {
@@ -885,7 +885,7 @@
   },
   "G1-207": {
     "title": "De fire madgrupper",
-    "instruction": "Tegn en streg fra hver mad til dens madgruppe."
+    "instruction": "Tegn en streg fra hver madvare til dens madgruppe."
   },
   "G1-203": {
     "title": "En kyllings livscyklus",

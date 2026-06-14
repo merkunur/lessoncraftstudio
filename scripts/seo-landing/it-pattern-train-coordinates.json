@@ -1,0 +1,1259 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "treno-dei-modelli"
+  },
+  {
+   "mode": "abb",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-4-luglio-b150"
+  },
+  {
+   "mode": "aab",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-4-luglio-2625"
+  },
+  {
+   "mode": "abc",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-4-luglio-5fd0"
+  },
+  {
+   "mode": null,
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "treno-dei-modelli-4-luglio-9847"
+  },
+  {
+   "mode": "aabb",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-4-luglio-0375"
+  },
+  {
+   "mode": "aab",
+   "theme": "accessories",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-accessori-3949"
+  },
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "treno-dei-modelli-accessori-e4cc"
+  },
+  {
+   "mode": "aabb",
+   "theme": "accessories",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-accessori-d5fe"
+  },
+  {
+   "mode": "abb",
+   "theme": "accessories",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-accessori-5a68"
+  },
+  {
+   "mode": "abc",
+   "theme": "accessories",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-accessori-1556"
+  },
+  {
+   "mode": "aabb",
+   "theme": "activities",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-attivita-2ed2"
+  },
+  {
+   "mode": "aab",
+   "theme": "activities",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-attivita-c5a7"
+  },
+  {
+   "mode": "abb",
+   "theme": "activities",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-attivita-eaba"
+  },
+  {
+   "mode": "abc",
+   "theme": "activities",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-attivita-9932"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "treno-dei-modelli-attivita-3029"
+  },
+  {
+   "mode": "aab",
+   "theme": "animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-animali-0f49"
+  },
+  {
+   "mode": "aabb",
+   "theme": "animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-animali-e402"
+  },
+  {
+   "mode": "abb",
+   "theme": "animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-animali-6b2c"
+  },
+  {
+   "mode": "abc",
+   "theme": "animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-animali-c0e5"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "treno-dei-modelli-animali-ffd0"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "treno-dei-modelli-in-giro-per-casa-0eb9"
+  },
+  {
+   "mode": "aabb",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-in-giro-per-casa-cbce"
+  },
+  {
+   "mode": "abb",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-in-giro-per-casa-4fc5"
+  },
+  {
+   "mode": "abc",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-in-giro-per-casa-a256"
+  },
+  {
+   "mode": "aab",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-in-giro-per-casa-ad5f"
+  },
+  {
+   "mode": "aabb",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-al-supermercato-4ced"
+  },
+  {
+   "mode": "abc",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-al-supermercato-cb09"
+  },
+  {
+   "mode": "aab",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-al-supermercato-117c"
+  },
+  {
+   "mode": "abb",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-al-supermercato-a34f"
+  },
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "treno-dei-modelli-al-supermercato-cf7c"
+  },
+  {
+   "mode": "abb",
+   "theme": "bakery",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-panetteria-2745"
+  },
+  {
+   "mode": "aabb",
+   "theme": "bakery",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-panetteria-4ef7"
+  },
+  {
+   "mode": "abc",
+   "theme": "bakery",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-panetteria-f321"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "treno-dei-modelli-panetteria-ea77"
+  },
+  {
+   "mode": "aab",
+   "theme": "bakery",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-panetteria-c808"
+  },
+  {
+   "mode": "aabb",
+   "theme": "beach",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-spiaggia-321c"
+  },
+  {
+   "mode": "aab",
+   "theme": "beach",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-spiaggia-ff1a"
+  },
+  {
+   "mode": "abb",
+   "theme": "beach",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-spiaggia-9a4b"
+  },
+  {
+   "mode": "abc",
+   "theme": "beach",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-spiaggia-795c"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "treno-dei-modelli-spiaggia-9615"
+  },
+  {
+   "mode": "aab",
+   "theme": "birds",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-uccelli-e24e"
+  },
+  {
+   "mode": "aabb",
+   "theme": "birds",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-uccelli-86c7"
+  },
+  {
+   "mode": null,
+   "theme": "birds",
+   "canonicalDeckSlug": "treno-dei-modelli-uccelli-da4d"
+  },
+  {
+   "mode": "abb",
+   "theme": "birds",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-uccelli-f09b"
+  },
+  {
+   "mode": "abc",
+   "theme": "birds",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-uccelli-1384"
+  },
+  {
+   "mode": "aabb",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-uccelli-2-ae80"
+  },
+  {
+   "mode": "abc",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-uccelli-2-0a85"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "treno-dei-modelli-uccelli-2-5732"
+  },
+  {
+   "mode": "abb",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-uccelli-2-e4b6"
+  },
+  {
+   "mode": "aab",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-uccelli-2-4b2c"
+  },
+  {
+   "mode": "abb",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-parti-del-corpo-30d7"
+  },
+  {
+   "mode": "aab",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-parti-del-corpo-ba37"
+  },
+  {
+   "mode": "aabb",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-parti-del-corpo-904f"
+  },
+  {
+   "mode": "abc",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-parti-del-corpo-54f8"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "treno-dei-modelli-parti-del-corpo-0e5e"
+  },
+  {
+   "mode": "aabb",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-colazione-a7da"
+  },
+  {
+   "mode": "abb",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-colazione-046c"
+  },
+  {
+   "mode": "aab",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-colazione-7ce0"
+  },
+  {
+   "mode": "abc",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-colazione-f503"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "treno-dei-modelli-colazione-f085"
+  },
+  {
+   "mode": "aab",
+   "theme": "camping",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-campeggio-912b"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "treno-dei-modelli-campeggio-84fb"
+  },
+  {
+   "mode": "aabb",
+   "theme": "camping",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-campeggio-0164"
+  },
+  {
+   "mode": "abb",
+   "theme": "camping",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-campeggio-5c6f"
+  },
+  {
+   "mode": "abc",
+   "theme": "camping",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-campeggio-fce4"
+  },
+  {
+   "mode": "aab",
+   "theme": "christmas",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-natale-d781"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "treno-dei-modelli-natale-cd78"
+  },
+  {
+   "mode": "aabb",
+   "theme": "christmas",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-natale-a46e"
+  },
+  {
+   "mode": "abb",
+   "theme": "christmas",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-natale-af17"
+  },
+  {
+   "mode": "abc",
+   "theme": "christmas",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-natale-7cb1"
+  },
+  {
+   "mode": "aab",
+   "theme": "classroom",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-aula-8003"
+  },
+  {
+   "mode": "aabb",
+   "theme": "classroom",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-aula-2597"
+  },
+  {
+   "mode": "abb",
+   "theme": "classroom",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-aula-b69f"
+  },
+  {
+   "mode": "abc",
+   "theme": "classroom",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-aula-20cb"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "treno-dei-modelli-aula-bc00"
+  },
+  {
+   "mode": "abc",
+   "theme": "clothing",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-abbigliamento-5897"
+  },
+  {
+   "mode": "aab",
+   "theme": "clothing",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-abbigliamento-4ee4"
+  },
+  {
+   "mode": "abb",
+   "theme": "clothing",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-abbigliamento-9263"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "treno-dei-modelli-abbigliamento-0682"
+  },
+  {
+   "mode": "aabb",
+   "theme": "clothing",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-abbigliamento-807c"
+  },
+  {
+   "mode": "abc",
+   "theme": "colors",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-colori-7382"
+  },
+  {
+   "mode": null,
+   "theme": "colors",
+   "canonicalDeckSlug": "treno-dei-modelli-colori-275d"
+  },
+  {
+   "mode": "abb",
+   "theme": "colors",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-colori-3d9f"
+  },
+  {
+   "mode": "aab",
+   "theme": "colors",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-colori-0b25"
+  },
+  {
+   "mode": "aabb",
+   "theme": "colors",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-colori-be3a"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "treno-dei-modelli-dolci-e-dolciumi-2c9c"
+  },
+  {
+   "mode": "aabb",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-dolci-e-dolciumi-f482"
+  },
+  {
+   "mode": "abb",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-dolci-e-dolciumi-5d9f"
+  },
+  {
+   "mode": "aab",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-dolci-e-dolciumi-55f6"
+  },
+  {
+   "mode": "abc",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-dolci-e-dolciumi-b059"
+  },
+  {
+   "mode": "aab",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-dinosauri-8816"
+  },
+  {
+   "mode": "aabb",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-dinosauri-b5c1"
+  },
+  {
+   "mode": null,
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "treno-dei-modelli-dinosauri-a0b4"
+  },
+  {
+   "mode": "abb",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-dinosauri-fbd7"
+  },
+  {
+   "mode": "abc",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-dinosauri-6adf"
+  },
+  {
+   "mode": "aab",
+   "theme": "easter",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-pasqua-600f"
+  },
+  {
+   "mode": "aabb",
+   "theme": "easter",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-pasqua-13a2"
+  },
+  {
+   "mode": "abb",
+   "theme": "easter",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-pasqua-5662"
+  },
+  {
+   "mode": "abc",
+   "theme": "easter",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-pasqua-15aa"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "treno-dei-modelli-pasqua-58f9"
+  },
+  {
+   "mode": "aab",
+   "theme": "emotions",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-emozioni-104c"
+  },
+  {
+   "mode": "aabb",
+   "theme": "emotions",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-emozioni-8ff3"
+  },
+  {
+   "mode": "abb",
+   "theme": "emotions",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-emozioni-cbde"
+  },
+  {
+   "mode": "abc",
+   "theme": "emotions",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-emozioni-0ae3"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "treno-dei-modelli-emozioni-1a21"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-animali-della-fattoria-8b9b"
+  },
+  {
+   "mode": "aabb",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-animali-della-fattoria-657b"
+  },
+  {
+   "mode": "abc",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-animali-della-fattoria-a2fe"
+  },
+  {
+   "mode": "aab",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-animali-della-fattoria-0f08"
+  },
+  {
+   "mode": "abb",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-animali-della-fattoria-0617"
+  },
+  {
+   "mode": "aab",
+   "theme": "flowers",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-fiori-cd8f"
+  },
+  {
+   "mode": "aabb",
+   "theme": "flowers",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-fiori-7faa"
+  },
+  {
+   "mode": "abb",
+   "theme": "flowers",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-fiori-fbe9"
+  },
+  {
+   "mode": "abc",
+   "theme": "flowers",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-fiori-2a0f"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "treno-dei-modelli-fiori-d68d"
+  },
+  {
+   "mode": "abb",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-creature-della-foresta-29aa"
+  },
+  {
+   "mode": "aabb",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-creature-della-foresta-e986"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "treno-dei-modelli-creature-della-foresta-4ead"
+  },
+  {
+   "mode": "aab",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-creature-della-foresta-340c"
+  },
+  {
+   "mode": "abc",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-creature-della-foresta-7336"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "treno-dei-modelli-frutta-166f"
+  },
+  {
+   "mode": "abb",
+   "theme": "fruits",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-frutta-6887"
+  },
+  {
+   "mode": "aab",
+   "theme": "fruits",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-frutta-36e6"
+  },
+  {
+   "mode": "aabb",
+   "theme": "fruits",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-frutta-9938"
+  },
+  {
+   "mode": "abc",
+   "theme": "fruits",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-frutta-a814"
+  },
+  {
+   "mode": "aab",
+   "theme": "furniture",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-mobili-7109"
+  },
+  {
+   "mode": "aabb",
+   "theme": "furniture",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-mobili-3bf1"
+  },
+  {
+   "mode": "abb",
+   "theme": "furniture",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-mobili-f49b"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "treno-dei-modelli-mobili-a630"
+  },
+  {
+   "mode": "abc",
+   "theme": "furniture",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-mobili-352b"
+  },
+  {
+   "mode": "abb",
+   "theme": "hospital",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-ospedale-ab30"
+  },
+  {
+   "mode": "aabb",
+   "theme": "hospital",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-ospedale-40f1"
+  },
+  {
+   "mode": "aab",
+   "theme": "hospital",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-ospedale-6fa9"
+  },
+  {
+   "mode": "abc",
+   "theme": "hospital",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-ospedale-c065"
+  },
+  {
+   "mode": null,
+   "theme": "hospital",
+   "canonicalDeckSlug": "treno-dei-modelli-ospedale-ee78"
+  },
+  {
+   "mode": "aabb",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-insetti-e-scarafaggi-5d48"
+  },
+  {
+   "mode": "abb",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-insetti-e-scarafaggi-312e"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "treno-dei-modelli-insetti-e-scarafaggi-5571"
+  },
+  {
+   "mode": "abc",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-insetti-e-scarafaggi-a634"
+  },
+  {
+   "mode": "aab",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-insetti-e-scarafaggi-e8d0"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "treno-dei-modelli-utensili-da-cucina-1ff1"
+  },
+  {
+   "mode": "aab",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-utensili-da-cucina-7a90"
+  },
+  {
+   "mode": "abb",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-utensili-da-cucina-cd0a"
+  },
+  {
+   "mode": "aabb",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-utensili-da-cucina-592f"
+  },
+  {
+   "mode": "abc",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-utensili-da-cucina-45a1"
+  },
+  {
+   "mode": "aab",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-varie-a1cc"
+  },
+  {
+   "mode": "aabb",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-varie-eca8"
+  },
+  {
+   "mode": "abb",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-varie-3746"
+  },
+  {
+   "mode": "abc",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-varie-c9a6"
+  },
+  {
+   "mode": null,
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "treno-dei-modelli-varie-5b8d"
+  },
+  {
+   "mode": "aab",
+   "theme": "music",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-musica-385c"
+  },
+  {
+   "mode": "aabb",
+   "theme": "music",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-musica-775e"
+  },
+  {
+   "mode": "abb",
+   "theme": "music",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-musica-2e49"
+  },
+  {
+   "mode": "abc",
+   "theme": "music",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-musica-9566"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "treno-dei-modelli-musica-dd6a"
+  },
+  {
+   "mode": "aabb",
+   "theme": "occupations",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-professioni-e0cf"
+  },
+  {
+   "mode": "aab",
+   "theme": "occupations",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-professioni-2b9d"
+  },
+  {
+   "mode": "abb",
+   "theme": "occupations",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-professioni-6841"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "treno-dei-modelli-professioni-19d9"
+  },
+  {
+   "mode": "abc",
+   "theme": "occupations",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-professioni-e52a"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "treno-dei-modelli-vita-oceanica-7803"
+  },
+  {
+   "mode": "aab",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-vita-oceanica-3bc3"
+  },
+  {
+   "mode": "aabb",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-vita-oceanica-9821"
+  },
+  {
+   "mode": "abb",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-vita-oceanica-a8d4"
+  },
+  {
+   "mode": "abc",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-vita-oceanica-e034"
+  },
+  {
+   "mode": "aabb",
+   "theme": "pets",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-animali-domestici-2b87"
+  },
+  {
+   "mode": "abc",
+   "theme": "pets",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-animali-domestici-22cf"
+  },
+  {
+   "mode": "abb",
+   "theme": "pets",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-animali-domestici-93c8"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "treno-dei-modelli-animali-domestici-686b"
+  },
+  {
+   "mode": "aab",
+   "theme": "pets",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-animali-domestici-740d"
+  },
+  {
+   "mode": null,
+   "theme": "post_office",
+   "canonicalDeckSlug": "treno-dei-modelli-ufficio-postale-b583"
+  },
+  {
+   "mode": "aab",
+   "theme": "post_office",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-ufficio-postale-7681"
+  },
+  {
+   "mode": "abb",
+   "theme": "post_office",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-ufficio-postale-aa25"
+  },
+  {
+   "mode": "abc",
+   "theme": "post_office",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-ufficio-postale-1784"
+  },
+  {
+   "mode": "aabb",
+   "theme": "post_office",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-ufficio-postale-7e40"
+  },
+  {
+   "mode": "aab",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-rettili-e-anfibi-340f"
+  },
+  {
+   "mode": "abc",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-rettili-e-anfibi-a546"
+  },
+  {
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "treno-dei-modelli-rettili-e-anfibi-ee93"
+  },
+  {
+   "mode": "aabb",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-rettili-e-anfibi-e0ba"
+  },
+  {
+   "mode": "abb",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-rettili-e-anfibi-fe96"
+  },
+  {
+   "mode": "aabb",
+   "theme": "shapes",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-forme-4d35"
+  },
+  {
+   "mode": "aab",
+   "theme": "shapes",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-forme-b4af"
+  },
+  {
+   "mode": "abb",
+   "theme": "shapes",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-forme-03aa"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "treno-dei-modelli-forme-f10a"
+  },
+  {
+   "mode": "abc",
+   "theme": "shapes",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-forme-e384"
+  },
+  {
+   "mode": "aab",
+   "theme": "space",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-spazio-d92b"
+  },
+  {
+   "mode": "abc",
+   "theme": "space",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-spazio-87f4"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "treno-dei-modelli-spazio-151b"
+  },
+  {
+   "mode": "abb",
+   "theme": "space",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-spazio-a370"
+  },
+  {
+   "mode": "aabb",
+   "theme": "space",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-spazio-31b9"
+  },
+  {
+   "mode": "aab",
+   "theme": "spring",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-primavera-3c19"
+  },
+  {
+   "mode": "aabb",
+   "theme": "spring",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-primavera-3256"
+  },
+  {
+   "mode": "abb",
+   "theme": "spring",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-primavera-270c"
+  },
+  {
+   "mode": "abc",
+   "theme": "spring",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-primavera-521a"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "treno-dei-modelli-primavera-b76a"
+  },
+  {
+   "mode": "abb",
+   "theme": "summer",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-estate-520f"
+  },
+  {
+   "mode": "aab",
+   "theme": "summer",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-estate-aae9"
+  },
+  {
+   "mode": "aabb",
+   "theme": "summer",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-estate-85f9"
+  },
+  {
+   "mode": "abc",
+   "theme": "summer",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-estate-2cd1"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "treno-dei-modelli-estate-3a24"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "treno-dei-modelli-giorno-del-ringraziamento-3b05"
+  },
+  {
+   "mode": "aab",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-giorno-del-ringraziamento-09f5"
+  },
+  {
+   "mode": "aabb",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-giorno-del-ringraziamento-83d9"
+  },
+  {
+   "mode": "abb",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-giorno-del-ringraziamento-22fb"
+  },
+  {
+   "mode": "abc",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-giorno-del-ringraziamento-62ed"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "treno-dei-modelli-cose-che-volano-cabb"
+  },
+  {
+   "mode": "abc",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-cose-che-volano-a8a0"
+  },
+  {
+   "mode": "aab",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-cose-che-volano-2009"
+  },
+  {
+   "mode": "aabb",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-cose-che-volano-0ef3"
+  },
+  {
+   "mode": "abb",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-cose-che-volano-f16e"
+  },
+  {
+   "mode": "aabb",
+   "theme": "tools",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-attrezzi-2f35"
+  },
+  {
+   "mode": "aab",
+   "theme": "tools",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-attrezzi-4098"
+  },
+  {
+   "mode": "abb",
+   "theme": "tools",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-attrezzi-ca8e"
+  },
+  {
+   "mode": "abc",
+   "theme": "tools",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-attrezzi-423a"
+  },
+  {
+   "mode": null,
+   "theme": "tools",
+   "canonicalDeckSlug": "treno-dei-modelli-attrezzi-12a1"
+  },
+  {
+   "mode": "aab",
+   "theme": "toys",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-giocattoli-8afe"
+  },
+  {
+   "mode": "abc",
+   "theme": "toys",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-giocattoli-e08c"
+  },
+  {
+   "mode": "aabb",
+   "theme": "toys",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-giocattoli-f620"
+  },
+  {
+   "mode": "abb",
+   "theme": "toys",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-giocattoli-4c80"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "treno-dei-modelli-giocattoli-201c"
+  },
+  {
+   "mode": "aab",
+   "theme": "tree",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-alberi-1296"
+  },
+  {
+   "mode": "aabb",
+   "theme": "tree",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-alberi-a673"
+  },
+  {
+   "mode": "abb",
+   "theme": "tree",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-alberi-d822"
+  },
+  {
+   "mode": "abc",
+   "theme": "tree",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-alberi-e470"
+  },
+  {
+   "mode": null,
+   "theme": "tree",
+   "canonicalDeckSlug": "treno-dei-modelli-alberi-a307"
+  },
+  {
+   "mode": "abc",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-verdure-5f30"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "treno-dei-modelli-verdure-b597"
+  },
+  {
+   "mode": "aab",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-verdure-7b12"
+  },
+  {
+   "mode": "aabb",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-verdure-2d07"
+  },
+  {
+   "mode": "abb",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-verdure-e94f"
+  },
+  {
+   "mode": "aab",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-veicoli-517e"
+  },
+  {
+   "mode": "aabb",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-veicoli-e97e"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "treno-dei-modelli-veicoli-e9e8"
+  },
+  {
+   "mode": "abc",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-veicoli-9dd0"
+  },
+  {
+   "mode": "abb",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-veicoli-3de5"
+  },
+  {
+   "mode": "aab",
+   "theme": "weather",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-meteo-0435"
+  },
+  {
+   "mode": "aabb",
+   "theme": "weather",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-meteo-5dc9"
+  },
+  {
+   "mode": "abb",
+   "theme": "weather",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-meteo-f952"
+  },
+  {
+   "mode": "abc",
+   "theme": "weather",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-meteo-46ca"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "treno-dei-modelli-meteo-7e9c"
+  },
+  {
+   "mode": "aab",
+   "theme": "winter",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-inverno-608a"
+  },
+  {
+   "mode": "aabb",
+   "theme": "winter",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-inverno-c0a7"
+  },
+  {
+   "mode": "abb",
+   "theme": "winter",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-inverno-034c"
+  },
+  {
+   "mode": "abc",
+   "theme": "winter",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-inverno-69e0"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "treno-dei-modelli-inverno-9427"
+  },
+  {
+   "mode": "aabb",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aabb-animali-dello-zoo-f391"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-animali-dello-zoo-2d67"
+  },
+  {
+   "mode": "aab",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-aab-animali-dello-zoo-b9e3"
+  },
+  {
+   "mode": "abb",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abb-animali-dello-zoo-6e77"
+  },
+  {
+   "mode": "abc",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "treno-dei-modelli-abc-animali-dello-zoo-fc81"
+  }
+ ]
+}

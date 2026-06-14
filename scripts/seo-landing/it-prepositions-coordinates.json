@@ -1,0 +1,610 @@
+{
+ "coordinates": [
+  {
+   "mode": "fillin",
+   "theme": "",
+   "canonicalDeckSlug": "preposizioni-riempi",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-4-luglio-9a56",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "preposizioni-riempi-4-luglio-6457",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "accessories",
+   "canonicalDeckSlug": "preposizioni-riempi-accessori-caf2",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "accessories",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-accessori-86db",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "activities",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-attivita-3fbc",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "activities",
+   "canonicalDeckSlug": "preposizioni-riempi-attivita-281b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "animals",
+   "canonicalDeckSlug": "preposizioni-riempi-animali-a5b7",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "animals",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-animali-63d2",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "preposizioni-riempi-in-giro-per-casa-d32e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-in-giro-per-casa-1fd8",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-al-supermercato-d828",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "preposizioni-riempi-al-supermercato-aae9",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "bakery",
+   "canonicalDeckSlug": "preposizioni-riempi-panetteria-1e8e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "bakery",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-panetteria-70d5",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "beach",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-spiaggia-f543",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "beach",
+   "canonicalDeckSlug": "preposizioni-riempi-spiaggia-1849",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "birds",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-uccelli-11fd",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "birds",
+   "canonicalDeckSlug": "preposizioni-riempi-uccelli-bb78",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "preposizioni-riempi-uccelli-2-a86f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-uccelli-2-e0af",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "preposizioni-riempi-parti-del-corpo-f5d0",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-parti-del-corpo-e6f0",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "preposizioni-riempi-colazione-9859",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-colazione-ff93",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "camping",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-campeggio-792d",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "camping",
+   "canonicalDeckSlug": "preposizioni-riempi-campeggio-547d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "christmas",
+   "canonicalDeckSlug": "preposizioni-riempi-natale-fe16",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "christmas",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-natale-1b91",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "classroom",
+   "canonicalDeckSlug": "preposizioni-riempi-aula-e514",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "classroom",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-aula-506a",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "clothing",
+   "canonicalDeckSlug": "preposizioni-riempi-abbigliamento-bb5a",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "clothing",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-abbigliamento-8b7b",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "colors",
+   "canonicalDeckSlug": "preposizioni-riempi-colori-14b6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "colors",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-colori-b978",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-dolci-e-dolciumi-e215",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "preposizioni-riempi-dolci-e-dolciumi-562e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "preposizioni-riempi-dinosauri-ee33",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-dinosauri-4ca3",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "easter",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-pasqua-fedf",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "easter",
+   "canonicalDeckSlug": "preposizioni-riempi-pasqua-19c0",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "emotions",
+   "canonicalDeckSlug": "preposizioni-riempi-emozioni-55c8",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "emotions",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-emozioni-e84d",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "preposizioni-riempi-animali-della-fattoria-9b6a",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-animali-della-fattoria-e994",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "flowers",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-fiori-13c0",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "flowers",
+   "canonicalDeckSlug": "preposizioni-riempi-fiori-ffad",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "preposizioni-riempi-creature-della-foresta-ed9b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-creature-della-foresta-001c",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "fruits",
+   "canonicalDeckSlug": "preposizioni-riempi-frutta-af61",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "fruits",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-frutta-2c19",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "furniture",
+   "canonicalDeckSlug": "preposizioni-riempi-mobili-9164",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "furniture",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-mobili-4f79",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "hospital",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-ospedale-fa26",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "hospital",
+   "canonicalDeckSlug": "preposizioni-riempi-ospedale-dc75",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-insetti-e-scarafaggi-22b7",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "preposizioni-riempi-insetti-e-scarafaggi-4868",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-utensili-da-cucina-5d0d",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "preposizioni-riempi-utensili-da-cucina-ddf6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-varie-bdbb",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "preposizioni-riempi-varie-5d18",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "music",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-musica-a973",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "music",
+   "canonicalDeckSlug": "preposizioni-riempi-musica-b13d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "occupations",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-professioni-9ef1",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "occupations",
+   "canonicalDeckSlug": "preposizioni-riempi-professioni-a925",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-vita-oceanica-7692",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "preposizioni-riempi-vita-oceanica-4ae3",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "pets",
+   "canonicalDeckSlug": "preposizioni-riempi-animali-domestici-2947",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "pets",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-animali-domestici-1414",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "post_office",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-ufficio-postale-8637",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "post_office",
+   "canonicalDeckSlug": "preposizioni-riempi-ufficio-postale-2c54",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "preposizioni-riempi-rettili-e-anfibi-b4ea",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-rettili-e-anfibi-befd",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "shapes",
+   "canonicalDeckSlug": "preposizioni-riempi-forme-bb5b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "shapes",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-forme-98dc",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "space",
+   "canonicalDeckSlug": "preposizioni-riempi-spazio-e0da",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "space",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-spazio-fa17",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "spring",
+   "canonicalDeckSlug": "preposizioni-riempi-primavera-7795",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "spring",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-primavera-c9cf",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "summer",
+   "canonicalDeckSlug": "preposizioni-riempi-estate-6124",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "summer",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-estate-8dea",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "preposizioni-riempi-giorno-del-ringraziamento-a4d0",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-giorno-del-ringraziamento-a75a",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "preposizioni-riempi-cose-che-volano-67b2",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-cose-che-volano-3cfa",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "tools",
+   "canonicalDeckSlug": "preposizioni-riempi-attrezzi-0a48",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "tools",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-attrezzi-5be1",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "toys",
+   "canonicalDeckSlug": "preposizioni-riempi-giocattoli-9ce7",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "toys",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-giocattoli-b6d1",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "tree",
+   "canonicalDeckSlug": "preposizioni-riempi-alberi-a9d8",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "tree",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-alberi-8ea0",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-verdure-3202",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "preposizioni-riempi-verdure-a3b6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "preposizioni-riempi-veicoli-be53",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-veicoli-e46a",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "weather",
+   "canonicalDeckSlug": "preposizioni-riempi-meteo-776f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "weather",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-meteo-ad95",
+   "level": "infanzia"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "winter",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-inverno-b281",
+   "level": "infanzia"
+  },
+  {
+   "mode": "fillin",
+   "theme": "winter",
+   "canonicalDeckSlug": "preposizioni-riempi-inverno-2139",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "fillin",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "preposizioni-riempi-animali-dello-zoo-bd31",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "multiplechoice",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "preposizioni-scelta-multipla-animali-dello-zoo-055f",
+   "level": "infanzia"
+  }
+ ]
+}

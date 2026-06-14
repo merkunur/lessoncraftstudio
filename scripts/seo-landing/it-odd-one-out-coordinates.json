@@ -1,0 +1,459 @@
+{
+ "coordinates": [
+  {
+   "mode": "same-theme",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-4-luglio-6252"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "l-intruso-multi-tema-4-luglio-15d6"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "accessories",
+   "canonicalDeckSlug": "l-intruso-multi-tema-accessori-2a94"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "accessories",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-accessori-f5c4"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "activities",
+   "canonicalDeckSlug": "l-intruso-multi-tema-attivita-1741"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "activities",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-attivita-6217"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "animals",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-animali"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "animals",
+   "canonicalDeckSlug": "l-intruso-multi-tema-animali-c336"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-in-giro-per-casa-3163"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "l-intruso-multi-tema-in-giro-per-casa-6ce6"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-al-supermercato-64c9"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "bakery",
+   "canonicalDeckSlug": "l-intruso-multi-tema-panetteria-f382"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "bakery",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-panetteria-0d7a"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "beach",
+   "canonicalDeckSlug": "l-intruso-multi-tema-spiaggia-9df0"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "beach",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-spiaggia-f47d"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "birds",
+   "canonicalDeckSlug": "l-intruso-multi-tema-uccelli-b309"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "birds",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-uccelli-f652"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "l-intruso-multi-tema-uccelli-2-d2f0"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-uccelli-2-c143"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-parti-del-corpo-5010"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "l-intruso-multi-tema-parti-del-corpo-2ef8"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "l-intruso-multi-tema-colazione-72b7"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-colazione-69da"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "camping",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-campeggio-fda2"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "christmas",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-natale-3eb6"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "christmas",
+   "canonicalDeckSlug": "l-intruso-multi-tema-natale-b0e2"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "classroom",
+   "canonicalDeckSlug": "l-intruso-multi-tema-aula-eb5f"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "classroom",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-aula-9c8f"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "clothing",
+   "canonicalDeckSlug": "l-intruso-multi-tema-abbigliamento-62e5"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "clothing",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-abbigliamento-8b5f"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "colors",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-colori-68c7"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "l-intruso-multi-tema-dolci-e-dolciumi-100e"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-dolci-e-dolciumi-9f91"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-dinosauri-ba82"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "l-intruso-multi-tema-dinosauri-57d2"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "easter",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-pasqua-9ca1"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "easter",
+   "canonicalDeckSlug": "l-intruso-multi-tema-pasqua-1d37"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "emotions",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-emozioni-bd74"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "emotions",
+   "canonicalDeckSlug": "l-intruso-multi-tema-emozioni-39ec"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-animali-della-fattoria-2f39"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "l-intruso-multi-tema-animali-della-fattoria-02a9"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "flowers",
+   "canonicalDeckSlug": "l-intruso-multi-tema-fiori-520b"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "flowers",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-fiori-187b"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-creature-della-foresta-56e4"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "fruits",
+   "canonicalDeckSlug": "l-intruso-multi-tema-frutta-28f9"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "fruits",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-frutta-123c"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "furniture",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-mobili-cee7"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "furniture",
+   "canonicalDeckSlug": "l-intruso-multi-tema-mobili-cc17"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "hospital",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-ospedale-e30d"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "hospital",
+   "canonicalDeckSlug": "l-intruso-multi-tema-ospedale-045a"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-insetti-e-scarafaggi-6446"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "l-intruso-multi-tema-insetti-e-scarafaggi-8f2e"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "l-intruso-multi-tema-utensili-da-cucina-b657"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-utensili-da-cucina-042d"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "music",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-musica-71ff"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "music",
+   "canonicalDeckSlug": "l-intruso-multi-tema-musica-6551"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "occupations",
+   "canonicalDeckSlug": "l-intruso-multi-tema-professioni-2971"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "occupations",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-professioni-eccc"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "l-intruso-multi-tema-vita-oceanica-ce79"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "pets",
+   "canonicalDeckSlug": "l-intruso-multi-tema-animali-domestici-8bdb"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "pets",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-animali-domestici-67a6"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "post_office",
+   "canonicalDeckSlug": "l-intruso-multi-tema-ufficio-postale-4a21"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "post_office",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-ufficio-postale-92e5"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "l-intruso-multi-tema-rettili-e-anfibi-e485"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-rettili-e-anfibi-215f"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "shapes",
+   "canonicalDeckSlug": "l-intruso-multi-tema-forme-84e5"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "shapes",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-forme-7321"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "space",
+   "canonicalDeckSlug": "l-intruso-multi-tema-spazio-8054"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "space",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-spazio-e6dd"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "spring",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-primavera-db00"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "spring",
+   "canonicalDeckSlug": "l-intruso-multi-tema-primavera-9054"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "summer",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-estate-e96f"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "summer",
+   "canonicalDeckSlug": "l-intruso-multi-tema-estate-17ac"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-giorno-del-ringraziamento-1f9b"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "l-intruso-multi-tema-giorno-del-ringraziamento-3866"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-cose-che-volano-5656"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "tools",
+   "canonicalDeckSlug": "l-intruso-multi-tema-attrezzi-596d"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "tools",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-attrezzi-b05b"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "toys",
+   "canonicalDeckSlug": "l-intruso-multi-tema-giocattoli-ee76"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "toys",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-giocattoli-9122"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "tree",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-alberi-4c38"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "l-intruso-multi-tema-verdure-75be"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-verdure-82c7"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-veicoli-8f9d"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "l-intruso-multi-tema-veicoli-b51d"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "weather",
+   "canonicalDeckSlug": "l-intruso-multi-tema-meteo-ec60"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "weather",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-meteo-dd19"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "winter",
+   "canonicalDeckSlug": "l-intruso-multi-tema-inverno-23f4"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "winter",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-inverno-9955"
+  },
+  {
+   "mode": "same-theme",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "l-intruso-stesso-tema-animali-dello-zoo-dfad"
+  },
+  {
+   "mode": "cross-theme",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "l-intruso-multi-tema-animali-dello-zoo-e6b6"
+  }
+ ]
+}

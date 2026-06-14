@@ -20,7 +20,14 @@ const fs = require('fs');
 const path = require('path');
 
 const ALL_LOCALES = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
-const MAKER_KEYS = ['cryptogram', 'wordsearch', 'sudoku', 'crossword', 'find-objects', 'word-guess'];
+const MAKER_KEYS = [
+  'addition', 'subtraction', 'code-addition', 'more-less', 'math-puzzle', 'math-worksheet',
+  'alphabet-train', 'prepositions', 'word-guess', 'word-scramble', 'wordsearch', 'cryptogram', 'writing',
+  'big-small', 'pattern-train', 'pattern-worksheet', 'draw-and-color', 'drawing-lines', 'coloring', 'chart-count',
+  'matching', 'grid-match', 'shadow-match', 'bingo', 'picture-sort',
+  'missing-pieces', 'odd-one-out', 'sudoku', 'picture-path',
+  'find-and-count', 'find-objects', 'crossword', 'treasure-hunt',
+];
 const WORD_FLOOR = 200; // §17.4 content-depth floor (total crawlable words)
 
 // EN telltales that must NOT appear in a non-EN maker page body (locale leak).

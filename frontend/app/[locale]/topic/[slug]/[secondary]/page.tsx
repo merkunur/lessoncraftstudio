@@ -469,9 +469,17 @@ export async function generateMetadata({
   const description =
     intersectionMeta ?? prosePreview ?? composeIntersectionDescription(axis1, axis2, name1, name2, ti);
 
+  // SEO RESCUE Part 2 W1: a 2-axis intersection is GENUINELY UNIQUE only when it
+  // has authored topicProse OR topicMeta; otherwise it's a thin generic-template
+  // page (the GSC not-indexed long tail) → noindex,follow (stays live + crawlable,
+  // link equity flows; not indexed). Re-promote later by authoring its prose/meta
+  // key — no code change. Single SoT mirrored by sitemap shard 2.
+  const intersectionAuthored = !!(intersectionMeta || intersectionProse);
+
   return {
     title: pageTitle,
     description,
+    ...(intersectionAuthored ? {} : { robots: { index: false, follow: true } }),
     alternates: {
       canonical,
       languages: hreflangAlternates,

@@ -27,12 +27,29 @@ import da from '@/messages/tool-content/da.json';
 import no from '@/messages/tool-content/no.json';
 import fi from '@/messages/tool-content/fi.json';
 
+// SEO RESCUE Part 1 — the worksheet-MAKER landings also live under /tools/<slug>
+// and must be carved out of the 410 teardown the same way. Their slugs come
+// from @/messages/maker-content/<locale>.json (pilot locales only — add a
+// locale's import here in the same commit that adds its maker-content file).
+import makerEn from '@/messages/maker-content/en.json';
+import makerDe from '@/messages/maker-content/de.json';
+import makerEs from '@/messages/maker-content/es.json';
+import makerIt from '@/messages/maker-content/it.json';
+import makerNl from '@/messages/maker-content/nl.json';
+import makerSv from '@/messages/maker-content/sv.json';
+
 // Tool keys present in every tool-content file. Kept local (not imported from
 // tool-content.ts) so this module has zero runtime deps beyond the JSON — safe
 // for the Edge middleware bundle.
 const TOOL_KEYS = ['ten-frame', 'number-line', 'ruler'] as const;
+// Maker keys present in every maker-content file (pilot set, §maker-content.ts).
+const MAKER_KEYS = ['cryptogram', 'wordsearch', 'sudoku', 'crossword', 'find-objects', 'word-guess'] as const;
 
 const FILES = [en, de, es, fr, it, pt, nl, sv, da, no, fi] as unknown as Array<
+  Record<string, { slug?: string }>
+>;
+
+const MAKER_FILES = [makerEn, makerDe, makerEs, makerIt, makerNl, makerSv] as unknown as Array<
   Record<string, { slug?: string }>
 >;
 
@@ -40,6 +57,12 @@ function collectSlugs(): Set<string> {
   const set = new Set<string>();
   for (const file of FILES) {
     for (const key of TOOL_KEYS) {
+      const entry = file[key];
+      if (entry && typeof entry.slug === 'string' && entry.slug) set.add(entry.slug);
+    }
+  }
+  for (const file of MAKER_FILES) {
+    for (const key of MAKER_KEYS) {
       const entry = file[key];
       if (entry && typeof entry.slug === 'string' && entry.slug) set.add(entry.slug);
     }

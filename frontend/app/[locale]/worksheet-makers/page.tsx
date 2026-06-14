@@ -1,8 +1,10 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ALL_APPS } from '@/config/products';
 import { ArrowRight } from 'lucide-react';
 import { CANONICAL_HOST, canonicalUrl, localePath } from '@/lib/seo/url';
+import { MAKER_KEYS, getMakerContent } from '@/lib/seo/maker-content';
 
 // /[locale]/worksheet-makers/ — Worksheet creators (Apps) category landing.
 // Reopened publicly per operator's 2026-05-17 strategic lock §8.1; daily
@@ -51,7 +53,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     title: `${t('title')}`,
     description: t('description'),
     alternates: { canonical: canonicalUrl(localePath(locale, 'worksheet-makers')) },
-    robots: { index: false, follow: true }, // noindex until full marketing surface ships
+    // Indexable hub for the worksheet-maker SEO channel (SEO RESCUE Part 1).
+    robots: { index: true, follow: true },
   };
 }
 
@@ -60,6 +63,15 @@ export default async function WorksheetMakersPage({ params }: { params: { locale
   const t = await getTranslations({ locale, namespace: 'homepage.fourCardGrid.apps' });
 
   const apps = listCatalogApps();
+
+  // SEO RESCUE Part 1: apps with a rebuilt maker landing in this locale link to
+  // that indexable /tools/<slug> page (internal); the rest still open the
+  // generator HTML directly. Build the app-slug → landing-slug map for `locale`.
+  const makerLandingSlug: Record<string, string> = {};
+  for (const key of MAKER_KEYS) {
+    const c = await getMakerContent(locale, key);
+    if (c && c.slug) makerLandingSlug[key] = c.slug;
+  }
 
   // Group by category for category-section rendering.
   const byCategory = new Map<string, AppMeta[]>();
@@ -102,27 +114,41 @@ export default async function WorksheetMakersPage({ params }: { params: { locale
               {categoryLabel}
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-              {categoryApps.map(app => (
-                <a
-                  key={app.slug}
-                  id={app.slug}
-                  href={`/worksheet-generators/${app.htmlFile}`}
-                  target="_blank"
-                  rel="noopener"
-                  className="group bg-cream-50 hover:bg-cream-100 border border-cream-300 hover:border-terracotta-400 rounded-lg p-4 md:p-5 transition-colors block"
-                >
-                  <h3 className="font-display font-semibold text-base md:text-lg text-ink-900 mb-1 group-hover:text-terracotta-600 transition-colors">
-                    {app.name}
-                  </h3>
-                  <p className="text-sm text-ink-500 mb-3">
-                    {categoryLabel}
-                  </p>
-                  <span className="inline-flex items-center gap-1 text-sm font-medium text-terracotta-500 group-hover:text-terracotta-600 transition-colors">
-                    {t('cardCta')}
-                    <ArrowRight size={14} strokeWidth={2} aria-hidden="true" />
-                  </span>
-                </a>
-              ))}
+              {categoryApps.map(app => {
+                const cardClass =
+                  'group bg-cream-50 hover:bg-cream-100 border border-cream-300 hover:border-terracotta-400 rounded-lg p-4 md:p-5 transition-colors block';
+                const cardInner = (
+                  <>
+                    <h3 className="font-display font-semibold text-base md:text-lg text-ink-900 mb-1 group-hover:text-terracotta-600 transition-colors">
+                      {app.name}
+                    </h3>
+                    <p className="text-sm text-ink-500 mb-3">{categoryLabel}</p>
+                    <span className="inline-flex items-center gap-1 text-sm font-medium text-terracotta-500 group-hover:text-terracotta-600 transition-colors">
+                      {t('cardCta')}
+                      <ArrowRight size={14} strokeWidth={2} aria-hidden="true" />
+                    </span>
+                  </>
+                );
+                const landing = makerLandingSlug[app.slug];
+                // Maker with a rebuilt landing → internal indexable /tools/<slug>
+                // (Next route, <Link>); otherwise open the generator HTML directly.
+                return landing ? (
+                  <Link key={app.slug} id={app.slug} href={localePath(locale, 'tools', landing)} className={cardClass}>
+                    {cardInner}
+                  </Link>
+                ) : (
+                  <a
+                    key={app.slug}
+                    id={app.slug}
+                    href={`/worksheet-generators/${app.htmlFile}`}
+                    target="_blank"
+                    rel="noopener"
+                    className={cardClass}
+                  >
+                    {cardInner}
+                  </a>
+                );
+              })}
             </div>
           </section>
         );

@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "kryptogram-skapare",
+    "name": "Kryptogram-skaparen",
+    "tagline": "Gör knepiga kodknäckar-arbetsblad där varje bokstav blir en symbol eller siffra.",
+    "metaTitle": "Skapa kryptogram för barn – gratis arbetsblad | LessonCraftStudio",
+    "metaDescription": "Skapa kryptogram-arbetsblad gratis i webbläsaren. Skriv dina egna ord, få ett kodknäckar-blad med facit på nolltid. Ingen inloggning, ingen installation.",
+    "about": [
+      "Med Kryptogram-skaparen gör du arbetsblad där varje bokstav byts ut mot en symbol eller siffra, så att eleverna får knäcka koden för att läsa de gömda orden. Det är ett lekfullt sätt att träna bokstavsigenkänning och tålamod för barn i åldern 3-7 år.",
+      "Du skriver helt enkelt in de ord eller den korta mening du vill ha, och verktyget bygger ett färdigt kryptogram med en tydlig kodnyckel. Du kan välja bland över 3000 temabilder så att bladet passar just det ni arbetar med. Allt körs gratis direkt i webbläsaren – inget konto och inget program behöver laddas ner.",
+      "Varje arbetsblad kommer med ett facit, så att du snabbt kan rätta tillsammans med klassen eller låta eleverna kontrollera sig själva. Skriv ut så många exemplar du behöver, helt utan kostnad."
+    ],
+    "howToUse": [
+      "Skriv in de ord eller den korta mening eleverna ska knäcka.",
+      "Välj om bokstäverna ska bli siffror eller roliga symboler, och ett bildtema om du vill.",
+      "Förhandsgranska arbetsbladet och justera tills det känns lagom svårt.",
+      "Skriv ut bladet och facitet – klart att använda i klassrummet."
+    ],
+    "classroomIdeas": [
+      "Använd veckans ord eller temaord och låt eleverna avkoda dem som morgonstart.",
+      "Gör ett gemensamt kryptogram på tavlan och lös det tillsammans steg för steg.",
+      "Låt barnen knäcka varandras hemliga meddelanden i par.",
+      "Koppla koden till ett tema, till exempel djur eller årstider, för extra motivation."
+    ]
+  },
+  "wordsearch": {
+    "slug": "ordsoek-skapare",
+    "name": "Ordsöks-skaparen",
+    "tagline": "Bygg ordsök med just de ord du vill att eleverna ska hitta och träna.",
+    "metaTitle": "Skapa ordletare/ordsök för barn – gratis | LessonCraftStudio",
+    "metaDescription": "Skapa ordsök gratis i webbläsaren med dina egna ord och bilder. Få ett färdigt arbetsblad med facit på sekunder. Ingen inloggning, ingen installation.",
+    "about": [
+      "Ordsöks-skaparen låter dig bygga klassiska ordrutor där eleverna ringar in gömda ord. Du bestämmer själv vilka ord som ska finnas med, så att bladet passar precis det ni arbetar med just nu.",
+      "Verktyget har över 3000 färgglada bilder i olika teman, så att du kan koppla orden till tydliga illustrationer som hjälper de yngsta läsarna. Det körs gratis direkt i webbläsaren utan inloggning eller installation.",
+      "När bladet är klart får du även ett facit som visar var alla ord gömmer sig. Skriv ut hur många kopior du vill och använd dem om och om igen utan kostnad."
+    ],
+    "howToUse": [
+      "Mata in de ord du vill gömma i rutnätet.",
+      "Välj ett bildtema som passar lektionen om du vill ha med illustrationer.",
+      "Ställ in rutnätets storlek så det blir lagom utmanande för åldern.",
+      "Skriv ut ordsöket och facitet och dela ut i klassen."
+    ],
+    "classroomIdeas": [
+      "Träna veckans stavningsord genom att låta eleverna hitta dem i rutnätet.",
+      "Gör ett tematiskt ordsök, till exempel om kroppen eller maten, kopplat till bilderna.",
+      "Använd det som lugn stationsaktivitet eller tyst arbete efter en lektion.",
+      "Låt snabba elever skapa egna ordlistor som du gömmer i nästa blad."
+    ]
+  },
+  "sudoku": {
+    "slug": "barn-sudoku-skapare",
+    "name": "Barn-sudoku-skaparen",
+    "tagline": "Skapa bildsudoku där barnen löser rutnätet med roliga bilder i stället för siffror.",
+    "metaTitle": "Skapa sudoku för barn – gratis bildsudoku | LessonCraftStudio",
+    "metaDescription": "Skapa sudoku för barn gratis i webbläsaren – med bilder i stället för siffror. Få ett färdigt arbetsblad med facit. Ingen inloggning, ingen installation.",
+    "about": [
+      "Barn-sudoku-skaparen gör enkla 4x4-sudoku där de yngsta löser rutnätet med bilder i stället för siffror. Det är ett perfekt första möte med logiskt tänkande för barn i åldern 3-7 år.",
+      "Du väljer bland över 3000 temabilder, så att rutnätet fylls med djur, frukter eller andra figurer som barnen känner igen och tycker om. Allt skapas gratis direkt i webbläsaren utan konto eller nedladdning.",
+      "Varje sudoku kommer med ett tydligt facit, så att rättningen går snabbt. Skriv ut bladen i klassuppsättning och använd dem hur ofta du vill, helt kostnadsfritt."
+    ],
+    "howToUse": [
+      "Välj en uppsättning bilder som ska användas i rutnätet.",
+      "Bestäm hur många rutor som ska vara förifyllda för att styra svårighetsgraden.",
+      "Förhandsgranska sudokut så att det känns lagom enkelt för åldern.",
+      "Skriv ut arbetsbladet och facitet och låt barnen klura."
+    ],
+    "classroomIdeas": [
+      "Introducera logiskt tänkande genom att lösa ett bildsudoku tillsammans på tavlan.",
+      "Använd temabilder som knyter an till veckans ämne, till exempel djur eller årstider.",
+      "Erbjud sudoku som lugn aktivitet vid stationsarbete eller fri stund.",
+      "Låt barnen prata om hur de tänker när de placerar varje bild – ett fint matematiksamtal."
+    ]
+  },
+  "crossword": {
+    "slug": "bildkorsord-skapare",
+    "name": "Bildkorsords-skaparen",
+    "tagline": "Gör korsord där en bild blir ledtråden – perfekt för läsande nybörjare.",
+    "metaTitle": "Skapa bildkorsord för barn – gratis arbetsblad | LessonCraftStudio",
+    "metaDescription": "Skapa bildkorsord gratis i webbläsaren med dina egna ord och bilder. Få ett färdigt arbetsblad med facit på nolltid. Ingen inloggning, ingen installation.",
+    "about": [
+      "Bildkorsords-skaparen bygger korsord där varje ledtråd är en bild i stället för en text. Barnen tittar på illustrationen och skriver in ordet, vilket gör korsord tillgängliga redan innan eleverna läser flytande.",
+      "Du skriver in orden du vill ha och kopplar dem till bilder ur ett bibliotek på över 3000 illustrationer. Verktyget ordnar rutnätet åt dig och allt görs gratis direkt i webbläsaren utan inloggning eller installation.",
+      "Tillsammans med korsordet får du ett ifyllt facit som gör det enkelt att rätta. Skriv ut så många blad du behöver och återanvänd dem läsår efter läsår, helt utan kostnad."
+    ],
+    "howToUse": [
+      "Skriv in orden som ska byggas in i korsordet.",
+      "Välj en passande bild som ledtråd till varje ord.",
+      "Låt verktyget lägga ut rutnätet och förhandsgranska resultatet.",
+      "Skriv ut korsordet och facitet och dela ut i klassen."
+    ],
+    "classroomIdeas": [
+      "Träna stavning och bokstavsljud genom att låta bilden visa vilket ord som ska skrivas.",
+      "Gör ett temakorsord, till exempel om fordon eller mat, kopplat till bilderna.",
+      "Lös ett gemensamt korsord på tavlan och samtala om varje ords stavning.",
+      "Använd korsordet som rolig repetition av veckans ord innan helgen."
+    ]
+  },
+  "find-objects": {
+    "slug": "hitta-foeremaalen-skapare",
+    "name": "Hitta-föremålen-skaparen",
+    "tagline": "Skapa letarblad där barnen spanar efter och räknar gömda föremål i en bild.",
+    "metaTitle": "Skapa hitta föremålen-arbetsblad – gratis | LessonCraftStudio",
+    "metaDescription": "Skapa hitta föremålen-arbetsblad gratis i webbläsaren. Barnen spanar efter gömda bilder och räknar dem. Med facit. Ingen inloggning, ingen installation.",
+    "about": [
+      "Med Hitta-föremålen-skaparen gör du letarblad där barnen ska spana efter och räkna bestämda föremål bland många bilder. Det tränar uppmärksamhet, visuell urskillning och att räkna på ett lekfullt sätt.",
+      "Du väljer vilka föremål som ska gömmas bland ett bildbibliotek på över 3000 illustrationer, så att uppgiften passar just ert tema. Allt skapas gratis direkt i webbläsaren utan konto och utan att något behöver installeras.",
+      "Varje blad kommer med ett facit som visar hur många av varje föremål som finns. Skriv ut i klassuppsättning och låt barnen leta om och om igen, helt utan kostnad."
+    ],
+    "howToUse": [
+      "Välj vilka föremål eller bilder barnen ska leta efter.",
+      "Bestäm hur många bilder som ska fylla bladet för rätt svårighetsgrad.",
+      "Förhandsgranska letarbladet så att det blir tydligt och lagom rörigt.",
+      "Skriv ut arbetsbladet och facitet och låt spaningen börja."
+    ],
+    "classroomIdeas": [
+      "Träna att räkna genom att låta barnen markera och räkna varje gömt föremål.",
+      "Koppla föremålen till ett tema, som havet eller köket, för att utöka ordförrådet.",
+      "Använd bladet som lugn väntaktivitet eller vid stationsarbete.",
+      "Låt barnen jämföra antal i par: vem hittade flest av varje föremål?"
+    ]
+  },
+  "word-guess": {
+    "slug": "gissa-ordet-skapare",
+    "name": "Gissa-ordet-skaparen",
+    "tagline": "Gör arbetsblad där en bild ger ledtråden och barnen skriver in ordet bokstav för bokstav.",
+    "metaTitle": "Skapa gissa ordet-arbetsblad utifrån bild – gratis | LessonCraftStudio",
+    "metaDescription": "Skapa gissa ordet-arbetsblad gratis i webbläsaren. Barnen ser en bild och skriver ordet bokstav för bokstav. Med facit. Ingen inloggning, ingen installation.",
+    "about": [
+      "Gissa-ordet-skaparen gör arbetsblad där barnen ser en bild och fyller i ordet bokstav för bokstav i tomma rutor. Det är ett effektivt sätt att koppla ljud, bild och stavning för läsande nybörjare.",
+      "Du väljer bilder ur ett bibliotek på över 3000 illustrationer och bestämmer hur mycket hjälp barnen ska få, till exempel några förifyllda bokstäver. Verktyget körs gratis direkt i webbläsaren utan inloggning eller installation.",
+      "Tillsammans med bladet får du ett facit med alla rätta ord. Skriv ut så många kopior du vill och använd dem som återkommande lästräning, helt kostnadsfritt."
+    ],
+    "howToUse": [
+      "Välj de bilder vars ord barnen ska gissa och skriva.",
+      "Ställ in hur många bokstäver som ska vara förifyllda som stöd.",
+      "Förhandsgranska bladet så att svårighetsgraden passar åldern.",
+      "Skriv ut arbetsbladet och facitet och dela ut i klassen."
+    ],
+    "classroomIdeas": [
+      "Träna bokstavsljud genom att låta barnen ljuda sig fram till ordet under bilden.",
+      "Använd temabilder, till exempel djur eller frukter, för att bygga ordförråd.",
+      "Lös några ord gemensamt på tavlan innan barnen arbetar på egen hand.",
+      "Låt bladet bli en självrättande station där barnen kontrollerar med facitet."
+    ]
+  },
+  "labels": {
+    "about": "Om det här verktyget",
+    "howToUse": "Så använder du det i klassrummet",
+    "classroomIdeas": "Idéer för arbetsblad",
+    "launchCta": "Öppna {name} gratis",
+    "otherLanguages": "Tillgängligt på andra språk",
+    "relatedMakers": "Fler arbetsblads-verktyg",
+    "makersBreadcrumb": "Arbetsblads-verktyg"
+  }
+}

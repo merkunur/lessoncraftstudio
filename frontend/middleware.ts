@@ -101,6 +101,14 @@ const REMOVED_PREFIXES = /^\/(?:[a-z]{2}\/)?(apps|tools|guides|bundles|ideas|sta
 import { LIVE_TOOL_SLUGS } from '@/config/live-tool-slugs';
 
 /**
+ * SEO RESCUE Part 1 — 301 map folding the secondary `/apps/<x>-worksheets`
+ * URLs into their rebuilt canonical `/tools/<x>-maker` landings (recovers the
+ * ranking equity the wholesale 410 discarded). Consulted BEFORE isRemovedRoute
+ * so it pre-empts the /apps/ 410.
+ */
+import { MAKER_APPS_REDIRECTS } from '@/config/maker-redirects';
+
+/**
  * Standalone removed paths (sitemap-related + pre-pivot relics).
  * Note: /image-sitemap-index.xml and /video-sitemap-index.xml are normally
  * suppressed by the matcher's directory exclusion — included here for
@@ -178,6 +186,15 @@ export default function middleware(request: NextRequest) {
     const url = request.nextUrl.clone();
     url.hostname = 'www.lessoncraftstudio.com';
     return NextResponse.redirect(url, 301);
+  }
+
+  // SEO RESCUE Part 1: 301 the secondary /apps/<x>-worksheets URLs into their
+  // rebuilt /tools/<x>-maker landings — MUST run before isRemovedRoute (which
+  // would otherwise 410 the /apps/ prefix and discard the equity).
+  const redirectKey = pathname.length > 1 && pathname.endsWith('/') ? pathname.slice(0, -1) : pathname;
+  const makerRedirectTarget = MAKER_APPS_REDIRECTS[redirectKey];
+  if (makerRedirectTarget) {
+    return NextResponse.redirect(new URL(makerRedirectTarget, request.url), { status: 301 });
   }
 
   // 410 Gone for all permanently-removed routes — must run before intl middleware

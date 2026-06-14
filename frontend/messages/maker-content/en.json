@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "cryptogram-maker",
+    "name": "Cryptogram Maker",
+    "tagline": "Make printable picture cryptograms in any theme",
+    "metaTitle": "Free Cryptogram Maker — Printable Picture Cryptograms | LessonCraftStudio",
+    "metaDescription": "A free cryptogram maker for the classroom. Pick a theme, type your words, and print a picture cryptogram with an answer key — no login, no install, in 11 languages.",
+    "about": [
+      "A cryptogram turns reading into a friendly puzzle: each letter is hidden behind a little picture or symbol, and children crack the code to reveal the words. This free cryptogram maker lets a teacher build one in under a minute — choose a theme, type the words you want, and the page sets up the picture key and the coded message for you.",
+      "Because you choose the words, the puzzle can match exactly what your class is learning — this week's spelling list, vocabulary from a story, or names from a topic. The generator draws on a library of more than 3,000 themed pictures, so the symbols feel inviting rather than abstract for early readers.",
+      "Everything prints cleanly as a worksheet, and an answer key prints alongside it. There is no account to create and nothing to install — it runs in the browser, works in 11 languages, and the finished puzzle is completely free to use in your classroom."
+    ],
+    "howToUse": [
+      "Pick a theme and type the words or short message you want children to decode.",
+      "Print the worksheet and hand out the picture key so children can match each symbol to its letter.",
+      "Let children work in pairs to crack the code, decoding one word at a time.",
+      "Use the answer key to check the solution together at the end."
+    ],
+    "classroomIdeas": [
+      "Hide this week's spelling words inside a cryptogram for early-finisher practice.",
+      "Build a cryptogram from a story's key vocabulary as a comprehension warm-up.",
+      "Make a short coded message — like a class reward or a riddle — for children to reveal.",
+      "Pair a cryptogram with a topic so children decode the words they are about to learn."
+    ]
+  },
+  "wordsearch": {
+    "slug": "word-search-maker",
+    "name": "Word Search Maker",
+    "tagline": "Build custom word searches with themed pictures",
+    "metaTitle": "Free Word Search Maker — Custom Printable Word Searches | LessonCraftStudio",
+    "metaDescription": "A free word search maker for teachers. Type your own words, choose a grid size and theme, and print a custom word search with an answer key — no login, in 11 languages.",
+    "about": [
+      "A word search asks children to hunt for hidden words across a grid of letters — a calm, focused way to practise spelling and visual scanning. This free word search maker builds one from your own word list: type the words, pick a grid size, and the puzzle lays itself out, with a matching answer key ready to print.",
+      "Because the word list is yours, the puzzle fits the class exactly — phonics patterns, topic vocabulary, names, or sight words. You can keep the grid small and the words left-to-right for the youngest children, or make it larger and add diagonals as they grow more confident.",
+      "It runs in the browser with nothing to install and no account to create, works in 11 languages, and themed pictures can sit alongside the grid to make it inviting. The finished word search is free to print and use in your classroom."
+    ],
+    "howToUse": [
+      "Type the words you want children to find and choose a grid size that suits their age.",
+      "Print the worksheet and ask children to circle each word as they find it.",
+      "Use the word list at the side as a checklist so children know what they are hunting for.",
+      "Check finished puzzles against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Turn a phonics pattern into a word search so children read the same sound many times.",
+      "Build a topic word search to introduce or revise subject vocabulary.",
+      "Make a small left-to-right grid for early readers and a larger grid for older children.",
+      "Use a word search as a calm settling task at the start of the day."
+    ]
+  },
+  "sudoku": {
+    "slug": "sudoku-maker",
+    "name": "Sudoku Maker",
+    "tagline": "Create picture or number sudoku for young learners",
+    "metaTitle": "Free Sudoku Maker for Kids — Printable Picture Sudoku | LessonCraftStudio",
+    "metaDescription": "A free sudoku maker for young children. Create printable 4x4 picture or number sudoku with an answer key — no login, no install, works in 11 languages.",
+    "about": [
+      "Sudoku is a gentle introduction to logical thinking: every row, column, and box must hold each item exactly once. This free sudoku maker builds child-friendly puzzles — small 4x4 grids that use pictures instead of numbers, so even pre-readers can reason through them, plus number grids for children who are ready.",
+      "Picture sudoku keeps the logic without the reading load. A child looks at what is already placed, works out what is missing, and learns to check a guess against the whole grid — early reasoning skills that carry far beyond the puzzle itself.",
+      "You can choose a theme so the pictures match your class, and every puzzle prints with an answer key. It runs in the browser with no account and nothing to install, works in 11 languages, and is completely free to use."
+    ],
+    "howToUse": [
+      "Choose a 4x4 picture grid for the youngest children or a number grid for older ones.",
+      "Print the puzzle and remind children that each picture appears once in every row, column, and box.",
+      "Encourage children to look for a row or box that is nearly full and fill the gap first.",
+      "Check the finished grid against the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Use a picture sudoku as a hands-on logic centre for early-years children.",
+      "Pair a themed sudoku with a topic so the pictures feel familiar.",
+      "Solve one together on the board, thinking aloud, before children try their own.",
+      "Offer a number sudoku as an extension for children ready for a challenge."
+    ]
+  },
+  "crossword": {
+    "slug": "crossword-maker",
+    "name": "Crossword Maker",
+    "tagline": "Make picture crosswords kids can solve",
+    "metaTitle": "Free Crossword Maker — Printable Picture Crosswords for Kids | LessonCraftStudio",
+    "metaDescription": "A free crossword maker for the classroom. Build picture-clue crosswords from your own words and print with an answer key — no login, in 11 languages.",
+    "about": [
+      "A crossword links spelling and meaning: children read a clue, think of the word, and fit it into the grid letter by letter. This free crossword maker builds one from your own words, and for early readers the clues can be pictures instead of sentences — a child sees a picture and writes the word it names.",
+      "Because you supply the words, the crossword matches your class — topic vocabulary, spelling words, or words from a story. Picture clues make it accessible to children who are still building reading confidence, while written clues stretch those who are ready.",
+      "Every crossword prints with its answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished puzzle is free to print and use however your classroom needs it."
+    ],
+    "howToUse": [
+      "Type the words you want in the puzzle and choose picture or written clues.",
+      "Print the crossword and let children read each clue and fill the matching word.",
+      "Encourage children to start with the words they are most sure of and use crossing letters as hints.",
+      "Check answers together using the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Build a picture-clue crossword to revise this week's vocabulary.",
+      "Use a crossword as a spelling check that feels like a game rather than a test.",
+      "Make a topic crossword children complete at the end of a unit.",
+      "Let children suggest the words for next week's class crossword."
+    ]
+  },
+  "find-objects": {
+    "slug": "hidden-object-maker",
+    "name": "Hidden Object Maker",
+    "tagline": "Design I Spy and hidden-object scenes to print",
+    "metaTitle": "Free I Spy & Hidden Object Maker — Printable Find-It Worksheets | LessonCraftStudio",
+    "metaDescription": "A free I Spy and hidden-object maker for teachers. Build printable find-and-count scenes with themed pictures and an answer key — no login, in 11 languages.",
+    "about": [
+      "Hidden-object and I Spy worksheets ask children to search a busy scene, find the right pictures, and count what they see — building careful looking, attention, and early counting all at once. This free maker fills a page with themed pictures so you can create a fresh find-it scene in moments.",
+      "You choose the theme and how crowded the scene is, so the same activity can suit a three-year-old or a more confident six-year-old. Searching, spotting, and counting are readiness skills that support reading and number sense, and children find them genuinely fun.",
+      "Each worksheet prints with an answer key showing the counts, runs in the browser with no account and nothing to install, and works in 11 languages. It is completely free to use in your classroom."
+    ],
+    "howToUse": [
+      "Pick a theme and choose how many pictures fill the scene.",
+      "Print the worksheet and ask children to find and count a particular object.",
+      "Have children mark or colour each object as they find it so none is counted twice.",
+      "Check the totals together using the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Use a hidden-object scene as a quiet, focused settling activity.",
+      "Ask children to count one kind of object and write the number to practise counting.",
+      "Pair the scene with a theme so children search for words they are learning.",
+      "Turn it into an I Spy game — call out an object and let children point or circle it."
+    ]
+  },
+  "word-guess": {
+    "slug": "word-guess-maker",
+    "name": "Word Guess Maker",
+    "tagline": "Create picture word-guess puzzles in minutes",
+    "metaTitle": "Free Word Guess Maker — Printable Picture Word Puzzles | LessonCraftStudio",
+    "metaDescription": "A free word guess maker for early readers. Build printable picture word-guess puzzles from your own words, with an answer key — no login, in 11 languages.",
+    "about": [
+      "A word-guess puzzle shows a picture and a row of empty boxes, and children work out the word and write it in one letter at a time. This free word guess maker builds the puzzle from your own words, pairing each with a clear picture so even early readers can join in.",
+      "Because the words are yours, the puzzle matches the class — first sounds, spelling words, or topic vocabulary. Looking at a picture and sounding out its word links meaning, sound, and spelling together, which is exactly how early reading grows.",
+      "Each puzzle prints with an answer key, runs in the browser with no account and nothing to install, and works in 11 languages. The finished worksheet is free to print and use however your classroom needs it."
+    ],
+    "howToUse": [
+      "Type the words you want children to guess; each one is paired with a picture.",
+      "Print the worksheet and ask children to name the picture and write the word in the boxes.",
+      "Encourage children to sound the word out and fill the letters they are sure of first.",
+      "Check the words together using the printed answer key."
+    ],
+    "classroomIdeas": [
+      "Build a word-guess sheet from this week's spelling or sound focus.",
+      "Use picture clues so children connect a word's meaning to its spelling.",
+      "Make a topic word-guess as a fun end-of-unit review.",
+      "Let early finishers guess a few bonus words while others complete the page."
+    ]
+  },
+  "labels": {
+    "about": "About this worksheet maker",
+    "howToUse": "How to use it in class",
+    "classroomIdeas": "Worksheet ideas",
+    "launchCta": "Open the free {name}",
+    "otherLanguages": "Available in other languages",
+    "relatedMakers": "More worksheet makers",
+    "makersBreadcrumb": "Worksheet makers"
+  }
+}

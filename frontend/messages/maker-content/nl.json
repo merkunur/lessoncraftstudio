@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "cryptogram-maker",
+    "name": "Cryptogram-maker",
+    "tagline": "Maak in een handomdraai een geheimschrift-werkblad waarbij kinderen cijfers omzetten in letters.",
+    "metaTitle": "Cryptogram maken voor kinderen | LessonCraftStudio",
+    "metaDescription": "Maak gratis een cryptogram-werkblad voor groep 1-4. Kinderen kraken de code en vullen het woord in. Met plaatjes, antwoordblad en direct printen.",
+    "about": [
+      "Met de Cryptogram-maker zet je in een paar klikken een geheimschrift-werkblad in elkaar. Elke letter krijgt een cijfer of symbool, en de kinderen kraken samen de code om het verborgen woord te ontdekken. Een speelse manier om met letters, klanken en spelling te oefenen.",
+      "Je kiest zelf de woorden die bij je thema passen en de maker bouwt er meteen een net cryptogram omheen, compleet met een sleutel die de kinderen helpt op weg. Bij elk werkblad krijg je automatisch een antwoordblad, zodat nakijken in een oogwenk klaar is.",
+      "De maker gebruikt meer dan 3000 vrolijke themaplaatjes en werkt volledig gratis in je browser. Geen account, geen installatie, geen gedoe: je opent de tool, stelt je puzzel samen en print het werkblad direct uit voor de klas."
+    ],
+    "howToUse": [
+      "Open de maker en typ de woorden in die de kinderen moeten ontcijferen, passend bij je les of thema.",
+      "Laat de tool automatisch een code en een handige sleutel genereren, zodat elk cijfer voor één letter staat.",
+      "Print het werkblad én het antwoordblad uit, zodat je achteraf snel kunt nakijken.",
+      "Deel het cryptogram uit en laat de kinderen, alleen of in tweetallen, de geheime woorden kraken."
+    ],
+    "classroomIdeas": [
+      "Verstop de spellingwoorden van de week in een cryptogram als pittige extra-opdracht.",
+      "Maak een themacryptogram rond seizoenen, dieren of een project en laat het woord het thema verklappen.",
+      "Geef snelle leerlingen een cryptogram als rustige verwerkingsopdracht in de hoek.",
+      "Laat kinderen in tweetallen samen kraken: de een leest de sleutel, de ander vult de letters in."
+    ]
+  },
+  "wordsearch": {
+    "slug": "woordzoeker-maker",
+    "name": "Woordzoeker-maker",
+    "tagline": "Maak in een minuut een woordzoeker met je eigen woorden en een vrolijk plaatjesthema.",
+    "metaTitle": "Woordzoeker maken voor kinderen | LessonCraftStudio",
+    "metaDescription": "Maak gratis een woordzoeker-werkblad voor groep 1-4. Kies je eigen woorden en thema, print direct uit met antwoordblad. Snel, simpel en zonder inloggen.",
+    "about": [
+      "Met de Woordzoeker-maker maak je een werkblad waarop kinderen verstopte woorden moeten omcirkelen in een letterrooster. Een klassieker die nooit verveelt en die kinderen ongemerkt laat oefenen met letters herkennen, links-naar-rechts lezen en spellen.",
+      "Je vult eenvoudig je eigen woordenlijst in, kiest een passend plaatjesthema en de maker plaatst de woorden automatisch netjes in het rooster. Geen handmatig puzzelen meer: in een paar tellen staat er een speelklaar werkblad, inclusief antwoordblad waarop alle woorden al gemarkeerd zijn.",
+      "De tool draait gratis in je browser met meer dan 3000 themaplaatjes en vraagt geen account of installatie. Je opent de maker, stelt je woordzoeker samen en print hem meteen uit voor de hele klas."
+    ],
+    "howToUse": [
+      "Typ je eigen woorden in de maker, bijvoorbeeld de woorden van het thema of de spellingweek.",
+      "Kies een plaatjesthema en de moeilijkheidsgraad die bij de groep past.",
+      "Laat de tool de woorden automatisch in het letterrooster plaatsen.",
+      "Print de woordzoeker en het antwoordblad uit en deel ze uit in de klas."
+    ],
+    "classroomIdeas": [
+      "Oefen de spellingwoorden van de week door ze in een woordzoeker te verstoppen.",
+      "Maak een themawoordzoeker over dieren, het weer of een project als leuke inleiding.",
+      "Gebruik de woordzoeker als rustige opdracht voor wie eerder klaar is.",
+      "Laat kinderen daarna zelf een woord uit de zoeker in een zin verwerken."
+    ]
+  },
+  "sudoku": {
+    "slug": "kinder-sudoku-maker",
+    "name": "Kinder-sudoku-maker",
+    "tagline": "Maak een vrolijke beeld-sudoku met plaatjes in plaats van cijfers, speciaal voor kleuters en jonge kinderen.",
+    "metaTitle": "Sudoku voor kinderen maken | LessonCraftStudio",
+    "metaDescription": "Maak gratis een kinder-sudoku met plaatjes voor groep 1-4. Geen cijfers nodig, ideaal voor kleuters. Print direct uit met antwoordblad. Zonder inloggen.",
+    "about": [
+      "Met de Kinder-sudoku-maker maak je een sudoku-werkblad waarbij kinderen geen cijfers maar vrolijke plaatjes plaatsen. Perfect voor kleuters en jonge kinderen die nog niet vlot met getallen werken, maar wél met logisch denken en patronen aan de slag willen.",
+      "Je kiest een themaset met plaatjes en de maker bouwt er automatisch een passend sudoku-rooster omheen, met precies genoeg hints om het haalbaar te houden. Bij elk werkblad zit een antwoordblad, zodat je in één oogopslag kunt nakijken of het klopt.",
+      "De tool werkt volledig gratis in je browser, met meer dan 3000 themaplaatjes en zonder account of installatie. Je stelt de sudoku samen, kiest het juiste niveau en print het werkblad meteen uit voor de klas of thuis."
+    ],
+    "howToUse": [
+      "Open de maker en kies een plaatjesthema dat je leerlingen leuk vinden.",
+      "Stel het niveau in: een kleiner rooster en meer hints voor de jongsten.",
+      "Laat de tool automatisch een oplosbare sudoku met plaatjes genereren.",
+      "Print het werkblad en het antwoordblad uit en deel ze uit in de klas."
+    ],
+    "classroomIdeas": [
+      "Gebruik de beeld-sudoku als rustige denkopdracht in de week- of takenmap.",
+      "Laat kleuters de plaatjes eerst uitknippen en in de vakjes leggen voordat ze tekenen.",
+      "Zet de sudoku in als logische opwarmer bij het rekenen.",
+      "Maak een themasudoku rond dieren of seizoenen die aansluit bij je project."
+    ]
+  },
+  "crossword": {
+    "slug": "kruiswoordpuzzel-maker",
+    "name": "Kruiswoordpuzzel-maker",
+    "tagline": "Maak een kruiswoordpuzzel op maat met je eigen woorden, aanwijzingen en een plaatjesthema.",
+    "metaTitle": "Kruiswoordpuzzel maken voor kinderen | LessonCraftStudio",
+    "metaDescription": "Maak gratis een kruiswoordpuzzel-werkblad voor groep 1-4. Kies eigen woorden en aanwijzingen, print direct uit met antwoordblad. Snel en zonder inloggen.",
+    "about": [
+      "Met de Kruiswoordpuzzel-maker zet je een werkblad in elkaar waarop kinderen woorden invullen aan de hand van aanwijzingen of plaatjes. Een fijne manier om woordenschat, spelling en lezen te combineren in één speelse opdracht.",
+      "Je voert je eigen woorden en aanwijzingen in, en de maker vlecht ze automatisch tot een net kruiswoordrooster waarin de woorden elkaar mooi kruisen. Het bijbehorende antwoordblad rolt er meteen uit, zodat nakijken geen tijd kost.",
+      "De tool draait gratis in je browser met meer dan 3000 themaplaatjes en vraagt geen account of installatie. Je stelt je puzzel samen, controleert hem en print het werkblad direct uit voor je klas."
+    ],
+    "howToUse": [
+      "Typ je eigen woorden in en schrijf bij elk woord een korte aanwijzing of kies een plaatje.",
+      "Laat de maker de woorden automatisch tot een kruiswoordrooster samenvoegen.",
+      "Controleer de puzzel in de voorvertoning en pas zo nodig woorden aan.",
+      "Print het werkblad en het antwoordblad uit en deel ze uit in de klas."
+    ],
+    "classroomIdeas": [
+      "Verwerk de nieuwe woordenschat van het thema in een kruiswoordpuzzel.",
+      "Gebruik plaatjes als aanwijzing voor kinderen die nog niet vlot lezen.",
+      "Geef de puzzel mee als rustige verwerking na een leesles.",
+      "Laat leerlingen in tweetallen elkaars aanwijzingen oplossen."
+    ]
+  },
+  "find-objects": {
+    "slug": "zoek-en-vind-maker",
+    "name": "Zoek-en-vind-maker",
+    "tagline": "Maak een vrolijk zoekplaat-werkblad waarop kinderen verstopte voorwerpen opsporen en aankruisen.",
+    "metaTitle": "Zoek en vind werkblad maken | LessonCraftStudio",
+    "metaDescription": "Maak gratis een zoek-en-vind-werkblad voor groep 1-4. Kinderen sporen verstopte voorwerpen op. Met thema's, antwoordblad en direct printen. Zonder inloggen.",
+    "about": [
+      "Met de Zoek-en-vind-maker maak je een werkblad waarop kinderen verstopte voorwerpen tussen alle plaatjes moeten opsporen en aankruisen. Een dankbare opdracht die kleuters en jonge kinderen helpt bij visueel zoeken, goed kijken en geconcentreerd werken.",
+      "Je kiest een thema met plaatjes en geeft aan welke voorwerpen de kinderen moeten vinden, waarna de maker er automatisch een vrolijke zoekplaat van maakt. Op het antwoordblad staan alle gezochte voorwerpen netjes aangegeven, zodat nakijken zo gepiept is.",
+      "De tool werkt gratis in je browser met meer dan 3000 themaplaatjes en zonder account of installatie. Je stelt de zoekplaat samen, kiest hoeveel voorwerpen er verstopt zitten en print het werkblad direct uit voor de klas."
+    ],
+    "howToUse": [
+      "Open de maker en kies een plaatjesthema dat bij je les past.",
+      "Geef aan welke voorwerpen de kinderen moeten zoeken en aankruisen.",
+      "Stel in hoeveel plaatjes en zoekobjecten er op het werkblad komen.",
+      "Print het werkblad en het antwoordblad uit en deel ze uit in de klas."
+    ],
+    "classroomIdeas": [
+      "Gebruik de zoekplaat als rustige start van de dag of als hoekenwerk.",
+      "Koppel de gezochte voorwerpen aan de woordenschat van het thema.",
+      "Laat kinderen na het zoeken vertellen waar ze elk voorwerp vonden.",
+      "Maak een seizoens- of projectzoekplaat die aansluit bij je thema."
+    ]
+  },
+  "word-guess": {
+    "slug": "woordraadsel-maker",
+    "name": "Woordraadsel-maker",
+    "tagline": "Maak een werkblad waarop kinderen het woord bij een plaatje raden en letter voor letter invullen.",
+    "metaTitle": "Woordraadsel maken voor kinderen | LessonCraftStudio",
+    "metaDescription": "Maak gratis een woordraadsel-werkblad voor groep 1-4. Kinderen raden het woord bij het plaatje en vullen de letters in. Met antwoordblad en direct printen.",
+    "about": [
+      "Met de Woordraadsel-maker maak je een werkblad waarop kinderen het woord bij een plaatje raden en de letters in de juiste vakjes invullen. Een ideale opdracht om beginnende lezers te laten oefenen met klanken, letters en het koppelen van woord en beeld.",
+      "Je kiest de plaatjes die bij je thema horen en de maker zet er automatisch lege letterhokjes onder, met eventueel een paar letters als steuntje. Bij elk werkblad krijg je een antwoordblad met de juiste woorden, zodat nakijken in een handomdraai gebeurt.",
+      "De tool draait gratis in je browser met meer dan 3000 themaplaatjes en vraagt geen account of installatie. Je stelt het werkblad samen, kiest het juiste niveau en print het direct uit voor de klas of thuis."
+    ],
+    "howToUse": [
+      "Open de maker en kies de plaatjes waarvan de kinderen het woord moeten raden.",
+      "Stel het niveau in: geef bij de jongsten een paar letters als hulp.",
+      "Laat de tool onder elk plaatje automatisch de juiste letterhokjes plaatsen.",
+      "Print het werkblad en het antwoordblad uit en deel ze uit in de klas."
+    ],
+    "classroomIdeas": [
+      "Oefen de woorden van de spellingweek door ze bij een plaatje te laten raden.",
+      "Gebruik het werkblad bij het aanvankelijk lezen om klanken te verbinden met letters.",
+      "Geef het als zelfstandige opdracht in de takenmap voor beginnende lezers.",
+      "Maak een themaraadsel rond dieren of voorwerpen die je in de klas behandelt."
+    ]
+  },
+  "labels": {
+    "about": "Over deze maker",
+    "howToUse": "Hoe gebruik je het in de klas",
+    "classroomIdeas": "Ideeën voor werkbladen",
+    "launchCta": "Open {name} gratis",
+    "otherLanguages": "Beschikbaar in andere talen",
+    "relatedMakers": "Meer werkblad-makers",
+    "makersBreadcrumb": "Werkblad-makers"
+  }
+}

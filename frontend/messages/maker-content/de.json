@@ -145,10 +145,10 @@
   },
   "alphabet-train": {
     "slug": "alphabet-zug-ersteller",
-    "name": "Alphabet-Zug Ersteller",
-    "tagline": "Die fehlenden Buchstaben entlang eines freundlichen Zuges ergänzen",
-    "metaTitle": "Alphabet-Zug erstellen — fehlende Buchstaben | LessonCraftStudio",
-    "metaDescription": "Kostenlos einen Alphabet-Zug für 3- bis 5-Jährige erstellen: Kinder ergänzen fehlende Buchstaben in der Reihenfolge. Mit Lösungsblatt, kein Login, in 11 Sprachen.",
+    "name": "Alphabet-Zug-Generator",
+    "tagline": "Die fehlenden Buchstaben ergänzen",
+    "metaTitle": "Fehlende Buchstaben – Alphabet-Arbeitsblatt erstellen | LessonCraftStudio",
+    "metaDescription": "Kostenlos ein Alphabet-Arbeitsblatt für die Vorschule erstellen: Kinder ergänzen die fehlenden Buchstaben in der richtigen Reihenfolge. Mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Die Reihenfolge des Alphabets zu lernen wird spielerisch, wenn sie auf einem Zug mitfährt. Dieser kostenlose Alphabet-Zug-Ersteller legt die Buchstaben als Waggons mit ein paar Lücken an, und das Kind schreibt die fehlenden Buchstaben, um die Reihenfolge fortzusetzen.",
       "Herauszufinden, welcher Buchstabe als Nächstes kommt, festigt Buchstabenreihenfolge und -erkennung zugleich, und die Zugform gibt kleinen Lernenden einen klaren Weg von links nach rechts.",
@@ -195,8 +195,8 @@
     "slug": "woerter-raten-ersteller",
     "name": "Wörter-Raten-Generator",
     "tagline": "Wort erraten mit Bild als Tipp",
-    "metaTitle": "Wörter raten erstellen – Bilder-Worträtsel für Kinder | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos ein Wörter-Raten-Arbeitsblatt für die Grundschule: Bild als Tipp, Lücken zum Ausfüllen, Lösungsblatt inklusive – ganz ohne Anmeldung.",
+    "metaTitle": "Wörter raten – Bilder-Worträtsel für die Grundschule | LessonCraftStudio",
+    "metaDescription": "Kostenlos ein Wörter-Raten-Arbeitsblatt für die Grundschule erstellen: Bild als Tipp, Lücken zum Ausfüllen, Lösungsblatt inklusive – ganz ohne Anmeldung.",
     "about": [
       "Mit dem Wörter-Raten-Generator erstellen Sie Arbeitsblätter, bei denen ein Bild den Hinweis gibt und die Kinder das passende Wort Buchstabe für Buchstabe ergänzen. Es ist die kindgerechte, fröhliche Variante des klassischen Wörterratens – ganz ohne Galgen.",
       "Das Erraten nach Bildtipp verbindet Wortschatz, Lautanalyse und Schreibung in einer Aufgabe. Die Kinder hören das Wort innerlich ab, suchen die fehlenden Buchstaben und festigen so ganz nebenbei ihre Lese- und Schreibfertigkeiten.",
@@ -217,10 +217,10 @@
   },
   "word-scramble": {
     "slug": "buchstabensalat-ersteller",
-    "name": "Buchstabensalat Ersteller",
+    "name": "Buchstabensalat-Generator",
     "tagline": "Die Buchstaben mit Bildhilfe sortieren",
-    "metaTitle": "Buchstabensalat erstellen — druckbares Rechtschreiben | LessonCraftStudio",
-    "metaDescription": "Kostenlos Buchstabensalat-Arbeitsblätter für 6- bis 8-Jährige: Kinder ordnen Buchstaben mit Bildhilfe und schreiben das Wort. Druckbar, Lösungsblatt, kein Login, 11 Sprachen.",
+    "metaTitle": "Buchstabensalat erstellen – Wörter ordnen mit Bild | LessonCraftStudio",
+    "metaDescription": "Kostenlos Buchstabensalat-Arbeitsblätter für die Grundschule erstellen: Kinder ordnen die Buchstaben mit Bildhilfe und schreiben das Wort. Mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Durcheinandergewürfelte Buchstaben zu einem echten Wort zu ordnen ist eine schnelle, vergnügliche Art, die Rechtschreibung zu üben. Dieser kostenlose Buchstabensalat-Ersteller mischt die Buchstaben jedes Wortes und stellt eine Bildhilfe daneben, sodass die Kinder beim Knobeln ein Ziel vor Augen haben.",
       "Das Entwirren regt Kinder an, Buchstaben im Kopf zu behalten, Anordnungen auszuprobieren und das Wort lautierend zu erschließen, was Rechtschreibung und Lautbewusstsein in einem entspannten Rätsel zugleich stärkt.",
@@ -241,10 +241,10 @@
   },
   "wordsearch": {
     "slug": "wortsuche-ersteller",
-    "name": "Wortsuche-Generator",
+    "name": "Wortsuche-Generator (Suchsel)",
     "tagline": "Buchstabengitter mit Ihren eigenen Wörtern",
-    "metaTitle": "Wortsuche erstellen – Buchstabensalat-Generator | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos eine Wortsuche für die Grundschule mit eigenen Wörtern und Bildern. Druckfertiges Buchstabengitter samt Lösungsblatt, ohne Anmeldung.",
+    "metaTitle": "Wortsuche erstellen – Suchsel-Generator kostenlos | LessonCraftStudio",
+    "metaDescription": "Kostenlos eine Wortsuche (Suchsel) für die Grundschule erstellen – mit eigenen Wörtern und Bildern. Druckfertiges Buchstabengitter samt Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Mit dem Wortsuche-Generator legen Sie im Handumdrehen ein Buchstabengitter an, in dem Ihre eigenen Wörter versteckt sind. Die Kinder suchen Begriff für Begriff und kreisen sie ein – waagerecht, senkrecht und je nach Einstellung auch diagonal oder rückwärts.",
       "Wortsuchen sind ein bewährter Klassiker, weil sie das Wortbild festigen und die Kinder dazu bringen, Buchstabenfolgen aufmerksam abzusuchen. Damit eignen sie sich hervorragend, um den Wortschatz eines Themas spielerisch zu wiederholen und das genaue Hinsehen zu trainieren.",
@@ -267,8 +267,8 @@
     "slug": "kryptogramm-ersteller",
     "name": "Kryptogramm-Generator",
     "tagline": "Geheimcode-Rätsel zum Knacken und Lesenlernen",
-    "metaTitle": "Kryptogramm Generator – Geheimschrift-Rätsel erstellen | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos Kryptogramme und Geheimschrift-Rätsel für die Grundschule. Druckfertiges Arbeitsblatt mit Lösungsblatt, ganz ohne Anmeldung.",
+    "metaTitle": "Geheimschrift erstellen – Geheimcode-Rätsel für Kinder | LessonCraftStudio",
+    "metaDescription": "Geheimschrift-Rätsel für die Grundschule kostenlos erstellen: Kinder knacken den Geheimcode und lesen das Lösungswort. Druckfertig mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Mit dem Kryptogramm-Generator verwandeln Sie jedes Wort und jeden kurzen Satz in ein Geheimschrift-Rätsel, das Kinder Buchstabe für Buchstabe entschlüsseln. Jeder Buchstabe wird durch ein Symbol oder eine Zahl ersetzt, und die Kinder nutzen die Code-Tabelle, um die verborgene Botschaft zu knacken.",
       "Das Werkzeug ist ideal für die Leseförderung und festigt ganz nebenbei die Buchstaben-Laut-Zuordnung. Weil die Kinder genau hinschauen und vergleichen müssen, trainieren sie zugleich Konzentration und genaues Arbeiten – und haben das Gefühl, ein echtes Geheimnis zu lüften.",
@@ -337,10 +337,10 @@
   },
   "pattern-train": {
     "slug": "muster-zug-ersteller",
-    "name": "Muster-Zug Ersteller",
-    "tagline": "Auswählen, was als Nächstes im Bildmuster kommt",
-    "metaTitle": "Muster-Zug erstellen — was kommt als Nächstes | LessonCraftStudio",
-    "metaDescription": "Kostenlos einen Muster-Zug für 5- bis 7-Jährige erstellen: Kinder finden, was als Nächstes im Bildmuster auf einem Zug kommt. Druckbar, Lösungsblatt, kein Login, 11 Sprachen.",
+    "name": "Muster-fortsetzen-Generator",
+    "tagline": "Auswählen, was als Nächstes kommt",
+    "metaTitle": "Muster fortsetzen – Was kommt als Nächstes? | LessonCraftStudio",
+    "metaDescription": "Kostenlos ein Muster-Arbeitsblatt für die Grundschule erstellen: Kinder finden, was im Bildmuster als Nächstes kommt. Druckfertig mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Ein Muster zu erkennen und vorherzusagen, was als Nächstes kommt, ist versteckte frühe Algebra. Dieser kostenlose Muster-Zug-Ersteller zeigt ein sich wiederholendes Bildmuster, das entlang eines Zuges läuft, mit einem leeren Waggon, und das Kind findet heraus, welches Bild die Lücke füllt.",
       "Ein Muster fortzusetzen verlangt von Kindern, die Regel zu bemerken, im Kopf zu behalten und anzuwenden, was Denken und Aufmerksamkeit auf spielerische, anschauliche Weise schärft.",
@@ -481,10 +481,10 @@
   },
   "matching": {
     "slug": "zuordnungs-arbeitsblatt-ersteller",
-    "name": "Zuordnungs-Arbeitsblatt Ersteller",
-    "tagline": "Linien ziehen, um die zusammengehörenden Bilder zu verbinden",
-    "metaTitle": "Zuordnungs-Arbeitsblätter erstellen — Paare verbinden | LessonCraftStudio",
-    "metaDescription": "Kostenlos Zuordnungs-Arbeitsblätter für 5- bis 7-Jährige: Kinder verbinden zusammengehörende Bildpaare mit Linien. Druckbar, Lösungsblatt, kein Login, 11 Sprachen.",
+    "name": "Zuordnungs-Generator",
+    "tagline": "Bildpaare mit Linien verbinden",
+    "metaTitle": "Zuordnung erstellen – Bilder verbinden Arbeitsblatt | LessonCraftStudio",
+    "metaDescription": "Kostenlos Zuordnungs-Arbeitsblätter für die Grundschule erstellen: Kinder verbinden zusammengehörende Bildpaare mit Linien. Druckfertig mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Paare zuzuordnen ist eine klare, befriedigende Art, wie Kinder zeigen, was sie wissen. Dieser kostenlose Zuordnungs-Arbeitsblatt-Ersteller stellt Bilder in zwei Spalten, und das Kind zieht eine Linie, um jedes mit seinem Partner auf der anderen Seite zu verbinden.",
       "Die richtigen Paare zu verbinden baut visuelle Unterscheidung und das Nachdenken darüber auf, wie Dinge zusammenhängen, und das einfache Linienziehen hält die Aufgabe für junge Lernende zugänglich.",
@@ -553,10 +553,10 @@
   },
   "bingo": {
     "slug": "bingo-karten-ersteller",
-    "name": "Bingo-Karten Ersteller",
+    "name": "Bingo-Karten-Generator",
     "tagline": "Druckbare Bildbingo-Karten und Aufrufkarten",
-    "metaTitle": "Bingo-Karten erstellen — druckbares Bildbingo | LessonCraftStudio",
-    "metaDescription": "Kostenlos Bingo-Karten für 5- bis 7-Jährige erstellen: druckbare Bildbingo-Karten und Aufrufkarten für Wortschatzspiele. Kein Login, in 11 Sprachen.",
+    "metaTitle": "Bingo-Karten erstellen – Bildbingo zum Ausdrucken | LessonCraftStudio",
+    "metaDescription": "Kostenlos Bingo-Karten für die Grundschule erstellen: druckfertige Bildbingo-Karten und Aufrufkarten für Wortschatzspiele. Ohne Anmeldung, in 11 Sprachen.",
     "about": [
       "Bingo ist eine fröhliche Art, gemeinsam Wortschatz zu üben, und dieser kostenlose Bingo-Karten-Ersteller baut mit wenigen Klicks Bildkarten samt passender Aufrufkarten. Jedes Kind bekommt eine Karte mit thematischen Bildern, während Sie sie nacheinander aufrufen.",
       "Auf ein Bild zu hören und es zu markieren baut Worterkennung, Wortschatz und Zuhörfähigkeit auf, und die gemeinsame Spielfreude macht neue Wörter für die ganze Klasse einprägsam. Weil jede Karte ein wenig anders ist, bleiben die Kinder die ganze Runde aufmerksam.",
@@ -651,8 +651,8 @@
     "slug": "kinder-sudoku-ersteller",
     "name": "Kinder-Sudoku-Generator",
     "tagline": "Bilder-Sudoku zum Knobeln für die Kleinsten",
-    "metaTitle": "Sudoku für Kinder erstellen – Bilder-Sudoku-Generator | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos ein Bilder-Sudoku für Kindergarten und Grundschule. Druckfertiges 4x4-Rätsel mit Lösungsblatt, ganz ohne Anmeldung oder Zahlen.",
+    "metaTitle": "Sudoku für Kinder erstellen – Bilder-Sudoku 4x4 | LessonCraftStudio",
+    "metaDescription": "Kostenlos ein Bilder-Sudoku für Kindergarten und Grundschule erstellen. Druckfertiges 4x4-Rätsel mit Lösungsblatt – ganz ohne Zahlen und ohne Anmeldung.",
     "about": [
       "Der Kinder-Sudoku-Generator erstellt Sudokus mit Bildern statt Zahlen – perfekt für Kinder, die noch nicht rechnen, aber schon knobeln möchten. In einem kleinen Raster darf jedes Bild in jeder Reihe und jeder Spalte nur einmal vorkommen.",
       "Diese Rätsel fördern logisches Denken, Mustererkennung und Ausdauer – Grundfertigkeiten, die im Anfangsunterricht eine wichtige Rolle spielen. Weil mit vertrauten Bildern statt Symbolen gearbeitet wird, gelingt der Einstieg auch den Jüngsten ohne Frust.",
@@ -673,10 +673,10 @@
   },
   "picture-path": {
     "slug": "bilderpfad-ersteller",
-    "name": "Bilderpfad Ersteller",
-    "tagline": "Den Weg durch das Labyrinth bis zum Ziel zeichnen",
-    "metaTitle": "Bilderpfad erstellen — druckbares Labyrinth | LessonCraftStudio",
-    "metaDescription": "Kostenlos Bilderpfad-Arbeitsblätter für 5- bis 7-Jährige: Kinder zeichnen den Weg durch ein Rasterlabyrinth von Start zu Ziel. Druckbar, Lösungsblatt, kein Login, 11 Sprachen.",
+    "name": "Labyrinth-Generator (Bilderpfad)",
+    "tagline": "Den Weg durch das Labyrinth zeichnen",
+    "metaTitle": "Labyrinth erstellen – Weg finden zum Ausdrucken | LessonCraftStudio",
+    "metaDescription": "Kostenlos Labyrinth-Arbeitsblätter für die Grundschule erstellen: Kinder zeichnen den Weg durch das Rasterlabyrinth von Start zu Ziel. Mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Labyrinthe sind eine klassische Art, Planen und Stiftkontrolle aufzubauen, und dieser kostenlose Bilderpfad-Ersteller erstellt ein Rasterlabyrinth für junge Lernende. Das Kind zeichnet einen Weg vom Start zum Ziel und bewegt sich nur durch die erlaubten Felder.",
       "Eine Route zu finden verlangt von Kindern, vorauszuplanen, Regeln zu befolgen, wohin sie dürfen, und mit dem Stift ruhig und sauber zu bleiben, alles in einer Aktivität, die sich wie reines Vergnügen anfühlt. Das klare Raster hält selbst knifflige Labyrinthe für junge Lernende zugänglich.",
@@ -723,8 +723,8 @@
     "slug": "suchbilder-ersteller",
     "name": "Suchbild-Generator",
     "tagline": "Wimmelbild-Rätsel zum Finden und Zählen",
-    "metaTitle": "Suchbild erstellen – Wimmelbild & Finde die Objekte | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos Suchbilder und Wimmelbild-Rätsel für Kindergarten und Grundschule. Druckfertig mit Lösungsblatt, ohne Anmeldung – einfach finden und zählen.",
+    "metaTitle": "Wimmelbild erstellen – Suchbild zum Finden & Zählen | LessonCraftStudio",
+    "metaDescription": "Kostenlos Wimmelbilder und Suchbilder für Kindergarten und Grundschule erstellen. Kinder finden und zählen Objekte. Druckfertig mit Lösungsblatt, ohne Anmeldung.",
     "about": [
       "Der Suchbild-Generator erstellt Wimmelbild-Rätsel im Stil von „Finde die Objekte“: Auf einer Seite voller Bilder sollen die Kinder bestimmte Gegenstände entdecken, einkreisen und zählen. Es ist genau jene Art von Aufgabe, bei der Kinder ganz vertieft suchen.",
       "Suchbilder schulen die visuelle Wahrnehmung, die Aufmerksamkeit und das genaue Hinsehen – Fähigkeiten, die das spätere Lesen und Rechnen stützen. Durch das Zählen der gefundenen Objekte fließt ganz nebenbei auch ein erstes Mengenverständnis mit ein.",
@@ -747,8 +747,8 @@
     "slug": "bilderkreuzwortraetsel-ersteller",
     "name": "Bilderkreuzworträtsel-Generator",
     "tagline": "Kreuzworträtsel mit Bildern als Hinweis",
-    "metaTitle": "Bilderkreuzworträtsel erstellen – Kreuzworträtsel-Generator | LessonCraftStudio",
-    "metaDescription": "Erstellen Sie kostenlos ein Bilderkreuzworträtsel für die Grundschule. Druckfertiges Rätsel mit Bildhinweisen und Lösungsblatt, ganz ohne Anmeldung.",
+    "metaTitle": "Kreuzworträtsel erstellen – mit Bildern für Kinder | LessonCraftStudio",
+    "metaDescription": "Kostenlos ein Bilderkreuzworträtsel für die Grundschule erstellen. Druckfertiges Rätsel mit Bildhinweisen statt Lesetext und mit Lösungsblatt, ganz ohne Anmeldung.",
     "about": [
       "Mit dem Bilderkreuzworträtsel-Generator erstellen Sie Kreuzworträtsel, bei denen ein Bild der Hinweis ist: Die Kinder sehen ein Motiv und tragen das passende Wort Buchstabe für Buchstabe in die Kästchen ein. So funktioniert das Rätsel auch für Leseanfänger.",
       "Das Verschriften nach Bildvorlage verbindet Wortschatzarbeit mit der richtigen Schreibweise und festigt die Buchstaben-Laut-Zuordnung. Weil sich die Wörter im Gitter kreuzen, müssen die Kinder genau zählen und sorgfältig schreiben.",

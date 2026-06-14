@@ -145,10 +145,10 @@
   },
   "alphabet-train": {
     "slug": "generatore-treno-alfabeto",
-    "name": "Generatore del treno dell'alfabeto",
-    "tagline": "Completa le lettere mancanti lungo un treno simpatico",
-    "metaTitle": "Generatore del treno dell'alfabeto gratis — Lettere mancanti | LessonCraftStudio",
-    "metaDescription": "Generatore del treno dell'alfabeto gratis per bambini di 3-5 anni. I bambini completano le lettere mancanti in sequenza su un treno da stampare. Gratis, in 11 lingue.",
+    "name": "Generatore di Lettere Mancanti dell'Alfabeto",
+    "tagline": "Completa le lettere mancanti",
+    "metaTitle": "Lettere mancanti dell'alfabeto da stampare | LessonCraftStudio",
+    "metaDescription": "Crea schede di lettere mancanti dell'alfabeto gratis per bambini di 3-5 anni: completano le lettere in sequenza su un trenino da stampare. In 11 lingue.",
     "about": [
       "Imparare l'ordine dell'alfabeto diventa un gioco quando viaggia su un treno. Questo generatore gratuito del treno dell'alfabeto dispone le lettere come vagoni con alcuni spazi vuoti, e il bambino scrive le lettere mancanti per far proseguire la sequenza.",
       "Capire quale lettera viene dopo rafforza l'ordine e il riconoscimento delle lettere allo stesso tempo, e la forma del treno offre ai più piccoli un percorso chiaro da seguire da sinistra a destra.",
@@ -195,7 +195,7 @@
     "slug": "generatore-indovina-parole",
     "name": "Generatore di Indovina la Parola",
     "tagline": "Crea schede 'indovina la parola' con l'immagine come indizio, soluzioni incluse.",
-    "metaTitle": "Generatore indovina la parola con immagine | LessonCraftStudio",
+    "metaTitle": "Indovina la parola con immagine da stampare | LessonCraftStudio",
     "metaDescription": "Crea schede indovina la parola gratis: un'immagine come indizio e le caselle da completare lettera per lettera, con soluzioni. Da stampare, senza registrazione.",
     "about": [
       "Il generatore di indovina la parola crea schede in cui un'immagine fa da indizio e il bambino completa le caselle scrivendo la parola lettera per lettera. È un esercizio prezioso per i primi lettori, che collegano il suono delle parole alla loro scrittura in modo concreto e divertente.",
@@ -217,10 +217,10 @@
   },
   "word-scramble": {
     "slug": "generatore-parole-mescolate",
-    "name": "Generatore di parole mescolate",
-    "tagline": "Riordina le lettere usando un indizio illustrato",
-    "metaTitle": "Generatore di parole mescolate gratis — Ortografia da stampare | LessonCraftStudio",
-    "metaDescription": "Generatore di parole mescolate gratis per bambini di 6-8 anni. I bambini riordinano le lettere con un indizio illustrato e scrivono la parola. Da stampare, con soluzioni, gratis.",
+    "name": "Generatore di Anagrammi",
+    "tagline": "Anagrammi illustrati da stampare",
+    "metaTitle": "Anagrammi per bambini da stampare gratis | LessonCraftStudio",
+    "metaDescription": "Crea anagrammi illustrati gratis per bambini di 6-8 anni: riordina le lettere con un indizio illustrato e scrivi la parola. Da stampare, con soluzioni, senza login.",
     "about": [
       "Riordinare lettere mescolate in una parola vera è un modo rapido e divertente per esercitare l'ortografia. Questo generatore gratuito di parole mescolate mescola le lettere di ogni parola e le abbina a un indizio illustrato, così i bambini hanno un obiettivo verso cui puntare mentre la ricostruiscono.",
       "Riordinare le lettere spinge i bambini a tenere a mente le lettere, provare diverse disposizioni e pronunciare la parola, e questo rafforza sia l'ortografia sia i suoni in un enigma senza pressione.",
@@ -241,10 +241,10 @@
   },
   "wordsearch": {
     "slug": "generatore-cerca-parole",
-    "name": "Generatore di Cerca Parole",
-    "tagline": "Genera griglie di parole nascoste illustrate, da stampare con le soluzioni.",
-    "metaTitle": "Crea cerca parole illustrato per bambini | LessonCraftStudio",
-    "metaDescription": "Genera schede di parole nascoste gratis: scegli le parole, aggiungi immagini a tema e stampa subito la griglia con le soluzioni. Senza login né installazione.",
+    "name": "Generatore di Crucipuzzle",
+    "tagline": "Crucipuzzle illustrati da stampare",
+    "metaTitle": "Crucipuzzle da stampare per bambini gratis | LessonCraftStudio",
+    "metaDescription": "Crea crucipuzzle illustrati gratis: scegli le parole, aggiungi immagini a tema e stampa la griglia di parole nascoste con le soluzioni. Senza login né installazione.",
     "about": [
       "Il generatore di cerca parole crea griglie in cui i bambini cercano e cerchiano le parole nascoste tra le lettere. È un classico amatissimo che allena la lettura, l'attenzione visiva e la pazienza, perfetto per i primi lettori che stanno consolidando le parole.",
       "Puoi affiancare ogni parola alla sua immagine, scegliendo tra più di 3000 figure a tema: così anche chi non legge ancora con sicurezza riconosce cosa cercare. Tu decidi le parole, la dimensione della griglia e quanto rendere impegnativa la ricerca.",
@@ -267,8 +267,8 @@
     "slug": "generatore-crittogrammi",
     "name": "Generatore di Crittogrammi",
     "tagline": "Crea crittogrammi illustrati da stampare, con le soluzioni già pronte.",
-    "metaTitle": "Generatore di crittogrammi per bambini | LessonCraftStudio",
-    "metaDescription": "Crea crittogrammi illustrati da stampare gratis: scegli le parole, abbina simboli e immagini e ottieni subito la scheda con le soluzioni. Senza registrazione.",
+    "metaTitle": "Crittogrammi da stampare per bambini gratis | LessonCraftStudio",
+    "metaDescription": "Crea crittogrammi illustrati da stampare gratis per bambini: scegli le parole, abbina simboli e immagini e ottieni la scheda con le soluzioni. Senza registrazione.",
     "about": [
       "Il generatore di crittogrammi trasforma le parole che scegli in un piccolo enigma da decifrare: ogni lettera diventa un simbolo o un'immagine, e i bambini ricostruiscono la parola usando la legenda. È un modo divertente per allenare il riconoscimento delle lettere e la corrispondenza suono-segno.",
       "Puoi attingere a oltre 3000 immagini a tema — animali, cibo, mezzi di trasporto e tanto altro — così ogni scheda parla del mondo dei tuoi alunni. Lo strumento è pensato per la scuola dell'infanzia e i primi anni della primaria, dove decodificare è ancora un gioco.",
@@ -337,10 +337,10 @@
   },
   "pattern-train": {
     "slug": "generatore-treno-sequenze",
-    "name": "Generatore del treno delle sequenze",
-    "tagline": "Scegli cosa viene dopo nella sequenza illustrata",
-    "metaTitle": "Generatore del treno delle sequenze gratis — Cosa viene dopo | LessonCraftStudio",
-    "metaDescription": "Generatore del treno delle sequenze gratis per bambini di 5-7 anni. I bambini trovano cosa viene dopo in una sequenza illustrata su un treno. Da stampare, con soluzioni, gratis.",
+    "name": "Generatore di Sequenze Logiche",
+    "tagline": "Cosa viene dopo nella sequenza",
+    "metaTitle": "Sequenze logiche da stampare per bambini gratis | LessonCraftStudio",
+    "metaDescription": "Crea schede di sequenze logiche gratis per bambini di 5-7 anni: trovano cosa viene dopo in una sequenza illustrata. Da stampare, con soluzioni, in 11 lingue.",
     "about": [
       "Riconoscere una sequenza e prevedere cosa viene dopo è algebra precoce travestita. Questo generatore gratuito del treno delle sequenze mostra una sequenza illustrata che si ripete lungo un treno con un vagone lasciato vuoto, e il bambino capisce quale immagine riempie lo spazio.",
       "Continuare una sequenza chiede ai bambini di notare la regola, tenerla a mente e applicarla, e questo affina il ragionamento e l'attenzione in modo giocoso e visivo.",
@@ -481,10 +481,10 @@
   },
   "matching": {
     "slug": "generatore-schede-abbinamento",
-    "name": "Generatore di schede di abbinamento",
-    "tagline": "Traccia linee per collegare le immagini che vanno insieme",
-    "metaTitle": "Generatore di schede di abbinamento gratis — Collega le coppie | LessonCraftStudio",
-    "metaDescription": "Generatore di schede di abbinamento gratis per bambini di 5-7 anni. I bambini tracciano linee che collegano le coppie di immagini. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "name": "Generatore di Schede Collega le Immagini",
+    "tagline": "Collega le coppie di immagini",
+    "metaTitle": "Collega le immagini: schede da stampare gratis | LessonCraftStudio",
+    "metaDescription": "Crea schede collega le immagini gratis per bambini di 5-7 anni: i bambini tracciano linee tra le coppie a tema. Da stampare, con soluzioni, in 11 lingue.",
     "about": [
       "Abbinare le coppie è un modo chiaro e soddisfacente perché i bambini mostrino ciò che sanno. Questo generatore gratuito di schede di abbinamento dispone le immagini in due colonne, e il bambino traccia una linea per unire ciascuna al suo compagno sull'altro lato.",
       "Collegare le coppie giuste sviluppa la discriminazione visiva e il ragionamento su come le cose si mettono in relazione, e il semplice tracciare linee mantiene il compito accessibile ai primi alunni.",
@@ -553,10 +553,10 @@
   },
   "bingo": {
     "slug": "generatore-cartelle-bingo",
-    "name": "Generatore di cartelle del bingo",
-    "tagline": "Cartelle del bingo illustrate e cartelle da chiamare da stampare",
-    "metaTitle": "Generatore di cartelle del bingo gratis — Bingo illustrato da stampare | LessonCraftStudio",
-    "metaDescription": "Generatore di cartelle del bingo gratis per bambini di 5-7 anni. Crea cartelle del bingo illustrate e cartelle da chiamare per giochi di vocabolario. Gratis, in 11 lingue.",
+    "name": "Generatore di Tombola Illustrata",
+    "tagline": "Cartelle della tombola da stampare",
+    "metaTitle": "Tombola illustrata da stampare per bambini | LessonCraftStudio",
+    "metaDescription": "Crea cartelle della tombola illustrata gratis per bambini di 5-7 anni: cartelle e immagini da chiamare per giochi di vocabolario. Da stampare, in 11 lingue.",
     "about": [
       "Il bingo è un modo gioioso di esercitare insieme il vocabolario, e questo generatore gratuito di cartelle del bingo costruisce cartelle illustrate più le cartelle da chiamare abbinate in pochi clic. Ogni bambino riceve una cartella di immagini a tema mentre tu le chiami una alla volta.",
       "Ascoltare un'immagine e segnarla sviluppa il riconoscimento delle parole, il vocabolario e l'ascolto, e l'energia condivisa del gioco rende memorabili le nuove parole per tutta la classe. Poiché ogni cartella è un po' diversa, i bambini restano attenti per tutto il giro.",
@@ -651,8 +651,8 @@
     "slug": "generatore-sudoku-bambini",
     "name": "Generatore di Sudoku per Bambini",
     "tagline": "Crea sudoku con immagini, semplici e colorati, da stampare con le soluzioni.",
-    "metaTitle": "Generatore di sudoku per bambini con immagini | LessonCraftStudio",
-    "metaDescription": "Crea sudoku illustrati per bambini gratis: griglie 4x4 con figure a tema, facili da risolvere, con le soluzioni incluse. Da stampare, senza registrazione.",
+    "metaTitle": "Sudoku per bambini con immagini da stampare | LessonCraftStudio",
+    "metaDescription": "Crea sudoku per bambini con immagini gratis: griglie 4x4 con figure a tema, facili da risolvere, con le soluzioni incluse. Da stampare, senza registrazione.",
     "about": [
       "Il generatore di sudoku per bambini crea griglie semplici — di solito 4x4 — in cui al posto dei numeri ci sono immagini colorate. I bambini imparano che ogni figura compare una sola volta in ogni riga, colonna e riquadro: un primo allenamento al ragionamento logico, senza bisogno di saper contare.",
       "Puoi scegliere le figure tra oltre 3000 immagini a tema, così il sudoku diventa un gioco familiare e accogliente. È pensato apposta per la scuola dell'infanzia e la prima primaria, dove la logica si scopre attraverso il gioco e l'osservazione.",
@@ -673,10 +673,10 @@
   },
   "picture-path": {
     "slug": "generatore-percorso-immagini",
-    "name": "Generatore di percorsi illustrati",
-    "tagline": "Disegna il percorso attraverso il labirinto fino al traguardo",
-    "metaTitle": "Generatore di percorsi illustrati gratis — Labirinto da stampare | LessonCraftStudio",
-    "metaDescription": "Generatore di percorsi illustrati gratis per bambini di 5-7 anni. I bambini disegnano il percorso in un labirinto a griglia dalla partenza al traguardo. Da stampare, con soluzioni, gratis.",
+    "name": "Generatore di Labirinti Illustrati",
+    "tagline": "Labirinti a griglia da stampare",
+    "metaTitle": "Labirinti da stampare per bambini gratis | LessonCraftStudio",
+    "metaDescription": "Crea labirinti illustrati gratis per bambini di 5-7 anni: i bambini tracciano il percorso a griglia dalla partenza al traguardo. Da stampare, con soluzioni.",
     "about": [
       "I labirinti sono un modo classico per sviluppare la pianificazione e il controllo della matita, e questo generatore gratuito di percorsi illustrati crea un labirinto a griglia per i piccoli alunni. Il bambino disegna un percorso dalla partenza al traguardo, muovendosi solo attraverso le celle consentite.",
       "Trovare un tragitto chiede ai bambini di pianificare in anticipo, seguire le regole su dove possono andare e restare ordinati e fermi con la matita, il tutto in un'attività che sembra puro divertimento. La griglia chiara mantiene avvicinabili anche i labirinti più difficili per i piccoli alunni.",
@@ -723,8 +723,8 @@
     "slug": "generatore-cerca-oggetti",
     "name": "Generatore di Cerca gli Oggetti",
     "tagline": "Crea scene piene di oggetti nascosti da trovare, da stampare con le soluzioni.",
-    "metaTitle": "Generatore cerca gli oggetti nascosti per bambini | LessonCraftStudio",
-    "metaDescription": "Crea schede cerca gli oggetti nascosti gratis: scene illustrate piene di figure da trovare e contare, con le soluzioni. Da stampare, senza login né installazione.",
+    "metaTitle": "Trova gli oggetti nascosti da stampare gratis | LessonCraftStudio",
+    "metaDescription": "Crea schede trova gli oggetti nascosti gratis: scene illustrate piene di figure da cercare e contare, con le soluzioni. Da stampare, senza login né installazione.",
     "about": [
       "Il generatore di cerca gli oggetti crea schede affollate di figure in cui i bambini devono trovare e cerchiare gli oggetti richiesti. È un'attività che allena l'attenzione visiva, la concentrazione e la capacità di osservare con calma una scena ricca di dettagli.",
       "Puoi comporre la scena scegliendo tra più di 3000 immagini a tema: così ogni scheda diventa un piccolo mondo da esplorare, dal mare alla cucina alla fattoria. Tu decidi quali oggetti cercare e quanti nasconderne nell'illustrazione.",
@@ -747,8 +747,8 @@
     "slug": "generatore-cruciverba-immagini",
     "name": "Generatore di Cruciverba con Immagini",
     "tagline": "Crea cruciverba illustrati per primi lettori, da stampare con le soluzioni.",
-    "metaTitle": "Generatore di cruciverba con immagini per bambini | LessonCraftStudio",
-    "metaDescription": "Crea cruciverba illustrati per bambini gratis: le immagini fanno da definizione, le parole si incastrano nella griglia. Con soluzioni, da stampare senza login.",
+    "metaTitle": "Cruciverba con immagini per bambini da stampare | LessonCraftStudio",
+    "metaDescription": "Crea cruciverba illustrati per bambini gratis: le immagini fanno da definizione e le parole si incastrano nella griglia. Con soluzioni, da stampare, senza login.",
     "about": [
       "Il generatore di cruciverba con immagini crea schede in cui le definizioni non sono frasi ma figure: il bambino guarda l'immagine, riconosce la parola e la scrive nelle caselle. È perfetto per i primi lettori, che così esercitano la scrittura e l'ortografia in modo guidato.",
       "Attingendo a oltre 3000 immagini a tema, puoi costruire cruciverba su qualunque argomento di classe, dai colori agli animali. Le parole si incastrano nella griglia e ogni casella accompagna passo dopo passo verso la parola giusta.",

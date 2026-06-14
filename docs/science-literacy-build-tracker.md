@@ -104,6 +104,12 @@ Dry-run #1: 231 ZIPs, theme_halts=0, exercise_mode_halts=0, collisions=0 (the pr
 4. publish-wave (publish to catalog) + deck-landing + verify (`audit-deck-html.js`, live curl). Note default_subject `science` is the 5th subject (§16.4 doctrine-review flag — authorized by this commission).
 5. Fan-time content checks: per-pair baby-art distinguishability (calf vs cow §A.13.29); per-sort separability on rendered evidence.
 
+## 🏁 ≥5 VARIANTS PER TYPE — BOTH verticals LIVE (2026-06-14, commit `2527ba74`)
+Operator: a K-3 library needs ≥5 worksheets of each kind. Delivered **5 distinct variant sheets per TYPE per locale** via the variant axis (`variantsPerType:5` → reseeded RNG → distinct selection; `variant_id` -2..-5 → unique slug + "Set N" title). Live v1 kept; **+1,540 v2-5 decks published** (literacy 660 + science 880), batch-20260614004125 (1540 INSERT, 0 fail) + OG (1540, 0 fail) + hreflang (1540 DB, 7630 sibling rewrites). DB-verified: every type = 5 (beginning-sounds-k221/word-building-k224/phonological-awareness-k234/picture-vocabulary-k225/de-science-k201 all =5). Live: en word-building-k224-2 "…— Set 2" (12 hreflang), de science k201-2 200.
+- **How:** `tools/gen-lit-fan.js` caps raised (pools 24-32, incl. EN, +neutral category 6/bin); `data/science/*.json` expanded so every sort bin ≥6 + helper-tool→12 pairs (agent curation, all cache-verified). distinctness confirmed (k221 v1 vs v2 share only 1/8 pictures).
+- **Honest caps (logged):** `chicken-life-cycle` EXCLUDED — single fixed 3-stage sequence, can't vary; STAYS 1. `baby-animals` = 6 pairs (only 5 baby-animal images exist library-wide; 6 still yields 5 distinct via omit-one). No deploy needed (hubs already render; variants just populate them).
+- NSR sv/da/no/fi still pending (both verticals). **Every worksheet kind now offers ≥5 sheets per locale.**
+
 ## 🏁 LITERACY VERTICAL CLOSED — 165 decks LIVE in production (2026-06-14)
 15 K-2 literacy types × 11 locales published to the live catalog (batch-20260613233535, **165 INSERT, 0 fail**). Commits `b1ecf1b6` (EN pool) · `60156407` (4 factories) · `d5d762aa` (EN pipeline) · `54158810` (EN catalog 15 types) · `55fb483c` (11-locale fan) — all pushed. 5 protected cores byte-untouched throughout.
 - **5 family-key topic hubs** live per locale: beginning-sounds, letter-knowledge, word-building, picture-vocabulary, phonological-awareness ("Sounds & Syllables"). Verified: `/de/topic/anlaute`, `/en/topic/beginning-sounds`, `/fi/topic/kielellinen-tietoisuus` all 200.

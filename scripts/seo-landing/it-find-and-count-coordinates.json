@@ -1,0 +1,454 @@
+{
+ "coordinates": [
+  {
+   "mode": "letter-spotting",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-4-luglio-050f"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-4-luglio-abd0"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "accessories",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-accessori-3605"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "accessories",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-accessori-8070"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "activities",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-attivita-70a6"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "activities",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-attivita-32f9"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "animals",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-animali-1128"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "animals",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-animali-f91f"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-in-giro-per-casa-9294"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-in-giro-per-casa-f59c"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-al-supermercato-81e5"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-al-supermercato-5753"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "bakery",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-panetteria-73cc"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "bakery",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-panetteria-14d3"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "beach",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-spiaggia-8bf8"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "beach",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-spiaggia-fd3a"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-uccelli-2-accb"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-uccelli-2-7f72"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-parti-del-corpo-311e"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-parti-del-corpo-732c"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-colazione-1d36"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-colazione-6c58"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "camping",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-campeggio-32bd"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "camping",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-campeggio-ce01"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "christmas",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-natale-53c5"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "christmas",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-natale-322e"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "classroom",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-aula-fdfa"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "classroom",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-aula-4740"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "clothing",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-abbigliamento-9608"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "clothing",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-abbigliamento-086c"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "colors",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-colori-1efb"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-dolci-e-dolciumi-622d"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-dolci-e-dolciumi-aa2c"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-dinosauri-0cf2"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "easter",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-pasqua-0728"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "easter",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-pasqua-e961"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "emotions",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-emozioni-ff2d"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "emotions",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-emozioni-014d"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-animali-della-fattoria-b052"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-animali-della-fattoria-a8cd"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "flowers",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-fiori-6994"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "flowers",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-fiori-33ec"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-creature-della-foresta-ec07"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-creature-della-foresta-67e7"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "fruits",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-frutta-6e00"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "furniture",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-mobili-7ddf"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "furniture",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-mobili-fe48"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "hospital",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-ospedale-8d68"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "hospital",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-ospedale-33ad"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-insetti-e-scarafaggi-c65d"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-insetti-e-scarafaggi-00dc"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-utensili-da-cucina-1a8d"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-utensili-da-cucina-01d6"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "music",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-musica-b1ae"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "music",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-musica-1180"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "occupations",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-professioni-ee12"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "occupations",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-professioni-ff09"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-vita-oceanica-6f4e"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-vita-oceanica-12a2"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "pets",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-animali-domestici-4e35"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "post_office",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-ufficio-postale-f7a3"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "post_office",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-ufficio-postale-cb28"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-rettili-e-anfibi-3a7a"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "shapes",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-forme-4c40"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "shapes",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-forme-6b3a"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "space",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-spazio-789b"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "space",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-spazio-8386"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "spring",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-primavera-299d"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "spring",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-primavera-5f8c"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "summer",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-estate-7817"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "summer",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-estate-592b"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-giorno-del-ringraziamento-19b7"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-giorno-del-ringraziamento-6a76"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-cose-che-volano-951a"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-cose-che-volano-9072"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "tools",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-attrezzi-c4d2"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "tools",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-attrezzi-0193"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "toys",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-giocattoli-2d84"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "toys",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-giocattoli-9d1e"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "tree",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-alberi-ecef"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-verdure-e5c7"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-verdure-7b3e"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-veicoli-725f"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-veicoli-e734"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "weather",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-meteo-a18e"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "weather",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-meteo-0f7d"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "winter",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-inverno-1a9c"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "winter",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-inverno-35d4"
+  },
+  {
+   "mode": "letter-spotting",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "trova-e-conta-trova-lettere-animali-dello-zoo-218e"
+  },
+  {
+   "mode": "hidden-object",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "trova-e-conta-oggetti-nascosti-animali-dello-zoo-4c34"
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "cruciverba"
+  },
+  {
+   "mode": null,
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "cruciverba-4-luglio-07a8"
+  },
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "cruciverba-accessori-d07b"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "cruciverba-attivita-0d4a"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "cruciverba-animali-f184"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "cruciverba-in-giro-per-casa-e5f8"
+  },
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "cruciverba-al-supermercato-e068"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "cruciverba-panetteria-6cfc"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "cruciverba-spiaggia-ef12"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "cruciverba-uccelli-2-499b"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "cruciverba-parti-del-corpo-eee9"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "cruciverba-colazione-3b49"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "cruciverba-campeggio-db22"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "cruciverba-natale-746a"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "cruciverba-aula-7e70"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "cruciverba-abbigliamento-384d"
+  },
+  {
+   "mode": null,
+   "theme": "colors",
+   "canonicalDeckSlug": "cruciverba-colori-753f"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "cruciverba-dolci-e-dolciumi-b7e7"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "cruciverba-pasqua-699e"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "cruciverba-emozioni-a23b"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "cruciverba-animali-della-fattoria-b3f9"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "cruciverba-fiori-e3df"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "cruciverba-creature-della-foresta-11b5"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "cruciverba-frutta-b220"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "cruciverba-mobili-6206"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "cruciverba-insetti-e-scarafaggi-87e5"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "cruciverba-utensili-da-cucina-ae69"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "cruciverba-musica-5e97"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "cruciverba-professioni-c0ba"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "cruciverba-vita-oceanica-ca2a"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "cruciverba-animali-domestici-b8b6"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "cruciverba-forme-accc"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "cruciverba-spazio-b6be"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "cruciverba-primavera-2a27"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "cruciverba-estate-8039"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "cruciverba-giorno-del-ringraziamento-e185"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "cruciverba-cose-che-volano-ed99"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "cruciverba-giocattoli-c58e"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "cruciverba-verdure-181f"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "cruciverba-veicoli-f7e0"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "cruciverba-meteo-7435"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "cruciverba-inverno-6be7"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "cruciverba-animali-dello-zoo-7c03"
+  }
+ ]
+}

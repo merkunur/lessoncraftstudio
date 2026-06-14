@@ -1,0 +1,469 @@
+{
+ "coordinates": [
+  {
+   "mode": "normal",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "indovina-la-parola-normale-4-luglio-a993"
+  },
+  {
+   "mode": "easy",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "indovina-la-parola-facile-4-luglio-3422"
+  },
+  {
+   "mode": "easy",
+   "theme": "accessories",
+   "canonicalDeckSlug": "indovina-la-parola-facile-accessori-445a"
+  },
+  {
+   "mode": "normal",
+   "theme": "accessories",
+   "canonicalDeckSlug": "indovina-la-parola-normale-accessori-bd1e"
+  },
+  {
+   "mode": "normal",
+   "theme": "activities",
+   "canonicalDeckSlug": "indovina-la-parola-normale-attivita-7c30"
+  },
+  {
+   "mode": "easy",
+   "theme": "activities",
+   "canonicalDeckSlug": "indovina-la-parola-facile-attivita-aee7"
+  },
+  {
+   "mode": "easy",
+   "theme": "animals",
+   "canonicalDeckSlug": "indovina-la-parola-facile-animali-ecc6"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "indovina-la-parola-animali"
+  },
+  {
+   "mode": "normal",
+   "theme": "animals",
+   "canonicalDeckSlug": "indovina-la-parola-normale-animali-15fd"
+  },
+  {
+   "mode": "easy",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "indovina-la-parola-facile-in-giro-per-casa-7415"
+  },
+  {
+   "mode": "normal",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "indovina-la-parola-normale-in-giro-per-casa-67ad"
+  },
+  {
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "indovina-la-parola-normale-al-supermercato-6ccc"
+  },
+  {
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "indovina-la-parola-facile-al-supermercato-b0a7"
+  },
+  {
+   "mode": "easy",
+   "theme": "bakery",
+   "canonicalDeckSlug": "indovina-la-parola-facile-panetteria-4d8d"
+  },
+  {
+   "mode": "normal",
+   "theme": "bakery",
+   "canonicalDeckSlug": "indovina-la-parola-normale-panetteria-5503"
+  },
+  {
+   "mode": "normal",
+   "theme": "beach",
+   "canonicalDeckSlug": "indovina-la-parola-normale-spiaggia-ea79"
+  },
+  {
+   "mode": "easy",
+   "theme": "beach",
+   "canonicalDeckSlug": "indovina-la-parola-facile-spiaggia-7e94"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds",
+   "canonicalDeckSlug": "indovina-la-parola-facile-uccelli-4bbd"
+  },
+  {
+   "mode": "normal",
+   "theme": "birds",
+   "canonicalDeckSlug": "indovina-la-parola-normale-uccelli-e831"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "indovina-la-parola-facile-uccelli-2-e372"
+  },
+  {
+   "mode": "normal",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "indovina-la-parola-normale-uccelli-2-3670"
+  },
+  {
+   "mode": "easy",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "indovina-la-parola-facile-parti-del-corpo-957f"
+  },
+  {
+   "mode": "normal",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "indovina-la-parola-normale-parti-del-corpo-107e"
+  },
+  {
+   "mode": "normal",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "indovina-la-parola-normale-colazione-f2af"
+  },
+  {
+   "mode": "easy",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "indovina-la-parola-facile-colazione-f4d8"
+  },
+  {
+   "mode": "normal",
+   "theme": "camping",
+   "canonicalDeckSlug": "indovina-la-parola-normale-campeggio-cb0a"
+  },
+  {
+   "mode": "easy",
+   "theme": "camping",
+   "canonicalDeckSlug": "indovina-la-parola-facile-campeggio-b4b1"
+  },
+  {
+   "mode": "easy",
+   "theme": "christmas",
+   "canonicalDeckSlug": "indovina-la-parola-facile-natale-fb9b"
+  },
+  {
+   "mode": "normal",
+   "theme": "christmas",
+   "canonicalDeckSlug": "indovina-la-parola-normale-natale-9e67"
+  },
+  {
+   "mode": "easy",
+   "theme": "classroom",
+   "canonicalDeckSlug": "indovina-la-parola-facile-aula-e307"
+  },
+  {
+   "mode": "normal",
+   "theme": "classroom",
+   "canonicalDeckSlug": "indovina-la-parola-normale-aula-25ed"
+  },
+  {
+   "mode": "normal",
+   "theme": "clothing",
+   "canonicalDeckSlug": "indovina-la-parola-normale-abbigliamento-e8ce"
+  },
+  {
+   "mode": "easy",
+   "theme": "clothing",
+   "canonicalDeckSlug": "indovina-la-parola-facile-abbigliamento-b32a"
+  },
+  {
+   "mode": "easy",
+   "theme": "colors",
+   "canonicalDeckSlug": "indovina-la-parola-facile-colori-111f"
+  },
+  {
+   "mode": "normal",
+   "theme": "colors",
+   "canonicalDeckSlug": "indovina-la-parola-normale-colori-5ac5"
+  },
+  {
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "indovina-la-parola-normale-dolci-e-dolciumi-9373"
+  },
+  {
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "indovina-la-parola-facile-dolci-e-dolciumi-9d76"
+  },
+  {
+   "mode": "normal",
+   "theme": "easter",
+   "canonicalDeckSlug": "indovina-la-parola-normale-pasqua-ea02"
+  },
+  {
+   "mode": "easy",
+   "theme": "easter",
+   "canonicalDeckSlug": "indovina-la-parola-facile-pasqua-04c2"
+  },
+  {
+   "mode": "normal",
+   "theme": "emotions",
+   "canonicalDeckSlug": "indovina-la-parola-normale-emozioni-4a73"
+  },
+  {
+   "mode": "easy",
+   "theme": "emotions",
+   "canonicalDeckSlug": "indovina-la-parola-facile-emozioni-a5b7"
+  },
+  {
+   "mode": "normal",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "indovina-la-parola-normale-animali-della-fattoria-88f4"
+  },
+  {
+   "mode": "easy",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "indovina-la-parola-facile-animali-della-fattoria-64f7"
+  },
+  {
+   "mode": "normal",
+   "theme": "flowers",
+   "canonicalDeckSlug": "indovina-la-parola-normale-fiori-524b"
+  },
+  {
+   "mode": "easy",
+   "theme": "flowers",
+   "canonicalDeckSlug": "indovina-la-parola-facile-fiori-274a"
+  },
+  {
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "indovina-la-parola-facile-creature-della-foresta-6fe1"
+  },
+  {
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "indovina-la-parola-normale-creature-della-foresta-2801"
+  },
+  {
+   "mode": "normal",
+   "theme": "fruits",
+   "canonicalDeckSlug": "indovina-la-parola-normale-frutta-eea5"
+  },
+  {
+   "mode": "easy",
+   "theme": "fruits",
+   "canonicalDeckSlug": "indovina-la-parola-facile-frutta-7a10"
+  },
+  {
+   "mode": "easy",
+   "theme": "furniture",
+   "canonicalDeckSlug": "indovina-la-parola-facile-mobili-e92c"
+  },
+  {
+   "mode": "normal",
+   "theme": "furniture",
+   "canonicalDeckSlug": "indovina-la-parola-normale-mobili-c4ec"
+  },
+  {
+   "mode": "easy",
+   "theme": "hospital",
+   "canonicalDeckSlug": "indovina-la-parola-facile-ospedale-6ac1"
+  },
+  {
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "indovina-la-parola-facile-insetti-e-scarafaggi-a625"
+  },
+  {
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "indovina-la-parola-normale-insetti-e-scarafaggi-07fe"
+  },
+  {
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "indovina-la-parola-facile-utensili-da-cucina-7a76"
+  },
+  {
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "indovina-la-parola-normale-utensili-da-cucina-2c8f"
+  },
+  {
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "indovina-la-parola-facile-varie-357a"
+  },
+  {
+   "mode": "easy",
+   "theme": "music",
+   "canonicalDeckSlug": "indovina-la-parola-facile-musica-56c1"
+  },
+  {
+   "mode": "normal",
+   "theme": "music",
+   "canonicalDeckSlug": "indovina-la-parola-normale-musica-64ba"
+  },
+  {
+   "mode": "easy",
+   "theme": "occupations",
+   "canonicalDeckSlug": "indovina-la-parola-facile-professioni-0b2c"
+  },
+  {
+   "mode": "normal",
+   "theme": "occupations",
+   "canonicalDeckSlug": "indovina-la-parola-normale-professioni-20c9"
+  },
+  {
+   "mode": "easy",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "indovina-la-parola-facile-vita-oceanica-1124"
+  },
+  {
+   "mode": "normal",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "indovina-la-parola-normale-vita-oceanica-4937"
+  },
+  {
+   "mode": "easy",
+   "theme": "pets",
+   "canonicalDeckSlug": "indovina-la-parola-facile-animali-domestici-ec5a"
+  },
+  {
+   "mode": "normal",
+   "theme": "pets",
+   "canonicalDeckSlug": "indovina-la-parola-normale-animali-domestici-1cb2"
+  },
+  {
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "indovina-la-parola-facile-rettili-e-anfibi-9376"
+  },
+  {
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "indovina-la-parola-normale-rettili-e-anfibi-57d0"
+  },
+  {
+   "mode": "normal",
+   "theme": "shapes",
+   "canonicalDeckSlug": "indovina-la-parola-normale-forme-1b9c"
+  },
+  {
+   "mode": "easy",
+   "theme": "shapes",
+   "canonicalDeckSlug": "indovina-la-parola-facile-forme-5000"
+  },
+  {
+   "mode": "easy",
+   "theme": "space",
+   "canonicalDeckSlug": "indovina-la-parola-facile-spazio-53a3"
+  },
+  {
+   "mode": "normal",
+   "theme": "space",
+   "canonicalDeckSlug": "indovina-la-parola-normale-spazio-132e"
+  },
+  {
+   "mode": "easy",
+   "theme": "spring",
+   "canonicalDeckSlug": "indovina-la-parola-facile-primavera-0d78"
+  },
+  {
+   "mode": "normal",
+   "theme": "spring",
+   "canonicalDeckSlug": "indovina-la-parola-normale-primavera-ff28"
+  },
+  {
+   "mode": "normal",
+   "theme": "summer",
+   "canonicalDeckSlug": "indovina-la-parola-normale-estate-e3eb"
+  },
+  {
+   "mode": "easy",
+   "theme": "summer",
+   "canonicalDeckSlug": "indovina-la-parola-facile-estate-bbe1"
+  },
+  {
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "indovina-la-parola-facile-giorno-del-ringraziamento-cf98"
+  },
+  {
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "indovina-la-parola-normale-giorno-del-ringraziamento-e147"
+  },
+  {
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "indovina-la-parola-facile-cose-che-volano-9464"
+  },
+  {
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "indovina-la-parola-normale-cose-che-volano-fe8e"
+  },
+  {
+   "mode": "normal",
+   "theme": "toys",
+   "canonicalDeckSlug": "indovina-la-parola-normale-giocattoli-b925"
+  },
+  {
+   "mode": "easy",
+   "theme": "toys",
+   "canonicalDeckSlug": "indovina-la-parola-facile-giocattoli-7ce2"
+  },
+  {
+   "mode": "easy",
+   "theme": "tree",
+   "canonicalDeckSlug": "indovina-la-parola-facile-alberi-b487"
+  },
+  {
+   "mode": "normal",
+   "theme": "tree",
+   "canonicalDeckSlug": "indovina-la-parola-normale-alberi-9fcb"
+  },
+  {
+   "mode": "normal",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "indovina-la-parola-normale-verdure-9a90"
+  },
+  {
+   "mode": "easy",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "indovina-la-parola-facile-verdure-9a5a"
+  },
+  {
+   "mode": "normal",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "indovina-la-parola-normale-veicoli-a6f0"
+  },
+  {
+   "mode": "easy",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "indovina-la-parola-facile-veicoli-cbb2"
+  },
+  {
+   "mode": "easy",
+   "theme": "weather",
+   "canonicalDeckSlug": "indovina-la-parola-facile-meteo-f553"
+  },
+  {
+   "mode": "normal",
+   "theme": "weather",
+   "canonicalDeckSlug": "indovina-la-parola-normale-meteo-dff0"
+  },
+  {
+   "mode": "easy",
+   "theme": "winter",
+   "canonicalDeckSlug": "indovina-la-parola-facile-inverno-579e"
+  },
+  {
+   "mode": "normal",
+   "theme": "winter",
+   "canonicalDeckSlug": "indovina-la-parola-normale-inverno-05af"
+  },
+  {
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "indovina-la-parola-normale-animali-dello-zoo-b617"
+  },
+  {
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "indovina-la-parola-facile-animali-dello-zoo-099b"
+  }
+ ]
+}

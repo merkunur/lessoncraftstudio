@@ -20,12 +20,23 @@ export const ORGANIZATION_ID = `${CANONICAL_HOST}/#organization`;
 export const WEBSITE_ID = `${CANONICAL_HOST}/#website`;
 export const LOGO_ID = `${CANONICAL_HOST}/#logo`;
 
+// Real social-profile URLs for Organization.sameAs. EMPTY until the operator
+// supplies verified profiles — NEVER fabricate (a wrong sameAs harms entity
+// disambiguation more than an absent one). Populate this array to enable it.
+export const ORGANIZATION_SAME_AS: string[] = [];
+
 export function buildOrganizationSchema(description: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': ORGANIZATION_ID,
     name: 'LessonCraftStudio',
+    // Brand-disambiguation (SEO RESCUE 2026-06-14): explicitly mark this as the
+    // K-3 printable-worksheets publisher so search engines don't conflate it
+    // with the similarly-named AI lesson-planning tools (LessonCraft Pro /
+    // Lesson Craft AI / GetLessonCraft). alternateName = the spaced brand form;
+    // slogan + knowsAbout pin the topical identity. All factual — no fabrication.
+    alternateName: 'LessonCraft Studio',
     url: CANONICAL_HOST,
     logo: {
       '@type': 'ImageObject',
@@ -35,14 +46,20 @@ export function buildOrganizationSchema(description: string) {
       height: 600,
     },
     description,
+    slogan: 'Free printable and interactive K-3 worksheets and worksheet makers in 11 languages.',
+    knowsAbout: [
+      'printable worksheets', 'worksheet makers', 'kindergarten worksheets',
+      'early math', 'phonics', 'reading readiness', 'preschool learning',
+      'K-3 education', 'bilingual classrooms', 'multilingual education',
+    ],
     areaServed: 'Worldwide',
     availableLanguage: [
       'English', 'German', 'French', 'Spanish', 'Portuguese', 'Italian',
       'Dutch', 'Swedish', 'Danish', 'Norwegian', 'Finnish',
     ],
-    // TODO(operator): populate with real social-profile URLs when available.
-    // Leaving as empty array (omit-on-empty pattern). Do NOT fabricate.
-    sameAs: [] as string[],
+    // Emit sameAs only when populated (omit-on-empty). Populate ORGANIZATION_SAME_AS
+    // with real profiles to enable. Do NOT fabricate.
+    ...(ORGANIZATION_SAME_AS.length ? { sameAs: ORGANIZATION_SAME_AS } : {}),
   };
 }
 

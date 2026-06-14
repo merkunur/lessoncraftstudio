@@ -1,0 +1,754 @@
+{
+ "coordinates": [
+  {
+   "mode": "image-image",
+   "theme": "",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine"
+  },
+  {
+   "mode": "image-number",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-4-luglio-1a39"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-4-luglio-b0e2"
+  },
+  {
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-4-luglio-5b65"
+  },
+  {
+   "mode": "image-number",
+   "theme": "accessories",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-accessori-8b3a"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "accessories",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-accessori-e811"
+  },
+  {
+   "mode": "image-image",
+   "theme": "accessories",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-accessori-7d5f"
+  },
+  {
+   "mode": "image-image",
+   "theme": "activities",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-attivita-d08c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "activities",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-attivita-a867"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "activities",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-attivita-eeb0"
+  },
+  {
+   "mode": "image-image",
+   "theme": "animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-animali-bea7"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "animals",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-animali-f728"
+  },
+  {
+   "mode": "image-number",
+   "theme": "animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-animali-8ca2"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-in-giro-per-casa-b916"
+  },
+  {
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-in-giro-per-casa-ae63"
+  },
+  {
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-in-giro-per-casa-2d5a"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-al-supermercato-346b"
+  },
+  {
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-al-supermercato-d177"
+  },
+  {
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-al-supermercato-a80e"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "bakery",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-panetteria-9fee"
+  },
+  {
+   "mode": "image-number",
+   "theme": "bakery",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-panetteria-5e3b"
+  },
+  {
+   "mode": "image-image",
+   "theme": "bakery",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-panetteria-ed15"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "beach",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-spiaggia-ebc1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "beach",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-spiaggia-b893"
+  },
+  {
+   "mode": "image-image",
+   "theme": "beach",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-spiaggia-fa9c"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "birds",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-uccelli-9434"
+  },
+  {
+   "mode": "image-image",
+   "theme": "birds",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-uccelli-982f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-uccelli-a97e"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-uccelli-2-ae07"
+  },
+  {
+   "mode": "image-image",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-uccelli-2-e8c7"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-uccelli-2-526a"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-parti-del-corpo-6e60"
+  },
+  {
+   "mode": "image-number",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-parti-del-corpo-7338"
+  },
+  {
+   "mode": "image-image",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-parti-del-corpo-302d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-colazione-4e35"
+  },
+  {
+   "mode": "image-image",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-colazione-1b79"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-colazione-e375"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "camping",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-campeggio-8f06"
+  },
+  {
+   "mode": "image-image",
+   "theme": "camping",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-campeggio-e220"
+  },
+  {
+   "mode": "image-number",
+   "theme": "camping",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-campeggio-ad11"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "christmas",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-natale-cbcc"
+  },
+  {
+   "mode": "image-image",
+   "theme": "christmas",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-natale-ceb8"
+  },
+  {
+   "mode": "image-number",
+   "theme": "christmas",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-natale-ff49"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "classroom",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-aula-d381"
+  },
+  {
+   "mode": "image-image",
+   "theme": "classroom",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-aula-6fb5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "classroom",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-aula-43ab"
+  },
+  {
+   "mode": "image-image",
+   "theme": "clothing",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-abbigliamento-e123"
+  },
+  {
+   "mode": "image-number",
+   "theme": "clothing",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-abbigliamento-8e35"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "clothing",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-abbigliamento-23c6"
+  },
+  {
+   "mode": "image-image",
+   "theme": "colors",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-colori-dc5f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "colors",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-colori-d306"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "colors",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-colori-76ec"
+  },
+  {
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-dolci-e-dolciumi-16eb"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-dolci-e-dolciumi-76f8"
+  },
+  {
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-dolci-e-dolciumi-9d89"
+  },
+  {
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-dinosauri-de8c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-dinosauri-a861"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-dinosauri-6909"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "easter",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-pasqua-72f0"
+  },
+  {
+   "mode": "image-image",
+   "theme": "easter",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-pasqua-b530"
+  },
+  {
+   "mode": "image-number",
+   "theme": "easter",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-pasqua-b0d4"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "emotions",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-emozioni-ceae"
+  },
+  {
+   "mode": "image-image",
+   "theme": "emotions",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-emozioni-f2f9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "emotions",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-emozioni-2c82"
+  },
+  {
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-animali-della-fattoria-3b65"
+  },
+  {
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-animali-della-fattoria-7267"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-animali-della-fattoria-dc71"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "flowers",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-fiori-7b7d"
+  },
+  {
+   "mode": "image-image",
+   "theme": "flowers",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-fiori-ce87"
+  },
+  {
+   "mode": "image-number",
+   "theme": "flowers",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-fiori-bafe"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-creature-della-foresta-339d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-creature-della-foresta-5f3e"
+  },
+  {
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-creature-della-foresta-78e3"
+  },
+  {
+   "mode": "image-number",
+   "theme": "fruits",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-frutta-5136"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "fruits",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-frutta-da76"
+  },
+  {
+   "mode": "image-image",
+   "theme": "fruits",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-frutta-d0e1"
+  },
+  {
+   "mode": "image-image",
+   "theme": "furniture",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-mobili-2ed5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "furniture",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-mobili-a3b9"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "furniture",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-mobili-c079"
+  },
+  {
+   "mode": "image-number",
+   "theme": "hospital",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-ospedale-4efc"
+  },
+  {
+   "mode": "image-image",
+   "theme": "hospital",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-ospedale-60f3"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "hospital",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-ospedale-4221"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-insetti-e-scarafaggi-5373"
+  },
+  {
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-insetti-e-scarafaggi-06ca"
+  },
+  {
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-insetti-e-scarafaggi-850a"
+  },
+  {
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-utensili-da-cucina-df29"
+  },
+  {
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-utensili-da-cucina-a897"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-utensili-da-cucina-5bf8"
+  },
+  {
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-varie-4a42"
+  },
+  {
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-varie-f5e3"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-varie-89d9"
+  },
+  {
+   "mode": "image-image",
+   "theme": "music",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-musica-de31"
+  },
+  {
+   "mode": "image-number",
+   "theme": "music",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-musica-443d"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "music",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-musica-2378"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "occupations",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-professioni-2045"
+  },
+  {
+   "mode": "image-image",
+   "theme": "occupations",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-professioni-1029"
+  },
+  {
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-vita-oceanica-e7bd"
+  },
+  {
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-vita-oceanica-6f01"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-vita-oceanica-5777"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "pets",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-animali-domestici-5da9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "pets",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-animali-domestici-13c0"
+  },
+  {
+   "mode": "image-image",
+   "theme": "pets",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-animali-domestici-4330"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "post_office",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-ufficio-postale-0f55"
+  },
+  {
+   "mode": "image-number",
+   "theme": "post_office",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-ufficio-postale-4ce2"
+  },
+  {
+   "mode": "image-image",
+   "theme": "post_office",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-ufficio-postale-f34f"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-rettili-e-anfibi-2635"
+  },
+  {
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-rettili-e-anfibi-a5f2"
+  },
+  {
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-rettili-e-anfibi-bcfe"
+  },
+  {
+   "mode": "image-number",
+   "theme": "shapes",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-forme-0cdc"
+  },
+  {
+   "mode": "image-image",
+   "theme": "shapes",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-forme-5107"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "shapes",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-forme-2799"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "space",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-spazio-4594"
+  },
+  {
+   "mode": "image-image",
+   "theme": "space",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-spazio-98eb"
+  },
+  {
+   "mode": "image-number",
+   "theme": "space",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-spazio-254a"
+  },
+  {
+   "mode": "image-image",
+   "theme": "spring",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-primavera-1cdb"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "spring",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-primavera-87d4"
+  },
+  {
+   "mode": "image-number",
+   "theme": "spring",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-primavera-e6de"
+  },
+  {
+   "mode": "image-number",
+   "theme": "summer",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-estate-82be"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "summer",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-estate-3acb"
+  },
+  {
+   "mode": "image-image",
+   "theme": "summer",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-estate-95f6"
+  },
+  {
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-giorno-del-ringraziamento-aa6f"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-giorno-del-ringraziamento-0315"
+  },
+  {
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-giorno-del-ringraziamento-0cc9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-cose-che-volano-34a1"
+  },
+  {
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-cose-che-volano-1e30"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-cose-che-volano-82f3"
+  },
+  {
+   "mode": "image-image",
+   "theme": "tools",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-attrezzi-d42b"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "tools",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-attrezzi-cfce"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tools",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-attrezzi-76c6"
+  },
+  {
+   "mode": "image-number",
+   "theme": "toys",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-giocattoli-1c9c"
+  },
+  {
+   "mode": "image-image",
+   "theme": "toys",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-giocattoli-4874"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "toys",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-giocattoli-36ba"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tree",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-alberi-19db"
+  },
+  {
+   "mode": "image-image",
+   "theme": "tree",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-alberi-536c"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "tree",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-alberi-016c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-verdure-6a1f"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-verdure-f39d"
+  },
+  {
+   "mode": "image-image",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-verdure-d89f"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-veicoli-f202"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-veicoli-cff1"
+  },
+  {
+   "mode": "image-image",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-veicoli-5893"
+  },
+  {
+   "mode": "image-image",
+   "theme": "weather",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-meteo-8768"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "weather",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-meteo-0a16"
+  },
+  {
+   "mode": "image-number",
+   "theme": "weather",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-meteo-4737"
+  },
+  {
+   "mode": "image-image",
+   "theme": "winter",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-inverno-b126"
+  },
+  {
+   "mode": "image-number",
+   "theme": "winter",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-inverno-af44"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "winter",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-inverno-8fc5"
+  },
+  {
+   "mode": "check-cross",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "piu-o-meno-spunta-e-barra-gruppi-animali-dello-zoo-f967"
+  },
+  {
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-immagine-animali-dello-zoo-b7ed"
+  },
+  {
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "piu-o-meno-immagine-numero-animali-dello-zoo-333d"
+  }
+ ]
+}

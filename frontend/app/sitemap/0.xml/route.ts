@@ -36,6 +36,25 @@ export const revalidate = 1800;
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lessoncraftstudio.com';
 
+/**
+ * SEO RESCUE Part 2 Wave A (2026-06-14): the individual `/decks/<slug>/` pages are
+ * near-duplicate, image-only thin assets — GSC's "Crawled – currently not indexed"
+ * bucket is ~78% deck pages. We STOP promoting them in the sitemap so Google's crawl
+ * budget concentrates on the genuinely-unique topic hubs + the (enriched) /worksheets/
+ * landings. Decks stay live + playable; this only de-promotes them. Flip back to true
+ * to restore the deck-page + image sitemap (fully reversible). The buildShard machinery
+ * below is retained for that revert.
+ */
+const EMIT_DECK_SITEMAP = false;
+
+const EMPTY_URLSET = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+  '        xmlns:xhtml="http://www.w3.org/1999/xhtml"',
+  '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
+  '</urlset>',
+].join('\n');
+
 function partitionMatches(deckId: string, partition: number): boolean {
   return deckId.charCodeAt(deckId.length - 1) % 2 === partition;
 }
@@ -165,6 +184,16 @@ async function buildShard(decks: ReadonlyArray<DeckRow>, partition: number): Pro
 }
 
 export async function GET() {
+  if (!EMIT_DECK_SITEMAP) {
+    // Wave A: deck pages de-promoted from the sitemap (see EMIT_DECK_SITEMAP).
+    return new NextResponse(EMPTY_URLSET, {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/xml; charset=UTF-8',
+        'Cache-Control': 'public, max-age=1800, s-maxage=1800',
+      },
+    });
+  }
   try {
     const decks = await prisma.deck.findMany({
       where: { status: 'published' },

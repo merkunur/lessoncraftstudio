@@ -19,7 +19,13 @@ export const revalidate = 3600;
 // sitemap convention from app/sitemap.ts (4 = deck-landing pages, Gate-1
 // browse-layer ruling 2026-06-12). Hard-coded here so the index references
 // all five shards regardless of generateSitemaps()'s return.
-const SITEMAP_SHARD_IDS = [0, 1, 2, 3, 4];
+// SEO RESCUE Part 2 Wave A (2026-06-14): shards 0 + 1 (deck pages) are DROPPED
+// from the index — the individual `/decks/<slug>/` pages are near-duplicate,
+// image-only thin assets dominating GSC's "Crawled – not indexed" bucket, so we
+// stop promoting them and concentrate crawl on the unique topic hubs (shards 2/3)
+// + the /worksheets/ landings (shard 4). The 0.xml/1.xml routes now emit empty
+// urlsets (EMIT_DECK_SITEMAP=false). To revert: restore [0,1,2,3,4] + the flag.
+const SITEMAP_SHARD_IDS = [2, 3, 4];
 
 export async function GET() {
   const baseUrl = 'https://www.lessoncraftstudio.com';

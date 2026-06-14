@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "kryptogramm-ersteller",
+    "name": "Kryptogramm-Generator",
+    "tagline": "Geheimcode-Rätsel zum Knacken und Lesenlernen",
+    "metaTitle": "Kryptogramm Generator – Geheimschrift-Rätsel erstellen | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos Kryptogramme und Geheimschrift-Rätsel für die Grundschule. Druckfertiges Arbeitsblatt mit Lösungsblatt, ganz ohne Anmeldung.",
+    "about": [
+      "Mit dem Kryptogramm-Generator verwandeln Sie jedes Wort und jeden kurzen Satz in ein Geheimschrift-Rätsel, das Kinder Buchstabe für Buchstabe entschlüsseln. Jeder Buchstabe wird durch ein Symbol oder eine Zahl ersetzt, und die Kinder nutzen die Code-Tabelle, um die verborgene Botschaft zu knacken.",
+      "Das Werkzeug ist ideal für die Leseförderung und festigt ganz nebenbei die Buchstaben-Laut-Zuordnung. Weil die Kinder genau hinschauen und vergleichen müssen, trainieren sie zugleich Konzentration und genaues Arbeiten – und haben das Gefühl, ein echtes Geheimnis zu lüften.",
+      "Zu jedem Arbeitsblatt entsteht automatisch ein passendes Lösungsblatt, sodass Sie keine Zeit mit dem Kontrollieren verlieren. Alles läuft kostenlos im Browser, ohne Installation und ohne Anmeldung – einfach ausfüllen, drucken und loslegen."
+    ],
+    "howToUse": [
+      "Geben Sie Ihre Wörter oder einen kurzen Satz ein, der entschlüsselt werden soll.",
+      "Wählen Sie ein Thema aus der Bildbibliothek mit über 3000 Motiven, das zu Ihrem Unterricht passt.",
+      "Legen Sie fest, ob die Geheimschrift aus Symbolen oder Zahlen besteht, und passen Sie den Schwierigkeitsgrad an.",
+      "Drucken Sie das fertige Arbeitsblatt samt Lösungsblatt aus und verteilen Sie es in der Klasse."
+    ],
+    "classroomIdeas": [
+      "Verstecken Sie die Wörter der aktuellen Lernkartei und lassen Sie die Kinder die Lautschreibung wiederholen.",
+      "Nutzen Sie ein Kryptogramm als motivierenden Einstieg in eine neue Unterrichtseinheit oder ein Projektthema.",
+      "Setzen Sie das Rätsel als ruhige Stationsarbeit oder Freiarbeit für schnelle Kinder ein.",
+      "Gestalten Sie eine Schatzsuche, bei der jede geknackte Botschaft zum nächsten Hinweis führt."
+    ]
+  },
+  "wordsearch": {
+    "slug": "wortsuche-ersteller",
+    "name": "Wortsuche-Generator",
+    "tagline": "Buchstabengitter mit Ihren eigenen Wörtern",
+    "metaTitle": "Wortsuche erstellen – Buchstabensalat-Generator | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos eine Wortsuche für die Grundschule mit eigenen Wörtern und Bildern. Druckfertiges Buchstabengitter samt Lösungsblatt, ohne Anmeldung.",
+    "about": [
+      "Mit dem Wortsuche-Generator legen Sie im Handumdrehen ein Buchstabengitter an, in dem Ihre eigenen Wörter versteckt sind. Die Kinder suchen Begriff für Begriff und kreisen sie ein – waagerecht, senkrecht und je nach Einstellung auch diagonal oder rückwärts.",
+      "Wortsuchen sind ein bewährter Klassiker, weil sie das Wortbild festigen und die Kinder dazu bringen, Buchstabenfolgen aufmerksam abzusuchen. Damit eignen sie sich hervorragend, um den Wortschatz eines Themas spielerisch zu wiederholen und das genaue Hinsehen zu trainieren.",
+      "Sie geben einfach Ihre Wörter ein, wählen die Gittergröße und drucken das Ergebnis mitsamt Lösungsblatt aus. Der Generator läuft kostenlos im Browser – ohne Login, ohne Installation und sofort einsatzbereit."
+    ],
+    "howToUse": [
+      "Tippen Sie Ihre Wortliste ein – passend zum aktuellen Thema oder zur Lernkartei.",
+      "Wählen Sie Gittergröße und Richtungen (waagerecht, senkrecht, diagonal, rückwärts) je nach Klassenstufe.",
+      "Ergänzen Sie bei Bedarf passende Bilder aus der Bibliothek mit über 3000 Motiven.",
+      "Drucken Sie das Buchstabengitter und das dazugehörige Lösungsblatt aus."
+    ],
+    "classroomIdeas": [
+      "Wiederholen Sie den Themenwortschatz, indem Sie genau die neuen Begriffe verstecken.",
+      "Legen Sie eine leichte und eine schwere Variante an, um in der Klasse zu differenzieren.",
+      "Setzen Sie die Wortsuche als entspannte Beschäftigung für die ersten Minuten am Morgen ein.",
+      "Lassen Sie die Kinder zu zweit suchen und sich gegenseitig die gefundenen Wörter vorlesen."
+    ]
+  },
+  "sudoku": {
+    "slug": "kinder-sudoku-ersteller",
+    "name": "Kinder-Sudoku-Generator",
+    "tagline": "Bilder-Sudoku zum Knobeln für die Kleinsten",
+    "metaTitle": "Sudoku für Kinder erstellen – Bilder-Sudoku-Generator | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos ein Bilder-Sudoku für Kindergarten und Grundschule. Druckfertiges 4x4-Rätsel mit Lösungsblatt, ganz ohne Anmeldung oder Zahlen.",
+    "about": [
+      "Der Kinder-Sudoku-Generator erstellt Sudokus mit Bildern statt Zahlen – perfekt für Kinder, die noch nicht rechnen, aber schon knobeln möchten. In einem kleinen Raster darf jedes Bild in jeder Reihe und jeder Spalte nur einmal vorkommen.",
+      "Diese Rätsel fördern logisches Denken, Mustererkennung und Ausdauer – Grundfertigkeiten, die im Anfangsunterricht eine wichtige Rolle spielen. Weil mit vertrauten Bildern statt Symbolen gearbeitet wird, gelingt der Einstieg auch den Jüngsten ohne Frust.",
+      "Sie wählen ein Thema, der Generator erstellt das Raster und das passende Lösungsblatt automatisch. Alles ist kostenlos, läuft direkt im Browser und ist ohne Anmeldung oder Installation sofort druckbereit."
+    ],
+    "howToUse": [
+      "Wählen Sie ein Bildthema aus der Bibliothek mit über 3000 Motiven aus.",
+      "Stellen Sie die Rastergröße ein – ein 4x4-Feld eignet sich gut für den Anfang.",
+      "Passen Sie über die Anzahl der vorgegebenen Bilder den Schwierigkeitsgrad an.",
+      "Drucken Sie das Sudoku und das Lösungsblatt für die Selbstkontrolle aus."
+    ],
+    "classroomIdeas": [
+      "Setzen Sie das Bilder-Sudoku als Knobelaufgabe in der Freiarbeit oder an einer Lernstation ein.",
+      "Beginnen Sie mit einem 4x4-Raster und steigern Sie die Größe, sobald die Kinder sicherer werden.",
+      "Lassen Sie die Kinder das ausgeschnittene Bildmaterial erst legen und dann eintragen.",
+      "Verbinden Sie das Thema des Sudokus mit dem aktuellen Sachunterricht, etwa Tiere oder Obst."
+    ]
+  },
+  "crossword": {
+    "slug": "bilderkreuzwortraetsel-ersteller",
+    "name": "Bilderkreuzworträtsel-Generator",
+    "tagline": "Kreuzworträtsel mit Bildern als Hinweis",
+    "metaTitle": "Bilderkreuzworträtsel erstellen – Kreuzworträtsel-Generator | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos ein Bilderkreuzworträtsel für die Grundschule. Druckfertiges Rätsel mit Bildhinweisen und Lösungsblatt, ganz ohne Anmeldung.",
+    "about": [
+      "Mit dem Bilderkreuzworträtsel-Generator erstellen Sie Kreuzworträtsel, bei denen ein Bild der Hinweis ist: Die Kinder sehen ein Motiv und tragen das passende Wort Buchstabe für Buchstabe in die Kästchen ein. So funktioniert das Rätsel auch für Leseanfänger.",
+      "Das Verschriften nach Bildvorlage verbindet Wortschatzarbeit mit der richtigen Schreibweise und festigt die Buchstaben-Laut-Zuordnung. Weil sich die Wörter im Gitter kreuzen, müssen die Kinder genau zählen und sorgfältig schreiben.",
+      "Sie geben Ihre Wörter ein, wählen die passenden Bilder, und der Generator baut das Gitter samt Lösungsblatt automatisch zusammen. Das Werkzeug ist kostenlos, läuft im Browser und benötigt weder Anmeldung noch Installation."
+    ],
+    "howToUse": [
+      "Geben Sie die Lösungswörter ein, die im Kreuzworträtsel erscheinen sollen.",
+      "Ordnen Sie jedem Wort ein passendes Bild aus der Bibliothek mit über 3000 Motiven zu.",
+      "Wählen Sie die Gittergröße und ob Groß- oder Kleinbuchstaben verwendet werden.",
+      "Drucken Sie das Rätsel mit den Bildhinweisen und das Lösungsblatt aus."
+    ],
+    "classroomIdeas": [
+      "Üben Sie die richtige Schreibweise neuer Themenwörter direkt nach der Bildvorlage.",
+      "Nutzen Sie das Rätsel zur Wortschatzwiederholung am Ende einer Unterrichtseinheit.",
+      "Differenzieren Sie, indem Sie für manche Kinder die Anfangsbuchstaben vorgeben.",
+      "Lassen Sie die Kinder ihr ausgefülltes Rätsel mit dem Lösungsblatt selbst kontrollieren."
+    ]
+  },
+  "find-objects": {
+    "slug": "suchbilder-ersteller",
+    "name": "Suchbild-Generator",
+    "tagline": "Wimmelbild-Rätsel zum Finden und Zählen",
+    "metaTitle": "Suchbild erstellen – Wimmelbild & Finde die Objekte | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos Suchbilder und Wimmelbild-Rätsel für Kindergarten und Grundschule. Druckfertig mit Lösungsblatt, ohne Anmeldung – einfach finden und zählen.",
+    "about": [
+      "Der Suchbild-Generator erstellt Wimmelbild-Rätsel im Stil von „Finde die Objekte“: Auf einer Seite voller Bilder sollen die Kinder bestimmte Gegenstände entdecken, einkreisen und zählen. Es ist genau jene Art von Aufgabe, bei der Kinder ganz vertieft suchen.",
+      "Suchbilder schulen die visuelle Wahrnehmung, die Aufmerksamkeit und das genaue Hinsehen – Fähigkeiten, die das spätere Lesen und Rechnen stützen. Durch das Zählen der gefundenen Objekte fließt ganz nebenbei auch ein erstes Mengenverständnis mit ein.",
+      "Sie wählen ein Thema und die gesuchten Motive, der Generator setzt das Suchbild samt Lösungsblatt zusammen. Das Werkzeug ist kostenlos, läuft direkt im Browser und ist ohne Anmeldung oder Installation sofort einsatzbereit."
+    ],
+    "howToUse": [
+      "Wählen Sie ein Thema aus der Bildbibliothek mit über 3000 Motiven aus.",
+      "Legen Sie fest, welche Objekte gesucht und gezählt werden sollen.",
+      "Stellen Sie über die Anzahl der Bilder ein, wie voll und schwierig das Suchbild wird.",
+      "Drucken Sie das Suchbild und das Lösungsblatt mit den richtigen Anzahlen aus."
+    ],
+    "classroomIdeas": [
+      "Verbinden Sie das Suchen mit dem Zählen, um das Mengenverständnis spielerisch zu üben.",
+      "Setzen Sie das Suchbild als ruhige Aufgabe für die Eingangsphase am Morgen ein.",
+      "Lassen Sie die Kinder zu jedem gefundenen Motiv das passende Wort nennen.",
+      "Nutzen Sie ein Thema aus dem Sachunterricht, etwa Tiere oder Fahrzeuge, als Motivauswahl."
+    ]
+  },
+  "word-guess": {
+    "slug": "woerter-raten-ersteller",
+    "name": "Wörter-Raten-Generator",
+    "tagline": "Wort erraten mit Bild als Tipp",
+    "metaTitle": "Wörter raten erstellen – Bilder-Worträtsel für Kinder | LessonCraftStudio",
+    "metaDescription": "Erstellen Sie kostenlos ein Wörter-Raten-Arbeitsblatt für die Grundschule: Bild als Tipp, Lücken zum Ausfüllen, Lösungsblatt inklusive – ganz ohne Anmeldung.",
+    "about": [
+      "Mit dem Wörter-Raten-Generator erstellen Sie Arbeitsblätter, bei denen ein Bild den Hinweis gibt und die Kinder das passende Wort Buchstabe für Buchstabe ergänzen. Es ist die kindgerechte, fröhliche Variante des klassischen Wörterratens – ganz ohne Galgen.",
+      "Das Erraten nach Bildtipp verbindet Wortschatz, Lautanalyse und Schreibung in einer Aufgabe. Die Kinder hören das Wort innerlich ab, suchen die fehlenden Buchstaben und festigen so ganz nebenbei ihre Lese- und Schreibfertigkeiten.",
+      "Sie wählen die Wörter und Bilder, der Generator erstellt das Arbeitsblatt mit Lücken und ein passendes Lösungsblatt. Alles ist kostenlos, läuft im Browser und kommt ohne Anmeldung oder Installation aus."
+    ],
+    "howToUse": [
+      "Geben Sie die Wörter ein, die erraten werden sollen.",
+      "Wählen Sie zu jedem Wort ein passendes Bild aus der Bibliothek mit über 3000 Motiven.",
+      "Legen Sie fest, wie viele Buchstaben als Hilfe schon vorgegeben sind.",
+      "Drucken Sie das Arbeitsblatt und das Lösungsblatt für die Kontrolle aus."
+    ],
+    "classroomIdeas": [
+      "Üben Sie neue Themenwörter, indem das Bild den Sinn und die Lücken die Schreibung trainieren.",
+      "Geben Sie für jüngere Kinder mehr Anfangsbuchstaben vor, um den Einstieg zu erleichtern.",
+      "Setzen Sie das Rätsel als kurze Wiederholung am Ende der Stunde ein.",
+      "Lassen Sie die Kinder die erratenen Wörter laut vorlesen und in einen Satz einbauen."
+    ]
+  },
+  "labels": {
+    "about": "Über diesen Generator",
+    "howToUse": "So nutzen Sie ihn im Unterricht",
+    "classroomIdeas": "Ideen für Arbeitsblätter",
+    "launchCta": "{name} kostenlos öffnen",
+    "otherLanguages": "In anderen Sprachen verfügbar",
+    "relatedMakers": "Weitere Arbeitsblatt-Generatoren",
+    "makersBreadcrumb": "Arbeitsblatt-Generatoren"
+  }
+}

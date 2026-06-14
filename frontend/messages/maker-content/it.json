@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "generatore-crittogrammi",
+    "name": "Generatore di Crittogrammi",
+    "tagline": "Crea crittogrammi illustrati da stampare, con le soluzioni già pronte.",
+    "metaTitle": "Generatore di crittogrammi per bambini | LessonCraftStudio",
+    "metaDescription": "Crea crittogrammi illustrati da stampare gratis: scegli le parole, abbina simboli e immagini e ottieni subito la scheda con le soluzioni. Senza registrazione.",
+    "about": [
+      "Il generatore di crittogrammi trasforma le parole che scegli in un piccolo enigma da decifrare: ogni lettera diventa un simbolo o un'immagine, e i bambini ricostruiscono la parola usando la legenda. È un modo divertente per allenare il riconoscimento delle lettere e la corrispondenza suono-segno.",
+      "Puoi attingere a oltre 3000 immagini a tema — animali, cibo, mezzi di trasporto e tanto altro — così ogni scheda parla del mondo dei tuoi alunni. Lo strumento è pensato per la scuola dell'infanzia e i primi anni della primaria, dove decodificare è ancora un gioco.",
+      "Tutto funziona gratis nel browser: niente download, niente account da creare. In pochi clic ottieni una scheda chiara da stampare e il foglio delle soluzioni per la correzione, pronto da fotocopiare per tutta la classe."
+    ],
+    "howToUse": [
+      "Scrivi le parole o le frasi che vuoi nascondere nel crittogramma, adatte all'età dei bambini.",
+      "Scegli un tema illustrato dalla libreria di immagini per rendere la scheda più accattivante.",
+      "Genera l'anteprima, controlla la legenda dei simboli e regola la difficoltà se serve.",
+      "Stampa la scheda per gli alunni e il foglio delle soluzioni che resta a te per la correzione."
+    ],
+    "classroomIdeas": [
+      "Usa parole legate all'argomento del giorno (le stagioni, gli animali della fattoria) per ripassare il lessico.",
+      "Crea un crittogramma a coppie: chi decifra per primo aiuta poi il compagno, in un clima collaborativo.",
+      "Prepara una scheda per il momento dell'accoglienza, mentre aspetti che tutti i bambini arrivino.",
+      "Sfrutta i nomi dei bambini della classe come messaggi segreti da scoprire a turno."
+    ]
+  },
+  "wordsearch": {
+    "slug": "generatore-cerca-parole",
+    "name": "Generatore di Cerca Parole",
+    "tagline": "Genera griglie di parole nascoste illustrate, da stampare con le soluzioni.",
+    "metaTitle": "Crea cerca parole illustrato per bambini | LessonCraftStudio",
+    "metaDescription": "Genera schede di parole nascoste gratis: scegli le parole, aggiungi immagini a tema e stampa subito la griglia con le soluzioni. Senza login né installazione.",
+    "about": [
+      "Il generatore di cerca parole crea griglie in cui i bambini cercano e cerchiano le parole nascoste tra le lettere. È un classico amatissimo che allena la lettura, l'attenzione visiva e la pazienza, perfetto per i primi lettori che stanno consolidando le parole.",
+      "Puoi affiancare ogni parola alla sua immagine, scegliendo tra più di 3000 figure a tema: così anche chi non legge ancora con sicurezza riconosce cosa cercare. Tu decidi le parole, la dimensione della griglia e quanto rendere impegnativa la ricerca.",
+      "Lo strumento è completamente gratuito e gira direttamente nel browser, senza nulla da installare e senza creare un account. Ottieni una scheda pulita da stampare insieme alla griglia delle soluzioni, comoda per la correzione in classe."
+    ],
+    "howToUse": [
+      "Inserisci l'elenco delle parole da nascondere, scegliendole in base all'età e all'argomento.",
+      "Imposta la dimensione della griglia e abbina, se vuoi, un'immagine a ogni parola.",
+      "Genera l'anteprima e controlla che tutte le parole siano leggibili e ben posizionate.",
+      "Stampa la scheda per la classe e tieni il foglio con le parole evidenziate per correggere."
+    ],
+    "classroomIdeas": [
+      "Prepara un cerca parole sul tema del progetto in corso per ripassare il vocabolario chiave.",
+      "Cronometra una sfida amichevole: chi trova più parole entro la fine della musica?",
+      "Lascia la scheda nell'angolo dei giochi tranquilli per i momenti di lavoro autonomo.",
+      "Crea griglie facili con poche parole grandi per i bambini più piccoli che iniziano a leggere."
+    ]
+  },
+  "sudoku": {
+    "slug": "generatore-sudoku-bambini",
+    "name": "Generatore di Sudoku per Bambini",
+    "tagline": "Crea sudoku con immagini, semplici e colorati, da stampare con le soluzioni.",
+    "metaTitle": "Generatore di sudoku per bambini con immagini | LessonCraftStudio",
+    "metaDescription": "Crea sudoku illustrati per bambini gratis: griglie 4x4 con figure a tema, facili da risolvere, con le soluzioni incluse. Da stampare, senza registrazione.",
+    "about": [
+      "Il generatore di sudoku per bambini crea griglie semplici — di solito 4x4 — in cui al posto dei numeri ci sono immagini colorate. I bambini imparano che ogni figura compare una sola volta in ogni riga, colonna e riquadro: un primo allenamento al ragionamento logico, senza bisogno di saper contare.",
+      "Puoi scegliere le figure tra oltre 3000 immagini a tema, così il sudoku diventa un gioco familiare e accogliente. È pensato apposta per la scuola dell'infanzia e la prima primaria, dove la logica si scopre attraverso il gioco e l'osservazione.",
+      "Lo strumento è gratuito e funziona nel browser, senza installazioni e senza account. Generi la scheda da stampare e ricevi anche la griglia completa delle soluzioni, utile per verificare insieme ai bambini il lavoro svolto."
+    ],
+    "howToUse": [
+      "Scegli il tema delle immagini che riempiranno la griglia del sudoku.",
+      "Seleziona il livello di difficoltà: parti dalle griglie più semplici per i più piccoli.",
+      "Genera l'anteprima e controlla che le figure siano grandi e ben distinguibili.",
+      "Stampa la scheda per i bambini e conserva la griglia delle soluzioni per la correzione."
+    ],
+    "classroomIdeas": [
+      "Introduci la logica del sudoku con una griglia gigante alla lavagna prima del lavoro individuale.",
+      "Proponi il sudoku a coppie, così i bambini ragionano ad alta voce e si confrontano.",
+      "Usa figure legate a un tema (la frutta, i mezzi di trasporto) per unire logica e lessico.",
+      "Tieni alcune schede pronte per chi finisce prima le altre attività, come gioco di pensiero."
+    ]
+  },
+  "crossword": {
+    "slug": "generatore-cruciverba-immagini",
+    "name": "Generatore di Cruciverba con Immagini",
+    "tagline": "Crea cruciverba illustrati per primi lettori, da stampare con le soluzioni.",
+    "metaTitle": "Generatore di cruciverba con immagini per bambini | LessonCraftStudio",
+    "metaDescription": "Crea cruciverba illustrati per bambini gratis: le immagini fanno da definizione, le parole si incastrano nella griglia. Con soluzioni, da stampare senza login.",
+    "about": [
+      "Il generatore di cruciverba con immagini crea schede in cui le definizioni non sono frasi ma figure: il bambino guarda l'immagine, riconosce la parola e la scrive nelle caselle. È perfetto per i primi lettori, che così esercitano la scrittura e l'ortografia in modo guidato.",
+      "Attingendo a oltre 3000 immagini a tema, puoi costruire cruciverba su qualunque argomento di classe, dai colori agli animali. Le parole si incastrano nella griglia e ogni casella accompagna passo dopo passo verso la parola giusta.",
+      "Lo strumento è gratuito e gira interamente nel browser, senza download e senza registrazione. Ottieni la scheda da stampare insieme al cruciverba completato come foglio delle soluzioni, pronto per correggere con tutta la classe."
+    ],
+    "howToUse": [
+      "Inserisci le parole che vuoi nel cruciverba, adatte alla lunghezza e all'età dei bambini.",
+      "Abbina a ogni parola l'immagine che farà da definizione, scegliendola dalla libreria a tema.",
+      "Genera l'anteprima e verifica che gli incroci tra le parole funzionino correttamente.",
+      "Stampa la scheda per gli alunni e tieni la versione risolta come foglio delle soluzioni."
+    ],
+    "classroomIdeas": [
+      "Crea un cruciverba con le parole nuove della settimana per fissare il lessico appena imparato.",
+      "Lascia che i bambini più sicuri scrivano le parole e i compagni le verifichino insieme.",
+      "Usa il cruciverba come scheda di chiusura di un'unità per ripassare i contenuti.",
+      "Prepara griglie con parole corte e immagini chiare per chi è alle prime armi con la scrittura."
+    ]
+  },
+  "find-objects": {
+    "slug": "generatore-cerca-oggetti",
+    "name": "Generatore di Cerca gli Oggetti",
+    "tagline": "Crea scene piene di oggetti nascosti da trovare, da stampare con le soluzioni.",
+    "metaTitle": "Generatore cerca gli oggetti nascosti per bambini | LessonCraftStudio",
+    "metaDescription": "Crea schede cerca gli oggetti nascosti gratis: scene illustrate piene di figure da trovare e contare, con le soluzioni. Da stampare, senza login né installazione.",
+    "about": [
+      "Il generatore di cerca gli oggetti crea schede affollate di figure in cui i bambini devono trovare e cerchiare gli oggetti richiesti. È un'attività che allena l'attenzione visiva, la concentrazione e la capacità di osservare con calma una scena ricca di dettagli.",
+      "Puoi comporre la scena scegliendo tra più di 3000 immagini a tema: così ogni scheda diventa un piccolo mondo da esplorare, dal mare alla cucina alla fattoria. Tu decidi quali oggetti cercare e quanti nasconderne nell'illustrazione.",
+      "Lo strumento è gratuito e funziona nel browser, senza nulla da installare e senza account. Generi la scheda da stampare e ricevi anche la versione con gli oggetti evidenziati come foglio delle soluzioni, comoda per correggere insieme ai bambini."
+    ],
+    "howToUse": [
+      "Scegli il tema della scena e gli oggetti che i bambini dovranno cercare.",
+      "Imposta quante figure inserire, regolando l'affollamento in base all'età della classe.",
+      "Genera l'anteprima e controlla che gli oggetti da trovare siano visibili e riconoscibili.",
+      "Stampa la scheda per la classe e tieni il foglio con gli oggetti evidenziati per la correzione."
+    ],
+    "classroomIdeas": [
+      "Trasforma la scheda in una caccia all'oggetto: chi trova prima tutte le figure alza la mano.",
+      "Chiedi ai bambini di contare quanti oggetti uguali compaiono per unire osservazione e numeri.",
+      "Usa scene a tema stagionale per accompagnare le attività del periodo dell'anno.",
+      "Proponila come attività calmante dopo il gioco motorio, per ritrovare la concentrazione."
+    ]
+  },
+  "word-guess": {
+    "slug": "generatore-indovina-parole",
+    "name": "Generatore di Indovina la Parola",
+    "tagline": "Crea schede 'indovina la parola' con l'immagine come indizio, soluzioni incluse.",
+    "metaTitle": "Generatore indovina la parola con immagine | LessonCraftStudio",
+    "metaDescription": "Crea schede indovina la parola gratis: un'immagine come indizio e le caselle da completare lettera per lettera, con soluzioni. Da stampare, senza registrazione.",
+    "about": [
+      "Il generatore di indovina la parola crea schede in cui un'immagine fa da indizio e il bambino completa le caselle scrivendo la parola lettera per lettera. È un esercizio prezioso per i primi lettori, che collegano il suono delle parole alla loro scrittura in modo concreto e divertente.",
+      "Con oltre 3000 immagini a tema puoi costruire schede su ogni argomento, dalle parole di tutti i giorni al lessico di un progetto. Alcune lettere possono già comparire come aiuto, così anche chi è insicuro riesce a procedere senza scoraggiarsi.",
+      "Lo strumento è gratuito e gira nel browser, senza download e senza creare un account. Ottieni la scheda da stampare e il foglio delle soluzioni con le parole complete, pronto per la correzione di tutta la classe."
+    ],
+    "howToUse": [
+      "Inserisci le parole da indovinare, scegliendole in base all'età e ai suoni da esercitare.",
+      "Abbina a ogni parola l'immagine indizio, selezionandola dalla libreria a tema.",
+      "Decidi se mostrare qualche lettera d'aiuto e genera l'anteprima per controllare il risultato.",
+      "Stampa la scheda per gli alunni e conserva il foglio con le parole complete come soluzioni."
+    ],
+    "classroomIdeas": [
+      "Esercita un suono specifico scegliendo parole che iniziano tutte con la stessa lettera.",
+      "Proponi l'attività a coppie: un bambino legge l'immagine, l'altro scrive la parola.",
+      "Usa le parole nuove di una storia letta insieme per ripassarle dopo la lettura.",
+      "Prepara schede con poche caselle e molte lettere d'aiuto per i bambini più piccoli."
+    ]
+  },
+  "labels": {
+    "about": "Informazioni su questo generatore",
+    "howToUse": "Come usarlo in classe",
+    "classroomIdeas": "Idee per le schede",
+    "launchCta": "Apri {name} gratis",
+    "otherLanguages": "Disponibile in altre lingue",
+    "relatedMakers": "Altri generatori di schede",
+    "makersBreadcrumb": "Generatori di schede"
+  }
+}

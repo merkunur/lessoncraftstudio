@@ -22,6 +22,14 @@ import {
 import { listAllActivities } from '@/lib/activities';
 import { getHreflangCode } from '@/lib/seo/hreflang';
 import { ogLocaleMap } from '@/lib/schema-generator';
+import {
+  resolveMakerSlug,
+  getMakerContent,
+  listMakerSitemapEntries,
+  hreflangAlternatesForMaker,
+  existingMakerLocales,
+} from '@/lib/seo/maker-content';
+import MakerLanding from '@/components/makers/MakerLanding';
 
 /**
  * Per-tool landing page — /<locale>/tools/<native-slug>/
@@ -51,18 +59,65 @@ function isTopicLocale(l: string): l is TopicEnabledLocale {
 
 export async function generateStaticParams(): Promise<PageParams[]> {
   try {
-    const entries = await listToolSitemapEntries();
-    return entries.map(({ locale, slug }) => ({ locale, tool: slug }));
+    const toolEntries = await listToolSitemapEntries();
+    const makerEntries = await listMakerSitemapEntries();
+    return [
+      ...toolEntries.map(({ locale, slug }) => ({ locale, tool: slug })),
+      ...makerEntries.map(({ locale, slug }) => ({ locale, tool: slug })),
+    ];
   } catch (err) {
     console.warn('[tools/[tool]] generateStaticParams failed:', (err as Error).message);
     return [];
   }
 }
 
+/** Maker metadata branch — mirrors the tool metadata but uses maker-content. */
+async function makerMetadata(locale: string, slug: string): Promise<Metadata | null> {
+  const makerKey = await resolveMakerSlug(slug, locale);
+  if (!makerKey) return null;
+  const content = await getMakerContent(locale, makerKey);
+  if (!content) return null;
+  const canonical = canonicalUrl(localePath(locale, 'tools', slug));
+  const otherLocales = (await existingMakerLocales(makerKey)).filter((l) => l !== locale);
+  return {
+    title: { absolute: content.metaTitle },
+    description: content.metaDescription,
+    alternates: {
+      canonical,
+      languages: await hreflangAlternatesForMaker(makerKey, BASE_URL),
+    },
+    openGraph: {
+      title: content.metaTitle,
+      description: content.metaDescription,
+      url: canonical,
+      siteName: 'LessonCraftStudio',
+      locale: ogLocaleMap[locale] || locale,
+      alternateLocale: otherLocales.map((l) => ogLocaleMap[l] || l),
+      type: 'article',
+      images: [
+        {
+          url: `${CANONICAL_HOST}/og-homepage.png`,
+          width: 1200,
+          height: 630,
+          type: 'image/png',
+          alt: 'LessonCraftStudio — free worksheet makers in 11 languages',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: content.metaTitle,
+      description: content.metaDescription,
+      images: [{ url: `${CANONICAL_HOST}/og-homepage.png`, alt: 'LessonCraftStudio — free worksheet makers in 11 languages' }],
+    },
+    robots: { index: true, follow: true },
+  };
+}
+
 export async function generateMetadata({ params }: { params: PageParams }): Promise<Metadata> {
   if (!isTopicLocale(params.locale)) return {};
   const toolKey = await resolveToolSlug(params.tool, params.locale);
-  if (!toolKey) return {};
+  if (!toolKey) return (await makerMetadata(params.locale, params.tool)) ?? {};
   const content = await getToolContent(params.locale, toolKey);
   if (!content) return {};
   const canonical = canonicalUrl(localePath(params.locale, 'tools', params.tool));
@@ -139,7 +194,12 @@ async function relatedActivitiesFor(toolKey: ToolKey, locale: string) {
 export default async function ToolPage({ params }: { params: PageParams }) {
   if (!isTopicLocale(params.locale)) notFound();
   const toolKey = await resolveToolSlug(params.tool, params.locale);
-  if (!toolKey) notFound();
+  if (!toolKey) {
+    // Not a manipulative — try a worksheet-maker landing (SEO RESCUE Part 1).
+    const makerKey = await resolveMakerSlug(params.tool, params.locale);
+    if (makerKey) return <MakerLanding locale={params.locale} makerKey={makerKey} slug={params.tool} />;
+    notFound();
+  }
   const content = await getToolContent(params.locale, toolKey);
   if (!content) notFound();
 

@@ -360,6 +360,29 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
       console.warn('[sitemap] per-tool URLs failed; skipping:', (err as Error).message);
     }
 
+    // Worksheet-maker landing pages — /<locale>/tools/<native-slug> (SEO RESCUE
+    // Part 1; pilot = 6 generators × 6 locales). Same /tools/ URL space + native
+    // slugs + hreflang as the manipulatives, sourced from maker-content. No DB IO.
+    try {
+      const { listMakerSitemapEntries, hreflangAlternatesForMaker } = await import('@/lib/seo/maker-content');
+      const makerEntries = await listMakerSitemapEntries();
+      const hreflangByMaker: Record<string, Record<string, string>> = {};
+      for (const { locale, slug, makerKey } of makerEntries) {
+        if (!hreflangByMaker[makerKey]) {
+          hreflangByMaker[makerKey] = await hreflangAlternatesForMaker(makerKey, baseUrl);
+        }
+        routes.push({
+          url: `${baseUrl}/${locale}/tools/${slug}`,
+          lastModified: STATIC_CONTENT_DATE,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: { languages: hreflangByMaker[makerKey] },
+        });
+      }
+    } catch (err) {
+      console.warn('[sitemap] per-maker URLs failed; skipping:', (err as Error).message);
+    }
+
     // Activities + Topics index landings — one URL per locale (11 + 11 = 22).
     // Same hreflang shape: all 11 sibling locales + x-default.
     // Next.js-route paths are no-trailing-slash per `next.config.js:

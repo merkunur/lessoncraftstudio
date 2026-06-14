@@ -1,0 +1,155 @@
+{
+  "cryptogram": {
+    "slug": "generador-criptogramas",
+    "name": "Generador de criptogramas",
+    "tagline": "Crea criptogramas con imágenes para que los niños descifren palabras letra a letra.",
+    "metaTitle": "Generador de criptogramas para niños | LessonCraftStudio",
+    "metaDescription": "Crea criptogramas gratis para infantil y primaria. Los niños descifran palabras con pistas de imágenes. Genera la ficha y la hoja de respuestas en segundos.",
+    "about": [
+      "El generador de criptogramas convierte palabras sencillas en pequeños enigmas que los niños resuelven cambiando símbolos o imágenes por letras. Es una forma divertida de practicar el reconocimiento de letras, el deletreo y la atención, perfecta para los primeros lectores de 3 a 7 años.",
+      "Eliges el vocabulario o un tema, y la herramienta crea automáticamente la clave de descifrado usando más de 3000 imágenes ilustradas. Cada ficha sale lista para imprimir, con un diseño claro y letras grandes pensadas para manos pequeñas y ojos que aún están aprendiendo a leer.",
+      "Es completamente gratis, funciona directamente en el navegador y no requiere registro ni instalación. Junto a cada criptograma se genera su hoja de respuestas, así que puedes corregir de un vistazo o dejar que los peques se autocorrijan."
+    ],
+    "howToUse": [
+      "Escribe las palabras que quieres trabajar o elige un tema con imágenes para generar la clave de pistas.",
+      "Pulsa generar y revisa la vista previa del criptograma y de su hoja de respuestas.",
+      "Imprime la ficha (una para cada niño o una por pareja para trabajar en equipo).",
+      "Reparte las fichas y deja que los niños descifren cada palabra letra a letra."
+    ],
+    "classroomIdeas": [
+      "Crea un criptograma con el vocabulario de la semana para repasar antes de un nuevo tema.",
+      "Esconde un mensaje secreto sencillo ('hola clase') como actividad de buenos días.",
+      "Úsalo como rincón de lectura: los niños descifran su nombre o el de un compañero.",
+      "Prepara una ficha por estaciones del año o por animales y enlázala con tu proyecto del trimestre."
+    ]
+  },
+  "wordsearch": {
+    "slug": "generador-sopa-letras",
+    "name": "Generador de sopas de letras",
+    "tagline": "Crea sopas de letras con dibujos para buscar y rodear palabras escondidas.",
+    "metaTitle": "Generador de sopa de letras para niños | LessonCraftStudio",
+    "metaDescription": "Crea sopas de letras gratis para infantil y primaria. Añade tus palabras y temas con imágenes y genera la ficha y la hoja de respuestas para imprimir.",
+    "about": [
+      "El generador de sopas de letras coloca las palabras que tú elijas dentro de una cuadrícula de letras para que los niños las busquen y las rodeen. Es un clásico que nunca falla para practicar la lectura, el barrido visual y la concentración de los más pequeños.",
+      "Puedes acompañar cada palabra con una de las más de 3000 imágenes ilustradas, de modo que incluso quienes aún no leen del todo puedan asociar el dibujo con la palabra que buscan. Ajustas el tamaño de la cuadrícula según la edad y la dificultad que necesites.",
+      "Todo se hace en el navegador, gratis y sin registro ni instalación. Cada sopa de letras viene con su hoja de respuestas, con las palabras ya señaladas, para que la corrección sea rápida y sencilla."
+    ],
+    "howToUse": [
+      "Introduce la lista de palabras que quieres esconder, o escoge un tema con imágenes.",
+      "Elige el tamaño de la cuadrícula según la edad del grupo (más pequeña para los más peques).",
+      "Genera la ficha, revisa la vista previa y comprueba la hoja de respuestas.",
+      "Imprime y reparte: los niños buscan y rodean cada palabra escondida."
+    ],
+    "classroomIdeas": [
+      "Repasa el vocabulario de un cuento o de una unidad escondiendo sus palabras clave.",
+      "Crea una sopa de letras con los nombres de los niños de la clase para el primer día.",
+      "Prepara una ficha por temas (frutas, animales, colores) y úsala en el rincón tranquilo.",
+      "Combínala con un dictado: primero buscan la palabra y luego la copian debajo."
+    ]
+  },
+  "sudoku": {
+    "slug": "generador-sudoku-infantil",
+    "name": "Generador de sudokus para niños",
+    "tagline": "Crea sudokus con imágenes en lugar de números para los más pequeños.",
+    "metaTitle": "Generador de sudoku para niños | LessonCraftStudio",
+    "metaDescription": "Crea sudokus infantiles gratis con dibujos en vez de números. Ideal para infantil y primaria. Genera la ficha y la hoja de respuestas lista para imprimir.",
+    "about": [
+      "El generador de sudokus crea cuadrículas pensadas para los más pequeños, usando imágenes en lugar de números para que incluso quienes aún no leen puedan jugar. Es una introducción ideal a la lógica, los patrones y el razonamiento sin contar nada.",
+      "Eliges un tema con dibujos de entre más de 3000 imágenes y la herramienta arma cuadrículas sencillas (por ejemplo de 4x4) en las que cada fila, columna y bloque no puede repetir el mismo dibujo. La dificultad se adapta a la edad del grupo.",
+      "Funciona gratis en el navegador, sin registro ni instalación. Cada sudoku se genera junto a su hoja de respuestas, así que puedes comprobar la solución al instante o dejar que los niños se corrijan entre ellos."
+    ],
+    "howToUse": [
+      "Elige un tema con imágenes (animales, frutas, formas) para rellenar la cuadrícula.",
+      "Selecciona el tamaño del sudoku según la edad: 4x4 para los más pequeños.",
+      "Genera la ficha y revisa la vista previa junto a su hoja de respuestas.",
+      "Imprime y entrega: los niños completan cada hueco sin repetir dibujos en fila, columna y bloque."
+    ],
+    "classroomIdeas": [
+      "Empieza con sudokus 4x4 de animales para introducir la lógica en infantil.",
+      "Plastifica una ficha y úsala con piezas recortables para resolverla en grupo.",
+      "Crea una versión con las formas geométricas que estéis trabajando ese mes.",
+      "Ofrécelo como reto tranquilo para los niños que terminan antes las demás tareas."
+    ]
+  },
+  "crossword": {
+    "slug": "generador-crucigramas-imagenes",
+    "name": "Generador de crucigramas con imágenes",
+    "tagline": "Crea crucigramas con dibujos como pistas para escribir las palabras.",
+    "metaTitle": "Generador de crucigramas con imágenes | LessonCraftStudio",
+    "metaDescription": "Crea crucigramas gratis con imágenes como pistas para infantil y primaria. Los niños escriben la palabra de cada dibujo. Incluye hoja de respuestas para imprimir.",
+    "about": [
+      "El generador de crucigramas usa dibujos como pistas en lugar de definiciones escritas, así que los niños solo tienen que mirar la imagen y escribir la palabra correspondiente. Es perfecto para afianzar el deletreo y ampliar vocabulario en los primeros lectores.",
+      "Eliges las palabras o un tema y la herramienta las encaja automáticamente en una cuadrícula entrelazada, asignando a cada una su imagen de entre más de 3000 ilustraciones. Las casillas son amplias y las pistas claras, pensadas para manos pequeñas.",
+      "Es gratis, se usa en el navegador y no necesita registro ni instalación. Junto al crucigrama se genera su hoja de respuestas completa, lo que facilita muchísimo la corrección y el repaso en clase."
+    ],
+    "howToUse": [
+      "Escribe las palabras que quieres trabajar o selecciona un tema con imágenes.",
+      "Genera el crucigrama y comprueba que las palabras se cruzan correctamente.",
+      "Revisa la vista previa de la ficha y de su hoja de respuestas.",
+      "Imprime y reparte: los niños miran cada dibujo y escriben la palabra en las casillas."
+    ],
+    "classroomIdeas": [
+      "Refuerza el vocabulario nuevo de un tema convirtiéndolo en un crucigrama ilustrado.",
+      "Trabaja la conciencia fonológica pidiendo que digan el sonido inicial antes de escribir.",
+      "Crea un crucigrama por campos semánticos: el cuerpo, la casa, los medios de transporte.",
+      "Úsalo como tarea de repaso para casa, con la imagen ayudando a las familias a guiar."
+    ]
+  },
+  "find-objects": {
+    "slug": "generador-busca-objetos",
+    "name": "Generador de busca y encuentra",
+    "tagline": "Crea escenas llenas de dibujos para buscar y encontrar objetos escondidos.",
+    "metaTitle": "Generador de busca y encuentra para niños | LessonCraftStudio",
+    "metaDescription": "Crea fichas de busca y encuentra gratis para infantil. Los niños buscan objetos escondidos entre los dibujos. Genera la ficha y la hoja de respuestas para imprimir.",
+    "about": [
+      "El generador de busca y encuentra crea escenas repletas de dibujos en las que los niños tienen que localizar y contar objetos concretos. Es una actividad estupenda para trabajar la atención visual, la observación y el conteo de los más pequeños.",
+      "Eliges qué objetos esconder y el tema de la escena entre más de 3000 imágenes ilustradas, y la herramienta los reparte por toda la ficha entre otros muchos elementos. Puedes ajustar cuántos objetos buscar y cuántos hay de cada uno.",
+      "Todo es gratis y se genera en el navegador, sin registro ni instalación. Cada escena viene con su hoja de respuestas que indica dónde está cada objeto, para que comprobar el resultado sea muy fácil."
+    ],
+    "howToUse": [
+      "Elige el tema de la escena y los objetos que los niños deberán buscar.",
+      "Indica cuántos objetos quieres esconder y de qué tipo.",
+      "Genera la ficha y revisa la vista previa junto a la hoja de respuestas.",
+      "Imprime y reparte: los niños rodean o cuentan cada objeto que encuentran."
+    ],
+    "classroomIdeas": [
+      "Pide que cuenten cuántos hay de cada objeto para combinar búsqueda y conteo.",
+      "Usa una escena del tema del trimestre (la granja, el mar) como portada del proyecto.",
+      "Cronométralo como reto suave: ¿quién encuentra todos los objetos con calma?",
+      "Trabaja vocabulario nombrando en voz alta cada objeto antes de empezar a buscar."
+    ]
+  },
+  "word-guess": {
+    "slug": "generador-adivinar-palabras",
+    "name": "Generador de adivinar la palabra",
+    "tagline": "Crea fichas donde los niños adivinan la palabra a partir de un dibujo.",
+    "metaTitle": "Generador de adivinar palabras con imagen | LessonCraftStudio",
+    "metaDescription": "Crea fichas gratis para adivinar palabras con imagen en infantil y primaria. Los niños completan las letras que faltan. Incluye hoja de respuestas para imprimir.",
+    "about": [
+      "El generador de adivinar la palabra muestra un dibujo y unas casillas para que los niños completen la palabra letra a letra. Según el nivel, puedes dejar todas las casillas vacías o dar algunas letras como pista, lo que lo hace ideal desde infantil hasta primaria.",
+      "Eliges las palabras o un tema entre más de 3000 imágenes y la herramienta crea la ficha asociando cada dibujo con su palabra. Es perfecto para practicar el deletreo, los sonidos iniciales y el vocabulario de forma muy visual.",
+      "Funciona gratis en el navegador, sin registro ni instalación. Cada ficha se genera con su hoja de respuestas, así que la corrección es inmediata y los niños pueden incluso autocorregirse."
+    ],
+    "howToUse": [
+      "Introduce las palabras que quieres trabajar o elige un tema con imágenes.",
+      "Decide cuántas letras dar como pista según el nivel del grupo.",
+      "Genera la ficha y revisa la vista previa junto a la hoja de respuestas.",
+      "Imprime y reparte: los niños miran el dibujo y completan las letras que faltan."
+    ],
+    "classroomIdeas": [
+      "Empieza dando la primera letra para trabajar los sonidos iniciales en infantil.",
+      "Aumenta la dificultad dejando todas las casillas vacías para los lectores más avanzados.",
+      "Crea fichas por campos de vocabulario y úsalas como repaso semanal.",
+      "Conviértelo en juego oral: los niños dicen la palabra en voz alta antes de escribirla."
+    ]
+  },
+  "labels": {
+    "about": "Sobre este generador",
+    "howToUse": "Cómo usarlo en clase",
+    "classroomIdeas": "Ideas de fichas",
+    "launchCta": "Abrir {name} gratis",
+    "otherLanguages": "Disponible en otros idiomas",
+    "relatedMakers": "Más generadores de fichas",
+    "makersBreadcrumb": "Generadores de fichas"
+  }
+}

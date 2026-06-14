@@ -1,0 +1,249 @@
+{
+ "coordinates": [
+  {
+   "mode": "name",
+   "theme": "",
+   "canonicalDeckSlug": "abbinamento-nomi-30e1"
+  },
+  {
+   "mode": "letter",
+   "theme": "",
+   "canonicalDeckSlug": "abbinamento-lettera"
+  },
+  {
+   "mode": "letter",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "abbinamento-lettera-4-luglio-0ed7"
+  },
+  {
+   "mode": "letter",
+   "theme": "accessories",
+   "canonicalDeckSlug": "abbinamento-lettera-accessori-a0d3"
+  },
+  {
+   "mode": "letter",
+   "theme": "activities",
+   "canonicalDeckSlug": "abbinamento-lettera-attivita-a0e1"
+  },
+  {
+   "mode": "letter",
+   "theme": "animals",
+   "canonicalDeckSlug": "abbinamento-lettera-animali-a730"
+  },
+  {
+   "mode": "letter",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "abbinamento-lettera-in-giro-per-casa-0ee8"
+  },
+  {
+   "mode": "letter",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "abbinamento-lettera-al-supermercato-c57e"
+  },
+  {
+   "mode": "letter",
+   "theme": "bakery",
+   "canonicalDeckSlug": "abbinamento-lettera-panetteria-b812"
+  },
+  {
+   "mode": "letter",
+   "theme": "beach",
+   "canonicalDeckSlug": "abbinamento-lettera-spiaggia-e5cd"
+  },
+  {
+   "mode": "letter",
+   "theme": "birds",
+   "canonicalDeckSlug": "abbinamento-lettera-uccelli-32ee"
+  },
+  {
+   "mode": "letter",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "abbinamento-lettera-uccelli-2-ee0c"
+  },
+  {
+   "mode": "letter",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "abbinamento-lettera-parti-del-corpo-a023"
+  },
+  {
+   "mode": "letter",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "abbinamento-lettera-colazione-68a2"
+  },
+  {
+   "mode": "letter",
+   "theme": "camping",
+   "canonicalDeckSlug": "abbinamento-lettera-campeggio-5443"
+  },
+  {
+   "mode": "letter",
+   "theme": "christmas",
+   "canonicalDeckSlug": "abbinamento-lettera-natale-11c2"
+  },
+  {
+   "mode": "letter",
+   "theme": "classroom",
+   "canonicalDeckSlug": "abbinamento-lettera-aula-bb10"
+  },
+  {
+   "mode": "letter",
+   "theme": "clothing",
+   "canonicalDeckSlug": "abbinamento-lettera-abbigliamento-b56a"
+  },
+  {
+   "mode": "letter",
+   "theme": "colors",
+   "canonicalDeckSlug": "abbinamento-lettera-colori-18be"
+  },
+  {
+   "mode": "letter",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "abbinamento-lettera-dolci-e-dolciumi-22e3"
+  },
+  {
+   "mode": "letter",
+   "theme": "easter",
+   "canonicalDeckSlug": "abbinamento-lettera-pasqua-d8c0"
+  },
+  {
+   "mode": "letter",
+   "theme": "emotions",
+   "canonicalDeckSlug": "abbinamento-lettera-emozioni-cb7a"
+  },
+  {
+   "mode": "letter",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "abbinamento-lettera-animali-della-fattoria-fb44"
+  },
+  {
+   "mode": "letter",
+   "theme": "flowers",
+   "canonicalDeckSlug": "abbinamento-lettera-fiori-9014"
+  },
+  {
+   "mode": "letter",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "abbinamento-lettera-creature-della-foresta-844f"
+  },
+  {
+   "mode": "letter",
+   "theme": "fruits",
+   "canonicalDeckSlug": "abbinamento-lettera-frutta-ed2a"
+  },
+  {
+   "mode": "letter",
+   "theme": "furniture",
+   "canonicalDeckSlug": "abbinamento-lettera-mobili-6777"
+  },
+  {
+   "mode": "letter",
+   "theme": "hospital",
+   "canonicalDeckSlug": "abbinamento-lettera-ospedale-9e33"
+  },
+  {
+   "mode": "letter",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "abbinamento-lettera-insetti-e-scarafaggi-2e7e"
+  },
+  {
+   "mode": "letter",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "abbinamento-lettera-utensili-da-cucina-f865"
+  },
+  {
+   "mode": "letter",
+   "theme": "music",
+   "canonicalDeckSlug": "abbinamento-lettera-musica-a5fb"
+  },
+  {
+   "mode": "letter",
+   "theme": "occupations",
+   "canonicalDeckSlug": "abbinamento-lettera-professioni-9aa7"
+  },
+  {
+   "mode": "letter",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "abbinamento-lettera-vita-oceanica-5d19"
+  },
+  {
+   "mode": "letter",
+   "theme": "pets",
+   "canonicalDeckSlug": "abbinamento-lettera-animali-domestici-f665"
+  },
+  {
+   "mode": "letter",
+   "theme": "post_office",
+   "canonicalDeckSlug": "abbinamento-lettera-ufficio-postale-af06"
+  },
+  {
+   "mode": "letter",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "abbinamento-lettera-rettili-e-anfibi-95ea"
+  },
+  {
+   "mode": "letter",
+   "theme": "shapes",
+   "canonicalDeckSlug": "abbinamento-lettera-forme-6a98"
+  },
+  {
+   "mode": "letter",
+   "theme": "space",
+   "canonicalDeckSlug": "abbinamento-lettera-spazio-f20e"
+  },
+  {
+   "mode": "letter",
+   "theme": "spring",
+   "canonicalDeckSlug": "abbinamento-lettera-primavera-c011"
+  },
+  {
+   "mode": "letter",
+   "theme": "summer",
+   "canonicalDeckSlug": "abbinamento-lettera-estate-762f"
+  },
+  {
+   "mode": "letter",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "abbinamento-lettera-giorno-del-ringraziamento-7e05"
+  },
+  {
+   "mode": "letter",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "abbinamento-lettera-cose-che-volano-dbd7"
+  },
+  {
+   "mode": "letter",
+   "theme": "tools",
+   "canonicalDeckSlug": "abbinamento-lettera-attrezzi-f2b7"
+  },
+  {
+   "mode": "letter",
+   "theme": "toys",
+   "canonicalDeckSlug": "abbinamento-lettera-giocattoli-d34c"
+  },
+  {
+   "mode": "letter",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "abbinamento-lettera-verdure-7d02"
+  },
+  {
+   "mode": "letter",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "abbinamento-lettera-veicoli-6f84"
+  },
+  {
+   "mode": "letter",
+   "theme": "weather",
+   "canonicalDeckSlug": "abbinamento-lettera-meteo-1b40"
+  },
+  {
+   "mode": "letter",
+   "theme": "winter",
+   "canonicalDeckSlug": "abbinamento-lettera-inverno-383b"
+  },
+  {
+   "mode": "letter",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "abbinamento-lettera-animali-dello-zoo-7e76"
+  }
+ ]
+}

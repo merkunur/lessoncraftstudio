@@ -1,0 +1,9 @@
+{
+  "id": "wave-sci-var",
+  "seedEpoch": 1,
+  "locales": ["en", "de", "es", "fr", "it", "pt", "nl", "sv", "da", "no", "fi"],
+  "themes": [],
+  "difficulties": [2],
+  "variantsPerType": 5,
+  "types": ["K-201", "K-202", "K-203", "K-204", "K-205", "K-206", "K-207", "K-208", "K-209", "K-210", "K-211", "K-212", "K-213", "K-214", "G1-201", "G1-202", "G1-204", "G1-205", "G1-206", "G1-207"]
+}

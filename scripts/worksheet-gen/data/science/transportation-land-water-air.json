@@ -130,6 +130,16 @@
       "theme": "vehicles",
       "noun": "jet",
       "bin": "air"
+    },
+    {
+      "theme": "Things That Fly",
+      "noun": "hot_air_balloon",
+      "bin": "air"
+    },
+    {
+      "theme": "Things That Fly",
+      "noun": "balloon",
+      "bin": "air"
     }
   ]
 }

@@ -79,6 +79,21 @@
       "theme": "animals",
       "noun": "bat",
       "bin": "night"
+    },
+    {
+      "theme": "weather",
+      "noun": "sunny",
+      "bin": "day"
+    },
+    {
+      "theme": "space",
+      "noun": "comet",
+      "bin": "night"
+    },
+    {
+      "theme": "space",
+      "noun": "planet",
+      "bin": "night"
     }
   ]
 }

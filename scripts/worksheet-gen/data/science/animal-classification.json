@@ -165,6 +165,26 @@
       "theme": "animals",
       "noun": "turtle",
       "bin": "reptiles"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "cobra",
+      "bin": "reptiles"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "gecko",
+      "bin": "reptiles"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "chameleon",
+      "bin": "reptiles"
+    },
+    {
+      "theme": "reptiles and Amphibians",
+      "noun": "tortoise",
+      "bin": "reptiles"
     }
   ]
 }

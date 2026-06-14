@@ -84,6 +84,26 @@
       "theme": "weather",
       "noun": "snowflake",
       "bin": "cold"
+    },
+    {
+      "theme": "around the house",
+      "noun": "oven",
+      "bin": "hot"
+    },
+    {
+      "theme": "around the house",
+      "noun": "toaster",
+      "bin": "hot"
+    },
+    {
+      "theme": "winter",
+      "noun": "igloo",
+      "bin": "cold"
+    },
+    {
+      "theme": "winter",
+      "noun": "mittens",
+      "bin": "cold"
     }
   ]
 }

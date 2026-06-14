@@ -1,0 +1,254 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "scheda-di-modelli"
+  },
+  {
+   "mode": null,
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "scheda-di-modelli-4-luglio-0905"
+  },
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "scheda-di-modelli-accessori-02f6"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "scheda-di-modelli-attivita-6194"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "scheda-di-modelli-animali-924c"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "scheda-di-modelli-in-giro-per-casa-2e67"
+  },
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "scheda-di-modelli-al-supermercato-437d"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "scheda-di-modelli-panetteria-8fde"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "scheda-di-modelli-spiaggia-4dd7"
+  },
+  {
+   "mode": null,
+   "theme": "birds",
+   "canonicalDeckSlug": "scheda-di-modelli-uccelli-b93d"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "scheda-di-modelli-uccelli-2-a962"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "scheda-di-modelli-parti-del-corpo-2c5c"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "scheda-di-modelli-colazione-36f3"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "scheda-di-modelli-campeggio-f954"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "scheda-di-modelli-natale-fb9f"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "scheda-di-modelli-aula-730f"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "scheda-di-modelli-abbigliamento-9b75"
+  },
+  {
+   "mode": null,
+   "theme": "colors",
+   "canonicalDeckSlug": "scheda-di-modelli-colori-293d"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "scheda-di-modelli-dolci-e-dolciumi-b6ce"
+  },
+  {
+   "mode": null,
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "scheda-di-modelli-dinosauri-b5ee"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "scheda-di-modelli-pasqua-6e11"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "scheda-di-modelli-emozioni-0086"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "scheda-di-modelli-animali-della-fattoria-62b2"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "scheda-di-modelli-fiori-8458"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "scheda-di-modelli-creature-della-foresta-6353"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "scheda-di-modelli-frutta-4143"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "scheda-di-modelli-mobili-37c2"
+  },
+  {
+   "mode": null,
+   "theme": "hospital",
+   "canonicalDeckSlug": "scheda-di-modelli-ospedale-5836"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "scheda-di-modelli-insetti-e-scarafaggi-17d1"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "scheda-di-modelli-utensili-da-cucina-b18f"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "scheda-di-modelli-musica-aeae"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "scheda-di-modelli-professioni-7e81"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "scheda-di-modelli-vita-oceanica-8e4c"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "scheda-di-modelli-animali-domestici-c6ac"
+  },
+  {
+   "mode": null,
+   "theme": "post_office",
+   "canonicalDeckSlug": "scheda-di-modelli-ufficio-postale-b58f"
+  },
+  {
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "scheda-di-modelli-rettili-e-anfibi-7408"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "scheda-di-modelli-forme-4112"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "scheda-di-modelli-spazio-7a6a"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "scheda-di-modelli-primavera-5e62"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "scheda-di-modelli-estate-278a"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "scheda-di-modelli-giorno-del-ringraziamento-dd46"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "scheda-di-modelli-cose-che-volano-180a"
+  },
+  {
+   "mode": null,
+   "theme": "tools",
+   "canonicalDeckSlug": "scheda-di-modelli-attrezzi-e670"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "scheda-di-modelli-giocattoli-d9a4"
+  },
+  {
+   "mode": null,
+   "theme": "tree",
+   "canonicalDeckSlug": "scheda-di-modelli-alberi-b9c4"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "scheda-di-modelli-verdure-3203"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "scheda-di-modelli-veicoli-b66b"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "scheda-di-modelli-meteo-e46a"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "scheda-di-modelli-inverno-c478"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "scheda-di-modelli-animali-dello-zoo-c323"
+  }
+ ]
+}

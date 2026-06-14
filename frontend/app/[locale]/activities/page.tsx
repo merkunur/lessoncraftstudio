@@ -36,11 +36,11 @@ const LANDING_STRINGS: Record<string, {
   gradeLabel: string;
 }> = {
   en: {
-    pageTitle: "Activities",
+    pageTitle: "Free K-3 Learning Activities",
     pageIntro: "Common-Core-pinned activities your students complete in the browser. Each one is a short task set built around a single standard.",
     tryItLink: "Try it",
-    metaTitle: "Activities",
-    metaDescription: "Browser-playable K-3 activities aligned to Common Core standards. Free; no signup.",
+    metaTitle: "Free K-3 Learning Activities — Common Core Aligned",
+    metaDescription: "Free browser-playable K-3 learning activities aligned to Common Core standards — counting, addition, phonics and more. No signup, works in 11 languages.",
     gradeLabel: "Grade",
   },
   de: {

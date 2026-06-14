@@ -1,0 +1,474 @@
+{
+ "coordinates": [
+  {
+   "mode": "i-spy",
+   "theme": "",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-4-luglio-11c8"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-4-luglio-a43c"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "accessories",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-accessori-6376"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "accessories",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-accessori-cd12"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "activities",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-attivita-5bbd"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "activities",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-attivita-a955"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-animali-b2f3"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-animali-2acd"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-in-giro-per-casa-1357"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-al-supermercato-fcff"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-al-supermercato-e849"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "bakery",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-panetteria-b676"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "bakery",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-panetteria-d0c6"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "beach",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-spiaggia-d177"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "beach",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-spiaggia-da8f"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-uccelli-2-058f"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-uccelli-2-219a"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-parti-del-corpo-01da"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-parti-del-corpo-cd48"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-colazione-73ca"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-colazione-caec"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "camping",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-campeggio-f2cf"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "camping",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-campeggio-3d0d"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "christmas",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-natale-5e35"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "christmas",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-natale-79c9"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "classroom",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-aula-474a"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "classroom",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-aula-be85"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "clothing",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-abbigliamento-079f"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "clothing",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-abbigliamento-b3cd"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "colors",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-colori-cedf"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "colors",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-colori-c1cb"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-dolci-e-dolciumi-3978"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-dolci-e-dolciumi-5278"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-dinosauri-84b9"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-dinosauri-3997"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "easter",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-pasqua-6558"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "easter",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-pasqua-4a54"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "emotions",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-emozioni-3241"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "emotions",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-emozioni-0a5b"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-animali-della-fattoria-dbc6"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-animali-della-fattoria-9c30"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "flowers",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-fiori-46ac"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "flowers",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-fiori-e842"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-creature-della-foresta-4690"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-creature-della-foresta-e110"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "fruits",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-frutta-f1a4"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "fruits",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-frutta-171b"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "furniture",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-mobili-fc04"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "furniture",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-mobili-e22c"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "hospital",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-ospedale-e93e"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "hospital",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-ospedale-814b"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-insetti-e-scarafaggi-a7b8"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-insetti-e-scarafaggi-d713"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-utensili-da-cucina-18bc"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-utensili-da-cucina-f086"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "music",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-musica-1e4f"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "music",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-musica-18e5"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "occupations",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-professioni-c896"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "occupations",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-professioni-eb09"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-vita-oceanica-cd90"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-vita-oceanica-2e36"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "pets",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-animali-domestici-e1ed"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "pets",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-animali-domestici-78f3"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "post_office",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-ufficio-postale-222e"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "post_office",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-ufficio-postale-d062"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "shapes",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-forme-c7fd"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "shapes",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-forme-6a9d"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "space",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-spazio-553d"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "space",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-spazio-04ce"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "spring",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-primavera-faa7"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "spring",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-primavera-1b7f"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "summer",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-estate-783a"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "summer",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-estate-0648"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-giorno-del-ringraziamento-cd05"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-giorno-del-ringraziamento-2c6e"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-cose-che-volano-8a60"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-cose-che-volano-bd98"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "tools",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-attrezzi-e991"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "tools",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-attrezzi-d4e5"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "toys",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-giocattoli-35ca"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "toys",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-giocattoli-c7bf"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "tree",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-alberi-7a8d"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "tree",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-alberi-f01e"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-verdure-977f"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-verdure-cfbe"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-veicoli-a4bf"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-veicoli-acfe"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "weather",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-meteo-8189"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "weather",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-meteo-93be"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "winter",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-inverno-a331"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "winter",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-inverno-61e8"
+  },
+  {
+   "mode": "find-odd",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-trova-il-diverso-animali-dello-zoo-356b"
+  },
+  {
+   "mode": "i-spy",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "trova-gli-oggetti-vedo-vedo-animali-dello-zoo-582e"
+  }
+ ]
+}

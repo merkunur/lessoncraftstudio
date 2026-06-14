@@ -1,0 +1,984 @@
+{
+ "coordinates": [
+  {
+   "mode": "image-image",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-immagine-immagine-giorno-del-ringraziamento-b12c"
+  },
+  {
+   "mode": "image-image",
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-immagine-immagine-spazio-f191"
+  },
+  {
+   "mode": "image-number",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-immagine-numero-parti-del-corpo-7589"
+  },
+  {
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-immagine-numero-vita-oceanica-9ce7"
+  },
+  {
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-misto-dinosauri-1dd8"
+  },
+  {
+   "mode": "mixed",
+   "theme": "emotions",
+   "canonicalDeckSlug": "addizione-misto-emozioni-9e8e"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-misto-verdure-de2f"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-abbigliamento-2ed9"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-meteo-b641"
+  },
+  {
+   "mode": "image-image",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-immagine-immagine-creature-della-foresta-16a2"
+  },
+  {
+   "mode": "mixed",
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-misto-meteo-f574"
+  },
+  {
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "addizione-misto-varie-0c59"
+  },
+  {
+   "mode": "mixed",
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-misto-animali-domestici-7313"
+  },
+  {
+   "mode": "mixed",
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-misto-aula-60ad"
+  },
+  {
+   "mode": "image-image",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "addizione-immagine-immagine-veicoli-9407"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-immagine-numero-alberi-bd85"
+  },
+  {
+   "mode": "image-number",
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-immagine-numero-campeggio-afcb"
+  },
+  {
+   "mode": "mixed",
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-misto-animali-1164"
+  },
+  {
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-misto-cose-che-volano-b00b"
+  },
+  {
+   "mode": "image-image",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-immagine-immagine-rettili-e-anfibi-833f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-immagine-numero-rettili-e-anfibi-f88d"
+  },
+  {
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-misto-4-luglio-c666"
+  },
+  {
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-misto-vita-oceanica-df32"
+  },
+  {
+   "mode": "image-image",
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-immagine-immagine-animali-domestici-9625"
+  },
+  {
+   "mode": "image-image",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-immagine-immagine-in-giro-per-casa-26a0"
+  },
+  {
+   "mode": "image-image",
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-immagine-immagine-ospedale-40c4"
+  },
+  {
+   "mode": "image-image",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-immagine-immagine-parti-del-corpo-d22e"
+  },
+  {
+   "mode": "image-image",
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-immagine-immagine-ufficio-postale-dde6"
+  },
+  {
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-immagine-numero-al-supermercato-43f1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-immagine-numero-animali-8c14"
+  },
+  {
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-immagine-numero-cose-che-volano-ef76"
+  },
+  {
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-immagine-numero-giorno-del-ringraziamento-c038"
+  },
+  {
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-immagine-numero-in-giro-per-casa-b191"
+  },
+  {
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-immagine-numero-insetti-e-scarafaggi-5c73"
+  },
+  {
+   "mode": "image-number",
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-immagine-numero-spazio-cb51"
+  },
+  {
+   "mode": "image-number",
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-immagine-numero-ufficio-postale-c5a2"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-immagine-numero-verdure-c952"
+  },
+  {
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-misto-al-supermercato-dbb1"
+  },
+  {
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-misto-animali-della-fattoria-8b2a"
+  },
+  {
+   "mode": "mixed",
+   "theme": "activities",
+   "canonicalDeckSlug": "addizione-misto-attivita-8a68"
+  },
+  {
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-misto-creature-della-foresta-7813"
+  },
+  {
+   "mode": "mixed",
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-misto-estate-d765"
+  },
+  {
+   "mode": "mixed",
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-misto-forme-1f7b"
+  },
+  {
+   "mode": "mixed",
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-misto-frutta-58a2"
+  },
+  {
+   "mode": "mixed",
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-misto-giocattoli-2be7"
+  },
+  {
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-misto-giorno-del-ringraziamento-796d"
+  },
+  {
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-misto-in-giro-per-casa-9f5d"
+  },
+  {
+   "mode": "mixed",
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-misto-inverno-1654"
+  },
+  {
+   "mode": "mixed",
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-misto-mobili-6e80"
+  },
+  {
+   "mode": "mixed",
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-misto-musica-2f53"
+  },
+  {
+   "mode": "mixed",
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-misto-ospedale-5281"
+  },
+  {
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-misto-rettili-e-anfibi-b5cf"
+  },
+  {
+   "mode": "mixed",
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-misto-spazio-4b49"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-al-supermercato-d09e"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-animali-9bba"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-animali-domestici-bb8d"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-cose-che-volano-7eaa"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-dinosauri-8e37"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-in-giro-per-casa-2048"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-parti-del-corpo-a17a"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-utensili-da-cucina-a66a"
+  },
+  {
+   "mode": "mixed",
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-misto-colori-125e"
+  },
+  {
+   "mode": "mixed",
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-misto-professioni-3629"
+  },
+  {
+   "mode": "mixed",
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-misto-spiaggia-6468"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-misto-uccelli-9cda"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "addizione-immagine-numero-veicoli-d889"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-animali-della-fattoria-f8d7"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "activities",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-attivita-cb1b"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-campeggio-c57a"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-colazione-b771"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-colori-5ff0"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-creature-della-foresta-18e6"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-forme-89d3"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-giocattoli-cf89"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-inverno-75a2"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-mobili-3647"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-musica-73b6"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-pasqua-d3ec"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-primavera-ab06"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-professioni-0c15"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-uccelli-2-6000"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-uccelli-d110"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-ufficio-postale-bb72"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-varie-def4"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-verdure-d0bb"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-vita-oceanica-9cec"
+  },
+  {
+   "mode": "image-image",
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-immagine-immagine-mobili-15d7"
+  },
+  {
+   "mode": "image-image",
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-immagine-immagine-musica-b33e"
+  },
+  {
+   "mode": "image-image",
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-immagine-immagine-natale-77ca"
+  },
+  {
+   "mode": "image-image",
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-immagine-immagine-pasqua-213b"
+  },
+  {
+   "mode": "image-image",
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-immagine-immagine-primavera-24cc"
+  },
+  {
+   "mode": "image-image",
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-immagine-immagine-professioni-37fe"
+  },
+  {
+   "mode": "image-image",
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-immagine-immagine-uccelli-1e54"
+  },
+  {
+   "mode": "image-image",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "addizione-immagine-immagine-uccelli-2-62ab"
+  },
+  {
+   "mode": "image-image",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "addizione-immagine-immagine-varie-2ab8"
+  },
+  {
+   "mode": "image-number",
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-immagine-numero-accessori-e1a7"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-immagine-numero-attrezzi-1074"
+  },
+  {
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-immagine-numero-creature-della-foresta-7222"
+  },
+  {
+   "mode": "image-number",
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-immagine-numero-fiori-c982"
+  },
+  {
+   "mode": "image-number",
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-immagine-numero-forme-8493"
+  },
+  {
+   "mode": "image-number",
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-immagine-numero-frutta-f9fc"
+  },
+  {
+   "mode": "image-number",
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-immagine-numero-giocattoli-d34d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-immagine-numero-meteo-a2cf"
+  },
+  {
+   "mode": "image-number",
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-immagine-numero-mobili-d4d1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-immagine-numero-musica-5141"
+  },
+  {
+   "mode": "image-number",
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-immagine-numero-natale-246e"
+  },
+  {
+   "mode": "image-number",
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-immagine-numero-pasqua-e69d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-immagine-numero-primavera-46f9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-immagine-numero-professioni-b3b6"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-immagine-numero-uccelli-bb47"
+  },
+  {
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-immagine-numero-utensili-da-cucina-46f5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "addizione-immagine-numero-varie-b480"
+  },
+  {
+   "mode": "mixed",
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-misto-abbigliamento-35ef"
+  },
+  {
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "addizione-misto-dolci-e-dolciumi-1efc"
+  },
+  {
+   "mode": "mixed",
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-misto-fiori-1acc"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "addizione-misto-veicoli-462f"
+  },
+  {
+   "mode": "image-image",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-immagine-immagine-4-luglio-6a67"
+  },
+  {
+   "mode": "image-image",
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-immagine-immagine-abbigliamento-d8c7"
+  },
+  {
+   "mode": "image-image",
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-immagine-immagine-alberi-1377"
+  },
+  {
+   "mode": "image-image",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-immagine-immagine-animali-dello-zoo-0878"
+  },
+  {
+   "mode": "image-image",
+   "theme": "activities",
+   "canonicalDeckSlug": "addizione-immagine-immagine-attivita-f88e"
+  },
+  {
+   "mode": "image-image",
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-immagine-immagine-aula-2e21"
+  },
+  {
+   "mode": "image-image",
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-immagine-immagine-campeggio-0587"
+  },
+  {
+   "mode": "image-image",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-immagine-immagine-colazione-61c0"
+  },
+  {
+   "mode": "image-image",
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-immagine-immagine-colori-240c"
+  },
+  {
+   "mode": "image-image",
+   "theme": "emotions",
+   "canonicalDeckSlug": "addizione-immagine-immagine-emozioni-5460"
+  },
+  {
+   "mode": "image-image",
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-immagine-immagine-estate-e342"
+  },
+  {
+   "mode": "image-image",
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-immagine-immagine-forme-5289"
+  },
+  {
+   "mode": "image-image",
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-immagine-immagine-frutta-c6f4"
+  },
+  {
+   "mode": "image-image",
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-immagine-immagine-giocattoli-1663"
+  },
+  {
+   "mode": "image-image",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-immagine-immagine-insetti-e-scarafaggi-e9b9"
+  },
+  {
+   "mode": "image-image",
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-immagine-immagine-inverno-c297"
+  },
+  {
+   "mode": "image-image",
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-immagine-immagine-meteo-e1c5"
+  },
+  {
+   "mode": "image-image",
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-immagine-immagine-panetteria-d178"
+  },
+  {
+   "mode": "image-image",
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-immagine-immagine-spiaggia-db94"
+  },
+  {
+   "mode": "image-image",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-immagine-immagine-vita-oceanica-9e42"
+  },
+  {
+   "mode": "image-number",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-immagine-numero-4-luglio-1329"
+  },
+  {
+   "mode": "image-number",
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-immagine-numero-abbigliamento-e457"
+  },
+  {
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-immagine-numero-animali-dello-zoo-af2d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-immagine-numero-animali-domestici-45b6"
+  },
+  {
+   "mode": "image-number",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-immagine-numero-colazione-f7db"
+  },
+  {
+   "mode": "image-number",
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-immagine-numero-colori-3239"
+  },
+  {
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-immagine-numero-dinosauri-7ec2"
+  },
+  {
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "addizione-immagine-numero-dolci-e-dolciumi-f1fe"
+  },
+  {
+   "mode": "image-number",
+   "theme": "emotions",
+   "canonicalDeckSlug": "addizione-immagine-numero-emozioni-cc55"
+  },
+  {
+   "mode": "image-number",
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-immagine-numero-estate-3b70"
+  },
+  {
+   "mode": "image-number",
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-immagine-numero-inverno-f81e"
+  },
+  {
+   "mode": "image-number",
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-immagine-numero-panetteria-f3d3"
+  },
+  {
+   "mode": "image-number",
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-immagine-numero-spiaggia-aef3"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-misto-alberi-a7d5"
+  },
+  {
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-misto-animali-dello-zoo-d074"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-misto-attrezzi-c378"
+  },
+  {
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-misto-insetti-e-scarafaggi-c97c"
+  },
+  {
+   "mode": "mixed",
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-misto-natale-720b"
+  },
+  {
+   "mode": "mixed",
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-misto-panetteria-42d8"
+  },
+  {
+   "mode": "mixed",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-misto-parti-del-corpo-495a"
+  },
+  {
+   "mode": "mixed",
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-misto-primavera-4474"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "addizione-misto-uccelli-2-c788"
+  },
+  {
+   "mode": "mixed",
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-misto-ufficio-postale-f497"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-4-luglio-68fb"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-accessori-bb86"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-alberi-6d30"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-aula-b360"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-estate-5e22"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-ospedale-f887"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-panetteria-a217"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-rettili-e-anfibi-fa01"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-spiaggia-1058"
+  },
+  {
+   "mode": "mixed",
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-misto-pasqua-b79c"
+  },
+  {
+   "mode": "image-image",
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-immagine-immagine-animali"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-attrezzi-a080"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-natale-f330"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-spazio-24f9"
+  },
+  {
+   "mode": "image-image",
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-immagine-immagine-accessori-b739"
+  },
+  {
+   "mode": "image-number",
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-immagine-numero-ospedale-31c2"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "addizione-immagine-numero-uccelli-2-8df7"
+  },
+  {
+   "mode": "mixed",
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-misto-accessori-c2fc"
+  },
+  {
+   "mode": "mixed",
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-misto-campeggio-ed06"
+  },
+  {
+   "mode": "mixed",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-misto-colazione-0d73"
+  },
+  {
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-misto-utensili-da-cucina-eca4"
+  },
+  {
+   "mode": "image-image",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-immagine-immagine-al-supermercato-81ae"
+  },
+  {
+   "mode": "image-image",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-immagine-immagine-animali-della-fattoria-e852"
+  },
+  {
+   "mode": "image-image",
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-immagine-immagine-attrezzi-76af"
+  },
+  {
+   "mode": "image-image",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-immagine-immagine-cose-che-volano-26bf"
+  },
+  {
+   "mode": "image-image",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-immagine-immagine-dinosauri-ec28"
+  },
+  {
+   "mode": "image-image",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "addizione-immagine-immagine-dolci-e-dolciumi-8aac"
+  },
+  {
+   "mode": "image-image",
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-immagine-immagine-fiori-0d41"
+  },
+  {
+   "mode": "image-image",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-immagine-immagine-utensili-da-cucina-d617"
+  },
+  {
+   "mode": "image-image",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-immagine-immagine-verdure-6e0a"
+  },
+  {
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-immagine-numero-animali-della-fattoria-73b1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-immagine-numero-aula-4782"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-animali-dello-zoo-ed21"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-fiori-e27a"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-frutta-ee07"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-giorno-del-ringraziamento-0f29"
+  },
+  {
+   "mode": "find-addend",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-trova-l-addendo-insetti-e-scarafaggi-6c40"
+  }
+ ]
+}

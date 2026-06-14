@@ -1,0 +1,850 @@
+{
+ "coordinates": [
+  {
+   "mode": "addition",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-al-supermercato-35c7",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-animali-della-fattoria-bc9f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "flowers",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-fiori-5e48",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "bakery",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-panetteria-76c8",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "clothing",
+   "canonicalDeckSlug": "puzzle-matematico-misto-abbigliamento-0850",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "puzzle-matematico-misto-dinosauri-4469",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "puzzle-matematico-misto-in-giro-per-casa-f241",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "music",
+   "canonicalDeckSlug": "puzzle-matematico-misto-musica-178f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-4-luglio-ca7e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-al-supermercato-7d21",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "tree",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-alberi-8fef",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "tools",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-attrezzi-dd9a",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "camping",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-campeggio-9aec",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-dolci-e-dolciumi-19b3",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "emotions",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-emozioni-d58b",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "fruits",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-frutta-09fe",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-giorno-del-ringraziamento-df9c",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "weather",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-meteo-236f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "christmas",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-natale-ba4d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "occupations",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-professioni-5151",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-veicoli-a81b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "tree",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-alberi-dc1e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-animali-dello-zoo-05f6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-dolci-e-dolciumi-0d1b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-in-giro-per-casa-78c1",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "occupations",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-professioni-98a1",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "space",
+   "canonicalDeckSlug": "puzzle-matematico-misto-spazio-e8a3",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "flowers",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-fiori-e287",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "spring",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-primavera-4b49",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "space",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-spazio-5b50",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "addition",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-parti-del-corpo-05e3",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-veicoli-20cf",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "puzzle-matematico-misto-uccelli-2-50c0",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds",
+   "canonicalDeckSlug": "puzzle-matematico-misto-uccelli-d468",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "activities",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-attivita-ef07",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "classroom",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-aula-efa7",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "summer",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-estate-ea38",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "toys",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-giocattoli-cb5a",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "bakery",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-panetteria-8f51",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "addition",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-4-luglio-6916",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "puzzle-matematico-misto-4-luglio-9155",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "accessories",
+   "canonicalDeckSlug": "puzzle-matematico-misto-accessori-baff",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "puzzle-matematico-misto-dolci-e-dolciumi-a4b4",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "puzzle-matematico-misto-insetti-e-scarafaggi-049e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "christmas",
+   "canonicalDeckSlug": "puzzle-matematico-misto-natale-463e",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "beach",
+   "canonicalDeckSlug": "puzzle-matematico-misto-spiaggia-dfc3",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "post_office",
+   "canonicalDeckSlug": "puzzle-matematico-misto-ufficio-postale-b76e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "emotions",
+   "canonicalDeckSlug": "puzzle-matematico-misto-emozioni-a89e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "summer",
+   "canonicalDeckSlug": "puzzle-matematico-misto-estate-f503",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "toys",
+   "canonicalDeckSlug": "puzzle-matematico-misto-giocattoli-ce76",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "winter",
+   "canonicalDeckSlug": "puzzle-matematico-misto-inverno-fe79",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "weather",
+   "canonicalDeckSlug": "puzzle-matematico-misto-meteo-8f4e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "clothing",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-abbigliamento-0cb2",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "animals",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-animali-c4d5",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-animali-dello-zoo-4dda",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "pets",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-animali-domestici-47be",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-colazione-c503",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-cose-che-volano-9c01",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-creature-della-foresta-6ed9",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-dinosauri-5377",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-in-giro-per-casa-150b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "winter",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-inverno-a876",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "music",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-musica-adce",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-parti-del-corpo-3b17",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "easter",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-pasqua-b4c7",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-utensili-da-cucina-f945",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "christmas",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-natale-f576",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "animals",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-animali-539f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "classroom",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-aula-4f8b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "camping",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-campeggio-eb61",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-cose-che-volano-afe3",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "activities",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-attivita-e136",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "summer",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-estate-c4b6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "fruits",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-frutta-408a",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-dinosauri-9bd9",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "emotions",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-emozioni-0fef",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "weather",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-meteo-9aca",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "music",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-musica-5f50",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "winter",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-inverno-68ce",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "easter",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-pasqua-f577",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "spring",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-primavera-b653",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-rettili-e-anfibi-2275",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "birds",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-uccelli-319b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-varie-2ab6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-verdure-6196",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "beach",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-spiaggia-45d6",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "puzzle-matematico-misto-al-supermercato-94ba",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tree",
+   "canonicalDeckSlug": "puzzle-matematico-misto-alberi-1941",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "animals",
+   "canonicalDeckSlug": "puzzle-matematico-misto-animali-107f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "flowers",
+   "canonicalDeckSlug": "puzzle-matematico-misto-fiori-c135",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "activities",
+   "canonicalDeckSlug": "puzzle-matematico-misto-attivita-1068",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tools",
+   "canonicalDeckSlug": "puzzle-matematico-misto-attrezzi-7629",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "classroom",
+   "canonicalDeckSlug": "puzzle-matematico-misto-aula-db84",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "camping",
+   "canonicalDeckSlug": "puzzle-matematico-misto-campeggio-a4a8",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "puzzle-matematico-misto-animali-dello-zoo-b335",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "hospital",
+   "canonicalDeckSlug": "puzzle-matematico-misto-ospedale-0aeb",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "puzzle-matematico-misto-parti-del-corpo-08bd",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "easter",
+   "canonicalDeckSlug": "puzzle-matematico-misto-pasqua-52eb",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "spring",
+   "canonicalDeckSlug": "puzzle-matematico-misto-primavera-b4ed",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "puzzle-matematico-misto-varie-ee21",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-uccelli-2-d714",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "birds",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-uccelli-f84b",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "post_office",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-ufficio-postale-7a40",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "beach",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-spiaggia-b92d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-verdure-eb1b",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-vita-oceanica-7972",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "occupations",
+   "canonicalDeckSlug": "puzzle-matematico-misto-professioni-b54e",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "accessories",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-accessori-36c2",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-varie-216e",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "addition",
+   "theme": "clothing",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-abbigliamento-c886",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "pets",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-animali-domestici-199c",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "tools",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-attrezzi-5daa",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-colazione-9187",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "toys",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-giocattoli-7ca8",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "furniture",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-mobili-aadb",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "hospital",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-ospedale-f4cd",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "space",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-spazio-2d56",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-vita-oceanica-31f3",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "pets",
+   "canonicalDeckSlug": "puzzle-matematico-misto-animali-domestici-49ba",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "puzzle-matematico-misto-colazione-623f",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "puzzle-matematico-misto-creature-della-foresta-5809",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "puzzle-matematico-misto-rettili-e-anfibi-1750",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-rettili-e-anfibi-d7cd",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "addition",
+   "theme": "accessories",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-accessori-d3ef",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "puzzle-matematico-misto-animali-della-fattoria-b4f7",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "puzzle-matematico-misto-cose-che-volano-fbcf",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "fruits",
+   "canonicalDeckSlug": "puzzle-matematico-misto-frutta-6b81",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "addition",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-creature-della-foresta-1972",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-insetti-e-scarafaggi-dfa4",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "addition",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "puzzle-matematico-addizione-uccelli-2-2ce0",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "puzzle-matematico-misto-giorno-del-ringraziamento-df8d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "furniture",
+   "canonicalDeckSlug": "puzzle-matematico-misto-mobili-ff64",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "bakery",
+   "canonicalDeckSlug": "puzzle-matematico-misto-panetteria-a47e",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "puzzle-matematico-misto-utensili-da-cucina-ca10",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "puzzle-matematico-misto-veicoli-5dfc",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "puzzle-matematico-misto-verdure-2e3c",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "puzzle-matematico-misto-vita-oceanica-0ba9",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-animali-della-fattoria-411d",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-insetti-e-scarafaggi-1988",
+   "level": "classe-prima"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "furniture",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-mobili-4914",
+   "level": "classe-seconda"
+  },
+  {
+   "mode": "subtraction",
+   "theme": "hospital",
+   "canonicalDeckSlug": "puzzle-matematico-sottrazione-ospedale-b924",
+   "level": "classe-prima"
+  }
+ ]
+}

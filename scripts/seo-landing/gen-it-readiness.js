@@ -33,9 +33,10 @@ function gcd(a, b){ while(b){ const t=a%b; a=b; b=t; } return a; }
 function coprimeStride(cells){ let k = Math.max(2, Math.round(cells * 0.6180339887)); for (let d=0; d<cells; d++) for (const cand of [k+d, k-d]) if (cand>1 && cand<cells && gcd(cand,cells)===1) return cand; return 1; }
 function cellAssign(i, S, P){ const cells = S*P, stride = coprimeStride(cells); const c = ((i % cells) * stride) % cells; return { skel: c % S, p2: Math.floor(c / S) % P }; }
 
-function p3it(d, nb1, nb2){
+function p3it(d, nb1, nb2, mk){
   const nb1s = nb1.genArt + ' ' + nb1.gen, nb2s = nb2.genArt + ' ' + nb2.gen;
-  return render(cfg.P3.replace(/\{nb1\}/g, nb1s).replace(/\{nb2\}/g, nb2s), d);
+  const p3raw = (typeof cfg.P3 === 'function') ? cfg.P3(mk) : cfg.P3; // per-mode P3 supported
+  return render(p3raw.replace(/\{nb1\}/g, nb1s).replace(/\{nb2\}/g, nb2s), d);
 }
 
 const modeKey = (m) => (m === null || m === undefined ? 'null' : m);
@@ -70,7 +71,7 @@ function buildMode(mk){
       slotTokens: d.nPl.replace(/ e | ed /g,', ').split(', ').map(s=>s.trim()).concat([d.gen, co.theme.replace(/_/g,' '), lvl, cfg.slotWord]),
       p1: render(sk[c.skel], d),
       p2: render(p2[c.p2], d),
-      p3: p3it(d, nb1, nb2),
+      p3: p3it(d, nb1, nb2, mk),
       canonicalDeckSlug: co.canonicalDeckSlug,
       carousel: [1,2,5,11].map(off=>{ const n=list[(i+off)%list.length]; return {label: cfg.carousel(mk, THEMES[n.theme].h1), href: n.canonicalDeckSlug}; }),
     };

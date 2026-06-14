@@ -1,0 +1,499 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "sudoku-illustrato"
+  },
+  {
+   "mode": "medium",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-4-luglio-b681"
+  },
+  {
+   "mode": "easy",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-4-luglio-9c69"
+  },
+  {
+   "mode": "easy",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-accessori-4aac"
+  },
+  {
+   "mode": "medium",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-accessori-ff3b"
+  },
+  {
+   "mode": "medium",
+   "theme": "activities",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-attivita-1c5f"
+  },
+  {
+   "mode": "easy",
+   "theme": "activities",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-attivita-6b07"
+  },
+  {
+   "mode": "easy",
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-animali-7118"
+  },
+  {
+   "mode": "medium",
+   "theme": "animals",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-animali-d5f3"
+  },
+  {
+   "mode": "medium",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-in-giro-per-casa-8fe5"
+  },
+  {
+   "mode": "easy",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-in-giro-per-casa-fb03"
+  },
+  {
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-al-supermercato-f089"
+  },
+  {
+   "mode": "medium",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-al-supermercato-6d92"
+  },
+  {
+   "mode": "medium",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-panetteria-c6a7"
+  },
+  {
+   "mode": "easy",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-panetteria-cdce"
+  },
+  {
+   "mode": "easy",
+   "theme": "beach",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-spiaggia-aa4a"
+  },
+  {
+   "mode": "medium",
+   "theme": "beach",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-spiaggia-0a81"
+  },
+  {
+   "mode": "medium",
+   "theme": "birds",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-uccelli-61cc"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-uccelli-faf7"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-uccelli-2-36dd"
+  },
+  {
+   "mode": "medium",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-uccelli-2-f86a"
+  },
+  {
+   "mode": "easy",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-parti-del-corpo-5c51"
+  },
+  {
+   "mode": "medium",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-parti-del-corpo-fc4b"
+  },
+  {
+   "mode": "medium",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-colazione-f990"
+  },
+  {
+   "mode": "easy",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-colazione-518f"
+  },
+  {
+   "mode": "medium",
+   "theme": "camping",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-campeggio-ac68"
+  },
+  {
+   "mode": "easy",
+   "theme": "camping",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-campeggio-d735"
+  },
+  {
+   "mode": "easy",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-natale-37a9"
+  },
+  {
+   "mode": "medium",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-natale-369e"
+  },
+  {
+   "mode": "easy",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-aula-9d1d"
+  },
+  {
+   "mode": "medium",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-aula-65c4"
+  },
+  {
+   "mode": "medium",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-abbigliamento-82cf"
+  },
+  {
+   "mode": "easy",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-abbigliamento-fc4a"
+  },
+  {
+   "mode": "medium",
+   "theme": "colors",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-colori-3189"
+  },
+  {
+   "mode": "easy",
+   "theme": "colors",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-colori-cb61"
+  },
+  {
+   "mode": "medium",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-dolci-e-dolciumi-ba3b"
+  },
+  {
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-dolci-e-dolciumi-2292"
+  },
+  {
+   "mode": "easy",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-dinosauri-6069"
+  },
+  {
+   "mode": "medium",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-dinosauri-ab86"
+  },
+  {
+   "mode": "easy",
+   "theme": "easter",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-pasqua-f8d8"
+  },
+  {
+   "mode": "medium",
+   "theme": "easter",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-pasqua-16f2"
+  },
+  {
+   "mode": "medium",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-emozioni-8d10"
+  },
+  {
+   "mode": "easy",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-emozioni-e03f"
+  },
+  {
+   "mode": "medium",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-animali-della-fattoria-cb08"
+  },
+  {
+   "mode": "easy",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-animali-della-fattoria-d012"
+  },
+  {
+   "mode": "medium",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-fiori-83b7"
+  },
+  {
+   "mode": "easy",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-fiori-3376"
+  },
+  {
+   "mode": "medium",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-creature-della-foresta-2f24"
+  },
+  {
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-creature-della-foresta-2a5e"
+  },
+  {
+   "mode": "medium",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-frutta-c3db"
+  },
+  {
+   "mode": "easy",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-frutta-4c6f"
+  },
+  {
+   "mode": "easy",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-mobili-fdd4"
+  },
+  {
+   "mode": "medium",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-mobili-5481"
+  },
+  {
+   "mode": "medium",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-ospedale-a63b"
+  },
+  {
+   "mode": "easy",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-ospedale-66a0"
+  },
+  {
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-insetti-e-scarafaggi-d75b"
+  },
+  {
+   "mode": "medium",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-insetti-e-scarafaggi-28bc"
+  },
+  {
+   "mode": "medium",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-utensili-da-cucina-8472"
+  },
+  {
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-utensili-da-cucina-5512"
+  },
+  {
+   "mode": "easy",
+   "theme": "music",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-musica-6552"
+  },
+  {
+   "mode": "medium",
+   "theme": "music",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-musica-1ed9"
+  },
+  {
+   "mode": "medium",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-professioni-17da"
+  },
+  {
+   "mode": "easy",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-professioni-3bba"
+  },
+  {
+   "mode": "easy",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-vita-oceanica-9840"
+  },
+  {
+   "mode": "medium",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-vita-oceanica-8b0a"
+  },
+  {
+   "mode": "easy",
+   "theme": "pets",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-animali-domestici-a0dc"
+  },
+  {
+   "mode": "medium",
+   "theme": "pets",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-animali-domestici-f782"
+  },
+  {
+   "mode": "easy",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-ufficio-postale-a837"
+  },
+  {
+   "mode": "medium",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-ufficio-postale-9995"
+  },
+  {
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-rettili-e-anfibi-84c4"
+  },
+  {
+   "mode": "medium",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-rettili-e-anfibi-02b4"
+  },
+  {
+   "mode": "medium",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-forme-caee"
+  },
+  {
+   "mode": "easy",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-forme-7e13"
+  },
+  {
+   "mode": "medium",
+   "theme": "space",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-spazio-8c7d"
+  },
+  {
+   "mode": "easy",
+   "theme": "space",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-spazio-294a"
+  },
+  {
+   "mode": "medium",
+   "theme": "spring",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-primavera-aad5"
+  },
+  {
+   "mode": "easy",
+   "theme": "spring",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-primavera-443e"
+  },
+  {
+   "mode": "easy",
+   "theme": "summer",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-estate-75c4"
+  },
+  {
+   "mode": "medium",
+   "theme": "summer",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-estate-4a55"
+  },
+  {
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-giorno-del-ringraziamento-4160"
+  },
+  {
+   "mode": "medium",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-giorno-del-ringraziamento-767e"
+  },
+  {
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-cose-che-volano-6ec9"
+  },
+  {
+   "mode": "medium",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-cose-che-volano-5ddc"
+  },
+  {
+   "mode": "easy",
+   "theme": "tools",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-attrezzi-5efc"
+  },
+  {
+   "mode": "medium",
+   "theme": "tools",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-attrezzi-66a0"
+  },
+  {
+   "mode": "easy",
+   "theme": "toys",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-giocattoli-cb72"
+  },
+  {
+   "mode": "medium",
+   "theme": "toys",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-giocattoli-37e1"
+  },
+  {
+   "mode": "easy",
+   "theme": "tree",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-alberi-1235"
+  },
+  {
+   "mode": "medium",
+   "theme": "tree",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-alberi-a1ba"
+  },
+  {
+   "mode": "easy",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-verdure-9219"
+  },
+  {
+   "mode": "medium",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-verdure-3cf7"
+  },
+  {
+   "mode": "easy",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-veicoli-7472"
+  },
+  {
+   "mode": "medium",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-veicoli-7a65"
+  },
+  {
+   "mode": "easy",
+   "theme": "weather",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-meteo-b0b4"
+  },
+  {
+   "mode": "medium",
+   "theme": "weather",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-meteo-a3fd"
+  },
+  {
+   "mode": "easy",
+   "theme": "winter",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-inverno-88aa"
+  },
+  {
+   "mode": "medium",
+   "theme": "winter",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-inverno-5392"
+  },
+  {
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sudoku-illustrato-facile-animali-dello-zoo-eb5c"
+  },
+  {
+   "mode": "medium",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sudoku-illustrato-medio-animali-dello-zoo-fcca"
+  }
+ ]
+}

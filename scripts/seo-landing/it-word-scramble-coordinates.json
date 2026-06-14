@@ -1,0 +1,479 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "anagrammi"
+  },
+  {
+   "mode": "normal",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "anagrammi-normale-4-luglio-fc3a"
+  },
+  {
+   "mode": "easy",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "anagrammi-facile-4-luglio-bb33"
+  },
+  {
+   "mode": "easy",
+   "theme": "accessories",
+   "canonicalDeckSlug": "anagrammi-facile-accessori-8191"
+  },
+  {
+   "mode": "normal",
+   "theme": "accessories",
+   "canonicalDeckSlug": "anagrammi-normale-accessori-6d82"
+  },
+  {
+   "mode": "easy",
+   "theme": "activities",
+   "canonicalDeckSlug": "anagrammi-facile-attivita-6f91"
+  },
+  {
+   "mode": "normal",
+   "theme": "activities",
+   "canonicalDeckSlug": "anagrammi-normale-attivita-c629"
+  },
+  {
+   "mode": "easy",
+   "theme": "animals",
+   "canonicalDeckSlug": "anagrammi-facile-animali-6948"
+  },
+  {
+   "mode": "normal",
+   "theme": "animals",
+   "canonicalDeckSlug": "anagrammi-normale-animali-5b88"
+  },
+  {
+   "mode": "easy",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "anagrammi-facile-in-giro-per-casa-a34e"
+  },
+  {
+   "mode": "normal",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "anagrammi-normale-in-giro-per-casa-97cd"
+  },
+  {
+   "mode": "easy",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "anagrammi-facile-al-supermercato-6a9b"
+  },
+  {
+   "mode": "normal",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "anagrammi-normale-al-supermercato-f8e1"
+  },
+  {
+   "mode": "easy",
+   "theme": "bakery",
+   "canonicalDeckSlug": "anagrammi-facile-panetteria-def3"
+  },
+  {
+   "mode": "normal",
+   "theme": "bakery",
+   "canonicalDeckSlug": "anagrammi-normale-panetteria-00f4"
+  },
+  {
+   "mode": "easy",
+   "theme": "beach",
+   "canonicalDeckSlug": "anagrammi-facile-spiaggia-5ae7"
+  },
+  {
+   "mode": "normal",
+   "theme": "beach",
+   "canonicalDeckSlug": "anagrammi-normale-spiaggia-b471"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds",
+   "canonicalDeckSlug": "anagrammi-facile-uccelli-0124"
+  },
+  {
+   "mode": "normal",
+   "theme": "birds",
+   "canonicalDeckSlug": "anagrammi-normale-uccelli-4662"
+  },
+  {
+   "mode": "easy",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "anagrammi-facile-uccelli-2-66ec"
+  },
+  {
+   "mode": "normal",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "anagrammi-normale-uccelli-2-f2d1"
+  },
+  {
+   "mode": "easy",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "anagrammi-facile-parti-del-corpo-869c"
+  },
+  {
+   "mode": "normal",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "anagrammi-normale-parti-del-corpo-7710"
+  },
+  {
+   "mode": "normal",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "anagrammi-normale-colazione-1fba"
+  },
+  {
+   "mode": "easy",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "anagrammi-facile-colazione-09be"
+  },
+  {
+   "mode": "normal",
+   "theme": "camping",
+   "canonicalDeckSlug": "anagrammi-normale-campeggio-011e"
+  },
+  {
+   "mode": "easy",
+   "theme": "camping",
+   "canonicalDeckSlug": "anagrammi-facile-campeggio-abb7"
+  },
+  {
+   "mode": "normal",
+   "theme": "christmas",
+   "canonicalDeckSlug": "anagrammi-normale-natale-45c5"
+  },
+  {
+   "mode": "easy",
+   "theme": "christmas",
+   "canonicalDeckSlug": "anagrammi-facile-natale-69ea"
+  },
+  {
+   "mode": "easy",
+   "theme": "classroom",
+   "canonicalDeckSlug": "anagrammi-facile-aula-b05d"
+  },
+  {
+   "mode": "normal",
+   "theme": "classroom",
+   "canonicalDeckSlug": "anagrammi-normale-aula-dffa"
+  },
+  {
+   "mode": "easy",
+   "theme": "clothing",
+   "canonicalDeckSlug": "anagrammi-facile-abbigliamento-8188"
+  },
+  {
+   "mode": "normal",
+   "theme": "clothing",
+   "canonicalDeckSlug": "anagrammi-normale-abbigliamento-6c57"
+  },
+  {
+   "mode": "normal",
+   "theme": "colors",
+   "canonicalDeckSlug": "anagrammi-normale-colori-3f29"
+  },
+  {
+   "mode": "easy",
+   "theme": "colors",
+   "canonicalDeckSlug": "anagrammi-facile-colori-1dbb"
+  },
+  {
+   "mode": "easy",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "anagrammi-facile-dolci-e-dolciumi-8ac0"
+  },
+  {
+   "mode": "normal",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "anagrammi-normale-dolci-e-dolciumi-00d6"
+  },
+  {
+   "mode": "easy",
+   "theme": "easter",
+   "canonicalDeckSlug": "anagrammi-facile-pasqua-1b30"
+  },
+  {
+   "mode": "normal",
+   "theme": "easter",
+   "canonicalDeckSlug": "anagrammi-normale-pasqua-cf6c"
+  },
+  {
+   "mode": "easy",
+   "theme": "emotions",
+   "canonicalDeckSlug": "anagrammi-facile-emozioni-dd70"
+  },
+  {
+   "mode": "normal",
+   "theme": "emotions",
+   "canonicalDeckSlug": "anagrammi-normale-emozioni-e834"
+  },
+  {
+   "mode": "normal",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "anagrammi-normale-animali-della-fattoria-b7c1"
+  },
+  {
+   "mode": "easy",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "anagrammi-facile-animali-della-fattoria-6b30"
+  },
+  {
+   "mode": "normal",
+   "theme": "flowers",
+   "canonicalDeckSlug": "anagrammi-normale-fiori-7c15"
+  },
+  {
+   "mode": "easy",
+   "theme": "flowers",
+   "canonicalDeckSlug": "anagrammi-facile-fiori-6985"
+  },
+  {
+   "mode": "normal",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "anagrammi-normale-creature-della-foresta-267f"
+  },
+  {
+   "mode": "easy",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "anagrammi-facile-creature-della-foresta-8e13"
+  },
+  {
+   "mode": "easy",
+   "theme": "fruits",
+   "canonicalDeckSlug": "anagrammi-facile-frutta-f124"
+  },
+  {
+   "mode": "normal",
+   "theme": "fruits",
+   "canonicalDeckSlug": "anagrammi-normale-frutta-df74"
+  },
+  {
+   "mode": "easy",
+   "theme": "furniture",
+   "canonicalDeckSlug": "anagrammi-facile-mobili-64e3"
+  },
+  {
+   "mode": "normal",
+   "theme": "furniture",
+   "canonicalDeckSlug": "anagrammi-normale-mobili-5519"
+  },
+  {
+   "mode": "easy",
+   "theme": "hospital",
+   "canonicalDeckSlug": "anagrammi-facile-ospedale-fe75"
+  },
+  {
+   "mode": "normal",
+   "theme": "hospital",
+   "canonicalDeckSlug": "anagrammi-normale-ospedale-6bb5"
+  },
+  {
+   "mode": "easy",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "anagrammi-facile-insetti-e-scarafaggi-dd9f"
+  },
+  {
+   "mode": "normal",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "anagrammi-normale-insetti-e-scarafaggi-e282"
+  },
+  {
+   "mode": "easy",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "anagrammi-facile-utensili-da-cucina-09e7"
+  },
+  {
+   "mode": "normal",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "anagrammi-normale-utensili-da-cucina-bfb7"
+  },
+  {
+   "mode": "easy",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "anagrammi-facile-varie-24bc"
+  },
+  {
+   "mode": "normal",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "anagrammi-normale-varie-b086"
+  },
+  {
+   "mode": "easy",
+   "theme": "music",
+   "canonicalDeckSlug": "anagrammi-facile-musica-490d"
+  },
+  {
+   "mode": "normal",
+   "theme": "music",
+   "canonicalDeckSlug": "anagrammi-normale-musica-d2a0"
+  },
+  {
+   "mode": "easy",
+   "theme": "occupations",
+   "canonicalDeckSlug": "anagrammi-facile-professioni-2bfd"
+  },
+  {
+   "mode": "normal",
+   "theme": "occupations",
+   "canonicalDeckSlug": "anagrammi-normale-professioni-8e31"
+  },
+  {
+   "mode": "normal",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "anagrammi-normale-vita-oceanica-0842"
+  },
+  {
+   "mode": "easy",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "anagrammi-facile-vita-oceanica-b821"
+  },
+  {
+   "mode": "normal",
+   "theme": "pets",
+   "canonicalDeckSlug": "anagrammi-normale-animali-domestici-ba3c"
+  },
+  {
+   "mode": "easy",
+   "theme": "pets",
+   "canonicalDeckSlug": "anagrammi-facile-animali-domestici-464a"
+  },
+  {
+   "mode": "normal",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "anagrammi-normale-rettili-e-anfibi-fe11"
+  },
+  {
+   "mode": "easy",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "anagrammi-facile-rettili-e-anfibi-b8fc"
+  },
+  {
+   "mode": "easy",
+   "theme": "shapes",
+   "canonicalDeckSlug": "anagrammi-facile-forme-8c1a"
+  },
+  {
+   "mode": "normal",
+   "theme": "shapes",
+   "canonicalDeckSlug": "anagrammi-normale-forme-f754"
+  },
+  {
+   "mode": "normal",
+   "theme": "space",
+   "canonicalDeckSlug": "anagrammi-normale-spazio-a507"
+  },
+  {
+   "mode": "easy",
+   "theme": "space",
+   "canonicalDeckSlug": "anagrammi-facile-spazio-fa5b"
+  },
+  {
+   "mode": "easy",
+   "theme": "spring",
+   "canonicalDeckSlug": "anagrammi-facile-primavera-69da"
+  },
+  {
+   "mode": "normal",
+   "theme": "spring",
+   "canonicalDeckSlug": "anagrammi-normale-primavera-a85b"
+  },
+  {
+   "mode": "easy",
+   "theme": "summer",
+   "canonicalDeckSlug": "anagrammi-facile-estate-bd8d"
+  },
+  {
+   "mode": "normal",
+   "theme": "summer",
+   "canonicalDeckSlug": "anagrammi-normale-estate-c8e6"
+  },
+  {
+   "mode": "easy",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "anagrammi-facile-giorno-del-ringraziamento-8f8c"
+  },
+  {
+   "mode": "normal",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "anagrammi-normale-giorno-del-ringraziamento-d386"
+  },
+  {
+   "mode": "easy",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "anagrammi-facile-cose-che-volano-d442"
+  },
+  {
+   "mode": "normal",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "anagrammi-normale-cose-che-volano-385f"
+  },
+  {
+   "mode": "easy",
+   "theme": "toys",
+   "canonicalDeckSlug": "anagrammi-facile-giocattoli-73b5"
+  },
+  {
+   "mode": "normal",
+   "theme": "toys",
+   "canonicalDeckSlug": "anagrammi-normale-giocattoli-1bb6"
+  },
+  {
+   "mode": "normal",
+   "theme": "tree",
+   "canonicalDeckSlug": "anagrammi-normale-alberi-a314"
+  },
+  {
+   "mode": "easy",
+   "theme": "tree",
+   "canonicalDeckSlug": "anagrammi-facile-alberi-19f3"
+  },
+  {
+   "mode": "easy",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "anagrammi-facile-verdure-47c8"
+  },
+  {
+   "mode": "normal",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "anagrammi-normale-verdure-5b20"
+  },
+  {
+   "mode": "normal",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "anagrammi-normale-veicoli-e1a9"
+  },
+  {
+   "mode": "easy",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "anagrammi-facile-veicoli-c5ab"
+  },
+  {
+   "mode": "normal",
+   "theme": "weather",
+   "canonicalDeckSlug": "anagrammi-normale-meteo-495a"
+  },
+  {
+   "mode": "easy",
+   "theme": "weather",
+   "canonicalDeckSlug": "anagrammi-facile-meteo-b230"
+  },
+  {
+   "mode": "normal",
+   "theme": "winter",
+   "canonicalDeckSlug": "anagrammi-normale-inverno-585e"
+  },
+  {
+   "mode": "easy",
+   "theme": "winter",
+   "canonicalDeckSlug": "anagrammi-facile-inverno-ac64"
+  },
+  {
+   "mode": "easy",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "anagrammi-facile-animali-dello-zoo-311f"
+  },
+  {
+   "mode": "normal",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "anagrammi-normale-animali-dello-zoo-7fa7"
+  }
+ ]
+}

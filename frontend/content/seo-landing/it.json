@@ -89436,6 +89436,2341 @@
           "href": "ordina-immagini-activities-vs-around-the-house-0d17"
         }
       ]
+    },
+    {
+      "slug": "conteggio-grafico-accessori-0385",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "accessories",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Accessori – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Sciarpa",
+        "Fascia per capelli",
+        "Occhiali da sole",
+        "Paraorecchie",
+        "Anello",
+        "Nastro",
+        "Accessori",
+        "Classe prima"
+      ],
+      "p1": "Quante sciarpe ci sono in questa scheda a tema Accessori? È proprio questa la domanda da cui parte tuo figlio. Prima raggruppa le immagini uguali, poi conta una per una e colora una casella nella colonna giusta. Mentre la colonna delle sciarpe cresce accanto a quella delle fasce per capelli, il bambino legge il diagramma con un solo sguardo e capisce quale gruppo ne ha di più. È il primo passo per organizzare i dati: classificare, contare e confrontare le quantità entro il 10, con calma e senza fretta.",
+      "p2": "In questa scheda tuo figlio conta 3 sciarpe, 2 fasce per capelli, 5 occhiali da sole, 3 paraorecchie, 4 anelli e 3 nastri. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "La scheda a tema Accessori si può stampare in PDF per lavorare sulla carta, oppure si può fare direttamente sullo schermo – sempre gratis e senza registrarsi. Non ci sono cronometri né punteggi: tuo figlio decide il proprio ritmo, senza vergogna se sbaglia a contare, perché ricontare una colonna – guardare ancora una volta la colonna degli occhiali da sole, per esempio – fa parte dell'imparare. L'attività si collega alle Indicazioni nazionali e all'ambito Relazioni, dati e previsioni della matematica, e va benissimo per la classe prima, intorno ai 6 anni. Come passo successivo potete contare di nuovo le sciarpe e confrontare le colonne.",
+      "canonicalDeckSlug": "conteggio-grafico-accessori-0385",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante sciarpe ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante fasce per capelli ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti occhiali da sole ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante paraorecchie ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti anelli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti nastri ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-animali-9424",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "animals",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Animali – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Picchio",
+        "Coniglio",
+        "Pinguino",
+        "Volpe",
+        "Delfino",
+        "Leopardo",
+        "Animali",
+        "Classe prima"
+      ],
+      "p1": "Sul tavolo del tema Animali sono sparse tante figurine: picchi, conigli e pinguini mescolate insieme. Il compito di tuo figlio è mettere ordine – picchi con picchi, conigli con conigli – e contare quante ce ne sono di ogni tipo. Per ogni immagine colora una casella, e poco alla volta nasce un pittogramma con una colonna per categoria. Quando il diagramma è completo, basta guardarlo per vedere quale gruppo è il più numeroso. Così il bambino allena conteggio e classificazione in modo concreto, con i suoi tempi tranquilli.",
+      "p2": "Qui tuo figlio conta 2 picchi, 2 conigli, 5 pinguini, 4 volpi, 3 delfini e 4 leopardi. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Puoi scaricare il PDF a tema Animali per stamparlo, oppure fare la versione interattiva online – gratis e senza account. Niente orologio e niente punti: ogni bambino procede con i suoi tempi, con calore e senza pressione. L'attività si collega alle Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, intorno ai 6 anni. Quando tuo figlio ha finito di contare i picchi e i conigli, è bello confrontare le colonne e vedere se quella dei pinguini è la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-animali-9424",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti picchi ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti conigli ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti pinguini ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante volpi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti delfini ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti leopardi ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-in-giro-per-casa-17fb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "around_the_house",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: In giro per casa – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Scale",
+        "Forno",
+        "Rubinetto",
+        "Tubo",
+        "Lampada da terra",
+        "Tappeto",
+        "In giro per casa",
+        "Classe prima"
+      ],
+      "p1": "Classificare per categoria, contare e confrontare: sono le tre abilità che questa scheda a tema In giro per casa allena insieme. Tuo figlio osserva le scale e i forni, mette da parte quelle uguali, conta ogni gruppo e colora le caselle finché ogni colonna si alza. Anche i rubinetti trovano la loro colonna nel diagramma. Alla fine il bambino vede subito quale categoria ne ha di più e quale di meno, tutto nell'ambito dei numeri entro il 10 e senza nessuna fretta.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 3 scale, 2 forni, 5 rubinetti, 1 tubo, 4 lampade da terra e 5 tappeti. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Tutto gratis: stampa la scheda a tema In giro per casa per lavorare sulla carta, oppure falla online senza bisogno di registrarti. Non ci sono cronometri né punteggi; rivedere e ricontare le scale è anch'esso un modo di imparare. La scheda si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va bene per i bambini della classe prima, intorno ai 6 anni. Il passo successivo è confrontare quale categoria ha più immagini – forse sono i rubinetti?",
+      "canonicalDeckSlug": "conteggio-grafico-in-giro-per-casa-17fb",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante scale ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti forni ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti rubinetti ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti tubi ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante lampade da terra ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti tappeti ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-al-supermercato-aeeb",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "at_the_supermarket",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Al supermercato – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Torta",
+        "Carrello",
+        "Aglio",
+        "Zucca",
+        "Gelato",
+        "Pesce",
+        "Al supermercato",
+        "Classe prima"
+      ],
+      "p1": "Vieni a contare con tuo figlio in questa scheda a tema Al supermercato! Insieme guardate le immagini, raccogliete le torte da una parte e i carrelli dall'altra, e contate quante ce ne sono di ciascun tipo. Per ogni figurina si colora una casella nella colonna giusta, così il pittogramma cresce riga dopo riga. Quando anche gli agli hanno la loro colonna, confrontate insieme le altezze e scoprite il gruppo più numeroso. Un modo concreto e sereno per ordinare i dati e contare entro il 10.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 3 torte, 5 carrelli, 4 agli, 2 zucche, 1 gelato e 5 pesci. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Questo diagramma a tema Al supermercato è gratis, da stampare in PDF o da fare online, senza registrazione. Niente orologi e niente punti: tuo figlio sceglie il proprio ritmo, con un tono gentile. La scheda si collega alle Indicazioni nazionali, nell'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Alla fine potete confrontare le colonne delle torte e dei carrelli – e vedere se quella dei carrelli è la più alta – consolidando insieme la lettura del pittogramma.",
+      "canonicalDeckSlug": "conteggio-grafico-al-supermercato-aeeb",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante torte ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti carrelli ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti agli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante zucche ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti gelati ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti pesci ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-panetteria-1d9b",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "bakery",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Panetteria – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Rotolo alla cannella",
+        "Torta",
+        "Cupcake",
+        "Waffle",
+        "Muffin",
+        "Bagel",
+        "Panetteria",
+        "Classe prima"
+      ],
+      "p1": "Immagina di dover mettere ordine in un mucchio di immagini a tema Panetteria: rotoli alla cannella, torte, cupcake tutte insieme. È quello che fa tuo figlio in questa scheda. Prima divide le figurine per tipo, poi conta ogni gruppo e colora una casella per ciascuna immagine, finché ogni colonna del diagramma è completa. Vedere i rotoli alla cannella e le torte affiancate aiuta il bambino a confrontare le quantità con un colpo d'occhio. Si lavora con calma, entro il 10, senza orologi e senza punteggi.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 1 rotolo alla cannella, 2 torte, 5 cupcake, 5 waffle, 5 muffin e 2 bagel. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "A casa puoi stampare la scheda a tema Panetteria in PDF, oppure aprirla online: in ogni caso è gratuita e non serve registrarsi. Senza cronometri e senza voti, tuo figlio conta con calma e, se vuole, ricontrolla la colonna dei rotoli alla cannella. La scheda è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Dopo, potete cercare in casa altri oggetti come le torte e provare a contarli allo stesso modo.",
+      "canonicalDeckSlug": "conteggio-grafico-panetteria-1d9b",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti rotoli alla cannella ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante torte ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti cupcake ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti waffle ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti muffin ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti bagel ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-spiaggia-297d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "beach",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Spiaggia – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Sedia",
+        "Torretta del bagnino",
+        "Secchiello",
+        "Bagnino",
+        "Cappello da sole",
+        "Medusa",
+        "Spiaggia",
+        "Classe prima"
+      ],
+      "p1": "Le sedie, torrette del bagnino e secchielli: in questa scheda a tema Spiaggia le immagini vanno prima raggruppate per tipo e poi contate. Tuo figlio mette insieme quelle uguali, conta quante ce ne sono in ogni gruppo e colora una casella per ognuna, costruendo casella dopo casella un pittogramma. Quando le colonne sono pronte, il bambino legge il diagramma e capisce quale categoria è la più numerosa. È un primo, concreto incontro con l'organizzazione dei dati, sempre entro i numeri fino al 10.",
+      "p2": "In questa attività tuo figlio conta 2 sedie, 5 torrette del bagnino, 3 secchielli, 5 bagnini, 3 cappelli da sole e 2 meduse. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Sedetevi vicini: stampate la scheda a tema Spiaggia oppure fatela online, è gratis e senza account. Niente orologio, niente punteggio, solo il piacere di contare insieme le sedie e le torrette del bagnino. L'attività richiama le Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, verso i 6 anni. Come continuazione, chiedi a tuo figlio quale colonna è la più alta – se sono le torrette del bagnino – e perché.",
+      "canonicalDeckSlug": "conteggio-grafico-spiaggia-297d",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante sedie ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante torrette del bagnino ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti secchielli ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti bagnini ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti cappelli da sole ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante meduse ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-uccelli-bc37",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Uccelli – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Aquila",
+        "Struzzo",
+        "Gufo",
+        "Pellicano",
+        "Bucero",
+        "Pappagallo",
+        "Uccelli",
+        "Classe prima"
+      ],
+      "p1": "Nessuna fretta e nessun voto: questa scheda a tema Uccelli è solo un modo tranquillo per imparare a contare e a ordinare i dati. Tuo figlio raggruppa le aquile con le aquile, gli struzzi con gli struzzi, conta ogni gruppo e colora una casella per immagine nella colonna giusta. Mano a mano cresce un diagramma in cui anche i gufi hanno il loro posto. Se ricontare una colonna serve, va benissimo: si guarda di nuovo con calma. Tutto resta entro il 10, ben gestibile per un bambino di prima.",
+      "p2": "In questa scheda tuo figlio conta 4 aquile, 3 struzzi, 1 gufo, 4 pellicani, 5 buceri e 3 pappagalli. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "Quando ti serve, hai la scheda a tema Uccelli pronta da stampare in PDF o da usare online, sempre gratis e senza registrazione. Non c'è alcun timer e nessun punteggio: ricontare le aquile con calma è soltanto un altro modo di imparare. La scheda si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è adatta alla classe prima, intorno ai 6 anni. Poi potete confrontare le colonne e scoprire se i buceri sono davvero il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-uccelli-bc37",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante aquile ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti struzzi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti gufi ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti pellicani ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti buceri ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti pappagalli ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-uccelli-2-7135",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "birds_2",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Uccelli 2 – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Picchio",
+        "Fringuello",
+        "Martin pescatore",
+        "Tacchino",
+        "Fenicottero",
+        "Rondine",
+        "Uccelli 2",
+        "Classe prima"
+      ],
+      "p1": "Hai mai provato a contare quante figurine ci sono di ogni tipo? In questa scheda a tema Uccelli 2 tuo figlio fa proprio questo: separa i picchi dai fringuelli, conta ogni gruppo e colora le caselle finché il pittogramma è pieno. I martin pescatori occupano la loro colonna accanto alle altre, e così il diagramma mostra a colpo d'occhio quale categoria vince per numero. Il bambino indica ogni immagine mentre conta, senza saltarne nessuna, con tutto il tempo che gli serve e senza pressione.",
+      "p2": "Qui tuo figlio conta 2 picchi, 5 fringuelli, 1 martin pescatore, 4 tacchini, 3 fenicotteri e 5 rondini. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Come passo successivo, dopo aver contato i picchi e i fringuelli, tuo figlio può confrontare tutte le colonne del diagramma a tema Uccelli 2. La scheda è gratuita: si stampa in PDF o si usa online senza account. Nessun cronometro e nessun voto accompagnano il lavoro, così il bambino procede sereno. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, verso i 6 anni. La domanda finale è semplice: la colonna dei fringuelli è la più alta?",
+      "canonicalDeckSlug": "conteggio-grafico-uccelli-2-7135",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti picchi ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti fringuelli ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti martin pescatori ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti tacchini ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti fenicotteri ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante rondini ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-colazione-decf",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "breakfast",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Colazione – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Frullato",
+        "Lampone",
+        "Toast",
+        "Bagel",
+        "Uva",
+        "Salsiccia",
+        "Colazione",
+        "Classe prima"
+      ],
+      "p1": "Si comincia osservando: in questa scheda a tema Colazione tuo figlio guarda le immagini e decide quali vanno insieme. I frullati formano un gruppo, i lamponi un altro, e così via. Poi conta quante ce ne sono di ciascuno e colora una casella per ogni figurina, riempiendo le colonne del diagramma. Quando anche i toast sono al loro posto, il pittogramma si legge in un attimo e svela il gruppo più numeroso. Conteggio e classificazione si allenano qui in modo concreto, entro il 10.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 1 frullato, 5 lamponi, 4 toast, 3 bagel, 2 uva e 5 salsicce. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Sbagliare a contare non è un problema: in questa scheda a tema Colazione si può sempre ricontare la colonna dei frullati con tutta la calma necessaria, perché non ci sono orologi né punteggi. La scheda è gratis, da stampare in PDF o da fare online senza registrarsi. Si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Per continuare, confrontate i lamponi con le altre categorie e cercate il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-colazione-decf",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti frullati ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti lamponi ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti toast ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti bagel ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante uva ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante salsicce ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-campeggio-46d6",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "camping",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Campeggio – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Hot Dog",
+        "Falò",
+        "Zaino",
+        "Camper",
+        "Bollitore",
+        "Tenda",
+        "Campeggio",
+        "Classe prima"
+      ],
+      "p1": "A che cosa serve questa scheda a tema Campeggio? A insegnare a tuo figlio a raccogliere i dati e a leggerli. Il bambino classifica le immagini – hot dog, falò, zaini – le conta gruppo per gruppo e colora una casella per ognuna, finché ogni colonna del diagramma è completa. Confrontando l'altezza della colonna dei hot dog con quella dei falò, capisce subito quale categoria ne ha di più. È un esercizio sereno e concreto, sempre nell'ambito dei numeri entro il 10 e senza nessun cronometro.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 3 hot dog, 1 falò, 3 zaini, 3 camper, 5 bollitori e 5 tende. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Il PDF a tema Campeggio si stampa in un attimo per lavorare sul quaderno, ma puoi anche usare la versione online: entrambe sono gratuite e senza account. Tuo figlio conta a modo suo, senza timer e senza voti, e se vuole ricontrolla quante sono i hot dog. La scheda richiama le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Poi confrontate le colonne dei falò e delle altre categorie per trovare la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-campeggio-46d6",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti hot dog ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti falò ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti zaini ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti camper ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti bollitori ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante tende ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-natale-8c68",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "christmas",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Natale – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Babbo Natale",
+        "Vischio",
+        "Pupazzo di neve",
+        "Slitta",
+        "Bastoncino di zucchero",
+        "Angelo",
+        "Natale",
+        "Classe prima"
+      ],
+      "p1": "Guarda bene le immagini della scheda a tema Natale: alcune sono uguali, altre diverse. Tuo figlio le ordina per tipo, raccoglie i Babbo Natale insieme e i vischi a parte, e conta quante ce ne sono in ogni gruppo. Poi colora una casella per ciascuna figurina, e così cresce un pittogramma con una colonna per categoria. Anche i pupazzi di neve avranno la loro. Alla fine il bambino confronta le quantità con un solo sguardo, lavorando con calma entro il 10 e senza punteggi da inseguire.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 5 Babbo Natale, 3 vischi, 5 pupazzi di neve, 3 slitte, 3 bastoncini di zucchero e 1 angelo. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "Quale gruppo avrà vinto, i Babbo Natale o un altro? Dopo aver completato il diagramma a tema Natale, tuo figlio confronta le colonne e lo scopre. La scheda è gratuita, da stampare in PDF o da fare online senza registrazione, e senza alcun cronometro o punteggio. Si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è pensata per la classe prima, verso i 6 anni. Come gioco in più, provate a contare di nuovo i Babbo Natale e i vischi a voce alta.",
+      "canonicalDeckSlug": "conteggio-grafico-natale-8c68",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti Babbo Natale ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti vischi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti pupazzi di neve ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante slitte ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti bastoncini di zucchero ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti angeli ci sono?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-aula-7705",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "classroom",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Aula – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Forbici",
+        "Portapranzo",
+        "Gomma",
+        "Insegnante",
+        "Orologio",
+        "Studente",
+        "Aula",
+        "Classe prima"
+      ],
+      "p1": "Contare può diventare un piccolo gioco: in questa scheda a tema Aula tuo figlio cerca tutte le forbici, poi tutte i portapranzo, le raggruppa e le conta. Per ogni immagine colora una casella nella colonna giusta, e il diagramma si riempie pian piano, comprese le colonne delle gomme. Quando tutto è completo, il bambino guarda quale colonna è la più alta e scopre la categoria più numerosa. Un modo concreto e divertente per classificare, contare e confrontare entro il 10, con i propri tempi.",
+      "p2": "In questa attività tuo figlio conta 1 forbici, 2 portapranzo, 3 gomme, 5 insegnanti, 4 orologi e 5 studenti. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Con i suoi tempi e in tutta serenità, tuo figlio porta a termine la scheda a tema Aula, che puoi stampare in PDF o aprire online gratis e senza account. Niente orologio e niente stelline: contare le forbici e i portapranzo resta un piacere tranquillo. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Alla fine, confrontate insieme le colonne e guardate se sono gli insegnanti la categoria più numerosa.",
+      "canonicalDeckSlug": "conteggio-grafico-aula-7705",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante forbici ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti portapranzo ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante gomme ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti insegnanti ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti orologi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti studenti ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-abbigliamento-59b2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "clothing",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Abbigliamento – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cardigan",
+        "Salopette",
+        "Felpa",
+        "Impermeabile",
+        "Camicetta",
+        "Pantaloni della tuta",
+        "Abbigliamento",
+        "Classe prima"
+      ],
+      "p1": "Quante cardigan ci sono in questa scheda a tema Abbigliamento? È proprio questa la domanda da cui parte tuo figlio. Prima raggruppa le immagini uguali, poi conta una per una e colora una casella nella colonna giusta. Mentre la colonna dei cardigan cresce accanto a quella delle salopette, il bambino legge il diagramma con un solo sguardo e capisce quale gruppo ne ha di più. È il primo passo per organizzare i dati: classificare, contare e confrontare le quantità entro il 10, con calma e senza fretta.",
+      "p2": "In questa scheda tuo figlio conta 2 cardigan, 4 salopette, 3 felpe, 4 impermeabili, 3 camicette e 4 pantaloni della tuta. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "La scheda a tema Abbigliamento si può stampare in PDF per lavorare sulla carta, oppure si può fare direttamente sullo schermo – sempre gratis e senza registrarsi. Non ci sono cronometri né punteggi: tuo figlio decide il proprio ritmo, senza vergogna se sbaglia a contare, perché ricontare una colonna – guardare ancora una volta la colonna delle salopette, per esempio – fa parte dell'imparare. L'attività si collega alle Indicazioni nazionali e all'ambito Relazioni, dati e previsioni della matematica, e va benissimo per la classe prima, intorno ai 6 anni. Come passo successivo potete contare di nuovo i cardigan e confrontare le colonne.",
+      "canonicalDeckSlug": "conteggio-grafico-abbigliamento-59b2",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti cardigan ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante salopette ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante felpe ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti impermeabili ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante camicette ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti pantaloni della tuta ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-colori-b41d",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "colors",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Colori – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Corallo",
+        "Beige",
+        "Arancia",
+        "Bianco",
+        "Marrone",
+        "Lime",
+        "Colori",
+        "Classe prima"
+      ],
+      "p1": "Sul tavolo del tema Colori sono sparse tante figurine: corallo, beige e arance mescolate insieme. Il compito di tuo figlio è mettere ordine – corallo con corallo, beige con beige – e contare quante ce ne sono di ogni tipo. Per ogni immagine colora una casella, e poco alla volta nasce un pittogramma con una colonna per categoria. Quando il diagramma è completo, basta guardarlo per vedere quale gruppo è il più numeroso. Così il bambino allena conteggio e classificazione in modo concreto, con i suoi tempi tranquilli.",
+      "p2": "Qui tuo figlio conta 3 corallo, 4 beige, 1 arancia, 2 bianco, 5 marrone e 5 lime. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Puoi scaricare il PDF a tema Colori per stamparlo, oppure fare la versione interattiva online – gratis e senza account. Niente orologio e niente punti: ogni bambino procede con i suoi tempi, con calore e senza pressione. L'attività si collega alle Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, intorno ai 6 anni. Quando tuo figlio ha finito di contare i corallo e i beige, è bello confrontare le colonne e vedere se quella dei marrone è la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-colori-b41d",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti corallo ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti beige ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante arance ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti bianco ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti marrone ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti lime ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-dolci-e-dolciumi-f377",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "desserts_and_sweets",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Dolci e dolciumi – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Ghiacciolo",
+        "Bastoncino di zucchero",
+        "Ciambella",
+        "Waffle",
+        "Biscotto",
+        "Brownie",
+        "Dolci e dolciumi",
+        "Classe prima"
+      ],
+      "p1": "Classificare per categoria, contare e confrontare: sono le tre abilità che questa scheda a tema Dolci e dolciumi allena insieme. Tuo figlio osserva i ghiaccioli e i bastoncini di zucchero, mette da parte quelle uguali, conta ogni gruppo e colora le caselle finché ogni colonna si alza. Anche le ciambelle trovano la loro colonna nel diagramma. Alla fine il bambino vede subito quale categoria ne ha di più e quale di meno, tutto nell'ambito dei numeri entro il 10 e senza nessuna fretta.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 4 ghiaccioli, 4 bastoncini di zucchero, 4 ciambelle, 4 waffle, 2 biscotti e 2 brownie. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Tutto gratis: stampa la scheda a tema Dolci e dolciumi per lavorare sulla carta, oppure falla online senza bisogno di registrarti. Non ci sono cronometri né punteggi; rivedere e ricontare i ghiaccioli è anch'esso un modo di imparare. La scheda si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va bene per i bambini della classe prima, intorno ai 6 anni. Il passo successivo è confrontare quale categoria ha più immagini – forse sono i ghiaccioli?",
+      "canonicalDeckSlug": "conteggio-grafico-dolci-e-dolciumi-f377",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti ghiaccioli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti bastoncini di zucchero ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante ciambelle ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti waffle ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti biscotti ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti brownie ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-dinosauri-80c5",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "dinosaurs",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Dinosauri – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Plesiosauro",
+        "Argentinosauro",
+        "Anchilosauro",
+        "Terizinosauro",
+        "Apatosauro",
+        "Mosasauro",
+        "Dinosauri",
+        "Classe prima"
+      ],
+      "p1": "Vieni a contare con tuo figlio in questa scheda a tema Dinosauri! Insieme guardate le immagini, raccogliete i plesiosauri da una parte e gli argentinosauri dall'altra, e contate quante ce ne sono di ciascun tipo. Per ogni figurina si colora una casella nella colonna giusta, così il pittogramma cresce riga dopo riga. Quando anche gli anchilosauri hanno la loro colonna, confrontate insieme le altezze e scoprite il gruppo più numeroso. Un modo concreto e sereno per ordinare i dati e contare entro il 10.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 5 plesiosauri, 4 argentinosauri, 1 anchilosauro, 3 terizinosauri, 5 apatosauri e 2 mosasauri. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Questo diagramma a tema Dinosauri è gratis, da stampare in PDF o da fare online, senza registrazione. Niente orologi e niente punti: tuo figlio sceglie il proprio ritmo, con un tono gentile. La scheda si collega alle Indicazioni nazionali, nell'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Alla fine potete confrontare le colonne dei plesiosauri e degli argentinosauri – e vedere se quella dei plesiosauri è la più alta – consolidando insieme la lettura del pittogramma.",
+      "canonicalDeckSlug": "conteggio-grafico-dinosauri-80c5",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti plesiosauri ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti argentinosauri ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti anchilosauri ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti terizinosauri ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti apatosauri ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti mosasauri ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-pasqua-c460",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "easter",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Pasqua – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cestino",
+        "Giglio",
+        "Piuma",
+        "Croce",
+        "Cioccolato",
+        "Farfalla",
+        "Pasqua",
+        "Classe prima"
+      ],
+      "p1": "Immagina di dover mettere ordine in un mucchio di immagini a tema Pasqua: cestini, gigli, piume tutte insieme. È quello che fa tuo figlio in questa scheda. Prima divide le figurine per tipo, poi conta ogni gruppo e colora una casella per ciascuna immagine, finché ogni colonna del diagramma è completa. Vedere i cestini e i gigli affiancate aiuta il bambino a confrontare le quantità con un colpo d'occhio. Si lavora con calma, entro il 10, senza orologi e senza punteggi.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 5 cestini, 4 gigli, 1 piuma, 5 croci, 1 cioccolato e 4 farfalle. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "A casa puoi stampare la scheda a tema Pasqua in PDF, oppure aprirla online: in ogni caso è gratuita e non serve registrarsi. Senza cronometri e senza voti, tuo figlio conta con calma e, se vuole, ricontrolla la colonna dei cestini. La scheda è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Dopo, potete cercare in casa altri oggetti come i gigli e provare a contarli allo stesso modo.",
+      "canonicalDeckSlug": "conteggio-grafico-pasqua-c460",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti cestini ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti gigli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante piume ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante croci ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti cioccolato ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante farfalle ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-fiori-c74c",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "flowers",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Fiori – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Trillium",
+        "Flox",
+        "Peonia",
+        "Violetto",
+        "Azalea",
+        "Zinnia",
+        "Fiori",
+        "Classe prima"
+      ],
+      "p1": "I trillium, flox e peonie: in questa scheda a tema Fiori le immagini vanno prima raggruppate per tipo e poi contate. Tuo figlio mette insieme quelle uguali, conta quante ce ne sono in ogni gruppo e colora una casella per ognuna, costruendo casella dopo casella un pittogramma. Quando le colonne sono pronte, il bambino legge il diagramma e capisce quale categoria è la più numerosa. È un primo, concreto incontro con l'organizzazione dei dati, sempre entro i numeri fino al 10.",
+      "p2": "In questa attività tuo figlio conta 4 trillium, 1 flox, 5 peonie, 4 violetti, 1 azalea e 5 zinnie. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Sedetevi vicini: stampate la scheda a tema Fiori oppure fatela online, è gratis e senza account. Niente orologio, niente punteggio, solo il piacere di contare insieme i trillium e i flox. L'attività richiama le Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, verso i 6 anni. Come continuazione, chiedi a tuo figlio quale colonna è la più alta – se sono le peonie – e perché.",
+      "canonicalDeckSlug": "conteggio-grafico-fiori-c74c",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti trillium ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti flox ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante peonie ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti violetti ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante azalee ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante zinnie ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-creature-della-foresta-a316",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "forest_creatures",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Creature della foresta – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Tacchino",
+        "Picchio",
+        "Cardinale",
+        "Ape",
+        "Topo",
+        "Donnola",
+        "Creature della foresta",
+        "Classe prima"
+      ],
+      "p1": "Nessuna fretta e nessun voto: questa scheda a tema Creature della foresta è solo un modo tranquillo per imparare a contare e a ordinare i dati. Tuo figlio raggruppa i tacchini con i tacchini, i picchi con i picchi, conta ogni gruppo e colora una casella per immagine nella colonna giusta. Mano a mano cresce un diagramma in cui anche i cardinali hanno il loro posto. Se ricontare una colonna serve, va benissimo: si guarda di nuovo con calma. Tutto resta entro il 10, ben gestibile per un bambino di prima.",
+      "p2": "In questa scheda tuo figlio conta 3 tacchini, 5 picchi, 2 cardinali, 4 api, 3 topi e 3 donnole. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "Quando ti serve, hai la scheda a tema Creature della foresta pronta da stampare in PDF o da usare online, sempre gratis e senza registrazione. Non c'è alcun timer e nessun punteggio: ricontare i tacchini con calma è soltanto un altro modo di imparare. La scheda si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è adatta alla classe prima, intorno ai 6 anni. Poi potete confrontare le colonne e scoprire se i picchi sono davvero il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-creature-della-foresta-a316",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti tacchini ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti picchi ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti cardinali ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante api ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti topi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante donnole ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-frutta-1809",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "fruits",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Frutta – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Avocado",
+        "Melagrana",
+        "Mora",
+        "Limone",
+        "Mirtillo rosso",
+        "Arancia",
+        "Frutta",
+        "Classe prima"
+      ],
+      "p1": "Hai mai provato a contare quante figurine ci sono di ogni tipo? In questa scheda a tema Frutta tuo figlio fa proprio questo: separa gli avocado dalle melagrane, conta ogni gruppo e colora le caselle finché il pittogramma è pieno. Le more occupano la loro colonna accanto alle altre, e così il diagramma mostra a colpo d'occhio quale categoria vince per numero. Il bambino indica ogni immagine mentre conta, senza saltarne nessuna, con tutto il tempo che gli serve e senza pressione.",
+      "p2": "Qui tuo figlio conta 3 avocado, 3 melagrane, 4 more, 2 limoni, 4 mirtilli rossi e 4 arance. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Come passo successivo, dopo aver contato gli avocado e le melagrane, tuo figlio può confrontare tutte le colonne del diagramma a tema Frutta. La scheda è gratuita: si stampa in PDF o si usa online senza account. Nessun cronometro e nessun voto accompagnano il lavoro, così il bambino procede sereno. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, verso i 6 anni. La domanda finale è semplice: la colonna delle more è la più alta?",
+      "canonicalDeckSlug": "conteggio-grafico-frutta-1809",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti avocado ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante melagrane ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante more ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti limoni ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti mirtilli rossi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante arance ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-mobili-65c2",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "furniture",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Mobili – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Libreria",
+        "Divano",
+        "Lampada",
+        "Tappeto",
+        "Sedia",
+        "Pouf",
+        "Mobili",
+        "Classe prima"
+      ],
+      "p1": "Si comincia osservando: in questa scheda a tema Mobili tuo figlio guarda le immagini e decide quali vanno insieme. Le librerie formano un gruppo, i divani un altro, e così via. Poi conta quante ce ne sono di ciascuno e colora una casella per ogni figurina, riempiendo le colonne del diagramma. Quando anche le lampade sono al loro posto, il pittogramma si legge in un attimo e svela il gruppo più numeroso. Conteggio e classificazione si allenano qui in modo concreto, entro il 10.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 3 librerie, 5 divani, 4 lampade, 4 tappeti, 3 sedie e 1 pouf. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Sbagliare a contare non è un problema: in questa scheda a tema Mobili si può sempre ricontare la colonna delle librerie con tutta la calma necessaria, perché non ci sono orologi né punteggi. La scheda è gratis, da stampare in PDF o da fare online senza registrarsi. Si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Per continuare, confrontate i divani con le altre categorie e cercate il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-mobili-65c2",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante librerie ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti divani ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante lampade ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti tappeti ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante sedie ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti pouf ci sono?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-ospedale-6f81",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "hospital",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Ospedale – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Gesso",
+        "Infermiera",
+        "Stetoscopio",
+        "Medicina",
+        "Barella",
+        "Ospedale",
+        "Classe prima"
+      ],
+      "p1": "A che cosa serve questa scheda a tema Ospedale? A insegnare a tuo figlio a raccogliere i dati e a leggerli. Il bambino classifica le immagini – gessi, infermiere, stetoscopi – le conta gruppo per gruppo e colora una casella per ognuna, finché ogni colonna del diagramma è completa. Confrontando l'altezza della colonna dei gessi con quella delle infermiere, capisce subito quale categoria ne ha di più. È un esercizio sereno e concreto, sempre nell'ambito dei numeri entro il 10 e senza nessun cronometro.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 2 gessi, 3 infermiere, 4 stetoscopi, 3 medicine e 5 barelle. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Il PDF a tema Ospedale si stampa in un attimo per lavorare sul quaderno, ma puoi anche usare la versione online: entrambe sono gratuite e senza account. Tuo figlio conta a modo suo, senza timer e senza voti, e se vuole ricontrolla quante sono i gessi. La scheda richiama le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Poi confrontate le colonne delle infermiere e delle altre categorie per trovare la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-ospedale-6f81",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti gessi ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante infermiere ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti stetoscopi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante medicine ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante barelle ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-insetti-e-scarafaggi-33ec",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "insects_and_bugs",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Insetti e scarafaggi – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Libellula",
+        "Ape",
+        "Zanzara",
+        "Centopiedi",
+        "Vespa",
+        "Farfalla",
+        "Insetti e scarafaggi",
+        "Classe prima"
+      ],
+      "p1": "Guarda bene le immagini della scheda a tema Insetti e scarafaggi: alcune sono uguali, altre diverse. Tuo figlio le ordina per tipo, raccoglie le libellule insieme e le api a parte, e conta quante ce ne sono in ogni gruppo. Poi colora una casella per ciascuna figurina, e così cresce un pittogramma con una colonna per categoria. Anche le zanzare avranno la loro. Alla fine il bambino confronta le quantità con un solo sguardo, lavorando con calma entro il 10 e senza punteggi da inseguire.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 1 libellula, 5 api, 3 zanzare, 4 centopiedi, 3 vespe e 4 farfalle. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "Quale gruppo avrà vinto, le api o un altro? Dopo aver completato il diagramma a tema Insetti e scarafaggi, tuo figlio confronta le colonne e lo scopre. La scheda è gratuita, da stampare in PDF o da fare online senza registrazione, e senza alcun cronometro o punteggio. Si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è pensata per la classe prima, verso i 6 anni. Come gioco in più, provate a contare di nuovo le libellule e le api a voce alta.",
+      "canonicalDeckSlug": "conteggio-grafico-insetti-e-scarafaggi-33ec",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante libellule ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante api ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante zanzare ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti centopiedi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante vespe ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante farfalle ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-utensili-da-cucina-c531",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "kitchen_tools",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Utensili da cucina – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Bollitore",
+        "Bilancia da cucina",
+        "Misurino",
+        "Timer",
+        "Saliera",
+        "Padella",
+        "Utensili da cucina",
+        "Classe prima"
+      ],
+      "p1": "Contare può diventare un piccolo gioco: in questa scheda a tema Utensili da cucina tuo figlio cerca tutte i bollitori, poi tutte le bilance da cucina, le raggruppa e le conta. Per ogni immagine colora una casella nella colonna giusta, e il diagramma si riempie pian piano, comprese le colonne dei misurini. Quando tutto è completo, il bambino guarda quale colonna è la più alta e scopre la categoria più numerosa. Un modo concreto e divertente per classificare, contare e confrontare entro il 10, con i propri tempi.",
+      "p2": "In questa attività tuo figlio conta 4 bollitori, 2 bilance da cucina, 3 misurini, 5 timer, 3 saliere e 3 padelle. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Con i suoi tempi e in tutta serenità, tuo figlio porta a termine la scheda a tema Utensili da cucina, che puoi stampare in PDF o aprire online gratis e senza account. Niente orologio e niente stelline: contare i bollitori e le bilance da cucina resta un piacere tranquillo. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Alla fine, confrontate insieme le colonne e guardate se sono i timer la categoria più numerosa.",
+      "canonicalDeckSlug": "conteggio-grafico-utensili-da-cucina-c531",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti bollitori ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante bilance da cucina ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti misurini ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti timer ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante saliere ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante padelle ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-musica-4251",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "music",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Musica – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Piatto",
+        "Arpa",
+        "Trombone",
+        "Palcoscenico",
+        "Chitarra",
+        "Violino",
+        "Musica",
+        "Classe prima"
+      ],
+      "p1": "Quante piatti ci sono in questa scheda a tema Musica? È proprio questa la domanda da cui parte tuo figlio. Prima raggruppa le immagini uguali, poi conta una per una e colora una casella nella colonna giusta. Mentre la colonna dei piatti cresce accanto a quella delle arpe, il bambino legge il diagramma con un solo sguardo e capisce quale gruppo ne ha di più. È il primo passo per organizzare i dati: classificare, contare e confrontare le quantità entro il 10, con calma e senza fretta.",
+      "p2": "In questa scheda tuo figlio conta 2 piatti, 4 arpe, 4 tromboni, 2 palcoscenici, 3 chitarre e 5 violini. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "La scheda a tema Musica si può stampare in PDF per lavorare sulla carta, oppure si può fare direttamente sullo schermo – sempre gratis e senza registrarsi. Non ci sono cronometri né punteggi: tuo figlio decide il proprio ritmo, senza vergogna se sbaglia a contare, perché ricontare una colonna – guardare ancora una volta la colonna dei violini, per esempio – fa parte dell'imparare. L'attività si collega alle Indicazioni nazionali e all'ambito Relazioni, dati e previsioni della matematica, e va benissimo per la classe prima, intorno ai 6 anni. Come passo successivo potete contare di nuovo i piatti e confrontare le colonne.",
+      "canonicalDeckSlug": "conteggio-grafico-musica-4251",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti piatti ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante arpe ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti tromboni ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti palcoscenici ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante chitarre ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti violini ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-professioni-8019",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "occupations",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Professioni – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cassiere",
+        "Musicista",
+        "Vigile del fuoco",
+        "Panettiere",
+        "Assistente di volo",
+        "Giardiniere",
+        "Professioni",
+        "Classe prima"
+      ],
+      "p1": "Sul tavolo del tema Professioni sono sparse tante figurine: cassieri, musicisti e vigili del fuoco mescolate insieme. Il compito di tuo figlio è mettere ordine – cassieri con cassieri, musicisti con musicisti – e contare quante ce ne sono di ogni tipo. Per ogni immagine colora una casella, e poco alla volta nasce un pittogramma con una colonna per categoria. Quando il diagramma è completo, basta guardarlo per vedere quale gruppo è il più numeroso. Così il bambino allena conteggio e classificazione in modo concreto, con i suoi tempi tranquilli.",
+      "p2": "Qui tuo figlio conta 4 cassieri, 4 musicisti, 5 vigili del fuoco, 2 panettieri, 3 assistenti di volo e 2 giardinieri. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Puoi scaricare il PDF a tema Professioni per stamparlo, oppure fare la versione interattiva online – gratis e senza account. Niente orologio e niente punti: ogni bambino procede con i suoi tempi, con calore e senza pressione. L'attività si collega alle Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, intorno ai 6 anni. Quando tuo figlio ha finito di contare i cassieri e i musicisti, è bello confrontare le colonne e vedere se quella dei vigili del fuoco è la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-professioni-8019",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti cassieri ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti musicisti ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti vigili del fuoco ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti panettieri ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti assistenti di volo ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti giardinieri ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-vita-oceanica-8760",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "ocean_life",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Vita oceanica – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cavalluccio marino",
+        "Calamaro",
+        "Medusa",
+        "Granchio",
+        "Balena",
+        "Pesce palla",
+        "Vita oceanica",
+        "Classe prima"
+      ],
+      "p1": "Classificare per categoria, contare e confrontare: sono le tre abilità che questa scheda a tema Vita oceanica allena insieme. Tuo figlio osserva i cavallucci marini e i calamari, mette da parte quelle uguali, conta ogni gruppo e colora le caselle finché ogni colonna si alza. Anche le meduse trovano la loro colonna nel diagramma. Alla fine il bambino vede subito quale categoria ne ha di più e quale di meno, tutto nell'ambito dei numeri entro il 10 e senza nessuna fretta.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 2 cavallucci marini, 3 calamari, 5 meduse, 4 granchi, 1 balena e 5 pesci palla. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Tutto gratis: stampa la scheda a tema Vita oceanica per lavorare sulla carta, oppure falla online senza bisogno di registrarti. Non ci sono cronometri né punteggi; rivedere e ricontare i cavallucci marini è anch'esso un modo di imparare. La scheda si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va bene per i bambini della classe prima, intorno ai 6 anni. Il passo successivo è confrontare quale categoria ha più immagini – forse sono le meduse?",
+      "canonicalDeckSlug": "conteggio-grafico-vita-oceanica-8760",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti cavallucci marini ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti calamari ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante meduse ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti granchi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante balene ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti pesci palla ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-animali-domestici-e0d8",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "pets",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Animali domestici – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Coniglio",
+        "Pesce",
+        "Pappagallo",
+        "Pesce rosso",
+        "Gerbillo",
+        "Lucertola",
+        "Animali domestici",
+        "Classe prima"
+      ],
+      "p1": "Vieni a contare con tuo figlio in questa scheda a tema Animali domestici! Insieme guardate le immagini, raccogliete i conigli da una parte e i pesci dall'altra, e contate quante ce ne sono di ciascun tipo. Per ogni figurina si colora una casella nella colonna giusta, così il pittogramma cresce riga dopo riga. Quando anche i pappagalli hanno la loro colonna, confrontate insieme le altezze e scoprite il gruppo più numeroso. Un modo concreto e sereno per ordinare i dati e contare entro il 10.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 5 conigli, 3 pesci, 5 pappagalli, 2 pesci rossi, 4 gerbilli e 1 lucertola. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Questo diagramma a tema Animali domestici è gratis, da stampare in PDF o da fare online, senza registrazione. Niente orologi e niente punti: tuo figlio sceglie il proprio ritmo, con un tono gentile. La scheda si collega alle Indicazioni nazionali, nell'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Alla fine potete confrontare le colonne dei conigli e dei pesci – e vedere se quella dei conigli è la più alta – consolidando insieme la lettura del pittogramma.",
+      "canonicalDeckSlug": "conteggio-grafico-animali-domestici-e0d8",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti conigli ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti pesci ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti pappagalli ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti pesci rossi ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti gerbilli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante lucertole ci sono?",
+          "a": "1"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-ufficio-postale-4992",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "post_office",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Ufficio postale – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Bilancia",
+        "Francobollo",
+        "Pacco",
+        "Furgone postale",
+        "Ufficio postale",
+        "Postino",
+        "Ufficio postale",
+        "Classe prima"
+      ],
+      "p1": "Immagina di dover mettere ordine in un mucchio di immagini a tema Ufficio postale: bilance, francobolli, pacchi tutte insieme. È quello che fa tuo figlio in questa scheda. Prima divide le figurine per tipo, poi conta ogni gruppo e colora una casella per ciascuna immagine, finché ogni colonna del diagramma è completa. Vedere le bilance e i francobolli affiancate aiuta il bambino a confrontare le quantità con un colpo d'occhio. Si lavora con calma, entro il 10, senza orologi e senza punteggi.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 3 bilance, 5 francobolli, 5 pacchi, 1 furgone postale, 3 uffici postali e 3 postini. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "A casa puoi stampare la scheda a tema Ufficio postale in PDF, oppure aprirla online: in ogni caso è gratuita e non serve registrarsi. Senza cronometri e senza voti, tuo figlio conta con calma e, se vuole, ricontrolla la colonna delle bilance. La scheda è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Dopo, potete cercare in casa altri oggetti come i francobolli e provare a contarli allo stesso modo.",
+      "canonicalDeckSlug": "conteggio-grafico-ufficio-postale-4992",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante bilance ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti francobolli ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti pacchi ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti furgoni postali ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti uffici postali ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti postini ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-rettili-e-anfibi-cea4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "reptiles_and_amphibians",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Rettili e anfibi – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Drago di Komodo",
+        "Rana",
+        "Alligatore",
+        "Geco",
+        "Tartaruga",
+        "Salamandra",
+        "Rettili e anfibi",
+        "Classe prima"
+      ],
+      "p1": "I draghi di Komodo, rane e alligatori: in questa scheda a tema Rettili e anfibi le immagini vanno prima raggruppate per tipo e poi contate. Tuo figlio mette insieme quelle uguali, conta quante ce ne sono in ogni gruppo e colora una casella per ognuna, costruendo casella dopo casella un pittogramma. Quando le colonne sono pronte, il bambino legge il diagramma e capisce quale categoria è la più numerosa. È un primo, concreto incontro con l'organizzazione dei dati, sempre entro i numeri fino al 10.",
+      "p2": "In questa attività tuo figlio conta 4 draghi di Komodo, 5 rane, 3 alligatori, 3 gechi, 1 tartaruga e 4 salamandre. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Sedetevi vicini: stampate la scheda a tema Rettili e anfibi oppure fatela online, è gratis e senza account. Niente orologio, niente punteggio, solo il piacere di contare insieme i draghi di Komodo e le rane. L'attività richiama le Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, verso i 6 anni. Come continuazione, chiedi a tuo figlio quale colonna è la più alta – se sono le rane – e perché.",
+      "canonicalDeckSlug": "conteggio-grafico-rettili-e-anfibi-cea4",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti draghi di Komodo ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante rane ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti alligatori ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti gechi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante tartarughe ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante salamandre ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-forme-5b81",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "shapes",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Forme – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cono",
+        "Cubo",
+        "Trapezio",
+        "Cerchio",
+        "Quadrato",
+        "Rombo",
+        "Forme",
+        "Classe prima"
+      ],
+      "p1": "Nessuna fretta e nessun voto: questa scheda a tema Forme è solo un modo tranquillo per imparare a contare e a ordinare i dati. Tuo figlio raggruppa i coni con i coni, i cubi con i cubi, conta ogni gruppo e colora una casella per immagine nella colonna giusta. Mano a mano cresce un diagramma in cui anche i trapezi hanno il loro posto. Se ricontare una colonna serve, va benissimo: si guarda di nuovo con calma. Tutto resta entro il 10, ben gestibile per un bambino di prima.",
+      "p2": "In questa scheda tuo figlio conta 4 coni, 3 cubi, 5 trapezi, 1 cerchio, 5 quadrati e 2 diamanti. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "Quando ti serve, hai la scheda a tema Forme pronta da stampare in PDF o da usare online, sempre gratis e senza registrazione. Non c'è alcun timer e nessun punteggio: ricontare i coni con calma è soltanto un altro modo di imparare. La scheda si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è adatta alla classe prima, intorno ai 6 anni. Poi potete confrontare le colonne e scoprire se i trapezi sono davvero il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-forme-5b81",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti coni ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti cubi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti trapezi ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti cerchi ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti quadrati ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti diamanti ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-spazio-492e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "space",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Spazio – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Marte",
+        "Cometa",
+        "Pianeta",
+        "Nettuno",
+        "Luna",
+        "Saturno",
+        "Spazio",
+        "Classe prima"
+      ],
+      "p1": "Hai mai provato a contare quante figurine ci sono di ogni tipo? In questa scheda a tema Spazio tuo figlio fa proprio questo: separa i marte dalle comete, conta ogni gruppo e colora le caselle finché il pittogramma è pieno. I pianeti occupano la loro colonna accanto alle altre, e così il diagramma mostra a colpo d'occhio quale categoria vince per numero. Il bambino indica ogni immagine mentre conta, senza saltarne nessuna, con tutto il tempo che gli serve e senza pressione.",
+      "p2": "Qui tuo figlio conta 5 marte, 4 comete, 5 pianeti, 4 nettuno, 2 lune e 0 saturno. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Come passo successivo, dopo aver contato i marte e le comete, tuo figlio può confrontare tutte le colonne del diagramma a tema Spazio. La scheda è gratuita: si stampa in PDF o si usa online senza account. Nessun cronometro e nessun voto accompagnano il lavoro, così il bambino procede sereno. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, verso i 6 anni. La domanda finale è semplice: la colonna dei marte è la più alta?",
+      "canonicalDeckSlug": "conteggio-grafico-spazio-492e",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti marte ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante comete ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti pianeti ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti nettuno ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante lune ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti saturno ci sono?",
+          "a": "0"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-giorno-del-ringraziamento-07b4",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "thanksgivinng",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Giorno del Ringraziamento – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Raccolto",
+        "Nativo americano",
+        "Albero autunnale",
+        "Torta",
+        "Pane",
+        "Tacchino arrosto",
+        "Giorno del Ringraziamento",
+        "Classe prima"
+      ],
+      "p1": "Si comincia osservando: in questa scheda a tema Giorno del Ringraziamento tuo figlio guarda le immagini e decide quali vanno insieme. I raccolti formano un gruppo, i nativi americani un altro, e così via. Poi conta quante ce ne sono di ciascuno e colora una casella per ogni figurina, riempiendo le colonne del diagramma. Quando anche gli alberi autunnali sono al loro posto, il pittogramma si legge in un attimo e svela il gruppo più numeroso. Conteggio e classificazione si allenano qui in modo concreto, entro il 10.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 4 raccolti, 5 nativi americani, 3 alberi autunnali, 3 torte, 2 pani e 3 tacchini arrosto. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Sbagliare a contare non è un problema: in questa scheda a tema Giorno del Ringraziamento si può sempre ricontare la colonna dei raccolti con tutta la calma necessaria, perché non ci sono orologi né punteggi. La scheda è gratis, da stampare in PDF o da fare online senza registrarsi. Si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Per continuare, confrontate i nativi americani con le altre categorie e cercate il gruppo più numeroso.",
+      "canonicalDeckSlug": "conteggio-grafico-giorno-del-ringraziamento-07b4",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti raccolti ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti nativi americani ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti alberi autunnali ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante torte ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti pani ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti tacchini arrosto ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-cose-che-volano-ce5e",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "things_that_fly",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Cose che volano – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Piccione",
+        "Fenicottero",
+        "Aeroplano",
+        "Coccinella",
+        "Ape",
+        "Ghiandaia azzurra",
+        "Cose che volano",
+        "Classe prima"
+      ],
+      "p1": "A che cosa serve questa scheda a tema Cose che volano? A insegnare a tuo figlio a raccogliere i dati e a leggerli. Il bambino classifica le immagini – piccioni, fenicotteri, aeroplani – le conta gruppo per gruppo e colora una casella per ognuna, finché ogni colonna del diagramma è completa. Confrontando l'altezza della colonna dei piccioni con quella dei fenicotteri, capisce subito quale categoria ne ha di più. È un esercizio sereno e concreto, sempre nell'ambito dei numeri entro il 10 e senza nessun cronometro.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 1 piccione, 3 fenicotteri, 3 aeroplani, 4 coccinelle, 5 api e 4 ghiandaie azzurre. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Il PDF a tema Cose che volano si stampa in un attimo per lavorare sul quaderno, ma puoi anche usare la versione online: entrambe sono gratuite e senza account. Tuo figlio conta a modo suo, senza timer e senza voti, e se vuole ricontrolla quante sono i piccioni. La scheda richiama le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Poi confrontate le colonne dei fenicotteri e delle altre categorie per trovare la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-cose-che-volano-ce5e",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti piccioni ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quanti fenicotteri ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti aeroplani ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante coccinelle ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante api ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante ghiandaie azzurre ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-attrezzi-29da",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tools",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Attrezzi – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Scala",
+        "Sega a mano",
+        "Prolunga elettrica",
+        "Pistola per silicone",
+        "Torcia",
+        "Metro a nastro",
+        "Attrezzi",
+        "Classe prima"
+      ],
+      "p1": "Guarda bene le immagini della scheda a tema Attrezzi: alcune sono uguali, altre diverse. Tuo figlio le ordina per tipo, raccoglie le scale insieme e le seghe a mano a parte, e conta quante ce ne sono in ogni gruppo. Poi colora una casella per ciascuna figurina, e così cresce un pittogramma con una colonna per categoria. Anche le prolunghe elettriche avranno la loro. Alla fine il bambino confronta le quantità con un solo sguardo, lavorando con calma entro il 10 e senza punteggi da inseguire.",
+      "p2": "Il compito di conteggio è chiaro: tuo figlio conta 1 scala, 4 seghe a mano, 2 prolunghe elettriche, 3 pistole per silicone, 5 torce e 5 metri a nastro. Ogni categoria riempie la propria colonna del pittogramma, perciò appena la scheda è completa il confronto tra i gruppi diventa immediato. Seguire con il dito ogni figurina mentre la conta è il piccolo trucco che evita di saltarne qualcuna e rende la verifica serena.",
+      "p3": "Quale gruppo avrà vinto, le torce o un altro? Dopo aver completato il diagramma a tema Attrezzi, tuo figlio confronta le colonne e lo scopre. La scheda è gratuita, da stampare in PDF o da fare online senza registrazione, e senza alcun cronometro o punteggio. Si collega alle Indicazioni nazionali, ambito Relazioni, dati e previsioni (matematica), ed è pensata per la classe prima, verso i 6 anni. Come gioco in più, provate a contare di nuovo le scale e le seghe a mano a voce alta.",
+      "canonicalDeckSlug": "conteggio-grafico-attrezzi-29da",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante scale ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante seghe a mano ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante prolunghe elettriche ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quante pistole per silicone ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante torce ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti metri a nastro ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-giocattoli-ebe3",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "toys",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Giocattoli – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Bambina",
+        "Monopattino",
+        "Skateboard",
+        "Razzo",
+        "Lego",
+        "Sabbiera",
+        "Giocattoli",
+        "Classe prima"
+      ],
+      "p1": "Contare può diventare un piccolo gioco: in questa scheda a tema Giocattoli tuo figlio cerca tutte le bambine, poi tutte i monopattini, le raggruppa e le conta. Per ogni immagine colora una casella nella colonna giusta, e il diagramma si riempie pian piano, comprese le colonne degli skateboard. Quando tutto è completo, il bambino guarda quale colonna è la più alta e scopre la categoria più numerosa. Un modo concreto e divertente per classificare, contare e confrontare entro il 10, con i propri tempi.",
+      "p2": "In questa attività tuo figlio conta 3 bambine, 3 monopattini, 4 skateboard, 5 razzi, 1 lego e 4 sabbiere. Colorando una casella per immagine fa crescere le colonne del diagramma, e così vede con un solo sguardo quale gruppo è il più alto e quale il più basso. Contare indicando ogni figurina lo aiuta a non perdere il conto e a riguardare con calma il risultato.",
+      "p3": "Con i suoi tempi e in tutta serenità, tuo figlio porta a termine la scheda a tema Giocattoli, che puoi stampare in PDF o aprire online gratis e senza account. Niente orologio e niente stelline: contare le bambine e i monopattini resta un piacere tranquillo. L'attività è in linea con le Indicazioni nazionali, ambito Relazioni, dati e previsioni della matematica, ed è adatta alla classe prima, intorno ai 6 anni. Alla fine, confrontate insieme le colonne e guardate se sono i razzi la categoria più numerosa.",
+      "canonicalDeckSlug": "conteggio-grafico-giocattoli-ebe3",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante bambine ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti monopattini ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti skateboard ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti razzi ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti lego ci sono?",
+          "a": "1"
+        },
+        {
+          "q": "Quante sabbiere ci sono?",
+          "a": "4"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-alberi-e265",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "tree",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Alberi – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Limone",
+        "Prugna",
+        "Alberi",
+        "Classe prima"
+      ],
+      "p1": "Quante limoni ci sono in questa scheda a tema Alberi? È proprio questa la domanda da cui parte tuo figlio. Prima raggruppa le immagini uguali, poi conta una per una e colora una casella nella colonna giusta. Mentre la colonna dei limoni cresce accanto a quella delle prugne, il bambino legge il diagramma con un solo sguardo e capisce quale gruppo ne ha di più. È il primo passo per organizzare i dati: classificare, contare e confrontare le quantità entro il 10, con calma e senza fretta.",
+      "p2": "In questa scheda tuo figlio conta 3 limoni e 2 prugne. Mentre colora una casella per ogni immagine, la colonna più alta mostra con un solo sguardo quale gruppo ne ha di più e quale di meno. Indicare con il dito ogni immagine mentre si conta aiuta tuo figlio a non perdere il conto e a controllare la risposta.",
+      "p3": "La scheda a tema Alberi si può stampare in PDF per lavorare sulla carta, oppure si può fare direttamente sullo schermo – sempre gratis e senza registrarsi. Non ci sono cronometri né punteggi: tuo figlio decide il proprio ritmo, senza vergogna se sbaglia a contare, perché ricontare una colonna – guardare ancora una volta la colonna dei limoni, per esempio – fa parte dell'imparare. L'attività si collega alle Indicazioni nazionali e all'ambito Relazioni, dati e previsioni della matematica, e va benissimo per la classe prima, intorno ai 6 anni. Come passo successivo potete contare di nuovo i limoni e confrontare le colonne.",
+      "canonicalDeckSlug": "conteggio-grafico-alberi-e265",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti limoni ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante prugne ci sono?",
+          "a": "2"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-verdure-7797",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vegetables",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Verdure – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Cetriolo",
+        "Pastinaca",
+        "Zucca",
+        "Cavolfiore",
+        "Melanzana",
+        "Zucca",
+        "Verdure",
+        "Classe prima"
+      ],
+      "p1": "Sul tavolo del tema Verdure sono sparse tante figurine: cetrioli, pastinache e zucche mescolate insieme. Il compito di tuo figlio è mettere ordine – cetrioli con cetrioli, pastinache con pastinache – e contare quante ce ne sono di ogni tipo. Per ogni immagine colora una casella, e poco alla volta nasce un pittogramma con una colonna per categoria. Quando il diagramma è completo, basta guardarlo per vedere quale gruppo è il più numeroso. Così il bambino allena conteggio e classificazione in modo concreto, con i suoi tempi tranquilli.",
+      "p2": "Qui tuo figlio conta 4 cetrioli, 3 pastinache, 5 zucche, 5 cavolfiori, 3 melanzane e 5 zucche. Ogni gruppo ha la sua colonna, così quando la scheda è completa si vede subito quale categoria è diventata la più alta e quale la più bassa. Contare e nello stesso tempo indicare ogni immagine fa sì che tuo figlio non ne salti nessuna e possa rivedere la risposta con calma.",
+      "p3": "Puoi scaricare il PDF a tema Verdure per stamparlo, oppure fare la versione interattiva online – gratis e senza account. Niente orologio e niente punti: ogni bambino procede con i suoi tempi, con calore e senza pressione. L'attività si collega alle Indicazioni nazionali nell'ambito Relazioni, dati e previsioni (matematica) ed è pensata per la classe prima, intorno ai 6 anni. Quando tuo figlio ha finito di contare i cetrioli e le pastinache, è bello confrontare le colonne e vedere se quella delle zucche è la più alta.",
+      "canonicalDeckSlug": "conteggio-grafico-verdure-7797",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti cetrioli ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quante pastinache ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante zucche ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti cavolfiori ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quante melanzane ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quante zucche ci sono?",
+          "a": "5"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-veicoli-1058",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "vehicles",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Veicoli – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Auto della polizia",
+        "Carrello elevatore",
+        "Scuolabus",
+        "Treno",
+        "Taxi",
+        "Furgone postale",
+        "Veicoli",
+        "Classe prima"
+      ],
+      "p1": "Classificare per categoria, contare e confrontare: sono le tre abilità che questa scheda a tema Veicoli allena insieme. Tuo figlio osserva le auto della polizia e i carrelli elevatori, mette da parte quelle uguali, conta ogni gruppo e colora le caselle finché ogni colonna si alza. Anche gli scuolabus trovano la loro colonna nel diagramma. Alla fine il bambino vede subito quale categoria ne ha di più e quale di meno, tutto nell'ambito dei numeri entro il 10 e senza nessuna fretta.",
+      "p2": "Nel diagramma di questa scheda tuo figlio conta 3 auto della polizia, 4 carrelli elevatori, 3 scuolabus, 3 treni, 4 taxi e 3 furgoni postali. Una casella colorata per ogni figurina fa salire la colonna giusta, e a colpo d'occhio il bambino confronta le altezze e capisce quale gruppo è il più numeroso. Toccare ogni immagine mentre la conta lo aiuta a tenere il segno e a non sbagliare il totale.",
+      "p3": "Tutto gratis: stampa la scheda a tema Veicoli per lavorare sulla carta, oppure falla online senza bisogno di registrarti. Non ci sono cronometri né punteggi; rivedere e ricontare le auto della polizia è anch'esso un modo di imparare. La scheda si collega alle Indicazioni nazionali, all'ambito Relazioni, dati e previsioni (matematica), e va bene per i bambini della classe prima, intorno ai 6 anni. Il passo successivo è confrontare quale categoria ha più immagini – forse sono i carrelli elevatori?",
+      "canonicalDeckSlug": "conteggio-grafico-veicoli-1058",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quante auto della polizia ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti carrelli elevatori ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti scuolabus ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti treni ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti taxi ci sono?",
+          "a": "4"
+        },
+        {
+          "q": "Quanti furgoni postali ci sono?",
+          "a": "3"
+        }
+      ]
+    },
+    {
+      "slug": "conteggio-grafico-animali-dello-zoo-4ba0",
+      "variantShape": "singleton",
+      "coordinate": {
+        "type": "chart-count",
+        "mode": null,
+        "theme": "zoo_animals",
+        "level": "classe-prima"
+      },
+      "levels": [
+        "infanzia",
+        "classe-prima"
+      ],
+      "eyebrow": "Scheda: Conta nel diagramma",
+      "h1": "Conta e completa il diagramma: Animali dello zoo – per la classe prima",
+      "strand": "Relazioni, dati e previsioni",
+      "standard": "K.MD.B.3",
+      "slotTokens": [
+        "Ippopotamo",
+        "Rinoceronte",
+        "Leopardo",
+        "Koala",
+        "Panda",
+        "Cammello",
+        "Animali dello zoo",
+        "Classe prima"
+      ],
+      "p1": "Vieni a contare con tuo figlio in questa scheda a tema Animali dello zoo! Insieme guardate le immagini, raccogliete gli ippopotami da una parte e i rinoceronti dall'altra, e contate quante ce ne sono di ciascun tipo. Per ogni figurina si colora una casella nella colonna giusta, così il pittogramma cresce riga dopo riga. Quando anche i leopardi hanno la loro colonna, confrontate insieme le altezze e scoprite il gruppo più numeroso. Un modo concreto e sereno per ordinare i dati e contare entro il 10.",
+      "p2": "Contiamo insieme: in questa scheda tuo figlio conta 5 ippopotami, 5 rinoceronti, 3 leopardi, 2 koala, 2 panda e 3 cammelli. Man mano che colora le caselle, le colonne crescono e raccontano una piccola storia di quantità, in cui si legge subito chi ne ha di più e chi di meno. Indicare le immagini una a una mentre si conta gli permette di ricontrollare con tranquillità ogni colonna.",
+      "p3": "Questo diagramma a tema Animali dello zoo è gratis, da stampare in PDF o da fare online, senza registrazione. Niente orologi e niente punti: tuo figlio sceglie il proprio ritmo, con un tono gentile. La scheda si collega alle Indicazioni nazionali, nell'ambito Relazioni, dati e previsioni (matematica), e va benissimo per la classe prima, intorno ai 6 anni. Alla fine potete confrontare le colonne degli ippopotami e dei rinoceronti – e vedere se quella degli ippopotami è la più alta – consolidando insieme la lettura del pittogramma.",
+      "canonicalDeckSlug": "conteggio-grafico-animali-dello-zoo-4ba0",
+      "carousel": [],
+      "practiceProblems": [
+        {
+          "q": "Quanti ippopotami ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti rinoceronti ci sono?",
+          "a": "5"
+        },
+        {
+          "q": "Quanti leopardi ci sono?",
+          "a": "3"
+        },
+        {
+          "q": "Quanti koala ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti panda ci sono?",
+          "a": "2"
+        },
+        {
+          "q": "Quanti cammelli ci sono?",
+          "a": "3"
+        }
+      ]
     }
   ]
 }

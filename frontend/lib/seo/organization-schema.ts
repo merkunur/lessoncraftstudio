@@ -20,10 +20,13 @@ export const ORGANIZATION_ID = `${CANONICAL_HOST}/#organization`;
 export const WEBSITE_ID = `${CANONICAL_HOST}/#website`;
 export const LOGO_ID = `${CANONICAL_HOST}/#logo`;
 
-// Real social-profile URLs for Organization.sameAs. EMPTY until the operator
-// supplies verified profiles — NEVER fabricate (a wrong sameAs harms entity
-// disambiguation more than an absent one). Populate this array to enable it.
-export const ORGANIZATION_SAME_AS: string[] = [];
+// Real social-profile URLs for Organization.sameAs — operator-verified only,
+// NEVER fabricated (a wrong sameAs harms entity disambiguation more than an
+// absent one). YouTube channel supplied by the operator 2026-06-14 (tutorials
+// for each worksheet generator). Add more as the operator confirms them.
+export const ORGANIZATION_SAME_AS: string[] = [
+  'https://www.youtube.com/@LessonCraftStudioApps',
+];
 
 export function buildOrganizationSchema(description: string) {
   return {

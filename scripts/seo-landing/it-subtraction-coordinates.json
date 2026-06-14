@@ -1,0 +1,1004 @@
+{
+ "coordinates": [
+  {
+   "mode": "cross-out",
+   "theme": "activities",
+   "canonicalDeckSlug": "sottrazione-barrare-attivita-87e6"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sottrazione-barrare-utensili-da-cucina-fe9e"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sottrazione-barrare-ospedale-51a7"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sottrazione-barrare-parti-del-corpo-b68f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-dinosauri-86e9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-emozioni-3631"
+  },
+  {
+   "mode": "image-number",
+   "theme": "toys",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-giocattoli-e5c1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-in-giro-per-casa-4ccc"
+  },
+  {
+   "mode": "image-number",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-insetti-e-scarafaggi-88bd"
+  },
+  {
+   "mode": "image-number",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-natale-56f2"
+  },
+  {
+   "mode": "image-number",
+   "theme": "space",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-spazio-5f83"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-uccelli-6c4e"
+  },
+  {
+   "mode": "mixed",
+   "theme": "activities",
+   "canonicalDeckSlug": "sottrazione-misto-attivita-fa18"
+  },
+  {
+   "mode": "mixed",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sottrazione-misto-parti-del-corpo-a4cf"
+  },
+  {
+   "mode": "mixed",
+   "theme": "beach",
+   "canonicalDeckSlug": "sottrazione-misto-spiaggia-6159"
+  },
+  {
+   "mode": "mixed",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sottrazione-misto-varie-d670"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "animals",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-animali-7031"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-animali-della-fattoria-206c"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-animali-dello-zoo-effa"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "pets",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-animali-domestici-9075"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-creature-della-foresta-3f05"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-forme-f715"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "animals",
+   "canonicalDeckSlug": "sottrazione-barrare-animali"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-parti-del-corpo-ea8c"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "spring",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-primavera-2bbf"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "pets",
+   "canonicalDeckSlug": "sottrazione-barrare-animali-domestici-e0d2"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sottrazione-barrare-cose-che-volano-2903"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sottrazione-barrare-varie-7279"
+  },
+  {
+   "mode": "image-number",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-4-luglio-4e6f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-abbigliamento-4ea7"
+  },
+  {
+   "mode": "image-number",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-accessori-7010"
+  },
+  {
+   "mode": "image-number",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-al-supermercato-24c5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-animali-della-fattoria-853c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-colazione-e6be"
+  },
+  {
+   "mode": "image-number",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-cose-che-volano-2dbc"
+  },
+  {
+   "mode": "image-number",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-forme-35bf"
+  },
+  {
+   "mode": "image-number",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-giorno-del-ringraziamento-fd52"
+  },
+  {
+   "mode": "image-number",
+   "theme": "winter",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-inverno-9722"
+  },
+  {
+   "mode": "image-number",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-professioni-37b8"
+  },
+  {
+   "mode": "image-number",
+   "theme": "beach",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-spiaggia-d4ed"
+  },
+  {
+   "mode": "image-number",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-ufficio-postale-c7ee"
+  },
+  {
+   "mode": "image-number",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-vita-oceanica-0299"
+  },
+  {
+   "mode": "mixed",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sottrazione-misto-al-supermercato-1823"
+  },
+  {
+   "mode": "mixed",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sottrazione-misto-dolci-e-dolciumi-0589"
+  },
+  {
+   "mode": "mixed",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sottrazione-misto-emozioni-985b"
+  },
+  {
+   "mode": "mixed",
+   "theme": "summer",
+   "canonicalDeckSlug": "sottrazione-misto-estate-7cb1"
+  },
+  {
+   "mode": "mixed",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sottrazione-misto-forme-e67b"
+  },
+  {
+   "mode": "mixed",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sottrazione-misto-frutta-f0d1"
+  },
+  {
+   "mode": "mixed",
+   "theme": "music",
+   "canonicalDeckSlug": "sottrazione-misto-musica-31b6"
+  },
+  {
+   "mode": "mixed",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sottrazione-misto-panetteria-a45f"
+  },
+  {
+   "mode": "mixed",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sottrazione-misto-rettili-e-anfibi-37b4"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sottrazione-misto-uccelli-2-8597"
+  },
+  {
+   "mode": "mixed",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sottrazione-misto-ufficio-postale-4581"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-4-luglio-326b"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-accessori-3f5a"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "activities",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-attivita-99a9"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "tools",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-attrezzi-cee1"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-aula-3a38"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "colors",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-colori-50b0"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-dolci-e-dolciumi-e630"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-emozioni-cf9d"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-in-giro-per-casa-d236"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-ospedale-3556"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-rettili-e-anfibi-1627"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-ufficio-postale-87b8"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "winter",
+   "canonicalDeckSlug": "sottrazione-barrare-inverno-8f48"
+  },
+  {
+   "mode": "image-number",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-fiori-374c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-utensili-da-cucina-d44f"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-al-supermercato-669c"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "tree",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-alberi-ad11"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-dinosauri-366f"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sottrazione-barrare-4-luglio-6806"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sottrazione-barrare-animali-dello-zoo-6f7e"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "camping",
+   "canonicalDeckSlug": "sottrazione-barrare-campeggio-b51e"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sottrazione-barrare-uccelli-2-c3a9"
+  },
+  {
+   "mode": "image-number",
+   "theme": "pets",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-animali-domestici-902b"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-vita-oceanica-079e"
+  },
+  {
+   "mode": "mixed",
+   "theme": "animals",
+   "canonicalDeckSlug": "sottrazione-misto-animali-c4c5"
+  },
+  {
+   "mode": "mixed",
+   "theme": "colors",
+   "canonicalDeckSlug": "sottrazione-misto-colori-e0a8"
+  },
+  {
+   "mode": "mixed",
+   "theme": "toys",
+   "canonicalDeckSlug": "sottrazione-misto-giocattoli-4c15"
+  },
+  {
+   "mode": "mixed",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sottrazione-misto-insetti-e-scarafaggi-36e8"
+  },
+  {
+   "mode": "image-number",
+   "theme": "music",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-musica-45a1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-panetteria-6c3a"
+  },
+  {
+   "mode": "mixed",
+   "theme": "camping",
+   "canonicalDeckSlug": "sottrazione-misto-campeggio-c58a"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-veicoli-ab23"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sottrazione-barrare-abbigliamento-459d"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sottrazione-barrare-accessori-8ac9"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "sottrazione-barrare-al-supermercato-8888"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "tree",
+   "canonicalDeckSlug": "sottrazione-barrare-alberi-d90e"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "tools",
+   "canonicalDeckSlug": "sottrazione-barrare-attrezzi-39bf"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sottrazione-barrare-aula-2a0c"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sottrazione-barrare-colazione-784b"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sottrazione-barrare-dolci-e-dolciumi-d9d0"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "emotions",
+   "canonicalDeckSlug": "sottrazione-barrare-emozioni-803b"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "summer",
+   "canonicalDeckSlug": "sottrazione-barrare-estate-64fa"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sottrazione-barrare-fiori-bd40"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sottrazione-barrare-creature-della-foresta-d78f"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sottrazione-barrare-in-giro-per-casa-2fc5"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sottrazione-barrare-insetti-e-scarafaggi-7915"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "weather",
+   "canonicalDeckSlug": "sottrazione-barrare-meteo-8317"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "toys",
+   "canonicalDeckSlug": "sottrazione-barrare-giocattoli-225c"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sottrazione-barrare-natale-3b92"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sottrazione-barrare-panetteria-9e53"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "easter",
+   "canonicalDeckSlug": "sottrazione-barrare-pasqua-f0f9"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "spring",
+   "canonicalDeckSlug": "sottrazione-barrare-primavera-d4fe"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "beach",
+   "canonicalDeckSlug": "sottrazione-barrare-spiaggia-9e24"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "birds",
+   "canonicalDeckSlug": "sottrazione-barrare-uccelli-2c87"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "post_office",
+   "canonicalDeckSlug": "sottrazione-barrare-ufficio-postale-5ad1"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "space",
+   "canonicalDeckSlug": "sottrazione-barrare-spazio-ae94"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sottrazione-barrare-vita-oceanica-2252"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-abbigliamento-75a5"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sottrazione-barrare-veicoli-4bf5"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "camping",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-campeggio-59a9"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-colazione-dd20"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-cose-che-volano-4a15"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-fiori-4507"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-frutta-e19f"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "summer",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-estate-fd5d"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "winter",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-inverno-d2f9"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "weather",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-meteo-2063"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-mobili-9256"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "bakery",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-panetteria-c190"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-natale-b538"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "space",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-spazio-11e9"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "beach",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-spiaggia-c052"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "birds",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-uccelli-69e9"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-utensili-da-cucina-c6c5"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-varie-85a0"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-verdure-eba1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tree",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-alberi-02bd"
+  },
+  {
+   "mode": "image-number",
+   "theme": "animals",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-animali-634f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-animali-dello-zoo-04e7"
+  },
+  {
+   "mode": "image-number",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-aula-7b67"
+  },
+  {
+   "mode": "image-number",
+   "theme": "camping",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-campeggio-c6e1"
+  },
+  {
+   "mode": "image-number",
+   "theme": "colors",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-colori-3aab"
+  },
+  {
+   "mode": "image-number",
+   "theme": "tools",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-attrezzi-629a"
+  },
+  {
+   "mode": "image-number",
+   "theme": "summer",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-estate-7b27"
+  },
+  {
+   "mode": "image-number",
+   "theme": "weather",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-meteo-07c0"
+  },
+  {
+   "mode": "image-number",
+   "theme": "easter",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-pasqua-1c8b"
+  },
+  {
+   "mode": "image-number",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-uccelli-2-4930"
+  },
+  {
+   "mode": "image-number",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-varie-806f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-verdure-4718"
+  },
+  {
+   "mode": "mixed",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "sottrazione-misto-4-luglio-d967"
+  },
+  {
+   "mode": "image-number",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-veicoli-5a6c"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tree",
+   "canonicalDeckSlug": "sottrazione-misto-alberi-dcf5"
+  },
+  {
+   "mode": "mixed",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sottrazione-misto-animali-della-fattoria-5144"
+  },
+  {
+   "mode": "mixed",
+   "theme": "pets",
+   "canonicalDeckSlug": "sottrazione-misto-animali-domestici-dda1"
+  },
+  {
+   "mode": "mixed",
+   "theme": "accessories",
+   "canonicalDeckSlug": "sottrazione-misto-accessori-0033"
+  },
+  {
+   "mode": "mixed",
+   "theme": "classroom",
+   "canonicalDeckSlug": "sottrazione-misto-aula-77f3"
+  },
+  {
+   "mode": "mixed",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "sottrazione-misto-colazione-d797"
+  },
+  {
+   "mode": "mixed",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "sottrazione-misto-cose-che-volano-81fb"
+  },
+  {
+   "mode": "mixed",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sottrazione-misto-creature-della-foresta-e05c"
+  },
+  {
+   "mode": "mixed",
+   "theme": "flowers",
+   "canonicalDeckSlug": "sottrazione-misto-fiori-a213"
+  },
+  {
+   "mode": "mixed",
+   "theme": "winter",
+   "canonicalDeckSlug": "sottrazione-misto-inverno-2e38"
+  },
+  {
+   "mode": "mixed",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sottrazione-misto-mobili-606b"
+  },
+  {
+   "mode": "mixed",
+   "theme": "christmas",
+   "canonicalDeckSlug": "sottrazione-misto-natale-6713"
+  },
+  {
+   "mode": "mixed",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "sottrazione-misto-in-giro-per-casa-df81"
+  },
+  {
+   "mode": "mixed",
+   "theme": "easter",
+   "canonicalDeckSlug": "sottrazione-misto-pasqua-2213"
+  },
+  {
+   "mode": "mixed",
+   "theme": "spring",
+   "canonicalDeckSlug": "sottrazione-misto-primavera-f764"
+  },
+  {
+   "mode": "mixed",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sottrazione-misto-professioni-6eac"
+  },
+  {
+   "mode": "mixed",
+   "theme": "space",
+   "canonicalDeckSlug": "sottrazione-misto-spazio-0ae9"
+  },
+  {
+   "mode": "mixed",
+   "theme": "birds",
+   "canonicalDeckSlug": "sottrazione-misto-uccelli-d892"
+  },
+  {
+   "mode": "mixed",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "sottrazione-misto-utensili-da-cucina-c467"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "sottrazione-misto-veicoli-cf69"
+  },
+  {
+   "mode": "mixed",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sottrazione-misto-verdure-f4ea"
+  },
+  {
+   "mode": "image-number",
+   "theme": "spring",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-primavera-9c7b"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "colors",
+   "canonicalDeckSlug": "sottrazione-barrare-colori-37be"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sottrazione-barrare-dinosauri-877d"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sottrazione-barrare-frutta-4431"
+  },
+  {
+   "mode": "mixed",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sottrazione-misto-ospedale-5d17"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sottrazione-barrare-professioni-9d6f"
+  },
+  {
+   "mode": "image-number",
+   "theme": "activities",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-attivita-f6f5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-creature-della-foresta-1d4c"
+  },
+  {
+   "mode": "image-number",
+   "theme": "fruits",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-frutta-aca0"
+  },
+  {
+   "mode": "image-number",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-mobili-d7ac"
+  },
+  {
+   "mode": "mixed",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "sottrazione-misto-animali-dello-zoo-fe1f"
+  },
+  {
+   "mode": "mixed",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "sottrazione-misto-dinosauri-f912"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "music",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-musica-7986"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "sottrazione-barrare-verdure-9b8f"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "sottrazione-barrare-animali-della-fattoria-3487"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "shapes",
+   "canonicalDeckSlug": "sottrazione-barrare-forme-b9cd"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sottrazione-barrare-giorno-del-ringraziamento-2afd"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "furniture",
+   "canonicalDeckSlug": "sottrazione-barrare-mobili-3f4d"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sottrazione-barrare-rettili-e-anfibi-78c5"
+  },
+  {
+   "mode": "mixed",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "sottrazione-misto-vita-oceanica-1b49"
+  },
+  {
+   "mode": "cross-out",
+   "theme": "music",
+   "canonicalDeckSlug": "sottrazione-barrare-musica-b469"
+  },
+  {
+   "mode": "image-number",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-dolci-e-dolciumi-4a4d"
+  },
+  {
+   "mode": "image-number",
+   "theme": "hospital",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-ospedale-a4a5"
+  },
+  {
+   "mode": "image-number",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-parti-del-corpo-6a52"
+  },
+  {
+   "mode": "image-number",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "sottrazione-immagine-numero-rettili-e-anfibi-14f1"
+  },
+  {
+   "mode": "mixed",
+   "theme": "clothing",
+   "canonicalDeckSlug": "sottrazione-misto-abbigliamento-0da0"
+  },
+  {
+   "mode": "mixed",
+   "theme": "tools",
+   "canonicalDeckSlug": "sottrazione-misto-attrezzi-e545"
+  },
+  {
+   "mode": "mixed",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sottrazione-misto-giorno-del-ringraziamento-eddb"
+  },
+  {
+   "mode": "mixed",
+   "theme": "weather",
+   "canonicalDeckSlug": "sottrazione-misto-meteo-b7ca"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "toys",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-giocattoli-0dbe"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-giorno-del-ringraziamento-8cdf"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-insetti-e-scarafaggi-1607"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "easter",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-pasqua-12bb"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "occupations",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-professioni-37a0"
+  },
+  {
+   "mode": "find-subtrahend",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "sottrazione-trova-il-sottraendo-uccelli-2-4ca7"
+  }
+ ]
+}

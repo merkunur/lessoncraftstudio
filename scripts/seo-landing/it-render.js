@@ -17,8 +17,26 @@
  */
 'use strict';
 
+// Preposition+article contractions (Italian: a+gli=agli, di+i=dei, …). The
+// {A_GEN}/{DI_GEN}/{DA_GEN}/{IN_GEN}/{SU_GEN} placeholders render the contracted
+// preposition + collective as one correct unit, so a frame never emits the
+// uncontracted "a le cose" / "su i veicoli". (Plain "con {GEN_ART} {GEN}" stays
+// the default — "con" does not contract.)
+const PREP = {
+  A:  { i: 'ai', gli: 'agli', le: 'alle' },
+  DI: { i: 'dei', gli: 'degli', le: 'delle' },
+  DA: { i: 'dai', gli: 'dagli', le: 'dalle' },
+  IN: { i: 'nei', gli: 'negli', le: 'nelle' },
+  SU: { i: 'sui', gli: 'sugli', le: 'sulle' },
+};
+
 function render(tpl, t) {
   return String(tpl)
+    .replace(/\{A_GEN\}/g, PREP.A[t.genArt] + ' ' + t.gen)
+    .replace(/\{DI_GEN\}/g, PREP.DI[t.genArt] + ' ' + t.gen)
+    .replace(/\{DA_GEN\}/g, PREP.DA[t.genArt] + ' ' + t.gen)
+    .replace(/\{IN_GEN\}/g, PREP.IN[t.genArt] + ' ' + t.gen)
+    .replace(/\{SU_GEN\}/g, PREP.SU[t.genArt] + ' ' + t.gen)
     .replace(/\{GEN_ART\}/g, t.genArt)
     .replace(/\{N_PL\}/g, t.nPl)
     .replace(/\{GEN\}/g, t.gen)

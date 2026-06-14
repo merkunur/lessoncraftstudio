@@ -1,0 +1,444 @@
+{
+ "coordinates": [
+  {
+   "mode": "classic-maze",
+   "theme": "accessories",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-accessori-5e53"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-al-supermercato-46a0"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-giorno-del-ringraziamento-7c6e"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "weather",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-meteo-deff"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "spring",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-primavera-e044"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "clothing",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-abbigliamento-69c6"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-al-supermercato-f013"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "activities",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-attivita-c64d"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "camping",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-campeggio-845e"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "colors",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-colori-6ef8"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-utensili-da-cucina-090f"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-creature-della-foresta-ad42"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "christmas",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-natale-755e"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "space",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-spazio-4054"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-vita-oceanica-cebc"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "clothing",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-abbigliamento-5451"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-utensili-da-cucina-e746"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "tools",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-attrezzi-7345"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "shapes",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-forme-2112"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "fruits",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-frutta-d449"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "weather",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-meteo-8e47"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "bakery",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-panetteria-7b6d"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "birds",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-uccelli-0e17"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "flowers",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-fiori-8f30"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "summer",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-estate-906b"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "music",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-musica-ce7f"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "furniture",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-mobili-b0d0"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "space",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-spazio-5154"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "post_office",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-ufficio-postale-ebd9"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "tree",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-alberi-52a6"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "occupations",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-professioni-237a"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "animals",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-animali-a327"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "beach",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-spiaggia-9304"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "classroom",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-aula-53b5"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-colazione-1030"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-cose-che-volano-b925"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-dinosauri-32be"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-dolci-e-dolciumi-58a0"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "emotions",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-emozioni-568b"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "toys",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-giocattoli-f7e1"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "furniture",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-mobili-7e19"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "music",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-musica-de25"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "spring",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-primavera-5368"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "occupations",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-professioni-909c"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-rettili-e-anfibi-29bc"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-veicoli-6b36"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "activities",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-attivita-1994"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "classroom",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-aula-3cc7"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-cose-che-volano-b3ed"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-dolci-e-dolciumi-057d"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-insetti-e-scarafaggi-6d24"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "winter",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-inverno-ba1e"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "hospital",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-ospedale-a25a"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "bakery",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-panetteria-dd71"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-parti-del-corpo-dabb"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-vita-oceanica-3416"
+  },
+  {
+   "mode": "pathway",
+   "theme": "",
+   "canonicalDeckSlug": "percorso-illustrato-sentiero-illustrato"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "flowers",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-fiori-dc2c"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "winter",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-inverno-bbee"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "easter",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-pasqua-73b4"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "tools",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-attrezzi-da1a"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "fruits",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-frutta-0f3c"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "easter",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-pasqua-2c8a"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-veicoli-7f50"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-in-giro-per-casa-015a"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-dinosauri-179e"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-verdure-86dd"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-4-luglio-5d15"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "tree",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-alberi-ee9c"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "camping",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-campeggio-416e"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-colazione-9435"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "toys",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-giocattoli-362d"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-in-giro-per-casa-519b"
+  },
+  {
+   "mode": "classic-maze",
+   "theme": "christmas",
+   "canonicalDeckSlug": "percorso-illustrato-labirinto-classico-natale-4bf9"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-4-luglio-f4b1"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "accessories",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-accessori-8043"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-animali-della-fattoria-6c3e"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-animali-dello-zoo-664a"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "pets",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-animali-domestici-5877"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "summer",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-estate-200a"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-giorno-del-ringraziamento-54ec"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-insetti-e-scarafaggi-d866"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "hospital",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-ospedale-1f13"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-parti-del-corpo-3d24"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "beach",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-spiaggia-9e4e"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-uccelli-2-89e5"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "post_office",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-ufficio-postale-9389"
+  },
+  {
+   "mode": "choose-path",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "percorso-illustrato-scegli-il-percorso-giusto-verdure-d095"
+  }
+ ]
+}

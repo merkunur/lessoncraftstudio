@@ -1,0 +1,479 @@
+{
+ "coordinates": [
+  {
+   "mode": "find-shadow",
+   "theme": "tree",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-alberi-4d55"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "animals",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-animali"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "activities",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-attivita-d1d3"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-cose-che-volano-5a14"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-animali-della-fattoria-fac0"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "tools",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-attrezzi-28af"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-dolci-e-dolciumi-638b"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-in-giro-per-casa-3c68"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-parti-del-corpo-9315"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "easter",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-pasqua-b63a"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "spring",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-primavera-23ee"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "accessories",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-accessori-6247"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-veicoli-0cc3"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "animals",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-animali-818f"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-colazione-df6b"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-animali-della-fattoria-92e4"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-dolci-e-dolciumi-b83e"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "summer",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-estate-7f55"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "furniture",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-mobili-7cf7"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "christmas",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-natale-acfa"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "post_office",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-ufficio-postale-faaa"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-cose-che-volano-8d26"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-al-supermercato-73cc"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-dinosauri-2755"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-creature-della-foresta-c7b7"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "christmas",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-natale-0beb"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-utensili-da-cucina-511f"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-al-supermercato-43c1"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-animali-dello-zoo-25e3"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-creature-della-foresta-c373"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-dinosauri-e3d2"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "flowers",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-fiori-6707"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "music",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-musica-ca82"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "hospital",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-ospedale-a4e9"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "bakery",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-panetteria-456a"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "occupations",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-professioni-2c07"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "beach",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-spiaggia-c25e"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-uccelli-2-fb34"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "birds",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-uccelli-9e8a"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-utensili-da-cucina-53c8"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-verdure-f3d6"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "pets",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-animali-domestici-9885"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "activities",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-attivita-46a2"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "classroom",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-aula-2dbd"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "camping",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-campeggio-e8e6"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-colazione-9ed7"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "emotions",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-emozioni-a08e"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "flowers",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-fiori-9a0e"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "shapes",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-forme-6f7e"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-giorno-del-ringraziamento-f022"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-insetti-e-scarafaggi-3fbd"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "weather",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-meteo-b5e1"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "bakery",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-panetteria-0633"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "space",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-spazio-8c5b"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "beach",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-spiaggia-14ce"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "post_office",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-ufficio-postale-5331"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-verdure-e6a6"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "fruits",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-frutta-5549"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "toys",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-giocattoli-fbd4"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "furniture",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-mobili-1df1"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "music",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-musica-c53f"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "hospital",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-ospedale-3cfb"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "occupations",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-professioni-fcdb"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "summer",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-estate-59bc"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-rettili-e-anfibi-8595"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "birds_2",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-uccelli-2-6c84"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "pets",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-animali-domestici-3a8a"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "birds",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-uccelli-b12a"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-rettili-e-anfibi-0a51"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-4-luglio-520b"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "clothing",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-abbigliamento-a025"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "fruits",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-frutta-0855"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-giorno-del-ringraziamento-1a0d"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-in-giro-per-casa-eb18"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-insetti-e-scarafaggi-3cc7"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "winter",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-inverno-093e"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-parti-del-corpo-9183"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "easter",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-pasqua-e851"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "spring",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-primavera-1941"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "space",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-spazio-e039"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-vita-oceanica-4345"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-4-luglio-36fc"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "clothing",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-abbigliamento-b5d0"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "accessories",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-accessori-57d2"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "tree",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-alberi-4ced"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-animali-dello-zoo-d366"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-varie-66c7"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-veicoli-695e"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-vita-oceanica-31bd"
+  },
+  {
+   "mode": "make-whole",
+   "theme": "winter",
+   "canonicalDeckSlug": "abbina-le-ombre-completa-inverno-d231"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "toys",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-giocattoli-c3d9"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "weather",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-meteo-968e"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "tools",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-attrezzi-f010"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "classroom",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-aula-0975"
+  },
+  {
+   "mode": "find-shadow",
+   "theme": "camping",
+   "canonicalDeckSlug": "abbina-le-ombre-abbina-l-ombra-campeggio-5bfc"
+  }
+ ]
+}

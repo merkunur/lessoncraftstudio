@@ -1,0 +1,714 @@
+{
+ "coordinates": [
+  {
+   "pairKey": "accessories-vs-animals",
+   "left": "accessories",
+   "right": "animals",
+   "canonical": "ordina-immagini-accessories-vs-animals-51ad",
+   "siblings": [
+    "ordina-immagini-accessories-vs-animals-51ad"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-farm_animals",
+   "left": "accessories",
+   "right": "farm_animals",
+   "canonical": "ordina-immagini-accessories-vs-farm-animals-3254",
+   "siblings": [
+    "ordina-immagini-accessories-vs-farm-animals-3254"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-furniture",
+   "left": "accessories",
+   "right": "furniture",
+   "canonical": "ordina-immagini-accessories-vs-furniture-aa92",
+   "siblings": [
+    "ordina-immagini-accessories-vs-furniture-aa92"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-hospital",
+   "left": "accessories",
+   "right": "hospital",
+   "canonical": "ordina-immagini-accessories-vs-hospital-12c5",
+   "siblings": [
+    "ordina-immagini-accessories-vs-hospital-12c5"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-music",
+   "left": "accessories",
+   "right": "music",
+   "canonical": "ordina-immagini-accessories-vs-music-2cf1",
+   "siblings": [
+    "ordina-immagini-accessories-vs-music-2cf1"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-pets",
+   "left": "accessories",
+   "right": "pets",
+   "canonical": "ordina-immagini-accessories-vs-pets-af4b",
+   "siblings": [
+    "ordina-immagini-accessories-vs-pets-af4b"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-space",
+   "left": "accessories",
+   "right": "space",
+   "canonical": "ordina-immagini-accessories-vs-space-0574",
+   "siblings": [
+    "ordina-immagini-accessories-vs-space-0574"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-tree",
+   "left": "accessories",
+   "right": "tree",
+   "canonical": "ordina-immagini-accessories-vs-tree-7b92",
+   "siblings": [
+    "ordina-immagini-accessories-vs-tree-7b92"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-vegetables",
+   "left": "accessories",
+   "right": "vegetables",
+   "canonical": "ordina-immagini-accessories-vs-vegetables-222e",
+   "siblings": [
+    "ordina-immagini-accessories-vs-vegetables-222e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "accessories-vs-zoo_animals",
+   "left": "accessories",
+   "right": "zoo_animals",
+   "canonical": "ordina-immagini-accessories-vs-zoo-animals-f54b",
+   "siblings": [
+    "ordina-immagini-accessories-vs-zoo-animals-f54b"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-around_the_house",
+   "left": "activities",
+   "right": "around_the_house",
+   "canonical": "ordina-immagini-activities-vs-around-the-house-0d17",
+   "siblings": [
+    "ordina-immagini-activities-vs-around-the-house-0d17"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-breakfast",
+   "left": "activities",
+   "right": "breakfast",
+   "canonical": "ordina-immagini-activities-vs-breakfast-001c",
+   "siblings": [
+    "ordina-immagini-activities-vs-breakfast-001c"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-camping",
+   "left": "activities",
+   "right": "camping",
+   "canonical": "ordina-immagini-activities-vs-camping-88a7",
+   "siblings": [
+    "ordina-immagini-activities-vs-camping-88a7"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-classroom",
+   "left": "activities",
+   "right": "classroom",
+   "canonical": "ordina-immagini-activities-vs-classroom-1b68",
+   "siblings": [
+    "ordina-immagini-activities-vs-classroom-1b68"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-summer",
+   "left": "activities",
+   "right": "summer",
+   "canonical": "ordina-immagini-activities-vs-summer-171c",
+   "siblings": [
+    "ordina-immagini-activities-vs-summer-171c"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-things_that_fly",
+   "left": "activities",
+   "right": "things_that_fly",
+   "canonical": "ordina-immagini-activities-vs-things-that-fly-5e01",
+   "siblings": [
+    "ordina-immagini-activities-vs-things-that-fly-5e01"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "activities-vs-tools",
+   "left": "activities",
+   "right": "tools",
+   "canonical": "ordina-immagini-activities-vs-tools-6e29",
+   "siblings": [
+    "ordina-immagini-activities-vs-tools-6e29"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "animals-vs-desserts_and_sweets",
+   "left": "animals",
+   "right": "desserts_and_sweets",
+   "canonical": "ordina-immagini-animals-vs-desserts-and-sweets-d26f",
+   "siblings": [
+    "ordina-immagini-animals-vs-desserts-and-sweets-d26f"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "animals-vs-dinosaurs",
+   "left": "animals",
+   "right": "dinosaurs",
+   "canonical": "ordina-immagini-animals-vs-dinosaurs-adad",
+   "siblings": [
+    "ordina-immagini-animals-vs-dinosaurs-adad"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "animals-vs-flowers",
+   "left": "animals",
+   "right": "flowers",
+   "canonical": "ordina-immagini-animals-vs-flowers-5160",
+   "siblings": [
+    "ordina-immagini-animals-vs-flowers-5160"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "animals-vs-summer",
+   "left": "animals",
+   "right": "summer",
+   "canonical": "ordina-immagini-animals-vs-summer-6864",
+   "siblings": [
+    "ordina-immagini-animals-vs-summer-6864"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-beach",
+   "left": "at_the_supermarket",
+   "right": "beach",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-beach-649e",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-beach-649e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-birds",
+   "left": "at_the_supermarket",
+   "right": "birds",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-birds-963b",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-birds-963b"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-christmas",
+   "left": "at_the_supermarket",
+   "right": "christmas",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-christmas-916e",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-christmas-916e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-music",
+   "left": "at_the_supermarket",
+   "right": "music",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-music-2293",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-music-2293"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-ocean_life",
+   "left": "at_the_supermarket",
+   "right": "ocean_life",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-ocean-life-7d77"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "at_the_supermarket-vs-vehicles",
+   "left": "at_the_supermarket",
+   "right": "vehicles",
+   "canonical": "ordina-immagini-at-the-supermarket-vs-vehicles-0b77",
+   "siblings": [
+    "ordina-immagini-at-the-supermarket-vs-vehicles-0b77"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-around_the_house",
+   "left": "camping",
+   "right": "around_the_house",
+   "canonical": "ordina-immagini-camping-vs-around-the-house-c3e9",
+   "siblings": [
+    "ordina-immagini-camping-vs-around-the-house-c3e9"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-beach",
+   "left": "camping",
+   "right": "beach",
+   "canonical": "ordina-immagini-camping-vs-beach-dc4f",
+   "siblings": [
+    "ordina-immagini-camping-vs-beach-dc4f"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-birds",
+   "left": "camping",
+   "right": "birds",
+   "canonical": "ordina-immagini-camping-vs-birds-a9da",
+   "siblings": [
+    "ordina-immagini-camping-vs-birds-a9da"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-christmas",
+   "left": "camping",
+   "right": "christmas",
+   "canonical": "ordina-immagini-camping-vs-christmas-e0f7",
+   "siblings": [
+    "ordina-immagini-camping-vs-christmas-e0f7"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-flowers",
+   "left": "camping",
+   "right": "flowers",
+   "canonical": "ordina-immagini-camping-vs-flowers-a5dd",
+   "siblings": [
+    "ordina-immagini-camping-vs-flowers-a5dd"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-fruits",
+   "left": "camping",
+   "right": "fruits",
+   "canonical": "ordina-immagini-camping-vs-fruits-418e",
+   "siblings": [
+    "ordina-immagini-camping-vs-fruits-418e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-insects_and_bugs",
+   "left": "camping",
+   "right": "insects_and_bugs",
+   "canonical": "ordina-immagini-camping-vs-insects-and-bugs-7c0e",
+   "siblings": [
+    "ordina-immagini-camping-vs-insects-and-bugs-7c0e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-toys",
+   "left": "camping",
+   "right": "toys",
+   "canonical": "ordina-immagini-camping-vs-toys-3079",
+   "siblings": [
+    "ordina-immagini-camping-vs-toys-3079"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "camping-vs-vegetables",
+   "left": "camping",
+   "right": "vegetables",
+   "canonical": "ordina-immagini-camping-vs-vegetables-36a4",
+   "siblings": [
+    "ordina-immagini-camping-vs-vegetables-36a4"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "classroom-vs-breakfast",
+   "left": "classroom",
+   "right": "breakfast",
+   "canonical": "ordina-immagini-classroom-vs-breakfast-c780",
+   "siblings": [
+    "ordina-immagini-classroom-vs-breakfast-c780"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "classroom-vs-camping",
+   "left": "classroom",
+   "right": "camping",
+   "canonical": "ordina-immagini-classroom-vs-camping-5586",
+   "siblings": [
+    "ordina-immagini-classroom-vs-camping-5586"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "classroom-vs-desserts_and_sweets",
+   "left": "classroom",
+   "right": "desserts_and_sweets",
+   "canonical": "ordina-immagini-classroom-vs-desserts-and-sweets-0e11",
+   "siblings": [
+    "ordina-immagini-classroom-vs-desserts-and-sweets-0e11"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-accessories",
+   "left": "clothing",
+   "right": "accessories",
+   "canonical": "ordina-immagini-clothing-vs-accessories-e66e",
+   "siblings": [
+    "ordina-immagini-clothing-vs-accessories-e66e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-activities",
+   "left": "clothing",
+   "right": "activities",
+   "canonical": "ordina-immagini-clothing-vs-activities-9643",
+   "siblings": [
+    "ordina-immagini-clothing-vs-activities-9643"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-animals",
+   "left": "clothing",
+   "right": "animals",
+   "canonical": "ordina-immagini-clothing-vs-animals-5975",
+   "siblings": [
+    "ordina-immagini-clothing-vs-animals-5975"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-breakfast",
+   "left": "clothing",
+   "right": "breakfast",
+   "canonical": "ordina-immagini-clothing-vs-breakfast-4d43",
+   "siblings": [
+    "ordina-immagini-clothing-vs-breakfast-4d43"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-camping",
+   "left": "clothing",
+   "right": "camping",
+   "canonical": "ordina-immagini-clothing-vs-camping-4a63",
+   "siblings": [
+    "ordina-immagini-clothing-vs-camping-4a63"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-classroom",
+   "left": "clothing",
+   "right": "classroom",
+   "canonical": "ordina-immagini-clothing-vs-classroom-e5e4",
+   "siblings": [
+    "ordina-immagini-clothing-vs-classroom-e5e4"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-desserts_and_sweets",
+   "left": "clothing",
+   "right": "desserts_and_sweets",
+   "canonical": "ordina-immagini-clothing-vs-desserts-and-sweets-09bd",
+   "siblings": [
+    "ordina-immagini-clothing-vs-desserts-and-sweets-09bd"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-farm_animals",
+   "left": "clothing",
+   "right": "farm_animals",
+   "canonical": "ordina-immagini-clothing-vs-farm-animals-18ce",
+   "siblings": [
+    "ordina-immagini-clothing-vs-farm-animals-18ce"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-forest_creatures",
+   "left": "clothing",
+   "right": "forest_creatures",
+   "canonical": "ordina-immagini-clothing-vs-forest-creatures-b558",
+   "siblings": [
+    "ordina-immagini-clothing-vs-forest-creatures-b558"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-pets",
+   "left": "clothing",
+   "right": "pets",
+   "canonical": "ordina-immagini-clothing-vs-pets-0955",
+   "siblings": [
+    "ordina-immagini-clothing-vs-pets-0955"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-things_that_fly",
+   "left": "clothing",
+   "right": "things_that_fly",
+   "canonical": "ordina-immagini-clothing-vs-things-that-fly-e0c6",
+   "siblings": [
+    "ordina-immagini-clothing-vs-things-that-fly-e0c6"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-tools",
+   "left": "clothing",
+   "right": "tools",
+   "canonical": "ordina-immagini-clothing-vs-tools-939d",
+   "siblings": [
+    "ordina-immagini-clothing-vs-tools-939d"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-tree",
+   "left": "clothing",
+   "right": "tree",
+   "canonical": "ordina-immagini-clothing-vs-tree-066e",
+   "siblings": [
+    "ordina-immagini-clothing-vs-tree-066e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "clothing-vs-zoo_animals",
+   "left": "clothing",
+   "right": "zoo_animals",
+   "canonical": "ordina-immagini-clothing-vs-zoo-animals-860c",
+   "siblings": [
+    "ordina-immagini-clothing-vs-zoo-animals-860c"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-christmas",
+   "left": "flowers",
+   "right": "christmas",
+   "canonical": "ordina-immagini-flowers-vs-christmas-373a",
+   "siblings": [
+    "ordina-immagini-flowers-vs-christmas-373a"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-easter",
+   "left": "flowers",
+   "right": "easter",
+   "canonical": "ordina-immagini-flowers-vs-easter-93c9",
+   "siblings": [
+    "ordina-immagini-flowers-vs-easter-93c9"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-furniture",
+   "left": "flowers",
+   "right": "furniture",
+   "canonical": "ordina-immagini-flowers-vs-furniture-460e",
+   "siblings": [
+    "ordina-immagini-flowers-vs-furniture-460e"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-hospital",
+   "left": "flowers",
+   "right": "hospital",
+   "canonical": "ordina-immagini-flowers-vs-hospital-5c0b",
+   "siblings": [
+    "ordina-immagini-flowers-vs-hospital-5c0b"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-insects_and_bugs",
+   "left": "flowers",
+   "right": "insects_and_bugs",
+   "canonical": "ordina-immagini-flowers-vs-insects-and-bugs-08ad",
+   "siblings": [
+    "ordina-immagini-flowers-vs-insects-and-bugs-08ad"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-music",
+   "left": "flowers",
+   "right": "music",
+   "canonical": "ordina-immagini-flowers-vs-music-2d01",
+   "siblings": [
+    "ordina-immagini-flowers-vs-music-2d01"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-toys",
+   "left": "flowers",
+   "right": "toys",
+   "canonical": "ordina-immagini-flowers-vs-toys-9f06",
+   "siblings": [
+    "ordina-immagini-flowers-vs-toys-9f06"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "flowers-vs-weather",
+   "left": "flowers",
+   "right": "weather",
+   "canonical": "ordina-immagini-flowers-vs-weather-f1fc",
+   "siblings": [
+    "ordina-immagini-flowers-vs-weather-f1fc"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "summer-vs-birds_2",
+   "left": "summer",
+   "right": "birds_2",
+   "canonical": "ordina-immagini-summer-vs-birds-2-bdce",
+   "siblings": [
+    "ordina-immagini-summer-vs-birds-2-bdce"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "summer-vs-occupations",
+   "left": "summer",
+   "right": "occupations",
+   "canonical": "ordina-immagini-summer-vs-occupations-6693",
+   "siblings": [
+    "ordina-immagini-summer-vs-occupations-6693"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "summer-vs-vegetables",
+   "left": "summer",
+   "right": "vegetables",
+   "canonical": "ordina-immagini-summer-vs-vegetables-9a55",
+   "siblings": [
+    "ordina-immagini-summer-vs-vegetables-9a55"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "summer-vs-vehicles",
+   "left": "summer",
+   "right": "vehicles",
+   "canonical": "ordina-immagini-summer-vs-vehicles-628b",
+   "siblings": [
+    "ordina-immagini-summer-vs-vehicles-628b"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-flowers",
+   "left": "tree",
+   "right": "flowers",
+   "canonical": "ordina-immagini-tree-vs-flowers-311f",
+   "siblings": [
+    "ordina-immagini-tree-vs-flowers-311f"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-furniture",
+   "left": "tree",
+   "right": "furniture",
+   "canonical": "ordina-immagini-tree-vs-furniture-27ff",
+   "siblings": [
+    "ordina-immagini-tree-vs-furniture-27ff"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-insects_and_bugs",
+   "left": "tree",
+   "right": "insects_and_bugs",
+   "canonical": "ordina-immagini-tree-vs-insects-and-bugs-bd44",
+   "siblings": [
+    "ordina-immagini-tree-vs-insects-and-bugs-bd44"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-music",
+   "left": "tree",
+   "right": "music",
+   "canonical": "ordina-immagini-tree-vs-music-e27f",
+   "siblings": [
+    "ordina-immagini-tree-vs-music-e27f"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-toys",
+   "left": "tree",
+   "right": "toys",
+   "canonical": "ordina-immagini-tree-vs-toys-35bb",
+   "siblings": [
+    "ordina-immagini-tree-vs-toys-35bb"
+   ],
+   "n": 1
+  },
+  {
+   "pairKey": "tree-vs-weather",
+   "left": "tree",
+   "right": "weather",
+   "canonical": "ordina-immagini-tree-vs-weather-71a1",
+   "siblings": [
+    "ordina-immagini-tree-vs-weather-71a1"
+   ],
+   "n": 1
+  }
+ ]
+}

@@ -817,55 +817,55 @@
   },
   "K-201": {
     "title": "Levende og ikke-levende",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-202": {
-    "title": "Frukt og gronnsaker",
-    "instruction": "Trekk en strek fra hver matvare til gruppen den hoerer til."
+    "title": "Frukt og grønnsaker",
+    "instruction": "Trekk en strek fra hver matvare til gruppen den hører til."
   },
   "K-203": {
     "title": "Sunn og usunn mat",
-    "instruction": "Trekk en strek fra hver matvare til gruppen den hoerer til."
+    "instruction": "Trekk en strek fra hver matvare til gruppen den hører til."
   },
   "K-204": {
-    "title": "Kjaeledyr og ville dyr",
-    "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til."
+    "title": "Kjæledyr og ville dyr",
+    "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
   },
   "K-206": {
     "title": "Ting som kan fly",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-207": {
-    "title": "Sommerklaer og vinterklaer",
+    "title": "Sommerklær og vinterklær",
     "instruction": "Trekk en strek fra hvert klesplagg til riktig gruppe."
   },
   "K-208": {
     "title": "Dag og natt",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-209": {
     "title": "Husdyr og ville dyr",
-    "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
   },
   "K-210": {
-    "title": "Transport pa land, vann og i luft",
-    "instruction": "Trekk en strek fra hvert kjoretoy til der det ferdes."
+    "title": "Transport på land, vann og i luft",
+    "instruction": "Trekk en strek fra hvert kjøretøy til der det ferdes."
   },
   "K-211": {
     "title": "Varmt og kaldt",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-212": {
-    "title": "Onsker og behov",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "title": "Ønsker og behov",
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "K-214": {
     "title": "Naturlig og menneskeskapt",
-    "instruction": "Trekk en strek fra hvert bilde til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert bilde til gruppen det hører til."
   },
   "G1-201": {
     "title": "Sorter dyrene",
-    "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
   },
   "G1-202": {
     "title": "Hvor bor dyrene?",
@@ -873,7 +873,7 @@
   },
   "G1-204": {
     "title": "Synker eller flyter?",
-    "instruction": "Trekk en strek fra hver ting til gruppen du tror den hoerer til."
+    "instruction": "Trekk en strek fra hver ting til gruppen du tror den hører til."
   },
   "G1-205": {
     "title": "Hva dyrene er dekket av",
@@ -881,15 +881,15 @@
   },
   "G1-206": {
     "title": "Hva dyrene spiser",
-    "instruction": "Trekk en strek fra hvert dyr til gruppen det hoerer til."
+    "instruction": "Trekk en strek fra hvert dyr til gruppen det hører til."
   },
   "G1-207": {
     "title": "De fire matvaregruppene",
     "instruction": "Trekk en strek fra hver matvare til matvaregruppen sin."
   },
   "G1-203": {
-    "title": "Livssyklusen til en hone",
-    "instruction": "Skriv 1, 2, 3 for a sette bildene i riktig rekkefolge."
+    "title": "Livssyklusen til en høne",
+    "instruction": "Skriv 1, 2, 3 for å sette bildene i riktig rekkefølge."
   },
   "K-205": {
     "title": "Dyreunger",

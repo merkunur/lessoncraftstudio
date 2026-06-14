@@ -897,7 +897,7 @@
   },
   "K-213": {
     "title": "Yrken och deras verktyg",
-    "instruction": "Dra ett streck från varje yrkesperson till verktyget de använder."
+    "instruction": "Dra ett streck från varje yrkesperson till verktyget hen använder."
   },
   "K-221": {
     "title": "Första ljudet",
@@ -917,7 +917,7 @@
   },
   "K-225": {
     "title": "Para ihop ord och bild",
-    "instruction": "Dra ett streck från varje ord till bilden det betyder."
+    "instruction": "Dra ett streck från varje ord till rätt bild."
   },
   "K-226": {
     "title": "Sista ljudet",
@@ -933,7 +933,7 @@
   },
   "K-229": {
     "title": "Hitta bokstaven",
-    "instruction": "Ringa in varje bokstav som är lika med den i rutan."
+    "instruction": "Ringa in varje bokstav som är likadan som den i rutan."
   },
   "K-230": {
     "title": "Vokaler och konsonanter",

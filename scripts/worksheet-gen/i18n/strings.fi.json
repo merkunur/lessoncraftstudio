@@ -876,8 +876,8 @@
     "instruction": "Piirrä viiva jokaisesta esineestä siihen ryhmään, johon arvelet sen kuuluvan."
   },
   "G1-205": {
-    "title": "Eläinten ihopeite",
-    "instruction": "Piirrä viiva jokaisesta eläimestä sen ihopeitteeseen."
+    "title": "Eläinten kehonpeite",
+    "instruction": "Piirrä viiva jokaisesta eläimestä sen kehonpeitteeseen."
   },
   "G1-206": {
     "title": "Mitä eläimet syövät",
@@ -917,7 +917,7 @@
   },
   "K-225": {
     "title": "Yhdistä sana ja kuva",
-    "instruction": "Vedä viiva jokaisesta sanasta kuvaan, jota se tarkoittaa."
+    "instruction": "Vedä viiva jokaisesta sanasta kuvaan, jonka nimi se on."
   },
   "K-226": {
     "title": "Sanan loppuäänne",
@@ -945,7 +945,7 @@
   },
   "K-232": {
     "title": "Riimiparit",
-    "instruction": "Vedä viiva kahden kuvan välille, jotka riimittelevät."
+    "instruction": "Vedä viiva kahden kuvan välille, joiden nimet rimmaavat."
   },
   "K-233": {
     "title": "Laske tavut",

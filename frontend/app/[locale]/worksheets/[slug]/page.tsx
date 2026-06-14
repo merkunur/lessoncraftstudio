@@ -16,6 +16,8 @@ import { notFound } from 'next/navigation';
 import { wwwImg } from '@/lib/img-host';
 import { canonicalUrl, localePath, CANONICAL_HOST } from '@/lib/seo/url';
 import { buildBreadcrumbSchema } from '@/lib/seo/breadcrumb-schema';
+import { buildEmbedSnippet } from '@/lib/seo/embed-snippet';
+import { EmbedWorksheet } from '@/components/worksheets/EmbedWorksheet';
 import { ogLocaleMap } from '@/lib/schema-generator';
 import { buildHreflangAlternates } from '@/lib/seo/hreflang';
 import { getAxisSlug } from '@/lib/taxonomy';
@@ -43,6 +45,7 @@ const UI_STRINGS: Record<string, {
   sameThemeHeading: string; sameLevelHeading: string;
   madeWith: (t: string) => string; typeCrumb: (eyebrow: string) => string;
   playAria: (h1: string) => string; previewAlt: (h1: string) => string;
+  embedButton: string; embedCopy: string; embedCopied: string; embedPrefix: string; embedKeyword: string;
 }> = {
   en: {
     worksheets: 'Worksheets', playInteractive: 'Play interactive', downloadPdf: 'Download PDF', answerKey: 'Answer key',
@@ -51,6 +54,8 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'More with this theme', sameLevelHeading: 'More for this level',
     madeWith: (t) => `Made with the ${t} maker`, typeCrumb: (e) => e + 's',
     playAria: (h1) => `Play ${h1}`, previewAlt: (h1) => `Preview of ${h1}`,
+    embedButton: 'Embed this worksheet', embedCopy: 'Copy code', embedCopied: 'Copied!',
+    embedPrefix: 'Worksheet from', embedKeyword: 'free printable worksheets',
   },
   de: {
     worksheets: 'Arbeitsblätter', playInteractive: 'Interaktiv spielen', downloadPdf: 'PDF herunterladen', answerKey: 'Lösungen',
@@ -59,6 +64,8 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Mehr mit diesem Thema', sameLevelHeading: 'Mehr für diese Stufe',
     madeWith: (t) => `Erstellt mit dem ${t}-Generator`, typeCrumb: (e) => e.replace(/^Arbeitsblatt:\s*/, ''),
     playAria: (h1) => `${h1} spielen`, previewAlt: (h1) => `Vorschau: ${h1}`,
+    embedButton: 'Dieses Arbeitsblatt einbetten', embedCopy: 'Code kopieren', embedCopied: 'Kopiert!',
+    embedPrefix: 'Arbeitsblatt von', embedKeyword: 'kostenlose druckbare Arbeitsblätter',
   },
   es: {
     worksheets: 'Hojas de trabajo', playInteractive: 'Jugar', downloadPdf: 'Descargar PDF', answerKey: 'Solución',
@@ -67,6 +74,8 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Más con este tema', sameLevelHeading: 'Más para este nivel',
     madeWith: (t) => `Hecho con el generador de ${t}`, typeCrumb: (e) => e,
     playAria: (h1) => `Jugar ${h1}`, previewAlt: (h1) => `Vista previa de ${h1}`,
+    embedButton: 'Insertar esta hoja', embedCopy: 'Copiar código', embedCopied: '¡Copiado!',
+    embedPrefix: 'Hoja de trabajo de', embedKeyword: 'hojas de trabajo imprimibles gratis',
   },
   sv: {
     worksheets: 'Arbetsblad', playInteractive: 'Spela', downloadPdf: 'Ladda ner PDF', answerKey: 'Facit',
@@ -75,6 +84,9 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Mer med samma tema', sameLevelHeading: 'Mer för samma nivå',
     madeWith: (t) => `Skapat med ${t}-generatorn`, typeCrumb: (e) => e.replace(/^Arbetsblad:\s*/, ''),
     playAria: (h1) => `Spela ${h1}`, previewAlt: (h1) => `Förhandsvisning av ${h1}`,
+    // [NSR-FLAG] sv embed labels — native review pending (§17.5.1)
+    embedButton: 'Bädda in detta arbetsblad', embedCopy: 'Kopiera kod', embedCopied: 'Kopierat!',
+    embedPrefix: 'Arbetsblad från', embedKeyword: 'gratis utskrivbara arbetsblad',
   },
   nl: {
     worksheets: 'Werkbladen', playInteractive: 'Spelen', downloadPdf: 'PDF downloaden', answerKey: 'Antwoorden',
@@ -83,6 +95,8 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Meer met dit thema', sameLevelHeading: 'Meer voor dit niveau',
     madeWith: (t) => `Gemaakt met de ${t}-generator`, typeCrumb: (e) => e.replace(/^Werkblad:\s*/, ''),
     playAria: (h1) => `${h1} spelen`, previewAlt: (h1) => `Voorbeeld van ${h1}`,
+    embedButton: 'Dit werkblad insluiten', embedCopy: 'Code kopiëren', embedCopied: 'Gekopieerd!',
+    embedPrefix: 'Werkblad van', embedKeyword: 'gratis printbare werkbladen',
   },
   da: {
     worksheets: 'Opgaver', playInteractive: 'Spil interaktivt', downloadPdf: 'Hent PDF', answerKey: 'Facitliste',
@@ -91,6 +105,9 @@ const UI_STRINGS: Record<string, {
     sameThemeHeading: 'Mere med dette tema', sameLevelHeading: 'Mere til samme klassetrin',
     madeWith: (t) => `Lavet med ${t}-generatoren`, typeCrumb: (e) => e.replace(/^Opgave:\s*/, ''),
     playAria: (h1) => `Spil ${h1}`, previewAlt: (h1) => `Forhåndsvisning af ${h1}`,
+    // [NSR-FLAG] da embed labels — native review pending (§17.5.1)
+    embedButton: 'Indlejr dette opgaveark', embedCopy: 'Kopiér kode', embedCopied: 'Kopieret!',
+    embedPrefix: 'Arbejdsark fra', embedKeyword: 'gratis printbare arbejdsark',
   },
 };
 
@@ -166,6 +183,17 @@ export default function WorksheetLandingPage(
 
   const a = deckAssets(locale, l.canonicalDeckSlug);
   const canonical = canonicalUrl(localePath(locale, 'worksheets', l.slug));
+  // W6 embed-backlink flywheel: copy-paste snippet (2 crawlable <a> outside the
+  // iframe — brand-anchor→this canonical, keyword-anchor→homepage). §1 / §14.3a.
+  const embedSnippet = buildEmbedSnippet({
+    iframeUrl: a.deckDir,
+    brandHref: canonical,
+    homeHref: CANONICAL_HOST,
+    prefix: ui.embedPrefix,
+    keyword: ui.embedKeyword,
+    title: l.h1,
+    id: `lcs-embed-${l.slug}`,
+  });
   const typeHub = localePath(locale, 'topic', typeHubSlug(l, locale));
   const themeHub = localePath(locale, 'topic', themeHubSlug(l, locale));
   const intersection = localePath(locale, 'topic', themeHubSlug(l, locale), typeHubSlug(l, locale));
@@ -365,6 +393,14 @@ export default function WorksheetLandingPage(
                 style={{ aspectRatio: '800 / 1000', minHeight: 480 }}
               />
             </div>
+          </section>
+
+          {/* embed-this-worksheet — W6 backlink flywheel (snippet carries 2 crawlable <a>) */}
+          <section className="mb-12">
+            <EmbedWorksheet
+              snippet={embedSnippet}
+              labels={{ button: ui.embedButton, copy: ui.embedCopy, copied: ui.embedCopied }}
+            />
           </section>
 
           {/* related carousel — gated: omit the section entirely when there are no honest same-(type,mode) siblings (e.g. the first landing of a new mode), never render a bare heading over an empty grid */}

@@ -266,7 +266,7 @@ export default function MemberDashboard() {
                 </h2>
                 <p className="text-sm text-gray-500 mt-1">
                   {totalPurchased === 0
-                    ? 'Try any app free with watermark, or purchase for clean exports + commercial license.'
+                    ? 'All worksheet generators are free to use — no purchase or license required.'
                     : `${totalPurchased} of ${totalApps} apps purchased`}
                 </p>
               </div>

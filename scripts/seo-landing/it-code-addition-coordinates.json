@@ -1,0 +1,499 @@
+{
+ "coordinates": [
+  {
+   "mode": null,
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-codificata-al-supermercato-275b"
+  },
+  {
+   "mode": null,
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-codificata-animali-della-fattoria-328e"
+  },
+  {
+   "mode": null,
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-codificata-animali-dello-zoo-6a5e"
+  },
+  {
+   "mode": null,
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-codificata-cose-che-volano-43ed"
+  },
+  {
+   "mode": null,
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-codificata-forme-4e83"
+  },
+  {
+   "mode": null,
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-codificata-giorno-del-ringraziamento-0e0b"
+  },
+  {
+   "mode": null,
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-codificata-inverno-12a0"
+  },
+  {
+   "mode": null,
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-codificata-natale-aa34"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-dinosauri-2ea6"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-estate-7e6d"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-giocattoli-29b9"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-musica-acdd"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-ospedale-611e"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-panetteria-c14f"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-pasqua-a471"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-spiaggia-c178"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-verdure-1a17"
+  },
+  {
+   "mode": null,
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-codificata-professioni-8f1a"
+  },
+  {
+   "mode": null,
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-codificata-spazio-cfdf"
+  },
+  {
+   "mode": null,
+   "theme": "activities",
+   "canonicalDeckSlug": "addizione-codificata-attivita-383a"
+  },
+  {
+   "mode": null,
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-codificata-meteo-b727"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "things_that_fly",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-cose-che-volano-b359"
+  },
+  {
+   "mode": null,
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-codificata-4-luglio-e9d8"
+  },
+  {
+   "mode": null,
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-codificata-mobili-b28e"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-frutta-6561"
+  },
+  {
+   "mode": null,
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-codificata-primavera-e89b"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-creature-della-foresta-67ee"
+  },
+  {
+   "mode": null,
+   "theme": "vegetables",
+   "canonicalDeckSlug": "addizione-codificata-verdure-319c"
+  },
+  {
+   "mode": null,
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-codificata-campeggio-51a6"
+  },
+  {
+   "mode": null,
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-codificata-parti-del-corpo-1702"
+  },
+  {
+   "mode": null,
+   "theme": "forest_creatures",
+   "canonicalDeckSlug": "addizione-codificata-creature-della-foresta-9b4a"
+  },
+  {
+   "mode": null,
+   "theme": "music",
+   "canonicalDeckSlug": "addizione-codificata-musica-b519"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-vita-oceanica-0a93"
+  },
+  {
+   "mode": null,
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-codificata-abbigliamento-3fe2"
+  },
+  {
+   "mode": null,
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-codificata-accessori-08ff"
+  },
+  {
+   "mode": null,
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-codificata-animali-15ab"
+  },
+  {
+   "mode": null,
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-codificata-animali-domestici-305d"
+  },
+  {
+   "mode": null,
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-codificata-attrezzi-ccc0"
+  },
+  {
+   "mode": null,
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-codificata-aula-b79a"
+  },
+  {
+   "mode": null,
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-codificata-colori-981e"
+  },
+  {
+   "mode": null,
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "addizione-codificata-dolci-e-dolciumi-b03c"
+  },
+  {
+   "mode": null,
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-codificata-fiori-1644"
+  },
+  {
+   "mode": null,
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-codificata-in-giro-per-casa-2f9d"
+  },
+  {
+   "mode": null,
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-codificata-insetti-e-scarafaggi-634f"
+  },
+  {
+   "mode": null,
+   "theme": "hospital",
+   "canonicalDeckSlug": "addizione-codificata-ospedale-ee52"
+  },
+  {
+   "mode": null,
+   "theme": "bakery",
+   "canonicalDeckSlug": "addizione-codificata-panetteria-1712"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "4th_of_july",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-4-luglio-6ea4"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "accessories",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-accessori-ef05"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "animals",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-animali-5d73"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-ufficio-postale-ace9"
+  },
+  {
+   "mode": null,
+   "theme": "easter",
+   "canonicalDeckSlug": "addizione-codificata-pasqua-4d58"
+  },
+  {
+   "mode": null,
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-codificata-rettili-e-anfibi-3225"
+  },
+  {
+   "mode": null,
+   "theme": "beach",
+   "canonicalDeckSlug": "addizione-codificata-spiaggia-af0e"
+  },
+  {
+   "mode": null,
+   "theme": "birds_2",
+   "canonicalDeckSlug": "addizione-codificata-uccelli-2-f8fd"
+  },
+  {
+   "mode": null,
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-codificata-utensili-da-cucina-3373"
+  },
+  {
+   "mode": null,
+   "theme": "miscellaneous",
+   "canonicalDeckSlug": "addizione-codificata-varie-17c0"
+  },
+  {
+   "mode": null,
+   "theme": "dinosaurs",
+   "canonicalDeckSlug": "addizione-codificata-dinosauri-0d67"
+  },
+  {
+   "mode": null,
+   "theme": "emotions",
+   "canonicalDeckSlug": "addizione-codificata-emozioni-9134"
+  },
+  {
+   "mode": null,
+   "theme": "summer",
+   "canonicalDeckSlug": "addizione-codificata-estate-477b"
+  },
+  {
+   "mode": null,
+   "theme": "fruits",
+   "canonicalDeckSlug": "addizione-codificata-frutta-02ce"
+  },
+  {
+   "mode": null,
+   "theme": "toys",
+   "canonicalDeckSlug": "addizione-codificata-giocattoli-cfcd"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "insects_and_bugs",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-insetti-e-scarafaggi-26c2"
+  },
+  {
+   "mode": null,
+   "theme": "post_office",
+   "canonicalDeckSlug": "addizione-codificata-ufficio-postale-a466"
+  },
+  {
+   "mode": null,
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-codificata-colazione-fa98"
+  },
+  {
+   "mode": null,
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-codificata-alberi-a91b"
+  },
+  {
+   "mode": null,
+   "theme": "vehicles",
+   "canonicalDeckSlug": "addizione-codificata-veicoli-e584"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "classroom",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-aula-be6c"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "camping",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-campeggio-cbe3"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "activities",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-attivita-a287"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "desserts_and_sweets",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-dolci-e-dolciumi-1fef"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "emotions",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-emozioni-3b0c"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "shapes",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-forme-a194"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "weather",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-meteo-0764"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "space",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-spazio-345b"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "vehicles",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-veicoli-0979"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "tree",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-alberi-54d7"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "pets",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-animali-domestici-2342"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "colors",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-colori-c5a7"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "flowers",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-fiori-3593"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "thanksgivinng",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-giorno-del-ringraziamento-9d77"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "winter",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-inverno-b245"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "spring",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-primavera-58a1"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "occupations",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-professioni-bc01"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "reptiles_and_amphibians",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-rettili-e-anfibi-4b49"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-uccelli-1f2a"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "kitchen_tools",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-utensili-da-cucina-583f"
+  },
+  {
+   "mode": null,
+   "theme": "birds",
+   "canonicalDeckSlug": "addizione-codificata-uccelli-3753"
+  },
+  {
+   "mode": null,
+   "theme": "ocean_life",
+   "canonicalDeckSlug": "addizione-codificata-vita-oceanica-4718"
+  },
+  {
+   "mode": null,
+   "theme": "",
+   "canonicalDeckSlug": "addizione-codificata"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "clothing",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-abbigliamento-9ac2"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "at_the_supermarket",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-al-supermercato-4ad1"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "farm_animals",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-animali-della-fattoria-a60b"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "zoo_animals",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-animali-dello-zoo-4a33"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "tools",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-attrezzi-ab82"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "breakfast",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-colazione-0697"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "around_the_house",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-in-giro-per-casa-f475"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "furniture",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-mobili-da45"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "christmas",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-natale-2fe3"
+  },
+  {
+   "mode": "secret-word",
+   "theme": "body_parts",
+   "canonicalDeckSlug": "addizione-codificata-parola-segreta-parti-del-corpo-85c5"
+  }
+ ]
+}

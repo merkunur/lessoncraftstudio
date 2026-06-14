@@ -143,17 +143,38 @@ export default async function AboutPage({ params }: { params: { locale: string }
           </p>
         </section>
 
-        {/* TODO(operator): replace teamBody placeholder with real
-            maintainer info. Wire real `sameAs` social-profile URLs into
-            `frontend/lib/seo/organization-schema.ts` when available. */}
-        <section className="mb-4">
+        {/* "How it's made" — honest org-level methodology (E-E-A-T): native
+            review + curriculum alignment + free model. EN authored 2026-06-14;
+            non-EN keep the prior placeholder until a native pass. */}
+        <section className="mb-10">
           <h2 className="font-display font-semibold text-2xl md:text-3xl text-ink-900 mb-3">
             {t('teamHeading')}
           </h2>
-          <p className="text-base md:text-lg text-ink-500 italic leading-relaxed">
+          <p className="text-base md:text-lg text-ink-700 leading-relaxed">
             {t('teamBody')}
           </p>
         </section>
+
+        {/* Tutorials → operator's YouTube channel (reinforces Organization.sameAs).
+            Guarded so non-EN locales (no tutorials keys yet) don't leak raw keys. */}
+        {t.has('tutorialsHeading') && (
+          <section className="mb-4">
+            <h2 className="font-display font-semibold text-2xl md:text-3xl text-ink-900 mb-3">
+              {t('tutorialsHeading')}
+            </h2>
+            <p className="text-base md:text-lg text-ink-700 leading-relaxed">
+              {t('tutorialsBody')}{' '}
+              <a
+                href="https://www.youtube.com/@LessonCraftStudioApps"
+                target="_blank"
+                rel="noopener"
+                className="text-teal-700 hover:text-teal-800 font-medium underline decoration-dotted underline-offset-2"
+              >
+                {t('tutorialsLinkText')}
+              </a>
+            </p>
+          </section>
+        )}
       </main>
     </>
   );

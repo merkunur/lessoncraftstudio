@@ -1,0 +1,803 @@
+{
+  "addition": {
+    "slug": "generateur-fiches-addition",
+    "name": "Générateur de fiches d'addition",
+    "tagline": "Créez des additions imagées et chiffrées en quelques secondes",
+    "metaTitle": "Générateur de fiches d'addition gratuit — à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches d'addition gratuit pour les 5-7 ans. Créez des additions imagées ou chiffrées avec corrigé — sans inscription, dans le navigateur, 11 langues.",
+    "about": [
+      "L'addition est l'une des toutes premières compétences mathématiques, et elle s'ancre mieux quand l'enfant peut voir ce qu'il fait. Ce générateur de fiches d'addition gratuit construit des sommes simples à partir d'images amusantes ou de chiffres, pour que l'enfant compte d'abord des objets avant de manipuler les nombres seuls.",
+      "Vous décidez de l'allure de la page : choisissez de petits nombres pour les débutants ou un défi un peu plus relevé, et sélectionnez un thème d'images pour que les objets soient familiers. L'enfant écrit le résultat dans la case, ce qui garde l'attention sur le calcul juste.",
+      "Chaque fiche se imprime tout de suite, et la plupart sont accompagnées d'un corrigé pour vérifier rapidement ou laisser les enfants s'auto-corriger. L'outil fonctionne dans le navigateur, sans compte, dans l'une des 11 langues proposées et entièrement gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez des additions imagées pour les plus jeunes compteurs ou des additions chiffrées pour ceux qui sont prêts.",
+      "Sélectionnez un thème et une plage de nombres adaptés à votre groupe.",
+      "Imprimez la fiche et demandez à chaque enfant d'écrire le total dans la case.",
+      "Vérifiez les sommes terminées grâce au corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Lancez une fiche d'échauffement rapide en début de séance de mathématiques.",
+      "Installez les additions imagées dans un atelier de manipulation et de comptage.",
+      "Envoyez une courte fiche à la maison pour s'entraîner avec un parent.",
+      "Associez une fiche thématique au sujet que vous explorez cette semaine."
+    ]
+  },
+  "subtraction": {
+    "slug": "generateur-fiches-soustraction",
+    "name": "Générateur de fiches de soustraction",
+    "tagline": "Construisez des soustractions imagées et chiffrées rapidement",
+    "metaTitle": "Générateur de fiches de soustraction gratuit — à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches de soustraction gratuit pour les 5-7 ans. Créez des soustractions imagées ou chiffrées avec corrigé — sans inscription, dans le navigateur, 11 langues.",
+    "about": [
+      "Enlever peut sembler plus difficile qu'ajouter : les enfants ont donc tout intérêt à voir les objets disparaître avant de manipuler les nombres. Ce générateur de fiches de soustraction gratuit crée des soustractions imagées et chiffrées, pour que les jeunes apprenants barrent les objets et trouvent ce qu'il reste.",
+      "Réglez le niveau selon votre classe : gardez de petits nombres pour les premiers essais, puis augmentez-les à mesure que la confiance grandit. Un thème d'images transforme chaque problème en une petite histoire plutôt qu'en une rangée de chiffres.",
+      "Les fiches s'impriment instantanément et la plupart incluent un corrigé : la correction est rapide et les enfants peuvent s'auto-corriger dès qu'ils sont prêts. Tout fonctionne dans le navigateur, sans connexion, en 11 langues et gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez des soustractions imagées pour les débutants ou chiffrées pour les plus grands.",
+      "Sélectionnez un thème et une plage de nombres adaptés à vos apprenants.",
+      "Imprimez la page et demandez à chaque enfant d'écrire ce qu'il reste dans la case.",
+      "Utilisez le corrigé imprimé pour vérifier ou soutenir l'auto-correction."
+    ],
+    "classroomIdeas": [
+      "Montrez ensemble comment barrer les objets au tableau avant de commencer.",
+      "Proposez la soustraction imagée à un atelier de comptage avec des objets à déplacer.",
+      "Envoyez une courte fiche d'entraînement à la maison entre deux séances.",
+      "Glissez une page thématique pour donner un contexte neuf à la même compétence."
+    ]
+  },
+  "code-addition": {
+    "slug": "generateur-addition-codee",
+    "name": "Générateur d'additions codées",
+    "tagline": "On décode les images, puis on additionne les nombres",
+    "metaTitle": "Générateur d'additions codées gratuit — décoder et additionner | LessonCraftStudio",
+    "metaDescription": "Un générateur d'additions codées gratuit pour les 5-7 ans. L'enfant décode une clé imagée puis additionne — à imprimer avec corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Ce générateur d'additions codées gratuit ajoute une petite énigme aux additions ordinaires. Une légende associe chaque image ou symbole à un nombre : l'enfant lit d'abord la clé, remplace les images par leur valeur, puis effectue l'addition.",
+      "Cette étape de décodage supplémentaire développe la lecture attentive et la correspondance terme à terme en même temps que le calcul, ce qui en fait un défi satisfaisant pour les enfants qui additionnent déjà de petits nombres avec assurance.",
+      "Choisissez un thème pour les images de la légende et une plage de nombres pour régler la difficulté. Chaque fiche s'imprime avec un corrigé, pour confirmer à la fois le décodage et les totaux. L'outil fonctionne dans tout navigateur, en 11 langues, sans compte et gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images de la légende conviennent à votre classe.",
+      "Réglez une plage de nombres adaptée au niveau de calcul de vos apprenants.",
+      "Imprimez la fiche et rappelez aux enfants de lire la clé imagée d'abord.",
+      "Vérifiez à la fois les nombres décodés et les totaux avec le corrigé."
+    ],
+    "classroomIdeas": [
+      "Présentez l'activité comme un « code secret » pour piquer la curiosité.",
+      "Utilisez-la comme prolongement pour les enfants qui terminent l'addition simple vite.",
+      "Décodez une addition ensemble avant que les enfants ne travaillent seuls.",
+      "Reliez le thème de la légende à un sujet en cours pour un défi thématique."
+    ]
+  },
+  "more-less": {
+    "slug": "generateur-comparaison-quantites",
+    "name": "Générateur de comparaison de quantités",
+    "tagline": "Comparer deux groupes : plus, moins ou autant",
+    "metaTitle": "Générateur de comparaison de quantités gratuit — plus ou moins | LessonCraftStudio",
+    "metaDescription": "Un générateur de comparaison de quantités gratuit pour les 3-5 ans. L'enfant compare des groupes d'images et marque plus, moins ou autant — à imprimer, sans inscription, 11 langues.",
+    "about": [
+      "Avant de compter avec précision, les enfants doivent ressentir la quantité, et c'est par la comparaison que cela commence. Ce générateur de comparaison de quantités gratuit montre deux groupes d'images côte à côte et demande à l'enfant de décider lequel en a plus, lequel en a moins, ou s'ils sont identiques.",
+      "Comme l'accent est mis sur la comparaison plutôt que sur le total exact, même de très jeunes apprenants peuvent participer en observant et en raisonnant. Marquer la réponse garde la tâche simple et claire pour les petites mains.",
+      "Choisissez un thème d'images pour rendre les groupes attrayants et imprimez la page quand vous le souhaitez. La plupart des fiches incluent un corrigé pour une vérification rapide. L'outil fonctionne dans le navigateur, en 11 langues, sans rien installer et gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les deux groupes utilisent des images familières.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants de regarder les deux groupes et de marquer plus, moins ou autant.",
+      "Vérifiez les réponses avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Utilisez-la pendant une discussion « combien y en a-t-il ? » en regroupement.",
+      "Installez-la dans un atelier de mathématiques avec de vrais objets à comparer.",
+      "Modélisez les mots « plus », « moins » et « autant » en marquant un exemple ensemble.",
+      "Envoyez une fiche à la maison pour s'entraîner à comparer des groupes du quotidien."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "generateur-puzzle-maths",
+    "name": "Générateur de puzzles mathématiques",
+    "tagline": "Puzzles d'opérations mixtes avec parties manquantes",
+    "metaTitle": "Générateur de puzzles mathématiques gratuit — à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de puzzles mathématiques gratuit pour les 6-8 ans. Créez des puzzles d'opérations mixtes avec nombres manquants et corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Ce générateur de puzzles mathématiques gratuit transforme le calcul en jeu de réflexion. Au lieu d'une opération directe, un nombre ou un signe est laissé vide, et l'enfant doit raisonner à rebours pour trouver ce qui manque.",
+      "Compléter un nombre ou un signe manquant développe une compréhension plus profonde du lien entre addition et soustraction, ce qui aide les enfants à dépasser les faits mémorisés vers un véritable sens du nombre.",
+      "Vous pouvez mélanger les opérations et régler la difficulté selon votre groupe ; chaque puzzle s'imprime avec un corrigé, la correction est donc simple. La variété pousse les enfants à réfléchir plutôt qu'à deviner. L'outil s'ouvre dans tout navigateur, en 11 langues, sans connexion ni téléchargement."
+    ],
+    "howToUse": [
+      "Choisissez les opérations à inclure et leur niveau de difficulté.",
+      "Imprimez la fiche de puzzles pour votre classe.",
+      "Demandez aux enfants de trouver le nombre ou le signe manquant dans chaque ligne.",
+      "Confirmez chaque réponse avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Utilisez un puzzle comme court échauffement pour ouvrir la séance de maths.",
+      "Proposez-le en prolongement aux enfants prêts à raisonner et non à réciter.",
+      "Résolvez une ligne difficile ensemble en verbalisant le raisonnement.",
+      "Proposez un petit lot comme défi pour les enfants qui finissent tôt."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "generateur-exercices-maths",
+    "name": "Générateur d'exercices de maths",
+    "tagline": "Entraînement au calcul avec des types de problèmes variés",
+    "metaTitle": "Générateur d'exercices de maths gratuit — calcul à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur d'exercices de maths gratuit pour les 5-7 ans. Créez des fiches de calcul variées avec corrigé — sans inscription, dans le navigateur, 11 langues.",
+    "about": [
+      "Parfois il suffit d'une page d'entraînement bien nette, et ce générateur d'exercices de maths gratuit fait exactement cela. Il construit une fiche de calcul générale mêlant différents types de problèmes, pour un entraînement varié et complet au même endroit.",
+      "Comme les problèmes varient, les enfants ne peuvent pas se reposer sur un seul schéma : ils doivent lire chaque question et choisir comment la résoudre, ce qui les garde attentifs et flexibles.",
+      "Réglez le niveau selon vos apprenants, imprimez la fiche et utilisez le corrigé pour la corriger rapidement. C'est une façon simple d'avoir toujours de l'entraînement frais sans préparation. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni téléchargement, gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez les types de problèmes et la difficulté pour votre groupe.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants de lire chaque problème attentivement et de le résoudre.",
+      "Vérifiez la page avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Utilisez-la comme révision hebdomadaire rapide des compétences enseignées.",
+      "Proposez-la en travail autonome pendant que vous menez un petit groupe.",
+      "Envoyez-en une à la maison comme entraînement léger et varié.",
+      "Composez une courte fiche pour une évaluation formative rapide en fin de séquence."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "generateur-train-alphabet",
+    "name": "Générateur du train de l'alphabet",
+    "tagline": "Complétez les lettres manquantes le long d'un train sympathique",
+    "metaTitle": "Générateur du train de l'alphabet gratuit — lettres manquantes | LessonCraftStudio",
+    "metaDescription": "Un générateur du train de l'alphabet gratuit pour les 3-5 ans. L'enfant complète les lettres manquantes le long d'un train — corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Apprendre l'ordre de l'alphabet devient un jeu quand il roule le long d'un train. Ce générateur du train de l'alphabet gratuit dispose les lettres en wagons avec quelques trous, et l'enfant écrit les lettres manquantes pour faire avancer la suite.",
+      "Trouver quelle lettre vient ensuite renforce à la fois l'ordre des lettres et leur reconnaissance, et la forme du train offre aux petits apprenants un chemin clair de gauche à droite à suivre.",
+      "Vous pouvez ajuster le nombre de lettres manquantes selon votre groupe, et chaque train s'imprime avec un corrigé. La forme joyeuse du train rend l'alphabet accueillant plutôt qu'évaluatif. L'outil s'ouvre dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez combien de lettres laisser vides pour vos apprenants.",
+      "Imprimez le train de l'alphabet pour chaque enfant.",
+      "Demandez aux enfants de lire le train et d'écrire les lettres manquantes dans l'ordre.",
+      "Vérifiez le train complété avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Chantez ou récitez l'alphabet ensemble avant que les enfants ne comblent les trous.",
+      "Utilisez-le dans un atelier de langage avec des lettres magnétiques.",
+      "Commencez par un ou deux trous, puis ajoutez-en à mesure des progrès.",
+      "Envoyez un train à la maison pour réviser l'ordre des lettres avec un adulte."
+    ]
+  },
+  "prepositions": {
+    "slug": "generateur-fiches-prepositions",
+    "name": "Générateur de fiches sur les prépositions",
+    "tagline": "Choisissez le bon mot de position pour chaque image",
+    "metaTitle": "Générateur de fiches prépositions gratuit — mots de position | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches sur les prépositions gratuit pour les 5-7 ans. L'enfant choisit dans, sur, sous à partir de scènes imagées — à imprimer, corrigé, 11 langues.",
+    "about": [
+      "Les mots de position comme dans, sur, sous et à côté décrivent où se trouvent les choses, et les enfants les saisissent plus facilement avec une image sous les yeux. Ce générateur de fiches sur les prépositions gratuit montre une petite scène et demande à l'enfant de choisir le mot qui décrit où se situe un objet.",
+      "Associer la bonne préposition à une image claire développe à la fois le vocabulaire spatial et l'observation attentive, et donne aux jeunes lecteurs une façon concrète d'employer des mots qu'ils entendent chaque jour.",
+      "Choisissez un thème pour les scènes et imprimez la fiche, accompagnée d'un corrigé pour une vérification rapide. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni installation, et gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les scènes imagées conviennent à votre classe.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants d'observer chaque scène et de choisir le bon mot de position.",
+      "Vérifiez les mots choisis avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Mimez une préposition avec un jouet et une boîte avant que les enfants ne commencent.",
+      "Utilisez-la pour soutenir une discussion riche en langage « où est-il ? ».",
+      "Associez-la à des objets familiers de la classe pour un prolongement concret.",
+      "Reliez le thème des scènes à une histoire que vous lisez ensemble."
+    ]
+  },
+  "word-guess": {
+    "slug": "generateur-deviner-mots",
+    "name": "Générateur de devinettes de mots",
+    "tagline": "Créez des devinettes de mots illustrées en quelques minutes",
+    "metaTitle": "Générateur de devinettes de mots gratuit — mots illustrés | LessonCraftStudio",
+    "metaDescription": "Un générateur de devinettes de mots gratuit pour les jeunes lecteurs. Créez des puzzles illustrés à partir de vos mots, avec corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Une devinette de mot montre une image et une rangée de cases vides : l'enfant trouve le mot et l'écrit lettre par lettre. Ce générateur de devinettes de mots gratuit construit le puzzle à partir de vos propres mots, chacun associé à une image claire, pour que même les lecteurs débutants participent.",
+      "Comme les mots sont les vôtres, le puzzle colle à la classe : premiers sons, mots de dictée ou vocabulaire du thème. Regarder une image et décoder son mot relie le sens, le son et l'orthographe : c'est exactement ainsi que la lecture débutante se construit.",
+      "Chaque puzzle s'imprime avec un corrigé, fonctionne dans le navigateur sans compte ni installation, et existe en 11 langues. La fiche terminée est gratuite à imprimer et à utiliser comme votre classe en a besoin."
+    ],
+    "howToUse": [
+      "Saisissez les mots à deviner ; chacun est associé à une image.",
+      "Imprimez la fiche et demandez aux enfants de nommer l'image puis d'écrire le mot dans les cases.",
+      "Encouragez les enfants à décoder le mot et à remplir d'abord les lettres dont ils sont sûrs.",
+      "Vérifiez les mots ensemble grâce au corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Construisez une fiche à partir des mots de son ou de dictée de la semaine.",
+      "Utilisez les indices imagés pour relier le sens d'un mot à son orthographe.",
+      "Créez une devinette thématique comme révision ludique de fin de séquence.",
+      "Laissez les enfants rapides deviner quelques mots bonus pendant que les autres finissent."
+    ]
+  },
+  "word-scramble": {
+    "slug": "generateur-mots-melanges",
+    "name": "Générateur de mots mélangés",
+    "tagline": "On remet les lettres dans l'ordre grâce à un indice imagé",
+    "metaTitle": "Générateur de mots mélangés gratuit — orthographe à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de mots mélangés gratuit pour les 6-8 ans. L'enfant remet les lettres dans l'ordre avec un indice imagé — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Remettre des lettres mélangées dans l'ordre est une façon rapide et amusante de travailler l'orthographe. Ce générateur de mots mélangés gratuit brouille les lettres de chaque mot et l'associe à un indice imagé, pour que l'enfant ait un but vers lequel tendre.",
+      "Recomposer un mot pousse l'enfant à garder des lettres en tête, à essayer des arrangements et à décoder, ce qui renforce à la fois l'orthographe et la phonologie dans un puzzle sans pression.",
+      "Choisissez un thème d'images pour que les mots collent à votre sujet, puis imprimez la fiche avec son corrigé. Des mots thématiques relient joliment l'entraînement orthographique à ce que vous étudiez cette semaine. L'outil fonctionne dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les mots mélangés correspondent à votre vocabulaire.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants d'utiliser l'indice imagé et d'écrire le mot remis dans l'ordre.",
+      "Vérifiez les orthographes avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Résolvez un mélange ensemble en disant chaque son à voix haute.",
+      "Utilisez-la pour réviser le vocabulaire du thème en fin de semaine.",
+      "Installez-la en atelier d'orthographe avec des lettres à déplacer.",
+      "Envoyez un court mélange à la maison pour un entraînement orthographique ludique."
+    ]
+  },
+  "wordsearch": {
+    "slug": "generateur-mots-caches",
+    "name": "Générateur de mots cachés",
+    "tagline": "Créez des grilles de mots cachés sur mesure avec des images thématiques",
+    "metaTitle": "Générateur de mots cachés gratuit — grilles personnalisées | LessonCraftStudio",
+    "metaDescription": "Un générateur de mots cachés gratuit pour enseignants. Saisissez vos mots, choisissez la taille et le thème, imprimez une grille avec corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Une grille de mots cachés invite les enfants à chercher des mots dissimulés parmi une grille de lettres : une manière calme et concentrée de travailler l'orthographe et le balayage visuel. Ce générateur de mots cachés gratuit en construit une à partir de votre liste de mots : saisissez les mots, choisissez la taille de la grille, et le puzzle se met en place avec un corrigé prêt à imprimer.",
+      "Comme la liste de mots est la vôtre, la grille colle parfaitement à la classe : graphies étudiées, vocabulaire du thème, prénoms ou mots outils. Gardez une petite grille avec des mots de gauche à droite pour les plus jeunes, ou agrandissez-la et ajoutez les diagonales à mesure qu'ils gagnent en assurance.",
+      "L'outil fonctionne dans le navigateur, sans rien installer ni aucun compte à créer, en 11 langues, et des images thématiques peuvent accompagner la grille pour la rendre attrayante. La grille terminée est gratuite à imprimer et à utiliser en classe."
+    ],
+    "howToUse": [
+      "Saisissez les mots à trouver et choisissez une taille de grille adaptée à l'âge.",
+      "Imprimez la fiche et demandez aux enfants d'entourer chaque mot trouvé.",
+      "Utilisez la liste de mots sur le côté comme aide pour savoir quoi chercher.",
+      "Vérifiez les grilles terminées avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Transformez une graphie en mots cachés pour que les enfants relisent le même son.",
+      "Construisez une grille thématique pour introduire ou réviser le vocabulaire d'un sujet.",
+      "Faites une petite grille de gauche à droite pour les débutants et une plus grande pour les grands.",
+      "Utilisez une grille comme tâche d'accueil calme en début de journée."
+    ]
+  },
+  "cryptogram": {
+    "slug": "generateur-cryptogramme",
+    "name": "Générateur de cryptogrammes",
+    "tagline": "Créez des cryptogrammes illustrés à imprimer sur tous les thèmes",
+    "metaTitle": "Générateur de cryptogrammes gratuit — cryptogrammes illustrés | LessonCraftStudio",
+    "metaDescription": "Un générateur de cryptogrammes gratuit pour la classe. Choisissez un thème, saisissez vos mots, imprimez un cryptogramme avec corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Un cryptogramme transforme la lecture en énigme amicale : chaque lettre se cache derrière une petite image ou un symbole, et les enfants déchiffrent le code pour révéler les mots. Ce générateur de cryptogrammes gratuit permet à l'enseignant d'en créer un en moins d'une minute : choisissez un thème, saisissez les mots voulus, et la page met en place la clé imagée et le message codé.",
+      "Comme vous choisissez les mots, le puzzle correspond exactement à ce que votre classe apprend : la liste de dictée de la semaine, le vocabulaire d'une histoire ou des prénoms d'un thème. Le générateur puise dans une bibliothèque de plus de 3 000 images thématiques, pour que les symboles soient accueillants plutôt qu'abstraits pour les jeunes lecteurs.",
+      "Tout s'imprime proprement sous forme de fiche, avec un corrigé à côté. Il n'y a aucun compte à créer ni rien à installer : l'outil fonctionne dans le navigateur, existe en 11 langues, et le puzzle terminé est entièrement gratuit à utiliser en classe."
+    ],
+    "howToUse": [
+      "Choisissez un thème et saisissez les mots ou le court message à décoder.",
+      "Imprimez la fiche et distribuez la clé imagée pour associer chaque symbole à sa lettre.",
+      "Laissez les enfants déchiffrer en binôme, un mot à la fois.",
+      "Utilisez le corrigé pour vérifier la solution ensemble à la fin."
+    ],
+    "classroomIdeas": [
+      "Cachez les mots de dictée de la semaine dans un cryptogramme pour les enfants rapides.",
+      "Construisez un cryptogramme à partir du vocabulaire d'une histoire en échauffement.",
+      "Créez un court message codé — une récompense de classe ou une devinette — à révéler.",
+      "Associez un cryptogramme à un thème pour décoder les mots à venir."
+    ]
+  },
+  "writing": {
+    "slug": "generateur-fiches-ecriture",
+    "name": "Générateur de fiches d'écriture",
+    "tagline": "Des fiches guidées pour s'entraîner aux lettres et aux mots",
+    "metaTitle": "Générateur de fiches d'écriture gratuit — graphisme à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches d'écriture gratuit pour les 4-7 ans. Créez des fiches de lettres et de mots avec lignages — sans inscription, dans le navigateur, 11 langues.",
+    "about": [
+      "Une écriture soignée vient d'un entraînement régulier et répété sur des lignes qui montrent à l'enfant où placer les lettres. Ce générateur de fiches d'écriture gratuit crée des fiches d'entraînement à imprimer avec des lignages clairs pour repasser et tracer lettres et mots.",
+      "Le lignage aide l'enfant à maîtriser la hauteur et le placement des lettres, tandis que repasser d'abord puis écrire ensuite construit la mémoire du geste qui rend l'écriture naturelle avec le temps.",
+      "Vous choisissez les lettres ou les mots à travailler, puis vous imprimez la fiche pour votre classe. C'est une activité papier-crayon, sans corrigé en ligne. C'est une façon rapide de donner à chaque enfant les bonnes lettres à travailler. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Saisissez les lettres ou les mots que les enfants doivent travailler.",
+      "Imprimez la fiche guidée pour chaque enfant.",
+      "Faites repasser le modèle d'abord, puis écrire en autonomie.",
+      "Surveillez le bon tracé des lettres et donnez de petits rappels en douceur."
+    ],
+    "classroomIdeas": [
+      "Utilisez une fiche d'échauffement quotidienne pour installer un rituel d'écriture.",
+      "Travaillez les lettres du son étudié cette semaine.",
+      "Installez-la dans un coin écriture avec des crayons confortables.",
+      "Envoyez une fiche à la maison pour que les familles soutiennent les mêmes lettres."
+    ]
+  },
+  "big-small": {
+    "slug": "generateur-fiches-grand-petit",
+    "name": "Générateur de fiches grand et petit",
+    "tagline": "On marque quelle image est grande et laquelle est petite",
+    "metaTitle": "Générateur de fiches grand et petit gratuit — tri par taille | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches grand et petit gratuit pour les 3-5 ans. L'enfant compare la taille des images et marque grand ou petit — à imprimer, corrigé, 11 langues.",
+    "about": [
+      "Comparer la taille est l'une des premières façons dont les enfants décrivent le monde, et cela pose les bases de la mesure plus tard. Ce générateur de fiches grand et petit gratuit montre le même genre d'image à deux tailles et demande à l'enfant de marquer laquelle est grande et laquelle est petite.",
+      "Comme la tâche consiste uniquement à observer et à comparer, même les non-lecteurs participent avec assurance, construisant au passage le vocabulaire de grand, petit, plus grand et plus petit.",
+      "Choisissez un thème sympathique pour les images et imprimez la fiche, accompagnée d'un corrigé pour une vérification rapide. Des images thématiques familières aident les jeunes enfants à rester intéressés en comparant. L'outil fonctionne dans le navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images soient familières à votre groupe.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants de marquer l'image grande et l'image petite.",
+      "Vérifiez les réponses avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Comparez deux objets réels de la classe avant que les enfants ne commencent.",
+      "Utilisez-la dans un atelier de tri avec des jouets grands et petits.",
+      "Modélisez les mots grand, petit, plus grand et plus petit au fil de l'activité.",
+      "Envoyez une fiche à la maison pour repérer les choses grandes et petites du quotidien."
+    ]
+  },
+  "pattern-train": {
+    "slug": "generateur-train-suites-logiques",
+    "name": "Générateur du train des suites logiques",
+    "tagline": "On choisit ce qui vient ensuite dans la suite d'images",
+    "metaTitle": "Générateur du train des suites logiques gratuit — la suite | LessonCraftStudio",
+    "metaDescription": "Un générateur du train des suites logiques gratuit pour les 5-7 ans. L'enfant trouve ce qui vient ensuite le long d'un train — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Repérer une régularité et prédire ce qui vient ensuite, c'est de l'algèbre déguisée. Ce générateur du train des suites logiques gratuit montre une suite d'images répétée le long d'un train avec un wagon laissé vide, et l'enfant trouve quelle image comble le trou.",
+      "Continuer une suite demande à l'enfant de repérer la règle, de la garder en tête et de l'appliquer, ce qui aiguise le raisonnement et l'attention de façon ludique et visuelle.",
+      "Choisissez un thème pour les images de la suite et réglez la difficulté selon votre groupe. Chaque train s'imprime avec un corrigé pour une vérification rapide. Le train sympathique garde la suite claire et de gauche à droite. L'outil s'ouvre dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème et la complexité de la suite répétée.",
+      "Imprimez le train des suites logiques pour votre classe.",
+      "Demandez aux enfants de dire la suite à voix haute et de choisir ce qui vient ensuite.",
+      "Vérifiez l'image choisie avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Tapez ou scandez une suite ensemble avant d'essayer la fiche.",
+      "Construisez une suite identique avec des cubes dans un atelier.",
+      "Commencez par des suites simples ABAB, puis ajoutez de la complexité.",
+      "Reliez le thème de la suite à votre sujet en cours."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "generateur-fiches-sequences-logiques",
+    "name": "Générateur de fiches de séquences logiques",
+    "tagline": "On complète chaque rangée de suites d'images et de formes",
+    "metaTitle": "Générateur de fiches de séquences logiques gratuit — à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches de séquences logiques gratuit pour les 6-8 ans. L'enfant complète des rangées de suites d'images et de formes — à imprimer, corrigé, 11 langues.",
+    "about": [
+      "Ce générateur de fiches de séquences logiques gratuit propose plusieurs suites à terminer sur une même page, en s'appuyant sur les répétitions simples rencontrées plus jeunes. Chaque rangée montre une suite d'images ou de formes que l'enfant complète.",
+      "Avec davantage de rangées et des règles plus riches, les enfants s'entraînent à lire une suite attentivement, à identifier le motif répété et à le prolonger avec justesse, ce qui approfondit le raisonnement à l'origine de l'algèbre. Voir plusieurs suites à la fois aide aussi à comparer différents types de règles.",
+      "Choisissez un thème et une difficulté adaptés à votre classe, puis imprimez la fiche avec son corrigé pour une correction rapide. Plusieurs suites sur une page permettent de proposer beaucoup d'entraînement en une seule fois. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème et le niveau de difficulté des suites.",
+      "Imprimez la fiche pour chaque enfant.",
+      "Demandez aux enfants de trouver la règle de chaque rangée et de la compléter.",
+      "Vérifiez les rangées terminées avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Discutez d'abord en classe du motif répété d'une suite.",
+      "Proposez-la en travail autonome après une mini-leçon sur les suites.",
+      "Offrez des suites plus difficiles en prolongement pour les enfants rapides.",
+      "Combinez des rangées d'images et de formes pour un entraînement varié."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "generateur-dessin-quadrillage",
+    "name": "Générateur de dessin sur quadrillage",
+    "tagline": "On reproduit une image case par case, puis on la colorie",
+    "metaTitle": "Générateur de dessin sur quadrillage gratuit — reproduire et colorier | LessonCraftStudio",
+    "metaDescription": "Un générateur de dessin sur quadrillage gratuit pour les 5-8 ans. L'enfant reproduit une image case par case puis la colorie — PDF à imprimer, sans inscription, 11 langues.",
+    "about": [
+      "Reproduire une image une case à la fois aide les enfants à ralentir et à vraiment observer, et ce générateur de dessin sur quadrillage gratuit en fait une activité calme et gratifiante. Un modèle figure sur un quadrillage, et l'enfant le recrée case par case sur un quadrillage vierge avant de le colorier.",
+      "Le quadrillage découpe une image entière en parties gérables, ce qui développe le repérage dans l'espace, l'observation attentive et la maîtrise du crayon, tout en offrant à l'enfant la fierté de dessiner lui-même.",
+      "Choisissez une image thématique et imprimez l'activité en PDF pour un travail au crayon et aux feutres. Il n'y a pas de corrigé en ligne, car l'œuvre terminée est le résultat. L'outil fonctionne dans le navigateur, en 11 langues, sans connexion."
+    ],
+    "howToUse": [
+      "Choisissez une image thématique à reproduire.",
+      "Imprimez le PDF avec le modèle quadrillé et le quadrillage vierge.",
+      "Demandez aux enfants de reproduire l'image une case à la fois.",
+      "Laissez les enfants colorier le dessin terminé à leur goût."
+    ],
+    "classroomIdeas": [
+      "Utilisez-la comme activité calme et concentrée après des séances animées.",
+      "Installez-la dans un coin arts plastiques ou motricité fine.",
+      "Discutez de la case par laquelle commencer pour soutenir la planification.",
+      "Affichez les dessins terminés ensemble comme œuvre collective de la classe."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "generateur-fiches-graphisme",
+    "name": "Générateur de fiches de graphisme",
+    "tagline": "On repasse des tracés droits, courbes et en zigzag",
+    "metaTitle": "Générateur de fiches de graphisme gratuit — tracés à repasser | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches de graphisme gratuit pour les 3-5 ans. L'enfant repasse des tracés droits, courbes et zigzag pour la motricité fine — PDF, sans inscription, 11 langues.",
+    "about": [
+      "Avant d'écrire les lettres, l'enfant a besoin de mains sûres et d'une bonne maîtrise du crayon. Ce générateur de fiches de graphisme gratuit crée des fiches de pré-écriture remplies de tracés pointillés à repasser : lignes droites, courbes douces et zigzags entraînants.",
+      "Suivre un tracé du début à la fin entraîne les petits muscles et la coordination œil-main dont dépend l'écriture, et la variété des formes de lignes garde l'entraînement frais et amusant.",
+      "Imprimez les fiches en PDF pour un travail au crayon ; comme le but est le tracé lui-même, il n'y a pas de corrigé. C'est une façon simple et prête à l'emploi de construire la maîtrise dont l'écriture a besoin. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Choisissez les types de lignes voulus, du tracé droit au courbe au zigzag.",
+      "Imprimez la fiche d'entraînement en PDF pour chaque enfant.",
+      "Montrez aux enfants comment repasser chaque tracé pointillé du début à la fin.",
+      "Encouragez une bonne tenue du crayon et des gestes réguliers et fluides."
+    ],
+    "classroomIdeas": [
+      "Utilisez-la comme échauffement quotidien de motricité fine avant d'écrire.",
+      "Installez-la à un atelier avec de gros crayons et des feutres.",
+      "Tracez ensemble une grande version dans l'air d'abord.",
+      "Envoyez une fiche à la maison pour développer la pré-écriture avec les familles."
+    ]
+  },
+  "coloring": {
+    "slug": "generateur-pages-coloriage",
+    "name": "Générateur de pages de coloriage",
+    "tagline": "On transforme des images au trait thématiques en coloriages à imprimer",
+    "metaTitle": "Générateur de pages de coloriage gratuit — coloriages à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de pages de coloriage gratuit pour les 3-7 ans. Créez des coloriages thématiques au trait depuis une grande bibliothèque d'images — PDF, sans inscription, 11 langues.",
+    "about": [
+      "Colorier est apaisant, créatif et idéal pour les petites mains, et ce générateur de pages de coloriage gratuit vous laisse composer des pages en un instant à partir d'une grande bibliothèque d'images au trait thématiques. Choisissez les images voulues et imprimez des contours nets et adaptés aux enfants.",
+      "Remplir des contours aide l'enfant à développer la maîtrise du crayon et la conscience des couleurs tout en lui laissant un espace d'expression, ce qui en fait une activité douce et sans écran qui convient à un large éventail d'âges.",
+      "Les pages s'impriment en PDF, prêtes pour les crayons ou les feutres, sans corrigé nécessaire. Avec des milliers d'images au choix, vous trouvez toujours une page adaptée au moment. L'outil fonctionne dans tout navigateur, en 11 langues, et ne demande jamais de connexion ni d'installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème et les images au trait souhaitées.",
+      "Imprimez la page de coloriage en PDF.",
+      "Distribuez des crayons de couleur ou des feutres.",
+      "Laissez les enfants colorier les images librement."
+    ],
+    "classroomIdeas": [
+      "Utilisez une page thématique pour apaiser la classe en début de journée.",
+      "Associez les images à une histoire ou à un sujet que vous explorez.",
+      "Proposez-la comme choix calme pendant le temps de jeu libre.",
+      "Envoyez une page de coloriage à la maison pour une activité détendue en famille."
+    ]
+  },
+  "chart-count": {
+    "slug": "generateur-graphique-images",
+    "name": "Générateur de graphiques d'images",
+    "tagline": "On compte les images et on remplit le diagramme en barres",
+    "metaTitle": "Générateur de graphiques d'images gratuit — diagrammes en barres | LessonCraftStudio",
+    "metaDescription": "Un générateur de graphiques d'images gratuit pour les 5-7 ans. L'enfant compte des images et remplit un diagramme par catégorie — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Lire et construire des graphiques simples est une première compétence en données, et les images la rendent accessible. Ce générateur de graphiques d'images gratuit montre des groupes d'objets et un diagramme en barres vide, et l'enfant compte chaque sorte d'image puis remplit la barre correspondante.",
+      "Transformer un comptage en barre aide l'enfant à relier la quantité à une hauteur visuelle, une étape importante vers la compréhension des graphiques et la comparaison des quantités d'un coup d'œil.",
+      "Choisissez un thème pour les images et imprimez la fiche avec son corrigé pour une vérification rapide. C'est un premier pas doux et concret vers la lecture et la création de graphiques. L'outil s'ouvre dans le navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les objets à compter conviennent à votre classe.",
+      "Imprimez la fiche de graphique pour chaque enfant.",
+      "Demandez aux enfants de compter chaque sorte d'image et de remplir la barre correspondante.",
+      "Vérifiez le diagramme terminé avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Construisez un diagramme de classe à partir d'objets réels avant la fiche.",
+      "Utilisez-la pour noter les résultats d'un petit sondage de classe.",
+      "Discutez ensemble de la barre la plus haute et la plus basse.",
+      "Installez-la dans un atelier de mathématiques comme entraînement aux données."
+    ]
+  },
+  "matching": {
+    "slug": "generateur-fiches-association",
+    "name": "Générateur de fiches d'association",
+    "tagline": "On relie par un trait les images qui vont ensemble",
+    "metaTitle": "Générateur de fiches d'association gratuit — relier les paires | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches d'association gratuit pour les 5-7 ans. L'enfant relie par un trait les paires d'images qui vont ensemble — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Associer des paires est une façon claire et gratifiante pour l'enfant de montrer ce qu'il sait. Ce générateur de fiches d'association gratuit place les images en deux colonnes, et l'enfant trace un trait pour relier chacune à son partenaire de l'autre côté.",
+      "Relier les bonnes paires développe la discrimination visuelle et le raisonnement sur les liens entre les choses, et le simple tracé de trait garde la tâche accessible aux jeunes apprenants.",
+      "Choisissez un thème pour que les associations collent à votre sujet, puis imprimez la fiche avec son corrigé pour une vérification rapide. C'est une façon souple de vérifier la compréhension des liens entre les choses. L'outil fonctionne dans tout navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les paires d'images conviennent à votre leçon.",
+      "Imprimez la fiche d'association pour chaque enfant.",
+      "Demandez aux enfants de tracer un trait de chaque image vers son partenaire.",
+      "Vérifiez les paires reliées avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Modélisez une association au tableau en expliquant pourquoi la paire va ensemble.",
+      "Utilisez-la pour réviser un vocabulaire thématique ou des notions liées.",
+      "Installez-la à un atelier avec de vraies cartes à associer d'abord.",
+      "Envoyez une fiche d'association à la maison pour un entraînement rapide et clair."
+    ]
+  },
+  "grid-match": {
+    "slug": "generateur-puzzle-grille",
+    "name": "Générateur de puzzle sur grille",
+    "tagline": "On place chaque image dans la bonne case de la grille",
+    "metaTitle": "Générateur de puzzle sur grille gratuit — activité sur grille | LessonCraftStudio",
+    "metaDescription": "Un générateur de puzzle sur grille gratuit pour les 5-7 ans. L'enfant place ou dessine chaque image dans la bonne case — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Travailler dans une grille demande à l'enfant de suivre attentivement les lignes et les colonnes, et ce générateur de puzzle sur grille gratuit construit une activité autour de cela. L'enfant trouve où chaque image doit aller et la place ou la dessine dans la bonne case.",
+      "Lire une position sur une grille renforce le repérage dans l'espace et l'association attentive, des compétences qui soutiennent aussi bien la géométrie débutante que la lecture d'un tableau plus tard. Cela encourage aussi un travail ordonné, de gauche à droite et de haut en bas.",
+      "Choisissez un thème pour les images et imprimez la fiche, accompagnée d'un corrigé pour une vérification rapide. Travailler dans une grille prépare aussi très bien à la lecture de tableaux plus tard. L'outil fonctionne dans le navigateur, en 11 langues, sans connexion ni téléchargement."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images de la grille conviennent à votre groupe.",
+      "Imprimez la fiche de puzzle sur grille pour chaque enfant.",
+      "Demandez aux enfants de placer ou de dessiner chaque image dans sa case.",
+      "Vérifiez la grille terminée avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Montrez ensemble les lignes et les colonnes avant que les enfants ne commencent.",
+      "Utilisez-la comme défi d'observation attentive à un atelier de mathématiques.",
+      "Commencez par une petite grille et agrandissez-la à mesure des progrès.",
+      "Reliez le thème des images à votre sujet en cours."
+    ]
+  },
+  "shadow-match": {
+    "slug": "generateur-discrimination-visuelle",
+    "name": "Générateur de discrimination visuelle",
+    "tagline": "On associe chaque image à sa bonne ombre",
+    "metaTitle": "Générateur de discrimination visuelle gratuit — associer les ombres | LessonCraftStudio",
+    "metaDescription": "Un générateur de discrimination visuelle gratuit pour les 5-7 ans. L'enfant associe chaque image à sa silhouette — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Associer une image à son ombre est un délicieux test d'observation attentive. Ce générateur de discrimination visuelle gratuit montre des images colorées à côté de leurs silhouettes noires, et l'enfant relie chaque image à l'ombre qui lui correspond exactement.",
+      "Comme les ombres effacent la couleur et les détails, l'enfant doit se concentrer sur la forme et le contour, ce qui aiguise la discrimination visuelle et l'attention dans un puzzle qui ressemble à un jeu. Cette même attention au contour soutient aussi la reconnaissance débutante des lettres et des formes.",
+      "Choisissez un thème pour les images et imprimez la fiche, accompagnée d'un corrigé pour une vérification rapide. Le contraste entre la couleur pleine et l'ombre simple la rend à la fois apaisante et captivante. L'outil fonctionne dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images et les ombres conviennent à votre classe.",
+      "Imprimez la fiche de discrimination visuelle pour chaque enfant.",
+      "Demandez aux enfants d'associer chaque image à sa bonne ombre.",
+      "Vérifiez les associations avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Créez de vraies ombres avec une lampe et des objets pour l'introduire.",
+      "Utilisez-la comme atelier de perception visuelle ciblée.",
+      "Discutez de la façon dont la forme seule aide à reconnaître un objet.",
+      "Reliez le thème des images à une histoire ou à un sujet."
+    ]
+  },
+  "bingo": {
+    "slug": "generateur-cartes-bingo",
+    "name": "Générateur de cartes de bingo",
+    "tagline": "Cartes de bingo imagées et cartes d'appel à imprimer",
+    "metaTitle": "Générateur de cartes de bingo gratuit — bingo imagé à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de cartes de bingo gratuit pour les 5-7 ans. Créez des cartes de bingo imagées et des cartes d'appel pour des jeux de vocabulaire — sans inscription, 11 langues.",
+    "about": [
+      "Le bingo est une façon joyeuse de travailler le vocabulaire ensemble, et ce générateur de cartes de bingo gratuit construit des cartes imagées et les cartes d'appel correspondantes en quelques clics. Chaque enfant reçoit une carte d'images thématiques pendant que vous les annoncez une à une.",
+      "Écouter une image et la marquer développe la reconnaissance des mots, le vocabulaire et l'écoute, et l'énergie partagée du jeu rend les nouveaux mots mémorables pour toute la classe. Comme chaque carte est un peu différente, les enfants restent attentifs tout au long de la manche.",
+      "Choisissez un thème pour que les images collent à votre sujet, puis imprimez assez de cartes variées pour votre groupe avec les cartes d'appel. L'outil fonctionne dans le navigateur, en 11 langues, sans compte requis, et gratuitement."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images de bingo correspondent à votre vocabulaire.",
+      "Imprimez une carte de bingo par enfant et le jeu de cartes d'appel.",
+      "Annoncez les images une à une et faites-les marquer par les enfants.",
+      "Célébrez une ligne complète ou une carte pleine comme ligne gagnante."
+    ],
+    "classroomIdeas": [
+      "Utilisez-le pour réviser le vocabulaire d'un thème dans un jeu de classe animé.",
+      "Annoncez les mots dans une autre langue pour les apprenants en langues.",
+      "Laissez un enfant être le meneur pour s'entraîner à lire les images.",
+      "Lancez une manche rapide comme ouverture de séance ou transition."
+    ]
+  },
+  "picture-sort": {
+    "slug": "generateur-tri-images",
+    "name": "Générateur de tri d'images",
+    "tagline": "On range chaque image sous la bonne catégorie",
+    "metaTitle": "Générateur de tri d'images gratuit — tri et catégories | LessonCraftStudio",
+    "metaDescription": "Un générateur de tri d'images gratuit pour les 5-7 ans. L'enfant trie des images dans les bonnes catégories — à imprimer avec corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Ranger les choses en groupes, c'est ainsi que les enfants donnent du sens au monde, et ce générateur de tri d'images gratuit en fait une fiche claire. Vous fournissez des en-têtes de catégories et un ensemble d'images, et l'enfant décide à quel groupe appartient chaque image.",
+      "Catégoriser développe le raisonnement, le vocabulaire et la capacité à repérer ce que des objets ont en commun, une compétence de pensée essentielle qui soutient à la fois les sciences, les maths et la littératie. Nommer la règle de chaque groupe donne aussi beaucoup à dire.",
+      "Choisissez un thème et vos catégories, puis imprimez la fiche avec son corrigé pour une vérification rapide. Le tri fonctionne en maths, en sciences et en langage, alors il trouve souvent sa place. L'outil s'ouvre dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez les catégories et un thème pour les images.",
+      "Imprimez la fiche de tri d'images pour chaque enfant.",
+      "Demandez aux enfants de ranger chaque image sous le bon en-tête.",
+      "Vérifiez les groupes triés avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Triez de vrais objets dans des cerceaux avant la fiche.",
+      "Utilisez-la pour soutenir une leçon de catégorisation en sciences ou en thème.",
+      "Réfléchissez à une image ensemble en nommant pourquoi elle va dans un groupe.",
+      "Installez-la à un atelier avec des images découpées à trier concrètement."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "generateur-pieces-manquantes",
+    "name": "Générateur de pièces manquantes",
+    "tagline": "On trouve la pièce qui complète l'image",
+    "metaTitle": "Générateur de pièces manquantes gratuit — compléter l'image | LessonCraftStudio",
+    "metaDescription": "Un générateur de pièces manquantes gratuit pour les 5-7 ans. L'enfant trouve la pièce qui complète chaque image — à imprimer avec corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Trouver quelle pièce complète une image est un puzzle visuel satisfaisant pour les jeunes apprenants. Ce générateur de pièces manquantes gratuit montre une image avec un trou, et l'enfant trouve ou dessine la partie qui s'y emboîte pour la rendre entière.",
+      "Compléter l'image demande à l'enfant d'imaginer le tout, de comparer formes et détails et de raisonner sur ce qui manque, ce qui développe le repérage dans l'espace et l'observation attentive. C'est le genre de tâche calme et concentrée qui convient à un moment posé de la journée.",
+      "Choisissez un thème pour les images et imprimez la fiche, accompagnée d'un corrigé pour une vérification rapide. C'est un puzzle satisfaisant et sans pression sur lequel les enfants reviennent volontiers. L'outil fonctionne dans le navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les images conviennent à votre groupe.",
+      "Imprimez la fiche de pièces manquantes pour chaque enfant.",
+      "Demandez aux enfants de trouver ou de dessiner la pièce qui complète chaque image.",
+      "Vérifiez les réponses avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Résolvez-en une ensemble en décrivant ce qui manque et pourquoi.",
+      "Utilisez-la comme défi de raisonnement visuel à un atelier calme.",
+      "Associez-la à de simples puzzles pour un entraînement concret.",
+      "Reliez le thème des images à votre sujet en cours."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "generateur-fiches-intrus",
+    "name": "Générateur de fiches de l'intrus",
+    "tagline": "On repère l'image qui n'a pas sa place",
+    "metaTitle": "Générateur de fiches de l'intrus gratuit — trouver l'intrus | LessonCraftStudio",
+    "metaDescription": "Un générateur de fiches de l'intrus gratuit pour les 5-7 ans. L'enfant marque l'image qui n'a pas sa place et explique pourquoi — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Décider ce qui n'a pas sa place est une petite tâche de raisonnement bien affûtée, et ce générateur de fiches de l'intrus gratuit la construit à partir d'images. Chaque groupe partage un point commun sauf une image, et l'enfant marque celle qui ne va pas et peut expliquer pourquoi.",
+      "Trouver l'intrus demande à l'enfant de repérer une propriété commune et de tester chaque élément, ce qui renforce la catégorisation, le vocabulaire et l'habitude de justifier une réponse. Il y a souvent plus d'une façon d'expliquer un choix, ce qui suscite de bons échanges.",
+      "Choisissez un thème pour que les groupes collent à votre sujet, puis imprimez la fiche avec son corrigé pour une vérification rapide. Demander aux enfants d'expliquer leur choix transforme une tâche rapide en riche discussion. L'outil fonctionne dans tout navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que les groupes d'images conviennent à votre classe.",
+      "Imprimez la fiche de l'intrus pour chaque enfant.",
+      "Demandez aux enfants de marquer l'image qui n'a pas sa place dans chaque groupe.",
+      "Vérifiez les réponses avec le corrigé imprimé et discutez des raisons."
+    ],
+    "classroomIdeas": [
+      "Résolvez un groupe à voix haute en demandant aux enfants d'expliquer leur pensée.",
+      "Utilisez-la pour approfondir une leçon de tri ou de catégorisation.",
+      "Encouragez les enfants à dire pourquoi leur choix ne va pas.",
+      "Proposez-la comme court échauffement de raisonnement."
+    ]
+  },
+  "sudoku": {
+    "slug": "generateur-sudoku-enfants",
+    "name": "Générateur de sudoku pour enfants",
+    "tagline": "Créez des sudokus imagés ou chiffrés pour les jeunes apprenants",
+    "metaTitle": "Générateur de sudoku pour enfants gratuit — sudoku imagé à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de sudoku pour enfants gratuit. Créez des sudokus 4x4 imagés ou chiffrés avec corrigé — sans inscription, dans le navigateur, 11 langues.",
+    "about": [
+      "Le sudoku est une douce introduction à la pensée logique : chaque ligne, colonne et région doit contenir chaque élément une seule fois. Ce générateur de sudoku pour enfants gratuit construit des puzzles adaptés aux petits — de petites grilles 4x4 qui utilisent des images plutôt que des chiffres, pour que même les non-lecteurs raisonnent, plus des grilles chiffrées pour ceux qui sont prêts.",
+      "Le sudoku imagé garde la logique sans la charge de lecture. L'enfant regarde ce qui est déjà placé, trouve ce qui manque et apprend à vérifier une hypothèse face à toute la grille — des compétences de raisonnement débutant qui dépassent largement le puzzle.",
+      "Vous pouvez choisir un thème pour que les images collent à votre classe, et chaque puzzle s'imprime avec un corrigé. L'outil fonctionne dans le navigateur, sans compte ni installation, existe en 11 langues, et est entièrement gratuit à utiliser."
+    ],
+    "howToUse": [
+      "Choisissez une grille imagée 4x4 pour les plus jeunes ou une grille chiffrée pour les grands.",
+      "Imprimez le puzzle et rappelez que chaque image n'apparaît qu'une fois par ligne, colonne et région.",
+      "Encouragez les enfants à chercher une ligne ou une région presque pleine et à combler le trou d'abord.",
+      "Vérifiez la grille terminée avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Utilisez un sudoku imagé comme atelier de logique concret pour la maternelle.",
+      "Associez un sudoku thématique à un sujet pour que les images soient familières.",
+      "Résolvez-en un ensemble au tableau en pensant à voix haute avant l'autonomie.",
+      "Proposez un sudoku chiffré en prolongement pour les enfants prêts à un défi."
+    ]
+  },
+  "picture-path": {
+    "slug": "generateur-parcours-images",
+    "name": "Générateur de parcours en images",
+    "tagline": "On trace le chemin du labyrinthe jusqu'à l'arrivée",
+    "metaTitle": "Générateur de parcours en images gratuit — labyrinthe à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de parcours en images gratuit pour les 5-7 ans. L'enfant trace le chemin d'un labyrinthe sur grille jusqu'à l'arrivée — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Les labyrinthes sont un grand classique pour développer la planification et la maîtrise du crayon, et ce générateur de parcours en images gratuit crée un labyrinthe sur grille pour les jeunes apprenants. L'enfant trace un chemin du départ à l'arrivée en ne passant que par les cases autorisées.",
+      "Trouver un itinéraire demande à l'enfant d'anticiper, de respecter des règles sur où il peut aller et de rester soigneux et régulier au crayon, le tout dans une activité qui n'est que du plaisir. La grille claire garde même les labyrinthes difficiles accessibles aux jeunes apprenants.",
+      "Choisissez un thème et une difficulté adaptés à votre groupe, puis imprimez le labyrinthe avec son corrigé pour une vérification rapide. L'outil s'ouvre dans le navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème et le niveau de difficulté du labyrinthe.",
+      "Imprimez la fiche de parcours pour chaque enfant.",
+      "Demandez aux enfants de tracer le chemin du départ à l'arrivée par les cases ouvertes.",
+      "Vérifiez l'itinéraire avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Faites suivre le chemin avec le doigt avant d'utiliser un crayon.",
+      "Utilisez-la comme activité calme et concentrée à un atelier tranquille.",
+      "Commencez par des labyrinthes simples et augmentez la difficulté.",
+      "Discutez de la planification d'un itinéraire avant de se lancer trop vite."
+    ]
+  },
+  "find-and-count": {
+    "slug": "generateur-cherche-et-compte",
+    "name": "Générateur cherche et compte",
+    "tagline": "On trouve l'image dans la scène et on compte combien",
+    "metaTitle": "Générateur cherche et compte gratuit — chercher et compter | LessonCraftStudio",
+    "metaDescription": "Un générateur cherche et compte gratuit pour les 3-5 ans. L'enfant trouve une image dans une scène animée et compte combien — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Fouiller une image animée et compter ce qu'on y trouve fait le bonheur des jeunes enfants, et ce générateur cherche et compte gratuit en fait un entraînement précoce au calcul. Une scène vivante cache une image cible, et l'enfant trouve chaque exemplaire et compte combien il y en a.",
+      "Chercher et compter développe le balayage visuel, le comptage terme à terme et l'attention soutenue, et la recherche ludique garde les petits apprenants heureusement engagés. Comme cela ressemble à un jeu, les enfants s'entraînent à compter plus longtemps sans se lasser.",
+      "Choisissez un thème pour que la scène convienne à votre classe, puis imprimez la fiche avec son corrigé pour une vérification rapide. Le format image-cachée fait du comptage une véritable chasse au trésor. L'outil fonctionne dans tout navigateur, en 11 langues, sans compte ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème pour que la scène animée convienne à votre groupe.",
+      "Imprimez la fiche cherche et compte pour chaque enfant.",
+      "Demandez aux enfants de trouver l'image cible et de compter combien il y en a.",
+      "Vérifiez le total avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Faites une rapide recherche « je vois » de la scène ensemble d'abord.",
+      "Utilisez-la à un atelier de comptage débutant.",
+      "Encouragez les enfants à toucher chaque élément une fois en comptant.",
+      "Reliez le thème de la scène à une histoire ou à un sujet."
+    ]
+  },
+  "find-objects": {
+    "slug": "generateur-cherche-objets",
+    "name": "Générateur de cherche-objets",
+    "tagline": "Concevez des scènes « je vois » et de cherche-objets à imprimer",
+    "metaTitle": "Générateur de cherche-objets gratuit — fiches « je vois » à imprimer | LessonCraftStudio",
+    "metaDescription": "Un générateur de cherche-objets gratuit pour enseignants. Créez des scènes à chercher et compter avec images thématiques et corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Les fiches de cherche-objets et « je vois » invitent l'enfant à fouiller une scène animée, à trouver les bonnes images et à compter ce qu'il voit, ce qui développe l'observation attentive, l'attention et le comptage précoce à la fois. Ce générateur gratuit remplit une page d'images thématiques pour créer une scène à fouiller en un instant.",
+      "Vous choisissez le thème et le degré d'encombrement de la scène, pour qu'une même activité convienne à un enfant de trois ans comme à un de six ans plus assuré. Chercher, repérer et compter sont des compétences de préparation qui soutiennent la lecture et le sens du nombre, et les enfants les trouvent vraiment amusantes.",
+      "Chaque fiche s'imprime avec un corrigé indiquant les comptages, fonctionne dans le navigateur sans compte ni installation, et existe en 11 langues. Elle est entièrement gratuite à utiliser en classe."
+    ],
+    "howToUse": [
+      "Choisissez un thème et le nombre d'images qui remplissent la scène.",
+      "Imprimez la fiche et demandez aux enfants de trouver et compter un objet précis.",
+      "Faites marquer ou colorier chaque objet trouvé pour n'en compter aucun deux fois.",
+      "Vérifiez les totaux ensemble avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Utilisez une scène de cherche-objets comme activité d'accueil calme et concentrée.",
+      "Faites compter une sorte d'objet et écrire le nombre pour s'entraîner à compter.",
+      "Associez la scène à un thème pour que les enfants cherchent des mots étudiés.",
+      "Transformez-la en jeu de « je vois » — annoncez un objet et faites-le pointer ou entourer."
+    ]
+  },
+  "crossword": {
+    "slug": "generateur-mots-croises-images",
+    "name": "Générateur de mots croisés en images",
+    "tagline": "Créez des mots croisés illustrés que les enfants peuvent résoudre",
+    "metaTitle": "Générateur de mots croisés en images gratuit — mots croisés pour enfants | LessonCraftStudio",
+    "metaDescription": "Un générateur de mots croisés en images gratuit pour la classe. Créez des mots croisés à indices imagés depuis vos mots, avec corrigé — sans inscription, 11 langues.",
+    "about": [
+      "Un mot croisé relie l'orthographe et le sens : l'enfant lit un indice, pense au mot et le place dans la grille lettre par lettre. Ce générateur de mots croisés en images gratuit en construit un à partir de vos propres mots, et pour les lecteurs débutants les indices peuvent être des images plutôt que des phrases — l'enfant voit une image et écrit le mot qu'elle nomme.",
+      "Comme vous fournissez les mots, le mot croisé colle à votre classe : vocabulaire du thème, mots de dictée ou mots d'une histoire. Les indices imagés le rendent accessible aux enfants qui construisent encore leur confiance en lecture, tandis que les indices écrits stimulent ceux qui sont prêts.",
+      "Chaque mot croisé s'imprime avec son corrigé, fonctionne dans le navigateur sans compte ni installation, et existe en 11 langues. Le puzzle terminé est gratuit à imprimer et à utiliser comme votre classe en a besoin."
+    ],
+    "howToUse": [
+      "Saisissez les mots voulus dans le puzzle et choisissez des indices imagés ou écrits.",
+      "Imprimez le mot croisé et laissez les enfants lire chaque indice et écrire le mot.",
+      "Encouragez les enfants à commencer par les mots les plus sûrs et à utiliser les lettres croisées comme indices.",
+      "Vérifiez les réponses ensemble avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Construisez un mot croisé à indices imagés pour réviser le vocabulaire de la semaine.",
+      "Utilisez un mot croisé comme contrôle d'orthographe qui ressemble à un jeu, pas à un test.",
+      "Créez un mot croisé thématique à compléter en fin de séquence.",
+      "Laissez les enfants proposer les mots du mot croisé de la classe pour la semaine suivante."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "generateur-chasse-au-tresor",
+    "name": "Générateur de chasse au trésor",
+    "tagline": "On suit les flèches de direction jusqu'au trésor",
+    "metaTitle": "Générateur de chasse au trésor gratuit — suivre les directions | LessonCraftStudio",
+    "metaDescription": "Un générateur de chasse au trésor gratuit pour les 6-8 ans. L'enfant suit les flèches de direction sur une carte en grille jusqu'au trésor — à imprimer, corrigé, sans inscription, 11 langues.",
+    "about": [
+      "Suivre des directions sur une carte est une façon passionnante de travailler la pensée spatiale, et ce générateur de chasse au trésor gratuit construit justement une telle aventure. Une carte en grille imagée avec des flèches de direction guide l'enfant pas à pas vers le trésor caché.",
+      "Lire les flèches et se déplacer dans le bon sens entraîne le langage directionnel, le séquençage et un sens précoce de la position et du déplacement, le tout enveloppé dans une histoire que les enfants adorent. Atteindre le trésor donne un but clair et motivant vers lequel travailler.",
+      "Choisissez un thème et une difficulté adaptés à votre groupe, puis imprimez la carte avec son corrigé pour une vérification rapide. L'outil s'ouvre dans le navigateur, en 11 langues, sans connexion ni installation."
+    ],
+    "howToUse": [
+      "Choisissez un thème et le nombre d'étapes de la chasse.",
+      "Imprimez la carte de chasse au trésor pour chaque enfant.",
+      "Demandez aux enfants de suivre chaque flèche de direction une étape à la fois.",
+      "Vérifiez la case finale du trésor avec le corrigé imprimé."
+    ],
+    "classroomIdeas": [
+      "Parcourez quelques étapes de direction sur une grille au sol ensemble d'abord.",
+      "Utilisez-la pour travailler les mots haut, bas, gauche et droite.",
+      "Proposez-la comme défi de résolution de problèmes à un atelier.",
+      "Augmentez le nombre d'étapes à mesure que les enfants gagnent en assurance."
+    ]
+  },
+  "labels": {
+    "about": "À propos de ce générateur de fiches",
+    "howToUse": "Comment l'utiliser en classe",
+    "classroomIdeas": "Idées de fiches",
+    "launchCta": "Ouvrir {name} gratuitement",
+    "otherLanguages": "Disponible dans d'autres langues",
+    "relatedMakers": "Autres générateurs de fiches",
+    "makersBreadcrumb": "Générateurs de fiches"
+  }
+}

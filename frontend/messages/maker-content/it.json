@@ -1,26 +1,242 @@
 {
-  "cryptogram": {
-    "slug": "generatore-crittogrammi",
-    "name": "Generatore di Crittogrammi",
-    "tagline": "Crea crittogrammi illustrati da stampare, con le soluzioni già pronte.",
-    "metaTitle": "Generatore di crittogrammi per bambini | LessonCraftStudio",
-    "metaDescription": "Crea crittogrammi illustrati da stampare gratis: scegli le parole, abbina simboli e immagini e ottieni subito la scheda con le soluzioni. Senza registrazione.",
+  "addition": {
+    "slug": "generatore-schede-addizione",
+    "name": "Generatore di schede di addizione",
+    "tagline": "Crea esercizi di addizione con immagini e numeri in pochi secondi",
+    "metaTitle": "Generatore di schede di addizione gratis — Matematica da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di addizione gratis per bambini di 5-7 anni. Crea somme con immagini e numeri da stampare, con soluzioni. Senza registrazione, in 11 lingue.",
     "about": [
-      "Il generatore di crittogrammi trasforma le parole che scegli in un piccolo enigma da decifrare: ogni lettera diventa un simbolo o un'immagine, e i bambini ricostruiscono la parola usando la legenda. È un modo divertente per allenare il riconoscimento delle lettere e la corrispondenza suono-segno.",
-      "Puoi attingere a oltre 3000 immagini a tema — animali, cibo, mezzi di trasporto e tanto altro — così ogni scheda parla del mondo dei tuoi alunni. Lo strumento è pensato per la scuola dell'infanzia e i primi anni della primaria, dove decodificare è ancora un gioco.",
-      "Tutto funziona gratis nel browser: niente download, niente account da creare. In pochi clic ottieni una scheda chiara da stampare e il foglio delle soluzioni per la correzione, pronto da fotocopiare per tutta la classe."
+      "L'addizione è una delle primissime competenze matematiche e si fissa meglio quando i bambini riescono a vedere ciò che stanno facendo. Questo generatore gratuito di schede di addizione costruisce semplici somme usando immagini simpatiche oltre ai numeri, così un bambino può contare gli oggetti per arrivare al totale prima di lavorare solo con le cifre.",
+      "Decidi tu come appare la pagina: scegli numeri piccoli per chi inizia oppure una sfida un po' più impegnativa, e seleziona un tema illustrato perché gli oggetti risultino familiari. Ogni bambino scrive la risposta nella casella, e questo mantiene l'attenzione sul trovare il totale giusto.",
+      "Ogni scheda che crei si può stampare subito e quasi tutte hanno una soluzione abbinata, così puoi controllare il lavoro in fretta oppure lasciare che i bambini si correggano da soli. Funziona nel browser senza account, in una qualsiasi delle 11 lingue. Puoi attingere a una libreria di oltre 3000 immagini a tema, tutto gratis."
     ],
     "howToUse": [
-      "Scrivi le parole o le frasi che vuoi nascondere nel crittogramma, adatte all'età dei bambini.",
-      "Scegli un tema illustrato dalla libreria di immagini per rendere la scheda più accattivante.",
-      "Genera l'anteprima, controlla la legenda dei simboli e regola la difficoltà se serve.",
-      "Stampa la scheda per gli alunni e il foglio delle soluzioni che resta a te per la correzione."
+      "Scegli le somme con immagini per chi conta da poco o le somme con soli numeri per i bambini pronti a usare le cifre.",
+      "Seleziona un tema e un intervallo di numeri adatto al tuo gruppo.",
+      "Stampa la scheda e fai scrivere a ogni bambino il totale nella casella della risposta.",
+      "Controlla le somme completate con la soluzione stampata."
     ],
     "classroomIdeas": [
-      "Usa parole legate all'argomento del giorno (le stagioni, gli animali della fattoria) per ripassare il lessico.",
-      "Crea un crittogramma a coppie: chi decifra per primo aiuta poi il compagno, in un clima collaborativo.",
-      "Prepara una scheda per il momento dell'accoglienza, mentre aspetti che tutti i bambini arrivino.",
-      "Sfrutta i nomi dei bambini della classe come messaggi segreti da scoprire a turno."
+      "Proponi una scheda di riscaldamento rapido all'inizio della lezione di matematica.",
+      "Metti l'addizione con immagini in un angolo di conteggio pratico.",
+      "Manda a casa una scheda breve per un po' di pratica in più con un genitore.",
+      "Abbina una scheda a tema all'argomento che state esplorando quella settimana."
+    ]
+  },
+  "subtraction": {
+    "slug": "generatore-schede-sottrazione",
+    "name": "Generatore di schede di sottrazione",
+    "tagline": "Costruisci esercizi di sottrazione con immagini e numeri in fretta",
+    "metaTitle": "Generatore di schede di sottrazione gratis — Matematica da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di sottrazione gratis per bambini di 5-7 anni. Crea sottrazioni con immagini e numeri da stampare, con soluzioni. Senza registrazione, in 11 lingue.",
+    "about": [
+      "Togliere può sembrare più difficile che aggiungere, quindi per i bambini è utile vedere gli oggetti che spariscono prima di lavorare con i numeri. Questo generatore gratuito di schede di sottrazione crea sottrazioni con immagini e con numeri, permettendo ai più piccoli di cancellare gli oggetti per scoprire quanti ne restano.",
+      "Imposta il livello in base alla tua classe: tieni i numeri bassi per i primi tentativi, poi alzali man mano che cresce la sicurezza. Un tema illustrato fa di ogni problema una piccola storia anziché una fila di cifre.",
+      "Le schede si stampano all'istante e quasi tutte includono una soluzione, così il controllo è rapido e i bambini possono correggersi da soli appena sono pronti. Tutto funziona nel browser senza accesso, in 11 lingue, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli le sottrazioni con immagini per chi inizia o le sottrazioni con soli numeri per i bambini più grandi.",
+      "Seleziona un tema e un intervallo di numeri adatto ai tuoi alunni.",
+      "Stampa la pagina e chiedi a ogni bambino di scrivere quanti ne restano nella casella.",
+      "Usa la soluzione stampata per controllare o per sostenere l'autocorrezione."
+    ],
+    "classroomIdeas": [
+      "Mostra alla lavagna come cancellare gli oggetti prima che i bambini comincino.",
+      "Offri la sottrazione con immagini in una postazione di conteggio con oggetti da spostare.",
+      "Manda a casa una scheda breve di pratica tra una lezione e l'altra.",
+      "Inserisci una pagina a tema quando vuoi un contesto nuovo per la stessa competenza."
+    ]
+  },
+  "code-addition": {
+    "slug": "generatore-addizione-codificata",
+    "name": "Generatore di addizioni codificate",
+    "tagline": "Decodifica le immagini, poi somma i numeri",
+    "metaTitle": "Generatore di addizioni codificate gratis — Decodifica e somma | LessonCraftStudio",
+    "metaDescription": "Generatore di addizioni codificate gratis per bambini di 5-7 anni. I bambini decodificano una legenda di immagini e poi sommano. Da stampare con soluzioni, gratis.",
+    "about": [
+      "Questo generatore gratuito di addizioni codificate aggiunge un piccolo enigma alle somme normali. Una breve legenda abbina ogni immagine o simbolo a un numero: il bambino legge prima la legenda, sostituisce le immagini con i loro valori e poi li somma.",
+      "Il passaggio di decodifica in più sviluppa la lettura attenta e la corrispondenza uno a uno insieme alla matematica, e questo lo rende una sfida soddisfacente per i bambini che già sommano con sicurezza piccoli numeri.",
+      "Scegli un tema per le immagini della legenda e un intervallo di numeri per regolare la difficoltà. Ogni scheda si stampa con una soluzione abbinata, così puoi verificare sia la decodifica sia i totali. Funziona in qualsiasi browser, in 11 lingue, senza bisogno di account e con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini della legenda siano adatte alla tua classe.",
+      "Imposta un intervallo di numeri adatto alle capacità di calcolo dei tuoi alunni.",
+      "Stampa la scheda e ricorda ai bambini di leggere prima la legenda delle immagini.",
+      "Controlla sia i numeri decodificati sia i totali con la soluzione."
+    ],
+    "classroomIdeas": [
+      "Presentala come un'attività con un \"codice segreto\" per accendere la curiosità.",
+      "Usala come approfondimento per chi finisce in fretta l'addizione semplice.",
+      "Svolgi insieme una somma decodificata prima che i bambini lavorino da soli.",
+      "Collega il tema della legenda a un argomento in corso per una sfida tematica."
+    ]
+  },
+  "more-less": {
+    "slug": "generatore-confronto-quantita",
+    "name": "Generatore di schede di più o meno",
+    "tagline": "Confronta due gruppi: di più, di meno o uguali",
+    "metaTitle": "Generatore di schede di più o meno gratis — Confronta i gruppi | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di più o meno gratis per bambini di 3-5 anni. I bambini confrontano gruppi di immagini e segnano di più, di meno o uguale. Gratis, in 11 lingue.",
+    "about": [
+      "Prima di saper contare con precisione, i bambini hanno bisogno di percepire la quantità, ed è dal confronto che tutto comincia. Questo generatore gratuito di schede di più o meno mostra due gruppi di immagini affiancati e chiede al bambino di decidere quale ne ha di più, quale di meno o se sono uguali.",
+      "Poiché l'attenzione è sul confronto e non sui totali esatti, anche i più piccoli possono partecipare osservando e ragionando. Segnare la risposta mantiene il compito semplice e chiaro per le manine.",
+      "Scegli un tema illustrato per rendere i gruppi accattivanti e stampa la pagina quando sei pronto. Quasi tutte le schede includono una soluzione per un controllo rapido. Funziona nel browser in 11 lingue, senza nulla da installare e con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché i due gruppi usino immagini familiari.",
+      "Stampa la scheda per ogni bambino.",
+      "Chiedi ai bambini di guardare entrambi i gruppi e segnare di più, di meno o uguale.",
+      "Controlla le risposte con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Usala durante una conversazione in cerchio su \"quanti sono\".",
+      "Mettila in un angolo di matematica insieme a oggetti reali da confrontare.",
+      "Modella le parole \"di più\", \"di meno\" e \"uguali\" mentre ne segni una insieme.",
+      "Manda a casa una scheda per esercitarsi a confrontare gruppi di tutti i giorni."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "generatore-puzzle-matematici",
+    "name": "Generatore di puzzle matematici",
+    "tagline": "Puzzle numerici con operazioni miste e parti mancanti",
+    "metaTitle": "Generatore di puzzle matematici gratis — Puzzle numerici da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di puzzle matematici gratis per bambini di 6-8 anni. Crea puzzle con operazioni miste e numeri mancanti, con soluzioni. Gratis, senza registrazione, in 11 lingue.",
+    "about": [
+      "Questo generatore gratuito di puzzle matematici trasforma il calcolo in un gioco di ragionamento. Invece di una somma diretta, lascia in bianco un numero o un'operazione, e il bambino deve ragionare a ritroso per capire cosa va inserito nello spazio vuoto.",
+      "Completare un numero o un segno mancante costruisce una comprensione più profonda di come addizione e sottrazione siano collegate, e questo aiuta i bambini a superare i fatti imparati a memoria verso un autentico senso del numero.",
+      "Puoi mescolare le operazioni e regolare la difficoltà in base al tuo gruppo, e ogni puzzle si stampa con una soluzione, così il controllo è semplice. La varietà fa pensare i bambini invece di farli indovinare. Si apre in qualsiasi browser, in 11 lingue, senza accesso e senza nulla da scaricare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli quali operazioni includere e quanto renderle impegnative.",
+      "Stampa la scheda di puzzle per la tua classe.",
+      "Chiedi ai bambini di trovare il numero o l'operazione mancante in ogni riga.",
+      "Verifica ogni risposta con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Usa un puzzle come breve riscaldamento per aprire l'ora di matematica.",
+      "Offrilo come approfondimento per i bambini pronti a ragionare, non solo a ricordare.",
+      "Risolvete insieme una riga difficile e parlate del ragionamento.",
+      "Proponi un piccolo set come sfida per chi finisce prima."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "generatore-esercizi-matematica",
+    "name": "Generatore di schede di matematica",
+    "tagline": "Pratica generale di calcolo con tipi di problemi misti",
+    "metaTitle": "Generatore di schede di matematica gratis — Calcolo da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di matematica gratis per bambini di 5-7 anni. Crea esercizi di calcolo misti da stampare, con soluzioni. Senza registrazione, gratis, in 11 lingue.",
+    "about": [
+      "A volte serve semplicemente una pagina pulita di esercizi, e questo generatore gratuito di schede di matematica offre proprio questo. Costruisce una scheda di calcolo generale con un mix di tipi di problemi, così i bambini ottengono una pratica varia e completa in un unico posto.",
+      "Poiché i problemi variano, i bambini non possono andare avanti su un solo schema: devono leggere ogni domanda e scegliere come risolverla, e questo li tiene attenti e flessibili.",
+      "Imposta il livello in base ai tuoi alunni, stampa la scheda e usa la soluzione abbinata per correggerla in fretta. È un modo semplice per mantenere una scorta costante di pratica nuova senza preparazione. Lo strumento funziona nel browser, in 11 lingue, senza account e senza nulla da scaricare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli i tipi di problema e la difficoltà per il tuo gruppo.",
+      "Stampa la scheda per ogni bambino.",
+      "Fai leggere con attenzione a ogni bambino ciascun problema e risolverlo.",
+      "Controlla la pagina con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Usala come rapido ripasso settimanale delle competenze insegnate.",
+      "Proponila come lavoro autonomo mentre segui un piccolo gruppo.",
+      "Mandane una a casa come pratica leggera e varia.",
+      "Crea una scheda breve per una verifica formativa veloce alla fine di un'unità."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "generatore-treno-alfabeto",
+    "name": "Generatore del treno dell'alfabeto",
+    "tagline": "Completa le lettere mancanti lungo un treno simpatico",
+    "metaTitle": "Generatore del treno dell'alfabeto gratis — Lettere mancanti | LessonCraftStudio",
+    "metaDescription": "Generatore del treno dell'alfabeto gratis per bambini di 3-5 anni. I bambini completano le lettere mancanti in sequenza su un treno da stampare. Gratis, in 11 lingue.",
+    "about": [
+      "Imparare l'ordine dell'alfabeto diventa un gioco quando viaggia su un treno. Questo generatore gratuito del treno dell'alfabeto dispone le lettere come vagoni con alcuni spazi vuoti, e il bambino scrive le lettere mancanti per far proseguire la sequenza.",
+      "Capire quale lettera viene dopo rafforza l'ordine e il riconoscimento delle lettere allo stesso tempo, e la forma del treno offre ai più piccoli un percorso chiaro da seguire da sinistra a destra.",
+      "Puoi regolare quante lettere lasciare mancanti in base al tuo gruppo, e ogni treno si stampa con una soluzione. La forma allegra del treno rende l'alfabeto invitante anziché simile a una verifica. Si apre in qualsiasi browser, in 11 lingue, senza accesso e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli quante lettere lasciare in bianco per i tuoi alunni.",
+      "Stampa il treno dell'alfabeto per ogni bambino.",
+      "Chiedi ai bambini di leggere seguendo il treno e scrivere in ordine le lettere mancanti.",
+      "Controlla il treno completato con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Cantate o recitate insieme l'alfabeto prima che i bambini riempiano gli spazi.",
+      "Usalo in un angolo di lettoscrittura insieme alle lettere magnetiche.",
+      "Inizia con uno o due spazi, poi aggiungine altri man mano che i bambini crescono.",
+      "Manda a casa un treno per esercitare l'ordine delle lettere con un adulto."
+    ]
+  },
+  "prepositions": {
+    "slug": "generatore-schede-preposizioni",
+    "name": "Generatore di schede sulle preposizioni",
+    "tagline": "Scegli la parola di posizione giusta per ogni immagine",
+    "metaTitle": "Generatore di schede sulle preposizioni gratis — Parole di posizione | LessonCraftStudio",
+    "metaDescription": "Generatore di schede sulle preposizioni gratis per bambini di 5-7 anni. I bambini scelgono dentro, sopra, sotto e altre da scene illustrate. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Le parole di posizione come dentro, sopra, sotto e accanto descrivono dove si trovano le cose, e i bambini le colgono più facilmente con un'immagine davanti agli occhi. Questo generatore gratuito di schede sulle preposizioni mostra una piccola scena e chiede al bambino di scegliere la parola che descrive dove si trova un oggetto.",
+      "Abbinare la preposizione giusta a un'immagine chiara sviluppa sia il vocabolario spaziale sia l'osservazione attenta, e offre ai primi lettori un modo significativo per usare parole che sentono ogni giorno.",
+      "Scegli un tema per le scene e stampa la scheda, completa di soluzione per un controllo veloce. Funziona nel browser in 11 lingue, senza account e senza installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le scene illustrate siano adatte alla tua classe.",
+      "Stampa la scheda per ogni bambino.",
+      "Chiedi ai bambini di guardare ogni scena e scegliere la parola di posizione corretta.",
+      "Controlla le parole scelte con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Mima una preposizione con un giocattolo e una scatola prima che i bambini comincino.",
+      "Usala per sostenere una conversazione ricca di linguaggio su \"dov'è?\".",
+      "Abbinala a oggetti di classe di uso quotidiano per un seguito pratico.",
+      "Collega il tema della scena a una storia che state leggendo insieme."
+    ]
+  },
+  "word-guess": {
+    "slug": "generatore-indovina-parole",
+    "name": "Generatore di Indovina la Parola",
+    "tagline": "Crea schede 'indovina la parola' con l'immagine come indizio, soluzioni incluse.",
+    "metaTitle": "Generatore indovina la parola con immagine | LessonCraftStudio",
+    "metaDescription": "Crea schede indovina la parola gratis: un'immagine come indizio e le caselle da completare lettera per lettera, con soluzioni. Da stampare, senza registrazione.",
+    "about": [
+      "Il generatore di indovina la parola crea schede in cui un'immagine fa da indizio e il bambino completa le caselle scrivendo la parola lettera per lettera. È un esercizio prezioso per i primi lettori, che collegano il suono delle parole alla loro scrittura in modo concreto e divertente.",
+      "Con oltre 3000 immagini a tema puoi costruire schede su ogni argomento, dalle parole di tutti i giorni al lessico di un progetto. Alcune lettere possono già comparire come aiuto, così anche chi è insicuro riesce a procedere senza scoraggiarsi.",
+      "Lo strumento è gratuito e gira nel browser, senza download e senza creare un account. Ottieni la scheda da stampare e il foglio delle soluzioni con le parole complete, pronto per la correzione di tutta la classe."
+    ],
+    "howToUse": [
+      "Inserisci le parole da indovinare, scegliendole in base all'età e ai suoni da esercitare.",
+      "Abbina a ogni parola l'immagine indizio, selezionandola dalla libreria a tema.",
+      "Decidi se mostrare qualche lettera d'aiuto e genera l'anteprima per controllare il risultato.",
+      "Stampa la scheda per gli alunni e conserva il foglio con le parole complete come soluzioni."
+    ],
+    "classroomIdeas": [
+      "Esercita un suono specifico scegliendo parole che iniziano tutte con la stessa lettera.",
+      "Proponi l'attività a coppie: un bambino legge l'immagine, l'altro scrive la parola.",
+      "Usa le parole nuove di una storia letta insieme per ripassarle dopo la lettura.",
+      "Prepara schede con poche caselle e molte lettere d'aiuto per i bambini più piccoli."
+    ]
+  },
+  "word-scramble": {
+    "slug": "generatore-parole-mescolate",
+    "name": "Generatore di parole mescolate",
+    "tagline": "Riordina le lettere usando un indizio illustrato",
+    "metaTitle": "Generatore di parole mescolate gratis — Ortografia da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di parole mescolate gratis per bambini di 6-8 anni. I bambini riordinano le lettere con un indizio illustrato e scrivono la parola. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Riordinare lettere mescolate in una parola vera è un modo rapido e divertente per esercitare l'ortografia. Questo generatore gratuito di parole mescolate mescola le lettere di ogni parola e le abbina a un indizio illustrato, così i bambini hanno un obiettivo verso cui puntare mentre la ricostruiscono.",
+      "Riordinare le lettere spinge i bambini a tenere a mente le lettere, provare diverse disposizioni e pronunciare la parola, e questo rafforza sia l'ortografia sia i suoni in un enigma senza pressione.",
+      "Scegli un tema illustrato perché le parole si adattino al tuo argomento, e stampa la scheda con la sua soluzione. Le parole a tema legano la pratica ortografica a ciò che state imparando quella settimana. Lo strumento funziona in qualsiasi browser, in 11 lingue, senza accesso e con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le parole mescolate corrispondano al tuo focus di vocabolario.",
+      "Stampa la scheda per ogni bambino.",
+      "Chiedi ai bambini di usare l'indizio illustrato e scrivere la parola riordinata.",
+      "Controlla l'ortografia con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Risolvete insieme una parola mescolata, pronunciando ogni suono ad alta voce.",
+      "Usala per ripassare il vocabolario dell'argomento alla fine della settimana.",
+      "Proponila come angolo di ortografia con tessere di lettere da spostare.",
+      "Manda a casa una breve scheda per una pratica ortografica giocosa."
     ]
   },
   "wordsearch": {
@@ -47,6 +263,390 @@
       "Crea griglie facili con poche parole grandi per i bambini più piccoli che iniziano a leggere."
     ]
   },
+  "cryptogram": {
+    "slug": "generatore-crittogrammi",
+    "name": "Generatore di Crittogrammi",
+    "tagline": "Crea crittogrammi illustrati da stampare, con le soluzioni già pronte.",
+    "metaTitle": "Generatore di crittogrammi per bambini | LessonCraftStudio",
+    "metaDescription": "Crea crittogrammi illustrati da stampare gratis: scegli le parole, abbina simboli e immagini e ottieni subito la scheda con le soluzioni. Senza registrazione.",
+    "about": [
+      "Il generatore di crittogrammi trasforma le parole che scegli in un piccolo enigma da decifrare: ogni lettera diventa un simbolo o un'immagine, e i bambini ricostruiscono la parola usando la legenda. È un modo divertente per allenare il riconoscimento delle lettere e la corrispondenza suono-segno.",
+      "Puoi attingere a oltre 3000 immagini a tema — animali, cibo, mezzi di trasporto e tanto altro — così ogni scheda parla del mondo dei tuoi alunni. Lo strumento è pensato per la scuola dell'infanzia e i primi anni della primaria, dove decodificare è ancora un gioco.",
+      "Tutto funziona gratis nel browser: niente download, niente account da creare. In pochi clic ottieni una scheda chiara da stampare e il foglio delle soluzioni per la correzione, pronto da fotocopiare per tutta la classe."
+    ],
+    "howToUse": [
+      "Scrivi le parole o le frasi che vuoi nascondere nel crittogramma, adatte all'età dei bambini.",
+      "Scegli un tema illustrato dalla libreria di immagini per rendere la scheda più accattivante.",
+      "Genera l'anteprima, controlla la legenda dei simboli e regola la difficoltà se serve.",
+      "Stampa la scheda per gli alunni e il foglio delle soluzioni che resta a te per la correzione."
+    ],
+    "classroomIdeas": [
+      "Usa parole legate all'argomento del giorno (le stagioni, gli animali della fattoria) per ripassare il lessico.",
+      "Crea un crittogramma a coppie: chi decifra per primo aiuta poi il compagno, in un clima collaborativo.",
+      "Prepara una scheda per il momento dell'accoglienza, mentre aspetti che tutti i bambini arrivino.",
+      "Sfrutta i nomi dei bambini della classe come messaggi segreti da scoprire a turno."
+    ]
+  },
+  "writing": {
+    "slug": "generatore-schede-scrittura",
+    "name": "Generatore di schede di scrittura",
+    "tagline": "Schede guidate per esercitare lettere e parole",
+    "metaTitle": "Generatore di schede di scrittura gratis — Pratica da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di scrittura gratis per bambini di 4-7 anni. Crea schede di lettere e parole con righe guida da stampare. Senza registrazione, gratis, in 11 lingue.",
+    "about": [
+      "Una bella calligrafia nasce da una pratica costante e ripetuta su righe che mostrano ai bambini dove vanno le lettere. Questo generatore gratuito di schede di scrittura crea schede da stampare con righe guida chiare per ripassare e scrivere lettere e parole.",
+      "Le righe guida aiutano i bambini a controllare l'altezza e la posizione delle lettere, mentre ripassare prima e scrivere poi costruisce la memoria muscolare che rende la scrittura naturale nel tempo.",
+      "Scegli tu le lettere o le parole da esercitare, poi stampa la scheda per la tua classe. È un'attività pensata per matita e carta, quindi non c'è una soluzione online. È un modo rapido per dare a ogni bambino le lettere giuste su cui lavorare. Funziona nel browser in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Inserisci le lettere o le parole che vuoi far esercitare ai bambini.",
+      "Stampa la scheda guidata per ogni bambino.",
+      "Fai prima ripassare il modello ai bambini, poi scrivere da soli.",
+      "Osserva la corretta formazione delle lettere e offri richiami gentili."
+    ],
+    "classroomIdeas": [
+      "Usa una scheda di riscaldamento quotidiano per costruire una routine di scrittura.",
+      "Esercita le lettere del focus fonetico di questa settimana.",
+      "Mettila in un angolo di scrittura con matite comode.",
+      "Manda a casa una scheda perché le famiglie sostengano le stesse lettere."
+    ]
+  },
+  "big-small": {
+    "slug": "generatore-schede-grande-piccolo",
+    "name": "Generatore di schede grande e piccolo",
+    "tagline": "Segna quale immagine è grande e quale è piccola",
+    "metaTitle": "Generatore di schede grande e piccolo gratis — Ordinare per dimensione | LessonCraftStudio",
+    "metaDescription": "Generatore di schede grande e piccolo gratis per bambini di 3-5 anni. I bambini confrontano le dimensioni e segnano grande o piccolo. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Confrontare le dimensioni è uno dei primissimi modi in cui i bambini descrivono il mondo, e prepara il terreno alla misurazione futura. Questo generatore gratuito di schede grande e piccolo mostra lo stesso tipo di immagine in due dimensioni e chiede al bambino di segnare quale è grande e quale è piccola.",
+      "Poiché il compito riguarda solo l'osservare e il confrontare, anche i bambini che non leggono ancora possono partecipare con sicurezza, costruendo via via il vocabolario di grande, piccolo, più grande e più piccolo.",
+      "Scegli un tema simpatico per le immagini e stampa la scheda, che arriva con una soluzione per un controllo veloce. Le immagini a tema familiari aiutano i più piccoli a restare interessati mentre confrontano. Funziona nel browser in 11 lingue, senza accesso e senza installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini siano familiari al tuo gruppo.",
+      "Stampa la scheda per ogni bambino.",
+      "Chiedi ai bambini di segnare l'immagine grande e l'immagine piccola.",
+      "Controlla le risposte con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Confronta due oggetti reali della classe prima che i bambini comincino.",
+      "Usala in un angolo di smistamento con giocattoli grandi e piccoli.",
+      "Modella le parole grande, piccolo, più grande e più piccolo mentre procedi.",
+      "Manda a casa una scheda per individuare cose grandi e piccole in casa."
+    ]
+  },
+  "pattern-train": {
+    "slug": "generatore-treno-sequenze",
+    "name": "Generatore del treno delle sequenze",
+    "tagline": "Scegli cosa viene dopo nella sequenza illustrata",
+    "metaTitle": "Generatore del treno delle sequenze gratis — Cosa viene dopo | LessonCraftStudio",
+    "metaDescription": "Generatore del treno delle sequenze gratis per bambini di 5-7 anni. I bambini trovano cosa viene dopo in una sequenza illustrata su un treno. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Riconoscere una sequenza e prevedere cosa viene dopo è algebra precoce travestita. Questo generatore gratuito del treno delle sequenze mostra una sequenza illustrata che si ripete lungo un treno con un vagone lasciato vuoto, e il bambino capisce quale immagine riempie lo spazio.",
+      "Continuare una sequenza chiede ai bambini di notare la regola, tenerla a mente e applicarla, e questo affina il ragionamento e l'attenzione in modo giocoso e visivo.",
+      "Scegli un tema per le immagini della sequenza e regola la difficoltà in base al tuo gruppo. Ogni treno si stampa con una soluzione per un controllo veloce. Il treno simpatico mantiene la sequenza chiara e da sinistra a destra. Si apre in qualsiasi browser, in 11 lingue, senza accesso e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema e quanto complessa debba essere la sequenza che si ripete.",
+      "Stampa il treno delle sequenze per la tua classe.",
+      "Chiedi ai bambini di dire la sequenza ad alta voce e scegliere cosa viene dopo.",
+      "Controlla l'immagine scelta con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Battete le mani o recitate una sequenza insieme prima della scheda.",
+      "Costruisci una sequenza corrispondente con i blocchi in un angolo.",
+      "Inizia con sequenze semplici ABAB, poi aggiungi complessità.",
+      "Collega il tema della sequenza al vostro argomento attuale."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "generatore-schede-sequenze",
+    "name": "Generatore di schede sulle sequenze",
+    "tagline": "Completa ogni riga di sequenze di immagini e forme",
+    "metaTitle": "Generatore di schede sulle sequenze gratis — Sequenze da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di schede sulle sequenze gratis per bambini di 6-8 anni. I bambini completano righe di sequenze di immagini e forme. Da stampare con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Questo generatore gratuito di schede sulle sequenze offre ai bambini diverse sequenze da completare in una sola pagina, sviluppando le semplici ripetizioni incontrate da più piccoli. Ogni riga mostra una sequenza di immagini o forme che il bambino completa.",
+      "Con più righe e regole più ricche, i bambini esercitano la lettura attenta di una sequenza, l'individuazione dell'unità che si ripete e l'estensione corretta, e questo approfondisce il ragionamento dietro l'algebra precoce. Vedere più sequenze insieme aiuta anche a confrontare diversi tipi di regole.",
+      "Scegli un tema e una difficoltà in base alla tua classe, poi stampa la scheda con la sua soluzione per correggere in fretta. Più sequenze in una pagina rendono facile dare molta pratica in un'unica sessione. Lo strumento funziona nel browser, in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema e quanto impegnative debbano essere le sequenze.",
+      "Stampa la scheda per ogni bambino.",
+      "Chiedi ai bambini di trovare la regola in ogni riga e completarla.",
+      "Controlla le righe completate con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Discutete prima insieme l'unità che si ripete di una sequenza.",
+      "Proponila come lavoro autonomo dopo una mini-lezione sulle sequenze.",
+      "Offri sequenze più difficili come approfondimento per chi finisce prima.",
+      "Combina righe di immagini e di forme per una pratica varia."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "generatore-disegno-griglia",
+    "name": "Generatore di disegno a griglia",
+    "tagline": "Copia un'immagine quadretto per quadretto, poi coloràla",
+    "metaTitle": "Generatore di disegno a griglia gratis — Copia con quadretti | LessonCraftStudio",
+    "metaDescription": "Generatore di disegno a griglia gratis per bambini di 5-8 anni. I bambini copiano un'immagine quadretto per quadretto e la colorano. PDF da stampare, gratis, in 11 lingue.",
+    "about": [
+      "Copiare un'immagine un quadretto alla volta aiuta i bambini a rallentare e osservare davvero, e questo generatore gratuito di disegno a griglia trasforma tutto ciò in un'attività calma e gratificante. Un'immagine modello sta su una griglia, e il bambino la ricrea quadretto per quadretto su una griglia vuota prima di colorare.",
+      "La griglia scompone un'intera immagine in parti gestibili, e questo costruisce la consapevolezza spaziale, l'osservazione attenta e il controllo della matita, mentre il bambino prova l'orgoglio di aver disegnato qualcosa da solo.",
+      "Scegli un'immagine a tema e stampa l'attività come PDF per il lavoro con matita e pastelli. Non c'è una soluzione online perché il risultato è l'opera finita. Funziona nel browser in 11 lingue, senza accesso, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un'immagine a tema da far copiare ai bambini.",
+      "Stampa il PDF con la griglia modello e la griglia vuota.",
+      "Chiedi ai bambini di copiare l'immagine un quadretto alla volta.",
+      "Lascia che i bambini colorino il disegno finito come preferiscono."
+    ],
+    "classroomIdeas": [
+      "Usalo come attività tranquilla e concentrata dopo lezioni movimentate.",
+      "Mettilo in un angolo di arte o di motricità fine.",
+      "Parlate di quale quadretto iniziare per sostenere la pianificazione.",
+      "Esponete insieme i disegni finiti come opere della classe."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "generatore-schede-pregrafismo",
+    "name": "Generatore di schede di pregrafismo",
+    "tagline": "Ripassa percorsi dritti, curvi e a zigzag per la pre-scrittura",
+    "metaTitle": "Generatore di schede di pregrafismo gratis — Tracciati pre-scrittura | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di pregrafismo gratis per bambini di 3-5 anni. I bambini ripassano percorsi dritti, curvi e a zigzag per il controllo fine. PDF da stampare, gratis.",
+    "about": [
+      "Prima di saper scrivere le lettere, i bambini hanno bisogno di mani salde e di un buon controllo della matita. Questo generatore gratuito di schede di pregrafismo crea schede di pre-scrittura piene di percorsi tratteggiati da ripassare, tra cui linee dritte, curve dolci e vivaci zigzag.",
+      "Seguire un percorso dall'inizio alla fine allena i piccoli muscoli e la coordinazione occhio-mano da cui dipende la scrittura, e la varietà delle forme delle linee mantiene la pratica fresca e divertente.",
+      "Stampa le schede come PDF per il lavoro con la matita; poiché l'obiettivo è il tracciato stesso, non c'è una soluzione. È un modo semplice e già pronto per costruire il controllo necessario alla scrittura. Lo strumento funziona nel browser in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli i tipi di linea che vuoi, da dritte a curve a zigzag.",
+      "Stampa la scheda di pratica in PDF per ogni bambino.",
+      "Mostra ai bambini come ripassare ogni percorso tratteggiato dall'inizio alla fine.",
+      "Incoraggia una presa della matita comoda e tratti fluidi e fermi."
+    ],
+    "classroomIdeas": [
+      "Usala come riscaldamento quotidiano di motricità fine prima di scrivere.",
+      "Mettila in una postazione con matite spesse e pastelli.",
+      "Tracciate prima insieme una versione grande nell'aria.",
+      "Manda a casa una scheda per costruire il controllo pre-scrittura con le famiglie."
+    ]
+  },
+  "coloring": {
+    "slug": "generatore-pagine-colorare",
+    "name": "Generatore di pagine da colorare",
+    "tagline": "Trasforma immagini a contorno a tema in pagine da colorare stampabili",
+    "metaTitle": "Generatore di pagine da colorare gratis — Disegni da colorare da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di pagine da colorare gratis per bambini di 3-7 anni. Crea pagine a contorno a tema da una grande libreria di immagini. PDF, gratis, senza registrazione, in 11 lingue.",
+    "about": [
+      "Colorare è rilassante, creativo e ottimo per le manine, e questo generatore gratuito di pagine da colorare ti permette di costruire pagine da una grande libreria di immagini a contorno a tema in un attimo. Scegli le immagini che vuoi e stampa contorni puliti e adatti ai bambini.",
+      "Riempire i contorni aiuta i bambini a sviluppare il controllo della matita e la consapevolezza dei colori, dando loro spazio per esprimersi, ed è quindi un'attività delicata e senza schermo adatta a un'ampia gamma di età.",
+      "Le pagine si stampano come PDF pronte per pastelli o matite, senza bisogno di soluzione. Con migliaia di immagini tra cui scegliere, puoi sempre abbinare una pagina al momento giusto. Lo strumento funziona in qualsiasi browser, in 11 lingue, e non chiede mai un accesso né un'installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema e le immagini a contorno che desideri.",
+      "Stampa la pagina da colorare come PDF.",
+      "Distribuisci pastelli o matite colorate.",
+      "Lascia che i bambini colorino le immagini liberamente."
+    ],
+    "classroomIdeas": [
+      "Usa una pagina a tema per calmare la classe all'inizio della giornata.",
+      "Abbina le immagini a una storia o a un argomento che state esplorando.",
+      "Offrila come scelta tranquilla durante il gioco libero.",
+      "Manda a casa una pagina da colorare per un'attività rilassata in famiglia."
+    ]
+  },
+  "chart-count": {
+    "slug": "generatore-grafici-immagini",
+    "name": "Generatore di grafici con immagini",
+    "tagline": "Conta le immagini e riempi il grafico a barre",
+    "metaTitle": "Generatore di grafici con immagini gratis — Grafici a barre illustrati | LessonCraftStudio",
+    "metaDescription": "Generatore di grafici con immagini gratis per bambini di 5-7 anni. I bambini contano gli oggetti e riempiono un grafico a barre per categoria. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Leggere e costruire semplici grafici è un'abilità precoce sui dati, e le immagini la rendono accessibile. Questo generatore gratuito di grafici con immagini mostra gruppi di oggetti e un grafico a barre vuoto, e il bambino conta ogni tipo di immagine e riempie la barra corrispondente.",
+      "Trasformare un conteggio in una barra aiuta i bambini a collegare la quantità a un'altezza visiva, un passo importante verso la comprensione dei grafici e il confronto delle quantità a colpo d'occhio.",
+      "Scegli un tema per le immagini e stampa la scheda con la sua soluzione per un controllo veloce. È un primo passo delicato e pratico verso la lettura e la costruzione dei grafici. Lo strumento si apre nel browser, in 11 lingue, senza accesso e senza installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché gli oggetti da contare siano adatti alla tua classe.",
+      "Stampa la scheda del grafico per ogni bambino.",
+      "Chiedi ai bambini di contare ogni tipo di immagine e riempire la barra corrispondente.",
+      "Controlla il grafico completato con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Costruite un grafico a barre della classe con oggetti reali prima della scheda.",
+      "Usala per registrare i risultati di un rapido sondaggio in classe.",
+      "Parlate insieme di quale barra è la più alta e la più bassa.",
+      "Mettila in un angolo di matematica come pratica pratica sui dati."
+    ]
+  },
+  "matching": {
+    "slug": "generatore-schede-abbinamento",
+    "name": "Generatore di schede di abbinamento",
+    "tagline": "Traccia linee per collegare le immagini che vanno insieme",
+    "metaTitle": "Generatore di schede di abbinamento gratis — Collega le coppie | LessonCraftStudio",
+    "metaDescription": "Generatore di schede di abbinamento gratis per bambini di 5-7 anni. I bambini tracciano linee che collegano le coppie di immagini. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Abbinare le coppie è un modo chiaro e soddisfacente perché i bambini mostrino ciò che sanno. Questo generatore gratuito di schede di abbinamento dispone le immagini in due colonne, e il bambino traccia una linea per unire ciascuna al suo compagno sull'altro lato.",
+      "Collegare le coppie giuste sviluppa la discriminazione visiva e il ragionamento su come le cose si mettono in relazione, e il semplice tracciare linee mantiene il compito accessibile ai primi alunni.",
+      "Scegli un tema perché gli abbinamenti si adattino al tuo argomento, poi stampa la scheda con la sua soluzione per un controllo veloce. È un modo flessibile per verificare la comprensione di come le cose si collegano. Funziona in qualsiasi browser, in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le coppie di immagini siano adatte alla tua lezione.",
+      "Stampa la scheda di abbinamento per ogni bambino.",
+      "Chiedi ai bambini di tracciare una linea da ogni immagine al suo compagno.",
+      "Controlla le coppie collegate con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Modella un abbinamento alla lavagna, spiegando perché la coppia va insieme.",
+      "Usala per ripassare il vocabolario a tema o concetti collegati.",
+      "Mettila in un angolo con carte fisiche da abbinare prima.",
+      "Manda a casa una scheda di abbinamento per una pratica rapida e chiara."
+    ]
+  },
+  "grid-match": {
+    "slug": "generatore-puzzle-griglia",
+    "name": "Generatore di puzzle a griglia",
+    "tagline": "Colloca ogni immagine nella sua cella corrispondente",
+    "metaTitle": "Generatore di puzzle a griglia gratis — Attività con la griglia | LessonCraftStudio",
+    "metaDescription": "Generatore di puzzle a griglia gratis per bambini di 5-7 anni. I bambini collocano o disegnano ogni immagine nella cella corrispondente. Da stampare, con soluzioni, gratis.",
+    "about": [
+      "Lavorare dentro una griglia chiede ai bambini di seguire con attenzione righe e colonne, e questo generatore gratuito di puzzle a griglia costruisce un'attività proprio su questo. Il bambino capisce dove va ogni immagine e la colloca o la disegna nella cella corretta.",
+      "Leggere una posizione nella griglia rafforza il ragionamento spaziale e l'abbinamento attento, abilità che sostengono tutto, dalla geometria precoce alla lettura di una tabella più avanti. Incoraggia anche i bambini a lavorare in modo ordinato, da sinistra a destra e dall'alto in basso.",
+      "Scegli un tema per le immagini e stampa la scheda, che arriva con una soluzione per un controllo veloce. Lavorare dentro una griglia è anche un'ottima preparazione alla lettura delle tabelle in futuro. Lo strumento funziona nel browser in 11 lingue, senza accesso e senza nulla da scaricare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini della griglia siano adatte al tuo gruppo.",
+      "Stampa la scheda del puzzle a griglia per ogni bambino.",
+      "Chiedi ai bambini di collocare o disegnare ogni immagine nella cella corrispondente.",
+      "Controlla la griglia completata con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Indicate insieme righe e colonne prima che i bambini comincino.",
+      "Usala come sfida di osservazione attenta in un angolo di matematica.",
+      "Inizia con una griglia piccola e ingrandiscila man mano che cresce la sicurezza.",
+      "Collega il tema delle immagini al vostro argomento attuale."
+    ]
+  },
+  "shadow-match": {
+    "slug": "generatore-discriminazione-visiva",
+    "name": "Generatore di abbinamento delle ombre",
+    "tagline": "Abbina ogni immagine alla sua ombra corretta",
+    "metaTitle": "Generatore di abbinamento delle ombre gratis — Abbina la sagoma | LessonCraftStudio",
+    "metaDescription": "Generatore di abbinamento delle ombre gratis per bambini di 5-7 anni. I bambini abbinano ogni immagine alla sua sagoma corretta. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Abbinare un'immagine alla sua ombra è una piacevole prova di osservazione attenta. Questo generatore gratuito di abbinamento delle ombre mostra immagini colorate accanto alle loro sagome nere, e il bambino collega ciascuna immagine all'ombra che le corrisponde esattamente.",
+      "Poiché le ombre tolgono colore e dettagli, i bambini devono concentrarsi su forma e contorno, affinando la discriminazione visiva e l'attenzione in un enigma che sembra un gioco. Quella stessa attenzione al contorno sostiene anche il riconoscimento precoce di lettere e forme.",
+      "Scegli un tema per le immagini e stampa la scheda, completa di soluzione per un controllo veloce. Il contrasto tra il colore pieno e l'ombra semplice la rende insieme rilassante e coinvolgente. Funziona in qualsiasi browser, in 11 lingue, senza accesso né installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini e le ombre siano adatte alla tua classe.",
+      "Stampa la scheda di abbinamento delle ombre per ogni bambino.",
+      "Chiedi ai bambini di abbinare ogni immagine alla sua ombra corretta.",
+      "Controlla gli abbinamenti con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Crea ombre reali con una torcia e degli oggetti per introdurla.",
+      "Usala come attività di percezione visiva concentrata in un angolo.",
+      "Discutete come la sola forma aiuti a riconoscere un oggetto.",
+      "Collega il tema delle immagini a una storia o a un argomento."
+    ]
+  },
+  "bingo": {
+    "slug": "generatore-cartelle-bingo",
+    "name": "Generatore di cartelle del bingo",
+    "tagline": "Cartelle del bingo illustrate e cartelle da chiamare da stampare",
+    "metaTitle": "Generatore di cartelle del bingo gratis — Bingo illustrato da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di cartelle del bingo gratis per bambini di 5-7 anni. Crea cartelle del bingo illustrate e cartelle da chiamare per giochi di vocabolario. Gratis, in 11 lingue.",
+    "about": [
+      "Il bingo è un modo gioioso di esercitare insieme il vocabolario, e questo generatore gratuito di cartelle del bingo costruisce cartelle illustrate più le cartelle da chiamare abbinate in pochi clic. Ogni bambino riceve una cartella di immagini a tema mentre tu le chiami una alla volta.",
+      "Ascoltare un'immagine e segnarla sviluppa il riconoscimento delle parole, il vocabolario e l'ascolto, e l'energia condivisa del gioco rende memorabili le nuove parole per tutta la classe. Poiché ogni cartella è un po' diversa, i bambini restano attenti per tutto il giro.",
+      "Scegli un tema perché le immagini si adattino al tuo argomento, poi stampa cartelle varie a sufficienza per il tuo gruppo insieme alle cartelle da chiamare. Lo strumento funziona nel browser, in 11 lingue, senza bisogno di account, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini del bingo corrispondano al tuo focus di vocabolario.",
+      "Stampa una cartella del bingo per bambino e il set di cartelle da chiamare.",
+      "Chiama le immagini una alla volta e fai segnare ai bambini.",
+      "Festeggia una riga intera o una cartella intera come linea vincente."
+    ],
+    "classroomIdeas": [
+      "Usalo per ripassare il vocabolario dell'argomento in un vivace gioco di classe.",
+      "Chiama le parole in un'altra lingua per chi sta imparando le lingue.",
+      "Lascia che un bambino faccia il chiamante per esercitare la lettura delle immagini.",
+      "Fai un giro veloce come apertura divertente o transizione di lezione."
+    ]
+  },
+  "picture-sort": {
+    "slug": "generatore-classificazione-immagini",
+    "name": "Generatore di classificazione delle immagini",
+    "tagline": "Classifica ogni immagine sotto la categoria giusta",
+    "metaTitle": "Generatore di classificazione delle immagini gratis — Classificare e categorie | LessonCraftStudio",
+    "metaDescription": "Generatore di classificazione delle immagini gratis per bambini di 5-7 anni. I bambini classificano le immagini nelle categorie corrette. Da stampare con soluzioni, gratis.",
+    "about": [
+      "Classificare le cose in gruppi è il modo in cui i bambini danno senso al mondo, e questo generatore gratuito di classificazione delle immagini lo trasforma in una scheda chiara. Tu fornisci le intestazioni delle categorie e una serie di immagini, e il bambino decide a quale gruppo appartiene ogni immagine.",
+      "Categorizzare sviluppa il ragionamento, il vocabolario e la capacità di notare ciò che gli elementi hanno in comune, un'abilità di pensiero essenziale che sostiene scienze, matematica e lettoscrittura. Nominare la regola di ogni gruppo dà inoltre ai bambini molto su cui parlare.",
+      "Scegli un tema e le tue categorie, poi stampa la scheda con la sua soluzione per un controllo veloce. La pratica di classificazione funziona in matematica, scienze e lingua, perciò trova spesso il suo posto. Lo strumento si apre in qualsiasi browser, in 11 lingue, senza accesso né installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli le categorie e un tema per le immagini.",
+      "Stampa la scheda di classificazione per ogni bambino.",
+      "Chiedi ai bambini di classificare ogni immagine sotto l'intestazione corretta.",
+      "Controlla i gruppi classificati con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Classificate oggetti reali dentro dei cerchi prima della scheda.",
+      "Usala per sostenere una lezione di classificazione di scienze o di un argomento.",
+      "Ragionate insieme su un'immagine, nominando perché appartiene a un gruppo.",
+      "Mettila in un angolo con immagini ritagliate da classificare fisicamente."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "generatore-pezzi-mancanti",
+    "name": "Generatore di pezzi mancanti",
+    "tagline": "Trova il pezzo che completa l'immagine",
+    "metaTitle": "Generatore di pezzi mancanti gratis — Completa l'immagine | LessonCraftStudio",
+    "metaDescription": "Generatore di pezzi mancanti gratis per bambini di 5-7 anni. I bambini trovano il pezzo che completa ogni immagine. Da stampare con soluzioni, gratis, senza registrazione, in 11 lingue.",
+    "about": [
+      "Capire quale pezzo completa un'immagine è un soddisfacente enigma visivo per i piccoli alunni. Questo generatore gratuito di pezzi mancanti mostra un'immagine con uno spazio vuoto, e il bambino trova o disegna la parte che si incastra per renderla completa.",
+      "Completare l'immagine chiede ai bambini di immaginare il tutto, confrontare forme e dettagli e ragionare su ciò che manca, costruendo consapevolezza spaziale e osservazione attenta. È il tipo di compito tranquillo e concentrato adatto a un momento calmo della giornata.",
+      "Scegli un tema per le immagini e stampa la scheda, che arriva con una soluzione per un controllo veloce. È un enigma soddisfacente e senza pressione a cui i bambini tornano volentieri. Funziona nel browser in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché le immagini siano adatte al tuo gruppo.",
+      "Stampa la scheda dei pezzi mancanti per ogni bambino.",
+      "Chiedi ai bambini di trovare o disegnare il pezzo che completa ogni immagine.",
+      "Controlla le risposte con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Risolvetene una insieme, descrivendo cosa manca e perché.",
+      "Usala come sfida di ragionamento visivo in un angolo tranquillo.",
+      "Abbinala a semplici puzzle a incastro per una pratica pratica.",
+      "Collega il tema delle immagini al vostro argomento attuale."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "generatore-schede-intruso",
+    "name": "Generatore di schede dell'intruso",
+    "tagline": "Individua l'immagine che non c'entra",
+    "metaTitle": "Generatore di schede dell'intruso gratis — Trova l'intruso | LessonCraftStudio",
+    "metaDescription": "Generatore di schede dell'intruso gratis per bambini di 5-7 anni. I bambini segnano l'immagine che non c'entra e dicono perché. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Decidere cosa non c'entra è un acuto piccolo compito di ragionamento, e questo generatore gratuito di schede dell'intruso lo costruisce con le immagini. Ogni gruppo condivide qualcosa in comune tranne una, e il bambino segna l'immagine che non si adatta e può spiegare perché.",
+      "Trovare l'intruso chiede ai bambini di notare una proprietà condivisa e mettere alla prova ogni elemento rispetto ad essa, rafforzando la categorizzazione, il vocabolario e l'abitudine a giustificare una risposta. Spesso c'è più di un modo per spiegare una scelta, e questo accende belle conversazioni.",
+      "Scegli un tema perché i gruppi si adattino al tuo argomento, poi stampa la scheda con la sua soluzione per un controllo veloce. Chiedere ai bambini di spiegare la loro scelta trasforma un compito rapido in una ricca conversazione. Lo strumento funziona in qualsiasi browser, in 11 lingue, senza accesso e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché i gruppi di immagini siano adatti alla tua classe.",
+      "Stampa la scheda dell'intruso per ogni bambino.",
+      "Chiedi ai bambini di segnare l'immagine che non c'entra in ogni gruppo.",
+      "Controlla le risposte con la soluzione stampata e discutete i motivi."
+    ],
+    "classroomIdeas": [
+      "Risolvete un gruppo ad alta voce, chiedendo ai bambini di spiegare il pensiero.",
+      "Usala per approfondire una lezione di smistamento o categorizzazione.",
+      "Incoraggia i bambini a dire perché la loro scelta non si adatta.",
+      "Proponila come rapido riscaldamento di ragionamento."
+    ]
+  },
   "sudoku": {
     "slug": "generatore-sudoku-bambini",
     "name": "Generatore di Sudoku per Bambini",
@@ -71,28 +671,52 @@
       "Tieni alcune schede pronte per chi finisce prima le altre attività, come gioco di pensiero."
     ]
   },
-  "crossword": {
-    "slug": "generatore-cruciverba-immagini",
-    "name": "Generatore di Cruciverba con Immagini",
-    "tagline": "Crea cruciverba illustrati per primi lettori, da stampare con le soluzioni.",
-    "metaTitle": "Generatore di cruciverba con immagini per bambini | LessonCraftStudio",
-    "metaDescription": "Crea cruciverba illustrati per bambini gratis: le immagini fanno da definizione, le parole si incastrano nella griglia. Con soluzioni, da stampare senza login.",
+  "picture-path": {
+    "slug": "generatore-percorso-immagini",
+    "name": "Generatore di percorsi illustrati",
+    "tagline": "Disegna il percorso attraverso il labirinto fino al traguardo",
+    "metaTitle": "Generatore di percorsi illustrati gratis — Labirinto da stampare | LessonCraftStudio",
+    "metaDescription": "Generatore di percorsi illustrati gratis per bambini di 5-7 anni. I bambini disegnano il percorso in un labirinto a griglia dalla partenza al traguardo. Da stampare, con soluzioni, gratis.",
     "about": [
-      "Il generatore di cruciverba con immagini crea schede in cui le definizioni non sono frasi ma figure: il bambino guarda l'immagine, riconosce la parola e la scrive nelle caselle. È perfetto per i primi lettori, che così esercitano la scrittura e l'ortografia in modo guidato.",
-      "Attingendo a oltre 3000 immagini a tema, puoi costruire cruciverba su qualunque argomento di classe, dai colori agli animali. Le parole si incastrano nella griglia e ogni casella accompagna passo dopo passo verso la parola giusta.",
-      "Lo strumento è gratuito e gira interamente nel browser, senza download e senza registrazione. Ottieni la scheda da stampare insieme al cruciverba completato come foglio delle soluzioni, pronto per correggere con tutta la classe."
+      "I labirinti sono un modo classico per sviluppare la pianificazione e il controllo della matita, e questo generatore gratuito di percorsi illustrati crea un labirinto a griglia per i piccoli alunni. Il bambino disegna un percorso dalla partenza al traguardo, muovendosi solo attraverso le celle consentite.",
+      "Trovare un tragitto chiede ai bambini di pianificare in anticipo, seguire le regole su dove possono andare e restare ordinati e fermi con la matita, il tutto in un'attività che sembra puro divertimento. La griglia chiara mantiene avvicinabili anche i labirinti più difficili per i piccoli alunni.",
+      "Scegli un tema e una difficoltà in base al tuo gruppo, poi stampa il labirinto con la sua soluzione per un controllo veloce. Si apre nel browser, in 11 lingue, senza accesso né installazione, con oltre 3000 immagini a tema gratuite."
     ],
     "howToUse": [
-      "Inserisci le parole che vuoi nel cruciverba, adatte alla lunghezza e all'età dei bambini.",
-      "Abbina a ogni parola l'immagine che farà da definizione, scegliendola dalla libreria a tema.",
-      "Genera l'anteprima e verifica che gli incroci tra le parole funzionino correttamente.",
-      "Stampa la scheda per gli alunni e tieni la versione risolta come foglio delle soluzioni."
+      "Scegli un tema e quanto impegnativo debba essere il labirinto.",
+      "Stampa la scheda del percorso per ogni bambino.",
+      "Chiedi ai bambini di disegnare il percorso dalla partenza al traguardo attraverso le celle aperte.",
+      "Controlla il tragitto con la soluzione stampata."
     ],
     "classroomIdeas": [
-      "Crea un cruciverba con le parole nuove della settimana per fissare il lessico appena imparato.",
-      "Lascia che i bambini più sicuri scrivano le parole e i compagni le verifichino insieme.",
-      "Usa il cruciverba come scheda di chiusura di un'unità per ripassare i contenuti.",
-      "Prepara griglie con parole corte e immagini chiare per chi è alle prime armi con la scrittura."
+      "Tracciate il percorso con un dito prima di usare la matita.",
+      "Usala come attività calma e concentrata in un angolo tranquillo.",
+      "Inizia con labirinti semplici e aumenta gradualmente la difficoltà.",
+      "Parlate di pianificare un tragitto prima di precipitarsi."
+    ]
+  },
+  "find-and-count": {
+    "slug": "generatore-cerca-e-conta",
+    "name": "Generatore di cerca e conta",
+    "tagline": "Trova l'immagine nella scena e conta quante ce ne sono",
+    "metaTitle": "Generatore di cerca e conta gratis — Cerca e conta | LessonCraftStudio",
+    "metaDescription": "Generatore di cerca e conta gratis per bambini di 3-5 anni. I bambini trovano un'immagine in una scena affollata e contano quante. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Cercare in un'immagine affollata e contare ciò che si trova è puro piacere per i piccoli, e questo generatore gratuito di cerca e conta lo trasforma in pratica matematica precoce. Una scena vivace nasconde un'immagine bersaglio, e il bambino trova ognuna e conta quante ce ne sono.",
+      "Cercare e contare sviluppa la scansione visiva, il conteggio uno a uno e l'attenzione concentrata, e la ricerca giocosa tiene i piccoli alunni felicemente coinvolti. Poiché sembra un gioco, i bambini esercitano il conteggio più a lungo senza stancarsi.",
+      "Scegli un tema perché la scena sia adatta alla tua classe, poi stampa la scheda con la sua soluzione per un controllo veloce. Il formato a immagini nascoste fa sembrare il conteggio una caccia al tesoro. Lo strumento funziona in qualsiasi browser, in 11 lingue, senza account e senza nulla da installare, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema perché la scena affollata sia adatta al tuo gruppo.",
+      "Stampa la scheda di cerca e conta per ogni bambino.",
+      "Chiedi ai bambini di trovare l'immagine bersaglio e contare quante ne appaiono.",
+      "Controlla il totale con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Fate prima insieme una rapida ricerca a \"io spio\" della scena.",
+      "Usala in un angolo di conteggio precoce.",
+      "Incoraggia i bambini a toccare ogni oggetto una volta mentre contano.",
+      "Collega il tema della scena a una storia o a un argomento."
     ]
   },
   "find-objects": {
@@ -119,28 +743,52 @@
       "Proponila come attività calmante dopo il gioco motorio, per ritrovare la concentrazione."
     ]
   },
-  "word-guess": {
-    "slug": "generatore-indovina-parole",
-    "name": "Generatore di Indovina la Parola",
-    "tagline": "Crea schede 'indovina la parola' con l'immagine come indizio, soluzioni incluse.",
-    "metaTitle": "Generatore indovina la parola con immagine | LessonCraftStudio",
-    "metaDescription": "Crea schede indovina la parola gratis: un'immagine come indizio e le caselle da completare lettera per lettera, con soluzioni. Da stampare, senza registrazione.",
+  "crossword": {
+    "slug": "generatore-cruciverba-immagini",
+    "name": "Generatore di Cruciverba con Immagini",
+    "tagline": "Crea cruciverba illustrati per primi lettori, da stampare con le soluzioni.",
+    "metaTitle": "Generatore di cruciverba con immagini per bambini | LessonCraftStudio",
+    "metaDescription": "Crea cruciverba illustrati per bambini gratis: le immagini fanno da definizione, le parole si incastrano nella griglia. Con soluzioni, da stampare senza login.",
     "about": [
-      "Il generatore di indovina la parola crea schede in cui un'immagine fa da indizio e il bambino completa le caselle scrivendo la parola lettera per lettera. È un esercizio prezioso per i primi lettori, che collegano il suono delle parole alla loro scrittura in modo concreto e divertente.",
-      "Con oltre 3000 immagini a tema puoi costruire schede su ogni argomento, dalle parole di tutti i giorni al lessico di un progetto. Alcune lettere possono già comparire come aiuto, così anche chi è insicuro riesce a procedere senza scoraggiarsi.",
-      "Lo strumento è gratuito e gira nel browser, senza download e senza creare un account. Ottieni la scheda da stampare e il foglio delle soluzioni con le parole complete, pronto per la correzione di tutta la classe."
+      "Il generatore di cruciverba con immagini crea schede in cui le definizioni non sono frasi ma figure: il bambino guarda l'immagine, riconosce la parola e la scrive nelle caselle. È perfetto per i primi lettori, che così esercitano la scrittura e l'ortografia in modo guidato.",
+      "Attingendo a oltre 3000 immagini a tema, puoi costruire cruciverba su qualunque argomento di classe, dai colori agli animali. Le parole si incastrano nella griglia e ogni casella accompagna passo dopo passo verso la parola giusta.",
+      "Lo strumento è gratuito e gira interamente nel browser, senza download e senza registrazione. Ottieni la scheda da stampare insieme al cruciverba completato come foglio delle soluzioni, pronto per correggere con tutta la classe."
     ],
     "howToUse": [
-      "Inserisci le parole da indovinare, scegliendole in base all'età e ai suoni da esercitare.",
-      "Abbina a ogni parola l'immagine indizio, selezionandola dalla libreria a tema.",
-      "Decidi se mostrare qualche lettera d'aiuto e genera l'anteprima per controllare il risultato.",
-      "Stampa la scheda per gli alunni e conserva il foglio con le parole complete come soluzioni."
+      "Inserisci le parole che vuoi nel cruciverba, adatte alla lunghezza e all'età dei bambini.",
+      "Abbina a ogni parola l'immagine che farà da definizione, scegliendola dalla libreria a tema.",
+      "Genera l'anteprima e verifica che gli incroci tra le parole funzionino correttamente.",
+      "Stampa la scheda per gli alunni e tieni la versione risolta come foglio delle soluzioni."
     ],
     "classroomIdeas": [
-      "Esercita un suono specifico scegliendo parole che iniziano tutte con la stessa lettera.",
-      "Proponi l'attività a coppie: un bambino legge l'immagine, l'altro scrive la parola.",
-      "Usa le parole nuove di una storia letta insieme per ripassarle dopo la lettura.",
-      "Prepara schede con poche caselle e molte lettere d'aiuto per i bambini più piccoli."
+      "Crea un cruciverba con le parole nuove della settimana per fissare il lessico appena imparato.",
+      "Lascia che i bambini più sicuri scrivano le parole e i compagni le verifichino insieme.",
+      "Usa il cruciverba come scheda di chiusura di un'unità per ripassare i contenuti.",
+      "Prepara griglie con parole corte e immagini chiare per chi è alle prime armi con la scrittura."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "generatore-caccia-tesoro",
+    "name": "Generatore di caccia al tesoro",
+    "tagline": "Segui le frecce di direzione per raggiungere il tesoro",
+    "metaTitle": "Generatore di caccia al tesoro gratis — Segui le indicazioni | LessonCraftStudio",
+    "metaDescription": "Generatore di caccia al tesoro gratis per bambini di 6-8 anni. I bambini seguono le frecce su una mappa a griglia fino al tesoro. Da stampare, con soluzioni, gratis, in 11 lingue.",
+    "about": [
+      "Seguire le indicazioni su una mappa è un modo entusiasmante per esercitare il pensiero spaziale, e questo generatore gratuito di caccia al tesoro costruisce proprio una simile avventura. Una mappa illustrata a griglia con frecce di direzione guida il bambino passo dopo passo verso il tesoro nascosto.",
+      "Leggere le frecce e muoversi nella direzione giusta allena il linguaggio direzionale, la sequenzialità e un senso precoce di posizione e movimento, tutto avvolto in una storia che i bambini adorano. Raggiungere il tesoro dà un obiettivo chiaro e motivante verso cui lavorare.",
+      "Scegli un tema e una difficoltà adatti al tuo gruppo, poi stampa la mappa con la sua soluzione per un controllo veloce. Lo strumento si apre nel browser, in 11 lingue, senza accesso né installazione, con oltre 3000 immagini a tema gratuite."
+    ],
+    "howToUse": [
+      "Scegli un tema e quanti passi debba durare la caccia.",
+      "Stampa la mappa della caccia al tesoro per ogni bambino.",
+      "Chiedi ai bambini di seguire ogni freccia di direzione un passo alla volta.",
+      "Controlla la casella finale del tesoro con la soluzione stampata."
+    ],
+    "classroomIdeas": [
+      "Camminate prima insieme alcuni passi di direzione su una griglia a terra.",
+      "Usala per esercitare le parole su, giù, sinistra e destra.",
+      "Proponila come sfida di problem solving in un angolo.",
+      "Aumenta il numero di passi man mano che i bambini diventano più sicuri."
     ]
   },
   "labels": {

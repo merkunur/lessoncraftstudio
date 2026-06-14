@@ -1,0 +1,803 @@
+{
+  "addition": {
+    "slug": "addisjons-arbeidsark-skaper",
+    "name": "Addisjons-arbeidsark",
+    "tagline": "Lag pluss-oppgaver med bilder og tall på sekunder",
+    "metaTitle": "Gratis addisjons-arbeidsark — pluss til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis addisjons-arbeidsark for 5-7 år. Pluss-oppgaver med bilder og tall, med fasit — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Å legge sammen er en av de aller første matematikkferdighetene, og den fester seg best når barna kan se hva de gjør. Denne gratis arbeidsark-skaperen lager enkle pluss-oppgaver med vennlige bilder så vel som rene tall, slik at et barn kan telle ting fram til summen før det jobber med sifrene alene.",
+      "Du bestemmer hvordan siden ser ut: velg små tall til de som akkurat har begynt, eller litt mer utfordring, og velg et bildetema slik at tingene føles kjente. Hvert barn skriver svaret i ruta, og da holder fokuset seg på å finne riktig sum.",
+      "Hvert arbeidsark du lager kan skrives ut med en gang, og de fleste følger med en fasit, slik at du raskt kan sjekke arbeidet eller la barna rette selv. Det kjører i nettleseren uten konto, på hvilket som helst av 11 språk."
+    ],
+    "howToUse": [
+      "Velg bilde-oppgaver til de yngste tellerne, eller oppgaver med bare tall til barn som er klare for å regne med sifre.",
+      "Velg et tema og et tallområde som passer gruppa di.",
+      "Skriv ut arbeidsarket og la hvert barn skrive summen i svarruta.",
+      "Sjekk de ferdige oppgavene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Kjør et raskt oppvarmingsark i starten av matematikktimen.",
+      "Sett ut bilde-addisjon på en telle-stasjon med konkreter.",
+      "Send et kort ark hjem til ekstra øving sammen med en voksen.",
+      "Koble et tema-ark til emnet dere utforsker den uka."
+    ]
+  },
+  "subtraction": {
+    "slug": "subtraksjons-arbeidsark-skaper",
+    "name": "Subtraksjons-arbeidsark",
+    "tagline": "Bygg minus-oppgaver med bilder og tall raskt",
+    "metaTitle": "Gratis subtraksjons-arbeidsark — minus til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis subtraksjons-arbeidsark for 5-7 år. Minus-oppgaver med bilder og tall, med fasit — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Å trekke fra kan kjennes vanskeligere enn å legge sammen, så barna har god nytte av å se ting forsvinne før de jobber med tallene. Denne gratis arbeidsark-skaperen lager minus-oppgaver med bilder og med tall, slik at de yngste kan streke over ting for å finne ut hvor mange som er igjen.",
+      "Still nivået etter klassen din: hold tallene lave til de første forsøkene, og øk dem etter hvert som tryggheten vokser. Et bildetema gjør hver oppgave til en liten fortelling i stedet for en rad med sifre.",
+      "Arbeidsarkene skrives ut umiddelbart, og de fleste følger med en fasit, så det går fort å sjekke og barna kan rette sine egne så snart de er klare. Alt fungerer i nettleseren uten innlogging, på 11 språk."
+    ],
+    "howToUse": [
+      "Velg bilde-minus til de som akkurat har begynt, eller oppgaver med bare tall til eldre barn.",
+      "Velg et tema og et tallområde som passer elevene dine.",
+      "Skriv ut siden og be hvert barn skrive hvor mange som er igjen i ruta.",
+      "Bruk den utskrevne fasiten til å sjekke eller til å støtte selvretting."
+    ],
+    "classroomIdeas": [
+      "Vis hvordan dere streker over sammen på tavla før barna begynner.",
+      "Tilby bilde-subtraksjon på en telle-stasjon med ting de kan flytte.",
+      "Send et kort øvingsark hjem mellom timene.",
+      "Bland inn en tema-side når du vil ha en frisk sammenheng for samme ferdighet."
+    ]
+  },
+  "code-addition": {
+    "slug": "kode-addisjons-arbeidsark-skaper",
+    "name": "Kode-addisjon-arbeidsark",
+    "tagline": "Tyd bildene, og legg så sammen tallene",
+    "metaTitle": "Gratis kode-addisjon — tyd og legg sammen | LessonCraftStudio",
+    "metaDescription": "Lag gratis kode-addisjon for 5-7 år. Barna tyder en bildenøkkel og legger så sammen — til utskrift med fasit, uten innlogging, gratis, på 11 språk.",
+    "about": [
+      "Denne gratis kode-addisjon-skaperen legger litt puslespill til vanlige pluss-oppgaver. En liten forklaring kobler hvert bilde eller symbol til et tall, og barnet leser nøkkelen først, bytter ut bildene med verdiene sine og legger dem deretter sammen.",
+      "Det ekstra tydetrinnet bygger nøyaktig lesing og en-til-en-kobling ved siden av matematikken, noe som gjør det til en tilfredsstillende utfordring for barn som allerede legger sammen små tall trygt.",
+      "Velg et tema til bildene i forklaringen og et tallområde som styrer vanskegraden. Hvert ark skrives ut med en tilhørende fasit, så du kan bekrefte både tydingen og summene. Det kjører i hvilken som helst nettleser, på 11 språk, uten at det trengs konto."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildene i forklaringen passer klassen din.",
+      "Sett et tallområde som passer barnas ferdigheter i å legge sammen.",
+      "Skriv ut arket og minn barna om å lese bildenøkkelen først.",
+      "Sjekk både de tydede tallene og summene mot fasiten."
+    ],
+    "classroomIdeas": [
+      "Introduser det som en «hemmelig kode»-aktivitet for å vekke nysgjerrighet.",
+      "Bruk det som påbygging for barn som blir fort ferdige med vanlig addisjon.",
+      "Gå gjennom én tydet oppgave sammen før barna jobber alene.",
+      "Knytt temaet i forklaringen til et aktuelt emne for en tema-utfordring."
+    ]
+  },
+  "more-less": {
+    "slug": "mer-eller-mindre-arbeidsark-skaper",
+    "name": "Mer eller mindre-arbeidsark",
+    "tagline": "Sammenlign to grupper: mer, mindre eller like mange",
+    "metaTitle": "Gratis mer eller mindre-arbeidsark — sammenlign grupper | LessonCraftStudio",
+    "metaDescription": "Lag gratis mer eller mindre-arbeidsark for 3-5 år. Barna sammenligner bildegrupper og merker mer, mindre eller like mange — til utskrift, gratis, på 11 språk.",
+    "about": [
+      "Før barna teller nøyaktig trenger de en følelse for mengde, og det begynner med å sammenligne. Denne gratis arbeidsark-skaperen viser to grupper med bilder side om side og ber barnet avgjøre hvilken som har flest, hvilken som har færrest, eller om de er like mange.",
+      "Siden fokuset er på sammenligning og ikke på nøyaktige summer, kan selv de aller yngste være med ved å se og resonnere. Å merke svaret holder oppgaven enkel og tydelig for små hender.",
+      "Velg et bildetema for å holde gruppene engasjerende, og skriv ut siden når du er klar. De fleste ark følger med en fasit for rask sjekking. Det fungerer i nettleseren på 11 språk, uten noe å installere."
+    ],
+    "howToUse": [
+      "Velg et tema slik at de to gruppene bruker kjente bilder.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "Be barna se på begge gruppene og merke mer, mindre eller like mange.",
+      "Sjekk svarene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bruk det under en «hvor mange»-samtale i samlingsstund.",
+      "Sett det på en matematikkstasjon sammen med ekte ting å sammenligne.",
+      "Modeller ordene «mer», «færre» og «like mange» mens dere merker én sammen.",
+      "Send et ark hjem for å øve på å sammenligne hverdagsgrupper."
+    ]
+  },
+  "math-puzzle": {
+    "slug": "mattepuslespill-skaper",
+    "name": "Mattepuslespill",
+    "tagline": "Blandede regnegåter med manglende deler",
+    "metaTitle": "Gratis mattepuslespill — tallgåter til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis mattepuslespill for 6-8 år. Blandede gåter med manglende tall og fasit til utskrift — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Denne gratis mattepuslespill-skaperen gjør regning om til et tenke-spill. I stedet for et rett regnestykke er et tall eller et regnetegn latt stå tomt, og barnet må resonnere baklengs for å finne ut hva som hører hjemme i tomrommet.",
+      "Å fylle inn et manglende tall eller tegn bygger en dypere forståelse av hvordan pluss og minus henger sammen, noe som hjelper barna videre fra utenat-fakta mot ekte tallforståelse.",
+      "Du kan blande regneartene og stille vanskegraden etter gruppa di, og hver gåte skrives ut med en fasit så det er enkelt å sjekke. Variasjonen holder barna tenkende i stedet for gjettende. Det åpnes i hvilken som helst nettleser, på 11 språk, uten innlogging og uten å laste ned noe."
+    ],
+    "howToUse": [
+      "Velg hvilke regnearter som skal være med og hvor utfordrende det skal være.",
+      "Skriv ut gåte-arket til klassen.",
+      "Be barna finne det manglende tallet eller regnetegnet i hver linje.",
+      "Bekreft hvert svar med den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bruk en gåte som en kort hjerne-oppvarming til å åpne matematikktimen.",
+      "Tilby det som påbygging for barn som er klare til å resonnere, ikke bare huske.",
+      "Løs én vrien linje sammen og snakk dere gjennom tenkingen.",
+      "Sett et lite sett som en utfordring for de som blir tidlig ferdige."
+    ]
+  },
+  "math-worksheet": {
+    "slug": "matematikk-arbeidsark-skaper",
+    "name": "Matematikk-arbeidsark",
+    "tagline": "Generell regneøving med blandede oppgavetyper",
+    "metaTitle": "Gratis matematikk-arbeidsark — regning til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis matematikk-arbeidsark for 5-7 år. Blandet regneøving med fasit til utskrift — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Noen ganger trenger du bare en ren side med øving, og denne gratis matematikk-arbeidsark-skaperen gir akkurat det. Den bygger et generelt regneark med en blanding av oppgavetyper, slik at barna får variert og allsidig øving på ett sted.",
+      "Fordi oppgavene varierer, kan ikke barna gli gjennom på ett enkelt mønster; de må lese hvert spørsmål og velge hvordan de skal løse det, noe som holder dem oppmerksomme og fleksible.",
+      "Still nivået etter elevene dine, skriv ut arket, og bruk den tilhørende fasiten til å rette raskt. Det er en enkel måte å holde en jevn strøm av frisk øving uten forberedelse, og du kan lage et nytt ark på sekunder når et gammelt er brukt opp. Verktøyet kjører i nettleseren, på 11 språk, uten konto og uten å laste ned noe."
+    ],
+    "howToUse": [
+      "Velg oppgavetyper og vanskegrad for gruppa di.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "La barna lese hver oppgave nøye og løse den.",
+      "Sjekk siden mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bruk det som en rask ukentlig repetisjon av ferdigheter du har lært bort.",
+      "Sett det som selvstendig arbeid mens du har en liten gruppe.",
+      "Send ett hjem som lett, variert øving.",
+      "Bygg et kort ark til en rask vurdering på slutten av et emne."
+    ]
+  },
+  "alphabet-train": {
+    "slug": "alfabet-tog-skaper",
+    "name": "Alfabet-tog",
+    "tagline": "Fyll de manglende bokstavene langs et vennlig tog",
+    "metaTitle": "Gratis alfabet-tog — manglende bokstaver | LessonCraftStudio",
+    "metaDescription": "Lag gratis alfabet-tog for 3-5 år. Barna fyller manglende bokstaver i rekkefølge langs et tog — fasit, uten innlogging, gratis, på 11 språk.",
+    "about": [
+      "Å lære alfabetets rekkefølge blir leken når den kjører langs et tog. Denne gratis alfabet-tog-skaperen legger bokstavene ut som vogner med noen få tomrom, og barnet skriver de manglende bokstavene for å holde rekkefølgen i gang.",
+      "Å finne ut hvilken bokstav som kommer etter, styrker både bokstavrekkefølge og bokstavkjennskap samtidig, og togformen gir de minste en tydelig vei å følge fra venstre mot høyre.",
+      "Du kan justere hvor mange bokstaver som er borte for å passe gruppa di, og hvert tog skrives ut med en fasit. Den blide togformen gjør alfabetet innbydende i stedet for som en prøve. Det åpnes i hvilken som helst nettleser, på 11 språk, uten innlogging og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg hvor mange bokstaver du vil la stå tomme for elevene dine.",
+      "Skriv ut alfabet-toget til hvert barn.",
+      "Be barna lese med og skrive de manglende bokstavene i rekkefølge.",
+      "Sjekk det ferdige toget med den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Syng eller si alfabetet sammen før barna fyller tomrommene.",
+      "Bruk det på en lese-stasjon sammen med magnetbokstaver.",
+      "Begynn med ett eller to tomrom, og legg så til flere etter hvert som barna vokser.",
+      "Send et tog hjem for å øve på bokstavrekkefølge med en voksen."
+    ]
+  },
+  "prepositions": {
+    "slug": "preposisjoner-arbeidsark-skaper",
+    "name": "Preposisjoner-arbeidsark",
+    "tagline": "Velg riktig stedsord for hvert bilde",
+    "metaTitle": "Gratis preposisjoner-arbeidsark — stedsord | LessonCraftStudio",
+    "metaDescription": "Lag gratis preposisjoner-arbeidsark for 5-7 år. Barna velger i, på, under og mer fra bildescener — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Stedsord som i, på, under og ved siden av beskriver hvor ting er, og barna får tak i dem lettest med et bilde foran seg. Denne gratis preposisjoner-arbeidsark-skaperen viser en liten scene og ber barnet velge ordet som beskriver hvor en ting befinner seg.",
+      "Å koble riktig preposisjon til et tydelig bilde bygger både romlig ordforråd og nøyaktig observasjon, og det gir tidlige lesere en meningsfull måte å bruke ord de hører hver dag. Det samme bildet kan også brukes til muntlig samtale før barna skriver, slik at de øver ordene høyt før de bruker dem på papir.",
+      "Velg et tema til scenene slik at de føles kjente, og skriv ut arket, komplett med en fasit for rask sjekking. Du kan blande lette og litt vanskeligere stedsord på samme side for å treffe et bredt spenn av elever. Det kjører i nettleseren på 11 språk, uten konto og uten installering."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildescenene passer klassen din.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "Be barna se på hver scene og velge riktig stedsord.",
+      "Sjekk de valgte ordene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Vis en preposisjon med en leke og en eske før barna begynner.",
+      "Bruk det til å støtte en språkrik «hvor er det?»-samtale.",
+      "Koble det til vanlige klasseromsting som en praktisk oppfølging.",
+      "Knytt scene-temaet til en fortelling dere leser sammen."
+    ]
+  },
+  "word-guess": {
+    "slug": "gjett-ordet-skaper",
+    "name": "Gjett ordet",
+    "tagline": "Lag gjett-ordet-oppgaver med bilder på minutter",
+    "metaTitle": "Gratis gjett ordet — bilde-ordoppgaver til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis gjett ordet-oppgaver for tidlige lesere. Bilde-ordoppgaver fra dine egne ord, med fasit — uten innlogging, på 11 språk.",
+    "about": [
+      "En gjett-ordet-oppgave viser et bilde og en rad med tomme ruter, og barna finner ut ordet og skriver det inn én bokstav om gangen. Denne gratis gjett ordet-skaperen bygger oppgaven fra dine egne ord, og kobler hvert ord til et tydelig bilde, slik at selv tidlige lesere kan være med.",
+      "Fordi ordene er dine, passer oppgaven til klassen — første lyder, ukens ord eller emne-ordforråd. Å se på et bilde og lyde ut ordet kobler mening, lyd og staving sammen, som er akkurat slik tidlig lesing vokser.",
+      "Hver oppgave skrives ut med en fasit, kjører i nettleseren uten konto og uten å installere noe, og fungerer på 11 språk. Det ferdige arbeidsarket er gratis å skrive ut og bruke slik klassen din trenger."
+    ],
+    "howToUse": [
+      "Skriv inn ordene du vil at barna skal gjette; hvert ord kobles til et bilde.",
+      "Skriv ut arbeidsarket og be barna navngi bildet og skrive ordet i rutene.",
+      "Oppmuntre barna til å lyde ut ordet og fylle bokstavene de er sikre på først.",
+      "Sjekk ordene sammen ved hjelp av den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bygg et gjett-ordet-ark fra denne ukas staving eller lydfokus.",
+      "Bruk bildeledetråder så barna kobler ordets mening til stavingen.",
+      "Lag et emne-ord-ark som en morsom repetisjon ved slutten av et emne.",
+      "La de som blir fort ferdige gjette noen bonus-ord mens andre fullfører siden."
+    ]
+  },
+  "word-scramble": {
+    "slug": "ordmiks-skaper",
+    "name": "Ordmiks",
+    "tagline": "Stokk om bokstavene ved hjelp av en bildeledetråd",
+    "metaTitle": "Gratis ordmiks — staving til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis ordmiks for 6-8 år. Barna stokker om bokstaver med en bildeledetråd og skriver ordet — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å sette sammen rotete bokstaver til et ekte ord er en rask og morsom måte å øve på staving. Denne gratis ordmiks-skaperen blander bokstavene i hvert ord og kobler det til en bildeledetråd, slik at barna har noe å sikte mot mens de finner det ut.",
+      "Å stokke om oppmuntrer barna til å holde bokstaver i hodet, prøve ulike rekkefølger og lyde ut ordet, noe som styrker både staving og lydering i et lavterskel-puslespill.",
+      "Velg et bildetema slik at ordene passer emnet ditt, og skriv ut arket med fasiten. Tema-ord knytter staveøvingen pent til det dere lærer den uka, og du kan lage et nytt sett ord på et øyeblikk. Verktøyet fungerer i hvilken som helst nettleser, på 11 språk, uten innlogging og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at de blandede ordene passer ordforråds-fokuset ditt.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "Be barna bruke bildeledetråden og skrive det riktige ordet.",
+      "Sjekk stavingen mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Løs én ordmiks sammen og si hver lyd høyt.",
+      "Bruk det til å repetere emne- eller tema-ordforråd ved ukas slutt.",
+      "Sett det som en stave-stasjon med bokstavbrikker å flytte rundt.",
+      "Send en kort ordmiks hjem for leken staveøving."
+    ]
+  },
+  "wordsearch": {
+    "slug": "ordsoek-skaper",
+    "name": "Ordsøk",
+    "tagline": "Bygg egne ordsøk med tema-bilder",
+    "metaTitle": "Gratis ordsøk — egne ordsøk til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis ordsøk for lærere. Skriv inn egne ord, velg rutenett-størrelse og tema, og skriv ut et eget ordsøk med fasit — uten innlogging, på 11 språk.",
+    "about": [
+      "Et ordsøk ber barna lete etter skjulte ord på tvers av et rutenett med bokstaver — en rolig og fokusert måte å øve på staving og visuell leting. Denne gratis ordsøk-skaperen bygger ett fra din egen ordliste: skriv inn ordene, velg en rutenett-størrelse, og puslespillet legger seg selv ut, med en tilhørende fasit klar til utskrift.",
+      "Fordi ordlista er din, passer puslespillet klassen nøyaktig — lydmønstre, emne-ordforråd, navn eller ord barna kjenner igjen. Du kan holde rutenettet lite og ordene fra venstre mot høyre til de yngste, eller gjøre det større og legge til diagonaler etter hvert som de blir tryggere.",
+      "Det kjører i nettleseren uten å installere noe og uten konto, fungerer på 11 språk, og tema-bilder kan stå ved siden av rutenettet for å gjøre det innbydende. Det ferdige ordsøket er gratis å skrive ut og bruke i klasserommet."
+    ],
+    "howToUse": [
+      "Skriv inn ordene du vil at barna skal finne, og velg en rutenett-størrelse som passer alderen.",
+      "Skriv ut arbeidsarket og be barna ringe rundt hvert ord de finner.",
+      "Bruk ordlista på siden som en sjekkliste så barna vet hva de leter etter.",
+      "Sjekk ferdige puslespill mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Gjør et lydmønster om til et ordsøk så barna leser samme lyd mange ganger.",
+      "Bygg et emne-ordsøk for å introdusere eller repetere fag-ordforråd.",
+      "Lag et lite rutenett fra venstre mot høyre til tidlige lesere og et større til eldre barn.",
+      "Bruk et ordsøk som en rolig start-oppgave i begynnelsen av dagen."
+    ]
+  },
+  "cryptogram": {
+    "slug": "kryptogram-skaper",
+    "name": "Kryptogram",
+    "tagline": "Lag bilde-kryptogrammer til utskrift i hvilket som helst tema",
+    "metaTitle": "Gratis kryptogram — bilde-kryptogrammer til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis kryptogram for klasserommet. Velg et tema, skriv inn ordene dine, og skriv ut et bilde-kryptogram med fasit — uten innlogging, på 11 språk.",
+    "about": [
+      "Et kryptogram gjør lesing om til et vennlig puslespill: hver bokstav er skjult bak et lite bilde eller symbol, og barna knekker koden for å avsløre ordene. Denne gratis kryptogram-skaperen lar en lærer bygge ett på under et minutt — velg et tema, skriv inn ordene du vil ha, og siden setter opp bildenøkkelen og den kodede meldingen for deg.",
+      "Fordi du velger ordene, kan puslespillet passe nøyaktig til det klassen lærer — denne ukas ordliste, ordforråd fra en fortelling, eller navn fra et emne. Generatoren henter fra et bibliotek med over 3000 tema-bilder, så symbolene føles innbydende i stedet for abstrakte for tidlige lesere.",
+      "Alt skrives ut rent som et arbeidsark, og en fasit skrives ut ved siden av. Det er ingen konto å opprette og ingenting å installere — det kjører i nettleseren, fungerer på 11 språk, og det ferdige puslespillet er helt gratis å bruke i klasserommet."
+    ],
+    "howToUse": [
+      "Velg et tema og skriv inn ordene eller den korte meldingen du vil at barna skal tyde.",
+      "Skriv ut arbeidsarket og del ut bildenøkkelen så barna kan koble hvert symbol til bokstaven sin.",
+      "La barna jobbe i par for å knekke koden, og tyde ett ord om gangen.",
+      "Bruk fasiten til å sjekke løsningen sammen til slutt."
+    ],
+    "classroomIdeas": [
+      "Skjul denne ukas ord i et kryptogram som øving for de som blir fort ferdige.",
+      "Bygg et kryptogram fra en fortellings nøkkelord som en forståelses-oppvarming.",
+      "Lag en kort kodet melding — som en klassebelønning eller en gåte — som barna kan avsløre.",
+      "Koble et kryptogram til et emne så barna tyder ordene de er i ferd med å lære."
+    ]
+  },
+  "writing": {
+    "slug": "skriveovelser-skaper",
+    "name": "Skriveøvelser",
+    "tagline": "Veiledede øvingsark for bokstaver og ord",
+    "metaTitle": "Gratis skriveøvelser — øvingsark til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis skriveøvelser for 4-7 år. Bokstav- og ordøving med hjelpelinjer til utskrift — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Pen håndskrift kommer fra jevn, gjentatt øving på linjer som viser barna hvor bokstavene hører hjemme. Denne gratis skriveøvelser-skaperen lager øvingsark til utskrift med tydelige hjelpelinjer for å tegne over og skrive bokstaver og ord.",
+      "Hjelpelinjer hjelper barna med å styre bokstavhøyde og plassering, mens det å tegne over først og skrive etterpå bygger muskelminnet som gjør håndskriften naturlig over tid.",
+      "Du velger bokstavene eller ordene som skal øves på, og skriver så ut arket til klassen. Dette er en utskriftsaktivitet laget for blyant og papir, så det finnes ingen fasit på nett. Det er en rask måte å gi hvert barn de riktige bokstavene å jobbe med. Det kjører i nettleseren på 11 språk, uten innlogging og uten å installere noe."
+    ],
+    "howToUse": [
+      "Skriv inn bokstavene eller ordene du vil at barna skal øve på.",
+      "Skriv ut det veiledede øvingsarket til hvert barn.",
+      "La barna tegne over modellen først, og skrive på egen hånd etterpå.",
+      "Se etter riktig bokstavforming og gi vennlige påminnelser."
+    ],
+    "classroomIdeas": [
+      "Bruk et daglig oppvarmingsark for å bygge en skrive-rutine.",
+      "Øv på bokstavene fra denne ukas lydfokus.",
+      "Sett det på en skrive-stasjon med behagelige blyanter.",
+      "Send et ark hjem så familier kan støtte de samme bokstavene."
+    ]
+  },
+  "big-small": {
+    "slug": "stor-liten-arbeidsark-skaper",
+    "name": "Stor og liten-arbeidsark",
+    "tagline": "Merk hvilket bilde som er stort og hvilket som er lite",
+    "metaTitle": "Gratis stor og liten-arbeidsark — sortere størrelse | LessonCraftStudio",
+    "metaDescription": "Lag gratis stor og liten-arbeidsark for 3-5 år. Barna sammenligner bildestørrelser og merker stor mot liten — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å sammenligne størrelse er en av de tidligste måtene barna beskriver verden på, og den legger grunnlag for senere måling. Denne gratis stor og liten-arbeidsark-skaperen viser samme slags bilde i to størrelser og ber barnet merke hvilket som er stort og hvilket som er lite.",
+      "Fordi oppgaven utelukkende handler om å se og sammenligne, kan selv de som ikke leser ennå være med trygt, og bygge ordforrådet stor, liten, større og mindre underveis.",
+      "Velg et vennlig tema til bildene og skriv ut arket, som følger med en fasit for rask sjekking. Kjente tema-bilder hjelper små barn å holde interessen mens de sammenligner, og du kan koble temaet til det dere holder på med den uka. Det fungerer i nettleseren på 11 språk, uten innlogging og uten installering."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildene føles kjente for gruppa di.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "Be barna merke det store bildet og det lille bildet.",
+      "Sjekk svarene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Sammenlign to ekte klasseromsting før barna begynner.",
+      "Bruk det på en sortere-stasjon med store og små leker.",
+      "Modeller ordene stor, liten, større og mindre underveis.",
+      "Send et ark hjem for å finne store og små ting rundt huset."
+    ]
+  },
+  "pattern-train": {
+    "slug": "moenstertog-skaper",
+    "name": "Mønstertog",
+    "tagline": "Velg hva som kommer etter i bildemønsteret",
+    "metaTitle": "Gratis mønstertog — hva kommer etter | LessonCraftStudio",
+    "metaDescription": "Lag gratis mønstertog for 5-7 år. Barna finner hva som kommer etter i et bildemønster langs et tog — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å oppdage et mønster og forutsi hva som kommer etter er tidlig algebra i forkledning. Denne gratis mønstertog-skaperen viser et gjentakende bildemønster som løper langs et tog med én vogn latt tom, og barnet finner ut hvilket bilde som fyller tomrommet.",
+      "Å fortsette et mønster ber barna legge merke til regelen, holde den i hodet og bruke den, noe som skjerper resonnement og oppmerksomhet på en leken, visuell måte.",
+      "Velg et tema til mønster-bildene og still vanskegraden etter gruppa di. Hvert tog skrives ut med en fasit for rask sjekking. Det vennlige toget holder mønsteret tydelig og fra venstre mot høyre, slik at selv de yngste klarer å følge med. Det åpnes i hvilken som helst nettleser, på 11 språk, uten innlogging og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema og hvor sammensatt det gjentakende mønsteret skal være.",
+      "Skriv ut mønstertoget til klassen.",
+      "Be barna si mønsteret høyt og velge hva som kommer etter.",
+      "Sjekk det valgte bildet mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Klapp eller syng et mønster sammen før barna prøver siden.",
+      "Bygg et tilsvarende mønster med klosser på en stasjon.",
+      "Begynn med enkle ABAB-mønstre, og legg så til mer kompleksitet.",
+      "Knytt mønster-temaet til ditt aktuelle emne."
+    ]
+  },
+  "pattern-worksheet": {
+    "slug": "moenster-arbeidsark-skaper",
+    "name": "Mønster-arbeidsark",
+    "tagline": "Fullfør hver rad med bilde- og formmønstre",
+    "metaTitle": "Gratis mønster-arbeidsark — mønstre til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis mønster-arbeidsark for 6-8 år. Barna fullfører rader med bilde- og formmønstre — til utskrift med fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Denne gratis mønster-arbeidsark-skaperen gir barna flere mønstre å fullføre på én side, og bygger videre på de enkle gjentakelsene de møtte som yngre elever. Hver rad viser en bilde- eller formrekke som barnet fullfører.",
+      "Med flere rader og rikere regler øver barna på å lese et mønster nøye, finne den gjentakende enheten og forlenge den nøyaktig, noe som fordyper resonnementet bak tidlig algebra. Å se flere mønstre på en gang hjelper også barna med å sammenligne ulike slags regler.",
+      "Velg et tema og en vanskegrad som passer klassen, og skriv så ut arket med fasiten for rask retting. Flere mønstre på én side gjør det enkelt å gi mye øving i én økt. Verktøyet kjører i nettleseren, på 11 språk, uten konto og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema og hvor utfordrende mønstrene skal være.",
+      "Skriv ut arbeidsarket til hvert barn.",
+      "Be barna finne regelen i hver rad og fullføre den.",
+      "Sjekk de ferdige radene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Diskuter den gjentakende enheten i ett mønster som klasse først.",
+      "Sett det som selvstendig arbeid etter en mønster-mini-leksjon.",
+      "Tilby vanskeligere mønstre som påbygging for de som blir fort ferdige.",
+      "Kombiner bilde- og formrader for variert øving."
+    ]
+  },
+  "draw-and-color": {
+    "slug": "tegn-og-fargelegg-skaper",
+    "name": "Tegn og fargelegg",
+    "tagline": "Kopier et bilde rute for rute, og fargelegg det",
+    "metaTitle": "Gratis tegn og fargelegg — tegne etter rutenett | LessonCraftStudio",
+    "metaDescription": "Lag gratis tegn og fargelegg for 5-8 år. Barna kopierer et bilde rute for rute og fargelegger det — PDF til utskrift, uten innlogging, på 11 språk.",
+    "about": [
+      "Å kopiere et bilde én rute om gangen hjelper barna å roe ned og virkelig se, og denne gratis tegn og fargelegg-skaperen gjør det om til en rolig og givende aktivitet. Et modellbilde sitter på et rutenett, og barnet gjenskaper det rute for rute på et blankt rutenett før det fargelegger.",
+      "Rutenettet deler et helt bilde opp i overkommelige deler, noe som bygger romforståelse, nøyaktig observasjon og blyantkontroll, alt mens barnet føler stoltheten over å tegne noe selv.",
+      "Velg et tema-bilde og skriv ut aktiviteten som en PDF for arbeid med blyant og fargestifter. Det finnes ingen fasit på nett fordi den ferdige tegningen er resultatet, og hvert barns bilde blir litt forskjellig. Det er en rolig oppgave som passer godt når klassen trenger å lande litt. Det fungerer i nettleseren på 11 språk, uten innlogging."
+    ],
+    "howToUse": [
+      "Velg et tema-bilde barna skal kopiere.",
+      "Skriv ut PDF-en med modell-rutenettet og det blanke rutenettet.",
+      "Be barna kopiere bildet én rute om gangen.",
+      "La barna fargelegge den ferdige tegningen slik de vil."
+    ],
+    "classroomIdeas": [
+      "Bruk det som en stille, fokusert aktivitet etter travle timer.",
+      "Sett det på en kunst- eller finmotorikk-stasjon.",
+      "Snakk om hvilken rute man skal begynne med for å støtte planlegging.",
+      "Vis de ferdige bildene sammen som klassekunst."
+    ]
+  },
+  "drawing-lines": {
+    "slug": "linjeovelser-skaper",
+    "name": "Linjeøvelser",
+    "tagline": "Tegn over rette, buede og siksak-baner før skriving",
+    "metaTitle": "Gratis linjeøvelser — tegne over før skriving | LessonCraftStudio",
+    "metaDescription": "Lag gratis linjeøvelser for 3-5 år. Barna tegner over rette, buede og siksak-baner for finmotorikk — PDF til utskrift, uten innlogging, på 11 språk.",
+    "about": [
+      "Før barna kan skrive bokstaver trenger de stødige hender og god kontroll over blyanten. Denne gratis linjeøvelser-skaperen lager før-skrive-ark fulle av prikkede baner å tegne over, inkludert rette linjer, milde buer og livlige siksaker.",
+      "Å følge en bane fra start til slutt trener de små musklene og øye-hånd-koordinasjonen som håndskrift bygger på, og variasjonen av linjeformer holder øvingen frisk og morsom.",
+      "Skriv ut arkene som en PDF for blyantarbeid; fordi målet er selve det å tegne over, finnes det ingen fasit. Det er en enkel, ferdig måte å bygge kontrollen håndskrift trenger, og du kan gi nye baner hver dag uten ekstra forberedelse. Verktøyet kjører i nettleseren på 11 språk, uten konto og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg linjetypene du vil ha, fra rette til buede til siksak.",
+      "Skriv ut PDF-øvingsarket til hvert barn.",
+      "Vis barna hvordan de tegner over hver prikkede bane fra start til slutt.",
+      "Oppmuntre til et behagelig blyantgrep og stødige, flytende strøk."
+    ],
+    "classroomIdeas": [
+      "Bruk det som en daglig finmotorikk-oppvarming før skriving.",
+      "Sett det på en stasjon med tykke blyanter og fargestifter.",
+      "Tegn over en stor versjon i lufta sammen først.",
+      "Send et ark hjem for å bygge før-skrive-kontroll med familier."
+    ]
+  },
+  "coloring": {
+    "slug": "fargeleggingssider-skaper",
+    "name": "Fargeleggingssider",
+    "tagline": "Gjør tema-omrissbilder om til fargeleggingssider til utskrift",
+    "metaTitle": "Gratis fargeleggingssider — fargelegging til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis fargeleggingssider for 3-7 år. Lag tema-omrissbilder til utskrift fra et stort bildebibliotek — PDF, uten innlogging, på 11 språk.",
+    "about": [
+      "Fargelegging er beroligende, kreativt og flott for små hender, og denne gratis fargeleggingssider-skaperen lar deg bygge sider fra et stort bibliotek med tema-omrissbilder på et øyeblikk. Velg bildene du vil ha og skriv ut rene, barnevennlige omriss.",
+      "Å fylle inn omriss hjelper barna med å utvikle blyantkontroll og fargebevissthet samtidig som de får rom til å uttrykke seg, noe som gjør det til en mild, skjermfri aktivitet som passer et bredt aldersspenn.",
+      "Sidene skrives ut som en PDF klar for fargestifter eller blyanter, uten at det trengs noen fasit. Med tusenvis av bilder å velge mellom kan du alltid finne en side som passer øyeblikket, enten det er et emne dere jobber med eller en rolig stund. Verktøyet kjører i hvilken som helst nettleser, på 11 språk, og spør aldri om innlogging eller installering."
+    ],
+    "howToUse": [
+      "Velg et tema og omrissbildene du ønsker.",
+      "Skriv ut fargeleggingssiden som en PDF.",
+      "Del ut fargestifter eller fargeblyanter.",
+      "La barna fargelegge bildene fritt."
+    ],
+    "classroomIdeas": [
+      "Bruk en tema-side for å roe klassen i starten av dagen.",
+      "Match bildene til en fortelling eller et emne dere utforsker.",
+      "Tilby det som et rolig valg i frileken.",
+      "Send en fargeleggingsside hjem for en avslappet aktivitet med familien."
+    ]
+  },
+  "chart-count": {
+    "slug": "bildediagram-arbeidsark-skaper",
+    "name": "Bildediagram-arbeidsark",
+    "tagline": "Tell bildene og fyll søylediagrammet",
+    "metaTitle": "Gratis bildediagram-arbeidsark — søylediagram med bilder | LessonCraftStudio",
+    "metaDescription": "Lag gratis bildediagram-arbeidsark for 5-7 år. Barna teller ting og fyller et søylediagram — til utskrift, med fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å lese og lage enkle diagrammer er en tidlig data-ferdighet, og bilder gjør den tilgjengelig. Denne gratis bildediagram-arbeidsark-skaperen viser grupper av ting og et tomt søylediagram, og barnet teller hver slags bilde og fyller søylen så den stemmer.",
+      "Å gjøre et antall om til en søyle hjelper barna med å koble mengde til en visuell høyde, et viktig steg mot å forstå diagrammer og sammenligne mengder med et blikk.",
+      "Velg et tema til bildene og skriv ut arbeidsarket med fasiten for rask sjekking. Det er et mildt, praktisk første steg inn i å lese og lage diagrammer, og det passer godt til å vise resultatene av en liten klasse-undersøkelse. Verktøyet åpnes i nettleseren, på 11 språk, uten innlogging og uten installering."
+    ],
+    "howToUse": [
+      "Velg et tema slik at tingene som skal telles passer klassen din.",
+      "Skriv ut bildediagram-arbeidsarket til hvert barn.",
+      "Be barna telle hver slags bilde og fylle den tilhørende søylen.",
+      "Sjekk det ferdige diagrammet mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bygg et klasse-søylediagram fra ekte ting før arbeidsarket.",
+      "Bruk det til å registrere resultatene av en rask klasse-undersøkelse.",
+      "Snakk sammen om hvilken søyle som er høyest og lavest.",
+      "Sett det på en matematikkstasjon som praktisk data-øving."
+    ]
+  },
+  "matching": {
+    "slug": "koblings-arbeidsark-skaper",
+    "name": "Kobling-arbeidsark",
+    "tagline": "Tegn streker mellom bildene som hører sammen",
+    "metaTitle": "Gratis kobling-arbeidsark — koble parene | LessonCraftStudio",
+    "metaDescription": "Lag gratis kobling-arbeidsark for 5-7 år. Barna tegner streker mellom bildepar som hører sammen — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å koble par er en tydelig og tilfredsstillende måte for barna å vise hva de kan. Denne gratis kobling-arbeidsark-skaperen plasserer bilder i to kolonner, og barnet tegner en strek for å koble hvert til sin partner på den andre siden.",
+      "Å koble de riktige parene bygger visuell skjelning og resonnement om hvordan ting henger sammen, og den enkle strektegningen holder oppgaven tilgjengelig for tidlige elever.",
+      "Velg et tema slik at koblingene passer emnet ditt, og skriv så ut arket med fasiten for rask sjekking. Det er en fleksibel måte å sjekke forståelsen av hvordan ting henger sammen. Det fungerer i hvilken som helst nettleser, på 11 språk, uten at det trengs konto og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildeparene passer leksjonen din.",
+      "Skriv ut kobling-arbeidsarket til hvert barn.",
+      "Be barna tegne en strek fra hvert bilde til partneren sin.",
+      "Sjekk de koblede parene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Vis én kobling på tavla og forklar hvorfor paret hører sammen.",
+      "Bruk det til å repetere tema-ordforråd eller beslektede begreper.",
+      "Sett det på en stasjon med fysiske kort å koble først.",
+      "Send et kobling-ark hjem for rask, tydelig øving."
+    ]
+  },
+  "grid-match": {
+    "slug": "rutenett-puslespill-skaper",
+    "name": "Rutenett-puslespill",
+    "tagline": "Plasser hvert bilde i sin riktige rute i rutenettet",
+    "metaTitle": "Gratis rutenett-puslespill — bilde-rutenett-aktivitet | LessonCraftStudio",
+    "metaDescription": "Lag gratis rutenett-puslespill for 5-7 år. Barna plasserer eller tegner hvert bilde i sin riktige rute — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å jobbe innenfor et rutenett ber barna følge rader og kolonner nøye, og denne gratis rutenett-puslespill-skaperen bygger en aktivitet rundt akkurat det. Barnet finner ut hvor hvert bilde hører hjemme og plasserer eller tegner det i riktig rute.",
+      "Å lese en rute-posisjon styrker romlig resonnement og nøyaktig kobling, ferdigheter som støtter alt fra tidlig geometri til å lese en tabell senere. Det oppmuntrer også barna til å jobbe på en ordnet måte, fra venstre mot høyre og ovenfra og ned.",
+      "Velg et tema til bildene og skriv ut arbeidsarket, som følger med en fasit for rask sjekking. Å jobbe innenfor et rutenett er også flott forberedelse til å lese tabeller senere. Verktøyet kjører i nettleseren på 11 språk, uten innlogging og uten å laste ned noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at rutenett-bildene passer gruppa di.",
+      "Skriv ut rutenett-puslespill-arbeidsarket til hvert barn.",
+      "Be barna plassere eller tegne hvert bilde i sin riktige rute.",
+      "Sjekk det ferdige rutenettet mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Pek ut rader og kolonner sammen før barna begynner.",
+      "Bruk det som en nøyaktig-se-utfordring på en matematikkstasjon.",
+      "Begynn med et lite rutenett og utvid det etter hvert som tryggheten bygges.",
+      "Knytt bilde-temaet til ditt aktuelle emne."
+    ]
+  },
+  "shadow-match": {
+    "slug": "skyggematching-skaper",
+    "name": "Skyggematching",
+    "tagline": "Match hvert bilde til den riktige skyggen",
+    "metaTitle": "Gratis skyggematching — match silhuetten | LessonCraftStudio",
+    "metaDescription": "Lag gratis skyggematching for 5-7 år. Barna matcher hvert bilde til den riktige skyggesilhuetten — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å matche et bilde til skyggen sin er en herlig test på nøyaktig observasjon. Denne gratis skyggematching-skaperen viser fargerike bilder ved siden av sine svarte silhuetter, og barnet kobler hvert bilde til skyggen som passer det nøyaktig.",
+      "Fordi skygger fjerner farge og detalj, må barna fokusere på form og omriss, og dermed skjerpe visuell skjelning og oppmerksomhet i et puslespill som føles som et spill. Det samme fokuset på omriss støtter også tidlig bokstav- og formkjennskap.",
+      "Velg et tema til bildene og skriv ut arket, komplett med en fasit for rask sjekking. Kontrasten mellom full farge og enkel skygge gjør det både beroligende og fengslende. Det fungerer i hvilken som helst nettleser, på 11 språk, uten innlogging eller installering."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildene og skyggene passer klassen din.",
+      "Skriv ut skyggematching-arbeidsarket til hvert barn.",
+      "Be barna matche hvert bilde til den riktige skyggen.",
+      "Sjekk koblingene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Lag ekte skygger med en lommelykt og ting for å introdusere det.",
+      "Bruk det som en fokusert stasjon for visuell persepsjon.",
+      "Diskuter hvordan form alene hjelper deg å kjenne igjen en ting.",
+      "Knytt bilde-temaet til en fortelling eller et emne."
+    ]
+  },
+  "bingo": {
+    "slug": "bildebingo-skaper",
+    "name": "Bildebingo",
+    "tagline": "Bilde-bingobrett og trekke-kort til utskrift",
+    "metaTitle": "Gratis bildebingo — bilde-bingo til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis bildebingo for 5-7 år. Lag bilde-bingobrett og trekke-kort til ordforråds-spill — uten innlogging, gratis, på 11 språk.",
+    "about": [
+      "Bingo er en gledelig måte å øve ordforråd sammen, og denne gratis bildebingo-skaperen bygger bildebrett pluss tilhørende trekke-kort på noen få klikk. Hvert barn får et brett med tema-bilder mens du roper dem opp ett om gangen.",
+      "Å lytte etter et bilde og merke det bygger ordkjennskap, ordforråd og lytteferdigheter, og den felles spillgløden gjør nye ord minneverdige for hele klassen. Fordi hvert brett er litt forskjellig, holder barna seg våkne gjennom hele runden.",
+      "Velg et tema slik at bildene passer emnet ditt, og skriv så ut nok varierte brett til gruppa di sammen med trekke-kortene. Verktøyet kjører i nettleseren, på 11 språk, uten at det trengs konto."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bingo-bildene passer ordforråds-fokuset ditt.",
+      "Skriv ut ett bingobrett per barn og settet med trekke-kort.",
+      "Rop opp bilder ett om gangen og la barna merke dem.",
+      "Feir en full rad eller et fullt brett som vinner-rekka."
+    ],
+    "classroomIdeas": [
+      "Bruk det til å repetere emne-ordforråd i et livlig spill for hele klassen.",
+      "Rop ordene på et annet språk for språkelever.",
+      "La et barn være den som roper opp for å øve på å lese bildene.",
+      "Kjør en rask runde som en morsom åpning eller overgang i timen."
+    ]
+  },
+  "picture-sort": {
+    "slug": "bildesortering-skaper",
+    "name": "Bildesortering",
+    "tagline": "Sorter hvert bilde under riktig kategori",
+    "metaTitle": "Gratis bildesortering — sortere og kategorier | LessonCraftStudio",
+    "metaDescription": "Lag gratis bildesortering for 5-7 år. Barna sorterer bilder i riktige kategorier — til utskrift med fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å sortere ting i grupper er slik barna gir verden mening, og denne gratis bildesortering-skaperen gjør det om til et tydelig arbeidsark. Du oppgir kategori-overskrifter og et sett med bilder, og barnet avgjør hvilken gruppe hvert bilde hører til.",
+      "Å kategorisere bygger resonnement, ordforråd og evnen til å legge merke til hva ting har felles, en grunnleggende tenkeferdighet som støtter naturfag, matematikk og lese- og skriveopplæring like mye. Å navngi regelen for hver gruppe gir også barna mye å snakke om.",
+      "Velg et tema og kategoriene dine, og skriv så ut arket med fasiten for rask sjekking. Sortere-øving fungerer på tvers av matematikk, naturfag og språk, så den fortjener plassen sin ofte. Verktøyet åpnes i hvilken som helst nettleser, på 11 språk, uten innlogging eller installering."
+    ],
+    "howToUse": [
+      "Velg kategoriene og et tema til bildene.",
+      "Skriv ut bildesortering-arbeidsarket til hvert barn.",
+      "Be barna sortere hvert bilde under riktig overskrift.",
+      "Sjekk de sorterte gruppene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Sorter ekte ting i ringer før arbeidsarket.",
+      "Bruk det til å støtte en kategoriserings-leksjon i naturfag eller emne.",
+      "Snakk gjennom ett bilde sammen og navngi hvorfor det passer en gruppe.",
+      "Sett det på en stasjon med utklipte bilder å sortere fysisk."
+    ]
+  },
+  "missing-pieces": {
+    "slug": "manglende-biter-skaper",
+    "name": "Manglende biter",
+    "tagline": "Finn biten som fullfører bildet",
+    "metaTitle": "Gratis manglende biter — fullfør bildet | LessonCraftStudio",
+    "metaDescription": "Lag gratis manglende biter for 5-7 år. Barna finner biten som fullfører hvert bilde — til utskrift med fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å finne ut hvilken bit som fullfører et bilde er et tilfredsstillende visuelt puslespill for de yngste. Denne gratis manglende biter-skaperen viser et bilde med et tomrom, og barnet finner eller tegner delen som passer for å gjøre det helt.",
+      "Å fullføre bildet ber barna se for seg helheten, sammenligne former og detaljer og resonnere om hva som mangler, og bygger romforståelse og nøyaktig observasjon. Det er den slags stille, fokuserte oppgaven som passer et rolig øyeblikk i dagen.",
+      "Velg et tema til bildene og skriv ut arbeidsarket, som følger med en fasit for rask sjekking. Det er et tilfredsstillende, lavterskel-puslespill som barna gjerne vender tilbake til, og som passer godt i en rolig stund av dagen. Det kjører i nettleseren på 11 språk, uten konto og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildene passer gruppa di.",
+      "Skriv ut manglende biter-arbeidsarket til hvert barn.",
+      "Be barna finne eller tegne biten som fullfører hvert bilde.",
+      "Sjekk svarene mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Løs ett sammen, og beskriv hva som mangler og hvorfor.",
+      "Bruk det som en utfordring i visuelt resonnement på en rolig stasjon.",
+      "Koble det til enkle puslespill for praktisk øving.",
+      "Knytt bilde-temaet til ditt aktuelle emne."
+    ]
+  },
+  "odd-one-out": {
+    "slug": "finn-den-ulike-skaper",
+    "name": "Finn den ulike",
+    "tagline": "Oppdag bildet som ikke hører hjemme",
+    "metaTitle": "Gratis finn den ulike — oppdag forskjellen | LessonCraftStudio",
+    "metaDescription": "Lag gratis finn den ulike for 5-7 år. Barna merker bildet som ikke hører hjemme og sier hvorfor — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å avgjøre hva som ikke hører hjemme er en skarp liten resonnement-oppgave, og denne gratis finn den ulike-skaperen bygger den fra bilder. Hver gruppe har noe felles bortsett fra ett, og barnet merker bildet som ikke passer, og kan forklare hvorfor.",
+      "Å finne den ulike ber barna legge merke til en felles egenskap og teste hver ting mot den, noe som styrker kategorisering, ordforråd og vanen med å begrunne et svar. Det finnes ofte mer enn én måte å forklare et valg, noe som vekker god samtale.",
+      "Velg et tema slik at gruppene passer emnet ditt, og skriv så ut arket med fasiten for rask sjekking. Å be barna forklare valget sitt gjør en rask oppgave om til rik samtale. Verktøyet fungerer i hvilken som helst nettleser, på 11 språk, uten innlogging og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at bildegruppene passer klassen din.",
+      "Skriv ut finn den ulike-arbeidsarket til hvert barn.",
+      "Be barna merke bildet som ikke hører hjemme i hver gruppe.",
+      "Sjekk svarene mot fasiten og snakk om begrunnelsene."
+    ],
+    "classroomIdeas": [
+      "Løs én gruppe høyt og be barna forklare tenkingen sin.",
+      "Bruk det til å fordype en sortere- eller kategoriserings-leksjon.",
+      "Oppmuntre barna til å si hvorfor valget deres ikke passer.",
+      "Sett det som en rask resonnement-oppvarming."
+    ]
+  },
+  "sudoku": {
+    "slug": "barne-sudoku-skaper",
+    "name": "Barne-sudoku",
+    "tagline": "Lag bilde- eller tall-sudoku for de yngste",
+    "metaTitle": "Gratis sudoku for barn — bilde-sudoku til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis sudoku for små barn. Lag 4x4 bilde- eller tall-sudoku til utskrift med fasit — uten innlogging, gratis i nettleseren, på 11 språk.",
+    "about": [
+      "Sudoku er en mild introduksjon til logisk tenkning: hver rad, kolonne og rute må inneholde hver ting nøyaktig én gang. Denne gratis sudoku-skaperen bygger barnevennlige puslespill — små 4x4-rutenett som bruker bilder i stedet for tall, slik at selv de som ikke leser ennå kan resonnere seg gjennom dem, pluss tall-rutenett til barn som er klare.",
+      "Bilde-sudoku beholder logikken uten leselasten. Et barn ser på det som allerede er plassert, finner ut hva som mangler, og lærer å sjekke en gjetning mot hele rutenettet — tidlige resonnement-ferdigheter som rekker langt utover puslespillet selv.",
+      "Du kan velge et tema slik at bildene passer klassen, og hvert puslespill skrives ut med en fasit. Det kjører i nettleseren uten konto og uten å installere noe, fungerer på 11 språk, og er helt gratis å bruke."
+    ],
+    "howToUse": [
+      "Velg et 4x4 bilde-rutenett til de yngste, eller et tall-rutenett til de eldre.",
+      "Skriv ut puslespillet og minn barna om at hvert bilde dukker opp én gang i hver rad, kolonne og rute.",
+      "Oppmuntre barna til å lete etter en rad eller rute som er nesten full og fylle tomrommet først.",
+      "Sjekk det ferdige rutenettet mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bruk en bilde-sudoku som en praktisk logikk-stasjon for de yngste barna.",
+      "Koble en tema-sudoku til et emne slik at bildene føles kjente.",
+      "Løs én sammen på tavla, og tenk høyt, før barna prøver sin egen.",
+      "Tilby en tall-sudoku som påbygging for barn som er klare for en utfordring."
+    ]
+  },
+  "picture-path": {
+    "slug": "bildesti-skaper",
+    "name": "Bildesti",
+    "tagline": "Tegn stien gjennom labyrinten til målet",
+    "metaTitle": "Gratis bildesti — labyrint til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis bildesti for 5-7 år. Barna tegner stien gjennom en rutenett-labyrint fra start til mål — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Labyrinter er en klassisk måte å bygge planlegging og blyantkontroll, og denne gratis bildesti-skaperen lager en rutenett-labyrint for de yngste. Barnet tegner en sti fra starten til målet, og beveger seg bare gjennom de tillatte rutene.",
+      "Å finne en rute ber barna planlegge framover, følge regler om hvor de kan gå, og holde seg ryddige og stødige med blyanten, alt i en aktivitet som føles som ren moro. Det tydelige rutenettet holder selv vriene labyrinter overkommelige for de yngste.",
+      "Velg et tema og en vanskegrad som passer gruppa di, og skriv så ut labyrinten med fasiten for rask sjekking. Begynn med enkle labyrinter til de yngste, og gjør dem større etter hvert som barna blir tryggere med pennen. Det åpnes i nettleseren, på 11 språk, uten innlogging eller installering."
+    ],
+    "howToUse": [
+      "Velg et tema og hvor utfordrende labyrinten skal være.",
+      "Skriv ut bildesti-arbeidsarket til hvert barn.",
+      "Be barna tegne stien fra start til mål gjennom de åpne rutene.",
+      "Sjekk ruten mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Følg stien med en finger før dere bruker blyant.",
+      "Bruk det som en rolig, fokusert aktivitet på en stille stasjon.",
+      "Begynn med enkle labyrinter og bygg opp vanskegraden.",
+      "Snakk om å planlegge en rute før man stormer av sted."
+    ]
+  },
+  "find-and-count": {
+    "slug": "finn-og-tell-skaper",
+    "name": "Finn og tell",
+    "tagline": "Finn bildet i scenen og tell hvor mange",
+    "metaTitle": "Gratis finn og tell — let og tell | LessonCraftStudio",
+    "metaDescription": "Lag gratis finn og tell for 3-5 år. Barna finner et målbilde i en travel scene og teller hvor mange — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å lete i et travelt bilde og telle det man finner er ren glede for de yngste, og denne gratis finn og tell-skaperen gjør det om til tidlig matematikkøving. En livlig scene skjuler et målbilde, og barnet finner hvert ett og teller hvor mange det er.",
+      "Å lete og telle bygger visuell leting, en-til-en-telling og fokusert oppmerksomhet, og den lekne letingen holder de minste glad engasjert. Fordi det føles som et spill, øver barna på telling lenger uten å bli slitne.",
+      "Velg et tema slik at scenen passer klassen din, og skriv så ut arbeidsarket med fasiten for rask sjekking. Det skjulte-bilde-formatet gjør telling til en skattejakt. Verktøyet kjører i hvilken som helst nettleser, på 11 språk, uten at det trengs konto og uten å installere noe."
+    ],
+    "howToUse": [
+      "Velg et tema slik at den travle scenen passer gruppa di.",
+      "Skriv ut finn og tell-arbeidsarket til hvert barn.",
+      "Be barna finne målbildet og telle hvor mange som dukker opp.",
+      "Sjekk antallet mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Gjør et raskt jeg-ser-søk av scenen sammen først.",
+      "Bruk det på en tidlig-telling-stasjon.",
+      "Oppmuntre barna til å ta på hver ting én gang mens de teller.",
+      "Knytt scene-temaet til en fortelling eller et emne."
+    ]
+  },
+  "find-objects": {
+    "slug": "finn-gjenstandene-skaper",
+    "name": "Finn gjenstandene",
+    "tagline": "Lag jeg-ser- og finn-gjenstanden-scener til utskrift",
+    "metaTitle": "Gratis jeg-ser og finn gjenstanden — finn-det-oppgaver til utskrift | LessonCraftStudio",
+    "metaDescription": "Lag gratis jeg-ser og finn gjenstanden for lærere. Lag finn-og-tell-scener med tema-bilder og fasit til utskrift — uten innlogging, på 11 språk.",
+    "about": [
+      "Finn-gjenstanden- og jeg-ser-arbeidsark ber barna lete i en travel scene, finne de riktige bildene og telle det de ser — og bygger nøyaktig observasjon, oppmerksomhet og tidlig telling alt på en gang. Denne gratis skaperen fyller en side med tema-bilder så du kan lage en frisk finn-det-scene på et øyeblikk.",
+      "Du velger temaet og hvor full scenen er, så samme aktivitet kan passe en treåring eller en tryggere seksåring. Å lete, oppdage og telle er ferdigheter som forbereder lesing og tallforståelse, og barna synes de er ekte morsomme.",
+      "Hvert arbeidsark skrives ut med en fasit som viser antallene, kjører i nettleseren uten konto og uten å installere noe, og fungerer på 11 språk. Det er helt gratis å bruke i klasserommet."
+    ],
+    "howToUse": [
+      "Velg et tema og velg hvor mange bilder som fyller scenen.",
+      "Skriv ut arbeidsarket og be barna finne og telle en bestemt gjenstand.",
+      "La barna merke eller fargelegge hver gjenstand de finner så ingen telles to ganger.",
+      "Sjekk antallene sammen ved hjelp av den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bruk en finn-gjenstanden-scene som en rolig, fokusert start-aktivitet.",
+      "Be barna telle én slags gjenstand og skrive tallet for å øve på telling.",
+      "Koble scenen til et tema så barna leter etter ord de holder på å lære.",
+      "Gjør det om til et jeg-ser-spill — rop opp en gjenstand og la barna peke eller ringe rundt den."
+    ]
+  },
+  "crossword": {
+    "slug": "bildekryssord-skaper",
+    "name": "Bildekryssord",
+    "tagline": "Lag bilde-kryssord barn kan løse",
+    "metaTitle": "Gratis kryssord — bilde-kryssord til utskrift for barn | LessonCraftStudio",
+    "metaDescription": "Lag gratis kryssord for klasserommet. Lag bilde-kryssord fra dine egne ord og skriv ut med fasit — uten innlogging, på 11 språk.",
+    "about": [
+      "Et kryssord knytter staving og mening sammen: barna leser en ledetråd, kommer på ordet, og passer det inn i rutenettet bokstav for bokstav. Denne gratis kryssord-skaperen bygger ett fra dine egne ord, og for tidlige lesere kan ledetrådene være bilder i stedet for setninger — et barn ser et bilde og skriver ordet det navngir.",
+      "Fordi du oppgir ordene, passer kryssordet klassen din — emne-ordforråd, ukens ord eller ord fra en fortelling. Bildeledetråder gjør det tilgjengelig for barn som fremdeles bygger leseselvtillit, mens skrevne ledetråder strekker dem som er klare.",
+      "Hvert kryssord skrives ut med fasiten sin, kjører i nettleseren uten konto og uten å installere noe, og fungerer på 11 språk. Det ferdige puslespillet er gratis å skrive ut og bruke slik klassen din trenger."
+    ],
+    "howToUse": [
+      "Skriv inn ordene du vil ha i puslespillet og velg bilde- eller skrevne ledetråder.",
+      "Skriv ut kryssordet og la barna lese hver ledetråd og fylle inn det riktige ordet.",
+      "Oppmuntre barna til å begynne med ordene de er mest sikre på og bruke kryssende bokstaver som hint.",
+      "Sjekk svarene sammen ved hjelp av den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Bygg et bilde-kryssord for å repetere denne ukas ordforråd.",
+      "Bruk et kryssord som en stavekontroll som føles som et spill i stedet for en prøve.",
+      "Lag et emne-kryssord barna fullfører ved slutten av et emne.",
+      "La barna foreslå ordene til neste ukes klasse-kryssord."
+    ]
+  },
+  "treasure-hunt": {
+    "slug": "skattejakt-skaper",
+    "name": "Skattejakt",
+    "tagline": "Følg retningspilene for å nå skatten",
+    "metaTitle": "Gratis skattejakt — følg retningene | LessonCraftStudio",
+    "metaDescription": "Lag gratis skattejakt for 6-8 år. Barna følger retningspiler over et rutenett-kart til skatten — til utskrift, fasit, uten innlogging, på 11 språk.",
+    "about": [
+      "Å følge retninger over et kart er en spennende måte å øve på romlig tenkning, og denne gratis skattejakt-skaperen bygger nettopp et slikt eventyr. Et bilde-rutenett-kart med retningspiler leder barnet steg for steg mot den skjulte skatten.",
+      "Å lese piler og bevege seg riktig vei trener retningsspråk, sekvensering og en tidlig følelse av posisjon og bevegelse, alt pakket inn i en fortelling barna elsker. Å nå skatten gir et tydelig, motiverende mål å jobbe mot, og barna jobber gjerne lenge for å komme helt fram.",
+      "Velg et tema og en vanskegrad som passer gruppa di, og skriv så ut kartet med fasiten for rask sjekking. Begynn med korte hunt med få steg til de yngste, og legg til flere steg etter hvert som barna mestrer å følge retningene. Verktøyet åpnes i nettleseren, på 11 språk, uten innlogging eller installering."
+    ],
+    "howToUse": [
+      "Velg et tema og hvor mange steg jakten skal ta.",
+      "Skriv ut skattejakt-kartet til hvert barn.",
+      "Be barna følge hver retningspil ett steg om gangen.",
+      "Sjekk den siste skatte-ruta mot den utskrevne fasiten."
+    ],
+    "classroomIdeas": [
+      "Gå noen få retningssteg over et gulv-rutenett sammen først.",
+      "Bruk det til å øve på ordene opp, ned, venstre og høyre.",
+      "Sett det som en problemløsnings-utfordring på en stasjon.",
+      "Øk antallet steg etter hvert som barna blir tryggere."
+    ]
+  },
+  "labels": {
+    "about": "Om denne arbeidsark-skaperen",
+    "howToUse": "Slik bruker du den i klassen",
+    "classroomIdeas": "Ideer til arbeidsark",
+    "launchCta": "Åpne gratis {name}",
+    "otherLanguages": "Tilgjengelig på andre språk",
+    "relatedMakers": "Flere arbeidsark-skapere",
+    "makersBreadcrumb": "Arbeidsark-skapere"
+  }
+}

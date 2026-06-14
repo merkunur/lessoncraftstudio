@@ -9,6 +9,10 @@ import {
   listNonEmptyIntersections,
   intersectionLastModified,
 } from '@/lib/topic-decks';
+// SEO RESCUE Part 2 W1: only authored (genuinely-unique) 2-axis intersections
+// belong in the sitemap; thin generic-template pairs are noindex'd in the route
+// and omitted here (single SoT shared with the [secondary] route).
+import { intersectionIsAuthored } from '@/lib/seo/intersection-authored';
 
 // ISR revalidation: sitemap revalidates every 30 minutes
 export const revalidate = 1800;
@@ -143,6 +147,8 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 
           for (const [tupleKey, tupleLastMod] of ownIntersections) {
             const [key1, key2] = tupleKey.split('|');
+            // W1: emit only authored (unique) intersections; thin pairs are noindex'd.
+            if (!(await intersectionIsAuthored(locale, key1, key2))) continue;
             const slug1 = getAxisSlug(axis1, key1, locale);
             const slug2 = getAxisSlug(axis2, key2, locale);
             if (!slug1 || !slug2) continue;
@@ -158,6 +164,8 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
               if (!sibSlug1 || !sibSlug2) continue;
               const sibMap = sibIntersectionMap.get(sib);
               if (!sibMap || !sibMap.has(tupleKey)) continue;
+              // W1: never advertise a noindex (unauthored) sibling as an hreflang alternate.
+              if (!(await intersectionIsAuthored(sib, key1, key2))) continue;
               alternates[getHreflangCode(sib)] =
                 `${baseUrl}/${sib}/topic/${sibSlug1}/${sibSlug2}`;
             }

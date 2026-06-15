@@ -1,0 +1,890 @@
+{
+  "locale": "fr",
+  "exerciseType": "odd-one-out",
+  "level": "maternelle",
+  "rawRowCount": 83,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "cross-theme": 1,
+    "same-theme": 48
+  },
+  "totalValid": 49,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "cross-theme",
+    "same-theme"
+  ],
+  "collapsedFamilies": 2,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "cross-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 33,
+      "canonical": "l-intrus-multi-themes-animaux-755b",
+      "siblings": [
+        "l-intrus-multi-themes-animaux-755b",
+        "l-intrus-multi-themes-animaux-e98d",
+        "l-intrus-multi-themes-animaux-2024",
+        "l-intrus-multi-themes-animaux-f953",
+        "l-intrus-multi-themes-animaux-7bcc",
+        "l-intrus-multi-themes-animaux-eff9",
+        "l-intrus-multi-themes-animaux-6d6f",
+        "l-intrus-multi-themes-animaux-f0ff",
+        "l-intrus-multi-themes-animaux-4bce",
+        "l-intrus-multi-themes-animaux-2607",
+        "l-intrus-multi-themes-animaux-7c77",
+        "l-intrus-multi-themes-animaux-dcfe",
+        "l-intrus-multi-themes-animaux-c913",
+        "l-intrus-multi-themes-animaux-bb98",
+        "l-intrus-multi-themes-animaux-7868",
+        "l-intrus-multi-themes-animaux-35c4",
+        "l-intrus-multi-themes-animaux-d517",
+        "l-intrus-multi-themes-animaux-0282",
+        "l-intrus-multi-themes-animaux-2b9e",
+        "l-intrus-multi-themes-animaux-cf16",
+        "l-intrus-multi-themes-animaux-e628",
+        "l-intrus-multi-themes-animaux-8e07",
+        "l-intrus-multi-themes-animaux-e527",
+        "l-intrus-multi-themes-animaux-7ee8",
+        "l-intrus-multi-themes-animaux-9bd3",
+        "l-intrus-multi-themes-animaux-a7ce",
+        "l-intrus-multi-themes-animaux-3d71",
+        "l-intrus-multi-themes-animaux-c33e",
+        "l-intrus-multi-themes-animaux-1db5",
+        "l-intrus-multi-themes-animaux-e63d",
+        "l-intrus-multi-themes-animaux-8ce3",
+        "l-intrus-multi-themes-animaux-d17c",
+        "l-intrus-multi-themes-animaux-3c50"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-accessoires-2ed1",
+      "siblings": [
+        "l-intrus-meme-theme-accessoires-2ed1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-activites-942a",
+      "siblings": [
+        "l-intrus-meme-theme-activites-942a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "l-intrus-meme-theme-animaux",
+      "siblings": [
+        "l-intrus-meme-theme-animaux",
+        "l-intrus-meme-theme-animaux-6990"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-autour-de-la-maison-d553",
+      "siblings": [
+        "l-intrus-meme-theme-autour-de-la-maison-d553"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-au-supermarche-3a8d",
+      "siblings": [
+        "l-intrus-meme-theme-au-supermarche-3a8d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-boulangerie-2df2",
+      "siblings": [
+        "l-intrus-meme-theme-boulangerie-2df2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-plage-f173",
+      "siblings": [
+        "l-intrus-meme-theme-plage-f173"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-oiseaux-9721",
+      "siblings": [
+        "l-intrus-meme-theme-oiseaux-9721"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-oiseaux-2-b9ab",
+      "siblings": [
+        "l-intrus-meme-theme-oiseaux-2-b9ab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-parties-du-corps-ba83",
+      "siblings": [
+        "l-intrus-meme-theme-parties-du-corps-ba83"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-petit-dejeuner-3209",
+      "siblings": [
+        "l-intrus-meme-theme-petit-dejeuner-3209"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-camping-3a57",
+      "siblings": [
+        "l-intrus-meme-theme-camping-3a57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-noel-a315",
+      "siblings": [
+        "l-intrus-meme-theme-noel-a315"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-salle-de-classe-cc79",
+      "siblings": [
+        "l-intrus-meme-theme-salle-de-classe-cc79"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-vetements-c08b",
+      "siblings": [
+        "l-intrus-meme-theme-vetements-c08b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-couleurs-9778",
+      "siblings": [
+        "l-intrus-meme-theme-couleurs-9778"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-desserts-et-sucreries-51ee",
+      "siblings": [
+        "l-intrus-meme-theme-desserts-et-sucreries-51ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-dinosaures-4363",
+      "siblings": [
+        "l-intrus-meme-theme-dinosaures-4363"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-paques-71cf",
+      "siblings": [
+        "l-intrus-meme-theme-paques-71cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-emotions-ca72",
+      "siblings": [
+        "l-intrus-meme-theme-emotions-ca72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-animaux-de-la-ferme-c864",
+      "siblings": [
+        "l-intrus-meme-theme-animaux-de-la-ferme-c864"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-fleurs-90ff",
+      "siblings": [
+        "l-intrus-meme-theme-fleurs-90ff"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-creatures-de-la-foret-9d03",
+      "siblings": [
+        "l-intrus-meme-theme-creatures-de-la-foret-9d03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-fruits-86b7",
+      "siblings": [
+        "l-intrus-meme-theme-fruits-86b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-meubles-b340",
+      "siblings": [
+        "l-intrus-meme-theme-meubles-b340"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-hopital-b225",
+      "siblings": [
+        "l-intrus-meme-theme-hopital-b225"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-insectes-et-bestioles-8581",
+      "siblings": [
+        "l-intrus-meme-theme-insectes-et-bestioles-8581"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-ustensiles-de-cuisine-7569",
+      "siblings": [
+        "l-intrus-meme-theme-ustensiles-de-cuisine-7569"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-musique-3f6e",
+      "siblings": [
+        "l-intrus-meme-theme-musique-3f6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-metiers-a262",
+      "siblings": [
+        "l-intrus-meme-theme-metiers-a262"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-vie-oceanique-4329",
+      "siblings": [
+        "l-intrus-meme-theme-vie-oceanique-4329"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-animaux-de-compagnie-3831",
+      "siblings": [
+        "l-intrus-meme-theme-animaux-de-compagnie-3831"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-bureau-de-poste-99bd",
+      "siblings": [
+        "l-intrus-meme-theme-bureau-de-poste-99bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-reptiles-et-amphibiens-2e82",
+      "siblings": [
+        "l-intrus-meme-theme-reptiles-et-amphibiens-2e82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-formes-a403",
+      "siblings": [
+        "l-intrus-meme-theme-formes-a403"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-espace-8c5f",
+      "siblings": [
+        "l-intrus-meme-theme-espace-8c5f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-printemps-2090",
+      "siblings": [
+        "l-intrus-meme-theme-printemps-2090"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-ete-c699",
+      "siblings": [
+        "l-intrus-meme-theme-ete-c699"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-action-de-grace-5837",
+      "siblings": [
+        "l-intrus-meme-theme-action-de-grace-5837"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-choses-qui-volent-7917",
+      "siblings": [
+        "l-intrus-meme-theme-choses-qui-volent-7917"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-outils-5806",
+      "siblings": [
+        "l-intrus-meme-theme-outils-5806"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-jouets-7a8f",
+      "siblings": [
+        "l-intrus-meme-theme-jouets-7a8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-arbres-7a72",
+      "siblings": [
+        "l-intrus-meme-theme-arbres-7a72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-legumes-1a39",
+      "siblings": [
+        "l-intrus-meme-theme-legumes-1a39"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-vehicules-3ac4",
+      "siblings": [
+        "l-intrus-meme-theme-vehicules-3ac4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-meteo-11a9",
+      "siblings": [
+        "l-intrus-meme-theme-meteo-11a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-hiver-8294",
+      "siblings": [
+        "l-intrus-meme-theme-hiver-8294"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    },
+    {
+      "mode": "same-theme",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "l-intrus-meme-theme-animaux-du-zoo-d512",
+      "siblings": [
+        "l-intrus-meme-theme-animaux-du-zoo-d512"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none",
+      "level": "maternelle"
+    }
+  ]
+}

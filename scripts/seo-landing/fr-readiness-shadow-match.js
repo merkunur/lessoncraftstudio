@@ -1,0 +1,116 @@
+/* fr-readiness config: shadow-match (Les ombres) — maternelle, NO standard.
+ * Two modes, one shared readiness strand (Observation et logique):
+ *   find-shadow (token « Les ombres ») — l'enfant fait correspondre une image en
+ *                couleur à son ombre noire / sa silhouette. Registre : l'ombre, la
+ *                silhouette, le contour, l'ombre noire, retrouver la bonne ombre,
+ *                reconnaître à sa forme. Pure discrimination visuelle du contour.
+ *   make-whole (token « Compléter l'image ») — l'enfant complète une image en
+ *                choisissant la moitié manquante. Registre : compléter l'image, la
+ *                moitié manquante, l'autre moitié, reconstituer l'image entière,
+ *                l'image incomplète, la partie qui manque. Raisonnement partie-tout.
+ * FENCE-A (CRITIQUE) : JAMAIS pièce / morceau / puzzle (ceux-là appartiennent à
+ * missing-pieces). shadow-match complète une IMAGE / une MOITIÉ. JAMAIS non plus :
+ * associer / la paire / le double (grid-match) ; l'intrus (odd-one-out). Les deux
+ * modes ne partagent AUCUN squelette de phrase : find-shadow vit dans ombre/
+ * silhouette/contour (JAMAIS « moitié ») ; make-whole vit dans moitié/compléter
+ * l'image (JAMAIS « ombre/silhouette »). */
+'use strict';
+const TOK = (mk) => mk === 'make-whole' ? "Compléter l'image" : 'Les ombres';
+module.exports = {
+  type: 'shadow-match',
+  eyebrow: 'Fiche : Les ombres',
+  strand: 'Observation et logique',
+  slotWord: 'images',
+  level: 'maternelle',
+  h1: (mk, theme) => TOK(mk) + ' : ' + theme.h1Display + ' – fiche pour la maternelle',
+  carousel: (mk, h1Display) => TOK(mk) + ' – ' + h1Display,
+  modes: {
+    'find-shadow': {
+      SKEL: [
+        // 1 — what the child does
+        "Sur cette fiche, l'enfant observe {DES_PL} en couleur et, à côté, une série d'ombres toutes noires. Pour chaque dessin, il doit retrouver la bonne ombre : celle qui a exactement le même contour. Il regarde la forme de l'image, garde ce contour en tête, puis cherche l'ombre qui lui correspond et la relie d'un petit trait. Sans les couleurs ni les détails, c'est uniquement la forme qui guide l'enfant. Il compare {LES_PL} et leurs silhouettes, repère une bosse ici, une pointe là, et fait correspondre chaque image à son ombre. Quand toutes les ombres ont trouvé leur image, la fiche est complète. On avance tranquillement, sans minuteur ni note : l'enfant prend le temps de bien regarder chaque silhouette avant de relier. Une jolie façon d'exercer son attention aux formes en s'amusant.",
+
+        // 2 — why (reconnaître une forme à son contour — préparation à reconnaître les lettres)
+        "Reconnaître une forme à son seul contour est un apprentissage précieux en maternelle. En cherchant la bonne ombre pour chaque image, l'enfant apprend à voir au-delà des couleurs : il observe la silhouette, suit le contour du regard et compare les formes entre elles. Ce travail prépare en douceur la lecture, car avant de reconnaître les lettres, il faut savoir distinguer deux formes par leur seul tracé. En reliant {LES_PL} à leur ombre noire, l'enfant exerce aussi sa logique : il regarde, il compare, il décide quelle silhouette va avec quelle image. Faire correspondre une image à son ombre, retrouver la bonne forme parmi plusieurs : autant de petites réussites qui construisent la confiance. L'enfant développe son sens de l'observation et sa patience, à son rythme, dans le calme. Chaque ombre retrouvée est une victoire tranquille qui donne envie de regarder encore mieux.",
+
+        // 3 — atelier d'observation or home
+        "À la maison comme en atelier d'observation à l'école, cette fiche des ombres s'utilise très simplement. Installez l'enfant au calme devant les images et leurs silhouettes, et invitez-le à retrouver, pour chaque dessin, l'ombre qui lui ressemble. On peut commencer ensemble : « Regarde la forme de cette image, à qui est cette ombre ? » Puis on le laisse chercher la bonne ombre et tracer un trait pour la relier. En classe, la fiche convient à un travail individuel calme ou à deux, chacun montrant à l'autre la silhouette qu'il a reconnue. On peut l'imprimer pour le cahier, ou la faire en ligne directement à l'écran. L'adulte reste à côté pour encourager : si l'enfant se trompe d'ombre, on regarde ensemble {LES_PL} et on recommence sans souci. L'activité dure le temps qu'il faut, on peut la reprendre un autre jour, sans aucun enjeu.",
+
+        // 4 — vivid concrete image
+        "Retrouver la bonne ombre, c'est un peu comme reconnaître un ami à sa silhouette au soleil couchant : on ne voit que sa forme noire, et pourtant on devine de qui il s'agit. Sur cette fiche, l'enfant fait pareil avec {LES_PL} : pour chaque image en couleur, une ombre toute noire se cache parmi les autres, et il faut la repérer rien qu'à son contour. On regarde une image, on garde sa forme en tête, puis on parcourt les silhouettes jusqu'à trouver celle qui correspond. Quand l'image et son ombre se rejoignent, on trace un trait pour les relier. L'enfant aime cette petite chasse aux silhouettes : c'est concret, visuel, et chaque ombre reconnue fait plaisir. En observant attentivement {LES_PL}, il apprend à reconnaître une forme à sa seule silhouette, sans se presser, jusqu'à compléter toute la fiche.",
+
+        // 5 — free + print or online
+        "Cette fiche des ombres est entièrement gratuite et se travaille de deux façons : à imprimer pour le coin-table ou le cahier, ou à faire en ligne directement sur l'écran. L'enfant retrouve {LES_PL} en couleur et leurs silhouettes noires, et relie chaque image à son ombre. Sur papier, il trace un trait au crayon pour relier l'image et le contour qui lui correspond ; à l'écran, il fait correspondre image et ombre d'un simple geste. Le contenu est le même, l'enfant choisit ce qui lui convient selon le moment. Imprimée, la fiche peut servir plusieurs fois en classe ou à la maison ; en ligne, elle se recommence à volonté. Dans les deux cas, l'objectif reste de reconnaître chaque forme à sa silhouette et de retrouver la bonne ombre. Rien à acheter, rien à installer : l'enfant observe {LES_PL}, compare les contours et relie, tranquillement, autant de fois qu'il le souhaite.",
+
+        // 6 — calm no-shame pacing
+        "Ici, pas de minuteur, ni note ni chrono : l'enfant avance à son rythme. Il regarde {LES_PL} en couleur, prend le temps d'observer la forme de chaque image, puis cherche tranquillement l'ombre noire qui lui correspond. S'il hésite entre deux silhouettes qui se ressemblent, ce n'est pas grave : on peut recommencer, regarder encore, comparer à nouveau les contours. Faire correspondre une image à son ombre n'est pas une course ; c'est un moment calme où l'enfant exerce son attention aux formes. Chaque ombre retrouvée est une réussite, et il n'y a jamais d'erreur honteuse : si une ombre n'est pas la bonne, on efface ou on reprend, sans reproche. L'adulte encourage et félicite les bonnes trouvailles. En reliant peu à peu {N_PL} à leurs silhouettes, l'enfant gagne en confiance et découvre le plaisir tranquille de reconnaître une forme à son seul contour.",
+
+        // 7 — "pour vous"
+        "Pour vous qui accompagnez l'enfant : cette fiche est pensée pour être simple à proposer et agréable à partager. Asseyez-vous à côté de l'enfant et invitez-le à observer {LES_PL} et leurs ombres. Votre rôle est d'encourager le regard : « Regarde bien le contour », « À qui est cette ombre ? » Laissez-le reconnaître chaque forme à sa silhouette et relier l'image à la bonne ombre d'un trait. Inutile de corriger chaque hésitation : si une ombre est mal reliée, regardez ensemble la forme et reprenez calmement. L'activité travaille l'observation, la comparaison de contours et la concentration, des bases utiles pour la suite des apprentissages, jusqu'à la reconnaissance des lettres. Vous pouvez l'imprimer ou la faire en ligne, selon ce qui vous arrange. Quelques minutes suffisent ; on peut s'arrêter et reprendre plus tard. En retrouvant la bonne ombre de {DE_PL}, l'enfant exerce sa logique tout en passant un moment calme avec vous.",
+
+        // 8 — the recognise-by-shape image
+        "Le cœur de cette fiche, c'est l'instant où une image retrouve son ombre rien qu'à sa forme. L'enfant observe {LES_PL} en couleur, en choisit une, puis cherche parmi les silhouettes noires celle qui a exactement le même contour. Quand il la reconnaît enfin, l'image et son ombre se rejoignent : il trace un trait pour les relier, et c'est gagné pour ce dessin. Puis il recommence avec une autre image, jusqu'à ce que toutes les ombres aient trouvé leur place. Reconnaître une forme alors que les couleurs ont disparu plaît beaucoup aux petits : c'est un vrai petit défi pour les yeux. En répétant ce geste avec {LES_PL}, l'enfant affine son regard, apprend à garder un contour en mémoire et à le comparer aux autres. La fiche se complète peu à peu, ombre après ombre, dans le calme, et chaque silhouette retrouvée l'encourage à observer la suivante avec encore plus d'attention.",
+      ],
+      P2: [
+        // 1
+        "Pensée pour les enfants de maternelle, cette fiche des ombres est entièrement gratuite et se fait à imprimer ou à faire en ligne. L'enfant observe {LES_PL} en couleur, regarde les silhouettes noires et relie chaque image à la bonne ombre, celle qui a le même contour. Une activité d'observation calme, parfaite pour exercer le regard et apprendre à reconnaître une forme à sa seule silhouette.",
+        // 2
+        "Pour les petits qui aiment chercher et comparer, cette fiche gratuite propose de retrouver la bonne ombre de chaque image. Elle s'utilise à imprimer ou en ligne, selon le moment. L'enfant regarde {LES_PL}, garde leur forme en tête et cherche la silhouette noire qui correspond à chacune. Un exercice tout simple qui développe l'attention aux contours, sans minuteur ni note.",
+        // 3
+        "Cette activité convient bien aux enfants de maternelle qui commencent à observer finement. Gratuite, elle se travaille à imprimer ou à faire en ligne. L'enfant repère, parmi les ombres, celle qui va avec chaque image : il compare les contours de {LES_PL} et de leurs silhouettes, puis trace un trait pour relier. Une façon douce d'exercer la logique et de reconnaître une forme à son seul tracé, à son rythme.",
+        // 4
+        "Idéale pour les petits, cette fiche gratuite invite à faire correspondre chaque image à son ombre. À imprimer pour le cahier ou à faire en ligne sur l'écran, elle propose des dessins en couleur et leurs silhouettes noires. En comparant {N_PL} et leurs contours, l'enfant apprend à reconnaître une forme sans l'aide des couleurs. Un moment calme et sans pression, qui plaît aux enfants comme aux familles.",
+        // 5
+        "Pour les enfants de maternelle, voici une fiche gratuite pour retrouver la bonne ombre. Elle existe à imprimer ou à faire en ligne. L'enfant observe {LES_PL}, garde chaque forme en tête et cherche la silhouette noire qui lui correspond. Reconnaître une image à son contour et relier l'ombre : un geste simple qui exerce la mémoire visuelle et la concentration. On avance tranquillement, on peut recommencer autant qu'on veut.",
+        // 6
+        "Cette fiche gratuite s'adresse aux petits qui découvrent le plaisir d'observer. À imprimer ou à faire en ligne, elle propose de relier chaque image à son ombre. L'enfant regarde {LES_PL}, repère la silhouette qui a le même contour et trace un trait pour la relier. En faisant correspondre chaque forme à son ombre, il développe son attention et sa logique, sans aucune course contre la montre. Une activité douce, à son rythme.",
+        // 7
+        "Conçue pour les enfants de maternelle, cette activité gratuite met l'observation au premier plan. Disponible à imprimer ou à faire en ligne, elle invite l'enfant à retrouver, pour chaque image, la bonne ombre noire. Reconnaître une forme à sa silhouette, comparer les contours de {LES_PL}, relier l'image à son ombre : des gestes simples qui préparent doucement aux apprentissages. Pas de note, pas de chrono, juste le plaisir tranquille de bien regarder.",
+      ],
+    },
+    'make-whole': {
+      SKEL: [
+        // 1 — what the child does
+        "Sur cette fiche, l'enfant voit {DES_PL} dont il manque une partie : chaque dessin n'est qu'à moitié là. À côté, plusieurs moitiés attendent, et il faut trouver celle qui complète l'image. L'enfant regarde la moitié présente, imagine la partie qui manque, puis cherche l'autre moitié, celle où les traits continuent exactement là où ils s'arrêtent. Quand les deux moitiés se rejoignent, l'image devient entière : c'est tout le plaisir de l'activité. Il compare {LES_PL} incomplètes et les moitiés proposées, repère un bord qui correspond, une ligne qui se prolonge, et relie chaque image à la partie qui la complète. On avance tranquillement, sans minuteur ni note : l'enfant prend le temps de bien regarder avant de choisir. Une jolie façon d'exercer son sens des formes en reconstituant chaque image entière.",
+
+        // 2 — why (compléter un tout — perception des formes, préparation à reconnaître les lettres)
+        "Compléter un tout à partir d'une moitié est un apprentissage précieux en maternelle. En cherchant la partie qui manque pour faire l'image complète, l'enfant exerce sa perception des formes : il observe une moitié, imagine la suite et choisit l'autre moitié qui prolonge le dessin. Ce travail prépare en douceur la lecture, car reconnaître une forme entière à partir d'un fragment est une base pour distinguer plus tard les lettres. En reconstituant {LES_PL}, l'enfant développe aussi sa logique : il regarde, il compare, il décide quelle moitié complète quelle image. Trouver la moitié manquante, faire l'image entière, voir les deux parties se rejoindre : autant de petites réussites qui construisent la confiance. L'enfant gagne en patience et en attention, à son rythme, dans le calme. Chaque image complétée est une victoire tranquille qui donne envie de continuer.",
+
+        // 3 — atelier d'observation or home
+        "À la maison comme en atelier d'observation à l'école, cette fiche pour compléter l'image trouve facilement sa place. Installez l'enfant au calme devant les images incomplètes et les moitiés proposées, et invitez-le à trouver, pour chaque dessin, la partie qui le complète. On peut commencer ensemble : « Regarde, il manque une moitié, laquelle complète l'image ? » Puis on le laisse choisir l'autre moitié et tracer un trait pour la relier. En classe, la fiche convient à un travail individuel calme ou à deux, chacun montrant à l'autre la moitié qu'il a trouvée. On peut l'imprimer pour le cahier, ou la faire en ligne directement à l'écran. L'adulte reste à côté pour encourager : si l'enfant choisit la mauvaise moitié, on regarde ensemble {LES_PL} et on recommence sans souci. L'activité dure le temps qu'il faut, sans aucun enjeu.",
+
+        // 4 — vivid concrete image
+        "Reconstituer l'image entière, c'est un peu comme rapprocher les deux volets d'une fenêtre pour qu'ils se ferment juste comme il faut : il faut que les bords se rejoignent parfaitement. Sur cette fiche, l'enfant fait pareil avec {LES_PL} : chaque image n'est qu'à moitié faite, et l'autre moitié se cache parmi plusieurs. On regarde la partie présente, on imagine la suite, puis on parcourt les moitiés jusqu'à trouver celle où le dessin continue sans accroc. Quand les deux moitiés se rejoignent, on trace un trait pour les relier, et l'image est complète. L'enfant aime ce petit jeu de retrouvailles : c'est concret, visuel, et chaque image entière fait plaisir. En observant attentivement {LES_PL}, il apprend à imaginer un tout à partir d'une partie, sans se presser, jusqu'à reconstituer toutes les images de la fiche.",
+
+        // 5 — free + print or online
+        "Cette fiche pour compléter l'image est entièrement gratuite et se travaille de deux façons : à imprimer pour le coin-table ou le cahier, ou à faire en ligne directement sur l'écran. L'enfant retrouve {LES_PL} à moitié dessinées et les moitiés qui peuvent les compléter, et relie chaque image à la partie qui la rend entière. Sur papier, il trace un trait au crayon pour relier l'image et sa moitié manquante ; à l'écran, il assemble les deux moitiés d'un simple geste. Le contenu est le même, l'enfant choisit ce qui lui convient selon le moment. Imprimée, la fiche peut servir plusieurs fois ; en ligne, elle se recommence à volonté. Dans les deux cas, l'objectif reste de trouver l'autre moitié et de reconstituer l'image entière. Rien à acheter, rien à installer : l'enfant observe {LES_PL}, compare les moitiés et relie, tranquillement, autant de fois qu'il le souhaite.",
+
+        // 6 — calm no-shame pacing
+        "Ici, pas de minuteur, ni note ni chrono : l'enfant avance à son rythme. Il regarde {LES_PL} à moitié dessinées, prend le temps d'observer ce qui est déjà là, puis cherche tranquillement la moitié manquante qui complète chaque image. S'il hésite entre deux moitiés qui se ressemblent, ce n'est pas grave : on peut recommencer, regarder encore, comparer à nouveau les bords. Compléter une image n'est pas une course ; c'est un moment calme où l'enfant exerce sa perception des formes. Chaque image entière est une réussite, et il n'y a jamais d'erreur honteuse : si une moitié n'est pas la bonne, on efface ou on reprend, sans reproche. L'adulte encourage et félicite les bonnes trouvailles. En reconstituant peu à peu {N_PL}, l'enfant gagne en confiance et découvre le plaisir tranquille de voir une image redevenir entière.",
+
+        // 7 — "pour vous"
+        "Pour vous qui accompagnez l'enfant : cette fiche est pensée pour être simple à proposer et agréable à partager. Asseyez-vous à côté de l'enfant et invitez-le à observer {LES_PL}, dont il manque à chacune une moitié. Votre rôle est d'encourager le regard : « Que manque-t-il pour faire l'image complète ? », « Quelle moitié va avec celle-ci ? » Laissez-le choisir l'autre moitié et la relier d'un trait pour reconstituer l'image entière. Inutile de corriger chaque hésitation : si une moitié est mal choisie, regardez ensemble les bords et reprenez calmement. L'activité travaille la perception des formes, le raisonnement et la concentration, des bases utiles pour la suite des apprentissages. Vous pouvez l'imprimer ou la faire en ligne, selon ce qui vous arrange. Quelques minutes suffisent. En complétant {DE_PL}, l'enfant exerce sa logique tout en passant un moment calme avec vous.",
+
+        // 8 — the recognise-by-shape image (whole-completion variant)
+        "Le cœur de cette fiche, c'est l'instant où une image incomplète redevient entière. L'enfant observe {LES_PL} dont une moitié manque, en choisit une, puis cherche parmi les parties proposées celle où le dessin se prolonge exactement. Quand il trouve la bonne moitié, les deux parties se rejoignent : il trace un trait pour les relier, et l'image est complète pour ce dessin. Puis il recommence avec une autre, jusqu'à ce que toutes les images soient entières. Imaginer un tout à partir d'une moitié plaît beaucoup aux petits : c'est un vrai petit défi pour les yeux et pour la tête. En répétant ce geste avec {LES_PL}, l'enfant affine son regard, apprend à imaginer la partie qui manque et à la comparer aux autres. La fiche se complète peu à peu, image après image, dans le calme, et chaque dessin reconstitué l'encourage à observer le suivant avec encore plus d'attention.",
+      ],
+      P2: [
+        // 1
+        "Pensée pour les enfants de maternelle, cette fiche pour compléter l'image est entièrement gratuite et se fait à imprimer ou à faire en ligne. L'enfant observe {LES_PL} à moitié dessinées, cherche la moitié manquante et relie chaque image à la partie qui la complète. Une activité d'observation calme, parfaite pour exercer le regard et apprendre à imaginer un tout à partir d'une moitié.",
+        // 2
+        "Pour les petits qui aiment chercher et comparer, cette fiche gratuite propose de retrouver la moitié manquante de chaque image. Elle s'utilise à imprimer ou en ligne, selon le moment. L'enfant regarde {LES_PL}, imagine la partie qui manque et choisit l'autre moitié qui complète chaque dessin. Un exercice tout simple qui développe la perception des formes, sans minuteur ni note.",
+        // 3
+        "Cette activité convient bien aux enfants de maternelle qui commencent à observer finement. Gratuite, elle se travaille à imprimer ou à faire en ligne. L'enfant repère, parmi les moitiés proposées, celle qui complète chaque image : il compare les bords de {LES_PL} incomplètes et des parties, puis trace un trait pour relier. Une façon douce d'exercer la logique et de reconstituer l'image entière, à son rythme.",
+        // 4
+        "Idéale pour les petits, cette fiche gratuite invite à compléter chaque image avec la bonne moitié. À imprimer pour le cahier ou à faire en ligne sur l'écran, elle propose des dessins à moitié faits et les parties qui manquent. En assemblant {N_PL}, l'enfant apprend à imaginer un tout à partir d'une partie. Un moment calme et sans pression, qui plaît aux enfants comme aux familles.",
+        // 5
+        "Pour les enfants de maternelle, voici une fiche gratuite pour retrouver la moitié manquante. Elle existe à imprimer ou à faire en ligne. L'enfant observe {LES_PL} incomplètes et cherche, pour chacune, la partie qui la rend entière. Imaginer la suite et relier l'autre moitié : un geste simple qui exerce la perception des formes et la concentration. On avance tranquillement, on peut recommencer autant qu'on veut.",
+        // 6
+        "Cette fiche gratuite s'adresse aux petits qui découvrent le plaisir d'observer. À imprimer ou à faire en ligne, elle propose de compléter chaque image avec sa moitié manquante. L'enfant regarde {LES_PL}, repère la partie où le dessin se prolonge et trace un trait pour la relier. En reconstituant chaque image entière, il développe son attention et sa logique, sans aucune course contre la montre. Une activité douce, à son rythme.",
+        // 7
+        "Conçue pour les enfants de maternelle, cette activité gratuite met l'observation au premier plan. Disponible à imprimer ou à faire en ligne, elle invite l'enfant à trouver, pour chaque image incomplète, la moitié qui la complète. Imaginer un tout à partir d'une partie, comparer les bords de {LES_PL}, reconstituer l'image entière : des gestes simples qui préparent doucement aux apprentissages. Pas de note, pas de chrono, juste le plaisir tranquille de bien regarder.",
+      ],
+    },
+  },
+  P3: "Ton enfant aime observer les formes et reconstituer les images ? Il y a bien d'autres fiches à découvrir. Essayez celles avec {NB1}, où de nouveaux dessins attendent un œil attentif, ou passez à {NB2} pour un peu de changement. Toutes ces fiches sont des jeux calmes, sans minuteur et sans note, pour que le plaisir de regarder et de trouver passe toujours en premier. Notre collection de {GEN} est entièrement gratuite : on joue directement dans le navigateur, sur tablette ou sur ordinateur, ou bien on imprime les fiches pour un moment tranquille à la table de la cuisine. Ainsi, l'enfant peut continuer à observer, à comparer et à fêter ses petites victoires, une jolie image après l'autre, à son rythme.",
+};

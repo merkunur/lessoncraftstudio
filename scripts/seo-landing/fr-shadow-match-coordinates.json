@@ -1,0 +1,1590 @@
+{
+  "locale": "fr",
+  "exerciseType": "shadow-match",
+  "level": "maternelle",
+  "rawRowCount": 141,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "find-shadow": 45,
+    "make-whole": 47
+  },
+  "totalValid": 92,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "find-shadow",
+    "make-whole"
+  ],
+  "collapsedFamilies": 46,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "find-shadow",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-accessoires-f3f1",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-accessoires-f3f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-activites-8f4d",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-activites-8f4d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "apparier-les-ombres-associe-l-ombre-animaux",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-animaux",
+        "apparier-les-ombres-associe-l-ombre-animaux-78c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-autour-de-la-maison-638f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-au-supermarche-e3c0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-boulangerie-fb04",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-boulangerie-fb04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-plage-c76b",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-plage-c76b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-oiseaux-a69f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-oiseaux-a69f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-oiseaux-2-5ebb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-parties-du-corps-f78f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-petit-dejeuner-3f0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-camping-1a6b",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-camping-1a6b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-noel-378f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-noel-378f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-salle-de-classe-8c2f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-vetements-725a",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-vetements-725a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-desserts-et-sucreries-f8ad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-dinosaures-57d8",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-dinosaures-57d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-paques-c27f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-paques-c27f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-animaux-de-la-ferme-2257"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-fleurs-e1e0",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-fleurs-e1e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-creatures-de-la-foret-4c8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-fruits-ff40",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-fruits-ff40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-meubles-75a9",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-meubles-75a9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-hopital-24da",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-hopital-24da"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-insectes-et-bestioles-5ac1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-ustensiles-de-cuisine-3533"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-musique-7edf",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-musique-7edf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-metiers-5243",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-metiers-5243"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-vie-oceanique-ce22"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-animaux-de-compagnie-02e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-bureau-de-poste-7203"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-reptiles-et-amphibiens-1c45"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-espace-f4ae",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-espace-f4ae"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-printemps-1e4f",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-printemps-1e4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-ete-bd28",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-ete-bd28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-action-de-grace-7364",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-action-de-grace-7364"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-choses-qui-volent-33d0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-outils-4e3d",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-outils-4e3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-jouets-9454",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-jouets-9454"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-arbres-877e",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-arbres-877e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-legumes-178b",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-legumes-178b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-vehicules-aa03",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-vehicules-aa03"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-meteo-70c1",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-meteo-70c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-hiver-5ee1",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-hiver-5ee1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "find-shadow",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b",
+      "siblings": [
+        "apparier-les-ombres-associe-l-ombre-animaux-du-zoo-098b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-accessoires-52fe",
+      "siblings": [
+        "apparier-les-ombres-complete-accessoires-52fe",
+        "apparier-les-ombres-complete-accessoires-650e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "apparier-les-ombres-complete-activites-6e7d",
+      "siblings": [
+        "apparier-les-ombres-complete-activites-6e7d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-animaux-5312",
+      "siblings": [
+        "apparier-les-ombres-complete-animaux-5312",
+        "apparier-les-ombres-complete-animaux-4a4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-autour-de-la-maison-eeb1",
+      "siblings": [
+        "apparier-les-ombres-complete-autour-de-la-maison-eeb1",
+        "apparier-les-ombres-complete-autour-de-la-maison-f260"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-au-supermarche-0e0d",
+      "siblings": [
+        "apparier-les-ombres-complete-au-supermarche-0e0d",
+        "apparier-les-ombres-complete-au-supermarche-6394"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-boulangerie-4510",
+      "siblings": [
+        "apparier-les-ombres-complete-boulangerie-4510",
+        "apparier-les-ombres-complete-boulangerie-cdc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-plage-4812",
+      "siblings": [
+        "apparier-les-ombres-complete-plage-4812",
+        "apparier-les-ombres-complete-plage-fa6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-oiseaux-b260",
+      "siblings": [
+        "apparier-les-ombres-complete-oiseaux-b260",
+        "apparier-les-ombres-complete-oiseaux-e9a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-oiseaux-2-683d",
+      "siblings": [
+        "apparier-les-ombres-complete-oiseaux-2-683d",
+        "apparier-les-ombres-complete-oiseaux-2-bf4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-parties-du-corps-bfaa",
+      "siblings": [
+        "apparier-les-ombres-complete-parties-du-corps-bfaa",
+        "apparier-les-ombres-complete-parties-du-corps-7bb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-petit-dejeuner-dfe1",
+      "siblings": [
+        "apparier-les-ombres-complete-petit-dejeuner-dfe1",
+        "apparier-les-ombres-complete-petit-dejeuner-0bfa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-camping-c56e",
+      "siblings": [
+        "apparier-les-ombres-complete-camping-c56e",
+        "apparier-les-ombres-complete-camping-82d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-noel-d263",
+      "siblings": [
+        "apparier-les-ombres-complete-noel-d263",
+        "apparier-les-ombres-complete-noel-1188"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-salle-de-classe-56ef",
+      "siblings": [
+        "apparier-les-ombres-complete-salle-de-classe-56ef",
+        "apparier-les-ombres-complete-salle-de-classe-0877"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-vetements-a87b",
+      "siblings": [
+        "apparier-les-ombres-complete-vetements-a87b",
+        "apparier-les-ombres-complete-vetements-b63d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-desserts-et-sucreries-a762",
+      "siblings": [
+        "apparier-les-ombres-complete-desserts-et-sucreries-a762",
+        "apparier-les-ombres-complete-desserts-et-sucreries-6b99"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-dinosaures-3753",
+      "siblings": [
+        "apparier-les-ombres-complete-dinosaures-3753",
+        "apparier-les-ombres-complete-dinosaures-e632"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-paques-a075",
+      "siblings": [
+        "apparier-les-ombres-complete-paques-a075",
+        "apparier-les-ombres-complete-paques-d5aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-emotions-595b",
+      "siblings": [
+        "apparier-les-ombres-complete-emotions-595b",
+        "apparier-les-ombres-complete-emotions-e0dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-animaux-de-la-ferme-4a30",
+      "siblings": [
+        "apparier-les-ombres-complete-animaux-de-la-ferme-4a30",
+        "apparier-les-ombres-complete-animaux-de-la-ferme-c8c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-fleurs-6d1d",
+      "siblings": [
+        "apparier-les-ombres-complete-fleurs-6d1d",
+        "apparier-les-ombres-complete-fleurs-8c8c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-creatures-de-la-foret-baa3",
+      "siblings": [
+        "apparier-les-ombres-complete-creatures-de-la-foret-baa3",
+        "apparier-les-ombres-complete-creatures-de-la-foret-49fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-fruits-d9b7",
+      "siblings": [
+        "apparier-les-ombres-complete-fruits-d9b7",
+        "apparier-les-ombres-complete-fruits-5652"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-meubles-4cf3",
+      "siblings": [
+        "apparier-les-ombres-complete-meubles-4cf3",
+        "apparier-les-ombres-complete-meubles-a211"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-hopital-ed6f",
+      "siblings": [
+        "apparier-les-ombres-complete-hopital-ed6f",
+        "apparier-les-ombres-complete-hopital-f112"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-insectes-et-bestioles-cc51",
+      "siblings": [
+        "apparier-les-ombres-complete-insectes-et-bestioles-cc51",
+        "apparier-les-ombres-complete-insectes-et-bestioles-12ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-ustensiles-de-cuisine-b336",
+      "siblings": [
+        "apparier-les-ombres-complete-ustensiles-de-cuisine-b336",
+        "apparier-les-ombres-complete-ustensiles-de-cuisine-05ec"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-musique-281f",
+      "siblings": [
+        "apparier-les-ombres-complete-musique-281f",
+        "apparier-les-ombres-complete-musique-f193"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-metiers-18d3",
+      "siblings": [
+        "apparier-les-ombres-complete-metiers-18d3",
+        "apparier-les-ombres-complete-metiers-25a0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-vie-oceanique-e5e4",
+      "siblings": [
+        "apparier-les-ombres-complete-vie-oceanique-e5e4",
+        "apparier-les-ombres-complete-vie-oceanique-e3f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-animaux-de-compagnie-381d",
+      "siblings": [
+        "apparier-les-ombres-complete-animaux-de-compagnie-381d",
+        "apparier-les-ombres-complete-animaux-de-compagnie-57b7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-bureau-de-poste-13a6",
+      "siblings": [
+        "apparier-les-ombres-complete-bureau-de-poste-13a6",
+        "apparier-les-ombres-complete-bureau-de-poste-e3e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-reptiles-et-amphibiens-f760",
+      "siblings": [
+        "apparier-les-ombres-complete-reptiles-et-amphibiens-f760",
+        "apparier-les-ombres-complete-reptiles-et-amphibiens-24dd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "apparier-les-ombres-complete-formes-291c",
+      "siblings": [
+        "apparier-les-ombres-complete-formes-291c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-espace-caa3",
+      "siblings": [
+        "apparier-les-ombres-complete-espace-caa3",
+        "apparier-les-ombres-complete-espace-71cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-printemps-d940",
+      "siblings": [
+        "apparier-les-ombres-complete-printemps-d940",
+        "apparier-les-ombres-complete-printemps-e81f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-ete-55a3",
+      "siblings": [
+        "apparier-les-ombres-complete-ete-55a3",
+        "apparier-les-ombres-complete-ete-0ec5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-action-de-grace-0018",
+      "siblings": [
+        "apparier-les-ombres-complete-action-de-grace-0018",
+        "apparier-les-ombres-complete-action-de-grace-758e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-choses-qui-volent-2138",
+      "siblings": [
+        "apparier-les-ombres-complete-choses-qui-volent-2138",
+        "apparier-les-ombres-complete-choses-qui-volent-22d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-outils-afb4",
+      "siblings": [
+        "apparier-les-ombres-complete-outils-afb4",
+        "apparier-les-ombres-complete-outils-b9c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-jouets-a624",
+      "siblings": [
+        "apparier-les-ombres-complete-jouets-a624",
+        "apparier-les-ombres-complete-jouets-bc8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-arbres-56fe",
+      "siblings": [
+        "apparier-les-ombres-complete-arbres-56fe",
+        "apparier-les-ombres-complete-arbres-4853"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-legumes-a15c",
+      "siblings": [
+        "apparier-les-ombres-complete-legumes-a15c",
+        "apparier-les-ombres-complete-legumes-511a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-vehicules-e00c",
+      "siblings": [
+        "apparier-les-ombres-complete-vehicules-e00c",
+        "apparier-les-ombres-complete-vehicules-2249"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-meteo-0e94",
+      "siblings": [
+        "apparier-les-ombres-complete-meteo-0e94",
+        "apparier-les-ombres-complete-meteo-9898"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-hiver-cae6",
+      "siblings": [
+        "apparier-les-ombres-complete-hiver-cae6",
+        "apparier-les-ombres-complete-hiver-2740"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "make-whole",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "apparier-les-ombres-complete-animaux-du-zoo-8cd7",
+      "siblings": [
+        "apparier-les-ombres-complete-animaux-du-zoo-8cd7",
+        "apparier-les-ombres-complete-animaux-du-zoo-2af5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

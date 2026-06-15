@@ -1,0 +1,1609 @@
+{
+  "locale": "fr",
+  "exerciseType": "sudoku",
+  "level": "maternelle",
+  "rawRowCount": 99,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 48,
+    "medium": 48
+  },
+  "totalValid": 96,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "medium"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-accessoires-f3d2",
+      "siblings": [
+        "sudoku-illustre-facile-accessoires-f3d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-activites-0be3",
+      "siblings": [
+        "sudoku-illustre-facile-activites-0be3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-animaux-9534",
+      "siblings": [
+        "sudoku-illustre-facile-animaux-9534"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-autour-de-la-maison-1d82",
+      "siblings": [
+        "sudoku-illustre-facile-autour-de-la-maison-1d82"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-au-supermarche-169d",
+      "siblings": [
+        "sudoku-illustre-facile-au-supermarche-169d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-boulangerie-1416",
+      "siblings": [
+        "sudoku-illustre-facile-boulangerie-1416"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-plage-a279",
+      "siblings": [
+        "sudoku-illustre-facile-plage-a279"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-oiseaux-8330",
+      "siblings": [
+        "sudoku-illustre-facile-oiseaux-8330"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-oiseaux-2-3792",
+      "siblings": [
+        "sudoku-illustre-facile-oiseaux-2-3792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-parties-du-corps-e4f3",
+      "siblings": [
+        "sudoku-illustre-facile-parties-du-corps-e4f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-petit-dejeuner-a44e",
+      "siblings": [
+        "sudoku-illustre-facile-petit-dejeuner-a44e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-camping-7906",
+      "siblings": [
+        "sudoku-illustre-facile-camping-7906"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-noel-e1fa",
+      "siblings": [
+        "sudoku-illustre-facile-noel-e1fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-salle-de-classe-34c3",
+      "siblings": [
+        "sudoku-illustre-facile-salle-de-classe-34c3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-vetements-243a",
+      "siblings": [
+        "sudoku-illustre-facile-vetements-243a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-couleurs-bb63",
+      "siblings": [
+        "sudoku-illustre-facile-couleurs-bb63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-desserts-et-sucreries-b15e",
+      "siblings": [
+        "sudoku-illustre-facile-desserts-et-sucreries-b15e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-dinosaures-7b6d",
+      "siblings": [
+        "sudoku-illustre-facile-dinosaures-7b6d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-paques-91fc",
+      "siblings": [
+        "sudoku-illustre-facile-paques-91fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-emotions-2319",
+      "siblings": [
+        "sudoku-illustre-facile-emotions-2319"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-animaux-de-la-ferme-0b28",
+      "siblings": [
+        "sudoku-illustre-facile-animaux-de-la-ferme-0b28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-fleurs-6d26",
+      "siblings": [
+        "sudoku-illustre-facile-fleurs-6d26"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-creatures-de-la-foret-7195",
+      "siblings": [
+        "sudoku-illustre-facile-creatures-de-la-foret-7195"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-fruits-6f2a",
+      "siblings": [
+        "sudoku-illustre-facile-fruits-6f2a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-meubles-7908",
+      "siblings": [
+        "sudoku-illustre-facile-meubles-7908"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-hopital-9c61",
+      "siblings": [
+        "sudoku-illustre-facile-hopital-9c61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-insectes-et-bestioles-a0d7",
+      "siblings": [
+        "sudoku-illustre-facile-insectes-et-bestioles-a0d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f",
+      "siblings": [
+        "sudoku-illustre-facile-ustensiles-de-cuisine-4f8f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-musique-544e",
+      "siblings": [
+        "sudoku-illustre-facile-musique-544e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-metiers-7998",
+      "siblings": [
+        "sudoku-illustre-facile-metiers-7998"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-vie-oceanique-f2eb",
+      "siblings": [
+        "sudoku-illustre-facile-vie-oceanique-f2eb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-animaux-de-compagnie-e341",
+      "siblings": [
+        "sudoku-illustre-facile-animaux-de-compagnie-e341"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-bureau-de-poste-659f",
+      "siblings": [
+        "sudoku-illustre-facile-bureau-de-poste-659f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9",
+      "siblings": [
+        "sudoku-illustre-facile-reptiles-et-amphibiens-8bd9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-formes-314a",
+      "siblings": [
+        "sudoku-illustre-facile-formes-314a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-espace-7e43",
+      "siblings": [
+        "sudoku-illustre-facile-espace-7e43"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-printemps-d067",
+      "siblings": [
+        "sudoku-illustre-facile-printemps-d067"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-ete-24d3",
+      "siblings": [
+        "sudoku-illustre-facile-ete-24d3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-action-de-grace-ab0b",
+      "siblings": [
+        "sudoku-illustre-facile-action-de-grace-ab0b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-choses-qui-volent-ec2e",
+      "siblings": [
+        "sudoku-illustre-facile-choses-qui-volent-ec2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-outils-1ccf",
+      "siblings": [
+        "sudoku-illustre-facile-outils-1ccf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-jouets-4e52",
+      "siblings": [
+        "sudoku-illustre-facile-jouets-4e52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-arbres-c047",
+      "siblings": [
+        "sudoku-illustre-facile-arbres-c047"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-legumes-d77a",
+      "siblings": [
+        "sudoku-illustre-facile-legumes-d77a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-vehicules-fc61",
+      "siblings": [
+        "sudoku-illustre-facile-vehicules-fc61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-meteo-bd5b",
+      "siblings": [
+        "sudoku-illustre-facile-meteo-bd5b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-hiver-2479",
+      "siblings": [
+        "sudoku-illustre-facile-hiver-2479"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-facile-animaux-du-zoo-6632",
+      "siblings": [
+        "sudoku-illustre-facile-animaux-du-zoo-6632"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-accessoires-f8d8",
+      "siblings": [
+        "sudoku-illustre-moyen-accessoires-f8d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-activites-912e",
+      "siblings": [
+        "sudoku-illustre-moyen-activites-912e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-animaux-a8ef",
+      "siblings": [
+        "sudoku-illustre-moyen-animaux-a8ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-autour-de-la-maison-ccc8",
+      "siblings": [
+        "sudoku-illustre-moyen-autour-de-la-maison-ccc8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-au-supermarche-f9d9",
+      "siblings": [
+        "sudoku-illustre-moyen-au-supermarche-f9d9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-boulangerie-bf66",
+      "siblings": [
+        "sudoku-illustre-moyen-boulangerie-bf66"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-plage-a022",
+      "siblings": [
+        "sudoku-illustre-moyen-plage-a022"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-oiseaux-651b",
+      "siblings": [
+        "sudoku-illustre-moyen-oiseaux-651b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-oiseaux-2-ec36",
+      "siblings": [
+        "sudoku-illustre-moyen-oiseaux-2-ec36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-parties-du-corps-9906",
+      "siblings": [
+        "sudoku-illustre-moyen-parties-du-corps-9906"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-petit-dejeuner-f2ef",
+      "siblings": [
+        "sudoku-illustre-moyen-petit-dejeuner-f2ef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-camping-f374",
+      "siblings": [
+        "sudoku-illustre-moyen-camping-f374"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-noel-ed9f",
+      "siblings": [
+        "sudoku-illustre-moyen-noel-ed9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-salle-de-classe-99d6",
+      "siblings": [
+        "sudoku-illustre-moyen-salle-de-classe-99d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-vetements-624e",
+      "siblings": [
+        "sudoku-illustre-moyen-vetements-624e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-couleurs-e1b8",
+      "siblings": [
+        "sudoku-illustre-moyen-couleurs-e1b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-desserts-et-sucreries-0e04",
+      "siblings": [
+        "sudoku-illustre-moyen-desserts-et-sucreries-0e04"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-dinosaures-150b",
+      "siblings": [
+        "sudoku-illustre-moyen-dinosaures-150b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-paques-7f40",
+      "siblings": [
+        "sudoku-illustre-moyen-paques-7f40"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-emotions-de16",
+      "siblings": [
+        "sudoku-illustre-moyen-emotions-de16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-animaux-de-la-ferme-e77d",
+      "siblings": [
+        "sudoku-illustre-moyen-animaux-de-la-ferme-e77d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-fleurs-1d71",
+      "siblings": [
+        "sudoku-illustre-moyen-fleurs-1d71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-creatures-de-la-foret-3b72",
+      "siblings": [
+        "sudoku-illustre-moyen-creatures-de-la-foret-3b72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-fruits-e52a",
+      "siblings": [
+        "sudoku-illustre-moyen-fruits-e52a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-meubles-c1b2",
+      "siblings": [
+        "sudoku-illustre-moyen-meubles-c1b2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-hopital-ddbc",
+      "siblings": [
+        "sudoku-illustre-moyen-hopital-ddbc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-insectes-et-bestioles-ba61",
+      "siblings": [
+        "sudoku-illustre-moyen-insectes-et-bestioles-ba61"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d",
+      "siblings": [
+        "sudoku-illustre-moyen-ustensiles-de-cuisine-c25d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-musique-2a00",
+      "siblings": [
+        "sudoku-illustre-moyen-musique-2a00"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-metiers-b97d",
+      "siblings": [
+        "sudoku-illustre-moyen-metiers-b97d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-vie-oceanique-9222",
+      "siblings": [
+        "sudoku-illustre-moyen-vie-oceanique-9222"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-animaux-de-compagnie-4d3d",
+      "siblings": [
+        "sudoku-illustre-moyen-animaux-de-compagnie-4d3d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-bureau-de-poste-fa47",
+      "siblings": [
+        "sudoku-illustre-moyen-bureau-de-poste-fa47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0",
+      "siblings": [
+        "sudoku-illustre-moyen-reptiles-et-amphibiens-05e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-formes-65c6",
+      "siblings": [
+        "sudoku-illustre-moyen-formes-65c6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-espace-888c",
+      "siblings": [
+        "sudoku-illustre-moyen-espace-888c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-printemps-ebe9",
+      "siblings": [
+        "sudoku-illustre-moyen-printemps-ebe9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-ete-08e1",
+      "siblings": [
+        "sudoku-illustre-moyen-ete-08e1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-action-de-grace-ad28",
+      "siblings": [
+        "sudoku-illustre-moyen-action-de-grace-ad28"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-choses-qui-volent-7e87",
+      "siblings": [
+        "sudoku-illustre-moyen-choses-qui-volent-7e87"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-outils-8863",
+      "siblings": [
+        "sudoku-illustre-moyen-outils-8863"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-jouets-fff8",
+      "siblings": [
+        "sudoku-illustre-moyen-jouets-fff8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-arbres-3610",
+      "siblings": [
+        "sudoku-illustre-moyen-arbres-3610"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-legumes-c303",
+      "siblings": [
+        "sudoku-illustre-moyen-legumes-c303"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-vehicules-0bc9",
+      "siblings": [
+        "sudoku-illustre-moyen-vehicules-0bc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-meteo-9773",
+      "siblings": [
+        "sudoku-illustre-moyen-meteo-9773"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-hiver-7f4a",
+      "siblings": [
+        "sudoku-illustre-moyen-hiver-7f4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    },
+    {
+      "mode": "medium",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "sudoku-illustre-moyen-animaux-du-zoo-09fa",
+      "siblings": [
+        "sudoku-illustre-moyen-animaux-du-zoo-09fa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "readiness",
+      "level": "maternelle"
+    }
+  ]
+}

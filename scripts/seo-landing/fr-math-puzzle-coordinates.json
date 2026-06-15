@@ -1,0 +1,2291 @@
+{
+  "locale": "fr",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 48,
+    "mixed": 47,
+    "subtraction": 47
+  },
+  "totalValid": 121,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "miscellaneous",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-accessoires-cf6e",
+      "siblings": [
+        "puzzle-mathematique-addition-accessoires-cf6e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-animaux-ed4b",
+      "siblings": [
+        "puzzle-mathematique-addition-animaux-ed4b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-autour-de-la-maison-27a4",
+      "siblings": [
+        "puzzle-mathematique-addition-autour-de-la-maison-27a4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-au-supermarche-49a8",
+      "siblings": [
+        "puzzle-mathematique-addition-au-supermarche-49a8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-boulangerie-23b8",
+      "siblings": [
+        "puzzle-mathematique-addition-boulangerie-23b8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-plage-8167",
+      "siblings": [
+        "puzzle-mathematique-addition-plage-8167"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-oiseaux-8096",
+      "siblings": [
+        "puzzle-mathematique-addition-oiseaux-8096"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-oiseaux-2-b5f7",
+      "siblings": [
+        "puzzle-mathematique-addition-oiseaux-2-b5f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-petit-dejeuner-b942",
+      "siblings": [
+        "puzzle-mathematique-addition-petit-dejeuner-b942"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-camping-b89c",
+      "siblings": [
+        "puzzle-mathematique-addition-camping-b89c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-noel-ed3c",
+      "siblings": [
+        "puzzle-mathematique-addition-noel-ed3c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-salle-de-classe-fe3a",
+      "siblings": [
+        "puzzle-mathematique-addition-salle-de-classe-fe3a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-vetements-1b10",
+      "siblings": [
+        "puzzle-mathematique-addition-vetements-1b10"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-desserts-et-sucreries-6637",
+      "siblings": [
+        "puzzle-mathematique-addition-desserts-et-sucreries-6637"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-dinosaures-71a2",
+      "siblings": [
+        "puzzle-mathematique-addition-dinosaures-71a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-paques-406a",
+      "siblings": [
+        "puzzle-mathematique-addition-paques-406a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b",
+      "siblings": [
+        "puzzle-mathematique-addition-animaux-de-la-ferme-1b7b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-fleurs-87ba",
+      "siblings": [
+        "puzzle-mathematique-addition-fleurs-87ba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-creatures-de-la-foret-3584",
+      "siblings": [
+        "puzzle-mathematique-addition-creatures-de-la-foret-3584"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-fruits-afe2",
+      "siblings": [
+        "puzzle-mathematique-addition-fruits-afe2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-meubles-9be3",
+      "siblings": [
+        "puzzle-mathematique-addition-meubles-9be3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-hopital-e116",
+      "siblings": [
+        "puzzle-mathematique-addition-hopital-e116"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-insectes-et-bestioles-3662",
+      "siblings": [
+        "puzzle-mathematique-addition-insectes-et-bestioles-3662"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-ustensiles-de-cuisine-1321",
+      "siblings": [
+        "puzzle-mathematique-addition-ustensiles-de-cuisine-1321"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-divers-4c05",
+      "siblings": [
+        "puzzle-mathematique-addition-divers-4c05"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-musique-4b6b",
+      "siblings": [
+        "puzzle-mathematique-addition-musique-4b6b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-metiers-8fb8",
+      "siblings": [
+        "puzzle-mathematique-addition-metiers-8fb8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-vie-oceanique-780d",
+      "siblings": [
+        "puzzle-mathematique-addition-vie-oceanique-780d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-animaux-de-compagnie-d9b3",
+      "siblings": [
+        "puzzle-mathematique-addition-animaux-de-compagnie-d9b3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-bureau-de-poste-8748",
+      "siblings": [
+        "puzzle-mathematique-addition-bureau-de-poste-8748"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c",
+      "siblings": [
+        "puzzle-mathematique-addition-reptiles-et-amphibiens-b14c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-formes-98d6",
+      "siblings": [
+        "puzzle-mathematique-addition-formes-98d6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-espace-f2c0",
+      "siblings": [
+        "puzzle-mathematique-addition-espace-f2c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-action-de-grace-2742",
+      "siblings": [
+        "puzzle-mathematique-addition-action-de-grace-2742"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-choses-qui-volent-d1c1",
+      "siblings": [
+        "puzzle-mathematique-addition-choses-qui-volent-d1c1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-outils-e23f",
+      "siblings": [
+        "puzzle-mathematique-addition-outils-e23f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-jouets-329a",
+      "siblings": [
+        "puzzle-mathematique-addition-jouets-329a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-arbres-fba6",
+      "siblings": [
+        "puzzle-mathematique-addition-arbres-fba6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-legumes-36d8",
+      "siblings": [
+        "puzzle-mathematique-addition-legumes-36d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-vehicules-0a9d",
+      "siblings": [
+        "puzzle-mathematique-addition-vehicules-0a9d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-addition-animaux-du-zoo-520c",
+      "siblings": [
+        "puzzle-mathematique-addition-animaux-du-zoo-520c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-accessoires-0a3d",
+      "siblings": [
+        "puzzle-mathematique-mixte-accessoires-0a3d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "puzzle-mathematique-mixte-animaux",
+      "siblings": [
+        "puzzle-mathematique-mixte-animaux",
+        "puzzle-mathematique-mixte-animaux-4fbd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-autour-de-la-maison-e9be",
+      "siblings": [
+        "puzzle-mathematique-mixte-autour-de-la-maison-e9be"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-au-supermarche-9bc1",
+      "siblings": [
+        "puzzle-mathematique-mixte-au-supermarche-9bc1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-boulangerie-166d",
+      "siblings": [
+        "puzzle-mathematique-mixte-boulangerie-166d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-plage-6e65",
+      "siblings": [
+        "puzzle-mathematique-mixte-plage-6e65"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-oiseaux-81a2",
+      "siblings": [
+        "puzzle-mathematique-mixte-oiseaux-81a2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-oiseaux-2-3a5d",
+      "siblings": [
+        "puzzle-mathematique-mixte-oiseaux-2-3a5d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-petit-dejeuner-9552",
+      "siblings": [
+        "puzzle-mathematique-mixte-petit-dejeuner-9552"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-camping-e485",
+      "siblings": [
+        "puzzle-mathematique-mixte-camping-e485"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-noel-89bc",
+      "siblings": [
+        "puzzle-mathematique-mixte-noel-89bc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-salle-de-classe-f878",
+      "siblings": [
+        "puzzle-mathematique-mixte-salle-de-classe-f878"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-vetements-7810",
+      "siblings": [
+        "puzzle-mathematique-mixte-vetements-7810"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e",
+      "siblings": [
+        "puzzle-mathematique-mixte-desserts-et-sucreries-fc4e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-dinosaures-3ba5",
+      "siblings": [
+        "puzzle-mathematique-mixte-dinosaures-3ba5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-paques-8395",
+      "siblings": [
+        "puzzle-mathematique-mixte-paques-8395"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce",
+      "siblings": [
+        "puzzle-mathematique-mixte-animaux-de-la-ferme-e8ce"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-fleurs-c6d4",
+      "siblings": [
+        "puzzle-mathematique-mixte-fleurs-c6d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-creatures-de-la-foret-dddb",
+      "siblings": [
+        "puzzle-mathematique-mixte-creatures-de-la-foret-dddb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-fruits-945e",
+      "siblings": [
+        "puzzle-mathematique-mixte-fruits-945e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-meubles-1dc9",
+      "siblings": [
+        "puzzle-mathematique-mixte-meubles-1dc9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec",
+      "siblings": [
+        "puzzle-mathematique-mixte-insectes-et-bestioles-e9ec"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306",
+      "siblings": [
+        "puzzle-mathematique-mixte-ustensiles-de-cuisine-9306"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-divers-d24c",
+      "siblings": [
+        "puzzle-mathematique-mixte-divers-d24c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-musique-6db2",
+      "siblings": [
+        "puzzle-mathematique-mixte-musique-6db2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-metiers-d774",
+      "siblings": [
+        "puzzle-mathematique-mixte-metiers-d774"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-vie-oceanique-558a",
+      "siblings": [
+        "puzzle-mathematique-mixte-vie-oceanique-558a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-animaux-de-compagnie-27be",
+      "siblings": [
+        "puzzle-mathematique-mixte-animaux-de-compagnie-27be"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-bureau-de-poste-f580",
+      "siblings": [
+        "puzzle-mathematique-mixte-bureau-de-poste-f580"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c",
+      "siblings": [
+        "puzzle-mathematique-mixte-reptiles-et-amphibiens-313c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-formes-0968",
+      "siblings": [
+        "puzzle-mathematique-mixte-formes-0968"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-espace-e85e",
+      "siblings": [
+        "puzzle-mathematique-mixte-espace-e85e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-action-de-grace-2fd6",
+      "siblings": [
+        "puzzle-mathematique-mixte-action-de-grace-2fd6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-choses-qui-volent-713f",
+      "siblings": [
+        "puzzle-mathematique-mixte-choses-qui-volent-713f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-outils-6599",
+      "siblings": [
+        "puzzle-mathematique-mixte-outils-6599"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-jouets-ed18",
+      "siblings": [
+        "puzzle-mathematique-mixte-jouets-ed18"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-arbres-29ad",
+      "siblings": [
+        "puzzle-mathematique-mixte-arbres-29ad"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-legumes-d074",
+      "siblings": [
+        "puzzle-mathematique-mixte-legumes-d074"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-vehicules-22f8",
+      "siblings": [
+        "puzzle-mathematique-mixte-vehicules-22f8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-mixte-animaux-du-zoo-090c",
+      "siblings": [
+        "puzzle-mathematique-mixte-animaux-du-zoo-090c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-accessoires-f6ae",
+      "siblings": [
+        "puzzle-mathematique-soustraction-accessoires-f6ae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-animaux-e863",
+      "siblings": [
+        "puzzle-mathematique-soustraction-animaux-e863"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-autour-de-la-maison-012d",
+      "siblings": [
+        "puzzle-mathematique-soustraction-autour-de-la-maison-012d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-au-supermarche-cbe6",
+      "siblings": [
+        "puzzle-mathematique-soustraction-au-supermarche-cbe6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-boulangerie-1b4c",
+      "siblings": [
+        "puzzle-mathematique-soustraction-boulangerie-1b4c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-plage-8895",
+      "siblings": [
+        "puzzle-mathematique-soustraction-plage-8895"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-oiseaux-f9ca",
+      "siblings": [
+        "puzzle-mathematique-soustraction-oiseaux-f9ca"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-oiseaux-2-0035",
+      "siblings": [
+        "puzzle-mathematique-soustraction-oiseaux-2-0035"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-petit-dejeuner-905f",
+      "siblings": [
+        "puzzle-mathematique-soustraction-petit-dejeuner-905f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-camping-1e49",
+      "siblings": [
+        "puzzle-mathematique-soustraction-camping-1e49"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-noel-4028",
+      "siblings": [
+        "puzzle-mathematique-soustraction-noel-4028"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-salle-de-classe-9fcb",
+      "siblings": [
+        "puzzle-mathematique-soustraction-salle-de-classe-9fcb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-vetements-2ad6",
+      "siblings": [
+        "puzzle-mathematique-soustraction-vetements-2ad6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-desserts-et-sucreries-38a6",
+      "siblings": [
+        "puzzle-mathematique-soustraction-desserts-et-sucreries-38a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-dinosaures-7e63",
+      "siblings": [
+        "puzzle-mathematique-soustraction-dinosaures-7e63"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-paques-e59a",
+      "siblings": [
+        "puzzle-mathematique-soustraction-paques-e59a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-animaux-de-la-ferme-ea9c",
+      "siblings": [
+        "puzzle-mathematique-soustraction-animaux-de-la-ferme-ea9c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-creatures-de-la-foret-591b",
+      "siblings": [
+        "puzzle-mathematique-soustraction-creatures-de-la-foret-591b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-fruits-679b",
+      "siblings": [
+        "puzzle-mathematique-soustraction-fruits-679b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-meubles-d1c0",
+      "siblings": [
+        "puzzle-mathematique-soustraction-meubles-d1c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-hopital-b577",
+      "siblings": [
+        "puzzle-mathematique-soustraction-hopital-b577"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-insectes-et-bestioles-836e",
+      "siblings": [
+        "puzzle-mathematique-soustraction-insectes-et-bestioles-836e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-ustensiles-de-cuisine-a316",
+      "siblings": [
+        "puzzle-mathematique-soustraction-ustensiles-de-cuisine-a316"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "miscellaneous",
+      "slugTheme": "miscellaneous",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-divers-4954",
+      "siblings": [
+        "puzzle-mathematique-soustraction-divers-4954"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-musique-6e90",
+      "siblings": [
+        "puzzle-mathematique-soustraction-musique-6e90"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-metiers-2215",
+      "siblings": [
+        "puzzle-mathematique-soustraction-metiers-2215"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-vie-oceanique-4fe9",
+      "siblings": [
+        "puzzle-mathematique-soustraction-vie-oceanique-4fe9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-animaux-de-compagnie-8da1",
+      "siblings": [
+        "puzzle-mathematique-soustraction-animaux-de-compagnie-8da1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-bureau-de-poste-06af",
+      "siblings": [
+        "puzzle-mathematique-soustraction-bureau-de-poste-06af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-reptiles-et-amphibiens-4176",
+      "siblings": [
+        "puzzle-mathematique-soustraction-reptiles-et-amphibiens-4176"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-formes-1976",
+      "siblings": [
+        "puzzle-mathematique-soustraction-formes-1976"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-espace-d907",
+      "siblings": [
+        "puzzle-mathematique-soustraction-espace-d907"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-action-de-grace-68fb",
+      "siblings": [
+        "puzzle-mathematique-soustraction-action-de-grace-68fb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-choses-qui-volent-3575",
+      "siblings": [
+        "puzzle-mathematique-soustraction-choses-qui-volent-3575"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-outils-ec19",
+      "siblings": [
+        "puzzle-mathematique-soustraction-outils-ec19"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-jouets-5fb9",
+      "siblings": [
+        "puzzle-mathematique-soustraction-jouets-5fb9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-arbres-cf62",
+      "siblings": [
+        "puzzle-mathematique-soustraction-arbres-cf62"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-legumes-8571",
+      "siblings": [
+        "puzzle-mathematique-soustraction-legumes-8571"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-vehicules-d54b",
+      "siblings": [
+        "puzzle-mathematique-soustraction-vehicules-d54b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "puzzle-mathematique-soustraction-animaux-du-zoo-371b",
+      "siblings": [
+        "puzzle-mathematique-soustraction-animaux-du-zoo-371b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    }
+  ]
+}

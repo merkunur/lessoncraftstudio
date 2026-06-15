@@ -50,7 +50,7 @@ const TYPE_MAP = {
   'math-worksheet':{ op: 'Fiches de mathématiques', qual: {} },
   'code-addition': { op: { 'null': 'Additions codées', 'secret-word': 'Mot secret en code' }, qual: {} },
   'chart-count':   { op: 'Graphiques', qual: {} }, // operator-chosen (Graphique en barres)
-  'more-less':     { op: 'Plus ou moins', qual: { 'check-cross': 'à cocher', 'image-image': 'avec images', 'image-number': 'avec images et nombres' } },
+  'more-less':     { op: 'Comparer les quantités', qual: { 'check-cross': 'à cocher', 'image-image': 'avec images', 'image-number': 'avec images et nombres' } }, // title head (Wave B operator); H1 keeps "Plus ou moins"
   'find-and-count':{ op: { 'hidden-object': 'Cherche et compte', 'letter-spotting': 'Trouve la lettre' }, qual: {} },
   'big-small':     { op: { findBig: 'Grand ou petit', orderAsc: 'Ranger par taille' }, qual: {} },
   'grid-match':    { op: 'Associer les images', qual: {} },

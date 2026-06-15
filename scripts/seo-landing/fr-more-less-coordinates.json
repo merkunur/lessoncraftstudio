@@ -1,0 +1,2018 @@
+{
+  "locale": "fr",
+  "exerciseType": "more-less",
+  "level": "maternelle",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "check-cross": 48,
+    "image-image": 46,
+    "image-number": 48
+  },
+  "totalValid": 119,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "check-cross",
+    "image-image",
+    "image-number"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "check-cross/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "check-cross/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "check-cross/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "check-cross/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "check-cross/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "check-cross/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "check-cross/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "check-cross/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-image/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-image/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-image/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-image/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-image/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-image/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-image/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)",
+    "image-number/activities — INVALID: cannot more-less activities — not discrete-countable (semantic nonsense)",
+    "image-number/body_parts — INVALID: cannot more-less body_parts — not discrete-countable (semantic nonsense)",
+    "image-number/colors — INVALID: cannot more-less colors — not discrete-countable (semantic nonsense)",
+    "image-number/emotions — INVALID: cannot more-less emotions — not discrete-countable (semantic nonsense)",
+    "image-number/spring — INVALID: cannot more-less spring — not discrete-countable (semantic nonsense)",
+    "image-number/summer — INVALID: cannot more-less summer — not discrete-countable (semantic nonsense)",
+    "image-number/weather — INVALID: cannot more-less weather — not discrete-countable (semantic nonsense)",
+    "image-number/winter — INVALID: cannot more-less winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "check-cross",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-accessoires-cf69",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-accessoires-cf69"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-animaux-109a",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-animaux-109a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-autour-de-la-maison-cd55",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-autour-de-la-maison-cd55"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-au-supermarche-9682",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-au-supermarche-9682"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-boulangerie-0155",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-boulangerie-0155"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-plage-7f7c",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-plage-7f7c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-oiseaux-94da",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-oiseaux-94da"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-oiseaux-2-ac4d",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-oiseaux-2-ac4d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-petit-dejeuner-55fe",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-petit-dejeuner-55fe"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-camping-6794",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-camping-6794"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-noel-7d5a",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-noel-7d5a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-salle-de-classe-e275",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-salle-de-classe-e275"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-vetements-619d",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-vetements-619d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-desserts-et-sucreries-04cc",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-desserts-et-sucreries-04cc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-dinosaures-efec",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-dinosaures-efec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-paques-d855",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-paques-d855"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-animaux-de-la-ferme-0cc9",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-animaux-de-la-ferme-0cc9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-fleurs-fb11",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-fleurs-fb11"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-creatures-de-la-foret-9dd4",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-creatures-de-la-foret-9dd4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-fruits-b689",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-fruits-b689"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-meubles-6fe2",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-meubles-6fe2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-hopital-f715",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-hopital-f715"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-insectes-et-bestioles-bfe0",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-insectes-et-bestioles-bfe0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-ustensiles-de-cuisine-f291",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-ustensiles-de-cuisine-f291"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-musique-4528",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-musique-4528"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-metiers-db30",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-metiers-db30"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-vie-oceanique-21f3",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-vie-oceanique-21f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-animaux-de-compagnie-9bda",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-animaux-de-compagnie-9bda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-bureau-de-poste-ff07",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-bureau-de-poste-ff07"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-reptiles-et-amphibiens-d381",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-reptiles-et-amphibiens-d381"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-formes-1107",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-formes-1107"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-espace-a536",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-espace-a536"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-action-de-grace-9038",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-action-de-grace-9038"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-choses-qui-volent-6251",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-choses-qui-volent-6251"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-outils-0b6c",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-outils-0b6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-jouets-80bd",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-jouets-80bd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-arbres-d326",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-arbres-d326"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-legumes-d2d1",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-legumes-d2d1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-vehicules-3ddd",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-vehicules-3ddd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "check-cross",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-coche-et-barre-les-groupes-animaux-du-zoo-1560",
+      "siblings": [
+        "plus-ou-moins-coche-et-barre-les-groupes-animaux-du-zoo-1560"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-accessoires-1a70",
+      "siblings": [
+        "plus-ou-moins-image-image-accessoires-1a70"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-animaux-28f4",
+      "siblings": [
+        "plus-ou-moins-image-image-animaux-28f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-autour-de-la-maison-6d17",
+      "siblings": [
+        "plus-ou-moins-image-image-autour-de-la-maison-6d17"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-au-supermarche-3667",
+      "siblings": [
+        "plus-ou-moins-image-image-au-supermarche-3667"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-boulangerie-f573",
+      "siblings": [
+        "plus-ou-moins-image-image-boulangerie-f573"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-plage-b953",
+      "siblings": [
+        "plus-ou-moins-image-image-plage-b953"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-oiseaux-c219",
+      "siblings": [
+        "plus-ou-moins-image-image-oiseaux-c219"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-oiseaux-2-107b",
+      "siblings": [
+        "plus-ou-moins-image-image-oiseaux-2-107b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-petit-dejeuner-ec7e",
+      "siblings": [
+        "plus-ou-moins-image-image-petit-dejeuner-ec7e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-camping-e796",
+      "siblings": [
+        "plus-ou-moins-image-image-camping-e796"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-noel-23c7",
+      "siblings": [
+        "plus-ou-moins-image-image-noel-23c7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-salle-de-classe-fd22",
+      "siblings": [
+        "plus-ou-moins-image-image-salle-de-classe-fd22"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-vetements-700d",
+      "siblings": [
+        "plus-ou-moins-image-image-vetements-700d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-desserts-et-sucreries-0507",
+      "siblings": [
+        "plus-ou-moins-image-image-desserts-et-sucreries-0507"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-dinosaures-ed7b",
+      "siblings": [
+        "plus-ou-moins-image-image-dinosaures-ed7b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-paques-6825",
+      "siblings": [
+        "plus-ou-moins-image-image-paques-6825"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d",
+      "siblings": [
+        "plus-ou-moins-image-image-animaux-de-la-ferme-ef3d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-fleurs-eee8",
+      "siblings": [
+        "plus-ou-moins-image-image-fleurs-eee8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-creatures-de-la-foret-7d3b",
+      "siblings": [
+        "plus-ou-moins-image-image-creatures-de-la-foret-7d3b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-fruits-f1d4",
+      "siblings": [
+        "plus-ou-moins-image-image-fruits-f1d4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-hopital-77f4",
+      "siblings": [
+        "plus-ou-moins-image-image-hopital-77f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-insectes-et-bestioles-9587",
+      "siblings": [
+        "plus-ou-moins-image-image-insectes-et-bestioles-9587"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c",
+      "siblings": [
+        "plus-ou-moins-image-image-ustensiles-de-cuisine-4f6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-musique-4e80",
+      "siblings": [
+        "plus-ou-moins-image-image-musique-4e80"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-metiers-c1dc",
+      "siblings": [
+        "plus-ou-moins-image-image-metiers-c1dc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-vie-oceanique-6976",
+      "siblings": [
+        "plus-ou-moins-image-image-vie-oceanique-6976"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-animaux-de-compagnie-3fa9",
+      "siblings": [
+        "plus-ou-moins-image-image-animaux-de-compagnie-3fa9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-bureau-de-poste-dda7",
+      "siblings": [
+        "plus-ou-moins-image-image-bureau-de-poste-dda7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f",
+      "siblings": [
+        "plus-ou-moins-image-image-reptiles-et-amphibiens-1d1f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-formes-a6a9",
+      "siblings": [
+        "plus-ou-moins-image-image-formes-a6a9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-espace-1b6b",
+      "siblings": [
+        "plus-ou-moins-image-image-espace-1b6b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-action-de-grace-c674",
+      "siblings": [
+        "plus-ou-moins-image-image-action-de-grace-c674"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-choses-qui-volent-1ec5",
+      "siblings": [
+        "plus-ou-moins-image-image-choses-qui-volent-1ec5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-outils-3342",
+      "siblings": [
+        "plus-ou-moins-image-image-outils-3342"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-jouets-bef2",
+      "siblings": [
+        "plus-ou-moins-image-image-jouets-bef2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-arbres-417d",
+      "siblings": [
+        "plus-ou-moins-image-image-arbres-417d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-legumes-0852",
+      "siblings": [
+        "plus-ou-moins-image-image-legumes-0852"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-vehicules-0cc6",
+      "siblings": [
+        "plus-ou-moins-image-image-vehicules-0cc6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-image",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-image-animaux-du-zoo-6e1d",
+      "siblings": [
+        "plus-ou-moins-image-image-animaux-du-zoo-6e1d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-accessoires-8293",
+      "siblings": [
+        "plus-ou-moins-image-nombre-accessoires-8293"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-animaux-bd6d",
+      "siblings": [
+        "plus-ou-moins-image-nombre-animaux-bd6d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-autour-de-la-maison-59e0",
+      "siblings": [
+        "plus-ou-moins-image-nombre-autour-de-la-maison-59e0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-au-supermarche-65e4",
+      "siblings": [
+        "plus-ou-moins-image-nombre-au-supermarche-65e4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-boulangerie-2092",
+      "siblings": [
+        "plus-ou-moins-image-nombre-boulangerie-2092"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-plage-d056",
+      "siblings": [
+        "plus-ou-moins-image-nombre-plage-d056"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-oiseaux-0ff4",
+      "siblings": [
+        "plus-ou-moins-image-nombre-oiseaux-0ff4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-oiseaux-2-f0ba",
+      "siblings": [
+        "plus-ou-moins-image-nombre-oiseaux-2-f0ba"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-petit-dejeuner-767c",
+      "siblings": [
+        "plus-ou-moins-image-nombre-petit-dejeuner-767c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-camping-ced8",
+      "siblings": [
+        "plus-ou-moins-image-nombre-camping-ced8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-noel-b92e",
+      "siblings": [
+        "plus-ou-moins-image-nombre-noel-b92e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-salle-de-classe-6b4d",
+      "siblings": [
+        "plus-ou-moins-image-nombre-salle-de-classe-6b4d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-vetements-c581",
+      "siblings": [
+        "plus-ou-moins-image-nombre-vetements-c581"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-desserts-et-sucreries-5c99",
+      "siblings": [
+        "plus-ou-moins-image-nombre-desserts-et-sucreries-5c99"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-dinosaures-e42d",
+      "siblings": [
+        "plus-ou-moins-image-nombre-dinosaures-e42d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-paques-203f",
+      "siblings": [
+        "plus-ou-moins-image-nombre-paques-203f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-animaux-de-la-ferme-a9d8",
+      "siblings": [
+        "plus-ou-moins-image-nombre-animaux-de-la-ferme-a9d8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-fleurs-959b",
+      "siblings": [
+        "plus-ou-moins-image-nombre-fleurs-959b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-creatures-de-la-foret-ad54",
+      "siblings": [
+        "plus-ou-moins-image-nombre-creatures-de-la-foret-ad54"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-fruits-4773",
+      "siblings": [
+        "plus-ou-moins-image-nombre-fruits-4773"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-meubles-7aaa",
+      "siblings": [
+        "plus-ou-moins-image-nombre-meubles-7aaa"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-hopital-e380",
+      "siblings": [
+        "plus-ou-moins-image-nombre-hopital-e380"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-insectes-et-bestioles-2566",
+      "siblings": [
+        "plus-ou-moins-image-nombre-insectes-et-bestioles-2566"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-ustensiles-de-cuisine-e0f4",
+      "siblings": [
+        "plus-ou-moins-image-nombre-ustensiles-de-cuisine-e0f4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-musique-90c2",
+      "siblings": [
+        "plus-ou-moins-image-nombre-musique-90c2"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-metiers-a3bb",
+      "siblings": [
+        "plus-ou-moins-image-nombre-metiers-a3bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-vie-oceanique-75d8",
+      "siblings": [
+        "plus-ou-moins-image-nombre-vie-oceanique-75d8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-animaux-de-compagnie-c908",
+      "siblings": [
+        "plus-ou-moins-image-nombre-animaux-de-compagnie-c908"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-bureau-de-poste-89d7",
+      "siblings": [
+        "plus-ou-moins-image-nombre-bureau-de-poste-89d7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-reptiles-et-amphibiens-fecf",
+      "siblings": [
+        "plus-ou-moins-image-nombre-reptiles-et-amphibiens-fecf"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-formes-1a74",
+      "siblings": [
+        "plus-ou-moins-image-nombre-formes-1a74"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-espace-8ac6",
+      "siblings": [
+        "plus-ou-moins-image-nombre-espace-8ac6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-action-de-grace-f190",
+      "siblings": [
+        "plus-ou-moins-image-nombre-action-de-grace-f190"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-choses-qui-volent-8812",
+      "siblings": [
+        "plus-ou-moins-image-nombre-choses-qui-volent-8812"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-outils-eaa6",
+      "siblings": [
+        "plus-ou-moins-image-nombre-outils-eaa6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-jouets-009a",
+      "siblings": [
+        "plus-ou-moins-image-nombre-jouets-009a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-arbres-9b14",
+      "siblings": [
+        "plus-ou-moins-image-nombre-arbres-9b14"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-legumes-bf91",
+      "siblings": [
+        "plus-ou-moins-image-nombre-legumes-bf91"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-vehicules-6120",
+      "siblings": [
+        "plus-ou-moins-image-nombre-vehicules-6120"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    },
+    {
+      "mode": "image-number",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "plus-ou-moins-image-nombre-animaux-du-zoo-1520",
+      "siblings": [
+        "plus-ou-moins-image-nombre-animaux-du-zoo-1520"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "maternelle"
+    }
+  ]
+}

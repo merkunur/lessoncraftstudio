@@ -1,0 +1,1823 @@
+{
+  "locale": "fr",
+  "exerciseType": "code-addition",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 146,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 48,
+    "secret-word": 46
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null,
+    "secret-word"
+  ],
+  "collapsedFamilies": 48,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "addition-codee-accessoires-bdfb",
+      "siblings": [
+        "addition-codee-accessoires-bdfb",
+        "addition-codee-accessoires-3eee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 2,
+      "canonical": "addition-codee-activites-d28c",
+      "siblings": [
+        "addition-codee-activites-d28c",
+        "addition-codee-activites-e6e0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "addition-codee-animaux-9114",
+      "siblings": [
+        "addition-codee-animaux-9114",
+        "addition-codee-animaux-d3f9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "addition-codee-autour-de-la-maison-e9d5",
+      "siblings": [
+        "addition-codee-autour-de-la-maison-e9d5",
+        "addition-codee-autour-de-la-maison-94f0"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "addition-codee-au-supermarche-724c",
+      "siblings": [
+        "addition-codee-au-supermarche-724c",
+        "addition-codee-au-supermarche-d249"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "addition-codee-boulangerie-7b38",
+      "siblings": [
+        "addition-codee-boulangerie-7b38",
+        "addition-codee-boulangerie-6dca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "addition-codee-plage-b64d",
+      "siblings": [
+        "addition-codee-plage-b64d",
+        "addition-codee-plage-bf27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 2,
+      "canonical": "addition-codee-oiseaux-6560",
+      "siblings": [
+        "addition-codee-oiseaux-6560",
+        "addition-codee-oiseaux-6c74"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "addition-codee-oiseaux-2-f5f9",
+      "siblings": [
+        "addition-codee-oiseaux-2-f5f9",
+        "addition-codee-oiseaux-2-9f29"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "addition-codee-parties-du-corps-c7cf",
+      "siblings": [
+        "addition-codee-parties-du-corps-c7cf",
+        "addition-codee-parties-du-corps-b4f1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "addition-codee-petit-dejeuner-8614",
+      "siblings": [
+        "addition-codee-petit-dejeuner-8614",
+        "addition-codee-petit-dejeuner-37ca"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "addition-codee-camping-7b9e",
+      "siblings": [
+        "addition-codee-camping-7b9e",
+        "addition-codee-camping-d7a6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "addition-codee-noel-b74a",
+      "siblings": [
+        "addition-codee-noel-b74a",
+        "addition-codee-noel-592f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "addition-codee-salle-de-classe-24fe",
+      "siblings": [
+        "addition-codee-salle-de-classe-24fe",
+        "addition-codee-salle-de-classe-e712"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "addition-codee-vetements-ce00",
+      "siblings": [
+        "addition-codee-vetements-ce00",
+        "addition-codee-vetements-3b17"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 2,
+      "canonical": "addition-codee-couleurs-f6e1",
+      "siblings": [
+        "addition-codee-couleurs-f6e1",
+        "addition-codee-couleurs-314e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "addition-codee-desserts-et-sucreries-3fee",
+      "siblings": [
+        "addition-codee-desserts-et-sucreries-3fee",
+        "addition-codee-desserts-et-sucreries-c995"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": null,
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "addition-codee-dinosaures-7756",
+      "siblings": [
+        "addition-codee-dinosaures-7756",
+        "addition-codee-dinosaures-ef52"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "addition-codee-paques-4567",
+      "siblings": [
+        "addition-codee-paques-4567",
+        "addition-codee-paques-fa7f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 2,
+      "canonical": "addition-codee-emotions-7382",
+      "siblings": [
+        "addition-codee-emotions-7382",
+        "addition-codee-emotions-def2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "addition-codee-animaux-de-la-ferme-a5f3",
+      "siblings": [
+        "addition-codee-animaux-de-la-ferme-a5f3",
+        "addition-codee-animaux-de-la-ferme-62e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "addition-codee-fleurs-2f98",
+      "siblings": [
+        "addition-codee-fleurs-2f98",
+        "addition-codee-fleurs-7d0d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "addition-codee-creatures-de-la-foret-386c",
+      "siblings": [
+        "addition-codee-creatures-de-la-foret-386c",
+        "addition-codee-creatures-de-la-foret-8feb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "addition-codee-fruits-b03d",
+      "siblings": [
+        "addition-codee-fruits-b03d",
+        "addition-codee-fruits-6e20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "addition-codee-meubles-010f",
+      "siblings": [
+        "addition-codee-meubles-010f",
+        "addition-codee-meubles-399a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "addition-codee-hopital-826b",
+      "siblings": [
+        "addition-codee-hopital-826b",
+        "addition-codee-hopital-fc9e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 2,
+      "canonical": "addition-codee-insectes-et-bestioles-0d29",
+      "siblings": [
+        "addition-codee-insectes-et-bestioles-0d29",
+        "addition-codee-insectes-et-bestioles-b0bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "addition-codee-ustensiles-de-cuisine-75e0",
+      "siblings": [
+        "addition-codee-ustensiles-de-cuisine-75e0",
+        "addition-codee-ustensiles-de-cuisine-3540"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "addition-codee-musique-1d55",
+      "siblings": [
+        "addition-codee-musique-1d55",
+        "addition-codee-musique-af4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "addition-codee-metiers-cc3e",
+      "siblings": [
+        "addition-codee-metiers-cc3e",
+        "addition-codee-metiers-fe72"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "addition-codee-vie-oceanique-31cd",
+      "siblings": [
+        "addition-codee-vie-oceanique-31cd",
+        "addition-codee-vie-oceanique-8272"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "addition-codee-animaux-de-compagnie-eb69",
+      "siblings": [
+        "addition-codee-animaux-de-compagnie-eb69",
+        "addition-codee-animaux-de-compagnie-ac24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 2,
+      "canonical": "addition-codee-bureau-de-poste-9c4b",
+      "siblings": [
+        "addition-codee-bureau-de-poste-9c4b",
+        "addition-codee-bureau-de-poste-55e7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 2,
+      "canonical": "addition-codee-reptiles-et-amphibiens-3fdd",
+      "siblings": [
+        "addition-codee-reptiles-et-amphibiens-3fdd",
+        "addition-codee-reptiles-et-amphibiens-6e57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "addition-codee-formes-da40",
+      "siblings": [
+        "addition-codee-formes-da40",
+        "addition-codee-formes-5e2e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "addition-codee-espace-6bea",
+      "siblings": [
+        "addition-codee-espace-6bea",
+        "addition-codee-espace-cb96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 2,
+      "canonical": "addition-codee-printemps-8a4b",
+      "siblings": [
+        "addition-codee-printemps-8a4b",
+        "addition-codee-printemps-e11a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 2,
+      "canonical": "addition-codee-ete-2645",
+      "siblings": [
+        "addition-codee-ete-2645",
+        "addition-codee-ete-3a23"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 2,
+      "canonical": "addition-codee-action-de-grace-6a4b",
+      "siblings": [
+        "addition-codee-action-de-grace-6a4b",
+        "addition-codee-action-de-grace-a888"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 2,
+      "canonical": "addition-codee-choses-qui-volent-f863",
+      "siblings": [
+        "addition-codee-choses-qui-volent-f863",
+        "addition-codee-choses-qui-volent-9700"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "addition-codee-outils-4825",
+      "siblings": [
+        "addition-codee-outils-4825",
+        "addition-codee-outils-aa84"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "addition-codee-jouets-2d36",
+      "siblings": [
+        "addition-codee-jouets-2d36",
+        "addition-codee-jouets-37c5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "addition-codee-arbres-75f1",
+      "siblings": [
+        "addition-codee-arbres-75f1",
+        "addition-codee-arbres-b369"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "addition-codee-legumes-d7ba",
+      "siblings": [
+        "addition-codee-legumes-d7ba",
+        "addition-codee-legumes-9267"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "addition-codee-vehicules-7269",
+      "siblings": [
+        "addition-codee-vehicules-7269",
+        "addition-codee-vehicules-bf8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 2,
+      "canonical": "addition-codee-meteo-bc95",
+      "siblings": [
+        "addition-codee-meteo-bc95",
+        "addition-codee-meteo-4239"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 2,
+      "canonical": "addition-codee-hiver-781b",
+      "siblings": [
+        "addition-codee-hiver-781b",
+        "addition-codee-hiver-da68"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "addition-codee-animaux-du-zoo-ddc2",
+      "siblings": [
+        "addition-codee-animaux-du-zoo-ddc2",
+        "addition-codee-animaux-du-zoo-bf27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "secret-word",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-accessoires-3b75",
+      "siblings": [
+        "addition-codee-mot-secret-accessoires-3b75"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "secret-word",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-activites-bbd2",
+      "siblings": [
+        "addition-codee-mot-secret-activites-bbd2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-animaux-bd25",
+      "siblings": [
+        "addition-codee-mot-secret-animaux-bd25"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-autour-de-la-maison-7c16",
+      "siblings": [
+        "addition-codee-mot-secret-autour-de-la-maison-7c16"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "secret-word",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-au-supermarche-eb96",
+      "siblings": [
+        "addition-codee-mot-secret-au-supermarche-eb96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 28
+    },
+    {
+      "mode": "secret-word",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-boulangerie-0281",
+      "siblings": [
+        "addition-codee-mot-secret-boulangerie-0281"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-plage-3cb4",
+      "siblings": [
+        "addition-codee-mot-secret-plage-3cb4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-oiseaux-8cf4",
+      "siblings": [
+        "addition-codee-mot-secret-oiseaux-8cf4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "secret-word",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-oiseaux-2-7c88",
+      "siblings": [
+        "addition-codee-mot-secret-oiseaux-2-7c88"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-parties-du-corps-768f",
+      "siblings": [
+        "addition-codee-mot-secret-parties-du-corps-768f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "secret-word",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-petit-dejeuner-d49a",
+      "siblings": [
+        "addition-codee-mot-secret-petit-dejeuner-d49a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 32
+    },
+    {
+      "mode": "secret-word",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-camping-03ed",
+      "siblings": [
+        "addition-codee-mot-secret-camping-03ed"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 35
+    },
+    {
+      "mode": "secret-word",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-noel-ffad",
+      "siblings": [
+        "addition-codee-mot-secret-noel-ffad"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "secret-word",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-salle-de-classe-cf12",
+      "siblings": [
+        "addition-codee-mot-secret-salle-de-classe-cf12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 27
+    },
+    {
+      "mode": "secret-word",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-vetements-df63",
+      "siblings": [
+        "addition-codee-mot-secret-vetements-df63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "secret-word",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-couleurs-5b63",
+      "siblings": [
+        "addition-codee-mot-secret-couleurs-5b63"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "secret-word",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-desserts-et-sucreries-591b",
+      "siblings": [
+        "addition-codee-mot-secret-desserts-et-sucreries-591b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-dinosaures-087a",
+      "siblings": [
+        "addition-codee-mot-secret-dinosaures-087a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "secret-word",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-paques-80ce",
+      "siblings": [
+        "addition-codee-mot-secret-paques-80ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "secret-word",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-emotions-ae3a",
+      "siblings": [
+        "addition-codee-mot-secret-emotions-ae3a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-animaux-de-la-ferme-15a1",
+      "siblings": [
+        "addition-codee-mot-secret-animaux-de-la-ferme-15a1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "secret-word",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-fleurs-0def",
+      "siblings": [
+        "addition-codee-mot-secret-fleurs-0def"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "secret-word",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-creatures-de-la-foret-5d1b",
+      "siblings": [
+        "addition-codee-mot-secret-creatures-de-la-foret-5d1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-fruits-b893",
+      "siblings": [
+        "addition-codee-mot-secret-fruits-b893"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-meubles-fd93",
+      "siblings": [
+        "addition-codee-mot-secret-meubles-fd93"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-hopital-eac9",
+      "siblings": [
+        "addition-codee-mot-secret-hopital-eac9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8",
+      "siblings": [
+        "addition-codee-mot-secret-ustensiles-de-cuisine-d8c8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-musique-c6a3",
+      "siblings": [
+        "addition-codee-mot-secret-musique-c6a3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "secret-word",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-metiers-3fe1",
+      "siblings": [
+        "addition-codee-mot-secret-metiers-3fe1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "secret-word",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-vie-oceanique-5803",
+      "siblings": [
+        "addition-codee-mot-secret-vie-oceanique-5803"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 32
+    },
+    {
+      "mode": "secret-word",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-animaux-de-compagnie-235e",
+      "siblings": [
+        "addition-codee-mot-secret-animaux-de-compagnie-235e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 13
+    },
+    {
+      "mode": "secret-word",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-bureau-de-poste-c029",
+      "siblings": [
+        "addition-codee-mot-secret-bureau-de-poste-c029"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-formes-17cc",
+      "siblings": [
+        "addition-codee-mot-secret-formes-17cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-espace-9d77",
+      "siblings": [
+        "addition-codee-mot-secret-espace-9d77"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "secret-word",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-printemps-895f",
+      "siblings": [
+        "addition-codee-mot-secret-printemps-895f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-ete-b91e",
+      "siblings": [
+        "addition-codee-mot-secret-ete-b91e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-action-de-grace-17c2",
+      "siblings": [
+        "addition-codee-mot-secret-action-de-grace-17c2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-choses-qui-volent-95c1",
+      "siblings": [
+        "addition-codee-mot-secret-choses-qui-volent-95c1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-outils-c3f3",
+      "siblings": [
+        "addition-codee-mot-secret-outils-c3f3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-jouets-1300",
+      "siblings": [
+        "addition-codee-mot-secret-jouets-1300"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "secret-word",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-arbres-f87b",
+      "siblings": [
+        "addition-codee-mot-secret-arbres-f87b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 25
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-legumes-ad0e",
+      "siblings": [
+        "addition-codee-mot-secret-legumes-ad0e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 30
+    },
+    {
+      "mode": "secret-word",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-vehicules-7cb3",
+      "siblings": [
+        "addition-codee-mot-secret-vehicules-7cb3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "secret-word",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-meteo-71ba",
+      "siblings": [
+        "addition-codee-mot-secret-meteo-71ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 29
+    },
+    {
+      "mode": "secret-word",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-hiver-63cf",
+      "siblings": [
+        "addition-codee-mot-secret-hiver-63cf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "ce1",
+      "standard": "2.NBT.B.5",
+      "_max": 26
+    },
+    {
+      "mode": "secret-word",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "addition-codee-mot-secret-animaux-du-zoo-277b",
+      "siblings": [
+        "addition-codee-mot-secret-animaux-du-zoo-277b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "cp",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    }
+  ]
+}

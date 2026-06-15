@@ -40,6 +40,13 @@ const T = LOCALE === 'de' ? {
   dualTarget: 'beelden-sorteren-accessories-vs-animals-8b75', // a specific nl -vs-animals landing
   partnerHub: 'accessoires',                                  // its other component's nl hub (accessories)
   typeHub: 'optellen',                                        // an nl type hub to confirm unregressed
+} : LOCALE === 'no' ? {
+  anchorHub: 'dyr',                                          // no animals theme hub
+  goodRe: /-vs-animals(-|$)|(^|-)animals-vs-/,                // no picture-sort slug (english-key -vs- component)
+  badRe: /(farm|zoo|sea|forest)-animals/,                    // substring-trap: *-animals must NOT match plain animals
+  dualTarget: null,                                          // FINALIZE in Wave E (picture-sort) with a real no -vs-animals landing slug
+  partnerHub: null,                                          // auto-derived from target once dualTarget lands
+  typeHub: 'addisjon',                                       // an no type hub to confirm unregressed
 } : {
   anchorHub: 'animals',
   goodRe: /(^|-)animals-vs-|-vs-animals$/,

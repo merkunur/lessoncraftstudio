@@ -37,6 +37,7 @@ const FRAMEWORK_BY_LOCALE: Record<string, { jsonld: string; chip: string }> = {
   nl: { jsonld: 'Kerndoelen primair onderwijs', chip: 'SLO-kerndoelen' },
   da: { jsonld: 'Fælles Mål', chip: 'Fælles Mål' },
   it: { jsonld: 'Indicazioni nazionali per il curricolo', chip: 'Indicazioni Nazionali' },
+  no: { jsonld: 'Læreplanverket for Kunnskapsløftet (LK20)', chip: 'LK20' },
 };
 
 // Per-locale UI chrome (the route was EN-hardcoded). de pages render German chrome.
@@ -119,6 +120,17 @@ const UI_STRINGS: Record<string, {
     playAria: (h1) => `Gioca ${h1}`, previewAlt: (h1) => `Anteprima di ${h1}`,
     embedButton: 'Incorpora questa scheda', embedCopy: 'Copia codice', embedCopied: 'Copiato!',
     embedPrefix: 'Scheda di', embedKeyword: 'schede stampabili gratuite',
+  },
+  no: {
+    worksheets: 'Arbeidsark', playInteractive: 'Spill', downloadPdf: 'Last ned PDF', answerKey: 'Fasit',
+    moreToTry: 'Flere arbeidsark å prøve', tryInteractive: 'Prøv interaktivt', makerSoon: 'Generatorside kommer snart.',
+    comingSoon: '', // no: no dashed framework chip on strand-only readiness landings (Nordic family precedent da/sv/nl)
+    sameThemeHeading: 'Mer med samme tema', sameLevelHeading: 'Mer for samme trinn',
+    madeWith: (t) => `Laget med ${t}-generatoren`, typeCrumb: (e) => e.replace(/^Oppgave:\s*/, ''),
+    playAria: (h1) => `Spill ${h1}`, previewAlt: (h1) => `Forhåndsvisning av ${h1}`,
+    // [NSR-FLAG] no embed labels — native review pending (§17.5.1)
+    embedButton: 'Bygg inn dette arbeidsarket', embedCopy: 'Kopier kode', embedCopied: 'Kopiert!',
+    embedPrefix: 'Arbeidsark fra', embedKeyword: 'gratis utskrivbare arbeidsark',
   },
 };
 
@@ -253,6 +265,14 @@ export default function WorksheetLandingPage(
     'infanzia': { chip: "Scuola dell'infanzia", schema: "Scuola dell'infanzia", age: '3-6' },
     'classe-prima': { chip: 'Classe prima – scuola primaria', schema: 'Scuola primaria - classe prima', age: '6-7' },
     'classe-seconda': { chip: 'Classe seconda – scuola primaria', schema: 'Scuola primaria - classe seconda', age: '7-8' },
+    // no — 3-band spine (LK20, +1-year offset: Norway starts 1. trinn at age 6, NO pre-school year inside
+    // school). 1. trinn = readiness floor (EN Kindergarten + ALL readiness + concrete ≤10); 2. trinn =
+    // symbolic arithmetic ≤20 CARRIES + chart-count + formal decoding; 3. trinn = within-100 (2.NBT). 4. trinn OUT.
+    // Keys are collision-free (no other locale uses 'N-trinn'), so unprefixed — the route's locale-prefixed
+    // lookup falls through to these.
+    '1-trinn': { chip: '1. trinn', schema: '1. trinn', age: '6-7' },
+    '2-trinn': { chip: '2. trinn', schema: '2. trinn', age: '7-8' },
+    '3-trinn': { chip: '3. trinn', schema: '3. trinn', age: '8-9' },
   };
   const _bandKeys = l.levels && l.levels.length ? l.levels : [l.coordinate.level];
   const _bands = _bandKeys.map((k) => LEVELS[`${locale}:${k}`] || LEVELS[k]).filter(Boolean);

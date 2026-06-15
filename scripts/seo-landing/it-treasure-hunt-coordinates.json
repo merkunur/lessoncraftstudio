@@ -73,7 +73,6 @@
       "theme": "accessories",
       "slugTheme": "accessories",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-accessori-e13e",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-accessori-e13e"
       ],
@@ -82,14 +81,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-accessori-e13e"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "activities",
       "slugTheme": "activities",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-attivita-78d1",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-attivita-78d1"
       ],
@@ -98,14 +97,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-attivita-78d1"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "animals",
       "slugTheme": "animals",
       "n": 2,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-animali",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-animali",
         "caccia-al-tesoro-su-giu-sinistra-destra-animali-bf45"
@@ -115,14 +114,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-animali"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "around_the_house",
       "slugTheme": "around-the-house",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-in-giro-per-casa-ea2b",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-in-giro-per-casa-ea2b"
       ],
@@ -131,14 +130,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-in-giro-per-casa-ea2b"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "at_the_supermarket",
       "slugTheme": "at-the-supermarket",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-al-supermercato-e869",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-al-supermercato-e869"
       ],
@@ -147,14 +146,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-al-supermercato-e869"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "bakery",
       "slugTheme": "bakery",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-panetteria-44d9",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-panetteria-44d9"
       ],
@@ -163,14 +162,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-panetteria-44d9"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "beach",
       "slugTheme": "beach",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-spiaggia-f378",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-spiaggia-f378"
       ],
@@ -179,14 +178,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-spiaggia-f378"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "birds",
       "slugTheme": "birds",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-521f",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-521f"
       ],
@@ -195,14 +194,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-521f"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "birds_2",
       "slugTheme": "birds-2",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-2-89f0",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-2-89f0"
       ],
@@ -211,14 +210,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-uccelli-2-89f0"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "body_parts",
       "slugTheme": "body-parts",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-parti-del-corpo-078a",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-parti-del-corpo-078a"
       ],
@@ -227,14 +226,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-parti-del-corpo-078a"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "breakfast",
       "slugTheme": "breakfast",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-colazione-8cc8",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-colazione-8cc8"
       ],
@@ -243,14 +242,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-colazione-8cc8"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "camping",
       "slugTheme": "camping",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-campeggio-4cdb",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-campeggio-4cdb"
       ],
@@ -259,14 +258,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-campeggio-4cdb"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "christmas",
       "slugTheme": "christmas",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-natale-1fad",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-natale-1fad"
       ],
@@ -275,14 +274,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-natale-1fad"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "classroom",
       "slugTheme": "classroom",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-aula-b847",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-aula-b847"
       ],
@@ -291,14 +290,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-aula-b847"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "clothing",
       "slugTheme": "clothing",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-abbigliamento-35b1",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-abbigliamento-35b1"
       ],
@@ -307,14 +306,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-abbigliamento-35b1"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "colors",
       "slugTheme": "colors",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-colori-88f5",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-colori-88f5"
       ],
@@ -323,14 +322,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-colori-88f5"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "desserts_and_sweets",
       "slugTheme": "desserts-and-sweets",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-dolci-e-dolciumi-34ca",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-dolci-e-dolciumi-34ca"
       ],
@@ -339,14 +338,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-dolci-e-dolciumi-34ca"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "dinosaurs",
       "slugTheme": "dinosaurs",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-dinosauri-0907",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-dinosauri-0907"
       ],
@@ -355,14 +354,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-dinosauri-0907"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "easter",
       "slugTheme": "easter",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-pasqua-765b",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-pasqua-765b"
       ],
@@ -371,14 +370,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-pasqua-765b"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "emotions",
       "slugTheme": "emotions",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-emozioni-267b",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-emozioni-267b"
       ],
@@ -387,14 +386,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-emozioni-267b"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "farm_animals",
       "slugTheme": "farm-animals",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-animali-della-fattoria-144c",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-animali-della-fattoria-144c"
       ],
@@ -403,14 +402,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-della-fattoria-144c"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "flowers",
       "slugTheme": "flowers",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-fiori-3b2e",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-fiori-3b2e"
       ],
@@ -419,14 +418,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-fiori-3b2e"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "forest_creatures",
       "slugTheme": "forest-creatures",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-creature-della-foresta-8380",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-creature-della-foresta-8380"
       ],
@@ -435,14 +434,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-creature-della-foresta-8380"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "fruits",
       "slugTheme": "fruits",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-frutta-5bd1",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-frutta-5bd1"
       ],
@@ -451,14 +450,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-frutta-5bd1"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "furniture",
       "slugTheme": "furniture",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-mobili-e966",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-mobili-e966"
       ],
@@ -467,14 +466,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-mobili-e966"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "hospital",
       "slugTheme": "hospital",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-ospedale-d664",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-ospedale-d664"
       ],
@@ -483,14 +482,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-ospedale-d664"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "insects_and_bugs",
       "slugTheme": "insects-and-bugs",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-insetti-e-scarafaggi-9c2e",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-insetti-e-scarafaggi-9c2e"
       ],
@@ -499,14 +498,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-insetti-e-scarafaggi-9c2e"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "kitchen_tools",
       "slugTheme": "kitchen-tools",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-utensili-da-cucina-4d36",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-utensili-da-cucina-4d36"
       ],
@@ -515,14 +514,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-utensili-da-cucina-4d36"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "music",
       "slugTheme": "music",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-musica-67b7",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-musica-67b7"
       ],
@@ -531,14 +530,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-musica-67b7"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "occupations",
       "slugTheme": "occupations",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-professioni-3675",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-professioni-3675"
       ],
@@ -547,14 +546,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-professioni-3675"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "ocean_life",
       "slugTheme": "ocean-life",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-vita-oceanica-9e6f",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-vita-oceanica-9e6f"
       ],
@@ -563,14 +562,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-vita-oceanica-9e6f"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "pets",
       "slugTheme": "pets",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-animali-domestici-244d",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-animali-domestici-244d"
       ],
@@ -579,14 +578,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-domestici-244d"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "post_office",
       "slugTheme": "post-office",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-ufficio-postale-6007",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-ufficio-postale-6007"
       ],
@@ -595,14 +594,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-ufficio-postale-6007"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "shapes",
       "slugTheme": "shapes",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-forme-4a8e",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-forme-4a8e"
       ],
@@ -611,14 +610,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-forme-4a8e"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "space",
       "slugTheme": "space",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-spazio-7391",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-spazio-7391"
       ],
@@ -627,14 +626,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-spazio-7391"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "spring",
       "slugTheme": "spring",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-primavera-412a",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-primavera-412a"
       ],
@@ -643,14 +642,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-primavera-412a"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "summer",
       "slugTheme": "summer",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-estate-faa6",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-estate-faa6"
       ],
@@ -659,14 +658,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-estate-faa6"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "thanksgivinng",
       "slugTheme": "thanksgivinng",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-giorno-del-ringraziamento-f243",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-giorno-del-ringraziamento-f243"
       ],
@@ -675,14 +674,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-giorno-del-ringraziamento-f243"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "things_that_fly",
       "slugTheme": "things-that-fly",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-cose-che-volano-962c",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-cose-che-volano-962c"
       ],
@@ -691,14 +690,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-cose-che-volano-962c"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "tools",
       "slugTheme": "tools",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-attrezzi-e36a",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-attrezzi-e36a"
       ],
@@ -707,14 +706,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-attrezzi-e36a"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "toys",
       "slugTheme": "toys",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-giocattoli-eb90",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-giocattoli-eb90"
       ],
@@ -723,14 +722,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-giocattoli-eb90"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "tree",
       "slugTheme": "tree",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-alberi-d1a9",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-alberi-d1a9"
       ],
@@ -739,14 +738,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-alberi-d1a9"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "vegetables",
       "slugTheme": "vegetables",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-verdure-f8f2",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-verdure-f8f2"
       ],
@@ -755,14 +754,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-verdure-f8f2"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "vehicles",
       "slugTheme": "vehicles",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-veicoli-1734",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-veicoli-1734"
       ],
@@ -771,14 +770,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-veicoli-1734"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "weather",
       "slugTheme": "weather",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-meteo-4e62",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-meteo-4e62"
       ],
@@ -787,14 +786,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-meteo-4e62"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "winter",
       "slugTheme": "winter",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-inverno-df3a",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-inverno-df3a"
       ],
@@ -803,14 +802,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-inverno-df3a"
     },
     {
       "mode": "cardinal-arrows",
       "theme": "zoo_animals",
       "slugTheme": "zoo-animals",
       "n": 1,
-      "canonical": "caccia-al-tesoro-su-giu-sinistra-destra-animali-dello-zoo-ee25",
       "siblings": [
         "caccia-al-tesoro-su-giu-sinistra-destra-animali-dello-zoo-ee25"
       ],
@@ -819,14 +818,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-su-giu-sinistra-destra-animali-dello-zoo-ee25"
     },
     {
       "mode": "compass",
       "theme": "accessories",
       "slugTheme": "accessories",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-accessori-9abc",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-accessori-9abc"
       ],
@@ -835,14 +834,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-accessori-9abc"
     },
     {
       "mode": "compass",
       "theme": "activities",
       "slugTheme": "activities",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-attivita-7bd2",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-attivita-7bd2"
       ],
@@ -851,14 +850,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-attivita-7bd2"
     },
     {
       "mode": "compass",
       "theme": "animals",
       "slugTheme": "animals",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-animali-e8c8",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-animali-e8c8"
       ],
@@ -867,14 +866,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-animali-e8c8"
     },
     {
       "mode": "compass",
       "theme": "around_the_house",
       "slugTheme": "around-the-house",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-in-giro-per-casa-f061",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-in-giro-per-casa-f061"
       ],
@@ -883,14 +882,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-in-giro-per-casa-f061"
     },
     {
       "mode": "compass",
       "theme": "at_the_supermarket",
       "slugTheme": "at-the-supermarket",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-al-supermercato-9d84",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-al-supermercato-9d84"
       ],
@@ -899,14 +898,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-al-supermercato-9d84"
     },
     {
       "mode": "compass",
       "theme": "bakery",
       "slugTheme": "bakery",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-panetteria-7db1",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-panetteria-7db1"
       ],
@@ -915,14 +914,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-panetteria-7db1"
     },
     {
       "mode": "compass",
       "theme": "beach",
       "slugTheme": "beach",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-spiaggia-0bd9",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-spiaggia-0bd9"
       ],
@@ -931,14 +930,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-spiaggia-0bd9"
     },
     {
       "mode": "compass",
       "theme": "birds",
       "slugTheme": "birds",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-uccelli-db02",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-uccelli-db02"
       ],
@@ -947,14 +946,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-uccelli-db02"
     },
     {
       "mode": "compass",
       "theme": "birds_2",
       "slugTheme": "birds-2",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-uccelli-2-86f0",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-uccelli-2-86f0"
       ],
@@ -963,14 +962,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-uccelli-2-86f0"
     },
     {
       "mode": "compass",
       "theme": "body_parts",
       "slugTheme": "body-parts",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-parti-del-corpo-9279",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-parti-del-corpo-9279"
       ],
@@ -979,14 +978,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-parti-del-corpo-9279"
     },
     {
       "mode": "compass",
       "theme": "breakfast",
       "slugTheme": "breakfast",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-colazione-ecc8",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-colazione-ecc8"
       ],
@@ -995,14 +994,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-colazione-ecc8"
     },
     {
       "mode": "compass",
       "theme": "camping",
       "slugTheme": "camping",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-campeggio-1be7",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-campeggio-1be7"
       ],
@@ -1011,14 +1010,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-campeggio-1be7"
     },
     {
       "mode": "compass",
       "theme": "christmas",
       "slugTheme": "christmas",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-natale-8c88",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-natale-8c88"
       ],
@@ -1027,14 +1026,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-natale-8c88"
     },
     {
       "mode": "compass",
       "theme": "classroom",
       "slugTheme": "classroom",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-aula-d824",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-aula-d824"
       ],
@@ -1043,14 +1042,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-aula-d824"
     },
     {
       "mode": "compass",
       "theme": "clothing",
       "slugTheme": "clothing",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-abbigliamento-8551",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-abbigliamento-8551"
       ],
@@ -1059,14 +1058,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-abbigliamento-8551"
     },
     {
       "mode": "compass",
       "theme": "colors",
       "slugTheme": "colors",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-colori-e14a",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-colori-e14a"
       ],
@@ -1075,14 +1074,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-colori-e14a"
     },
     {
       "mode": "compass",
       "theme": "desserts_and_sweets",
       "slugTheme": "desserts-and-sweets",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-dolci-e-dolciumi-bf06",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-dolci-e-dolciumi-bf06"
       ],
@@ -1091,14 +1090,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-dolci-e-dolciumi-bf06"
     },
     {
       "mode": "compass",
       "theme": "dinosaurs",
       "slugTheme": "dinosaurs",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-dinosauri-917c",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-dinosauri-917c"
       ],
@@ -1107,14 +1106,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-dinosauri-917c"
     },
     {
       "mode": "compass",
       "theme": "easter",
       "slugTheme": "easter",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-pasqua-2e27",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-pasqua-2e27"
       ],
@@ -1123,14 +1122,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-pasqua-2e27"
     },
     {
       "mode": "compass",
       "theme": "emotions",
       "slugTheme": "emotions",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-emozioni-555d",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-emozioni-555d"
       ],
@@ -1139,14 +1138,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-emozioni-555d"
     },
     {
       "mode": "compass",
       "theme": "farm_animals",
       "slugTheme": "farm-animals",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-animali-della-fattoria-469f",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-animali-della-fattoria-469f"
       ],
@@ -1155,14 +1154,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-animali-della-fattoria-469f"
     },
     {
       "mode": "compass",
       "theme": "flowers",
       "slugTheme": "flowers",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-fiori-de51",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-fiori-de51"
       ],
@@ -1171,14 +1170,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-fiori-de51"
     },
     {
       "mode": "compass",
       "theme": "forest_creatures",
       "slugTheme": "forest-creatures",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-creature-della-foresta-1fe8",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-creature-della-foresta-1fe8"
       ],
@@ -1187,14 +1186,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-creature-della-foresta-1fe8"
     },
     {
       "mode": "compass",
       "theme": "fruits",
       "slugTheme": "fruits",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-frutta-ab06",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-frutta-ab06"
       ],
@@ -1203,14 +1202,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-frutta-ab06"
     },
     {
       "mode": "compass",
       "theme": "furniture",
       "slugTheme": "furniture",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-mobili-1618",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-mobili-1618"
       ],
@@ -1219,14 +1218,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-mobili-1618"
     },
     {
       "mode": "compass",
       "theme": "hospital",
       "slugTheme": "hospital",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-ospedale-f782",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-ospedale-f782"
       ],
@@ -1235,14 +1234,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-ospedale-f782"
     },
     {
       "mode": "compass",
       "theme": "insects_and_bugs",
       "slugTheme": "insects-and-bugs",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-insetti-e-scarafaggi-9e7b",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-insetti-e-scarafaggi-9e7b"
       ],
@@ -1251,14 +1250,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-insetti-e-scarafaggi-9e7b"
     },
     {
       "mode": "compass",
       "theme": "kitchen_tools",
       "slugTheme": "kitchen-tools",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-utensili-da-cucina-e30d",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-utensili-da-cucina-e30d"
       ],
@@ -1267,14 +1266,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-utensili-da-cucina-e30d"
     },
     {
       "mode": "compass",
       "theme": "music",
       "slugTheme": "music",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-musica-1af0",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-musica-1af0"
       ],
@@ -1283,14 +1282,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-musica-1af0"
     },
     {
       "mode": "compass",
       "theme": "occupations",
       "slugTheme": "occupations",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-professioni-dec9",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-professioni-dec9"
       ],
@@ -1299,14 +1298,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-professioni-dec9"
     },
     {
       "mode": "compass",
       "theme": "ocean_life",
       "slugTheme": "ocean-life",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-vita-oceanica-238c",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-vita-oceanica-238c"
       ],
@@ -1315,14 +1314,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-vita-oceanica-238c"
     },
     {
       "mode": "compass",
       "theme": "pets",
       "slugTheme": "pets",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-animali-domestici-d23d",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-animali-domestici-d23d"
       ],
@@ -1331,14 +1330,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-animali-domestici-d23d"
     },
     {
       "mode": "compass",
       "theme": "post_office",
       "slugTheme": "post-office",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-ufficio-postale-8c86",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-ufficio-postale-8c86"
       ],
@@ -1347,14 +1346,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-ufficio-postale-8c86"
     },
     {
       "mode": "compass",
       "theme": "shapes",
       "slugTheme": "shapes",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-forme-3e03",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-forme-3e03"
       ],
@@ -1363,14 +1362,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-forme-3e03"
     },
     {
       "mode": "compass",
       "theme": "space",
       "slugTheme": "space",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-spazio-781c",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-spazio-781c"
       ],
@@ -1379,14 +1378,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-spazio-781c"
     },
     {
       "mode": "compass",
       "theme": "spring",
       "slugTheme": "spring",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-primavera-d728",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-primavera-d728"
       ],
@@ -1395,14 +1394,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-primavera-d728"
     },
     {
       "mode": "compass",
       "theme": "summer",
       "slugTheme": "summer",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-estate-504b",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-estate-504b"
       ],
@@ -1411,14 +1410,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-estate-504b"
     },
     {
       "mode": "compass",
       "theme": "thanksgivinng",
       "slugTheme": "thanksgivinng",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-giorno-del-ringraziamento-4856",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-giorno-del-ringraziamento-4856"
       ],
@@ -1427,14 +1426,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-giorno-del-ringraziamento-4856"
     },
     {
       "mode": "compass",
       "theme": "things_that_fly",
       "slugTheme": "things-that-fly",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-cose-che-volano-f973",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-cose-che-volano-f973"
       ],
@@ -1443,14 +1442,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-cose-che-volano-f973"
     },
     {
       "mode": "compass",
       "theme": "tools",
       "slugTheme": "tools",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-attrezzi-0f8f",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-attrezzi-0f8f"
       ],
@@ -1459,14 +1458,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-attrezzi-0f8f"
     },
     {
       "mode": "compass",
       "theme": "toys",
       "slugTheme": "toys",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-giocattoli-dd82",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-giocattoli-dd82"
       ],
@@ -1475,14 +1474,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-giocattoli-dd82"
     },
     {
       "mode": "compass",
       "theme": "tree",
       "slugTheme": "tree",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-alberi-1c8a",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-alberi-1c8a"
       ],
@@ -1491,14 +1490,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-alberi-1c8a"
     },
     {
       "mode": "compass",
       "theme": "vegetables",
       "slugTheme": "vegetables",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-verdure-8e5e",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-verdure-8e5e"
       ],
@@ -1507,14 +1506,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-verdure-8e5e"
     },
     {
       "mode": "compass",
       "theme": "vehicles",
       "slugTheme": "vehicles",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-veicoli-7d9f",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-veicoli-7d9f"
       ],
@@ -1523,14 +1522,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-veicoli-7d9f"
     },
     {
       "mode": "compass",
       "theme": "weather",
       "slugTheme": "weather",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-meteo-7718",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-meteo-7718"
       ],
@@ -1539,14 +1538,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-meteo-7718"
     },
     {
       "mode": "compass",
       "theme": "winter",
       "slugTheme": "winter",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-inverno-00bc",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-inverno-00bc"
       ],
@@ -1555,14 +1554,14 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-inverno-00bc"
     },
     {
       "mode": "compass",
       "theme": "zoo_animals",
       "slugTheme": "zoo-animals",
       "n": 1,
-      "canonical": "caccia-al-tesoro-punti-cardinali-animali-dello-zoo-ab03",
       "siblings": [
         "caccia-al-tesoro-punti-cardinali-animali-dello-zoo-ab03"
       ],
@@ -1571,7 +1570,8 @@
       ],
       "valid": true,
       "gate": "readiness",
-      "level": "infanzia"
+      "level": "infanzia",
+      "canonicalDeckSlug": "caccia-al-tesoro-punti-cardinali-animali-dello-zoo-ab03"
     }
   ]
 }

@@ -1,0 +1,1482 @@
+{
+  "locale": "no",
+  "exerciseType": "word-guess",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 96,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "easy": 47,
+    "normal": 47
+  },
+  "totalValid": 94,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "easy",
+    "normal"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "easy",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-tilbehor-f104",
+      "siblings": [
+        "gjett-ordet-lett-tilbehor-f104"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-aktiviteter-bfc4",
+      "siblings": [
+        "gjett-ordet-lett-aktiviteter-bfc4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-dyr-e720",
+      "siblings": [
+        "gjett-ordet-lett-dyr-e720"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-rundt-i-huset-0538",
+      "siblings": [
+        "gjett-ordet-lett-rundt-i-huset-0538"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-i-supermarkedet-47c9",
+      "siblings": [
+        "gjett-ordet-lett-i-supermarkedet-47c9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-bakeri-b6cd",
+      "siblings": [
+        "gjett-ordet-lett-bakeri-b6cd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-strand-fa0a",
+      "siblings": [
+        "gjett-ordet-lett-strand-fa0a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-fugler-4cdf",
+      "siblings": [
+        "gjett-ordet-lett-fugler-4cdf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-fugler-2-2b89",
+      "siblings": [
+        "gjett-ordet-lett-fugler-2-2b89"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-kroppsdeler-51d6",
+      "siblings": [
+        "gjett-ordet-lett-kroppsdeler-51d6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-frokost-4fcd",
+      "siblings": [
+        "gjett-ordet-lett-frokost-4fcd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-camping-5b46",
+      "siblings": [
+        "gjett-ordet-lett-camping-5b46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-jul-8b34",
+      "siblings": [
+        "gjett-ordet-lett-jul-8b34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-klasserom-e93c",
+      "siblings": [
+        "gjett-ordet-lett-klasserom-e93c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-klaer-7ef7",
+      "siblings": [
+        "gjett-ordet-lett-klaer-7ef7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-farger-835c",
+      "siblings": [
+        "gjett-ordet-lett-farger-835c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-desserter-og-godteri-642e",
+      "siblings": [
+        "gjett-ordet-lett-desserter-og-godteri-642e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-paske-96b6",
+      "siblings": [
+        "gjett-ordet-lett-paske-96b6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-folelser-b201",
+      "siblings": [
+        "gjett-ordet-lett-folelser-b201"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-gardsdyr-1ec1",
+      "siblings": [
+        "gjett-ordet-lett-gardsdyr-1ec1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-blomster-3647",
+      "siblings": [
+        "gjett-ordet-lett-blomster-3647"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-skogsdyr-2b96",
+      "siblings": [
+        "gjett-ordet-lett-skogsdyr-2b96"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-frukter-f3cc",
+      "siblings": [
+        "gjett-ordet-lett-frukter-f3cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-mobler-2fb1",
+      "siblings": [
+        "gjett-ordet-lett-mobler-2fb1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-sykehus-02f4",
+      "siblings": [
+        "gjett-ordet-lett-sykehus-02f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-insekter-og-kryp-d3ba",
+      "siblings": [
+        "gjett-ordet-lett-insekter-og-kryp-d3ba"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-kjokkenredskaper-e566",
+      "siblings": [
+        "gjett-ordet-lett-kjokkenredskaper-e566"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-musikk-58f5",
+      "siblings": [
+        "gjett-ordet-lett-musikk-58f5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-yrker-cf3f",
+      "siblings": [
+        "gjett-ordet-lett-yrker-cf3f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-havliv-939e",
+      "siblings": [
+        "gjett-ordet-lett-havliv-939e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-kjaeledyr-d792",
+      "siblings": [
+        "gjett-ordet-lett-kjaeledyr-d792"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-postkontor-589b",
+      "siblings": [
+        "gjett-ordet-lett-postkontor-589b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-reptiler-og-amfibier-07e3",
+      "siblings": [
+        "gjett-ordet-lett-reptiler-og-amfibier-07e3"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-former-d58d",
+      "siblings": [
+        "gjett-ordet-lett-former-d58d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-verdensrommet-c610",
+      "siblings": [
+        "gjett-ordet-lett-verdensrommet-c610"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-var-ec4b",
+      "siblings": [
+        "gjett-ordet-lett-var-ec4b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-sommer-c3dc",
+      "siblings": [
+        "gjett-ordet-lett-sommer-c3dc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-thanksgiving-2ff2",
+      "siblings": [
+        "gjett-ordet-lett-thanksgiving-2ff2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-ting-som-flyr-bb12",
+      "siblings": [
+        "gjett-ordet-lett-ting-som-flyr-bb12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-verktoy-ba24",
+      "siblings": [
+        "gjett-ordet-lett-verktoy-ba24"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-leker-ace5",
+      "siblings": [
+        "gjett-ordet-lett-leker-ace5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-traer-7f27",
+      "siblings": [
+        "gjett-ordet-lett-traer-7f27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-gronnsaker-597a",
+      "siblings": [
+        "gjett-ordet-lett-gronnsaker-597a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-kjoretoy-5baf",
+      "siblings": [
+        "gjett-ordet-lett-kjoretoy-5baf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-vaer-6c36",
+      "siblings": [
+        "gjett-ordet-lett-vaer-6c36"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-vinter-cf8a",
+      "siblings": [
+        "gjett-ordet-lett-vinter-cf8a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "easy",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gjett-ordet-lett-dyrehagedyr-f55a",
+      "siblings": [
+        "gjett-ordet-lett-dyrehagedyr-f55a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-tilbehor-7718",
+      "siblings": [
+        "gjett-ordet-normal-tilbehor-7718"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-aktiviteter-2b3e",
+      "siblings": [
+        "gjett-ordet-normal-aktiviteter-2b3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-dyr-fb76",
+      "siblings": [
+        "gjett-ordet-normal-dyr-fb76"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-rundt-i-huset-492d",
+      "siblings": [
+        "gjett-ordet-normal-rundt-i-huset-492d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-i-supermarkedet-2514",
+      "siblings": [
+        "gjett-ordet-normal-i-supermarkedet-2514"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-bakeri-bed5",
+      "siblings": [
+        "gjett-ordet-normal-bakeri-bed5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-strand-5669",
+      "siblings": [
+        "gjett-ordet-normal-strand-5669"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-fugler-b5ee",
+      "siblings": [
+        "gjett-ordet-normal-fugler-b5ee"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-fugler-2-ee65",
+      "siblings": [
+        "gjett-ordet-normal-fugler-2-ee65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-kroppsdeler-9bdb",
+      "siblings": [
+        "gjett-ordet-normal-kroppsdeler-9bdb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-frokost-edab",
+      "siblings": [
+        "gjett-ordet-normal-frokost-edab"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-camping-7b47",
+      "siblings": [
+        "gjett-ordet-normal-camping-7b47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-jul-6795",
+      "siblings": [
+        "gjett-ordet-normal-jul-6795"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-klasserom-5e20",
+      "siblings": [
+        "gjett-ordet-normal-klasserom-5e20"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-klaer-24ea",
+      "siblings": [
+        "gjett-ordet-normal-klaer-24ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-farger-85bb",
+      "siblings": [
+        "gjett-ordet-normal-farger-85bb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-desserter-og-godteri-0685",
+      "siblings": [
+        "gjett-ordet-normal-desserter-og-godteri-0685"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-paske-7362",
+      "siblings": [
+        "gjett-ordet-normal-paske-7362"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-folelser-6f02",
+      "siblings": [
+        "gjett-ordet-normal-folelser-6f02"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-gardsdyr-fd27",
+      "siblings": [
+        "gjett-ordet-normal-gardsdyr-fd27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-blomster-5589",
+      "siblings": [
+        "gjett-ordet-normal-blomster-5589"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-skogsdyr-faef",
+      "siblings": [
+        "gjett-ordet-normal-skogsdyr-faef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-frukter-e7e2",
+      "siblings": [
+        "gjett-ordet-normal-frukter-e7e2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-mobler-df7c",
+      "siblings": [
+        "gjett-ordet-normal-mobler-df7c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-sykehus-e2e8",
+      "siblings": [
+        "gjett-ordet-normal-sykehus-e2e8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-insekter-og-kryp-d815",
+      "siblings": [
+        "gjett-ordet-normal-insekter-og-kryp-d815"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-kjokkenredskaper-fb4f",
+      "siblings": [
+        "gjett-ordet-normal-kjokkenredskaper-fb4f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-musikk-de69",
+      "siblings": [
+        "gjett-ordet-normal-musikk-de69"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-yrker-b7e6",
+      "siblings": [
+        "gjett-ordet-normal-yrker-b7e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-havliv-2e51",
+      "siblings": [
+        "gjett-ordet-normal-havliv-2e51"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-kjaeledyr-c134",
+      "siblings": [
+        "gjett-ordet-normal-kjaeledyr-c134"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-postkontor-db57",
+      "siblings": [
+        "gjett-ordet-normal-postkontor-db57"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-reptiler-og-amfibier-4436",
+      "siblings": [
+        "gjett-ordet-normal-reptiler-og-amfibier-4436"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-former-467d",
+      "siblings": [
+        "gjett-ordet-normal-former-467d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-verdensrommet-4e85",
+      "siblings": [
+        "gjett-ordet-normal-verdensrommet-4e85"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-var-ba21",
+      "siblings": [
+        "gjett-ordet-normal-var-ba21"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-sommer-d69e",
+      "siblings": [
+        "gjett-ordet-normal-sommer-d69e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-thanksgiving-e10b",
+      "siblings": [
+        "gjett-ordet-normal-thanksgiving-e10b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-ting-som-flyr-d723",
+      "siblings": [
+        "gjett-ordet-normal-ting-som-flyr-d723"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-verktoy-f533",
+      "siblings": [
+        "gjett-ordet-normal-verktoy-f533"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-leker-f354",
+      "siblings": [
+        "gjett-ordet-normal-leker-f354"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-traer-9d44",
+      "siblings": [
+        "gjett-ordet-normal-traer-9d44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-gronnsaker-43e6",
+      "siblings": [
+        "gjett-ordet-normal-gronnsaker-43e6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-kjoretoy-e2bd",
+      "siblings": [
+        "gjett-ordet-normal-kjoretoy-e2bd"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-vaer-7178",
+      "siblings": [
+        "gjett-ordet-normal-vaer-7178"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-vinter-6047",
+      "siblings": [
+        "gjett-ordet-normal-vinter-6047"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "normal",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "gjett-ordet-normal-dyrehagedyr-4a18",
+      "siblings": [
+        "gjett-ordet-normal-dyrehagedyr-4a18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

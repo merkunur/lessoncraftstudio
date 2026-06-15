@@ -69,12 +69,12 @@ const TYPE_MAP = {
   'picture-trail': { op: 'Labyrint', qual: {} },
   'picture-sort':  { op: 'Sorter bildene', qual: {} },
   'alphabet-train':{ op: 'Alfabetisk rekkefølge', qual: {} },
-  matching:        { op: { letter: 'Forlyd og bokstaver', name: 'Les og koble' }, qual: {} },
+  matching:        { op: { letter: 'Første lyd og bokstav', name: 'Les og koble' }, qual: {} },
   prepositions:    { op: 'Preposisjoner', qual: { fillin: 'skriv ordet', multiplechoice: 'sett kryss' } },
   'word-guess':    { op: 'Manglende bokstaver', qual: { 'null': 'blandet øvelse', easy: 'korte ord', normal: 'lengre ord' } },
-  'word-scramble': { op: 'Lag ordet', qual: { easy: 'korte ord', normal: 'lengre ord' } },
+  'word-scramble': { op: 'Stokk om bokstavene', qual: { easy: 'korte ord', normal: 'lengre ord' } },
   wordsearch:      { op: 'Ordsøk', qual: {} },
-  crossword:       { op: 'Kryssord for barn', qual: { 'null': 'med bilder' } },
+  crossword:       { op: 'Bildekryssord', qual: {} },
   'treasure-hunt': { op: 'Skattejakt', qual: { 'cardinal-arrows': 'med piler', compass: 'med kompass' } },
 };
 
@@ -123,10 +123,12 @@ function resolveQual(map, mode) { const k = (mode === null ? 'null' : mode); ret
 // GRADE-LED: numeric types carry the [N]. trinn label (from the per-coordinate re-grade); non-numeric
 // (readiness + literacy) carry NO trinn number in the title (ledger Pattern B).
 function gradeFor(type, level) {
-  // numeric types + code-addition (operator: grade-led-no-range) carry the [N]. trinn label;
-  // code-addition stays OUT of NUMERIC_TYPES so it keeps TAIL_OTHER + no no-carry.
-  if (!NUMERIC_TYPES.has(type) && type !== 'code-addition') return '';
-  return GRADE_LABEL[level] || '';
+  // LEVEL-DRIVEN (Wave D): grade-led iff the coordinate is standard-bearing (2./3. trinn);
+  // readiness (1-trinn) stays Pattern B (no grade). Byte-identical to the old type-driven rule
+  // for Waves A/B (all 1-trinn → '') and C (all 2-/3-trinn → grade). NUMERIC types still use
+  // TAIL_NUMERIC; non-numeric standard-bearing (code-addition, literacy) keep TAIL_OTHER.
+  if (level === '2-trinn' || level === '3-trinn') return GRADE_LABEL[level] || '';
+  return '';
 }
 // operation-distinct no-carry, honest only on the within-10 band + direct modes.
 function noCarryFor(type, mode, standard) {

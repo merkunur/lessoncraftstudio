@@ -1,0 +1,1499 @@
+{
+  "locale": "no",
+  "exerciseType": "prepositions",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 98,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "fillin": 47,
+    "multiplechoice": 48
+  },
+  "totalValid": 95,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "fillin",
+    "multiplechoice"
+  ],
+  "collapsedFamilies": 1,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": "fillin",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-tilbehor-e68c",
+      "siblings": [
+        "preposisjoner-fyll-inn-tilbehor-e68c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-aktiviteter-557e",
+      "siblings": [
+        "preposisjoner-fyll-inn-aktiviteter-557e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-dyr-e062",
+      "siblings": [
+        "preposisjoner-fyll-inn-dyr-e062"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-rundt-i-huset-5029",
+      "siblings": [
+        "preposisjoner-fyll-inn-rundt-i-huset-5029"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-i-supermarkedet-d480",
+      "siblings": [
+        "preposisjoner-fyll-inn-i-supermarkedet-d480"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-bakeri-be3e",
+      "siblings": [
+        "preposisjoner-fyll-inn-bakeri-be3e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-strand-3bef",
+      "siblings": [
+        "preposisjoner-fyll-inn-strand-3bef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-fugler-52db",
+      "siblings": [
+        "preposisjoner-fyll-inn-fugler-52db"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-fugler-2-5e90",
+      "siblings": [
+        "preposisjoner-fyll-inn-fugler-2-5e90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-kroppsdeler-3206",
+      "siblings": [
+        "preposisjoner-fyll-inn-kroppsdeler-3206"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-frokost-0e3c",
+      "siblings": [
+        "preposisjoner-fyll-inn-frokost-0e3c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-camping-5d44",
+      "siblings": [
+        "preposisjoner-fyll-inn-camping-5d44"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-jul-689a",
+      "siblings": [
+        "preposisjoner-fyll-inn-jul-689a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-klasserom-6462",
+      "siblings": [
+        "preposisjoner-fyll-inn-klasserom-6462"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-klaer-724a",
+      "siblings": [
+        "preposisjoner-fyll-inn-klaer-724a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-farger-6c65",
+      "siblings": [
+        "preposisjoner-fyll-inn-farger-6c65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-desserter-og-godteri-830c",
+      "siblings": [
+        "preposisjoner-fyll-inn-desserter-og-godteri-830c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-dinosaurer-c8d1",
+      "siblings": [
+        "preposisjoner-fyll-inn-dinosaurer-c8d1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-paske-1ccc",
+      "siblings": [
+        "preposisjoner-fyll-inn-paske-1ccc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-folelser-e198",
+      "siblings": [
+        "preposisjoner-fyll-inn-folelser-e198"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-blomster-c32c",
+      "siblings": [
+        "preposisjoner-fyll-inn-blomster-c32c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-skogsdyr-4340",
+      "siblings": [
+        "preposisjoner-fyll-inn-skogsdyr-4340"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-frukter-f1aa",
+      "siblings": [
+        "preposisjoner-fyll-inn-frukter-f1aa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-mobler-80fb",
+      "siblings": [
+        "preposisjoner-fyll-inn-mobler-80fb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-sykehus-7647",
+      "siblings": [
+        "preposisjoner-fyll-inn-sykehus-7647"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-insekter-og-kryp-bf2c",
+      "siblings": [
+        "preposisjoner-fyll-inn-insekter-og-kryp-bf2c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-kjokkenredskaper-a611",
+      "siblings": [
+        "preposisjoner-fyll-inn-kjokkenredskaper-a611"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-musikk-9d4a",
+      "siblings": [
+        "preposisjoner-fyll-inn-musikk-9d4a"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-yrker-6868",
+      "siblings": [
+        "preposisjoner-fyll-inn-yrker-6868"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "preposisjoner-fyll-inn-havliv-b87e",
+      "siblings": [
+        "preposisjoner-fyll-inn-havliv-b87e",
+        "preposisjoner-fyll-inn-havliv-bf71"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-kjaeledyr-602c",
+      "siblings": [
+        "preposisjoner-fyll-inn-kjaeledyr-602c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-postkontor-c623",
+      "siblings": [
+        "preposisjoner-fyll-inn-postkontor-c623"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-reptiler-og-amfibier-72d5",
+      "siblings": [
+        "preposisjoner-fyll-inn-reptiler-og-amfibier-72d5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-former-96f2",
+      "siblings": [
+        "preposisjoner-fyll-inn-former-96f2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-verdensrommet-3ad1",
+      "siblings": [
+        "preposisjoner-fyll-inn-verdensrommet-3ad1"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-var-5e90",
+      "siblings": [
+        "preposisjoner-fyll-inn-var-5e90"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-sommer-c8f4",
+      "siblings": [
+        "preposisjoner-fyll-inn-sommer-c8f4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-thanksgiving-ac92",
+      "siblings": [
+        "preposisjoner-fyll-inn-thanksgiving-ac92"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-ting-som-flyr-ecda",
+      "siblings": [
+        "preposisjoner-fyll-inn-ting-som-flyr-ecda"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-verktoy-bcbb",
+      "siblings": [
+        "preposisjoner-fyll-inn-verktoy-bcbb"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-leker-f798",
+      "siblings": [
+        "preposisjoner-fyll-inn-leker-f798"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-traer-4d65",
+      "siblings": [
+        "preposisjoner-fyll-inn-traer-4d65"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-gronnsaker-bd46",
+      "siblings": [
+        "preposisjoner-fyll-inn-gronnsaker-bd46"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-kjoretoy-52e9",
+      "siblings": [
+        "preposisjoner-fyll-inn-kjoretoy-52e9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-vaer-7584",
+      "siblings": [
+        "preposisjoner-fyll-inn-vaer-7584"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-vinter-a1cc",
+      "siblings": [
+        "preposisjoner-fyll-inn-vinter-a1cc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "fillin",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "preposisjoner-fyll-inn-dyrehagedyr-d28d",
+      "siblings": [
+        "preposisjoner-fyll-inn-dyrehagedyr-d28d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-tilbehor-a1ce",
+      "siblings": [
+        "preposisjoner-flervalg-tilbehor-a1ce"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-aktiviteter-4dc9",
+      "siblings": [
+        "preposisjoner-flervalg-aktiviteter-4dc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-dyr-3d27",
+      "siblings": [
+        "preposisjoner-flervalg-dyr-3d27"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-rundt-i-huset-db47",
+      "siblings": [
+        "preposisjoner-flervalg-rundt-i-huset-db47"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-i-supermarkedet-daa4",
+      "siblings": [
+        "preposisjoner-flervalg-i-supermarkedet-daa4"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-bakeri-af9f",
+      "siblings": [
+        "preposisjoner-flervalg-bakeri-af9f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-strand-0375",
+      "siblings": [
+        "preposisjoner-flervalg-strand-0375"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-fugler-3578",
+      "siblings": [
+        "preposisjoner-flervalg-fugler-3578"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-fugler-2-1cf7",
+      "siblings": [
+        "preposisjoner-flervalg-fugler-2-1cf7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-kroppsdeler-136f",
+      "siblings": [
+        "preposisjoner-flervalg-kroppsdeler-136f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-frokost-adc5",
+      "siblings": [
+        "preposisjoner-flervalg-frokost-adc5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-camping-788f",
+      "siblings": [
+        "preposisjoner-flervalg-camping-788f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-jul-0109",
+      "siblings": [
+        "preposisjoner-flervalg-jul-0109"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-klasserom-9e12",
+      "siblings": [
+        "preposisjoner-flervalg-klasserom-9e12"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-klaer-edef",
+      "siblings": [
+        "preposisjoner-flervalg-klaer-edef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-farger-1352",
+      "siblings": [
+        "preposisjoner-flervalg-farger-1352"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-desserter-og-godteri-9ee7",
+      "siblings": [
+        "preposisjoner-flervalg-desserter-og-godteri-9ee7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-dinosaurer-6b1b",
+      "siblings": [
+        "preposisjoner-flervalg-dinosaurer-6b1b"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-paske-1d6e",
+      "siblings": [
+        "preposisjoner-flervalg-paske-1d6e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-folelser-778e",
+      "siblings": [
+        "preposisjoner-flervalg-folelser-778e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-gardsdyr-875f",
+      "siblings": [
+        "preposisjoner-flervalg-gardsdyr-875f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-blomster-872f",
+      "siblings": [
+        "preposisjoner-flervalg-blomster-872f"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-skogsdyr-99d8",
+      "siblings": [
+        "preposisjoner-flervalg-skogsdyr-99d8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-frukter-cc98",
+      "siblings": [
+        "preposisjoner-flervalg-frukter-cc98"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-mobler-2c18",
+      "siblings": [
+        "preposisjoner-flervalg-mobler-2c18"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-sykehus-c8ea",
+      "siblings": [
+        "preposisjoner-flervalg-sykehus-c8ea"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-insekter-og-kryp-5766",
+      "siblings": [
+        "preposisjoner-flervalg-insekter-og-kryp-5766"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-kjokkenredskaper-457d",
+      "siblings": [
+        "preposisjoner-flervalg-kjokkenredskaper-457d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-musikk-dd5d",
+      "siblings": [
+        "preposisjoner-flervalg-musikk-dd5d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-yrker-caaa",
+      "siblings": [
+        "preposisjoner-flervalg-yrker-caaa"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-havliv-c628",
+      "siblings": [
+        "preposisjoner-flervalg-havliv-c628"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-kjaeledyr-d6b8",
+      "siblings": [
+        "preposisjoner-flervalg-kjaeledyr-d6b8"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-postkontor-808e",
+      "siblings": [
+        "preposisjoner-flervalg-postkontor-808e"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-reptiler-og-amfibier-0ca5",
+      "siblings": [
+        "preposisjoner-flervalg-reptiler-og-amfibier-0ca5"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-former-a7fc",
+      "siblings": [
+        "preposisjoner-flervalg-former-a7fc"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-verdensrommet-bc34",
+      "siblings": [
+        "preposisjoner-flervalg-verdensrommet-bc34"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-var-3596",
+      "siblings": [
+        "preposisjoner-flervalg-var-3596"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-sommer-b5a7",
+      "siblings": [
+        "preposisjoner-flervalg-sommer-b5a7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-thanksgiving-a45d",
+      "siblings": [
+        "preposisjoner-flervalg-thanksgiving-a45d"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-ting-som-flyr-3cef",
+      "siblings": [
+        "preposisjoner-flervalg-ting-som-flyr-3cef"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-verktoy-43d7",
+      "siblings": [
+        "preposisjoner-flervalg-verktoy-43d7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-leker-24d2",
+      "siblings": [
+        "preposisjoner-flervalg-leker-24d2"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-traer-2539",
+      "siblings": [
+        "preposisjoner-flervalg-traer-2539"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-gronnsaker-00bf",
+      "siblings": [
+        "preposisjoner-flervalg-gronnsaker-00bf"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-kjoretoy-0ae7",
+      "siblings": [
+        "preposisjoner-flervalg-kjoretoy-0ae7"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-vaer-6ac6",
+      "siblings": [
+        "preposisjoner-flervalg-vaer-6ac6"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-vinter-cbc9",
+      "siblings": [
+        "preposisjoner-flervalg-vinter-cbc9"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": "multiplechoice",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "preposisjoner-flervalg-dyrehagedyr-4a6c",
+      "siblings": [
+        "preposisjoner-flervalg-dyrehagedyr-4a6c"
+      ],
+      "ageRanges": [
+        "5-7"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

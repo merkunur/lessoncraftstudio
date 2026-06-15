@@ -1,0 +1,1913 @@
+[
+ {
+  "slug": "tell-i-diagram-4-juli-c12b",
+  "themeKey": "4th_of_july",
+  "siblings": [
+   "tell-i-diagram-4-juli-c12b"
+  ],
+  "categories": [
+   {
+    "nounKey": "french-fries",
+    "locName": "Pommes Frites",
+    "count": 1
+   },
+   {
+    "nounKey": "grill",
+    "locName": "Grill",
+    "count": 5
+   },
+   {
+    "nounKey": "watermelon",
+    "locName": "Vannmelon",
+    "count": 3
+   },
+   {
+    "nounKey": "lemonade",
+    "locName": "Limonade",
+    "count": 2
+   },
+   {
+    "nounKey": "hotdog",
+    "locName": "Polse i Brod",
+    "count": 4
+   },
+   {
+    "nounKey": "statue",
+    "locName": "Statue",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-tilbehor-a40c",
+  "themeKey": "accessories",
+  "siblings": [
+   "tell-i-diagram-tilbehor-a40c"
+  ],
+  "categories": [
+   {
+    "nounKey": "watch",
+    "locName": "Klokke",
+    "count": 5
+   },
+   {
+    "nounKey": "rain-boots",
+    "locName": "Gummistøvler",
+    "count": 2
+   },
+   {
+    "nounKey": "sock",
+    "locName": "Sokk",
+    "count": 3
+   },
+   {
+    "nounKey": "mask",
+    "locName": "Maske",
+    "count": 5
+   },
+   {
+    "nounKey": "party-hat",
+    "locName": "Festlue",
+    "count": 3
+   },
+   {
+    "nounKey": "scarf",
+    "locName": "Skjerf",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-aktiviteter-a6c3",
+  "themeKey": "activities",
+  "siblings": [
+   "tell-i-diagram-aktiviteter-a6c3"
+  ],
+  "categories": [
+   {
+    "nounKey": "photography",
+    "locName": "Fotografering",
+    "count": 4
+   },
+   {
+    "nounKey": "sewing",
+    "locName": "Sy",
+    "count": 3
+   },
+   {
+    "nounKey": "reading",
+    "locName": "Lese",
+    "count": 3
+   },
+   {
+    "nounKey": "violin",
+    "locName": "Fiolin",
+    "count": 1
+   },
+   {
+    "nounKey": "picnic",
+    "locName": "Piknik",
+    "count": 5
+   },
+   {
+    "nounKey": "skating",
+    "locName": "Skøyteløping",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-dyr-40f2",
+  "themeKey": "animals",
+  "siblings": [
+   "tell-i-diagram-dyr-40f2"
+  ],
+  "categories": [
+   {
+    "nounKey": "pig",
+    "locName": "Gris",
+    "count": 3
+   },
+   {
+    "nounKey": "antelope",
+    "locName": "Antilope",
+    "count": 2
+   },
+   {
+    "nounKey": "dolphin",
+    "locName": "Delfin",
+    "count": 5
+   },
+   {
+    "nounKey": "moose",
+    "locName": "Elg",
+    "count": 3
+   },
+   {
+    "nounKey": "elephant",
+    "locName": "Elefant",
+    "count": 3
+   },
+   {
+    "nounKey": "fish",
+    "locName": "Fisk",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-rundt-i-huset-a597",
+  "themeKey": "around_the_house",
+  "siblings": [
+   "tell-i-diagram-rundt-i-huset-a597"
+  ],
+  "categories": [
+   {
+    "nounKey": "armchair",
+    "locName": "Lenestol",
+    "count": 2
+   },
+   {
+    "nounKey": "toothbrush",
+    "locName": "Tannbørste",
+    "count": 2
+   },
+   {
+    "nounKey": "stove",
+    "locName": "Komfyr",
+    "count": 5
+   },
+   {
+    "nounKey": "bed",
+    "locName": "Seng",
+    "count": 4
+   },
+   {
+    "nounKey": "heater",
+    "locName": "Varmeovn",
+    "count": 3
+   },
+   {
+    "nounKey": "toilet",
+    "locName": "Toalett",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-i-supermarkedet-8026",
+  "themeKey": "at_the_supermarket",
+  "siblings": [
+   "tell-i-diagram-i-supermarkedet-8026"
+  ],
+  "categories": [
+   {
+    "nounKey": "juice",
+    "locName": "Juice",
+    "count": 5
+   },
+   {
+    "nounKey": "mushroom",
+    "locName": "Sopp",
+    "count": 4
+   },
+   {
+    "nounKey": "sausage",
+    "locName": "Pølse",
+    "count": 3
+   },
+   {
+    "nounKey": "pear",
+    "locName": "Pære",
+    "count": 3
+   },
+   {
+    "nounKey": "apple",
+    "locName": "Eple",
+    "count": 4
+   },
+   {
+    "nounKey": "cereal",
+    "locName": "Frokostblanding",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-bakeri-36fe",
+  "themeKey": "bakery",
+  "siblings": [
+   "tell-i-diagram-bakeri-36fe"
+  ],
+  "categories": [
+   {
+    "nounKey": "doughnut",
+    "locName": "Smultring",
+    "count": 5
+   },
+   {
+    "nounKey": "waffle",
+    "locName": "Vaffel",
+    "count": 2
+   },
+   {
+    "nounKey": "pretzel",
+    "locName": "Kringle",
+    "count": 4
+   },
+   {
+    "nounKey": "cake",
+    "locName": "Kake",
+    "count": 5
+   },
+   {
+    "nounKey": "gingerbread-man",
+    "locName": "Pepperkakemann",
+    "count": 3
+   },
+   {
+    "nounKey": "cookie",
+    "locName": "Kjeks",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-strand-8fa7",
+  "themeKey": "beach",
+  "siblings": [
+   "tell-i-diagram-strand-8fa7"
+  ],
+  "categories": [
+   {
+    "nounKey": "bathing-suit",
+    "locName": "Badedrakt",
+    "count": 3
+   },
+   {
+    "nounKey": "bucket",
+    "locName": "Bøtte",
+    "count": 1
+   },
+   {
+    "nounKey": "fish",
+    "locName": "Fisk",
+    "count": 2
+   },
+   {
+    "nounKey": "snorkel",
+    "locName": "Snorkel",
+    "count": 5
+   },
+   {
+    "nounKey": "ice-cream",
+    "locName": "Iskrem",
+    "count": 5
+   },
+   {
+    "nounKey": "sunglasses",
+    "locName": "Solbriller",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-fugler-f187",
+  "themeKey": "birds",
+  "siblings": [
+   "tell-i-diagram-fugler-f187"
+  ],
+  "categories": [
+   {
+    "nounKey": "toucan",
+    "locName": "Tukan",
+    "count": 5
+   },
+   {
+    "nounKey": "macaw",
+    "locName": "Ara",
+    "count": 3
+   },
+   {
+    "nounKey": "penguin",
+    "locName": "Pingvin",
+    "count": 5
+   },
+   {
+    "nounKey": "peacock",
+    "locName": "Påfugl",
+    "count": 3
+   },
+   {
+    "nounKey": "hornbill",
+    "locName": "Nesehornsfugl",
+    "count": 2
+   },
+   {
+    "nounKey": "pelican",
+    "locName": "Pelikan",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-fugler-2-c83a",
+  "themeKey": "birds_2",
+  "siblings": [
+   "tell-i-diagram-fugler-2-c83a"
+  ],
+  "categories": [
+   {
+    "nounKey": "crow",
+    "locName": "Krake",
+    "count": 2
+   },
+   {
+    "nounKey": "hawk",
+    "locName": "Hauk",
+    "count": 5
+   },
+   {
+    "nounKey": "swan",
+    "locName": "Svane",
+    "count": 2
+   },
+   {
+    "nounKey": "ostrich",
+    "locName": "Struts",
+    "count": 3
+   },
+   {
+    "nounKey": "sparrow",
+    "locName": "Spurv",
+    "count": 4
+   },
+   {
+    "nounKey": "chicken",
+    "locName": "Kylling",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-kroppsdeler-125a",
+  "themeKey": "body_parts",
+  "siblings": [
+   "tell-i-diagram-kroppsdeler-125a"
+  ],
+  "categories": [
+   {
+    "nounKey": "head",
+    "locName": "Hode",
+    "count": 5
+   },
+   {
+    "nounKey": "arm",
+    "locName": "Arm",
+    "count": 1
+   },
+   {
+    "nounKey": "neck",
+    "locName": "Nakke",
+    "count": 4
+   },
+   {
+    "nounKey": "forehead",
+    "locName": "Panne",
+    "count": 2
+   },
+   {
+    "nounKey": "hair",
+    "locName": "Hår",
+    "count": 5
+   },
+   {
+    "nounKey": "foot",
+    "locName": "Fot",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-frokost-8c40",
+  "themeKey": "breakfast",
+  "siblings": [
+   "tell-i-diagram-frokost-8c40"
+  ],
+  "categories": [
+   {
+    "nounKey": "grapefruit",
+    "locName": "Grapefrukt",
+    "count": 2
+   },
+   {
+    "nounKey": "pancake",
+    "locName": "Pannekake",
+    "count": 5
+   },
+   {
+    "nounKey": "sausage",
+    "locName": "Pølse",
+    "count": 2
+   },
+   {
+    "nounKey": "donut",
+    "locName": "Smultring",
+    "count": 3
+   },
+   {
+    "nounKey": "milk",
+    "locName": "Melk",
+    "count": 3
+   },
+   {
+    "nounKey": "porridge",
+    "locName": "Grøt",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-camping-dae9",
+  "themeKey": "camping",
+  "siblings": [
+   "tell-i-diagram-camping-dae9"
+  ],
+  "categories": [
+   {
+    "nounKey": "compass",
+    "locName": "Kompass",
+    "count": 5
+   },
+   {
+    "nounKey": "camping-chair",
+    "locName": "Campingstol",
+    "count": 2
+   },
+   {
+    "nounKey": "oar",
+    "locName": "Åre",
+    "count": 3
+   },
+   {
+    "nounKey": "firefly",
+    "locName": "Ildflue",
+    "count": 5
+   },
+   {
+    "nounKey": "rock",
+    "locName": "Stein",
+    "count": 3
+   },
+   {
+    "nounKey": "rope",
+    "locName": "Tau",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-jul-4406",
+  "themeKey": "christmas",
+  "siblings": [
+   "tell-i-diagram-jul-4406"
+  ],
+  "categories": [
+   {
+    "nounKey": "candle",
+    "locName": "Stearinlys",
+    "count": 3
+   },
+   {
+    "nounKey": "santa",
+    "locName": "Julenissen",
+    "count": 3
+   },
+   {
+    "nounKey": "cookie",
+    "locName": "Kjeks",
+    "count": 3
+   },
+   {
+    "nounKey": "reindeer",
+    "locName": "Reinsdyr",
+    "count": 5
+   },
+   {
+    "nounKey": "nutcracker",
+    "locName": "Nøtteknekker",
+    "count": 2
+   },
+   {
+    "nounKey": "candy-cane",
+    "locName": "Sukkerstang",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-klasserom-8658",
+  "themeKey": "classroom",
+  "siblings": [
+   "tell-i-diagram-klasserom-8658"
+  ],
+  "categories": [
+   {
+    "nounKey": "backpack",
+    "locName": "Ryggsekk",
+    "count": 3
+   },
+   {
+    "nounKey": "stapler",
+    "locName": "Stiftemaskin",
+    "count": 2
+   },
+   {
+    "nounKey": "clock",
+    "locName": "Klokke",
+    "count": 3
+   },
+   {
+    "nounKey": "teacher",
+    "locName": "Lærer",
+    "count": 4
+   },
+   {
+    "nounKey": "scissors",
+    "locName": "Saks",
+    "count": 3
+   },
+   {
+    "nounKey": "chair",
+    "locName": "Stol",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-klaer-8692",
+  "themeKey": "clothing",
+  "siblings": [
+   "tell-i-diagram-klaer-8692"
+  ],
+  "categories": [
+   {
+    "nounKey": "scarf",
+    "locName": "Skjerf",
+    "count": 3
+   },
+   {
+    "nounKey": "blouse",
+    "locName": "Bluse",
+    "count": 5
+   },
+   {
+    "nounKey": "beanie",
+    "locName": "Lue",
+    "count": 2
+   },
+   {
+    "nounKey": "apron",
+    "locName": "Forkle",
+    "count": 5
+   },
+   {
+    "nounKey": "pants",
+    "locName": "Bukse",
+    "count": 3
+   },
+   {
+    "nounKey": "glove",
+    "locName": "Hanske",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-farger-305e",
+  "themeKey": "colors",
+  "siblings": [
+   "tell-i-diagram-farger-305e"
+  ],
+  "categories": [
+   {
+    "nounKey": "white",
+    "locName": "Hvit",
+    "count": 5
+   },
+   {
+    "nounKey": "orange",
+    "locName": "Appelsin",
+    "count": 2
+   },
+   {
+    "nounKey": "green",
+    "locName": "Grønn",
+    "count": 2
+   },
+   {
+    "nounKey": "brown",
+    "locName": "Brun",
+    "count": 2
+   },
+   {
+    "nounKey": "crimson",
+    "locName": "Karmosinrød",
+    "count": 4
+   },
+   {
+    "nounKey": "gray",
+    "locName": "Grå",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-desserter-og-godteri-9a85",
+  "themeKey": "desserts_and_sweets",
+  "siblings": [
+   "tell-i-diagram-desserter-og-godteri-9a85"
+  ],
+  "categories": [
+   {
+    "nounKey": "cupcake",
+    "locName": "Cupcake",
+    "count": 4
+   },
+   {
+    "nounKey": "gingerbread-man",
+    "locName": "Pepperkakemann",
+    "count": 3
+   },
+   {
+    "nounKey": "candy-cane",
+    "locName": "Sukkerstang",
+    "count": 5
+   },
+   {
+    "nounKey": "ice-cream",
+    "locName": "Iskrem",
+    "count": 2
+   },
+   {
+    "nounKey": "chocolate-bar",
+    "locName": "Sjokoladeplate",
+    "count": 3
+   },
+   {
+    "nounKey": "popsicle",
+    "locName": "Ispinne",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-dinosaurer-13d0",
+  "themeKey": "dinosaurs",
+  "siblings": [
+   "tell-i-diagram-dinosaurer-13d0"
+  ],
+  "categories": [
+   {
+    "nounKey": "parasaurolophus",
+    "locName": "Parasaurolophus",
+    "count": 3
+   },
+   {
+    "nounKey": "carnotaurus",
+    "locName": "Carnotaurus",
+    "count": 2
+   },
+   {
+    "nounKey": "stegosaurus",
+    "locName": "Stegosaurus",
+    "count": 5
+   },
+   {
+    "nounKey": "dimetrodon",
+    "locName": "Dimetrodon",
+    "count": 2
+   },
+   {
+    "nounKey": "ankylosaurus",
+    "locName": "Ankylosaurus",
+    "count": 5
+   },
+   {
+    "nounKey": "brachiosaurus",
+    "locName": "Brachiosaurus",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-paske-923e",
+  "themeKey": "easter",
+  "siblings": [
+   "tell-i-diagram-paske-923e"
+  ],
+  "categories": [
+   {
+    "nounKey": "carrot",
+    "locName": "Gulrot",
+    "count": 1
+   },
+   {
+    "nounKey": "jelly-beans",
+    "locName": "Gelébønner",
+    "count": 5
+   },
+   {
+    "nounKey": "basket",
+    "locName": "Kurv",
+    "count": 3
+   },
+   {
+    "nounKey": "rainbow",
+    "locName": "Regnbue",
+    "count": 3
+   },
+   {
+    "nounKey": "candy",
+    "locName": "Godteri",
+    "count": 4
+   },
+   {
+    "nounKey": "egg",
+    "locName": "Egg",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-folelser-fdd9",
+  "themeKey": "emotions",
+  "siblings": [
+   "tell-i-diagram-folelser-fdd9"
+  ],
+  "categories": [
+   {
+    "nounKey": "confused",
+    "locName": "Forvirret",
+    "count": 3
+   },
+   {
+    "nounKey": "content",
+    "locName": "Fornøyd",
+    "count": 4
+   },
+   {
+    "nounKey": "bored",
+    "locName": "Kjeda",
+    "count": 3
+   },
+   {
+    "nounKey": "disgusted",
+    "locName": "Kvalm",
+    "count": 3
+   },
+   {
+    "nounKey": "surprised",
+    "locName": "Overrasket",
+    "count": 4
+   },
+   {
+    "nounKey": "sceptical",
+    "locName": "Skeptisk",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-gardsdyr-43e7",
+  "themeKey": "farm_animals",
+  "siblings": [
+   "tell-i-diagram-gardsdyr-43e7"
+  ],
+  "categories": [
+   {
+    "nounKey": "cat",
+    "locName": "Katt",
+    "count": 1
+   },
+   {
+    "nounKey": "duck",
+    "locName": "And",
+    "count": 3
+   },
+   {
+    "nounKey": "turkey",
+    "locName": "Kalkun",
+    "count": 2
+   },
+   {
+    "nounKey": "rooster",
+    "locName": "Hane",
+    "count": 4
+   },
+   {
+    "nounKey": "foal",
+    "locName": "Føll",
+    "count": 5
+   },
+   {
+    "nounKey": "lamb",
+    "locName": "Lam",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-blomster-899e",
+  "themeKey": "flowers",
+  "siblings": [
+   "tell-i-diagram-blomster-899e"
+  ],
+  "categories": [
+   {
+    "nounKey": "aster",
+    "locName": "Asters",
+    "count": 4
+   },
+   {
+    "nounKey": "wisteria",
+    "locName": "Blåregn",
+    "count": 4
+   },
+   {
+    "nounKey": "zinnia",
+    "locName": "Zinnia",
+    "count": 4
+   },
+   {
+    "nounKey": "peony",
+    "locName": "Peon",
+    "count": 3
+   },
+   {
+    "nounKey": "cherry-blossom",
+    "locName": "Kirsebærblomst",
+    "count": 1
+   },
+   {
+    "nounKey": "sunflower",
+    "locName": "Solsikke",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-skogsdyr-4b34",
+  "themeKey": "forest_creatures",
+  "siblings": [
+   "tell-i-diagram-skogsdyr-4b34"
+  ],
+  "categories": [
+   {
+    "nounKey": "lizard",
+    "locName": "Øgle",
+    "count": 2
+   },
+   {
+    "nounKey": "blue-jay",
+    "locName": "Blåskrike",
+    "count": 3
+   },
+   {
+    "nounKey": "gopher",
+    "locName": "Jordekorn",
+    "count": 4
+   },
+   {
+    "nounKey": "ant",
+    "locName": "Maur",
+    "count": 3
+   },
+   {
+    "nounKey": "earthworm",
+    "locName": "Meitemark",
+    "count": 5
+   },
+   {
+    "nounKey": "bear",
+    "locName": "Bjørn",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-frukter-bb67",
+  "themeKey": "fruits",
+  "siblings": [
+   "tell-i-diagram-frukter-bb67"
+  ],
+  "categories": [
+   {
+    "nounKey": "lime",
+    "locName": "Lime",
+    "count": 2
+   },
+   {
+    "nounKey": "avocado",
+    "locName": "Avokado",
+    "count": 3
+   },
+   {
+    "nounKey": "mango",
+    "locName": "Mango",
+    "count": 3
+   },
+   {
+    "nounKey": "lemon",
+    "locName": "Sitron",
+    "count": 4
+   },
+   {
+    "nounKey": "persimmon",
+    "locName": "Kaki",
+    "count": 3
+   },
+   {
+    "nounKey": "kiwi",
+    "locName": "Kiwi",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-mobler-211f",
+  "themeKey": "furniture",
+  "siblings": [
+   "tell-i-diagram-mobler-211f"
+  ],
+  "categories": [
+   {
+    "nounKey": "curtains",
+    "locName": "Gardiner",
+    "count": 3
+   },
+   {
+    "nounKey": "sofa",
+    "locName": "Sofa",
+    "count": 5
+   },
+   {
+    "nounKey": "couch",
+    "locName": "Sofa",
+    "count": 5
+   },
+   {
+    "nounKey": "armchair",
+    "locName": "Lenestol",
+    "count": 4
+   },
+   {
+    "nounKey": "lamp",
+    "locName": "Lampe",
+    "count": 5
+   },
+   {
+    "nounKey": "rocker",
+    "locName": "Gyngestol",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-sykehus-6a94",
+  "themeKey": "hospital",
+  "siblings": [
+   "tell-i-diagram-sykehus-6a94"
+  ],
+  "categories": [
+   {
+    "nounKey": "nurse",
+    "locName": "Sykepleier",
+    "count": 3
+   },
+   {
+    "nounKey": "bed",
+    "locName": "Sykehusseng",
+    "count": 5
+   },
+   {
+    "nounKey": "wheelchair",
+    "locName": "Rullestol",
+    "count": 5
+   },
+   {
+    "nounKey": "stretcher",
+    "locName": "Båre",
+    "count": 4
+   },
+   {
+    "nounKey": "gown",
+    "locName": "Sykehuskjole",
+    "count": 2
+   },
+   {
+    "nounKey": "ambulance",
+    "locName": "Ambulanse",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-insekter-og-kryp-3d00",
+  "themeKey": "insects_and_bugs",
+  "siblings": [
+   "tell-i-diagram-insekter-og-kryp-3d00"
+  ],
+  "categories": [
+   {
+    "nounKey": "butterfly",
+    "locName": "Sommerfugl",
+    "count": 5
+   },
+   {
+    "nounKey": "dragonfly",
+    "locName": "Øyenstikker",
+    "count": 1
+   },
+   {
+    "nounKey": "snail",
+    "locName": "Snegle",
+    "count": 5
+   },
+   {
+    "nounKey": "spider",
+    "locName": "Edderkopp",
+    "count": 5
+   },
+   {
+    "nounKey": "wasp",
+    "locName": "Veps",
+    "count": 4
+   },
+   {
+    "nounKey": "slug",
+    "locName": "Snegle",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-kjokkenredskaper-e99f",
+  "themeKey": "kitchen_tools",
+  "siblings": [
+   "tell-i-diagram-kjokkenredskaper-e99f"
+  ],
+  "categories": [
+   {
+    "nounKey": "cookie-sheet",
+    "locName": "Kakeplate",
+    "count": 5
+   },
+   {
+    "nounKey": "bowl",
+    "locName": "Bolle",
+    "count": 3
+   },
+   {
+    "nounKey": "saucepan",
+    "locName": "Kasserolle",
+    "count": 2
+   },
+   {
+    "nounKey": "toaster",
+    "locName": "Brødrister",
+    "count": 4
+   },
+   {
+    "nounKey": "oven-mitt",
+    "locName": "Gryteklut",
+    "count": 1
+   },
+   {
+    "nounKey": "refrigerator",
+    "locName": "Kjøleskap",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-musikk-666a",
+  "themeKey": "music",
+  "siblings": [
+   "tell-i-diagram-musikk-666a"
+  ],
+  "categories": [
+   {
+    "nounKey": "singer",
+    "locName": "Sanger",
+    "count": 1
+   },
+   {
+    "nounKey": "piano",
+    "locName": "Piano",
+    "count": 4
+   },
+   {
+    "nounKey": "guitar",
+    "locName": "Gitar",
+    "count": 4
+   },
+   {
+    "nounKey": "trumpet",
+    "locName": "Trompet",
+    "count": 4
+   },
+   {
+    "nounKey": "accordion",
+    "locName": "Trekkspill",
+    "count": 5
+   },
+   {
+    "nounKey": "note",
+    "locName": "Musikknote",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-yrker-7186",
+  "themeKey": "occupations",
+  "siblings": [
+   "tell-i-diagram-yrker-7186"
+  ],
+  "categories": [
+   {
+    "nounKey": "judge",
+    "locName": "Dommer",
+    "count": 3
+   },
+   {
+    "nounKey": "nurse",
+    "locName": "Sykepleier",
+    "count": 4
+   },
+   {
+    "nounKey": "mail-carrier",
+    "locName": "Postbud 2",
+    "count": 3
+   },
+   {
+    "nounKey": "office-worker",
+    "locName": "Kontorarbeider",
+    "count": 3
+   },
+   {
+    "nounKey": "artist",
+    "locName": "Kunstner",
+    "count": 5
+   },
+   {
+    "nounKey": "mail-carrier",
+    "locName": "Postbud",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-havliv-eb01",
+  "themeKey": "ocean_life",
+  "siblings": [
+   "tell-i-diagram-havliv-eb01"
+  ],
+  "categories": [
+   {
+    "nounKey": "fish",
+    "locName": "Fisk",
+    "count": 5
+   },
+   {
+    "nounKey": "ray",
+    "locName": "Rokke",
+    "count": 4
+   },
+   {
+    "nounKey": "oyster",
+    "locName": "Østers",
+    "count": 4
+   },
+   {
+    "nounKey": "jellyfish",
+    "locName": "Manet",
+    "count": 2
+   },
+   {
+    "nounKey": "starfish",
+    "locName": "Sjøstjerne",
+    "count": 1
+   },
+   {
+    "nounKey": "scallop",
+    "locName": "Kamskjell",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-kjaeledyr-881c",
+  "themeKey": "pets",
+  "siblings": [
+   "tell-i-diagram-kjaeledyr-881c"
+  ],
+  "categories": [
+   {
+    "nounKey": "chinchilla",
+    "locName": "Chinchilla",
+    "count": 3
+   },
+   {
+    "nounKey": "frog",
+    "locName": "Frosk",
+    "count": 3
+   },
+   {
+    "nounKey": "fish",
+    "locName": "Fisk",
+    "count": 3
+   },
+   {
+    "nounKey": "rabbit",
+    "locName": "Kanin",
+    "count": 2
+   },
+   {
+    "nounKey": "cat",
+    "locName": "Katt",
+    "count": 5
+   },
+   {
+    "nounKey": "lizard",
+    "locName": "Øgle",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-postkontor-ed4a",
+  "themeKey": "post_office",
+  "siblings": [
+   "tell-i-diagram-postkontor-ed4a"
+  ],
+  "categories": [
+   {
+    "nounKey": "post-office",
+    "locName": "Postkontor",
+    "count": 5
+   },
+   {
+    "nounKey": "delivery",
+    "locName": "Levering",
+    "count": 3
+   },
+   {
+    "nounKey": "scale",
+    "locName": "Postvekt",
+    "count": 1
+   },
+   {
+    "nounKey": "stamp",
+    "locName": "Frimerke",
+    "count": 1
+   },
+   {
+    "nounKey": "postman",
+    "locName": "Postbud",
+    "count": 5
+   },
+   {
+    "nounKey": "mailbox",
+    "locName": "Postkasse",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-reptiler-og-amfibier-c0f7",
+  "themeKey": "reptiles_and_amphibians",
+  "siblings": [
+   "tell-i-diagram-reptiler-og-amfibier-c0f7"
+  ],
+  "categories": [
+   {
+    "nounKey": "iguana",
+    "locName": "Leguan",
+    "count": 3
+   },
+   {
+    "nounKey": "komodo-dragon",
+    "locName": "Komodovaran",
+    "count": 5
+   },
+   {
+    "nounKey": "gecko",
+    "locName": "Gekko",
+    "count": 2
+   },
+   {
+    "nounKey": "turtle",
+    "locName": "Skilpadde",
+    "count": 4
+   },
+   {
+    "nounKey": "alligator",
+    "locName": "Alligator",
+    "count": 1
+   },
+   {
+    "nounKey": "frog",
+    "locName": "Frosk",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-former-bfbc",
+  "themeKey": "shapes",
+  "siblings": [
+   "tell-i-diagram-former-bfbc"
+  ],
+  "categories": [
+   {
+    "nounKey": "hexagon",
+    "locName": "Sekskant",
+    "count": 3
+   },
+   {
+    "nounKey": "cone",
+    "locName": "Kjegle",
+    "count": 5
+   },
+   {
+    "nounKey": "cylinder",
+    "locName": "Sylinder",
+    "count": 1
+   },
+   {
+    "nounKey": "parallelogram",
+    "locName": "Parallellogram",
+    "count": 3
+   },
+   {
+    "nounKey": "octogon",
+    "locName": "Åttekant",
+    "count": 4
+   },
+   {
+    "nounKey": "heptagon",
+    "locName": "Sjukant",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-verdensrommet-c152",
+  "themeKey": "space",
+  "siblings": [
+   "tell-i-diagram-verdensrommet-c152"
+  ],
+  "categories": [
+   {
+    "nounKey": "neptune",
+    "locName": "Neptun",
+    "count": 5
+   },
+   {
+    "nounKey": "comet",
+    "locName": "Komet",
+    "count": 5
+   },
+   {
+    "nounKey": "jupiter",
+    "locName": "Jupiter",
+    "count": 2
+   },
+   {
+    "nounKey": "mars",
+    "locName": "Mars",
+    "count": 4
+   },
+   {
+    "nounKey": "astronaut",
+    "locName": "Astronaut",
+    "count": 3
+   },
+   {
+    "nounKey": "moon",
+    "locName": "Månen",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-var-7a32",
+  "themeKey": "spring",
+  "siblings": [
+   "tell-i-diagram-var-7a32"
+  ],
+  "categories": [
+   {
+    "nounKey": "rain-boots",
+    "locName": "Gummistøvler",
+    "count": 2
+   },
+   {
+    "nounKey": "shovel",
+    "locName": "Spade",
+    "count": 3
+   },
+   {
+    "nounKey": "duckling",
+    "locName": "Andunge",
+    "count": 4
+   },
+   {
+    "nounKey": "lamb",
+    "locName": "Lam",
+    "count": 5
+   },
+   {
+    "nounKey": "leaf",
+    "locName": "Blad",
+    "count": 5
+   },
+   {
+    "nounKey": "flower",
+    "locName": "Blomst",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-sommer-4a33",
+  "themeKey": "summer",
+  "siblings": [
+   "tell-i-diagram-sommer-4a33"
+  ],
+  "categories": [
+   {
+    "nounKey": "swimsuit",
+    "locName": "Badedrakt",
+    "count": 2
+   },
+   {
+    "nounKey": "ladybug",
+    "locName": "Marihøne",
+    "count": 4
+   },
+   {
+    "nounKey": "ice-cream",
+    "locName": "Iskrem",
+    "count": 5
+   },
+   {
+    "nounKey": "lemonade",
+    "locName": "Limonade",
+    "count": 2
+   },
+   {
+    "nounKey": "cap",
+    "locName": "Caps",
+    "count": 4
+   },
+   {
+    "nounKey": "dolphin",
+    "locName": "Delfin",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-thanksgiving-1caa",
+  "themeKey": "thanksgivinng",
+  "siblings": [
+   "tell-i-diagram-thanksgiving-1caa"
+  ],
+  "categories": [
+   {
+    "nounKey": "native-american",
+    "locName": "Indianer",
+    "count": 5
+   },
+   {
+    "nounKey": "autumn",
+    "locName": "Høst",
+    "count": 4
+   },
+   {
+    "nounKey": "pie",
+    "locName": "Pai",
+    "count": 5
+   },
+   {
+    "nounKey": "scarecrow",
+    "locName": "Fugleskremsel",
+    "count": 1
+   },
+   {
+    "nounKey": "harvest",
+    "locName": "Innhøsting",
+    "count": 3
+   },
+   {
+    "nounKey": "corn",
+    "locName": "Mais",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-ting-som-flyr-e915",
+  "themeKey": "things_that_fly",
+  "siblings": [
+   "tell-i-diagram-ting-som-flyr-e915"
+  ],
+  "categories": [
+   {
+    "nounKey": "parrot",
+    "locName": "Papegøye",
+    "count": 3
+   },
+   {
+    "nounKey": "balloon",
+    "locName": "Ballong",
+    "count": 4
+   },
+   {
+    "nounKey": "pigeon",
+    "locName": "Due",
+    "count": 3
+   },
+   {
+    "nounKey": "airplane",
+    "locName": "Fly",
+    "count": 2
+   },
+   {
+    "nounKey": "flamingo",
+    "locName": "Flamingo",
+    "count": 3
+   },
+   {
+    "nounKey": "paper-airplane",
+    "locName": "Papirfly",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-verktoy-209f",
+  "themeKey": "tools",
+  "siblings": [
+   "tell-i-diagram-verktoy-209f"
+  ],
+  "categories": [
+   {
+    "nounKey": "caulking-gun",
+    "locName": "Fugepistol",
+    "count": 4
+   },
+   {
+    "nounKey": "handsaw",
+    "locName": "Håndsag",
+    "count": 3
+   },
+   {
+    "nounKey": "extension-cord",
+    "locName": "Skjøteledning",
+    "count": 5
+   },
+   {
+    "nounKey": "flashlight",
+    "locName": "Lommelykt",
+    "count": 3
+   },
+   {
+    "nounKey": "paint-brush",
+    "locName": "Pensel",
+    "count": 4
+   },
+   {
+    "nounKey": "ladder",
+    "locName": "Stige",
+    "count": 1
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-leker-38a4",
+  "themeKey": "toys",
+  "siblings": [
+   "tell-i-diagram-leker-38a4"
+  ],
+  "categories": [
+   {
+    "nounKey": "domino",
+    "locName": "Domino",
+    "count": 4
+   },
+   {
+    "nounKey": "lego",
+    "locName": "Lego",
+    "count": 2
+   },
+   {
+    "nounKey": "blocks",
+    "locName": "Klosser",
+    "count": 2
+   },
+   {
+    "nounKey": "ball",
+    "locName": "Ball",
+    "count": 5
+   },
+   {
+    "nounKey": "shovel",
+    "locName": "Spade",
+    "count": 3
+   },
+   {
+    "nounKey": "robot",
+    "locName": "Robot",
+    "count": 4
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-traer-1f4c",
+  "themeKey": "tree",
+  "siblings": [
+   "tell-i-diagram-traer-1f4c"
+  ],
+  "categories": [
+   {
+    "nounKey": "peach",
+    "locName": "Ferskentre",
+    "count": 2
+   },
+   {
+    "nounKey": "pear",
+    "locName": "Pæretre",
+    "count": 5
+   },
+   {
+    "nounKey": "coconut",
+    "locName": "Kokospalme",
+    "count": 2
+   },
+   {
+    "nounKey": "ash",
+    "locName": "Ask",
+    "count": 4
+   },
+   {
+    "nounKey": "fir",
+    "locName": "Edelgran",
+    "count": 4
+   },
+   {
+    "nounKey": "cherry",
+    "locName": "Kirsebærtre",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-gronnsaker-7680",
+  "themeKey": "vegetables",
+  "siblings": [
+   "tell-i-diagram-gronnsaker-7680"
+  ],
+  "categories": [
+   {
+    "nounKey": "carrot",
+    "locName": "Gulrot",
+    "count": 3
+   },
+   {
+    "nounKey": "pumpkin",
+    "locName": "Gresskar",
+    "count": 3
+   },
+   {
+    "nounKey": "lettuce",
+    "locName": "Salat",
+    "count": 5
+   },
+   {
+    "nounKey": "beetroot",
+    "locName": "Rødbete",
+    "count": 4
+   },
+   {
+    "nounKey": "spinach",
+    "locName": "Spinat",
+    "count": 2
+   },
+   {
+    "nounKey": "broccoli",
+    "locName": "Brokkoli",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-kjoretoy-3040",
+  "themeKey": "vehicles",
+  "siblings": [
+   "tell-i-diagram-kjoretoy-3040"
+  ],
+  "categories": [
+   {
+    "nounKey": "rocket",
+    "locName": "Rakett",
+    "count": 2
+   },
+   {
+    "nounKey": "tractor",
+    "locName": "Traktor",
+    "count": 4
+   },
+   {
+    "nounKey": "school-bus",
+    "locName": "Skolebuss",
+    "count": 2
+   },
+   {
+    "nounKey": "van",
+    "locName": "Varebil",
+    "count": 4
+   },
+   {
+    "nounKey": "ship",
+    "locName": "Skip",
+    "count": 5
+   },
+   {
+    "nounKey": "mail-truck",
+    "locName": "Postbil",
+    "count": 3
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-vaer-778e",
+  "themeKey": "weather",
+  "siblings": [
+   "tell-i-diagram-vaer-778e"
+  ],
+  "categories": [
+   {
+    "nounKey": "cold",
+    "locName": "Kaldt",
+    "count": 5
+   },
+   {
+    "nounKey": "hot",
+    "locName": "Varmt",
+    "count": 3
+   },
+   {
+    "nounKey": "sunny",
+    "locName": "Solfylt",
+    "count": 2
+   },
+   {
+    "nounKey": "umbrella",
+    "locName": "Paraply",
+    "count": 3
+   },
+   {
+    "nounKey": "cloudy",
+    "locName": "Overskyet",
+    "count": 5
+   },
+   {
+    "nounKey": "scarf",
+    "locName": "Skjerf",
+    "count": 2
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-vinter-2f50",
+  "themeKey": "winter",
+  "siblings": [
+   "tell-i-diagram-vinter-2f50"
+  ],
+  "categories": [
+   {
+    "nounKey": "snowboarding",
+    "locName": "Snøbrett",
+    "count": 3
+   },
+   {
+    "nounKey": "sledding",
+    "locName": "Aking",
+    "count": 4
+   },
+   {
+    "nounKey": "hockey",
+    "locName": "Ishockey",
+    "count": 1
+   },
+   {
+    "nounKey": "fireplace",
+    "locName": "Peis",
+    "count": 5
+   },
+   {
+    "nounKey": "coat",
+    "locName": "Frakk",
+    "count": 2
+   },
+   {
+    "nounKey": "penguin",
+    "locName": "Pingvin",
+    "count": 5
+   }
+  ]
+ },
+ {
+  "slug": "tell-i-diagram-dyrehagedyr-c058",
+  "themeKey": "zoo_animals",
+  "siblings": [
+   "tell-i-diagram-dyrehagedyr-c058"
+  ],
+  "categories": [
+   {
+    "nounKey": "moose",
+    "locName": "Elg",
+    "count": 4
+   },
+   {
+    "nounKey": "wolf",
+    "locName": "Ulv",
+    "count": 4
+   },
+   {
+    "nounKey": "elephant",
+    "locName": "Elefant",
+    "count": 3
+   },
+   {
+    "nounKey": "bison",
+    "locName": "Bison",
+    "count": 3
+   },
+   {
+    "nounKey": "cheetah",
+    "locName": "Gepard",
+    "count": 3
+   },
+   {
+    "nounKey": "camel",
+    "locName": "Kamel",
+    "count": 3
+   }
+  ]
+ }
+]

@@ -67,7 +67,7 @@ const TYPE_MAP = {
   'pattern-worksheet': { op: 'Mønster', qual: {} },
   'picture-path':  { op: 'Labyrint', qual: { 'choose-path': 'velg riktig vei', 'classic-maze': 'klassisk labyrint' } },
   'picture-trail': { op: 'Labyrint', qual: {} },
-  'picture-sort':  { op: 'Sorter bildene', qual: {} },
+  'picture-sort':  { op: 'Sortering', qual: {} }, // operator-chosen title head (Wave E); H1 keeps "Sorter bildene"
   'alphabet-train':{ op: 'Alfabetisk rekkefølge', qual: {} },
   matching:        { op: { letter: 'Første lyd og bokstav', name: 'Les og koble' }, qual: {} },
   prepositions:    { op: 'Preposisjoner', qual: { fillin: 'skriv ordet', multiplechoice: 'sett kryss' } },

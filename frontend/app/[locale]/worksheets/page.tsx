@@ -136,6 +136,7 @@ const LEVEL_CHIP: Record<string, string> = {
   boernehaveklasse: '0. klasse', 'da:1-klasse': '1. klasse', 'da:2-klasse': '2. klasse',
   '1-trinn': '1. trinn', '2-trinn': '2. trinn', '3-trinn': '3. trinn',
   maternelle: 'Maternelle', cp: 'CP', ce1: 'CE1',
+  infanzia: 'Infanzia', 'classe-prima': 'Classe prima', 'classe-seconda': 'Classe seconda',
 };
 function levelChip(key: string, locale?: string): string {
   return (locale && LEVEL_CHIP[`${locale}:${key}`]) || LEVEL_CHIP[key] || key;

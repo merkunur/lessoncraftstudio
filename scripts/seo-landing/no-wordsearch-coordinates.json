@@ -1,0 +1,775 @@
+{
+  "locale": "no",
+  "exerciseType": "wordsearch",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 47
+  },
+  "totalValid": 47,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "ordleting-tilbehor-8b7a",
+      "siblings": [
+        "ordleting-tilbehor-8b7a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "ordleting-aktiviteter-ef7d",
+      "siblings": [
+        "ordleting-aktiviteter-ef7d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "ordleting-dyr-9b27",
+      "siblings": [
+        "ordleting-dyr-9b27"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "ordleting-rundt-i-huset-f2c4",
+      "siblings": [
+        "ordleting-rundt-i-huset-f2c4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "ordleting-i-supermarkedet-47d4",
+      "siblings": [
+        "ordleting-i-supermarkedet-47d4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "ordleting-bakeri-0f83",
+      "siblings": [
+        "ordleting-bakeri-0f83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "ordleting-strand-50d8",
+      "siblings": [
+        "ordleting-strand-50d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "ordleting-fugler-a70b",
+      "siblings": [
+        "ordleting-fugler-a70b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "ordleting-fugler-2-6cfc",
+      "siblings": [
+        "ordleting-fugler-2-6cfc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "ordleting-kroppsdeler-c4e8",
+      "siblings": [
+        "ordleting-kroppsdeler-c4e8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "ordleting-frokost-5cfa",
+      "siblings": [
+        "ordleting-frokost-5cfa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "ordleting-camping-51eb",
+      "siblings": [
+        "ordleting-camping-51eb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "ordleting-jul-84f1",
+      "siblings": [
+        "ordleting-jul-84f1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "ordleting-klasserom-0828",
+      "siblings": [
+        "ordleting-klasserom-0828"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "ordleting-klaer-b9f5",
+      "siblings": [
+        "ordleting-klaer-b9f5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "ordleting-farger-35d8",
+      "siblings": [
+        "ordleting-farger-35d8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "ordleting-desserter-og-godteri-dca7",
+      "siblings": [
+        "ordleting-desserter-og-godteri-dca7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "ordleting-paske-1c00",
+      "siblings": [
+        "ordleting-paske-1c00"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "ordleting-folelser-9764",
+      "siblings": [
+        "ordleting-folelser-9764"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "ordleting-gardsdyr-c4c3",
+      "siblings": [
+        "ordleting-gardsdyr-c4c3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "ordleting-blomster-75c8",
+      "siblings": [
+        "ordleting-blomster-75c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "ordleting-skogsdyr-1cdc",
+      "siblings": [
+        "ordleting-skogsdyr-1cdc"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "ordleting-frukter-3dba",
+      "siblings": [
+        "ordleting-frukter-3dba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "ordleting-mobler-dfc5",
+      "siblings": [
+        "ordleting-mobler-dfc5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "ordleting-sykehus-adf3",
+      "siblings": [
+        "ordleting-sykehus-adf3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "ordleting-insekter-og-kryp-96c2",
+      "siblings": [
+        "ordleting-insekter-og-kryp-96c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "ordleting-kjokkenredskaper-5e2c",
+      "siblings": [
+        "ordleting-kjokkenredskaper-5e2c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "ordleting-musikk-5fd4",
+      "siblings": [
+        "ordleting-musikk-5fd4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "ordleting-yrker-b083",
+      "siblings": [
+        "ordleting-yrker-b083"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "ordleting-havliv-f615",
+      "siblings": [
+        "ordleting-havliv-f615"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "ordleting-kjaeledyr-f9f2",
+      "siblings": [
+        "ordleting-kjaeledyr-f9f2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "ordleting-postkontor-4acd",
+      "siblings": [
+        "ordleting-postkontor-4acd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "ordleting-reptiler-og-amfibier-64e4",
+      "siblings": [
+        "ordleting-reptiler-og-amfibier-64e4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "ordleting-former-9ec1",
+      "siblings": [
+        "ordleting-former-9ec1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "ordleting-verdensrommet-86f4",
+      "siblings": [
+        "ordleting-verdensrommet-86f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "ordleting-var-7b0e",
+      "siblings": [
+        "ordleting-var-7b0e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "ordleting-sommer-283b",
+      "siblings": [
+        "ordleting-sommer-283b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "ordleting-thanksgiving-4034",
+      "siblings": [
+        "ordleting-thanksgiving-4034"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "ordleting-ting-som-flyr-ce58",
+      "siblings": [
+        "ordleting-ting-som-flyr-ce58"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "ordleting-verktoy-122b",
+      "siblings": [
+        "ordleting-verktoy-122b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "ordleting-leker-5921",
+      "siblings": [
+        "ordleting-leker-5921"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "ordleting-traer-d4a6",
+      "siblings": [
+        "ordleting-traer-d4a6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "ordleting-gronnsaker-528a",
+      "siblings": [
+        "ordleting-gronnsaker-528a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "ordleting-kjoretoy-2837",
+      "siblings": [
+        "ordleting-kjoretoy-2837"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "ordleting-vaer-a74e",
+      "siblings": [
+        "ordleting-vaer-a74e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "ordleting-vinter-b777",
+      "siblings": [
+        "ordleting-vinter-b777"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "ordleting-dyrehagedyr-c3df",
+      "siblings": [
+        "ordleting-dyrehagedyr-c3df"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

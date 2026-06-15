@@ -1,0 +1,775 @@
+{
+  "locale": "no",
+  "exerciseType": "crossword",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 48,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 47
+  },
+  "totalValid": 47,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "kryssord-tilbehor-c1b3",
+      "siblings": [
+        "kryssord-tilbehor-c1b3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "kryssord-aktiviteter-fa8c",
+      "siblings": [
+        "kryssord-aktiviteter-fa8c"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "kryssord-dyr-89ee",
+      "siblings": [
+        "kryssord-dyr-89ee"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "kryssord-rundt-i-huset-3150",
+      "siblings": [
+        "kryssord-rundt-i-huset-3150"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "kryssord-i-supermarkedet-6d48",
+      "siblings": [
+        "kryssord-i-supermarkedet-6d48"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "kryssord-bakeri-59b9",
+      "siblings": [
+        "kryssord-bakeri-59b9"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "kryssord-strand-33de",
+      "siblings": [
+        "kryssord-strand-33de"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "kryssord-fugler-223d",
+      "siblings": [
+        "kryssord-fugler-223d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "kryssord-fugler-2-ccfa",
+      "siblings": [
+        "kryssord-fugler-2-ccfa"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "kryssord-kroppsdeler-21b5",
+      "siblings": [
+        "kryssord-kroppsdeler-21b5"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "kryssord-frokost-5419",
+      "siblings": [
+        "kryssord-frokost-5419"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "kryssord-camping-5e61",
+      "siblings": [
+        "kryssord-camping-5e61"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "kryssord-jul-7db2",
+      "siblings": [
+        "kryssord-jul-7db2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "kryssord-klasserom-180d",
+      "siblings": [
+        "kryssord-klasserom-180d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "kryssord-klaer-f263",
+      "siblings": [
+        "kryssord-klaer-f263"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "colors",
+      "slugTheme": "colors",
+      "n": 1,
+      "canonical": "kryssord-farger-1c44",
+      "siblings": [
+        "kryssord-farger-1c44"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "kryssord-desserter-og-godteri-3d36",
+      "siblings": [
+        "kryssord-desserter-og-godteri-3d36"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "kryssord-paske-c1e8",
+      "siblings": [
+        "kryssord-paske-c1e8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "emotions",
+      "slugTheme": "emotions",
+      "n": 1,
+      "canonical": "kryssord-folelser-3e72",
+      "siblings": [
+        "kryssord-folelser-3e72"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "kryssord-gardsdyr-a0bd",
+      "siblings": [
+        "kryssord-gardsdyr-a0bd"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "kryssord-blomster-ab01",
+      "siblings": [
+        "kryssord-blomster-ab01"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "kryssord-skogsdyr-ce50",
+      "siblings": [
+        "kryssord-skogsdyr-ce50"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "kryssord-frukter-01ee",
+      "siblings": [
+        "kryssord-frukter-01ee"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "kryssord-mobler-aa98",
+      "siblings": [
+        "kryssord-mobler-aa98"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "kryssord-sykehus-e3c4",
+      "siblings": [
+        "kryssord-sykehus-e3c4"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "kryssord-insekter-og-kryp-bbec",
+      "siblings": [
+        "kryssord-insekter-og-kryp-bbec"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "kryssord-kjokkenredskaper-3922",
+      "siblings": [
+        "kryssord-kjokkenredskaper-3922"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "kryssord-musikk-d299",
+      "siblings": [
+        "kryssord-musikk-d299"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "kryssord-yrker-86c2",
+      "siblings": [
+        "kryssord-yrker-86c2"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "kryssord-havliv-b8cb",
+      "siblings": [
+        "kryssord-havliv-b8cb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "kryssord-kjaeledyr-6a61",
+      "siblings": [
+        "kryssord-kjaeledyr-6a61"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "kryssord-postkontor-9fef",
+      "siblings": [
+        "kryssord-postkontor-9fef"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "kryssord-reptiler-og-amfibier-cada",
+      "siblings": [
+        "kryssord-reptiler-og-amfibier-cada"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "kryssord-former-76d0",
+      "siblings": [
+        "kryssord-former-76d0"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "kryssord-verdensrommet-574d",
+      "siblings": [
+        "kryssord-verdensrommet-574d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "kryssord-var-f3bc",
+      "siblings": [
+        "kryssord-var-f3bc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "kryssord-sommer-e858",
+      "siblings": [
+        "kryssord-sommer-e858"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "kryssord-thanksgiving-4666",
+      "siblings": [
+        "kryssord-thanksgiving-4666"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "kryssord-ting-som-flyr-7edb",
+      "siblings": [
+        "kryssord-ting-som-flyr-7edb"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "kryssord-verktoy-9fdc",
+      "siblings": [
+        "kryssord-verktoy-9fdc"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "kryssord-leker-dbb3",
+      "siblings": [
+        "kryssord-leker-dbb3"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "kryssord-traer-5252",
+      "siblings": [
+        "kryssord-traer-5252"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "kryssord-gronnsaker-8820",
+      "siblings": [
+        "kryssord-gronnsaker-8820"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "kryssord-kjoretoy-0e9d",
+      "siblings": [
+        "kryssord-kjoretoy-0e9d"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "weather",
+      "slugTheme": "weather",
+      "n": 1,
+      "canonical": "kryssord-vaer-b897",
+      "siblings": [
+        "kryssord-vaer-b897"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "kryssord-vinter-4ad8",
+      "siblings": [
+        "kryssord-vinter-4ad8"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "kryssord-dyrehagedyr-0e85",
+      "siblings": [
+        "kryssord-dyrehagedyr-0e85"
+      ],
+      "ageRanges": [
+        "7-9"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

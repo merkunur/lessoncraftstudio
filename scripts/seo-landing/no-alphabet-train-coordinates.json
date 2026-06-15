@@ -1,0 +1,519 @@
+{
+  "locale": "no",
+  "exerciseType": "alphabet-train",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 32,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "(null)": 31
+  },
+  "totalValid": 31,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds_2",
+    "body_parts",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "easter",
+    "farm_animals",
+    "forest_creatures",
+    "hospital",
+    "kitchen_tools",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "toys",
+    "vegetables",
+    "vehicles",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    null
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [],
+  "coordinates": [
+    {
+      "mode": null,
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "alfabettoget-tilbehor-cb9d",
+      "siblings": [
+        "alfabettoget-tilbehor-cb9d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "activities",
+      "slugTheme": "activities",
+      "n": 1,
+      "canonical": "alfabettoget-aktiviteter-5408",
+      "siblings": [
+        "alfabettoget-aktiviteter-5408"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "alfabettoget-dyr-cd6c",
+      "siblings": [
+        "alfabettoget-dyr-cd6c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "alfabettoget-rundt-i-huset-d729",
+      "siblings": [
+        "alfabettoget-rundt-i-huset-d729"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "alfabettoget-i-supermarkedet-c484",
+      "siblings": [
+        "alfabettoget-i-supermarkedet-c484"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "alfabettoget-bakeri-8ddd",
+      "siblings": [
+        "alfabettoget-bakeri-8ddd"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "alfabettoget-strand-ddbb",
+      "siblings": [
+        "alfabettoget-strand-ddbb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "alfabettoget-fugler-2-2bd0",
+      "siblings": [
+        "alfabettoget-fugler-2-2bd0"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 1,
+      "canonical": "alfabettoget-kroppsdeler-2221",
+      "siblings": [
+        "alfabettoget-kroppsdeler-2221"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "alfabettoget-camping-f6dc",
+      "siblings": [
+        "alfabettoget-camping-f6dc"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "alfabettoget-jul-5e46",
+      "siblings": [
+        "alfabettoget-jul-5e46"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "alfabettoget-klasserom-d912",
+      "siblings": [
+        "alfabettoget-klasserom-d912"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "alfabettoget-klaer-add8",
+      "siblings": [
+        "alfabettoget-klaer-add8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "alfabettoget-paske-4f66",
+      "siblings": [
+        "alfabettoget-paske-4f66"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "alfabettoget-gardsdyr-238f",
+      "siblings": [
+        "alfabettoget-gardsdyr-238f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "alfabettoget-skogsdyr-950f",
+      "siblings": [
+        "alfabettoget-skogsdyr-950f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "alfabettoget-sykehus-4687",
+      "siblings": [
+        "alfabettoget-sykehus-4687"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "alfabettoget-kjokkenredskaper-1452",
+      "siblings": [
+        "alfabettoget-kjokkenredskaper-1452"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "alfabettoget-yrker-4d54",
+      "siblings": [
+        "alfabettoget-yrker-4d54"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "alfabettoget-havliv-f3ec",
+      "siblings": [
+        "alfabettoget-havliv-f3ec"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "alfabettoget-kjaeledyr-b217",
+      "siblings": [
+        "alfabettoget-kjaeledyr-b217"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "alfabettoget-verdensrommet-04be",
+      "siblings": [
+        "alfabettoget-verdensrommet-04be"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "spring",
+      "slugTheme": "spring",
+      "n": 1,
+      "canonical": "alfabettoget-var-e7c5",
+      "siblings": [
+        "alfabettoget-var-e7c5"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "summer",
+      "slugTheme": "summer",
+      "n": 1,
+      "canonical": "alfabettoget-sommer-00c6",
+      "siblings": [
+        "alfabettoget-sommer-00c6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "alfabettoget-thanksgiving-1911",
+      "siblings": [
+        "alfabettoget-thanksgiving-1911"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "alfabettoget-ting-som-flyr-c4f3",
+      "siblings": [
+        "alfabettoget-ting-som-flyr-c4f3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "alfabettoget-leker-eb73",
+      "siblings": [
+        "alfabettoget-leker-eb73"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "alfabettoget-gronnsaker-469f",
+      "siblings": [
+        "alfabettoget-gronnsaker-469f"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "alfabettoget-kjoretoy-caea",
+      "siblings": [
+        "alfabettoget-kjoretoy-caea"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "winter",
+      "slugTheme": "winter",
+      "n": 1,
+      "canonical": "alfabettoget-vinter-217a",
+      "siblings": [
+        "alfabettoget-vinter-217a"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    },
+    {
+      "mode": null,
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "alfabettoget-dyrehagedyr-feda",
+      "siblings": [
+        "alfabettoget-dyrehagedyr-feda"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "none"
+    }
+  ]
+}

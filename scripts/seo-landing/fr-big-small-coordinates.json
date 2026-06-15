@@ -1,0 +1,772 @@
+{
+  "locale": "fr",
+  "exerciseType": "big-small",
+  "level": "maternelle",
+  "rawRowCount": 94,
+  "rowsWithoutSubjectTag": 1,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "findBig": 48
+  },
+  "totalValid": 41,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "colors",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "findBig"
+  ],
+  "collapsedFamilies": 42,
+  "invalidRetired": [
+    "findBig/activities — INVALID: activities has no orderable physical size for a size mechanic",
+    "findBig/colors — INVALID: colors has no orderable physical size for a size mechanic",
+    "findBig/emotions — INVALID: emotions has no orderable physical size for a size mechanic",
+    "findBig/spring — INVALID: spring has no orderable physical size for a size mechanic",
+    "findBig/summer — INVALID: summer has no orderable physical size for a size mechanic",
+    "findBig/weather — INVALID: weather has no orderable physical size for a size mechanic",
+    "findBig/winter — INVALID: winter has no orderable physical size for a size mechanic"
+  ],
+  "coordinates": [
+    {
+      "mode": "findBig",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-accessoires-2c95",
+      "siblings": [
+        "grand-petit-trouve-le-grand-accessoires-2c95",
+        "grand-petit-trouve-le-grand-accessoires-7fb6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-animaux-98b6",
+      "siblings": [
+        "grand-petit-trouve-le-grand-animaux-98b6",
+        "grand-petit-trouve-le-grand-animaux-4f85"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-autour-de-la-maison-cc1e",
+      "siblings": [
+        "grand-petit-trouve-le-grand-autour-de-la-maison-cc1e",
+        "grand-petit-trouve-le-grand-autour-de-la-maison-b086"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-au-supermarche-60f3",
+      "siblings": [
+        "grand-petit-trouve-le-grand-au-supermarche-60f3",
+        "grand-petit-trouve-le-grand-au-supermarche-00b3"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-boulangerie-7c77",
+      "siblings": [
+        "grand-petit-trouve-le-grand-boulangerie-7c77",
+        "grand-petit-trouve-le-grand-boulangerie-04d9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-plage-287b",
+      "siblings": [
+        "grand-petit-trouve-le-grand-plage-287b",
+        "grand-petit-trouve-le-grand-plage-e8bb"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "grand-petit-trouve-le-grand-oiseaux-536b",
+      "siblings": [
+        "grand-petit-trouve-le-grand-oiseaux-536b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-oiseaux-2-e8a4",
+      "siblings": [
+        "grand-petit-trouve-le-grand-oiseaux-2-e8a4",
+        "grand-petit-trouve-le-grand-oiseaux-2-8277"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "body_parts",
+      "slugTheme": "body-parts",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-parties-du-corps-65c7",
+      "siblings": [
+        "grand-petit-trouve-le-grand-parties-du-corps-65c7",
+        "grand-petit-trouve-le-grand-parties-du-corps-37e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-petit-dejeuner-10ff",
+      "siblings": [
+        "grand-petit-trouve-le-grand-petit-dejeuner-10ff",
+        "grand-petit-trouve-le-grand-petit-dejeuner-35e6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-camping-0fcf",
+      "siblings": [
+        "grand-petit-trouve-le-grand-camping-0fcf",
+        "grand-petit-trouve-le-grand-camping-dd2e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-noel-d122",
+      "siblings": [
+        "grand-petit-trouve-le-grand-noel-d122",
+        "grand-petit-trouve-le-grand-noel-65f6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-salle-de-classe-96ed",
+      "siblings": [
+        "grand-petit-trouve-le-grand-salle-de-classe-96ed",
+        "grand-petit-trouve-le-grand-salle-de-classe-54f7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-vetements-db6d",
+      "siblings": [
+        "grand-petit-trouve-le-grand-vetements-db6d",
+        "grand-petit-trouve-le-grand-vetements-b426"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-desserts-et-sucreries-3d8a",
+      "siblings": [
+        "grand-petit-trouve-le-grand-desserts-et-sucreries-3d8a",
+        "grand-petit-trouve-le-grand-desserts-et-sucreries-18a7"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-dinosaures-5558",
+      "siblings": [
+        "grand-petit-trouve-le-grand-dinosaures-5558",
+        "grand-petit-trouve-le-grand-dinosaures-b601"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-paques-e29e",
+      "siblings": [
+        "grand-petit-trouve-le-grand-paques-e29e",
+        "grand-petit-trouve-le-grand-paques-7356"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-animaux-de-la-ferme-ac96",
+      "siblings": [
+        "grand-petit-trouve-le-grand-animaux-de-la-ferme-ac96",
+        "grand-petit-trouve-le-grand-animaux-de-la-ferme-2e49"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-fleurs-b355",
+      "siblings": [
+        "grand-petit-trouve-le-grand-fleurs-b355",
+        "grand-petit-trouve-le-grand-fleurs-8d3d"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-creatures-de-la-foret-a88b",
+      "siblings": [
+        "grand-petit-trouve-le-grand-creatures-de-la-foret-a88b",
+        "grand-petit-trouve-le-grand-creatures-de-la-foret-49b4"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-fruits-9ed4",
+      "siblings": [
+        "grand-petit-trouve-le-grand-fruits-9ed4",
+        "grand-petit-trouve-le-grand-fruits-0c59"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-meubles-dc84",
+      "siblings": [
+        "grand-petit-trouve-le-grand-meubles-dc84",
+        "grand-petit-trouve-le-grand-meubles-d4c8"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-hopital-5dad",
+      "siblings": [
+        "grand-petit-trouve-le-grand-hopital-5dad",
+        "grand-petit-trouve-le-grand-hopital-f42e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "grand-petit-trouve-le-grand-insectes-et-bestioles-c400",
+      "siblings": [
+        "grand-petit-trouve-le-grand-insectes-et-bestioles-c400"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-ustensiles-de-cuisine-513d",
+      "siblings": [
+        "grand-petit-trouve-le-grand-ustensiles-de-cuisine-513d",
+        "grand-petit-trouve-le-grand-ustensiles-de-cuisine-381e"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-musique-e5a0",
+      "siblings": [
+        "grand-petit-trouve-le-grand-musique-e5a0",
+        "grand-petit-trouve-le-grand-musique-ca4c"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-metiers-d8f7",
+      "siblings": [
+        "grand-petit-trouve-le-grand-metiers-d8f7",
+        "grand-petit-trouve-le-grand-metiers-db68"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-vie-oceanique-67ea",
+      "siblings": [
+        "grand-petit-trouve-le-grand-vie-oceanique-67ea",
+        "grand-petit-trouve-le-grand-vie-oceanique-8d2b"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-animaux-de-compagnie-d13f",
+      "siblings": [
+        "grand-petit-trouve-le-grand-animaux-de-compagnie-d13f",
+        "grand-petit-trouve-le-grand-animaux-de-compagnie-c3ef"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "grand-petit-trouve-le-grand-bureau-de-poste-4277",
+      "siblings": [
+        "grand-petit-trouve-le-grand-bureau-de-poste-4277"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "grand-petit-trouve-le-grand-reptiles-et-amphibiens-aad1",
+      "siblings": [
+        "grand-petit-trouve-le-grand-reptiles-et-amphibiens-aad1"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-formes-606d",
+      "siblings": [
+        "grand-petit-trouve-le-grand-formes-606d",
+        "grand-petit-trouve-le-grand-formes-e7b9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-espace-63ae",
+      "siblings": [
+        "grand-petit-trouve-le-grand-espace-63ae",
+        "grand-petit-trouve-le-grand-espace-66b6"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "grand-petit-trouve-le-grand-action-de-grace-5111",
+      "siblings": [
+        "grand-petit-trouve-le-grand-action-de-grace-5111"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 3,
+      "canonical": "grand-petit-trouve-le-grand-choses-qui-volent-3df2",
+      "siblings": [
+        "grand-petit-trouve-le-grand-choses-qui-volent-3df2",
+        "grand-petit-trouve-le-grand-choses-qui-volent-e286",
+        "grand-petit-trouve-le-grand-choses-qui-volent-15df"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-outils-9f9d",
+      "siblings": [
+        "grand-petit-trouve-le-grand-outils-9f9d",
+        "grand-petit-trouve-le-grand-outils-b203"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-jouets-23c4",
+      "siblings": [
+        "grand-petit-trouve-le-grand-jouets-23c4",
+        "grand-petit-trouve-le-grand-jouets-0f24"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-arbres-2bfa",
+      "siblings": [
+        "grand-petit-trouve-le-grand-arbres-2bfa",
+        "grand-petit-trouve-le-grand-arbres-2c05"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-legumes-2ed8",
+      "siblings": [
+        "grand-petit-trouve-le-grand-legumes-2ed8",
+        "grand-petit-trouve-le-grand-legumes-6886"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-vehicules-c7ba",
+      "siblings": [
+        "grand-petit-trouve-le-grand-vehicules-c7ba",
+        "grand-petit-trouve-le-grand-vehicules-e8ac"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    },
+    {
+      "mode": "findBig",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 2,
+      "canonical": "grand-petit-trouve-le-grand-animaux-du-zoo-72c0",
+      "siblings": [
+        "grand-petit-trouve-le-grand-animaux-du-zoo-72c0",
+        "grand-petit-trouve-le-grand-animaux-du-zoo-87e9"
+      ],
+      "ageRanges": [
+        "3-5"
+      ],
+      "valid": true,
+      "gate": "size",
+      "level": "maternelle"
+    }
+  ]
+}

@@ -1,0 +1,1440 @@
+{
+  "locale": "fr",
+  "exerciseType": "picture-sort",
+  "rawRowCount": 139,
+  "pairCount": 138,
+  "leftThemes": [
+    "accessories",
+    "animals",
+    "flowers",
+    "tree"
+  ],
+  "rightThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "coordinates": [
+    {
+      "pairKey": "accessories-vs-activities",
+      "left": "accessories",
+      "right": "activities",
+      "canonical": "trier-les-images-accessories-vs-activities-631f",
+      "siblings": [
+        "trier-les-images-accessories-vs-activities-631f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-animals",
+      "left": "accessories",
+      "right": "animals",
+      "canonical": "trier-les-images-accessories-vs-animals-7b97",
+      "siblings": [
+        "trier-les-images-accessories-vs-animals-7b97"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-around_the_house",
+      "left": "accessories",
+      "right": "around_the_house",
+      "canonical": "trier-les-images-accessories-vs-around-the-house-9937",
+      "siblings": [
+        "trier-les-images-accessories-vs-around-the-house-9937"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-at_the_supermarket",
+      "left": "accessories",
+      "right": "at_the_supermarket",
+      "canonical": "trier-les-images-accessories-vs-at-the-supermarket-2386",
+      "siblings": [
+        "trier-les-images-accessories-vs-at-the-supermarket-2386"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-bakery",
+      "left": "accessories",
+      "right": "bakery",
+      "canonical": "trier-les-images-accessories-vs-bakery-7359",
+      "siblings": [
+        "trier-les-images-accessories-vs-bakery-7359"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-beach",
+      "left": "accessories",
+      "right": "beach",
+      "canonical": "trier-les-images-accessories-vs-beach-05da",
+      "siblings": [
+        "trier-les-images-accessories-vs-beach-05da"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-birds",
+      "left": "accessories",
+      "right": "birds",
+      "canonical": "trier-les-images-accessories-vs-birds-6173",
+      "siblings": [
+        "trier-les-images-accessories-vs-birds-6173"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-body_parts",
+      "left": "accessories",
+      "right": "body_parts",
+      "canonical": "trier-les-images-accessories-vs-body-parts-207b",
+      "siblings": [
+        "trier-les-images-accessories-vs-body-parts-207b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-breakfast",
+      "left": "accessories",
+      "right": "breakfast",
+      "canonical": "trier-les-images-accessories-vs-breakfast-24a6",
+      "siblings": [
+        "trier-les-images-accessories-vs-breakfast-24a6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-camping",
+      "left": "accessories",
+      "right": "camping",
+      "canonical": "trier-les-images-accessories-vs-camping-0d13",
+      "siblings": [
+        "trier-les-images-accessories-vs-camping-0d13"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-christmas",
+      "left": "accessories",
+      "right": "christmas",
+      "canonical": "trier-les-images-accessories-vs-christmas-000b",
+      "siblings": [
+        "trier-les-images-accessories-vs-christmas-000b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-classroom",
+      "left": "accessories",
+      "right": "classroom",
+      "canonical": "trier-les-images-accessories-vs-classroom-219f",
+      "siblings": [
+        "trier-les-images-accessories-vs-classroom-219f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-desserts_and_sweets",
+      "left": "accessories",
+      "right": "desserts_and_sweets",
+      "canonical": "trier-les-images-accessories-vs-desserts-and-sweets-beec",
+      "siblings": [
+        "trier-les-images-accessories-vs-desserts-and-sweets-beec"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-dinosaurs",
+      "left": "accessories",
+      "right": "dinosaurs",
+      "canonical": "trier-les-images-accessories-vs-dinosaurs-a9e1",
+      "siblings": [
+        "trier-les-images-accessories-vs-dinosaurs-a9e1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-easter",
+      "left": "accessories",
+      "right": "easter",
+      "canonical": "trier-les-images-accessories-vs-easter-e7f9",
+      "siblings": [
+        "trier-les-images-accessories-vs-easter-e7f9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-farm_animals",
+      "left": "accessories",
+      "right": "farm_animals",
+      "canonical": "trier-les-images-accessories-vs-farm-animals-ee3e",
+      "siblings": [
+        "trier-les-images-accessories-vs-farm-animals-ee3e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-flowers",
+      "left": "accessories",
+      "right": "flowers",
+      "canonical": "trier-les-images-accessories-vs-flowers-544c",
+      "siblings": [
+        "trier-les-images-accessories-vs-flowers-544c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-forest_creatures",
+      "left": "accessories",
+      "right": "forest_creatures",
+      "canonical": "trier-les-images-accessories-vs-forest-creatures-1680",
+      "siblings": [
+        "trier-les-images-accessories-vs-forest-creatures-1680"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-fruits",
+      "left": "accessories",
+      "right": "fruits",
+      "canonical": "trier-les-images-accessories-vs-fruits-4cc1",
+      "siblings": [
+        "trier-les-images-accessories-vs-fruits-4cc1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-furniture",
+      "left": "accessories",
+      "right": "furniture",
+      "canonical": "trier-les-images-accessories-vs-furniture-3e85",
+      "siblings": [
+        "trier-les-images-accessories-vs-furniture-3e85"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-hospital",
+      "left": "accessories",
+      "right": "hospital",
+      "canonical": "trier-les-images-accessories-vs-hospital-81f3",
+      "siblings": [
+        "trier-les-images-accessories-vs-hospital-81f3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-insects_and_bugs",
+      "left": "accessories",
+      "right": "insects_and_bugs",
+      "canonical": "trier-les-images-accessories-vs-insects-and-bugs-ab29",
+      "siblings": [
+        "trier-les-images-accessories-vs-insects-and-bugs-ab29"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-kitchen_tools",
+      "left": "accessories",
+      "right": "kitchen_tools",
+      "canonical": "trier-les-images-accessories-vs-kitchen-tools-55b6",
+      "siblings": [
+        "trier-les-images-accessories-vs-kitchen-tools-55b6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-music",
+      "left": "accessories",
+      "right": "music",
+      "canonical": "trier-les-images-accessories-vs-music-9184",
+      "siblings": [
+        "trier-les-images-accessories-vs-music-9184"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-occupations",
+      "left": "accessories",
+      "right": "occupations",
+      "canonical": "trier-les-images-accessories-vs-occupations-a3af",
+      "siblings": [
+        "trier-les-images-accessories-vs-occupations-a3af"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-ocean_life",
+      "left": "accessories",
+      "right": "ocean_life",
+      "canonical": "trier-les-images-accessories-vs-ocean-life-171d",
+      "siblings": [
+        "trier-les-images-accessories-vs-ocean-life-171d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-pets",
+      "left": "accessories",
+      "right": "pets",
+      "canonical": "trier-les-images-accessories-vs-pets-452a",
+      "siblings": [
+        "trier-les-images-accessories-vs-pets-452a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-post_office",
+      "left": "accessories",
+      "right": "post_office",
+      "canonical": "trier-les-images-accessories-vs-post-office-ac40",
+      "siblings": [
+        "trier-les-images-accessories-vs-post-office-ac40"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-reptiles_and_amphibians",
+      "left": "accessories",
+      "right": "reptiles_and_amphibians",
+      "canonical": "trier-les-images-accessories-vs-reptiles-and-amphibians-00e4",
+      "siblings": [
+        "trier-les-images-accessories-vs-reptiles-and-amphibians-00e4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-shapes",
+      "left": "accessories",
+      "right": "shapes",
+      "canonical": "trier-les-images-accessories-vs-shapes-6baf",
+      "siblings": [
+        "trier-les-images-accessories-vs-shapes-6baf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-spring",
+      "left": "accessories",
+      "right": "spring",
+      "canonical": "trier-les-images-accessories-vs-spring-ec29",
+      "siblings": [
+        "trier-les-images-accessories-vs-spring-ec29"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-thanksgivinng",
+      "left": "accessories",
+      "right": "thanksgivinng",
+      "canonical": "trier-les-images-accessories-vs-thanksgiving-d089",
+      "siblings": [
+        "trier-les-images-accessories-vs-thanksgiving-d089"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-things_that_fly",
+      "left": "accessories",
+      "right": "things_that_fly",
+      "canonical": "trier-les-images-accessories-vs-things-that-fly-291d",
+      "siblings": [
+        "trier-les-images-accessories-vs-things-that-fly-291d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tools",
+      "left": "accessories",
+      "right": "tools",
+      "canonical": "trier-les-images-accessories-vs-tools-1ce7",
+      "siblings": [
+        "trier-les-images-accessories-vs-tools-1ce7"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-toys",
+      "left": "accessories",
+      "right": "toys",
+      "canonical": "trier-les-images-accessories-vs-toys-8770",
+      "siblings": [
+        "trier-les-images-accessories-vs-toys-8770"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-tree",
+      "left": "accessories",
+      "right": "tree",
+      "canonical": "trier-les-images-accessories-vs-tree-ddc5",
+      "siblings": [
+        "trier-les-images-accessories-vs-tree-ddc5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vegetables",
+      "left": "accessories",
+      "right": "vegetables",
+      "canonical": "trier-les-images-accessories-vs-vegetables-fff5",
+      "siblings": [
+        "trier-les-images-accessories-vs-vegetables-fff5"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-vehicles",
+      "left": "accessories",
+      "right": "vehicles",
+      "canonical": "trier-les-images-accessories-vs-vehicles-ae63",
+      "siblings": [
+        "trier-les-images-accessories-vs-vehicles-ae63"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-weather",
+      "left": "accessories",
+      "right": "weather",
+      "canonical": "trier-les-images-accessories-vs-weather-b04f",
+      "siblings": [
+        "trier-les-images-accessories-vs-weather-b04f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-winter",
+      "left": "accessories",
+      "right": "winter",
+      "canonical": "trier-les-images-accessories-vs-winter-b8b2",
+      "siblings": [
+        "trier-les-images-accessories-vs-winter-b8b2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "accessories-vs-zoo_animals",
+      "left": "accessories",
+      "right": "zoo_animals",
+      "canonical": "trier-les-images-accessories-vs-zoo-animals-20b3",
+      "siblings": [
+        "trier-les-images-accessories-vs-zoo-animals-20b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-around_the_house",
+      "left": "animals",
+      "right": "around_the_house",
+      "canonical": "trier-les-images-animals-vs-around-the-house-ae66",
+      "siblings": [
+        "trier-les-images-animals-vs-around-the-house-ae66"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-at_the_supermarket",
+      "left": "animals",
+      "right": "at_the_supermarket",
+      "canonical": "trier-les-images-animals-vs-at-the-supermarket-b176",
+      "siblings": [
+        "trier-les-images-animals-vs-at-the-supermarket-b176"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-bakery",
+      "left": "animals",
+      "right": "bakery",
+      "canonical": "trier-les-images-animals-vs-bakery-02ec",
+      "siblings": [
+        "trier-les-images-animals-vs-bakery-02ec"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-christmas",
+      "left": "animals",
+      "right": "christmas",
+      "canonical": "trier-les-images-animals-vs-christmas-ce37",
+      "siblings": [
+        "trier-les-images-animals-vs-christmas-ce37"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-classroom",
+      "left": "animals",
+      "right": "classroom",
+      "canonical": "trier-les-images-animals-vs-classroom-c972",
+      "siblings": [
+        "trier-les-images-animals-vs-classroom-c972"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-clothing",
+      "left": "animals",
+      "right": "clothing",
+      "canonical": "trier-les-images-animals-vs-clothing-48c0",
+      "siblings": [
+        "trier-les-images-animals-vs-clothing-48c0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-desserts_and_sweets",
+      "left": "animals",
+      "right": "desserts_and_sweets",
+      "canonical": "trier-les-images-animals-vs-desserts-and-sweets-5149",
+      "siblings": [
+        "trier-les-images-animals-vs-desserts-and-sweets-5149"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-dinosaurs",
+      "left": "animals",
+      "right": "dinosaurs",
+      "canonical": "trier-les-images-animals-vs-dinosaurs-da22",
+      "siblings": [
+        "trier-les-images-animals-vs-dinosaurs-da22"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-flowers",
+      "left": "animals",
+      "right": "flowers",
+      "canonical": "trier-les-images-animals-vs-flowers-ba37",
+      "siblings": [
+        "trier-les-images-animals-vs-flowers-ba37"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-fruits",
+      "left": "animals",
+      "right": "fruits",
+      "canonical": "trier-les-images-animals-vs-fruits-20c2",
+      "siblings": [
+        "trier-les-images-animals-vs-fruits-20c2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-furniture",
+      "left": "animals",
+      "right": "furniture",
+      "canonical": "trier-les-images-animals-vs-furniture-ced4",
+      "siblings": [
+        "trier-les-images-animals-vs-furniture-ced4"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-hospital",
+      "left": "animals",
+      "right": "hospital",
+      "canonical": "trier-les-images-animals-vs-hospital-e86e",
+      "siblings": [
+        "trier-les-images-animals-vs-hospital-e86e"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-kitchen_tools",
+      "left": "animals",
+      "right": "kitchen_tools",
+      "canonical": "trier-les-images-animals-vs-kitchen-tools-90d3",
+      "siblings": [
+        "trier-les-images-animals-vs-kitchen-tools-90d3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-music",
+      "left": "animals",
+      "right": "music",
+      "canonical": "trier-les-images-animals-vs-music-0120",
+      "siblings": [
+        "trier-les-images-animals-vs-music-0120"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-occupations",
+      "left": "animals",
+      "right": "occupations",
+      "canonical": "trier-les-images-animals-vs-occupations-2dc0",
+      "siblings": [
+        "trier-les-images-animals-vs-occupations-2dc0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-post_office",
+      "left": "animals",
+      "right": "post_office",
+      "canonical": "trier-les-images-animals-vs-post-office-f76f",
+      "siblings": [
+        "trier-les-images-animals-vs-post-office-f76f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-summer",
+      "left": "animals",
+      "right": "summer",
+      "canonical": "trier-les-images-animals-vs-summer-2273",
+      "siblings": [
+        "trier-les-images-animals-vs-summer-2273"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tools",
+      "left": "animals",
+      "right": "tools",
+      "canonical": "trier-les-images-animals-vs-tools-98af",
+      "siblings": [
+        "trier-les-images-animals-vs-tools-98af"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-toys",
+      "left": "animals",
+      "right": "toys",
+      "canonical": "trier-les-images-animals-vs-toys-3cf6",
+      "siblings": [
+        "trier-les-images-animals-vs-toys-3cf6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-tree",
+      "left": "animals",
+      "right": "tree",
+      "canonical": "trier-les-images-animals-vs-tree-e8c1",
+      "siblings": [
+        "trier-les-images-animals-vs-tree-e8c1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vegetables",
+      "left": "animals",
+      "right": "vegetables",
+      "canonical": "trier-les-images-animals-vs-vegetables-1977",
+      "siblings": [
+        "trier-les-images-animals-vs-vegetables-1977"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-vehicles",
+      "left": "animals",
+      "right": "vehicles",
+      "canonical": "trier-les-images-animals-vs-vehicles-ae70",
+      "siblings": [
+        "trier-les-images-animals-vs-vehicles-ae70"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-weather",
+      "left": "animals",
+      "right": "weather",
+      "canonical": "trier-les-images-animals-vs-weather-20f2",
+      "siblings": [
+        "trier-les-images-animals-vs-weather-20f2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "animals-vs-winter",
+      "left": "animals",
+      "right": "winter",
+      "canonical": "trier-les-images-animals-vs-winter-3825",
+      "siblings": [
+        "trier-les-images-animals-vs-winter-3825"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-accessories",
+      "left": "flowers",
+      "right": "accessories",
+      "canonical": "trier-les-images-flowers-vs-accessories-0fdb",
+      "siblings": [
+        "trier-les-images-flowers-vs-accessories-0fdb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-animals",
+      "left": "flowers",
+      "right": "animals",
+      "canonical": "trier-les-images-flowers-vs-animals-55b3",
+      "siblings": [
+        "trier-les-images-flowers-vs-animals-55b3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-around_the_house",
+      "left": "flowers",
+      "right": "around_the_house",
+      "canonical": "trier-les-images-flowers-vs-around-the-house-1699",
+      "siblings": [
+        "trier-les-images-flowers-vs-around-the-house-1699"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-at_the_supermarket",
+      "left": "flowers",
+      "right": "at_the_supermarket",
+      "canonical": "trier-les-images-flowers-vs-at-the-supermarket-36f9",
+      "siblings": [
+        "trier-les-images-flowers-vs-at-the-supermarket-36f9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-bakery",
+      "left": "flowers",
+      "right": "bakery",
+      "canonical": "trier-les-images-flowers-vs-bakery-2c21",
+      "siblings": [
+        "trier-les-images-flowers-vs-bakery-2c21"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-beach",
+      "left": "flowers",
+      "right": "beach",
+      "canonical": "trier-les-images-flowers-vs-beach-8467",
+      "siblings": [
+        "trier-les-images-flowers-vs-beach-8467"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-birds",
+      "left": "flowers",
+      "right": "birds",
+      "canonical": "trier-les-images-flowers-vs-birds-68d6",
+      "siblings": [
+        "trier-les-images-flowers-vs-birds-68d6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-breakfast",
+      "left": "flowers",
+      "right": "breakfast",
+      "canonical": "trier-les-images-flowers-vs-breakfast-ff57",
+      "siblings": [
+        "trier-les-images-flowers-vs-breakfast-ff57"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-camping",
+      "left": "flowers",
+      "right": "camping",
+      "canonical": "trier-les-images-flowers-vs-camping-f05a",
+      "siblings": [
+        "trier-les-images-flowers-vs-camping-f05a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-christmas",
+      "left": "flowers",
+      "right": "christmas",
+      "canonical": "trier-les-images-flowers-vs-christmas-2cda",
+      "siblings": [
+        "trier-les-images-flowers-vs-christmas-2cda"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-classroom",
+      "left": "flowers",
+      "right": "classroom",
+      "canonical": "trier-les-images-flowers-vs-classroom-c213",
+      "siblings": [
+        "trier-les-images-flowers-vs-classroom-c213"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-clothing",
+      "left": "flowers",
+      "right": "clothing",
+      "canonical": "trier-les-images-flowers-vs-clothing-ebf3",
+      "siblings": [
+        "trier-les-images-flowers-vs-clothing-ebf3"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-desserts_and_sweets",
+      "left": "flowers",
+      "right": "desserts_and_sweets",
+      "canonical": "trier-les-images-flowers-vs-desserts-and-sweets-6c27",
+      "siblings": [
+        "trier-les-images-flowers-vs-desserts-and-sweets-6c27"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-dinosaurs",
+      "left": "flowers",
+      "right": "dinosaurs",
+      "canonical": "trier-les-images-flowers-vs-dinosaurs-9731",
+      "siblings": [
+        "trier-les-images-flowers-vs-dinosaurs-9731"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-easter",
+      "left": "flowers",
+      "right": "easter",
+      "canonical": "trier-les-images-flowers-vs-easter-727c",
+      "siblings": [
+        "trier-les-images-flowers-vs-easter-727c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-farm_animals",
+      "left": "flowers",
+      "right": "farm_animals",
+      "canonical": "trier-les-images-flowers-vs-farm-animals-4aaf",
+      "siblings": [
+        "trier-les-images-flowers-vs-farm-animals-4aaf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-fruits",
+      "left": "flowers",
+      "right": "fruits",
+      "canonical": "trier-les-images-flowers-vs-fruits-38de",
+      "siblings": [
+        "trier-les-images-flowers-vs-fruits-38de"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-furniture",
+      "left": "flowers",
+      "right": "furniture",
+      "canonical": "trier-les-images-flowers-vs-furniture-877c",
+      "siblings": [
+        "trier-les-images-flowers-vs-furniture-877c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-hospital",
+      "left": "flowers",
+      "right": "hospital",
+      "canonical": "trier-les-images-flowers-vs-hospital-f9b8",
+      "siblings": [
+        "trier-les-images-flowers-vs-hospital-f9b8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-insects_and_bugs",
+      "left": "flowers",
+      "right": "insects_and_bugs",
+      "canonical": "trier-les-images-flowers-vs-insects-and-bugs-5f3c",
+      "siblings": [
+        "trier-les-images-flowers-vs-insects-and-bugs-5f3c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-kitchen_tools",
+      "left": "flowers",
+      "right": "kitchen_tools",
+      "canonical": "trier-les-images-flowers-vs-kitchen-tools-1497",
+      "siblings": [
+        "trier-les-images-flowers-vs-kitchen-tools-1497"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-music",
+      "left": "flowers",
+      "right": "music",
+      "canonical": "trier-les-images-flowers-vs-music-5d23",
+      "siblings": [
+        "trier-les-images-flowers-vs-music-5d23"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-occupations",
+      "left": "flowers",
+      "right": "occupations",
+      "canonical": "trier-les-images-flowers-vs-occupations-6b92",
+      "siblings": [
+        "trier-les-images-flowers-vs-occupations-6b92"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-ocean_life",
+      "left": "flowers",
+      "right": "ocean_life",
+      "canonical": "trier-les-images-flowers-vs-ocean-life-01d9",
+      "siblings": [
+        "trier-les-images-flowers-vs-ocean-life-01d9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-pets",
+      "left": "flowers",
+      "right": "pets",
+      "canonical": "trier-les-images-flowers-vs-pets-af24",
+      "siblings": [
+        "trier-les-images-flowers-vs-pets-af24"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-post_office",
+      "left": "flowers",
+      "right": "post_office",
+      "canonical": "trier-les-images-flowers-vs-post-office-755b",
+      "siblings": [
+        "trier-les-images-flowers-vs-post-office-755b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-reptiles_and_amphibians",
+      "left": "flowers",
+      "right": "reptiles_and_amphibians",
+      "canonical": "trier-les-images-flowers-vs-reptiles-and-amphibians-064c",
+      "siblings": [
+        "trier-les-images-flowers-vs-reptiles-and-amphibians-064c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-spring",
+      "left": "flowers",
+      "right": "spring",
+      "canonical": "trier-les-images-flowers-vs-spring-e06c",
+      "siblings": [
+        "trier-les-images-flowers-vs-spring-e06c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-summer",
+      "left": "flowers",
+      "right": "summer",
+      "canonical": "trier-les-images-flowers-vs-summer-246d",
+      "siblings": [
+        "trier-les-images-flowers-vs-summer-246d"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-things_that_fly",
+      "left": "flowers",
+      "right": "things_that_fly",
+      "canonical": "trier-les-images-flowers-vs-things-that-fly-adc0",
+      "siblings": [
+        "trier-les-images-flowers-vs-things-that-fly-adc0"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-tools",
+      "left": "flowers",
+      "right": "tools",
+      "canonical": "trier-les-images-flowers-vs-tools-f21f",
+      "siblings": [
+        "trier-les-images-flowers-vs-tools-f21f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-toys",
+      "left": "flowers",
+      "right": "toys",
+      "canonical": "trier-les-images-flowers-vs-toys-7b93",
+      "siblings": [
+        "trier-les-images-flowers-vs-toys-7b93"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-tree",
+      "left": "flowers",
+      "right": "tree",
+      "canonical": "trier-les-images-flowers-vs-tree-beaa",
+      "siblings": [
+        "trier-les-images-flowers-vs-tree-beaa"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-vegetables",
+      "left": "flowers",
+      "right": "vegetables",
+      "canonical": "trier-les-images-flowers-vs-vegetables-f84c",
+      "siblings": [
+        "trier-les-images-flowers-vs-vegetables-f84c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-vehicles",
+      "left": "flowers",
+      "right": "vehicles",
+      "canonical": "trier-les-images-flowers-vs-vehicles-76f9",
+      "siblings": [
+        "trier-les-images-flowers-vs-vehicles-76f9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-weather",
+      "left": "flowers",
+      "right": "weather",
+      "canonical": "trier-les-images-flowers-vs-weather-65b9",
+      "siblings": [
+        "trier-les-images-flowers-vs-weather-65b9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-winter",
+      "left": "flowers",
+      "right": "winter",
+      "canonical": "trier-les-images-flowers-vs-winter-83df",
+      "siblings": [
+        "trier-les-images-flowers-vs-winter-83df"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "flowers-vs-zoo_animals",
+      "left": "flowers",
+      "right": "zoo_animals",
+      "canonical": "trier-les-images-flowers-vs-zoo-animals-7544",
+      "siblings": [
+        "trier-les-images-flowers-vs-zoo-animals-7544"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-around_the_house",
+      "left": "tree",
+      "right": "around_the_house",
+      "canonical": "trier-les-images-tree-vs-around-the-house-3a6b",
+      "siblings": [
+        "trier-les-images-tree-vs-around-the-house-3a6b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-at_the_supermarket",
+      "left": "tree",
+      "right": "at_the_supermarket",
+      "canonical": "trier-les-images-tree-vs-at-the-supermarket-9569",
+      "siblings": [
+        "trier-les-images-tree-vs-at-the-supermarket-9569"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-bakery",
+      "left": "tree",
+      "right": "bakery",
+      "canonical": "trier-les-images-tree-vs-bakery-4d56",
+      "siblings": [
+        "trier-les-images-tree-vs-bakery-4d56"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-beach",
+      "left": "tree",
+      "right": "beach",
+      "canonical": "trier-les-images-tree-vs-beach-4401",
+      "siblings": [
+        "trier-les-images-tree-vs-beach-4401"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-birds",
+      "left": "tree",
+      "right": "birds",
+      "canonical": "trier-les-images-tree-vs-birds-68e6",
+      "siblings": [
+        "trier-les-images-tree-vs-birds-68e6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-body_parts",
+      "left": "tree",
+      "right": "body_parts",
+      "canonical": "trier-les-images-tree-vs-body-parts-f1ef",
+      "siblings": [
+        "trier-les-images-tree-vs-body-parts-f1ef"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-breakfast",
+      "left": "tree",
+      "right": "breakfast",
+      "canonical": "trier-les-images-tree-vs-breakfast-b5a8",
+      "siblings": [
+        "trier-les-images-tree-vs-breakfast-b5a8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-camping",
+      "left": "tree",
+      "right": "camping",
+      "canonical": "trier-les-images-tree-vs-camping-f569",
+      "siblings": [
+        "trier-les-images-tree-vs-camping-f569"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-christmas",
+      "left": "tree",
+      "right": "christmas",
+      "canonical": "trier-les-images-tree-vs-christmas-8a22",
+      "siblings": [
+        "trier-les-images-tree-vs-christmas-8a22"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-classroom",
+      "left": "tree",
+      "right": "classroom",
+      "canonical": "trier-les-images-tree-vs-classroom-97bb",
+      "siblings": [
+        "trier-les-images-tree-vs-classroom-97bb"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-clothing",
+      "left": "tree",
+      "right": "clothing",
+      "canonical": "trier-les-images-tree-vs-clothing-adf8",
+      "siblings": [
+        "trier-les-images-tree-vs-clothing-adf8"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-desserts_and_sweets",
+      "left": "tree",
+      "right": "desserts_and_sweets",
+      "canonical": "trier-les-images-tree-vs-desserts-and-sweets-e0cf",
+      "siblings": [
+        "trier-les-images-tree-vs-desserts-and-sweets-e0cf"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-dinosaurs",
+      "left": "tree",
+      "right": "dinosaurs",
+      "canonical": "trier-les-images-tree-vs-dinosaurs-21db",
+      "siblings": [
+        "trier-les-images-tree-vs-dinosaurs-21db"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-easter",
+      "left": "tree",
+      "right": "easter",
+      "canonical": "trier-les-images-tree-vs-easter-41a6",
+      "siblings": [
+        "trier-les-images-tree-vs-easter-41a6"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-flowers",
+      "left": "tree",
+      "right": "flowers",
+      "canonical": "trier-les-images-tree-vs-flowers-4a5b",
+      "siblings": [
+        "trier-les-images-tree-vs-flowers-4a5b"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-forest_creatures",
+      "left": "tree",
+      "right": "forest_creatures",
+      "canonical": "trier-les-images-tree-vs-forest-creatures-26d2",
+      "siblings": [
+        "trier-les-images-tree-vs-forest-creatures-26d2"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-fruits",
+      "left": "tree",
+      "right": "fruits",
+      "canonical": "trier-les-images-tree-vs-fruits-3870",
+      "siblings": [
+        "trier-les-images-tree-vs-fruits-3870"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-furniture",
+      "left": "tree",
+      "right": "furniture",
+      "canonical": "trier-les-images-tree-vs-furniture-755a",
+      "siblings": [
+        "trier-les-images-tree-vs-furniture-755a"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-hospital",
+      "left": "tree",
+      "right": "hospital",
+      "canonical": "trier-les-images-tree-vs-hospital-3567",
+      "siblings": [
+        "trier-les-images-tree-vs-hospital-3567"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-insects_and_bugs",
+      "left": "tree",
+      "right": "insects_and_bugs",
+      "canonical": "trier-les-images-tree-vs-insects-and-bugs-5b68",
+      "siblings": [
+        "trier-les-images-tree-vs-insects-and-bugs-5b68"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-kitchen_tools",
+      "left": "tree",
+      "right": "kitchen_tools",
+      "canonical": "trier-les-images-tree-vs-kitchen-tools-5f77",
+      "siblings": [
+        "trier-les-images-tree-vs-kitchen-tools-5f77"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-music",
+      "left": "tree",
+      "right": "music",
+      "canonical": "trier-les-images-tree-vs-music-6490",
+      "siblings": [
+        "trier-les-images-tree-vs-music-6490"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-occupations",
+      "left": "tree",
+      "right": "occupations",
+      "canonical": "trier-les-images-tree-vs-occupations-9d39",
+      "siblings": [
+        "trier-les-images-tree-vs-occupations-9d39"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-ocean_life",
+      "left": "tree",
+      "right": "ocean_life",
+      "canonical": "trier-les-images-tree-vs-ocean-life-e749",
+      "siblings": [
+        "trier-les-images-tree-vs-ocean-life-e749"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-post_office",
+      "left": "tree",
+      "right": "post_office",
+      "canonical": "trier-les-images-tree-vs-post-office-964c",
+      "siblings": [
+        "trier-les-images-tree-vs-post-office-964c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-reptiles_and_amphibians",
+      "left": "tree",
+      "right": "reptiles_and_amphibians",
+      "canonical": "trier-les-images-tree-vs-reptiles-and-amphibians-cd47",
+      "siblings": [
+        "trier-les-images-tree-vs-reptiles-and-amphibians-cd47"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-spring",
+      "left": "tree",
+      "right": "spring",
+      "canonical": "trier-les-images-tree-vs-spring-c25f",
+      "siblings": [
+        "trier-les-images-tree-vs-spring-c25f"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-summer",
+      "left": "tree",
+      "right": "summer",
+      "canonical": "trier-les-images-tree-vs-summer-0db1",
+      "siblings": [
+        "trier-les-images-tree-vs-summer-0db1"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-things_that_fly",
+      "left": "tree",
+      "right": "things_that_fly",
+      "canonical": "trier-les-images-tree-vs-things-that-fly-f8ed",
+      "siblings": [
+        "trier-les-images-tree-vs-things-that-fly-f8ed"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-tools",
+      "left": "tree",
+      "right": "tools",
+      "canonical": "trier-les-images-tree-vs-tools-1db9",
+      "siblings": [
+        "trier-les-images-tree-vs-tools-1db9"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-toys",
+      "left": "tree",
+      "right": "toys",
+      "canonical": "trier-les-images-tree-vs-toys-3c24",
+      "siblings": [
+        "trier-les-images-tree-vs-toys-3c24"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-vegetables",
+      "left": "tree",
+      "right": "vegetables",
+      "canonical": "trier-les-images-tree-vs-vegetables-6105",
+      "siblings": [
+        "trier-les-images-tree-vs-vegetables-6105"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-vehicles",
+      "left": "tree",
+      "right": "vehicles",
+      "canonical": "trier-les-images-tree-vs-vehicles-1d13",
+      "siblings": [
+        "trier-les-images-tree-vs-vehicles-1d13"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-weather",
+      "left": "tree",
+      "right": "weather",
+      "canonical": "trier-les-images-tree-vs-weather-745c",
+      "siblings": [
+        "trier-les-images-tree-vs-weather-745c"
+      ],
+      "n": 1
+    },
+    {
+      "pairKey": "tree-vs-winter",
+      "left": "tree",
+      "right": "winter",
+      "canonical": "trier-les-images-tree-vs-winter-5e30",
+      "siblings": [
+        "trier-les-images-tree-vs-winter-5e30"
+      ],
+      "n": 1
+    }
+  ]
+}

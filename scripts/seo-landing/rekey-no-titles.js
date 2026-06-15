@@ -49,9 +49,9 @@ const NO_CARRY_EXCLUDED_TYPES = new Set(['math-puzzle', 'math-worksheet']);
 const TYPE_MAP = {
   addition:        { op: 'Addisjonsoppgaver', qual: { 'image-image': 'med bilder', 'image-number': 'med bilder og tall', 'find-addend': 'med manglende tall', mixed: '' } },
   subtraction:     { op: 'Subtraksjonsoppgaver', qual: { 'cross-out': 'med overstreking', 'image-number': 'med bilder og tall', 'find-subtrahend': 'med manglende tall', mixed: '' } },
-  'math-puzzle':   { op: { addition: 'Tallpuslespill pluss', subtraction: 'Tallpuslespill minus', mixed: 'Tallpuslespill' }, qual: {} },
+  'math-puzzle':   { op: { addition: 'Regnepuslespill pluss', subtraction: 'Regnepuslespill minus', mixed: 'Regnepuslespill' }, qual: {} },
   'math-worksheet':{ op: { 'two-symbols-add-sub': 'Regn med bilder', 'three-symbols-add-sub': 'Regn med bilder (tre ledd)' }, qual: {} },
-  'code-addition': { op: { 'null': 'Regnekode', 'secret-word': 'Hemmelig ord med regnekode' }, qual: { 'secret-word': 'knekk koden' } },
+  'code-addition': { op: { 'null': 'Tallkode', 'secret-word': 'Hemmelig ord med tallkode' }, qual: {} },
   'chart-count':   { op: 'Søylediagram', qual: {} },
   'more-less':     { op: 'Flest og færrest', qual: { 'check-cross': 'sett kryss', 'image-image': 'med bilder', 'image-number': 'med bilder og tall' } },
   'find-and-count':{ op: { 'hidden-object': 'Finn og tell', 'letter-spotting': 'Finn bokstaven' }, qual: {} },
@@ -80,7 +80,7 @@ const TYPE_MAP = {
 
 const META_FLAVOR = {
   addition: 'regn plusstykkene og skriv svaret', subtraction: 'regn minusstykkene og skriv svaret',
-  'math-puzzle': 'løs tallpuslespillet og sett inn riktig tall', 'code-addition': 'knekk koden og skriv tallet',
+  'math-puzzle': 'løs regnepuslespillet og sett inn riktig tall', 'code-addition': 'knekk koden og skriv tallet',
   'math-worksheet': 'finn verdien av bildene og regn ut stykket',
   'chart-count': 'tell og fyll ut søylediagrammet', 'more-less': 'sammenlign mengdene og velg flest eller færrest',
   'find-and-count': 'finn tingene på bildet og tell dem', 'big-small': 'sammenlign størrelsene og sorter dem',
@@ -123,7 +123,9 @@ function resolveQual(map, mode) { const k = (mode === null ? 'null' : mode); ret
 // GRADE-LED: numeric types carry the [N]. trinn label (from the per-coordinate re-grade); non-numeric
 // (readiness + literacy) carry NO trinn number in the title (ledger Pattern B).
 function gradeFor(type, level) {
-  if (!NUMERIC_TYPES.has(type)) return '';
+  // numeric types + code-addition (operator: grade-led-no-range) carry the [N]. trinn label;
+  // code-addition stays OUT of NUMERIC_TYPES so it keeps TAIL_OTHER + no no-carry.
+  if (!NUMERIC_TYPES.has(type) && type !== 'code-addition') return '';
   return GRADE_LABEL[level] || '';
 }
 // operation-distinct no-carry, honest only on the within-10 band + direct modes.

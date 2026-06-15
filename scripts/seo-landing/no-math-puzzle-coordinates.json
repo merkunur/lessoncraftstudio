@@ -1,0 +1,2235 @@
+{
+  "locale": "no",
+  "exerciseType": "math-puzzle",
+  "level": "(per-coordinate re-grade)",
+  "rawRowCount": 142,
+  "rowsWithoutSubjectTag": 0,
+  "droppedThemes": [
+    "4th_of_july"
+  ],
+  "coordinateCountByMode_ALL": {
+    "addition": 46,
+    "mixed": 46,
+    "subtraction": 47
+  },
+  "totalValid": 118,
+  "distinctThemes": [
+    "accessories",
+    "activities",
+    "animals",
+    "around_the_house",
+    "at_the_supermarket",
+    "bakery",
+    "beach",
+    "birds",
+    "birds_2",
+    "body_parts",
+    "breakfast",
+    "camping",
+    "christmas",
+    "classroom",
+    "clothing",
+    "desserts_and_sweets",
+    "dinosaurs",
+    "easter",
+    "emotions",
+    "farm_animals",
+    "flowers",
+    "forest_creatures",
+    "fruits",
+    "furniture",
+    "hospital",
+    "insects_and_bugs",
+    "kitchen_tools",
+    "music",
+    "occupations",
+    "ocean_life",
+    "pets",
+    "post_office",
+    "reptiles_and_amphibians",
+    "shapes",
+    "space",
+    "spring",
+    "summer",
+    "thanksgivinng",
+    "things_that_fly",
+    "tools",
+    "toys",
+    "tree",
+    "vegetables",
+    "vehicles",
+    "weather",
+    "winter",
+    "zoo_animals"
+  ],
+  "distinctModes": [
+    "addition",
+    "mixed",
+    "subtraction"
+  ],
+  "collapsedFamilies": 0,
+  "invalidRetired": [
+    "addition/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "addition/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "addition/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "addition/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "addition/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "addition/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "addition/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "mixed/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "mixed/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "mixed/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "mixed/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "mixed/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "mixed/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "mixed/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)",
+    "subtraction/activities — INVALID: cannot math-puzzle activities — not discrete-countable (semantic nonsense)",
+    "subtraction/body_parts — INVALID: cannot math-puzzle body_parts — not discrete-countable (semantic nonsense)",
+    "subtraction/emotions — INVALID: cannot math-puzzle emotions — not discrete-countable (semantic nonsense)",
+    "subtraction/spring — INVALID: cannot math-puzzle spring — not discrete-countable (semantic nonsense)",
+    "subtraction/summer — INVALID: cannot math-puzzle summer — not discrete-countable (semantic nonsense)",
+    "subtraction/weather — INVALID: cannot math-puzzle weather — not discrete-countable (semantic nonsense)",
+    "subtraction/winter — INVALID: cannot math-puzzle winter — not discrete-countable (semantic nonsense)"
+  ],
+  "coordinates": [
+    {
+      "mode": "addition",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-tilbehor-9617",
+      "siblings": [
+        "mattepuslespill-addisjon-tilbehor-9617"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-dyr-355e",
+      "siblings": [
+        "mattepuslespill-addisjon-dyr-355e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-rundt-i-huset-b482",
+      "siblings": [
+        "mattepuslespill-addisjon-rundt-i-huset-b482"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-i-supermarkedet-2f58",
+      "siblings": [
+        "mattepuslespill-addisjon-i-supermarkedet-2f58"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-bakeri-6be0",
+      "siblings": [
+        "mattepuslespill-addisjon-bakeri-6be0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-strand-803d",
+      "siblings": [
+        "mattepuslespill-addisjon-strand-803d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-fugler-9a2d",
+      "siblings": [
+        "mattepuslespill-addisjon-fugler-9a2d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-fugler-2-d4ac",
+      "siblings": [
+        "mattepuslespill-addisjon-fugler-2-d4ac"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-frokost-2ed5",
+      "siblings": [
+        "mattepuslespill-addisjon-frokost-2ed5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-camping-7e01",
+      "siblings": [
+        "mattepuslespill-addisjon-camping-7e01"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-jul-e0ae",
+      "siblings": [
+        "mattepuslespill-addisjon-jul-e0ae"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-klasserom-f2fa",
+      "siblings": [
+        "mattepuslespill-addisjon-klasserom-f2fa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-desserter-og-godteri-846c",
+      "siblings": [
+        "mattepuslespill-addisjon-desserter-og-godteri-846c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-dinosaurer-bc2c",
+      "siblings": [
+        "mattepuslespill-addisjon-dinosaurer-bc2c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-paske-3ca5",
+      "siblings": [
+        "mattepuslespill-addisjon-paske-3ca5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-gardsdyr-51c0",
+      "siblings": [
+        "mattepuslespill-addisjon-gardsdyr-51c0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-blomster-65af",
+      "siblings": [
+        "mattepuslespill-addisjon-blomster-65af"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-skogsdyr-ec31",
+      "siblings": [
+        "mattepuslespill-addisjon-skogsdyr-ec31"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-frukter-6448",
+      "siblings": [
+        "mattepuslespill-addisjon-frukter-6448"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-mobler-2412",
+      "siblings": [
+        "mattepuslespill-addisjon-mobler-2412"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-sykehus-2a8c",
+      "siblings": [
+        "mattepuslespill-addisjon-sykehus-2a8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-insekter-og-kryp-6ef1",
+      "siblings": [
+        "mattepuslespill-addisjon-insekter-og-kryp-6ef1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-kjokkenredskaper-7f92",
+      "siblings": [
+        "mattepuslespill-addisjon-kjokkenredskaper-7f92"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-musikk-0c52",
+      "siblings": [
+        "mattepuslespill-addisjon-musikk-0c52"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-yrker-2f77",
+      "siblings": [
+        "mattepuslespill-addisjon-yrker-2f77"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-havliv-4b97",
+      "siblings": [
+        "mattepuslespill-addisjon-havliv-4b97"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-kjaeledyr-cd06",
+      "siblings": [
+        "mattepuslespill-addisjon-kjaeledyr-cd06"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-postkontor-cbea",
+      "siblings": [
+        "mattepuslespill-addisjon-postkontor-cbea"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-reptiler-og-amfibier-a104",
+      "siblings": [
+        "mattepuslespill-addisjon-reptiler-og-amfibier-a104"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-former-ba5a",
+      "siblings": [
+        "mattepuslespill-addisjon-former-ba5a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-verdensrommet-b95e",
+      "siblings": [
+        "mattepuslespill-addisjon-verdensrommet-b95e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-thanksgiving-8eb5",
+      "siblings": [
+        "mattepuslespill-addisjon-thanksgiving-8eb5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-ting-som-flyr-3619",
+      "siblings": [
+        "mattepuslespill-addisjon-ting-som-flyr-3619"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-verktoy-6c39",
+      "siblings": [
+        "mattepuslespill-addisjon-verktoy-6c39"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-leker-54f7",
+      "siblings": [
+        "mattepuslespill-addisjon-leker-54f7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-traer-05e1",
+      "siblings": [
+        "mattepuslespill-addisjon-traer-05e1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-gronnsaker-a7a7",
+      "siblings": [
+        "mattepuslespill-addisjon-gronnsaker-a7a7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-kjoretoy-9a44",
+      "siblings": [
+        "mattepuslespill-addisjon-kjoretoy-9a44"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "addition",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-addisjon-dyrehagedyr-459c",
+      "siblings": [
+        "mattepuslespill-addisjon-dyrehagedyr-459c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "K.OA.A.2",
+      "_max": 10
+    },
+    {
+      "mode": "mixed",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-tilbehor-fb83",
+      "siblings": [
+        "mattepuslespill-blandet-tilbehor-fb83"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-dyr-7ef2",
+      "siblings": [
+        "mattepuslespill-blandet-dyr-7ef2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-rundt-i-huset-7dc6",
+      "siblings": [
+        "mattepuslespill-blandet-rundt-i-huset-7dc6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-i-supermarkedet-9c40",
+      "siblings": [
+        "mattepuslespill-blandet-i-supermarkedet-9c40"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-bakeri-0c7b",
+      "siblings": [
+        "mattepuslespill-blandet-bakeri-0c7b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-strand-c992",
+      "siblings": [
+        "mattepuslespill-blandet-strand-c992"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-fugler-1945",
+      "siblings": [
+        "mattepuslespill-blandet-fugler-1945"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-fugler-2-88c2",
+      "siblings": [
+        "mattepuslespill-blandet-fugler-2-88c2"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-frokost-2ca0",
+      "siblings": [
+        "mattepuslespill-blandet-frokost-2ca0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-camping-a8d0",
+      "siblings": [
+        "mattepuslespill-blandet-camping-a8d0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-jul-d4d7",
+      "siblings": [
+        "mattepuslespill-blandet-jul-d4d7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-klasserom-9b8c",
+      "siblings": [
+        "mattepuslespill-blandet-klasserom-9b8c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-desserter-og-godteri-624e",
+      "siblings": [
+        "mattepuslespill-blandet-desserter-og-godteri-624e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-dinosaurer-7df0",
+      "siblings": [
+        "mattepuslespill-blandet-dinosaurer-7df0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-paske-1df8",
+      "siblings": [
+        "mattepuslespill-blandet-paske-1df8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 11
+    },
+    {
+      "mode": "mixed",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-gardsdyr-6c88",
+      "siblings": [
+        "mattepuslespill-blandet-gardsdyr-6c88"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "mixed",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-blomster-1f65",
+      "siblings": [
+        "mattepuslespill-blandet-blomster-1f65"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-skogsdyr-aa9d",
+      "siblings": [
+        "mattepuslespill-blandet-skogsdyr-aa9d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-frukter-c102",
+      "siblings": [
+        "mattepuslespill-blandet-frukter-c102"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-mobler-f49c",
+      "siblings": [
+        "mattepuslespill-blandet-mobler-f49c"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 16
+    },
+    {
+      "mode": "mixed",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-sykehus-84a9",
+      "siblings": [
+        "mattepuslespill-blandet-sykehus-84a9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "mixed",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-insekter-og-kryp-6269",
+      "siblings": [
+        "mattepuslespill-blandet-insekter-og-kryp-6269"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "mixed",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-kjokkenredskaper-c60a",
+      "siblings": [
+        "mattepuslespill-blandet-kjokkenredskaper-c60a"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-musikk-18aa",
+      "siblings": [
+        "mattepuslespill-blandet-musikk-18aa"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-yrker-1139",
+      "siblings": [
+        "mattepuslespill-blandet-yrker-1139"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-havliv-33b5",
+      "siblings": [
+        "mattepuslespill-blandet-havliv-33b5"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-kjaeledyr-b2c4",
+      "siblings": [
+        "mattepuslespill-blandet-kjaeledyr-b2c4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "mixed",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-postkontor-bd8f",
+      "siblings": [
+        "mattepuslespill-blandet-postkontor-bd8f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "mixed",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-reptiler-og-amfibier-d770",
+      "siblings": [
+        "mattepuslespill-blandet-reptiler-og-amfibier-d770"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-former-d806",
+      "siblings": [
+        "mattepuslespill-blandet-former-d806"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-verdensrommet-fb26",
+      "siblings": [
+        "mattepuslespill-blandet-verdensrommet-fb26"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 14
+    },
+    {
+      "mode": "mixed",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-thanksgiving-9dc8",
+      "siblings": [
+        "mattepuslespill-blandet-thanksgiving-9dc8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "mixed",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-ting-som-flyr-bc0b",
+      "siblings": [
+        "mattepuslespill-blandet-ting-som-flyr-bc0b"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 12
+    },
+    {
+      "mode": "mixed",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-verktoy-2054",
+      "siblings": [
+        "mattepuslespill-blandet-verktoy-2054"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-leker-ad8f",
+      "siblings": [
+        "mattepuslespill-blandet-leker-ad8f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-traer-a229",
+      "siblings": [
+        "mattepuslespill-blandet-traer-a229"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "mixed",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-gronnsaker-27a4",
+      "siblings": [
+        "mattepuslespill-blandet-gronnsaker-27a4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "mixed",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-kjoretoy-0d78",
+      "siblings": [
+        "mattepuslespill-blandet-kjoretoy-0d78"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 15
+    },
+    {
+      "mode": "mixed",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-blandet-dyrehagedyr-7a69",
+      "siblings": [
+        "mattepuslespill-blandet-dyrehagedyr-7a69"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "accessories",
+      "slugTheme": "accessories",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-tilbehor-dc15",
+      "siblings": [
+        "mattepuslespill-subtraksjon-tilbehor-dc15"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "animals",
+      "slugTheme": "animals",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-dyr-4415",
+      "siblings": [
+        "mattepuslespill-subtraksjon-dyr-4415"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "around_the_house",
+      "slugTheme": "around-the-house",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-rundt-i-huset-6ec6",
+      "siblings": [
+        "mattepuslespill-subtraksjon-rundt-i-huset-6ec6"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "at_the_supermarket",
+      "slugTheme": "at-the-supermarket",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-i-supermarkedet-d571",
+      "siblings": [
+        "mattepuslespill-subtraksjon-i-supermarkedet-d571"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: at_the_supermarket — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "bakery",
+      "slugTheme": "bakery",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-bakeri-2f55",
+      "siblings": [
+        "mattepuslespill-subtraksjon-bakeri-2f55"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: bakery — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "beach",
+      "slugTheme": "beach",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-strand-62e7",
+      "siblings": [
+        "mattepuslespill-subtraksjon-strand-62e7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds",
+      "slugTheme": "birds",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-fugler-b209",
+      "siblings": [
+        "mattepuslespill-subtraksjon-fugler-b209"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "birds_2",
+      "slugTheme": "birds-2",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-fugler-2-02cd",
+      "siblings": [
+        "mattepuslespill-subtraksjon-fugler-2-02cd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "breakfast",
+      "slugTheme": "breakfast",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-frokost-ea02",
+      "siblings": [
+        "mattepuslespill-subtraksjon-frokost-ea02"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: breakfast — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "camping",
+      "slugTheme": "camping",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-camping-5cc3",
+      "siblings": [
+        "mattepuslespill-subtraksjon-camping-5cc3"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "christmas",
+      "slugTheme": "christmas",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-jul-d18d",
+      "siblings": [
+        "mattepuslespill-subtraksjon-jul-d18d"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "classroom",
+      "slugTheme": "classroom",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-klasserom-0b1f",
+      "siblings": [
+        "mattepuslespill-subtraksjon-klasserom-0b1f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "clothing",
+      "slugTheme": "clothing",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-klaer-49b9",
+      "siblings": [
+        "mattepuslespill-subtraksjon-klaer-49b9"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "desserts_and_sweets",
+      "slugTheme": "desserts-and-sweets",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-desserter-og-godteri-6362",
+      "siblings": [
+        "mattepuslespill-subtraksjon-desserter-og-godteri-6362"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: desserts_and_sweets — copy must use discrete counts, not partitives",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "dinosaurs",
+      "slugTheme": "dinosaurs",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-dinosaurer-fe2e",
+      "siblings": [
+        "mattepuslespill-subtraksjon-dinosaurer-fe2e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "easter",
+      "slugTheme": "easter",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-paske-49de",
+      "siblings": [
+        "mattepuslespill-subtraksjon-paske-49de"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "farm_animals",
+      "slugTheme": "farm-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-gardsdyr-37ed",
+      "siblings": [
+        "mattepuslespill-subtraksjon-gardsdyr-37ed"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "flowers",
+      "slugTheme": "flowers",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-blomster-97f4",
+      "siblings": [
+        "mattepuslespill-subtraksjon-blomster-97f4"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "forest_creatures",
+      "slugTheme": "forest-creatures",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-skogsdyr-d4c8",
+      "siblings": [
+        "mattepuslespill-subtraksjon-skogsdyr-d4c8"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "fruits",
+      "slugTheme": "fruits",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-frukter-2ac1",
+      "siblings": [
+        "mattepuslespill-subtraksjon-frukter-2ac1"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "furniture",
+      "slugTheme": "furniture",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-mobler-2989",
+      "siblings": [
+        "mattepuslespill-subtraksjon-mobler-2989"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "hospital",
+      "slugTheme": "hospital",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-sykehus-9acd",
+      "siblings": [
+        "mattepuslespill-subtraksjon-sykehus-9acd"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 17
+    },
+    {
+      "mode": "subtraction",
+      "theme": "insects_and_bugs",
+      "slugTheme": "insects-and-bugs",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-insekter-og-kryp-d602",
+      "siblings": [
+        "mattepuslespill-subtraksjon-insekter-og-kryp-d602"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "kitchen_tools",
+      "slugTheme": "kitchen-tools",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-kjokkenredskaper-ca09",
+      "siblings": [
+        "mattepuslespill-subtraksjon-kjokkenredskaper-ca09"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "warn": "COLLECTIVE-RISK: kitchen_tools — copy must use discrete counts, not partitives",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "music",
+      "slugTheme": "music",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-musikk-aadb",
+      "siblings": [
+        "mattepuslespill-subtraksjon-musikk-aadb"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 24
+    },
+    {
+      "mode": "subtraction",
+      "theme": "occupations",
+      "slugTheme": "occupations",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-yrker-e15f",
+      "siblings": [
+        "mattepuslespill-subtraksjon-yrker-e15f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 18
+    },
+    {
+      "mode": "subtraction",
+      "theme": "ocean_life",
+      "slugTheme": "ocean-life",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-havliv-b261",
+      "siblings": [
+        "mattepuslespill-subtraksjon-havliv-b261"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 21
+    },
+    {
+      "mode": "subtraction",
+      "theme": "pets",
+      "slugTheme": "pets",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-kjaeledyr-3d6e",
+      "siblings": [
+        "mattepuslespill-subtraksjon-kjaeledyr-3d6e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "post_office",
+      "slugTheme": "post-office",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-postkontor-3565",
+      "siblings": [
+        "mattepuslespill-subtraksjon-postkontor-3565"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "reptiles_and_amphibians",
+      "slugTheme": "reptiles-and-amphibians",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412",
+      "siblings": [
+        "mattepuslespill-subtraksjon-reptiler-og-amfibier-0412"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "shapes",
+      "slugTheme": "shapes",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-former-2ae7",
+      "siblings": [
+        "mattepuslespill-subtraksjon-former-2ae7"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "space",
+      "slugTheme": "space",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-verdensrommet-e864",
+      "siblings": [
+        "mattepuslespill-subtraksjon-verdensrommet-e864"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "thanksgivinng",
+      "slugTheme": "thanksgivinng",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-thanksgiving-55ba",
+      "siblings": [
+        "mattepuslespill-subtraksjon-thanksgiving-55ba"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "things_that_fly",
+      "slugTheme": "things-that-fly",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-ting-som-flyr-9ad0",
+      "siblings": [
+        "mattepuslespill-subtraksjon-ting-som-flyr-9ad0"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tools",
+      "slugTheme": "tools",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-verktoy-c38f",
+      "siblings": [
+        "mattepuslespill-subtraksjon-verktoy-c38f"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 19
+    },
+    {
+      "mode": "subtraction",
+      "theme": "toys",
+      "slugTheme": "toys",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-leker-bc27",
+      "siblings": [
+        "mattepuslespill-subtraksjon-leker-bc27"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "tree",
+      "slugTheme": "tree",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-traer-1a13",
+      "siblings": [
+        "mattepuslespill-subtraksjon-traer-1a13"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vegetables",
+      "slugTheme": "vegetables",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-gronnsaker-668e",
+      "siblings": [
+        "mattepuslespill-subtraksjon-gronnsaker-668e"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 22
+    },
+    {
+      "mode": "subtraction",
+      "theme": "vehicles",
+      "slugTheme": "vehicles",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-kjoretoy-7d51",
+      "siblings": [
+        "mattepuslespill-subtraksjon-kjoretoy-7d51"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "3-trinn",
+      "standard": "2.NBT.B.5",
+      "_max": 23
+    },
+    {
+      "mode": "subtraction",
+      "theme": "zoo_animals",
+      "slugTheme": "zoo-animals",
+      "n": 1,
+      "canonical": "mattepuslespill-subtraksjon-dyrehagedyr-7868",
+      "siblings": [
+        "mattepuslespill-subtraksjon-dyrehagedyr-7868"
+      ],
+      "ageRanges": [
+        "6-8"
+      ],
+      "valid": true,
+      "gate": "countability",
+      "level": "2-trinn",
+      "standard": "1.OA.C.6",
+      "_max": 20
+    }
+  ]
+}
